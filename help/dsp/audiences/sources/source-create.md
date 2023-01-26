@@ -3,7 +3,7 @@ title: 자사 대상을 활성화할 대상 소스 만들기
 description: 계정 또는 광고주 계정에 대상자를 가져오는 소스를 만드는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -40,7 +40,7 @@ DSP 계정 또는 광고주 계정으로 대상을 가져올 소스를 만듭니
 
 1. Experience Platform에서 [!UICONTROL Source Key] DSP 소스 설정에서 생성되었습니다.
 
-DSP 대상 연결을 활성화하고 세그먼트를 선택하고 제어 권한에 액세스하는 방법에 대한 지침은 &quot;[Adobe Advertising Cloud DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+   DSP 대상 연결을 활성화하고 세그먼트를 선택하고 제어 권한에 액세스하는 방법에 대한 지침은 &quot;[Adobe Advertising Cloud DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >

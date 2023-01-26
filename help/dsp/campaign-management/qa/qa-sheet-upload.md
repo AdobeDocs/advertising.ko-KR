@@ -3,7 +3,7 @@ title: 캠페인에 대한 배치 설정 업로드
 description: Excel QA 스프레드시트를 사용하여 캠페인에 대한 주요 배치 설정에 변경 내용을 업로드하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 0f5fdc7e-3a90-4b4b-a23c-75bed7703100
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%

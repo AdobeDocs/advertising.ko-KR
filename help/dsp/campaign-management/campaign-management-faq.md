@@ -3,7 +3,7 @@ title: Campaign Management에 대한 FAQ
 description: 변경 지연 기간 및 비행 중 예산 변경 시 발생하는 사항 등 캠페인 관리에 대해 자세히 알아보십시오.
 feature: DSP Packages, DSP Placements
 exl-id: 9034ab2c-b8b0-4759-bc87-5f73857bb062
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: PG 거래에 대한 광고 제출 대상 [!DNL FreeWheel]
 description: 게시자와 프로그래밍 방식으로 보장되는 거래를 위한 광고 승인을 요청하는 방법을 알아봅니다. [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 6cb41f3b-29e4-4feb-9c31-578ab40bd4f7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 2459ae8803e26c68d9fca3a1bcf5b744eaafb72c
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -32,7 +32,9 @@ ht-degree: 0%
 
       예를 들어 다음 URL에서 광고 키는 다음과 같습니다 `3NtNC5ZbaGZtqbei8jD3`
 
-      `https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads`
+      ```
+      https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads
+      ```
 
 1. 에 광고 제출 [!DNL Freewheel]:
 

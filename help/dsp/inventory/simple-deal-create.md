@@ -3,7 +3,7 @@ title: "만들기 [!UICONTROL Simple Ad Serving] 거래"
 description: 에 대한 추적 픽셀을 만드는 방법을 알아봅니다. [!UICONTROL Simple Ad Serving] "그래."
 feature: DSP Simple Ad Serving
 exl-id: d8de85ec-616c-44ed-9a1a-cc25713ad4a4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%

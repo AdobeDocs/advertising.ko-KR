@@ -3,7 +3,7 @@ title: 범용 비디오 광고 설정
 description: 범용 비디오 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 0be86b84-78f9-4429-a8b7-8195891875ca
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%

@@ -3,9 +3,9 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: c96e46ae-2fb2-4364-9c51-f160c00693ba
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | 의 합계 [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)], 및 [!UICONTROL Billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 전체 광고를 본 보기의 백분율입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 전체 광고를 시청한 보기 수입니다. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | 100% 가시 가능 완료(%)] | 전체 광고를 시청한 볼 수 있는 노출 횟수의 비율입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | 전체 광고를 시청한 볼 수 있는 노출의 비율입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completion Rate] | 광고 중 적어도 1사분기를 시청한 보기의 백분율입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completions] | 광고 중 적어도 1사분기를 시청한 보기 수입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 50% Completion Rate] | 광고 중 최소 2사분기를 시청한 보기의 백분율입니다. |

@@ -3,7 +3,7 @@ title: 가입 및 액세스 요청 대상 [!DNL On Demand] Premium 인벤토리 
 description: 가입 방법 및 액세스 요청[!DNL On Demand] 거래.
 feature: DSP On Demand Inventory
 exl-id: e66e5bad-526e-4b71-8072-332dd173f105
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -36,8 +36,7 @@ ht-degree: 0%
 
    * 딜 성사 **[!UICONTROL TV Broadcasters]**
 
-   * &quot;조정&quot; 크리에이티브를 수락하는 게시자의 거래
-      **[!UICONTROL Tune-In]**)
+   * &quot;조정&quot; 크리에이티브(**[!UICONTROL Tune-In]**)
 
    * 게시자가 21개 이상의 타겟팅을 적용하고 알코올 광고를 수락하는 거래(**[!UICONTROL Legal drinking age]**)
 
@@ -65,8 +64,7 @@ ht-degree: 0%
 
    * 딜 성사 **[!UICONTROL TV Broadcasters]**
 
-   * &quot;조정&quot; 크리에이티브를 수락하는 게시자의 거래
-      **[!UICONTROL Tune-In]**)
+   * &quot;조정&quot; 크리에이티브(**[!UICONTROL Tune-In]**)
 
    * 게시자가 21개 이상의 타겟팅을 적용하고 알코올 광고를 수락하는 거래(**[!UICONTROL Legal drinking age]**)
 

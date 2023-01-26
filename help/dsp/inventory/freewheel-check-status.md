@@ -3,7 +3,7 @@ title: '[!DNL 광고 상태 확인 [!DNL FreeWheel]] PG 거래'
 description: 광고 상태를 찾는 방법을 알아봅니다. [!DNL Freewheel] 프로그램 방식으로 보장되는 거래.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%

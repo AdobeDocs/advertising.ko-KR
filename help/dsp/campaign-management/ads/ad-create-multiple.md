@@ -3,7 +3,7 @@ title: 여러 타사 광고 만들기
 description: 여러 타사 광고를 한 번에 만드는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: 83d35d27-1ab6-4fcf-877f-650a2dc6975a
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%

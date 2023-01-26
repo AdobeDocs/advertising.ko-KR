@@ -3,7 +3,7 @@ title: 재요청 [!DNL On Demand] Premium 인벤토리 거래
 description: 다시 요청하는 방법 알아보기 [!DNL On Demand] 이전에 거부되었던 거래.
 feature: DSP On Demand Inventory
 exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%

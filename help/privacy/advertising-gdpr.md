@@ -3,9 +3,9 @@ title: 개인 정보 보호 규정을 위한 Adobe 광고 지원
 description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값, 레거시 제품 ID를 사용한 API 액세스 요청 및 반환된 데이터 필드의 예에 대해 알아봅니다
 feature: GDPR
 exl-id: 304d88d0-d63d-4b32-8d4d-c61ba2409adc
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Adobe 광고를 위한 데이터에 액세스하고 삭제를 요청하려면 �
 
 ## Adobe 광고 JSON 요청의 필수 필드 값
 
-&quot;&quot;company context&quot;:
+`"company context":`
 
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*IMS 조직 ID 값*>

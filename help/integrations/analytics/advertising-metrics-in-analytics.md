@@ -3,7 +3,7 @@ title: Analysis Workspace의 광고 지표 Adobe
 description: Analysis Workspace의 광고 지표 Adobe
 feature: Integration with Adobe Analytics
 exl-id: d740bd19-c643-4917-9cfd-f9cf0affd07e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL AMO Views 75% Complete] | Adobe 광고 비디오의 75% 이상을 시청한 보기 수입니다. |
 | [!UICONTROL AMO Views 100% Complete] | Adobe 광고 비디오를 100% 시청한 보기 수입니다. |
 | [!UICONTROL AMO Viewable Impressions] | 배치 구성에 따라 볼 수 있도록 측정된 노출 횟수입니다. |
-| [!UICONTROL AMO Not Viewable Impressions] | 볼 수 없음으로 확인된 노출 수입니다. 이 값은 ([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable ]). |
+| [!UICONTROL AMO Not Viewable Impressions] | 볼 수 없음으로 확인된 노출 수입니다. 이 값은 ([!UICONTROL AMO Measurable Impressions] - [!UICONTROL AMO Viewable]). |
 | [!UICONTROL AMO Measurable Impressions] | 뷰기능 계기가 성공적으로 초기화된 제공된 노출 횟수. 이 값은 (계측된 노출 횟수 - 측정되지 않은 노출 횟수)로 계산됩니다. |
 
 ## Adobe 광고를 위한 유용한 사용자 지정 계산된 지표

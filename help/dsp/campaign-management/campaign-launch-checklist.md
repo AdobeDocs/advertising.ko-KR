@@ -3,7 +3,7 @@ title: Campaign Launch 검사 목록
 description: 캠페인을 시작하기 전에 필요한 작업을 알아봅니다.
 feature: DSP Placements, DSP Ads
 exl-id: bf0147d0-0b58-435d-a2de-5b98e0d3488c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

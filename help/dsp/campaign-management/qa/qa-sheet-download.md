@@ -3,7 +3,7 @@ title: 캠페인에 대한 배치 설정 다운로드
 description: Excel QA 스프레드시트를 사용하여 캠페인에 대한 배치 설정을 다운로드하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: c3b0cbf2-7095-4608-977a-9a5dd0bbd585
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행합니다.
 
-   * 캠페인 이름 옆의 **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * 캠페인 이름 옆의 **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
-   * 캠페인 이름을 클릭하여 캠페인 세부 사항을 확인합니다. 오른쪽 상단에서 **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * 캠페인 이름을 클릭하여 캠페인 세부 사항을 확인합니다. 오른쪽 상단에서 **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
    알림 메시지는 파일을 다운로드할 수 있는 시기를 나타냅니다.
 

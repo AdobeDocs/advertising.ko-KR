@@ -2,7 +2,7 @@
 title: 경고 구독 관리
 description: 자동 이메일 경고를 관리하는 방법을 알아봅니다.
 exl-id: 415c3c60-66dc-436f-b731-78970e0df77c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
