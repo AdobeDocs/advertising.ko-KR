@@ -2,8 +2,8 @@
 title: 사용자 지정 목표 구축에 대한 우수 사례
 description: 성공 이벤트를 정의하기 위한 사용자 지정 목표를 작성하는 모범 사례를 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
-exl-id: 54b16325-4b72-48a3-a2e0-4e342229211c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%

@@ -2,8 +2,8 @@
 title: 광고 편집
 description: 광고를 편집하는 방법을 알아봅니다.
 feature: DSP Ads
-exl-id: ef140d61-f04e-4c1c-acdd-9985730dfb07
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%

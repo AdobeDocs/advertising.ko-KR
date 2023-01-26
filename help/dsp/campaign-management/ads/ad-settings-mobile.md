@@ -2,8 +2,8 @@
 title: 모바일 광고 설정
 description: 모바일 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
-exl-id: f67c4ba0-1011-4ad6-bd36-98c312b81b67
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%

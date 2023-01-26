@@ -2,8 +2,8 @@
 title: Audience Sources에서 인증된 세그먼트 활성화 정보
 description: 고객 데이터 플랫폼에서 자사 세그먼트를 수집하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
-exl-id: 3e6ede23-2b27-4b1d-bfa2-e823824633c4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -33,7 +33,7 @@ in [!DNL Real-time CDP], *대상* 는 완벽한 데이터 활성화를 허용하
 
 1. [대상 소스 만들기](source-create.md) 대상을 DSP 계정 또는 광고주 계정으로 가져오기.
 
-1. [구성 [!DNL Real-Time CDP] Experience Platform의 대상 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
+1. [구성 [!DNL Real-Time CDP] Experience Platform의 대상 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).
 
 추가 지원이 필요한 경우 [!DNL Adobe] 계정 팀 또는 `adcloud-support@adobe.com`.
 
@@ -42,7 +42,7 @@ in [!DNL Real-time CDP], *대상* 는 완벽한 데이터 활성화를 허용하
 >* [내구성 ID 파트너에서 인증된 세그먼트 활성화](source-durable-id.md)
 >* [자사 대상을 활성화할 대상 소스 만들기](source-create.md)
 >* [대상 소스 설정](source-settings.md)
->* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* Adobe Experience Platform [대상 카탈로그 개요](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
 

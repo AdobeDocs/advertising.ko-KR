@@ -2,8 +2,8 @@
 title: 사용 사례
 description: Advertising DSP 미디어 데이터를 Audience Manager과 공유하는 사용 사례에 대해 알아봅니다
 feature: Integration with Adobe Audience Manager
-exl-id: 21d80cf6-f817-495a-bae4-fc9e44f1eda4
-source-git-commit: 48cab1494ee36e6ab2f12b2e87adedf62a21374f
+exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -34,23 +34,17 @@ Audience Manager에서 이 예를 실행하려면 다음 단계를 수행합니�
 
    예를 들어 트레이트의 이름을 지정하려면 `Creative Trait 123`, 다음 트레이트 규칙을 사용합니다.
 
-   ```
-   d_creative == 123 AND d_event == imp
-   ```
+   `d_creative == 123 AND d_event == imp`
 
 1. 클릭하거나 변환하는 사용자를 캡처하기 위한 트레이트를 만듭니다.
 
    예를 들어 이 트레이트의 이름을 지정하려면 `Click and Converter`, 다음 트레이트 규칙을 사용합니다.
 
-   ```
-   d_event == click OR d_event=conv
-   ```
+   `d_event == click OR d_event=conv`
 
 1. 라는 세그먼트를 만듭니다. `Retarget Users` creative를 본 사용자를 채우기 위해 `123` 그러나 클릭하거나 전환하지 않았습니다. 다음 트레이트 규칙을 사용합니다.
 
-   ```
-   Creative Trait 123 AND NOT Click and Converter
-   ```
+   `Creative Trait 123 AND NOT Click and Converter`
 
 1. 세그먼트 매핑 `Retarget Users` 대상을 대상으로 타깃팅하고 대상을 창의적으로 사용하여 사용자를 타깃팅합니다 `456`.
 

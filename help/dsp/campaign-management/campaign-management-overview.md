@@ -2,8 +2,8 @@
 title: Advertising DSP의 Campaign Management 개요
 description: Campaign 관리 계층 및 구성 요소에 대해 알아봅니다.
 feature: DSP Packages, DSP Placements, DSP Ads
-exl-id: c94e08d0-0dd5-4cf9-8df2-9eb4c591375c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
@@ -57,5 +57,5 @@ A [배치](/help/dsp/campaign-management/placements/placement-about.md) 동일�
 >* [성능 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [플랫폼 내 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Campaign 데이터 보기 정보](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
->* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
+>* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
 

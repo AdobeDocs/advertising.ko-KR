@@ -2,8 +2,8 @@
 title: 스프레드시트를 사용하여 캠페인에 대한 배치 설정 수정 정보
 description: Excel QA 스프레드시트를 사용하여 캠페인에 대한 주요 배치 설정을 검토하고 편집하는 방법을 알아봅니다.
 feature: DSP Placements
-exl-id: 9e90488f-157d-4569-8011-da51c5b05c1d
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

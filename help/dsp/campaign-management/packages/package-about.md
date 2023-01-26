@@ -2,8 +2,8 @@
 title: Advertising DSP의 패키지 관리 정보
 description: 패키지 관리에 대해 알아봅니다.
 feature: DSP Packages
-exl-id: 06d77698-62ae-466b-8cf7-c9148907ba6d
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

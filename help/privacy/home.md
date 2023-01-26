@@ -3,8 +3,9 @@ title: Adobe Advertising 고객 개인정보 보호 지원
 description: Adobe 광고는 광고주 고객이 개인 정보 보호 법을 준수할 수 있도록 보안 및 개인 정보 제어를 제공합니다.
 cloud: Experience Cloud
 product: advertising cloud
-exl-id: ffc50470-301e-44bc-9f56-63667dd8fb64
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+index: true
+exl-id: 1f9b2866-c0c6-4733-a687-d72eb4014598
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 20%

@@ -2,8 +2,8 @@
 title: 배치에 광고 첨부
 description: 배치에 광고를 첨부하는 방법을 알아봅니다.
 feature: DSP Ads
-exl-id: 4d85b89b-217f-46eb-a8b2-27da4c220be7
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
@@ -86,7 +86,6 @@ ht-degree: 1%
       1. 클릭 **[!UICONTROL Select an Ad].**
 
       1. 광고를 지정합니다.
-
          * 한 번에 한 개의 광고를 추가하려면:
 
             1. 광고 이름 옆에 있는 를 클릭합니다. **[!UICONTROL Select].**

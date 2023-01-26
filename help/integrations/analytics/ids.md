@@ -2,10 +2,10 @@
 title: Adobe 광고 ID 사용 [!DNL Analytics]
 description: Adobe 광고 ID 사용 [!DNL Analytics]
 feature: Integration with Adobe Analytics
-exl-id: ed1aab7b-9bd0-4d42-9bfb-9c6fa6db76bc
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,7 @@ EF ID는 Adobe 광고에서 온라인 클릭 또는 광고 노출과 활동을 �
 
 #### [!DNL Google Ads] 검색 광고
 
-```
-{gclid}:G:s
-```
+```{gclid}:G:s```
 
 위치:
 
@@ -60,9 +58,7 @@ EF ID는 Adobe 광고에서 온라인 클릭 또는 광고 노출과 활동을 �
 
 #### Microsoft 광고 검색 광고
 
-```
-{msclkid}:G:s
-```
+```{msclkid}:G:s```
 
 위치:
 
@@ -71,9 +67,7 @@ EF ID는 Adobe 광고에서 온라인 클릭 또는 광고 노출과 활동을 �
 
 #### 다른 검색 엔진에 광고 및 검색 광고를 표시합니다
 
-```
-<Adobe Advertising visitor ID>:<timestamp>:<channel type>
-```
+```<Adobe Advertising visitor ID>:<timestamp>:<channel type>```
 
 위치:
 
@@ -87,7 +81,7 @@ EF ID는 Adobe 광고에서 온라인 클릭 또는 광고 노출과 활동을 �
    * `i` DSP 디스플레이 광고 노출(디스플레이 뷰스루)
    * `s` 검색 광고(검색 클릭스루)를 클릭합니다.
 
-예 `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
+예 `EF `ID: WcmibgAAAHJK1RyY:1551968087687:d
 
 ### 의 EF ID Dimension [!DNL Analytics]
 
@@ -103,9 +97,7 @@ AMO ID를 `s_kwcid`: 때로 &quot;[!DNL the squid].&quot;
 
 ### AMO ID 형식 [!DNL DSP]
 
-```
-<Channel ID>!<Ad ID>!<Placement ID>
-```
+```<Channel ID>!<Ad ID>!<Placement ID>```
 
 위치:
 
@@ -124,9 +116,7 @@ AMO ID 예: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 용 AMO ID [!DNL Search] 각 검색 엔진에 대해 고유한 형식을 따릅니다. 모든 검색 엔진의 형식은 다음과 같이 시작합니다.
 
-```
-AL!{userid}!{sid}
-```
+```AL!{userid}!{sid}```
 
 위치:
 
@@ -138,9 +128,7 @@ AL!{userid}!{sid}
 
 AMO ID 형식 [!DNL Google Ads]:
 
-```
-AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
-```
+```AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}```
 
 위치:
 
@@ -152,9 +140,7 @@ AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partitio
 
 AMO ID 형식 [!DNL Microsoft Advertising]:
 
-```
-AL!{userid}!{sid}!{AdId}!{OrderItemId}
-```
+```AL!{userid}!{sid}!{AdId}!{OrderItemId}```
 
 위치:
 

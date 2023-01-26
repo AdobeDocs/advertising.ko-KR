@@ -2,8 +2,8 @@
 title: 데이터 열 정렬
 description: 모든 캠페인 관리 보기에서 데이터 열을 정렬하는 방법을 알아봅니다.
 feature: DSP Campaign Data Views
-exl-id: ed27246a-a31e-4ad2-bc30-446478fc58d1
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 42b0ac59-b318-48a6-a754-b969fd3f6f0d
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%

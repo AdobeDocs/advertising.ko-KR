@@ -2,8 +2,8 @@
 title: Advertising DSP에서 사용 가능한 타사 데이터 공급자
 description: 사용 가능한 모든 타사 데이터 공급자 목록을 참조하십시오.
 feature: DSP Audiences
-exl-id: f67d81a0-bd31-48d8-9bcf-1888afd43894
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%

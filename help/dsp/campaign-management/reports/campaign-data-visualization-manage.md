@@ -2,8 +2,8 @@
 title: 데이터 시각화 관리
 description: 데이터 시각화를 위해 지표 및 표시 모드를 변경하는 방법을 알아봅니다.
 feature: DSP Campaign Data Views
-exl-id: f557ddfc-9a20-4cbc-8ad3-230ba5df32e3
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: e0ebcfbb-28f4-4d28-af28-7d8030988d35
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%

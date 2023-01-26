@@ -2,8 +2,8 @@
 title: 개요 [!DNL Analytics for Advertising]
 description: 개요 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
-exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 보기 [비디오 소개 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics).
+> 보기 [비디오 소개 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics).
 
 ## 유료 미디어 보고에 Analytics 사용
 
@@ -94,19 +94,19 @@ Experience Cloud 대상 서비스에 대한 자세한 내용은 [Experience Clou
 
 ### Analysis Workspace에서 Adobe 광고 데이터 사용
 
-Adobe 광고 데이터를 사용하여 Analysis Workspace에서 시각적 보고서를 만드는 방법에 대해 알아보려면 비디오 &quot;[작업 공간 및 보고 소개](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+Adobe 광고 데이터를 사용하여 Analysis Workspace에서 시각적 보고서를 만드는 방법에 대해 알아보려면 비디오 &quot;[작업 공간 및 보고 소개](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
 
 ### Adobe 광고 대시보드 만들기
 
-Analysis Workspace의 목표에 대해 Adobe 광고 데이터를 추적하는 방법을 배우려면 비디오 &quot;[Adobe Analytics을 사용하여 Adobe 광고 대시보드 만들기](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
+Analysis Workspace의 목표에 대해 Adobe 광고 데이터를 추적하는 방법을 배우려면 비디오 &quot;[Adobe Analytics을 사용하여 Adobe 광고 대시보드 만들기](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
 
 ### 사이트 시작 분석에 Adobe 광고 ID 사용
 
-Adobe 광고 사이트 시작 보고서를 만들어 주별, 시간별, 브라우저 및 지리적 영향을 모니터링하는 방법을 보려면 비디오 &quot;[Adobe 광고 사이트 시작 보고서 만들기](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+Adobe 광고 사이트 시작 보고서를 만들어 주별, 시간별, 브라우저 및 지리적 영향을 모니터링하는 방법을 보려면 비디오 &quot;[Adobe 광고 사이트 시작 보고서 만들기](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
 
 >[!MORELIKETHIS]
 >
->* [비디오: 소개 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html)
+>* [비디오: 소개 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
 >* [구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics for Advertising]](prerequisites.md)
 >* [Analytics에서 사용하는 Adobe 광고 ID](ids.md)
 >* [Analytics for Advertising에 대한 JavaScript 코드](/help/integrations/analytics/javascript.md)

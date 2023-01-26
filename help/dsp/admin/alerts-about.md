@@ -1,8 +1,8 @@
 ---
 title: 경고 구독 기본 정보
 description: 자동 이메일 경고에 대해 알아봅니다.
-exl-id: 9ed07a89-5a5f-4c63-a504-4a5680c1afd4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: f3578f10-4f66-4133-a6e0-1ca8001dd2c9
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%

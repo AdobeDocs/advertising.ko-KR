@@ -1,9 +1,9 @@
 ---
-title: "[!DNL On Demand] Premium 북아메리카의 Inventory 게시자"
+title: '`[!DNL On Demand] Premium 북아메리카의 인벤토리 게시자'
 description: 사용 가능한 을 참조하십시오 [!DNL On Demand] 북아메리카의 프리미엄 인벤토리 게시자
 feature: DSP On Demand Inventory
-exl-id: 47136e55-aab9-4112-8317-1aafca0b1c49
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: f1805fe0-5687-4e32-809f-c584acee3676
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%

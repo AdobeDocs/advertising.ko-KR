@@ -1,10 +1,10 @@
 ---
 title: Adobe Target에서 Adobe 광고 광고에 대한 A/B 테스트 구성
 description: 에서 A/B 테스트를 설정하는 방법을 알아봅니다 [!DNL Target] DSP 및 [!DNL Search] 광고.
-exl-id: 97055645-4b2f-4795-830d-9ce89ae2ad15
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Adobe 광고 및 Adobe Target을 사용하면 마케터가 유료 미디어 및 
 
 ![클릭스루 프레임워크](/help/integrations/assets/target-ct-framework.png)
 
-클릭스루 URL(사용자가 광고를 클릭하여 랜딩 페이지에 도달하면 표시되는 URL)에 DSP 매크로를 추가하면 DSP은 을 포함하여 자동으로 배치 키를 캡처합니다 `${TM_PLACEMENT_ID}` ( 클릭스루 URL) 아래에 그룹화됩니다. 이 매크로는 숫자 배치 ID가 아니라 영숫자 배치 키를 캡처합니다.
+클릭스루 URL(사용자가 광고를 클릭하여 랜딩 페이지에 도달하면 표시되는 URL)에 DSP 매크로를 추가하면 DSP은 을 포함하여 자동으로 배치 키를 캡처합니다 ```${TM_PLACEMENT_ID}``` ( 클릭스루 URL) 아래에 그룹화됩니다. 이 매크로는 숫자 배치 ID가 아니라 영숫자 배치 키를 캡처합니다.
 
 ![랜딩 페이지 URL에 추가된 클릭스루 URL입니다](/help/integrations/assets/target-ct-url.jpg)
 
@@ -98,7 +98,7 @@ Flash 대화 또는 Google Campaign Manager 360 내에서 AMO ID 변수를 캡�
 
    1. 에서 **데이터 소스** 드롭다운 메뉴에서 **Ad Cloud**.
 
-   1. 표현식 빌더 내에서 를 추가합니다 `d_event` 키 필드에서 `imp` 에서 **값** 필드, 선택 **규칙 추가**, 그런 다음 트레이트를 저장합니다.
+   1. 표현식 빌더 내에서 를 추가합니다 ```d_event``` 키 필드에서 ```imp``` 에서 **값** 필드, 선택 **규칙 추가**, 그런 다음 트레이트를 저장합니다.
 
    ![규칙 기반 트레이트의 스크린샷](/help/integrations/assets/target-am-trait.png)
 
@@ -115,7 +115,7 @@ Flash 대화 또는 Google Campaign Manager 360 내에서 AMO ID 변수를 캡�
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-다음 지침은 DSP 사용 사례와 관련된 정보를 강조 표시합니다. 전체 지침은 &quot;[A/B 테스트 만들기](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html).&quot;
+다음 지침은 DSP 사용 사례와 관련된 정보를 강조 표시합니다. 전체 지침은 &quot;[A/B 테스트 만들기](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)
 
 1. [Adobe Target에 로그인](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -129,7 +129,7 @@ Flash 대화 또는 Google Campaign Manager 360 내에서 AMO ID 변수를 캡�
 
    >[!NOTE]
    >
-   >여러 URL을 사용하여 뷰스루 사이트 항목을 테스트할 수 있습니다. 자세한 내용은 &quot;[다중 페이지 활동](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; 페이지 URL별로 최상위 항목을 만들기 위해 [사이트 시작 보고서](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) 참조하십시오.
+   >여러 URL을 사용하여 뷰스루 사이트 항목을 테스트할 수 있습니다. 자세한 내용은 &quot;[다중 페이지 활동](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; 페이지 URL별로 최상위 항목을 만들기 위해 [사이트 시작 보고서](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-site-entry-reports.html) 참조하십시오.
 
 1. 에서 **목표** 필드에서 테스트에 대한 성공 지표를 입력합니다.
 
@@ -208,7 +208,7 @@ Analysis Workspace 내에서 활동 및 경험 데이터가 최소한으로 채�
 
 * 동일한 랜딩 페이지에서 a) 솔루션 > Target 아래의 Adobe 디버거에 표시된 호스트 이름이 b)에 표시된 추적 서버와 일치하는지 확인합니다. [!DNL Target] 활동에 대해(목표 및 설정 > 보고 설정에서).
 
-   [!DNL Analytics For Target] 를 사용하려면 [!DNL Analytics] 호출에서 전송할 추적 서버 [!DNL Target] 변환 후 [!DNL Modstats] analytics용 데이터 수집 서버.<!-- just "to Analytics?"-->
+   [!DNL Analytics For Target] 를 사용하려면 [!DNL Analytics] 호출에서 전송할 추적 서버 [!DNL Target] 변환 후 [!DNL Modstats] analytics용 데이터 수집 서버.&lt;!— &quot;Analytics로&quot;>
 
 [Adobe 디버거의 호스트 이름 값](/help/integrations/assets/target-troubleshooting-hostname.png)
 

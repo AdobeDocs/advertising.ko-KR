@@ -2,8 +2,8 @@
 title: Adobe 광고 ID를 사용하여 만들기 [!DNL Marketing Channels] 규칙
 description: Adobe 광고 ID를 사용하여 처리 규칙을 만드는 방법을 알아봅니다. [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-exl-id: 4fcdd586-e9c5-4405-a6dc-7799d2bac93e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 525761b4-607f-4b03-9020-8051009a13c6
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%
@@ -93,6 +93,6 @@ EF ID 차원은 [!DNL Analytics] 보고 EF ID는 마케팅 채널을 만드는 �
 >* [기본 사항 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe 광고과 광고 사이에 채널 데이터가 다를 수 있는 이유 [!DNL Marketing Channels]](mc-data-variances.md)
 >* [사용 [!DNL Analytics Marketing Channels] 광고 데이터 Adobe 사용](mc-ac-data.md)
->* [비디오: 사용 [!DNL Marketing Channels] Adobe 광고 보고용](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [비디오: 사용 [!DNL Marketing Channels] Adobe 광고 보고용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Adobe 광고 ID 사용 [!DNL Analytics]](/help/integrations/analytics/ids.md)
 
