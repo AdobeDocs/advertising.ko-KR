@@ -2,13 +2,13 @@
 type: Documentation
 role: User, Admin
 cloud: Experience Cloud
-solution: Advertising Cloud
+solution: Advertising, Advertising Cloud
 product: advertising cloud
 user-guide-title: Adobe Advertising 고객 개인정보 보호 지원
 user-guide-description: 광고주 고객이 소비자 개인정보 보호 법을 준수할 수 있도록 Adobe Advertising이 제공하는 모든 유형의 보안 및 개인정보 보호 제어 기능에 대해 알아봅니다.
 breadcrumb-title: 소비자 개인정보 보호 지원
 index: true
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: c0dad3f6c5744ec32417e9fe0cab0f328067ae18
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 56%
