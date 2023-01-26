@@ -2,23 +2,25 @@
 title: 수동으로 거래 ID 상세내역 생성
 description: 거래 ID에 대한 세부 사항을 수동으로 입력하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: cd9763a7-99d4-4881-9df9-b4e24c55be0f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
+source-git-commit: 2fe1ee7366c84f3a7d770aa3412fdde61829fe46
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
 # 수동으로 거래 ID 상세내역 생성
 
-1. 주 메뉴에서 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. 주 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. 데이터 테이블 위에서 **[!UICONTROL Create]**&#x200B;를 선택한 다음 을 선택합니다. **[!UICONTROL Deal ID]**.
 
 1. 을(를) 입력합니다. [거래 설정](deal-id-settings.md):
 
    1. 에서 [!UICONTROL Deal ID basics] 섹션에서 거래 세부 사항과 거래에 액세스할 수 있는 광고주를 지정합니다. 보증 거래의 경우 추적 목적으로만 계획된 비행 날짜와 예상 노출 횟수를 지정해야 합니다.
+
+      인벤토리 > 거래 보기에서 &quot;PG 노출 간격&quot; 지출 열을 포함하여 보장된 거래의 게재를 추적할 수 있습니다.
 
    1. (관리자 사용자만 해당) 선택 사항) [!UICONTROL Technical] 섹션에서 필요에 따라 기본 설정을 편집합니다.
 
