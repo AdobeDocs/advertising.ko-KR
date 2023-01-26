@@ -2,8 +2,8 @@
 title: 세그먼트 공유 또는 중지
 description: 다른 DSP 사용자 계정과 사용자 지정 또는 CCPA 판매 중지 세그먼트 공유를 공유하거나 중지하는 방법을 알아봅니다.
 feature: DSP Segments
-exl-id: 3a284c81-73ee-4efd-9532-5ae00a000dd9
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 다른 DSP 사용자 계정과의 세그먼트 공유를 중지할 수도 있습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. 주 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. 세그먼트 행 위에 커서를 놓고 **[!UICONTROL Share]**.
 

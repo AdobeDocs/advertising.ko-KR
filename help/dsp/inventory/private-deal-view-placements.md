@@ -2,8 +2,8 @@
 title: 비공개 거래의 배치 및 광고 나열
 description: 비공개 거래와 연결된 배치 및 광고 목록을 여는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: b7962e2f-933e-4563-b42c-27f5ef3c77e0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 비공개 거래와 연결된 모든 배치 및 광고 목록을 열 수 있습니다. 배치나 광고에 대한 설정을 선택적으로 열 수 있습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. 주 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 거래 행에서  **[!UICONTROL ...]>[!UICONTROL Placements and Ads]**.
+1. 거래 행에서  **[!UICONTROL ...]** > **[!UICONTROL Placements and Ads]**.
 
    다음 [!UICONTROL Placements] 기본적으로 탭이 표시됩니다. 광고를 보려면 [!UICONTROL Ads] 탭.
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
    * 배치 설정을 편집하려면 배치 행 위에 커서를 놓고 를 클릭합니다 **[!UICONTROL Edit]**. [배치 설정 편집](/help/dsp/campaign-management/placements/placement-settings.md)를 클릭한 다음 **[!UICONTROL Update placement]**.
 
-   * 배치 인벤토리 대상에서 거래를 제거하려면 배치 행 위에 커서를 놓고 를 클릭합니다 **[!UICONTROL More]>[!UICONTROL Detach Placement]**. 확인 메시지에서 **[!UICONTROL Yes]**.
+   * 배치 인벤토리 대상에서 거래를 제거하려면 배치 행 위에 커서를 놓고 를 클릭합니다 **[!UICONTROL More]** > **[!UICONTROL Detach Placement]**. 확인 메시지에서 **[!UICONTROL Yes]**.
 
       배치를 분리해도 배치가 삭제되지 않습니다.
 
-   * 광고 설정을 편집하려면 광고 행 위에 커서를 놓고 를 클릭합니다 **[!UICONTROL More]>[!UICONTROL Edit]**. [광고 설정 편집](/help/dsp/campaign-management/ads/ad-edit.md)를 클릭한 다음 **[!UICONTROL Save & submit for review]**.
+   * 광고 설정을 편집하려면 광고 행 위에 커서를 놓고 를 클릭합니다 **[!UICONTROL More]** > **[!UICONTROL Edit]**. [광고 설정 편집](/help/dsp/campaign-management/ads/ad-edit.md)를 클릭한 다음 **[!UICONTROL Save & submit for review]**.
 
 >[!MORELIKETHIS]
 >

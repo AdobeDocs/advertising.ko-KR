@@ -2,8 +2,8 @@
 title: 패키지 복제
 description: 패키지를 복제하는 방법을 알아봅니다.
 feature: DSP Packages
-exl-id: 4c37883f-5feb-4513-9573-ed4e32606132
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 1. 캠페인 이름을 클릭하여 캠페인 [!UICONTROL Packages] 보기.
 
-1. 패키지 이름 옆의  **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
+1. 패키지 이름 옆의  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. 새 패키지 설정을 지정합니다.
 

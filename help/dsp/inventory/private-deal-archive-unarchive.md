@@ -2,8 +2,8 @@
 title: 비공개 거래 보관 또는 보관 해제
 description: 비공개 거래를 보관하거나 아카이브 해제하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6ecf90b6-a52f-42f3-aa3f-b2c489ea0aa8
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 ## 비공개 거래 아카이브
 
-1. 주 메뉴에서 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
-1. 거래 행에서 **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. 주 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. 거래 행에서 **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. 확인 메시지에서 **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 ## 비공개 거래 보관 해제
 
-1. 주 메뉴에서 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. 주 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 1. 거래 목록 위에서 을 클릭합니다. ![필터](/help/dsp/assets/filter.png); click **[!UICONTROL Status]** 을(를) 선택합니다. *[!UICONTROL Archived]*; 을 클릭한 다음 **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
-1. 거래 행에서 **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. 거래 행에서 **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. 확인 메시지에서 **[!UICONTROL Unarchive]**.
 
 게시자 또는 SSP가 이전에 거래를 비활성화하여 다시 사용하려면 게시자 또는 SSP에 직접 문의하십시오.

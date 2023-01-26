@@ -1,7 +1,7 @@
 ---
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
@@ -38,9 +38,9 @@ ht-degree: 0%
 
 (선택 사항) DSP 계정에 연결된 추가 Experience Cloud 제품. 제품은 및에 제공된 동일한 Experience Cloud 조직 ID와 연결되어 있어야 합니다. [!UICONTROL Adobe IMS IDs] 섹션을 참조하십시오.
 
-**[!UICONTROL Attribution services]> [!UICONTROL Adobe Media Optimizer]:** (광고 그룹 [!DNL Adobe Advertising Search] 또는 Adobe 광고 변환 픽셀을 사용하는 사람) A [!DNL Search] DSP에서 속성 데이터를 교환할 계정.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (광고 그룹 [!DNL Adobe Advertising Search] 또는 Adobe 광고 변환 픽셀을 사용하는 사람) A [!DNL Search] DSP에서 속성 데이터를 교환할 계정.
 
-**[!UICONTROL Report suites]> [!UICONTROL Adobe Analytics]:** (Adobe Analytics을 사용하는 광고주) 선택 사항; 다음을 포함하는 Adobe 광고 전환 추적 태그를 사용하여 수집된 데이터에만 적용 가능 [!DNL EF Redirect] 및 토큰만) 하나 이상 [!DNL Analytics] DSP이 게시자 및 공급측 파트너에서 수집하는 데이터를 전송할 보고서 세트입니다. 또한 Analytics는 클라이언트의 사이트에서 수집한 데이터를 DSP으로 보냅니다.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Adobe Analytics을 사용하는 광고주) 선택 사항; 다음을 포함하는 Adobe 광고 전환 추적 태그를 사용하여 수집된 데이터에만 적용 가능 [!DNL EF Redirect] 및 토큰만) 하나 이상 [!DNL Analytics] DSP이 게시자 및 공급측 파트너에서 수집하는 데이터를 전송할 보고서 세트입니다. 또한 Analytics는 클라이언트의 사이트에서 수집한 데이터를 DSP으로 보냅니다.
 
 데이터가 보고서 세트에 표시되려면 [!DNL Search] advertiser 수준 설정을 &quot;(으)로 설정[!UICONTROL Enable tracking for SAINT feeds]&quot;을(를) 활성화해야 합니다. 또한 광고주는 [!DNL Analytics] Adobe 광고에서 데이터를 수신하려면 계정을 구성해야 합니다.
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 통합 방법에 대한 자세한 정보 [!DNL Analytics]를 참조하십시오.[개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]> [!UICONTROL Adobe Analytics Cloud]:** (Adobe Audience Manager 또는 Adobe Analytics을 사용하는 광고주) 선택 사항) Audience Manager 또는 [!DNL Analytics] DSP에서 모든 광고주의 Adobe 대상에 대한 세그먼트 메타데이터, 계층 데이터 및 고유한 대상 데이터를 가져오는 계정입니다. 여기에는 다음에 대한 데이터가 포함됩니다.
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Adobe Audience Manager 또는 Adobe Analytics을 사용하는 광고주) 선택 사항) Audience Manager 또는 [!DNL Analytics] DSP에서 모든 광고주의 Adobe 대상에 대한 세그먼트 메타데이터, 계층 데이터 및 고유한 대상 데이터를 가져오는 계정입니다. 여기에는 다음에 대한 데이터가 포함됩니다.
 
 * Audience Manager 세그먼트
 * [!DNL Analytics] Adobe Experience Cloud에 게시된 세그먼트

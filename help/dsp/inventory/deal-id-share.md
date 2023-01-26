@@ -2,8 +2,8 @@
 title: 비공개 거래에 액세스할 수 있는 계정 편집
 description: 다른 계정과 비공개 거래를 공유하고 중지하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 5ddd406d-1ee5-4d13-8e12-be575cbb7551
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -22,21 +22,21 @@ ht-degree: 0%
 
 ## 계정과 거래 ID 공유
 
-1. 주 메뉴에서 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. 주 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. 거래 행에서 **[!UICONTROL ...]>[!UICONTROL Share]**.
+1. 거래 행에서 **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
 1. 공유할 각 계정의 경우:
 
-   1. 을(를) 입력합니다. **[!UICONTROL Email Address]** 거래에 접근할 수 있는 거래처입니다
+1. 을(를) 입력합니다. **[!UICONTROL Email Address]** 거래에 접근할 수 있는 거래처입니다
 
-   1. 클릭 **[!UICONTROL Share]**.
+1. 클릭 **[!UICONTROL Share]**.
 
 ## 계정과 거래 ID 공유 중지
 
-1. 주 메뉴에서 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. 주 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. 거래 행에서 **[!UICONTROL ...]>[!UICONTROL Share]**.
+1. 거래 행에서 **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
 1. 다음 [!UICONTROL Account Email] 값, **[!UICONTROL Unshare].**
 

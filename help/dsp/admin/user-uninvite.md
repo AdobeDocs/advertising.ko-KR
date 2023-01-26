@@ -1,8 +1,8 @@
 ---
 title: 보류 중인 사용자 초대 취소
 description: 보류 중인 사용자 초대를 취소하는 방법을 알아봅니다.
-exl-id: a67290f7-27ae-4891-a1d4-8283e8426f72
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행합니다.
 
-   * 주 메뉴에서 **[!UICONTROL Settings]>[!UICONTROL Users]**.
+   * 주 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * 주 메뉴에서 **[!UICONTROL Settings]>[!UICONTROL Account]**&#x200B;를 클릭한 다음 **[!UICONTROL Edit users]**.
+   * 주 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;를 클릭한 다음 **[!UICONTROL Edit users]**.
 
 1. 에서 **[!UICONTROL Invitations]** 섹션을 클릭합니다. **[!UICONTROL X]** 초대 옆에 있습니다.
 

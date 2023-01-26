@@ -2,8 +2,8 @@
 title: 재사용 가능한 대상 삭제
 description: 재사용 가능한 대상을 삭제하는 방법을 알아봅니다.
 feature: DSP Audiences
-exl-id: 037f85b1-8676-4ac7-b1a2-ae7d5550b377
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 현재 대상이 사용되면 을(를) 내보내는 옵션이 제공됩니다 [!DNL Microsoft Excel] 대상을 사용하는 모든 배치 및 대상을 표시하는 워크시트입니다.
 
-1. 주 메뉴에서 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. 주 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. 대상 행 위에 커서를 놓고 **[!UICONTROL Delete]**.
 

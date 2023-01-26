@@ -2,8 +2,8 @@
 title: 재사용 가능한 대상 편집
 description: 재사용 가능한 대상을 편집하는 방법을 알아봅니다.
 feature: DSP Audiences
-exl-id: 6a3145b9-2d30-4040-8893-0fb7b3f86597
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 배치나 다른 재사용 가능한 대상에서 사용되는 대상을 편집하면 변경 사항이 해당 배치 및 대상에 즉시 적용됩니다.<!-- verify -->
 
-1. 주 메뉴에서 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. 주 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. 대상 행 위에 커서를 놓고 **[!UICONTROL Edit]**.
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
       1. 다음 방법 중 하나로 기존 대상의 세그먼트 논리를 복사합니다.
 
-         * 모든 대상 보기에서 대상 행 위에 커서를 놓고 **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * 모든 대상 보기에서 대상 행 위에 커서를 놓고 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * 기존 대상에 대한 설정의 세그먼트 논리 패널 상단에서 을 클릭합니다. **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * 기존 대상에 대한 설정의 세그먼트 논리 패널 상단에서 을 클릭합니다. **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * 텍스트 편집기에서 영숫자 세그먼트 ID와 [부울 구문](audience-segment-logic-syntax.md)를 클립보드에 복사합니다.
       1. 클릭 **[!UICONTROL paste in an audience rule to begin building]**&#x200B;기존 세그먼트 논리를 입력 필드에 붙여 넣은 다음 를 클릭합니다 **[!UICONTROL Apply]**.

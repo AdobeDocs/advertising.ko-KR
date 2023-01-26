@@ -2,8 +2,8 @@
 title: 사용자의 상태 보기 [!DNL On Demand] 거래 요청 및 구독
 description: 사용자의 상태를 확인하는 방법을 알아봅니다 [!DNL On Demand] 거래 요청 및 구독.
 feature: DSP On Demand Inventory
-exl-id: 8dd6d922-c4a3-4ddb-bca9-f6f782da1320
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 개별 거래를 요청하거나 게시자의 모든 거래를 구독한 후 게시자가 계정의 각 광고주에게 각 거래를 승인하거나 거부했는지 확인합니다.
 
-1. 주 메뉴에서 **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. 주 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 1. 요청했거나 구독한 거래를 포함하도록 사용 가능한 거래를 필터링합니다(**[!UICONTROL Currently subscribed to]****.
 1. 다음 중 하나를 수행합니다.
    * 에서 거래를 보려면 [!UICONTROL Deal] 보기, **[!UICONTROL Deal view]**.

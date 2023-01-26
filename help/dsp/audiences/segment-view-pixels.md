@@ -2,8 +2,8 @@
 title: 세그먼트에 대한 추적 픽셀 보기
 description: 사용자 지정 또는 CCPA 판매 중지 세그먼트에 대한 추적 픽셀을 보는 방법을 알아봅니다.
 feature: DSP Segments
-exl-id: 67c6d0d1-f65b-4d29-88e5-c7d00e44a956
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 세그먼트에 대한 추적 픽셀 보기
 
-1. 주 메뉴에서 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. 주 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. 세그먼트 행 위에 커서를 놓고 **[!UICONTROL Get Pixel]**.
 

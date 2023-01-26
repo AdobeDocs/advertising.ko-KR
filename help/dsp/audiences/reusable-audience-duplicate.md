@@ -2,8 +2,8 @@
 title: 재사용 가능한 대상 복제
 description: 재사용 가능한 대상을 복제하는 방법을 알아봅니다.
 feature: DSP Audiences
-exl-id: 6af6e476-4a6a-4e00-bf68-08a63739f5e9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 8ff72e13-d0ae-4f61-904b-5d544878f58b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 기존 대상을 복제하여 대상을 만들 수 있습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. 주 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. 대상 행 위에 커서를 놓고 **[!UICONTROL Duplicate]**.
 

@@ -2,8 +2,8 @@
 title: 재사용 가능한 대상에 대한 세그먼트 키를 클립보드에 복사합니다.
 description: 재사용 가능한 대상의 구성 및 대상 크기를 보는 방법을 알아봅니다.
 feature: DSP Audiences
-exl-id: 039779aa-8fa4-48b4-8fe6-2d5517dd0603
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 대상에 대한 영숫자 세그먼트 키(ID)를 클립보드에 복사할 수 있습니다. 세그먼트 키를 사용하여 다음을 수행할 수 있습니다 [수동으로 세그먼트 논리 정의](audience-segment-logic-syntax.md) 기타 재사용 가능한 대상용.
 
-1. 주 메뉴에서 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. 주 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. 대상 행 위에 커서를 놓고 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 

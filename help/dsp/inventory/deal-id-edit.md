@@ -2,8 +2,8 @@
 title: 개인 거래 설정 편집
 description: 비공개 거래의 세부 사항을 편집하는 방법을 배웁니다.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 171a3dae-6a25-4e16-85f8-cd4138ec4ba8
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 수락된 거래에 대한 변경 사항이 SSP에서 동기화되지 않습니다. 거래를 수락했지만 게시자가 변경 사항을 보낸 경우 다음 위치에서 거래 설정의 일부 요소를 편집할 수 있습니다. [!UICONTROL Inventory] > [!UICONTROL Deals]. 언제든지 거래의 이름을 변경할 수도 있습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. 주 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 거래 행에서  **[!UICONTROL ...]>[!UICONTROL edit]**.
+1. 거래 행에서  **[!UICONTROL ...]** > **[!UICONTROL edit]**.
 
 1. 편집 [거래 설정](deal-id-settings.md).
 

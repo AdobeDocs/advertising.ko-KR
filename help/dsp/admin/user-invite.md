@@ -1,8 +1,8 @@
 ---
 title: 조직 계정에 대해 새 사용자 초대
 description: 새 사용자를 계정에 가입하도록 초대하는 방법을 알아봅니다.
-exl-id: 5394d4e8-e081-4db4-909b-38bd366ce4fc
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행합니다.
 
-   * 주 메뉴에서 **[!UICONTROL Settings]>[!UICONTROL Users]**.
+   * 주 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * 주 메뉴에서 **[!UICONTROL Settings]>[!UICONTROL Account]**&#x200B;를 클릭한 다음 **[!UICONTROL Edit users]**.
+   * 주 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;를 클릭한 다음 **[!UICONTROL Edit users]**.
 
 1. 에서 **[!UICONTROL Invitations]** 섹션을 클릭합니다. **[!UICONTROL Send Invite]**.
 

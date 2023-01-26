@@ -2,8 +2,8 @@
 title: 재사용 가능한 대상에 대한 세부 정보 내보내기
 description: 재사용 가능한 대상을 위한 구성, 대상 크기 및 타깃팅된 배치를 보는 방법을 알아봅니다.
 feature: DSP Audiences
-exl-id: a4c946f1-8968-4e55-9935-76e6376561f1
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 다운로드 가능 [!DNL Microsoft Excel] 대상 구성 규칙이 있는 워크시트 파일, 장치 유형별 활성 및 총 대상 멤버 수, 대상의 각 세그먼트에 대한 세부 사항 및 대상을 타깃팅하는 모든 배치를 포함합니다.
 
-1. 주 메뉴에서 **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. 주 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. 대상 행 위에 커서를 놓고 **[!UICONTROL Export XLS]**.
 

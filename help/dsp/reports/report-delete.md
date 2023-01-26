@@ -2,8 +2,8 @@
 title: 사용자 지정 보고서 삭제
 description: 사용자 지정 보고서를 삭제하는 방법을 알아봅니다.
 feature: DSP Custom Reports
-exl-id: 39418a0e-17d8-4413-9f00-b0f210adb72b
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: e3cebb69-bab6-4f41-94fd-b4471f9bbdb9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # 사용자 지정 보고서 삭제
 
 1. 주 메뉴에서 **[!UICONTROL Reports]**.
-1. 에서 [!UICONTROL Options] 보고서 행의 열에서 **[!UICONTROL options]>[!UICONTROL Delete]**.
+1. 에서 [!UICONTROL Options] 보고서 행의 열에서 **[!UICONTROL options]** > **[!UICONTROL Delete]**.
 1. 확인 메시지에서 **[!UICONTROL OK]**.
 
 >[!MORELIKETHIS]

@@ -2,8 +2,8 @@
 title: 사용자 지정 보고서 복제
 description: 기존 보고서를 복제하여 사용자 지정 보고서를 만드는 방법을 알아봅니다.
 feature: DSP Custom Reports
-exl-id: 40f6d10d-5abf-410d-b382-6c8ddbc10921
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 20542bf8-69e9-44e0-9637-56b27f2de9ec
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 1. 주 메뉴에서 **[!UICONTROL Reports]**.
 
-1. 보고서 행의 옵션 열에서 **[!UICONTROL options]>[!UICONTROL Copy]**.
+1. 보고서 행의 옵션 열에서 **[!UICONTROL options]** > **[!UICONTROL Copy]**.
 
 1. (선택 사항) [보고서 설정](/help/dsp/reports/report-settings.md) 필요한 경우.
 

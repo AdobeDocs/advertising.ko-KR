@@ -2,8 +2,8 @@
 title: 사용자 지정 목표 만들기
 description: 사용자 지정 목표 만들기
 feature: DSP Optimization
-exl-id: 440ded21-92d3-41ad-839f-ebc8376aa932
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 81b0acfa-085d-495b-9516-576b952b1307
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 1. 에 로그인합니다. [!DNL Adobe Advertising Search] ( 미국 회사 ) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 또는 (기타 모든 국가의 회사) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 목표에 포함할 지표가 추적되고, 제품에서 사용할 수 있으며, 표시 이름을 포함하는지 확인합니다.
-   1. 주 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
+   1. 주 메뉴에서 **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. 지표를 찾아 확인합니다 **[!UICONTROL Show in UI and Reports]** 이 지표에 대해 활성화되어 있습니다.
    1. 지표에 **[!UICONTROL Display Name]** 열에서 셀을 클릭하고 표시 이름을 입력한 다음 를 클릭합니다 **[!UICONTROL Apply].**
 1. 사용자 지정 목표를 *목표*:
-   1. 주 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Objectives]**.
+   1. 주 메뉴에서 **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL Objectives]**.
    1. 도구 모음에서 **[!UICONTROL Create objective].**
    1. 목표 설정을 입력합니다.
       1. 에서 **[!UICONTROL Change Objective Name]** 필드에서 목표 이름을 입력합니다.

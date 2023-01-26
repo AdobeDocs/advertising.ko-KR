@@ -2,8 +2,8 @@
 title: 배치 진단 보고서 보기
 description: 배치 설정 및 간격 관련 문제를 진단하는 방법을 알아봅니다.
 feature: DSP Placements
-exl-id: d64406b6-83b5-4ae7-984c-98610fc1ee40
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
    1. 배치 설정을 엽니다.
       1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
       1. 캠페인 이름을 클릭한 다음 **[!UICONTROL Placements]**.
-      1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+      1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
    1. 오른쪽 상단에서 ![배치 진단](/help/dsp/assets/placement-diagnostics.png) 또는 **[!UICONTROL Diagnostic]**.
 1. 다음 중 하나를 수행합니다.
    * 변경 로그를 보려면

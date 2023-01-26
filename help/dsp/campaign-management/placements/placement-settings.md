@@ -2,10 +2,10 @@
 title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
-exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3418'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 0%
 
    키워드, 키, 거래 ID 또는 사용자 지정 태그로 목록을 검색할 수 있습니다.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: 모두 [premium, 보장되지 않음 [!UICONTROL On Demand] 인벤토리](/help/dsp/inventory/on-demand-inventory-about.md) 또는 [!UICONTROL On Demand] [!DNL Roku] 거래 [!DNL Roku] 로그인한 배치) [!DNL DSP]. 포함 및 제외할 수 있습니다 [!UICONTROL On Demand] 인벤토리
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: 모두 [premium, 보장되지 않음 [!UICONTROL On Demand] 인벤토리](/help/dsp/inventory/on-demand-inventory-about.md) 또는 [!UICONTROL On Demand] [!DNL] Roku는 [!DNL Roku] 로그인한 배치) [!DNL DSP]. 포함 및 제외할 수 있습니다 [!UICONTROL On Demand] 인벤토리
 
    소스 또는 피드별로 목록을 볼 수 있습니다. 피드별 목록을 볼 때 피드 이름, 피드 키 또는 선택한 게시자 영역, 카테고리 태그 또는 특성 태그별로 검색할 수 있습니다.
 
@@ -188,14 +188,14 @@ ht-degree: 0%
    1. 재고 유형 이름 옆에 있는 확인란을 선택합니다.
    1. (선택 사항) 소스를 다음과 같이 변경합니다.
       1. 클릭 ![편집](/help/dsp/assets/edit.png).
-      1. ([!UICONTROL Public] 및 [!UICONTROL On Demand] inventory) **[!UICONTROL View by Source]** 또는 **[!UICONTROL View by Feed]** 소스의 목록 방식을 변경하려면
+      1. ([!UICONTROL Public] 및 [!UICONTROL On Demand] inventory) *[!UICONTROL *View by Source]** 또는 **[!UICONTROL View by Feed]** 소스의 목록 방식을 변경하려면
       1. (해당되는 경우) 필요에 따라 인벤토리를 필터링합니다.
       1. 포함 및 제외할 소스를 지정합니다.
          * 다음을 포함합니다 [!UICONTROL Public] 또는 [!UICONTROL On Demand] 소스 **[!UICONTROL Include]** 소스 이름 옆에 표시됩니다.
          * 포함하려면 [!UICONTROL Private] 소스:
             * 거래에 모든 인벤토리를 포함하려면 **[!UICONTROL Include all]** 를 클릭합니다.
             * 개별 재고 출처를 포함하려면 거래 이름을 확장한 다음 출처 이름 옆에 있는 확인란을 클릭합니다.
-         * 를 제외하려면 [!UICONTROL Public] 또는 [!UICONTROL On source]를 클릭합니다. **[!UICONTROL Exclude]** 소스 이름 옆에 표시됩니다.
+         * 를 제외하려면 [!UICONTROL Public] 또는 [!UICONTROL On ] 소스 **[!UICONTROL Exclude]** 소스 이름 옆에 표시됩니다.
    1. (선택 사항) 타깃팅 정보가 있는 CSV 파일을 브라우저의 다운로드 위치에 다운로드하려면 를 클릭합니다 **[!UICONTROL Save & Export]**.
    1. 클릭 **[!UICONTROL Save]**.
 
@@ -311,7 +311,6 @@ ht-degree: 0%
 **[!UICONTROL Secondary Cap]:** (선택 사항) 숫자를 포함할 때 사용할 수 있습니다. [!UICONTROL Placement Cap]) 기본 배치 캡의 경계 내에 추가 제한이 있습니다. 노출 횟수 및 기간(예: 12시간당 3시간)을 선택합니다.
 
 **[!UICONTROL Day Parting]:** (선택 사항) 광고가 실행될 수 있는 특정 요일 및 시간입니다. 방송 시간 분할 간격을 지정하려면
-
 1. 클릭 ![편집](/help/dsp/assets/edit.png).
 1. 적용 가능한 시간대를 선택합니다.
 1. 간격을 지정합니다.
@@ -448,7 +447,7 @@ ht-degree: 0%
          * **[!UICONTROL Notes]:** (선택 사항) 픽셀에 대한 설명 또는 기타 정보입니다.
       1. 클릭 **[!UICONTROL Create and attach]**.
       1. 관련 웹 페이지에서 변환 픽셀을 구현합니다.
-         1. 주 메뉴에서 **[!UICONTROL Resources]>[!UICONTROL Conversion pixels]**.
+         1. 주 메뉴에서 **[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**.
          1. 픽셀 행에서 **[!UICONTROL edit]**.
          1. 에서 값을 복사합니다. [!UICONTROL HTML Tag] 및 [!UICONTROL Flash Tag] 광고주 또는 웹 사이트 연락처에 제공하기 위한 필드입니다.
 

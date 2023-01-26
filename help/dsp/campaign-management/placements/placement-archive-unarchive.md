@@ -2,8 +2,8 @@
 title: 배치 보관 또는 보관 해제
 description: 배치를 보관 또는 보관 해제하는 방법을 알아봅니다.
 feature: DSP Placements
-exl-id: 3d342f83-1bcb-4f80-b31a-2009bcdde565
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 4304452d-4573-46b3-892e-299950a75d4f
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
 1. 캠페인의 이름을 클릭합니다.
 1. 하위 메뉴에서 **[!UICONTROL Placements]**.
-1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. 확인 메시지에서 **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -35,7 +35,7 @@ ht-degree: 0%
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
 1. 캠페인의 이름을 클릭합니다.
 1. 하위 메뉴에서 **[!UICONTROL Placements]**.
-1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. 확인 메시지에서 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

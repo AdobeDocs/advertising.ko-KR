@@ -1,7 +1,7 @@
 ---
 title: 광고주 계정 만들기
 description: 광고주 계정을 만드는 방법을 알아봅니다.
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 광고주는 조직 계정의 모든 사용자가 사용할 수 있습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Settings]>[!UICONTROL Advertisers]**.
+1. 주 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
 1. 클릭 **[!UICONTROL Create]**.
 

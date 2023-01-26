@@ -2,8 +2,8 @@
 title: 패키지 만들기
 description: 패키지를 만드는 방법을 알아봅니다.
 feature: DSP Packages
-exl-id: 009b65b4-0686-46ca-9f47-01ad4c6a4683
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 528c57f2-fa83-44d7-9ce4-509ca7565135
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
 1. 패키지를 만들 캠페인의 이름을 클릭합니다.
-1. 패키지 탭에서 **[!UICONTROL Create]>[!UICONTROL Package]**.
+1. 패키지 탭에서 **[!UICONTROL Create]** > **[!UICONTROL Package]**.
 1. 을(를) 입력합니다. [패키지 설정](package-settings.md).
 1. 클릭 **[!UICONTROL Save and Close]**.
 
@@ -31,5 +31,5 @@ ht-degree: 0%
 >* [패키지에 배치 첨부](package-attach-placement.md)
 >* [패키지에 대한 변경 로그 보기](package-change-log.md)
 >* [패키지 설정](package-settings.md)
->* [비디오: 패키지를 만드는 방법](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/package-create.html)
+>* [비디오: 패키지를 만드는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
 

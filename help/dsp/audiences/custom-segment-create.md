@@ -2,8 +2,8 @@
 title: 사용자 지정 세그먼트 만들기 및 구현
 description: 웹 페이지를 방문하는 광고나 사용자에게 노출된 사용자를 추적하기 위해 사용자 지정 세그먼트를 만들고 구현하는 방법을 알아봅니다.
 feature: DSP Segments
-exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 세그먼트를 만듭니다.
 
-   1. 주 메뉴에서 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. 주 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    1. 데이터 테이블 위에서 **[!UICONTROL Create]**.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. 필요에 따라 태그를 복사하여 세그먼트를 추적합니다.
 
-   1. 로 돌아가기 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. 로 돌아가기 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    2. 세그먼트 행 위에 커서를 놓고 **[!UICONTROL Get Pixel]**.
 

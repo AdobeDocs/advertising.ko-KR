@@ -2,8 +2,8 @@
 title: 재사용 가능한 대상 만들기
 description: 대상 세그먼트 및 기타 저장된 대상으로 구성된 재사용 가능한 대상을 만드는 방법을 알아봅니다.
 feature: DSP Audiences
-exl-id: 48e3dc4c-6e2d-452c-8d69-7e6211d808e0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 여러 배치에 대한 타겟 또는 제외로 사용할 수 있는 재사용 가능한 대상(대상 세그먼트 그룹 및 기타 저장된 대상)을 저장하고 관리할 수 있습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Audiences]>[!UICONTROL All Audiences]**.
+1. 주 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
 1. 데이터 테이블 위에서 **[!UICONTROL Create]**.
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
       1. 다음 방법 중 하나로 기존 대상의 세그먼트 논리를 복사합니다.
 
-         * 모든 대상 보기에서 대상 행 위에 커서를 놓고 **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * 모든 대상 보기에서 대상 행 위에 커서를 놓고 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * 기존 대상에 대한 설정의 세그먼트 논리 패널 상단에서 을 클릭합니다. **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * 기존 대상에 대한 설정의 세그먼트 논리 패널 상단에서 을 클릭합니다. **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * 텍스트 편집기에서 영숫자 세그먼트 ID와 [부울 구문](audience-segment-logic-syntax.md)를 클립보드에 복사합니다.
       1. 클릭 **[!UICONTROL paste in an audience rule to begin building]**&#x200B;기존 세그먼트 논리를 입력 필드에 붙여 넣은 다음 를 클릭합니다 **[!UICONTROL Apply]**.

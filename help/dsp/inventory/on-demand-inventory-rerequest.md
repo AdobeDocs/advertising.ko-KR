@@ -2,8 +2,8 @@
 title: 재요청 [!DNL On Demand] Premium 인벤토리 거래
 description: 다시 요청하는 방법 알아보기 [!DNL On Demand] 이전에 거부되었던 거래.
 feature: DSP On Demand Inventory
-exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 적용 가능한 광고주 계정에 대한 광고주 카테고리가 올바른지 확인합니다.
 
-   1. 주 메뉴에서 **[!UICONTROL Settings]> [!UICONTROL Advertisers].**
+   1. 주 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Advertisers].**
 
    1. 광고주 행 위에 커서를 놓고 **[!UICONTROL Edit]**.
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 재고 요청:
 
-   1. 주 메뉴에서 **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+   1. 주 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
    1. 요청한 거래를 포함하도록 사용 가능한 거래를 필터링합니다(**[!UICONTROL Currently subscribed to]****.
 

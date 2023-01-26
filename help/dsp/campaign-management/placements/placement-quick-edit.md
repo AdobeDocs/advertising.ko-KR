@@ -2,8 +2,8 @@
 title: 키 배치 설정을 빠르게 편집
 description: 키 배치 설정을 빠르게 변경하는 방법을 알아봅니다.
 feature: DSP Placements
-exl-id: 107ec263-a0f2-491b-8380-2cceaf51cae9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
 1. 캠페인의 이름을 클릭합니다.
 1. 하위 메뉴에서 **[!UICONTROL Placements]**.
-1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]>[!UICONTROL Quick Edit]**.
+1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
 1. 사용 가능한 항목 편집 [배치 설정](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, 및 **[!UICONTROL Budget]**.
 1. 클릭 **[!UICONTROL Apply]**.
 
@@ -37,5 +37,5 @@ ht-degree: 0%
 >* [배치 일시 중지 또는 활성화](placement-pause-activate.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [배치 설정](placement-settings.md)
->* [비디오: 벌크 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [비디오: 벌크 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

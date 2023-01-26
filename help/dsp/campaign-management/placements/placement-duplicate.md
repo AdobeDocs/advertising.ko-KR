@@ -2,8 +2,8 @@
 title: 중복 배치
 description: 하나 이상의 배치를 복제하는 방법을 알아봅니다.
 feature: DSP Placements
-exl-id: d22a61a8-4f1b-41ee-b4fb-3124bec81a2f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행합니다.
 
-   * 한 배치를 복제하려면 를 클릭합니다  **[!UICONTROL ...]>[!UICONTROL Duplicate]** 패키지 이름 옆에 있는 를 클릭합니다.
+   * 한 배치를 복제하려면 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** 패키지 이름 옆에 있는 를 클릭합니다.
 
    * 여러 배치를 복제하려면
 

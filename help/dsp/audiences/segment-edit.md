@@ -2,8 +2,8 @@
 title: 세그먼트 정보 편집
 description: 사용자 지정 또는 CCPA 판매 중지 세그먼트에 대한 정보를 편집하는 방법을 알아봅니다.
 feature: DSP Segments
-exl-id: a121264f-7fa6-454e-b66a-f6bc0db98890
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 1df6bf2a-4008-46ec-8b4a-e3d0c8322e44
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 사용자 지정 세그먼트의 이름 및 전환 확인 기간 또는 CCPA 판매 중지 세그먼트의 이름을 편집할 수 있습니다. 설정을 편집할 때 세그먼트 태그는 변경되지 않습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. 주 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. 세그먼트 행 위에 커서를 놓고 **[!UICONTROL Edit]**.
 

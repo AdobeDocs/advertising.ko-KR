@@ -2,8 +2,8 @@
 title: 비공개 거래의 배치 및 광고 지정
 description: 추가 배치 및 광고를 통해 비공개 거래를 사용하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 669cadcf-021b-4129-95d5-3d24af4a4b88
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 09119471-429d-413e-8033-e29e1558abb0
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 1%
@@ -24,9 +24,9 @@ PG(프로그래밍 방식 보증) 거래의 경우 [!UICONTROL Deals] 보기.
 
 ## PG 거래에 배치 및 광고 첨부
 
-1. 주 메뉴에서 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. 주 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 거래 행에서  **[!UICONTROL ...]>[!UICONTROL Attach New Placement]**.
+1. 거래 행에서  **[!UICONTROL ...]** > **[!UICONTROL Attach New Placement]**.
 
 1. 에서 [!UICONTROL Ad & Campaign Selection] 설정에서 배치에 사용할 광고를 선택합니다.
 

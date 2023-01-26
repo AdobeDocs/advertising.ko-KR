@@ -2,8 +2,8 @@
 title: 배치에 대한 광고 일정 편집
 description: 배치에 첨부된 광고의 광고 일정을 변경하는 방법을 알아봅니다.
 feature: DSP Placements
-exl-id: 880522d3-efcd-4ff9-8cef-bf6be626869c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 하위 메뉴에서 **[!UICONTROL Placements]**.
 
-1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]>[!UICONTROL Ad schedule]**.
+1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
    1. 다음 중 하나를 수행합니다.
 

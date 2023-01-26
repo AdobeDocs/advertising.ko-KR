@@ -2,8 +2,8 @@
 title: 편집 [!UICONTROL Simple Ad Serving] 거래 설정
 description: 의 설정을 편집하는 방법 알아보기 [!UICONTROL Simple Ad Serving] 거래
 feature: DSP Simple Ad Serving
-exl-id: 025b299b-05ba-4e4e-ac92-8a738303bc32
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 에 대한 일부 설정을 편집할 수 있습니다 [!UICONTROL Simple Ad Serving] 끝나지 않은 거래.
 
-1. 주 메뉴에서 **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. 주 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. 거래 행에서  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. 거래 행에서  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. 편집 [거래 설정](simple-deal-settings.md).
 

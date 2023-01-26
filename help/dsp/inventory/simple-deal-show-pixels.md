@@ -2,8 +2,7 @@
 title: 이벤트 픽셀 보기 [!UICONTROL Simple Ad Serving] 거래
 description: 에 대한 이벤트 추적 픽셀 사본을 가져오는 방법을 알아봅니다 [!UICONTROL Simple Ad Serving] 거래
 feature: DSP Simple Ad Serving
-exl-id: 88d18ddd-98ba-4e36-890c-d6ddfb7d59e5
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -16,7 +15,7 @@ ht-degree: 0%
 
 이벤트 픽셀에는 [!UICONTROL Clickthrough] 픽셀 및 [!UICONTROL Impression] 픽셀. 비디오 및 오디오 광고에는 사분위별 완료된 이벤트 픽셀(부터)도 포함됩니다. [!UICONTROL 25% Complete] to [!UICONTROL 100% Complete]).
 
-1. 주 메뉴에서 **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. 주 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
 1. 거래 행에서 ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
 
