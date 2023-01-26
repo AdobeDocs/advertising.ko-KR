@@ -3,9 +3,9 @@ title: 광고 타깃팅용 Adobe Audience Manager 세그먼트 가져오기
 description: 을(를) 가져오는 방법을 알아봅니다 [!DNL Adobe] Adobe Audience Manager을 사용하여 Advertising DSP 및 Search에 대상을 타깃팅합니다.
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Advertising DSP 및 [!DNL Advertising Search] 광고주 또는 에이전시의 �
 
 * Adobe Experience Cloud에 게시된 Adobe Analytics 세그먼트
 
-* Adobe Experience Cloud에서 [!DNL People core service]
+* Adobe Experience Cloud을 사용하여 생성된 세그먼트 [!DNL Audience Library]
 
 * Adobe Experience Platform에서 만들어지고 Audience Manager을 통해 Adobe 광고으로 전송되는 세그먼트
 

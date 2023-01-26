@@ -1,9 +1,9 @@
 ---
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * Audience Manager 세그먼트
 * [!DNL Analytics] Adobe Experience Cloud에 게시된 세그먼트
-* Adobe Experience Cloud에서 [!DNL People core service]
+* Adobe Experience Cloud을 사용하여 생성된 세그먼트 [!DNL Audience Library]
 * Adobe Experience Platform에서 만들어지고 Audience Manager을 통해 Adobe 광고으로 전송되는 세그먼트
 
 초기 동기화는 24시간 정도 걸립니다. 그 후 데이터는 1~2초 지연을 사용하여 실시간으로 동기화됩니다.

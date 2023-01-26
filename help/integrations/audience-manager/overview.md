@@ -3,9 +3,9 @@ title: Adobe Audience Manager와의 Adobe 광고 통합
 description: Adobe 광고에서 Adobe Audience Manager과 데이터를 교환할 수 있는 다양한 방법에 대해 알아봅니다.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 *옵트인 광고주 [!DNL Advertising Search] 전용*
 
-[!DNL 내 [!DNL Search]], [!DNL Google Ads] Google 고객 일치 타겟팅 [!UICONTROL Adobe Media Optimizer (HTTP)] 및 [!UICONTROL Adobe Media Optimizer Batch Destination] 를 대상으로 사용할 수 있습니다. ([!DNL Media Optimizer] 는 [!DNL의 이전 이름입니다. [!DNL Search]참조). 여기에는 Adobe Experience Cloud에 게시된 Adobe Analytics 세그먼트와 [!DNL People core service]. 자세한 내용은 [!DNL 내의 제품 내 도움말을 참조하십시오 [!DNL Search]]
+[!DNL 내 [!DNL Search]], [!DNL Google Ads] Google 고객 일치 타겟팅 [!UICONTROL Adobe Media Optimizer (HTTP)] 및 [!UICONTROL Adobe Media Optimizer Batch Destination] 를 대상으로 사용할 수 있습니다. ([!DNL Media Optimizer] 는 [!DNL의 이전 이름입니다. [!DNL Search]참조). 여기에는 Adobe Experience Cloud에 게시된 Adobe Analytics 세그먼트와 Adobe Experience Cloud을 사용하여 생성된 세그먼트가 포함됩니다 [!DNL Audience Library]. 자세한 내용은 [!DNL 내의 제품 내 도움말을 참조하십시오 [!DNL Search]]
 
 [사용자 ID의 고객 일치 대상](https://support.google.com/google-ads/answer/9199250) 웹 사이트 태그 기반 대상처럼 작동하지만, 비PII ID는 표준 고객 일치 및 웹 사이트 태그 기반 대상자보다 고유한 이점을 위해 고유 대상 구성원에게 할당됩니다.
 
