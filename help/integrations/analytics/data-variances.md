@@ -3,9 +3,9 @@ title: 다음 사이 예상되는 데이터 분산 [!DNL Analytics] 및 Adobe �
 description: 다음 사이 예상되는 데이터 분산 [!DNL Analytics] 및 Adobe 광고
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3276'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Adobe 광고에서 연결된 클릭 날짜/이벤트 날짜(클릭 또는 노출
 
 ### 에서 잠재적으로 다른 속성 모델 [!DNL Marketing Channels]
 
-가장 많이 [!DNL Marketing Channels] 보고서는 [!UICONTROL Last Touch] 마지막 마케팅 채널이 감지된 속성은 전환 값의 100%를 지정합니다. 에 대해 다른 속성 모델 사용 [!DNL Marketing Channels] 보고서 및 Adobe 광고 보고서는 전환으로 인한 불일치를 초래할 수 있습니다.
+가장 많이 [!DNL Marketing Channels] 보고서는 [!UICONTROL Last Touch] 마지막 마케팅 채널이 감지된 속성은 전환 값의 100%가 할당됩니다. 에 대해 다른 속성 모델 사용 [!DNL Marketing Channels] 보고서 및 Adobe 광고 보고서는 전환으로 인한 불일치를 초래할 수 있습니다.
 
 ### 의 잠재적으로 다른 전환 확인 기간 [!DNL Marketing Channels]
 
@@ -153,13 +153,17 @@ Adobe 광고 보고서는 Adobe 광고를 통해 판매되는 유료 미디어�
 
 in [!DNL Analytics]를 검색하는 가장 쉬운 방법 중 하나입니다 [!DNL Analytics for Advertising] 추적은 다음과 같이 계산되는 &quot;AMO ID 인스턴스에 클릭 수&quot; 계산된 지표를 사용하여 클릭을 인스턴스와 비교하는 것입니다.
 
-```Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)```
+```
+Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
+```
 
 [!UICONTROL AMO ID Instances] 는 AMO ID(`s_kwcid` 매개 변수)가 사이트에서 추적됩니다. 광고를 클릭할 때마다 `s_kwcid` 매개 변수가 랜딩 페이지 URL에 추가됩니다. 숫자 [!UICONTROL AMO ID Instances]따라서 는 클릭 수와 유사하며 실제 광고 클릭에 대해 유효성을 검사할 수 있습니다. 일반적으로 80%의 일치율을 봅니다. [!DNL Search] 그리고 30% 일치율 [!DNL DSP] 트래픽(클릭스루만 포함하는 필터링된 경우) [!UICONTROL AMO ID Instances]). 검색과 디스플레이 간의 예상 차이는 예상되는 트래픽 동작으로 설명할 수 있습니다. 검색은 의도를 캡처하며, 따라서 일반적으로 사용자가 쿼리의 검색 결과를 클릭합니다. 그러나 디스플레이 또는 온라인 비디오 광고를 보는 사용자는 실수로 광고를 클릭한 다음, 사이트에서 바운스 또는 페이지 활동이 추적되기 전에 로드되는 새 창을 포기할 가능성이 높습니다.
 
 Adobe 광고 보고서에서 &quot;[!UICONTROL ef_id_instances]&quot; 대신 [!UICONTROL AMO ID Instances]:
 
-```Clicks to [!UICONTROL EF ID Instances] = (ef_id_instances / Clicks)```
+```
+Clicks to [EF ID Instances = (ef_id_instances / Clicks)
+```
 
 AMO ID와 EF ID 간의 일치율이 높을 것으로 예상해야 하지만 AMO ID와 EF ID가 기본적으로 다른 데이터를 추적하므로 패리티를 100% 예상하지는 마십시오. 이렇게 차이가 발생할 수 있으므로 합계에 약간의 차이가 있을 수 있습니다 [!UICONTROL AMO ID Instances] 및 [!UICONTROL EF ID Instances]. 합계가 [!UICONTROL AMO ID Instances] in [!DNL Analytics] different [!UICONTROL EF ID Instances] 그러나 Adobe 광고에서 1% 이상 [!DNL Adobe] 계정 팀에 문의하십시오.
 
@@ -175,13 +179,17 @@ AMO ID 및 EF ID에 대한 자세한 내용은 [Analytics에서 사용하는 Ado
 
 예를 들어 다음과 같은 랜딩 페이지가 있다고 가정합니다.
 
-`www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id`
+```
+www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id
+```
 
 여기서 EF ID는 &quot;`test_ef_id`&quot; 이고 AMO ID는 &quot;`test_amo_id`.&quot;
 
 사이트측 리디렉션이 발생하는 경우 URL이 다음과 같이 끝날 수 있습니다.
 
-`www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag`
+```
+www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
+```
 
 여기서 EF ID는 &quot;`test_ef_id`&quot; 이고 AMO ID는 &quot;`test_amo_id#redirectAnchorTag`.&quot;
 
@@ -223,7 +231,7 @@ AMO ID 및 EF ID에 대한 자세한 내용은 [Analytics에서 사용하는 Ado
 
 ### 비Adobe 광고 Dimension에 Adobe 광고 트래픽 지표 사용
 
-Adobe 광고는 Analytics에 다음을 제공합니다. [DSP 및 [!DNL의 광고 관련 트래픽 지표 및 관련 차원 [!DNL Search]]](advertising-metrics-in-analytics.md). Adobe 광고 제공 지표는 지정된 Adobe 광고 차원에만 적용할 수 있으며, 의 다른 차원에는 데이터를 사용할 수 없습니다 [!DNL Analytics].
+Adobe 광고는 Analytics에 다음을 제공합니다. [광고 관련 트래픽 지표 및 [!DNL DSP] 및 [!DNL Search]](advertising-metrics-in-analytics.md). Adobe 광고 제공 지표는 지정된 Adobe 광고 차원에만 적용할 수 있으며, 의 다른 차원에는 데이터를 사용할 수 없습니다 [!DNL Analytics].
 
 예를 들어 [!UICONTROL AMO Clicks] 및 [!UICONTROL AMO Cost] Adobe 광고 차원인 계정별 지표만 표시된다면, 전체 지표만 표시됩니다 [!UICONTROL AMO Clicks] 및 [!UICONTROL AMO Cost] 계정별.
 

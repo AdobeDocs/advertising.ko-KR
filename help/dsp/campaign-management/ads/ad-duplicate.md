@@ -3,7 +3,7 @@ title: 광고 복제
 description: 광고를 복제하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 하위 메뉴에서 **[!UICONTROL Ads]**.
 
-1. 광고 이름 옆에 있는 를 클릭합니다.  **... >[!UICONTROL Duplicate]**.
+1. 광고 이름 옆에 있는 를 클릭합니다.  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. 새 광고 설정을 지정합니다.
 

@@ -3,7 +3,7 @@ title: 재사용 가능한 대상 공유
 description: 계정에서 사용할 수 있는 다른 광고주와 재사용 가능한 대상을 공유하는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 대상 행 위에 커서를 놓고 **[!UICONTROL Share]**.
 
-1. 옵션을 선택하여 **[!UICONTROL Share with all advertisers in my account ]**.
+1. 옵션을 선택하여 **[!UICONTROL Share with all advertisers in my account]**.
 
 1. 클릭 **[!UICONTROL Save]**.
 

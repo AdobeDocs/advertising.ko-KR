@@ -3,7 +3,7 @@ title: 배치에 대한 사이트, 광고, 빈도 및 인벤토리 세부 사항
 description: 배치에 대해 타깃팅된 사이트, 광고, 빈도 및 인벤토리 데이터를 보는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%

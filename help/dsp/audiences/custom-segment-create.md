@@ -3,7 +3,7 @@ title: 사용자 지정 세그먼트 만들기 및 구현
 description: 웹 페이지를 방문하는 광고나 사용자에게 노출된 사용자를 추적하기 위해 사용자 지정 세그먼트를 만들고 구현하는 방법을 알아봅니다.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    1. 로 돌아가기 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
-   2. 세그먼트 행 위에 커서를 놓고 **[!UICONTROL Get Pixel]**.
+   1. 세그먼트 행 위에 커서를 놓고 **[!UICONTROL Get Pixel]**.
 
       * 데스크탑 및 모바일 웹 페이지 방문자를 추적하려면
 

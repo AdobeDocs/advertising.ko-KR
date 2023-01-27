@@ -3,7 +3,7 @@ title: 캠페인 보관 또는 보관 해제
 description: 캠페인을 보관 또는 보관 해제하는 방법을 알아봅니다.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## 캠페인 보관
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
-1. 캠페인 이름 옆의  **... >[!UICONTROL Archive]**.
+1. 캠페인 이름 옆의  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. 확인 메시지에서 **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -29,7 +29,7 @@ ht-degree: 0%
 ## 캠페인 보관 해제
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
-1. 캠페인 이름 옆의  **... >[!UICONTROL Unarchive]**.
+1. 캠페인 이름 옆의  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. 확인 메시지에서 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

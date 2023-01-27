@@ -3,7 +3,7 @@ title: 광고에 대한 세부 보고서 보기
 description: 개요, 지역 및 보기 가능 데이터를 사용하여 광고 수준 보고서를 여는 방법을 알아봅니다.
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
 1. 캠페인의 이름을 클릭합니다.
 1. 하위 메뉴에서 **[!UICONTROL Ads]**.
-1. 광고 이름 옆에 있는 를 클릭합니다.  **... >[!UICONTROL View report]**.
+1. 광고 이름 옆에 있는 를 클릭합니다.  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >

@@ -3,7 +3,7 @@ title: 공인 광고 서비스 제공 파트너
 description: 모든 인증된 광고 서버 및 광고 단위를 참조하십시오.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 815d2dd9be270603fd699d979ae3eb09df7d8820
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 | [!DNL Adform] | X | X |  | X |  |
 | [!DNL ADITION Technologies] |  | X |  |  |  |
 | [!DNL ADman Media] | X |  |  |  |  |
-| [!DNL Adobe Advertising Creative ] |  |  |  |  |  |
+| [!DNL Adobe Advertising Creative] |  |  |  |  |  |
 | [!DNL ADventori] |  | X |  |  |  |
 | [!DNL Artsai] |  | X |  | X |  |
 | [!DNL Atlas] |  |  |  | X |  |
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!DNL Pubmatic] |  |  |  | X | VAST 전용 |
 | [!DNL RevJet] |  |  |  | X | VAST 전용 |
 | [!DNL Seedtag] |  | X |  |  |  |
-| [!DNL Sizmek] | X | X |  | X | OLV 및 CTV</br></br>UI에서 태그를 렌더링하려면 태그를 `<a>` 태그(시작 및 끝) 아래의 샘플 태그를 참조하십시오.</br></br>```<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>``` |
+| [!DNL Sizmek] | X | X |  | X | OLV 및 CTV</br></br>UI에서 태그를 렌더링하려면 태그를 `<a>` 태그(시작 및 끝) 아래의 샘플 태그를 참조하십시오.</br></br>`<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>` |
 | [!DNL Spaceback] |  | X |  |  |  |
 | [!DNL Spirable] |  | X |  |  |  |
 | [!DNL SUBLIME] |  |  | X |  |  |

@@ -3,7 +3,7 @@ title: '`[!DNL On Demand] Premium 유럽, 중동 및 아프리카의 인벤토�
 description: '`[!DNL On Demand] Premium 유럽, 중동 및 아프리카의 인벤토리 출판사'
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -189,7 +189,7 @@ ht-degree: 0%
 | [!DNL Future] | UK |
 | [!DNL Gameloft] | UK |
 | [!DNL Gentside] | UK |
-| [!DNL GiveMeSport ] | UK |
+| [!DNL GiveMeSport] | UK |
 | [!DNL Hearst] | UK |
 | [!DNL King] | UK |
 | [!DNL Ladbible] | UK |

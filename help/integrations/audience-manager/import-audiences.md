@@ -3,9 +3,9 @@ title: 광고 타깃팅용 Adobe Audience Manager 세그먼트 가져오기
 description: 을(를) 가져오는 방법을 알아봅니다 [!DNL Adobe] Adobe Audience Manager을 사용하여 Advertising DSP 및 Search에 대상을 타깃팅합니다.
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Advertising DSP 및 [!DNL Advertising Search] 광고주 또는 에이전시의 �
 
 * Adobe Experience Platform에서 만들어지고 Audience Manager을 통해 Adobe 광고으로 전송되는 세그먼트
 
-에 액세스하려면 [!DNL Adobe] DSP 또는 [!DNL Creative]를 채울 때는 대상을 DSP으로 가져와야 합니다. 에 액세스하려면 [!DNL Adobe] [!DNL의 대상 [!DNL Search]대상을 [!DNL]으로 가져와야 합니다. [!DNL Search]]
+에 액세스하려면 [!DNL Adobe] DSP 또는 [!DNL Creative]를 채울 때는 대상을 DSP으로 가져와야 합니다. 에 액세스하려면 [!DNL Adobe] 대상 [!DNL Search]로 대상을 가져와야 합니다. [!DNL Search].
 
 ## 전제 조건
 
@@ -109,7 +109,7 @@ API는 자동으로 다음을 수행합니다.
 ### How DSP Syncs the Data
 
 DSP syncs the data automatically using the [!DNL Adobe Experience Cloud Identity (ECID) Service]. During synchronization, the [!DNL ECID Service] calls Adobe Advertising at [!DNL cm.eversttech.net]. Because Adobe Advertising is a trusted domain, ID syncs take place from parent pages rather than within the destination publishing iframes, as they do with most third-party activation partners. Audience Manager identifies unique users by device IDs, using the [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids), also called the [!DNL Device ID].
- 
+
 ![Synchronization of [!DNL Adobe] audiences in DSP](/help/integrations/assets/audience-manager-sync.png)
 
 ### How Search Syncs the Data
@@ -148,7 +148,7 @@ in [!DNL Creative]로 지정하는 경우 대상 노드의 경험 설정에서 �
 
 ### in [!DNL Advertising Search]
 
-[!DNL [!DNL Search]] 로 변경하려는 경우 [!DNL Google] 대상을 사용하여 [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]&quot; [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
+in [!DNL Search]를 채울 때는 세그먼트를 [!DNL Google] 대상을 사용하여 [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]&quot; [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
 
 각 [!DNL Google] 만드는 대상, [!DNL Google] 대상 크기를 제공합니다.
 

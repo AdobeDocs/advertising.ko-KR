@@ -3,7 +3,7 @@ title: 성능 캠페인 설정에 대한 우수 사례
 description: 최저 CPA 또는 가장 높은 ROAS에 맞게 최적화된 배치를 포함하는 성능 중심 캠페인을 설정하는 우수 사례를 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%

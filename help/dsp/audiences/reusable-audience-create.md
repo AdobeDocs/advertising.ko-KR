@@ -3,7 +3,7 @@ title: 재사용 가능한 대상 만들기
 description: 대상 세그먼트 및 기타 저장된 대상으로 구성된 재사용 가능한 대상을 만드는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%

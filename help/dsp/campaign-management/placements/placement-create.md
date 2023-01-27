@@ -3,9 +3,9 @@ title: 배치 만들기
 description: 배치를 만드는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
 
       1. 대상자 범위를 좁힙니다. 여기에는 배치 내에서 타겟팅할 대상 세그먼트 선택도 포함됩니다.
 
-         대상 [!DNL] Roku 배치를 활용할 수 있습니다 [DSP 고유 대상 일치 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) 에 대해 일치시킬 수 있는 하나 이상의 대상 세그먼트를 포함함으로써 [!DNL Roku] (옵트인) 결정적 데이터 세트.
+         대상 [!DNL Roku] 배치, [DSP 고유 대상 일치 [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) 에 대해 일치시킬 수 있는 하나 이상의 대상 세그먼트를 포함함으로써 [!DNL Roku] (옵트인) 결정적 데이터 세트.
    1. (사람 수준 교차 장치 타겟팅이 있는 캠페인의 경우) 선택 사항) 배치가 하나 이상의 특정 대상을 타깃팅하는 경우 배치에 대해 사용자 기반 교차 장치 타깃팅을 활성화합니다.
 
       사용자 기반 교차 장치 타깃팅은 [!DNL LiveRamp] 사용. 이 서비스는 모든 광고주가 CPM $0.35로 를 사용하여 게재되는 노출에 사용할 수 있습니다 [!DNL LiveRamp] 장치 그래프(즉, 타깃팅된 대상 세그먼트 내에 없는 장치의 경우).
@@ -73,56 +73,56 @@ ht-degree: 1%
    1. 클릭 **[!UICONTROL Attach an ad]**.
 
    1. 다음 중 하나를 수행합니다.
-   * 새 광고를 만들려면 다음을 수행하십시오.
 
-      1. 클릭 **[!UICONTROL Create a New Ad].**
+      * 새 광고를 만들려면 다음을 수행하십시오.
 
-      1. 에 대한 광고 설정을 지정합니다 [오디오 광고](/help/dsp/campaign-management/ads/ad-settings-audio.md), [연결된 TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [디스플레이 광고](/help/dsp/campaign-management/ads/ad-settings-display.md), [모바일 광고](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [기본 광고](/help/dsp/campaign-management/ads/ad-settings-native.md), [프리롤 광고](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md), 또는 [범용 비디오 광고](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+         1. 클릭 **[!UICONTROL Create a New Ad].**
 
-      1. 클릭 **[!UICONTROL Save & Submit for Review]**.
+         1. 에 대한 광고 설정을 지정합니다 [오디오 광고](/help/dsp/campaign-management/ads/ad-settings-audio.md), [연결된 TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [디스플레이 광고](/help/dsp/campaign-management/ads/ad-settings-display.md), [모바일 광고](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [기본 광고](/help/dsp/campaign-management/ads/ad-settings-native.md), [프리롤 광고](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md), 또는 [범용 비디오 광고](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
-      1. (선택 사항) 배치에 대해 만들려는 각 추가 광고에 대해 를 클릭합니다 **[!UICONTROL Attach Another Ad]**, 그런 다음 1-3단계를 반복합니다.
+         1. 클릭 **[!UICONTROL Save & Submit for Review]**.
 
-      1. 기존 광고를 첨부하지 않으려면 **[!UICONTROL I'm done for now]**.
-   * 캠페인에 기존 광고를 첨부하려면
+         1. (선택 사항) 배치에 대해 만들려는 각 추가 광고에 대해 를 클릭합니다 **[!UICONTROL Attach Another Ad]**, 그런 다음 1-3단계를 반복합니다.
 
-      1. 클릭 **[!UICONTROL Select an Ad]**.
+         1. 기존 광고를 첨부하지 않으려면 **[!UICONTROL I'm done for now]**.
+      * 캠페인에 기존 광고를 첨부하려면
 
-      1. 다음 중 하나를 수행합니다.
-
-         * 한 번에 한 개의 광고를 추가하려면:
-
-            1. 광고 이름 옆에 있는 를 클릭합니다. **[!UICONTROL Select].**
-
-            1. (선택 사항) 첨부할 각 추가 광고에 대해 **[!UICONTROL Attach Another Ad]**&#x200B;를 호출한 다음 프로세스를 반복합니다.
-         * 한 번에 최대 20개의 광고를 추가하려면:
-
-            1. 광고 목록 위에 있는 확인란을 선택합니다.
-
-            1. 추가할 각 광고 옆에 있는 확인란을 선택합니다.
-
-            1. 클릭 **[!UICONTROL Attach]**.
-
-            1. 광고 이름 옆에 있는 를 클릭합니다. **[!UICONTROL Select]**.
-      1. (선택 사항) 배치에서 특정 광고에 대한 기본 플라이트 기간 및 광고 순환을 무시하려면 다음을 수행합니다.
-
-         1. 클릭 **[!UICONTROL Custom Schedule Ads]**.
+         1. 클릭 **[!UICONTROL Select an Ad]**.
 
          1. 다음 중 하나를 수행합니다.
 
-            * 플라이트 추가 **[!UICONTROL Add Flight]**, 그런 다음 시작 날짜 및 종료 날짜를 지정합니다.
+            * 한 번에 한 개의 광고를 추가하려면:
 
-            * 기존 플라이트 를 광고에 추가하려면 **[!UICONTROL +]** 를 입력합니다.
+               1. 광고 이름 옆에 있는 를 클릭합니다. **[!UICONTROL Select].**
 
-            * 광고에서 기존 비행을 제거하려면 **[!UICONTROL x]** 를 입력합니다.
+               1. (선택 사항) 첨부할 각 추가 광고에 대해 **[!UICONTROL Attach Another Ad]**&#x200B;를 호출한 다음 프로세스를 반복합니다.
+            * 한 번에 최대 20개의 광고를 추가하려면:
 
-            * (여러 광고에 동일한 플백이 있는 경우) 광고를 균일하지 않게 회전하려면 **[!UICONTROL Even Rotation]** 플라이트 정보에서 각 광고를 회전할 상대적 가중치를 백분율로 입력합니다.
+               1. 광고 목록 위에 있는 확인란을 선택합니다.
 
-               총 가중치는 100이어야 합니다.
-         1. 오른쪽 상단에서 **[!UICONTROL Continue]**.
+               1. 추가할 각 광고 옆에 있는 확인란을 선택합니다.
 
-         1. 플라이트 세부 사항을 검토한 다음 **[!UICONTROL Save & Finish]**.
+               1. 클릭 **[!UICONTROL Attach]**.
 
+               1. 광고 이름 옆에 있는 를 클릭합니다. **[!UICONTROL Select]**.
+         1. (선택 사항) 배치에서 특정 광고에 대한 기본 플라이트 기간 및 광고 순환을 무시하려면 다음을 수행합니다.
+
+            1. 클릭 **[!UICONTROL Custom Schedule Ads]**.
+
+            1. 다음 중 하나를 수행합니다.
+
+               * 플라이트 추가 **[!UICONTROL Add Flight]**, 그런 다음 시작 날짜 및 종료 날짜를 지정합니다.
+
+               * 기존 플라이트 를 광고에 추가하려면 **[!UICONTROL +]** 를 입력합니다.
+
+               * 광고에서 기존 비행을 제거하려면 **[!UICONTROL x]** 를 입력합니다.
+
+               * (여러 광고에 동일한 플백이 있는 경우) 광고를 균일하지 않게 회전하려면 **[!UICONTROL Even Rotation]** 플라이트 정보에서 각 광고를 회전할 상대적 가중치를 백분율로 입력합니다.
+
+                  총 가중치는 100이어야 합니다.
+            1. 오른쪽 상단에서 **[!UICONTROL Continue]**.
+
+            1. 플라이트 세부 사항을 검토한 다음 **[!UICONTROL Save & Finish]**.
 
 
 
@@ -137,7 +137,6 @@ ht-degree: 1%
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [배치 설정](placement-settings.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-
-   >*[성능 문제 해결](/help/dsp/optimization/troubleshooting-performance.md)
+>* [성능 문제 해결](/help/dsp/optimization/troubleshooting-performance.md)
 >* [비디오: 표준 디스플레이 배치를 만드는 방법](https://video.tv.adobe.com/v/340454)
 

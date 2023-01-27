@@ -3,7 +3,7 @@ title: 광고 사양
 description: 일반 및 게시자별 광고 사양을 참조합니다.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%
@@ -177,7 +177,6 @@ ht-degree: 0%
    * 파일 형식: JPEG, JPG, PNG, GIF, HTML
    * 최대 파일 크기: 2MB
    * Dimension: 300x250
- 
 
 ## 기본 디스플레이 광고
 

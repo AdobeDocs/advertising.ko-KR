@@ -3,7 +3,7 @@ title: 패키지에 배치 첨부
 description: 패키지에 배치를 첨부하는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 1%

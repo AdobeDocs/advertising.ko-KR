@@ -2,7 +2,7 @@
 title: 사용자 프로필 편집
 description: 사용자 프로필을 편집하는 방법을 알아봅니다.
 exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -22,6 +22,7 @@ ht-degree: 3%
       1. 기존 **[!UICONTROL Email address]**&#x200B;를 클릭합니다. **[!UICONTROL Edit]**.
 
       1. 새 전자 메일 주소와 사용자 계정의 기존 암호를 입력합니다.
+
       1. 클릭 **[!UICONTROL Continue]**.
    * 사용자 계정의 암호를 편집하려면:
 

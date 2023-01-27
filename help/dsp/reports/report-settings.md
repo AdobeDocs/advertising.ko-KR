@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 **[!UICONTROL Select To Add As Report Headers]:**  보고서에 포함할 데이터 열 또는 헤더입니다. 열을 추가하려면 범주를 확장하고 열 이름 옆에 있는 확인란을 선택합니다. 사용할 수 없는 모든 지표는 비활성화됩니다. 사용 가능한 데이터 카테고리는 다음과 같습니다.
 
-* [!UICONTROL  Dimensions]
+* [!UICONTROL Dimensions]
 * [!UICONTROL Metrics]
 * [!UICONTROL Conversion Metrics] (광고주별로 정렬)
 * [!UICONTROL Custom Goals] (광고주별로 정렬)
@@ -142,5 +142,5 @@ ht-degree: 0%
 >* [사용자 지정 보고서 실행](/help/dsp/reports/report-run-now.md)
 >* [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
 >* [보고서 대상 정보](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
 
-* [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)

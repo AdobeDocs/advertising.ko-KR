@@ -3,7 +3,7 @@ title: 캠페인 복제
 description: 캠페인을 복제하는 방법을 알아봅니다.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
 
-1. 캠페인 이름 옆의 **... >[!UICONTROL Duplicate]**.
+1. 캠페인 이름 옆의 **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. 새 캠페인 설정을 지정합니다.
 

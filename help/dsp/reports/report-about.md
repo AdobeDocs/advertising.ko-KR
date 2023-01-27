@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%

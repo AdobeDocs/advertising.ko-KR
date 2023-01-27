@@ -3,9 +3,9 @@ title: Adobe Audience Manager와의 Adobe 광고 통합
 description: Adobe 광고에서 Adobe Audience Manager과 데이터를 교환할 수 있는 다양한 방법에 대해 알아봅니다.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 *옵트인 광고주 [!DNL Advertising Search] 전용*
 
-[!DNL 내 [!DNL Search]], [!DNL Google Ads] Google 고객 일치 타겟팅 [!UICONTROL Adobe Media Optimizer (HTTP)] 및 [!UICONTROL Adobe Media Optimizer Batch Destination] 를 대상으로 사용할 수 있습니다. ([!DNL Media Optimizer] 는 [!DNL의 이전 이름입니다. [!DNL Search]참조). 여기에는 Adobe Experience Cloud에 게시된 Adobe Analytics 세그먼트와 Adobe Experience Cloud을 사용하여 생성된 세그먼트가 포함됩니다 [!DNL Audience Library]. 자세한 내용은 [!DNL 내의 제품 내 도움말을 참조하십시오 [!DNL Search]]
+내 [!DNL Search], 만들 수 있습니다. [!DNL Google Ads] Google 고객 일치 타겟팅 [!UICONTROL Adobe Media Optimizer (HTTP)] 및 [!UICONTROL Adobe Media Optimizer Batch Destination] 를 대상으로 사용할 수 있습니다. ([!DNL Media Optimizer] 은 의 이전 이름입니다. [!DNL Search]) 여기에는 Adobe Experience Cloud에 게시된 Adobe Analytics 세그먼트와 Adobe Experience Cloud을 사용하여 생성된 세그먼트가 포함됩니다 [!DNL Audience Library]. 자세한 내용은 [!DNL Search].
 
 [사용자 ID의 고객 일치 대상](https://support.google.com/google-ads/answer/9199250) 웹 사이트 태그 기반 대상처럼 작동하지만, 비PII ID는 표준 고객 일치 및 웹 사이트 태그 기반 대상자보다 고유한 이점을 위해 고유 대상 구성원에게 할당됩니다.
 
-필요한 사용자 ID를 만들려면 Adobe 광고 JavaScript 태그를 사용해야 합니다 <!-- with a user ID parameter -->클릭합니다. [!DNL에 문의 [!DNL Search]] 계정 팀에서 자세한 내용을 확인하십시오.
+필요한 사용자 ID를 만들려면 Adobe 광고 JavaScript 태그를 사용해야 합니다 <!-- with a user ID parameter -->클릭합니다. 다음 사항에 문의하십시오. [!DNL Search] 계정 팀에 문의하십시오.
 
 ![세그먼트 생성 프로세스](/help/integrations/assets/ad_search_user_id_pic.png)
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### Audience Manager 및 기타 사용 [!DNL Adobe] Target 또는 제외시킬 세그먼트 {#audience-manager-targets}
 
-* ([!DNL 사용 시 옵트인 광고주) [!DNL Search]]) 모든 [!DNL Google Ads] 대상 [다음을 사용하여 생성 [!DNL Adobe] 세그먼트](#audience-manager-google-audiences) 캠페인 수준 또는 광고 그룹 수준 타겟 또는 제외 [!DNL Google Ads] 캠페인.
+* (옵트인 광고주 및 [!DNL Search]) 임의의 [!DNL Google Ads] 대상 [다음을 사용하여 생성 [!DNL Adobe] 세그먼트](#audience-manager-google-audiences) 캠페인 수준 또는 광고 그룹 수준 타겟 또는 제외 [!DNL Google Ads] 캠페인.
 
 * (DSP을 사용하는 광고주) 기존 [!DNL Adobe] 세그먼트를 광고 배치 대상으로 사용할 수 있습니다. 선택적으로 재사용 가능한 대상에 세그먼트를 포함할 수 있습니다. 이 세그먼트를 여러 배치에 대한 타겟 또는 제외로 사용할 수 있습니다.
 
@@ -54,6 +54,6 @@ Adobe Audience Manager을 사용하는 DSP 고객은 Audience Manager에 대한 
 
 ## Audience Analytics을 사용하여 사이트 활동에 대한 보다 풍부한 통찰력 얻기
 
-광고 고객 Adobe [[!DNL Adobe][!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) 은 광고 추적 데이터 및 Audience Manager 세그먼트를 모두 [!DNL Analytics] 사이트 활동에 대한 보강된 인사이트를 제공합니다.
+광고 고객 Adobe [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) 은 광고 추적 데이터 및 Audience Manager 세그먼트를 모두 [!DNL Analytics] 사이트 활동에 대한 보강된 인사이트를 제공합니다.
 
-자세한 내용은 &quot;[[!DNL Adobe][!DNL Audience Analytics] Adobe 광고 고객용](/help/integrations/audience-manager/audience-analytics.md).&quot;
+자세한 내용은 &quot;[[!DNL Adobe Audience Analytics] Adobe 광고 고객용](/help/integrations/audience-manager/audience-analytics.md).&quot;

@@ -3,7 +3,7 @@ user-guide-title: Adobe Experience Cloud와 통합
 user-guide-description: Advertising DSP 및 Advertising Search와 다른 Adobe Experience Cloud 제품 및 서비스와의 통합에 대해 알아봅니다.
 breadcrumb-title: Experience Cloud와 통합
 index: true
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 12%

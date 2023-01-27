@@ -3,7 +3,7 @@ title: 광고 보관 또는 보관 해제
 description: 광고를 보관 또는 보관 해제하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: 086c120f-df55-43b0-a6fb-51d68d00a29e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
 1. 캠페인의 이름을 클릭합니다.
 1. 하위 메뉴에서 **[!UICONTROL Ads]**.
-1. 광고 이름 옆에 있는 를 클릭합니다.  **... >[!UICONTROL Archive]**.
+1. 광고 이름 옆에 있는 를 클릭합니다.  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. 확인 메시지에서 **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -33,7 +33,7 @@ ht-degree: 0%
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
 1. 캠페인의 이름을 클릭합니다.
 1. 하위 메뉴에서 **[!UICONTROL Ads]**.
-1. 광고 이름 옆에 있는 를 클릭합니다.  **... >[!UICONTROL Unarchive]**.
+1. 광고 이름 옆에 있는 를 클릭합니다.  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. 확인 메시지에서 **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

@@ -3,7 +3,7 @@ title: 다운로드/업로드된 스프레드시트의 열
 description: 다운로드 및 업로드된 Excel QA 스프레드시트의 열을 참조합니다.
 feature: DSP Placements
 exl-id: 698c0d86-cb2e-4d76-89c7-5584b6cdb542
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Goals] | [!UICONTROL Max Bid] | 배치에 대한 최대 입찰입니다. | 예 |
 | [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | 배치를 위한 비행 간격 전략: *[!UICONTROL Even]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]*, 또는 *[!UICONTROL aggressive frontload]*. | 예 |
 | [!UICONTROL Goals] | [!UICONTROL Intraday Pacing] | 배치에 대한 일일 간격 전략: *[!UICONTROL Even]* 또는 *[!UICONTROL ASAP]*. | 예 |
-| [!UICONTROL Goals] | [!UICONTROL  Pre-Bid Filters] | 적용할 모든 사전 입찰 필터 기준입니다. | — |
+| [!UICONTROL Goals] | [!UICONTROL Pre-Bid Filters] | 적용할 모든 사전 입찰 필터 기준입니다. | — |
 | [!UICONTROL Goals] | [!UICONTROL Bidding Rules] | 입찰 규칙(더 이상 사용되지 않음)이 *[!UICONTROL ON]* 또는 *[!UICONTROL OFF]*. | — |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap] | 지정한 시간 동안 배치에 대한 기본 빈도 상한 [!UICONTROL Frequency Cap Interval]. | 예 |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | 기본 주파수 캡의 간격: *[!UICONTROL Day]*, *[!UICONTROL Week]*, 또는 *[!UICONTROL Month]*. | 예 |

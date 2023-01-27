@@ -3,7 +3,7 @@ title: 정보 [!UICONTROL Deal ID Inbox]
 description: 에 대해 알아보기 [!UICONTROL Deal ID inbox] 에서는 이미 게시자 와 협상한 개인 거래를 허용할 수 있는 기능을 제공합니다. [!DNL FreeWheel], [!DNL Google Authorized Buyers] (이전에는 [!DNL AdX]), and [!DNL Magnite DV+] (이전 [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Advertising DSP [!UICONTROL Deal ID inbox] 에서는 SSP(공급측 플랫폼)를
 Accepting a deal automatically pre-populates a new Deal ID record with details from the publisher, and you need to enter only the publisher [always? or just in some cases?], the media type, who can access the deal, and any attribute labels to apply to the deal so it's easy to find. [Are labels a dimension you can report on?]
 
 For each available deal, you can review the deal details sent directly from the publisher. Some deals are grouped as proposals (packages), and you can see the individual deal details by reviewing the deal.
-   
+
 You can accept any available deal or move an incorrect deal to the Ignored Deals tab. You can also un-ignore deals, which moves them back to the New Deals tab so you can potentially accept them.
 
 For each deal, you can select one publisher and one media type (Desktop Video, Mobile Video, Connected TV, Display, or Audio), and you can share the deal with specific advertisers and with all advertisers for a specific account.

@@ -3,7 +3,7 @@ title: Advertising DSP의 대상 관리 정보
 description: 고객 관리 기능에 대해 알아봅니다.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
