@@ -3,7 +3,7 @@ title: 사용자 지정 목표 만들기
 description: 사용자 지정 목표 만들기
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2060ab016917a69ef8bf718d339a35eb62b1269e
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >자세한 내용은 [사용자 지정 목표 생성에 대한 우수 사례](custom-goal-best-practices.md) 를 참조하십시오.
 
-1. 에 로그인합니다. [!DNL Adobe Advertising Search] ( 미국 회사 ) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 또는 (기타 모든 국가의 회사) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. 에 로그인합니다. [!DNL Adobe Advertising Search] at(북미 사용자) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 또는 (다른 모든 사용자) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 목표에 포함할 지표가 추적되고, 제품에서 사용할 수 있으며, 표시 이름을 포함하는지 확인합니다.
    1. 주 메뉴에서 **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. 지표를 찾아 확인합니다 **[!UICONTROL Show in UI and Reports]** 이 지표에 대해 활성화되어 있습니다.

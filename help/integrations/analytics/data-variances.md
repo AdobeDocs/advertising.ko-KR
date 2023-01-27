@@ -3,9 +3,9 @@ title: 다음 사이 예상되는 데이터 분산 [!DNL Analytics] 및 Adobe �
 description: 다음 사이 예상되는 데이터 분산 [!DNL Analytics] 및 Adobe 광고
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2060ab016917a69ef8bf718d339a35eb62b1269e
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3279'
 ht-degree: 0%
 
 ---
@@ -88,8 +88,11 @@ Adobe 광고과 광고 간의 뷰스루 전환을 비교할 때 이러한 차이
 
 목록 보기 [!DNL Analytics] 속성 모델 및 정의 [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
 
-로그인한 경우 [!DNL Search]에서 속성 모델 목록을 찾을 수 있습니다.
-[https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm).
+로그인한 경우 [!DNL Search], 목록을 찾을 수 있습니다.
+
+* (북미 사용자) [`https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
+
+* (다른 모든 사용자) [`https://enterprise-intl.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-intl.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
 
 #### Adobe 광고의 이벤트 날짜 속성
 
