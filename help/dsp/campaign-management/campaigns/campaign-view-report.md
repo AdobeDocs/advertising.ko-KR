@@ -3,9 +3,9 @@ title: 캠페인에 대한 세부 보고서 보기
 description: 지역, 장치, 뷰기능 및 대상 성능 데이터에 대한 섹션을 사용하여 캠페인 수준 보고서를 여는 방법을 알아봅니다.
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,5 @@ ht-degree: 0%
 >* [광고에 대한 세부 보고서 보기](/help/dsp/campaign-management/ads/ad-view-report.md)
 >* [플랫폼 내 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)
+>* [캠페인에 대한 변경 로그 보기](campaign-change-log.md)
 

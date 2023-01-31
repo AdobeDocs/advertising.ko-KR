@@ -3,9 +3,9 @@ title: 캠페인 설정
 description: 사용 가능한 캠페인 설정에 대한 설명을 참조하십시오.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -150,4 +150,5 @@ ht-degree: 0%
 >* [Campaign Management 정보](campaign-about.md)
 >* [캠페인 만들기](campaign-create.md)
 >* [캠페인 편집](campaign-edit.md)
+>* [캠페인에 대한 변경 로그 보기](campaign-change-log.md)
 

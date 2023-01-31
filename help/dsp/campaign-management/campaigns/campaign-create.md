@@ -3,10 +3,10 @@ title: 캠페인 만들기
 description: 캠페인을 만드는 방법을 알아봅니다.
 feature: DSP Campaigns
 exl-id: 8e401c15-018d-439b-922e-2e456eabfea4
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 1%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
@@ -26,5 +26,6 @@ ht-degree: 1%
 >* [Campaign Management 정보](campaign-about.md)
 >* [캠페인 복제](campaign-duplicate.md)
 >* [캠페인 편집](campaign-edit.md)
+>* [캠페인에 대한 변경 로그 보기](campaign-change-log.md)
 >* [캠페인 설정](campaign-settings.md)
 
