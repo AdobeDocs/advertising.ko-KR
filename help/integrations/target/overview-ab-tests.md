@@ -2,7 +2,7 @@
 title: Adobe Target에서 Adobe 광고 광고에 대한 A/B 테스트 구성
 description: 에서 A/B 테스트를 설정하는 방법을 알아봅니다 [!DNL Target] DSP 및 [!DNL Search] 광고.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 69a829a7fda684fcb2d698427f3ef5772d11433d
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 0%
@@ -129,7 +129,7 @@ Flash 대화 또는 Google Campaign Manager 360 내에서 AMO ID 변수를 캡�
 
    >[!NOTE]
    >
-   >여러 URL을 사용하여 뷰스루 사이트 항목을 테스트할 수 있습니다. 자세한 내용은 &quot;[다중 페이지 활동](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; 페이지 URL별로 최상위 항목을 만들기 위해 [사이트 시작 보고서](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-site-entry-reports.html) 참조하십시오.
+   >여러 URL을 사용하여 뷰스루 사이트 항목을 테스트할 수 있습니다. 자세한 내용은 &quot;[다중 페이지 활동](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; 페이지 URL별로 최상위 항목을 만들기 위해 [사이트 시작 보고서](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) 참조하십시오.
 
 1. 에서 **목표** 필드에서 테스트에 대한 성공 지표를 입력합니다.
 
