@@ -3,9 +3,9 @@ title: '캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고
 description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값, 레거시 제품 ID를 사용한 API 액세스 요청 및 반환된 데이터 필드의 예에 대해 알아봅니다.
 feature: CCPA
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bc0015c134406fb020370def45a8588b5032587e
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Adobe 광고에서 소비자 개인 정보에 액세스하고 삭제를 요청�
    >
    >일부 Experience Cloud 솔루션에 대한 요청에는 JavaScript 라이브러리가 필요하지 않지만 Adobe 광고에 대한 요청에는 JavaScript 라이브러리가 필요합니다.
 
-   고객이 회사의 개인 정보 포털과 같은 액세스 및 삭제 요청을 제출할 수 있는 웹 페이지에 라이브러리를 배포해야 합니다. 라이브러리는 Adobe 쿠키(네임스페이스 ID)를 검색하는 데 도움이 됩니다. `gsurferID`)를 사용하여 액세스 및 삭제 요청의 일부로 이러한 ID를 제출할 수 있습니다. [!DNL Adobe Experience Platform Privacy Service API].
+   회사의 개인 정보 포털과 같은 액세스 및 삭제 요청을 고객이 제출할 수 있는 웹 페이지에 라이브러리를 배포해야 합니다. 라이브러리는 Adobe 쿠키(네임스페이스 ID)를 검색하는 데 도움이 됩니다. `gsurferID`)를 사용하여 액세스 및 삭제 요청의 일부로 이러한 ID를 제출할 수 있습니다. [!DNL Adobe Experience Platform Privacy Service API].
 
    고객이 개인 데이터를 삭제하도록 요청하면 라이브러리가 고객의 브라우저에서 고객의 쿠키도 삭제합니다.
 

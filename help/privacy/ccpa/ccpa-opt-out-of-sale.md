@@ -3,9 +3,9 @@ title: '캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고
 description: 소비자 판매 중지 요청 캡처에 대한 지원에 대해 알아봅니다.
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: cce2d73880fbc4b185b426f2e18c1b071dd511a1
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ CCPA를 위한 Adobe 개인 정보 서비스에 대한 자세한 내용은 [Adob
    >
    >일부 Adobe Experience Cloud 솔루션에 대한 요청에는 JavaScript 라이브러리가 필요하지 않지만 Adobe 광고에 대한 요청에는 JavaScript 라이브러리가 필요합니다.
 
-   고객이 회사의 개인 정보 포털과 같은 판매 중지 요청을 제출할 수 있는 웹 페이지에 라이브러리를 배포해야 합니다. 라이브러리는 Adobe 쿠키(네임스페이스 ID)를 검색하는 데 도움이 됩니다. `gsurferID`)를 사용하도록 이러한 id를 Adobe Experience Platform Privacy Service API를 통해 판매 중지 요청의 일부로 제출할 수 있습니다.
+   회사의 개인 정보 포털과 같이 고객이 판매 중지 요청을 제출할 수 있는 웹 페이지에 라이브러리를 배포해야 합니다. 라이브러리는 Adobe 쿠키(네임스페이스 ID)를 검색하는 데 도움이 됩니다. `gsurferID`)를 사용하도록 이러한 id를 Adobe Experience Platform Privacy Service API를 통해 판매 중지 요청의 일부로 제출할 수 있습니다.
 
 1. Experience Cloud 조직 ID를 식별하고 Adobe 광고 계정에 연결되어 있는지 확인합니다.
 

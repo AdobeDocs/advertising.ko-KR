@@ -8,9 +8,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 85f748bae0efb52e96d8993dcc482b1b969fe6fe
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '879'
 ht-degree: 6%
 
 ---
@@ -106,8 +106,8 @@ ht-degree: 6%
          + [캠페인 데이터 필터링](/help/dsp/campaign-management/reports/campaign-data-filter.md)
          + [열 정렬](/help/dsp/campaign-management/reports/campaign-data-sort.md)
       + [데이터 시각화 관리](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
-   + 스프레드시트를 사용하여 캠페인에 대한 배치 설정 수정 {#qa-spreadsheet}
-      + [스프레드시트를 사용하여 캠페인에 대한 배치 설정 수정 정보](/help/dsp/campaign-management/qa/qa-about.md)
+   + 스프레드시트를 사용하여 배치 설정 수정 {#qa-spreadsheet}
+      + [스프레드시트를 사용하여 배치 설정 수정 정보](/help/dsp/campaign-management/qa/qa-about.md)
       + [캠페인에 대한 배치 설정 다운로드](/help/dsp/campaign-management/qa/qa-sheet-download.md)
       + [캠페인에 대한 배치 설정 업로드](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [다운로드/업로드된 스프레드시트의 열](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
@@ -126,7 +126,7 @@ ht-degree: 6%
    + [성능 문제 해결](/help/dsp/optimization/troubleshooting-performance.md)
 + 대상 {#audiences}
    + [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
-   + 세그먼트 관리 {#segments}
+   + 세그먼트 {#segments}
       + [사용자 지정 세그먼트 만들기 및 구현](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트 {#ccpa-opt-out-of-sale-segments}
          + [정보 [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트](/help/dsp/audiences/ccpa-opt-out-about.md)
@@ -136,7 +136,7 @@ ht-degree: 6%
       + [세그먼트 공유 또는 중지](/help/dsp/audiences/segment-share.md)
       + [세그먼트에 대한 추적 픽셀 보기](/help/dsp/audiences/segment-view-pixels.md)
       + [세그먼트 삭제](/help/dsp/audiences/segment-delete.md)
-   + 대상자 관리 {#reusable-audiences}
+   + 대상 {#reusable-audiences}
       + [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)
       + [재사용 가능한 대상 복제](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [재사용 가능한 대상 편집](/help/dsp/audiences/reusable-audience-edit.md)
@@ -147,7 +147,7 @@ ht-degree: 6%
       + [재사용 가능한 대상 삭제](/help/dsp/audiences/reusable-audience-delete.md)
       + [대상 설정](/help/dsp/audiences/audience-settings.md)
       + [대상 세그먼트 논리 구문](/help/dsp/audiences/audience-segment-logic-syntax.md)
-   + 소스 관리 {#sources}
+   + 소스 {#sources}
       + [Audience Sources에서 인증된 세그먼트 활성화 정보](/help/dsp/audiences/sources/source-about.md)
       + [내구성 ID 파트너에서 인증된 세그먼트 활성화](/help/dsp/audiences/sources/source-durable-id.md)
       + [자사 대상을 활성화할 대상 소스 만들기](/help/dsp/audiences/sources/source-create.md)
