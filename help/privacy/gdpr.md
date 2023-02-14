@@ -3,7 +3,7 @@ title: 개인 정보 보호 규정을 위한 Adobe 광고 지원
 description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값, 레거시 제품 ID를 사용한 API 액세스 요청 및 반환된 데이터 필드의 예에 대해 알아봅니다
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 3761e54d954c2913f8cbe7fe8a77eb2b3c854f98
+source-git-commit: 7c5472ee97635039a635bcdbd4e0cc384fd04299
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -30,7 +30,7 @@ GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스
 
 Adobe Experience Platform은 기업이 다음 작업을 완료할 수 있는 기능을 제공합니다.
 
-* 내에서 데이터 주체의 쿠키 수준 데이터 또는 장치 ID 수준 데이터(모바일 앱의 광고)에 액세스합니다 {{search-product-name}}, [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO].
+* 내에서 데이터 주체의 쿠키 수준 데이터 또는 장치 ID 수준 데이터(모바일 앱의 광고)에 액세스합니다 [!DNL Search], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO].
 * 내에 저장된 쿠키 수준 데이터 삭제 [!DNL Search], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO] 브라우저를 사용하는 데이터 주체의 경우 내에 저장된 ID 수준 데이터를 삭제하거나 [!DNL DSP] 모바일 장치에서 앱을 사용하는 데이터 주제용.
 * 하나 또는 모든 기존 요청의 상태를 확인합니다.
 
