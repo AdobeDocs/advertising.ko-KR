@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 425a5f38582a0c603417b67a665a7919dc26e1ac
+source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023년 2월 15일 | [!UICONTROL Campaigns] | 차트 양식의 변경 로그를 보고 항목에 메모를 추가하는 옵션이 베타 버전이 아닙니다. | 참조:[캠페인에 대한 변경 로그 보기](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; 참조:[패키지에 대한 변경 로그 보기](/help/dsp/campaign-management/packages/package-change-log.md),&quot;를 참조하고 &quot;[배치에 대한 변경 로그 보기](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023년 2월 3일 | [!UICONTROL Campaigns] | (베타 기능) 이제 차트 양식에서 변경 로그를 볼 수 있으며 모든 항목에 메모를 추가할 수 있습니다. | 참조:[캠페인에 대한 변경 로그 보기](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; 참조:[패키지에 대한 변경 로그 보기](/help/dsp/campaign-management/packages/package-change-log.md),&quot;를 참조하고 &quot;[배치에 대한 변경 로그 보기](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023년 1월 25일 | [!UICONTROL Deals] | 인벤토리 > 거래 보기의 새로운 &quot;PG 노출 간격&quot; 비용 열은 보장된 계약에 대한 게재 간격 보고서를 표시합니다. | 참조:[사용자 지정 열 보기 편집](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 2023년 1월 4일 | [!UICONTROL Campaigns] | 이제 각 캠페인에 대해 선택한 날짜 범위 동안의 변경 사항을 보여주는 변경 로그를 사용할 수 있습니다. 변경 로그는 이미 패키지 및 배치에 대해 사용할 수 있습니다. | 참조:[캠페인에 대한 변경 로그 보기](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;.&quot; |
