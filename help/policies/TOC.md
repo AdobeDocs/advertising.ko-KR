@@ -10,8 +10,8 @@ breadcrumb-title: 정책 및 지침
 index: true
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 39%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
