@@ -3,7 +3,7 @@ title: 대상 소스에서 인증된 세그먼트 활성화 정보
 description: 고객 데이터 플랫폼에서 자사 세그먼트를 수집하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -29,7 +29,7 @@ DSP은 [다음 [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://exper
 
 <!-- Make sure that titles make the distinctions clear -- everything can't be "Activate XXX." -->
 
-1. [DSP에서 고객 데이터 세그먼트를 (으)로 번역하도록 허용 [!DNL LiveRamp RampIDs]](source-durable-id.md) 바인딩 가능한 환경에서 인식할 수 있습니다.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your DSP account team will perform this configuration. -->
+1. [DSP에서 고객 데이터 세그먼트를 (으)로 번역하도록 허용 [!DNL LiveRamp RampIDs]](source-durable-id.md) 바인딩 가능한 환경에서 인식할 수 있습니다.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
 
 1. [대상자 소스 만들기](source-create.md) DSP 계정 또는 광고주 계정으로 대상자를 가져오려면 다음을 수행하십시오.
 
@@ -41,7 +41,7 @@ DSP은 [다음 [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://exper
 >
 >* [지속 ID 파트너에서 인증된 세그먼트 활성화](source-durable-id.md)
 >* [자사 대상을 활성화할 대상 소스 만들기](source-create.md)
->* [대상 소스 설정](source-settings.md)
+>* [대상자 소스 설정](source-settings.md)
 >* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* Adobe Experience Platform [대상 카탈로그 개요](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
