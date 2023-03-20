@@ -3,14 +3,18 @@ title: 배치에 광고 첨부
 description: 배치에 광고를 첨부하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 1f35711c5543974f97ce2a9c35427636c1e5a6a9
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
 
 # 배치에 광고 첨부
+
+>[!NOTE]
+>
+>범용 비디오 광고는 범용 비디오 배치에만 첨부할 수 있습니다.
 
 ## 에서 새 광고 첨부 [!UICONTROL Ads] 보기
 
@@ -132,4 +136,5 @@ ht-degree: 1%
 >* [광고 편집](ad-edit.md)
 >* [광고와 연결된 배치 나열](ad-list-placements.md)
 >* [배치에 대한 광고 일정 편집](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 

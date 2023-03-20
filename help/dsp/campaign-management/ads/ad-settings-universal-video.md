@@ -3,9 +3,9 @@ title: 범용 비디오 광고 설정
 description: 범용 비디오 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0c9e9c8d2a3444c623568d25262421be53c0c846
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # 범용 비디오 광고 설정
 
 *베타 기능 열기*
+
+>[!NOTE]
+>
+>범용 비디오 광고는 범용 비디오 배치에만 첨부할 수 있습니다.
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -50,7 +54,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** 잠재적 인벤토리에 대한 광고 플레이어의 형식: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]*, 또는 *[!UICONTROL VAST]*. 뷰가능 여부에 대해서는 항상 을 측정합니다 [!UICONTROL VPAID]하지만 [!UICONTROL VPAID & VAST] 뷰가능 측정을 허용하지 않는 인벤토리를 포함합니다. 보기 가능 지표가 캠페인에 중요한 경우 이 구분을 고려하십시오.
 
-사용 *[!UICONTROL VAST]*&#x200B;에서는 뷰가능 측정이 허용되지 않는 로서, VAST 형식만 엄격하게 필요로 하는 연결된 TV나 인벤토리를 타겟팅할 때(일반적으로 Google Ad Manager, Appnexus, SpotX 및 Freewheel과 같은 공급 소스에서).
+사용 [!UICONTROL VAST]에서는 뷰가능 측정이 허용되지 않는 로서, VAST 형식만 엄격하게 필요로 하는 연결된 TV나 인벤토리를 타겟팅할 때(일반적으로 Google Ad Manager, Appnexus, SpotX 및 Freewheel과 같은 공급 소스에서). 또한 표준 프리롤(VAST) 또는 전화 + VAST(Tablet Standard Pre-Roll) 배치/광고와 이전에 호환되는 인벤토리에 이 옵션을 사용합니다.
 
 **[!UICONTROL Clock Number]**: (영국에서만 사용) 권한이 있는 사용자만 사용할 수 있음) 올바른 광고가 브로드캐스트되도록 하는 데 사용되는 고유한 식별자입니다. 이 설정을 적용할 수 없으면 비워 둡니다.
 
@@ -72,6 +76,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 >* [광고 관리](ad-about.md)
 >* [단일 광고 만들기](ad-create.md)
 >* [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
