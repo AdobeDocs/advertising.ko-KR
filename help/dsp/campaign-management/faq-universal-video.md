@@ -2,14 +2,14 @@
 title: 범용 비디오에 대한 FAQ
 description: 범용 비디오 광고에 대해 자세히 알아보십시오.
 feature: DSP Placements, DSP Ads
-source-git-commit: 8e0237355e834f4ae2b9ef1ed211e047b41cafe7
+source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 범용 비디오에 대한 FAQ 수
+# 범용 비디오에 대한 FAQ
 
 ## 범용 비디오 배치 및 광고를 만들려면 어떻게 합니까?
 
@@ -23,7 +23,11 @@ ht-degree: 0%
 
 1. 범용 비디오 배치와 동일한 캠페인에서 [단일 범용 비디오 광고 만들기](/help/dsp/campaign-management/ads/ad-create.md) 또는 [여러 범용 비디오 광고 만들기](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-   여러 광고를 만드는 경우 &quot;[!UICONTROL Universal Video]&quot; [!UICONTROL Ad Type]. 대상 [!DNL Google] 또는 [!DNL Flashtalking] 광고 파일을 업로드한 후 &quot;[!UICONTROL Review ad types]&quot; 단계를 수행한 후 편집합니다. 다른 유형의 광고 태그의 경우, 업로드하는 스프레드시트 파일 내에 광고 유형을 지정합니다.
+   여러 광고를 만드는 경우 &quot;[!UICONTROL Universal Video]&quot; [!UICONTROL Ad Type]:
+
+   * 대상 [!DNL Google] 또는 [!DNL Flashtalking] 광고: 에서[!UICONTROL Review ad types]&quot; 파일을 업로드한 후 **[!UICONTROL Ad Type]** 필드 및 선택 **[!UICONTROL Universal Video]**.
+
+   * 다른 유형의 광고 태그의 경우: 업로드하는 스프레드시트 파일 내에서 각 광고에 대한 광고 유형 필드를 다음으로 지정합니다 **[!UICONTROL Universal Video]**.
 
 1. [광고 설정을 엽니다](/help/dsp/campaign-management/ads/ad-edit.md) 새로운 각 광고에 대해 적용 가능한 비디오 형식을 선택합니다.
 
