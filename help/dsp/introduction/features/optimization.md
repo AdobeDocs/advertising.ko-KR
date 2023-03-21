@@ -3,9 +3,9 @@ title: 최적화
 description: 최적화 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction, DSP Optimization
 exl-id: c60e58e7-ab16-49bd-9acf-e5b858755493
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Advertising DSP은 두 단계에서 가장 중요하게 생각하는 지표를 최적화합니다. 먼저 패키지의 최적화 목표에 따라 가장 성과가 좋은 배치나 전술로 비용을 이동합니다. 두 번째, a) 선택한 KPI로 예산을 완전히 게재할 필요가 있는 시간 내 경제적 가치를 반영하도록 경매 입찰을 실시간으로 조정합니다. 이러한 최적화 단계를 함께 사용하면 예산을 효율적으로 활용하여 캠페인 목표를 달성할 수 있습니다.
 
-각 배치 및 패키지에 대해 최적화 목표를 선택할 수 있습니다. 사용 가능한 최적화 목표에는 &quot; 과 같은 사전 설정된 옵션이 포함되어 있습니다.[!UICONTROL Lowest Cost per Click],&quot; 및 에서 목표로 설정한 사용자 지정 목표 [!DNL Adobe Advertising Search].
+각 배치 및 패키지에 대해 최적화 목표를 선택할 수 있습니다. 사용 가능한 최적화 목표에는 &quot; 과 같은 사전 설정된 옵션이 포함되어 있습니다.[!UICONTROL Lowest Cost per Click],&quot; 및 에서 목표로 설정한 사용자 지정 목표 [!DNL Advertising Search, Social, & Commerce].
 
 >[!MORELIKETHIS]
 >

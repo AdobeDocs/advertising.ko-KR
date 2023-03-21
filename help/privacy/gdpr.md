@@ -3,7 +3,7 @@ title: 개인 정보 보호 규정을 위한 Adobe 광고 지원
 description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값, 레거시 제품 ID를 사용한 API 액세스 요청 및 반환된 데이터 필드의 예에 대해 알아봅니다
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 7c5472ee97635039a635bcdbd4e0cc384fd04299
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 개인 정보 보호 규정을 위한 Adobe 광고 지원
 
-*대상 [!DNL Adobe Advertising Search]; Adobe 광고 DSP Adobe 광고 크리에이티브 및 Adobe Advertising DCO*
+*대상 [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe 광고 DSP Adobe 광고 크리에이티브 및 Adobe Advertising DCO*
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Adobe Experience Cloud은 고객을 대신하여 수신하여 보관하는 모든 개인 데이터에 대한 데이터 처리자의 역할을 합니다. 귀하는 데이터 제어자로서 Adobe Experience Cloud이 귀하를 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
 
-이 문서에서는 [!DNL Advertising Search]; 광고 크리에이티브; Advertising DSP(Demand Side Platform); 및 [!DNL Advertising DCO] Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 GDPR 데이터 액세스 및 삭제 권한을 지원합니다.
+이 문서에서는 [!DNL Advertising Search, Social, & Commerce]; 광고 크리에이티브; Advertising DSP(Demand Side Platform); 및 [!DNL Advertising DCO] Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 GDPR 데이터 액세스 및 삭제 권한을 지원합니다.
 
 GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
@@ -30,8 +30,8 @@ GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스
 
 Adobe Experience Platform은 기업이 다음 작업을 완료할 수 있는 기능을 제공합니다.
 
-* 내에서 데이터 주체의 쿠키 수준 데이터 또는 장치 ID 수준 데이터(모바일 앱의 광고)에 액세스합니다 [!DNL Search], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO].
-* 내에 저장된 쿠키 수준 데이터 삭제 [!DNL Search], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO] 브라우저를 사용하는 데이터 주체의 경우 내에 저장된 ID 수준 데이터를 삭제하거나 [!DNL DSP] 모바일 장치에서 앱을 사용하는 데이터 주제용.
+* 내에서 데이터 주체의 쿠키 수준 데이터 또는 장치 ID 수준 데이터(모바일 앱의 광고)에 액세스합니다 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO].
+* 내에 저장된 쿠키 수준 데이터 삭제 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO] 브라우저를 사용하는 데이터 주체의 경우 내에 저장된 ID 수준 데이터를 삭제하거나 [!DNL DSP] 모바일 장치에서 앱을 사용하는 데이터 주제용.
 * 하나 또는 모든 기존 요청의 상태를 확인합니다.
 
 ## Adobe 광고에 대한 요청을 전송하기 위한 필수 설정
@@ -50,7 +50,7 @@ Adobe 광고를 위한 데이터에 액세스하고 삭제를 요청하려면 �
 
    >[!NOTE]
    >
-   >개인 데이터를 삭제하는 것은 옵트아웃과 다릅니다. 옵트아웃은 대상 세그먼트로 최종 사용자 타겟팅을 중지합니다. 그러나 데이터 주체에서 개인 데이터를 삭제하도록 요청하는 경우 [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO]또한 라이브러리는 Adobe 타깃팅에서 데이터 주체를 옵트아웃하기 위해 Advertising에 요청을 보냅니다. 광고 문헌 [!DNL Search]를 설정하는 경우 데이터 주체에게 [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)에서는 대상 세그먼트 타깃팅을 옵트아웃하는 방법을 설명합니다.
+   >개인 데이터를 삭제하는 것은 옵트아웃과 다릅니다. 옵트아웃은 대상 세그먼트로 최종 사용자 타겟팅을 중지합니다. 그러나 데이터 주체에서 개인 데이터를 삭제하도록 요청하는 경우 [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO]또한 라이브러리는 Adobe 타깃팅에서 데이터 주체를 옵트아웃하기 위해 Advertising에 요청을 보냅니다. 광고 문헌 [!DNL Search, Social, & Commerce]를 설정하는 경우 데이터 주체에게 [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html)에서는 대상 세그먼트 타깃팅을 옵트아웃하는 방법을 설명합니다.
 
 1. Experience Cloud 조직 ID를 식별하고 Adobe 광고 계정에 연결되어 있는지 확인합니다.
 
@@ -58,7 +58,7 @@ Adobe 광고를 위한 데이터에 액세스하고 삭제를 요청하려면 �
 
    >[!IMPORTANT]
    >
-   >조직의 Adobe 광고 담당자에게 문의하여 다음을 포함한 모든 조직의 Adobe 광고 계정을 확인합니다 [!DNL DSP] 계정 또는 광고주 [!DNL Search] 계정 및 [!DNL Creative] 또는 [!DNL DCO] 계정 — Experience Cloud 조직 ID에 연결되어 있습니다.
+   >조직의 Adobe 광고 담당자에게 문의하여 다음을 포함한 모든 조직의 Adobe 광고 계정을 확인합니다 [!DNL DSP] 계정 또는 광고주 [!DNL Search, Social, & Commerce] 계정 및 [!DNL Creative] 또는 [!DNL DCO] 계정 — Experience Cloud 조직 ID에 연결되어 있습니다.
 
 1. 다음 중 하나를 사용합니다 [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (자동화된 요청의 경우) 또는 [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (임시 요청의 경우) 데이터 주체를 대신하여 Advertising에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인할 수 있습니다.
 
@@ -69,7 +69,7 @@ Adobe 광고를 위한 데이터에 액세스하고 삭제를 요청하려면 �
    데이터 주체의 삭제 요청을 제출하면 쿠키 ID 또는 장치 ID와 쿠키와 연결된 모든 비용, 클릭 및 매출 데이터가 서버에서 삭제됩니다.
 
    >[!NOTE]
-   회사에 여러 Experience Cloud 조직 ID가 있는 경우 각각에 대해 별도의 API 요청을 전송해야 합니다. 그러나 여러 Adobe 광고 하위 솔루션([!DNL Search], [!DNL Creative], [!DNL DSP], 및 [!DNL DCO]). 하위 솔루션당 한 개의 계정을 사용하는 경우
+   회사에 여러 Experience Cloud 조직 ID가 있는 경우 각각에 대해 별도의 API 요청을 전송해야 합니다. 그러나 여러 Adobe 광고 하위 솔루션([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 및 [!DNL DCO]). 하위 솔루션당 한 개의 계정을 사용하는 경우
 
 이러한 모든 단계는 Adobe 광고에 필요합니다. Adobe Experience Platform Privacy Service을 사용하여 수행해야 하는 이러한 작업 및 기타 관련 작업과 필요한 항목을 찾을 수 있는 위치에 대한 자세한 내용은 [www.adobe.io/apis/cloudplatform/gdpr.html](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 

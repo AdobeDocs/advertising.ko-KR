@@ -3,16 +3,16 @@ title: '캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고
 description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값, 레거시 제품 ID를 사용한 API 액세스 요청 및 반환된 데이터 필드의 예에 대해 알아봅니다.
 feature: CCPA
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: bc0015c134406fb020370def45a8588b5032587e
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고 지원: 소비자 데이터 액세스 및 삭제 지원
 
-*대상 [!DNL Adobe Advertising Search]; Adobe 광고 DSP Adobe 광고 크리에이티브 및 Adobe Advertising DCO*
+*대상 [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe 광고 DSP Adobe 광고 크리에이티브 및 Adobe Advertising DCO*
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ CCPA(California Consumer Privacy Act)는 2020년 1월 1일부터 시행된 Calif
 
 Adobe 광고는 서비스 제공업체로서, 개인 정보에 대한 액세스 및 삭제 요청 관리 및 개인 정보 판매 거부 요청 관리를 포함하여 Adobe 광고 제품 및 서비스 사용에 적용되는 CPA에 따른 책임을 이행하도록 비즈니스를 지원합니다.
 
-이 문서에서는 [!DNL Advertising Search]; 광고 크리에이티브; Advertising DSP(Demand Side Platform); 및 [!DNL Advertising DCO] — 서비스 제공자로서 — Adobe을 사용하여 개인 정보에 액세스하고 삭제할 수 있는 소비자의 권한을 지원합니다 [!DNL Experience Platform Privacy Service API] 및 [!DNL Privacy Service UI].
+이 문서에서는 [!DNL Advertising Search, Social, & Commerce]; 광고 크리에이티브; Advertising DSP(Demand Side Platform); 및 [!DNL Advertising DCO] — 서비스 제공자로서 — Adobe을 사용하여 개인 정보에 액세스하고 삭제할 수 있는 소비자의 권한을 지원합니다 [!DNL Experience Platform Privacy Service API] 및 [!DNL Privacy Service UI].
 
 Advertising DSP이 개인 정보 판매를 옵트아웃할 소비자 권한을 지원하는 방법에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법을 위한 Adobe 광고 지원: 소비자 옵트아웃 지원](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
@@ -34,8 +34,8 @@ CCPA를 위한 Adobe 개인 정보 서비스에 대한 자세한 내용은 [Adob
 
 Adobe Experience Platform은 기업이 다음 작업을 완료할 수 있는 기능을 제공합니다.
 
-* 내에서 소비자의 쿠키 수준 데이터 또는 장치 ID 수준 데이터(모바일 앱의 광고)에 액세스합니다 [!DNL Search], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO].
-* 내에 저장된 쿠키 수준 데이터 삭제 [!DNL Search], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO] 브라우저를 사용하는 소비자의 경우 내에 저장된 ID 수준 데이터를 삭제하거나 [!DNL DSP] 를 사용하도록 선택할 수 있습니다.
+* 내에서 소비자의 쿠키 수준 데이터 또는 장치 ID 수준 데이터(모바일 앱의 광고)에 액세스합니다 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO].
+* 내에 저장된 쿠키 수준 데이터 삭제 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO] 브라우저를 사용하는 소비자의 경우 내에 저장된 ID 수준 데이터를 삭제하거나 [!DNL DSP] 를 사용하도록 선택할 수 있습니다.
 * 하나 또는 모든 기존 요청의 상태를 확인합니다.
 
 ## Adobe 광고에 대한 요청을 전송하기 위한 필수 설정
@@ -54,7 +54,7 @@ Adobe 광고에서 소비자 개인 정보에 액세스하고 삭제를 요청�
 
    >[!NOTE]
    >
-   >개인 데이터를 삭제하는 것은 옵트아웃과 다르므로, 대상 세그먼트로 최종 사용자의 타깃팅을 중지합니다. 그러나 소비자가 개인 데이터를 [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO]또한 라이브러리는 세그먼트 타깃팅에서 고객을 옵트아웃하기 위해 Adobe 광고에도 요청을 보냅니다. 광고 문헌 [!DNL Search]에 대한 링크를 제공하는 것이 좋습니다 [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse)에서는 대상 세그먼트 타깃팅을 옵트아웃하는 방법을 설명합니다.
+   >개인 데이터를 삭제하는 것은 옵트아웃과 다르므로, 대상 세그먼트로 최종 사용자의 타깃팅을 중지합니다. 그러나 소비자가 개인 데이터를 [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO]또한 라이브러리는 세그먼트 타깃팅에서 고객을 옵트아웃하기 위해 Adobe 광고에도 요청을 보냅니다. 광고 문헌 [!DNL Search, Social, & Commerce]에 대한 링크를 제공하는 것이 좋습니다 [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse)에서는 대상 세그먼트 타깃팅을 옵트아웃하는 방법을 설명합니다.
 
 1. Experience Cloud 조직 ID를 식별하고 Adobe 광고 계정에 연결되어 있는지 확인합니다.
 
@@ -62,7 +62,7 @@ Adobe 광고에서 소비자 개인 정보에 액세스하고 삭제를 요청�
 
    >[!IMPORTANT]
    >
-   >조직의 Adobe 광고 담당자에게 문의하여 다음을 포함한 모든 조직의 Adobe 광고 계정을 확인합니다 [!DNL DSP] 계정 또는 광고주 [!DNL Search] 계정 및 [!DNL Creative] 또는 [!DNL DCO] 계정 — Experience Cloud 조직 ID에 연결되어 있습니다.
+   >조직의 Adobe 광고 담당자에게 문의하여 다음을 포함한 모든 조직의 Adobe 광고 계정을 확인합니다 [!DNL DSP] 계정 또는 광고주 [!DNL Search, Social, & Commerce] 계정 및 [!DNL Creative] 또는 [!DNL DCO] 계정 — Experience Cloud 조직 ID에 연결되어 있습니다.
 
 1. 다음 중 하나를 사용합니다 [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (자동화된 요청의 경우) 또는 [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (임시 요청의 경우) 소비자를 대신하여 Adobe 광고에 개인 정보에 대한 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인할 수 있습니다.
 
@@ -73,7 +73,7 @@ Adobe 광고에서 소비자 개인 정보에 액세스하고 삭제를 요청�
    소비자 삭제 요청을 제출하면 쿠키 ID 또는 장치 ID와 쿠키와 연결된 모든 비용, 클릭 및 매출 데이터가 서버에서 삭제됩니다.
 
    >[!NOTE]
-   비즈니스에 여러 Experience Cloud 조직 ID가 있는 경우, 각각에 대해 별도의 API 요청을 전송해야 합니다. 그러나 여러 Adobe 광고 하위 솔루션([!DNL Search], [!DNL Creative], [!DNL DSP], 및 [!DNL DCO]). 하위 솔루션당 한 개의 계정을 사용하는 경우
+   비즈니스에 여러 Experience Cloud 조직 ID가 있는 경우, 각각에 대해 별도의 API 요청을 전송해야 합니다. 그러나 여러 Adobe 광고 하위 솔루션([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 및 [!DNL DCO]). 하위 솔루션당 한 개의 계정을 사용하는 경우
 
 이 모든 단계는 Adobe 광고에서 지원을 받으려면 필요합니다. Adobe Experience Platform Privacy Service을 사용하여 수행해야 하는 이러한 작업 및 기타 관련 작업과 필요한 항목을 찾을 수 있는 위치에 대한 자세한 내용은 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 

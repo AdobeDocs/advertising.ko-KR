@@ -3,7 +3,7 @@ title: Adobe 광고 허용 상태 세그먼트
 description: 상태 관련 대상 세그먼트를 타깃팅하기 위해 대체 요소로 사용할 수 있는 허용 가능한 상태 관련 대상 세그먼트 및 전술에 대한 지침을 참조하십시오.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe 광고 허용 상태 세그먼트 지침
 
-*Adobe Advertising DSP 및[!DNL Adobe Advertising Search]*
+*Adobe Advertising DSP 및[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 다음 지침은 허용되지 않는 및 허용가능한 건강 관련 대상 세그먼트에 대해 설명합니다. 또한 건강 관련 대상 세그먼트를 타깃팅하기 위해 대체 방법으로 사용할 전술을 추천합니다.
 

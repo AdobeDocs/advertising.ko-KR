@@ -3,7 +3,7 @@ title: Adobe 광고과 광고 사이에 채널 데이터가 다를 수 있는 �
 description: AMO ID로 추적된 채널 데이터가 [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Adobe 광고 및 의 통합에 대해 학습하는 사용자로부터의 일반�
 
    다음 [!DNL Analytics] [!UICONTROL Marketing Channel] 따라서 차원은 모든 채널을 캡처하고 추적하도록 구성됩니다. [!DNL Marketing Channels] 또한 Advertising DSP 뷰스루 및 클릭스루를 캡처하도록 구성할 수 있으며, 다른 마케팅 채널과 관련해서 구성됩니다.
 
-* Adobe 광고 AMO ID: Adobe Advertising AMO ID 데이터의 기본 사용 사례는 고급 기능을 제공하는 것입니다 [!DNL Adobe Sensei]-강력한 입찰 알고리즘. 알고리즘은 광고 비용을 극대화하고 목표를 달성하기 위해 매일 수천 개의 마이크로 수준 입찰 결정을 자동으로 수행합니다 [!DNL DSP] 캠페인 또는 [!DNL Search] 포트폴리오. 알고리즘이 캠페인을 연결할 수 있는 전환 데이터가 많을수록 알고리즘이 이러한 입찰 결정을 더 잘 내릴 수 있습니다.
+* Adobe 광고 AMO ID: Adobe Advertising AMO ID 데이터의 기본 사용 사례는 고급 기능을 제공하는 것입니다 [!DNL Adobe Sensei]-강력한 입찰 알고리즘. 알고리즘은 광고 비용을 극대화하고 목표를 달성하기 위해 매일 수천 개의 마이크로 수준 입찰 결정을 자동으로 수행합니다 [!DNL DSP] 캠페인 또는 [!DNL Search, Social, & Commerce] 포트폴리오. 알고리즘이 캠페인을 연결할 수 있는 전환 데이터가 많을수록 알고리즘이 이러한 입찰 결정을 더 잘 내릴 수 있습니다.
 
    이 데이터를 수집하려면 [!DNL Analytics for Advertising] 통합은 사용자 지정 변수(eVar) 또는 예약된 변수(rVar)로 저장된 Adobe Analytics의 AMO ID 차원에서 클릭스루 및 뷰스루 추적 코드로 변환할 수 있는 원시 AMO ID를 전달합니다. 다른 채널에 대한 클릭스루가 AMO ID 차원에서 설정되지 않으므로 AMO ID 차원은 이러한 다른 채널의 항목을 추적할 수 없습니다. 그 결과 AMO ID가 [!DNL Marketing Channels] 시작 지점.
 
