@@ -3,9 +3,9 @@ title: Advertising DSP의 광고 관리 정보
 description: 광고 관리에 대해 알아봅니다.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 9073400eb26957c63378bee90929009fcc82f78f
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ DSP은 다양한 광고 유형에 대한 타사 광고 서비스 태그(예: Goo
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-광고가 설정되면, 캠페인의 게재 방법을 제어하는 타깃팅 매개 변수(예: 지역, 대상, 장치 및 인벤토리 타깃팅)가 포함된 각 광고를 게재해야 합니다. 단일 광고를 하나 또는 여러 배치에 첨부할 수 있습니다.
+광고가 설정되면, 각 광고를 게재에 첨부합니다. 이 게재에는 캠페인의 전달 방법을 제어하는 타깃팅 매개 변수(예: 지역, 대상, 장치 및 인벤토리 타깃팅)가 포함됩니다. 단일 광고를 하나 또는 여러 배치에 첨부할 수 있습니다.
 
 ## 사용 가능한 광고 유형 {#ad-types}
 
@@ -37,7 +37,11 @@ DSP은 다양한 광고 유형에 대한 타사 광고 서비스 태그(예: Goo
 
 * **연결된 TV 광고(타사 전용)**: 연결된 TV 광고는 프리미엄 TV 비디오 컨텐츠 전후에 표시됩니다. 연결된 모든 TV 인벤토리는 TV 장치에서 실행됩니다. 즉, 비디오가 건너뛸 수 없는 전체 화면 환경에서 자동으로 재생됩니다. 연결된 TV는 TV 광고에 가장 가까운 디지털 비디오 포맷이다. 연결된 TV의 주요 성능 지표는 다음과 같습니다 [!UICONTROL Completion Rate].
 
-* **범용 비디오 광고(타사 전용)**: 범용 비디오 광고는 연결된 TV, 프리롤 및 모바일 프리롤 광고(VAST 및 VPAID)의 모든 기능을 하나로 결합하고 비디오 컨텐츠 전후에 표시됩니다. 범용 비디오 광고는 데스크탑, 모바일 및 연결된 TV 환경에서 비디오 인벤토리를 타깃팅할 때 사용할 수 있으므로 여러 비디오 광고를 만들 필요가 없습니다. 범용 비디오에 대한 주요 성능 지표는 다음과 같습니다 [!UICONTROL Completion Rate] 및 [!UICONTROL Viewability Rate].
+* **범용 비디오 광고(타사 전용)**: 범용 비디오 광고를 사용하면 단일 비디오 배치를 사용하여 데스크탑, 모바일 및 연결된 TV 환경에서 VPAID 및 VAST 인벤토리를 타겟팅할 수 있습니다. 연결된 TV, 프리롤 및 모바일 프리롤 광고의 모든 기능을 결합하고 비디오 컨텐츠 전후에 표시되는 컨텐츠입니다. 범용 비디오에 대한 주요 성능 지표는 다음과 같습니다 [!UICONTROL Completion Rate] 및 [!UICONTROL Viewability Rate].
+
+   범용 비디오 광고는 범용 비디오 배치에만 첨부할 수 있습니다.
+
+   참조:[범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md)범용 비디오 광고에 대한 자세한 내용은 &quot;를 참조하십시오.
 
 ## DSP Ad Approvals
 
