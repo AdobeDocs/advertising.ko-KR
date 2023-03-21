@@ -2,7 +2,7 @@
 title: 범용 비디오에 대한 FAQ
 description: 범용 비디오 광고에 대해 자세히 알아보십시오.
 feature: DSP Placements, DSP Ads
-source-git-commit: 58cbb5b85a1dc790aaf762ba55fd2badeef6fe68
+source-git-commit: 1740c4ca3f70a0e3edb7e4ebaea0be3f0b731b16
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

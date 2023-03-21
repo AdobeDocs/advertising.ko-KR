@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
+source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023년 3월 20일 | [!UICONTROL Campaigns] | 개방형 베타 기능인 범용 비디오 배치 및 광고에 대해 자세히 알아보십시오. | 참조:[범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 2023년 2월 15일 | [!UICONTROL Campaigns] | 차트 양식의 변경 로그를 보고 항목에 메모를 추가하는 옵션이 베타 버전이 아닙니다. | 참조:[캠페인에 대한 변경 로그 보기](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; 참조:[패키지에 대한 변경 로그 보기](/help/dsp/campaign-management/packages/package-change-log.md),&quot;를 참조하고 &quot;[배치에 대한 변경 로그 보기](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023년 2월 3일 | [!UICONTROL Campaigns] | (베타 기능) 이제 차트 양식에서 변경 로그를 볼 수 있으며 모든 항목에 메모를 추가할 수 있습니다. | 참조:[캠페인에 대한 변경 로그 보기](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; 참조:[패키지에 대한 변경 로그 보기](/help/dsp/campaign-management/packages/package-change-log.md),&quot;를 참조하고 &quot;[배치에 대한 변경 로그 보기](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023년 1월 25일 | [!UICONTROL Deals] | 인벤토리 > 거래 보기의 새로운 &quot;PG 노출 간격&quot; 비용 열은 보장된 계약에 대한 게재 간격 보고서를 표시합니다. | 참조:[사용자 지정 열 보기 편집](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
@@ -49,7 +50,7 @@ ht-degree: 0%
 |  | [!DNL Freewheel] 프로그램 보장 거래 | 이제 광고를 제출하고 광고 상태를 확인할 수 있습니다 [!DNL Freewheel] 프로그램 방식으로 보장되는 거래 [!UICONTROL Ads] 보기. 이전에는 [!UICONTROL Deals] 보기. | 참조:[프로그래밍 방식의 보장 거래에 대한 광고를 제출합니다. [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] 프로그램 방식의 보장 거래](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 2021년 10월 7일 | 도움말 | 모두 [DSP 및 기타 Adobe 광고 설명서](https://experienceleague.adobe.com/docs/advertising.html) on [!DNL Experience League] 이제 모든 언어로 번역된 기계입니다. 표시된 언어를 변경하려면 페이지의 왼쪽 하단에 있는 &quot;언어 변경&quot; 메뉴를 사용합니다.<br>![언어 변경](/help/dsp/assets/change-language.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- older entries:
 
