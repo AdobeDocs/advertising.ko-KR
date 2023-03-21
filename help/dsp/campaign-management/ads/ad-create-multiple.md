@@ -3,9 +3,9 @@ title: 여러 타사 광고 만들기
 description: 여러 타사 광고를 한 번에 만드는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: d072670b26e56e986df2a6690978df1e74237dad
+source-git-commit: 5139e6022cd5f5f11046d8f38bd0f1db91464928
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ ht-degree: 0%
 1. 업로드가 완료되면 을(를) 클릭합니다 **[!UICONTROL Start Building Ads]**.
 
 1. 각 광고의 세부 정보와 상태를 검토합니다.
+
+   1. (범용 비디오 광고 사용 [!DNL Google] 또는 [!DNL Flashtalking] 태그) **[!UICONTROL Ad Type]** 필드 및 선택 **[!UICONTROL Universal Video]**.
+
+   1. (범용 비디오 광고) 새로운 각 광고에 대해 ![편집](/help/dsp/assets/edit.png)에서 을(를) 선택합니다. [적용 가능한 비디오 형식](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)를 클릭한 다음 **저장**.
 
    1. 업로드된 태그의 유효성 검사를 기반으로 하는 각 광고의 상태를 검토합니다.
 
