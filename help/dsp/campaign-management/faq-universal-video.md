@@ -2,20 +2,22 @@
 title: 범용 비디오에 대한 FAQ
 description: 범용 비디오 광고에 대해 자세히 알아보십시오.
 feature: DSP Placements, DSP Ads
-source-git-commit: 1740c4ca3f70a0e3edb7e4ebaea0be3f0b731b16
+source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # 범용 비디오에 대한 FAQ
 
+[범용 비디오 광고](/help/dsp/campaign-management/ads/ad-about.md) 단일 비디오 배치를 사용하여 VPAID 및 VAST 인벤토리를 위해 데스크탑, 모바일 및 연결된 TV 환경에서 비디오 인벤토리를 타깃팅할 수 있습니다.
+
 ## 범용 비디오 배치 및 광고를 만들려면 어떻게 합니까?
 
 범용 비디오 배치에는 범용 비디오 광고만 포함할 수 있고 범용 비디오 광고는 범용 비디오 배치에만 연결할 수 있습니다.
 
-다른 유형의 배치 및 비디오를 만드는 방법과 유사하게 만듭니다.
+다른 유형의 배치 및 비디오를 만드는 방법과 유사하게 범용 비디오 배치 및 광고를 만듭니다.
 
 1. 원하는 캠페인 내에서, [범용 비디오 배치 만들기](/help/dsp/campaign-management/placements/placement-create.md), 선택 [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
 
