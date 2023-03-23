@@ -3,9 +3,9 @@ title: Adobe Analytics와의 Adobe 광고 통합
 description: Adobe 광고가 Adobe Analytics과 데이터를 교환하는 방법과 검색, 소셜 및 상거래 내에서 데이터를 사용하는 방법에 대해 알아봅니다.
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: def6a3a8d1de1f9f80dee6ecd1a18667afc79fd3
+source-git-commit: 06996ee9eb635fe204c0c3938e6937e8871c8a90
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 다음과 같은 방법으로 Adobe 광고를 Analytics와 통합할 수 있습니다.
 
-## 간 데이터 교환 [!AAnalytics] 및 Adobe 광고
+## 간 데이터 교환 [!DNL Analytics] 및 Adobe 광고
 
-### 가져오기 [!AAnalytics] Adobe 광고에 데이터 삽입
+### 가져오기 [!DNL Analytics] Adobe 광고에 데이터 삽입
 
 사용 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] 및 DSP 가져오기:
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * **[!DNL Analytics]표준, 사용자 지정 및 예약된 지표**
 
-### Adobe 광고 데이터를에 보냅니다. [!AAnalytics]
+### Adobe 광고 데이터를에 보냅니다. [!DNL Analytics]
 
 * **Adobe 광고의 트래픽 지표**
 
