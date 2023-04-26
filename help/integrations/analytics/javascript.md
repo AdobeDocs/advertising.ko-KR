@@ -3,9 +3,9 @@ title: 용 JavaScript 코드 [!DNL Analytics for Advertising]
 description: 용 JavaScript 코드 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 96b71e8c99ee30254b4bdc4ef0cb8af359f64c5e
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ JavaScript 라이브러리는 [!DNL Analytics] 및 Adobe 광고를 사용하여 
 
 ### 코드를 배치할 위치
 
-다음 [!DNL Analytics for Advertising] JavaScript 함수는 Experience Cloud ID 서비스 뒤에 와야 하며, 보조 ID(`SDID`) 또는 `[!DNL StitchID]` Analytics 호출에 포함할 수 있습니다.
+다음 [!DNL Analytics for Advertising] JavaScript 함수는 Experience Cloud ID 서비스 뒤에 와야 하며, Analytics App Measurement 코드 앞에 있어야 합니다. 이를 통해 보충 ID(`SDID`) 또는 `[!DNL StitchID]` 는 Analytics 호출에 포함되어 있습니다.
 
 ![코드 배치](/help/integrations/assets/a4adc-code-placement.png)
 

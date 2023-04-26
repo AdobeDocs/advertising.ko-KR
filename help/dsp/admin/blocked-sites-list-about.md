@@ -2,9 +2,9 @@
 title: 계정 수준 및 광고주 수준의 차단된 사이트 목록 정보
 description: 계정 또는 광고주의 차단된 사이트 목록에 대해 자세히 알아보십시오.
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bd667a01a0579c1523dc975bffd3560ac2a056db
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
