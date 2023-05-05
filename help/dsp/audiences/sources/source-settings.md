@@ -3,16 +3,14 @@ title: 대상 소스 설정
 description: 대상 소스에 대한 설정에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
+source-git-commit: 4dbc2331570f6ab88a224e25a78532c10df9d311
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
 # 대상 소스 설정
-
-*베타 기능*
 
 **[!UICONTROL Data Visibility Level]:** 계정에 액세스할 수 있는 단일 광고주가 세그먼트를 사용할 수 있는지 여부(*[!UICONTROL Advertiser]*) 또는 계정에 액세스할 수 있는 모든 광고주에게 *[!UICONTROL Account]*.
 
