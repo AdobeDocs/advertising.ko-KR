@@ -1,9 +1,9 @@
 ---
 title: 에 대한 FAQ [!UICONTROL Household] 보고서
 description: 추가 정보 [!UICONTROL Household] 다른 보고서와 문제 해결 방법을 포함한 보고서 세트에만 표시됩니다.
-source-git-commit: d88ea4ab2ad4a2ee54475346a24724b766b024fc
+source-git-commit: 95f81dafbe13f40487bad47f7dd41a6c80c589ee
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,15 @@ ht-degree: 0%
 
 ## 겹치기 지표와 겹치지 않는 지표 간의 차이점은 무엇입니까?
 
-다음 그림은 세 개의 캠페인(A, B 및 C)에 대한 세 개의 지표(고유 가구, 증분 가구 및 증분 가구(겹치기)를 보여줍니다.
+다음 그림은 세 개의 캠페인(A, B 및 C)에 대한 세 개의 지표(고유 가구 도달, 증분 가구 도달 및 증분 가구(겹치기)를 보여줍니다.
 
 ![가계 겹치기 지표 일러스트레이션](/help/dsp/assets/household-overlap-metrics-illustration.png "가계 겹치기 지표 일러스트레이션")
 
-* 고유 가구 수 도달 (합계)은 각 캠페인에서 도달한 고유 가구나 각 원의 총 영역을 제공합니다. 그림에서 A = A + (A+C) + (A+B) +(A+B+C)에 의해 도달한 고유한 가구
+* 고유 가구 수 도달 (합계)은 각 캠페인에서 도달한 고유 가구나 각 원의 총 영역을 제공합니다. 그림에서 A = A + (A+B) + (A+C) +(A+B+C)에 의해 도달한 고유한 가구
 
 * Incremental Family Destination은 캠페인에서만 도달한 Unique Family입니다. 그림에서 A, B, C에 의해 도달한 증분 가계는 각각 A, B, C에 의해 도달한 증분 가가구입니다.
 
-* 증분 가족(겹치기)은 캠페인이나 캠페인 조합이 도달한 고유 가구입니다. 그림에서 A, C가 도달한 증분 가계는 A+C입니다.
+* 증분 가족(겹치기)은 캠페인이나 캠페인 조합이 도달한 고유 가구입니다. 그림에서 A로 도달한 증분 가계는 C+C입니다.
 
 ## 워크플로
 
