@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 2e0240ff1b342d5a0564e01ebec3ee313b488b59
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]** 보고서 이름. 최대 길이는 180자입니다.
 
-**[!UICONTROL Report Type]** 보고서 유형: *[!UICONTROL Custom]* (대부분의 사용 가능한 옵션이 포함됨), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, 또는 *[!UICONTROL Site]*.
+**[!UICONTROL Report Type]** 보고서 유형: *[!UICONTROL Custom]* (대부분의 사용 가능한 옵션이 포함됨), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, 또는 *[!UICONTROL Household]*.
 
 ## [!UICONTROL Apply Filters] 섹션
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Last Calendar Month]:** 이전 달력 월의 데이터를 포함합니다.
 
-**[!UICONTROL Add Filters]:** (선택 사항) 차원이 보고서에 열로 포함되어 있는지 여부에 관계없이 데이터를 필터링할 수 있는 추가 차원입니다. *[!UICONTROL Account]*,\* *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Placement]*, *[!UICONTROL Ad]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Video]*, *[!UICONTROL Video Duration]*, *[!UICONTROL Country]*, 및 *[!UICONTROL Package]*.
+**[!UICONTROL Add Filters]:** (선택 사항) 차원이 보고서에 열로 포함되어 있는지 여부에 관계없이 데이터를 필터링할 수 있는 추가 차원입니다. 사용 가능한 필터는 보고서 유형에 따라 다르며, 다음을 포함할 수 있습니다. *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]*, 및 *[!UICONTROL Video Duration]*.
 
 \* *[!UICONTROL Account]* 조직가에 대해 구성된 경우에만 다음 보고서 유형에 사용할 수 있습니다 [교차 계정 보고](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)], 및 [!UICONTROL Conversion]. 계정 간 보고에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
@@ -42,12 +42,25 @@ ht-degree: 0%
 
 ## [!UICONTROL Build Your Report] 섹션
 
-**[!UICONTROL Select To Add As Report Headers]:**  보고서에 포함할 데이터 열 또는 헤더입니다. 열을 추가하려면 범주를 확장하고 열 이름 옆에 있는 확인란을 선택합니다. 사용할 수 없는 모든 지표는 비활성화됩니다. 사용 가능한 데이터 카테고리는 다음과 같습니다.
+**[!UICONTROL Select To Add As Report Headers]:**  보고서에 포함할 데이터 열 또는 헤더입니다. 열을 추가하려면 범주를 확장하고 열 이름 옆에 있는 확인란을 선택합니다. 사용 가능한 열은 보고서에 따라 다르며, 사용할 수 없는 모든 지표는 비활성화됩니다. 사용 가능한 데이터 카테고리는 다음과 같습니다.
 
 * [!UICONTROL Dimensions]
+
+   >[!NOTE]
+   >
+   > 다음 [!UICONTROL Household] 보고서는 하나의 차원만 포함할 수 있습니다.
+
 * [!UICONTROL Metrics]
+
+   >[!NOTE]
+   >
+   >다음 [!UICONTROL Household] 보고서는 겹치기 지표 또는 겹치지 않는 지표를 포함할 수 있지만 둘 다 포함할 수는 없습니다.
+
 * [!UICONTROL Conversion Metrics] (광고주별로 정렬)
+
 * [!UICONTROL Custom Goals] (광고주별로 정렬)
+
+참조:[사용 가능한 보고서 열](report-columns.md)&quot;을 참조하십시오.
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** 열 헤더의 순서입니다. 열을 드래그하여 놓아 순서를 사용자 지정할 수 있습니다.
 
