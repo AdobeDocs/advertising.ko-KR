@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # 세그먼트 정보 편집
 
-사용자 지정 세그먼트의 이름 및 전환 확인 기간 또는 CCPA 판매 중지 세그먼트의 이름을 편집할 수 있습니다. 설정을 편집할 때 세그먼트 태그는 변경되지 않습니다.
+사용자 지정 세그먼트에 대한 이름 및 전환 확인 기간 또는 CCPA 판매 중지 세그먼트의 이름을 편집할 수 있습니다. 설정을 편집할 때 세그먼트 태그는 변경되지 않습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+1. 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
-1. 세그먼트 행 위에 커서를 놓고 **[!UICONTROL Edit]**.
+1. 커서를 세그먼트 행 위에 놓고 를 클릭합니다 **[!UICONTROL Edit]**.
 
-1. 세그먼트 정보 편집:
+1. 세그먼트 정보를 편집합니다.
 
-   1. (선택 사항) 세그먼트를 편집합니다 **[!UICONTROL Name]**.
+   1. (선택 사항) 세그먼트 편집 **[!UICONTROL Name]**.
 
       각 세그먼트 이름은 세그먼트 유형에 대해 고유해야 합니다.
 
-   1. (사용자 지정 세그먼트만) 선택 사항) **[!UICONTROL Segment Window]**: 사용자의 쿠키가 세그먼트에 남아 있는 일수입니다.
+   1. (사용자 지정 세그먼트만, 선택 사항) **[!UICONTROL Segment Window]**: 사용자 쿠키가 세그먼트에 있는 일 수입니다.
 
-      1부터 365까지의 값을 입력합니다.
+      1에서 365 사이의 값을 입력하십시오.
 
    1. 클릭 **[!UICONTROL Save]**.
 
@@ -36,5 +36,5 @@ ht-degree: 0%
 >* [사용자 지정 세그먼트 만들기](custom-segment-create.md)
 >* [세그먼트 삭제](segment-delete.md)
 >* [세그먼트에 대한 추적 픽셀 보기](segment-view-pixels.md)
->* [세그먼트 공유 또는 중지](segment-share.md)
+>* [세그먼트 공유 또는 공유 중지](segment-share.md)
 

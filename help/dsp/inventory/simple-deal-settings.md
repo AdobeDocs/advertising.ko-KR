@@ -5,7 +5,7 @@ feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 | **[!UICONTROL Ad Creation]** | (새 거래만 해당):<ul><li>*[!UICONTROL Create New]:* 이 거래에 대한 광고를 만들려면.</li><li>*[!UICONTROL Select Ads]:* 이 거래에 대한 기존 광고를 사용합니다.</li></ul> |
 | **[!UICONTROL Ad Type]** | 이 거래의 광고 유형. 거래에 대한 광고를 만들려면 요청에 따라 광고 크기 또는 기간을 포함하십시오. 사용 가능한 옵션은 미디어 유형에 따라 다릅니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Select Ad(s)]
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 | **[!UICONTROL Deal Name]** | 거래 이름. 이름을 입력하거나 을 선택합니다. *[!UICONTROL Auto Generate Deal Name]* DSP이 거래 세부 사항을 기반으로 이름을 생성하도록 할 수 있습니다.<br><br>자동 생성된 이름의 예: `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
 | **[!UICONTROL Attached Ads]** | (읽기 전용) 거래의 일부인 광고입니다. 광고를 편집하려면 광고 이름을 클릭합니다. 거래에서 광고를 제거하려면 **[!UICONTROL X]** 광고 이름 옆에 있는 을 클릭합니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- 
 ## Existing Simple Ad Serving Deals

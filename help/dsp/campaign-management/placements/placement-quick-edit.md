@@ -1,6 +1,6 @@
 ---
 title: 키 배치 설정을 빠르게 편집
-description: 키 배치 설정을 빠르게 변경하는 방법을 알아봅니다.
+description: 주요 배치 설정을 빠르게 변경하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
-전체 배치 설정을 열지 않고 배치 이름, 상태, 최대 입찰 및 예산을 편집할 수 있습니다.
+전체 배치 설정을 열지 않고도 배치 이름, 상태, 최대 입찰 및 예산을 편집할 수 있습니다.
 
 >[!TIP]
 >
-> 배치 설정을 편집하려면 &quot;[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+> 배치 설정을 편집하려면 다음을 참조하십시오.[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
-1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
 1. 캠페인의 이름을 클릭합니다.
 1. 하위 메뉴에서 **[!UICONTROL Placements]**.
 1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
@@ -37,5 +37,5 @@ ht-degree: 0%
 >* [배치 일시 중지 또는 활성화](placement-pause-activate.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [배치 설정](placement-settings.md)
->* [비디오: 벌크 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [비디오: 일괄 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 사용자 지정 보고서 삭제
 
-1. 주 메뉴에서 **[!UICONTROL Reports]**.
-1. 에서 [!UICONTROL Options] 보고서 행의 열에서 **[!UICONTROL options]** > **[!UICONTROL Delete]**.
-1. 확인 메시지에서 **[!UICONTROL OK]**.
+1. 메인 메뉴에서 **[!UICONTROL Reports]**.
+1. 다음에서 [!UICONTROL Options] 보고서 행 열에서 **[!UICONTROL options]** > **[!UICONTROL Delete]**.
+1. 확인 메시지에서 다음을 클릭합니다. **[!UICONTROL OK]**.
 
 >[!MORELIKETHIS]
 >
->* [사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)
+>* [사용자 정의 보고서 정보](/help/dsp/reports/report-about.md)
 >* [사용자 지정 보고서 만들기](/help/dsp/reports/report-create.md)
 >* [사용자 지정 보고서 복제](/help/dsp/reports/report-copy.md)
 >* [사용자 지정 보고서 편집](/help/dsp/reports/report-edit.md)

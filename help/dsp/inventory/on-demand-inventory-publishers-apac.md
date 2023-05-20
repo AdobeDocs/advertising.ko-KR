@@ -1,11 +1,11 @@
 ---
-title: '`[!DNL On Demand] Premium 아시아 태평양 내 인벤토리 게시자'''
-description: 사용 가능한 을 참조하십시오 [!DNL On Demand] 아시아 태평양 지역의 프리미엄 인벤토리 게시자
+title: '[!DNL On Demand] Premium 아시아 태평양의 인벤토리 게시자'
+description: 사용 가능한 항목 보기 [!DNL On Demand] 아시아 태평양 지역의 프리미엄 인벤토리 게시자.
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -16,20 +16,20 @@ ht-degree: 0%
 
 | 게시자 | 지역 |
 |-----------------------------|---------------|
-| [!DNL BBC] | 중국 |
-| [!DNL Bloomberg] | 중국 |
-| [!DNL CBS Interactive] | 중국 |
-| [!DNL CNN International] | 중국 |
-| [!DNL Conde Nast] | 중국 |
-| [!DNL EA] | 중국 |
-| [!DNL Gameloft] | 중국 |
-| [!DNL MSN] | 중국 |
-| [!DNL Tripadvisor] | 중국 |
-| [!DNL U.S. News] | 중국 |
-| [!DNL UDN] | 중국 |
-| [!DNL Vidol.tv] | 중국 |
-| [!DNL Vungle] | 중국 |
-| [!DNL Yahoo! Taiwan] | 중국 |
+| [!DNL BBC] | 중화인민공화국 |
+| [!DNL Bloomberg] | 중화인민공화국 |
+| [!DNL CBS Interactive] | 중화인민공화국 |
+| [!DNL CNN International] | 중화인민공화국 |
+| [!DNL Conde Nast] | 중화인민공화국 |
+| [!DNL EA] | 중화인민공화국 |
+| [!DNL Gameloft] | 중화인민공화국 |
+| [!DNL MSN] | 중화인민공화국 |
+| [!DNL Tripadvisor] | 중화인민공화국 |
+| [!DNL U.S. News] | 중화인민공화국 |
+| [!DNL UDN] | 중화인민공화국 |
+| [!DNL Vidol.tv] | 중화인민공화국 |
+| [!DNL Vungle] | 중화인민공화국 |
+| [!DNL Yahoo! Taiwan] | 중화인민공화국 |
 | [!DNL BBC] | 홍콩 |
 | [!DNL Bloomberg] | 홍콩 |
 | [!DNL CBS Interactive] | 홍콩 |
@@ -367,13 +367,13 @@ ht-degree: 0%
 | [!DNL Yan.vn] | 베트남 |
 | [!DNL Zing.vn] | 베트남 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [정보 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-about.md)
->* [가입 및 액세스 요청 대상 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Premium 호주 및 뉴질랜드의 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Premium 유럽, 중동 및 아프리카의 인벤토리 출판사](on-demand-inventory-publishers-emea.md)
+>* [정보 [!DNL On Demand] Premium 재고](on-demand-inventory-about.md)
+>* [다음에 대한 구독 및 액세스 요청: [!DNL On Demand] Premium 재고](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] 오스트레일리아 및 뉴질랜드의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-emea.md)
 >* [[!DNL On Demand Premium] 북아메리카의 인벤토리 게시자](on-demand-inventory-publishers-na.md)
 

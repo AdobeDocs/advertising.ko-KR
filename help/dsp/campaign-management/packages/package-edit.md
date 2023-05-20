@@ -12,9 +12,9 @@ ht-degree: 1%
 
 # 패키지 편집
 
-1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
-1. 캠페인 이름을 클릭하여 캠페인 [!UICONTROL Packages] 보기.
-1. 패키지 이름 옆의  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 캠페인 이름을 클릭하여 [!UICONTROL Packages] 보기.
+1. 패키지 이름 옆에 있는  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 1. 편집 [패키지 설정](package-settings.md).
 1. 클릭 **[!UICONTROL Save and Close]**.
 

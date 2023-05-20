@@ -12,8 +12,8 @@ ht-degree: 2%
 
 # 캠페인 편집
 
-1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
-1. 캠페인 이름 옆의  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 캠페인 이름 옆에 있는  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 1. 편집 [캠페인 설정](campaign-settings.md).
 1. 클릭 **[!UICONTROL Save Campaign]**.
 

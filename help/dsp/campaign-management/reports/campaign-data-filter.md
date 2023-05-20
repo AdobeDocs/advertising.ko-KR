@@ -12,19 +12,19 @@ ht-degree: 1%
 
 # 캠페인 데이터 필터링
 
-1. 기본 도구 모음에서 ![필터 단추](/help/dsp/assets/filter.png).
+1. 기본 도구 모음에서 를 클릭합니다 ![필터 단추](/help/dsp/assets/filter.png).
 1. 적용할 각 필터에 대해 왼쪽 열에서 필터 이름을 클릭한 다음 필터 값을 지정합니다.
 1. 클릭 **[!UICONTROL Apply]**.
 
 ## 사용 가능한 필터
 
-다음 필터를 사용할 수 있습니다 [!UICONTROL Campaigns], [!UICONTROL Packages], 및 [!UICONTROL Placements] 보기:
+에서 다음 필터를 사용할 수 있습니다. [!UICONTROL Campaigns], [!UICONTROL Packages], 및 [!UICONTROL Placements] 보기 수:
 
 * [!UICONTROL Campaigns] 필터 보기:
    * [!UICONTROL Campaign status]
    * [!UICONTROL Advertiser]
 * [!UICONTROL Packages] 필터 보기:
-   * [!UICONTROL Custom flights] (있는지 여부)
+   * [!UICONTROL Custom flights] (존재 여부)
    * [!UICONTROL Custom goal] (해당되는 경우)
    * [!UICONTROL End end date]
    * [!UICONTROL Optimization goal]
@@ -57,6 +57,6 @@ ht-degree: 1%
 >[!MORELIKETHIS]
 >
 >* [플랫폼 내 보고서 정보](campaign-reports-about.md)
->* [사용자 지정 열 보기 만들기](column-view-create.md)
+>* [사용자 정의 열 보기 만들기](column-view-create.md)
 >* [열 보기 변경](column-view-change.md)
 

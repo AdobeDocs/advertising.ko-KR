@@ -12,13 +12,13 @@ ht-degree: 1%
 
 # 보고서 대상 편집
 
-보고서 대상을 변경하면 연결된 모든 사용자 지정 보고서의 전달에 영향을 줍니다. 보고서 배달이 중단되지 않도록 제공된 자격 증명이 유효한지 확인합니다.
+보고서 대상을 변경하면 연결된 모든 사용자 지정 보고서의 전달에 영향을 줍니다. 보고서 배달이 중단되지 않도록 제공된 자격 증명이 유효한지 확인하십시오.
 
-1. 주 메뉴에서 **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
+1. 메인 메뉴에서 **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
 
-1. 보고서 대상 행 위에 커서를 놓고 **[!UICONTROL Edit]**.
+1. 커서를 보고서 대상 행 위에 놓고 **[!UICONTROL Edit]**.
 
-1. 원하는 대상에 대해 편집을 클릭합니다
+1. 원하는 대상에 대해 편집 을 클릭합니다
 
 1. 편집 [보고서 대상 설정](/help/dsp/reports/report-destinations/report-destination-settings.md).
 

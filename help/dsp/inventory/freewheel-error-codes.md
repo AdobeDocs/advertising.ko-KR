@@ -5,8 +5,8 @@ feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 2%
+source-wordcount: '675'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 | [!DNL Ad with identifier] \&lt;*광고 이름*\> [!DNL was not found.] | 제출된 광고 키가 존재하지 않거나 Adobe 끝에서 활성화되지 않습니다. | 올바른 광고 키를 찾은 다음 광고를 다시 제출합니다. |
 | [!DNL Pending Submission] | 제출이 아직 보류 중입니다. | 페이지를 새로 고칩니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!DNL Freewheel] API 오류
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 | 422 | 처리할 수 없는 엔티티 | 잘못된 리소스. 이 오류는 요청 본문이 잘못되었거나 생성/업데이트된 리소스가 유효하지 않은 경우(예: 거래 ID를 찾을 수 없는 경우)에 발생합니다. 다음을 참조하십시오 [FreeWheel API 422 오류](#freewheel-422-errors) 추가 정보. | Adobe 계정 팀에 문의하십시오. |
 | 500 | 내부 서버 오류 | API 시스템 오류. | Adobe 계정 팀에 문의하십시오. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!DNL Freewheel] API 422 오류 {#freewheel-422-errors}
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 | DATA_CREATIVE_DETECTION_FAILURE | 422 | URL이 검색되지 않았습니다. |
 | DATA_ENTITY_NOT_FOUND | 422 | 창조물은 존재하지 않습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

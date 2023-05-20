@@ -1,6 +1,6 @@
 ---
 title: 보고서 대상 설정
-description: 대상 유형별로 보고서 대상에 필요한 세부 사항을 참조하십시오.
+description: 대상 유형별로 보고서 대상에 필요한 세부 정보를 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 보고서 대상 설정
 
-이메일이 아닌 보고서 대상에 필요한 세부 사항은 대상 유형에 따라 다릅니다.
+이메일이 아닌 보고서 대상에 필요한 세부 정보는 대상 유형에 따라 다릅니다.
 
 >[!NOTE]
 >
-> 사용자 지정 보고서를 저장된 보고서 대상이 필요하지 않은 이메일 수신자에게 전달할 수도 있습니다. 보고서 설정 내에서 저장된 대상 대신 이메일 수신자를 지정할 수 있습니다.
+> 저장된 보고서 대상이 필요하지 않은 사용자 지정 보고서를 이메일 수신자에게 전달할 수도 있습니다. 보고서 설정 내에서 저장된 대상 대신 이메일 수신자를 지정할 수 있습니다.
 
 ## [!UICONTROL S3]
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 **[!UICONTROL S3 Bucket URL]:** 폴더의 전체 경로 [!DNL Amazon Simple Storage Service] (S3) 보고서를 업로드할 버킷입니다. 예: `s3://dsp_account/reports`
 
-**[!UICONTROL Access Key ID]:** ()에 대한 액세스 키 ID입니다.[!DNL Amazon S3]) 버킷( 제공) [!DNL Amazon]).
+**[!UICONTROL Access Key ID]:** ( )에 대한 액세스 키 ID[!DNL Amazon S3]) 버킷(제공자 [!DNL Amazon]).
 
-**[!UICONTROL Secret Access Key]:** ()에 대한 암호 액세스 키[!DNL Amazon S3]) 버킷( 제공) [!DNL Amazon]).
+**[!UICONTROL Secret Access Key]:** ( )에 대한 비밀 액세스 키[!DNL Amazon S3]) 버킷(제공자 [!DNL Amazon]).
 
 ## [!UICONTROL FTP]
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **[!UICONTROL Server]:** 서버의 호스트 이름입니다.
 
-**[!UICONTROL Port]:** 서버에서 사용할 포트 번호입니다. 기본값은 입니다. *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** 서버에서 사용할 포트 번호입니다. 기본값은 입니다 *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** 서버에 로그인할 사용자 이름입니다.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 **[!UICONTROL Server]:** 서버의 호스트 이름입니다.
 
-**[!UICONTROL Port]:** 서버에서 사용할 포트 번호입니다. 기본값은 입니다. *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** 서버에서 사용할 포트 번호입니다. 기본값은 입니다 *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** 서버에 로그인할 사용자 이름입니다.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 **[!UICONTROL Server]:** 서버의 호스트 이름입니다.
 
-**[!UICONTROL Port]:** 서버에서 사용할 포트 번호입니다. 기본값은 입니다. *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** 서버에서 사용할 포트 번호입니다. 기본값은 입니다 *[!UICONTROL 21]*.
 
 **[!UICONTROL Username]:** 서버에 로그인할 사용자 이름입니다.
 

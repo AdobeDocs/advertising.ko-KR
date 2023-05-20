@@ -1,60 +1,60 @@
 ---
 title: SSP 파트너
-description: 사용 가능한 SSP(공급측 플랫폼) 및 오픈 교환 파트너 목록을 참조하십시오.
+description: 사용 가능한 SSP(공급측 플랫폼) 및 개방형 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
 
 # SSP 파트너
 
-SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 디지털 광고를 자동화된 경매에서 판매하도록 지원하는 데 사용되는 광고 기술 플랫폼입니다. Digital Media 소유자 및 게시자는 SSP를 사용하여 광고 인벤토리의 공급 및 배포를 조정, 관리 및 수익을 창출합니다. Advertising DSP은 모든 주요 SSP와 통합되어 있으므로 광고주가 광고 요구 사항에 따라 고품질 인벤토리에 쉽게 액세스할 수 있습니다.
+SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 자동화된 경매에서 디지털 광고를 판매할 수 있도록 지원하는 데 사용되는 광고 기술 플랫폼입니다. 디지털 미디어 소유자 및 게시자는 SSP를 사용하여 광고 인벤토리의 공급 및 배포를 조정하고, 관리하고, 수익을 창출합니다. Advertising DSP은 모든 주요 SSP와 통합되어 있어 광고주가 광고 요구 사항에 맞는 고품질 인벤토리에 쉽게 액세스할 수 있습니다.
 
 >[!NOTE]
 >
->모든 SSP 파트너십은 변경될 수 있습니다. 이 목록에는 현재 파트너십이 표시됩니다.
+>모든 SSP 파트너십은 변경될 수 있습니다. 이 목록은 현재 파트너십을 반영합니다.
 
-| 나열된 SSP | 회사 | 시트 ID | 프로그래밍 방식 보장 지원 | 지역 | 지원되는 통화 | Video Desktop | Video Mobile | 비디오 CTV | 데스크톱 표시 | 모바일 표시 | 기본 표시 | 오디오 데스크탑 및 모바일 |
+| 나열된 SSP | 회사 | 시트 ID | 프로그램 보증 지원 | 지역 | 지원되는 통화 | 비디오 데스크탑 | 비디오 모바일 | 비디오 CTV | 디스플레이 데스크탑 | 디스플레이 모바일 | 기본 디스플레이 | 오디오 데스크탑 및 모바일 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| [!DNL Adap.tv] | [!DNL Verizon Media Group] | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 글로벌 | USD | X | X | X |  |  |  |  |
-| [!DNL AdColony] (이전 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | 아니요 | 글로벌 | USD |  | x |  | x | x |  |  |
+| [!DNL Adap.tv] | [!DNL Verizon Media Group] | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 글로벌 | 미국 달러 | X | X | X |  |  |  |  |
+| [!DNL AdColony] (이전 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | 아니요 | 글로벌 | 미국 달러 |  | x |  | x | x |  |  |
 | [!DNL AdsWizz] | [!DNL Sirius XM Pandora] | Adobe 광고 | 예 | 글로벌 | USD, EUR, GBP |  |  |  |  |  |  | x |
-| [!DNL Ambient Digital] | n/a | [!DNL TubeMogul] | 예 | SEA | USD |  | x |  | x |  |  | x |
-| [!DNL AppNexus] | [!DNL Xandr] | 비디오 시트 ID: 9094년<br>시트 ID 표시: 3939년 | 아니요 | 글로벌 | USD | x | x | x | x | x |  |  |
-| [!DNL DailyMotion] | n/a | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 미국 + EMEA | USD, EUR | x | x | x |  |  |  |  |
-| [!DNL DistrictM] |  | Adobe | 아니요 | 미국/CA | USD |  |  |  | x | x |  |  |
-| [!DNL EMX Digital] |  | Adobe 광고 | 아니요 | 미국/CA | USD | x | x | x |  |  |  |  |
+| [!DNL Ambient Digital] | 해당 사항 없음 | [!DNL TubeMogul] | 예 | SEA | 미국 달러 |  | x |  | x |  |  | x |
+| [!DNL AppNexus] | [!DNL Xandr] | 비디오 시트 ID: 9094<br>시트 ID 표시: 3939 | 아니요 | 글로벌 | 미국 달러 | x | x | x | x | x |  |  |
+| [!DNL DailyMotion] | 해당 사항 없음 | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 미국 + EMEA | USD, EUR | x | x | x |  |  |  |  |
+| [!DNL DistrictM] |  | Adobe | 아니요 | 미국/CA | 미국 달러 |  |  |  | x | x |  |  |
+| [!DNL EMX Digital] |  | Adobe 광고 | 아니요 | 미국/CA | 미국 달러 | x | x | x |  |  |  |  |
 | [!DNL Equativ] (이전 [!DNL SmartAdServer]) |  | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 글로벌 | USD, EUR | x | x |  | x | x |  |  |
 | [!DNL FreeWheel] (이전 [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] 또는 Adobe 광고 | 예 | 글로벌 | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
-| [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | 아니요 | 글로벌 | USD | x | x |  |  |  |  |  |
-| [!DNL Google AdX] (지금) [!DNL Google Authorized Buyers]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe EU - 94893418<br>Adobe APAC - 89185975 | 예 | 글로벌 | USD, BRL | x | x | x | x | x |  | x |
-| [!DNL GumGum] |  | Adobe 광고 | 아니요 | 미국/CA | USD | x | x |  | x | x |  |  |
-| [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | 아니요 | 글로벌 | USD | x | x | x | x | x |  |  |
+| [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | 아니요 | 글로벌 | 미국 달러 | x | x |  |  |  |  |  |
+| [!DNL Google AdX] (지금 [!DNL Google Authorized Buyers]) | [!DNL Google] | Adobe 이름 - 44912714<br>ADOBE EU - 94893418<br>ADOBE APAC - 89185975 | 예 | 글로벌 | USD, BRL | x | x | x | x | x |  | x |
+| [!DNL GumGum] |  | Adobe 광고 | 아니요 | 미국/CA | 미국 달러 | x | x |  | x | x |  |  |
+| [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | 아니요 | 글로벌 | 미국 달러 | x | x | x | x | x |  |  |
 | [!DNL Magnite CTV] | [!DNL Magnite] (이전 [!DNL Telaria] 및 [!DNL Tremor]) | [!DNL TubeMogul] 또는 Adobe 광고 | 예 | 글로벌 | AUD, USD | x | x | x |  |  |  |  |
-| [!DNL Magnite DV+] | [!DNL Magnite] (이전 [!DNL Telaria] 및 [!DNL Tremor]) | [!DNL TubeMogul] 또는 Adobe 광고 | 예 | 글로벌 | USD | x | x | x | x | x |  | x |
-| [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | 아니요 | 글로벌 | USD |  | x |  |  |  |  |  |
-| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 또는 Adobe 광고 | 예 | 글로벌 | USD | x |  |  | x | x |  |  |
-| [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 글로벌 | USD | x | x | x | x | x |  |  |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 글로벌 | USD | x | x |  | x | x | x |  |
+| [!DNL Magnite DV+] | [!DNL Magnite] (이전 [!DNL Telaria] 및 [!DNL Tremor]) | [!DNL TubeMogul] 또는 Adobe 광고 | 예 | 글로벌 | 미국 달러 | x | x | x | x | x |  | x |
+| [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | 아니요 | 글로벌 | 미국 달러 |  | x |  |  |  |  |  |
+| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 또는 Adobe 광고 | 예 | 글로벌 | 미국 달러 | x |  |  | x | x |  |  |
+| [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 글로벌 | 미국 달러 | x | x | x | x | x |  |  |
+| [!DNL ShareThrough] |  | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 글로벌 | 미국 달러 | x | x |  | x | x | x |  |
 | [!DNL SmartClip] |  | Adobe 광고 | 아니요 | EMEA | 모든 통화 | x | x | x | x | x |  |  |
 | [!DNL SmartStream] |  | Adobe 광고 | 아니요 | EMEA | EUR, USD | x | x |  |  |  |  |  |
-| [!DNL Sortable] |  | Adobe 광고 | 아니요 | CA | USD |  |  |  | x | x |  |  |
+| [!DNL Sortable] |  | Adobe 광고 | 아니요 | CA | 미국 달러 |  |  |  | x | x |  |  |
 | [!DNL Soundcast] |  | Adobe 광고 | 예 | 글로벌 | EUR, USD |  |  |  |  |  |  | x |
-| [!DNL SpotX] | [!DNL Magnite] (이전 [!DNL Telaria] 및 [!DNL Tremor]) | [!DNL TubeMogul] 또는 Adobe 광고 | 예 | 글로벌 | USD | x | x | x |  |  |  |  |
-| [!DNL Stroer] |  | Adobe 광고 | 아니요 | EMEA | USD | x | x |  | x | x |  |  |
-| [!DNL Taboola] |  | Adobe 광고 | 아니요 | 미국/CA | USD | x | x |  |  |  |  |  |
-| [!DNL Teads] |  | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 아웃바운드 스트림 비디오 = 글로벌<br>표시 = NA + EMEA | USD | x | x |  | x | x |  |  |
-| [!DNL TripleLift] |  | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 글로벌 | USD |  |  |  |  |  | x |  |
-| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 글로벌 | USD | x | x |  | x | x |  |  |
-| [!DNL Triton] |  | Adobe 광고 | 예 | 글로벌 | USD |  |  |  |  |  |  | x |
-| [!DNL Unruly] | [!DNL Tremor] | Adobe 광고 | 아니요 | 미국 + EMEA | USD | x | x |  |  |  |  |  |
-| [!DNL Yahoo] | [!DNL Verizon Media Group] | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 글로벌 | USD |  |  |  | x | x |  |  |
+| [!DNL SpotX] | [!DNL Magnite] (이전 [!DNL Telaria] 및 [!DNL Tremor]) | [!DNL TubeMogul] 또는 Adobe 광고 | 예 | 글로벌 | 미국 달러 | x | x | x |  |  |  |  |
+| [!DNL Stroer] |  | Adobe 광고 | 아니요 | EMEA | 미국 달러 | x | x |  | x | x |  |  |
+| [!DNL Taboola] |  | Adobe 광고 | 아니요 | 미국/CA | 미국 달러 | x | x |  |  |  |  |  |
+| [!DNL Teads] |  | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 아웃스트림 비디오 = 글로벌<br>표시 = NA + EMEA | 미국 달러 | x | x |  | x | x |  |  |
+| [!DNL TripleLift] |  | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 글로벌 | 미국 달러 |  |  |  |  |  | x |  |
+| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 글로벌 | 미국 달러 | x | x |  | x | x |  |  |
+| [!DNL Triton] |  | Adobe 광고 | 예 | 글로벌 | 미국 달러 |  |  |  |  |  |  | x |
+| [!DNL Unruly] | [!DNL Tremor] | Adobe 광고 | 아니요 | 미국 + EMEA | 미국 달러 | x | x |  |  |  |  |  |
+| [!DNL Yahoo] | [!DNL Verizon Media Group] | [!DNL TubeMogul] 또는 Adobe 광고 | 아니요 | 글로벌 | 미국 달러 |  |  |  | x | x |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

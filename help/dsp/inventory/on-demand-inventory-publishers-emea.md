@@ -1,16 +1,16 @@
 ---
-title: '`[!DNL On Demand] Premium 유럽, 중동 및 아프리카의 인벤토리 출판사'
-description: '`[!DNL On Demand] Premium 유럽, 중동 및 아프리카의 인벤토리 출판사'
+title: '[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자'
+description: '[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자'
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] Premium 유럽, 중동 및 아프리카의 인벤토리 출판사
+# [!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
@@ -169,67 +169,67 @@ ht-degree: 0%
 | [!DNL OhMyMag] | 스위스 |
 | [!DNL U.S. News] | 스위스 |
 | [!DNL USA Today] | 스위스 |
-| [!DNL AOL] | UK |
-| [!DNL BBC] | UK |
-| [!DNL Bleacher Report] | UK |
-| [!DNL Bloomberg] | UK |
-| [!DNL CBS Interactive] | UK |
-| [!DNL CNN International] | UK |
-| [!DNL Conde Nast] | UK |
-| [!DNL DailyMail] | UK |
-| [!DNL Daily Star] | UK |
-| [!DNL DAZN] ([!DNL Perform Media]) | UK |
-| [!DNL Dennis Publishing] | UK |
-| [!DNL Digiteka] | UK |
-| [!DNL ebay] | UK |
-| [!DNL eDreams Odigeo] | UK |
-| [!DNL ESI Media] | UK |
-| [!DNL Express] | UK |
-| [!DNL Flipboard] | UK |
-| [!DNL Future] | UK |
-| [!DNL Gameloft] | UK |
-| [!DNL Gentside] | UK |
-| [!DNL GiveMeSport] | UK |
-| [!DNL Hearst] | UK |
-| [!DNL King] | UK |
-| [!DNL Ladbible] | UK |
-| [!DNL Metro.co.uk] | UK |
-| [!DNL MSN] | UK |
-| [!DNL Mumsnet] | UK |
-| [!DNL National Rail] | UK |
-| [!DNL NBC Universal] | UK |
-| [!DNL Netmums] | UK |
-| [!DNL News UK] | UK |
-| [!DNL New York Times] | UK |
-| [!DNL OhMyMag] | UK |
-| [!DNL Ok!] | UK |
-| [!DNL Rakuten] | UK |
-| [!DNL Samba] | UK |
-| [!DNL Sky] | UK |
-| [!DNL Skyscanner] | UK |
-| [!DNL Snack Media] | UK |
-| [!DNL Spotify] | UK |
-| [!DNL Tapjoy] | UK |
-| [!DNL Targetspot] | UK |
-| [!DNL The Box Plus Network] | UK |
-| [!DNL The Telegraph] | UK |
-| [!DNL Thomson Reuters] | UK |
-| [!DNL Time Inc] | UK |
-| [!DNL Travel Supermarket] | UK |
-| [!DNL Trinity Mirror Group] | UK |
-| [!DNL U.S. News] | UK |
-| [!DNL USA Today] | UK |
-| [!DNL Vox Media] | UK |
-| [!DNL Vungle] | UK |
-| [!DNL Yahoo] | UK |
+| [!DNL AOL] | 영국 |
+| [!DNL BBC] | 영국 |
+| [!DNL Bleacher Report] | 영국 |
+| [!DNL Bloomberg] | 영국 |
+| [!DNL CBS Interactive] | 영국 |
+| [!DNL CNN International] | 영국 |
+| [!DNL Conde Nast] | 영국 |
+| [!DNL DailyMail] | 영국 |
+| [!DNL Daily Star] | 영국 |
+| [!DNL DAZN] ([!DNL Perform Media]) | 영국 |
+| [!DNL Dennis Publishing] | 영국 |
+| [!DNL Digiteka] | 영국 |
+| [!DNL ebay] | 영국 |
+| [!DNL eDreams Odigeo] | 영국 |
+| [!DNL ESI Media] | 영국 |
+| [!DNL Express] | 영국 |
+| [!DNL Flipboard] | 영국 |
+| [!DNL Future] | 영국 |
+| [!DNL Gameloft] | 영국 |
+| [!DNL Gentside] | 영국 |
+| [!DNL GiveMeSport] | 영국 |
+| [!DNL Hearst] | 영국 |
+| [!DNL King] | 영국 |
+| [!DNL Ladbible] | 영국 |
+| [!DNL Metro.co.uk] | 영국 |
+| [!DNL MSN] | 영국 |
+| [!DNL Mumsnet] | 영국 |
+| [!DNL National Rail] | 영국 |
+| [!DNL NBC Universal] | 영국 |
+| [!DNL Netmums] | 영국 |
+| [!DNL News UK] | 영국 |
+| [!DNL New York Times] | 영국 |
+| [!DNL OhMyMag] | 영국 |
+| [!DNL Ok!] | 영국 |
+| [!DNL Rakuten] | 영국 |
+| [!DNL Samba] | 영국 |
+| [!DNL Sky] | 영국 |
+| [!DNL Skyscanner] | 영국 |
+| [!DNL Snack Media] | 영국 |
+| [!DNL Spotify] | 영국 |
+| [!DNL Tapjoy] | 영국 |
+| [!DNL Targetspot] | 영국 |
+| [!DNL The Box Plus Network] | 영국 |
+| [!DNL The Telegraph] | 영국 |
+| [!DNL Thomson Reuters] | 영국 |
+| [!DNL Time Inc] | 영국 |
+| [!DNL Travel Supermarket] | 영국 |
+| [!DNL Trinity Mirror Group] | 영국 |
+| [!DNL U.S. News] | 영국 |
+| [!DNL USA Today] | 영국 |
+| [!DNL Vox Media] | 영국 |
+| [!DNL Vungle] | 영국 |
+| [!DNL Yahoo] | 영국 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [정보 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-about.md)
->* [가입 및 액세스 요청 대상 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-subscribe.md)
+>* [정보 [!DNL On Demand] Premium 재고](on-demand-inventory-about.md)
+>* [다음에 대한 구독 및 액세스 요청: [!DNL On Demand] Premium 재고](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] Premium 아시아 태평양의 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Premium 호주 및 뉴질랜드의 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Premium 북미 인벤토리 게시자](on-demand-inventory-publishers-na.md)
+>* [[!DNL On Demand] 오스트레일리아 및 뉴질랜드의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] 북미 지역의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-na.md)
 

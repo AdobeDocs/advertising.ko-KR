@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 보고서 대상 삭제
 
-보고서 대상을 삭제하면 연결된 모든 사용자 지정 보고서의 게재에 영향을 줍니다.
+보고서 대상을 삭제하면 연결된 모든 사용자 지정 보고서의 전달에 영향을 줍니다.
 
-1. 주 메뉴에서 **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
+1. 메인 메뉴에서 **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
 
-1. 보고서 대상 행 위에 커서를 놓고 **[!UICONTROL More]** > **[!UICONTROL Delete]**.
+1. 커서를 보고서 대상 행 위에 놓고 **[!UICONTROL More]** > **[!UICONTROL Delete]**.
 
-1. 확인 메시지에서 **[!UICONTROL Delete]**.
+1. 확인 메시지에서 다음을 클릭합니다. **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >

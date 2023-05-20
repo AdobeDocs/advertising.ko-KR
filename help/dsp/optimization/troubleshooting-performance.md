@@ -5,7 +5,7 @@ feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 |  | 사용 가능한 사용자 수가 적습니다. | 지정된 대상 타겟에 활성 사용자가 충분히 포함되어 있는지 확인하십시오. 대상이 없다면 대상을 더 추가하여 대상을 확장합니다.<br><br>사전 입찰 필터, 지역, 인벤토리 및 대상과 같은 여러 배치 타겟을 사용하면 입찰과 지출을 누적적으로 제한할 수 있습니다. |
 |  | 패키지에는 많은 활성 배치가 포함되어 있습니다. | 패키지 내 활성 배치 수를 줄이거나 전체 패키지 예산을 늘립니다.<br><br>패키지에 배치가 많지만 예산이 충분하지 않은 경우 DSP이 각 배치에 충분한 예산을 할당하지 못할 수 있습니다. 각 배치에는 최소 2USD/일을 사용할 수 있는 기회가 있어야 합니다. 예를 들어 패키지의 예산이 10 USD/일인 경우 5개 이하의 배치를 포함하는 것이 가장 좋습니다. &#x200B; |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

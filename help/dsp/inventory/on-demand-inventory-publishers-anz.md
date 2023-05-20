@@ -1,16 +1,16 @@
 ---
-title: '`[!DNL On Demand] Premium 호주 및 뉴질랜드의 인벤토리 게시자'
-description: 사용 가능한 을 참조하십시오 [!DNL On Demand] 호주 및 뉴질랜드의 프리미엄 인벤토리 게시자
+title: '[!DNL On Demand] 오스트레일리아 및 뉴질랜드의 프리미엄 인벤토리 게시자'
+description: 사용 가능한 항목 보기 [!DNL On Demand] 오스트레일리아 및 뉴질랜드의 프리미엄 인벤토리 게시자.
 feature: DSP On Demand Inventory
 exl-id: 9c494ad0-eb35-464e-b154-3f56c02968f1
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] Premium 호주 및 뉴질랜드의 인벤토리 게시자{#on-demand-inventory-publishers-anz}
+# [!DNL On Demand] 오스트레일리아 및 뉴질랜드의 프리미엄 인벤토리 게시자{#on-demand-inventory-publishers-anz}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
@@ -92,13 +92,13 @@ ht-degree: 0%
 | [!DNL WWE] | 오스트레일리아/뉴질랜드 |
 | [!DNL Yahoo] | 오스트레일리아/뉴질랜드 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
->* [정보 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-about.md)
->* [가입 및 액세스 요청 대상 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-subscribe.md)
+>* [정보 [!DNL On Demand] Premium 재고](on-demand-inventory-about.md)
+>* [다음에 대한 구독 및 액세스 요청: [!DNL On Demand] Premium 재고](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] Premium 아시아 태평양의 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand Premium] 유럽, 중동 및 아프리카의 인벤토리 출판사](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Premium 북미 인벤토리 게시자](on-demand-inventory-publishers-na.md)
+>* [[!DNL On Demand Premium] 유럽, 중동 및 아프리카의 인벤토리 게시자](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] 북미 지역의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-na.md)
 

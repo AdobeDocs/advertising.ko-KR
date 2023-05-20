@@ -1,6 +1,6 @@
 ---
 title: 배치 변경 로그 보기
-description: 배치에 대한 변경 사항을 보는 방법을 알아봅니다.
+description: 배치에 대한 변경 사항을 보는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
 source-git-commit: bcd4da87642125f173befb1cdff43330ec1145bc
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 배치에 대한 변경 로그 보기
 
-변경 로그는 변경 유형, 새 값과 이전 값, 변경한 사용자 및 날짜를 포함하여 선택한 날짜 범위 동안 배치에 대한 변경 사항을 표시합니다. 원하는 경우 항목에 메모를 추가할 수 있습니다.
+변경 로그에는 변경 유형, 새 값 및 이전 값, 변경한 사용자, 날짜 등 선택한 날짜 범위 동안 배치에 대한 변경 사항이 표시됩니다. 필요에 따라 모든 항목에 메모를 추가할 수 있습니다.
 
-유형, 수정한 사람 또는 수정한 날짜 열별로 데이터를 정렬할 수 있습니다.
+유형, 수정자 또는 수정한 날짜 열별로 데이터를 정렬할 수 있습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
 
 1. 캠페인의 이름을 클릭합니다.
 
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
-   * 테이블 양식에서만 데이터를 보고 테이블과 차트 양식에서 데이터를 보는 사이에 전환하려면 ![표 및 차트 보기](/help/dsp/assets/table-plus-chart-view.png "표 및 차트 보기") 또는 ![표 보기](/help/dsp/assets/table-view.png "표 보기") 오른쪽 상단 도구 모음에서 를 클릭합니다.
+   * 테이블 양식에서만 데이터를 보는 것과 테이블 및 차트 양식 모두에서 데이터를 보는 것을 전환하려면 ![테이블 및 차트 보기](/help/dsp/assets/table-plus-chart-view.png "테이블 및 차트 보기") 또는 ![표 보기](/help/dsp/assets/table-view.png "표 보기") 오른쪽 위 도구 모음에서 를 클릭합니다.
 
-   * 항목에 메모를 추가하려면 [!UICONTROL Notes] 행의 열을 클릭한 다음 **[!UICONTROL Add Notes]**. 입력 필드에 텍스트를 입력한 다음 **[!UICONTROL Save]**.
+   * 항목에 메모를 추가하려면 커서를 [!UICONTROL Notes] 열에 대해 행을 지정한 다음 **[!UICONTROL Add Notes]**. 입력 필드에 텍스트를 입력한 다음 **[!UICONTROL Save]**.
 
-   * 팝업 창에서 항목에 대한 세부 정보를 보려면 커서를 [!UICONTROL Notes] 행의 열을 클릭한 다음 **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * 팝업 창에서 항목에 대한 세부 정보를 보려면 커서를 창 위에 놓습니다. [!UICONTROL Notes] 행의 열을 선택한 다음 **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 
 >[!MORELIKETHIS]

@@ -14,19 +14,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->사용자 지정 보고서를 실행할 수도 있습니다 [만들기](report-create.md) 또는 [편집](report-edit.md) 그래
+>다음과 같은 경우에 사용자 지정 보고서를 실행할 수도 있습니다. [만들기](report-create.md) 또는 [편집](report-edit.md) 그래.
 
-1. 주 메뉴에서 **[!UICONTROL Reports]**.
+1. 메인 메뉴에서 **[!UICONTROL Reports]**.
 
-1. 에서 [!UICONTROL Options] 보고서 행의 열에서 **[!UICONTROL options]** > **[!UICONTROL Run Now]**.
+1. 다음에서 [!UICONTROL Options] 보고서 행 열에서 **[!UICONTROL options]** > **[!UICONTROL Run Now]**.
 
-1. 확인 메시지에서 **[!UICONTROL OK]**.
+1. 확인 메시지에서 다음을 클릭합니다. **[!UICONTROL OK]**.
 
    보고서가 완료되면 보고서 설정에 지정된 모든 이메일 주소로 전송됩니다.
 
 >[!MORELIKETHIS]
 >
->* [사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)
+>* [사용자 정의 보고서 정보](/help/dsp/reports/report-about.md)
 >* [사용자 지정 보고서 만들기](/help/dsp/reports/report-create.md)
 >* [사용자 지정 보고서 복제](/help/dsp/reports/report-copy.md)
 >* [사용자 지정 보고서 편집](/help/dsp/reports/report-edit.md)
