@@ -3,7 +3,7 @@ title: '[!DNL Analytics] Adobe 광고의 데이터'
 description: '[!DNL Analytics] Adobe 광고의 데이터'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: c6ed3277873f5c4a75fc19480b0ec77ab4110d7b
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* [!DNL Analytics] 는 EF ID eVar에 대한 이벤트를 Adobe 광고에 전달합니다.  기본 통합은 계산된 지표 또는 기타 차원(eVar)을 Adobe 광고로 보내는 것을 지원하지 않습니다. 그러나 계산된 지표를 사용자 지정 이벤트에서 완전히 캡처할 수 있는 경우 Adobe 광고에서 사용자 지정 이벤트를 수집할 수 있습니다.
+>* [!DNL Analytics] 는 EF ID eVar에 대한 이벤트를 Adobe 광고에 전달합니다.  기본 통합은 계산된 지표 또는 기타 차원(eVar)을 Adobe 광고로 보내는 것을 지원하지 않습니다. 그러나 계산된 지표를 사용자 지정 이벤트에서 완전히 캡처할 수 있는 경우 Adobe 광고는 사용자 지정 이벤트를 수집할 수 있습니다.
 >* [!DNL Analytics] 는 데이터를 매시간 Adobe 광고로 전달합니다.
 
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ### 사용자 지정 전환 지표
 
-이러한 지표는 보고서 세트마다 다르므로 사용 가능한 지표는 고객 및 보고서 세트마다 다릅니다.
+이러한 지표는 보고서 세트마다 다르므로 사용 가능한 지표는 각 고객 및 보고서 세트에 따라 다릅니다.
 
 ### 예약된 전환 지표
 

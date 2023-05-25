@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: f8523b9157eb13ea0999d10dd19e9645906c50d0
+source-git-commit: 947b60c7c45a2994c1ab6020cd093780faa19864
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023년 5월 24일 | [!UICONTROL Campaigns] | 이제 범용 비디오 배치 및 광고를 일반적으로 사용할 수 있습니다. | 를 참조하십시오.[유니버설 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md),&quot; &quot;[범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)및 &quot;[광고 만들기](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | 2023년 3월 | [!UICONTROL Reports] | 새 항목 [!UICONTROL Household Report] 는 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 다양한 차원에 대한 노출 횟수, 도달 범위 및 빈도를 표시합니다. 이 보고서에는 다음과 같은 9가지 차원이 포함됩니다. [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length], 및 사용자 작성 [!UICONTROL Tags]. | 를 참조하십시오.[보고서 정보](/help/dsp/reports/report-about.md),&quot; &quot;[보고서 설정](/help/dsp/reports/report-settings.md)및 &quot;[에 대한 FAQ [!UICONTROL Household] 보고서](/help/dsp/reports/faq-household-report.md).&quot; |
 | 2023년 3월 20일 | [!UICONTROL Campaigns] | 공개 베타 기능인 범용 비디오 배치 및 광고에 대해 자세히 알아보십시오. | 를 참조하십시오.[유니버설 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 2023년 2월 15일 | [!UICONTROL Campaigns] | 차트 양식에서 변경 로그를 보고 모든 항목에 메모를 추가하는 옵션은 Beta 버전이 아닙니다. | 를 참조하십시오.[캠페인에 대한 변경 로그 보기](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; 참조: &quot;[패키지에 대한 변경 로그 보기](/help/dsp/campaign-management/packages/package-change-log.md),&quot; 및 &quot;[배치에 대한 변경 로그 보기](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
