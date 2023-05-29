@@ -3,9 +3,9 @@ title: 패키지 보관 또는 보관 해제
 description: 패키지를 보관하거나 보관 해제하는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: 12d1b498-2239-401a-8571-9210956e32b2
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,5 @@ ht-degree: 0%
 >
 >* [패키지 편집](package-edit.md)
 >* [패키지에 대한 변경 로그 보기](package-change-log.md)
+>* [패키지 일시 중지 또는 활성화](package-pause-activate.md)
 

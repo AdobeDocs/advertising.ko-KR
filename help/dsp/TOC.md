@@ -8,9 +8,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: ce26d622bde31f289466c581a85724b93e4eae62
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '902'
 ht-degree: 6%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 6%
       + [캠페인 편집](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [캠페인 복제](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
       + [캠페인에 대한 세부 보고서 보기](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+      + [캠페인 일시 중지 또는 활성화](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)
       + [Campaign 보관 또는 보관 해제](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [캠페인에 대한 변경 로그 보기](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [캠페인 설정](/help/dsp/campaign-management/campaigns/campaign-settings.md)
@@ -56,6 +57,7 @@ ht-degree: 6%
       + [패키지 편집](/help/dsp/campaign-management/packages/package-edit.md)
       + [패키지 복제](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [패키지에 배치 첨부](/help/dsp/campaign-management/packages/package-attach-placement.md)
+      + [패키지 일시 중지 또는 활성화](/help/dsp/campaign-management/packages/package-pause-activate.md)
       + [패키지 보관 또는 보관 해제](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
       + [패키지에 대한 변경 로그 보기](/help/dsp/campaign-management/packages/package-change-log.md)
       + [패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)
@@ -83,6 +85,7 @@ ht-degree: 6%
       + [배치에 광고 첨부](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [광고에 대한 상세 보고서 보기](/help/dsp/campaign-management/ads/ad-view-report.md)
+      + [광고 일시 중지 또는 활성화](/help/dsp/campaign-management/ads/ad-pause-activate.md)
       + [광고 보관 또는 보관 해제](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
       + 광고 설정 {#ad-settings}
          + [오디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-audio.md)

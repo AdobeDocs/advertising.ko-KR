@@ -3,9 +3,9 @@ title: 배치 편집
 description: 배치를 편집하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 편집할 각 배치 옆의 확인란을 선택합니다.
 
-1. 메뉴 모음에서 를 클릭합니다. **[!UICONTROL Edit]**.
+1. 일괄 작업 메뉴 모음에서 를 클릭합니다. **[!UICONTROL Edit]**.
 
 1. 변경할 각 설정에 대해 다음 작업을 수행하십시오.
 
