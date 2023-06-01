@@ -4,10 +4,10 @@ description: Advertising Search, Social 및 Commerce의 최신 업데이트 및 
 cloud: Experience Cloud
 product: advertising cloud
 hide: true
-source-git-commit: 0b50aa4c6da818a0f96bed3a4abff97bc79a5177
+source-git-commit: d4cc25967f1e0738f7b7d74f33fe90eeabfeea1c
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 3%
+source-wordcount: '81'
+ht-degree: 1%
 
 ---
 
@@ -19,5 +19,5 @@ ht-degree: 3%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-|  |  |  |  |
-|  |  |  |  |
+| 2023년 5월 30일 | [!UICONTROL Campaigns], [!UICONTROL Objectives], [!UICONTROL Reports] | (Open Beta) [!UICONTROL Microsoft Advertising] 범용 이벤트 추적(UET) 태그는 캠페인 관리 보기 및 보고서에서 새로 사용할 수 있습니다. 를 포함하는 포트폴리오의 목표에 포함하여 이러한 전환을 최적화할 수도 있습니다 [!UICONTROL Microsoft Advertising] 캠페인. | — |
+|  | [!UICONTROL Reports] | (Open Beta) 3개의 새로운 전문 보고서에는 [!UICONTROL Microsoft Advertising] 광고 확장: [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Ad Extension by Ad Report], 및 [!UICONTROL MSA Ad Extension by Keyword Report]. | — |
