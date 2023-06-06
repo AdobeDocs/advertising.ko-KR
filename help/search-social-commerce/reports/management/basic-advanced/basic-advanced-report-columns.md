@@ -1,9 +1,9 @@
 ---
 title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
 workflow-type: tm+mt
-source-wordcount: '3637'
+source-wordcount: '3640'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | (캠페인만 표시) 검색, 소셜 및 상거래에서 추적한 예상 광고 노출 횟수. 이 값은 의 값과 다를 수 있습니다. [!UICONTROL Impressions] 광고 네트워크에서 제공한 값을 표시하는 열(사용 가능한 경우). |
 | [!UICONTROL Exclude (yes/no)] | 입찰이 제외되는지 여부(<i>[!UICONTROL Yes]</i>) 또는 입찰이 허용됩니다(<i>[!UICONTROL No]</i>)를 클릭하여 제품군에 맞는 광고를 제작할 수 있습니다. |
 | [!UICONTROL First Page CPC] | (Google 캠페인만 해당) 지정된 날짜 범위 동안 검색 결과의 첫 페이지에 표시되는 광고의 클릭당 비용(CPC)입니다. |
-| `GGL*`, `GGL_CT*`, 및 `GGL_XD_CT*` [[!DNL Google Ads]-추적된 전환/트랜잭션 속성] | ([!DNL Google Ads] 검색 및 쇼핑 네트워크의 캠페인(계정에 대해 기능이 활성화된 날짜부터 데이터 사용 가능) [!DNL Google Ads]-추적된 전환, 각 전환에 대해 최대 3개의 개별 트랜잭션 속성 사용:<ul><li>`GGL*` — (추적할 때) &quot;GGL&quot; 접두사로 시작하는 키워드에 대한 전환 값의 합계(예: GGL 구매).</li><li>`GGL_CT*` — &quot;GGL_CT&quot; 접두사로 시작하는 전환 수(개수)(예: GGL_CT_Purchase)</li><li>`GGL_XD_CT*` — (전환 유형에 사용할 수 있는 경우, 추적할 때) 다음을 기준으로 측정한 교차 장치 전환 수(수)입니다. [!DNL Google Ads] &quot;GGL_XD_CT_&quot; 접두사로 시작(예: GGL_XD_CT_Purchase).</li></ul><br>각 전환은 입찰 단위와 클릭 날짜로 기록되며 이벤트 수준에서 사용할 수 없습니다. 검색, 소셜 및 상거래의 데이터를 의 데이터와 비교하는 경우 [!DNL Google Ads], 보기 또는 보고서 옵션을 사용하여 &quot;&quot;를 봅니다.[!UICONTROL Conversions by:  Click date]&quot;(트랜잭션 날짜 아님).<br><br><b>참고:</b>전날의 데이터는 매일 가져오며 09까지 사용할 수 있습니다.:00-10:광고주의 시간대에 00입니다. [!DNL Google Ads] 클릭이 발생한 후 최대 30일 동안 지표를 계속 업데이트할 수 있습니다. 에 대한 자세한 내용 [!DNL Google Ads]-추적된 전환, 참조 &quot;[추적에 대한 FAQ](/help/search-social-commerce/tracking/faqs-tracking.md).&quot; |
+| `GGL*`, `GGL_CT*`, 및 `GGL_XD_CT*` [[!DNL Google Ads]-추적된 전환/트랜잭션 속성] | ([!DNL Google Ads] 검색 및 쇼핑 네트워크의 캠페인(계정에 대해 기능이 활성화된 날짜부터 데이터 사용 가능) [!DNL Google Ads]-추적된 전환, 각 전환에 대해 최대 3개의 개별 트랜잭션 속성 사용:<ul><li>`GGL*` — (추적할 때) &quot;GGL&quot; 접두사로 시작하는 키워드에 대한 전환 값의 합계(예: GGL 구매).</li><li>`GGL_CT*` — &quot;GGL_CT&quot; 접두사로 시작하는 전환 수(개수)(예: GGL_CT_Purchase)</li><li>`GGL_XD_CT*` — (전환 유형에 사용할 수 있는 경우, 추적할 때) 다음을 기준으로 측정한 교차 장치 전환 수(수)입니다. [!DNL Google Ads] &quot;GGL_XD_CT_&quot; 접두사로 시작(예: GGL_XD_CT_Purchase).</li></ul><br>각 전환은 입찰 단위와 클릭 날짜로 기록되며 이벤트 수준에서 사용할 수 없습니다. 검색, 소셜 및 상거래의 데이터를 의 데이터와 비교하는 경우 [!DNL Google Ads], 보기 또는 보고서 옵션을 사용하여 &quot;&quot;를 봅니다.[!UICONTROL Conversions by:  Click date]&quot;(트랜잭션 날짜 아님).<br><br><b>참고:</b>전날의 데이터는 매일 가져오며 09까지 사용할 수 있습니다.:00-10:광고주의 시간대에 00입니다. [!DNL Google Ads] 클릭이 발생한 후 최대 30일 동안 지표를 계속 업데이트할 수 있습니다. 에 대한 자세한 내용 [!DNL Google Ads]-추적된 전환, 참조 &quot;[[!DNL Google Ads] 검색, 소셜 및 상거래의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] 전용) 유기 검색 결과 위에 첫 번째 광고로 표시되는 광고 노출 비율입니다. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] 전용) 유기 검색 결과 위에 표시되는 광고 노출 비율입니다. |
 | [!UICONTROL Impressions] | 지정된 날짜 범위 동안의 광고 노출 횟수입니다. |
