@@ -3,8 +3,8 @@ title: 새로운 기능
 description: Advertising Search, Social 및 Commerce의 최신 업데이트 및 새로운 기능에 대해 알아봅니다.
 cloud: Experience Cloud
 product: advertising cloud
-hide: true
-source-git-commit: d4cc25967f1e0738f7b7d74f33fe90eeabfeea1c
+index: false
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 1%
@@ -12,8 +12,6 @@ ht-degree: 1%
 ---
 
 # 새로운 기능
-
-<!-- index: no -->
 
 다음 기능은 새로운 기능이거나 최근에 변경되었습니다.
 

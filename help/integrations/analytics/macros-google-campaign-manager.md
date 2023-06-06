@@ -3,7 +3,7 @@ title: 추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Google Cam
 description: 추가 이유 및 방법 알아보기 [!DNL Analytics for Advertising] 에 대한 매크로 [!DNL Google Campaign Manager 360] 광고 태그
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -41,10 +41,10 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 ```
 
 >[!NOTE]
->
->
 >* 랜딩 페이지 URL에 일반적이지 않은 해시 기호(#)가 포함되어 있는 경우 `amo` 해시 기호 앞에 있는 매개 변수입니다.
->* 다음 항목 뒤에 다른 매개 변수가 포함되지 않는 경우 `amo` 매개 변수를 추가한 다음 그 뒤에 매개 변수(예: &amp;a=b)를 추가합니다. 예:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+
+>
+>* >다음 항목 뒤에 다른 매개 변수가 포함되지 않는 경우 `amo` 매개 변수를 추가한 다음 그 뒤에 매개 변수(예: &amp;a=b)를 추가합니다. 예:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 
 ### 광고주 수준 랜딩 페이지 URL 접미사 구성
@@ -83,8 +83,7 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 사용자가 광고를 클릭하면 [!DNL Google Campaign Manager 360] 보기 `%pamo` 를 URL 접미사에 추가하고 동적으로 `amo` 매개 변수를 URL에 추가합니다.
 
 >[!MORELIKETHIS]
->
->* [개요 [!DNL Analytics for Advertising]](overview.md)
->* [Adobe 광고 ID 사용됨 [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Flashtalking] 광고 태그](macros-flashtalking.md)
+* [개요 [!DNL Analytics for Advertising]](overview.md)
+* [Adobe 광고 ID 사용됨 [!DNL Analytics]](/help/integrations/analytics/ids.md)
+* [추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Flashtalking] 광고 태그](macros-flashtalking.md)
 

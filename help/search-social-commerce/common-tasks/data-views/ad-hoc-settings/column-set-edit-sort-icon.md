@@ -1,0 +1,43 @@
+---
+title: 열 집합에서 편집 및 정렬 [!UICONTROL Custom Columns] 아이콘
+description: 열 사용자 정의기를 사용하여 표시되는 열을 변경하는 방법에 대해 알아봅니다.
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 0%
+
+---
+
+# 열 집합에서 편집 및 정렬 [!UICONTROL Custom Columns] 아이콘
+
+오른쪽 도구 모음에서 모든 보기에 표시되는 열을 변경할 수 있습니다. 변경 사항은 캠페인 관리 보기를 종료하거나 다른 광고주에 대한 데이터를 볼 때까지만 적용됩니다.
+
+>[!NOTE]
+>
+>정렬 순서를 변경하지 않고 뷰의 열을 일시적으로 변경할 수도 있습니다 [모든 열 제목에서](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) 보기입니다.
+>
+>기본 보기를 편집하거나 를 사용하여 특정 광고주를 위해 포함된 열에 변경 사항을 저장할 수 있습니다. [사용자 지정 보기 만들기](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
+
+1. 도구 모음 오른쪽에서 ![열](/help/search-social-commerce/assets/custom-columns.png "열").
+
+1. (선택 사항) [사용자 지정(파생) 지표 만들기](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) 을 열로 포함합니다.
+
+1. 보기에 포함할 열을 지정합니다.
+
+   * (열을 추가하려면) [!UICONTROL Available Columns] 목록을 표시하고 열 이름을 클릭한 다음 [!UICONTROL Selected Columns & Ordering] 목록 또는 클릭 ![열 추가](/help/search-social-commerce/assets/chevron-right.png "열 추가") 저기로 옮기려고.
+
+   * (열의 가로 위치를 변경하려면) [!UICONTROL Selected Columns & Ordering] 목록에서 열 이름을 클릭한 다음 원하는 위치로 끌어 놓거나 ![위로 열 이동](/help/search-social-commerce/assets/chevron-up.png "위로 열 이동") 또는 ![아래로 열 이동](/help/search-social-commerce/assets/chevron-down.png "아래로 열 이동") 저기로 옮기려고.
+
+      맨 위 열 이름이 왼쪽 열에 나타납니다.
+
+   * (열을 제거하려면) [!UICONTROL Selected Columns & Ordering] 목록을 표시하고 열 이름을 클릭한 다음 [!UICONTROL Available Columns] 목록 또는 클릭 ![제거](/help/search-social-commerce/assets/chevron-left.png "제거") 저기로 옮기려고.
+
+   * (새 수익 열이 추가되고 표시되지 않는 경우 열 목록을 새로 고치려면) ![새로 고침](/help/search-social-commerce/assets/refresh.png "새로 고침") 옆에 있음[!UICONTROL Available Columns].&quot;
+
+1. 정렬 옵션을 지정합니다.
+
+   * 행을 정렬할 열을 지정합니다.
+
+   * (선택 사항) 슬라이더를 이동하여 선택한 열의 값을 **[!UICONTROL Ascending]** 또는 **[!UICONTROL Descending]** 주문.
+
+1. 클릭 **[!UICONTROL Apply]**.

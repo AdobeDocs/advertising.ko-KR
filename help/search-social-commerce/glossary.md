@@ -1,7 +1,7 @@
 ---
 title: 용어집
 description: 주요 용어의 정의를 참조하십시오.
-source-git-commit: 7ecba48f473e8d1c5f193327d9890759536c1d40
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 0%
