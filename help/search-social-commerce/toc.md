@@ -9,9 +9,9 @@ user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광�
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: false
 hide: true
-source-git-commit: cd8367fbae2234cfdb937c5da8f21f94a615e92a
+source-git-commit: c42ad5b5944f9595431786e05dbab670f1eab02e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1694'
 ht-degree: 0%
 
 ---
@@ -404,5 +404,5 @@ ht-degree: 0%
       + [광고주에 대해 추적된 트랜잭션 속성 보기](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
       + [관리 보기 및 보고서에서 사용할 수 있는 거래 속성 변경](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
       + [거래 속성에 대한 표시 이름 변경](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
-   + [도움말 보기](get-help.md)
-   + [용어집](glossary.md)
++ [도움말 보기](get-help.md)
++ [용어집](glossary.md)
