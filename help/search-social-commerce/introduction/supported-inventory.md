@@ -1,7 +1,7 @@
 ---
 title: 지원되는 인벤토리
 description: 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형을 참조하십시오.
-source-git-commit: 95c7e67bb6f065567302f266959295ce8125c624
+source-git-commit: 2e16159c3d7d973a12a94128b41ebd05539b2f02
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 다음은 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형과 각 광고에서 사용할 수 있는 기능입니다.
 
 | 소스 | 네트워크 | 캠페인 유형 | 광고 유형 | 동기화 및 보기 | 만들기/편집 | Track[^1] | 최적화 | 보고서[^2] | Adobe Analytics 지원[^3] |
-|----|----|----|----|----|----|----|----|----|----|----|
+|----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | 네트워크 검색 | 수동 | 텍스트 | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 및 [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 예 | 수동 CPC 입찰 전략만 있는 캠페인 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
 | [!DNL Google Ads] | 모두 [!DNL Google] 피드 | 검색(Beta 기능) | 검색(단일 이미지 광고)<br><br>검색 캐러셀(다중 이미지 캐러셀 광고) | API를 통해 자동 | — | 예 | 하이브리드 포트폴리오에서만<br><br>입찰 및 입찰 전략 대상은 최적화 유형에 적용할 수 있는 대로 캠페인 예산과 함께 캠페인 수준에서 설정됩니다. | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 광고 수준 데이터(업그레이드된 사용) [s_kwcid 추적 코드](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
 |  | 모두 | 최대 표준 성능(Beta 기능) | 모든 유형 | API를 통해 자동 | 캠페인 보기의 캠페인 설정 내에서 캠페인 만들기/편집 및 광고 자산 업로드<br><br>필요한 설정만 사용할 수 있습니다. 옵션 설정 및 목록 그룹의 경우 [!DNL]에 로그인합니다. [!DNL Google Ads] 광고 편집기. | 예 | 하이브리드 포트폴리오에서만<br><br>입찰 전략 대상은 캠페인 예산과 함께 캠페인 수준에서 설정됩니다. | 캠페인 수준 데이터<br><br>목록 그룹 데이터를 사용할 수 없으며 광고 네트워크에서 광고 수준 데이터를 제공하지 않습니다. | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>Search, Social 및 Commerce에서 Analytics로의 캠페인 수준 데이터. 업그레이드된 버전이 필요합니다. [s_kwcid 추적 코드](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |
