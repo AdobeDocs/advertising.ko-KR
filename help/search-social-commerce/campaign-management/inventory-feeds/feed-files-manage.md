@@ -1,9 +1,9 @@
 ---
 title: 인벤토리 데이터 피드 파일 관리
 description: 피드 데이터 처리 방법을 제어하는 설정을 구성하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ shoes<TAB>Clarks<TAB>20
 
 자세한 내용은 브라우저의 온라인 도움말을 참조하십시오.
 
-## 피드 파일 수동 업로드 [#feed-file-upload]
+## 피드 파일 수동 업로드 {#feed-file-upload}
 
 >[!NOTE]
 > 템플릿을 수동으로 업로드한 파일에 연결하지만, 이름, 파일 확장명 및 문법적 대소문자가 동일한 다른 파일을 FTP를 통해 업로드하는 경우 템플릿을 통해 데이터를 전파할 때 FTP 파일이 사용됩니다. 예를 들어 myfile.csv는 myfile.csv를 대체하지만 Myfile.CSV는 그렇지 않습니다.
