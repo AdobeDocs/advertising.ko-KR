@@ -1,9 +1,9 @@
 ---
 title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Google Ads] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Google Ads] 계정.
-source-git-commit: 05a3424b67d084dbb664321c7a6ada0f99a840b2
+source-git-commit: e06d89ce5d7995bf3abc3ff1312a4a2c2c7448f1
 workflow-type: tm+mt
-source-wordcount: '6628'
+source-wordcount: '6630'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,32 @@ ht-degree: 0%
 
 ### 캠페인 필드
 
-| 계정 이름 | 각 행에 엔티티에 대한 &quot;AMO ID&quot;가 포함되지 않는 한 필요합니다. | | 캠페인 이름 | 필수 | 계정에 대한 캠페인을 식별하는 고유한 이름입니다. | | 캠페인 예산 | 필수: 만들기<br><br>>선택 사항: 편집 또는 삭제 | 통화 기호 및 구두점 유무에 관계없이 캠페인에 대한 일일 지출 제한입니다. 이 값은 재정의되지만 계정 예산을 초과할 수 없습니다. | | 배달 방법 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 | | 채널 유형 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 | | 네트워크 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 | | DSA 도메인 이름 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 | | DSA 도메인 언어 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 | | 캠페인 우선 순위 | 필수/선택 사항: 만들기<br><br>선택 사항 / 해당 사항 없음: 편집 또는 삭제 | | 판매자 ID | 필수/선택 사항: 만들기<br><br>선택 사항 / 해당 사항 없음: 편집 또는 삭제 | | 판매 국가 | 필수/선택 사항: 만들기<br><br>선택 사항 / 해당 사항 없음: 편집 또는 삭제 | | 제품 범위 필터 | 선택 사항 | | 언어 | 선택 사항 | | 장치 Target | 선택 사항 | | 장치 OS Target(Google Adwords) | 선택 사항 | | 이동통신사(Google Adwords) | 선택 사항 | | 대상 Target 메서드 | 해당 사항 없음 | | 랜딩 페이지 접미사 | <p>선택 사항 | | 추적 템플릿 | 선택 사항 | | 캠페인 상태 | 선택 사항: 만들기 또는 편집<br><br>필수: 삭제 | | \[광고주별 레이블 분류\] | 선택 사항 | | 제한 | 선택 사항 | | 캠페인 ID | 행에 캠페인에 대한 &quot;AMO ID&quot;가 포함되지 않는 한 캠페인 이름을 변경할 때만 필요합니다. | | AMO ID | 해당 사항 없음: 만들기<br><br>필수/선택 사항: 편집 또는 삭제 |
+| 필드 | 필수? |
+| ---- | ---- |
+| 계정 이름 | 각 행에 엔티티에 대한 &quot;AMO ID&quot;가 포함되지 않는 한 필요합니다. |
+| 캠페인 이름 | 필수 | 계정에 대한 캠페인을 식별하는 고유한 이름. |
+| 캠페인 예산 | 필수: 만들기<br><br>>선택 사항: 편집 또는 삭제 | 금전적 기호와 구두점을 포함하거나 포함하지 않는 캠페인에 대한 일일 지출 제한. 이 값은 재정의되지만 계정 예산을 초과할 수 없습니다. |
+| 게재 방법 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 |
+| 채널 유형 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 |
+| 네트워크 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 |
+| DSA 도메인 이름 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 |
+| DSA 도메인 언어 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 |
+| 캠페인 우선 순위 | 필수/선택 사항: 만들기<br><br>선택 사항 / 해당 사항 없음: 편집 또는 삭제 |
+| 판매자 ID | 필수/선택 사항: 만들기<br><br>선택 사항 / 해당 사항 없음: 편집 또는 삭제 |
+| 판매 국가 | 필수/선택 사항: 만들기<br><br>선택 사항 / 해당 사항 없음: 편집 또는 삭제 |
+| 제품 범위 필터 | 선택 사항입니다 |
+| 언어 | 선택 사항입니다 |
+| 장치 Target | 선택 사항입니다 |
+| 장치 OS Target(Google Adwords) | 선택 사항입니다 |
+| 이동통신사(Google Adwords) | 선택 사항입니다 |
+| 대상 Target 메서드 | 해당 사항 없음 |
+| 랜딩 페이지 접미사 | <p>선택 사항입니다 |
+| 추적 템플릿 | 선택 사항입니다 |
+| 캠페인 상태 | 선택 사항: 만들기 또는 편집<br><br>필수: 삭제 |
+| \[광고주별 레이블 분류\] | 선택 사항입니다 |
+| 제한 | 선택 사항입니다 |
+| 캠페인 ID | 행에 캠페인에 대한 &quot;AMO ID&quot;가 포함되지 않은 경우 캠페인 이름을 변경할 때만 필요합니다. |
+| AMO ID | 해당 사항 없음: 만들기<br><br>필수/선택 사항: 편집 또는 삭제 |
 
 ### 광고 그룹 필드
 
@@ -144,10 +169,10 @@ ht-degree: 0%
 
 ### Keyword fields
 
-Campaign Name
-Ad Group Name
-Keyword Status
-Max CPC
+| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
+| Campaign Name | Required |
+| Ad Group Name | Required  |
+| Max CPC | Optional |
 Tracking Template
 URLs (Base URL/Final URL, Destination URL)
 Exemption Request (Google Adwords)
@@ -159,6 +184,7 @@ Param2
 Quality Score
 Custom URL Param
 Label Classification
+Keyword Status
 
 | Field | Required? | Description |
 | ---- | ---- | ---- |
