@@ -1,9 +1,9 @@
 ---
 title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Google Ads] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Google Ads] 계정.
-source-git-commit: 29d11545d9c3cb3e90efca4a51a39118dbf9cc1a
+source-git-commit: 05a3424b67d084dbb664321c7a6ada0f99a840b2
 workflow-type: tm+mt
-source-wordcount: '6276'
+source-wordcount: '6628'
 ht-degree: 0%
 
 ---
@@ -114,56 +114,33 @@ ht-degree: 0%
 
 <table style="table-layout:auto">
 
-<!-- 
+## 각 계정 구성 요소를 생성, 편집 또는 삭제하는 데 필요한 필드
 
-## Fields required to create, edit, or delete each account component
+### 캠페인 필드
 
-### Campaign fields
+| 계정 이름 | 각 행에 엔티티에 대한 &quot;AMO ID&quot;가 포함되지 않는 한 필요합니다. | | 캠페인 이름 | 필수 | 계정에 대한 캠페인을 식별하는 고유한 이름입니다. | | 캠페인 예산 | 필수: 만들기<br><br>>선택 사항: 편집 또는 삭제 | 통화 기호 및 구두점 유무에 관계없이 캠페인에 대한 일일 지출 제한입니다. 이 값은 재정의되지만 계정 예산을 초과할 수 없습니다. | | 배달 방법 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 | | 채널 유형 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 | | 네트워크 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 | | DSA 도메인 이름 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 | | DSA 도메인 언어 | 필수: 만들기<br><br>선택 사항: 편집 또는 삭제 | | 캠페인 우선 순위 | 필수/선택 사항: 만들기<br><br>선택 사항 / 해당 사항 없음: 편집 또는 삭제 | | 판매자 ID | 필수/선택 사항: 만들기<br><br>선택 사항 / 해당 사항 없음: 편집 또는 삭제 | | 판매 국가 | 필수/선택 사항: 만들기<br><br>선택 사항 / 해당 사항 없음: 편집 또는 삭제 | | 제품 범위 필터 | 선택 사항 | | 언어 | 선택 사항 | | 장치 Target | 선택 사항 | | 장치 OS Target(Google Adwords) | 선택 사항 | | 이동통신사(Google Adwords) | 선택 사항 | | 대상 Target 메서드 | 해당 사항 없음 | | 랜딩 페이지 접미사 | <p>선택 사항 | | 추적 템플릿 | 선택 사항 | | 캠페인 상태 | 선택 사항: 만들기 또는 편집<br><br>필수: 삭제 | | \[광고주별 레이블 분류\] | 선택 사항 | | 제한 | 선택 사항 | | 캠페인 ID | 행에 캠페인에 대한 &quot;AMO ID&quot;가 포함되지 않는 한 캠페인 이름을 변경할 때만 필요합니다. | | AMO ID | 해당 사항 없음: 만들기<br><br>필수/선택 사항: 편집 또는 삭제 |
 
-| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
-| Campaign Name | Required | The unique name that identifies a campaign for an account. |
-| Campaign Budget | Required: Create<br><br>>Optional: Edit or delete | A daily spending limit for the campaign, with or without monetary symbols and punctuation. This value overrides but can't exceed the account budget. |
-| Delivery Method | Required: Create<br><br>Optional: Edit or delete |
-| Channel Type | Required: Create<br><br>Optional: Edit or delete |
-| Networks | Required: Create<br><br>Optional: Edit or delete |
-| DSA Domain Name | Required: Create<br><br>Optional: Edit or delete |
-| DSA Domain Language | Required: Create<br><br>Optional: Edit or delete |
-| Campaign Priority | Required/Optional: Create<br><br>Optional / n/a: Edit or delete  |
-| Merchant ID | Required/Optional: Create<br><br>Optional / n/a: Edit or delete |
-| Sales Country | Required/Optional: Create<br><br>Optional / n/a: Edit or delete |
-| Product Scope Filter | Optional |
-| Languages | Optional |
-| Device Targets | Optional |
-| Device OS Targets (Google Adwords) | Optional |
-| Mobile Carriers (Google Adwords) | Optional |
-| Audience Target Method | n/a |
-| Landing Page Suffix | <p>Optional |
-| Tracking Template | Optional |
-| Campaign Status | Optional: Create or edit<br><br>Required: Delete |
-| \[Advertiser-specific Label Classification\] | Optional |
-| Constraints | Optional |
-| Campaign ID | Required only when you change the campaign name, unless the row includes an &quot;AMO ID&quot; for the campaign. |
-| AMO ID | n/a: Create<br><br>Required/Optional: Edit or delete |
+### 광고 그룹 필드
 
-### Ad group fields
-
-| Field | Required? |
+| 필드 | 필수? |
 | ---- | ---- |
-| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
-| Campaign Name | Required |
-| Networks | n/a |
-| GDN Custom Bid Level | Optional |
-| Ad Group Name | Required  |
-| Ad Group Type | Required |
-| Max CPC | Optional |
-| Max Content CPC | Optional |
-| Audience Target Method | Required |
-| Tracking Template | Optional |
-| Ad Group Status  | Optional: Create or edit<br><br>Required: Delete |
-| \[Advertiser-specific Label Classification\] | Optional |
-| Constraints | Optional |
-| Ad Group ID | Required only when you change the campaign name, unless the row includes an &quot;AMO ID&quot; for the ad group. |
-| AMO ID | The AMO ID is required to edit or delete the data unless you include the entity ID and parent entity ID.<br><br>Search, Social, & Commerce uses the value to determine the correct identity to edit but doesn't post the ID to the ad network. |
+| 계정 이름 | 각 행에 엔티티에 대한 &quot;AMO ID&quot;가 포함되지 않는 한 필요합니다. |
+| 캠페인 이름 | 필수 |
+| 네트워크 | 해당 사항 없음 |
+| GDN 사용자 지정 입찰 수준 | 선택 사항입니다 |
+| 광고 그룹 이름 | 필수 |
+| 광고 그룹 유형 | 필수 |
+| 최대 CPC | 선택 사항입니다 |
+| 최대 컨텐츠 CPC | 선택 사항입니다 |
+| 대상 Target 메서드 | 필수 |
+| 추적 템플릿 | 선택 사항입니다 |
+| 광고 그룹 상태 | 선택 사항: 만들기 또는 편집<br><br>필수: 삭제 |
+| \[광고주별 레이블 분류\] | 선택 사항입니다 |
+| 제한 | 선택 사항입니다 |
+| 광고 그룹 ID | 행에 광고 그룹에 대한 &quot;AMO ID&quot;가 포함되지 않은 경우 캠페인 이름을 변경할 때만 필요합니다. |
+| AMO ID | 엔티티 ID 및 상위 엔티티 ID를 포함하지 않는 한 데이터를 편집하거나 삭제하려면 AMO ID가 필요합니다.<br><br>Search, Social 및 Commerce는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
+
+<!-- 
 
 ### Keyword fields
 
