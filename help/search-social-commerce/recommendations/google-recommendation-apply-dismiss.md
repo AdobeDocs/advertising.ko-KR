@@ -1,9 +1,9 @@
 ---
 title: 적용 또는 취소 [!DNL Google Ads] 추천
 description: 보기 방법 알아보기 [!DNL Google Ads] 권장 사항 및 권장 사항을 적용하거나 취소하는 방법.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 >
 >권장 사항은 캠페인 성과를 개선하는 데 도움이 되지만, 일부는 더 광범위한 목표에 부합하지 않을 수 있습니다. 따라서 권장 사항을 구현하기 전에 Adobe 계정 팀에 문의하는 것이 가장 좋습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations]**.
+1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
-1. 오른쪽 상단에서 계정을 선택합니다.
+1. 오른쪽 상단에서 광고 네트워크 및 계정을 선택합니다.
 
 1. (선택 사항) 카테고리 및 유형별로 권장 사항을 필터링합니다.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [사용에 대한 우수 사례 [!DNL Google Ads] 검색, 소셜 및 상거래 포트폴리오를 사용한 권장 사항](google-recommendation-best-practices.md)
->* [정보 [!DNL Google Ads] 권장 사항 지원](google-recommendation-support.md)
+>* [게시자 권장 사항 및 인사이트 지원 기본 정보](recommendation-support.md)
 >* [에 대한 권장 사항 로그 보기 [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [포트폴리오에 게시자 권장 사항 및 통찰력을 사용하는 모범 사례](recommendation-best-practices.md)
 

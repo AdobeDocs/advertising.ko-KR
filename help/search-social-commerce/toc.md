@@ -9,9 +9,9 @@ user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광�
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: false
 hide: true
-source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
+source-git-commit: ba0604f0c8f07cad70aa1af66fe24db3ec8e541d
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1721'
 ht-degree: 0%
 
 ---
@@ -369,7 +369,11 @@ ht-degree: 0%
       + [사용자 지정 경고 보기](/help/search-social-commerce/alerts/alert-view.md)
       + [사용자 지정 경고에 대한 데이터 내보내기](/help/search-social-commerce/alerts/alert-export-data.md)
    + [변경 내역 보고서 보기](/help/search-social-commerce/reports/change-history-view.md)
-   + Recommendations {#recommendations}
+   + Recommendations 및 게시자 인사이트 {#recommendations}
+      + [게시자 권장 사항 및 인사이트 지원 기본 정보](/help/search-social-commerce/recommendations/recommendation-support.md)
+      + [에 대한 권장 사항 로그 보기 [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [적용 또는 취소 [!DNL Google Ads] 추천](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [포트폴리오에 게시자 권장 사항 및 통찰력을 사용하는 모범 사례](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + 도구 {#tools}
    + [암호 변경](/help/search-social-commerce/tools/password-change.md)
    + 추적 태그를 만들고 디코딩하는 도구{#tracking}
