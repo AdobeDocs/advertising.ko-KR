@@ -1,7 +1,7 @@
 ---
 title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Google Ads] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Google Ads] 계정.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
 workflow-type: tm+mt
 source-wordcount: '6276'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
 
 | 필드 | 설명 |
-| ---- | ---- | ---- |
+| ---- | ---- |
 | 플랫폼 | (정보 목적으로 생성된 일괄 시트에 포함) 광고 플랫폼. 각 행에 엔티티에 대한 &quot;AMO ID&quot;가 포함되지 않는 한 필요합니다. |
 | 계정 이름 | 광고 네트워크 계정을 식별하는 고유한 이름. 각 행에 엔티티에 대한 &quot;AMO ID&quot;가 포함되지 않는 한 필요합니다. |
 | 캠페인 이름 | 계정에 대한 캠페인을 식별하는 고유한 이름. |
