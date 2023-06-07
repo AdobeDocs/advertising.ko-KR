@@ -9,9 +9,9 @@ user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광�
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: false
 hide: true
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1690'
 ht-degree: 0%
 
 ---
@@ -372,12 +372,11 @@ ht-degree: 0%
    + Recommendations {#recommendations}
 + 도구 {#tools}
    + [암호 변경](/help/search-social-commerce/tools/password-change.md)
-   + 태그 추적 도구 {#tracking}
-      + [픽셀 기반 추적을 만들고 디코딩하는 도구]{#pixel}
-         + [추적 태그를 만들고 디코딩하는 도구 정보](/help/search-social-commerce/tools/tracking-tools-about.md)
-         + [클릭 추적 URL 생성](/help/search-social-commerce/tools/click-tracking-url-generate.md)
-         + [클릭 추적 URL 디코딩](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-         + [Adobe 광고 전환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)
+   + 추적 태그를 만들고 디코딩하는 도구{#tracking}
+      + [추적 태그를 만들고 디코딩하는 도구 정보](/help/search-social-commerce/tools/tracking-tools-about.md)
+      + [클릭 추적 URL 생성](/help/search-social-commerce/tools/click-tracking-url-generate.md)
+      + [클릭 추적 URL 디코딩](/help/search-social-commerce/tools/click-tracking-url-decode.md)
+      + [Adobe 광고 전환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + 광고 네트워크에 전환 데이터 업로드 {#upload-ad-networks}
       + [전환 지표 업로드 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [광고 네트워크에 목표 업로드 활성화](/help/search-social-commerce/tools/objective-upload-to-networks.md)
