@@ -1,9 +1,9 @@
 ---
 title: 관리 [!DNL Google Ads] 배치
 description: 을(를) 위해 바인딩 가능한 배치를 만들고 관리하는 방법 알아보기 [!DNL Google Ads] 광고 그룹.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]:** 광고가 표시될 수 있는 컨텐츠 네트워크의 사이트입니다. 올바른 URL(예: www.example.com, example.com 또는 www.example.com/shoes/kids)을 입력하십시오. 여러 문자열을 지정하려면 쉼표로 구분하거나 별도의 줄에 입력하십시오. URL에는 물음표(`?`). **참고:** 다음을 수행할 수 있습니다. [웹 사이트 배치 제외](placement-negative-create.md) 다음에서 [!UICONTROL Placements] > [!UICONTROL Negatives] 광고 그룹 및 캠페인 설정에서 및 를 봅니다.
+**[!UICONTROL Placements]:** 광고가 표시될 수 있는 컨텐츠 네트워크의 사이트입니다. 올바른 URL(예: www.example.com, example.com 또는 www.example.com/shoes/kids)을 입력하십시오. 여러 문자열을 지정하려면 쉼표로 구분하거나 별도의 줄에 입력합니다. URL에는 물음표()를 포함할 수 없습니다.`?`). **참고:** 다음을 수행할 수 있습니다. [웹 사이트 배치 제외](placement-negative-create.md) 다음에서 [!UICONTROL Placements] > [!UICONTROL Negatives] 광고 그룹 및 캠페인 설정에서 및 를 봅니다.
 
 **[!UICONTROL Status]:** 배치의 디스플레이 상태: *활성* (입찰을 활성화하려면, 기본값), *일시 중지됨* (입찰을 비활성화하려면) 또는 *삭제됨* (배치를 삭제하려면 기존 배치만 해당).
 
@@ -88,4 +88,3 @@ ht-degree: 0%
 >* [배치 기본 정보](placement-about.md)
 >* [부정적인 배치 만들기](placement-negative-create.md)
 >* [배치 및 음수 배치 상태 변경](placement-status-edit.md)
-

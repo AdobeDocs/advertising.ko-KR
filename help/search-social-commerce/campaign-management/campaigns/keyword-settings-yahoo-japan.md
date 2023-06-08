@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Yahoo! Japan Ads] 키워드 설정"
 description: 다음에 대한 설정 참조 [!DNL Yahoo! Japan Ads] 키워드.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 0%
 >* 에서 부정적인 키워드를 만들 수 있습니다. [!UICONTROL Keywords] > [!UICONTROL Negatives] 광고 그룹 및 캠페인 설정에서 및 를 봅니다.
 >* 야후! 일본 키워드와 일치 유형은 변경할 수 있으므로 기존 키워드를 삭제하지 않고 편집할 수 있습니다.
 
-
 **[!UICONTROL Status]:** 키워드의 표시 상태: *활성* 또는 *일시 중지됨*. 새 키워드의 기본값은 입니다 *활성*.
 
 ## [!UICONTROL Bids]
@@ -32,9 +31,9 @@ ht-degree: 0%
 
 ## 자리 표시자
 
-**[!UICONTROL Param1]:** 기본 URL 또는 추적 템플릿에 `{param1}` [사용자 지정 매개 변수](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param1]:** 기본 URL 또는 추적 템플릿에 `{param1}` [사용자 지정 매개 변수](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
-**[!UICONTROL Param2]:** 기본 URL 또는 추적 템플릿에 `{param2}` [사용자 지정 매개 변수](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param2]:** 기본 URL 또는 추적 템플릿에 `{param2}` [사용자 지정 매개 변수](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
 ## URL 옵션
 
@@ -49,4 +48,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [키워드 관리](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

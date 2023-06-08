@@ -1,9 +1,9 @@
 ---
 title: 판매자 계정 관리
 description: 머천트 센터 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Search, Social 및 Commerce는 광고주의 Google 판매자 센터 또는 Micro
 
    1. 다음에서 [!UICONTROL Product Source] 메뉴에서 판매자 센터를 선택합니다.
 
-   1. (필수 사항: [!DNL Google Ads] 계정, 선택 사항 [!DNL Microsoft Advertising] 계정) 검색, 소셜 및 상거래를 통해 [[!DNL OAuth] 인증 프로토콜](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+   1. (필수 사항: [!DNL Google Ads] 계정, 선택 사항 [!DNL Microsoft Advertising] 계정) 검색, 소셜 및 상거래를 통해 [[!DNL OAuth] 인증 프로토콜](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] 계정 전용) 선택 **[!UICONTROL oAuth]**.
 
@@ -98,13 +98,13 @@ Search, Social 및 Commerce는 광고주의 Google 판매자 센터 또는 Micro
 
 **[!UICONTROL Product Source]:** 판매자 네트워크. 기존 계정의 값을 변경할 수 없습니다.
 
-**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] 계정 전용) 를 사용하여 로그인을 승인하는 계정의 토큰 [[!DNL OAuth] 인증 프로토콜](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] 계정 전용) 를 사용하여 로그인을 승인하는 계정의 토큰 [[!DNL OAuth] 인증 프로토콜](https://oauth.net/2/).
 
 **[!UICONTROL Auth Type]:** ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] 만 해당) 다음을 사용하여 계정에 대한 로그인 승인 여부:
 
 * *[!UICONTROL Client login]:* 클라이언트의 로그인을 사용합니다.
 
-* *[!UICONTROL oAuth]* (기본값): [[!DNL OAuth] 인증 프로토콜](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* (기본값): [[!DNL OAuth] 인증 프로토콜](https://oauth.net/2/).
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] 만 해당) 개발자 계정이 사용할 액세스 키입니다.
 
@@ -130,4 +130,3 @@ Search, Social 및 Commerce는 광고주의 Google 판매자 센터 또는 Micro
 >
 >* [광고 네트워크 계정 기본 정보](ad-network-account-about.md)
 >* [광고 네트워크 계정 관리](ad-network-account-manage.md)
-
