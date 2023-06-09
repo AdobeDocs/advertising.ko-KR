@@ -1,7 +1,7 @@
 ---
 title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: c2a6e14fe97d46185094dd4df3e75db35a505925
 workflow-type: tm+mt
 source-wordcount: '1925'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] 만; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], 및 [!UICONTROL Keyword Daily Impression Share Report]) 유기 검색 결과 위에 첫 번째 광고로 표시되는 광고 노출 비율입니다. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] 만; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], 및 [!UICONTROL Keyword Daily Impression Share Report]) 유기 검색 결과 위에 표시되는 광고 노출 비율입니다. |
 | [!UICONTROL Impressions] | 지정된 날짜 범위 동안의 광고 노출 횟수입니다. |
-| [!UICONTROL Keyword] | 키워드.<br><br><b>참고:</i> 보고서에 컨텐츠 사용 검색 캠페인의 광고 그룹 데이터가 포함된 경우 이 열에는 &quot;(광고 그룹 컨텐츠) 광고 그룹 이름&quot;과 같은 적용 가능한 광고 그룹 이름이 포함됩니다. 검색 캠페인의 사이트 타겟팅 배치의 경우 이 열에는 값이 없습니다. |
+| [!UICONTROL Keyword] | 키워드.<br><br><b>참고:</b> 보고서에 컨텐츠 사용 검색 캠페인의 광고 그룹 데이터가 포함된 경우 이 열에는 &quot;(광고 그룹 컨텐츠) 광고 그룹 이름&quot;과 같은 적용 가능한 광고 그룹 이름이 포함됩니다. 검색 캠페인의 사이트 타겟팅 배치의 경우 이 열에는 값이 없습니다. |
 | [!UICONTROL Keyword ID] | Search, Social 및 Commerce가 키워드에 할당하는 숫자 ID입니다. |
 | [!UICONTROL Keyword Status] | 검색어가 일치하는 키워드의 상태: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*, 또는[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) 타겟 언어입니다. |
@@ -119,4 +119,3 @@ ht-degree: 0%
 >* [전문 보고서 정보](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
 >* [전문 보고서 생성](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
 >* [특성 보고서 설정](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-
