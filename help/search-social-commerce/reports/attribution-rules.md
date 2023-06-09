@@ -1,9 +1,9 @@
 ---
 title: 속성 규칙 계산 방법
 description: Adobe Advertising이 각 속성 규칙 유형을 계산하는 방법을 알아봅니다.
-source-git-commit: 6436866ae7684a330f74c14e58ee30d365de80a1
+source-git-commit: d4237253af7110a3ed02595c466c01359f5601d4
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
@@ -295,13 +295,13 @@ ht-degree: 0%
 
 노출 횟수만으로 전환 앞에 오면 전환은 다음으로 간주됩니다. *뷰스루*&#x200B;광고주의 값에 따라 가중치가 매겨지는 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv) 또는 — 지정된 대로 — 보고서, 뷰 또는 사용자 정의 시뮬레이션 매개변수에 지정된 뷰스루 평가 방법에 따라 결정됩니다.
 
-전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe 광고 제품에 의해 다르게 처리됩니다.
+전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe Advertising 제품에 의해 다르게 처리됩니다.
 
 * 검색, 소셜 및 상거래에서 [노출 재정의 가중치](/help/search-social-commerce/glossary.md#i-j) — 광고주의 노출 재정의 가중치 설정과 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정되며, 이 항목이 노출에 먼저 적용됩니다.
 
 * DSP에서는 노출이 무시되고 클릭에만 가중치가 적용됩니다. DSP은 기여도 분석을 위해 노출 재정의 가중치를 고려하지 않습니다.
 
-<!-- ![U-shaped attribution percentages](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-shaped event attribution percentages") -->
+![U자형 속성 비율](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U자형 속성 비율")
 
 <!-- start examples as collapsible content -->
 
