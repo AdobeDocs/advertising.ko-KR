@@ -9,9 +9,9 @@ user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광�
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: false
 hide: true
-source-git-commit: ba0604f0c8f07cad70aa1af66fe24db3ec8e541d
+source-git-commit: 71ffe30ca09a2be0def70fc230a4bfa7616c7bfa
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1722'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,10 @@ ht-degree: 0%
    + [지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe Experience Cloud과 통합 {#integrations}
       + [Adobe Experience Cloud 솔루션 및 서비스와의 통합](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)
-      + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html)
-   + [고객 개인정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [정책 및 지침(링크)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html)
+      + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [고객 개인정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [정책 및 지침(링크)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + 시작 {#getting-started}
    + [구현 개요](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [시스템 요구 사항](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -85,11 +85,11 @@ ht-degree: 0%
             + [클릭 추적 형식 [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [클릭 추적 형식 [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [클릭 추적 URL에 대한 선택적 추적 매개 변수](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)
+      + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [s_kwcid 추적 매개 변수](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + 전환 추적 {#conversion-tracking}
       + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe 광고 전환 추적 {#advertising-conversion-tracking}
+      + Adobe Advertising 전환 추적 {#advertising-conversion-tracking}
          + [Adobe 광고 전환 추적 태그 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [JavaScript 전환 추적 태그 버전 3의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript 전환 추적 태그 버전 2의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)

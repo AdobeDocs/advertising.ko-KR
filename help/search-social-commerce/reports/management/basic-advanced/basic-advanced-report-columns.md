@@ -1,9 +1,9 @@
 ---
 title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 7327c91b92b6471fa8da8767fc764de4226b4f91
 workflow-type: tm+mt
-source-wordcount: '3640'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report], [!UICONTROL Keyword Report]) 클릭이 시작된 도메인 이름입니다. |
 | [!UICONTROL eCPM] | 유효 CPM 또는 지정된 날짜 범위 동안 1000회 노출당 지급된 평균 비용입니다. eCPM 값은 CPM 또는 CPC 캠페인에 대해 계산됩니다. |
 | [!UICONTROL EF Campaign ID] | Search, Social 및 Commerce가 캠페인에 할당하는 숫자 ID입니다. |
-| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Adobe 광고 전환 추적 서비스 및 &quot;[!UICONTROL EF Redirect]&quot;토큰을 사용한 추적 메서드) 클릭 또는 전환을 위한 토큰입니다.<ul><li>대상 [!DNL Google Ads] 검색 광고, EF ID: `{gclid}:G:s`: Google 클릭 ID(GCLID) 및 네트워크 유형(&quot;s&quot; for search)이 포함됩니다.</li><li> 대상 [!DNL Microsoft Advertising] 검색 광고, EF ID: `{msclkid}:G:s`: Microsoft 클릭 ID(MSCLKID) 및 네트워크 유형(&quot;s&quot; for search)이 포함됩니다.</li><li>다른 광고 네트워크의 검색 광고의 경우 EF ID에는 서퍼 ID, 클릭 시간 및 네트워크 유형이 포함됩니다.</li><li>디스플레이 광고의 경우 EF ID에는 서퍼 ID, 클릭 또는 노출 시간 및 네트워크 유형이 포함됩니다.</li></ul> |
+| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Adobe Advertising 전환 추적 서비스 및 &quot;[!UICONTROL EF Redirect]&quot;토큰을 사용한 추적 메서드) 클릭 또는 전환을 위한 토큰입니다.<ul><li>대상 [!DNL Google Ads] 검색 광고, EF ID: `{gclid}:G:s`: Google 클릭 ID(GCLID) 및 네트워크 유형(&quot;s&quot; for search)이 포함됩니다.</li><li> 대상 [!DNL Microsoft Advertising] 검색 광고, EF ID: `{msclkid}:G:s`: Microsoft 클릭 ID(MSCLKID) 및 네트워크 유형(&quot;s&quot; for search)이 포함됩니다.</li><li>다른 광고 네트워크의 검색 광고의 경우 EF ID에는 서퍼 ID, 클릭 시간 및 네트워크 유형이 포함됩니다.</li><li>디스플레이 광고의 경우 EF ID에는 서퍼 ID, 클릭 또는 노출 시간 및 네트워크 유형이 포함됩니다.</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]; 검색, 소셜 및 상거래의 경우 만 사용) 데이터를 정규화하는 데 사용되는 지리적 위치에 대한 내부 ID입니다. |
 | [!UICONTROL EF Portfolio Group ID] | 포트폴리오가 속한 포트폴리오 그룹의 숫자 ID입니다. |
 | [!UICONTROL EF Search Engine ID] | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID입니다.  <i>[!UICONTROL 3]</i> 대상 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 대상 [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> 대상 [!DNL Meta], <i>[!UICONTROL 86]</i> 대상 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 대상 [!DNL Naver], <i>[!UICONTROL 88]</i> 대상 [!DNL Baidu], <i>[!UICONTROL 90]</i> 대상 [!DNL Yandex], <i>[!UICONTROL 94]</i> 대상 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 대상 [!DNL Yahoo Native] (더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i> 대상 [!DNL Pinterest] (사용하지 않음). |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | 지정된 날짜 범위 동안의 광고 노출 횟수입니다. |
 | [!UICONTROL Interaction Rate] | (비디오 광고) 상호 작용 수를 광고(비디오 및 썸네일 노출) 표시 횟수로 나눈 값입니다. |
 | [!UICONTROL Interactions] | (비디오 광고) 사람들이 광고를 시청한 횟수입니다. |
-| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <!-- ?????? insert definition --> |
+| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> 포트폴리오에 캠페인이 포함된 경우 [!UICONTROL Maximize Clicks] 입찰 전략 및 <i>false</i> 그렇지 않으면. |
 | [!UICONTROL Keyword] | 키워드.<br><br><b>참고:</b> 보고서에 컨텐츠 사용 검색 캠페인의 광고 그룹 데이터가 포함된 경우 이 열에는 &quot;(광고 그룹 컨텐츠) 광고 그룹 이름&quot;과 같은 적용 가능한 광고 그룹 이름이 포함됩니다. 검색 캠페인의 사이트 타겟팅 배치의 경우 이 열에는 값이 없습니다. |
 | [!UICONTROL Keyword ID] | Search, Social 및 Commerce가 키워드에 할당하는 숫자 ID입니다. |
 | [!UICONTROL Keyword Status] | 검색어가 일치하는 키워드의 상태: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i>, 또는 <i>[!UICONTROL Disapproved]</i>. |
@@ -192,4 +192,3 @@ ht-degree: 0%
 >* [기본 및 고급 보고서 정보](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
 >* [기본 또는 고급 보고서 생성](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [기본 및 고급 보고서 설정](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
-

@@ -1,7 +1,7 @@
 ---
 title: 이미지 변환 추적 태그의 형식
 description: 이미지 변환 추적 태그의 형식을 참조합니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: b230c593d93dfa868b8f075939fc9940ea74fa13
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -16,15 +16,11 @@ ht-degree: 0%
 
 * HTTP가 있는 사이트에 대한 비보안 태그:
 
-   ```
-   <img src="http://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>
-   ```
+  `<img src="http://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>`
 
 * HTTPS가 있는 사이트에 대한 보안 태그:
 
-   ```
-   <img src="https://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>
-   ```
+  `<img src="https://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>`
 
 여기서:
 
@@ -34,7 +30,7 @@ ht-degree: 0%
 
 * `<transid>` 는 광고주가 거래를 식별하기 위해 생성하고 전달하는 고유한 거래 ID(예: 실제 주문 ID)입니다. &quot;&quot;에만 포함됩니다.[!UICONTROL Include unique transaction IDs]&quot; 옵션이 선택되어 있습니다.
 
-   Search, Social, &amp; Commerce에서는 거래 ID를 사용하여 거래 ID와 속성 값이 동일한 중복 거래를 제거합니다. 거래 ID는에 포함됩니다. [!UICONTROL Transaction Report]: 광고주의 데이터로 Adobe 광고 내의 데이터를 확인하는 데 사용할 수 있습니다. **참고:** 광고주의 데이터에 트랜잭션당 고유 ID가 포함되지 않은 경우 검색, 소셜 및 상거래는 여전히 트랜잭션 시간을 기준으로 ID를 생성합니다.
+  Search, Social, &amp; Commerce에서는 거래 ID를 사용하여 거래 ID와 속성 값이 동일한 중복 거래를 제거합니다. 거래 ID는에 포함됩니다. [!UICONTROL Transaction Report]: 광고주의 데이터로 Adobe Advertising 내 데이터의 유효성을 검사하는 데 사용할 수 있습니다. **참고:** 광고주의 데이터에 트랜잭션당 고유 ID가 포함되지 않은 경우 검색, 소셜 및 상거래는 여전히 트랜잭션 시간을 기준으로 ID를 생성합니다.
 
 <!-- add more links -->
 
@@ -45,4 +41,3 @@ ht-degree: 0%
 >* [전환 및 페이지 보기 추적 태그에 대한 FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [JavaScript 전환 추적 태그 버전 2의 형식](format-conversion-tag-jsv2.md)
 >* [JavaScript 전환 추적 태그 버전 3의 형식](format-conversion-tag-jsv3.md)
-

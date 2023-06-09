@@ -1,7 +1,7 @@
 ---
 title: "에 대한 s\_kwcid 추적 코드 업데이트 [!DNL Google Ads] account"
 description: 에 대한 최신 s\_kwcid 추적 코드로 전환하는 방법에 대해 알아봅니다. [!DNL Google Ads] 계정입니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -58,5 +58,4 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >
 >* [광고 네트워크 계정 관리](ad-network-account-manage.md)
 >* [s_kwcid 추적 매개 변수](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
->* [개요 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
-
+>* [개요 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

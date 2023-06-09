@@ -1,9 +1,9 @@
 ---
 title: s_kwcid 추적 매개 변수
-description: Adobe Analytics과 Adobe 광고 데이터를 공유하는 데 사용되는 추적 매개 변수에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Adobe Analytics과 Adobe Advertising 데이터를 공유하는 데 사용되는 추적 매개 변수에 대해 알아봅니다.
+source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 <!-- Where should this go? It probably belongs in the Analytics integration chapter, but I'll need to fit it in/create context around it/explain more about implementation and how this works.  SPECIFICALLY, I'll need to update the second section that explains when/where to add the code for DSP clients. -->
 
-Adobe 광고는 다음을 사용하여 캠페인에 대한 데이터를 Adobe Analytics과 공유합니다. `s_kwcid` append 매개 변수 : 광고 채널 및 광고 네트워크별 요소로 구성됩니다. 매개 변수는 다음 방법 중 하나로 추적 URL에 추가됩니다.
+Adobe Advertising은 다음을 사용하여 Adobe Analytics과 캠페인에 대한 데이터를 공유합니다. `s_kwcid` append 매개 변수 : 광고 채널 및 광고 네트워크별 요소로 구성됩니다. 매개 변수는 다음 방법 중 하나로 추적 URL에 추가됩니다.
 
 * (권장)<!--; the only option for Advertising DSP-->) 서버측 s_kwcid 기능이 구현되었습니다.
 
-   대상 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 이(가) 있는 계정 [!UICONTROL Auto Upload] 계정 또는 캠페인에 대해 활성화된 설정을 지정하면, 픽셀 서버는 최종 사용자가 광고를 클릭할 때 랜딩 페이지 접미사에 s_kwcid 매개 변수를 자동으로 추가합니다 <!-- click a search ad or views a display ad --> (Adobe 광고 픽셀 사용)
+  대상 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 이(가) 있는 계정 [!UICONTROL Auto Upload] 계정 또는 캠페인에 대해 활성화된 설정을 지정하면, 픽셀 서버는 최종 사용자가 광고를 클릭할 때 랜딩 페이지 접미사에 s_kwcid 매개 변수를 자동으로 추가합니다 <!-- click a search ad or views a display ad --> Adobe Advertising 픽셀 사용.
 
-   기타 광고 네트워크의 경우 또는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 이(가) 있는 계정 [!UICONTROL Auto Upload] 비활성화로 설정하면 매개 변수를 계정 수준 추가 매개 변수에 수동으로 추가하고 기본 URL에 추가합니다.
+  기타 광고 네트워크의 경우 또는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 이(가) 있는 계정 [!UICONTROL Auto Upload] 비활성화로 설정하면 매개 변수를 계정 수준 추가 매개 변수에 수동으로 추가하고 기본 URL에 추가합니다.
 
 * <!-- (Search, Social, & Commerce only) -->서버측 s_kwcid 기능은 구현되지 않으며 s_kwcid 매개 변수를 ( )에 수동으로 추가해야 합니다.[!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 랜딩 페이지 접미사 또는 (기타 광고 네트워크) 계정 수준 추가 매개 변수.
 
 서버측 s_kwcid 기능을 구현하거나 최상의 비즈니스 옵션을 결정하려면 Adobe 계정 팀에 문의하십시오.
 
-## `s_kwcid` advertising DSP 광고 형식
+## Advertising DSP 광고용 s_kwcid 형식
 
 `s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
 
@@ -38,7 +38,7 @@ Adobe 광고는 다음을 사용하여 캠페인에 대한 데이터를 Adobe An
 
 * `{TM_PLACEMENT_ID}` 는 영숫자 배치 키입니다.
 
-## `s_kwcid` 검색, 소셜 및 상거래 광고 형식
+## 검색, 소셜 및 상거래 광고용 s_kwcid 형식
 
 매개 변수는 광고 네트워크별로 다르지만, 다음 매개 변수는 모두에게 공통입니다.
 
@@ -58,18 +58,17 @@ Adobe 광고는 다음을 사용하여 캠페인에 대한 데이터를 Adobe An
 
 * 성과 최대 캠페인 및 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준 보고를 지원하는 최신 s_kwcid 형식을 사용하는 계정:
 
-   `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
 * 다른 모든 계정:
 
-   `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 >[!NOTE]
 >
->* 동적 검색 광고의 경우 {keyword}이(가) 자동 타겟으로 채워집니다.
+>* 동적 검색 광고의 경우, {keyword} 가 자동 타겟으로 채워집니다.
 >* 에 대한 추적을 생성하는 경우 [!DNL Google] 쇼핑 광고, 제품 ID 매개 변수, `{adwords_producttargetid}`는 키워드 매개 변수 앞에 삽입됩니다. 제품 ID 매개 변수가 [!DNL Google Ads] 계정 수준 및 캠페인 수준 추적 매개 변수.
 >* 최신 s_kwcid 추적 코드를 사용하려면 &quot;[에 대한 s_kwcid 추적 코드 업데이트 [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
-
 
 <!--
 
@@ -91,15 +90,15 @@ where:
 
 * 캠페인 검색:
 
-   `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
 
 * 쇼핑 캠페인(사용) [!DNL Microsoft Merchant Center]):
 
-   `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
 
 * 대상 네트워크 캠페인:
 
-   `s_kwcid=AL!{userid}!{sid}!{AdId}`
+  `s_kwcid=AL!{userid}!{sid}!{AdId}`
 
 ### [!DNL Yahoo! Japan Ads]
 
@@ -111,11 +110,10 @@ where:
 
 >[!MORELIKETHIS]
 >
->* [개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
+>* [개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md){target="_blank"}
 >* [광고 네트워크 계정 관리](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
 >* [Baidu 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [Google 광고 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
 >* [Microsoft Advertising 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
 >* [야후! 일본 광고 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [Yandex 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
-
