@@ -5,12 +5,12 @@ solution: Advertising
 product: advertising cloud
 archetype: end-user
 user-guide-title: Advertising Search, Social 및 Commerce 안내서
-user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리, 최적화 및 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
+user-guide-description: Advertising Search, Social 및 Commerce의 최신 업데이트 및 새로운 기능에 대해 알아봅니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 0f4fad34e1e381157b99467fca04c35501d1fb57
+source-git-commit: 72dc4d0f193b39c13daf1a0203f54285bff8cc28
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1702'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
       + [s_kwcid 추적 매개 변수](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + 전환 추적 {#conversion-tracking}
       + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe Advertising 전환 추적 {#advertising-conversion-tracking}
+      + Adobe 광고 전환 추적 {#advertising-conversion-tracking}
          + [Adobe 광고 전환 추적 태그 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [JavaScript 전환 추적 태그 버전 3의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript 전환 추적 태그 버전 2의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
