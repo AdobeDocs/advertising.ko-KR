@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Microsoft Advertising] campaign 설정"
 description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 캠페인.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 0706f4dbc5f2a27e7d0cf43a6865d242865f9d36
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search and Display Network]:* 검색 네트워크에서만 텍스트 광고를 표시합니다.
 
-* *[!UICONTROL Shopping Network]:* 의 제품에 대한 제품 광고 및 mdashl을 표시합니다. [!DNL Microsoft Merchant Center] 제품 카탈로그 — 쇼핑 네트워크
+* *[!UICONTROL Shopping Network]:* 의 제품에 대한 제품 광고를 표시합니다. [!DNL Microsoft Merchant Center] 제품 카탈로그 — 쇼핑 네트워크
 
 * *[!UICONTROL Audience]:* 에 기본/디스플레이 광고를 표시합니다. [!DNL Microsoft Audience Network]. a) 캠페인을 의 판매자 센터 상점에 연결하여 피드 기반 광고를 자동으로 생성할 수 있습니다. [!UICONTROL Shopping Settings] 섹션 또는 b) 텍스트 에셋 및 업로드된 이미지가 있는 반응형 광고를 만듭니다. 두 옵션 모두 사용자 타깃팅으로 광고 그룹을 만들어야 합니다.
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 
 * *[!UICONTROL Target CPA]:* (검색 네트워크의 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 선택 사항을 기반으로 입찰을 최적화합니다 **[!UICONTROL Target CPA]** (취득당 비용) - 취득(전환)에 대해 지불할 30일 평균 금액입니다. **참고:** 지출 전략을 사용하는 하이브리드 포트폴리오(표준 포트폴리오는 아님)의 캠페인에 이 옵션을 사용합니다. [!UICONTROL Weekly] 또는 [!UICONTROL Google Target CPA].
 
-   이 입찰 전략이 있는 캠페인에는 평균 위치 및 CPC 입찰 데이터를 사용할 수 없습니다.
+  이 입찰 전략이 있는 캠페인에는 평균 위치 및 CPC 입찰 데이터를 사용할 수 없습니다.
 
 * *[!UICONTROL Target Impression Share]:* (검색 네트워크의 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 타겟 노출 점유율 및 광고 위치를 달성하기 위해 입찰을 최적화합니다. 다음을 입력합니다(선택적). **[!UICONTROL Target Impression Share]** 백분율로, **[!UICONTROL Target Ad Position]**, 및 **[!UICONTROL Max CPC]** (클릭당 비용) **참고:** 이 옵션은 하이브리드 포트폴리오에서 지원되지 않습니다.
 
 * *[!UICONTROL Target Return on Ad Spend]:*  (검색 및 쇼핑 네트워크의 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 다음을 기반으로 입찰을 최적화합니다. **[!UICONTROL Target ROAS]** (광고 투자 수익률), 백분율로 지정됩니다. 다음을 입력합니다(선택적). **[!UICONTROL Max CPC]** (클릭당 비용) 광고 네트워크가 클릭당 특정 금액 이상을 지불하지 않도록 하기 위한 것입니다. **참고:** 지출 전략을 사용하는 하이브리드 포트폴리오(표준 포트폴리오는 아님)의 캠페인에 이 옵션을 사용합니다. [!UICONTROL Weekly] 또는 [!UICONTROL Google Target ROAS].
 
-   이 입찰 전략이 있는 캠페인에는 평균 위치 및 CPC 입찰 데이터를 사용할 수 없습니다.
+  이 입찰 전략이 있는 캠페인에는 평균 위치 및 CPC 입찰 데이터를 사용할 수 없습니다.
 
 ## [!UICONTROL Shopping Settings]
 
@@ -180,4 +180,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [캠페인 관리](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

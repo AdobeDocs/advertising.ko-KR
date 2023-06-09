@@ -9,9 +9,9 @@ user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광�
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: false
 hide: true
-source-git-commit: 71ffe30ca09a2be0def70fc230a4bfa7616c7bfa
+source-git-commit: 72dd7a51e024057a1135fa0cc641b236254c28d8
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
       + [s_kwcid 추적 매개 변수](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + 전환 추적 {#conversion-tracking}
       + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe Advertising 전환 추적 {#advertising-conversion-tracking}
+      + Adobe 광고 전환 추적 {#advertising-conversion-tracking}
          + [Adobe 광고 전환 추적 태그 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [JavaScript 전환 추적 태그 버전 3의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript 전환 추적 태그 버전 2의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
@@ -222,7 +222,6 @@ ht-degree: 0%
             + [다음에 대한 필수 일괄 시트 데이터 [!DNL Yandex] 계정](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + 인벤토리 피드를 사용하여 캠페인 데이터 자동화 {#inventory-feeds}
          + [인벤토리 피드를 사용한 광고 관리 자동화 정보](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
-         + [재고 피드를 사용한 캠페인 데이터 관리 워크플로우](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-workflow.md)
          + [계정 구성 요소는 언제 재고 피드에서 생성되거나 삭제됩니까?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
          + [피드 데이터 설정 구성](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
          + [피드 파일 관리](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)

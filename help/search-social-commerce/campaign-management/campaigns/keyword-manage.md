@@ -1,7 +1,7 @@
 ---
 title: 바인딩 가능한 키워드 관리
 description: 검색 광고 그룹에 사용할 수 있는 키워드를 만들고 관리하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -22,8 +22,7 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
-1. 
-   1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기").
+1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기").
 
 1. 광고 네트워크, 계정, 캠페인 및 광고 그룹을 선택한 다음 를 클릭합니다 **[!UICONTROL Continue]**.
 
@@ -77,4 +76,3 @@ ht-degree: 0%
 >* [[!DNL Yandex] 키워드 설정](keyword-settings-yandex.md)
 >* [부정적인 키워드 만들기](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [키워드 및 부정적 키워드의 상태 변경](keyword-status-edit.md)
-

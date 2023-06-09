@@ -1,9 +1,9 @@
 ---
 title: 이 안내서 정보
 description: 이 안내서의 각 장에서 다루는 내용을 알아봅니다.
-source-git-commit: 0b5a3e0e633e5d93ba048da7e4931f4bd777e1b0
+source-git-commit: b857bae4ea175c446072f5dacf82db3845993a45
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * &quot;캠페인 관리&quot;에서는 광고 네트워크 계정에 대한 캠페인 구성 요소를 설정하고 관리하는 방법을 설명합니다.
 
-* &quot;인사이트 및 보고서&quot;에서는 광고 인사이트 생성, 세부 보고서 생성 및 보고서 프로덕션 자동화, 경고 생성 및 모니터링, 광고주 계정에 대한 변경 사항 로그 보기, 보기 및 적용 방법을 설명합니다 [!DNL Google Ads]계정에 대해 생성된 권장 사항입니다.
+* &quot;인사이트 및 보고서&quot;에서는 광고 인사이트 생성, 세부 보고서 생성 및 보고서 프로덕션 자동화, 경고 생성 및 모니터링, 광고주 계정에 대한 변경 사항 로그 보기, 계정에 대해 광고 네트워크에서 생성한 권장 사항 보기 및 적용 방법을 설명합니다.
 
 * &quot;도구&quot;에서는 암호를 변경하고 도구를 사용하여 클릭 추적 및 전환 추적 태그를 생성하고 전환 지표를 업로드하는 방법을 설명합니다. [!DNL Google Ads] 하이브리드 최적화를 위해 광고 네트워크에 대한 포트폴리오 목표, 추적 캠페인을 위한 지표 업로드 및 복제 [!DNL Google Ads] 의 캠페인 [!DNL Microsoft Advertising] 계정.
 

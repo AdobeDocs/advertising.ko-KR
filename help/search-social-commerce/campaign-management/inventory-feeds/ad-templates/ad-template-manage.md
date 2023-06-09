@@ -1,9 +1,9 @@
 ---
 title: 인벤토리 피드에 대한 광고 템플릿 관리
 description: 계정 구조를 관리하고 동적 광고를 게재하기 위해 인벤토리 데이터를 처리할 수 있는 광고 템플릿 관리에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ ht-degree: 0%
       1. 복사할 템플릿 옆에 있는 확인란을 선택합니다.
 
       1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Create/Clone]**&#x200B;를 클릭한 다음 해당 광고 네트워크를 선택합니다.
-   * (기존 템플릿을 편집하려면) 템플릿 이름 옆에 있는 ![설정 보기/편집](/help/search-social-commerce/assets/settings.png "설정 보기/편집").
 
+   * (기존 템플릿을 편집하려면) 템플릿 이름 옆에 있는 ![설정 보기/편집](/help/search-social-commerce/assets/settings.png "설정 보기/편집").
 
 1. 다음에 대한 설정 지정 [텍스트 광고 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] 쇼핑 광고 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), 또는 [[!DNL Microsoft® Advertising] 쇼핑 광고 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
    1. (선택 사항) 왼쪽 열에서 템플릿을 통해 데이터를 전파할 제품 피드 파일 또는 머천트 센터 계정을 지정합니다.
 
-      * (제품 피드 파일의 경우) 이전에 업로드한 파일을 선택하려면 ![아래쪽 화살표](/help/search-social-commerce/assets/arrow-down-dropdown.png "아래쪽 화살표") 사용 가능한 피드 파일 목록에서 파일을 선택합니다. 새 파일을 업로드하려면 전체 경로와 파일 이름을 입력하거나 **[!UICONTROL Browse]** 을 클릭하여 장치 또는 네트워크에서 파일을 찾은 다음 **[!UICONTROL Upload]**.
+      * (제품 피드 파일의 경우) 이전에 업로드한 파일을 선택하려면 ![아래쪽 화살표](/help/search-social-commerce/assets/arrow-down-dropdown.png "아래쪽 화살표") 사용 가능한 피드 파일 목록에서 파일을 선택합니다. 새 파일을 업로드하려면 전체 경로와 파일 이름을 입력하거나 을 클릭하여 파일을 지정합니다. **[!UICONTROL Browse]** 을 클릭하여 장치 또는 네트워크에서 파일을 찾은 다음 **[!UICONTROL Upload]**.
 
       * (동기화된 머천트 센터 계정의 경우) 계정 이름을 선택합니다.
 
@@ -66,7 +66,6 @@ ht-degree: 0%
       >* 각 광고 그룹에는 최대 3개의 활성화된 반응형 검색 광고가 포함될 수 있습니다.
       >* 기존 표준 텍스트 광고 변형을 편집할 수 없으며, 기존 템플릿은 더 이상 표준 텍스트 광고를 생성하지 않습니다.
       >* 광고 변형 템플릿을 변경하면 템플릿 전체에 데이터를 전파할 때 기존 광고가 삭제되고 새 광고가 생성될 수 있습니다. [광고 유형 및 광고 네트워크에 따라](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
-
 
       * 광고 변형을 추가하려면 다음 작업을 수행하십시오.
 
@@ -107,6 +106,7 @@ ht-degree: 0%
                >* 각 광고 복사 필드에 대해 최대 4개의 대체를 지정할 수 있습니다.
 
          * 광고 변형을 제거하려면 **[!UICONTROL Remove ETA Variation]** (확장된 텍스트 광고의 경우) 또는 **[!UICONTROL Remove RSA Variation]** (반응형 검색 광고의 경우) 해당 항목 옆에 있습니다.
+
    1. (쇼핑 템플릿만 해당) **[!UICONTROL Product Groups]** 을 탭한 다음 타깃팅할 제품 그룹에 대한 정보를 지정합니다.
 
    1. (선택 사항) **[!UICONTROL Feed Filters]** 를 탭한 다음 전파할 피드 파일의 행을 지정합니다.
@@ -120,10 +120,6 @@ ht-degree: 0%
          1. 클릭 **[!UICONTROL Add Label Classification]**.
 
          1. 레이블 분류를 선택한 다음 기존 값을 선택하거나 새 값을 입력합니다.
-
-
-
-
 
 1. 템플릿을 저장합니다.
 
@@ -158,9 +154,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [인벤토리 피드를 사용한 광고 관리 자동화 정보](../inventory-feeds-about.md)
->* [재고 피드를 사용한 캠페인 데이터 관리 워크플로우](../inventory-feeds-workflow.md)
 >* [텍스트 광고 및 반응형 검색 광고 템플릿 설정](template-text-rsa.md)
 >* [[!DNL Google Ads] 쇼핑 광고 템플릿 설정](template-google-shopping.md)
 >* [[!DNL Microsoft® Advertising] 쇼핑 광고 템플릿 설정](template-microsoft-shopping.md)
 >* [템플릿을 통해 피드 데이터 전파](../feed-data-propagate.md)
-

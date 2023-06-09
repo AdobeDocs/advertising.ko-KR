@@ -1,9 +1,9 @@
 ---
 title: 인벤토리 피드에 대한 텍스트 광고 및 반응형 검색 광고 템플릿 설정
 description: 재고 피드에 대한 텍스트 광고 및 반응형 검색 광고 템플릿에 대한 설정을 참조하십시오.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3329'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 >
 >* 다음 문자는 템플릿에서 열 이름 및 수정자 이름을 지정하기 위해 예약되므로 모든 속성 필드에 텍스트로 사용할 수 없습니다.  `[ ] < > `
 >* 위치 [!DNL Yandex templates], 동적 매개 변수를 사용할 수 있습니다 `{param1}` 및 `{param2}` url에서만 사용할 수 있으며 광고 설명에서는 동적 가격 삽입을 사용할 수 없습니다.
-
 
 ## \[모든 탭 위로\]
 
@@ -107,7 +106,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search]:* 스폰서 검색 목록에 대한 입찰을하는 방법.
 
-   ([!DNL Google Ads] 캠페인) 다음에 대한 목록에 입찰을 포함합니다. [!DNL Google Ads] 파트너 검색 옆에 있는 확인란을 선택합니다. **[!UICONTROL Search partners]**.
+  ([!DNL Google Ads] 캠페인) 다음에 대한 목록에 입찰을 포함합니다. [!DNL Google Ads] 파트너 검색 옆에 있는 확인란을 선택합니다. **[!UICONTROL Search partners]**.
 
 * *[!UICONTROL Content]:* 컨텐츠(디스플레이) 네트워크 목록에 배치 입찰을 진행합니다. **참고:** 템플릿을 사용하여 배치를 만들 수 없습니다. 이 옵션을 선택하는 경우 각 광고 그룹에 대한 배치를 만들고 다음 중 하나를 사용하여 각 광고 그룹에 대해 타깃팅할 표시 네트워크의 페이지를 지정합니다 <!-- insert link --> bulksheets 또는 <!-- insert links --> 의 광고 그룹 및 배치 설정 [!UICONTROL Search] > [!UICONTROL Campaigns] 보기.
 
@@ -139,7 +138,7 @@ Adobe 설정에 &quot;EF 리디렉션&quot; 및 &quot;자동 업로드&quot;가 
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다. 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 
-* Yahoo! 일본 광고 계정에서는 {lpurl} 매개 변수를 사용하십시오.
+* Yahoo! 일본 광고 계정, 매개 변수 사용 {lpurl}.
 
 * Microsoft® Advertising 및 Google Ads 계정에 사용할 수 있는 매개 변수는 [[!DNL Microsoft® Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 의 &quot;Available ValueTrack Parameters&quot;에 있는 &quot;Tracking template only&quot; 매개 변수가 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348).
 
@@ -171,7 +170,7 @@ Adobe 설정에 &quot;EF 리디렉션&quot; 및 &quot;자동 업로드&quot;가 
 
    * 정적 키워드의 경우: Broad Match = `keyword`, 광범위한 일치 수정자 = `+keyword`, 또는 구 일치 = `"keyword"`
 
-      정적 키워드는 대괄호( )로 둘러싸여 있으므로 여기에 정확한 일치 및 표준 일치 구문을 사용하여 입력할 수 없습니다.`[]`), 즉 동적 매개 변수가 있습니다.
+     정적 키워드는 대괄호( )로 둘러싸여 있으므로 여기에 정확한 일치 및 표준 일치 구문을 사용하여 입력할 수 없습니다.`[]`), 즉 동적 매개 변수가 있습니다.
 
 * 대상 [!DNL Yandex] 템플릿:
 
@@ -186,7 +185,6 @@ Adobe 설정에 &quot;EF 리디렉션&quot; 및 &quot;자동 업로드&quot;가 
 * 음수 일치는 지원되지 않습니다.
 * 이제 Google broad match 수정자는 일부 언어에 대해 구문 일치와 동일한 일치 동작을 가지며 새 broad match 수정자 키워드를 만들 수 없습니다. 다음을 참조하십시오. [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/10286719) 추가 정보.
 
-
 **[!UICONTROL Map Only]:** 광고 그룹(또는 캠페인)에 새 광고 추가 [!DNL Yandex] accounts)를 사용하여 새 키워드를 만들지 않고 지정된 키워드를 찾을 수 있습니다. 이 옵션을 활성화하려면 확인란을 선택합니다. 이 옵션을 활성화하면 키워드가 존재하기 때문에 지정된 키워드에 있는 모든 Param 1 및 Param 2 변수가 적용되지 않습니다.
 
 **[!UICONTROL Keyword Final URL]:** (최종/고급 URL이 있는 계정, 선택 사항) 광고 네트워크 사용자가 광고를 클릭할 때 사용하는 랜딩 페이지 URL입니다. 표시 URL과 동일한 도메인을 포함해야 하며 최종 URL의 모든 매개 변수는 광고 클릭 후 랜딩 페이지 URL의 매개 변수와 일치해야 합니다. 랜딩 페이지 도메인 또는 하위 도메인 내에는 리디렉션이 포함될 수 있지만 랜딩 페이지 도메인 외부에는 리디렉션이 포함되지 않습니다.
@@ -194,9 +192,9 @@ Adobe 설정에 &quot;EF 리디렉션&quot; 및 &quot;자동 업로드&quot;가 
 를 사용하는 경우 [!DNL Google Merchant Center] 을(를) 피드하고 이 값을 &quot;에 포함[!DNL Link]&quot;열, 이 필드에 해당 열을 삽입합니다.
 
 >[!NOTE]
+>
 * 템플릿을 통해 전파된 데이터를 게시할 때 추적 URL을 생성하는 경우 계정 추적 설정을 기반으로 추적 매개 변수가 이 값에 추가됩니다.
 * ([!DNL Google Ads] 계정) 병렬 추적을 활성화하는 소스의 클릭에 대체되지 않는 매크로를 사용하지 마십시오. 광고주가 매크로를 사용해야 하는 경우 Adobe 계정 팀은 고객 지원 팀 또는 구현 팀과 협력하여 매크로를 추가해야 합니다.
-
 
 **[!UICONTROL Keyword Tracking Template]:** (최종/고급 URL이 있는 계정, 선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 추적 템플릿입니다. 가장 세부적인 수준의 추적 템플릿(키워드를 가장 세부적인 수준으로 사용)은 다른 모든 수준의 값을 재정의합니다.
 
@@ -327,9 +325,9 @@ Adobe 설정에 &quot;EF 리디렉션&quot; 및 &quot;자동 업로드&quot;가 
 를 사용하는 경우 [!DNL Google Merchant] 피드 중앙에 놓고 이 값을 &quot;&quot;에 포함[!UICONTROL Link]&quot;열, 이 필드에 해당 열을 삽입합니다.
 
 >[!NOTE]
+>
 * 템플릿을 통해 전파된 데이터를 게시할 때 추적 URL을 생성하는 경우 계정 추적 설정에 따라 추적 매개 변수가 이 값에 추가됩니다.
 * ([!DNL Google Ads] 계정 ) 병렬 추적을 활성화하는 소스의 클릭에 대체되지 않는 매크로를 사용하지 마십시오. 광고주가 매크로를 사용해야 하는 경우 Adobe 계정 팀은 고객 지원 팀 또는 구현 팀과 협력하여 매크로를 추가해야 합니다.
-
 
 **[!UICONTROL Tracking Template]:** (최종/고급 URL이 있는 계정, 선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 추적 템플릿입니다. 가장 세부적인 수준의 추적 템플릿(키워드를 가장 세부적인 수준으로 사용)은 다른 모든 수준의 값을 재정의합니다.
 
@@ -337,17 +335,17 @@ Adobe 설정에 &quot;EF 리디렉션&quot; 및 &quot;자동 업로드&quot;가 
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다. 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 
-* Yahoo! 일본 광고 계정에서는 {lpurl} 매개 변수를 사용하십시오.
+* Yahoo! 일본 광고 계정, 매개 변수 사용 {lpurl}.
 
 * Microsoft® Advertising 및 Google Ads 계정에 사용할 수 있는 매개 변수는 [[!DNL Microsoft® Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 의 &quot;Available ValueTrack Parameters&quot;에 있는 &quot;Tracking template only&quot; 매개 변수가 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348).
 
 **\[원래 광고 필드 아래에 대체 광고 필드가 있습니다\]:** (선택 사항) 광고에 대한 대체 광고 사본 세트로서, 전달 중에 동적 매개 변수가 데이터로 채워지면 원래 광고 사본의 라인이 허용된 최대 길이를 초과하는 경우 사용할 수 있습니다.
 
 >[!NOTE]
+>
 * 다음과 같은 경우 [!UICONTROL Prefill] 옵션을 선택한 다음 대체 필드에 원본 필드가 미리 채워지고 필요에 따라 편집할 수 있습니다.
 * 최대 길이를 초과하는 광고 복사 필드만 대체 값으로 바뀝니다. 예를 들어 원래 헤드라인이나 제목만 너무 긴 경우 생성된 광고 변형은 대체 헤드라인이나 제목과 원래 설명을 사용합니다. 따라서 대체 광고 사본을 원본 광고 사본과 결합할 때 적절한지 확인하십시오.
 * 원본 광고 사본이 검색 엔진의 길이 요구 사항을 충족하면 대체 광고 사본은 무시됩니다.
-
 
 **\[Component\] [!UICONTROL Ad Label Classifications] > \[레이블 분류 및 값\]:** (선택 사항) 템플릿을 사용하여 만들거나 편집한 광고 변형에 지정할 최대 5개의 기존 레이블 분류에 대한 값입니다. 레이블 분류를 지정할 각 캠페인 구성 요소에 대해 다음을 수행합니다.
 
@@ -384,10 +382,9 @@ Adobe 설정에 &quot;EF 리디렉션&quot; 및 &quot;자동 업로드&quot;가 
 {{$include /help/_includes/inventory-feed-template-label-classifications.md}}
 
 >[!MORELIKETHIS]
+>
 * [인벤토리 피드를 사용한 광고 관리 자동화 정보](../inventory-feeds-about.md)
-* [재고 피드를 사용한 캠페인 데이터 관리 워크플로우](../inventory-feeds-workflow.md)
 * [수정자 관리](../modifiers-manage.md)
 * [인벤토리 데이터 피드 파일 관리](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 * [템플릿을 통해 피드 데이터 전파](../feed-data-propagate.md)
 * [인벤토리 피드에서 광고 네트워크로 캠페인 데이터 게시](../propagated-data-post.md)
-

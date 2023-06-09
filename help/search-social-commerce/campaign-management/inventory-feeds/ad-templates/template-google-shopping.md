@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Google Ads] 재고 피드에 대한 쇼핑 광고 템플릿 설정"
 description: 다음에 대한 설정 참조 [!DNL Google Ads] 재고 피드에 대한 쇼핑 광고 템플릿.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 다음 문자는 템플릿에서 열 이름 및 수정자 이름을 지정하기 위해 예약되므로 모든 속성 필드에 텍스트로 사용할 수 없습니다.  `[ ] < > `
-
 
 ## \[모든 탭 위로\]
 
@@ -115,7 +114,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]:** (선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 광고 그룹 수준의 추적 템플릿입니다. 이 값은 계정 및 캠페인 수준 설정을 무시하지만 더 세분화된 수준에서 추적 템플릿이 이 값을 무시합니다.
 
-Adobe 광고 전환 추적의 경우 값을 입력할 필요가 없습니다. 캠페인 수준 값이면 충분합니다.
+Adobe Advertising 전환 추적의 경우 값을 입력할 필요가 없습니다. 캠페인 수준 값이면 충분합니다.
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다.
 
@@ -137,7 +136,7 @@ Adobe 광고 전환 추적의 경우 값을 입력할 필요가 없습니다. �
 
 **[!UICONTROL Tracking Template]:** (하위 제품 그룹이 없는 단위, 선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 ValueTrack 매개 변수에 최종 URL을 임베드하는 제품 그룹에 대한 추적 템플릿입니다. 이 템플릿은 상위 수준의 템플릿을 무시합니다.
 
-Adobe 광고 전환 추적의 경우 값을 입력할 필요가 없습니다. 캠페인 수준 값이면 충분합니다.
+Adobe Advertising 전환 추적의 경우 값을 입력할 필요가 없습니다. 캠페인 수준 값이면 충분합니다.
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다.
 
@@ -158,9 +157,7 @@ Adobe 광고 전환 추적의 경우 값을 입력할 필요가 없습니다. �
 >[!MORELIKETHIS]
 >
 >* [인벤토리 피드를 사용한 광고 관리 자동화 정보](../inventory-feeds-about.md)
->* [재고 피드를 사용한 캠페인 데이터 관리 워크플로우](../inventory-feeds-workflow.md)
 >* [수정자 관리](../modifiers-manage.md)
 >* [인벤토리 데이터 피드 파일 관리](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [템플릿을 통해 피드 데이터 전파](../feed-data-propagate.md)
 >* [인벤토리 피드에서 광고 네트워크로 캠페인 데이터 게시](../propagated-data-post.md)
-
