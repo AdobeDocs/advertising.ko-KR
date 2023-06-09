@@ -1,9 +1,9 @@
 ---
 title: 만들기 [!DNL Google Ads] 의 고객 일치 대상 [!DNL Adobe] 대상
 description: 만드는 방법 알아보기 [!DNL Google Ads] 기존 Adobe Analytics의 대상과 Audience Manager 대상의 대상을 고객이 일치시킵니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    1. (사용자 ID 리마케팅 목록 대상자를 만들려면) [!DNL Adobe] 관리자 사용자 또는 계정 관리자가 광고주 수준 설정을 선택하여 고객 일치 대상을 활성화해야 합니다. 설정은 Audience Manager이 있는 광고주와 가 있는 광고주마다 다릅니다. [!DNL Analytics] 만 해당.
 
-   1. 구현 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) 버전 2.0 이상
+   1. 구현 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 버전 2.0 이상
 
    1. 대상자를 추적해야 하는 광고주의 웹 페이지에 가능한 한 높은 다음 태그를 배포합니다
 
@@ -80,11 +80,9 @@ ht-degree: 0%
 >
 >* 다음을 참조하십시오 [[!DNL Google Ads] 고객 일치 작동 방식 및 제한 사항에 대한 설명서](https://support.google.com/displayvideo/answer/9539301).
 
-
 >[!MORELIKETHIS]
 >
 >* [대상자 기본 정보](audience-about.md)
 >* [만들기 [!DNL Google Ads] Adobe Campaign 이메일 목록의 고객 일치 대상](google-audience-from-campaign-email-list.md)
 >* [고객 데이터 목록을 사용하여 고객 일치 대상 관리](audience-from-customer-data-list.md)
 >* [동적 리마케팅 대상자 관리](audience-dynamic-remarketing-manage.md)
-
