@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Campaign Assist Report]"
 description: 에 대해 알아보기 [!UICONTROL Campaign Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 다음은 각 보고서에 사용할 수 있는 열입니다. 기본 열은 기본적으로 자동으로 포함됩니다. 보고서 설정의 열 섹션에서 사용 가능한 사용자 정의 열을 추가할 수 있습니다.
 
 | 열 | 기본? | 설명 |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Campaign] 끝 [!UICONTROL 5th Campaign] | 기본값 | 광고주 내에서 발생한 전환 경로의 가장 빠른 캠페인 5개 [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j).<br><br>개체 이름 뒤에 광고 네트워크, 계정 이름 또는 이벤트 유형을 나타내는 보고서 옵션을 포함시킨 경우 해당 정보가 캠페인 이름 뒤에 포함됩니다(예: `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | [!UICONTROL Path Size] | 기본값 | 광고주 내에서 발생한 전환 경로의 캠페인 수 [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Campaign] | 기본값 | 전환 경로의 첫 번째 캠페인. |
@@ -57,4 +57,3 @@ ht-degree: 0%
 >* [다음 [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [보고서 설정 지원](assist-report-settings.md)
 >* [지원 보고서 생성](assist-report-generate.md)
-

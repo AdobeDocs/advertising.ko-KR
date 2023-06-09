@@ -1,7 +1,7 @@
 ---
 title: 보고서에 대한 FAQ
 description: 데이터 문제 해결을 포함하여 성능 보고서에 대한 일반적인 질문에 대한 답변을 살펴볼 수 있습니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
 workflow-type: tm+mt
 source-wordcount: '3917'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 * 사이트 링크는 다음과 같이 나열됩니다. `sl:<Sitelink text>`, 예: `sl:See Current Offers`.
 
-   다음을 포함하는 경우 사이트 링크를 식별할 수도 있습니다. [!UICONTROL Tracking URL] 열. 다음 [!UICONTROL Tracking URL] 사이트링크의 경우 속성 포함 `&ev_ltx=sl:<link-name>`.
+  다음을 포함하는 경우 사이트 링크를 식별할 수도 있습니다. [!UICONTROL Tracking URL] 열. 다음 [!UICONTROL Tracking URL] 사이트링크의 경우 속성 포함 `&ev_ltx=sl:<link-name>`.
 
 >[!NOTE]
 >
@@ -75,11 +75,11 @@ ht-degree: 0%
 
 * 클릭 날짜 기반 데이터가 지정된 날짜 범위를 벗어날 수 있습니다.
 
-   보고서 매개 변수 &quot;를 사용하는 경우[!UICONTROL Conversions based on click date],&quot; 그러면 지정된 날짜 범위가 트랜잭션 날짜 대신 클릭 날짜에 적용됩니다. 또한 보고서에서 속성 규칙 &quot;첫 번째 이벤트&quot; 또는 &quot;마지막 이벤트&quot;를 사용하는 경우 전환을 초래한 첫 번째 또는 마지막 이벤트가 지정된 날짜 범위를 벗어날 수 있습니다. 예를 들어 사용자가 4월 30일에 Keyword_1을 클릭하고 5월 20일에 Keyword_2를 클릭한 다음 5월 21일에 전환되었다고 가정해 보십시오. 보고서에서 &quot;를 사용하는 경우[!UICONTROL First Event]&quot;속성 규칙과 날짜 범위가 5월 1일부터 21일까지인 경우 첫 번째 이벤트(4월 30일에 Keyword_1 클릭)는 보고서에 포함되지 않습니다. 동일한 날짜 범위로 보고서를 실행하지만[!UICONTROL Last Event]&quot;속성 규칙, 그러면 마지막 클릭이 지정된 날짜 범위 내에서 발생했으므로 전환이 보고서에 포함됩니다.
+  보고서 매개 변수 &quot;를 사용하는 경우[!UICONTROL Conversions based on click date],&quot; 그러면 지정된 날짜 범위가 트랜잭션 날짜 대신 클릭 날짜에 적용됩니다. 또한 보고서에서 속성 규칙 &quot;첫 번째 이벤트&quot; 또는 &quot;마지막 이벤트&quot;를 사용하는 경우 전환을 초래한 첫 번째 또는 마지막 이벤트가 지정된 날짜 범위를 벗어날 수 있습니다. 예를 들어 사용자가 4월 30일에 Keyword_1을 클릭하고 5월 20일에 Keyword_2를 클릭한 다음 5월 21일에 전환되었다고 가정해 보십시오. 보고서에서 &quot;를 사용하는 경우[!UICONTROL First Event]&quot;속성 규칙과 날짜 범위가 5월 1일부터 21일까지인 경우 첫 번째 이벤트(4월 30일에 Keyword_1 클릭)는 보고서에 포함되지 않습니다. 동일한 날짜 범위로 보고서를 실행하지만[!UICONTROL Last Event]&quot;속성 규칙, 그러면 마지막 클릭이 지정된 날짜 범위 내에서 발생했으므로 전환이 보고서에 포함됩니다.
 
 * 포트폴리오 필터 선택 사항에서는 전환으로 이어지는 일부 이벤트가 제외됩니다.
 
-   포트폴리오의 하위 집합에 대해 보고하는 경우 속성 규칙 중 하나에 전환이 귀속된 이벤트를 포함한 캠페인을 포함하지 않을 수 있습니다. 예를 들어 사용자가 Keyword_1에서 Portfolio_1을 클릭하고 Portfolio_2에서 키워드_2를 클릭한 다음 를 변환한다고 가정해 봅시다. 보고서에서 &quot;를 사용하는 경우[!UICONTROL First Event]&quot;속성 규칙을 설정한 경우 전환에 대한 Portfolio_1이 보고서에 포함되어야 합니다. 그러나 보고서에서 &quot;마지막 이벤트&quot; 속성 규칙을 사용하는 경우 Portfolio_2를 포함해야 합니다.
+  포트폴리오의 하위 집합에 대해 보고하는 경우 속성 규칙 중 하나에 전환이 귀속된 이벤트를 포함한 캠페인을 포함하지 않을 수 있습니다. 예를 들어 사용자가 Keyword_1에서 Portfolio_1을 클릭하고 Portfolio_2에서 키워드_2를 클릭한 다음 를 변환한다고 가정해 봅시다. 보고서에서 &quot;를 사용하는 경우[!UICONTROL First Event]&quot;속성 규칙을 설정한 경우 전환에 대한 Portfolio_1이 보고서에 포함되어야 합니다. 그러나 보고서에서 &quot;마지막 이벤트&quot; 속성 규칙을 사용하는 경우 Portfolio_2를 포함해야 합니다.
 
 >[!TIP]
 >
@@ -152,9 +152,9 @@ ht-degree: 0%
 
 +++보고서에서 수입이 누락되었습니다.
 
-### Adobe 광고 전환 태그를 사용하는 광고주
+**Adobe 광고 전환 태그를 사용하는 광고주**
 
-#### 가능한 원인
+*가능한 원인:*
 
 * 추적 템플릿 또는 대상 URL에 검색, 소셜 및 상거래 클릭 추적 접두사를 접두사로 추가하지 않고 키워드나 광고를 추가했거나 추적 접두사가 잘못되었습니다.
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 * 클라이언트에 대한 매출 파서가 구현되지 않았습니다.
 
-#### 가능한 해결 방법 또는 해결 방법
+*가능한 해결 방법 또는 해결 방법:*
 
 1. 보고서 또는 데이터 보기에 올바른 열이 포함되어 있는지 확인합니다. 올바른 열을 추가할 수 없는 경우 사용자 또는 Adobe 계정 팀은 [트랜잭션 속성을 보고서에서 사용할 수 있도록 설정](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -180,9 +180,9 @@ ht-degree: 0%
 
    클라이언트를 시작하지 않았거나 새로 시작한 경우 고객 지원에서 매출 파서가 설정되었는지 확인합니다. 파서가 설정되면 Search, Social 및 Commerce에서 픽셀 변환을 받는지 확인하고 문제를 해결합니다.
 
-### 전환 데이터 피드를 보내는 광고주
+**전환 데이터 피드를 보내는 광고주**
 
-#### 가능한 원인
+*가능한 원인:*
 
 * 피드 파일이 게재되지 않았거나, 완전히 구문 분석되지 않았거나, 피드에 고아 트랜잭션이 포함되어 있습니다.
 
@@ -192,7 +192,7 @@ ht-degree: 0%
 >
 >데이터는 일반적으로 피드를 받은 후 2~4시간이 지나야 사용자 인터페이스에 표시됩니다.
 
-#### 가능한 해결 방법 또는 해결 방법
+*가능한 해결 방법 또는 해결 방법:*
 
 1. 보고서 또는 데이터 보기에 올바른 열이 포함되어 있는지 확인합니다. 올바른 열을 추가할 수 없는 경우 사용자 또는 Adobe 계정 팀은 [트랜잭션 속성을 보고서에서 사용할 수 있도록 설정](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -208,14 +208,14 @@ ht-degree: 0%
 +++
 
 +++일부 고급 보고서에는 광고주 피드에서 제공한 전환 데이터가 포함되지 않습니다.
-다음 [!UICONTROL Geo Distribution Report] 및 [!UICONTROL Domain Referral Report] Adobe Advertising 전환 추적 서비스를 통해 캡처한 데이터를 사용하며, 해당 서비스를 사용하는 광고주에게만 생성될 수 있습니다. 보고서에는 Adobe 광고 전환 추적 시스템 외부에서 추적되는 전환 데이터가 포함되지 않습니다.
+다음 [!UICONTROL Geo Distribution Report] 및 [!UICONTROL Domain Referral Report] Adobe Advertising 전환 추적 서비스를 통해 캡처한 데이터를 사용하며 해당 서비스를 사용하는 광고주에게만 생성될 수 있습니다. 보고서에는 Adobe 광고 전환 추적 시스템 외부에서 추적되는 전환 데이터가 포함되지 않습니다.
 +++
 
 +++매출 데이터는 광고주 자신의 매출 데이터와 다릅니다.
 
-### Adobe 광고 전환 태그를 사용하는 광고주
+**Adobe 광고 전환 태그를 사용하는 광고주**
 
-#### 가능한 원인
+*가능한 원인:*
 
 * Search, Social 및 Commerce는 쿠키가 만료되거나 삭제될 때의 수입을 무시하지만 광고주는 이를 유효한 수입으로 간주할 수 있습니다.
 
@@ -223,7 +223,7 @@ ht-degree: 0%
 
 * 변환 추적 태그가 적용 가능한 모든 웹 페이지에서 올바르게 구현되지 않거나 편집되었습니다.
 
-#### 가능한 해결 방법 또는 해결 방법
+*가능한 해결 방법 또는 해결 방법:*
 
 1. 다음으로 이동 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** 및 생성 [!UICONTROL Transaction Report]. 검색, 소셜 및 상거래가 수신한 거래를 광고주의 데이터와 비교합니다.
 
@@ -235,13 +235,13 @@ ht-degree: 0%
 
    고객 지원 센터는 누락된 거래를 식별한 다음 고아 거래 및 광고에서 발생하지 않은 거래(&quot;상관 관계가 없는 전환&quot;)를 확인합니다.
 
-### 를 사용하는 전환 데이터 피드가 있는 광고주 `ef_id` 값
+**를 사용하는 전환 데이터 피드가 있는 광고주 `ef_id` 값**
 
 위의 픽셀 구현에 대해 가능한 원인 및 솔루션을 참조하십시오.
 
-### 거래 ID를 사용하는 전환 데이터 피드가 있는 광고주
+**거래 ID를 사용하는 전환 데이터 피드가 있는 광고주**
 
-#### 가능한 원인
+*가능한 원인:*
 
 * Search, Social 및 Commerce는 쿠키가 만료되거나 삭제될 때 수익을 무시하지만 광고주는 이를 유효한 수익으로 간주할 수 있습니다.
 
@@ -249,7 +249,7 @@ ht-degree: 0%
 
 * 동일한 거래 ID로 온라인 거래가 발생하기 전에 오프라인 전환이 보고되었습니다. 온라인 거래가 먼저 이루어져야 합니다.
 
-#### 가능한 해결 방법 또는 해결 방법
+*가능한 해결 방법 또는 해결 방법:*
 
 1. 다음으로 이동 **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** 및 생성 [!UICONTROL Transaction Report]. 검색, 소셜 및 상거래가 수신한 거래를 광고주의 피드 데이터와 비교합니다.
 
@@ -259,9 +259,9 @@ ht-degree: 0%
 
    고객 지원 센터에서 데이터 구문 분석 오류 및 [고립 트랜잭션](/help/search-social-commerce/glossary.md#o-p).
 
-### 다른 유형의 전환 데이터 피드가 있는 광고주
+**다른 유형의 전환 데이터 피드가 있는 광고주**
 
-#### 가능한 원인
+*가능한 원인:*
 
 * Search, Social 및 Commerce는 쿠키가 만료되거나 삭제될 때의 수입을 무시하지만 광고주는 이를 유효한 수입으로 간주할 수 있습니다.
 
@@ -279,7 +279,7 @@ ht-degree: 0%
 
 * 광고주의 중복 제거 로직은 검색, 소셜 및 상거래 로직과 다릅니다.
 
-#### 가능한 해결 방법 또는 해결 방법
+*가능한 해결 방법 또는 해결 방법:*
 
 1. 다음으로 이동 **[!UICONTROL Insights]및[!UICONTROL Reports > Reports]** 및 생성 [!UICONTROL Transaction Report]. 검색, 소셜 및 상거래가 수신한 거래를 광고주의 데이터와 비교합니다.
 
@@ -312,7 +312,7 @@ ht-degree: 0%
 +++
 
 +++위치 [!UICONTROL Transaction Report], 데이터 피드에서 또는 Adobe 광고 추적 픽셀에서 추적되는 거래 속성을 어떻게 알 수 있습니까?
-트랜잭션 보고서에서, 사용자 지정 열 &quot;&quot;을(를) 포함하는 경우 포함된 트랜잭션 속성이 Adobe 광고 추적 픽셀에 의해 추적되었는지 여부를 알 수 있습니다.[!UICONTROL Tracking URL].&quot; Adobe 광고 추적 픽셀이 있는 추적 URL은 &quot;`http://pixel.everesttech.net`.&quot;
+트랜잭션 보고서에서, 사용자 지정 열 &quot;&quot;을(를) 포함하는 경우 포함된 트랜잭션 속성이 Adobe 광고 추적 픽셀에 의해 추적되었는지 여부를 알 수 있습니다.[!UICONTROL Tracking URL].&quot; Adobe Advertising 추적 픽셀이 있는 추적 URL은 &quot;로 시작합니다.`http://pixel.everesttech.net`.&quot;
 +++
 
 +++내 데이터 [!UICONTROL Transaction Report] 이(가) 내 데이터와 일치하지 않음 [!UICONTROL Keyword Report].

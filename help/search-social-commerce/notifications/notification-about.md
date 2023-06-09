@@ -1,7 +1,7 @@
 ---
 title: 알림 기본 정보
 description: 다양한 유형 및 범주를 포함하여 알림에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 1b38a7cd20eb2f9b773d01dc0444f45761b99647
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 * 다음에서: [!UICONTROL Notification Center] 웹 애플리케이션: [!UICONTROL Notification Center] 검색, 소셜 및 커머스 외부의 별도의 창에서.
 
-   애플리케이션이 일반 브라우저 버전보다 빠르게 로드되고 자동으로 업데이트됩니다. 응용 프로그램을 설치하고 브라우저의 앱 관리자를 사용하여 관리할 수 있습니다.
+  애플리케이션이 일반 브라우저 버전보다 빠르게 로드되고 자동으로 업데이트됩니다. 응용 프로그램을 설치하고 브라우저의 앱 관리자를 사용하여 관리할 수 있습니다.
 
 * 을(를) 푸시 알림에서 브라우저로 설정합니다.
 
-   푸시 알림을 활성화하면 브라우저의 알림 규칙에 따라 표시됩니다.
+  푸시 알림을 활성화하면 브라우저의 알림 규칙에 따라 표시됩니다.
 
 알림을 보고, 알림을 읽음 또는 읽지 않음으로 표시하고, 알림을 삭제할 수 있습니다.
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: 다음 알림이 [!UICONTROL Landing Page Suffix] 값이 잘못되거나 누락되거나 잘못된 SKWCID 템플릿을 포함하거나, 하위 수준에서 잘못된 값으로 재정의됩니다.
 
-   * **[!UICONTROL Manager Account Missing ]**: 검색, 소셜 및 상거래에 대한 자격 증명이 누락되었다는 알림 [광고 네트워크 관리자 계정](/help/search-social-commerce/admin/manager-accounts.md): 중요 기능을 올바르게 설정하기 위한 것입니다.
+   * **[!UICONTROL Manager Account Missing]**: 검색, 소셜 및 상거래에 대한 자격 증명이 누락되었다는 알림 [광고 네트워크 관리자 계정](/help/search-social-commerce/admin/manager-accounts.md): 중요 기능을 올바르게 설정하기 위한 것입니다.
 
 * [!UICONTROL Network Errors]
 
@@ -76,4 +76,3 @@ ht-degree: 0%
 >* [알림 설정 편집](notification-edit.md)
 >* [푸시 알림 활성화 및 비활성화 위치 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [설치 및 제거 [!UICONTROL Notification Center] 웹 애플리케이션](notification-app-install-uninstall.md)
-

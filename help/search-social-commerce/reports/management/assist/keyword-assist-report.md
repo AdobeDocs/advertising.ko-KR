@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Keyword Assist Report]"
 description: 에 대해 알아보기 [!UICONTROL Keyword Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 다음은 각 보고서에 사용할 수 있는 열입니다. 기본 열은 기본적으로 자동으로 포함됩니다. 보고서 설정의 열 섹션에서 사용 가능한 사용자 정의 열을 추가할 수 있습니다.
 
 | 열 | 기본? | 설명 |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Keyword] 끝 [!UICONTROL 5th Keyword] | 기본값 | 광고주 내에서 발생한 전환 경로에서 가장 빠른 5개의 유료 검색 키워드 또는 배치 클릭 [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j).<br><br><b>참고:</b> 키워드가 포함되지 않은 콘텐츠 활성화 검색 캠페인의 배치가 보고서에 포함된 경우 이 열에는 대신 &quot;(광고 그룹 콘텐츠) 광고 그룹 이름&quot;과 같은 적용 가능한 광고 그룹 이름이 표시됩니다. |
 | [!UICONTROL Path Size] | 기본값 | 광고주 내에서 발생한 전환 경로의 키워드 및/또는 배치 수 [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | 기본값 | 전환 경로의 첫 번째 키워드 또는 배치입니다. |
@@ -51,4 +51,3 @@ ht-degree: 0%
 >* [다음 [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [보고서 설정 지원](assist-report-settings.md)
 >* [지원 보고서 생성](assist-report-generate.md)
-

@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Channel Assist Report]"
 description: 에 대해 알아보기 [!UICONTROL Channel Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 다음은 각 보고서에 사용할 수 있는 열입니다. 기본 열은 기본적으로 자동으로 포함됩니다. 보고서 설정의 열 섹션에서 사용 가능한 사용자 정의 열을 추가할 수 있습니다.
 
 | 열 | 기본? | 설명 |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Event] 끝 [!UICONTROL 5th Event] | 기본값 | 광고주 내에서 발생한 전환 경로의 5가지 초기 이벤트 유형 [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL Path Size] | 기본값 | 광고주 내에서 발생한 전환 경로의 이벤트 유형 수입니다. [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Event Type] | 기본값 | 전환 경로의 첫 번째(가장 이른) 이벤트의 이벤트 유형입니다. |
@@ -47,4 +47,3 @@ ht-degree: 0%
 >* [다음 [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [보고서 설정 지원](assist-report-settings.md)
 >* [지원 보고서 생성](assist-report-generate.md)
-

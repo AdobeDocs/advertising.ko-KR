@@ -1,14 +1,14 @@
 ---
 title: 속성 규칙 계산 방법
-description: Adobe 광고가 각 기여도 분석 규칙 유형을 계산하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Adobe Advertising이 각 속성 규칙 유형을 계산하는 방법을 알아봅니다.
+source-git-commit: 6436866ae7684a330f74c14e58ee30d365de80a1
 workflow-type: tm+mt
-source-wordcount: '2438'
+source-wordcount: '2431'
 ht-degree: 0%
 
 ---
 
-# Adobe 광고에 대한 속성 규칙 계산 방법
+# Adobe Advertising에 대한 속성 규칙 계산 방법
 
 *Adobe 광고 전환 추적만 있는 광고주*
 
@@ -21,10 +21,9 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 속성 규칙은 모든 채널에서 유료 광고를 클릭하고 디스플레이 및 소셜 광고의 노출에 적용됩니다. 이벤트 수준에서 추적할 수 없는 유료 검색 광고의 노출에는 적용되지 않습니다.
->* Adobe 광고는 전환 전에 항상 각 웹 서퍼에 대해 다음 이벤트를 저장합니다. a) 첫 번째 유료 클릭, b) 첫 번째 클릭을 포함하여 각 채널(검색, 소셜 또는 디스플레이)에 대해 최대 10개의 클릭, c) 최대 10개의 디스플레이 노출. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-
+>* Adobe Advertising은 전환 전에 항상 각 웹 서퍼에 대해 다음 이벤트를 저장합니다. a) 첫 번째 유료 클릭, b) 첫 번째 클릭을 포함하여 각 채널(검색, 소셜 또는 디스플레이)에 대해 최대 10개의 클릭, c) 최대 10개의 디스플레이 노출. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 * Advertising DSP 및 Advertising Creative에서 교차 장치 정의는 선택한 속성 규칙의 이벤트 경로만 고려합니다.<!-- cross-device attribution via LiveRamp only -->
-* 보고서 및 관리 보기에서 값에 대해 표시되는 소수점 이하 자리 수는 통화에 따라 다르지만 Adobe 광고는 더 정확한 값을 저장합니다.
+* 보고서 및 관리 보기에서 값에 대해 표시되는 소수점 이하 자리 수는 통화에 따라 다르지만 Adobe Advertising에 더 정확한 값이 저장됩니다.
 
 ## 마지막 이벤트(기본값)
 
@@ -116,7 +115,7 @@ ht-degree: 0%
 
 노출 횟수만으로 전환 앞에 오면 전환은 다음으로 간주됩니다. *뷰스루*&#x200B;광고주의 값에 따라 가중치가 매겨지는 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv) 또는 — 지정된 대로 — 보고서, 뷰 또는 사용자 정의 시뮬레이션 매개변수에 지정된 뷰스루 평가 방법에 따라 결정됩니다.
 
-전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe 광고 제품에 의해 다르게 처리됩니다.
+전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe Advertising 제품에 의해 다르게 처리됩니다.
 
 * 검색, 소셜 및 상거래에서 [노출 재정의 가중치](/help/search-social-commerce/glossary.md#i-j) — 광고주의 노출 재정의 가중치 설정과 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정되며, 이 항목이 노출에 먼저 적용됩니다.
 
@@ -186,9 +185,6 @@ ht-degree: 0%
 
 ![짝수 속성 비율](/help/search-social-commerce/assets/attribution-percent-even.png "짝수 속성 비율")
 
-<!-- Add in
-Examples of event calculations
-
 <!-- start examples as collapsible content -->
 
 +++이벤트 계산 예
@@ -241,7 +237,7 @@ Examples of event calculations
 
 노출 횟수만으로 전환 앞에 오면 전환은 다음으로 간주됩니다. *뷰스루*&#x200B;광고주의 값에 따라 가중치가 매겨지는 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv) 또는 — 지정된 대로 — 보고서, 뷰 또는 사용자 정의 시뮬레이션 매개변수에 지정된 뷰스루 평가 방법에 따라 결정됩니다.
 
-전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe 광고 제품에 의해 다르게 처리됩니다.
+전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe Advertising 제품에 의해 다르게 처리됩니다.
 
 * 검색, 소셜 및 상거래에서 [노출 재정의 가중치](/help/search-social-commerce/glossary.md#i-j) — 광고주의 노출 재정의 가중치 설정과 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정되며, 이 항목이 노출에 먼저 적용됩니다.
 
@@ -305,7 +301,7 @@ Examples of event calculations
 
 * DSP에서는 노출이 무시되고 클릭에만 가중치가 적용됩니다. DSP은 기여도 분석을 위해 노출 재정의 가중치를 고려하지 않습니다.
 
-![U자형 속성 비율](/help/search-social-commerce/assets/attribution-percent-u-shaped-event.png "U자형 이벤트 기여도 비율")
+<!-- ![U-shaped attribution percentages](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-shaped event attribution percentages") -->
 
 <!-- start examples as collapsible content -->
 
