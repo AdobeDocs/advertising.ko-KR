@@ -5,12 +5,12 @@ solution: Advertising
 product: advertising cloud
 archetype: end-user
 user-guide-title: Advertising Search, Social 및 Commerce 안내서
-user-guide-description: Advertising Search, Social 및 Commerce의 최신 업데이트 및 새로운 기능에 대해 알아봅니다.
+user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리, 최적화 및 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 72dc4d0f193b39c13daf1a0203f54285bff8cc28
+source-git-commit: b5ac81e04055c32cff02cc8528efb88e0d690f48
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
