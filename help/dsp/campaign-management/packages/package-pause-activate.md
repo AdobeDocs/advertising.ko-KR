@@ -2,7 +2,7 @@
 title: 패키지 일시 중지 또는 활성화
 description: 패키지를 일시 중단하거나 활성화하는 방법을 알아봅니다.
 feature: DSP Packages
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -36,4 +36,3 @@ ht-degree: 0%
 >* [패키지 편집](package-edit.md)
 >* [패키지에 대한 변경 로그 보기](package-change-log.md)
 >* [패키지 보관](package-archive-unarchive.md)
-
