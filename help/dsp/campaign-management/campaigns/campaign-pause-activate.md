@@ -2,7 +2,7 @@
 title: 캠페인 일시 중지 또는 활성화
 description: 라이브 캠페인을 일시 중단하거나 활성화하는 방법을 알아봅니다.
 feature: DSP Campaigns
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: bd02a305083a52ada68ea4a3f83b308687273968
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -33,4 +33,3 @@ ht-degree: 0%
 >
 >* [캠페인 편집](campaign-edit.md)
 >* [캠페인 보관](campaign-archive-unarchive.md)
-
