@@ -1,9 +1,9 @@
 ---
 title: 다음에 대한 일괄 시트 데이터 [!DNL Yahoo! Display Network] 계정
 description: 다운로드한 일괄 시트의 헤더 필드 및 데이터 필드 참조 [!DNL Yahoo! Display Network] 계정.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,10 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Ad Group ID] | 해당 사항 없음 | 포함된 경우 | 포함된 경우 | 기존 광고 그룹을 식별하는 고유 ID입니다. |
 | [!UICONTROL Keyword ID] | 해당 사항 없음 | 해당 사항 없음 | 포함된 경우 | 기존 키워드를 식별하는 고유 ID입니다. |
 | [!UICONTROL AMO ID] | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | (생성된 일괄 시트에서) 동기화된 엔티티에 대해 Adobe이 생성한 고유 식별자입니다. |
-| [!UICONTROL EF Error Message] | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | (정보 목적으로 생성된 일괄 시트에 포함) 검색, 소셜 및 상거래의 데이터에 대한 오류 메시지를 표시하기 위한 자리 표시자; 오류 메시지는 EF 오류 파일에 포함됩니다. |
+| [!UICONTROL EF Error Message] | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | (정보 목적으로 생성된 일괄 시트에 포함됨) 행의 데이터에 대해 검색, 소셜 및 상거래의 오류 메시지를 표시하는 자리 표시자입니다. 오류 메시지는에 포함됩니다. [!UICONTROL EF Errors] 파일. |
 
 <table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
-

@@ -1,9 +1,9 @@
 ---
 title: "에 대한 s\_kwcid 추적 코드 업데이트 [!DNL Google Ads] account"
 description: 에 대한 최신 s\_kwcid 추적 코드로 전환하는 방법에 대해 알아봅니다. [!DNL Google Ads] 계정입니다.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,8 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 1. 마이그레이션을 시작한 후 필요에 따라 랜딩 페이지 접미사 설정(일부 광고 네트워크에서는 &quot;최종 URL 접미사&quot;라고 함)을 업데이트합니다.
 
-   * 추적 설정에서 &quot;자동 업로드&quot; 기능을 활성화하면 검색, 소셜 및 상거래는 이 계정 및 해당 캠페인에 대한 랜딩 페이지 접미사의 추적 코드를 자동으로 업데이트합니다. 아무것도 안 해도 돼
-   * &quot;자동 업로드&quot; 기능이 활성화되어 있지 않고 서버측 s-kwcid를 사용하지 않는 경우 랜딩 페이지 접미사 설정에서 s\_kwcid 매개 변수를 수동으로 업데이트해야 합니다. 계정 및 캠페인 설정에서 수동으로 또는 일괄 시트에서 변경 사항을 업로드하여 계정 및 캠페인 수준 접미사를 변경할 수 있습니다. 광고 그룹 수준 또는 하위 수준에서 접미사를 구성하려면 [!DNL Google Ads] 편집자.
+   * 다음의 경우 [!UICONTROL Auto Upload]&quot;추적 설정에서 기능을 활성화하면 검색, 소셜 및 상거래는 이 계정 및 해당 캠페인에 대한 랜딩 페이지 접미사의 추적 코드를 자동으로 업데이트합니다. 아무것도 안 해도 돼
+   * 다음의 경우 [!UICONTROL Auto Upload]&quot;기능이 활성화되지 않았으며 서버측 s-kwcid를 사용하지 않는 경우 랜딩 페이지 접미어 설정에서 s\_kwcid 매개 변수를 수동으로 업데이트해야 합니다. 계정 및 캠페인 설정에서 수동으로 또는 일괄 시트에서 변경 사항을 업로드하여 계정 및 캠페인 수준 접미사를 변경할 수 있습니다. 광고 그룹 수준 또는 하위 수준에서 접미사를 구성하려면 [!DNL Google Ads] 편집자.
    * 캠페인 구성 요소에 대한 기본 URL 설정에 s\_kwcid를 포함하는 경우 해당 랜딩 페이지 접미사 설정으로 이동합니다.
 
 1. (권장) 추가 계정을 마이그레이션하기 전에 Analytics에서 이 계정에 대한 데이터를 확인하십시오.

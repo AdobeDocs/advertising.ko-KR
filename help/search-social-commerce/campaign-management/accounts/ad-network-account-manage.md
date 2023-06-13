@@ -1,9 +1,9 @@
 ---
 title: 광고 네트워크 계정 관리
 description: 광고 네트워크 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법을 알아봅니다.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Adobe 광고 클릭 추적을 사용하는 계정에는 광고 네트워크의 �
 
 * 최종 URL을 포함하려면 다음을 수행하십시오.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising] 만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록에 대해서는 ([!DNL Microsoft Advertising] 만) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads] 만 해당) 의 &quot;사용 가능한 ValueTrack 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising] 만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록에 대해서는 ([!DNL Microsoft Advertising] 만) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads] 만 해당) &quot;사용 가능&quot; 섹션의 &quot;추적 템플릿만&quot; 매개 변수 [!DNL ValueTrack] 의 &quot;매개 변수&quot; [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] 만 해당) 매개 변수 사용 `!{lpurl}` 랜딩 페이지 URL을 나타냅니다.
 
@@ -240,7 +240,7 @@ Adobe 광고 클릭 추적을 사용하는 계정에는 광고 네트워크의 �
 
 * **S\_kwcid 형식** - (기존 [!DNL Google Ads] Adobe Advertising-Adobe Analytics을 통합하고 s\_kwcid가 이미 마이그레이션되지 않은 광고주를 위한 계정)
 
-이 계정은 s\_kwcid 추적 코드에 대한 레거시 형식을 사용하며, 이를 통해 Adobe 광고에서 Adobe Analytics과 계정에 대한 데이터를 공유할 수 있습니다. 다음 [최신 형식](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요한 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수를 포함합니다. [!DNL Google Ads] analytics의 성과 최대 캠페인, 초안 및 실험 캠페인:
+이 계정은 s\_kwcid 추적 코드에 대한 레거시 형식을 사용하며, 이를 통해 Adobe Advertising이 Adobe Analytics과 계정에 대한 데이터를 공유할 수 있습니다. 다음 [최신 형식](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요한 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수를 포함합니다. [!DNL Google Ads] analytics의 성과 최대 캠페인, 초안 및 실험 캠페인:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

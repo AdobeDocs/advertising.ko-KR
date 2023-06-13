@@ -1,26 +1,26 @@
 ---
-title: Adobe 광고 ID를 사용하여 만들기 [!DNL Marketing Channels] 규칙
-description: Adobe 광고 ID를 사용하여 다음에 대한 처리 규칙을 만드는 방법을 알아봅니다. [!DNL Analytics Marketing Channels].
+title: Adobe Advertising ID를 사용하여 만들기 [!DNL Marketing Channels] 규칙
+description: Adobe Advertising ID를 사용하여 다음에 대한 처리 규칙을 만드는 방법을 알아봅니다. [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
 
-# Adobe 광고 ID를 사용하여 만들기 [!DNL Marketing Channels] 처리 규칙
+# Adobe Advertising ID를 사용하여 만들기 [!DNL Marketing Channels] 처리 규칙
 
 *Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
 
-Adobe 광고 ID( 를 사용할 수 있습니다.[AMO ID 및 EF ID](../ids.md))을 클릭하여 구성합니다 [!DNL Marketing Channels] Adobe Analytics의 처리 규칙. Adobe 광고 캠페인과 관련된 규칙에 Adobe 광고 ID를 사용합니다.
+Adobe Advertising ID( )를 사용할 수 있습니다.[AMO ID 및 EF ID](../ids.md))을 클릭하여 구성합니다 [!DNL Marketing Channels] Adobe Analytics의 처리 규칙. Adobe Advertising 캠페인과 관련된 규칙에 Adobe Advertising ID를 사용합니다.
 
 ## 처리 규칙의 AMO ID
 
-AMO ID는 내에서 Adobe 광고 데이터를 보고하는 데 사용되는 기본 추적 코드입니다 [!DNL Analytics]. AMO ID는 내에서 세분화된 보고를 제공하기 위해 Adobe에서 관리하는 동적 값의 연결입니다 [!DNL Analytics]. It&#39;s stored저장 in an [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 rVar 차원(AMO ID)입니다. AMO ID는에서 설정할 수 있습니다. [!DNL Analytics] 두 가지 방법으로:
+AMO ID는 내에서 Adobe Advertising 데이터를 보고하는 데 사용되는 기본 추적 코드입니다 [!DNL Analytics]. AMO ID는 내에서 세분화된 보고를 제공하기 위해 Adobe에서 관리하는 동적 값의 연결입니다 [!DNL Analytics]. It&#39;s stored저장 in an [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 rVar 차원(AMO ID)입니다. AMO ID는에서 설정할 수 있습니다. [!DNL Analytics] 두 가지 방법으로:
 
-* 클릭스루 추적: Adobe 광고는 `s_kwcid` 링크의 쿼리 문자열 매개 변수 및 [!DNL Analytics] 클릭스루가 발생할 때 랜딩 페이지 URL에서 매개 변수를 선택합니다.
+* 클릭스루 추적: Adobe Advertising에서 `s_kwcid` 링크의 쿼리 문자열 매개 변수 및 [!DNL Analytics] 클릭스루가 발생할 때 랜딩 페이지 URL에서 매개 변수를 선택합니다.
 * 뷰스루 추적([!DNL DSP] 만 해당): 마지막 이벤트 서비스는 서버측에서 뷰스루를 감지하고 AMO ID를 [!DNL Analytics]. 이 경우 URL에는 `s_kwcid` 매개 변수.
 
 AMO ID 내의 동적 값은 추적된 마케팅 채널을 나타냅니다.
@@ -33,7 +33,7 @@ AMO ID 내의 동적 값은 추적된 마케팅 채널을 나타냅니다.
 
 AMO ID의 나머지 부분은 무시할 수 있습니다.
 
-| AMO ID | 채널 | 규칙 논리 |
+| [!UICONTROL AMO ID] | 채널 | 규칙 논리 |
 |--------|---------|--------------------|
 | 알! (접두사) | [!UICONTROL Paid Search] | 다음으로 시작 |
 | ac! (접두사) | [!UICONTROL DSP] | 다음으로 시작 |
@@ -62,7 +62,7 @@ AMO ID의 나머지 부분은 무시할 수 있습니다.
 
 ## 처리 규칙의 EF ID
 
-Amo EF ID(EF ID)는 [!DNL Analytics for Advertising] 통합. 주요 목적은 추적 및 전달하는 것입니다 [!DNL Analytics] 이벤트 데이터를 Adobe 광고로. 클릭스루 또는 뷰스루가 발생할 때마다, 동일한 방문자에 대해 정확히 동일한 광고라고 하더라도 고유한 EF ID가 생성됩니다. EF ID는에서 사용되지 않습니다 [!DNL Analytics] 일반적으로 의 변수 제한당 50만 개의 고유 값을 초과하므로 사용자 인터페이스를 보고하는 중 [!DNL Analytics]을 추가하여 보고할 수 없습니다. Adobe 광고 지표 및 메타데이터는 EF ID에 적용되지 않습니다. AMO ID에만 적용됩니다. Adobe 광고에서 캠페인 최적화를 위해 추가된 추적 세부 기간이 필요하므로 두 ID가 모두 필요합니다.
+Amo EF ID(EF ID)는 [!DNL Analytics for Advertising] 통합. 주요 목적은 추적 및 전달하는 것입니다 [!DNL Analytics] Adobe Advertising에 이벤트 데이터 삽입 클릭스루 또는 뷰스루가 발생할 때마다, 동일한 방문자에 대해 정확히 동일한 광고라고 하더라도 고유한 EF ID가 생성됩니다. EF ID는에서 사용되지 않습니다 [!DNL Analytics] 일반적으로 의 변수 제한당 50만 개의 고유 값을 초과하므로 사용자 인터페이스를 보고하는 중 [!DNL Analytics]을 추가하여 보고할 수 없습니다. Adobe Advertising 지표와 메타데이터는 EF ID에는 적용되지 않습니다. AMO ID에만 적용됩니다. Adobe Advertising에서 캠페인 최적화를 위해서는 추가된 추적 세부 기간이 필요하므로 두 ID가 모두 필요합니다.
 
 EF ID 차원은에서 직접 사용되지 않지만 [!DNL Analytics] 보고 시 EF ID는 마케팅 채널을 만드는 데 유용합니다. EF ID 접미사는 채널(디스플레이 또는 검색)과 방문이 클릭스루로 시작되었는지 뷰스루로 시작되었는지를 나타냅니다. EF ID의 구분 기호는 AMO ID의 느낌표가 아닌 콜론입니다.
 
@@ -93,6 +93,5 @@ EF ID 차원은에서 직접 사용되지 않지만 [!DNL Analytics] 보고 시 
 >* [의 기본 사항 [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe 광고와 간에 채널 데이터가 다를 수 있는 이유 [!DNL Marketing Channels]](mc-data-variances.md)
 >* [사용 [!DNL Analytics Marketing Channels] Adobe 광고 데이터 포함](mc-ac-data.md)
->* [비디오: 사용 [!DNL Marketing Channels] Adobe 광고 보고용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [비디오: 사용 [!DNL Marketing Channels] Adobe Advertising 보고용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Adobe 광고 ID 사용됨 [!DNL Analytics]](/help/integrations/analytics/ids.md)
-

@@ -1,9 +1,9 @@
 ---
 title: 공유 사이트 링크 관리
 description: 공유 사이트링크 확장을 만들고 관리하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -92,12 +92,11 @@ ht-degree: 0%
 >* ([!DNL Google Ads]) 캠페인 또는 광고 그룹의 각 사이트링크에는 고유한 랜딩 페이지가 있어야 하며 각 사이트링크 랜딩 페이지의 콘텐츠에는 약 80%의 고유한 콘텐츠가 있어야 합니다. 예를 들어 동일한 페이지 내에서 여러 앵커에 대한 링크가 있는 사이트링크를 가질 수 없습니다.
 >* ([!DNL Google Ads]) 병렬 추적을 활성화하는 소스의 클릭에 대체되지 않는 매크로를 사용하지 마십시오. 광고주가 매크로를 사용해야 하는 경우 Adobe 계정 팀은 고객 지원 팀 또는 구현 팀과 협력하여 매크로를 추가해야 합니다.
 
-
 **[!UICONTROL Tracking Template]:** (선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 또한 최종/랜딩 페이지 URL을 매개 변수에 임베드하는 추적 템플릿 또는 추적 URL. 예: `{lpurl}?source={network}&id=5` 또는 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` 리디렉션을 포함합니다.
 
-* Adobe 설정에 &quot;EF 리디렉션&quot; 및 &quot;자동 업로드&quot;가 포함된 경우에 적용되는 캠페인 광고 전환 추적의 경우, 레코드를 저장하면 검색, 소셜 및 상거래에 자체 클릭 추적 코드가 자동으로 접두사로 추가됩니다.
+* 캠페인 설정에 &quot;&quot;가 포함된 경우 적용되는 Adobe 광고 전환 추적의 경우[!UICONTROL EF Redirect]&quot; 및 &quot;자동 업로드&quot;, 검색, 소셜 및 상거래는 레코드를 저장할 때 자체 클릭 추적 코드 접두사가 자동으로 추가됩니다.
 
-* 최종 URL을 포함하도록 지원되는 매개 변수에 대해 ([!DNL Microsoft Advertising] 만) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads] 만 해당) 의 &quot;사용 가능한 ValueTrack 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348).
+* 최종 URL을 포함하도록 지원되는 매개 변수에 대해 ([!DNL Microsoft Advertising] 만) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads] 만 해당) &quot;사용 가능&quot; 섹션의 &quot;추적 템플릿만&quot; 매개 변수 [!DNL ValueTrack] 의 &quot;매개 변수&quot; [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348).
 
 * 필요에 따라 URL 매개 변수와 캠페인에 대해 정의된 사용자 지정 매개 변수를 앰퍼샌드(&amp;)로 구분하여 포함할 수 있습니다. `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -111,9 +110,7 @@ ht-degree: 0%
 >* ([!DNL Microsoft Advertising]) 승인을 위해 광고를 다시 제출하지 않고도 원하는 수준에서 추적 템플릿을 업데이트할 수 있습니다.
 >* 대상 [!DNL Google Ads]병렬 추적을 활성화하는 소스의 클릭에 대체되지 않는 매크로를 사용하지 마십시오. 광고주가 매크로를 사용해야 하는 경우 Adobe 계정 팀은 고객 지원 팀 또는 구현 팀과 협력하여 매크로를 추가해야 합니다.
 
-
 >[!MORELIKETHIS]
 >
 >* [사이트링크 확장 기본 정보](sitelink-extension-about.md)
 >* [공유 사이트링크를 계정, 캠페인 및 광고 그룹과 연결](sitelink-extension-associate.md)
-
