@@ -236,7 +236,7 @@ ht-degree: 0%
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] 템플릿 전용) 제목, 텍스트, 표시 URL 또는 최종 URL에 `{Param3}` 동적 대체 문자열. 최대 길이는 70자이지만 사용하는 광고 요소의 최대 길이에 유의하십시오(예: 광고 제목에는 최대 25자가 포함될 수 있음).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** 지정된 일치 유형 또는 광고 유형을 사용하는 각 키워드에 대한 초기 입찰입니다.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** 지정된 일치 유형 또는 광고 유형을 사용하는 각 키워드에 대한 초기 입찰입니다.
 
 ## [!UICONTROL Ads]
 
