@@ -1,7 +1,8 @@
 ---
 title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
-source-git-commit: 7327c91b92b6471fa8da8767fc764de4226b4f91
+exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
+source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
 workflow-type: tm+mt
 source-wordcount: '3653'
 ht-degree: 0%
@@ -171,17 +172,8 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) 트랜잭션을 완료한 사용자의 ID입니다. |
 | [!UICONTROL Through Plays] | ([!DNL Meta] ads) 광고 전체를 시청한 보기 수입니다. |
 | [!UICONTROL Top of Page CPC] | (Google 캠페인만 해당) 지정된 날짜 범위 동안 검색 결과 페이지의 맨 위에 표시되는 광고의 클릭당 비용(CPC)입니다. |
-| [!UICONTROL Tracking URL] | (검색 대상 키워드만 해당) 추적 템플릿 또는 검색, 소셜, 상거래 추적 코드에 포함된 대상 URL(해당되는 경우)입니다. |
-| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) 거래가 차감되는 광고주별 거래 속성입니다. |
-| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 지정된 트랜잭션 속성이 차감된 시간입니다. |
-| [!UICONTROL User Account Type] | 사용되지 않음 |
-| [!UICONTROL User SE Account ID] | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID입니다. |
-| [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads) 한 번의 노출에 대해 비디오를 재생하는 시간을 포함하여 비디오가 재생된 평균 시간입니다. |
-| [!UICONTROL Video Plays] | ([!DNL Meta] ads) 비디오가 재생되기 시작하는 횟수입니다(재생 제외). |
-| [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], 및 [!UICONTROL VideoQuartile100Rate] | (비디오 광고) 끝까지 재생되는 비디오의 25%, 50%, 75% 또는 100%의 비율입니다. |
-| [!UICONTROL View Rate] | (비디오 광고) 보기 또는 참여 수를 광고(비디오 및 썸네일 노출) 표시 횟수로 나눈 값입니다. |
-| [!UICONTROL Views] | (비디오 광고) 사람들이 광고를 시청하거나 광고에 참여한 횟수입니다. |
-| [!UICONTROL ViewThroughConversions] | (대상 네트워크의 광고) 하나 이상의 노출로 인한 전환 횟수지만 클릭은 없습니다. |
+
+| [!UICONTROL Tracking URL] | (검색 대상 키워드만 해당) 추적 템플릿 또는 검색, 소셜 및 상거래 추적 코드에 포함된 대상 URL(해당하는 경우)입니다. | | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) 거래가 차감되는 광고주별 거래 속성입니다. | | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 지정된 트랜잭션 속성이 차감된 시간입니다. | | [!UICONTROL User Account Type] | 사용되지 않음 | | [!UICONTROL User SE Account ID] | Search, Social 및 Commerce에서 광고 네트워크에 할당하는 숫자 ID입니다. | | [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads) 한 번의 노출에 대해 비디오를 재생하는 시간을 포함하여 비디오가 재생된 평균 시간입니다. | | [!UICONTROL Video Plays] | ([!DNL Meta] ads) 비디오가 재생되기 시작하는 횟수입니다(재생 제외). | | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], 및 [!UICONTROL VideoQuartile100Rate] | (비디오 광고) 끝까지 재생된 비디오의 비율 25%, 50%, 75% 또는 100%. | | [!UICONTROL View Rate] | (비디오 광고) 보기 또는 참여 수를 광고(비디오 및 썸네일 노출) 표시 횟수로 나눈 값입니다. | | [!UICONTROL Views] | (비디오 광고) 사람들이 광고를 보거나 참여한 횟수입니다. | | [!UICONTROL ViewThroughConversions] | (대상 네트워크의 광고) 하나 이상의 노출로 인한 전환 수지만 클릭은 없습니다. |
 
 <table style="table-layout:auto">
 
