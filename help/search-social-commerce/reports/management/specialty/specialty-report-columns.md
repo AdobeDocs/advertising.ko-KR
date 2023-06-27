@@ -2,9 +2,9 @@
 title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+source-git-commit: b6279bdf5f0cf3fbd144414f789a105af87040cc
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2280'
 ht-degree: 0%
 
 ---
@@ -96,8 +96,8 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | 지정된 날짜 범위 동안의 광고 노출 횟수입니다. |
 | [!UICONTROL Keyword] | 키워드.<br><br><b>참고:</b> 보고서에 컨텐츠 사용 검색 캠페인의 광고 그룹 데이터가 포함된 경우 이 열에는 &quot;(광고 그룹 컨텐츠) 광고 그룹 이름&quot;과 같은 적용 가능한 광고 그룹 이름이 포함됩니다. 검색 캠페인의 사이트 타겟팅 배치의 경우 이 열에는 값이 없습니다. |
 | [!UICONTROL Keyword ID] | Search, Social 및 Commerce가 키워드에 할당하는 숫자 ID입니다. |
-| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) 광고 네트워크에서 할당한 광고 확장 ID입니다. |
-| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) 광고 네트워크에서 할당한 광고 확장 ID입니다. |
+| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) 광고 네트워크가 광고 확장에 할당하는 숫자 ID입니다. |
+| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) 광고 확장의 버전 속성입니다. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) 광고 확장 유형입니다. |
 | [!UICONTROL Keyword Status] | 검색어가 일치하는 키워드의 상태: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*, 또는[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) 타겟 언어입니다. |

@@ -1,9 +1,10 @@
 ---
 title: 알림 기본 정보
 description: 다양한 유형 및 범주를 포함하여 알림에 대해 알아봅니다.
-source-git-commit: 1b38a7cd20eb2f9b773d01dc0444f45761b99647
+exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
+source-git-commit: 7882e024ff11c20a5c2bf47fdc039345636da245
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -42,31 +43,50 @@ ht-degree: 0%
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**: 다음에 대한 알림: [일괄 시트 작업](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) 이(가) 완료되었거나 실패했습니다.
-
    * **[!UICONTROL UI Actions]**: 백그라운드에서 수행되는 작업이 완료되었거나 실패했음을 알립니다. 작업 유형은 다음과 같습니다 [일괄 시트 작업](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), 데이터 테이블 내에서 또는 도구 모음, 엔티티 할당 작업 또는 사용자 인터페이스 내에서 기타 작업(예: 광고 네트워크와의 동기화, 행 붙여넣기 또는 엔티티 이름 바꾸기)을 사용하여 작업을 일괄 편집합니다. 엔티티 할당에는 할당 또는 할당 취소가 포함됩니다. [레이블 분류 값](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) 모든 엔티티에 대해, 포트폴리오에 캠페인을 할당하고, 포트폴리오에 제한 사항을 할당하거나 할당 취소합니다.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
-* [!UICONTROL Setup Errors]
-
-   * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: 다음 알림이 [!UICONTROL Landing Page Suffix] 값이 잘못되거나 누락되거나 잘못된 SKWCID 템플릿을 포함하거나, 하위 수준에서 잘못된 값으로 재정의됩니다.
+   * **[!UICONTROL Bulksheets]**: 다음에 대한 알림: [일괄 시트 작업](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) 이(가) 완료되었거나 실패했습니다.
 
    * **[!UICONTROL Manager Account Missing]**: 검색, 소셜 및 상거래에 대한 자격 증명이 누락되었다는 알림 [광고 네트워크 관리자 계정](/help/search-social-commerce/admin/manager-accounts.md): 중요 기능을 올바르게 설정하기 위한 것입니다.
 
+<!--
+* [!UICONTROL Setup Errors]
+
+  * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect s_kwcid template; or it's overridden at a lower level by an incorrect value.
+  
+  * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
+
+-->
+
 * [!UICONTROL Network Errors]
+
+   * **[!UICONTROL Manager Account Auth Error]**: Search, Social 및 Commerce가 와 동기화할 수 없는 알림입니다. [광고 네트워크 관리자 계정](/help/search-social-commerce/admin/manager-accounts.md) 잘못된 자격 증명 또는 유효하지 않거나 만료된 인증 토큰으로 인해.
 
    * **[!UICONTROL Account Auth Error]**: 검색, 소셜 및 상거래에 액세스할 수 없는 알림 [광고 네트워크 계정](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 잘못된 자격 증명 또는 유효하지 않거나 만료된 인증 토큰으로 인해.
 
-   * **[!UICONTROL Manager Account Auth Error]**: Search, Social 및 Commerce가 와 동기화할 수 없는 알림입니다. [광고 네트워크 관리자 계정](/help/search-social-commerce/admin/manager-accounts.md) 잘못된 자격 증명 또는 유효하지 않거나 만료된 인증 토큰으로 인해.
+* [!UICONTROL Data Upload]
+
+   * **[!UICONTROL Direct File Upload]**: 닫힌 베타에 사용됩니다
+
+   * **[!UICONTROL File Upload to Cloud Storage]**: 닫힌 베타에 사용됩니다
+
+<!--
+* [!UICONTROL Optimization]
+-->
 
 * [!UICONTROL Insights & Reports]
 
    * **[!UICONTROL Custom Alerts]**: 다음과 같은 알림 [경고 인스턴스](/help/search-social-commerce/alerts/alert-about.md) 경고 템플릿에 대해 트리거되었습니다.
 
-   * **[!UICONTROL Advertising Insights]**: 다음과 같은 알림 [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) 이(가) 완료되었거나 실패했습니다.
+   * **[!UICONTROL Spreadsheet Feeds]**: 다음에 대한 알림: [스프레드시트 피드](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) 이(가) 완료되었거나 실패했습니다.
 
    * **[!UICONTROL Reports]**: 다음에 대한 알림: [사용자 지정 또는 예약된 보고서](/help/search-social-commerce/reports/report-about.md) 이(가) 완료되었거나 실패했습니다.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: 다음에 대한 알림: [스프레드시트 피드](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) 이(가) 완료되었거나 실패했습니다.
+   * **[!UICONTROL Advertising Insights]**: 다음과 같은 알림 [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) 이(가) 완료되었거나 실패했습니다.
+
+<!--
+* [!UICONTROL System]
+-->
 
 >[!MORELIKETHIS]
 >
