@@ -1,9 +1,10 @@
 ---
 title: 적용 또는 취소 [!DNL Google Ads] 추천
 description: 보기 방법 알아보기 [!DNL Google Ads] 권장 사항 및 권장 사항을 적용하거나 취소하는 방법.
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 7aab10bf-d5fc-4eb7-b1bb-9e61ba354a29
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -30,13 +31,13 @@ ht-degree: 0%
 
    * 권장 사항을 적용하려면 **[!UICONTROL Apply]**.
 
-      권장 사항을 적용하는 데는 권장 사항의 크기에 따라 밀리초에서 몇 초 정도 걸릴 수 있습니다.
+     권장 사항을 적용하는 데는 권장 사항의 크기에 따라 밀리초에서 몇 초 정도 걸릴 수 있습니다.
 
    * 권장 사항을 무시하려면 **[!UICONTROL Dismiss]**.
 
 >[!MORELIKETHIS]
 >
 >* [게시자 권장 사항 및 인사이트 지원 기본 정보](recommendation-support.md)
+>* [게시자 권장 사항 및 성능 인사이트 보기](recommendation-view.md)
 >* [에 대한 권장 사항 로그 보기 [!DNL Google Ads] account](google-recommendation-view-log.md)
 >* [포트폴리오에 게시자 권장 사항 및 통찰력을 사용하는 모범 사례](recommendation-best-practices.md)
-

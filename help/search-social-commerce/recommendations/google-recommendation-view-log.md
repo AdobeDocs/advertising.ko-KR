@@ -1,9 +1,10 @@
 ---
 title: 에 대한 권장 사항 로그 보기 [!DNL Google Ads] account
 description: 다음에 대해 적용된 각 권장 사항의 로그를 보는 방법에 대해 알아봅니다. [!DNL Google Ads] 계정입니다.
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 97db1e9e-6cd8-406f-8fd5-fbb85315fdf6
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -23,6 +24,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [게시자 권장 사항 및 인사이트 지원 기본 정보](recommendation-support.md)
+>* [게시자 권장 사항 및 성능 인사이트 보기](recommendation-view.md)
 >* [적용 또는 취소 [!DNL Google Ads] 추천](google-recommendation-apply-dismiss.md)
 >* [포트폴리오에 게시자 권장 사항 및 통찰력을 사용하는 모범 사례](recommendation-best-practices.md)
-

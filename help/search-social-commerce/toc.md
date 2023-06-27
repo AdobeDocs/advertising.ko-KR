@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1724'
 ht-degree: 2%
 
 ---
@@ -368,8 +368,9 @@ ht-degree: 2%
    + [변경 내역 보고서 보기](/help/search-social-commerce/reports/change-history-view.md)
    + Recommendations 및 게시자 인사이트 {#recommendations}
       + [게시자 권장 사항 및 인사이트 지원 기본 정보](/help/search-social-commerce/recommendations/recommendation-support.md)
-      + [에 대한 권장 사항 로그 보기 [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [게시자 권장 사항 및 성능 인사이트 보기](/help/search-social-commerce/recommendations/recommendation-view.md)
       + [적용 또는 취소 [!DNL Google Ads] 추천](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [에 대한 권장 사항 로그 보기 [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
       + [포트폴리오에 게시자 권장 사항 및 통찰력을 사용하는 모범 사례](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + 도구 {#tools}
    + [암호 변경](/help/search-social-commerce/tools/password-change.md)

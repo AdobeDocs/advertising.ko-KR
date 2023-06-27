@@ -1,32 +1,47 @@
 ---
 title: 게시자 권장 사항 및 인사이트 지원 기본 정보
 description: 게시자 권장 사항 및 인사이트를 보고 관리하는 지원에 대해 알아봅니다.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # 게시자 권장 사항 및 인사이트 지원 기본 정보
 
-[!DNL Google Ads] 추천은 다음 항목의 제안입니다. [!DNL Google Ads] 를 사용하면 캠페인의 성능과 효율성을 향상시킬 수 있습니다. 각 권장 사항은 계정의 성과 내역, 캠페인 설정 및 전반의 트렌드를 기반으로 자산 추가에서 예산 증가에 이르기까지 캠페인의 다양한 성과 측면에 대한 사용자 지정 제안 사항을 제공합니다 [!DNL Google Ads].
+*[!DNL Google Ads]및 [!DNL Microsoft® Advertising] 계정*
+
+*베타 기능 [!DNL Microsoft® Advertising] 계정*
+
+[!DNL Google Ads] 권장 사항 및 [!DNL Microsoft® Advertising] 성과 인사이트는 캠페인의 성능과 효율성을 개선하는 데 도움이 되는 광고 네트워크의 제안입니다.
+
+* 각 [!DNL Google Ads] 권장 사항은 계정의 성과 내역, 캠페인 설정 및 캠페인 트렌드를 기반으로 자산 추가에서 예산 증액에 이르기까지 캠페인의 다양한 성과 측면에 대한 사용자 정의 제안을 제공합니다 [!DNL Google Ads].
+
+* 각 [!DNL Microsoft® Advertising] performance insight는 관리자 계정, 광고주 계정 또는 캠페인의 중요한 변동을 경고하고, 가능한 원인을 식별하며, 성능을 최적화하는 작업을 제안합니다.
+
+## 다음 [!UICONTROL Recommendations & Publisher Insights] 보기
 
 다음 범위 내 [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights], 다음 작업을 수행할 수 있습니다.
 
-* 에 대해 실행되지 않은 모든 지원되는 권장 사항을 한눈에 볼 수 있습니다. [!DNL Google Ads]<!-- or [Microsoft Advertising]--> 계정입니다. 각 권장 사항에 대한 정보에는 권장 사항 세부 정보, 권장 사항 유형 및 범주, 실제 지표 및 [!DNL Google Ads] 는 권장 사항이 적용되었는지 여부를 예측하고, 권장 사항이 적용되었는지 여부에 따라 영향을 받는 엔터티를 예측합니다. 지표에 대한 예측된 증가는 녹색으로 강조 표시됩니다. 모든 권장 사항에 대한 권장 작업을 볼 수 있습니다. 선택적으로 추천 카테고리 및 유형별로 목록을 필터링할 수도 있습니다.
+* 에 대해 실행되지 않은 모든 지원되는 권장 사항을 한눈에 볼 수 있습니다. [!DNL Google Ads] 계정 또는 지난 30일 동안 생성된 모든 성능 인사이트 [Microsoft® Advertising] 계정입니다. 각 항목에 대한 정보에는 권장 사항/통찰력 세부 정보 및 영향을 받는 엔티티가 포함됩니다. 대상 [!DNL Google Ads] 지표에 대한 예측된 증가 계정이 녹색으로 강조 표시됩니다.
 
   ![RECOMMENDATIONS UI](/help/search-social-commerce/assets/recommendations-ui.png "RECOMMENDATIONS UI")
 
   보기를 열면 데이터를 실시간으로 사용할 수 있습니다. 데이터를 새로 고치려면 ![새로 고침](/help/search-social-commerce/assets/refresh.png "새로 고침") 페이지의 왼쪽 하단에 있습니다.
 
-* 계정에 대한 권장 사항을 적용하고 종료합니다.
+* 대상 [!DNL Google Ads] 계정:
 
-* 권장 사항을 적용한 영향을 받는 엔터티 및 타임스탬프를 포함하여 계정에 적용된 각 권장 사항의 로그를 봅니다.
+   * 권장 사항 세부 사항을 보고 권장 사항을 직접 적용하거나 취소합니다.
+
+   * 권장 사항을 적용한 영향을 받는 엔터티 및 타임스탬프를 포함하여 계정에 적용된 각 권장 사항의 로그를 봅니다.
+
+* 대상 [Microsoft® Advertising] 계정, 열기 [!DNL Microsoft® Advertising] 편집기: 특정 통찰력에 따라 작업을 수행할 수 있습니다.
 
 >[!NOTE]
 >
->권장 사항은 캠페인 성과를 개선하는 데 도움이 되지만, 일부는 더 광범위한 목표에 부합하지 않을 수 있습니다. 따라서 권장 사항을 구현하기 전에 Adobe 계정 팀에 문의하는 것이 가장 좋습니다.
+>광고 네트워크 권장 사항 및 성능 인사이트는 캠페인 성과를 개선하는 데 도움이 되지만, 일부는 더 광범위한 목표에 부합하지 않을 수 있습니다. 따라서 권장 사항이나 통찰력을 구현하기 전에 Adobe 계정 팀과 상담하는 것이 가장 좋습니다.
 
 ## 지원되는 추천 유형 [!DNL Google Ads]
 
@@ -60,6 +75,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [에 대한 권장 사항 로그 보기 [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [게시자 권장 사항 및 성능 인사이트 보기](recommendation-view.md)
 >* [적용 또는 취소 [!DNL Google Ads] 추천](google-recommendation-apply-dismiss.md)
+>* [에 대한 권장 사항 로그 보기 [!DNL Google Ads] account](google-recommendation-view-log.md)
 >* [포트폴리오에 게시자 권장 사항 및 통찰력을 사용하는 모범 사례](recommendation-best-practices.md)

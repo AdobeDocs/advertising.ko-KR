@@ -1,14 +1,17 @@
 ---
 title: 포트폴리오에 게시자 권장 사항 및 통찰력을 사용하는 모범 사례
 description: 을 사용하기 위한 모범 사례에 대해 알아봅니다. [!DNL Google Ads] 검색, 소셜 및 상거래 포트폴리오가 포함된 권장 사항.
-source-git-commit: 0c2b4648b3f0d6d7e4ed60f03a3a9bce56e9cdd7
+exl-id: 8362a0e1-9a0d-4287-a1dd-b7ec77985744
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # 포트폴리오에 게시자 권장 사항 및 통찰력을 사용하는 모범 사례
+
+<!-- If we don't come up with similar ones for MS, then rename this file "... Google Ads ..." -->
 
 ## [!DNL Google Ads] 권장 사항
 
@@ -25,6 +28,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [게시자 권장 사항 및 인사이트 지원 기본 정보](recommendation-support.md)
->* [에 대한 권장 사항 로그 보기 [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [게시자 권장 사항 및 성능 인사이트 보기](recommendation-view.md)
 >* [적용 또는 취소 [!DNL Google Ads] 추천](google-recommendation-apply-dismiss.md)
-
+>* [에 대한 권장 사항 로그 보기 [!DNL Google Ads] account](google-recommendation-view-log.md)
