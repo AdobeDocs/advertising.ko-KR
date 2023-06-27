@@ -1,7 +1,9 @@
 ---
 title: 데이터 소스 동기화 일시 중지
 description: 동기화를 중지하기 위해 데이터 소스를 일시 중지하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 5495ea13-8700-4e8a-9325-062c9ed8f4f4
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *기관 관리자(기본 역할), Adobe 계정 관리자 및 관리자만*
 
-데이터 소스를 일시 중지하면 데이터 소스와의 향후 동기화가 중지됩니다. 피드가 현재 동기화 중인 경우, 먼저 프로세스가 완료되어 Adobe 광고의 데이터가 최신 상태가 됩니다.
+데이터 소스를 일시 중지하면 데이터 소스와의 향후 동기화가 중지됩니다. 피드가 현재 동기화 중인 경우, 먼저 프로세스가 완료되어 Adobe Advertising의 데이터가 최신 상태가 됩니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
@@ -31,4 +33,3 @@ ht-degree: 0%
 >* [재인증 [!DNL Google Analytics] 데이터 소스](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 데이터 소스 설정](data-source-settings.md)
 >* [부록 - 사용 가능 [!DNL Google Analytics] 지표](data-source-ga-metrics.md)
-

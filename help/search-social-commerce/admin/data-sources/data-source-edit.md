@@ -1,7 +1,9 @@
 ---
 title: 편집 [!DNL Google Analytics] 데이터 소스
 description: 에 대한 구성을 편집하는 방법을 알아봅니다. [!DNL Google Analytics] 데이터 소스.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: a23444f7-8f4c-42ba-b5fe-a325fb18136d
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
@@ -31,4 +33,3 @@ ht-degree: 1%
 >* [재인증 [!DNL Google Analytics] 데이터 소스](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 데이터 소스 설정](data-source-settings.md)
 >* [부록 - 사용 가능 [!DNL Google Analytics] 지표](data-source-ga-metrics.md)
-

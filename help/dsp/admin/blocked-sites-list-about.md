@@ -1,8 +1,9 @@
 ---
 title: 계정 수준 및 광고주 수준의 차단된 사이트 목록 정보
 description: 계정 또는 광고주의 차단된 사이트 목록에 대해 자세히 알아보십시오 .
+role: User, Admin
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
-source-git-commit: bd667a01a0579c1523dc975bffd3560ac2a056db
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -23,10 +24,8 @@ ht-degree: 0%
 >* 또한 타깃팅된 사이트를 모든 배치에 추가할 수 있습니다.
 >* 차단된 사이트 목록은 항상 타겟팅된 사이트 목록보다 우선 적용됩니다. 배치가 둘 다 광고에 대한 동일한 타겟을 제외하고 포함하면 타겟은 제외됩니다.
 
-
 >[!MORELIKETHIS]
 >
 >* [계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집](/help/dsp/admin/blocked-sites-list-edit.md)
 >* [브랜드 안전 및 미디어 품질](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
-

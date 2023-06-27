@@ -1,8 +1,9 @@
 ---
 title: 조직 계정에 새 사용자 초대
 description: 새 사용자를 계정에 초대하는 방법을 알아봅니다.
+role: User, Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -33,6 +34,5 @@ ht-degree: 0%
 >
 >* [보류 중인 사용자 초대 다시 보내기](user-resend-invite.md)
 >* [보류 중인 사용자 초대 취소](user-uninvite.md)
-
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

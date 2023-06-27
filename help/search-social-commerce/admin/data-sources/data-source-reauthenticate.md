@@ -1,7 +1,9 @@
 ---
 title: 재인증 [!DNL Google Analytics] 데이터 소스
 description: 을(를) 재인증하는 방법 알아보기 [!DNL Google Analytics] 연결된 암호를 변경하거나 인증서가 만료된 경우 데이터 소스.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -29,10 +31,10 @@ ht-degree: 0%
          >[!TIP]
          >
          >특정 항목만 [!DNL Google Analytics] 속성 및 보기는 검색, 소셜 및 상거래 내에서 사용할 수 있으며 해당 속성 및 보기만 액세스할 수 있는 이메일 주소로 로그인합니다.
+
    1. 계정의 지표에 액세스할 수 있도록 검색, 소셜 및 상거래를 승인하려면 확인란을 선택합니다.
 
    1. 클릭 **[!UICONTROL Re-Authenticate]**.
-
 
 1. 클릭 **[!UICONTROL Post]**.
 
@@ -45,4 +47,3 @@ ht-degree: 0%
 >* [데이터 소스 동기화 일시 중지](data-source-pause.md)
 >* [[!DNL Google Analytics] 데이터 소스 설정](data-source-settings.md)
 >* [부록 - 사용 가능 [!DNL Google Analytics] 지표](data-source-ga-metrics.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 동기화 기본 정보 [!DNL Google Analytics] 전환 지표
 description: 동기화에 대해 알아보기 [!DNL Google Analytics] 최적화 및 보고를 위한 전환 지표.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -22,9 +24,9 @@ Search, Social 및 Commerce는 특정 항목에 대한 전환 지표를 동기�
 
 1. [전제 조건 작업 수행](data-source-prerequisites.md)
 
-   * Adobe 광고 토큰 구현(`ef_id` 쿼리 문자열 매개 변수)를 사용하십시오.
+   * Adobe Advertising 토큰 구현(`ef_id` 쿼리 문자열 매개 변수)를 사용하십시오.
 
-   * Adobe 광고 토큰(`ef_id` 쿼리 문자열 매개 변수) [!DNL Custom Dimension] 위치: [!DNL Google Analytics].
+   * Adobe Advertising 토큰 캡처(`ef_id` 쿼리 문자열 매개 변수) [!DNL Custom Dimension] 위치: [!DNL Google Analytics].
 
 1. (에이전시 계정 관리자, 에이전시 계정 관리자, [!DNL Adobe] 계정 관리자 및 관리자 전용) [당 하나의 데이터 소스 만들기 [!DNL Google Analytics] 계정, 속성 및 보기 조합](data-source-configure.md).
 
@@ -41,4 +43,3 @@ Search, Social 및 Commerce는 특정 항목에 대한 전환 지표를 동기�
 >* [재인증 [!DNL Google Analytics] 데이터 소스](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 데이터 소스 설정](data-source-settings.md)
 >* [부록 - 사용 가능 [!DNL Google Analytics] 지표](data-source-ga-metrics.md)
-

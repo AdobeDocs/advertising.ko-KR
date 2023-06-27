@@ -1,7 +1,9 @@
 ---
 title: 구성 [!DNL Google Analytics] 데이터 소스로 보기
 description: 에서 데이터 소스를 구성하는 방법 알아보기 [!DNL Google Analytics] 보기.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -36,7 +38,7 @@ ht-degree: 0%
 
          >[!TIP]
          >
-         >특정 항목만 [!DNL Google Analytics] Adobe 광고 내에서 속성 및 보기를 사용할 수 있으며, 해당 속성 및 보기에만 액세스할 수 있는 이메일 주소를 사용하여 로그인합니다.
+         >특정 항목만 [!DNL Google Analytics] Adobe Advertising 내에서 속성 및 보기를 사용할 수 있으며, 해당 속성 및 보기에만 액세스할 수 있는 이메일 주소를 사용하여 로그인합니다.
 
          >[!NOTE]
          >
@@ -45,6 +47,7 @@ ht-degree: 0%
       1. 계정의 지표에 액세스할 수 있도록 Adobe 광고를 승인하려면 확인란을 선택합니다.
 
       1. 클릭 **[!UICONTROL Authenticate]**.
+
    1. 다음에서 [!UICONTROL Account Details] 섹션에서 가져올 지표에 대한 속성 및 보기를 지정합니다. 또한 &quot;ef_id&quot; 쿼리 문자열 매개 변수의 값으로 채워지는 사용자 지정 차원을 지정합니다.
 
    1. 다음에서 [!UICONTROL Import Metrics] 섹션에서 피드에 포함할 지표를 지정합니다.
@@ -56,7 +59,6 @@ ht-degree: 0%
       >[!DNL Google Analytics] 단일 데이터 피드에서 최대 10개의 지표를 허용합니다. Search, Social 및 Commerce는 총 20개의 지표로 최대 2개의 피드를 지원할 수 있지만, 두 번째 피드를 사용하면 API 호출이 [!DNL Google Analytics]. 지표가 많은 경우 최적화를 위해 목표에 사용할 지표만 선택합니다. 자세한 내용 [에 대한 API 요청에 대한 할당량 및 호출 제한 [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
    1. 다음에서 [!UICONTROL Metric Tag] 섹션에서 데이터 소스의 각 지표에 추가할 태그의 이름을 입력합니다.
-
 
 1. 오른쪽 상단에서 **[!UICONTROL Post]**.
 
@@ -75,4 +77,3 @@ ht-degree: 0%
 >* [재인증 [!DNL Google Analytics] 데이터 소스](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 데이터 소스 설정](data-source-settings.md)
 >* [부록 - 사용 가능 [!DNL Google Analytics] 지표](data-source-ga-metrics.md)
-

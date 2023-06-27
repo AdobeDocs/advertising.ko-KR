@@ -1,7 +1,8 @@
 ---
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+role: User, Admin
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -38,11 +39,11 @@ ht-degree: 0%
 
 (선택 사항) DSP 계정에 연결된 추가 Experience Cloud 제품. 제품은에 제공된 것과 동일한 Experience Cloud 조직 ID와 연결되어 있어야 합니다. [!UICONTROL Adobe IMS IDs] 섹션.
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (광고주: [!DNL Advertising Search, Social, & Commerce] 또는 Adobe 광고 전환 픽셀을 사용하는 사용자) A [!DNL Search, Social, & Commerce] DSP이 속성 데이터를 교환하는 계정입니다.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (광고주: [!DNL Advertising Search, Social, & Commerce] 또는 Adobe Advertising 변환 픽셀을 사용하는 사용자) A [!DNL Search, Social, & Commerce] DSP이 속성 데이터를 교환하는 계정입니다.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Adobe Analytics 포함 광고주, 선택 사항, 다음을 포함하는 Adobe 광고 전환 추적 태그를 사용하여 수집된 데이터에만 적용 가능 [!DNL EF Redirect] 및 토큰만 해당) 하나 이상 [!DNL Analytics] DSP이 게시자 및 공급 측 파트너로부터 수집한 데이터를 전송하는 보고서 세트입니다. Analytics는 또한 클라이언트 사이트에서 수집한 데이터를 DSP으로 전송합니다.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Adobe Analytics 포함 광고주, 선택 사항, 다음을 포함하는 Adobe Advertising 전환 추적 태그를 사용하여 수집된 데이터에만 적용 가능 [!DNL EF Redirect] 및 토큰만 해당) 하나 이상 [!DNL Analytics] DSP이 게시자 및 공급 측 파트너로부터 수집한 데이터를 전송하는 보고서 세트입니다. Analytics는 또한 클라이언트 사이트에서 수집한 데이터를 DSP으로 전송합니다.
 
-보고서 세트에 표시할 데이터의 경우 [!DNL Search, Social, & Commerce] 광고주 수준 설정을 &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot;을(를) 활성화해야 합니다. 또한 광고주의 [!DNL Analytics] Adobe 광고에서 데이터를 수신하도록 계정을 구성해야 합니다.
+보고서 세트에 표시할 데이터의 경우 [!DNL Search, Social, & Commerce] 광고주 수준 설정을 &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot;을(를) 활성화해야 합니다. 또한 광고주의 [!DNL Analytics] 계정에서 데이터를 수신하도록 Adobe Advertising을 구성해야 합니다.
 
 >[!WARNING]
 >
@@ -144,6 +145,5 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 >[!MORELIKETHIS]
 >
 >* [광고주 계정 만들기](/help/dsp/admin/advertiser-create.md)
-
 
 <!-- >* [View the Advertiser List for the Account](/help/dsp/admin/advertiser-view.md) -->

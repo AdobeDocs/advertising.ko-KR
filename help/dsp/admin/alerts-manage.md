@@ -1,8 +1,9 @@
 ---
 title: 경고 구독 관리
 description: 자동 이메일 경고를 관리하는 방법을 알아봅니다.
+role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 * 가입자에 가입자를 추가하려면 아래의 입력 필드에 이메일 주소를 입력합니다. **[!UICONTROL Subscribers]**.
 
-   여러 주소는 공백으로 구분합니다.
+  여러 주소는 공백으로 구분합니다.
 
 * 구독자에 대한 구독자를 제거하려면 다음을 클릭하십시오. **[!UICONTROL X]** 다음 이메일 주소 옆 **[!UICONTROL Subscribers]**.
 

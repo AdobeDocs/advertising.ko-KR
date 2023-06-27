@@ -1,14 +1,10 @@
 ---
-type: Documentation
-role: User, Admin
-cloud: Experience Cloud
-solution: Advertising
-product: advertising cloud
+role: User
 user-guide-title: Adobe Advertising 정책 및 지침
 user-guide-description: Advertising DSP 및  [!DNL Advertising Search, Social, & Commerce]에 대한 정책 및 지침에 대해 알아봅니다.
 breadcrumb-title: 정책 및 지침
 index: true
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 69%
