@@ -1,9 +1,9 @@
 ---
 title: 에셋 만들기 및 업로드
 description: 재사용 가능한 이미지, 비디오 및 텍스트 에셋을 만들고 업로드하는 방법을 알아봅니다 [!DNL Google Ads] 계정 수준 자산 라이브러리입니다.
-source-git-commit: 5051ca80724a6ea55bc270b9454a2276a72deea0
+source-git-commit: 6cb13fe9917daf6437af7df30ec7164120732faa
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,14 @@ ht-degree: 0%
 
       한 번에 최대 10개의 비디오 URL을 게시할 수 있습니다.
 
-      * 텍스트 에셋의 경우 텍스트 문자열을 입력합니다. 다른 텍스트 자산을 추가하려면 **+ 추가** 다른 텍스트 문자열을 입력합니다.&lt;!— 어떤 광고 카피 요소 — 헤드라인, 짧은 설명, 긴 설명? 요소를 선택할 위치가 없습니다. —>
+      * 텍스트 에셋의 경우 텍스트 문자열을 입력합니다. 다른 텍스트 자산을 추가하려면 **+ 추가** 다른 텍스트 문자열을 입력합니다.
 
       각 텍스트 에셋은 최대 1000자를 사용할 수 있습니다. 한 번에 최대 10개의 텍스트 에셋을 업로드할 수 있습니다.
 
+      해당 광고 요소의 문자 제한을 충족하는 한 나중에 선택한 광고 요소(예: 헤드라인 또는 짧은 설명)에 텍스트 자산을 사용할 수 있습니다.
+
 1. 클릭 **[!UICONTROL Post]**.
+
+>[!MORELIKETHIS]
+>
+>*[정보 [!UICONTROL Asset Library]](asset-library-about.md)
