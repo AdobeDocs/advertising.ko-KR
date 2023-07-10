@@ -1,9 +1,9 @@
 ---
 title: "정보 [!UICONTROL Asset Library]"
 description: 광고 자산의 자산 라이브러리에 대해 알아봅니다.
-source-git-commit: 2b47ad8422a505a85f43d5954dc9a5bdd1242e57
+source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->*[에셋 만들기 및 업로드](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+>* [에셋 만들기 및 업로드](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
