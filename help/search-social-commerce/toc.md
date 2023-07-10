@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
+source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 2%
       + [s_kwcid 추적 매개 변수](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + 전환 추적 {#conversion-tracking}
       + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe 광고 전환 추적 {#advertising-conversion-tracking}
+      + Adobe Advertising 전환 추적 {#advertising-conversion-tracking}
          + [Adobe 광고 전환 추적 태그 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [JavaScript 전환 추적 태그 버전 3의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript 전환 추적 태그 버전 2의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
@@ -106,7 +106,8 @@ ht-degree: 2%
       + [검색, 소셜 및 상거래의 캠페인 관리 기본 정보](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [광고 네트워크 계정 및 캠페인 구현 개요](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [광고 네트워크 캠페인의 성능 모니터링 및 관리](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [검색, 소셜 및 상거래의 Google 광고 전환 데이터](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Google Ads] 검색, 소셜 및 상거래의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Microsoft Advertising] 검색, 소셜 및 상거래의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
    + 계정 설정 {#campaign-management-accounts}
       + 광고 네트워크 계정 {#ad-network-accounts}
          + [광고 네트워크 계정 기본 정보](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
