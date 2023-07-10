@@ -1,7 +1,7 @@
 ---
 title: '[!DNL Microsoft Advertising] 전환 데이터'
 description: 의 유형에 대해 알아보기 [!DNL Microsoft Advertising]- 추적 전환 데이터는 검색, 소셜 및 상거래에서 사용할 수 있습니다.
-source-git-commit: f5788c483564e34129b1703638a07497b527fb11
+source-git-commit: f48706edc1ab25f7c2396159d420bc2cfa849bbb
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -80,4 +80,4 @@ Search, Social 및 Commerce는 다음에 대한 변환에 대한 데이터를 �
 >
 >* [광고 네트워크 계정 및 캠페인 구현 개요](campaign-implemention-overview.md)
 >* [광고 네트워크 캠페인의 성능 모니터링 및 관리](monitor-performance-campaigns.md)
->* [광고주에 대해 추적된 트랜잭션 속성 보기](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.html?lang=en)
+>* [광고주에 대해 추적된 트랜잭션 속성 보기](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
