@@ -4,10 +4,10 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: e9818b49ab4bd473ba7b17663c9dd1436915f667
+source-git-commit: d8ec24ab05d16ea5f120b3263a8c426d76732cf8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1737'
+ht-degree: 2%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 0%
       + [s_kwcid 추적 매개 변수](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + 전환 추적 {#conversion-tracking}
       + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe 광고 전환 추적 {#advertising-conversion-tracking}
+      + Adobe Advertising 전환 추적 {#advertising-conversion-tracking}
          + [Adobe 광고 전환 추적 태그 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [JavaScript 전환 추적 태그 버전 3의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript 전환 추적 태그 버전 2의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
@@ -250,13 +250,13 @@ ht-degree: 0%
       + [계정 구성 요소에서 레이블 분류 값 제거](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [레이블 분류 값 삭제](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [레이블 분류 삭제](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
+   + 광고 자산 관리 {#assets}
+      + [정보 [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
+      + [에셋 만들기 및 업로드](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + 검색 캠페인에 대한 모범 사례 {#best-practices-search}
       + [보고서를 분석하여 키워드 및 캠페인 설정 세분화](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [유효한 텍스트 광고 사본 작성](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
       + [웹 사이트 랜딩 페이지 최적화](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
-   + 광고 자산 관리 {#assets}
-      + [정보 [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
-      + [에셋 만들기 및 업로드](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + [광고 네트워크 계정당 최대 개체 수](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
    + [캠페인 관리에 대한 FAQ](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
 + 인사이트 및 보고서 {#insights-reports}
