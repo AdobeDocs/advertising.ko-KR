@@ -1,9 +1,9 @@
 ---
 title: '[!DNL Microsoft Advertising] 전환 데이터'
 description: 의 유형에 대해 알아보기 [!DNL Microsoft Advertising]- 추적 전환 데이터는 검색, 소셜 및 상거래에서 사용할 수 있습니다.
-source-git-commit: f48706edc1ab25f7c2396159d420bc2cfa849bbb
+source-git-commit: 0d7a7b63b31f85b3befb3217fc43bcb229b370f0
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,7 @@ Search, Social 및 Commerce는 다음에 대한 변환에 대한 데이터를 �
 
 클릭 시간과 계정에 대해 기능이 활성화된 날짜로부터의 전환/트랜잭션 시간을 기반으로 데이터를 사용할 수 있습니다.
 
-<!-- verify below/ if equivalent
-
-[!DNL Microsoft Advertising] records each conversion by [bid unit](/help/search-social-commerce/glossary.md#a-b), device, and click date (not conversion date). Attribution is based on the default attribution setting for each metric in [!DNL Microsoft Advertising]; Adobe Advertising attribution isn't factored in because click event-level data isn't available.
--->
+[!DNL Microsoft Advertising] 각 전환 기록 기준 [입찰 단위](/help/search-social-commerce/glossary.md#a-b), 장치 및 클릭 날짜(전환 날짜 아님). 속성은 의 각 지표에 대한 기본 속성 설정을 기반으로 합니다. [!DNL Microsoft Advertising]; Adobe Advertising 수준 데이터를 클릭할 수 없기 때문에 이벤트 속성이 반영되지 않습니다.
 
 >[!NOTE]
 >
