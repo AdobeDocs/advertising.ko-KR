@@ -1,9 +1,10 @@
 ---
 title: 복제 [!DNL Google Ads] 의 캠페인 [!DNL Microsoft® Advertising]
 description: 에서 동기화된 캠페인을 내보내는 방법 알아보기 [!DNL Google Ads] 동기화된 계정에 직접 연결 [!DNL Microsoft® Advertising] 계정입니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 * [!DNL Google Display Network] 광고 이미지를 포함한 캠페인 [!DNL Microsoft® Advertising] Microsoft® Audience Network의 대상자 캠페인
 
-   쇼핑 피드 기반 표시 캠페인을 복제하려면 먼저 다음을 복제하십시오. [!DNL Google Merchant Center] 에 대한 제품 오퍼 [!DNL Microsoft® Merchant Center]. 캠페인을 복제할 때 다음을 선택합니다. [!DNL Microsoft® Merchant Center] 가져오기 선택 사항에 저장 하여 피드 기반 대상 캠페인에 저장소를 연결합니다.
+  쇼핑 피드 기반 표시 캠페인을 복제하려면 먼저 다음을 복제하십시오. [!DNL Google Merchant Center] 에 대한 제품 오퍼 [!DNL Microsoft® Merchant Center]. 캠페인을 복제할 때 다음을 선택합니다. [!DNL Microsoft® Merchant Center] 가져오기 선택 사항에 저장 하여 피드 기반 대상 캠페인에 저장소를 연결합니다.
 
 * [!DNL Google Ads] 성과 최대 캠페인(로컬 인벤토리 광고 포함)을에 [!DNL Microsoft® Advertising] 스마트 쇼핑 캠페인.
 
@@ -58,7 +59,7 @@ ht-degree: 0%
 
 1. (선택 사항) 내에서 검색, 소셜 및 상거래 추적 추가 [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [광고 그룹](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), 또는 [광고](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 설정.
 
-## 캠페인 가져오기 작업에 대한 세부 정보 편집
+## 캠페인 가져오기 작업에 대한 일정 설정 편집
 
 다음을 참조하십시오 [에서 가져온 항목 [!DNL Google Ads] 캠페인](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
@@ -66,15 +67,7 @@ ht-degree: 0%
 
 1. 가져오기 작업 옆에 있는 확인란을 선택한 다음 을 클릭합니다. ![편집](/help/search-social-commerce/assets/edit.png "편집").
 
-1. 편집 [가져오기 설정](#campaign-import-settings).
-
-   1. 다음에서 **[!UICONTROL Select accounts]** 섹션에서 소스 및 대상 계정과 다음과 같은 자격 증명 ID를 선택합니다 [!DNL Microsoft® Advertising] 을(를) 필요로 합니다.
-
-   1. 다음에서 **[!UICONTROL Select campaigns & ad groups]** 섹션에서 가져올 캠페인 및 광고 그룹을 지정합니다.
-
-   1. 다음에서 **[!UICONTROL Customize your import]** 섹션에서 가져올 항목 유형을 지정합니다.
-
-   1. 다음에서 **[!UICONTROL Set schedule]** 섹션에서 가져오기 작업을 실행할 시기를 지정합니다.
+1. 다음에서 **[!UICONTROL Set schedule]** 섹션에서 다음을 지정합니다. [예약 설정](#campaign-import-settings).
 
 1. 클릭 **[!UICONTROL Post]**.
 
@@ -86,7 +79,7 @@ ht-degree: 0%
 
    * 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-      기본적으로 뷰는 [!UICONTROL List of Import Jobs] 탭.
+     기본적으로 뷰는 [!UICONTROL List of Import Jobs] 탭.
 
    * 다음에서 [[!UICONTROL Import Logs] 탭](#campaign-import-log)를 클릭하고 **[!UICONTROL List of Import Jobs]** 탭.
 
@@ -142,7 +135,7 @@ ht-degree: 0%
 
 **[!UICONTROL Choose specific import options]:** 가져올 항목, 입찰 및 예산 및 기타 옵션을 지정할 수 있습니다.
 
-**[!UICONTROL What to import]:** 가져올 항목을 정의합니다. 기본적으로 항목 범주를 가져오는 옵션이 선택되어 있으며 모든 항목 유형이 선택되어 있습니다. 특정 항목 유형만 포함하려면 **[!UICONTROL Show advanced options]** 포함할 항목 유형을 변경합니다.
+**[!UICONTROL What to import]:** 가져올 항목을 정의합니다. 기본적으로 항목 범주를 가져오는 옵션이 선택되고 모든 항목 유형이 선택됩니다. 특정 항목 유형만 포함하려면 **[!UICONTROL Show advanced options]** 포함할 항목 유형을 변경합니다.
 
 **[!UICONTROL Bids and budgets]:** 가져오기, 업데이트 및 사용자 지정할 입찰 및 예산 설정을 정의합니다.
 
