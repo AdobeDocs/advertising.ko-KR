@@ -1,9 +1,10 @@
 ---
-title: "[!DNL Microsoft Advertising] campaign 설정"
+title: '[!DNL Microsoft Advertising] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 캠페인.
-source-git-commit: 0706f4dbc5f2a27e7d0cf43a6865d242865f9d36
+exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
+source-git-commit: f2889bbafc1b3cd3c467d94abae2ad1a52d0eaed
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -176,6 +177,12 @@ ht-degree: 0%
 <!-- **[!UICONTROL Append Parameters]:** -->
 
 {{$include /help/_includes/append-parameters.md}}
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]:** 종료 여부 *[!UICONTROL Use account conversion goals for this campaign]* (기본값) 또는 *[!UICONTROL Use campaign specific conversion goals]*. 캠페인에 대한 전환 목표를 지정하도록 선택한 경우 사용 가능한 모든 목표 목록에서 목표를 선택합니다. **참고:** 목표는 매일 동기화되므로 이전 24시간 동안 생성된 목표는 나열되지 않을 수 있습니다. 목록을 업데이트하려면 [수동으로 광고 네트워크 데이터 동기화](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+캠페인이 포트폴리오의 일부인 경우 포트폴리오의 목표와 동일한 전환 목표를 사용합니다. 다양한 전환 목표를 사용하면 포트폴리오 성능에 영향을 줄 수 있습니다.
 
 >[!MORELIKETHIS]
 >
