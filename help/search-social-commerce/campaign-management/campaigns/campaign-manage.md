@@ -1,7 +1,8 @@
 ---
 title: 캠페인 관리
 description: 광고 캠페인을 만들고 관리하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
+source-git-commit: 7c4f3b5b7745f846817c85364006a67fd644bd3b
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
@@ -23,7 +24,6 @@ ht-degree: 0%
 >* 캠페인을 만들기 전에, [전환 추적 태그 구현](/help/search-social-commerce/tracking/conversion-tracking-about.md) 광고주의 웹 페이지에서.
 >* 한 번에 수많은 캠페인을 만들려면 [복사 및 붙여넣기 기능](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 또는 [캠페인 일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-
 1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기").
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 다음을 입력합니다. [바이두](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google 광고](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [야후! 일본 광고](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), 또는 [얀덱스](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) 캠페인 설정.
 
-   광고 네트워크에 따라 설정이 다음으로 그룹화될 수 있습니다. [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], 및 [!UICONTROL (Google) DSA Options]. 다음에 대한 설정을 구성하려면 [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], 또는 [!UICONTROL Asset Groups] (사용 가능한 경우) **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, 또는 **[!UICONTROL Manage Asset Groups]**, 각각
+   광고 네트워크에 따라 설정이 다음으로 그룹화될 수 있습니다. [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], 및 [!UICONTROL (Google) DSA Options]. 다음에 대한 설정을 구성하려면 [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], 또는 [!UICONTROL Asset Groups] (사용 가능한 경우) **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Set Campaign Goals]**, 또는 **[!UICONTROL Manage Asset Groups]**, 각각
 
 1. 클릭 **[!UICONTROL Post]**.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
       * 각 캠페인 옆에 있는 확인란을 선택합니다.
 
-         여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * 데이터 테이블 위의 도구 모음에서 ![편집](/help/search-social-commerce/assets/edit.png "편집").
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    여러 캠페인의 경우 설정을 다음으로 그룹화할 수 있습니다. [!UICONTROL Campaign Details], [!UICONTROL Budget Options], 및 [!UICONTROL URL Options]광고 네트워크에 따라 다릅니다. 선택한 모든 캠페인에 공통되는 필드만 편집할 수 있으며 변경 사항은 선택한 모든 캠페인에 적용됩니다. 일부 영숫자 필드의 경우 기존 값을 지정된 값으로 변경하거나, 기존 문자열을 지정된 문자열로 대체하거나, 각 값의 시작 부분에 지정된 접두사를 추가하거나, 각 값의 끝에 접미사를 추가하는 옵션이 있습니다. 일부 통화 필드의 경우, 기존 값을 지정된 값으로 변경하거나, 특정 백분율 또는 통화 금액만큼 금액을 제한으로 늘리거나 줄이는 옵션이 있습니다.
 
-   단일 캠페인의 경우 설정을 다음으로 그룹화할 수 있습니다. [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], 및 [!UICONTROL (Google) DSA Options]. 다음에 대한 설정을 구성하려면 [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], 또는 [!UICONTROL Asset Groups] (사용 가능한 경우) **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, 또는 **[!UICONTROL Manage Asset Groups]**, 각각
+   단일 캠페인의 경우 설정을 다음으로 그룹화할 수 있습니다. [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], 및 [!UICONTROL (Google) DSA Options]. 다음에 대한 설정을 구성하려면 [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], 또는 [!UICONTROL Asset Groups] (사용 가능한 경우) **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Set Campaign Goals]**, 또는 **[!UICONTROL Manage Asset Groups]**, 각각
 
 1. 데이터를 저장합니다.
 
@@ -105,4 +105,3 @@ ht-degree: 0%
 >* [Microsoft Advertising 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
 >* [야후! 일본 광고 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [Yandex 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
-

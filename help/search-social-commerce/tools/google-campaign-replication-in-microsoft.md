@@ -2,9 +2,9 @@
 title: 복제 [!DNL Google Ads] 의 캠페인 [!DNL Microsoft® Advertising]
 description: 에서 동기화된 캠페인을 내보내는 방법 알아보기 [!DNL Google Ads] 동기화된 계정에 직접 연결 [!DNL Microsoft® Advertising] 계정입니다.
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
-source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
+source-git-commit: 8d062e5c74c8f873ab5f2491659a32be47bb2afb
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,19 @@ ht-degree: 0%
 
 다음을 참조하십시오 [에서 가져온 항목 [!DNL Google Ads] 캠페인](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. 에서 가져오기 자격 증명 ID 가져오기 [!DNL Microsoft® Advertising] 을(를) 나타냅니다. [!DNL Google Ads] 자격 증명.
-
-   자동 생성 [!DNL Microsoft® Advertising] 가져오기 용 자격 증명은 다음 이유로 사용할 수 없습니다. [!DNL Microsoft® Advertising] API 제한 사항. Adobe 기술 지원 또는 Adobe 계정 팀에 문의하면 자격 증명을 생성하고 ID를 제공합니다.
-
-   가져오기 작업을 구성하려면 ID가 있어야 합니다.
-
 1. 검색, 소셜 및 상거래 기본 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. 클릭 **[!UICONTROL +Import]**.
 
 1. 다음을 지정합니다. [가져오기 설정](#campaign-import-settings):
 
-   1. 다음에서 **[!UICONTROL Select accounts]** 섹션에서 소스 및 대상 계정과 다음과 같은 자격 증명 ID를 선택합니다 [!DNL Microsoft® Advertising] 을(를) 필요로 합니다.
+   1. 다음에서 **[!UICONTROL Select accounts]** 섹션:
+
+      1. 소스 및 대상 계정을 선택합니다.
+
+      1. 클릭 **[!UICONTROL Get Credential Id from MSA]**.
+
+      1. 대상에 로그인 [!DNL Microsoft Advertising] 계정을 만든 후 표시되는 자격 증명 ID를 복사하고 값을 **[!UICONTROL Credential ID]** 필드.
 
    1. 다음에서 **[!UICONTROL Select campaigns & ad groups]** 섹션에서 가져올 캠페인 및 광고 그룹을 지정합니다.
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 **[!UICONTROL Choose specific import options]:** 가져올 항목, 입찰 및 예산 및 기타 옵션을 지정할 수 있습니다.
 
-**[!UICONTROL What to import]:** 가져올 항목을 정의합니다. 기본적으로 항목 범주를 가져오는 옵션이 선택되고 모든 항목 유형이 선택됩니다. 특정 항목 유형만 포함하려면 **[!UICONTROL Show advanced options]** 포함할 항목 유형을 변경합니다.
+**[!UICONTROL What to import]:** 가져올 항목을 정의합니다. 기본적으로 항목 범주를 가져오는 옵션이 선택되어 있으며 모든 항목 유형이 선택되어 있습니다. 특정 항목 유형만 포함하려면 **[!UICONTROL Show advanced options]** 포함할 항목 유형을 변경합니다.
 
 **[!UICONTROL Bids and budgets]:** 가져오기, 업데이트 및 사용자 지정할 입찰 및 예산 설정을 정의합니다.
 

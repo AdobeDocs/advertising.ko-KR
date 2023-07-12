@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: d8ec24ab05d16ea5f120b3263a8c426d76732cf8
+source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1719'
 ht-degree: 2%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 2%
       + [s_kwcid 추적 매개 변수](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + 전환 추적 {#conversion-tracking}
       + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe Advertising 전환 추적 {#advertising-conversion-tracking}
+      + Adobe 광고 전환 추적 {#advertising-conversion-tracking}
          + [Adobe 광고 전환 추적 태그 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [JavaScript 전환 추적 태그 버전 3의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript 전환 추적 태그 버전 2의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
@@ -122,19 +122,19 @@ ht-degree: 2%
          + 캠페인 {#campaigns}
             + [캠페인 관리](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
             + 광고 네트워크별 캠페인 설정 {#campaign-settings-by-network}
-               + [Baidu 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
-               + [Google 광고 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
-               + [Microsoft Advertising 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
-               + [야후! 일본 광고 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
-               + [Yandex 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
+               + [[!DNL Baidu] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
+               + [[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+               + [[!DNL Microsoft Advertising] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+               + [[!DNL Yandex] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
          + 광고 그룹 {#ad-groups}
             + [광고 그룹 관리](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
             + 광고 네트워크별 광고 그룹 설정 {#ad-group-settings-by-network}
-               + [Baidu 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
-               + [Google 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
-               + [Microsoft 광고 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
-               + [야후! 일본 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
-               + [Yandex 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
+               + [[!DNL Baidu] 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
+               + [[!DNL Google Ads] 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+               + [[!DNL Microsoft Advertising] 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads] 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
+               + [[!DNL Yandex] 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
          + 키워드 {#keywords}
             + [키워드 정보](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
             + [바인딩 가능한 키워드 관리](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
