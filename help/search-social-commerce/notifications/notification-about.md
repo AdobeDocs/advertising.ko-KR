@@ -2,7 +2,7 @@
 title: 알림 기본 정보
 description: 다양한 유형 및 범주를 포함하여 알림에 대해 알아봅니다.
 exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
-source-git-commit: 7882e024ff11c20a5c2bf47fdc039345636da245
+source-git-commit: f3cc5ffae0d5d19c8542a46ffdb49478efa14522
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -49,26 +49,25 @@ ht-degree: 0%
 
    * **[!UICONTROL Manager Account Missing]**: 검색, 소셜 및 상거래에 대한 자격 증명이 누락되었다는 알림 [광고 네트워크 관리자 계정](/help/search-social-commerce/admin/manager-accounts.md): 중요 기능을 올바르게 설정하기 위한 것입니다.
 
-<!--
-* [!UICONTROL Setup Errors]
-
-  * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect s_kwcid template; or it's overridden at a lower level by an incorrect value.
+  <!--
+  * [!UICONTROL Setup Errors]
   
-  * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
+    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect s_kwcid template; or it's overridden at a lower level by an incorrect value.
+    
+    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
+  -->
 
--->
+   * [!UICONTROL Network Errors]
 
-* [!UICONTROL Network Errors]
+      * **[!UICONTROL Manager Account Auth Error]**: Search, Social 및 Commerce가 와 동기화할 수 없는 알림입니다. [광고 네트워크 관리자 계정](/help/search-social-commerce/admin/manager-accounts.md) 잘못된 자격 증명 또는 유효하지 않거나 만료된 인증 토큰으로 인해.
 
-   * **[!UICONTROL Manager Account Auth Error]**: Search, Social 및 Commerce가 와 동기화할 수 없는 알림입니다. [광고 네트워크 관리자 계정](/help/search-social-commerce/admin/manager-accounts.md) 잘못된 자격 증명 또는 유효하지 않거나 만료된 인증 토큰으로 인해.
+      * **[!UICONTROL Account Auth Error]**: 검색, 소셜 및 상거래에 액세스할 수 없는 알림 [광고 네트워크 계정](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 잘못된 자격 증명 또는 유효하지 않거나 만료된 인증 토큰으로 인해.
 
-   * **[!UICONTROL Account Auth Error]**: 검색, 소셜 및 상거래에 액세스할 수 없는 알림 [광고 네트워크 계정](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 잘못된 자격 증명 또는 유효하지 않거나 만료된 인증 토큰으로 인해.
+   * [!UICONTROL Data Upload]
 
-* [!UICONTROL Data Upload]
+      * **[!UICONTROL Direct File Upload]**: 닫힌 베타에 사용됩니다
 
-   * **[!UICONTROL Direct File Upload]**: 닫힌 베타에 사용됩니다
-
-   * **[!UICONTROL File Upload to Cloud Storage]**: 닫힌 베타에 사용됩니다
+      * **[!UICONTROL File Upload to Cloud Storage]**: 닫힌 베타에 사용됩니다
 
 <!--
 * [!UICONTROL Optimization]
