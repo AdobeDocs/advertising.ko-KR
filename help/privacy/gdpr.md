@@ -2,8 +2,9 @@
 title: 개인 정보 보호 규정에 대한 Adobe Advertising 지원
 description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값, 이전 제품 ID 및 반환된 데이터 필드를 사용하는 API 액세스 요청의 예에 대해 알아봅니다
 feature: GDPR
+role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 071d0ae725c21aaea19072725ae99ca77ef1a410
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
@@ -42,7 +43,7 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
 
    >[!IMPORTANT]
    >
-   >일부 Adobe Experience Cloud 솔루션에 대한 요청에는 JavaScript 라이브러리가 필요하지 않지만 Adobe Advertising에 대한 요청에는 필요합니다.
+   >일부 Adobe Experience Cloud 솔루션에 대한 요청에는 JavaScript 라이브러리가 필요하지 않지만 Adobe 광고에 대한 요청에는 필요합니다.
 
    데이터 주체가 회사의 개인 정보 보호 포털과 같은 액세스 및 삭제 요청을 제출할 수 있는 웹 페이지에 라이브러리를 배포해야 합니다. 라이브러리는 Adobe 쿠키(네임스페이스 ID: `gsurferID`)를 클릭하여 Adobe Experience Platform Privacy Service API를 통해 액세스 및 삭제 요청의 일부로 이러한 ID를 제출할 수 있습니다.
 
@@ -60,7 +61,7 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
    >
    >귀사의 Adobe Advertising 담당자에게 문의하여 다음을 포함한 조직의 모든 Adobe Advertising 계정을 확인하십시오. [!DNL DSP] 계정 또는 광고주, [!DNL Search, Social, & Commerce] 계정 및 [!DNL Creative] 또는 [!DNL DCO] 계정 — Experience Cloud 조직 ID에 연결됩니다.
 
-1. 다음 중 하나를 사용합니다. [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (자동화된 요청의 경우) 또는 [PRIVACY SERVICE UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko) (임시 요청의 경우) 데이터 주체를 대신하여 Adobe Advertising에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인합니다.
+1. 다음 중 하나를 사용합니다. [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (자동화된 요청의 경우) 또는 [PRIVACY SERVICE UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko-KR) (임시 요청의 경우) 데이터 주체를 대신하여 Adobe Advertising에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인합니다.
 
    데이터 주체와 상호 작용하고 DSP으로 캠페인을 시작할 수 있는 모바일 앱이 있는 광고주의 경우 Experience Cloud을 위해 개인 정보 보호 지원 Mobile SDK를 다운로드해야 합니다. Mobile SDK를 사용하면 데이터 제어자가 옵트아웃 상태 플래그를 설정하고 데이터 주체의 장치 ID(네임스페이스 ID: deviceID)를 검색한 다음 Privacy Service API에 요청을 제출할 수 있습니다. 모바일 앱에는 SDK 버전 4.15.0 이상이 필요합니다.
 
@@ -97,41 +98,41 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
 
 * `"regulation": **gdpr**` (요청에 적용되는 개인정보 보호 규정)
 
-## 데이터 주체에서 가져온 Adobe Advertising 사용자 ID를 사용하여 제출한 요청의 예 `AdobePrivacy.js`
+## 검색 대상 Adobe 광고 사용자 ID를 사용하여 데이터 주체에서 제출한 요청의 예 `AdobePrivacy.js`
 
 ```
 {
 "companyContexts":[
-      {
-         "namespace":"imsOrgID",
-         "value":"5AB13068374019BC@AdobeOrg"
-      }
-   ],
-   "users": [
+    {
+        "namespace":"imsOrgID",
+        "value":"5AB13068374019BC@AdobeOrg"
+      }
+   ],
+   "users": [
 {
- "key": "John Doe",
- "action":["access"],
-  "userIDs":[
-      {
-         "namespace":"411",
-         "value":"Wqersioejr-wdg",
-         "type":"namespaceId",
-         "deletedClientSide":false
-      }
-   ]
+ "key": "John Doe",
+ "action":["access"],
+ "userIDs":[
+      { 
+        "namespace":"411",
+        "value":"Wqersioejr-wdg",
+        "type":"namespaceId",
+        "deletedClientSide":false
+      }
+   ]
 }
 ],
 "include":[
-      "adCloud"
-   ],
-    "regulation":"gdpr"
+      "adCloud"
+   ],
+    "regulation":"gdpr"
 }
 }
 ```
 
 ## 액세스 요청에 대해 반환되는 데이터 필드
 
-다음은 Adobe 광고에 대한 액세스 응답의 예입니다.
+다음은 Adobe Advertising에 대한 액세스 응답의 예입니다.
 
 ```
 {
