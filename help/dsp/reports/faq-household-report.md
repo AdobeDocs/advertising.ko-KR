@@ -2,9 +2,9 @@
 title: 세대 보고서에 대한 FAQ
 description: 가구 보고서가 다른 보고서 및 문제 해결과 어떻게 다른지 포함하여 가구 도달 범위, 빈도 및 전환 데이터에 대해 자세히 알아보십시오.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: e07038895e64a266f898619384c8b41024f71038
+source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Household Reach & Frequency] 및 [!UICONTROL Household Conversions] 보고서 및 데이터 비교 [!DNL Advanced Measurement Services]
 
-세대 기반 도달 및 빈도 또는 전환에 대한 고급 보고의 경우 [[!DNL Strategic Advertising Consulting] 팀](/help/dsp/introduction/advanced-measurement-services.md) 는 전체적인 전략적 권장 사항과 함께 고도로 사용자 정의 가능한 보고서를 제공할 수 있습니다. 에 대한 자세한 내용 [!DNL Advanced Measurement Services], Adobe 계정 팀에 문의하십시오.
+세대 기반 도달 범위와 빈도 또는 전환에 대한 고급 보고의 경우 [[!DNL Strategic Advertising Consulting] 팀](/help/dsp/introduction/advanced-measurement-services.md) 는 전체적인 전략적 권장 사항과 함께 고도로 사용자 정의 가능한 보고서를 제공할 수 있습니다. 에 대한 자세한 내용 [!DNL Advanced Measurement Services], Adobe 계정 팀에 문의하십시오.
 
 ### 이미 사용하고 있는 경우 [!DNL Advanced Measurement Services], 를 사용해야 하는 이유 [!UICONTROL Household Reach & Frequency] 및 [!UICONTROL Household Conversions] 보고서?
 
