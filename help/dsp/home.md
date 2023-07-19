@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: d17d66c571dd810f98a870b3f8b10e9f8629af48
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,10 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023년 7월 19일 | 보고 | (DSP 사용자 [!DNL Analytics for Advertising]) 새로운 [!UICONTROL Household Conversions Report] 연결된 TV(CTV) 배치에 대한 뷰스루 변환을 포함합니다. Adobe Analytics에서도 데이터를 사용할 수 있습니다. | 를 참조하십시오.[보고서 정보](/help/dsp/reports/report-about.md)&quot; 및 &quot;[세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md).&quot;<br><br>의 &quot;통합 사용 방법의 예&quot;에 대한 섹션도 참조하십시오.[개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
 | 2023년 5월 29일 | [!UICONTROL Campaigns] | 이제 캠페인, 패키지 및 광고를 일시 중지하거나 활성화할 수 있습니다. 배치를 이미 일시 중지하고 활성화할 수 있습니다. | 를 참조하십시오.[캠페인 일시 중지 또는 활성화](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot; &quot;[패키지 일시 중지 또는 활성화](/help/dsp/campaign-management/packages/package-pause-activate.md)및 &quot;[광고 일시 중지 또는 활성화](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
 | 2023년 5월 24일 | [!UICONTROL Campaigns] | 이제 범용 비디오 배치 및 광고를 일반적으로 사용할 수 있습니다. | 를 참조하십시오.[유니버설 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md),&quot; &quot;[범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)및 &quot;[광고 만들기](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
-| 2023년 3월 | [!UICONTROL Reports] | 새 항목 [!UICONTROL Household Report] 는 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 다양한 차원에 대한 노출 횟수, 도달 범위 및 빈도를 표시합니다. 이 보고서에는 다음과 같은 9가지 차원이 포함됩니다. [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length], 및 사용자 작성 [!UICONTROL Tags]. | 를 참조하십시오.[보고서 정보](/help/dsp/reports/report-about.md),&quot; &quot;[보고서 설정](/help/dsp/reports/report-settings.md)및 &quot;[에 대한 FAQ [!UICONTROL Household] 보고서](/help/dsp/reports/faq-household-report.md).&quot; |
+| 2023년 3월 | [!UICONTROL Reports] | 새 항목 [!UICONTROL Household Report] 는 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 다양한 차원에 대한 노출 횟수, 도달 범위 및 빈도를 표시합니다. 이 보고서에는 다음과 같은 9가지 차원이 포함됩니다. [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length], 및 사용자 작성 [!UICONTROL Tags]. | 를 참조하십시오.[보고서 정보](/help/dsp/reports/report-about.md),&quot; &quot;[보고서 설정](/help/dsp/reports/report-settings.md)및 &quot;[세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md).&quot; |
 | 2023년 3월 20일 | [!UICONTROL Campaigns] | 공개 베타 기능인 범용 비디오 배치 및 광고에 대해 자세히 알아보십시오. | 를 참조하십시오.[유니버설 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 2023년 2월 15일 | [!UICONTROL Campaigns] | 차트 양식에서 변경 로그를 보고 모든 항목에 메모를 추가하는 옵션은 Beta 버전이 아닙니다. | 를 참조하십시오.[캠페인에 대한 변경 로그 보기](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; 참조: &quot;[패키지에 대한 변경 로그 보기](/help/dsp/campaign-management/packages/package-change-log.md),&quot; 및 &quot;[배치에 대한 변경 로그 보기](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 2023년 2월 3일 | [!UICONTROL Campaigns] | (Beta 기능) 이제 차트 양식에서 변경 로그를 보고 모든 항목에 메모를 추가할 수 있습니다. | 를 참조하십시오.[캠페인에 대한 변경 로그 보기](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; 참조: &quot;[패키지에 대한 변경 로그 보기](/help/dsp/campaign-management/packages/package-change-log.md),&quot; 및 &quot;[배치에 대한 변경 로그 보기](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
@@ -41,7 +42,7 @@ ht-degree: 0%
 | 2022년 5월 31일 | 대상 소스 | (Beta 기능) 이제 Advertising DSP은 고객 데이터 플랫폼(CDP) 내에 구축된 인증된 신호로 구성된 자사 세그먼트를 수집할 수 있습니다. | 를 참조하십시오.[대상 소스에서 인증된 세그먼트 활성화 정보](/help/dsp/audiences/sources/source-about.md).&quot; |
 | 2022년 5월 25일 | 최적화 목표 | 이제 비디오 및 기본 배치를 사용자 정의 목표 최고 ROAS 및 최저 CPA와 함께 패키지에 포함할 수 있습니다. | 를 참조하십시오.[최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md).&quot; |
 | 2022년 4월 12일 | Campaign Management | 광고 사양이 현재 지원을 반영하도록 업데이트되었습니다. | 를 참조하십시오.[지원되는 광고 유형에 대한 사양](/help/dsp/campaign-management/ads/ad-specs.md).&quot; |
-| 2022년 2월 17일 | 비디오 자습서 | &quot;표준 디스플레이 배치를 만드는 방법&quot;에 대한 새로운 비디오를 사용할 수 있습니다. | 다음을 참조하십시오 [Adobe 광고 Tutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/placement-create.html). |
+| 2022년 2월 17일 | 비디오 자습서 | &quot;표준 디스플레이 배치를 만드는 방법&quot;에 대한 새로운 비디오를 사용할 수 있습니다. | 다음을 참조하십시오 [Adobe Advertising Tutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/placement-create.html). |
 | 2022년 1월 31일 | 도움말 | 다음에 대한 추가 정보: [!DNL Deal IDs] 및 [!DNL Simple Ad Serving] 을(를) 이제 사용할 수 있습니다. | 재고 > 개인 재고에 대한 단원을 참조하십시오. |
 | 2021년 12월 10일 | 비디오 자습서 | 새로운 비디오 튜토리얼은 다음과 같습니다. &quot;Advertising DSP 소개&quot;, &quot;계정 구조 및 사용자 인터페이스&quot;, &quot;패키지를 만드는 방법&quot;, &quot;타사 광고 태그를 대량 업로드하는 방법&quot; 및 &quot;일괄 편집 도구를 사용하여 배치를 편집하는 방법&quot;. | 를 참조하십시오.[Adobe 광고 Tutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html).&quot; |
 | 2021년 11월 12일 | [!UICONTROL Deal IDs] | 다음에서 [!UICONTROL Deal ID] 설정, &quot;[!DNL Rubicon]&quot;이(가) &quot;(으)로 변경되었습니다.[!DNL Magnite DV+],&quot; [!DNL DV+] 는 디스플레이, 비디오 및 오디오와 같은 다른 포맷을 나타냅니다. 이 이름은 의 새 브랜딩을 반영합니다. [!DNL Magnite] SSP. **참고:** [!DNL Magnite DV+] 이(가) 여전히 &quot;(으)로 나열됨[!DNL Rubicon]의 &quot; [!UICONTROL Deal ID Inbox]. | 를 참조하십시오.[SSP 파트너](/help/dsp/inventory/ssp-partners.md).&quot; |
