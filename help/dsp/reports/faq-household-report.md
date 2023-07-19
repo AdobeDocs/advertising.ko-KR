@@ -1,10 +1,10 @@
 ---
 title: 세대 보고서에 대한 FAQ
-description: 다음을 포함한 보고서 데이터에 대해 자세히 알아보기 [!UICONTROL Household] 보고서는 다른 보고서 및 문제 해결과 다릅니다.
+description: 가구 보고서가 다른 보고서 및 문제 해결과 어떻게 다른지 포함하여 가구 도달 범위, 빈도 및 전환 데이터에 대해 자세히 알아보십시오.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: 05f7d9c7a120828bda46d4f79796dfb419cca242
+source-git-commit: e07038895e64a266f898619384c8b41024f71038
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
