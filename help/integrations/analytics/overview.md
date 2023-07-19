@@ -3,7 +3,7 @@ title: 개요 [!DNL Analytics for Advertising]
 description: 개요 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: e1edbc29e9306afc68f805d198ef3e5ec7f25695
+source-git-commit: 232b253877195b0e0a1d47b0b28e6ed25a8b07d4
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 * 사용 [!DNL Analytics] 유료 미디어 광고를 최적화하기 위한 전환 신호로서 사용자 지정 및 표준 이벤트.
 * 활용 [!DNL Analytics] Analysis Workspace을 통해 사이트 시작 지점 및 방문 동작을 보다 잘 이해할 수 있습니다.
 * 웹 분석가와 유료 미디어 팀 간의 긴밀한 공동 작업을 활성화합니다.
-* 내에서 영구 Adobe 광고 뷰스루 및 클릭스루 ID 사용 [!DNL Analytics] 사이트 참여를 이해할 수 있습니다.
+* 내에서 영구 Adobe Advertising 뷰스루 및 클릭스루 ID 사용 [!DNL Analytics] 사이트 참여를 이해할 수 있습니다.
 * 데이터나 픽셀을 광고 서버나 다른 DSP으로 내보낼 때 얻을 수 없는 사용자 지정 지표, 사용자 지정 차원 및 사이트 활동을 통해 Analysis Workspace의 기존 유료 미디어 보고서를 개선합니다.
 * 활용 [!DNL Analytics] 코드는 Adobe Advertising 내에서 추적 및 최적화를 위해 웹 사이트에 이미 있습니다.
 
@@ -40,10 +40,10 @@ ht-degree: 0%
 
 [!DNL Analytics for Advertising] 에서는 다음 작업을 수행하여 광고가 사이트 동작을 유도하는 방식에 대한 보고 및 통찰력을 향상시킵니다.
 
-* 내에서 영구 Adobe 광고 뷰스루 및 클릭스루 ID 사용 [!DNL Analytics] 사이트 참여를 이해할 수 있습니다.
+* 내에서 영구 Adobe Advertising 뷰스루 및 클릭스루 ID 사용 [!DNL Analytics] 사이트 참여를 이해할 수 있습니다.
 * Analysis Workspace을 활용하여 사이트 시작 지점 및 방문 동작을 보다 잘 이해할 수 있습니다. Adobe Advertising 캠페인 엔티티 이름(배치 및 광고까지) 및 관련 지표(예: 클릭, 노출 횟수 및 비용)가 포함된 유료 미디어 차원 및 이벤트 데이터에 액세스할 수 있습니다.
 
-사용 [!DNL Analytics] 조직에 유료 미디어 보고 도구로 Analysis Workspace에 액세스할 수 있는 Experience Cloud 로그인이 필요합니다. Adobe Advertising 팀은 Adobe Advertising 데이터를 Analysis Workspace의 개별 보고서 세트에 매핑하는 데 도움이 됩니다. Adobe Advertising 데이터를 모든 보고서 세트에 보낼 수 있지만, Adobe Advertising에 매핑된 보고서 세트와 매핑되지 않은 보고서 세트를 알고 있어야 합니다. 보고서 세트에 따라, 보고된 데이터가 변경될 수 있습니다.
+사용 [!DNL Analytics] 조직에 유료 미디어 보고 도구로 Analysis Workspace에 대한 액세스 권한이 있는 Experience Cloud 로그인이 필요합니다. Adobe Advertising 팀은 Adobe Advertising 데이터를 Analysis Workspace의 개별 보고서 세트에 매핑하는 데 도움이 됩니다. Adobe Advertising 데이터를 모든 보고서 세트에 보낼 수 있지만, Adobe Advertising에 매핑된 보고서 세트와 매핑되지 않은 보고서 세트를 알고 있어야 합니다. 보고서 세트에 따라, 보고된 데이터가 변경될 수 있습니다.
 
 [내 Adobe Advertising ID [!DNL Analytics]](ids.md) 사용자 지정 영구 만료 기능을 사용하는 다른 eVar와 마찬가지로 작동합니다. 기본적으로 Adobe Advertising 구현 중에 속성 전환 확인 기간은 60일로 설정됩니다. 이 설정을 변경하려면 Adobe 계정 팀과 작업하십시오.
 
@@ -70,7 +70,7 @@ Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유
 
 ### 입찰 신호로서의 사이트 전환 지표
 
-에서 표준 이벤트와 사용자 지정 이벤트를 사용할 수 있습니다. [!DNL Analytics] Adobe 광고에서 가중 목표를 수립합니다. 목표에 입찰 결정을 알립니다. [!DNL DSP] 패키지 및 검색 포트폴리오.
+에서 표준 이벤트와 사용자 지정 이벤트를 사용할 수 있습니다. [!DNL Analytics] Adobe Advertising에서 가중 목표를 수립합니다. 목표에 입찰 결정을 알립니다. [!DNL DSP] 패키지 및 검색 포트폴리오.
 
 >[!NOTE]
 >
@@ -94,15 +94,15 @@ Experience Cloud 대상 서비스에 대한 자세한 내용은 [Experience Clou
 
 ### Analysis Workspace에서 Adobe Advertising 데이터 사용
 
-Adobe Advertising 데이터를 사용하여 Analysis Workspace에서 시각적 보고서를 만드는 방법에 대해 알아보려면 비디오 를 참조하십시오.[작업 영역 및 보고 소개](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+Adobe 광고 데이터를 사용하여 Analysis Workspace에서 시각적 보고서를 만드는 방법에 대해 알아보려면 비디오 를 참조하십시오.[작업 영역 및 보고 소개](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
 
 #### 보고서에서 연결된 TV 뷰스루 전환 사용
 
 *Advertising DSP 사용자만*
 
-CTV 장치의 광고 노출을 현장 전환과 연결하여 연결된 TV(CTV) 캠페인의 전체 단계 효과를 측정할 수 있습니다. CTV 뷰스루 전환 지표를 보려면 Analysis Workspace의 배치 보기 또는 마케팅 채널 보기를 사용하십시오.
+CTV 장치의 광고 노출을 현장 전환과 연결하여 연결된 TV(CTV) 캠페인의 전체 단계 효과를 측정할 수 있습니다. 새로운 [!UICONTROL Landing Type] 필터 &quot;[!UICONTROL View-through (CTV)]&quot;다음에 대해 변환을 별도의 행으로 분할합니다. [!UICONTROL Click Through], [!UICONTROL View Through], 및 [!UICONTROL View Through (CTV)] 값.
 
-새로운 [!UICONTROL Landing Type] 필터 &quot;[!UICONTROL View-through (CTV)]&quot;다음에 대해 변환을 별도의 행으로 분할합니다. [!UICONTROL Click Through], [!UICONTROL View Through], 및 [!UICONTROL View Through (CTV)] 값.
+CTV 뷰스루 전환 지표를 보려면 Analysis Workspace의 배치 보기 또는 마케팅 채널 보기를 사용하십시오.
 
 배치 뷰를 사용하여 다음을 수행합니다.
 
@@ -143,5 +143,5 @@ Adobe Advertising 사이트 시작 보고서를 만들어 요일, 시간, 브라
 >* [Analytics에서 사용하는 Adobe Advertising ID](ids.md)
 >* [Advertising용 Analytics에 대한 JavaScript 코드](/help/integrations/analytics/javascript.md)
 >* [다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Adobe Advertising](data-variances.md)
->* [Analysis Workspace에서 광고 지표 Adobe](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [Analysis Workspace에서 지표 Adobe Advertising](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Adobe 광고의 데이터](/help/integrations/analytics/analytics-data-in-advertising.md)
