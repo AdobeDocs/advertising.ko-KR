@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1720'
 ht-degree: 2%
 
 ---
@@ -349,7 +349,7 @@ ht-degree: 2%
             + [스프레드시트 보고서 피드 설정](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
          + [보고서에 대한 FTP 액세스](/help/search-social-commerce/reports/automation/ftp-reports.md)
       + [속성 규칙 계산 방법](/help/search-social-commerce/reports/attribution-rules.md)
-      + [보고서에 대한 FAQ](/help/search-social-commerce/reports/faqs-report.md)
+      + [사용자 정의 보고서에 대한 FAQ](/help/search-social-commerce/reports/faqs-report.md)
    + 알림 {#notifications}
       + [알림 기본 정보](/help/search-social-commerce/notifications/notification-about.md)
       + [알림 보기](/help/search-social-commerce/notifications/notification-view.md)

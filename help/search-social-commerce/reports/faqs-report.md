@@ -1,14 +1,15 @@
 ---
-title: 보고서에 대한 FAQ
+title: 사용자 정의 보고서에 대한 FAQ
 description: 데이터 문제 해결을 포함하여 성능 보고서에 대한 일반적인 질문에 대한 답변을 살펴볼 수 있습니다.
-source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
+exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '3917'
+source-wordcount: '3919'
 ht-degree: 0%
 
 ---
 
-# 보고서에 대한 FAQ
+# 사용자 정의 보고서에 대한 FAQ
 
 ## 일반 질문
 
@@ -152,7 +153,7 @@ ht-degree: 0%
 
 +++보고서에서 수입이 누락되었습니다.
 
-**Adobe 광고 전환 태그를 사용하는 광고주**
+**Adobe Advertising 전환 태그를 사용하는 광고주**
 
 *가능한 원인:*
 
@@ -208,7 +209,7 @@ ht-degree: 0%
 +++
 
 +++일부 고급 보고서에는 광고주 피드에서 제공한 전환 데이터가 포함되지 않습니다.
-다음 [!UICONTROL Geo Distribution Report] 및 [!UICONTROL Domain Referral Report] Adobe Advertising 전환 추적 서비스를 통해 캡처한 데이터를 사용하며 해당 서비스를 사용하는 광고주에게만 생성될 수 있습니다. 보고서에는 Adobe 광고 전환 추적 시스템 외부에서 추적되는 전환 데이터가 포함되지 않습니다.
+다음 [!UICONTROL Geo Distribution Report] 및 [!UICONTROL Domain Referral Report] Adobe Advertising 전환 추적 서비스를 통해 캡처한 데이터를 사용하며 해당 서비스를 사용하는 광고주에게만 생성될 수 있습니다. 보고서에는 Adobe Advertising 전환 추적 시스템 외부에서 추적되는 전환 데이터가 포함되지 않습니다.
 +++
 
 +++매출 데이터는 광고주 자신의 매출 데이터와 다릅니다.
@@ -311,8 +312,8 @@ ht-degree: 0%
 광고 네트워크는 이러한 캠페인을 위해 매출을 개별 광고에 연결하는 데 필요한 식별자를 제공하지 않습니다. 따라서 의 이러한 캠페인 유형에 대해 광고 수준 성과 데이터를 사용할 수 없습니다. [!UICONTROL Ads] 보기 또는 [!UICONTROL Ad Variation Report]. 캠페인에 대한 총 광고 수준 데이터와 캠페인에 대한 총 데이터 간의 불일치를 예상합니다.
 +++
 
-+++위치 [!UICONTROL Transaction Report], 데이터 피드에서 또는 Adobe 광고 추적 픽셀에서 추적되는 거래 속성을 어떻게 알 수 있습니까?
-트랜잭션 보고서에서, 사용자 지정 열 &quot;&quot;을(를) 포함하는 경우 포함된 트랜잭션 속성이 Adobe 광고 추적 픽셀에 의해 추적되었는지 여부를 알 수 있습니다.[!UICONTROL Tracking URL].&quot; Adobe Advertising 추적 픽셀이 있는 추적 URL은 &quot;로 시작합니다.`http://pixel.everesttech.net`.&quot;
++++위치 [!UICONTROL Transaction Report], 데이터 피드에서 가져온 트랜잭션 속성 또는 Adobe Advertising 추적 픽셀에서 추적한 트랜잭션 속성을 어떻게 알 수 있습니까?
+트랜잭션 보고서에서, 사용자 지정 열 &quot;&quot;을(를) 포함하는 경우 포함된 트랜잭션 속성이 Adobe 광고 추적 픽셀에 의해 추적되었는지 여부를 알 수 있습니다.[!UICONTROL Tracking URL].&quot; Adobe 광고 추적 픽셀이 있는 추적 URL은 &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++내 데이터 [!UICONTROL Transaction Report] 이(가) 내 데이터와 일치하지 않음 [!UICONTROL Keyword Report].

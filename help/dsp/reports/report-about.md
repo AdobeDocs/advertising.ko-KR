@@ -3,7 +3,7 @@ title: 사용자 정의 보고서 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: ab892528a2fbc0ed5994938ead23cd8e33e8b45f
+source-git-commit: 085e2c40ae65a5bb93c3d1a13036342d2670226b
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 >
 >* [사용자 지정 보고서 만들기](/help/dsp/reports/report-create.md)
 >* [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
->* [에 대한 FAQ [!UICONTROL Household] 보고서](/help/dsp/reports/faq-household-report.md)
+>* [세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md)
 >* [플랫폼 내 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
 >* [정보 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
