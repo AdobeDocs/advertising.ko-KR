@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 2e0240ff1b342d5a0564e01ebec3ee313b488b59
+source-git-commit: 3faf43573cb073be828b0740f68f0e7d0612a1ef
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]** 보고서 이름. 최대 길이는 180자입니다.
 
-**[!UICONTROL Report Type]** 보고서 유형: *[!UICONTROL Custom]* (대부분의 사용 가능한 옵션이 포함됨), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, 또는 *[!UICONTROL Household]*.
+**[!UICONTROL Report Type]** 보고서 유형: *[!UICONTROL Custom]* (대부분의 사용 가능한 옵션이 포함됨), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*, 또는 *[!UICONTROL Household Conversions]*.
 
 ## [!UICONTROL Apply Filters] 섹션
 
@@ -46,15 +46,15 @@ ht-degree: 0%
 
 * [!UICONTROL Dimensions]
 
-   >[!NOTE]
-   >
-   > 다음 [!UICONTROL Household] 보고서에는 하나의 차원만 포함될 수 있습니다.
+  >[!NOTE]
+  >
+  > 다음 [!UICONTROL Household Reach & Frequency] 보고서에는 하나의 차원만 포함될 수 있습니다.
 
 * [!UICONTROL Metrics]
 
-   >[!NOTE]
-   >
-   >다음 [!UICONTROL Household] 보고서는 중복 지표 또는 비중복 지표를 포함할 수 있지만 둘 다 포함할 수는 없습니다.
+  >[!NOTE]
+  >
+  >다음 [!UICONTROL Household Reach & Frequency] 보고서는 중복 지표 또는 비중복 지표를 포함할 수 있지만 둘 다 포함할 수는 없습니다.
 
 * [!UICONTROL Conversion Metrics] (광고주별로 정렬됨)
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 **[!UICONTROL Report Headers]:** 종료 여부 *[!UICONTROL Include]* 또는 *[!UICONTROL Do Not Include]* 열 머리글입니다.
 
-**[!UICONTROL Attribution Rule Settings]:** (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Adobe 광고 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 기여하는 방법을 설명합니다. 규칙 간의 차이를 비교하려면 두 개 이상의 규칙을 선택할 수 있습니다.
+**[!UICONTROL Attribution Rule Settings]:** (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 속성 분석하는 방법. 규칙 간의 차이를 비교하려면 두 개 이상의 규칙을 선택할 수 있습니다.
 
 >[!NOTE]
 >
@@ -156,4 +156,3 @@ ht-degree: 0%
 >* [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
 >* [보고서 대상 정보](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
-
