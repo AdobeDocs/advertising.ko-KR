@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: b41c1ab857d37d21cf593a8e566b18f2769d47c0
+source-git-commit: 73fb309063066e52e4d8c23f5ce9ebb84159b253
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -70,38 +70,41 @@ ht-degree: 0%
 
 ## [!UICONTROL Multi-Touch Conversion Options] 섹션
 
+**[!UICONTROL Attribution Rule Settings]** 설정은 보고서 유형에 따라 다릅니다.
 
-### [!UICONTROL Attribution Rule Settings]
+* **\[속성 유형\]:** ([!UICONTROL Household Conversion] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 기여하는 방법을 알아봅니다.
 
-**\[속성 유형\]:** ([!UICONTROL Household Conversion] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 기여하는 방법을 알아봅니다.
+   * [!UICONTROL Unique]: (기본값) 차원 값(예: 장치 또는 배치)이 전환 경로에 있었던 횟수를 카운트합니다.
 
-* [!UICONTROL Unique]: (기본값) 차원 값(예: 장치 또는 배치)이 전환 경로에 있었던 횟수를 카운트합니다.
+   * [!UICONTROL Multi-Touch Attribution (MTA)]: 전환 경로에서 차원 값(예: 디바이스 또는 배치)의 발생 빈도를 기반으로 각 전환의 크레딧을 분배합니다. 예를 들어 전환 전에 CTV에 8개, 모바일에 2개로 총 10개의 노출이 있었다면 크레딧의 80%(0.8)는 CTV 화면에, 0.2는 모바일에 제공됩니다.
 
-* [!UICONTROL Multi-Touch Attribution (MTA)]: 전환 경로에서 차원 값(예: 디바이스 또는 배치)의 발생 빈도를 기반으로 각 전환의 크레딧을 분배합니다. 예를 들어 전환 전에 CTV에 8개, 모바일에 2개로 총 10개의 노출이 있었다면 크레딧의 80%(0.8)는 CTV 화면에, 0.2는 모바일에 제공됩니다.
+* **\[규칙 유형\]:** (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 속성 분석하는 방법. 규칙 간의 차이를 비교하려면 두 개 이상의 규칙을 선택할 수 있습니다.
 
-**\[규칙 유형\]:** (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 속성 분석하는 방법. 규칙 간의 차이를 비교하려면 두 개 이상의 규칙을 선택할 수 있습니다.
+  >[!NOTE]
+  >
+  >전환 경로에는에 구성된 광고주의 노출 또는 클릭 전환 확인 기간 내의 모든 노출 및 클릭이 포함됩니다. [!DNL Advertising Search, Social, & Commerce]. 전환 속성 중에 클릭이 노출보다 선호됩니다. 전환 경로에서 모든 클릭은 속성 규칙에 따라 전체 크레딧을 받습니다. 전환 경로에서 클릭이 추적되지 않는 경우에만 노출이 크레딧을 받습니다.
 
->[!NOTE]
->
->전환 경로에는에 구성된 광고주의 노출 또는 클릭 전환 확인 기간 내의 모든 노출 및 클릭이 포함됩니다. [!DNL Advertising Search, Social, & Commerce]. 전환 속성 중에 클릭이 노출보다 선호됩니다. 전환 경로에서 모든 클릭은 속성 규칙에 따라 전체 크레딧을 받습니다. 전환 경로에서 클릭이 추적되지 않는 경우에만 노출이 크레딧을 받습니다.
+   * *[!UICONTROL Last Event]:* 전환 경로의 마지막 클릭 또는 노출로 전환하는 속성입니다.
 
-* *[!UICONTROL Last Event]:* 전환 경로의 마지막 클릭 또는 노출로 전환하는 속성입니다.
+   * *[!UICONTROL Weight Last More]:* 속성은 전환 경로의 모든 이벤트로 전환되지만 마지막 이벤트에는 가장 많은 가중치를 부여하며 이전 이벤트에는 순차적으로 더 적은 가중치를 제공합니다.
 
-* *[!UICONTROL Weight Last More]:* 속성은 전환 경로의 모든 이벤트로 전환되지만 마지막 이벤트에는 가장 많은 가중치를 부여하며 이전 이벤트에는 순차적으로 더 적은 가중치를 제공합니다.
+   * *[!UICONTROL Even Distribution]:* 속성은 전환 경로의 각 이벤트에 대해 동일하게 전환됩니다.
 
-* *[!UICONTROL Even Distribution]:* 속성은 전환 경로의 각 이벤트에 대해 동일하게 전환됩니다.
+   * *[!UICONTROL Weight First More]:* 속성은 전환 경로의 모든 이벤트로 전환되지만, 첫 번째 이벤트에는 가장 많은 가중치를 부여하며, 다음 이벤트에는 순차적으로 더 적은 가중치를 제공합니다.
 
-* *[!UICONTROL Weight First More]:* 속성은 전환 경로의 모든 이벤트로 전환되지만, 첫 번째 이벤트에는 가장 많은 가중치를 부여하며, 다음 이벤트에는 순차적으로 더 적은 가중치를 제공합니다.
+   * *[!UICONTROL First Event]:* 전환 경로의 첫 번째 클릭 또는 노출로 전환하는 속성입니다.
 
-* *[!UICONTROL First Event]:* 전환 경로의 첫 번째 클릭 또는 노출로 전환하는 속성입니다.
+   * *[!UICONTROL U-shaped]:* 전환 경로의 모든 이벤트에 대해 전환 속성을 지정하지만, 첫 번째 및 마지막 이벤트에 가장 많은 가중치를 주고, 전환 경로 중간에 있는 이벤트에는 순차적으로 더 적은 가중치를 줍니다.
 
-* *[!UICONTROL U-shaped]:* 전환 경로의 모든 이벤트에 대해 전환 속성을 지정하지만, 첫 번째 및 마지막 이벤트에 가장 많은 가중치를 주고, 전환 경로 중간에 있는 이벤트에는 순차적으로 더 적은 가중치를 줍니다.
+   * *[!UICONTROL Display Only]:*  전환 경로의 마지막 DSP 클릭 또는 노출로 전환하는 속성입니다. 여기에는 비디오 및 연결된 TV 광고가 포함되며 의 클릭 수는 제외됩니다. [!DNL Advertising Search, Social, & Commerce] 광고.
 
-* *[!UICONTROL Display Only]:*  전환 경로의 마지막 DSP 클릭 또는 노출로 전환하는 속성입니다. 여기에는 비디오 및 연결된 TV 광고가 포함되며 의 클릭 수는 제외됩니다. [!DNL Advertising Search, Social, & Commerce] 광고.
+   * *[!UICONTROL Social Only]:* 사용되지 않음
 
-* *[!UICONTROL Social Only]:* 사용되지 않음
+  <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-<!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
+<!--
+* **Lookback:** ([!UICONTROL Household Conversion] reports with [!UICONTROL Conversion Metrics] or [!UICONTROL Custom Goals] columns; advertisers with Adobe Advertising conversion tracking only) Within the report, the number of days after a paid click in an event series occurs in which the click can be attributed to a conversion.
+-->
 
 **[!UICONTROL Paths as Columns]:**  (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열) 동일한 장치에서 이전 이벤트가 발생할 때 보고할 전환 유형입니다. 최대 세 가지 유형을 포함할 수 있습니다. 선택한 각 유형의 경우 각 전환 지표에 대해 별도의 열이 포함되며 지정된 접미사([!UICONTROL (tl)], [!UICONTROL (ct)], 또는 [!UICONTROL (vt)]):
 
