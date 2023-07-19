@@ -3,7 +3,7 @@ title: 사용자 정의 보고서 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: b3c45f6ae5adcf7cd41060e4e724dbb8021c8c1b
+source-git-commit: ab892528a2fbc0ed5994938ead23cd8e33e8b45f
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
      >
      >이 보고서에는 청구 세그먼트에 대한 데이터가 포함됩니다. 사용자 또는 장치에 여러 세그먼트에 속하는 노출이 제공되는 경우 청구 가능한 세그먼트는 하나만 노출로 크레딧됩니다.
 
-   * **[!UICONTROL Conversion]:** 이 보고서를 사용하여 Adobe 광고 전환 추적을 사용하여 캡처된 전환 지표를 기반으로 캠페인이 수행되는 방식을 이해합니다. 이 보고서에는 멀티 터치 속성이 포함됩니다.
+   * **[!UICONTROL Conversion]:** 이 보고서를 사용하여 Adobe Advertising 전환 추적을 사용하여 캡처된 전환 지표를 기반으로 캠페인이 수행되는 방식을 이해합니다. 이 보고서에는 멀티 터치 속성이 포함됩니다.
 
    * **[!UICONTROL Device]:** 사전 채워진 이 템플릿을 사용하여 디바이스 관련 차원별 주요 지표를 볼 수 있습니다.
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Household Reach & Frequency]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 단일 차원에 대한 노출 횟수, 도달 범위 및 빈도를 확인할 수 있습니다. 인사이트를 사용하여 미디어 믹스를 최적화하고, 성능을 개선하고, 증분 도달 기회를 식별합니다. 를 참조하십시오.[세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md)&quot; 을 참조하십시오.
 
-* **[!UICONTROL Household Conversions]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 가구 수준에서 뷰스루 전환을 볼 수 있습니다. 이 인사이트를 사용하여 캠페인 성과를 측정하고 최적화할 수 있습니다. 를 참조하십시오.[세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md)&quot; 을 참조하십시오.
+   * **[!UICONTROL Household Conversions]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 가구 수준에서 뷰스루 전환을 볼 수 있습니다. 이 인사이트를 사용하여 캠페인 성과를 측정하고 최적화할 수 있습니다. 를 참조하십시오.[세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md)&quot; 을 참조하십시오.
 
 ## 교차 계정 보고 {#cross-account-reporting}
 
