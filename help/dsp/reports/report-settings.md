@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 3faf43573cb073be828b0740f68f0e7d0612a1ef
+source-git-commit: b41c1ab857d37d21cf593a8e566b18f2769d47c0
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,22 @@ ht-degree: 0%
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** 열 머리글 순서. 열을 끌어다 놓아 순서를 사용자 지정할 수 있습니다.
 
-## [!UICONTROL Multi-Touch Conversion Options] 섹션
-
 **[!UICONTROL Format]:** 보고서 생성 여부 *[!UICONTROL CSV]* (쉼표로 구분된 값) 또는 *[!UICONTROL Tab]* (탭으로 구분된 값) 형식입니다.
 
-**[!UICONTROL Report Headers]:** 종료 여부 *[!UICONTROL Include]* 또는 *[!UICONTROL Do Not Include]* 열 머리글입니다.
+**[!UICONTROL Headers]:** 종료 여부 *[!UICONTROL Include]* 또는 *[!UICONTROL Do Not Include]* 열 머리글입니다.
 
-**[!UICONTROL Attribution Rule Settings]:** (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 속성 분석하는 방법. 규칙 간의 차이를 비교하려면 두 개 이상의 규칙을 선택할 수 있습니다.
+## [!UICONTROL Multi-Touch Conversion Options] 섹션
+
+
+### [!UICONTROL Attribution Rule Settings]
+
+**\[속성 유형\]:** ([!UICONTROL Household Conversion] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 기여하는 방법을 알아봅니다.
+
+* [!UICONTROL Unique]: (기본값) 차원 값(예: 장치 또는 배치)이 전환 경로에 있었던 횟수를 카운트합니다.
+
+* [!UICONTROL Multi-Touch Attribution (MTA)]: 전환 경로에서 차원 값(예: 디바이스 또는 배치)의 발생 빈도를 기반으로 각 전환의 크레딧을 분배합니다. 예를 들어 전환 전에 CTV에 8개, 모바일에 2개로 총 10개의 노출이 있었다면 크레딧의 80%(0.8)는 CTV 화면에, 0.2는 모바일에 제공됩니다.
+
+**\[규칙 유형\]:** (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 속성 분석하는 방법. 규칙 간의 차이를 비교하려면 두 개 이상의 규칙을 선택할 수 있습니다.
 
 >[!NOTE]
 >

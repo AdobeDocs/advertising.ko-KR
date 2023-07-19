@@ -2,9 +2,9 @@
 title: 세대 보고서에 대한 FAQ
 description: 가구 보고서가 다른 보고서 및 문제 해결과 어떻게 다른지 포함하여 가구 도달 범위, 빈도 및 전환 데이터에 대해 자세히 알아보십시오.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
+source-git-commit: bd925c41f7b949c56402edd4e2dc393f0c5bed57
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ ht-degree: 0%
 
 두 가지 유형의 속성 메서드가 지원됩니다.
 
-* 고유: 전환 경로에 있는 차원 값(예: 장치 또는 배치)의 횟수를 카운트합니다.
+* [!UICONTROL Unique]: 전환 경로에 있는 차원 값(예: 디바이스 또는 배치)의 횟수를 카운트합니다.
 
-* MTA(다중 터치 속성): 전환 경로에서 차원 값(예: 장치 또는 배치)의 발생 빈도에 따라 각 전환의 크레딧을 배포합니다. 예를 들어 전환 전에 CTV에 8개, 모바일에 2개로 총 10개의 노출이 있었다면 크레딧의 80%(0.8)는 CTV 화면에, 0.2는 모바일에 제공됩니다.
+* [!UICONTROL Multi-Touch Attribution (MTA)]: 전환 경로에서 차원 값(예: 디바이스 또는 배치)의 발생 빈도를 기반으로 각 전환의 크레딧을 분배합니다. 예를 들어 전환 전에 CTV에 8개, 모바일에 2개로 총 10개의 노출이 있었다면 크레딧의 80%(0.8)는 CTV 화면에, 0.2는 모바일에 제공됩니다.
 
 ### 가구 전환 보고는 Adobe Analytics의 CTV 뷰스루 보고와 어떻게 다릅니까?
 
