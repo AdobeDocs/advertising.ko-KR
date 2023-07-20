@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 73fb309063066e52e4d8c23f5ce9ebb84159b253
+source-git-commit: 781b0c8874d73d060bc7133bdd55d1ceffb63435
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -74,9 +74,9 @@ ht-degree: 0%
 
 * **\[속성 유형\]:** ([!UICONTROL Household Conversion] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 기여하는 방법을 알아봅니다.
 
-   * [!UICONTROL Unique]: (기본값) 차원 값(예: 장치 또는 배치)이 전환 경로에 있었던 횟수를 카운트합니다.
+   * *[!UICONTROL Unique]:* (기본값) 전환 경로에 있는 차원 값(예: 장치 또는 배치)의 횟수를 카운트합니다.
 
-   * [!UICONTROL Multi-Touch Attribution (MTA)]: 전환 경로에서 차원 값(예: 디바이스 또는 배치)의 발생 빈도를 기반으로 각 전환의 크레딧을 분배합니다. 예를 들어 전환 전에 CTV에 8개, 모바일에 2개로 총 10개의 노출이 있었다면 크레딧의 80%(0.8)는 CTV 화면에, 0.2는 모바일에 제공됩니다.
+   * *[!UICONTROL Multi-Touch Attribution (MTA)]:*  전환 경로에서 차원 값(예: 디바이스 또는 배치)의 발생 빈도를 기반으로 각 전환의 크레딧을 분배합니다. 예를 들어 전환 전에 CTV에 8개, 모바일에 2개로 총 10개의 노출이 있었다면 크레딧의 80%(0.8)는 CTV 화면에, 0.2는 모바일에 제공됩니다.
 
 * **\[규칙 유형\]:** (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 속성 분석하는 방법. 규칙 간의 차이를 비교하려면 두 개 이상의 규칙을 선택할 수 있습니다.
 
@@ -102,9 +102,7 @@ ht-degree: 0%
 
   <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-<!--
-* **Lookback:** ([!UICONTROL Household Conversion] reports with [!UICONTROL Conversion Metrics] or [!UICONTROL Custom Goals] columns; advertisers with Adobe Advertising conversion tracking only) Within the report, the number of days after a paid click in an event series occurs in which the click can be attributed to a conversion.
--->
+* **전환 확인:** ([!UICONTROL Household Conversion] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열, Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환 이벤트가 기여할 수 있는 노출 이벤트 후 최대 일 수입니다. 기본값은 입니다 *[!UICONTROL 30 days]*, 최대값은 92일입니다.
 
 **[!UICONTROL Paths as Columns]:**  (모두 [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], 및 [!UICONTROL Site] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열) 동일한 장치에서 이전 이벤트가 발생할 때 보고할 전환 유형입니다. 최대 세 가지 유형을 포함할 수 있습니다. 선택한 각 유형의 경우 각 전환 지표에 대해 별도의 열이 포함되며 지정된 접미사([!UICONTROL (tl)], [!UICONTROL (ct)], 또는 [!UICONTROL (vt)]):
 
