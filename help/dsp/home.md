@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: d825772e74e8b3ab9eec747706801beca08aaa9c
+source-git-commit: a616228e40df2ed49b0eb354f3c626a2076524e3
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023년 7월 19일 | 보고 | (DSP 사용자 [!DNL Analytics for Advertising]) 새로운 [!UICONTROL Household Conversions Report] 장치/쿠키 수준이 아닌 IP 주소를 기반으로 가구 수준에서 뷰스루 전환을 표시합니다. | 를 참조하십시오.[보고서 정보](/help/dsp/reports/report-about.md)&quot; 및 &quot;[세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md).&quot; |
+| 2023년 7월 19일 | 보고 | 새로운 [!UICONTROL Household Conversions Report] 장치/쿠키 수준이 아닌 IP 주소를 기반으로 가구 수준에서 뷰스루 전환을 표시합니다. | 를 참조하십시오.[보고서 정보](/help/dsp/reports/report-about.md)&quot; 및 &quot;[세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md).&quot; |
 | 2023년 5월 29일 | [!UICONTROL Campaigns] | 이제 캠페인, 패키지 및 광고를 일시 중지하거나 활성화할 수 있습니다. 배치를 이미 일시 중지하고 활성화할 수 있습니다. | 를 참조하십시오.[캠페인 일시 중지 또는 활성화](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot; &quot;[패키지 일시 중지 또는 활성화](/help/dsp/campaign-management/packages/package-pause-activate.md)및 &quot;[광고 일시 중지 또는 활성화](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
 | 2023년 5월 24일 | [!UICONTROL Campaigns] | 이제 범용 비디오 배치 및 광고를 일반적으로 사용할 수 있습니다. | 를 참조하십시오.[유니버설 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md),&quot; &quot;[범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)및 &quot;[광고 만들기](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | 2023년 3월 | [!UICONTROL Reports] | 새 항목 [!UICONTROL Household Report] 는 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 다양한 차원에 대한 노출 횟수, 도달 범위 및 빈도를 표시합니다. 이 보고서에는 다음과 같은 9가지 차원이 포함됩니다. [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length], 및 사용자 작성 [!UICONTROL Tags]. | 를 참조하십시오.[보고서 정보](/help/dsp/reports/report-about.md),&quot; &quot;[보고서 설정](/help/dsp/reports/report-settings.md)및 &quot;[세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md).&quot; |
@@ -44,7 +44,7 @@ ht-degree: 0%
 | 2022년 4월 12일 | Campaign Management | 광고 사양이 현재 지원을 반영하도록 업데이트되었습니다. | 를 참조하십시오.[지원되는 광고 유형에 대한 사양](/help/dsp/campaign-management/ads/ad-specs.md).&quot; |
 | 2022년 2월 17일 | 비디오 자습서 | &quot;표준 디스플레이 배치를 만드는 방법&quot;에 대한 새로운 비디오를 사용할 수 있습니다. | 다음을 참조하십시오 [Adobe Advertising Tutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/placement-create.html). |
 | 2022년 1월 31일 | 도움말 | 다음에 대한 추가 정보: [!DNL Deal IDs] 및 [!DNL Simple Ad Serving] 을(를) 이제 사용할 수 있습니다. | 재고 > 개인 재고에 대한 단원을 참조하십시오. |
-| 2021년 12월 10일 | 비디오 자습서 | 새로운 비디오 튜토리얼은 다음과 같습니다. &quot;Advertising DSP 소개&quot;, &quot;계정 구조 및 사용자 인터페이스&quot;, &quot;패키지를 만드는 방법&quot;, &quot;타사 광고 태그를 대량 업로드하는 방법&quot; 및 &quot;일괄 편집 도구를 사용하여 배치를 편집하는 방법&quot;. | 를 참조하십시오.[Adobe 광고 Tutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html).&quot; |
+| 2021년 12월 10일 | 비디오 자습서 | 새로운 비디오 튜토리얼은 다음과 같습니다. &quot;Advertising DSP 소개&quot;, &quot;계정 구조 및 사용자 인터페이스&quot;, &quot;패키지를 만드는 방법&quot;, &quot;타사 광고 태그를 대량 업로드하는 방법&quot; 및 &quot;일괄 편집 도구를 사용하여 배치를 편집하는 방법&quot;. | 를 참조하십시오.[Adobe Advertising Tutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html).&quot; |
 | 2021년 11월 12일 | [!UICONTROL Deal IDs] | 다음에서 [!UICONTROL Deal ID] 설정, &quot;[!DNL Rubicon]&quot;이(가) &quot;(으)로 변경되었습니다.[!DNL Magnite DV+],&quot; [!DNL DV+] 는 디스플레이, 비디오 및 오디오와 같은 다른 포맷을 나타냅니다. 이 이름은 의 새 브랜딩을 반영합니다. [!DNL Magnite] SSP. **참고:** [!DNL Magnite DV+] 이(가) 여전히 &quot;(으)로 나열됨[!DNL Rubicon]의 &quot; [!UICONTROL Deal ID Inbox]. | 를 참조하십시오.[SSP 파트너](/help/dsp/inventory/ssp-partners.md).&quot; |
 | 2021년 10월 27일 | 사용자 정의 보고서 | 이제 을(를) 만들고 관리할 수 있습니다 [!DNL Amazon S3] 및 라는 다른 유형의 FTP 게재 위치 *[!DNL report destinations]*&#x200B;사용자 지정 보고서용 보고서 대상을 구성하고 나면 한 개 이상의 단일 대상 유형 위치나 이메일 수신자에게 배포되는 새로운 맞춤형 보고서를 각각 설정할 수 있습니다. 업데이트 [!DNL Amazon S3] 및 FTP 자격 증명으로 보고서 배달이 중단되지 않습니다.<br><br>기존 보고서는 지정된 이메일 수신자에게 계속 전송됩니다. 다른 보고서 대상에 배포를 구성하려면 새로운 대상이 포함된 보고서를 만듭니다. | 를 참조하십시오.[정보 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md),&quot; &quot;[만들기 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md),&quot; &quot;[[!UICONTROL Report Destination] 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)및 &quot;[사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md).&quot; |
 |  | [!UICONTROL Packages], [!UICONTROL Placements], 및 [!UICONTROL Ads] 조회수 | 이제 하루 동안의 데이터를 볼 때 트렌드 차트에 시간별 데이터가 포함됩니다. 해당 시간의 데이터를 보려면 모든 포인트 위에 커서를 놓습니다. | 를 참조하십시오.[단일 캠페인 보고](/help/dsp/campaign-management/reports/campaign-reports-about.md#single-campaign-reporting).&quot; |
@@ -52,7 +52,7 @@ ht-degree: 0%
 |  | [!UICONTROL Ads] | (포함할 권한이 있는 사용자 [!DNL Clearcast] 광고의 시계 번호) 다른 광고에 첨부된 시계 번호를 사용하는 경우 DSP에 더 이상 오류가 표시되지 않습니다. **참고:**  가장 좋은 방법은 각 비디오 광고에 고유한 시계 번호를 사용하는 것입니다. 그렇지 않으면 게시자는 모든 광고를 승인하지 않습니다. | — |
 |  | [!UICONTROL Deal IDs] | 다음 [!UICONTROL Deal ID] 사용자 인터페이스의 설정 및 기타 위치는 의 새 브랜딩을 반영합니다. [!DNL Magnite] SSP:<br><ul><li>SSP&quot;[!DNL Tremor]&quot; ([!DNL Telaria])이(가) 현재 &quot;&quot;입니다.[!DNL Magnite CTV].&quot;</li><li>앞으로 몇 주 안에 [!DNL Rubicon]&quot;&quot;가 &quot;&quot;로 변경됩니다.[!DNL Magnite DV+],&quot; [!DNL DV+] 는 디스플레이, 비디오 및 오디오와 같은 다른 포맷을 나타냅니다.</li></ul> | 를 참조하십시오.[SSP 파트너](/help/dsp/inventory/ssp-partners.md).&quot; |
 |  | [!DNL Freewheel] 프로그램 보증 거래 | 이제 광고를 제출하고 의 광고 상태를 확인할 수 있습니다. [!DNL Freewheel] 에서 프로그램 보증 거래 [!UICONTROL Ads] 보기. 이전에는 [!UICONTROL Deals] 보기. | 를 참조하십시오.[프로그램 보증 거래에 대한 광고 제출 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] 프로그램 보증 거래](/help/dsp/inventory/freewheel-check-status.md).&quot; |
-| 2021년 10월 7일 | 도움말 | 모두 [DSP 및 기타 Adobe 광고 설명서](https://experienceleague.adobe.com/docs/advertising.html) 날짜 [!DNL Experience League] 는 이제 사용 가능한 모든 언어로 기계 번역됩니다. 표시된 언어를 변경하려면 페이지의 왼쪽 하단에 있는 &quot;언어 변경&quot; 메뉴를 사용하십시오.<br>![언어 변경](/help/dsp/assets/change-language.png) |
+| 2021년 10월 7일 | 도움말 | 모두 [DSP 및 기타 Adobe Advertising 설명서](https://experienceleague.adobe.com/docs/advertising.html) 날짜 [!DNL Experience League] 는 이제 사용 가능한 모든 언어로 기계 번역됩니다. 표시된 언어를 변경하려면 페이지의 왼쪽 하단에 있는 &quot;언어 변경&quot; 메뉴를 사용하십시오.<br>![언어 변경](/help/dsp/assets/change-language.png) |
 
 {style="table-layout:auto"}
 
