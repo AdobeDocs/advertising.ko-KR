@@ -1,9 +1,9 @@
 ---
 title: "정보 [!UICONTROL Asset Library]"
 description: 광고 자산의 자산 라이브러리에 대해 알아봅니다.
-source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
+source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *대상 [!DNL Google Ads] 계정만*
 
-*Beta 기능*
+*Beta 기능 열기*
 
 위치 [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)], 재사용 가능한 이미지, 비디오 및 텍스트 에셋을 만들고 [!DNL Google Ads] 계정 수준 자산 라이브러리입니다.
 
