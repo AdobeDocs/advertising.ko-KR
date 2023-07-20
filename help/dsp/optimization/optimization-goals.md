@@ -3,7 +3,7 @@ title: 최적화 목표 및 사용 방법
 description: 사용 가능한 최적화 목표를 참조하고 이를 사용할 시기를 확인하십시오.
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 2715dc78193f1f5239f0bc4689262df05c6770eb
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
@@ -20,8 +20,8 @@ ht-degree: 0%
 | [!UICONTROL Always Max Bid & Highest Viewability Rate (Adobe – GroupM)] | 패키지 수준 최적화를 통해 예산 할당은 가장 높은 조회율을 보이는 배치에 우선순위를 지정합니다.<br><br>비용 목표가 충족되는 경우 경매 평가에서 조회율의 우선 순위를 지정합니다. 제출된 입찰은 항상 최대 입찰이 설정되지만, 배치가 잘 지출되는 경우 예측된 가시성 등급 임계값은 더 엄격해질 것입니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 최고 조회율<br><br>광고 유형: 대화형 프리롤 전용<br><br><b>참고:</b> 이 목표는 항상 배치 수준의 최대 입찰가를 사용합니다.<br><br>캠페인의 가시성 민감도 설정이 &quot;표준(2초 연속 조회 중 광고의 50%)&quot;으로 설정되어 있으면 미디어 등급 위원회(MRC) 가시성 측정 표준이 캠페인에 사용됩니다. 캠페인이 &quot;엄격함(50% 기간 동안 보기 및 오디오에서 광고 100%)&quot;으로 설정된 경우 GroupM 가시성 측정 표준이 캠페인에 사용됩니다. 이상적으로는 캠페인 설정을 최적화 목표 및 사전 입찰 필터 설정과 일치시켜야 합니다. |
 | [!UICONTROL Always Max Bid & Highest Viewability Rate (Adobe – MRC)] | 패키지 수준 최적화를 통해 예산 할당은 가장 높은 조회율을 보이는 배치에 우선순위를 지정합니다.<br><br>비용 목표가 충족되는 경우 경매 평가에서 조회율의 우선 순위를 지정합니다. 제출된 입찰은 항상 최대 입찰이 설정되지만, 배치가 잘 지출되는 경우 예측된 가시성 등급 임계값은 더 엄격해질 것입니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 최고 조회율<br><br>광고 유형: 대화형 프리롤 전용<br><br><b>참고:</b> 이 목표는 항상 배치 수준의 최대 입찰가를 사용합니다.<br><br>캠페인의 가시성 민감도 설정이 &quot;표준(2초 연속 조회 중 광고의 50%)&quot;으로 설정되어 있으면 미디어 등급 위원회(MRC) 가시성 측정 표준이 캠페인에 사용됩니다. 캠페인이 &quot;엄격함(50% 기간 동안 보기 및 오디오에서 광고 100%)&quot;으로 설정된 경우 GroupM 가시성 측정 표준이 캠페인에 사용됩니다. 이상적으로는 캠페인 설정을 최적화 목표 및 사전 입찰 필터 설정과 일치시켜야 합니다. |
 | [!UICONTROL Always Max Bid & Highest Viewability Rate (IAS – MRC)] | 패키지 수준 최적화를 통해 예산 할당은 가장 높은 조회율을 보이는 배치에 우선순위를 지정합니다.<br><br>비용 목표가 충족되는 경우 경매 평가에서 조회율의 우선 순위를 지정합니다. 제출된 입찰은 항상 최대 입찰이 설정되지만, 배치가 잘 지출되는 경우 예측된 가시성 등급 임계값은 더 엄격해질 것입니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 최고 조회율<br><br>광고 유형: 대화형 프리롤 전용<br><br><b>참고:</b> 이 목표는 항상 배치 수준의 최대 입찰가를 사용합니다.<br><br>이 설정은 IAS의 서드파티 데이터가 알고리즘을 알릴 때 가장 잘 작동합니다. 캠페인에 대해 IAS 통합을 활성화한 경우에만 이 목표를 사용하십시오. |
-| [!UICONTROL Highest ROAS – Custom Goal] | (패키지 수준에서만 사용 가능) 예산 할당은 ROAS(광고 투자 수익률)가 가장 높은 배치의 우선 순위를 지정합니다.<br><br>경매 평가는 ROAS의 우선 순위를 지정합니다. 지출 목표가 충족되는 경우 DSP은 CPM을 낮추는 것과 ROAS를 높이는 것의 균형을 맞출 것입니다. | 캠페인 유형: 성과<br><br>벤치마크: 가장 높은 수익<br><br>광고 유형: 디스플레이, 기본 및 비디오<br><br><b>참고:</b> 자세한 내용은 &quot;성과 캠페인 설정 우수 사례&quot;를 참조하십시오. |
-| [!UICONTROL Lowest CPA – Custom Goal] | (패키지 수준에서만 사용 가능) 예산 할당은 CPA가 가장 낮은 배치의 우선 순위를 지정합니다.<br><br>경매 평가는 CPA의 우선 순위를 지정합니다. 지출 목표가 충족되는 경우 DSP은 CPM을 낮추는 것과 CPA를 낮추는 것의 균형을 이룹니다. | 캠페인 유형: 성과<br><br>벤치마크: 가장 낮은 CPA<br><br>광고 유형: 디스플레이, 기본 및 비디오<br><br><b>참고:</b> 자세한 내용은 &quot;성과 캠페인 설정 우수 사례&quot;를 참조하십시오. |
+| [!UICONTROL Highest ROAS – Custom Goal] | (패키지 수준에서만 사용 가능) 예산 할당은 ROAS(광고 투자 수익률)가 가장 높은 배치의 우선 순위를 지정합니다.<br><br>경매 평가는 ROAS의 우선 순위를 지정합니다. 지출 목표가 충족되는 경우 DSP은 CPM을 낮추는 것과 ROAS를 높이는 것의 균형을 맞출 것입니다. | 캠페인 유형: 성과<br><br>벤치마크: 가장 높은 수익<br><br>광고 유형: 디스플레이, 기본 및 비디오<br><br><b>참고:</b> 를 참조하십시오.[성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md)&quot; 을 참조하십시오. |
+| [!UICONTROL Lowest CPA – Custom Goal] | (패키지 수준에서만 사용 가능) 예산 할당은 CPA가 가장 낮은 배치의 우선 순위를 지정합니다.<br><br>경매 평가는 CPA의 우선 순위를 지정합니다. 지출 목표가 충족되는 경우 DSP은 CPM을 낮추는 것과 CPA를 낮추는 것의 균형을 이룹니다. | 캠페인 유형: 성과<br><br>벤치마크: 가장 낮은 CPA<br><br>광고 유형: 디스플레이, 기본 및 비디오<br><br><b>참고:</b> 를 참조하십시오.[성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md)&quot; 을 참조하십시오. |
 | [!UICONTROL Lowest Cost Per Click] | 패키지 수준 최적화를 통해 예산 할당은 CPC가 가장 낮은 배치에 우선 순위를 두게 됩니다.<br><br>경매 평가는 CPC의 우선 순위를 지정합니다. 지출 목표가 충족되는 경우 DSP은 CPC를 낮추기 위해 CPM을 낮추는 것과 CTR을 높이는 것의 균형을 맞출 것입니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 효율적인 CPM 및 높은 클릭스루 비율<br><br>광고 유형: 프리롤, 표시<br><br><b>참고:</b> 이 목표를 사용하여 가능한 최상의 CPC를 달성하십시오. 최대 CPM을 보장하려면 배치에 대한 최대 입찰가로 사용합니다. |
 | [!UICONTROL Lowest Cost Per Completion] | 패키지 수준 최적화를 통해 예산 할당은 완료당 비용이 가장 낮은 배치의 우선 순위를 지정합니다.<br><br>경매 평가는 비디오 완료율(VCR)의 우선 순위를 지정합니다. 지출 목표가 충족되는 경우 DSP은 완료당 비용을 낮추기 위해 CPM을 낮추는 것과 VCR을 높이는 것의 균형을 맞출 것입니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 효율적인 CPM 및 최고 완료율<br><br>광고 유형: 프리롤만 |
 | [!UICONTROL Lowest Cost Per Engagement] | 패키지 수준 최적화를 통해 예산 할당은 참여율이 가장 낮은 배치에 우선 순위를 두게 됩니다.<br><br>경매 평가는 참여율을 우선시합니다. 지출 목표가 충족되는 경우 DSP은 CPM을 낮추는 것과 참여당 비용을 낮추는 것의 균형을 맞추려고 시도합니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 효율적인 CPM 및 가장 높은 참여율<br><br>광고 유형: 모바일 삽입 광고 전용 |
@@ -40,4 +40,3 @@ ht-degree: 0%
 >* [성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [배치 수준 사전 입찰 필터 및 사용 방법](optimization-pre-bid-filters.md)
 >* [캠페인 설정](/help/dsp/campaign-management/campaigns/campaign-settings.md)
-
