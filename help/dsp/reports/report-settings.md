@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 781b0c8874d73d060bc7133bdd55d1ceffb63435
+source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Multi-Touch Conversion Options] 섹션
 
-**[!UICONTROL Attribution Rule Settings]** 설정은 보고서 유형에 따라 다릅니다.
+**[!UICONTROL Attribution Rule Settings]:** 설정은 보고서 유형에 따라 다릅니다.
 
 * **\[속성 유형\]:** ([!UICONTROL Household Conversion] 다음을 포함하는 보고서: [!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열; Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 기여하는 방법을 알아봅니다.
 
@@ -150,7 +150,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Save Report] 섹션
 
-**[!UICONTROL Send & Save]:** 보고서를 보낼 시기: *[!UICONTROL On Schedule]* 또는 *[!UICONTROL Run Now]*. 예약된 보고서는 계정의 시간대에서 09:00까지 배달됩니다.
+**[!UICONTROL Send & Save]:** 보고서를 보낼 시기: *[!UICONTROL On Schedule]* 또는 *[!UICONTROL Run Now]*. 예약된 보고서는 계정의 시간대에서 09:00까지 제공됩니다.
 
 >[!NOTE]
 >
