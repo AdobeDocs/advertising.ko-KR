@@ -2,9 +2,9 @@
 title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Microsoft Advertising] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Microsoft Advertising] 계정.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: e4901c1ac6e73f27886e315136c3fe9b865cdd48
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '6721'
+source-wordcount: '6744'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 다음은 사용 가능한 모든 데이터 필드 테이블 및 개별 엔터티(예: 캠페인 및 키워드)에 대한 데이터를 추가, 편집 또는 삭제하는 데 필요한 필드를 나타내는 추가 테이블입니다.
 
-## 사용 가능한 모든 데이터 필드
+## 사용 가능한 모든 데이터 필드 {#bulksheet-fields-all-microsoft}
 
-다음 표에는 사용 가능한 모든 데이터 필드가 나와 있습니다.
+다음 표에서는 사용 가능한 모든 데이터 필드에 대해 설명합니다.
 
 계정 엔티티와 관련된 데이터 필드는 &quot;[각 계정 구성 요소를 생성, 편집 또는 삭제하는 데 필요한 필드](#bulksheet-fields-per-component-microsoft).
 
@@ -118,6 +118,10 @@ ht-degree: 1%
 [^1]: [!DNL Excel] 파일을 열 때 큰 숫자를 과학적 표기법(예: 2.12E+2115585666)으로 변환합니다. 표준 표기법에서 숫자를 보려면 열에서 셀을 선택하고 수식 입력줄 내부를 클릭합니다.
 
 ## 각 계정 구성 요소를 생성, 편집 또는 삭제하는 데 필요한 필드 {#bulksheet-fields-per-component-microsoft}
+
+다음 섹션에는 특정 계정 엔티티와 관련된 필드가 포함되어 있습니다.
+
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-microsoft).&quot;
 
 >[!NOTE]
 >
