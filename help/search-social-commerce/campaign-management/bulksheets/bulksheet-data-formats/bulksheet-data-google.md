@@ -2,9 +2,9 @@
 title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Google Ads] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Google Ads] 계정.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '7729'
+source-wordcount: '7884'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 다음 표에서는 사용 가능한 모든 데이터 필드에 대해 설명합니다.
 
-계정 엔티티와 관련된 데이터 필드는 &quot;[각 계정 구성 요소를 생성, 편집 또는 삭제하는 데 필요한 필드](#bulksheet-fields-per-component-google).
+계정 엔티티와 관련된 데이터 필드는 &quot;[각 계정 구성 요소를 생성, 편집 또는 삭제하는 데 필요한 필드](#bulksheet-fields-per-component-google).&quot;
 
 >[!NOTE]
 >
@@ -132,13 +132,13 @@ ht-degree: 1%
 
 다음 섹션에는 특정 계정 엔티티와 관련된 필드가 포함되어 있습니다.
 
-각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
-
 >[!NOTE]
 >
 >필드가 작업에 적용되지 않으면 필드에 입력된 값이 무시됩니다.
 
 ### 캠페인 필드
+
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
 | 필드 | 필수? |
 | ---- | ---- |
@@ -169,6 +169,8 @@ ht-degree: 1%
 
 ### 광고 그룹 필드
 
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
+
 | 필드 | 필수? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
@@ -188,6 +190,8 @@ ht-degree: 1%
 | [!UICONTROL AMO ID] | 엔티티 ID 및 상위 엔티티 ID를 포함하지 않는 한 데이터를 편집하거나 삭제하는 데 필요합니다.<br><br>Search, Social 및 Commerce는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 
 ### 키워드 필드
+
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
 | 필드 | 필수? | 설명 |
 | ---- | ---- | ---- |
@@ -211,6 +215,8 @@ ht-degree: 1%
 | [!UICONTROL AMO ID] | 엔티티 ID 및 상위 엔티티 ID를 포함하지 않는 한 데이터를 편집하거나 삭제하는 데 필요합니다.<br><br>Search, Social 및 Commerce는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 
 ### 배치 필드
+
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
 | 필드 | 필수? | 설명 |
 | ---- | ---- | ---- |
@@ -238,6 +244,8 @@ ht-degree: 1%
 
 이 광고 유형의 경우 &quot;[!UICONTROL Creative (except RSA)]의 &quot; 행 [!UICONTROL Download Bulksheet] 대화 상자.
 
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
+
 | 필드 | 필수? | 설명 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
@@ -261,6 +269,8 @@ ht-degree: 1%
 
 이 광고 유형의 경우 &quot;[!UICONTROL Creative (except RSA)]의 &quot; 행 [!UICONTROL Download Bulksheet] 대화 상자.
 
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
+
 | 필드 | 필수? | 설명 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
@@ -282,6 +292,8 @@ ht-degree: 1%
 ### 반응형 검색 광고 필드
 
 이 광고 유형의 경우 &quot;[!UICONTROL Responsive Search Ad]의 &quot; 행 [!UICONTROL Download Bulksheet] 대화 상자.
+
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
 | 필드 | 필수? | 설명 |
 | ---- | ---- | ---- |
@@ -308,6 +320,8 @@ ht-degree: 1%
 ### 텍스트 광고 필드
 
 이 광고 유형의 경우 &quot;[!UICONTROL Creative (except RSA)]의 &quot; 행 [!UICONTROL Download Bulksheet] 대화 상자.
+
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
 >[!NOTE]
 >
@@ -337,6 +351,8 @@ ht-degree: 1%
 
 ### 동적 검색 대상(자동 타겟) 필드
 
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
+
 | 필드 | 필수? | 설명 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
@@ -354,6 +370,8 @@ ht-degree: 1%
 | [!UICONTROL AMO ID] | 엔티티 ID 및 상위 엔티티 ID를 포함하지 않는 한 데이터를 편집하거나 삭제하는 데 필요합니다.<br><br>Search, Social 및 Commerce는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 
 ### 쇼핑 제품 그룹 필드
+
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
 | 필드 | 필수? | 설명 |
 | ---- | ---- | ---- |
@@ -377,6 +395,8 @@ ht-degree: 1%
 
 ### 캠페인 수준 및 광고 그룹 수준의 사이트링크 필드
 
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
+
 | 필드 | 필수? | 설명 |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
@@ -394,7 +414,9 @@ ht-degree: 1%
 | [!UICONTROL Sitelink ID] | 행에 a) 사이트 링크를 식별할 수 있는 충분한 속성 열 또는 b) 가 포함되지 않는 한 사이트 링크를 변경하거나 삭제할 때만 필요합니다.[!UICONTROL AMO ID].&quot; 그러나 둘 다 포함하지 않는 경우 [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]  속성 열이 여러 사이트링크와 일치하면 사이트링크 중 하나의 상태만 변경됩니다.<br><br><b>참고:</b> 사이트링크 속성 열을 편집하는 경우 [!UICONTROL Status] 기존 사이트링크의 경우 다음 중 하나를 포함하지 않음 [!UICONTROL Sitelink ID] nor [!UICONTROL AMO ID]를 설치한 후 새 사이트링크가 만들어지고 기존 사이트링크는 변경되지 않습니다. |
 | [!UICONTROL AMO ID] | 엔티티 ID 및 상위 엔티티 ID를 포함하지 않는 한 데이터를 편집하거나 삭제하는 데 필요합니다.<br><br>Search, Social 및 Commerce는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 
-### 위치 대상 필드
+### 위치 대상
+
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
 | 필드 | 필수? | 설명 |
 | ---- | ---- | ---- |
@@ -408,6 +430,8 @@ ht-degree: 1%
 | [!UICONTROL AMO ID] | 다음을 포함하지 않는 한 데이터를 편집하거나 삭제하는 데 필요합니다. [!UICONTROL Campaign ID].<br><br>Search, Social 및 Commerce는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 
 ### 캠페인 수준 및 광고 그룹 수준 장치 대상 필드
+
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
 | 필드 | 필수? | 설명 |
 | ---- | ---- | ---- |
@@ -423,6 +447,8 @@ ht-degree: 1%
 | [!UICONTROL AMO ID] | 장치 Target ID를 포함하지 않는 한 데이터를 편집하거나 삭제하는 데 필요합니다.<br><br>Search, Social 및 Commerce는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 
 ### 캠페인 수준 및 광고 그룹 수준의 RLSA 대상/제외 필드
+
+각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
 | 필드 | 필수? | 설명 |
 | ---- | ---- | ---- |
