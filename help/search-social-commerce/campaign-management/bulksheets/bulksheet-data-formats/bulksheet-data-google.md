@@ -2,9 +2,9 @@
 title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Google Ads] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Google Ads] 계정.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 25f9deef6302065a6576a07fcb880e81470886e5
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7839'
 ht-degree: 1%
 
 ---
@@ -143,8 +143,8 @@ ht-degree: 1%
 | 필드 | 필수? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
-| [!UICONTROL Campaign Name] | 필수 | 계정에 대한 캠페인을 식별하는 고유한 이름. |
-| [!UICONTROL Campaign Budget] | 캠페인을 만드는 데 필요합니다. | 금전적 기호와 구두점을 포함하거나 포함하지 않는 캠페인에 대한 일일 지출 제한. 이 값은 재정의되지만 계정 예산을 초과할 수 없습니다. |
+| [!UICONTROL Campaign Name] | 필수 |
+| [!UICONTROL Campaign Budget] | 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Delivery Method] | 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Channel Type] | 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Networks] | 캠페인을 만드는 데 필요합니다. |
@@ -193,8 +193,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -218,8 +218,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -246,8 +246,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -271,8 +271,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -295,8 +295,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 | |
@@ -327,8 +327,8 @@ ht-degree: 1%
 >
 >확장된 텍스트 광고는 2022년 6월에 더 이상 사용되지 않습니다. 기존 텍스트 광고만 삭제할 수 있습니다.
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -353,8 +353,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -373,8 +373,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -397,8 +397,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 광고 그룹 수준 사이트 링크에 필요합니다. 캠페인 수준 사이트 링크에 적용할 수 없습니다. |
@@ -418,8 +418,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Location] | 필수 |
@@ -433,8 +433,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Device] | 장치 대상을 만들거나 편집하는 데 필요합니다. |
@@ -450,8 +450,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Bid Adjustment] | 선택 사항입니다 |
