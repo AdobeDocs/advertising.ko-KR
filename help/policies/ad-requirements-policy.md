@@ -3,16 +3,16 @@ title: Adobe Advertising 광고 요구 사항 정책
 description: 광고 요구 사항에 대해서는 정책을 참조하십시오.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 04980842afb60870b2beb851e3e80431ae0b037d
+source-git-commit: b81323c8f576617cc551963b7abd28575166f53a
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
 
 # Adobe Advertising 광고 요구 사항 정책
 
-*마지막 업데이트 날짜: 2021년 7월 12일(이 페이지의 업데이트된 제품 이름 및 URL 제외)*
+*마지막 업데이트 날짜: 2021년 7월 12일*
 
 *Adobe Advertising DSP 및 Adobe Advertising 검색, 소셜 및 상거래용*
 
