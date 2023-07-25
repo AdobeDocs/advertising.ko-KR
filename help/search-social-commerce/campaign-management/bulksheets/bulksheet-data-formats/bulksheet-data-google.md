@@ -2,7 +2,7 @@
 title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Google Ads] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Google Ads] 계정.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 25f9deef6302065a6576a07fcb880e81470886e5
+source-git-commit: eed95a48b5fe8a354134b0b658db13665c500920
 workflow-type: tm+mt
 source-wordcount: '7839'
 ht-degree: 1%
