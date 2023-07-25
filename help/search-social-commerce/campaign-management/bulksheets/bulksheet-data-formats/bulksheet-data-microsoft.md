@@ -1,9 +1,10 @@
 ---
 title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Microsoft Advertising] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Microsoft Advertising] 계정.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
+source-git-commit: e4901c1ac6e73f27886e315136c3fe9b865cdd48
 workflow-type: tm+mt
-source-wordcount: '6595'
+source-wordcount: '6721'
 ht-degree: 1%
 
 ---
@@ -12,11 +13,15 @@ ht-degree: 1%
 
 만들고 업데이트하려면 [!DNL Microsoft Advertising] 캠페인 데이터를 대량으로 볼 경우, 검색, 소셜 및 커머스 일괄 시트 파일을 사용할 수 있습니다. [!DNL Microsoft Advertising] 계정. 다음 중 하나를 수행할 수 있습니다. [기존 계정에 대한 일괄 시트 파일 생성](../bulksheet-download.md) 필요한 파일 형식에서 또는 b) 수동으로 생성합니다( &quot; 참조).[지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)지원되는 파일 형식에 대한 일반 정보는 다음을 참조하십시오.
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+각 일괄 시트에는 머리글 필드와 각 필드에 필요한 해당 데이터 필드가 포함되어야 합니다. [수행할 특정 작업](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (예: 광고 만들기) 필드가 필요하지 않으면 헤더 및 데이터 행에서 필드를 생략할 수 있습니다. 벌크 시트 파일을 업로드하면 모든 사용자 지정 열이 삭제됩니다.
+
+다음은 사용 가능한 모든 데이터 필드 테이블 및 개별 엔터티(예: 캠페인 및 키워드)에 대한 데이터를 추가, 편집 또는 삭제하는 데 필요한 필드를 나타내는 추가 테이블입니다.
 
 ## 사용 가능한 모든 데이터 필드
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+다음 표에는 사용 가능한 모든 데이터 필드가 나와 있습니다.
+
+계정 엔티티와 관련된 데이터 필드는 &quot;[각 계정 구성 요소를 생성, 편집 또는 삭제하는 데 필요한 필드](#bulksheet-fields-per-component-microsoft).
 
 | 필드 | 설명 |
 |----|----|
@@ -112,7 +117,11 @@ ht-degree: 1%
 
 [^1]: [!DNL Excel] 파일을 열 때 큰 숫자를 과학적 표기법(예: 2.12E+2115585666)으로 변환합니다. 표준 표기법에서 숫자를 보려면 열에서 셀을 선택하고 수식 입력줄 내부를 클릭합니다.
 
-## 각 계정 구성 요소를 생성, 편집 또는 삭제하는 데 필요한 필드
+## 각 계정 구성 요소를 생성, 편집 또는 삭제하는 데 필요한 필드 {#bulksheet-fields-per-component-microsoft}
+
+>[!NOTE]
+>
+>필드가 작업에 적용되지 않으면 필드에 입력된 값이 무시됩니다.
 
 ### 캠페인 필드
 
