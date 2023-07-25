@@ -2,9 +2,9 @@
 title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Microsoft Advertising] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Microsoft Advertising] 계정.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 9cdfe415c9ec2d7e7b65d5a46d208329d66ca14a
 workflow-type: tm+mt
-source-wordcount: '6900'
+source-wordcount: '6888'
 ht-degree: 1%
 
 ---
@@ -181,8 +181,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-microsoft).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -212,8 +212,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-microsoft).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -237,8 +237,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-microsoft).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -261,8 +261,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-microsoft).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -287,8 +287,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-microsoft).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 | |
@@ -319,8 +319,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-microsoft).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -349,8 +349,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-microsoft).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -370,8 +370,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-microsoft).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 필수 |
@@ -394,8 +394,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-microsoft).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | 설명 라인 1 | 선택 사항입니다 |
@@ -416,8 +416,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-microsoft).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Location] | 필수 |
@@ -431,8 +431,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-microsoft).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Device] | 장치 대상을 삭제하는 데 필요합니다. |
@@ -447,8 +447,8 @@ ht-degree: 1%
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-microsoft).&quot;
 
-| 필드 | 필수? | 설명 |
-| ---- | ---- | ---- |
+| 필드 | 필수? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Ad Group Name] | 광고 그룹 수준 타겟에 필요합니다. 캠페인 수준 타겟에는 적용되지 않습니다. |
