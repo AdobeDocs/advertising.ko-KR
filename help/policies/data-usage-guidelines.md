@@ -3,16 +3,16 @@ title: Adobe Advertising DSP 데이터 사용 지침
 description: 데이터 사용에 대한 지침은 를 참조하십시오.
 feature: Policies
 exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
-source-git-commit: 2ba5330a21b637fbf7ae887a0682678eb26e0af9
+source-git-commit: 0f1e024ade1c75d4f6ed3116ec3eb98a13642e9a
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
 # Adobe Advertising DSP 데이터 사용 지침
 
-*마지막 업데이트: 2019년 9월 5일(이 페이지의 URL 업데이트 제외)*
+*마지막 업데이트: 2019년 9월 5일*
 
 *Adobe Advertising DSP*
 
