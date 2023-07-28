@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
+source-git-commit: 93478366b47acc2f19910a101477858bbe9b8d55
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023년 7월 24일 | [!UICONTROL Campaigns], [!UICONTROL Reports], [!UICONTROL Portfolios] | 새 열은 새 이름 지정 규칙을 반영합니다.<ul><li>&quot;[!UICONTROL Objective Value]&quot;&quot;은(는) 기존 &quot;&quot;와(과) 동일한 값을 갖습니다.[!UICONTROL Weighted Revenue]&quot; 열. 포함되어 있습니다.</li><ul><li>기본적으로 [!UICONTROL Portfolios] > [!UICONTROL Portfolios], [!UICONTROL Portfolios] > [!UICONTROL Campaigns], [!UICONTROL Portfolios > Bid Units], 및 [!UICONTROL Portfolio Spotlight] > [!UICONTROL Performance] > [!UICONTROL Campaigns] 조회수</li><li>사용자 지정 시뮬레이션에서 자동으로</li><li>기본적으로 화면 내 주별 시뮬레이션에서 레거시 열은 선택 사항이지만 나중에 제거됩니다</li><li>기본적으로 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 및 [!UICONTROL Campaigns] > [!UICONTROL Keywords] 조회수</li><li>기본적으로 [!UICONTROL Portfolio Report], [!UICONTROL Campaign Report], 및 [!UICONTROL Keyword Report]</li></ul><li>&quot;[!UICONTROL Objective Value Calculation],&quot;(파생에 사용되는 계산) [!UICONTROL Objective Value]기본적으로 다음에 포함됩니다. [!UICONTROL Portfolio Report], [!UICONTROL Campaign Report], 및 [!UICONTROL Keyword Report].</li><li>&quot;[!UICONTROL Marginal Cost-to-Objective Value]&quot;&quot;은(는) 기존 &quot;&quot;와(과) 동일한 값을 갖습니다.[!UICONTROL Marginal Cost-to-Revenue]&quot; 열. 포함되어 있습니다.</li><ul></li>사용자 지정 시뮬레이션에서 자동으로</li><li>기본적으로 화면 내 주별 시뮬레이션에서 레거시 열은 선택 사항이지만 나중에 제거됩니다</li></ul></ul> | 를 참조하십시오.[용어집](/help/search-social-commerce/glossary.md).&quot;<br><br>참조: &quot;[기본 및 고급 보고서용 보고서 열](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)&quot; |
 | 2023년 6월 30일 | [!UICONTROL Asset Library] | (오픈 베타 기능; [!DNL Google Ads] 계정) 위치 [!UICONTROL Campaigns] > [!UICONTROL Asset Library], 재사용 가능한 이미지, 비디오 및 텍스트 에셋을 만들고 [!DNL Google Ads] 계정 수준 자산 라이브러리입니다. 내에서 캠페인을 만들거나 편집할 때 광고에 자산을 사용할 수 있습니다. [!DNL Google Ads] 편집자. | 를 참조하십시오.[에셋 만들기 및 업로드](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).&quot; |
 | | [!UICONTROL Google Import] | 이제에서 고유한 가져오기 자격 증명 ID를 생성할 수 있습니다. [!DNL Microsoft® Advertising] 다음에 대한 campaign 가져오기 작업을 구성할 때 [!DNL Google Ads]. 이전에는 Adobe 기술 지원 또는 Adobe 계정 팀이 ID를 제공했습니다. | 를 참조하십시오.[복제 [!DNL Google Ads] 의 캠페인 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md).&quot; |
 | 2023년 6월 27일 | [!UICONTROL Campaigns] | (Beta 기능; [!DNL Microsoft® Advertising] 계정) 이제 내에서 캠페인 수준 전환 목표를 지정할 수 있습니다. [!DNL Microsoft® Advertising] 캠페인 설정. 이전에는 검색, 소셜 및 상거래에서 캠페인을 만들 때 계정 수준 목표가 사용되었습니다. | 를 참조하십시오.[[!DNL Microsoft® Advertising] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).&quot; |

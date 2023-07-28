@@ -3,9 +3,9 @@ title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Google Ads] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Google Ads] 계정.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: db4cde38d61fa86b52c86cd83fa9fc3b78b9abad
 workflow-type: tm+mt
-source-wordcount: '7839'
+source-wordcount: '7842'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
 | [!UICONTROL Location Type] | (위치를 포함하는 경우) [위치 유형](https://developers.google.com/google-ads/api/data/geotargets). |
 | [!UICONTROL Device] | 캠페인 또는 광고 그룹 수준에서 입찰 조정이 수행되는 장치 유형: <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i>, 또는 <i>[!UICONTROL desktop]</i>. |
 | [!UICONTROL Bid Adjustment] | <p>(다음을 포함하는 경우: [!UICONTROL Location], [!UICONTROL Device], 또는 [!UICONTROL RLSA] target) 특정 위치, 특정 장치 유형 또는 특정 대상 타겟이 있는 광고의 입찰을 조정할지 여부:</p><ul><li><p>키워드 수준의 입찰(0% 차이)을 사용하려면 0을 입력합니다. 새 대상의 경우 이 항목을 비워 둘 수도 있습니다.</p></li><li><p>이 대상에 대해 다른 입찰가를 사용하려면 입찰가를 높이거나 낮출 백분율을 입력합니다.</p></li><ul><li><p>위치 및 RLSA 타겟의 경우 유효한 백분율은 -90에서 900까지입니다.</p></li><li><p>장치 입찰 조정의 경우 유효한 백분율은 다음과 같습니다.</p></li><ul><li><p>(캠페인)-100(장치 유형에서 광고를 입찰하지 않음) 또는 -90-900</p></li><li><p>(광고 그룹) 스마트폰 및 태블릿의 경우 -100(장치 유형에 대해 입찰하지 않음), 모든 장치 유형의 경우 -90 ~ 900.</p></li></ul></ul><li><p>(기존 캠페인 및 광고 그룹) 기존 입찰 조정을 사용하려면 이 항목을 비워 둡니다.</p></li></ul> |
-| [!UICONTROL Adobe Rec Bid Adjustment] | (정보 목적으로 생성된 일괄 시트에 포함됨) Adobe이 캠페인 수준 위치 대상 또는 RLSA에 권장하는 읽기 전용 입찰 조정입니다. 캠페인이 가중 수익 목표가 있는 포트폴리오에 있는 경우에만 계산됩니다(다음이 아님). [!UICONTROL Maximize Clicks] 목표)로 설정되어 있으며, 캠페인에는 최소 두 개의 위치 타겟 또는 RLSA가 포함되어 있습니다. 최소 5번의 클릭으로 지난 90일 동안 5USD의 비용이 발생했습니다.</p><p>위치 타겟 또는 RLSA를 수동으로 편집하여 권장 값을 사용하려는 경우, 위치 타겟 또는 RLSA를 만든 후 최소 2주를 기다린 후 충분한 데이터 수집을 허용하고 값을 일주일에 두 번 이상 변경하지 마십시오. |
+| [!UICONTROL Adobe Rec Bid Adjustment] | (정보 목적으로 생성된 일괄 시트에 포함됨) Adobe이 캠페인 수준 위치 대상 또는 RLSA에 권장하는 읽기 전용 입찰 조정입니다. 가중 전환 지표를 사용하는 목적이 있는 포트폴리오에 캠페인이 있는 경우에만 계산됩니다(가중 전환 지표는 아님). [!UICONTROL Maximize Clicks] 목표)로 설정되어 있으며, 캠페인에는 최소 두 개의 위치 타겟 또는 RLSA가 포함되어 있습니다. 최소 5번의 클릭으로 지난 90일 동안 5USD의 비용이 발생했습니다.</p><p>위치 타겟 또는 RLSA를 수동으로 편집하여 권장 값을 사용하려는 경우, 위치 타겟 또는 RLSA를 만든 후 최소 2주를 기다린 후 충분한 데이터 수집을 허용하고 값을 일주일에 두 번 이상 변경하지 마십시오. |
 | [!UICONTROL Device Targets] | <p>(기존 캠페인 유형만 해당) 광고가 표시될 수 있는 장치입니다. <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL Computers]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL Smartphones]</i></span>, 또는 <span style="font-style: italic;"><i>[!UICONTROL Tablets]</i></span>. 새 캠페인의 경우 기본값은 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>.</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | (기존 캠페인 유형만 해당, 장치 Target에 &quot;스마트폰&quot; 또는 &quot;태블릿&quot;이 포함된 경우 적용 가능) 광고가 표시될 수 있는 운영 체제: <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL Android]</i></span>, <span style="font-style: italic;"><i>[!UICONTROL iOS]</i></span>, 또는 <span style="font-style: italic;"><i>[!UICONTROL Palm]</i></span>. 새 캠페인의 경우 기본값은 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>.</p> |
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>(기존 캠페인 유형만 해당, 다음의 경우에 적용 가능 [!UICONTROL Device Targets] 포함[!UICONTROL All]&quot; 또는 &quot;[!UICONTROL Smartphones]- 스마트폰이 연결될 수 있는 이동통신사: <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>, 또는 로 표시된 하나 이상의 통신사 &lt;c span=&quot;&quot; id=&quot;4&quot; translate=&quot;no&quot; />통신사 코드</i></span>>,&lt;<span style="font-style: italic;"><i>국가 코드</i></span>> (예: T-Mobile, US) <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">사용 가능한 통신사 및 코드 [!DNL Google Ads]</a>. <span style="font-style: italic;"><i> 세미콜론(예: T-Mobile, US, T-Mobile, GB)으로 여러 캐리어를 구분하십시오. 새 캠페인의 경우 기본값은 <span style="font-style: italic;"><i>[!UICONTROL All]</i></span>.</p> |

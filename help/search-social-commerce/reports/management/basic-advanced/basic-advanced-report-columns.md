@@ -3,9 +3,9 @@ title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: d0b5107363336d5c946f4011e56dc83d2165397d
 workflow-type: tm+mt
-source-wordcount: '3583'
+source-wordcount: '3606'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,8 @@ ht-degree: 0%
 | [!UICONTROL Network Ad Group ID] | 네트워크에서 할당한 광고 그룹 ID입니다. |
 | [!UICONTROL Network Campaign ID] | 네트워크에서 할당한 캠페인 ID. |
 | [!UICONTROL Objective Name] | 포트폴리오의 목표입니다. |
+| [!UICONTROL Objective Value] | 포트폴리오의 현재 목표에 따라 계산된 총 가중 전환입니다. 를 참조하십시오.[목표 값](/help/search-social-commerce/glossary.md#o-p).&quot; |
+| [!UICONTROL Objective Value Calculation] | 목표 값을 도출하는 데 사용되는 계산입니다. |
 | [!UICONTROL Outbound Clicks] | ([!DNL Meta] ads) 사람들을 꺼내는 광고 내의 링크에 대한 클릭 수 [!DNL Meta]소유하는 속성입니다. |
 | [!UICONTROL Parent Product Groupings] | 상위 제품 그룹의 전체 계층 구조 `>>` 계층 간(예: `All Products>>CategoryL1=Animals`), 해당되는 경우. |
 | [!UICONTROL Partition Type] | 제품 그룹 유형: <i>[!UICONTROL Sub-Division]</i> (상위 제품 그룹) 또는 <i>[!UICONTROL Unit]</i> (입찰이 있는 하위 제품 그룹의 가장 낮은 수준). |
@@ -173,8 +175,17 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) 트랜잭션을 완료한 사용자의 ID입니다. |
 | [!UICONTROL Through Plays] | ([!DNL Meta] ads) 광고 전체를 시청한 보기 수입니다. |
 | [!UICONTROL Top of Page CPC] | (Google 캠페인만 해당) 지정된 날짜 범위 동안 검색 결과 페이지의 맨 위에 표시되는 광고의 클릭당 비용(CPC)입니다. |
-
-| [!UICONTROL Tracking URL] | (검색 대상 키워드만 해당) 추적 템플릿 또는 검색, 소셜 및 상거래 추적 코드에 포함된 대상 URL(해당하는 경우)입니다. | | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) 거래가 차감되는 광고주별 거래 속성입니다. | | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 지정된 트랜잭션 속성이 차감된 시간입니다. | | [!UICONTROL User Account Type] | 사용되지 않음 | | [!UICONTROL User SE Account ID] | Search, Social 및 Commerce에서 광고 네트워크에 할당하는 숫자 ID입니다. | | [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads) 한 번의 노출에 대해 비디오를 재생하는 시간을 포함하여 비디오가 재생된 평균 시간입니다. | | [!UICONTROL Video Plays] | ([!DNL Meta] ads) 비디오가 재생되기 시작하는 횟수입니다(재생 제외). | | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], 및 [!UICONTROL VideoQuartile100Rate] | (비디오 광고) 끝까지 재생된 비디오의 비율 25%, 50%, 75% 또는 100%. | | [!UICONTROL View Rate] | (비디오 광고) 보기 또는 참여 수를 광고(비디오 및 썸네일 노출) 표시 횟수로 나눈 값입니다. | | [!UICONTROL Views] | (비디오 광고) 사람들이 광고를 보거나 참여한 횟수입니다. | | [!UICONTROL ViewThroughConversions] | (대상 네트워크의 광고) 하나 이상의 노출로 인한 전환 수지만 클릭은 없습니다. |
+| [!UICONTROL Tracking URL] | (검색 대상 키워드만 해당) 추적 템플릿 또는 검색, 소셜, 상거래 추적 코드에 포함된 대상 URL(해당되는 경우)입니다. |
+| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) 거래가 차감되는 광고주별 거래 속성입니다. |
+| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 지정된 트랜잭션 속성이 차감된 시간입니다. |
+| [!UICONTROL User Account Type] | 사용되지 않음 |
+| [!UICONTROL User SE Account ID] | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID입니다. |
+| [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads) 한 번의 노출에 대해 비디오를 재생하는 시간을 포함하여 비디오가 재생된 평균 시간입니다. |
+| [!UICONTROL Video Plays] | ([!DNL Meta] ads) 비디오가 재생되기 시작하는 횟수입니다(재생 제외). |
+| [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], 및 [!UICONTROL VideoQuartile100Rate] | (비디오 광고) 끝까지 재생되는 비디오의 25%, 50%, 75% 또는 100%의 비율입니다. |
+| [!UICONTROL View Rate] | (비디오 광고) 보기 또는 참여 수를 광고(비디오 및 썸네일 노출) 표시 횟수로 나눈 값입니다. |
+| [!UICONTROL Views] | (비디오 광고) 사람들이 광고를 시청하거나 광고에 참여한 횟수입니다. |
+| [!UICONTROL ViewThroughConversions] | (대상 네트워크의 광고) 하나 이상의 노출로 인한 전환 횟수지만 클릭은 없습니다. |
 
 <table style="table-layout:auto">
 
