@@ -3,9 +3,9 @@ title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d0b5107363336d5c946f4011e56dc83d2165397d
+source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3603'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Network Ad Group ID] | 네트워크에서 할당한 광고 그룹 ID입니다. |
 | [!UICONTROL Network Campaign ID] | 네트워크에서 할당한 캠페인 ID. |
 | [!UICONTROL Objective Name] | 포트폴리오의 목표입니다. |
-| [!UICONTROL Objective Value] | 포트폴리오의 현재 목표에 따라 계산된 총 가중 전환입니다. 를 참조하십시오.[목표 값](/help/search-social-commerce/glossary.md#o-p).&quot; |
+| [!UICONTROL Objective Value] | 포트폴리오의 현재 목표에 따라 계산된 총 가중 전환입니다. |
 | [!UICONTROL Objective Value Calculation] | 목표 값을 도출하는 데 사용되는 계산입니다. |
 | [!UICONTROL Outbound Clicks] | ([!DNL Meta] ads) 사람들을 꺼내는 광고 내의 링크에 대한 클릭 수 [!DNL Meta]소유하는 속성입니다. |
 | [!UICONTROL Parent Product Groupings] | 상위 제품 그룹의 전체 계층 구조 `>>` 계층 간(예: `All Products>>CategoryL1=Animals`), 해당되는 경우. |
