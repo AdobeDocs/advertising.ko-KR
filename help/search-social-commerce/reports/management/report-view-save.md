@@ -1,7 +1,9 @@
 ---
 title: 보고서 보기 또는 저장
 description: 생성된 보고서를 보거나 보고서를 파일로 저장하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7e2e93f2-5c59-48e7-9acc-7b7ccf777f2e
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -26,7 +28,7 @@ ht-degree: 0%
 
       * **[!UICONTROL XLS]:**   의 경우 [!DNL Excel] 단일 워크시트가 포함된 통합 문서(XLSX 형식). 이 보고서에는 매개 변수와 함께 맨 위에 레이블이 지정된 한 개의 워크시트가 포함되며, 구성 요소에 대한 데이터를 사용할 수 있을 때 각 구성 요소에 대해 하나의 행이 보고됩니다. 데이터가 없는 행은 생략됩니다.
 
-         기본 보고서에는 각 숫자 열에 대한 합계가 포함됩니다.
+        기본 보고서에는 각 숫자 열에 대한 합계가 포함됩니다.
 
       * **[!UICONTROL TSV]:** TSV 파일용 이 보고서에는 보고되는 각 구성 요소에 대한 매개 변수와 하나의 행이 포함됩니다.
 
@@ -42,4 +44,3 @@ ht-degree: 0%
 >* [템플릿에서 보고서 생성](/help/search-social-commerce/reports/management/report-generate-from-template.md)
 >* [기존 보고서에서 보고서 생성](/help/search-social-commerce/reports/management/report-generate-from-existing.md)
 >* [보고서 삭제](/help/search-social-commerce/reports/management/report-delete.md)
-

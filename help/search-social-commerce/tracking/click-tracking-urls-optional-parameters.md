@@ -1,7 +1,9 @@
 ---
 title: 클릭 추적 URL에 대한 선택적 추적 매개 변수
 description: 클릭 추적 URL에 추가할 수 있는 선택적 검색, 소셜 및 상거래 추적 매개 변수와 광고 네트워크별 추적 매개 변수에 대해 알아봅니다.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: ca619e55-14b1-4768-b866-e339ae2ca6d4
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 0%
@@ -43,7 +45,7 @@ ht-degree: 0%
 | 매개 변수 | 설명 |
 | ---- | ---- |
 | <code>{custom_code}</code> | 업로드된 일괄 시트 파일의 &quot;사용자 지정 URL 매개 변수&quot; 열의 데이터를 추적 URL에 삽입하려면 다음을 수행합니다. {custom_code} 추적 URL에서 하나 이상의 키-값 쌍의 값이 끝나는 위치에서만 사용할 수 있습니다. 예:  <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>참고:</b> 일괄 시트 파일의 사용자 지정 값을 추적 URL에 삽입하려면 &quot;추적 URL 생성&quot; 옵션을 사용하여 일괄 시트 파일을 업로드하십시오. 일괄 시트 파일 사용에 대한 자세한 내용은 &quot;[일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).&quot; |
-| <code>{ef_uniqueid}</code> | Adobe 광고에서 만든 고유 ID를 삽입합니다. 추적 메서드가 &quot;EF Redirect&quot;이면 자동으로 추가됩니다. |
+| <code>{ef_uniqueid}</code> | Adobe Advertising에서 만든 고유 ID를 삽입하려면 추적 메서드가 &quot;EF Redirect&quot;이면 자동으로 추가됩니다. |
 | <code>{ef_userid}</code> | Adobe Advertising이 광고주에게 할당하는 고유 사용자 ID를 삽입합니다. |
 | <code>{ef_sid}</code> | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID를 삽입하려면 다음을 수행합니다. <i>[!UICONTROL 3]</i> 대상 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 대상 [!DNL Microsoft® Advertising], <i>[!UICONTROL 45]</i> 대상 [!DNL Meta], <i>[!UICONTROL 86]</i> 대상 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 대상 [!DNL Naver], <i>[!UICONTROL 88]</i> 대상 [!DNL Baidu], <i>[!UICONTROL 90]</i> 대상 [!DNL Yandex], <i>[!UICONTROL 94]</i> 대상 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 대상 [!DNL Yahoo Native] (더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i> 대상 [!DNL Pinterest] (사용하지 않음). |
 | <code>{ef_searchengine}</code> | 광고 네트워크 이름을 삽입합니다. |
@@ -78,4 +80,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Adobe 광고 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+>* [Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](/help/search-social-commerce/tracking/formats-click-tracking-about.md)

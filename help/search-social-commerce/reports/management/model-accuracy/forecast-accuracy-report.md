@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Forecast Accuracy Report]"
+title: '[!UICONTROL Forecast Accuracy Report]'
 description: 데이터 열을 포함하여 예측 정확도 보고서에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -23,7 +25,6 @@ ht-degree: 0%
 >* 비용 예측의 경우 지난 7일 동안 10%의 편차가 허용되는 것으로 간주되므로 예측된 지출의 90%에서 110% 사이인 실제 지출이 좋습니다. 매출 예측의 경우 지난 7일 동안의 15% 편차가 허용되는 것으로 간주되므로 예측된 지출의 85%에서 115% 사이인 실제 매출은 좋습니다. 편차가 더 큰 예보는 조사해야 한다.
 >
 >* 포트폴리오의 키워드가 입찰 전환 제한과 연결된 경우 포트폴리오는 입찰 전환으로 인해 발생하는 총 금액만큼 과소 또는 과소 소비됩니다. 그 결과 예측비용 열은 증감된 지출만큼 목표 지출에서 벗어나게 된다.
-
 
 ## 사용 가능한 열
 
@@ -56,4 +57,3 @@ ht-degree: 0%
 >* [다음 [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [모델 정확도 보고서 생성](model-accuracy-report-generate.md)
 >* [모델 정확도 보고서 설정](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
-

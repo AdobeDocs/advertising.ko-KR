@@ -1,7 +1,9 @@
 ---
 title: 쇼핑 제품 그룹 기본 정보
 description: 쇼핑 캠페인의 쇼핑 제품 그룹에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c91e6fb5-3be1-4d21-b508-09f974058fc7
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
@@ -44,9 +46,9 @@ ht-degree: 0%
 
 * (필수 사항: [!DNL Google Ads]; 우수 사례 [!DNL Microsoft Advertising]) 추적 URL을 [!DNL Tracking Template] 계정, 캠페인 또는 제품 그룹 설정의 필드입니다. 간편하게 유지 관리할 수 있도록 가능한 한 높은 수준에서 추가하십시오. 계정이나 캠페인에 대해 지정된 추가 매개 변수는 포함되지 않습니다.
 
-   >[!CAUTION]
-   >
-   >([!DNL Microsoft Advertising]) 제품 피드 내의 사용자 지정 열에 검색, 소셜 및 상거래 추적 URL을 포함하지 않는 경우에만 이 옵션을 사용하십시오. 두 작업을 모두 수행하는 경우 URL에 두 개의 리디렉션이 포함되어 링크가 끊어집니다.
+  >[!CAUTION]
+  >
+  >([!DNL Microsoft Advertising]) 제품 피드 내의 사용자 지정 열에 검색, 소셜 및 상거래 추적 URL을 포함하지 않는 경우에만 이 옵션을 사용하십시오. 두 작업을 모두 수행하는 경우 URL에 두 개의 리디렉션이 포함되어 링크가 끊어집니다.
 
 * ([!DNL Microsoft Advertising] 전용) 내에서 제품 데이터에 추적 URL 추가 [!DNL Microsoft Merchant Center] 계정입니다. 이렇게 하려면 의 값과 함께 추적 URL을 포함합니다. `link` 또는 `mobile_link` 사용자 지정 열에서 필드를 적절히 [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) 를 입력합니다. 이 방법을 사용하여 생성된 URL에는 검색, 소셜 및 상거래 내의 계정 또는 캠페인 설정에 지정된 추적 매개 변수가 포함되지 않습니다.
 
@@ -59,4 +61,3 @@ ht-degree: 0%
 >* [구현 [!DNL Google Ads] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising] 제품 그룹 설정](product-group-settings-microsoft.md)
 >* [구현 [!DNL Microsoft® Advertising] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
-

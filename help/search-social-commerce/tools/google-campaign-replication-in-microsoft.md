@@ -2,7 +2,8 @@
 title: 복제 [!DNL Google Ads] 의 캠페인 [!DNL Microsoft® Advertising]
 description: 에서 동기화된 캠페인을 내보내는 방법 알아보기 [!DNL Google Ads] 동기화된 계정에 직접 연결 [!DNL Microsoft® Advertising] 계정입니다.
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
-source-git-commit: 8d062e5c74c8f873ab5f2491659a32be47bb2afb
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 0%
@@ -135,7 +136,7 @@ ht-degree: 0%
 
 **[!UICONTROL Choose specific import options]:** 가져올 항목, 입찰 및 예산 및 기타 옵션을 지정할 수 있습니다.
 
-**[!UICONTROL What to import]:** 가져올 항목을 정의합니다. 기본적으로 항목 범주를 가져오는 옵션이 선택되어 있으며 모든 항목 유형이 선택되어 있습니다. 특정 항목 유형만 포함하려면 **[!UICONTROL Show advanced options]** 포함할 항목 유형을 변경합니다.
+**[!UICONTROL What to import]:** 가져올 항목을 정의합니다. 기본적으로 항목 범주를 가져오는 옵션이 선택되고 모든 항목 유형이 선택됩니다. 특정 항목 유형만 포함하려면 **[!UICONTROL Show advanced options]** 포함할 항목 유형을 변경합니다.
 
 **[!UICONTROL Bids and budgets]:** 가져오기, 업데이트 및 사용자 지정할 입찰 및 예산 설정을 정의합니다.
 

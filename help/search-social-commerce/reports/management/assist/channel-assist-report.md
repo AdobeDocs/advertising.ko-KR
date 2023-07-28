@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Channel Assist Report]"
+title: '[!UICONTROL Channel Assist Report]'
 description: 에 대해 알아보기 [!UICONTROL Channel Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 다음 [!UICONTROL Channel Assist Report]
 
-*검색, 소셜 및 상거래 클릭 추적을 사용하고 Adobe 광고, Adobe Analytics에서 전환 추적을 사용하는 광고주(및 [!DNL Analytics] 통합) 또는 토큰을 사용하여 피드에 제공(`ef_id`) 전용*
+*검색, 소셜 및 상거래 클릭 추적이 있고 Adobe Advertising, Adobe Analytics에서 전환 추적이 있는 광고주(및 [!DNL Analytics] 통합) 또는 토큰을 사용하여 피드에 제공(`ef_id`) 전용*
 
 다음 [!UICONTROL Channel Assist Report] 다양한 마케팅 채널(검색, 소셜 및 상거래의 검색 또는 소셜, Advertising DSP의 디스플레이 또는 비디오)이 전환 프로세스를 어떻게 지원했는지 나타냅니다. 이 보고서는 하나 이상의 전환으로 이어진 각 이벤트 유형 패턴이 전체 전환에 어떻게 기여했는지 보여 줍니다. 예를 들어, 사용자가 디스플레이 광고 노출을 처음 본 다음 검색 광고를 클릭한 다음 주문했을 때 얼마나 많은 전환이 발생했는지 보거나, 사용자가 10개 이상의 광고와 상호 작용한 후 얼마나 많은 전환이 발생했는지 볼 수 있습니다. 이벤트 유형에는 검색 클릭, 디스플레이 노출 횟수 및 클릭 수, 비디오 노출 횟수 및 클릭 수, 기타 노출 횟수 및 기타 클릭 수가 포함됩니다. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
 

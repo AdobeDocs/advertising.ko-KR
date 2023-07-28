@@ -1,7 +1,9 @@
 ---
 title: 알림 삭제
 description: 알림을 삭제하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: abf37a77-02e4-429f-adac-13ac954a78e7
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -34,4 +36,3 @@ ht-degree: 0%
 >* [알림 설정 편집](notification-edit.md)
 >* [푸시 알림 활성화 및 비활성화 위치 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [설치 및 제거 [!UICONTROL Notification Center] 웹 애플리케이션](notification-app-install-uninstall.md)
-

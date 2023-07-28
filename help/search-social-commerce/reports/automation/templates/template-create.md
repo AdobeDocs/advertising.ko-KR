@@ -1,7 +1,9 @@
 ---
 title: 보고서 템플릿 만들기
 description: 재사용 가능한 보고서 템플릿을 만드는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cd734539-ab01-4106-9998-e2ed994209b2
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -26,7 +28,7 @@ ht-degree: 0%
 
       * 보고서 설정을 지정합니다.
 
-         &quot;[!UICONTROL Save as Template]&quot;설정이 자동으로 선택됩니다.
+        &quot;[!UICONTROL Save as Template]&quot;설정이 자동으로 선택됩니다.
 
 * 기존 템플릿을 기반으로 템플릿을 만들려면 다음 작업을 수행하십시오.
 
@@ -44,4 +46,3 @@ ht-degree: 0%
 >* [보고서 템플릿 편집](template-edit.md)
 >* [보고서 템플릿 보기](template-view.md)
 >* [보고서 템플릿 삭제](template-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 보고서 템플릿 삭제
 description: 보고서 템플릿을 삭제하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2b81aad8-6ab1-495f-8f34-67fa5c55be42
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -28,4 +30,3 @@ ht-degree: 0%
 >* [보고서 템플릿 만들기](template-create.md)
 >* [보고서 템플릿 편집](template-edit.md)
 >* [보고서 템플릿 보기](template-view.md)
-

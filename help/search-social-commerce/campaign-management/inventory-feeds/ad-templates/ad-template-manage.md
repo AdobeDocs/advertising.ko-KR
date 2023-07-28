@@ -1,7 +1,9 @@
 ---
 title: 인벤토리 피드에 대한 광고 템플릿 관리
 description: 계정 구조를 관리하고 동적 광고를 게재하기 위해 인벤토리 데이터를 처리할 수 있는 광고 템플릿 관리에 대해 알아봅니다.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+exl-id: b26fc32a-76bc-470a-8ce5-fbaad4b3ca71
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 0%

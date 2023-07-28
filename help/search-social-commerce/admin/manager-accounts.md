@@ -1,7 +1,9 @@
 ---
 title: 광고 네트워크 관리자 계정의 자격 증명 관리
 description: 에 대한 자격 증명을 제공하는 방법을 알아봅니다. [!DNL Google Ads] 관리자 계정입니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bde22f70-12a7-4eef-a141-dafeed9a7dc5
+feature: Search Admin
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -20,7 +22,7 @@ ht-degree: 1%
 
 새 관리자 계정 레코드에 대한 자격 증명을 추가하거나 기존 관리자 계정을 재인증할 수 있습니다.
 
-관리자 계정에 대한 자격 증명을 추가하면 계정 설정에 연결된 관리자 계정 ID가 읽기 전용으로 표시됩니다. 또한 선택적 입니다.[!UICONTROL Manager Account for Cross-Account Conversions]의 &quot; 열 [!UICONTROL Campaigns] > [!UICONTROL Accounts] 보기는 각 하위 계정에 대한 관리자 계정 ID를 보여 주며 관리자 계정이 인증되지 않은 경우 오류를 나타냅니다. [!UICONTROL Notification Center] 관리자 계정의 자격 증명이 누락된 경우 알림을 포함합니다([다음 [!UICONTROL Manager Account Missing Error]](/help/search-social-commerce/notifications/notification-about.md)) 또는 manager 계정 인증 토큰이 만료될 때([다음 [!UICONTROL Manager Account Auth Error]](/help/search-social-commerce/notifications/notification-about.md)).
+관리자 계정에 대한 자격 증명을 추가하면 계정 설정에 연결된 관리자 계정 ID가 읽기 전용으로 표시됩니다. 또한 선택적 입니다.[!UICONTROL Manager Account for Cross-Account Conversions]의 &quot; 열 [!UICONTROL Campaigns] > [!UICONTROL Accounts] view에는 각 하위 계정에 대한 관리자 계정 ID가 표시되며, 관리자 계정이 인증되지 않은 경우 오류가 표시됩니다. [!UICONTROL Notification Center] 관리자 계정의 자격 증명이 누락된 경우 알림을 포함합니다([다음 [!UICONTROL Manager Account Missing Error]](/help/search-social-commerce/notifications/notification-about.md)) 또는 manager 계정 인증 토큰이 만료될 때([다음 [!UICONTROL Manager Account Auth Error]](/help/search-social-commerce/notifications/notification-about.md)).
 
 ## 새 관리자 계정에 대한 자격 증명을 추가하려면
 
@@ -61,4 +63,3 @@ ht-degree: 1%
 >* [광고 네트워크에 목표 업로드 활성화](/help/search-social-commerce/tools/objective-upload-to-networks.md)
 >* [전환 지표 업로드 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
 >* [알림 설정 편집](/help/search-social-commerce/notifications/notification-edit.md)
-

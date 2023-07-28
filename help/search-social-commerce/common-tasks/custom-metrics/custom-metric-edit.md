@@ -1,7 +1,9 @@
 ---
 title: 사용자 지정 지표 편집
 description: 표준 지표에서 계산된 사용자 지정 지표를 편집하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7b0c18d3-e4ed-49ad-aef7-d05b2a67ba2e
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
@@ -53,8 +55,8 @@ ht-degree: 1%
 1. 클릭 **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
+>
 * [사용자 지정 지표 기본 정보](custom-metric-about.md)
 * [사용자 지정 지표 만들기](custom-metric-create.md)
 * [사용자 지정 지표 삭제](custom-metric-delete.md)
 * [사용자 지정 지표 설정](custom-metric-settings.md)
-

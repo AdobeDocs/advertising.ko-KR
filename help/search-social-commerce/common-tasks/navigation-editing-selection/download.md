@@ -1,7 +1,9 @@
 ---
 title: 캠페인 관리 보기에서 데이터 다운로드
 description: 대부분의 캠페인 관리 보기에서 데이터를 다운로드하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0bbb02df-2ee0-4610-b60a-ca2b58daadbb
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -16,9 +18,9 @@ ht-degree: 0%
 
 * 모든 관련 하위 엔티티를 포함하는 TXT 형식의 일괄 시트 파일. 여러 광고 네트워크의 엔티티에 대해 행을 선택하면 각 관련 광고 네트워크에 대해 하나의 파일이 만들어집니다. 행을 선택하지 않으면 보기에 표시된 각 광고 네트워크에 대해 하나의 파일이 만들어집니다. 다른 광고 네트워크용으로 생성된 일괄 시트 파일에는 다른 데이터 열이 포함되어 있습니다.
 
-   여러 캠페인에 대한 데이터를 생성하고 결합된 데이터가 500,000개가 넘는 행으로 구성되는 경우, 데이터는 필요에 따라 캠페인별로 라는 두 개 이상의 파일로 추가로 분할됩니다 `<bulksheet name>_1.txt`, `<bulksheet name>_2.txt`등.
+  여러 캠페인에 대한 데이터를 생성하고 결합된 데이터가 500,000개가 넘는 행으로 구성되는 경우, 데이터는 필요에 따라 캠페인별로 라는 두 개 이상의 파일로 추가로 분할됩니다 `<bulksheet name>_1.txt`, `<bulksheet name>_2.txt`등.
 
-   의 각 일괄 시트 파일 [!UICONTROL Downloads] 패널 목록에는 [!UICONTROL Bulksheets] 보기. 파일이 생성되면 파일을 다운로드할 수 있는 링크가 포함된 이메일 알림을 받게 됩니다. 컴파일되는 데이터 양에 따라 알림이 몇 분 이상 걸릴 수 있습니다. 그러나 파일 생성에 실패하면 오류 파일이 Bulksheets 보기에 나열되며 오류 파일에 대한 링크가 포함된 이메일 알림이 전송됩니다. 다음 중 하나에서 일괄 시트 파일 삭제 [!UICONTROL Download] 패널 또는 [!UICONTROL Bulksheets] 탭은 두 위치에서 모두 삭제됩니다.
+  의 각 일괄 시트 파일 [!UICONTROL Downloads] 패널 목록에는 [!UICONTROL Bulksheets] 보기. 파일이 생성되면 파일을 다운로드할 수 있는 링크가 포함된 이메일 알림을 받게 됩니다. 컴파일되는 데이터 양에 따라 알림이 몇 분 이상 걸릴 수 있습니다. 그러나 파일 생성에 실패하면 오류 파일이 Bulksheets 보기에 나열되며 오류 파일에 대한 링크가 포함된 이메일 알림이 전송됩니다. 다음 중 하나에서 일괄 시트 파일 삭제 [!UICONTROL Download] 패널 또는 [!UICONTROL Bulksheets] 탭은 두 위치에서 모두 삭제됩니다.
 
 1. (선택 사항) 파일에 포함할 개별 행을 선택합니다.
 
@@ -32,7 +34,7 @@ ht-degree: 0%
 
    * 브라우저의 일반적인 절차에 따라 파일을 열거나 저장하려면 ![스프레드시트 다운로드](/help/search-social-commerce/assets/download-spreadsheet.png "스프레드시트 다운로드").
 
-      브라우저 절차에 대한 자세한 내용은 브라우저의 온라인 도움말을 참조하십시오.
+     브라우저 절차에 대한 자세한 내용은 브라우저의 온라인 도움말을 참조하십시오.
 
    * 파일을 삭제하려면 ![삭제](/help/search-social-commerce/assets/delete.png "삭제").
 

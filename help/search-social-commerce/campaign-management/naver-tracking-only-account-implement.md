@@ -1,7 +1,9 @@
 ---
 title: 구현 [!DNL Naver] 추적 전용 계정
 description: 에 대한 추적 캠페인을 설정하는 방법 알아보기 [!DNL Naver] 광고 네트워크에서 직접 구매하는 광고의 성과를 추적, 보고 및 시각화할 수 있는 계정.
-source-git-commit: c4848da6c5489a5128a0424eef6a12f2c51caa12
+exl-id: 8013d4e8-0b4f-41a7-9c1b-10c55349930f
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -47,6 +49,7 @@ ht-degree: 0%
 1. 캠페인에 대한 추적을 설정합니다.
 
    1. 검색, 소셜 및 상거래에서, [새 일괄 시트 파일 다운로드](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) &quot; &quot;에 옵션 사용[!UICONTROL Generate Tracking URLs].&quot;
+
    &quot; 사용[!UICONTROL Generate Tracking URLs]&quot; 옵션이 다음을 채웁니다. [!UICONTROL Destination URL] 검색, 소셜 및 상거래 추적 코드가 접두사로 있는 각 키워드의 필드 [!UICONTROL Base URL] 값.
 
    다음은 추적이 있는 대상 URL의 예입니다.
@@ -56,7 +59,6 @@ ht-degree: 0%
    1. 다음을 복사합니다. [!UICONTROL Destination URL] 다운로드한 일괄 시트 파일의 값을 네트워크의 관련 키워드 설정으로 복사합니다.
 
       광고 네트워크의 편집기 내에서 네트워크에 파일을 업로드하여 관련 엔티티에 URL을 추가할 수 있습니다. 이 경우 네트워크의 데이터 요구 사항에 따라 일부 열을 제거해야 할 수 있습니다. 그렇지 않으면 네트워크에서 수동으로 URL을 입력해야 합니다.
-
 
 1. 추적하려는 키워드 또는 광고 그룹 수준의 브랜드 광고에 대해 광고 네트워크에서 매일 집계되는 클릭 및 비용 데이터를 주기적으로 다운로드한 다음 [클릭 및 비용 데이터 업로드](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md) 에서 검색, 소셜 및 상거래 [필수 형식](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md).
 
@@ -74,4 +76,3 @@ ht-degree: 0%
 >* [트래픽 및 전환 지표 업로드 [!DNL Naver] 추적 전용 계정](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
 >* [다음에 대한 지표 데이터 요구 사항 [!DNL Naver] 추적 전용 계정](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
 >* [클릭 추적 형식 [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
-

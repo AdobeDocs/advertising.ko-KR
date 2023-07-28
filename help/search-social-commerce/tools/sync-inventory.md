@@ -1,7 +1,9 @@
 ---
 title: 추가 인벤토리 동기화 활성화
 description: 동기화 방법 알아보기 [!DNL YouTube] 캠페인 및 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 스마트 쇼핑 캠페인.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 217c4677-828c-43ee-afeb-e100780c5494
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -31,4 +33,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)
-

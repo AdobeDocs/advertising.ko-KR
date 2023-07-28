@@ -1,7 +1,8 @@
 ---
 title: 에셋 만들기 및 업로드
 description: 재사용 가능한 이미지, 비디오 및 텍스트 에셋을 만들고 업로드하는 방법을 알아봅니다 [!DNL Google Ads] 계정 수준 자산 라이브러리입니다.
-source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%

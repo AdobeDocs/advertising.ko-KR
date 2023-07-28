@@ -1,7 +1,9 @@
 ---
 title: 업로드된 일괄 시트 및 오류 파일 삭제
 description: 일괄 시트 파일 및 오류 파일을 삭제하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d4769ae4-f39c-4d33-b8c7-66e97e63a56f
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -29,4 +31,3 @@ ht-degree: 0%
 >* [일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보](bulksheet-about.md)
 >* [진행 중인 일괄 시트 작업 중지](bulksheet-stop-job.md)
 >* [생성 또는 업로드한 일괄 시트 파일 내보내기](bulksheet-export.md)
-

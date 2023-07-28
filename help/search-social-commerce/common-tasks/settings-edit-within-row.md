@@ -1,7 +1,9 @@
 ---
 title: 행 내에서 직접 설정 편집
 description: 행 내의 관리 보기에서 데이터를 편집하는 방법을 알아봅니다.
-source-git-commit: cd5d4acf2319c1a0e9f9f1ead6e219b42d163077
+exl-id: 54625fc5-0e7d-4474-9789-61e04ffbb44f
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -23,7 +25,7 @@ ht-degree: 0%
    * (날짜) 새 날짜를 입력하거나 ![캘린더](/help/search-social-commerce/assets/calendar.png "캘린더") 캘린더를 열고 [새 날짜 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
 
    * (자유 형식 값) 새 값을 입력한 다음 ![저장](/help/search-social-commerce/assets/select.png "저장") 또는 **입력** 키.
+
    >[!MORELIKETHIS]
    >
    >* [복사 및 붙여넣기를 사용하여 캠페인 데이터 일괄 생성 및 편집](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
-

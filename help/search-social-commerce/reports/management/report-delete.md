@@ -1,7 +1,9 @@
 ---
 title: 보고서 삭제
 description: 생성된 보고서를 삭제하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 63e10552-e0a9-4957-b18b-e62bd150bef5
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -28,4 +30,3 @@ ht-degree: 0%
 >
 >* [보고서 기본 정보](/help/search-social-commerce/reports/report-about.md)
 >* [보고서 보기 또는 저장](/help/search-social-commerce/reports/management/report-view-save.md)
-

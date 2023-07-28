@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] 확장된 동적 검색 광고 설정"
+title: '[!DNL Google Ads] 확장된 동적 검색 광고 설정'
 description: 다음에 대한 설정 참조 [!DNL Google Ads] 확장된 동적 검색 광고.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -38,4 +40,3 @@ ht-degree: 0%
 >* [광고 관리](ad-manage.md)
 >* [[!DNL Google Ads] 호출 전용 광고 설정](ad-settings-google-call.md)
 >* [[!DNL Google Ads] 반응형 검색 광고 설정](ad-settings-google-rsa.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 생성 [!DNL Advertising Insight]
 description: 을(를) 만드는 방법 알아보기 [!DNL Advertising Insight].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 242095c9-25f0-4954-b1a8-5ea3db312afd
+feature: Search Advertising Insights
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -29,6 +31,7 @@ ht-degree: 0%
       1. 다음 항목 선택 **[!UICONTROL Operation]**: *[!UICONTROL Extract events]* (업로드: [!UICONTROL Channel Assist Report] 또는 [!UICONTROL Campaign Assist Report] 및 분석을 위해 사용자 이벤트를 개별 그룹으로 분류) 또는 *[!UICONTROL Analyze classified events]* (이벤트 그룹을 업로드하고 이를 사용하여 인사이트를 생성합니다.)
 
       1. 클릭 **[!UICONTROL Select]** XLSX 및 ZIP(압축된 XLSX) 형식으로 파일을 찾은 다음 **[!UICONTROL Upload]**.
+
    4. ([!UICONTROL Google Account Audit] insight만 해당) 다음을 수행합니다.
 
       1. 다음을 입력합니다. **[!UICONTROL Advertiser Name]** 및 **[!UICONTROL Account Name]**.
@@ -38,6 +41,7 @@ ht-degree: 0%
       1. 클릭 **[!UICONTROL Select]** 에서 계정에 대해 다운로드한 캠페인, 키워드 및 변경 내역 보고서를 찾으려면 [!DNL Google Ads] 웹 사용자 인터페이스 및 에서 계정에 대해 다운로드한 일괄 시트 파일 [!DNL Google Ads Editor] 응용 프로그램. 그런 다음 **[!UICONTROL Upload]**.
 
          모든 파일은 CSV, TSV, TXT 또는 ZIP(압축된 CSV, TSV 또는 TXT) 형식이어야 합니다.
+
    5. ([!UICONTROL Location Target Performance] insight만 해당, 선택 사항) 요약이 아닌 매일 데이터를 집계하려면 다음을 선택합니다. **[!UICONTROL Time Aggregation]** / *[!UICONTROL Daily]*.
 
    6. ([!UICONTROL Normalized Sim (Combined)] insight만 해당) 다음을 수행합니다.
@@ -49,14 +53,12 @@ ht-degree: 0%
          * *[!UICONTROL Optimized Multi-portfolio]*: 동일한 목표와 통화를 사용하는 여러 포트폴리오에 대해 단일 시뮬레이션을 생성합니다.
 
          * *[!UICONTROL Individual Normalized]*: 선택한 각 포트폴리오에 대해 개별 시뮬레이션을 생성합니다. 포트폴리오의 목표와 통화는 다를 수 있습니다.
+
    7. ([!UICONTROL Portfolio Launch] insight만 해당, 선택 사항) 미래의 시작 날짜를 지정하려면 **[!UICONTROL Optional Date]** 필드.
 
    8. ([!UICONTROL Quality Score] insight만 해당) 해당 광고 네트워크를 선택합니다.
 
    9. ([!UICONTROL Query Cross Matching] insight만 해당) **[!UICONTROL Google Accounts]** 메뉴에서 계정을 선택합니다.
-
-
-
 
 4. 클릭 **[!UICONTROL Generate Insight]**.
 
@@ -67,4 +69,3 @@ ht-degree: 0%
 >* [정보 [!UICONTROL Advertising Insights]](insight-about.md)
 >* [보기 또는 저장 [!DNL Advertising Insight]](insight-view-save.md)
 >* [삭제 [!DNL Advertising Insight]](insight-delete.md)
-

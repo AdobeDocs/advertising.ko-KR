@@ -1,7 +1,9 @@
 ---
 title: 재고 피드 데이터에 대한 게시 작업 중지
 description: 인벤토리 피드 데이터에 대한 게시 작업을 중지하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 995dd6f4-fb8c-4b3f-bdc5-1e80d1129f53
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -29,4 +31,3 @@ ht-degree: 0%
 >* [피드에서 생성된 데이터 편집](propagated-data-edit.md)
 >* [피드에서 생성된 캠페인 데이터를 광고 네트워크에 게시](propagated-data-post.md)
 >* [피드에서 생성된 데이터 상태](propagated-data-status.md)
-

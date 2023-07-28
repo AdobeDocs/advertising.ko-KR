@@ -2,7 +2,8 @@
 title: 전환 지표 업로드 [!DNL Google Ads]
 description: 검색, 소셜 및 상거래 추적 전환 지표를 로 업로드하는 방법을 알아봅니다 [!DNL Google Ads].
 exl-id: 88db66c2-12db-41cf-b6c4-ed821cb3b8ea
-source-git-commit: 00f9e5e3892be305f5d7c69161bdb7609f13f1bf
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%

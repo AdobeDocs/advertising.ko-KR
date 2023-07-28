@@ -2,7 +2,8 @@
 title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
-source-git-commit: b6279bdf5f0cf3fbd144414f789a105af87040cc
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%

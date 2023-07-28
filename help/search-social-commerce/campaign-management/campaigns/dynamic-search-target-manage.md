@@ -1,7 +1,9 @@
 ---
 title: 관리 [!DNL Google Ads] 동적 검색 대상
 description: 생성 및 관리 방법 알아보기 [!DNL Google Ads] 동적 검색 대상.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 85b1455a-dda1-4bb9-b4be-d6e0a837fd9d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -85,12 +87,12 @@ ht-degree: 0%
    * 하나 이상의 동적 대상을 삭제하려면 다음을 수행합니다.
 
       1. 삭제할 각 동적 대상 옆의 확인란을 선택합니다.
-      여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+
+     여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       1. 도구 모음에서 를 클릭합니다 ![자세히](/help/search-social-commerce/assets/more.png "자세히") 및 선택 **[!UICONTROL Delete]**.
 
       1. 확인 메시지에서 다음을 클릭합니다. **[!UICONTROL Delete]**.
-
 
 ## [!DNL Google Ads] 동적 검색 대상 설정 {#dynamic-search-target-settings}
 
@@ -129,4 +131,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [정보 [!DNL Google Ads] 동적 검색 대상](dynamic-search-target-about.md)
-

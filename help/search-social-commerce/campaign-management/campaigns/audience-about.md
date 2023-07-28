@@ -1,7 +1,9 @@
 ---
 title: 대상자 기본 정보
 description: 추적, 생성 및 관리 옵션에 대해 알아보기 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 대상.
-source-git-commit: 0b77c54ee9214021c841b4c1cca0b3439ea71f6f
+exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%

@@ -1,7 +1,9 @@
 ---
 title: EF ID 피드를 사용한 전환 추적
 description: 전환 추적 데이터에 EF ID 피드를 사용하는 방법에 대해 알아봅니다.
-source-git-commit: 46e918418bf2e5c412efa8825dda22bc1953e439
+exl-id: db722a54-a9bf-4a31-a285-a82e6d79c34a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -40,5 +42,3 @@ ht-degree: 0%
 >
 >* [변환 피드 파일에 대한 파일 요구 사항](feed-file-requirements.md)
 >* [EF ID를 사용한 데이터 피드에 대한 데이터 요구 사항](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
-
-

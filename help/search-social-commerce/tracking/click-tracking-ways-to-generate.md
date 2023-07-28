@@ -1,7 +1,9 @@
 ---
 title: 광고 네트워크 및 개체별 클릭 추적 URL 생성 시기 및 방법
 description: 클릭 추적 URL이 자동으로 추가되는 시기와 다양한 캠페인 구성 요소에 수동으로 추가하는 시기 및 방법을 알아봅니다.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: f2a8baa5-1584-4937-b971-42ee498ed5e3
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 0%

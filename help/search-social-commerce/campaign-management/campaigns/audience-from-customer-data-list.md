@@ -1,7 +1,9 @@
 ---
 title: 고객 데이터 목록을 사용하여 고객 일치 대상 관리
 description: 만들고 편집하는 방법 알아보기 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 고객 데이터 목록의 고객 일치 대상입니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 734d8cb1-3915-410f-a0cc-0669d6575eab
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -52,11 +54,12 @@ ht-degree: 0%
 
          * ([!DNL Android™] apps) [!DNL Android™] 내의 패키지 이름 [!DNL Google Play], 다음에 의해 식별됨:`id=<package_name>`.&quot;
 
-            예를 들어 https://play.google.com/store/apps/details?id=com.example.game에서 패키지 이름은 com.example.game입니다.
+           예를 들어 https://play.google.com/store/apps/details?id=com.example.game에서 패키지 이름은 com.example.game입니다.
 
          * ([!DNL iOS] apps) 내의 애플리케이션 ID [!DNL iTunes App Store], 다음에 의해 식별됨:`<idNNNNNNNNN>`URL의 끝에 있는 &quot;를 클릭합니다. 또한 다음에서도 사용할 수 있습니다. [!DNL iOS Developer Console].
 
-            예를 들어 https://itunes.apple.com/us/app/id284882215에서 ID는 id284882215입니다.
+           예를 들어 https://itunes.apple.com/us/app/id284882215에서 ID는 id284882215입니다.
+
          개발팀은에 액세스할 수 있습니다. [!UICONTROL App ID] 관련 플랫폼.
 
       1. 다음에서 [!UICONTROL Select File] 필드, 클릭 **[!UICONTROL Choose File]** 네트워크 또는 장치에서 파일을 선택합니다.
@@ -64,6 +67,7 @@ ht-degree: 0%
       1. 확인란을 선택하여 약관에 동의함을 나타냅니다. [!DNL Adobe] 및 광고 네트워크 개인정보 처리방침.
 
       1. 클릭 **[!UICONTROL Upload File]**.
+
    1. 의 수를 지정합니다. **[!UICONTROL Membership Days]**: 사용자 쿠키가 대상에 있는 일 수입니다.
 
    광고가 사용자와 관련이 있을 것으로 예상되는 시간을 사용합니다. 값을 입력하지 않으면 고객 목록이 만료되지 않습니다.
@@ -74,7 +78,6 @@ ht-degree: 0%
 >
 >* 광고 네트워크에서 파일을 처리하는 데 최대 24시간이 걸릴 수 있습니다.
 >* 다음을 참조하십시오 [[!DNL Google Ads] 고객 일치 작동 방식 및 제한 사항에 대한 설명서](https://support.google.com/displayvideo/answer/9539301).
-
 
 ## 고객 데이터 목록을 사용하여 고객 일치 대상 편집
 
@@ -114,4 +117,3 @@ ht-degree: 0%
 >* [만들기 [!DNL Google Ads] 의 고객 일치 대상 [!DNL Adobe] 대상](google-audience-from-adobe-audience.md)
 >* [만들기 [!DNL Google Ads] Adobe Campaign 이메일 목록의 고객 일치 대상](google-audience-from-campaign-email-list.md)
 >* [동적 리마케팅 대상자 관리](audience-dynamic-remarketing-manage.md)
-

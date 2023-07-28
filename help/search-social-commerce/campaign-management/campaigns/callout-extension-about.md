@@ -1,7 +1,9 @@
 ---
 title: 정보 [!DNL Google Ads] 설명선 확장
 description: 다음에 대해 알아보기 [!DNL Google Ads] 검색, 소셜 및 커머스의 설명선 확장명.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3d0d864b-35ea-48aa-a812-bba96359eb29
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -32,4 +34,3 @@ Search, Social 및 Commerce는 광고 확장에 대한 클릭 수와 그 결과 
 >
 >* [관리 [!DNL Google Ads] 설명선 확장](callout-extension-manage.md)
 >* [연결 [!DNL Google Ads] 캠페인 또는 광고 그룹과 공유된 콜아웃 확장](callout-extension-associate.md)
-

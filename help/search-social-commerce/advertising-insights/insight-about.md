@@ -1,7 +1,9 @@
 ---
 title: 정보 [!UICONTROL Advertising Insights]
 description: 다양한 유형의 [!UICONTROL Advertising Insights] 사용 가능.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 08ec4de2-1701-4342-92f9-ff5852e4e659
+feature: Search Advertising Insights
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1310'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 | 인사이트 | 설명 |
 | --- | --- |
-| [!UICONTROL AMO-AA Tracking Discrepancy] | (Adobe Advertising-Adobe Analytics 통합만 있는 광고주) 일반 분산을 벗어난 클릭 대 인스턴스 비율 또는 20% 이상의 분산이 있는 요일로 특징되는 추적 문제를 식별합니다. 이 보고서에는 다음이 포함됩니다.<ul><li>A [!DNL Microsoft® PowerPoint] 데이터 분산에 대한 요약, 추적 문제가 가장 많은 캠페인에 대한 캠페인별 분산을 보여 주는 테이블 및 추세 차트, 문제 해결 제안 및 보고서 방법론에 대한 설명이 포함된 파일입니다.</li><li>A [!DNL Microsoft® Excel] 포트폴리오의 각 캠페인에 대한 요약 데이터와 각 캠페인에 대한 지난 달의 일별 데이터가 포함된 파일입니다.</li></ul> |
+| [!UICONTROL AMO-AA Tracking Discrepancy] | (Adobe Advertising-Adobe Analytics 통합이 있는 광고주만 해당) 일반 분산을 벗어난 클릭 대 인스턴스 비율 또는 20% 이상의 분산이 있는 요일로 특징되는 추적 문제를 식별합니다. 이 보고서에는 다음이 포함됩니다.<ul><li>A [!DNL Microsoft® PowerPoint] 데이터 분산에 대한 요약, 추적 문제가 가장 많은 캠페인에 대한 캠페인별 분산을 보여 주는 테이블 및 추세 차트, 문제 해결 제안 및 보고서 방법론에 대한 설명이 포함된 파일입니다.</li><li>A [!DNL Microsoft® Excel] 포트폴리오의 각 캠페인에 대한 요약 데이터와 각 캠페인에 대한 지난 달의 일별 데이터가 포함된 파일입니다.</li></ul> |
 | [!UICONTROL Attribution Analysis] | ([!DNL PowerPoint] 프레젠테이션 형식) 다른 속성 모델이 수익 모델을 개선하고 단일 포트폴리오를 최적화할 수 있는 시점을 보여 줍니다. |
 | [!UICONTROL Campaign Caps] | ([!DNL PowerPoint] 프레젠테이션 형식) 지난 30일 동안 단일 포트폴리오의 지출이 캠페인 예산 상한에 의해 제한되었는지 보여 주며 최적의 투자 수익률을 달성하기 위한 포트폴리오 설정 조정을 권장합니다. |
 | [!UICONTROL Day of Week] | ([!DNL PowerPoint] 프레젠테이션 형식) 지난 30일 동안 단일 포트폴리오의 요일별 성과(DOW)를 나타내며 DOW 지출 목표를 권장하여 투자 수익률을 높일 수 있습니다.<br><br>**참고:** 충분한 지출이 없거나 지난 2일 동안 타깃팅에 지출할 수 없었던 Portfolio은 인사이트에 사용할 수 없습니다. |
@@ -42,4 +44,3 @@ ht-degree: 0%
 >* [생성 [!DNL Advertising Insight]](insight-generate.md)
 >* [보기 또는 저장 [!DNL Advertising Insight]](insight-view-save.md)
 >* [삭제 [!DNL Advertising Insight]](insight-delete.md)
-

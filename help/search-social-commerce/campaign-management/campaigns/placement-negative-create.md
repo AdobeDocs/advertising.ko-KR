@@ -1,7 +1,9 @@
 ---
 title: 부정적인 배치 만들기
 description: 에 대한 부정적인 배치를 만드는 방법 알아보기 [!DNL Google Ads] 캠페인 및 광고 그룹.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8bddfc12-de95-46c3-aa2d-bcce2a5e0de9
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -41,4 +43,3 @@ ht-degree: 0%
 >* [배치 기본 정보](placement-about.md)
 >* [바인딩 가능한 배치 관리](placement-manage.md)
 >* [배치 및 음수 배치 상태 변경](placement-status-edit.md)
-

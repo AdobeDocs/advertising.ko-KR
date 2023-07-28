@@ -1,7 +1,9 @@
 ---
 title: 검색, 소셜 및 상거래에 대한 추적 정보
 description: 검색, 소셜 및 상거래에 대한 추적 옵션에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0a26f67c-8b3b-4fa1-ac24-a8461624cfc5
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -22,13 +24,13 @@ ht-degree: 0%
 
 검색, 소셜 및 상거래 구현 팀은 동기화된 광고 캠페인에 광고, 키워드, 배치, 제품 그룹 및 사이트링크 확장에 대한 추적 템플릿과 대상 URL을 업데이트하여 고유한 추적 ID 문자열 및 Adobe Advertising 리디렉션을 포함하도록 클릭 추적을 설정합니다. 또한 의 랜드 페이지 접미사(최종 URL 접미사)에도 추적을 추가합니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정 및 캠페인.
 
-추적 매개 변수를 사용하면 Adobe Advertising에서 개별 키워드 수준(검색 캠페인) 또는 광고 변형 수준(콘텐츠 또는 사이트 타겟팅으로 캠페인 검색, 캠페인 표시 및 소셜 캠페인)에서의 클릭을 추적할 수 있습니다. 사용자가 디스플레이/컨텐츠 광고를 보거나 광고 중 하나를 클릭할 때마다, 광고 네트워크는 키워드 또는 광고와 연결된 클릭 추적 태그를 사용하여 Adobe 광고 픽셀 서버로 이벤트를 전송합니다. 클릭 수:
+추적 매개 변수를 사용하면 Adobe Advertising이 개별 키워드 수준(검색 캠페인) 또는 광고 변형 수준(콘텐츠 또는 사이트 타겟팅으로 캠페인 검색, 캠페인 표시 및 소셜 캠페인)에서 클릭을 추적할 수 있습니다. 사용자가 디스플레이/컨텐츠 광고를 보거나 광고 중 하나를 클릭할 때마다, 광고 네트워크는 키워드 또는 광고와 연결된 클릭 추적 태그를 사용하여 Adobe Advertising 픽셀 서버로 이벤트를 전송합니다. 클릭 수:
 
-* 병렬 추적을 지원하는 브라우저의 Google 광고 및 Microsoft Advertising 광고의 경우, 광고 네트워크는 먼저 웹 사이트로 클릭을 보낸 다음 Adobe Advertising 픽셀 서버로 전송하여 아직 존재하지 않는 경우 사용자의 컴퓨터에 쿠키를 배치합니다.
+* 병렬 추적을 지원하는 브라우저의 Google Ads 및 Microsoft Advertising 광고의 경우, 광고 네트워크는 먼저 웹 사이트로 클릭을 보낸 다음 Adobe Advertising 픽셀 서버로 전송합니다. 픽셀 서버는 쿠키가 아직 존재하지 않는 경우 사용자의 컴퓨터에 배치합니다.
 
-* 다른 모든 경우에는 광고 네트워크가 클릭을 Adobe 광고 픽셀 서버로 직접 전송합니다. 픽셀 서버는 사용자의 컴퓨터에 쿠키를 배치한 다음(아직 없는 경우) 사용자를 웹 사이트의 관련 URL로 리디렉션합니다. 최종 사용자의 전체 경험은 리디렉션이 없는 경우와 동일합니다.
+* 다른 모든 경우에는 광고 네트워크가 클릭을 Adobe Advertising 픽셀 서버로 직접 전송합니다. 픽셀 서버는 사용자의 컴퓨터에 쿠키를 배치한 다음(아직 없는 경우) 사용자를 웹 사이트의 관련 URL로 리디렉션합니다. 최종 사용자의 전체 경험은 리디렉션이 없는 경우와 동일합니다.
 
-쿠키가에 설정됩니다. [!DNL Adobe] 도메인(`everesttech.net`)를 자사 쿠키로 사용할 수 있습니다. 리디렉션 후 사용자는 광고주의 도메인에 있고 쿠키는 타사 쿠키로 처리됩니다. Adobe 광고 쿠키에 대한 자세한 내용은 &quot;[Adobe Advertising 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html).&quot;
+쿠키가에 설정됩니다. [!DNL Adobe] 도메인(`everesttech.net`)를 자사 쿠키로 사용할 수 있습니다. 리디렉션 후 사용자는 광고주의 도메인에 있고 쿠키는 타사 쿠키로 처리됩니다. Adobe Advertising 쿠키에 대한 자세한 내용은 &quot;[Adobe Advertising 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html).&quot;
 
 ## 전환 데이터
 
@@ -40,8 +42,8 @@ ht-degree: 0%
 
 다음을 사용할 수 있습니다. [다양한 공급업체의 변환 태그](/help/search-social-commerce/tracking/conversion-tracking-about.md).
 
-Adobe 광고 전환 태그를 사용하고 사용자가 성공적인 트랜잭션을 완료하고 &quot;성공&quot; 페이지에 도달하면, Adobe 광고 픽셀 서버는 클릭 리디렉션 시 설정된 사용자의 컴퓨터에 쿠키가 있는지 확인합니다. 쿠키를 찾으면 ef_transid 매개 변수를 사용하여 트랜잭션 이벤트에 대한 정보가 전달되고, 트랜잭션이 전환으로 인식되며 이전 광고 클릭 또는 디스플레이 노출에 따라 크레딧됩니다.
+Adobe Advertising 전환 태그를 사용하는 경우 사용자가 성공적인 트랜잭션을 완료하고 &quot;성공&quot; 페이지에 도달하면, Adobe Advertising 픽셀 서버는 클릭 리디렉션 시 설정된 사용자의 컴퓨터에 쿠키가 있는지 확인합니다. 쿠키를 찾으면 ef_transid 매개 변수를 사용하여 트랜잭션 이벤트에 대한 정보가 전달되고, 트랜잭션이 전환으로 인식되며 이전 광고 클릭 또는 디스플레이 노출에 따라 크레딧됩니다.
 
-사용자가 두 개 이상의 광고를 클릭한 경우 달리 지정하지 않는 한 Adobe 광고는 트랜잭션을 최종 광고 클릭 또는 (디스플레이 또는 비디오 캠페인의 경우) 최종 광고 노출로 크레딧합니다. 사용자 [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 전환으로 이벤트가 귀속될 수 있는 유료 클릭 또는 디스플레이/비디오 노출(각각) 발생 후 일 수를 결정합니다.
+사용자가 두 개 이상의 광고를 클릭한 경우 별도로 지정하지 않는 한 Adobe Advertising은 트랜잭션을 최종 광고 클릭 또는 (디스플레이 또는 비디오 캠페인의 경우) 최종 광고 노출로 크레딧합니다. 사용자 [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 전환으로 이벤트가 귀속될 수 있는 유료 클릭 또는 디스플레이/비디오 노출(각각) 발생 후 일 수를 결정합니다.
 
-Adobe 광고 구현 팀은 광고주와 함께 광고주가 구현해야 하는 전환 태그의 형식을 결정하고, 각 전환 태그를 삽입해야 하는 웹 페이지를 식별한 다음, 구현할 전환 태그를 제공합니다.
+Adobe Advertising 구현 팀은 광고주와 함께 광고주가 구현해야 하는 전환 태그의 형식을 결정하고, 각 전환 태그를 삽입해야 하는 웹 페이지를 식별한 다음, 구현할 전환 태그를 제공합니다.

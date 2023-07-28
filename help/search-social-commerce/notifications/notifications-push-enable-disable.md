@@ -1,7 +1,9 @@
 ---
 title: 푸시 알림 활성화 및 비활성화 위치 [!UICONTROL Notification Center]
 description: 에서 푸시 알림을 활성화 및 비활성화하는 방법 알아보기 [!UICONTROL Notification Center].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 71d115d0-6190-4052-a299-d5e8cde8e46c
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -54,4 +56,3 @@ ht-degree: 0%
 >* [알림 삭제](notification-delete.md)
 >* [알림 설정 편집](notification-edit.md)
 >* [설치 및 제거 [!UICONTROL Notification Center] 웹 애플리케이션](notification-app-install-uninstall.md)
-

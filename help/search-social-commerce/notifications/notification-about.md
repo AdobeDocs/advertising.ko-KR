@@ -2,7 +2,8 @@
 title: 알림 기본 정보
 description: 다양한 유형 및 범주를 포함하여 알림에 대해 알아봅니다.
 exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
-source-git-commit: f3cc5ffae0d5d19c8542a46ffdb49478efa14522
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%

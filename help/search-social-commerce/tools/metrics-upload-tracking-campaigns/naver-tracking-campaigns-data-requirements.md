@@ -1,7 +1,9 @@
 ---
 title: 다음에 대한 트래픽 및 전환 지표에 대한 데이터 요구 사항 [!DNL Naver] 추적 전용 계정
 description: 에 대한 데이터 업로드 요구 사항 참조 [!DNL Naver] 추적 전용 계정입니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6f79730b-f8d6-4a7f-9d31-f42fe63e6b5d
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -29,4 +31,3 @@ ht-degree: 0%
 >* [구현 [!DNL Naver] 추적 전용 계정](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [부록 - 필수 일괄 시트 데이터 [!DNL Naver] 계정](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md))
 >* [트래픽 및 전환 지표 업로드 [!DNL Naver] 추적 전용 계정](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
-

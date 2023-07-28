@@ -1,7 +1,9 @@
 ---
 title: 일괄 시트에서 수행할 수 있는 작업
 description: 일괄 시트를 사용하여 캠페인 데이터를 추가, 편집 및 삭제하는 방법에 대한 일반 정보를 참조하십시오.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 82969bb8-dff8-48e7-b37d-1446a2a90072
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 * 기존 구성 요소의 속성을 편집하려면 해당 구성 요소를 편집하는 데 필요한 모든 필드와 속성 필드를 포함하십시오.
 
-   등록 정보 필드를 비워 두면 기존 값이 유지됩니다.
+  등록 정보 필드를 비워 두면 기존 값이 유지됩니다.
 
 * 삭제 중:
 
@@ -48,4 +50,3 @@ ht-degree: 0%
 >* [지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)
 >* [부록 - 일괄 시트 오류](../bulksheet-errors.md)
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
-

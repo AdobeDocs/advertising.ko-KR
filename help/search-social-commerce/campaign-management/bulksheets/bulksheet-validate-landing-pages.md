@@ -1,7 +1,9 @@
 ---
 title: 일괄 시트 파일의 랜딩 페이지 유효성 검사
 description: 단일 계정 일괄 시트 파일에서 대상 URL의 유효성을 검사하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf703687-1151-46f6-9540-12a83d41dfc8
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -22,7 +24,6 @@ ht-degree: 0%
 >
 >* 이 기능은 기본 URL/최종 URL 열의 값을 확인하지 않습니다.
 >* 일괄 시트 파일을 검증하는 동안 또는 오류가 발견되더라도 게시할 수 있습니다.
-
 
 1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
@@ -47,7 +48,6 @@ ht-degree: 0%
 >* 큰 파일의 유효성을 검사하는 데 시간이 더 오래 걸립니다.
 >* 여러 캠페인에 대한 일괄 시트 파일에는 최대 50만 개의 데이터 행이 포함될 수 있습니다. 여러 캠페인에 대한 데이터를 생성하고 결합된 데이터가 500,000개가 넘는 행으로 구성되는 경우, 데이터는 캠페인에 의해 라는 두 개 이상의 파일로 분할됩니다 `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv`등.
 
-
 >[!MORELIKETHIS]
 >
 >* [일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보](bulksheet-about.md)
@@ -56,4 +56,3 @@ ht-degree: 0%
 >* [진행 중인 일괄 시트 작업 중지](bulksheet-stop-job.md)
 >* [일괄 시트 또는 수정된 오류 파일 업로드](bulksheet-upload.md)
 >* [생성 또는 업로드한 일괄 시트 파일 내보내기](bulksheet-export.md)
-

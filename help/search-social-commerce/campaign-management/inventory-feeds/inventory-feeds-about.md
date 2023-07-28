@@ -1,7 +1,9 @@
 ---
 title: 인벤토리 피드를 사용한 광고 관리 자동화 정보
 description: 제품 또는 서비스 인벤토리에 대한 데이터를 기반으로 계정 구조를 자동으로 관리하고 동적 광고를 게재할 수 있는 고급 캠페인 관리에 대해 알아봅니다.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+exl-id: 2cbf08ce-728e-4d5b-b0a4-01aa244a6e29
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%

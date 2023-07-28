@@ -1,7 +1,9 @@
 ---
 title: 생성 또는 업로드한 일괄 시트 파일 내보내기
 description: 오류 파일 및 랜딩 페이지 유효성 검사 파일을 포함하여 bulksheet 파일을 다운로드하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a6b5d6a6-c719-45a5-a68a-91cf05a2b4e2
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -29,4 +31,3 @@ ht-degree: 0%
 >* [일괄 시트 파일의 랜딩 페이지 유효성 검사](bulksheet-validate-landing-pages.md)
 >* [게시물 일괄 시트 또는 수정된 오류 파일](bulksheet-post.md)
 >* [Bulksheets 업로드를 위한 FTP 계정 설정](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)
-

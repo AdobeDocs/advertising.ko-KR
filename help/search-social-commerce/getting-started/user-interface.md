@@ -1,9 +1,11 @@
 ---
 title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 * **[!UICONTROL DSP]** — (Adobe Advertising DSP(Demand Side Platform)에 액세스할 수 있는 경우) 디스플레이 및 연결된 TV 광고를 관리합니다. 별도의 [DSP 안내서](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) 을(를) 사용할 수 있습니다.
 
-* **[!UICONTROL Creative]** — (Advertising Creative Adobe에 액세스할 수 있는 경우) 개인화된 실시간 광고 경험을 자동화하고 크리에이티브 요소 수준에서 광고를 최적화합니다. Creative 내에서 별도의 도움말을 사용할 수 있습니다.
+* **[!UICONTROL Creative]** — (Adobe Advertising Creative에 액세스할 수 있는 경우) 개인화된 실시간 광고 경험을 자동화하고 크리에이티브 요소 수준에서 광고를 최적화합니다. Creative 내에서 별도의 도움말을 사용할 수 있습니다.
 
 * **[!UICONTROL Search]** — Search, Social, Commerce에서 추적 중이지만 입찰이 아닌 계정을 포함하여 Search, Social, Commerce 내에서 광고 네트워크 계정을 관리합니다.
 
@@ -32,7 +34,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Optimization]** — 이 메뉴에는 비즈니스 목표를 관리하고, 비즈니스 목표에 따라 포트폴리오를 관리하고, 포트폴리오 성과를 모니터링하고, 교차 포트폴리오를 생성하는 옵션이 있습니다 [!UICONTROL Spend Recommendation Report], 입찰 제한 관리 및 일부 사용자 보기 및 관리 [!DNL Google Ads] 전환 값 규칙.
 
-   이러한 기능에 대한 별도의 설명서는 [!UICONTROL Help] 메뉴 (![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴")).
+  이러한 기능에 대한 별도의 설명서는 [!UICONTROL Help] 메뉴 (![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴")).
 
 * **[!UICONTROL Insights & Reports]** — 이 메뉴에는 세부 인사이트 및 보고서 생성, 스프레드시트 피드를 사용한 보고서 프로덕션 자동화, 경고 생성 및 모니터링, 알림 설정 구성, 광고 네트워크 권장 사항 보기 및 광고주 계정에 대한 변경 사항 로그 보기 옵션이 포함되어 있습니다.
 
@@ -46,7 +48,7 @@ ht-degree: 0%
 
 * ![경고 알림](/help/search-social-commerce/assets/notifications-panel.png "경고 알림") 검색, 소셜 및 상거래 알림을 나열하는 패널.
 
-   다음 작업을 수행하는 경우 [Adobe Experience Cloud을 통해 로그인함](log-in.md), 이 패널에는 Experience Cloud의 알림이 표시됩니다.
+  다음 작업을 수행하는 경우 [Adobe Experience Cloud을 통해 로그인함](log-in.md), 이 패널에는 Experience Cloud의 알림이 표시됩니다.
 
 * ![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴") 설명서 및 기타 정보에 대한 링크가 포함된 도움말 메뉴.
 
@@ -54,10 +56,9 @@ ht-degree: 0%
 
 * ![사용자 프로필](/help/search-social-commerce/assets/user-profile.png "사용자 프로필") 로그아웃할 수 있는 프로필 링크.
 
-   다음 작업을 수행하는 경우 [Adobe Experience Cloud을 통해 로그인함](log-in.md), Experience Cloud 암호 및 알림 설정을 포함하여 Experience Cloud 프로필을 편집할 수도 있습니다.
+  다음 작업을 수행하는 경우 [Adobe Experience Cloud을 통해 로그인함](log-in.md), Experience Cloud 암호 및 알림 설정을 포함하여 Experience Cloud 프로필을 편집할 수도 있습니다.
 
 >[!MORELIKETHIS]
 >
 >* [로그인](log-in.md)
 >* [로그아웃](log-out.md)
-

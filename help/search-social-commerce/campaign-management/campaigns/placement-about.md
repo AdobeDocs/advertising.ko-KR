@@ -1,7 +1,9 @@
 ---
 title: 정보 [!DNL Google Ads] 배치
 description: '다음에 대한 입찰 가능 및 음수 배치 옵션에 대해 알아보기: [!DNL Google Ads].'
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2f390a39-99e9-4b0d-8576-e724882185ef
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -31,4 +33,3 @@ ht-degree: 0%
 >* [바인딩 가능한 배치 관리](placement-manage.md)
 >* [부정적인 배치 만들기](placement-negative-create.md)
 >* [배치 및 음수 배치 상태 변경](placement-status-edit.md)
-

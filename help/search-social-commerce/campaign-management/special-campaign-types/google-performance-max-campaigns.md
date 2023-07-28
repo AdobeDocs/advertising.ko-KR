@@ -1,7 +1,9 @@
 ---
 title: 구현 [!DNL Google Ads] 성과 최대 캠페인
 description: 설정 워크플로에 대해 알아보기 [!DNL Google Ads] 성과 최대 캠페인
-source-git-commit: 333d32963b96d2add1d99b2e27d7725341b4cfdf
+exl-id: afad96b2-d4a6-41ee-ad84-38aa1306d73e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -19,7 +21,6 @@ ht-degree: 0%
 >* 모든 이미지 파일을 수동으로 업로드해야 합니다. 링크 대상 [!DNL Google Merchant Center] 제품 피드는 지원되지 않습니다.
 >* 필요한 설정만 사용할 수 있습니다. 선택적 설정을 하려면에 로그인합니다. [!DNL Google Ads] 편집자.
 >* 목록 그룹 지원을 사용할 수 없습니다. 목록 그룹에 대한 데이터를 관리하고 보려면 [!DNL Google Ads] 편집자.
-
 
 ## 설정 단계 [!DNL Google Ads] 성과 최대 캠페인
 

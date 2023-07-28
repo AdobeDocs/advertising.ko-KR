@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL AdWords Conversion Report]"
+title: '[!UICONTROL AdWords Conversion Report]'
 description: 에 대해 알아보기 [!UICONTROL AdWords Conversion Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5c9252fd-b791-421b-a5d2-1f6279d38c45
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -48,7 +50,7 @@ ht-degree: 0%
 * [!UICONTROL Google Converted Clicks]
 
 >[!MORELIKETHIS]
+>
 * [전문 보고서 정보](specialty-report-about.md)
 * [전문 보고서 생성](specialty-report-generate.md)
 * [특성 보고서 설정](specialty-report-settings.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 기존 보고서에서 보고서 생성
 description: 이전에 생성한 보고서를 사용하여 보고서를 만드는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 14df0a57-4b15-4383-8093-9ca88b0e028c
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 1%
@@ -26,4 +28,3 @@ ht-degree: 1%
 >* [모델 정확도 보고서 설정](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
 >* [특성 보고서 설정](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
 >* [보고서 삭제](/help/search-social-commerce/reports/management/report-delete.md)
-

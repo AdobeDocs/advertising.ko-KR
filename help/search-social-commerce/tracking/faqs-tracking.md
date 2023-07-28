@@ -1,7 +1,9 @@
 ---
 title: 추적에 대한 FAQ
 description: 문제 해결을 포함하여 추적에 대한 일반적인 질문에 대한 답변을 살펴볼 수 있습니다.
-source-git-commit: f5e2044af460ebf561e075ed6b1fb057ed47acc3
+exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -31,7 +33,7 @@ Search, Social, &amp; Commerce 또는 Adobe Analytics 전환 추적 태그를 �
 
 +++Adobe Advertising은 중복 거래를 어떻게 식별합니까?
 
-사용자가 트랜잭션을 완료한 후 확인 페이지를 새로 고치면 중복 트랜잭션이 발생할 수 있습니다. Adobe 광고는 `ev_transid` 거래 ID와 속성 값이 동일한 중복 거래를 제거하는 속성입니다.
+사용자가 트랜잭션을 완료한 후 확인 페이지를 새로 고치면 중복 트랜잭션이 발생할 수 있습니다. Adobe Advertising은 `ev_transid` 거래 ID와 속성 값이 동일한 중복 거래를 제거하는 속성입니다.
 
 다음은 Adobe Advertising의 중복 제거 논리입니다.
 
@@ -46,7 +48,7 @@ Search, Social, &amp; Commerce 또는 Adobe Analytics 전환 추적 태그를 �
 
 ## 추적 구현 유형
 
-+++하나 이상의 캠페인이나 계정에 대해 Adobe Advertising 전환 추적 서비스 사용을 중지하려고 합니다. 추적 URL에서 추적 코드를 빠르게 제거하려면 어떻게 해야 합니까?
++++하나 이상의 캠페인이나 계정에 대한 Adobe Advertising 전환 추적 서비스 사용을 중지하려고 합니다. 추적 URL에서 추적 코드를 빠르게 제거하려면 어떻게 해야 합니까?
 
 먼저 추적 URL 제거의 의미를 이해하려면 Adobe 계정 팀에 문의하십시오.
 
@@ -55,7 +57,7 @@ Search, Social, &amp; Commerce 또는 Adobe Analytics 전환 추적 태그를 �
 
 ## 데이터 질문
 
-+++데이터 피드에서 가져온 거래 속성 또는 Adobe 광고 전환 추적 태그에 의해 추적되는 거래 속성을 어떻게 알 수 있습니까?
++++데이터 피드에서 가져온 트랜잭션 속성이나 Adobe Advertising 전환 추적 태그에 의해 추적되는 트랜잭션 속성을 어떻게 알 수 있습니까?
 
 다음 기간 [!UICONTROL Transaction Report], 사용자 지정 열 &quot;을(를) 포함하는 경우 포함된 트랜잭션 속성이 Adobe Advertising 전환 추적 픽셀에 의해 추적되었는지 여부를 알 수 있습니다.[!UICONTROL Tracking URL].&quot; Adobe Advertising 추적 픽셀이 있는 추적 URL은 다음으로 시작합니다. `http://pixel.everesttech.net`.
 +++

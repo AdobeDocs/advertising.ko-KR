@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Campaign Hourly Report]"
+title: '[!UICONTROL Campaign Hourly Report]'
 description: 에 대해 알아보기 [!UICONTROL Campaign Hourly Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0819d249-c105-4408-b5a2-a82a9e553d31
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -37,4 +39,3 @@ ht-degree: 0%
 >* [기본 및 고급 보고서 정보](basic-advanced-report-about.md)
 >* [기본 또는 고급 보고서 생성](basic-advanced-report-generate.md)
 >* [기본 및 고급 보고서 설정](basic-advanced-report-settings.md)
-

@@ -3,7 +3,8 @@ title: 구성 [!DNL Google Analytics] 데이터 소스로 보기
 description: 에서 데이터 소스를 구성하는 방법 알아보기 [!DNL Google Analytics] 보기.
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -44,7 +45,7 @@ ht-degree: 0%
          >
          >나중에 이 이메일 계정의 암호를 변경하면 이메일 계정에 대한 모든 열려 있는 연결이 닫힙니다. 데이터 동기화를 재개하려면 이 페이지로 돌아가서 [재인증](data-source-reauthenticate.md).
 
-      1. 계정의 지표에 액세스할 수 있도록 Adobe 광고를 승인하려면 확인란을 선택합니다.
+      1. 계정의 지표에 액세스할 수 있도록 Adobe Advertising에게 권한을 부여하려면 확인란을 선택합니다.
 
       1. 클릭 **[!UICONTROL Authenticate]**.
 

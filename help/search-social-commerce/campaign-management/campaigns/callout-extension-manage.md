@@ -1,7 +1,9 @@
 ---
 title: 관리 [!DNL Google Ads] 설명선 확장
 description: 생성 및 관리 방법 알아보기 [!DNL Google Ads] 설명선 확장명.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5ac4ae56-6de6-4c35-aaf3-339011af16c5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -74,4 +76,3 @@ ht-degree: 0%
 >
 >* [정보 [!DNL Google Ads] 설명선 확장](callout-extension-about.md)
 >* [연결 [!DNL Google Ads] 캠페인 또는 광고 그룹과 공유된 콜아웃 확장](callout-extension-associate.md)
-

@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Keyword Assist Report]"
+title: '[!UICONTROL Keyword Assist Report]'
 description: 에 대해 알아보기 [!UICONTROL Keyword Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 다음 [!UICONTROL Keyword Assist Report]
 
-*검색, 소셜 및 상거래 클릭 추적을 사용하고 Adobe 광고, Adobe Analytics에서 전환 추적을 사용하는 광고주(및 [!DNL Analytics] 통합) 또는 토큰을 사용하여 피드에 제공(`ef_id`) 전용*
+*검색, 소셜 및 상거래 클릭 추적이 있고 Adobe Advertising, Adobe Analytics에서 전환 추적이 있는 광고주(및 [!DNL Analytics] 통합) 또는 토큰을 사용하여 피드에 제공(`ef_id`) 전용*
 
 다음 [!UICONTROL Keyword Assist Report] 클릭을 유도하는 키워드 또는 배치를 나타냅니다. 이 보고서는 전환 경로에서 클릭을 받은 유료 검색 키워드 또는 배치의 각 패턴을 보여주며 해당 패턴이 전체 전환에 어떻게 기여했는지 보여 줍니다. 예를 들어, 사용자가 처음에 &quot;가죽 신발&quot;에 대한 키워드 검색으로 생성된 광고를 클릭한 다음, &quot;스웨이드 신발&quot;에 대한 키워드 검색 후 광고를 클릭한 다음 주문했을 때 발생한 전환 수를 확인하거나, 사용자가 10개 이상의 키워드로 생성된 광고를 클릭한 후 발생한 전환 수를 확인할 수 있습니다.
 

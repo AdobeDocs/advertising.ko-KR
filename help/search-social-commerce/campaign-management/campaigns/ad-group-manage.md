@@ -1,7 +1,9 @@
 ---
 title: 광고 그룹 관리
 description: 광고 그룹을 만들고 관리하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -54,7 +56,7 @@ ht-degree: 0%
 
       * 각 광고 그룹 옆의 확인란을 선택합니다.
 
-         여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * 데이터 테이블 위의 도구 모음에서 ![편집](/help/search-social-commerce/assets/edit.png "편집").
 
@@ -98,4 +100,3 @@ ht-degree: 0%
 >* [Microsoft 광고 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
 >* [야후! 일본 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [Yandex 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
-

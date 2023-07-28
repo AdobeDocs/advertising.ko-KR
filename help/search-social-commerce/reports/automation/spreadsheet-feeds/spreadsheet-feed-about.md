@@ -1,7 +1,9 @@
 ---
 title: 스프레드시트 보고서 피드 정보
 description: 사용자 지정 형식의 스프레드시트 형식으로 일별 성능 데이터를 가져오는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e497e81f-3936-428c-8910-0c4dffddf060
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

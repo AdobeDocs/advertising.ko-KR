@@ -1,7 +1,9 @@
 ---
 title: 알림 보기
 description: 알림을 보는 다양한 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 01226827-661d-4125-ab64-874fe7dcaf3a
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -22,11 +24,12 @@ ht-degree: 0%
 
    * 통지의 상세내역을 조회하려면 통지 이름을 누릅니다.
 
-      일부 알림에서는 [!UICONTROL Action Recommended] 섹션에는 영향을 받거나 책임 있는 엔티티의 필터링된 보기를 여는 링크가 포함될 수 있습니다.
+     일부 알림에서는 [!UICONTROL Action Recommended] 섹션에는 영향을 받거나 책임 있는 엔티티의 필터링된 보기를 여는 링크가 포함될 수 있습니다.
 
    * 알림을 다음으로 표시하려면 *읽기* 또는 *읽지 않음*&#x200B;경고 이름 위에 커서를 놓고 을 클릭합니다. ![읽음 또는 읽지 않음으로 표시](/help/search-social-commerce/assets/notifications-read-unread.png "읽음 또는 읽지 않음으로 표시").
 
-      알림이 다음으로 표시됨 *읽기* 보다 밝은 색상의 텍스트를 사용하지만 삭제할 때까지 사용할 수 있습니다.
+     알림이 다음으로 표시됨 *읽기* 보다 밝은 색상의 텍스트를 사용하지만 삭제할 때까지 사용할 수 있습니다.
+
    ![읽은 알림 및 읽지 않은 알림](/help/search-social-commerce/assets/notifications-read-vs-unread.png "읽은 알림 및 읽지 않은 알림")
 
    * 알림 유형에 대한 구독 환경 설정을 변경하려면 ![설정](/help/search-social-commerce/assets/settings-nc.png "설정") 알림 옆에 있는 설정을 변경한 다음 을 클릭합니다 **[!UICONTROL Save]**.
@@ -34,7 +37,6 @@ ht-degree: 0%
    * 알림을 삭제하려면 ![삭제](/help/search-social-commerce/assets/delete.png "삭제") 알림 옆에 있습니다.
 
    * 열다 [!UICONTROL Notification Center], 클릭 **[!UICONTROL View All]**.
-
 
 ## 다음 범위 내에서 알림 보기 [!UICONTROL Notification Center]
 
@@ -46,11 +48,11 @@ ht-degree: 0%
 
    * 통지의 상세내역을 조회하려면 통지 이름을 누릅니다.
 
-      일부 알림에서는 [!UICONTROL Action Recommended] 섹션에는 영향을 받거나 책임 있는 엔티티의 필터링된 보기를 여는 링크가 포함될 수 있습니다.
+     일부 알림에서는 [!UICONTROL Action Recommended] 섹션에는 영향을 받거나 책임 있는 엔티티의 필터링된 보기를 여는 링크가 포함될 수 있습니다.
 
    * 알림을 다음으로 표시하려면 *읽기* 또는 *읽지 않음*&#x200B;경고 이름 위에 커서를 놓고 을 클릭합니다. ![읽음 또는 읽지 않음으로 표시](/help/search-social-commerce/assets/notifications-read-unread.png "읽음 또는 읽지 않음으로 표시").
 
-      알림이 다음으로 표시됨 *읽기* 보다 밝은 색상의 텍스트를 사용하지만 삭제할 때까지 사용할 수 있습니다.
+     알림이 다음으로 표시됨 *읽기* 보다 밝은 색상의 텍스트를 사용하지만 삭제할 때까지 사용할 수 있습니다.
 
    * 알림 유형에 대한 구독 환경 설정을 변경하려면 ![설정](/help/search-social-commerce/assets/settings-nc.png "설정")  알림 옆에 있는 설정을 변경한 다음 을 클릭합니다 **[!UICONTROL Save]**.
 
@@ -64,4 +66,3 @@ ht-degree: 0%
 >* [알림 설정 편집](notification-edit.md)
 >* [푸시 알림 활성화 및 비활성화 위치 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [설치 및 제거 [!UICONTROL Notification Center] 웹 애플리케이션](notification-app-install-uninstall.md)
-

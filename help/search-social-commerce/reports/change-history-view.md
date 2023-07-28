@@ -1,7 +1,9 @@
 ---
 title: 보기 [!UICONTROL Change History] 보고서
 description: 광고주 계정의 최근 변경 사항을 보는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 822fa5eb-b7b4-4f32-9cee-984f4e96b978
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -20,13 +22,14 @@ ht-degree: 0%
 
    * (열을 표시하거나 숨기려면) ![아래쪽 화살표](/help/search-social-commerce/assets/arrow-down-expand.png "아래쪽 화살표") 열 제목의 오른쪽에서 강조 표시 **[!UICONTROL Columns]**&#x200B;을 클릭하고, 포함할 각 열 옆의 확인란을 선택한 다음 제외할 각 열 옆의 확인란을 선택 취소합니다.
 
-      열 구성은 모든 광고주의 보기에 적용됩니다.
+     열 구성은 모든 광고주의 보기에 적용됩니다.
 
    * (열 값으로 데이터를 필터링하려면) 다음 중 하나를 수행합니다.
 
       * [를 사용하여 필터 적용 **[!UICONTROL Add Filter]** 링크](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
       * [열 제목 메뉴에서 필터 적용](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+
    * (보고서의 날짜 범위를 변경하려면 다음을 수행합니다.
 
       1. 데이터 테이블 위에서 현재 날짜 범위를 클릭합니다.
@@ -37,10 +40,9 @@ ht-degree: 0%
 
          * (특정 범위의 경우) — 선택 **[!UICONTROL Custom Date Range]**&#x200B;를 클릭한 다음 시작 날짜와 종료 날짜를 지정합니다.
 
-            날짜를 MM/DD/YYYY 또는 MM-DD-YYYY 형식으로 입력하거나 ![캘린더](/help/search-social-commerce/assets/calendar.png "캘린더") 각 필드 옆에 있는 을 클릭하여 달력을 열고 날짜를 선택합니다. 이전 31일 동안의 데이터만 포함할 수 있습니다.
+           날짜를 MM/DD/YYYY 또는 MM-DD-YYYY 형식으로 입력하거나 ![캘린더](/help/search-social-commerce/assets/calendar.png "캘린더") 각 필드 옆에 있는 을 클릭하여 달력을 열고 날짜를 선택합니다. 이전 31일 동안의 데이터만 포함할 수 있습니다.
+
       1. 클릭 **[!UICONTROL Apply]**.
-
-
 
 1. (선택 사항) 보고서 사본을 다운로드합니다.
 

@@ -3,7 +3,8 @@ title: 데이터 소스 동기화 일시 중지
 description: 동기화를 중지하기 위해 데이터 소스를 일시 중지하는 방법에 대해 알아봅니다.
 role: User, Admin
 exl-id: 5495ea13-8700-4e8a-9325-062c9ed8f4f4
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%

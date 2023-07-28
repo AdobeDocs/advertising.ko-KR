@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Baidu] 텍스트 광고 설정"
+title: '[!DNL Baidu] 텍스트 광고 설정'
 description: 다음에 대한 설정 참조 [!DNL Baidu] 텍스트 광고.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 68165d1f-a7ef-4b2a-ae5d-36190fb49d77
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -44,4 +46,3 @@ ht-degree: 0%
 >
 >* [광고 정보](ad-about.md)
 >* [광고 관리](ad-manage.md)
-

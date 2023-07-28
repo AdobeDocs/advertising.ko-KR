@@ -1,7 +1,9 @@
 ---
 title: 클릭 추적 URL 생성
 description: 검색, 소셜 및 상거래 클릭 추적 URL을 수동으로 생성하는 방법을 알아봅니다.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+feature: Search Tools, Search Tracking
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 추적 URL 도구를 사용하여 검색, 소셜 및 상거래 클릭 추적 URL 생성
 
-*Adobe 광고 전환 추적만 있는 광고주*
+*Adobe Advertising 전환 추적만 있는 광고주*
 
 클릭 추적 URL을 수동으로 생성하고 구현해야 하는 시기에 대한 자세한 내용은 &quot;[클릭 추적 URL 생성 시기 및 방법](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 

@@ -2,7 +2,8 @@
 title: 사용자 정의 보고서에 대한 FAQ
 description: 데이터 문제 해결을 포함하여 성능 보고서에 대한 일반적인 질문에 대한 답변을 살펴볼 수 있습니다.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -148,7 +149,7 @@ ht-degree: 0%
 ## 전환 지표
 
 +++내 보고서에 전환 데이터가 표시되지 않습니다.
-전환이 발생한 전환 지표는 보고서에 포함되지 않을 수 있습니다.
+전환이 발생한 전환 지표를 보고서에 포함하지 않을 수 있습니다.
 +++
 
 +++보고서에서 수입이 누락되었습니다.
@@ -214,7 +215,7 @@ ht-degree: 0%
 
 +++매출 데이터는 광고주 자신의 매출 데이터와 다릅니다.
 
-**Adobe 광고 전환 태그를 사용하는 광고주**
+**Adobe Advertising 전환 태그를 사용하는 광고주**
 
 *가능한 원인:*
 
@@ -313,7 +314,7 @@ ht-degree: 0%
 +++
 
 +++위치 [!UICONTROL Transaction Report], 데이터 피드에서 가져온 트랜잭션 속성 또는 Adobe Advertising 추적 픽셀에서 추적한 트랜잭션 속성을 어떻게 알 수 있습니까?
-트랜잭션 보고서에서, 사용자 지정 열 &quot;&quot;을(를) 포함하는 경우 포함된 트랜잭션 속성이 Adobe 광고 추적 픽셀에 의해 추적되었는지 여부를 알 수 있습니다.[!UICONTROL Tracking URL].&quot; Adobe 광고 추적 픽셀이 있는 추적 URL은 &quot;`http://pixel.everesttech.net`.&quot;
+트랜잭션 보고서에서, 사용자 지정 열 &quot;&quot;을(를) 포함하는 경우 포함된 트랜잭션 속성이 Adobe Advertising 추적 픽셀에 의해 추적되었는지 여부를 알 수 있습니다.[!UICONTROL Tracking URL].&quot; Adobe Advertising 추적 픽셀이 있는 추적 URL은 &quot;로 시작합니다.`http://pixel.everesttech.net`.&quot;
 +++
 
 +++내 데이터 [!UICONTROL Transaction Report] 이(가) 내 데이터와 일치하지 않음 [!UICONTROL Keyword Report].

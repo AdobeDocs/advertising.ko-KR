@@ -1,7 +1,9 @@
 ---
 title: 부정적인 키워드 만들기
 description: 검색 캠페인 및 광고 그룹에 대한 부정적인 키워드를 만드는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -44,7 +46,6 @@ ht-degree: 0%
 
    * [!DNL Yandex]: 각 키워드는 정지어를 제외하고 최대 7개의 단어를 사용할 수 있습니다. 각 [!DNL Yandex ad group] 에는 최대 200개의 키워드가 포함될 수 있습니다.
 
-
 1. 클릭 **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
@@ -52,4 +53,3 @@ ht-degree: 0%
 >* [키워드 정보](keyword-about.md)
 >* [바인딩 가능한 키워드 관리](keyword-manage.md)
 >* [키워드 및 부정적 키워드의 상태 변경](keyword-status-edit.md)
-

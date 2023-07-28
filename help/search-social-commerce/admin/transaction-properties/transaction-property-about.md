@@ -1,7 +1,9 @@
 ---
 title: 광고주의 거래 속성 관리 정보
-description: 광고주에 대해 Adobe 광고가 추적하는 거래 속성을 사용하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Adobe Advertising이 광고주에 대해 추적하는 트랜잭션 속성을 사용하는 방법을 알아봅니다.
+exl-id: e5e4dc8a-04b0-4423-be1d-18f89453d264
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 광고주의 거래 속성 관리 정보
 
-다음 [거래 속성](/help/search-social-commerce/glossary.md#s-t) 광고주용 Adobe 광고 트랙에 포함되는 항목 [Adobe Analytics에서 동기화된 전환 및 사이트 참여 지표](/help/integrations/analytics/analytics-data-in-advertising.md)는 Search, Social, &amp; Commerce 및 Advertising DSP 전체에서 사용됩니다.
+다음 [거래 속성](/help/search-social-commerce/glossary.md#s-t) 광고주를 위해 추적하는 Adobe Advertising: [Adobe Analytics에서 동기화된 전환 및 사이트 참여 지표](/help/integrations/analytics/analytics-data-in-advertising.md)는 Search, Social, &amp; Commerce 및 Advertising DSP 전체에서 사용됩니다.
 
 * 검색, 소셜 및 상거래에서 거래 속성을 사용하여 목표를 생성할 수 있습니다. 목표는 포트폴리오를 최적화하는 데 사용됩니다. 또한 거래 속성에 대한 데이터를 캠페인 및 포트폴리오 관리 보기의 열과 보고서에 표시할 수 있습니다.
 
@@ -25,4 +27,3 @@ ht-degree: 0%
 >* [광고주에 대해 추적된 트랜잭션 속성 보기](transaction-property-view-tracked.md)
 >* [관리 보기 및 보고서에서 사용할 수 있는 거래 속성 변경](transaction-property-edit-available.md)
 >* [거래 속성에 대한 표시 이름 변경](transaction-property-edit-display-name.md)
-

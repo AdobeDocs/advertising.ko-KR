@@ -1,7 +1,9 @@
 ---
 title: 캠페인에 대한 FAQ
 description: 캠페인 관리 및 캠페인 데이터 보기에 대한 질문에 대한 답변을 살펴볼 수 있습니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -79,11 +81,11 @@ ht-degree: 0%
 
 * 다음을 사용하여 모바일 지정을 호스트 서버로 포함 `{ifmobile:m}{ifnotmobile:www}`.
 
-   예를 들어, `http://{ifmobile:m}{ifnotmobile:www}.example.com` 는 모바일 사용자를 m.example.com으로, 비모바일 사용자를 www.example.com으로 이동합니다.
+  예를 들어, `http://{ifmobile:m}{ifnotmobile:www}.example.com` 는 모바일 사용자를 m.example.com으로, 비모바일 사용자를 www.example.com으로 이동합니다.
 
 * 을 사용하여 모바일 지정을 최상위 도메인으로 포함합니다. `{ifmobile:mobi}{ifnotmobile:com}`.
 
-   예를 들어, `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` 는 모바일 사용자를 www.example.mobi로, 비모바일 사용자를 www.example.com으로 이동합니다.
+  예를 들어, `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` 는 모바일 사용자를 www.example.mobi로, 비모바일 사용자를 www.example.com으로 이동합니다.
 
 두 경우 모두 검색, 소셜 및 상거래 추적이 있는 기본 URL에 인코딩되지 않은 가 포함됩니다 `{}` 태그와 기본 URL에 추가된 모든 추가 매개 변수.
 

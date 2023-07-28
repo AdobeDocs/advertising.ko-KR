@@ -1,7 +1,9 @@
 ---
 title: 캠페인 및 광고 그룹에 대한 대상자 제외 관리
 description: 에 대한 대상 제외를 구성하고 관리하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 캠페인 및 광고 그룹.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -70,4 +72,3 @@ ht-degree: 0%
 >
 >* [대상자 기본 정보](audience-about.md)
 >* [캠페인 및 광고 그룹에 대한 대상자 타겟 관리](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
-

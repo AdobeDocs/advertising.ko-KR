@@ -1,7 +1,9 @@
 ---
 title: 공유 사이트 링크 관리
 description: 공유 사이트링크 확장을 만들고 관리하는 방법을 알아봅니다.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -94,7 +96,7 @@ ht-degree: 0%
 
 **[!UICONTROL Tracking Template]:** (선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 또한 최종/랜딩 페이지 URL을 매개 변수에 임베드하는 추적 템플릿 또는 추적 URL. 예: `{lpurl}?source={network}&id=5` 또는 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` 리디렉션을 포함합니다.
 
-* 캠페인 설정에 &quot;&quot;가 포함된 경우 적용되는 Adobe 광고 전환 추적의 경우[!UICONTROL EF Redirect]&quot; 및 &quot;자동 업로드&quot;, 검색, 소셜 및 상거래는 레코드를 저장할 때 자체 클릭 추적 코드 접두사가 자동으로 추가됩니다.
+* Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;자동 업로드&quot;, 검색, 소셜 및 상거래는 레코드를 저장할 때 자체 클릭 추적 코드 접두사가 자동으로 추가됩니다.
 
 * 최종 URL을 포함하도록 지원되는 매개 변수에 대해 ([!DNL Microsoft Advertising] 만) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads] 만 해당) &quot;사용 가능&quot; 섹션의 &quot;추적 템플릿만&quot; 매개 변수 [!DNL ValueTrack] 의 &quot;매개 변수&quot; [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348).
 

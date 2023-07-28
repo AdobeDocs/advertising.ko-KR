@@ -1,7 +1,9 @@
 ---
 title: 기본 보고서 또는 고급 보고서 생성
 description: 사용자 지정된 기본 또는 고급 보고서를 생성하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cad5183c-cd21-439a-ab3e-033b2bb187ec
+feature: Search Reports, Search Basic Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -52,4 +54,3 @@ ht-degree: 0%
 >* [기본 및 고급 보고서 설정](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
 >* [기본 및 고급 보고서용 보고서 열](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
 >* [보고서 삭제](/help/search-social-commerce/reports/management/report-delete.md)
-

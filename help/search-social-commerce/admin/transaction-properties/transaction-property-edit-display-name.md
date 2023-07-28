@@ -1,7 +1,9 @@
 ---
 title: 거래 속성에 대한 표시 이름 변경
 description: 관리 보기 및 보고서의 열 제목에 표시되는 거래 속성 이름을 변경하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 322be2d5-0d66-4d0c-a17a-619a1f6c0644
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -31,4 +33,3 @@ ht-degree: 0%
 >* [광고주의 거래 속성 관리 정보](transaction-property-about.md)
 >* [광고주에 대해 추적된 트랜잭션 속성 보기](transaction-property-view-tracked.md)
 >* [관리 보기 및 보고서에서 사용할 수 있는 거래 속성 변경](transaction-property-edit-available.md)
-

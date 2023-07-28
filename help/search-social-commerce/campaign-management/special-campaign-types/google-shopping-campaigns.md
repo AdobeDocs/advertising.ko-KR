@@ -1,7 +1,9 @@
 ---
 title: 구현 [!DNL Google Ads] 쇼핑 캠페인
 description: 설정 워크플로에 대해 알아보기 [!DNL Google Ads] 쇼핑 캠페인.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: aab61d94-861f-4072-b044-f9ae6759e028
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -35,6 +37,7 @@ ht-degree: 0%
    1. [&quot;모든 제품&quot; 제품 그룹 만들기](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md).
 
    1. (선택 사항) [하위 제품 그룹 만들기](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md).
+
    >[!NOTE]
    >쇼핑 광고를 만들 필요가 없습니다. 광고 그룹에 광고 엔티티가 포함되지 않은 경우에도 [!DNL Google Ads] 는 여전히 제품에 대한 광고를 표시합니다.
 
@@ -54,4 +57,3 @@ ht-degree: 0%
 >
 >* 관리에 필요한 필드 보기 [!DNL Google Shopping] 을 사용하는 캠페인 및 제품 그룹 [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md) 및 [인벤토리 피드 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md).
 >* 에 대한 자세한 내용 [!DNL Google Shopping] 캠페인, 참조: [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/2454022).
-

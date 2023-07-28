@@ -1,7 +1,9 @@
 ---
 title: 수정자 관리
 description: 인벤토리 데이터 피드에 대한 광고 템플릿에 대한 수정자를 구성하고 관리하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ade1472d-10e3-454e-8095-c579b48cfc01
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -70,4 +72,3 @@ ht-degree: 0%
 >
 >* [인벤토리 피드 기본 정보](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
 >* [광고 템플릿 관리](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 왼쪽 탐색 패널을 사용하여 데이터 필터링
 description: 왼쪽 탐색 패널을 사용하여 데이터를 필터링하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a0e88e85-e470-45dd-8d39-afddd27fd95b
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%

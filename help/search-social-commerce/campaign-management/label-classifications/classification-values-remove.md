@@ -1,7 +1,9 @@
 ---
 title: 계정 구성 요소에서 레이블 분류 값 제거
 description: 레이블 분류 값과 계정 구성 요소 사이의 연결을 제거하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0e7ef344-7f23-40bc-9841-dc0354ad7f07
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -26,7 +28,7 @@ ht-degree: 0%
 
       * 각 행 옆에 있는 확인란을 선택합니다.
 
-         여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * 데이터 테이블 위의 도구 모음에서 ![자세히](/help/search-social-commerce/assets/more.png "자세히")을 클릭한 다음 을 클릭합니다 **[!UICONTROL Classification]**.
 
@@ -54,4 +56,3 @@ ht-degree: 0%
 >* [일괄 시트를 사용하여 계정 구성 요소에 분류 값 할당](classification-values-assign-bulksheets.md)
 >* [레이블 분류 값 삭제](classification-values-delete.md)
 >* [레이블 분류 삭제](classification-delete.md)
-

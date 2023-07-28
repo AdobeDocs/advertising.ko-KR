@@ -1,7 +1,9 @@
 ---
-title: "쇼핑 캠페인 제품 필터"
+title: 쇼핑 캠페인 제품 필터
 description: 쇼핑 제품 그룹에 사용할 수 있는 제품 필터를 참조하십시오.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9c4f3c64-5a51-49de-aeba-bcda8a379609
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
@@ -35,4 +37,3 @@ ht-degree: 0%
 >* [[!DNL Microsoft Advertising] 재고 피드에 대한 쇼핑 광고 템플릿 설정](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
 >* [다음에 대한 필수 데이터 [!DNL Google Ads] 일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
 >* [다음에 대한 필수 데이터 [!DNL Microsoft Advertising] 일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-

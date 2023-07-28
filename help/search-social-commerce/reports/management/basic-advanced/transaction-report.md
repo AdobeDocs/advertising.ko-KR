@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Transaction Report]"
+title: '[!UICONTROL Transaction Report]'
 description: 에 대해 알아보기 [!UICONTROL Transaction Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 879c6dc0-6667-4e63-8403-bc2f2ee5ba3c
+feature: Search Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -20,7 +22,6 @@ ht-degree: 0%
 >
 >* 일치 유형이 다른 여러 입찰 단위에 동일한 거래 ID가 있는 경우 추적 ID의 매출은 지정된 클릭 날짜의 클릭 수에 따라 분할됩니다.
 >* 보고서에 콘텐츠가 활성화된 검색 캠페인이나 디스플레이 또는 소셜 캠페인(키워드는 포함하지 않음)의 광고 그룹 데이터가 포함되는 경우 [!UICONTROL Keyword] 완료된 보고서의 열에는 &quot;(광고 그룹 컨텐츠) 내 광고 그룹 이름&quot;과 같이 적용 가능한 광고 그룹 이름이 포함되어 있습니다.
-
 
 ## 기본 열
 
@@ -42,4 +43,3 @@ ht-degree: 0%
 >* [기본 및 고급 보고서 정보](basic-advanced-report-about.md)
 >* [기본 또는 고급 보고서 생성](basic-advanced-report-generate.md)
 >* [기본 및 고급 보고서 설정](basic-advanced-report-settings.md)
-

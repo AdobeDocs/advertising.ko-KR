@@ -1,7 +1,9 @@
 ---
 title: 관리 [!DNL Microsoft Advertising] 동적 리마케팅 대상
 description: 생성 및 관리 방법 알아보기 [!DNL Microsoft Advertising] 동적 리마케팅 대상자입니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
@@ -94,4 +96,3 @@ ht-degree: 0%
 >* [만들기 [!DNL Google Ads] 의 고객 일치 대상 [!DNL Adobe] 대상](google-audience-from-adobe-audience.md)
 >* [만들기 [!DNL Google Ads] Adobe Campaign 이메일 목록의 고객 일치 대상](google-audience-from-campaign-email-list.md)
 >* [고객 데이터 목록을 사용하여 고객 일치 대상 관리](audience-from-customer-data-list.md)
-

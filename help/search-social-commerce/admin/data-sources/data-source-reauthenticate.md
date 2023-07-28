@@ -3,7 +3,8 @@ title: 재인증 [!DNL Google Analytics] 데이터 소스
 description: 을(를) 재인증하는 방법 알아보기 [!DNL Google Analytics] 연결된 암호를 변경하거나 인증서가 만료된 경우 데이터 소스.
 role: User, Admin
 exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%

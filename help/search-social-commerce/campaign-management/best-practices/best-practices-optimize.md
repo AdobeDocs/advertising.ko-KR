@@ -1,7 +1,9 @@
 ---
 title: 웹 사이트 랜딩 페이지 최적화
 description: 웹 사이트 랜딩 페이지를 최적화하는 모범 사례에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -56,4 +58,3 @@ ht-degree: 0%
 >
 >* [보고서를 분석하여 키워드 및 캠페인 설정 세분화](best-practices-analyze.md)
 >* [유효한 텍스트 광고 사본 작성](best-practices-write.md)
-

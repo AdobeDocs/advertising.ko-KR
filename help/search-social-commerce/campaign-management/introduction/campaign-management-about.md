@@ -1,7 +1,9 @@
 ---
 title: 검색, 소셜 및 상거래의 캠페인 관리 기본 정보
 description: 검색, 소셜 및 상거래의 캠페인 관리 기능에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 0%
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 ## 클릭을 전환에 연결하려면 클릭 추적
 
-Adobe 광고 전환 추적 서비스를 사용하는 경우 랜딩 페이지 접미사에 검색, 소셜 및 상거래 클릭 추적 코드, 추적 템플릿 및 광고, 키워드, 배치, 사이트링크 및 제품 목록에 대한 최종/대상 URL을 포함해야 합니다. 대상 [지원되는 광고 네트워크 및 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md) 캠페인 설정에 &quot; &quot;이 포함된 경우[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 자체 리디렉션 및 추적 코드를 자동으로 추가하므로 수동으로 추가할 필요가 없습니다. 그렇지 않으면 코드를 추적 템플릿 또는 최종 URL에 수동으로 추가해야 합니다.
+Adobe Advertising 전환 추적 서비스를 사용하는 경우 랜딩 페이지 접미사에 검색, 소셜 및 상거래 클릭 추적 코드, 추적 템플릿 및 광고, 키워드, 배치, 사이트링크 및 제품 목록에 대한 최종/대상 URL을 포함해야 합니다. 대상 [지원되는 광고 네트워크 및 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md) 캠페인 설정에 &quot; &quot;이 포함된 경우[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 자체 리디렉션 및 추적 코드를 자동으로 추가하므로 수동으로 추가할 필요가 없습니다. 그렇지 않으면 코드를 추적 템플릿 또는 최종 URL에 수동으로 추가해야 합니다.
 
 추적에 대한 자세한 내용은 &quot;추적&quot; 장을 참조하십시오.
 
@@ -38,9 +40,9 @@ Adobe 광고 전환 추적 서비스를 사용하는 경우 랜딩 페이지 접
 
 * **[!UICONTROL Campaigns]** — [!UICONTROL Campaigns] 보기는 연결된 각 광고 네트워크 계정의 데이터를 보여 줍니다. 모든 광고 네트워크 계정 및 개별 계정, 캠페인, 광고 그룹, 키워드, 광고, 쇼핑 제품 그룹, 배치, 자동 타겟(동적 검색 타겟), 대상, 광고 확장 라이브러리 및 관련 계정 엔티티에서 비용, 클릭, 노출 및 매출 데이터를 볼 수 있습니다. 대상 [지원되는 광고 네트워크에서 지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md), 인터페이스에서 직접 개별 캠페인 및 캠페인 구성 요소에 대한 데이터를 만들고 편집할 수 있습니다. 선택적으로 대부분의 하위 보기의 데이터를 스프레드시트 파일로 내보낼 수 있습니다.
 
-   >[!NOTE]
-   >
-   >다음에 대한 광고 수준 데이터를 사용할 수 없음: [!DNL Google Ads] 동적 검색 광고(DSA), 성능 최대, 스마트 쇼핑 및 [!DNL YouTube] 캠페인.
+  >[!NOTE]
+  >
+  >다음에 대한 광고 수준 데이터를 사용할 수 없음: [!DNL Google Ads] 동적 검색 광고(DSA), 성능 최대, 스마트 쇼핑 및 [!DNL YouTube] 캠페인.
 
 * **[!UICONTROL Products]** — [!UICONTROL Products] 보기 각각에 대한 데이터 표시 [[!DNL Google] or [!DNL Microsoft] 동기화된 판매자 센터 계정](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). 기본값 [!UICONTROL Accounts] 하위 보기는 동기화된 계정을 모두 나열합니다. 일부 사용자 유형은 이 보기에서 새 계정을 추가할 수 있습니다. 다음 [!UICONTROL Products] 하위 보기는 계정 내의 각 제품을 나열합니다.
 
@@ -57,4 +59,3 @@ Adobe 광고 전환 추적 서비스를 사용하는 경우 랜딩 페이지 접
 >* [광고 네트워크 계정 및 캠페인 구현 개요](campaign-implemention-overview.md)
 >* [광고 네트워크 캠페인의 성능 모니터링 및 관리](monitor-performance-campaigns.md)
 >* [검색, 소셜 및 상거래의 Google 광고 전환 데이터](google-conversion-data.md)
-

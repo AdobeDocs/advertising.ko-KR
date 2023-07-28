@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] 재고 피드에 대한 쇼핑 광고 템플릿 설정"
+title: '''[!DNL Google Ads] 재고 피드에 대한 쇼핑 광고 템플릿 설정'
 description: 다음에 대한 설정 참조 [!DNL Google Ads] 재고 피드에 대한 쇼핑 광고 템플릿.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: c154e1b3-70eb-437d-80f6-abf6ac192697
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -56,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]:** (클라이언트 피드 파일용 템플릿의 경우 선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 캠페인 수준 추적 템플릿입니다. 이 값은 계정 수준 설정을 무시하지만, 더 세분화된 수준에서(키워드를 가장 세분화된 수준으로) 추적 템플릿이 이 값을 무시합니다.
 
-캠페인 설정에 &quot;&quot;가 포함된 경우 적용되는 Adobe 광고 전환 추적의 경우[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; 다음을 사용하십시오. [Google Ads 쇼핑 캠페인에 대한 추적 템플릿 형식](/help/search-social-commerce/tracking/formats-click-tracking-google.md). 전체 계정이 쇼핑 광고 전용인 경우 대신 계정 수준에서 추적 템플릿을 정의할 수 있습니다.
+Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; 다음을 사용하십시오. [Google Ads 쇼핑 캠페인에 대한 추적 템플릿 형식](/help/search-social-commerce/tracking/formats-click-tracking-google.md). 전체 계정이 쇼핑 광고 전용인 경우 대신 계정 수준에서 추적 템플릿을 정의할 수 있습니다.
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다.
 
@@ -134,7 +136,7 @@ Adobe Advertising 전환 추적의 경우 값을 입력할 필요가 없습니�
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (하위 제품 그룹이 없는 단위, 선택 사항) 모든 랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 최종 URL을 임베드하는 제품 그룹에 대한 추적 템플릿입니다 [!DNL ValueTrack] 매개 변수. 이 템플릿은 상위 수준의 템플릿을 무시합니다.
+**[!UICONTROL Tracking Template]:** (하위 제품 그룹이 없는 장치, 선택 사항) 모든 랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 최종 URL을 임베드하는 제품 그룹에 대한 추적 템플릿입니다 [!DNL ValueTrack] 매개 변수. 이 템플릿은 상위 수준의 템플릿을 무시합니다.
 
 Adobe Advertising 전환 추적의 경우 값을 입력할 필요가 없습니다. 캠페인 수준 값이면 충분합니다.
 

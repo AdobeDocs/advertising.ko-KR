@@ -1,7 +1,9 @@
 ---
 title: 보고서 템플릿 기본 정보
 description: 재사용 가능한 보고서 템플릿에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 15f05c8c-7dcf-4965-9ded-155d79346634
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -24,4 +26,3 @@ ht-degree: 0%
 >* [보고서 템플릿 편집](template-edit.md)
 >* [보고서 템플릿 보기](template-view.md)
 >* [보고서 템플릿 삭제](template-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 날짜 범위별로 데이터 필터링
 description: 글로벌 날짜 범위 필터를 사용하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e67e843a-1a73-4ab1-9ef7-c97afeb999f6
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +24,6 @@ ht-degree: 0%
 >* 이전 데이터를 보려면 [[!UICONTROL Reports] 보기](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) 기본 보고서를 실행합니다.
 >* 날짜 범위를 저장할 수도 있습니다. [기본 보기 또는 사용자 지정 보기](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-
 ## 캠페인 보기에서 전역 날짜 필터 변경
 
 1. 검색 \> 캠페인 \> 캠페인의 데이터 테이블 위에서 현재 날짜 범위를 클릭합니다.
@@ -33,7 +34,7 @@ ht-degree: 0%
 
    * 특정 범위의 경우 다음을 선택합니다 **[!UICONTROL Custom Date Range]** 를 클릭한 다음 시작 날짜와 종료 날짜를 지정합니다.
 
-      날짜를 MM/DD/YYYY 또는 MM-DD-YYYY 형식으로 입력하거나 ![달력 아이콘](/help/search-social-commerce/assets/calendar.png "달력 아이콘") 각 필드 옆에 있는 을 클릭하여 달력을 열고 날짜를 선택합니다.
+     날짜를 MM/DD/YYYY 또는 MM-DD-YYYY 형식으로 입력하거나 ![달력 아이콘](/help/search-social-commerce/assets/calendar.png "달력 아이콘") 각 필드 옆에 있는 을 클릭하여 달력을 열고 날짜를 선택합니다.
 
 1. (선택 사항) 지정된 날짜 범위의 데이터를 두 번째 날짜 범위의 데이터와 비교합니다.
 

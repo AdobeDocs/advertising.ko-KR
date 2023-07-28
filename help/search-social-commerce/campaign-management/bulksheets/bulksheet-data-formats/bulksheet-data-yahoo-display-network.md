@@ -1,7 +1,9 @@
 ---
 title: 다음에 대한 일괄 시트 데이터 [!DNL Yahoo! Display Network] 계정
 description: 다운로드한 일괄 시트의 헤더 필드 및 데이터 필드 참조 [!DNL Yahoo! Display Network] 계정.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%

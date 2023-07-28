@@ -1,7 +1,9 @@
 ---
 title: 계정 구성 요소는 언제 재고 피드에서 생성되거나 삭제됩니까?
 description: 인벤토리 피드를 게시할 때 계정 구성 요소를 만들고 삭제하는 상황에 대해 알아봅니다.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+exl-id: 93b31996-15dd-4215-ae9d-39327910f712
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 0%

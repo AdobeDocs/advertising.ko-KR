@@ -1,7 +1,9 @@
 ---
 title: 보기 또는 저장 [!DNL Advertising Insight]
 description: 을(를) 보는 방법 알아보기 [!DNL Advertising Insight] 파일에 저장합니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 165a6036-c911-4c56-a820-c9d172e47ea4
+feature: Search Advertising Insights
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
@@ -29,4 +31,3 @@ ht-degree: 0%
 >* [정보 [!UICONTROL Advertising Insights]](insight-about.md)
 >* [생성 [!DNL Advertising Insight]](insight-generate.md)
 >* [삭제 [!DNL Advertising Insight]](insight-delete.md)
-

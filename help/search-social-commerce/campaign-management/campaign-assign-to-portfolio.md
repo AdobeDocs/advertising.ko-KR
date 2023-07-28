@@ -1,7 +1,9 @@
 ---
 title: 포트폴리오에 캠페인 할당
 description: 최적화를 위해 포트폴리오에 캠페인을 포함하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -45,12 +47,12 @@ ht-degree: 0%
       1. 을(를) 클릭하여 포트폴리오 그룹을 하위 포트폴리오로 확장합니다. [!UICONTROL Portfolio Group] 이름.
 
       1. 포트폴리오를 선택합니다.
+
    * 포트폴리오를 검색하려면 다음과 같이 하십시오.
 
       1. 입력 필드에 최소 3개의 문자를 입력합니다.
 
       1. 검색 결과에서 **[!UICONTROL Select]** 포트폴리오 이름 옆에 있습니다.
-
 
 1. (선택 사항) **[!UICONTROL Additional Details]** 프로젝트 이름과 설명을 입력합니다(선택적).
 
@@ -79,4 +81,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [포트폴리오에서 캠페인 제거](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
-

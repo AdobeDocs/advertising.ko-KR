@@ -1,7 +1,9 @@
 ---
 title: 트래픽 및 전환 지표 업로드 [!DNL Naver] 추적 전용 계정
 description: 다음에 대한 추적 및 보고만을 위해 트래픽 및 전환 지표를 업로드하는 방법을 알아봅니다. [!DNL Naver] 계정.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cfc8178c-0be0-445d-a387-abe826e1ca8a
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -29,4 +31,3 @@ ht-degree: 0%
 >* [구현 [!DNL Naver] 추적 전용 계정](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [부록 - 필수 일괄 시트 데이터 [!DNL Naver] 계정](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
 >* [다음에 대한 지표 데이터 요구 사항 [!DNL Naver] 추적 전용 계정](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
-

@@ -1,7 +1,9 @@
 ---
-title: "에 대한 s\_kwcid 추적 코드 업데이트 [!DNL Google Ads] account"
+title: 에 대한 s kwcid 추적 코드 업데이트 [!DNL Google Ads] account
 description: 에 대한 최신 s\_kwcid 추적 코드로 전환하는 방법에 대해 알아봅니다. [!DNL Google Ads] 계정입니다.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%

@@ -1,7 +1,9 @@
 ---
 title: 템플릿을 통해 인벤토리 피드 데이터 전파
 description: 계정 구조를 관리하고 동적 광고를 게재하기 위해 인벤토리 피드에서 광고 템플릿을 통해 데이터를 전파하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 40de75e8-8440-48f4-9fa7-1aeb2ae392c5
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -30,11 +32,12 @@ ht-degree: 0%
 
    * **[!UICONTROL Propagate and Preview]:** 일괄 시트 파일(&quot;`<feed file name>_<template name>`&quot;): [!UICONTROL Bulksheets] 검토를 위해 보기(하지만 에는 없음) [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], 및 [!UICONTROL Ads] 탭). 나중에 일괄 시트 파일을 [!UICONTROL Bulksheets] 보기.
 
-      결과 일괄 시트 파일이 2MB를 초과하는 경우 파일은 ZIP 형식입니다. 파일을 게시하기 위해 압축 해제할 필요가 없습니다.
+     결과 일괄 시트 파일이 2MB를 초과하는 경우 파일은 ZIP 형식입니다. 파일을 게시하기 위해 압축 해제할 필요가 없습니다.
 
    * **[!UICONTROL Propagate and Post to SE]:** 일괄 시트 파일(&quot;`<feed file name>_<template name>`광고 네트워크에 게시하기 위해 즉시 대기열에 추가되는 &quot;) 일괄 시트 파일은 다음에서 사용할 수 있습니다. [!UICONTROL Bulksheets] 보기는 하지만 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], 및 [!UICONTROL Ads] 탭.
 
-      결과 일괄 시트 파일이 2MB를 초과하는 경우 파일은 ZIP 형식입니다.
+     결과 일괄 시트 파일이 2MB를 초과하는 경우 파일은 ZIP 형식입니다.
+
    &quot;마지막 Prop. 상태&quot; 열에는 해당 템플릿에 대한 작업 상태가 표시됩니다.
 
    각 전달 작업이 완료되면 전달 요약이 [!UICONTROL Propagations] 전달을 기반으로 생성, 일시 중지 또는 삭제되었거나 삭제될 각 엔티티 유형의 수를 나타내는 탭입니다. 예상 값에는 광고 네트워크의 자체 광고 편집기 내에서 수행한 변경 사항이 포함되지 않습니다.
@@ -53,11 +56,11 @@ ht-degree: 0%
 
    * **[!UICONTROL Propagate and Preview]:** 일괄 시트 파일(&quot;`<feed file name>_<template name>`&quot;): [!UICONTROL Bulksheets] 검토를 위해 보기(하지만 에는 없음) [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], 및 [!UICONTROL Ads] 탭). 나중에 일괄 시트 파일을 [!UICONTROL Bulksheets] 보기.
 
-      결과 일괄 시트 파일이 2MB를 초과하는 경우 파일은 ZIP 형식입니다. 파일을 게시하기 위해 압축 해제할 필요가 없습니다.
+     결과 일괄 시트 파일이 2MB를 초과하는 경우 파일은 ZIP 형식입니다. 파일을 게시하기 위해 압축 해제할 필요가 없습니다.
 
    * **[!UICONTROL Propagate and Post to SE]:** 일괄 시트 파일(&quot;`<feed file name>_<template name>`광고 네트워크에 게시하기 위해 즉시 대기열에 추가되는 &quot;) 일괄 시트 파일은 다음에서 사용할 수 있습니다. [!UICONTROL Bulksheets] 보기는 하지만 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], 및 [!UICONTROL Ads] 탭.
 
-      결과 일괄 시트 파일이 2MB를 초과하는 경우 파일은 ZIP 형식입니다.
+     결과 일괄 시트 파일이 2MB를 초과하는 경우 파일은 ZIP 형식입니다.
 
 1. 팝업 창에서 피드 파일의 데이터를 전달할 각 템플릿 옆의 확인란을 선택한 다음 을 클릭합니다 **[!UICONTROL Propagate Feed]**.
 
@@ -92,4 +95,3 @@ ht-degree: 0%
 >* [피드에서 생성된 캠페인 데이터를 광고 네트워크에 게시](propagated-data-post.md)
 >* [재고 피드 데이터에 대한 게시 작업 중지](stop-job.md)
 >* [피드에서 생성된 데이터 상태](propagated-data-status.md)
-

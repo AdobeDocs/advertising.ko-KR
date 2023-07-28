@@ -1,7 +1,9 @@
 ---
 title: 삭제 [!DNL Advertising Insight]
 description: 삭제 방법 알아보기 [!DNL Advertising Insight].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c7c619c0-f6d7-4764-8f08-7d19c5b39772
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
@@ -21,4 +23,3 @@ ht-degree: 0%
 >* [정보 [!UICONTROL Advertising Insights]](insight-about.md)
 >* [생성 [!DNL Advertising Insight]](insight-generate.md)
 >* [보기 또는 저장 [!DNL Advertising Insight]](insight-view-save.md)
-

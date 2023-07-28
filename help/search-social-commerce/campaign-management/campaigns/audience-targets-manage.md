@@ -1,7 +1,9 @@
 ---
 title: 캠페인 및 광고 그룹에 대한 대상자 타겟 관리
 description: 에 대한 대상 타겟을 구성 및 관리하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 캠페인 및 광고 그룹.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -46,7 +48,6 @@ ht-degree: 0%
 
       상위 캠페인과 하위 광고 그룹(자동으로 타겟을 사용)에 대한 타겟을 모두 구성할 수는 없습니다.
 
-
 1. 클릭 **[!UICONTROL Post]**.
 
 1. (선택 사항) 다음 방법 중 하나로 타겟의 입찰 조정을 설정합니다. [!UICONTROL Targets] 보기:
@@ -60,7 +61,6 @@ ht-degree: 0%
    * *0%:* 이 대상자의 광고 입찰을 조정하지 않습니다.
 
    * /[*-90% ~ 900%의 기타 값*/]: 이 대상자의 광고 입찰을 늘리거나 줄입니다. 예를 들어 키워드 수준의 입찰이 1 USD이고 특정 대상 타겟에 대한 입찰 조정이 50%인 경우 해당 대상에 대한 입찰은 1.50 USD로 증가합니다.
-
 
 ## 대상자 타겟에 대한 입찰 수정자 편집
 
@@ -100,7 +100,6 @@ ht-degree: 0%
 
       1. 클릭 **[!UICONTROL Post]**.
 
-
 ## 대상자 타겟의 상태 변경
 
 활성 대상 타겟을 일시 중지하여 입찰을 비활성화할 수 있습니다. 나중에 상태를 다시 활성으로 변경하여 입찰을 다시 시작할 수 있습니다.
@@ -127,4 +126,3 @@ ht-degree: 0%
 >
 >* [대상자 기본 정보](audience-about.md)
 >* [캠페인 및 광고 그룹에 대한 대상자 제외 관리](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
-

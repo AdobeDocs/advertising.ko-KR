@@ -1,7 +1,9 @@
 ---
 title: 스프레드시트 보고서 피드 설정 편집
 description: 스프레드시트 피드의 설정을 편집하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 063b5fb8-905f-480a-817f-f6b339af6028
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -24,7 +26,7 @@ ht-degree: 0%
 
    * (선택 사항) 피드에 대해 다른 보고서 템플릿 또는 업데이트된 보고서 템플릿을 사용하려면 [새로 만들기 [!DNL Excel] 보고서 템플릿용 템플릿](spreadsheet-feed-create-excel-template.md).
 
-      보고서 템플릿과 새 템플릿을 모두 업로드해야 합니다. [!DNL Excel] 파일을 다음 단계로 이동합니다.
+     보고서 템플릿과 새 템플릿을 모두 업로드해야 합니다. [!DNL Excel] 파일을 다음 단계로 이동합니다.
 
    * (선택 사항) 사용자 지정 열을 [!DNL Excel] 템플릿을 보고서 템플릿의 열 오른쪽에 열을 삽입한 다음 파일을 다음과 같이 저장합니다 [!DNL Excel] .XLSX 형식의 스프레드시트입니다. 새 항목을 업로드해야 합니다. [!DNL Excel] 파일을 다음 단계로 이동합니다.
 
@@ -40,11 +42,11 @@ ht-degree: 0%
 
    * (선택 사항) 피드가 [!UICONTROL Update Status] 은(는) *[!UICONTROL Finished]*, 클릭 **[!UICONTROL XLSX]** 피드 옆에 있는 다음 브라우저의 일반 절차에 따라 파일을 열거나 저장합니다.
 
-      >[!NOTE]
-      >
-      > 피드와 연결된 보고서 템플릿이 나중에 삭제되면 피드도 삭제됩니다.
+     >[!NOTE]
+     >
+     > 피드와 연결된 보고서 템플릿이 나중에 삭제되면 피드도 삭제됩니다.
 
-      스프레드시트 피드는 광고주의 시간대에 매일 08:00에 자동으로 새로 고쳐집니다. 보고서 템플릿에 이메일 수신자의 주소가 포함된 경우 스프레드시트를 새로 고치면 해당 주소에 알림이 전송됩니다.
+     스프레드시트 피드는 광고주의 시간대에 매일 08:00에 자동으로 새로 고쳐집니다. 보고서 템플릿에 이메일 수신자의 주소가 포함된 경우 스프레드시트를 새로 고치면 해당 주소에 알림이 전송됩니다.
 
 >[!MORELIKETHIS]
 >
@@ -55,4 +57,3 @@ ht-degree: 0%
 >* [스프레드시트 보고서 피드 설정](spreadsheet-feed-settings.md)
 >* [스프레드시트 보고서 피드 파일 보기 또는 저장](spreadsheet-feed-view-or-save.md)
 >* [스프레드시트 보고서 피드 수동 새로 고침](spreadsheet-feed-refresh.md)
-

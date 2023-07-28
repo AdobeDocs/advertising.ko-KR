@@ -1,7 +1,9 @@
 ---
 title: 복사 및 붙여넣기를 사용하여 캠페인 데이터 일괄 생성 및 편집
 description: 복사 및 붙여넣기 기능을 사용하여 캠페인 데이터를 대량으로 관리하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 09454f19-221b-43bb-ac74-f2c121329422
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -43,8 +45,8 @@ ht-degree: 0%
       * 편집할 기존 객체의 경우 관련 ID 열, 엔티티 이름 및 편집할 속성을 모두 포함해야 합니다. 개체의 숫자 ID는 편집하지 마십시오.
 
       * 새 캠페인 객체의 경우 모든 관련 엔티티 이름과 속성을 포함하지만 자동으로 생성되는 객체 ID는 포함하지 마십시오. 예를 들어 새 광고를 만드는 경우 [!UICONTROL Ad ID] 필드가 비어 있습니다. 개체를 게시하면 광고 네트워크에서 ID를 자동으로 만듭니다.
-   * 필요하지 않은 열의 값은 null(비어 있음)일 수 있지만 각 행에는 탭으로 구분된 동일한 수의 값이 있어야 합니다.
 
+   * 필요하지 않은 열의 값은 null(비어 있음)일 수 있지만 각 행에는 탭으로 구분된 동일한 수의 값이 있어야 합니다.
 
 1. 데이터를 탭으로 구분된 값으로 저장합니다.
 
@@ -81,4 +83,3 @@ ht-degree: 0%
 >* [광고 그룹 관리](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
 >* [키워드 관리](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [광고 관리](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
-

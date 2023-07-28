@@ -1,7 +1,9 @@
 ---
 title: 바인딩 가능한 키워드 관리
 description: 검색 광고 그룹에 사용할 수 있는 키워드를 만들고 관리하는 방법을 알아봅니다.
-source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
+exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%

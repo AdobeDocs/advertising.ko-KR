@@ -1,7 +1,9 @@
 ---
 title: 만들기 [!DNL Google Ads] 의 고객 일치 대상 [!DNL Adobe] 대상
 description: 만드는 방법 알아보기 [!DNL Google Ads] 기존 Adobe Analytics의 대상과 Audience Manager 대상의 대상을 고객이 일치시킵니다.
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]고객 대응에만 적합한 계정*
 
-*Advertising-Adobe Audience Manager 또는 Adobe Advertising-Adobe Analytics 통합만 있는 Adobe*
+*Adobe Advertising-Adobe Audience Manager 또는 Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
 
 옵트인 광고주가 다음을 만들 수 있습니다. [!DNL Google Ads] a)의 사용자 ID를 사용하는 고객 일치 [!DNL Analytics] Adobe Experience Cloud과 공유되는 세그먼트 및 b) 검색, 소셜, 상거래를 대상으로 하는 Audience Manager 세그먼트 [!DNL Analytics] Adobe Experience Cloud에 게시되는 세그먼트 및 Adobe Experience Cloud 대상 라이브러리를 사용하여 생성되는 세그먼트입니다. Search, Social 및 Commerce가 [!DNL Google] 각 URL로 다시 추적 [!DNL Analytics] 또는 세그먼트를 Audience Manager 하여 [!DNL Google] 대상자를 추적할 수 있습니다.
 

@@ -2,7 +2,8 @@
 title: 에 대한 권장 사항 로그 보기 [!DNL Google Ads] account
 description: 다음에 대해 적용된 각 권장 사항의 로그를 보는 방법에 대해 알아봅니다. [!DNL Google Ads] 계정입니다.
 exl-id: 97db1e9e-6cd8-406f-8fd5-fbb85315fdf6
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%

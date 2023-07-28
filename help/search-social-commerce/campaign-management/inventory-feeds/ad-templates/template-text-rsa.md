@@ -1,7 +1,9 @@
 ---
 title: 인벤토리 피드에 대한 텍스트 광고 및 반응형 검색 광고 템플릿 설정
 description: 재고 피드에 대한 텍스트 광고 및 반응형 검색 광고 템플릿에 대한 설정을 참조하십시오.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: ee3956f9-4367-40e4-bdb3-f04a8da9a5f1
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '3317'
 ht-degree: 0%
@@ -64,7 +66,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]:** (최종/고급 URL만 있는 계정, 선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 캠페인 수준 추적 템플릿입니다. 이 값은 계정 수준 설정을 무시하지만, 더 세분화된 수준에서(키워드를 가장 세분화된 수준으로) 추적 템플릿이 이 값을 무시합니다.
 
-* 캠페인 설정에 &quot;&quot;가 포함된 경우 적용되는 Adobe 광고 전환 추적의 경우[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
+* Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
 
 * 최종 URL을 포함하려면 다음을 수행하십시오.
 
@@ -134,7 +136,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]:** (최종/고급 URL만 있는 계정) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 광고 그룹 수준 추적 템플릿입니다.
 
-캠페인 설정에 &quot;&quot;가 포함된 경우 적용되는 Adobe 광고 전환 추적의 경우[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
+Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다. 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 
@@ -198,7 +200,7 @@ ht-degree: 0%
 
 **[!UICONTROL Keyword Tracking Template]:** (최종/고급 URL이 있는 계정, 선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 추적 템플릿입니다. 가장 세부적인 수준의 추적 템플릿(키워드를 가장 세부적인 수준으로 사용)은 다른 모든 수준의 값을 재정의합니다.
 
-* 캠페인 설정에 &quot;&quot;가 포함된 경우 적용되는 Adobe 광고 전환 추적의 경우[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
+* Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
 
 * 선택적으로 서드파티 리디렉션 및 추적을 입력할 수 있습니다.
 
@@ -236,7 +238,7 @@ ht-degree: 0%
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] 템플릿 전용) 제목, 텍스트, 표시 URL 또는 최종 URL에 `{Param3}` 동적 대체 문자열. 최대 길이는 70자이지만 사용하는 광고 요소의 최대 길이에 유의하십시오(예: 광고 제목에는 최대 25자가 포함될 수 있음).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** 지정된 일치 유형 또는 광고 유형을 사용하는 각 키워드에 대한 초기 입찰입니다.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** 지정된 일치 유형 또는 광고 유형을 사용하는 각 키워드에 대한 초기 입찰입니다.
 
 ## [!UICONTROL Ads]
 
@@ -316,7 +318,7 @@ ht-degree: 0%
 
 [!DNL Microsoft® Advertising] 및 [!DNL Yahoo! Japan Ads] 에서는 표준 텍스트 광고 생성 및 편집을 더 이상 사용하지 않습니다.
 
-**[!UICONTROL Base URL]:** (대상 URL이 있는 계정만 해당) 사용자를 가져오는 페이지입니다. 여기에는 서드파티 리디렉션 및 추적 코드가 포함될 수 있습니다. Adobe 광고 전환 추적 서비스를 사용하는 경우 캠페인 설정에 다음을 사용하는 것이 포함됩니다. [!UICONTROL EF Redirect] 광고 수준에서 추적을 추가하면 검색, 소셜 및 상거래에 자동으로 자체 리디렉션 및 추적 코드가 광고에 추가됩니다.
+**[!UICONTROL Base URL]:** (대상 URL이 있는 계정만 해당) 사용자를 가져오는 페이지입니다. 여기에는 서드파티 리디렉션 및 추적 코드가 포함될 수 있습니다. Adobe Advertising 전환 추적 서비스를 사용하는 경우 캠페인 설정에 다음을 사용하는 것이 포함됩니다. [!UICONTROL EF Redirect] 광고 수준에서 추적을 추가하면 검색, 소셜 및 상거래에 자동으로 자체 리디렉션 및 추적 코드가 광고에 추가됩니다.
 
 열 이름이나 수정자 그룹을 동적 매개 변수로 삽입하려면 입력 필드를 클릭한 다음 열 목록 또는 [수정자 이름](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 다음에서 [!UICONTROL Modifiers] 목록을 표시합니다.
 
@@ -331,7 +333,7 @@ ht-degree: 0%
 
 **[!UICONTROL Tracking Template]:** (최종/고급 URL이 있는 계정, 선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 추적 템플릿입니다. 가장 세부적인 수준의 추적 템플릿(키워드를 가장 세부적인 수준으로 사용)은 다른 모든 수준의 값을 재정의합니다.
 
-캠페인 설정에 &quot;&quot;가 포함된 경우 적용되는 Adobe 광고 전환 추적의 경우[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
+Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다. 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 

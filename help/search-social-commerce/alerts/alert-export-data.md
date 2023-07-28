@@ -1,7 +1,9 @@
 ---
 title: 사용자 지정 경고에 대한 데이터 내보내기
 description: 트리거된 경고에 대한 데이터를 파일로 내보내는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c6c3d977-8ee8-4393-a6c7-8f7b9ca5c913
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -36,4 +38,3 @@ ht-degree: 0%
 >* [사용자 지정 경고 템플릿 삭제](alert-template-delete.md)
 >* [사용자 지정 경고 템플릿 설정](alert-template-settings.md)
 >* [사용자 지정 경고 보기](alert-view.md)
-

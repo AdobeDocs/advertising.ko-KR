@@ -1,7 +1,9 @@
 ---
 title: 지원되는 일괄 시트 파일 형식
 description: Bulksheets에 대한 일반 파일 요구 사항을 참조하십시오.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -45,7 +47,7 @@ Bulksheet 파일은 최대 2.5GB(약 250만 행)일 수 있습니다.
 
 * 각 레코드의 필드는 탭 문자로 구분됩니다. 필드 값을 생략하려면 탭 문자만 사용하십시오.
 
-   예: `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
+  예: `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
 
 * 필드에는 포함된 탭 문자를 사용할 수 없습니다.
 
@@ -55,23 +57,23 @@ Bulksheet 파일은 최대 2.5GB(약 250만 행)일 수 있습니다.
 
 * 레코드의 필드는 쉼표로 구분됩니다. 필드 값을 생략하려면 쉼표만 사용하십시오.
 
-   예: `Cruises,5000,Caribbean,,,`
+  예: `Cruises,5000,Caribbean,,,`
 
 * 모든 필드는 선택적으로 큰따옴표(`""`).
 
-   예:  `"Cruises","5000","Caribbean",`
+  예:  `"Cruises","5000","Caribbean",`
 
 * 포함된 쉼표가 있는 필드는 큰따옴표()로 묶어야 합니다.`""`).
 
-   예: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
+  예: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
 
 * 포함된 큰따옴표가 있는 필드는 큰따옴표()로 묶어야 합니다.`""`).
 
-   예: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
+  예: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
 
 * 선행 또는 후행 공백이 있는 필드는 큰따옴표(`""`).
 
-   예: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
+  예: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
 
 >[!MORELIKETHIS]
 >
@@ -79,4 +81,3 @@ Bulksheet 파일은 최대 2.5GB(약 250만 행)일 수 있습니다.
 >* [일괄 시트에서 수행할 수 있는 작업](bulksheet-operations.md)
 >* [부록 - 일괄 시트 오류](../bulksheet-errors.md)
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
-

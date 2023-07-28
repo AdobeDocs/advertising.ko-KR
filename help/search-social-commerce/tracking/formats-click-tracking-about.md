@@ -1,14 +1,16 @@
 ---
-title: Adobe 광고 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보
+title: Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보
 description: 지원되는 광고 네트워크의 클릭 추적 형식에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 12148caf-fde6-4ac2-b8b4-222409895dd7
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
-# Adobe 광고 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보
+# Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보
 
 Adobe Advertising 전환 추적 서비스를 사용하는 광고 계정 및 캠페인에 대한 추적 템플릿, 랜딩 페이지 접미사(최종 URL 접미사) 및 대상 URL의 형식은 다음과 같습니다.
 
@@ -16,9 +18,9 @@ Adobe Advertising 전환 추적 서비스를 사용하는 광고 계정 및 캠�
 
 여기서:
 
-* `http://pixel.everesttech.net` 사용자를 Adobe 광고 픽셀 서버로 리디렉션합니다.
+* `http://pixel.everesttech.net` 사용자를 Adobe Advertising 픽셀 서버로 리디렉션합니다.
 
-* `<advertiser_ID>` 는 Adobe 광고 내의 광고주에게 할당된 고유한 사용자 ID에 대한 변수입니다.
+* `<advertiser_ID>` 는 Adobe Advertising 내의 광고주에게 할당된 고유한 사용자 ID에 대한 변수입니다.
 
 * `<token passing parameter>` 는 다음 중 하나에 대한 변수입니다.
 
@@ -43,4 +45,3 @@ Adobe Advertising 전환 추적 서비스를 사용하는 광고 계정 및 캠�
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Yandex]](formats-click-tracking-yandex.md)
-

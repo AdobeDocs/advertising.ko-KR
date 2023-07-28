@@ -1,7 +1,9 @@
 ---
 title: 기본 보고서 및 고급 보고서 정보
 description: 사용자 지정 가능한 기본 및 고급 보고서에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6224ee6d-72db-4524-9660-7fc0d57b5347
+feature: Search Reports, Search Basic Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -56,7 +58,7 @@ ht-degree: 0%
 
 고급 보고서를 사용하면 지리적 타겟팅 또는 네트워크 설정을 다시 구성하여 이점이 있는 위치를 식별하여 광고 전략에 대한 전략적 결정을 내리는 데 도움이 될 수 있습니다. 또한 광고주의 내부 전환 추적 데이터에 대해 검색, 소셜 및 상거래에서 사용할 수 있는 전환 데이터를 확인하는 데 도움이 될 수도 있습니다.
 
-모든 사용자가 다음을 생성할 수 있음 [!UICONTROL Transaction Report]- 키워드별로 개별 트랜잭션을 표시합니다. 다른 모든 고급 보고서는 Adobe Advertising 전환 추적 서비스를 통해 캡처한 데이터를 사용하며 해당 서비스를 사용하는 광고주에게만 생성될 수 있습니다.
+모든 사용자가 다음을 생성할 수 있음 [!UICONTROL Transaction Report]- 키워드별로 개별 트랜잭션을 표시합니다. 다른 모든 고급 보고서는 Adobe Advertising 전환 추적 서비스를 통해 캡처한 데이터를 사용하며 해당 서비스를 사용하는 광고주만 생성할 수 있습니다.
 
 모든 고급 보고서에는 선택적으로 전환 데이터 또는 사용자가 만든 다른 지표가 포함될 수 있습니다. 광고 네트워크가 아닌 포트폴리오에서 생성된 고급 보고서에는 지정된 포트폴리오에 현재 매핑된 캠페인에 대한 데이터가 표시됩니다. 날짜 범위 동안 포트폴리오에 있었던 캠페인에 대한 데이터는 보고서에 포함되지 않지만 아직 포함되지는 않습니다.
 
@@ -73,4 +75,3 @@ ht-degree: 0%
 >* [기본 또는 고급 보고서 생성](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [기본 및 고급 보고서 설정](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
 >* [기본 및 고급 보고서용 보고서 열](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
-

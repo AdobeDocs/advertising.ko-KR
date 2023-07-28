@@ -1,7 +1,9 @@
 ---
 title: 모델 정확도 보고서 정보
 description: 입찰을 최적화하는 데 사용되는 비용 및 수익 모델의 정확도를 나타내는 보고서에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8aeb2308-8775-4a6d-9d25-ba5378490344
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -27,4 +29,3 @@ ht-degree: 0%
 >* [모델 정확도 보고서 생성](model-accuracy-report-generate.md)
 >* [모델 정확도 보고서 설정](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
 >* [보고서 기본 정보](/help/search-social-commerce/reports/report-about.md)
-

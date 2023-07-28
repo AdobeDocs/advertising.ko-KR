@@ -1,7 +1,9 @@
 ---
 title: 광고 관리
 description: 사용 가능한 광고 유형을 포함하여 검색, 소셜 및 상거래의 광고에 대해 알아봅니다.
-source-git-commit: eaf08dedb14bdf0c0be087e48c79bbf21b0990aa
+exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 0%

@@ -1,7 +1,9 @@
 ---
 title: 전문 보고서 생성
 description: 전문 보고서를 생성하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5edf7b11-37ae-4488-962a-7b4f50e7c569
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -46,4 +48,3 @@ ht-degree: 0%
 >* [특성 보고서 설정](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
 >* [특성 보고서에 대한 보고서 열](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
 >* [보고서 삭제](/help/search-social-commerce/reports/management/report-delete.md)
-

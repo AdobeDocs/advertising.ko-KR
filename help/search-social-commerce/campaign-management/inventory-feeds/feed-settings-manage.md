@@ -1,7 +1,9 @@
 ---
 title: 피드 데이터 설정 구성
 description: 피드 데이터 처리 방법을 제어하는 설정을 구성하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fc72d1bc-aac7-4280-80c6-4fc53a96a49f
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 0%
@@ -44,7 +46,6 @@ ht-degree: 0%
 >
 >* 대상 [!DNL Google Ads] 쇼핑 광고, 가장 낮은 수준의 제품 그룹만 영향을 받습니다.
 >* 대상 [!DNL Yandex] 계정, 사용되지 않는 항목 자동 처리 작업은 이 설정에 관계없이 항상 광고 변형에서 수행됩니다.
-
 
 **[!UICONTROL When the Scheduled End Date is reached]:** (수동으로 게시한 데이터만 해당) 종료 시간이 되면 지정된 종료 날짜 및 시간으로 게시된 피드 파일의 라인 항목에 대한 처리 방법:
 
@@ -89,7 +90,6 @@ ht-degree: 0%
 >* 재입고 또는 가용성 증가가 예상되는 제품 또는 서비스의 경우 광고 그룹, 키워드 및 광고를 삭제하고 다시 만드는 대신 일시 중지해야 합니다. 일시 정지를 하면 품질 점수를 유지할 수 있습니다.
 >* 광고 그룹에 대해 더 이상 사용되지 않는 자동 처리를 활성화하고 새 데이터에 광고 그룹에 대한 재고 수준이 포함된 경우, 지정된 재고 수준이 브랜드/항목 수준이 아닌 범주 수준에 있는 경우에만 광고 그룹을 삭제하거나 일시 중지하는 것이 중요합니다. 예를 들어 광고 그룹 &quot;컨버터블&quot;이 있는 경우 광고 그룹에 대한 재고 수준은 광고 그룹에 표시된 모든 개별 컨버터블 모델에 대한 합계여야 합니다.
 
-
 **[!UICONTROL Propagate feed data through all applicable templates]:** (FTP 또는 판매자 센터 계정을 통해 데이터 파일을 업로드하는 광고주) 적용 가능한 템플릿을 통해 새 데이터를 자동으로 전파합니다. 이 옵션은 기본적으로 선택되어 있습니다. 옵션을 비활성화해도 피드 파일, 계정 또는 템플릿에 대한 데이터를 수동으로 전파할 수 있습니다.
 
 >[!NOTE]
@@ -97,7 +97,6 @@ ht-degree: 0%
 >* FTP 파일의 경우 피드 서비스는 2시간마다(PST 시간대의 짝수 시간) FTP 디렉터리에서 업데이트를 확인합니다. 이 옵션은 마지막 확인 이후 업로드된 모든 파일을 처리합니다.
 >* 판매자 센터 계정의 경우 검색, 소셜 및 상거래가 광고주의 시간대에서 매일 약 06:00에 계정과 동기화됩니다. 이 옵션은 마지막 동기화 이후 업데이트된 모든 데이터를 처리합니다.
 >* 전파된 데이터는 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], 및 [!UICONTROL Ads] 데이터가 광고 네트워크나 [!UICONTROL Bulksheets] 보기.
-
 
 **[!UICONTROL Post to the SE]:** (FTP 또는 머천트 센터 계정을 통해 데이터 파일을 업로드하는 광고주) 새 데이터가 적용 가능한 템플릿을 통해 전파된 후 관련 광고 네트워크에 대한 올바른 형식으로 일괄 시트 파일을 자동으로 생성합니다. 이 옵션은 또한 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], 및 [!UICONTROL Ads] 하위 구성 요소에 오류가 없는 경우 탭
 
@@ -116,4 +115,3 @@ ht-degree: 0%
 >* [인벤토리 피드 기본 정보](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
 >* [템플릿을 통해 피드 데이터 전파](/help/search-social-commerce/campaign-management/inventory-feeds/feed-data-propagate.md)
 >* [피드에서 생성된 캠페인 데이터를 광고 네트워크에 게시](propagated-data-post.md)
-

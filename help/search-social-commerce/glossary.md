@@ -1,7 +1,9 @@
 ---
 title: 용어집
 description: 주요 용어의 정의를 참조하십시오.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 0%
@@ -116,7 +118,7 @@ ht-degree: 0%
 
 **고립 트랜잭션:** 특정 키워드 또는 광고와 연결할 수 없는 트랜잭션 이벤트입니다.
 
-**픽셀:** 추적을 위해 웹 페이지에 임베드된 투명한 1픽셀 1픽셀 이미지. Adobe 광고 전환 추적 태그에는 클릭 수와 결과 트랜잭션을 추적할 HTML 이미지 픽셀 또는 JavaScript가 포함되어 있습니다.
+**픽셀:** 추적을 위해 웹 페이지에 임베드된 투명한 1픽셀 1픽셀 이미지. Adobe Advertising 전환 추적 태그에는 클릭 수와 결과 트랜잭션을 추적할 HTML 이미지 픽셀 또는 JavaScript가 포함되어 있습니다.
 
 **배치:** 광고가 표시될 수 있는 디스플레이 네트워크상의 위치입니다. 전체 웹 사이트, 웹 사이트의 하위 집합 또는 특정 페이지에서의 광고 위치일 수 있습니다.
 
@@ -154,7 +156,7 @@ ht-degree: 0%
 
 **지출 전략:** (포트폴리오가 있는 광고주) 포트폴리오에 대한 키워드/광고 입찰을 최적화하기 위해 선택한 전략입니다.
 
-**`s_kwcid`:** Adobe 광고가 Adobe Analytics과 검색 캠페인에 대한 데이터를 공유할 수 있도록 해 주는 추적 코드입니다.
+**`s_kwcid`:** Adobe Advertising이 Adobe Analytics과 검색 캠페인에 대한 데이터를 공유할 수 있도록 해 주는 추적 코드.
 
 **추적 URL:** 광고 클릭에 대한 정보를 추적하기 위해 추가 매개 변수가 추가된 추적 템플릿 또는 대상 URL. 광고주의 랜딩 페이지로 리디렉션하기 전에 사용자를 먼저 추적 서버로 보내는 리디렉션 URL을 포함할 수도 있습니다.
 

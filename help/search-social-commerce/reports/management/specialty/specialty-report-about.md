@@ -2,7 +2,8 @@
 title: 전문 보고서 정보
 description: 전문 보고서에 대해 알아봅니다.
 exl-id: a5232434-cdb5-451f-aa65-6536c97c4a52
-source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->대부분의 전문 보고서 의 경우, 전날 데이터는 매일 23:00(오후 11:00)에 가져옵니다. 예를 들어, 6월 18일 23시에 6월 17일에 대한 데이터를 가져옵니다. 6월 18일에 대한 데이터를 가져오기 전인 6월 19일 09:00에 보고서를 실행하는 경우 보고서에는 6월 17일 23:00까지의 데이터가 포함됩니다. 이 데이터 동기화는 모든 사용자에게 적용됩니다. [!DNL Google Ads] 전문 보고서 및 대상 [!UICONTROL Bing Ads Geo Report] 및 [!UICONTROL Bing Ads Search Query Report].
+>대부분의 전문 보고서 의 경우 전날 데이터는 매일 23:00(오후 11:00)에 가져옵니다. 예를 들어, 6월 18일 23시에 6월 17일에 대한 데이터를 가져옵니다. 6월 18일에 대한 데이터를 가져오기 전인 6월 19일 09:00에 보고서를 실행하는 경우 보고서에는 6월 17일 23:00까지의 데이터가 포함됩니다. 이 데이터 동기화는 모든 사용자에게 적용됩니다. [!DNL Google Ads] 전문 보고서 및 대상 [!UICONTROL Bing Ads Geo Report] 및 [!UICONTROL Bing Ads Search Query Report].
 
 ## 전문 보고서 유형
 

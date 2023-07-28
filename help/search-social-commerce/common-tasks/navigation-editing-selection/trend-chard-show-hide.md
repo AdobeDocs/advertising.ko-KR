@@ -1,7 +1,9 @@
 ---
 title: 트렌드 차트 표시 및 숨기기
 description: 일부 캠페인 관리 보기에서 데이터에 대한 추세 차트를 보고 숨기는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9360e0c1-a326-4b1f-8c80-a4a5049ff024
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%

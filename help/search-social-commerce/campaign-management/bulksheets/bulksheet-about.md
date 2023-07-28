@@ -1,7 +1,9 @@
 ---
 title: 일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보
 description: 광고 네트워크에서 사용할 수 있는 일괄 시트 기능, 일괄 시트 워크플로우 및 오류 처리에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 0%
@@ -26,11 +28,11 @@ ht-degree: 0%
 
 * **다운로드 및 업로드만:** [!DNL Naver] 계정
 
-   업로드할 수 있습니다 [!DNL Naver] 검색, 소셜 및 상거래 내에서 사용할 데이터이지만 광고 네트워크에 게시할 수 없습니다. 기존(동기화되지 않은) 데이터를 다운로드할 수도 있습니다.
+  업로드할 수 있습니다 [!DNL Naver] 검색, 소셜 및 상거래 내에서 사용할 데이터이지만 광고 네트워크에 게시할 수 없습니다. 기존(동기화되지 않은) 데이터를 다운로드할 수도 있습니다.
 
 * **데이터만 다운로드:**  [!DNL Pinterest], [!DNL Yahoo Native], 및 [!DNL Yahoo! Display Network] 계정
 
-   기존(동기화되지 않은) 데이터를 다운로드할 수 있습니다.
+  기존(동기화되지 않은) 데이터를 다운로드할 수 있습니다.
 
 ## 일괄 시트 사용 개요
 
@@ -84,4 +86,3 @@ ht-degree: 0%
 >* [일괄 시트 또는 수정된 오류 파일 업로드](bulksheet-upload.md)
 >* [게시물 일괄 시트 또는 수정된 오류 파일](bulksheet-post.md)
 >* [생성 또는 업로드한 일괄 시트 파일 내보내기](bulksheet-export.md)
-

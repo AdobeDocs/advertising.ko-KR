@@ -1,7 +1,9 @@
 ---
 title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Naver] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Naver] 계정.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bd6e3dab-47b0-428a-825d-bd9c21494fb0
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 1%
@@ -62,4 +64,3 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,
 >* [클릭 추적 형식 [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [일괄 시트 파일 또는 수정된 오류 파일 업로드](../bulksheet-upload.md)
 >* [구현 [!DNL Naver] 추적 전용 계정](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
-

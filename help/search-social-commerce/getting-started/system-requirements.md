@@ -1,9 +1,11 @@
 ---
 title: 시스템 요구 사항
 description: 소프트웨어 및 계정 요구 사항에 대해 알아봅니다.
-source-git-commit: c7c1735f9459012ade5039e64e55d10343f8d0af
+exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -26,7 +28,7 @@ ht-degree: 0%
 
 * (내보낸 파일을 XLS 형식으로 보려면) [!DNL Microsoft Excel] 추천
 
-   다음 이외의 응용 프로그램을 사용하는 경우 [!DNL Microsoft Excel] 내보낸 XLS 파일을 보려면 숫자, 날짜, 시간 및 통화 형식이 올바르지 않을 수 있습니다.
+  다음 이외의 응용 프로그램을 사용하는 경우 [!DNL Microsoft Excel] 내보낸 XLS 파일을 보려면 숫자, 날짜, 시간 및 통화 형식이 올바르지 않을 수 있습니다.
 
 ## 사용자 이름 및 암호
 

@@ -1,7 +1,9 @@
 ---
 title: 캠페인 관리 보기에서 계정 구성 요소에 분류 값 할당
 description: 계정 구성 요소에 분류 값을 할당하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7e55d7d8-5e12-409b-ad5d-c53cbf24c7c9
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -30,7 +32,7 @@ ht-degree: 0%
 
       * 각 관련 행 옆에 있는 확인란을 선택합니다.
 
-         여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * 데이터 테이블 위의 도구 모음에서 ![자세히](/help/search-social-commerce/assets/more.png "자세히")을 클릭한 다음 을 클릭합니다 **[!UICONTROL Classification]**.
 
@@ -38,17 +40,17 @@ ht-degree: 0%
 
    * 기존 분류 값을 새 값으로 변경하려면 다음을 선택합니다 **[!UICONTROL Set To]**.
 
-      각 값의 최대 길이는 100자이며, ASCII 및 비 ASCII 문자를 포함할 수 있습니다.
+     각 값의 최대 길이는 100자이며, ASCII 및 비 ASCII 문자를 포함할 수 있습니다.
 
    * 기존 값을 제거하지 않고 지정된 분류 값을 할당하려면 **[!UICONTROL Assign]**.
 
    * 현재 지정된 특정 분류 값을 제거하려면 다음을 선택합니다. **[!UICONTROL Remove]**.
 
-      분류 값을 제거하면 지정된 계정 구성 요소에서 해당 값에 대한 보고서 데이터를 더 이상 사용할 수 없습니다.
+     분류 값을 제거하면 지정된 계정 구성 요소에서 해당 값에 대한 보고서 데이터를 더 이상 사용할 수 없습니다.
 
    * 지정된 분류 값을 삭제하려면 **[!UICONTROL Delete]**.
 
-      분류 값을 삭제하면 나중에 사용할 수 없으며 보고서 데이터는 더 이상 값에 사용할 수 없습니다. 값과 특정 계정 구성 요소 사이의 모든 할당이 제거되지만 계정 구성 요소는 삭제되지 않습니다.
+     분류 값을 삭제하면 나중에 사용할 수 없으며 보고서 데이터는 더 이상 값에 사용할 수 없습니다. 값과 특정 계정 구성 요소 사이의 모든 할당이 제거되지만 계정 구성 요소는 삭제되지 않습니다.
 
 1. 적용 가능한 각 분류 값에 대해 다음을 수행합니다.
 
@@ -58,15 +60,15 @@ ht-degree: 0%
 
       * 분류를 만들려면 [!UICONTROL +]. 입력 필드에 분류 이름을 입력한 다음 을 클릭합니다. ![저장](/help/search-social-commerce/assets/select.png "저장") 분류를 즉시 저장합니다.
 
-         이름은 다음으로 구성되어야 합니다. [32-126](https://www.asciitable.com/), 최대 길이는 27개의 1바이트 문자입니다.
+        이름은 다음으로 구성되어야 합니다. [32-126](https://www.asciitable.com/), 최대 길이는 27개의 1바이트 문자입니다.
+
    1. 다음에서 **[!UICONTROL Value Name]** 열에서 값의 이름을 지정합니다.
 
       * 기존 값을 사용하려면 값 이름을 클릭하여 선택합니다.
 
       * 값을 만들려면 [!UICONTROL +]. 입력 필드에 값을 입력한 다음 ![저장](/help/search-social-commerce/assets/select.png "저장") 값을 즉시 저장합니다.
 
-         최대 길이는 100자이며 ASCII 및 비 ASCII 문자를 포함할 수 있습니다.
-
+        최대 길이는 100자이며 ASCII 및 비 ASCII 문자를 포함할 수 있습니다.
 
 1. (선택 사항) 추가 세부 정보를 입력합니다.
 
@@ -84,4 +86,3 @@ ht-degree: 0%
 >* [계정 구성 요소에서 레이블 분류 값 제거](classification-values-remove.md)
 >* [레이블 분류 값 삭제](classification-values-delete.md)
 >* [레이블 분류 삭제](classification-delete.md)
-

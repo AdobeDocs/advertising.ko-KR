@@ -1,7 +1,9 @@
 ---
 title: 키워드 및 부정적 키워드의 상태 변경
 description: 키워드 및 부정적 키워드의 상태를 변경하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c1562104-048e-486d-b20c-3c15f089324d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -35,4 +37,3 @@ ht-degree: 0%
 >* [키워드 정보](keyword-about.md)
 >* [바인딩 가능한 키워드 관리](keyword-manage.md)
 >* [부정적인 키워드 만들기](keyword-negative-create.md)
-

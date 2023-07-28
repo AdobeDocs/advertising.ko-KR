@@ -1,7 +1,9 @@
 ---
 title: 스프레드시트 보고서 피드 삭제
 description: 스프레드시트 피드를 삭제하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fbe8a578-8bcb-4755-96d0-e82aab313e5e
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -33,4 +35,3 @@ ht-degree: 0%
 >* [스프레드시트 보고서 피드 설정](spreadsheet-feed-settings.md)
 >* [스프레드시트 보고서 피드 파일 보기 또는 저장](spreadsheet-feed-view-or-save.md)
 >* [스프레드시트 보고서 피드 수동 새로 고침](spreadsheet-feed-refresh.md)
-

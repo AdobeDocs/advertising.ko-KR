@@ -2,7 +2,8 @@
 title: 적용 또는 취소 [!DNL Google Ads] 추천
 description: 보기 방법 알아보기 [!DNL Google Ads] 권장 사항 및 권장 사항을 적용하거나 취소하는 방법.
 exl-id: 7aab10bf-d5fc-4eb7-b1bb-9e61ba354a29
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%

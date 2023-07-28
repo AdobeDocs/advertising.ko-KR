@@ -1,7 +1,9 @@
 ---
 title: 사용자 지정 경고 템플릿 삭제
 description: 경고 템플릿을 삭제하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7044ee80-ad90-4fad-8443-300f5ff0cee7
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -30,4 +32,3 @@ ht-degree: 0%
 >* [사용자 지정 경고 템플릿 설정](alert-template-settings.md)
 >* [사용자 지정 경고 보기](alert-view.md)
 >* [사용자 지정 경고에 대한 데이터 내보내기](alert-export-data.md)
-

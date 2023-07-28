@@ -1,7 +1,9 @@
 ---
 title: 쿠키 기반 클릭 추적 설정
 description: 클릭 추적 태그를 설정하고 유효성을 검사하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 340aec08-a1a5-4aa5-b666-9c819c1709d0
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -86,4 +88,3 @@ Search, Social 및 Commerce에서 클릭 수를 추적하려면 다음 요소를
 >[!MORELIKETHIS]
 >
 >* [클릭 추적 URL 생성 시기 및 방법](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
-

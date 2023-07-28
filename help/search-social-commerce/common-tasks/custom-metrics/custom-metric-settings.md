@@ -1,7 +1,9 @@
 ---
 title: 사용자 지정 지표 설정
 description: 표준 지표에서 계산되는 사용자 지정 지표에 대한 설정을 참조하십시오.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f4b8c44e-ecb3-46dc-9a68-c079188e1d75
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -36,4 +38,3 @@ ht-degree: 0%
 >* [사용자 지정 지표 만들기](custom-metric-create.md)
 >* [사용자 지정 지표 편집](custom-metric-edit.md)
 >* [사용자 지정 지표 삭제](custom-metric-delete.md)
-

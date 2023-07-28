@@ -1,7 +1,9 @@
 ---
 title: 유효한 텍스트 광고 사본 작성
 description: 효과적인 광고 카피 작성을 위한 모범 사례에 대해 알아봅니다.
-source-git-commit: c31c8615ecbd24b03c47563aee499fc1d865ea36
+exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%

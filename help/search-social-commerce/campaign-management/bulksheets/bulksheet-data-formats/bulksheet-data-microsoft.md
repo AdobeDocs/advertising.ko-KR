@@ -2,7 +2,8 @@
 title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Microsoft Advertising] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Microsoft Advertising] 계정.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 9cdfe415c9ec2d7e7b65d5a46d208329d66ca14a
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '6888'
 ht-degree: 1%
@@ -67,12 +68,12 @@ ht-degree: 1%
 | [!UICONTROL Call To Action] | 광고에 포함할 클릭 유도 문안. 다음을 참조하십시오. [가능한 값 목록에 대한 API 참조](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction)를 사용하지만 여러 단어로 이루어진 작업 호출을 일괄 시트에 여러 단어(예: &quot;BetNow&quot; 대신 &quot;Bet Now&quot;)로 입력합니다. |
 | [!UICONTROL Call To Action Language] | 콜 투 액션 옵션에 대한 언어입니다. 다음을 참조하십시오. [가능한 언어 목록에 대한 API 참조](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
 | [!UICONTROL Base URL/Final URL] | 캠페인 또는 계정에 대해 구성된 추가 매개 변수를 포함하여 검색 엔진 사용자가 광고를 클릭할 때 취하는 랜딩 페이지 URL입니다. 키워드 수준의 기본/최종 URL은 광고 수준 이상의 URL을 재정의합니다.<br><br>기존 값을 삭제하려면 값을 사용합니다 `[delete]` (대괄호를 포함). |
-| [!UICONTROL Destination URL] | (정보 목적으로 생성된 일괄 시트에 포함됨, 검색 엔진에 게시되지 않음) 대상 URL이 있는 계정의 경우, 광고를 광고주 웹 사이트의 기본 URL/랜딩 페이지에 연결하는 URL입니다(경우에 따라 클릭을 추적한 다음 사용자를 랜딩 페이지로 리디렉션하는 다른 사이트를 통해). 여기에는 검색, 소셜 및 상거래 캠페인 또는 계정에 대해 구성된 추가 매개 변수가 포함됩니다. 추적 URL을 생성한 경우, 이는 계정 설정 및 캠페인 설정의 추적 매개 변수를 기반으로 합니다. 검색 엔진별 매개 변수를 추가한 경우 이 매개 변수는 검색, 소셜 및 상거래에 대해 동일한 매개 변수로 대체될 수 있습니다.<br><br>최종 URL이 있는 계정의 경우 이 열은 기본 URL/최종 URL 열과 동일한 값을 표시합니다. |
+| [!UICONTROL Destination URL] | (정보 목적으로 생성된 일괄 시트에 포함됨, 검색 엔진에 게시되지 않음) 대상 URL이 있는 계정의 경우, 광고가 광고주 웹 사이트의 기본 URL/랜딩 페이지에 연결되는 URL입니다(경우에 따라 클릭을 추적한 다음 사용자를 랜딩 페이지로 리디렉션하는 다른 사이트를 통해). 여기에는 검색, 소셜 및 상거래 캠페인 또는 계정에 대해 구성된 추가 매개 변수가 포함됩니다. 추적 URL을 생성한 경우, 이는 계정 설정 및 캠페인 설정의 추적 매개 변수를 기반으로 합니다. 검색 엔진별 매개 변수를 추가한 경우 이 매개 변수는 검색, 소셜 및 상거래에 대해 동일한 매개 변수로 대체될 수 있습니다.<br><br>최종 URL이 있는 계정의 경우 이 열은 기본 URL/최종 URL 열과 동일한 값을 표시합니다. |
 | [!UICONTROL Custom URL Param] | 대체할 데이터 `{custom_code}` 동적 변수 : 변수가 검색 계정 또는 캠페인 설정에 대한 추적 매개 변수에 포함된 경우 입니다. 추적 URL에 사용자 지정 값을 삽입하려면 추적 URL 생성 옵션을 사용하여 일괄 시트 파일을 업로드해야 합니다. |
 | [!UICONTROL Creative Type] | 광고 형식: <i>[!UICONTROL Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Text Ad]</i>, <i>[!UICONTROL Expanded Dynamic Search Ad]</i>, <i>[!UICONTROL Multimedia Ad]</i>, <i>[!UICONTROL Product Ad]</i> (쇼핑 광고) 또는 <i>[!UICONTROL Responsive Search Ad]</i>, 또는 <i>[!UICONTROL Text ad]</i>. 새 광고의 기본값은 입니다 <i>[!UICONTROL Text ad]</i>. |
 | [!UICONTROL Ad Group Start Date] | 광고주의 시간대 및 m/d/yyyy, m/d/yy, m-d-yyyy 또는 m-d-yy 형식 중 하나로 광고 그룹에 대한 입찰이 배치될 수 있는 첫 번째 날짜입니다. 새 광고 그룹의 경우 기본값은 현재 날짜입니다. |
 | [!UICONTROL Ad Group End Date] | 광고주의 시간대와 m/d/yyyy, m/d/yy, m-d-yyyy 또는 m-d-yy 형식 중 하나로 광고 그룹에 대해 입찰이 배치될 수 있는 마지막 날짜입니다. 새 광고 그룹의 경우 기본값은 [blank] (즉, 종료 날짜가 없습니다.) |
-| [!UICONTROL Tracking Template] | (선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 추적 템플릿입니다. 가장 세부적인 수준의 추적 템플릿(키워드를 가장 세부적인 수준으로 사용)은 모든 상위 수준의 값을 무시합니다.<br><br>캠페인 설정에 &quot;&quot;가 포함된 경우 적용되는 Adobe 광고 전환 추적의 경우[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.<br><br>서드파티 리디렉션 및 추적의 경우 값을 입력합니다.<br><br>추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 다음을 참조하십시오. [!DNL Microsoft Advertising] 설명서를 참조하십시오.<br><br> 기존 값을 삭제하려면 값을 사용합니다 `[delete]` (대괄호를 포함). |
+| [!UICONTROL Tracking Template] | (선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 추적 템플릿입니다. 가장 세부적인 수준의 추적 템플릿(키워드를 가장 세부적인 수준으로 사용)은 모든 상위 수준의 값을 무시합니다.<br><br>Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.<br><br>서드파티 리디렉션 및 추적의 경우 값을 입력합니다.<br><br>추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 다음을 참조하십시오. [!DNL Microsoft Advertising] 설명서를 참조하십시오.<br><br> 기존 값을 삭제하려면 값을 사용합니다 `[delete]` (대괄호를 포함). |
 | [!UICONTROL Landing Page Suffix] | 정보를 추적하기 위해 최종 URL 끝에 추가할 모든 매개 변수입니다. 예: `param2=value1&param3=value2`<br><br>를 참조하십시오.[클릭 추적 형식 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).&quot;<br><br>하위 수준의 최종 URL 접미사는 계정 수준 접미사를 덮어씁니다. 간편하게 유지 관리할 수 있도록 개별 계정 구성 요소에 대해 다른 추적이 필요하지 않은 경우 계정 수준 접미사만 사용하십시오. 광고 그룹 수준 또는 하위 수준에서 접미사를 구성하려면 [!DNL Microsoft Advertising] 편집자. |
 | 네트워크 상태 검색 | 검색 네트워크의 다양한 요소에 광고 그룹을 배치할지 여부:<ul><li><i>모두:</i> 모든 Bing 검색 네트워크 및 신디케이트된 검색 파트너에 광고를 게재합니다.</li><li><i>OwnedAndOperatedOnly:</i>Bing 및 Yahoo에만 광고를 게재하려면! 웹 사이트.</li><li><i>SyndicatedSearchOnly:</i> Bing 및 Yahoo에만 광고를 게재하려면! 신디케이트된 검색 파트너.</li><li><i>끄기:</i> 콘텐츠 네트워크에만 광고를 게재하려면(검색 네트워크는 아님).</li></ul> 새 광고 그룹의 경우 기본값은 [켜짐]입니다. |
 | [!UICONTROL Content Network Status] | 더 이상 사용되지 않음 |

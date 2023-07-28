@@ -1,7 +1,9 @@
 ---
 title: 열 집합에서 편집 및 정렬 [!UICONTROL Custom Columns] 아이콘
 description: 열 사용자 정의기를 사용하여 표시되는 열을 변경하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9b8ddb3d-c598-4393-85f2-0e586ebe0df3
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -28,7 +30,7 @@ ht-degree: 0%
 
    * (열의 가로 위치를 변경하려면) [!UICONTROL Selected Columns & Ordering] 목록에서 열 이름을 클릭한 다음 원하는 위치로 끌어 놓거나 ![위로 열 이동](/help/search-social-commerce/assets/chevron-up.png "위로 열 이동") 또는 ![아래로 열 이동](/help/search-social-commerce/assets/chevron-down.png "아래로 열 이동") 저기로 옮기려고.
 
-      맨 위 열 이름이 왼쪽 열에 나타납니다.
+     맨 위 열 이름이 왼쪽 열에 나타납니다.
 
    * (열을 제거하려면) [!UICONTROL Selected Columns & Ordering] 목록을 표시하고 열 이름을 클릭한 다음 [!UICONTROL Available Columns] 목록 또는 클릭 ![제거](/help/search-social-commerce/assets/chevron-left.png "제거") 저기로 옮기려고.
 

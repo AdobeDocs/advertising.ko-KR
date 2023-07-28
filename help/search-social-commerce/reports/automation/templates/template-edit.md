@@ -1,7 +1,9 @@
 ---
 title: 보고서 템플릿 편집
 description: 재사용 가능한 보고서 템플릿에 대한 설정을 편집하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8e195b60-8c58-460b-bc61-19dd2452d332
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -32,4 +34,3 @@ ht-degree: 0%
 >* [보고서 템플릿 만들기](template-create.md)
 >* [보고서 템플릿 보기](template-view.md)
 >* [보고서 템플릿 삭제](template-delete.md)
-

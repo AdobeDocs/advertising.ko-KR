@@ -1,7 +1,9 @@
 ---
 title: 판매자 계정 관리
 description: 머천트 센터 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법에 대해 알아봅니다.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+exl-id: eca58f55-f056-46b3-b192-2849690e8bcc
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%

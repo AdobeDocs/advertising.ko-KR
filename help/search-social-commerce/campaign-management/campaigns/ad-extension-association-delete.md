@@ -1,7 +1,9 @@
 ---
 title: 캠페인 및 광고 그룹과의 광고 확장 연결 삭제
 description: 광고 확장을 캠페인 및 광고 그룹과 연결 해제하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 89aa556b-65fa-43de-989a-f58f0bbcf1f2
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -29,4 +31,3 @@ ht-degree: 0%
 >* [관리 [!DNL Google Ads] 설명선 확장](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
 >* [위치 확장 관리](location-extension-manage.md)
 >* [사이트링크 확장 관리](sitelink-extension-manage.md)
-

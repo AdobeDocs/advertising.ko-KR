@@ -1,7 +1,9 @@
 ---
 title: 일괄 시트를 사용하여 계정 구성 요소에 분류 값 할당
 description: 일괄 시트를 사용하여 계정 구성 요소에 분류 값을 할당하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 7%
@@ -28,7 +30,7 @@ ht-degree: 7%
 
    * 일괄 시트 파일에 열을 포함할 각 분류를 선택합니다.
 
-      예를 들어 레이블 분류 &quot;색상&quot; 및 &quot;지역&quot;을 포함하는 경우 일괄 시트에는 &quot;색상&quot; 및 &quot;지역&quot; 열이 포함됩니다.
+     예를 들어 레이블 분류 &quot;색상&quot; 및 &quot;지역&quot;을 포함하는 경우 일괄 시트에는 &quot;색상&quot; 및 &quot;지역&quot; 열이 포함됩니다.
 
 1. 편집기에서 파일을 열고 레이블 값을 연결할 엔티티의 레이블 분류 열에 추가합니다. 각 값의 최대 길이는 100자이며, ASCII 및 비 ASCII 문자를 포함할 수 있습니다.
 
@@ -46,15 +48,15 @@ ht-degree: 7%
 
 | 계정 | 캠페인 | 광고 그룹 | 키워드 | 광고 | 배치 | 레이블 | 색상 | 지역 |
 |---|---|---|---|---|---|---|---|---|
-| Acct1 | C1 |  |  |  |  |  | 녹색 |  |
-| Acct1 | C1 | AG1 |  |  |  |  |  |  |
-| Acct1 | C1 | AG1 | K1 |  |  |  |  | 영국 |
-| Acct1 | C1 | AG1 | K2 |  |  |  | 빨강 | AU |
-| Acct1 | C1 | AG1 | K3 |  |  |  | 파랑 | DE |
-| Acct1 | C1 | AG1 |  | A1 |  |  |  |  |
-| Acct1 | C1 | AG1 |  | A1 |  |  | 빨강 |  |
-| Acct1 | C1 | AG1 |  |  | P1 |  | 빨강 | AU |
-| Acct1 | C1 | AG1 |  |  | P2 |  | 파랑 | DE |
+| Acct1 | C1 | | | | | | 녹색 | |
+| Acct1 | C1 | AG1 | | | | | | |
+| Acct1 | C1 | AG1 | K1 | | | | | 영국 |
+| Acct1 | C1 | AG1 | K2 | | | | 빨강 | AU |
+| Acct1 | C1 | AG1 | K3 | | | | 파랑 | DE |
+| Acct1 | C1 | AG1 | | A1 | | | | |
+| Acct1 | C1 | AG1 | | A1 | | | 빨강 | |
+| Acct1 | C1 | AG1 | | | P1 | | 빨강 | AU |
+| Acct1 | C1 | AG1 | | | P2 | | 파랑 | DE |
 
 >[!MORELIKETHIS]
 >
@@ -64,4 +66,3 @@ ht-degree: 7%
 >* [계정 구성 요소에서 레이블 분류 값 제거](classification-values-remove.md)
 >* [레이블 분류 값 삭제](classification-values-delete.md)
 >* [레이블 분류 삭제](classification-delete.md)
-

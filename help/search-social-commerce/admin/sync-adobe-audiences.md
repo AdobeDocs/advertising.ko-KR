@@ -1,7 +1,9 @@
 ---
 title: 동기화 [!DNL Adobe] 대상
 description: 다음을 위해 메타데이터, 계층 데이터 및 고유 대상 데이터를 동기화하는 방법을 알아봅니다. [!DNL Adobe] 대상.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7d4a3c66-5013-412f-8937-d64c336751e3
+feature: Search Admin
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Direct Access]클라이언트 관리자 및 관리자만*
 
-*Advertising-Adobe Audience Manager 또는 Adobe Advertising-Adobe Analytics 통합만 있는 Adobe*
+*Adobe Advertising-Adobe Audience Manager 또는 Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
 
 검색, 소셜 및 상거래를 사용하여 광고주나 에이전시의 모든 항목에 대한 메타데이터, 계층 데이터 및 고유 대상 데이터를 가져올 수 있습니다 [!DNL Adobe] 대상 을 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기. 이 정보에는 다음에 대한 데이터가 포함됩니다.
 
@@ -36,4 +38,3 @@ ht-degree: 0%
 >
 >* [대상자 기본 정보](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
 >* [Adobe Experience Cloud 솔루션 및 서비스와의 통합](/help/search-social-commerce/introduction/integrations.md)
-

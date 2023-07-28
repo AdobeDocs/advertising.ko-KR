@@ -1,7 +1,9 @@
 ---
 title: 공유 사이트링크를 계정, 캠페인 및 광고 그룹과 연결
 description: 공유 사이트링크 확장을 계정, 캠페인 및 광고 그룹에 할당하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c7bd92ab-3768-4b6e-988a-32e644c3d583
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -25,16 +27,16 @@ ht-degree: 0%
 1. 사이트링크 확장 설정을 입력합니다.
 
    1. 다음에서 [!UICONTROL Sitelinks] 섹션에서 라이브러리에 있는 모든 사이트링크 목록에서 해당하는 사이트링크를 선택합니다.
+
    여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
    1. 다음에서 [!UICONTROL Assignment] 섹션에서 선택한 사이트링크가 할당된 계정, 캠페인 및 광고 그룹을 선택합니다.
+
    * (선택 사항) 계정을 확장하여 캠페인을 보려면 계정 이름을 클릭합니다. 마찬가지로, 캠페인을 확장하여 하위 광고 그룹을 보려면 캠페인 이름을 클릭합니다.
 
    * (선택 사항) 캠페인 목록 또는 광고 그룹 목록을 이름에 포함된 텍스트 문자열로 필터링하려면 다음을 클릭하십시오. ![필터](/help/search-social-commerce/assets/filter.png "필터") 를 입력하거나 텍스트 문자열을 입력 필드에 붙여넣은 다음 **입력** 키.
 
    * 원(![선택](/help/search-social-commerce/assets/include.png "선택"))를 클릭하여 제품에서 사용할 수 있습니다.
-
-
 
 1. 클릭 **[!UICONTROL Post]**.
 
@@ -42,4 +44,3 @@ ht-degree: 0%
 >
 >* [사이트링크 확장 기본 정보](sitelink-extension-about.md)
 >* [공유 사이트링크 확장 관리](sitelink-extension-manage.md)
-

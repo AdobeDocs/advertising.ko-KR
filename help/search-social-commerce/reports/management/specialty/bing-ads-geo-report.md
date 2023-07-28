@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Bing Ads Geo Report]"
+title: '[!UICONTROL Bing Ads Geo Report]'
 description: 에 대해 알아보기 [!UICONTROL Bing Ads Geo Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b14e5039-4af6-43de-925c-429f537dad6a
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -20,7 +22,6 @@ ht-degree: 0%
 >
 >* 이 보고서의 합계는 의 동일한 캠페인 및 기간에 대한 합계와 다를 수 있습니다. [!UICONTROL Geo Distribution Report] 지리적 위치를 결정하는 다양한 공급업체 및 방법론으로 인해 (검색, 소셜 및 상거래가 컴파일됨).
 >* 이 보고서에 대한 데이터는 매일 23:00(오후 11:00)에 이전 날짜의 데이터를 가져옵니다. 예를 들어, 6월 18일 23시에 6월 17일에 대한 데이터를 가져옵니다. 6월 18일에 대한 데이터를 가져오기 전인 6월 19일 09:00에 보고서를 실행하는 경우 보고서에는 6월 17일 23:00까지의 데이터가 포함됩니다.
-
 
 ## 기본 열
 
@@ -46,7 +47,7 @@ ht-degree: 0%
 * [!UICONTROL Ad Distribution]
 
 >[!MORELIKETHIS]
+>
 * [전문 보고서 정보](specialty-report-about.md)
 * [전문 보고서 생성](specialty-report-generate.md)
 * [특성 보고서 설정](specialty-report-settings.md)
-

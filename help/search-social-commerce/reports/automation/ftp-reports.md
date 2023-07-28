@@ -1,7 +1,9 @@
 ---
 title: 보고서에 대한 FTP 액세스
 description: 읽기 전용 FTP 위치에서 보고서를 받는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 69850b68-0309-4f07-b4cb-c14488219a4b
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 * 보고서 액세스를 위한 FTP 계정을 설정하려면 Adobe 계정 팀에 문의하십시오.
 
-   팀이 사용자 이름과 암호를 제공합니다.
+  팀이 사용자 이름과 암호를 제공합니다.
 
 ## FTP 게재용 보고서 템플릿 설정
 
@@ -39,6 +41,7 @@ ht-degree: 0%
       * `[SDATE]` — 보고서 날짜 범위의 시작 날짜를 포함합니다.
 
       * `[EDATE]` — 보고서 날짜 범위의 종료 날짜를 포함합니다.
+
    * (선택 사항) `[CSV]` 기본 TSV 형식이 아닌 CSV 형식으로 파일을 만들 수 있도록(대괄호로 묶인 대문자).
 
    예: `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` 는 202305051656-Portfolio-FTP-20230428-20110504.csv와 같은 파일을 만듭니다.
@@ -51,7 +54,6 @@ ht-degree: 0%
 >
 >* 완료된 보고서를 전자 메일로 보내려면 보고서나 템플릿을 생성할 때 모든 전자 메일 수신자의 주소를 입력하면 됩니다.
 >* 보고서는 지정된 일정에 따라 실행되며 완료된 후 1시간 이내에 FTP 계정으로 배달됩니다.
-
 
 ## FTP 저장소의 보고서에 액세스
 
@@ -68,4 +70,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [보고서 템플릿 만들기](/help/search-social-commerce/reports/automation/templates/template-create.md)
-

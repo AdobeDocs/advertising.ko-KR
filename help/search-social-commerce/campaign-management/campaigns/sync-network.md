@@ -1,7 +1,9 @@
 ---
 title: 수동으로 광고 네트워크 데이터 동기화
 description: 지원되는 광고 네트워크에 대한 캠페인 구조 및 캠페인 엔티티의 동기화를 수동으로 트리거하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: da437f37-800a-4c56-b5c1-7c985ddd45c8
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -37,4 +39,3 @@ Search, Social 및 Commerce는 하루에 한 번 광고 네트워크 계정과 �
 >[!MORELIKETHIS]
 >
 >* [일괄 시트 파일 다운로드/만들기](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
-

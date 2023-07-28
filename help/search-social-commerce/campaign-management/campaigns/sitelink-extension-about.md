@@ -1,7 +1,9 @@
 ---
 title: 사이트링크 확장 기본 정보
 description: 사이트링크 확장에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bf4ef112-7a9f-4e8a-8f04-06ed123c862a
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -32,4 +34,3 @@ Search, Social 및 Commerce는 광고 확장 클릭 수와 결과 전환을 확�
 >
 >* [공유 사이트링크 확장 관리](sitelink-extension-manage.md)
 >* [공유 사이트링크 확장을 캠페인 또는 광고 그룹에 연결](sitelink-extension-associate.md)
-

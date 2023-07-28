@@ -1,7 +1,9 @@
 ---
 title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Baidu] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Baidu] 계정.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9066f3d5-5de1-4efe-bd61-6c877e106920
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1882'
 ht-degree: 0%
@@ -75,4 +77,3 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
 >* [클릭 추적 형식 [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [일괄 시트 파일 또는 수정된 오류 파일 업로드](../bulksheet-upload.md)
-

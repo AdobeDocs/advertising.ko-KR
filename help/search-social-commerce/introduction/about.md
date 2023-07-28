@@ -1,24 +1,26 @@
 ---
-title: Adobe 광고 검색, 소셜 및 상거래 정보
+title: Adobe Advertising 검색, 소셜 및 상거래 정보
 description: 검색, 소셜 및 상거래에 대해 알아봅니다.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: 0cfd82f7-26b6-4e61-b9a5-718f4eda83c1
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
-# Adobe 광고 검색, 소셜 및 상거래 정보
+# Adobe Advertising 검색, 소셜 및 상거래 정보
 
-[!DNL Adobe] 은 고객 경험 솔루션에서 시장 및 기술 리더입니다. Adobe Advertising은 모든 화면에서 모든 형식으로 브랜드 및 성과 캠페인 관리를 위한 크로스 채널 광고 캠페인 게재를 간소화합니다. Adobe 광고는 검색, 쇼핑, 소셜, 대상자 네트워크 및 성과 최대 채널을 위한 Advertising Search, Social 및 Commerce, 디스플레이 채널을 위한 Advertising DSP(Demand Side Platform), 디스플레이 광고를 위한 최종 사용자 경험을 만드는 Advertising Creative의 세 가지 하위 솔루션으로 구성됩니다.
+[!DNL Adobe] 은 고객 경험 솔루션에서 시장 및 기술 리더입니다. Adobe Advertising은 모든 화면에서 모든 형식으로 브랜드 및 성과 캠페인 관리를 위한 크로스 채널 광고 캠페인 게재를 간소화합니다. Adobe Advertising은 검색, 쇼핑, 소셜, 대상 네트워크 및 성과 최대 채널에 대한 Advertising Search, Social 및 Commerce, 디스플레이 채널에 대한 Advertising DSP(Demand Side Platform) 및 디스플레이 광고에 대한 최종 사용자 경험 생성에 대한 Advertising Creative의 세 가지 하위 솔루션으로 구성됩니다.
 
-Adobe 광고의 일부로서, Advertising Search, Social 및 Commerce는 데이터 최적화된 광고를 위한 지능형 캠페인 예측 및 타겟 광고 게재와 동급 최고의 포트폴리오 기반 광고 관리를 결합합니다.
+Adobe Advertising의 일환으로 Advertising Search, Social 및 Commerce는 동급 최고의 포트폴리오 기반 광고 관리와 지능형 캠페인 예측 및 데이터 최적화 광고를 위한 타깃팅된 광고 제공을 결합합니다.
 
 ## 광고 최적화를 위한 AI 기반 기술
 
 Search, Social, &amp; Commerce는 광고주의 비즈니스 목표, 지표, 예산 및 기타 비즈니스 제한 사항의 경계 내에서 광고 네트워크 전반에 걸친 광고 캠페인에 대한 입찰 및 예산 관리를 자동화하고 최적화합니다. 각 마케팅 채널의 입찰 환경에 대한 정보는 물론 각 광고주의 키워드 및 광고에 대한 클릭, 비용 및 전환 내역을 추적합니다. 포트폴리오 이론 접근 방식을 사용하여 최적화 기능은 전체 캠페인 포트폴리오에 걸쳐 가능한 모든 예산 할당을 비교하여 광고 지출에 대한 가능한 가장 높은 수익을 산출할 입찰 및 캠페인 예산을 결정하고 그에 따라 입찰 및 예산을 실행합니다. 최적화 기능은 광고주의 키워드 및 광고를 지속적으로 모니터링하여 마켓플레이스가 변경될 때 입찰 및 예산을 동적으로 조정합니다.
 
-여러 유형의 최적화를 사용할 수 있으므로 검색, 소셜, 상거래 및 광고 네트워크가 입찰 최적화에 대한 제어 수준을 다양하게 유지할 수 있습니다. 최적화 유형에 따라 Adobe 광고, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics], 또는 기타 자사 엔터프라이즈 피드.
+여러 유형의 최적화를 사용할 수 있으므로 검색, 소셜, 상거래 및 광고 네트워크가 입찰 최적화에 대한 제어 수준을 다양하게 유지할 수 있습니다. 최적화 유형에 따라 Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics], 또는 기타 자사 엔터프라이즈 피드.
 
 역할에 따라 예측 모델링을 사용하여 최적 지출 시점을 식별하는 포트폴리오 성과 시뮬레이션과 세부 예측 정확도 보고서를 볼 수 있습니다. 모든 사용자는 지출 권장 사항 도구를 사용하여 포트폴리오 전반에 걸쳐 최적의 예산 분배를 식별할 수 있습니다.
 
@@ -46,7 +48,7 @@ Adobe Analytics 및 Adobe Audience Manager과의 기본 통합을 통해 광고 
 
 ## 전환 추적
 
-Adobe Advertising은 선택적으로 웹 사이트에 연결되는 광고의 온라인 전환을 추적할 수 있는 독점적인 픽셀 기반 전환 추적 서비스를 제공합니다. 픽셀 추적 서비스를 사용하면 Adobe 광고에서 광고 클릭수와 웹 사이트의 결과 트랜잭션/전환을 추적하여 클릭수와 노출수의 각 시퀀스를 전환에 정확하게 매핑합니다. 추적된 전환을 입찰 및 예산 최적화에 사용할 수 있습니다.
+Adobe Advertising은 선택적으로 웹 사이트에 연결되는 광고의 온라인 전환을 추적할 수 있는 독점적인 픽셀 기반 전환 추적 서비스를 제공합니다. 픽셀 추적 서비스를 사용하면 Adobe Advertising이 광고의 클릭수와 웹 사이트의 결과 트랜잭션/전환을 추적하여 클릭수와 노출수의 각 시퀀스를 전환에 정확하게 매핑합니다. 추적된 전환을 입찰 및 예산 최적화에 사용할 수 있습니다.
 
 이 서비스를 사용하면 전환을 초래하는 이벤트에 대한 다양한 데이터 속성 규칙(예: 마지막 관련 이벤트에 대한 속성 전환 또는 마지막 이벤트에 대한 가중치 추가)을 최적화할 수 있습니다. 또한 전환율, 클릭 도움말에 대한 가시성, 요일 및 일일 트렌드 분석을 개선하는 데 사용할 수 있는 고급 보고서에 대한 액세스를 제공합니다.
 
@@ -56,4 +58,3 @@ Adobe Advertising은 선택적으로 웹 사이트에 연결되는 광고의 온
 >
 >* [지원되는 인벤토리](supported-inventory.md)
 >* [Adobe Experience Cloud 솔루션 및 서비스와의 통합](integrations.md)
-

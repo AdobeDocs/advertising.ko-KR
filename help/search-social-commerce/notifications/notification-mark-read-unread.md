@@ -1,7 +1,9 @@
 ---
 title: 알림을 읽음 또는 읽지 않음으로 표시
 description: 알림을 읽었는지 여부를 나타내는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 333173a0-7e3a-4fb6-a80c-a9a1f5714fbf
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -30,4 +32,3 @@ ht-degree: 0%
 >* [알림 설정 편집](notification-edit.md)
 >* [푸시 알림 활성화 및 비활성화 위치 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [설치 및 제거 [!UICONTROL Notification Center] 웹 애플리케이션](notification-app-install-uninstall.md)
-

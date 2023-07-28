@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Campaign Assist Report]"
+title: '[!UICONTROL Campaign Assist Report]'
 description: 에 대해 알아보기 [!UICONTROL Campaign Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 다음 [!UICONTROL Campaign Assist Report]
 
-*검색, 소셜 및 상거래 클릭 추적을 사용하고 Adobe 광고, Adobe Analytics에서 전환 추적을 사용하는 광고주(및 [!DNL Analytics] 통합) 또는 토큰을 사용하여 피드에 제공(`ef_id`) 전용*
+*검색, 소셜 및 상거래 클릭 추적이 있고 Adobe Advertising, Adobe Analytics에서 전환 추적이 있는 광고주(및 [!DNL Analytics] 통합) 또는 토큰을 사용하여 피드에 제공(`ef_id`) 전용*
 
 다음 [!UICONTROL Campaign Assist Report] 전환 프로세스를 지원한 캠페인을 나타냅니다. 하나 이상의 전환으로 이어지는 광고의 각 캠페인 패턴이 전체 전환에 기여한 방식을 보고합니다. 예를 들어 사용자가 캠페인 A에서 광고를 처음 본 다음 캠페인 B에서 광고를 클릭한 다음 주문했을 때 발생한 전환 수를 볼 수 있습니다. 마찬가지로 사용자가 10개 이상의 캠페인의 광고와 상호 작용한 후 발생한 전환 수를 확인할 수 있습니다.
 

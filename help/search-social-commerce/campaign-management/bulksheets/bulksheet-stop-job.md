@@ -1,7 +1,9 @@
 ---
 title: 진행 중인 일괄 시트 작업 중지
 description: 일괄 시트 작업이 진행되는 동안 중지하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bfdc3c65-8dfc-4683-a39d-05d40078fd2d
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -28,4 +30,3 @@ ht-degree: 0%
 >
 >* [일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보](bulksheet-about.md)
 >* [업로드된 일괄 시트 및 오류 파일 삭제](bulksheet-delete.md)
-

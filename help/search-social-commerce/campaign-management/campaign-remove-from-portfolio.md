@@ -1,7 +1,9 @@
 ---
 title: 포트폴리오에서 캠페인 제거
 description: 포트폴리오에서 캠페인을 제거하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f86ebc10-650c-42ef-b3df-cd707a863c70
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -33,4 +35,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [포트폴리오에 캠페인 할당](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
-

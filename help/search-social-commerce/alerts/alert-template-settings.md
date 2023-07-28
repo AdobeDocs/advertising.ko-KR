@@ -1,7 +1,9 @@
 ---
 title: 사용자 지정 경고 템플릿 설정
 description: 사용자 지정 경고 템플릿 설정에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5ba98f48-c396-4b20-91dc-d45164097f9c
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 |  | [!UICONTROL Comparing] | (하나 이상의 지표 열에서 경고 트랙이 증가 또는 감소하는 경우 사용 가능; 읽기 전용) 데이터가 비교되는 두 날짜 범위입니다. |
 |  | [!UICONTROL Date Comparison Format] | (하나 이상의 지표 열에서 경고 트랙이 증가 또는 감소하는 경우 사용 가능) 두 날짜 범위의 데이터 차이를 표시하는 방법:<ul><li><p><i>[!UICONTROL Variance]</i> (기본값) — 차이를 숫자 값으로 표시합니다.</p></li><li><p><i>[!UICONTROL % Change]</i> — 차이를 백분율로 표시합니다.</p></li></ul> |
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Name] | 경고 이름. 5자 이상이어야 합니다. |
-|  | [!UICONTROL Trigger this Alert] [조건] | 경고가 지정된 조건 필터를 확인하고 모든 조건이 충족되면 이메일 알림을 보내는 빈도:<ul><li><p>[!UICONTROL Daily at <*NN*> [AMPM]]</p></li><li><p>[!UICONTROL Weekly on <*Day of Week*> at <*NN*> [AMPM]]</p></li><li><p>[!UICONTROL Every month on <*Day NN*> at <*NN*> [AMPM]]</p></li></ul>**참고:** 이 값은 평가 기간에 영향을 주지 않습니다. |
+|  | [!UICONTROL Trigger this Alert] [조건] | 경고가 지정된 조건 필터를 확인하고 모든 조건이 충족되면 이메일 알림을 보내는 빈도:<ul><li><p>[!UICONTROL Daily at <*NN*> [AM|PM]]</p></li><li><p>[!UICONTROL Weekly on <*Day of Week*> at <*NN*> [AM|PM]]</p></li><li><p>[!UICONTROL Every month on <*Day NN*> at <*NN*> [AM|PM]]</p></li></ul>**참고:** 이 값은 평가 기간에 영향을 주지 않습니다. |
 |  | [!UICONTROL Email Recipients] | (경고 템플릿 작성자만 편집 가능, 기타 사용자의 경우 읽기 전용) 경고가 생성될 때 알림을 보낼 이메일 주소. 기본적으로 템플릿 작성자의 주소가 입력됩니다.<br><br>주소를 추가하려면 주소를 입력한 다음 **[!UICONTROL Add]**. 여러 주소를 지정하려면 쉼표나 공백으로 구분하거나 별도로 추가합니다.<br><br>경고에 최대 1000개의 레코드가 포함된 경우 경고의 CSV 버전이 이메일 메시지에 첨부됩니다. |
 
 >[!MORELIKETHIS]
@@ -30,4 +32,3 @@ ht-degree: 0%
 >* [사용자 지정 경고 템플릿 삭제](alert-template-delete.md)
 >* [사용자 지정 경고 보기](alert-view.md)
 >* [사용자 지정 경고에 대한 데이터 내보내기](alert-export-data.md)
-

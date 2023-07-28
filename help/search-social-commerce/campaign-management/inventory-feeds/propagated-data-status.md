@@ -1,7 +1,9 @@
 ---
 title: 피드에서 생성된 데이터 상태
 description: 인벤토리 데이터 피드에서 생성된 데이터의 상태에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8e5e7649-a16b-4634-896a-7c216185b367
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -31,4 +33,3 @@ ht-degree: 0%
 >* [피드에서 생성된 데이터 편집](propagated-data-edit.md)
 >* [피드에서 생성된 캠페인 데이터를 광고 네트워크에 게시](propagated-data-post.md)
 >* [재고 피드 데이터에 대한 게시 작업 중지](stop-job.md)
-

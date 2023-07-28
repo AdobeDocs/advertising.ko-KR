@@ -1,7 +1,9 @@
 ---
 title: 레이블 분류 삭제
 description: 레이블 분류를 삭제하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 4d00bda7-e3a6-4558-b818-5ccd45d0eb5b
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -38,4 +40,3 @@ ht-degree: 0%
 >* [일괄 시트를 사용하여 계정 구성 요소에 분류 값 할당](classification-values-assign-bulksheets.md)
 >* [계정 구성 요소에서 레이블 분류 값 제거](classification-values-remove.md)
 >* [레이블 분류 값 삭제](classification-values-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 인벤토리 데이터 피드 파일 관리
 description: 피드 데이터 처리 방법을 제어하는 설정을 구성하는 방법에 대해 알아봅니다.
-source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
+exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 * **FTP 자동 사용:** FTP 디렉토리에 파일을 직접 업로드할 수 있습니다. 피드 서비스는 2시간마다 새 파일을 확인합니다. 파일을 처음 업로드한 후에는 광고 네트워크별 템플릿과 연결할 수 있습니다. 나중에 같은 이름으로 업로드하는 모든 파일은 자동으로 동일한 템플릿에 연결됩니다. 다음 방법에 따라 [피드 데이터 설정 구성](feed-settings-manage.md), 검색, 소셜 및 상거래는 적용 가능한 모든 템플릿을 통해 피드 데이터를 자동으로 전파하고 선택적으로 결과 캠페인 및 광고 데이터를 관련 광고 네트워크에 게시할 수 있습니다.
 
-   데이터 파일을 저장하고 자동으로 처리하기 위해 FTP 디렉터리를 설정하려면 Adobe 계정 팀에 문의하십시오.
+  데이터 파일을 저장하고 자동으로 처리하기 위해 FTP 디렉터리를 설정하려면 Adobe 계정 팀에 문의하십시오.
 
 * **수동 처리:** 수동으로 다음을 수행할 수 있습니다. [피드 파일 업로드](#feed-file-upload) 다음에서 [!UICONTROL Advanced] (ACM) 보기. 피드 파일을 하나 이상의 광고 네트워크별 과 연결한 후 [템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md), 다음을 수행하여 캠페인 및 광고 데이터를 생성할 수 있습니다. [템플릿을 통해 피드 데이터 전파](feed-data-propagate.md) 에 따라 [피드 데이터 설정](feed-settings-manage.md). 선택적으로 캠페인 계층 보기 내에서 생성된 데이터를 미리 보거나, 검토를 위해 일괄 시트 파일을 생성하거나, 광고 네트워크에 즉시 게시하기 위해 일괄 시트 파일을 생성할 수 있습니다. 데이터를 즉시 게시하지 않으면 [미리 보기](propagated-data-view.md) 및 [게시](propagated-data-post.md) 나중에. 나중에 할 수 있습니다 [기존 피드 파일을 새 파일로 바꾸기](#feed-file-replace) 기존 템플릿 연결을 손실하지 않습니다.
 
@@ -97,7 +99,7 @@ shoes<TAB>Clarks<TAB>20
 ## 피드 파일 수동 업로드 {#feed-file-upload}
 
 >[!NOTE]
-> 템플릿을 수동으로 업로드한 파일에 연결하지만, 이름, 파일 확장명 및 문법적 대소문자가 동일한 다른 파일을 FTP를 통해 업로드하는 경우 템플릿을 통해 데이터를 전파할 때 FTP 파일이 사용됩니다. 예를 들어 myfile.csv는 myfile.csv를 대체하지만 Myfile.CSV는 그렇지 않습니다.
+> 템플릿을 수동으로 업로드한 파일에 연결하지만, 이름, 파일 확장명 및 문법적 대소문자가 동일한 다른 파일을 FTP를 통해 업로드하는 경우, 템플릿을 통해 데이터를 전파할 때 FTP 파일이 사용됩니다. 예를 들어 myfile.csv는 myfile.csv를 대체하지만 Myfile.CSV는 그렇지 않습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**: 다음에 열립니다. [!UICONTROL Templates] 탭.
 
@@ -122,6 +124,7 @@ shoes<TAB>Clarks<TAB>20
    * 다음에서 [!UICONTROL Feed] 적용 가능한 템플릿의 열에서 ![추가 옵션](/help/search-social-commerce/assets/options.png "추가 옵션") 및 선택 **[!UICONTROL Re-upload]**.
 
    * 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Feeds]**. 피드 파일 목록에서 기존 파일 이름 옆에 있는 확인란을 선택합니다. 데이터 테이블 위에서 **[!UICONTROL Upload]**.
+
    >[!NOTE]
    >
    >피드 파일의 소스(&quot;[!UICONTROL FTP]&quot; 또는 수동으로 업로드한 파일에 대한 &quot;&amp;mdash&quot;가 [!UICONTROL Source] 열.
@@ -157,4 +160,3 @@ shoes<TAB>Clarks<TAB>20
 >* [피드에서 생성된 캠페인 데이터를 광고 네트워크에 게시](propagated-data-post.md)
 >* [재고 피드 데이터에 대한 게시 작업 중지](stop-job.md)
 >* [피드에서 생성된 데이터 상태](propagated-data-status.md)
-

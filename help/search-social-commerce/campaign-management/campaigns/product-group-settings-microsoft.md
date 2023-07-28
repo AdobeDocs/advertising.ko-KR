@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] 제품 그룹 설정"
+title: '''[!DNL Microsoft® Advertising] 제품 그룹 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 쇼핑 제품 그룹.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a34511ef-f5bc-4d93-a56e-90348f670ad6
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -51,4 +53,3 @@ ht-degree: 0%
 >* [쇼핑 제품 그룹 관리](product-group-manage.md)
 >* [쇼핑 캠페인 제품 필터](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
 >* [구현 [!DNL Microsoft® Advertising] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
-

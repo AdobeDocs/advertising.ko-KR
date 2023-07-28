@@ -2,7 +2,8 @@
 title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
-source-git-commit: e121445d39d50599c40a77996f5674b536d60ede
+feature: Search Reports, Search Basic Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '3583'
 ht-degree: 0%

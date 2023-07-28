@@ -1,7 +1,9 @@
 ---
 title: 보고서 설정 지원
 description: 지원 보고서에 대한 필수 및 선택적 설정에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f5b4f4ee-c13c-4d16-a786-a2225d136efe
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '2176'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 보고서 설정 지원
 
-*검색, 소셜 및 상거래 클릭 추적을 사용하고 Adobe 광고, Adobe Analytics에서 전환 추적을 사용하는 광고주(및 [!DNL Analytics] 통합) 또는 토큰을 사용하여 피드에 제공(`ef_id`) 전용*
+*검색, 소셜 및 상거래 클릭 추적이 있고 Adobe Advertising, Adobe Analytics에서 전환 추적이 있는 광고주(및 [!DNL Analytics] 통합) 또는 토큰을 사용하여 피드에 제공(`ef_id`) 전용*
 
 | 탭 | 매개 변수 | 설명 |
 |----|----|----|
@@ -43,4 +45,3 @@ ht-degree: 0%
 >* [다음 [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [지원 보고서 생성](assist-report-generate.md)
 >* [보고서 기본 정보](/help/search-social-commerce/reports/report-about.md)
-

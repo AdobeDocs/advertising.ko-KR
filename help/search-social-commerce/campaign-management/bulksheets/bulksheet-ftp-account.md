@@ -1,7 +1,9 @@
 ---
 title: Bulksheets 업로드를 위한 FTP 계정 설정
 description: 일괄 시트 파일 업로드를 위해 FTP 계정을 요청하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6867d705-b8ef-4066-81dd-8742a6f5b126
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -28,4 +30,3 @@ ht-degree: 0%
 >
 >* [일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보](bulksheet-about.md)
 >* [일괄 시트 또는 수정된 오류 파일 업로드](bulksheet-upload.md)
-

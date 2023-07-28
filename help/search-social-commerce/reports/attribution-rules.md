@@ -1,7 +1,9 @@
 ---
 title: 속성 규칙 계산 방법
 description: Adobe Advertising이 각 속성 규칙 유형을 계산하는 방법을 알아봅니다.
-source-git-commit: d4237253af7110a3ed02595c466c01359f5601d4
+exl-id: b61561fa-8c01-4989-9ef7-620d2b4c2c0b
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2439'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Adobe Advertising에 대한 속성 규칙 계산 방법
 
-*Adobe 광고 전환 추적만 있는 광고주*
+*Adobe Advertising 전환 추적만 있는 광고주*
 
 <!-- Verify statements about cross-device events -->
 
@@ -177,7 +179,7 @@ ht-degree: 0%
 
 노출 횟수만으로 전환 앞에 오면 전환은 다음으로 간주됩니다. *뷰스루*&#x200B;광고주의 값에 따라 가중치가 매겨지는 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv) 또는 — 지정된 대로 — 보고서, 뷰 또는 사용자 정의 시뮬레이션 매개변수에 지정된 뷰스루 평가 방법에 따라 결정됩니다.
 
-전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe 광고 제품에 의해 다르게 처리됩니다.
+전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe Advertising 제품에 의해 다르게 처리됩니다.
 
 * 검색, 소셜 및 상거래에서 [노출 재정의 가중치](/help/search-social-commerce/glossary.md#i-j) — 광고주의 노출 재정의 가중치 설정과 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정되며, 이 항목이 노출에 먼저 적용됩니다.
 
@@ -209,7 +211,7 @@ ht-degree: 0%
 
 속성: 노출 1 = 6 USD, 클릭 1 = 54 USD, 노출 2 = 6 USD, 클릭 2 = 54 USD (총 120 USD)
 
-#### (Adobe 광고 DSP만 해당) 노출 무시 가중치 없음 또는 (검색, 소셜 및 상업만 해당) 0%의 &quot;노출 무시 가중치&quot; 사용
+#### 노출 재정의 가중치 없음(Adobe Advertising DSP 전용) 또는 0%의 &quot;노출 재정의 가중치&quot;(검색, 소셜 및 커머스 전용)를 사용합니다.
 
 이벤트 시리즈에는 노출과 클릭이 모두 포함되므로 노출은 무시됩니다.
 

@@ -1,22 +1,24 @@
 ---
-title: Adobe 광고 전환 추적 태그 정보
-description: Adobe 광고 전환 추적 태그 사용에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: Adobe Advertising 전환 추적 태그 기본 정보
+description: Adobe Advertising 전환 추적 태그 사용에 대해 알아봅니다.
+exl-id: 07403d60-6db2-47e7-977b-4b59c8797c3d
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
 
 ---
 
-# Adobe 광고 전환 추적 태그 정보
+# Adobe Advertising 전환 추적 태그 기본 정보
 
-Adobe 광고는 &quot;성공&quot; 페이지처럼 전환 이벤트가 발생할 때 열리는 웹 페이지에 삽입된 Adobe 광고 전환 추적 태그를 사용하여 광고 클릭으로 인한 전환을 추적합니다. 태그에는 트랜잭션 데이터를 사용자의 Adobe 광고 쿠키와 함께 추적 서버로 전송하기 위한 임베드된 정보가 포함되어 있습니다. 추적 서버에서 트랜잭션은 적절한 광고 클릭 또는 노출(광고주의 전환 속성 설정에 따라)로 크레딧됩니다.
+Adobe Advertising은 &quot;성공&quot; 페이지처럼 전환 이벤트가 발생할 때 열리는 웹 페이지에 삽입된 Adobe Advertising 전환 추적 태그를 사용하여 광고 클릭으로 인한 전환을 추적합니다. 태그에는 트랜잭션 데이터를 사용자의 Adobe Advertising 쿠키와 함께 추적 서버로 전송하기 위한 임베드된 정보가 포함되어 있습니다. 추적 서버에서 트랜잭션은 적절한 광고 클릭 또는 노출(광고주의 전환 속성 설정에 따라)로 크레딧됩니다.
 
 >[!NOTE]
 >
->사용자에게 유효한 쿠키가 없는 경우 Adobe 광고는 전환을 보고하지 않습니다.
+>사용자에게 유효한 쿠키가 없는 경우 Adobe Advertising은 전환을 보고하지 않습니다.
 
-추적할 각 전환 지표 세트에 대해 별도의 전환 태그를 만들어야 합니다. 각 태그를 삽입할 웹 페이지 목록을 광고주 또는 에이전시에 제공합니다. 다음 유형의 전환 태그를 생성할 수 있습니다. 를 참조하십시오.[Adobe 광고 전환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)지침:
+추적할 각 전환 지표 세트에 대해 별도의 전환 태그를 만들어야 합니다. 각 태그를 삽입할 웹 페이지 목록을 광고주 또는 에이전시에 제공합니다. 다음 유형의 전환 태그를 생성할 수 있습니다. 를 참조하십시오.[Adobe Advertising 변환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)지침:
 
 * (권장) 웹 페이지에 표시되지 않는 JavaScript 태그(버전 3 또는 버전 2)입니다.
 
@@ -29,10 +31,9 @@ Adobe 광고는 &quot;성공&quot; 페이지처럼 전환 이벤트가 발생할
 >* 이 기능은 광고주의 웹 페이지에 이미지 태그나 JavaScript 태그를 추가하지 않습니다. 태그는 웹 페이지를 업데이트하기 위한 광고주의 일반적인 절차에 따라 추가해야 합니다.
 >* 태그를 구현하는 데 걸리는 시간을 고려해야 합니다. 회사의 정책에 따라 구현에는 몇 주 또는 심지어 몇 달이 걸릴 수 있습니다.
 
+## Adobe Advertising 전환 추적 태그의 기능
 
-## Adobe 광고 전환 추적 태그의 기능
-
-전환 추적 픽셀을 사용하면 Adobe 광고에서 다음 작업을 수행할 수 있습니다.
+Adobe Advertising은 전환 추적 픽셀을 통해 다음 작업을 수행할 수 있습니다.
 
 * 검색 캠페인에 대한 키워드 수준에서 전환 데이터를 추적하고 보고합니다.
 
@@ -53,10 +54,9 @@ Adobe 광고는 &quot;성공&quot; 페이지처럼 전환 이벤트가 발생할
 >[!MORELIKETHIS]
 >
 >* [전환 추적 옵션](conversion-tracking-about.md)
->* [Adobe 광고 전환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Adobe Advertising 변환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [JavaScript 전환 추적 태그 버전 3의 형식](format-conversion-tag-jsv3.md)
 >* [JavaScript 전환 추적 태그 버전 2의 형식](format-conversion-tag-jsv2.md)
 >* [이미지 변환 추적 태그의 형식](format-conversion-tag-image.md)
 >* [전환 및 페이지 보기 추적 태그에 대한 FAQ](faqs-conversion-page-view-tracking-tags.md)
 >* [Adobe Advertising JavaScript 전환 매핑 태그](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 설치 및 제거 [!UICONTROL Notification Center] 웹 애플리케이션
 description: 설치 및 제거 방법 알아보기 [!UICONTROL Notification Center] 웹 응용 프로그램.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e1afc7c0-4bbb-44d6-9871-924580648fa9
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
@@ -66,4 +68,3 @@ ht-degree: 0%
 >* [알림 삭제](notification-delete.md)
 >* [알림 설정 편집](notification-edit.md)
 >* [푸시 알림 활성화 및 비활성화 위치 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
-

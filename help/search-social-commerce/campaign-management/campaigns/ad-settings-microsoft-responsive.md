@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] 반응형 광고 설정"
+title: '[!DNL Microsoft® Advertising] 반응형 광고 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 반응형 광고.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bbe06bdb-c765-4d30-a609-03f476c4ee54
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -52,4 +54,3 @@ ht-degree: 0%
 >* [[!DNL Microsoft® Advertising] 멀티미디어 광고 설정](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft® Advertising] 제품 광고 설정](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] 반응형 검색 광고 설정](ad-settings-microsoft-rsa.md)
-

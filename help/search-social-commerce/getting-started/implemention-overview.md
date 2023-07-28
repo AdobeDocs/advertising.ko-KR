@@ -1,7 +1,9 @@
 ---
 title: 검색, 소셜 및 상거래 구현 개요
 description: 학습
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 31a4cd6f-8b02-4762-8e68-c9f377389935
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%
@@ -42,13 +44,13 @@ ht-degree: 0%
 
    * 계정에 캠페인 데이터가 아직 포함되어 있지 않은 경우 검색, 소셜, 상거래 또는 광고 네트워크 내에서 캠페인, 광고 그룹, 키워드, 광고 및 배치를 추가하십시오.
 
-      검색 캠페인 설정에 대한 자세한 내용은 &quot;Campaign Management&quot;의 도움말 장을 참조하십시오.
+     검색 캠페인 설정에 대한 자세한 내용은 &quot;Campaign Management&quot;의 도움말 장을 참조하십시오.
 
-1. Adobe 광고에서 전환을 추적하려는 모든 광고에 대한 추적을 설정합니다.
+1. Adobe Advertising에서 전환을 추적하려는 모든 광고에 대한 추적을 설정합니다.
 
    1. (필요한 경우) 광고 및 선택적으로 키워드에 대한 클릭 추적을 설정합니다. [!DNL Google Ads] 배치 및 [!DNL Google Ads] 클릭 추적 URL을 생성하고 업로드하여 확장한 것입니다.
 
-      Adobe 광고 픽셀 기반 전환 추적 서비스를 사용하는 광고주를 위한 클릭 추적 URL에는 리디렉션이 포함됩니다. [!DNL Adobe] 서버.
+      Adobe Advertising 픽셀 기반 전환 추적 서비스를 사용하는 광고주를 위한 클릭 추적 URL에는 리디렉션이 포함됩니다. [!DNL Adobe] 서버.
 
    1. 전환 추적을 설정합니다. 구현에 따라, 여기에는 적절한 웹 페이지에 전환 추적 태그를 추가하거나, 자체 방법을 사용하여 수집한 전환 데이터에 대해 일별 피드 드롭 설정이 포함될 수 있습니다.
 
@@ -56,7 +58,7 @@ ht-degree: 0%
 
 1. 추가 제품과의 통합 설정:
 
-   1. (Adobe Analytics 및/또는 Adobe Audience Manager이 있는 광고주) Adobe 광고가 다양한 계정과 데이터를 교환할 수 있도록 여러 계정 간의 통합을 설정합니다.
+   1. (Adobe Analytics 및/또는 Adobe Audience Manager이 있는 광고주) Adobe Advertising이 다양한 계정과 데이터를 교환할 수 있도록 계정 간의 통합을 설정합니다.
 
       &quot;&quot;에 대한 안내서 참조[Experience Cloud과 통합](/help/integrations/home.md).&quot;
 
@@ -73,6 +75,7 @@ ht-degree: 0%
       >Search, Social 및 Commerce는 포트폴리오에 할당되지 않은 캠페인에 대한 데이터를 추적하고 보고하지만 입찰을 최적화하지 않습니다.
 
    1. 기준을 만드는 데 충분한 데이터를 사용할 수 있게 되면 팀이 포트폴리오를 시작할 수 있으므로 검색, 소셜 및 상거래를 통해 최적화 유형에 따라 포트폴리오에 대한 입찰 및/또는 예산을 최적화할 수 있습니다.
+
    포트폴리오 설정 및 시작에 대한 자세한 내용은 &quot;최적화&quot;에 대한 도움말을 참조하십시오. [!UICONTROL Help] 메뉴 (![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴"))을 클릭하여 제품에서 사용할 수 있습니다.
 
 1. 포트폴리오 성능 모니터링:

@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL AdWords Shopping Performance Report]"
+title: '[!UICONTROL AdWords Shopping Performance Report]'
 description: 에 대해 알아보기 [!UICONTROL AdWords Shopping Performance Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5884efb5-d34f-47fd-82ad-93a5f4064110
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -20,7 +22,6 @@ ht-degree: 0%
 >
 >* 제품에 다음이 포함된 경우: [!UICONTROL Product Category] 열과 제품이 여러 카테고리에 표시되면 제품이 여러 행에 표시되고 전환 수가 적용 가능한 각 행에 복제됩니다. 전환 데이터 합계가 정확하지 않으므로 카테고리별로 전환 추세에 대한 일반적인 이해만을 위해 데이터를 정렬합니다.
 >* 이 보고서에 대한 데이터는 매일 23:00(오후 11:00)에 이전 날짜의 데이터를 가져옵니다. 예를 들어, 6월 18일 23시에 6월 17일에 대한 데이터를 가져옵니다. 6월 18일에 대한 데이터를 가져오기 전인 6월 19일 09:00에 보고서를 실행하는 경우 보고서에는 6월 17일 23:00까지의 데이터가 포함됩니다.
-
 
 ## 기본 열
 
@@ -43,7 +44,7 @@ ht-degree: 0%
 * [!UICONTROL CPC]
 
 >[!MORELIKETHIS]
+>
 * [전문 보고서 정보](specialty-report-about.md)
 * [전문 보고서 생성](specialty-report-generate.md)
 * [특성 보고서 설정](specialty-report-settings.md)
-

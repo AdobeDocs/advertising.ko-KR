@@ -1,7 +1,9 @@
 ---
-title: Adobe 광고 전환 매핑 태그
-description: Adobe 광고가 랜딩 페이지가 아닌 페이지에서 발생하는 전환 이벤트를 추적할 수 있도록 하는 ITP 2.2용 JavaScript 기반 전환 매핑 태그에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: Adobe Advertising 전환 매핑 태그
+description: Adobe Advertising이 랜딩 페이지가 아닌 페이지에서 발생하는 전환 이벤트를 추적할 수 있는 ITP 2.2용 JavaScript 기반 전환 매핑 태그에 대해 알아봅니다.
+exl-id: 6e2515da-2552-4f19-8344-1dee96cbf706
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -10,11 +12,11 @@ ht-degree: 0%
 
 # Adobe Advertising JavaScript 전환 매핑 태그
 
-*Adobe 광고 전환 추적만 있는 광고주*
+*Adobe Advertising 전환 추적만 있는 광고주*
 
-Adobe Advertising JavaScript 기반 전환 매핑 태그를 Adobe Advertising JavaScript v2 또는 v3 전환 추적 태그 외에 사용하는 경우 Adobe Advertising은 랜딩 페이지가 아닌 페이지에서 발생하는 전환 이벤트를 추적할 수 있습니다. ITP 2.2 솔루션은 광고주가 소유한 iFrame의 로컬 저장소에 사용자의 쿠키를 저장합니다. 그런 다음 로컬 저장소는 클릭 다운스트림에서 전환 페이지까지 쿠키 값을 유지할 수 있습니다.
+Adobe Advertising JavaScript v2 또는 v3 전환 추적 태그 외에 Adobe Advertising JavaScript 기반 전환 매핑 태그를 사용하면 Adobe Advertising이 랜딩 페이지가 아닌 페이지에서 발생하는 전환 이벤트를 추적할 수 있습니다. ITP 2.2 솔루션은 광고주가 소유한 iFrame의 로컬 저장소에 사용자의 쿠키를 저장합니다. 그런 다음 로컬 저장소는 클릭 다운스트림에서 전환 페이지까지 쿠키 값을 유지할 수 있습니다.
 
-전환 매핑 태그를 사용하여 Adobe 광고가 Apple Safari 및 Mozilla Firefox 브라우저 내에서 발생하는 모든 전환을 추적할 수 있도록 하여 자사 쿠키의 지속성을 제한합니다. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
+전환 매핑 태그를 사용하여 Adobe Advertising이 Apple Safari 및 Mozilla Firefox 브라우저 내에서 발생하는 모든 전환을 추적할 수 있도록 함으로써 자사 쿠키의 지속성을 제한합니다. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
 변환 매핑 태그를 사용하려면 다음을 수행하십시오.
 
@@ -32,15 +34,15 @@ Adobe Advertising JavaScript 기반 전환 매핑 태그를 Adobe Advertising Ja
 
 * 조직에서 검색, 소셜 및 상거래 계정에 사용되는 단일 조직 ID를 사용하는 경우 다음 태그를 사용하십시오.
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
-   바꾸기 `{AMO User ID}` (검색, 소셜 및 상거래 계정에 대한 고유 사용자 ID 포함)
+  바꾸기 `{AMO User ID}` (검색, 소셜 및 상거래 계정에 대한 고유 사용자 ID 포함)
 
 * 조직에서 여러 조직 ID를 사용하는 경우 다음 태그를 사용하십시오.
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
 
-   여기서:
+  여기서:
 
    * 값을 대체합니다. `{xxxxxx@AdobeOrg}` (페이지 전환이 추적되는 조직 ID 포함) 모든 전환 페이지에 동일한 조직 ID를 사용합니다.
 
@@ -48,30 +50,30 @@ Adobe Advertising JavaScript 기반 전환 매핑 태그를 Adobe Advertising Ja
 
 * 를 지원하지 않는 태그 관리 시스템을 사용하는 경우 `imsorgid` 변수를 스크립트 태그에 매핑한 다음 대신 다음 코드를 사용하십시오.
 
-   *조직에서 단일 조직 ID를 사용하는 경우:
+  *조직에서 단일 조직 ID를 사용하는 경우:
 
-   ```
-   <script>
-   window.ad_cloud = window.ad_cloud || {};
-   window.ad_cloud.userid = "{AMO User ID}"
-   </script>
-   <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-   ```
+  ```
+  <script>
+  window.ad_cloud = window.ad_cloud || {};
+  window.ad_cloud.userid = "{AMO User ID}"
+  </script>
+  <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+  ```
 
-   바꾸기 `{AMO User ID}` (검색, 소셜 및 상거래 계정에 대한 고유 사용자 ID 포함)
+  바꾸기 `{AMO User ID}` (검색, 소셜 및 상거래 계정에 대한 고유 사용자 ID 포함)
 
    * 조직에서 여러 조직 ID를 사용하는 경우:
 
-      ```
-      <script>
-      window.ad_cloud = window.ad_cloud || {};
-      window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-      window.ad_cloud.userid = "{AMO User ID}"
-      </script>
-      <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-      ```
+     ```
+     <script>
+     window.ad_cloud = window.ad_cloud || {};
+     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+     window.ad_cloud.userid = "{AMO User ID}"
+     </script>
+     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+     ```
 
-      여기서:
+     여기서:
 
       * 값을 대체합니다. `{xxxxxx@AdobeOrg}` (페이지 전환이 추적되는 조직 ID 포함) 모든 전환 페이지에 동일한 조직 ID를 사용합니다.
 
@@ -96,7 +98,7 @@ window.ad_cloud.userid = "99999"
 
 ### 태그를 추가할 위치
 
-검색 클릭으로 랜딩 페이지일 수 있는 모든 페이지에 태그를 추가합니다(랜딩 페이지는 시간이 지남에 따라 변경될 수 있으므로 모든 페이지에서 이상적으로). Adobe Advertising JavaScript v3 전환 추적 태그 전에 로드해야 합니다.
+검색 클릭으로 랜딩 페이지일 수 있는 모든 페이지에 태그를 추가합니다(랜딩 페이지는 시간이 지남에 따라 변경될 수 있으므로 모든 페이지에서 이상적으로). Adobe Advertising JavaScript v3 전환 추적 태그 앞에 로드해야 합니다.
 
 iframe 또는 컨테이너 태그 내에 배치되면 다음을 수행합니다.
 

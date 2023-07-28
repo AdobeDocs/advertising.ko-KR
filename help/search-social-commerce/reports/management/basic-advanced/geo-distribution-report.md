@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Geo Distribution Report]"
+title: '[!UICONTROL Geo Distribution Report]'
 description: 에 대해 알아보기 [!UICONTROL Geo Distribution Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 08369dad-c499-4342-a76a-0708167cd704
+feature: Search Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -20,7 +22,6 @@ ht-degree: 0%
 >
 >* 데이터는 검색 및 디스플레이 캠페인에만 사용할 수 있습니다.
 >* 이 보고서의 합계는 의 동일한 캠페인에 대한 합계와 다를 수 있습니다. [!DNL Google Ads Geo Report] (대상 [!DNL Google Ads] 여러 공급업체 및 지리적 위치를 결정하는 방법론으로 인해 컴파일합니다.
-
 
 >[!TIP]
 >
@@ -46,4 +47,3 @@ ht-degree: 0%
 >* [기본 및 고급 보고서 정보](basic-advanced-report-about.md)
 >* [기본 또는 고급 보고서 생성](basic-advanced-report-generate.md)
 >* [기본 및 고급 보고서 설정](basic-advanced-report-settings.md)
-

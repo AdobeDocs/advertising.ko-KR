@@ -1,7 +1,9 @@
 ---
 title: 사용자 지정 지표 삭제
 description: 표준 지표에서 계산된 사용자 지정 지표를 삭제하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 531da1f7-6e20-4124-9e8c-e1816929c4d7
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -48,4 +50,3 @@ ht-degree: 0%
 >* [사용자 지정 지표 만들기](custom-metric-create.md)
 >* [사용자 지정 지표 편집](custom-metric-edit.md)
 >* [사용자 지정 지표 설정](custom-metric-settings.md)
-

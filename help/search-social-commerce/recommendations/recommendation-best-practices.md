@@ -2,7 +2,8 @@
 title: 포트폴리오에 게시자 권장 사항 및 통찰력을 사용하는 모범 사례
 description: 을 사용하기 위한 모범 사례에 대해 알아봅니다. [!DNL Google Ads] 검색, 소셜 및 상거래 포트폴리오가 포함된 권장 사항.
 exl-id: 8362a0e1-9a0d-4287-a1dd-b7ec77985744
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%

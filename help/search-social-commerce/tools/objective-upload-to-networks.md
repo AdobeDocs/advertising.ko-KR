@@ -1,7 +1,9 @@
 ---
 title: 광고 네트워크에 목표 업로드 활성화
 description: 하이브리드 포트폴리오에 대한 목표를 업로드하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 *하이브리드 최적화에만 활성화된 광고주*
 
-광고주 계정이 하이브리드 최적화를 사용하도록 구성되어 있는 경우 Adobe 광고는 필요에 따라 계정의 포트폴리오에 대한 목표를 업로드할 수 있습니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 하이브리드 최적화에 사용할 수 있는 전환으로.
+광고주 계정이 하이브리드 최적화를 사용하도록 구성되어 있는 경우 Adobe Advertising은 필요에 따라 계정의 포트폴리오에 대한 목표를 업로드할 수 있습니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 하이브리드 최적화에 사용할 수 있는 전환으로.
 
 이 옵션을 활성화하면 스마트 입찰 전략이 포함된 캠페인이 포함된 포트폴리오에 대한 업로드가 자동으로 트리거됩니다. Search, Social 및 Commerce는 해당되는 각 포트폴리오와 객관적인 조합에 대해 광고 네트워크에서 전환을 만듭니다. 각 전환에는 이름이 있습니다. `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`, 여기서 `<portfolio_id>` 는 숫자 포트폴리오 ID이고 `<se_acctid/conversion_manager_se_acctid>` 광고 네트워크 계정 또는 관리자 계정의 숫자 ID입니다. 변환은 목표의 모든 가중치가 적용된 거래 속성을 나타냅니다.
 
@@ -36,4 +38,3 @@ ht-degree: 0%
 >
 >* [광고주의 거래 속성 관리 정보](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
 >* [전환 지표 업로드 [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
-

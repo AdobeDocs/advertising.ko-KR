@@ -2,7 +2,8 @@
 title: '[!DNL Google Ads] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Google Ads] 캠페인.
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
-source-git-commit: a71ea7b20cf1c72a2acfd7c743311c513e4239fc
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%

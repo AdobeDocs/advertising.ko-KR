@@ -1,7 +1,9 @@
 ---
 title: 알림 설정 편집
 description: 알림에 대한 설정을 편집하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bcfbecf4-ed1d-4afe-a42d-e584d6837db8
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -27,12 +29,12 @@ ht-degree: 0%
       * 모든 알림 유형에서 가입을 해지하려면 슬라이더를 왼쪽(비활성화)으로 이동합니다.
 
       * 하나 이상의 알림 유형에 가입하려면 슬라이더를 오른쪽으로 이동합니다(활성화됨).
+
    * (시기 [!UICONTROL Subscribe] 이 활성화됨) 이메일 알림을 구독하려면 **[!UICONTROL Email]** 열.
 
    * (시기 [!UICONTROL Subscribe] 이 비활성화되어 있음) 검색, 소셜 및 상거래 내에서 웹 알림에 가입하고 브라우저에 대해 푸시 알림이 활성화된 경우 **[!UICONTROL Web]** 열.
 
-      웹 알림은 다음 경우에만 전달됩니다. [푸시 알림 활성화](notifications-push-enable-disable.md) 을 브라우저에 추가합니다.
-
+     웹 알림은 다음 경우에만 전달됩니다. [푸시 알림 활성화](notifications-push-enable-disable.md) 을 브라우저에 추가합니다.
 
 1. 클릭 **[!UICONTROL Save]**.
 
@@ -44,4 +46,3 @@ ht-degree: 0%
 >* [알림 삭제](notification-delete.md)
 >* [푸시 알림 활성화 및 비활성화 위치 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [설치 및 제거 [!UICONTROL Notification Center] 웹 애플리케이션](notification-app-install-uninstall.md)
-

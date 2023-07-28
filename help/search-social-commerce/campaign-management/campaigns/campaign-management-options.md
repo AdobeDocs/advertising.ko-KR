@@ -1,7 +1,9 @@
 ---
 title: 광고 네트워크 캠페인 관리 옵션
 description: 광고 네트워크 캠페인에 대한 데이터를 관리하는 다양한 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1e721870-b6ee-4054-ab3b-1b3be778d5b8
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -16,8 +18,8 @@ ht-degree: 0%
 
 * 옵션 2: 업로드 [일괄 시트 파일](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) 에서 계정에 대해 원하는 만큼 데이터 포함 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Bulksheets]. 대상 [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Naver], 및 [!DNL Yandex] 계정에서 데이터를 광고 네트워크에 게시할 수 있습니다. 대상 [!DNL Naver], 검색, 소셜 및 상거래 내에서 사용할 데이터를 업로드할 수 있지만 광고 네트워크에 게시할 수 없습니다.
 
-   필요에 따라 기존 데이터가 포함된 일괄 시트 파일을 다운로드하고 업로드하거나 게시할 수 없습니다 [!DNL Pinterest], [!DNL Yahoo Native], 및 [!DNL Yahoo! Display Network] 계정.
+  필요에 따라 기존 데이터가 포함된 일괄 시트 파일을 다운로드하지만 업로드하거나 게시할 수 없습니다 [!DNL Pinterest], [!DNL Yahoo Native], 및 [!DNL Yahoo! Display Network] 계정.
 
 * 옵션 3: 자동화된 프로세스를 다음으로 설정 [인벤토리의 각 항목을 대상으로 하는 계정 구조 및 동적 광고 및 키워드 만들기](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) 에서 만드는 광고 네트워크별 광고 템플릿에 따라 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL  Advanced (ACM)]. 수동으로 또는 FTP 위치에 업로드하는 인벤토리 데이터 파일의 내용 또는 의 내용을 기반으로 템플릿을 만듭니다. [!DNL Google Merchant Center] 또는 [!DNL Microsoft Merchant Center] 계정입니다. 데이터가 만들어지는 즉시 자동으로 게시되도록 구성하거나 데이터를 검토한 후 광고 네트워크에 수동으로 게시할 수 있습니다. 이 옵션은 다음 경우에 사용할 수 있습니다. [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], 및 [!DNL Yandex] 계정.
 
-   이 메서드를 사용하여 배치를 만들 수 없습니다.
+  이 메서드를 사용하여 배치를 만들 수 없습니다.

@@ -1,7 +1,9 @@
 ---
 title: 이미지 변환 추적 태그의 형식
 description: 이미지 변환 추적 태그의 형식을 참조합니다.
-source-git-commit: b230c593d93dfa868b8f075939fc9940ea74fa13
+exl-id: 019981cd-37b6-4b80-bb48-26e0d7ac7665
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -36,8 +38,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Adobe 광고 전환 추적 태그 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Adobe 광고 전환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Adobe Advertising 전환 추적 태그 기본 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [Adobe Advertising 변환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [전환 및 페이지 보기 추적 태그에 대한 FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [JavaScript 전환 추적 태그 버전 2의 형식](format-conversion-tag-jsv2.md)
 >* [JavaScript 전환 추적 태그 버전 3의 형식](format-conversion-tag-jsv3.md)

@@ -2,7 +2,8 @@
 title: 지원되는 인벤토리
 description: 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형을 참조하십시오.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
-source-git-commit: aac195426a099dda0b647771f0e35ceeb6b84a5d
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -33,7 +34,7 @@ ht-degree: 0%
 | | 대상 네트워크 | 검색 | &quot;&quot;로 확장된 텍스트 광고[!DNL Prefer Audience Ad Format]&quot; 선택됨 | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)<br><br>이미지 광고 확장 기능 지원 안 함 | 예 | 예 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
 | | 네트워크 검색 | 검색 | \[Expanded\] 동적 검색 | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 및 [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 예 | 예 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
 | | 네트워크 검색 | 검색 | 확장된 텍스트(2023년 2월에 더 이상 사용되지 않음) | API를 통해 자동 | 다음을 사용하여 기존 광고의 상태만 편집 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), 및 [재고 관리 피드](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | 예 | 예 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
-| | 네트워크 검색 | 검색 | 멀티미디어 | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). 상태 및 URL에 대한 지원 편집 [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 예 | 예 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
+| | 네트워크 검색 | 검색 | 멀티미디어 | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). 상태 및 URL에 대한 지원도 편집합니다. [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 예 | 예 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
 | | 네트워크 검색 | 검색 | 반응형 검색 | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), 및 [재고 관리 피드](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | 예 | 예 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
 | | 네트워크 검색 | 검색 | 표준 텍스트(2017년에 더 이상 사용되지 않음) | API를 통해 자동 | 다음을 사용해서만 편집 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 및 [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 예 | 예 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
 | | 네트워크 검색 | 표준 검색 | <i>광고 확장:</i><br><br>Sitelink(캠페인 수준) | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 및 [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | —<br><br>캠페인 수준 사이트링크에는 &quot;[!UICONTROL Tracking Template]&quot;필드이지만 검색, 소셜 및 상거래는 클릭 수와 결과 전환을 개별 사이트링크가 아닌 관련 키워드에 매핑합니다. | —<br><br>검색, 소셜 및 상거래는 사이트 링크에 최적화되지 않습니다. 대신 사이트링크가 포함된 광고와 관련된 키워드로 최적화됩니다. | —<br><br>연결된 키워드에 대한 데이터를 사용할 수 있습니다. 사이트링크 수준 성능 데이터의 경우 [!DNL Microsoft Advertising] 광고 편집기입니다.<br><br>사이트링크 클릭으로 생성된 개별 전환을 보려면 [거래 보고서](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)보고. 다음 [!UICONTROL Link Type] 사이트 링크의 열은 <code>sl:&lt;sitelink text=&quot;&quot;></code>( 예: sl:현재 오퍼 참조) | Search, Social, Commerce에서 Analytics로의 연결된 키워드에 대한 데이터만 |
@@ -56,6 +57,6 @@ ht-degree: 0%
 
 [^2]: 검색, 소셜 및 상거래 내에서 사용할 수 있는 최적화 안내서의 &quot;캠페인 입찰 전략에 따라 적합한 포트폴리오 유형&quot;을 참조하십시오.
 
-[^3]: Adobe Analytics과의 통합이 필요합니다. 를 참조하십시오.[Adobe 광고를 위한 Analytics 개요](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).&quot;
+[^3]: Adobe Analytics과의 통합이 필요합니다. 를 참조하십시오.[Adobe Advertising을 위한 Analytics 개요](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).&quot;
 
 [^4]: [!DNL Analytics] 계정에 대해 일반적으로 사용하는 s_kwcid 형식과 관계없이 업그레이드된 s_kwcid 추적 매개 변수를 사용하여 데이터가 Search, Social 및 Commerce로 전송됩니다. 일반적으로 이전 버전의 s_kwcid를 사용하는 경우 최상의 경험을 위해 새 s_kwcid 포맷으로 업그레이드하는 것이 좋습니다. 그러나 클릭/비용 데이터와 매출 데이터가 서로 다른 s_kwcid를 사용하여 추적되더라도, 두 데이터 세트 모두 동일한 캠페인과 계정에서 완전히 분류되고 집계됩니다.

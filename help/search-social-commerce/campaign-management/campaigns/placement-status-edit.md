@@ -1,7 +1,9 @@
 ---
 title: 배치 및 음수 배치 상태 변경
 description: 에 대한 배치 및 부정적인 배치 상태를 변경하는 방법에 대해 알아봅니다. [!DNL Google Ads].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7f025ba2-e71f-40bf-9057-f7d7abbea5da
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -35,4 +37,3 @@ ht-degree: 0%
 >* [배치 기본 정보](placement-about.md)
 >* [바인딩 가능한 배치 관리](placement-manage.md)
 >* [부정적인 배치 만들기](placement-negative-create.md)
-

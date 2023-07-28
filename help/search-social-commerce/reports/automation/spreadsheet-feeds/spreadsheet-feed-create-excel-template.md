@@ -1,7 +1,9 @@
 ---
 title: 만들기 [!DNL Excel] 스프레드시트 보고서 피드용 템플릿
 description: 특수 형식의 스프레드시트 템플릿을 만드는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -20,7 +22,6 @@ ht-degree: 0%
    >
    > * 다음에 대한 스프레드시트 피드를 생성할 수 있습니다. [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword], 및 [!UICONTROL Forecast Accuracy] 보고서. 를 사용하는 경우 [!UICONTROL Ad Group Report]를 사용하면 더 빠른 결과를 위해 포함된 광고 그룹의 수를 제한할 수 있습니다.
    > * 다음 [!UICONTROL Date Range] 템플릿에 정의된 단위가 사용되지 않습니다. 나중에 스프레드시트 피드를 구성할 때 데이터를 새로 고칠 날짜를 정의합니다.
-
 
 1. 보고서가 생성되면 다음 위치로 이동합니다. **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** 및 보고서 출력의 TSV 또는 XLS 버전을 파일로 내보냅니다.
 
@@ -43,10 +44,10 @@ ht-degree: 0%
          이 특정 탭 이름을 사용하면 데이터를 새로 고칠 수 있습니다.
 
       4. (선택 사항) 필요한 경우 보고서 템플릿의 열 오른쪽에 사용자 정의 열을 추가합니다.
+
    1. (선택 사항) 별도의 워크시트에서 피벗 테이블을 만듭니다. 작업이 완료되면 피벗 테이블의 셀을 마우스 오른쪽 단추로 클릭하고 를 선택합니다 **[!UICONTROL Pivot Table Options]**&#x200B;를 클릭하고 **[!UICONTROL Data]** 탭을 선택한 다음 **[!UICONTROL Refresh data when opening the file]**.
 
    1. 파일을 다른 이름으로 저장 [!DNL Excel] .XLSX 형식의 스프레드시트입니다.
-
 
 >[!MORELIKETHIS]
 >
@@ -57,4 +58,3 @@ ht-degree: 0%
 >* [스프레드시트 보고서 피드 파일 보기 또는 저장](spreadsheet-feed-view-or-save.md)
 >* [스프레드시트 보고서 피드 수동 새로 고침](spreadsheet-feed-refresh.md)
 >* [스프레드시트 보고서 피드 삭제](spreadsheet-feed-delete.md)
-

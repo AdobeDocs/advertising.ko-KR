@@ -1,7 +1,9 @@
 ---
 title: 광고 관리
 description: 광고를 만들고 관리하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9108bbfd-61e7-49fa-90ba-4eb276eb0897
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -36,11 +38,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >(Adobe 광고 전환 추적이 있는 캠페인) 계정이나 캠페인 설정이 키워드 수준에서만 추적을 지정하는 경우 검색, 소셜 및 상거래는 광고에 대한 추적을 생성하지 않습니다.
+   >(Adobe Advertising 전환 추적이 있는 캠페인) 계정이나 캠페인 설정에서 키워드 수준에서만 추적을 지정하는 경우 검색, 소셜 및 상거래는 광고에 대한 추적을 생성하지 않습니다.
 
 1. 클릭 **[!UICONTROL Post]**.
 
-1. (Adobe 광고 전환 추적을 사용하여 캠페인에서 광고를 쇼핑합니다(선택 사항). 광고 클릭을 추적하려면, [추적 URL 도구를 사용하여 추적 URL 생성](/help/search-social-commerce/tools/click-tracking-url-generate.md)계정, 캠페인 또는 제품 그룹 설정에 수동으로 추가합니다.
+1. (Adobe Advertising 전환 추적을 사용하여 캠페인에서 광고 구매, 선택 사항) 광고 클릭을 추적하려면, [추적 URL 도구를 사용하여 추적 URL 생성](/help/search-social-commerce/tools/click-tracking-url-generate.md)계정, 캠페인 또는 제품 그룹 설정에 수동으로 추가합니다.
 
 ## 광고 설정 편집
 
@@ -49,7 +51,6 @@ ht-degree: 0%
 >* 다음 광고 유형은 다음과 같습니다 *변하기 쉬워*&#x200B;즉, 광고 사본 또는 이미지를 변경하고 동일한 광고 ID를 유지할 수 있습니다. 모두 [!DNL Google Ads] 동적 검색 광고를 제외한 광고 유형 및 [!DNL Microsoft Advertising] 확장된 텍스트 광고.
 >* 기타 지원되는 모든 광고는 *변경할 수 없음*: 광고 사본 또는 이미지를 변경하면 기존 광고가 삭제되고 새 광고가 만들어집니다. 검색, 소셜 및 상거래가 입찰을 최적화하기에 충분한 데이터를 수집하는 동안 새 광고의 성능은 2주 동안 불안정할 수 있습니다.
 >* 제품 광고의 콘텐츠는 의 프로모션 라인을 제외하고 편집할 수 없습니다. [!DNL Microsoft Advertising] 제품 광고. 그러나 광고를 일시 중지하거나 삭제할 수 있습니다.
-
 
 >[!TIP]
 >
@@ -114,4 +115,3 @@ ht-degree: 0%
 >* [[!DNL Microsoft Advertising] 반응형(대상) 광고 설정](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft Advertising] 반응형 검색 광고 설정](ad-settings-microsoft-rsa.md)
 >* [[!DNL Yandex] 텍스트 광고 설정](ad-settings-yandex-text.md)
-

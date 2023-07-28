@@ -1,7 +1,9 @@
 ---
 title: 지원 보고서 생성
 description: 지원 보고서를 생성하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8f91f837-71a8-451e-8c72-dfd21956a402
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # 지원 보고서 생성
 
-*검색, 소셜 및 상거래 클릭 추적을 사용하고 Adobe 광고, Adobe Analytics에서 전환 추적을 사용하는 광고주(및 [!DNL Analytics] 통합) 또는 토큰을 사용하여 피드에 제공(`ef_id`) 전용*
+*검색, 소셜 및 상거래 클릭 추적이 있고 Adobe Advertising, Adobe Analytics에서 전환 추적이 있는 광고주(및 [!DNL Analytics] 통합) 또는 토큰을 사용하여 피드에 제공(`ef_id`) 전용*
 
 1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
@@ -46,4 +48,3 @@ ht-degree: 0%
 >* [다음 [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [보고서 기본 정보](/help/search-social-commerce/reports/report-about.md)
 >* [보고서 삭제](/help/search-social-commerce/reports/management/report-delete.md)
-

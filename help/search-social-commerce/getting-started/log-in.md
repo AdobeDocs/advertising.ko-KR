@@ -1,9 +1,11 @@
 ---
 title: 로그인
 description: 로그인 방법에 대해 알아봅니다.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: b4359852-ed2a-4c97-864c-4a456fe57648
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -37,4 +39,3 @@ ht-degree: 0%
 >* [로그아웃](log-out.md)
 >* [암호 변경](/help/search-social-commerce/tools/password-change.md)
 >* [사용자 인터페이스 구성 방법](user-interface.md)
-

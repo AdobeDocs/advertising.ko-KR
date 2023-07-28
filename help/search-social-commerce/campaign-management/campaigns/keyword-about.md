@@ -1,7 +1,9 @@
 ---
 title: 키워드 정보
 description: 바인딩 가능한 키워드와 부정적 키워드에 대한 옵션에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f9216251-e0ab-43c1-81da-30503ee9f54e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -27,4 +29,3 @@ ht-degree: 0%
 >* [바인딩 가능한 키워드 관리](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [부정적인 키워드 만들기](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [키워드 및 부정적 키워드의 상태 변경](keyword-status-edit.md)
-

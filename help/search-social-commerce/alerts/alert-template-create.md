@@ -1,7 +1,9 @@
 ---
 title: 사용자 지정 경고 템플릿 만들기
 description: 사용자 지정 경고를 생성하기 위한 템플릿을 만드는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1acc6224-3e6c-4443-8efe-9ae8545d6da0
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -56,4 +58,3 @@ ht-degree: 0%
 >* [사용자 지정 경고 템플릿 설정](alert-template-settings.md)
 >* [사용자 지정 경고 보기](alert-view.md)
 >* [사용자 지정 경고에 대한 데이터 내보내기](alert-export-data.md)
-

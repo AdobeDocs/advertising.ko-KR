@@ -1,7 +1,9 @@
 ---
 title: 캠페인 성과 모니터링 및 관리
 description: 각 캠페인 및 포트폴리오의 성과를 모니터링하고 목표를 달성하기 위해 변경하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf3d015f-a171-45f2-be92-94f19b30e5ce
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -38,11 +40,10 @@ Adobe 계정 팀, 에이전시 팀 또는 광고주(서비스 수준 계약의 �
 
 * (해당되는 경우) 포트폴리오 전략을 조정하여 성과를 개선하고 성장 기회를 활용합니다.
 
-   자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 최적화 안내서를 참조하십시오.<!-- verify convention for referencing Optimization Guide here -->
+  자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 최적화 안내서를 참조하십시오.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >
 >* [검색, 소셜 및 상거래의 캠페인 관리 기본 정보](campaign-management-about.md)
 >* [광고 네트워크 계정 및 캠페인 구현 개요](campaign-implemention-overview.md)
 >* [검색, 소셜 및 상거래의 Google 광고 전환 데이터](google-conversion-data.md)
-

@@ -1,7 +1,9 @@
 ---
 title: 스프레드시트 보고서 피드 수동 새로 고침
 description: 스프레드시트 피드에서 데이터를 수동으로 새로 고치는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2929d6a6-8823-4f2e-94b4-5348d6f7672a
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -35,4 +37,3 @@ ht-degree: 0%
 >* [스프레드시트 보고서 피드 설정](spreadsheet-feed-settings.md)
 >* [스프레드시트 보고서 피드 파일 보기 또는 저장](spreadsheet-feed-view-or-save.md)
 >* [스프레드시트 보고서 피드 삭제](spreadsheet-feed-delete.md)
-

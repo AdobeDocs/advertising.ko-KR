@@ -1,7 +1,9 @@
 ---
 title: 여러 행 선택
 description: 모든 행에 대해 동일한 작업을 수행할 수 있도록 여러 행을 선택하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 297877bf-2174-4dbf-8b1f-a2a45d7531fd
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -22,11 +24,11 @@ ht-degree: 0%
 
    * 현재 페이지에서 모든 행을 선택합니다. 25행, 50행, 100행, 200행을 보는지 여부에 따라 적용된 필터에서 사용할 수 있는 일부 또는 모든 행을 포함할 수 있습니다. [!UICONTROL Continuous Scroll] — 글로벌 확인란을 선택합니다.
 
-      페이지에서 모든 행을 선택하면 개별 행의 선택을 취소할 수 있습니다.
+     페이지에서 모든 행을 선택하면 개별 행의 선택을 취소할 수 있습니다.
 
    * 적용된 필터에서 사용 가능한 행을 모두 선택하려면 전역 확인란을 선택한 다음 을 클릭합니다 **[!DNL Select all N records?]**, 여기서 *N* 는 사용 가능한 레코드 수입니다.
 
-      사용 가능한 행을 모두 선택하면 개별 행의 선택을 취소할 수 없습니다.
+     사용 가능한 행을 모두 선택하면 개별 행의 선택을 취소할 수 없습니다.
 
 >[!MORELIKETHIS]
 >
@@ -34,4 +36,3 @@ ht-degree: 0%
 >* [도구 모음에서 데이터 필터 적용](../data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
 >* [날짜 범위별로 데이터 필터링](../data-views/ad-hoc-settings/date-filter.md)
 >* [필터 제거](../data-views/ad-hoc-settings/column-filter-remove.md)
-

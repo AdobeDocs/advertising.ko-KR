@@ -1,7 +1,9 @@
 ---
 title: 레이블 분류 정보
 description: 레이블 분류를 사용하여 계정 구성 요소를 그룹화하는 방법에 대해 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a4777e7a-50c7-4521-a849-fb4661d94602
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -34,4 +36,3 @@ ht-degree: 0%
 >* [계정 구성 요소에서 레이블 분류 값 제거](classification-values-remove.md)
 >* [레이블 분류 값 삭제](classification-values-delete.md)
 >* [레이블 분류 삭제](classification-delete.md)
-

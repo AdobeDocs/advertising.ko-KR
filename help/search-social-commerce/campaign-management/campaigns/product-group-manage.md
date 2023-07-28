@@ -1,7 +1,9 @@
 ---
 title: 쇼핑 제품 그룹 관리
 description: 쇼핑 캠페인에서 쇼핑 제품 그룹을 만들고 관리하는 방법을 알아봅니다.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 25912abd-1ddb-443f-a16d-7efe57093677
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -109,4 +111,3 @@ ht-degree: 0%
 >* [쇼핑 제품 그룹 기본 정보](product-group-about.md)
 >* [[!DNL Google Ads] 제품 그룹 설정](product-group-settings-google.md)
 >* [[!DNL Microsoft Advertising] 제품 그룹 설정](product-group-settings-microsoft.md)
-
