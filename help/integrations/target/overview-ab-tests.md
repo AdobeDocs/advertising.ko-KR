@@ -1,15 +1,17 @@
 ---
 title: Adobe Target에서 Adobe Advertising 광고에 대한 A/B 테스트 구성
-description: 에서 A/B 테스트를 설정하는 방법 알아보기 [!DNL Target] DSP 및 [!DNL Search, Social, & Commerce] 광고.
+description: 에서 A/B 테스트를 설정하는 방법 알아보기 [!DNL Target] DSP 광고용.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+source-git-commit: f68aa3a48ff9676fec8c38af920cff1c3a7d6caa
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
 
-# Adobe Target for Advertising DSP에서 A/B 테스트 구성 및 [!DNL Advertising Search, Social, & Commerce] 광고
+# Advertising DSP Ads용 Adobe Target에서 A/B 테스트 구성
+
+<!-- In title and Heading1:  DSP and [!DNL Advertising Search, Social, & Commerce] Ads -->
 
 <!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
 
@@ -207,9 +209,9 @@ Analysis Workspace 내에서 활동 및 경험 데이터가 최소화되거나 �
 
 * Target 및 Analytics 모두에 동일한 SDID(Supplemental Data ID)가 사용되는지 확인합니다. 다음을 사용하여 SDID 값을 확인할 수 있습니다. [Adobe Experience Cloud 디버거](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) 사용자를 유도하는 캠페인의 랜딩 페이지에서.
 
-[Adobe 디버거의 SDID(Supplemental Data ID) 값](/help/integrations/assets/target-troubleshooting-sdid.png)
+[Adobe Debugger의 SDID(Supplemental Data ID) 값](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* 동일한 랜딩 페이지에서 a) 솔루션 > Target 아래의 Adobe 디버거에 표시된 호스트 이름이 b)에 표시된 추적 서버와 일치하는지 확인합니다. [!DNL Target] ( 목표 및 설정 > 보고 설정에서) 활동.
+* 동일한 랜딩 페이지에서 a) 솔루션 > Target 아래의 Adobe Debugger에 표시된 호스트 이름이에 표시된 추적 서버와 일치하는지 확인합니다. [!DNL Target] ( 목표 및 설정 > 보고 설정에서) 활동.
 
   [!DNL Analytics For Target] 을(를) 필요로 합니다. [!DNL Analytics] 호출 시 보낼 추적 서버 [!DNL Target] (으)로 [!DNL Modstats] analytics용 데이터 수집 서버.<!-- just "to Analytics?"-->
 
