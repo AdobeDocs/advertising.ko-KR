@@ -3,7 +3,7 @@ title: 개요 [!DNL Analytics for Advertising]
 description: 개요 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: c71fc077131b1366980e53b13f0a6a94b6dcae44
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유
 >
 > 다음에서 계산된 지표를 매핑할 수 없음: [!DNL Analytics] Adobe Advertising.
 
-Adobe Advertising 팀은 유료 미디어 성능에 적용할 수 있는 이벤트를 식별하고 Adobe Advertising에 매핑하는 데 도움이 됩니다. 해당 이벤트는에 표시됩니다. [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
+Adobe Advertising 팀은 유료 미디어 성능에 적용할 수 있는 이벤트를 식별하고 Adobe Advertising에 매핑하는 데 도움이 됩니다. 해당 이벤트는에 표시됩니다. [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
 
 를 참조하십시오.[Adobe Advertising의 Analytics 지표](analytics-data-in-advertising.md)사용 가능한 지표 목록.
 

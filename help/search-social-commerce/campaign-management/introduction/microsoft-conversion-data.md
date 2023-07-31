@@ -2,7 +2,7 @@
 title: '[!DNL Microsoft Advertising] 전환 데이터'
 description: 의 유형에 대해 알아보기 [!DNL Microsoft Advertising]- 추적 전환 데이터는 검색, 소셜 및 상거래에서 사용할 수 있습니다.
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -19,19 +19,19 @@ Search, Social 및 Commerce는 사용자가 추적한 모든 전환을 자동으
 
 Search, Social 및 Commerce는 다음에 대한 변환에 대한 데이터를 동기화합니다. &quot;[!DNL Include in 'Conversions']&quot; 옵션이 활성화되어 지난 35일 동안 데이터를 가져온 다음 변경 사항을 매일 09까지 가져옵니다.:00-10:광고주의 시간대에 00입니다. 각 클릭에 대해 새로운 전환이 추적되므로 내역 데이터가 매일 변경될 수 있습니다.
 
-각각에 대한 2개의 트랜잭션 속성 [[!DNL Microsoft Advertising]-추적된 전환](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (설정하는 위치: [!DNL Microsoft Advertising])에 구성된 전환 이름을 사용하여 검색, 소셜 및 상거래에서 자동으로 사용할 수 있습니다 [!DNL Microsoft Advertising]. 각 전환에 대한 거래 속성은 다음과 같습니다.
+각각에 대한 2개의 지표 [[!DNL Microsoft Advertising]-추적된 전환](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (설정하는 위치: [!DNL Microsoft Advertising])에 구성된 전환 이름을 사용하여 검색, 소셜 및 상거래에서 자동으로 사용할 수 있습니다 [!DNL Microsoft Advertising]. 각 전환에 대한 지표는 다음과 같습니다.
 
 * `<conversion-name>` — 키워드에 대한 전환 값(예: Purchase)입니다.
 
   >[!TIP]
   >
-  >다음을 포함하는 포트폴리오의 목표에서 이 유형의 속성을 사용합니다. [!DNL Microsoft Advertising] 최대 전환 값 및 Target ROAS 입찰 전략이 있는 캠페인.
+  >다음을 포함하는 포트폴리오의 목표에서 이 유형의 전환 지표 사용 [!DNL Microsoft Advertising] 최대 전환 값 및 Target ROAS 입찰 전략이 있는 캠페인.
 
 * `CT_<conversion-name>` — &quot;CT_&quot; 접두사로 시작하는 전환 수(개수)(예: CT_Purchase)입니다.
 
   >[!TIP]
   >
-  >다음을 포함하는 포트폴리오의 목표에서 이 유형의 속성을 사용합니다. [!DNL Microsoft Advertising] 최대 전환 수 및 Target CPA 입찰 전략이 있는 캠페인.
+  >다음을 포함하는 포트폴리오의 목표에서 이 유형의 전환 지표 사용 [!DNL Microsoft Advertising] 최대 전환 수 및 Target CPA 입찰 전략이 있는 캠페인.
 
 클릭 시간과 계정에 대해 기능이 활성화된 날짜로부터의 전환/트랜잭션 시간을 기반으로 데이터를 사용할 수 있습니다.
 

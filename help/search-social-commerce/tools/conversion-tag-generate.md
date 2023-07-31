@@ -3,9 +3,9 @@ title: Adobe Advertising 전환 추적 태그 생성
 description: Adobe Advertising 전환 태그를 만들어 전환 이벤트를 추적하는 방법에 대해 알아봅니다.
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 태그 유형 간의 차이에 대한 자세한 내용은 &quot;[Adobe Advertising 전환 및 페이지 보기 추적 태그에 대한 FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
 
-**[!UICONTROL Tag Properties]:** 최종 사용자가 전환 태그가 포함된 페이지를 볼 때 추적할 하나 이상의 트랜잭션 속성(지표)입니다. 목록에 지표를 추가하려면 목록에 지표 이름을 입력합니다.[!UICONTROL Add new property]&quot;필드 및 클릭 **[!UICONTROL Add]**.
+**[!UICONTROL Tag Properties]:** 최종 사용자가 전환 태그가 포함된 페이지를 볼 때 추적할 하나 이상의 전환 지표. 목록에 지표를 추가하려면 목록에 지표 이름을 입력합니다.[!UICONTROL Add new property]&quot;필드 및 클릭 **[!UICONTROL Add]**.
 
 여러 지표를 추적할 때 앰퍼샌드(`&`)을 클릭하여 제품에서 사용할 수 있습니다 `ev_Property1=<Property1>&ev_Property2=<Property2>`.
 
 >[!NOTE]
 >
->이 목록에 추가된 지표는 아무 곳에나 저장되거나 클라이언트의 [!UICONTROL Transaction Properties] 다음에 목록: [!UICONTROL Admin] 탭. 하지만 지표는 클라이언트의 [!UICONTROL Transaction Properties] 은 Adobe Advertising이 실제로 지표에 대한 데이터를 수집하면 자동으로 표시되며, 전환 태그가 페이지에 구현되어 최종 사용자가 해당 페이지를 여는 트랜잭션을 완료할 때 발생합니다.
+>이 목록에 추가된 지표는 아무 곳에나 저장되거나 클라이언트의 [!UICONTROL Conversions] 다음에 목록: [!UICONTROL Admin] 탭. 하지만 지표는 클라이언트의 [!UICONTROL Conversions] 은 Adobe Advertising이 실제로 지표에 대한 데이터를 수집하면 자동으로 표시되며, 전환 태그가 페이지에 구현되어 최종 사용자가 해당 페이지를 여는 트랜잭션을 완료할 때 발생합니다.
 
 **[!UICONTROL Include unique transaction IDs]:** (선택 사항) 거래 ID 속성(`ev_transid=<transid>`)을 클릭하여 제품에서 사용할 수 있습니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
