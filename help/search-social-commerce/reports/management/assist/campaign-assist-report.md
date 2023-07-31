@@ -3,7 +3,7 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: 에 대해 알아보기 [!UICONTROL Campaign Assist Report].
 exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -39,11 +39,11 @@ ht-degree: 0%
 | [!UICONTROL First Campaign] | 기본값 | 전환 경로의 첫 번째 캠페인. |
 | [!UICONTROL Last Campaign] | 기본값 | 전환을 초래한 마지막 캠페인(마지막 키워드가 지정된 경로 크기를 벗어난 경우에도).<br><br>개체 이름 뒤에 광고 네트워크, 계정 이름 또는 이벤트 유형을 나타내는 보고서 옵션을 포함시킨 경우 해당 정보가 캠페인 이름 뒤에 포함됩니다(예: `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | \[광고주별 사용자 지정(파생) 지표\] | 사용자 정의 | 만든 사용자 지정 지표의 값은 기존 지표에서 계산됩니다. |
-| \[광고주별 트랜잭션 속성\] | 사용자 정의 | 지정된 거래 속성 또는 사이트 참여 지표에 대한 전환 수입니다. |
-| [!UICONTROL % of Total] \[transaction property\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 거래 속성에 대해 보고서 출력에 자동으로 포함됨) 캠페인 패턴에서 발생한 지정된 거래 속성에 대한 전환 수입니다. |
+| \[광고주별 전환 지표\] | 사용자 정의 | 지정된 전환 지표 또는 사이트 참여 지표에 대한 전환 수입니다. |
+| [!UICONTROL % of Total] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 전환 지표에 대해 보고서 출력에 자동으로 포함됨) 캠페인 패턴에서 발생한 지정된 전환 지표에 대한 전환 수입니다. |
 | [!UICONTROL 6th Campaign] 끝 [!UICONTROL 20th Campaign] | 사용자 정의 | 광고주 내에서 발생한 전환 경로의 여섯 번째~20번째 캠페인 [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j).<br><br>개체 이름 뒤에 광고 네트워크, 계정 이름 또는 이벤트 유형을 나타내는 보고서 옵션을 포함시킨 경우 해당 정보가 캠페인 이름 뒤에 포함됩니다(예: `"<"campaign name> [Baidu] [Account1] [click]`&quot;). |
-| [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[transaction property\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 거래 속성에 대해 보고서 출력에 자동으로 포함됨) 첫 번째 이벤트(첫 번째 캠페인)에서 전환까지의 평균 대기 시간(일)입니다. |
-| [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[transaction property\] | 자동 | (보고서 설정에서 사용할 수 없지만 보고서 출력에 자동으로 포함됨) 마지막 이벤트(마지막 캠페인)에서 전환까지의 평균 대기 시간(일)입니다. |
+| [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 전환 지표에 대해 보고서 출력에 자동으로 포함됨) 첫 번째 이벤트(첫 번째 캠페인)에서 전환까지의 평균 지연 시간(일)입니다. |
+| [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 보고서 출력에 자동으로 포함됨) 마지막 이벤트(마지막 캠페인)에서 전환까지의 평균 대기 시간(일)입니다. |
 | [!UICONTROL EF Campaign ID] | 사용자 정의 | Search, Social 및 Commerce가 캠페인에 할당하는 숫자 ID입니다. |
 | [!UICONTROL EF Portfolio Group ID] | 사용자 정의 | 포트폴리오가 속한 포트폴리오 그룹의 숫자 ID입니다. |
 | [!UICONTROL EF Search Engine ID] | 사용자 정의 | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID입니다. <i>[!UICONTROL 3]</i> 대상 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 대상 [!DNL Microsoft® Advertising], <i>[!UICONTROL 45]</i> 대상 [!DNL Meta], <i>[!UICONTROL 86]</i> 대상 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 대상 [!DNL Naver], <i>[!UICONTROL 88]</i> 대상 [!DNL Baidu], <i>[!UICONTROL 90]</i> 대상 [!DNL Yandex], <i>[!UICONTROL 94]</i> 대상 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 대상 [!DNL Yahoo Native] (더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i> 대상 [!DNL Pinterest] (사용하지 않음). |

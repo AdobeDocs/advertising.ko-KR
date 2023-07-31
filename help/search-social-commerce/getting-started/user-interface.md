@@ -3,7 +3,7 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Tools]** — 이 메뉴에는 계정 암호 변경, 웹 사이트 페이지의 전환 추적을 위한 태그 생성, 클릭 추적 URL 생성 및 디코딩, 검색 추적 캠페인을 위한 지표 업로드 등의 옵션이 포함되어 있습니다.
 
-* **[!UICONTROL Admin]** — [!UICONTROL Admin] 메뉴에는 데이터 테이블 및 보고서에서 광고주의 거래 속성 표시 이름을 변경하고, Adobe Audience Manager 계정과 동기화하도록 설정을 구성하고, 특정 항목에 대한 전환 지표를 동기화하는 옵션이 포함되어 있습니다 [!DNL Google Analytics] 계정, 등록 정보 및 보기 조합 역할에 따라 광고주 계정, 에이전시 계정, 사용자 역할 및 사용자 계정을 관리할 수 있습니다.
+* **[!UICONTROL Admin]** — [!UICONTROL Admin] 메뉴에는 데이터 테이블 및 보고서에서 광고주의 전환 지표 표시 이름을 변경하고, Adobe Audience Manager 계정과 동기화하도록 설정을 구성하고, 특정 항목에 대해 전환 지표를 동기화하는 옵션이 포함되어 있습니다 [!DNL Google Analytics] 계정, 등록 정보 및 보기 조합 역할에 따라 광고주 계정, 에이전시 계정, 사용자 역할 및 사용자 계정을 관리할 수 있습니다.
 
 ## 오른쪽의 기타 작업 및 정보 기반 메뉴
 

@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: 에 대해 알아보기 [!UICONTROL Channel Assist Report].
 exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -33,11 +33,11 @@ ht-degree: 0%
 | [!UICONTROL First Event Type] | 기본값 | 전환 경로의 첫 번째(가장 이른) 이벤트의 이벤트 유형입니다. |
 | [!UICONTROL Last Event Type] | 기본값 | 전환을 초래한 마지막 이벤트의 이벤트 유형(마지막 이벤트가 지정된 경로 크기를 벗어난 경우에도). |
 | \[광고주별 사용자 지정(파생) 지표\] | 사용자 정의 | 만든 사용자 지정 지표의 값은 기존 지표에서 계산됩니다. |
-| \[광고주별 트랜잭션 속성\] | 사용자 정의 | 지정된 거래 속성 또는 사이트 참여 지표에 대한 전환 수입니다. |
-| [!UICONTROL % of Total] \[transaction property\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 거래 속성에 대해 보고서 출력에 자동으로 포함됨) 이벤트 패턴에 귀속된 포트폴리오에서 전체 전환을 수행한 비율입니다. |
+| \[광고주별 전환 지표\] | 사용자 정의 | 지정된 전환 지표 또는 사이트 참여 지표에 대한 전환 수입니다. |
+| [!UICONTROL % of Total] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 전환 지표에 대해 보고서 출력에 자동으로 포함됨) 이벤트 패턴에 귀속된 포트폴리오 간 전체 전환의 비율입니다. |
 | [!UICONTROL 6th Event] 끝 [!UICONTROL 30th Event] | 사용자 정의 | 광고주 내에서 발생한 전환 경로의 여섯 번째~30번째 이벤트 유형 [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j). |
-| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[transaction property\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 거래 속성에 대해 보고서 출력에 자동으로 포함됨) 첫 번째 이벤트부터 전환까지의 평균 대기 시간(일)입니다. |
-| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[transaction property\] | 자동 | (보고서 설정에서 사용할 수 없지만 보고서 출력에 자동으로 포함됨) 마지막 이벤트부터 전환까지의 평균 대기 시간(일)입니다. |
+| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 전환 지표에 대해 보고서 출력에 자동으로 포함됨) 첫 번째 이벤트에서 전환까지의 평균 지연 시간(일 수)입니다. |
+| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 보고서 출력에 자동으로 포함됨) 마지막 이벤트부터 전환까지의 평균 대기 시간(일)입니다. |
 | [!UICONTROL Path Frequency] | 사용자 정의 | 이 행의 경로가 전환되기 전에 발생한 횟수입니다. |
 
 >[!MORELIKETHIS]

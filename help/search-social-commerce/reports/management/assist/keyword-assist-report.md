@@ -3,7 +3,7 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: 에 대해 알아보기 [!UICONTROL Keyword Assist Report].
 exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -37,11 +37,11 @@ ht-degree: 0%
 | [!UICONTROL First Keyword] | 기본값 | 전환 경로의 첫 번째 키워드 또는 배치입니다. |
 | [!UICONTROL Last Keyword] | 기본값 | 전환을 초래한 마지막 키워드 또는 배치입니다(마지막 키워드가 지정된 경로 크기를 벗어난 경우에도). |
 | \[광고주별 사용자 지정(파생) 지표\] | 사용자 정의 | 만든 사용자 지정 지표의 값은 기존 지표에서 계산됩니다. |
-| \[광고주별 트랜잭션 속성\] | 사용자 정의 | 지정된 거래 속성 또는 사이트 참여 지표에 대한 전환 수입니다. |
-| [!UICONTROL % of Total] \[transaction property\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 거래 속성에 대해 보고서 출력에 자동으로 포함됨) 키워드 및/또는 배치 패턴에 귀속된 포트폴리오에서 전체 전환의 비율입니다. |
+| \[광고주별 전환 지표\] | 사용자 정의 | 지정된 전환 지표 또는 사이트 참여 지표에 대한 전환 수입니다. |
+| [!UICONTROL % of Total] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 전환 지표에 대해 보고서 출력에 자동으로 포함됨) 키워드 및/또는 배치 패턴에 귀속된 포트폴리오에서 전체 전환의 비율입니다. |
 | [!UICONTROL 6th Keyword] 끝 [!UICONTROL 10th Keyword] | 사용자 정의 | 광고주 내에서 발생한 전환 경로에서 여섯 번째부터 열 번째까지의 유료 검색 키워드 또는 배치 클릭 수 [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j).<br><br><b>참고:</b> 키워드가 포함되지 않은 콘텐츠 활성화 검색 캠페인의 배치가 보고서에 포함된 경우 이 열에는 대신 &quot;(광고 그룹 콘텐츠) 광고 그룹 이름&quot;과 같은 적용 가능한 광고 그룹 이름이 표시됩니다. |
-| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[transaction property\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 거래 속성에 대해 보고서 출력에 자동으로 포함됨) 첫 번째 이벤트(첫 번째 키워드 또는 배치)에서 전환까지의 평균 대기 시간(일)입니다. |
-| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[transaction property\] | 자동 | (보고서 설정에서 사용할 수 없지만 보고서 출력에 자동으로 포함됨) 마지막 이벤트(마지막 키워드 또는 배치)에서 전환까지의 평균 대기 시간(일)입니다. |
+| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 전환 지표에 대해 보고서 출력에 자동으로 포함됨) 첫 번째 이벤트(첫 번째 키워드 또는 배치)에서 전환까지의 평균 대기 시간(일)입니다. |
+| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 보고서 출력에 자동으로 포함됨) 마지막 이벤트(마지막 키워드 또는 배치)에서 전환까지의 평균 대기 시간(일)입니다. |
 | [!UICONTROL Path Frequency] | 사용자 정의 | 이 행의 경로가 전환되기 전에 발생한 횟수입니다. |
 
 >[!MORELIKETHIS]

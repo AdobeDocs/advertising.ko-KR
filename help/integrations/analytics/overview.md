@@ -3,7 +3,7 @@ title: 개요 [!DNL Analytics for Advertising]
 description: 개요 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: b9a126983556259aafddc73db8adcfd8f1cb86dd
+source-git-commit: c71fc077131b1366980e53b13f0a6a94b6dcae44
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 0%
@@ -43,15 +43,15 @@ ht-degree: 0%
 * 내에서 영구 Adobe Advertising 뷰스루 및 클릭스루 ID 사용 [!DNL Analytics] 사이트 참여를 이해할 수 있습니다.
 * Analysis Workspace을 활용하여 사이트 시작 지점 및 방문 동작을 보다 잘 이해할 수 있습니다. Adobe Advertising 캠페인 엔티티 이름(배치 및 광고까지) 및 관련 지표(예: 클릭, 노출 횟수 및 비용)가 포함된 유료 미디어 차원 및 이벤트 데이터에 액세스할 수 있습니다.
 
-사용 [!DNL Analytics] 조직에 유료 미디어 보고 도구로 Analysis Workspace에 대한 액세스 권한이 있는 Experience Cloud 로그인이 필요합니다. Adobe Advertising 팀은 Adobe Advertising 데이터를 Analysis Workspace의 개별 보고서 세트에 매핑하는 데 도움이 됩니다. Adobe Advertising 데이터를 모든 보고서 세트에 보낼 수 있지만, Adobe Advertising에 매핑된 보고서 세트와 매핑되지 않은 보고서 세트를 알고 있어야 합니다. 보고서 세트에 따라, 보고된 데이터가 변경될 수 있습니다.
+사용 [!DNL Analytics] 조직에 유료 미디어 보고 도구로 Analysis Workspace에 액세스할 수 있는 Experience Cloud 로그인이 필요합니다. Adobe Advertising 팀은 Adobe Advertising 데이터를 Analysis Workspace의 개별 보고서 세트에 매핑하는 데 도움이 됩니다. Adobe Advertising 데이터를 모든 보고서 세트에 보낼 수 있지만, Adobe Advertising에 매핑된 보고서 세트와 매핑되지 않은 보고서 세트를 알고 있어야 합니다. 보고서 세트에 따라, 보고된 데이터가 변경될 수 있습니다.
 
 [내 Adobe Advertising ID [!DNL Analytics]](ids.md) 사용자 지정 영구 만료 기능을 사용하는 다른 eVar와 마찬가지로 작동합니다. 기본적으로 Adobe Advertising 구현 중에 속성 전환 확인 기간은 60일로 설정됩니다. 이 설정을 변경하려면 Adobe 계정 팀과 작업하십시오.
 
-Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유형(AMO ID)&quot;)와 함께 추가됩니다. 를 참조하십시오.[Analysis Workspace에서 광고 지표 Adobe](advertising-metrics-in-analytics.md)사용 가능한 차원 목록에 대해 설명합니다.
+Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유형(AMO ID)&quot;)와 함께 추가됩니다. 를 참조하십시오.[Analysis Workspace에서 지표 Adobe Advertising](advertising-metrics-in-analytics.md)사용 가능한 차원 목록에 대해 설명합니다.
 
 >[!NOTE]
 >
-> 내에서 Adobe Advertising 데이터(또는 데이터 세트)를 보는 경우 [!DNL Analytics], 지표 및 보고서는 내에 설정된 규칙을 기반으로 합니다 [!DNL Analytics]. 데이터는 광고 서버 보고서와 같은 다른 보고 시스템 내에서 표시되는 데이터와 다를 수 있습니다. [!DNL DSP] 보고서 또는 검색 엔진 보고서. 의 데이터 차이점을 이해하려면 [!DNL Analytics], eVar 데이터가 만료되는 시기, 방문을 정의하는 내용, 마지막 터치 속성 대 총 지속 속성으로 간주되는 내용 및 기타 요인을 알아야 합니다. 자세한 내용은 [다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Adobe 광고](data-variances.md).
+> 내에서 Adobe Advertising 데이터(또는 데이터 세트)를 보는 경우 [!DNL Analytics], 지표 및 보고서는 내에 설정된 규칙을 기반으로 합니다 [!DNL Analytics]. 데이터는 광고 서버 보고서와 같은 다른 보고 시스템 내에서 표시되는 데이터와 다를 수 있습니다. [!DNL DSP] 보고서 또는 검색 엔진 보고서. 의 데이터 차이점을 이해하려면 [!DNL Analytics], eVar 데이터가 만료되는 시기, 방문을 정의하는 내용, 마지막 터치 속성 대 총 지속 속성으로 간주되는 내용 및 기타 요인을 알아야 합니다. 자세한 내용은 [다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Adobe Advertising](data-variances.md).
 
 ## Analytics를 사용하여 Adobe Advertising 캠페인 및 Portfolio 강화
 
@@ -70,13 +70,13 @@ Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유
 
 ### 입찰 신호로서의 사이트 전환 지표
 
-에서 표준 이벤트와 사용자 지정 이벤트를 사용할 수 있습니다. [!DNL Analytics] Adobe 광고에서 가중 목표를 수립합니다. 목표에 입찰 결정을 알립니다. [!DNL DSP] 패키지 및 검색 포트폴리오.
+에서 표준 이벤트와 사용자 지정 이벤트를 사용할 수 있습니다. [!DNL Analytics] Adobe Advertising에서 가중 목표를 수립합니다. 목표에 입찰 결정을 알립니다. [!DNL DSP] 패키지 및 검색 포트폴리오.
 
 >[!NOTE]
 >
-> 다음에서 계산된 지표를 매핑할 수 없음: [!DNL Analytics] Adobe 광고로.
+> 다음에서 계산된 지표를 매핑할 수 없음: [!DNL Analytics] Adobe Advertising.
 
-Adobe Advertising 팀은 유료 미디어 성능에 적용할 수 있는 이벤트를 식별하고 Adobe Advertising에 매핑하는 데 도움이 됩니다. 해당 이벤트는에 표시됩니다. [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
+Adobe Advertising 팀은 유료 미디어 성능에 적용할 수 있는 이벤트를 식별하고 Adobe Advertising에 매핑하는 데 도움이 됩니다. 해당 이벤트는에 표시됩니다. [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
 를 참조하십시오.[Adobe Advertising의 Analytics 지표](analytics-data-in-advertising.md)사용 가능한 지표 목록.
 
@@ -134,7 +134,7 @@ Analysis Workspace에서 목표에 따라 Adobe Advertising 데이터를 추적�
 
 ### 사이트 시작 분석에 Adobe Advertising ID 사용
 
-Adobe Advertising 사이트 시작 보고서를 만들어 요일, 시간, 브라우저 및 지리적 영향을 모니터링하는 방법을 보려면 비디오 를 참조하십시오.[Adobe 광고 사이트 시작 보고서 만들기](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+Adobe Advertising 사이트 시작 보고서를 만들어 요일, 시간, 브라우저 및 지리적 영향을 모니터링하는 방법을 보려면 비디오 를 참조하십시오.[Adobe Advertising 사이트 시작 보고서 만들기](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
 
 >[!MORELIKETHIS]
 >
@@ -143,5 +143,5 @@ Adobe Advertising 사이트 시작 보고서를 만들어 요일, 시간, 브라
 >* [Analytics에서 사용하는 Adobe Advertising ID](ids.md)
 >* [Advertising용 Analytics에 대한 JavaScript 코드](/help/integrations/analytics/javascript.md)
 >* [다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Adobe Advertising](data-variances.md)
->* [Analysis Workspace에서 광고 지표 Adobe](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [Analysis Workspace에서 지표 Adobe Advertising](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Adobe Advertising의 데이터](/help/integrations/analytics/analytics-data-in-advertising.md)

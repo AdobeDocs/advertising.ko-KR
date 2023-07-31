@@ -3,7 +3,7 @@ title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 | 열 | 설명 |
 |----|----|
 | \[광고주별 사용자 지정(파생) 지표\] | 만든 사용자 지정 지표의 값은 기존 지표에서 계산됩니다. |
-| \[광고주별 트랜잭션 속성\] | 지정된 거래 속성 또는 사이트 참여 지표에 대한 전환 수입니다. |
+| \[광고주별 전환 지표\] | 지정된 전환 지표 또는 사이트 참여 지표에 대한 전환 수입니다. |
 | [!UICONTROL Account Name] | 계정 이름. |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] 보고서) 광고 네트워크에서 할당한 계정 식별자입니다. |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] 보고서) 계정 상태: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, 또는 *[!UICONTROL Inactive]*. |

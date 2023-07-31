@@ -3,7 +3,7 @@ title: 이 안내서 정보
 description: 이 안내서의 각 장에서 다루는 내용을 알아봅니다.
 exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * &quot;도구&quot;에서는 암호를 변경하고 도구를 사용하여 클릭 추적 및 전환 추적 태그를 생성하고 전환 지표를 업로드하는 방법을 설명합니다. [!DNL Google Ads] 하이브리드 최적화를 위해 광고 네트워크에 대한 포트폴리오 목표, 추적 캠페인을 위한 지표 업로드 및 복제 [!DNL Google Ads] 의 캠페인 [!DNL Microsoft Advertising] 계정.
 
-* &quot;관리&quot;에서는 수집된 거래 속성 및 포트폴리오 예측에서 제외할 날짜를 포함하여 광고주 데이터를 관리하는 방법을 설명합니다. 에서 전환 지표를 동기화합니다. [!DNL Google Analytics] 계정; 다양한 광고주 수준 설정을 구성하고 (일부 역할) 사용자, 에이전시 및 광고주 계정을 관리합니다.
+* &quot;관리&quot;에서는 수집된 전환 지표 및 포트폴리오 예측에서 제외할 날짜를 포함하여 광고주 데이터를 관리하는 방법을 설명합니다. 에서 전환 지표를 동기화합니다. [!DNL Google Analytics] 계정; 다양한 광고주 수준 설정을 구성하고 (일부 역할) 사용자, 에이전시 및 광고주 계정을 관리합니다.
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '3603'
+source-wordcount: '3598'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 0%
 | ---- | ---- |
 | \[광고주별 사용자 지정(파생) 지표\] | 에 대한 값 [생성한 사용자 정의 지표](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) 기존 지표에서 계산됩니다. |
 | \[광고주별 레이블 분류\] | 엔티티 레벨에서 엔티티에 현재 적용된 모든 레이블 분류. 여러 레이블 분류는 쉼표(,)로 구분됩니다. |
-| \[광고주별 트랜잭션 속성\] | 지정된 거래 속성 또는 사이트 참여 지표에 대한 전환 수입니다. |
-| \[Google 추적 전환/트랜잭션 속성\] | &quot;GGL\*, GGL_CT\* 및 GGL_XD_CT\*&quot; 항목을 참조하십시오. |
+| \[광고주별 전환 지표\] | 지정된 전환 지표 또는 사이트 참여 지표에 대한 전환 수입니다. |
+| \[Google 추적 전환\] | &quot;GGL\*, GGL_CT\* 및 GGL_XD_CT\*&quot; 항목을 참조하십시오. |
 | [!UICONTROL 7-Day Click Accuracy] | ([!UICONTROL Portfolio Report]) 현재 날짜를 포함하지 않고(보고서의 지정된 날짜 범위가 아님) 이전 7일 동안의 클릭 예측 평균 정확도로, 백분율로 표시됩니다. |
 | [!UICONTROL 7-Day Cost Accuracy] | ([!UICONTROL Portfolio Report]) 현재 일자를 포함하지 않고(보고서의 지정된 일자 범위가 아님) 이전 7일에 대한 원가 예측의 평균 정확도는 백분율로 표시됩니다. |
 | [!UICONTROL 7-Day Revenue Accuracy] | ([!UICONTROL Portfolio Report]) 현재 일자를 포함하지 않고(보고서의 지정된 일자 범위가 아님) 이전 7일 동안의 수익 예측의 평균 정확도는 백분율로 표시됩니다. |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | (캠페인만 표시) 검색, 소셜 및 상거래에서 추적한 예상 광고 노출 횟수. 이 값은 의 값과 다를 수 있습니다. [!UICONTROL Impressions] 광고 네트워크에서 제공한 값을 표시하는 열(사용 가능한 경우). |
 | [!UICONTROL Exclude (yes/no)] | 입찰이 제외되는지 여부(<i>[!UICONTROL Yes]</i>) 또는 입찰이 허용됩니다(<i>[!UICONTROL No]</i>)를 클릭하여 제품군에 맞는 광고를 제작할 수 있습니다. |
 | [!UICONTROL First Page CPC] | (Google 캠페인만 해당) 지정된 날짜 범위 동안 검색 결과의 첫 페이지에 표시되는 광고의 클릭당 비용(CPC)입니다. |
-| `GGL*`, `GGL_CT*`, 및 `GGL_XD_CT*` [[!DNL Google Ads]-추적된 전환/트랜잭션 속성] | ([!DNL Google Ads] 검색 및 쇼핑 네트워크의 캠페인) [!DNL Google Ads]-추적된 전환, 각 전환에 대해 최대 3개의 개별 트랜잭션 속성 사용:<ul><li>`GGL*` — (추적할 때) &quot;GGL&quot; 접두사로 시작하는 키워드에 대한 전환 값(예: GGL 구매)입니다.</li><li>`GGL_CT*` — &quot;GGL_CT&quot; 접두사로 시작하는 전환 수(개수)(예: GGL_CT_Purchase)</li><li>`GGL_XD_CT*` — (전환 유형에 사용할 수 있는 경우, 추적할 때) 다음을 기준으로 측정한 교차 장치 전환 수(수)입니다. [!DNL Google Ads] &quot;GGL_XD_CT_&quot; 접두사로 시작(예: GGL_XD_CT_Purchase).</li></ul><br>각 전환은 입찰 단위와 클릭 날짜로 기록되며 이벤트 수준에서 사용할 수 없습니다. 에 대한 자세한 내용 [!DNL Google Ads]-추적된 전환, 참조 &quot;[[!DNL Google Ads] 검색, 소셜 및 상거래의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
+| `GGL*`, `GGL_CT*`, 및 `GGL_XD_CT*` [[!DNL Google Ads]-tracked conversions] | ([!DNL Google Ads] 검색 및 쇼핑 네트워크의 캠페인) [!DNL Google Ads]-추적된 전환, 각 전환에 대해 최대 3개의 개별 지표 포함:<ul><li>`GGL*` — (추적할 때) &quot;GGL&quot; 접두사로 시작하는 키워드에 대한 전환 값(예: GGL 구매)입니다.</li><li>`GGL_CT*` — &quot;GGL_CT&quot; 접두사로 시작하는 전환 수(개수)(예: GGL_CT_Purchase)</li><li>`GGL_XD_CT*` — (전환 유형에 사용할 수 있는 경우, 추적할 때) 다음을 기준으로 측정한 교차 장치 전환 수(수)입니다. [!DNL Google Ads] &quot;GGL_XD_CT_&quot; 접두사로 시작(예: GGL_XD_CT_Purchase).</li></ul><br>각 전환은 입찰 단위와 클릭 날짜로 기록되며 이벤트 수준에서 사용할 수 없습니다. 에 대한 자세한 내용 [!DNL Google Ads]-추적된 전환, 참조 &quot;[[!DNL Google Ads] 검색, 소셜 및 상거래의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] 전용) 유기 검색 결과 위에 첫 번째 광고로 표시되는 광고 노출 비율입니다. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] 전용) 유기 검색 결과 위에 표시되는 광고 노출 비율입니다. |
 | [!UICONTROL Impressions] | 지정된 날짜 범위 동안의 광고 노출 횟수입니다. |
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group ID] | 광고 네트워크가 제품 그룹에 할당하는 숫자 ID입니다. |
 | [!UICONTROL Product Groupings] | 상위 제품 그룹. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] 제품 목록 광고) 광고에 표시된 제품의 제품 ID입니다.<br><br><b>참고:</b> ID는 제품 목록에 추적 매개 변수가 포함된 경우에만 캡처됩니다 `ev_plx=<GMC product ID>`: 내에 추가해야 합니다. [!DNL Google Merchant Center]. |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) 거래 속성의 매출(예: 한 번의 등록에 대해 1, 12 USD 주문에 대해 12)입니다. 여러 입찰 단위에 동일한 거래 ID가 있는 경우 추적 ID의 매출은 지정된 클릭 날짜(클릭 데이터를 사용할 수 있을 때)의 클릭 수에 따라 분할됩니다. |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) 전환 지표 매출(예: 한 개 등록의 경우 1, 12 USD 주문의 경우 12)입니다. 여러 입찰 단위에 동일한 거래 ID가 있는 경우 추적 ID의 매출은 지정된 클릭 날짜(클릭 데이터를 사용할 수 있을 때)의 클릭 수에 따라 분할됩니다. |
 | [!UICONTROL Reach] | ([!DNL Meta] 광고) 광고를 한 번 이상 본 사람의 수입니다. 참고: [!DNL Meta] 중복 제거는 매일 사용자 프로필에 도달하므로 다음에서 보고하는 숫자에 해당합니다. [!DNL Meta] 그리고 검색별로 소셜 및 상거래가 다를 수 있습니다. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) 노출 또는 클릭이 시작된 지역 또는 미국/캐나다 주입니다. 사용자의 IP 주소에서 결정됩니다. |
 | [!UICONTROL SE Creative ID] | 네트워크에서 할당한 광고 ID입니다. |
@@ -176,8 +176,8 @@ ht-degree: 0%
 | [!UICONTROL Through Plays] | ([!DNL Meta] ads) 광고 전체를 시청한 보기 수입니다. |
 | [!UICONTROL Top of Page CPC] | (Google 캠페인만 해당) 지정된 날짜 범위 동안 검색 결과 페이지의 맨 위에 표시되는 광고의 클릭당 비용(CPC)입니다. |
 | [!UICONTROL Tracking URL] | (검색 대상 키워드만 해당) 추적 템플릿 또는 검색, 소셜, 상거래 추적 코드에 포함된 대상 URL(해당되는 경우)입니다. |
-| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) 거래가 차감되는 광고주별 거래 속성입니다. |
-| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 지정된 트랜잭션 속성이 차감된 시간입니다. |
+| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) 트랜잭션이 크레딧되는 광고주별 전환 지표입니다. |
+| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 지정된 전환 지표가 차감된 시간입니다. |
 | [!UICONTROL User Account Type] | 사용되지 않음 |
 | [!UICONTROL User SE Account ID] | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID입니다. |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] ads) 한 번의 노출에 대해 비디오를 재생하는 시간을 포함하여 비디오가 재생된 평균 시간입니다. |

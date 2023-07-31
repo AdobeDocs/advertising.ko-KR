@@ -3,7 +3,7 @@ title: EF ID를 사용한 데이터 피드에 대한 데이터 요구 사항
 description: EF ID를 사용하여 데이터 피드에 대한 데이터 요구 사항을 참조하십시오.
 exl-id: 15e76f3a-c376-4e7b-b3c8-ca76fd427002
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 예
 
-다음 예제 파일에는 두 거래 속성(제품 및 매출)에 대한 데이터가 포함되어 있습니다.
+다음 예제 파일에는 두 개의 전환 지표(제품 및 매출)에 대한 데이터가 포함되어 있습니다.
 
 ```
 EF ID,Client Transaction ID, Transaction Date,Product,Revenue

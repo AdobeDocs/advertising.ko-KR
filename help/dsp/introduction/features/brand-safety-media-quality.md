@@ -3,7 +3,7 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 09ccb4790906e64834e52fb28956fe41997cbd1b
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 0%
@@ -60,11 +60,11 @@ DSP은 플랫폼 전반에 걸친 사기를 관리하기 위한 강력한 내부
 
 * **계층화:** 우리는 여러 계층에 걸쳐 인벤토리를 분류하기 위해 전체 에코시스템에서 브랜드 존재를 전체적으로 검사합니다. 다음을 수행할 수 있습니다. [배치 타기팅](/help/dsp/campaign-management/placements/placement-settings.md) 원하는 도달 범위를 얻기 위해 다음 계층으로 이동:
 
-   * **[!UICONTROL T1]** - 브랜드 이름, 국제적으로 인식 가능한 사이트
+   * **[!UICONTROL T1]** — 브랜드 이름, 국제적으로 인식 가능한 사이트
 
-   * **[!UICONTROL T2]** - 최신 상태, 사용자 생성 컨텐츠가 없고 일반적으로 글로벌 인식이 부족한 멋진 사이트
+   * **[!UICONTROL T2]** — 사용자가 생성한 컨텐츠가 없고 일반적으로 세계적으로 인정받지 못하는 최신 상태의 멋진 사이트
 
-   * **[!UICONTROL T3]** - 사용자 생성 콘텐츠 및 틈새 콘텐츠
+   * **[!UICONTROL T3]** — 사용자 생성 컨텐츠 및 틈새 컨텐츠
 
 * **사이트 분류:** 간편한 콘텐츠 타겟팅 및 차단을 위해 속성의 콘텐츠를 기반으로 DSP이 정의한 사이트 범주로 각 속성에 태그를 지정합니다. 다음을 수행할 수 있습니다. [각 배치에 대해 이러한 사이트 카테고리를 타겟팅하거나 제외합니다.](/help/dsp/campaign-management/placements/placement-settings.md) 배치 목표를 기반으로 합니다.
 
@@ -145,5 +145,4 @@ DSP은 과(와) 파트너 관계를 맺고 있습니다. [!DNL DoubleVerify] 을
 >[!MORELIKETHIS]
 >
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
-
 <!-- >* [Advertiser Account Settings](/help/dsp/admin/advertiser-settings.md) -->

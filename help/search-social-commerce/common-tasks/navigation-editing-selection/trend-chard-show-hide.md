@@ -3,7 +3,7 @@ title: 트렌드 차트 표시 및 숨기기
 description: 일부 캠페인 관리 보기에서 데이터에 대한 추세 차트를 보고 숨기는 방법을 알아봅니다.
 exl-id: 9360e0c1-a326-4b1f-8c80-a4a5049ff024
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    1. 차트의 오른쪽 상단에서 비교할 지표와 데이터를 포함할 통화를 지정합니다(해당하는 경우).
 
-      여러 통화가 포함된 계정이 있는 경우 관련 계정의 모든 통화가 나열됩니다. 통화를 변경하면 해당 통화를 사용하는 계정에 대한 데이터만 표시됩니다. 기존 지표에서 파생한 모든 표준 지표, 광고주별 거래 속성 및 사용자 지정 지표가 나열됩니다.
+      여러 통화가 포함된 계정이 있는 경우 관련 계정의 모든 통화가 나열됩니다. 통화를 변경하면 해당 통화를 사용하는 계정에 대한 데이터만 표시됩니다. 기존 지표에서 파생한 모든 표준 지표, 광고주별 전환 지표 및 사용자 지정 지표가 나열됩니다.
 
    1. 클릭 ![저장](/help/search-social-commerce/assets/save-checkmark.png "저장").
 

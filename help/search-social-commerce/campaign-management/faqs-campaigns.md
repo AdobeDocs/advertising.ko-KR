@@ -3,7 +3,7 @@ title: 캠페인에 대한 FAQ
 description: 캠페인 관리 및 캠페인 데이터 보기에 대한 질문에 대한 답변을 살펴볼 수 있습니다.
 exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 +++([!DNL Google Ads] campaigns) 내 표시 이름 변경 [!DNL Google]-추적된 전환이 되돌려졌습니다.
 
-검색, 소셜 및 상거래에서 거래 속성의 표시 이름을 변경하면 변경 사항이에 구성된 이름으로 덮어쓰기됩니다. [!DNL Google Ads]. 다음 내에서 이름을 변경합니다. [!DNL Google Ads].
+Search, Social 및 Commerce에서 전환 지표의 표시 이름을 변경하면 변경 사항이에 구성된 이름으로 덮어쓰기됩니다 [!DNL Google Ads]. 다음 내에서 이름을 변경합니다. [!DNL Google Ads].
 +++
 
 +++(Google Ads 캠페인) 포트폴리오의 캠페인에 공유 예산을 사용할 수 있습니까?
