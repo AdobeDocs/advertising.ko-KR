@@ -3,7 +3,7 @@ title: 모델 정확도 보고서 설정
 description: 모델 정확도 보고서에 대한 필수 및 선택적 설정에 대해 알아봅니다.
 exl-id: 0d0e6ace-3cb3-4cf4-8cbf-3dd5a356f35e
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1782'
 ht-degree: 0%
@@ -31,8 +31,6 @@ ht-degree: 0%
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (선택 사항, &quot;[!UICONTROL Save as template]&quot;옵션이 선택됨) 보고서를 실행할 시기: <i>[!UICONTROL Now]</i> (보고서를 한 번 실행하려면, 기본값), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [요일]</i>, 또는 <i>[!UICONTROL Every Month] [날짜]</i>. 을 제외한 모든 기간에 대해 <i>[!UICONTROL Now]</i>, 광고주의 시간대에서 오전 09:00부터 시작하는 시간을 선택합니다. |
 |  | [!UICONTROL Email Recipients] | <b>참고:</b>  이 설정은 다음에 대한 이메일 알림이 있을 때만 사용됩니다. [!UICONTROL Reports] 은(는) [다음 범위 내에서 활성화됨 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>보고서가 완료되거나 오류로 인해 취소될 때 알림을 보낼 등록된 검색, 소셜 및 상거래 사용자의 이메일 주소. 기본적으로 사용자 계정의 주소를 입력합니다. 여러 주소를 지정하려면 쉼표, 공백 또는 새 줄로 구분합니다. 보고서가 반복적으로 실행되도록 일정이 잡힌 경우 보고서가 완료될 때마다 알림이 전송됩니다. |
 |  | [!UICONTROL Email Notification] | <b>참고:</b>  이 설정은 다음에 대한 이메일 알림이 있을 때만 사용됩니다. [!UICONTROL Reports] 은(는) [다음 범위 내에서 활성화됨 [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(시기 [!UICONTROL Email Recipients] 지정된 경우) 지정된 주소에 대한 이메일 알림에 포함할 내용:<ul><li><i>[!UICONTROL Notification Only]</i> (기본값): 첨부 파일 없이 보고서 완료 또는 실패에 대한 알림만 전송합니다. 알림에는 모든 보고서 형식에 대한 일시적인 다운로드 링크가 포함됩니다.</li><li><i>[!UICONTROL XLS Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 사본을 XLS 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다.</li><li><i>[!UICONTROL TSV Attachment]:</i> 파일이 약 10MB 미만인 경우 TSV 형식으로 완료된 보고서의 사본을 포함하십시오. 1MB가 넘는 파일은 압축됩니다.</li><li><i>[!UICONTROL CSV Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 사본을 CSV 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

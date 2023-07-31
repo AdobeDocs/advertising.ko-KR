@@ -3,7 +3,7 @@ title: '[!UICONTROL Forecast Accuracy Report]'
 description: 데이터 열을 포함하여 예측 정확도 보고서에 대해 알아봅니다.
 exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -48,8 +48,6 @@ ht-degree: 0%
 | [!UICONTROL EF Portfolio Group ID] | 기본값 | 포트폴리오가 속한 포트폴리오 그룹의 숫자 ID입니다. |
 | [!UICONTROL Portfolio Group Name] | 기본값 | 포트폴리오가 속한 포트폴리오 그룹의 이름입니다. |
 | [!UICONTROL Portfolio ID] | 기본값 | 숫자 포트폴리오 ID입니다. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

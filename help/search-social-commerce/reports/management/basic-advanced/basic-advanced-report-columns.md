@@ -3,7 +3,7 @@ title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '3603'
 ht-degree: 0%
@@ -186,8 +186,6 @@ ht-degree: 0%
 | [!UICONTROL View Rate] | (비디오 광고) 보기 또는 참여 수를 광고(비디오 및 썸네일 노출) 표시 횟수로 나눈 값입니다. |
 | [!UICONTROL Views] | (비디오 광고) 사람들이 광고를 시청하거나 광고에 참여한 횟수입니다. |
 | [!UICONTROL ViewThroughConversions] | (대상 네트워크의 광고) 하나 이상의 노출로 인한 전환 횟수지만 클릭은 없습니다. |
-
-<table style="table-layout:auto">
 
 <!-- HOW IS MARKET TYPE DIFFERENT FROM CHANNEL TYPE? And what are all possible values for each? -->
 

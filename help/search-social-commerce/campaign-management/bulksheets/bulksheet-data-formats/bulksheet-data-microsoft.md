@@ -3,7 +3,7 @@ title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Microsoft Advertisi
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Microsoft Advertising] 계정.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '6888'
 ht-degree: 1%
@@ -113,8 +113,6 @@ ht-degree: 1%
 | [!UICONTROL SE Error Message] | (정보 목적으로 생성된 일괄 시트에 포함됨) 행의 데이터에 대해 광고 네트워크에서 오류 메시지를 표시하는 자리 표시자입니다. 오류 메시지는에 포함됩니다. [!UICONTROL SE Errors] 파일. 이 값은 광고 네트워크에 게시되지 않습니다. |
 | [!UICONTROL Exemption Request] | (정보 목적으로 생성된 일괄 시트에 포함됨) 광고가 위반하는 모든 Google 광고 정책의 이름과 텍스트를 표시하는 자리 표시자입니다. |
 | [!UICONTROL Retail Hash] | (고급 Campaign Management을 사용하여 생성된 일괄 시트에 정보 목적으로 포함됨) 고급(ACM) 보기를 사용하여 항목이 생성되었음을 나타내는 영숫자 해시 코드(예: f9639f40cdf56524b541e5dacf55a991). |
-
-<table style="table-layout:auto">
 
 [^1]: [!DNL Excel] 파일을 열 때 큰 숫자를 과학적 표기법(예: 2.12E+2115585666)으로 변환합니다. 표준 표기법에서 숫자를 보려면 열에서 셀을 선택하고 수식 입력줄 내부를 클릭합니다.
 

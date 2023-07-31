@@ -3,7 +3,7 @@ title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Yandex] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Yandex] 계정.
 exl-id: c43ea56b-5435-4bbf-8764-beda1bb9b410
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 1%
@@ -67,8 +67,6 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | \[광고주별 레이블 분류\] | 선택 사항입니다 | 선택 사항입니다 | 선택 사항입니다 | 선택 사항입니다 | 해당 사항 없음 | (Color라는 레이블 분류의 경우 &quot;Color&quot;와 같이 광고주별 레이블 분류에 대해 이름이 지정됨) 엔티티와 연결된 지정된 분류의 값입니다. 엔티티당 분류당 하나의 값만 포함할 수 있습니다(예: 캠페인 A의 &quot;색상&quot; 레이블 분류의 경우 &quot;빨간색&quot;). 최대 길이는 100자이고 값에는 ASCII 및 비 ASCII 문자가 포함될 수 있습니다.<br><br>레이블 분류 및 해당 레이블 값은 모든 하위 구성 요소에 적용됩니다. 나중에 추가되는 새 구성 요소는 자동으로 레이블과 연결됩니다. 제품 그룹에 대한 레이블 분류는 단위(가장 세부적인) 수준에 적용됩니다.<br><br>분류 이름과 분류 값은 대/소문자를 구분하지 않습니다. |
 | [!UICONTROL Constraints] | 선택 사항입니다 | 선택 사항입니다 | 선택 사항입니다 | 해당 사항 없음 | 해당 사항 없음 | 엔티티에 할당된 제약 조건입니다. 엔티티당 하나의 제약조건만 지정할 수 있습니다.<br><br>구속은 하위 엔티티에 의해 상속되므로 상속된 값을 재정의하지 않는 한 하위 엔티티에 대한 값을 입력할 필요가 없습니다. |
 | [!UICONTROL EF Error Message] | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | (정보 목적으로 생성된 일괄 시트에 포함됨) 행의 데이터에 대해 검색, 소셜 및 상거래의 오류 메시지를 표시하는 자리 표시자입니다. 오류 메시지는에 포함됩니다. [!UICONTROL EF Errors] 파일. 이 값은 광고 네트워크에 게시되지 않습니다. |
-
-<table style="table-layout:auto">
 
 [^1]: Excel은 파일을 열 때 큰 숫자를 과학적 표기법(예: 2.12E+2115585666)으로 변환합니다. 표준 표기법에서 숫자를 보려면 열에서 셀을 선택하고 수식 입력줄 내부를 클릭합니다.
 

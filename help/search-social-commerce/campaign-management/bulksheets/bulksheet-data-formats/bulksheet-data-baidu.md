@@ -3,7 +3,7 @@ title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Baidu] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Baidu] 계정.
 exl-id: 9066f3d5-5de1-4efe-bd61-6c877e106920
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1882'
 ht-degree: 0%
@@ -64,8 +64,6 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 | [!UICONTROL AMO ID] | 해당 사항 없음: 만들기<br>선택 사항: 편집 및 삭제 | 해당 사항 없음: 만들기<br>선택 사항: 편집 및 삭제 | 해당 사항 없음: 만들기<br>선택 사항: 편집 및 삭제 | 해당 사항 없음: 만들기<br>선택 사항: 편집 및 삭제 | 해당 사항 없음: 만들기<br>선택 사항: 편집 및 삭제 | (생성된 일괄 시트에서) [!DNL Adobe]동기화된 엔터티에 대해 생성된 고유 식별자입니다. 반응형 검색 광고의 경우, 다음을 포함하지 않는 한 광고를 편집하거나 삭제하려면 AMO ID가 필요합니다. [!UICONTROL Ad ID]. AMO ID가 있는 다른 모든 엔티티 유형의 데이터를 편집하려면 엔티티 ID와 상위 엔티티 ID를 포함하지 않는 한 데이터를 편집하거나 삭제하려면 AMO ID가 필요합니다.<br><br>Search, Social 및 Commerce는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 | [!UICONTROL EF Error Message] | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | (정보 목적으로 생성된 일괄 시트에 포함됨) 행의 데이터에 대해 검색, 소셜 및 상거래의 오류 메시지를 표시하는 자리 표시자입니다. 오류 메시지는에 포함됩니다. [!UICONTROL EF Errors] 파일. 이 값은 광고 네트워크에 게시되지 않습니다. |
 | [!UICONTROL SE Error Message] | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | (정보 목적으로 생성된 일괄 시트에 포함됨) 행의 데이터에 대해 광고 네트워크에서 오류 메시지를 표시하는 자리 표시자입니다. 오류 메시지는에 포함됩니다. [!UICONTROL SE Errors] 파일. 이 값은 광고 네트워크에 게시되지 않습니다. |
-
-<table style="table-layout:auto">
 
 [^1]: Excel은 파일을 열 때 큰 숫자를 과학적 표기법(예: 2.12E+2115585666)으로 변환합니다. 표준 표기법에서 숫자를 보려면 열에서 셀을 선택하고 수식 입력줄 내부를 클릭합니다.
 

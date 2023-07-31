@@ -3,7 +3,7 @@ title: 지원되는 인벤토리
 description: 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형을 참조하십시오.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -50,8 +50,6 @@ ht-degree: 0%
 | [!DNL Yahoo Native] (동기화 지원은 2022년에 종료됨) | 기본 네트워크 | 기본 | 텍스트 | —<br><br>2022년 3월 10일까지 이전 계정 정보는 읽기 전용으로 사용할 수 있습니다. | — | — | — | —<br><br>2022년 3월 10일까지 동기화된 레거시 광고 수준 데이터입니다. | 검색, 소셜 및 상거래에 대한 Analytics 데이터이지만, 그 반대는 아닙니다. |
 | [!DNL Yandex] | 네트워크 검색 | 검색 | 텍스트 | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), 및 [재고 관리 피드](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | 예 | CPC 입찰 전략만 있는 캠페인 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
 | | 네트워크 표시 | 디스플레이/컨텐츠 | 텍스트 | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), 및 [재고 관리 피드](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | 예 | CPC 입찰 전략만 있는 캠페인 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
-
-<table style="table-layout:auto">
 
 [^1]: 대부분의 광고 네트워크 및 캠페인 유형의 경우[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;활성 캠페인에 대한 추적 설정(캠페인 수준에서 설정되거나 계정 설정에서 상속됨), 검색, 소셜 및 상거래는 광고 그룹과 동기화할 때마다 광고 그룹 구성 요소에 대한 추적 URL을 자동으로 만들어 광고 네트워크에 업로드합니다. 그렇지 않으면 추적 URL을 생성하여 계정, 캠페인 또는 캠페인 구성 요소 설정에 추가해야 합니다. 를 참조하십시오.[광고 네트워크 및 개체별 클릭 추적 URL 생성 시기 및 방법](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 

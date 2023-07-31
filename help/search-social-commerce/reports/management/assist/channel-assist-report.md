@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: 에 대해 알아보기 [!UICONTROL Channel Assist Report].
 exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -39,8 +39,6 @@ ht-degree: 0%
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[transaction property\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 거래 속성에 대해 보고서 출력에 자동으로 포함됨) 첫 번째 이벤트부터 전환까지의 평균 대기 시간(일)입니다. |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[transaction property\] | 자동 | (보고서 설정에서 사용할 수 없지만 보고서 출력에 자동으로 포함됨) 마지막 이벤트부터 전환까지의 평균 대기 시간(일)입니다. |
 | [!UICONTROL Path Frequency] | 사용자 정의 | 이 행의 경로가 전환되기 전에 발생한 횟수입니다. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

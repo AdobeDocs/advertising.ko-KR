@@ -3,7 +3,7 @@ title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%
@@ -154,8 +154,6 @@ ht-degree: 0%
 | [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] 보고서) 광고 카피에 광고 요소가 있는 경우 클릭 여부에 관계없이 클릭된 횟수입니다. |
 | [!UICONTROL User SE Account ID] | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID입니다. |
 | [!UICONTROL ViewThroughConversions] | ([!UICONTROL Bing Ads Geo Report]; 대상 네트워크의 광고) 하나 이상의 노출로 인한 전환 횟수지만 클릭은 없습니다. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

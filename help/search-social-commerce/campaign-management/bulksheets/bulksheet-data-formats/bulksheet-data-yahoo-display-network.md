@@ -3,7 +3,7 @@ title: 다음에 대한 일괄 시트 데이터 [!DNL Yahoo! Display Network] �
 description: 다운로드한 일괄 시트의 헤더 필드 및 데이터 필드 참조 [!DNL Yahoo! Display Network] 계정.
 exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -52,8 +52,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Keyword ID] | 해당 사항 없음 | 해당 사항 없음 | 포함된 경우 | 기존 키워드를 식별하는 고유 ID입니다. |
 | [!UICONTROL AMO ID] | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | (생성된 일괄 시트에서) 동기화된 엔티티에 대해 Adobe이 생성한 고유 식별자입니다. |
 | [!UICONTROL EF Error Message] | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | (정보 목적으로 생성된 일괄 시트에 포함됨) 행의 데이터에 대해 검색, 소셜 및 상거래의 오류 메시지를 표시하는 자리 표시자입니다. 오류 메시지는에 포함됩니다. [!UICONTROL EF Errors] 파일. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >
