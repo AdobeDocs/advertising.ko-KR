@@ -4,7 +4,7 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 + [새로운 기능](home.md)
 + [이 안내서 정보](help-about.md)
 + 소개 {#intro}
-   + [Adobe 광고 검색, 소셜 및 상거래 정보](/help/search-social-commerce/introduction/about.md)
+   + [Adobe Advertising 검색, 소셜 및 상거래 정보](/help/search-social-commerce/introduction/about.md)
    + [지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe Experience Cloud과 통합 {#integrations}
       + [Adobe Experience Cloud 솔루션 및 서비스와의 통합](/help/search-social-commerce/introduction/integrations.md)
@@ -84,8 +84,8 @@ ht-degree: 2%
       + [s_kwcid 추적 매개 변수](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + 전환 추적 {#conversion-tracking}
       + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe 광고 전환 추적 {#advertising-conversion-tracking}
-         + [Adobe 광고 전환 추적 태그 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+      + Adobe Advertising 전환 추적 {#advertising-conversion-tracking}
+         + [Adobe Advertising 전환 추적 태그 기본 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [JavaScript 전환 추적 태그 버전 3의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript 전환 추적 태그 버전 2의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [이미지 변환 추적 태그의 형식](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
@@ -382,7 +382,7 @@ ht-degree: 2%
       + [추적 태그를 만들고 디코딩하는 도구 정보](/help/search-social-commerce/tools/tracking-tools-about.md)
       + [클릭 추적 URL 생성](/help/search-social-commerce/tools/click-tracking-url-generate.md)
       + [클릭 추적 URL 디코딩](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-      + [Adobe 광고 전환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)
+      + [Adobe Advertising 변환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + 광고 네트워크에 전환 데이터 업로드 {#upload-ad-networks}
       + [전환 지표 업로드 [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [광고 네트워크에 목표 업로드 활성화](/help/search-social-commerce/tools/objective-upload-to-networks.md)

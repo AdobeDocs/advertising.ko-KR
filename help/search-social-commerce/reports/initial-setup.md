@@ -3,7 +3,7 @@ title: 보고서의 초기 설정 작업
 description: 보고서에서 지표를 사용할 수 있도록 하는 방법과 보고서를 자동화하는 방법을 알아봅니다.
 exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 신규 사용자는 다음과 같은 초기 설정 작업을 수행해야 합니다.
 
-* Adobe Advertising이 광고주에 대해 추적하는 트랜잭션 속성을 만듭니다. [보고서 및 기타 보기에 사용 가능](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md), 및 선택 사항 [속성 이름을 변경합니다.](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) 가독성을 위해 열 제목에 표시됩니다.
+* 광고주에 대해 Adobe Advertising이 추적하는 전환 지표를 만듭니다. [보고서 및 기타 보기에 사용 가능](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md), 및 선택 사항 [전환 지표 이름 바꾸기](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) 가독성을 위해 열 제목에 표시됩니다.
 
   트랜잭션 속성은 특별히 사용 가능하게 만들지 않으면 보고서에 사용할 수 없습니다.
 
-  나중에 새 거래 등록 정보를 추적하기 시작하는 경우 이 작업을 반복해야 합니다.
+  나중에 새 전환 지표를 추적하기 시작하는 경우 이 작업을 반복해야 합니다.
 
 * (선택 사항) 보고서 생성 자동화:
 
