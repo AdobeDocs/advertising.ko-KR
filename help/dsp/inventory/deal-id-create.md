@@ -3,9 +3,9 @@ title: 거래 ID 세부 정보 수동으로 만들기
 description: 거래 ID에 대한 세부 사항을 수동으로 입력하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
       1. 사용 가능한 광고 목록에서 거래에 사용할 각 광고 옆에 있는 확인란을 선택합니다.
 
-      1. 게시자가 관리하는 광고의 경우, 광고주와 캠페인을 선택한 후 1x1 추적 픽셀이 자동으로 적용됩니다.
+         각 게시자가 관리하는 광고에 대해 광고주와 캠페인을 선택한 후 1x1 추적 픽셀이 자동으로 적용됩니다.
 
       1. 클릭 **[!UICONTROL Apply]**.
 
