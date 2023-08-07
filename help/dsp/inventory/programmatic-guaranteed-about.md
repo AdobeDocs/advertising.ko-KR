@@ -3,9 +3,9 @@ title: 프로그램 보증 거래 정보
 description: 프로그램 보증 거래(PG) 및 이를 제공하는 인증 SSP에 대해 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: 1a684a2fc2834b03e010eaaefaa5132c439796a3
+source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 * 일반적으로 이 거래는 게시자의 광고 서버에서 우선 순위가 높습니다.
 * 입찰 요청은 단일 거래나 구매자에게만 국한되지 않습니다.
 * 단일 거래 ID에서 여러 유형의 비디오가 지원됩니다.
-* 게시자 관리 광고는 다음을 통해 수락됩니다. [!DNL Google Authorized Buyers] SSP.
+* 게시자 관리 광고는 [!DNL Google Authorized Buyers] SSP.
 * SSP 및 게시자에게는 배달 SLA가 있습니다.
 
 DSP이 각 입찰 요청에 대한 요청을 반환하고 SSP로 배달 SLA를 이행할 수 있도록 PG 거래에는 PG 기본 배치 및 광고(또는 게시자 관리 광고의 경우 1x1 픽셀)가 필요합니다. 필수 PG 기본 배치를 설정하면 다른 배치에서 PG 거래를 타깃팅할 수도 있습니다.

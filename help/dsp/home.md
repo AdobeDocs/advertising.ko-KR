@@ -1,13 +1,13 @@
 ---
 title: Advertising DSP의 새로운 기능
-description: Adobe 광고 DSP의 최신 업데이트 및 새로운 기능에 대해 알아봅니다.
+description: Adobe Advertising DSP의 최신 업데이트 및 새로운 기능에 대해 알아봅니다.
 cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: a616228e40df2ed49b0eb354f3c626a2076524e3
+source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023년 7월 19일 | 인벤토리 | 이제 Google Authorized Purchasers SSP와 프로그래밍 방식의 보증 거래에 대해 게시자가 관리하는 광고를 실행할 수 있습니다. DSP 대신 게시자로 직접 광고를 호스팅하면 사용자 지정 리치 미디어 광고 형식을 활용할 수 있습니다. 사용자 지정 광고 형식은 일반적으로 직접 예약을 통해 실행되므로 DSP에서 게시자가 관리하는 광고를 선택할 수 있는 기능을 사용하면 직접 예약 예산을 프로그램 생태계로 이동할 수도 있습니다. | 를 참조하십시오.[프로그램 보증 거래 정보](/help/dsp/inventory/programmatic-guaranteed-about.md)&quot; 및 &quot;[프로그램 보증 거래 설정](/help/dsp/inventory/programmatic-guaranteed-set-up.md).&quot; |
 | 2023년 7월 19일 | 보고 | 새로운 [!UICONTROL Household Conversions Report] 장치/쿠키 수준이 아닌 IP 주소를 기반으로 가구 수준에서 뷰스루 전환을 표시합니다. | 를 참조하십시오.[보고서 정보](/help/dsp/reports/report-about.md)&quot; 및 &quot;[세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md).&quot; |
 | 2023년 5월 29일 | [!UICONTROL Campaigns] | 이제 캠페인, 패키지 및 광고를 일시 중지하거나 활성화할 수 있습니다. 배치를 이미 일시 중지하고 활성화할 수 있습니다. | 를 참조하십시오.[캠페인 일시 중지 또는 활성화](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot; &quot;[패키지 일시 중지 또는 활성화](/help/dsp/campaign-management/packages/package-pause-activate.md)및 &quot;[광고 일시 중지 또는 활성화](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
 | 2023년 5월 24일 | [!UICONTROL Campaigns] | 이제 범용 비디오 배치 및 광고를 일반적으로 사용할 수 있습니다. | 를 참조하십시오.[유니버설 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md),&quot; &quot;[범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)및 &quot;[광고 만들기](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
