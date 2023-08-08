@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: a1a8c1b563d419090ddbefacc55be869c1ee7bcf
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page Suffix]:** ([!DNL Google Ads] 및 [!DNL Microsoft Advertising] accounts only; 선택 사항) 정보를 추적하기 위해 최종 URL 끝에 추가하는 모든 매개 변수. 비즈니스에서 추적해야 하는 모든 매개 변수를 포함합니다. 예: `param1=value1&param2=value2`
 
-Adobe 광고 전환 추적을 사용하는 계정에는 광고 네트워크의 클릭 식별자(`gclid` 대상 [!DNL Google Ads] 또는 `msclkid` 대상 [!DNL Microsoft Advertising])를 입력합니다.
+Adobe Advertising 전환 추적을 사용하는 계정에는 광고 네트워크의 클릭 식별자(`gclid` 대상 [!DNL Google Ads] 또는 `msclkid` 대상 [!DNL Microsoft Advertising])를 입력합니다.
 
 Adobe Analytics 통합이 있는 계정은 s_kwcid 매개 변수를 사용해야 합니다. 계정에 서버측 s_kwcid 구현이 있는 경우 사용자가 광고를 클릭하면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 여기에 매개 변수를 수동으로 추가해야 합니다. 다음을 참조하십시오. [Google 광고의 필수 접미사 형식](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [Microsoft Advertising에 필요한 접미어 형식](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
