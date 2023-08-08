@@ -3,9 +3,9 @@ title: 개요 [!DNL Analytics for Advertising]
 description: 개요 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,13 @@ ht-degree: 0%
 
 사용 [!DNL Analytics] 조직에 유료 미디어 보고 도구로 Analysis Workspace에 액세스할 수 있는 Experience Cloud 로그인이 필요합니다. Adobe Advertising 팀은 Adobe Advertising 데이터를 Analysis Workspace의 개별 보고서 세트에 매핑하는 데 도움이 됩니다. Adobe Advertising 데이터를 모든 보고서 세트에 보낼 수 있지만, Adobe Advertising에 매핑된 보고서 세트와 매핑되지 않은 보고서 세트를 알고 있어야 합니다. 보고서 세트에 따라, 보고된 데이터가 변경될 수 있습니다.
 
-[내 Adobe Advertising ID [!DNL Analytics]](ids.md) 사용자 지정 영구 만료 기능을 사용하는 다른 eVar와 마찬가지로 작동합니다. 기본적으로 Adobe Advertising 구현 중에 속성 전환 확인 기간은 60일로 설정됩니다. 이 설정을 변경하려면 Adobe 계정 팀과 작업하십시오.
+[내 Adobe Advertising ID [!DNL Analytics]](ids.md) 유사 작품 [!DNL eVars]사용자 지정 영구 만료 포함. 기본적으로 Adobe Advertising 구현 중에 속성 전환 확인 기간은 60일로 설정됩니다. 이 설정을 변경하려면 Adobe 계정 팀과 작업하십시오.
 
 Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유형(AMO ID)&quot;)와 함께 추가됩니다. 를 참조하십시오.[Analysis Workspace에서 지표 Adobe Advertising](advertising-metrics-in-analytics.md)사용 가능한 차원 목록에 대해 설명합니다.
 
 >[!NOTE]
 >
-> 내에서 Adobe Advertising 데이터(또는 데이터 세트)를 보는 경우 [!DNL Analytics], 지표 및 보고서는 내에 설정된 규칙을 기반으로 합니다 [!DNL Analytics]. 데이터는 광고 서버 보고서와 같은 다른 보고 시스템 내에서 표시되는 데이터와 다를 수 있습니다. [!DNL DSP] 보고서 또는 검색 엔진 보고서. 의 데이터 차이점을 이해하려면 [!DNL Analytics], eVar 데이터가 만료되는 시기, 방문을 정의하는 내용, 마지막 터치 속성 대 총 지속 속성으로 간주되는 내용 및 기타 요인을 알아야 합니다. 자세한 내용은 [다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Adobe Advertising](data-variances.md).
+> 내에서 Adobe Advertising 데이터(또는 데이터 세트)를 보는 경우 [!DNL Analytics], 지표 및 보고서는 내에 설정된 규칙을 기반으로 합니다 [!DNL Analytics]. 데이터는 광고 서버 보고서와 같은 다른 보고 시스템 내에서 표시되는 데이터와 다를 수 있습니다. [!DNL DSP] 보고서 또는 검색 엔진 보고서. 의 데이터 차이점을 이해하려면 [!DNL Analytics], 다음 날짜를 알아야 함: [!DNL eVar] 데이터 만료, 방문을 정의하는 항목, 마지막 터치 속성 대 총 지속 속성으로 간주되는 항목 및 기타 요소. 자세한 내용은 [다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Adobe Advertising](data-variances.md).
 
 ## Analytics를 사용하여 Adobe Advertising 캠페인 및 Portfolio 강화
 

@@ -3,9 +3,9 @@ title: '[!DNL Analytics] Adobe Advertising의 데이터'
 description: '[!DNL Analytics] Adobe Advertising의 데이터'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: b382184072af88273570fc045d0bcebe24ed81fb
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* [!DNL Analytics] 는 EF ID eVar에 대한 이벤트를 Adobe Advertising에 전달합니다.  기본 통합은 계산된 지표 또는 다른 차원(eVar)을 Adobe Advertising으로 보내는 것을 지원하지 않습니다. 그러나 계산된 지표를 사용자 지정 이벤트에서 완전히 캡처할 수 있는 경우 Adobe Advertising은 사용자 지정 이벤트를 수집할 수 있습니다.
+>* [!DNL Analytics] ef ID에 대한 이벤트를 전달합니다. [!DNL eVar] Adobe Advertising.  기본 통합은 계산된 지표 또는 다른 차원([!DNL eVars])을 Adobe Advertising에 추가합니다. 그러나 계산된 지표를 사용자 지정 이벤트에서 완전히 캡처할 수 있는 경우 Adobe Advertising은 사용자 지정 이벤트를 수집할 수 있습니다.
 >* [!DNL Analytics] 는 시간별로 데이터를 Adobe Advertising에 전달합니다.
 
 * [!UICONTROL Timespent_secs_1stvisit]: 방문자가 처음 방문하는 동안 사이트에서 보낸 시간(초)입니다.
@@ -56,9 +56,9 @@ ht-degree: 0%
 
 이러한 지표는 보고서 세트마다 다르므로 사용 가능한 지표는 각 고객 및 보고서 세트에 따라 다릅니다.
 
-### eVar 및 Prop에서 생성된 사용자 지정 전환 지표
+### 다음에서 생성된 사용자 지정 전환 지표 [!DNL eVars] 및 [!DNL Props]
 
-사용 가능한 지표는 고객마다 다릅니다. 를 참조하십시오.[Adobe Analytics eVar 및 prop에서 전환 지표 만들기](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
+사용 가능한 지표는 고객마다 다릅니다. 를 참조하십시오.[Adobe Analytics에서 전환 지표 만들기 [!DNL eVars] 및 [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
 
 ### 예약된 전환 지표
 

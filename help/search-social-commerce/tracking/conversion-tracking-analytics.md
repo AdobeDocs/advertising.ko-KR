@@ -3,9 +3,9 @@ title: Adobe Analytics 전환 추적
 description: Adobe Advertising 캠페인에 Adobe Analytics 전환 추적을 사용하는 방법에 대해 알아봅니다.
 exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주의 경우 Adv
 
 1. 위치 [!DNL Analytics], 검색, 소셜 및 상거래 구현 팀이 각 보고서 세트에 대해 다음 구성 설정을 수정합니다.
 
-   * 에 대한 만료 `ef_id` eVar이 Adobe Advertising에 대한 광고주의 클릭 전환 확인 기간과 일치하도록 변경되었습니다.
+   * 에 대한 만료 `ef_id` [!DNL eVar] 은 Adobe Advertising에 대한 광고주의 클릭 전환 확인 기간과 일치하도록 변경되었습니다.
 
    * Adobe Advertising 사용자 ID입니다.
 
