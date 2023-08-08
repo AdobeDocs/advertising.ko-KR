@@ -2,9 +2,9 @@
 title: "Adobe Analytics에서 전환 지표 만들기 [!DNL eVars] 및 prop"
 description: "다음을 사용하여 사용자 정의 성공 이벤트 지표 구성 [!DNL eVar]- 및 [!DNL prop]-level data."
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: f6f3e0b3cc867b817ce40c7ba06c76885948edbe
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
 
-성공 이벤트 지표를 사용하여 브랜드 목표에 가장 적합한 Adobe Analytics 사이트 데이터를 기반으로 DSP 패키지 및 검색, 소셜 및 상거래 캠페인을 최적화할 수 있습니다. 다음을 기반으로 사용자 정의 성공 이벤트 지표를 구성할 수 있습니다. [기존 항목 [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 및 [본인 [!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) 벼락치기로 [!DNL eVar]- 및 [!DNL prop]-level 데이터를 이벤트에 추가합니다. 기타 [!DNL Analytics] 표준, 사용자 지정 및 예약 전환 지표와 트래픽 지표를 포함한 지표는 DSP 및 Search, Social, Commerce에서 자동으로 사용할 수 있습니다.
+성공 이벤트 지표를 사용하여 브랜드 목표에 가장 적합한 Adobe Analytics 사이트 데이터를 기반으로 DSP 패키지 및 검색, 소셜 및 상거래 캠페인을 최적화할 수 있습니다. 다음을 기반으로 사용자 정의 성공 이벤트 지표를 구성할 수 있습니다. [기존 항목 [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 및 [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) 벼락치기로 [!DNL eVar]- 및 [!DNL prop]-level 데이터를 이벤트에 추가합니다. 기타 [!DNL Analytics] 표준, 사용자 지정 및 예약 전환 지표와 트래픽 지표를 포함한 지표는 DSP 및 Search, Social, Commerce에서 자동으로 사용할 수 있습니다.
 
 ![사용 예](/help/integrations/assets/a4adc-conversion-evar-example.jpg "사용 예")
 
