@@ -2,7 +2,7 @@
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
 role: User, Admin
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 **[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Adobe Analytics 포함 광고주, 선택 사항, 다음을 포함하는 Adobe Advertising 전환 추적 태그를 사용하여 수집된 데이터에만 적용 가능 [!DNL EF Redirect] 및 토큰만 해당) 하나 이상 [!DNL Analytics] DSP이 게시자 및 공급 측 파트너로부터 수집한 데이터를 전송하는 보고서 세트입니다. Analytics는 또한 클라이언트 사이트에서 수집한 데이터를 DSP으로 전송합니다.
 
-보고서 세트에 표시할 데이터의 경우 [!DNL Search, Social, & Commerce] 광고주 수준 설정을 &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot;을(를) 활성화해야 합니다. 또한 광고주의 [!DNL Analytics] 계정에서 데이터를 수신하도록 Adobe Advertising을 구성해야 합니다.
+데이터가 보고서 세트에 표시되도록 하려면 다음을 수행합니다 [!DNL Search, Social, & Commerce] 광고주 수준 설정을 활성화해야 합니다. 또한 광고주의 [!DNL Analytics] 계정에서 데이터를 수신하도록 Adobe Advertising을 구성해야 합니다.
 
 >[!WARNING]
 >
@@ -56,7 +56,7 @@ ht-degree: 0%
 * Audience Manager 세그먼트
 * [!DNL Analytics] Adobe Experience Cloud에 게시된 세그먼트
 * Adobe Experience Cloud을 사용하여 생성된 세그먼트 [!DNL Audience Library]
-* Adobe Experience Platform에서 생성되어 Audience Manager을 통해 Adobe 광고로 전송되는 세그먼트
+* Adobe Experience Platform에서 생성되어 Audience Manager을 통해 Adobe Advertising으로 전송되는 세그먼트
 
 초기 동기화는 약 24시간이 소요됩니다. 그 후에는 데이터가 1~2초 지연으로 실시간으로 동기화됩니다.
 <!-- I don't think this is true anymore:
