@@ -3,9 +3,9 @@ title: 검색, 소셜 및 상거래의 캠페인 관리 기본 정보
 description: 검색, 소셜 및 상거래의 캠페인 관리 기능에 대해 알아봅니다.
 exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: d23b5a3c56c35fc5abbeafde681b9f584bf1c905
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Adobe Advertising 전환 추적 서비스를 사용하는 경우 랜딩 페이�
 
 대상 [지원되는 광고 네트워크 및 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md), 캠페인을 포트폴리오로 그룹화할 수 있으며, 각 포트폴리오는 특정 비즈니스 목표와 특정 예산 또는 성과 목표를 가지고 있습니다. 표준 포트폴리오에서 검색, 소셜 및 상거래는 CPC 키워드 입찰과 캠페인 예산을 최적화합니다. 하이브리드 포트폴리오에는 검색, 소셜, 상거래의 최적화 기술과 광고 네트워크가 결합되어 있습니다.
 
-사용 가능한 포트폴리오 옵션 및 포트폴리오 설정 방법에 대한 자세한 내용은 Search, Social 및 Commerce에서 사용할 수 있는 &quot;Portfolio 관리&quot;에 대한 최적화 안내서 장을 참조하십시오.<!-- verify convention for referencing Optimization Guide here -->
+사용 가능한 포트폴리오 옵션 및 포트폴리오 설정 방법에 대한 자세한 내용은 Search, Social 및 Commerce에서 사용할 수 있는 &quot;Portfolio&quot;에 대한 최적화 안내서 장을 참조하십시오.<!-- verify convention for referencing Optimization Guide here -->
 
 ## 캠페인 관리 보기
 

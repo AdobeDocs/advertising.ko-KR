@@ -3,7 +3,7 @@ title: 대상자 기본 정보
 description: 추적, 생성 및 관리 옵션에 대해 알아보기 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 대상.
 exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 9f30518efbbe29f976298fe1fcd962182285679f
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    * (Audience Manager 계정이 있는 광고주) 다음을 만들 수 있습니다 [!DNL Google Ads] 고객이 검색, 소셜 및 상거래를 대상으로 하는 Audience Manager 세그먼트의 사용자 ID를 사용하여 대상을 일치시킵니다. 여기에는 Adobe Experience Cloud에 게시된 Adobe Analytics 세그먼트와 Adobe Experience Cloud 대상 라이브러리를 사용하여 만든 세그먼트가 포함될 수 있습니다.
 
-  고객 일치 대상을 만들려면 광고주의 [!DNL Google Ads] 계정은 다음과 같아야 합니다. [사용자 정의 일치 가능](https://support.google.com/adspolicy/answer/6299717) 을(를) 위해 옵트인함 [사용자 ID 세그먼트](https://support.google.com/google-ads/answer/9199250). 또한 고객 일치 대상을 만들 수 있도록 검색, 소셜 및 상거래의 광고주 계정을 구성해야 합니다.<!-- For Analytics audiences: Analytics Only Integration. For Audience Manager, Enable CM/CRM option) -->
+  고객 일치 대상을 만들려면 광고주의 [!DNL Google Ads] 계정은 다음과 같아야 합니다. [사용자 정의 일치 가능](https://support.google.com/adspolicy/answer/6299717) 을(를) 위해 옵트인함 [사용자 ID 세그먼트](https://support.google.com/google-ads/answer/9199250). 또한 고객 일치 대상을 만들 수 있도록 검색, 소셜 및 상거래의 광고주 계정을 구성해야 합니다.
 
   [!DNL Adobe] 고객 데이터 기반 대상을 위한 세그먼트 데이터 및 쿠키 동기화 파일이에 동기화됨 [!DNL Google Ads] 매일.
 

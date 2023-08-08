@@ -3,9 +3,9 @@ title: 포트폴리오에 캠페인 할당
 description: 최적화를 위해 포트폴리오에 캠페인을 포함하는 방법을 알아봅니다.
 exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a041b44550b56a01d817d8e1bc9d91a025a4e721
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 최적화된 포트폴리오에 캠페인을 할당하면 검색, 소셜 및 상거래를 통해 캠페인의 키워드 및 광고에 대한 입찰과 캠페인 예산을 최적화할 수 있습니다. 다음 위치에서 포트폴리오에 캠페인을 할당할 수 있습니다. [!UICONTROL Campaigns] 포트폴리오를 만들거나 포트폴리오의 설정을 편집하여 볼 수 있습니다.
 
-일부 캠페인 유형 및 광고 네트워크는 최적화에 적합하지 않습니다. 다음 목록을 참조하십시오. [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md) 포트폴리오에 포함할 수 있습니다. 또한 검색, 소셜 및 상거래 내에서 사용할 수 있는 &quot;Portfolio 관리&quot;에 대한 최적화 안내서 장의 &quot;캠페인 입찰 전략별 적격 Portfolio 유형&quot;을 참조하여 각 캠페인 입찰 전략에 대한 최적화 지원을 확인합니다.<!-- verify convention for referencing Optimization Guide here -->
+일부 캠페인 유형 및 광고 네트워크는 최적화에 적합하지 않습니다. 다음 목록을 참조하십시오. [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md) 포트폴리오에 포함할 수 있습니다. 또한 검색, 소셜 및 상거래 내에서 사용할 수 있는 &quot;Portfolio&quot;에 대한 최적화 안내서 장의 &quot;캠페인 입찰 전략별 적격 Portfolio 유형&quot;에서 참조하여 각 캠페인 입찰 전략에 대한 최적화 지원을 확인합니다.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >
