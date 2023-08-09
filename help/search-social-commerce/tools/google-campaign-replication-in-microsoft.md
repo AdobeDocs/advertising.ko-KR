@@ -3,9 +3,9 @@ title: 복제 [!DNL Google Ads] 의 캠페인 [!DNL Microsoft® Advertising]
 description: 에서 동기화된 캠페인을 내보내는 방법 알아보기 [!DNL Google Ads] 동기화된 계정에 직접 연결 [!DNL Microsoft® Advertising] 계정입니다.
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 **[!UICONTROL Credential ID]:** 다음 ID [!DNL Microsoft® Advertising] 은 을(를) 나타내는 데 을(를) 사용합니다. [!DNL Google Ads] 자격 증명.
 
-자동 생성 [!DNL Microsoft® Advertising] 가져오기 용 자격 증명은 다음 이유로 사용할 수 없습니다. [!DNL Microsoft® Advertising] 제한 사항. Adobe 기술 지원 또는 Adobe 계정 팀에 문의하면 자격 증명을 생성하고 ID를 제공합니다.
+자동 생성 [!DNL Microsoft® Advertising] 가져오기 용 자격 증명은 다음 이유로 사용할 수 없습니다. [!DNL Microsoft® Advertising] 제한 사항. Adobe 계정 팀에 문의하여 자격 증명을 생성하고 ID를 제공합니다.
 
 **[!UICONTROL Target Microsoft® Ads account]:** 동기화됨 [!DNL Microsoft® Advertising] 캠페인 데이터를 가져오는 계정입니다.
 
