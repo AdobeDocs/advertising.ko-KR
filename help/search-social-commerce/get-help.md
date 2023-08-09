@@ -2,9 +2,9 @@
 title: 도움말 보기
 description: 온라인 도움말 및 커뮤니티 리소스를 보는 방법과 기술 지원을 받는 방법을 알아봅니다.
 exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
-source-git-commit: e0bcead14a3638ee013925336b38382ab205d69d
+source-git-commit: 56d6c890616c23ec64234705d84dddb41442eb87
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,14 @@ ht-degree: 0%
 
 질문과 대답 찾기 [Adobe Advertising 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
 
-## 연락처 Adobe
+## 연락처 [!DNL Adobe]
 
-| 예... | 다음으로 문의하기: |
-| ---- | ---- |
-| 검색, 소셜, &amp; 상거래 제품 또는 계정 문제 | Adobe 계정 팀에 문의하십시오. |
-| 검색, 소셜 및 상거래에 대한 피드백 | 상단 메뉴에서 ![도움말](/help/search-social-commerce/assets/help-main-menu.png "도움말") > **[!UICONTROL Provide Feedback]**&#x200B;을 클릭하고 메시지를 입력한 다음 **[!UICONTROL Send Feedback]**. |
+검색, 소셜, &amp; 상거래 제품 또는 계정 문제에 대해 다음 중 하나를 수행하십시오.
 
-### 제품 문제에 포함할 정보
+* Adobe 계정 팀에 문의하십시오.
 
-문제, 브라우저 이름 및 버전, 관련 데이터 및 수행한 사전 문제 해결에 대한 정보를 재현하는 자세한 단계를 제공합니다.
+* 상단 메뉴에서 ![도움말](/help/search-social-commerce/assets/help-main-menu.png "도움말") > **[!UICONTROL Provide Feedback]**&#x200B;을 클릭하고 메시지를 입력한 다음 **[!UICONTROL Send Feedback]**. |
+
+문제, 관련 데이터 및 수행한 사전 문제 해결에 대한 정보를 재현하는 자세한 단계를 제공합니다. Adobe 계정 팀에 문제를 보고하는 경우 브라우저 이름과 버전도 포함하십시오.
 
 보고서 문제의 경우 보고서를 삭제하지 말고 보고서 이름과 URL을 제공하십시오.
