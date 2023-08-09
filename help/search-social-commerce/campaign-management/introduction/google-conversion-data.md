@@ -2,10 +2,10 @@
 title: '[!DNL Google Ads] 전환 데이터'
 description: 의 유형에 대해 알아보기 [!DNL Google Ads]- 추적 전환 데이터는 검색, 소셜 및 상거래에서 사용할 수 있습니다.
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
-feature: Search Campaign Management
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+feature: Search Campaign Management, Conversions
+source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,16 @@ Search, Social 및 Commerce는 다음에 대한 변환에 대한 데이터를 �
 
 각각에 대해 최대 3개의 지표 [[!DNL Google Ads]-추적된 전환](https://support.google.com/google-ads/answer/4677036) (설정하는 위치: [!DNL Google Ads])에 구성된 전환 이름을 사용하여 검색, 소셜 및 상거래에서 자동으로 사용할 수 있습니다 [!DNL Google Ads]. 각 전환에 대한 지표는 다음과 같습니다.
 
+<!--
+
+* `<conversion-name>` &mdash; (When you track it) The conversion value for the keyword, beginning with the "GGL" prefix (such as GGL Purchase).
+
+`CT_<conversion-name>` &mdash; The number (count) of conversions, beginning with the "GGL_CT" prefix (such as GGL_CT_Purchase).
+
+* `XD_<conversion-name>` &mdash; (When available for the conversion type, when you track them) The number (count) of cross-device conversions, as measured by Google, beginning with the "GGL_XD_CT_" prefix (such as GGL_XD_CT_Purchase).
+
+-->
+
 * `GGL*` — (추적할 때) &quot;GGL&quot; 접두사로 시작하는 키워드에 대한 전환 값(예: GGL 구매)입니다.
 
 * `GGL_CT*` — &quot;GGL_CT&quot; 접두사로 시작하는 전환 수(개수)(예: GGL_CT_Purchase)
@@ -32,7 +42,7 @@ Search, Social 및 Commerce는 다음에 대한 변환에 대한 데이터를 �
 
 >[!NOTE]
 >
->* 동일한 전환 이름을 가진 계정이 여러 개 있는 경우 Adobe Advertising에 중복 전환 이름이 표시될 수 있습니다. 이 경우 [표시 이름 변경](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) 의 중복 지표 중 하나에 대해 [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. 두 개의 서로 다른 지표에 동일한 이름이 있을 때는 보고가 정확하지 않습니다.
+>* 동일한 전환 이름을 가진 계정이 여러 개 있는 경우 Adobe Advertising에 중복 전환 이름이 표시될 수 있습니다. 이 경우 [표시 이름 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md에서 중복 지표 중 하나에 사용) [!UICONTROL Admin] > [!UICONTROL Conversions]. 두 개의 서로 다른 지표에 동일한 이름이 있을 때는 보고가 정확하지 않습니다.
 >* 입찰 단위 수준의 데이터가 의 데이터와 일치함 [!DNL Google Ads] 같은 수준에서. 그러나 [!DNL Google Ads]&#39; 상위 수준에 대한 자체 전환 데이터에는 하위 입찰 단위에 귀속되지 않는 추가 전환이 포함될 수 있습니다. 검색, 소셜 및 상거래의 데이터는 항상 입찰 단위 수준에서 롤업되므로, 예를 들어 캠페인 수준 보고서의 합계는 Google 광고의 캠페인 수준 보고서와 동일하지 않을 수 있습니다.
 >* 데이터 분산은 일반적으로 추가 전환이 아직 동기화되지 않은 날의 후반보다 오전 동기화 후에 더 적습니다. 오전에 데이터의 유효성을 검사하는 것이 좋습니다.
 >* 다음에 대한 전환 데이터를 사용할 수 없음: [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App], 및 [!DNL YouTube] 광고. 에서 데이터를 비교할 때 그러한 유형의 광고를 필터링합니다. [!DNL Google Ads] 검색, 소셜 및 커머스의 데이터로.
@@ -94,4 +104,5 @@ Search, Social 및 Commerce는 다음에 대한 변환에 대한 데이터를 �
 >
 >* [광고 네트워크 계정 및 캠페인 구현 개요](campaign-implemention-overview.md)
 >* [광고 네트워크 캠페인의 성능 모니터링 및 관리](monitor-performance-campaigns.md)
->* [광고주에 대해 추적된 트랜잭션 속성 보기](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
+>* [광고주에 대해 추적된 전환 지표 보기](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
+>* [다음에 대한 변환 태그 만들기 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)

@@ -3,7 +3,7 @@ title: 광고 네트워크 계정 및 캠페인 구현 개요
 description: 광고 네트워크 계정 설정, 동기화 및 관리와 관련된 작업에 대해 알아봅니다.
 exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
 feature: Search Campaign Management
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Adobe은 각 광고주와 함께 작동하여 광고 네트워크 계정 및 캠
 
    포트폴리오에 대한 자세한 내용은 Search, Social 및 Commerce에서 사용할 수 있는 최적화 안내서를 참조하십시오.<!-- verify convention for referencing Optimization Guide here -->
 
-1. (광고주에 대해 새로운 전환이 추적되는 경우) [전환 사용 가능](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) 보고서, 캠페인 관리 보기 및 포트폴리오 목표
+1. (광고주에 대해 새로운 전환이 추적되는 경우) [전환 사용 가능](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) 보고서, 캠페인 관리 보기 및 포트폴리오 목표
 
 1. 각 캠페인에 대해 검색, 소셜 및 상거래가 광고 네트워크에서 클릭 및 비용 데이터를 수신하는지 확인하고 검색, 소셜 및 상거래에 표시된 매출 데이터를 광고주의 매출 데이터로 확인합니다.
 

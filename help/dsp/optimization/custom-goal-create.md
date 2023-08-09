@@ -3,7 +3,7 @@ title: 사용자 지정 목표 만들기
 description: 사용자 지정 목표 만들기
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 에 로그인 [!DNL Advertising Search, Social, & Commerce] at (북미 사용자) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 또는 (다른 모든 사용자) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. 목표에 포함할 지표가 추적되고 제품에서 사용할 수 있는지 확인하고 표시 이름을 포함하십시오.
-   1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
+   1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
    1. 지표를 찾고 다음을 확인합니다. **[!UICONTROL Show in UI and Reports]** 지표에 대해 활성화됩니다.
    1. 지표에 값이 없는 경우 **[!UICONTROL Display Name]** 열에서 셀을 클릭하고 표시 이름을 입력한 다음 **[!UICONTROL Apply].**
 1. 사용자 정의 목표를 다음으로 만들기 *목표*:

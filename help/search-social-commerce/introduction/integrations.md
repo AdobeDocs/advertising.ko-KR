@@ -3,7 +3,7 @@ title: Adobe Experience Cloud 솔루션 및 서비스와의 통합
 description: Adobe Experience Cloud 솔루션 및 서비스와의 검색, 소셜 및 상거래 통합에 대해 알아봅니다.
 exl-id: e8b521f5-f426-4c50-9df4-361a047c9ff0
 feature: Search Introduction
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Advertising Search, Social 및 Commerce는 다음과 통합됩니다 [!DNL Adobe
 
      >[!NOTE]
      >
-     >기본적으로 [!DNL Analytics] 지표는 검색, 소셜 및 상거래 화면에 표시되지 않습니다. 다음을 명시적으로 수행해야 합니다. [캠페인 관리 보기, 포트폴리오 및 보고서에서 지표를 사용할 수 있도록 설정](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) 다음 이후 [!DNL Adobe] Adobe Advertising 팀이 선택한 표준 또는 사용자 지정 이벤트를 구현에 전달하도록 구성했습니다. 표시된 지표 이름을 변경하지 않고 선택적으로 변경할 수 있습니다 [!DNL Analytics]). UI에서 지표를 볼 수 있도록 하고 지표의 이름을 변경할 수 있습니다. [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
+     >기본적으로 [!DNL Analytics] 지표는 검색, 소셜 및 상거래 화면에 표시되지 않습니다. 다음을 명시적으로 수행해야 합니다. [캠페인 관리 보기, 포트폴리오 및 보고서에서 지표를 사용할 수 있도록 설정](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) 다음 이후 [!DNL Adobe] Adobe Advertising 팀이 선택한 표준 또는 사용자 지정 이벤트를 구현에 전달하도록 구성했습니다. 표시된 지표 이름을 변경하지 않고 선택적으로 변경할 수 있습니다 [!DNL Analytics]). UI에서 지표를 볼 수 있도록 하고 지표의 이름을 변경할 수 있습니다. [!UICONTROL Admin] > [!UICONTROL Conversions].
 
    * 를 사용하는 광고주 [!DNL Analytics] 그러나 Audience Manager은 할 수 없습니다. [만들기 [!DNL Google Ads] 고객 일치 대상](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) 출처: [!DNL Analytics] Adobe Experience Cloud과 공유되는 세그먼트입니다. 자격을 얻으려면 광고주가 다음을 구현해야 합니다. [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 웹 사이트에 태그를 배포할 수 있습니다. 그런 다음 의 대상자를 사용할 수 있습니다. [!DNL Google Ads] 캠페인 수준 또는 광고 그룹 수준의 캠페인 [타겟](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) 또는 [제외](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md).
 

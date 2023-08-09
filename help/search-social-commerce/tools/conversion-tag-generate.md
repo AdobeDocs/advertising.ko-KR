@@ -3,7 +3,7 @@ title: Adobe Advertising 전환 추적 태그 생성
 description: Adobe Advertising 전환 태그를 만들어 전환 이벤트를 추적하는 방법에 대해 알아봅니다.
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->새 전환 태그의 각 지표는에 자동으로 나열됩니다. [!UICONTROL Admin] > [!UICONTROL Transaction Properties]가 구현되지 않았거나 웹 페이지에 있는 경우에도 클릭을 받지 않았습니다. 이 비헤이비어는 수동으로 또는 다른 곳에서 만든 태그에서 나열되지 않은 지표의 비헤이비어와 다릅니다 [!UICONTROL Admin] > [!UICONTROL Transaction Properties] 이 링크가 있는 웹 페이지 중 하나가 클릭될 때까지. 그러나 모든 경우에 각 지표는 명시적으로 사용할 수 있도록 할 때까지 처음에는 포트폴리오 목표, 보고서 및 보기에서 제외됩니다. 그러나 포트폴리오 목표에 지표를 추가하기 전에 먼저 지표를 사용할 수 있도록 하고 보고서에 추가하여 클릭 수를 받는 시점을 확인하는 것을 고려하십시오.
+>새 전환 태그의 각 지표는에 자동으로 나열됩니다. [!UICONTROL Admin] > [!UICONTROL Conversions]가 구현되지 않았거나 웹 페이지에 있는 경우에도 클릭을 받지 않았습니다. 이 비헤이비어는 수동으로 또는 다른 곳에서 만든 태그에서 나열되지 않은 지표의 비헤이비어와 다릅니다 [!UICONTROL Admin] > [!UICONTROL Conversions] 이 링크가 있는 웹 페이지 중 하나가 클릭될 때까지. 그러나 모든 경우에 각 지표는 명시적으로 사용할 수 있도록 할 때까지 처음에는 포트폴리오 목표, 보고서 및 보기에서 제외됩니다. 그러나 포트폴리오 목표에 지표를 추가하기 전에 먼저 지표를 사용할 수 있도록 하고 보고서에 추가하여 클릭 수를 받는 시점을 확인하는 것을 고려하십시오.
 
 ## Adobe Advertising 전환 태그 설정 {#conversion-tag-settings}
 
@@ -81,4 +81,4 @@ ht-degree: 0%
 >* [JavaScript 전환 추적 태그 버전 2의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [이미지 변환 추적 태그의 형식](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 >* [Adobe Advertising JavaScript 전환 매핑 태그](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
->* [광고주의 거래 속성 관리 정보](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+>* [광고주의 전환 지표 관리 정보](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)

@@ -3,7 +3,7 @@ title: 사용자 정의 보고서에 대한 FAQ
 description: 데이터 문제 해결을 포함하여 성능 보고서에 대한 일반적인 질문에 대한 답변을 살펴볼 수 있습니다.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 68fb5d737b76e7b388f15a2fdd1f57ce9cd6a3e2
+source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
 workflow-type: tm+mt
 source-wordcount: '3912'
 ht-degree: 0%
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 *가능한 해결 방법 또는 해결 방법:*
 
-1. 보고서 또는 데이터 보기에 올바른 열이 포함되어 있는지 확인합니다. 올바른 열을 추가할 수 없는 경우 사용자 또는 Adobe 계정 팀은 [전환 지표를 보고서에서 사용할 수 있도록 설정](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. 보고서 또는 데이터 보기에 올바른 열이 포함되어 있는지 확인합니다. 올바른 열을 추가할 수 없는 경우 사용자 또는 Adobe 계정 팀은 [전환 지표를 보고서에서 사용할 수 있도록 설정](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. 적용 가능한 모든 웹 페이지에 올바른 전환 추적 태그가 구현되었는지 확인합니다. 필요한 경우 Adobe 계정 팀에 각 적용 가능한 전환 추적 태그에 대한 테스트 트랜잭션을 만들고 트랜잭션 세부 정보(예: )를 캡처하도록 요청합니다. `transactionid` 및 쿠키의 세부 정보(예: `trackingid`, `clickid`등).
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 *가능한 해결 방법 또는 해결 방법:*
 
-1. 보고서 또는 데이터 보기에 올바른 열이 포함되어 있는지 확인합니다. 올바른 열을 추가할 수 없는 경우 사용자 또는 Adobe 계정 팀은 [전환 지표를 보고서에서 사용할 수 있도록 설정](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. 보고서 또는 데이터 보기에 올바른 열이 포함되어 있는지 확인합니다. 올바른 열을 추가할 수 없는 경우 사용자 또는 Adobe 계정 팀은 [전환 지표를 보고서에서 사용할 수 있도록 설정](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. 실행 [!UICONTROL Portfolio Report]. 비어 있는 경우 [!UICONTROL Campaign Report] 및 [!UICONTROL Search Engine Report] 매출이 해당 보고서에 표시되는지 확인합니다. 이 경우 캠페인이 적절한 포트폴리오에 할당되지 않을 수 있습니다.
 

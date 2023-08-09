@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 8cb7e92d674466653b67ed5502883630ad633eb2
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -404,10 +404,12 @@ ht-degree: 2%
       + [재인증 [!DNL Google Analytics] 데이터 소스](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] 데이터 소스 설정](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
       + [부록 - 사용 가능 [!DNL Google Analytics] 지표](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
-   + 광고주의 거래 속성 관리{#transaction-properties}
-      + [광고주의 거래 속성 관리 정보](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
-      + [광고주에 대해 추적된 트랜잭션 속성 보기](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
-      + [관리 보기 및 보고서에서 사용할 수 있는 거래 속성 변경](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
-      + [거래 속성에 대한 표시 이름 변경](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
+   + 광고주의 전환 지표 관리{#conversion-metrics}
+      + [광고주의 전환 지표 관리 정보](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+      + [광고주에 대해 추적된 전환 지표 보기](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
+      + [관리 보기 및 보고서에서 사용할 수 있는 전환 지표 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
+      + [전환 지표에 대한 표시 이름 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
+      + 전환 태그 관리 {#conversion-tags}
+         + [다음에 대한 변환 태그 만들기 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
 + [도움말 보기](get-help.md)
 + [용어집](glossary.md)

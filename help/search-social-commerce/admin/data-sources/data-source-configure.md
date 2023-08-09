@@ -4,7 +4,7 @@ description: 에서 데이터 소스를 구성하는 방법 알아보기 [!DNL G
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
 feature: Search Admin, Search Data Sources
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 
    데이터 소스의 이름은 &quot;AccountName > PropertyName > ViewName&quot;이고 자동으로 활성화됩니다. 데이터 소스를 일시 중지하려면 &quot;[데이터 소스에서 피드 일시 중지](data-source-pause.md).&quot;
 
-   이 지표는 광고주의 시간대에서 05:00부터 시작되는 일별 데이터 동기화가 완료된 다음 날에 사용할 수 있습니다. 지표를 사용할 수 있으면에서 볼 수 있습니다. [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). 각 새 전환 지표의 이름은 &quot;`ga:backEndMetricName_propertyID_viewID`,&quot; 여기서 &quot;backEndMetricName&quot;은 API에서 사용되는 지표 이름입니다. 각 새 전환 지표의 표시 이름은 &quot;입니다.`friendlyMetricName_ga:MetricTag`,&quot; 여기서 &quot;friendlyMetricName&quot;은에 표시되는 지표 이름입니다. [!DNL Google Analytics] 및 &quot;MetricTag&quot;는 [!UICONTROL Metric Tag] 데이터 소스 설정에 정의됩니다.
+   이 지표는 광고주의 시간대에서 05:00부터 시작되는 일별 데이터 동기화가 완료된 다음 날에 사용할 수 있습니다. 지표를 사용할 수 있으면에서 볼 수 있습니다. [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). 각 새 전환 지표의 이름은 &quot;`ga:backEndMetricName_propertyID_viewID`,&quot; 여기서 &quot;backEndMetricName&quot;은 API에서 사용되는 지표 이름입니다. 각 새 전환 지표의 표시 이름은 &quot;입니다.`friendlyMetricName_ga:MetricTag`,&quot; 여기서 &quot;friendlyMetricName&quot;은에 표시되는 지표 이름입니다. [!DNL Google Analytics] 및 &quot;MetricTag&quot;는 [!UICONTROL Metric Tag] 데이터 소스 설정에 정의됩니다.
 
    캠페인 관리 및 포트폴리오 관리 보기, 보고서 및 최적화 목표에 지표를 직접 추가할 수 있습니다.
 
