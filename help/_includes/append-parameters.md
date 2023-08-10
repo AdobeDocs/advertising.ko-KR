@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * (병렬 추적을 사용하는 광고 네트워크) 병렬 추적을 활성화하는 소스의 클릭에 대체되지 않는 매크로를 사용하지 마십시오. 광고주가 매크로를 사용해야 하는 경우 Adobe 계정 팀은 고객 지원 팀 또는 구현 팀과 협력하여 매크로를 추가해야 합니다.
 
-* (Advertising-Adobe Analytics 통합 Adobe이 있는 광고주) `s_kwcid` 검색, 소셜 및 상거래 데이터를 보낼 매개변수 [!DNL Analytics], 다음을 참조하십시오. [광고 네트워크별 형식](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). 에 대한 매개 변수를 수동으로 추가할 필요는 없습니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 서버측 s\_kwcid 구현이 있는 계정입니다.
+* (Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주) 검색, 소셜 및 상거래 데이터를 전송할 AMO ID 매개 변수를 포함하려면 다음을 수행하십시오 [!DNL Analytics], 다음을 참조하십시오. [광고 네트워크별 형식](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). 에 대한 매개 변수를 수동으로 추가할 필요는 없습니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 서버측 AMO ID가 구현된 계정.

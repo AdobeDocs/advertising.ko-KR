@@ -3,9 +3,9 @@ title: 클릭 추적 형식 [!DNL Google Ads]
 description: 의 클릭 추적 형식에 대해 알아봅니다. [!DNL Google Ads] 계정.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ Adobe Advertising 전환 추적을 사용하는 계정에는 광고 네트워크
 
 * 광고주가 Adobe Analytics 통합을 사용하는 경우 접미사에 다음 중 하나가 포함되어야 합니다.
 
-   * [!DNL Google Ads] 최신 버전을 사용하는 계정 `s_kwcid` 성과 최대 캠페인 및 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준 보고를 지원하는 형식:
+   * [!DNL Google Ads] 최신 AMO ID 형식을 사용하는 계정(다음으로 시작) `s_kwcid`성과 최대 캠페인 및 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준 보고를 지원합니다.
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     계정에 서버측 s_kwcid 구현과 계정 또는 캠페인 설정 이 있는 경우[!UICONTROL Auto Upload]&quot;가 활성화되면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 수동으로 추가해야 합니다.
+     계정에 서버측 AMO ID 구현과 계정 또는 캠페인 설정 이 있는 경우[!UICONTROL Auto Upload]&quot;가 활성화되면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 수동으로 추가해야 합니다.
 
    * 기타 모두 [!DNL Google Ads] 계정:
 
@@ -88,9 +88,9 @@ Adobe Advertising 전환 추적을 사용하는 계정에는 광고 네트워크
 >
 >* 하위 수준의 랜딩 페이지 접미사는 계정 수준 접미사를 덮어씁니다. 간편하게 유지 관리할 수 있도록 개별 계정 구성 요소에 대해 다른 추적이 필요하지 않은 경우 계정 수준 접미사만 사용하십시오. 광고 그룹 수준 또는 하위 수준에서 접미사를 구성하려면 광고 네트워크의 편집기를 사용합니다.
 >
->* (동적 검색 광고, Adobe Analytics이 있고 서버측 추적이 없는 광고주) Adobe Advertising에서 Analytics로의 역방향 피드에 대한 추적을 포함하려면 다음을 추가합니다. `s_kwcid` 계정 수준 랜딩 페이지 접미사 끝까지 코드를 추적합니다.
+>* (동적 검색 광고, Adobe Analytics이 있고 서버측 추적이 없는 광고주) Adobe Advertising에서 Analytics로의 역방향 피드에 대한 추적을 포함하려면 AMO ID 추적 코드를 계정 수준 랜딩 페이지 접미사 끝에 추가합니다.
 
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](formats-click-tracking-about.md)
->* [s\_kwcid 추적 코드 형식](skwcid-tracking-parameter.md)
+>* [AMO ID 추적 코드 형식](skwcid-tracking-parameter.md)

@@ -4,7 +4,7 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 8cb7e92d674466653b67ed5502883630ad633eb2
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '1728'
 ht-degree: 2%
@@ -112,7 +112,7 @@ ht-degree: 2%
       + 광고 네트워크 계정 {#ad-network-accounts}
          + [광고 네트워크 계정 기본 정보](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [광고 네트워크 계정 관리](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [에 대한 s\_kwcid 추적 코드 업데이트 [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md)
+         + [에 대한 AMO ID 추적 코드 업데이트 [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [머천트 센터 계정 관리](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [구현 [!DNL Naver] 추적 전용 계정](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + 캠페인 관리 {#management}

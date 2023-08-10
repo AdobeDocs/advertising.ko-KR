@@ -3,7 +3,7 @@ title: 광고 네트워크 계정 기본 정보
 description: 검색, 소셜 및 상거래에서 광고 네트워크 계정에 대해 알아봅니다.
 exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -42,4 +42,4 @@ Search, Social 및 Commerce는 지원되는 광고 네트워크에서 광고주�
 >
 >* [광고 네트워크 계정 관리](ad-network-account-manage.md)
 >* [머천트 센터 계정 관리](merchant-account-manage.md)
->* [에 대한 s\_kwcid 추적 코드 업데이트 [!DNL Google Ads] account](update-skwcid-google.md)
+>* [에 대한 AMO ID 추적 코드 업데이트 [!DNL Google Ads] account](update-amo-id-google.md)

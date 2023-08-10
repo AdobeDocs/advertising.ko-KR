@@ -3,7 +3,7 @@ title: 클릭 추적 형식 [!DNL Baidu]
 description: 의 클릭 추적 형식에 대해 알아봅니다. [!DNL Baidu] 계정.
 exl-id: a57ff0cf-0bcf-4d55-9a86-7551db8a08e7
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -33,4 +33,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](formats-click-tracking-about.md)
->* [s\_kwcid 추적 코드 형식](skwcid-tracking-parameter.md)
+>* [AMO ID 추적 코드 형식](skwcid-tracking-parameter.md)
