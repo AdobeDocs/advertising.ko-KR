@@ -3,7 +3,7 @@ title: 광고 네트워크 계정 관리
 description: 광고 네트워크 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법을 알아봅니다.
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 0%
@@ -242,7 +242,7 @@ Adobe Advertising 클릭 추적을 사용하는 계정에는 광고 네트워크
 
 * **S_kwcid 형식** - (기존 [!DNL Google Ads] Adobe Advertising-Adobe Analytics 통합을 사용하며 AMO ID(s_kwcid)가 이미 마이그레이션되지 않은 광고주를 위한 계정
 
-이 계정은 AMO ID 추적 코드에 대해 이전 형식을 사용하므로 Adobe Advertising이 Adobe Analytics과 계정에 대한 데이터를 공유할 수 있습니다. 다음 [최신 형식](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요한 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수를 포함합니다. [!DNL Google Ads] analytics의 성과 최대 캠페인, 초안 및 실험 캠페인:
+이 계정은 AMO ID 추적 코드에 대해 이전 형식을 사용하므로 Adobe Advertising이 Adobe Analytics과 계정에 대한 데이터를 공유할 수 있습니다. 다음 [최신 형식](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요한 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수를 포함합니다. [!DNL Google Ads] analytics의 성과 최대 캠페인, 초안 및 실험 캠페인:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

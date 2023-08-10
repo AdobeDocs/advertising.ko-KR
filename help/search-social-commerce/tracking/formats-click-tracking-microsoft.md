@@ -3,7 +3,7 @@ title: 클릭 추적 형식 [!DNL Microsoft Advertising]
 description: 의 클릭 추적 형식에 대해 알아봅니다. [!DNL Microsoft Advertising] 계정.
 exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
 feature: Search Tracking
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -107,4 +107,4 @@ Adobe Advertising 전환 추적을 사용하는 계정에는 광고 네트워크
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](formats-click-tracking-about.md)
->* [AMO ID 추적 코드 형식](skwcid-tracking-parameter.md)
+>* [AMO ID 추적 코드 형식](amo-id-tracking-parameter.md)

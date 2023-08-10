@@ -3,7 +3,7 @@ title: 지원되는 인벤토리
 description: 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형을 참조하십시오.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -17,8 +17,8 @@ ht-degree: 0%
 | 소스 | 네트워크 | 캠페인 유형 | 광고 유형 | 동기화 및 보기 | 만들기/편집 | Track[^1] | 최적화 | 보고서[^2] | Adobe Analytics 지원[^3] |
 |----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | 네트워크 검색 | 수동 | 텍스트 | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 및 [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 예 | 수동 CPC 입찰 전략만 있는 캠페인 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
-| [!DNL Google Ads] | 모두 [!DNL Google] 피드 | 검색(Beta 기능) | 검색(단일 이미지 광고)<br><br>검색 캐러셀(다중 이미지 캐러셀 광고) | API를 통해 자동 | — | 예 | 하이브리드 포트폴리오에서만<br><br>입찰 및 입찰 전략 대상은 최적화 유형에 적용할 수 있는 대로 캠페인 예산과 함께 캠페인 수준에서 설정됩니다. | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 광고 수준 데이터 [업그레이드된 AMO ID 추적 코드 사용](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
-| | 모두 | 최대 표준 성능(Beta 기능) | 모든 유형 | API를 통해 자동 | 캠페인 보기의 캠페인 설정 내에서 캠페인 만들기/편집 및 광고 자산 업로드<br><br>필요한 설정만 사용할 수 있습니다. 옵션 설정 및 목록 그룹의 경우 [!DNL]에 로그인합니다. [!DNL Google Ads] 광고 편집기. | 예 | 하이브리드 포트폴리오에서만<br><br>입찰 전략 대상은 캠페인 예산과 함께 캠페인 수준에서 설정됩니다. | 캠페인 수준 데이터<br><br>목록 그룹 데이터를 사용할 수 없으며 광고 네트워크에서 광고 수준 데이터를 제공하지 않습니다. | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>Search, Social 및 Commerce에서 Analytics로의 캠페인 수준 데이터. 업그레이드된 버전이 필요합니다. [AMO ID 추적 코드](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |
+| [!DNL Google Ads] | 모두 [!DNL Google] 피드 | 검색(Beta 기능) | 검색(단일 이미지 광고)<br><br>검색 캐러셀(다중 이미지 캐러셀 광고) | API를 통해 자동 | — | 예 | 하이브리드 포트폴리오에서만<br><br>입찰 및 입찰 전략 대상은 최적화 유형에 적용할 수 있는 대로 캠페인 예산과 함께 캠페인 수준에서 설정됩니다. | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 광고 수준 데이터 [업그레이드된 AMO ID 추적 코드 사용](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)[^4]<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
+| | 모두 | 최대 표준 성능(Beta 기능) | 모든 유형 | API를 통해 자동 | 캠페인 보기의 캠페인 설정 내에서 캠페인 만들기/편집 및 광고 자산 업로드<br><br>필요한 설정만 사용할 수 있습니다. 옵션 설정 및 목록 그룹의 경우 [!DNL]에 로그인합니다. [!DNL Google Ads] 광고 편집기. | 예 | 하이브리드 포트폴리오에서만<br><br>입찰 전략 대상은 캠페인 예산과 함께 캠페인 수준에서 설정됩니다. | 캠페인 수준 데이터<br><br>목록 그룹 데이터를 사용할 수 없으며 광고 네트워크에서 광고 수준 데이터를 제공하지 않습니다. | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>Search, Social 및 Commerce에서 Analytics로의 캠페인 수준 데이터. 업그레이드된 버전이 필요합니다. [AMO ID 추적 코드](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md). |
 | | 네트워크 표시 | 표준 표시 | 이미지 | API를 통해 자동 | 다음을 사용하여 URL 및 상태만 편집 [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 예. 광고 네트워크 내에서 추적 템플릿에 클릭 추적 태그를 수동으로 추가하는 경우 | — | 광고 수준 데이터이지만 뷰스루 데이터는 없음 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터이지만, 뷰스루 데이터는 없음 |
 | | [!DNL Gmail]/네트워크 표시 | [!DNL Gmail] 캠페인(더 이상 사용되지 않음) | [!DNL Gmail] | — | — | — | — | 이전 캠페인 수준 데이터만 | 검색, 소셜 및 상거래에 대한 기존 Analytics 데이터<br>Search, Social, Commerce에서 Analytics로의 이전 캠페인 수준 데이터 |
 | | 네트워크 검색 | 표준 검색 | 호출 전용 | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) | 예. 계정 수준 랜딩 페이지 접미사 및 추적 템플릿을 사용하거나 [!DNL 내의 광고 수준에서 수동으로 추가합니다 [!DNL Google Ads] Ads] 관리자 | — | 광고 네트워크에서의 광고 그룹 수준 노출 횟수 및 클릭 수. 매출은 없음 | — |

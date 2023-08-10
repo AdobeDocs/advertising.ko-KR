@@ -3,7 +3,7 @@ title: 구현 [!DNL Google Ads] 동적 검색 광고
 description: 설정 워크플로에 대해 알아보기 [!DNL Google Ads] 동적 검색 광고.
 exl-id: 4c806824-b582-46dc-8d88-85c73bfb0944
 feature: Search Campaign Management
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    1. (선택 사항) 계정 수준 추적 템플릿을 무시하지만 더 낮은 수준에서 재정의할 수 있는 캠페인 수준 추적 템플릿을 구성합니다.
 
-      (서버측 추적이 없는 Adobe Analytics을 사용하는 광고주) 검색, 소셜 및 상거래의 역방향 피드에 대한 추적을 Analytics에 포함하려면 AMO ID 추적 코드를 계정 수준 추가 매개 변수에 추가하고, 이를 최종 URL에 추가합니다. 를 참조하십시오.[AMO ID 추적 매개 변수](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).&quot;
+      (서버측 추적이 없는 Adobe Analytics을 사용하는 광고주) 검색, 소셜 및 상거래의 역방향 피드에 대한 추적을 Analytics에 포함하려면 AMO ID 추적 코드를 계정 수준 추가 매개 변수에 추가하고, 이를 최종 URL에 추가합니다. 를 참조하십시오.[AMO ID 추적 매개 변수](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md).&quot;
 
 1. [광고 그룹 만들기](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) 다음 단계를 포함하여 캠페인 내에서:
 
