@@ -2,7 +2,7 @@
 title: 다음에 대한 변환 태그 만들기 [!DNL Google Ads]
 description: 을(를) 만드는 방법 알아보기 [!DNL Google Ads] 변환 태그.
 feature: Conversions
-source-git-commit: 8f08151013ec63df14843733a0c83badcceba4c3
+source-git-commit: 395421c69214c3b0370523909047a924af23ea55
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 **[!UICONTROL Conversion Name]:** 전환 지표에 대한 고유한 이름.
 
-**\[목표 범주\]:** 전환 범주. 사용 가능한 카테고리는 전환 유형에 따라 다릅니다. 대상 *[!UICONTROL Calls to a phone number on your website]* 및 *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]기본적으로 &quot;&quot;가 선택됩니다.
+**\[전환 범주\]:** 전환 범주. 사용 가능한 카테고리는 전환 유형에 따라 다릅니다. 대상 *[!UICONTROL Calls to a phone number on your website]* 및 *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]기본적으로 &quot;&quot;가 선택됩니다.
 
 **\[작업 유형\]:** 목표가 *[!UICONTROL Primary action used for bidding optimization]* 또는 *[!UICONTROL Secondary action not used for bidding optimization]*.
 
