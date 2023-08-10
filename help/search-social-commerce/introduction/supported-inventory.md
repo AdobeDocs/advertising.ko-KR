@@ -3,7 +3,7 @@ title: 지원되는 인벤토리
 description: 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형을 참조하십시오.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -57,4 +57,4 @@ ht-degree: 0%
 
 [^3]: Adobe Analytics과의 통합이 필요합니다. 를 참조하십시오.[Adobe Advertising을 위한 Analytics 개요](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).&quot;
 
-[^4]: [!DNL Analytics] 계정에 대해 일반적으로 사용하는 AMO ID 포맷과 관계없이 업그레이드된 AMO ID 추적 매개 변수(s_kwcid)를 사용하여 데이터가 검색, 소셜 및 상거래로 전송됩니다. 일반적으로 이전 버전의 AMO ID를 사용하는 경우 최상의 경험을 위해 새 AMO ID 형식으로 업그레이드하는 것이 좋습니다. 그러나 클릭/비용 데이터와 매출 데이터가 서로 다른 AMO ID를 사용하여 추적되더라도 두 데이터 세트는 모두 동일한 캠페인 및 계정에서 완전히 분류되고 집계됩니다.
+[^4]: [!DNL Analytics] 데이터는 업그레이드된 AMO ID 추적 매개 변수를 사용하여 검색, 소셜 및 상거래로 전송됩니다( `s_kwcid`)를 입력합니다. 일반적으로 계정에 사용하는 AMO ID 포맷과 관계없이 사용할 수 있습니다. 일반적으로 이전 버전의 AMO ID를 사용하는 경우 최상의 경험을 위해 새 AMO ID 형식으로 업그레이드하는 것이 좋습니다. 그러나 클릭/비용 데이터와 매출 데이터가 서로 다른 AMO ID를 사용하여 추적되더라도 두 데이터 세트는 모두 동일한 캠페인 및 계정에서 완전히 분류되고 집계됩니다.

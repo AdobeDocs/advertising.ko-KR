@@ -3,9 +3,9 @@ title: 광고 네트워크 계정 관리
 description: 광고 네트워크 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법을 알아봅니다.
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2086'
 ht-degree: 0%
 
 ---
@@ -240,22 +240,22 @@ Adobe Advertising 클릭 추적을 사용하는 계정에는 광고 네트워크
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S\_kwcid 형식** - (기존 [!DNL Google Ads] Adobe Advertising-Adobe Analytics을 통합하고 AMO ID(s\_kwcid)가 이미 마이그레이션되지 않은 광고주용 계정
+* **S_kwcid 형식** - (기존 [!DNL Google Ads] Adobe Advertising-Adobe Analytics 통합을 사용하며 AMO ID(s_kwcid)가 이미 마이그레이션되지 않은 광고주를 위한 계정
 
 이 계정은 AMO ID 추적 코드에 대해 이전 형식을 사용하므로 Adobe Advertising이 Adobe Analytics과 계정에 대한 데이터를 공유할 수 있습니다. 다음 [최신 형식](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요한 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수를 포함합니다. [!DNL Google Ads] analytics의 성과 최대 캠페인, 초안 및 실험 캠페인:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-이 계정이 캠페인 및 광고 그룹 수준에서 보고해야 하는 경우 [!UICONTROL Edit] (연필) 아이콘 및 **[!UICONTROL Migrate to new s\_kwcid format]** 을 클릭하여 새 형식으로 변경합니다. 이러한 캠페인 유형을 포함하지 않는 계정의 경우, 새로운 포맷으로의 마이그레이션은 선택 사항이지만 권장됩니다.
+이 계정이 캠페인 및 광고 그룹 수준에서 보고해야 하는 경우 [!UICONTROL Edit] (연필) 아이콘 및 **[!UICONTROL Migrate to new s_kwcid format]** 을 클릭하여 새 형식으로 변경합니다. 이러한 캠페인 유형을 포함하지 않는 계정의 경우, 새로운 포맷으로의 마이그레이션은 선택 사항이지만 권장됩니다.
 
 전체 지침은 &quot;[에 대한 AMO ID 추적 코드 업데이트 [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot;
 
 **보고서 세트 이름** - (토큰으로만 EF 리디렉션, Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주, 선택 사항) 엔티티 분류 및 계정에 대한 클릭 데이터를 포함하여 검색, 소셜 및 상거래가 광고 네트워크에서 수집하는 데이터를 전송하는 하나 이상의 Analytics 보고서 세트입니다. 이 기능은 지원되는 광고 네트워크에서만 사용할 수 있습니다.
 
-데이터를 보고서 세트에 표시하려면 (a) 계정용으로 서버측 s\_kwcid를 구성해야 하거나 (b) 광고주 수준 설정을 &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot;을(를) 활성화해야 합니다. 또한 광고주의 Analytics 계정이 검색, 소셜 및 상거래에서 데이터를 수신하도록 구성되어 있어야 합니다. 자세한 내용은 Adobe 계정 관리자에게 문의하십시오.
+데이터가 보고서 세트에 표시되도록 하려면 (a) 계정에 대해 서버측 AMO ID 기능을 구성해야 하거나 (b) 광고주 수준 설정을 &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot;을(를) 활성화해야 합니다. 또한 광고주의 Analytics 계정이 검색, 소셜 및 상거래에서 데이터를 수신하도록 구성되어 있어야 합니다. 자세한 내용은 Adobe 계정 관리자에게 문의하십시오.
 
 >[!MORELIKETHIS]
 >
 >* [광고 네트워크 계정 기본 정보](ad-network-account-about.md)
 >* [머천트 센터 계정 관리](merchant-account-manage.md)
->* [에 대한 s\_kwcid 추적 코드 업데이트 [!DNL Google Ads] account](update-amo-id-google.md)
+>* [에 대한 s_kwcid 추적 코드 업데이트 [!DNL Google Ads] account](update-amo-id-google.md)
