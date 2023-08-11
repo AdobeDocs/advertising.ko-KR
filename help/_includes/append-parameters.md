@@ -1,5 +1,5 @@
 ---
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * (병렬 추적을 사용하는 광고 네트워크) 병렬 추적을 활성화하는 소스의 클릭에 대체되지 않는 매크로를 사용하지 마십시오. 광고주가 매크로를 사용해야 하는 경우 Adobe 계정 팀은 고객 지원 팀 또는 구현 팀과 협력하여 매크로를 추가해야 합니다.
 
-* (Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주) 검색, 소셜 및 상거래 데이터를 전송할 AMO ID 매개 변수를 포함하려면 다음을 수행하십시오 [!DNL Analytics], 다음을 참조하십시오. [광고 네트워크별 형식](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md). 에 대한 매개 변수를 수동으로 추가할 필요는 없습니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 서버측 AMO ID가 구현된 계정.
+* (Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주) 검색, 소셜 및 상거래 데이터를 전송할 AMO ID 매개 변수를 포함하려면 다음을 수행하십시오 [!DNL Analytics], 다음을 참조하십시오. [광고 네트워크별 형식](/help/integrations/analytics/ids.md#amo-id-formats). 에 대한 매개 변수를 수동으로 추가할 필요는 없습니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 서버측 AMO ID가 구현된 계정.
