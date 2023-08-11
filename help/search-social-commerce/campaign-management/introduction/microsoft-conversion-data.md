@@ -39,7 +39,7 @@ Search, Social 및 Commerce는 다음에 대한 변환에 대한 데이터를 �
 
 >[!NOTE]
 >
->* 전환 이름이 동일한 계정이 여러 개 있는 경우 Adobe Advertising에 중복 전환 이름이 표시될 수 있습니다. 이 경우 [표시 이름 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md에서 중복 지표 중 하나에 사용) [!UICONTROL Admin] > [!UICONTROL Conversions]. 두 개의 서로 다른 지표에 동일한 이름이 있을 때는 보고가 정확하지 않습니다.
+>* 전환 이름이 동일한 계정이 여러 개 있는 경우 Adobe Advertising에 중복 전환 이름이 표시될 수 있습니다. 이 경우 [표시 이름 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)에서 중복 지표 중 하나에 사용 [!UICONTROL Admin] > [!UICONTROL Conversions]. 두 개의 서로 다른 지표에 동일한 이름이 있을 때는 보고가 정확하지 않습니다.
 >* 입찰 단위 수준의 데이터는 동일한 수준의 광고 네트워크에 있는 데이터와 일치합니다. 그러나 상위 수준에 대한 광고 네트워크의 자체 전환 데이터에는 하위 입찰 단위에 귀속되지 않는 추가 전환이 포함될 수 있습니다. 검색, 소셜 및 상거래의 데이터는 항상 입찰 단위 수준에서 롤업되므로, 예를 들어 캠페인 수준 보고서의 합계는 광고 네트워크의 캠페인 수준 보고서와 동일하지 않을 수 있습니다.
 >* 데이터 분산은 일반적으로 추가 전환이 아직 동기화되지 않은 날의 후반보다 오전 동기화 후에 더 적습니다. 오전에 데이터의 유효성을 검사하는 것이 좋습니다.
 >* 데이터는 대상 또는 지리적 위치 수준에서 사용할 수 없으므로 RLSA 및 위치 입찰 조정을 자동으로 최적화하는 데 사용되지 않습니다.
