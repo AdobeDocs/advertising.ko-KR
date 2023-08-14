@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 전환 데이터'
 description: 의 유형에 대해 알아보기 [!DNL Google Ads]- 추적 전환 데이터는 검색, 소셜 및 상거래에서 사용할 수 있습니다.
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
 feature: Search Campaign Management, Conversions
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: dc5dc6c5770dd75c77c537c69e53a3b169a71efb
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Search, Social 및 Commerce는 다음에 대한 변환에 대한 데이터를 �
 
 >[!NOTE]
 >
->* 동일한 전환 이름을 가진 계정이 여러 개 있는 경우 Adobe Advertising에 중복 전환 이름이 표시될 수 있습니다. 이 경우 [표시 이름 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)에서 중복 지표 중 하나에 사용 [!UICONTROL Admin] > [!UICONTROL Conversions]. 두 개의 서로 다른 지표에 동일한 이름이 있을 때는 보고가 정확하지 않습니다.
+>* 동일한 전환 이름을 가진 계정이 여러 개 있는 경우 Adobe Advertising에 중복 전환 이름이 표시될 수 있습니다. 이 경우 [표시 이름 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) 의 중복 지표 중 하나에 대해 [!UICONTROL Admin] > [!UICONTROL Conversions]. 두 개의 서로 다른 지표에 동일한 이름이 있을 때는 보고가 정확하지 않습니다.
 >* 입찰 단위 수준의 데이터가 의 데이터와 일치함 [!DNL Google Ads] 같은 수준에서. 그러나 [!DNL Google Ads]&#39; 상위 수준에 대한 자체 전환 데이터에는 하위 입찰 단위에 귀속되지 않는 추가 전환이 포함될 수 있습니다. 검색, 소셜 및 상거래의 데이터는 항상 입찰 단위 수준에서 롤업되므로, 예를 들어 캠페인 수준 보고서의 합계는 Google 광고의 캠페인 수준 보고서와 동일하지 않을 수 있습니다.
 >* 데이터 분산은 일반적으로 추가 전환이 아직 동기화되지 않은 날의 후반보다 오전 동기화 후에 더 적습니다. 오전에 데이터의 유효성을 검사하는 것이 좋습니다.
 >* 다음에 대한 전환 데이터를 사용할 수 없음: [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App], 및 [!DNL YouTube] 광고. 에서 데이터를 비교할 때 그러한 유형의 광고를 필터링합니다. [!DNL Google Ads] 검색, 소셜 및 커머스의 데이터로.
