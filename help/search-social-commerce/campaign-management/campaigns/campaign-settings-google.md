@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Google Ads] 캠페인.
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2025'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
   **참고:**
 
-   * 필요한 설정만 사용할 수 있습니다. 선택적 설정을 보려면 [!DNL Google Ads] 편집자.
+   * 필요한 설정만 사용할 수 있습니다. 선택적 설정을 하려면에 로그인합니다. [!DNL Google Ads] 편집자.
 
    * 링크 대상 [!DNL Google Merchant Center] 제품 피드는 지원되지 않습니다.
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 * 특정 위치를 타겟팅하거나 제외하려면 다음을 수행합니다.
 
-   * (국가, 주, 대도시 또는 도시) 클릭 **[!UICONTROL Location Target]** (![위치 Target](/help/search-social-commerce/assets/location-target.png "위치 Target")) 포함 및 제외할 위치를 찾습니다.
+   * (국가, 주, 대도시 또는 도시) 클릭 **[!UICONTROL Location Target]** (![위치 대상](/help/search-social-commerce/assets/location-target.png "위치 대상")) 포함 및 제외할 위치를 찾습니다.
 
       * 위치와 자식 위치를 포함하려면 파란색 확인 표시가 되도록 옆에 있는 원을 한 번 클릭합니다(![포함](/help/search-social-commerce/assets/include.png "포함"))가 표시됩니다.
 
@@ -144,9 +144,9 @@ ht-degree: 0%
 
       * 위치를 검색하려면 입력 필드에 해당 위치의 처음 세 문자 이상을 입력하거나 붙여넣습니다. 검색 결과에서 **[!UICONTROL Include]** 또는 을 포함할 위치 옆 **[!UICONTROL Exclude]** 를 클릭합니다.
 
-   * (주소 근처 위치, 포함된 대상만 해당) 클릭 **[!UICONTROL Radius Target]** (![반경 Target](/help/search-social-commerce/assets/radius-target.png "반경 Target"))을 클릭한 다음 **[!UICONTROL Address]**. 주소 및 타깃팅할 주소 주변 반경(마일 또는 킬로미터)을 입력한 다음 을 클릭합니다. **[!UICONTROL Add]**.
+   * (주소 근처 위치, 포함된 대상만 해당) 클릭 **[!UICONTROL Radius Target]** (![반경 대상](/help/search-social-commerce/assets/radius-target.png "반경 대상"))을 클릭한 다음 **[!UICONTROL Address]**. 주소 및 타깃팅할 주소 주변 반경(마일 또는 킬로미터)을 입력한 다음 을 클릭합니다. **[!UICONTROL Add]**.
 
-   * (지리적 좌표 근처의 위치, 포함된 대상만 해당) 클릭 **[!UICONTROL Radius Target]** (![반경 Target](/help/search-social-commerce/assets/radius-target.png "반경 Target"))을 클릭한 다음 **[!UICONTROL Coordinate]**. 타깃팅할 위치를 중심으로 마일 또는 킬로미터 단위로 위도와 경도 및 반경을 입력한 다음 을 클릭합니다. **[!UICONTROL Add]**.
+   * (지리적 좌표 근처의 위치, 포함된 대상만 해당) 클릭 **[!UICONTROL Radius Target]** (![반경 대상](/help/search-social-commerce/assets/radius-target.png "반경 대상"))을 클릭한 다음 **[!UICONTROL Coordinate]**. 타깃팅할 위치를 중심으로 마일 또는 킬로미터 단위로 위도와 경도 및 반경을 입력한 다음 을 클릭합니다. **[!UICONTROL Add]**.
 
    * (위치 근처) [!DNL My Business] 위치 확장으로 사용할 수 있는 위치. 포함된 대상만 해당) **[!UICONTROL Location Group Target]** (![위치 그룹](/help/search-social-commerce/assets/location-group.png "위치 그룹")); 국가, 주, 대도시 또는 도시를 입력하여 사용 가능한 위치 목록 아래에 화살표를 놓은 후, 목록에서 위치를 하나 이상 선택합니다(선택 사항). [!DNL Google My Business] 위치. 타깃팅할 위치 주변의 반경(마일 또는 킬로미터)을 지정한 다음 를 클릭합니다. **[!UICONTROL Add]**.
 

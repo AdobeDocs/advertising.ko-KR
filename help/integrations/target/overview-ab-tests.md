@@ -2,9 +2,9 @@
 title: Adobe Target에서 Adobe Advertising 광고에 대한 A/B 테스트 구성
 description: 에서 A/B 테스트를 설정하는 방법 알아보기 [!DNL Target] DSP 광고용.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7b5d8b20e7efa3178f9c43c806f37b85d8ae3f62
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1551'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Adobe Advertising과 Adobe Target을 사용하면 마케터가 유료 미디어�
 
 * DSP 캠페인의 고객 광고 노출을 현장 경험과 연결하여 사이트 폴스루 비율을 낮춥니다.
 
-* Adobe Audience Manager 노출 데이터 및 클릭투피드 Target 대상을 사용하여 광고 메시징으로 온사이트 경험을 미러링하여 A/B 테스트를 설정합니다.
+* Adobe Audience Manager 노출 데이터 및 클릭투피드 Target 대상을 사용하여 광고 메시지로 온사이트 경험을 미러링하여 A/B 테스트를 설정합니다.
 
 * Adobe Analytics 의 간단한 시각화를 통해 통합 메시징이 온사이트 목표 상승도에 미치는 영향을 측정합니다. [!DNL Target].
 
@@ -141,7 +141,7 @@ Audience Manager 태그 및 배치 설정에서 광고 노출 이벤트 픽셀�
 
       1. 다음을 선택합니다. [뷰스루 대상을 테스트하기 위해 Audience Manager에서 이전에 만든 세그먼트](#view-through-framework).
 
-      1. 선택 **사이트 페이지** > **랜딩 페이지** > **쿼리**&#x200B;을 누르고 다음에 DSP 배치 키를 입력합니다. **값** 클릭스루 대상에 대해 Target 쿼리 문자열 매개 변수를 사용할 필드입니다.
+      1. 선택 **사이트 페이지** > **랜딩 페이지** > **쿼리**&#x200B;을 누르고 다음에 DSP 배치 키를 입력합니다. **값** 클릭스루 대상에 대한 Target 쿼리 문자열 매개 변수를 사용할 필드입니다.
 
    1. 의 경우 **트래픽 할당 방법**, 선택 **수동(기본값)** 대상자를 50/50으로 나눕니다.
 
@@ -191,7 +191,7 @@ Analysis Workspace에서 다음을 구성합니다 [!DNL Analytics for Target pa
 
 Analysis Workspace 내에서 활동 및 경험 데이터가 최소화되거나 채워지지 않는 것을 발견하면 다음을 수행하십시오.
 
-* Target 및 Analytics 모두에 동일한 SDID(Supplemental Data ID)가 사용되는지 확인합니다. 다음을 사용하여 SDID 값을 확인할 수 있습니다. [Adobe Experience Cloud 디버거](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) 사용자를 유도하는 캠페인의 랜딩 페이지에서.
+* Target과 Analytics 모두에 동일한 SDID(Supplemental Data ID)가 사용되는지 확인하십시오. 다음을 사용하여 SDID 값을 확인할 수 있습니다. [Adobe Experience Cloud 디버거](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) 사용자를 유도하는 캠페인의 랜딩 페이지에서.
 
 [Adobe Debugger의 SDID(Supplemental Data ID) 값](/help/integrations/assets/target-troubleshooting-sdid.png)
 

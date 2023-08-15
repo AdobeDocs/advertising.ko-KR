@@ -1,12 +1,12 @@
 ---
-title: '캘리포니아 소비자 개인 정보 보호법에 대한 Adobe 광고 지원 : 소비자 판매 중지 지원'
+title: '캘리포니아 소비자 개인 정보 보호법에 대한 Adobe Advertising 지원 : 소비자 판매 중지 지원'
 description: 소비자 판매 옵트아웃 요청 캡처를 위한 지원에 대해 알아봅니다.
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ CCPA를 위한 Adobe 개인 정보 보호 서비스에 대한 자세한 내용�
 >
 >사용자는 CCPA 판매 중지 세그먼트에 무기한 유지됩니다.
 
-1. Advertising DSP에서 광고주의 계정에 로그인합니다. [https://advertising.adobe.com/](https://advertising.adobe.com/).
+1. Advertising DSP의 광고주 계정에 로그인합니다. [https://advertising.adobe.com/](https://advertising.adobe.com/).
 1. [CCPA 판매 중지 세그먼트를 만들고 세그먼트 픽셀을 구현하여 옵트아웃 요청을 캡처합니다.](/help/dsp/audiences/ccpa-opt-out-segment-create.md).
 
 ### 방법 2: Adobe Experience Platform Privacy Service API를 사용하여 CCPA 판매 중지 요청 전달
@@ -75,17 +75,17 @@ CCPA를 위한 Adobe 개인 정보 보호 서비스에 대한 자세한 내용�
    >
    비즈니스에 여러 Experience Cloud 조직 ID가 있는 경우 각각에 대해 별도의 API 요청을 전송해야 합니다. 그러나 여러 Adobe Advertising 하위 솔루션에 대해 하나의 API 요청을 수행할 수 있습니다([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 및 [!DNL DCO])을 사용하여 하위 솔루션당 하나의 계정을 만들 수 있습니다.
 
-이러한 모든 단계는 Adobe 광고에서 지원을 받는 데 필요합니다. 이러한 작업 및 Adobe Experience Platform Privacy Service을 사용하여 수행해야 하는 기타 관련 작업과 필요한 항목을 찾을 위치에 대한 자세한 내용은 다음을 참조하십시오. [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+이러한 모든 단계는 Adobe Advertising의 지원을 받는 데 필요합니다. 이러한 작업 및 Adobe Experience Platform Privacy Service을 사용하여 수행해야 하는 기타 관련 작업과 필요한 항목을 찾을 위치에 대한 자세한 내용은 다음을 참조하십시오. [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## 판매 중지 요청을 제출한 소비자의 보고서 검색
 
-Adobe 광고는 고객이 계정에 대한 판매 중지 요청을 위해 제출한 ID에 대한 월별 보고서를 생성합니다. 각 보고서는 GZIP 형식으로 압축된 탭으로 구분된 텍스트 파일로 사용할 수 있습니다. 이 데이터는 Advertising DSP에서 생성된 CCPA 판매 중지 세그먼트를 사용하여 캡처된 요청과 Privacy Service API를 통해 제출된 모든 요청을 통합합니다. CCPA 판매 중지 세그먼트에 캡처된 사용자 ID는 세그먼트 및 광고주별로 식별됩니다. 보고서는 이전 달의 매월 1일에 생성됩니다. 예를 들어 6월의 월별 사용자 목록은 7월 1일에 제공됩니다.
+Adobe Advertising은 고객이 계정에 대한 판매 중지 요청을 제출한 ID에 대한 월별 보고서를 생성합니다. 각 보고서는 GZIP 형식으로 압축된 탭으로 구분된 텍스트 파일로 사용할 수 있습니다. 이 데이터는 Advertising DSP에서 만들어진 CCPA 판매 중지 세그먼트를 사용하여 캡처된 요청과 Privacy Service API를 통해 제출된 모든 요청을 통합합니다. CCPA 판매 중지 세그먼트에 캡처된 사용자 ID는 세그먼트 및 광고주별로 식별됩니다. 보고서는 이전 달의 매월 1일에 생성됩니다. 예를 들어 6월의 월별 사용자 목록은 7월 1일에 제공됩니다.
 
 Advertising DSP 내에서 또는 Advertising DSP을 사용하여 이전 3개월에 만든 월별 보고서에 대한 링크를 검색할 수 있습니다 [!DNL Trafficking API]. 각 링크는 7일 동안 유효하지만 고객이 하나를 검색하려고 할 때마다 새로 고침됩니다.
 
 ### 방법 1: Advertising DSP 내에서 소비자 판매 중지 보고서 검색
 
-1. Advertising DSP에서 광고주의 계정에 로그인합니다. [https://advertising.adobe.com/](https://advertising.adobe.com/).
+1. Advertising DSP의 광고주 계정에 로그인합니다. [https://advertising.adobe.com/](https://advertising.adobe.com/).
 1. [보고서 검색](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md).
 
 ### 방법 2: Advertising DSP을 사용하여 소비자 판매 중지 보고서 검색 [!DNL Trafficking API]
@@ -94,7 +94,7 @@ Advertising DSP 내에서 또는 Advertising DSP을 사용하여 이전 3개월�
 
 조직에서 를 사용하지 않는 경우 [!DNL Trafficking API] 그러나 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
-## 부록: 예제 [!UICONTROL CCPA Opt-Out-of-Sale] Privacy Service API 사용자 요청
+## 부록: 예제 [!UICONTROL CCPA Opt-Out-of-Sale] API 사용자 Privacy Service 요청
 
 ```
 curl -X POST \
