@@ -3,9 +3,9 @@ title: 사용한 Adobe Advertising ID [!DNL Analytics]
 description: 사용한 Adobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 38f94db19b94f4cb7a6965ccf5da6d83a31154af
+source-git-commit: 7433c2b0e0f61c2c72b27fb026202a76875c6b7e
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -122,13 +122,11 @@ AMO ID는 `s_kwcid`: 때로 &quot;&quot;로 발음됨[!DNL the squid].&quot;
 
 * 서버측 삽입 기능은 구현되지 않습니다.
 
-   * DSP 고객:
+   * DSP 고객: [JavaScript 코드](javascript.md) 자동으로 클릭스루 및 뷰스루를 기록합니다. 브라우저가 타사 쿠키를 지원하지 않는 경우에도 다음 광고 유형에 대한 클릭 기반 전환을 추적할 수 있습니다.
 
       * 대상 [!DNL Flashtalking] 광고 태그, 수동으로에 추가 매크로 삽입[추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md).&quot;
 
       * 대상 [!DNL Google Campaign Manager 360] 광고 태그, 수동으로에 추가 매크로 삽입[추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
-
-  <!--  * For all other ads, XXXX. -->
 
    * 검색, 소셜 및 상거래 고객:
 
