@@ -3,9 +3,9 @@ title: 사용한 Adobe Advertising ID [!DNL Analytics]
 description: 사용한 Adobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 426f6e25f0189221986cc42d186bfa60f5268ef1
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,20 @@ ht-degree: 0%
 
 Adobe Advertising은 두 개의 ID를 사용하여 온사이트 성능 추적을 수행합니다. *EF ID* 및 *AMO ID*.
 
-광고 노출 시 Adobe Advertising은 AMO ID 및 EF ID 값을 생성하여 저장합니다. 광고를 본 방문자가 광고를 클릭하지 않고 사이트로 이동하면 [!DNL Analytics] Adobe Advertising에서 [!DNL Analytics for Advertising] JavaScript 코드. 뷰스루 트래픽의 경우 [!DNL Analytics] 보조 ID 생성(`SDID`): EF ID 및 AMO ID를 [!DNL Analytics]. 클릭스루 트래픽의 경우 이러한 ID는 를 사용하여 랜딩 페이지 URL에 포함됩니다. `s_kwcid` 및 `ef_id` 쿼리 문자열 매개 변수.
+광고 노출 시 Adobe Advertising은 AMO ID 및 EF ID 값을 생성하여 저장합니다. 광고를 본 방문자가 광고를 클릭하지 않고 사이트로 이동하면 [!DNL Analytics] Adobe Advertising에서 [!DNL Analytics for Advertising] JavaScript 코드. 뷰스루 트래픽의 경우 [!DNL Analytics] 보조 ID 생성(`SDID`): EF ID 및 AMO ID를 [!DNL Analytics]. 클릭스루 트래픽의 경우 이러한 ID는 를 사용하여 랜딩 페이지 URL에 포함됩니다. `ef_id` 및 `s_kwcid` (AMO ID의 경우) 쿼리 문자열 매개 변수입니다.
 
 Adobe Advertising은 다음 기준을 사용하여 웹 사이트에 대한 클릭스루 또는 뷰스루 항목을 구별합니다.
 
 * 뷰스루 항목은 사용자가 광고를 보고 사이트를 방문하지만 클릭하지 않을 때 캡처됩니다. [!DNL Analytics] 다음 두 가지 조건이 충족되는 경우 뷰스루를 기록합니다.
+
    * 방문자에게 클릭스루가 없습니다. [!DNL DSP] 또는 [!DNL Search, Social, & Commerce] 다음 기간 동안 광고 [전환 확인 기간 클릭](#lookback-a4adc).
+
    * 방문자가 최소 한 명 이상 본 경우 [!DNL DSP] 다음 기간 동안 광고 [노출 전환 확인 기간](#lookback-a4adc). 마지막 노출은 뷰스루로 전달됩니다.
+
 * 클릭스루 항목은 사이트 방문자가 사이트에 들어가기 전에 광고를 클릭할 때 캡처됩니다. [!DNL Analytics] 다음 조건 중 하나가 발생하면 클릭스루를 캡처합니다.
+
    * URL에는 Adobe Advertising으로 랜딩 페이지 URL에 추가된 EF ID 및 AMO ID가 포함되어 있습니다.
+
    * URL에 추적 코드가 포함되어 있지 않지만 Adobe Advertising JavaScript 코드가 지난 2분 내에 클릭을 감지합니다.
 
 ![Adobe Advertising 보기 기반 [!DNL Analytics] 통합](/help/integrations/assets/a4adc-view-through-process.png)
@@ -100,6 +105,38 @@ EF ID에는 Analysis Workspace의 500k 고유 식별자 제한이 적용됩니�
 AMO ID는 덜 세분화된 수준에서 각 고유 광고 조합을 추적하여 다음 작업에 사용됩니다. [!DNL Analytics] Adobe Advertising에서 데이터 분류 및 광고 지표(노출 횟수, 클릭 수 및 비용 등) 수집 AMO ID는에 저장됩니다. [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 rVar 차원(AMO ID)이며,에서 보고에만 사용됩니다. [!DNL Analytics].
 
 AMO ID는 `s_kwcid`: 때로 &quot;&quot;로 발음됨[!DNL the squid].&quot;
+
+### AMO ID 구현 방법
+
+매개 변수는 다음 방법 중 하나로 추적 URL에 추가됩니다.
+
+* (권장) 서버측 삽입 기능이 구현됩니다.
+
+   * DSP 고객: 픽셀 서버는 최종 사용자가 Adobe Advertising 픽셀로 디스플레이 광고를 볼 때 s_kwcid 매개 변수를 랜딩 페이지 접미사에 자동으로 추가합니다.
+
+   * 검색, 소셜 및 상거래 고객:
+
+      * 대상 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 이(가) 있는 계정 [!UICONTROL Auto Upload] 계정 또는 캠페인에 대해 이 설정을 활성화하면, 픽셀 서버는 최종 사용자가 Adobe Advertising 픽셀이 있는 광고를 클릭할 때 s_kwcid 매개 변수를 랜딩 페이지 접미사에 자동으로 추가합니다.
+
+      * 기타 광고 네트워크의 경우 또는 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 이(가) 있는 계정 [!UICONTROL Auto Upload] 비활성화로 설정하면 매개 변수를 계정 수준 추가 매개 변수에 수동으로 추가하고 기본 URL에 추가합니다.
+
+* 서버측 삽입 기능은 구현되지 않습니다.
+
+   * DSP 고객:
+
+      * 대상 [!DNL Flashtalking] 광고 태그, 수동으로에 추가 매크로 삽입[추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md).&quot;
+
+      * 대상 [!DNL Google Campaign Manager 360] 광고 태그, 수동으로에 추가 매크로 삽입[추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+
+  <!--  * For all other ads, XXXX. -->
+
+   * 검색, 소셜 및 상거래 고객:
+
+      * 대상 ([!DNL Google Ads] 및 [!DNL Microsoft® Advertising]) 광고, 수동으로 AMO ID 매개 변수를 랜딩 페이지 접미사에 추가합니다.
+
+      * 다른 모든 광고 네트워크의 광고의 경우, AMO ID 매개 변수를 계정 수준 추가 매개 변수에 수동으로 추가하여 기본 URL에 추가합니다.
+
+서버측 삽입 기능을 구현하거나 비즈니스에 가장 적합한 옵션을 결정하려면 Adobe 계정 팀에 문의하십시오.
 
 ### AMO ID 형식 {#amo-id-formats}
 
