@@ -3,9 +3,9 @@ title: 사용한 Adobe Advertising ID [!DNL Analytics]
 description: 사용한 Adobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 426f6e25f0189221986cc42d186bfa60f5268ef1
+source-git-commit: 21acf015a511c578a95e938e32fb170287f91555
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ AMO ID는 `s_kwcid`: 때로 &quot;&quot;로 발음됨[!DNL the squid].&quot;
 
       * 대상 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 이(가) 있는 계정 [!UICONTROL Auto Upload] 계정 또는 캠페인에 대해 이 설정을 활성화하면, 픽셀 서버는 최종 사용자가 Adobe Advertising 픽셀이 있는 광고를 클릭할 때 s_kwcid 매개 변수를 랜딩 페이지 접미사에 자동으로 추가합니다.
 
-      * 기타 광고 네트워크의 경우 또는 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 이(가) 있는 계정 [!UICONTROL Auto Upload] 비활성화로 설정하면 매개 변수를 계정 수준 추가 매개 변수에 수동으로 추가하고 기본 URL에 추가합니다.
+      * 기타 광고 네트워크의 경우 또는 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 이(가) 있는 계정 [!UICONTROL Auto Upload] 비활성화, 수동 설정 [계정 수준 추가 매개 변수에 매개 변수 추가](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)를 추가합니다.
 
 * 서버측 삽입 기능은 구현되지 않습니다.
 
@@ -132,9 +132,9 @@ AMO ID는 `s_kwcid`: 때로 &quot;&quot;로 발음됨[!DNL the squid].&quot;
 
    * 검색, 소셜 및 상거래 고객:
 
-      * 대상 ([!DNL Google Ads] 및 [!DNL Microsoft® Advertising]) 광고, 수동으로 AMO ID 매개 변수를 랜딩 페이지 접미사에 추가합니다.
+      * 대상 ([!DNL Google Ads] 및 [!DNL Microsoft® Advertising]) 광고, AMO ID 매개 변수를 랜딩 페이지 접미사에 수동으로 추가합니다(이상적으로 [계정 수준](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) 개별 계정 구성 요소에 대해 다른 추적이 필요하지 않은 경우.
 
-      * 다른 모든 광고 네트워크의 광고의 경우, AMO ID 매개 변수를 계정 수준 추가 매개 변수에 수동으로 추가하여 기본 URL에 추가합니다.
+      * 다른 모든 광고 네트워크의 광고는 수동으로 [계정 수준 추가 매개 변수에 AMO ID 매개 변수 추가](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)를 추가합니다.
 
 서버측 삽입 기능을 구현하거나 비즈니스에 가장 적합한 옵션을 결정하려면 Adobe 계정 팀에 문의하십시오.
 
