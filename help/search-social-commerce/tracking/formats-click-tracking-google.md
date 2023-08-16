@@ -3,9 +3,9 @@ title: 클릭 추적 형식 [!DNL Google Ads]
 description: 의 클릭 추적 형식에 대해 알아봅니다. [!DNL Google Ads] 계정.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 0c2603303dd9401b2d6fad2893f5a84cb457ed3a
+source-git-commit: ceb2fc07eb5116b3a2bb01cf72fd779f78bba1f0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Adobe Advertising 전환 추적을 사용하는 계정에는 광고 네트워크
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     계정에 서버측 AMO ID 구현과 계정 또는 캠페인 설정 이 있는 경우[!UICONTROL Auto Upload]&quot;가 활성화되면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 수동으로 추가해야 합니다. 에서 &quot;AMO ID 구현 방법&quot;을 참조하십시오.[사용한 Adobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
+     계정에 서버측 AMO ID 구현과 계정 또는 캠페인 설정 이 있는 경우[!UICONTROL Auto Upload]&quot;가 활성화되면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 수동으로 추가해야 합니다. 를 참조하십시오.[사용한 Adobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
    * 기타 모두 [!DNL Google Ads] 계정:
 
