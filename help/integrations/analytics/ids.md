@@ -3,7 +3,7 @@ title: 사용한 Adobe Advertising ID [!DNL Analytics]
 description: 사용한 Adobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: d5c894f4eaae5aaec72ca6f525ed625d08c9420d
+source-git-commit: 38f94db19b94f4cb7a6965ccf5da6d83a31154af
 workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 0%
@@ -106,7 +106,7 @@ AMO ID는 덜 세분화된 수준에서 각 고유 광고 조합을 추적하여
 
 AMO ID는 `s_kwcid`: 때로 &quot;&quot;로 발음됨[!DNL the squid].&quot;
 
-### AMO ID 구현 방법
+### AMO ID 구현 방법 {#amo-id-implement}
 
 매개 변수는 다음 방법 중 하나로 추적 URL에 추가됩니다.
 

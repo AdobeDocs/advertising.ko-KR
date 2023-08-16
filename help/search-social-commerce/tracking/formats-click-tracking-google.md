@@ -3,9 +3,9 @@ title: 클릭 추적 형식 [!DNL Google Ads]
 description: 의 클릭 추적 형식에 대해 알아봅니다. [!DNL Google Ads] 계정.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 0c2603303dd9401b2d6fad2893f5a84cb457ed3a
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ Adobe Advertising 전환 추적을 사용하는 계정에는 광고 네트워크
 
 * 광고주가 Adobe Analytics 통합을 사용하는 경우 접미사에 다음 중 하나가 포함되어야 합니다.
 
-   * [!DNL Google Ads] 최신 AMO ID 형식을 사용하는 계정(다음으로 시작) `s_kwcid`성과 최대 캠페인 및 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준 보고를 지원합니다.
+   * [!DNL Google Ads] 최신 버전을 사용하는 계정 [AMO ID 형식](/help/integrations/analytics/ids.md#amo-id-formats) (시작 문자 `s_kwcid`성과 최대 캠페인 및 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준 보고를 지원합니다.
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     계정에 서버측 AMO ID 구현과 계정 또는 캠페인 설정 이 있는 경우[!UICONTROL Auto Upload]&quot;가 활성화되면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 수동으로 추가해야 합니다.
+     계정에 서버측 AMO ID 구현과 계정 또는 캠페인 설정 이 있는 경우[!UICONTROL Auto Upload]&quot;가 활성화되면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 수동으로 추가해야 합니다. 에서 &quot;AMO ID 구현 방법&quot;을 참조하십시오.[사용한 Adobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
    * 기타 모두 [!DNL Google Ads] 계정:
 

@@ -3,7 +3,7 @@ title: 용어집
 description: 주요 용어의 정의를 참조하십시오.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **광고 변형:** 광고 그룹 또는 광고 전략 내의 모든 광고.
 
-**AMO ID:** Adobe Advertising이 Adobe Analytics과 캠페인에 대한 데이터를 공유할 수 있도록 해 주는 추적 코드입니다. 다음으로 시작: `s_kwcid=`.
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Adobe Advertising이 Adobe Analytics과 캠페인에 대한 데이터를 공유할 수 있도록 해 주는 추적 코드입니다. 다음으로 시작: `s_kwcid=`.
 
 **입찰 단위:** 입찰이 위치한 단위에 대한 검색, 소셜 및 상거래 용어입니다. 대부분의 네트워크에 있는 대부분의 캠페인의 경우, 검색 또는 콘텐츠 캠페인에 대한 키워드 및 일치 유형, 쇼핑 캠페인에 대한 단위 수준 제품 그룹(가장 낮은 수준의 하위 분류) 또는 동적 검색 광고 캠페인에 대한 동적 검색 타겟입니다. 동일한 키워드 및 일치 유형 조합, 동일한 제품 그룹 또는 동일한 동적 검색 타겟이 단일 캠페인의 여러 광고 그룹 내에서 발생하는 경우 모든 인스턴스가 동일한 입찰 단위로 간주되므로 동일한 입찰가를 갖습니다.
 
