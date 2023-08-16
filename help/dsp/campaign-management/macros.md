@@ -3,9 +3,9 @@ title: Advertising DSP 매크로
 description: 일반 추적에 사용 가능한 매크로를 참조하고 서드파티 디스플레이 광고의 클릭을 추적합니다.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bb404dd1ff2fda5e37435ac892e2a0f6beba0b33
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,10 @@ DSP은 다음과 같은 경우 서드파티 디스플레이 태그에 디스플�
 
 디스플레이 광고를 작성할 때 클릭 매크로가 없으면 DSP에 경고 메시지가 표시되어 태그의 올바른 영역에 적절한 디스플레이 클릭 매크로를 수동으로 삽입하라는 메시지가 표시됩니다.
 
+## [!DNL Analytics for Advertising] 매크로
+
+다음에 대해 특별히 사용할 수 있는 추가 매크로 [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 고객, 참조 &quot;[추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)&quot; 및 &quot;[추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+
 ## 매크로 오류 문제 해결
 
 코드에 매크로를 추가할 때는 매크로의 정확한 구문을 사용해야 합니다. 매크로의 유효성을 검사할 때 DSP에서는 매크로가 유효한 매크로 중 하나와 정확히 일치하는지 확인합니다.
@@ -103,4 +107,3 @@ DSP은 다음과 같은 경우 서드파티 디스플레이 태그에 디스플�
 >* [기본 광고 설정](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [프리롤 광고 설정](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 >* [범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
-
