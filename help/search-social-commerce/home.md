@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: cbbbd4260fc7545fb778b14d0b82cd4911e9a5a5
+source-git-commit: 846c85525059d1cbd2e61b6a494fb62f88db0096
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023년 8월 15일 | 전환 지표 | [!UICONTROL Admin] > [!DNL Transaction Properties] 이제 가 포함됩니다.[!UICONTROL Source]각 지표의 소스를 나타내는 &quot;열, 예 [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads], 또는 [!UICONTROL Custom Feed]. | 를 참조하십시오.[광고주에 대해 추적된 전환 지표 보기](conversion-metric-view-tracked.md).&quot; |
 | 2023년 8월 9일 | 전환 지표 | [!UICONTROL Admin] > [!DNL Transaction Properties] 이름이 변경됨 [!UICONTROL Conversions]. | 를 참조하십시오.[광고주의 전환 지표 관리 정보](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).&quot; |
 |  | [!DNL Google] 전환 추적 태그 | 만들 업데이트된 화면 [!DNL Google] 전환 추적 태그는에서 사용할 수 있습니다. [!UICONTROL Admin] > [!UICONTROL Conversions]. 의 레거시 화면 [!UICONTROL Tools] > [!UICONTROL Google Ads Conversion Tags] 은(는) 나중에 제거됩니다. | 를 참조하십시오.[다음에 대한 변환 태그 만들기 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).&quot; |
 |  | [!DNL Google] 전환 추적 태그 | 다음을 만들 때 [!DNL Google] 전환 추적 태그에서 이제 추적할 전환 카테고리를 지정할 수 있습니다. | 를 참조하십시오.[다음에 대한 변환 태그 만들기 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).&quot; |

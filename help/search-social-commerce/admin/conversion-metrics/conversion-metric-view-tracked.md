@@ -3,16 +3,16 @@ title: 광고주에 대해 추적된 전환 지표 보기
 description: 광고주에 대해 추적된 전환 지표 목록을 보는 방법에 대해 알아봅니다.
 feature: Conversions
 exl-id: 56f5b480-9e75-47a0-8f88-8fa8fcfe23f9
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: f69075bfd49964d005271e882d27b4410b180915
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # 광고주에 대해 추적된 전환 지표 보기
 
-모든 항목의 목록을 볼 수 있습니다. [전환](/help/search-social-commerce/glossary.md#c-d) 광고주에 대해 Adobe Advertising이 추적한 지표입니다.
+모든 항목의 목록을 볼 수 있습니다. [전환](/help/search-social-commerce/glossary.md#c-d) 광고주에 대해 Adobe Advertising이 추적한 지표입니다. 각 지표 행에는 지표의 소스가 포함됩니다.
 
 * 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
