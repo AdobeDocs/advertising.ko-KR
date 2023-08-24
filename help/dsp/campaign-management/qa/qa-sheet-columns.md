@@ -1,24 +1,24 @@
 ---
 title: 다운로드/업로드된 스프레드시트의 열
-description: 다운로드하고 업로드한 Excel QA 스프레드시트의 열을 참조합니다.
+description: 다운로드하고 업로드한 스프레드시트의 배치 설정 열을 참조합니다.
 feature: DSP Placements
 exl-id: 698c0d86-cb2e-4d76-89c7-5584b6cdb542
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ad0b5826e6639675f374837a04f9877fd05dd0c7
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
 
-# 다운로드/업로드된 스프레드시트의 열
-
-<!-- rename -- not specific enough - I think you can download Excel files of other things too -->
+# 다운로드/업로드한 스프레드시트의 배치 설정 열
 
 <!-- see notes within the table about descriptions that need to be edited -->
 
 >[!TIP]
 >
 > 다운로드한 스프레드시트에서 편집 가능한 모든 열이 파란색으로 강조 표시됩니다.
+
+## 캠페인 수준 스프레드시트
 
 | 섹션 | 열 | 설명 | 편집 가능합니까? |
 |---------|--------|-------------|-----------|
@@ -46,7 +46,7 @@ ht-degree: 0%
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | 기본 빈도 제한 간격: *[!UICONTROL Day]*, *[!UICONTROL Week]*, 또는 *[!UICONTROL Month]*. | 예 |
 | [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap] | 지정한 기간 동안 배치에 대한 보조 주파수 캡 [!UICONTROL Secondary Frequency Cap Interval] | 예 |
 | [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval] | 보조 주파수 상한 간격 유형: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]*, 또는 *[!UICONTROL Minute]*. 적용 가능한 주, 일, 시간 또는 분 수는 [!UICONTROL Secondary Frequency Cap Interval Value]. | 예 |
-| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval Value] | 다음 항목에 대한 주, 일, 시간 또는 분 수 [!UICONTROL Secondary Frequency Cap] 적용됩니다. 예를 들어, 보조 캡이 6시간당 세 개의 노출 횟수인 경우 여기서 값은 다음과 같습니다. <b>6&lt;/>. | 예 |
+| [!UICONTROL Goals] | [!UICONTROL Secondary Frequency Cap Interval Value] | 다음 항목에 대한 주, 일, 시간 또는 분 수 [!UICONTROL Secondary Frequency Cap] 적용됩니다. 예를 들어, 보조 캡이 6시간당 세 개의 노출 횟수인 경우 여기서 값은 다음과 같습니다. `6`. | 예 |
 | [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Included #] | 타깃팅된 지리적 위치 수, *[!UICONTROL All]*, 또는 *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Included] | 세미콜론으로 구분된 타겟팅된 지리적 위치 또는 *[!UICONTROL All Locations]*. | — |
 | [!UICONTROL Audience Location] | [!UICONTROL Audience Location - Excluded #] | 제외된 지리적 위치 수 또는 *[!UICONTROL None]*. | — |
@@ -84,14 +84,32 @@ ht-degree: 0%
 | [!UICONTROL Tracking] | [!UICONTROL Conversion Pixels #] | 배치에 첨부된 전환 추적 픽셀 수 또는 *[!UICONTROL None]*. | — |
 | [!UICONTROL Tracking] | [!UICONTROL 3rd-party fees] | 1000회 노출당 청구 불가능한 비용으로 추적할 정적 타사 수수료 비율(해당하는 경우). | — |
 | [!UICONTROL Ads] | [!UICONTROL # of Ads Attached] | 배치에 첨부된 광고 수(있는 경우) 또는 *[!UICONTROL None]*. | — |
-| [!UICONTROL Ads] | [!UICONTROL Ad Names] | 배치에 첨부된 광고의 이름(첨부된 경우) 또는 *[!UICONTROL None]*. | — |
+| [!UICONTROL Ads] | [!UICONTROL Ad Names] | 배치에 첨부된 광고의 이름 또는 *[!UICONTROL None]*. | — |
+| [!UICONTROL Ads] | [!UICONTROL Attached Ad ID] | 배치에 첨부된 고유 DSP 생성 광고 ID로, 세미콜론으로 구분됩니다. 에서 광고 이름 및 관련 광고 ID 목록을 다운로드하려면 [!UICONTROL Ads] 보기, 다음을 포함하는 사용자 지정 보기 만들기 [!UICONTROL Ad ID] 지표 및 [데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md). | 예 |
 
-{style="table-layout:auto"}
+## 배치 수준 스프레드시트
+
+| 열 | 설명 | 편집 가능합니까? |
+|--------|-------------|-----------|
+| [!UICONTROL Placement ID] | 배치의 숫자 ID입니다. | — |
+| [!UICONTROL Placement Name] | 배치의 이름입니다. | 예 |
+| [!UICONTROL Package Name] | 해당되는 경우 상위 패키지의 이름입니다. | — |
+| [!UICONTROL Start Date] | 배치의 시작 날짜입니다. | — |
+| [!UICONTROL End Date] | 배치의 종료 날짜입니다. | — |
+| [!UICONTROL Status] | 배치 상태: *[!UICONTROL active]* 또는 *[!UICONTROL inactive]*. | — |
+| [!UICONTROL Max Bid] | 배치에 대한 최대 입찰가. | 예 |
+| [!UICONTROL Budget] | 배치 예산(있는 경우). | 예 |
+| [!UICONTROL Budget Interval] | 예산 간격: &lt;i span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, 또는 *[!UICONTROL All Time]*.[!UICONTROL >Daily] | 예 |
+| [!UICONTROL Primary Frequency Cap] | 지정된 기간 동안 배치에 대한 주 빈도 상한 [!UICONTROL Primary Frequency Cap Interval]. | 예 |
+| [!UICONTROL Primary Frequency Cap Interval] | 기본 빈도 제한 간격: *[!UICONTROL Day]*, *[!UICONTROL Week]*, 또는 *[!UICONTROL Month]*. | 예 |
+| [!UICONTROL Secondary Frequency Cap] | 지정한 기간 동안 배치에 대한 보조 주파수 캡 [!UICONTROL Secondary Frequency Cap Interval] | 예 |
+| [!UICONTROL Secondary Frequency Cap Interval] | 보조 주파수 상한 간격 유형: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]*, 또는 *[!UICONTROL Minute]*. 적용 가능한 주, 일, 시간 또는 분 수는 [!UICONTROL Secondary Frequency Cap Interval Value]. | 예 |
+| [!UICONTROL Secondary Frequency Cap Interval Value] | 다음 항목에 대한 주, 일, 시간 또는 분 수 [!UICONTROL Secondary Frequency Cap] 적용됩니다. 예를 들어, 보조 캡이 6시간당 세 개의 노출 횟수인 경우 여기서 값은 다음과 같습니다. `6`. | 예 |
+| [!UICONTROL Attached Ad ID] | 배치에 첨부된 고유 DSP 생성 광고 ID로, 세미콜론으로 구분됩니다. 에서 광고 이름 및 관련 광고 ID 목록을 다운로드하려면 [!UICONTROL Ads] 보기, 다음을 포함하는 사용자 지정 보기 만들기 [!UICONTROL Ad ID] 지표 및 [데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md). | 예 |
 
 >[!MORELIKETHIS]
 >
->* [스프레드시트를 사용하여 캠페인에 대한 배치 설정 수정 정보](qa-about.md)
->* [Campaign에 대한 배치 설정 다운로드](qa-sheet-download.md)
->* [캠페인에 대한 배치 설정 업로드](qa-sheet-upload.md)
+>* [스프레드시트를 사용하여 배치 설정 수정 정보](qa-about.md)
+>* [스프레드시트에서 배치 설정 다운로드](qa-sheet-download.md)
+>* [스프레드시트에서 배치 설정 업로드](qa-sheet-upload.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
-

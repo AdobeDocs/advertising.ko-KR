@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: b505a40d04fc57fce245d111f58a614bd6756c65
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 6%
@@ -107,8 +107,8 @@ ht-degree: 6%
       + [데이터 시각화 관리](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
    + 스프레드시트를 사용하여 배치 설정 수정 {#qa-spreadsheet}
       + [스프레드시트를 사용하여 배치 설정 수정 정보](/help/dsp/campaign-management/qa/qa-about.md)
-      + [Campaign에 대한 배치 설정 다운로드](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [캠페인에 대한 배치 설정 업로드](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
+      + [스프레드시트에서 배치 설정 다운로드](/help/dsp/campaign-management/qa/qa-sheet-download.md)
+      + [스프레드시트에서 배치 설정 업로드](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [다운로드/업로드된 스프레드시트의 열](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSP 매크로](/help/dsp/campaign-management/macros.md)
    + [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)

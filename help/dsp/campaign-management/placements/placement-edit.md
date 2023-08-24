@@ -3,9 +3,9 @@ title: 배치 편집
 description: 배치를 편집하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -71,8 +71,8 @@ ht-degree: 0%
       * **일시 중지** (광고를 일시 중지하려면)
 
       * **제거** (지정된 값 제거)
-   1. 편집 [배치 설정](placement-settings.md).
 
+   1. 편집 [배치 설정](placement-settings.md).
 
 1. 클릭 **[!UICONTROL Submit]**.
 
@@ -87,6 +87,5 @@ ht-degree: 0%
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [배치 설정](placement-settings.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [스프레드시트를 사용하여 캠페인에 대한 배치 설정 수정 정보](/help/dsp/campaign-management/qa/qa-about.md)
+>* [스프레드시트를 사용하여 배치 설정 수정 정보](/help/dsp/campaign-management/qa/qa-about.md)
 >* [비디오: 일괄 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
-
