@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
+source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -126,11 +126,13 @@ ht-degree: 0%
 * *[!UICONTROL sFTP]:* 완료된 보고서를 하나 이상의 SFTP 위치로 전송하려면에 지정합니다. **[!UICONTROL Destination Name]** 필드.
 * *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드.
 * *[!UICONTROL FTP SSL](현재 베타 버전):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드.
-* *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서 또는 알림을 보낼 이메일 주소를 지정합니다. 여러 주소를 지정하려면 쉼표나 공백으로 구분하십시오.
+* *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서 또는 알림을 보낼 이메일 주소를 지정합니다.
 
 >[!NOTE]
 >
 > 보고서를 저장하면 대상 유형을 변경할 수 없습니다.
+
+**[!UICONTROL Email]:** (이메일 대상 유형만 해당) 각 주소에 대해 주소를 입력하고 **+**.
 
 **[!UICONTROL Destination Name]:** (S3, FTP, sFTP 및 FTP SSL 대상 유형만 해당) 사용자 정의 보고서를 전송할 보고서 대상의 이름입니다.
 
@@ -148,9 +150,13 @@ ht-degree: 0%
 
 **[!UICONTROL Frequency]:** (각 [!UICONTROL Destination Name]) 보고서를 대상으로 보내는 빈도: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, 또는 *[!UICONTROL Monthly]*.
 
+**[!UICONTROL Start Day]:** (각 [!UICONTROL Destination Name] 포함 [!UICONTROL Frequency] / *[!UICONTROL Weekly]* 또는 *[!UICONTROL Monthly]*) 보고서를 생성할 요일입니다. 주별 보고서의 경우 요일을 선택합니다. 월별 보고서의 경우 해당 월의 숫자 일을 선택합니다.
+
 ## [!UICONTROL Save Report] 섹션
 
-**[!UICONTROL Send & Save]:** 보고서를 보낼 시기: *[!UICONTROL On Schedule]* 또는 *[!UICONTROL Run Now]*. 예약된 보고서는 계정의 시간대에서 09:00까지 제공됩니다.
+**[!UICONTROL When to Generate]:** 보고서 생성 시기: *[!UICONTROL On Schedule]* 또는 *[!UICONTROL Run Now]*. 예약된 보고서는 계정의 시간대에서 09:00까지 제공됩니다.
+
+**[!UICONTROL End Date]:** 보고서 만료일(최대 4개월 후). 보고서가 만료되기 전에 지정된 모든 이메일 수신자는 만료 날짜로부터 7일 1일 전에 이메일 경고를 수신하게 됩니다. 보고서를 더 오래 유지하려면 보고서 설정에서 만료 날짜를 변경합니다.
 
 >[!NOTE]
 >
