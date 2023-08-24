@@ -3,7 +3,7 @@ title: Campaign에 대한 배치 설정 다운로드
 description: Excel QA 스프레드시트를 사용하여 캠페인에 대한 배치 설정을 다운로드하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: dd65eec8-9616-4eca-b6b9-b904b3e65141
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 735bbe90e313dfe93408d72875654830d96f0889
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -31,6 +31,7 @@ ht-degree: 0%
    * 알림 메시지에서 다음을 클릭합니다. **[!UICONTROL Download].**
 
    * 상단 메뉴 모음의 오른쪽에서 ![작업](/help/dsp/assets/downloads.png). 클릭 **[!UICONTROL Download]** 작업 옆에 있습니다.
+
    파일은 브라우저의 다운로드 폴더에 저장됩니다. 를 참조하십시오.[다운로드/업로드된 스프레드시트의 열](qa-sheet-columns.md)포함된 열의 목록은 &quot;을 참조하십시오.
 
 >[!MORELIKETHIS]
@@ -39,4 +40,3 @@ ht-degree: 0%
 >* [캠페인에 대한 배치 설정 업로드](qa-sheet-upload.md)
 >* [다운로드/업로드된 스프레드시트의 열](qa-sheet-columns.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
-

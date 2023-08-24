@@ -3,9 +3,9 @@ title: 시스템 요구 사항
 description: 소프트웨어 및 계정 요구 사항에 대해 알아봅니다.
 exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2fc49a64366ee9fbf05b5eb4bbda37badcf9b763
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,13 @@ ht-degree: 0%
 
 로그인하려면 사용자 이름과 암호가 필요합니다. Adobe 계정 팀은 사용자 계정을 설정하고 사용자 이름과 암호를 만듭니다.
 
-## 컴퓨터 및 브라우저 언어 설정
+## 컴퓨터 및 브라우저 설정
+
+### 브라우저 사이트 설정
+
+일부 광고/자산 유형에 대한 이미지 미리 보기를 보려면 `efrontier.com` 사이트에 예외를 허용하여 도메인을 설정합니다. 설치한 광고 차단기 브라우저 확장에 대한 설정을 편집하여 브라우저의 사이트/웹 사이트 설정 또는 (Firefox에서) 광고 차단기를 관리합니다.
+
+### 컴퓨터 및 브라우저 언어 설정
 
 다음은 사용할 문자 집합과 숫자, 날짜, 시간 및 통화를 표시하는 데 사용할 형식을 결정하는 정보입니다.
 

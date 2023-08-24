@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
+source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -146,7 +146,7 @@ ht-degree: 0%
 
       이제 기존 대상 목록에서 새 대상을 사용할 수 있으며, 원할 경우 보고서에 추가할 수 있습니다.
 
-**[!UICONTROL Frequency]:** (각 [!UICONTROL Destination Name] 보고서를 대상으로 보내는 빈도: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, 또는 *[!UICONTROL Monthly]*.
+**[!UICONTROL Frequency]:** (각 [!UICONTROL Destination Name]) 보고서를 대상으로 보내는 빈도: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, 또는 *[!UICONTROL Monthly]*.
 
 ## [!UICONTROL Save Report] 섹션
 
