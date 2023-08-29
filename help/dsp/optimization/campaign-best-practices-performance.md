@@ -3,18 +3,16 @@ title: 성과 캠페인 설정에 대한 우수 사례
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 배치를 포함하여 성과 중심 캠페인을 설정하는 모범 사례에 대해 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
+source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
 
 # 성과 캠페인 설정에 대한 우수 사례
 
-DSP은 CPA(취득당 비용)가 가장 낮거나 ROAS(광고 지출에 대한 수익률)가 가장 높은 배치에 성과 중심의 캠페인을 최적화할 수 있습니다.
-
-성과 캠페인에 대한 다음 모범 사례를 참조하십시오.
+DSP은 성과 중심의 캠페인을 최적화할 수 있습니다. 성과 캠페인에 대한 다음 모범 사례를 참조하십시오.
 
 * 1단계 - 목표 정의
 * 2단계 - 전략 정의
@@ -24,7 +22,7 @@ DSP은 CPA(취득당 비용)가 가장 낮거나 ROAS(광고 지출에 대한 �
 
 ## 1단계 - 목표 정의
 
-가능한 가장 높은 ROAS 또는 가능한 가장 낮은 CPA를 달성하는 등 캠페인의 목표를 이해하는 것이 중요합니다. 성과 캠페인은 [최적화 목표](/help/dsp/optimization/optimization-goals.md) 다음으로 끝남: &quot;[!UICONTROL - Custom Goal]&quot; (예: &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). 캠페인의 각 패키지에 대해 목표 목표를 적절하게 지정합니다.
+가능한 가장 높은 ROAS 또는 가능한 가장 낮은 CPA를 달성하는 등 캠페인의 목표를 이해하는 것이 중요합니다. 성과 캠페인은 [최적화 목표](/help/dsp/optimization/optimization-goals.md) 다음으로 끝남: &quot;[!UICONTROL - Custom Goal]&quot; (예: &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). 캠페인의 각 패키지에 대해 그에 따라 최적화 목표를 지정합니다.
 
 ![최적화 목표](/help/dsp/assets/optimization-goals.png)
 
