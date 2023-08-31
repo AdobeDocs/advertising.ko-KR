@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 28fec5b3c22ebb2475a830951de9b058cf1427c2
+source-git-commit: 2c677fda7e0a528fc966f778745f1011bc2939c7
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023년 8월 23일 | [!UICONTROL Placements] | 이제 캠페인용 스프레드시트 파일을 다운로드하거나 하나 이상의 배치에 대해 파일을 편집하고 새 &quot;&quot;에 값을 포함하도록 하여 여러 광고를 배치에 빠르게 연결할 수 있습니다.[!UICONTROL Attached Ad ID]&quot; 열을 추가한 다음 편집된 파일을 업로드합니다. 열을 사용하여 배치에는 광고를 추가하지만 제거하지는 않습니다.<br><br>광고 이름 및 관련 목록을 다운로드하려면 [!UICONTROL Ad ID]s, 다음으로 이동 [!UICONTROL Ads] 보기, 다음을 포함하는 사용자 지정 보기 만들기 [!UICONTROL ID] 지표를 클릭한 다음 데이터를 내보냅니다. | 를 참조하십시오.[스프레드시트에서 배치 설정 다운로드](/help/dsp/campaign-management/qa/qa-sheet-download.md),&quot; &quot;[다운로드/업로드한 스프레드시트의 배치 설정 열](/help/dsp/campaign-management/qa/qa-sheet-columns.md)및 &quot;[스프레드시트에서 배치 설정 업로드](/help/dsp/campaign-management/qa/qa-sheet-upload.md).&quot;<br><br>참조: &quot;[Campaign Management 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md).&quot; |
+| 2023년 8월 23일 | [!UICONTROL Placements] | 새로운 배치 예측 도구는 특정 타기팅 전략에 대해 예측된 노출 횟수, 지출 횟수 및 최적의 최대 입찰가를 보여 줍니다. 예측은 배치와 함께 사용할 수 있는 전체 인벤토리와 사용 가능한 고유 사용자를 기반으로 계산됩니다. | 를 참조하십시오.[배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md).&quot; |
+|  |  | 이제 캠페인용 스프레드시트 파일을 다운로드하거나 하나 이상의 배치에 대해 파일을 편집하고 새 &quot;&quot;에 값을 포함하도록 하여 여러 광고를 배치에 빠르게 연결할 수 있습니다.[!UICONTROL Attached Ad ID]&quot; 열을 추가한 다음 편집된 파일을 업로드합니다. 열을 사용하여 배치에는 광고를 추가하지만 제거하지는 않습니다.<br><br>광고 이름 및 관련 목록을 다운로드하려면 [!UICONTROL Ad ID]s, 다음으로 이동 [!UICONTROL Ads] 보기, 다음을 포함하는 사용자 지정 보기 만들기 [!UICONTROL ID] 지표를 클릭한 다음 데이터를 내보냅니다. | 를 참조하십시오.[스프레드시트에서 배치 설정 다운로드](/help/dsp/campaign-management/qa/qa-sheet-download.md),&quot; &quot;[다운로드/업로드한 스프레드시트의 배치 설정 열](/help/dsp/campaign-management/qa/qa-sheet-columns.md)및 &quot;[스프레드시트에서 배치 설정 업로드](/help/dsp/campaign-management/qa/qa-sheet-upload.md).&quot;<br><br>참조: &quot;[Campaign Management 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md).&quot; |
 |  | [!UICONTROL Custom Reports] | 이제 사용자 정의 보고서에 [!UICONTROL End Date]최대 4개월 정도 걸릴 수 있습니다. 기존 보고서의 경우 만료 날짜는 2023년 9월 24일입니다.<br><br>보고서가 만료되기 전에 지정된 모든 이메일 수신자는 만료 날짜로부터 7일 1일 전에 이메일 경고를 수신하게 됩니다. 보고서를 더 오래 유지하려면 보고서 설정에서 만료 날짜를 변경합니다. | 를 참조하십시오.[사용자 지정 보고서 편집](/help/dsp/reports/report-edit.md)&quot; 및 &quot;[사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md).&quot; |
 | 2023년 7월 19일 | 인벤토리 | 이제 Google Authorized Purchasers SSP와 프로그래밍 방식의 보증 거래에 대해 게시자가 관리하는 광고를 실행할 수 있습니다. DSP 대신 게시자로 직접 광고를 호스팅하면 사용자 지정 리치 미디어 광고 형식을 활용할 수 있습니다. 사용자 지정 광고 형식은 일반적으로 직접 예약을 통해 실행되므로 DSP에서 게시자가 관리하는 광고를 선택할 수 있는 기능을 사용하면 직접 예약 예산을 프로그램 생태계로 이동할 수도 있습니다. | 를 참조하십시오.[프로그램 보증 거래 정보](/help/dsp/inventory/programmatic-guaranteed-about.md)&quot; 및 &quot;[프로그램 보증 거래 설정](/help/dsp/inventory/programmatic-guaranteed-set-up.md).&quot; |
 | 2023년 7월 19일 | 보고 | 새로운 [!UICONTROL Household Conversions Report] 장치/쿠키 수준이 아닌 IP 주소를 기반으로 가구 수준에서 뷰스루 전환을 표시합니다. | 를 참조하십시오.[보고서 정보](/help/dsp/reports/report-about.md)&quot; 및 &quot;[세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md).&quot; |
