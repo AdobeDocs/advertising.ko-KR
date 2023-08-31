@@ -3,7 +3,7 @@ title: 사용한 Adobe Advertising ID [!DNL Analytics]
 description: 사용한 Adobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 7433c2b0e0f61c2c72b27fb026202a76875c6b7e
+source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 0%
@@ -262,13 +262,13 @@ where:
 
 ### 의 AMO ID Dimension [!DNL Analytics]
 
-Analytics 보고서에서 를 검색하여 AMO ID 데이터를 찾을 수 있습니다. [!UICONTROL AMO ID] 차원 및 사용 [!UICONTROL AMO ID Instance] 지표. 다음 [!UICONTROL AMO ID] 차원은 캡처된 모든 AMO ID 값을 포함하는 반면, [!UICONTROL AMO ID Instance] 지표는 사이트에서 AMO ID 값을 캡처한 빈도를 나타냅니다. 예를 들어 동일한 검색 광고를 4번 클릭했지만 Analytics가 7개의 사이트 항목을 추적한 경우, [!UICONTROL AMO ID Instance] 은(는) 7이고 은(는) [!UICONTROL Clicks] 4(4)가 됩니다.
+Analytics 보고서에서 를 검색하여 AMO ID 데이터를 찾을 수 있습니다. [!UICONTROL AMO ID] 차원 및 사용 [!UICONTROL AMO ID Instances] 지표. 다음 [!UICONTROL AMO ID] 차원은 캡처된 모든 AMO ID 값을 포함하는 반면, [!UICONTROL AMO ID Instances] 지표는 사이트에서 AMO ID 값을 캡처한 빈도를 나타냅니다. 예를 들어 동일한 검색 광고를 4번 클릭했지만 Analytics가 7개의 사이트 항목을 추적한 경우, [!UICONTROL AMO ID Instances] 은(는) 7이고 은(는) [!UICONTROL Clicks] 4(4)가 됩니다.
 
 내의 모든 보고 또는 감사 [!DNL Analytics], 가장 좋은 방법은 해당 인스턴스와 함께 AMO ID를 사용하는 것입니다. 자세한 내용은 &quot;[데이터 유효성 검사 [!DNL Analytics for Advertising]](data-variances.md#data-validation)&quot; in &quot;예상 데이터 분산 between [!DNL Analytics] 및 Adobe Advertising.&quot;
 
 ## Analytics 분류 정보
 
-위치 [!DNL Analytics], a [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 는 계정, 캠페인 또는 광고와 같은 지정된 추적 코드에 대한 메타데이터의 일부입니다. Adobe Advertising은 분류를 사용하여 원시 Adobe Advertising 데이터를 분류하므로 보고서를 생성할 때 광고 유형이나 캠페인별로 데이터를 다양한 방식으로 표시할 수 있습니다. 분류는 의 Adobe Advertising 보고 기준을 형성합니다 [!DNL Analytics] 및 를 AMO 지표와 함께 사용할 수 있습니다. [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions], 및 [!UICONTROL AMO Clicks]와 같은 사용자 지정 및 표준 온사이트 이벤트 포함 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], 및 [!UICONTROL Revenue].
+위치 [!DNL Analytics], a [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 는 계정, 캠페인 또는 광고와 같은 지정된 추적 코드에 대한 메타데이터의 일부입니다. Adobe Advertising은 분류를 사용하여 원시 Adobe Advertising 데이터를 분류하므로 보고서를 생성할 때 광고 유형이나 캠페인별로 데이터를 다양한 방식으로 표시할 수 있습니다. 분류는 의 Adobe Advertising 보고 기준을 형성합니다 [!DNL Analytics] 및 를 AMO 지표와 함께 사용할 수 있습니다. [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions], 및 [!UICONTROL AMO Clicks]와 같은 사용자 지정 및 표준 온사이트 이벤트 포함 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders], 및 [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >

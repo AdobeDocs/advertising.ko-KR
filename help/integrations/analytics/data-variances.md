@@ -3,9 +3,9 @@ title: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Ado
 description: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
 workflow-type: tm+mt
-source-wordcount: '3268'
+source-wordcount: '3265'
 ht-degree: 0%
 
 ---
@@ -154,10 +154,10 @@ Adobe Advertising 보고서는 Adobe Advertising을 통해 거래되는 유료 �
 
 통합하려면 클릭스루 데이터의 유효성을 검사하여 사이트의 모든 페이지가 클릭스루를 제대로 추적하는지 확인해야 합니다.
 
-위치 [!DNL Analytics]를 검색하는 가장 쉬운 방법 중 하나 [!DNL Analytics for Advertising] 추적은 다음과 같이 계산된 &quot;AMO ID 인스턴스로 클릭 수&quot; 계산된 지표를 사용하여 클릭 수를 인스턴스와 비교하는 것입니다.
+위치 [!DNL Analytics]를 검색하는 가장 쉬운 방법 중 하나 [!DNL Analytics for Advertising] 추적은 &quot;클릭 수&quot;를 사용하여 클릭 수를 인스턴스와 비교하는 것입니다. [!UICONTROL AMO ID Instances]&quot;계산된 지표: 다음과 같이 계산됩니다.
 
 ```
-Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
+Clicks to [!UICONTROL AMO ID Instances] = ([!UICONTROL AMO ID Instances] / Adobe Advertising Clicks)
 ```
 
 [!UICONTROL AMO ID Instances] 다음 횟수를 나타냅니다. [AMO ID](ids.md) 사이트에서 추적됩니다. 광고를 클릭할 때마다 AMO ID(`s_kwcid`) 매개 변수가 랜딩 페이지 URL에 추가됩니다. 의 수 [!UICONTROL AMO ID Instances]따라서 는 클릭 수와 유사하며 실제 광고 클릭에 대해 확인할 수 있습니다. 에 대해 일반적으로 80%의 일치율이 표시됩니다. [!DNL Search, Social, & Commerce] 및 30%의 일치율 [!DNL DSP] 트래픽(클릭스루만 포함하도록 필터링될 때) [!UICONTROL AMO ID Instances]). 검색과 표시 간의 기대치 차이는 예상되는 트래픽 행태로 설명될 수 있다. 검색은 인텐트를 캡처하며, 따라서 사용자는 일반적으로 쿼리에서 검색 결과를 클릭하려고 합니다. 그러나 디스플레이 또는 온라인 비디오 광고를 보는 사용자는 의도하지 않게 광고를 클릭한 다음 사이트에서 바운스되거나 페이지 활동이 추적되기 전에 로드되는 새 창을 포기할 가능성이 높습니다.
@@ -236,19 +236,19 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 Adobe Advertising은 Analytics에 [광고 특정 트래픽 지표 및 관련 차원 [!DNL DSP] 및 [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Adobe Advertising이 제공한 지표는 지정된 Adobe Advertising 차원에만 적용할 수 있고 의 다른 차원에는 데이터를 사용할 수 없습니다. [!DNL Analytics].
 
-예를 들어 [!UICONTROL AMO Clicks] 및 [!UICONTROL AMO Cost] 계정별 지표: Adobe Advertising 차원으로서, 합계 [!UICONTROL AMO Clicks] 및 [!UICONTROL AMO Cost] 계정별.
+예를 들어 [!UICONTROL Adobe Advertising Clicks] 및 [!UICONTROL Adobe Advertising Cost] 계정별 지표: Adobe Advertising 차원으로서, 합계 [!UICONTROL Adobe Advertising Clicks] 및 [!UICONTROL Adobe Advertising Cost] 계정별.
 
 ![Adobe Advertising 차원을 사용한 보고서의 Adobe Advertising 지표 예](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-그러나 를 보는 경우에는 [!UICONTROL AMO Clicks] 및 [!UICONTROL AMO Cost] Adobe Advertising이 데이터를 제공하지 않는 페이지 내 차원(예: 페이지)별 지표 [!UICONTROL AMO Clicks] 및 [!UICONTROL AMO Cost] 각 페이지의 값은 0이 됩니다.
+그러나 를 보는 경우에는 [!UICONTROL Adobe Advertising Clicks] 및 [!UICONTROL Adobe Advertising Cost] Adobe Advertising이 데이터를 제공하지 않는 페이지 내 차원(예: 페이지)별 지표 [!UICONTROL Adobe Advertising Clicks] 및 [!UICONTROL Adobe Advertising Cost] 각 페이지의 값은 0이 됩니다.
 
 ![지원되지 않는 차원을 사용하는 보고서의 Adobe Advertising 지표의 예](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
 ### 사용 [!UICONTROL AMO ID Instances] Adobe Advertising이 아닌 Dimension을 사용한 클릭 대용
 
-를 사용할 수 없기 때문에 [!UICONTROL AMO Clicks] 온사이트 차원을 사용하면 클릭과 동일한 값을 찾을 수 있습니다. 방문 횟수를 대체품으로 사용하고 싶을 수 있지만 각 방문자에게 여러 번의 방문이 있을 수 있으므로 방문 횟수는 최선의 옵션이 아닙니다. ( &quot; 참조[클릭과 방문의 차이점](#clicks-vs-visits).&quot; 대신 을 사용하는 것이 좋습니다. [!UICONTROL AMO ID Instances]: AMO ID가 캡처된 횟수입니다. While [!UICONTROL AMO ID Instances] 일치하지 않음 [!UICONTROL AMO Clicks] 맞습니다. 사이트에서의 클릭 트래픽을 측정하는 데 가장 적합한 옵션입니다. 자세한 내용은 &quot;[데이터 유효성 검사 [!DNL Analytics for Advertising]](#data-validation).&quot;
+를 사용할 수 없기 때문에 [!UICONTROL Adobe Advertising Clicks] 온사이트 차원을 사용하면 클릭과 동일한 값을 찾을 수 있습니다. 방문 횟수를 대체품으로 사용하고 싶을 수 있지만 각 방문자에게 여러 번의 방문이 있을 수 있으므로 방문 횟수는 최선의 옵션이 아닙니다. ( &quot; 참조[클릭과 방문의 차이점](#clicks-vs-visits).&quot; 대신 을 사용하는 것이 좋습니다. [!UICONTROL AMO ID Instances]: AMO ID가 캡처된 횟수입니다. While [!UICONTROL AMO ID Instances] 일치하지 않음 [!UICONTROL Adobe Advertising Clicks] 맞습니다. 사이트에서의 클릭 트래픽을 측정하는 데 가장 적합한 옵션입니다. 자세한 내용은 &quot;[데이터 유효성 검사 [!DNL Analytics for Advertising]](#data-validation).&quot;
 
-![예 [!UICONTROL AMO ID Instances] 대신 [!UICONTROL AMO Clicks] 지원되지 않는 차원의 경우](/help/integrations/assets/a4adc-amo-id-instances.png)
+![예 [!UICONTROL AMO ID Instances] 대신 [!UICONTROL Adobe Advertising Clicks] 지원되지 않는 차원의 경우](/help/integrations/assets/a4adc-amo-id-instances.png)
 
 >[!MORELIKETHIS]
 >
