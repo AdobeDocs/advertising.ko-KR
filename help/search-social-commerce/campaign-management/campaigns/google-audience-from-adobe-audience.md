@@ -3,9 +3,9 @@ title: 만들기 [!DNL Google Ads] 의 고객 일치 대상 [!DNL Adobe] 대상
 description: 만드는 방법 알아보기 [!DNL Google Ads] 기존 Adobe Analytics의 대상과 Audience Manager 대상의 대상을 고객이 일치시킵니다.
 exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aa913130d0f611c4164ef8bdca57983d8c6c0405
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 필요에 따라 사전 요구 사항을 완료합니다.
 
-   1. (사용자 ID 리마케팅 목록 대상자를 만들려면) [!DNL Adobe] 관리자 사용자 또는 계정 관리자가 광고주 수준 설정을 선택하여 고객 일치 대상을 활성화해야 합니다. 설정은 Audience Manager이 있는 광고주와 가 있는 광고주마다 다릅니다. [!DNL Analytics] 만 해당.
+   1. (사용자 ID 리마케팅 목록 대상자를 만들려면) [!DNL Adobe] 관리자 사용자 또는 계정 관리자가 광고주 수준 설정을 선택하여 고객 일치 대상을 활성화해야 합니다.
 
    1. 구현 [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 버전 2.0 이상
 
@@ -40,7 +40,9 @@ ht-degree: 0%
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
-      위치 `Advertising_Cloud_UserID` 는 광고주에게 할당된 고유 사용자 ID입니다. 예:  `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
+      위치 `Advertising_Cloud_UserID` 는 광고주에게 지정된 고유한 숫자 사용자 ID입니다.
+
+      예: `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
    1. (아직 완료되지 않은 경우) 승인된 사용자는 광고주의 계정을 [Adobe Experience Cloud에서 광고주의 조직 계정과 동기화](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
