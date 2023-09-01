@@ -3,9 +3,9 @@ title: 배치 진단 보고서 보기
 description: 배치 설정 및 게재 간격 관련 문제를 진단하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 622d971a0c583cfde8610025f0a83481c4ae2188
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
       1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
       1. 캠페인 이름을 클릭한 다음 **[!UICONTROL Placements]**.
       1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
-   1. 오른쪽 상단에서 ![배치 진단](/help/dsp/assets/placement-diagnostics.png) 또는 **[!UICONTROL Diagnostic]**.
+   1. 오른쪽 상단에서 ![배치 진단](/help/dsp/assets/placement-diagnostics.png).
 1. 다음 중 하나를 수행합니다.
    * 변경 로그를 보려면
       1. 클릭 **[!UICONTROL Change Log]**.
@@ -46,5 +46,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [플랫폼 내 보고서 정보](campaign-reports-about.md)
+>* [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
-

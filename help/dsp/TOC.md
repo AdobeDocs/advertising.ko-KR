@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 99f580547f4f0463418dfca52481e58927339169
+source-git-commit: 7d5f3028f3f8ff23a97274c182c37477a69c3f48
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '907'
 ht-degree: 6%
 
 ---
@@ -96,6 +96,7 @@ ht-degree: 6%
       + [플랫폼 내 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Campaign Management 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [배치에 대한 사이트, 광고 및 빈도 세부 정보 보기](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [배치 진단 보고서 보기](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + 데이터 보기 관리 {#data-views}
          + [Campaign 데이터 보기 정보](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
