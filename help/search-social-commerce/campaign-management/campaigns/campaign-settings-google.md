@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Google Ads] 캠페인.
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
 feature: Search Campaign Management
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -254,43 +254,59 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]:** 자산 그룹에서 만든 모든 광고의 최종 URL입니다. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** 다음 크기를 포함하여 광고용 이미지 최대 15개. 1) 정사각형 이미지 3개 이상, 2) 가로 이미지 3개 이상, 3) 세로 이미지 1개 이상 다음을 참조하십시오. [[!DNL Google Ads] 이미지 사양](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 이미지를 업로드하려면:
+**[!UICONTROL Images]:** 다음 크기를 포함하여 광고용 이미지 최대 15개. 1) 정사각형 이미지 3개 이상, 2) 가로 이미지 3개 이상, 3) 세로 이미지 1개 이상 다음을 참조하십시오. [[!DNL Google Ads] 이미지 사양](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 이미지를 업로드하거나 [!UICONTROL Asset Library] — 그러나 둘 다 동일한 작업에 포함되지는 않습니다.
 
-1. 클릭 **[!UICONTROL +]** 장치 또는 네트워크에서 이미지를 선택합니다.
+* 이미지를 업로드하려면:
 
-1. 각 이미지에 대해:
+   1. 다음에서 [!UICONTROL Upload from computer] 탭을 클릭하고 **[!UICONTROL +]** 장치 또는 네트워크에서 이미지를 선택합니다.
 
-   1. 종횡비를 선택합니다.
+   1. 각 이미지에 대해:
 
-   1. 필요에 따라 자르기 상자를 끌어서 놓고 이미지의 볼 수 있는 부분을 선택한 다음 필요할 경우 이미지의 볼 수 있는 부분의 크기를 조정합니다.
+      1. 종횡비를 선택합니다.
 
-   1. (선택 사항) 추가 종횡비를 선택하고 선택한 각 종횡비에 필요한 경우 이미지의 위치를 변경하고 크기를 선택적으로 조정합니다.
+      1. 필요에 따라 자르기 상자를 끌어서 놓고 이미지의 볼 수 있는 부분을 선택한 다음 필요할 경우 이미지의 볼 수 있는 부분의 크기를 조정합니다.
 
-      선택한 각 종횡비에 대해 하나의 에셋이 만들어집니다.
+      1. (선택 사항) 추가 종횡비를 선택하고 선택한 각 종횡비에 필요한 경우 이미지의 위치를 변경하고 크기를 선택적으로 조정합니다.
 
-   1. 클릭 **[!UICONTROL Proceed]**.
+         선택한 각 종횡비에 대해 하나의 에셋이 만들어집니다.
 
-1. 이미지 지정이 끝나면 **[!UICONTROL Upload]**.
+      1. 클릭 **[!UICONTROL Proceed]**.
 
-**[!UICONTROL Logos]:** 하나 이상의 사각형(1:1) 로고 및 가로(4:1) 로고. 각 크기의 최대 5개를 포함할 수 있습니다. 다음을 참조하십시오. [[!DNL Google Ads] 로고 사양](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 이미지를 업로드하려면:
+   1. 이미지 지정이 끝나면 **[!UICONTROL Upload]**.
 
-1. 클릭 **[!UICONTROL +]** 장치 또는 네트워크에서 이미지를 선택합니다.
+* 에서 이미지를 선택하려면 [!UICONTROL Asset Library], 클릭 **[!UICONTROL Asset Library]** 이미지를 선택합니다.
 
-1. 각 이미지에 대해:
+**[!UICONTROL Logos]:** 하나 이상의 사각형(1:1) 로고 및 가로(4:1) 로고. 각 크기의 최대 5개를 포함할 수 있습니다. 다음을 참조하십시오. [[!DNL Google Ads] 로고 사양](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). 이미지를 업로드하거나 [!UICONTROL Asset Library] — 그러나 둘 다 동일한 작업에 포함되지는 않습니다.
 
-   1. 종횡비를 선택합니다.
+* 이미지를 업로드하려면:
 
-   1. 필요에 따라 자르기 상자를 끌어서 놓고 이미지의 볼 수 있는 부분을 선택한 다음 필요할 경우 이미지의 볼 수 있는 부분의 크기를 조정합니다.
+   1. 다음에서 [!UICONTROL Upload from computer] 탭을 클릭하고 **[!UICONTROL +]** 장치 또는 네트워크에서 이미지를 선택합니다.
 
-   1. (선택 사항) 추가 종횡비를 선택하고 선택한 각 종횡비에 필요한 경우 이미지의 위치를 변경하고 크기를 선택적으로 조정합니다.
+   1. 각 이미지에 대해:
 
-      선택한 각 종횡비에 대해 하나의 에셋이 만들어집니다.
+      1. 종횡비를 선택합니다.
 
-   1. 클릭 **[!UICONTROL Proceed]**.
+      1. 필요에 따라 자르기 상자를 끌어서 놓고 이미지의 볼 수 있는 부분을 선택한 다음 필요할 경우 이미지의 볼 수 있는 부분의 크기를 조정합니다.
 
-1. 이미지 지정이 끝나면 **[!UICONTROL Upload]**.
+      1. (선택 사항) 추가 종횡비를 선택하고 선택한 각 종횡비에 필요한 경우 이미지의 위치를 변경하고 크기를 선택적으로 조정합니다.
 
-**[!UICONTROL Videos]:** (선택 사항) 최소 1개, 최대 5개의 URL [!DNL YouTube] 최소 10초 길이의 비디오입니다.
+         선택한 각 종횡비에 대해 하나의 에셋이 만들어집니다.
+
+      1. 클릭 **[!UICONTROL Proceed]**.
+
+   1. 이미지 지정이 끝나면 **[!UICONTROL Upload]**.
+
+* 에서 이미지를 선택하려면 [!UICONTROL Asset Library], 클릭 **[!UICONTROL Asset Library]** 이미지를 선택합니다.
+
+**[!UICONTROL Videos]:** (선택 사항) 최소 1개, 최대 5개, [!DNL YouTube] 최소 10초 길이의 비디오입니다.  URL을 입력하거나 [!UICONTROL Asset Library] — 그러나 둘 다 동일한 작업에 포함되지는 않습니다.
+
+* URL을 입력하려면 다음을 수행하십시오.
+
+   1. 다음에서 [!UICONTROL Upload from computer] 탭에서 URL을 입력합니다.
+
+   1. (선택 사항) 다른 URL을 추가하려면 [!UICONTROL + Add]** URL을 입력한 다음 입력합니다.
+
+* 에서 비디오를 선택하려면 [!UICONTROL Asset Library], 클릭 **[!UICONTROL Asset Library]** 비디오를 선택합니다.
 
 **[!UICONTROL Headlines]:** 최소 3자, 최대 5자의 짧은 머리글로 각각 최대 30자까지 사용할 수 있습니다. 하나 이상의 헤드라인은 15자 이하여야 합니다. 최종 URL 확장을 활성화하는 캠페인 수준 옵션이 [!DNL Google Ads], 그런 다음 [!DNL Google Ads] 는 이 값을 랜딩 페이지 콘텐츠를 기반으로 하는 사용자 지정 헤드라인으로 대체합니다.
 
@@ -302,7 +318,24 @@ ht-degree: 0%
 
 **[!UICONTROL Business Name]:** 비즈니스 이름(최대 25자).
 
+**[!UICONTROL Audience Signal]:** (선택 사항) [!DNL Google Ads] 캠페인을 위한 대상자 신호로 사용할 대상자. [!DNL Google Ads] 기계 학습 모델은 대상을 사용하여 타깃팅할 유사한 웹 서퍼를 찾고, 성능 목표를 충족하는 데 도움이 되도록 신호로 지정되지 않은 대상에 광고를 표시할 수도 있습니다. 변환할 가능성이 가장 큰 대상을 선택하십시오.
+
+>[!NOTE]
+>대상 신호가 다음과 다름 [캠페인 수준 및 광고 그룹 수준 대상 타겟](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+
 **[!UICONTROL Add new asset group]:** 다른 에셋 그룹을 지정할 수 있습니다.
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]:** 종료 여부 *[!UICONTROL Use account conversion goals for this campaign]* (기본값) 또는 *[!UICONTROL Use campaign specific conversion goals]*. 캠페인에 대한 전환 목표를 지정하도록 선택한 경우 표준 목표를 선택하거나 캠페인에 대한 사용자 지정 목표를 만듭니다.
+
+목표는 매일 동기화되므로 이전 24시간 동안 생성된 기존 목표는 나열되지 않을 수 있습니다. 목록을 업데이트하려면 [수동으로 광고 네트워크 데이터 동기화](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+사용자 지정 전환 목표를 만들려면 **[!UICONTROL + Add custom goal]**&#x200B;사용자 정의 목표 이름을 입력하고 다음을 선택합니다. [전환 작업](https://support.google.com/google-ads/answer/6032150) 을(를) 사용자 지정 목표에 포함한 다음 **[!UICONTROL Save]**. **참고:** 각 캠페인에는 하나의 사용자 지정 목표만 있을 수 있습니다.
+
+>[!TIP]
+>
+>캠페인이 포트폴리오의 일부인 경우 포트폴리오의 목표와 동일한 전환 목표를 사용합니다. 다양한 전환 목표를 사용하면 포트폴리오 성능에 영향을 줄 수 있습니다.
 
 >[!MORELIKETHIS]
 >
