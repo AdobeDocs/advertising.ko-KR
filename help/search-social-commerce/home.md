@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: c5acb7d4064dadbec5dbdc20184c21287f9facc7
+source-git-commit: ba500532712d002547e5e067d1a0af4e3202daad
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023년 9월 14일 | [!UICONTROL Campaigns] | ([!DNL Google Ads] 성과 최대 캠페인) 이제 캠페인의 에셋 그룹에서 의 기존 텍스트 에셋을 선택할 수 있습니다 [!UICONTROL Asset Library]. 새 텍스트 에셋을 계속 업로드할 수도 있습니다. | — |
 | 2023년 9월 5일 | 캠페인 | ([!DNL Google Ads] 캠페인) 이제 사용 가능한 모든 캠페인 유형에 대해 캠페인 설정 내에서 기존 전환 목표를 선택하거나 새 전환 목표를 만들 수 있습니다.</li> | 를 참조하십시오.[[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | | 캠페인 | ([!DNL Google Ads] 성과 최대 캠페인) 새로운 기능을 사용하면 다음과 같은 작업을 수행할 수 있습니다.<ul><li>위에서 언급한 대로 캠페인에 대한 기존 전환 목표를 선택하거나 새 전환 목표를 만듭니다.</li><li>의 기존 에셋에서 선택 [!UICONTROL Asset Library] 성능 최대 캠페인 설정 내의 이미지, 로고 및 비디오에 대한 . 새 에셋을 업로드할 수도 있습니다.</li><li>(선택 사항) 을 선택하여 성과 최대 자산 그룹에 대한 대상 신호를 제공합니다 [!DNL Google Ads] 대상. [!DNL Google Ads] 기계 학습 모델은 대상을 사용하여 타깃팅할 유사한 웹 서퍼를 찾고, 성능 목표를 충족하는 데 도움이 되도록 신호로 지정되지 않은 대상에 광고를 표시할 수도 있습니다. **참고:** 대상 신호가 다음과 다름 [캠페인 수준 및 광고 그룹 수준 대상 타겟](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | 를 참조하십시오.[[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 2023년 8월 15일 | 전환 지표 | [!UICONTROL Admin] > [!DNL Transaction Properties] 이제 가 포함됩니다.[!UICONTROL Source]각 지표의 소스를 나타내는 &quot;열, 예 [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads], 또는 [!UICONTROL Custom Feed]. | 를 참조하십시오.[광고주에 대해 추적된 전환 지표 보기](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md).&quot; |
