@@ -3,7 +3,7 @@ title: 최적화 목표 및 사용 방법
 description: 사용 가능한 최적화 목표를 참조하고 이를 사용할 시기를 확인하십시오.
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: 900a8e876e99b3d826c8934a266a3c4e1b226a1c
+source-git-commit: 42f10200bb28f4509a04ac69d415e7254537b769
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -34,6 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Lowest vCPM (Moat - MRC)] | 패키지 수준 최적화를 통해 예산 할당은 가장 낮은 vCPM을 사용하는 배치에 우선 순위를 둡니다.<br><br>경매 평가는 vCPM의 우선 순위를 지정합니다. 지출 목표가 충족되는 경우 DSP은 CPM을 낮추는 것과 조회 수를 높이는 것의 균형을 맞추려고 합니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 효율적인 CPM 및 최고의 vCPM<br><br>광고 유형: 프리롤, 표시<br><br><b>참고:</b> 이 목표를 사용하여 가능한 최상의 vCPM을 달성하십시오.<br><br>최대 CPM을 보장하려면 배치에 대한 최대 입찰가로 사용합니다.<br><br>이 설정은 타사 데이터가에서 가장 잘 작동합니다. [!DNL Moat] 알고리즘을 알려줍니다. 다음을 활성화한 경우에만 이 목표 사용 [!DNL Moat] 캠페인에 대한 통합. |
 | [!UICONTROL Always Max Bid and Maximize Reach] | 이 목표는 주어진 노출 횟수로 최대 가구 도달률을 달성하려고 시도하며, 항상 배치 수준의 최대 입찰가를 사용합니다. 지출 목표가 충족되는 경우 DSP이 보다 선택적이 되어 점진적인 고유 도달 범위를 달성할 수 있는 기회가 있을 때만 경매에 입찰됩니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 도달 범위 최대화<br><br>광고 유형: 프리롤, 디스플레이, CTV, 기본, 오디오 및 범용 비디오 |
 | [!UICONTROL Lowest Cost per Reach] | 이 목표는 주어진 예산으로 가구의 최대 도달 범위를 달성하려고 시도한다. 지출 목표가 충족되는 경우 DSP은 증분 고유 도달 기회를 얻을 수 있는 기회에 따라 입찰이 달라집니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 도달 범위당 비용 효율성<br><br>광고 유형: 프리롤, 디스플레이, CTV, 기본, 오디오 및 범용 비디오 |
+
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
