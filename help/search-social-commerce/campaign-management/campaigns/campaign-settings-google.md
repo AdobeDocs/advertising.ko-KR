@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Google Ads] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Google Ads] 캠페인.
-exl-id: d16ef1a9-f943-494c-8655-975383707f3c
+exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
+source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -258,7 +258,7 @@ ht-degree: 0%
 
 * 이미지를 업로드하려면:
 
-   1. 다음에서 [!UICONTROL Upload from computer] 탭을 클릭하고 **[!UICONTROL +]** 장치 또는 네트워크에서 이미지를 선택합니다.
+   1. 다음에서 [!UICONTROL Upload from Device] 탭을 클릭하고 **[!UICONTROL +]** 장치 또는 네트워크에서 이미지를 선택합니다.
 
    1. 각 이미지에 대해:
 
@@ -280,7 +280,7 @@ ht-degree: 0%
 
 * 이미지를 업로드하려면:
 
-   1. 다음에서 [!UICONTROL Upload from computer] 탭을 클릭하고 **[!UICONTROL +]** 장치 또는 네트워크에서 이미지를 선택합니다.
+   1. 다음에서 [!UICONTROL Upload from Device] 탭을 클릭하고 **[!UICONTROL +]** 장치 또는 네트워크에서 이미지를 선택합니다.
 
    1. 각 이미지에 대해:
 
@@ -298,21 +298,47 @@ ht-degree: 0%
 
 * 에서 이미지를 선택하려면 [!UICONTROL Asset Library], 클릭 **[!UICONTROL Asset Library]** 이미지를 선택합니다.
 
-**[!UICONTROL Videos]:** (선택 사항) 최소 1개, 최대 5개, [!DNL YouTube] 최소 10초 길이의 비디오입니다.  URL을 입력하거나 [!UICONTROL Asset Library] — 그러나 둘 다 동일한 작업에 포함되지는 않습니다.
+**[!UICONTROL Videos]:** (선택 사항) 최소 1개, 최대 5개, [!DNL YouTube] 최소 10초 길이의 비디오입니다. URL을 입력하거나 [!UICONTROL Asset Library] — 그러나 둘 다 동일한 작업에 포함되지는 않습니다.
 
 * URL을 입력하려면 다음을 수행하십시오.
 
-   1. 다음에서 [!UICONTROL Upload from computer] 탭에서 URL을 입력합니다.
+   1. 다음에서 [!UICONTROL Enter Video Url] 탭에서 URL을 입력합니다.
 
-   1. (선택 사항) 다른 URL을 추가하려면 [!UICONTROL + Add]** URL을 입력한 다음 입력합니다.
+   1. (선택 사항) 다른 URL을 추가하려면 **[!UICONTROL + Add]** URL을 입력합니다.
 
 * 에서 비디오를 선택하려면 [!UICONTROL Asset Library], 클릭 **[!UICONTROL Asset Library]** 비디오를 선택합니다.
 
 **[!UICONTROL Headlines]:** 최소 3자, 최대 5자의 짧은 머리글로 각각 최대 30자까지 사용할 수 있습니다. 하나 이상의 헤드라인은 15자 이하여야 합니다. 최종 URL 확장을 활성화하는 캠페인 수준 옵션이 [!DNL Google Ads], 그런 다음 [!DNL Google Ads] 는 이 값을 랜딩 페이지 콘텐츠를 기반으로 하는 사용자 지정 헤드라인으로 대체합니다.
 
-**[!UICONTROL Long Headlines]:** 각각 최대 90자의 긴 머리글이 최소 1개에서 최대 5개까지 표시됩니다.
+텍스트를 입력하거나 [!UICONTROL Asset Library] — 그러나 둘 다 동일한 작업에 포함되지는 않습니다.
 
-**[!UICONTROL Descriptions]:** 최소 2자부터 최대 4자까지 최대 90자까지 입력할 수 있습니다. 설명은 최소 30자 이하여야 합니다.
+* 텍스트를 입력하려면 다음을 수행합니다.
+
+   1. 다음에서 [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
+
+   1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]** 문자열을 입력합니다.
+
+* 에서 에셋을 선택하려면 [!UICONTROL Asset Library], 클릭 **[!UICONTROL Asset Library]** 에셋을 선택합니다.
+
+**[!UICONTROL Long Headlines]:** 각각 최대 90자의 긴 머리글이 최소 1개에서 최대 5개까지 표시됩니다. 텍스트를 입력하거나 [!UICONTROL Asset Library] — 그러나 둘 다 동일한 작업에 포함되지는 않습니다.
+
+* 텍스트를 입력하려면 다음을 수행합니다.
+
+   1. 다음에서 [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
+
+   1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]** 문자열을 입력합니다.
+
+* 에서 에셋을 선택하려면 [!UICONTROL Asset Library], 클릭 **[!UICONTROL Asset Library]** 에셋을 선택합니다.
+
+**[!UICONTROL Descriptions]:** 최소 2자부터 최대 4자까지 최대 90자까지 입력할 수 있습니다. 설명은 최소 30자 이하여야 합니다. 텍스트를 입력하거나 [!UICONTROL Asset Library] — 그러나 둘 다 동일한 작업에 포함되지는 않습니다.
+
+* 텍스트를 입력하려면 다음을 수행합니다.
+
+   1. 다음에서 [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
+
+   1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]** 문자열을 입력합니다.
+
+* 에서 에셋을 선택하려면 [!UICONTROL Asset Library], 클릭 **[!UICONTROL Asset Library]** 에셋을 선택합니다.
 
 **[!UICONTROL Call to Action]:** 광고에 포함할 클릭 유도 문안. 기본적으로, *[!UICONTROL Automated]* 이(가) 선택되어 있고 [!DNL Google Ads] 콜 투 액션을 선택합니다. 선택적으로 다른 작업을 선택할 수 있습니다.
 
