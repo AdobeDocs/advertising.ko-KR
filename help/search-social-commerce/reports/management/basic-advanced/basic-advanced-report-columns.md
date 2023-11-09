@@ -1,9 +1,9 @@
 ---
 title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
-exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
+exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 0e82baca53d27dea4207cb2eef3f4be7a9f99fb5
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising], 및 [!DNL Yahoo! Japan Ads] 캠페인) 광고가 모바일 장치에 표시될 때 입찰이 조정되는 방법을 결정하는 현재 캠페인 수준의 모바일 입찰 조정입니다. |
 | [!UICONTROL Campaign Start Date] | 캠페인에 대한 입찰이 수행된/배치된 첫 번째 날입니다. |
 | [!UICONTROL Campaign Status] | 캠페인 상태: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Ended]</i>, 또는 <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Campaign Type] | 캠페인 유형(예: ) <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Video]</i>, 또는 <i>[!UICONTROL Others]</i>. |
+| [!UICONTROL Campaign Type] | 캠페인 유형(예: ) <i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Video)]</i>, <i>[!UICONTROL Brand Shopping]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Store Ad]</i>, <i>[!UICONTROL Video]</i>, 또는 <i>[!UICONTROL Others]</i>. |
 | [!UICONTROL Channel Type] | 마케팅 채널 유형: <i>[!UICONTROL Search]</i> 또는 <i>[!UICONTROL Content]</i>. 이 열은 보고서에 포함되지 않습니다. [!UICONTROL Search/Content] 보고서 설정의 설정은 &quot;[!UICONTROL Combined].&quot; |
 | [!UICONTROL City] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Transaction Report]) 클릭 수가 시작된 도시입니다. 사용자의 IP 주소에서 결정됩니다. |
 | [!UICONTROL Click Match Type] | 클릭한 광고에 대한 키워드 일치 유형입니다. 이는 과(와) 동일합니다 [!UICONTROL Listing Match Type] 를 제외하고 [!DNL Microsoft Advertising] 여러 일치 유형이 있는 키워드. 대상 [!DNL Microsoft Advertising] 키워드: 실제로 클릭한 일치 유형입니다. |
