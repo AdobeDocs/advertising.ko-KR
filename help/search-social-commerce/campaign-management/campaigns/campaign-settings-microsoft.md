@@ -1,26 +1,36 @@
 ---
-title: '[!DNL Microsoft Advertising] 캠페인 설정'
-description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 캠페인.
+title: '[!DNL Microsoft® Advertising] 캠페인 설정'
+description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 캠페인.
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 236224a1d8e38862f70db63b3762b763f5703623
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] 캠페인 설정
+# [!DNL Microsoft® Advertising] 캠페인 설정
 
 ## \[캠페인 만들기 화면\]
 
 **[!UICONTROL Campaign Type]:** (캠페인 생성 중에만 사용 가능) 광고를 배치할 위치와 캠페인에 포함될 수 있는 광고 유형:
 
-* *[!UICONTROL Search and Display Network]:* 검색 네트워크에서만 텍스트 광고를 표시합니다.
+* *[!UICONTROL Search]:* 검색 네트워크에 텍스트 광고를 표시합니다.
 
-* *[!UICONTROL Shopping Network]:* 의 제품에 대한 제품 광고를 표시합니다. [!DNL Microsoft Merchant Center] 제품 카탈로그 — 쇼핑 네트워크
+* *[!UICONTROL Shopping Network]:* 의 제품에 대한 제품 광고를 표시합니다. [!DNL Microsoft® Merchant Center] 제품 카탈로그 — 쇼핑 네트워크.
 
-* *[!UICONTROL Audience]:* 에 기본/디스플레이 광고를 표시합니다. [!DNL Microsoft Audience Network]. a) 캠페인을 의 판매자 센터 상점에 연결하여 피드 기반 광고를 자동으로 생성할 수 있습니다. [!UICONTROL Shopping Settings] 섹션 또는 b) 텍스트 에셋 및 업로드된 이미지가 있는 반응형 광고를 만듭니다. 두 옵션 모두 사용자 타깃팅으로 광고 그룹을 만들어야 합니다.
+* *[!UICONTROL Audience]:* 에 기본/디스플레이 광고를 표시합니다. [!DNL Microsoft® Audience Network]. a) 캠페인을 의 판매자 센터 상점에 연결하여 피드 기반 광고를 자동으로 생성할 수 있습니다. [!UICONTROL Shopping Settings] 섹션 또는 b) 텍스트 에셋 및 업로드된 이미지가 있는 반응형 광고를 만듭니다. 두 옵션 모두 사용자 타깃팅으로 광고 그룹을 만들어야 합니다.
+
+* *[!UICONTROL Shopping Campaigns for Brands]:* (Beta 기능) 검색 및 대상 네트워크에서 연결된 소매점을 통해 제품을 홍보합니다. 캠페인에 대한 하위 광고 그룹 및 제품 그룹(홍보용 앱)을 만들 수 있습니다. [!DNL Microsoft® Advertising] 는 제품 그룹에 대한 광고를 자동으로 만듭니다.
+
+* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Beta 기능)에서 사용할 수 있는 앱 및 게임을 홍보합니다. [!DNL Microsoft® Store]. 캠페인에 대한 하위 광고 그룹 및 제품 그룹을 만들 수 있습니다. [!DNL Microsoft® Advertising] 는 제품 그룹에 대한 광고를 자동으로 만듭니다.
+
+* *[!UICONTROL Audience Video]:* (Beta 기능) 대상자 네트워크의 비디오 광고를 표시합니다.
+
+* *[!UICONTROL Audience Video]:* (Beta 기능) Audience Network에서 연결된 TV(CTV) 비디오 광고를 표시합니다.
+
+* *[!UICONTROL Performance Max]:* 모든 네트워크에 여러 광고 유형을 표시합니다.
 
 ## [!UICONTROL Campaign Details]
 
@@ -48,21 +58,25 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** 캠페인에 대한 입찰 전략:
 
-* *[!UICONTROL Enhanced CPC]:* (대상, 검색 및 쇼핑 네트워크의 캠페인) 평균 CPC를 최대 CPC 미만으로 유지하려고 시도하는 동안 광고 네트워크에서 전환을 극대화하기 위해 광고 네트워크(검색, 소셜 및 상거래가 아님) 내에 지정된 전환을 사용하여 각 경매에 대한 CPC(클릭당 비용) 입찰을 자동으로 변경할 수 있는 광고 네트워크의 eCPC(향상된 클릭당 비용) 모델을 사용합니다.
+* *[!UICONTROL CPV]* (Audience CTV 비디오 캠페인만 해당) CPV(Cost-per-View) 모델을 사용합니다. <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
 
-최적화된 검색, 소셜 및 상거래 포트폴리오에 eCPC가 있는 캠페인을 추가하면 검색, 소셜 및 상거래는 기본 입찰가를 최적화하고,[!UICONTROL Auto adjust campaign budget limits]&quot;옵션이 활성화됨 — 캠페인 예산. 광고 네트워크는 모든 입찰 조정을 최적화하고 독점 데이터 및 통찰력을 기반으로 사용자 쿼리 시 검색, 소셜 및 상거래에서 생성한 입찰을 변경할 수 있습니다. **주의:** 광고 네트워크에서 추적된 총 전환이 포트폴리오 목표에 맞는 경우에만 포트폴리오에서 eCPC 캠페인을 사용하십시오.
+* *[!UICONTROL Enhanced CPC]:* (대상, 검색 및 쇼핑 네트워크의 캠페인) 평균 CPC를 최대 CPC 미만으로 유지하려고 시도하는 동안 광고 네트워크(검색, 소셜 및 상거래가 아님) 내에서 지정된 전환을 사용하여 전환을 극대화하기 위해 광고 네트워크가 각 경매의 클릭당 비용(CPC) 입찰을 자동으로 변경할 수 있는 광고 네트워크의 eCPC(향상된 클릭당 비용) 모델을 사용합니다.
 
-* *[!UICONTROL Manual CPC]* (기본값): (더 이상 사용되지 않음 [!DNL Microsoft Advertising] 2021년) CPC(Cost-per-Click) 모델을 사용합니다. 광고 네트워크에서 캠페인에 대한 입찰을 변경하도록 허용할 수 있습니다(선택적).
+  최적화된 검색, 소셜 및 상거래 포트폴리오에 eCPC가 있는 캠페인을 추가하면 검색, 소셜 및 상거래는 기본 입찰가를 최적화하고,[!UICONTROL Auto adjust campaign budget limits]&quot;옵션이 활성화됨 — 캠페인 예산. 광고 네트워크는 모든 입찰 조정을 최적화하고 독점 데이터 및 통찰력을 기반으로 사용자 쿼리 시 검색, 소셜 및 상거래에서 생성한 입찰을 변경할 수 있습니다. **주의:** 광고 네트워크에서 추적된 총 전환이 포트폴리오 목표에 맞는 경우에만 포트폴리오에서 eCPC 캠페인을 사용하십시오.
+
+* *[!UICONTROL Manual CPC]*: (브랜드를 위한 쇼핑 캠페인) [!DNL Microsoft Store Ads] 캠페인; 사용 중단됨 [!DNL Microsoft® Advertising] (다른 캠페인 유형의 경우 2021년) 클릭당 비용(CPC) 모델을 사용합니다. 일부 광고 유형의 경우 선택적으로 광고 네트워크가 캠페인에 대한 입찰을 변경하도록 허용할 수 있습니다.
 
    * **[!UICONTROL Enable Enhanced CPC]** (기본적으로 비활성화됨): &quot;[!UICONTROL Enhanced CPC]&quot; 옵션입니다.
 
-* *[!UICONTROL Manual CPM]* (대상 네트워크의 캠페인만 해당) 1,000개의 조회 횟수당 소비할 항목을 지정하는 CPM(비용-천 단위 노출 횟수) 모델을 사용합니다. 이 입찰 전략을 사용하는 캠페인은 포트폴리오에 포함될 때 최적화되지 않습니다.
+* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] 캠페인) CPA(취득당 비용) 모델을 사용합니다.
+
+* *[!UICONTROL Manual CPM]* (대상 캠페인 및 대상 비디오 캠페인만 해당) 1,000회의 보기 노출 횟수당 소비할 항목을 지정하는 CPM(비용-천 단위 노출 횟수) 모델을 사용합니다. 이 입찰 전략을 사용하는 캠페인은 포트폴리오에 포함될 때 최적화되지 않습니다.
 
 * *[!UICONTROL Maximize Clicks]:* (검색 및 쇼핑 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 클릭수를 최대화하기 위해 입찰을 최적화합니다. 다음을 입력합니다(선택적). **[!UICONTROL Max CPC]** (클릭당 비용) 광고 네트워크가 클릭당 특정 금액 이상을 지불하지 않도록 하기 위한 것입니다. **주의:** 이 전략을 사용하는 캠페인을 포트폴리오에 추가하면 입찰은 포트폴리오 목표가 아니라 클릭 가중치에 의해 결정됩니다.
 
-* *[!UICONTROL Maximize Conversion Value]:* (검색 및 쇼핑/스마트 쇼핑 네트워크) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 전환 가치를 극대화하기 위해 입찰을 최적화합니다. 필요한 경우 다음을 입력합니다. **[!UICONTROL Target Return on Ad Spend]** (ROAS) 를 백분율로 표시합니다. **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다.
+* *[!UICONTROL Maximize Conversion Value]:* (검색 및 쇼핑/스마트 쇼핑 네트워크, 성과 최대 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 전환 가치를 극대화하기 위해 입찰을 최적화합니다. 필요한 경우 다음을 입력합니다. **[!UICONTROL Target Return on Ad Spend]** (ROAS) 를 백분율로 표시합니다. **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다.
 
-* *[!UICONTROL Maximize Conversions]:* (검색 네트워크의 캠페인 <!-- future: and audience network -->) 광고 네트워크(검색, 소셜 및 상거래가 아님)는 전환을 최대화하기 위해 입찰을 최적화합니다. 필요한 경우 다음을 입력합니다. **[!UICONTROL Target CPC]** (클릭당 비용)<!-- future: ; for audience campaigns, you can also enter an optional [!UICONTROL Target CPA] (cost per acquisition) -->. **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다.
+* *[!UICONTROL Maximize Conversions]:* (검색 네트워크의 캠페인 <!-- future: and audience network -->, 성과 최대 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 전환을 극대화하기 위해 입찰을 최적화합니다. 필요한 경우 다음을 입력합니다. **[!UICONTROL Target CPC]** (클릭당 비용)<!-- future: ; for audience campaigns, you can also enter an optional [!UICONTROL Target CPA] (cost per acquisition) -->. **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다.
 
 * *[!UICONTROL Target CPA]:* (검색 네트워크의 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 선택 사항을 기반으로 입찰을 최적화합니다 **[!UICONTROL Target CPA]** (취득당 비용) - 취득(전환)에 대해 지불할 30일 평균 금액입니다. **참고:** 지출 전략을 사용하는 하이브리드 포트폴리오(표준 포트폴리오는 아님)의 캠페인에 이 옵션을 사용합니다. [!UICONTROL Weekly] 또는 [!UICONTROL Google Target CPA].
 
@@ -80,7 +94,7 @@ ht-degree: 0%
 
 <!-- **[!UICONTROL Campaign Priority]:** -->
 
-**[!UICONTROL Link with Microsoft Merchant Center]:** (대상 캠페인만 해당, 선택 사항) 반응형 광고가 아닌 자동화된 피드 기반 광고를 위해 특정 머천트 센터 상점과 캠페인을 연결합니다. 이 옵션을 선택할 때 [!UICONTROL Merchant ID] 및 [!UICONTROL Products]. 캠페인에 대한 광고 그룹을 만들어야 하지만 광고를 만들 필요는 없습니다.
+**[!UICONTROL Link with Microsoft® Merchant Center]:** (대상 캠페인만 해당, 선택 사항) 반응형 광고가 아닌 자동화된 피드 기반 광고를 위해 특정 머천트 센터 상점과 캠페인을 연결합니다. 이 옵션을 선택할 때 [!UICONTROL Merchant ID] 및 [!UICONTROL Products]. 캠페인에 대한 광고 그룹을 만들어야 하지만 광고를 만들 필요는 없습니다.
 
 캠페인을 저장소에 연결하고 설정을 저장하면 이 옵션을 변경할 수 없습니다.
 
@@ -145,7 +159,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]:** (디스플레이/기본 네트워크의 캠페인만 해당, 선택 사항) 광고를 표시하지 않으려는 디스플레이 네트워크의 사이트. 올바른 URL(예: www.example.com)을 입력하십시오. 여러 문자열을 지정하려면 쉼표로 구분하거나 별도의 줄에 입력합니다.
 
-가용성에 대한 자세한 내용은 &quot; Microsoft Advertising 도움말을 참조하십시오.[특정 웹 사이트에 광고가 표시되지 않도록 하기](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+가용성에 대한 자세한 내용은 &quot;에 대한 Microsoft® Advertising 도움말을 참조하십시오.[특정 웹 사이트에 광고가 표시되지 않도록 하기](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 ## [!UICONTROL Campaign Tracking]
 
