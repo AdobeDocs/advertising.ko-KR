@@ -1,11 +1,11 @@
 ---
 title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
-exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
+exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 0b6b3ac85b5f47986b9246dccddf0ad51c380dbe
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2607'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,14 @@ ht-degree: 0%
 |----|----|
 | \[광고주별 사용자 지정(파생) 지표\] | 만든 사용자 지정 지표의 값은 기존 지표에서 계산됩니다. |
 | \[광고주별 전환 지표\] | 지정된 전환 지표 또는 사이트 참여 지표에 대한 전환 수입니다. |
+| [!UICONTROL Absolute Top Impression Rate Percent] | 검색 결과 상단의 첫 번째 위치에 표시된 광고 노출 비율입니다. |
+| [!UICONTROL Absolute Top Impression Share Lost To Budget Percent] | 일별 또는 월별 예산이 너무 낮기 때문에 검색 결과 맨 위의 첫 번째 위치에 광고가 표시되지 않은 예상 시간의 백분율입니다. |
+| [!UICONTROL Absolute Top Impression Share Lost To Rank Percent] | 광고 등급이 낮아 검색 결과 상단의 첫 번째 위치에 광고가 표시되지 않은 시간의 백분율입니다. |
+| [!UICONTROL Absolute Top Impression Share Percent] | 절대 상단 위치(유기 검색 결과 위의 첫 번째 광고)에서 받은 노출 횟수를 상단 위치에서 받을 수 있는 예상 노출 횟수로 나눈 값입니다. |
 | [!UICONTROL Account Name] | 계정 이름. |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] 보고서) 광고 네트워크에서 할당한 계정 식별자입니다. |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] 보고서) 계정 상태: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, 또는 *[!UICONTROL Inactive]*. |
-| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report]) 광고가 배포된 위치: *[!UICONTROL Search]* (검색 결과 페이지에서) 또는 *[!UICONTROL Content]* (날짜) [!DNL Microsoft®](소유한 웹 사이트 또는 참여하는 파트너 웹 사이트). |
+| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report], [!UICONTROL MSA Network Impression Share Report], 및 [!UICONTROL MSA Network Performance Report]) 광고가 배포된 위치: *[!UICONTROL Audience]* (대상 네트워크에서)*,[!UICONTROL Search]* (검색 결과 페이지에서) 또는 *[!UICONTROL Content]* (날짜) [!DNL Microsoft®](소유한 웹 사이트 또는 참여하는 파트너 웹 사이트). |
 | [!UICONTROL Ad Extension ID] | ([!UICONTROL MSA Ad Extension] 보고서) 광고 확장의 ID입니다. |
 | [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension] 보고서) 광고 확장에 대한 버전 속성입니다. |
 | [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension] 보고서) 광고 확장 유형입니다. |
@@ -44,6 +48,9 @@ ht-degree: 0%
 | [!UICONTROL Assists] | ([!UICONTROL MSA Ad Extension] 보고서) 엔티티가 다른 엔티티와 연결된 전환에 기여한 횟수. |
 | [!UICONTROL Audience ID] | 숫자 대상 ID입니다. |
 | [!UICONTROL Audience Name] | 청중. 사용 가능한 대상에는 다음 항목이 포함됩니다. [!DNL Google Ads] 고객 데이터 기반, 마켓 내 및 유사한 대상과 [!DNL [!DNL Microsoft® Advertising]] 사용자 지정, 고객 일치, 동적 리마케팅, 마켓 내 리마케팅, 리마케팅 및 이와 유사한 대상. |
+| [!UICONTROL Audience Impression Lost To Budget Percent] | 일별 또는 월별 예산이 너무 낮아서 Microsoft 대상 네트워크에서 잃어버린 노출 점유율입니다. |
+| [!UICONTROL Audience Impression Lost To Rank Percent] | 광고 등급이 낮아 Microsoft Audience Network에서 잃어버린 노출 점유율입니다. |
+| [!UICONTROL Audience Impression Share Percent] | 다음에 대한 예상 노출 비율: [!DNL Microsoft Audience Network] 를 받을 수 있는 총 노출 횟수로 나눕니다. |
 | [!UICONTROL Audience Status] | 대상의 상태입니다. |
 | [!UICONTROL Average CPC] | 클릭당 평균 비용입니다. |
 | [!UICONTROL Average Position], [!UICONTROL Avg Position] | 지정된 날짜 범위 동안의 평균 광고 위치입니다.<br><br>대상 [!DNL Google Ads] 및 [!DNL Yahoo! Japan Ads] 캠페인, 이 데이터는 2019년 9월까지만 사용할 수 있습니다. 대상 [!DNL Microsoft® Advertising], 이 데이터는 2021년 1월 22일까지만 사용할 수 있습니다. |
@@ -88,12 +95,15 @@ ht-degree: 0%
 | [!UICONTROL End Date] | 마지막으로 보고된 날짜입니다. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] 보고서) [확장 이름 표시](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] 보고서) 광고 확장 유형에 대한 ID입니다. |
-| [!UICONTROL Goal] | ([!UICONTROL MSA Ad Extension] 보고서) 전환 목표의 이름입니다. |
-| [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] 보고서) 전환 목표의 유형입니다. |
+| [!UICONTROL Goal] | ([!UICONTROL MSA Ad ExtensionReport] 보고서, [!UICONTROL MSA Network Performance Report]) 전환 목표의 이름입니다. |
+| [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] 보고서, [!UICONTROL MSA Network Performance Report]) 전환 목표의 유형입니다. |
 | [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report])에서 추적한 온라인 전환 수 [다음 [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md). |
 | [!UICONTROL Google Converted Clicks] | ([!UICONTROL AdWords Conversion Report]; 2016년에 더 이상 사용되지 않음) 하나 이상의 전환을 수행한 클릭 수입니다. |
-| [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] 만; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], 및 [!UICONTROL Keyword Daily Impression Share Report]) 유기 검색 결과 위에 첫 번째 광고로 표시되는 광고 노출 비율입니다. |
+| [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] 만; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], 및 [!UICONTROL Keyword Daily Impression Share Report]) 유기 검색 결과 위에 첫 번째 광고로 표시된 광고 노출 비율입니다. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] 만; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], 및 [!UICONTROL Keyword Daily Impression Share Report]) 유기 검색 결과 위에 표시되는 광고 노출 비율입니다. |
+| [!UICONTROL Impression Lost To Budget Percent] | 일별 또는 월별 예산이 너무 낮아서 광고가 표시되지 않은 예상 비율입니다. |
+| [!UICONTROL Impression Lost To Rank Percent] | 광고 등급이 낮아 광고가 표시되지 않은 시간의 백분율입니다. |
+| [!UICONTROL Impression Share Percent] | 받은 노출 횟수를 받을 자격이 있는 예상 노출 횟수로 나눈 값입니다. |
 | [!UICONTROL Impressions] | 지정된 날짜 범위 동안의 광고 노출 횟수입니다. |
 | [!UICONTROL Keyword] | 키워드.<br><br><b>참고:</b> 보고서에 컨텐츠 사용 검색 캠페인의 광고 그룹 데이터가 포함된 경우 이 열에는 &quot;(광고 그룹 컨텐츠) 광고 그룹 이름&quot;과 같은 적용 가능한 광고 그룹 이름이 포함됩니다. 검색 캠페인의 사이트 타겟팅 배치의 경우 이 열에는 값이 없습니다. |
 | [!UICONTROL Keyword ID] | Search, Social 및 Commerce가 키워드에 할당하는 숫자 ID입니다. |
@@ -121,7 +131,7 @@ ht-degree: 0%
 | [!UICONTROL Query Match Type] | (AdWords 검색 쿼리 보고서) 검색 쿼리에 대한 키워드 일치 유형입니다. |
 | [!UICONTROL Region] | ([!UICONTROL AdWords Geo Report] 및 [!UICONTROL Bing Ads Geo Report]) 노출 또는 클릭이 시작된 지역 또는 미국/캐나다 주입니다. 사용자의 IP 주소에서 결정됩니다. |
 | [!UICONTROL Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] 보고서) 총 수입을 지출로 나눈 값으로 백분율로 표시됩니다. |
-| [!UICONTROL Revenue] | ([!UICONTROL MSA Ad Extension] reports) 총 매출입니다. |
+| [!UICONTROL Revenue] | ([!UICONTROL MSA Ad Extension] 보고서, [!UICONTROL MSA Network Performance Report]) 총 매출액. |
 | [!UICONTROL Revenue per Assist] | ([!UICONTROL MSA Ad Extension] 보고서) 어시스트당 총 수익. |
 | [!UICONTROL Revenue per Conversion] | ([!UICONTROL MSA Ad Extension] 보고서) 전환당 총 매출입니다. |
 | [!UICONTROL SE Account Name] | 광고 네트워크의 계정 이름입니다. |
@@ -150,6 +160,10 @@ ht-degree: 0%
 | [!UICONTROL title_part1] | ([!UICONTROL MSA Ad Extension by Ad Report]) 웹 사이트로 연결되는 광고의 첫 번째 줄입니다. |
 | [!UICONTROL title_part2] | ([!UICONTROL MSA Ad Extension by Ad Report]) 웹 사이트로 연결되는 광고의 두 번째 줄입니다. |
 | [!UICONTROL title_part3] | ([!UICONTROL MSA Ad Extension by Ad Report]) 웹 사이트로 연결되는 광고의 세 번째 줄입니다. |
+| [!UICONTROL Top Impression Rate Percent] | 메인 라인(검색 결과 위의 상위 광고 배치)에 표시된 광고 노출 비율입니다. |
+| [!UICONTROL Top Impression Share Lost To Budget Percent] | 일별 또는 월별 예산이 너무 낮아서 광고가 메인라인(검색 결과 위의 상위 광고 배치)에 표시되지 않은 예상 시간 비율입니다. |
+| [!UICONTROL Top Impression Share Lost To Rank Percent] | 광고 등급이 낮아 광고가 메인 라인(검색 결과 위의 상위 광고 배치)에 표시되지 않은 시간의 백분율입니다. |
+| [!UICONTROL Top Impression Share Percent] | 메인 라인(검색 결과 위의 상위 광고 배치)에서 받은 노출 횟수를 상위 위치에서 받을 수 있는 예상 노출 횟수로 나눈 값입니다. |
 | [!UICONTROL Top vs. Other] | ([!UICONTROL MSA Ad Extension] 보고서) 검색 결과 페이지에서 광고의 위치입니다. |
 | [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] 보고서) 광고 카피에 광고 요소가 있는 경우 클릭 여부에 관계없이 클릭된 횟수입니다. |
 | [!UICONTROL User SE Account ID] | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID입니다. |

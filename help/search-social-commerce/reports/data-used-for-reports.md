@@ -1,9 +1,9 @@
 ---
 title: 보고서에 사용된 데이터
 description: 데이터 보기 및 사용자 지정 보고서에서 사용할 수 있는 다양한 유형의 데이터에 대해 알아봅니다.
-exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
+exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: 840c7f6295b73a784725c301a78ae89c827fd45e
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Search, Social 및 Commerce에는 클릭 및 전환 데이터를 기반으로 �
 | [!UICONTROL Assist Reports] | 모두 | 지난 18개월. |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | 이전 연도. |
 | | [!UICONTROL RSA Assets Report] | 2022년 8월 10일부터 시작. |
-| | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report] | 지난 180일. |
+| | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | 지난 180일. |
 | | 기타 모두 [!UICONTROL Specialty Reports] | 이전 2개월. |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 지난 18개월. |
 | [!UICONTROL Change History Report] | — | 이전 31일. |
