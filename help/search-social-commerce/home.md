@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: 9b103745ef8b09c46049a9a89b676825311db4f2
+source-git-commit: 8732cfc91b0caee9b7580c33048b889ff0373f4c
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
 | 2023년 11월 8일 | [!UICONTROL Asset Library] | (오픈 베타 기능; [!DNL Microsoft® Advertising] 계정) 위치 [!UICONTROL Campaigns] > [!UICONTROL Asset Library], 재사용 가능한 이미지 및 비디오 에셋을 만들고 [!DNL Microsoft® Advertising] 계정 수준 자산 라이브러리입니다. 업로드한 에셋을 의 해당 캠페인 유형에 추가할 수 있습니다. [!DNL Microsoft® Advertising] 편집자. | 를 참조하십시오.[정보 [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)&quot; 및 &quot;[에셋 만들기 및 업로드](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).&quot; |
-| 2023년 10월 7일 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | 에 대한 두 개의 새로운 전문 보고서 [!DNL Microsoft Advertising] 계정은 광고 배포(검색 또는 대상) 및/또는 네트워크(예: [!DNL Microsoft] 사이트 및 트래픽 또는 대상자 선택):<ul><li>[!UICONTROL MSA Network Performance Report]: 기본 트래픽 지표(비용, 클릭 수, 노출 수), 전환 및 매출을 포함합니다.</li><li>[!UICONTROL MSA Network Impression Share Report]: 노출 점유율 지표 및 기본 트래픽 지표(비용, 클릭 수, 노출 수)를 포함합니다.</li></ul> | — |
+| 2023년 10월 7일 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | 에 대한 두 개의 새로운 전문 보고서 [!DNL Microsoft Advertising] 계정은 광고 배포(검색 또는 대상) 및/또는 네트워크(예: [!DNL Microsoft] 사이트 및 트래픽 또는 대상자 선택):<ul><li>[!UICONTROL MSA Network Performance Report]: 기본 트래픽 지표(비용, 클릭 수, 노출 수), 전환 및 매출을 포함합니다.</li><li>[!UICONTROL MSA Network Impression Share Report]: 노출 점유율 지표 및 기본 트래픽 지표(비용, 클릭 수, 노출 수)를 포함합니다.</li></ul> | 를 참조하십시오.[다음 [!UICONTROL MSA Network Impression Share Report]](/help/search-social-commerce/reports/management/specialty/msa-network-impression-share-report.md)&quot; 및 &quot;[다음 [!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/reports/management/specialty/msa-network-performance-report.md).&quot; |
 | 2023년 9월 14일 | [!UICONTROL Campaigns] | ([!DNL Google Ads] 성과 최대 캠페인) 이제 캠페인의 에셋 그룹에서 의 기존 텍스트 에셋을 선택할 수 있습니다 [!UICONTROL Asset Library]. 새 텍스트 에셋을 계속 업로드할 수도 있습니다. | 를 참조하십시오.[[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 2023년 9월 5일 | 캠페인 | ([!DNL Google Ads] 캠페인) 이제 사용 가능한 모든 캠페인 유형에 대해 캠페인 설정 내에서 기존 전환 목표를 선택하거나 새 전환 목표를 만들 수 있습니다.</li> | 를 참조하십시오.[[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | | 캠페인 | ([!DNL Google Ads] 성과 최대 캠페인) 새로운 기능을 사용하면 다음과 같은 작업을 수행할 수 있습니다.<ul><li>위에서 언급한 대로 캠페인에 대한 기존 전환 목표를 선택하거나 새 전환 목표를 만듭니다.</li><li>의 기존 에셋에서 선택 [!UICONTROL Asset Library] 성능 최대 캠페인 설정 내의 이미지, 로고 및 비디오에 대한 . 새 에셋을 업로드할 수도 있습니다.</li><li>(선택 사항) 을 선택하여 성과 최대 자산 그룹에 대한 대상 신호를 제공합니다 [!DNL Google Ads] 대상. [!DNL Google Ads] 기계 학습 모델은 대상을 사용하여 타깃팅할 유사한 웹 서퍼를 찾고, 성능 목표를 충족하는 데 도움이 되도록 신호로 지정되지 않은 대상에 광고를 표시할 수도 있습니다. **참고:** 대상 신호가 다음과 다름 [캠페인 수준 및 광고 그룹 수준 대상 타겟](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | 를 참조하십시오.[[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
