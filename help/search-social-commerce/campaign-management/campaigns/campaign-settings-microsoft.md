@@ -3,9 +3,9 @@ title: '[!DNL Microsoft® Advertising] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 캠페인.
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
 feature: Search Campaign Management
-source-git-commit: 236224a1d8e38862f70db63b3762b763f5703623
+source-git-commit: c83663a65d5ec6d672c648c3fd59ae75ee3823d8
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]:* (Beta 기능) Audience Network에서 연결된 TV(CTV) 비디오 광고를 표시합니다.
 
-* *[!UICONTROL Performance Max]:* 모든 네트워크에 여러 광고 유형을 표시합니다.
+* *[!UICONTROL Performance Max]:* (Beta 기능) 모든 네트워크에 있는 여러 광고 유형을 표시합니다.
 
 ## [!UICONTROL Campaign Details]
 
