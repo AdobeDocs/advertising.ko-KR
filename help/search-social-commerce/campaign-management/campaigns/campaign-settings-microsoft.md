@@ -3,9 +3,9 @@ title: '[!DNL Microsoft® Advertising] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 캠페인.
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
 feature: Search Campaign Management
-source-git-commit: 1a4f802c51f29b2d7811ff21a9c7f0f20feb30ba
+source-git-commit: 7ea5289ba3a6ef3306903d1cec56f81152433064
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Microsoft® Store Ads Campaign]:* (Beta 기능)에서 사용할 수 있는 앱 및 게임을 홍보합니다. [!DNL Microsoft® Store]. 캠페인에 대한 하위 광고 그룹, 제품 그룹 및 선택적 제품 광고를 만들 수 있습니다. [!DNL Microsoft® Advertising] 는 제품 그룹에 대한 광고를 자동으로 만듭니다.
 
-* *[!UICONTROL Audience Video]:* (Beta 기능) 대상자 네트워크의 비디오 광고를 표시합니다.
+* *[!UICONTROL Audience Video]:* (Beta 기능) 대상 네트워크의 표준 비디오 광고를 표시합니다.
 
 * *[!UICONTROL Audience Video]:* (Beta 기능) Audience Network에서 연결된 TV(CTV) 비디오 광고를 표시합니다.
 
