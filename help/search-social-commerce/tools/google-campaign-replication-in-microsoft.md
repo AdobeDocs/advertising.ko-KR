@@ -1,9 +1,9 @@
 ---
 title: 복제 [!DNL Google Ads] 의 캠페인 [!DNL Microsoft® Advertising]
 description: 에서 동기화된 캠페인을 내보내는 방법 알아보기 [!DNL Google Ads] 동기화된 계정에 직접 연결 [!DNL Microsoft® Advertising] 계정입니다.
-exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
+source-git-commit: 877333330df84ff5c8bd7ee1bfc837de492877fb
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
   쇼핑 피드 기반 표시 캠페인을 복제하려면 먼저 다음을 복제하십시오. [!DNL Google Merchant Center] 에 대한 제품 오퍼 [!DNL Microsoft® Merchant Center]. 캠페인을 복제할 때 다음을 선택합니다. [!DNL Microsoft® Merchant Center] 가져오기 선택 사항에 저장 하여 피드 기반 대상 캠페인에 저장소를 연결합니다.
 
-* [!DNL Google Ads] 성과 최대 캠페인(로컬 인벤토리 광고 포함)을에 [!DNL Microsoft® Advertising] 스마트 쇼핑 캠페인.
+* [!DNL Google Ads] 성과 최대 캠페인(로컬 인벤토리 광고 포함)을에 [!DNL Microsoft® Advertising] 성과 최대 캠페인
 
 캠페인을 한 번, 매일 주별 또는 매월 업데이트하도록 선택하거나 [!DNL Microsoft® Advertising]의 권장 일정입니다. 선택적으로 가져오기 작업이 실행될 때마다 또는 오류나 변경 사항이 발생할 때 알림을 구성할 수 있습니다. 캠페인을 로 가져오면 [!DNL Microsoft® Advertising], 가져오기 작업의 상태를 확인하고, 오류 로그를 검토하고, 가져오기 작업을 수동으로 실행하고, 가져오기 일정을 편집, 일시 중지, 활성화 또는 삭제할 수 있습니다.
 
