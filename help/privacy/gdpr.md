@@ -4,9 +4,9 @@ description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값,
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
+source-git-commit: 1ae5b1c1d9742d877763b9efd09585da3a6d4e48
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스
 Adobe Experience Platform은 기업이 다음 작업을 완료할 수 있는 기능을 제공합니다.
 
 * 내에서 데이터 주체의 쿠키 수준 데이터 또는 장치 ID 수준 데이터(모바일 앱의 광고용)에 액세스합니다 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO].
-* 내에 저장된 쿠키 수준 데이터 삭제 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO] 브라우저를 사용하는 데이터 주체의 경우 또는 내에 저장된 ID 수준 데이터 삭제 [!DNL DSP] 모바일 디바이스에서 앱을 사용하는 데이터 주체의 경우.
+* 내에 저장된 쿠키 수준 데이터 삭제 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO] 브라우저를 사용하는 데이터 주체의 경우 또는 내에 저장된 ID 수준 데이터를 삭제합니다. [!DNL DSP] 모바일 디바이스에서 앱을 사용하는 데이터 주체의 경우.
 * 하나 또는 모든 기존 요청의 상태를 확인합니다.
 
 ## Adobe Advertising 요청을 전송하기 위한 필수 설정
@@ -43,7 +43,7 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
 
    >[!IMPORTANT]
    >
-   >일부 Adobe Experience Cloud 솔루션에 대한 요청에는 JavaScript 라이브러리가 필요하지 않지만 Adobe 광고에 대한 요청에는 필요합니다.
+   >일부 Adobe Experience Cloud 솔루션에 대한 요청에는 JavaScript 라이브러리가 필요하지 않지만 Adobe Advertising에 대한 요청에는 필요합니다.
 
    데이터 주체가 회사의 개인 정보 보호 포털과 같은 액세스 및 삭제 요청을 제출할 수 있는 웹 페이지에 라이브러리를 배포해야 합니다. 라이브러리는 Adobe 쿠키(네임스페이스 ID: `gsurferID`)를 클릭하여 Adobe Experience Platform Privacy Service API를 통해 액세스 및 삭제 요청의 일부로 이러한 ID를 제출할 수 있습니다.
 
@@ -61,7 +61,7 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
    >
    >귀사의 Adobe Advertising 담당자에게 문의하여 다음을 포함한 조직의 모든 Adobe Advertising 계정을 확인하십시오. [!DNL DSP] 계정 또는 광고주, [!DNL Search, Social, & Commerce] 계정 및 [!DNL Creative] 또는 [!DNL DCO] 계정 — Experience Cloud 조직 ID에 연결됩니다.
 
-1. 다음 중 하나를 사용합니다. [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (자동화된 요청의 경우) 또는 [PRIVACY SERVICE UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko-KR) (임시 요청의 경우) 데이터 주체를 대신하여 Adobe Advertising에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인합니다.
+1. 다음 중 하나를 사용합니다. [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (자동화된 요청의 경우) 또는 [PRIVACY SERVICE UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (임시 요청의 경우) 데이터 주체를 대신하여 Adobe Advertising에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인합니다.
 
    데이터 주체와 상호 작용하고 DSP으로 캠페인을 시작할 수 있는 모바일 앱이 있는 광고주의 경우 Experience Cloud을 위해 개인 정보 보호 지원 Mobile SDK를 다운로드해야 합니다. Mobile SDK를 사용하면 데이터 제어자가 옵트아웃 상태 플래그를 설정하고 데이터 주체의 장치 ID(네임스페이스 ID: deviceID)를 검색한 다음 Privacy Service API에 요청을 제출할 수 있습니다. 모바일 앱에는 SDK 버전 4.15.0 이상이 필요합니다.
 
@@ -73,7 +73,7 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
    >
    회사에 여러 Experience Cloud 조직 ID가 있는 경우 각각에 대해 별도의 API 요청을 보내야 합니다. 그러나 여러 Adobe Advertising 하위 솔루션에 대해 하나의 API 요청을 수행할 수 있습니다([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 및 [!DNL DCO])을 사용하여 하위 솔루션당 하나의 계정을 만들 수 있습니다.
 
-이 모든 단계는 Adobe Advertising에 필요합니다. 이러한 작업 및 Adobe Experience Platform Privacy Service을 사용하여 수행해야 하는 기타 관련 작업과 필요한 항목을 찾을 위치에 대한 자세한 내용은 다음을 참조하십시오. [개인 정보 및 GDPR](https://developer.adobe.com/client-sdks/documentation/privacy-and-gdpr/).
+이 모든 단계는 Adobe Advertising에 필요합니다. 이러한 작업 및 Adobe Experience Platform Privacy Service을 사용하여 수행해야 하는 기타 관련 작업과 필요한 항목을 찾을 수 있는 위치에 대한 자세한 내용은 &quot;[Privacy Service 개요](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)&quot; 및 &quot;[Privacy Service API 안내서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html).&quot;
 
 ## Adobe Advertising JSON 요청의 필수 필드 값
 
@@ -98,7 +98,7 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
 
 * `"regulation": **gdpr**` (요청에 적용되는 개인정보 보호 규정)
 
-## 검색 대상 Adobe 광고 사용자 ID를 사용하여 데이터 주체에서 제출한 요청의 예 `AdobePrivacy.js`
+## 데이터 주체에서 가져온 Adobe Advertising 사용자 ID를 사용하여 제출한 요청의 예 `AdobePrivacy.js`
 
 ```
 {
