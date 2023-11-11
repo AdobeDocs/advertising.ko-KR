@@ -3,9 +3,9 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 개방형 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 1c3698292d520ef380e44efc0da763a34737ea74
+source-git-commit: 351350960ed4bc8ef500181b98a6d120035835fa
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 자�
 | [!DNL AppNexus] | [!DNL Xandr] | 비디오 시트 ID: 9094<br>시트 ID 표시: 3939 | 아니요 | 글로벌 | 미국 달러 | x | x | x | x | x |  |  |
 | [!DNL DailyMotion] | 해당 사항 없음 | [!DNL TubeMogul] 또는 Adobe Advertising | 아니요 | 미국 + EMEA | USD, EUR | x | x | x | x | x |  |  |
 | [!DNL DistrictM] |  | Adobe | 아니요 | 미국/CA | 미국 달러 |  |  |  | x | x |  |  |
-| [!DNL EMX Digital] |  | Adobe Advertising | 아니요 | 미국/CA | 미국 달러 | x | x | x | x | x |  |  |
+| [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | 아니요 | 미국/CA | 미국 달러 | x | x | x | x | x |  |  |
 | [!DNL Equativ] (이전 [!DNL SmartAdServer]) |  | [!DNL TubeMogul] 또는 Adobe Advertising | 아니요 | 글로벌 | USD, EUR | x | x |  | x | x |  |  |
 | [!DNL FreeWheel] (이전 [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] 또는 Adobe Advertising | 예 | 글로벌 | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | 아니요 | 글로벌 | 미국 달러 | x | x |  |  |  |  |  |
@@ -37,7 +37,7 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 자�
 | [!DNL Magnite CTV] | [!DNL Magnite] (이전 [!DNL Telaria] 및 [!DNL Tremor]) | [!DNL TubeMogul] 또는 Adobe Advertising | 예 | 글로벌 | AUD, USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (이전 [!DNL Telaria] 및 [!DNL Tremor]) | [!DNL TubeMogul] 또는 Adobe Advertising | 예 | 글로벌 | 미국 달러 | x | x | x | x | x |  | x |
 | [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | 아니요 | 글로벌 | 미국 달러 |  | x |  |  |  |  |  |
-| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 또는 Adobe Advertising | 예 | 글로벌 | 미국 달러 | x |  |  | x | x |  |  |
+| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 또는 Adobe Advertising | 예 | 글로벌 | 미국 달러 | x | x | x | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] 또는 Adobe Advertising | 아니요 | 글로벌 | 미국 달러 | x | x | x | x | x |  |  |
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] 또는 Adobe Advertising | 아니요 | 글로벌 | 미국 달러 | x | x | x | x | x | x |  |
 | [!DNL SmartClip] |  | Adobe Advertising | 아니요 | EMEA | 모든 통화 | x | x | x | x | x |  |  |
