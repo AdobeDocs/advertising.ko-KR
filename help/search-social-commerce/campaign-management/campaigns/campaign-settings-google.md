@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Google Ads] 캠페인.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
+source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,6 @@ ht-degree: 0%
    * (주소 근처 위치, 포함된 대상만 해당) 클릭 **[!UICONTROL Radius Target]** (![반경 대상](/help/search-social-commerce/assets/radius-target.png "반경 대상"))을 클릭한 다음 **[!UICONTROL Address]**. 주소 및 타깃팅할 주소 주변 반경(마일 또는 킬로미터)을 입력한 다음 을 클릭합니다. **[!UICONTROL Add]**.
 
    * (지리적 좌표 근처의 위치, 포함된 대상만 해당) 클릭 **[!UICONTROL Radius Target]** (![반경 대상](/help/search-social-commerce/assets/radius-target.png "반경 대상"))을 클릭한 다음 **[!UICONTROL Coordinate]**. 타깃팅할 위치를 중심으로 마일 또는 킬로미터 단위로 위도와 경도 및 반경을 입력한 다음 을 클릭합니다. **[!UICONTROL Add]**.
-
-   * (위치 근처) [!DNL My Business] 위치 확장으로 사용할 수 있는 위치. 포함된 대상만 해당) **[!UICONTROL Location Group Target]** (![위치 그룹](/help/search-social-commerce/assets/location-group.png "위치 그룹")); 국가, 주, 대도시 또는 도시를 입력하여 사용 가능한 위치 목록 아래에 화살표를 놓은 후, 목록에서 위치를 하나 이상 선택합니다(선택 사항). [!DNL Google My Business] 위치. 타깃팅할 위치 주변의 반경(마일 또는 킬로미터)을 지정한 다음 를 클릭합니다. **[!UICONTROL Add]**.
 
 * (포함된 대상 위치에 대한 입찰 조정을 추가하려면) 입찰 조정 값을 입력합니다.
 
