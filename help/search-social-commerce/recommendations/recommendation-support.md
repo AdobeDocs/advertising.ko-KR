@@ -1,11 +1,11 @@
 ---
 title: 게시자 권장 사항 및 인사이트 지원 기본 정보
 description: 게시자 권장 사항 및 인사이트를 보고 관리하는 지원에 대해 알아봅니다.
-exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 30d7aeb970380e528096bfff2964901781a4e221
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,11 @@ ht-degree: 0%
 | | [!UICONTROL Responsive search improve ad strength] | 반응형 검색 광고에 대한 광고 강도를 개선하기 위한 제안 |
 | | [!UICONTROL Sitelink extension] | 캠페인에 사이트링크 확장 추가 |
 | | [!UICONTROL Text ad] | 광고 제안 추가 |
-| [!UICONTROL Automated campaigns] | [!UICONTROL Upgrade local campaign to performance max] | 레거시 로컬 캠페인을 성과 최대 캠페인으로 업그레이드 |
+| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | 동적 검색 광고를 성과 최대 캠페인으로 마이그레이션합니다. |
+| | [!UICONTROL Dynamic image extension opt in] | 계정에 대해 동적 이미지 확장 기능을 활성화하면 [!DNL Google Ads] 머신 러닝은 광고의 랜딩 페이지에서 가장 관련성이 높은 이미지를 광고에 자동으로 추가합니다. |
+| | [!UICONTROL 성능 향상 최대 광고 강도 | 성과 최대 캠페인의 자산 그룹 강도를 향상시켜 &quot;우수&quot; 등급을 갖도록 합니다. |
+| | [!UICONTROL Performance max opt in] | 성과 최대 캠페인을 옵트인합니다. |
+| | [!UICONTROL Upgrade local campaign to performance max] | 레거시 로컬 캠페인을 성과 최대 캠페인으로 업그레이드 |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | 레거시 스마트 쇼핑 캠페인을 성과 최대 캠페인으로 업그레이드 |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 예산에 따라 제한된 캠페인 수정 |
 | | [!UICONTROL Enhanced CPC opt in] | 다음으로 입찰 [!UICONTROL Enhanced CPC] |
@@ -68,6 +72,8 @@ ht-degree: 0%
 | | [!UICONTROL Move unused budget] | 사용하지 않는 예산을 제한된 예산으로 이동 |
 | | [!UICONTROL Raise Target CPA bid too low] | 을(를) 높입니다. [!UICONTROL Target CPA] 너무 낮고 전환이 거의 없거나 없는 경우 권장 수량별 |
 | | [!UICONTROL Target CPA opt in] | 다음으로 입찰 [!UICONTROL Target CPA] |
+| | [!UICONTROL Target CPA raising] | 을(를) 높입니다. [!UICONTROL Target CPA] 기준 [!DNL Google Ads] 예측: 과거 전환에서 계산됩니다. |
+| | [!UICONTROL Target ROAS lowering] | 을 낮춥니다. [!UICONTROL Target ROAS] 기준 [!DNL Google Ads] 예측: 과거 전환에서 계산됩니다. |
 | | [!UICONTROL Target ROAS opt in] | 다음으로 입찰 [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | 디스플레이 확장을 사용하도록 캠페인을 업데이트하여 도달 범위를 확장합니다. |
 | | [!UICONTROL Keyword] | 새 키워드 추가 |
