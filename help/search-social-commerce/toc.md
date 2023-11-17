@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
+source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1729'
 ht-degree: 2%
 
 ---
@@ -189,7 +189,6 @@ ht-degree: 2%
                + [정보 [!DNL Google Ads] 설명선 확장](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
                + [관리 [!DNL Google Ads] 설명선 확장](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
                + [연결 [!DNL Google Ads] 캠페인 또는 광고 그룹과 공유된 콜아웃 확장](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
-            + [관리 [!DNL Google Ads] 위치 확장](/help/search-social-commerce/campaign-management/campaigns/location-extension-manage.md)
             + 사이트 링크 확장 {#sitelinks}
                + [사이트링크 확장 기본 정보](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
                + [공유 사이트 링크 관리](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
