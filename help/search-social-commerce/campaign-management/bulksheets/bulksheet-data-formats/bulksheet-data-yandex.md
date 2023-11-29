@@ -1,11 +1,11 @@
 ---
 title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Yandex] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Yandex] 계정.
-exl-id: c43ea56b-5435-4bbf-8764-beda1bb9b410
+exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: 85a828367ebce0c9bdb851bd7b639cd2f870012a
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1905'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,10 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 ## 사용 가능한 데이터 필드
 
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+
+>[!TIP]
+>
+>다음 테이블은 넓습니다. 필요한 경우 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 봅니다. 를 클릭하여 목차를 일시적으로 숨길 수도 있습니다. ![목차 숨기기](/help/search-social-commerce/assets/hide-toc.png "목차 숨기기") 왼쪽 창 위쪽에 있습니다.
 
 | 필드 | 캠페인 | 광고 그룹 | 키워드 | 텍스트 광고 | Sitelink | 설명 |
 |----|----|-----|-----|----|----|----|

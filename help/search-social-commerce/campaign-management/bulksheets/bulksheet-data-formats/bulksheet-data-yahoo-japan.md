@@ -1,11 +1,11 @@
 ---
 title: 다음에 대한 일괄 시트 데이터 [!DNL Yahoo! Japan] 계정
 description: 다운로드한 일괄 시트의 헤더 필드 및 데이터 필드 참조 [!DNL Yahoo! Japan] 계정.
-exl-id: b68edbc1-0054-4dac-be3f-4df3c4e00ba9
+exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: 5583128ec1c93b3a6244afb040e94c3b539c9db4
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2629'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,11 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 ## 사용 가능한 데이터 필드
 
-| 필드 | 캠페인 | 광고 그룹 | 키워드 | 텍스트 광고 | 캠페인 위치 Target | 설명 |
+>[!TIP]
+>
+>다음 테이블은 넓습니다. 필요한 경우 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 봅니다. 를 클릭하여 목차를 일시적으로 숨길 수도 있습니다. ![목차 숨기기](/help/search-social-commerce/assets/hide-toc.png "목차 숨기기") 왼쪽 창 위쪽에 있습니다.
+
+| 필드 | 캠페인 | 광고 그룹 | 키워드 | 텍스트 광고 | 캠페인 위치 타겟 | 설명 |
 |----|----|----|----|----|----|----|
 | [!UICONTROL Platform] | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | (정보 목적으로 생성된 일괄 시트에 포함) 광고 플랫폼. 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
 | [!UICONTROL Acct Name] | 필수/선택 사항 | 필수/선택 사항 | 필수/선택 사항 | 필수/선택 사항 | 필수/선택 사항 | 광고 네트워크 계정을 식별하는 고유한 이름. 각 행에 &quot;가 포함되지 않은 경우 필수[!UICONTROL AMO ID]엔티티의 경우 &quot;. |
