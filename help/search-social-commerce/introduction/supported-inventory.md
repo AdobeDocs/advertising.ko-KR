@@ -3,9 +3,9 @@ title: 지원되는 인벤토리
 description: 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형을 참조하십시오.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 3bdc21ee649ddc16e144bfa15e16eeac27dfe5d0
+source-git-commit: 8540bfad431c82c52f54e17d7d82c0ac94213663
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2710'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # 지원되는 인벤토리
 
 다음은 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형과 각 광고에서 사용할 수 있는 기능입니다.
+
+>[!TIP]
+>
+>다음 테이블은 넓습니다. 필요한 경우 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 봅니다. 를 클릭하여 목차를 일시적으로 숨길 수도 있습니다. ![목차 숨기기](/help/dsp/assets/hide-toc.png "목차 숨기기") 왼쪽 창 위쪽에 있습니다.
 
 | 소스 | 네트워크 | 캠페인 유형 | 광고 유형 | 동기화 및 보기 | 만들기/편집 | Track[^1] | 최적화 | 보고서[^2] | Adobe Analytics 지원[^3] |
 |----|----|----|----|----|----|----|----|----|----|

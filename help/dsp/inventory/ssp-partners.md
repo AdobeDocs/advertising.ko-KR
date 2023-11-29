@@ -3,9 +3,9 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 개방형 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: dda4a3dcd8d2cb35269ffcb6c600efdde57f2c90
+source-git-commit: 277ea1c216536138e1b08e451532dae1ab4b590d
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 자�
 
 >[!TIP]
 >
->다음 테이블은 넓습니다. 전체 내용을 보려면 표 하단에 있는 스크롤 막대를 사용합니다.
+>다음 테이블은 넓습니다. 필요한 경우 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 봅니다. 를 클릭하여 목차를 일시적으로 숨길 수도 있습니다. ![목차 숨기기](/help/dsp/assets/hide-toc.png "목차 숨기기") 왼쪽 창 위쪽에 있습니다.
 
 | 나열된 SSP | 회사 | Seat ID | 프로그램 보증 지원 | 지역 | 지원되는 통화 | 비디오 데스크탑 | 비디오 모바일 | 비디오 CTV | 디스플레이 데스크탑 | 디스플레이 모바일 | 기본 디스플레이 | 오디오 데스크탑 및 모바일 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
