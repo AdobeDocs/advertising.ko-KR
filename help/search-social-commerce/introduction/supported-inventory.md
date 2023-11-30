@@ -3,9 +3,9 @@ title: 지원되는 인벤토리
 description: 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형을 참조하십시오.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 06a14b364e41ca37725abb279b40cfa79bd3fd23
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '2712'
+source-wordcount: '2714'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->다음 테이블은 넓습니다. 필요한 경우 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 봅니다. 를 클릭하여 목차를 일시적으로 숨길 수도 있습니다. ![목차 숨기기](/help/search-social-commerce/assets/hide-toc.png "목차 숨기기") 왼쪽 창 위쪽에 있습니다.
+>다음 테이블은 넓습니다. 필요한 경우 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 봅니다. 원할 경우 를 클릭하여 목차나 오른쪽 창을 일시적으로 숨길 수도 있습니다 ![창 숨기기](/help/search-social-commerce/assets/hide-pane.png "창 숨기기") 왼쪽 또는 오른쪽 창 상단에서
 
 | 소스 | 네트워크 | 캠페인 유형 | 광고 유형 | 동기화 및 보기 | 만들기/편집 | Track[^1] | 최적화 | 보고서[^2] | Adobe Analytics 지원[^3] |
 |----|----|----|----|----|----|----|----|----|----|

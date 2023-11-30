@@ -3,9 +3,9 @@ title: 다음에 대한 일괄 시트 데이터 [!DNL Yahoo! Japan] 계정
 description: 다운로드한 일괄 시트의 헤더 필드 및 데이터 필드 참조 [!DNL Yahoo! Japan] 계정.
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 5583128ec1c93b3a6244afb040e94c3b539c9db4
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2631'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!TIP]
 >
->다음 테이블은 넓습니다. 필요한 경우 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 봅니다. 를 클릭하여 목차를 일시적으로 숨길 수도 있습니다. ![목차 숨기기](/help/search-social-commerce/assets/hide-toc.png "목차 숨기기") 왼쪽 창 위쪽에 있습니다.
+>다음 테이블은 넓습니다. 필요한 경우 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 봅니다. 원할 경우 를 클릭하여 목차나 오른쪽 창을 일시적으로 숨길 수도 있습니다 ![창 숨기기](/help/search-social-commerce/assets/hide-pane.png "창 숨기기") 왼쪽 또는 오른쪽 창 상단에서
 
 | 필드 | 캠페인 | 광고 그룹 | 키워드 | 텍스트 광고 | 캠페인 위치 타겟 | 설명 |
 |----|----|----|----|----|----|----|

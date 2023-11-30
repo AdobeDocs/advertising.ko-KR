@@ -3,9 +3,9 @@ title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Baidu] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Baidu] 계정.
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: 255bdcd1e14bd1204b3b0a73034029ba7f4ef965
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '1930'
+source-wordcount: '1932'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 
 >[!TIP]
 >
->다음 테이블은 넓습니다. 필요한 경우 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 봅니다. 를 클릭하여 목차를 일시적으로 숨길 수도 있습니다. ![목차 숨기기](/help/search-social-commerce/assets/hide-toc.png "목차 숨기기") 왼쪽 창 위쪽에 있습니다.
+>다음 테이블은 넓습니다. 필요한 경우 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 봅니다. 원할 경우 를 클릭하여 목차나 오른쪽 창을 일시적으로 숨길 수도 있습니다 ![창 숨기기](/help/search-social-commerce/assets/hide-pane.png "창 숨기기") 왼쪽 또는 오른쪽 창 상단에서
 
 | 필드 | 캠페인 | 광고 그룹 | 키워드 | 텍스트 광고 | 위치 대상 | 설명 |
 |----|----|----|----|----|----|----|
