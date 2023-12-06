@@ -4,10 +4,10 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 7d5f3028f3f8ff23a97274c182c37477a69c3f48
+source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '931'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 6%
       + [크로스 디바이스 솔루션](/help/dsp/introduction/features/cross-device-solutions.md)
    + [계정 자금 조달](/help/dsp/introduction/billing/account-funding.md)
    + [지원되는 통화](/help/dsp/currency.md)
-   + [소비자 개인정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [고객 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
@@ -125,7 +125,7 @@ ht-degree: 6%
       + [사용자 지정 목표 빌드를 위한 모범 사례](/help/dsp/optimization/custom-goal-best-practices.md)
    + [성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [문제 해결 성능](/help/dsp/optimization/troubleshooting-performance.md)
-+ 대상자 {#audiences}
++ 대상 {#audiences}
    + [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
    + 세그먼트 {#segments}
       + [사용자 지정 세그먼트 만들기 및 구현](/help/dsp/audiences/custom-segment-create.md)
@@ -137,7 +137,7 @@ ht-degree: 6%
       + [세그먼트 공유 또는 공유 중지](/help/dsp/audiences/segment-share.md)
       + [세그먼트에 대한 추적 픽셀 보기](/help/dsp/audiences/segment-view-pixels.md)
       + [세그먼트 삭제](/help/dsp/audiences/segment-delete.md)
-   + 대상자 {#reusable-audiences}
+   + 대상 {#reusable-audiences}
       + [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)
       + [재사용 가능한 대상 복제](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [재사용 가능한 대상 편집](/help/dsp/audiences/reusable-audience-edit.md)
@@ -215,6 +215,15 @@ ht-degree: 6%
       + [편집 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
       + [삭제 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)
++ 플래너 {#planner}
+   + [DSP Planner 도구 정보](/help/dsp/planner/planner-about.md)
+   + [연결된 TV 도달 계획 만들기](/help/dsp/planner/planner-create.md)
+   + [연결된 TV 도달 계획 복제](/help/dsp/planner/planner-duplicate.md)
+   + [연결된 TV 도달 계획 편집](/help/dsp/planner/planner-edit.md)
+   + [연결된 TV 도달 계획에 대한 설정](/help/dsp/planner/planner-settings.md)
+   + [연결된 TV 도달 계획에 대한 Forecast 내보내기](/help/dsp/planner/planner-export.md)
+   + [연결된 TV 도달 계획에 대한 예측 재생성](/help/dsp/planner/planner-forecast.md)
+   + [연결된 TV 도달 계획 보관](/help/dsp/planner/planner-archive.md)
 + 관리 {#admin}
    + [프로필 편집](/help/dsp/admin/user-own-profile-edit.md)
    + 사용자 {#users}
@@ -227,6 +236,6 @@ ht-degree: 6%
    + 알림 {#notifications}
       + [경고 구독 기본 정보](/help/dsp/admin/alerts-about.md)
       + [경고 구독 관리](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloud와 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [고객 지원](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
-+ [Adobe Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
