@@ -4,9 +4,9 @@ user-guide-description: Advertising DSP 및 Advertising Search와 다른 Adobe E
 breadcrumb-title: Experience Cloud와 통합
 role: User, Developer
 index: true
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 676b7bb7303369a8e212a27cec99c0e1f88da9ae
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '198'
 ht-degree: 12%
 
 ---
@@ -45,5 +45,5 @@ ht-degree: 12%
       + [DSP 캠페인에서 노출 및 클릭 데이터 수집](/help/integrations/audience-manager/media-data-integration/collect.md)
       + [사용 사례](/help/integrations/audience-manager/media-data-integration/use-cases.md)
    + [광고 고객을 위한 Adobe Audience Analytics](/help/integrations/audience-manager/audience-analytics.md)
-+ [Adobe Target for DSP Ads에서 A/B 테스트 구성](/help/integrations/target/overview-ab-tests.md)
++ [Adobe Target for DSP Ads에서 A/B 테스트 구성](/help/integrations/target/ab-tests-dsp.md)
 + [Adobe Advertising 통합에 대한 비디오 Tutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
