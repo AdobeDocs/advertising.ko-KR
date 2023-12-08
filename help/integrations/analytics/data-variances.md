@@ -3,9 +3,9 @@ title: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Ado
 description: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
+source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
 workflow-type: tm+mt
-source-wordcount: '3265'
+source-wordcount: '3217'
 ht-degree: 0%
 
 ---
@@ -246,7 +246,7 @@ Adobe Advertising은 Analytics에 [광고 특정 트래픽 지표 및 관련 차
 
 ### 사용 [!UICONTROL AMO ID Instances] Adobe Advertising이 아닌 Dimension을 사용한 클릭 대용
 
-를 사용할 수 없기 때문에 [!UICONTROL Adobe Advertising Clicks] 온사이트 차원을 사용하면 클릭과 동일한 값을 찾을 수 있습니다. 방문 횟수를 대체품으로 사용하고 싶을 수 있지만 각 방문자에게 여러 번의 방문이 있을 수 있으므로 방문 횟수는 최선의 옵션이 아닙니다. ( &quot; 참조[클릭과 방문의 차이점](#clicks-vs-visits).&quot; 대신 을 사용하는 것이 좋습니다. [!UICONTROL AMO ID Instances]: AMO ID가 캡처된 횟수입니다. While [!UICONTROL AMO ID Instances] 일치하지 않음 [!UICONTROL Adobe Advertising Clicks] 맞습니다. 사이트에서의 클릭 트래픽을 측정하는 데 가장 적합한 옵션입니다. 자세한 내용은 &quot;[데이터 유효성 검사 [!DNL Analytics for Advertising]](#data-validation).&quot;
+를 사용할 수 없기 때문에 [!UICONTROL AMO Clicks] 온사이트 차원을 사용하면 클릭과 동일한 값을 찾을 수 있습니다. 방문 횟수를 대체품으로 사용하고 싶을 수 있지만 각 방문자에게 여러 번의 방문이 있을 수 있으므로 방문 횟수는 최선의 옵션이 아닙니다. ( &quot; 참조[클릭과 방문의 차이점](#clicks-vs-visits).&quot; 대신 을 사용하는 것이 좋습니다. [!UICONTROL AMO ID Instances]: AMO ID가 캡처된 횟수입니다. While [!UICONTROL AMO ID Instances] 일치하지 않음 [!UICONTROL AMO Clicks] 맞습니다. 사이트에서의 클릭 트래픽을 측정하는 데 가장 적합한 옵션입니다. 자세한 내용은 &quot;[클릭스루 데이터 유효성 검사 [!DNL Analytics for Advertising]](#data-validation).&quot;
 
 ![예 [!UICONTROL AMO ID Instances] 대신 [!UICONTROL Adobe Advertising Clicks] 지원되지 않는 차원의 경우](/help/integrations/assets/a4adc-amo-id-instances.png)
 

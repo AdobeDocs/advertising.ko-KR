@@ -3,9 +3,9 @@ title: 사용한 Adobe Advertising ID [!DNL Analytics]
 description: 사용한 Adobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
+source-git-commit: 3e6c90c1fc36ffc8fd404b5fe589f1f79f69a096
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -264,7 +264,7 @@ where:
 
 Analytics 보고서에서 를 검색하여 AMO ID 데이터를 찾을 수 있습니다. [!UICONTROL AMO ID] 차원 및 사용 [!UICONTROL AMO ID Instances] 지표. 다음 [!UICONTROL AMO ID] 차원은 캡처된 모든 AMO ID 값을 포함하는 반면, [!UICONTROL AMO ID Instances] 지표는 사이트에서 AMO ID 값을 캡처한 빈도를 나타냅니다. 예를 들어 동일한 검색 광고를 4번 클릭했지만 Analytics가 7개의 사이트 항목을 추적한 경우, [!UICONTROL AMO ID Instances] 은(는) 7이고 은(는) [!UICONTROL Clicks] 4(4)가 됩니다.
 
-내의 모든 보고 또는 감사 [!DNL Analytics], 가장 좋은 방법은 해당 인스턴스와 함께 AMO ID를 사용하는 것입니다. 자세한 내용은 &quot;[데이터 유효성 검사 [!DNL Analytics for Advertising]](data-variances.md#data-validation)&quot; in &quot;예상 데이터 분산 between [!DNL Analytics] 및 Adobe Advertising.&quot;
+내의 모든 보고 또는 감사 [!DNL Analytics], 가장 좋은 방법은 해당 인스턴스와 함께 AMO ID를 사용하는 것입니다. 자세한 내용은 &quot;[클릭스루 데이터 유효성 검사 [!DNL Analytics for Advertising]](data-variances.md#data-validation)&quot; in &quot;예상 데이터 분산 between [!DNL Analytics] 및 Adobe Advertising.&quot;
 
 ## Analytics 분류 정보
 
