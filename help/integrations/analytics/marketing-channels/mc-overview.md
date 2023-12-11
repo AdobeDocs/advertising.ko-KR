@@ -3,16 +3,14 @@ title: 의 기본 사항 [!DNL Marketing Channels]
 description: 에 대한 주요 정보 알아보기 [!DNL Analytics Marketing Channels] that [!DNL Analytics for Advertising] 사용자가 이해해야 합니다.
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 29b49e8fa54580d7cdd62f9a10fd2616def4694b
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
 # 의 기본 사항 [!DNL Analytics Marketing Channels]
-
-*Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
 
 이 페이지에서는 다음에 대한 주요 정보를 설명합니다. [!DNL Analytics Marketing Channels] that [!DNL Analytics for Advertising] 사용자가 이해해야 합니다.
 
@@ -38,13 +36,12 @@ ht-degree: 0%
 
 Adobe은 분석 팀과 함께 포괄적인 집합 구성을 권장합니다. [!DNL Marketing Channels] 처리 규칙을 사용하여 비즈니스와 관련된 모든 채널을 추적합니다. 이렇게 하면 강력한 속성 보고를 생성할 수 있습니다.
 
-Adobe 광고가 사용자 지정 마케팅 채널을 만드는 데 필요한 신호에 어떻게 기여할 수 있는지 이해하려면 &quot;[광고 ID를 사용하여 만들기 [!DNL Marketing Channels] 규칙](mc-ids.md).&quot;
+Adobe Advertising이 사용자 지정 마케팅 채널을 만드는 데 필요한 신호에 어떻게 기여할 수 있는지 이해하려면 &quot;[광고 ID를 사용하여 만들기 [!DNL Marketing Channels] 규칙](mc-ids.md).&quot;
 
 >[!MORELIKETHIS]
 >
->* [Adobe 광고 ID를 사용하여 만들기 [!DNL Marketing Channels] 처리 규칙](mc-ids.md)
->* [Adobe 광고와 간에 채널 데이터가 다를 수 있는 이유 [!DNL Marketing Channels]](mc-data-variances.md)
->* [사용 [!DNL Analytics Marketing Channels] Adobe 광고 데이터 포함](mc-ac-data.md)
->* [비디오: 사용 [!DNL Marketing Channels] Adobe 광고 보고용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Adobe Advertising ID를 사용하여 만들기 [!DNL Marketing Channels] 처리 규칙](mc-ids.md)
+>* [Adobe Advertising과 간에 채널 데이터가 다를 수 있는 이유 [!DNL Marketing Channels]](mc-data-variances.md)
+>* [사용 [!DNL Analytics Marketing Channels] Adobe Advertising 데이터 포함](mc-ac-data.md)
+>* [비디오: 사용 [!DNL Marketing Channels] Adobe Advertising 보고용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
-

@@ -3,22 +3,20 @@ title: 용 JavaScript 코드 [!DNL Analytics for Advertising]
 description: 용 JavaScript 코드 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 8689bc2b5532b0e75ebf3cee14a42fa733d5ded5
+source-git-commit: 9158ed3fc8b35b5f79f217b619c2ff8e596895ab
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
 
 # 용 JavaScript 코드 [!DNL Analytics for Advertising]
 
-*Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
-
 *Advertising DSP만 있는 광고주*
 
-Advertising DSP용 [!DNL Analytics for Advertising] 통합은 뷰스루 및 클릭스루 사이트 상호 작용을 추적합니다. 클릭스루 방문은 웹 페이지에서 표준 Adobe Analytics 코드에 의해 추적됩니다. [!DNL Analytics] 코드는 랜딩 페이지 URL의 AMO ID 및 EF ID 매개 변수를 캡처하고 해당 예약된 eVar에서 추적합니다. 웹 페이지에 JavaScript 코드 조각을 배포하여 뷰스루 방문을 추적할 수 있습니다.
+Advertising DSP용 [!DNL Analytics for Advertising] 통합은 뷰스루 및 클릭스루 사이트 상호 작용을 추적합니다. 클릭스루 방문은 웹 페이지에서 표준 Adobe Analytics 코드에 의해 추적됩니다. [!DNL Analytics] 코드는 랜딩 페이지 URL의 AMO ID 및 EF ID 매개 변수를 캡처하고 해당 예약된 항목으로 추적합니다 [!DNL eVars]. 웹 페이지에 JavaScript 코드 조각을 배포하여 뷰스루 방문을 추적할 수 있습니다.
 
-사이트 방문의 첫 번째 페이지 보기에서 Adobe Advertising JavaScript 코드는 방문자가 이전에 광고를 보거나 클릭했는지 확인합니다. 사용자가 이전에 클릭스루를 통해 사이트로 들어오거나 광고를 보지 않은 경우 방문자가 무시됩니다. 방문자가 광고를 보았으나 클릭스루를 통해 사이트에 들어가지 않은 경우 [전환 확인 기간 클릭](/help/integrations/analytics/prerequisites.md#lookback-a4adc) Adobe Advertising 내에서 를 설정하면 Adobe Advertising JavaScript 코드(또는 a)가 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 보조 ID를 생성하려면(`SDID`) 또는 b) Adobe Experience Platform 사용 [!DNL Web SDK] `generateRandomID` 생성 방법 `[!DNL StitchID]`. 두 ID 중 하나는 Adobe Advertising의 데이터를 방문자의 Adobe Analytics 히트에 연결하는 데 사용됩니다. 그런 다음 Adobe Analytics은 Adobe Advertising에 광고 노출과 연결된 AMO ID 및 EF ID를 쿼리합니다. 그런 다음 AMO ID 및 EF ID가 해당 eVar에서 채워집니다. 이 값은 지정된 기간(기본적으로 60일) 동안 지속됩니다.
+사이트 방문의 첫 번째 페이지 보기에서 Adobe Advertising JavaScript 코드는 방문자가 이전에 광고를 보거나 클릭했는지 확인합니다. 사용자가 이전에 클릭스루를 통해 사이트로 들어오거나 광고를 보지 않은 경우 방문자가 무시됩니다. 방문자가 광고를 보았으나 클릭스루를 통해 사이트에 들어가지 않은 경우 [전환 확인 기간 클릭](/help/integrations/analytics/prerequisites.md#lookback-a4adc) Adobe Advertising 내에서 를 설정하면 Adobe Advertising JavaScript 코드(또는 a)가 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 보조 ID를 생성하려면(`SDID`) 또는 b) Adobe Experience Platform 사용 [!DNL Web SDK] `generateRandomID` 생성 방법 `[!DNL StitchID]`. 두 ID 중 하나는 Adobe Advertising의 데이터를 방문자의 Adobe Analytics 히트에 연결하는 데 사용됩니다. 그런 다음 Adobe Analytics은 Adobe Advertising에 광고 노출과 연결된 AMO ID 및 EF ID를 쿼리합니다. 그런 다음 AMO ID 및 EF ID가 해당 필드에 채워집니다 [!DNL eVars]. 이 값은 지정된 기간(기본적으로 60일) 동안 지속됩니다.
 
 [!DNL Analytics] 사이트 트래픽 지표(예: 페이지 보기 수, 방문 횟수 및 체류 시간) 및 [!DNL Analytics] EF ID를 키로 사용하여 시간별로 Adobe Advertising을 수행하는 사용자 지정 또는 표준 이벤트입니다. 다음 [!DNL Analytics] 그런 다음 Adobe Advertising 속성 시스템을 통해 지표를 실행하여 전환을 클릭 및 노출 내역에 연결합니다.
 
@@ -107,8 +105,8 @@ JavaScript 라이브러리는 [!DNL Analytics] 및 Adobe Advertising을 사용�
 1. 를 엽니다. [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) 홈 페이지에 있습니다.
 1. 로 이동 [!UICONTROL Network] 탭.
 1. 다음에서 [!UICONTROL Solutions Filter] 도구 모음, 클릭 [!UICONTROL Adobe Advertising] 및 [!UICONTROL Analytics].
-1. 다음에서 [!UICONTROL Request URL – Hostname] 매개 변수 행, 찾기 `lasteventf-tm.everesttech.net`.
-1. 다음에서 [!UICONTROL Request – Parameters] 행에서 의 3단계와 유사하게 생성된 신호를 감사합니다.[을 사용하여 코드를 확인하는 방법 [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
+1. 다음에서 [!UICONTROL Request URL - Hostname] 매개 변수 행, 찾기 `lasteventf-tm.everesttech.net`.
+1. 다음에서 [!UICONTROL Request - Parameters] 행에서 의 3단계와 유사하게 생성된 신호를 감사합니다.[을 사용하여 코드를 확인하는 방법 [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
    * (Experience Cloud ID 서비스를 사용하는 구현) `visitorAPI.js` code) `Sdid` 매개 변수가 `Supplemental Data ID` Adobe Analytics 필터.
    * (Experience Platform을 사용하는 구현 [!DNL Web SDK] `alloy.js`code) 값을 `advertisingStitchID` 매개 변수가 `Sdid` Experience Platform 에지 네트워크로 전송됩니다.
    * 코드가 생성되지 않으면 Adobe Advertising 쿠키가에서 제거되었는지 확인합니다. [!UICONTROL Application] 탭. 페이지가 제거되면 페이지를 새로 고치고 프로세스를 반복합니다.
