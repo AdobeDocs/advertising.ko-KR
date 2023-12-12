@@ -3,9 +3,9 @@ title: 배치 변경 로그 보기
 description: 배치에 대한 변경 사항을 보는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: bcd4da87642125f173befb1cdff43330ec1145bc
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    * 항목에 메모를 추가하려면 커서를 [!UICONTROL Notes] 열에 대해 행을 지정한 다음 **[!UICONTROL Add Notes]**. 입력 필드에 텍스트를 입력한 다음 **[!UICONTROL Save]**.
 
-   * 팝업 창에서 항목에 대한 세부 정보를 보려면 커서를 창 위에 놓습니다. [!UICONTROL Notes] 행의 열을 선택한 다음 **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * 팝업 창에서 항목에 대한 세부 정보를 보려면 커서를 창 위에 놓습니다. [!UICONTROL Notes] 열에 대해 행을 지정한 다음 **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 
 >[!MORELIKETHIS]
@@ -42,4 +42,3 @@ ht-degree: 0%
 >* [배치에 대한 광고 일정 편집](placement-edit-ad-schedule.md)
 >* [배치 일시 중지 또는 활성화](placement-pause-activate.md)
 >* [배치 설정](placement-settings.md)
-
