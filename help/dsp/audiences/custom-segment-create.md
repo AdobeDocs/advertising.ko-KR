@@ -3,16 +3,16 @@ title: 사용자 지정 세그먼트 만들기 및 구현
 description: 광고에 노출된 사용자 또는 웹 페이지를 방문하는 사용자를 추적하기 위해 사용자 지정 세그먼트를 만들고 구현하는 방법에 대해 알아봅니다.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # 사용자 지정 세그먼트 만들기 및 구현
 
-사용자 지정 DSP 세그먼트를 만들고 구현하여 자신의 자사 대상 데이터를 수집할 수 있습니다. a) 데스크탑, 모바일 및 CTV 디바이스에서 광고에 노출된 사용자와 b) 특정 웹 페이지를 방문하는 사용자를 추적하려면 세그먼트를 사용할 수 있습니다. 나중에 추가 광고를 사용하여 세그먼트의 사용자를 다시 타겟팅하거나 세그먼트의 사용자가 추가 광고를 받지 못하도록 할 수 있습니다.
+사용자 지정 DSP 세그먼트를 만들고 구현하여 자신의 자사 대상 데이터를 수집할 수 있습니다. 세그먼트를 사용하여 a) 데스크탑 및 모바일 디바이스에서 광고에 노출된 사용자 및 b) 특정 웹 페이지를 방문하는 사용자를 추적할 수 있습니다. 나중에 추가 광고를 사용하여 세그먼트의 사용자를 다시 타겟팅하거나 세그먼트의 사용자가 추가 광고를 받지 못하도록 할 수 있습니다.
 
 >[!NOTE]
 >
@@ -47,10 +47,10 @@ ht-degree: 0%
          1. 배포를 위해 광고주 또는 웹 사이트 담당자에게 태그를 제공합니다.
 
             광고주의 IT 부서 또는 다른 그룹은 태그 배포를 예약하거나 그에 대한 정보를 받아야 할 수 있습니다.
-      * 데스크탑, 모바일 또는 CTV 장치에서 광고 단위에 노출된 사용자를 추적하려면 다음을 수행하십시오.
+
+      * 데스크탑 또는 모바일 장치에서 광고 장치에 노출된 사용자를 추적하려면 다음 작업을 수행하십시오.
 
          1. 라는 레이블이 지정된 노출 추적 태그를 복사합니다.[!UICONTROL Desktop or mobile ads].&quot;
-
 
 1. 다음 중 하나에 태그를 추가합니다. [!UICONTROL Pixel] 각 관련 광고 또는 [!UICONTROL Event Pixels] 의 섹션 [[!UICONTROL Tracking] 각 관련 배치에 대한 설정](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
@@ -71,4 +71,3 @@ ht-degree: 0%
 >* [재사용 가능한 대상 만들기](reusable-audience-create.md)
 >* [사용 가능한 타사 데이터 공급자](third-party-data-providers.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
-
