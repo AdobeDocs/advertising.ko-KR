@@ -3,9 +3,9 @@ title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 2a4920bc8a9b45061fb0b3773e5a90954ce2dff5
+source-git-commit: 6b820606208b662eaa1f5c4d2e63bb08f1ac5885
 workflow-type: tm+mt
-source-wordcount: '3755'
+source-wordcount: '3749'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
 | [!UICONTROL User SE Account ID] | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID입니다. |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] 캠페인 전용) 단일 노출에 대해 비디오가 재생된 평균 시간(비디오 재생 시간 포함). |
 | [!UICONTROL Video Plays] | ([!DNL Meta] 캠페인만 해당) 비디오가 재생되기 시작하는 횟수입니다. 재생 횟수는 제외됩니다. |
-| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], 및 [!UICONTROLV100% 카운트에서 재생되는 비디오] | (비디오 광고) 끝까지 재생되는 비디오의 횟수는 25%, 50%, 75% 또는 100%입니다. |
+| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], 및 [!UICONTROL Video Played at 100 Percent Count] | (비디오 광고) 끝까지 재생되는 비디오의 횟수는 25%, 50%, 75% 또는 100%입니다. |
 | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], 및 [!UICONTROL VideoQuartile100Rate] | (비디오 광고) 끝까지 재생되는 비디오의 25%, 50%, 75% 또는 100%의 비율입니다. |
 | [!UICONTROL View Rate] | (비디오 광고) 보기 또는 참여 수를 광고(비디오 및 썸네일 노출) 표시 횟수로 나눈 값입니다. |
 | [!UICONTROL Views] | (비디오 광고) 사람들이 광고를 시청하거나 광고에 참여한 횟수입니다. |
