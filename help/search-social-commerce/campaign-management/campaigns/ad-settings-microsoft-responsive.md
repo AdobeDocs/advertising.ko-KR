@@ -1,24 +1,30 @@
 ---
 title: '[!DNL Microsoft® Advertising] 반응형 광고 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 반응형 광고.
-exl-id: bbe06bdb-c765-4d30-a609-03f476c4ee54
+exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: dae8d3726b48240a2cad7d3e188694f72934295f
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft® Advertising] 반응형(대상) 광고 설정
 
-에서 이미지 기반 대상 광고에 반응형 광고 형식을 사용할 수 있습니다. [!DNL Microsoft® Audience Network]. 광고 네트워크는 광고 요소의 가장 효과적인 조합을 사용하여 반응형 광고를 동적으로 조합합니다.
+에서 이미지 기반, 비디오 기반 및 연결된 TV 비디오 기반 대상 광고에 반응형 광고 형식을 사용할 수 있습니다. [!DNL Microsoft® Audience Network]. 광고 네트워크는 광고 요소의 가장 효과적인 조합을 사용하여 반응형 광고를 동적으로 조합합니다.
+
+## [!UICONTROL Ad Settings] (비디오 광고의 경우) 및 [!UICONTROL Audience CTV Video Ad Details]
+
+**[!UICONTROL Videos]:** 한 비디오 광고의 URL.
+
+**[!UICONTROL Status]:** 광고 상태.
+
+## [!UICONTROL Responsive Ad Details] (이미지 광고의 경우)
 
 >[!NOTE]
 >
 >광고 네트워크는 매장의 제품 정보 및 광고 그룹 수준의 사용자 타겟팅을 사용하여 가맹점 센터 스토어에 연결된 대상자 캠페인용 광고를 자동으로 생성합니다. 광고를 수동으로 만들 필요가 없습니다.
-
-## [!UICONTROL Responsive Ad Details]
 
 **[!UICONTROL Images]:** 광고용 JPEG 또는 PNG 이미지 최대 15개. 종횡비가 1.91:1인 이미지를 하나 이상 포함하십시오. 다음에 대해 허용되는 종횡비 및 치수를 참조하십시오. [대상 광고 이미지](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
