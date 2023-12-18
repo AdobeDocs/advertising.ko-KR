@@ -3,9 +3,9 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 개방형 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
+source-git-commit: bb8e99e94a1425cf86afc848bae8f2f92b4d487d
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 자�
 | 나열된 SSP | 회사 | Seat ID | 프로그램 보증 지원 | 지역 | 지원되는 통화 | 비디오 데스크탑 | 비디오 모바일 | 비디오 CTV | 디스플레이 데스크탑 | 디스플레이 모바일 | 기본 디스플레이 | 오디오 데스크탑 및 모바일 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | [!DNL AdColony] (이전 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | 아니요 | 글로벌 | 미국 달러 | x | x |  | x | x |  |  |
-| [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | 아니요 | 글로벌 | USD, EUR, GBP |  |  |  |  |  |  | x |
+| [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | 예 | 글로벌 | USD, EUR, GBP |  |  |  |  |  |  | x |
 | [!DNL AppNexus] | [!DNL Xandr] | 비디오 시트 ID: 9094<br>시트 ID 표시: 3939 | 아니요 | 글로벌 | 미국 달러 | x | x | x | x | x |  |  |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] 또는 Adobe Advertising | 아니요 | 미국 + EMEA | USD, EUR | x | x | x | x | x |  |  |
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | 아니요 | 미국/CA | 미국 달러 | x | x | x | x | x |  |  |
