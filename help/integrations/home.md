@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: d8980d697c0a3a05af2ef2d5d947efe68c67e073
+source-git-commit: f6b23b79d2a7f8d743849efc9182198ef5b39b4a
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2023년 12월 11일 | 도움말 | 새 문서는에서 A/B 테스트를 설정하는 방법을 설명합니다. [!DNL Target] 검색, 소셜 및 상거래 광고의 클릭스루 트래픽과 테스트의 측정 및 시각화 방법에 대한 팁에 대한 검색 [!DNL Analytics]. | 를 참조하십시오.[검색, 소셜 및 상거래 광고를 위해 Adobe Target에서 A/B 테스트 구성](/help/integrations/target/ab-tests-search.md).&quot; |
+| 2023년 12월 16일 | 도움말 | 새 문서는에서 A/B 테스트를 설정하는 방법을 설명합니다. [!DNL Target] 검색, 소셜 및 상거래 광고의 클릭스루 트래픽과 테스트의 측정 및 시각화 방법에 대한 팁에 대한 검색 [!DNL Analytics]. | 를 참조하십시오.[검색, 소셜 및 상거래 광고를 위해 Adobe Target에서 A/B 테스트 구성](/help/integrations/target/ab-tests-search.md).&quot; |
 | 2023년 8월 8일 | [!DNL Analytics for Advertising] | 일부 [!DNL Analytics] 표준, 사용자 지정 및 예약 전환 지표와 트래픽 지표를 포함한 성공 이벤트 지표는 DSP과 검색, 소셜 및 상거래에서 자동으로 사용할 수 있습니다. 이제 기존 성공 지표를 기반으로 자체 성공 지표를 구성할 수도 있습니다 [!DNL Analytics] [!DNL eVars] 및 [!DNL props] 벼락치기로 [!DNL eVar]- 및 [!DNL prop]-level 데이터를 사용자 지정 성공 이벤트에 추가합니다. | 를 참조하십시오.[Adobe Analytics에서 전환 지표 만들기 [!DNL eVars] 및 [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot; |
 | 2023년 7월 13일 | 보고 | (DSP 사용자 [!DNL Analytics for Advertising]) 이제 연결된 TV(CTV) 배치에 대한 뷰스루 전환이 Adobe Analytics 내에서 사용할 수 있는 전환 데이터에 포함됩니다. | 의 &quot;통합 사용 방법 예&quot;에 대한 섹션을 참조하십시오.[개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
 | 2022년 11월 1일 | 도움말 | 새 문서에서는에서 Advertising DSP과 Adobe Target 간에 클릭스루 및 뷰스루 신호 공유를 구현하고 A/B 테스트 활동을 설정하는 방법을 설명합니다. [!DNL Target] DSP 광고의 경우 및 테스트 데이터를 보기 위해 Adobe Analytics Analysis Workspace을 설정하는 방법. | 를 참조하십시오.[Advertising DSP Ads용 Adobe Target에서 A/B 테스트 구성](/help/integrations/target/ab-tests-dsp.md).&quot; |
