@@ -3,10 +3,10 @@ title: 자사 대상을 활성화할 대상 소스 만들기
 description: 소스를 만들어 대상자를 계정 또는 광고주 계정으로 가져오는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 3347bfbaec92bb13428a39207954f895eb4f5d6d
+source-git-commit: 6c918b387067237de5d1eae42ae8ad253884d761
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 3%
+source-wordcount: '158'
+ht-degree: 0%
 
 ---
 
@@ -14,19 +14,21 @@ ht-degree: 3%
 
 <!-- Will this remain for admin users/Adobe Account Team users only? -->
 
-소스를 만들어 DSP 계정 또는 광고주 계정으로 대상자를 가져옵니다. 현재,에서 대상자를 가져올 수 있습니다. [다음 [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko).
+DSP에서 소스를 만들어 자사 대상을 DSP 계정 또는 광고주 계정으로 가져옵니다.
 
->[!NOTE]
->
->다음에 대한 소스를 만든 후 [!DNL Real-Time CDP], 을(를) 활성화해야 합니다. [!DNL Real-Time CDP] 내의 Adobe Advertising DSP 대상을 통한 대상 [!DNL Real-Time CDP] 가져오기를 시작합니다. 다음을 참조하십시오 [활성화 워크플로의 단계](source-about.md#workflow-sources).
+특정 고객 데이터 플랫폼에서 세그먼트를 수집하는 데 필요한 추가 단계는 [대상별 활성화 워크플로](source-about.md)
 
 1. 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
-1. 클릭 [!UICONTROL Add Source].
+1. 클릭 **[!UICONTROL Add Source]**.
 
 1. 다음에서 [!UICONTROL Select a Type] 메뉴에서 소스 유형을 선택합니다.
 
-   *[!UICONTROL RT-CDP]*: 이 소스 유형, 대상 [다음 [!DNL Adobe Real-Time Customer Data Profile]](source-about.md)는 유일한 옵션입니다.
+   * *[!UICONTROL RT-CDP]*: [다음 [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
+
+   <!-- * *[!UICONTROL ActionIQ]*: The [[!DNL ActionIQ] customer data platform](source-about.md). -->
+
+   * *[!UICONTROL Tealium CDP]*: [[!DNL Tealium] 고객 데이터 플랫폼](source-about.md).
 
 1. 다음을 지정합니다. [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* 또는 *[!UICONTROL Account]*.
 
@@ -36,15 +38,14 @@ ht-degree: 3%
 
 1. 클릭 **[!UICONTROL Save]**.
 
-1. Experience Platform에서 를 사용하여 Advertising DSP 대상 연결을 만듭니다. [!UICONTROL Source Key] DSP 소스 설정에서 생성되었습니다.
-
-   DSP 대상 연결을 활성화하고, 세그먼트를 선택하고, 제어 권한에 액세스하는 방법에 대한 지침은 &quot;[Adobe Advertising Cloud DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+>[!NOTE]
+>
+>고객 데이터 플랫폼에 대한 소스를 만든 후에는 추가 단계를 완료해야 합니다. 다음을 참조하십시오. [활성화 워크플로 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> 및 [활성화 워크플로 [!DNL Tealium]](source-tealium.md).
 
 >[!MORELIKETHIS]
 >
 >* [대상 소스 설정](source-settings.md)
 >* [대상 소스에서 인증된 세그먼트 활성화 정보](source-about.md)
->* [지속 ID 파트너에서 인증된 세그먼트 활성화](source-durable-id.md)<!-- title?-->
+>* [범용 ID 파트너에서 인증된 세그먼트 활성화](source-universal-id.md)<!-- title?-->
 >* [Adobe Advertising Cloud DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
-

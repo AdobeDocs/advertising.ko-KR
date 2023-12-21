@@ -3,7 +3,7 @@ title: 대상자 설정
 description: 사용 가능한 대상 설정에 대한 설명을 참조하십시오.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 53b52066eda55b3338a8a11773fdb8924211bddc
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 타사 세그먼트
 
-(선택 사항) Adobe 광고 타사 데이터 분류법을 통해 대상 구성에 포함할 수 있는 모든 표준 세그먼트입니다.
+(선택 사항) Adobe Advertising 타사 데이터 분류법을 통해 대상 구성에 포함할 수 있는 모든 표준 세그먼트입니다.
 
 ## 자사 세그먼트
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Adobe 세그먼트
 
-(선택 사항) 모두 [!DNL Adobe Real-Time Customer Data Profile]대상 구성에 포함할 , Adobe Analytics 또는 Adobe Audience Manager 세그먼트.
+(선택 사항) 모두 [!DNL Adobe Real-Time Customer Data Platform]대상 구성에 포함할 , Adobe Analytics 또는 Adobe Audience Manager 세그먼트.
 
 ## 사용자 지정 세그먼트
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 저장된 대상자
 
-(선택 사항) 대상 구성에 포함할 Audience Library에 내장된 모든 기존 대상.
+(선택 사항) 대상자 구성에 포함할 대상자 라이브러리에 내장된 기존 대상자
 
 >[!MORELIKETHIS]
 >
@@ -41,4 +41,3 @@ ht-degree: 0%
 >* [사용자 지정 세그먼트 만들기 및 구현](custom-segment-create.md)
 >* [만들기 및 구현 [!UICONTROL CCPA Opt-Out-of-Sale] 세그먼트](ccpa-opt-out-segment-create.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
-

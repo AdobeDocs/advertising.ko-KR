@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: eb4db7c91d98cd14e9006f0647f964cdf054962f
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '949'
 ht-degree: 3%
 
 ---
@@ -150,7 +150,11 @@ ht-degree: 3%
       + [대상 세그먼트 논리 구문](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + 소스 {#sources}
       + [대상 소스에서 인증된 세그먼트 활성화 정보](/help/dsp/audiences/sources/source-about.md)
-      + [지속 ID 파트너의 인증된 세그먼트 활성화](/help/dsp/audiences/sources/source-durable-id.md)
+      + 고객 데이터 플랫폼별 워크플로 {#sources-workflows}
+         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
+            + [과 DSP 통합을 사용하기 위한 워크플로우 [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+            + [범용 ID 파트너에서 인증된 세그먼트 활성화](/help/dsp/audiences/sources/source-universal-id.md)
+         + [과 DSP 통합을 사용하기 위한 워크플로우 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
       + [자사 대상을 활성화할 대상 소스 만들기](/help/dsp/audiences/sources/source-create.md)
       + [대상 소스 설정](/help/dsp/audiences/sources/source-settings.md)
    + [사용 가능한 타사 데이터 공급자](/help/dsp/audiences/third-party-data-providers.md)

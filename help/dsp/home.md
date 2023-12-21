@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: e1ae2bb601bc00dad8c611a00cb6ba88c9c57dee
+source-git-commit: 6b2ed619b5f902207720b646693253244cd7b567
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2023년 12월 21일 | [!UICONTROL Audiences] | 이제 설명서에서 자사 데이터를 공유할 수 있습니다. [!DNL Tealium] DSP을 사용하는 고객 데이터 플랫폼 [!DNL Amazon Web Services]. 다음을 사용하여 DSP 배치를 세그먼트에 타깃팅할 수 있습니다. [!DNL RampIDs]. 다음에 대한 배치 설정 내 [!UICONTROL Audience Targeting]공유 세그먼트는 [!UICONTROL First Party Segments] 목록을 표시합니다. | 를 참조하십시오.[대상 소스에서 인증된 세그먼트 활성화 정보](/help/dsp/audiences/sources/source-about.md)&quot; 및 &quot;[과 DSP 통합을 사용하기 위한 워크플로우 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
 | 2023년 12월 6일 | 플래너 | (Beta 기능) 새로운 플래너 도구는 지정된 예산 및 타깃팅 기준에 따라 연결된 TV(CTV) 배치의 가구 수준의 고유 도달 범위를 예측하는 데 도움이 됩니다. 여러 계획을 평가한 후 원하는 결과에 가장 적합한 패키지 및 배치를 구현할 수 있습니다. | 를 참조하십시오.[DSP Planner 도구 정보](/help/dsp/planner/planner-about.md).&quot; |
 |  | 최적화 | 두 가지 새로운 클릭 기반 최적화 목표는 모든 사용자가 사용할 수 있습니다. **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** 및 **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | 를 참조하십시오.[최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md)&quot; 및 &quot;[성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
 | 2023년 9월 27일 | 최적화 | 도달 범위를 기반으로 한 두 가지 새로운 최적화 목표 **[!UICONTROL Always Max Bid and Maximize Reach]** 및 **[!UICONTROL Lowest Cost per Reach]**&#x200B;는 각각 동일한 수준의 노출 또는 지출을 사용하여 가능한 한 많은 고유한 가구에 도달하는 데 도움이 됩니다. 두 목표 모두 패키지 수준과 배치 수준 모두에서 사용할 수 있습니다. | 를 참조하십시오.[최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md).&quot; |
