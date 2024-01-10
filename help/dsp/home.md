@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: c21f003c3603ff5d8a303f688b11be0a123f920d
+source-git-commit: b013270066876069d4c548bc821dc9d932f0f0d7
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1949'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024년 1월 10일 | [!UICONTROL Placements] | 이제 스프레드시트를 사용하여 여러 배치에 대한 광고 일정을 빠르게 사용자 정의할 수 있습니다.<ul><li>배치에 대한 광고 예약 템플릿을 다운로드할 수 있습니다. 필요에 따라 다운로드한 파일에서 비행 날짜 및 광고 순환을 편집할 수 있습니다.</li><li>그런 다음 편집된 광고 일정 템플릿을 업로드할 수 있습니다.</li></ul> | 를 참조하십시오.[배치에 대한 광고 일정 편집](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).&quot; |
 | 2023년 12월 21일 | [!UICONTROL Audiences] | 이제 설명서에서 자사 데이터를 공유할 수 있습니다. [!DNL Tealium] DSP을 사용하는 고객 데이터 플랫폼 [!DNL Amazon Web Services]. 다음을 사용하여 DSP 배치를 세그먼트에 타깃팅할 수 있습니다. [!DNL RampIDs]. 다음에 대한 배치 설정 내 [!UICONTROL Audience Targeting]공유 세그먼트는 [!UICONTROL First Party Segments] 목록을 표시합니다. | 를 참조하십시오.[대상 소스에서 인증된 세그먼트 활성화 정보](/help/dsp/audiences/sources/source-about.md)&quot; 및 &quot;[과 DSP 통합을 사용하기 위한 워크플로우 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
 | 2023년 12월 6일 | 플래너 | (Beta 기능) 새로운 플래너 도구는 지정된 예산 및 타깃팅 기준에 따라 연결된 TV(CTV) 배치의 가구 수준의 고유 도달 범위를 예측하는 데 도움이 됩니다. 여러 계획을 평가한 후 원하는 결과에 가장 적합한 패키지 및 배치를 구현할 수 있습니다. | 를 참조하십시오.[DSP Planner 도구 정보](/help/dsp/planner/planner-about.md).&quot; |
 |  | 최적화 | 두 가지 새로운 클릭 기반 최적화 목표는 모든 사용자가 사용할 수 있습니다. **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** 및 **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | 를 참조하십시오.[최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md)&quot; 및 &quot;[성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |

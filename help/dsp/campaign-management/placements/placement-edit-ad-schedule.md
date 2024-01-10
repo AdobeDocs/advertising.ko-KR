@@ -3,44 +3,52 @@ title: 배치에 대한 광고 일정 편집
 description: 배치에 첨부된 광고의 광고 일정을 변경하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 0b89d346aa7d1443e50605e1300a6a3645fe9b21
+source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # 배치에 대한 광고 일정 편집
 
-<!--
+## 하나 이상의 배치에 대한 광고 일정 편집
 
-## Edit the Ad Schedules for One or More Placements
+를 사용하여 여러 배치에 첨부된 광고의 예약된 비행 날짜 및 광고 순환을 변경할 수 있습니다. [!DNL Microsoft Excel] 스프레드시트입니다. 각 광고는 여러 비행 중에 활성화될 수 있습니다.
 
-You can change the scheduled flight dates and ad rotation for the ads attached to multiple placements using a [!DNL Microsoft Excel] spreadsheet. Each ad can be active during multiple flights.
+1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
 
-1. In the main menu, click **[!UICONTROL Campaigns]**.
+1. 캠페인의 이름을 클릭합니다.
 
-1. Click the name of the campaign.
+1. 하위 메뉴에서 **[!UICONTROL Placements]**.
 
-1. In the submenu, click **[!UICONTROL Placements]**.
+1. 광고 데이터를 다운로드할 각 배치 옆의 확인란을 선택합니다.
 
-1. Select the check box next to each placement whose ad data you want to download.
+1. 일괄 작업 도구 모음에서 를 클릭합니다 **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
 
-1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
+1. 파일을 사용할 수 있으면 **[!UICONTROL Download]** 브라우저의 일반적인 절차에 따라 워크시트 파일(XLSX 형식)을 다운로드할 수 있는 브라우저 페이지 맨 위에 있는 알림입니다.
 
-1. When the file is available, click **[!UICONTROL Download]** in the notification at the top of the browser page to download a worksheet file (in XLSX format) according to your browser's normal procedure..
+   ![준비 알림 다운로드](/help/dsp/assets/download-ready.png "준비 알림 다운로드")
 
-   ![Download Ready notification](/help/dsp/assets/download-ready.png "Download Ready notification")
+1. 다운로드한 파일을 열고 필요에 따라 비행 정보를 편집한 다음 업데이트된 파일을 저장합니다.
 
-1. Open the downloaded file and edit the flight dates as needed.
+   * 플랜을 추가하려면 플랜에 포함할 각 광고 행에 대한 플라이트 날짜를 다음 방법으로 지정합니다. **[!UICONTROL Flight N Start Date]** 및 **[!UICONTROL Flight N End Date]** 열. 각 날짜에 대해 YYYY-MM-DD 형식을 사용합니다.
 
-1. Upload the edited ad schedule template:
+     예를 들어 첫 번째 비행에 있는 광고의 경우 [!UICONTROL Flight 1 Start Date] 및 [!UICONTROL Flight 1 End Date] 필드. 광고 행이 파일에 아직 포함되어 있지 않은 경우 새 행에 필요한 광고 정보를 입력합니다.
 
-   1. Select the check box next to each applicable placement.
+     비어 있는 플라이트 날짜 필드가 있는 모든 광고는 비참여 광고로 처리됩니다.
 
-   1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]**, and specify the file to upload.
+   * 비행에 대한 광고를 균등하게 회전하려면 &quot;**[!UICONTROL Even]**&#x200B;관련 항목 내 &quot; **[!UICONTROL Flight N Weight]** 필드(예: [!UICONTROL Flight 1 Weight]).
 
--->
+   * 비행에 대한 광고를 불균일하게 회전하려면 관련 부분에서 각 광고를 회전시킬 상대적 가중치를 백분율로 입력합니다 **[!UICONTROL Flight N Weight]** 필드(예: [!UICONTROL Flight 1 Weight]).
+
+     각 항공편의 총 가중치는 100이어야 합니다.
+
+1. 편집된 광고 일정 템플릿을 업로드합니다.
+
+   1. 적용 가능한 각 배치 옆의 확인란을 선택합니다.
+
+   1. 일괄 작업 도구 모음에서 를 클릭합니다 **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]**&#x200B;을 클릭하고 업로드할 파일을 지정합니다.
 
 ## 단일 배치에 대한 광고 일정 편집
 
