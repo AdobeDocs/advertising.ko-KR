@@ -3,9 +3,9 @@ title: 배치에 대한 광고 일정 편집
 description: 배치에 첨부된 광고의 광고 일정을 변경하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
+source-git-commit: 042cd16591869668339a27fa36de57aa1825dd51
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,15 @@ ht-degree: 0%
 
    ![준비 알림 다운로드](/help/dsp/assets/download-ready.png "준비 알림 다운로드")
 
-1. 다운로드한 파일을 열고 필요에 따라 비행 정보를 편집한 다음 업데이트된 파일을 저장합니다.
+1. 다운로드한 파일을 열고 해당 비행에 포함할 각 광고 행에 대한 비행 정보 필드를 편집한 다음 업데이트된 파일을 저장합니다.
 
-   * 플랜을 추가하려면 플랜에 포함할 각 광고 행에 대한 플라이트 날짜를 다음 방법으로 지정합니다. **[!UICONTROL Flight N Start Date]** 및 **[!UICONTROL Flight N End Date]** 열. 각 날짜에 대해 YYYY-MM-DD 형식을 사용합니다.
+   **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (예: [!UICONTROL Flight 1 Start Date] 및 [!UICONTROL Flight 1 End Date]): 비행의 첫 번째 날짜와 마지막 날짜입니다. 각 날짜에 대해 YYYY-MM-DD 형식을 사용합니다. 비어 있는 플라이트 날짜 필드가 있는 모든 광고는 비참여 광고로 처리됩니다.
 
-     예를 들어 첫 번째 비행에 있는 광고의 경우 [!UICONTROL Flight 1 Start Date] 및 [!UICONTROL Flight 1 End Date] 필드. 광고 행이 파일에 아직 포함되어 있지 않은 경우 새 행에 필요한 광고 정보를 입력합니다.
+   **[!UICONTROL Flight N Weight]** (예: [!UICONTROL Flight 1 Weight]): 비행에 대한 광고를 회전하는 방법. 값 입력:
 
-     비어 있는 플라이트 날짜 필드가 있는 모든 광고는 비참여 광고로 처리됩니다.
+   * 비행에 대한 광고를 균등하게 회전하려면 &quot;**[!UICONTROL Even]**&quot;.
 
-   * 비행에 대한 광고를 균등하게 회전하려면 &quot;**[!UICONTROL Even]**&#x200B;관련 항목 내 &quot; **[!UICONTROL Flight N Weight]** 필드(예: [!UICONTROL Flight 1 Weight]).
-
-   * 비행에 대한 광고를 불균일하게 회전하려면 관련 부분에서 각 광고를 회전시킬 상대적 가중치를 백분율로 입력합니다 **[!UICONTROL Flight N Weight]** 필드(예: [!UICONTROL Flight 1 Weight]).
-
-     각 항공편의 총 가중치는 100이어야 합니다.
+   * 비행에 대한 광고를 불균일하게 회전하려면 각 광고를 회전시킬 상대적 가중치를 백분율로 입력합니다. 비행기의 총 무게는 100이어야 합니다.
 
 1. 편집된 광고 일정 템플릿을 업로드합니다.
 
