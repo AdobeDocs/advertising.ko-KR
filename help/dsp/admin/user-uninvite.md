@@ -3,18 +3,16 @@ title: 보류 중인 사용자 초대 취소
 description: 보류 중인 사용자 초대를 취소하는 방법을 알아봅니다.
 role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
-source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
+source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # 보류 중인 사용자 초대 취소
 
-*관리자 사용자만*
-
-초대 보류 중인 사용자의 초대를 취소할 수 있습니다. 사용자를 초대하지 않으면 지정된 이메일 주소로 전송된 초대 링크의 토큰이 무효화됩니다.
+관리자 사용자는 초대 보류 중인 사용자의 초대를 취소할 수 있습니다. 사용자를 초대하지 않으면 지정된 이메일 주소로 전송된 초대 링크의 토큰이 무효화됩니다.
 
 1. 다음 중 하나를 수행합니다.
 

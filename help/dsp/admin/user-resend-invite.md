@@ -3,18 +3,16 @@ title: 보류 중인 사용자 초대 다시 보내기
 description: 보류 중인 사용자 초대를 다시 보내는 방법을 알아봅니다.
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
+source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
 
 # 보류 중인 사용자 초대 다시 보내기
 
-*관리자 사용자만*
-
-조직 계정에 대해 보류 중인 초대를 사용하여 사용자에게 초대를 다시 보낼 수 있습니다.
+관리자 사용자는 조직 계정에 대해 보류 중인 초대가 있는 사용자에게 초대를 다시 보낼 수 있습니다.
 
 1. 다음 중 하나를 수행합니다.
 
