@@ -1,11 +1,11 @@
 ---
 title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
-exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
+exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 각 페이지의 상단에는 주 메뉴와 기타 작업 및 정보 기반 메뉴가 포함되어 있습니다.
 
 ## 메인 메뉴
-
-최상위 메인 메뉴 옵션은 사용 가능한 광고 채널을 기반으로 합니다. 귀하에게 적용되는 광고 채널만 표시됩니다.
-
-* **[!UICONTROL DSP]** — (Adobe Advertising DSP(Demand Side Platform)에 액세스할 수 있는 경우) 디스플레이 및 연결된 TV 광고를 관리합니다. 별도의 [DSP 안내서](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) 을(를) 사용할 수 있습니다.
-
-* **[!UICONTROL Creative]** — (Adobe Advertising Creative에 액세스할 수 있는 경우) 개인화된 실시간 광고 경험을 자동화하고 크리에이티브 요소 수준에서 광고를 최적화합니다. Creative 내에서 별도의 도움말을 사용할 수 있습니다.
 
 * **[!UICONTROL Search]** — Search, Social, Commerce에서 추적 중이지만 입찰이 아닌 계정을 포함하여 Search, Social, Commerce 내에서 광고 네트워크 계정을 관리합니다.
 
