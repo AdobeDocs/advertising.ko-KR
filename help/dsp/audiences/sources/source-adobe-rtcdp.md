@@ -1,8 +1,9 @@
 ---
-title: "DSP 통합 사용 워크플로우 [!DNL Adobe] [!DNL Real-time CDP]"
-description: "DSP에서 다음을 수집할 수 있도록 하는 방법 알아보기 [!DNL Adobe] [!DNL Real-time CDP] 자사 세그먼트."
+title: 과 DSP 통합을 사용하기 위한 워크플로우 [!DNL Adobe] [!DNL Real-time CDP]
+description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Adobe] [!DNL Real-time CDP] 자사 세그먼트.
 feature: DSP Audiences
-source-git-commit: fb42e4aacaf0ea22890e0b4a46719725c99fffdc
+exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
+source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%

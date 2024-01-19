@@ -1,18 +1,18 @@
 ---
 title: 광고 관리
 description: 광고를 만들고 관리하는 방법에 대해 알아봅니다.
-exl-id: 9108bbfd-61e7-49fa-90ba-4eb276eb0897
+exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
 # 광고 관리
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], 및 기존 [!DNL Baidu] 계정만*
 
 에서 광고 상태를 만들고, 편집하고, 변경할 수 있습니다. [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Ads] 보기.
 

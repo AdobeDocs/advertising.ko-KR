@@ -1,11 +1,11 @@
 ---
 title: 용어집
 description: 주요 용어의 정의를 참조하십시오.
-exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## C-D {#c-d}
 
-**캠페인:** 예산, 시간 범위, 타깃팅 및 기타 설정을 공유하는 단일 광고 계정의 광고 그룹 세트입니다. **참고:** [!DNL Baidu] 는 캠페인의 개념을 가지고 있지 않지만, 검색, 소셜 및 상거래는 의 관련 광고 그룹 세트별로 의사 캠페인을 만듭니다. [!DNL Baidu] Search, Social 및 Commerce 내에서 동기화됩니다.
+**캠페인:** 예산, 시간 범위, 타깃팅 및 기타 설정을 공유하는 단일 광고 계정의 광고 그룹 세트입니다. **참고:** [!DNL Baidu] 는 캠페인의 개념을 가지고 있지 않지만, 검색, 소셜 및 상거래는 기존 광고 그룹 내 각 관련 광고 그룹 세트에 대해 의사 캠페인을 만듭니다 [!DNL Baidu] Search, Social 및 Commerce 내에서 동기화된 계정입니다.
 
 **대/소문자 필드:** 대/소문자를 구분하는 필드 또는 쿼리는 대문자(예: C)를 소문자(예: c)와 다르게 처리합니다. 예를 들어 Car는 car와 다른 값으로 취급된다.
 

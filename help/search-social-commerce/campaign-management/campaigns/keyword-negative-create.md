@@ -1,18 +1,18 @@
 ---
 title: 부정적인 키워드 만들기
 description: 검색 캠페인 및 광고 그룹에 대한 부정적인 키워드를 만드는 방법을 알아봅니다.
-exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
 
 # 부정적인 키워드 만들기
 
-*[!DNL Baidu], [!DNL Google Ads] 및 [!DNL Microsoft® Advertising], 및 [!DNL Yahoo! Japan Ads] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], 및 기존 [!DNL Baidu] 계정만*
 
 검색 또는 디스플레이/기본 네트워크를 대상으로 하는 검색 광고 그룹 또는 캠페인에 대해 부정적인 키워드를 만들 수 있습니다. 부정적인 키워드는 광고를 트리거하지 않습니다.
 

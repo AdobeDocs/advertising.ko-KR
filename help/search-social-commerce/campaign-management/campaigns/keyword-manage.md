@@ -1,18 +1,18 @@
 ---
 title: 바인딩 가능한 키워드 관리
 description: 검색 광고 그룹에 사용할 수 있는 키워드를 만들고 관리하는 방법을 알아봅니다.
-exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
 # 바인딩 가능한 키워드 관리
 
-*[!DNL Baidu], [!DNL Google Ads] 및 [!DNL Microsoft® Advertising], 및 [!DNL Yahoo! Japan Ads], 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads]및 [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], 및 기존 [!DNL Baidu] 계정만*
 
 에서 검색 광고 그룹에 대한 키워드를 만들고 편집할 수 있습니다. [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md) 다음 내의 검색 및 디스플레이/기본 네트워크를 대상으로 함: [동기화된 광고 네트워크 계정](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 

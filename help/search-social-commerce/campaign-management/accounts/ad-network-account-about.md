@@ -1,11 +1,11 @@
 ---
 title: 광고 네트워크 계정 기본 정보
 description: 검색, 소셜 및 상거래에서 광고 네트워크 계정에 대해 알아봅니다.
-exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
+exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Search, Social 및 Commerce는 지원되는 광고 네트워크에서 광고주�
 
 ## API를 통해 동기화된 계정
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising] (이전 [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], 및 [!DNL Yandex] 계정*
+*[!DNL Google Ads], [!DNL Microsoft Advertising] (이전 [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex], 및 기존 [!DNL Baidu] 계정*
 
 검색, 소셜 및 상거래 동기화 (*동기화*&#x200B;광고 성능을 추적, 보고 및 시각화할 수 있도록 지원되는 광고 네트워크 계정 사용) 를 제외한 모든 광고 네트워크 [!DNL Yahoo! Display Network], 검색, 소셜 및 상거래에서 계정에 대한 캠페인을 선택적으로 관리할 수 있습니다. [!DNL Yahoo! Display Network], 캠페인은 읽기 전용입니다. 모든 광고 네트워크의 경우 포트폴리오에 추가하여 관리 계정의 광고에 대한 입찰을 최적화하는 최적화 기능을 허용할 수 있습니다.
 

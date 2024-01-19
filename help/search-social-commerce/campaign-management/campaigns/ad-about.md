@@ -1,18 +1,18 @@
 ---
 title: 광고 관리
 description: 사용 가능한 광고 유형을 포함하여 검색, 소셜 및 상거래의 광고에 대해 알아봅니다.
-exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
 
 # 광고 정보
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], 및 기존 [!DNL Baidu] 계정만*
 
 광고는 대상 웹 사이트(콘텐츠 또는 배치 대상 캠페인)에 표시될 수 있으며, 사용자가 광고 그룹(검색 캠페인)에서 키워드 중 하나를 검색하거나 웹 사이트의 콘텐츠(의 동적 검색 광고)를 검색할 때 표시됩니다. [!DNL Google Ads] 검색 전용 캠페인) 또는 사용자가 의 항목 중 하나와 관련된 검색을 수행할 때 [!DNL Google Merchant Center] 또는 [!DNL Microsoft® Merchant Center] 제품 피드(쇼핑 광고) [!DNL Google Ads] 또는 제품 광고 [!DNL Microsoft® Advertising] campaigns).
 

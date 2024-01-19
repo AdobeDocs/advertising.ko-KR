@@ -1,9 +1,9 @@
 ---
 title: 키워드 정보
 description: 바인딩 가능한 키워드와 부정적 키워드에 대한 옵션에 대해 알아봅니다.
-exl-id: f9216251-e0ab-43c1-81da-30503ee9f54e
+exl-id: d94c6f3f-0ea3-4792-8a6d-78f3a2af80e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 키워드 정보
 
-*[!DNL Baidu], [!DNL Google Ads] 및 [!DNL Microsoft® Advertising], 및 [!DNL Yahoo! Japan Ads], 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads]및 [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], 및 기존 [!DNL Baidu] 계정만*
 
 키워드는 광고와 연관된 단어 또는 구입니다. 키워드 설정에는 키워드 일치 유형, 키워드에 의해 광고가 트리거될 때 사용할 최대 입찰 및 선택적 추적 매개 변수(일부 광고 네트워크)가 포함됩니다. 키워드 수준 설정은 광고 그룹 또는 캠페인 설정을 재정의합니다.
 

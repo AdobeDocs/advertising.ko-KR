@@ -1,18 +1,18 @@
 ---
 title: 캠페인 관리
 description: 광고 캠페인을 만들고 관리하는 방법을 알아봅니다.
-exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
+exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 8521d686c9bd499dbe89b5acf27595c381041b44
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # 캠페인 관리
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], 및 기존 [!DNL Baidu] 계정만*
 
 캠페인은 광고 네트워크 계정의 기본 구성 요소입니다. 대부분의 캠페인 유형의 경우, 광고 그룹 또는 광고 세트 세트로 구성됩니다. 캠페인 설정에는 캠페인 예산 매개 변수, 광고 타겟 및 캠페인의 모든 광고에 대한 선택적 추적 매개 변수가 포함됩니다. 캠페인 수준 추적 매개 변수는 계정 수준 매개 변수를 재정의하지만, 그 자체가 더 낮은 수준에서 재정의될 수 있습니다.
 

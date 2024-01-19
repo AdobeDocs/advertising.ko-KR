@@ -1,11 +1,11 @@
 ---
 title: 광고 네트워크 계정 관리
 description: 광고 네트워크 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법을 알아봅니다.
-exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,18 @@ ht-degree: 0%
 
 다음은 광고 네트워크 계정 세부 사항을 만들고 편집하고 [!DNL oAuth] 계정용 토큰 및 계정 비활성화
 
+각 광고 네트워크에 사용할 수 있는 기능에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+
 ## 광고 네트워크 계정 세부 정보 만들기 {#create-account}
 
 *에이전시 계정 관리자, Adobe 계정 관리자 및 관리자 사용자 역할만 해당*
 
-계정 동기화 또는 추적을 활성화하려면 계정 액세스 자격 증명 및 추적 옵션이 포함되고 상태가 인 해당 계정 레코드를 만들어야 합니다 *활성*. 각 광고 네트워크에 사용할 수 있는 기능에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+계정 동기화 또는 추적을 활성화하려면 계정 액세스 자격 증명 및 추적 옵션이 포함되고 상태가 인 해당 계정 레코드를 만들어야 합니다 *활성*.
 
 >[!NOTE]
 >
->광고 네트워크에서 실제 계정을 만들려면 광고 네트워크의 웹 사이트로 이동합니다.
+>* 새 항목에 대한 지원을 사용할 수 없음 [!DNL Baidu] 계정.
+>* 광고 네트워크에서 실제 계정을 만들려면 광고 네트워크의 웹 사이트로 이동합니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. 하위 메뉴에서 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -156,11 +159,11 @@ ht-degree: 0%
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** (를 제외한 모든 광고 네트워크 [!DNL Naver]) 계정에 대한 API 액세스를 활성화하는 로그인 이름 또는 ID입니다.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]사용 및 을 제외한 다른 모든 네트워크 [!DNL Baidu], [!DNL Meta], 및 [!DNL Yandex]) 를 사용하여 로그인을 승인하는 계정의 토큰 [[!DNL OAuth] 인증 프로토콜](https://oauth.net/2/).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]사용 및 을 제외한 다른 모든 네트워크 [!DNL Meta] 및 [!DNL Yandex]) 를 사용하여 로그인을 승인하는 계정의 토큰 [[!DNL OAuth] 인증 프로토콜](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (를 제외한 모든 광고 네트워크 [!DNL Naver]) 계정의 암호입니다. 의 암호 사용 계정 [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], 및 [!DNL Yandex], 이 필드는 필수입니다. 대상 [!DNL oAuth]-enabled accounts, 이 필드는 선택 사항입니다. 계정 관리자가 필요에 따라 토큰을 새로 고칠 수 있도록 암호를 암호화하고 저장할 때 이 필드를 사용합니다.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (를 제외한 모든 광고 네트워크 [!DNL Naver]) 계정의 암호입니다. 의 암호 사용 계정 [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], 및 [!DNL Yandex], 이 필드는 필수입니다. 대상 [!DNL oAuth]-enabled accounts, 이 필드는 선택 사항입니다. 계정 관리자가 필요에 따라 토큰을 새로 고칠 수 있도록 암호를 암호화하고 저장할 때 이 필드를 사용합니다.
 
-**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Baidu] 및 [!DNL Yandex] 계정 전용) 사용할 개발자 계정에 대한 액세스 키입니다.
+**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Yandex] 계정 전용) 사용할 개발자 계정에 대한 액세스 키입니다.
 
 **[!UICONTROL Currency]:** 계정에 사용되는 통화의 약어입니다. 이 필드는 새 항목에서 편집할 수 있습니다. [!DNL Naver] 계정. 다른 모든 검색 네트워크의 경우, 레코드를 저장하면 광고 네트워크의 계정에 대해 구성된 통화로 값이 자동으로 채워집니다.
 

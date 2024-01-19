@@ -1,7 +1,8 @@
 ---
 title: Adobe Target에서 Adobe Advertising 검색, 소셜 및 상거래 광고에 대한 A/B 테스트 구성
-description: "에서 A/B 테스트를 설정하는 방법 알아보기 [!DNL Target] 에 대한 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 검색, 소셜 및 커머스의 광고."
-source-git-commit: 3e8290d85aba379ece4b6d488c01e4ddda2b554e
+description: 에서 A/B 테스트를 설정하는 방법 알아보기 [!DNL Target] 에 대한 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 검색, 소셜 및 상거래의 광고.
+exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
+source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%

@@ -1,18 +1,18 @@
 ---
 title: 광고 그룹 관리
 description: 광고 그룹을 만들고 관리하는 방법에 대해 알아봅니다.
-exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # 광고 그룹 관리
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], 및 기존 [!DNL Baidu] 계정만*
 
 광고 그룹에는 광고 세트와 관련 키워드가 포함됩니다. 디스플레이 네트워크를 타깃팅하는 캠페인의 광고 그룹에는 광고가 표시될 수 있는 디스플레이 네트워크상의 위치인 배치도 포함될 수 있습니다. 광고 그룹의 모든 구성 요소에 적용되는 광고 그룹 설정은 광고 네트워크별로 다릅니다.
 
