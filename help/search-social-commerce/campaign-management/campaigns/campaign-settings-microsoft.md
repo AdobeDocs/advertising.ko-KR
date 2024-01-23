@@ -3,9 +3,9 @@ title: '[!DNL Microsoft® Advertising] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 캠페인.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 0b68db50d7f4c40eb2742c3906b79c5347c05f66
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Maximize Conversion Value]:* (검색 및 쇼핑/스마트 쇼핑 네트워크, 성과 최대 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 전환 가치를 극대화하기 위해 입찰을 최적화합니다. 필요한 경우 다음을 입력합니다. **[!UICONTROL Target Return on Ad Spend]** (ROAS) 를 백분율로 표시합니다. **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다.
 
-* *[!UICONTROL Maximize Conversions]:* (검색 네트워크의 캠페인 <!-- future: and audience network -->, 성과 최대 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 전환을 극대화하기 위해 입찰을 최적화합니다. 필요한 경우 다음을 입력합니다. **[!UICONTROL Target CPC]** (클릭당 비용)<!-- future: ; for audience campaigns, you can also enter an optional [!UICONTROL Target CPA] (cost per acquisition) -->. **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다.
+* *[!UICONTROL Maximize Conversions]:* (검색 네트워크 또는 대상 네트워크에서 성과 최대 캠페인 및 캠페인(대상 비디오 또는 연결된 TV는 제외) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 전환을 최대화하기 위해 입찰을 최적화합니다. 필요한 경우 다음을 입력합니다. **[!UICONTROL Target CPC]** (클릭당 비용) 대상자 캠페인의 경우 선택 사항을 입력할 수도 있습니다 **[!UICONTROL Target CPA]** (취득당 비용) **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다.
 
 * *[!UICONTROL Target CPA]:* (검색 네트워크의 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 선택 사항을 기반으로 입찰을 최적화합니다 **[!UICONTROL Target CPA]** (취득당 비용) - 취득(전환)에 대해 지불할 30일 평균 금액입니다. **참고:** 지출 전략을 사용하는 하이브리드 포트폴리오(표준 포트폴리오는 아님)의 캠페인에 이 옵션을 사용합니다. [!UICONTROL Weekly] 또는 [!UICONTROL Google Target CPA].
 
