@@ -3,9 +3,9 @@ title: 배치 편집
 description: 배치를 편집하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,6 @@ ht-degree: 0%
    1. 다음 항목 선택 **[!UICONTROL Edit Mode]**.
 
       옵션은 설정에 따라 다르지만 다음을 포함할 수 있습니다.
-
-      * **추가** (광고를 첨부하려면)
 
       * **추가** (기존 값을 유지하고 새 값을 추가하려면)
 
