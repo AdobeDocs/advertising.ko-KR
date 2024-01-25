@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 4e620124d066e048ffffd8025cb98058f46ff42a
+source-git-commit: ec7c6fbced3ba1133da9212bedcb929410f0b6da
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 3%
