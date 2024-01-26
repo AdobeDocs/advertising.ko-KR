@@ -1,18 +1,17 @@
 ---
-title: 플랫폼 내 보고서 정보
+title: Campaign Management 보기의 성능 보고서 정보
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 833e3d3a15546518ec627f859d601285e30381b7
+source-git-commit: 3f1095fe08e6bc6bf9c942b70295ac06d64ff852
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
-# 플랫폼 내 보고서 정보
+# Campaign Management 보기의 성능 보고서 정보
 
-<!-- rename "About Performance Reports in Campaign Management Views?" -->
 캠페인 관리 보기에는 포괄적인 보고서 데이터가 포함됩니다. 사용 가능한 보고서를 통해 성과가 좋은 패키지 및 배치와 주의가 필요한 배치를 식별할 수 있습니다. 또한 빠른 작업 버튼을 사용하면 생산성이 향상됩니다.
 
 ## 모든 캠페인 보기
@@ -21,7 +20,7 @@ ht-degree: 0%
 
 ### 차트 보기 {#chart-view}
 
-다음을 수행할 수 있습니다. [시계열 트렌드 차트 사용자 지정](campaign-data-visualization-manage.md) 세 개의 지표를 사용하는 모든 캠페인에서. 기본적으로 다음에 대한 데이터 [!UICONTROL Net Spend], [!UICONTROL Impressions], 및 [!UICONTROL Net CPM] 별도의 차트(트렐리스 차트)에 포함됩니다. 선택적으로 지표를 변경할 수 있습니다. 시계열 트렌드 차트에서 시간별 데이터를 활성화하려면 날짜 선택 사항을 하루 ( )로 변경하십시오.[!UICONTROL Today], [!UICONTROL Yesterday]또는 특정 날짜)에 전송됩니다.
+다음을 수행할 수 있습니다. [시계열 트렌드 차트 사용자 지정](campaign-data-views-manage.md#data-visualizations-manage) 세 개의 지표를 사용하는 모든 캠페인에서. 기본적으로 다음에 대한 데이터 [!UICONTROL Net Spend], [!UICONTROL Impressions], 및 [!UICONTROL Net CPM] 별도의 차트(트렐리스 차트)에 포함됩니다. 선택적으로 지표를 변경할 수 있습니다. 시계열 트렌드 차트에서 시간별 데이터를 활성화하려면 날짜 선택 사항을 하루 ( )로 변경하십시오.[!UICONTROL Today], [!UICONTROL Yesterday]또는 특정 날짜)에 전송됩니다.
 
 ![세 가지 지표에 대한 별도의 트렌드 차트](/help/dsp/assets/trend-chart-separate.png)
 
@@ -33,9 +32,9 @@ ht-degree: 0%
 
 ![캠페인 목록](/help/dsp/assets/campaigns-list.png)
 
-기본적으로 각 캠페인 행에는 게재 간격 및 게재 지표가 포함됩니다. 게재 간격 지표는 다음과 같습니다 [!UICONTROL Gross Spend (Lifetime)]캠페인의 모든 패키지에서 실제 타겟 내 지출과 예상 타겟 내 지출의 측정이 포함되어 있어 성과가 낮은 캠페인을 한 눈에 파악할 수 있습니다. 다음을 선택적으로 수행할 수 있습니다 [열 보기 변경](column-view-change.md) 또는 짝수 [사용자 정의 열 보기 만들기](column-view-create.md).
+기본적으로 각 캠페인 행에는 게재 간격 및 게재 지표가 포함됩니다. 게재 간격 지표는 다음과 같습니다 [!UICONTROL Gross Spend (Lifetime)]캠페인의 모든 패키지에서 실제 타겟 내 지출과 예상 타겟 내 지출의 측정이 포함되어 있어 성과가 낮은 캠페인을 한 눈에 파악할 수 있습니다. 다음을 선택적으로 수행할 수 있습니다 [열 보기 변경](campaign-data-views-manage.md#column-view-change) 또는 짝수 [사용자 정의 열 보기 만들기](campaign-data-views-manage.md#column-view-create).
 
-추가 작업 가능 [데이터 테이블 사용자 지정](campaign-data-views-about.md) 추가적인 방법으로 [표시되는 데이터 필터링](campaign-data-filter.md).
+추가 작업 가능 [데이터 테이블 사용자 지정](campaign-data-views-manage.md#data-tables-manage) 추가적인 방법으로 [표시되는 데이터 필터링](campaign-data-views-manage.md#filter-data-tables).
 
 <!--
 An "Alerts" column indicates when a campaign (or any child entity under it) has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
@@ -45,19 +44,19 @@ An "Alerts" column indicates when a campaign (or any child entity under it) has 
 
 ## 단일 캠페인 보고 {#single-campaign-reporting}
 
-캠페인 내에서 캠페인 엔티티를 기반으로 데이터를 필터링할 수 있습니다. [!UICONTROL Packages], [!UICONTROL Placements], 및 [!UICONTROL Ads]. 추가 작업 가능 [표시되는 데이터 필터링](campaign-data-filter.md) 보려는 패키지, 배치 또는 광고만 포함합니다.
+캠페인 내에서 캠페인 엔티티를 기반으로 데이터를 필터링할 수 있습니다. [!UICONTROL Packages], [!UICONTROL Placements], 및 [!UICONTROL Ads]. 추가 작업 가능 [표시되는 데이터 필터링](campaign-data-views-manage.md#filter-data-tables) 보려는 패키지, 배치 또는 광고만 포함합니다.
 
 ![캠페인 엔티티 탭](/help/dsp/assets/campaign-subtabs.png)
 
 ### 차트 보기
 
-각 캠페인에 대해 다음을 수행할 수 있습니다. [시계열 트렌드 차트 사용자 지정](campaign-data-visualization-manage.md) 세 개의 지표를 사용하며, 각 엔티티 보기에서 사용할 수 있습니다. 캠페인의 모든 트렌드 차트에 동일한 지표가 유지됩니다.
+각 캠페인에 대해 다음을 수행할 수 있습니다. [시계열 트렌드 차트 사용자 지정](campaign-data-views-manage.md#data-visualizations-manage) 세 개의 지표를 사용하며, 각 엔티티 보기에서 사용할 수 있습니다. 캠페인의 모든 트렌드 차트에 동일한 지표가 유지됩니다.
 
 다음을 참조하십시오. [캠페인 간 지표에 대한 &quot;차트 보기&quot; 섹션](#chart-view) 추가 정보.
 
 ### 표 보기
 
-각 엔티티 탭에서 각 행에는 기본적으로 게재 간격 및 게재 지표가 포함되어 있지만 다음을 수행할 수 있습니다. [열 보기 변경](column-view-change.md) 또는 짝수 [사용자 정의 열 보기 만들기](column-view-create.md) 을 추가하여 캠페인의 모든 하위 탭에 적용합니다. 추가 작업 가능 [데이터 테이블 사용자 지정](campaign-data-views-about.md) 추가 방법으로. 각 데이터 테이블에는 [!UICONTROL Subtotals] 행 - 표시되는 모든 행에서 각 지표의 합계 또는 평균 값을 표시합니다.
+각 엔티티 탭에서 각 행에는 기본적으로 게재 간격 및 게재 지표가 포함되어 있지만 다음을 수행할 수 있습니다. [열 보기 변경](campaign-data-views-manage.md#column-view-change) 또는 짝수 [사용자 정의 열 보기 만들기](campaign-data-views-manage.md#column-view-create) 을 추가하여 캠페인의 모든 하위 탭에 적용합니다. 추가 작업 가능 [데이터 테이블 사용자 지정](campaign-data-views-manage.md#data-tables-manage) 추가 방법으로. 각 데이터 테이블에는 [!UICONTROL Subtotals] 행 - 표시되는 모든 행에서 각 지표의 합계 또는 평균 값을 표시합니다.
 
 <!--
 An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
@@ -110,9 +109,6 @@ An "Alerts" column indicates when a package, placement, or ad &mdash; or any chi
 >[!MORELIKETHIS]
 >
 >* [배치에 대한 사이트, 광고 및 빈도 세부 정보 보기](placement-details-view.md)
->* [Campaign 데이터 보기 정보](campaign-data-views-about.md)
->* [사용자 정의 열 보기 만들기](column-view-create.md)
->* [열 보기 변경](column-view-change.md)
->* [데이터 시각화 관리](campaign-data-visualization-manage.md)
+>* [Campaign 데이터 보기 관리](campaign-data-views-manage.md)
 >* [Campaign Management 보기에서 데이터 내보내기](campaign-export-data.md)
 >* [캠페인에 대한 세부 보고서 보기](/help/dsp/campaign-management/campaigns/campaign-view-report.md)

@@ -3,9 +3,9 @@ title: 캠페인에 대한 세부 보고서 보기
 description: 지리, 장치, 가시성 및 대상 성과 데이터에 대한 섹션으로 캠페인 수준 보고서를 여는 방법에 대해 알아봅니다.
 feature: DSP Campaigns, DSP Campaign Data Views
 exl-id: ce0d8b44-63cb-47da-adac-d9ae330c52bf
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,7 @@ ht-degree: 0%
 >
 >* [배치에 대한 상세 보고서 보기](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [광고에 대한 상세 보고서 보기](/help/dsp/campaign-management/ads/ad-view-report.md)
->* [플랫폼 내 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Campaign Management 보기의 성능 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [사용자 정의 보고서 정보](/help/dsp/reports/report-about.md)
 >* [캠페인에 대한 변경 로그 보기](campaign-change-log.md)
 >* [캠페인 일시 중지 또는 활성화](campaign-pause-activate.md)
-

@@ -3,9 +3,9 @@ title: Advertising DSP의 Campaign Management 개요
 description: 캠페인 관리 계층 및 구성 요소에 대해 알아봅니다.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ DSP 캠페인에는 다음 계층이 있습니다.
    * 패키지
       * 배치
          * 광고
-
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
@@ -55,7 +54,6 @@ A [배치](/help/dsp/campaign-management/placements/placement-about.md) 동일�
 >* [광고 관리 기본 정보](/help/dsp/campaign-management/ads/ad-about.md)
 >* [Campaign 시작 검사 목록](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [플랫폼 내 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Campaign 데이터 보기 정보](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
+>* [Campaign Management 보기의 성능 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Campaign 데이터 보기 관리](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
 >* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-
