@@ -2,9 +2,9 @@
 title: Campaign 데이터 보기 관리
 description: 캠페인, 패키지, 배치 및 광고에 대한 데이터 보기를 사용자 지정하는 방법을 알아봅니다.
 feature: DSP Campaign Data Views
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ DSP에서는 가장 최근 보기를 기본 보기로 저장하므로 페이지�
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management 보기의 성능 보고서 정보](campaign-reports-about.md)
+>* [Campaign Management 보기의 성능 보고서 유형](campaign-reports-about.md)
 >* [배치에 대한 사이트, 광고 및 빈도 세부 정보 보기](placement-details-view.md)
 >* [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [배치 진단 보고서 보기](placement-diagnostics.md)

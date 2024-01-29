@@ -3,9 +3,9 @@ title: Campaign Management 보기에서 데이터 내보내기
 description: 모든 유형의 캠페인 관리 보기에서 스프레드시트 파일로 데이터를 내보내는 방법을 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: 181b2648-5c8c-47e5-b4bc-5733dd7f47b7
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -30,5 +30,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management 보기의 성능 보고서 정보](campaign-reports-about.md)
+>* [Campaign Management 보기의 성능 보고서 유형](campaign-reports-about.md)
 >* [Campaign 데이터 보기 관리](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 6c117e57471d85fc044a7b814a231037ce89d90c
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '929'
 ht-degree: 3%
 
 ---
@@ -93,9 +93,9 @@ ht-degree: 3%
          + [범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [지원되는 광고 유형에 대한 사양](/help/dsp/campaign-management/ads/ad-specs.md)
    + Campaign Management 보기의 성능 보고서 {#campaign-reports}
-      + [Campaign Management 보기의 성능 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [Campaign Management 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Campaign Management 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md)
-      + [배치에 대한 사이트, 광고 및 빈도 세부 정보 보기](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [배치에 대한 사이트, 광고, 빈도 및 재고 세부 정보 보기](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [배치 진단 보고서 보기](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [Campaign 데이터 보기 관리](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

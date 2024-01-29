@@ -3,9 +3,9 @@ title: 배치 진단 보고서 보기
 description: 배치 설정 및 게재 간격 관련 문제를 진단하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management 보기의 성능 보고서 정보](campaign-reports-about.md)
+>* [Campaign Management 보기의 성능 보고서 유형](campaign-reports-about.md)
 >* [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -3,9 +3,9 @@ title: 광고에 대한 상세 보고서 보기
 description: 개요, 지역 및 조회 데이터를 사용하여 광고 수준 보고서를 여는 방법에 대해 알아봅니다.
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -23,5 +23,5 @@ ht-degree: 0%
 >
 >* [배치에 대한 상세 보고서 보기](/help/dsp/campaign-management/placements/placement-view-report.md)
 >* [캠페인에 대한 세부 보고서 보기](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [Campaign Management 보기의 성능 보고서 정보](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Campaign Management 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [사용자 정의 보고서 정보](/help/dsp/reports/report-about.md)
