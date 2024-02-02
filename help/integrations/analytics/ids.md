@@ -3,9 +3,9 @@ title: 사용한 Adobe Advertising ID [!DNL Analytics]
 description: 사용한 Adobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 3e6c90c1fc36ffc8fd404b5fe589f1f79f69a096
+source-git-commit: 0d48ceda77783cd8b5fd9e609da424dcfa94f278
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ AMO ID는 `s_kwcid`: 때로 &quot;&quot;로 발음됨[!DNL the squid].&quot;
 
 매개 변수는 다음 방법 중 하나로 추적 URL에 추가됩니다.
 
-* (권장) 서버측 삽입 기능이 구현됩니다.
+* (권장) 서버측 삽입 기능이 구현된 경우.
 
    * DSP 고객: 픽셀 서버는 최종 사용자가 Adobe Advertising 픽셀로 디스플레이 광고를 볼 때 s_kwcid 매개 변수를 랜딩 페이지 접미사에 자동으로 추가합니다.
 
@@ -120,7 +120,7 @@ AMO ID는 `s_kwcid`: 때로 &quot;&quot;로 발음됨[!DNL the squid].&quot;
 
       * 기타 광고 네트워크의 경우 또는 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 이(가) 있는 계정 [!UICONTROL Auto Upload] 비활성화됨 설정, 수동으로 매개 변수 추가 [계정 수준 추가 매개 변수](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}를 추가합니다.
 
-* 서버측 삽입 기능은 구현되지 않습니다.
+* 서버측 삽입 기능이 구현되지 않은 경우:
 
    * DSP 고객: [JavaScript 코드](javascript.md) 자동으로 클릭스루 및 뷰스루를 기록합니다. 브라우저가 타사 쿠키를 지원하지 않는 경우에도 다음 광고 유형에 대한 클릭 기반 전환을 추적할 수 있습니다.
 
@@ -152,7 +152,7 @@ AMO ID는 `s_kwcid`: 때로 &quot;&quot;로 발음됨[!DNL the squid].&quot;
 
 예제 AMO ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-#### 검색, 소셜 및 상거래 광고에 대한 AMO ID 형식
+#### 검색, 소셜 및 상거래 광고에 대한 AMO ID 형식 {#amo-id-format-search}
 
 매개 변수는 광고 네트워크별로 다르지만, 다음 매개 변수는 모두에게 공통입니다.
 

@@ -1,11 +1,11 @@
 ---
 title: 에 대한 AMO ID(s_kwcid) 추적 코드 업데이트 [!DNL Google Ads] account
 description: 에 대한 최신 AMO ID 추적 코드로 전환하는 방법에 대해 알아봅니다. [!DNL Google Ads] 계정입니다.
-exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 *[!DNL Google Ads]계정만*
 
-의 레거시 형식 [AMO ID 추적 코드](/help/integrations/analytics/ids.md#amo-id-formats) 기존 [!DNL Google Ads] 은 Analytics에서 캠페인 및 광고 그룹 수준에서의 보고와 같은 일부 기능을 지원하지 않습니다. [!DNL Google Ads] 여러 캠페인에 동일한 광고+키워드+일치 유형 조합이 있는 성과 최대 캠페인, 초안 및 실험 캠페인 및 기타 사용 사례입니다.
+에 대한 레거시(2019년 10월 이전) 형식 [AMO ID 추적 코드](/help/integrations/analytics/ids.md#amo-id-formats) 기존 [!DNL Google Ads] 은 Analytics에서 캠페인 및 광고 그룹 수준에서의 보고와 같은 일부 기능을 지원하지 않습니다. [!DNL Google Ads] 여러 캠페인에 동일한 광고+키워드+일치 유형 조합이 있는 성과 최대 캠페인, 초안 및 실험 캠페인 및 기타 사용 사례입니다.
 
-최신 형식에는 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수가 포함되어 있습니다.
+현재 형식에는 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수가 포함되어 있습니다.
 
 ```
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-기존 계정 중 일부 또는 전체에 대해 새 형식으로 개별적으로 변경할 수 있습니다. 성과 최대 캠페인 또는 초안 및 실험 캠페인이 없는 경우 새로운 포맷으로의 마이그레이션은 선택 사항입니다.
+기존 계정 중 일부 또는 전부에 대해 개별적으로 현재 형식으로 변경할 수 있습니다. 성과 최대 캠페인 또는 초안 및 실험 캠페인이 없는 경우 새로운 포맷으로의 마이그레이션은 선택 사항입니다.
 
-모든 신규 [!DNL Google Ads] 계정은 자동으로 새로운 AMO ID 형식을 사용합니다.
+모든 신규 [!DNL Google Ads] 계정은 현재 AMO ID 형식을 자동으로 사용합니다.
 
 >[!NOTE]
 >
