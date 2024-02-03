@@ -3,9 +3,9 @@ title: 광고 그룹 관리
 description: 광고 그룹을 만들고 관리하는 방법에 대해 알아봅니다.
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 06febcd91ff8576c8bf93c8e74475b297e0415bf
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 다음을 입력합니다. [바이두](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [야후! 일본 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), 또는 [얀덱스](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 광고 그룹 설정.
 
-   광고 네트워크에 따라 설정이 다음으로 그룹화될 수 있습니다. [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], 및 [!UICONTROL URL Options]. 다음에 대한 설정을 구성하려면 [!UICONTROL Negative Keywords] 또는 [!UICONTROL Negative Websites], 사용 가능한 경우 다음을 클릭: **[!UICONTROL Add Negative Keywords]** 또는 **[!UICONTROL Add Negative Websites]**, 각각
+   광고 네트워크에 따라 설정이 다음으로 그룹화될 수 있습니다. [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], 및 [!UICONTROL URL Options]. 다음에 대한 설정을 구성하려면 [!UICONTROL Adgroup Frequency Cap Settings], [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], 사용 가능한 경우 다음을 클릭: **[!UICONTROL Add Frequency Cap Settings]**, **[!UICONTROL Add Negative Keywords]**, 또는 **[!UICONTROL Add Negative Websites]**, 각각
 
 1. 클릭 **[!UICONTROL Post]**.
 

@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Microsoft Advertising] 광고 그룹 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 광고 그룹.
-exl-id: 5dfa766d-2a42-455d-a340-e72e11a38032
+exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Status]:** 광고 그룹의 표시 상태: *활성* 또는 *일시 중지됨*. 새 광고 그룹의 기본값은 입니다 *활성*.
 
-**[!UICONTROL Ad Language]:** 광고의 타겟 언어입니다.<!-- Which campaign types? Not there for audience image-based ad groups. -->
+**[!UICONTROL Ad Language]:** (캠페인 검색) 광고의 타겟 언어입니다.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Networks]
 
-**[!UICONTROL Networks]:** 광고 그룹 내에 광고를 배치하는 방법 및 위치:
+**[!UICONTROL Networks]:** (검색 광고) 광고 그룹 내에 광고를 배치하는 방법 및 위치:
 
 * *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (기본값): 검색 네트워크에 광고 입찰을 배치합니다.
 
@@ -105,6 +105,8 @@ ht-degree: 0%
 <!-- **[!UICONTROL Custom Parameters]:** -->
 
 {{$include /help/_includes/custom-parameters.md}}
+
+**[!UICONTROL Adgroup Frequency Cap Settings]:** (선택 사항) 고객이 광고 그룹에서 광고를 받을 횟수입니다. 값을 입력하고 시간 단위(*[!UICONTROL Hour]*, *[!UICONTROL Day]*, 또는 *[!UICONTROL Week]*).
 
 ## [!UICONTROL Negative Keywords]
 
