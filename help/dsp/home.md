@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 523bc488bf586901eb7302d9c03dda3cd1f98f2b
+source-git-commit: b0a8cf0784340ebe0fc495ef300aa40036455823
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024년 2월 7일 | [!UICONTROL Placements] 및 [!UICONTROL Ads] | 다음 [!UICONTROL Ads Tool] 이제 패키지 필터가 있습니다. | 를 참조하십시오.[배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 2024년 1월 24일 | [!UICONTROL Placements] 및 [!UICONTROL Ads] | 배치에 광고를 첨부하는 워크플로가 다시 디자인되었습니다. | 를 참조하십시오.[배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 2024년 1월 10일 | [!UICONTROL Placements] | 이제 스프레드시트를 사용하여 여러 배치에 대한 광고 일정을 빠르게 사용자 정의할 수 있습니다.<ul><li>배치에 대한 광고 예약 템플릿을 다운로드할 수 있습니다. 필요에 따라 다운로드한 파일에서 비행 날짜 및 광고 순환을 편집할 수 있습니다.</li><li>그런 다음 편집된 광고 일정 템플릿을 업로드할 수 있습니다.</li></ul> | 를 참조하십시오.[배치에 대한 광고 일정 편집](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).&quot; |
 | 2023년 12월 21일 | [!UICONTROL Audiences] | 이제 설명서에서 자사 데이터를 공유할 수 있습니다. [!DNL Tealium] DSP을 사용하는 고객 데이터 플랫폼 [!DNL Amazon Web Services]. 다음을 사용하여 DSP 배치를 세그먼트에 타깃팅할 수 있습니다. [!DNL RampIDs]. 다음에 대한 배치 설정 내 [!UICONTROL Audience Targeting]공유 세그먼트는 [!UICONTROL First Party Segments] 목록을 표시합니다. | 를 참조하십시오.[대상 소스에서 인증된 세그먼트 활성화 정보](/help/dsp/audiences/sources/source-about.md)&quot; 및 &quot;[과 DSP 통합을 사용하기 위한 워크플로우 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
