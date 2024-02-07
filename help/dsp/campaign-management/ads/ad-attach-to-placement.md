@@ -3,9 +3,9 @@ title: 배치에 광고 첨부
 description: 배치에 광고를 첨부하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 550ccbaf6844b9e9bb10ba5fef7a3cc4e5f2ad9b
+source-git-commit: 972284a41dda4a7d7948f1763ba3674413a22954
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. (선택 사항) 다음 방법 중 하나로 특정 배치 및 광고를 찾습니다.
 
-      * 표 위에서 ![필터](/help/dsp/assets/filter.png) 패키지, 배치 유형, 배치 상태, 광고 유형 또는 광고 상태별로 목록을 필터링합니다.
+      * 왼쪽 테이블 위에 있는 ![필터](/help/dsp/assets/filter.png) 패키지, 배치 유형, 배치 상태, 광고 유형 또는 광고 상태별로 목록을 필터링합니다.
 
       * 오른쪽 및 왼쪽 표에서 배치 및 광고 이름에서 특정 텍스트 문자열을 검색합니다.
 
