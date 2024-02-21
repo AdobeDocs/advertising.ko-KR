@@ -3,9 +3,9 @@ title: Advertising DSP의 패키지 관리 정보
 description: 패키지 관리에 대해 알아봅니다.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 2b0513691e5db2db28222d4cf7edf8bca2f014ca
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >를 통해 패키지 보고의 콘텐츠 및 게재를 추가로 사용자 지정할 수 있습니다. [사용자 정의 보고서](/help/dsp/reports/report-about.md).
 
-패키지 내의 모든 배치를 보려면 패키지 이름을 클릭합니다.
+패키지 내의 모든 배치 및 패키지 플라이트 날짜를 보려면 패키지 이름을 클릭합니다.
 
 >[!MORELIKETHIS]
 >
@@ -39,4 +39,3 @@ ht-degree: 0%
 >* [패키지에 배치 첨부](package-attach-placement.md)
 >* [패키지에 대한 변경 로그 보기](package-change-log.md)
 >* [패키지 설정](package-settings.md)
-

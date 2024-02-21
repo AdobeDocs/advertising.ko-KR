@@ -3,9 +3,9 @@ title: Campaign Management 보기의 성능 보고서 유형
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,13 @@ ht-degree: 0%
 
 추가 작업 가능 [데이터 테이블 사용자 지정](campaign-data-views-manage.md#data-tables-manage) 추가적인 방법으로 [표시되는 데이터 필터링](campaign-data-views-manage.md#filter-data-tables).
 
-<!--
-An "Alerts" column indicates when a campaign (or any child entity under it) has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
--->
-
 캠페인을 자세히 보려면 캠페인 이름을 클릭합니다.
+
+#### 경고 표시기
+
+*Beta 기능*
+
+An &quot;[!UICONTROL Alerts]&quot;열은 캠페인 또는 그 하위 엔티티에 문제가 있는 시기를 나타냅니다. A [!UICONTROL Pulse Panel] 도구 모음 오른쪽에 있는 아이콘은 나열된 엔티티에 대해 사용할 수 있는 경고가 있는지도 나타냅니다. 를 참조하십시오.[경고 보기](campaign-alerts.md)&quot; 을 참조하십시오.
 
 ## 단일 캠페인 보고 {#single-campaign-reporting}
 
@@ -58,9 +60,11 @@ An "Alerts" column indicates when a campaign (or any child entity under it) has 
 
 각 엔티티 탭에서 각 행에는 기본적으로 게재 간격 및 게재 지표가 포함되어 있지만 다음을 수행할 수 있습니다. [열 보기 변경](campaign-data-views-manage.md#column-view-change) 또는 짝수 [사용자 정의 열 보기 만들기](campaign-data-views-manage.md#column-view-create) 을 추가하여 캠페인의 모든 하위 탭에 적용합니다. 추가 작업 가능 [데이터 테이블 사용자 지정](campaign-data-views-manage.md#data-tables-manage) 추가 방법으로. 각 데이터 테이블에는 [!UICONTROL Subtotals] 행 - 표시되는 모든 행에서 각 지표의 합계 또는 평균 값을 표시합니다.
 
-<!--
-An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
--->
+#### 경고 표시기
+
+*Beta 기능*
+
+An &quot;[!UICONTROL Alerts]&quot;열은 패키지, 배치 또는 광고(또는 패키지 또는 배치 아래의 모든 하위 엔티티)에 문제가 있는 경우를 나타냅니다. An &quot;[!UICONTROL Alerts]&quot;열은 캠페인 또는 그 하위 엔티티에 문제가 있는 시기를 나타냅니다. A [!UICONTROL Pulse Panel] 도구 모음 오른쪽에 있는 아이콘은 나열된 엔티티에 대해 사용할 수 있는 경고가 있는지도 나타냅니다. 를 참조하십시오.[경고 보기](campaign-alerts.md)&quot; 을 참조하십시오.
 
 ### 기타 유형의 캠페인 수준 보고
 
@@ -89,3 +93,4 @@ An "Alerts" column indicates when a package, placement, or ad &mdash; or any chi
 >* [Campaign 데이터 보기 관리](campaign-data-views-manage.md)
 >* [Campaign Management 보기에서 데이터 내보내기](campaign-export-data.md)
 >* [캠페인에 대한 세부 보고서 보기](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [경고 보기](campaign-alerts.md)
