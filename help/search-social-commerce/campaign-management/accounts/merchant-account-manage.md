@@ -1,11 +1,11 @@
 ---
 title: 판매자 계정 관리
 description: 머천트 센터 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법에 대해 알아봅니다.
-exl-id: eca58f55-f056-46b3-b192-2849690e8bcc
+exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,14 @@ Search, Social 및 Commerce는 광고주의 Google 판매자 센터 또는 Micro
 1. 다음을 지정합니다. [판매자 계정 설정](#merchant-account-settings):
 
    1. 다음에서 [!UICONTROL Product Source] 메뉴에서 판매자 센터를 선택합니다.
+
+   <!--
+
+   1. ([!DNL Meta Ads] accounts only) Log in to the [!DNL Meta Ads] account.
+
+   And are there additional steps just for Meta? If so, create a separate procedure for it.
+   
+   -->
 
    1. (필수 사항: [!DNL Google Ads] 계정, 선택 사항 [!DNL Microsoft Advertising] 계정) 검색, 소셜 및 상거래를 통해 [[!DNL OAuth] 인증 프로토콜](https://oauth.net/2/):
 
