@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 59270088af96acd5f65b8af10251308123af3faa
+source-git-commit: 0a8bf1a457ecfa84164fb5ee4ff75aa95487edd2
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '2221'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024년 2월 21일 | [!UICONTROL Alerts] 대상 [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads], 및 [!UICONTROL Deals] | A [!UICONTROL Pulse Panel] 아이콘 [!UICONTROL Campaigns], [!UICONTROL Packages] 및 패키지 세부 정보, [!UICONTROL Placements], 및 [!UICONTROL Ads] 보기 는 보기 내의 항목에 대해 사용 가능한 경고가 있는지 여부를 나타냅니다. 패널을 열어 각 경고를 보고 선택적으로 해당 보기(예: [!UICONTROL Placements] 해당 배치가 나열된 상태로 보기)를 클릭하여 문제를 해결하는 데 필요한 설정을 편집할 수 있습니다. 선택적으로 경고를 무시할 수도 있습니다.<br><br>또한 [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], 및 [!UICONTROL Ads] 보기에는 &quot;[!UICONTROL Alerts]항목 또는 해당 구성 요소에 문제가 있는 시기를 나타내는 열입니다.<br><br>경고는 캠페인, 패키지, 배치, 광고 및 거래 수준에서 사용할 수 있습니다. | 를 참조하십시오.[경고 및 알림 보기](/help/dsp/campaign-management/reports/campaign-alerts.md).&quot; |
+|  | [!UICONTROL Placements] | 새 배치 설정을 사용하면 a) 충분한 예산을 사용할 수 있을 때마다 패키지 레벨 예산 할당을 무효화하는 최소 배치 예산 및 b) 거래의 고정 가격 및 최저 가격을 입찰하도록 입찰 가격 알고리즘을 무효화할 수 있습니다.<ul><li>이제 패키지에 속한 배치에 대한 설정에서 패키지 예산의 백분율로 최소 예산을 지정할 수 있습니다. 이 기능을 사용하려면 배치 자금 옵션을 선택하여 &quot;&quot;로 설정합니다.[!UICONTROL Set a Fixed Minimum or Maximum Budget]&quot; (이전 &quot;[!UICONTROL Set a fixed budget cap]&quot;). 을(를) 계속 입력할 수 있습니다. [!UICONTROL Maximum Budget] USD 단위(예산 상한에 대해 이전에 할 수 있었던 것처럼) 및 [!UICONTROL Minimum Budget] 패키지 예산의 백분율로. 기존 배치의 경우 기존 설정은 새 필드 이름을 사용하여 유지됩니다.</li><li>다음에서 [!UICONTROL Inventory Targeting] 설정, 새 옵션 [!UICONTROL On Demand] 인벤토리 및 비공개 인벤토리를 사용하면 &quot;[!UICONTROL Ensure Fixed or Floor Price for the bid].&quot;</li></ul> | 를 참조하십시오.[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2024년 2월 7일 | [!UICONTROL Placements] 및 [!UICONTROL Ads] | 다음 [!UICONTROL Ads Tool] 이제 패키지 필터가 있습니다. | 를 참조하십시오.[배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 2024년 1월 24일 | [!UICONTROL Placements] 및 [!UICONTROL Ads] | 배치에 광고를 첨부하는 워크플로가 다시 디자인되었습니다. | 를 참조하십시오.[배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 2024년 1월 10일 | [!UICONTROL Placements] | 이제 스프레드시트를 사용하여 여러 배치에 대한 광고 일정을 빠르게 사용자 정의할 수 있습니다.<ul><li>배치에 대한 광고 예약 템플릿을 다운로드할 수 있습니다. 필요에 따라 다운로드한 파일에서 비행 날짜 및 광고 순환을 편집할 수 있습니다.</li><li>그런 다음 편집된 광고 일정 템플릿을 업로드할 수 있습니다.</li></ul> | 를 참조하십시오.[배치에 대한 광고 일정 편집](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).&quot; |
