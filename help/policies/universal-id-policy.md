@@ -4,7 +4,7 @@ description: 범용 ID 사용에 대한 정책을 참조하십시오.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: e809a521efc35442b912375cda19516b6be7e90b
+source-git-commit: 90c4e8055b8438e7375968980f5344d7497fbc8f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 귀하는 본 서비스를 이용하여 광고를 위해 특정 집단을 잘못 타겟팅하거나, 특정 집단을 부당하게 광고 시청에서 배제하거나, 광고에서 차별적인 콘텐츠를 제공하는 등 법률 위반에 따른 차별에 관여할 수 없습니다. 귀하는 귀하의 광고가 보호 클래스에 이질적인 영향을 미치지 않도록 하는 것을 포함하되 이에 국한되지 않고, 보호 클래스에 대한 차별을 피하기 위해 서비스를 책임 있게 사용할 책임이 있습니다.
 
-## 전시회 A : 금지 국가 {#prohibited-countries}
+## 전시 A: 금지 국가 {#prohibited-countries}
 
 ### 유럽 연합 국가
 
