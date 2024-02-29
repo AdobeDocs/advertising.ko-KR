@@ -3,7 +3,7 @@ title: 전환 지표 업로드 [!DNL Google Ads]
 description: 검색, 소셜 및 상거래 추적 전환 지표를 로 업로드하는 방법을 알아봅니다 [!DNL Google Ads].
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: a004f5025ee94c6a40c24124a9cb134a4e1668ce
+source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 옆에 있는 확인란을 선택합니다. **[!UICONTROL Upload Conversions to Google Ads]**.
 
-1. (EEA(European Economic Area) 또는 영국(UK)에서 비즈니스를 수행하는 광고주; 선택 사항) EEA 및 영국 사용자로부터 광고 목적으로 데이터를 업로드하는 것에 대한 동의를 확보한 경우, 다음 옆의 확인란을 선택합니다 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+1. (EEA(European Economic Area) 또는 영국(UK)에서 비즈니스를 수행하는 광고주; 선택 사항) EEA 및 영국 사용자로부터 광고 목적으로 데이터를 업로드하는 것에 대한 동의를 수집한 경우, 다음 옆의 확인란을 선택합니다 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
 1. 클릭 **[!UICONTROL Save]**.
 

@@ -3,7 +3,7 @@ title: 광고 네트워크에 목표 업로드 활성화
 description: 하이브리드 포트폴리오에 대한 목표를 업로드하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 0fb03410e67be28d24496c948b52399c8465e041
+source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
    이 옵션은 광고주 계정이 하이브리드 최적화를 사용하도록 구성된 경우에만 사용할 수 있습니다. 하이브리드 최적화를 활성화하려면 Adobe 계정 팀에 문의하십시오.
 
-1. (광고주: [!DNL Google Ads] 유럽 경제 지역(EEA) 또는 영국(UK)에서 비즈니스를 수행하는 계정(선택 사항) EEA 및 영국 사용자로부터 광고 목적으로 데이터를 업로드하는 것에 대한 동의를 확보한 경우 다음 옆에 있는 확인란을 선택합니다. **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+1. (광고주: [!DNL Google Ads] 유럽 경제 지역(EEA) 또는 영국(영국)에서 비즈니스를 수행하는 계정(선택 사항) EEA 및 영국 사용자로부터 광고 목적으로 데이터를 업로드하는 것에 대한 동의를 수집한 경우 다음 옆에 있는 확인란을 선택합니다 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
 1. 클릭 **[!UICONTROL Save]**.
 
