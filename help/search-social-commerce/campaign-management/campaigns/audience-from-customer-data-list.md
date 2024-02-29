@@ -1,11 +1,11 @@
 ---
 title: 고객 데이터 목록을 사용하여 고객 일치 대상 관리
 description: 만들고 편집하는 방법 알아보기 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 고객 데이터 목록의 고객 일치 대상입니다.
-exl-id: 734d8cb1-3915-410f-a0cc-0669d6575eab
+exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 588b6b5887903e5912fc68a18ef142d908026870
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,10 @@ ht-degree: 0%
       1. 다음에서 [!UICONTROL Select File] 필드, 클릭 **[!UICONTROL Choose File]** 네트워크 또는 장치에서 파일을 선택합니다.
 
       1. 확인란을 선택하여 약관에 동의함을 나타냅니다. [!DNL Adobe] 및 광고 네트워크 개인정보 처리방침.
+
+      1. (광고주 만들기 [!DNL Google Ads] 유럽 경제 지역(EEA) 또는 영국(영국)에서 비즈니스를 수행하는 대상(선택 사항) EEA 및 영국 사용자로부터 광고 목적으로 데이터를 업로드하는 것에 대한 동의를 확보한 경우 다음 옆에 있는 확인란을 선택합니다. **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+
+      [!DNL Google Ads] 은 지정되지 않은 동의 상태가 있는 EEA 및 영국 사용자에 대한 모든 데이터를 무시합니다. 이로 인해 데이터 불일치 및 성능 문제가 발생할 수 있습니다.
 
       1. 클릭 **[!UICONTROL Upload File]**.
 

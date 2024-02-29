@@ -1,11 +1,11 @@
 ---
 title: 캠페인에 대한 FAQ
 description: 캠페인 관리 및 캠페인 데이터 보기에 대한 질문에 대한 답변을 살펴볼 수 있습니다.
-exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 0%
 또한, [!DNL Google Ads] 현재 날짜의 검색 네트워크에서 캠페인 수준 성과 지표는 광고주의 시간대에서 08:00 및 16:00에 가져옵니다.
 +++
 
-+++어떤 작업을 수행하면 키워드 및 광고가 히스토리를 잃게 됩니까?
++++어떤 작업으로 인해 키워드와 광고의 내역이 손실됩니까?
 
 >[!NOTE]
 >
->(포트폴리오가 있는 광고주) 검색, 소셜 및 상거래가 데이터를 수집하여 새로운 모델을 생성하는 동안 새로운 키워드 및 일치 유형 조합의 성능이 휘발될 것으로 예상합니다.
+>(포트폴리오가 있는 광고주) 검색, 소셜 및 상거래를 통해 데이터를 수집하여 모델을 생성하는 동안 새로운 키워드와 일치 유형 조합의 성능은 불안정할 것으로 예상합니다.
 
 **의 작업 [!UICONTROL Search] > [!UICONTROL Campaigns] 를 광고 네트워크의 편집기에서 볼 수 있습니다.**
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 * ([!DNL Baidu], [!DNL Google Ads], 및 [!DNL Yandex]) 키워드 이름을 편집합니다.
 
-* ([!DNL Google Ads], [!DNL Microsoft Advertising], 및 [!DNL Yandex]) 키워드의 일치 유형을 변경합니다.
+* ([!DNL Google Ads], [!DNL Microsoft® Advertising], 및 [!DNL Yandex]) 키워드의 일치 유형을 변경합니다.
 
 * 광고 그룹 간에 키워드를 이동합니다.
 
-* ([!DNL Google Ads] 동적 검색 광고, [!DNL Microsoft Advertising] 확장된 텍스트 광고 및 기타 지원되는 광고 네트워크의 모든 광고 유형) 광고 카피(헤드라인/제목 또는 설명) 또는 광고 이미지를 편집합니다.
+* ([!DNL Google Ads] 동적 검색 광고, [!DNL Microsoft® Advertising] 확장된 텍스트 광고 및 기타 지원되는 광고 네트워크의 모든 광고 유형) 광고 카피(헤드라인/제목 또는 설명) 또는 광고 이미지를 편집합니다.
 
 * 광고 그룹 간에 광고를 이동합니다.
 
@@ -99,7 +99,7 @@ Search, Social 및 Commerce에서 전환 지표의 표시 이름을 변경하면
 
 [!DNL Google Ads] 현재 날짜의 검색 네트워크에서 캠페인 수준 성과 지표는 광고주의 시간대에서 08:00 및 16:00에 가져옵니다.
 
-다음에서 [!UICONTROL Campaigns] 다음 두 위치의 탭 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 및 보기 [!UICONTROL Optimization] > [!UICONTROL Portfolios] 보기, 다음에 대해 보고할 때 [!UICONTROL Today] 또는 현재 날짜를 포함하는 사용자 지정 날짜 범위인 경우 데이터에는 가장 최근에 가져온 데이터가 포함됩니다.
+다음에서 [!UICONTROL Campaigns] 다음 두 위치의 탭 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 및 보기 [!UICONTROL Optimization] > [!UICONTROL Portfolios] 보기, 다음에 대해 보고할 때 [!UICONTROL Today] 또는 현재 날짜를 포함하는 사용자 지정 날짜 범위인 경우 데이터에는 가장 최근에 동기화된 데이터가 포함됩니다.
 
 >[!NOTE]
 >
@@ -107,13 +107,21 @@ Search, Social 및 Commerce에서 전환 지표의 표시 이름을 변경하면
 
 +++
 
-+++([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 검색, 소셜 및 상거래는 의 광고에 대한 병렬 추적을 지원합니까? [!DNL Google Ads] 또는 [!DNL Microsoft Advertising]?
++++추적 템플릿과 랜딩 페이지 접미사의 차이점은 무엇입니까?
 
-병렬 추적은 고객을 광고에서 최종 URL로 직접 보내고 추적 템플릿 URL(클릭 측정 포함)이 백그라운드로 로드됩니다. 그 결과 랜딩 페이지가 더 빨리 로드됩니다.
+병렬 추적을 지원하는 광고 네트워크에만 랜딩 페이지 접미사를 사용하십시오. 검색, 소셜 및 상거래에서 추적 템플릿과 랜딩 페이지 접미사는 모두 광고 네트워크의 클릭 식별자를 포함해야 하지만, 추적 템플릿에는 추가 추적 매개 변수가 포함됩니다.
 
-Search, Social 및 Commerce는 광고 네트워크의 클릭 식별자 ( )를 사용하는 검색 및 쇼핑 캠페인에 대한 병렬 추적을 지원합니다.`msclkid` 대상 [!DNL Microsoft Advertising]; `gclid` 대상 [!DNL Google Ads]). 사용 [계정 수준](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 또는 [캠페인 수준](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (호출됨)[!DNL final URL suffix]병렬 추적을 지원하는 브라우저에서 하위 광고에 대한 클릭을 추적하기 위해 랜딩 페이지 URL에 추가되는 &quot;광고 네트워크 ). 다음을 참조하십시오. [필수 접미어 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [필수 접미어 형식 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+에 대한 다음 FAQ 참조 [병렬 추적 지원](#parallel-tracking) 사용자가 광고를 클릭할 때 추적 템플릿 및 랜딩 페이지 접미사를 로드하는 방법에 대한 자세한 내용을 보려면 .
 
-사용자가 병렬 추적을 지원하지 않는 브라우저에서 광고를 볼 때 광고 네트워크는 대신 순차적 추적을 사용합니다. 고객은 먼저 추적 템플릿 URL로 전송되며, 이는 고객을 최종 URL로 리디렉션하기 전에 중간 추적 서버로 리디렉션할 수 있습니다. 광고 네트워크 계정에 대한 모든 추적 템플릿은에서 사용하는 동일한 클릭 식별자 매개 변수를 포함해야 합니다. [!UICONTROL Landing Page Suffix]. 다음을 참조하십시오. [템플릿 형식 추적 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [템플릿 형식 추적 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
++++
+
++++([!DNL Google Ads] 및 [!DNL Microsoft® Advertising]) 검색, 소셜 및 상거래는 의 광고에 대한 병렬 추적을 지원합니까? [!DNL Google Ads] 또는 [!DNL Microsoft® Advertising]? {#parallel-tracking}
+
+병렬 추적은 광고에서 최종 URL로 고객을 직접 보냅니다. 이 URL에는 최종 URL 접미사 또는 &quot;랜딩 페이지 접미사&quot;의 추가 매개 변수가 포함될 수 있습니다. 추적 템플릿 URL(클릭 측정에 대한 추가 매개 변수 포함)은 백그라운드에서 별도로 로드됩니다. 그 결과 랜딩 페이지가 더 빨리 로드됩니다.
+
+Search, Social 및 Commerce는 광고 네트워크의 클릭 식별자 ( )를 사용하는 검색 및 쇼핑 캠페인에 대한 병렬 추적을 지원합니다.`msclkid` 대상 [!DNL Microsoft® Advertising]; `gclid` 대상 [!DNL Google Ads]). 사용 [계정 수준](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 또는 [캠페인 수준](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (호출됨)[!DNL final URL suffix]병렬 추적을 지원하는 브라우저에서 하위 광고에 대한 클릭을 추적하기 위해 랜딩 페이지 URL에 추가되는 &quot;광고 네트워크 ). 다음을 참조하십시오. [필수 접미어 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [필수 접미어 형식 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+
+사용자가 병렬 추적을 지원하지 않는 브라우저에서 광고를 볼 때 광고 네트워크는 대신 순차적 추적을 사용합니다. 고객이 먼저 추적 템플릿 URL로 전송되어 최종 URL로 리디렉션되기 전에 고객을 중간 추적 서버로 리디렉션할 수 있습니다(랜딩 페이지 접미사에 추가 매개 변수를 포함할 수 있음). 광고 네트워크 계정에 대한 모든 추적 템플릿은에서 사용하는 동일한 클릭 식별자 매개 변수를 포함해야 합니다. [!UICONTROL Landing Page Suffix]. 다음을 참조하십시오. [템플릿 형식 추적 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [템플릿 형식 추적 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++내 광고에 대한 추적 URL에 &quot;`&EV_HASH={<hash>}`?&quot;
@@ -129,7 +137,7 @@ Search, Social 및 Commerce는 광고 네트워크의 클릭 식별자 ( )를 �
 
 광고를 일시 중지하면, 동일한 광고를 다시 제출하거나 재고 수준이 최소값을 초과할 경우 다시 활성화됩니다. 이렇게 하면 광고 내역을 유지할 수 있습니다.
 
-광고를 삭제하고 다시 제출하면 새 광고가 만들어지고 내역 데이터가 축적되어야 합니다. 그러나 삭제된 광고를 다시 제출하지 않을 경우 내역 데이터를 보유하는 것은 중요하지 않습니다.
+광고를 삭제하고 다시 제출하면 새 광고가 만들어지고 새 광고에 대한 내역 데이터가 축적되어야 합니다. 그러나 삭제된 광고를 다시 제출하지 않을 경우 내역 데이터를 보유하는 것은 중요하지 않습니다.
 +++
 
 +++(제품 인벤토리 피드) 광고 템플릿을 삭제한 다음 동일한 새 템플릿을 만드는 경우 일시 중지된 다음 피드 파일에서 누락된 항목이 있습니다(피드 파일 설정이 그렇게 구성되었을 때).
