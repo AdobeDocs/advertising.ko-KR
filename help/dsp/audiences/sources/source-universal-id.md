@@ -3,9 +3,9 @@ title: 범용 ID 파트너에서 인증된 세그먼트 활성화
 description: 범용 ID 솔루션을 통해 인증된 대상을 활성화하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: e9ff454428d0256402a2ef2fa74f8bd45bd7592f
+source-git-commit: 5d031fe746dc5051320e5d2092f9148b5a8a1bd5
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Advertising DSP 내의 범용 ID 솔루션을 통해 인증된 대상을 활성�
 
 1. 두 옵션 중 하나는 `adcloud-support@adobe.com` DSP에서 다음 설정을 활성화하여 DSP 캠페인에서 인증된 세그먼트를 한 번 타깃팅할 수 있습니다. [활성화 워크플로의 모든 단계가 완료되었습니다.](source-adobe-rtcdp.md):
 
-   1. [!DNL LiveRamp] [!DNL RampID] 세그먼트 공유 전 캠페인 구성 [!DNL Real-Time CDP].
+   * [!DNL LiveRamp] [!DNL RampID] 세그먼트 공유 전 캠페인 구성 [!DNL Real-Time CDP]
 
-   1. 계정 수준 &quot;[!UICONTROL LiveRamp segments]&quot; 옵션.
+   * 계정 수준 &quot;[!UICONTROL LiveRamp segments]&quot; 옵션
 
 1. (사용자가에서 인증된 세그먼트를 수동으로 공유) [!DNL LiveRamp])에서 다음 단계를 완료합니다 [!DNL LiveRamp] [!DNL Connect] 대시보드:
 
