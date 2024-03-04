@@ -1,11 +1,11 @@
 ---
 title: 피드에서 생성된 캠페인 데이터를 광고 네트워크에 게시
 description: 인벤토리 데이터 피드에서 생성된 데이터를 광고 네트워크에 게시하는 방법을 알아봅니다.
-exl-id: 14ce377c-9b71-48ac-8ead-cada9c06d52f
+exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
               날짜를 지정하려면 DD/MM/YYYY 또는 D/M/YYYY 형식을 사용하거나 [캘린더](/help/search-social-commerce/assets/calendar.png "캘린더") 캘린더를 열고 [날짜 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). 시간을 변경하려면 시간을 24시간 형식 HH/MM 또는 H/M으로 입력하거나 목록에서 시간(30분 간격)을 선택합니다.
 
-         * *[!UICONTROL Preview in Bulksheet Management Area only, post later]:** 다음 위치에서 사용할 수 있는 벌크 시트 파일을 만듭니다. [!UICONTROL Search] > [!UICONTROL Bulksheets] 보기. 선택적으로 여기에서 파일을 게시할 수 있습니다.
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** 에서 사용할 수 있는 벌크 시트 파일을 만듭니다. [!UICONTROL Search] > [!UICONTROL Bulksheets] 보기. 선택적으로 여기에서 파일을 게시할 수 있습니다.
 
            결과 일괄 시트 파일이 2MB를 초과하는 경우 파일은 ZIP 형식입니다. 파일을 게시하기 위해 압축 해제할 필요가 없습니다.
 
