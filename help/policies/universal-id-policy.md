@@ -4,7 +4,7 @@ description: 범용 ID 사용에 대한 정책을 참조하십시오.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: b870d2cb7d8c6304016af0c7fbec1e56511bdac1
+source-git-commit: 2a77177ea7fb563835731fbbaa5447df94c211e9
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- In TOC, but hidden from TOC and both external and internal search -->
 
-마지막 업데이트 날짜: 2024년 3월 1일
+마지막 업데이트 날짜: 2024년 2월 29일
 
 이 범용 ID 요구 사항 정책(&quot;정책&quot;)은 를 통해 배포되는 광고와 관련하여 범용 ID 사용에 대한 요구 사항을 설명합니다. [!DNL Adobe's] Adobe Advertising을 위한 온디맨드 서비스(&quot;서비스&quot;). 이 정책은 다음 사이의 계약서에 참조로 통합됩니다. [!DNL Adobe] 및 온디맨드 서비스를 사용하는 고객(&quot;귀하&quot;) 본 정책에 사용되지만 본 계약에서 정의되지 않은 자본화된 용어는 해당 계약에 명시된 의미를 갖습니다.
 
