@@ -3,7 +3,7 @@ title: 피드에서 생성된 캠페인 데이터를 광고 네트워크에 게�
 description: 인벤토리 데이터 피드에서 생성된 데이터를 광고 네트워크에 게시하는 방법을 알아봅니다.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
             * **[!UICONTROL End Time]:** 게시한 광고를 다음에 따라 일시 중지 또는 삭제할 수 있는 향후 날짜 및 시간 [피드 데이터 설정](feed-settings-manage.md#feed-data-settings) 의 경우[!UICONTROL When the Scheduled End Date is reached].&quot; 기본적으로 종료 시간은 오늘부터 30일 후인 00:00(오전 12:00)입니다. 선택 **[!UICONTROL None]** 데이터를 무기한 활성 상태로 유지하거나(또는 템플릿에 대한 새 데이터를 전파할 때까지) 날짜 및 시간을 지정합니다.
 
-              날짜를 지정하려면 DD/MM/YYYY 또는 D/M/YYYY 형식을 사용하거나 [캘린더](/help/search-social-commerce/assets/calendar.png "캘린더") 캘린더를 열고 [날짜 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). 시간을 변경하려면 시간을 24시간 형식 HH/MM 또는 H/M으로 입력하거나 목록에서 시간(30분 간격)을 선택합니다.
+              날짜를 지정하려면 DD/MM/YYYY 또는 D/M/YYYY 형식을 사용하거나 ![캘린더](/help/search-social-commerce/assets/calendar.png "캘린더") 캘린더를 열고 [날짜 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). 시간을 변경하려면 시간을 24시간 형식 HH/MM 또는 H/M으로 입력하거나 목록에서 시간(30분 간격)을 선택합니다.
 
          * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** 에서 사용할 수 있는 벌크 시트 파일을 만듭니다. [!UICONTROL Search] > [!UICONTROL Bulksheets] 보기. 선택적으로 여기에서 파일을 게시할 수 있습니다.
 
