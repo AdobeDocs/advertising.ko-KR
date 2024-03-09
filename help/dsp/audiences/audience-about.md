@@ -3,9 +3,9 @@ title: Advertising DSP의 대상자 관리 정보
 description: 대상자 관리 기능에 대해 알아봅니다.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 0979032c6dff9cfe7b5fb7deb10f53114efffb7e
+source-git-commit: e2387f7e373e69c72e97ee83eff8f6a7ce9ceed5
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ DSP에서 배치에 대한 타겟으로 사용할 수 있는 대상 세그먼트
 
 ## 자사 및 타사 데이터 세그먼트 가져오기
 
-DSP은 DMP(데이터 관리 플랫폼)에서 고유한 자사 데이터 세그먼트를 가져와 필요한 경우 광고주 집합에 제공할 수 있습니다.
+DSP은 쿠키 없는 타깃팅을 위해 자사 세그먼트를 범용 ID로 변환할 수 있으며, 모든 광고주 또는 계정에서 사용할 수 있도록 할 수 있습니다. DSP에 대한 커넥터가 설정되었습니다. [다음 [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html) 및 기타 CDP. 자세한 내용은 [소스 섹션](/help/dsp/audiences/sources/source-about.md).
 
-DSP은 의 통합 대상입니다. [다음 [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)를 사용하면 캠페인 활성화를 위해 승인된 광고주 및 사용자와 인증된 자사 세그먼트를 공유할 수 있습니다. Real-Time CDP 통합에 대한 자세한 내용은 [소스 섹션](/help/dsp/audiences/sources/source-about.md).
+DSP은 또한 DMP(데이터 관리 플랫폼)에서 직접 다른 자사 데이터 세그먼트를 가져와 필요한 경우 광고주 집합에 제공할 수 있습니다.
 
-DSP은 복잡한 타사 세그먼트의 조합을 포함하는 사용자 지정 타사 세그먼트를 가져올 수도 있습니다. 필요에 따라 모든 광고주 세트에 세그먼트를 제공할 수 있습니다.
+또한 DSP은 복잡한 타사 세그먼트의 조합을 포함하는 사용자 지정 타사 세그먼트를 가져올 수 있습니다. 필요에 따라 모든 광고주 세트에 세그먼트를 제공할 수 있습니다.
 
 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
