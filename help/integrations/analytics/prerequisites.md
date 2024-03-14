@@ -3,9 +3,9 @@ title: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics f
 description: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Adobe Advertising을 Adobe Analytics과 통합하기 전에 다음 정보를 검
    * Experience Cloud ID 서비스: `visitorAPI.js` 버전 2.0 이상
 * 모든 버전의 Adobe Analytics(포함) [!DNL Prime], [!DNL Premium], 또는 [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` 버전 2.1 이상
+* (Advertising DSP 고객) [Advertising DSP JavaScript 코드 조각](javascript.md) 뷰스루 방문을 추적하기 위해 웹 페이지에 배포됩니다.
 
 >[!TIP]
 >
@@ -89,7 +90,7 @@ Adobe Advertising 구현 팀에 다음 사항을 제공합니다.
 
 * 통합이 전달만 됨 [!DNL Analytics] 후속 유료 미디어 및 광고 노력의 입찰 최적화를 위한 Adobe Advertising에 사용할 표준 및 사용자 지정 이벤트입니다. 통과가 안 됩니다 [!DNL Analytics] 세그먼트, 계산된 지표 및 [!DNL eVars] Adobe Advertising 를 사용하여 입찰 최적화를 요청할 수 있습니다.
 
-* Adobe Advertising이 다음 범위 내에서 영구 ID 생성 [!DNL Analytics] 사용자가 사이트에 들어가기 전에 마지막으로 클릭하거나 본 광고를 기반으로 합니다. [클릭 및 뷰스루 전환 확인 기간](#lookback-a4adc) Adobe Advertising에서 구성됩니다. 사이트 방문자가 프로필 내에서 두 가지 유형의 사이트 시작 상호 작용을 모두 가져야 하고, 클릭이 전환 확인 기간 내에 있는 경우 방문자의 클릭스루 ID는 사이트 보고를 위한 뷰스루 ID보다 우선 적용됩니다.
+* Adobe Advertising이 다음 범위 내에서 영구 ID 생성 [!DNL Analytics] 사용자가 사이트에 들어가기 전에 마지막으로 클릭하거나 본 광고를 기반으로 합니다. [클릭 및 뷰스루 전환 확인 기간](#lookback-a4adc) Adobe Advertising에서 구성됩니다. 사이트 방문자의 프로필 내에 두 유형의 사이트 시작 상호 작용이 모두 있고 클릭이 전환 확인 기간 내에 있는 경우, 방문자의 클릭스루 ID는 사이트 보고를 위해 뷰스루 ID를 무시합니다.
 
 * [!DNL Analytics for Advertising] Adobe Analytics의 전환 추적은 구성 가능한 추적 전환 확인 기간(기본적으로 60일)을 사용합니다. Adobe Advertising 보고서는 이 추적 전환 확인 기간의 종료를 통한 사이트 전환 및 참여를 반영합니다.
 
