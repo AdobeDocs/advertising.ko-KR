@@ -3,7 +3,7 @@ title: 대상 세그먼트 논리 구문
 description: 대상 세그먼트에 대한 논리를 정의하는 데 사용할 수 있는 구문을 참조하십시오.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -23,7 +23,6 @@ ht-degree: 0%
 >
 >* 앞에 ! (이들 제외).
 >* 다음을 수행할 수 있습니다. [대상에 대한 세그먼트 ID 찾기](reusable-audience-clipboard.md) 출처: [!UICONTROL Audiences] > [!UICONTROL All audiences].
-
 
 예를 들어, 다음 논리는
 
@@ -48,4 +47,3 @@ ht-degree: 0%
 >* [재사용 가능한 대상 만들기](reusable-audience-create.md)
 >* [대상자 설정](audience-settings.md)
 >* [사용 가능한 타사 데이터 공급자](third-party-data-providers.md)
-
