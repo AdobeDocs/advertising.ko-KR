@@ -2,16 +2,15 @@
 title: 연결된 TV 도달 계획 편집
 description: 연결된 TV 도달 계획에 대한 설정을 편집하는 방법에 대해 알아봅니다.
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 675a09d1-9548-416d-bfa6-a6242149b255
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
 # 연결된 TV 도달 계획 편집
-
-*Beta 기능*
 
 계획 설정을 편집하면 새 예측이 생성됩니다.
 

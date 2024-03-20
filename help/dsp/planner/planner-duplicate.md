@@ -2,16 +2,15 @@
 title: 연결된 TV 도달 계획 복제
 description: 기존 플랜의 설정을 사용하여 연결된 TV 도달 계획을 만드는 방법을 알아봅니다.
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
 # 연결된 TV 도달 계획 복제
-
-*Beta 기능*
 
 1. 메인 메뉴에서 **[!UICONTROL Planner]**.
 

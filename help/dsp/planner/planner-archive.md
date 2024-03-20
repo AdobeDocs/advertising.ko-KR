@@ -2,16 +2,15 @@
 title: 연결된 TV 도달 계획 보관
 description: 연결된 TV 도달 계획을 보관하는 방법에 대해 알아봅니다.
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 335db881-51e6-412d-9346-216c6a70a6de
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
 # 연결된 TV 도달 계획 보관
-
-*Beta 기능*
 
 플랜을 보관하면 기본값에서 제거됩니다. [!UICONTROL Planner] 보기.<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
 
