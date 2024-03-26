@@ -4,9 +4,9 @@ description: 소비자 판매 옵트아웃 요청 캡처를 위한 지원에 대
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7613d49698bf303afad521e94471c11cd2a3e556
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ CCPA를 위한 Adobe 개인 정보 보호 서비스에 대한 자세한 내용�
 
 1. Experience Cloud 조직 ID를 식별하고 Adobe Advertising 계정에 연결되어 있는지 확인합니다.
 
-   Experience Cloud 조직 ID는 &quot;@AdobeOrg&quot;가 추가된 24자 영숫자 문자열입니다. 대부분의 Experience Cloud 고객에게는 조직 ID가 할당되었습니다. 마케팅 팀이나 내부 Adobe 시스템 관리자가 조직 ID를 모르거나 조직 ID가 프로비저닝되었는지 확실하지 않은 경우 Adobe 고객 지원 센터(gdprsupport@adobe.com)에 문의하십시오. 다음을 사용하여 Privacy API에 요청을 제출하려면 조직 ID가 필요합니다. `imsOrgID` 네임스페이스입니다.
+   Experience Cloud 조직 ID는 &quot;@AdobeOrg&quot;가 추가된 24자 영숫자 문자열입니다. 대부분의 Experience Cloud 고객에게는 조직 ID가 할당되었습니다. 마케팅 팀이나 내부 Adobe 시스템 관리자가 조직 ID를 모르거나 조직의 ID가 프로비저닝되었는지 확실하지 않은 경우 Adobe 계정 팀에 문의하십시오. 다음을 사용하여 Privacy API에 요청을 제출하려면 조직 ID가 필요합니다. `imsOrgID` 네임스페이스입니다.
 
    >[!IMPORTANT]
    >
@@ -73,7 +73,7 @@ CCPA를 위한 Adobe 개인 정보 보호 서비스에 대한 자세한 내용�
 
    >[!NOTE]
    >
-   비즈니스에 여러 Experience Cloud 조직 ID가 있는 경우 각각에 대해 별도의 API 요청을 전송해야 합니다. 그러나 여러 Adobe Advertising 하위 솔루션에 대해 하나의 API 요청을 수행할 수 있습니다([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 및 [!DNL DCO])을 사용하여 하위 솔루션당 하나의 계정을 만들 수 있습니다.
+   >비즈니스에 여러 Experience Cloud 조직 ID가 있는 경우 각각에 대해 별도의 API 요청을 전송해야 합니다. 그러나 여러 Adobe Advertising 하위 솔루션에 대해 하나의 API 요청을 수행할 수 있습니다([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 및 [!DNL DCO])을 사용하여 하위 솔루션당 하나의 계정을 만들 수 있습니다.
 
 이러한 모든 단계는 Adobe Advertising의 지원을 받는 데 필요합니다. 이러한 작업 및 Adobe Experience Platform Privacy Service을 사용하여 수행해야 하는 기타 관련 작업과 필요한 항목을 찾을 위치에 대한 자세한 내용은 다음을 참조하십시오. [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
@@ -90,7 +90,7 @@ Advertising DSP 내에서 또는 Advertising DSP을 사용하여 이전 3개월�
 
 ### 방법 2: Advertising DSP을 사용하여 소비자 판매 중지 보고서 검색 [!DNL Trafficking API]
 
-이 기능은 를 사용하는 조직에서 사용할 수 있습니다 [!DNL Trafficking API]. 에 대한 설명서를 참조하십시오. [!DNL Trafficking API] 추가 정보.
+이 기능은 를 사용하는 조직에서 사용할 수 있습니다 [!DNL Trafficking API]. 에 대한 설명서를 참조하십시오. [!DNL Trafficking API] 추가 정보.<!-- Add link to API doc once it's published. -->
 
 조직에서 를 사용하지 않는 경우 [!DNL Trafficking API] 그러나 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
