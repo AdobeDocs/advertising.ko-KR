@@ -4,7 +4,7 @@ description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값,
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 5edcd810c86f3b3ae65ccc92748177fa8cd0765e
+source-git-commit: 2e2d95ab2a6add695c3852a06e256b6db980779d
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Adobe Advertising에서 소비자 개인 정보에 액세스하고 삭제를 요
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (다음을 나타냄) [!DNL adcloud] cookie space)
+   * `"namespace": **411**` (다음을 나타냄) [!DNL adCloud] cookie space)
 
    * `"value":` &lt;*에서 검색된 실제 고객의 쿠키 ID 값`AdobePrivacy.js`*>
 

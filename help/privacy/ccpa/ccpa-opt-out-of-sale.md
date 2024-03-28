@@ -4,7 +4,7 @@ description: 소비자 판매 옵트아웃 요청 캡처를 위한 지원에 대
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7613d49698bf303afad521e94471c11cd2a3e556
+source-git-commit: 158d3de4eeb534a374ddc2a037ac95c60ab56063
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -126,7 +126,7 @@ curl -X POST \
             "value":  "Wqersioejr-wdg",
           }
     ],
-    "include": ["AdCloud"],
+    "include": ["adCloud"],
     "regulation": "ccpa"
 }'
 ```
@@ -134,4 +134,4 @@ curl -X POST \
 여기서:
 
 * `"namespace": "AdCloud"` 다음을 나타냅니다. `AdCloud` 쿠키 공간 및 해당 값은에서 검색한 고객의 쿠키 ID입니다 `AdobePrivacy.js`
-* `"include": ["AdCloud"]` 요청이 Adobe Advertising에 적용됨을 나타냅니다.
+* `"include": ["adCloud"]` 요청이 Adobe Advertising에 적용됨을 나타냅니다.
