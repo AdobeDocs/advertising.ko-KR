@@ -4,9 +4,9 @@ description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값,
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 403fdb9a54ea79390ae535f31287b327ebf71d5f
+source-git-commit: 80072930c0506a017a927ce53eaad900a2642e92
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -31,10 +31,8 @@ GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스
 
 Adobe Experience Platform은 기업이 다음 작업을 완료할 수 있는 기능을 제공합니다.
 
-* 내에서 데이터 주체의 쿠키 수준 데이터에 액세스 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO]; 내의 모바일 앱에 있는 광고에 대한 장치 ID 수준 데이터 [!DNL DSP]; 또는 내의 통합 ID 2.0 ID와 연결된 이메일 수준 데이터 [!DNL DSP].
-
-* 내에 저장된 쿠키 수준 데이터 삭제 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO] 브라우저를 사용하는 데이터 주체의 경우, 내에 저장된 ID 수준 데이터 삭제 [!DNL DSP] 모바일 장치에서 앱을 사용하는 데이터 주체의 경우 또는 내에 저장된 통합 ID 2.0 ID와 연결된 해시된 이메일 수준 데이터를 삭제하십시오. [!DNL DSP].<!-- stored within DSP? I thought we don't store the email addresses but dump them as soon as they're translated to a universal ID? -->
-
+* 내에서 데이터 주체의 쿠키 수준 데이터 또는 장치 ID 수준 데이터(모바일 앱의 광고용)에 액세스합니다 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO].
+* 내에 저장된 쿠키 수준 데이터 삭제 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 또는 [!DNL DCO] 브라우저를 사용하는 데이터 주체의 경우 또는 내에 저장된 ID 수준 데이터를 삭제합니다. [!DNL DSP] 모바일 디바이스에서 앱을 사용하는 데이터 주체의 경우.
 * 하나 또는 모든 기존 요청의 상태를 확인합니다.
 
 ## Adobe Advertising 요청을 전송하기 위한 필수 설정
@@ -69,7 +67,7 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
 
    데이터 주체의 액세스 요청을 제출하면 Privacy Service API는 지정된 쿠키 또는 장치 ID를 기반으로 데이터 주체의 정보를 반환한 다음 데이터 주체에게 반환해야 합니다.
 
-   데이터 주체의 삭제 요청을 제출하면 쿠키 ID 또는 장치 ID가 서버에서 삭제됩니다. 에 대한 요청의 경우 [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], 및 [!DNL DCO], 쿠키 ID와 연결된 모든 비용, 클릭 및 매출 데이터도 서버에서 삭제됩니다.
+   데이터 주체의 삭제 요청을 제출하면 쿠키 ID 또는 장치 ID와 쿠키와 관련된 모든 비용, 클릭 및 매출 데이터가 서버에서 삭제됩니다.
 
    >[!NOTE]
    >
@@ -83,11 +81,6 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
 
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*Experience Cloud 조직 ID*>
-  `"users":`  여기서 을 (으)로 바꿉니다. [쿠키 기반 요청](#gdpr-request-fields-cookie) 또는 [이메일 기반 요청](#gdpr-request-fields-email)<!-- wording? -->.
-
-<!-- Complete this section -->
-
-### 쿠키 기반 요청 {#gdpr-request-fields-cookie}<!-- Header? -->
 
 `"users":`
 
@@ -97,7 +90,7 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (다음을 나타냄) [!DNL adCloud] cookie space)&lt;!>— 숫자 값은 실제로 https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix에 따라 &quot;namespace&quot;가 아닌 &quot;namespaceId&quot;입니다.>
+   * `"namespace": **411**` (다음을 나타냄) [!DNL adcloud] cookie space)
 
    * `"value":` &lt;*에서 검색된 실제 데이터 주체의 쿠키 ID 값`AdobePrivacy.js`*>
 
@@ -105,79 +98,15 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
 
 * `"regulation": **gdpr**` (요청에 적용되는 개인정보 보호 규정)
 
-## 해시된 이메일 기반 요청 {#gdpr-request-fields-email}<!-- Header? -->
-
-`"users":`
-
-* `"key":` &lt;*일반적으로 데이터 주체의 이름*>
-
-* `"action":` 다음 중 하나 `**access**` 또는 `**delete**`
-
-* `"user IDs":`
-
-   * `"namespace": **Email_LC_SHA256**` (해시된 이메일 공간을 나타냄)
-
-   * `"type": **standard**`
-
-   * `"value":` &lt;*SHA256의 실제 해시된 이메일 값*>
-
-   * `"namespaceId": **411**` (다음을 나타냄) [!DNL adCloud] cookie space)&lt;!>— 숫자 값은 실제로 https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix에 따라 &quot;namespace&quot;가 아닌 &quot;namespaceId&quot;입니다.>
-
-* `"include": **adCloud**` (는 [!DNL Adobe] 요청에 적용되는 제품)
-
-* `"regulation": **gdpr**` (요청에 적용되는 개인정보 보호 규정)
-
 ## 데이터 주체에서 가져온 Adobe Advertising 사용자 ID를 사용하여 제출한 요청의 예 `AdobePrivacy.js`
 
-다음 예제에서는 쿠키 기반 정보(네임스페이스 있음)에 대한 하나의 액세스 요청을 보여줍니다 `411`) 및 해시된 이메일 기반 정보(네임스페이스 포함) `Email_LC_SHA256`)을 참조하십시오.
-
 ```
-...
-`{
-    "companyContexts": [
-      {
-        "namespace": "imsOrgID",
-        "value": "5AB13068374019BC@AdobeOrg"
-      }
-    ],
-    "users": [
-      {
-        "key": "John Doe",
-        "action": ["access"],
-        "userIDs": [
-          {
-            "namespace": "411",
-            "value": "Wqersioejr-wdg",
-            "type":"namespaceId",
-            "deletedClientSide":false
-          },
-          {
-            "namespace":"Email_LC_SHA256",
-            "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
-            "type":"standard",
-            "deletedClientSide":false
-          }
-        ]
-      },
-    ],
-    "include": ["adCloud"],
-    "regulation": "gdpr"
-}'
-```
-
-<!-- old format with just cookie-level data
-```
-
-{
-    "companyContexts": [
-      {
-        
 {
 "companyContexts":[
     {
         "namespace":"imsOrgID",
         "value":"5AB13068374019BC@AdobeOrg"
-    }
+      }
    ],
    "users": [
 {
@@ -189,12 +118,6 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
         "value":"Wqersioejr-wdg",
         "type":"namespaceId",
         "deletedClientSide":false
-      },
-      {
-        "namespace":"Email_LC_SHA256",
-        "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
-        "type":"standard",
-        "deletedClientSide":false
       }
    ]
 }
@@ -205,76 +128,12 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
     "regulation":"gdpr"
 }
 ```
- -->
 
 ## 액세스 요청에 대해 반환되는 데이터 필드
 
 다음은 Adobe Advertising에 대한 액세스 응답의 예입니다.
 
 ```
-{
-    "jobId": "6fc09b53-c24f-4a6c-9ca2-c6076b0842b6",
-    "action":"access",
-    "product":"adCloud",
-    "status":"complete",
-    "results":{
-        "userIDs":[
-            {
-                "namespace": "411",
-                "userID":"Wqersioejr-wdg"
-            },
-            {
-                "namespace": "Email_LC_SHA256",
-                "type":"standard",
-                "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
-                "isDeletedClientSide":false
-            }
-        ],
-        "receiptData":{
-            "impressionCount":"100",
-            "clickCount":5,
-            "geo":[
-                "United States of America",
-                "San Francisco CA"
-            ],
-            "profile":[
-                {
-                    "pixelid":"111",
-                    "ut1":"abc",
-                    "ut2":"def",
-                    "ut3":"ghi",
-                    "ut4":"jkl",
-                    "ut5":"mno"
-                },
-                {
-                    "pixelid":"123",
-                    "ut1":"abc",
-                    "ut2":"def",
-                    "ut3":"ghi",
-                    "ut4":"jkl",
-                    "ut5":"mno"
-                }
-            ],
-            "matchingSegments":[
-                {
-                    "segmentName":"AP4 - Art/Culture - In-Market",
-                    "segmentID":"kV1mPa2aqPNWKSNtf325",
-                    "serviceProvider":"Adobe"
-                },
-                {
-                    "segmentName":"EMEA - UK - Health Food Buyers",
-                    "segmentID":"eP2oJ2UPsfsDVDhvlGewx",
-                    "serviceProvider":"BlueKai"
-                }
-            ]
-        }
-    }
-}
-```
-
-<!-- old format with just cookie-level data
-```
-...
 {
     "jobId":"12345AD43E",
     "action":"access",
@@ -328,4 +187,3 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
     }
 }
 ```
--->
