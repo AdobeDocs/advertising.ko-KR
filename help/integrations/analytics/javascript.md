@@ -3,7 +3,7 @@ title: 용 JavaScript 코드 [!DNL Analytics for Advertising]
 description: 용 JavaScript 코드 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 9158ed3fc8b35b5f79f217b619c2ff8e596895ab
+source-git-commit: d591388a956adf41882b0bfdd5f74c5a07837657
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%
@@ -78,7 +78,7 @@ JavaScript 라이브러리는 [!DNL Analytics] 및 Adobe Advertising을 사용�
      Adobe Advertising 호출이 표시되지 않으면 방문의 첫 번째 페이지 보기가 아닐 수 있습니다. 테스트 목적으로, 다음 호출이 해당 방문의 첫 번째 페이지 보기가 되도록 쿠키를 제거할 수 있습니다.
 
    1. 응용 프로그램 탭에서 `adcloud` 쿠키 및 쿠키에 `_les_v` 값이 인 (마지막 방문) `y` 30분 후에 만료되는 UTC 에포크 타임스탬프입니다.
-      1. 삭제 `ad cloud` 쿠키를 만들고 페이지를 새로 고칩니다.
+      1. 삭제 `adcloud` 쿠키를 만들고 페이지를 새로 고칩니다.
 
 1. (Experience Cloud ID 서비스를 사용하는 구현) `visitorAPI.js` 코드) 필터링 기준 `/b/ss` 를 클릭하여 Analytics 히트를 확인합니다.
 
