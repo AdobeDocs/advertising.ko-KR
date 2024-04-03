@@ -1,18 +1,18 @@
 ---
 title: 클릭 추적 URL에 대한 선택적 추적 매개 변수
 description: 클릭 추적 URL에 추가할 수 있는 선택적 검색, 소셜 및 상거래 추적 매개 변수와 광고 네트워크별 추적 매개 변수에 대해 알아봅니다.
-exl-id: ca619e55-14b1-4768-b866-e339ae2ca6d4
+exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 3460011a707608c172920801196837f7a278e2c0
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
 
 # 클릭 추적 URL에 대한 선택적 추적 매개 변수
 
-*Google 광고, Microsoft 광고 및 Yahoo! 일본 계정만*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo Native], [!DNL Yahoo! Japan], 및 [!DNL Yandex] 계정만*
 
 최종 URL 또는 대상 URL에 대한 표준 추적 매개 변수만 사용하는 대신, 광고 네트워크 계정에 대한 특정 데이터를 추적하기 위해 매개 변수를 더 추가할 수 있습니다. 계정 설정 또는 캠페인 설정에 다음 매개 변수의 조합을 추가할 수 있습니다.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 | <code>{custom_code}</code> | 업로드된 일괄 시트 파일의 &quot;사용자 지정 URL 매개 변수&quot; 열의 데이터를 추적 URL에 삽입하려면 다음을 수행합니다. {custom_code} 추적 URL에서 하나 이상의 키-값 쌍의 값이 끝나는 위치에서만 사용할 수 있습니다. 예:  <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>참고:</b> 일괄 시트 파일의 사용자 지정 값을 추적 URL에 삽입하려면 &quot;추적 URL 생성&quot; 옵션을 사용하여 일괄 시트 파일을 업로드하십시오. 일괄 시트 파일 사용에 대한 자세한 내용은 &quot;[일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).&quot; |
 | <code>{ef_uniqueid}</code> | Adobe Advertising에서 만든 고유 ID를 삽입하려면 추적 메서드가 &quot;EF Redirect&quot;이면 자동으로 추가됩니다. |
 | <code>{ef_userid}</code> | Adobe Advertising이 광고주에게 할당하는 고유 사용자 ID를 삽입합니다. |
-| <code>{ef_sid}</code> | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID를 삽입하려면 다음을 수행합니다. <i>[!UICONTROL 3]</i> 대상 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 대상 [!DNL Microsoft® Advertising], <i>[!UICONTROL 45]</i> 대상 [!DNL Meta], <i>[!UICONTROL 86]</i> 대상 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 대상 [!DNL Naver], <i>[!UICONTROL 88]</i> 대상 [!DNL Baidu], <i>[!UICONTROL 90]</i> 대상 [!DNL Yandex], <i>[!UICONTROL 94]</i> 대상 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 대상 [!DNL Yahoo Native] (더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i> 대상 [!DNL Pinterest] (사용하지 않음). |
+| <code>{ef_sid}</code> | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID를 삽입하려면 다음을 수행합니다. <i>[!UICONTROL 3]</i> 대상 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 대상 [!DNL Microsoft®® Advertising], <i>[!UICONTROL 45]</i> 대상 [!DNL Meta], <i>[!UICONTROL 86]</i> 대상 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 대상 [!DNL Naver], <i>[!UICONTROL 88]</i> 대상 [!DNL Baidu], <i>[!UICONTROL 90]</i> 대상 [!DNL Yandex], <i>[!UICONTROL 94]</i> 대상 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 대상 [!DNL Yahoo Native] (더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i> 대상 [!DNL Pinterest] (사용하지 않음). |
 | <code>{ef_searchengine}</code> | 광고 네트워크 이름을 삽입합니다. |
 | <code>{ef_campaign}</code> | 캠페인 이름을 삽입합니다. |
 | <code>{ef_campaignid}</code> | 캠페인 ID를 삽입합니다. <b>참고:</b> 새 캠페인에 대한 ID는 캠페인이 광고 네트워크에 게시될 때까지 생성되지 않습니다. 계정이 &quot;[!UICONTROL EF Redirect]&quot;및 &quot;자동 업로드&quot; 옵션을 선택하면 Adobe Advertising은 다음날 관련 대상 URL 또는 최종 URL에 캠페인 ID를 자동으로 삽입합니다. 계정에서 &quot;[!UICONTROL EF Redirect]&quot; 및 [!UICONTROL Auto Upload]&quot; 옵션을 선택하고 관련 대상 URL 또는 최종 URL에 캠페인 ID를 삽입하려면 캠페인을 만들고, &quot;추적 URL 생성&quot; 옵션을 사용하여 새 캠페인에 대한 일괄 시트 파일을 다운로드한 다음, 파일을 광고 네트워크에 게시해야 합니다. |
@@ -55,26 +55,26 @@ ht-degree: 0%
 | <code>{ef_adgroupid}</code> | 광고 그룹 ID를 삽입합니다. <b>참고:</b> 새 광고 그룹의 ID는 광고 그룹이 광고 네트워크에 게시될 때까지 생성되지 않습니다. 계정이 &quot;[!UICONTROL EF Redirect]&quot;및 &quot;자동 업로드&quot; 옵션을 선택하면 Adobe Advertising은 다음날 관련 대상 URL 또는 최종 URL에 광고 그룹 ID를 자동으로 삽입합니다. 계정에서[!UICONTROL EF Redirect]&quot; 및 [!UICONTROL Auto Upload]&quot; 옵션을 선택하고 관련 대상 URL 또는 최종 URL에 광고 그룹 ID를 삽입하려면 광고 그룹을 만들고, &quot;추적 URL 생성&quot; 옵션을 사용하여 새 광고 그룹에 대한 일괄 시트 파일을 다운로드한 다음, 파일을 광고 네트워크에 게시해야 합니다. |
 | <code>{ef_keyword}</code> | 키워드를 삽입합니다. |
 | <code>{ef_keywordid}</code> | 키워드 ID를 삽입합니다. <b>참고:</b> 새 키워드의 ID는 키워드가 광고 네트워크에 게시될 때까지 생성되지 않습니다. 계정이 &quot;[!UICONTROL EF Redirect]&quot; 및 [!UICONTROL Auto Upload]&quot;옵션을 선택하면 Adobe Advertising은 다음날 관련 대상 URL 또는 최종 URL에 키워드 ID를 자동으로 삽입합니다. 계정에서 &quot;[!UICONTROL EF Redirect]&quot; 및 [!UICONTROL Auto Upload]&quot; 관련 대상 URL 또는 최종 URL에 키워드 ID를 삽입하려면 키워드를 만들고, &quot;추적 URL 생성&quot; 옵션을 사용하여 새 키워드에 대한 일괄 시트 파일을 다운로드한 다음, 파일을 광고 네트워크에 게시해야 합니다.&quot; |
-| <code>{ef_matchtype}</code> | 키워드 일치 유형을 &quot;Broad&quot;, &quot;Exact&quot; 또는 &quot;Phrase&quot;로 삽입하려면 와 함께 Google 광고 및 Microsoft 광고에 자동으로 포함됨[!UICONTROL EF Redirect]&quot;추적 메서드. |
+| <code>{ef_matchtype}</code> | 키워드 일치 유형을 &quot;Broad&quot;, &quot;Exact&quot; 또는 &quot;Phrase&quot;로 삽입하려면 다음에 대해 자동으로 포함됨 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] (&quot;)[!UICONTROL EF Redirect]&quot;추적 메서드. |
 | <code>{ef_adid}</code> | 광고 ID를 삽입합니다. <b>참고:</b> 새 광고에 대한 ID는 광고가 광고 네트워크에 게시될 때까지 생성되지 않습니다. 계정이 &quot;[!UICONTROL EF Redirect]&quot; 및 [!UICONTROL Auto Upload]&quot;옵션을 선택하면 Adobe Advertising은 다음날 관련 대상 URL 또는 최종 URL에 광고 ID를 자동으로 삽입합니다. 계정에서 &quot;[!UICONTROL EF Redirect]&quot; 및 [!UICONTROL Auto Upload]&quot; 옵션을 선택하고 관련 대상 URL 또는 최종 URL에 광고 ID를 삽입하려면 광고를 만들고, &quot;추적 URL 생성&quot; 옵션을 사용하여 새 광고에 대한 일괄 시트 파일을 다운로드한 다음, 파일을 광고 네트워크에 게시해야 합니다. |
 
-## Google 광고 동적 추적 매개 변수
+## [!DNL Google Ads] 동적 추적 매개 변수
 
 다음을 참조하십시오 [https://support.google.com/google-ads/answer/2375447](https://support.google.com/google-ads/answer/2375447).
 
-## Microsoft Advertising 동적 추적 매개 변수
+## [!DNL Microsoft® Advertising] 동적 추적 매개 변수
 
 다음을 참조하십시오 [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
-## Yahoo 기본 동적 추적 매개 변수
+## [!DNL Yahoo Native] 동적 추적 매개 변수
 
 다음을 참조하십시오 [https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters](https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters).
 
-## 야후! 일본 광고 동적 추적 매개 변수
+## [!DNL Yahoo! Japan Ads] 동적 추적 매개 변수
 
 다음을 참조하십시오 [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
-## Yandex 동적 추적 매개 변수
+## [!DNL Yandex] 동적 추적 매개 변수
 
 다음을 참조하십시오 [https://yandex.com/support/direct/statistics/url-tags.html](https://yandex.com/support/direct/statistics/url-tags.html).
 

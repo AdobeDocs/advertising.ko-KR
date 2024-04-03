@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
+source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1698'
 ht-degree: 2%
 
 ---
@@ -163,8 +163,8 @@ ht-degree: 2%
          + 제품 그룹 {#product-groups}
             + [제품 그룹 기본 정보](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)
             + [제품 그룹 관리](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)
-            + [Google Ads 제품 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
-            + [Microsoft Advertising 제품 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
+            + [[!DNL Google Ads] 제품 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
+            + [[!DNL Microsoft Advertising] 제품 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
             + [쇼핑 캠페인 제품 필터](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
          + 배치 {#placements}
             + [배치 기본 정보](/help/search-social-commerce/campaign-management/campaigns/placement-about.md)
@@ -175,7 +175,7 @@ ht-degree: 2%
             + [정보 [!DNL Google Ads] 동적 검색 대상](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-about.md)
             + [관리 [!DNL Google Ads] 동적 검색 대상](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)
          + 대상 및 대상 타겟 {#audiences-and-targets}
-            + 대상자 {#audiences}
+            + 대상 {#audiences}
                + [대상자 기본 정보](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
                + [만들기 [!DNL Google Ads] 의 고객 일치 대상 [!DNL Adobe] 대상](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
                + [만들기 [!DNL Google Ads] Adobe Campaign 이메일 목록의 고객 일치 대상](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)

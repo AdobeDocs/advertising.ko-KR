@@ -3,9 +3,9 @@ title: 캠페인 관리
 description: 광고 캠페인을 만들고 관리하는 방법을 알아봅니다.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 813b2a100df7381bdcea1c44a37f86e65ee5794f
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -101,8 +101,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Baidu 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
+>* [[!DNL Baidu] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
->* [Microsoft Advertising 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
->* [야후! 일본 광고 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
->* [Yandex 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
+>* [[!DNL Microsoft Advertising] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
+>* [[!DNL Yahoo! Japan Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+>* [[!DNL Yandex] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)

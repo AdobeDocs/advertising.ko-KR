@@ -1,11 +1,11 @@
 ---
 title: 검색, 소셜 및 상거래에 대한 전환 추적 옵션
 description: 검색, 소셜 및 상거래에 대한 전환 추적 옵션에 대해 알아봅니다.
-exl-id: 098efaf8-6ffb-4811-8b20-41c7c85df812
+exl-id: 263da6a4-8d72-4882-8784-290a3be6f8fa
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: c23028701ff0064bae04135d9e7a70da4c85e937
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ ht-degree: 0%
 | Adobe Advertising 자사 픽셀 | 광고주는 다음 작업을 수행합니다. <ul><li>용 JavaScript 라이브러리 구현 [Adobe Experience Cloud ID(ECID) 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) 전체 사이트에 게시합니다.</li><li>Adobe Advertising 추가 [ITP 매핑을 사용한 JavaScript 태그](itp-conversion-mapping-tag.md) 를 클릭하여 랜딩 페이지일 수 있는 모든 페이지로 이동합니다(랜딩 페이지는 시간이 지남에 따라 변경될 수 있으므로 이상적으로는 모든 페이지에서). 태그를 사용하면 Adobe Advertising이 랜딩 페이지에서 큰 숫자를 과학적 표기법으로 변환하는 페이지에서 발생하는 전환 이벤트를 추적할 수 있습니다.</li><li>Adobe Advertising 추가 [JavaScript 전환 추적 태그 v3](format-conversion-tag-jsv3.md) 변환 페이지.</li></ul> | <ul><li>[!DNL Safari] 7일 전환 전환 전환만 허용하며, 전환 확인 기간 동안 사이트 방문 횟수 반복 시 재설정됩니다.</li><li>에서 유사한 제한 사항 예상 [!DNL Chrome] 2022년.</li></ul> | [!DNL Safari] 7일 전환 확인 중 전환을 추적합니다. 전환 확인 기간은 전환 확인 기간 동안 사이트 방문 반복에 대해 재설정되므로, 제한이 모든 항목에 영향을 주지는 않습니다 [!DNL Safari] 사용자. | 아니요 |
 | EFID 피드 | 광고주의 검색 계정은 Adobe Advertising 고유 ID(토큰)를 사용하여 대상 URL/최종 URL을 생성하도록 설정됩니다. 사용자가 광고를 클릭하면 Adobe Advertising이 고유한 ID( )를 만듭니다.`EFID`)를 클릭하여 최종 URL의 끝에 표시합니다. 광고주의 클라이언트 시스템은 클릭으로 인해 발생한 전환에 대한 고유 식별자로 EFID를 캡처하여 EFID, 트랜잭션 날짜 및 전환 지표를 포함하는 매출 피드의 Adobe Advertising에게 보냅니다. 그런 다음 Adobe Advertising은 EFID를 사용하여 원래 클릭에 대한 전환을 일치시킵니다. | <ul><li>광고주는 EFID를 캡처하고 자동화된 피드를 매일 Adobe Advertising으로 보낼 수 있는 방법을 가져야 합니다.</li><li>전환은 최대 180일(광고주당) 동안 또는 Adobe Advertising 시스템의 제한에 따라 추적할 수 있습니다.</li></ul> | <ul><li>이 메서드는 자사 전환 데이터를 사용하므로 타사 쿠키 제한 사항의 영향을 받지 않습니다.</li><li>온라인 및 오프라인 전환은 하나의 피드로 보낼 수 있습니다.</li><li>사이트에 코드 변경이나 태그가 필요하지 않습니다.</li></ul> | 예 |
 | 거래 ID 피드 [콤보 피드] | 광고주는 고유한 거래 ID( )에 대한 매개 변수를 포함하는 Adobe Advertising 픽셀을 추가합니다.`ev_transid=&lt;transid&gt;`)를 클릭하여 회사 웹 페이지를 방문하면 Adobe Advertising이 픽셀이 실행될 때 생성되는 고유한 거래 ID를 캡처합니다. 광고주의 클라이언트 시스템이 [!UICONTROL Transaction ID] 일치하는 오프라인 전환을 위한 매출 피드를 Adobe Advertising에게 보냅니다. [!UICONTROL Transaction ID] 값 | <ul><li>광고주가 이전 픽셀을 사용하는 경우 [!DNL Safari] 실행이 차단되면 오프라인 데이터에 사용하기 위해 ID가 캡처되지 않습니다.</li><li>피드가 자동화되지 않았습니다.</li></ul> | <ul><li>자사 픽셀을 구현하는 경우 [!UICONTROL Transaction ID] 다음 위치에 캡처됨 [!DNL Safari].</li><li>오프라인/승인된 전환 이벤트 추적을 제공합니다.</li></ul> | 아니요 |
-| Google 전환 | 다음으로 추적되는 전환 [!DNL Google Analytics] 태그는 API 연결을 통해 Adobe Advertising으로 자동으로 가져옵니다. 각 전환 이름에는 `&quot;GGL_&quot;` 접두사입니다. | <ul><li>Google은 일반적으로 오프라인 데이터를 추적하지 않습니다.</li><li>Microsoft® 광고 전환은 포함되지 않습니다.</li></ul> | Google은 머신 러닝을 사용하여 &quot;외삽합니다.[모델 전환](https://support.google.com/google-ads/answer/10081327).&quot; | 아니요 |
+| [!DNL Google] 전환 | 다음으로 추적되는 전환 [!DNL Google Analytics] 태그는 API 연결을 통해 Adobe Advertising으로 자동으로 가져옵니다. 각 전환 이름에는 `&quot;GGL_&quot;` 접두사입니다. | <ul><li>[!DNL Google] 는 일반적으로 오프라인 데이터를 추적하지 않습니다.</li><li>[!DNL Microsoft® Advertising] 전환은 포함되지 않습니다.</li></ul> | [!DNL Google] 머신 러닝을 사용하여 외삽하기[모델 전환](https://support.google.com/google-ads/answer/10081327).&quot; | 아니요 |
 
 <!--
-| Microsoft Advertising Conversions | Conversions tracked with Microsoft Advertising universal event tags (UET) are automatically imported to Adobe Advertising via an API connection. Each conversion name has a &quot;???&quot; prefix. | Microsoft Advertising typically doesn't track offline data. Google conversions aren't included. | ?? | No |
+| [!DNL Microsoft Advertising] Conversions | Conversions tracked with [!DNL Microsoft Advertising] universal event tags (UET) are automatically imported to Adobe Advertising via an API connection. Each conversion name has a &quot;???&quot; prefix. | [!DNL Microsoft Advertising] typically doesn't track offline data. [!DNL Google] conversions aren't included. | ?? | No |
 -->
 
 >[!MORELIKETHIS]

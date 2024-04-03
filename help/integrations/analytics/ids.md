@@ -3,9 +3,9 @@ title: 사용한 Adobe Advertising ID [!DNL Analytics]
 description: 사용한 Adobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 0d48ceda77783cd8b5fd9e609da424dcfa94f278
+source-git-commit: 9374f5ef6aaff1f638022bc878c7af190e31888f
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1686'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ EF ID는 Adobe Advertising이 활동을 온라인 클릭 또는 광고 노출과
 * `gclid` 은(는) [!DNL Google Click ID] (GCLID).
 * `s` 는 네트워크 유형입니다(검색의 경우 &quot;s&quot;).
 
-#### Microsoft Advertising 검색 광고
+#### [!DNL Microsoft Advertising] 광고 검색
 
 ```
 {msclkid}:G:s

@@ -1,16 +1,16 @@
 ---
-title: '[!DNL Microsoft Advertising] 광고 그룹 설정'
-description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 광고 그룹.
+title: '[!DNL Microsoft® Advertising] 광고 그룹 설정'
+description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 광고 그룹.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
+source-git-commit: 29401370d18a5d1c7d5c28cb90a109ea5134ac00
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] 광고 그룹 설정
+# [!DNL Microsoft® Advertising] 광고 그룹 설정
 
 ## [!UICONTROL Adgroup Details]
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]:** (검색 광고) 광고 그룹 내에 광고를 배치하는 방법 및 위치:
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (기본값): 검색 네트워크에 광고 입찰을 배치합니다.
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! websites]* (기본값): 검색 네트워크에 광고 입찰을 배치합니다.
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]:* 신디케이트된 파트너 사이트에 광고 입찰을 진행하려면.
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! syndicated search partners]:* 신디케이트된 파트너 사이트에 광고 입찰을 진행하려면.
 
 * *[!UICONTROL Content network]:* 더 이상 사용되지 않음
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/location-targets.md}}
 
-대상 [!DNL Microsoft Advertising] 대상 네트워크의 광고 그룹, 위치 대상에 대한 입찰 수정자는 &quot;이 포함된 표준 포트폴리오에서 최적화되지 않습니다.[!UICONTROL Auto-optimize Bid Adjustment Values]&quot; 설정.
+대상 [!DNL Microsoft® Advertising] 대상 네트워크의 광고 그룹, 위치 대상에 대한 입찰 수정자는 &quot;이 포함된 표준 포트폴리오에서 최적화되지 않습니다.[!UICONTROL Auto-optimize Bid Adjustment Values]&quot; 설정.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]:** (디스플레이/기본 네트워크의 캠페인만 해당, 선택 사항) 광고를 표시하지 않으려는 디스플레이 네트워크의 사이트. 올바른 URL(예: www.example.com)을 입력하십시오. 여러 문자열을 지정하려면 쉼표로 구분하거나 별도의 줄에 입력합니다.
 
-가용성에 대한 자세한 내용은 &quot;에 대한 Microsoft Advertising 도움말을 참조하십시오.[특정 웹 사이트에 광고가 표시되지 않도록 하기](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+가용성에 대한 자세한 내용은 [!DNL Microsoft® Advertising] &quot; 도움말[특정 웹 사이트에 광고가 표시되지 않도록 하기](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 >[!MORELIKETHIS]
 >
