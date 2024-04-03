@@ -3,7 +3,7 @@ title: 성과 캠페인 설정에 대한 우수 사례
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 배치를 포함하여 성과 중심 캠페인을 설정하는 모범 사례에 대해 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
+source-git-commit: b3a03aa34bbdcf668a71d6810362d735c21961d7
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -75,7 +75,7 @@ DSP은 성과 중심의 캠페인을 최적화할 수 있습니다. 성과 캠�
 
 * **예산:** DSP은 항상 패키지 예산의 100%를 패키지의 모든 배치 간에 균등하게 할당하려고 합니다. 배치에 지출 금액이 낮거나 지출이 없는 경우 더 많은 예산을 배율이 있는 배치에 할당할 수 있도록 배치를 예산 제한하는 것이 좋습니다. 예산 변경 사항이 조정될 때까지 24-48시간이 걸릴 수 있습니다.
 
-* **최적화 목표:** 두 가지 성능 최적화 목표 중 하나를 사용합니다. *[!UICONTROL Highest ROAS]* 또는 *[!UICONTROL Lowest CPA]*&#x200B;패키지 목표에 따라 다릅니다. 이러한 목표는 각각 최고 ROAS 또는 최저 CPA 배치로 패키지를 자동 최적화합니다.
+* **최적화 목표:** 두 가지 성능 최적화 목표 중 하나를 사용합니다. *[!UICONTROL Highest Return on Ad Spend]* 또는 *[!UICONTROL Lowest Cost per Acquisition]*&#x200B;패키지 목표에 따라 다릅니다. 이러한 목표는 각각 최고 ROAS 또는 최저 CPA 배치로 패키지를 자동 최적화합니다.
 
 * **사용자 지정 목표:**
    * 새 패키지에 기존 패키지와 동일한 목표가 있는 경우 선택적으로 알고리즘이 기존 머신 러닝 데이터를 사용할 수 있도록 기존 패키지를 연결할 수 있습니다.
