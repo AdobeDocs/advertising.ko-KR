@@ -2,7 +2,7 @@
 title: 고급 측정 솔루션
 description: 고급 측정에 사용할 수 있는 솔루션 목록을 참조하십시오.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: c06cbb80d9215ef7ce93d801520369ae8e316189
+source-git-commit: 06275b37fd5e9449cbf80bcff4f55aaaa8a99b55
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
