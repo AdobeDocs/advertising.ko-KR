@@ -3,16 +3,16 @@ title: 사용자 정의 목표 정보
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 패키지에서 성공 이벤트를 정의하는 사용자 정의 목표에 대해 알아봅니다.
 feature: DSP Optimization
 exl-id: 806450b9-ce32-4f5c-a2ac-ba8e435ce36d
-source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
 
 # 사용자 정의 목표 정보
 
-사용자 지정 목표는 광고주가 비즈니스 목표를 달성하는 데 필요한 성공 이벤트를 정의합니다. &quot;(으)로 끝나는 최적화 목표를 사용하는 각 패키지[!UICONTROL - Custom Goal]&quot; (예: &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;)에는 전체 최적화 목표를 달성하는 데 도움이 되는 사용자 지정 목표가 포함되어야 합니다. 다음과 같이 사용자 정의 목표를 생성할 수 있습니다. *목표* 위치: [!DNL Advertising Search, Social, & Commerce].
+사용자 지정 목표는 광고주가 비즈니스 목표를 달성하는 데 필요한 성공 이벤트를 정의합니다. 최적화 목표 를 사용하는 각 패키지[!UICONTROL Highest Return on Ad Spend (ROAS)"] 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;은(는) 전체 최적화 목표를 달성하는 데 도움이 되는 사용자 지정 목표를 포함해야 합니다. 다음과 같이 사용자 정의 목표를 생성할 수 있습니다. *목표* 위치: [!DNL Advertising Search, Social, & Commerce].
 
 ![사용자 정의 목표](/help/dsp/assets/objective-goals.png)
 

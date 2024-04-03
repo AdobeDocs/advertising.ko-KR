@@ -3,9 +3,9 @@ title: 사용자 지정 목표 만들기
 description: 사용자 지정 목표 만들기
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
       1. 설정 하단에서 **[!UICONTROL Save]**.
 
-DSP 목표를 만들면 최적화 목표가 &quot;.[!UICONTROL - Custom Goal]&quot; (예: &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;).
+일단 목표를 만들면, 최적화 목표가 &quot;&quot;일 때 이를 사용자 지정 목표로 DSP 패키지에 할당할 수 있습니다.[!UICONTROL Highest Return on Ad Spend (ROAS)"] 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot;
 
 >[!TIP]
 >

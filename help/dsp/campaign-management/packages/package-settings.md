@@ -3,9 +3,9 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 32d74703d9aecbddc5a5f3e0526a2cefbf1f2266
+source-git-commit: 0606614cc4fca842b800c089afa0303b67ecba5f
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >청구 가능 요금은 다음에 반영됩니다. [!UICONTROL Net CPM] 지표.
+>
 * **[!UICONTROL CPM]:** 1000회 노출당 비용(CPM).
 
 * **[!UICONTROL CPM Description]:** CPM 요금에 대한 설명.
@@ -33,9 +34,9 @@ ht-degree: 0%
 
 **[!UICONTROL Pacing & Capping]:** (기존 패키지의 읽기 전용) 패키지에서 배치 속도 및 상한 수준:
 
-* **[!UICONTROL Package level pacing]:** 이 게재 간격 전략은 포함된 모든 배치를 로 게재 간격 및 캡핑하여 작동합니다. *그룹*. 이 전략을 사용하면 지정된 패키지 내의 모든 배치가 전체적으로 최적화되어 성능과 규모를 기반으로 한 지출을 선택한 주요 성과 지표(KPI)에 분산할 수 있습니다.
+* **[!UICONTROL Package level pacing]:** 이 게재 간격 전략은 포함된 모든 배치를 로 게재 간격 및 캡핑하여 작동합니다. *그룹*. 이 전략을 사용하면 지정된 패키지 내의 모든 배치가 전체적으로 최적화되어 성능과 규모를 기반으로 한 지출을 선택한 주요 성과 지표(KPI)에 분산할 수 있습니다.
 
-* **[!UICONTROL Placement level pacing]:**  이 게재 간격 전략은 포함된 모든 배치의 게재 간격 및 캡핑을 통해 작동합니다 *개별적으로*. 가장 좋은 방법은 이 전략을 사용하여 보장된 프라이빗 마켓 플레이스 거래를 실행하는 것입니다.
+* **[!UICONTROL Placement level pacing]:**  이 게재 간격 전략은 포함된 모든 배치의 게재 간격 및 캡핑을 통해 작동합니다 *개별적으로*. 가장 좋은 방법은 이 전략을 사용하여 보장된 프라이빗 마켓 플레이스 거래를 실행하는 것입니다.
 
 **[!UICONTROL Flight Dates]:** 패키지의 시작 날짜와 종료 날짜입니다.
 
@@ -46,7 +47,6 @@ ht-degree: 0%
 >* 비행 날짜는 캠페인 비행 날짜 내에 포함되어야 합니다. 또한 이 패키지에 할당된 모든 배치에 대한 플라이트 날짜가 이 날짜 안에 포함되어야 합니다.
 > * 사용자 지정 플라이팅이 활성화된 경우 패키지 시작 날짜를 편집할 수 없습니다.
 
-
 **[!UICONTROL Budget]:** (패키지 수준 게재 간격 전용 패키지) 총 예산 상한 및 예산 간격.
 
 사용자 지정 조명이 있는 패키지의 경우 예산 간격은 항상 입니다. *[!UICONTROL All time]*. 사용자 지정 플라이팅이 없는 패키지의 경우 예산 간격을 지정합니다. *[!UICONTROL All time],* *[!UICONTROL Daily],* *[!UICONTROL Monthly],* 또는 *[!UICONTROL Weekly]*.
@@ -55,7 +55,11 @@ ht-degree: 0%
 
 **[!UICONTROL Optimization Goal]:** (패키지 수준 게재 간격 전용 패키지) 패키지에 대한 최적화 목표입니다. 에서 각 최적화 목표에 대한 설명을 참조하십시오. [최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md).
 
-**[!UICONTROL Custom Goals]:** (사용자 지정 최적화 목표가 있는 패키지만 해당) [사용자 정의 목표](/help/dsp/optimization/custom-goal-about.md) 패키지입니다. 사용자 지정 목표 및 이를 사용하는 캠페인에 대한 모범 사례에 대한 자세한 내용은 다음을 참조하십시오.  [사용자 지정 목표 빌드를 위한 우수 사례](/help/dsp/optimization/custom-goal-best-practices.md) 및 [성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md).
+**[!UICONTROL Custom Goal for Model Learning]:** (가 포함된 패키지)[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 해당) A [사용자 정의 목표](/help/dsp/optimization/custom-goal-about.md) 여기에는 CPA 또는 ROAS 지표를 계산하는 데 사용되는 매출 또는 전환 이벤트가 포함됩니다. 사용자 지정 목표에는 패키지 최적화를 위한 CPA 또는 ROAS 지표 외에 사용할 추가 가중치가 적용된 상위 단계 이벤트(예: 페이지 방문 및 장바구니 추가)가 선택적으로 포함될 수 있습니다. 사용자 지정 목표 및 이를 사용하는 캠페인에 대한 모범 사례에 대한 자세한 내용은 다음을 참조하십시오.  [사용자 지정 목표 빌드를 위한 우수 사례](/help/dsp/optimization/custom-goal-best-practices.md) 및 [성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md).
+
+**[!UICONTROL Consider Only Click Conversions for Model Learning]:** (선택 사항, &quot;가 포함된 패키지[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 해당) 최적화 모델에 클릭 기반 전환에서만 학습하도록 지시합니다. 그렇지 않으면 최적화 모델이 클릭 및 노출 기반 전환 모두에서 학습합니다.
+
+**[!UICONTROL Conversion Metric]:** (선택 사항, &quot;가 포함된 패키지[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 해당) 광고 투자 수익률 또는 획득당 비용을 계산하는 데 사용할 최종 전환 이벤트(예: 서명) 또는 매출 이벤트/판매 금액(예: 구매 및 구매 값)입니다. 선택한 사용자 지정 목표에 매핑된 모든 이벤트 목록에서 를 선택합니다.
 
 **[!UICONTROL Package Goal Type]:** (사용자 지정 최적화 목표가 있는 패키지만 해당) 패키지의 목적입니다. 이 설정은 패키지를 최적화하는 방법을 결정하는 데 도움이 됩니다.
 
@@ -81,7 +85,6 @@ ht-degree: 0%
 >* 가장 좋은 방법은 패키지 수준에서 전망 및 재타겟팅 모두에 대한 빈도 상한을 설정하는 것입니다.
 > * 빈도 상한이 높을수록 지출과 노출은 증가하지만 도달 거리는 감소합니다. 빈도 상한이 낮으면 지출과 노출이 줄어들지만 도달 범위가 높아집니다.
 
-
 **[!UICONTROL Pace on]:** (패키지 수준 게재 간격 전용 패키지) 게재 간격 기준은 다음과 같습니다.
 
 * *[!UICONTROL Budget]:* (기본값) 이 옵션은 할당된 패키지 예산 내에서 가능한 한 많은 노출 횟수를 제공합니다.
@@ -104,9 +107,9 @@ ht-degree: 0%
 
 * *[!UICONTROL ASAP]:* 보다 2배 빠른 속도로 게재 *균일*.
 
-   >[!CAUTION]
-   >
-   >이 옵션은 성능에 부정적인 영향을 줄 수 있습니다. 성능 최적화에 비해 게재 우선 순위 및 비용을 완전히 우선시하는 경우에만 사용하십시오.
+  >[!CAUTION]
+  >
+  >이 옵션은 성능에 부정적인 영향을 줄 수 있습니다. 성능 최적화에 비해 게재 우선 순위 및 비용을 완전히 우선시하는 경우에만 사용하십시오.
 
 ## [!UICONTROL Flighting]
 
@@ -122,4 +125,3 @@ ht-degree: 0%
 >* [패키지에 배치 첨부](package-attach-placement.md)
 >* [패키지에 대한 변경 로그 보기](package-change-log.md)
 >* [Campaign Management에 대한 FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
-

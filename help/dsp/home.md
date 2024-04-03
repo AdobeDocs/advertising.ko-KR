@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: fb0122a66e1ca840aac25d07b9833c4040322a6e
+source-git-commit: 67f54acc4a8bfdfda7f3614a9eaebf7d5aa1c143
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2569'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024년 4월 3일 | 최적화 | 신규 `CPA` (취득당 비용) 및 `ROAS` (광고 투자 수익률) 패키지, 배치 및 관련 테이블의 지표는 관련 목표가 있는 패키지 및 배치에 대해 보다 정확한 성능 추적을 제공합니다. 새 CPA 지표는 획득당 비용을 계산하기 위한 최종 전환 이벤트(예: 서명)만 고려합니다. 이 지표는 계산에 상위 단계 이벤트(예: 페이지 방문 및 장바구니 추가)도 포함한 기존 사용자 지정 목표 지표보다 실제 CPA를 더 정확하게 파악할 수 있습니다. 마찬가지로, 새 ROAS 지표는 최종 매출 이벤트(예: 구매 및 구매 값)만 고려하며, 이는 성과 추적을 위한 기존 사용자 정의 목표 지표보다 더 신뢰할 수 있습니다.<br><br>이제 CPA 또는 ROAS 기반 최적화 목표가 있는 패키지를 설정할 때 최종 전환 또는 매출 이벤트와 전환 또는 매출 이벤트를 포함하는 사용자 지정 목표를 지정해야 합니다. 사용자 지정 목표에는 패키지 최적화를 위한 CPA 또는 ROAS 지표 외에 사용할 추가 가중치가 적용된 상위 단계 이벤트(예: 페이지 방문 및 장바구니 추가)가 선택적으로 포함될 수 있습니다.<br><br>또한 성능 중심의 최적화 목표를 통합하여 단순성을 구현했습니다.<ul><li>새로운 &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;목표는 기존 을 대체합니다.&quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; 및 [!UICONTROL Highest ROAS (click focused) - Custom Goal],&quot; 옵션을 사용하여 이전 시나리오를 달성할 수 있습니다.</li><li>새로운 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;목표는 기존 을 대체합니다.&quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; 및 [!UICONTROL Lowest CPA (click focused) - Custom Goal],&quot; 옵션을 사용하여 이전 시나리오를 달성할 수 있습니다.</li></ul>기존 목표를 사용한 기존 패키지는 관련 설정을 사용하여 새 목표로 자동으로 마이그레이션되므로 수동으로 업데이트할 필요가 없습니다. | 를 참조하십시오.[최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md),&quot; &quot;[패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)및 &quot;[성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
 | 2024년 3월 20일 | 배치 비입찰 이유 | 지출 부족 문제를 해결하는 데 도움이 되는 주요 데이터 포인트인 모든 실행 가능한 비입찰 이유(NBR)를 이제 셀프서비스 고객이 사용할 수 있습니다. 이전에는 셀프서비스 사용자가 NBR에 부분적으로 액세스만 할 수 있었고 문제를 해결하는 데 도움이 되도록 계정 관리자나 거래 분석가(관리자 액세스 권한이 있는)에게 의존해야 했습니다. | 다음을 참조하십시오. [!UICONTROL Non Bids] 의 섹션 [배치 진단 보고서](/help/dsp/campaign-management/reports/placement-diagnostics.md). |
 | 2024년 3월 20일 | 플래너 | 새 플래너 도구가 더 이상 베타 모드가 아닙니다. | 를 참조하십시오.[DSP Planner 도구 정보](/help/dsp/planner/planner-about.md).&quot; |
 | 2024년 2월 21일 | [!UICONTROL Alerts] 대상 [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads], 및 [!UICONTROL Deals] | A [!UICONTROL Pulse Panel] 아이콘 [!UICONTROL Campaigns], [!UICONTROL Packages] 및 패키지 세부 정보, [!UICONTROL Placements], 및 [!UICONTROL Ads] 보기 는 보기 내의 항목에 대해 사용 가능한 경고가 있는지 여부를 나타냅니다. 패널을 열어 각 경고를 보고 선택적으로 해당 보기(예: [!UICONTROL Placements] 해당 배치가 나열된 상태로 보기)를 클릭하여 문제를 해결하는 데 필요한 설정을 편집할 수 있습니다. 선택적으로 경고를 무시할 수도 있습니다.<br><br>또한 [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], 및 [!UICONTROL Ads] 보기에는 &quot;[!UICONTROL Alerts]항목 또는 해당 구성 요소에 문제가 있는 시기를 나타내는 열입니다.<br><br>경고는 캠페인, 패키지, 배치, 광고 및 거래 수준에서 사용할 수 있습니다. | 를 참조하십시오.[경고 및 알림 보기](/help/dsp/campaign-management/reports/campaign-alerts.md).&quot; |

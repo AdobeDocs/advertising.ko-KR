@@ -3,9 +3,9 @@ title: 사용자 지정 목표 빌드를 위한 우수 사례
 description: 성공 이벤트를 정의하기 위한 사용자 정의 목표 구축의 모범 사례에 대해 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
-source-git-commit: 2c2f65f45fb7515068cee36493f514ce2e456e75
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 다음 예에서는 단일 전환 지표를 대상으로 하는 목표를 구성하는 방법을 보여 줍니다.
 
-### 가 있는 캠페인의 예[!UICONTROL Highest ROAS - Custom Goal]&quot; 최적화 목표
+### 가 있는 캠페인의 예[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot; 최적화 목표
 
-캠페인 목표가 매출인 경우([!UICONTROL Highest ROAS - Custom Goal])을 지정하면 사용자 지정 목표(목표)에 &quot;[!UICONTROL Revenue]가중치가 1인 &quot; 지표.
+캠페인 목표가 매출인 경우([!UICONTROL Highest Return on Ad Spend (ROAS)])을 지정하면 사용자 지정 목표(목표)에 &quot;[!UICONTROL Revenue]가중치가 1인 &quot; 지표.
 
 ![단일 전환 지표를 사용하는 ROAS 사용자 지정 목표의 예](/help/dsp/assets/custom-goal-roas.png)
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 > 예를 들어 가중치가 1인 $250 전환은 $250로 보고됩니다. 전환 지표에 가중치 0.5가 지정되면 $250 전환은 Adobe Advertising($250 전환 * 0.5)에서 $125로 보고됩니다 [!UICONTROL Property Weight] = $125).
 
-### 가 있는 캠페인의 예[!UICONTROL Lowest CPA - Custom Goal]&quot; 최적화 목표
+### 가 있는 캠페인의 예[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; 최적화 목표
 
 캠페인 목표가 CPA(취득당 최저 비용)이고 하나의 성공 이벤트만 필요한 경우 해당 지표를 한 개 포함합니다(다음 예에서 &quot;애플리케이션 제출&quot;). 가중치를 1로 설정하는 것이 가장 좋습니다.
 
