@@ -3,9 +3,9 @@ title: 지원되는 인벤토리
 description: 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형을 참조하십시오.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 1992d663542b1f33e54e72e59b21ffd9d7b5f812
+source-git-commit: 31ba2642e85ab69d91bf486aa7212b09a0fb9fcd
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 |  | 대상 네트워크 | [!UICONTROL Audience CTV Video] | 반응형 | API를 통해 자동 | 다음을 사용하여 상위 캠페인 및 광고 그룹을 만들 수 있습니다. [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 예 | 향상된 CPC(eCPC) 캠페인에 지원<br><br>CPM 캠페인에 사용할 수 없음 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
 | | 대상 네트워크 | 검색 | &quot;&quot;로 확장된 텍스트 광고[!DNL Prefer Audience Ad Format]&quot; 선택됨 | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)<br><br>이미지 광고 확장 기능 지원 안 함 | 예 | 예 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
 | | 대상 및 검색 네트워크 | 브랜드 쇼핑 (검색, 소셜 및 상거래의 Beta 기능) | 제품 | API를 통해 자동 | 다음을 사용하여 상위 캠페인, 광고 그룹 및 제품 그룹을 만들 수 있습니다. [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 예 | 예 | 제품 그룹 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>Search, Social, Commerce에서 Analytics로의 제품 그룹 수준 데이터 |
-| | [!DNL Microsoft Store] | 스토어 광고(검색, 소셜 및 상거래의 Beta 기능) | 제품 | API a를 통해 자동 | 다음을 사용하여 상위 캠페인, 광고 그룹 및 제품 그룹을 만들 수 있습니다. [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 예 | 다음에 대해 예 [!UICONTROL Manual CPC] 캠페인. <br><br>다음에 사용할 수 없음: [!UICONTROL Manual CPA] 캠페인. | 제품 그룹 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>Search, Social, Commerce에서 Analytics로의 제품 그룹 수준 데이터 |
+| | [!DNL Microsoft Store] | 스토어 광고(검색, 소셜 및 상거래의 Beta 기능) | 제품 | API를 통해 자동 | 다음을 사용하여 상위 캠페인, 광고 그룹 및 제품 그룹을 만들 수 있습니다. [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). | 예 | 다음에 대해 예 [!UICONTROL Manual CPC] 캠페인. <br><br>다음에 사용할 수 없음: [!UICONTROL Manual CPA] 캠페인. | 제품 그룹 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>Search, Social, Commerce에서 Analytics로의 제품 그룹 수준 데이터 |
 | | 네트워크 검색 | 검색 | \[Expanded\] 동적 검색 | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 및 [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 예 | 예 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
 | | 네트워크 검색 | 검색 | 확장된 텍스트(2023년 2월에 더 이상 사용되지 않음) | API를 통해 자동 | 다음을 사용하여 기존 광고의 상태만 편집 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), 및 [재고 관리 피드](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | 예 | 예 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
 | | 네트워크 검색 | 검색 | 멀티미디어 | API를 통해 자동 | 사용 [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md). 상태 및 URL에 대한 지원도 편집합니다. [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | 예 | 예 | 광고 수준 데이터 | 검색, 소셜 및 상거래에 대한 분석 데이터<br><br>검색, 소셜 및 상거래에서 Analytics로의 광고 수준 데이터 |
