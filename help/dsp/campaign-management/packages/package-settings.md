@@ -3,9 +3,9 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 0606614cc4fca842b800c089afa0303b67ecba5f
+source-git-commit: cb57ada624bdc810a0d6921e89deba832a2b16d9
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (선택 사항, &quot;가 포함된 패키지[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 해당) 최적화 모델에 클릭 기반 전환에서만 학습하도록 지시합니다. 그렇지 않으면 최적화 모델이 클릭 및 노출 기반 전환 모두에서 학습합니다.
 
-**[!UICONTROL Conversion Metric]:** (선택 사항, &quot;가 포함된 패키지[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 해당) 광고 투자 수익률 또는 획득당 비용을 계산하는 데 사용할 최종 전환 이벤트(예: 서명) 또는 매출 이벤트/판매 금액(예: 구매 및 구매 값)입니다. 선택한 사용자 지정 목표에 매핑된 모든 이벤트 목록에서 를 선택합니다.
+**[!UICONTROL Conversion Metric]:** (선택 사항, &quot;가 포함된 패키지[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 해당) 광고 투자 수익률 또는 획득당 비용을 계산하는 데 사용할 최종 전환 이벤트(예: 서명) 또는 매출 이벤트/판매 금액(예: 구매 및 구매 값)입니다. 선택한 사용자 정의 목표에 매핑된 모든 기본 이벤트(&quot;목표 지표&quot;) 목록에서 선택합니다. 목록이 비어 있는 경우 기본 이벤트 중 하나 이상을 목표 지표로 포함하도록 사용자 지정 목표를 편집합니다.
 
 **[!UICONTROL Package Goal Type]:** (사용자 지정 최적화 목표가 있는 패키지만 해당) 패키지의 목적입니다. 이 설정은 패키지를 최적화하는 방법을 결정하는 데 도움이 됩니다.
 
