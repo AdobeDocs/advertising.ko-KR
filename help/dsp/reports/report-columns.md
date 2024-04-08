@@ -3,9 +3,9 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: cfc680030bb14c4a283735a4315fe11955c270e0
+source-git-commit: 4cb71ce992683afeaf24927f0883b7e110e70b5d
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Unique Household Reached] | 총 고유 가구(고유 IP 주소)에 도달했습니다. |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Unique Household (Overlap)] | 차원에 대해 최대 3개의 값 교차를 포함하여 보고된 차원에서만 도달한 총 고유 세대(개별 IP 주소)입니다. 예를 들어 [!UICONTROL Placement] 차원에서는 개별 배치에 의해 도달된 고유한 가구, 임의의 두 배치의 조합에 의해 도달된 일반적인 가구, 및 임의의 세 배치의 조합에 의해 도달된 일반적인 가구를 볼 수 있습니다. |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Incremental HH] | 증분 가구로 나눈 총 지출이 도달했습니다. |
-| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Unique HH] | 고유 가구로 나눈 총 지출이 도달했습니다. |
+| [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Cost per Unique HH] | 고유 가구로 나눈 총 지출 금액이 도달했습니다. |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Frequency] | 가구당 노출 빈도. |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Incremental Household Reached] | 보고된 차원에서만 도달한 가구 수로 다음과 같이 계산됩니다. [보고된 차원에서만 도달한 IP 주소] - [다른 차원에서 도달한 IP 주소]. |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL % Incremental Household Reached] | 보고된 차원에서만 도달한 가구의 백분율로, 다음과 같이 계산됩니다. [차원이 도달한 IP 주소의 백분율입니다.] - [다른 차원이 도달한 IP 주소의 백분율입니다.]. |
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | 다음을 통해 계산된 획득당 평균 총 비용 <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | 광고 클릭당 평균 총 비용, 다음을 통해 계산됨: <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | 완료된 비디오 보기당 평균 비용, 계산된 기준 <code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | 1000회 노출당 평균 비용, 다음을 통해 계산됨: <code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | 1000회 노출당 평균 비용, 계산된 금액 <code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | 비디오 보기당 평균 비용, 다음 방법으로 계산 <code>[!UICONTROL Gross Spend] / [!UICONTROL Views]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | 볼 수 있는 노출 횟수 1000건당 평균 비용, 다음 방법으로 계산: <code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | 광고 클릭당 평균 순 비용, 다음 방법으로 계산됨: <code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]</code>. |
@@ -190,14 +190,14 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | 조회 수를 측정할 수 있었던 제공된 노출 횟수로, 다음과 같이 계산됩니다. <code>[!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - iFrame (%)] | 호환되지 않는 iFrame으로 인해 보기에 측정할 수 없는 노출 비율입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Not Supported (%)] | 광고 단위에서 지원되지 않는 조회 추적으로 인해 보기에 측정할 수 없는 노출 횟수입니다. |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Other (%)] | 다른 이유로 인해 조회 가능성을 위해 측정할 수 없는 노출 비율입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Other (%)] | 다른 이유로 인해 조회가 불가능한 노출 비율입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Impressions] | 조회에 측정할 수 없는 광고 노출 횟수입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Rate (%)] | 조회에 측정할 수 없는 광고 노출 비율입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable rate (Not supported)] | 이 광고 단위에서 지원되지 않는 조회 추적으로 인해 조회에 측정할 수 없는 노출 비율입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | 측정 가능한 모든 노출 중 볼 수 있는 노출 비율입니다. <code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | 조회 가능한 것으로 간주된 광고 노출 횟수. |
 | [!UICONTROL Conversion Metrics] | [보고서 설정에서 광고주별로 그룹화됨] | [광고주별 전환] | 지정된 광고주별 전환 지표 또는 Adobe Analytics 이벤트에 대한 합계입니다. |
-| [!UICONTROL Custom Goals] | [보고서 설정에서 광고주별로 그룹화됨] | [광고주별 사용자 지정 목표] | 지정된 전환에 포함된 모든 전환의 가중 합계 [사용자 정의 목표](/help/dsp/optimization/custom-goal-about.md). |
+| [!UICONTROL Custom Goals] | [보고서 설정에서 광고주별로 그룹화됨] | [광고주별 사용자 지정 목표] | 지정된 전환에 포함된 모든 전환의 가중 합계 [사용자 정의 목표](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 

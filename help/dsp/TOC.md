@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 1e5dee912a4c3cdbab5c389725b9d48a354d0b7d
+source-git-commit: 1b58c38858532dc41a467fd86a6a28e3383386be
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '918'
 ht-degree: 3%
 
 ---
@@ -113,10 +113,7 @@ ht-degree: 3%
    + [방법 [!DNL DSP] 캠페인 최적화](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md)
    + [배치 수준 사전 입찰 필터 및 사용 방법](/help/dsp/optimization/optimization-pre-bid-filters.md)
-   + 사용자 정의 목표 {#custom-goals}
-      + [사용자 정의 목표 정보](/help/dsp/optimization/custom-goal-about.md)
-      + [사용자 지정 목표 만들기](/help/dsp/optimization/custom-goal-create.md)
-      + [사용자 지정 목표 빌드를 위한 모범 사례](/help/dsp/optimization/custom-goal-best-practices.md)
+   + [사용자 정의 목표](/help/dsp/optimization/custom-goal.md)
    + [성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [문제 해결 성능](/help/dsp/optimization/troubleshooting-performance.md)
 + 대상 {#audiences}

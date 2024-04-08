@@ -2,7 +2,7 @@
 title: 사용자 정의 목표
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 패키지에서 성공 이벤트를 정의하는 사용자 정의 목표에 대해 알아봅니다.
 feature: DSP Optimization
-source-git-commit: f05d0f909cda6248260eaafd2fd24a8eca7f47e5
+source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -57,11 +57,11 @@ ht-degree: 0%
       >* [!DNL Analytics] 사용자 지정 이벤트는 다음 명명 규칙을 따릅니다. `custom_event_[*event #*]_[*Analytics report suite ID*]`. 예: `custom_event_16_examplersid`
       >* [!DNL Analytics] Adobe Advertising 최적화에 차원 및 세그먼트를 사용할 수 없습니다.
 
-최적화 목표 를 사용하는 패키지에 대한 DSP 패키지 설정에서 &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; 이제 목표 이름이 [!UICONTROL Custom Goals] 목록을 표시합니다. 패키지의 사용자 지정 목표로 목표를 선택하면 [!UICONTROL Conversion Metric] 목록에는 목표에 대한 모든 목표 지표가 포함됩니다.
+      >[!TIP]
+      >
+      >최적의 성능을 위해서는 사용자 지정 목표(목표)의 결합된 지표가 하루에 10개 이상의 전환을 수행해야 합니다. 그렇지 않은 경우 제품 페이지나 애플리케이션 시작과 같은 추가 지원 전환 지표를 목표에 추가하는 것이 좋습니다. 다음을 참조하십시오 [사용자 지정 목표 빌드를 위한 우수 사례](#custom-goal-best-practices) 지침을 참조하십시오.
 
->[!TIP]
->
->최적의 성능을 위해서는 사용자 지정 목표(목표)의 결합된 지표가 하루에 10개 이상의 전환을 수행해야 합니다. 그렇지 않은 경우 제품 페이지나 애플리케이션 시작과 같은 추가 지원 전환 지표를 목표에 추가하는 것이 좋습니다. 다음을 참조하십시오 [사용자 지정 목표 빌드를 위한 우수 사례](custom-goal-best-practices.md) 지침을 참조하십시오.
+최적화 목표 를 사용하는 패키지에 대한 DSP 패키지 설정에서 &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; 이제 목표 이름이 [!UICONTROL Custom Goals] 목록을 표시합니다. 패키지의 사용자 지정 목표로 목표를 선택하면 [!UICONTROL Conversion Metric] 목록에는 목표에 대한 모든 목표 지표가 포함됩니다.
 
 ## 사용자 지정 목표 빌드를 위한 우수 사례 [#custom-goal-best-practices]
 

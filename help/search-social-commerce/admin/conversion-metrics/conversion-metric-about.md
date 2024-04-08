@@ -2,8 +2,8 @@
 title: 광고주의 전환 지표 관리 정보
 description: Adobe Advertising이 광고주에 대해 추적하는 전환 지표를 사용하는 방법을 알아봅니다.
 feature: Conversions
-exl-id: e5e4dc8a-04b0-4423-be1d-18f89453d264
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: 8cfb4df8-ed48-4809-b383-7a6011b1f530
+source-git-commit: c3c864a838b5d7efca523ba8b35a5a3db47f71b8
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * 검색, 소셜 및 상거래에서 전환 지표를 사용하여 목표를 생성할 수 있습니다. 목표는 포트폴리오를 최적화하는 데 사용됩니다. 또한 전환 지표에 대한 데이터는 캠페인 및 포트폴리오 관리 보기의 열과 보고서에 표시할 수 있습니다.
 
-* Advertising DSP에서 전환 지표를 사용하여 다음을 수행할 수 있습니다. [사용자 정의 목표 만들기](/help/dsp/optimization/custom-goal-create.md)패키지를 최적화하는 데 사용됩니다.
+* Advertising DSP에서 전환 지표를 사용하여 다음을 생성할 수 있습니다 [사용자 정의 목표](/help/dsp/optimization/custom-goal.md)패키지를 최적화하는 데 사용됩니다.
 
 기본적으로 광고주의 전환 지표는 모두 없으며, 다음에서 추적한 전환을 제외합니다. [!DNL Google Ads], [!DNL Google Analytics], 및 [!DNL Microsoft® Advertising] 범용 이벤트 추적 태그 - 캠페인 및 포트폴리오 관리 보기와 보고서에 사용할 수 있습니다. 표시된 이름인 표시 이름을 포함하고 사용할 수 있도록 명시적으로 설정한 경우에만 사용할 수 있습니다. 전환 지표를 사용할 수 있도록 설정할 때 검색된 데이터의 맞춤법과 정확히 동일한 지표 이름을 사용하거나 가독성을 위해 열 제목에 표시되는 이름을 변경할 수 있습니다.
 
