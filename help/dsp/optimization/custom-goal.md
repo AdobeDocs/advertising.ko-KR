@@ -2,9 +2,9 @@
 title: 사용자 정의 목표
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 패키지에서 성공 이벤트를 정의하는 사용자 정의 목표에 대해 알아봅니다.
 feature: DSP Optimization
-source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
+source-git-commit: 6dba85185789c365bd72787eb0fa16ef90bf6b9e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 최적화 목표 를 사용하는 패키지에 대한 DSP 패키지 설정에서 &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; 이제 목표 이름이 [!UICONTROL Custom Goals] 목록을 표시합니다. 패키지의 사용자 지정 목표로 목표를 선택하면 [!UICONTROL Conversion Metric] 목록에는 목표에 대한 모든 목표 지표가 포함됩니다.
 
-## 사용자 지정 목표 빌드를 위한 우수 사례 [#custom-goal-best-practices]
+## 사용자 지정 목표 빌드를 위한 우수 사례 {#custom-goal-best-practices}
 
 ### 단일 지표를 사용한 사용자 정의 목표
 
