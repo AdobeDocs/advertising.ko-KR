@@ -3,9 +3,9 @@ title: 클릭 추적 URL에 대한 선택적 추적 매개 변수
 description: 클릭 추적 URL에 추가할 수 있는 선택적 검색, 소셜 및 상거래 추적 매개 변수와 광고 네트워크별 추적 매개 변수에 대해 알아봅니다.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: 3460011a707608c172920801196837f7a278e2c0
+source-git-commit: cc312009303f86a2f9eddcc98f33d7e2c22fcb85
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -66,12 +66,16 @@ ht-degree: 0%
 
 다음을 참조하십시오 [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 업스트림 업데이트됨
 ## [!DNL Yahoo Native] 동적 추적 매개 변수
 
 다음을 참조하십시오 [https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters](https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters).
 
 ## [!DNL Yahoo! Japan Ads] 동적 추적 매개 변수
-
+=======
+## 야후! 일본 광고 동적 추적 매개 변수
+>>>>>>>>>>저장된 변경 사항
+> 
 다음을 참조하십시오 [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Yandex] 동적 추적 매개 변수
@@ -80,4 +84,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+* [Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](/help/search-social-commerce/tracking/formats-click-tracking-about.md)

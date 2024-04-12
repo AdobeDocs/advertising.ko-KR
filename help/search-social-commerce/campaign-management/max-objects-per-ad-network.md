@@ -1,11 +1,11 @@
 ---
 title: 광고 네트워크 계정당 최대 개체 수
 description: 광고 네트워크 계정당 최대 개체 수를 찾을 수 있는 위치를 확인하십시오.
-exl-id: 2db46e03-6023-4efb-b30b-24d99795a27d
+exl-id: 64463f56-0972-4acb-867e-d216f09bbc2d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b14b290afd6b13b1b9d1ac03c94c758e007dfc48
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 0%
 * **[!DNL Microsoft Advertising]:** 계정, 캠페인 및 광고 그룹에 대한 제한 을 참조하십시오. [https://help.ads.microsoft.com/#apex/ads/en/52001](https://help.ads.microsoft.com/#apex/ads/en/52001).
 
 * **[!DNL Google Ads]:** 다음을 참조하십시오 [https://support.google.com/google-ads/answer/6372658](https://support.google.com/google-ads/answer/6372658).
-
-* **[!DNL Yahoo Native]:** 다음에서 &quot;개체 표시&quot; > &quot;제한&quot;을 참조하십시오. [https://developer.yahooinc.com/native/guide/objects.html](https://developer.yahooinc.com/native/guide/objects.html).
 
 * **[!DNL Yahoo! Japan Ads]:** 다음을 참조하십시오 [https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html](https://ads-developers.yahoo.co.jp/en/ads-api/developers-guide/value-constraints.html).
 
