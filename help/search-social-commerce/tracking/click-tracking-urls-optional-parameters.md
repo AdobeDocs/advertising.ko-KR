@@ -3,16 +3,16 @@ title: 클릭 추적 URL에 대한 선택적 추적 매개 변수
 description: 클릭 추적 URL에 추가할 수 있는 선택적 검색, 소셜 및 상거래 추적 매개 변수와 광고 네트워크별 추적 매개 변수에 대해 알아봅니다.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: cc312009303f86a2f9eddcc98f33d7e2c22fcb85
+source-git-commit: c743e0dec75578d739a704ef94f96dd7be4f982e
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
 
 # 클릭 추적 URL에 대한 선택적 추적 매개 변수
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo Native], [!DNL Yahoo! Japan], 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan], 및 [!DNL Yandex] 계정만*
 
 최종 URL 또는 대상 URL에 대한 표준 추적 매개 변수만 사용하는 대신, 광고 네트워크 계정에 대한 특정 데이터를 추적하기 위해 매개 변수를 더 추가할 수 있습니다. 계정 설정 또는 캠페인 설정에 다음 매개 변수의 조합을 추가할 수 있습니다.
 
@@ -66,16 +66,8 @@ ht-degree: 0%
 
 다음을 참조하십시오 [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 업스트림 업데이트됨
-## [!DNL Yahoo Native] 동적 추적 매개 변수
-
-다음을 참조하십시오 [https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters](https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters).
-
-## [!DNL Yahoo! Japan Ads] 동적 추적 매개 변수
-=======
 ## 야후! 일본 광고 동적 추적 매개 변수
->>>>>>>>>>저장된 변경 사항
-> 
+
 다음을 참조하십시오 [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Yandex] 동적 추적 매개 변수
@@ -84,4 +76,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-* [Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+>* [Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
