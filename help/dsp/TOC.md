@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 1b58c38858532dc41a467fd86a6a28e3383386be
+source-git-commit: 79de03696624146d7c82e8658229d19059dc1713
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 3%
@@ -118,16 +118,6 @@ ht-degree: 3%
    + [문제 해결 성능](/help/dsp/optimization/troubleshooting-performance.md)
 + 대상 {#audiences}
    + [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
-   + 세그먼트 {#segments}
-      + [사용자 지정 세그먼트 만들기 및 구현](/help/dsp/audiences/custom-segment-create.md)
-      + [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트 {#ccpa-opt-out-of-sale-segments}
-         + [정보 [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트](/help/dsp/audiences/ccpa-opt-out-about.md)
-         + [만들기 및 구현 [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
-         + [검색 [!UICONTROL Consumer Opt-Out-of-Sale] 보고서](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
-      + [세그먼트 정보 편집](/help/dsp/audiences/segment-edit.md)
-      + [세그먼트 공유 또는 공유 중지](/help/dsp/audiences/segment-share.md)
-      + [세그먼트에 대한 추적 픽셀 보기](/help/dsp/audiences/segment-view-pixels.md)
-      + [세그먼트 삭제](/help/dsp/audiences/segment-delete.md)
    + 대상 {#reusable-audiences}
       + [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)
       + [재사용 가능한 대상 복제](/help/dsp/audiences/reusable-audience-duplicate.md)
@@ -139,6 +129,16 @@ ht-degree: 3%
       + [재사용 가능한 대상 삭제](/help/dsp/audiences/reusable-audience-delete.md)
       + [대상자 설정](/help/dsp/audiences/audience-settings.md)
       + [대상 세그먼트 논리 구문](/help/dsp/audiences/audience-segment-logic-syntax.md)
+   + 세그먼트 {#segments}
+      + [사용자 지정 세그먼트 만들기 및 구현](/help/dsp/audiences/custom-segment-create.md)
+      + [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트 {#ccpa-opt-out-of-sale-segments}
+         + [정보 [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [만들기 및 구현 [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
+         + [검색 [!UICONTROL Consumer Opt-Out-of-Sale] 보고서](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
+      + [세그먼트 정보 편집](/help/dsp/audiences/segment-edit.md)
+      + [세그먼트 공유 또는 공유 중지](/help/dsp/audiences/segment-share.md)
+      + [세그먼트에 대한 추적 픽셀 보기](/help/dsp/audiences/segment-view-pixels.md)
+      + [세그먼트 삭제](/help/dsp/audiences/segment-delete.md)
    + 소스 {#sources}
       + [대상 소스에서 인증된 세그먼트 활성화 정보](/help/dsp/audiences/sources/source-about.md)
       + 고객 데이터 플랫폼별 워크플로 {#sources-workflows}
