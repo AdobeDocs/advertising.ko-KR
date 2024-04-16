@@ -2,9 +2,8 @@
 title: Adobe Advertising 범용 ID 요구 사항 정책
 description: 범용 ID 사용에 대한 정책을 참조하십시오.
 feature: Policies, DSP Ads
-hide: true
-hidefromtoc: true
-source-git-commit: 2a77177ea7fb563835731fbbaa5447df94c211e9
+exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
+source-git-commit: 35dd8b8302afb01f8e6bb6c8da2a3c167abd397f
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -12,8 +11,6 @@ ht-degree: 0%
 ---
 
 # Adobe Advertising 범용 ID 요구 사항 정책
-
-<!-- In TOC, but hidden from TOC and both external and internal search -->
 
 마지막 업데이트 날짜: 2024년 2월 29일
 
