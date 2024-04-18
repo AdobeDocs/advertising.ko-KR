@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 79de03696624146d7c82e8658229d19059dc1713
+source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '923'
 ht-degree: 3%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 3%
       + [배치 편집](/help/dsp/campaign-management/placements/placement-edit.md)
       + [키 배치 설정을 빠르게 편집](/help/dsp/campaign-management/placements/placement-quick-edit.md)
       + [배치 복제](/help/dsp/campaign-management/placements/placement-duplicate.md)
+      + [배치에 대한 입찰 승수 관리](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [배치에 대한 광고 일정 편집](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [배치에 대한 상세 보고서 보기](/help/dsp/campaign-management/placements/placement-view-report.md)

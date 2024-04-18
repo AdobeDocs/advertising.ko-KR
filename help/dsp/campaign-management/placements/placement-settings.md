@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 820fbfb2b572df628976b03d186e5704ecd092a9
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '3511'
+source-wordcount: '3516'
 ht-degree: 0%
 
 ---
@@ -475,6 +475,7 @@ ht-degree: 0%
 >* [배치 관리 정보](placement-about.md)
 >* [배치 만들기](placement-create.md)
 >* [배치 편집](placement-edit.md)
+>* [배치에 대한 입찰 승수 관리](placement-manage-bid-multipliers.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Campaign Management에 대한 FAQ](/help/dsp/campaign-management/faq-campaign-management.md)

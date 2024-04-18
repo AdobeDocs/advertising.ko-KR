@@ -3,16 +3,16 @@ title: Advertising DSP의 배치 관리 정보
 description: 배치 관리에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 6233ba0b0cb779ed848cb921427543cea8586700
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # Advertising DSP의 배치 관리 정보
 
-배치에는 동일한 광고 유형의 하나 이상의 광고에 대한 타겟팅 매개 변수가 포함되어 있습니다. 단일 캠페인이나 패키지에 대한 배치를 만든 다음 광고를 할당할 수 있습니다. 각 캠페인 또는 배치에는 지정된 광고 순환이 있는 여러 배치가 포함될 수 있습니다. 기본적으로 광고는 균등하게 회전됩니다.
+배치에는 동일한 광고 유형의 하나 이상의 광고에 대한 타겟팅 매개 변수가 포함되어 있습니다. 단일 캠페인이나 패키지에 대한 배치를 만든 다음 광고를 할당할 수 있습니다. 각 캠페인 또는 배치에는 지정된 광고 순환이 있는 여러 배치가 포함될 수 있습니다. 기본적으로 광고는 균등하게 회전됩니다. 다양한 배치 대상 유형에 대해 입찰 승수를 별도로 구성할 수 있습니다.
 
 활성 배치를 활성 패키지 또는 캠페인에 할당하면 배치에서 활성 상태의 승인된 모든 광고를 배치 타깃팅 매개 변수를 기반으로 실행할 수 있습니다.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [배치 만들기](placement-create.md)
+>* [배치에 대한 입찰 승수 관리](placement-manage-bid-multipliers.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [배치 설정](placement-settings.md)
 >* [문제 해결 성능](/help/dsp/optimization/troubleshooting-performance.md)
-

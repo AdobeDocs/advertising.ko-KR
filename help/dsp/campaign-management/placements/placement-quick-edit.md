@@ -3,9 +3,9 @@ title: 키 배치 설정을 빠르게 편집
 description: 주요 배치 설정을 빠르게 변경하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
 >* [배치 만들기](placement-create.md)
 >* [배치 편집](placement-edit.md)
 >* [배치 복제](placement-duplicate.md)
+>* [배치에 대한 입찰 승수 관리](placement-manage-bid-multipliers.md)
 >* [배치에 대한 광고 일정 편집](placement-edit-ad-schedule.md)
 >* [배치 일시 중지 또는 활성화](placement-pause-activate.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
