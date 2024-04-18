@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Google Ads] 캠페인.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
+source-git-commit: 66f6f659e46d2a08e0f7b958be8f60ba5e9720b3
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2378'
 ht-degree: 0%
 
 ---
@@ -70,35 +70,35 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** 캠페인에 대한 입찰 전략:
 
-* *[!UICONTROL Enhanced CPC]:* (최대 성능 또는 기존 읽기 전용에는 사용할 수 없음) [!DNL Gmail] 캠페인 은 광고 네트워크의 향상된 클릭당 비용(eCPC) 모델을 사용합니다. 이 모델은 광고 네트워크에서 평균 CPC를 최대 CPC 미만으로 유지하려고 하는 동안 전환을 최대화하기 위해 광고 네트워크(검색, 소셜 및 상거래에 있지 않음)에서 지정된 전환을 사용하여 각 경매에 대한 클릭당 비용(CPC) 입찰을 자동으로 변경할 수 있도록 합니다.
+* *[!UICONTROL Enhanced CPC]:* (최대 성능 또는 기존 읽기 전용에는 사용할 수 없음) [!DNL Gmail] 캠페인 은 광고 네트워크의 향상된 클릭당 비용(eCPC) 모델을 사용합니다. 이 모델은 광고 네트워크에서 평균 CPC를 최대 CPC 미만으로 유지하려고 하는 동안 전환을 최대화하기 위해 광고 네트워크(검색, 소셜 및 Commerce이 아님)에 지정된 전환을 사용하여 각 경매에 대한 클릭당 비용(CPC) 입찰을 자동으로 변경할 수 있도록 합니다.
 
-최적화된 검색, 소셜 및 상거래 포트폴리오에 eCPC가 있는 캠페인을 추가하면 검색, 소셜 및 상거래는 기본 입찰가를 최적화하고,[!UICONTROL Auto adjust campaign budget limits]&quot;옵션이 활성화됨 — 캠페인 예산. 광고 네트워크는 모든 입찰 조정을 최적화하고 독점 데이터 및 통찰력을 기반으로 사용자 쿼리 시 검색, 소셜 및 상거래에서 생성한 입찰을 변경할 수 있습니다. **주의:** 광고 네트워크에서 추적된 총 전환이 포트폴리오 목표에 맞는 경우에만 포트폴리오에서 eCPC 캠페인을 사용하십시오. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+최적화된 검색, 소셜 및 Commerce 포트폴리오에 eCPC가 있는 캠페인을 추가하면 검색, 소셜 및 Commerce은 기본 입찰가를 최적화하고, 다음과 같은 경우에[!UICONTROL Auto adjust campaign budget limits]&quot;옵션이 활성화됨 — 캠페인 예산. 광고 네트워크는 모든 입찰 조정을 최적화하고 독점 데이터 및 통찰력을 기반으로 사용자 쿼리 시 검색, 소셜 및 Commerce 생성 입찰을 변경할 수 있습니다. **주의:** 광고 네트워크에서 추적된 총 전환이 포트폴리오 목표에 맞는 경우에만 포트폴리오에서 eCPC 캠페인을 사용하십시오. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
 
 * *[!UICONTROL Manual CPC]* (기본값): (성과 최대 캠페인에는 사용할 수 없음) 클릭당 비용(CPC) 모델을 사용합니다. 광고 네트워크에서 캠페인에 대한 입찰을 변경하도록 허용할 수 있습니다(선택적).
 
    * **[!UICONTROL Enable Enhanced CPC]** (기본적으로 비활성화됨): &quot;[!UICONTROL Enhanced CPC]&quot; 옵션입니다.
 
-* *[!UICONTROL Maximize Clicks]:* (검색, 표시 및 쇼핑 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 클릭수를 최대화하기 위해 입찰을 최적화합니다. 다음을 입력합니다(선택적). **[!UICONTROL Max CPC]** (클릭당 비용) 광고 네트워크가 클릭당 특정 금액 이상을 지불하지 않도록 하기 위한 것입니다. **주의:** 이 전략을 사용하는 캠페인을 포트폴리오에 추가하면 입찰은 포트폴리오 목표가 아니라 클릭 가중치에 의해 결정됩니다.
+* *[!UICONTROL Maximize Clicks]:* (검색, 표시 및 쇼핑 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 클릭수를 최대화하기 위해 입찰을 최적화합니다. 다음을 입력합니다(선택적). **[!UICONTROL Max CPC]** (클릭당 비용) 광고 네트워크가 클릭당 특정 금액 이상을 지불하지 않도록 하기 위한 것입니다. **주의:** 이 전략을 사용하는 캠페인을 포트폴리오에 추가하면 입찰은 포트폴리오 목표가 아니라 클릭 가중치에 의해 결정됩니다.
 
-* *[!UICONTROL Maximize Conversion Value]:* (검색, 성과 최대 및 스마트 쇼핑 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 전환 가치를 극대화하기 위해 입찰을 최적화합니다. 필요한 경우 다음을 입력합니다. **[!UICONTROL Target Return on Ad Spend]** (ROAS)(백분율)입니다. **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다.
+* *[!UICONTROL Maximize Conversion Value]:* (검색, 성과 최대 및 스마트 쇼핑 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 입찰을 최적화하여 전환 가치를 극대화합니다. 필요한 경우 다음을 입력합니다. **[!UICONTROL Target Return on Ad Spend]** (ROAS)(백분율)입니다. **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다.
 
-* *[!UICONTROL Maximize Conversions]:* (검색, 표시 및 성과 최대 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 전환을 최대화하기 위해 입찰을 최적화합니다. 필요한 경우 다음을 입력합니다. **[!UICONTROL Target CPA]** (취득당 비용) **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다.
+* *[!UICONTROL Maximize Conversions]:* (검색, 표시 및 성과 최대 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 전환을 최대화하기 위해 입찰을 최적화합니다. 필요한 경우 다음을 입력합니다. **[!UICONTROL Target CPA]** (취득당 비용) **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다.
 
-* *[!UICONTROL Target CPA]:* (캠페인 표시, 기존 검색 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 선택 사항을 기반으로 입찰을 최적화합니다 **[!UICONTROL Target CPA]** (취득당 비용) - 취득(전환)에 대해 지불할 30일 평균 금액입니다. **참고:** 지출 전략을 사용하는 하이브리드 포트폴리오(표준 포트폴리오는 아님)의 캠페인에 이 옵션을 사용합니다. [!UICONTROL Weekly] 또는 [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (캠페인 표시, 기존 검색 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 선택 사항을 기반으로 입찰을 최적화합니다 **[!UICONTROL Target CPA]** (취득당 비용) - 취득(전환)에 대해 지불할 30일 평균 금액입니다. **참고:** 지출 전략을 사용하는 하이브리드 포트폴리오(표준 포트폴리오는 아님)의 캠페인에 이 옵션을 사용합니다. [!UICONTROL Weekly] 또는 [!UICONTROL Google Target CPA].
 
   이 입찰 전략이 있는 캠페인에는 평균 위치 및 CPC 입찰 데이터를 사용할 수 없습니다.
 
   새 검색 캠페인의 경우 [!DNL Google Ads] 이(가) 이 입찰 전략을 (으)로 대체했습니다. [!UICONTROL Maximize Conversions] 를 사용한 전략 [!UICONTROL Target CPA] 값. 이 전략을 사용하는 기존 검색 캠페인의 경우 타겟 값만 편집할 수 있으며 이렇게 하면 전략이 [!UICONTROL Maximize Conversions] 지정된 을 사용한 전략 [!UICONTROL Target CPA] 값.
 
-* *[!UICONTROL Target Impression Share]:* (검색 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 타겟 노출 점유율 및 광고 위치를 달성하기 위해 입찰을 최적화합니다. 다음을 입력합니다(선택적). **[!UICONTROL Target Impression Share]** 백분율로, **[!UICONTROL Target Ad Position]**, 및 **[!UICONTROL Max CPC]** (클릭당 비용) **참고:** 이 옵션은 포트폴리오에서 지원되지 않습니다.
+* *[!UICONTROL Target Impression Share]:* (검색 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 입찰을 최적화하여 타겟 노출 점유율 및 광고 위치를 달성합니다. 다음을 입력합니다(선택적). **[!UICONTROL Target Impression Share]** 백분율로, **[!UICONTROL Target Ad Position]**, 및 **[!UICONTROL Max CPC]** (클릭당 비용) **참고:** 이 옵션은 포트폴리오에서 지원되지 않습니다.
 
-* *[!UICONTROL Target Return on Ad Spend]:*  (디스플레이 및 쇼핑 캠페인, 기존 검색 캠페인) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 지정된 항목을 기반으로 입찰을 최적화합니다 **[!UICONTROL Target ROAS]** (광고 투자 수익률), 백분율로 지정됩니다. **참고:** 지출 전략을 사용하는 하이브리드 포트폴리오(표준 포트폴리오는 아님)의 캠페인에 이 옵션을 사용합니다. [!UICONTROL Weekly] 또는 [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:*  (디스플레이 및 쇼핑 캠페인, 기존 검색 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 지정된 항목을 기반으로 입찰을 최적화합니다 **[!UICONTROL Target ROAS]** (광고 투자 수익률), 백분율로 지정됩니다. **참고:** 지출 전략을 사용하는 하이브리드 포트폴리오(표준 포트폴리오는 아님)의 캠페인에 이 옵션을 사용합니다. [!UICONTROL Weekly] 또는 [!UICONTROL Google Target ROAS].
 
   이 입찰 전략이 있는 캠페인에는 평균 위치 및 CPC 입찰 데이터를 사용할 수 없습니다.
 
   새 검색 캠페인의 경우 [!DNL Google Ads] 이(가) 이 입찰 전략을 (으)로 대체했습니다. [!UICONTROL Maximize Conversion Value] 를 사용한 전략 [!UICONTROL Target Return on Ad Spend value]. 이 전략을 사용하는 기존 검색 캠페인의 경우 타겟 값만 편집할 수 있으며 이렇게 하면 전략이 [!UICONTROL Maximize Conversion Value] 지정된 을 사용한 전략 [!UICONTROL Target Return on Ad Spend] 값.
 
-* *[!UICONTROL Viewable CPM]:* (기존, 읽기 전용 [!DNL Gmail] 캠페인 전용) 검색, 소셜 및 상거래가 아닌 광고 네트워크는 조회 가능한 것으로 측정된 광고에만 입찰합니다. **참고:** 이 전략에 대한 최적화는 어떤 유형의 포트폴리오에서도 지원되지 않습니다.
+* *[!UICONTROL Viewable CPM]:* (기존, 읽기 전용 [!DNL Gmail] 캠페인 전용) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 조회 가능한 것으로 측정된 광고에만 입찰합니다. **참고:** 이 전략에 대한 최적화는 어떤 유형의 포트폴리오에서도 지원되지 않습니다.
 
 ## [!UICONTROL Shopping Settings]
 
@@ -156,7 +156,7 @@ ht-degree: 0%
 
 **참고:**
 
-* Search, Social 및 Commerce는 데이터의 제한으로 인해 다음 위치 대상에 대해 자동 조정된 입찰 조정을 제공하지 않습니다. [!DNL Google Ads] 는 서퍼 위치를 위치 대상에 매핑합니다.
+* Search, Social 및 Commerce은 데이터의 제한으로 인해 다음 위치 대상에 대해 자동 조정된 입찰 조정을 제공하지 않습니다. [!DNL Google Ads] 는 서퍼 위치를 위치 대상에 매핑합니다.
 
    * 반경 타겟.
 

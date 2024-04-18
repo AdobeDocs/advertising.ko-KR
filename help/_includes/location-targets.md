@@ -1,13 +1,15 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
-# 일부 캠페인 설정 및 MS 광고 그룹 설정의 위치 Target 필드
+# 일부 캠페인 설정 및 MS 광고 그룹 설정의 위치 대상 필드
 
-**[!UICONTROL Location Targets]:** 타겟으로 포함하거나 제외할 특정 사용자 지리적 위치. 기본적으로 모든 위치가 타깃팅됩니다. 모든 위치의 조합에서 사용자를 포함 및 제외할 수 있습니다. 제외는 항상 포함을 무시합니다.
+<!-- MS performance max campaigns, MSA ad groups, Baidu campaigns, YJP campaigns -->
+
+**[!UICONTROL Location Targets]:** (사용 가능한 경우) 타겟으로 포함하거나 제외할 특정 사용자 지리적 위치. 기본적으로 모든 위치가 타깃팅됩니다. 모든 위치의 조합에서 사용자를 포함 및 제외할 수 있습니다. 제외는 항상 포함을 무시합니다.
 
 * 모든 위치를 타깃팅하려면 위치를 선택하지 마십시오.
 
