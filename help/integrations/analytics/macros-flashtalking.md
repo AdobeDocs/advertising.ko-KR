@@ -3,9 +3,9 @@ title: 추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Flashtalki
 description: 추가 이유 및 방법 알아보기 [!DNL Analytics for Advertising] 에 대한 매크로 [!DNL Flashtalking] 광고 태그
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca8260e643f24787f7918249906f3f38f3bbef6d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -32,21 +32,33 @@ ht-degree: 0%
 
 다음 범위 내 [!DNL Flashtalking] 광고 태그 설정에서 다음 매크로를 의 클릭스루 URL 끝에 추가합니다. `Clicktag` 필드:
 
-```html
-?[ftqs:[AdobeAMO]]
+```
+[ftqs:[AdobeAMO]]
 ```
 
-예:  `https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+기본 URL 뒤에 있는 첫 번째 또는 유일한 쿼리 문자열이며, 다음으로 기본 URL에서 분리합니다. `?`. 기본 URL에 여러 쿼리 문자열이 포함되는 경우 첫 번째 문자열을 `?` 및 각 후속 문자열에 `&`.
+
+예:
+
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## 비디오 광고 태그
 
 다음 범위 내 [!DNL Flashtalking] 광고 태그 설정에서 다음 매크로를 의 클릭스루 URL 끝에 추가합니다. `Clicktag` 필드:
 
-```html
-?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
+```
+[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-예:  `https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+기본 URL 뒤에 있는 첫 번째 또는 유일한 쿼리 문자열이며, 다음으로 기본 URL에서 분리합니다. `?`. 기본 URL에 여러 쿼리 문자열이 포함되는 경우 첫 번째 문자열을 `?` 및 각 후속 문자열에 `&`.
+
+예:
+
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
