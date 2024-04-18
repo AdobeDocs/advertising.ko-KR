@@ -2,9 +2,9 @@
 title: 배치에 대한 입찰 승수 관리
 description: 지정된 배치 대상의 입찰 배수를 만들고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
-source-git-commit: 6994a15af080057889607c0e28dd519a1ddb28de
+source-git-commit: b3932c066e0ecd29e57152f0654ee4b0d9e0dda1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 * **대상 타겟:** 세그먼트, 일 단위 및 주제
 
-* **ads.txt 대상:** (ads.txt를 옵트아웃하는 경우) ads.txt 판매자만, ads.txt 직접 판매자 및 ads.txt 판매자와 ads.txt가 없는 사이트만 해당합니다.
+* **ads.txt 대상:** (ads.txt를 옵트아웃하여 모든 판매자의 인벤토리를 구매할 수 있는 경우) ads.txt 판매자만, ads.txt 직접 판매자, ads.txt 판매자와 ads.txt가 없는 사이트 <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
 ## 대상 유형별 최대 입찰 승수 {#bid-multiplier-limits-by-target}
 
