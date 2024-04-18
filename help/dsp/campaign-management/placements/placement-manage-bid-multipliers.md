@@ -2,7 +2,7 @@
 title: 배치에 대한 입찰 승수 관리
 description: 지정된 배치 대상의 입찰 배수를 만들고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
-source-git-commit: 7a794394d9338cb2608ce3d89c90b122f8eee9dc
+source-git-commit: 6994a15af080057889607c0e28dd519a1ddb28de
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 배치에 대해 선택한 대상을 변경하려면 &quot;[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
-<!--  
+<!-- 
 ## Manage the Bid Multipliers for a Single Placement
 -->
 
