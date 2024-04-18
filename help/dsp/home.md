@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 3c839c8603bd0099b9a086484453fad74a46a880
+source-git-commit: 6c6108dfe91f16a48408d027d379a91d71ba5ca6
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2689'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024년 4월 18일 | 배치 | 이제 배치에 대해 지정된 대상 유형에 대해 입찰가를 곱해 입찰가를 늘리거나 줄이는 입찰 수정자를 생성하고 관리할 수 있습니다. 기본 입찰 수정자는 1.00으로, 증가 또는 감소가 없음을 의미합니다. 값의 범위는 0.10에서 10.00까지입니다. 예를 들어 입찰 수정자가 0.50이면 USD 6 입찰이 USD 3(0.50 x 6)으로 감소합니다. 경매에서 여러 입찰 수정자를 사용할 수 있는 경우 적용 가능한 모든 입찰 수정자를 곱합니다. 입찰 수정자는 입찰가를 최대 입찰가 이상으로 증가시키지 않습니다. | 를 참조하십시오.[배치에 대한 입찰 승수 관리](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
 | 2024년 4월 3일 | 인벤토리 파트너 | 의 Adobe Advertising EU 좌석 [!DNL Google Authorized Buyers] 이(가) 기존 APAC 시트에 병합되었습니다. | 를 참조하십시오.[SSP 파트너](/help/dsp/inventory/ssp-partners.md).&quot; |
 |   | 최적화 | 신규 `CPA` (취득당 비용) 및 `ROAS` (광고 투자 수익률) 패키지, 배치 및 관련 테이블의 지표는 관련 목표가 있는 패키지 및 배치에 대해 보다 정확한 성능 추적을 제공합니다. 새 CPA 지표는 획득당 비용을 계산하기 위한 최종 전환 이벤트(예: 서명)만 고려합니다. 이 지표는 계산에 상위 단계 이벤트(예: 페이지 방문 및 장바구니 추가)도 포함한 기존 사용자 지정 목표 지표보다 실제 CPA를 더 정확하게 파악할 수 있습니다. 마찬가지로, 새 ROAS 지표는 최종 매출 이벤트(예: 구매 및 구매 값)만 고려하며, 이는 성과 추적을 위한 기존 사용자 정의 목표 지표보다 더 신뢰할 수 있습니다.<br><br>이제 CPA 또는 ROAS 기반 최적화 목표가 있는 패키지를 설정할 때 최종 전환 또는 매출 이벤트와 전환 또는 매출 이벤트를 포함하는 사용자 지정 목표를 지정해야 합니다. 사용자 지정 목표에는 패키지 최적화를 위한 CPA 또는 ROAS 지표 외에 사용할 추가 가중치가 적용된 상위 단계 이벤트(예: 페이지 방문 및 장바구니 추가)가 선택적으로 포함될 수 있습니다.<br><br>또한 성능 중심의 최적화 목표를 통합하여 단순성을 구현했습니다.<ul><li>새로운 &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;목표는 기존 을 대체합니다.&quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; 및 [!UICONTROL Highest ROAS (click focused) - Custom Goal],&quot; 옵션을 사용하여 이전 시나리오를 달성할 수 있습니다.</li><li>새로운 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;목표는 기존 을 대체합니다.&quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; 및 [!UICONTROL Lowest CPA (click focused) - Custom Goal],&quot; 옵션을 사용하여 이전 시나리오를 달성할 수 있습니다.</li></ul>기존 목표를 사용한 기존 패키지는 관련 설정을 사용하여 새 목표로 자동으로 마이그레이션되므로 수동으로 업데이트할 필요가 없습니다. | 를 참조하십시오.[최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md),&quot; &quot;[패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)및 &quot;[성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
 | 2024년 3월 20일 | 배치 비입찰 이유 | 지출 부족 문제를 해결하는 데 도움이 되는 주요 데이터 포인트인 모든 실행 가능한 비입찰 이유(NBR)를 이제 셀프서비스 고객이 사용할 수 있습니다. 이전에는 셀프서비스 사용자가 NBR에 부분적으로 액세스만 할 수 있었고 문제를 해결하는 데 도움이 되도록 계정 관리자나 거래 분석가(관리자 액세스 권한이 있는)에게 의존해야 했습니다. | 다음을 참조하십시오. [!UICONTROL Non Bids] 의 섹션 [배치 진단 보고서](/help/dsp/campaign-management/reports/placement-diagnostics.md). |
