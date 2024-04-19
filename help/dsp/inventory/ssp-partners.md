@@ -3,9 +3,9 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 개방형 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 222dd3c9c4ebf807a224162628184ccfc861ac41
+source-git-commit: 1fd67d0996fa877441a2a309d8cffdce40d41144
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 자�
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | 아니요 | 미국/CA | 미국 달러 | x | x | x | x | x |  |  |
 | [!DNL FreeWheel] (이전 [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] 또는 Adobe Advertising | 예 | 글로벌 | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Google Authorized Buyers] (이전 [!DNL Google AdX]) | [!DNL Google] | Adobe 이름 - 44912714<br>Adobe APAC 및 EU - 89185975 | 예 | 글로벌 | USD, BRL | x | x | x | x | x |  | x |
-| [!DNL GumGum] |  | Adobe Advertising | 아니요 | 미국/CA | 미국 달러 | x | x |  | x | x |  |  |
+| [!DNL GumGum] |  | Adobe Advertising | 아니요 | 글로벌 | 미국 달러 | x | x |  | x | x |  |  |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | 아니요 | 글로벌 | 미국 달러 | x | x | x | x | x | | |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (이전 [!DNL Telaria] 및 [!DNL Tremor]) | [!DNL TubeMogul] 또는 Adobe Advertising | 예 | 글로벌 | AUD, USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (이전 [!DNL Telaria] 및 [!DNL Tremor]) | [!DNL TubeMogul] 또는 Adobe Advertising | 예 | 글로벌 | 미국 달러 | x | x | x | x | x |  | x |
