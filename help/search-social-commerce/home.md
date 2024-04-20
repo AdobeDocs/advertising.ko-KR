@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: badf1ad2550d59ff1847e216256f6cba054d67f9
+source-git-commit: 1d1cb918d8409c7f2f16c99d964f769a6503405c
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1778'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024년 4월 20일 | [!UICONTROL Campaigns] | (오픈 베타 기능; [!DNL Microsoft® Advertising] 계정)에 대한 추가 지원이 제공됩니다 [!DNL Microsoft® Advertising] 성과 최대 캠페인:<ul><li>이제 캠페인 시작 및 종료 날짜, 캠페인 수준 언어 및 위치 타겟을 구성할 수 있습니다.</li><li>자산 그룹을 추가, 편집 및 제거할 수 있습니다. 각 에셋 그룹에 대해 기존 대상 그룹을 대상 신호로 사용할 수 있습니다.</li></ul> | 를 참조하십시오.[[!DNL Microsoft® Advertising] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).&quot; |
+| | | (오픈 베타 기능; [!DNL Microsoft® Advertising] 계정)다음 지원을 사용할 수 있습니다 [!DNL Microsoft® Advertising] 캠페인 유형이 &quot;&quot;인 브랜드에 대한 쇼핑 프로모션[!UICONTROL Shopping Campaigns for Brands]&quot;&quot;(&quot;[!UICONTROL Brand Shopping]&quot;을(를) 대체합니다. [!UICONTROL Campaigns] 및 보고서 보기) 및 입찰 전략 사용[!UICONTROL Cost per Sale].&quot;<ul><li>브랜드에 대한 기존 후원 프로모션을 확인합니다.</li><li>다음에서 [!UICONTROL Campaigns] 보기, 만들기 및 관리 [!UICONTROL Shopping Campaigns for Brands] 를 사용하는 캠페인 [!UICONTROL Cost per Sale] 판매당 목표 비용을 설정하는 입찰 전략입니다. 제품을 클릭할 때만 지불하고 24시간 이내에 판매합니다. 하위 광고 그룹과 제품 그룹을 만들 수도 있습니다. [!DNL Microsoft® Advertising] 는 제품 그룹을 기반으로 광고를 자동으로 만듭니다.</li><li>* 캠페인 관리 보기 및 오프라인 보고서 및 (광고주: [!DNL Adobe Analytics for Advertising]Adobe Analytics )을 참조하십시오.</li></ul><br><br>Portfolio 최적화는 를 사용하는 캠페인에 사용할 수 없습니다. [!UICONTROL Cost per Sale] 입찰 전략 | 를 참조하십시오.[[!DNL Microsoft® Advertising] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)&quot; 및 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md).&quot; |
 | 2024년 1월 20일 | [!UICONTROL Campaigns], [!DNL Optimization] | ([!DNL Microsoft Advertising] 캠페인) 이제 대상 네트워크의 캠페인에 대해 &quot;[!UICONTROL Maximize Conversions]&quot;캠페인 설정 내의 자동 입찰 전략(선택 사항 사용)&quot;[!UICONTROL Target CPA]&quot; 값. 이 입찰 전략을 사용하는 캠페인은 하이브리드 포트폴리오에서 최적화할 수 있습니다. | 를 참조하십시오.[[!DNL Microsoft Advertising] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).&quot; |
 | 2023년 11월 17일 | [!UICONTROL Recommendations & Publisher Insights] | 자세히 [!DNL Google Ads] 이제 추천을에서 사용할 수 있습니다. [!UICONTROL Insights] > [!UICONTROL Reports] > [!UICONTROL Recommendations  & Publisher Insights]를 사용하여 세그먼트를 적용 및 해제할 수 있습니다.<ul><li>[!UICONTROL Automated campaigns]:</li><ul><li>[!UICONTROL DSA to performance max migration]: 동적 검색 광고를 성능 최대 캠페인으로 마이그레이션합니다.</li><li>[!UICONTROL Dynamic image extension opt in]: 계정에 대해 동적 이미지 확장 기능을 활성화하고 이렇게 하면 [!DNL Google Ads] 머신 러닝은 광고의 랜딩 페이지에서 가장 관련성이 높은 이미지를 광고에 자동으로 추가합니다.</li><li>[!UICONTROL Improve performance max ad strength]: 성과 최대 캠페인의 자산 그룹 강도를 향상시켜 &quot;우수&quot; 등급을 갖게 합니다.</li><li>[!UICONTROL Performance max opt in]: 성과 최대 캠페인을 옵트인합니다.</li></ul><li>[!UICONTROL Bidding and budgets]<ul><li>[!UICONTROL Target CPA raising]: 을(를) 제기합니다. [!UICONTROL Target CPA] 기준 [!DNL Google Ads] 예측: 과거 전환에서 계산됩니다.</li><li>[!UICONTROL Target ROAS lowering]: 을 낮춥니다. [!UICONTROL Target ROAS] 기준 [!DNL Google Ads] 예측: 과거 전환에서 계산됩니다.</li></ul></ul> | 를 참조하십시오.[게시자 권장 사항 및 인사이트 지원 기본 정보](/help/search-social-commerce/recommendations/recommendation-support.md)&quot; 및 &quot;[게시자 권장 사항 및 성능 인사이트 보기](/help/search-social-commerce/recommendations/recommendation-view.md).&quot; |
 | 2023년 11월 8일 | [!UICONTROL Asset Library] | (오픈 베타 기능; [!DNL Microsoft® Advertising] 계정) 위치 [!UICONTROL Campaigns] > [!UICONTROL Asset Library], 재사용 가능한 이미지 및 비디오 에셋을 만들고 [!DNL Microsoft® Advertising] 계정 수준 자산 라이브러리입니다. 업로드한 에셋을 의 해당 캠페인 유형에 추가할 수 있습니다. [!DNL Microsoft® Advertising] 편집자. | 를 참조하십시오.[정보 [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)&quot; 및 &quot;[에셋 만들기 및 업로드](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).&quot; |
