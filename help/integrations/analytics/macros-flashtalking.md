@@ -3,7 +3,7 @@ title: 추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Flashtalki
 description: 추가 이유 및 방법 알아보기 [!DNL Analytics for Advertising] 에 대한 매크로 [!DNL Flashtalking] 광고 태그
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: ca8260e643f24787f7918249906f3f38f3bbef6d
+source-git-commit: 7b31fb7939f44aa99826bea3f183897683189eae
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -65,3 +65,4 @@ ht-degree: 0%
 >* [개요 [!DNL Analytics for Advertising]](overview.md)
 >* [사용한 Adobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
 >* [추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md)
+
