@@ -3,7 +3,7 @@ title: 지원되는 인벤토리
 description: 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형을 참조하십시오.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 89f2969163932e89a3e5765881a2b0eebb9edcac
+source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
 workflow-type: tm+mt
 source-wordcount: '2738'
 ht-degree: 0%
