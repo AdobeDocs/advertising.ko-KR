@@ -3,7 +3,7 @@ title: '[!DNL Microsoft® Advertising] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 캠페인.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
 workflow-type: tm+mt
 source-wordcount: '1912'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** 캠페인에 대한 입찰 전략:
 
-* *[!UICONTROL Cost per Sale]:* (쇼핑 캠페인 전용) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 다음을 기반으로 입찰을 최적화합니다. **[!UICONTROL Target CPS]** (판매당 비용). 제품을 클릭할 때만 지불하고 24시간 이내에 판매합니다. **참고:** 이 입찰 전략이 포함된 캠페인을 포트폴리오에 포함하지 마십시오. 이 입찰 전략을 사용하는 캠페인에는 검색, 소셜 및 Commerce 최적화를 사용할 수 없습니다.
+* *[!UICONTROL Cost per Sale]:* (쇼핑 캠페인 전용) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 다음을 기반으로 입찰을 최적화합니다. [!UICONTROL Target CPS] (판매당 비용). 제품을 클릭할 때만 지불하고 24시간 이내에 판매합니다. **참고:** 이 입찰 전략이 포함된 캠페인을 포트폴리오에 포함하지 마십시오. 이 입찰 전략을 사용하는 캠페인에는 검색, 소셜 및 Commerce 최적화를 사용할 수 없습니다.
 
   이 입찰 전략으로 브랜드에 대한 쇼핑 캠페인을 저장하면 입찰 전략을 변경할 수 없습니다. 다른 쇼핑 캠페인 유형의 경우 이 전략은 새 캠페인에만 사용할 수 있습니다.
 
