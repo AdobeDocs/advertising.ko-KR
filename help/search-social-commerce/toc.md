@@ -4,7 +4,7 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 2%
@@ -103,7 +103,7 @@ ht-degree: 2%
    + [추적에 대한 FAQ](/help/search-social-commerce/tracking/faqs-tracking.md)
 + 캠페인 관리 {#campaign-management}
    + 소개 {#campaign-management-intro}
-      + [검색, 소셜 및 상거래의 캠페인 관리 기본 정보](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
+      + [검색, 소셜 및 Commerce의 캠페인 관리 기본 정보](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [광고 네트워크 계정 및 캠페인 구현 개요](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [광고 네트워크 캠페인의 성능 모니터링 및 관리](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
       + [[!DNL Google Ads] 검색, 소셜 및 상거래의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
@@ -374,9 +374,9 @@ ht-degree: 2%
    + Recommendations 및 게시자 인사이트 {#recommendations}
       + [게시자 권장 사항 및 인사이트 지원 기본 정보](/help/search-social-commerce/recommendations/recommendation-support.md)
       + [게시자 권장 사항 및 성능 인사이트 보기](/help/search-social-commerce/recommendations/recommendation-view.md)
-      + [적용 또는 취소 [!DNL Google Ads] 추천](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
-      + [에 대한 권장 사항 로그 보기 [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
-      + [포트폴리오에 게시자 권장 사항 및 통찰력을 사용하는 모범 사례](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
+      + [게시자 추천 적용 또는 취소](/help/search-social-commerce/recommendations/recommendation-apply-dismiss.md)
+      + [계정에 대한 게시자 권장 사항 로그 보기](/help/search-social-commerce/recommendations/recommendation-view-log.md)
+      + [포트폴리오에 게시자 권장 사항을 사용하는 모범 사례](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + 도구 {#tools}
    + [암호 변경](/help/search-social-commerce/tools/password-change.md)
    + 추적 태그를 만들고 디코딩하는 도구{#tracking}
