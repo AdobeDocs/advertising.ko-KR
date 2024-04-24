@@ -3,7 +3,7 @@ title: '[!DNL Microsoft® Advertising] 광고 그룹 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 광고 그룹.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 7339af39250f0328bc6e8d530a2d7f04286132e5
+source-git-commit: 2407d29fb4061e6b3181b86c335c52a8384c4ca3
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 대상 [!DNL Microsoft® Advertising] 대상 네트워크의 광고 그룹, 위치 대상에 대한 입찰 수정자는 &quot;이 포함된 표준 포트폴리오에서 최적화되지 않습니다.[!UICONTROL Auto-optimize Bid Adjustment Values]&quot; 설정.
 
-**[!UICONTROL Genre]:** (의 광고 그룹 [!UICONTROL Audience CTV Video] 캠페인; 미국, CA, BR, MX, UK, DE, ES, FR, IT, AU, MY 및 TH에서 사용 가능<!-- should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->) 광고가 표시되는 프로그램 및 채널을 결정하는 타겟 장르:
+**[!UICONTROL Genre]:** (의 광고 그룹 [!UICONTROL Audience CTV Video] 캠페인; 미국, CA, BR, MX, UK, DE, ES, FR, IT, AU, MY 및 TH에서 사용 가능<!-- Should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->) 광고가 표시되는 프로그램 및 채널을 결정하는 타겟 장르:
 
 * *[!UICONTROL All genres]:* (기본값) 모든 장르를 타깃팅합니다.
 
