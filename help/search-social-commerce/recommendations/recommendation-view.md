@@ -3,7 +3,7 @@ title: 게시자 권장 사항 및 성능 인사이트 보기
 description: 를 보는 방법 알아보기 [!DNL Google Ads] 권장 사항 및 [!DNL Microsoft® Advertising] 광고 네트워크 계정에 대한 성능 인사이트.
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-source-git-commit: 55417f743378a4407542482b8009687d5a7191e7
+source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
