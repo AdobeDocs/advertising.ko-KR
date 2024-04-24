@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: 43514628649ba517371b8ac0781d4c49615e667f
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1986'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024년 4월 24일 | [!UICONTROL Recommendations & Publisher Insights] | ([!DNL Microsoft® Advertising] 캠페인, Beta 기능) 이제 와 동일한 형식으로 계정에 대한 성능 권장 사항을 볼 수 있습니다. [!DNL Google Ads]; 권장 사항을 직접 적용하거나 기각하고, 권장 사항을 적용한 영향을 받은 엔터티 및 타임스탬프를 포함하여 계정에 적용된 각 권장 사항의 로그를 확인합니다. 지원되는 권장 사항 유형에는 반응형 검색 광고, 캠페인 예산 및 키워드가 포함됩니다.<br><br>또한 다음과 같은 각 성능 통찰력을 계속 확인할 수 있습니다 [!DNL Microsoft® Advertising] 생성된 날짜 - 지난 30일 동안 권장 사항과 다른 형식으로 계정에 대해 생성되었습니다. 각 인사이트에는 를 여는 링크가 포함되어 있습니다 [!DNL Microsoft® Advertising] 편집기: 인사이트를 처리할 수 있습니다. | 를 참조하십시오.[게시자 권장 사항 및 인사이트 지원 기본 정보](/help/search-social-commerce/recommendations/recommendation-support.md),&quot; &quot;[게시자 권장 사항 및 성능 인사이트 보기](/help/search-social-commerce/recommendations/recommendation-view.md),&quot; &quot;[게시자 추천 적용 또는 취소](/help/search-social-commerce/recommendations/recommendation-apply-dismiss.md)및 &quot;[계정에 대한 게시자 권장 사항 로그 보기](/help/search-social-commerce/recommendations/recommendation-view-log.md).&quot; |
+|  | [!UICONTROL Campaigns] | ([!DNL Microsoft® Advertising] 캠페인) 이제 대상자 CTV 비디오 캠페인의 광고 그룹은 광고가 표시되는 프로그램 및 채널을 결정하는 장르를 타깃팅할 수 있습니다. 다음 [!UICONTROL Adgroup Targeting] 섹션에 새 &quot;[!UICONTROL Genre]모든 장르를 타깃팅하거나 특정 장르만 타깃팅하는 옵션이 있는 설정.<br><br>장르 대상에 대해 보고 지원을 사용할 수 없습니다. | 를 참조하십시오.[[!DNL Microsoft® Advertising] 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md).&quot; |
 | 2024년 4월 20일 | [!UICONTROL Campaigns] | (오픈 베타 기능; [!DNL Microsoft® Advertising] 계정)에 대한 추가 지원이 제공됩니다 [!DNL Microsoft® Advertising] 성과 최대 캠페인:<ul><li>이제 캠페인 시작 및 종료 날짜, 캠페인 수준 언어 및 위치 타겟을 구성할 수 있습니다.</li><li>자산 그룹을 추가, 편집 및 제거할 수 있습니다. 각 에셋 그룹에 대해 기존 대상 그룹을 대상 신호로 사용할 수 있습니다.</li></ul> | 를 참조하십시오.[[!DNL Microsoft® Advertising] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).&quot; |
 | | | (오픈 베타 기능; [!DNL Microsoft® Advertising] 계정)다음 지원을 사용할 수 있습니다 [!DNL Microsoft® Advertising] 캠페인 유형이 &quot;&quot;인 브랜드에 대한 쇼핑 프로모션[!UICONTROL Shopping Campaigns for Brands]&quot;&quot;(&quot;[!UICONTROL Brand Shopping]&quot;을(를) 대체합니다. [!UICONTROL Campaigns] 및 보고서 보기) 및 입찰 전략 사용[!UICONTROL Cost per Sale].&quot;<ul><li>브랜드에 대한 기존 후원 프로모션을 확인합니다.</li><li>다음에서 [!UICONTROL Campaigns] 보기, 만들기 및 관리 [!UICONTROL Shopping Campaigns for Brands] 를 사용하는 캠페인 [!UICONTROL Cost per Sale] 판매당 목표 비용을 설정하는 입찰 전략입니다. 제품을 클릭할 때만 지불하고 24시간 이내에 판매합니다. 하위 광고 그룹과 제품 그룹을 만들 수도 있습니다. [!DNL Microsoft® Advertising] 는 제품 그룹을 기반으로 광고를 자동으로 만듭니다.</li><li>* 캠페인 관리 보기 및 오프라인 보고서 및 (광고주: [!DNL Adobe Analytics for Advertising]Adobe Analytics )을 참조하십시오.</li></ul><br><br>다음을 사용할 수도 있습니다 [!UICONTROL Cost per Sale] 다른 모든 유형의 새로운 입찰에 대한 입찰 전략 [!DNL Microsoft®] 쇼핑 캠페인. 기존 쇼핑 캠페인에는 사용할 수 없습니다.<br><br>Portfolio 최적화는 를 사용하는 캠페인에 사용할 수 없습니다. [!UICONTROL Cost per Sale] 입찰 전략 | 를 참조하십시오.[[!DNL Microsoft® Advertising] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)&quot; 및 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md).&quot; |
 | 2024년 1월 20일 | [!UICONTROL Campaigns], [!DNL Optimization] | ([!DNL Microsoft Advertising] 캠페인) 이제 대상 네트워크의 캠페인에 대해 &quot;[!UICONTROL Maximize Conversions]&quot;캠페인 설정 내의 자동 입찰 전략(선택 사항 사용)&quot;[!UICONTROL Target CPA]&quot; 값. 이 입찰 전략을 사용하는 캠페인은 하이브리드 포트폴리오에서 최적화할 수 있습니다. | 를 참조하십시오.[[!DNL Microsoft Advertising] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).&quot; |
