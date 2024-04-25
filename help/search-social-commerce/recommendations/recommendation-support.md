@@ -3,7 +3,7 @@ title: 게시자 권장 사항 및 인사이트 지원 기본 정보
 description: 게시자 권장 사항 및 인사이트를 보고 관리하는 지원에 대해 알아봅니다.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 331b11620d99f9e43b9eb69db04aac4e1149d64f
+source-git-commit: d6808281dc3ba26a48ae33079c2f411705f43ddd
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
