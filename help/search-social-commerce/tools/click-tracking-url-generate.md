@@ -1,16 +1,16 @@
 ---
 title: 클릭 추적 URL 생성
-description: 검색, 소셜 및 상거래 클릭 추적 URL을 수동으로 생성하는 방법을 알아봅니다.
-exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+description: 검색, 소셜 및 Commerce 클릭 추적 URL을 수동으로 생성하는 방법을 알아봅니다.
+exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# 추적 URL 도구를 사용하여 검색, 소셜 및 상거래 클릭 추적 URL 생성
+# 추적 URL 도구를 사용하여 검색, 소셜 및 Commerce 클릭 추적 URL 생성
 
 *Adobe Advertising 전환 추적만 있는 광고주*
 
@@ -42,13 +42,13 @@ ht-degree: 0%
 
          * ([!DNL Microsoft® Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
 
-           위치 `sitelink` 는 사이트링크 이름이며, `landing_page` 는 유효한 랜딩 페이지 URL 또는 기본 URL입니다.
+           위치 `sitelink` 는 사이트링크 이름이며 `landing_page` 는 유효한 랜딩 페이지 URL 또는 기본 URL입니다.
 
            예: `Careers <tab> ** <tab> http://www.example.com/careers.html`
 
            파일에는 최대 10,000개의 줄이 포함될 수 있습니다.
 
-         * ([!DNL Google Merchant Center] 제품 그룹 및 [Microsoft® Advertising] 제품 광고) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] 제품 그룹 및 [DNL Microsoft® Advertising] 제품 광고) `product name <tab> ** <tab> landing_page`
 
            위치 `product name` 는 제품 이름이며 `landing_page` 는 유효한 랜딩 페이지 URL 또는 기본 URL입니다.
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
          * ([!DNL Microsoft® Advertising] sitelinks) `sitelink**landing_page`
 
-           위치 `sitelink` 는 사이트링크 이름이며, `landing_page` 는 유효한 랜딩 페이지 URL 또는 기본 URL입니다.
+           위치 `sitelink` 는 사이트링크 이름이며 `landing_page` 는 유효한 랜딩 페이지 URL 또는 기본 URL입니다.
 
            예: `Careers**http://www.example.com/careers.html`
 
@@ -88,4 +88,4 @@ ht-degree: 0%
 >
 >* [추적 태그를 만들고 디코딩하는 도구 정보](tracking-tools-about.md)
 >* [클릭 추적 URL 생성 시기 및 방법](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
->* [검색, 소셜 및 상거래 클릭 추적 URL 디코딩](click-tracking-url-decode.md)
+>* [검색, 소셜 및 Commerce 클릭 추적 URL 디코딩](click-tracking-url-decode.md)
