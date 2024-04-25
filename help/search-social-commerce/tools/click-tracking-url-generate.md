@@ -3,9 +3,9 @@ title: 클릭 추적 URL 생성
 description: 검색, 소셜 및 Commerce 클릭 추적 URL을 수동으로 생성하는 방법을 알아봅니다.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
+source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
            파일에는 최대 10,000개의 줄이 포함될 수 있습니다.
 
-         * ([!DNL Google Merchant Center] 제품 그룹 및 [DNL Microsoft® Advertising] 제품 광고) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] 제품 그룹 및 [!DNL Microsoft® Advertising] 제품 광고) `product name <tab> ** <tab> landing_page`
 
            위치 `product name` 는 제품 이름이며 `landing_page` 는 유효한 랜딩 페이지 URL 또는 기본 URL입니다.
 
