@@ -3,9 +3,9 @@ title: 게시자 권장 사항 및 인사이트 지원 기본 정보
 description: 게시자 권장 사항 및 인사이트를 보고 관리하는 지원에 대해 알아봅니다.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 7f45a89dbff37592eec9991c47ade3094ca024a8
+source-git-commit: 331b11620d99f9e43b9eb69db04aac4e1149d64f
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
   보기를 열면 데이터를 실시간으로 사용할 수 있습니다. 데이터를 새로 고치려면 ![새로 고침](/help/search-social-commerce/assets/refresh.png "새로 고침") 페이지의 왼쪽 하단에 있습니다.
 
-* 대상 [DNL Microsoft® Advertising] 계정, 지난 30일 동안 생성된 각 성능 인사이트 한눈에 보기 [DNL Microsoft® Advertising] 계정입니다. 인사이트는 권장 사항과 유사한 정보를 제공하지만 다른 형식으로 제공합니다. 각 인사이트는 날짜, 문제에 대한 설명, 영향을 받는 엔티티, 근본 원인(더 자세한 정보에 대한 링크가 포함될 수 있음) 및 Microsoft® Advertising 편집기를 여는 링크가 포함된 제안된 작업을 포함하며, 여기에서 특정 인사이트에 대해 작업을 수행할 수 있습니다.
+* 대상 [!DNL Microsoft® Advertising] 계정, 지난 30일 동안 생성된 각 성능 인사이트 한눈에 보기 [!DNL Microsoft® Advertising] 계정입니다. 인사이트는 권장 사항과 유사한 정보를 제공하지만 다른 형식으로 제공합니다. 각 통찰력에는 날짜, 문제에 대한 설명, 영향을 받는 엔티티, 근본 원인(더 자세한 정보에 대한 링크가 포함될 수 있음) 및 을 여는 링크가 있는 제안된 작업이 포함됩니다. [!DNL Microsoft® Advertising] 편집기: 특정 통찰력에 따라 작업을 수행할 수 있습니다.
 
 * 권장 사항에 대한 세부 정보를 보고, 권장 사항을 직접 적용하거나 취소합니다.
 
