@@ -3,7 +3,7 @@ title: 게시자 추천 적용 또는 취소
 description: 게시자 권장 사항을 보거나, 적용하거나, 취소하는 방법에 대해 알아봅니다.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -48,3 +48,4 @@ ht-degree: 0%
 >* [게시자 권장 사항 및 성능 인사이트 보기](recommendation-view.md)
 >* [계정에 대한 게시자 권장 사항 로그 보기](recommendation-view-log.md)
 >* [포트폴리오에 게시자 권장 사항을 사용하는 모범 사례](recommendation-best-practices.md)
+
