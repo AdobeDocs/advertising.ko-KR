@@ -3,9 +3,9 @@ title: 광고 네트워크에 목표 업로드 활성화
 description: 하이브리드 포트폴리오에 대한 목표를 업로드하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 7b857f2f75f05685d0776c710a442088a72f590c
+source-git-commit: a61bdd9c68420a16a01057d8a3ac03d659d2ad3f
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,33 @@ ht-degree: 0%
 
 *하이브리드 최적화에만 활성화된 광고주*
 
-광고주 계정이 하이브리드 최적화를 사용하도록 구성되어 있는 경우 Adobe Advertising은 필요에 따라 계정의 포트폴리오에 대한 목표를 업로드할 수 있습니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 하이브리드 최적화에 사용할 수 있는 전환으로.
+Search, Social 및 Commerce은 광고주 계정의 포트폴리오에 대한 목표를 업로드할 수 있습니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 따라서 하이브리드 최적화에 사용할 수 있습니다. 업로드한 목표는 계정 수준 및 캠페인 수준의 사용자 정의 전환 목표에 대한 전환 작업으로 사용할 수 있습니다.
 
-이 옵션을 활성화하면 스마트 입찰 전략이 포함된 캠페인이 포함된 포트폴리오에 대한 업로드가 자동으로 트리거됩니다. Search, Social 및 Commerce은 적용 가능한 각 포트폴리오와 객관적인 조합에 대해 광고 네트워크에서 전환을 만듭니다. 각 전환에는 이름이 있습니다. `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`, 여기서 `<portfolio_id>` 는 숫자 포트폴리오 ID이고 `<se_acctid/conversion_manager_se_acctid>` 광고 네트워크 계정 또는 관리자 계정의 숫자 ID입니다. 전환은 목표의 모든 가중 전환 지표를 나타냅니다.
+이 옵션을 활성화하면 스마트 입찰 전략이 포함된 캠페인이 포함된 포트폴리오에서 목표에 대한 업로드가 자동으로 트리거됩니다. Search, Social 및 Commerce은 적용 가능한 각 목표에 대해 광고 네트워크에서 전환을 만듭니다. 전환은 목표의 모든 가중 전환 지표를 나타냅니다. 각 전환에는 다음 이름 중 하나가 있습니다.
+
+* `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
+
+  위치 `<network_ID>` 는 Search, Social 및 Commerce이 광고 네트워크에 사용하는 숫자 ID입니다. `<objective_id>` 는 숫자 목표 ID이고, `<network_account_ID>` 광고 네트워크 계정 또는 관리자 계정의 숫자 ID입니다.
+
+* (나중에 더 이상 사용되지 않는 이전 형식) `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`
+
+  위치 `<portfolio_id>` 는 숫자 포트폴리오 ID이고 `<se_acctid/conversion_manager_se_acctid>` 광고 네트워크 계정 또는 관리자 계정의 숫자 ID입니다.
+
+  Adobe 계정 팀은 이전 형식이 더 이상 사용되지 않기 전에 광고 네트워크 내에서 기존 전환 작업 이름을 마이그레이션하도록 사용자와 협력합니다. 마이그레이션 기간 동안 이전 형식과 새 형식 업로드가 모두 동시에 실행됩니다. 새 전환 작업이 처음에 &quot;보조&quot;(최적화되지 않음) 상태와 90일의 데이터 채우기로 표시되므로 모델링 및 최적화는 영향을 받지 않습니다.
 
 에 업로드 [!DNL Google Ads] 광고주의 시간대에서 매일 06:00에 발생합니다. 에 업로드 [!DNL Microsoft® Advertising] 광고주의 시간대에서 매일 09:00에 발생합니다.
 
-<!-- Note to self: Conversions tracked by Google Ads and by the Microsoft Advertising universal event tracking (UET) tag aren't re-uploaded to the ad networks. -->
+>[!IMPORTANT]
+>
+>Google 광고 및 Microsoft Advertising UET(범용 이벤트 추적) 태그로 추적된 전환은 광고 네트워크에 다시 업로드되지 않습니다. 목표에 이러한 목표를 포함하는 경우 광고 네트워크의 편집기 내에서 캠페인 목표에 해당 목표를 추가합니다.
+
+<!--
+>[!IMPORTANT]
+>
+>Objectives for hybrid portfolios may include conversion goals from multiple ad networks and other types of conversion metrics. However, the individual campaigns in the portfolio can't include conversion goals that aren't included in the portfolio's objective; using additional conversion goals may impact portfolio performance.
+-->
+
+<!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
 
 1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
@@ -33,6 +53,8 @@ ht-degree: 0%
 1. 클릭 **[!UICONTROL Save]**.
 
 1. (관리자 계정 수준에서 전환을 추적하는 경우) [관리자 계정에 대한 자격 증명 추가](/help/search-social-commerce/admin/manager-accounts.md) 위치: **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+
+일별 업로드가 완료되면 전환 작업이 광고 네트워크에 표시되는지 확인할 수 있습니다.
 
 >[!MORELIKETHIS]
 >

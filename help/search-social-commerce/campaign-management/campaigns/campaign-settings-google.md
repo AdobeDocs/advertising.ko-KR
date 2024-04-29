@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Google Ads] 캠페인.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: ce17567bbf1a409cc2894e48188235b7473b914c
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2431'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->캠페인이 포트폴리오의 일부인 경우 포트폴리오의 목표와 동일한 전환 목표를 사용합니다. 다양한 전환 목표를 사용하면 포트폴리오 성능에 영향을 줄 수 있습니다.
+>광고 네트워크에 목표를 업로드하는 하이브리드 포트폴리오의 캠페인의 경우 가장 좋은 방법은 포트폴리오의 목표에서 전환 목표와 일치하는 캠페인 수준 목표를 사용하는 것입니다. 그러나 캠페인 목표에 다음과 같은 경우 [!DNL Google]-추적된 전환을 사용한 다음 [!DNL Google Ads] 목표를 가지고 광고 네트워크에 다시 업로드되지 않으므로 편집기입니다. 또한 [!DNL Google Ads] 편집기에서 캠페인의 전환 작업을 기본 목표가 아닌 보조 목표로 표시하여 계정 기본 목표로 제거합니다.
+
+<!-- Check on this:
+>If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>
+>The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
+-->
 
 >[!MORELIKETHIS]
 >
