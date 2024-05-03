@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 17635ae4b61913d631ccb2a875ee550602831178
+source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
 workflow-type: tm+mt
 source-wordcount: '2771'
 ht-degree: 0%
@@ -15,10 +15,7 @@ ht-degree: 0%
 # 새로운 기능
 
 다음 기능은 새로운 기능이거나 최근에 변경되었습니다.
-<!--
-|  | Ads, Pixels |  |  | 
--->
->>
+
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
 | 2024년 5월 2일 | 광고, 픽셀 | 캠페인에 있는 모든 광고에 대한 설정을 XLSX(Excel 스프레드시트) 형식으로 다운로드하여 다음에서 검토할 수 있습니다. [!UICONTROL Ad Tools] 보기. | 를 참조하십시오.[스프레드시트를 사용하여 광고 설정 검토](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
