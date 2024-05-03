@@ -3,14 +3,18 @@ title: 광고 편집
 description: 광고를 편집하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c97fcf61f444ab3363d9d55398402ec9f162be99
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
 
 # 광고 편집
+
+>[!TIP]
+>
+>한 번에 여러 광고에 대한 서드파티 추적 픽셀을 변경하려면 &quot;[배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
 
 1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
 
@@ -32,7 +36,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >광고는 DSP과 SSP가 모두 크리에이티브를 승인한 경우에만 제공됩니다. 각 SSP에는 고유한 승인 요구 사항 및 프로세스가 있습니다.
+   >광고는 DSP과 SSP가 모두 크리에이티브를 승인한 경우에만 제공할 수 있습니다. 각 SSP에는 고유한 승인 요구 사항 및 프로세스가 있습니다.
 
 >[!MORELIKETHIS]
 >
@@ -42,4 +46,3 @@ ht-degree: 0%
 >* [광고 복제](ad-duplicate.md)
 >* [광고와 연결된 배치 나열](ad-list-placements.md)
 >* [광고 사양](ad-specs.md)
-
