@@ -2,7 +2,7 @@
 title: 스프레드시트를 사용하여 광고 설정 검토
 description: 스프레드시트를 사용하여 광고 설정을 검토하는 방법을 알아봅니다.
 feature: DSP Ads
-source-git-commit: a2e444a6cd5dcca6f02b92dec05321f4df4b0045
+source-git-commit: c67e0c83ba8836462ce83fad24721cd1b27de318
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -43,5 +43,5 @@ XLSX(Excel 스프레드시트) 형식으로 캠페인에 있는 모든 광고에
 >[!MORELIKETHIS]
 >
 >* [광고 편집](/help/dsp/campaign-management/ads/ad-edit.md)
->* [광고 설정](/help/dsp/campaign-management/ads/placeadment-settings.md)
+>* [광고 설정](/help/dsp/campaign-management/ads/ad-settings.md)
 >* [배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
