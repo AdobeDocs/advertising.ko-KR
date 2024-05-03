@@ -3,9 +3,9 @@ title: 키 배치 설정을 빠르게 편집
 description: 주요 배치 설정을 빠르게 변경하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---

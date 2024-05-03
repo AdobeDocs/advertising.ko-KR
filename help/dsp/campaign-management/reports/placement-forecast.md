@@ -3,7 +3,7 @@ title: 배치 예측 보고서 보기
 description: 배치에 대한 특정 타겟팅 전략에 대해 예측된 노출 횟수, 지출 횟수 및 최적 최대 입찰가 를 참조하십시오.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: e901087b9128779bb4d55194cebfdc84c7c2ba2a
+source-git-commit: 2ecf1eacb2a47c20e0c05f9ff62386869b644ba6
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%

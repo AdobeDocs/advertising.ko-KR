@@ -2,9 +2,10 @@
 title: 배치에 대한 입찰 승수 관리
 description: 지정된 배치 대상의 입찰 배수를 만들고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
-source-git-commit: b3932c066e0ecd29e57152f0654ee4b0d9e0dda1
+exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '407'
 ht-degree: 3%
 
 ---

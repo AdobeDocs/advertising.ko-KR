@@ -3,9 +3,9 @@ title: 배치 편집
 description: 배치를 편집하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->하나 이상의 배치 또는 캠페인의 모든 배치에 대한 설정을 XLSX(Excel 스프레드시트) 형식으로 다운로드하고, 키 필드의 제한된 하위 집합을 변경하고, 모두 DSP에 다시 업로드할 수도 있습니다. 를 참조하십시오.[스프레드시트를 사용하여 배치 설정 검토 및 수정](placement-qa.md).&quot;
+>하나 이상의 배치 또는 캠페인의 모든 배치에 대한 설정을 XLSX(Excel 스프레드시트) 형식으로 다운로드하고, 키 필드의 제한된 하위 집합을 변경하고, 모두 DSP에 다시 업로드할 수도 있습니다. 를 참조하십시오.[스프레드시트를 사용하여 배치 설정 검토 및 편집](placement-qa.md).&quot;
 
 ## 키 배치 설정을 빠르게 편집 {#placement-quick-edit}
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [배치 관리 정보](placement-about.md)
->* [스프레드시트를 사용하여 배치 설정 검토 및 수정](placement-qa.md)
+>* [스프레드시트를 사용하여 배치 설정 검토 및 편집](placement-qa.md)
 >* [배치 만들기](placement-create.md)
 >* [배치 복제](placement-duplicate.md)
 >* [배치에 대한 입찰 승수 관리](placement-manage-bid-multipliers.md)

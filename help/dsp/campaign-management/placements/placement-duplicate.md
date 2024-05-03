@@ -3,9 +3,9 @@ title: 중복 배치
 description: 하나 이상의 배치를 복제하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -76,4 +76,3 @@ ht-degree: 0%
 >* [배치 편집](placement-edit.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [배치 설정](placement-settings.md)
-

@@ -3,9 +3,9 @@ title: 배치 만들기
 description: 배치를 만드는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---

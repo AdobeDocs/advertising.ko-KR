@@ -1,16 +1,16 @@
 ---
-title: 스프레드시트를 사용하여 배치 설정 검토 및 수정
+title: 스프레드시트를 사용하여 배치 설정 검토 및 편집
 description: 스프레드시트를 사용하여 주요 배치 설정을 검토하고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
-# 스프레드시트를 사용하여 배치 설정 검토 및 수정
+# 스프레드시트를 사용하여 배치 설정 검토 및 편집
 
 하나 이상의 배치 또는 캠페인의 모든 배치에 대한 설정을 XLSX(Excel 스프레드시트) 형식으로 다운로드하여 검토할 수 있습니다. 이 기능을 사용하여 다음과 같은 세부 사항을 신속하게 검토할 수 있습니다.
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->배치 설정을 보다 광범위하게 변경하려면 [벌크 편집 기능](/help/dsp/campaign-management/placements/placement-edit.md).
+>하나 이상의 배치에 대해 더 많은 필드를 편집하려면 &quot;[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 ## 캠페인의 모든 배치에 대한 다운로드 설정
 

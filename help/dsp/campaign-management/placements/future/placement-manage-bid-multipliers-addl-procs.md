@@ -2,9 +2,9 @@
 title: 배치에 대한 입찰 승수 관리
 description: 지정된 배치 대상의 입찰 배수를 만들고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
-source-git-commit: 8d1cb46c8756c7312c6bd23e7a30118a8835ffd6
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ See if any of these procedures are implemented; may need to be edited and/or re-
 >[!MORELIKETHIS]
 >
 >* [About Placement Management](placement-about.md)
->* [Edit a Placement](placement-edit.md)
+>* [Edit Placements](placement-edit.md)
 >* [View the Change Log for a Placement](placement-change-log.md)
 >* [Placement Settings](placement-settings.md)
  -->

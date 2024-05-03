@@ -3,9 +3,9 @@ title: 배치 보관 또는 보관 해제
 description: 배치를 보관 또는 보관 해제하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -43,4 +43,3 @@ ht-degree: 0%
 >* [배치 일시 중지 또는 활성화](placement-pause-activate.md)
 >* [배치 편집](placement-edit.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
-

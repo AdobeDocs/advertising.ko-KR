@@ -3,9 +3,9 @@ title: 배치 변경 로그 보기
 description: 배치에 대한 변경 사항을 보는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---

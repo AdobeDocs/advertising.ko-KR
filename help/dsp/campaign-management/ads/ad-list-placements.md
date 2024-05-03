@@ -3,9 +3,9 @@ title: 광고와 연결된 배치 나열
 description: 광고와 연결된 배치를 확인하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: c3844b70aee5102e47dc8676064ea5a1e6cacaac
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
