@@ -2,16 +2,16 @@
 title: 스프레드시트를 사용하여 광고 설정 검토
 description: 스프레드시트를 사용하여 광고 설정을 검토하는 방법을 알아봅니다.
 feature: DSP Ads
-source-git-commit: abaac57698111f85d87c5059a62c1737391a6efd
+source-git-commit: a2e444a6cd5dcca6f02b92dec05321f4df4b0045
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
 # 스프레드시트를 사용하여 광고 설정 검토
 
-광고의 설정을 다운로드 할 수 있습니다.<!-- Clarify once I can get this to work: Do these include all ads in the campaign? And does it include all possible settings, or just a subset?  -->
+XLSX(Excel 스프레드시트) 형식으로 캠페인에 있는 모든 광고에 대한 설정을 다운로드하여 검토할 수 있습니다.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
 
 >[!TIP]
 >
