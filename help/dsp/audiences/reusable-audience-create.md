@@ -3,7 +3,7 @@ title: 재사용 가능한 대상 만들기
 description: 대상 세그먼트 및 기타 저장된 대상으로 구성된 재사용 가능한 대상을 만드는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: eb3ce7d8bcddf52844b50797a95cb3b5aec13684
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. 데이터 테이블 위에서 **[!UICONTROL Create]**.
 
-1. 고유 항목 입력 [!UICONTROL Audience Name].
+1. 고유 항목 입력 **[!UICONTROL Audience Name]**.
 
 1. (선택 사항) 다음 옵션을 선택 취소합니다. **[!UICONTROL Share with all advertisers in my account]**.
 
@@ -49,6 +49,7 @@ ht-degree: 0%
          1. 왼쪽 패널에서 새 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
 
             세그먼트 그룹이 새 세그먼트로 자동으로 업데이트됩니다.
+
       * 새 세그먼트 그룹을 추가하려면:
 
          1. 클릭 **[!UICONTROL + New Group]** 오른쪽 패널에서
@@ -58,6 +59,7 @@ ht-degree: 0%
          1. 왼쪽 패널에서 새 그룹의 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
 
          1. (선택 사항) 그룹 논리를 다음으로 변경 *[!UICONTROL Include Any]*, *[!UICONTROL Include All]*, 또는 *[!UICONTROL Exclude All]*, 필요한 경우.
+
    * 기존 대상의 세그먼트 논리를 사용하려면 다음을 수행합니다.
 
       1. 다음 방법 중 하나로 기존 대상에서 세그먼트 논리를 복사합니다.
@@ -67,14 +69,12 @@ ht-degree: 0%
          * 기존 대상에 대한 설정에서 세그먼트 논리 패널의 맨 위에 있는 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * 텍스트 편집기에서 영숫자 세그먼트 ID 및 [부울 구문](audience-segment-logic-syntax.md)을 클릭하고 클립보드에 복사합니다.
+
       1. 클릭 **[!UICONTROL paste in an audience rule to begin building]**&#x200B;를 클릭하고 기존 세그먼트 논리를 입력 필드에 붙여 넣은 다음 을 클릭합니다 **[!UICONTROL Apply]**.
 
          >[!NOTE]
          >
          >대상에 이미 세그먼트 논리가 포함되어 있는 경우 새 세그먼트 논리에 붙여넣으면 기존 논리를 덮어씁니다.
-
-
-
 
 1. 클릭 **[!UICONTROL Create]**.
 
@@ -87,4 +87,3 @@ ht-degree: 0%
 >* [사용자 지정 세그먼트 만들기 및 구현](custom-segment-create.md)
 >* [만들기 및 구현 [!UICONTROL CCPA Opt-Out-of-Sale] 세그먼트](ccpa-opt-out-segment-create.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
-
