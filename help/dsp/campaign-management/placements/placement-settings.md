@@ -3,7 +3,7 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: caab8c3163a7ffdbc0b5ef28176b2ee73f83b6e8
+source-git-commit: 9586b743df5af61db81f781224bed28b02e0c4a8
 workflow-type: tm+mt
 source-wordcount: '3540'
 ht-degree: 0%
@@ -308,7 +308,9 @@ ht-degree: 0%
 **[!UICONTROL Excluded Audiences]:** 를 사용하는 대상을 포함하여 배치에 대해 제외할 모든 대상 [타사 세그먼트, 자사 세그먼트, Adobe 세그먼트, 사용자 지정 세그먼트 및 저장된 대상자](/help/dsp/audiences/audience-settings.md). 제외된 모든 대상에 걸쳐 중복 제거된 총 활성 대상 크기도 표시됩니다. 기존 대상을 선택하거나 나중에 다시 사용할 수 있는 새 대상을 만들 수 있습니다.
 
 * 기존 대상자를 선택하려면 ![선택](/help/dsp/assets/chevron-down.png) 다음에 [!UICONTROL Excluded Audiences]을 선택한 다음 대상자를 선택합니다.
+
 * 대상자를 만들려면 ![선택](/help/dsp/assets/chevron-down.png) 다음에 [!UICONTROL Excluded Audiences]을 선택한 다음 을 선택합니다 **+ 대상 만들기**. 자세한 내용은 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)3단계부터 시작합니다.
+
 * 특정 대상 세그먼트를 선택하려면 **[!UICONTROL Select segments for this placement only]**. 세그먼트 논리를 선택합니다. 자세한 내용은 의 6단계를 참조하십시오.[재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md).&quot; 완료되면 다음을 클릭합니다. **저장**.
 
 **[!UICONTROL Cross Device Targeting]:** (하나 이상의 세그먼트 또는 대상자를 선택하고 [campaign은 사용자 기반 교차 장치 타깃팅용으로 구성되었습니다.](/help/dsp/campaign-management/campaigns/campaign-settings.md). 지정한 세그먼트에 없는 장치도, 개인의 알려진 모든 장치(캠페인 설정에 지정된 장치 그래프에 따라)로 타깃팅을 확장할 수 있습니다. 캠페인에 대해 지정된 그래프에 따라 요금이 적용될 수 있습니다. 장치 그래프 데이터는 북미에서만 사용할 수 있습니다.
