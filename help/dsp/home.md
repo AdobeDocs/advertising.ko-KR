@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 17635ae4b61913d631ccb2a875ee550602831178
 workflow-type: tm+mt
-source-wordcount: '2744'
+source-wordcount: '2771'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ ht-degree: 0%
 >>
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024년 5월 2일 | 광고, 픽셀 | 다음 [!UICONTROL Ad Tools] 보기 > [!UICONTROL Attach Pixels] 탭에는 광고에 첨부된 서드파티 추적 픽셀이 표시되며, 하나 이상의 광고에 픽셀을 연결하고 기존 픽셀을 분리하는 새로운 워크플로우를 제공합니다. | 를 참조하십시오.[배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
+| 2024년 5월 2일 | 광고, 픽셀 | 캠페인에 있는 모든 광고에 대한 설정을 XLSX(Excel 스프레드시트) 형식으로 다운로드하여 다음에서 검토할 수 있습니다. [!UICONTROL Ad Tools] 보기. | 를 참조하십시오.[스프레드시트를 사용하여 광고 설정 검토](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
+| |  | 다음 [!UICONTROL Ad Tools] 보기 > [!UICONTROL Attach Pixels] 탭에는 광고에 첨부된 서드파티 추적 픽셀이 표시되며, 하나 이상의 광고에 픽셀을 연결하고 기존 픽셀을 분리하는 새로운 워크플로우를 제공합니다. | 를 참조하십시오.[배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 |  | 배치, 대상 | 이제 일괄 편집 도구 또는 배치 편집기를 통해 개별 대상 세그먼트나 재사용 불가능한 대상을 배치에서 제외할 수 있습니다. | 를 참조하십시오.[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md)&quot; 및 &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2024년 4월 18일 | 배치 | 이제 배치에 대해 지정된 대상 유형에 대해 입찰가를 곱해 입찰가를 늘리거나 줄이는 입찰 수정자를 생성하고 관리할 수 있습니다. 기본 입찰 수정자는 1.00으로, 증가 또는 감소가 없음을 의미합니다. 값의 범위는 0.10에서 10.00까지입니다. 예를 들어 입찰 수정자가 0.50이면 USD 6 입찰이 USD 3(0.50 x 6)으로 감소합니다. 경매가 여러 입찰 수정자를 사용할 수 있는 경우 적용 가능한 모든 입찰 수정자를 곱합니다. 입찰 수정자는 입찰가를 최대 입찰가 이상으로 증가시키지 않습니다. | 를 참조하십시오.[배치에 대한 입찰 승수 관리](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
 | 2024년 4월 3일 | 인벤토리 파트너 | 의 Adobe Advertising EU 좌석 [!DNL Google Authorized Buyers] 이(가) 기존 APAC 시트에 병합되었습니다. | 를 참조하십시오.[SSP 파트너](/help/dsp/inventory/ssp-partners.md).&quot; |
