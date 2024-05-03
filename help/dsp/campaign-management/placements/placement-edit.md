@@ -3,9 +3,9 @@ title: 배치 편집
 description: 배치를 편집하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,24 @@ ht-degree: 0%
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
+## 키 배치 설정을 빠르게 편집 {#placement-quick-edit}
+
+<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
+전체 배치 설정을 열지 않고도 배치 이름, 상태, 최대 입찰 및 예산을 편집할 수 있습니다.
+
+1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 캠페인의 이름을 클릭합니다.
+1. 하위 메뉴에서 **[!UICONTROL Placements]**.
+1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. 사용 가능한 항목 편집 [배치 설정](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, 및 **[!UICONTROL Budget]**.
+1. 클릭 **[!UICONTROL Apply]**.
+
 ## 단일 배치 편집
 
 >[!TIP]
 >
-> 배치 이름, 상태, 최대 입찰 및 예산만 편집하려면 다음을 참조하십시오.[키 배치 설정을 빠르게 편집](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
+> 배치 이름, 상태, 최대 입찰 및 예산만 편집하려면 다음을 참조하십시오.[키 배치 설정을 빠르게 편집](#placement-quick-edit).&quot;
 
 1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
 
@@ -77,7 +90,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [배치 관리 정보](placement-about.md)
->* [키 배치 설정을 빠르게 편집](placement-quick-edit.md)
+>* [스프레드시트를 사용하여 배치 설정 검토 및 수정](placement-qa.md)
 >* [배치 만들기](placement-create.md)
 >* [배치 복제](placement-duplicate.md)
 >* [배치에 대한 입찰 승수 관리](placement-manage-bid-multipliers.md)
@@ -87,5 +100,4 @@ ht-degree: 0%
 >* [배치 설정](placement-settings.md)
 >* [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [스프레드시트를 사용하여 배치 설정 수정 정보](/help/dsp/campaign-management/qa/qa-about.md)
 >* [비디오: 일괄 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

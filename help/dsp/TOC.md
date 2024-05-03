@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
+source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '897'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 3%
       + [배치 관리 정보](/help/dsp/campaign-management/placements/placement-about.md)
       + [배치 만들기](/help/dsp/campaign-management/placements/placement-create.md)
       + [배치 편집](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [키 배치 설정을 빠르게 편집](/help/dsp/campaign-management/placements/placement-quick-edit.md)
+      + [스프레드시트를 사용하여 배치 설정 검토 및 수정](/help/dsp/campaign-management/placements/placement-qa.md)
       + [배치 복제](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [배치에 대한 입찰 승수 관리](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -101,11 +101,6 @@ ht-degree: 3%
       + [배치 진단 보고서 보기](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [경고 보기](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [Campaign 데이터 보기 관리](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + 스프레드시트를 사용하여 배치 설정 수정 {#qa-spreadsheet}
-      + [스프레드시트를 사용하여 배치 설정 수정 정보](/help/dsp/campaign-management/qa/qa-about.md)
-      + [스프레드시트에서 배치 설정 다운로드](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [스프레드시트에서 배치 설정 업로드](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
-      + [다운로드/업로드된 스프레드시트의 열](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSP 매크로](/help/dsp/campaign-management/macros.md)
    + [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
    + [Campaign Management에 대한 FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
