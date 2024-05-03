@@ -3,9 +3,9 @@ title: 배치 편집
 description: 배치를 편집하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
+source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # 배치 편집
 
 단일 배치 또는 여러 배치에 대한 설정을 한 번에 편집할 수 있습니다.
+
+>[!NOTE]
+>
+>하나 이상의 배치에 대한 설정 또는 캠페인의 모든 배치에 대한 설정을 XLSX(Excel 스프레드시트) 형식으로 다운로드하고, 필드의 하위 집합을 변경하고, 모두 DSP에 한 번에 다시 업로드할 수도 있습니다. 를 참조하십시오.[스프레드시트를 사용하여 배치 설정 검토 및 수정](placement-qa.md).&quot;
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
