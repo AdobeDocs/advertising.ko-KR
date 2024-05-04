@@ -2,7 +2,7 @@
 title: 스프레드시트를 사용하여 광고 세부 정보 검토
 description: 스프레드시트를 사용하여 광고 설정 및 관련 배치를 포함하여 광고 세부 사항을 검토하는 방법에 대해 알아봅니다.
 feature: DSP Ads
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: fd197543d9f96bfb29784402a4510bd200888b60
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 스프레드시트를 사용하여 광고 세부 정보 검토
 
-XLSX(Excel 스프레드시트) 형식으로 캠페인에 있는 모든 광고에 대한 세부 정보를 다운로드하여 검토할 수 있습니다. 세부 사항에는 광고 설정 및 연결 배치가 포함됩니다.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
+XLSX(Excel 스프레드시트) 형식으로 캠페인에 있는 모든 광고에 대한 세부 정보를 다운로드하여 검토할 수 있습니다. 세부 사항에는 광고 설정 및 관련 배치가 포함됩니다.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
 
 >[!NOTE]
 >
