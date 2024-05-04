@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 3%
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [단일 광고 만들기](/help/dsp/campaign-management/ads/ad-create.md)
       + [여러 타사 광고 만들기](/help/dsp/campaign-management/ads/ad-create-multiple.md)
       + [광고 만들기 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
-      + [스프레드시트를 사용하여 광고 설정 검토](/help/dsp/campaign-management/ads/ad-qa.md)
+      + [스프레드시트를 사용하여 광고 세부 정보 검토](/help/dsp/campaign-management/ads/ad-qa.md)
       + [광고 편집](/help/dsp/campaign-management/ads/ad-edit.md)
       + [광고 복제](/help/dsp/campaign-management/ads/ad-duplicate.md)
       + [배치에 광고 첨부](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
