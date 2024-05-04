@@ -3,9 +3,9 @@ title: 연결된 TV 광고 설정
 description: 연결된 TV 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Pixel]
 
-배치에 대한 기존의 모든 이벤트 추적 픽셀은 자동으로 첨부됩니다. 개별 광고에 대한 추적 요구 사항을 기반으로 기존 픽셀을 분리하고 필요에 따라 새 픽셀을 만들 수 있습니다.
+배치에 대한 기존의 모든 이벤트 추적 픽셀은 자동으로 첨부됩니다. 개별 광고에 대한 추적 요구 사항을 기반으로 기존 픽셀을 분리하고 필요에 따라 새 픽셀을 만들 수 있습니다. **팁:** 를 사용하여 한 번에 배치의 여러 광고에 대한 서드파티 추적 픽셀을 편집하려면 다음과 같이 하십시오. [!UICONTROL Ad Tools] 보기, 참조 &quot;[배치에 있는 광고에 서드파티 추적 픽셀 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
 
 다음 설정은 사용자가 만들거나 편집하는 각 픽셀에 적용됩니다.
 
