@@ -2,9 +2,9 @@
 title: 스프레드시트를 사용하여 광고 설정 검토
 description: 스프레드시트를 사용하여 광고 설정을 검토하는 방법을 알아봅니다.
 feature: DSP Ads
-source-git-commit: ba940f8476463a6804f024b1597be74ffc5a6c0c
+source-git-commit: 24e6339d7217c02c993702e203acda362c25fd0e
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 XLSX(Excel 스프레드시트) 형식으로 캠페인에 있는 모든 광고에 대한 설정을 다운로드하여 검토할 수 있습니다.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
 
->[!TIP]
+>[!NOTE]
 >
->*광고 설정을 편집하려면 다음을 사용하십시오. [벌크 편집 기능](/help/dsp/campaign-management/ads/ad-edit.md).
+>*광고 설정을 편집하려면 다음을 참조하십시오 [광고 편집](/help/dsp/campaign-management/ads/ad-edit.md).
 >*한 번에 여러 광고에 대한 서드파티 추적 픽셀을 변경하거나 배치에 광고를 첨부하려면 &quot;[배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
 
 1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
