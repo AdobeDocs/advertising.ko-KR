@@ -3,9 +3,9 @@ title: 보고서 대상 설정
 description: 대상 유형별로 보고서 대상에 필요한 세부 정보를 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]:** 대상을 식별하는 데 도움이 되는 이름입니다.
 
-**[!UICONTROL S3 Bucket URL]:** 폴더의 전체 경로 [!DNL Amazon Simple Storage Service] (S3) 보고서를 업로드할 버킷입니다. 예: `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** 폴더의 전체 경로 [!DNL Amazon Simple Storage Service] (S3) 보고서가 업로드되는 버킷입니다. 예: `s3://dsp_account/reports`
 
 **[!UICONTROL Access Key ID]:** ( )에 대한 액세스 키 ID[!DNL Amazon S3]) 버킷(제공자 [!DNL Amazon]).
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **[!UICONTROL Password]:** 서버에 로그인할 암호입니다.
 
-**[!UICONTROL Path (Optional)]:** 파일을 업로드할 서버 경로입니다.
+**[!UICONTROL Path (Optional)]:** 파일이 업로드되는 서버 경로입니다.
 
 ## [!UICONTROL SFTP]
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 **[!UICONTROL Password]:** 서버에 로그인할 암호입니다.
 
-**[!UICONTROL Path (Optional)]:** 파일을 업로드할 서버 경로입니다.
+**[!UICONTROL Path (Optional)]:** 파일이 업로드되는 서버 경로입니다.
 
 ## [!UICONTROL FTP SSL]
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 **[!UICONTROL Password]:** 서버에 로그인할 암호입니다.
 
-**[!UICONTROL Path (Optional)]:** 파일을 업로드할 서버 경로입니다.
+**[!UICONTROL Path (Optional)]:** 파일이 업로드되는 서버 경로입니다.
 
 >[!MORELIKETHIS]
 >
@@ -76,4 +76,3 @@ ht-degree: 0%
 >* [만들기 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [편집 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [삭제 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-

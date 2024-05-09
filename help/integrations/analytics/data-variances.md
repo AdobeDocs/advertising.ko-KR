@@ -3,9 +3,9 @@ title: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Ado
 description: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3212'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Adobe Advertising과 간의 뷰스루 전환을 비교할 때 다음 차이점�
 
 #### Adobe Advertising의 이벤트 날짜 속성
 
-Adobe Advertising에서 연결된 클릭 날짜/이벤트 날짜(클릭 또는 노출 이벤트의 날짜) 또는 트랜잭션 날짜(전환 날짜)별로 전환 데이터를 보고할 수 있습니다. 클릭/이벤트 날짜 보고의 개념이에 없습니다. [!DNL Analytics]; 모든 전환에서 추적됨 [!DNL Analytics] 트랜잭션 날짜별로 보고됩니다. 그 결과, 동일한 전환이 Adobe Advertising 및 의 다른 날짜에 보고될 수 있습니다 [!DNL Analytics]. 예를 들어, 1월 1일에 광고를 클릭하고 1월 5일에 전환하는 사용자가 있다고 가정해 보겠습니다. Adobe Advertising에서 이벤트 날짜별 전환 데이터를 보고 있는 경우 클릭이 발생한 1월 1일에 전환이 보고됩니다. 위치 [!DNL Analytics], 동일한 전환이 1월 5일에 보고됩니다.
+Adobe Advertising에서 연결된 클릭 날짜/이벤트 날짜(클릭 또는 노출 이벤트의 날짜) 또는 트랜잭션 날짜(전환 날짜)별로 전환 데이터를 보고할 수 있습니다. 클릭/이벤트 날짜 보고의 개념이에 없습니다. [!DNL Analytics]; 모든 전환에서 추적됨 [!DNL Analytics] 트랜잭션 날짜별로 보고됩니다. 그 결과, 동일한 전환이 Adobe Advertising 및 의 다른 날짜에 보고될 수 있습니다 [!DNL Analytics]. 예를 들어, 1월 1일에 광고를 클릭하고 1월 5일에 전환하는 사용자가 있다고 가정해 보겠습니다. Adobe Advertising에서 이벤트 날짜별 전환 데이터를 보고 있는 경우 전환이 클릭이 발생한 1월 1일에 보고됩니다. 위치 [!DNL Analytics], 동일한 전환이 1월 5일에 보고됩니다.
 
 ![다른 날짜에 속하는 전환의 예](/help/integrations/assets/a4adc-conversions-based-on.png)
 
@@ -240,7 +240,7 @@ Adobe Advertising은 Analytics에 [광고 특정 트래픽 지표 및 관련 차
 
 ![Adobe Advertising 차원을 사용한 보고서의 Adobe Advertising 지표 예](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-그러나 를 보는 경우에는 [!UICONTROL Adobe Advertising Clicks] 및 [!UICONTROL Adobe Advertising Cost] Adobe Advertising이 데이터를 제공하지 않는 페이지 내 차원(예: 페이지)별 지표 [!UICONTROL Adobe Advertising Clicks] 및 [!UICONTROL Adobe Advertising Cost] 각 페이지의 값은 0이 됩니다.
+그러나 를 보는 경우에는 [!UICONTROL Adobe Advertising Clicks] 및 [!UICONTROL Adobe Advertising Cost] Adobe Advertising이 데이터를 제공하지 않는 페이지 내 차원(예: 페이지)별 지표 [!UICONTROL Adobe Advertising Clicks] 및 [!UICONTROL Adobe Advertising Cost] 각 페이지의 값은 0(영)입니다.
 
 ![지원되지 않는 차원을 사용하는 보고서의 Adobe Advertising 지표의 예](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 

@@ -3,9 +3,9 @@ title: 광고 설정 표시
 description: 디스플레이 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 **[!UICONTROL Certified Vendors]:** (확장 가능한 타사 배너 광고만 해당) 광고를 사용할 수 있는 인증된 공급업체: *[!UICONTROL DCM]* ([!DNL Google DoubleClick for Advertisers]), *[!UICONTROL Flashtalking]*, *[!UICONTROL Sizmek]*, 또는 *[!UICONTROL Jivox]*.
 
-**[!UICONTROL Display Code]:** (타사 광고만 해당) 타사 광고 자산의 URL입니다. 임의 [timestamp] 및 [[timestamp]] 매개 변수가 실제 값으로 대체됩니다.
+**[!UICONTROL Display Code]:** (타사 광고만 해당) 타사 광고 자산의 URL입니다. 임의 [timestamp] 및 [[timestamp]] 매개 변수는 실제 값으로 대체됩니다.
 
 **[!UICONTROL Final Display Code]:** (타사 광고만 해당) 타사 크리에이티브 에셋의 URL로서 필요한 경우 [Advertising DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 해당하는 경우 삽입됩니다.
 

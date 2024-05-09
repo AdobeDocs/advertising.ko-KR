@@ -3,9 +3,9 @@ title: 캠페인 설정
 description: 사용 가능한 캠페인 설정에 대한 설명을 참조하십시오.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -78,16 +78,15 @@ ht-degree: 0%
 >
 >* 계정의 수수료 설정에서 이러한 값을 구성할 수도 있습니다.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-
 **[!UICONTROL Cross Device Level]:** (2020년 6월 22일 이후에 생성된 기존 캠페인에 대한 읽기 전용, 2020년 6월 22일 이전에 생성된 캠페인에 대해서는 사용할 수 없음) DSP이 광고를 타깃팅하고 빈도 상한을 적용하는 수준: *동일한 장치* 장치를 타깃팅하거나 *사람* 알려진 모든 장치에서 사용자를 타겟팅할 수 있습니다.
 
-**[!UICONTROL Device Graph]:** (기존 캠페인의 경우 읽기 전용, 사람 기반 크로스 디바이스 타깃팅만 있는 캠페인) 크로스 디바이스 타깃팅 및 빈도 관리에 사용할 디바이스 그래프:
+**[!UICONTROL Device Graph]:** (기존 캠페인의 읽기 전용, 사람 기반 크로스 디바이스 타깃팅만 있는 캠페인) 크로스 디바이스 타깃팅 및 빈도 관리에 사용할 디바이스 그래프:
 
 * *[!UICONTROL LiveRamp - U.S. only]:* 를 사용하여 게재하는 노출에 대해 $0.35 CPM으로 모든 광고주가 크로스 디바이스 타깃팅에 사용할 수 있습니다. [!DNL LiveRamp] 장치 그래프(타겟팅된 대상 세그먼트 내에서 찾을 수 없는 장치의 경우). 배치 수준에서 크로스 디바이스 타깃팅을 설정할 수 있습니다.
 
-   이 옵션은 또한 모든 광고주가 빈도 관리 및 속성 측정을 위해 수수료 없이 사용할 수 있습니다.
+  이 옵션은 또한 모든 광고주가 빈도 관리 및 속성 측정을 위해 수수료 없이 사용할 수 있습니다.
 
-**[!UICONTROL Frequency Cap]:** (선택 사항) 고유 장치 또는 개인 횟수(지정된 횟수에 따라 다름) [!UICONTROL Cross Device Level])은 캠페인에서 광고를 제공합니다. 옵션은 다음과 같습니다 *[!UICONTROL Unlimited]* 또는 일별, 주별, 월별 특정 금액입니다.
+**[!UICONTROL Frequency Cap]:** (선택 사항) 고유 장치 또는 개인 횟수(지정된 횟수에 따라 다름) [!UICONTROL Cross Device Level])는 캠페인에서 광고를 제공할 수 있습니다. 옵션은 다음과 같습니다 *[!UICONTROL Unlimited]* 또는 일별, 주별, 월별 특정 금액입니다.
 
 >[!NOTE]
 >
@@ -109,9 +108,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Measure On]:** 측정할 재고: *[!UICONTROL Display and VPAID video inventory]* (기본값) 또는 *[!UICONTROL Display, VPAID & VAST video inventory]*.
 
-   >[!NOTE]
-   >
-   >비디오 보기는 VPAID 인벤토리에서만 측정할 수 있습니다.
+  >[!NOTE]
+  >
+  >비디오 보기는 VPAID 인벤토리에서만 측정할 수 있습니다.
 
 * **[!UICONTROL IAS Account ID (AnID)]:** (자체 광고주 [!DNL IAS] 계정(선택 사항) 조직의 [!DNL IAS] 계정 ID, [!DNL IAS] 은 사용량에 대해 직접 청구합니다.
 
@@ -151,4 +150,3 @@ ht-degree: 0%
 >* [캠페인 만들기](campaign-create.md)
 >* [캠페인 편집](campaign-edit.md)
 >* [캠페인에 대한 변경 로그 보기](campaign-change-log.md)
-

@@ -3,9 +3,9 @@ title: 거래 ID 세부 정보 수동으로 만들기
 description: 거래 ID에 대한 세부 사항을 수동으로 입력하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
       1. (선택 사항) [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)( 거래의 CPM 값으로 자동으로 채워지는 기본 입찰의 덮어쓰기, 날짜 범위 변경 또는 더 많은 광고 첨부 포함).
 
-      이 거래는 재고 Target 섹션에서 자동으로 타기팅됩니다. 다른 모든 타깃팅 옵션은 적용할 수 없습니다.
+      이 거래는 재고 목표 섹션에서 자동으로 타깃팅됩니다. 다른 모든 타깃팅 옵션은 적용할 수 없습니다.
 
       1. 클릭 **[!UICONTROL Create placement]**.
 

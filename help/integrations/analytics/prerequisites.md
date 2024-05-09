@@ -3,9 +3,9 @@ title: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics f
 description: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Adobe Advertising을 Adobe Analytics과 통합하기 전에 다음 정보를 검
 
 Adobe Advertising 구현 팀에 다음 사항을 제공합니다.
 
-* 다음 [!DNL Analytics] 유료 미디어 활동에 대한 보고 및 Adobe Advertising에서의 최적화 및 보고를 위한 사이트 활동 피딩에 사용될 보고서 세트 ID
+* 다음 [!DNL Analytics] 유료 미디어 활동에 대한 보고 및 Adobe Advertising에서의 최적화 및 보고를 위한 사이트 활동 피딩에 사용할 보고서 세트 ID
 * 회사의 Experience Cloud 조직 ID(조직 ID).
 
 다음 페이지에서 이 ID를 모두 찾을 수 있습니다. [Adobe Experience Cloud Debugger의 요약 탭](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).

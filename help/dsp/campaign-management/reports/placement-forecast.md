@@ -3,9 +3,9 @@ title: 배치 예측 보고서 보기
 description: 배치에 대한 특정 타겟팅 전략에 대해 예측된 노출 횟수, 지출 횟수 및 최적 최대 입찰가 를 참조하십시오.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 2ecf1eacb2a47c20e0c05f9ff62386869b644ba6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
 
    * 배치는 캠페인에 새 광고 유형을 사용합니다.
 
-     배치는 일반적으로 공급측 플랫폼에 정의된 여러 광고 템플릿의 컬렉션입니다. 따라서 배치가 오래 존재하더라도 기본 광고 템플릿이 새로 생성될 수 있으며 예측 도구는 예측할 수 없습니다.
+     배치는 일반적으로 공급측 플랫폼에 정의된 여러 광고 템플릿의 컬렉션입니다. 따라서 배치가 오래 존재하더라도 기본 광고 템플릿이 새로운 경우 예측 도구에서 예측을 생성할 수 없습니다.
 
 ## 배치 예측 보고서 열기
 

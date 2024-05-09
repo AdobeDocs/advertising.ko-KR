@@ -3,9 +3,9 @@ title: 비공개 거래에 대한 배치 및 광고 지정
 description: 추가 배치 및 광고를 통해 비공개 거래를 사용하는 방법에 대해 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       1. 클릭 **[!UICONTROL Create placement]**.
 
-게시자가 PG 거래 ID를 활성화하면 배치 실행이 시작됩니다.
+게시자가 PG 거래 ID를 활성화하면 배치가 실행됩니다.
 
 >[!NOTE]
 >

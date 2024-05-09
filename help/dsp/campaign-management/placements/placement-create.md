@@ -3,9 +3,9 @@ title: 배치 만들기
 description: 배치를 만드는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
 
-1. 배치가 포함될 캠페인의 이름을 클릭합니다.
+1. 배치를 포함할 캠페인의 이름을 클릭합니다.
 
 1. 데이터 테이블 위에서 **[!UICONTROL Create]**. 다음에서 [!UICONTROL Placement Types] 메뉴의 섹션에서 배치 유형을 클릭합니다.
 

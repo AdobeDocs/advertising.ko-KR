@@ -3,9 +3,9 @@ title: 오디오 광고 설정
 description: 오디오 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**: VAST 태그 URL.
 
-**[!UICONTROL Title]**: 다음에 사용될 파일 이름 [!UICONTROL Ads] 및 보고서를 봅니다.
+**[!UICONTROL Title]**: 다음에 사용되는 파일 이름 [!UICONTROL Ads] 및 보고서를 봅니다.
 
 >[!TIP]
 >

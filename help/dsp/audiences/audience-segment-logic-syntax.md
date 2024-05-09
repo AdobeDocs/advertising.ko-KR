@@ -3,9 +3,9 @@ title: 대상 세그먼트 논리 구문
 description: 대상 세그먼트에 대한 논리를 정의하는 데 사용할 수 있는 구문을 참조하십시오.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->배치 설정에서 저장된 대상을 명시적으로 타깃팅할 대상으로 사용하거나 타깃팅에서 제외할 별도의 대상으로 사용할 수 있습니다. 세그먼트 논리가 대상자를 사용할 목적을 반영하는지 확인하십시오.
+>배치 설정에서 저장된 대상을 명시적으로 타깃팅할 대상으로 사용하거나 타깃팅에서 제외할 별도의 대상으로 사용할 수 있습니다. 세그먼트 논리가 대상자 사용의 목적을 반영하는지 확인하십시오.
 
 >[!MORELIKETHIS]
 >

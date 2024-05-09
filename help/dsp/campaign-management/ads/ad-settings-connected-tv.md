@@ -3,9 +3,9 @@ title: 연결된 TV 광고 설정
 description: 연결된 TV 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**: VAST 태그 URL.
 
-**[!UICONTROL Title]**: 광고 보기 및 보고서에서 사용할 파일 이름입니다.
+**[!UICONTROL Title]**: 광고 보기 및 보고서에 사용되는 파일의 이름입니다.
 
 >[!TIP]
 >

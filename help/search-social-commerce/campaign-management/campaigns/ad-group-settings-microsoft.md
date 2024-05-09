@@ -3,7 +3,7 @@ title: '[!DNL Microsoft® Advertising] 광고 그룹 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 광고 그룹.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 2407d29fb4061e6b3181b86c335c52a8384c4ca3
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/custom-parameters.md}}
 
-**[!UICONTROL Adgroup Frequency Cap Settings]:** (선택 사항) 고객이 광고 그룹에서 광고를 받을 횟수입니다. 값을 입력하고 시간 단위(*[!UICONTROL Hour]*, *[!UICONTROL Day]*, 또는 *[!UICONTROL Week]*).
+**[!UICONTROL Adgroup Frequency Cap Settings]:** (선택 사항) 고객이 광고 그룹에서 광고를 받을 수 있는 횟수입니다. 값을 입력하고 시간 단위(*[!UICONTROL Hour]*, *[!UICONTROL Day]*, 또는 *[!UICONTROL Week]*).
 
 ## [!UICONTROL Negative Keywords]
 

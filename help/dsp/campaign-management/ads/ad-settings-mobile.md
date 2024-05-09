@@ -3,9 +3,9 @@ title: 모바일 광고 설정
 description: 모바일 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **\[광고 소스\]**: (읽기 전용) *[!UICONTROL 3rd party]*.
 
-**[!UICONTROL Display Code]:** 서드파티 크리에이티브 에셋의 URL. 임의 [timestamp] 및 [[timestamp]] 매개 변수가 실제 값으로 대체됩니다.
+**[!UICONTROL Display Code]:** 서드파티 크리에이티브 에셋의 URL. 임의 [timestamp] 및 [[timestamp]] 매개 변수는 실제 값으로 대체됩니다.
 
 **[!UICONTROL Final Display Code]:** 필요한 타사 크리에이티브 에셋의 URL [Advertising DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 해당하는 경우 삽입됩니다.
 

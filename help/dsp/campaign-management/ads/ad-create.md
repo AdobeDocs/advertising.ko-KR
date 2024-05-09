@@ -3,9 +3,9 @@ title: 단일 광고 만들기
 description: 단일 타사 광고를 만드는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 4af30f6fa6a81ce7f1a6879244178c84580caa0f
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
 
-1. 광고가 포함될 캠페인의 이름을 클릭합니다.
+1. 광고를 포함할 캠페인의 이름을 클릭합니다.
 
 1. 데이터 테이블 위에서 **[!UICONTROL Create]**. 다음에서 [!UICONTROL Ad Types] 메뉴의 섹션에서 [광고 유형](ad-about.md#ad-types).
 
@@ -55,4 +55,3 @@ ht-degree: 0%
 >* [광고 편집](ad-edit.md)
 >* [광고 사양](ad-specs.md)
 >* [범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md)
-

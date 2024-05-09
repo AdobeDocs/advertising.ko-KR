@@ -3,9 +3,9 @@ title: 여러 타사 광고 만들기
 description: 한 번에 여러 타사 광고를 만드는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 5139e6022cd5f5f11046d8f38bd0f1db91464928
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
 
-1. 광고가 포함될 캠페인의 이름을 클릭합니다.
+1. 광고를 포함할 캠페인의 이름을 클릭합니다.
 
 1. 데이터 테이블 위에서 **[!UICONTROL Create]**. 메뉴의 광고 유형 섹션에서 **[!UICONTROL Bulk upload ads]**.
 
@@ -79,4 +79,3 @@ ht-degree: 0%
 >* [단일 광고 만들기](ad-create.md)
 >* [비디오: 서드파티 광고 태그를 대량 업로드하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* [범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md)
-

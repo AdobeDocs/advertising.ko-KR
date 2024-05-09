@@ -3,9 +3,9 @@ title: 프로그램 보증 거래 설정
 description: 게시자와 협상한 프로그램 보증 거래(PG)를 설정하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: f887524a22dd5d665dcfc38b1a4ce2a1242638d7
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. [거래 수락](deal-id-inbox-accept.md).
 
-1. 거래를 저장한 후 거래에 사용할 광고(또는 게시자 관리 광고의 1x1 추적 픽셀)를 선택하고 프롬프트가 표시되면 프로그램 보증 기본 배치(PG)를 만듭니다.
+1. 거래를 저장한 후 거래에 사용할 광고(또는 게시자 관리 광고의 1x1 추적 픽셀)를 선택하고 메시지가 표시되면 프로그램 보증 기본 배치(PG)를 만듭니다.
 
    구매의 100%를 게재하려면 거래에 대한 기본 PG 배치를 생성해야 합니다. 이 배치 유형에는 타깃팅이 없으므로 DSP은 게시자의 모든 입찰 요청에 입찰을 반환할 수 있습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    * 여러 PG 거래 ID가 있는 제안을 수락하는 경우 생성해야 하는 각 PG 기본 배치를 식별합니다. 필요한 배치를 모두 만들면 계속 버튼이 활성화됩니다.
 
-1. (선택 사항) 를 클릭하여 추가 PG 또는 비 PG 배치에서 PG 거래를 Target ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
+1. (선택 사항) 을 클릭하여 추가 PG 또는 비 PG 배치에서 PG 거래를 타깃팅합니다. ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
    거래는 미디어 유형(예: 연결된 TV, 데스크탑 및 오디오)의 조합을 지원하는 여러 배치를 타깃팅할 수 있습니다.
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    구매의 100%를 게재하려면 거래에 대한 PG 기본 배치를 생성해야 합니다. 이 배치 유형에는 타깃팅이 없으므로 DSP은 게시자의 모든 입찰 요청에 입찰을 반환할 수 있습니다.
 
-1. (선택 사항) 를 클릭하여 추가 PG 또는 비 PG 배치에서 PG 거래를 Target ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
+1. (선택 사항) 을 클릭하여 추가 PG 또는 비 PG 배치에서 PG 거래를 타깃팅합니다. ![옵션 메뉴](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
    거래는 미디어 유형(예: 연결된 TV, 데스크탑 및 오디오)의 조합을 지원하는 여러 배치를 타깃팅할 수 있습니다.
 

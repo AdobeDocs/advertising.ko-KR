@@ -3,9 +3,9 @@ title: 용 JavaScript 코드 [!DNL Analytics for Advertising]
 description: 용 JavaScript 코드 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: d591388a956adf41882b0bfdd5f74c5a07837657
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -84,13 +84,13 @@ JavaScript 라이브러리는 [!DNL Analytics] 및 Adobe Advertising을 사용�
 
    ![필터링 `/b/ss`](/help/integrations/assets/a4adc-code-validation-filter-bss.png)
 
-1. (Experience Platform을 사용하는 구현 [!DNL Web SDK] `alloy.js`코드) 필터링 기준 `/interact` Edge Network에 대한 요청 페이로드에 다음이 포함되어 있는지 확인 `advertisingStitchID`.
+1. (Experience Platform을 사용하는 구현 [!DNL Web SDK] `alloy.js`코드) 필터링 기준 `/interact` Edge Network에 대한 요청 페이로드에 `advertisingStitchID`.
 
    ![필터링 `/interact`](/help/integrations/assets/a4adc-code-validation-filter-interact.png)
 
-1. 두 히트 간의 ID 값을 비교합니다. 모든 값은 바로 다음 URL 경로인 Analytics 히트에서 보고서 세트 ID를 제외한 쿼리 문자열 매개 변수에 포함됩니다 `/b/ss/`.
+1. 두 히트 간의 ID 값을 비교합니다. 모든 값은 바로 다음 URL 경로인 Analytics 히트에서 보고서 세트 ID를 제외한 쿼리 문자열 매개 변수에 있어야 합니다 `/b/ss/`.
 
-   | ID | Analytics 매개변수 | 에지 네트워크 | Adobe Advertising 매개 변수 |
+   | ID | Analytics 매개변수 | Edge Network | Adobe Advertising 매개 변수 |
    | --- | --- | --- | --- |
    | Experience Cloud IMS 조직 | `mcorgid` |  | `_les_imsOrgid` |
    | 보조 데이터 ID | sdid |  | `_les_sdid` |

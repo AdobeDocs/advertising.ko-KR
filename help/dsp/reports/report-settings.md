@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Conversion Timestamp]:* (기본값) 전환은 전환 날짜와 연결됩니다.
 
-* *[!UICONTROL Event Timestamp]:* 전환은 지정된 방법에 따라 전환을 발생시킨 노출 또는 클릭 날짜를 기준으로 보고됩니다 [!UICONTROL Attribution Rule Settings].
+* *[!UICONTROL Event Timestamp]:* 전환은 지정된 방법에 따라 전환을 발생시킨 노출 또는 클릭의 날짜를 기준으로 보고됩니다 [!UICONTROL Attribution Rule Settings].
 
 ## [!UICONTROL Add Report Destinations] 섹션
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 **[!UICONTROL Email]:** (이메일 대상 유형만 해당) 각 주소에 대해 주소를 입력하고 **+**.
 
-**[!UICONTROL Destination Name]:** (S3, FTP, sFTP 및 FTP SSL 대상 유형만 해당) 사용자 정의 보고서를 전송할 보고서 대상의 이름입니다.
+**[!UICONTROL Destination Name]:** (S3, FTP, sFTP 및 FTP SSL 대상 유형만 해당) 사용자 정의 보고서가 전송되는 보고서 대상의 이름입니다.
 
 * 기존 대상을 지정하려면 목록에서 대상 이름을 선택합니다. 여러 대상 이름을 별도로 선택할 수 있습니다.
 
