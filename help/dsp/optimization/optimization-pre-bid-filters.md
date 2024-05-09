@@ -3,9 +3,9 @@ title: 배치 수준 사전 입찰 필터 및 사용 방법
 description: 사용 가능한 배치 수준의 사전 입찰 필터를 참조하고 사용 방법을 확인하십시오.
 feature: DSP Optimization
 exl-id: 34a15666-7ca2-416d-9064-8638ca81e5b3
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 | 사전 입찰 필터 | 설명 | 이 필터 사용 시기 |
 | ---------------| ----------- | ---------------------- |
-| [!UICONTROL Click Through Rate] | 경매에서 클릭스루가 발생할 확률에 대한 최소 예측 임계값을 설정합니다. 예를 들어 임계값을 0.1%로 설정하면 예측된 클릭 확률이 0.1%보다 크거나 같지 않으면 경매에 입찰하지 않습니다.<br><br><b>참고:</b> 최적화 목표 이전에 필터가 적용됩니다. 그 결과, 매우 엄격한 필터가 소비를 방지할 수 있습니다. | CTR(클릭스루 비율)에 대한 최소 KPI 목표가 있고 CTR이 임계값 이하일 때 예산을 지출하지 않으려는 경우 사용합니다. 이 필터는 상당히 제한적일 수 있으므로 현실적인 목표를 설정하는 것이 중요합니다. 배치에 대한 다른 제약에 따라, 일반적으로 0.03-.07%라는 목표는 좋은 시작점이다. 필요한 경우 사이트 수준에서 이를 최적화하여 지표를 개선할 수 있습니다.<br><br>최소 CTR과 최상의 CPM을 달성하는 것이 목표라면 권장되는 설정은 [!UICONTROL Click Through Rate] 최적화 목표를 사용하여 필터링 &quot;[!UICONTROL Lowest CPM].&quot; 목표를 초과 달성에 대한 실제 이점이 없는 최대 CPM과 최소 CTR인 경우 [!UICONTROL Click Through Rate] 최적화 목표를 사용하여 필터링 &quot;[!UICONTROL Always Max Bid + Highest CTR]보다 적절할 수 있습니다. |
+| [!UICONTROL Click Through Rate] | 경매로 인해 클릭스루가 발생할 가능성에 대한 최소 예측 임계값을 설정합니다. 예를 들어 임계값을 0.1%로 설정하면 예측된 클릭 확률이 0.1%보다 크거나 같은 경우에만 경매에 입찰합니다.<br><br><b>참고:</b> 최적화 목표 이전에 필터가 적용됩니다. 그 결과, 매우 엄격한 필터가 소비를 방지할 수 있습니다. | CTR(클릭스루 비율)에 대한 최소 KPI 목표가 있고 CTR이 임계값 이하일 때 예산을 지출하지 않으려는 경우 사용합니다. 이 필터는 상당히 제한적일 수 있으므로 현실적인 목표를 설정하는 것이 중요합니다. 배치에 대한 다른 제약에 따라, 일반적으로 0.03-.07%라는 목표는 좋은 시작점이다. 필요한 경우 사이트 수준에서 이를 최적화하여 지표를 개선할 수 있습니다.<br><br>최소 CTR과 최상의 CPM을 달성하는 것이 목표라면 권장되는 설정은 [!UICONTROL Click Through Rate] 최적화 목표를 사용하여 필터링 &quot;[!UICONTROL Lowest CPM].&quot; 목표를 초과 달성에 대한 실제 이점이 없는 최대 CPM과 최소 CTR인 경우 [!UICONTROL Click Through Rate] 최적화 목표를 사용하여 필터링 &quot;[!UICONTROL Always Max Bid + Highest CTR]보다 적절할 수 있습니다. |
 | [!UICONTROL 100% Completion Rate] | 노출에 입찰하기 전에 충족해야 하는 필수 최소 완료율을 설정합니다. | 캠페인의 주요 목표가 완료율일 때 이 필터를 사용합니다. 다른 타깃팅 매개 변수를 고려하지만 65%가 권장 시작 백분율입니다. |
 | [!UICONTROL Player Size - Adobe] | DSP의 데이터를 사용하여 필요한 최소 플레이어 크기를 설정합니다. 다음 경우에 노출을 입찰합니다. [!UICONTROL Player Size] 임계값이 충족되었습니다. | DSP의 데이터를 사용하여 전체 에피소드 플레이어 인벤토리를 제공하고 있는지 확인하는 데 사용합니다. |
 | [!UICONTROL Player Size 3rdParty (Moat/IAS)] | 의 데이터를 사용하여 필요한 최소 플레이어 크기를 설정합니다. [!DNL Moat] 또는 [!DNL Integral Ad Science] ([!DNL IAS]). 다음 경우에 노출을 입찰합니다. [!UICONTROL Player Size] 임계값이 충족되었습니다. | 플랫폼 전체에서 사용하는 전체 에피소드 플레이어 인벤토리를 제공하는 데 사용합니다. [!DNL Moat] 또는 [!DNL IAS] 데이터.<br><br><b>참고:</b> 캠페인이 을 사용하도록 구성된 경우에만 이 필터를 사용합니다. [!DNL Moat] 또는 [!DNL IAS] 데이터. |
@@ -29,4 +29,3 @@ ht-degree: 0%
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [캠페인 설정](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [최적화 목표 및 사용 방법](optimization-goals.md)
-

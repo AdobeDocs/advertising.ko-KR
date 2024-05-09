@@ -3,9 +3,9 @@ title: Advertising DSP의 Campaign Management 개요
 description: 캠페인 관리 계층 및 구성 요소에 대해 알아봅니다.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ A [배치](/help/dsp/campaign-management/placements/placement-about.md) 동일�
 
 [광고](/help/dsp/campaign-management/ads/ad-about.md) creative 에셋 및 추적 URL을 포함합니다. 파트너 태그 시트 또는 벌크 태그 템플릿을 사용하여 타사 광고 서비스 태그를 개별적으로 또는 대량으로 업로드할 수 있습니다. DSP에서 제공할 기본 디스플레이 광고를 수동으로 만들 수도 있습니다.
 
-광고가 설정되면 각 광고를 배치에 첨부해야 합니다. 하나 이상의 배치에 단일 광고를 첨부할 수 있습니다.
+광고가 설정되면 광고 실행을 시작하려면 각 광고를 배치에 첨부해야 합니다. 하나 이상의 배치에 단일 광고를 첨부할 수 있습니다.
 
 활성 캠페인의 활성 게재에 있는 모든 활성 상태의 승인된 광고는 게재 타깃팅 매개 변수를 기반으로 실행할 수 있습니다.
 

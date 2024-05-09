@@ -3,9 +3,9 @@ title: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Ado
 description: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '3217'
+source-wordcount: '3216'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Adobe Advertising에서 연결된 클릭 날짜/이벤트 날짜(클릭 또는 �
 
 Adobe Advertising 보고서는 Adobe Advertising을 통해 거래되는 유료 미디어만 캡처합니다(유료 검색 대상 [!DNL Advertising Search, Social, & Commerce] 광고 및 Advertising DSP 광고용 디스플레이), [!DNL Marketing Channels] 보고서는 모든 디지털 채널을 추적할 수 있습니다. 이로 인해 전환이 속하는 채널이 불일치할 수 있습니다.
 
-예를 들어 유료 검색과 자연어 검색 채널은 각 채널이 상대방을 돕는 공생 관계를 맺는 경우가 많다. 다음 [!DNL Marketing Channels] 보고서는 자연어 검색을 추적하지 않으므로 Adobe Advertising이 전환하지 않는 자연어 검색에 일부 전환을 사용합니다.
+예를 들어 유료 검색과 자연어 검색 채널은 각 채널이 상대방을 돕는 공생 관계를 맺는 경우가 많다. 다음 [!DNL Marketing Channels] 보고서는 자연어 검색을 추적하지 않기 때문에 Adobe Advertising이 하지 않는 자연어 검색에 대한 일부 전환을 기여합니다.
 
 디스플레이 광고를 보고, 유료 검색 광고를 클릭하고, 이메일 메시지 내부를 클릭한 다음, 30 USD 주문을 하는 고객도 생각해 보십시오. Adobe Advertising 및 [!DNL Marketing Channels] 두 가지 모두 마지막 터치 속성 모델을 사용하므로 전환은 여전히 각각에 대해 다르게 분류됩니다. Adobe Advertising에게 다음에 대한 액세스 권한이 없습니다. [!UICONTROL Email] 채널에 포함되므로 전환에 대해 유료 검색을 크레딧합니다. [!DNL Marketing Channels]하지만 은 세 채널 모두에 액세스할 수 있으므로 크레딧이 제공됩니다 [!UICONTROL Email] 변환용.
 

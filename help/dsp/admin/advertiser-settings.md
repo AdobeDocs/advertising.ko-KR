@@ -2,9 +2,9 @@
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
 role: User, Admin
-source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->다음을 선택하는 경우 *[!UICONTROL Other]*&#x200B;를 입력하면 광고주가 DSP에 액세스할 수 없습니다 [!DNL On Demand Inventory].
+>다음을 선택하는 경우 *[!UICONTROL Other]*&#x200B;을 지정하면 광고주가 DSP에 액세스할 수 없습니다 [!DNL On Demand Inventory].
 
 **[!UICONTROL Advertiser URL]:** 광고주의 홈페이지 또는 기본 웹 사이트 URL(다음으로 시작) `http://` 또는 `https://`).
 

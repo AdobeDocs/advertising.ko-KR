@@ -4,9 +4,9 @@ description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값,
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 80072930c0506a017a927ce53eaad900a2642e92
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Adobe Advertising을 위해 데이터에 액세스하고 삭제를 요청하려�
 
 1. 다음 중 하나를 사용합니다. [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (자동화된 요청의 경우) 또는 [PRIVACY SERVICE UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko-KR) (임시 요청의 경우) 데이터 주체를 대신하여 Adobe Advertising에 액세스 및 삭제 요청을 제출하고 기존 요청의 상태를 확인합니다.
 
-   데이터 주체와 상호 작용하고 DSP으로 캠페인을 시작할 수 있는 모바일 앱이 있는 광고주의 경우 Experience Cloud을 위해 개인 정보 보호 지원 Mobile SDK를 다운로드해야 합니다. Mobile SDK를 사용하면 데이터 제어자가 옵트아웃 상태 플래그를 설정하고 데이터 주체의 장치 ID(네임스페이스 ID: `deviceID`)를 참조하고 Privacy Service API에 요청을 제출하십시오. 모바일 앱에는 SDK 버전 4.15.0 이상이 필요합니다.
+   데이터 주체와 상호 작용하고 DSP으로 캠페인을 시작하는 모바일 앱이 있는 광고주의 경우 Experience Cloud을 위해 Privacy-ready Mobile SDK를 다운로드해야 합니다. Mobile SDK를 사용하면 데이터 제어자가 옵트아웃 상태 플래그를 설정하고 데이터 주체의 장치 ID(네임스페이스 ID: `deviceID`)를 참조하고 Privacy Service API에 요청을 제출하십시오. 모바일 앱에는 SDK 버전 4.15.0 이상이 필요합니다.
 
    데이터 주체의 액세스 요청을 제출하면 Privacy Service API는 지정된 쿠키 또는 장치 ID를 기반으로 데이터 주체의 정보를 반환한 다음 데이터 주체에게 반환해야 합니다.
 
