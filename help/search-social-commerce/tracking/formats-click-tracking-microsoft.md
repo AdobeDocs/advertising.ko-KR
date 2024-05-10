@@ -1,18 +1,18 @@
 ---
 title: 클릭 추적 형식 [!DNL Microsoft Advertising]
 description: 의 클릭 추적 형식에 대해 알아봅니다. [!DNL Microsoft Advertising] 계정.
-exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
+exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
 
 # 클릭 추적 형식 [!DNL Microsoft Advertising]
 
-다음은 검색, 소셜 및 상거래에 필요한 기본 추적 템플릿과 랜딩 페이지 접미사(최종 URL 접미사) 형식입니다 [!DNL Microsoft Advertising].
+다음은 검색, 소셜 및 Commerce에서 필요로 하는 기본 추적 템플릿과 랜딩 페이지 접미사(최종 URL 접미사) 형식입니다 [!DNL Microsoft Advertising].
 
 ## 템플릿 형식 추적
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 >
 >* `{TargetId}` 는 a) 키워드 또는 b) 광고를 트리거한 키워드 및 리마케팅 목록(대상)의 ID를 나타냅니다(예: 키워드 및 리마케팅 목록 모두에 대해 &quot;kwd-123:aud-456&quot; 또는 키워드에만 &quot;kwd-123&quot;).
 >
->* (선택 사항) 계정, 캠페인, 광고 그룹 또는 제품 그룹 수준에서 추적 템플릿을 입력하는 대신 [!DNL Microsoft Merchant Center] 계정입니다. 이렇게 하려면 의 값과 함께 추적 URL을 포함합니다.`link`&quot; 또는 &quot;`mobile_link`&quot;사용자 정의 열의 해당 필드&quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot;를 입력합니다. 의 값`bingads_redirect`&quot;필드가 &quot;&quot;의 값을 대체합니다.`link`&quot; 및 &quot;`mobile_link`&quot; 필드. 이 방법을 사용하여 생성된 URL에는 검색, 소셜 및 상거래 계정 또는 캠페인 설정에 지정된 추적 매개 변수가 포함되지 않습니다.
+>* (선택 사항) 계정, 캠페인, 광고 그룹 또는 제품 그룹 수준에서 추적 템플릿을 입력하는 대신 [!DNL Microsoft Merchant Center] 계정입니다. 이렇게 하려면 의 값과 함께 추적 URL을 포함합니다.`link`&quot; 또는 &quot;`mobile_link`&quot;사용자 정의 열의 해당 필드&quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot;를 입력합니다. 의 값`bingads_redirect`&quot;필드는 의 값을 대체합니다.`link`&quot; 및 &quot;`mobile_link`&quot; 필드. 이 방법을 사용하여 생성된 URL에는 검색, 소셜 및 Commerce 계정 또는 캠페인 설정에 지정된 추적 매개 변수가 포함되지 않습니다.
 
 ## 랜딩 페이지 접미사(최종 URL 접미사) 형식
 

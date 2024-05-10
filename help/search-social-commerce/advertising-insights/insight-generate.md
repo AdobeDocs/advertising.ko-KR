@@ -1,11 +1,11 @@
 ---
 title: 생성 [!DNL Advertising Insight]
 description: 을(를) 만드는 방법 알아보기 [!DNL Advertising Insight].
-exl-id: 242095c9-25f0-4954-b1a8-5ea3db312afd
+exl-id: e6b692be-189e-4c6c-a536-e6c78801853d
 feature: Search Advertising Insights
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 4. 클릭 **[!UICONTROL Generate Insight]**.
 
-   에 따라 작업이 완료되거나 실패하면 알림을 받게 됩니다. [구성된 알림 설정](/help/search-social-commerce/notifications/notification-edit.md) 대상 [!UICONTROL Advertising Insights].
+   에 따라 작업이 완료되거나 실패하면 알림을 받습니다. [구성된 알림 설정](/help/search-social-commerce/notifications/notification-edit.md) 대상 [!UICONTROL Advertising Insights].
 
 >[!MORELIKETHIS]
 >

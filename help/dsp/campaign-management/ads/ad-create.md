@@ -3,7 +3,7 @@ title: 단일 광고 만들기
 description: 단일 타사 광고를 만드는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >광고는 DSP과 SSP가 모두 크리에이티브를 승인한 경우에만 제공됩니다. 각 SSP에는 고유한 승인 요구 사항 및 프로세스가 있습니다.
+   >광고는 DSP과 SSP가 모두 크리에이티브를 승인한 경우에만 제공할 수 있습니다. 각 SSP에는 고유한 승인 요구 사항 및 프로세스가 있습니다.
 
 >[!MORELIKETHIS]
 >

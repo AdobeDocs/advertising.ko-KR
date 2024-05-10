@@ -3,9 +3,9 @@ title: 사용 [!DNL Last Event Service] 을 사용하는 JavaScript 라이브러
 description: 을(를) 사용하여에서 전환하는 단계에 대해 알아봅니다. [!DNL Analytics] [!DNL visitorAPI] 라이브러리 대상 [!DNL Experience Platform] [!DNL Web SDK] 라이브러리 [!DNL Analytics for Advertising] 구현.
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 2단계: 사용 [!DNL Web SDK] 보내기 [!DNL StitchID] 를 XDM 데이터로 사용 [!DNL Analytics]
 
-다음 속성을 [!DNL Web SDK] `sendEvent` 보내기 명령 [!DNL StitchID] 끝 [!DNL Experience Edge] 다음으로: [!DNL Experience Data Model] 다음에 대한 (XDM) 데이터 [!DNL Analytics].<!-- The library will send the StitchID to [!DNL Experience Edge] as `[_adcloud.advertisingStitchID](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/adcloud/stitch.schema.md)`. --> [!DNL Analytics] 은(는) 값을 (으)로 사용합니다. `SDID`.
+다음 속성을 [!DNL Web SDK] `sendEvent` 보내기 명령 [!DNL StitchID] 끝 [!DNL Experience Edge] 다음으로: [!DNL Experience Data Model] 다음에 대한 (XDM) 데이터 [!DNL Analytics].<!-- The library sends the StitchID to [!DNL Experience Edge] as `[_adcloud.advertisingStitchID](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/adcloud/stitch.schema.md)`. --> [!DNL Analytics] 값을 다음으로 사용: `SDID`.
 
 **추가할 속성:**
 

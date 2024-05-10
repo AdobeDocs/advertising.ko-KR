@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -122,9 +122,9 @@ ht-degree: 0%
 
 **[!UICONTROL Destination Type]:** 다음 대상 유형 중 하나를 선택합니다.
 
-* *[!UICONTROL S3]:* 완료된 보고서를 하나 이상의 사용자에게 보내려면 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])에 지정할 위치 **[!UICONTROL Destination Name]** 필드.
-* *[!UICONTROL sFTP]:* 완료된 보고서를 하나 이상의 SFTP 위치로 전송하려면에 지정합니다. **[!UICONTROL Destination Name]** 필드.
-* *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드.
+* *[!UICONTROL S3]:* 완료된 보고서를 하나 이상의 사용자에게 보내려면 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])에 지정해야 하는 위치 **[!UICONTROL Destination Name]** 필드.
+* *[!UICONTROL sFTP]:* 완료된 보고서를 하나 이상의 SFTP 위치로 전송하려면에 지정해야 합니다. **[!UICONTROL Destination Name]** 필드.
+* *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 전송하려면에 지정해야 합니다. **[!UICONTROL Destination Name]** 필드.
 * *[!UICONTROL FTP SSL](현재 베타 버전):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드.
 * *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서 또는 알림을 보낼 이메일 주소를 지정합니다.
 

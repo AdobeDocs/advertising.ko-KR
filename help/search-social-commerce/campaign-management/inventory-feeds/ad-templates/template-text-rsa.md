@@ -1,11 +1,11 @@
 ---
 title: 인벤토리 피드에 대한 텍스트 광고 및 반응형 검색 광고 템플릿 설정
 description: 재고 피드에 대한 텍스트 광고 및 반응형 검색 광고 템플릿에 대한 설정을 참조하십시오.
-exl-id: ee3956f9-4367-40e4-bdb3-f04a8da9a5f1
+exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]:** (최종/고급 URL만 있는 계정, 선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 캠페인 수준 추적 템플릿입니다. 이 값은 계정 수준 설정을 무시하지만, 더 세분화된 수준에서(키워드를 가장 세분화된 수준으로) 추적 템플릿이 이 값을 무시합니다.
 
-* Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
+* Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce은 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
 
 * 최종 URL을 포함하려면 다음을 수행하십시오.
 
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]:** (최종/고급 URL만 있는 계정) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 광고 그룹 수준 추적 템플릿입니다.
 
-Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
+Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce은 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다. 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 
@@ -184,8 +184,8 @@ Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 
 >
 >* 키워드 매개 변수 전이나 후에 쉼표로 구분된 값을 괄호로 묶어 키워드 필드에 여러 수정자 값을 수동으로 포함할 수 있습니다(두 위치에 모두 포함되지는 않음). 예를 들어, `(cheap, discount, affordable)[product]` 에서는 각 제품에 대해 세 개의 개별 광고를 생성합니다.
 >* 일치 유형을 지정하지 않으면 기본 일치 유형 &quot;broad&quot;가 사용됩니다.
-* 음수 일치는 지원되지 않습니다.
-* 이제 Google broad match 수정자는 일부 언어에 대해 구문 일치와 동일한 일치 동작을 가지며 새 broad match 수정자 키워드를 만들 수 없습니다. 다음을 참조하십시오. [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/10286719) 추가 정보.
+>* 음수 일치는 지원되지 않습니다.
+>* 이제 Google broad match 수정자는 일부 언어에 대해 구문 일치와 동일한 일치 동작을 가지며 새 broad match 수정자 키워드를 만들 수 없습니다. 다음을 참조하십시오. [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/10286719) 추가 정보.
 
 **[!UICONTROL Map Only]:** 광고 그룹(또는 캠페인)에 새 광고 추가 [!DNL Yandex] accounts)를 사용하여 새 키워드를 만들지 않고 지정된 키워드를 찾을 수 있습니다. 이 옵션을 활성화하려면 확인란을 선택합니다. 이 옵션을 활성화하면 키워드가 존재하기 때문에 지정된 키워드에 있는 모든 Param 1 및 Param 2 변수가 적용되지 않습니다.
 
@@ -195,12 +195,12 @@ Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 
 
 >[!NOTE]
 >
-* 템플릿을 통해 전파된 데이터를 게시할 때 추적 URL을 생성하는 경우 계정 추적 설정을 기반으로 추적 매개 변수가 이 값에 추가됩니다.
-* ([!DNL Google Ads] 계정) 병렬 추적을 활성화하는 소스의 클릭에 대체되지 않는 매크로를 사용하지 마십시오. 광고주가 매크로를 사용해야 하는 경우 Adobe 계정 팀은 고객 지원 팀 또는 구현 팀과 협력하여 매크로를 추가해야 합니다.
+>* 템플릿을 통해 전파된 데이터를 게시할 때 추적 URL을 생성하는 경우 계정 추적 설정을 기반으로 추적 매개 변수가 이 값에 추가됩니다.
+>* ([!DNL Google Ads] 계정) 병렬 추적을 활성화하는 소스의 클릭에 대체되지 않는 매크로를 사용하지 마십시오. 광고주가 매크로를 사용해야 하는 경우 Adobe 계정 팀은 고객 지원 팀 또는 구현 팀과 협력하여 매크로를 추가해야 합니다.
 
 **[!UICONTROL Keyword Tracking Template]:** (최종/고급 URL이 있는 계정, 선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 추적 템플릿입니다. 가장 세부적인 수준의 추적 템플릿(키워드를 가장 세부적인 수준으로 사용)은 다른 모든 수준의 값을 재정의합니다.
 
-* Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
+* Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce은 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
 
 * 선택적으로 서드파티 리디렉션 및 추적을 입력할 수 있습니다.
 
@@ -216,9 +216,9 @@ Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 
 
 * **[!UICONTROL Do Not Apply to Existing Keywords]** (기본값): 템플릿을 사용하여 생성된 새 키워드에 대한 매개 변수의 값을 삽입합니다.
 
-* **[!UICONTROL Apply to Existing Keywords: Constant]:** 피드에서 새 키워드를 만드는 것 외에도 검색, 소셜 및 상거래는 템플릿을 사용하여 만들지 않은 광고 그룹의 모든 기존 키워드에 대한 매개 변수의 값을 업데이트합니다. 해당 모든 키워드에 사용되는 단일 숫자 값을 입력합니다. 템플릿에는 하나 이상의 키워드가 포함되어야 합니다.
+* **[!UICONTROL Apply to Existing Keywords: Constant]:** 피드, 검색, 소셜 및 Commerce에서는 새 키워드를 만들 수 있을 뿐만 아니라 템플릿을 사용하여 만들지 않은 광고 그룹의 모든 기존 키워드에 대한 매개 변수의 값도 업데이트합니다. 해당 모든 키워드에 사용되는 단일 숫자 값을 입력합니다. 템플릿에는 하나 이상의 키워드가 포함되어야 합니다.
 
-* **[!UICONTROL Apply to Existing Keywords: Min]:** 피드에서 새 키워드를 만드는 것 외에도 Search, Social 및 Commerce는 피드 파일에 최대 1개의 소수점을 가지지만 쉼표, 통화 기호 또는 코드 또는 기타 문자가 없는 매개 변수의 숫자 값이 포함되어 있는 한 템플릿을 사용하여 만들지 않은 광고 그룹의 모든 기존 키워드에 대한 매개 변수의 값을 업데이트합니다. 피드 파일의 매개 변수에 대한 최소값은 모든 기존 키워드에 사용됩니다. 예를 들어 피드 파일에 [!UICONTROL Param1] 21500 및 22000 값, [!UICONTROL Param1] 기존 키워드의 값이 로 21500. 템플릿에는 하나 이상의 키워드가 포함되어야 합니다. **팁:** 키워드가 동일한 값을 갖는 것이 적절하도록 철저히 테마가 지정된 광고 그룹이 있는 경우에만 이 옵션을 사용하십시오.
+* **[!UICONTROL Apply to Existing Keywords: Min]:** 피드에서 새 키워드를 만드는 것 외에도 Search, Social 및 Commerce은 피드 파일에 최대 1개의 소수점을 가지지만 쉼표, 통화 기호 또는 코드 또는 기타 문자가 없는 매개 변수의 숫자 값이 포함되어 있는 한 템플릿을 사용하여 만들지 않은 광고 그룹의 모든 기존 키워드에 대한 매개 변수의 값을 업데이트합니다. 피드 파일의 매개 변수에 대한 최소값은 모든 기존 키워드에 사용됩니다. 예를 들어 피드 파일에 [!UICONTROL Param1] 21500 및 22000 값, [!UICONTROL Param1] 기존 키워드의 값이 로 21500. 템플릿에는 하나 이상의 키워드가 포함되어야 합니다. **팁:** 키워드가 동일한 값을 갖는 것이 적절하도록 철저히 테마가 지정된 광고 그룹이 있는 경우에만 이 옵션을 사용하십시오.
 
 피드 파일의 데이터 필드는 최대 25자일 수 있으며 다음 비숫자 문자가 포함된 숫자 데이터로만 구성될 수 있습니다.
 
@@ -318,7 +318,7 @@ Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 
 
 [!DNL Microsoft® Advertising] 및 [!DNL Yahoo! Japan Ads] 에서는 표준 텍스트 광고 생성 및 편집을 더 이상 사용하지 않습니다.
 
-**[!UICONTROL Base URL]:** (대상 URL이 있는 계정만 해당) 사용자를 가져오는 페이지입니다. 여기에는 서드파티 리디렉션 및 추적 코드가 포함될 수 있습니다. Adobe Advertising 전환 추적 서비스를 사용하는 경우 캠페인 설정에 다음을 사용하는 것이 포함됩니다. [!UICONTROL EF Redirect] 광고 수준에서 추적을 추가하면 검색, 소셜 및 상거래에 자동으로 자체 리디렉션 및 추적 코드가 광고에 추가됩니다.
+**[!UICONTROL Base URL]:** (대상 URL이 있는 계정만 해당) 사용자를 가져오는 페이지입니다. 여기에는 서드파티 리디렉션 및 추적 코드가 포함될 수 있습니다. Adobe Advertising 전환 추적 서비스를 사용하는 경우 캠페인 설정에 다음을 사용하는 것이 포함됩니다. [!UICONTROL EF Redirect] 광고 수준에서 추적을 추가하면 검색, 소셜 및 Commerce이 자동으로 자체 리디렉션 및 추적 코드를 광고에 추가합니다.
 
 열 이름이나 수정자 그룹을 동적 매개 변수로 삽입하려면 입력 필드를 클릭한 다음 열 목록 또는 [수정자 이름](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 다음에서 [!UICONTROL Modifiers] 목록을 표시합니다.
 
@@ -328,12 +328,12 @@ Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 
 
 >[!NOTE]
 >
-* 템플릿을 통해 전파된 데이터를 게시할 때 추적 URL을 생성하는 경우 계정 추적 설정에 따라 추적 매개 변수가 이 값에 추가됩니다.
-* ([!DNL Google Ads] 계정 ) 병렬 추적을 활성화하는 소스의 클릭에 대체되지 않는 매크로를 사용하지 마십시오. 광고주가 매크로를 사용해야 하는 경우 Adobe 계정 팀은 고객 지원 팀 또는 구현 팀과 협력하여 매크로를 추가해야 합니다.
+>* 템플릿을 통해 전파된 데이터를 게시할 때 추적 URL을 생성하는 경우 계정 추적 설정에 따라 추적 매개 변수가 이 값에 추가됩니다.
+>* ([!DNL Google Ads] 계정 ) 병렬 추적을 활성화하는 소스의 클릭에 대체되지 않는 매크로를 사용하지 마십시오. 광고주가 매크로를 사용해야 하는 경우 Adobe 계정 팀은 고객 지원 팀 또는 구현 팀과 협력하여 매크로를 추가해야 합니다.
 
 **[!UICONTROL Tracking Template]:** (최종/고급 URL이 있는 계정, 선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 추적 템플릿입니다. 가장 세부적인 수준의 추적 템플릿(키워드를 가장 세부적인 수준으로 사용)은 다른 모든 수준의 값을 재정의합니다.
 
-Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
+Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce은 레코드를 저장할 때 리디렉션 및 추적 코드를 자동으로 추가합니다.
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다. 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 
@@ -345,9 +345,9 @@ Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 
 
 >[!NOTE]
 >
-* 다음과 같은 경우 [!UICONTROL Prefill] 옵션을 선택한 다음 대체 필드에 원본 필드가 미리 채워지고 필요에 따라 편집할 수 있습니다.
-* 최대 길이를 초과하는 광고 복사 필드만 대체 값으로 바뀝니다. 예를 들어 원래 헤드라인이나 제목만 너무 긴 경우 생성된 광고 변형은 대체 헤드라인이나 제목과 원래 설명을 사용합니다. 따라서 대체 광고 사본을 원본 광고 사본과 결합할 때 적절한지 확인하십시오.
-* 원본 광고 사본이 검색 엔진의 길이 요구 사항을 충족하면 대체 광고 사본은 무시됩니다.
+>* 다음과 같은 경우 [!UICONTROL Prefill] 옵션을 선택한 다음 대체 필드에 원본 필드가 미리 채워지고 필요에 따라 편집할 수 있습니다.
+>* 최대 길이를 초과하는 광고 복사 필드만 대체 값으로 바뀝니다. 예를 들어 원래 헤드라인이나 제목만 너무 긴 경우 생성된 광고 변형은 대체 헤드라인이나 제목과 원래 설명을 사용합니다. 따라서 대체 광고 사본을 원본 광고 사본과 결합할 때 적절한지 확인하십시오.
+>* 원본 광고 사본이 검색 엔진의 길이 요구 사항을 충족하면 대체 광고 사본은 무시됩니다.
 
 **\[Component\] [!UICONTROL Ad Label Classifications] > \[레이블 분류 및 값\]:** (선택 사항) 템플릿을 사용하여 만들거나 편집한 광고 변형에 지정할 최대 5개의 기존 레이블 분류에 대한 값입니다. 레이블 분류를 지정할 각 캠페인 구성 요소에 대해 다음을 수행합니다.
 
@@ -385,8 +385,8 @@ Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 
 
 >[!MORELIKETHIS]
 >
-* [인벤토리 피드를 사용한 광고 관리 자동화 정보](../inventory-feeds-about.md)
-* [수정자 관리](../modifiers-manage.md)
-* [인벤토리 데이터 피드 파일 관리](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
-* [템플릿을 통해 피드 데이터 전파](../feed-data-propagate.md)
-* [인벤토리 피드에서 광고 네트워크로 캠페인 데이터 게시](../propagated-data-post.md)
+>* [인벤토리 피드를 사용한 광고 관리 자동화 정보](../inventory-feeds-about.md)
+>* [수정자 관리](../modifiers-manage.md)
+>* [인벤토리 데이터 피드 파일 관리](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
+>* [템플릿을 통해 피드 데이터 전파](../feed-data-propagate.md)
+>* [인벤토리 피드에서 광고 네트워크로 캠페인 데이터 게시](../propagated-data-post.md)

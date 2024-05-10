@@ -3,9 +3,9 @@ title: 사용한 Adobe Advertising ID [!DNL Analytics]
 description: 사용한 Adobe Advertising ID [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 9374f5ef6aaff1f638022bc878c7af190e31888f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ EF ID는 Adobe Advertising이 활동을 온라인 클릭 또는 광고 노출과
 
 >[!NOTE]
 >
->EF ID는 대/소문자를 구분합니다. 다음과 같은 경우 [!DNL Analytics] 구현은 URL 추적을 소문자로 강제하므로 Adobe Advertising은 EF ID를 인식하지 못합니다. 이는 Adobe Advertising 입찰 및 보고에 영향을 주지만 내부 Adobe Advertising 보고에는 영향을 주지 않습니다 [!DNL Analytics].
+>EF ID는 대/소문자를 구분합니다. 다음과 같은 경우 [!DNL Analytics] 구현이 URL 추적을 소문자로 강제하면 Adobe Advertising이 EF ID를 인식하지 못합니다. 이는 Adobe Advertising 입찰 및 보고에 영향을 주지만 내부 Adobe Advertising 보고에는 영향을 주지 않습니다 [!DNL Analytics].
 
 #### [!DNL Google Ads] 광고 검색
 
@@ -114,7 +114,7 @@ AMO ID는 `s_kwcid`: 때로 &quot;&quot;로 발음됨[!DNL the squid].&quot;
 
    * DSP 고객: 픽셀 서버는 최종 사용자가 Adobe Advertising 픽셀로 디스플레이 광고를 볼 때 s_kwcid 매개 변수를 랜딩 페이지 접미사에 자동으로 추가합니다.
 
-   * 검색, 소셜 및 상거래 고객:
+   * 검색, 소셜 및 Commerce 고객:
 
       * 대상 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 이(가) 있는 계정 [!UICONTROL Auto Upload] 계정 또는 캠페인에 대해 이 설정을 활성화하면, 픽셀 서버는 최종 사용자가 Adobe Advertising 픽셀이 있는 광고를 클릭할 때 s_kwcid 매개 변수를 랜딩 페이지 접미사에 자동으로 추가합니다.
 
@@ -128,7 +128,7 @@ AMO ID는 `s_kwcid`: 때로 &quot;&quot;로 발음됨[!DNL the squid].&quot;
 
       * 대상 [!DNL Google Campaign Manager 360] 광고 태그, 수동으로에 추가 매크로 삽입[추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
 
-   * 검색, 소셜 및 상거래 고객:
+   * 검색, 소셜 및 Commerce 고객:
 
       * 대상 ([!DNL Google Ads] 및 [!DNL Microsoft® Advertising]) 광고, AMO ID 매개 변수를 랜딩 페이지 접미사에 수동으로 추가합니다(이상적으로 [계정 수준](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} 개별 계정 구성 요소에 대해 다른 추적이 필요하지 않은 경우.
 
@@ -152,7 +152,7 @@ AMO ID는 `s_kwcid`: 때로 &quot;&quot;로 발음됨[!DNL the squid].&quot;
 
 예제 AMO ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-#### 검색, 소셜 및 상거래 광고에 대한 AMO ID 형식 {#amo-id-format-search}
+#### 검색, 소셜 및 Commerce 광고용 AMO ID 형식 {#amo-id-format-search}
 
 매개 변수는 광고 네트워크별로 다르지만, 다음 매개 변수는 모두에게 공통입니다.
 

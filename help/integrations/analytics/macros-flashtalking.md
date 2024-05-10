@@ -3,9 +3,9 @@ title: 추가 [!DNL Analytics for Advertising] 매크로 위치 [!DNL Flashtalki
 description: 추가 이유 및 방법 알아보기 [!DNL Analytics for Advertising] 에 대한 매크로 [!DNL Flashtalking] 광고 태그
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 [ftqs:[AdobeAMO]]
 ```
 
-기본 URL 뒤에 있는 첫 번째 또는 유일한 쿼리 문자열인 경우 를 사용하여 기본 URL에서 분리합니다. `?`. 기본 URL에 여러 쿼리 문자열이 포함되는 경우 첫 번째 문자열을 `?` 및 각 후속 문자열에 `&`.
+기본 URL 뒤에 있는 첫 번째 또는 유일한 쿼리 문자열인 경우 를 사용하여 기본 URL에서 분리합니다. `?`. 기본 URL에 여러 쿼리 문자열이 포함된 경우 첫 번째 문자열은 `?` 및 각 후속 문자열에 `&`.
 
 예:
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-기본 URL 뒤에 있는 첫 번째 또는 유일한 쿼리 문자열인 경우 를 사용하여 기본 URL에서 분리합니다. `?`. 기본 URL에 여러 쿼리 문자열이 포함되는 경우 첫 번째 문자열을 `?` 및 각 후속 문자열에 `&`.
+기본 URL 뒤에 있는 첫 번째 또는 유일한 쿼리 문자열인 경우 를 사용하여 기본 URL에서 분리합니다. `?`. 기본 URL에 여러 쿼리 문자열이 포함된 경우 첫 번째 문자열은 `?` 및 각 후속 문자열에 `&`.
 
 예:
 

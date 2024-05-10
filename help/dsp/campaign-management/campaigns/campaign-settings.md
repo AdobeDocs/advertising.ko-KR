@@ -3,9 +3,9 @@ title: 캠페인 설정
 description: 사용 가능한 캠페인 설정에 대한 설명을 참조하십시오.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 캠페인, 패키지 및 배치 수준에서 빈도 상한을 설정할 수 있습니다. DSP은 campaign 계층 구조에서 가장 엄격한 빈도 상한을 준수합니다.
+> 캠페인, 패키지 및 배치 수준에서 빈도 상한을 설정할 수 있습니다. DSP은 campaign 계층 구조에서 가장 엄격한 빈도 상한을 따릅니다.
 
 **[!UICONTROL Packages]:** 다음 [패키지](/help/dsp/campaign-management/packages/package-about.md) 캠페인에 포함할 예정입니다. 기존 패키지를 선택하거나 포함할 패키지를 만듭니다. 패키지를 만드는 경우 다음에 대한 설명을 참조하십시오. [패키지 설정](/help/dsp/campaign-management/packages/package-settings.md) 추가 정보.
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Target Age]:** 타겟팅할 나이 범위입니다. 필요에 따라 왼쪽 및 오른쪽 슬라이더를 사용하여 범위를 줄이십시오.
 
-* **[!UICONTROL Target Country]:** (선택 사항) 타깃팅할 국가입니다. [!DNL Nielsen] 는 지원되는 국가에서만 제공되는 노출을 측정합니다.
+* **[!UICONTROL Target Country]:** (선택 사항) 타깃팅할 국가입니다. [!DNL Nielsen] 지원되는 국가에서만 제공되는 노출 횟수입니다.
 
 **[!UICONTROL comScore vCE]:** (선택 사항) [!DNL Comscore validated Campaign Essentials (vCE)] 지정된 설정을 사용하여 대상 확인의 측정 및 보고. 추가 요금이 부과됩니다.
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Target Age]:** 타겟팅할 나이 범위입니다. 필요에 따라 왼쪽 및 오른쪽 슬라이더를 사용하여 범위를 줄이십시오.
 
-* **[!UICONTROL Target Country]:** (선택 사항) 타깃팅할 국가입니다. [!DNL Comscore] 는 지원되는 국가에서만 제공되는 노출을 측정합니다.
+* **[!UICONTROL Target Country]:** (선택 사항) 타깃팅할 국가입니다. [!DNL Comscore] 지원되는 국가에서만 제공되는 노출 횟수입니다.
 
 ### [!UICONTROL 1st Party Metrics]
 

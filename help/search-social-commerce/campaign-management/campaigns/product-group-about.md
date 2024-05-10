@@ -3,9 +3,9 @@ title: 쇼핑 제품 그룹 기본 정보
 description: 쇼핑 캠페인의 쇼핑 제품 그룹에 대해 알아봅니다.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 4ed0d225dafcb07e8a563ef7e723cd247da5e1a9
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,15 @@ ht-degree: 0%
 
 ## 쇼핑 제품 그룹에 대한 추적 및 성능 데이터
 
-(계정/캠페인(&quot;[!UICONTROL EF Redirect]&quot; 추적 옵션) Search, Social 및 Commerce가 제품 그룹에 대한 전환을 추적할 수 있도록 하려면, [추적 URL 도구를 사용하여 제품 그룹에 대한 추적 URL 생성](/help/search-social-commerce/tools/click-tracking-url-generate.md)을 누르고 다음 중 하나를 수행합니다.
+(계정/캠페인(&quot;[!UICONTROL EF Redirect]&quot; 추적 옵션) Search, Social 및 Commerce이 제품 그룹에 대한 전환을 추적할 수 있도록 하려면, [추적 URL 도구를 사용하여 제품 그룹에 대한 추적 URL 생성](/help/search-social-commerce/tools/click-tracking-url-generate.md)을 누르고 다음 중 하나를 수행합니다.
 
 * (필수 사항: [!DNL Google Ads]; 우수 사례 [!DNL Microsoft® Advertising]) 추적 URL을 [!DNL Tracking Template] 계정, 캠페인 또는 제품 그룹 설정의 필드입니다. 간편하게 유지 관리할 수 있도록 가능한 한 높은 수준에서 추가하십시오. 계정이나 캠페인에 대해 지정된 추가 매개 변수는 포함되지 않습니다.
 
   >[!CAUTION]
   >
-  >([!DNL Microsoft® Advertising]) 제품 피드 내의 사용자 지정 열에 검색, 소셜 및 상거래 추적 URL을 포함하지 않는 경우에만 이 옵션을 사용하십시오. 두 작업을 모두 수행하는 경우 URL에 두 개의 리디렉션이 포함되어 링크가 끊어집니다.
+  >([!DNL Microsoft® Advertising]) 제품 피드 내의 사용자 지정 열에 검색, 소셜 및 Commerce 추적 URL을 포함하지 않는 경우에만 이 옵션을 사용하십시오. 두 작업을 모두 수행하는 경우 URL에 두 개의 리디렉션이 포함되어 링크가 끊어집니다.
 
-* ([!DNL Microsoft® Advertising] 전용) 내에서 제품 데이터에 추적 URL 추가 [!DNL Microsoft® Merchant Center] 계정입니다. 이렇게 하려면 의 값과 함께 추적 URL을 포함합니다. `link` 또는 `mobile_link` 사용자 지정 열에서 필드를 적절히 [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) 를 입력합니다. 이 방법을 사용하여 생성된 URL에는 검색, 소셜 및 상거래 내의 계정 또는 캠페인 설정에 지정된 추적 매개 변수가 포함되지 않습니다.
+* ([!DNL Microsoft® Advertising] 전용) 내에서 제품 데이터에 추적 URL 추가 [!DNL Microsoft® Merchant Center] 계정입니다. 이렇게 하려면 의 값과 함께 추적 URL을 포함합니다. `link` 또는 `mobile_link` 사용자 지정 열에서 필드를 적절히 [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) 를 입력합니다. 이 방법을 사용하여 생성된 URL에는 검색, 소셜 및 Commerce 내의 계정 또는 캠페인 설정에 지정된 추적 매개 변수가 포함되지 않습니다.
 
 에서 제품 그룹에 대한 데이터를 볼 수 있습니다. [다음 [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md).
 

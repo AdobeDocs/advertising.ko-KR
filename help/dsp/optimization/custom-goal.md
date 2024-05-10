@@ -2,16 +2,17 @@
 title: 사용자 정의 목표
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 패키지에서 성공 이벤트를 정의하는 사용자 정의 목표에 대해 알아봅니다.
 feature: DSP Optimization
-source-git-commit: 7b9926d0bbba12728ed6a42e56115e8df708587b
+exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
 
 # 사용자 정의 목표
 
-사용자 지정 목표는 광고주가 비즈니스 목표를 달성하는 데 필요한 성공 이벤트를 정의합니다. 최적화 목표 를 사용하는 각 패키지[!UICONTROL Highest Return on Ad Spend (ROAS)"] 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;은(는) 전체 최적화 목표를 달성하는 데 도움이 되는 사용자 지정 목표를 포함해야 합니다. 다음과 같이 사용자 정의 목표를 생성할 수 있습니다. *목표* 위치: [!DNL Advertising Search, Social, & Commerce].
+사용자 지정 목표는 광고주가 비즈니스 목표를 달성하는 데 필요한 성공 이벤트를 정의합니다. 최적화 목표 를 사용하는 각 패키지[!UICONTROL Highest Return on Ad Spend (ROAS)"] 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;은(는) 전체 최적화 목표를 달성하는 데 도움이 되도록 사용자 지정 목표를 포함해야 합니다. 다음과 같이 사용자 정의 목표를 생성할 수 있습니다. *목표* 위치: [!DNL Advertising Search, Social, & Commerce].
 
 <!-- update image or omit it
 
@@ -103,7 +104,7 @@ ht-degree: 0%
 
 사용자 지정 목표에서 여러 지표를 사용하는 두 가지 시나리오가 있습니다.
 
-* 캠페인 목표에는 여러 개의 성공 이벤트가 있습니다. 예를 들어 둘 이상의 온사이트 작업(PDF 다운로드, 연락처 및 이메일 등록)에 대해 광고하고 있을 수 있으며 모든 작업은 CPA 목표에 기여하는 작업입니다. 목표에 세 개의 별도 지표가 포함되어 있고 각각 비모바일 및 모바일 가중치가 1인 경우 [!DNL Adobe Sensei] 알고리즘에서는 각 지표 및 사용자 장치 유형을 동일한 중요도로 처리합니다. 다양한 지표와 장치 유형에 비용이나 중요도가 다른 경우 그에 따라 상대적 가중치를 조정합니다.
+* 캠페인 목표에는 여러 개의 성공 이벤트가 있습니다. 예를 들어 둘 이상의 온사이트 작업(PDF 다운로드, 연락처 및 이메일 등록)에 대해 광고하고 있을 수 있으며 모든 작업은 CPA 목표에 기여하는 작업입니다. 목표에 세 개의 별도 지표가 포함되어 있고 각각 비모바일 및 모바일 가중치가 1인 경우 [!DNL Adobe Sensei] 알고리즘은 각 지표 및 사용자 장치 유형을 동일한 중요도로 처리합니다. 다양한 지표와 장치 유형에 비용이나 중요도가 다른 경우 그에 따라 상대적 가중치를 조정합니다.
 
 <!-- update image or delete it and adjust the wording above
 

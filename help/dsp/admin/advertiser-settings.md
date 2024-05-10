@@ -2,9 +2,9 @@
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
 role: User, Admin
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -41,17 +41,17 @@ ht-degree: 0%
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (광고주: [!DNL Advertising Search, Social, & Commerce] 또는 Adobe Advertising 변환 픽셀을 사용하는 사용자) A [!DNL Search, Social, & Commerce] DSP이 속성 데이터를 교환하는 계정입니다.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Adobe Analytics 포함 광고주, 선택 사항, 다음을 포함하는 Adobe Advertising 전환 추적 태그를 사용하여 수집된 데이터에만 적용 가능 [!DNL EF Redirect] 및 토큰만 해당) 하나 이상 [!DNL Analytics] DSP이 게시자 및 공급 측 파트너로부터 수집한 데이터를 전송하는 보고서 세트입니다. Analytics는 또한 클라이언트 사이트에서 수집한 데이터를 DSP으로 전송합니다.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Adobe Analytics 포함 광고주, 선택 사항, 다음을 포함하는 Adobe Advertising 전환 추적 태그를 사용하여 수집된 데이터에만 적용 가능 [!DNL EF Redirect] 및 토큰만 해당) 하나 이상 [!DNL Analytics] DSP이 게시자 및 공급측 파트너로부터 수집한 데이터를 전송하는 보고서 세트입니다. 또한 Analytics는 클라이언트 사이트에서 수집한 데이터를 DSP으로 전송합니다.
 
 데이터가 보고서 세트에 표시되도록 하려면 다음을 수행합니다 [!DNL Search, Social, & Commerce] 광고주 수준 설정을 활성화해야 합니다. 또한 광고주의 [!DNL Analytics] 계정에서 데이터를 수신하도록 Adobe Advertising을 구성해야 합니다.
 
 >[!WARNING]
 >
->이전에 연결된 보고서 세트를 제거하면 DSP에서 더 이상 해당 세트와 데이터를 교환하지 않습니다. 데이터 변동이 발생할 것으로 예상됩니다.
+>이전에 연결된 보고서 세트를 제거하면 DSP이 더 이상 해당 세트와 데이터를 교환하지 않습니다. 데이터 변동이 발생할 것으로 예상됩니다.
 
 와의 통합에 대한 자세한 내용 [!DNL Analytics], 참조 &quot;[개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Adobe Audience Manager 또는 Adobe Analytics을 사용하는 광고주, 선택 사항) Audience Manager 또는 [!DNL Analytics] DSP이 광고주의 모든 Adobe 대상에 대한 세그먼트 메타데이터, 계층 데이터 및 고유 대상 데이터를 가져올 계정입니다. 여기에는 다음에 대한 데이터가 포함됩니다.
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Adobe Audience Manager 또는 Adobe Analytics을 사용하는 광고주, 선택 사항) Audience Manager 또는 [!DNL Analytics] DSP이 모든 광고주 Adobe 대상에 대해 세그먼트 메타데이터, 계층 데이터 및 고유 대상 데이터를 가져오는 계정. 여기에는 다음에 대한 데이터가 포함됩니다.
 
 * Audience Manager 세그먼트
 * [!DNL Analytics] Adobe Experience Cloud에 게시된 세그먼트
@@ -118,7 +118,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]:** (선택 사항) DSP에서 기본적으로 광고를 차단하게 하는 의심스러운 웹 사이트 또는 앱 활동 유형입니다. *[!UICONTROL None]* (의심스러운 활동에 따라 광고를 차단하지 않는 기본값), *[!UICONTROL Suspicious Activity - High Risk]*, 또는 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 추가 요금이 부과될 수 있습니다.
+**[!UICONTROL Block sites that are]:** (선택 사항) DSP이 기본적으로 광고를 차단하도록 하는 의심스러운 웹 사이트 또는 앱 활동 유형입니다. *[!UICONTROL None]* (의심스러운 활동에 따라 광고를 차단하지 않는 기본값), *[!UICONTROL Suspicious Activity - High Risk]*, 또는 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 추가 요금이 부과될 수 있습니다.
 
 #### [!UICONTROL Ads.text]
 

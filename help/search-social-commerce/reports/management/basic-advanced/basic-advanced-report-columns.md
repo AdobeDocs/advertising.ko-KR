@@ -3,9 +3,9 @@ title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 6b820606208b662eaa1f5c4d2e63bb08f1ac5885
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3749'
+source-wordcount: '3747'
 ht-degree: 0%
 
 ---
@@ -22,26 +22,26 @@ ht-degree: 0%
 | [!UICONTROL 7-Day Cost Accuracy] | ([!UICONTROL Portfolio Report]) 현재 일자를 포함하지 않고(보고서의 지정된 일자 범위가 아님) 이전 7일에 대한 원가 예측의 평균 정확도는 백분율로 표시됩니다. |
 | [!UICONTROL 7-Day Revenue Accuracy] | ([!UICONTROL Portfolio Report]) 현재 일자를 포함하지 않고(보고서의 지정된 일자 범위가 아님) 이전 7일 동안의 수익 예측의 평균 정확도는 백분율로 표시됩니다. |
 | [!UICONTROL Account] | 계정 이름. |
-| [!UICONTROL Account Status] | 검색, 소셜 및 상거래 내 계정의 상태: <ul><li><i>[!UICONTROL Enabled]:</i> (기본값) 동기화된 광고 네트워크의 경우 검색, 소셜 및 상거래는 광고 네트워크 계정에 로그인하여 캠페인 데이터를 검색할 수 있으며 최적화 및 추적 생성과 같은 기타 적용 가능한 기능이 활성화됩니다.<br><br>동기화되지 않은 광고 네트워크의 경우 최적화 및/또는 추적 생성과 같은 적용 가능한 기능을 사용할 수 있습니다.</li><li><i>[!UICONTROL Disabled]:</i> 동기화된 광고 네트워크의 경우 검색, 소셜 및 상거래는 광고 네트워크 계정에 로그인하지 않으므로 캠페인 데이터를 검색하지 않으며 최적화 및 추적 생성과 같은 기타 적용 가능한 기능이 비활성화됩니다. 계정이 활성화된 동안 수집된 데이터는 여전히 저장되지만 나중에 만드는 모든 캠페인 관리 보기 및 모든 보고서에는 계정이 비활성화된 기간 동안의 데이터가 포함되지 않습니다.<br><br>동기화되지 않은 광고 네트워크의 경우 최적화 및/또는 추적 생성과 같은 적용 가능한 기능을 사용할 수 없습니다.</li></ul> |
+| [!UICONTROL Account Status] | 검색, 소셜 및 Commerce 내 계정의 상태: <ul><li><i>[!UICONTROL Enabled]:</i> (기본값) 동기화된 광고 네트워크의 경우 검색, 소셜 및 Commerce은 광고 네트워크 계정에 로그인하여 캠페인 데이터를 검색할 수 있으며 최적화 및 추적 생성과 같은 기타 적용 가능한 기능이 활성화됩니다.<br><br>동기화되지 않은 광고 네트워크의 경우 최적화 및/또는 추적 생성과 같은 적용 가능한 기능을 사용할 수 있습니다.</li><li><i>[!UICONTROL Disabled]:</i> 동기화된 광고 네트워크의 경우 검색, 소셜 및 Commerce은 광고 네트워크 계정에 로그인하지 않으므로 캠페인 데이터를 검색하지 않으며 최적화 및 추적 생성과 같은 기타 적용 가능한 기능이 비활성화됩니다. 계정이 활성화된 동안 수집된 데이터는 여전히 저장되지만 나중에 만드는 모든 캠페인 관리 보기 및 모든 보고서에는 계정이 비활성화된 기간에 대한 데이터가 포함되지 않습니다.<br><br>동기화되지 않은 광고 네트워크의 경우 최적화 및/또는 추적 생성과 같은 적용 가능한 기능을 사용할 수 없습니다.</li></ul> |
 | [!UICONTROL Active Ad Groups] | 활성 광고 그룹 수입니다. |
 | [!UICONTROL Active Ads/Creatives] | 활성 광고/광고 크리에이티브 수. |
 | [!UICONTROL Active Campaigns] | 활성 캠페인 수. |
 | [!UICONTROL Active Keywords] | 활성 키워드의 수입니다. |
 | [!UICONTROL Ad Group] | 광고 그룹. |
-| [!UICONTROL Ad Group ID] | Search, Social 및 Commerce가 광고 그룹에 할당하는 숫자 ID입니다. |
+| [!UICONTROL Ad Group ID] | Search, Social 및 Commerce이 광고 그룹에 할당하는 숫자 ID입니다. |
 | [!UICONTROL Ad Group Status] | 광고 그룹 상태: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, 또는 <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Ad Group Type] | 다음과 같은 광고 그룹 유형 <i>[!UICONTROL Audience]</i> (대상자 캠페인의 경우), <i>[!UICONTROL Discovery]</i> (검색 캠페인의 경우에만), <i>[!UICONTROL Display]</i> (디스플레이 캠페인만 해당), <i>[!UICONTROL Search Dynamic]</i> (동적 검색 광고만 해당), <i>[!UICONTROL Search Standard]</i> (반응형 검색 광고 및 기존 확장 텍스트 광고만 해당), <i>[!UICONTROL Shopping Showcase]</i>, <i>[!UICONTROL Shopping Product]</i> (표준 쇼핑 캠페인만 해당) 또는 <i>[!UICONTROL Shopping Smart]</i> (스마트 쇼핑 캠페인의 경우). 일부 캠페인 유형의 경우, 단일 캠페인에 여러 광고 유형이 포함될 수 있습니다. |
 | [!UICONTROL Ad Groups] | 레이블 값이 할당된 광고 그룹 수입니다. |
 | [!UICONTROL AD Name] | 광고 그룹 이름, 와 동일한 값 [!UICONTROL Ad Group]. |
-| [!UICONTROL Ad Recall Lift] | ([!DNL Meta] 캠페인 전용) 2일 이내에 광고를 기억할 예상 사람 수입니다. |
-| [!UICONTROL Ad Recall Rate] | ([!DNL Meta] 캠페인만 해당) 2일 이내에 광고를 기억할 예상 사람 수를 도달한 사람 수로 나눈 비율(%)입니다. |
+| [!UICONTROL Ad Recall Lift] | ([!DNL Meta] 캠페인 전용) 2일 이내에 광고를 기억하는 예상 사람 수입니다. |
+| [!UICONTROL Ad Recall Rate] | ([!DNL Meta] 캠페인 전용) 2일 이내에 광고를 기억하는 예상 사람 수를 도달된 사람 수로 나눈 백분율(%)입니다. |
 | [!UICONTROL Ad Size] | 광고 차원. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] 반응형 검색 광고) 광고의 효과: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i>, 또는 <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising], 및 [!DNL Yahoo! Japan Ads] 캠페인) 광고가 모바일 장치에 표시될 때 입찰이 조정되는 방법을 결정하는 현재 광고 그룹 수준의 모바일 입찰 조정입니다. |
 | [!UICONTROL Advertiser] | 광고주 이름. |
-| [!UICONTROL Advertiser ID] | 광고주의 검색, 소셜 및 상거래 계정에 대한 숫자 ID입니다. |
+| [!UICONTROL Advertiser ID] | 광고주의 검색, 소셜 및 Commerce 계정에 대한 숫자 ID입니다. |
 | [!UICONTROL Avg Position] | 지정된 날짜 범위 동안의 평균 광고 위치입니다.<br><br>대상 [!DNL Google Ads] 및 [!DNL Yahoo! Japan Ads] 캠페인, 이 데이터는 2019년 9월까지만 사용할 수 있습니다. 대상 [!DNL Microsoft Advertising], 이 데이터는 2021년 1월 22일까지만 사용할 수 있습니다. |
-| [!UICONTROL Base URL] | 캠페인이나 계정에 대해 구성된 추가 매개 변수를 포함한 키워드의 기본 URL입니다. 여기에는 검색, 소셜 및 상거래 리디렉션 및 추적 코드가 포함되지 않습니다. |
+| [!UICONTROL Base URL] | 캠페인이나 계정에 대해 구성된 추가 매개 변수를 포함한 키워드의 기본 URL입니다. 여기에는 검색, 소셜 및 Commerce 리디렉션 및 추적 코드가 포함되지 않습니다. |
 | [!UICONTROL Bid Strategy] | (대부분의 광고 네트워크) 캠페인 또는 캠페인 구성 요소의 경우 이것이 캠페인의 입찰 전략입니다. 관리자 계정에 연결된 광고 네트워크 계정의 경우 계정 간 입찰 전략입니다. 사용 가능한 값은 광고 네트워크에 따라 다릅니다. |
 | [!UICONTROL Business Name] | ([!DNL Microsoft Advertising] 반응형 광고) 비즈니스 이름입니다. |
 | [!UICONTROL Call to Action] | ([!DNL Microsoft Advertising] 반응형 및 멀티미디어 광고) 광고에 포함된 클릭 유도 문안. |
@@ -74,7 +74,7 @@ ht-degree: 0%
 | [!UICONTROL Cost] | 지정된 날짜 범위 동안의 광고에 대한 총 비용입니다. |
 | [!UICONTROL Country] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) 클릭이 시작된 국가입니다. 사용자의 IP 주소에서 결정됩니다. |
 | [!UICONTROL CPC] | 지정된 날짜 범위 동안의 광고에 대한 클릭당 비용(CPC). |
-| [!UICONTROL Creative Base URL] | 캠페인이나 계정에 대해 구성된 추가 매개 변수를 포함한 광고의 기본 URL입니다. 여기에는 검색, 소셜 및 상거래 리디렉션 및 추적 코드가 포함되지 않습니다. |
+| [!UICONTROL Creative Base URL] | 캠페인이나 계정에 대해 구성된 추가 매개 변수를 포함한 광고의 기본 URL입니다. 여기에는 검색, 소셜 및 Commerce 리디렉션 및 추적 코드가 포함되지 않습니다. |
 | [!UICONTROL Creative Destination URL] | 광고의 최종 URL 또는 대상 URL(추적 매개 변수 포함)입니다. |
 | [!UICONTROL Creative Name] | ([!DNL Yahoo! Japan] 만 해당) 광고 이미지 이름입니다. |
 | [!UICONTROL Creative Title], [!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | 광고의 제목 또는 헤드라인입니다. 각 크리에이티브 유형에는 필수 및 선택적 제목 줄 수가 다릅니다. 보려면 [!UICONTROL Creative Title4] 및 의 상위 열 [!DNL Microsoft Advertising] 반응형 광고 또는 멀티미디어 광고, 다음을 포함: &quot;[!UICONTROL Creative Titles]보고서 설정의 &quot;열. |
@@ -96,17 +96,17 @@ ht-degree: 0%
 | [!UICONTROL DMA] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) 클릭이 발생한 지정 시장 지역(예: Denver의 경우 751)입니다. 사용자의 IP 주소에서 결정됩니다. |
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report], [!UICONTROL Keyword Report]) 클릭이 시작된 도메인 이름입니다. |
 | [!UICONTROL eCPM] | 유효 CPM 또는 지정된 날짜 범위 동안 1000회 노출당 지급된 평균 비용입니다. eCPM 값은 CPM 또는 CPC 캠페인에 대해 계산됩니다. |
-| [!UICONTROL EF Campaign ID] | Search, Social 및 Commerce가 캠페인에 할당하는 숫자 ID입니다. |
+| [!UICONTROL EF Campaign ID] | Search, Social 및 Commerce이 캠페인에 할당하는 숫자 ID입니다. |
 | [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Adobe Advertising 전환 추적 서비스 및 &quot;[!UICONTROL EF Redirect]&quot;토큰을 사용한 추적 메서드) 클릭 또는 전환을 위한 토큰입니다.<ul><li>대상 [!DNL Google Ads] 검색 광고, EF ID: `{gclid}:G:s`: Google 클릭 ID(GCLID) 및 네트워크 유형(&quot;s&quot; for search)이 포함됩니다.</li><li> 대상 [!DNL Microsoft Advertising] 검색 광고, EF ID: `{msclkid}:G:s`: Microsoft 클릭 ID(MSCLKID) 및 네트워크 유형(&quot;s&quot; for search)이 포함됩니다.</li><li>다른 광고 네트워크의 검색 광고의 경우 EF ID에는 서퍼 ID, 클릭 시간 및 네트워크 유형이 포함됩니다.</li><li>디스플레이 광고의 경우 EF ID에는 서퍼 ID, 클릭 또는 노출 시간 및 네트워크 유형이 포함됩니다.</li></ul> |
-| [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]; 검색, 소셜 및 상거래의 경우 만 사용) 데이터를 정규화하는 데 사용되는 지리적 위치에 대한 내부 ID입니다. |
+| [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]; 검색, 소셜 및 Commerce의 경우 만 사용) 데이터를 정규화하는 데 사용되는 지리적 위치에 대한 내부 ID입니다. |
 | [!UICONTROL EF Portfolio Group ID] | 포트폴리오가 속한 포트폴리오 그룹의 숫자 ID입니다. |
-| [!UICONTROL EF Search Engine ID] | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID입니다.  <i>[!UICONTROL 3]</i> 대상 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 대상 [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> 대상 [!DNL Meta], <i>[!UICONTROL 86]</i> 대상 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 대상 [!DNL Naver], <i>[!UICONTROL 88]</i> 대상 [!DNL Baidu], <i>[!UICONTROL 90]</i> 대상 [!DNL Yandex], <i>[!UICONTROL 94]</i> 대상 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 대상 [!DNL Yahoo Native] (더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i> 대상 [!DNL Pinterest] (사용하지 않음). |
+| [!UICONTROL EF Search Engine ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다.  <i>[!UICONTROL 3]</i> 대상 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 대상 [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> 대상 [!DNL Meta], <i>[!UICONTROL 86]</i> 대상 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 대상 [!DNL Naver], <i>[!UICONTROL 88]</i> 대상 [!DNL Baidu], <i>[!UICONTROL 90]</i> 대상 [!DNL Yandex], <i>[!UICONTROL 94]</i> 대상 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 대상 [!DNL Yahoo Native] (더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i> 대상 [!DNL Pinterest] (사용하지 않음). |
 | [!UICONTROL End Date] | 마지막으로 보고된 날짜입니다. |
 | [!UICONTROL Engagement Rate] | (비디오 광고) 참여 수를 광고가 표시된 횟수로 나눈 값입니다. |
 | [!UICONTROL Engagements] | (비디오 광고) 사용자가 광고를 10초 이상 시청한 횟수나, 10초 미만인 경우 전체 광고입니다. |
 | [!UICONTROL Est. Clicks] | ([!UICONTROL Geo Distribution Report]; 검색 및 디스플레이 캠페인 전용) 광고 그룹/캠페인/포트폴리오 조합에 대한 예상 클릭 수입니다. 이 값은 광고 네트워크에서 제공한 값과 다를 수 있습니다. |
-| [!UICONTROL Estimated Cost] | Search, Social, Commerce에서 추적한 연결된 광고의 총 예상 비용입니다. 이 값은 광고 네트워크에서 제공한 값과 다를 수 있습니다. |
-| [!UICONTROL Estimated Impressions] | (캠페인만 표시) 검색, 소셜 및 상거래에서 추적한 예상 광고 노출 횟수. 이 값은 의 값과 다를 수 있습니다. [!UICONTROL Impressions] 광고 네트워크에서 제공한 값을 표시하는 열(사용 가능한 경우). |
+| [!UICONTROL Estimated Cost] | Search, Social 및 Commerce이 추적한 관련 광고의 총 예상 비용입니다. 이 값은 광고 네트워크에서 제공한 값과 다를 수 있습니다. |
+| [!UICONTROL Estimated Impressions] | (캠페인만 표시) Search, Social 및 Commerce에서 추적한 예상 광고 노출 횟수입니다. 이 값은 의 값과 다를 수 있습니다. [!UICONTROL Impressions] 광고 네트워크에서 제공한 값을 표시하는 열(사용 가능한 경우). |
 | [!UICONTROL Exclude (yes/no)] | 입찰이 제외되는지 여부(<i>[!UICONTROL Yes]</i>) 또는 입찰이 허용됩니다(<i>[!UICONTROL No]</i>)를 클릭하여 제품군에 맞는 광고를 제작할 수 있습니다. |
 | [!UICONTROL First Page CPC] | (Google 캠페인만 해당) 지정된 날짜 범위 동안 검색 결과의 첫 페이지에 표시되는 광고의 클릭당 비용(CPC)입니다. |
 | [!UICONTROL Frequency] | ([!DNL Meta] campaigns 전용) 누군가 내 광고를 본 평균 횟수입니다. |
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Interactions] | (비디오 광고) 사람들이 광고를 시청한 횟수입니다. |
 | [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> 포트폴리오에 캠페인이 포함된 경우 [!UICONTROL Maximize Clicks] 입찰 전략 및 <i>false</i> 그렇지 않으면. |
 | [!UICONTROL Keyword] | 키워드.<br><br><b>참고:</b> 보고서에 컨텐츠 사용 검색 캠페인의 광고 그룹 데이터가 포함된 경우 이 열에는 &quot;(광고 그룹 컨텐츠) 광고 그룹 이름&quot;과 같은 적용 가능한 광고 그룹 이름이 포함됩니다. 검색 캠페인의 사이트 타겟팅 배치의 경우 이 열에는 값이 없습니다. |
-| [!UICONTROL Keyword ID] | Search, Social 및 Commerce가 키워드에 할당하는 숫자 ID입니다. |
+| [!UICONTROL Keyword ID] | Search, Social 및 Commerce이 키워드에 할당하는 숫자 ID입니다. |
 | [!UICONTROL Keyword Status] | 검색어가 일치하는 키워드의 상태: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i>, 또는 <i>[!UICONTROL Disapproved]</i>. |
 | [!UICONTROL Label Classification] | ([!UICONTROL Label Classification Report] 및 [!UICONTROL Label Value Report]) 레이블 분류입니다. |
 | [!UICONTROL Label Value] | ([!UICONTROL Label Classification Report] 및 [!UICONTROL Label Value Report]) 레이블 분류에 대한 값입니다. |
@@ -160,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Product Groupings] | 상위 제품 그룹. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] 제품 목록 광고) 광고에 표시된 제품의 제품 ID입니다.<br><br><b>참고:</b> ID는 제품 목록에 추적 매개 변수가 포함된 경우에만 캡처됩니다 `ev_plx=<GMC product ID>`: 내에 추가해야 합니다. [!DNL Google Merchant Center]. |
 | [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) 전환 지표 매출(예: 한 개 등록의 경우 1, 12 USD 주문의 경우 12)입니다. 여러 입찰 단위에 동일한 거래 ID가 있는 경우 추적 ID의 매출은 지정된 클릭 날짜(클릭 데이터를 사용할 수 있을 때)의 클릭 수에 따라 분할됩니다. |
-| [!UICONTROL Reach] | ([!DNL Meta] 캠페인 전용) 광고를 한 번 이상 본 사람 수입니다. 참고: [!DNL Meta] 중복 제거는 매일 사용자 프로필에 도달하므로 다음에서 보고하는 숫자에 해당합니다. [!DNL Meta] 그리고 검색별로 소셜 및 상거래가 다를 수 있습니다. |
+| [!UICONTROL Reach] | ([!DNL Meta] 캠페인 전용) 광고를 한 번 이상 본 사람 수입니다. 참고: [!DNL Meta] 중복 제거는 매일 사용자 프로필에 도달하므로 다음에서 보고하는 숫자에 해당합니다. [!DNL Meta] 그리고 검색별로 소셜 및 Commerce이 다를 수 있습니다. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) 노출 또는 클릭이 시작된 지역 또는 미국/캐나다 주입니다. 사용자의 IP 주소에서 결정됩니다. |
 | [!UICONTROL SE Creative ID] | 네트워크에서 할당한 광고 ID입니다. |
 | [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 절대 상단 위치(유기 검색 결과 위의 첫 번째 광고)에서 받은 노출 횟수를 상단 위치에서 받을 수 있는 예상 노출 횟수로 나눈 값입니다. 10% 미만의 백분율은 &quot;로 표시됩니다.`<10%`&quot; 또는 &quot;`0.0999`.&quot; |
@@ -182,12 +182,12 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) 트랜잭션을 완료한 사용자의 ID입니다. |
 | [!UICONTROL Thru Plays] | ([!DNL Meta] 캠페인 전용) 광고 전체를 시청한 보기 수입니다. |
 | [!UICONTROL Top of Page CPC] | (Google 캠페인만 해당) 지정된 날짜 범위 동안 검색 결과 페이지의 맨 위에 표시되는 광고의 클릭당 비용(CPC)입니다. |
-| [!UICONTROL Tracking URL] | (검색 대상 키워드만 해당) 추적 템플릿 또는 검색, 소셜, 상거래 추적 코드에 포함된 대상 URL(해당되는 경우)입니다. |
+| [!UICONTROL Tracking URL] | (검색 대상 키워드만 해당) 추적 템플릿 또는 검색, 소셜 및 Commerce 추적 코드에 포함된 대상 URL(해당되는 경우)입니다. |
 | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) 트랜잭션이 크레딧되는 광고주별 전환 지표입니다. |
 | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) 지정된 전환 지표가 차감된 시간입니다. |
 | [!UICONTROL Two Second Continuous Video Plays] | ([!DNL Meta] 캠페인 전용) 비디오가 2초 이상 연속으로 재생된 횟수입니다. |
 | [!UICONTROL User Account Type] | 사용되지 않음 |
-| [!UICONTROL User SE Account ID] | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID입니다. |
+| [!UICONTROL User SE Account ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] 캠페인 전용) 단일 노출에 대해 비디오가 재생된 평균 시간(비디오 재생 시간 포함). |
 | [!UICONTROL Video Plays] | ([!DNL Meta] 캠페인만 해당) 비디오가 재생되기 시작하는 횟수입니다. 재생 횟수는 제외됩니다. |
 | [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], 및 [!UICONTROL Video Played at 100 Percent Count] | (비디오 광고) 끝까지 재생되는 비디오의 횟수는 25%, 50%, 75% 또는 100%입니다. |

@@ -3,9 +3,9 @@ title: 광고 복제
 description: 광고를 복제하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >광고는 DSP과 SSP가 모두 크리에이티브를 승인한 경우에만 제공됩니다. 각 SSP에는 고유한 승인 요구 사항 및 프로세스가 있습니다.
+   >광고는 DSP과 SSP가 모두 크리에이티브를 승인한 경우에만 제공할 수 있습니다. 각 SSP에는 고유한 승인 요구 사항 및 프로세스가 있습니다.
 
 >[!MORELIKETHIS]
 >
@@ -43,4 +43,3 @@ ht-degree: 0%
 >* [여러 타사 광고 만들기](ad-create-multiple.md)
 >* [광고 편집](ad-edit.md)
 >* [광고 사양](ad-specs.md)
-

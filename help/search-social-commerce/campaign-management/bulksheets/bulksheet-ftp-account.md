@@ -1,11 +1,11 @@
 ---
 title: Bulksheets 업로드를 위한 FTP 계정 설정
 description: 일괄 시트 파일 업로드를 위해 FTP 계정을 요청하는 방법을 알아봅니다.
-exl-id: 6867d705-b8ef-4066-81dd-8742a6f5b126
+exl-id: c8c70638-10ea-476c-8b02-921adb091ef9
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---

@@ -3,9 +3,9 @@ title: Advertising DSP의 광고 관리 정보
 description: 광고 관리에 대해 알아봅니다.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 9073400eb26957c63378bee90929009fcc82f78f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -39,27 +39,26 @@ DSP에서 다음 광고 유형을 모두 사용할 수 있습니다. 각 광고 
 
 * **범용 비디오 광고(타사 전용)**: 범용 비디오 광고를 사용하면 단일 비디오 배치를 사용하여 VPAID 및 VAST 인벤토리를 위해 데스크탑, 모바일 및 연결된 TV 환경에서 비디오 인벤토리를 타깃팅할 수 있습니다. 연결된 TV, 프리롤 및 모바일 프리롤 광고의 모든 기능을 결합하고 비디오 콘텐츠 전후에 표시됩니다. 범용 비디오에 대한 주요 성능 지표는 다음과 같습니다 [!UICONTROL Completion Rate] 및 [!UICONTROL Viewability Rate].
 
-   범용 비디오 광고는 범용 비디오 배치에만 첨부할 수 있습니다.
+  범용 비디오 광고는 범용 비디오 배치에만 첨부할 수 있습니다.
 
-   를 참조하십시오.[범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md)범용 비디오 광고에 대한 자세한 내용은 &quot;.
+  를 참조하십시오.[범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md)범용 비디오 광고에 대한 자세한 내용은 &quot;.
 
 ## DSP 광고 승인
 
 광고를 만들 때 DSP에서 중요한 카테고리에 대해 광고를 검토하고 URL 기능을 클릭한 다음 렌더링을 미리 봅니다.
 
-처음에는 [!UICONTROL Status] 열. 검토 프로세스는 일반적으로 24-48시간이 소요됩니다. 그러나 끊어진 광고는 48시간 이상 보류 상태일 수 있으므로 광고가 거부되기 전에 오류를 수정할 시간이 있습니다. 거부된 광고에는 거부 사유가 포함됩니다.
+처음에는 광고 [!UICONTROL Status] 열에는 빨간색 점이 표시됩니다. 검토 프로세스는 일반적으로 24-48시간이 소요됩니다. 그러나 끊어진 광고는 48시간 이상 보류 상태일 수 있으므로 광고가 거부되기 전에 오류를 수정할 시간이 있습니다. 거부된 광고에는 거부 사유가 포함됩니다.
 
-DSP이 광고를 승인하면 상태 열에 녹색 점이 표시됩니다.
+DSP이 광고를 승인하면 광고의 상태 열에 녹색 점이 표시됩니다.
 
 ![의 승인 표시기 [!UICONTROL Status] 열](/help/dsp/assets/ad-approval-status.png)
 
 >[!NOTE]
 >
->광고는 DSP과 SSP가 모두 크리에이티브를 승인한 경우에만 제공됩니다. 각 SSP에는 고유한 승인 요구 사항 및 프로세스가 있습니다.
+>광고는 DSP과 SSP가 모두 크리에이티브를 승인한 경우에만 제공할 수 있습니다. 각 SSP에는 고유한 승인 요구 사항 및 프로세스가 있습니다.
 
 >[!MORELIKETHIS]
 >
 >* [단일 광고 만들기](ad-create.md)
 >* [여러 타사 광고 만들기](ad-create-multiple.md)
 >* [광고 사양](ad-specs.md)
-

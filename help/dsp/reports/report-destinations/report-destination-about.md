@@ -3,7 +3,7 @@ title: 정보 [!UICONTROL Report Destinations]
 description: 사용자 지정 보고서의 게재 위치 관리에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->자격 증명이 유효한 한 기존 보고서 대상에 대한 자격 증명을 업데이트해도 보고서 전달이 중단되지 않습니다.
+>기존 보고서 대상에 대한 자격 증명을 업데이트해도 자격 증명이 유효한 한 보고서 배달이 중단되지 않습니다.
 
 ![보고서 대상](/help/dsp/assets/report-destinations.png)
 
@@ -43,4 +43,3 @@ ht-degree: 0%
 >* [[!UICONTROL Report Destination] 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [편집 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [삭제 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-

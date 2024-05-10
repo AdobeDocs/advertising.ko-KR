@@ -3,9 +3,9 @@ title: 전문 보고서 정보
 description: 전문 보고서에 대해 알아봅니다.
 exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 879cc2fa13475c90e92367b9fa0a9fa3d6203d7d
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-* [전문 보고서 생성](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
-* [특성 보고서 설정](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-* [특성 보고서에 대한 보고서 열](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
+>* [전문 보고서 생성](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [특성 보고서 설정](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [특성 보고서에 대한 보고서 열](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)

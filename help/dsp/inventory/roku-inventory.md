@@ -3,9 +3,9 @@ title: 사용 [!DNL Roku] 인벤토리
 description: 과의 DSP 파트너십에 대해 알아보기 [!DNL Roku], 인벤토리 옵션, 승인된 타사 추적 공급업체 및 모범 사례 포함 [!DNL Roku]-특정 배치.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ a) 와 직접 개인 거래 ID를 설정할 수 있습니다. [!DNL Roku] 그런
 >
 >[!DNL Roku] 오픈 마켓플레이스 및 거래소에서는 인벤토리를 사용할 수 없습니다.
 
-* 개인 거래를 위해, [DSP에서 거래 ID에 대한 정보 설정](/help/dsp/inventory/deal-id-create.md) 타겟팅[!UICONTROL Roku Network – Audience]&quot; 및 &quot;[!UICONTROL The Roku Channel – Audience]&quot; 다음 범위 내 [!DNL Roku] 배치.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals will show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* 개인 거래를 위해, [DSP에서 거래 ID에 대한 정보 설정](/help/dsp/inventory/deal-id-create.md) 타겟팅[!UICONTROL Roku Network – Audience]&quot; 및 &quot;[!UICONTROL The Roku Channel – Audience]&quot; 다음 범위 내 [!DNL Roku] 배치.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * 다음을 수행할 수 있습니다. [다음 구독 [!DNL Roku] 내 재고 [!DNL On Demand] 갤러리](/help/dsp/inventory/on-demand-inventory-subscribe.md)을 선택한 다음 내의 승인된 거래를 타겟팅합니다. [!DNL Roku] 배치:
 
@@ -71,8 +71,8 @@ DSP 캠페인에서, [만들기 [!DNL Roku]관련 배치](/help/dsp/campaign-man
 
 가장 빠른 설정의 경우:
 
-* 에 대해 항상 적용되는 기존 거래 Target [!DNL The Roku Channel] 위치: [[!DNL On Demand] 인벤토리](/help/dsp/inventory/on-demand-inventory-subscribe.md) 신속하게 액세스 [!DNL Roku] 소유 및 운영 재고.
-* 에 대해 항상 적용되는 기존 거래 Target [!DNL Roku Network] 위치: [[!DNL On Demand] 인벤토리](/help/dsp/inventory/on-demand-inventory-subscribe.md) 을(를) 통해 신속하게 확장 [!DNL Roku] 플랫폼.
+* 다음에 대한 기존의 상시 거래 대상 [!DNL The Roku Channel] 위치: [[!DNL On Demand] 인벤토리](/help/dsp/inventory/on-demand-inventory-subscribe.md) 신속하게 액세스 [!DNL Roku] 소유 및 운영 재고.
+* 다음에 대한 기존의 상시 거래 대상 [!DNL Roku Network] 위치: [[!DNL On Demand] 인벤토리](/help/dsp/inventory/on-demand-inventory-subscribe.md) 을(를) 통해 신속하게 확장 [!DNL Roku] 플랫폼.
 
 최대 크기 조절:
 
@@ -83,4 +83,3 @@ DSP 캠페인에서, [만들기 [!DNL Roku]관련 배치](/help/dsp/campaign-man
 >* [거래 ID 세부 정보 수동으로 만들기](/help/dsp/inventory/deal-id-create.md)
 > * [다음에 대한 구독 및 액세스 요청: [!DNL On Demand] 프리미엄 인벤토리 거래](/help/dsp/inventory/on-demand-inventory-subscribe.md)
 >* [배치 만들기](/help/dsp/campaign-management/placements/placement-create.md)
-

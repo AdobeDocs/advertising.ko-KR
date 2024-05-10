@@ -3,9 +3,9 @@ title: 배치 만들기
 description: 배치를 만드는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
       일부 필드에는 재정의할 수 있는 기본값이 있습니다.
 
-      배치가 할당된 패키지에 패키지 수준 간격 지정이 있는 경우 목표 및 간격 지정 설정이 패키지 설정을 반영합니다.
+      배치가 할당된 패키지에 패키지 수준 간격 지정이 있는 경우 목표 및 간격 지정 설정은 패키지 설정을 반영합니다.
 
    1. (선택 사항) [!UICONTROL Geo-Targeting] 섹션, 포함되거나 제외되는 위치의 범위를 좁힙니다.
 

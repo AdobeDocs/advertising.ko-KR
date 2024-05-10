@@ -3,9 +3,9 @@ title: 에 대한 AMO ID(s_kwcid) 추적 코드 업데이트 [!DNL Google Ads] a
 description: 에 대한 최신 AMO ID 추적 코드로 전환하는 방법에 대해 알아봅니다. [!DNL Google Ads] 계정입니다.
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 1. 마이그레이션을 시작한 후 필요에 따라 랜딩 페이지 접미사 설정(일부 광고 네트워크에서는 &quot;최종 URL 접미사&quot;라고 함)을 업데이트합니다.
 
-   * 다음의 경우 [!UICONTROL Auto Upload]&quot;추적 설정에서 기능을 활성화하면 검색, 소셜 및 상거래는 이 계정 및 해당 캠페인에 대한 랜딩 페이지 접미사의 추적 코드를 자동으로 업데이트합니다. 아무것도 안 해도 돼
+   * 다음의 경우 [!UICONTROL Auto Upload]&quot;기능은 추적 설정에서 활성화되며, 검색, 소셜 및 Commerce은 이 계정 및 해당 캠페인에 대한 랜딩 페이지 접미사의 추적 코드를 자동으로 업데이트합니다. 아무것도 안 해도 돼
 
    * 다음의 경우 [!UICONTROL Auto Upload]&quot;기능이 활성화되지 않았으므로 [서버측 AMO ID 기능](/help/integrations/analytics/ids.md#amo-id-formats)를 설치한 다음 랜딩 페이지 접미사 설정에서 AMO ID 매개 변수를 수동으로 업데이트해야 합니다. 계정 및 캠페인 설정에서 수동으로 또는 일괄 시트에서 변경 사항을 업로드하여 계정 및 캠페인 수준 접미사를 변경할 수 있습니다. 광고 그룹 수준 또는 하위 수준에서 접미사를 구성하려면 [!DNL Google Ads] 편집자.
 

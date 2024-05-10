@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Microsoft Advertising] 키워드 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 키워드.
-exl-id: 248f45c7-8b8c-46fe-a65a-66c50c630044
+exl-id: 82eee01f-db4b-4d1a-ae24-1ef65f8c6953
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---

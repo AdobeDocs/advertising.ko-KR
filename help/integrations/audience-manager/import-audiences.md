@@ -3,9 +3,9 @@ title: 광고 타깃팅을 위한 Adobe Audience Manager 세그먼트 가져오�
 description: 을(를) 가져오는 방법 알아보기 [!DNL Adobe] 대상을 Advertising DSP 및 Adobe Audience Manager을 사용한 검색
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Advertising DSP 및 [!DNL Advertising Search, Social, & Commerce] 는 각각 모
 
 * Adobe Experience Cloud을 사용하여 생성된 세그먼트 [!DNL Audience Library]
 
-* Adobe Experience Platform에서 생성되어 Audience Manager을 통해 Adobe 광고로 전송되는 세그먼트
+* Adobe Experience Platform에서 생성되어 Audience Manager을 통해 Adobe Advertising으로 전송되는 세그먼트
 
 액세스하려면 [!DNL Adobe] DSP 또는 의 대상 [!DNL Creative], 대상자를 DSP으로 가져와야 합니다. 액세스하려면 [!DNL Adobe] 의 대상 [!DNL Search, Social, & Commerce], 대상자를 (으)로 가져와야 합니다 [!DNL Search, Social, & Commerce].
 
@@ -28,11 +28,11 @@ Advertising DSP 및 [!DNL Advertising Search, Social, & Commerce] 는 각각 모
 
 * 광고주가 다음을 구현해야 합니다. [다음 [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) 버전 2.0 이상 다음 [!DNL Identity Service] 는 Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다.
 
-   구현에는 다음 항목 추가가 포함됩니다 [!DNL Identity service] 광고주 사이트의 각 웹 페이지에 코드를 추가합니다.
+  구현에는 다음 항목 추가가 포함됩니다 [!DNL Identity service] 광고주 사이트의 각 웹 페이지에 코드를 추가합니다.
 
 * 조직은 다음과 같아야 합니다. [Experience Cloud 서비스에 대해 활성화됨](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html) Experience Cloud [!DNL Organization ID] (이전 호출 [!DNL IMS org ID]).
 
-   다음 [!UICONTROL Organization ID] 여러 Adobe Experience Cloud 제품이 있는 조직이 일부 제품 간에 데이터를 공유할 수 있도록 합니다.
+  다음 [!UICONTROL Organization ID] 여러 Adobe Experience Cloud 제품이 있는 조직이 일부 제품 간에 데이터를 공유할 수 있도록 합니다.
 
 * (광고주: [!DNL Analytics]) 광고주는 [구현 [!DNL Analytics] 사용 `appMeasurement.js`](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) 버전 1.6.4 이상
 
@@ -40,13 +40,13 @@ Advertising DSP 및 [!DNL Advertising Search, Social, & Commerce] 는 각각 모
 
 * (광고주가 Audience Manager과 을 모두 사용할 때 권장됨) [!DNL Analytics]) 각 웹 페이지에 대한 호출을 줄이려면 기존 Audience Manager을 제거하십시오 [!DNL Data Integration Library] 데이터 수집을 위한 코드 및 각 코드에 대한 서버측 전달 활성화 [!DNL Analytics] 보고서 세트 를 사용하십시오. 자세한 내용은 &quot;[서버측 전달 개요](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
-* (권장) 일치율이 높으면 자사 웹 사이트 데이터만 Adobe 광고로 보냅니다. 광고주가 고객 관계 관리 시스템의 타사 데이터 또는 오프라인 데이터를 번들로 제공하는 경우 데이터 유출로 인해 일치율이 감소할 수 있습니다.
+* (권장) 일치율을 높이려면 자사 웹 사이트 데이터만 Adobe Advertising으로 보냅니다. 광고주가 고객 관계 관리 시스템의 타사 데이터 또는 오프라인 데이터를 번들로 제공하는 경우 데이터 유출로 인해 일치율이 감소할 수 있습니다.
 
 ## DSP에 Audience Manager 대상 가져오기
 
 ### 대상을 DSP으로 가져오는 단계
 
-다음 [!DNL Adobe] account 및 data operations 팀이 다음 단계를 수행합니다.
+다음 [!DNL Adobe] 계정 및 데이터 작업 팀은 다음 단계를 수행합니다.
 
 1. Adobe 계정 팀은 광고주 수준 설정 을 구성해야 합니다.[!UICONTROL Adobe Analytics Cloud].&quot;
 
@@ -64,7 +64,7 @@ API는 자동으로
 
 * 두 대상을 모든 Audience Manager 세그먼트에 매핑하여 Audience Manager이 동일한 Experience Cloud과 연결된 DSP 광고주 계정과 세그먼트를 공유할 수 있도록 합니다 [!DNL Organization ID] Audience Manager에 사용됩니다. <!-- Verify -->
 
-   조직은 선택적으로 Audience Manager 내의 대상에서 불필요한 세그먼트를 제거할 수 있습니다.
+  조직은 선택적으로 Audience Manager 내의 대상에서 불필요한 세그먼트를 제거할 수 있습니다.
 
 * 다음 Exchange 쿠키 동기화 픽셀을 조직의 Audience Manager 컨테이너에 추가하여 고객 캠페인의 도달 범위를 개선합니다.
 
@@ -74,7 +74,7 @@ API는 자동으로
 
 ### 대상자를 가져오는 단계 [!DNL Search, Social, & Commerce]
 
-[!DNL Adobe] 직원은 다음 단계 중 대부분 또는 모두를 수행합니다.
+[!DNL Adobe] 인력은 다음 단계를 대부분 또는 모두 수행합니다.
 
 1. Adobe 계정 팀은 데이터 운영 팀에 다음 작업 간의 통합을 설정하도록 요청을 제출해야 합니다. [!DNL Search, Social, & Commerce] Audience Manager. 내보낼 Audience Manager 세그먼트의 이름을 포함합니다 [!DNL Search, Social, & Commerce].
 
@@ -96,7 +96,7 @@ API는 자동으로
 
 ### 어떤 변경 사항이 Audience Manager을 발생시킵니까?
 
-조직에 두 개의 항목이 표시됩니다. [!DNL Search, Social, & Commerce] Audience Manager의 대상:
+2 [!DNL Search, Social, & Commerce] Audience Manager에서 조직이 대상을 사용할 수 있게 됩니다.
 
 * **[!UICONTROL Adobe Media Optimizer (HTTP)]**
 * **[!UICONTROL Adobe Media Optimizer Batch Destination])**
@@ -154,5 +154,4 @@ DSP에서 세그먼트 이름은 Audience Manager 분류법에 따라 구성되�
 
 >[!MORELIKETHIS]
 >
->* [Adobe Audience Manager과 Advertising 통합 Adobe](/help/integrations/audience-manager/overview.md)
-
+>* [Adobe Audience Manager과 통합 Adobe Advertising](/help/integrations/audience-manager/overview.md)

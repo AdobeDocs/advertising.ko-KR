@@ -1,11 +1,11 @@
 ---
 title: 정보 [!DNL Google Ads] 동적 검색 대상
 description: 다음에 대해 알아보기 [!DNL Google Ads] 동적 검색 대상.
-exl-id: 3936455b-926a-4a3f-b3df-54e92cdfdc99
+exl-id: e6a8a426-5848-4161-99f3-1140aa3e4b9f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]계정만*
 
-동적 검색 타겟은 광고 네트워크가 웹 사이트에 있는 페이지의 전체 또는 하위 집합을 사용하여 동적 검색 광고를 타깃팅할지 여부를 정의합니다. 광고 그룹 수준에서 동적 검색 대상을 구성합니다. 동일한 광고 그룹의 모든 동적 검색 광고에 적용됩니다.
+동적 검색 타겟은 광고 네트워크가 웹 사이트의 모든 페이지를 사용하는지 또는 페이지의 하위 집합을 사용하여 동적 검색 광고를 타깃팅하는지 여부를 정의합니다. 광고 그룹 수준에서 동적 검색 대상을 구성합니다. 동일한 광고 그룹의 모든 동적 검색 광고에 적용됩니다.
 
 캠페인 설정에 따라 동적 검색 타겟이 필요하거나 선택 사항일 수 있습니다.
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 다음 [!UICONTROL Auto Targets] 보기
 
-에서 동적 검색 대상의 상태를 만들고, 편집하고, 변경할 수 있습니다. [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] 보기.
+에서 동적 검색 대상의 상태를 만들고, 편집하고, 변경할 수 있습니다 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] 보기.
 
 다음을 수행할 수도 있습니다 [레이블 적용](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md) 모든 타겟에
 

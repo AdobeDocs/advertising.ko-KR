@@ -3,9 +3,9 @@ title: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Ado
 description: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3212'
+source-wordcount: '3205'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ ht-degree: 0%
 
 * **서로 다른 전환 확인 기간으로 인해 발생하는 불일치의 예:**
 
-  Adobe Advertising에 60일 클릭 전환 확인 기간이 있고 [!DNL Analytics] 에는 30일 전환 확인 기간이 있습니다. 그리고 사용자가 Adobe Advertising이 추적된 광고를 통해 사이트를 방문하고 45일에 돌아간 다음 전환한다고 가정해 봅시다. Adobe Advertising은 전환이 60일 전환 확인 기간 내에 발생했으므로 전환을 초기 방문으로 지정합니다. [!DNL Analytics]그러나 30일 전환 확인 기간이 만료된 후 전환이 발생했으므로 초기 방문으로 전환을 지정할 수 없습니다. 이 예에서 Adobe Advertising은 보다 많은 전환 수를 보고합니다. [!DNL Analytics] 그럴 거예요
+  Adobe Advertising에 60일 클릭 전환 확인 기간이 있고 [!DNL Analytics] 에는 30일 전환 확인 기간이 있습니다. 그리고 사용자가 Adobe Advertising이 추적된 광고를 통해 사이트를 방문하고 45일에 돌아간 다음 전환한다고 가정해 봅시다. Adobe Advertising은 전환이 60일 전환 확인 기간 내에 발생했으므로 초기 방문으로 전환을 지정합니다. [!DNL Analytics]그러나 30일 전환 확인 기간이 만료된 후 전환이 발생했으므로 초기 방문으로 전환을 지정할 수 없습니다. 이 예에서 Adobe Advertising은 보다 많은 전환 수를 보고합니다. [!DNL Analytics] 그렇지.
 
   ![Adobe Advertising에 속하지만 그렇지 않은 전환의 예 [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
 * **다른 속성 모델로 인해 발생하는 불일치의 예:**
 
-  사용자가 전환하기 전에 수입을 전환 유형으로 하여 세 개의 서로 다른 Adobe Advertising 광고와 상호 작용한다고 가정해 봅시다. Adobe Advertising 보고서가 속성에 대해 고른 배포 모델을 사용하는 경우 모든 광고에서 고르게 매출을 연결합니다. If [!DNL Analytics] 는 마지막 터치 속성 모델을 사용하지만, 매출을 마지막 광고에 귀속시킵니다. 다음 예에서 Adobe Advertising은 세 개의 광고 각각에 캡처된 매출 30USD 중 10USD를 기여합니다. [!DNL Analytics] 사용자가 본 마지막 광고에 대한 매출 30USD의 모든 속성을 표시합니다. Adobe Advertising 및 의 보고서를 비교할 때 [!DNL Analytics], 속성 차이의 영향을 확인할 수 있습니다.
+  사용자가 전환하기 전에 수입을 전환 유형으로 하여 세 개의 서로 다른 Adobe Advertising 광고와 상호 작용한다고 가정해 봅시다. Adobe Advertising 보고서에서 속성에 대해 고른 분배 모델을 사용하는 경우 모든 광고에서 고르게 매출을 기여합니다. If [!DNL Analytics] 는 마지막 터치 속성 모델을 사용한 다음, 매출을 마지막 광고에 기여합니다. 다음 예에서 Adobe Advertising은 세 개의 광고 각각에 캡처된 매출 30USD 중 10USD를 기여합니다. [!DNL Analytics] 사용자가 본 마지막 광고에 대한 매출 30USD의 모든 속성을 표시합니다. Adobe Advertising 및 의 보고서를 비교할 때 [!DNL Analytics], 속성 차이의 영향을 확인할 수 있습니다.
 
   ![Adobe Advertising 및 로 인한 다양한 수익 [!DNL Analytics] 다양한 속성 모델 기반](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -110,7 +110,7 @@ Adobe Advertising에서 연결된 클릭 날짜/이벤트 날짜(클릭 또는 �
 
 ### 에서 잠재적으로 다른 속성 모델 [!DNL Marketing Channels]
 
-가장 [!DNL Marketing Channels] 보고서는 [!UICONTROL Last Touch] 마지막으로 감지된 마케팅 채널에 전환 값의 100%가 지정되는 속성. 에 대해 다양한 속성 모델 사용 [!DNL Marketing Channels] 보고서와 Adobe Advertising 보고서는 속성 전환의 불일치를 초래합니다.
+가장 [!DNL Marketing Channels] 보고서는 [!UICONTROL Last Touch] 마지막으로 감지된 마케팅 채널에 전환 값의 100%가 지정되는 속성. 에 대해 다양한 속성 모델 사용 [!DNL Marketing Channels] 보고서 및 Adobe Advertising 보고서는 속성 전환의 불일치를 초래합니다.
 
 ### 의 잠재적으로 다른 전환 확인 기간 [!DNL Marketing Channels]
 
@@ -230,13 +230,13 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 또한 모바일 디바이스에 로드된 사이트는 낮은 대역폭이나 사용 가능한 처리 능력 때문에 클릭스루가 발생할 가능성이 낮으므로 랜딩 페이지를 로드하는 데 더 오래 걸립니다. 클릭 수의 50~70%가 클릭스루로 이어지지 않는 일은 드물지 않습니다. 모바일 환경에서는 브라우저가 느리고 사용자가 페이지를 스크롤하거나 광고를 닫으려고 하는 동안 실수로 광고를 클릭할 가능성이 높기 때문에 차이가 90%까지 클 수 있습니다.
 
-클릭 데이터는 현재 추적 메커니즘(예: 모바일 앱으로 들어가는 클릭 수 또는 모바일 앱으로부터의 클릭 수)으로 클릭스루를 기록할 수 없거나 광고주가 하나의 추적 접근 방식만 배포한 환경에 기록될 수 있습니다(예: 뷰스루 JavaScript 접근 방식을 사용할 경우 서드파티 쿠키를 차단하는 브라우저는 클릭스루가 아닌 클릭 수를 추적합니다). Adobe에서 클릭 URL 추적 및 뷰스루 JavaScript 추적 접근 방식을 모두 배포하도록 권장하는 주요 이유는 추적 가능한 클릭스루의 범위를 최대화하기 위해서입니다.
+클릭 데이터는 현재 추적 메커니즘(예: 모바일 앱으로 들어가는 클릭 수 또는 모바일 앱에서의 클릭 수)으로 클릭스루를 기록할 수 없거나 광고주가 하나의 추적 접근 방식만 배포한 환경에 기록될 수 있습니다(예: 뷰스루 JavaScript 접근 방식을 사용할 경우 서드파티 쿠키를 차단하는 브라우저는 클릭스루를 추적하지만 추적하지 않음). Adobe에서 클릭 URL 추적 및 뷰스루 JavaScript 추적 접근 방식을 모두 배포하도록 권장하는 주요 이유는 추적 가능한 클릭스루의 범위를 최대화하기 위해서입니다.
 
 ### 비 Adobe Advertising Dimension에 대한 Adobe Advertising 트래픽 지표 사용
 
 Adobe Advertising은 Analytics에 [광고 특정 트래픽 지표 및 관련 차원 [!DNL DSP] 및 [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Adobe Advertising이 제공한 지표는 지정된 Adobe Advertising 차원에만 적용할 수 있고 의 다른 차원에는 데이터를 사용할 수 없습니다. [!DNL Analytics].
 
-예를 들어 [!UICONTROL Adobe Advertising Clicks] 및 [!UICONTROL Adobe Advertising Cost] 계정별 지표: Adobe Advertising 차원으로서, 합계 [!UICONTROL Adobe Advertising Clicks] 및 [!UICONTROL Adobe Advertising Cost] 계정별.
+예를 들어 [!UICONTROL Adobe Advertising Clicks] 및 [!UICONTROL Adobe Advertising Cost] 계정별 지표: Adobe Advertising 차원, 합계 [!UICONTROL Adobe Advertising Clicks] 및 [!UICONTROL Adobe Advertising Cost] 은 계정별로 표시됩니다.
 
 ![Adobe Advertising 차원을 사용한 보고서의 Adobe Advertising 지표 예](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 

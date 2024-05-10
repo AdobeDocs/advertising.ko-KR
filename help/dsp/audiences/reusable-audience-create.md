@@ -3,9 +3,9 @@ title: 재사용 가능한 대상 만들기
 description: 대상 세그먼트 및 기타 저장된 대상으로 구성된 재사용 가능한 대상을 만드는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: eb3ce7d8bcddf52844b50797a95cb3b5aec13684
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. (선택 사항) 다음 옵션을 선택 취소합니다. **[!UICONTROL Share with all advertisers in my account]**.
 
-   대상을 공유하면 해당 대상은 계정 내의 모든 광고주에게 타겟 또는 제외로 사용할 수 있습니다. 그러나 대상자의 개별 세그먼트는 세그먼트가 공유된 사용자만 사용할 수 있습니다. 예를 들어 Adobe Analytics 세그먼트가 포함된 대상자를 동일한 대상에 매핑되지 않은 광고주와 공유하는 경우 [!DNL Analytics] 계정이 있는 경우 세그먼트는 해당 광고주를 위해 해당 대상자에서 미리보기를 하지 않습니다. 해당 광고주가 사용할 수 있는 세그먼트만 대상에서 미리 봅니다.
+   대상을 공유하면 해당 대상은 계정 내의 모든 광고주에게 타겟 또는 제외로 사용할 수 있습니다. 그러나 대상자의 개별 세그먼트는 세그먼트가 공유된 사용자만 사용할 수 있습니다. 예를 들어 동일한 대상에 매핑되지 않은 광고주와 Adobe Analytics 세그먼트가 포함된 대상을 공유하는 경우 [!DNL Analytics] 그러면 해당 광고주의 해당 대상에서 세그먼트가 미리보기되지 않습니다. 해당 광고주가 사용할 수 있는 세그먼트만 대상에서 미리 봅니다.
 
 1. 클릭 **[!UICONTROL Save]**.
 

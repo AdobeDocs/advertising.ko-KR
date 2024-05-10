@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # GGL 및 MS 검색 캠페인 설정의 웹 사이트 도메인 필드
 
-**[!UICONTROL Website Domain]:** (검색 네트워크만 해당, 확장된 동적 검색 광고에만 적용) 광고 네트워크에서 동적 검색 광고를 타깃팅하는 데 사용할 콘텐츠가 있는 웹 사이트의 루트 도메인(예: example.com) 또는 하위 도메인(예: shoes.example.com)입니다.
+**[!UICONTROL Website Domain]:** (검색 네트워크만 해당, 확장된 동적 검색 광고에만 적용) 광고 네트워크가 동적 검색 광고를 타깃팅하는 데 사용해야 하는 콘텐츠를 가진 웹 사이트의 루트 도메인(예: example.com) 또는 하위 도메인(예: shoes.example.com)입니다.
 
 **참고:**
 

@@ -1,11 +1,11 @@
 ---
 title: 변환 피드 파일에 대한 파일 요구 사항
 description: 전환 피드 파일에 대한 요구 사항을 참조하십시오.
-exl-id: 7d865802-0ab9-4965-9618-6bc0667f4939
+exl-id: abc28394-3e00-447f-a04e-078fa9883a64
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 파일 전송 프로토콜
 
-포트 22를 사용하여 SFTP 전송 프로토콜을 통해 파일을 전송합니다. 공개 키 정보를 제공해야 합니다.  Adobe 계정 팀이나 구현 팀은 시스템이 파일을 전송하는 데 필요한 자격 증명과 함께 서버 위치를 제공합니다.
+포트 22를 사용하여 SFTP 전송 프로토콜을 통해 파일을 전송합니다. 공개 키 정보를 제공해야 합니다.  Adobe 계정 팀 또는 구현 팀은 시스템이 파일을 전송하는 데 필요한 자격 증명과 함께 서버 위치를 제공합니다.
 
 >[!TIP]
 >

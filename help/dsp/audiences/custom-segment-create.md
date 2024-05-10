@@ -3,9 +3,9 @@ title: 사용자 지정 세그먼트 만들기 및 구현
 description: 광고에 노출된 사용자 또는 웹 페이지를 방문하는 사용자를 추적하기 위해 사용자 지정 세그먼트를 만들고 구현하는 방법에 대해 알아봅니다.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: fcce2b2ba7ab9717e83b05ddf8f22399f6b2e28e
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -59,13 +59,13 @@ ht-degree: 0%
 
       기본 기간은 45일입니다. 1에서 365 사이의 값을 입력하십시오.
 
-   1. 클릭 **[!UICONTROL Advanced]** 고급 설정을 확장한 다음 세그먼트 태그가 추적할 사용자 식별자 유형을 선택합니다.
+   1. 클릭 **[!UICONTROL Advanced]** 고급 설정을 확장한 다음 세그먼트 태그가 추적하는 사용자 식별자 유형을 선택합니다.
 
       * *[!UICONTROL Cookies]:* (기본값) 세그먼트 태그는 쿠키를 추적합니다.
 
       * [!UICONTROL Universal IDs (Beta)]:
 
-         * *[!UICONTROL ID5]:* 세그먼트 태그가 추적됩니다. [!DNL ID5] ID 범용 ID에 게재되는 노출에 대해서는 요금이 부과되지 않습니다.
+         * *[!UICONTROL ID5]:* 세그먼트 태그가 추적합니다 [!DNL ID5] ID 범용 ID에 게재되는 노출에 대해서는 요금이 부과되지 않습니다.
 
         **[!UICONTROL Terms of Service]:** 범용 ID 사용에 대한 서비스 약관. 귀하 또는 DSP 계정의 다른 사용자는 새 ID 유형에 범용 ID를 사용하기 전에 약관에 한 번 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 귀하의 동의를 받고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 다음을 클릭합니다. **>**. 용어를 수락하려면 약관의 맨 아래로 스크롤하여 을 클릭합니다 **[!UICONTROL Accept]**.
 

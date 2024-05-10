@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Baidu] 텍스트 광고 설정'
 description: 다음에 대한 설정 참조 [!DNL Baidu] 텍스트 광고.
-exl-id: 68165d1f-a7ef-4b2a-ae5d-36190fb49d77
+exl-id: 1c914e8a-e39b-477e-9c19-919ffedc30c7
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display URL]:** 광고에 표시되는 URL. 최대 길이는 35개의 1바이트 문자입니다.
 
-**[!UICONTROL Mobile Preferred]:** (선택 사항) 네트워크에서 데스크탑 또는 태블릿 사용자가 아닌 모바일 장치 사용자에게 광고 또는 광고 확장을 표시하려고 할 수 있습니다. 기본적으로 옵션은 활성화되어 있지 않고 광고가 모든 장치 유형에 표시됩니다.
+**[!UICONTROL Mobile Preferred]:** (선택 사항) 네트워크에서 데스크탑 또는 태블릿 사용자가 아닌 모바일 장치 사용자에게 광고 또는 광고 확장을 표시하려고 할 수 있습니다. 기본적으로 이 옵션은 활성화되어 있지 않고 모든 장치 유형에 광고가 표시될 수 있습니다.
 
 >[!NOTE]
 >

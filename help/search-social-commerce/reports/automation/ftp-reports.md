@@ -1,9 +1,9 @@
 ---
 title: 보고서에 대한 FTP 액세스
 description: 읽기 전용 FTP 위치에서 보고서를 받는 방법을 알아봅니다.
-exl-id: 69850b68-0309-4f07-b4cb-c14488219a4b
+exl-id: eca9f033-5b1b-4afa-926b-b4c31e2dede3
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * 보고서 액세스를 위한 FTP 계정을 설정하려면 Adobe 계정 팀에 문의하십시오.
 
-  팀이 사용자 이름과 암호를 제공합니다.
+  팀에서 사용자 이름과 암호를 제공합니다.
 
 ## FTP 게재용 보고서 템플릿 설정
 

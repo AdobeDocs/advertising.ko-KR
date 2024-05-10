@@ -3,9 +3,9 @@ title: 다음에 대한 필수 일괄 시트 데이터 [!DNL Google Ads] 계정
 description: Bulksheets의 필수 헤더 필드 및 데이터 필드 참조 [!DNL Google Ads] 계정.
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '7860'
+source-wordcount: '7855'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,8 @@ ht-degree: 0%
 | [!UICONTROL Delivery Method] | 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Channel Type] | 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Networks] | 캠페인을 만드는 데 필요합니다. |
-| [!UICONTROL DSA Domain Name] | 동적 검색 광고가 포함될 검색 네트워크에서 캠페인을 만드는 데 필요합니다. |
-| [!UICONTROL DSA Domain Language] | 동적 검색 광고가 포함될 검색 네트워크에서 캠페인을 만드는 데 필요합니다. |
+| [!UICONTROL DSA Domain Name] | 검색 네트워크에서 동적 검색 광고를 사용하여 캠페인을 만드는 데 필요합니다. |
+| [!UICONTROL DSA Domain Language] | 검색 네트워크에서 동적 검색 광고를 사용하여 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Campaign Priority] | 쇼핑 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Merchant ID] | 쇼핑 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Sales Country] | 쇼핑 캠페인을 만드는 데 필요합니다. |

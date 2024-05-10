@@ -3,9 +3,9 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## 메인 메뉴
 
-* **[!UICONTROL Search]** — Search, Social, Commerce에서 추적 중이지만 입찰이 아닌 계정을 포함하여 Search, Social, Commerce 내에서 광고 네트워크 계정을 관리합니다.
+* **[!UICONTROL Search]** — Search, Social 및 Commerce에서 추적 중이지만 입찰이 아닌 계정을 포함하여 Search, Social 및 Commerce 내에서 광고 네트워크 계정을 관리합니다.
 
 ## [!UICONTROL Search] 메뉴
 
-아래 [!UICONTROL Search] 옵션을 선택하면 다음 하위 메뉴가 표시됩니다. 사용 가능한 옵션은 역할에 따라 결정됩니다.
+다음 [!UICONTROL Search] option에는 다음 하위 메뉴가 포함되어 있습니다. 사용 가능한 옵션은 역할에 따라 결정됩니다.
 
 * **[!UICONTROL Campaigns]** — 이 메뉴에는 관리 또는 추적 중인 광고 계정 및 캠페인에 대한 정보를 보고 관리하는 옵션이 포함되어 있습니다. 광고 네트워크 및 역할에 따라 계정 및 캠페인과 해당 구성 요소를 만들고 편집할 수 있습니다. 다양한 계정 구성 요소에 지정할 수 있는 레이블 분류를 관리할 수도 있습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * (해당되는 경우) 관리 중인 광고주의 선택 가능한 목록입니다.
 
-* ![경고 알림](/help/search-social-commerce/assets/notifications-panel.png "경고 알림") 검색, 소셜 및 상거래 알림을 나열하는 패널.
+* ![경고 알림](/help/search-social-commerce/assets/notifications-panel.png "경고 알림") 검색, 소셜 및 Commerce 알림이 나열된 패널입니다.
 
   다음 작업을 수행하는 경우 [Adobe Experience Cloud을 통해 로그인함](log-in.md), 이 패널에는 Experience Cloud의 알림이 표시됩니다.
 

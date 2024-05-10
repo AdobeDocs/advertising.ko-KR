@@ -3,9 +3,9 @@ title: 광고 설정 표시
 description: 디스플레이 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final Display Code]:** (타사 광고만 해당) 타사 크리에이티브 에셋의 URL로서 필요한 경우 [Advertising DSP 추적 매크로](/help/dsp/campaign-management/macros.md) 해당하는 경우 삽입됩니다.
 
-**[!UICONTROL Ad Size]:** 광고의 너비 및 높이입니다. 다음이어야 합니다. [지원되는 표준 디스플레이 광고 크기](ad-specs.md). 광고를 업로드하거나 입력하기 전에 광고 크기를 수동으로 입력할 수 있습니다. [!UICONTROL Display Code]. 광고 크기를 입력하지 않으면 업로드된 광고 또는 광고 태그의 차원이 자동으로 읽기 전용으로 입력됩니다. 크기가 표준 디스플레이 크기(예: 300x250 광고 크기 대신 301x250)에 없는 경우 디스플레이 광고가 저장되지 않습니다.
+**[!UICONTROL Ad Size]:** 광고의 너비 및 높이입니다. 다음이어야 합니다. [지원되는 표준 디스플레이 광고 크기](ad-specs.md). 광고를 업로드하거나 입력하기 전에 광고 크기를 수동으로 입력할 수 있습니다. [!UICONTROL Display Code]. 광고 크기를 입력하지 않으면 업로드된 광고 또는 광고 태그의 차원이 자동으로 읽기 전용으로 입력됩니다.
 
 >[!IMPORTANT]
 >
