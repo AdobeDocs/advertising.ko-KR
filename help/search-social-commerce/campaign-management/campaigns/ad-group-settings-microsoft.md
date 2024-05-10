@@ -3,9 +3,9 @@ title: '[!DNL Microsoft® Advertising] 광고 그룹 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 광고 그룹.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -76,33 +76,33 @@ ht-degree: 0%
 
 * 모든 값을 대상으로 지정하려면 값을 선택하지 마십시오.
 
-* 값을 포함하려면 옆에 있는 원을 한 번 클릭하여 파란색 확인 표시(![포함](/help/search-social-commerce/assets/include.png "포함"))가 표시됩니다. 선택적으로 타겟팅된 각 성별에 대해 지정된 백분율만큼 입찰을 늘리거나 줄일 수 있습니다.
+* 값을 포함하려면 파란색 확인 표시(![포함](/help/search-social-commerce/assets/include.png "포함"))가 표시됩니다. 선택적으로 타겟팅된 각 성별에 대해 지정된 백분율만큼 입찰을 늘리거나 줄일 수 있습니다.
 
-* 값을 제외하려면 빨간색 확인 표시( )가 표시되도록 옆에 있는 원을 두 번 클릭합니다.![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
+* 값을 제외하려면 인접한 원을 두 번 클릭하여 빨간색 확인 표시(![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
 
 **[!UICONTROL Age]:** (대상 광고 그룹, 선택 사항) 대상으로 포함하거나 제외할 특정 연령 범주: *[!UICONTROL 18-24]*, *[!UICONTROL 25-34]*, *[!UICONTROL 35-49]*, *[!UICONTROL 50-64]*, *[!UICONTROL 65+]*, 및 *[!UICONTROL Unknown]*. 기본적으로 모든 연령이 타겟팅됩니다. 제외는 항상 포함을 무시합니다.
 
 * 모든 값을 대상으로 지정하려면 값을 선택하지 마십시오.
 
-* 값을 포함하려면 옆에 있는 원을 한 번 클릭하여 파란색 확인 표시(![포함](/help/search-social-commerce/assets/include.png "포함"))가 표시됩니다. 타겟팅된 각 기간에 대해 지정된 퍼센트만큼 입찰가를 선택적으로 늘리거나 줄일 수 있습니다.
+* 값을 포함하려면 파란색 확인 표시(![포함](/help/search-social-commerce/assets/include.png "포함"))가 표시됩니다. 타겟팅된 각 기간에 대해 지정된 퍼센트만큼 입찰가를 선택적으로 늘리거나 줄일 수 있습니다.
 
-* 값을 제외하려면 빨간색 확인 표시( )가 표시되도록 옆에 있는 원을 두 번 클릭합니다.![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
+* 값을 제외하려면 인접한 원을 두 번 클릭하여 빨간색 확인 표시(![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
 
 **[!UICONTROL Industry]:** (대상 광고 그룹, 선택 사항) 타겟으로 포함하거나 제외할 특정 업계. 기본적으로 모든 업종이 타깃팅됩니다. 제외는 항상 포함을 무시합니다.
 
 * 모든 값을 대상으로 지정하려면 값을 선택하지 마십시오.
 
-* 값을 포함하려면 옆에 있는 원을 한 번 클릭하여 파란색 확인 표시(![포함](/help/search-social-commerce/assets/include.png "포함"))가 표시됩니다. 타겟팅된 각 산업에 대해 지정된 퍼센트만큼 입찰을 선택적으로 증가 또는 감소시킬 수 있습니다.
+* 값을 포함하려면 파란색 확인 표시(![포함](/help/search-social-commerce/assets/include.png "포함"))가 표시됩니다. 타겟팅된 각 산업에 대해 지정된 퍼센트만큼 입찰을 선택적으로 증가 또는 감소시킬 수 있습니다.
 
-* 값을 제외하려면 빨간색 확인 표시( )가 표시되도록 옆에 있는 원을 두 번 클릭합니다.![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
+* 값을 제외하려면 인접한 원을 두 번 클릭하여 빨간색 확인 표시(![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
 
 **[!UICONTROL Job Function Targets]:** (대상 광고 그룹, 선택 사항) 타겟으로 포함하거나 제외할 특정 작업 기능입니다. 기본적으로 모든 작업 기능은 타깃팅됩니다. 제외는 항상 포함을 무시합니다.
 
 * 모든 값을 대상으로 지정하려면 값을 선택하지 마십시오.
 
-* 값을 포함하려면 옆에 있는 원을 한 번 클릭하여 파란색 확인 표시(![포함](/help/search-social-commerce/assets/include.png "포함"))가 표시됩니다. 선택적으로 타겟팅된 각 작업 기능에 대해 지정된 퍼센트만큼 입찰을 늘리거나 줄일 수 있습니다.
+* 값을 포함하려면 파란색 확인 표시(![포함](/help/search-social-commerce/assets/include.png "포함"))가 표시됩니다. 선택적으로 타겟팅된 각 작업 기능에 대해 지정된 퍼센트만큼 입찰을 늘리거나 줄일 수 있습니다.
 
-* 값을 제외하려면 빨간색 확인 표시( )가 표시되도록 옆에 있는 원을 두 번 클릭합니다.![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
+* 값을 제외하려면 인접한 원을 두 번 클릭하여 빨간색 확인 표시(![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
 
 ## [!UICONTROL URL Options]
 

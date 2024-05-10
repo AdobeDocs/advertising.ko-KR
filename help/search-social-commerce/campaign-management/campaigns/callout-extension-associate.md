@@ -1,11 +1,11 @@
 ---
 title: 연결 [!DNL Google Ads] 캠페인 또는 광고 그룹과 공유된 콜아웃 확장
 description: 할당 방법 알아보기 [!DNL Google Ads] 캠페인 또는 광고 그룹에 대한 공유 설명선 확장.
-exl-id: 17ee3de7-562e-4ed4-bf03-3b5e728d8a68
+exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
       * (선택 사항) 캠페인 목록 또는 광고 그룹 목록을 이름에 포함된 텍스트 문자열로 필터링하려면 다음을 클릭하십시오. ![필터](/help/search-social-commerce/assets/filter.png "필터")를 입력하거나 텍스트 문자열을 입력 필드에 붙여넣은 다음 **입력** 키.
 
-      * 엔티티를 선택하려면 엔티티 옆에 있는 원(![선택](/help/search-social-commerce/assets/include.png "선택")).
+      * 엔티티를 선택하려면 인접한 원(![선택](/help/search-social-commerce/assets/include.png "선택")).
 
    1. 클릭 **[!UICONTROL Post]**.
 

@@ -1,11 +1,11 @@
 ---
 title: 캠페인 및 광고 그룹에 대한 대상자 타겟 관리
 description: 에 대한 대상 타겟을 구성 및 관리하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 캠페인 및 광고 그룹.
-exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
       1. (선택 사항) 캠페인 목록 또는 광고 그룹 목록을 이름에 포함된 텍스트 문자열로 필터링하려면 다음을 클릭하십시오. ![필터](/help/search-social-commerce/assets/filter.png "필터") 를 입력하거나 텍스트 문자열을 입력 필드에 붙여넣은 다음 **[!UICONTROL Enter]** 키.
 
-      1. 파란색 확인 표시( )가 표시되도록 옆에 있는 빈 원을 클릭하여 지정된 광고 네트워크에 대한 각 캠페인 및 광고 그룹 대상을 지정합니다.![선택](/help/search-social-commerce/assets/include.png "선택"))가 표시됩니다.
+      1. 파란색 확인 표시( )가 표시되도록 인접한 빈 원을 클릭하여 지정된 광고 네트워크에 대한 각 캠페인 및 광고 그룹 대상을 지정합니다.![선택](/help/search-social-commerce/assets/include.png "선택"))가 표시됩니다.
 
       상위 캠페인과 하위 광고 그룹(자동으로 타겟을 사용)에 대한 타겟을 모두 구성할 수는 없습니다.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->상위 캠페인이 CPC 입찰 전략을 사용하고 대상자 타겟에 대한 입찰 조정 값을 자동 최적화하도록 구성된 포트폴리오에 있는 경우 검색, 소셜 및 상거래는 입찰 수정자를 자동으로 최적화합니다.
+>상위 캠페인이 CPC 입찰 전략을 사용하고 대상자 타겟에 대한 입찰 조정 값을 자동 최적화하도록 구성된 포트폴리오에 있는 경우 검색, 소셜 및 Commerce은 입찰 수정자를 자동으로 최적화합니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 

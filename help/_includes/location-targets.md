@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 * 모든 위치를 타깃팅하려면 위치를 선택하지 마십시오.
 
-* 위치와 자식 위치를 포함하려면 파란색 확인 표시가 되도록 옆에 있는 원을 한 번 클릭합니다(![포함](/help/search-social-commerce/assets/include.png "포함"))가 표시됩니다. 선택적으로 타겟팅된 각 위치에 대해 지정된 퍼센트만큼 입찰을 늘리거나 줄일 수 있습니다.
+* 위치와 자식 위치를 포함하려면 파란색 확인 표시가 되도록 인접한 원을 한 번 클릭합니다(![포함](/help/search-social-commerce/assets/include.png "포함"))가 표시됩니다. 선택적으로 타겟팅된 각 위치에 대해 지정된 퍼센트만큼 입찰을 늘리거나 줄일 수 있습니다.
 
-* 위치를 제외하려면 빨간색 확인 표시()가 되도록 옆에 있는 원을 두 번 클릭합니다.![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
+* 위치를 제외하려면 인접한 원을 두 번 클릭하여 빨간색 확인 표시(![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
 
 * 위치를 해당 하위 구성 요소(예: 주, 현, 지역 또는 도시)로 확장하려면 위치 이름을 클릭합니다.
 

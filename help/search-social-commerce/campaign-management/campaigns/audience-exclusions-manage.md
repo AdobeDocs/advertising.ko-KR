@@ -1,11 +1,11 @@
 ---
 title: 캠페인 및 광고 그룹에 대한 대상자 제외 관리
 description: 에 대한 대상 제외를 구성하고 관리하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 캠페인 및 광고 그룹.
-exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 0%
 
       1. 다음 중 하나를 수행합니다.
 
-         * 빨간색 확인 표시( )가 되도록 옆에 있는 원을 클릭하여 각 광고 그룹 제외를 지정합니다.![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
+         * 빨간색 확인 표시( )가 되도록 인접한 원을 클릭하여 각 광고 그룹 제외를 지정합니다.![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
 
-         * 빨간색 확인 표시( )가 되도록 옆에 있는 원을 클릭하여 각 캠페인 제외를 지정합니다.![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
+         * 빨간색 확인 표시( )가 되도록 인접한 원을 클릭하여 각 캠페인 제외를 지정합니다.![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
 
 1. 클릭 **[!UICONTROL Post]**.
 

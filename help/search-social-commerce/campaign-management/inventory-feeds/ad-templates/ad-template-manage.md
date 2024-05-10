@@ -3,9 +3,9 @@ title: 인벤토리 피드에 대한 광고 템플릿 관리
 description: 계정 구조를 관리하고 동적 광고를 게재하기 위해 인벤토리 데이터를 처리할 수 있는 광고 템플릿 관리에 대해 알아봅니다.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 0%
                >* 원본 광고 사본이 검색 엔진의 길이 요구 사항을 충족하면 대체 광고 사본은 무시됩니다.
                >* 각 광고 복사 필드에 대해 최대 4개의 대체를 지정할 수 있습니다.
 
-         * 광고 변형을 제거하려면 **[!UICONTROL Remove ETA Variation]** (확장된 텍스트 광고의 경우) 또는 **[!UICONTROL Remove RSA Variation]** (반응형 검색 광고의 경우) 해당 항목 옆에 있습니다.
+         * 광고 변형을 제거하려면 **[!UICONTROL Remove ETA Variation]** (확장된 텍스트 광고의 경우) 또는 **[!UICONTROL Remove RSA Variation]** (반응형 검색 광고의 경우) 광고 변형 옆에 있는 (해당하는 경우)
 
    1. (쇼핑 템플릿만 해당) **[!UICONTROL Product Groups]** 을 탭한 다음 타깃팅할 제품 그룹에 대한 정보를 지정합니다.
 

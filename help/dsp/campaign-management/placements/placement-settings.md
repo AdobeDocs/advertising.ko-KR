@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3535'
 ht-degree: 0%
 
 ---
@@ -258,7 +258,7 @@ ht-degree: 0%
       1. 클릭 **[!UICONTROL Search]**.
       1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
       1. 검색 결과에서 제외할 사이트를 선택합니다.
-         * 개별 사이트를 제외하려면 사이트 옆에 있는 확인란을 선택합니다.
+         * 개별 사이트를 제외하려면 인접한 확인란을 선택합니다.
          * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**.
    * 도메인 이름을 입력하려면 다음을 수행합니다.
       1. 클릭 **[!UICONTROL Paste]**.
@@ -289,7 +289,7 @@ ht-degree: 0%
       1. 클릭 **[!UICONTROL Search]**.
       1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
       1. 검색 결과에서 포함할 사이트를 선택합니다.
-         * 개별 사이트를 제외하려면 사이트 옆에 있는 확인란을 선택합니다.
+         * 개별 사이트를 제외하려면 인접한 확인란을 선택합니다.
          * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 포함하려면 **[!UICONTROL Include these 50]**. 모든 검색 결과를 포함하려면 **[!UICONTROL Include these \<*NN *\>]**.
    * 도메인 이름을 입력하려면 다음을 수행합니다.
       1. 클릭 **[!UICONTROL Paste]**.

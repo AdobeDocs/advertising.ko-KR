@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Google Ads] 캠페인.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2426'
 ht-degree: 0%
 
 ---
@@ -136,9 +136,9 @@ ht-degree: 0%
 
    * (국가, 주, 대도시 또는 도시) 클릭 **[!UICONTROL Location Target]** (![위치 대상](/help/search-social-commerce/assets/location-target.png "위치 대상")) 포함 및 제외할 위치를 찾습니다.
 
-      * 위치와 자식 위치를 포함하려면 파란색 확인 표시가 되도록 옆에 있는 원을 한 번 클릭합니다(![포함](/help/search-social-commerce/assets/include.png "포함"))가 표시됩니다.
+      * 위치와 자식 위치를 포함하려면 파란색 확인 표시가 되도록 인접한 원을 한 번 클릭합니다(![포함](/help/search-social-commerce/assets/include.png "포함"))가 표시됩니다.
 
-      * 위치를 제외하려면 빨간색 확인 표시()가 되도록 옆에 있는 원을 두 번 클릭합니다.![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
+      * 위치를 제외하려면 인접한 원을 두 번 클릭하여 빨간색 확인 표시(![제외](/help/search-social-commerce/assets/exclude.png "제외"))가 표시됩니다.
 
       * 위치를 하위 구성 요소(예: 미국 주, 대도시 또는 도시)로 확장하려면 위치 이름을 클릭합니다.
 
