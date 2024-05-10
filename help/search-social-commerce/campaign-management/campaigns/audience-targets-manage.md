@@ -1,20 +1,20 @@
 ---
 title: 캠페인 및 광고 그룹에 대한 대상자 타겟 관리
-description: 에 대한 대상 타겟을 구성 및 관리하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 캠페인 및 광고 그룹.
+description: 에 대한 대상 타겟을 구성 및 관리하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인 및 광고 그룹.
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
 
 ---
 
-# 다음에 대한 대상자 타겟 관리 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 캠페인 및 광고 그룹
+# 다음에 대한 대상자 타겟 관리 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인 및 광고 그룹
 
-*[!DNL Google Ads]및 [!DNL Microsoft® Advertising] 전용*
+*[!DNL Google Ads]및 [!DNL Microsoft Advertising] 전용*
 
-[!DNL Google Ads] 캠페인 및 광고 그룹 및 [!DNL Microsoft® Advertising] 광고 그룹은 동일한 광고 네트워크에서 특정 대상을 타깃팅할 수 있습니다. 광고 네트워크는 대상이 타겟팅되어야 하는 대상의 크기를 결정합니다.
+[!DNL Google Ads] 캠페인 및 광고 그룹 및 [!DNL Microsoft Advertising] 광고 그룹은 동일한 광고 네트워크에서 특정 대상을 타깃팅할 수 있습니다. 광고 네트워크는 대상이 타겟팅되어야 하는 대상의 크기를 결정합니다.
 
 >[!NOTE]
 >

@@ -3,7 +3,7 @@ title: 쇼핑 제품 그룹 기본 정보
 description: 쇼핑 캠페인의 쇼핑 제품 그룹에 대해 알아봅니다.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 쇼핑 제품 그룹 기본 정보
 
-*[!DNL Google Ads]및 [!DNL Microsoft® Advertising] 쇼핑 캠페인만*
+*[!DNL Google Ads]및 [!DNL Microsoft Advertising] 쇼핑 캠페인만*
 
 쇼핑 캠페인에서 키워드가 아닌 제품 그룹은 쇼핑 광고가 표시되는 머천트 센터 계정의 제품을 결정합니다. 각 제품 그룹은 단일 제품 속성(예: 카테고리, 제품 유형, 브랜드, 조건, 제품 ID 또는 사용자 정의 레이블)을 기반으로 하며 일치하는 모든 제품에 대해 동일한 입찰을 사용합니다. 각 그룹의 제품에 대한 입찰을 포함하거나 제외할 수 있습니다.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 동일한 제품이 둘 이상의 캠페인에 포함된 경우 광고 네트워크는 먼저 캠페인 우선 순위를 사용하여 광고 경매에 적합한 캠페인(및 관련 입찰)을 결정합니다. 모든 캠페인이 동일한 우선 순위를 갖는 경우 입찰이 가장 높은 캠페인이 적격입니다.
 
-에 대한 자세한 내용 [!DNL Google] 쇼핑 캠페인 및 광고, 참조 &quot;[구현 [!DNL Google Ads] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)&quot; 및 [Google 광고 설명서](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1). 에 대한 자세한 내용 [!DNL Microsoft®] 쇼핑 캠페인, 참조 &quot;[구현 [!DNL Microsoft® Advertising] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)&quot; 및 [[!DNL Microsoft® Advertising] 설명서](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
+에 대한 자세한 내용 [!DNL Google] 쇼핑 캠페인 및 광고, 참조 &quot;[구현 [!DNL Google Ads] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)&quot; 및 [Google 광고 설명서](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1). 에 대한 자세한 내용 [!DNL Microsoft] 쇼핑 캠페인, 참조 &quot;[구현 [!DNL Microsoft Advertising] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)&quot; 및 [[!DNL Microsoft Advertising] 설명서](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ ht-degree: 0%
 
 (계정/캠페인(&quot;[!UICONTROL EF Redirect]&quot; 추적 옵션) Search, Social 및 Commerce이 제품 그룹에 대한 전환을 추적할 수 있도록 하려면, [추적 URL 도구를 사용하여 제품 그룹에 대한 추적 URL 생성](/help/search-social-commerce/tools/click-tracking-url-generate.md)을 누르고 다음 중 하나를 수행합니다.
 
-* (필수 사항: [!DNL Google Ads]; 우수 사례 [!DNL Microsoft® Advertising]) 추적 URL을 [!DNL Tracking Template] 계정, 캠페인 또는 제품 그룹 설정의 필드입니다. 간편하게 유지 관리할 수 있도록 가능한 한 높은 수준에서 추가하십시오. 계정이나 캠페인에 대해 지정된 추가 매개 변수는 포함되지 않습니다.
+* (필수 사항: [!DNL Google Ads]; 우수 사례 [!DNL Microsoft Advertising]) 추적 URL을 [!DNL Tracking Template] 계정, 캠페인 또는 제품 그룹 설정의 필드입니다. 간편하게 유지 관리할 수 있도록 가능한 한 높은 수준에서 추가하십시오. 계정이나 캠페인에 대해 지정된 추가 매개 변수는 포함되지 않습니다.
 
   >[!CAUTION]
   >
-  >([!DNL Microsoft® Advertising]) 제품 피드 내의 사용자 지정 열에 검색, 소셜 및 Commerce 추적 URL을 포함하지 않는 경우에만 이 옵션을 사용하십시오. 두 작업을 모두 수행하는 경우 URL에 두 개의 리디렉션이 포함되어 링크가 끊어집니다.
+  >([!DNL Microsoft Advertising]) 제품 피드 내의 사용자 지정 열에 검색, 소셜 및 Commerce 추적 URL을 포함하지 않는 경우에만 이 옵션을 사용하십시오. 두 작업을 모두 수행하는 경우 URL에 두 개의 리디렉션이 포함되어 링크가 끊어집니다.
 
-* ([!DNL Microsoft® Advertising] 전용) 내에서 제품 데이터에 추적 URL 추가 [!DNL Microsoft® Merchant Center] 계정입니다. 이렇게 하려면 의 값과 함께 추적 URL을 포함합니다. `link` 또는 `mobile_link` 사용자 지정 열에서 필드를 적절히 [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) 를 입력합니다. 이 방법을 사용하여 생성된 URL에는 검색, 소셜 및 Commerce 내의 계정 또는 캠페인 설정에 지정된 추적 매개 변수가 포함되지 않습니다.
+* ([!DNL Microsoft Advertising] 전용) 내에서 제품 데이터에 추적 URL 추가 [!DNL Microsoft Merchant Center] 계정입니다. 이렇게 하려면 의 값과 함께 추적 URL을 포함합니다. `link` 또는 `mobile_link` 사용자 지정 열에서 필드를 적절히 [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) 를 입력합니다. 이 방법을 사용하여 생성된 URL에는 검색, 소셜 및 Commerce 내의 계정 또는 캠페인 설정에 지정된 추적 매개 변수가 포함되지 않습니다.
 
 에서 제품 그룹에 대한 데이터를 볼 수 있습니다. [다음 [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md).
 
@@ -59,5 +59,5 @@ ht-degree: 0%
 >* [쇼핑 제품 그룹 관리](product-group-manage.md)
 >* [[!DNL Google Ads] 제품 그룹 설정](product-group-settings-google.md)
 >* [구현 [!DNL Google Ads] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
->* [[!DNL Microsoft® Advertising] 제품 그룹 설정](product-group-settings-microsoft.md)
->* [구현 [!DNL Microsoft® Advertising] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [[!DNL Microsoft Advertising] 제품 그룹 설정](product-group-settings-microsoft.md)
+>* [구현 [!DNL Microsoft Advertising] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)

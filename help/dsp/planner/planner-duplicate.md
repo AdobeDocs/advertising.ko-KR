@@ -3,7 +3,7 @@ title: 연결된 TV 도달 계획 복제
 description: 기존 플랜의 설정을 사용하여 연결된 TV 도달 계획을 만드는 방법을 알아봅니다.
 feature: DSP Planner
 exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    계획을 저장하면 예측된 출력이 표시됩니다.
 
-1. (선택 사항) 내보내려면 [!UICONTROL Budget vs Reach] 에 대한 예측 [!DNL Microsoft® Excel] spreadsheet**, 클릭 **[!UICONTROL ...]** 오른쪽 상단에서 **[!UICONTROL Export]**.
+1. (선택 사항) 내보내려면 [!UICONTROL Budget vs Reach] 에 대한 예측 [!DNL Microsoft Excel] spreadsheet**, 클릭 **[!UICONTROL ...]** 오른쪽 상단에서 **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

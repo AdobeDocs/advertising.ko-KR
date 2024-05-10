@@ -1,23 +1,24 @@
 ---
-title: "[!UICONTROL MSA Ad Extension by Keyword Report]"
+title: '[!UICONTROL MSA Ad Extension by Keyword Report]'
 description: 에 대해 알아보기 [!UICONTROL MSA Ad Extension by Keyword Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+exl-id: 0c23f8f8-6216-488b-b634-0de3cc18966d
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL MSA Ad Extension by Keyword Report]
 
-*[!DNL Microsoft® Advertising]계정만*
+*[!DNL Microsoft Advertising]계정만*
 
 이 보고서는 각 광고 확장 및 클릭 유형별 키워드에 대한 노출 횟수, 클릭 수, 지출 및 클릭당 평균 비용을 보여줍니다. 이 보고서를 사용하여 각 키워드에 대한 광고 확장의 성능을 비교할 수 있습니다.
 
 지표 열만 있고 차원은 없는 보고서를 실행하면, 생성된 보고서에는 두 개의 중복 행, 즉 집계된 데이터가 있는 행과 모든 지표가 있는 행이 포함됩니다.<!-- all metrics? -->
 
-지난 180일 동안의 데이터를 볼 수 있습니다. 검색, 소셜 및 상거래를 통해 데이터 가져오기 [!DNL Microsoft Advertising] 실시간으로, 그리고 더 큰 데이터 볼륨으로 보고서를 생성하는 데 몇 분이 걸릴 수 있습니다.
+지난 180일 동안의 데이터를 볼 수 있습니다. 검색, 소셜 및 Commerce에서 데이터 가져오기 [!DNL Microsoft Advertising] 실시간으로, 그리고 더 큰 데이터 볼륨으로 보고서를 생성하는 데 몇 분이 걸릴 수 있습니다.
 
 >[!NOTE]
 >

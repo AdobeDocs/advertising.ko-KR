@@ -1,18 +1,18 @@
 ---
 title: 캠페인 및 광고 그룹에 대한 대상자 제외 관리
-description: 에 대한 대상 제외를 구성하고 관리하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 캠페인 및 광고 그룹.
+description: 에 대한 대상 제외를 구성하고 관리하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인 및 광고 그룹.
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-# 다음에 대한 대상자 제외 관리 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 캠페인 및 광고 그룹
+# 다음에 대한 대상자 제외 관리 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인 및 광고 그룹
 
-*[!DNL Google Ads]및 [!DNL Microsoft® Advertising] 전용*
+*[!DNL Google Ads]및 [!DNL Microsoft Advertising] 전용*
 
 특정 대상을 특정 광고 그룹 및 캠페인의 대상으로 제외할 수 있습니다. 대상을 제외하면 해당 사람들이 지정된 광고 그룹 및 캠페인에서 광고를 받지 않습니다.
 

@@ -3,7 +3,7 @@ title: '[!UICONTROL Label Classification Report]'
 description: 에 대해 알아보기 [!UICONTROL Label Classification Report].
 exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 광고 수준 레이블 분류별 보고는 다음에 사용할 수 없습니다. [!DNL Microsoft® Advertising] 동적 검색 광고(DSA) 캠페인.
+>* 광고 수준 레이블 분류별 보고는 다음에 사용할 수 없습니다. [!DNL Microsoft Advertising] 동적 검색 광고(DSA) 캠페인.
 >* 동일한 엔티티에 대해 둘 이상의 레이블 분류가 적용될 수 있으므로, 각 지표에 대한 합계는 엔티티에 대한 실제 총계보다 높을 수 있습니다. 예를 들어 키워드 &quot;스웨이드 신발&quot;에는 &quot;스웨이드&quot;와 &quot;신발&quot;이라는 두 개의 레이블 값이 있으며 키워드가 100번의 클릭을 받았다고 가정해 보겠습니다. 클릭 수 열에는 이러한 각 레이블 값에 대해 &quot;100&quot;이 표시되므로 두 행의 합계는 &quot;200&quot;이 됩니다.
 * 레이블 분류 및 엔티티의 하위 레이블 값에 대해 수행하는 모든 변경 사항은 약 1시간 후에 표시됩니다.
 

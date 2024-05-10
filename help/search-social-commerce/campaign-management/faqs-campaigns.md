@@ -3,7 +3,7 @@ title: 캠페인에 대한 FAQ
 description: 캠페인 관리 및 캠페인 데이터 보기에 대한 질문에 대한 답변을 살펴볼 수 있습니다.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->(포트폴리오가 있는 광고주) 검색, 소셜 및 상거래를 통해 데이터를 수집하여 모델을 생성하는 동안 새로운 키워드와 일치 유형 조합의 성능은 불안정할 것으로 예상합니다.
+>(포트폴리오가 있는 광고주) 검색, 소셜 및 Commerce이 데이터를 수집하여 모델을 생성하는 동안 새로운 키워드와 일치 유형 조합의 성능은 불안정할 것으로 예상합니다.
 
 **의 작업 [!UICONTROL Search] > [!UICONTROL Campaigns] 를 광고 네트워크의 편집기에서 볼 수 있습니다.**
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 * ([!DNL Baidu], [!DNL Google Ads], 및 [!DNL Yandex]) 키워드 이름을 편집합니다.
 
-* ([!DNL Google Ads], [!DNL Microsoft® Advertising], 및 [!DNL Yandex]) 키워드의 일치 유형을 변경합니다.
+* ([!DNL Google Ads], [!DNL Microsoft Advertising], 및 [!DNL Yandex]) 키워드의 일치 유형을 변경합니다.
 
 * 광고 그룹 간에 키워드를 이동합니다.
 
-* ([!DNL Google Ads] 동적 검색 광고, [!DNL Microsoft® Advertising] 확장된 텍스트 광고 및 기타 지원되는 광고 네트워크의 모든 광고 유형) 광고 카피(헤드라인/제목 또는 설명) 또는 광고 이미지를 편집합니다.
+* ([!DNL Google Ads] 동적 검색 광고, [!DNL Microsoft Advertising] 확장된 텍스트 광고 및 기타 지원되는 광고 네트워크의 모든 광고 유형) 광고 카피(헤드라인/제목 또는 설명) 또는 광고 이미지를 편집합니다.
 
 * 광고 그룹 간에 광고를 이동합니다.
 
@@ -67,12 +67,12 @@ ht-degree: 0%
 
 +++([!DNL Google Ads] campaigns) 내 표시 이름 변경 [!DNL Google]-추적된 전환이 되돌려졌습니다.
 
-Search, Social 및 Commerce에서 전환 지표의 표시 이름을 변경하면 변경 사항이에 구성된 이름으로 덮어쓰기됩니다 [!DNL Google Ads]. 다음 내에서 이름을 변경합니다. [!DNL Google Ads].
+검색, 소셜 및 Commerce에서 전환 지표의 표시 이름을 변경하면 변경 사항이에 구성된 이름으로 덮어쓰기됩니다. [!DNL Google Ads]. 다음 내에서 이름을 변경합니다. [!DNL Google Ads].
 +++
 
 +++(Google Ads 캠페인) 포트폴리오의 캠페인에 공유 예산을 사용할 수 있습니까?
 
-최상의 결과를 얻으려면 추가하지 마십시오. [!DNL Google Ads] 에 대한 캠페인 [!DNL Google Ads] 공유한 예산: &quot;로 구성된 최적화된 포트폴리오에 있는 경우[!UICONTROL Auto adjust campaign budget limits].&quot; 그렇게 하시면, [!DNL Google Ads] 검색, 소셜 및 상거래에 최적화된 캠페인 예산을 재정의하므로 입찰이 비효율적일 수 있습니다.
+최상의 결과를 얻으려면 추가하지 마십시오. [!DNL Google Ads] 에 대한 캠페인 [!DNL Google Ads] 공유한 예산: &quot;로 구성된 최적화된 포트폴리오에 있는 경우[!UICONTROL Auto adjust campaign budget limits].&quot; 그렇게 하시면, [!DNL Google Ads] 검색, 소셜 및 Commerce에 최적화된 캠페인 예산을 무시하므로 입찰이 비효율적일 수 있습니다.
 +++
 
 +++([!DNL Google Ads] 캠페인) 모바일 사용자와 비모바일 사용자를 다른 랜딩 페이지로 보낼 수 있습니까?
@@ -87,7 +87,7 @@ Search, Social 및 Commerce에서 전환 지표의 표시 이름을 변경하면
 
   예를 들어, `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` 는 모바일 사용자를 www.example.mobi로, 비모바일 사용자를 www.example.com으로 이동합니다.
 
-두 경우 모두 검색, 소셜 및 상거래 추적이 있는 기본 URL에 인코딩되지 않은 가 포함됩니다 `{}` 태그와 기본 URL에 추가된 모든 추가 매개 변수.
+두 경우 모두 검색, 소셜 및 Commerce 추적이 있는 기본 URL에 인코딩되지 않은 항목이 포함됩니다 `{}` 태그와 기본 URL에 추가된 모든 추가 매개 변수.
 
 >[!NOTE]
 >
@@ -109,24 +109,24 @@ Search, Social 및 Commerce에서 전환 지표의 표시 이름을 변경하면
 
 +++추적 템플릿과 랜딩 페이지 접미사의 차이점은 무엇입니까?
 
-병렬 추적을 지원하는 광고 네트워크에만 랜딩 페이지 접미사를 사용하십시오. 검색, 소셜 및 상거래에서 추적 템플릿과 랜딩 페이지 접미사는 모두 광고 네트워크의 클릭 식별자를 포함해야 하지만, 추적 템플릿에는 추가 추적 매개 변수가 포함됩니다.
+병렬 추적을 지원하는 광고 네트워크에만 랜딩 페이지 접미사를 사용하십시오. 검색, 소셜 및 Commerce에서 추적 템플릿과 랜딩 페이지 접미사는 모두 광고 네트워크의 클릭 식별자를 포함해야 하지만, 추적 템플릿에는 추가 추적 매개 변수가 포함됩니다.
 
 에 대한 다음 FAQ 참조 [병렬 추적 지원](#parallel-tracking) 사용자가 광고를 클릭할 때 추적 템플릿 및 랜딩 페이지 접미사를 로드하는 방법에 대한 자세한 내용을 보려면 .
 
 +++
 
-+++([!DNL Google Ads] 및 [!DNL Microsoft® Advertising]) 검색, 소셜 및 상거래는 의 광고에 대한 병렬 추적을 지원합니까? [!DNL Google Ads] 또는 [!DNL Microsoft® Advertising]? {#parallel-tracking}
++++([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) Search, Social 및 Commerce은에서 광고에 대한 병렬 추적을 지원합니까? [!DNL Google Ads] 또는 [!DNL Microsoft Advertising]? {#parallel-tracking}
 
 병렬 추적은 광고에서 최종 URL로 고객을 직접 보냅니다. 이 URL에는 최종 URL 접미사 또는 &quot;랜딩 페이지 접미사&quot;의 추가 매개 변수가 포함될 수 있습니다. 추적 템플릿 URL(클릭 측정에 대한 추가 매개 변수 포함)은 백그라운드에서 별도로 로드됩니다. 그 결과 랜딩 페이지가 더 빨리 로드됩니다.
 
-Search, Social 및 Commerce는 광고 네트워크의 클릭 식별자 ( )를 사용하는 검색 및 쇼핑 캠페인에 대한 병렬 추적을 지원합니다.`msclkid` 대상 [!DNL Microsoft® Advertising]; `gclid` 대상 [!DNL Google Ads]). 사용 [계정 수준](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 또는 [캠페인 수준](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (호출됨)[!DNL final URL suffix]병렬 추적을 지원하는 브라우저에서 하위 광고에 대한 클릭을 추적하기 위해 랜딩 페이지 URL에 추가되는 &quot;광고 네트워크 ). 다음을 참조하십시오. [필수 접미어 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [필수 접미어 형식 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Search, Social 및 Commerce은 광고 네트워크의 클릭 식별자 ( )를 사용하는 검색 및 쇼핑 캠페인에 대한 병렬 추적을 지원합니다.`msclkid` 대상 [!DNL Microsoft Advertising]; `gclid` 대상 [!DNL Google Ads]). 사용 [계정 수준](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 또는 [캠페인 수준](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (호출됨)[!DNL final URL suffix]병렬 추적을 지원하는 브라우저에서 하위 광고에 대한 클릭을 추적하기 위해 랜딩 페이지 URL에 추가되는 &quot;광고 네트워크 ). 다음을 참조하십시오. [필수 접미어 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [필수 접미어 형식 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
-사용자가 병렬 추적을 지원하지 않는 브라우저에서 광고를 볼 때 광고 네트워크는 대신 순차적 추적을 사용합니다. 고객이 먼저 추적 템플릿 URL로 전송되어 최종 URL로 리디렉션되기 전에 고객을 중간 추적 서버로 리디렉션할 수 있습니다(랜딩 페이지 접미사에 추가 매개 변수를 포함할 수 있음). 광고 네트워크 계정에 대한 모든 추적 템플릿은에서 사용하는 동일한 클릭 식별자 매개 변수를 포함해야 합니다. [!UICONTROL Landing Page Suffix]. 다음을 참조하십시오. [템플릿 형식 추적 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [템플릿 형식 추적 [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+사용자가 병렬 추적을 지원하지 않는 브라우저에서 광고를 볼 때 광고 네트워크는 대신 순차적 추적을 사용합니다. 고객이 먼저 추적 템플릿 URL로 전송되어 최종 URL로 리디렉션되기 전에 고객을 중간 추적 서버로 리디렉션할 수 있습니다(랜딩 페이지 접미사에 추가 매개 변수를 포함할 수 있음). 광고 네트워크 계정에 대한 모든 추적 템플릿은에서 사용하는 동일한 클릭 식별자 매개 변수를 포함해야 합니다. [!UICONTROL Landing Page Suffix]. 다음을 참조하십시오. [템플릿 형식 추적 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [템플릿 형식 추적 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++내 광고에 대한 추적 URL에 &quot;`&EV_HASH={<hash>}`?&quot;
 
-를 사용하여 광고를 업로드할 때 [제품 재고 피드](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) 검색, 소셜 및 상거래 픽셀 리디렉션 및 키워드 수준의 추적과 광고 크리에이티브 수준의 추적이 있는 계정의 경우 검색, 소셜 및 상거래는 해시 매개 변수와 값을 광고의 추적 템플릿 또는 대상 URL에 추가하여 인벤토리 피드 기능을 사용하여 생성되었음을 나타냅니다.
+를 사용하여 광고를 업로드할 때 [제품 재고 피드](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) 검색, 소셜 및 Commerce 픽셀 리디렉션과 키워드 및 크리에이티브 수준 추적이 있는 계정의 경우 검색, 소셜 및 Commerce은 해시 매개 변수와 값을 광고의 추적 템플릿 또는 대상 URL에 추가하여 인벤토리 피드 기능을 사용하여 생성되었음을 나타냅니다.
 +++
 
 ## 인벤토리 피드

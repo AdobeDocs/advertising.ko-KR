@@ -1,11 +1,11 @@
 ---
 title: 캠페인 관리 보기에서 데이터 다운로드
 description: 대부분의 캠페인 관리 보기에서 데이터를 다운로드하는 방법을 알아봅니다.
-exl-id: 0bbb02df-2ee0-4610-b60a-ca2b58daadbb
+exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 다음에서 데이터를 다운로드할 수 있습니다. [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 를 제외한 보기 [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences], 및 [!UICONTROL Extensions] 보기. 다음 중 하나를 다운로드할 수 있습니다.
 
-* 의 보고서 [!DNL XLSM] (매크로 사용) [!DNL Microsoft® Excel] spreadsheet) 형식입니다. 뷰에서 특정 행을 선택하면 보고서에는 선택한 각 행에 대해 하나의 행이 포함됩니다. 행을 선택하지 않으면 보기의 각 행에 대해 하나의 행이 만들어집니다.
+* 의 보고서 [!DNL XLSM] (매크로 사용) [!DNL Microsoft Excel] spreadsheet) 형식입니다. 뷰에서 특정 행을 선택하면 보고서에는 선택한 각 행에 대해 하나의 행이 포함됩니다. 행을 선택하지 않으면 보기의 각 행에 대해 하나의 행이 만들어집니다.
 
 * 모든 관련 하위 엔티티를 포함하는 TXT 형식의 일괄 시트 파일. 여러 광고 네트워크의 엔티티에 대해 행을 선택하면 각 관련 광고 네트워크에 대해 하나의 파일이 만들어집니다. 행을 선택하지 않으면 보기에 표시된 각 광고 네트워크에 대해 하나의 파일이 만들어집니다. 다른 광고 네트워크용으로 생성된 일괄 시트 파일에는 다른 데이터 열이 포함되어 있습니다.
 

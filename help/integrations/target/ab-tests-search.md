@@ -1,21 +1,21 @@
 ---
-title: Adobe Target에서 Adobe Advertising 검색, 소셜 및 상거래 광고에 대한 A/B 테스트 구성
-description: 에서 A/B 테스트를 설정하는 방법 알아보기 [!DNL Target] 에 대한 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 검색, 소셜 및 상거래의 광고.
+title: Adobe Target에서 Adobe Advertising 검색, 소셜 및 Commerce 광고에 대한 A/B 테스트 구성
+description: 에서 A/B 테스트를 설정하는 방법 알아보기 [!DNL Target] 에 대한 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 검색, 소셜 및 Commerce의 광고
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
-# 광고 검색, 소셜 및 상거래 광고를 위한 Adobe Target에서 A/B 테스트 구성
+# 광고 검색, 소셜 및 Commerce 광고를 위한 Adobe Target에서 A/B 테스트 구성
 
-*Advertising Search, Social 및 Commerce만 있는 광고주*
+*Advertising Search, Social 및 Commerce 전용 광고주*
 
-*[!DNL Google Ads]및 [!DNL Microsoft® Advertising] 계정만*
+*[!DNL Google Ads]및 [!DNL Microsoft Advertising] 계정만*
 
-Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽에 대한 랜딩 페이지 경험 A/B 테스트를 쉽게 설정할 수 있습니다 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 끝:
+Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽에 대한 랜딩 페이지 경험 A/B 테스트를 쉽게 설정할 수 있습니다 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 끝:
 
 * 전환율(CVR) 및 획득 효율성 측정(CPA, CPL 및 CAC 등)을 개선합니다.
 
@@ -23,13 +23,13 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽에
 
 기본 항목을 결합할 수도 있습니다 [[!DNL Analytics] 광고용](/help/integrations/analytics/overview.md) 및 [[!DNL Analytics] 대상 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) Adobe Analytics에 통합되어 다음으로 테스트 데이터를 측정하고 시각화하는 통합 보고 차원 [!DNL Analytics] 지표 및 성공 이벤트.
 
-전제 조건, A/B 테스트 설정 지침에 대해서는 다음 섹션을 참조하십시오. [!DNL Target] 검색, 소셜 및 상거래의 광고에서 클릭스루 트래픽에 대한 정의에서 테스트를 측정하고 시각화하는 방법에 대한 팁 [!DNL Analytics].
+전제 조건, A/B 테스트 설정 지침에 대해서는 다음 섹션을 참조하십시오. [!DNL Target] 검색, 소셜 및 Commerce의 광고에서 클릭스루 트래픽에 대한 정의에서 테스트를 측정하고 시각화하는 방법에 대한 팁 [!DNL Analytics].
 
 ## 전제 조건
 
 ### 필수 제품
 
-* 검색, 소셜 및 상거래
+* 검색, 소셜 및 Commerce
 * [!DNL Target]
 
 ### 권장 제품 및 통합
@@ -40,9 +40,9 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽에
 
 * [[!DNL Analytics] 대상 [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 통합
 
-## 1단계: A/B 테스트 활동 만들기 [!DNL Target] 검색, 소셜 및 상거래용
+## 1단계: A/B 테스트 활동 만들기 [!DNL Target] 검색, 소셜 및 Commerce
 
-다음 지침은 검색, 소셜 및 상거래 사용 사례와 관련된 정보를 강조 표시합니다.
+다음 지침은 검색, 소셜 및 Commerce 사용 사례와 관련된 정보를 강조 표시합니다.
 
 1. [Adobe Target에 로그인](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -59,13 +59,13 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽에
    1. 설정 **[!UICONTROL Priority]** 끝 `High` 또는 `999` 테스트 세그먼트의 사용자가 잘못된 온사이트 경험을 받을 때 충돌을 방지하기 위해 입니다.
 
 
-   1. 다음 범위 내 **[!UICONTROL Reporting Settings]**&#x200B;를 선택하고 **[!UICONTROL Company Name]** 및 **[!UICONTROL Report Suite]** 을 검색, 소셜 및 상거래 계정에 연결했습니다.
+   1. 다음 범위 내 **[!UICONTROL Reporting Settings]**&#x200B;를 선택하고 **[!UICONTROL Company Name]** 및 **[!UICONTROL Report Suite]** 을 검색, 소셜 및 Commerce 계정에 연결했습니다.
 
       추가 보고 팁은 &quot;[보고 우수 사례 및 문제 해결](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).&quot;
 
    1. 다음에서 **[!UICONTROL Date Range]** 필드에 테스트에 대한 적절한 시작 날짜와 종료 날짜를 입력합니다.
 
-   1. 선택 **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. 다음에서 **[!UICONTROL Value]** 필드에 [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID], 또는 [!UICONTROL Network Ad ID] Search, Social, Commerce의 관련 광고 네트워크 엔티티용. 이를 통해 다음을 사용할 수 있습니다. [!DNL Target] 엔티티의 클릭스루 대상에 대한 쿼리 문자열 매개 변수입니다.
+   1. 선택 **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. 다음에서 **[!UICONTROL Value]** 필드에 [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID], 또는 [!UICONTROL Network Ad ID] 검색, 소셜 및 Commerce에서 관련 광고 네트워크 엔티티용 이를 통해 다음을 사용할 수 있습니다. [!DNL Target] 엔티티의 클릭스루 대상에 대한 쿼리 문자열 매개 변수입니다.
 
       다음 방법으로 ID를 찾을 수 있습니다. [엔티티 보기에 관련 ID 열 추가](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
@@ -134,7 +134,7 @@ Analysis Workspace 내에서 활동 및 경험 데이터가 최소화되거나 �
 ## 추가 읽기
 
 * [Analytics와 Target 통합](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - 설정 방법을 설명합니다. [!DNL Target] Analysis Workspace에서 보고.
-* [A/B 테스트 개요](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - 검색, 소셜 및 상거래 광고와 함께 사용할 수 있는 A/B 테스트 활동에 대해 설명합니다.
+* [A/B 테스트 개요](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - 검색, 소셜 및 Commerce 광고와 함께 사용할 수 있는 A/B 테스트 활동에 대해 설명합니다.
 * [Analytics for Advertising 개요](/help/integrations/analytics/overview.md) - Analytics 인스턴스에서 클릭스루 및 뷰스루 사이트 상호 작용을 추적할 수 있는 Analytics for Advertising을 소개합니다.
 
 >[!MORELIKETHIS]

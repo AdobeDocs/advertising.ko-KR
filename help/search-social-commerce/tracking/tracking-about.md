@@ -1,32 +1,32 @@
 ---
-title: 검색, 소셜 및 상거래에 대한 추적 정보
-description: 검색, 소셜 및 상거래에 대한 추적 옵션에 대해 알아봅니다.
+title: Search, Social 및 Commerce 추적 정보
+description: 검색, 소셜 및 Commerce 추적 옵션에 대해 알아봅니다.
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: aeb5f9a903290926afc27fe32c32646561850cc1
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
-# 검색, 소셜 및 상거래에 대한 추적 정보
+# Search, Social 및 Commerce 추적 정보
 
-광고의 성과를 추적하려면 검색, 소셜 및 상거래에 광고에 대한 노출, 클릭, 비용 및 전환(거래) 데이터가 필요합니다. Search, Social 및 Commerce는 이 데이터를 사용하여 광고 포트폴리오를 최적화하는 데 필요한 데이터 예측 모델을 구축합니다.
+광고의 성과를 추적하려면 검색, 소셜 및 Commerce에 광고 노출, 클릭, 비용 및 전환(거래) 데이터가 필요합니다. Search, Social 및 Commerce은 이 데이터를 사용하여 광고 포트폴리오를 최적화하는 데 필요한 데이터 예측 모델을 구축합니다.
 
 ## 비용, 클릭 및 노출 데이터
 
-검색, 소셜 및 상거래는 노출, 클릭 및 비용 데이터를 [지원되는 광고 네트워크](/help/search-social-commerce/introduction/supported-inventory.md) 매일. 또한 Search, Social 및 Commerce에서는 추적 템플릿 및 대상 URL에 고유한 클릭 추적 코드(추적 서버로 리디렉션 포함)를 추가하여 표시/콘텐츠 노출, 클릭 수 및 비용을 추적하고 나중에 이벤트를 전환에 연결할 수 있습니다.
+Search, Social 및 Commerce은에서 직접 노출, 클릭 및 비용 데이터를 검색합니다. [지원되는 광고 네트워크](/help/search-social-commerce/introduction/supported-inventory.md) 매일. 또한 Search, Social 및 Commerce에서는 추적 템플릿과 대상 URL에 고유한 클릭 추적 코드(추적 서버로 리디렉션 포함)를 추가하여 표시/콘텐츠 노출 횟수, 클릭 수 및 비용을 추적하고 나중에 이벤트를 전환에 연결할 수 있습니다.
 
-검색, Social 및 Commerce가 데이터를 동기화하지 않는 광고 네트워크에서 캠페인을 추적하려면 노출, 클릭 및 비용 데이터가 포함된 일별 피드 파일을 전송하여 해당 캠페인에 대한 데이터를 제공해야 합니다.
+검색, 소셜 및 Commerce이 데이터를 동기화하지 않는 광고 네트워크에서 캠페인을 추적하려면 노출, 클릭 및 비용 데이터가 포함된 일별 피드 파일을 전송하여 해당 캠페인에 대한 데이터를 제공해야 합니다.
 
 ### 클릭 추적 태그
 
-검색, 소셜 및 상거래 구현 팀은 동기화된 광고 캠페인에 광고, 키워드, 배치, 제품 그룹 및 사이트링크 확장에 대한 추적 템플릿과 대상 URL을 업데이트하여 고유한 추적 ID 문자열 및 Adobe Advertising 리디렉션을 포함하도록 클릭 추적을 설정합니다. 또한 의 랜드 페이지 접미사(최종 URL 접미사)에도 추적을 추가합니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 계정 및 캠페인.
+검색, 소셜 및 Commerce 구현 팀은 동기화된 광고 캠페인에 광고, 키워드, 배치, 제품 그룹 및 사이트링크 확장에 대한 추적 템플릿과 대상 URL을 업데이트하여 고유한 추적 ID 문자열 및 Adobe Advertising 리디렉션을 포함하도록 클릭 추적을 설정합니다. 또한 의 랜드 페이지 접미사(최종 URL 접미사)에도 추적을 추가합니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정 및 캠페인.
 
 추적 매개 변수를 사용하면 Adobe Advertising이 개별 키워드 수준(검색 캠페인) 또는 광고 변형 수준(콘텐츠 또는 사이트 타겟팅으로 캠페인 검색, 캠페인 표시 및 소셜 캠페인)에서 클릭을 추적할 수 있습니다. 사용자가 디스플레이/컨텐츠 광고를 보거나 광고 중 하나를 클릭할 때마다 광고 네트워크는 키워드 또는 광고와 연결된 클릭 추적 태그를 사용하여 Adobe Advertising 픽셀 서버로 이벤트를 전송합니다. 클릭 수:
 
-* 대상 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 병렬 추적을 지원하는 브라우저에서 광고 네트워크는 먼저 웹 사이트로 클릭을 보낸 다음 Adobe Advertising 픽셀 서버로 이동하여 아직 존재하지 않는 경우 사용자의 컴퓨터에 쿠키를 배치합니다.
+* 대상 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 병렬 추적을 지원하는 브라우저에서 광고 네트워크는 먼저 웹 사이트로 클릭을 보낸 다음 Adobe Advertising 픽셀 서버로 이동하여 아직 존재하지 않는 경우 사용자의 컴퓨터에 쿠키를 배치합니다.
 
 * 다른 모든 경우에는 광고 네트워크가 클릭을 Adobe Advertising 픽셀 서버로 직접 전송합니다. 픽셀 서버는 사용자의 컴퓨터에 쿠키를 배치한 다음(아직 없는 경우) 사용자를 웹 사이트의 관련 URL로 리디렉션합니다. 최종 사용자의 전체 경험은 리디렉션이 없는 경우와 동일합니다.
 

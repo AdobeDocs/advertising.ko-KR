@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Keyword Daily Impression Share Report]'
 description: 에 대해 알아보기 [!UICONTROL Keyword Daily Impression Share Report].
-exl-id: 177f7c9e-407f-4200-90a6-57b2fd569cf4
+exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Keyword Daily Impression Share Report]
 
-*[!DNL Google Ads]및 [!DNL Microsoft® Advertising] 계정만*
+*[!DNL Google Ads]및 [!DNL Microsoft Advertising] 계정만*
 
 다음 [!UICONTROL Keyword Daily Impression Share Report] 하나 이상의 광고 그룹 또는 캠페인에 대한 각 키워드, 해당 일치 유형 및 해당 장치 유형에 대한 일일 노출 점유율 지표를 포함합니다. 기본적으로 데이터에는 지정된 날짜 범위의 각 날에 대해 적용 가능한 각 광고 그룹에 대해 하나 이상의 노출 또는 클릭을 받은 각 키워드, 일치 유형 및 장치에 대한 하나의 행이 포함됩니다. 행은 기본적으로 날짜별로 오름차순으로 정렬됩니다. 이 보고서에는 선택적으로 추적한 데이터가 포함될 수 있습니다. [!DNL Adobe] 및 파생 지표를 참조하십시오.
 

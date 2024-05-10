@@ -1,18 +1,18 @@
 ---
 title: 피드 데이터 설정 구성
 description: 피드 데이터 처리 방법을 제어하는 설정을 구성하는 방법에 대해 알아봅니다.
-exl-id: fc72d1bc-aac7-4280-80c6-4fc53a96a49f
+exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
 # 피드 데이터 설정 구성
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (작업만 삭제) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (작업만 삭제) 및 [!DNL Yandex] 계정만*
 
 피드 데이터 파일에서 광고 그룹, 키워드 및 광고를 처리하는 방법과 피드 설정을 통해 특히 FTP 파일의 데이터를 처리하는 방법을 구성할 수 있습니다.
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 * *[!UICONTROL None]* (기본값): 기존 구성 요소를 변경하지 마십시오.
 
-**[!UICONTROL Missing line items in an FTP feed/GMC account]:** 1) FTP 디렉터리에 업로드된 새 피드 파일에 a) 포함되어 있지 않거나, b) 다음에 검색, 소셜 및 상거래가 동기화할 때 판매자 센터 계정에 있거나, 2) [!UICONTROL Map Only] 템플릿의 설정입니다.
+**[!UICONTROL Missing line items in an FTP feed/GMC account]:** 1) FTP 디렉터리에 업로드된 새 피드 파일에 a) 포함되어 있지 않거나, b) 다음에 검색, 소셜 및 Commerce이 동기화할 때 판매자 센터 계정에 있거나, 2) [!UICONTROL Map Only] 템플릿의 설정입니다.
 
 * *[!UICONTROL Delete]:* 기존 구성 요소를 삭제합니다.
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* FTP 파일의 경우 피드 서비스는 2시간마다(PST 시간대의 짝수 시간) FTP 디렉터리에서 업데이트를 확인합니다. 이 옵션은 마지막 확인 이후 업로드된 모든 파일을 처리합니다.
->* 판매자 센터 계정의 경우 검색, 소셜 및 상거래가 광고주의 시간대에서 매일 약 06:00에 계정과 동기화됩니다. 이 옵션은 마지막 동기화 이후 업데이트된 모든 데이터를 처리합니다.
+>* 판매자 센터 계정의 경우 검색, 소셜 및 Commerce이 광고주 시간대의 약 06:00에 매일 계정과 동기화됩니다. 이 옵션은 마지막 동기화 이후 업데이트된 모든 데이터를 처리합니다.
 >* 전파된 데이터는 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], 및 [!UICONTROL Ads] 데이터가 광고 네트워크나 [!UICONTROL Bulksheets] 보기.
 
 **[!UICONTROL Post to the SE]:** (FTP 또는 머천트 센터 계정을 통해 데이터 파일을 업로드하는 광고주) 새 데이터가 적용 가능한 템플릿을 통해 전파된 후 관련 광고 네트워크에 대한 올바른 형식으로 일괄 시트 파일을 자동으로 생성합니다. 이 옵션은 또한 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], 및 [!UICONTROL Ads] 하위 구성 요소에 오류가 없는 경우 탭

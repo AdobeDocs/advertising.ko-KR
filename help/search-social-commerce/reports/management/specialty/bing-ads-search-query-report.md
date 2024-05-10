@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Bing Ads Search Query Report]'
 description: 에 대해 알아보기 [!UICONTROL Bing Ads Search Query Report].
-exl-id: 5674577b-8f95-4f43-aca9-73fdd6bb8e33
+exl-id: 0207cfe7-a789-409f-af1b-a9579f2abe1e
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Bing Ads Search Query Report]
 
-*[!DNL Microsoft® Advertising]계정만*
+*[!DNL Microsoft Advertising]계정만*
 
 다음 [!UICONTROL Bing Ads Search Query Report] 하나 이상의 광고 그룹에 대한 사용자 검색 쿼리 용어에 대한 비용, 클릭, 노출 및 (선택적으로) 파생된 지표 데이터를 포함합니다. 기본적으로 데이터에는 지정된 날짜 범위의 각 시간 단위에 대해 적용 가능한 각 광고 그룹에 대한 노출 횟수 또는 클릭 수가 발생한 각 검색어에 대한 한 개의 행이 포함됩니다. 행은 기본적으로 광고 그룹 이름별로 오름차순으로 정렬되며 검색어별로 정렬됩니다. 보고서에는 검색어가 일치한 키워드와 추적한 전환 데이터가 포함되지 않습니다. [!DNL Adobe].
 
@@ -41,6 +41,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-* [전문 보고서 정보](specialty-report-about.md)
-* [전문 보고서 생성](specialty-report-generate.md)
-* [특성 보고서 설정](specialty-report-settings.md)
+>* [전문 보고서 정보](specialty-report-about.md)
+>* [전문 보고서 생성](specialty-report-generate.md)
+>* [특성 보고서 설정](specialty-report-settings.md)

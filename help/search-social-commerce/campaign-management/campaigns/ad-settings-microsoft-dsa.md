@@ -1,16 +1,16 @@
 ---
-title: '[!DNL Microsoft® Advertising] 확장된 동적 검색 광고 설정'
-description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 확장된 동적 검색 광고.
+title: '[!DNL Microsoft Advertising] 확장된 동적 검색 광고 설정'
+description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 확장된 동적 검색 광고.
 exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
-source-git-commit: bb3c366d702cdf2604388720313a7d23938d902a
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] 확장된 동적 검색 광고 설정
+# [!DNL Microsoft Advertising] 확장된 동적 검색 광고 설정
 
 확장된 동적 검색 광고(eDSA)는 검색 네트워크의 캠페인에 있는 동적 광고 그룹에서만 사용할 수 있습니다. 광고 네트워크는 헤드라인을 동적으로 생성하고, 동적 검색 광고에 대한 랜딩 페이지를 선택한 다음 최종 URL을 자동으로 생성합니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 >* [광고 정보](ad-about.md)
 >* [광고 관리](ad-manage.md)
->* [[!DNL Microsoft® Advertising] 멀티미디어 광고 설정](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft® Advertising] 제품 광고 설정](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] 반응형(대상) 광고 설정](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft® Advertising] 반응형 검색 광고 설정](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] 멀티미디어 광고 설정](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] 제품 광고 설정](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] 반응형(대상) 광고 설정](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] 반응형 검색 광고 설정](ad-settings-microsoft-rsa.md)

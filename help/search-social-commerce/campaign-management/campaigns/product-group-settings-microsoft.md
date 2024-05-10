@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] 제품 그룹 설정'
-description: 다음에 대한 설정 참조 [!DNL Microsoft® Advertising] 쇼핑 제품 그룹.
-exl-id: a34511ef-f5bc-4d93-a56e-90348f670ad6
+title: '''[!DNL Microsoft Advertising] 제품 그룹 설정'
+description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 쇼핑 제품 그룹.
+exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] 제품 그룹 설정
+# [!DNL Microsoft Advertising] 제품 그룹 설정
 
 ## &quot;모든 제품&quot; 제품 그룹
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 **[!UICONTROL Condition/Value]:** (기존 제품 그룹의 경우 읽기 전용) 타깃팅할 제품 차원입니다. 새 제품 그룹의 경우 제품을 타겟팅할 차원과 선택한 정보 카테고리의 자격 속성(예: 브랜드별로 타겟팅하는 경우 &quot;Acme&quot; 또는 조건별로 타겟팅하는 경우 &quot;New&quot;)을 입력합니다.
 
-특정 제품 차원(&quot;모든 제품&quot;이 아닌)에 대한 제품 그룹을 만들면 검색, 소셜 및 상거래에 따라 &quot;기타 모든 제품&quot;에 대한 제품 그룹이 자동으로 만들어집니다.
+특정 제품 차원(&quot;모든 제품&quot;이 아닌)에 대한 제품 그룹을 만들면 검색, 소셜 및 Commerce에서 자동으로 &quot;기타 모두&quot;에 대한 제품 그룹을 만듭니다.
 
 사용 가능한 제품 차원 목록은 &quot;[쇼핑 캠페인 제품 필터](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot; 캠페인에 따라 차원 목록이 제한될 수 있습니다. [!UICONTROL Inventory Filter] 설정.
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 >* [쇼핑 제품 그룹 기본 정보](product-group-about.md)
 >* [쇼핑 제품 그룹 관리](product-group-manage.md)
 >* [쇼핑 캠페인 제품 필터](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [구현 [!DNL Microsoft® Advertising] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [구현 [!DNL Microsoft Advertising] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)

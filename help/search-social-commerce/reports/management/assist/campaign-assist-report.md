@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Campaign Assist Report]'
 description: 에 대해 알아보기 [!UICONTROL Campaign Assist Report].
-exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
+exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
 
 # 다음 [!UICONTROL Campaign Assist Report]
 
-*검색, 소셜 및 상거래 클릭 추적이 있고 Adobe Advertising, Adobe Analytics에서 전환 추적이 있는 광고주(및 [!DNL Analytics] 통합) 또는 토큰을 사용하여 피드에 제공(`ef_id`) 전용*
+*검색, 소셜 및 Commerce 클릭 추적을 사용하고 Adobe Advertising, Adobe Analytics에서 전환 추적을 사용하는 광고주(및 [!DNL Analytics] 통합) 또는 토큰을 사용하여 피드에 제공(`ef_id`) 전용*
 
 다음 [!UICONTROL Campaign Assist Report] 전환 프로세스를 지원한 캠페인을 나타냅니다. 하나 이상의 전환으로 이어지는 광고의 각 캠페인 패턴이 전체 전환에 기여한 방식을 보고합니다. 예를 들어 사용자가 캠페인 A에서 광고를 처음 본 다음 캠페인 B에서 광고를 클릭한 다음 주문했을 때 발생한 전환 수를 볼 수 있습니다. 마찬가지로 사용자가 10개 이상의 캠페인의 광고와 상호 작용한 후 발생한 전환 수를 확인할 수 있습니다.
 
@@ -44,11 +44,11 @@ ht-degree: 0%
 | [!UICONTROL 6th Campaign] 끝 [!UICONTROL 20th Campaign] | 사용자 정의 | 광고주 내에서 발생한 전환 경로의 여섯 번째~20번째 캠페인 [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j).<br><br>개체 이름 뒤에 광고 네트워크, 계정 이름 또는 이벤트 유형을 나타내는 보고서 옵션을 포함시킨 경우 해당 정보가 캠페인 이름 뒤에 포함됩니다(예: `"<"campaign name> [Baidu] [Account1] [click]`&quot;). |
 | [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 전환 지표에 대해 보고서 출력에 자동으로 포함됨) 첫 번째 이벤트(첫 번째 캠페인)에서 전환까지의 평균 지연 시간(일)입니다. |
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 보고서 출력에 자동으로 포함됨) 마지막 이벤트(마지막 캠페인)에서 전환까지의 평균 대기 시간(일)입니다. |
-| [!UICONTROL EF Campaign ID] | 사용자 정의 | Search, Social 및 Commerce가 캠페인에 할당하는 숫자 ID입니다. |
+| [!UICONTROL EF Campaign ID] | 사용자 정의 | Search, Social 및 Commerce이 캠페인에 할당하는 숫자 ID입니다. |
 | [!UICONTROL EF Portfolio Group ID] | 사용자 정의 | 포트폴리오가 속한 포트폴리오 그룹의 숫자 ID입니다. |
-| [!UICONTROL EF Search Engine ID] | 사용자 정의 | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID입니다. <i>[!UICONTROL 3]</i> 대상 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 대상 [!DNL Microsoft® Advertising], <i>[!UICONTROL 45]</i> 대상 [!DNL Meta], <i>[!UICONTROL 86]</i> 대상 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 대상 [!DNL Naver], <i>[!UICONTROL 88]</i> 대상 [!DNL Baidu], <i>[!UICONTROL 90]</i> 대상 [!DNL Yandex], <i>[!UICONTROL 94]</i> 대상 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 대상 [!DNL Yahoo Native] (더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i> 대상 [!DNL Pinterest] (사용하지 않음). |
+| [!UICONTROL EF Search Engine ID] | 사용자 정의 | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. <i>[!UICONTROL 3]</i> 대상 [!DNL Google Ads], <i>[!UICONTROL 10]</i> 대상 [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> 대상 [!DNL Meta], <i>[!UICONTROL 86]</i> 대상 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> 대상 [!DNL Naver], <i>[!UICONTROL 88]</i> 대상 [!DNL Baidu], <i>[!UICONTROL 90]</i> 대상 [!DNL Yandex], <i>[!UICONTROL 94]</i> 대상 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> 대상 [!DNL Yahoo Native] (더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i> 대상 [!DNL Pinterest] (사용하지 않음). |
 | [!UICONTROL Portfolio ID] | 숫자 포트폴리오 ID입니다. |
-| [!UICONTROL User SE Account ID] | Search, Social 및 Commerce가 광고 네트워크에 할당하는 숫자 ID입니다. |
+| [!UICONTROL User SE Account ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. |
 
 >[!MORELIKETHIS]
 >

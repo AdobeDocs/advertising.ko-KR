@@ -1,11 +1,11 @@
 ---
 title: 스프레드시트 보고서 피드 설정 편집
 description: 스프레드시트 피드의 설정을 편집하는 방법을 알아봅니다.
-exl-id: 063b5fb8-905f-480a-817f-f6b339af6028
+exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *기본 보고서 및 모델 정확도 보고서의 경우에만*
 
-보고서 템플릿, [!DNL Microsoft® Excel] 템플릿 및 기타 매개 변수는 스프레드시트 피드에 사용됩니다.
+보고서 템플릿, [!DNL Microsoft Excel] 템플릿 및 기타 매개 변수는 스프레드시트 피드에 사용됩니다.
 
 >[!NOTE]
 >

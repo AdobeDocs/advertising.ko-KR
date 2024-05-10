@@ -1,18 +1,18 @@
 ---
 title: 일괄 시트 오류
 description: 각 일괄 시트 오류에 대한 잠재적인 이유를 참조하십시오.
-exl-id: 0a259aca-2e9a-4e24-b4db-f8d0249d25d4
+exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
 
 # 일괄 시트 오류
 
-Search, Social 및 Commerce는 일괄 시트 작업 중에 두 가지 유형의 오류 파일을 생성합니다.
+Search, Social 및 Commerce은 일괄 시트 작업 중에 두 가지 유형의 오류 파일을 생성합니다.
 
 * **SE 오류:** 파일이 게시되었지만 광고 네트워크에서 모든 데이터를 허용하지 않는 경우 `<uploaded file name>_se_errors.<extension used for the bulksheet>` 이(가) 만들어졌습니다. 모든 행이 아닌 일부가 수락되면 오류 파일에 게시되지 않은 행과 각 오류에 대한 설명이 표시되므로 수정할 수 있습니다. 오류는 &quot;에 포함됩니다.[!UICONTROL SE Error Message]&quot;열.
 
@@ -35,7 +35,7 @@ Search, Social 및 Commerce는 일괄 시트 작업 중에 두 가지 유형의 
 | 범주 | 메시지 | 설명 |
 |----|----|----|
 | 일반 | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 분류되지 않거나 처리되지 않은 오류로 인해 작업이 완전히 실패했습니다. 문제가 지속되면 Adobe 계정 팀에 문의하여 원인을 확인하십시오. |
-| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 일괄 시트를 만들기 전에 검색, 소셜 및 상거래를 광고 네트워크와 동기화할 수 없어 일괄 시트가 만들어지지 않았습니다. 문제가 지속되면 Adobe 계정 팀에 문의하십시오. |
+| | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 일괄 시트를 만들기 전에 검색, 소셜 및 Commerce이 광고 네트워크와 동기화할 수 없어 일괄 시트가 만들어지지 않았습니다. 문제가 지속되면 Adobe 계정 팀에 문의하십시오. |
 
 ### 업로드 오류
 
@@ -50,8 +50,8 @@ Search, Social 및 Commerce는 일괄 시트 작업 중에 두 가지 유형의 
 |  | [!UICONTROL Invalid AMO ID given] | 행에 대한 AMO ID가 존재하지 않습니다. 이 문제는 일괄 시트에서 ID를 편집한 경우 발생할 수 있습니다. |
 |  | [!UICONTROL Invalid row given] | 행에 엔티티 유형을 결정하기에 충분한 정보가 포함되지 않습니다. 엔티티 유형에 대한 모든 필수 필드를 포함하도록 행을 편집합니다. |
 | 계정 | [!UICONTROL Provide Valid Account Details] | (여러 계정의 일괄 시트) 계정 식별자가 모든 행에 포함되지 않습니다. 각 행에 대해 다음의 열 조합 중 하나에 대한 값을 입력합니다. a)&quot;[!UICONTROL AMO ID]&quot; 또는 b) &quot;[!UICONTROL Account Name]&quot; 및 &quot;[!UICONTROL Platform].&quot; |
-|  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | 검색, 소셜 및 상거래에 광고 네트워크 계정에 대한 액세스 권한이 없으므로 캠페인 데이터를 만들거나 편집할 수 없습니다. 검색 계정에 대한 자격 증명이 올바르고 계정이 활성화되었는지 확인하십시오. |
-| 캠페인 | [!UICONTROL Invalid Shopping Country specified] | (쇼핑 캠페인) 의 값[!UICONTROL Sales Country]&quot;필드가 잘못되었습니다. 유효한 국가 목록 보기 [대상 [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) 및 [대상 [!DNL Microsoft® Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
+|  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | 검색, 소셜 및 Commerce은 광고 네트워크 계정에 액세스할 수 없으므로 캠페인 데이터를 만들거나 편집할 수 없습니다. 검색 계정에 대한 자격 증명이 올바르고 계정이 활성화되었는지 확인하십시오. |
+| 캠페인 | [!UICONTROL Invalid Shopping Country specified] | (쇼핑 캠페인) 의 값[!UICONTROL Sales Country]&quot;필드가 잘못되었습니다. 유효한 국가 목록 보기 [대상 [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) 및 [대상 [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
 | 모든 캠페인 구성 요소 | [!UICONTROL Campaign creation failed] | 상위 캠페인이 만들어지지 않았으므로 이 엔티티는 만들어지지 않았습니다. 모든 상위 엔티티에 모든 필수 필드가 포함되어 있는지 확인합니다. |
 | 광고 그룹 | [!UICONTROL Campaign Row missing] | 지정한 상위 캠페인이 없으므로 광고 그룹이 만들어지지 않았습니다. 새 행에 상위 캠페인을 만듭니다. |
 |  | [!UICONTROL New adgroup has both keywords and placement] | 광고 그룹은 키워드 또는 배치 중 하나를 포함할 수 있지만 둘 다 포함할 수는 없습니다. 키워드 및 배치에 대해 별도의 광고 그룹을 만듭니다. |
@@ -83,7 +83,7 @@ Search, Social 및 Commerce는 일괄 시트 작업 중에 두 가지 유형의 
 | 범주 | 메시지 | 설명 |
 |----|----|----|
 | 일반 | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | 작업이 완전히 실패했습니다. 문제가 지속되면 Adobe 계정 팀에 문의하십시오. |
-| 모든 엔티티 | [!UICONTROL Entity] 광고 네트워크에 게시됨 | 엔티티가 광고 네트워크에 게시되었지만 동시에 검색, 소셜 및 상거래에 동기화되지 않았으므로 엔티티 데이터를 검색, 소셜 및 상거래에서 즉시 사용할 수 없습니다. 이제 동기화 프로세스가 자동으로 트리거됩니다.<br><br>대량의 데이터가 동기화되면 검색, 소셜 및 상거래에서 몇 시간 이상 데이터를 사용할 수 없습니다. |
+| 모든 엔티티 | [!UICONTROL Entity] 광고 네트워크에 게시됨 | 엔티티가 광고 네트워크에 게시되었지만 동시에 검색, 소셜 및 Commerce에 동기화되지 않았으므로 엔티티 데이터를 검색, 소셜 및 Commerce에서 즉시 사용할 수 없습니다. 이제 동기화 프로세스가 자동으로 트리거됩니다.<br><br>대량의 데이터가 동기화되면 검색, 소셜 및 Commerce에서 몇 시간 이상 데이터를 사용할 수 없습니다. |
 | | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | 상위 엔티티를 생성할 수 없으므로 이 하위 엔티티는 생성되지 않았습니다. |
 
 >[!MORELIKETHIS]

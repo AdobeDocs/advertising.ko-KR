@@ -1,9 +1,9 @@
 ---
 title: 사용자 지정 경고에 대한 데이터 내보내기
 description: 트리거된 경고에 대한 데이터를 파일로 내보내는 방법을 알아봅니다.
-exl-id: c6c3d977-8ee8-4393-a6c7-8f7b9ca5c913
+exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 사용자 지정 경고에 대한 데이터 내보내기
 
-트리거된 경고에 대한 데이터 또는 경고 템플릿에 대해 가장 최근에 트리거된 경고에 대한 데이터를 로 내보낼 수 있습니다. [!DNL Microsoft® Excel] 통합 문서 ([XLS](/help/search-social-commerce/glossary.md#w-x) 파일), 탭으로 구분된 값([TSV](/help/search-social-commerce/glossary.md#s-t)) 파일 또는 쉼표로 구분된 값([CSV](/help/search-social-commerce/glossary.md#c-d)) 파일로 내보낼 때 시간별 세부기간이 작동하지 않는 문제가 발생합니다. 다운로드 가능한 보고서는 경고가 트리거된 후 자동으로 삭제된 후 10일 동안 사용할 수 있습니다.
+트리거된 경고에 대한 데이터 또는 경고 템플릿에 대해 가장 최근에 트리거된 경고에 대한 데이터를 로 내보낼 수 있습니다. [!DNL Microsoft Excel] 통합 문서 ([XLS](/help/search-social-commerce/glossary.md#w-x) 파일), 탭으로 구분된 값([TSV](/help/search-social-commerce/glossary.md#s-t)) 파일 또는 쉼표로 구분된 값([CSV](/help/search-social-commerce/glossary.md#c-d)) 파일로 내보낼 때 시간별 세부기간이 작동하지 않는 문제가 발생합니다. 다운로드 가능한 보고서는 경고가 트리거된 후 자동으로 삭제된 후 10일 동안 사용할 수 있습니다.
 
 1. 다음 중 하나를 수행합니다.
 

@@ -1,9 +1,9 @@
 ---
 title: 일괄 시트에서 수행할 수 있는 작업
 description: 일괄 시트를 사용하여 캠페인 데이터를 추가, 편집 및 삭제하는 방법에 대한 일반 정보를 참조하십시오.
-exl-id: 82969bb8-dff8-48e7-b37d-1446a2a90072
+exl-id: 17ec9307-6dfd-45cb-b8bd-d0d7fcbf2d41
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
       * ([!UICONTROL Google Ads] 만) [!UICONTROL Description Line 1], [!UICONTROL Description Line 2]
 
-      * ([!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 만) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
+      * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising] 만) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
 
 >[!NOTE]
 >

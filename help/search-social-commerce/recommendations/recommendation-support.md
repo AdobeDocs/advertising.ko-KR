@@ -3,7 +3,7 @@ title: 게시자 권장 사항 및 인사이트 지원 기본 정보
 description: 게시자 권장 사항 및 인사이트를 보고 관리하는 지원에 대해 알아봅니다.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d6808281dc3ba26a48ae33079c2f411705f43ddd
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # 게시자 권장 사항 및 인사이트 지원 기본 정보
 
-*[!DNL Google Ads]및 [!DNL Microsoft® Advertising] 계정*
+*[!DNL Google Ads]및 [!DNL Microsoft Advertising] 계정*
 
-*베타 기능 [!DNL Microsoft® Advertising] 계정*
+*베타 기능 [!DNL Microsoft Advertising] 계정*
 
-[!DNL Google Ads] 및 [!DNL Microsoft® Advertising] recommendations 및 insights는 캠페인의 성능과 효율성을 개선하는 데 도움이 되는 광고 네트워크의 제안입니다.
+[!DNL Google Ads] 및 [!DNL Microsoft Advertising] recommendations 및 insights는 캠페인의 성능과 효율성을 개선하는 데 도움이 되는 광고 네트워크의 제안입니다.
 
 * 각 [!DNL Google Ads] 권장 사항은 계정의 성과 내역, 캠페인 설정 및 캠페인 트렌드를 기반으로 자산 추가에서 예산 증액에 이르기까지 캠페인의 다양한 성과 측면에 대한 사용자 정의 제안을 제공합니다 [!DNL Google Ads].
 
-* 각 [!DNL Microsoft® Advertising] performance insight 및 recommendation은 머신 러닝 알고리즘 및 모범 사례를 기반으로 캠페인 성능을 최적화하는 변경 사항을 제안합니다.
+* 각 [!DNL Microsoft Advertising] performance insight 및 recommendation은 머신 러닝 알고리즘 및 모범 사례를 기반으로 캠페인 성능을 최적화하는 변경 사항을 제안합니다.
 
 ## 다음 [!UICONTROL Recommendations & Publisher Insights] 보기
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
   보기를 열면 데이터를 실시간으로 사용할 수 있습니다. 데이터를 새로 고치려면 ![새로 고침](/help/search-social-commerce/assets/refresh.png "새로 고침") 페이지의 왼쪽 하단에 있습니다.
 
-* 대상 [!DNL Microsoft® Advertising] 계정, 지난 30일 동안 생성된 각 성능 인사이트 한눈에 보기 [!DNL Microsoft® Advertising] 계정입니다. 인사이트는 권장 사항과 유사한 정보를 제공하지만 다른 형식으로 제공합니다. 각 통찰력에는 날짜, 문제에 대한 설명, 영향을 받는 엔티티, 근본 원인(더 자세한 정보에 대한 링크가 포함될 수 있음) 및 을 여는 링크가 있는 제안된 작업이 포함됩니다. [!DNL Microsoft® Advertising] 편집기: 특정 통찰력에 따라 작업을 수행할 수 있습니다.
+* 대상 [!DNL Microsoft Advertising] 계정, 지난 30일 동안 생성된 각 성능 인사이트 한눈에 보기 [!DNL Microsoft Advertising] 계정입니다. 인사이트는 권장 사항과 유사한 정보를 제공하지만 다른 형식으로 제공합니다. 각 통찰력에는 날짜, 문제에 대한 설명, 영향을 받는 엔티티, 근본 원인(더 자세한 정보에 대한 링크가 포함될 수 있음) 및 을 여는 링크가 있는 제안된 작업이 포함됩니다. [!DNL Microsoft Advertising] 편집기: 특정 통찰력에 따라 작업을 수행할 수 있습니다.
 
 * 권장 사항에 대한 세부 정보를 보고, 권장 사항을 직접 적용하거나 취소합니다.
 

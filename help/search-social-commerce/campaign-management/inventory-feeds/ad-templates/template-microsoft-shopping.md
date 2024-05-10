@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Ads] 재고 피드에 대한 쇼핑 광고 템플릿 설정'
-description: 다음에 대한 설정 참조 [!DNL Microsoft® Ads] 재고 피드에 대한 쇼핑 광고 템플릿.
-exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+title: '''[!DNL Microsoft Ads] 재고 피드에 대한 쇼핑 광고 템플릿 설정'
+description: 다음에 대한 설정 참조 [!DNL Microsoft Ads] 재고 피드에 대한 쇼핑 광고 템플릿.
+exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Ads] 재고 피드에 대한 쇼핑 광고 템플릿 설정
+# [!DNL Microsoft Ads] 재고 피드에 대한 쇼핑 광고 템플릿 설정
 
 쇼핑 광고 템플릿을 사용하여 쇼핑 광고를 구성합니다.
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 * Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; 다음 중 하나를 수행합니다.&quot;
 
-   * (권장) [Microsoft® 쇼핑 캠페인에 대한 추적 템플릿 형식](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). 전체 계정이 쇼핑 광고 전용인 경우 대신 계정 수준에서 추적 템플릿을 정의할 수 있습니다.
+   * (권장) [Microsoft 쇼핑 캠페인에 대한 추적 템플릿 형식](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). 전체 계정이 쇼핑 광고 전용인 경우 대신 계정 수준에서 추적 템플릿을 정의할 수 있습니다.
 
    * 대신 를 사용하여 피드의 각 제품에 대한 값을 포함하는 경우[!DNL bingads_redirect]&quot; 열(사용) [올바른 형식](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)), 매개 변수를 입력합니다 `{lpurl}`. 필요에 따라 서드파티 리디렉션 및 추적을 `{lpurl}` 매개 변수.
 

@@ -1,9 +1,9 @@
 ---
 title: 수정자 관리
 description: 인벤토리 데이터 피드에 대한 광고 템플릿에 대한 수정자를 구성하고 관리하는 방법에 대해 알아봅니다.
-exl-id: ade1472d-10e3-454e-8095-c579b48cfc01
+exl-id: 74c9a7c7-0979-4f78-9225-43bc6c94acd7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 수정자 관리
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (작업만 삭제) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (작업만 삭제) 및 [!DNL Yandex] 계정만*
 
 수정자는 형용사 또는 부사로서 기본적인 문장 구조를 바꾸지 않고 문장에 추가하거나 문장에서 제거할 수 있다. 피드 데이터 템플릿의 다양한 데이터 필드에 변수로 사용할 수정자 그룹을 만들 수 있습니다. 계정 구조(캠페인 및 광고 그룹) 필드, 키워드, 기본 URL 및 광고에 수정자를 포함시켜 연결된 각 수정자 값에 대해 하나의 값을 만듭니다. 예를 들어 광고 헤드라인에서 수정자 그룹 변수를 사용하고 수정자 그룹에 3개의 수정자(&quot;저렴한&quot;, &quot;할인&quot; 및 &quot;경제적인&quot;)가 포함된 경우 데이터 피드의 각 데이터 행에 대해 3개의 개별 광고(수정자마다 하나씩)가 만들어집니다. 마찬가지로, 광고 그룹의 기본 URL에 여러 값이 있는 수정자 그룹을 포함하면 결과 기본 URL마다 하나의 키워드 세트가 만들어집니다.
 

@@ -1,20 +1,20 @@
 ---
 title: 템플릿을 통해 인벤토리 피드 데이터 전파
 description: 계정 구조를 관리하고 동적 광고를 게재하기 위해 인벤토리 피드에서 광고 템플릿을 통해 데이터를 전파하는 방법에 대해 알아봅니다.
-exl-id: 40de75e8-8440-48f4-9fa7-1aeb2ae392c5
+exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
 # 템플릿을 통해 인벤토리 피드 데이터 전파
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (작업만 삭제) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (작업만 삭제) 및 [!DNL Yandex] 계정만*
 
-광고 네트워크별 피드 템플릿을 만들고 피드 파일 또는 [!DNL Google] 또는 [!DNL Microsoft®] 머천트 센터 계정 을 사용하면 다음에 따라 템플릿을 통해 피드 데이터를 전파하여 광고를 동적으로 만들 수 있습니다. [피드 데이터 설정](feed-settings-manage.md). 전달 중에 템플릿의 열 이름은 피드의 데이터 값으로 대체되며, 템플릿에서 다르게 지정하지 않는 한 생성된 캠페인 및 해당 구성 요소의 기본 설정은 다음과 같습니다. 템플릿 옵션에 따라 검색, 소셜 및 상거래는 광고에 대한 새 계정 구조(캠페인, 광고 그룹, 키워드)를 생성하거나 광고를 기존 계정 구조에 매핑합니다.
+광고 네트워크별 피드 템플릿을 만들고 피드 파일 또는 [!DNL Google] 또는 [!DNL Microsoft] 머천트 센터 계정 을 사용하면 다음에 따라 템플릿을 통해 피드 데이터를 전파하여 광고를 동적으로 만들 수 있습니다. [피드 데이터 설정](feed-settings-manage.md). 전달 중에 템플릿의 열 이름은 피드의 데이터 값으로 대체되며, 템플릿에서 다르게 지정하지 않는 한 생성된 캠페인 및 해당 구성 요소의 기본 설정은 다음과 같습니다. 템플릿 옵션에 따라 검색, 소셜 및 Commerce은 광고에 대한 새 계정 구조(캠페인, 광고 그룹, 키워드)를 만들거나 광고를 기존 계정 구조에 매핑합니다.
 
 새 피드 데이터에 항목에 대한 새 데이터 값이 포함되어 있거나 템플릿이 변경되면 기존 광고가 삭제되고 새 광고가 만들어집니다. 변경 사항이 다음의 지정인 경우 [!DNL Google Ads] 매개 변수 1 및 매개 변수 2를 사용하면 해당 값만 업데이트됩니다. 중복 광고(동일한 광고 사본 및 랜딩 페이지)는 생성되지 않습니다.
 

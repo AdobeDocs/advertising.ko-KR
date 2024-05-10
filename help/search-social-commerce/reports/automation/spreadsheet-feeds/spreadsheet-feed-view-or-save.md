@@ -1,9 +1,9 @@
 ---
 title: 스프레드시트 보고서 피드 파일 보기 또는 저장
 description: 스프레드시트 피드를 보고 파일에 저장하는 방법에 대해 알아봅니다.
-exl-id: 3f8af6fb-6652-4434-bd88-ef1a0e10efd1
+exl-id: b229ab9e-a48a-4487-8434-0fdcf7139d8f
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *기본 보고서 및 모델 정확도 보고서의 경우에만*
 
-생성된 스프레드시트 피드를 보거나 파일에 저장할 수 있습니다. 스프레드시트 피드 파일이에 있음[!DNL Microsoft® Excel] XLSX 형식.
+생성된 스프레드시트 피드를 보거나 파일에 저장할 수 있습니다. 스프레드시트 피드 파일이에 있음[!DNL Microsoft Excel] XLSX 형식.
 
 1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 

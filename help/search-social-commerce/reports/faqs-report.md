@@ -3,7 +3,7 @@ title: 사용자 정의 보고서에 대한 FAQ
 description: 데이터 문제 해결을 포함하여 성능 보고서에 대한 일반적인 질문에 대한 답변을 살펴볼 수 있습니다.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -326,17 +326,17 @@ ht-degree: 0%
 +++보고서 출력에 날짜 범위의 혼합이 포함됩니다.
 피드가 &quot; 이외의 데이터 집계 레벨을 사용하여 데이터를 집계하는 경우 다른 날짜 범위를 볼 수 있습니다[!UICONTROL Daily].&quot;
 
-이 문제를 해결하려면 매일 집계된 데이터를 포함하도록 스프레드시트 피드를 업데이트합니다. 이 작업에는 보고서 템플릿 업데이트, 템플릿을 사용하여 보고서 생성, 사용자 지정 만들기가 포함됩니다 [!DNL Microsoft® Excel] 보고서를 사용한 다음 새 Excel 템플릿을 포함하도록 피드 설정을 업데이트합니다. 자세한 내용은 &quot;[스프레드시트 보고서 피드 설정 편집](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+이 문제를 해결하려면 매일 집계된 데이터를 포함하도록 스프레드시트 피드를 업데이트합니다. 이 작업에는 보고서 템플릿 업데이트, 템플릿을 사용하여 보고서 생성, 사용자 지정 만들기가 포함됩니다 [!DNL Microsoft Excel] 보고서를 사용한 다음 새 Excel 템플릿을 포함하도록 피드 설정을 업데이트합니다. 자세한 내용은 &quot;[스프레드시트 보고서 피드 설정 편집](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++스프레드시트 피드로 인해 내부 오류가 발생합니다.
-이 오류는 보고서 템플릿의 열을 변경했지만 를 업데이트하지 않으면 발생할 수 있습니다. [!DNL Microsoft® Excel] 템플릿도 함께 사용해야 합니다.
+이 오류는 보고서 템플릿의 열을 변경했지만 를 업데이트하지 않으면 발생할 수 있습니다. [!DNL Microsoft Excel] 템플릿도 함께 사용해야 합니다.
 
 이 문제를 해결하려면 스프레드시트 피드를 업데이트하여 새 열을 포함합니다. 이 작업에는 보고서 템플릿 업데이트, 템플릿을 사용하여 보고서 생성, 사용자 지정 만들기가 포함됩니다 [!DNL Excel] 보고서를 사용한 다음 새 Excel 템플릿을 포함하도록 피드 설정을 업데이트합니다. 자세한 내용은 &quot;[스프레드시트 보고서 피드 설정 편집](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++에서 스프레드시트 피드를 열려고 할 때 [!DNL Excel], [!DNL Excel] 에서 &quot;읽을 수 없는 콘텐츠&quot; 오류를 보고하고, 데이터가 복구된 콘텐츠에서 제거됩니다.
-다음의 경우 [!DNL Microsoft® Excel] 템플릿이 시작 날짜별로 데이터를 오름차순으로 정렬하지 않습니다. 스프레드시트 피드에 빈 행이 포함될 수 있습니다. 특히, [!DNL Excel] 에서 &quot;Excel에서 읽을 수 없는 콘텐츠를 찾았습니다.&lt;*보고서 이름*>.xlsx.&#39; 통합 문서의 내용을 복구하시겠습니까? 이 통합 문서의 원본을 신뢰하는 경우 [예]를 클릭하십시오.&quot; &quot;예&quot;를 클릭하면 &quot;제거된 레코드: /xl/worksheets/sheet1.xml 부분의 셀 정보&quot;라는 메시지가 표시되고 스프레드시트 피드에 빈 행이 포함됩니다.
+다음의 경우 [!DNL Microsoft Excel] 템플릿이 시작 날짜별로 데이터를 오름차순으로 정렬하지 않습니다. 스프레드시트 피드에 빈 행이 포함될 수 있습니다. 특히, [!DNL Excel] 에서 &quot;Excel에서 읽을 수 없는 콘텐츠를 찾았습니다.&lt;*보고서 이름*>.xlsx.&#39; 통합 문서의 내용을 복구하시겠습니까? 이 통합 문서의 원본을 신뢰하는 경우 [예]를 클릭하십시오.&quot; &quot;예&quot;를 클릭하면 &quot;제거된 레코드: /xl/worksheets/sheet1.xml 부분의 셀 정보&quot;라는 메시지가 표시되고 스프레드시트 피드에 빈 행이 포함됩니다.
 
 문제를 해결하려면 다음을 편집하십시오. [!DNL Excel] 데이터 정렬 기준 피드와 연결된 템플릿 [!DNL Start date in Ascending (Oldest to Newest) order]를 클릭한 다음 스프레드시트 피드 설정을 통해 업데이트된 템플릿을 업로드합니다. 자세한 내용은 &quot;[스프레드시트 보고서 피드 편집](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++

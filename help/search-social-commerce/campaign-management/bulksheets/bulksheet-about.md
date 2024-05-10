@@ -1,11 +1,11 @@
 ---
 title: 일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보
 description: 광고 네트워크에서 사용할 수 있는 일괄 시트 기능, 일괄 시트 워크플로우 및 오류 처리에 대해 알아봅니다.
-exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 원하는 만큼 데이터를 사용하여 일괄 시트를 생성하거나 선택적으로 수동으로 생성하여 업로드할 수 있습니다(&quot;일괄 시트의 필수/포함 데이터&quot; 챕터 참조).
 
-일괄 시트를 만들면 수정해야 하는 끊어진 랜딩 페이지나 추가 또는 편집할 데이터를 식별할 수 있습니다. 그런 다음 파일을 편집하여 검색, 소셜 및 상거래에 업로드할 수 있으며 관련 광고 네트워크에 즉시 또는 나중에 게시되도록 예약할 수 있습니다. 사용 가능한 일괄 시트를 즉시 또는 나중에 게시할 수도 있습니다.
+일괄 시트를 만들면 수정해야 하는 끊어진 랜딩 페이지나 추가 또는 편집할 데이터를 식별할 수 있습니다. 그런 다음 파일을 편집하여 검색, 소셜 및 Commerce에 업로드할 수 있으며 관련 광고 네트워크에 즉시 또는 나중에 게시되도록 예약할 수 있습니다. 사용 가능한 일괄 시트를 즉시 또는 나중에 게시할 수도 있습니다.
 
 선택적으로 검색 및 자동 게시를 위해 일괄 시트 파일을 지정된 FTP 계정에 업로드할 수 있습니다. 디렉토리는 매 시간마다 스캔되며 새 파일은 수신되는 순서대로 검색 네트워크에 게시됩니다.
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## 광고 네트워크별 기능
 
-* **다운로드, 업로드 및 게시:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], 및 [!DNL Yandex] 계정
+* **다운로드, 업로드 및 게시:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], 및 [!DNL Yandex] 계정
 
 * **다운로드 및 업로드만:** [!DNL Naver] 계정
 
-  업로드할 수 있습니다 [!DNL Naver] 검색, 소셜 및 상거래 내에서 사용할 데이터이지만 광고 네트워크에 게시할 수 없습니다. 기존(동기화되지 않은) 데이터를 다운로드할 수도 있습니다.
+  업로드할 수 있습니다 [!DNL Naver] 검색, 소셜 및 Commerce 내에서 사용할 데이터이지만 광고 네트워크에 게시할 수 없습니다. 기존(동기화되지 않은) 데이터를 다운로드할 수도 있습니다.
 
 * **데이터만 다운로드:**  [!DNL Pinterest], [!DNL Yahoo Native], 및 [!DNL Yahoo! Display Network] 계정
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 1. 데이터를 추가하거나 수정해야 하는 경우:
 
-   1. [파일 내보내기](bulksheet-export.md) 데스크탑에 연결한 다음 [!DNL Microsoft® Excel].
+   1. [파일 내보내기](bulksheet-export.md) 데스크탑에 연결한 다음 [!DNL Microsoft Excel].
 
-   1. [편집된 파일 수동 업로드](bulksheet-upload.md) 검색, 소셜, 및 상거래 또는 [지정된 FTP 계정에 파일 업로드](bulksheet-ftp-account.md) 자동 게시용.
+   1. [편집된 파일 수동 업로드](bulksheet-upload.md) 검색, 소셜 및 Commerce 또는 [지정된 FTP 계정에 파일 업로드](bulksheet-ftp-account.md) 자동 게시용.
 
 1. (수동으로 업로드한 파일의 경우) [파일 게시](bulksheet-post.md) 를 업로드할 때 또는 나중에 광고 네트워크에 업로드합니다.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 캠페인 데이터 업로드 및 게시 오류 관리
 
-검색, 소셜 및 상거래는 필요할 때 생성하는 추적 URL을 포함하여 캠페인 벌크 시트에서 가능한 한 많은 데이터 행을 업로드하고 게시합니다.
+검색, 소셜 및 Commerce은 필요할 때 생성하는 추적 URL을 포함하여 캠페인 벌크 시트에서 가능한 한 많은 데이터 행을 업로드하고 게시합니다.
 
 일괄 시트 작업 중에 오류가 발생하면 다음 두 가지 유형의 오류 파일 중 하나가 생성됩니다.
 

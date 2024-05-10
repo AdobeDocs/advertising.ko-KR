@@ -3,7 +3,7 @@ title: 인벤토리 피드에 대한 광고 템플릿 관리
 description: 계정 구조를 관리하고 동적 광고를 게재하기 위해 인벤토리 데이터를 처리할 수 있는 광고 템플릿 관리에 대해 알아봅니다.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 인벤토리 피드에 대한 광고 템플릿 관리
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (작업만 삭제) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (작업만 삭제) 및 [!DNL Yandex] 계정만*
 
-데이터를 업로드하기 전이나 후에 데이터를 처리할 수 있는 검색 엔진별 광고 템플릿을 만들 수 있습니다. 텍스트 광고 및 확장/확장 텍스트 광고에 대한 템플릿을 만들 수 있습니다. [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 반응형 검색 광고 및 [!DNL Google Ads] 및 [!DNL Microsoft® Advertising] 쇼핑 광고.
+데이터를 업로드하기 전이나 후에 데이터를 처리할 수 있는 검색 엔진별 광고 템플릿을 만들 수 있습니다. 텍스트 광고 및 확장/확장 텍스트 광고에 대한 템플릿을 만들 수 있습니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 반응형 검색 광고 및 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 쇼핑 광고.
 
-각 템플릿을 하나의 피드 파일과 연결할 수 있습니다. [!DNL Google Merchant Center] 계정 또는 [!DNL Microsoft® Merchant Center] 동일한 피드 파일 또는 계정에 여러 템플릿을 연결할 수 있습니다. 광고 템플릿에는 업로드된 파일 또는 계정의 실제 데이터 열로 대체되는 변수가 포함될 수 있습니다. 대부분의 경우 변수에는 다음도 포함될 수 있습니다. [수정자 그룹](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 데이터 파일의 각 적용 가능한 행에 대해 여러 광고, 키워드, 캠페인 또는 광고 그룹을 만들도록 검색, 소셜 및 Commerce에서 설정합니다. 템플릿 옵션을 사용하면 광고에 대한 새 계정 구조(캠페인, 광고 그룹, 키워드)를 만들거나 광고를 기존 계정 구조에 매핑할 수 있습니다.
+각 템플릿을 하나의 피드 파일과 연결할 수 있습니다. [!DNL Google Merchant Center] 계정 또는 [!DNL Microsoft Merchant Center] 동일한 피드 파일 또는 계정에 여러 템플릿을 연결할 수 있습니다. 광고 템플릿에는 업로드된 파일 또는 계정의 실제 데이터 열로 대체되는 변수가 포함될 수 있습니다. 대부분의 경우 변수에는 다음도 포함될 수 있습니다. [수정자 그룹](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 데이터 파일의 각 적용 가능한 행에 대해 여러 광고, 키워드, 캠페인 또는 광고 그룹을 만들도록 검색, 소셜 및 Commerce에서 설정합니다. 템플릿 옵션을 사용하면 광고에 대한 새 계정 구조(캠페인, 광고 그룹, 키워드)를 만들거나 광고를 기존 계정 구조에 매핑할 수 있습니다.
 
 새 템플릿을 처음부터 새로 만드는 것 외에도 선택적으로 기존 템플릿을 복제하여 새 템플릿을 만들고 기존 템플릿을 편집할 수 있습니다.
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 피드 템플릿 만들기, 복제 또는 편집
 
-텍스트 및 확장/확장 텍스트 광고, 반응형 검색 광고에 대한 별도의 템플릿을 만듭니다. [!DNL Google Ads] 쇼핑 광고 및 [!DNL Microsoft® Advertising] 쇼핑 광고.
+텍스트 및 확장/확장 텍스트 광고, 반응형 검색 광고에 대한 별도의 템플릿을 만듭니다. [!DNL Google Ads] 쇼핑 광고 및 [!DNL Microsoft Advertising] 쇼핑 광고.
 
 1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**: 다음에 열립니다. [!UICONTROL Templates] 탭.
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * (기존 템플릿을 편집하려면) 템플릿 이름 옆에 있는 ![설정 보기/편집](/help/search-social-commerce/assets/settings.png "설정 보기/편집").
 
-1. 다음에 대한 설정 지정 [텍스트 광고 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] 쇼핑 광고 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), 또는 [[!DNL Microsoft® Advertising] 쇼핑 광고 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
+1. 다음에 대한 설정 지정 [텍스트 광고 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] 쇼핑 광고 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), 또는 [[!DNL Microsoft Advertising] 쇼핑 광고 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
    1. 템플릿 설정 창의 맨 위에서 템플릿 이름과 적용 가능한 계정을 지정합니다.
 
@@ -158,5 +158,5 @@ ht-degree: 0%
 >* [인벤토리 피드를 사용한 광고 관리 자동화 정보](../inventory-feeds-about.md)
 >* [텍스트 광고 및 반응형 검색 광고 템플릿 설정](template-text-rsa.md)
 >* [[!DNL Google Ads] 쇼핑 광고 템플릿 설정](template-google-shopping.md)
->* [[!DNL Microsoft® Advertising] 쇼핑 광고 템플릿 설정](template-microsoft-shopping.md)
+>* [[!DNL Microsoft Advertising] 쇼핑 광고 템플릿 설정](template-microsoft-shopping.md)
 >* [템플릿을 통해 피드 데이터 전파](../feed-data-propagate.md)

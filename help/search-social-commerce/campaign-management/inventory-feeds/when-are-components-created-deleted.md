@@ -1,18 +1,18 @@
 ---
 title: 계정 구성 요소는 언제 재고 피드에서 생성되거나 삭제됩니까?
 description: 인벤토리 피드를 게시할 때 계정 구성 요소를 만들고 삭제하는 상황에 대해 알아봅니다.
-exl-id: 93b31996-15dd-4215-ae9d-39327910f712
+exl-id: 39a3cc2c-f956-4a89-a69d-687a27a38a1e
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
 
 # 계정 구성 요소는 언제 재고 피드에서 생성되거나 삭제됩니까?
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (작업만 삭제) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (작업만 삭제) 및 [!DNL Yandex] 계정만*
 
 인벤토리 피드 파일이 템플릿을 통해 전파되면 다음과 같이 계정 구성 요소가 생성되고 삭제됩니다.
 
@@ -23,9 +23,9 @@ ht-degree: 0%
 | 시나리오 | 예 | 작업 |
 |----|----|----|
 | 피드 데이터에는 캠페인 이름, 광고 그룹 이름, 키워드 또는 제품 그룹에 사용된 열에 대한 새 값이 포함됩니다. | 이전 파일:<br>Campaign=모자<br>Campaign=장갑<br><br>새 파일:<br>Campaign=신발 | 새 캠페인, 광고 그룹, 키워드 또는 제품 그룹이 광고 네트워크에 없는 경우 만들어집니다. |
-| 피드 데이터에는 광고에 사용된 열에 대한 새 값이 포함되어 있습니다. | 이전 파일: 광고에 포함된 가격=20<br><br>새 파일: 동일한 광고의 경우 price=10 | 다음에 대한 광고를 복사할 때 [!DNL Microsoft® Advertising] 확장된 텍스트 광고, [!DNL Yahoo! Japan ads], 또는 [!DNL Yandex] 광고가 변경되고 기존 광고가 삭제되며 새 광고가 만들어집니다.<br><br>다른 광고 유형에 대해 광고 복사가 변경되거나 적용 가능한 열이 [!DNL Google Ads] 광고 매개 변수({param1} 또는 {param2})를 입력하면 기존 광고가 업데이트됩니다. |
+| 피드 데이터에는 광고에 사용된 열에 대한 새 값이 포함되어 있습니다. | 이전 파일: 광고에 포함된 가격=20<br><br>새 파일: 동일한 광고의 경우 price=10 | 다음에 대한 광고를 복사할 때 [!DNL Microsoft Advertising] 확장된 텍스트 광고, [!DNL Yahoo! Japan ads], 또는 [!DNL Yandex] 광고가 변경되고 기존 광고가 삭제되며 새 광고가 만들어집니다.<br><br>다른 광고 유형에 대해 광고 복사가 변경되거나 적용 가능한 열이 [!DNL Google Ads] 광고 매개 변수({param1} 또는 {param2})를 입력하면 기존 광고가 업데이트됩니다. |
 | 마지막 전달 이후 캠페인, 광고 그룹, 키워드 또는 제품 그룹에 대한 템플릿 설정이 변경되었습니다. | 이전 설정:키워드=[키워드]<br><br>새 설정: 키워드=&lt;color>[키워드] | 새 캠페인, 광고 그룹, 키워드 또는 제품 그룹이 광고 네트워크에 없는 경우 만들어집니다. |
-| 마지막 전달 이후 광고의 템플릿 설정이 변경되었습니다. | 이전 설정: 광고 설명=&quot;구매 [범주] 지금.&quot;<br><br>새 설정: 광고 설명=&quot;구매 [브랜드] 지금.&quot; | 다음에 대한 광고를 복사할 때 [!DNL Microsoft® Advertising] 확장된 텍스트 광고, [!DNL Yahoo! Japan ads], 또는 [!DNL Yandex] 광고가 변경되고 기존 광고가 삭제되며 새 광고가 만들어집니다.<br><br>다른 광고 유형에 대해 광고 복사가 변경되었거나 변경 사항이 싱글에 사용된 열의 변경 사항을 반영하는 경우 [!DNL Google Ads] 광고 매개 변수({param1} 또는 {param2})를 입력하면 기존 광고가 업데이트됩니다. |
+| 마지막 전달 이후 광고의 템플릿 설정이 변경되었습니다. | 이전 설정: 광고 설명=&quot;구매 [범주] 지금.&quot;<br><br>새 설정: 광고 설명=&quot;구매 [브랜드] 지금.&quot; | 다음에 대한 광고를 복사할 때 [!DNL Microsoft Advertising] 확장된 텍스트 광고, [!DNL Yahoo! Japan ads], 또는 [!DNL Yandex] 광고가 변경되고 기존 광고가 삭제되며 새 광고가 만들어집니다.<br><br>다른 광고 유형에 대해 광고 복사가 변경되었거나 변경 사항이 싱글에 사용된 열의 변경 사항을 반영하는 경우 [!DNL Google Ads] 광고 매개 변수({param1} 또는 {param2})를 입력하면 기존 광고가 업데이트됩니다. |
 | 새 피드 데이터에는 기존 캠페인 또는 광고 그룹에 대한 행이 포함되지 않습니다. | 해당 사항 없음 | 기존 캠페인 및 광고 그룹은 그대로 유지됩니다. |
 | 새 피드 데이터에는 기존 광고 그룹, 광고, 키워드 또는 제품 그룹에 대한 행이 포함되지 않습니다. | 해당 사항 없음 | 기존 광고 그룹, 광고, 키워드 또는 제품 그룹은 그대로 유지되거나, 일시 중지되거나, [피드 데이터 설정](feed-settings-manage.md#feed-data-settings). |
 | 기존 상위 제품 그룹에 대한 새 피드 데이터에는 기존 하위 제품 그룹에 대한 행이 포함되지 않습니다. | 해당 사항 없음 | 에 따라 기존 상위 제품 그룹은 그대로 유지되거나 삭제됩니다 [피드 데이터 설정](feed-settings-manage.md#feed-data-settings). <b>참고:</b> 피드 데이터 설정이 누락된 라인 항목을 일시 중지하도록 구성된 경우 제품 그룹을 일시 중지할 수 없으므로 상위 제품 그룹은 계속 삭제됩니다. |

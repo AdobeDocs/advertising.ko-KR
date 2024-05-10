@@ -3,7 +3,7 @@ title: 캠페인 및 광고 그룹과의 광고 확장 연결 삭제
 description: 광고 확장을 캠페인 및 광고 그룹과 연결 해제하는 방법을 알아봅니다.
 exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: bd7d7ed571ef281f534ab45dc92f20be9445b055
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 캠페인 및 광고 그룹과의 광고 확장 연결 삭제
 
-*[!DNL Google Ads]및 [!DNL Microsoft® Advertising] 전용*
+*[!DNL Google Ads]및 [!DNL Microsoft Advertising] 전용*
 
 모든 위치, 전화 및 사이트 링크 확장과 캠페인 및 광고 그룹 수준 연결을 삭제할 수 있습니다.
 

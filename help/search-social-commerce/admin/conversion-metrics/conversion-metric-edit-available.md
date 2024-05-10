@@ -2,8 +2,8 @@
 title: 관리 보기 및 보고서에서 사용할 수 있는 전환 지표 변경
 description: 관리 보기 및 보고서에서 사용 가능한 전환 지표를 만드는 방법을 알아봅니다.
 feature: Conversions
-exl-id: a8f3a2d6-4203-42db-96cd-faf02d20d247
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 관리 보기 및 보고서에서 사용할 수 있는 전환 지표 변경
 
-Adobe Advertising이 다음을 추적할 때 [전환](/help/search-social-commerce/glossary.md#c-d) 광고주를 위한 지표이므로 처음에는 포트폴리오 목표, 보고서 및 관리 보기에서 제외됩니다. 전환 지표가 표시되도록 하려면 전환 지표를 명시적으로 사용할 수 있도록 한 다음 선택적으로 표시되는 이름인 기본 표시 이름을 변경해야 합니다. 유일한 예외는 전환을에서 추적한다는 것입니다. [!DNL Google Ads], [!DNL Google Analytics], 및 [!DNL Microsoft® Advertising] 범용 이벤트 추적 태그는 자동으로 사용할 수 있고 표시됩니다.
+Adobe Advertising이 다음을 추적할 때 [전환](/help/search-social-commerce/glossary.md#c-d) 광고주를 위한 지표이므로 처음에는 포트폴리오 목표, 보고서 및 관리 보기에서 제외됩니다. 전환 지표가 표시되도록 하려면 전환 지표를 명시적으로 사용할 수 있도록 한 다음 선택적으로 표시되는 이름인 기본 표시 이름을 변경해야 합니다. 유일한 예외는 전환을에서 추적한다는 것입니다. [!DNL Google Ads], [!DNL Google Analytics], 및 [!DNL Microsoft Advertising] 범용 이벤트 추적 태그는 자동으로 사용할 수 있고 표시됩니다.
 
 마찬가지로 포트폴리오 목표, 보고서 및 관리 보기에서 전환 지표를 숨길 수 있습니다. 이전에 표시되었던 전환 지표를 숨기면 전환 지표가 포함된 파생 지표에서 제거됩니다.
 
@@ -50,10 +50,10 @@ Adobe Advertising이 다음을 추적할 때 [전환](/help/search-social-commer
 
 >[!NOTE]
 >
->Adobe Advertising이 새 전환 지표에 대한 데이터를 수집하는 경우 추적한 전환을 제외한 새 지표 [!DNL Google Ads], [!DNL Google Analytics], 및 [!DNL Microsoft® Advertising] 범용 이벤트 추적 태그 — 를 포함할 때까지 관리 보기 및 보고서에서 자동으로 제외됩니다. 추적한 새 전환 [!DNL Google Ads], [!DNL Google Analytics], 및 [!DNL Microsoft® Advertising] 범용 이벤트 추적 태그는 항상 자동으로 사용할 수 있습니다.
+>Adobe Advertising이 새 전환 지표에 대한 데이터를 수집하는 경우 추적한 전환을 제외한 새 지표 [!DNL Google Ads], [!DNL Google Analytics], 및 [!DNL Microsoft Advertising] 범용 이벤트 추적 태그 — 를 포함할 때까지 관리 보기 및 보고서에서 자동으로 제외됩니다. 추적한 새 전환 [!DNL Google Ads], [!DNL Google Analytics], 및 [!DNL Microsoft Advertising] 범용 이벤트 추적 태그는 항상 자동으로 사용할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
-* [광고주의 전환 지표 관리 정보](conversion-metric-about.md)
-* [광고주에 대해 추적된 전환 지표 보기](conversion-metric-view-tracked.md)
-* [전환 지표에 대한 표시 이름 변경](conversion-metric-edit-display-name.md)
+>* [광고주의 전환 지표 관리 정보](conversion-metric-about.md)
+>* [광고주에 대해 추적된 전환 지표 보기](conversion-metric-view-tracked.md)
+>* [전환 지표에 대한 표시 이름 변경](conversion-metric-edit-display-name.md)

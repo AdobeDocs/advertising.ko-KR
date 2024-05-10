@@ -1,20 +1,20 @@
 ---
 title: 공유 사이트링크를 계정, 캠페인 및 광고 그룹과 연결
 description: 공유 사이트링크 확장을 계정, 캠페인 및 광고 그룹에 할당하는 방법을 알아봅니다.
-exl-id: c7bd92ab-3768-4b6e-988a-32e644c3d583
+exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # 공유 사이트링크를 계정, 캠페인 및 광고 그룹과 연결
 
-*[!DNL Google Ads]및 [!DNL Microsoft® Advertising] 전용*
+*[!DNL Google Ads]및 [!DNL Microsoft Advertising] 전용*
 
-에서 사이트링크를 할당하여 광고 확장을 만들 수 있습니다. [!DNL Sitelinks] 검색 네트워크에서만 사용할 수 있도록 라이브러리 를 계정 엔티티에 추가합니다. 대상 [!DNL Google Ads] 계정에서 검색 네트워크의 계정 또는 캠페인 및 광고 그룹에 사이트링크를 할당할 수 있습니다. 대상 [!DNL Microsoft® Advertising] 계정에서 검색 네트워크의 캠페인(및 내에서 계정 및 광고 그룹에 사이트링크를 할당할 수 있습니다. [!DNL Microsoft® Advertising] 광고 관리자).
+에서 사이트링크를 할당하여 광고 확장을 만들 수 있습니다. [!DNL Sitelinks] 검색 네트워크에서만 사용할 수 있도록 라이브러리 를 계정 엔티티에 추가합니다. 대상 [!DNL Google Ads] 계정에서 검색 네트워크의 계정 또는 캠페인 및 광고 그룹에 사이트링크를 할당할 수 있습니다. 대상 [!DNL Microsoft Advertising] 계정에서 검색 네트워크의 캠페인(및 내에서 계정 및 광고 그룹에 사이트링크를 할당할 수 있습니다. [!DNL Microsoft Advertising] 광고 관리자).
 
 사이트링크가 광고와 함께 표시되도록 하려면 데스크톱과 모바일 모두에 대해 최소 6개의 활성 사이트링크가 있어야 합니다. 계정, 캠페인 또는 광고 그룹당 최대 20개의 사이트링크를 할당할 수 있습니다.
 

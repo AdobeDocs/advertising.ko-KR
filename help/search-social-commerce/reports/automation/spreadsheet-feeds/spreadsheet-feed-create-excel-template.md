@@ -1,9 +1,9 @@
 ---
 title: 만들기 [!DNL Excel] 스프레드시트 보고서 피드용 템플릿
 description: 특수 형식의 스프레드시트 템플릿을 만드는 방법에 대해 알아봅니다.
-exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *기본 보고서 및 모델 정확도 보고서의 경우에만*
 
-스프레드시트 피드를 생성하려면 먼저 특별 포맷된 피드를 생성해야 합니다 [!DNL Microsoft® Excel] 일반 보고서 템플릿을 사용하는 스프레드시트 템플릿입니다. 선택적으로 다음을 사용자 지정할 수 있습니다. [!DNL Excel] 추가 열 및 그래프를 포함하는 스프레드시트입니다.
+스프레드시트 피드를 생성하려면 먼저 특별 포맷된 피드를 생성해야 합니다 [!DNL Microsoft Excel] 일반 보고서 템플릿을 사용하는 스프레드시트 템플릿입니다. 선택적으로 다음을 사용자 지정할 수 있습니다. [!DNL Excel] 추가 열 및 그래프를 포함하는 스프레드시트입니다.
 
 1. 위치 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, 를 사용하여 원하는 보고서 유형 생성 [!UICONTROL Date Aggregation] 의 단위[!UICONTROL Daily]&quot;원하는 다른 모든 데이터 매개 변수와 함께 보고서를 템플릿으로 저장합니다.
 
