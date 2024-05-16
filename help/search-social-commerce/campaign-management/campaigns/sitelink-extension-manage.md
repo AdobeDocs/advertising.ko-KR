@@ -1,11 +1,11 @@
 ---
 title: 공유 사이트 링크 관리
 description: 공유 사이트링크 확장을 만들고 관리하는 방법을 알아봅니다.
-exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c3b8e387cfc38d195e77761791e689fd094d8f39
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 공유 사이트 링크 설정 {#shared-sitelink-settings}
 
-추가 정책 및 sitelink 불승인 사유에 대해서는 [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) 및 [[!DNL Microsoft Advertising]](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies) sitelink 확장 요구 사항.
+추가 정책 및 sitelink 불승인 사유에 대해서는 [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) 및 [[!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/ext60206) sitelink 확장 요구 사항.
 
 ### [!UICONTROL Sitelink]
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 **[!UICONTROL Tracking Template]:** (선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 또한 최종/랜딩 페이지 URL을 매개 변수에 임베드하는 추적 템플릿 또는 추적 URL. 예: `{lpurl}?source={network}&id=5` 또는 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` 리디렉션을 포함합니다.
 
-* Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;자동 업로드&quot;, 검색, 소셜 및 상거래는 레코드를 저장할 때 자체 클릭 추적 코드 접두사가 자동으로 추가됩니다.
+* Adobe Advertising 전환 추적의 경우, 캠페인 설정에 이 포함되어 있을 때 적용됩니다.[!UICONTROL EF Redirect]&quot; 및 &quot;자동 업로드&quot;, 검색, 소셜 및 Commerce은 레코드를 저장할 때 자체 클릭 추적 코드 접두사가 자동으로 추가됩니다.
 
 * 최종 URL을 포함하도록 지원되는 매개 변수에 대해 ([!DNL Microsoft Advertising] 만) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads] 만 해당) &quot;사용 가능&quot; 섹션의 &quot;추적 템플릿만&quot; 매개 변수 [!DNL ValueTrack] 의 &quot;매개 변수&quot; [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348).
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 캠페인 설정에 &quot;&quot;가 포함된 경우[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce는 레코드를 저장할 때 자체 리디렉션 및 추적 코드 접두사를 자동으로 추가합니다.
+>* 캠페인 설정에 &quot;&quot;가 포함된 경우[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload],&quot; Search, Social 및 Commerce은 레코드를 저장할 때 자체 리디렉션 및 추적 코드 앞에 자동으로 추가됩니다.
 >* 가장 세분화된 수준의 추적 템플릿은 모든 상위 수준의 값을 재정의합니다. 예를 들어 계정 설정과 키워드 설정 모두에 값이 포함된 경우 키워드 값이 적용됩니다.
 >* ([!DNL Google Ads]) 사이트링크 또는 키워드 수준에서 추적 템플릿을 업데이트하는 경우 관련 광고가 다시 제출되어 검토됩니다. 승인을 위해 광고를 다시 제출하지 않고도 계정, 캠페인 또는 광고 그룹 수준에서 추적 템플릿을 업데이트할 수 있습니다.
 >* ([!DNL Microsoft Advertising]) 승인을 위해 광고를 다시 제출하지 않고도 원하는 수준에서 추적 템플릿을 업데이트할 수 있습니다.
