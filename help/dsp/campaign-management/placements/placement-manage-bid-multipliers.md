@@ -1,24 +1,24 @@
 ---
 title: 배치에 대한 입찰 승수 관리
-description: 지정된 배치 대상의 입찰 배수를 만들고 편집하는 방법에 대해 알아봅니다.
+description: 배치 타겟에 대한 입찰 승수를 만들고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 3%
+source-wordcount: '554'
+ht-degree: 2%
 
 ---
 
 # 배치에 대한 입찰 승수 관리
 
-이 기능을 사용하여 기존 배치 대상의 입찰 배수를 변경할 수 있습니다. 한 번에 한 배치에 대한 입찰 승수를 관리할 수 있습니다.<!-- remove that line once we can edit multiple -->
+기존 배치 대상에 대해 입찰을 곱하고 입찰을 증가 또는 감소시키는 입찰 승수를 생성하고 관리할 수 있습니다. [적격한 대상 유형](#bid-multiplier-by-target). 입찰 승수 값을 수동으로 편집하거나 값이 있는 스프레드시트를 업로드할 수 있습니다.
 
-배치에 대해 선택한 대상을 변경하려면 &quot;[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+기본적으로 대상에 대한 입찰 승수는 1.00이며, 이는 입찰이 해당 대상에 대해 조정되지 않음을 의미합니다. 값의 범위는 0.10부터 10.00까지입니다. 예를 들어, 입찰 수정자 0.5는 USD 6 입찰을 USD 3으로 감소시킵니다(0.5 x 6). 경매에서 여러 입찰 수정자를 사용할 수 있는 경우 적용 가능한 모든 입찰 수정자를 곱합니다. 입찰 수정자는 입찰가를 최대 입찰가 이상으로 증가시키지 않습니다.
 
-<!-- 
-## Manage the Bid Multipliers for a Single Placement
--->
+다음에 대한 입찰 승수(1.00 이외의 값 사용)를 설정할 수 있습니다. [제한된 타겟 수](#bid-multiplier-limits-by-target).
+
+이 기능은 기존 배치 대상과 함께 작동합니다. 배치에 대해 선택한 대상을 변경하려면 &quot;[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
 
@@ -28,15 +28,19 @@ ht-degree: 3%
 
 1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. 각 위치로 이동 [target별 탭](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], 및 [!UICONTROL Brand Safety]) 배치 대상의 기존 값을 편집합니다. 대부분의 대상 카테고리는 왼쪽에 하위 카테고리를 나열합니다. 해당되는 경우 하위 범주를 클릭하여 해당 하위 범주에 대한 입찰 승수를 관리합니다.
+1. 수동으로 또는 대상 값이 있는 CSV 파일을 업로드하여 적격 대상의 입찰 승수를 조정합니다.
 
-   기본적으로 대상에 대한 입찰 승수는 1.00이며, 이는 입찰이 해당 대상에 대해 조정되지 않음을 의미합니다. 값의 범위는 0.10부터 10.00까지입니다. 예를 들어, 입찰 수정자 0.5는 USD 6 입찰을 USD 3으로 감소시킵니다(0.5 x 6). 입찰 수정자는 입찰가를 최대 입찰가 이상으로 증가시키지 않습니다.
+   * 입찰 승수 값을 수동으로 조정하려면 각 값으로 이동합니다. [target별 탭](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], 및 [!UICONTROL Brand Safety]) 배치 대상의 기존 값을 편집합니다. 대부분의 대상 카테고리는 왼쪽에 하위 카테고리를 나열합니다. 해당되는 경우 하위 범주를 클릭하여 해당 하위 범주에 대한 입찰 승수를 관리합니다.
 
-   경매에서 여러 입찰 수정자를 사용할 수 있는 경우 적용 가능한 모든 입찰 수정자를 곱합니다.
+   * 입찰 승수 값이 있는 CSV 파일을 업로드하여 기존 값을 덮어쓰려면 다음을 수행합니다.
 
-   다음에 대한 입찰 승수(1.00 이외의 값 사용)를 설정할 수 있습니다. [제한된 타겟 수](#bid-multiplier-limits-by-target).
+      1. 클릭 **[!UICONTROL CSV File Edit]** 오른쪽 상단에 있습니다.
 
-1. 오른쪽 상단에서 **[!UICONTROL Save]**.
+      1. a) 클릭 **[!UICONTROL Download Template]** 사용자 인터페이스에 표시되는 동일한 구문과 해당 입찰 승수 값을 사용하여 대상을 입력하거나 b) 이전에 다운로드한 템플릿을 동일한 정보로 편집합니다. 편집된 파일을 장치 또는 네트워크에 저장합니다.
+
+      1. 클릭 **[!UICONTROL Next]** 로 이동 [!UICONTROL Upload File] 섹션과 a) 편집된 파일을 상자로 드래그하여 놓거나 b) 상자 안을 클릭하여 장치나 네트워크에서 파일을 선택합니다.
+
+      1. 에서 업로드된 데이터 확인 [!UICONTROL Review & Submit] 섹션을 클릭한 다음 **[!UICONTROL Save]**.
 
 ## 입찰 승수에 적합한 대상 유형 {#bid-multiplier-by-target}
 
