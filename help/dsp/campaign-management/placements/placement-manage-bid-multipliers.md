@@ -3,9 +3,9 @@ title: 배치에 대한 입찰 승수 관리
 description: 배치 타겟에 대한 입찰 승수를 만들고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
+source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '543'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,11 @@ ht-degree: 2%
 
 1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. 수동으로 또는 대상 값이 있는 CSV 파일을 업로드하여 적격 대상의 입찰 승수를 조정합니다.
+1. 적격 대상에 대한 입찰 승수를 조정합니다.
 
-   * 입찰 승수 값을 수동으로 조정하려면 각 값으로 이동합니다. [target별 탭](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], 및 [!UICONTROL Brand Safety]) 배치 대상의 기존 값을 편집합니다. 대부분의 대상 카테고리는 왼쪽에 하위 카테고리를 나열합니다. 해당되는 경우 하위 범주를 클릭하여 해당 하위 범주에 대한 입찰 승수를 관리합니다.
+   * 입찰 승수 값을 수동으로 조정하려면 각 값으로 이동합니다. [target별 탭](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], 및 [!UICONTROL Brand Safety]) 배치 대상의 기존 값을 편집합니다.
+
+     대부분의 대상 카테고리는 왼쪽에 하위 카테고리를 나열합니다. 해당되는 경우 하위 범주를 클릭하여 해당 하위 범주에 대한 입찰 승수를 관리합니다.
 
    * 입찰 승수 값이 있는 CSV 파일을 업로드하여 기존 값을 덮어쓰려면 다음을 수행합니다.
 
