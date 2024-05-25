@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 3ffd3fdbe61d66a7c3a181e07559727b5db83a7e
+source-git-commit: 62ed2870c84a72662832bd21e0820a517f7c3d00
 workflow-type: tm+mt
 source-wordcount: '2912'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024년 5월 22일 | CTV 패키지를 위한 최적화 | 이제 &quot;최저 CPA&quot; 및 &quot;최고 ROAS&quot; 최적화 목표가 있는 패키지에서 연결된 TV 광고의 성능 모델은 전환 경로의 여러 접점의 데이터를 사용하여 보다 빠르고 강력한 머신 러닝을 수행할 수 있습니다. 기존 패키지는 멀티 터치 최적화를 사용하도록 업그레이드되며 조치가 필요하지 않습니다. | — |
+| 2024년 5월 22일 | 최적화, 연결된 TV 광고 | 이제 &quot;최저 CPA&quot; 및 &quot;최고 ROAS&quot; 최적화 목표가 있는 패키지에서 연결된 TV 광고의 성능 모델은 전환 경로의 여러 접점의 데이터를 사용하여 보다 빠르고 강력한 머신 러닝을 수행할 수 있습니다. 기존 패키지는 멀티 터치 최적화를 사용하도록 업그레이드되며 조치가 필요하지 않습니다. | — |
 | 2024년 5월 20일 | 연결된 TV 광고, 픽셀, 세그먼트 리타겟팅 | (오픈 베타, 미국 및 호주에서만 사용 가능) 이제 추가 광고로 CTV 캠페인에 노출된 대상 세그먼트를 재타겟팅하여 크로스 채널 광고를 향상시킬 수 있습니다.<ol><li>광고 노출 세그먼트를 설정하고 노출 추적 태그를 원하는 CTV 배치 또는 광고에 복사하여 세그먼트에 대한 추적을 시작합니다.</li><li>재타겟팅 배치에서 [!UICONTROL Audience Targeting] 섹션.</li></ol> | 를 참조하십시오.[사용자 지정 세그먼트 만들기 및 구현](/help/dsp/audiences/custom-segment-create.md)&quot; 및 &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2024년 5월 2일 | 광고, 픽셀 | 캠페인에 있는 모든 광고에 대한 광고 설정 및 배치 연관을 XLSX(Excel 스프레드시트) 형식으로 다운로드하여 다음에서 검토할 수 있습니다. [!UICONTROL Ad Tools] 보기. | 를 참조하십시오.[스프레드시트를 사용하여 광고 세부 정보 검토](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
 | |  | 다음 [!UICONTROL Ad Tools] 보기 > [!UICONTROL Attach Pixels] 탭에는 광고에 첨부된 서드파티 추적 픽셀이 표시되며, 하나 이상의 광고에 픽셀을 연결하고 기존 픽셀을 분리하는 새로운 워크플로우를 제공합니다. | 를 참조하십시오.[배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
