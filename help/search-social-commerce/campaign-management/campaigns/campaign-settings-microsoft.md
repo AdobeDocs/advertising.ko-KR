@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 캠페인.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
   최적화된 검색, 소셜 및 Commerce 포트폴리오에 eCPC가 있는 캠페인을 추가하면 검색, 소셜 및 Commerce은 기본 입찰가를 최적화하고, 다음과 같은 경우에[!UICONTROL Auto adjust campaign budget limits]&quot;옵션이 활성화됨 — 캠페인 예산. 광고 네트워크는 모든 입찰 조정을 최적화하고 독점 데이터 및 통찰력을 기반으로 사용자 쿼리 시 검색, 소셜 및 Commerce 생성 입찰을 변경할 수 있습니다. **주의:** 광고 네트워크에서 추적된 총 전환이 포트폴리오 목표에 맞는 경우에만 포트폴리오에서 eCPC 캠페인을 사용하십시오.
 
-* *[!UICONTROL Manual CPC]*: (브랜드를 위한 쇼핑 캠페인) [!DNL Microsoft Store Ads] 캠페인; 사용 중단됨 [!DNL Microsoft Advertising] (다른 캠페인 유형의 경우 2021년) 클릭당 비용(CPC) 모델을 사용합니다. 일부 광고 유형의 경우 선택적으로 광고 네트워크가 캠페인에 대한 입찰을 변경하도록 허용할 수 있습니다.
+* *[!UICONTROL Manual CPC]*: (브랜드를 위한 쇼핑 캠페인) [!DNL Microsoft Store Ads] 캠페인, 다른 캠페인 유형의 경우 더 이상 사용되지 않음) CPC(Cost-per-Click) 모델을 사용합니다. 일부 광고 유형의 경우 선택적으로 광고 네트워크가 캠페인에 대한 입찰을 변경하도록 허용할 수 있습니다.
 
    * **[!UICONTROL Enable Enhanced CPC]** (기본적으로 비활성화됨): 이 옵션은 &quot;[!UICONTROL Enhanced CPC]&quot; 옵션입니다.
 
