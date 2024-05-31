@@ -3,9 +3,9 @@ title: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics f
 description: 구현을 위한 사전 요구 사항 및 주요 정보 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 63b91d84118c6b84fe72ae1c3ac1a9f68d7201fc
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,9 @@ Adobe Advertising을 Adobe Analytics과 통합하기 전에 다음 정보를 검
 * 모든 버전의 Adobe Analytics(포함) [!DNL Prime], [!DNL Premium], 또는 [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` 버전 2.1 이상
 * (Advertising DSP 고객) [Advertising DSP JavaScript 코드 조각](javascript.md) 뷰스루 방문을 추적하기 위해 웹 페이지에 배포됩니다.
+* 광고 추적 URL의 AMO ID 매개 변수.
+
+  매개 변수는 일부 상황에서 추적 URL에 자동으로 추가되지만, 수동으로 추가해야 할 수도 있습니다. 에서 &quot;Adobe Advertising ID 사용 주체&quot; [!DNL Analytics]/help/integrations/analytics/ids.md,&quot; 참조 &quot;[AMO ID 구현 방법](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
 >[!TIP]
 >
