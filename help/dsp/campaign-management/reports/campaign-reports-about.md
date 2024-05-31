@@ -3,7 +3,7 @@ title: Campaign Management 보기의 성능 보고서 유형
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
+source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -78,7 +78,7 @@ An &quot;[!UICONTROL Alerts]&quot;열은 패키지, 배치 또는 광고(또는 
 
 * [A (세부 사항 보기) [!UICONTROL Inspector])](placement-details-view.md): 모든 타겟팅된 사이트, 광고, 빈도 데이터 및 배치 거래를 보여 줍니다.
 
-* A [배치 예측 보고서](/help/dsp/campaign-management/reports/placement-forecast.md)
+* A [배치 예측 보고서](/help/dsp/campaign-management/reports/placement-forecast.md).
 
 * [배치 진단 보고서](/help/dsp/campaign-management/reports/placement-diagnostics.md).
 
