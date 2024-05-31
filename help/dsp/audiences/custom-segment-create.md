@@ -3,9 +3,9 @@ title: 사용자 지정 세그먼트 만들기 및 구현
 description: 광고에 노출된 사용자 또는 웹 페이지를 방문하는 사용자를 추적하기 위해 사용자 지정 세그먼트를 만들고 구현하는 방법에 대해 알아봅니다.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * Adobe Analytics에서 측정하는 경우 다음을 수행해야 합니다.
 
-   1. 모두 완료 [구현을 위한 사전 요구 사항 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) 및 [추적 URL의 AMO ID 및 EF ID](/help/integrations/analytics/ids.md).
+   1. 모두 완료 [구현을 위한 사전 요구 사항 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md), 및 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md) 가 추적 URL에서 채워집니다.
 
    1. 웹 페이지의 앞 또는 안에 다음 매개 변수를 추가합니다. [에 필요한 JavaScript 코드 [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — 마지막 이벤트 서비스가 초기화되기 전 임의 위치입니다.
 
