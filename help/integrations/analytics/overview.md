@@ -3,9 +3,9 @@ title: 개요 [!DNL Analytics for Advertising]
 description: 개요 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: a0a3bb1e74ffc687118d0336a03dcc6164b67226
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 사용 [!DNL Analytics] 조직에 유료 미디어 보고 도구로 Analysis Workspace에 액세스할 수 있는 Experience Cloud 로그인이 필요합니다. Adobe Advertising 팀은 Adobe Advertising 데이터를 Analysis Workspace의 개별 보고서 세트에 매핑하는 데 도움이 됩니다. Adobe Advertising 데이터를 모든 보고서 세트에 보낼 수 있지만, Adobe Advertising에 매핑된 보고서 세트와 매핑되지 않은 보고서 세트를 알고 있어야 합니다. 보고서 세트에 따라, 보고된 데이터가 변경될 수 있습니다.
 
-[내 Adobe Advertising ID [!DNL Analytics]](ids.md) 유사 작품 [!DNL eVars]사용자 지정 영구 만료 포함. 기본적으로 Adobe Advertising 구현 중에 속성 전환 확인 기간은 60일로 설정됩니다. 이 설정을 변경하려면 Adobe 계정 팀과 작업하십시오.
+[내 Adobe Advertising ID [!DNL Analytics]](ids.md) 다른 사람처럼 일하기 [!DNL eVars]사용자 지정 영구 만료 포함. 기본적으로 Adobe Advertising 구현 중에 속성 전환 확인 기간은 60일로 설정됩니다. 이 설정을 변경하려면 Adobe 계정 팀과 작업하십시오.
 
 Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유형(AMO ID)&quot;)와 함께 추가됩니다. 를 참조하십시오.[Analysis Workspace에서 지표 Adobe Advertising](advertising-metrics-in-analytics.md)사용 가능한 차원 목록에 대해 설명합니다.
 
@@ -84,7 +84,7 @@ Adobe Advertising 팀은 유료 미디어 성능에 적용할 수 있는 이벤�
 
 Adobe Advertising 수집 가능 [!DNL Analytics] Advertising DSP 및 용 리마케팅 목적의 세그먼트 [!DNL Search, Social, & Commerce] 광고 사이에 기본 Experience Cloud 대상 통합을 사용하는 광고 [!DNL Analytics] Experience Cloud.
 
-에 액세스하려면 [!DNL Analytics] 세그먼트, 광고주 계정에는 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 활성화되었습니다. ID 서비스가 활성화되면 모든 Experience Cloud 세그먼트 (에서 만든 세그먼트 포함) [!DNL Analytics] 및 을(를) Experience Cloud에 게시하고, Adobe Audience Manager에서 만든 세그먼트, 를 사용하여 Experience Cloud에서 만든 세그먼트 [!DNL People core service], Adobe Experience Platform에서 만들어져 Audience Manager을 통해 Adobe Advertising으로 전송된 세그먼트 등은 처리되는 즉시 Adobe Advertising 내에서 사용할 수 있습니다.
+에 액세스하려면 [!DNL Analytics] 세그먼트, 광고주 계정이 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html). ID 서비스가 활성화되면 모든 Experience Cloud 세그먼트 (에서 만든 세그먼트 포함) [!DNL Analytics] 및 을(를) Experience Cloud에 게시하고, Adobe Audience Manager에서 만든 세그먼트, 를 사용하여 Experience Cloud에서 만든 세그먼트 [!DNL People core service], Adobe Experience Platform에서 만들어져 Audience Manager을 통해 Adobe Advertising으로 전송된 세그먼트 등은 처리되는 즉시 Adobe Advertising 내에서 사용할 수 있습니다.
 
 [!DNL Analytics] 세그먼트는 24시간 이내에 사용할 수 있으며 매일 업데이트됩니다.
 
@@ -135,6 +135,10 @@ Analysis Workspace에서 목표에 따라 Adobe Advertising 데이터를 추적�
 ### 사이트 시작 분석에 Adobe Advertising ID 사용
 
 Adobe Advertising 사이트 시작 보고서를 만들어 요일, 시간, 브라우저 및 지리적 영향을 모니터링하는 방법을 보려면 비디오 를 참조하십시오.[Adobe Advertising 사이트 시작 보고서 만들기](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+
+## 초기화 방법 [!DNL Analytics for Advertising] 구현
+
+시작하는 데 필요한 초기 구성을 완료하고 조직의 요구 사항에 따라 구현 및 데이터 사용을 계획하는 데 도움이 되는 Adobe 계정 팀에 문의하십시오.
 
 >[!MORELIKETHIS]
 >
