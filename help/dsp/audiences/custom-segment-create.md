@@ -3,9 +3,9 @@ title: 사용자 지정 세그먼트 만들기 및 구현
 description: 광고에 노출된 사용자 또는 웹 페이지를 방문하는 사용자를 추적하기 위해 사용자 지정 세그먼트를 만들고 구현하는 방법에 대해 알아봅니다.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
+source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,20 @@ ht-degree: 0%
 
          1. 레이블이 &quot;&quot;로 지정된 페이지 보기 추적 태그를 복사합니다.[!UICONTROL Desktop or mobile websites].&quot;
 
+         1. (추적하는 세그먼트의 태그 [!DNL ID5] ID) 복사한 태그에서 `ID5_PARTNER_ID` (파트너 ID 포함) [!DNL ID5] 조직에 할당되었습니다.
+
+            예를 들어 ID5 파트너 ID가 `abcde` 생성된 세그먼트 태그는
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            다음 바꾸기 `ID5_PARTNER_ID` 포함 `abcde` 를 사용하여 다음을 얻을 수 있습니다.
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            귀사는 와(과) 계약을 체결할 때 파트너 ID를 받았습니다. [!DNL ID5]. 파트너 ID를 모르는 경우 Adobe 계정 팀에 문의하십시오.
+
+            이 단계는 태그가 추적하는 데 필요하지 않습니다 [!DNL ID5] 데스크탑 또는 모바일 장치에서 광고 장치에 노출된 사용자의 ID입니다.
+
          1. 배포를 위해 광고주 또는 웹 사이트 담당자에게 태그를 제공합니다.
 
             광고주의 IT 부서 또는 다른 그룹은 태그 배포를 예약하거나 그에 대한 정보를 받아야 할 수 있습니다.
@@ -89,21 +103,7 @@ ht-degree: 0%
 
          1. 라는 레이블이 지정된 노출 추적 태그를 복사합니다.[!UICONTROL Desktop or mobile ads].&quot;
 
-   1. (추적하는 세그먼트의 태그 [!DNL ID5] 데스크탑 및 모바일 웹 페이지 방문자용 ID) 복사한 태그에서 `ID5_PARTNER_ID` (파트너 ID 포함) [!DNL ID5] 조직에 할당되었습니다.
-
-   예를 들어 ID5 파트너 ID가 `abcde` 생성된 세그먼트 태그는
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   다음 바꾸기 `ID5_PARTNER_ID` 포함 `abcde` 를 사용하여 다음을 얻을 수 있습니다.
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   귀사는 와(과) 계약을 체결할 때 파트너 ID를 받았습니다. [!DNL ID5]. 파트너 ID를 모르는 경우 Adobe 계정 팀에 문의하십시오.
-
-   이 단계는 태그가 추적하는 데 필요하지 않습니다 [!DNL ID5] 데스크탑 또는 모바일 장치에서 광고 장치에 노출된 사용자의 ID입니다.
-
-1. 다음 중 하나에 태그를 추가합니다. [!UICONTROL Pixel] 각 관련 광고 또는 [!UICONTROL Event Pixels] 의 섹션 [[!UICONTROL Tracking] 각 관련 배치에 대한 설정](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. 다음 중 하나에 태그를 추가합니다. [!UICONTROL Pixel] 각 관련 광고 또는 [!UICONTROL Event Pixels] 의 섹션 [[!UICONTROL Tracking] 각 관련 배치에 대한 설정](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 추적 태그가 구현되면 모든 배치에 대해 대상 타겟 또는 제외에서 세그먼트를 사용할 수 있습니다.
 
