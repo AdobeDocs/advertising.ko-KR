@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: b579c0413400b0af697f06c272878c46cce8003e
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,8 @@ ht-degree: 3%
    + [문제 해결 성능](/help/dsp/optimization/troubleshooting-performance.md)
 + 대상 {#audiences}
    + [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
-   + 대상 {#reusable-audiences}
+   + [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
+   + 재사용 가능한 대상 {#reusable-audiences}
       + [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)
       + [재사용 가능한 대상 복제](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [재사용 가능한 대상 편집](/help/dsp/audiences/reusable-audience-edit.md)
@@ -137,14 +138,13 @@ ht-degree: 3%
       + [세그먼트에 대한 추적 픽셀 보기](/help/dsp/audiences/segment-view-pixels.md)
       + [세그먼트 삭제](/help/dsp/audiences/segment-delete.md)
    + 소스 {#sources}
-      + [대상 소스에서 인증된 세그먼트 활성화 정보](/help/dsp/audiences/sources/source-about.md)
+      + [자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)
       + 고객 데이터 플랫폼별 워크플로 {#sources-workflows}
-         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
-            + [과 DSP 통합을 사용하기 위한 워크플로우 [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-            + [범용 ID 파트너에서 인증된 세그먼트 활성화](/help/dsp/audiences/sources/source-universal-id.md)
-         + [과 DSP 통합을 사용하기 위한 워크플로우 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
-      + [자사 대상을 활성화할 대상 소스 만들기](/help/dsp/audiences/sources/source-create.md)
+         + [다음에서 사용자 ID 변환 [!DNL Adobe Real-Time CDP] 범용 ID로](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로](/help/dsp/audiences/sources/source-tealium.md)
+      + [범용 ID 대상을 활성화하는 대상 소스 만들기](/help/dsp/audiences/sources/source-create.md)
       + [대상 소스 설정](/help/dsp/audiences/sources/source-settings.md)
+   + [에서 인증된 세그먼트 수동으로 가져오기 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [사용 가능한 타사 데이터 공급자](/help/dsp/audiences/third-party-data-providers.md)
 + 인벤토리 {#inventory}
    + [재고 기능 개요](/help/dsp/inventory/inventory-overview.md)

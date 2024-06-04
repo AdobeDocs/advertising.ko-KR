@@ -3,9 +3,9 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 54e8dec0f31d1f18931d12d868ba162879a7acfb
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 >
 >이 필드는 벤치마크일 뿐이며 의사 결정에는 사용되지 않습니다.
 
-**[!UICONTROL Frequency Cap]:** (패키지 수준 게재 간격 전용 패키지) 고유한 장치 또는 개인 횟수입니다(지정된 항목에 따라 다름) [!UICONTROL Cross Device Level] 캠페인의 경우) 패키지에서 광고를 제공할 수 있습니다. 옵션은 다음과 같습니다 *[!UICONTROL Unlimited]* 또는 일별, 주별, 월별 특정 금액입니다.
+**[!UICONTROL Frequency Cap]:** (패키지 수준 게재 간격 전용 패키지) 고유 장치, 범용 ID 또는 개인용 횟수(지정된 항목에 따라 다름) [!UICONTROL Cross Device Level] 캠페인 및 배치 [!UICONTROL Targeting] 설정)은 패키지에서 광고를 제공할 수 있습니다. 옵션은 다음과 같습니다 *[!UICONTROL Unlimited]* 또는 일별, 주별, 월별 특정 금액입니다.
 
 >[!NOTE]
 >

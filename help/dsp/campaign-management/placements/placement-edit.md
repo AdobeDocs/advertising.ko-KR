@@ -3,16 +3,16 @@ title: 배치 편집
 description: 배치를 편집하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
 # 배치 편집
 
-단일 배치 또는 여러 배치에 대한 설정을 한 번에 편집할 수 있습니다.
+단일 배치 또는 여러 배치에 대한 설정을 한 번에 편집할 수 있습니다. 배치가 라이브 상태가 되면 일부 설정을 변경할 수 없습니다.
 
 <!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 

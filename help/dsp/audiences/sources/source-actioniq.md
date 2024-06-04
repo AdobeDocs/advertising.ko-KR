@@ -1,17 +1,19 @@
 ---
-title: "DSP 통합 사용 워크플로우 [!DNL ActionIQ]"
+title: "다음에서 사용자 ID 변환: [!DNL ActionIQ] 범용 ID로"
 description: "DSP에서 다음을 수집할 수 있도록 하는 방법 알아보기 [!DNL ActionIQ] 자사 세그먼트."
 feature: DSP Audiences
-source-git-commit: c672eb593b40de8a49f052ed1d45200d55a1bd1c
+source-git-commit: ecab6e81575128718156bb0bde1a5ea33a21d5f0
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
-# 과 DSP 통합을 사용하기 위한 워크플로우 [!DNL ActionIQ]
+# 다음에서 사용자 ID 변환 [!DNL ActionIQ] 범용 ID로
 
-에서 조직의 자사 데이터를 공유할 수 있습니다. [!DNL ActionIQ] 를 사용하는 고객 데이터 ........... <!-- fill in -->
+*Beta 기능*
+
+와 DSP 통합 사용 [!DNL ActionIQ] 타깃팅된 광고를 위해 해시된 이메일 주소를 범용 ID로 변환하는 고객 데이터 플랫폼입니다.
 
 다음 항목이 있습니다. <!-- NN --> 데이터 공유 단계 [!DNL ActionIQ] DSP 사용:
 
@@ -21,15 +23,25 @@ ht-degree: 0%
 
 ## 1단계: DSP에서 대상 소스 만들기 {#source-create}
 
-* [대상자 소스 만들기](source-create.md) 대상을 DSP 계정 또는 광고주 계정으로 가져오고 소스 코드 키를 [!DNL Tealium] 사용자.
+1. [대상자 소스 만들기](source-create.md) DSP 계정 또는 광고주 계정으로 대상자를 가져오려면 [범용 ID 형식](source-about.md) 사용자 식별자를 변환할 대상.
+
+1. 대상 소스를 만든 후 소스 코드 키를 [!DNL ActionIQ] 사용자.
+
+1. 모든 단계를 완료하고에서 대상을 만들거나 편집할 때 사용할 수 있는 대상 라이브러리에서 확인합니다 [!UICONTROL Audiences] > [!UICONTROL All Audiences] 또는 배치 설정 내에서) 세그먼트가 24시간 내에 채워집니다. 범용 ID 수를 해시된 원본 이메일 주소 수와 비교합니다.
+
+   범용 ID에 대한 해시된 이메일 주소의 번역률은 90%보다 커야 합니다. 예를 들어 고객 데이터 플랫폼에서 100개의 해시된 이메일 주소를 전송하는 경우 90개 이상의 범용 ID로 변환되어야 합니다. 90% 이하의 번역률이 문제입니다. 세그먼트 카운트가 달라질 수 있는 방법에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산 원인](#universal-ids-data-variances).&quot;
+
+   문제 해결 지원은 Adobe 계정 팀에 문의하거나 `adcloud-support@adobe.com`.
+
+세그먼트는 24시간마다 새로 고쳐집니다.
 
 ## 2단계:
 
 >[!MORELIKETHIS]
 >
->* [대상 소스에서 인증된 세그먼트 활성화 정보](/help/dsp/audiences/sources/source-about.md)
->* [자사 대상을 활성화할 대상 소스 만들기](source-create.md)
+>* [자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)
+>* [범용 ID 대상을 활성화하는 대상 소스 만들기](source-create.md)
 >* [대상 소스 설정](source-settings.md)
->* [과 DSP 통합을 사용하기 위한 워크플로우 [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [과 DSP 통합을 사용하기 위한 워크플로우 [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
+>* [다음에서 사용자 ID 변환 [!DNL Adobe Real-Time CDP] 범용 ID로](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로](/help/dsp/audiences/sources/source-tealium.md)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)

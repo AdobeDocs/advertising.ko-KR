@@ -3,9 +3,9 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 4cb71ce992683afeaf24927f0883b7e110e70b5d
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2228'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | DSP의 비디오 크리에이티브에 대한 고유 식별자입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Name] | 사용자가 할당한 크리에이티브의 이름. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL % Distinct Uniques] | 다음 [!UICONTROL App/Site Distinct Uniques] 다음으로 나눔 [!UICONTROL App/Site Uniques]. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL App/Site Distinct Uniques] | 이 앱에서만 도달한 총 장치 수입니다. 여러 게시자에서 광고에 노출되는 뷰어는 이 값에 포함되지 않습니다. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL App/Site Distinct Uniques] | 이 앱에서만 도달한 총 장치 수입니다. 여러 게시자에서 광고에 노출되는 뷰어는 이 값에 포함되지 않습니다. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Distinct Unique] | 다음 [!UICONTROL Total Spend] 다음으로 나눔 [!UICONTROL App/Site Distinct Uniques]. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Unique] | 다음 [!UICONTROL Total Spend] 다음으로 나눔 [!UICONTROL App/Site Uniques]. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated % Reached] | 노출을 받은 타겟팅된 가정 우주의 예상 백분율입니다. |
@@ -126,6 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Measurable Impressions] | 조회 수를 측정할 수 있는 제공된 총 노출 횟수. |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Total Media Spend] | 총 지출입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | 총 고유 가구(고유 IP 주소)에 도달했습니다. |
+| [!UICONTROL Metric] | [!UICONTROL Identifier] | [!UICONTROL Identifier Type] | 타겟팅된 ID의 유형입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | 다음을 통해 계산된 획득당 평균 총 비용 <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | 광고 클릭당 평균 총 비용, 다음을 통해 계산됨: <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | 완료된 비디오 보기당 평균 비용, 계산된 기준 <code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>. |

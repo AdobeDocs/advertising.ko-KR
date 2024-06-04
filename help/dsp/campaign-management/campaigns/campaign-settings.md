@@ -3,9 +3,9 @@ title: 캠페인 설정
 description: 사용 가능한 캠페인 설정에 대한 설명을 참조하십시오.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 0%
 >
 >* 계정의 수수료 설정에서 이러한 값을 구성할 수도 있습니다.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]:** (2020년 6월 22일 이후에 생성된 기존 캠페인에 대한 읽기 전용, 2020년 6월 22일 이전에 생성된 캠페인에 대해서는 사용할 수 없음) DSP이 광고를 타깃팅하고 빈도 상한을 적용하는 수준: *동일한 장치* 장치를 타깃팅하거나 *사람* 알려진 모든 장치에서 사용자를 타겟팅할 수 있습니다.
+**[!UICONTROL Cross Device Level]:** (2020년 6월 22일 이후에 생성된 기존 캠페인에 대한 읽기 전용, 2020년 6월 22일 이전에 생성된 캠페인에 대해서는 사용할 수 없음) DSP이 광고를 타깃팅하고 빈도 상한을 적용하는 수준: *동일한 장치* 장치를 타깃팅하거나 *사람* 알려진 모든 장치에서 사용자를 타겟팅할 수 있습니다. **참고:** 범용 ID를 대상으로 하는 배치에는 교차 장치 지원을 사용할 수 없습니다.
 
 **[!UICONTROL Device Graph]:** (기존 캠페인의 읽기 전용, 사람 기반 크로스 디바이스 타깃팅만 있는 캠페인) 크로스 디바이스 타깃팅 및 빈도 관리에 사용할 디바이스 그래프:
 
@@ -86,7 +86,9 @@ ht-degree: 0%
 
   이 옵션은 또한 모든 광고주가 빈도 관리 및 속성 측정을 위해 수수료 없이 사용할 수 있습니다.
 
-**[!UICONTROL Frequency Cap]:** (선택 사항) 고유 장치 또는 개인 횟수(지정된 횟수에 따라 다름) [!UICONTROL Cross Device Level])는 캠페인에서 광고를 제공할 수 있습니다. 옵션은 다음과 같습니다 *[!UICONTROL Unlimited]* 또는 일별, 주별, 월별 특정 금액입니다.
+  교차 장치 지원은 레거시 ID를 대상으로 하는 배치에만 적용되며 범용 ID를 대상으로 하는 배치에는 적용되지 않습니다(포함 [!DNL LiveRamps]). 범용 ID에 대한 타겟팅, 빈도 관리 및 속성은 ID 수준에서만 적용됩니다.
+
+**[!UICONTROL Frequency Cap]:** (선택 사항) 고유 장치, 범용 ID 또는 개인의 횟수입니다(지정된 조건에 따라 다름) [!UICONTROL Cross Device Level] 그리고 배치는 [!UICONTROL Targeting] 설정)은 캠페인에서 광고를 제공할 수 있습니다. 옵션은 다음과 같습니다 *[!UICONTROL Unlimited]* 또는 일별, 주별, 월별 특정 금액입니다.
 
 >[!NOTE]
 >

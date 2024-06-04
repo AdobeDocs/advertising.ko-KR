@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: e5a927a4a96dc44db01e000feb67aad8b520adc5
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
 source-wordcount: '2915'
 ht-degree: 0%
@@ -76,4 +76,3 @@ ht-degree: 0%
 |  | [!UICONTROL Deal IDs] | 다음 [!UICONTROL Deal ID] 사용자 인터페이스의 설정 및 기타 위치는 의 새 브랜딩을 반영합니다. [!DNL Magnite] SSP:<br><ul><li>SSP&quot;[!DNL Tremor]&quot; ([!DNL Telaria])이(가) 현재 &quot;&quot;입니다.[!DNL Magnite CTV].&quot;</li><li>앞으로 몇 주 안에 [!DNL Rubicon]&quot;&quot;가 &quot;&quot;로 변경됩니다.[!DNL Magnite DV+],&quot; [!DNL DV+] 는 디스플레이, 비디오 및 오디오와 같은 다른 포맷을 나타냅니다.</li></ul> | 를 참조하십시오.[SSP 파트너](/help/dsp/inventory/ssp-partners.md).&quot; |
 |  | [!DNL Freewheel] 프로그램 보증 거래 | 이제 광고를 제출하고 의 광고 상태를 확인할 수 있습니다. [!DNL Freewheel] 에서 프로그램 보증 거래 [!UICONTROL Ads] 보기. 이전에는 [!UICONTROL Deals] 보기. | 를 참조하십시오.[프로그램 보증 거래에 대한 광고 제출 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] 프로그램 보증 거래](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 2021년 10월 7일 | 도움말 | 모두 [DSP 및 기타 Adobe Advertising 설명서](https://experienceleague.adobe.com/docs/advertising.html) 날짜 [!DNL Experience League] 는 이제 사용 가능한 모든 언어로 기계 번역됩니다. 표시된 언어를 변경하려면 페이지의 왼쪽 하단에 있는 &quot;언어 변경&quot; 메뉴를 사용하십시오.<br>![언어 변경](/help/dsp/assets/change-language.png) |
-

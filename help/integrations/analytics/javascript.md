@@ -3,7 +3,7 @@ title: 용 JavaScript 코드 [!DNL Analytics for Advertising]
 description: 용 JavaScript 코드 [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
@@ -25,6 +25,38 @@ Advertising DSP용 [!DNL Analytics for Advertising] 통합은 뷰스루 및 클�
 >Adobe Advertising JavaScript 추적 로직은 Adobe 측에서 발생하므로 페이지 로드 시간에 거의 영향을 주지 않습니다.
 >
 >반면, [!DNL DCM] 데이터 커넥터 대상 [!DNL Analytics] (사용 [!DNL Google Campaign Manager 360]) for Advertising DSP은 클라이언트측에서 발생합니다. 클라이언트측 결합은 페이지 로드 속도를 줄이고 데이터 손실 위험을 증가시킵니다. 이 문제는 다음과 같은 이유로 발생합니다. [!DNL Analytics] JavaScript를 ping해야 함 [!DNL DoubleClick] 다음을 기다리는 중 [!DNL DoubleClick] 마지막 클릭/노출 데이터를에 다시 전달하려면 [!DNL Analytics]. 다음의 경우 [!DNL DSP] 팀 설정 [!DNL DCM] data connector에서 페이지를 지연시킬 시간을 지정해야 합니다.
+
+<!--
+## Deploying the JavaScript Code
+
+All users must deploy the standard JavaScript code.
+
+Users who want to convert first-party segments from their customer data platforms to [!DNL RampIDs] or [!DNL ID5] IDs [!!!!VERIFY that it's not needed for importing segments directly from LiveRamp] must also deploy ID partner-specific JavaScript code to match conversions to view-throughs.
+
+### The Standard Code
+
+The standard JavaScript library consists of two lines that allow [!DNL Analytics] and Adobe Advertising to communicate with each other. If the [!DNL Analytics for Advertising] integration was completed during the Adobe Advertising implementation, then you should have already received this code with instructions on how to deploy it.
+
+#### Implementations that use the Experience Cloud Identity Service `visitorAPI.js` code
+
+```
+<script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
+<script>
+     if("undefined" != typeof AdCloudEvent) 
+          AdCloudEvent('IMS ORG Id','rsid');
+</script>
+```
+
+#### Implementations that use the Experience Platform [!DNL Web SDK] `alloy.js`code
+
+### Additional Code to Import First-Party Segments to [!DNL RampIDs] and [!DNL ID5] IDs
+
+   * For [!DNL RampIDs], Contact your Adobe Account Team, who will give you instructions to register for a [!DNL LiveRamp] [!DNL LaunchPad] tag. Registration is free, but you must sign an agreement. Once you register, your Adobe Account Team will generate and provide a unique tag for your organization to implement on your webpages.
+
+    [MAYBE PUT THIS BELOW] Place the [!DNL LaunchPad] tag on every page of your website, preferably as the first script within the page head tags but as high within the page head tags as possible.
+
+   * For [!DNL ID5] IDs: Contact your Adobe Account Team, who will give you instructions to register for the tag with ID5. Registration is free, but you must sign an agreement. Once you register, a member of ID5’s technical team will provide a unique tag for your organization to implement on your webpages.
+-->
 
 ## JavaScript 코드 배포
 
@@ -108,7 +140,7 @@ JavaScript 라이브러리는 [!DNL Analytics] 및 Adobe Advertising을 사용�
 1. 다음에서 [!UICONTROL Request URL - Hostname] 매개 변수 행, 찾기 `lasteventf-tm.everesttech.net`.
 1. 다음에서 [!UICONTROL Request - Parameters] 행에서 의 3단계와 유사하게 생성된 신호를 감사합니다.[을 사용하여 코드를 확인하는 방법 [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
    * (Experience Cloud ID 서비스를 사용하는 구현) `visitorAPI.js` code) `Sdid` 매개 변수가 `Supplemental Data ID` Adobe Analytics 필터.
-   * (Experience Platform을 사용하는 구현 [!DNL Web SDK] `alloy.js`code) 값을 `advertisingStitchID` 매개 변수가 `Sdid` Experience Platform 에지 네트워크로 전송됩니다.
+   * (Experience Platform을 사용하는 구현 [!DNL Web SDK] `alloy.js`code) 값을 `advertisingStitchID` 매개 변수가 `Sdid` Experience Platform Edge Network으로 전송됩니다.
    * 코드가 생성되지 않으면 Adobe Advertising 쿠키가에서 제거되었는지 확인합니다. [!UICONTROL Application] 탭. 페이지가 제거되면 페이지를 새로 고치고 프로세스를 반복합니다.
 
    ![감사 [!DNL Analytics for Advertising] 의 JavaScript 코드 [!DNL Experience Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)

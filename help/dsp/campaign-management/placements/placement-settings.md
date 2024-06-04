@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '3535'
+source-wordcount: '3789'
 ht-degree: 0%
 
 ---
@@ -311,11 +311,25 @@ ht-degree: 0%
 
 * 대상자를 만들려면 ![선택](/help/dsp/assets/chevron-down.png) 다음에 [!UICONTROL Excluded Audiences]을 선택한 다음 을 선택합니다 **+ 대상 만들기**. 자세한 내용은 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)3단계부터 시작합니다.
 
-* 특정 대상 세그먼트를 선택하려면 **[!UICONTROL Select segments for this placement only]**. 세그먼트 논리를 선택합니다. 자세한 내용은 의 6단계를 참조하십시오.[재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md).&quot; 완료되면 다음을 클릭합니다. **저장**.
+**[!UICONTROL Targeting]:** 타깃팅할 사용자 ID의 유형입니다. 배치가 라이브 상태가 된 후(즉, 비행이 시작된 후) 이 설정을 변경할 수 없습니다.
 
-**[!UICONTROL Cross Device Targeting]:** (하나 이상의 세그먼트 또는 대상자를 선택하고 [campaign은 사용자 기반 교차 장치 타깃팅용으로 구성되었습니다.](/help/dsp/campaign-management/campaigns/campaign-settings.md). 지정한 세그먼트에 없는 장치도, 개인의 알려진 모든 장치(캠페인 설정에 지정된 장치 그래프에 따라)로 타깃팅을 확장할 수 있습니다. 캠페인에 대해 지정된 그래프에 따라 요금이 적용될 수 있습니다. 장치 그래프 데이터는 북미에서만 사용할 수 있습니다.
+기존 ID와 범용 ID를 모두 선택하면 범용 ID에 입찰 기본 설정이 지정됩니다.
 
-**[!UICONTROL Placement Cap]:** (선택 사항) 고유 장치 또는 개인 횟수(지정된 횟수에 따라 다름) [!UICONTROL Cross Device Level] 캠페인의 경우) 배치에서 광고가 제공됩니다. 옵션은 다음과 같습니다 *[!UICONTROL Unlimited]* 또는 일별, 주별, 월별 특정 금액입니다.
+* *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (기본값) 쿠키, 모바일 광고 ID 또는 연결된 TV(CTV) ID를 기반으로 사용자를 타깃팅합니다. ID는 브라우저, 인앱 또는 CTV 인벤토리를 기반으로 선택됩니다.
+
+* *[!UICONTROL Universal ID Beta]*: 사용자 개인 정보 보호 중심의 ID를 타깃팅합니다. ID 유형 하나를 선택하십시오. 사용 가능한 옵션은 의 선택한 지리적 대상에 의해 결정됩니다. [!UICONTROL Geo-Targeting] 섹션. 과 함께 사용 [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [DSP이 PII를 범용 ID로 변환하는 세그먼트](/help/dsp/audiences/sources/source-about.md), 또는 [범용 ID를 추적하는 사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md).
+
+   * *[!UICONTROL ID5]*: 타겟 [!DNL ID5] 이메일 주소 및 기타 신호에서 확률적으로 생성된 ID.<!-- What countries/geos are these available for? Everywhere?--> ID5 ID는 무료로 사용할 수 있습니다. **참고:** 의 타사 세그먼트 [!DNL Eyeota] 에는 ID5 ID가 포함될 수 있습니다.
+
+   * *[!UICONTROL RampID]*: 타겟 [!DNL LiveRamp] [!DNL RampIDs] 이메일 주소를 사용하여 사이트에 로그인한 사용자 수.<!-- Verify --> [!DNL RampIDs] 북미, 오스트레일리아 및 뉴질랜드의 사용자가 사용할 수 있습니다.
+
+   * *[!UICONTROL Unified ID2.0]*: 타겟 [!DNL Unified ID2.0] (UID2) 이메일 주소를 사용하여 사이트에 로그인한 사용자의 ID.<!-- Verify -->[!DNL UID2 IDs] 유럽 경제 지역 및 일부 추가 국가의 사용자는 사용할 수 없습니다. 다음을 참조하십시오. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+
+  **[!UICONTROL Terms of service]**: 범용 ID 사용에 대한 서비스 약관 입니다. 데이터를 새 ID 유형으로 변환하려면 사용자나 DSP 계정의 다른 사용자가 약관에 한 번 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 귀하의 동의를 받고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 다음을 클릭합니다. **>**. 용어를 수락하려면 약관의 맨 아래로 스크롤하여 을 클릭합니다 **[!UICONTROL Accept]**.
+
+**[!UICONTROL Cross Device Targeting]:** (다음 경우에 사용 가능: [campaign은 사용자 기반 교차 장치 타깃팅용으로 구성되었습니다.](/help/dsp/campaign-management/campaigns/campaign-settings.md), 범용 ID가 아닌 레거시 ID만 타깃팅하고 하나 이상의 세그먼트 또는 대상을 선택합니다. 지정한 세그먼트에 없는 장치도, 개인의 알려진 모든 장치(캠페인 설정에 지정된 장치 그래프에 따라)로 타깃팅을 확장할 수 있습니다. 캠페인에 대해 지정된 그래프에 따라 요금이 적용될 수 있습니다. 장치 그래프 데이터는 북미에서만 사용할 수 있습니다.
+
+**[!UICONTROL Placement Cap]:** (선택 사항) 고유 장치, 범용 ID 또는 개인의 횟수입니다(지정된 조건에 따라 다름) [!UICONTROL Cross Device Level] 캠페인 및 배치 [!UICONTROL Targeting] 설정)은 배치에서 광고를 제공할 수 있습니다. 옵션은 다음과 같습니다 *[!UICONTROL Unlimited]* 또는 일별, 주별, 월별 특정 금액입니다.
 
 >[!NOTE]
 >

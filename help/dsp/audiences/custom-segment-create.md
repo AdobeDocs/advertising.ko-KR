@@ -3,9 +3,9 @@ title: 사용자 지정 세그먼트 만들기 및 구현
 description: 광고에 노출된 사용자 또는 웹 페이지를 방문하는 사용자를 추적하기 위해 사용자 지정 세그먼트를 만들고 구현하는 방법에 대해 알아봅니다.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
+source-git-commit: 2fe54fbcd9711e714246f074ede086910b538b80
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 *Beta 기능*
 
-* ID5 ID와 연결된 사용자를 추적하기 위해 세그먼트를 생성하기 전에 와(과) 계약에 서명해야 합니다 [!DNL ID5] 조직의 파트너 ID를 가져옵니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+* ID5 ID와 연결된 사용자를 추적할 세그먼트를 생성하기 전에 와(과) 계약을 체결합니다. [!DNL ID5] 조직의 파트너 ID를 가져옵니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
 * Adobe Analytics에서 측정하는 경우 다음을 수행해야 합니다.
 
@@ -42,6 +42,8 @@ ht-degree: 0%
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
       ```
+
+   1. 브라우저 디버깅 도구를 사용하여 각 호출이 도메인에 대해 시작되었는지 확인합니다 `lasteventf-tm.everesttech.net` 매개 변수를 포함합니다. `_les_id5` (암호화된 ID5 ID를 해당 값으로 사용)
 
 ## 사용자 지정 세그먼트 만들기 및 구현
 
