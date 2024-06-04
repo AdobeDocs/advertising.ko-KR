@@ -2,7 +2,7 @@
 title: 범용 ID 활성화 지원
 description: 범용 ID 세그먼트를 가져오고, 사용자 지정 세그먼트를 만들어 범용 ID를 추적하고, 자사 세그먼트의 다른 사용자 식별자를 쿠키 없는 타깃팅을 위해 범용 ID로 변환하는 지원에 대해 알아봅니다.
 feature: DSP Audiences
-source-git-commit: 56489cd226d4a46fa3b1548492b4a9c6fd7e0528
+source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 0%
@@ -133,3 +133,7 @@ DSP은 DSP에서 지원하는 디지털 형식 간에 쿠키 없는 단일 장�
 >* [에서 인증된 세그먼트 수동으로 가져오기 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
+
+<!--
+>* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
+-->

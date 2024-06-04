@@ -3,7 +3,7 @@ title: 자사 대상 소스 정보
 description: 쿠키 없는 타깃팅을 위해 자사 세그먼트의 다른 사용자 식별자를 범용 ID로 변환하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
+source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -95,3 +95,7 @@ DSP에서 를 수집할 수 있도록 하려면 [!DNL Adobe] [!DNL Real-time CDP
 >* [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
+
+<!--
+>* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
+-->
