@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Google Ads] 캠페인.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2424'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Display Network Only]:* 디스플레이 네트워크에 광고를 표시합니다. 각 광고 그룹에 대해 배치를 지정해야 하며 선택적으로 키워드를 지정할 수 있습니다.
 
-* *[!UICONTROL Performance Max]:* (Beta 기능) 을 사용하여 채널 간 광고에 대한 전환을 표시하고 최적화합니다. [!DNL Google Ads] 현명한 입찰. 캠페인 설정 내에서 이미지, 로고, 헤드라인, 설명, 선택적 비디오 및 대상 신호를 포함하는 에셋 그룹을 하나 이상 지정해야 합니다. [!DNL Google Ads] 은 채널을 기반으로 광고를 게재할 자산을 자동으로 결합합니다(예: [!DNL YouTube], [!DNL Gmail], 또는 [!DNL Search]).
+* *[!UICONTROL Performance Max]:* 를 사용하여 채널 간 광고에 대한 전환을 표시하고 최적화합니다. [!DNL Google Ads] 현명한 입찰. 캠페인 설정 내에서 이미지, 로고, 헤드라인, 설명, 선택적 비디오 및 대상 신호를 포함하는 에셋 그룹을 하나 이상 지정해야 합니다. [!DNL Google Ads] 은 채널을 기반으로 광고를 게재할 자산을 자동으로 결합합니다(예: [!DNL YouTube], [!DNL Gmail], 또는 [!DNL Search]).
 
   **참고:**
 
