@@ -3,7 +3,7 @@ title: 범용 ID 활성화 지원
 description: 범용 ID 세그먼트를 가져오고, 사용자 지정 세그먼트를 만들어 범용 ID를 추적하고, 자사 세그먼트의 다른 사용자 식별자를 쿠키 없는 타깃팅을 위해 범용 ID로 변환하는 지원에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 503b1efbf95ac242a2c9e3db0764dc7b228137e0
+source-git-commit: c1f4df1d5c3f6b32597f59285f25bf0b9da5fb91
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -25,11 +25,6 @@ DSP은 DSP에서 지원하는 디지털 형식 간에 쿠키 없는 단일 장�
 * 데스크탑 및 모바일 디바이스에서 광고에 노출되고 특정 웹 페이지를 방문하는 ID5 범용 ID와 연결된 사용자를 추적하는 사용자 지정 세그먼트를 만들 수 있습니다. ID5는 확률론적 모델을 사용하여 다양한 사용자 신호 및 브라우저 신호로부터 파생된 ID를 할당합니다. 자세한 내용은 &quot;[사용자 지정 세그먼트 만들기 및 구현](/help/dsp/audiences/custom-segment-create.md).&quot;
 
 * 의 타사 세그먼트 [!DNL Eyeota] 및 일부 다른 공급업체는 쿠키 또는 장치 ID로 추적되는 사용자 외에도 ID5 ID를 자동으로 포함할 수 있습니다. 세그먼트 세부 정보에는 각 유형의 크기가 포함됩니다. 세그먼트 이름 옆에 표시되는 각 세그먼트에 대한 일반적인 사용 요금이 적용됩니다. ID5 ID에 대해서는 추가 요금이 부과되지 않습니다.
-
-<!-- Make above statement more generic when other ID types are available 
-
-* Some third-party segment vendors have started including universal IDs in their segments, and you can use them in saved audiences and as placement targets without any extra steps or extra fees.
--->
 
 ## 범용 ID 유형별 보고
 
