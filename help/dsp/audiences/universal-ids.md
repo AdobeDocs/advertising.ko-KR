@@ -2,9 +2,10 @@
 title: 범용 ID 활성화 지원
 description: 범용 ID 세그먼트를 가져오고, 사용자 지정 세그먼트를 만들어 범용 ID를 추적하고, 자사 세그먼트의 다른 사용자 식별자를 쿠키 없는 타깃팅을 위해 범용 ID로 변환하는 지원에 대해 알아봅니다.
 feature: DSP Audiences
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
+source-git-commit: 2d8edb7e5c32ba7077a7f4e6550ed22ec680b1fc
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ DSP은 DSP에서 지원하는 디지털 형식 간에 쿠키 없는 단일 장�
 
       1. 타깃팅할 범용 ID 유형을 선택합니다.
 
-         이 설정에는 옵션 이 포함됩니다.[!UICONTROL Legacy IDs]&quot; 및 &quot;[!UICONTROL Universal ID],&quot; 하위 옵션을 포함할 수 있음 &quot;[!UICONTROL ID5],&quot; &quot;[!UICONTROL RampID]및 &quot;[!UICONTROL Unified ID2.0].&quot; 실제 하위 옵션은 선택한 지리적 대상에 의해 결정됩니다.
+         이 설정에는 옵션 이 포함됩니다.[!UICONTROL Legacy IDs]&quot; 및 &quot;[!UICONTROL Universal ID],&quot; 하위 옵션을 포함할 수 있음 &quot;[!UICONTROL ID5],&quot; &quot;[!UICONTROL RampID]및 &quot;[!UICONTROL Unified ID2.0].&quot; 선택한 지리적 타겟에 따라 사용 가능한 하위 옵션이 결정됩니다.
 
          둘 다 선택할 수 있습니다.[!UICONTROL Legacy IDs]&quot; 및 &quot;[!UICONTROL Universal ID],&quot;이지만 배치당 하나의 범용 ID 유형만 선택할 수 있습니다. 기존 ID와 범용 ID를 모두 선택하면 범용 ID에 입찰 기본 설정이 지정됩니다.
 
@@ -96,7 +97,7 @@ DSP은 DSP에서 지원하는 디지털 형식 간에 쿠키 없는 단일 장�
 
      >[!NOTE]
      >
-     >빈도 제한은 개별 ID에 적용됩니다. 사용자에게 여러 ID 유형이 있는 경우 예상했던 것보다 해당 사용자에게 더 많이 도달했을 수 있습니다.
+     >빈도 제한은 개별 ID에 적용됩니다. 사용자에게 여러 ID 유형이 있는 경우 예상한 것보다 더 많은 해당 사용자에게 도달할 수 있습니다.
 
 * 인증된 대상 세그먼트에 대한 도달 거리는 쿠키 기반 세그먼트에 대한 도달 거리보다 자연히 더 작으며 추가 타겟팅 옵션을 사용하면 도달 거리가 더 줄어든다는 것을 기억하십시오. 특히 AND 문으로 여러 대상을 연결하여 세분화된 타깃팅을 사용하는 것은 신중해야 합니다.
 
@@ -108,7 +109,7 @@ DSP은 DSP에서 지원하는 디지털 형식 간에 쿠키 없는 단일 장�
 
 * A [!DNL RampID] 를 새 값으로 업그레이드할 수 있습니다. If [!DNL LiveRamp] 은(는) 이메일 ID를 인식하지 못하거나 기존 ID에 매핑할 수 없습니다 [!DNL RampID] 데이터베이스에서 새 [!DNL RampID] 이메일 ID로. 나중에 이메일 ID를 다른 ID에 매핑할 수 있을 때 [!DNL RampID] 또는 동일한 이메일 ID에 대한 자세한 정보를 수집할 수 있으며 [!DNL RampID] 을 새 값으로 바꿉니다. [!DNL LiveRamp] 파생된 항목에서 업그레이드하는 것으로 이 작업을 참조합니다. [!DNL RampID] &quot;유지 관리됨&quot;으로 [!DNL RampID]. 그러나 DSP은 파생된 와 유지 관리되는 간에 매핑을 가져오지 않습니다 [!DNL RampIDs] 따라서 DSP 세그먼트에서 이전 버전의 RampID를 제거할 수 없습니다. 이 경우 세그먼트 수가 프로필 수보다 많을 수 있습니다.
 
-  예: 사용자가에 로그인합니다 [!DNL Adobe] 웹 사이트를 방문하여 Photoshop 페이지를 방문하십시오. If [!DNL LiveRamp] 은(는) 이메일 ID에 대한 기존 정보가 없는 경우 파생된 ID를 할당합니다 [!DNL RampID]예, D123입니다. 15일 후 사용자는 동일한 페이지를 방문하지만 [!DNL LiveRamp] 이(가) 다음을 업그레이드했습니다. [!DNL RampID] 15일 동안 이(가) [!DNL RampID] M123으로 고객 데이터 플랫폼의 세그먼트 &quot;Photoshop Manist&quot;에는 사용자에 대한 이메일 ID가 하나만 있지만 DSP 세그먼트에는 D123과 M123이라는 두 개의 RampID가 있습니다.
+  예: 사용자가에 로그인합니다 [!DNL Adobe] 웹 사이트 및 Photoshop 페이지 방문 횟수. If [!DNL LiveRamp] 은(는) 이메일 ID에 대한 기존 정보가 없는 경우 파생된 ID를 할당합니다 [!DNL RampID]예, D123입니다. 15일 후 사용자는 동일한 페이지를 방문하지만 [!DNL LiveRamp] 이(가) 다음을 업그레이드했습니다. [!DNL RampID] 15일 동안 이(가) [!DNL RampID] M123으로 고객 데이터 플랫폼의 세그먼트 &quot;Photoshop Manist&quot;에는 사용자에 대한 이메일 ID가 하나만 있지만 DSP 세그먼트에는 D123과 M123이라는 두 개의 RampID가 있습니다.
 
 ## 문제 해결
 
