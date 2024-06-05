@@ -3,9 +3,9 @@ title: 범용 ID 활성화 지원
 description: 범용 ID 세그먼트를 가져오고, 사용자 지정 세그먼트를 만들어 범용 ID를 추적하고, 자사 세그먼트의 다른 사용자 식별자를 쿠키 없는 타깃팅을 위해 범용 ID로 변환하는 지원에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 2d8edb7e5c32ba7077a7f4e6550ed22ec680b1fc
+source-git-commit: 503b1efbf95ac242a2c9e3db0764dc7b228137e0
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -103,13 +103,17 @@ DSP은 DSP에서 지원하는 디지털 형식 간에 쿠키 없는 단일 장�
 
 ## 이메일 ID와 범용 ID 간의 데이터 분산 원인 {#universal-ids-data-variances}
 
-해시된 이메일 ID가 로 번역되는 이유는 두 가지가 있습니다 [!DNL RampIDs]:
+* ID5로 번역된 해시된 이메일 ID:
 
-* 여러 프로필에서 동일한 이메일 ID를 사용하는 경우 DSP 세그먼트 수가 고객 데이터 플랫폼 내 프로필 수보다 작을 수 있습니다. 예를 들어 Adobe Photoshop에서 단일 이메일 ID를 사용하여 회사 계정과 개인 계정을 만들 수 있습니다. 하지만 두 프로필이 모두 동일한 세그먼트에 속하는 경우 프로필은 하나의 이메일 ID에 매핑되고 이에 따라 하나의 이메일 ID에 매핑됩니다 [!DNL RampID].
+  확률론적 모형은 +/- 5%의 오차 분산을 가지고 있다. 이는 관객 수를 5% 가량 과대 또는 과소 평가할 수 있다는 것을 의미한다.
 
-* A [!DNL RampID] 를 새 값으로 업그레이드할 수 있습니다. If [!DNL LiveRamp] 은(는) 이메일 ID를 인식하지 못하거나 기존 ID에 매핑할 수 없습니다 [!DNL RampID] 데이터베이스에서 새 [!DNL RampID] 이메일 ID로. 나중에 이메일 ID를 다른 ID에 매핑할 수 있을 때 [!DNL RampID] 또는 동일한 이메일 ID에 대한 자세한 정보를 수집할 수 있으며 [!DNL RampID] 을 새 값으로 바꿉니다. [!DNL LiveRamp] 파생된 항목에서 업그레이드하는 것으로 이 작업을 참조합니다. [!DNL RampID] &quot;유지 관리됨&quot;으로 [!DNL RampID]. 그러나 DSP은 파생된 와 유지 관리되는 간에 매핑을 가져오지 않습니다 [!DNL RampIDs] 따라서 DSP 세그먼트에서 이전 버전의 RampID를 제거할 수 없습니다. 이 경우 세그먼트 수가 프로필 수보다 많을 수 있습니다.
+* 해시된 이메일 ID를으로 번역 [!DNL RampIDs]:
 
-  예: 사용자가에 로그인합니다 [!DNL Adobe] 웹 사이트 및 Photoshop 페이지 방문 횟수. If [!DNL LiveRamp] 은(는) 이메일 ID에 대한 기존 정보가 없는 경우 파생된 ID를 할당합니다 [!DNL RampID]예, D123입니다. 15일 후 사용자는 동일한 페이지를 방문하지만 [!DNL LiveRamp] 이(가) 다음을 업그레이드했습니다. [!DNL RampID] 15일 동안 이(가) [!DNL RampID] M123으로 고객 데이터 플랫폼의 세그먼트 &quot;Photoshop Manist&quot;에는 사용자에 대한 이메일 ID가 하나만 있지만 DSP 세그먼트에는 D123과 M123이라는 두 개의 RampID가 있습니다.
+   * 여러 프로필에서 동일한 이메일 ID를 사용하는 경우 DSP 세그먼트 수가 고객 데이터 플랫폼 내 프로필 수보다 작을 수 있습니다. 예를 들어 Adobe Photoshop에서 단일 이메일 ID를 사용하여 회사 계정과 개인 계정을 만들 수 있습니다. 하지만 두 프로필이 모두 동일한 세그먼트에 속하는 경우 프로필은 하나의 이메일 ID에 매핑되고 이에 따라 하나의 이메일 ID에 매핑됩니다 [!DNL RampID].
+
+   * A [!DNL RampID] 를 새 값으로 업그레이드할 수 있습니다. If [!DNL LiveRamp] 은(는) 이메일 ID를 인식하지 못하거나 기존 ID에 매핑할 수 없습니다 [!DNL RampID] 데이터베이스에서 새 [!DNL RampID] 이메일 ID로. 나중에 이메일 ID를 다른 ID에 매핑할 수 있을 때 [!DNL RampID] 또는 동일한 이메일 ID에 대한 자세한 정보를 수집할 수 있으며 [!DNL RampID] 을 새 값으로 바꿉니다. [!DNL LiveRamp] 파생된 항목에서 업그레이드하는 것으로 이 작업을 참조합니다. [!DNL RampID] &quot;유지 관리됨&quot;으로 [!DNL RampID]. 그러나 DSP은 파생된 와 유지 관리되는 간에 매핑을 가져오지 않습니다 [!DNL RampIDs] 따라서 DSP 세그먼트에서 이전 버전의 RampID를 제거할 수 없습니다. 이 경우 세그먼트 수가 프로필 수보다 많을 수 있습니다.
+
+     예: 사용자가에 로그인합니다 [!DNL Adobe] 웹 사이트 및 Photoshop 페이지 방문 횟수. If [!DNL LiveRamp] 은(는) 이메일 ID에 대한 기존 정보가 없는 경우 파생된 ID를 할당합니다 [!DNL RampID]예, D123입니다. 15일 후 사용자는 동일한 페이지를 방문하지만 [!DNL LiveRamp] 이(가) 다음을 업그레이드했습니다. [!DNL RampID] 15일 동안 이(가) [!DNL RampID] M123으로 고객 데이터 플랫폼의 세그먼트 &quot;Photoshop Manist&quot;에는 사용자에 대한 이메일 ID가 하나만 있지만 DSP 세그먼트에는 D123과 M123이라는 두 개의 RampID가 있습니다.
 
 ## 문제 해결
 
