@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 캠페인.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
+source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* 에 기본/디스플레이 광고를 표시합니다. [!DNL Microsoft Audience Network]. a) 캠페인을 의 판매자 센터 상점에 연결하여 피드 기반 광고를 자동으로 생성할 수 있습니다. [!UICONTROL Shopping Settings] 섹션 또는 b) 텍스트 에셋 및 업로드된 이미지가 있는 반응형 광고를 만듭니다. 두 옵션 모두 사용자 타깃팅으로 광고 그룹을 만들어야 합니다.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Beta 기능) 검색 및 대상 네트워크에서 연결된 소매점을 통해 제품을 홍보합니다. 하위 광고 그룹과 제품 그룹(홍보용 앱), 캠페인에 대한 선택적 제품 광고를 만들 수 있습니다. [!DNL Microsoft Advertising] 는 제품 그룹에 대한 광고를 자동으로 만듭니다. 브랜드를 위한 쇼핑 캠페인의 경우 입찰 전략을 사용하십시오 [!UICONTROL Manual CPC]; 브랜드에 대한 쇼핑 프로모션의 경우 입찰 전략을 사용하십시오 [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]:* 검색 및 대상 네트워크에서 연결된 소매점을 통해 제품을 홍보합니다. 하위 광고 그룹과 제품 그룹(홍보용 앱), 캠페인에 대한 선택적 제품 광고를 만들 수 있습니다. [!DNL Microsoft Advertising] 는 제품 그룹에 대한 광고를 자동으로 만듭니다. 브랜드를 위한 쇼핑 캠페인의 경우 입찰 전략을 사용하십시오 [!UICONTROL Manual CPC]; 브랜드에 대한 쇼핑 프로모션의 경우 입찰 전략을 사용하십시오 [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft Store Ads Campaign]:* (Beta 기능)에서 사용할 수 있는 앱 및 게임을 홍보합니다. [!DNL Microsoft Store]. 캠페인에 대한 하위 광고 그룹, 제품 그룹 및 선택적 제품 광고를 만들 수 있습니다. [!DNL Microsoft Advertising] 는 제품 그룹에 대한 광고를 자동으로 만듭니다.
+* *[!UICONTROL Microsoft Store Ads Campaign]:* 에서 사용할 수 있는 앱 및 게임을 홍보합니다. [!DNL Microsoft Store]. 캠페인에 대한 하위 광고 그룹, 제품 그룹 및 선택적 제품 광고를 만들 수 있습니다. [!DNL Microsoft Advertising] 는 제품 그룹에 대한 광고를 자동으로 만듭니다.
 
-* *[!UICONTROL Audience CTV Video]:* (Beta 기능) Audience Network에서 연결된 TV(CTV) 비디오 광고를 표시합니다.
+* *[!UICONTROL Audience CTV Video]:* 대상 네트워크에서 연결된 TV(CTV) 비디오 광고를 표시합니다.
 
-* *[!UICONTROL Audience Video]:* (Beta 기능) 대상 네트워크의 표준 비디오 광고를 표시합니다.
+* *[!UICONTROL Audience Video]:* 대상 네트워크에 표준 비디오 광고를 표시합니다.
 
-* *[!UICONTROL Performance Max]:* (Beta 기능) 를 사용하여 모든 네트워크에서 여러 광고 유형을 표시합니다. [!DNL Microsoft Advertising] 현명한 입찰. 캠페인 설정 내에서 이미지, 로고, 헤드라인, 설명, 선택적 콜 투 액션 및 대상 신호를 포함하는 자산 그룹을 하나 이상 지정해야 합니다. 광고 네트워크는 채널을 기반으로 광고를 제공할 자산을 자동으로 결합합니다.
+* *[!UICONTROL Performance Max]:* 을 사용하여 모든 네트워크에서 여러 광고 유형 표시 [!DNL Microsoft Advertising] 현명한 입찰. 캠페인 설정 내에서 이미지, 로고, 헤드라인, 설명, 선택적 콜 투 액션 및 대상 신호를 포함하는 자산 그룹을 하나 이상 지정해야 합니다. 광고 네트워크는 채널을 기반으로 광고를 제공할 자산을 자동으로 결합합니다.
 
 ## [!UICONTROL Campaign Details]
 
