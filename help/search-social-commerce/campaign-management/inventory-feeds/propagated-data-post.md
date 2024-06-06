@@ -3,7 +3,7 @@ title: 피드에서 생성된 캠페인 데이터를 광고 네트워크에 게�
 description: 인벤토리 데이터 피드에서 생성된 데이터를 광고 네트워크에 게시하는 방법을 알아봅니다.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
+source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 피드에서 생성된 캠페인 데이터를 광고 네트워크에 게시
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (작업만 삭제) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (작업만 삭제) 및 [!DNL Yandex] 계정만*
 
 피드에서 생성된 캠페인 데이터를 관련 템플릿을 통해 전파할 때 또는 별도의 프로세스로 게시할 수 있습니다. 데이터를 게시하면 기존의 전파된 데이터가 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], 및 [!UICONTROL Ads] 목록을 표시합니다.
 
