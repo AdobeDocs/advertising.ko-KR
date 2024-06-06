@@ -2,7 +2,7 @@
 title: "다음에서 사용자 ID 변환: [!DNL ActionIQ] 범용 ID로"
 description: "DSP에서 다음을 수집할 수 있도록 하는 방법 알아보기 [!DNL ActionIQ] 자사 세그먼트."
 feature: DSP Audiences
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 1단계: DSP에서 대상 소스 만들기 {#source-create}
 
-1. [대상자 소스 만들기](source-create.md) DSP 계정 또는 광고주 계정으로 대상자를 가져오려면 [범용 ID 형식](source-about.md) 사용자 식별자를 변환할 대상.
+1. [대상자 소스 만들기](source-manage.md) DSP 계정 또는 광고주 계정으로 대상자를 가져오려면 [범용 ID 형식](source-about.md) 사용자 식별자를 변환할 대상.
 
 1. 대상 소스를 만든 후 소스 코드 키를 [!DNL ActionIQ] 사용자.
 
