@@ -3,9 +3,9 @@ title: 와 DSP 통합 사용 [!DNL Adobe] [!DNL Real-time CDP]
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Adobe] [!DNL Real-time CDP] 자사 세그먼트.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
->* [대상 소스 설정](source-settings.md)
 >* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* Adobe Experience Platform [대상 카탈로그 개요](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [에서 인증된 세그먼트 수동으로 가져오기 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)

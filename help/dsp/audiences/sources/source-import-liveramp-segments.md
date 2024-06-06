@@ -3,9 +3,9 @@ title: 에서 인증된 세그먼트 수동으로 가져오기 [!DNL LiveRamp]
 description: 다음을 통해 인증된 대상 활성화에 대해 알아보기 [!DNL LiveRamp].
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,5 @@ ht-degree: 0%
 >
 >* [자사 대상 소스 정보](source-about.md)
 >* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
->* [대상 소스 설정](source-settings.md)
 >* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
