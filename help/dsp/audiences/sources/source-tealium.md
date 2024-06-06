@@ -3,9 +3,9 @@ title: 다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Tealium] 자사 세그먼트.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)
->* [범용 ID 대상을 활성화하는 대상 소스 만들기](source-create.md)
+>* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
 >* [대상 소스 설정](source-settings.md)
 >* [다음에서 사용자 ID 변환 [!DNL Adobe Real-Time CDP] 범용 ID로](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)

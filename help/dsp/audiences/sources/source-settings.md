@@ -3,9 +3,9 @@ title: 대상 소스 설정
 description: 대상 소스의 설정에 대해 알아보십시오.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [범용 ID 대상을 활성화하는 대상 소스 만들기](source-create.md)
+>* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
 >* [자사 대상 소스 정보](source-about.md)
 >* [에서 인증된 세그먼트 수동으로 가져오기 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
