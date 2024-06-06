@@ -3,7 +3,7 @@ title: 범용 ID 활성화 지원
 description: 범용 ID 세그먼트를 가져오고, 사용자 지정 세그먼트를 만들어 범용 ID를 추적하고, 자사 세그먼트의 다른 사용자 식별자를 쿠키 없는 타깃팅을 위해 범용 ID로 변환하는 지원에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -118,7 +118,7 @@ DSP은 DSP에서 지원하는 디지털 형식 간에 쿠키 없는 단일 장�
 
 * 온사이트 이벤트 및 광고 노출에 맞게 웹 사이트에 올바른 범용 ID 파트너별 코드가 구현되었는지 확인하십시오. 을(를) 사용하여 작업 [!DNL LiveRamp] 또는 [!DNL ID5] 필요한 경우 담당자.
 
-* (대상 [!DNL RampIDs] 및 [!DNL UID 2.0] ID) 다음을 확인하십시오. [DSP 데이터 소스가 올바르게 구성됨](/help/dsp/audiences/sources/source-settings.md), 그리고 생성된 대상 세그먼트에 대해 해당 사용자 수가 채워집니다.
+* (대상 [!DNL RampIDs] 및 [!DNL UID 2.0] ID) 다음을 확인하십시오. [DSP 데이터 소스가 올바르게 구성됨](/help/dsp/audiences/sources/source-manage.md#source-settings), 그리고 생성된 대상 세그먼트에 대해 해당 사용자 수가 채워집니다.
 
 * 도달 범위가 예상보다 짧은 경우 대상 세그먼트 로직이 너무 세분화되지 않았는지 확인하십시오.
 

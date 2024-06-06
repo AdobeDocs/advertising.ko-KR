@@ -3,7 +3,7 @@ title: 범용 ID 대상을 활성화하기 위한 대상 소스 관리
 description: 소스를 만들고 관리하여 고객 데이터 플랫폼에서 대상을 가져와 범용 ID가 포함된 세그먼트로 변환하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -44,7 +44,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. 다음을 지정합니다. [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* 또는 *[!UICONTROL Account]*.
 
-1. 나머지 항목 입력 [소스 설정](source-settings.md).
+1. 나머지 항목 입력 [소스 설정](#source-settings).
 
    복사본 보관 [!UICONTROL Source Key] 생성됩니다. 나중에 값이 필요합니다.
 
@@ -69,7 +69,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. 소스 행 위에 커서를 놓고 **[!UICONTROL Edit]**.
 
-1. 변경 [소스에 대해 선택된 ID](source-settings.md).
+1. 변경 [소스에 대해 선택된 ID](#source-settings).
 
 1. 클릭 **[!UICONTROL Save]**.
 
@@ -101,7 +101,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. (선택 사항) 더 큰 세부 사항 화면에서 로그를 열려면 소스 행 위에 커서를 놓고 를 클릭합니다 **[!UICONTROL View Details]**.
 
-## 대상 소스 설정
+## 대상 소스 설정 {#source-settings}
 
 **[!UICONTROL Data Visibility Level]:** 계정에 액세스할 수 있는 단일 광고주가 세그먼트를 사용할 수 있는지 여부(*[!UICONTROL Advertiser]*) 또는 계정에 액세스할 수 있는 모든 광고주 *[!UICONTROL Account]*.
 
