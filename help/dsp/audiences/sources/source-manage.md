@@ -3,7 +3,7 @@ title: 범용 ID 대상을 활성화하기 위한 대상 소스 관리
 description: 소스를 만들고 관리하여 고객 데이터 플랫폼에서 대상을 가져와 범용 ID가 포함된 세그먼트로 변환하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 9411089703ce0b9502c1c2522cce999c3a5fafbf
+source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -32,13 +32,13 @@ You can create one source for each combination of universal ID partner and data 
 
 1. 클릭 **[!UICONTROL Add Source]**.
 
-1. 다음에서 [!UICONTROL Select a Type] 메뉴에서 고객 데이터 플랫폼을 선택합니다.
+1. 다음에서 [!UICONTROL Select a Type] 메뉴, 다음 항목 선택 [고객 데이터 플랫폼](source-about.md):
 
-   * *[!UICONTROL RT-CDP]*: [다음 [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
+   * *[!UICONTROL RT-CDP]*: [!DNL Adobe Real-Time Customer Data Platform].
 
-   * *[!UICONTROL ActionIQ]*: [[!DNL ActionIQ] 고객 데이터 플랫폼](source-about.md).
+   * *[!UICONTROL ActionIQ]*: [!DNL ActionIQ] 고객 데이터 플랫폼입니다.
 
-   * *[!UICONTROL Tealium CDP]*: (구성된 사용자만 해당) [[!DNL Tealium] 고객 데이터 플랫폼](source-about.md).
+   * *[!UICONTROL Tealium CDP]*: (구성된 사용자만 해당) [!DNL Tealium] 고객 데이터 플랫폼입니다.
 
 1. 다음을 지정합니다. [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* 또는 *[!UICONTROL Account]*.
 
