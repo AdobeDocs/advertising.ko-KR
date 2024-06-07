@@ -3,9 +3,9 @@ title: 게시자 권장 사항 및 인사이트 지원 기본 정보
 description: 게시자 권장 사항 및 인사이트를 보고 관리하는 지원에 대해 알아봅니다.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # 게시자 권장 사항 및 인사이트 지원 기본 정보
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising] 계정*
-
-*베타 기능 [!DNL Microsoft Advertising] 계정*
 
 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] recommendations 및 insights는 캠페인의 성능과 효율성을 개선하는 데 도움이 되는 광고 네트워크의 제안입니다.
 

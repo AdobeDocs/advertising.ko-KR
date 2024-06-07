@@ -3,9 +3,9 @@ title: 게시자 추천 적용 또는 취소
 description: 게시자 권장 사항을 보거나, 적용하거나, 취소하는 방법에 대해 알아봅니다.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: bd0c158ca27258fa7600553462bf4fedbabc9089
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # 게시자 추천 적용 또는 취소
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising] 계정*
-
-*베타 기능 [!DNL Microsoft Advertising] 계정*
 
 게시자 권장 사항에 대한 권장 작업과 이 작업이 도움이 되는 이유에 대한 설명을 봅니다. 그런 다음 비즈니스 목표에 부합할 때 권장 사항을 적용하고 그렇지 않을 경우 권장 사항을 무시할 수 있습니다.
 

@@ -3,9 +3,9 @@ title: 계정에 대한 게시자 권장 사항 로그 보기
 description: 다음에 대해 적용된 각 권장 사항의 로그를 보는 방법에 대해 알아봅니다. [!DNL Google Ads] 또는 [!DNL Microsoft Advertising] 계정입니다.
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d12b4905218b7c1057e7987f1a49a8691557455d
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # 계정에 대한 게시자 권장 사항 보기
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising] 계정*
-
-*베타 기능 [!DNL Microsoft Advertising] 계정*
 
 다음에 대해 적용된 각 권장 사항의 로그를 볼 수 있습니다. [!DNL Google Ads] 또는 [!DNL Microsoft Advertising] 계정입니다. 이 정보에는 권장 사항 카테고리, 권장 사항 유형, 영향을 받는 엔티티, 권장 사항을 적용한 사용자 및 타임스탬프가 포함됩니다.
 

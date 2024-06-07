@@ -3,9 +3,9 @@ title: 에셋 만들기 및 업로드
 description: 재사용 가능한 이미지, 비디오 및 텍스트 에셋을 만들고 업로드하는 방법을 알아봅니다 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정 수준 자산 라이브러리.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # 에셋 만들기 및 업로드
 
 *대상 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정만*
-
-*Beta 기능 열기*
 
 1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
 
