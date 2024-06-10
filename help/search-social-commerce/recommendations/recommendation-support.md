@@ -3,9 +3,9 @@ title: 게시자 권장 사항 및 인사이트 지원 기본 정보
 description: 게시자 권장 사항 및 인사이트를 보고 관리하는 지원에 대해 알아봅니다.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d5f9bdf69bb68f302bc40d94413397ccd13357cc
+source-git-commit: 73cc45da72a48b844b4baa426331822b4e857245
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -42,18 +42,6 @@ ht-degree: 0%
 
 ## 지원되는 추천 유형 [!DNL Google Ads]
 
-<!--
-
--- Add to "Bidding and budget" section of table
-
-| | [!UICONTROL Forecasting set Target CPA] | Set a target CPA for campaigns without one before a seasonal event that's forecasted to increase traffic |
-
-| | [!UICONTROL Set Target CPA] | Set a target CPA for campaigns without one |
-
-| | [!UICONTROL Set ROAS Target] | Set a target ROAS for campaigns without one |
-
--->
-
 | 추천 카테고리 | 권장 사항 유형 | 설명 |
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] (이제 &quot;라고 함)[!DNL Ads and assets]&quot; 위치 [!DNL Google Ads]) | [!UICONTROL Call extension] | 캠페인에 호출 확장 추가 |
@@ -74,6 +62,7 @@ ht-degree: 0%
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 현재 예산으로 제한된 캠페인에 대한 권장 예산 |
 | | [!UICONTROL Enhanced CPC opt in] | 다음으로 입찰 [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | 향후 예산에 의해 제한될 것으로 예상되는 캠페인에 대한 권장 예산 |
+| | [!UICONTROL Forecasting set Target CPA] | 트래픽 증가가 예상되는 시즌 이벤트 전에 캠페인 대상 CPA를 하나 설정 안 함 |
 | | [!UICONTROL Forecasting set Target ROAS] | 트래픽이 증가할 것으로 예상되는 시즌 이벤트 전에 예산을 증액하고 입찰 전략을 다음으로 변경합니다. [!UICONTROL Maximize Conversion Value] 끝 [!UICONTROL Target ROAS] |
 | | [!UICONTROL Marginal ROI campaign budget] | 캠페인 예산을 조정하여 ROI 향상 |
 | | [!UICONTROL Maximize clicks opt in] | (으)로 변경 [!UICONTROL Maximize Clicks] 입찰 전략 |
@@ -81,6 +70,8 @@ ht-degree: 0%
 | | [!UICONTROL Maximize conversions opt in] | (으)로 변경 [!UICONTROL Maximize Conversions] 입찰 전략 |
 | | [!UICONTROL Move unused budget] | 사용하지 않는 예산을 제한된 예산으로 이동 |
 | | [!UICONTROL Raise Target CPA bid too low] | 을(를) 높입니다. [!UICONTROL Target CPA] 너무 낮고 전환이 거의 없거나 없는 경우 권장 수량별 |
+| | [!UICONTROL Set Target CPA] | 없는 캠페인에 대한 타겟 CPA 설정 |
+| | [!UICONTROL Set Target ROAS] | ROAS가 없는 캠페인에 대한 타겟 ROAS 설정 |
 | | [!UICONTROL Target CPA opt in] | (으)로 변경 [!UICONTROL Target CPA] 입찰 전략 |
 | | [!UICONTROL Target CPA raising] | 을(를) 높입니다. [!UICONTROL Target CPA] 기준 [!DNL Google Ads] 예측, 과거 전환에서 계산됨 |
 | | [!UICONTROL Target ROAS lowering] | 을 낮춥니다. [!UICONTROL Target ROAS] 기준 [!DNL Google Ads] 예측, 과거 전환에서 계산됨 |
