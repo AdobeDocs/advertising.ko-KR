@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1694'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 + [새로운 기능](home.md)
 + [이 안내서 정보](help-about.md)
 + 소개 {#intro}
-   + [Adobe Advertising 검색, 소셜 및 상거래 정보](/help/search-social-commerce/introduction/about.md)
+   + [Adobe Advertising 검색, 소셜 및 Commerce 정보](/help/search-social-commerce/introduction/about.md)
    + [지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe Experience Cloud과 통합 {#integrations}
       + [Adobe Experience Cloud 솔루션 및 서비스와의 통합](/help/search-social-commerce/introduction/integrations.md)
@@ -106,8 +106,8 @@ ht-degree: 2%
       + [검색, 소셜 및 Commerce의 캠페인 관리 기본 정보](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [광고 네트워크 계정 및 캠페인 구현 개요](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [광고 네트워크 캠페인의 성능 모니터링 및 관리](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [[!DNL Google Ads] 검색, 소셜 및 상거래의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
-      + [[!DNL Microsoft Advertising] 검색, 소셜 및 상거래의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
+      + [[!DNL Google Ads] 검색, 소셜 및 Commerce의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Microsoft Advertising] 검색, 소셜 및 Commerce의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
    + 계정 설정 {#campaign-management-accounts}
       + 광고 네트워크 계정 {#ad-network-accounts}
          + [광고 네트워크 계정 기본 정보](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
@@ -249,9 +249,7 @@ ht-degree: 2%
       + [계정 구성 요소에서 레이블 분류 값 제거](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [레이블 분류 값 삭제](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [레이블 분류 삭제](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
-   + 광고 자산 관리 {#assets}
-      + [정보 [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
-      + [에셋 만들기 및 업로드](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+   + [광고 자산 보기 및 만들기](/help/search-social-commerce/campaign-management/asset-view-create.md)
    + 검색 캠페인에 대한 모범 사례 {#best-practices-search}
       + [보고서를 분석하여 키워드 및 캠페인 설정 세분화](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [유효한 텍스트 광고 사본 작성](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
