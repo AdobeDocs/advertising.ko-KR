@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 8374fbedf8c209b6b2638cd16aa21b79e251486d
+source-git-commit: 53f5bdf56e65aede2240a60973844a6b1657f893
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3055'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
 | 2024년 6월 10일 | [!UICONTROL Audiences] | (Beta 기능) 이제 [!DNL Amperity] 및 [!DNL Optimizely] 고객 데이터 플랫폼을 로 구성된 세그먼트에 연결[!DNL LiveRamp] [!DNL RampIDs]] 또는 [!DNL Unified ID 2.0 (UID2.0)] ID 대상 타깃팅에 대한 배치 설정 내에서 공유 세그먼트는 자사 세그먼트 목록에서 사용할 수 있습니다. | 를 참조하십시오.[다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로](/help/dsp/audiences/sources/source-amperity.md),&quot; &quot;[다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로](/help/dsp/audiences/sources/source-optimizely.md)및 &quot;[범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md).&quot; |
+|  |  | 쿠키 없는 타깃팅을 위한 사용자 기반의 범용 ID에 대한 DSP 베타 기능에 대한 설명서를 사용할 수 있습니다. | 를 참조하십시오.[범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md).&quot; |
 | 2024년 6월 5일 | 배치 | 이제 스프레드시트를 사용하여 한 번에 여러 배치에 대한 입찰 승수를 관리할 수 있습니다. | 를 참조하십시오.[배치에 대한 입찰 승수 관리](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
 |  | 대상 소스 | 이제 소스 대상이 번역되는 범용 ID 유형을 변경하고 변경 내용의 로그를 볼 수 있습니다. | 를 참조하십시오.[범용 ID 대상을 활성화하기 위한 대상 소스 관리](/help/dsp/audiences/sources/source-manage.md).&quot; |
 | 2024년 5월 22일 | 최적화, 연결된 TV 광고 | 이제 &quot;최저 CPA&quot; 및 &quot;최고 ROAS&quot; 최적화 목표가 있는 패키지에서 연결된 TV 광고의 성능 모델은 전환 경로의 여러 접점의 데이터를 사용하여 보다 빠르고 강력한 머신 러닝을 수행할 수 있습니다. 기존 패키지는 멀티 터치 최적화를 사용하도록 업그레이드되며 조치가 필요하지 않습니다. | — |

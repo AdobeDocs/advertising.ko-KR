@@ -3,9 +3,9 @@ title: 범용 ID 활성화 지원
 description: 범용 ID 세그먼트를 가져오고, 사용자 지정 세그먼트를 만들어 범용 ID를 추적하고, 자사 세그먼트의 다른 사용자 식별자를 쿠키 없는 타깃팅을 위해 범용 ID로 변환하는 지원에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 4b8dc6e691516d87e391802b54664b96ad603b75
+source-git-commit: d3991123110617968ce858fd76c12fa039acc2d6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
