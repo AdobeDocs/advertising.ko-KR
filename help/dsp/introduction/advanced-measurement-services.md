@@ -2,9 +2,9 @@
 title: 고급 측정 솔루션
 description: 고급 측정에 사용할 수 있는 솔루션 목록을 참조하십시오.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 226b9a78b00f547da840c27663241f91dfca92d3
+source-git-commit: f1d657960beb667001341e191daaddbe03d931b0
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 0%
 
    * Cross-ID Household Reach, Frequency 및 Conversion (Cookieless)
 
-      * 연결된 TV(CTV) 및 디지털(데스크탑, 모바일, 기본 및 오디오)를 포함한 여러 환경에서 쿠키 없는 ID 유형(RampID, ID5)으로 가구 수준에서 고유/증분 도달, 겹침 및 전환을 수량화합니다.
+     <!-- Hide for now * Quantify unique/incremental reach, overlap, and conversions at a household level by cookieless ID type (RampID, ID5) across multiple environments, including connected TV (CTV) and digital (desktop, mobile, native, and audio). -->
 
-      * 쿠키 기반 세그먼트에 상대적인 증분 도달 범위를 찾는 데 쿠키 없는 ID 테스트의 효과를 증명합니다.
+     <!-- Hide for now * Prove the effectiveness of testing cookieless IDs in finding incremental reach relative to cookie-based segments. -->
 
    * 평균 전환 시간
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
   데스크탑, 모바일, 기본 및 오디오와 같은 여러 디지털 환경에 대한 노출을 포함하여, 개인 수준에서 대상과 전술이 어떻게 겹치는지 이해합니다.
 
-   * **크로스 ID 사용자 기반 도달 범위**
+  <!-- Hide for now * **Cross-ID People-Based Reach**
 
-     쿠키와 RampID 간의 고유한 도달 범위와 겹침, ID 유형별 지표당 비용을 수량화합니다. 데스크탑, 모바일, 기본 및 오디오와 같은 여러 디지털 환경에서 쿠키 기반 세그먼트에 상대적인 증분 도달 범위를 찾는 데 RampID 테스트의 효과를 입증합니다.
+      Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
 
 * **검색 보고에 대한 후광 효과**
 
