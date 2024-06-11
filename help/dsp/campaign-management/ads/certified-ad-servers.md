@@ -3,9 +3,9 @@ title: 인증 광고 서비스 제공 파트너
 description: 인증된 모든 광고 서버 및 광고 단위를 확인합니다.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: a0f078d93a5cbd408e3eba996ec29102d0422bc1
+source-git-commit: 8dc79126a63f2c20f8fdaa666c0197ec6583b78e
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 0%
 | [!DNL Pubmatic] | | | | X | VAST만 |
 | [!DNL RevJet] | | | | X | VAST만 |
 | [!DNL Seedtag] | | X | X | | |
+| [!DNL Sharethrough] | | | | | CTV, 기본 및 아웃스트림만 |
 | [!DNL Sizmek] | X | X | | X | OLV 및 CTV</br></br>UI에서 태그가 렌더링되도록 하려면 태그를 로 감싸십시오. `<a>` 태그(시작 및 끝). 아래 샘플 태그를 참조하십시오.</br></br>`<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>` |
 | [!DNL Spaceback] | | X | | | |
 | [!DNL Spirable] | | X | | | |
