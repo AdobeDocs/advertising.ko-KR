@@ -3,7 +3,7 @@ title: Advertising DSP의 대상자 관리 정보
 description: 대상자 관리 기능에 대해 알아봅니다.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: f6c562a02cdca5eda8c0b8ec692e55e7ea656bb0
+source-git-commit: ac3ceaf0e1d9f1708896d17ab413d23f366c4b36
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -149,7 +149,7 @@ DSP 사용자 인터페이스를 사용하거나 사용자 지정 가져오기 �
 >* [사용자 지정 세그먼트 만들기 및 구현](custom-segment-create.md)
 >* [만들기 및 구현 [!UICONTROL CCPA Opt-Out-of-Sale] 세그먼트](ccpa-opt-out-segment-create.md)
 >* [자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)
->* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
+>* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](/help/dsp/audiences/sources/source-manage.md)
 >* [에서 인증된 세그먼트 수동으로 가져오기 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [사용 가능한 타사 데이터 공급자](third-party-data-providers.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
