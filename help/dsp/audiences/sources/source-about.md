@@ -3,9 +3,9 @@ title: 자사 대상 소스 정보
 description: 쿠키 없는 타깃팅을 위해 자사 세그먼트의 다른 사용자 식별자를 범용 ID로 변환하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,15 @@ DSP에서 를 수집할 수 있도록 하려면 [!DNL Adobe] [!DNL Real-time CDP
 
 ### [!DNL ActionIQ]
 
-에서 조직의 자사 데이터를 공유할 수 있습니다. [!DNL Action IQ] DSP을 사용하는 고객 데이터 플랫폼 을 사용하여 해시된 이메일 주소를 DSP의 타깃팅된 광고를 위한 범용 ID로 변환합니다. 이 통합에는 사용자 정의가 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+에서 조직의 자사 데이터를 공유할 수 있습니다. [!DNL ActionIQ] DSP을 사용하는 고객 데이터 플랫폼 을 사용하여 해시된 이메일 주소를 DSP의 타깃팅된 광고를 위한 범용 ID로 변환합니다. 이 통합에는 사용자 정의가 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+
+### [!DNL Amperity]
+
+에서 조직의 자사 데이터를 공유할 수 있습니다. [!DNL Amperity] DSP을 사용하는 고객 데이터 플랫폼 을 사용하여 해시된 이메일 주소를 DSP의 타깃팅된 광고를 위한 범용 ID로 변환합니다. 자세한 내용은 &quot;[다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로](/help/dsp/audiences/sources/source-amperity.md).&quot;
+
+### [!DNL Optimizely]
+
+에서 조직의 자사 데이터를 공유할 수 있습니다. [!DNL Optimizely] DSP을 사용하는 고객 데이터 플랫폼 을 사용하여 해시된 이메일 주소를 DSP의 타깃팅된 광고를 위한 범용 ID로 변환합니다. 자세한 내용은 &quot;[다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로](/help/dsp/audiences/sources/source-optimizely.md).&quot;
 
 ### [!DNL Tealium]
 
@@ -88,13 +96,11 @@ DSP에서 를 수집할 수 있도록 하려면 [!DNL Adobe] [!DNL Real-time CDP
 
 >[!MORELIKETHIS]
 >
->* [다음에서 사용자 ID 변환 [!DNL Adobe Real-Time CDP] 범용 ID로](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로](/help/dsp/audiences/sources/source-tealium.md)
 >* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
 >* [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
+>* [다음에서 사용자 ID 변환 [!DNL Adobe Real-Time CDP] 범용 ID로](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로](/help/dsp/audiences/sources/source-amperity.md)
+>* [다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로](/help/dsp/audiences/sources/source-optimizely.md)
+>* [다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로](/help/dsp/audiences/sources/source-tealium.md)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

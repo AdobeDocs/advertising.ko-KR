@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: b89da28d56cb80d105fd8bebd9c734dd5230c4c3
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '913'
 ht-degree: 3%
 
 ---
@@ -141,6 +141,8 @@ ht-degree: 3%
       + [자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)
       + 고객 데이터 플랫폼별 워크플로 {#sources-workflows}
          + [다음에서 사용자 ID 변환 [!DNL Adobe Real-Time CDP] 범용 ID로](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로](/help/dsp/audiences/sources/source-amperity.md)
+         + [다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로](/help/dsp/audiences/sources/source-optimizely.md)
          + [다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로](/help/dsp/audiences/sources/source-tealium.md)
       + [범용 ID 대상을 활성화하기 위한 대상 소스 관리](/help/dsp/audiences/sources/source-manage.md)
    + [에서 인증된 세그먼트 수동으로 가져오기 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)

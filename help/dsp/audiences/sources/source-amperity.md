@@ -1,23 +1,25 @@
 ---
-title: 다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로
-description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Optimizely] 자사 세그먼트.
+title: 다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로
+description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Amperity] 자사 세그먼트.
 feature: DSP Audiences
-source-git-commit: 9b784b99051e33330ee7fbc736a9edbdf22066ca
+source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# 다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로
+# 다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로
 
-와 DSP 통합 사용 [!DNL Optimizely] 고객 데이터 플랫폼 : 조직의 자사 해시된 이메일 주소를 타겟팅된 광고를 위한 범용 ID로 변환합니다.
+와 DSP 통합 사용 [!DNL Amperity] 고객 데이터 플랫폼 : 조직의 자사 해시된 이메일 주소를 타겟팅된 광고를 위한 범용 ID로 변환합니다.
 
 1. (이메일 주소를 (으)로 변환 [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; 광고주 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [활성화하려면 추적 설정 [!DNL Analytics] 측정](#analytics-tracking).
 
 1. [DSP에서 대상 소스 만들기](#source-create).
 
-1. [세그먼트 데이터 준비 및 푸시](#push-data).
+1. [세그먼트 매핑 데이터 준비 및 공유](#map-data).
+
+1. [에서 데이터 푸시 요청 [!DNL Amperity] 대상 DSP](#push-data).
 
 1. [범용 ID 수를 해시된 이메일 주소 수와 비교](#compare-id-count).
 
@@ -39,27 +41,39 @@ ht-degree: 0%
 
    소스 설정에는 세그먼트 데이터를 푸시하는 데 사용할 자동 생성 소스 키가 포함됩니다.
 
-1. 대상 소스를 만든 후 소스 코드 키를 [!DNL Optimizely] 사용자.
+1. 대상 소스를 만든 후 소스 코드 키를 [!DNL Amperity] 사용자.
 
-## 3단계: 세그먼트 데이터 준비 및 푸시 {#push-data}
+## 3단계: 세그먼트 매핑 데이터 준비 및 공유 {#map-data}
 
-광고주는 자신의 도움을 받아 데이터를 준비하고 푸시해야 합니다 [!DNL Optimizely] 담당자.
+광고주는 세그먼트 매핑 데이터를 준비하고 공유해야 합니다.
 
-1. 다음 범위 내 [!DNL Optimizely Data Platform]는 SHA-256 알고리즘을 사용하여 광고주의 대상자에 대한 이메일 ID를 해시합니다.
+1. 다음 범위 내 [!DNL Amperity]: SHA-256 알고리즘을 사용하여 대상자에 대한 이메일 ID를 해시합니다.
 
-1. 광고주 연락처 [!DNL Optimizely] DSP에 세그먼트 푸시하기 지침 담당자 세그먼트를 푸시할 때 다음 정보를 포함합니다.
+1. 광고주는 DSP에서 세그먼트를 만들려면 Adobe 계정 팀에 세그먼트 매핑 데이터를 제공해야 합니다. 쉼표로 구분된 값 파일에서 다음 열 이름과 값을 사용합니다.
 
-   * **소스 키:** 다음에서 생성된 소스 키입니다. [2단계](#source-create).
+   * **외부 세그먼트 키:** 다음 [!DNL Amperity] 세그먼트와 연계된 세그먼트 키.
 
-   * **계정 코드:** 영숫자 DSP 계정 코드이며 DSP 내에서 찾을 수 있습니다. [!UICONTROL Settings] > [!UICONTROL Account].
+   * **세그먼트 이름:** 세그먼트 이름입니다.
 
-세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 하며 광고주에 대해 구성된 대로 새로 고쳐집니다. 세그먼트의 새로 고침 빈도에 관계없이 세그먼트에 포함된 항목은 30일 후에 만료되어 개인 정보 준수를 보장하므로 다음에서 대상을 다시 푸시하여 새로 고칩니다. [!DNL Optimizely] 30일 이내입니다.
+   * **세그먼트 설명:** 세그먼트의 목적 또는 규칙 또는 둘 다입니다.
 
-<!--
-Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]
--->
+   * **상위 ID:** 비워 둠
 
-## 4단계: 범용 ID 수를 해시된 이메일 주소 수와 비교 {#compare-id-count}
+   * **비디오 CPM:** 0
+
+   * **CPM 표시:** 0
+
+   * **세그먼트 창:** 세그먼트 TTL(time-to-live).
+
+## 4단계: 다음 위치에서 데이터 푸시 요청 [!DNL Amperity] 대상 DSP {#push-data}
+
+1. 세그먼트가 DSP 내에서 매핑되면 광고주는 [!DNL Amperity] 대표 - 세그먼트 데이터를 DSP에 배포합니다.
+
+1. 그런 다음 광고주는 Adobe 계정 팀에 세그먼트 데이터가 수신되었는지 확인해야 합니다.
+
+세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 하며 광고주에 대해 구성된 대로 새로 고쳐집니다. 세그먼트의 새로 고침 빈도에 관계없이 세그먼트에 포함된 항목은 30일 후에 만료되어 개인 정보 준수를 보장하므로 다음에서 대상을 다시 푸시하여 새로 고칩니다. [!DNL Amperity] 30일 이내입니다.
+
+## 5단계: 범용 ID 수를 해시된 이메일 주소 수와 비교 {#compare-id-count}
 
 모든 단계를 완료하고에서 대상을 만들거나 편집할 때 사용할 수 있는 대상 라이브러리에서 확인합니다 [!UICONTROL Audiences] > [!UICONTROL All Audiences] 또는 배치 설정 내에서) 세그먼트를 사용할 수 있으며 24시간 이내에 채울 수 있습니다. 범용 ID 수를 해시된 원본 이메일 주소 수와 비교합니다.
 

@@ -3,9 +3,9 @@ title: 범용 ID 활성화 지원
 description: 범용 ID 세그먼트를 가져오고, 사용자 지정 세그먼트를 만들어 범용 ID를 추적하고, 자사 세그먼트의 다른 사용자 식별자를 쿠키 없는 타깃팅을 위해 범용 ID로 변환하는 지원에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
+source-git-commit: 4b8dc6e691516d87e391802b54664b96ad603b75
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -126,14 +126,9 @@ DSP은 DSP에서 지원하는 디지털 형식 간에 쿠키 없는 단일 장�
 
 >[!MORELIKETHIS]
 >
+>* [자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)
 >* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](/help/dsp/audiences/sources/source-manage.md)
->* [다음에서 사용자 ID 변환 [!DNL Adobe Real-Time CDP] 범용 ID로](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로](/help/dsp/audiences/sources/source-tealium.md)
 >* [사용자 지정 세그먼트 만들기 및 구현](/help/dsp/audiences/custom-segment-create.md)
 >* [에서 인증된 세그먼트 수동으로 가져오기 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

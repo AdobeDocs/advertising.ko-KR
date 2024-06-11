@@ -3,9 +3,9 @@ title: 범용 ID 대상을 활성화하기 위한 대상 소스 관리
 description: 소스를 만들고 관리하여 고객 데이터 플랫폼에서 대상을 가져와 범용 ID가 포함된 세그먼트로 변환하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
+source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL ActionIQ]*: [!DNL ActionIQ] 고객 데이터 플랫폼입니다.
 
+   * *[!UICONTROL Amperity]*: [!DNL Amperity] 고객 데이터 플랫폼입니다.
+
+   * *[!UICONTROL Optimizely]*: [!DNL Optimizely]: [!DNL Amperity] 고객 데이터 플랫폼입니다.
+
    * *[!UICONTROL Tealium CDP]*: (구성된 사용자만 해당) [!DNL Tealium] 고객 데이터 플랫폼입니다.
 
 1. 다음을 지정합니다. [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* 또는 *[!UICONTROL Account]*.
@@ -50,7 +54,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->고객 데이터 플랫폼에 대한 소스를 만든 후에는 추가 단계를 완료해야 합니다. 다음을 참조하십시오. [대상자 가져오기 워크플로우 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> 및 [대상자 가져오기 워크플로우 [!DNL Tealium]](source-tealium.md).
+>고객 데이터 플랫폼에 대한 소스를 만든 후에는 대상을 가져오기 위한 추가 단계를 완료해야 합니다. 다음을 참조하십시오. [워크플로 [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> 다음 [워크플로 [!DNL Amperity]](source-amperity.md), [워크플로 [!DNL Optimizely]](source-optimizely.md)및 [워크플로 [!DNL Tealium]](source-tealium.md).
 
 ## 대상 소스의 ID 유형 변경
 
@@ -131,6 +135,9 @@ All changes to universal IDs translated from the source are applied after you sa
 >[!MORELIKETHIS]
 >
 >* [자사 대상 소스 정보](source-about.md)
->* [에서 인증된 세그먼트 수동으로 가져오기 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
+>* [다음에서 사용자 ID 변환 [!DNL Adobe Real-Time CDP] 범용 ID로](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로](/help/dsp/audiences/sources/source-amperity.md)
+>* [다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로](/help/dsp/audiences/sources/source-optimizely.md)
+>* [다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로](/help/dsp/audiences/sources/source-tealium.md)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)

@@ -3,9 +3,9 @@ title: 다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Tealium] 자사 세그먼트.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -52,31 +52,31 @@ ht-degree: 0%
 
 ## 3단계: 세그먼트 매핑 데이터 준비 및 공유 {#map-data}
 
-1. 광고주는 세그먼트 매핑 데이터를 준비하고 공유해야 합니다.
+광고주는 세그먼트 매핑 데이터를 준비하고 공유해야 합니다.
 
-   1. 광고주는 다음 범위 내에서 데이터를 준비해야 합니다. [!DNL Tealium]:
+1. 광고주는 다음 범위 내에서 데이터를 준비해야 합니다. [!DNL Tealium]:
 
-      1. SHA-256 알고리즘을 사용하여 광고주의 대상에 대한 이메일 ID를 해시합니다.
+   1. SHA-256 알고리즘을 사용하여 광고주의 대상에 대한 이메일 ID를 해시합니다.
 
-      1. 해시된 이메일 ID가 포함된 열을 방문자 ID 유형의 속성에 매핑합니다.
+   1. 해시된 이메일 ID가 포함된 열을 방문자 ID 유형의 속성에 매핑합니다.
 
-      1. 를 사용하여 대상자 만들기 `Tealium_visitor_id` 특성. 대상자를 트리거하는 올바른 데이터 보강 기능을 적용합니다. 다음을 참조하십시오. [[!DNL Tealium] 방문자 ID 속성에 대한 설명서](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
+   1. 를 사용하여 대상자 만들기 `Tealium_visitor_id` 특성. 대상자를 트리거하는 올바른 데이터 보강 기능을 적용합니다. 다음을 참조하십시오. [[!DNL Tealium] 방문자 ID 속성에 대한 설명서](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
 
-   1. 광고주는 DSP에서 세그먼트를 만들려면 Adobe 계정 팀에 세그먼트 매핑 데이터를 제공해야 합니다. 쉼표로 구분된 값 파일에서 다음 열 이름과 값을 사용합니다.
+1. 광고주는 DSP에서 세그먼트를 만들려면 Adobe 계정 팀에 세그먼트 매핑 데이터를 제공해야 합니다. 쉼표로 구분된 값 파일에서 다음 열 이름과 값을 사용합니다.
 
-      * **외부 세그먼트 키:** 나중에 커넥터 작업 설정에서 지정할 외부 세그먼트 키 [!DNL Tealium]. 권장되는 명명 규칙은 &quot;`<DSP source key>_<Tealium segment name>`&quot;57bf424dc10_coffee-drinkers&quot;와 같은 &quot;입니다. DSP 소스 키의 경우 [!UICONTROL Source Key] DSP 대상자 소스 설정에서.
+   * **외부 세그먼트 키:** 나중에 커넥터 작업 설정에서 지정할 외부 세그먼트 키 [!DNL Tealium]. 권장되는 명명 규칙은 &quot;`<DSP source key>_<Tealium segment name>`&quot;57bf424dc10_coffee-drinkers&quot;와 같은 &quot;입니다. DSP 소스 키의 경우 [!UICONTROL Source Key] DSP 대상자 소스 설정에서.
 
-      * **세그먼트 이름:** 세그먼트 이름입니다.
+   * **세그먼트 이름:** 세그먼트 이름입니다.
 
-      * **세그먼트 설명:** 세그먼트의 목적 또는 규칙 또는 둘 다입니다.
+   * **세그먼트 설명:** 세그먼트의 목적 또는 규칙 또는 둘 다입니다.
 
-      * **상위 ID:** 비워 둠
+   * **상위 ID:** 비워 둠
 
-      * **비디오 CPM:** 0
+   * **비디오 CPM:** 0
 
-      * **CPM 표시:** 0
+   * **CPM 표시:** 0
 
-      * **세그먼트 창:** 세그먼트 TTL(time-to-live).
+   * **세그먼트 창:** 세그먼트 TTL(time-to-live).
 
 ## 4단계: 커넥터 만들기 [!DNL Tealium] 세그먼트 데이터를 공유하려면 {#tealium-connector}
 
@@ -154,9 +154,5 @@ ht-degree: 0%
 >
 >* [자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)
 >* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
->* [다음에서 사용자 ID 변환 [!DNL Adobe Real-Time CDP] 범용 ID로](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

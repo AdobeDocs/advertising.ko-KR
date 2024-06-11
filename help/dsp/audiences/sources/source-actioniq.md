@@ -2,7 +2,7 @@
 title: "다음에서 사용자 ID 변환: [!DNL ActionIQ] 범용 ID로"
 description: "DSP에서 다음을 수집할 수 있도록 하는 방법 알아보기 [!DNL ActionIQ] 자사 세그먼트."
 feature: DSP Audiences
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 87080d8152ccf3aa9249a88379ecc9f919c0854d
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -44,7 +44,3 @@ ht-degree: 0%
 >* [다음에서 사용자 ID 변환 [!DNL Adobe Real-Time CDP] 범용 ID로](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로](/help/dsp/audiences/sources/source-tealium.md)
 >* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->
