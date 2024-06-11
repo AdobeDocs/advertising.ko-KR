@@ -3,9 +3,9 @@ title: 다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Tealium] 자사 세그먼트.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
+source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 0%
 1. [에서 기존 커넥터 복제 [!DNL Tealium] 세그먼트를 계속 공유하려면](#duplicate-connector).
 
 1. [범용 ID 수를 해시된 이메일 주소 수와 비교](#compare-id-count).
-
-세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 하며 24시간마다 새로 고쳐집니다.
 
 ## 1단계: 추적 설정 [!DNL Analytics] 측정 {#analytics-tracking}
 
@@ -142,7 +140,7 @@ ht-degree: 0%
 
 ## 6단계: 범용 ID 수를 해시된 이메일 주소 수와 비교 {#compare-id-count}
 
-모든 단계를 완료하고에서 대상을 만들거나 편집할 때 사용할 수 있는 대상 라이브러리에서 확인합니다 [!UICONTROL Audiences] > [!UICONTROL All Audiences] 또는 배치 설정 내에서) 세그먼트가 24시간 내에 채워집니다. 범용 ID 수를 해시된 원본 이메일 주소 수와 비교합니다.
+모든 단계를 완료한 후 세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 합니다. 대상 라이브러리에서 확인합니다(에서 대상을 만들거나 편집할 때 사용 가능). [!UICONTROL Audiences] > [!UICONTROL All Audiences] 또는 배치 설정 내에서) 세그먼트가 24시간 내에 채워집니다. 범용 ID 수를 해시된 원본 이메일 주소 수와 비교합니다.
 
 범용 ID에 대한 해시된 이메일 주소의 번역률은 90%보다 커야 합니다. 예를 들어 고객 데이터 플랫폼에서 100개의 해시된 이메일 주소를 전송하는 경우 90개 이상의 범용 ID로 변환되어야 합니다. 90% 이하의 번역률이 문제입니다. 세그먼트 카운트가 달라질 수 있는 방법에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산 원인](#universal-ids-data-variances).&quot;
 

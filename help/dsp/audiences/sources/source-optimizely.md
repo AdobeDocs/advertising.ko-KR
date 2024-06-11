@@ -2,14 +2,16 @@
 title: 다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Optimizely] 자사 세그먼트.
 feature: DSP Audiences
-source-git-commit: 9b784b99051e33330ee7fbc736a9edbdf22066ca
+source-git-commit: 23d4dc50d1c6bf966148dab772e0e770087ac869
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
 
 # 다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로
+
+*Beta 기능*
 
 와 DSP 통합 사용 [!DNL Optimizely] 고객 데이터 플랫폼 : 조직의 자사 해시된 이메일 주소를 타겟팅된 광고를 위한 범용 ID로 변환합니다.
 

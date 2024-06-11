@@ -2,14 +2,16 @@
 title: 다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Amperity] 자사 세그먼트.
 feature: DSP Audiences
-source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
+source-git-commit: dab24efea38951373ec1ada571b10d9843409baf
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # 다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로
+
+*Beta 기능*
 
 와 DSP 통합 사용 [!DNL Amperity] 고객 데이터 플랫폼 : 조직의 자사 해시된 이메일 주소를 타겟팅된 광고를 위한 범용 ID로 변환합니다.
 
