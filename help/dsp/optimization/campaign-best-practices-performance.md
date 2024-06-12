@@ -3,9 +3,9 @@ title: 성과 캠페인 설정에 대한 우수 사례
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 배치를 포함하여 성과 중심 캠페인을 설정하는 모범 사례에 대해 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 802c75920bb11f262cbe0d76d2554971aaf35831
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,7 @@ DSP은 성과 중심의 캠페인을 최적화할 수 있습니다. 성과 캠�
 
 ![최적화 목표](/help/dsp/assets/optimization-goals.png)
 
-또한 전체 목표를 이끄는 성공 이벤트를 결정하고 그에 따라 사용자 지정 목표를 만들어야 합니다. 각 패키지에 대해 를 사용하여 보고 및 알고리즘 최적화를 위한 전체 최적화 목표와 함께 사용할 사용자 지정 목표를 지정합니다 [!DNL Adobe Sensei]. 사용자 지정 목표 만들기에 대한 자세한 내용은 [사용자 지정 목표 빌드를 위한 우수 사례](custom-goal.md#custom-goal-best-practices).
-
-![사용자 정의 목표](/help/dsp/assets/objective-goals.png)
+또한 전체 목표를 이끄는 성공 이벤트를 결정하고 그에 따라 사용자 지정 목표를 만들어야 합니다. 각 패키지에 대해 를 사용하여 보고 및 알고리즘 최적화를 위한 전체 최적화 목표와 함께 사용할 사용자 지정 목표를 지정합니다 [!DNL Adobe Sensei]. 모범 사례를 포함하여 사용자 지정 목표를 만드는 방법에 대한 자세한 내용은 다음을 참조하십시오. [사용자 정의 목표](custom-goal.md).
 
 ## 2단계 - 전략 정의
 
