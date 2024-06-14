@@ -3,9 +3,9 @@ title: 범용 ID 대상을 활성화하기 위한 대상 소스 관리
 description: 소스를 만들고 관리하여 고객 데이터 플랫폼에서 대상을 가져와 범용 ID가 포함된 세그먼트로 변환하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
+source-git-commit: 02ed538a48a4ba0323f9b75938ee6b007c6e0fd7
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL Amperity]*: [!DNL Amperity] 고객 데이터 플랫폼입니다.
 
-   * *[!UICONTROL Optimizely]*: [!DNL Optimizely]: [!DNL Amperity] 고객 데이터 플랫폼입니다.
+   * *[!UICONTROL Optimizely]*: [!DNL Optimizely] 고객 데이터 플랫폼입니다.
 
    * *[!UICONTROL Tealium CDP]*: (구성된 사용자만 해당) [!DNL Tealium] 고객 데이터 플랫폼입니다.
 
