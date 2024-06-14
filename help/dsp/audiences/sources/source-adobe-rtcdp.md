@@ -3,9 +3,9 @@ title: 와 DSP 통합 사용 [!DNL Adobe] [!DNL Real-time CDP]
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Adobe] [!DNL Real-time CDP] 자사 세그먼트.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 33766fc210da032102bdc07a0db4ce348b12fe92
+source-git-commit: 7963623d20686553629e2aa7ad76b4fd48403555
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    문제 해결 지원은 Adobe 계정 팀에 문의하거나 `adcloud-support@adobe.com`.
 
-세그먼트는 24시간마다 새로 고쳐집니다. 그러나 개인 정보 보호를 위해 세그먼트에 포함하면 30일 후에 만료되므로 30일 이내에서 Real-Time CDP에서 다시 푸시하여 대상자를 새로 고치십시오.
+세그먼트는 24시간마다 새로 고쳐집니다. 하지만 세그먼트에 포함되면 기본적으로 30일 이후 또는 고객이 지정한 만료 기간 이후에 만료됩니다. 만료 전에 Real-Time CDP에서 세그먼트를 다시 푸시하여 새로 고침합니다. 사용자 지정 세그먼트 만료를 요청하려면 Adobe 계정 팀에 문의하십시오.
 
 >[!MORELIKETHIS]
 >

@@ -2,9 +2,9 @@
 title: 다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Amperity] 자사 세그먼트.
 feature: DSP Audiences
-source-git-commit: dab24efea38951373ec1ada571b10d9843409baf
+source-git-commit: 25bcc2eefa4dc7873ab8189122d43da336e3e046
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 그런 다음 광고주는 Adobe 계정 팀에 세그먼트 데이터가 수신되었는지 확인해야 합니다.
 
-세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 하며 광고주에 대해 구성된 대로 새로 고쳐집니다. 세그먼트의 새로 고침 빈도에 관계없이 세그먼트에 포함된 항목은 30일 후에 만료되어 개인 정보 준수를 보장하므로 다음에서 대상을 다시 푸시하여 새로 고칩니다. [!DNL Amperity] 30일 이내입니다.
+세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 하며 내에 광고주에 대해 구성된 대로 새로 고쳐집니다 [!DNL Amperity]. 세그먼트의 새로 고침 빈도에 관계없이 세그먼트에 포함된 항목은 기본적으로 30일 후나 고객이 지정한 만료 기간 후에 만료됩니다. 세그먼트를 다음에서 다시 푸시하여 새로 고침: [!DNL Amperity] 만료 전에. 사용자 지정 세그먼트 만료를 요청하려면 Adobe 계정 팀에 문의하십시오.
 
 ## 5단계: 범용 ID 수를 해시된 이메일 주소 수와 비교 {#compare-id-count}
 

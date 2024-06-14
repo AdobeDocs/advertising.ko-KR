@@ -3,9 +3,9 @@ title: 다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Tealium] 자사 세그먼트.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
+source-git-commit: 84ecc81745c6445d08cd743abfd412d62eddde86
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 범용 ID에 대한 해시된 이메일 주소의 번역률은 90%보다 커야 합니다. 예를 들어 고객 데이터 플랫폼에서 100개의 해시된 이메일 주소를 전송하는 경우 90개 이상의 범용 ID로 변환되어야 합니다. 90% 이하의 번역률이 문제입니다. 세그먼트 카운트가 달라질 수 있는 방법에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산 원인](#universal-ids-data-variances).&quot;
 
-세그먼트는 24시간마다 새로 고쳐집니다. 단, 세그먼트에 포함하면 30일 후에 만료되어 개인 정보 규정을 준수할 수 있으므로 대상자를에서 다시 푸시하여 새로 고침하십시오. [!DNL Tealium] 30일 이내입니다.
+세그먼트는 24시간마다 새로 고쳐집니다. 하지만 세그먼트에 포함되면 기본적으로 30일 이후 또는 고객이 지정한 만료 기간 이후에 만료됩니다. 세그먼트를 다음에서 다시 푸시하여 새로 고침: [!DNL Tealium] 만료 전에. 사용자 지정 세그먼트 만료를 요청하려면 Adobe 계정 팀에 문의하십시오.
 
 문제 해결 지원은 Adobe 계정 팀에 문의하거나 `adcloud-support@adobe.com`.
 

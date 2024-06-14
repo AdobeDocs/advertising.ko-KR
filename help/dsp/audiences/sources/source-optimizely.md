@@ -2,9 +2,9 @@
 title: 다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Optimizely] 자사 세그먼트.
 feature: DSP Audiences
-source-git-commit: 23d4dc50d1c6bf966148dab772e0e770087ac869
+source-git-commit: f51f07c1e057eb09c2cad292b2c8062f7d993166
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    * **계정 코드:** 영숫자 DSP 계정 코드이며 DSP 내에서 찾을 수 있습니다. [!UICONTROL Settings] > [!UICONTROL Account].
 
-세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 하며 광고주에 대해 구성된 대로 새로 고쳐집니다. 세그먼트의 새로 고침 빈도에 관계없이 세그먼트에 포함된 항목은 30일 후에 만료되어 개인 정보 준수를 보장하므로 다음에서 대상을 다시 푸시하여 새로 고칩니다. [!DNL Optimizely] 30일 이내입니다.
+세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 하며 광고주에 대해 구성된 대로 새로 고쳐집니다. 세그먼트의 새로 고침 빈도에 관계없이 세그먼트에 포함된 항목은 기본적으로 30일 후나 고객이 지정한 만료 기간 후에 만료됩니다. 세그먼트를 다음에서 다시 푸시하여 새로 고침: [!DNL Optimizely] 만료 전에. 사용자 지정 세그먼트 만료를 요청하려면 Adobe 계정 팀에 문의하십시오.
 
 <!--
 Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]
