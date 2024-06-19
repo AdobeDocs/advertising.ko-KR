@@ -3,7 +3,7 @@ title: Advertising DSP의 대상자 관리 정보
 description: 대상자 관리 기능에 대해 알아봅니다.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: ac3ceaf0e1d9f1708896d17ab413d23f366c4b36
+source-git-commit: 31f20bcfb79265326f515218a02d8a4fa3efd586
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -70,7 +70,7 @@ DSP 사용자 인터페이스를 사용하거나 사용자 지정 가져오기 �
 
 * 가져온 모든 사용자 지정 타사 데이터 세그먼트.
 
-* (미국만 대상으로 하는 배치) [DSP 고객이 30개 이상의 공급자에서 사용할 수 있는 모든 타사 데이터 세그먼트](/help/dsp/audiences/third-party-data-providers.md), 포함 [!DNL Acxiom], [!DNL Datalogix], [!DNL eXelate] ([!DNL Nielsen]), [!DNL Lotame], [!DNL Oracle], [!DNL Quantcast]등.
+* (미국만 대상으로 하는 배치) [DSP 고객이 30개 이상의 공급자에서 사용할 수 있는 모든 타사 데이터 세그먼트](/help/dsp/audiences/third-party-data-providers.md), 포함 [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar]등.
 
   대상 데이터에 따라 사용자를 타겟팅하는 특정 세그먼트를 타겟팅할 수 있습니다(예: 특정 인구 통계, 관심사나 의도를 가진 사용자 및/또는 행동 프로필). 데이터 공급자와 범주별로 찾아보거나, 이름 또는 세그먼트 ID별로 세그먼트를 검색하거나, 데이터 공급자, 총 세그먼트 크기, 웹 브라우저 개수 또는 장치 개수별로 결과를 필터링할 수 있습니다.
 

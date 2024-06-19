@@ -3,9 +3,9 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -118,9 +118,9 @@ DSP은 광고를 실행하는 것이 안전하지 않은 것으로 간주되는 
 
 ### 주제 타기팅
 
-DSP 주제 타깃팅을 사용하면 업계 최고의 컨텍스트 기반 파트너를 활용하여 키워드 목록을 타깃팅하거나 차단할 수 있습니다 [!DNL Comscore] 및 [!DNL Oracle Data Cloud] ([!DNL Grapeshot]). 주제 타깃팅은 유해한 콘텐츠 차단 또는 더 큰 성과를 보장하는 컨텍스트에서 지출 보장이 포함되든 간에 브랜드에 맞는 환경에서 광고가 항상 제공되도록 하는 데 도움이 됩니다.
+DSP 주제 타깃팅을 사용하면 업계 최고의 컨텍스트 기반 파트너를 활용하여 키워드 목록을 타깃팅하거나 차단할 수 있습니다 [!DNL Comscore] 및 [!DNL Oracle Data Cloud] (이전 [!DNL Grapeshot]). 주제 타깃팅은 유해한 콘텐츠 차단 또는 더 큰 성과를 보장하는 컨텍스트에서 지출 보장이 포함되든 간에 브랜드에 맞는 환경에서 광고가 항상 제공되도록 하는 데 도움이 됩니다.
 
-주제 타깃팅을 사용하려면 사용자 정의 주제 세그먼트를 [!DNL Comscore] 또는 [!DNL Grapeshot] (사용 [!DNL Oracle Data Cloud]). 파트너 플랫폼에서 이러한 템플릿을 만들면 다음과 같은 작업을 수행할 수 있습니다 [에서 세그먼트 ID를 타깃팅하거나 제외합니다. [!UICONTROL Audience Targeting] 각 배치의 단면](/help/dsp/campaign-management/placements/placement-settings.md). 이 기능에 대한 추가 비용이 발생할 수 있습니다.
+주제 타깃팅을 사용하려면 파트너 플랫폼을 사용하여 직접 사용자 정의 주제 세그먼트를 만들어야 합니다. 세그먼트가 만들어지면 다음을 수행할 수 있습니다. [에서 세그먼트 ID를 타깃팅하거나 제외합니다. [!UICONTROL Audience Targeting] 각 배치의 단면](/help/dsp/campaign-management/placements/placement-settings.md). 이 기능에 대한 추가 비용이 발생할 수 있습니다.
 
 사용자 정의 주제 세그먼트를 만들려면 다음을 수행하십시오.
 

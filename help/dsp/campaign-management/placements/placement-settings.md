@@ -3,7 +3,7 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
 workflow-type: tm+mt
 source-wordcount: '3789'
 ht-degree: 0%
@@ -346,7 +346,7 @@ ht-degree: 0%
    * 간격을 수동으로 선택하려면 셀 내부를 클릭하고 선택적으로 드래그하여 간격을 선택합니다.
 1. 클릭 **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (선택 사항, (으)로 구성된 광고주가 사용 가능 [!DNL Comscore] 및 [!DNL Grapeshot] 세그먼트) 특정 세그먼트 이름 또는 ID 출처 [!DNL Comscore] 및 [!DNL Grapeshot] 을(를) 대상으로 포함합니다. 이 기능에 대한 추가 비용이 발생할 수 있습니다. 이 기능을 활성화하고 주제 세그먼트를 설정하려면 Adobe 계정 팀에 문의하십시오.
+**[!UICONTROL Topic Targeting]:** (선택 사항, (으)로 구성된 광고주가 사용 가능 [!DNL Proximic by Comscore] 및 [!DNL Grapeshot] 세그먼트) 특정 세그먼트 이름 또는 ID 출처 [!DNL Proximic by Comscore] 및 [!DNL Grapeshot] 을(를) 대상으로 포함합니다. 이 기능에 대한 추가 비용이 발생할 수 있습니다. 이 기능을 활성화하고 주제 세그먼트를 설정하려면 Adobe 계정 팀에 문의하십시오.
 
 주제 타깃팅을 지정하려면 다음을 수행합니다.
 
@@ -361,7 +361,7 @@ ht-degree: 0%
 >
 >* 주제 타깃팅은 배치가 입찰할 수 있는 인벤토리를 제한하므로 전체 구매에서 작은 비율에만 주제 타깃팅을 사용하십시오.
 >
->* 에 대한 세그먼트 내에서 부정적인 타깃팅을 설정합니다. [!DNL Comscore] 또는 [!DNL Grapeshot].
+>* 에 대한 세그먼트 내에서 부정적인 타깃팅을 설정합니다. [!DNL Proximic by Comscore] 또는 [!DNL Grapeshot].
 
 **[!UICONTROL Device Targeting]:** (선택 사항) 대상으로 포함 및 제외할 특정 장치 정보(장치 유형, 제조업체, 운영 체제, 브라우저 및 연결 유형 등)입니다. 장치 타깃팅을 지정하려면:
 
