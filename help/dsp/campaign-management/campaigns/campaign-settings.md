@@ -3,9 +3,9 @@ title: 캠페인 설정
 description: 사용 가능한 캠페인 설정에 대한 설명을 참조하십시오.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4aff26ef50d970b8440e2cf07b5f835d2b5a6599
+source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -130,9 +130,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Target Country]:** (선택 사항) 타깃팅할 국가입니다. [!DNL Comscore] 지원되는 국가에서만 제공되는 노출 횟수입니다.
 
-### [!UICONTROL Attention Measurement]
+### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]:** 배치 수준에 대한 추적을 활성화합니다. [!UICONTROL Attention Score] 다음 지표(노출 횟수에 대한 주의 단위의 가중 평균 수): [!DNL Adelaide]. 지표는 를 제외한 모든 배치 유형에 사용할 수 있습니다. [!DNL Roku] 연결된 TV, VPAID 전용 프리롤 및 팟캐스트가 아닌 오디오입니다. DSP은 연결된 모든 크리에이티브에 JavaScript 태그를 자동으로 첨부합니다. [!DNL Adelaide] 노출 데이터를 추적하여 매일 DSP으로 전송합니다. 날짜를 사용하여 더 나은 주의 점수로 배치 전략에 대한 지출을 수동으로 최적화할 수 있습니다.
+**[!UICONTROL Adelaide]:** 배치 수준에 대한 추적을 활성화합니다. [!UICONTROL Attention Score] 지표 (가중 평균 수 [!DNL Adelaide] &quot;[!DNL Attention Units]&quot;여러 노출 횟수). 지표는 를 제외한 모든 배치 유형에 사용할 수 있습니다. [!DNL Roku] 연결된 TV, VPAID 전용 프리롤 및 팟캐스트가 아닌 오디오입니다. DSP은 연결된 모든 크리에이티브에 JavaScript 태그를 자동으로 첨부합니다. [!DNL Adelaide] 노출 데이터를 추적하여 매일 DSP으로 전송합니다. 날짜를 사용하여 더 나은 주의 점수로 배치 전략에 대한 지출을 수동으로 최적화할 수 있습니다.
 
 다음 [!UICONTROL Attention Score] 필드는 다음에서 사용할 수 있습니다. [!UICONTROL Metrics] 보고서의 섹션, 다음 항목 내 [!UICONTROL Campaigns], [!UICONTROL Packages], 및 [!UICONTROL Placements] 및 [!UICONTROL Sites], [!UICONTROL Ads], 및 [!UICONTROL Inventory] 탭 [배치 세부 사항 보기](/help/dsp/campaign-management/reports/placement-details-view.md).
 

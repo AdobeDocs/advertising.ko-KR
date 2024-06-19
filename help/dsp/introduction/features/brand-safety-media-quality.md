@@ -3,9 +3,9 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
+source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,16 @@ DSP은 광고를 실행하는 것이 안전하지 않은 것으로 간주되는 
 각 광고주에 대해 기본 조회 필터를 설정할 수 있습니다<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, 필요한 경우 [각 배치에 대한 설정 사용자정의](/help/dsp/campaign-management/placements/placement-settings.md). 이 기능을 사용하면 추가 비용이 발생할 수 있습니다.
 
 ![DoubleVery 로고](/help/dsp/assets/doubleverify-logo.png) ![Oracle 광고 로고](/help/dsp/assets/oracle-advertising-logo.png) ![필수 광고 과학 로고](/help/dsp/assets/ias-logo.png)
+
+### 주의 타기팅 및 측정
+
+[!DNL Adobe's] 과의 파트너십 [!DNL Adelaide] 광고주에게 애들레이드 지표 &quot;에 대한 지원을 제공합니다.[!DNL Attention Units],&quot; - 눈 추적, 노출 및 결과 데이터를 기반으로 미디어 품질을 측정합니다.
+
+[배치 수준 사전 입찰 주의 타깃팅](/help/dsp/campaign-management/placements/placement-settings.md) 광고주가 고객 참여를 향상시키기 위해 특정 주의 수준을 타깃팅할 수 있습니다.
+
+또한 광고주는 [배치 수준 추적 [!UICONTROL Attention Score] 지표](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (가중 평균 숫자 [!DNL Attention Units] 를 참조하십시오.) 어떤 배치 전략이 최상의 비즈니스 결과를 창출하는지 파악하는 캠페인입니다.
+
+각 기능에 대해 추가 비용이 적용됩니다.
 
 ### 주제 타기팅
 
