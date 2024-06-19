@@ -3,9 +3,9 @@ title: 캠페인 설정
 description: 사용 가능한 캠페인 설정에 대한 설명을 참조하십시오.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 4aff26ef50d970b8440e2cf07b5f835d2b5a6599
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -122,21 +122,27 @@ ht-degree: 0%
 
 #### 대상 확인
 
-**[!UICONTROL Nielsen]:** (선택 사항) [!DNL Nielsen] 지정된 설정을 사용하여 대상 확인의 측정 및 보고. 추가 요금이 부과됩니다.
-
-* **[!UICONTROL Target Gender]:** 대상 성별: *[!UICONTROL Both]* (기본값), *[!UICONTROL Male]*, 또는 *[!UICONTROL Female]*
-
-* **[!UICONTROL Target Age]:** 타겟팅할 나이 범위입니다. 필요에 따라 왼쪽 및 오른쪽 슬라이더를 사용하여 범위를 줄이십시오.
-
-* **[!UICONTROL Target Country]:** (선택 사항) 타깃팅할 국가입니다. [!DNL Nielsen] 지원되는 국가에서만 제공되는 노출 횟수입니다.
-
-**[!UICONTROL comScore vCE]:** (선택 사항) [!DNL Comscore validated Campaign Essentials (vCE)] 지정된 설정을 사용하여 대상 확인의 측정 및 보고. 추가 요금이 부과됩니다.
+**[!UICONTROL comScore Campaign Ratings]:** (선택 사항) [!DNL Comscore] 확인됨 [!DNL Campaign Ratings] 지정된 설정을 사용하여 대상 확인의 측정 및 보고. 추가 요금이 부과됩니다.
 
 * **[!UICONTROL Target Gender]:** 대상 성별: *[!UICONTROL Both]* (기본값), *[!UICONTROL Male]*, 또는 *[!UICONTROL Female]*
 
 * **[!UICONTROL Target Age]:** 타겟팅할 나이 범위입니다. 필요에 따라 왼쪽 및 오른쪽 슬라이더를 사용하여 범위를 줄이십시오.
 
 * **[!UICONTROL Target Country]:** (선택 사항) 타깃팅할 국가입니다. [!DNL Comscore] 지원되는 국가에서만 제공되는 노출 횟수입니다.
+
+### [!UICONTROL Attention Measurement]
+
+**[!UICONTROL Adelaide]:** 배치 수준에 대한 추적을 활성화합니다. [!UICONTROL Attention Score] 다음 지표(노출 횟수에 대한 주의 단위의 가중 평균 수): [!DNL Adelaide]. 지표는 를 제외한 모든 배치 유형에 사용할 수 있습니다. [!DNL Roku] 연결된 TV, VPAID 전용 프리롤 및 팟캐스트가 아닌 오디오입니다. DSP은 연결된 모든 크리에이티브에 JavaScript 태그를 자동으로 첨부합니다. [!DNL Adelaide] 노출 데이터를 추적하여 매일 DSP으로 전송합니다. 날짜를 사용하여 더 나은 주의 점수로 배치 전략에 대한 지출을 수동으로 최적화할 수 있습니다.
+
+다음 [!UICONTROL Attention Score] 필드는 다음에서 사용할 수 있습니다. [!UICONTROL Metrics] 보고서의 섹션, 다음 항목 내 [!UICONTROL Campaigns], [!UICONTROL Packages], 및 [!UICONTROL Placements] 및 [!UICONTROL Sites], [!UICONTROL Ads], 및 [!UICONTROL Inventory] 탭 [배치 세부 사항 보기](/help/dsp/campaign-management/reports/placement-details-view.md).
+
+사용 [!DNL Adelaide] 측정을 위한 세그먼트는 를 사용하여 광고에서 게재되는 각 노출에 대해 CPM 요금을 발생시킵니다. [!DNL Adelaide] 측정 태그. 이 요금은 다음에 대한 수수료와 별개입니다 [배치 수준 주의 대상](/help/dsp/campaign-management/placements/placement-settings.md).
+
+<!--
+Example JavaScript tag:
+
+`<script src="https://www.example.com/aam?asid=0123456789&ad=${TM_AD_ID_NUM}&adv=${TM_ADVERTISER_ID}&ca=${TM_CAMPAIGN_ID_NUM}&df=${NS_PLATFORM_ID}&dt=${NS_DEVICE_GROUPING}&pl=${TM_PLACEMENT_ID_NUM}&ra=${TM_RANDOM}&st=${TM_SITE_URL_URLENC}"></script>`
+-->
 
 ### [!UICONTROL 1st Party Metrics]
 
