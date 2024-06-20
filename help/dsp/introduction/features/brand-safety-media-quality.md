@@ -3,9 +3,9 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
+source-git-commit: e8cb734e313b6aecfb75dfcbf70347efe83254a5
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ DSP은 광고를 실행하는 것이 안전하지 않은 것으로 간주되는 
 
 ### 사전 입찰 사기 차단
 
-과 타사 통합 활용 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], 및 [!DNL Peer39] 를 사용하여 캠페인에서 사람이 아닌 트래픽을 차단할 수 있습니다. 이러한 통합은 캠페인에서 일반적이고 정교한 잘못된 트래픽(GIVT 및 SIVT)을 모두 최소화하는 업계 최고의 사전 입찰 차단 기능을 제공합니다.
+과 타사 통합 활용 [!DNL DoubleVerify], [!DNL Integral Ad Science], 및 [!DNL Peer39] 를 사용하여 캠페인에서 사람이 아닌 트래픽을 차단할 수 있습니다. 이러한 통합은 캠페인에서 일반적이고 정교한 잘못된 트래픽(GIVT 및 SIVT)을 모두 최소화하는 업계 최고의 사전 입찰 차단 기능을 제공합니다.
 
 각 광고주에 대해 기본 사전 입찰 사기 방지 컨트롤을 설정할 수 있습니다<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->, 필요한 경우 [각 배치에 대한 설정 사용자정의](/help/dsp/campaign-management/placements/placement-settings.md). 이 기능을 사용하면 추가 비용이 발생할 수 있습니다.
 
 기능에 대한 자세한 내용은 원하는 공급업체에 직접 문의하거나 Adobe 계정 팀에 문의하십시오.
 
-![Comscore 로고](/help/dsp/assets/comscore-logo.png) ![DoubleVery 로고](/help/dsp/assets/doubleverify-logo.png) ![필수 광고 과학 로고](/help/dsp/assets/ias-logo.png) ![Peer39 로고](/help/dsp/assets/peer39-logo.png)
+![DoubleVery 로고](/help/dsp/assets/doubleverify-logo.png) ![필수 광고 과학 로고](/help/dsp/assets/ias-logo.png) ![Peer39 로고](/help/dsp/assets/peer39-logo.png)
 
 ### 사전 입찰 가시성 {#pre-bid-viewability}
 

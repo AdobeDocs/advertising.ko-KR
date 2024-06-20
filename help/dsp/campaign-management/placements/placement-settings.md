@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
+source-git-commit: e2eca3b77882716c15fc3cde331d211efcd3fb8a
 workflow-type: tm+mt
-source-wordcount: '3789'
+source-wordcount: '3858'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ ht-degree: 0%
 
 **[!UICONTROL Traffic type]:** 타깃팅할 트래픽 유형. 옵션은 다음과 같습니다 **[!UICONTROL Websites]** 및 **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]:** (사용 가능한 경우 **[!UICONTROL Paste list of targeted sites]** 은(는) *[!UICONTROL Off]*) 타겟팅할 사이트의 품질입니다. 계층 1-3은 모두 브랜드에 적합하며 DSP 매핑 팀의 검사 및 승인을 받았습니다.
+**[!UICONTROL Site tier]:** (사용 가능한 경우 **[!UICONTROL Paste list of targeted sites]** 은(는) *[!UICONTROL Off]*) 타겟팅할 사이트의 품질입니다. 계층 1-3은 모두 브랜드에 적합하며 DSP 매핑 팀에서 승인했습니다.
 
 * *[!UICONTROL Tier 1]:* 전국적으로 인식할 수 있는 프리미엄 사이트 및 애플리케이션.
 
@@ -346,7 +346,7 @@ ht-degree: 0%
    * 간격을 수동으로 선택하려면 셀 내부를 클릭하고 선택적으로 드래그하여 간격을 선택합니다.
 1. 클릭 **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (선택 사항, (으)로 구성된 광고주가 사용 가능 [!DNL Proximic by Comscore] 및 [!DNL Grapeshot] 세그먼트) 특정 세그먼트 이름 또는 ID 출처 [!DNL Proximic by Comscore] 및 [!DNL Grapeshot] 을(를) 대상으로 포함합니다. 이 기능에 대한 추가 비용이 발생할 수 있습니다. 이 기능을 활성화하고 주제 세그먼트를 설정하려면 Adobe 계정 팀에 문의하십시오.
+**[!UICONTROL Topic Targeting]:** (선택 사항, (으)로 구성된 광고주가 사용 가능 [!DNL Proximic by Comscore] 및 [!DNL Oracle Data Cloud] 세그먼트) 특정 세그먼트 이름 또는 ID 출처 [!DNL Proximic by Comscore] 및 [!DNL Oracle Data Cloud] (이전 [!DNL Grapeshot])을 타겟 로 포함할 수 있습니다. 이 기능에 대한 추가 비용이 발생할 수 있습니다. 이 기능을 활성화하고 주제 세그먼트를 설정하려면 Adobe 계정 팀에 문의하십시오.
 
 주제 타깃팅을 지정하려면 다음을 수행합니다.
 
@@ -361,7 +361,7 @@ ht-degree: 0%
 >
 >* 주제 타깃팅은 배치가 입찰할 수 있는 인벤토리를 제한하므로 전체 구매에서 작은 비율에만 주제 타깃팅을 사용하십시오.
 >
->* 에 대한 세그먼트 내에서 부정적인 타깃팅을 설정합니다. [!DNL Proximic by Comscore] 또는 [!DNL Grapeshot].
+>* 에 대한 세그먼트 내에서 부정적인 타깃팅을 설정합니다. [!DNL Proximic by Comscore] 또는 [!DNL Oracle Data Cloud] (이전 [!DNL Grapeshot]).
 
 **[!UICONTROL Device Targeting]:** (선택 사항) 대상으로 포함 및 제외할 특정 장치 정보(장치 유형, 제조업체, 운영 체제, 브라우저 및 연결 유형 등)입니다. 장치 타깃팅을 지정하려면:
 
@@ -435,6 +435,8 @@ ht-degree: 0%
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: 도메인의 승인된 직접 판매자 및 리셀러의 인벤토리 구매에 우선 순위를 두십시오.
 * *[!UICONTROL Ads.txt sellers only]*: 도메인의 승인된 직접 판매자 및 리셀러에서만 인벤토리를 구매합니다.
 * *[!UICONTROL Ads.txt sellers only]*: 도메인의 승인된 직접 판매자로부터만 인벤토리를 구매합니다.
+
+**[!UICONTROL Attention Targeting]:** (디스플레이, 비디오, 모바일 및 표준 연결 TV 배치) 타겟 [!DNL Adelaide] 지정된 사이트, 형식 및 광고 크기를 기반으로 특정 주의 수준(높음, 중간 또는 낮음)을 갖는 사전 입찰 세그먼트. 세그먼트는 매주 업데이트됩니다. **참고:** 사용 [!DNL Adelaide] 타깃팅용 세그먼트는 에 전달된 각 노출에 대해 CPM 요금을 발생시킵니다. [!DNL Adelaide] 주의 대상: 이 요금은 다음에 대한 수수료와 별개입니다. [주의 측정](/help/dsp/campaign-management/campaigns/campaign-settings.md). 대화형 프리롤 배치의 경우 VAST 노출에 대해서만 요금이 부과됩니다.
 
 **[!UICONTROL DoubleVerify Authentic Brand Safety]:** (다음으로 구성된 광고주) [!UICONTROL DoubleVerify Authentic Brand Safety] option) 활성화 [!DNL DoubleVerify Authentic Brand Safety]: 지정된 세그먼트 ID에 대해 구성된 사용자 지정 브랜드 안전 규칙을 사용하여 입찰 후 노출을 차단합니다. DSP은 광고주 설정에 지정된 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
 
