@@ -3,7 +3,7 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: e2eca3b77882716c15fc3cde331d211efcd3fb8a
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '3858'
 ht-degree: 0%
@@ -444,7 +444,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->([!DNL Roku] 배치) 이(가) 승인한 서드파티 추적 공급업체 [!DNL Roku] include [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], 및 [!DNL Research Now].
+>([!DNL Roku] 배치) 이(가) 승인한 서드파티 추적 공급업체 [!DNL Roku] include [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], 및 [!DNL Research Now].
 
 **[!UICONTROL Event Pixels]:** (선택 사항) 배치의 모든 새 광고에 기본적으로 첨부할 서드파티 이벤트 추적 픽셀. 이벤트 픽셀을 지정하려면:
 

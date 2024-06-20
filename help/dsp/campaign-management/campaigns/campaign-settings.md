@@ -3,7 +3,7 @@ title: 캠페인 설정
 description: 사용 가능한 캠페인 설정에 대한 설명을 참조하십시오.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 #### 대상 확인
 
-**[!UICONTROL comScore Campaign Ratings]:** (선택 사항) [!DNL Comscore] 확인됨 [!DNL Campaign Ratings] 지정된 설정을 사용하여 대상 확인의 측정 및 보고. 추가 요금이 부과됩니다.
+**[!UICONTROL Comscore Campaign Ratings]:** (선택 사항) [!DNL Comscore] 확인됨 [!DNL Campaign Ratings] 지정된 설정을 사용하여 대상 확인의 측정 및 보고. 추가 요금이 부과됩니다.
 
 * **[!UICONTROL Target Gender]:** 대상 성별: *[!UICONTROL Both]* (기본값), *[!UICONTROL Male]*, 또는 *[!UICONTROL Female]*
 

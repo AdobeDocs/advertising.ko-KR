@@ -3,7 +3,7 @@ title: 사용 [!DNL Roku] 인벤토리
 description: 과의 DSP 파트너십에 대해 알아보기 [!DNL Roku], 인벤토리 옵션, 승인된 타사 추적 공급업체 및 모범 사례 포함 [!DNL Roku]-특정 배치.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -57,7 +57,7 @@ DSP 캠페인에서, [만들기 [!DNL Roku]관련 배치](/help/dsp/campaign-man
 
 ### [!DNL Roku]-승인된 서드파티 추적 공급업체
 
-[!DNL Roku] 배치에는 다음 공급업체의 서드파티 이벤트 픽셀 및 전환 픽셀이 포함될 수 있습니다.  [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], 및 [!DNL Research Now].
+[!DNL Roku] 배치에는 다음 공급업체의 서드파티 이벤트 픽셀 및 전환 픽셀이 포함될 수 있습니다.  [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], 및 [!DNL Research Now].
 
 ### 배치 전략별 우수 사례
 
