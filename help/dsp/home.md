@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 644758257529c83fb2a7d9b31194e481ead501aa
+source-git-commit: 8c3ad4adb9edc2c3e21972ef18734317c3571458
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3283'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024년 6월 20일 |  | Oracle은 2024년 9월 30일까지 광고 사업을 종료할 예정입니다. 이 경우 의 모든 서비스가 비활성화됩니다. [!DNL BlueKai], [!DNL Oracle Data Cloud] (이전 [!DNL Grapeshot]), 및 [!DNL MOAT]. 다음 대체 요소를 이미 사용할 수 있습니다.<ul><li>표준 타사 및 사용자 지정 세그먼트: [!DNL eXelate], [!DNL Eyeota], [!DNL LiveRamp], [!DNL Lotame], [!DNL Neustar]및 기타 사용 가능한 타사 데이터 파트너</li><li>를 사용한 캠페인 수준 브랜드 안전성 및 조회 측정 [!DNL Integral Ad Science]</li><li>를 통한 배치 수준 사전 입찰 가시성 [!DNL DoubleVerify] 및 [!DNL Integral Ad Science]</li><li>배치 수준 주제 타깃팅 기준 [!DNL Proximic by Comscore]</li></ul>서드파티 세그먼트에 대한 CPM 요금은 [!UICONTROL Audience Library], 그리고 서비스에 대한 CPM 요금은 다음에서 사용할 수 있습니다. [!UICONTROL Settings] > [!UICONTROL Fees]. | 를 참조하십시오.[사용 가능한 타사 데이터 공급자](/help/dsp/audiences/third-party-data-providers.md),&quot; &quot;[브랜드 안전 및 미디어 품질](/help/dsp/introduction/features/brand-safety-media-quality.md),&quot; &quot;[캠페인 설정](/help/dsp/campaign-management/campaigns/campaign-settings.md)및 &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2024년 6월 19일 | [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] | 다음에서 [!UICONTROL Campaigns], [!UICONTROL Packages], 및 [!UICONTROL Placements] 보기 수:<ul><li>이제 트렌드 차트에 다음 선택적 지표를 포함할 수 있습니다.</li><ul><li>**일 간격 지정:** 시간 경과에 따른 &quot;어제의 게재 간격&quot; 지표의 추세를 보여줍니다.</li><li>**앞뒤로 질주하는 비행:** 시간 경과에 따른 누적 게재 간격(경과 시간 기준)의 추세를 보여줍니다.</li></ul>![새로운 게재 간격 지표](/help/dsp/assets/trend-chart-pacing-metrics.png "새로운 게재 간격 지표")<li>데이터 표에는 선택적으로 새 게재 간격 관련 지표 열이 포함될 수 있습니다.</li><ul><li>**어제의 필수 지출:** 어제 비행기의 나머지 부분을 통해 남은 예산의 균일한 분배에 지출되었어야 할 금액.</li><li>**어제의 게재 간격:** 어제의 소비는 어제의 필수 소비의 백분율입니다. 이제 더 이상 사용되지 않는 &quot;오늘의 OTS&quot;의 향상된 버전입니다. 오늘날의 게재 간격이 일관되게 100% 미만인 경우 패키지 또는 배치는 예산 전달에 어려움을 겪고 있습니다.</li><li>**오늘날 필요한 지출:** 비행기의 나머지 부분을 통해 남은 예산의 균일 배분을 위해 오늘 지출되어야 할 금액.</li><li>**오늘의 게재 간격:** 오늘 소비는 오늘 필요한 소비의 백분율이며 값은 30분마다 업데이트됩니다. 이제 더 이상 사용되지 않는 &quot;어제의 OTS&quot;의 향상된 버전입니다. 어제의 게재 간격이 일관되게 100% 미만인 경우 패키지 또는 배치는 예산 전달에 어려움을 겪고 있습니다.</li></ul><li>데이터 테이블에서 &quot;어제의 목표&quot; 및 &quot;오늘의 목표&quot; 열의 이름이 &quot;어제의 타겟 지출&quot; 및 &quot;오늘의 타겟 지출&quot;로 바뀝니다.</li></ul> | 를 참조하십시오.[사용자 정의 열 보기 만들기](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)&quot; 및 &quot;[사용자 정의 열 보기 편집](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).&quot; |
 | 2024년 6월 10일 | [!UICONTROL Audiences] | (Beta 기능) 이제 [!DNL Amperity] 및 [!DNL Optimizely] 고객 데이터 플랫폼을 로 구성된 세그먼트에 연결[!DNL LiveRamp] [!DNL RampIDs]] 또는 [!DNL Unified ID 2.0 (UID2.0)] ID 대상 타깃팅에 대한 배치 설정 내에서 공유 세그먼트는 자사 세그먼트 목록에서 사용할 수 있습니다. | 를 참조하십시오.[다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로](/help/dsp/audiences/sources/source-amperity.md),&quot; &quot;[다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로](/help/dsp/audiences/sources/source-optimizely.md)및 &quot;[범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md).&quot; |
 |  |  | 쿠키 없는 타깃팅을 위한 사용자 기반의 범용 ID에 대한 DSP 베타 기능에 대한 설명서를 사용할 수 있습니다. | 를 참조하십시오.[범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md).&quot; |
