@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: a4b0cf95aeedd4dc0c98a23ff0ecbcaad10bd762
+source-git-commit: 1e90b1d4ddcc8fd7b1febc1214fce71daf140a26
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3305'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024년 6월 24일 | 공인 광고 서비스 파트너 | 새로운 HD 디스플레이 광고 유닛은에서 사용할 수 있습니다. [!DNL GumGum] | 를 참조하십시오.[인증 광고 서비스 제공 파트너](/help/dsp/campaign-management/ads/certified-ad-servers.md).&quot; |
+| 2024년 6월 24일 | 공인 광고 서비스 파트너 | 다음에서 제공하는 영향력이 큰 디스플레이 광고 단위에 대한 지원을 사용할 수 있습니다. [!DNL GumGum]. | 를 참조하십시오.[인증 광고 서비스 제공 파트너](/help/dsp/campaign-management/ads/certified-ad-servers.md).&quot; |
 | 2024년 6월 19일 | [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] | 다음에서 [!UICONTROL Campaigns], [!UICONTROL Packages], 및 [!UICONTROL Placements] 보기 수:<ul><li>이제 트렌드 차트에 다음 선택적 지표를 포함할 수 있습니다.</li><ul><li>**일 간격 지정:** 시간 경과에 따른 &quot;어제의 게재 간격&quot; 지표의 추세를 보여줍니다.</li><li>**앞뒤로 질주하는 비행:** 시간 경과에 따른 누적 게재 간격(경과 시간 기준)의 추세를 보여줍니다.</li></ul>![새로운 게재 간격 지표](/help/dsp/assets/trend-chart-pacing-metrics.png "새로운 게재 간격 지표")<li>데이터 표에는 선택적으로 새 게재 간격 관련 지표 열이 포함될 수 있습니다.</li><ul><li>**어제의 필수 지출:** 어제 비행기의 나머지 부분을 통해 남은 예산의 균일한 분배에 지출되었어야 할 금액.</li><li>**어제의 게재 간격:** 어제의 소비는 어제의 필수 소비의 백분율입니다. 이제 더 이상 사용되지 않는 &quot;오늘의 OTS&quot;의 향상된 버전입니다. 오늘날의 게재 간격이 일관되게 100% 미만인 경우 패키지 또는 배치는 예산 전달에 어려움을 겪고 있습니다.</li><li>**오늘날 필요한 지출:** 비행기의 나머지 부분을 통해 남은 예산의 균일 배분을 위해 오늘 지출되어야 할 금액.</li><li>**오늘의 게재 간격:** 오늘 소비는 오늘 필요한 소비의 백분율이며 값은 30분마다 업데이트됩니다. 이제 더 이상 사용되지 않는 &quot;어제의 OTS&quot;의 향상된 버전입니다. 어제의 게재 간격이 일관되게 100% 미만인 경우 패키지 또는 배치는 예산 전달에 어려움을 겪고 있습니다.</li></ul><li>데이터 테이블에서 &quot;어제의 목표&quot; 및 &quot;오늘의 목표&quot; 열의 이름이 &quot;어제의 타겟 지출&quot; 및 &quot;오늘의 타겟 지출&quot;로 바뀝니다.</li></ul> | 를 참조하십시오.[사용자 정의 열 보기 만들기](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)&quot; 및 &quot;[사용자 정의 열 보기 편집](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).&quot; |
 | 2024년 6월 10일 | [!UICONTROL Audiences] | (Beta 기능) 이제 [!DNL Amperity] 및 [!DNL Optimizely] 고객 데이터 플랫폼을 로 구성된 세그먼트에 연결[!DNL LiveRamp] [!DNL RampIDs]] 또는 [!DNL Unified ID 2.0 (UID2.0)] ID 대상 타깃팅에 대한 배치 설정 내에서 공유 세그먼트는 자사 세그먼트 목록에서 사용할 수 있습니다. | 를 참조하십시오.[다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로](/help/dsp/audiences/sources/source-amperity.md),&quot; &quot;[다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로](/help/dsp/audiences/sources/source-optimizely.md)및 &quot;[범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md).&quot; |
 |  |  | 쿠키 없는 타깃팅을 위한 사용자 기반의 범용 ID에 대한 DSP 베타 기능에 대한 설명서를 사용할 수 있습니다. | 를 참조하십시오.[범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md).&quot; |
