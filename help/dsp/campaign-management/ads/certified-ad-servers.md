@@ -3,7 +3,7 @@ title: 인증 광고 서비스 제공 파트너
 description: 인증된 모든 광고 서버 및 광고 단위를 확인합니다.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 1c9c7ff2340d4abf4c64f015172b5e0a33b3e1fe
+source-git-commit: 8ae5e4fc84ace4dc4e8b637545e95f5e0cff912c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
