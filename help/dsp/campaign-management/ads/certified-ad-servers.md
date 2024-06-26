@@ -3,9 +3,9 @@ title: 인증 광고 서비스 제공 파트너
 description: 인증된 모든 광고 서버 및 광고 단위를 확인합니다.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 8dc79126a63f2c20f8fdaa666c0197ec6583b78e
+source-git-commit: 1c9c7ff2340d4abf4c64f015172b5e0a33b3e1fe
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL Gum Gum] | | | X | | |
+| [!DNL GumGum] | | | X | | 슬롯 내 Hangtime: 21x21, 슬롯 내 Hangtime 모바일 비디오: 22x22, 슬롯 내 Hangtime 데스크탑: 24x24, 슬롯 내 Hoverboard: 25x25, 슬롯 내 속도: 26x26, Super Skin: 29x29, 화면 내 확장 가능 모서리: 20x20 |
 | [!DNL HUMAN] (이전 [!DNL White Ops]) | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |
