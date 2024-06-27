@@ -1,11 +1,11 @@
 ---
 title: 구현 [!DNL Google Ads] 쇼핑 캠페인
 description: 설정 워크플로에 대해 알아보기 [!DNL Google Ads] 쇼핑 캠페인.
-exl-id: aab61d94-861f-4072-b044-f9ae6759e028
+exl-id: d80370d9-534d-4854-b7d3-1384a84320ad
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 3c702a01df1186e74c4f329a08199ce829be0827
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 1. 설정 [!DNL Google Merchant Center] 계정을 만들고 제품 데이터로 채웁니다.
 
-1. [검색, 소셜 및 상거래에서 데이터를 다운로드하도록 허용 [!DNL Google Merchant Center] account](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. [검색, 소셜 및 Commerce에서 [!DNL Google Merchant Center] account](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 1. [캠페인 만들기](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) 쇼핑 네트워크에서.
 
 1. [광고 그룹 만들기](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) 캠페인 내에서 모든 광고에 대한 기본 입찰을 설정합니다.
 
-개별 제품 그룹에 대한 기본 입찰을 재정의할 수 있습니다.
+   개별 제품 그룹에 대한 기본 입찰을 재정의할 수 있습니다.
 
 1. 광고 그룹에 대한 제품 그룹 만들기:
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    1. [캠페인 설정 편집](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) 캠페인 예산을 조정합니다.
 
-      캠페인이 포트폴리오의 일부인 경우 포트폴리오 설정 &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;검색, 소셜 및 상거래를 통해 포트폴리오의 모든 캠페인에 대한 예산을 최적화할 수 있습니다.
+      캠페인이 포트폴리오의 일부인 경우 포트폴리오 설정 &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;검색, 소셜 및 Commerce을 통해 포트폴리오의 모든 캠페인에 대한 예산을 최적화할 수 있습니다.
 
    1. [기존 제품 그룹에 대한 최대 입찰 조정](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [제품 그룹 삭제](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) 더 이상 광고를 만들거나 [새 &quot;모든 제품&quot; 제품 그룹](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)) 또는 [새 하위 제품 그룹](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) 추가 제품에 대한 광고를 만들 수 있습니다.
 

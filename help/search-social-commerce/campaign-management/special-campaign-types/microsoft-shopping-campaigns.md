@@ -3,7 +3,7 @@ title: 구현 [!DNL Microsoft Advertising] 쇼핑 캠페인
 description: 설정 워크플로에 대해 알아보기 [!DNL Microsoft Advertising] 쇼핑 캠페인.
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d5d4dee4356d941ea9cae74b9385add00e0480c3
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. [광고 그룹 만들기](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) 캠페인 내에서 모든 광고에 대한 기본 입찰을 설정합니다.
 
-개별 제품 그룹에 대한 기본 입찰을 재정의할 수 있습니다.
+   개별 제품 그룹에 대한 기본 입찰을 재정의할 수 있습니다.
 
 1. 광고 그룹에 대한 제품 그룹 만들기:
 
