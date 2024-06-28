@@ -3,9 +3,9 @@ title: Adobe Audience Manager에 DSP Media 노출 데이터 전송 개요
 description: Audience Manager 이벤트 픽셀을 사용하여 Advertising DSP 캠페인에서 노출 수준 및 클릭 수준 데이터를 캡처하는 방법을 알아봅니다
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: aec57b49e636d63fc6967af8764ed62f239f31bb
+source-git-commit: c204955ec48826d00a5f78e5be4849f53d09e224
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ DSP에서는 이러한 신호를 Audience Manager으로 전송하도록 요구�
 
 ## 데이터 추적 방법
 
-Audience Manager 노출 및 클릭 이벤트 픽셀은 쿠키를 기반으로 합니다. 픽셀은 모바일 앱과 같이 쿠키가 없는 환경에서 발생하는 이벤트를 캡처하지 않습니다.<!-- Verify if this is still correct. -->
+Audience Manager 노출 및 클릭 이벤트 픽셀은 쿠키를 기반으로 합니다. 픽셀은 모바일 앱 및 연결된 TV(CTV)와 같이 쿠키가 없는 환경에서 발생하는 이벤트를 캡처하지 않습니다.<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
 
 ### 노출 추적 픽셀
 
