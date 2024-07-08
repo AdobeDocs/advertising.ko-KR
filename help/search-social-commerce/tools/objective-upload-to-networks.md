@@ -1,40 +1,40 @@
 ---
-title: 광고 네트워크에 목표 업로드 사용 설정
-description: 하이브리드 포트폴리오 [!DNL Google Ads] 에 대한 목표를 and에 [!DNL Microsoft Advertising] 업로드 하는 방법을 알아보십시오.
+title: 광고 네트워크에 목표 업로드 활성화
+description: 하이브리드 포트폴리오에 대한 목표를 업로드하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 803f1ad2ad5be005b7dab467efbeb1c4ceaa7559
+source-git-commit: d703b0d0134dbd16b2672b13d2ea63e4f102e105
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 광고 네트워크에 목표 업로드 사용 설정
+# 광고 네트워크에 목표 업로드 활성화
 
-*및 [!DNL Microsoft Advertising] 계정이 있는 [!DNL Google Ads] 광고주 전용*
+*를 사용하는 광고주 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정만*
 
-*하이브리드 최적화만 사용할 수 있는 광고주*
+*하이브리드 최적화에만 활성화된 광고주*
 
-Search, Social 및 상거래는 광고주 계정 포트폴리오 [!DNL Google Ads] [!DNL Microsoft Advertising] 에 대한 목표를 업로드할 수 있으므로 하이브리드 최적화에 사용할 수 있습니다. 업로드된 목표는 계정 수준 및 캠페인 수준의 맞춤 전환 목표에 대한 전환 작업으로 사용할 수 있습니다.
+Search, Social 및 Commerce은 광고주 계정의 포트폴리오에 대한 목표를 업로드할 수 있습니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 따라서 하이브리드 최적화에 사용할 수 있습니다. 업로드한 목표는 계정 수준 및 캠페인 수준의 사용자 정의 전환 목표에 대한 전환 작업으로 사용할 수 있습니다.
 
-이 옵션을 사용 설정하면 스마트 자동 입찰 전략이 있는 캠페인이 포함된 포트폴리오의 목표에 대한 업로드 작업이 자동으로 트리거됩니다. Search, Social 및 Commerce는 적용 가능한 각 목표에 대해 광고 네트워크 상에서 전환을 생성합니다. 전환은 목표의 모든 가중치가 적용된 전환 지표를 나타냅니다. 각 전환 이름에는 다음 이름 중 하나가 있습니다.
+이 옵션을 활성화하면 스마트 입찰 전략이 포함된 캠페인이 포함된 포트폴리오에서 목표에 대한 업로드가 자동으로 트리거됩니다. Search, Social 및 Commerce은 적용 가능한 각 목표에 대해 광고 네트워크에서 전환을 만듭니다. 전환은 EF ID(클릭 ID) 수준에서 목표의 모든 가중 전환 지표를 나타냅니다. 각 전환에는 다음 이름 중 하나가 있습니다.
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
-  여기서 `<network_ID>` 은 Search, Social 및 상거래에서 광고 네트워크에 사용하는 숫자 ID이고, `<objective_id>` 는 숫자 목표 ID이고, `<network_account_ID>` 는 광고 네트워크 계정 또는 관리자 계정의 숫자 ID입니다.
+  위치 `<network_ID>` 는 Search, Social 및 Commerce이 광고 네트워크에 사용하는 숫자 ID입니다. `<objective_id>` 는 숫자 목표 ID이고, `<network_account_ID>` 광고 네트워크 계정 또는 관리자 계정의 숫자 ID입니다.
 
-* (향후 더 이상 사용되지 않는 이전 포맷) `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`
+* (나중에 더 이상 사용되지 않는 이전 형식) `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`
 
-  여기서 `<portfolio_id>` 은 숫자 포트폴리오 ID이고 `<se_acctid/conversion_manager_se_acctid>` 은 광고 네트워크 계정 또는 관리자 계정의 숫자 ID입니다.
+  위치 `<portfolio_id>` 는 숫자 포트폴리오 ID이고 `<se_acctid/conversion_manager_se_acctid>` 광고 네트워크 계정 또는 관리자 계정의 숫자 ID입니다.
 
-  Adobe Systems 계정 팀은 사용자와 협력하여 이전 포맷이 더 이상 사용되지 않기 전에 광고 네트워크 내에서 기존 전환 작업 이름을 마이그레이션합니다. 마이그레이션 기간 동안 이전 포맷 업로드와 새  업로드가 모두 동시에 실행됩니다. 모델링 및 최적화는 새로운 전환 작업이 처음에 &#39;보조&#39;(최적화되지 않음) 상태와 90일간의 채우기 데이터로 표시되기 때문에 영향을 받지 않습니다.
+  Adobe 계정 팀은 이전 형식이 더 이상 사용되지 않기 전에 광고 네트워크 내에서 기존 전환 작업 이름을 마이그레이션하도록 사용자와 협력합니다. 마이그레이션 기간 동안 이전 형식과 새 형식 업로드가 모두 동시에 실행됩니다. 새 전환 작업이 처음에 &quot;보조&quot;(최적화되지 않음) 상태와 90일의 데이터 채우기로 표시되므로 모델링 및 최적화는 영향을 받지 않습니다.
 
-업로드는 [!DNL Google Ads] 광고주 표준 시간대로 매일 06:00에 발생합니다. 업로드는 [!DNL Microsoft Advertising] 광고주 표준 시간대로 매일 09:00에 발생합니다.
+에 업로드 [!DNL Google Ads] 광고주의 시간대에서 매일 06:00에 발생합니다. 에 업로드 [!DNL Microsoft Advertising] 광고주의 시간대에서 매일 09:00에 발생합니다.
 
 >[!IMPORTANT]
 >
->Google Ads 및 Microsoft Advertising 유니버설 이벤트 추적(UET) 태그에 의해 추적된 전환은 광고 네트워크에 다시 업로드되지 않습니다. 목표 내에 포함하는 경우 광고 네트워크 편집기 내에서 캠페인 목표에 추가하세요.
+>Google 광고 및 Microsoft Advertising UET(범용 이벤트 추적) 태그로 추적된 전환은 광고 네트워크에 다시 업로드되지 않습니다. 목표에 이러한 목표를 포함하는 경우 광고 네트워크의 편집기 내에서 캠페인 목표에 해당 목표를 추가합니다.
 
 <!--
 >[!IMPORTANT]
@@ -44,35 +44,52 @@ Search, Social 및 상거래는 광고주 계정 포트폴리오 [!DNL Google Ad
 
 <!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
 
-1. 주 메뉴에서 > [!UICONTROL Tools] > [!UICONTROL Conversion Upload Setup]**을 클릭합니다**[!UICONTROL Search] .
+1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
-1. 옆에 **[!UICONTROL Enable Objective Upload]**&#x200B;있는 확인란을 선택합니다.
+1. 옆에 있는 확인란을 선택합니다. **[!UICONTROL Enable Objective Upload]**.
 
-1. (유럽 경제 지역(EEA) 또는 영국(UK)에서 비즈니스를 운영하는 계정이 있는 [!DNL Google Ads] 광고주, 선택사항) EEA 및 영국 사용자로부터 광고 목적으로 데이터를 업로드하는 것에 대한 동의를 얻은 경우 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+1. (광고주: [!DNL Google Ads] 유럽 경제 지역(EEA) 또는 영국(영국)에서 비즈니스를 수행하는 계정(선택 사항) EEA 및 영국 사용자로부터 광고 목적으로 데이터를 업로드하는 것에 대한 동의를 수집한 경우 다음 옆에 있는 확인란을 선택합니다 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
-1. 을 누르십시오 **[!UICONTROL Save]**.
+1. 클릭 **[!UICONTROL Save]**.
 
-1. (전환이 관리자 계정 수준에서 추적되는 경우) [> >**[!UICONTROL Search][!UICONTROL Manager Accounts]**&#x200B;에서 관리자 계정](/help/search-social-commerce/admin/manager-accounts.md) [!UICONTROL Admin] 에 대한 자격 증명을 추가합니다.
+1. (관리자 계정 수준에서 전환을 추적하는 경우) [관리자 계정에 대한 자격 증명 추가](/help/search-social-commerce/admin/manager-accounts.md) 위치: **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
-1. 이름이 지정된 `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` 각 목표가 광고 네트워크 상에서 2일 이내에 표시되는지 확인합니다.
+1. 이름이 인 각 목표를 확인합니다. `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — 광고 네트워크에 이틀 안에 나타납니다.
 
-   [!DNL Google Ads] 편집기에서 전환 작업을](https://support.google.com/google-ads/answer/11461796) 조회합니다[. [!DNL Microsoft Advertising] 편집기에서 전환 목표를](https://help.ads.microsoft.com/#apex/ads/en/56709) 조회합니다[.
+   다음에서 [!DNL Google Ads] 편집자, 조회 [전환 작업](https://support.google.com/google-ads/answer/11461796). 다음에서 [!DNL Microsoft Advertising] 편집자, 조회 [전환 목표](https://help.ads.microsoft.com/#apex/ads/en/56709).
 
    필요한 경우 업로드 날짜를 포함하도록 날짜 범위를 업데이트합니다.
 
+## 가중 목표 계산 방법
+
+광고 네트워크로 전달되는 가중 목표는 수집된 모든 지표 값의 합계이며, 추적된 전환은 예외입니다. [!DNL Google Ads] 또는 [!DNL Microsoft Advertising] 범용 이벤트 추적(UET) 태그입니다.
+
+예를 들어 목표의 목표 지표가 가중치가 25인 장바구니 추가이고, 지원 지표에는 가중치가 1인 GGL_Lead 및 매출 과 가중치가 0.5인 다운로드 가 있다고 가정해 보겠습니다.
+
+![가중치가 적용된 목표의 예](/help/search-social-commerce/assets/objective-example.png "가중치가 적용된 목표의 예")
+
+키워드가 포트폴리오에 대해 다음 작업을 수행했다고 가정해 보십시오.
+
+* 장바구니 추가 10개
+* 매출 500달러
+* 50개 다운로드
+* 5GGL_Lead
+
+GGL_Lead 는 Google 광고 추적 지표이므로 계산/업로드에 포함되지 않습니다. 따라서 가중 목적값은 ((10 x 25) + (500 x 1) + (50 x 0.5)) = 775로 계산된다.
+
 ## 누락된 목표 문제 해결
 
-포트폴리오 중 하나에 대한 목표(이름이 지정 `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` 됨)가 광고 네트워크 페이지에 표시되지 않으면 다음을 확인하세요.
+목표 — 명명된 경우 `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — 포트폴리오 중 하나가 광고 네트워크에 표시되지 않으면 다음을 확인하십시오.
 
 * ([!DNL Google Ads]) 전환을 계정 또는 관리자 수준으로 업로드해야 하는지 확인합니다. 관리자 수준에서 업로드해야 하는 경우:
 
-   * 관리자 계정에 대한 자격 증명이 [!DNL Google Ads] > [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**에서 제공**[!UICONTROL Search] 되는지 확인합니다. 필요한 [경우 관리자 계정](/help/search-social-commerce/admin/manager-accounts.md) 인증 정보를 추가합니다.
+   * 에 대한 자격 증명을 확인합니다. [!DNL Google Ads] 관리자 계정이에 제공됩니다. **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. 필요한 경우 [관리자 계정에 대한 자격 증명 추가](/help/search-social-commerce/admin/manager-accounts.md).
 
-   * 광고 네트워크 계정에 이미 동일한 지표 이름이 포함되어 있는지 확인합니다. 이 경우 올바른 관리자 수준 속성을 만들 수 있도록 지표의 이름을 바꿉니다.
+   * 광고 네트워크 계정에 이미 동일한 지표 이름이 포함되어 있는지 확인합니다. 그럴 경우 올바른 관리자 수준 속성을 만들 수 있도록 지표의 이름을 변경합니다.
 
-* 포트폴리오의 &quot;하이브리드&quot; 옵션이 선택되어 있고 목표에 유효한 매출이 있는지 확인합니다.
+* 포트폴리오의 &quot;하이브리드&quot; 옵션이 선택되어 있고 목표에 유효한 수익이 있는지 확인하십시오.
 
 >[!MORELIKETHIS]
 >
 >* [광고주의 전환 지표 관리 정보](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
->* [전환 지표를 업로드 대상 [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
+>* [전환 지표 업로드 [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
