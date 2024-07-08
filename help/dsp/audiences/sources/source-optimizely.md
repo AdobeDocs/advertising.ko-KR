@@ -1,74 +1,74 @@
 ---
-title: 사용자 ID를 [!DNL Optimizely] 유니버설 ID로 변환
-description: DSP 에서 자사 세그먼트를 수집하는 [!DNL Optimizely] 방법을 알아봅니다.
+title: 다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로
+description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Optimizely] 자사 세그먼트.
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 2c42e8e4b7ca7e0cfaaf7895f067e4ccf7a2a40e
+source-git-commit: 31713da81bbb1eb840de0f8e0d40013b42cd3140
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
-# 사용자 ID를 [!DNL Optimizely] 유니버설 ID로 변환
+# 다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로
 
 *Beta 기능*
 
-고객 데이터 플랫폼과 [!DNL Optimizely] DSP 통합을 사용하여 조직의 자사 해시 이메일 주소를 타겟팅 광고를 위한 범용 ID로 전환할 수 있습니다.
+와 DSP 통합 사용 [!DNL Optimizely] 고객 데이터 플랫폼 : 조직의 자사 해시된 이메일 주소를 타겟팅된 광고를 위한 범용 ID로 변환합니다.
 
-1. (이메일 주소를 전환하려면[!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; )[를 사용하는 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)광고주 측정](#analytics-tracking)을 활성화 [!DNL Analytics] 하려면 추적을 설정합니다.
+1. (이메일 주소를 (으)로 변환 [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; 광고주 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [활성화하려면 추적 설정 [!DNL Analytics] 측정](#analytics-tracking).
 
-1. [DSP](#source-create)에서 대상자 소스를 만들기.
+1. [DSP에서 대상 소스 만들기](#source-create).
 
-1. [세그먼트 데이터를](#push-data) 준비하고 푸시합니다.
+1. [세그먼트 데이터 준비 및 푸시](#push-data).
 
-1. [범용 ID 수와 해시된 이메일 주소](#compare-id-count) 수를 비교합니다.
+1. [범용 ID 수를 해시된 이메일 주소 수와 비교](#compare-id-count).
 
-## 1단계: 측정을 위한 [!DNL Analytics] 추적 설정 {#analytics-tracking}
+## 1단계: 추적 설정 [!DNL Analytics] 측정 {#analytics-tracking}
 
-*)가 있는 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)광고주*
+*를 사용하는 광고주 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md))*
 
-이메일 주소를 또는 [!DNL ID5] ID로 [!DNL RampIDs] 전환하려면 다음을 수행해야 합니다.
+이메일 주소를 다음으로 변환하려면 [!DNL RampIDs] 또는 [!DNL ID5] ID, 다음을 수행해야 합니다.
 
-1. (아직 수행하지 않은 경우) 구현 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)을 위한 모든 [필수 구성 요소를 모든 앱하고 AMO ID 및 EF ID](/help/integrations/analytics/ids.md)가 추적 URL에 채워지고 있는지 확인합니다[.
+1. (아직 완료하지 않은 경우) 모두 완료 [구현을 위한 사전 요구 사항 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) 및 다음을 확인합니다. [AMO ID 및 EF ID](/help/integrations/analytics/ids.md) 가 추적 URL에서 채워집니다.
 
-1. 유니버설 ID 파트너에 등록하고 웹페이지에 유니버설 ID 관련 코드를 배포하여 데스크탑 및 모바일 웹브라우저(모바일 앱 제외)의 ID에서 조회연결 ID로의 전환을 일치시킵니다.
+1. 범용 ID 파트너에 등록하고 웹 페이지에 범용 ID 관련 코드를 배포하여 데스크탑 및 모바일 웹 브라우저(모바일 앱은 아님)의 ID에서 뷰스루로의 전환을 일치시킵니다.
 
-   * **의 경우 [!DNL RampIDs]:** 데스크탑 및 모바일 웹브라우저(모바일 앱 제외)의 ID에서 조회스루로 전환되는 결과를 일치시키려면 웹페이지에 추가 JavaScript 태그 배포해야 합니다. Authentication Traffic Solutions의 태그 [!DNL LiveRamp] 등록 [!DNL LiveRamp] [!DNL LaunchPad] 지침을 제공하는 Adobe Systems 계정 팀에 문의하십시오. 등록은 무료 이지만 계약서에 서명해야 합니다. 등록하면 Adobe Systems 계정 팀이 조직이 웹 페이지에서 구현할 수 있는 고유한 태그를 생성하고 제공합니다.
+   * **대상 [!DNL RampIDs]:** 뷰스루를 위해 데스크탑 및 모바일 웹 브라우저(모바일 앱은 아님)의 ID에서 변환된 내용을 일치시키려면 웹 페이지에 추가 JavaScript 태그를 배포해야 합니다. Adobe 계정 팀에 문의하여 다음에 대한 등록 지침을 제공합니다. [!DNL LiveRamp] [!DNL LaunchPad] 태그 위치: [!DNL LiveRamp] 인증 트래픽 솔루션. 등록은 무료이지만 계약서에 서명하셔야 합니다 등록하면 Adobe 계정 팀이 웹 페이지에서 구현할 조직의 고유 태그를 생성하고 제공합니다.
 
-## 2단계: DSP에서 대상자 소스 만들기 {#source-create}
+## 2단계: DSP에서 대상 소스 만들기 {#source-create}
 
-1. [대상자 소스를](source-manage.md) 만들기하여 대상을 DSP 계정 또는 광고주 계정로 가져옵니다. 사용자 식별자 [를 사용 가능한 범용 ID 형식으로 전환 할 수 있습니다](source-about.md).
+1. [대상자 소스 만들기](source-manage.md) DSP 계정 또는 광고주 계정으로 대상자를 가져오려면 다음을 수행하십시오. 사용자 식별자를 다음 중 하나로 변환하도록 선택할 수 있습니다 [사용 가능한 범용 ID 형식](source-about.md).
 
-   소스 설정에는 세그먼트 데이터를 푸시하는 데 사용할 자동 생성된 소스 키가 포함됩니다.
+   소스 설정에는 세그먼트 데이터를 푸시하는 데 사용할 자동 생성 소스 키가 포함됩니다.
 
-1. 대상자 소스를 만든 후 소스 코드 키를 사용자와 [!DNL Optimizely] 공유합니다.
+1. 대상 소스를 만든 후 소스 코드 키를 [!DNL Optimizely] 사용자.
 
 ## 3단계: 세그먼트 데이터 준비 및 푸시 {#push-data}
 
-광고주 담당자의 도움을 [!DNL Optimizely] 받아 데이터를 준비하고 푸시해야 합니다.
+광고주는 다음을 사용하여 데이터를 준비하고 푸시해야 합니다. [!DNL Optimizely Data Platform]. 프로세스에 대한 질문이 있으면 다음으로 문의하십시오. [!DNL Optimizely] 담당자.
 
-1. 내에서 [!DNL Optimizely Data Platform]SHA-256 알고리즘을 사용하여 광고주 대상자의 이메일 ID를 해시.
+1. 다음 범위 내 [!DNL Optimizely Data Platform]: SHA-256 알고리즘을 사용하여 대상자에 대한 이메일 ID를 해시합니다.
 
-1. 지침에 따라 [[!DNL Optimizely's] 세그먼트를 DSP](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads)로 푸시합니다. 통합을 활성화하려면 다음 정보를 포함하십시오.
+1. 팔로우 [[!DNL Optimizely's] 세그먼트를 DSP에 푸시하는 지침](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads). 통합을 사용하려면 다음 정보를 포함하십시오.
 
-   * **소스 키:** 2](#source-create)단계에서 만든 [소스 키입니다.
+   * **Source 키:** 다음에서 생성된 소스 키입니다. [2단계](#source-create).
 
-   * **계정 Code:** 영숫자 DSP 계정 Code로, >[!UICONTROL Account]에서 DSP [!UICONTROL Settings] 내에서 찾을 수 있습니다.
+   * **계정 코드:** 영숫자 DSP 계정 코드이며 DSP 내에서 찾을 수 있습니다. [!UICONTROL Settings] > [!UICONTROL Account].
 
-세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 하며 광고주에 대해 구성된 대로 새로 고쳐집니다. 세그먼트를 새로 고치는 빈도에 관계없이 세그먼트에 대한 포함은 기본적으로 30일 후 또는 고객이 지정한 만료 기간 후에 만료됩니다. 세그먼트를 만료 전에 다시 푸시 [!DNL Optimizely] 하여 새로 고침. 사용자 지정 세그먼트 만료를 요청하려면 Adobe Systems 계정 팀에 문의하십시오.
+세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 하며 광고주에 대해 구성된 대로 새로 고쳐집니다. 세그먼트의 새로 고침 빈도에 관계없이 세그먼트에 포함된 항목은 기본적으로 30일 후나 고객이 지정한 만료 기간 후에 만료됩니다. 세그먼트를 다음에서 다시 푸시하여 새로 고침: [!DNL Optimizely] 만료 전에. 사용자 지정 세그먼트 만료를 요청하려면 Adobe 계정 팀에 문의하십시오.
 
-## 4단계: 유니버설 ID 수와 해시된 이메일 주소 수 비교 {#compare-id-count}
+## 4단계: 범용 ID 수를 해시된 이메일 주소 수와 비교 {#compare-id-count}
 
-모든 단계를 완료한 후 대상 라이브러리(> [!UICONTROL All Audiences] 또는 배치 설정 내에서 대상자 [!UICONTROL Audiences] 만들거나 편집할 때 사용 가능)에서 세그먼트 사용할 수 있고 24시간 이내에 채워지는지 확인합니다. 범용 ID의 개수와 원래 해시된 이메일 주소의 개수를 비교합니다.
+모든 단계를 완료하고에서 대상을 만들거나 편집할 때 사용할 수 있는 대상 라이브러리에서 확인합니다 [!UICONTROL Audiences] > [!UICONTROL All Audiences] 또는 배치 설정 내에서) 세그먼트를 사용할 수 있으며 24시간 이내에 채울 수 있습니다. 범용 ID 수를 해시된 원본 이메일 주소 수와 비교합니다.
 
-해시된 이메일 주소를 범용 ID로 변환하는 비율은 90% 이상이어야 합니다. 예를 들어 고객 데이터 플랫폼에서 100개의 해시된 이메일 주소를 보내는 경우 90개 이상의 범용 ID로 변환되어야 합니다. 변환율이 90% 이하이면 문제가 됩니다. 세그먼트 수가 달라질 수 있는 방법에 대한 자세한 내용은 &quot;[전자 메일 ID와 유니버설 ID](#universal-ids-data-variances) 간의 데이터 차이 원인&quot;을 참조하십시오.
+범용 ID에 대한 해시된 이메일 주소의 번역률은 90%보다 커야 합니다. 예를 들어 고객 데이터 플랫폼에서 100개의 해시된 이메일 주소를 전송하는 경우 90개 이상의 범용 ID로 변환되어야 합니다. 90% 이하의 번역률이 문제입니다. 세그먼트 카운트가 달라질 수 있는 방법에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산 원인](#universal-ids-data-variances).&quot;
 
-문제 해결 지원이 필요한 경우 Adobe Systems 계정 팀 또는 `adcloud-support@adobe.com`에 문의하십시오.
+문제 해결 지원은 Adobe 계정 팀에 문의하거나 `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
 >* [자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)
->* [대상 소스를 관리하여 유니버설 ID Audiences 활성화](source-manage.md)
+>* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
 >* [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
->* [고객 관리 정보](/help/dsp/audiences/audience-about.md)
+>* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
