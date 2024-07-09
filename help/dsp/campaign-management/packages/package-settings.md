@@ -3,9 +3,9 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
+source-git-commit: a8227e42c49e30d6b73daf51e4f62da05f6508f3
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,14 @@ ht-degree: 0%
 
 * **[!UICONTROL Placement level pacing]:**  이 게재 간격 전략은 포함된 모든 배치의 게재 간격 및 캡핑을 통해 작동합니다 *개별적으로*. 가장 좋은 방법은 이 전략을 사용하여 보장된 프라이빗 마켓 플레이스 거래를 실행하는 것입니다.
 
-**[!UICONTROL Flight Dates]:** 패키지의 시작 날짜와 종료 날짜입니다.
-
-패키지에 대해 선택적으로 비균일 게재 항공편을 생성하려면 다음을 선택합니다. *[!UICONTROL *Activate Custom Flighting]** 및 의 맞춤형 항공편 설정 [!UICONTROL Flighting] 아래 섹션. 사용자 정의 조명을 활성화하고 패키지를 저장하면 사용자 정의 조명을 비활성화할 수 없습니다.
+**[!UICONTROL Flight Dates]:** 패키지의 전체 시작 날짜 및 종료 날짜입니다. 비행 날짜는 캠페인 비행 날짜 내에 포함되어야 합니다.
 
 >[!NOTE]
 >
->* 비행 날짜는 캠페인 비행 날짜 내에 포함되어야 합니다. 또한 이 패키지에 할당된 모든 배치에 대한 플라이트 날짜가 이 날짜 안에 포함되어야 합니다.
+>* 이 패키지에 할당된 모든 배치에 대한 비행 날짜는 이 날짜 내에 포함되어야 합니다.
 > * 사용자 지정 플라이팅이 활성화된 경우 패키지 시작 날짜를 편집할 수 없습니다.
+
+**[!UICONTROL *Activate Custom Flighting]:** 에서 패키지의 비균일 게재 항공편을 만들 수 있습니다. [!UICONTROL Flighting] 아래 섹션. 사용자 정의 조명을 활성화하고 패키지를 저장하면 사용자 정의 조명을 비활성화하거나 패키지 시작 날짜를 편집할 수 없습니다.
 
 **[!UICONTROL Budget]:** (패키지 수준 게재 간격 전용 패키지) 총 예산 상한 및 예산 간격.
 
