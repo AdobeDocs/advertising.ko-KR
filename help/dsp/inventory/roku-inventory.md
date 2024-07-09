@@ -1,24 +1,22 @@
 ---
 title: 사용 [!DNL Roku] 인벤토리
-description: 과의 DSP 파트너십에 대해 알아보기 [!DNL Roku], 인벤토리 옵션, 승인된 타사 추적 공급업체 및 모범 사례 포함 [!DNL Roku]-특정 배치.
+description: DSP의 파트너십에 대해 알아보기 [!DNL Roku], 인벤토리 옵션, 승인된 타사 추적 공급업체 및 모범 사례 포함 [!DNL Roku]-특정 배치.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # 사용 [!DNL Roku] 인벤토리
 
-Advertising DSP은 의 광고를 위한 고유한 기능을 제공합니다. [!DNL Roku].
+Advertising DSP은에 광고를 위한 기능을 제공합니다. [!DNL Roku].
 
 ## DSP 및 [!DNL Roku] 파트너십
 
-Roku와 DSP은 다음과 일치하는 고유한 파트너 관계를 맺고 있습니다. [!DNL DSP] 대상: [!DNL Roku] 에 대한 1:1 결정론적 대상 타깃팅에 대한 ID [!DNL Roku] 인벤토리.
-
-Roku의 고유한 DSP(OneView) 외부에서, Advertising DSP은 이러한 타깃팅 기능에 단독으로 액세스할 수 있습니다. Advertising DSP은 측정 권한이 있는 유일한 DSP이기도 합니다 [!DNL Roku] 다른 모든 연결된 TV(CTV) 인벤토리 옆에 를 제공합니다. 이유 [!DNL Roku] 는 모든 표준 RTB 및 노출 픽셀 신호를 공유하지 않으며 다른 DSP은 Roku 판매 CTV 공급에서 타깃팅하거나 측정할 수 없습니다.
+다음 [!DNL Roku] 및 DSP 파트너쉽은 [!DNL DSP] 대상: [!DNL Roku] 에 대한 1:1 결정론적 대상 타깃팅에 대한 ID [!DNL Roku] 인벤토리.
 
 ## [!DNL Roku] 재고 옵션
 
@@ -53,7 +51,7 @@ a) 와 직접 개인 거래 ID를 설정할 수 있습니다. [!DNL Roku] 그런
 
 DSP 캠페인에서, [만들기 [!DNL Roku]관련 배치](/help/dsp/campaign-management/placements/placement-create.md) 배치 유형 사용[!UICONTROL Connected TV (Roku)].&quot; 포함 [!DNL Roku] 배치 [!DNL Roku]- 정의된 목표가 있는 특정 패키지.
 
-각 [!DNL Roku] 배치는 최소 하나 이상을 대상으로 해야 합니다. [!DNL Roku] 거래 또는 소스. 와 일치하는 DSP의 고유 대상을 사용하려면 [!DNL Roku], 와 일치시킬 수 있는 대상 세그먼트를 하나 이상 포함 [!DNL Roku] (옵트인) 결정론적 데이터 세트입니다.
+각 [!DNL Roku] 배치는 최소 하나 이상을 대상으로 해야 합니다. [!DNL Roku] 거래 또는 소스. 와 일치하는 DSP의 대상을 사용하려면 [!DNL Roku], 와 일치시킬 수 있는 대상 세그먼트를 하나 이상 포함 [!DNL Roku] (옵트인) 결정론적 데이터 세트입니다.
 
 ### [!DNL Roku]-승인된 서드파티 추적 공급업체
 
