@@ -3,9 +3,9 @@ title: 광고 네트워크에 목표 업로드 활성화
 description: 하이브리드 포트폴리오에 대한 목표를 업로드하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: d703b0d0134dbd16b2672b13d2ea63e4f102e105
+source-git-commit: 39936c6834012432447d3216d8463937996b0017
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 Search, Social 및 Commerce은 광고주 계정의 포트폴리오에 대한 목표를 업로드할 수 있습니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 따라서 하이브리드 최적화에 사용할 수 있습니다. 업로드한 목표는 계정 수준 및 캠페인 수준의 사용자 정의 전환 목표에 대한 전환 작업으로 사용할 수 있습니다.
 
-이 옵션을 활성화하면 스마트 입찰 전략이 포함된 캠페인이 포함된 포트폴리오에서 목표에 대한 업로드가 자동으로 트리거됩니다. Search, Social 및 Commerce은 적용 가능한 각 목표에 대해 광고 네트워크에서 전환을 만듭니다. 전환은 EF ID(클릭 ID) 수준에서 목표의 모든 가중 전환 지표를 나타냅니다. 각 전환에는 다음 이름 중 하나가 있습니다.
+이 옵션을 활성화하면 스마트 입찰 전략이 포함된 캠페인이 포함된 포트폴리오에서 목표에 대한 업로드가 자동으로 트리거됩니다. Search, Social 및 Commerce은 적용 가능한 각 목표에 대해 광고 네트워크에서 전환을 만듭니다. 전환은 EF ID(클릭 ID) 수준에서 목표의 모든 가중 전환 지표를 나타냅니다. 대상 [!DNL Google Ads] 클릭 시 EF ID는 [!DNL Google Ads] `gclid`; [!DNL Microsoft Advertising] 클릭 시 EF ID는 [!DNL Microsoft Advertising] `msclkid`. 이 클릭 ID로 인해 전환 데이터가 특정 키워드 및 클릭 시간에 매핑될 수 있습니다.
+
+업로드된 각 전환에는 다음 이름 중 하나가 있습니다.
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
@@ -34,15 +36,7 @@ Search, Social 및 Commerce은 광고주 계정의 포트폴리오에 대한 목
 
 >[!IMPORTANT]
 >
->Google 광고 및 Microsoft Advertising UET(범용 이벤트 추적) 태그로 추적된 전환은 광고 네트워크에 다시 업로드되지 않습니다. 목표에 이러한 목표를 포함하는 경우 광고 네트워크의 편집기 내에서 캠페인 목표에 해당 목표를 추가합니다.
-
-<!--
->[!IMPORTANT]
->
->Objectives for hybrid portfolios may include conversion goals from multiple ad networks and other types of conversion metrics. However, the individual campaigns in the portfolio can't include conversion goals that aren't included in the portfolio's objective; using additional conversion goals may impact portfolio performance.
--->
-
-<!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
+>Google 광고 및 Microsoft Advertising UET(범용 이벤트 추적) 태그로 추적된 전환은 광고 네트워크에 다시 업로드되지 않습니다. 목표에 이러한 목표를 포함하는 경우 광고 네트워크의 편집기 내에서 캠페인 목표에 해당 목표를 추가해야 합니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 

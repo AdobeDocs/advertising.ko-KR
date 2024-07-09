@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Google Ads] 캠페인.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
+source-git-commit: 977314f07d1299d9b94680861b046161bb444228
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2450'
 ht-degree: 0%
 
 ---
@@ -359,13 +359,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->광고 네트워크에 목표를 업로드하는 하이브리드 포트폴리오의 캠페인의 경우 가장 좋은 방법은 포트폴리오의 목표에서 전환 목표와 일치하는 캠페인 수준 목표를 사용하는 것입니다. 그러나 캠페인 목표에 다음과 같은 경우 [!DNL Google]-추적된 전환을 사용한 다음 [!DNL Google Ads] 목표를 사용하여 광고 네트워크에 다시 업로드되지 않으므로 편집기입니다. 또한 [!DNL Google Ads] 편집기에서 캠페인의 전환 작업을 기본 목표가 아닌 보조 목표로 표시하여 계정 기본 목표로 제거합니다.
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>캠페인이 하이브리드 포트폴리오의 일부인 경우 포트폴리오의 목표에서 전환 목표와 일치하는 캠페인 수준 목표를 사용하는 것이 좋습니다. 추가 전환 목표를 포함하면 포트폴리오 성능에 영향을 줄 수 있습니다.
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+>단, 다음과 같은 하이브리드 포트폴리오의 캠페인은 [광고 네트워크에 목표 업로드](/help/search-social-commerce/tools/objective-upload-to-networks.md), a) 업로드된 검색, 소셜 및 Commerce 포트폴리오 목표 지표(&quot;O_ACS_OBJ&quot;로 시작됨)를 캠페인에 대한 전환 작업으로 추가하고, b) 다음을 포함하는 캠페인 목표를 추가합니다. 광고 네트워크의 편집기 [!DNL Google]- 광고 네트워크 추적 지표가 목적을 가진 광고 네트워크에 업로드되지 않으므로 추적된 전환.
 
 >[!MORELIKETHIS]
 >

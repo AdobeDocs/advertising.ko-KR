@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising] 캠페인 설정'
 description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 캠페인.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
+source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
   이 입찰 전략으로 브랜드에 대한 쇼핑 캠페인을 저장하면 입찰 전략을 변경할 수 없습니다. 다른 쇼핑 캠페인 유형의 경우 이 전략은 새 캠페인에만 사용할 수 있습니다.
 
-* *[!UICONTROL CPV]* (Audience CTV 비디오 캠페인만 해당) CPV(Cost-per-View) 모델을 사용합니다. <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
+* *[!UICONTROL CPV]* (Audience CTV 비디오 캠페인만 해당) CPV(Cost-per-View) 모델을 사용합니다. 검색, 소셜 및 Commerce은 포트폴리오에 포함된 이 입찰 전략으로 캠페인에 대한 최적화를 제공하지 않습니다.
 
 * *[!UICONTROL Enhanced CPC]:* (대상, 검색 및 쇼핑 네트워크의 캠페인) 평균 CPC를 최대 CPC 미만으로 유지하려고 시도하는 동안 광고 네트워크(검색, 소셜 및 Commerce이 아님) 내에서 지정된 전환을 사용하여 전환을 극대화하기 위해 광고 네트워크가 각 경매의 클릭당 비용(CPC) 입찰을 자동으로 변경할 수 있는 광고 네트워크의 eCPC(향상된 클릭당 비용) 모델을 사용합니다.
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]:** (디스플레이/기본 네트워크의 캠페인만 해당, 선택 사항) 광고를 표시하지 않으려는 디스플레이 네트워크의 사이트. 올바른 URL(예: www.example.com)을 입력하십시오. 여러 문자열을 지정하려면 쉼표로 구분하거나 별도의 줄에 입력합니다.
 
-가용성에 대한 자세한 내용은 &quot; Microsoft Advertising 도움말을 참조하십시오.[특정 웹 사이트에 광고가 표시되지 않도록 하기](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+가용성에 대한 자세한 내용은 &quot; Microsoft Advertising 도움말&quot;을 참조하십시오.[특정 웹 사이트에 광고가 표시되지 않도록 하기](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -301,13 +301,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
->광고 네트워크에 목표를 업로드하는 하이브리드 포트폴리오의 경우 가장 좋은 방법은 포트폴리오의 목표에서 전환 목표와 일치하는 캠페인 수준 목표를 사용하는 것입니다. 그러나 캠페인 목표에 가 추적한 전환이 포함된 경우 [!DNL Microsoft Advertising] UET(범용 이벤트 추적) 태그를 만든 다음 [!DNL Microsoft Advertising] 목표를 사용하여 광고 네트워크에 다시 업로드되지 않으므로 편집기입니다. 또한 [!DNL Microsoft Advertising] 편집기에서 &quot;전환에 포함&quot;을 선택 해제하여 캠페인의 전환 작업을 계정 기본 목표로 제거합니다.
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>캠페인이 하이브리드 포트폴리오의 일부인 경우 포트폴리오의 목표에서 전환 목표와 일치하는 캠페인 수준 목표를 사용하는 것이 좋습니다. 추가 전환 목표를 포함하면 포트폴리오 성능에 영향을 줄 수 있습니다.
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+> 단, 다음과 같은 하이브리드 포트폴리오의 캠페인은 [광고 네트워크에 목표 업로드](/help/search-social-commerce/tools/objective-upload-to-networks.md), a) 업로드된 검색, 소셜 및 Commerce 포트폴리오 목표 지표(&quot;O_ACS_OBJ&quot;로 시작됨)를 캠페인에 대한 전환 목표로 추가하고, b) 가 추적한 전환을 포함하는 캠페인 목표를 추가합니다. [!DNL Microsoft Advertising] 광고 네트워크 추적 지표는 목표가 있는 광고 네트워크에 업로드되지 않으므로 범용 이벤트 추적(UET) 태그로 지정됩니다.
 
 >[!MORELIKETHIS]
 >
