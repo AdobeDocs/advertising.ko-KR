@@ -3,9 +3,9 @@ title: 다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Optimizely] 자사 세그먼트.
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 31713da81bbb1eb840de0f8e0d40013b42cd3140
+source-git-commit: 49902a99b78f867dd71c0cd15b97342a70abbc97
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,15 @@ ht-degree: 0%
 
    * **계정 코드:** 영숫자 DSP 계정 코드이며 DSP 내에서 찾을 수 있습니다. [!UICONTROL Settings] > [!UICONTROL Account].
 
-세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 하며 광고주에 대해 구성된 대로 새로 고쳐집니다. 세그먼트의 새로 고침 빈도에 관계없이 세그먼트에 포함된 항목은 기본적으로 30일 후나 고객이 지정한 만료 기간 후에 만료됩니다. 세그먼트를 다음에서 다시 푸시하여 새로 고침: [!DNL Optimizely] 만료 전에. 사용자 지정 세그먼트 만료를 요청하려면 Adobe 계정 팀에 문의하십시오.
+광고주에 대해 구성된 대로 세그먼트가 새로 고쳐집니다. 세그먼트의 새로 고침 빈도에 관계없이 세그먼트에 포함된 항목은 기본적으로 30일 후나 고객이 지정한 만료 기간 후에 만료됩니다. 세그먼트를 다음에서 다시 푸시하여 새로 고침: [!DNL Optimizely] 만료 전에. 사용자 지정 세그먼트 만료를 요청하려면 Adobe 계정 팀에 문의하십시오.
 
 ## 4단계: 범용 ID 수를 해시된 이메일 주소 수와 비교 {#compare-id-count}
 
-모든 단계를 완료하고에서 대상을 만들거나 편집할 때 사용할 수 있는 대상 라이브러리에서 확인합니다 [!UICONTROL Audiences] > [!UICONTROL All Audiences] 또는 배치 설정 내에서) 세그먼트를 사용할 수 있으며 24시간 이내에 채울 수 있습니다. 범용 ID 수를 해시된 원본 이메일 주소 수와 비교합니다.
+세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 합니다. DSP이 세그먼트 데이터를 받은 후 대상자 카운트는 9시간 이내에 표시됩니다.
 
-범용 ID에 대한 해시된 이메일 주소의 번역률은 90%보다 커야 합니다. 예를 들어 고객 데이터 플랫폼에서 100개의 해시된 이메일 주소를 전송하는 경우 90개 이상의 범용 ID로 변환되어야 합니다. 90% 이하의 번역률이 문제입니다. 세그먼트 카운트가 달라질 수 있는 방법에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산 원인](#universal-ids-data-variances).&quot;
+대상 라이브러리에서 확인합니다(에서 대상을 만들거나 편집할 때 사용 가능). [!UICONTROL Audiences] > [!UICONTROL All Audiences] 또는 배치 설정 내에서), 세그먼트를 사용할 수 있고 채우고 있으며 범용 ID 수를 원래 해시된 이메일 주소 수와 비교합니다.
+
+범용 ID에 대한 해시된 이메일 주소의 번역률은 90%보다 커야 합니다. [!DNL RampIDs] 특히 모든 해시된 이메일 주소가 고유한 경우 95%여야 합니다. 예를 들어 고객 데이터 플랫폼에서 100개의 해시된 이메일 주소를 전송하는 경우 최소 95개로 변환되어야 합니다 [!DNL RampIDs] 또는 90개 이상의 다른 유형의 범용 ID입니다. 낮은 번역률이 문제입니다. 세그먼트 카운트가 달라질 수 있는 방법에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산 원인](#universal-ids-data-variances).&quot;
 
 문제 해결 지원은 Adobe 계정 팀에 문의하거나 `adcloud-support@adobe.com`.
 

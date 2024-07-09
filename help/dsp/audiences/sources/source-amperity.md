@@ -2,9 +2,10 @@
 title: 다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Amperity] 자사 세그먼트.
 feature: DSP Audiences
-source-git-commit: 25bcc2eefa4dc7873ab8189122d43da336e3e046
+exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
+source-git-commit: ed74f3fa3d0036e0dc8a529b05452567527f68a1
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -73,13 +74,15 @@ ht-degree: 0%
 
 1. 그런 다음 광고주는 Adobe 계정 팀에 세그먼트 데이터가 수신되었는지 확인해야 합니다.
 
-세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 하며 내에 광고주에 대해 구성된 대로 새로 고쳐집니다 [!DNL Amperity]. 세그먼트의 새로 고침 빈도에 관계없이 세그먼트에 포함된 항목은 기본적으로 30일 후나 고객이 지정한 만료 기간 후에 만료됩니다. 세그먼트를 다음에서 다시 푸시하여 새로 고침: [!DNL Amperity] 만료 전에. 사용자 지정 세그먼트 만료를 요청하려면 Adobe 계정 팀에 문의하십시오.
+세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 합니다. 대상 라이브러리에서 확인합니다(에서 대상을 만들거나 편집할 때 사용 가능). [!UICONTROL Audiences] > [!UICONTROL All Audiences] 또는 배치 설정 내에서) 세그먼트를 사용할 수 있고 채우는 데 사용됩니다.
+
+내의 광고주에 대해 구성된 대로 세그먼트가 새로 고쳐집니다. [!DNL Amperity]. 세그먼트의 새로 고침 빈도에 관계없이 세그먼트에 포함된 항목은 기본적으로 30일 후나 고객이 지정한 만료 기간 후에 만료됩니다. 세그먼트를 다음에서 다시 푸시하여 새로 고침: [!DNL Amperity] 만료 전에. 사용자 지정 세그먼트 만료를 요청하려면 Adobe 계정 팀에 문의하십시오.
 
 ## 5단계: 범용 ID 수를 해시된 이메일 주소 수와 비교 {#compare-id-count}
 
-모든 단계를 완료하고에서 대상을 만들거나 편집할 때 사용할 수 있는 대상 라이브러리에서 확인합니다 [!UICONTROL Audiences] > [!UICONTROL All Audiences] 또는 배치 설정 내에서) 세그먼트를 사용할 수 있으며 24시간 이내에 채울 수 있습니다. 범용 ID 수를 해시된 원본 이메일 주소 수와 비교합니다.
+DSP이 세그먼트 데이터를 받은 후 대상자 카운트는 9시간 이내에 표시됩니다. 대상 라이브러리(다음에서 대상을 만들거나 편집할 때 사용 가능)에서 [!UICONTROL Audiences] > [!UICONTROL All Audiences] 또는 배치 설정 내에서) 범용 ID 수를 원래 해시된 이메일 주소 수와 비교합니다.
 
-범용 ID에 대한 해시된 이메일 주소의 번역률은 90%보다 커야 합니다. 예를 들어 고객 데이터 플랫폼에서 100개의 해시된 이메일 주소를 전송하는 경우 90개 이상의 범용 ID로 변환되어야 합니다. 90% 이하의 번역률이 문제입니다. 세그먼트 카운트가 달라질 수 있는 방법에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산 원인](#universal-ids-data-variances).&quot;
+범용 ID에 대한 해시된 이메일 주소의 번역률은 90%보다 커야 합니다. [!DNL RampIDs] 특히 모든 해시된 이메일 주소가 고유한 경우 95%여야 합니다. 예를 들어 고객 데이터 플랫폼에서 100개의 해시된 이메일 주소를 전송하는 경우 최소 95개로 변환되어야 합니다 [!DNL RampIDs] 또는 90개 이상의 다른 유형의 범용 ID입니다. 낮은 번역률이 문제입니다. 세그먼트 카운트가 달라질 수 있는 방법에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산 원인](#universal-ids-data-variances).&quot;
 
 문제 해결 지원은 Adobe 계정 팀에 문의하거나 `adcloud-support@adobe.com`.
 
