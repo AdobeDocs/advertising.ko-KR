@@ -3,9 +3,9 @@ title: 사용 [!DNL Roku] 인벤토리
 description: DSP의 파트너십에 대해 알아보기 [!DNL Roku], 인벤토리 옵션, 승인된 타사 추적 공급업체 및 모범 사례 포함 [!DNL Roku]-특정 배치.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
+source-git-commit: f3099c84fe2d6b1610ddf4ca07d59b119718afee
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Advertising DSP은에 광고를 위한 기능을 제공합니다. [!DNL Roku].
 
-## DSP 및 [!DNL Roku] 파트너십
+## 대상 일치
 
 다음 [!DNL Roku] 및 DSP 파트너쉽은 [!DNL DSP] 대상: [!DNL Roku] 에 대한 1:1 결정론적 대상 타깃팅에 대한 ID [!DNL Roku] 인벤토리.
 
@@ -26,12 +26,12 @@ a) 와 직접 개인 거래 ID를 설정할 수 있습니다. [!DNL Roku] 그런
 >
 >[!DNL Roku] 오픈 마켓플레이스 및 거래소에서는 인벤토리를 사용할 수 없습니다.
 
-* 개인 거래를 위해, [DSP에서 거래 ID에 대한 정보 설정](/help/dsp/inventory/deal-id-create.md) 타겟팅[!UICONTROL Roku Network – Audience]&quot; 및 &quot;[!UICONTROL The Roku Channel – Audience]&quot; 다음 범위 내 [!DNL Roku] 배치.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* 개인 거래를 위해, [DSP에서 거래 ID에 대한 정보 설정](/help/dsp/inventory/deal-id-create.md) 타겟팅[!UICONTROL Roku Network - Audience]&quot; 및 &quot;[!UICONTROL The Roku Channel - Audience]&quot; 다음 범위 내 [!DNL Roku] 배치.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * 다음을 수행할 수 있습니다. [다음 구독 [!DNL Roku] 내 재고 [!DNL On Demand] 갤러리](/help/dsp/inventory/on-demand-inventory-subscribe.md)을 선택한 다음 내의 승인된 거래를 타겟팅합니다. [!DNL Roku] 배치:
 
-   * &quot;[!UICONTROL Roku Network – Audience]&quot;전체에 걸쳐 인벤토리 생성 [!DNL Roku] 다음과 같은 프리미엄 콘텐츠 파트너가 있는 에코시스템 [!DNL The CW], [!DNL ABC], 및 [!DNL ESPN].
-   * &quot;[!UICONTROL The Roku Channel – Audience]다음에 대한 &quot; [!DNL Roku] 소유 및 운영(O&amp;O) 앱 컨텐츠.
+   * &quot;[!UICONTROL Roku Network - Audience]&quot;전체에 걸쳐 인벤토리 생성 [!DNL Roku] 다음과 같은 프리미엄 콘텐츠 파트너가 있는 에코시스템 [!DNL The CW], [!DNL ABC], 및 [!DNL ESPN].
+   * &quot;[!UICONTROL The Roku Channel - Audience]다음에 대한 &quot; [!DNL Roku] 소유 및 운영(O&amp;O) 앱 컨텐츠.
 
 ### 를 사용하여 개인 마켓플레이스를 맞춤화할 수 있는 이점 [!DNL Roku]
 
