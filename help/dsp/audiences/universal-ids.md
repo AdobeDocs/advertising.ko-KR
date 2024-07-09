@@ -3,9 +3,9 @@ title: 범용 ID 활성화 지원
 description: 범용 ID 세그먼트를 가져오고, 사용자 지정 세그먼트를 만들어 범용 ID를 추적하고, 자사 세그먼트의 다른 사용자 식별자를 쿠키 없는 타깃팅을 위해 범용 ID로 변환하는 지원에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 42cfd98f3ef4145f5ac44e955a9b2f08a698f239
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ DSP은 DSP에서 지원하는 디지털 형식 간에 쿠키 없는 단일 장�
 
 * 세그먼트를 활성화한 후 약 24시간 후에 변환된 다음 내 세그먼트의 ID 수를 확인합니다. [!UICONTROL Audiences] > [!UICONTROL All Audiences]. 예기치 않은 ID 카운트인 경우 Adobe 계정 팀에 문의하십시오.
 
-  를 참조하십시오.[이메일 ID와 범용 ID 간의 데이터 분산 원인](#universal-ids-data-variances)세그먼트 카운트가 달라질 수 있는 방법에 대한 자세한 내용은 &quot;을 참조하십시오.
+  를 참조하십시오.[이메일 ID와 범용 ID 간의 데이터 분산](#universal-ids-data-variances)세그먼트 카운트가 달라질 수 있는 방법에 대한 자세한 내용은 &quot;을 참조하십시오.
 
 * 기존 패키지 및 배치를 변경하지 마십시오. 그러나 범용 ID를 테스트할 증분 예산이 없는 경우 원래 예산을 줄여서 테스트 자금을 조달합니다.
 
@@ -96,15 +96,21 @@ DSP은 DSP에서 지원하는 디지털 형식 간에 쿠키 없는 단일 장�
 
 * 인증된 대상 세그먼트에 대한 도달 거리는 쿠키 기반 세그먼트에 대한 도달 거리보다 자연히 더 작으며 추가 타겟팅 옵션을 사용하면 도달 거리가 더 줄어든다는 것을 기억하십시오. 특히 AND 문으로 여러 대상을 연결하여 세분화된 타깃팅을 사용하는 것은 신중해야 합니다.
 
-## 이메일 ID와 범용 ID 간의 데이터 분산 원인 {#universal-ids-data-variances}
+## 이메일 ID와 범용 ID 간의 데이터 분산 {#universal-ids-data-variances}
+
+### 허용 가능한 차이 수준
+
+범용 ID에 대한 해시된 이메일 주소의 번역률은 90%보다 커야 합니다. [!DNL RampIDs] 특히 모든 해시된 이메일 주소가 고유한 경우 95%여야 합니다. 예를 들어 고객 데이터 플랫폼에서 100개의 해시된 이메일 주소를 전송하는 경우 최소 95개로 변환되어야 합니다 [!DNL RampIDs] 또는 90개 이상의 다른 유형의 범용 ID입니다. 낮은 번역률은 문제를 나타낼 수 있습니다. 를 참조하십시오.[분산 원인](#universal-ids-data-variances-causes&quot;)를 참조하십시오.
+
+대상 [!DNL RampIDs], 번역 비율이 70% 미만인 경우 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+
+### 분산 원인 {#universal-ids-data-variances-causes}
 
 * ID5로 번역된 해시된 이메일 ID:
 
   확률론적 모형은 +/- 5%의 오차 분산을 가지고 있다. 이는 관객 수를 5% 가량 과대 또는 과소 평가할 수 있다는 것을 의미한다.
 
 * 해시된 이메일 ID를으로 번역 [!DNL RampIDs]:
-
-  해시된 이메일 주소 의 번역 비율 [!DNL RampIDs] 해시된 모든 이메일 주소가 고유한 경우 95%여야 합니다. 번역률이 70%보다 낮은 경우 Adobe 계정 팀에 자세한 내용을 문의하십시오.
 
    * 여러 프로필에서 동일한 이메일 ID를 사용하는 경우 DSP 세그먼트 수가 고객 데이터 플랫폼 내 프로필 수보다 작을 수 있습니다. 예를 들어 Adobe Photoshop에서 단일 이메일 ID를 사용하여 회사 계정과 개인 계정을 만들 수 있습니다. 하지만 두 프로필이 모두 동일한 사람에게 속해 있는 경우 프로필은 하나의 이메일 ID에 매핑되고 이에 따라 한 이메일 ID에 매핑됩니다 [!DNL RampID].
 

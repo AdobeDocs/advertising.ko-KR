@@ -2,9 +2,9 @@
 title: "다음에서 사용자 ID 변환: [!DNL ActionIQ] 범용 ID로"
 description: "DSP에서 다음을 수집할 수 있도록 하는 방법 알아보기 [!DNL ActionIQ] 자사 세그먼트."
 feature: DSP Audiences
-source-git-commit: 4292083dac92860854dca30f7897e1b0279f68ec
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 합니다. DSP이 세그먼트 데이터를 받은 후 대상자 카운트는 9시간 이내에 표시됩니다.
 
-   범용 ID에 대한 해시된 이메일 주소의 번역률은 90%보다 커야 합니다. [!DNL RampIDs] 특히 모든 해시된 이메일 주소가 고유한 경우 95%여야 합니다. 예를 들어 고객 데이터 플랫폼에서 100개의 해시된 이메일 주소를 전송하는 경우 최소 95개로 변환되어야 합니다 [!DNL RampIDs] 또는 90개 이상의 다른 유형의 범용 ID입니다. 낮은 번역률이 문제입니다. 세그먼트 카운트가 달라질 수 있는 방법에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산 원인](#universal-ids-data-variances).&quot;
+   허용되는 ID 번역률과 세그먼트 수가 달라질 수 있는 이유에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산](#universal-ids-data-variances).&quot;
 
    문제 해결 지원은 Adobe 계정 팀에 문의하거나 `adcloud-support@adobe.com`.
 
