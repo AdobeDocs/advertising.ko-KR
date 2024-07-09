@@ -3,7 +3,7 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 78b8f6cd689e5faf4b0cbd2b41983b00663448a4
+source-git-commit: 644847918f6f6dd86dec80ad89128c31a0c0284b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 **[!UICONTROL 3rd Party Billed Fees]:** (선택 사항) 청구 불가능한 비용으로 추적할 정적 서드파티 비용:
 
+* **[!UICONTROL CPM]:** 1000회 노출당 비용(CPM).
+
+* **[!UICONTROL Description]:** CPM 요금에 대한 설명.
+
 >[!NOTE]
 >
 >청구 가능 요금은 다음에 반영됩니다. [!UICONTROL Net CPM] 지표.
->
-* **[!UICONTROL CPM]:** 1000회 노출당 비용(CPM).
-
-* **[!UICONTROL CPM Description]:** CPM 요금에 대한 설명.
 
 에서 패키지 수준 설정을 재정의할 수 있습니다. [배치 수준](/help/dsp/campaign-management/placements/placement-settings.md).
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 >* 이 패키지에 할당된 모든 배치에 대한 비행 날짜는 이 날짜 내에 포함되어야 합니다.
 > * 사용자 지정 플라이팅이 활성화된 경우 패키지 시작 날짜를 편집할 수 없습니다.
 
-**[!UICONTROL Activate Custom Flighting]:** 에서 패키지의 비균일 게재 항공편을 만들 수 있습니다. [!UICONTROL Flighting] 아래 섹션. 사용자 정의 조명을 활성화하고 패키지를 저장하면 사용자 정의 조명을 비활성화하거나 패키지 시작 날짜를 편집할 수 없습니다.
+**[!UICONTROL *Activate Custom Flighting]:** 에서 패키지의 비균일 게재 항공편을 만들 수 있습니다. [!UICONTROL Flighting] 아래 섹션. 사용자 정의 조명을 활성화하고 패키지를 저장하면 사용자 정의 조명을 비활성화하거나 패키지 시작 날짜를 편집할 수 없습니다.
 
 **[!UICONTROL Budget]:** (패키지 수준 게재 간격 전용 패키지) 총 예산 상한 및 예산 간격.
 
