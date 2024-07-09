@@ -3,9 +3,9 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: c2de7424ecae0ad30792eaa459c8d9bfd3ff3b7c
+source-git-commit: 81415330017ee207fa1aa43ffdf2fe3205d88e9a
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 (패키지 수준 게재 간격이 있는 패키지) 패키지 플라이트 기간(전체 내에서 사용자 지정 플라이트 기간 포함) [!UICONTROL Flight Dates] 패키지입니다. 다음과 같은 경우에만 사용자 정의 항공편을 구성할 수 있습니다. [!UICONTROL Activate Custom Flighting] 옵션이에서 활성화됨 [!UICONTROL Goals & Budget] 섹션.
 
-**[DNL 플라이트 N]:** (다음 경우에만 사용 가능: [!UICONTROL Activate Custom Flighting] 옵션이 활성화됨) 각 비행에 대해 시작 날짜, 종료 날짜 및 목표 지출 목표를 지정합니다. 다른 항공편을 추가하려면 **[!UICONTROL Add Flight]**.
+**[!DNL Flight N]:** (다음 경우에만 사용 가능: [!UICONTROL Activate Custom Flighting] 옵션이 활성화됨) 각 비행에 대해 시작 날짜, 종료 날짜 및 목표 지출 목표를 지정합니다. 다른 항공편을 추가하려면 **[!UICONTROL Add Flight]**.
 
 기존 패키지의 경우 선택적으로 다음에 값을 입력할 수 있습니다. [!UICONTROL Rollover] 다음 비행에 잠재적 미지출 예산을 추가하기 위한 모든 비행에 대한 열입니다. 의 예상 값 [!UICONTROL Adjusted Goal (Goal + Rollover)] 그에 따라 열이 변경됩니다.<!-- clarify usage -->
 
