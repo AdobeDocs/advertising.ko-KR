@@ -3,9 +3,9 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 6e4416f7a46c6d7e9a4c680c850f81ef836f9f7a
+source-git-commit: 1ae55a0c4750e25429c954c406352b2235805016
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -115,13 +115,17 @@ ht-degree: 0%
 
 (패키지 수준 게재 간격이 있고 &quot;[!UICONTROL Activate Custom Flighting]&quot;활성화됨) 전체 내에서 사용자 정의 플라이트 기간 [!UICONTROL Flight Dates] 다음에 지정됨: [!UICONTROL Goals & Budget] 섹션.
 
-각 항공편에 대해 시작 날짜, 종료 날짜 및 대상 노출 횟수를 입력합니다. 다른 항공편을 추가하려면 **[!UICONTROL Add Flight]**.
+각 항공편에 대해 시작 일자, 종료 일자 및 목표 지출 목표를 입력합니다. 다른 항공편을 추가하려면 **[!UICONTROL Add Flight]**.
+
+기존 패키지의 경우 선택적으로 다음에 값을 입력할 수 있습니다. [!UICONTROL Rollover] 다음 비행에 잠재적 미지출 예산을 추가하기 위한 모든 비행에 대한 열입니다. 의 예상 값 [!UICONTROL Adjusted Goal (Goal + Rollover)] 그에 따라 열이 변경됩니다.<!-- clarify usage -->
 
 >[!MORELIKETHIS]
->
->* [패키지 관리 정보](package-about.md)
+
+e의 경우
+>>
+* [패키지 관리 정보](package-about.md)
 >* [패키지 만들기](package-create.md)
->* [패키지 편집](package-edit.md)
->* [패키지에 배치 첨부](package-attach-placement.md)
->* [패키지에 대한 변경 로그 보기](package-change-log.md)
->* [Campaign Management에 대한 FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
+* [패키지 편집](package-edit.md)
+* [패키지에 배치 첨부](package-attach-placement.md)
+* [패키지에 대한 변경 로그 보기](package-change-log.md)
+* [Campaign Management에 대한 FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
