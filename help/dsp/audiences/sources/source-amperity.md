@@ -3,9 +3,9 @@ title: 다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Amperity] 자사 세그먼트.
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -80,11 +80,15 @@ ht-degree: 0%
 
 ## 5단계: 범용 ID 수를 해시된 이메일 주소 수와 비교 {#compare-id-count}
 
-DSP이 세그먼트 데이터를 받은 후 대상자 카운트는 9시간 이내에 표시됩니다. 대상 라이브러리(다음에서 대상을 만들거나 편집할 때 사용 가능)에서 [!UICONTROL Audiences] > [!UICONTROL All Audiences] 또는 배치 설정 내에서) 범용 ID 수를 원래 해시된 이메일 주소 수와 비교합니다.
+DSP이 세그먼트 데이터를 받은 후 대상자 카운트는 9시간 이내에 표시됩니다.
 
-허용되는 ID 번역률과 세그먼트 수가 달라질 수 있는 이유에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산](#universal-ids-data-variances).&quot;
+대상 라이브러리(다음에서 대상을 만들거나 편집할 때 사용 가능)에서 [!UICONTROL Audiences] > [!UICONTROL All Audiences] 또는 배치 설정 내에서) 범용 ID 수를 원래 해시된 이메일 주소 수와 비교합니다. 허용되는 ID 번역률과 세그먼트 수가 달라질 수 있는 이유에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산](#universal-ids-data-variances).&quot;
 
-문제 해결 지원은 Adobe 계정 팀에 문의하거나 `adcloud-support@adobe.com`.
+## 문제 해결
+
+번역 속도 및 사용자 수 문제를 해결하려면 다음을 참조하십시오.[범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md).&quot;
+
+전환 절차와 관련된 문제를 해결하려면 Adobe 계정 팀에 문의하거나 `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: 와 DSP 통합 사용 [!DNL Adobe] [!DNL Real-time CDP]
 description: DSP을 활성화하여 다음을 수집하는 방법 알아보기 [!DNL Adobe] [!DNL Real-time CDP] 자사 세그먼트.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,15 @@ ht-degree: 0%
 
 1. 대상 라이브러리에서 확인합니다(에서 대상을 만들거나 편집할 때 사용 가능). [!UICONTROL Audiences] > [!UICONTROL All Audiences] 또는 배치 설정 내에서) 세그먼트가 채워지고 있고 범용 ID 수를 원래 해시된 이메일 주소 수와 비교합니다.
 
-   세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 합니다. DSP이 세그먼트 데이터를 받은 후 대상자 카운트는 9시간 이내에 표시됩니다.
-
-   허용되는 ID 번역률과 세그먼트 수가 달라질 수 있는 이유에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산](#universal-ids-data-variances).&quot;
-
-   문제 해결 지원은 Adobe 계정 팀에 문의하거나 `adcloud-support@adobe.com`.
+   세그먼트는 24시간 이내에 DSP에서 사용할 수 있어야 합니다. DSP이 세그먼트 데이터를 받은 후 대상자 카운트는 9시간 이내에 표시됩니다. 허용되는 ID 번역률과 세그먼트 수가 달라질 수 있는 이유에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산](#universal-ids-data-variances).&quot;
 
 세그먼트는 24시간마다 새로 고쳐집니다. 하지만 세그먼트에 포함되면 기본적으로 30일 이후 또는 고객이 지정한 만료 기간 이후에 만료됩니다. 만료 전에 Real-Time CDP에서 세그먼트를 다시 푸시하여 새로 고침합니다. 사용자 지정 세그먼트 만료를 요청하려면 Adobe 계정 팀에 문의하십시오.
+
+## 문제 해결
+
+번역 속도 및 사용자 수 문제를 해결하려면 다음을 참조하십시오.[범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md).&quot;
+
+전환 절차와 관련된 문제를 해결하려면 Adobe 계정 팀에 문의하거나 `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
