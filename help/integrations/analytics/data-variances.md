@@ -3,9 +3,9 @@ title: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Ado
 description: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
+source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3358'
 ht-degree: 0%
 
 ---
@@ -154,10 +154,10 @@ Adobe Advertising 보고서는 Adobe Advertising을 통해 거래되는 유료 �
 
 통합하려면 클릭스루 데이터의 유효성을 검사하여 사이트의 모든 페이지가 클릭스루를 제대로 추적하는지 확인해야 합니다.
 
-위치 [!DNL Analytics]를 검색하는 가장 쉬운 방법 중 하나 [!DNL Analytics for Advertising] Adobe Advertising은 &quot;AMO ID 인스턴스: 클릭 수 비교&quot; 계산된 지표를 사용하여 인스턴스와 클릭 수를 비교하는 것입니다. 이 지표는 다음과 같이 계산됩니다.
+위치 [!DNL Analytics]를 검색하는 가장 쉬운 방법 중 하나 [!DNL Analytics for Advertising] 추적은 &quot;AMO ID 인스턴스 대 클릭 수&quot; 계산된 지표를 사용하여 인스턴스와 클릭을 비교하는 것이며, 이는 다음과 같이 계산됩니다.
 
 ```
-AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+AMO ID Instances to Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 [!UICONTROL AMO ID Instances] 다음 횟수를 나타냅니다. [AMO ID](ids.md) 사이트에서 추적됩니다. 광고를 클릭할 때마다 AMO ID(`s_kwcid`) 매개 변수가 랜딩 페이지 URL에 추가됩니다. 의 수 [!UICONTROL AMO ID Instances]따라서 는 클릭 수와 유사하며 실제 광고 클릭에 대해 확인할 수 있습니다. 에 대해 일반적으로 85%의 일치율이 표시됩니다. [!DNL Search, Social, & Commerce] 및 30%의 일치율 [!DNL DSP] 트래픽(클릭스루만 포함하도록 필터링될 때) [!UICONTROL AMO ID Instances]). 검색과 표시 간의 기대치 차이는 예상되는 트래픽 행태로 설명될 수 있다. 검색은 인텐트를 캡처하며, 따라서 사용자는 일반적으로 쿼리에서 검색 결과를 클릭하려고 합니다. 그러나 디스플레이 또는 온라인 비디오 광고를 보는 사용자는 의도하지 않게 광고를 클릭한 다음 사이트에서 바운스되거나 페이지 활동이 추적되기 전에 로드되는 새 창을 포기할 가능성이 높습니다.
@@ -165,7 +165,7 @@ AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / 
 Adobe Advertising 보고서에서 &quot;&quot;를 사용하여 인스턴스와 클릭 수를 유사하게 비교할 수 있습니다.[!UICONTROL EF ID Instances]대신 &quot;지표 [!UICONTROL AMO ID Instances]:
 
 ```
-EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+EF ID Instances to Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 AMO ID와 EF ID 간의 높은 일치율을 예상해야 하지만, AMO ID와 EF ID는 근본적으로 다른 데이터를 추적하므로 100% 패리티를 예상하지 마십시오. 이러한 차이는 합계에 약간의 차이를 초래할 수 있습니다 [!UICONTROL AMO ID Instances] 및 [!UICONTROL EF ID Instances]. 합계인 경우 [!UICONTROL AMO ID Instances] 위치: [!DNL Analytics] 다음과 다름: [!UICONTROL EF ID Instances] 그러나 1% 이상 Adobe Advertising 시 도움이 필요하면 Adobe 계정 팀에 문의하십시오.
@@ -181,7 +181,7 @@ The following is an example of a workspace to track clicks to instances.
 
 ### 클릭과 인스턴스 간 불일치 문제 해결
 
-다음과 같은 경우 [!UICONTROL EF ID Instances]-에서-[!UICONTROL Adobe Advertising Clicks] 비율이 85% 미만이면 다음을 확인하십시오.
+다음과 같은 경우 [!UICONTROL EF ID Instances]-to-Clicks 비율이 85% 미만이면 다음을 확인하십시오.
 
 * 계정 또는 하위 수준에 대한 클릭 추적이 누락되었거나 중복 클릭 추적이 있습니까(예: 계정 및 캠페인 수준 모두에서)?
 
