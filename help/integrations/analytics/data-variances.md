@@ -3,9 +3,9 @@ title: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Ado
 description: '다음 사이에 예상되는 데이터 분산: [!DNL Analytics] 및 Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 다음 [!DNL Analytics for Advertising] 통합은 두 개의 변수([!DNL eVars] 또는 [!DNL rVars] \[예약됨 [!DNL eVars]]\) 캡처할 [EF ID 및 AMO ID](ids.md). 이러한 변수는 단일 전환 확인 기간(클릭스루 및 뷰스루가 기여되는 시간) 및 기여도 분석 모델로 구성됩니다. 달리 지정하지 않는 한, 변수는 Adobe Advertising의 기본 광고주 수준 클릭 전환 확인 기간 및 속성 모델과 일치하도록 구성됩니다.
 
-그러나 전환 확인 기간과 속성 모델은 두 Analytics 모두에서 ( 를 통해) 구성할 수 있습니다. [!DNL eVars]) 및 Adobe Advertising. 또한 Adobe Advertising에서 속성 모델은 광고주 수준(입찰 최적화를 위해)뿐만 아니라 개별 데이터 보기 및 보고서(보고 목적으로만)에서도 구성할 수 있습니다. 예를 들어 조직은 최적화를 위해 짝수 분배 속성 모델을 사용하되 Advertising DSP 또는 의 보고서에 마지막 터치 속성을 사용하는 것을 선호할 수 있습니다. [!DNL Advertising Search, Social, & Commerce]. 속성 모델을 변경하면 속성 전환 수가 변경됩니다.
+그러나 전환 확인 기간과 속성 모델은 두 Analytics 모두에서 ( 를 통해) 구성할 수 있습니다. [!DNL eVars]) 및 Adobe Advertising. 또한 Adobe Advertising에서 속성 모델은 광고주 수준(입찰 최적화를 위해)뿐만 아니라 개별 데이터 보기 및 보고서(보고 목적으로만)에서도 구성할 수 있습니다. 예를 들어 조직에서는 최적화를 위해 짝수 분배 속성 모델을 사용하지만 Advertising DSP 또는 의 보고서에는 마지막 터치 속성을 사용할 수 있습니다. [!DNL Advertising Search, Social, & Commerce]. 속성 모델을 변경하면 속성 전환 수가 변경됩니다.
 
 보고 전환 확인 기간 또는 속성 모델이 다른 제품에서는 수정되지 않고 한 제품에서 수정되는 경우 각 시스템의 동일한 보고서에 고유한 데이터가 표시됩니다.
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 #### 뷰스루 추적을 위한 다양한 전환 확인 기간 {#impression-lookback}
 
-Adobe Advertising에서 속성은 클릭과 노출을 기반으로 하며 클릭과 노출에 대해 다양한 전환 확인 기간을 구성할 수 있습니다. 위치 [!DNL Analytics]하지만 기여도 분석은 클릭스루와 뷰스루를 기반으로 하므로 클릭스루와 뷰스루에 대해 다른 기여도 분석 창을 설정할 수 있는 옵션이 없습니다. 초기 사이트 방문에서 각 시작에 대해 추적합니다. 노출은 뷰스루가 발생하기 전 같은 날 또는 여러 날에 발생할 수 있으며, 이는 각 시스템에서 속성 창이 시작되는 위치에 영향을 줄 수 있습니다.
+Adobe Advertising에서 속성은 클릭과 노출을 기반으로 하며 클릭과 노출에 대해 다양한 전환 확인 기간을 구성할 수 있습니다. 위치 [!DNL Analytics]하지만 기여도 분석은 클릭스루와 뷰스루를 기반으로 하므로 클릭스루와 뷰스루에 대해 다른 기여도 분석 창을 설정할 수 있는 옵션이 없습니다. 초기 사이트 방문에서 각 시작에 대해 추적합니다. 노출은 뷰스루가 발생하기 며칠 전 또는 같은 날에 발생할 수 있으며, 이 시점은 각 시스템에서 속성 창이 시작되는 위치에 영향을 줄 수 있습니다.
 
 일반적으로 대부분의 뷰스루 전환은 두 시스템 모두 크레딧을 고려할 만큼 빠르게 발생합니다. 그러나 일부 전환은 Adobe Advertising 노출 전환 확인 기간 외부이지만 [!DNL Analytics] 전환 확인 기간. 이러한 전환은 의 뷰스루에 기인합니다. [!DNL Analytics] 하지만 Adobe Advertising의 인상은 그렇지 않습니다.
 
@@ -82,7 +82,7 @@ Adobe Advertising과 간의 뷰스루 전환을 비교할 때 다음 차이점�
 >
 >선형 할당의 경우 [!DNL Analytics] 모든 성공 이벤트를 동일하게 속성 지정 [!DNL eVar] 단일 방문 내의 값이므로 [!DNL eVar] &quot;방문&quot;의 만료. 그러나 광고의 경우 선형 기여도 분석을 사용하면 실제로 선형적이지 않고 보다 덜 이상적인 보고에 할당이 발생합니다. 예를 들어 방문자가 세 개의 별도 방문에서 전환하기 전에 세 개의 광고와 상호 작용하는 경우 마지막 방문에서 표시된 광고만 전환에 기여하는 것이며 세 개의 광고 모두가 기여하는 것은 아닙니다.
 >
->또한 전환 할당을 &quot;선형&quot;으로 또는 &quot;선형&quot;으로 전환하면 내역 데이터가 표시되지 않으므로 보고서에서 데이터가 잘못 표시될 수 있습니다. 예를 들어 선형 할당은 여러 다른 항목에 걸쳐 매출을 나눌 수 있습니다 [!DNL eVar] 값. 할당을 &quot;가장 최근&quot;으로 변경하면 해당 매출의 100%가 가장 최근 단일 값과 연관됩니다. 이 연관성은 잘못된 결론으로 귀하를 이끌 수 있다.
+>또한 전환 할당을 &quot;선형&quot;으로 또는 &quot;선형&quot;으로 전환하면 내역 데이터가 표시되지 않고, 이로 인해 보고서에서 데이터가 잘못 표시될 수 있습니다. 예를 들어 선형 할당은 여러 다른 항목에 걸쳐 매출을 나눌 수 있습니다 [!DNL eVar] 값. 할당을 &quot;가장 최근&quot;으로 변경하면 해당 매출의 100%가 가장 최근 단일 값과 연관됩니다. 이 연관성은 잘못된 결론으로 귀하를 이끌 수 있다.
 >
 >혼동을 막기 위해 [!DNL Analytics] 보고 인터페이스에서 내역 데이터를 사용할 수 없게 됩니다. 을 변경하면 내역 데이터를 볼 수 있습니다. [!DNL eVar] 변경하지 말아야 하지만 초기 할당 설정으로 돌아갑니다. [!DNL eVar] 할당 설정을 통해 이전 데이터에 액세스할 수 있습니다. Adobe은 새 를 사용할 것을 권장합니다 [!DNL eVar] 에 대한 할당 설정을 변경하는 대신 이미 기록되고 있는 데이터에 새 할당 설정을 적용하려는 경우 [!DNL eVar] 여기에는 이미 상당한 양의 이전 데이터가 있습니다.
 
@@ -118,7 +118,7 @@ Adobe Advertising에서 연결된 클릭 날짜/이벤트 날짜(클릭 또는 �
 
 ### 의 다른 채널 속성 [!DNL Marketing Channels]
 
-Adobe Advertising 보고서는 Adobe Advertising을 통해 거래되는 유료 미디어만 캡처합니다(유료 검색 대상 [!DNL Advertising Search, Social, & Commerce] 광고 및 Advertising DSP 광고용 디스플레이), [!DNL Marketing Channels] 보고서는 모든 디지털 채널을 추적할 수 있습니다. 이로 인해 전환이 속하는 채널이 불일치할 수 있습니다.
+Adobe Advertising 보고서는 Adobe Advertising을 통해 거래되는 유료 미디어만 캡처합니다(유료 검색 대상 [!DNL Advertising Search, Social, & Commerce] 광고 및 Advertising DSP 광고 표시), [!DNL Marketing Channels] 보고서는 모든 디지털 채널을 추적할 수 있습니다. 이로 인해 전환이 속하는 채널이 불일치할 수 있습니다.
 
 예를 들어 유료 검색과 자연어 검색 채널은 각 채널이 상대방을 돕는 공생 관계를 맺는 경우가 많다. 다음 [!DNL Marketing Channels] 보고서는 자연어 검색을 추적하지 않기 때문에 Adobe Advertising이 하지 않는 자연어 검색에 대한 일부 전환을 기여합니다.
 
@@ -154,31 +154,60 @@ Adobe Advertising 보고서는 Adobe Advertising을 통해 거래되는 유료 �
 
 통합하려면 클릭스루 데이터의 유효성을 검사하여 사이트의 모든 페이지가 클릭스루를 제대로 추적하는지 확인해야 합니다.
 
-위치 [!DNL Analytics]를 검색하는 가장 쉬운 방법 중 하나 [!DNL Analytics for Advertising] 추적은 &quot;클릭 수&quot;를 사용하여 클릭 수를 인스턴스와 비교하는 것입니다. [!UICONTROL AMO ID Instances]&quot;계산된 지표: 다음과 같이 계산됩니다.
+위치 [!DNL Analytics]를 검색하는 가장 쉬운 방법 중 하나 [!DNL Analytics for Advertising] Adobe Advertising은 &quot;AMO ID 인스턴스: 클릭 수 비교&quot; 계산된 지표를 사용하여 인스턴스와 클릭 수를 비교하는 것입니다. 이 지표는 다음과 같이 계산됩니다.
 
 ```
-Clicks to [!UICONTROL AMO ID Instances] = ([!UICONTROL AMO ID Instances] / Adobe Advertising Clicks)
+AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
-[!UICONTROL AMO ID Instances] 다음 횟수를 나타냅니다. [AMO ID](ids.md) 사이트에서 추적됩니다. 광고를 클릭할 때마다 AMO ID(`s_kwcid`) 매개 변수가 랜딩 페이지 URL에 추가됩니다. 의 수 [!UICONTROL AMO ID Instances]따라서 는 클릭 수와 유사하며 실제 광고 클릭에 대해 확인할 수 있습니다. 에 대해 일반적으로 80%의 일치율이 표시됩니다. [!DNL Search, Social, & Commerce] 및 30%의 일치율 [!DNL DSP] 트래픽(클릭스루만 포함하도록 필터링될 때) [!UICONTROL AMO ID Instances]). 검색과 표시 간의 기대치 차이는 예상되는 트래픽 행태로 설명될 수 있다. 검색은 인텐트를 캡처하며, 따라서 사용자는 일반적으로 쿼리에서 검색 결과를 클릭하려고 합니다. 그러나 디스플레이 또는 온라인 비디오 광고를 보는 사용자는 의도하지 않게 광고를 클릭한 다음 사이트에서 바운스되거나 페이지 활동이 추적되기 전에 로드되는 새 창을 포기할 가능성이 높습니다.
+[!UICONTROL AMO ID Instances] 다음 횟수를 나타냅니다. [AMO ID](ids.md) 사이트에서 추적됩니다. 광고를 클릭할 때마다 AMO ID(`s_kwcid`) 매개 변수가 랜딩 페이지 URL에 추가됩니다. 의 수 [!UICONTROL AMO ID Instances]따라서 는 클릭 수와 유사하며 실제 광고 클릭에 대해 확인할 수 있습니다. 에 대해 일반적으로 85%의 일치율이 표시됩니다. [!DNL Search, Social, & Commerce] 및 30%의 일치율 [!DNL DSP] 트래픽(클릭스루만 포함하도록 필터링될 때) [!UICONTROL AMO ID Instances]). 검색과 표시 간의 기대치 차이는 예상되는 트래픽 행태로 설명될 수 있다. 검색은 인텐트를 캡처하며, 따라서 사용자는 일반적으로 쿼리에서 검색 결과를 클릭하려고 합니다. 그러나 디스플레이 또는 온라인 비디오 광고를 보는 사용자는 의도하지 않게 광고를 클릭한 다음 사이트에서 바운스되거나 페이지 활동이 추적되기 전에 로드되는 새 창을 포기할 가능성이 높습니다.
 
-Adobe Advertising 보고서에서 &quot;&quot;를 사용하여 클릭 수를 인스턴스와 유사하게 비교할 수 있습니다.[!UICONTROL ef_id_instances]대신 &quot;지표 [!UICONTROL AMO ID Instances]:
+Adobe Advertising 보고서에서 &quot;&quot;를 사용하여 인스턴스와 클릭 수를 유사하게 비교할 수 있습니다.[!UICONTROL EF ID Instances]대신 &quot;지표 [!UICONTROL AMO ID Instances]:
 
 ```
-Clicks to [EF ID Instances = (ef_id_instances / Clicks)
+EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 AMO ID와 EF ID 간의 높은 일치율을 예상해야 하지만, AMO ID와 EF ID는 근본적으로 다른 데이터를 추적하므로 100% 패리티를 예상하지 마십시오. 이러한 차이는 합계에 약간의 차이를 초래할 수 있습니다 [!UICONTROL AMO ID Instances] 및 [!UICONTROL EF ID Instances]. 합계인 경우 [!UICONTROL AMO ID Instances] 위치: [!DNL Analytics] 다음과 다름: [!UICONTROL EF ID Instances] 그러나 1% 이상 Adobe Advertising 시 도움이 필요하면 Adobe 계정 팀에 문의하십시오.
 
 AMO ID 및 EF ID에 대한 자세한 내용은 [Analytics에서 사용하는 Adobe Advertising ID](ids.md).
 
-다음은 인스턴스 클릭을 추적하는 작업 영역의 예입니다.
+<!--  Need to create a new report to show tracking instances to clicks, instead of clicks to instances as shown, and replace this screenshot.
 
-![인스턴스 클릭을 추적하는 작업 영역의 예](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+The following is an example of a workspace to track clicks to instances.
+
+![Example of a workspace to track clicks to instances to clicks](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+-->
+
+### 클릭과 인스턴스 간 불일치 문제 해결
+
+다음과 같은 경우 [!UICONTROL EF ID Instances]-에서-[!UICONTROL Adobe Advertising Clicks] 비율이 85% 미만이면 다음을 확인하십시오.
+
+* 계정 또는 하위 수준에 대한 클릭 추적이 누락되었거나 중복 클릭 추적이 있습니까(예: 계정 및 캠페인 수준 모두에서)?
+
+  검색, 소셜 및 Commerce에서 [일괄 시트 다운로드](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) 추적 URL을 확인할 계정용입니다.
+
+  또한, [!DNL Analytics], AMO ID 및 EF IF가 &quot;[!DNL AMO ID] 끝 [!DNL EF ID]&quot;계산된 지표: 다음과 같이 계산됩니다.
+
+  ```
+  [!DNL AMO ID] to [!DNL EF ID] = ([!UICONTROL AMO ID] / [!DNL EF ID])
+  ```
+
+  값이 100%보다 크면 AMO ID보다 더 많은 EF ID가 누락되었음을 나타냅니다.
+
+* AMO ID와 EF ID가 캡처되지 않도록 랜딩 페이지에 로드 문제가 있습니까?
+
+* AMO ID와 EF ID가 손실되도록 랜딩 페이지 URL이 리디렉션됩니까?
+
+* 모든 랜딩 페이지에서 구성된 보고서 세트를 사용합니까?
+
+>[!NOTE]
+>
+>이론적으로 한 인스턴스에 여러 번의 클릭이 있을 수 있습니다. 다른 장치(예: 데스크탑, 모바일 및 태블릿)에서 클릭이 있는지 확인하십시오.
 
 ## 의 데이터 세트 비교 [!DNL Analytics for Advertising] 및 Adobe Advertising
 
-다음 [AMO ID](ids.md) (s_kwcid 쿼리 문자열 매개 변수)가에서 보고에 사용됩니다. [!DNL Analytics]및 [EF ID](ids.md) Adobe Advertising 보고에 사용됩니다. 고유한 값이므로 하나의 값이 랜딩 페이지에 손상되거나 추가되지 않을 수 있습니다.
+다음 [AMO ID](ids.md) (s_kwcid 쿼리 문자열 매개 변수)가에서 보고에 사용됩니다. [!DNL Analytics]및 [EF ID](ids.md) (ef_id 쿼리 문자열 매개 변수)는 Adobe Advertising 보고에 사용됩니다. 고유한 값이므로 하나의 값이 랜딩 페이지에 손상되거나 추가되지 않을 수 있습니다.
 
 예를 들어 다음과 같은 랜딩 페이지가 있다고 가정합니다.
 
@@ -230,7 +259,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 또한 모바일 디바이스에 로드된 사이트는 낮은 대역폭이나 사용 가능한 처리 능력 때문에 클릭스루가 발생할 가능성이 낮으므로 랜딩 페이지를 로드하는 데 더 오래 걸립니다. 클릭 수의 50~70%가 클릭스루로 이어지지 않는 일은 드물지 않습니다. 모바일 환경에서는 브라우저가 느리고 사용자가 페이지를 스크롤하거나 광고를 닫으려고 하는 동안 실수로 광고를 클릭할 가능성이 높기 때문에 차이가 90%까지 클 수 있습니다.
 
-클릭 데이터는 현재 추적 메커니즘(예: 모바일 앱으로 들어가는 클릭 수 또는 모바일 앱에서의 클릭 수)으로 클릭스루를 기록할 수 없거나 광고주가 하나의 추적 접근 방식만 배포한 환경에 기록될 수 있습니다(예: 뷰스루 JavaScript 접근 방식을 사용할 경우 서드파티 쿠키를 차단하는 브라우저는 클릭스루를 추적하지만 추적하지 않음). Adobe에서 클릭 URL 추적 및 뷰스루 JavaScript 추적 접근 방식을 모두 배포하도록 권장하는 주요 이유는 추적 가능한 클릭스루의 범위를 최대화하기 위해서입니다.
+클릭 데이터는 현재 추적 메커니즘(예: 모바일 앱으로 들어가는 클릭 수 또는 모바일 앱으로부터의 클릭 수)으로 클릭스루를 기록할 수 없거나 광고주가 하나의 추적 접근 방식만 배포한 환경에 기록될 수 있습니다(예: 뷰스루 JavaScript 접근 방식을 사용하는 경우 서드파티 쿠키를 차단하는 브라우저는 클릭스루를 추적하지만 추적하지 않음). Adobe에서 클릭 URL 추적 및 뷰스루 JavaScript 추적 접근 방식을 모두 배포하도록 권장하는 주요 이유는 추적 가능한 클릭스루의 범위를 극대화하기 위해서입니다.
 
 ### 비 Adobe Advertising Dimension에 대한 Adobe Advertising 트래픽 지표 사용
 
