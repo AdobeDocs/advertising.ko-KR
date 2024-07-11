@@ -3,7 +3,7 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 644847918f6f6dd86dec80ad89128c31a0c0284b
+source-git-commit: 9a7d73a281dba1331f00dd9ff75fafdc057413d0
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 **[!UICONTROL Optimization Goal]:** (패키지 수준 게재 간격 전용 패키지) 패키지에 대한 최적화 목표입니다. 에서 각 최적화 목표에 대한 설명을 참조하십시오. [최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md).
 
-**[!UICONTROL Custom Goal for Model Learning]:** (가 포함된 패키지)[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 해당) A [사용자 정의 목표](/help/dsp/optimization/custom-goal.md) 여기에는 CPA 또는 ROAS 지표를 계산하는 데 사용되는 매출 또는 전환 이벤트가 포함됩니다. 사용자 지정 목표에는 패키지 최적화를 위한 CPA 또는 ROAS 지표 외에 사용할 추가 가중치가 적용된 상위 단계 이벤트(예: 페이지 방문 및 장바구니 추가)가 선택적으로 포함될 수 있습니다. 사용자 지정 목표 및 이를 사용하는 캠페인에 대한 모범 사례에 대한 자세한 내용은 다음을 참조하십시오. [사용자 지정 목표 빌드를 위한 우수 사례](/help/dsp/optimization/custom-goal.md#custom-goal-best-practices) 및 [성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md).<!-- At some point, all of the objectives will be prefixed with "ADSP " -->
+**[!UICONTROL Custom Goal for Model Learning]:** (가 포함된 패키지)[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 해당) A [사용자 정의 목표](/help/dsp/optimization/custom-goal.md) 여기에는 CPA 또는 ROAS 지표를 계산하는 데 사용되는 매출 또는 전환 이벤트가 포함됩니다. 사용자 지정 목표에는 패키지 최적화를 위한 CPA 또는 ROAS 지표 외에 사용할 추가 가중치가 적용된 상위 단계 이벤트(예: 페이지 방문 및 장바구니 추가)가 선택적으로 포함될 수 있습니다. 사용자 지정 목표 및 이를 사용하는 캠페인에 대한 생성 모범 사례를 포함하여 사용자 지정 목표에 대한 자세한 내용은 &quot;[사용자 정의 목표](/help/dsp/optimization/custom-goal.md)&quot; 및 &quot;[성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md).&quot;<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (선택 사항, &quot;가 포함된 패키지[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 해당) 최적화 모델에 클릭 기반 전환에서만 학습하도록 지시합니다. 그렇지 않으면 최적화 모델이 클릭 및 노출 기반 전환 모두에서 학습합니다.
 
