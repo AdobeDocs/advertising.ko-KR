@@ -3,9 +3,9 @@ title: 광고 네트워크에 목표 업로드 활성화
 description: 하이브리드 포트폴리오에 대한 목표를 업로드하는 방법을 알아봅니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 39936c6834012432447d3216d8463937996b0017
+source-git-commit: aaad3eb6cd33f4342c46ffb244227a00fbcb4e44
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Search, Social 및 Commerce은 광고주 계정의 포트폴리오에 대한 목
 
 ## 가중 목표 계산 방법
 
-광고 네트워크로 전달되는 가중 목표는 수집된 모든 지표 값의 합계이며, 추적된 전환은 예외입니다. [!DNL Google Ads] 또는 [!DNL Microsoft Advertising] 범용 이벤트 추적(UET) 태그입니다.
+광고 네트워크로 전달되는 가중 목표는 수집된 모든 지표 값의 합계이며, 추적된 전환은 예외입니다. [!DNL Google Ads] 또는 [!DNL Microsoft Advertising] 범용 이벤트 추적(UET) 태그입니다. 값은 광고주의 Search, Social 및 Commerce 계정에 대해 설정된 속성 방법을 사용하여 계산됩니다.
 
 예를 들어 목표의 목표 지표가 가중치가 25인 장바구니 추가이고, 지원 지표에는 가중치가 1인 GGL_Lead 및 매출 과 가중치가 0.5인 다운로드 가 있다고 가정해 보겠습니다.
 
@@ -70,6 +70,12 @@ Search, Social 및 Commerce은 광고주 계정의 포트폴리오에 대한 목
 * 5GGL_Lead
 
 GGL_Lead 는 Google 광고 추적 지표이므로 계산/업로드에 포함되지 않습니다. 따라서 가중 목적값은 ((10 x 25) + (500 x 1) + (50 x 0.5)) = 775로 계산된다.
+
+>[!TIP]
+>
+>광고 네트워크의 보고서 내에서 Adobe Advertising 가중 매출에 대한 데이터를 볼 수 있습니다. 가장 좋은 방법은 가중 수익을 [!DNL Google Ads] &quot;모든 conv. (conv에 의해. time)&quot; 지표 또는 [!DNL Microsoft Advertising] 지표 &quot;모든 conv. 매출&quot;을 O_ACS_OBJ* 지표로 분할했습니다.<!--clarify -->
+
+광고 네트워크의 편집기 내
 
 ## 누락된 목표 문제 해결
 
