@@ -3,23 +3,23 @@ title: 사용자 정의 목표
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 패키지에서 성공 이벤트를 정의하는 사용자 정의 목표에 대해 알아봅니다.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: ef732108b248995a6b321e991fa122caaa40e2fe
+source-git-commit: 42fca0c829c708281703a6a1ea59c42dc7ac9f0d
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
 
 # 사용자 정의 목표
 
-사용자 지정 목표는 광고주가 비즈니스 목표를 달성하는 데 필요한 성공 이벤트를 정의합니다. 최적화 목표 를 사용하는 각 패키지[!UICONTROL Highest Return on Ad Spend (ROAS)"] 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;은(는) 전체 최적화 목표를 달성하는 데 도움이 되도록 사용자 지정 목표를 포함해야 합니다. 다음과 같이 사용자 정의 목표를 생성할 수 있습니다. *목표* 위치: [!DNL Advertising Search, Social, & Commerce].
+사용자 지정 목표는 광고주가 비즈니스 목표를 달성하는 데 필요한 성공 이벤트를 정의합니다. 최적화 목표 를 사용하는 각 패키지[!UICONTROL Highest Return on Ad Spend (ROAS)"] 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;은(는) 전체 최적화 목표를 달성하는 데 도움이 되도록 사용자 지정 목표를 포함해야 합니다. 다음과 같이 사용자 정의 목표를 생성할 수 있습니다. *목표* 위치: [!DNL Advertising Search, Social, & Commerce]. DSP의 각 목표의 이름 앞에는 &quot;ADSP_&quot;가 붙어야 합니다.
 
 <!-- update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-각 사용자 지정 목표(목표)는 하나 이상의 전환 지표와 해당 지표의 상대적 가중치로 구성됩니다. DSP 사용자 지정 목표에는 비모바일 가중치만 고려됩니다. 사용 가능한 전환 지표에는 Adobe Advertising 전환 픽셀을 사용하여 Adobe Analytics을 통해 추적된 모든 지표가 포함됩니다.
+각 사용자 지정 목표(목표)는 하나 이상의 전환 지표와 해당 지표의 상대적 가중치로 구성됩니다. 사용 가능한 전환 지표에는 Adobe Advertising 전환 픽셀을 사용하여 Adobe Analytics을 통해 추적된 모든 지표가 포함됩니다. DSP 사용자 지정 목표에는 비모바일 가중치만 고려되지만 모든 광고 유형에 사용됩니다.
 
 예를 들어 세 개의 전환 지표가 캠페인 중 하나의 특정 패키지와 관련이 있다고 가정해 보겠습니다. &quot;PDF 다운로드&quot;(20 USD), &quot;이메일 등록&quot;(30 USD) 및 &quot;주문 확인&quot;(40 USD)입니다. 고객 조치의 일회성 통화 가치에 따라 가중치를 부여하려면 지표의 상대 가중치는 1, 1.5 및 2가 됩니다.
 
