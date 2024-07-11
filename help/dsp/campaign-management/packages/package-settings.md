@@ -3,7 +3,7 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 9a7d73a281dba1331f00dd9ff75fafdc057413d0
+source-git-commit: ab3118901b7cd88776f7c0ce8038b928118a7555
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 >* 이 패키지에 할당된 모든 배치에 대한 비행 날짜는 이 날짜 내에 포함되어야 합니다.
 > * 사용자 지정 플라이팅이 활성화된 경우 패키지 시작 날짜를 편집할 수 없습니다.
 
-**[!UICONTROL *Activate Custom Flighting]:** 에서 패키지의 비균일 게재 항공편을 만들 수 있습니다. [!UICONTROL Flighting] 아래 섹션. 사용자 정의 조명을 활성화하고 패키지를 저장하면 사용자 정의 조명을 비활성화하거나 패키지 시작 날짜를 편집할 수 없습니다.
+**[!UICONTROL Activate Custom Flighting]:** 에서 패키지의 비균일 게재 항공편을 만들 수 있습니다. [!UICONTROL Flighting] 아래 섹션. 사용자 정의 조명을 활성화하고 패키지를 저장하면 사용자 정의 조명을 비활성화하거나 패키지 시작 날짜를 편집할 수 없습니다.
 
 **[!UICONTROL Budget]:** (패키지 수준 게재 간격 전용 패키지) 총 예산 상한 및 예산 간격.
 
