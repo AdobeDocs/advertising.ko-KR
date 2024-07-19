@@ -20,13 +20,13 @@ ht-degree: 0%
 
 * 콘텐츠와 시장 변화가 사이트 트래픽의 가치를 빠르게 변화시킬 수 있으므로 캠페인에서 웹 사이트를 제외하는 것은 신중해야 합니다.
 
-키워드 및 캠페인 설정 조정에 대한 자세한 내용은 검색, 소셜 및 Commerce 내에서 사용할 수 있는 최적화 안내서의 Portfolio 섹션에서 &quot;포트폴리오 전략 조정&quot;을 참조하십시오.<!-- verify convention for referencing Optimization Guide here -->
+키워드 및 캠페인 설정 조정에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 최적화 안내서의 Portfolio 섹션에서 &quot;포트폴리오 전략 조정&quot;을 참조하십시오.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >
->포트폴리오의 캠페인과 관련된 자세한 우수 사례는 최적화 안내서 > Portfolio 관리 > Portfolio 우수 사례 섹션을 참조하십시오(검색, 소셜 및 Commerce 내에서 사용 가능).<!-- verify convention for referencing Optimization Guide here -->
+>포트폴리오의 캠페인에 대한 자세한 우수 사례를 보려면 최적화 안내서 > Portfolio 관리 > Portfolio 우수 사례 섹션도 참조하십시오. 이 섹션은 Search, Social 및 Commerce 내에서 사용할 수 있습니다.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >
->* [유효한 텍스트 광고 사본 작성](best-practices-write.md)
+>* [유효한 텍스트 광고 복사본 작성](best-practices-write.md)
 >* [웹 사이트 랜딩 페이지 최적화](best-practices-optimize.md)

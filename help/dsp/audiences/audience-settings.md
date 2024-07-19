@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Adobe 세그먼트
 
-(선택 사항) 모두 [!DNL Adobe Real-Time Customer Data Platform]대상 구성에 포함할 , Adobe Analytics 또는 Adobe Audience Manager 세그먼트.
+(선택 사항) 대상 구성에 포함할 모든 [!DNL Adobe Real-Time Customer Data Platform], Adobe Analytics 또는 Adobe Audience Manager 세그먼트.
 
 ## 사용자 지정 세그먼트
 
@@ -34,10 +34,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [대상자 관리 기본 정보](audience-about.md)
+>* [대상자 관리 정보](audience-about.md)
 >* [재사용 가능한 대상 만들기](reusable-audience-create.md)
 >* [사용 가능한 타사 데이터 공급자](third-party-data-providers.md)
->* [대상 세그먼트 논리 구문](audience-segment-logic-syntax.md)
+>* [대상 세그먼트 논리에 대한 구문](audience-segment-logic-syntax.md)
 >* [사용자 지정 세그먼트 만들기 및 구현](custom-segment-create.md)
->* [만들기 및 구현 [!UICONTROL CCPA Opt-Out-of-Sale] 세그먼트](ccpa-opt-out-segment-create.md)
+>* [[!UICONTROL CCPA Opt-Out-of-Sale] 세그먼트 만들기 및 구현](ccpa-opt-out-segment-create.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)

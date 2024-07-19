@@ -1,11 +1,11 @@
 ---
 title: 시스템 요구 사항
 description: 소프트웨어 및 계정 요구 사항에 대해 알아봅니다.
-exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
+exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: 2fc49a64366ee9fbf05b5eb4bbda37badcf9b763
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 * 다음 브라우저 중 하나
 
-   * [!DNL Apple Safari] (포함) [!DNL Safari] 대상 [!DNL iOS]) 10 이상
+   * [!DNL Apple Safari]([!DNL iOS]의 [!DNL Safari] 포함) 10 이상
 
    * [!DNL Google Chrome] 103 이상
 
    * [!DNL Microsoft Edge] 104 이상
 
-   * [!DNL Mozilla Firefox] 102 이상 [!DNL Mozilla Firefox Extended Support Release] 91.11 이상
+   * [!DNL Mozilla Firefox] 102 이상; [!DNL Mozilla Firefox Extended Support Release] 91.11 이상
 
-* (내보낸 파일을 XLS 형식으로 보려면) [!DNL Microsoft Excel] 추천
+* (내보낸 파일을 XLS 형식으로 보려면) [!DNL Microsoft Excel] 권장
 
-  다음 이외의 응용 프로그램을 사용하는 경우 [!DNL Microsoft Excel] 내보낸 XLS 파일을 보려면 숫자, 날짜, 시간 및 통화 형식이 올바르지 않을 수 있습니다.
+  [!DNL Microsoft Excel] 이외의 응용 프로그램을 사용하여 내보낸 XLS 파일을 보는 경우 숫자, 날짜, 시간 및 통화 형식이 올바르지 않을 수 있습니다.
 
 ## 사용자 이름 및 암호
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### 브라우저 사이트 설정
 
-일부 광고/자산 유형에 대한 이미지 미리 보기를 보려면 `efrontier.com` 사이트에 예외를 허용하여 도메인을 설정합니다. 설치한 광고 차단기 브라우저 확장에 대한 설정을 편집하여 브라우저의 사이트/웹 사이트 설정 또는 (Firefox에서) 광고 차단기를 관리합니다.
+일부 광고/자산 유형에 대한 이미지 미리 보기를 보려면 사이트에 대한 예외를 허용하여 `efrontier.com` 도메인에 대한 광고 차단기/콘텐츠 차단기를 비활성화하십시오. 설치한 광고 차단기 브라우저 확장에 대한 설정을 편집하여 브라우저의 사이트/웹 사이트 설정 또는 (Firefox에서) 광고 차단기를 관리합니다.
 
 ### 컴퓨터 및 브라우저 언어 설정
 

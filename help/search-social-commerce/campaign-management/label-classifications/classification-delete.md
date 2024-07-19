@@ -1,11 +1,11 @@
 ---
 title: 레이블 분류 삭제
 description: 레이블 분류를 삭제하는 방법을 알아봅니다.
-exl-id: 4d00bda7-e3a6-4558-b818-5ccd45d0eb5b
+exl-id: ae10ff69-67ab-4eac-a78d-8af4923c7093
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->계정 구성 요소에서 분류 값의 연결을 간단하게 해제하려면, &quot;[캠페인 구성 요소에서 분류 값 제거](classification-values-remove.md).&quot;
+>계정 구성 요소에서 분류 값의 연결을 해제하려면 &quot;[캠페인 구성 요소에서 분류 값 제거](classification-values-remove.md)&quot;를 참조하십시오.
 
-1. 클릭 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
+1. **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 레이블 분류를 포함하도록 목록을 필터링합니다.
 
@@ -26,17 +26,17 @@ ht-degree: 0%
 
    한 번에 최대 200개의 행을 삭제할 수 있습니다.
 
-   여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
 
-1. 데이터 테이블 위의 도구 모음에서 ![삭제](/help/search-social-commerce/assets/delete.png "삭제").
+1. 데이터 테이블 위의 도구 모음에서 ![삭제](/help/search-social-commerce/assets/delete.png "삭제")를 클릭합니다.
 
-1. 확인 메시지에서 다음을 클릭합니다. **[!UICONTROL Delete]**.
+1. 확인 메시지에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
 >* [레이블 분류 정보](classification-about.md)
 >* [레이블 분류 만들기](classification-create.md)
->* [캠페인 관리 보기에서 계정 구성 요소에 분류 값 할당](classification-values-assign-campaign-management.md)
+>* [캠페인 관리 보기에서 계정 구성 요소에 분류 값을 할당](classification-values-assign-campaign-management.md)
 >* [일괄 시트를 사용하여 계정 구성 요소에 분류 값 할당](classification-values-assign-bulksheets.md)
 >* [계정 구성 요소에서 레이블 분류 값 제거](classification-values-remove.md)
 >* [레이블 분류 값 삭제](classification-values-delete.md)

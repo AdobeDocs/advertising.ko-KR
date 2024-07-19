@@ -14,23 +14,23 @@ ht-degree: 0%
 
 동일한 캠페인 내에서 광고를 복제할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
 1. 캠페인의 이름을 클릭합니다.
 
-1. 하위 메뉴에서 **[!UICONTROL Ads]**.
+1. 하위 메뉴에서 **[!UICONTROL Ads]**&#x200B;을(를) 클릭합니다.
 
-1. 광고 이름 옆에 있는 를 클릭합니다.  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
+1. 광고 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 
 1. 새 광고 설정을 지정합니다.
 
-   1. (선택 사항) 기본 광고 이름을 변경합니다. 기본적으로 새 광고는 &quot;Copy of \&lt;*원래 광고 이름*\>.&quot;
+   1. (선택 사항) 기본 광고 이름을 변경합니다. 기본적으로 새 광고는 &quot;Copy of \&lt;*original ad name*\>&quot;입니다.
 
-   1. (선택 사항) 다음에 대한 광고 설정 변경 [오디오 광고](ad-settings-audio.md), [연결된 TV](ad-settings-connected-tv.md), [디스플레이 광고](ad-settings-display.md), [모바일 광고](ad-settings-mobile.md), [기본 광고](ad-settings-native.md), [프리롤 광고](ad-settings-pre-roll.md), 또는 [범용 비디오 광고](ad-settings-universal-video.md).
+   1. (선택 사항) [오디오 광고](ad-settings-audio.md), [연결된 TV](ad-settings-connected-tv.md), [디스플레이 광고](ad-settings-display.md), [모바일 광고](ad-settings-mobile.md), [기본 광고](ad-settings-native.md), [프리롤 광고](ad-settings-pre-roll.md) 또는 [범용 비디오 광고](ad-settings-universal-video.md)에 대한 광고 설정을 변경합니다.
 
-1. 클릭 **[!UICONTROL Save & Submit for Review]**.
+1. **[!UICONTROL Save & Submit for Review]**&#x200B;을(를) 클릭합니다.
 
-   다음 [광고 리뷰](ad-about.md) 새 광고는 24~48시간이 소요되며 중요한 카테고리에 대한 검사, URL 기능 클릭 및 렌더링 미리 보기가 포함됩니다. 다음 [!UICONTROL Status] 열은 DSP이 광고를 승인했는지 여부를 나타냅니다. 끊어진 광고는 24-48시간 이상 보류 상태일 수 있으므로 오류를 수정하고 거부할 수 있습니다.
+   새 광고에 대한 [광고 검토](ad-about.md)는 24~48시간이 소요되며 중요한 범주, 클릭 URL 기능 및 미리 보기 렌더링 확인을 포함합니다. [!UICONTROL Status] 열은 DSP이 광고를 승인했는지 여부를 나타냅니다. 끊어진 광고는 24-48시간 이상 보류 상태일 수 있으므로 오류를 수정하고 거부할 수 있습니다.
 
    >[!NOTE]
    >
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [광고 관리 기본 정보](ad-about.md)
+>* [광고 관리 정보](ad-about.md)
 >* [단일 광고 만들기](ad-create.md)
 >* [여러 타사 광고 만들기](ad-create-multiple.md)
 >* [광고 편집](ad-edit.md)

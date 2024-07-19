@@ -1,9 +1,9 @@
 ---
 title: 이 안내서 정보
 description: 이 안내서의 각 장에서 다루는 내용을 알아봅니다.
-exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
+exl-id: 45fe7952-42c3-4479-b25f-6ab5fd218c45
 feature: Search Introduction
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 특정 작업 그룹 및 기타 정보에 대한 정보는 다음 도움말 장에서 확인할 수 있습니다.
 
-* &quot;소개&quot;는 광고 검색, 소셜 및 상거래의 주요 기능을 소개합니다.
+* &quot;소개&quot;에서는 Advertising 검색, 소셜 및 Commerce의 주요 기능을 소개합니다.
 
 * &quot;시작하기&quot;에서는 초기 론치 설정부터 지속적인 관리 작업 수행까지 광고주 구현에 관련된 주요 작업과 사용자 인터페이스가 구성되는 방식을 설명합니다.
 
@@ -26,10 +26,10 @@ ht-degree: 0%
 
 * &quot;인사이트 및 보고서&quot;에서는 광고 인사이트 생성, 세부 보고서 생성 및 보고서 프로덕션 자동화, 경고 생성 및 모니터링, 광고주 계정에 대한 변경 사항 로그 보기, 계정에 대해 광고 네트워크에서 생성한 권장 사항 보기 및 적용 방법을 설명합니다.
 
-* &quot;도구&quot;에서는 암호를 변경하고 도구를 사용하여 클릭 추적 및 전환 추적 태그를 생성하고 전환 지표를 업로드하는 방법을 설명합니다. [!DNL Google Ads] 하이브리드 최적화를 위해 광고 네트워크에 대한 포트폴리오 목표, 추적 캠페인을 위한 지표 업로드 및 복제 [!DNL Google Ads] 의 캠페인 [!DNL Microsoft Advertising] 계정.
+* &quot;도구&quot;에서는 암호를 변경하고, 도구를 사용하여 클릭 추적 및 전환 추적 태그를 생성하고, 전환 지표를 [!DNL Google Ads]에 업로드하고, 포트폴리오 목표를 하이브리드 최적화를 위해 광고 네트워크에 업로드하고, 추적 캠페인을 위한 지표를 업로드하고, [!DNL Microsoft Advertising] 계정에서 [!DNL Google Ads] 캠페인을 복제하는 방법에 대해 설명합니다.
 
-* &quot;관리&quot;에서는 수집된 전환 지표 및 포트폴리오 예측에서 제외할 날짜를 포함하여 광고주 데이터를 관리하는 방법을 설명합니다. 에서 전환 지표를 동기화합니다. [!DNL Google Analytics] 계정; 다양한 광고주 수준 설정을 구성하고 (일부 역할) 사용자, 에이전시 및 광고주 계정을 관리합니다.
+* &quot;관리&quot;에서는 수집된 전환 지표 및 포트폴리오 예측에서 제외할 날짜를 포함하여 광고주 데이터를 관리하는 방법, [!DNL Google Analytics] 계정에서 전환 지표를 동기화하는 방법, 다양한 광고주 수준 설정을 구성하는 방법, (일부 역할) 사용자, 에이전시 및 광고주 계정을 관리하는 방법에 대해 설명합니다.
 
 >[!NOTE]
 >
->입찰에 포트폴리오 사용을 포함한 최적화에 대한 도움말은 [!UICONTROL Help] 메뉴 (![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴"))을 클릭하여 제품에서 사용할 수 있습니다.
+>입찰에 포트폴리오 사용을 포함하여 최적화에 대한 도움말은 Search, Social 및 Commerce 내 모든 페이지의 오른쪽 상단에 있는 [!UICONTROL Help] 메뉴(![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴"))에서 사용할 수 있습니다.

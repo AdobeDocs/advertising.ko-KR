@@ -12,18 +12,18 @@ ht-degree: 1%
 
 # 키보드 단축키
 
-배치 설정 내에서 키보드 단축키를 사용하여 빠르게 탐색합니다<!-- and to create ads and placements -->.
+배치 설정 내에서 키보드 단축키를 사용하여 <!-- and to create ads and placements -->을(를) 빠르게 탐색합니다.
 
 | 적용 가능한 페이지 | 단축키 | 설명 |
 | ---------------| ----------- | ---------------------- |
-| 배치 설정 | o | 다음으로 이동 [!UICONTROL Goals] 설정 |
-| 배치 설정 | g | 다음으로 이동 [!UICONTROL Geos] 설정 |
-| 배치 설정 | i | 다음으로 이동 [!UICONTROL Inventory] 설정 |
-| 배치 설정 | s | 다음으로 이동 [!UICONTROL Sites] 설정 |
-| 배치 설정 | a | 다음으로 이동 [!UICONTROL Audience] 설정 |
-| 배치 설정 | b | 다음으로 이동 [!UICONTROL Brand Safety] 설정 |
-| 배치 설정 | t | 다음으로 이동 [!UICONTROL Tracking] 설정 |
-| 배치 설정 | l | 다음으로 이동 [!UICONTROL Adobe Labs] 설정 |
+| 배치 설정 | o | [!UICONTROL Goals] 설정으로 이동합니다. |
+| 배치 설정 | g | [!UICONTROL Geos] 설정으로 이동합니다. |
+| 배치 설정 | i | [!UICONTROL Inventory] 설정으로 이동합니다. |
+| 배치 설정 | s | [!UICONTROL Sites] 설정으로 이동합니다. |
+| 배치 설정 | a | [!UICONTROL Audience] 설정으로 이동합니다. |
+| 배치 설정 | b | [!UICONTROL Brand Safety] 설정으로 이동합니다. |
+| 배치 설정 | t | [!UICONTROL Tracking] 설정으로 이동합니다. |
+| 배치 설정 | l | [!UICONTROL Adobe Labs] 설정으로 이동합니다. |
 
 {style="table-layout:auto"}
 

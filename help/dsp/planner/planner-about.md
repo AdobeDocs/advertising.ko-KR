@@ -26,16 +26,16 @@ ht-degree: 0%
 
 ![계획자 예측](/help/dsp/assets/planner-forecast.png "계획자 예측")
 
-예측 결과에는 [!UICONTROL Inventory Breakdown] 섹션에는 다양한 게시자가 중요한 검색 기회를 제공하여 고유한 도달 범위에 기여하는 방식이 표시됩니다.
+또한 예측 결과에는 다양한 게시자가 고유한 도달 범위에 기여하여 중요한 검색 기회를 제공하는 방법을 보여 주는 [!UICONTROL Inventory Breakdown] 섹션도 포함됩니다.
 
 >[!NOTE]
 >
->* 다음 [!UICONTROL Inventory Breakdown] 섹션에는 전용 및 [!UICONTROL On Demand] 인벤토리.
+>* [!UICONTROL Inventory Breakdown] 섹션에는 개인 및 [!UICONTROL On Demand] 인벤토리에 대한 데이터만 표시됩니다.
 >* 두 게시자에 대해 표시되는 예상 고유 도달 거리는 겹칠 수 있습니다.
 
 ## 플래너 보기
 
-다음에서 [!UICONTROL Planner] 보기, 기존 CTV 도달 계획을 보고 새 계획을 만들 수 있습니다.
+[!UICONTROL Planner] 보기에서 기존 CTV 도달 계획을 보고 새 계획을 만들 수 있습니다.
 
 모든 계획에 대한 예측을 편집, 복제, 내보내기, 보관 또는 재생성할 수도 있습니다.
 
@@ -43,13 +43,13 @@ ht-degree: 0%
 
 +++플래너 툴은 어떤 유형의 인벤토리를 지원합니까?
 
-플래너 도구는 PG(프로그래밍 방식 보장), PMP(비공개 마켓플레이스), [!UICONTROL On Demand]및 공용 정확한 예측을 생성하려면 지난 7일 동안 최소 50,000번의 노출 횟수를 처리하는 것이 포함됩니다.
+플래너 도구는 프로그램 보증(PG), 비공개 마켓플레이스(PMP), [!UICONTROL On Demand] 및 공개 등 모든 유형의 인벤토리를 지원합니다. 정확한 예측을 생성하려면 지난 7일 동안 최소 50,000번의 노출 횟수를 처리하는 것이 포함됩니다.
 
 +++
 
-+++왜 내가 &quot;[!UICONTROL Unable to generate forecast]?&quot;
++++[!UICONTROL Unable to generate forecast]이(가) 표시되는 이유는 무엇입니까?
 
-이 오류의 가장 일반적인 이유 중 하나는 예산 또는 최대 입찰이 충분하지 않기 때문입니다. 최상의 결과를 얻으려면 최소 5000달러의 예산을 사용하십시오. 다음과 같은 경우 [!UICONTROL Connected TV] 미디어 유형을 선택한 경우, 최소 10USD의 최대 입찰가를 입력하십시오.
+이 오류의 가장 일반적인 이유 중 하나는 예산 또는 최대 입찰이 충분하지 않기 때문입니다. 최상의 결과를 얻으려면 최소 5000달러의 예산을 사용하십시오. [!UICONTROL Connected TV] 미디어 유형을 선택한 경우 최소 10USD의 최대 입찰가를 입력하십시오.
 
 또한 포함된 게시자 또는 거래가 활성 상태이고 최근 노출 활동이 있는지 확인하십시오.
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 +++계획자 예측 결과를 저장할 수 있습니까?
 
-예. 예측을 로 내보낼 수 있습니다. [!DNL Microsoft Excel] 를 클릭하여 스프레드시트 만들기 **[!UICONTROL ...]** > **[!UICONTROL Export]** 오른쪽 상단에 있습니다. 스프레드시트는 다음 두 데이터 열을 사용하여 도달 예산 곡선에 표시된 정보를 캡처합니다. [!UICONTROL Budget] 및 [!UICONTROL Reach].
+예. 오른쪽 상단의 **[!UICONTROL ...]** > **[!UICONTROL Export]**&#x200B;을(를) 클릭하여 예측을 [!DNL Microsoft Excel] 스프레드시트로 내보낼 수 있습니다. 스프레드시트는 [!UICONTROL Budget] 및 [!UICONTROL Reach] 데이터 열을 사용하여 도달 예산 곡선에 표시된 정보를 캡처합니다.
 
 >[!MORELIKETHIS]
 >
@@ -78,6 +78,6 @@ ht-degree: 0%
 >* [연결된 TV 도달 계획 복제](planner-duplicate.md)
 >* [연결된 TV 도달 계획 편집](planner-edit.md)
 >* [연결된 TV 도달 계획 내보내기](planner-export.md)
->* [연결된 TV 도달 계획에 대한 예측 재생성](planner-forecast.md)
+>* [연결된 TV 도달 계획에 대한 예측 다시 생성](planner-forecast.md)
 >* [연결된 TV 도달 계획 보관](planner-archive.md)
 >* [연결된 TV 도달 계획에 대한 설정](planner-settings.md)

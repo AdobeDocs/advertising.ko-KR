@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ## 라이브 배치 일시 중지
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 1. 캠페인의 이름을 클릭합니다.
-1. 하위 메뉴에서 **[!UICONTROL Placements]**.
-1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. 하위 메뉴에서 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
+1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Pause]**&#x200B;을(를) 클릭합니다.
 
 ## 일시 중지된 배치 활성화
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 1. 캠페인의 이름을 클릭합니다.
-1. 하위 메뉴에서 **[!UICONTROL Placements]**.
-1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. 하위 메뉴에서 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
+1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Activate]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >

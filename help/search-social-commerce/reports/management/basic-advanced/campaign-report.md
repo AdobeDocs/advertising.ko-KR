@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Campaign Report]'
-description: 에 대해 알아보기 [!UICONTROL Campaign Report].
-exl-id: a241535a-d32a-4f84-9e0e-addb68d75496
+description: '[!UICONTROL Campaign Report]에 대해 알아봅니다.'
+exl-id: c0cbdacc-2fa3-4eca-9355-6b3547d83802
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Campaign Report]
 
-다음 [!UICONTROL Campaign Report] 에는 키워드가 있는 하나 이상의 캠페인에 대한 비용, 클릭 및 (선택 사항) 전환 데이터가 포함되어 있습니다. 기본적으로, 데이터는 지정된 날짜 범위의 각 시간 단위에 대해 적용 가능한 각 캠페인에 대해 하나의 행을 포함하며, 행은 먼저 캠페인에 의해 오름차순으로 정렬되었다가 포트폴리오에 의해 (적용 가능한 경우) 오름차순으로 정렬됩니다.
+[!UICONTROL Campaign Report]에는 키워드가 있는 하나 이상의 캠페인에 대한 비용, 클릭 및 (선택적으로) 전환 데이터가 포함됩니다. 기본적으로, 데이터는 지정된 날짜 범위의 각 시간 단위에 대해 적용 가능한 각 캠페인에 대해 하나의 행을 포함하며, 행은 먼저 캠페인에 의해 오름차순으로 정렬되었다가 포트폴리오에 의해 (적용 가능한 경우) 오름차순으로 정렬됩니다.
 
 광고주별 레이블 분류를 선택적으로 포함할 수 있습니다.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 기본 열
 
-모든 기본 및 사용자 지정 열에 대한 설명은 &quot;[기본 및 고급 보고서용 보고서 열](basic-advanced-report-columns.md).&quot;
+모든 기본 및 사용자 지정 열에 대한 설명은 &quot;[기본 및 고급 보고서에 대한 보고서 열](basic-advanced-report-columns.md)&quot;을 참조하십시오.
 
 * [!UICONTROL Campaign]
 * [!UICONTROL Portfolio]

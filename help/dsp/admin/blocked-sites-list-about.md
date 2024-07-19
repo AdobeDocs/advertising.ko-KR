@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* DSP 외에 계정 수준 및 광고주 수준의 차단된 사이트 목록이 적용됩니다 [전역적으로 차단된 사이트 목록](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites): 광고에는 안전하지 않은 것으로 간주되는 사이트가 포함됩니다.
+>* 계정 수준 및 광고주 수준의 차단된 사이트 목록은 DSP [전역적으로 차단된 사이트 목록](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites) 외에 적용되며, 여기에는 광고에서 안전하지 않은 것으로 간주되는 사이트가 포함됩니다.
 >* 또한 타깃팅된 사이트를 모든 배치에 추가할 수 있습니다.
 >* 차단된 사이트 목록은 항상 타겟팅된 사이트 목록보다 우선 적용됩니다. 배치가 둘 다 광고에 대한 동일한 타겟을 제외하고 포함하면 타겟은 제외됩니다.
 

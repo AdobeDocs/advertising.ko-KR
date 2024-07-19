@@ -18,8 +18,8 @@ ht-degree: 0%
 
 ## 캠페인 일시 중지
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
-1. 캠페인 이름 옆에 있는  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+1. 캠페인 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Pause]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
 >
@@ -27,8 +27,8 @@ ht-degree: 0%
 
 ## 캠페인 활성화
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
-1. 캠페인 이름 옆에 있는  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+1. 캠페인 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Activate]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >

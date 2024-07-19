@@ -5,8 +5,8 @@ feature: DSP Custom Reports
 exl-id: 20542bf8-69e9-44e0-9637-56b27f2de9ec
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 1%
+source-wordcount: '88'
+ht-degree: 0%
 
 ---
 
@@ -14,21 +14,20 @@ ht-degree: 1%
 
 사용자 지정 보고서를 복제하여 유사한 설정으로 새 보고서를 만듭니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Reports]**.
+1. 주 메뉴에서 **[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다.
 
-1. 보고서 행에 대한 옵션 열에서 **[!UICONTROL options]** > **[!UICONTROL Copy]**.
+1. 보고서 행의 옵션 열에서 **[!UICONTROL options]** > **[!UICONTROL Copy]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) [보고서 설정](/help/dsp/reports/report-settings.md) 필요한 경우.
+1. (선택 사항) 필요에 따라 [보고서 설정](/help/dsp/reports/report-settings.md)을 편집합니다.
 
-   보고서 이름은 기본적으로 &quot;\&lt;*기존 보고서 이름*\> \#2&quot;(또는 시퀀스의 다음 번호).
+   보고서 이름은 기본적으로 &quot;\&lt;*기존 보고서 이름*\> \#2&quot;(또는 시퀀스의 다음 번호)입니다.
 
-1. 클릭 **[!UICONTROL Copy Custom Report]**
+1. **[!UICONTROL Copy Custom Report]** 클릭
 
 >[!MORELIKETHIS]
 >
->* [사용자 정의 보고서 정보](/help/dsp/reports/report-about.md)
+>* [사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)
 >* [사용자 지정 보고서 만들기](/help/dsp/reports/report-create.md)
 >* [사용자 지정 보고서 편집](/help/dsp/reports/report-edit.md)
 >* [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
 >* [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
-

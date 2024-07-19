@@ -6,17 +6,17 @@ exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
 source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # 패키지 편집
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
-1. 캠페인 이름을 클릭하여 [!UICONTROL Packages] 보기.
-1. 패키지 이름 옆에 있는  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
-1. 편집 [패키지 설정](package-settings.md).
-1. 클릭 **[!UICONTROL Save and Close]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL Packages] 보기를 열려면 캠페인 이름을 클릭하십시오.
+1. 패키지 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. [패키지 설정](package-settings.md)을(를) 편집합니다.
+1. **[!UICONTROL Save and Close]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
@@ -26,4 +26,3 @@ ht-degree: 1%
 >* [패키지에 대한 변경 로그 보기](package-change-log.md)
 >* [패키지 일시 중지 또는 활성화](package-pause-activate.md)
 >* [패키지 설정](package-settings.md)
-

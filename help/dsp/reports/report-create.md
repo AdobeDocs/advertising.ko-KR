@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # 사용자 지정 보고서 만들기
 
-1. 메인 메뉴에서 **[!UICONTROL Reports]**.
-1. 클릭 **[!UICONTROL New Custom Report]**.
-1. 다음을 지정합니다. [보고서 설정](/help/dsp/reports/report-settings.md).
-1. 클릭 **[!UICONTROL Create Custom Report]**.
+1. 주 메뉴에서 **[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL New Custom Report]**&#x200B;을(를) 클릭합니다.
+1. [보고서 설정](/help/dsp/reports/report-settings.md)을 지정하십시오.
+1. **[!UICONTROL Create Custom Report]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
->* [사용자 정의 보고서 정보](/help/dsp/reports/report-about.md)
+>* [사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)
 >* [사용자 지정 보고서 복제](/help/dsp/reports/report-copy.md)
 >* [사용자 지정 보고서 편집](/help/dsp/reports/report-edit.md)
 >* [사용자 지정 보고서 삭제](/help/dsp/reports/report-delete.md)

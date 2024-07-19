@@ -15,14 +15,14 @@ ht-degree: 0%
 재사용 가능한 대상을 만들 때 영숫자 세그먼트 ID(키)와 다음 구문을 사용하여 세그먼트 논리를 수동으로 정의할 수 있습니다.
 
 * () 그룹을 나타냅니다.
-* `||` 대상 [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
-* &amp;&amp; [!DNL AND]
-* ! 대상 [!DNL NOT] (제외)
+* [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->에 대한 `||`
+* [!DNL AND]에 대한 &amp;&amp;
+* ! 대상: [!DNL NOT](제외)
 
 >[!NOTE]
 >
 >* 앞에 ! (이들 제외).
->* 다음을 수행할 수 있습니다. [대상에 대한 세그먼트 ID 찾기](reusable-audience-clipboard.md) 출처: [!UICONTROL Audiences] > [!UICONTROL All audiences].
+>* [!UICONTROL Audiences] > [!UICONTROL All audiences]에서 [대상자의 세그먼트 ID를 찾을 수 있습니다](reusable-audience-clipboard.md).
 
 예를 들어, 다음 논리는
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [재사용 가능한 대상의 세그먼트 키를 클립보드에 복사](reusable-audience-clipboard.md)
->* [대상자 관리 기본 정보](audience-about.md)
+>* [대상자 관리 정보](audience-about.md)
 >* [재사용 가능한 대상 만들기](reusable-audience-create.md)
->* [대상자 설정](audience-settings.md)
+>* [대상 설정](audience-settings.md)
 >* [사용 가능한 타사 데이터 공급자](third-party-data-providers.md)

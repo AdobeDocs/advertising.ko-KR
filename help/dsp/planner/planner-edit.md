@@ -14,17 +14,17 @@ ht-degree: 0%
 
 계획 설정을 편집하면 새 예측이 생성됩니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Planner]**.
+1. 주 메뉴에서 **[!UICONTROL Planner]**&#x200B;을(를) 클릭합니다.
 
-1. 계획 행 위에 커서를 놓고 **[!UICONTROL Edit]**.
+1. 계획 행 위에 커서를 놓고 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. 편집 [플랜 설정](planner-settings.md).
+1. [플랜 설정](planner-settings.md)을(를) 편집합니다.
 
-1. 클릭 **[!UICONTROL Save and Forecast]**.
+1. **[!UICONTROL Save and Forecast]**&#x200B;을(를) 클릭합니다.
 
    계획을 저장하면 예측된 출력이 표시됩니다.
 
-1. (선택 사항) 내보내려면 [!UICONTROL Budget vs Reach] 에 대한 예측 [!DNL Microsoft Excel] spreadsheet**, 클릭 **[!UICONTROL ...]** 오른쪽 상단에서 **[!UICONTROL Export]**.
+1. (선택 사항) [!UICONTROL Budget vs Reach] 예측을 [!DNL Microsoft Excel] 스프레드시트로 내보내려면 ** 상단의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
@@ -32,6 +32,6 @@ ht-degree: 0%
 >* [연결된 TV 도달 계획 만들기](planner-create.md)
 >* [연결된 TV 도달 계획 복제](planner-duplicate.md)
 >* [연결된 TV 도달 계획 내보내기](planner-export.md)
->* [연결된 TV 도달 계획에 대한 예측 재생성](planner-forecast.md)
+>* [연결된 TV 도달 계획에 대한 예측 다시 생성](planner-forecast.md)
 >* [연결된 TV 도달 계획 보관](planner-archive.md)
 >* [연결된 TV 도달 계획에 대한 설정](planner-settings.md)

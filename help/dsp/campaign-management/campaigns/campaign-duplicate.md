@@ -20,11 +20,11 @@ ht-degree: 0%
 * 필요한 경우 원본 패키지 및 배치 복제
 * 새 캠페인의 플라이트 날짜 수정
 
-를 참조하십시오.[복제되지 않은 항목](#campaign-not-duplicated)복제되지 않은 배치 설정 목록의 경우 &quot;&quot;를 참조하십시오.
+중복되지 않은 배치 설정 목록은 &quot;[중복되지 않은 항목](#campaign-not-duplicated)&quot;을 참조하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
-1. 캠페인 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
+1. 캠페인 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 
 1. 새 캠페인 설정 지정:
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
       기본적으로 새 캠페인은 원래 광고주에게 할당되고 현재 날짜에 시작되는 비행 일정이 있으며 원래 패키지와 배치를 포함합니다.
 
-1. 클릭 **[!UICONTROL Submit]**.
+1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
 ## 복제되지 않은 항목 {#campaign-not-duplicated}
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 * 실험 설정
 * (플라이트 날짜를 변경하는 경우) 사용자 지정 광고 예약
 * (광고를 첨부하지 않는 경우) 사용자 지정 광고 가중치 및 예약
-* 프로그램 보증 거래(PG) 및 배치를 위한 기본 배치 [!UICONTROL Simple Ad Serving] 거래
+* 프로그래밍 방식 보장(PG) 거래의 기본 배치 및 [!UICONTROL Simple Ad Serving] 거래의 배치
 * (배치를 다른 캠페인에 복사하는 경우):
    * 지역 대상
    * 이벤트 픽셀
@@ -57,4 +57,3 @@ ht-degree: 0%
 >* [캠페인 편집](campaign-edit.md)
 >* [캠페인에 대한 변경 로그 보기](campaign-change-log.md)
 >* [캠페인 설정](campaign-settings.md)
-

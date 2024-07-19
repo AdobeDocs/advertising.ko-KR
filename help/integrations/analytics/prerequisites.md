@@ -1,6 +1,6 @@
 ---
-title: 구현을 위한 전제 조건 및 주요 정보 [!DNL Analytics for Advertising]
-description: 구현을 위한 전제 조건 및 주요 정보 [!DNL Analytics for Advertising]
+title: ' [!DNL Analytics for Advertising]을(를) 구현하기 위한 필수 구성 요소 및 키 정보'
+description: ' [!DNL Analytics for Advertising]을(를) 구현하기 위한 필수 구성 요소 및 키 정보'
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
 source-git-commit: 8481227a8ccb1f1e6e715e34e14732967110c168
@@ -10,114 +10,114 @@ ht-degree: 0%
 
 ---
 
-# 구현을 위한 전제 조건 및 주요 정보 [!DNL Analytics for Advertising]
+# [!DNL Analytics for Advertising] 구현을 위한 필수 구성 요소 및 주요 정보
 
-*광고 DSP 및[!DNL Advertising Search, Social, & Commerce]*
+*Advertising DSP 및[!DNL Advertising Search, Social, & Commerce]*&#x200B;을(를) 사용하는 광고주
 
-Adobe Systems Advertising을 Adobe Analytics와 통합하기 전에 다음 정보를 검토하십시오.
+Adobe Advertising을 Adobe Analytics과 통합하기 전에 다음 정보를 검토하십시오.
 
-## 에서 Adobe Systems 광고 데이터를 보고하기 위한 요구 사항 [!DNL Analytics]
+## [!DNL Analytics]에서 Adobe Advertising 데이터를 보고하기 위한 요구 사항
 
-* 다음 중 하나입니다.
+* 다음 중 하나를 수행합니다.
    * Adobe Experience Platform 웹 SDK: `alloy.js`
-   * Experience Cloud Identity 서비스: `visitorAPI.js` 버전 2.0 이상
-* 모든 Adobe Analytics 버전( [!DNL Prime], [!DNL Premium], 또는 [!DNL Ultimate])
+   * Experience Cloud ID 서비스: `visitorAPI.js` 버전 2.0 이상
+* 모든 버전의 Adobe Analytics([!DNL Prime], [!DNL Premium] 또는 [!DNL Ultimate] 포함)
 * Adobe Analytics: `appMeasurement.js` 버전 2.1 이상
-* (광고 DSP 고객) [뷰스루 방문을 추적하기 위해 웹 페이지에 배포되는 Advertising DSP JavaScript 스니펫](javascript.md) 입니다.
+* (Advertising DSP 고객) 뷰스루 방문을 추적하기 위해 웹 페이지에 배포된 [Advertising DSP JavaScript 코드 조각](javascript.md).
 
 >[!TIP]
 >
->데이터 충실도를 향상시키려면 각 라이브러리의 최신 버전을 사용합니다.
+>데이터 충실도를 향상시키려면 각 라이브러리의 최신 버전을 사용하십시오.
 
-## Analytics 세그먼트를 Adobe Systems Advertising과 공유하기 위한 요구 사항
+## Adobe Advertising과 Analytics 세그먼트 공유를 위한 요구 사항
 
-* Experience Cloud Identity 서비스: `visitorAPI.js` 버전 2.1 이상
+* Experience Cloud ID 서비스: `visitorAPI.js` 버전 2.1 이상
 * Adobe Analytics: `appMeasurement.js` 버전 1.8 이상
 
-## Adobe Systems Advertising에서 데이터를 보고 [!DNL Analytics] 하기 위한 요구 사항
+## Adobe Advertising에서 [!DNL Analytics] 데이터를 보고하기 위한 요구 사항
 
-Adobe Systems Advertising 구현 팀에 다음을 제공합니다.
+Adobe Advertising 구현 팀에 다음 사항을 제공합니다.
 
-* Adobe Systems [!DNL Analytics] 광고에서 최적화 및 보고를 위해 페이드 미디어 활동을 보고하고 사이트 활동을 공급하는 데 사용할 보고서 세트 ID입니다.
-* 회사의 Experience Cloud 조직 ID(조직 ID)입니다.
+* 유료 미디어 활동에 대한 보고 및 최적화 및 Adobe Advertising 보고를 위한 사이트 활동 피딩에 사용할 [!DNL Analytics] 보고서 세트 ID
+* 회사의 Experience Cloud 조직 ID(조직 ID).
 
-Adobe Experience Cloud 디버거의 요약 탭에서 이 두 ID [를 모두 찾을 수 있습니다](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
+이 두 ID는 모두 Adobe Experience Cloud Debugger의 [요약 탭](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)에서 찾을 수 있습니다.
 
-![Experience Cloud 디버거 요약 화면](/help/integrations/assets/a4adc-debugger-summary.png)
+![Experience Cloud Debugger 요약 화면](/help/integrations/assets/a4adc-debugger-summary.png)
 
-## [!DNL Analytics] Adobe Systems 광고의 데이터 {#lookback-a4adc}
+## Adobe Advertising의 [!DNL Analytics] 데이터 {#lookback-a4adc}
 
-데이터는 보고 및 최적화를 위해 Adobe Systems Advertising으로 전송되기 때문에 [!DNL Analytics] 데이터는 Adobe Systems Advertising에서 광고주에 대해 구성된 노출 횟수 및 클릭 전환 확인 기간을 포함한 기여도 분석 규칙의 적용을 받습니다.
+보고 및 최적화를 위해 [!DNL Analytics] 데이터가 Adobe Advertising으로 전송되기 때문에 데이터는 Adobe Advertising의 광고주에 대해 구성된 노출 및 클릭 전환 확인 기간을 포함한 속성 규칙의 적용을 받습니다.
 
-![Adobe Systems Advertising의 광고주 수준 전환 확인 기간 설정](/help/integrations/assets/a4adc-lookbacks.png)
+![Adobe Advertising의 광고주 수준 전환 확인 기간 설정](/help/integrations/assets/a4adc-lookbacks.png)
 
-* Adobe Systems 광고 기여도 분석 클릭 전환 확인 기간: 첫 번째 클릭이 발생한 후 클릭이 전환으로 귀속될 수 있는 일 수입니다. 기본적으로 이 값은 60일입니다. 최댓값은 90일입니다
-* Adobe Systems 광고 기여도 분석 노출 횟수 전환 확인 기간: 광고 노출 횟수 발생 후 노출 횟수이 전환에 기인할 수 있는 기간(일)입니다. 기본적으로 이 값은 14일입니다. 최댓값은 30일입니다
+* Adobe Advertising 속성 클릭 전환 확인 기간: 전환이 전환으로 귀속될 수 있는 첫 번째 클릭 이후 일 수입니다. 기본적으로 이 값은 60일이며 최대값은 90일입니다
+* Adobe Advertising 속성 노출 전환 확인 기간: 광고 노출 발생 후 전환이 노출에 기여할 수 있는 일 수입니다. 기본적으로 이 값은 14일이며 최대값은 30일입니다
 
   >[!NOTE]
   >
-  > 노출 횟수 전환 확인 기간은 보고가 아니라 [!DNL Analytics for Advertising]Adobe Systems 광고에만 적용됩니다.
+  > 노출 전환 확인 기간은 [!DNL Analytics for Advertising]이(가) 아닌 Adobe Advertising 보고에만 해당됩니다.
 
-JavaScript 는 [!DNL Analytics for Advertising] 이러한 설정을 사용하여 사이트에 대한 뷰스루 항목 또는 클릭스루 항목을 유효한 것으로 간주할 수 있는 시간을 결정합니다. 뷰스루 및 클릭스루를 결정하는 방법에 대한 자세한 내용은 &quot;[Analytics](ids.md)에서 사용하는 Adobe Systems 광고 ID&quot;를 참조하십시오.
+[!DNL Analytics for Advertising] JavaScript은 이러한 설정을 사용하여 뷰스루 항목이나 클릭스루 항목을 유효한 항목으로 간주할 이전 시간을 결정합니다. 뷰스루 및 클릭스루를 결정하는 방법에 대한 자세한 내용은 &quot;[Analytics에서 사용하는 Adobe Advertising ID](ids.md)&quot;을(를) 참조하십시오.
 
-## Adobe Systems의 Adobe Systems 광고 데이터 [!DNL Analytics]
+## [!DNL Analytics]의 Adobe Advertising 데이터
 
-[!DNL Analytics] 는 클릭스루와 뷰스루 모두에 적용되는 광고주의 [!DNL eVar] 지속성 설정에 따라 Analytics 히트 내에서 Adobe Systems 광고 ID(AMO ID)를 설정합니다. 지속성 설정은 Adobe Systems Advertising 백엔드에서 구성되며 Adobe Systems 계정 팀에서 변경할 수 있습니다.
+[!DNL Analytics]은(는) 클릭스루와 뷰스루 모두에 적용되는 광고주의 [!DNL eVar] 지속성 설정에 따라 Analytics 히트 내에 Adobe Advertising ID(AMO ID)를 설정합니다. 지속성 설정은 Adobe Advertising 백 엔드에서 구성되며 Adobe 계정 팀이 변경할 수 있습니다.
 
-* [!DNL Analytics for Advertising][!DNL eVar] 만료: AMO ID의 경우 기본적으로 60일
+* [!DNL Analytics for Advertising] [!DNL eVar] 만료: AMO ID의 경우 기본적으로 60일
 
 >[!NOTE]
 >
->다른 일정에 대한 데이터를 세그먼트하려면 Analysis Workspace 내에서 다른 전환 확인 기간으로 사용자 지정 세그먼트를](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) 설정할 수 있습니다[.
+>다른 기간에 대한 데이터를 세그먼트화하려면 Analysis Workspace 내에서 다른 전환 확인 기간을 사용하여 [사용자 지정 세그먼트를 설정](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)할 수 있습니다.
 
 ## 지원되는 광고 환경
 
 * 검색
-* 전시
+* 표시
 * 비디오
 * 온라인 비디오
-* 커넥티드 TV
-* 원주민
+* 연결된 TV
+* 기본
 
-각 채널에서 지원되는 최신 광고 환경에 대해서는 Adobe Systems 계정 팀에 문의하십시오.
+각 채널에서 지원되는 최신 광고 환경은 Adobe 계정 팀에 문의하십시오.
 
 ## 구현하기 전에 알아야 할 사항
 
-* Adobe Systems Advertising 구현 팀에서 통합을 설정합니다.
+* Adobe Advertising 구현 팀이 통합을 설정합니다.
 
-* 이 통합에 대한 추가 비용은 청구되지 않으며, 서버 호출로 인해 추가 [!DNL Analytics] 또는 Adobe Systems 광고 요금이 발생하지 않습니다.
+* 이 통합에 대해 추가 비용이 청구되지 않으며, 서버 호출로 인해 추가 [!DNL Analytics] 또는 Adobe Advertising 비용이 발생하지 않습니다.
 
-* [!DNL Analytics for Advertising] 광고 서버에 구애받지 않음: 모든 광고 서버에서 뷰스루 또는 클릭스루가 발생할 수 있으며 사이트 진입 시 적절한 ID가 생성됩니다.
+* [!DNL Analytics for Advertising]은(는) 광고 서버에 종속되지 않습니다. 광고 서버에서 뷰스루 또는 클릭스루가 발생할 수 있으며 사이트 시작 시 적절한 ID가 생성됩니다.
 
-* 통합은 후속 페이드 미디어 및 광고 노력의 입찰 최적화를 위해 표준 및 사용자 지정 이벤트만 [!DNL Analytics] Adobe Systems Advertising에 전달합니다. 세그먼트, 계산된 지표 및 [!DNL eVars] 입찰 최적화를 위해 Adobe Systems Advertising에 전달 [!DNL Analytics] 하지 않습니다.
+* 통합은 [!DNL Analytics]개의 표준 및 사용자 지정 이벤트만 후속 유료 미디어 및 광고 노력의 입찰 최적화를 위한 Adobe Advertising에 전달합니다. [!DNL Analytics]개의 세그먼트, 계산된 지표 및 [!DNL eVars]을(를) 입찰 최적화를 위한 Adobe Advertising에 전달하지 않습니다.
 
-* Adobe Systems Advertising은 사용자 Advertising에 구성된 클릭 및 뷰스루 전환 확인 기간을](#lookback-a4adc) 기반으로 [사용자 이전에 클릭하거나 본 마지막 광고를 기반으로 내에 [!DNL Analytics] 영구 ID를 만듭니다. 사이트 방문자의 프로필 내에 두 가지 유형의 사이트 항목 상호 작용이 모두 있고 클릭이 전환 확인 기간 내에 있는 경우 방문자의 클릭스루 ID가 사이트 보고를 위한 뷰스루 ID를 재정의합니다.
+* Adobe Advertising은 Adobe Advertising에 구성된 [클릭 및 뷰스루 전환 확인 기간](#lookback-a4adc)을 기반으로 사용자가 사이트에 들어가기 전에 클릭하거나 본 마지막 광고를 기반으로 [!DNL Analytics] 내에 영구 ID를 만듭니다. 사이트 방문자의 프로필 내에 두 유형의 사이트 시작 상호 작용이 모두 있고 클릭이 전환 확인 기간 내에 있는 경우, 방문자의 클릭스루 ID는 사이트 보고를 위해 뷰스루 ID를 무시합니다.
 
-* [!DNL Analytics for Advertising] Adobe Analytics의 전환 추적은 구성 가능한 추적 전환 확인 기간(기본적으로 60일)을 사용합니다. Adobe Systems 광고 보고서는 이 추적 전환 확인 기간이 끝날 때까지 사이트 전환 및 참여 수를 반영합니다.
+* Adobe Analytics의 [!DNL Analytics for Advertising] 전환 추적은 구성 가능한 추적 전환 확인 기간(기본적으로 60일)을 사용합니다. Adobe Advertising 보고서는 이 추적 전환 확인 기간의 종료를 통한 사이트 전환 및 참여를 반영합니다.
 
-* 모든 광고 유형이 지원됩니다. 그러나 일부 광고 환경은 지원되지 않습니다.
+* 모든 광고 유형이 지원됩니다. 그러나 모든 광고 환경이 지원되는 것은 아닙니다.
 
-* [!DNL Analytics] 현재 전환이 추적되고 동일한 디바이스 사용자의 방문자에게만 귀속됩니다.
+* [!DNL Analytics] 전환은 현재 추적되며 동일한 장치의 방문자에게만 연결됩니다.
 
-* [!DNL Analytics for Advertising] 에서 인앱 뷰스루 전환을 지원하지 않습니다.
+* [!DNL Analytics for Advertising]은(는) 인앱 뷰스루 전환을 지원하지 않습니다.
 
-* 보기스루 추적은 의 [!DNL Analytics]서버측 전달 구현을 사용하는 광고주에 대해 지원되지 않습니다.
+* [!DNL Analytics]의 서버측 전달 구현을 사용하는 광고주에게는 뷰스루 추적이 지원되지 않습니다.
 
-### 보충 ID
+### 보조 ID
 
-사이트에 대해 Experience Cloud Identity 서비스가 구현되면 광고 데이터를 [!DNL Analytics] 포함하는 히트Adobe Systems 보충 ID가 포함됩니다.
+사이트에 대해 Experience Cloud ID 서비스가 구현되면 [!DNL Analytics] 또는 Adobe Advertising의 데이터가 포함된 히트에 보조 ID가 포함됩니다.
 
-본보기: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
+예: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
-정확한 데이터 통합을 위해 활동에서 [!DNL Analytics for Advertising] 컨텐츠를 전달하거나 목표 지표를 기록하는 데 사용하는 모든 Adobe Systems 광고 호출에는 동일한 보충 ID를 공유하는 해당 [!DNL Analytics] 히트가 있어야 합니다.
+정확한 데이터 통합을 위해 콘텐츠를 전달하거나 목표 지표를 기록하기 위해 [!DNL Analytics for Advertising] 활동에서 사용하는 모든 Adobe Advertising 호출에는 동일한 보충 ID를 공유하는 해당 [!DNL Analytics] 히트가 있어야 합니다.
 
-에서 [!DNL Analytics]문제를 해결할 때 히트에 대한 [!DNL Analytics] 보충 ID가 있는지 확인하십시오. [Adobe Experience Cloud 디버거](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)의 경우 Adobe Systems 광고 탭에서 이 ID를 매개 변수로 `sdid` 볼 수 있습니다.
+[!DNL Analytics]에서 문제를 해결하는 경우 [!DNL Analytics]개의 히트에 대한 보조 ID가 있는지 확인하십시오. [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)에서 이 ID는 Adobe Advertising 탭에서 `sdid` 매개 변수로 표시됩니다.
 
 >[!NOTE]
 >
-> 이 구현 작업은 통합과 유사하게 [!DNL Analytics for Target] 이루어집니다.
+> 이 구현은 [!DNL Analytics for Target] 통합과 유사하게 작동합니다.
 
 >[!MORELIKETHIS]
 >
 >* [개요 [!DNL Analytics for Advertising]](overview.md)
->* [광고용 Analytics용 JavaScript Code](/help/integrations/analytics/javascript.md)
+>* [Advertising용 Analytics용 JavaScript 코드](/help/integrations/analytics/javascript.md)

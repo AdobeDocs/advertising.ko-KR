@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # 캠페인 만들기
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
-1. 다음에서 [!UICONTROL Campaigns] 보기, 클릭 **[!UICONTROL Create campaign]**.
-1. 다음을 입력합니다. [캠페인 설정](campaign-settings.md):
-   1. 다음을 지정합니다. [!UICONTROL Basic Campaign Details].
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL Campaigns] 보기에서 **[!UICONTROL Create campaign]**&#x200B;을(를) 클릭합니다.
+1. [캠페인 설정](campaign-settings.md) 입력:
+   1. [!UICONTROL Basic Campaign Details]을(를) 지정하십시오.
    1. (관리자 사용자만 해당) [!UICONTROL Ad Cloud Admin Fields] 섹션에서 관리 설정을 지정합니다.
-   1. 다음에서 [!UICONTROL Campaign Goals] 섹션에서 예산을 지정합니다. 선택적으로 기본 목표 설정을 변경하고 캠페인에 포함할 기존 패키지를 선택하거나 패키지를 만들 수 있습니다.
-   1. (선택 사항) [!UICONTROL Campaign Measurement] 섹션, 조회, 사기, 브랜드 안전성 및 대상 확인에 대한 서드파티 및 자사 측정 옵션을 지정합니다.
-1. 클릭 **[!UICONTROL Create Campaign]**.
+   1. [!UICONTROL Campaign Goals] 섹션에서 예산을 지정합니다. 선택적으로 기본 목표 설정을 변경하고 캠페인에 포함할 기존 패키지를 선택하거나 패키지를 만들 수 있습니다.
+   1. (선택 사항) [!UICONTROL Campaign Measurement] 섹션에서 조회, 사기, 브랜드 안전성 및 대상 확인에 대한 타사 및 자사 측정 옵션을 지정합니다.
+1. **[!UICONTROL Create Campaign]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
@@ -29,4 +29,3 @@ ht-degree: 0%
 >* [캠페인에 대한 변경 로그 보기](campaign-change-log.md)
 >* [캠페인 설정](campaign-settings.md)
 >* [캠페인 일시 중지 또는 활성화](campaign-pause-activate.md)
-

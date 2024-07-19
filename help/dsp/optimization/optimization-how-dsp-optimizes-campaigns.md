@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Advertising DSP이 캠페인을 최적화하는 방법
 
-이 페이지에서는 는에서 제공하는 DSP 최적화 엔진에 대해 간략하게 설명합니다. [!DNL Adobe Sensei]는 캠페인의 패키지를 최적화합니다. 캠페인을 수동으로 최적화하는 방법에 대한 팁과 요령은 Adobe 계정 팀에 문의하십시오. <!-- add link to trading playbook if we add it to help -->
+이 페이지에서는 [!DNL Adobe Sensei]에서 제공하는 DSP 최적화 엔진이 캠페인의 패키지를 최적화하는 방법에 대해 설명합니다. 캠페인을 수동으로 최적화하는 방법에 대한 팁과 요령은 Adobe 계정 팀에 문의하십시오. <!-- add link to trading playbook if we add it to help -->
 
 패키지 최적화 목표는 다음 두 가지 수준에서 작동합니다.
 
@@ -32,17 +32,17 @@ DSP은 특정 성능 목표에 맞게 사용할 수 있는 20개의 변형을 �
 
 * 비용 효율성과 성능 사이의 우선 순위 조정
 
-다음을 참조하십시오 [최적화 목표 및 사용 방법](optimization-goals.md) 를 사용하여 KPI를 달성하는 데 도움이 되는 최적화 목표를 결정하십시오.
+KPI를 달성하는 데 도움이 되는 최적화 목표를 결정하려면 [최적화 목표 및 이를 사용하는 방법](optimization-goals.md)을 참조하십시오.
 
 ### 성능 우선 순위를 지정하는 패키지
 
-성능 비율을 우선시하는 최적화 목표의 경우 DSP은 각 경매의 성능을 예측하고 항상 최대 입찰에서 입찰합니다. 적용 가능한 최적화 목표의 예는 다음과 같습니다. [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate]등.
+성능 비율을 우선시하는 최적화 목표의 경우 DSP은 각 경매의 성능을 예측하고 항상 최대 입찰에서 입찰합니다. 적용 가능한 최적화 목표의 예로는 [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate] 등이 있습니다.
 
 이 최적화 모드는 다음과 같은 경우에 잘 작동합니다.
 
 * 이미 유효/허용 CPM 수준(예: 과거 벤치마크)을 알고 있습니다.
 
-* 다음을 수동으로 조정할 수 있습니다. [!UICONTROL Max Bid] 배율 조정과 관련하여 문제가 발생하는 경우 각 배치에 대해 설명합니다.
+* 크기 조절에 문제가 있는 경우 각 배치에 대해 수동으로 [!UICONTROL Max Bid]을(를) 조정할 수 있습니다.
 
 * 효율성보다 규모를 우선시하고 있습니다.
 
@@ -58,15 +58,15 @@ DSP은 특정 성능 목표에 맞게 사용할 수 있는 20개의 변형을 �
 
 ### 비용 효율성과 성능 사이의 균형을 최우선으로 고려하는 패키지
 
-일부 최적화 목표의 경우 DSP은 각 경매의 성과를 예측하고 입찰 가격을 자동으로 조정하며 배치를 초과하지 않습니다. [!UICONTROL Max Bid]. 적용 가능한 최적화 목표의 예는 다음과 같습니다. [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click]등.
+일부 최적화 목표의 경우 DSP은 각 경매의 성과를 예측하고 입찰 가격을 자동으로 조정하며 배치의 [!UICONTROL Max Bid]을(를) 절대 초과하지 않습니다. 적용 가능한 최적화 목표의 예로는 [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click] 등이 있습니다.
 
 #### 게재 간격 논리 {#pacing-logic-balanced}
 
 * 만약 지출이 속도를 유지한다면, DSP은 더 가격에 민감해지고, 더 낮은 금액을 입찰하여 경쟁률과 경쟁률을 맞춘다.
 
-* 성능 지표도 균형을 이루고 있는 경우 (다음을 제외한 모든 목표) [!UICONTROL Lowest CPM])를 입력하면 예측된 KPI가 입찰 금액으로 결합됩니다. 따라서 &quot;비용 기준&quot;으로 더 성능이 높을 것으로 예상되는 경매에 대해 더 높은 입찰을 합니다.
+* 성과 지표가 균형을 이루는 경우([!UICONTROL Lowest CPM]을(를) 제외한 모든 목표) 예측된 KPI가 입찰 금액으로 결합됩니다. 따라서 &quot;비용 기준&quot;으로 더 성능이 높을 것으로 예상되는 경매에 대해 더 높은 입찰을 합니다.
 
-* 지출이 늦어지면 DSP은 덜 가격 민감해지고 입찰가는 더 높아져 [!UICONTROL Max Bid], 게재 비율을 게재 간격 계획과 맞교환.
+* 지출 속도가 늦어지면 DSP은 가격에 덜 민감해지고 입찰가가 [!UICONTROL Max Bid]까지 높아져 게재 계획을 통해 낙찰률을 상쇄합니다.
 
 #### 가격/입찰 음영 지우기 {#clearing-price-balanced}
 
@@ -80,7 +80,7 @@ DSP은 특정 성능 목표에 맞게 사용할 수 있는 20개의 변형을 �
 >
 >사용 가능한 사전 입찰 필터는 광고 유형에 따라 다릅니다. 예를 들어 표준 디스플레이 배치의 경우 클릭스루 비율 및 가시성별로 필터링할 수 있지만 완료 비율로는 필터링할 수 없습니다.
 
-다음을 참조하십시오 [배치 수준 사전 입찰 필터 및 사용 방법](optimization-pre-bid-filters.md) KPI를 달성하는 데 도움이 될 수 있는 사전 입찰 필터를 결정하십시오.
+KPI를 달성하는 데 도움이 될 수 있는 사전 입찰 필터를 결정하려면 [배치 수준 사전 입찰 필터 및 사용 방법](optimization-pre-bid-filters.md)을 참조하십시오.
 
 >[!MORELIKETHIS]
 >
@@ -88,4 +88,4 @@ DSP은 특정 성능 목표에 맞게 사용할 수 있는 20개의 변형을 �
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [최적화 목표 및 사용 방법](optimization-goals.md)
 >* [배치 수준 사전 입찰 필터 및 사용 방법](optimization-pre-bid-filters.md)
->* [문제 해결 성능](/help/dsp/optimization/troubleshooting-performance.md)
+>* [성능 문제 해결](/help/dsp/optimization/troubleshooting-performance.md)

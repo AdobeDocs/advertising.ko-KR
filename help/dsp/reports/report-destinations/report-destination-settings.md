@@ -22,11 +22,11 @@ ht-degree: 0%
 
 **[!UICONTROL Name]:** 대상을 식별하는 데 도움이 되는 이름입니다.
 
-**[!UICONTROL S3 Bucket URL]:** 폴더의 전체 경로 [!DNL Amazon Simple Storage Service] (S3) 보고서가 업로드되는 버킷입니다. 예: `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** 보고서가 업로드되는 [!DNL Amazon Simple Storage Service](S3) 버킷의 폴더에 대한 전체 경로입니다. 예: `s3://dsp_account/reports`
 
-**[!UICONTROL Access Key ID]:** ( )에 대한 액세스 키 ID[!DNL Amazon S3]) 버킷(제공자 [!DNL Amazon]).
+**[!UICONTROL Access Key ID]:** ([!DNL Amazon S3]) 버킷에 대한 액세스 키 ID([!DNL Amazon]에서 제공)입니다.
 
-**[!UICONTROL Secret Access Key]:** ( )에 대한 비밀 액세스 키[!DNL Amazon S3]) 버킷(제공자 [!DNL Amazon]).
+**[!UICONTROL Secret Access Key]:** ([!DNL Amazon S3]) 버킷에 대한 비밀 액세스 키([!DNL Amazon]에서 제공)입니다.
 
 ## [!UICONTROL FTP]
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **[!UICONTROL Server]:** 서버의 호스트 이름입니다.
 
-**[!UICONTROL Port]:** 서버에서 사용할 포트 번호입니다. 기본값은 입니다 *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** 서버에서 사용할 포트 번호입니다. 기본값은 *[!UICONTROL 21]*&#x200B;입니다.
 
 **[!UICONTROL Username]:** 서버에 로그인할 사용자 이름입니다.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 **[!UICONTROL Server]:** 서버의 호스트 이름입니다.
 
-**[!UICONTROL Port]:** 서버에서 사용할 포트 번호입니다. 기본값은 입니다 *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** 서버에서 사용할 포트 번호입니다. 기본값은 *[!UICONTROL 21]*&#x200B;입니다.
 
 **[!UICONTROL Username]:** 서버에 로그인할 사용자 이름입니다.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 **[!UICONTROL Server]:** 서버의 호스트 이름입니다.
 
-**[!UICONTROL Port]:** 서버에서 사용할 포트 번호입니다. 기본값은 입니다 *[!UICONTROL 21]*.
+**[!UICONTROL Port]:** 서버에서 사용할 포트 번호입니다. 기본값은 *[!UICONTROL 21]*&#x200B;입니다.
 
 **[!UICONTROL Username]:** 서버에 로그인할 사용자 이름입니다.
 
@@ -73,6 +73,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [정보 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [만들기 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [편집 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [삭제 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md) 만들기
+>* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md) 편집
+>* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md) 삭제

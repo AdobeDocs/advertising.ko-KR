@@ -1,9 +1,9 @@
 ---
 title: 모델 정확도 보고서 정보
 description: 입찰을 최적화하는 데 사용되는 비용 및 수익 모델의 정확도를 나타내는 보고서에 대해 알아봅니다.
-exl-id: 8aeb2308-8775-4a6d-9d25-ba5378490344
+exl-id: 2f655db6-8f4f-4eae-9f18-cc04acad3c5c
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 모델 정확도 보고서는 입찰을 최적화하는 데 사용되는 비용 및 수익 모델의 정확도를 나타냅니다.
 
-부정확하면 성능 문제가 발생할 수 있으며, 따라서 포트폴리오 설정을 조정해야 할 수 있습니다. 예측의 부정확성 문제 해결에 대한 자세한 내용은 최적화 안내서의 Portfolio 섹션에서 검색, 소셜 및 상거래에 대한 &quot;Portfolio에 대한 FAQ&quot;를 참조하십시오.<!-- verify convention for referencing Optimization Guide here -->
+부정확하면 성능 문제가 발생할 수 있으며, 따라서 포트폴리오 설정을 조정해야 할 수 있습니다. Portfolio의 부정확성 문제 해결에 대한 자세한 내용은 최적화 안내서의 Portfolio 섹션에서 Search, Social 및 Commerce 내에서 사용할 수 있는 &quot;Forecast에 대한 FAQ&quot;를 참조하십시오.<!-- verify convention for referencing Optimization Guide here -->
 
 ## 모델 정확도 보고서 유형
 
-* [다음 [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+* [[!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
 
-* [다음 [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+* [[!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 
 >[!MORELIKETHIS]
 >
->* [다음 [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
->* [다음 [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [[!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+>* [[!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [모델 정확도 보고서 생성](model-accuracy-report-generate.md)
 >* [모델 정확도 보고서 설정](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
->* [보고서 기본 정보](/help/search-social-commerce/reports/report-about.md)
+>* [보고서 정보](/help/search-social-commerce/reports/report-about.md)

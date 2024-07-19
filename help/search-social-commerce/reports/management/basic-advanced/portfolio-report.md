@@ -1,24 +1,24 @@
 ---
 title: '[!UICONTROL Portfolio Report]'
-description: 에 대해 알아보기 [!UICONTROL Portfolio Report].
-exl-id: 92ff61b5-335d-4c8f-998d-fd9cf59574dc
+description: '[!UICONTROL Portfolio Report]에 대해 알아봅니다.'
+exl-id: fe1ac365-e613-4ac1-9fb9-0063e1350014
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Portfolio Report]
 
-다음 [!UICONTROL Portfolio Report] 하나 이상의 포트폴리오에 대한 비용, 클릭 및 (선택 사항) 전환 데이터를 포함합니다. 기본적으로 데이터는 지정된 날짜 범위의 각 시간 단위에 대해 적용 가능한 각 포트폴리오에 대해 한 개의 행을 포함하며, 행은 먼저 포트폴리오별로 오름차순으로 정렬한 다음 시간 단위의 시작 날짜별로 오름차순으로 정렬됩니다.
+[!UICONTROL Portfolio Report]에는 하나 이상의 포트폴리오에 대한 비용, 클릭 및 (선택 사항) 전환 데이터가 포함되어 있습니다. 기본적으로 데이터는 지정된 날짜 범위의 각 시간 단위에 대해 적용 가능한 각 포트폴리오에 대해 한 개의 행을 포함하며, 행은 먼저 포트폴리오별로 오름차순으로 정렬한 다음 시간 단위의 시작 날짜별로 오름차순으로 정렬됩니다.
 
 이전 36개월의 데이터를 볼 수 있습니다.
 
 ## 기본 열
 
-모든 기본 및 사용자 지정 열에 대한 설명은 &quot;[기본 및 고급 보고서용 보고서 열](basic-advanced-report-columns.md).&quot;
+모든 기본 및 사용자 지정 열에 대한 설명은 &quot;[기본 및 고급 보고서에 대한 보고서 열](basic-advanced-report-columns.md)&quot;을 참조하십시오.
 
 * [!UICONTROL Portfolio]
 * [!UICONTROL Start Date]

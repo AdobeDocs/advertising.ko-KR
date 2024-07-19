@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL MSA Ad Extension Detail Report]'
-description: 에 대해 알아보기 [!UICONTROL MSA Ad Extension Detail Report].
+description: '[!UICONTROL MSA Ad Extension Detail Report]에 대해 알아봅니다.'
 feature: Search Reports, Search Specialty Reports
 exl-id: 8fdbfdf8-502a-47e0-a0a0-8722726280e9
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # [!UICONTROL MSA Ad Extension Detail Report]
 
-*[!DNL Microsoft Advertising]계정만*
+*[!DNL Microsoft Advertising]개의 계정만*
 
 이 보고서는 개별 광고 확장 요소(예: 사이트링크 확장의 각 링크)에 대한 노출 횟수, 클릭 수, 지출 및 클릭당 평균 비용을 보여줍니다. 이 보고서를 사용하여 광고 확장 요소의 효과를 확인합니다.
 
-지표 열만 있고 차원은 없는 보고서를 실행하면, 생성된 보고서에는 두 개의 중복 행, 즉 집계된 데이터가 있는 행과 모든 지표가 있는 행이 포함됩니다.<!-- all metrics? -->
+지표 열만 있고 차원은 없는 보고서를 실행할 때 생성된 보고서에는 두 개의 중복 행이 포함됩니다. 하나는 집계된 데이터가 있고 다른 하나는 모든 지표가 있습니다.<!-- all metrics? -->
 
-지난 180일 동안의 데이터를 볼 수 있습니다. 검색, 소셜 및 Commerce에서 데이터 가져오기 [!DNL Microsoft Advertising] 실시간으로, 그리고 더 큰 데이터 볼륨으로 보고서를 생성하는 데 몇 분이 걸릴 수 있습니다.
+지난 180일 동안의 데이터를 볼 수 있습니다. Search, Social 및 Commerce은 [!DNL Microsoft Advertising]에서 실시간으로 데이터를 가져옵니다. 데이터 볼륨이 더 큰 보고서를 생성하는 데 몇 분이 걸릴 수 있습니다.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 기본 열
 
-모든 기본 및 사용자 지정 열에 대한 설명은 &quot;[특성 보고서에 대한 보고서 열](specialty-report-columns.md).&quot;
+모든 기본 및 사용자 지정 열에 대한 설명은 &quot;[특성 보고서에 대한 보고서 열](specialty-report-columns.md)&quot;을 참조하십시오.
 
 * [!UICONTROL SE Account Name]
 * [!UICONTROL Extension Property Value]

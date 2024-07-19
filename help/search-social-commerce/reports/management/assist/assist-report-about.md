@@ -1,20 +1,20 @@
 ---
 title: 지원 보고서 정보
 description: 전환 경로에 대한 통찰력을 제공하는 보고서에 대해 알아봅니다.
-exl-id: b402727e-a639-48f9-96c9-33fa1edafc6b
+exl-id: 0962c8b1-0116-480a-8253-4e8488fec77c
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
 # 지원 보고서 정보
 
-*검색, 소셜 및 상거래 클릭 추적이 있고 Adobe Advertising, Adobe Analytics에서 전환 추적이 있는 광고주(및 [!DNL Analytics] 통합) 또는 토큰을 사용하여 피드에 제공(`ef_id`) 전용*
+*검색, 소셜 및 Commerce 클릭 추적 및 Adobe Advertising, Adobe Analytics([!DNL Analytics] 통합 포함)의 전환 추적 또는 토큰(`ef_id`)만 사용하여 피드로 제공되는 광고주*
 
-지원 보고서는 광고주의 모든 키워드 및 광고에 대한 전환 경로에 대한 통찰력을 제공합니다. 지원 보고서는 Adobe Advertising 전환 추적 서비스, Adobe Analytics 전환 추적 및 토큰을 포함하는 피드 파일을 통해 캡처한 데이터를 사용합니다(`ef_id`), 그리고 는 해당 서비스를 사용하는 광고주에만 생성될 수 있습니다.
+지원 보고서는 광고주의 모든 키워드 및 광고에 대한 전환 경로에 대한 통찰력을 제공합니다. 지원 보고서는 Adobe Advertising 전환 추적 서비스, Adobe Analytics 전환 추적 및 토큰(`ef_id`)을 포함하는 피드 파일을 통해 캡처한 데이터를 사용하며 해당 서비스를 사용하는 광고주에게만 생성될 수 있습니다.
 
 >[!NOTE]
 >
@@ -23,17 +23,17 @@ ht-degree: 0%
 
 ## 지원 보고서 유형
 
-* [다음 [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
+* [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
 
-* [다음 [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
+* [[!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
 
-* [다음 [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
+* [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
 
 >[!MORELIKETHIS]
 >
->* [다음 [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
->* [다음 [!UICONTROL Channel Assist Report]](channel-assist-report.md)
->* [다음 [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
+>* [[!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
+>* [[!UICONTROL Channel Assist Report]](channel-assist-report.md)
+>* [[!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [보고서 설정 지원](assist-report-settings.md)
 >* [지원 보고서 생성](assist-report-generate.md)
->* [보고서 기본 정보](/help/search-social-commerce/reports/report-about.md)
+>* [보고서 정보](/help/search-social-commerce/reports/report-about.md)

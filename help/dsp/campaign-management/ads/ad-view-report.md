@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # 광고에 대한 상세 보고서 보기
 
-다음 <!--legacy --> 광고 수준 보고서에는 다음이 포함됩니다 [!UICONTROL Overview], [!UICONTROL Geography], 및 [!UICONTROL Viewability] 데이터.
+<!--legacy --> 광고 수준 보고서에 [!UICONTROL Overview], [!UICONTROL Geography] 및 [!UICONTROL Viewability] 데이터가 포함되어 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 1. 캠페인의 이름을 클릭합니다.
-1. 하위 메뉴에서 **[!UICONTROL Ads]**.
-1. 광고 이름 옆에 있는 를 클릭합니다.  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
+1. 하위 메뉴에서 **[!UICONTROL Ads]**&#x200B;을(를) 클릭합니다.
+1. 광고 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL View report]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
->* [배치에 대한 상세 보고서 보기](/help/dsp/campaign-management/placements/placement-view-report.md)
->* [캠페인에 대한 세부 보고서 보기](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [배치에 대한 자세한 보고서 보기](/help/dsp/campaign-management/placements/placement-view-report.md)
+>* [캠페인에 대한 자세한 보고서 보기](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [Campaign Management 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [사용자 정의 보고서 정보](/help/dsp/reports/report-about.md)
+>* [사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)

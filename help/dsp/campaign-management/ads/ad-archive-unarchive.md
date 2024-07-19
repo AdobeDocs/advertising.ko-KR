@@ -18,27 +18,26 @@ ht-degree: 0%
 
 ## 광고 보관
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 1. 캠페인의 이름을 클릭합니다.
-1. 하위 메뉴에서 **[!UICONTROL Ads]**.
-1. 광고 이름 옆에 있는 를 클릭합니다.  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. 확인 메시지에서 다음을 클릭합니다. **[!UICONTROL Archive]**.
+1. 하위 메뉴에서 **[!UICONTROL Ads]**&#x200B;을(를) 클릭합니다.
+1. 광고 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Archive]**&#x200B;을(를) 클릭합니다.
+1. 확인 메시지에서 **[!UICONTROL Archive]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
 >
->보관된 광고를 보려면 [!UICONTROL Ads] 보기: 클릭 ![[!UICONTROL Filter] 단추](/help/dsp/assets/filter.png), 클릭 **[!UICONTROL Ad status]** 및 선택 **[!UICONTROL Archived]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Apply].**
+>보관된 광고를 보려면 [!UICONTROL Ads] 보기를 필터링하세요. ![[!UICONTROL Filter] 단추](/help/dsp/assets/filter.png)를 클릭하고 **[!UICONTROL Ad status]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Archived]**&#x200B;을(를) 선택하고 **[!UICONTROL Apply].**&#x200B;을(를) 클릭합니다.
 
 ## 광고 보관 해제
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 1. 캠페인의 이름을 클릭합니다.
-1. 하위 메뉴에서 **[!UICONTROL Ads]**.
-1. 광고 이름 옆에 있는 를 클릭합니다.  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. 확인 메시지에서 다음을 클릭합니다. **[!UICONTROL Unarchive]**.
+1. 하위 메뉴에서 **[!UICONTROL Ads]**&#x200B;을(를) 클릭합니다.
+1. 광고 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**&#x200B;을(를) 클릭합니다.
+1. 확인 메시지에서 **[!UICONTROL Unarchive]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
 >* [단일 광고 만들기](ad-create.md)
 >* [여러 타사 광고 만들기](ad-create-multiple.md)
 >* [광고 편집](ad-edit.md)
-

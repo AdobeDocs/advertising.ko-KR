@@ -18,13 +18,13 @@ Adobe Advertising은 &quot;성공&quot; 페이지처럼 전환 이벤트가 발�
 >
 >사용자에게 유효한 쿠키가 없는 경우 Adobe Advertising은 전환을 보고하지 않습니다.
 
-추적할 각 전환 지표 세트에 대해 별도의 전환 태그를 만들어야 합니다. 각 태그를 삽입할 웹 페이지 목록을 광고주 또는 에이전시에 제공합니다. 다음 유형의 전환 태그를 생성할 수 있습니다. 를 참조하십시오.[Adobe Advertising 변환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)지침:
+추적할 각 전환 지표 세트에 대해 별도의 전환 태그를 만들어야 합니다. 각 태그를 삽입할 웹 페이지 목록을 광고주 또는 에이전시에 제공합니다. 다음 유형의 전환 태그를 생성할 수 있습니다. 지침은 &quot;[Adobe Advertising 전환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot;을 참조하십시오.
 
 * (권장) 웹 페이지에 표시되지 않는 JavaScript 태그(버전 3 또는 버전 2)입니다.
 
-* HTML 이미지 태그를 사용하여 최종 사용자가 볼 수 없는 1픽셀 x 1픽셀 투명 이미지(픽셀)를 웹 페이지에 표시합니다. 회사에 JavaScript 태그 사용에 대한 정책이 있는 경우에만 이미지 태그를 사용하십시오.
+* HTML 이미지 태그를 사용하여 최종 사용자가 볼 수 없는 1픽셀 x 1픽셀 투명 이미지(픽셀)를 웹 페이지에 표시합니다. 회사에 JavaScript 태그 사용에 대한 정책이 있을 때만 이미지 태그를 사용하십시오.
 
-태그 유형 간의 차이에 대한 자세한 내용은 &quot;[Advertising Cloud 전환 추적 태그에 대한 FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
+태그 유형 간의 차이점에 대한 자세한 내용은 &quot;[Advertising Cloud 전환 추적 태그에 대한 FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)&quot;를 참조하십시오.
 
 >[!NOTE]
 >
@@ -55,8 +55,8 @@ Adobe Advertising은 전환 추적 픽셀을 통해 다음 작업을 수행할 �
 >
 >* [전환 추적 옵션](conversion-tracking-about.md)
 >* [Adobe Advertising 변환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [JavaScript 전환 추적 태그 버전 3의 형식](format-conversion-tag-jsv3.md)
->* [JavaScript 전환 추적 태그 버전 2의 형식](format-conversion-tag-jsv2.md)
+>* [JavaScript 전환 추적 태그 버전 3](format-conversion-tag-jsv3.md)의 형식
+>* [JavaScript 전환 추적 태그 버전 2](format-conversion-tag-jsv2.md)의 형식
 >* [이미지 변환 추적 태그의 형식](format-conversion-tag-image.md)
->* [전환 및 페이지 보기 추적 태그에 대한 FAQ](faqs-conversion-page-view-tracking-tags.md)
+>* 전환 및 페이지 보기 추적 태그에 대한 [FAQ](faqs-conversion-page-view-tracking-tags.md)
 >* [Adobe Advertising JavaScript 전환 매핑 태그](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)

@@ -5,19 +5,19 @@ feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# Adobe 광고에서 지원되는 통화
+# Adobe Advertising에서 지원되는 통화
 
-Adobe 광고는 다음 통화를 지원합니다.
+Adobe Advertising은 다음 통화를 지원합니다.
 
 
 >[!NOTE]
 >
->Adobe Analytics 지원 [더 많은 종류의 통화](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
+>Adobe Analytics은 [더 큰 통화 집합](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html)을 지원합니다.
 
 ## DSP 및 Creative
 
@@ -45,9 +45,9 @@ Adobe 광고는 다음 통화를 지원합니다.
 
 >[!NOTE]
 >
-> [!DNL DSP] 는 CAD, DKK, EUR, GBP, HKD, JPY, NZD, SGD 및 USD의 통화로만 결제를 제공합니다.
+> [!DNL DSP]은(는) CAD, DKK, EUR, GBP, HKD, JPY, NZD, SGD, USD 통화로만 결제를 제공합니다.
 
 ## [!DNL Adobe Advertising Search, Social, & Commerce]
 
-지원되는 검색 엔진에서 지원하는 모든 통화. 이는 과(와) 동일합니다 [에서 지원하는 항목 [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
+지원되는 검색 엔진에서 지원하는 모든 통화. [이(가) 지원하는  [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes)과(와) 동일합니다.
 

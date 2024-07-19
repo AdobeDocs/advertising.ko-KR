@@ -18,30 +18,30 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* Adobe Experience Platform Privacy Service API를 사용하여 CCPA 판매 중지 요청을 Adobe Advertising에게 전달하는 방법에 대한 자세한 내용은 을 참조하십시오. [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
->* CCPA 판매 중지 이벤트 추적과 관련이 없는 목적으로 웹 페이지를 방문하는 사용자뿐만 아니라 데스크탑, 모바일 및 CTV 디바이스에서 광고에 노출된 사용자를 추적하려면 [사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md).
+>* Adobe Experience Platform Privacy Service API를 사용하여 CCPA 판매 중지 요청을 Adobe Advertising에 전달하는 방법에 대한 자세한 내용은 [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html)을(를) 참조하십시오.
+>* CCPA 판매 중지 이벤트 추적과 관련이 없는 목적으로 웹 페이지를 방문하는 사용자와 데스크톱, 모바일 및 CTV 장치에서 광고에 노출된 사용자를 추적하려면 [사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md)를 만드십시오.
 
 1. 세그먼트를 만듭니다.
 
-   1. 메인 메뉴에서 **대상 > 세그먼트**.
+   1. 주 메뉴에서 **대상 > 세그먼트**&#x200B;를 클릭합니다.
 
-   1. 데이터 테이블 위에서 **[!UICONTROL Create]**.
+   1. 데이터 테이블 위에서 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   1. 고유 항목 입력 **[!UICONTROL Segment Name]**.
+   1. 고유한 **[!UICONTROL Segment Name]**&#x200B;을(를) 입력하십시오.
 
       권장 세그먼트 이름: &quot;&lt;*광고주 이름*> - CCPA 판매 중지&quot;(예: &quot;Acme - CCPA 판매 중지&quot;)
 
-   1. 의 경우 [!UICONTROL Segment Type], 선택 **[!UICONTROL CCPA Opt-out of sale]**.
+   1. [!UICONTROL Segment Type]에 대해 **[!UICONTROL CCPA Opt-out of sale]**&#x200B;을(를) 선택합니다.
 
-   1. 클릭 **[!UICONTROL Save]**.
+   1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 1. 픽셀 태그를 복사하여 구현하여 세그먼트를 추적합니다.
 
-   1. 다음으로 돌아가기: **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+   1. **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**(으)로 돌아갑니다.
 
-   1. 세그먼트 행에서 새 세그먼트 위에 커서를 놓고 을 클릭합니다 **[!UICONTROL Get pixel]**.
+   1. 세그먼트 행에서 새 세그먼트 위에 커서를 놓고 **[!UICONTROL Get pixel]**&#x200B;을(를) 클릭합니다.
 
-   1. 이미지 픽셀 복사( `<img src="https://rtd-tm.everesttech.net"`)을 클릭하여 웹 페이지에서 데스크탑 및 모바일 방문자의 사용자 ID를 수집할 수 있습니다.
+   1. 이미지 픽셀(`<img src="https://rtd-tm.everesttech.net"`(으)로 시작)을 복사하여 웹 페이지에 데스크톱 및 모바일 방문자의 사용자 ID를 수집합니다.
 
    1. 회사가 CCPA 판매 중지 요청을 추적하는 데 사용하는 메커니즘(예: 동의 관리 플랫폼 사용)을 사용하여 배포를 위해 광고주 또는 웹 사이트 담당자에게 태그를 제공합니다.
 
@@ -56,12 +56,12 @@ ht-degree: 0%
       1. 소비자는 광고주가 일하는 서비스 제공자의 목록을 제시받는다.
       1. 소비자가 상자를 선택하여 Adobe Advertising에 데이터 판매를 거부합니다.
 
-         이 작업은 픽셀이 실행되고 지정된 &quot;&quot; 내에서 소비자의 쿠키 ID가 수집되도록 트리거합니다.[!UICONTROL CCPA Opt-out of sale]&quot; 세그먼트.
+         이 작업은 지정된 &quot;[!UICONTROL CCPA Opt-out of sale]&quot; 세그먼트 내에서 픽셀을 실행하고 소비자의 쿠키 ID를 수집하도록 트리거합니다.
 
 >[!MORELIKETHIS]
 >
 >* [캘리포니아 소비자 개인 정보 보호법에 대한 Adobe Advertising 지원: 소비자 옵트아웃 지원](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [정보 [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트 및 보고서](ccpa-opt-out-about.md)
+>* [세그먼트 및 보고서 [!UICONTROL CCPA Opt-out-of-Sale]개 정보](ccpa-opt-out-about.md)
 >* [소비자 판매 중지 보고서 검색](ccpa-opt-out-segment-report-retrieve.md)
 >* [사용자 지정 세그먼트 만들기 및 구현](custom-segment-create.md)
->* [대상자 관리 기본 정보](audience-about.md)
+>* [대상자 관리 정보](audience-about.md)

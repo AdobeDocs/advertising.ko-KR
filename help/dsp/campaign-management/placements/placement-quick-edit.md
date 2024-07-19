@@ -18,14 +18,14 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 배치 설정을 편집하려면 다음을 참조하십시오.[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+> 배치 설정을 편집하려면 &quot;[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md)&quot;을 참조하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 1. 캠페인의 이름을 클릭합니다.
-1. 하위 메뉴에서 **[!UICONTROL Placements]**.
-1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
-1. 사용 가능한 항목 편집 [배치 설정](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, 및 **[!UICONTROL Budget]**.
-1. 클릭 **[!UICONTROL Apply]**.
+1. 하위 메뉴에서 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
+1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**&#x200B;을(를) 클릭합니다.
+1. 사용 가능한 [배치 설정](placement-settings.md): **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** 및 **[!UICONTROL Budget]**&#x200B;을(를) 편집합니다.
+1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >

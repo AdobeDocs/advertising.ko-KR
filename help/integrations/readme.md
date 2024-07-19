@@ -5,8 +5,8 @@ source-wordcount: '31'
 ht-degree: 0%
 
 ---
-# Adobe Experience Cloud과 Adobe 광고 통합 설명서
+# Adobe Experience Cloud과 Adobe Advertising 통합 설명서
 
-이 폴더는 다른 Adobe 제품과 Adobe 광고 통합에 대한 문서용입니다.
+이 폴더는 다른 Adobe 제품과의 Adobe Advertising 통합에 대한 문서용입니다.
 
-**참고: 이 페이지는 고객용 설명서에 게시되지 않습니다.**
+**참고: 이 페이지는 고객용 설명서에 게시되지 않았습니다.**

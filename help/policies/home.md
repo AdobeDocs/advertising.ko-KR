@@ -1,6 +1,6 @@
 ---
 title: Adobe Advertising 정책 및 지침
-description: Advertising DSP 및 Advertising Search에 대한 정책 및 지침에 대해 알아봅니다.
+description: Advertising DSP 및 Advertising 검색에 대한 정책 및 지침에 대해 알아봅니다.
 index: true
 cloud: Experience Cloud
 product: advertising cloud

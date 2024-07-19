@@ -1,11 +1,11 @@
 ---
 title: 유효한 텍스트 광고 사본 작성
 description: 효과적인 광고 카피 작성을 위한 모범 사례에 대해 알아봅니다.
-exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->포트폴리오의 캠페인과 관련된 자세한 우수 사례는 최적화 안내서 > Portfolio 관리 > Portfolio 우수 사례 섹션을 참조하십시오(검색, 소셜 및 상거래 내에서 사용 가능).<!-- verify convention for referencing Optimization Guide here -->
+>포트폴리오의 캠페인에 대한 자세한 우수 사례를 보려면 최적화 안내서 > Portfolio 관리 > Portfolio 우수 사례 섹션도 참조하십시오. 이 섹션은 Search, Social 및 Commerce 내에서 사용할 수 있습니다.<!-- verify convention for referencing Optimization Guide here -->
 
 ## 모든 광고 네트워크에 대한 일반 요구 사항
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 * 느낌표는 제목/제목에는 사용할 수 없지만 설명 줄에는 사용할 수 있습니다. 설명에는 하나만 허용됩니다.
 
-* 다음과 같은 특수 문자 `@,~,\, ^,>,<` 금지되어 있습니다.
+* `@,~,\, ^,>,<`과(와) 같은 특수 문자는 허용되지 않습니다.
 
-* 단축키 또는 기호를 사용하여 단어를 대체할 수 없습니다. 예를 들어 &quot;U&quot;를 사용하여 &quot;you&quot; 또는 &quot;를 대체할 수 없습니다.`@`&quot;at&quot;를 대체할 &quot;
+* 단축키 또는 기호를 사용하여 단어를 대체할 수 없습니다. 예를들어, &quot;U&quot;를 사용하여 &quot;you&quot;를 바꾸거나 &quot;`@`&quot;을(를) 사용하여 &quot;at&quot;를 바꿀 수 없습니다.
 
 * &quot;Best&quot; 또는 &quot;#1&quot;와 같은 상위 문구는 이 구분이 제3자에 의해 검증되고 검증이 귀하의 웹사이트에 명확하게 표시되지 않는 한 금지됩니다.
 
@@ -68,21 +68,21 @@ ht-degree: 0%
 
 * 경쟁업체가 무엇을 하고 있는지 알아봅니다. 스페이스의 맨 위 광고(www.spyfu.com 등 사이트)를 보고 어떤 광고가 작동하는지 파악하십시오.
 
-[1]: 키워드 삽입을 사용하는 경우 삽입 코드에 올바른 대소문자를 사용합니다.
+[1]: 키워드 삽입을 사용하는 경우 삽입 코드에 올바른 대소문자를 사용하십시오.
 
-`{keyword:default}` = 잔디깎는 기계
+`{keyword:default}` = 잔디 깎는 기계
 
-`{Keyword:default}` = 잔디깎는 기계
+`{Keyword:default}` = 잔디 깎는 기계
 
 `{KeyWord:default}` = 잔디 깎는 기계
 
-`{KEYWord:default}` = 잔디 깎는 기계 (이는 &quot;LAWN&quot;이 브랜드인 경우에만 허용됨)
+`{KEYWord:default}` = 잔디 깎는 기계(&quot;LAWN&quot;이 브랜드인 경우에만 허용됨)
 
-`{KeyWORD:default}` = 잔디 깎는 기계 (&quot;MOWERS&quot;가 브랜드인 경우에만 허용됨)
+`{KeyWORD:default}` = 잔디 깎는 기계(&quot;깎는 기계&quot;가 브랜드인 경우에만 허용됨)
 
-`{KEYWORD:default}` = 잔디 깎는 기계 (이는 &quot;잔디 깎는 기계&quot;가 브랜드인 경우에만 허용)
+`{KEYWORD:default}` = 잔디 깎는 기계(&quot;잔디 깎는 기계&quot;가 브랜드인 경우에만 허용됨)
 
 >[!MORELIKETHIS]
 >
->* [보고서를 분석하여 키워드 및 캠페인 설정 세분화](best-practices-analyze.md)
+>* [보고서를 분석하여 키워드와 캠페인 설정을 세분화](best-practices-analyze.md)
 >* [웹 사이트 랜딩 페이지 최적화](best-practices-optimize.md)

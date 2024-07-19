@@ -1,6 +1,6 @@
 ---
-title: '[!DNL On Demand] 북미 지역 프리미엄 인벤토리 게시자'
-description: 사용 가능한 항목 보기 [!DNL On Demand] 북미의 프리미엄 인벤토리 게시자.
+title: '[!DNL On Demand] 북미의 프리미엄 인벤토리 게시자'
+description: 북미에서 사용 가능한 [!DNL On Demand] 프리미엄 인벤토리 게시자를 확인하십시오.
 feature: DSP On Demand Inventory
 exl-id: f1805fe0-5687-4e32-809f-c584acee3676
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] 북미 지역의 프리미엄 인벤토리 게시자
+# 북미의 Premium 인벤토리 게시자 [!DNL On Demand]명
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
@@ -29,8 +29,8 @@ ht-degree: 0%
 | [!DNL Crucial Interactive] | 캐나다 |
 | [!DNL Cue Digital Media] | 캐나다 |
 | [!DNL DAX] | 캐나다 |
-| [!DNL DAZN] ([!DNL Perform Media]) | 캐나다 |
-| [!DNL Dotdash] (이전 [!DNL About.com]) | 캐나다 |
+| [!DNL DAZN]([!DNL Perform Media]) | 캐나다 |
+| [!DNL Dotdash](이전 [!DNL About.com]) | 캐나다 |
 | [!DNL EA] | 캐나다 |
 | [!DNL evite] | 캐나다 |
 | [!DNL Expedia] | 캐나다 |
@@ -76,7 +76,7 @@ ht-degree: 0%
 | [!DNL BBC] | U.S. |
 | [!DNL Billboard] | U.S. |
 | [!DNL Bloomberg] | U.S. |
-| [!DNL Broadcasters on Hulu] ([!DNL Discovery], [!DNL NBC Universal], [!DNL FOX]) | U.S. |
+| [!DNL Broadcasters on Hulu]([!DNL Discovery], [!DNL NBC Universal], [!DNL FOX]) | U.S. |
 | [!DNL Business Insider] | U.S. |
 | [!DNL Buzzfeed] | U.S. |
 | [!DNL CBS Interactive] | U.S. |
@@ -87,10 +87,10 @@ ht-degree: 0%
 | [!DNL Conde Nast] | U.S. |
 | [!DNL Crackle] | U.S. |
 | [!DNL Cumulus Media] | U.S. |
-| [!DNL DAZN] ([!DNL Perform Media]) | U.S. |
+| [!DNL DAZN]([!DNL Perform Media]) | U.S. |
 | [!DNL Discovery] | U.S. |
 | [!DNL Disney Digital Network] | U.S. |
-| [!DNL Dotdash] (이전 [!DNL About.com]) | U.S. |
+| [!DNL Dotdash](이전 [!DNL About.com]) | U.S. |
 | [!DNL EA] | U.S. |
 | [!DNL ebay] | U.S. |
 | [!DNL ESI Media] | U.S. |
@@ -177,9 +177,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [정보 [!DNL On Demand] Premium 재고](on-demand-inventory-about.md)
->* [다음에 대한 구독 및 액세스 요청: [!DNL On Demand] Premium 재고](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Premium 아시아 태평양의 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] 오스트레일리아 및 뉴질랜드의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
+>* [정보 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-about.md)
+>* [Premium Inventory 구독 및 액세스 요청 [!DNL On Demand] 2}](on-demand-inventory-subscribe.md)
+>* 아시아 태평양의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
+>* 호주 및 뉴질랜드의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-emea.md)
-

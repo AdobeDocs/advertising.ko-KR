@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Microsoft Advertising] 반응형 검색 광고 설정'
-description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 반응형 검색 광고.
+description: ' [!DNL Microsoft Advertising] 반응형 검색 광고에 대한 설정을 참조합니다.'
 exl-id: 470008e1-7c7d-49a6-b542-fe384c473c97
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -54,4 +54,4 @@ ht-degree: 0%
 >* [[!DNL Microsoft Advertising] 확장된 동적 검색 광고 설정](ad-settings-microsoft-dsa.md)
 >* [[!DNL Microsoft Advertising] 멀티미디어 광고 설정](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft Advertising] 제품 광고 설정](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] 반응형(대상) 광고 설정](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] 응답형(대상) 광고 설정](ad-settings-microsoft-responsive.md)

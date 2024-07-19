@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta 기능*
 
-DSP은 고객 데이터 플랫폼(CDP) 내에 구축된 해시된 이메일 ID로 구성된 자사 세그먼트를 수집하여 범용 ID로 구성된 세그먼트로 변환할 수 있습니다. 각 결과 ID는 사용자를 기반으로 하며 광고 빈도 상한은 ID 수준에서 적용됩니다<!-- Move that info. to somewhere else? -->.
+DSP은 고객 데이터 플랫폼(CDP) 내에 구축된 해시된 이메일 ID로 구성된 자사 세그먼트를 수집하여 범용 ID로 구성된 세그먼트로 변환할 수 있습니다. 각 결과 ID는 사용자를 기반으로 하며 광고 빈도 상한은 ID 수준 <!-- Move that info. to somewhere else? -->에서 적용됩니다.
 
 세그먼트 세부 사항에는 각 범용 ID 유형의 크기와 쿠키 또는 장치 ID로 추적되는 각 장치 유형의 크기가 포함됩니다.
 
@@ -34,17 +34,17 @@ Using your first-party data, you can create segments with IDs from the following
 
    * 로그인한 사용자를 재타겟팅하기 위해
 
-     [!DNL RampIDs] 북미, 오스트레일리아 및 뉴질랜드의 사용자가 사용할 수 있습니다.
+     [!DNL RampIDs]은(는) 북미, 오스트레일리아 및 뉴질랜드의 사용자가 사용할 수 있습니다.
 
      요금은 게재된 디스플레이 광고 노출당 USD 0.15 및 게재된 비디오 광고 노출당 USD 0.25입니다.
 
-   * 측정용 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
+   * [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용한 측정용입니다.
 
-* [[!DNL Unified ID 2.0 (UID2.0)] ID](https://unifiedid.com):
+* [[!DNL Unified ID 2.0 (UID2.0)] ](https://unifiedid.com):
 
    * 로그인한 사용자를 재타겟팅하기 위해
 
-     [!DNL UID2 IDs] 유럽 경제 지역 및 일부 추가 국가의 사용자는 사용할 수 없습니다. 다음을 참조하십시오. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+     [!DNL UID2 IDs]은(는) 유럽 경제 지역 및 일부 추가 국가에서 사용할 수 없습니다. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2)을 참조하세요.
 
      요금은 게재된 디스플레이 광고 노출당 USD 0.15 및 게재된 비디오 광고 노출당 USD 0.25입니다.
 
@@ -72,35 +72,35 @@ DSP은 배치, 스트리밍 또는 API 기반 데이터 공유를 사용하여 �
 
 ### [!DNL Adobe Real-Time Customer Data Platform]
 
-DSP은 통합되었습니다. *대상* 대상 [다음 [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html): Adobe Experience Platform의 일부입니다.
+DSP은(는) Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)에 대한 통합된 *대상*&#x200B;입니다.
 
-위치 [!DNL Real-Time CDP]는 원활한 데이터 활성화를 허용하는 외부 데이터 플랫폼에 대한 연결입니다. 대상을 사용하여 DSP의 타깃팅된 광고를 위해 해시된 이메일 주소를 활성화할 수 있습니다. 대상에 대한 자세한 내용은 Experience Platform 를 참조하십시오. [대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), 제품 개요, 지침 포함 [대상 작업 공간 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) 및 [대상 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html), 및 [대상으로 데이터 활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
+[!DNL Real-Time CDP]에서 대상은 원활한 데이터 활성화를 허용하는 외부 데이터 플랫폼에 대한 연결입니다. 대상을 사용하여 DSP의 타깃팅된 광고를 위해 해시된 이메일 주소를 활성화할 수 있습니다. 대상에 대한 자세한 내용은 Experience Platform [대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)를 참조하세요. 제품 개요, [대상 작업 공간 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) 및 [대상 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)에 대한 지침, [대상에 대한 데이터 활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
-DSP에서 를 수집할 수 있도록 하려면 [!DNL Adobe] [!DNL Real-time CDP] 자사 세그먼트 및 해시된 이메일 주소를 범용 ID로 전환하려면 &quot;[다음에서 사용자 ID 변환 [!DNL Adobe Real-Time CDP] 범용 ID로](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
+DSP에서 [!DNL Adobe] [!DNL Real-time CDP] 자사 세그먼트를 수집하고 해시된 이메일 주소를 범용 ID로 변환할 수 있도록 하려면 &quot;[사용자 ID를  [!DNL Adobe Real-Time CDP] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-adobe-rtcdp.md)&quot;을(를) 참조하십시오.
 
 ### [!DNL ActionIQ]
 
-에서 조직의 자사 데이터를 공유할 수 있습니다. [!DNL ActionIQ] DSP을 사용하는 고객 데이터 플랫폼 을 사용하여 해시된 이메일 주소를 DSP의 타깃팅된 광고를 위한 범용 ID로 변환합니다. 이 통합에는 사용자 정의가 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+[!DNL ActionIQ] 고객 데이터 플랫폼에서 조직의 자사 데이터를 DSP과 공유하여 해시된 이메일 주소를 DSP의 타깃팅된 광고를 위한 범용 ID로 변환할 수 있습니다. 이 통합에는 사용자 정의가 필요합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
 ### [!DNL Amperity]
 
-에서 조직의 자사 데이터를 공유할 수 있습니다. [!DNL Amperity] DSP을 사용하는 고객 데이터 플랫폼 을 사용하여 해시된 이메일 주소를 DSP의 타깃팅된 광고를 위한 범용 ID로 변환합니다. 자세한 내용은 &quot;[다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로](/help/dsp/audiences/sources/source-amperity.md).&quot;
+[!DNL Amperity] 고객 데이터 플랫폼에서 조직의 자사 데이터를 DSP과 공유하여 해시된 이메일 주소를 DSP의 타깃팅된 광고를 위한 범용 ID로 변환할 수 있습니다. 자세한 내용은 &quot;[사용자 ID를  [!DNL Amperity] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-amperity.md)&quot;을 참조하십시오.
 
 ### [!DNL Optimizely]
 
-에서 조직의 자사 데이터를 공유할 수 있습니다. [!DNL Optimizely] DSP을 사용하는 고객 데이터 플랫폼 을 사용하여 해시된 이메일 주소를 DSP의 타깃팅된 광고를 위한 범용 ID로 변환합니다. 자세한 내용은 &quot;[다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로](/help/dsp/audiences/sources/source-optimizely.md).&quot;
+[!DNL Optimizely] 고객 데이터 플랫폼에서 조직의 자사 데이터를 DSP과 공유하여 해시된 이메일 주소를 DSP의 타깃팅된 광고를 위한 범용 ID로 변환할 수 있습니다. 자세한 내용은 &quot;[사용자 ID를  [!DNL Optimizely] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-optimizely.md)&quot;을 참조하십시오.
 
 ### [!DNL Tealium]
 
-에서 조직의 자사 데이터를 공유할 수 있습니다. [!DNL Tealium] 다음을 사용하는 고객 데이터 플랫폼 [!DNL Amazon Web Services]. DSP에서 타깃팅된 광고를 위해 해시된 이메일 주소를 범용 ID로 변환하는 방법에 대한 자세한 내용은 &quot;[다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로](/help/dsp/audiences/sources/source-tealium.md).&quot;
+[!DNL Amazon Web Services]을(를) 사용하여 [!DNL Tealium] 고객 데이터 플랫폼에서 조직의 자사 데이터를 공유할 수 있습니다. DSP에서 타깃팅된 광고를 위해 해시된 이메일 주소를 범용 ID로 변환하는 방법에 대한 자세한 내용은 &quot;[사용자 ID를  [!DNL Tealium] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-tealium.md)&quot;을 참조하십시오.
 
 >[!MORELIKETHIS]
 >
 >* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
 >* [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
->* [다음에서 사용자 ID 변환 [!DNL Adobe Real-Time CDP] 범용 ID로](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로](/help/dsp/audiences/sources/source-amperity.md)
->* [다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로](/help/dsp/audiences/sources/source-optimizely.md)
->* [다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로](/help/dsp/audiences/sources/source-tealium.md)
->* [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
+>* [사용자 ID를  [!DNL Adobe Real-Time CDP] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [사용자 ID를  [!DNL Amperity] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-amperity.md)
+>* [사용자 ID를  [!DNL Optimizely] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-optimizely.md)
+>* [사용자 ID를  [!DNL Tealium] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-tealium.md)
+>* [대상자 관리 정보](/help/dsp/audiences/audience-about.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)

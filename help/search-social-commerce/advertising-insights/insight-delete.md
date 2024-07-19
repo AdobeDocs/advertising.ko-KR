@@ -1,22 +1,22 @@
 ---
-title: 삭제 [!DNL Advertising Insight]
-description: 삭제 방법 알아보기 [!DNL Advertising Insight].
-exl-id: c7c619c0-f6d7-4764-8f08-7d19c5b39772
+title: ' [!DNL Advertising Insight] 삭제'
+description: ' [!DNL Advertising Insight]을(를) 삭제하는 방법을 알아봅니다.'
+exl-id: d8eb5991-aee4-4b28-9633-51eff2def599
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
 
 ---
 
-# 삭제 [!DNL Advertising Insight]
+# [!DNL Advertising Insight] 삭제
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**.
+1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**&#x200B;을(를) 클릭합니다.
 
-2. 왼쪽 메뉴에서 ![보고서](/help/search-social-commerce/assets/insight-reports.png "보고서").
+2. 왼쪽 메뉴에서 ![보고서](/help/search-social-commerce/assets/insight-reports.png "보고서")를 클릭합니다.
 
-3. 다음에서 [!UICONTROL Report History] 패널을 클릭하고, 커서를 보고서 인스턴스 위에 놓은 다음 ![삭제](/help/search-social-commerce/assets/insight-delete.png "삭제").
+3. [!UICONTROL Report History] 패널에서 보고서 인스턴스 위에 커서를 놓고 ![삭제](/help/search-social-commerce/assets/insight-delete.png "삭제")를 클릭합니다.
 
 >[!MORELIKETHIS]
 >

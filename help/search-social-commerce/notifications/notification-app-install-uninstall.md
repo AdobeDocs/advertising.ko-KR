@@ -1,6 +1,6 @@
 ---
-title: 설치 및 제거 [!UICONTROL Notification Center] 웹 애플리케이션
-description: 설치 및 제거 방법 알아보기 [!UICONTROL Notification Center] 웹 응용 프로그램.
+title: '[!UICONTROL Notification Center] 웹 응용 프로그램 설치 및 제거'
+description: '[!UICONTROL Notification Center] 웹 응용 프로그램을 설치하고 제거하는 방법에 대해 알아봅니다.'
 exl-id: e0a72907-3b5e-4678-b08b-95ed099f2dab
 feature: Search Notifications
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,61 +10,61 @@ ht-degree: 0%
 
 ---
 
-# 설치 및 제거 [!UICONTROL Notification Center] 웹 애플리케이션
+# [!UICONTROL Notification Center] 웹 응용 프로그램 설치 및 제거
 
 *Beta 기능*
 
-를 설치하여 브라우저 외부에서 알림을 받고 관리할 수 있습니다. [!UICONTROL Notification Center] 웹 응용 프로그램. 응용 프로그램은 모양이 같고 기능이 와 같습니다. [!UICONTROL Notification Center] Search, Social 및 Commerce 내에서 검색할 수 있습니다. 이 응용 프로그램은 다음에 사용할 수 있습니다. [!DNL Google Chrome] 40 이상 [!DNL Microsoft Edge] 17 이상.
+[!UICONTROL Notification Center] 웹 응용 프로그램을 설치하여 브라우저 외부에서 알림을 받고 관리할 수 있습니다. 응용 프로그램은 Search, Social 및 Commerce 내의 [!UICONTROL Notification Center]과(와) 같은 모양이며 같은 기능을 가지고 있습니다. 응용 프로그램은 [!DNL Google Chrome] 40 이상 또는 [!DNL Microsoft Edge] 17 이상에서 사용할 수 있습니다.
 
-를 설치한 후 [!UICONTROL Notification Center] 응용 프로그램은 브라우저의 응용 프로그램 관리자에서 자동으로 활성화되고 레이아웃이 창 크기에 따라 동적으로 정렬되는 별도의 창으로 로드됩니다. 브라우저의 응용 프로그램 관리자에서 응용 프로그램을 열고 닫거나 운영 체제의 작업 표시줄이나 도크에 고정할 수 있습니다. 응용 프로그램이 자동으로 업데이트됩니다.
+[!UICONTROL Notification Center] 응용 프로그램을 설치하면 브라우저의 응용 프로그램 관리자에서 자동으로 활성화되어 레이아웃이 창 크기에 따라 동적으로 정렬되는 별도의 창으로 로드됩니다. 브라우저의 응용 프로그램 관리자에서 응용 프로그램을 열고 닫거나 운영 체제의 작업 표시줄이나 도크에 고정할 수 있습니다. 응용 프로그램이 자동으로 업데이트됩니다.
 
 ![Microsoft Windows 작업 표시줄의 알림 센터 아이콘](/help/search-social-commerce/assets/windows-taskbar.png "Microsoft Windows 작업 표시줄의 알림 센터 아이콘")
 
 브라우저의 응용 프로그램 관리자에서 응용 프로그램을 비활성화하거나 제거할 수 있습니다. 웹 응용 프로그램 관리에 대한 자세한 내용은 브라우저의 도움말을 참조하십시오.
 
-## 설치 [!UICONTROL Notification Center] 웹 애플리케이션 [!DNL Google Chrome]
+## [!DNL Google Chrome]용 [!UICONTROL Notification Center] 웹 응용 프로그램 설치
 
-1. 메인 메뉴에서 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. 메인 메뉴에서 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**&#x200B;을(를) 클릭합니다.
 
-1. 오른쪽 하단에서 ![알림 센터 웹 앱 설치](/help/search-social-commerce/assets/notifications-install-app.png "알림 센터 웹 앱 설치").
+1. 오른쪽 하단에서 ![알림 센터 웹 앱 설치](/help/search-social-commerce/assets/notifications-install-app.png "알림 센터 웹 앱 설치")를 클릭합니다.
 
-1. 확인 메시지에서 다음을 클릭합니다. **[!UICONTROL Add]**.
+1. 확인 메시지에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
-1. 설치 앱에서? 메시지, 클릭 **[!UICONTROL Install]**.
+1. 설치 앱에서? 메시지를 보려면 **[!UICONTROL Install]**&#x200B;을(를) 클릭하십시오.
 
-## 설치 [!UICONTROL Notification Center] 웹 애플리케이션 [!DNL Microsoft Edge]
+## [!DNL Microsoft Edge]용 [!UICONTROL Notification Center] 웹 응용 프로그램 설치
 
 * 검색, 소셜 및 Commerce 내에서:
 
-   1. 메인 메뉴에서 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+   1. 메인 메뉴에서 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**&#x200B;을(를) 클릭합니다.
 
-   1. 오른쪽 하단에서 ![알림 센터 웹 앱 설치](/help/search-social-commerce/assets/notifications-install-app.png "알림 센터 웹 앱 설치").
+   1. 오른쪽 하단에서 ![알림 센터 웹 앱 설치](/help/search-social-commerce/assets/notifications-install-app.png "알림 센터 웹 앱 설치")를 클릭합니다.
 
-   1. 확인 메시지에서 다음을 클릭합니다. **[!UICONTROL Add]**.
+   1. 확인 메시지에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
-   1. 다음에서 [!UICONTROL Install Notification Center] 앱 메시지, 클릭 **[!UICONTROL Install]**.
+   1. [!UICONTROL Install Notification Center] 앱 메시지에서 **[!UICONTROL Install]**&#x200B;을(를) 클릭합니다.
 
-* 다음에서 [!DNL Edge] 메인 메뉴:
+* [!DNL Edge] 주 메뉴에서:
 
-   1. 브라우저 도구 모음에서 를 클릭합니다 **...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**.
+   1. 브라우저 도구 모음에서 **..** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**&#x200B;을(를) 클릭합니다.
 
-   1. 다음에서 [!UICONTROL Install Notification Center] 앱 메시지, 클릭 **[!UICONTROL Install]**.
+   1. [!UICONTROL Install Notification Center] 앱 메시지에서 **[!UICONTROL Install]**&#x200B;을(를) 클릭합니다.
 
-## 제거 [!UICONTROL Notification Center] 웹 애플리케이션 [!DNL Google Chrome]
+## [!DNL Google Chrome]에 대한 [!UICONTROL Notification Center] 웹 응용 프로그램 제거
 
-* 위치 [!DNL Chrome]로 이동합니다. `chrome://apps`, 마우스 오른쪽 버튼 클릭 **[!UICONTROL notification-center]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Remove from Chrome]**.
+* [!DNL Chrome]에서 `chrome://apps`(으)로 이동하여 **[!UICONTROL notification-center]**&#x200B;을(를) 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Remove from Chrome]**&#x200B;을(를) 클릭합니다.
 
-## 제거 [!UICONTROL Notification Center] 웹 애플리케이션 [!DNL Microsoft Edge]
+## [!DNL Microsoft Edge]에 대한 [!UICONTROL Notification Center] 웹 응용 프로그램 제거
 
-1. 다음에서 [!DNL Edge] 브라우저 도구 모음에서 를 클릭합니다. **...** > **[!UICONTROL Apps]** > **[!UICONTROL Manage apps]**. 또는 로 이동합니다. `edge://apps`.
+1. [!DNL Edge] 브라우저 도구 모음에서 **..** > **[!UICONTROL Apps]** > **[!UICONTROL Manage apps]**&#x200B;을(를) 클릭합니다. 또는 `edge://apps`(으)로 이동합니다.
 
-1. 마우스 오른쪽 버튼 클릭 **[!UICONTROL Notification Center]** 및 클릭 **[!UICONTROL Uninstall]**.
+1. **[!UICONTROL Notification Center]**&#x200B;을(를) 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Uninstall]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
->* [알림 기본 정보](/help/search-social-commerce/notifications/notification-about.md)
+>* [알림 정보](/help/search-social-commerce/notifications/notification-about.md)
 >* [알림 보기](notification-view.md)
 >* [알림을 읽음 또는 읽지 않음으로 표시](notification-mark-read-unread.md)
 >* [알림 삭제](notification-delete.md)
 >* [알림 설정 편집](notification-edit.md)
->* [푸시 알림 활성화 및 비활성화 위치 [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
+>* [[!UICONTROL Notification Center]](notifications-push-enable-disable.md)에서 푸시 알림 사용 및 사용 안 함

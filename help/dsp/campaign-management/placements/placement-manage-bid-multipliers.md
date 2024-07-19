@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 배치에 대한 입찰 승수 관리
 
-다음과 같은 기존 배치 대상에 대해 알고리즘적으로 계산된 입찰을 곱하여 입찰을 늘리거나 줄이는 입찰 승수를 생성하고 관리할 수 있습니다. [적격한 대상 유형](#bid-multiplier-by-target). 한 배치에 대한 입찰 승수 값을 수동으로 편집하거나 하나 이상의 배치에 대한 값이 포함된 스프레드시트를 업로드할 수 있습니다.
+[적격 대상 유형](#bid-multiplier-by-target)의 기존 배치 대상에 대해 알고리즘적으로 계산된 입찰을 곱하여 입찰을 늘리거나 줄이는 입찰 승수를 만들고 관리할 수 있습니다. 한 배치에 대한 입찰 승수 값을 수동으로 편집하거나 하나 이상의 배치에 대한 값이 포함된 스프레드시트를 업로드할 수 있습니다.
 
 기본적으로 대상에 대한 입찰 승수는 1.00이며, 이는 입찰이 해당 대상에 대해 조정되지 않음을 의미합니다. 값의 범위는 0.10부터 10.00까지입니다. 예를 들어, 입찰 승수 0.5는 USD 6 입찰을 USD 3으로 감소시킵니다(0.5 x 6). 경매가 여러 입찰 수정자에 적격인 경우 적용 가능한 모든 입찰 승수를 곱합니다. 예를 들어 캘리포니아가 입찰 승수가 2이고 샌프란시스코가 입찰 승수가 3인 경우 샌프란시스코에서 실행되는 광고의 최종 입찰 승수는 6입니다.
 
@@ -20,33 +20,33 @@ ht-degree: 1%
 >
 >입찰 승수는 입찰가를 최대 입찰가 이상으로 증가시키지 않습니다.
 
-다음에 대한 입찰 승수(1.00 이외의 값 사용)를 설정할 수 있습니다. [제한된 타겟 수](#bid-multiplier-limits-by-target).
+[제한된 대상 수](#bid-multiplier-limits-by-target)에 대해 1.00 이외의 값으로 입찰 승수를 설정할 수 있습니다.
 
-이 기능은 기존 배치 대상과 함께 작동합니다. 배치에 대해 선택한 대상을 변경하려면 &quot;[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+이 기능은 기존 배치 대상과 함께 작동합니다. 배치에 대해 선택한 대상을 변경하려면 &quot;[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md)&quot;을 참조하십시오.
 
 ## 단일 배치에 대한 입찰 승수 관리
 
 값을 수동으로 편집하거나 한 번의 배치로 스프레드시트를 업로드할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
 1. 캠페인의 이름을 클릭합니다.
 
-1. 하위 메뉴에서 **[!UICONTROL Placements]**.
+1. 하위 메뉴에서 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
 
-1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
+1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**&#x200B;을(를) 클릭합니다.
 
 1. 적격 대상에 대한 입찰 승수를 조정합니다.
 
-   * 입찰 승수 값을 수동으로 조정하려면 각 값으로 이동합니다. [target별 탭](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], 및 [!UICONTROL Brand Safety]) 배치 대상의 기존 값을 편집합니다.
+   * 입찰 승수 값을 수동으로 조정하려면 각 [대상별 탭](#bid-multiplier-by-target)([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience] 및 [!UICONTROL Brand Safety])으로 이동하고 배치 대상의 기존 값을 편집하십시오.
 
      대부분의 대상 카테고리는 왼쪽에 하위 카테고리를 나열합니다. 해당되는 경우 하위 범주를 클릭하여 해당 하위 범주에 대한 입찰 승수를 관리합니다.
 
    * 입찰 승수 값이 있는 CSV 파일을 업로드하여 기존 값을 모두 덮어쓰려면 다음을 수행합니다.
 
-      1. 클릭 **[!UICONTROL CSV File Edit]** 오른쪽 상단에 있습니다.
+      1. 오른쪽 상단의 **[!UICONTROL CSV File Edit]**&#x200B;을(를) 클릭합니다.
 
-      1. a) 클릭 **[!UICONTROL Download Template]** 를 클릭하고 파일을 편집합니다. 또는 b) 이전에 다운로드한 템플릿을 편집합니다. 편집된 파일을 장치 또는 네트워크에 저장합니다.
+      1. a) **[!UICONTROL Download Template]**&#x200B;을(를) 클릭하여 파일을 편집하거나 b) 이전에 다운로드한 템플릿을 편집합니다. 편집된 파일을 장치 또는 네트워크에 저장합니다.
 
          다운로드한 스프레드시트에는 각 대상 유형(예: 국가, 소스 및 사이트 범주)에 대해 한 개의 시트가 포함됩니다. 값이 1.0 이하 또는 1.0 이상인 기존 입찰 승수만 포함됩니다.
 
@@ -56,27 +56,27 @@ ht-degree: 1%
 
          ![입찰 승수 스프레드시트 파일의 행 예](/help/dsp/assets/bid-multiplier-spreadsheet.png "입찰 승수 스프레드시트 파일의 행 예")
 
-      1. 클릭 **[!UICONTROL Next]** 로 이동 [!UICONTROL Upload File] 섹션과 a) 편집된 파일을 상자로 드래그하여 놓거나 b) 상자 안을 클릭하여 장치나 네트워크에서 파일을 선택합니다.
+      1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 [!UICONTROL Upload File] 섹션으로 이동하고 a) 편집된 파일을 상자로 드래그 앤 드롭하거나 b) 상자 내부를 클릭하여 장치나 네트워크에서 파일을 선택합니다.
 
-      1. 에서 업로드된 데이터 확인 [!UICONTROL Review & Submit] 섹션을 클릭한 다음 **[!UICONTROL Save]**.
+      1. [!UICONTROL Review & Submit] 섹션에서 업로드된 데이터를 확인한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 하나 이상의 배치에 대한 입찰 승수 업로드
 
 스프레드시트를 업로드하여 선택한 모든 배치에 동일한 값을 적용합니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
 1. 캠페인의 이름을 클릭합니다.
 
-1. 하위 메뉴에서 **[!UICONTROL Placements]**.
+1. 하위 메뉴에서 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
 
 1. 관리할 각 배치 옆의 확인란을 선택합니다.
 
-1. 일괄 작업 도구 모음에서 를 클릭합니다 **[!UICONTROL ...]** > **[!UICONTROL Upload Bid Multiplier Excel Sheet]**.
+1. 일괄 작업 도구 모음에서 **[!UICONTROL ...]** > **[!UICONTROL Upload Bid Multiplier Excel Sheet]**&#x200B;을(를) 클릭합니다.
 
 1. 입찰 승수 값이 있는 CSV 파일을 업로드하여 선택한 모든 배치에 대한 기존 값을 모두 덮어씁니다.
 
-   1. a) 클릭 **[!UICONTROL Download Template]** 를 클릭하고 파일을 편집합니다. 또는 b) 이전에 다운로드한 템플릿을 편집합니다. 편집된 파일을 장치 또는 네트워크에 저장합니다.
+   1. a) **[!UICONTROL Download Template]**&#x200B;을(를) 클릭하여 파일을 편집하거나 b) 이전에 다운로드한 템플릿을 편집합니다. 편집된 파일을 장치 또는 네트워크에 저장합니다.
 
       다운로드한 스프레드시트에는 각 대상 유형(예: 국가, 소스 및 사이트 범주)에 대해 한 개의 시트가 포함됩니다. 값이 1.0 이하 또는 1.0 이상인 기존 입찰 승수만 포함됩니다.
 
@@ -86,23 +86,23 @@ ht-degree: 1%
 
       ![입찰 승수 스프레드시트 파일의 행 예](/help/dsp/assets/bid-multiplier-spreadsheet.png "입찰 승수 스프레드시트 파일의 행 예")
 
-   1. 클릭 **[!UICONTROL Next]** 로 이동 [!UICONTROL Upload File] 섹션과 a) 편집된 파일을 상자로 드래그하여 놓거나 b) 상자 안을 클릭하여 장치나 네트워크에서 파일을 선택합니다.
+   1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 [!UICONTROL Upload File] 섹션으로 이동하고 a) 편집된 파일을 상자로 드래그 앤 드롭하거나 b) 상자 내부를 클릭하여 장치나 네트워크에서 파일을 선택합니다.
 
-   1. 에서 업로드된 데이터 확인 [!UICONTROL Review & Submit] 섹션을 클릭한 다음 **[!UICONTROL Save]**.
+   1. [!UICONTROL Review & Submit] 섹션에서 업로드된 데이터를 확인한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 입찰 승수에 적합한 대상 유형 {#bid-multiplier-by-target}
 
 제외된 대상이 아닌 포함된 대상에 대해서만 입찰 수정자를 구성할 수 있습니다.
 
-* **지역 대상**: 지역(국가, 주 및 도시), 우편 번호 및 DMA
+* **지역 대상**: 지역(국가, 주, 도시), 우편 번호 및 DMA
 
-* **재고 목표**: 공개 인벤토리에 대한 소스 및 피드 [!UICONTROL On Demand] 인벤토리
+* **인벤토리 대상**: 공개 인벤토리 및 [!UICONTROL On Demand] 인벤토리에 대한 원본 및 피드
 
-* **사이트 대상:** 사이트/앱, 사이트 범주(제외되지 않음) 타겟팅
+* **사이트 대상:** 대상 사이트/앱, 사이트 범주(제외되지 않음)
 
-* **대상 타겟:** 세그먼트, 일 단위 및 주제
+* **대상 대상:** 세그먼트, 방송 시간 및 주제
 
-* **ads.txt 대상:** (ads.txt를 옵트아웃하여 모든 판매자의 인벤토리를 구매할 수 있는 경우) ads.txt 판매자만, ads.txt 직접 판매자, ads.txt 판매자와 ads.txt가 없는 사이트 <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
+* **ads.txt 대상:**(모든 판매자의 인벤토리를 구매할 수 있는 ads.txt를 옵트아웃하는 경우) ads.txt 판매자만, ads.txt 직접 판매자, ads.txt 판매자와 ads.txt가 없는 사이트 <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
 ## 대상 유형별 최대 입찰 승수 {#bid-multiplier-limits-by-target}
 

@@ -1,6 +1,6 @@
 ---
-title: 다음 [!UICONTROL MSA Network Impression Share Report]
-description: 에 대해 알아보기 [!UICONTROL MSA Network Impression Share Report].
+title: '[!UICONTROL MSA Network Impression Share Report]'
+description: '[!UICONTROL MSA Network Impression Share Report]에 대해 알아봅니다.'
 feature: Search Reports, Search Specialty Reports
 exl-id: 274f7bac-5eea-4e21-bcdb-ebf6250c4959
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# 다음 [!UICONTROL MSA Network Impression Share Report]
+# [!UICONTROL MSA Network Impression Share Report]
 
-*[!DNL Microsoft Advertising]계정만*
+*[!DNL Microsoft Advertising]개의 계정만*
 
-이 보고서는 광고 배포(검색 또는 대상) 및 네트워크(예: )별로 캠페인 수준 노출 점유율 지표 및 기본 트래픽 지표(비용, 클릭 수, 노출 수)를 보여 줍니다 [!DNL Microsoft] 지정된 사이트에 대해 사이트 및 트래픽 또는 대상 선택) [!DNL Microsoft Advertising] 계정.
+이 보고서는 지정된 [!DNL Microsoft Advertising] 계정에 대한 광고 배포(검색 또는 대상) 및 네트워크(예: [!DNL Microsoft] 사이트 및 선택 트래픽 또는 대상)별 캠페인 수준 노출 점유율 지표 및 기본 트래픽 지표(비용, 클릭 수, 노출 수)를 표시합니다.
 
 지표 열만 있고 차원은 없는 보고서를 실행하면, 생성된 보고서에는 두 개의 중복 행, 즉 집계된 데이터가 있는 행과 모든 지표가 있는 행이 포함됩니다.
 
-지난 180일 동안의 데이터를 볼 수 있습니다. 검색, 소셜 및 Commerce에서 데이터 가져오기 [!DNL Microsoft Advertising] 실시간으로, 그리고 더 큰 데이터 볼륨으로 보고서를 생성하는 데 몇 분이 걸릴 수 있습니다.
+지난 180일 동안의 데이터를 볼 수 있습니다. Search, Social 및 Commerce은 [!DNL Microsoft Advertising]에서 실시간으로 데이터를 가져옵니다. 데이터 볼륨이 더 큰 보고서를 생성하는 데 몇 분이 걸릴 수 있습니다.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 기본 열
 
-모든 기본 및 사용자 지정 열에 대한 설명은 &quot;[특성 보고서에 대한 보고서 열](specialty-report-columns.md).&quot;
+모든 기본 및 사용자 지정 열에 대한 설명은 &quot;[특성 보고서에 대한 보고서 열](specialty-report-columns.md)&quot;을 참조하십시오.
 
 * [!UICONTROL SE Account Name]
 * [!UICONTROL Campaign Name]
@@ -55,4 +55,4 @@ ht-degree: 0%
 >* [전문 보고서 정보](specialty-report-about.md)
 >* [전문 보고서 생성](specialty-report-generate.md)
 >* [특성 보고서 설정](specialty-report-settings.md)
->* [특성 보고서에 대한 보고서 열](specialty-report-columns.md)
+>* 특성 보고서에 대한 [보고서 열](specialty-report-columns.md)

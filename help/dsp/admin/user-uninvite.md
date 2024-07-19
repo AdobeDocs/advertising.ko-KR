@@ -5,7 +5,7 @@ role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
 source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행합니다.
 
-   * 메인 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * 메인 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Users]**&#x200B;을(를) 클릭합니다.
 
-   * 메인 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Edit users]**.
+   * 주 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Edit users]**&#x200B;을(를) 클릭합니다.
 
-1. 다음에서 **[!UICONTROL Invitations]** 섹션, 클릭 **[!UICONTROL X]** 초대장 옆에 있습니다.
+1. **[!UICONTROL Invitations]** 섹션에서 초대 옆에 있는 **[!UICONTROL X]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >

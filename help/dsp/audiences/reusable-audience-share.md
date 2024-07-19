@@ -16,17 +16,17 @@ ht-degree: 0%
 
 대상을 공유하면 공유를 중단할 수 없습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
+1. 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**&#x200B;을(를) 클릭합니다.
 
-1. 대상자 행 위에 커서를 놓고 **[!UICONTROL Share]**.
+1. 대상자 행 위에 커서를 놓고 **[!UICONTROL Share]**&#x200B;을(를) 클릭합니다.
 
-1. 다음 옵션을 선택합니다. **[!UICONTROL Share with all advertisers in my account]**.
+1. **[!UICONTROL Share with all advertisers in my account]**&#x200B;에 대한 옵션을 선택하십시오.
 
-1. 클릭 **[!UICONTROL Save]**.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
->* [대상자 관리 기본 정보](audience-about.md)
+>* [대상자 관리 정보](audience-about.md)
 >* [재사용 가능한 대상 만들기](reusable-audience-create.md)
 >* [재사용 가능한 대상 복제](reusable-audience-duplicate.md)
 >* [재사용 가능한 대상 편집](reusable-audience-edit.md)
@@ -34,7 +34,6 @@ ht-degree: 0%
 >* [재사용 가능한 대상 내보내기](reusable-audience-export.md)
 >* [재사용 가능한 대상의 세그먼트 키를 클립보드에 복사](reusable-audience-clipboard.md)
 >* [재사용 가능한 대상 삭제](reusable-audience-delete.md)
->* [대상자 설정](audience-settings.md)
->* [대상 세그먼트 논리 구문](audience-segment-logic-syntax.md)
+>* [대상 설정](audience-settings.md)
+>* [대상 세그먼트 논리에 대한 구문](audience-segment-logic-syntax.md)
 >* [사용 가능한 타사 데이터 공급자](third-party-data-providers.md)
-

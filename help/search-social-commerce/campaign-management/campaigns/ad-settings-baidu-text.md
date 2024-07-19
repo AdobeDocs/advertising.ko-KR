@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Baidu] 텍스트 광고 설정'
-description: 다음에 대한 설정 참조 [!DNL Baidu] 텍스트 광고.
+description: ' [!DNL Baidu] 텍스트 광고 설정을 참조합니다.'
 exl-id: 1c914e8a-e39b-477e-9c19-919ffedc30c7
 feature: Search Campaign Management
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->광고 사본 변경 [!DNL Baidu] ad는 기존 광고를 삭제하고, 속성이 같은 새 광고를 만듭니다.
+>[!DNL Baidu] 광고에 대한 광고 복사본을 변경하면 기존 광고가 삭제되고 동일한 속성으로 새 광고가 만들어집니다.
 
 ## [!UICONTROL Text Ad]
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 **[!UICONTROL Description Line 2]:** 광고 본문의 두 번째 줄입니다. 최소 길이는 4개의 더블바이트 문자 또는 8개의 싱글바이트 문자이고, 최대 길이는 20개의 더블바이트 문자 또는 40개의 싱글바이트 문자이다.
 
-**[!UICONTROL Display URL]:** 광고에 표시되는 URL. 최대 길이는 35개의 1바이트 문자입니다.
+**[!UICONTROL Display URL]:** 광고에 표시되는 URL입니다. 최대 길이는 35개의 1바이트 문자입니다.
 
-**[!UICONTROL Mobile Preferred]:** (선택 사항) 네트워크에서 데스크탑 또는 태블릿 사용자가 아닌 모바일 장치 사용자에게 광고 또는 광고 확장을 표시하려고 할 수 있습니다. 기본적으로 이 옵션은 활성화되어 있지 않고 모든 장치 유형에 광고가 표시될 수 있습니다.
+**[!UICONTROL Mobile Preferred]:**(선택 사항) 네트워크에서 데스크톱 또는 태블릿 사용자가 아닌 모바일 장치 사용자에게 광고 또는 광고 확장을 표시하려고 할 수 있습니다. 기본적으로 이 옵션은 활성화되어 있지 않고 모든 장치 유형에 광고가 표시될 수 있습니다.
 
 >[!NOTE]
 >

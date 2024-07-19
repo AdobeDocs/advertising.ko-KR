@@ -9,4 +9,4 @@ ht-degree: 0%
 
 <!-- moved to snippet because used multiple times in one file, which ExL doesn't support -->
 
-열 이름이나 수정자 그룹을 동적 매개 변수로 삽입하려면 입력 필드를 클릭한 다음 열 목록 또는 [수정자 이름](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) 을 클릭합니다. 을(를) 삽입하려면 [!DNL Param1] 또는 [!DNL Param2] 변수에 값을 입력합니다. `{param1:default text}` 또는 `{param2:default text}`여기서 &quot;기본 텍스트&quot;는 피드 파일의 매개 변수 열이 광고 행에 대해 비어 있는 경우 사용되는 텍스트입니다.
+열 이름이나 한정자 그룹을 동적 매개 변수로 삽입하려면 입력 필드를 클릭한 다음 열 목록에서 열 이름을 클릭하거나 한정자 목록에서 [한정자 이름](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)을 클릭합니다. [!DNL Param1] 또는 [!DNL Param2] 변수를 삽입하려면 값 `{param1:default text}` 또는 `{param2:default text}`을(를) 입력하십시오. 여기서 &quot;기본 텍스트&quot;는 피드 파일의 매개 변수 열이 광고 행에 대해 비어 있는 경우 사용되는 텍스트입니다.

@@ -21,29 +21,29 @@ ht-degree: 0%
 * (원본 캠페인 내의 중복 배치의 경우) 선택적으로 원본 광고를 복제합니다
 * 새 배치의 상태 및 플라이트 날짜 수정
 
-를 참조하십시오.[복제되지 않은 항목](#placement-not-duplicated)복제되지 않은 배치 설정 목록의 경우 &quot;&quot;를 참조하십시오.
+중복되지 않은 배치 설정 목록은 &quot;[중복되지 않은 항목](#placement-not-duplicated)&quot;을 참조하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
 1. 캠페인의 이름을 클릭합니다.
 
-1. 하위 메뉴에서 **[!UICONTROL Placements]**.
+1. 하위 메뉴에서 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
-   * 한 배치를 복제하려면 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** 패키지 이름 옆에 있습니다.
+   * 한 배치를 복제하려면 패키지 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 
    * 여러 배치를 복제하려면 다음을 수행합니다.
 
       1. 복제할 각 배치 옆의 확인란을 선택합니다.
 
-      1. 일괄 작업 도구 모음에서 를 클릭합니다 **[!UICONTROL Duplicate]**.
+      1. 일괄 작업 도구 모음에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 
 1. 새 배치 설정을 지정합니다.
 
    1. (단일 배치) 새 배치 이름을 입력합니다.
 
-   1. 다음에서 **[!UICONTROL Choose Package (Required)]** 메뉴에서 상위 패키지 또는 를 선택합니다**[!UICONTROL No package]*.
+   1. **[!UICONTROL Choose Package (Required)]** 메뉴에서 부모 패키지 또는 {1*** 중 하나를 선택합니다.[!UICONTROL No package]
 
    1. (선택 사항) 기본 설정을 변경합니다.
 
@@ -51,9 +51,9 @@ ht-degree: 0%
 
    기본적으로 새 배치는 원래 광고 유형에 대한 것이고, 원래 광고주 및 캠페인에 지정되고, 현재 날짜에 시작되는 비행 일정이 있으며, 일시 중지되고, 원래 광고를 포함하지 않습니다.
 
-   여러 배치를 생성하면 새 배치 이름은 규칙 &lt;*original_placement_name #N*>(예: &quot;내 배치 #2&quot;)
+   여러 배치를 만들 때 새 배치 이름은 규칙 &lt;*original_placement_name #N*>(예: &quot;내 배치 #2&quot;)을 사용하여 차례로 숫자로 추가됩니다.
 
-1. 클릭 **[!UICONTROL Submit]**.
+1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
 ## 복제되지 않은 항목 {#placement-not-duplicated}
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 * 실험 설정
 * (플라이트 날짜를 변경하는 경우) 사용자 지정 광고 예약
 * (광고를 첨부하지 않는 경우) 사용자 지정 광고 가중치 및 예약
-* 프로그램 보증 거래(PG) 및 배치를 위한 기본 배치 [!UICONTROL Simple Ad Serving] 거래
+* 프로그래밍 방식 보장(PG) 거래의 기본 배치 및 [!UICONTROL Simple Ad Serving] 거래의 배치
 * (배치를 다른 캠페인에 복사하는 경우):
    * 지역 대상
    * 이벤트 픽셀

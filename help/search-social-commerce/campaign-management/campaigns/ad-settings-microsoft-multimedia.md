@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Microsoft Advertising] 멀티미디어 광고 설정'
-description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 멀티미디어 광고.
+description: ' [!DNL Microsoft Advertising] 멀티미디어 광고 설정을 참조하십시오.'
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -22,23 +22,23 @@ ht-degree: 0%
 
 * 하나 이상의 정사각형(1:1) 이미지.
 
-다음에 대해 허용되는 종횡비 및 치수를 참조하십시오. [멀티미디어 광고](https://help.ads.microsoft.com/#apex/ads/en/60107/0).
+[멀티미디어 광고](https://help.ads.microsoft.com/#apex/ads/en/60107/0)에 대해 허용되는 종횡비 및 차원을 확인하십시오.
 
 <!-- Instructions -->
 
 {{$include /help/_includes/images-ms-multimedia-responsive-ad.md}}
 
-**[!UICONTROL Business Name]:** 비즈니스 이름(최대 25자).
+**[!UICONTROL Business Name]:** 비즈니스 이름으로, 최대 25자입니다.
 
-**[!UICONTROL Short Headlines]:** 최소 3개, 최대 15개의 짧은 머리글로 각각 최소 한 단어 최대 30자까지 포함할 수 있습니다.
+**[!UICONTROL Short Headlines]:** 최소 3자, 최대 15자의 짧은 머리글에 한 단어 이상, 최대 30자까지 포함할 수 있습니다.
 
-**[!UICONTROL Long Headlines]:** 각각 최대 90자로 최소 3자, 최대 5자의 긴 머리글입니다.
+**[!UICONTROL Long Headlines]:** 최소 3자, 최대 5자의 긴 헤드라인(각각 최대 90자).
 
-**[!UICONTROL Ad Text]:** 최소 2개, 최대 4개의 단어, 각 단어 90자까지 사용할 수 있습니다.
+**[!UICONTROL Ad Text]:** 최소 두 개, 최대 네 개의 단어 하나와 최대 90자로 구성된 설명.
 
-**[!UICONTROL Call to Action]:** 광고에 포함할 클릭 유도 문안. 기본적으로 자동화된 가 선택되어 있으며 광고 네트워크에서 콜 투 액션을 선택합니다. 선택적으로 다른 작업을 선택할 수 있습니다.
+**[!UICONTROL Call to Action]:** 광고에 포함할 작업에 대한 호출입니다. 기본적으로 자동화된 가 선택되어 있으며 광고 네트워크에서 콜 투 액션을 선택합니다. 선택적으로 다른 작업을 선택할 수 있습니다.
 
-**[!UICONTROL Call to Action Language]:** 콜 투 액션 옵션에 대한 언어입니다.
+**[!UICONTROL Call to Action Language]:** 콜 투 액션 옵션의 언어입니다.
 
 ## [!UICONTROL Tracking URLs]
 
@@ -56,5 +56,5 @@ ht-degree: 0%
 >* [광고 관리](ad-manage.md)
 >* [[!DNL Microsoft Advertising] 확장된 동적 검색 광고 설정](ad-settings-microsoft-dsa.md)
 >* [[!DNL Microsoft Advertising] 제품 광고 설정](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] 반응형(대상) 광고 설정](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] 응답형(대상) 광고 설정](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft Advertising] 반응형 검색 광고 설정](ad-settings-microsoft-rsa.md)

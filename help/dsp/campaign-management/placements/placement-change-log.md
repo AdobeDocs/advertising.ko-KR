@@ -16,21 +16,21 @@ ht-degree: 0%
 
 유형, 수정자 또는 수정한 날짜 열별로 데이터를 정렬할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
 1. 캠페인의 이름을 클릭합니다.
 
-1. 하위 메뉴에서 **[!UICONTROL Placements]**.
+1. 하위 메뉴에서 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
 
-1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Change logs]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
-   * 테이블 양식에서만 데이터를 보는 것과 테이블 및 차트 양식 모두에서 데이터를 보는 것을 전환하려면 ![테이블 및 차트 보기](/help/dsp/assets/table-plus-chart-view.png "테이블 및 차트 보기") 또는 ![표 보기](/help/dsp/assets/table-view.png "표 보기") 오른쪽 위 도구 모음에서 를 클릭합니다.
+   * 테이블 폼에서만 데이터를 보고 테이블 폼과 차트 폼 모두에서 데이터를 보려면 오른쪽 상단 도구 모음에서 ![테이블 및 차트 보기](/help/dsp/assets/table-plus-chart-view.png "테이블 및 차트 보기") 또는 ![표 보기](/help/dsp/assets/table-view.png "표 보기")을(를) 클릭합니다.
 
-   * 항목에 메모를 추가하려면 커서를 [!UICONTROL Notes] 열에 대해 행을 지정한 다음 **[!UICONTROL Add Notes]**. 입력 필드에 텍스트를 입력한 다음 **[!UICONTROL Save]**.
+   * 항목에 메모를 추가하려면 행의 [!UICONTROL Notes] 열 위에 커서를 놓고 **[!UICONTROL Add Notes]**&#x200B;을(를) 클릭합니다. 입력 필드에 텍스트를 입력한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   * 팝업 창에서 항목에 대한 세부 정보를 보려면 커서를 창 위에 놓습니다. [!UICONTROL Notes] 열에 대해 행을 지정한 다음 **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * 팝업 창에서 항목에 대한 세부 정보를 보려면 행의 [!UICONTROL Notes] 열 위에 커서를 놓고 **[!UICONTROL More]>[!UICONTROL View Details]**&#x200B;을(를) 클릭합니다.
 
 
 >[!MORELIKETHIS]

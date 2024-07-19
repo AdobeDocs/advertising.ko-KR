@@ -18,23 +18,22 @@ ht-degree: 0%
 
 ## 캠페인 보관
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
-1. 캠페인 이름 옆에 있는  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. 확인 메시지에서 다음을 클릭합니다. **[!UICONTROL Archive]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+1. 캠페인 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Archive]**&#x200B;을(를) 클릭합니다.
+1. 확인 메시지에서 **[!UICONTROL Archive]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
 >
->보관된 캠페인을 보려면 다음을 필터링하십시오. [!UICONTROL Campaigns] 보기: 클릭 ![필터 단추](/help/dsp/assets/filter.png), 클릭 **[!UICONTROL Campaign status]** 및 선택 **[!UICONTROL Archived]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Apply].**
+>보관된 캠페인을 보려면 [!UICONTROL Campaigns] 보기를 필터링하세요. ![필터 단추](/help/dsp/assets/filter.png)를 클릭하고 **[!UICONTROL Campaign status]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Archived]**&#x200B;을(를) 선택하고 **[!UICONTROL Apply]을(를) 클릭합니다.**
 
 ## 캠페인 보관 해제
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
-1. 캠페인 이름 옆에 있는  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. 확인 메시지에서 다음을 클릭합니다. **[!UICONTROL Unarchive]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+1. 캠페인 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**&#x200B;을(를) 클릭합니다.
+1. 확인 메시지에서 **[!UICONTROL Unarchive]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
 >* [캠페인 편집](campaign-edit.md)
 >* [캠페인에 대한 변경 로그 보기](campaign-change-log.md)
 >* [캠페인 일시 중지 또는 활성화](campaign-pause-activate.md)
-

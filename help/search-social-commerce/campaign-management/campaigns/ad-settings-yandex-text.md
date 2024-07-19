@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Yandex] 텍스트 광고 설정'
-description: 다음에 대한 설정 참조 [!DNL Yandex] 텍스트 광고.
-exl-id: 762eca31-58f7-4a4e-bf6a-1c2132c6529f
+description: ' [!DNL Yandex] 텍스트 광고 설정을 참조합니다.'
+exl-id: ed0ae54f-85a3-4475-af2d-f3e693fc48a1
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ## [!UICONTROL Text Ad]
 
-**[!UICONTROL Ad Title]:** 배너 헤드라인(광고). 최대 길이는 33자이고, 단어 하나에는 23자를 초과할 수 없습니다.
+**[!UICONTROL Ad Title]:** 배너의 헤드라인(광고). 최대 길이는 33자이고, 단어 하나에는 23자를 초과할 수 없습니다.
 
 >[!NOTE]
 >
->광고 사본 변경 [!DNL Yandex] ad는 기존 광고를 삭제하고, 속성이 같은 새 광고를 만듭니다.
+>[!DNL Yandex] 광고에 대한 광고 복사본을 변경하면 기존 광고가 삭제되고 동일한 속성으로 새 광고가 만들어집니다.
 
-**[!UICONTROL Description Line 1]:** 배너 본문(광고)입니다. 최대 길이는 75자이고 한 단어는 22자를 초과할 수 없습니다.
+**[!UICONTROL Description Line 1]:** 배너의 본문(ad)입니다. 최대 길이는 75자이고 한 단어는 22자를 초과할 수 없습니다.
 
 >[!NOTE]
 >
->광고 사본 변경 [!DNL Yandex] ad는 기존 광고를 삭제하고, 속성이 같은 새 광고를 만듭니다.
+>[!DNL Yandex] 광고에 대한 광고 복사본을 변경하면 기존 광고가 삭제되고 동일한 속성으로 새 광고가 만들어집니다.
 
 <!-- **[!UICONTROL Status]:** -->
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->URL에는 [`{param1}` 및 `{param2}`](https://yandex.com/support/direct/statistics/url-tags.html) 대체 변수입니다. 변수를 사용하면 변수는 `{param1}` 및 `{param2}` 광고를 표시하는 데 사용되는 키워드에 대해 정의된 값입니다.
+>URL에는 [`{param1}` 및 `{param2}`](https://yandex.com/support/direct/statistics/url-tags.html) 대체 변수도 포함될 수 있습니다. 변수를 사용하면 변수가 광고를 표시하는 데 사용되는 키워드에 대해 정의된 `{param1}` 및 `{param2}` 값으로 대체됩니다.
 
 >[!MORELIKETHIS]
 >

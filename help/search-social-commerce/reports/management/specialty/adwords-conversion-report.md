@@ -1,20 +1,20 @@
 ---
 title: '[!UICONTROL AdWords Conversion Report]'
-description: 에 대해 알아보기 [!UICONTROL AdWords Conversion Report].
-exl-id: 5c9252fd-b791-421b-a5d2-1f6279d38c45
+description: '[!UICONTROL AdWords Conversion Report]에 대해 알아봅니다.'
+exl-id: a3970c96-5b6f-4f1f-981a-0253c8204a0d
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords Conversion Report]
 
-*[!DNL Google Ads]다음 대상이 있는 계정 [!DNL Google Ads] 전환 최적화만*
+[!DNL Google Ads] 전환 최적화만 있는 *[!DNL Google Ads]계정*
 
-다음 [!UICONTROL AdWords Conversion Report] 여기에는 비용, 클릭 및 노출 데이터가 포함됩니다. 전환 유형별 전환 데이터는 [!DNL Google Ads Conversion Optimizer], 하나 이상의 계정, 캠페인, 광고 그룹, 광고 또는 키워드에 대해 파생된 지표 데이터(선택 사항). 데이터가 표시되는 경우는 [!DNL Google Ads Conversion Optimizer] 은 캠페인의 입찰 설정에서 활성화됩니다(따라서 Search, Social, and Commerce는 캠페인에 대한 입찰을 최적화하지 않습니다.). 기본적으로 데이터에는 지정된 날짜 범위의 각 시간 단위에 대해 적용 가능한 각 키워드에 대해 각 변환에 대한 한 개의 행이 포함됩니다. 행은 광고 그룹 이름별로 오름차순으로 정렬되며 기본적으로 키워드별로 정렬됩니다. 이 보고서에는 비용, 클릭 또는 노출 데이터뿐만 아니라 추적한 전환 데이터도 포함되지 않습니다. [!DNL Adobe].
+[!UICONTROL AdWords Conversion Report]에는 비용, 클릭 및 노출 데이터, [!DNL Google Ads Conversion Optimizer]에 의해 추적된 전환 유형별 전환 데이터, 하나 이상의 계정, 캠페인, 광고 그룹, 광고 또는 키워드에 대한 파생 지표 데이터(선택 사항)가 포함됩니다. 캠페인의 입찰 설정에서 [!DNL Google Ads Conversion Optimizer]이(가) 활성화된 경우에만 데이터가 표시됩니다(따라서 Search, Social 및 Commerce이 캠페인에 대한 입찰을 최적화하지 않음). 기본적으로 데이터에는 지정된 날짜 범위의 각 시간 단위에 대해 적용 가능한 각 키워드에 대해 각 변환에 대한 한 개의 행이 포함됩니다. 행은 광고 그룹 이름별로 오름차순으로 정렬되며 기본적으로 키워드별로 정렬됩니다. 보고서에 비용, 클릭 또는 노출 데이터나 [!DNL Adobe]에서 추적한 변환 데이터가 포함되어 있지 않습니다.
 
 이전 2개월의 데이터를 볼 수 있습니다.
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 기본 열
 
-모든 기본 및 사용자 지정 열에 대한 설명은 &quot;[특성 보고서에 대한 보고서 열](specialty-report-columns.md).&quot;
+모든 기본 및 사용자 지정 열에 대한 설명은 &quot;[특성 보고서에 대한 보고서 열](specialty-report-columns.md)&quot;을 참조하십시오.
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -51,6 +51,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
-* [전문 보고서 정보](specialty-report-about.md)
-* [전문 보고서 생성](specialty-report-generate.md)
-* [특성 보고서 설정](specialty-report-settings.md)
+>* [전문 보고서 정보](specialty-report-about.md)
+>* [전문 보고서 생성](specialty-report-generate.md)
+>* [특성 보고서 설정](specialty-report-settings.md)

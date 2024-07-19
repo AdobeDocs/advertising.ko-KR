@@ -1,11 +1,11 @@
 ---
 title: Adobe Advertising 전환 매핑 태그
 description: Adobe Advertising이 랜딩 페이지가 아닌 페이지에서 발생하는 전환 이벤트를 추적할 수 있는 ITP 2.2용 JavaScript 기반 전환 매핑 태그에 대해 알아봅니다.
-exl-id: 6e2515da-2552-4f19-8344-1dee96cbf706
+exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -14,29 +14,29 @@ ht-degree: 0%
 
 *Adobe Advertising 전환 추적만 있는 광고주*
 
-Adobe Advertising JavaScript v2 또는 v3 전환 추적 태그 외에 Adobe Advertising JavaScript 기반 전환 매핑 태그를 사용하면 Adobe Advertising이 랜딩 페이지가 아닌 페이지에서 발생하는 전환 이벤트를 추적할 수 있습니다. ITP 2.2 솔루션은 광고주가 소유한 iFrame의 로컬 저장소에 사용자의 쿠키를 저장합니다. 그런 다음 로컬 저장소는 클릭 다운스트림에서 전환 페이지까지 쿠키 값을 유지할 수 있습니다.
+Adobe Advertising JavaScript 기반 전환 매핑 태그 를 Adobe Advertising JavaScript v2 또는 v3 전환 추적 태그 와 함께 사용할 경우, Adobe Advertising은 랜딩 페이지가 아닌 페이지에서 발생하는 전환 이벤트를 추적할 수 있습니다. ITP 2.2 솔루션은 광고주가 소유한 iFrame의 로컬 저장소에 사용자의 쿠키를 저장합니다. 그런 다음 로컬 저장소는 클릭 다운스트림에서 전환 페이지까지 쿠키 값을 유지할 수 있습니다.
 
 전환 매핑 태그를 사용하여 Adobe Advertising이 Apple Safari 및 Mozilla Firefox 브라우저 내에서 발생하는 모든 전환을 추적할 수 있도록 함으로써 자사 쿠키의 지속성을 제한합니다. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
 변환 매핑 태그를 사용하려면 다음을 수행하십시오.
 
-1. [전환 매핑 태그 배포](#deploy-conversion-mapping-tag).
+1. [전환 매핑 태그를 배포합니다](#deploy-conversion-mapping-tag).
 
-1. 조직에서 여러 Adobe Experience Cloud Identity Service 조직 ID(이전의 IMS 조직 ID)를 사용하는 경우 [전환 태그 업데이트](#update-conversion-tags) 조직 ID를 포함합니다.
+1. 조직에서 여러 Adobe Experience Cloud Identity Service 조직 ID(이전의 IMS 조직 ID)를 사용하는 경우 조직 ID를 포함하도록 [전환 태그를 업데이트](#update-conversion-tags)하십시오.
 
-1. [태그 배포의 유효성 검사](#validate-conversion-mapping).
+1. [태그 배포 유효성 검사](#validate-conversion-mapping).
 
-## ITP 2.2에 대한 JavaScript 전환 매핑 태그 배포 {#deploy-conversion-mapping-tag}
+## ITP 2.2용 JavaScript 전환 매핑 태그 배포 {#deploy-conversion-mapping-tag}
 
 >[!NOTE]
 >
->ITP 2.0에 대해 JavaScript 전환 매핑 태그를 사용하는 경우, 모든 전환 페이지에 있는 기존 태그를 다음 태그 중 하나로 바꾸십시오.<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
+>ITP 2.0용 JavaScript 전환 매핑 태그를 사용하는 경우 모든 전환 페이지의 기존 태그를 다음 태그 중 하나로 바꾸십시오.<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
 
-* 조직에서 검색, 소셜 및 상거래 계정에 사용되는 단일 조직 ID를 사용하는 경우 다음 태그를 사용하십시오.
+* 조직에서 검색, 소셜 및 Commerce 계정에 사용되는 단일 조직 ID를 사용하는 경우 다음 태그를 사용하십시오.
 
   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
-  바꾸기 `{AMO User ID}` (검색, 소셜 및 상거래 계정에 대한 고유 사용자 ID 포함)
+  `{AMO User ID}`을(를) 검색, 소셜 및 Commerce 계정의 고유 사용자 ID로 바꾸는 경우.
 
 * 조직에서 여러 조직 ID를 사용하는 경우 다음 태그를 사용하십시오.
 
@@ -44,11 +44,11 @@ Adobe Advertising JavaScript v2 또는 v3 전환 추적 태그 외에 Adobe Adve
 
   여기서:
 
-   * 값을 대체합니다. `{xxxxxx@AdobeOrg}` (페이지 전환이 추적되는 조직 ID 포함) 모든 전환 페이지에 동일한 조직 ID를 사용합니다.
+   * `{xxxxxx@AdobeOrg}` 값을 페이지의 전환을 추적할 조직 ID로 바꿉니다. 모든 전환 페이지에 동일한 조직 ID를 사용합니다.
 
-   * 다음 항목 바꾸기 `{AMO User ID}` (검색, 소셜 및 상거래 계정에 대한 고유 사용자 ID 포함)
+   * `{AMO User ID}`을(를) 검색, 소셜 및 Commerce 계정의 고유 사용자 ID로 바꿉니다.
 
-* 를 지원하지 않는 태그 관리 시스템을 사용하는 경우 `imsorgid` 변수를 스크립트 태그에 매핑한 다음 대신 다음 코드를 사용하십시오.
+* `imsorgid` 변수를 스크립트 태그에 추가하는 것을 지원하지 않는 태그 관리 시스템을 사용하는 경우 대신 다음 코드를 사용하십시오.
 
   *조직에서 단일 조직 ID를 사용하는 경우:
 
@@ -60,7 +60,7 @@ Adobe Advertising JavaScript v2 또는 v3 전환 추적 태그 외에 Adobe Adve
   <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
   ```
 
-  바꾸기 `{AMO User ID}` (검색, 소셜 및 상거래 계정에 대한 고유 사용자 ID 포함)
+  `{AMO User ID}`을(를) 검색, 소셜 및 Commerce 계정의 고유 사용자 ID로 바꾸는 경우.
 
    * 조직에서 여러 조직 ID를 사용하는 경우:
 
@@ -75,13 +75,13 @@ Adobe Advertising JavaScript v2 또는 v3 전환 추적 태그 외에 Adobe Adve
 
      여기서:
 
-      * 값을 대체합니다. `{xxxxxx@AdobeOrg}` (페이지 전환이 추적되는 조직 ID 포함) 모든 전환 페이지에 동일한 조직 ID를 사용합니다.
+      * `{xxxxxx@AdobeOrg}` 값을 페이지의 전환을 추적할 조직 ID로 바꿉니다. 모든 전환 페이지에 동일한 조직 ID를 사용합니다.
 
-      * 다음 항목 바꾸기 `{AMO User ID}` (검색, 소셜 및 상거래 계정에 대한 고유 사용자 ID 포함)
+      * `{AMO User ID}`을(를) 검색, 소셜 및 Commerce 계정의 고유 사용자 ID로 바꿉니다.
 
-조직 ID 또는 검색, 소셜 및 상거래 사용자 ID의 값을 모를 경우 Adobe 계정 관리자에게 문의하십시오.
+조직 ID 또는 검색, 소셜 및 Commerce 사용자 ID의 값을 모를 경우 Adobe 계정 관리자에게 문의하십시오.
 
-### 예
+### 예시
 
 ```
 <script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="abc12345@AdobeOrg" userid="99999"></script>`
@@ -106,7 +106,7 @@ iframe 또는 컨테이너 태그 내에 배치되면 다음을 수행합니다.
 
 * 변환 매핑 태그는 최상위 도메인 아래에 하나의 수준만 있어야 합니다.
 
-## JavaScript 변환 태그 업데이트 {#update-conversion-tags}
+## JavaScript 전환 태그 업데이트 {#update-conversion-tags}
 
 조직에서 여러 조직 ID를 사용하는 경우 페이지의 전환이 추적되는 조직 ID를 기존 JavaScript 전환 태그에 추가합니다.
 
@@ -118,7 +118,7 @@ iframe 또는 컨테이너 태그 내에 배치되면 다음을 수행합니다.
 
 `ef_imsorgid="{xxxxxx@AdobeOrg}";`
 
-여기서 값을 바꿉니다 `{xxxxxx@AdobeOrg}` (페이지 전환이 추적되는 조직 ID 포함)
+여기서 `{xxxxxx@AdobeOrg}` 값을 페이지의 전환을 추적할 조직 ID로 바꿉니다.
 
 예:
 
@@ -142,13 +142,13 @@ effp();
 <noscript><img src="https://pixel.everesttech.net/<ef-userid>/t?ev_property name=<property name>&ev_transid=<transid>" width="1" height="1"/></noscript>
 ```
 
-### JavaScript V3 태그
+### JavaScript 태그
 
-다음 이후 `window.EF` 가 정의되어 있으면 다음 문자열을 추가합니다.
+`window.EF`을(를) 정의한 후 다음 문자열을 추가합니다.
 
 `window.EF.imsorgid = "{xxxxxx@AdobeOrg}";`
 
-여기서 값을 바꿉니다 `{xxxxxx@AdobeOrg}` (페이지 전환이 추적되는 조직 ID 포함)
+여기서 `{xxxxxx@AdobeOrg}` 값을 페이지의 전환을 추적할 조직 ID로 바꿉니다.
 
 예:
 

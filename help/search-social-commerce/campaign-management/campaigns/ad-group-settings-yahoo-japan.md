@@ -1,9 +1,9 @@
 ---
 title: '[!DNL Yahoo! Japan Ads] 광고 그룹 설정'
-description: 다음에 대한 설정 참조 [!DNL Yahoo! Japan Ads] 광고 그룹.
-exl-id: 987c9627-06b3-447a-aa1b-a4040f4f5a0c
+description: ' [!DNL Yahoo! Japan Ads] 광고 그룹에 대한 설정을 참조합니다.'
+exl-id: 1afacb94-bf07-45df-ab79-13cb7f876288
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Name]:** 캠페인 내에서 고유한 광고 그룹 이름입니다.
 
-**[!UICONTROL Status]:** 광고 그룹의 표시 상태: *활성* 또는 *일시 중지됨*. 새 광고 그룹의 기본값은 입니다 *활성*.
+**[!UICONTROL Status]:** 광고 그룹의 표시 상태: *활성* 또는 *일시 중지됨*. 새 광고 그룹의 기본값은 *활성*&#x200B;입니다.
 
 ## [!UICONTROL Budget Options]
 

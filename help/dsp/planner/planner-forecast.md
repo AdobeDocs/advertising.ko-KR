@@ -14,11 +14,11 @@ ht-degree: 0%
 
 최근에 관찰된 데이터를 기반으로 연결된 TV 도달 계획에 대한 예측을 다시 생성할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Planner]**.
+1. 주 메뉴에서 **[!UICONTROL Planner]**&#x200B;을(를) 클릭합니다.
 
-1. 계획 행 위에 커서를 놓고 **[!UICONTROL Forecast]**.
+1. 계획 행 위에 커서를 놓고 **[!UICONTROL Forecast]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 내보내려면 [!UICONTROL Budget vs Reach] 에 대한 예측 [!DNL Microsoft Excel] spreadsheet**, 클릭 **[!UICONTROL ...]** 오른쪽 상단에서 **[!UICONTROL Export]**.
+1. (선택 사항) [!UICONTROL Budget vs Reach] 예측을 [!DNL Microsoft Excel] 스프레드시트로 내보내려면 ** 상단의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >

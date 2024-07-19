@@ -1,24 +1,24 @@
 ---
 title: '[!DNL Google Ads] 반응형 검색 광고 설정'
-description: 다음에 대한 설정 참조 [!DNL Google Ads] 반응형 검색 광고.
-exl-id: e3c76f22-780d-4631-bcf2-af68d12810e2
+description: ' [!DNL Google Ads] 반응형 검색 광고에 대한 설정을 참조합니다.'
+exl-id: ba2a08eb-91fc-4a8c-81c5-a9e28f6abdbf
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Ads] 반응형 검색 광고 설정
 
-[!DNL Google Ads] 동적 어셈블리 [반응형 검색 광고](https://support.google.com/google-ads/answer/7684791?hl=en) (RSA), 헤드라인 세 개, 설명 두 개
+[!DNL Google Ads]은(는) 최대 3개의 헤드라인과 2개의 설명을 사용하여 [반응형 검색 광고](https://support.google.com/google-ads/answer/7684791?hl=en)(RSA)를 동적으로 어셈블합니다.
 
 >[!NOTE]
 >
 >각 광고 그룹에는 최대 3개의 활성화된 반응형 검색 광고가 포함될 수 있습니다.
 
-다음을 참조하십시오. [!DNL Google Ads] 도움말 [계정당 광고 제한](https://support.google.com/google-ads/answer/6372658?hl=en).
+[계정당 광고 제한](https://support.google.com/google-ads/answer/6372658?hl=en)에 대한 [!DNL Google Ads] 도움말을 참조하십시오.
 
 ## [!UICONTROL Responsive Search Ad Details]
 
@@ -52,5 +52,5 @@ ht-degree: 0%
 >
 >* [광고 정보](ad-about.md)
 >* [광고 관리](ad-manage.md)
->* [[!DNL Google Ads] 호출 전용 광고 설정](ad-settings-google-call.md)
+>* [[!DNL Google Ads] 통화 전용 광고 설정](ad-settings-google-call.md)
 >* [[!DNL Google Ads] 확장된 동적 검색 광고 설정](ad-settings-google-dsa.md)

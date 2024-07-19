@@ -1,21 +1,21 @@
 ---
 title: 열 재정렬
 description: 열을 다시 정렬하는 방법에 대해 알아봅니다.
-exl-id: 14f66a19-232d-4f68-b939-c5c512025ec9
+exl-id: 934e1f7e-a34d-4973-8219-27876cf50f0f
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
 # 열 재정렬
 
-1. (사용 가능한 경우) 열 머리글의 오른쪽에서 ![아래쪽 화살표](/help/search-social-commerce/assets/arrow-down-expand.png "아래쪽 화살표").
+1. (사용 가능한 경우) 열 제목의 오른쪽에서 ![아래쪽 화살표](/help/search-social-commerce/assets/arrow-down-expand.png "아래쪽 화살표")를 클릭합니다.
 
 1. 정렬 옵션을 선택합니다.
 
-   * *오름차순 정렬* (A~Z 또는 1~10)
+   * *오름차순 정렬*(A에서 Z까지 또는 1에서 10까지)
 
-   * *내림차순 정렬* (Z에서 A로 또는 10에서 1로)
+   * *내림차순 정렬*(Z에서 A까지 또는 10에서 1)

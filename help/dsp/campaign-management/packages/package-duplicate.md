@@ -19,13 +19,13 @@ ht-degree: 0%
 * (원래 캠페인 내의 복제된 패키지의 경우) 선택적으로 원래 광고 및 배치 수준 이벤트 픽셀을 복제합니다
 * 새 패키지의 비행 날짜 수정
 
-를 참조하십시오.[복제되지 않은 항목](#package-not-duplicated)복제되지 않은 배치 설정 목록의 경우 &quot;&quot;를 참조하십시오.
+중복되지 않은 배치 설정 목록은 &quot;[중복되지 않은 항목](#package-not-duplicated)&quot;을 참조하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
-1. 캠페인 이름을 클릭하여 [!UICONTROL Packages] 보기.
+1. [!UICONTROL Packages] 보기를 열려면 캠페인 이름을 클릭하십시오.
 
-1. 패키지 이름 옆에 있는  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
+1. 패키지 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 
 1. 새 패키지 설정 지정:
 
@@ -37,13 +37,13 @@ ht-degree: 0%
 
       * 새 패키지가 원래 광고주와 캠페인에 할당됩니다.
 
-      * 새 패키지가 현재 활성화됩니다.<!-- and the flight continues for NN  days. -->
+      * 새 패키지가 현재 날짜에 활성화됩니다.<!-- and the flight continues for NN  days. -->
 
       * 원본 패키지 내의 배치가 새 패키지에 복사됩니다.
 
       * 광고 및 배치 수준 이벤트 픽셀은 새 패키지에 복사되지 않습니다.
 
-1. 클릭 **[!UICONTROL Submit]**.
+1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
 ## 복제되지 않은 항목 {#package-not-duplicated}
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 * 실험 설정
 * (플라이트 날짜를 변경하는 경우) 사용자 지정 광고 예약
 * (광고를 첨부하지 않는 경우) 사용자 지정 광고 가중치 및 예약
-* 프로그램 보증 거래(PG) 및 배치를 위한 기본 배치 [!UICONTROL Simple Ad Serving] 거래
+* 프로그래밍 방식 보장(PG) 거래의 기본 배치 및 [!UICONTROL Simple Ad Serving] 거래의 배치
 * (배치를 다른 캠페인에 복사하는 경우):
    * 지역 대상
    * 이벤트 픽셀
@@ -66,4 +66,3 @@ ht-degree: 0%
 >* [패키지 편집](package-edit.md)
 >* [패키지에 대한 변경 로그 보기](package-change-log.md)
 >* [패키지 설정](package-settings.md)
-

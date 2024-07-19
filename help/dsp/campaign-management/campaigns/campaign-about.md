@@ -1,25 +1,25 @@
 ---
-title: Advertising DSP의 Campaign Management 정보
+title: Advertising DSP의 Campaign Management
 description: 캠페인 관리에 대해 알아봅니다.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Advertising DSP의 Campaign Management 정보
+# Advertising DSP의 Campaign Management
 
 캠페인은 비행 설정의 중요한 프레임워크입니다. 모든 캠페인 수준 설정은 캠페인 내의 각 패키지 및 배치에 자동으로 적용됩니다. 각 캠페인은 특정 광고주와 연결됩니다.
 
 수동으로 또는 기존 캠페인을 복제하여 캠페인을 만들 수 있습니다. 기존 캠페인을 편집할 수도 있습니다.
 
-## 다음 [!UICONTROL Campaigns] 대시보드
+## [!UICONTROL Campaigns] 대시보드
 
 <!-- standardize on "dashboard" or "view" -->
-다음 [!UICONTROL Campaigns] 대시보드는 모든 캠페인에서 성과 및 경제 보고를 중앙 집중화하여 지정된 날짜 범위 동안 캠페인이 어떻게 수행되었는지에 대한 빠른 스냅숏을 제공합니다.
+[!UICONTROL Campaigns] 대시보드는 모든 캠페인에서 성과 및 경제적 보고를 중앙 집중화하여 지정된 날짜 범위 동안 캠페인이 어떻게 수행되었는지에 대한 빠른 스냅숏을 제공합니다.
 
 ![캠페인 대시보드](/help/dsp/assets/campaign-dashboard.png)
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->를 통해 캠페인 보고의 콘텐츠 및 게재를 추가로 사용자 지정할 수 있습니다. [사용자 정의 보고서](/help/dsp/reports/report-about.md).
+>[사용자 지정 보고서](/help/dsp/reports/report-about.md)를 통해 캠페인 보고의 콘텐츠와 게재를 추가로 사용자 지정할 수 있습니다.
 
 캠페인 내의 모든 패키지, 배치 및 광고를 보려면 캠페인 이름을 클릭합니다.
 
@@ -36,4 +36,3 @@ ht-degree: 0%
 >* [캠페인 만들기](campaign-create.md)
 >* [캠페인 설정](campaign-settings.md)
 >* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-

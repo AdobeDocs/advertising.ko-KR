@@ -1,9 +1,9 @@
 ---
 title: 웹 사이트 랜딩 페이지 최적화
 description: 웹 사이트 랜딩 페이지를 최적화하는 모범 사례에 대해 알아봅니다.
-exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+exl-id: cd94277c-a340-4161-8630-86a249eb3465
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Search, Social 및 Commerce는 관리 서비스 계약을 맺은 광고주를 위해 랜딩 페이지 테스트 서비스를 무료로 제공합니다.
+>Search, Social 및 Commerce은 관리 서비스 계약을 맺은 광고주를 위해 랜딩 페이지 테스트 서비스를 무료로 제공합니다.
 
 >[!TIP]
 >
->포트폴리오의 캠페인과 관련된 자세한 우수 사례는 최적화 안내서 > Portfolio 관리 > Portfolio 우수 사례 섹션을 참조하십시오(검색, 소셜 및 상거래 내에서 사용 가능).<!-- verify convention for referencing Optimization Guide here -->
+>포트폴리오의 캠페인에 대한 자세한 우수 사례를 보려면 최적화 안내서 > Portfolio 관리 > Portfolio 우수 사례 섹션도 참조하십시오. 이 섹션은 Search, Social 및 Commerce 내에서 사용할 수 있습니다.<!-- verify convention for referencing Optimization Guide here -->
 
 ## 효과적인 랜딩 페이지 디자인
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * 좋은 페이지 디자인을 사용하십시오. 좋은 디자인은 즉시 신뢰, 친숙감 및 신뢰성을 높일 수 있습니다. 양식 단추를 사용자 지정하여 보다 쉽게 구분할 수 있도록 하십시오. &quot;제출&quot;이라는 단어가 포함된 표준 브라우저 생성 단추를 사용하지 마십시오. 2열 레이아웃을 사용합니다. 기본 열에는 작업 가능한 항목이 있고 두 번째 열에는 지원 정보가 있습니다.
 
-* 신뢰성 및 보안 지표를 제공합니다. 로고와 씰은 방문자의 불안감을 줄이는 데 도움이 됩니다. 여기에는 다음이 포함됩니다. [!DNL Verisign], [!DNL BBB] 로고, [!DNL eTrust], [!DNL HackerSafe], 만족도 보장, 환불 제안 등. 정보가 수집될 때마다 개인 정보 보호 정책을 포함하십시오. 이러한 표시기를 실행 가능한 항목에 가능한 한 가깝게 배치합니다.
+* 신뢰성 및 보안 지표를 제공합니다. 로고와 씰은 방문자의 불안감을 줄이는 데 도움이 됩니다. 여기에는 [!DNL Verisign], [!DNL BBB] 로고, [!DNL eTrust], [!DNL HackerSafe], 만족 보장, 환불 제안 등이 포함됩니다. 정보가 수집될 때마다 개인 정보 보호 정책을 포함하십시오. 이러한 표시기를 실행 가능한 항목에 가능한 한 가깝게 배치합니다.
 
 * 무료 배송, 선물, 할인, 무료 보고서 또는 이북과 같은 인센티브를 제공합니다. 랜딩 페이지를 방문한 방문자는 페이지를 둘러보고 있으며 페이지에 계속 머무르면서 오퍼를 완료할 인센티브가 필요합니다. 인센티브는 페이지에서 가장 주목할 만한 항목 중 하나여야 합니다.
 
@@ -52,9 +52,9 @@ ht-degree: 0%
 
 ## 랜딩 페이지의 영향 테스트
 
-랜딩 페이지 변경의 영향을 보려면(다른 모든 것이 일정할 때) 를 실행합니다. [다음 [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md): 각 광고의 표시 URL과 기본/최종 URL 또는 대상 URL을 포함합니다.
+랜딩 페이지 변경의 영향을 보려면( 다른 모든 것이 일정할 때) 각 광고의 표시 URL과 기본/최종 URL 또는 대상 URL을 포함하는 [the [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)을(를) 실행하십시오.
 
 >[!MORELIKETHIS]
 >
->* [보고서를 분석하여 키워드 및 캠페인 설정 세분화](best-practices-analyze.md)
->* [유효한 텍스트 광고 사본 작성](best-practices-write.md)
+>* [보고서를 분석하여 키워드와 캠페인 설정을 세분화](best-practices-analyze.md)
+>* [유효한 텍스트 광고 복사본 작성](best-practices-write.md)

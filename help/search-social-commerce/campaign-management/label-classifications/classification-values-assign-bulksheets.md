@@ -1,12 +1,12 @@
 ---
 title: 일괄 시트를 사용하여 계정 구성 요소에 분류 값 할당
 description: 일괄 시트를 사용하여 계정 구성 요소에 분류 값을 할당하는 방법을 알아봅니다.
-exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 7%
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->일부 광고 네트워크 및 캠페인 유형에 대한 키워드 및 광고 사본은 다음과 같습니다 [변경할 수 없음](/help/search-social-commerce/campaign-management/faqs-campaigns.md)를 지정하면 기존 엔티티가 삭제되고 새 엔티티가 만들어집니다. 이러한 방식으로 기존 엔티티를 삭제하면 레이블 분류가 새 엔티티에 할당되지 않습니다.
+>일부 광고 네트워크 및 캠페인 유형의 키워드 및 광고 복사본은 [변경할 수 없음](/help/search-social-commerce/campaign-management/faqs-campaigns.md)입니다. 즉, 편집하면 기존 엔터티가 삭제되고 새 엔터티가 만들어집니다. 이러한 방식으로 기존 엔티티를 삭제하면 레이블 분류가 새 엔티티에 할당되지 않습니다.
 
-1. [일괄 시트 다운로드](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) 여기에는 레이블 분류 값을 지정할 엔티티가 포함됩니다.
+1. 레이블 분류 값을 할당할 엔터티가 포함된 [일괄 시트를 다운로드합니다](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md).
 
-   * 다음에서 [!UICONTROL Rows and Columns] 탭을 확장하고 [!UICONTROL Campaign] 목록: [!UICONTROL Bulksheet Columns] 창.
+   * [!UICONTROL Rows and Columns] 탭에서 [!UICONTROL Bulksheet Columns] 창의 [!UICONTROL Campaign] 목록을 확장합니다.
 
-   * 확장 [!UICONTROL Label Classification] 목록을 표시합니다.
+   * [!UICONTROL Label Classification] 목록을 확장합니다.
 
    * 일괄 시트 파일에 열을 포함할 각 분류를 선택합니다.
 
@@ -38,7 +38,7 @@ ht-degree: 7%
 
    값을 추가하는 것 외에도 관련 행에서 기존 값을 제거하여 삭제할 수도 있습니다. 상위 엔티티와 하위 엔티티 모두에서 값을 제거하려면 a) 상위 엔티티 행만 포함하고 기존 분류 값을 제거하거나 b) 상위 엔티티와 하위 엔티티를 모두 포함하고 상위 및 하위 행 모두에서 기존 분류 값을 제거합니다.
 
-1. [파일 업로드](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) 연결을 만듭니다.
+1. 연결을 만들려면 [파일을 업로드](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)하십시오.
 
 업로드된 레이블 값은 관련 엔티티 보기에 표시됩니다.
 
@@ -62,7 +62,7 @@ ht-degree: 7%
 >
 >* [레이블 분류 정보](classification-about.md)
 >* [레이블 분류 만들기](classification-create.md)
->* [캠페인 관리 보기에서 계정 구성 요소에 분류 값 할당](classification-values-assign-campaign-management.md)
+>* [캠페인 관리 보기에서 계정 구성 요소에 분류 값을 할당](classification-values-assign-campaign-management.md)
 >* [계정 구성 요소에서 레이블 분류 값 제거](classification-values-remove.md)
 >* [레이블 분류 값 삭제](classification-values-delete.md)
 >* [레이블 분류 삭제](classification-delete.md)

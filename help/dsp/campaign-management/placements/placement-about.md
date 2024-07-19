@@ -28,9 +28,9 @@ ht-degree: 0%
 * 연결된 TV
 * 범용 비디오
 
-## 다음 [!UICONTROL Placements] 대시보드
+## [!UICONTROL Placements] 대시보드
 
-다음 [!UICONTROL Placements] 대시보드는 모든 배치에서 성능과 경제 보고를 중앙 집중화하여 지정된 날짜 범위 동안 배치가 수행된 방식에 대한 빠른 스냅샷을 제공합니다.
+[!UICONTROL Placements] 대시보드는 모든 배치에서 성능과 경제적 보고를 중앙 집중화하여 지정된 날짜 범위 동안 배치가 어떻게 수행되었는지에 대한 빠른 스냅숏을 제공합니다.
 
 ![배치 대시보드](/help/dsp/assets/placement-dashboard.png)
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 또한 대시보드에는 기본적으로 배치별 게재 간격 및 게재 지표가 표시됩니다. 선택적으로 배치에 대한 성능 지표를 보고 사용자 지정 열 세트를 만들 수 있습니다. 전체 데이터 테이블을 브라우저의 기본 다운로드 폴더에 XLSM(매크로 지원 Excel 스프레드시트) 형식으로 보고서로 다운로드할 수 있습니다.
 
-각 배치에 대해 세부 뷰([다음 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))에 포함되어 있습니다. 여기에는 성능 지표, 게재 간격 및 게재 지표, 사이트, 광고 및 인벤토리별 사용자 지정 열 세트 및 빈도 지표가 포함됩니다. 포함된 사이트, 광고 및 인벤토리에 대해 사이트 제외, 광고 일시 중지 또는 거래 편집과 같은 빠른 작업을 수행할 수도 있습니다. 검사자를 열려면 배치 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** 또는 **[!UICONTROL Inventory]**. 다음에서 데이터를 내보낼 수 있습니다. [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency], 또는 [!UICONTROL Inventory]  탭으로 이동하여 브라우저의 기본 다운로드 폴더를 XLSM 형식의 보고서로 표시합니다.
+각 배치에 대해 성능 지표, 게재 간격 및 게재 지표, 사이트, 광고 및 인벤토리별 사용자 지정 열 집합, 빈도 지표를 포함하는 세부 보기([[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md))를 열 수 있습니다. 포함된 사이트, 광고 및 인벤토리에 대해 사이트 제외, 광고 일시 중지 또는 거래 편집과 같은 빠른 작업을 수행할 수도 있습니다. 검사기를 열려면 배치 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을 클릭한 다음 **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** 또는 **[!UICONTROL Inventory]**&#x200B;을 클릭합니다. [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency] 또는 [!UICONTROL Inventory] 탭의 데이터를 브라우저의 기본 다운로드 폴더로 XLSM 형식의 보고서로 내보낼 수 있습니다.
 
 >[!NOTE]
 >
->를 통해 배치 보고의 콘텐츠 및 게재를 추가로 사용자 지정할 수 있습니다. [사용자 정의 보고서](/help/dsp/reports/report-about.md).
+>[사용자 지정 보고서](/help/dsp/reports/report-about.md)를 통해 배치 보고의 콘텐츠와 게재를 추가로 사용자 지정할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
@@ -50,4 +50,4 @@ ht-degree: 0%
 >* [배치에 대한 입찰 승수 관리](placement-manage-bid-multipliers.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [배치 설정](placement-settings.md)
->* [문제 해결 성능](/help/dsp/optimization/troubleshooting-performance.md)
+>* [성능 문제 해결](/help/dsp/optimization/troubleshooting-performance.md)

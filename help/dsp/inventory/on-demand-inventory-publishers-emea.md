@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자
+# 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자 [!DNL On Demand]명
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 | [!DNL Conde Nast] | 영국 |
 | [!DNL DailyMail] | 영국 |
 | [!DNL Daily Star] | 영국 |
-| [!DNL DAZN] ([!DNL Perform Media]) | 영국 |
+| [!DNL DAZN]([!DNL Perform Media]) | 영국 |
 | [!DNL Dennis Publishing] | 영국 |
 | [!DNL Digiteka] | 영국 |
 | [!DNL ebay] | 영국 |
@@ -227,9 +227,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [정보 [!DNL On Demand] Premium 재고](on-demand-inventory-about.md)
->* [다음에 대한 구독 및 액세스 요청: [!DNL On Demand] Premium 재고](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Premium 아시아 태평양의 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] 오스트레일리아 및 뉴질랜드의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] 북미 지역의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-na.md)
-
+>* [정보 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-about.md)
+>* [Premium Inventory 구독 및 액세스 요청 [!DNL On Demand] 2}](on-demand-inventory-subscribe.md)
+>* 아시아 태평양의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
+>* 호주 및 뉴질랜드의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
+>* 북미 지역의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-na.md)

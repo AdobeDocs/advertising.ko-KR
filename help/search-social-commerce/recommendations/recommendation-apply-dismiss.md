@@ -20,29 +20,29 @@ ht-degree: 0%
 >
 >권장 사항은 캠페인 성과를 개선하는 데 도움이 되지만, 일부는 더 광범위한 목표에 부합하지 않을 수 있습니다. 따라서 권장 사항을 구현하기 전에 Adobe 계정 팀에 문의하는 것이 가장 좋습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**&#x200B;을(를) 클릭합니다.
 
 1. 오른쪽 상단에서 광고 네트워크 및 계정을 선택합니다.
 
-   대상 [!DNL Microsoft Advertising] 계정, [!UICONTROL Recommendations] 기본적으로 계정 목록이 표시됩니다.
+   [!DNL Microsoft Advertising] 계정의 경우 기본적으로 [!UICONTROL Recommendations] 계정이 나열됩니다.
 
 1. (선택 사항) 카테고리 및 유형별로 권장 사항을 필터링합니다.
 
-1. 다음에서 [!UICONTROL Actions] 권장 사항 또는 인사이트 행의 열인 경우 **[!UICONTROL View]**.
+1. 권장 사항 또는 인사이트 행의 [!UICONTROL Actions] 열에서 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
-1. (하위 권장 사항이 있는 Recommendations) 클릭 **[!UICONTROL View]** 을 클릭합니다.
+1. (하위 권장 사항이 있는 Recommendations) 하위 권장 사항 옆에 있는 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
-   * 권장 사항을 적용하려면 **[!UICONTROL Apply]**.
+   * 권장 사항을 적용하려면 **[!UICONTROL Apply]**&#x200B;을(를) 클릭하십시오.
 
      권장 사항을 적용하는 데는 권장 사항의 크기에 따라 밀리초에서 몇 초 정도 걸릴 수 있습니다.
 
-   * 권장 사항을 무시하려면 **[!UICONTROL Dismiss]**.
+   * 권장 사항을 무시하려면 **[!UICONTROL Dismiss]**&#x200B;을(를) 클릭하십시오.
 
 >[!MORELIKETHIS]
 >
->* [게시자 권장 사항 및 인사이트 지원 기본 정보](recommendation-support.md)
+>* [게시자 권장 사항 및 인사이트 지원 정보](recommendation-support.md)
 >* [게시자 권장 사항 및 성능 인사이트 보기](recommendation-view.md)
 >* [계정에 대한 게시자 권장 사항 로그 보기](recommendation-view-log.md)
 >* [포트폴리오에 게시자 권장 사항을 사용하는 모범 사례](recommendation-best-practices.md)

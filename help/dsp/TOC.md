@@ -23,7 +23,7 @@ ht-degree: 3%
 -->
 
 + [새로운 기능](/help/dsp/home.md)
-+ 소개 {#introduction}
++ {#introduction} 소개
    + [Adobe Advertising DSP 소개](/help/dsp/introduction/dsp-about.md)
    + 주요 기능 {#features}
       + [최적화](/help/dsp/introduction/features/optimization.md)
@@ -31,7 +31,7 @@ ht-degree: 3%
       + [크로스 디바이스 솔루션](/help/dsp/introduction/features/cross-device-solutions.md)
    + [계정 자금 조달](/help/dsp/introduction/billing/account-funding.md)
    + [지원되는 통화](/help/dsp/currency.md)
-   + [고객 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
@@ -76,7 +76,7 @@ ht-degree: 3%
       + [인증 광고 서비스 제공 파트너](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [단일 광고 만들기](/help/dsp/campaign-management/ads/ad-create.md)
       + [여러 타사 광고 만들기](/help/dsp/campaign-management/ads/ad-create-multiple.md)
-      + [광고 만들기 [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [ [!DNL Flashtalking](으)로 광고 만들기](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [스프레드시트를 사용하여 광고 세부 정보 검토](/help/dsp/campaign-management/ads/ad-qa.md)
       + [광고 편집](/help/dsp/campaign-management/ads/ad-edit.md)
       + [광고 복제](/help/dsp/campaign-management/ads/ad-duplicate.md)
@@ -94,7 +94,7 @@ ht-degree: 3%
          + [프리롤 광고 설정](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [지원되는 광고 유형에 대한 사양](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Campaign Management 보기의 성능 보고서 {#campaign-reports}
+   + Campaign Management 보기 {#campaign-reports}의 성능 보고서
       + [Campaign Management 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Campaign Management 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [배치에 대한 사이트, 광고, 빈도 및 재고 세부 정보 보기](/help/dsp/campaign-management/reports/placement-details-view.md)
@@ -107,7 +107,7 @@ ht-degree: 3%
    + [Campaign Management에 대한 FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
    + [범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 + 최적화 {#optimization}
-   + [방법 [!DNL DSP] 캠페인 최적화](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+   + [ [!DNL DSP] 캠페인을 최적화하는 방법](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md)
    + [배치 수준 사전 입찰 필터 및 사용 방법](/help/dsp/optimization/optimization-pre-bid-filters.md)
    + [사용자 정의 목표](/help/dsp/optimization/custom-goal.md)
@@ -129,55 +129,55 @@ ht-degree: 3%
       + [대상 세그먼트 논리 구문](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + 세그먼트 {#segments}
       + [사용자 지정 세그먼트 만들기 및 구현](/help/dsp/audiences/custom-segment-create.md)
-      + [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트 {#ccpa-opt-out-of-sale-segments}
-         + [정보 [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트](/help/dsp/audiences/ccpa-opt-out-about.md)
-         + [만들기 및 구현 [!UICONTROL CCPA Opt-out-of-Sale] 세그먼트](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
-         + [검색 [!UICONTROL Consumer Opt-Out-of-Sale] 보고서](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
+      + [!UICONTROL CCPA Opt-out-of-Sale]개 세그먼트 {#ccpa-opt-out-of-sale-segments}
+         + [[!UICONTROL CCPA Opt-out-of-Sale]개 세그먼트 정보](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [[!UICONTROL CCPA Opt-out-of-Sale] 세그먼트 만들기 및 구현](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
+         + [[!UICONTROL Consumer Opt-Out-of-Sale]개 보고서 검색](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
       + [세그먼트 정보 편집](/help/dsp/audiences/segment-edit.md)
       + [세그먼트 공유 또는 공유 중지](/help/dsp/audiences/segment-share.md)
       + [세그먼트에 대한 추적 픽셀 보기](/help/dsp/audiences/segment-view-pixels.md)
       + [세그먼트 삭제](/help/dsp/audiences/segment-delete.md)
    + 소스 {#sources}
       + [자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)
-      + 고객 데이터 플랫폼별 워크플로 {#sources-workflows}
-         + [다음에서 사용자 ID 변환 [!DNL Adobe Real-Time CDP] 범용 ID로](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-         + [다음에서 사용자 ID 변환 [!DNL Amperity] 범용 ID로](/help/dsp/audiences/sources/source-amperity.md)
-         + [다음에서 사용자 ID 변환 [!DNL Optimizely] 범용 ID로](/help/dsp/audiences/sources/source-optimizely.md)
-         + [다음에서 사용자 ID 변환 [!DNL Tealium] 범용 ID로](/help/dsp/audiences/sources/source-tealium.md)
+      + 고객 데이터 플랫폼 {#sources-workflows}별 워크플로
+         + [사용자 ID를  [!DNL Adobe Real-Time CDP] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [사용자 ID를  [!DNL Amperity] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-amperity.md)
+         + [사용자 ID를  [!DNL Optimizely] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-optimizely.md)
+         + [사용자 ID를  [!DNL Tealium] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-tealium.md)
       + [범용 ID 대상을 활성화하기 위한 대상 소스 관리](/help/dsp/audiences/sources/source-manage.md)
-   + [에서 인증된 세그먼트 수동으로 가져오기 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+   + [ [!DNL LiveRamp]에서 인증된 세그먼트 수동으로 가져오기](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [사용 가능한 타사 데이터 공급자](/help/dsp/audiences/third-party-data-providers.md)
 + 인벤토리 {#inventory}
    + [재고 기능 개요](/help/dsp/inventory/inventory-overview.md)
-   + [사용 [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
+   + [ [!DNL Roku Inventory] 사용 중](/help/dsp/inventory/roku-inventory.md)
    + [SSP 파트너](/help/dsp/inventory/ssp-partners.md)
    + [!DNL On Demand] 인벤토리 {#on-demand}
-      + [정보 [!DNL On Demand] Premium 재고](/help/dsp/inventory/on-demand-inventory-about.md)
-      + 사용 가능 [!DNL On Demand] Premium 인벤토리 게시자 {#publishers}
-         + [[!DNL On Demand] Premium 아시아 태평양의 인벤토리 게시자](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
-         + [[!DNL On Demand] 오스트레일리아 및 뉴질랜드의 프리미엄 인벤토리 게시자](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
-         + [[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
-         + [[!DNL On Demand] 북미 지역의 프리미엄 인벤토리 게시자](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [다음에 대한 구독 및 액세스 요청: [!DNL On Demand] 프리미엄 인벤토리 거래](/help/dsp/inventory/on-demand-inventory-subscribe.md)
-      + [재요청 [!DNL On Demand] 프리미엄 인벤토리 거래](/help/dsp/inventory/on-demand-inventory-rerequest.md)
-      + [내 상태 보기 [!DNL On Demand] 거래 요청 및 구독](/help/dsp/inventory/on-demand-inventory-view-status.md)
+      + [ [!DNL On Demand] Premium 인벤토리 정보](/help/dsp/inventory/on-demand-inventory-about.md)
+      + 사용 가능한 [!DNL On Demand] 프리미엄 인벤토리 게시자 {#publishers}
+         + [아시아 태평양의 [!DNL On Demand] 프리미엄 인벤토리 게시자](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
+         + [오스트레일리아 및 뉴질랜드의 [!DNL On Demand] 프리미엄 인벤토리 게시자](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
+         + [유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자 [!DNL On Demand]명](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
+         + [북미의 Premium 인벤토리 게시자 [!DNL On Demand]명](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
+      + [ [!DNL On Demand] Premium 인벤토리 거래 구독 및 액세스 요청](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [ [!DNL On Demand] Premium 인벤토리 거래 재요청](/help/dsp/inventory/on-demand-inventory-rerequest.md)
+      + [ [!DNL On Demand] 거래 요청 및 구독 상태 보기](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + 비공개 인벤토리 {#private-inventory}
       + [비공개 인벤토리 정보](/help/dsp/inventory/private-inventory-about.md)
       + 거래 ID {#deal-ids}
          + [!UICONTROL Deal ID Inbox] {#inbox}
-            + [정보 [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
-            + [에서 거래 수락 [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-accept.md)
+            + [[!UICONTROL Deal ID Inbox] 정보](/help/dsp/inventory/deal-id-inbox-about.md)
+            + [[!UICONTROL Deal ID Inbox]에서 거래 수락](/help/dsp/inventory/deal-id-inbox-accept.md)
          + 수동으로 입력한 거래 ID {#manual}
-            + [수동으로 만들기 [!UICONTROL Deal ID] 세부 사항](/help/dsp/inventory/deal-id-create.md)
+            + [[!UICONTROL Deal ID] 세부 정보 수동으로 만들기](/help/dsp/inventory/deal-id-create.md)
             + [수동 [!UICONTROL Deal ID] 설정](/help/dsp/inventory/deal-id-settings.md)
          + 프로그램 보증 거래 {#programmatic-guaranteed-deal}
             + [프로그램 보증 거래 개요](/help/dsp/inventory/programmatic-guaranteed-about.md)
             + [프로그램 보증 거래 협상을 위한 팁](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [프로그램 보증 거래 설정](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel] 프로그램 보증 거래 {#freewheel}
-               + [에서 프로그램 보증 거래 설정 개요 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
-               + [프로그램 보증 거래에 대한 광고 제출 [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
-               + [광고 상태 확인 [!DNL FreeWheel] 프로그램 보증 거래](/help/dsp/inventory/freewheel-check-status.md)
+               + [ [!DNL FreeWheel]의 프로그램 보증 거래 설정 개요](/help/dsp/inventory/freewheel-overview.md)
+               + [프로그램 보증 거래에 대한 광고를  [!DNL FreeWheel]에 제출](/help/dsp/inventory/freewheel-submit.md)
+               + [ [!DNL FreeWheel] 프로그램 보증 거래의 광고 상태 확인](/help/dsp/inventory/freewheel-check-status.md)
                + [FreeWheel 광고 제출을 위한 오류 코드](/help/dsp/inventory/freewheel-error-codes.md)
       + [비공개 거래 설정 편집](/help/dsp/inventory/deal-id-edit.md)
       + [비공개 거래에 대한 배치 및 광고 지정](/help/dsp/inventory/deal-id-attach-placements.md)
@@ -187,12 +187,12 @@ ht-degree: 3%
       + [비공개 거래에 대한 배치 및 광고 나열](/help/dsp/inventory/private-deal-view-placements.md)
       + [비공개 거래 보관 또는 보관 해제](/help/dsp/inventory/private-deal-archive-unarchive.md)
    + [!UICONTROL Simple Ad Serving] 거래 {#sas}
-      + [정보 [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-about.md)
-      + [만들기 [!UICONTROL Simple Ad Serving] 거래](/help/dsp/inventory/simple-deal-create.md)
-      + [편집 [!UICONTROL Simple Ad Serving] 거래 설정](/help/dsp/inventory/simple-deal-edit.md)
+      + [[!UICONTROL Simple Ad Serving] 정보](/help/dsp/inventory/simple-deal-about.md)
+      + [[!UICONTROL Simple Ad Serving] 거래 만들기](/help/dsp/inventory/simple-deal-create.md)
+      + [[!UICONTROL Simple Ad Serving] 거래 설정 편집](/help/dsp/inventory/simple-deal-edit.md)
       + [[!UICONTROL Simple Ad Serving] 거래 설정](/help/dsp/inventory/simple-deal-settings.md)
    + [거래에 대한 상세 보고서 보기](/help/dsp/inventory/deal-view-report.md)
-+ 사용자 정의 보고서 {#custom-reports}
++ 사용자 지정 보고서 {#custom-reports}
    + [사용자 정의 보고서 정보](/help/dsp/reports/report-about.md)
    + [사용자 지정 보고서 만들기](/help/dsp/reports/report-create.md)
    + [사용자 지정 보고서 복제](/help/dsp/reports/report-copy.md)
@@ -203,10 +203,10 @@ ht-degree: 3%
    + [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
    + [세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md)
    + 보고서 대상 {#report-destinations}
-      + [정보 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
-      + [만들기 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
-      + [편집 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-      + [삭제 [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+      + [[!UICONTROL Report Destinations] 정보](/help/dsp/reports/report-destinations/report-destination-about.md)
+      + [[!UICONTROL Report Destination] 만들기](/help/dsp/reports/report-destinations/report-destination-create.md)
+      + [[!UICONTROL Report Destination] 편집](/help/dsp/reports/report-destinations/report-destination-edit.md)
+      + [[!UICONTROL Report Destination] 삭제](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + 플래너 {#planner}
    + [DSP Planner 도구 정보](/help/dsp/planner/planner-about.md)

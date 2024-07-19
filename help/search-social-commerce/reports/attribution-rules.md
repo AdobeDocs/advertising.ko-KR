@@ -1,11 +1,11 @@
 ---
 title: 속성 규칙 계산 방법
 description: Adobe Advertising이 각 속성 규칙 유형을 계산하는 방법을 알아봅니다.
-exl-id: b61561fa-8c01-4989-9ef7-620d2b4c2c0b
+exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '2716'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,22 @@ ht-degree: 0%
 
 광고주 수준 속성 규칙은 전환으로 이어지는 일련의 이벤트에서 전환 데이터(잠재적으로 여러 광고 채널 간에)를 기여하는 데 사용됩니다.
 
-검색, 소셜 및 상거래에 대한 보고서, 기본 및 사용자 정의 보기(검색, 소셜 및 상거래) 및 검색, 소셜 및 상거래에 대한 포트폴리오 수준 시뮬레이션(일부 사용자 역할)에서 선택한 규칙은 보기, 보고서 또는 시뮬레이션 데이터에만 사용됩니다. 다양한 속성 규칙이 다음과 같이 적용됩니다.
+보고서, Advertising 검색, 소셜 및 Commerce(검색, 소셜 및 Commerce)에 대한 기본 및 사용자 지정 보기, 검색, 소셜 및 Commerce에 대한 (일부 사용자 역할) 포트폴리오 수준 시뮬레이션에서 선택한 규칙은 보기, 보고서 또는 시뮬레이션 데이터에만 사용됩니다. 다양한 속성 규칙이 다음과 같이 적용됩니다.
 
 >[!NOTE]
 >
 >* 속성 규칙은 모든 채널에서 유료 광고를 클릭하고 디스플레이 및 소셜 광고의 노출에 적용됩니다. 이벤트 수준에서 추적할 수 없는 유료 검색 광고의 노출에는 적용되지 않습니다.
 >* Adobe Advertising은 전환 전에 항상 각 웹 서퍼에 대해 다음 이벤트를 저장합니다. a) 첫 번째 유료 클릭, b) 첫 번째 클릭을 포함하여 각 채널(검색, 소셜 또는 디스플레이)에 대해 최대 10개의 클릭, c) 최대 10개의 디스플레이 노출. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* Advertising DSP 및 Advertising Creative에서 교차 장치 정의는 선택한 속성 규칙의 이벤트 경로만 고려합니다.<!-- cross-device attribution via LiveRamp only -->
+* Advertising DSP 및 Advertising Creative에서 장치 간 정의는 선택한 속성 규칙의 이벤트 경로만 고려합니다.<!-- cross-device attribution via LiveRamp only -->
 * 보고서 및 관리 보기에서 값에 대해 표시되는 소수점 이하 자리 수는 통화에 따라 다르지만 Adobe Advertising에 더 정확한 값이 저장됩니다.
 
 ## 마지막 이벤트(기본값)
 
-광고주 내의 시리즈에서 마지막 유료 클릭으로의 전환 속성을 지정합니다. [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 또는 유료 클릭이 발생하지 않은 경우 광고주 내의 마지막 노출까지 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j).
+광고주의 [클릭 전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 내의 일련의 마지막 유료 클릭에 대한 전환 특성 또는 유료 클릭이 발생하지 않은 경우 광고주의 [노출 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내의 마지막 노출에 대한 전환 특성을 지정합니다.
 
-노출 횟수만으로 전환 앞에 오면 전환은 로 간주됩니다. *뷰스루*&#x200B;광고주의 값에 따라 가중치가 매겨지는 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv) 또는 — 지정된 대로 — 보고서, 뷰 또는 사용자 정의 시뮬레이션 매개변수에 지정된 뷰스루 평가 방법에 따라 결정됩니다.
+노출 횟수로만 전환되는 경우 전환은 *뷰스루*&#x200B;로 간주되며 광고주의 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv)에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용됩니다.
 
-![마지막 이벤트 속성 비율](/help/search-social-commerce/assets/attribution-percent-last-event.png "마지막 이벤트 속성 비율")
+![마지막 이벤트 속성 백분율](/help/search-social-commerce/assets/attribution-percent-last-event.png "마지막 이벤트 속성 백분율")
 
 <!-- start examples as collapsible content -->
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ### 노출 횟수와 클릭 수가 모두 포함된 예
 
-**참고:** 노출 횟수는 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
+**참고:** 노출은 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
 
 이벤트 경로: 노출 1, 클릭 1, 노출 2, 전환 120 USD
 
@@ -71,11 +71,11 @@ ht-degree: 0%
 
 ## 첫 번째 이벤트
 
-광고주 내의 시리즈에서 첫 번째 유료 클릭으로 전환 속성 지정 [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 또는 유료 클릭이 발생하지 않은 경우 광고주 내의 첫 번째 노출로 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j). 이 규칙은 단일 장치의 이벤트에만 사용할 수 있습니다.
+광고주의 [클릭 전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 내의 일련의 첫 번째 유료 클릭으로, 또는 유료 클릭이 발생하지 않은 경우 광고주의 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내의 첫 번째 노출로 전환을 지정합니다. 이 규칙은 단일 장치의 이벤트에만 사용할 수 있습니다.
 
-노출 횟수만으로 전환 앞에 오면 전환은 다음으로 간주됩니다. *뷰스루*&#x200B;광고주의 값에 따라 가중치가 매겨지는 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv) 또는 — 지정된 대로 — 보고서, 뷰 또는 사용자 정의 시뮬레이션 매개변수에 지정된 뷰스루 평가 방법에 따라 결정됩니다.
+노출 횟수로만 전환되는 경우 전환은 광고주의 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv)에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 *뷰스루*&#x200B;로 간주됩니다.
 
-![첫 번째 이벤트 속성 비율](/help/search-social-commerce/assets/attribution-percent-first-event.png "첫 번째 이벤트 속성 비율")
+![첫 번째 이벤트 속성 백분율](/help/search-social-commerce/assets/attribution-percent-first-event.png "첫 번째 이벤트 속성 백분율")
 
 <!-- start examples as collapsible content -->
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ### 노출 횟수와 클릭 수가 모두 포함된 예
 
-**참고:** 노출 횟수는 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
+**참고:** 노출은 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
 
 이벤트 경로: 노출 1, 클릭 1, 노출 2, 전환 120 USD
 
@@ -101,7 +101,8 @@ ht-degree: 0%
 
 이벤트 경로: 노출 1, 노출 2, 노출 3, 전환 120 USD
 
-이 변환은 노출 1에 기인합니다. 전환은 뷰스루이므로 보고서 설정의 &quot;(캠페인 표시) 전환 속성&quot; 섹션에서 선택한 뷰스루 평가 방법이 적용됩니다.
+이 변환은 노출 1에 기인합니다. 전환은 뷰스루이므로 &quot;(캠페인 표시) 전환에서 뷰스루 평가 방법이 선택됩니다
+보고서 설정의 &quot;기여도 분석&quot; 섹션이 적용됩니다.
 
 * 보고서 매개 변수가 가중치가 적용된 뷰스루 가중치를 지정하는 경우 해당 가중치가 뷰스루에 적용됩니다. 예를 들어 광고주의 뷰스루 가중치가 40%인 경우 120 x 40% = 48 USD이므로 48 USD는 노출 1에 귀속됩니다.
 
@@ -113,17 +114,17 @@ ht-degree: 0%
 
 ## 가중치 첫 번째 이벤트 추가
 
-광고주의 내에서 발생한 일련의 모든 이벤트에 대한 전환을 지정합니다. [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j)를 사용하지만 첫 번째 이벤트에 가장 많은 가중치를 제공하고 연속해서 다음 이벤트에 더 적은 가중치를 제공합니다.이 규칙은 단일 장치의 이벤트에만 사용할 수 있습니다.
+광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 일련의 모든 이벤트에 대한 전환을 특성화하지만 첫 번째 이벤트에 가장 많은 가중치를 제공하고 다음 이벤트에 순차적으로 더 적은 가중치를 제공합니다.이 규칙은 단일 장치의 이벤트에만 사용할 수 있습니다.
 
-노출 횟수만으로 전환 앞에 오면 전환은 다음으로 간주됩니다. *뷰스루*&#x200B;광고주의 값에 따라 가중치가 매겨지는 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv) 또는 — 지정된 대로 — 보고서, 뷰 또는 사용자 정의 시뮬레이션 매개변수에 지정된 뷰스루 평가 방법에 따라 결정됩니다.
+노출 횟수로만 전환되는 경우 전환은 광고주의 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv)에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 *뷰스루*&#x200B;로 간주됩니다.
 
 전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe Advertising 제품에 의해 다르게 처리됩니다.
 
-* 검색, 소셜 및 상거래에서 [노출 재정의 가중치](/help/search-social-commerce/glossary.md#i-j) — 광고주의 노출 재정의 가중치 설정과 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정되며, 이 항목이 노출에 먼저 적용됩니다.
+* 검색, 소셜 및 Commerce에서 [노출 재정의 가중치](/help/search-social-commerce/glossary.md#i-j)(광고주의 노출 재정의 가중치 설정과 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정됨)이 먼저 노출에 적용됩니다.
 
 * DSP에서는 노출이 무시되고 클릭에만 가중치가 적용됩니다. DSP은 기여도 분석을 위해 노출 재정의 가중치를 고려하지 않습니다.
 
-![가중치 첫 번째 이벤트 더 많은 속성 비율](/help/search-social-commerce/assets/attribution-percent-weight-first-more.png "가중치 첫 번째 이벤트 더 많은 속성 비율")
+![가중치 첫 번째 이벤트 추가 속성 비율](/help/search-social-commerce/assets/attribution-percent-weight-first-more.png "가중치 첫 번째 이벤트 추가 속성 비율")
 
 <!-- start examples as collapsible content -->
 
@@ -137,17 +138,17 @@ ht-degree: 0%
 
 ### 노출 횟수와 클릭 수가 모두 포함된 예
 
-**참고:** 노출 횟수는 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
+**참고:** 노출은 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
 
 이벤트 경로: 노출 1, 클릭 1, 노출 2, 클릭 2, 전환 120 USD
 
-#### (검색, 소셜 및 상거래만 해당) 10%의 기본 &quot;노출 대체 가중치&quot; 사용
+#### (검색, 소셜 및 Commerce만 해당) 10%의 기본 &quot;노출 재정의 가중치&quot; 사용
 
 이벤트 시리즈에는 노출과 클릭이 모두 포함되었으므로 노출 재정의 가중치는 노출에 적용됩니다.
 
 속성: 노출 1 = 8 USD, 클릭 1 = 72 USD, 노출 2 = 4 USD, 클릭 2 = 36 USD (총 120 USD)
 
-#### (DSP만 해당) 노출 무시 가중치 사용 또는 (검색, 소셜 및 상거래만 해당) 0%의 &quot;노출 무시 가중치&quot; 사용
+#### (DSP만 해당) 노출 무시 가중치 사용 또는 (검색, 소셜 및 Commerce만 해당) 0%의 &quot;노출 무시 가중치&quot; 사용
 
 이벤트 시리즈에는 노출과 클릭이 모두 포함되므로 노출은 무시됩니다.
 
@@ -155,7 +156,7 @@ ht-degree: 0%
 
 ### 모든 노출 횟수를 포함한 예
 
-**참고:** 디스플레이 광고에 대한 노출만 적용할 수 있습니다.
+**참고:** 디스플레이 광고에 대한 노출만 적용됩니다.
 
 이벤트 경로: 노출 1, 노출 2, 노출 3, 전환 120 USD
 
@@ -175,17 +176,17 @@ ht-degree: 0%
 >
 >이 규칙은 단일 장치의 이벤트에만 사용할 수 있습니다.
 
-광고주의 내에서 발생한 일련의 각 이벤트에 대해 균등하게 변환을 기여합니다. [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j).
+광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 일련의 각 이벤트에 대해 동일하게 전환을 특성화합니다.
 
-노출 횟수만으로 전환 앞에 오면 전환은 다음으로 간주됩니다. *뷰스루*&#x200B;광고주의 값에 따라 가중치가 매겨지는 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv) 또는 — 지정된 대로 — 보고서, 뷰 또는 사용자 정의 시뮬레이션 매개변수에 지정된 뷰스루 평가 방법에 따라 결정됩니다.
+노출 횟수로만 전환되는 경우 전환은 광고주의 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv)에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 *뷰스루*&#x200B;로 간주됩니다.
 
 전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe Advertising 제품에 의해 다르게 처리됩니다.
 
-* 검색, 소셜 및 상거래에서 [노출 재정의 가중치](/help/search-social-commerce/glossary.md#i-j) — 광고주의 노출 재정의 가중치 설정과 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정되며, 이 항목이 노출에 먼저 적용됩니다.
+* 검색, 소셜 및 Commerce에서 [노출 재정의 가중치](/help/search-social-commerce/glossary.md#i-j)(광고주의 노출 재정의 가중치 설정과 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정됨)이 먼저 노출에 적용됩니다.
 
 * DSP에서는 노출이 무시되고 클릭에만 가중치가 적용됩니다. DSP은 기여도 분석을 위해 노출 재정의 가중치를 고려하지 않습니다.
 
-![짝수 속성 비율](/help/search-social-commerce/assets/attribution-percent-even.png "짝수 속성 비율")
+![짝수 속성 백분율](/help/search-social-commerce/assets/attribution-percent-even.png "짝수 속성 백분율")
 
 <!-- start examples as collapsible content -->
 
@@ -201,17 +202,17 @@ ht-degree: 0%
 
 ### 노출 횟수와 클릭 수가 모두 포함된 예
 
-**참고:** 노출 횟수는 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
+**참고:** 노출은 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
 
 이벤트 경로: 노출 1, 클릭 1, 노출 2, 클릭 2, 전환 120 USD
 
-#### (검색, 소셜 및 상거래만 해당) 10%의 기본 &quot;노출 대체 가중치&quot; 사용
+#### (검색, 소셜 및 Commerce만 해당) 10%의 기본 &quot;노출 재정의 가중치&quot; 사용
 
 이벤트 시리즈에는 노출과 클릭이 모두 포함되었으므로 노출 재정의 가중치는 노출에 적용됩니다.
 
 속성: 노출 1 = 6 USD, 클릭 1 = 54 USD, 노출 2 = 6 USD, 클릭 2 = 54 USD (총 120 USD)
 
-#### 노출 재정의 가중치 없음(Adobe Advertising DSP 전용) 또는 0%의 &quot;노출 재정의 가중치&quot;(검색, 소셜 및 커머스 전용)를 사용합니다.
+#### 노출 무시 가중치 없음(Adobe Advertising DSP 전용) 또는 0%의 &quot;노출 무시 가중치&quot;(검색, 소셜 및 Commerce 전용)를 사용합니다.
 
 이벤트 시리즈에는 노출과 클릭이 모두 포함되므로 노출은 무시됩니다.
 
@@ -219,7 +220,7 @@ ht-degree: 0%
 
 ## 모든 노출 횟수를 포함한 예
 
-**참고:** 디스플레이 광고에 대한 노출만 적용할 수 있습니다.
+**참고:** 디스플레이 광고에 대한 노출만 적용됩니다.
 
 이벤트 경로: 노출 1, 노출 2, 노출 3, 전환 120 USD
 
@@ -235,17 +236,17 @@ ht-degree: 0%
 
 ## 마지막 이벤트 가중치 자세히
 
-광고주의 내에서 발생한 일련의 모든 이벤트에 대한 전환을 지정합니다. [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j)에서는 를 사용하지만 마지막 이벤트에 가장 많은 가중치를 제공하고 이전 이벤트에 연속해서 더 적은 가중치를 제공합니다.
+광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 일련의 모든 이벤트에 대한 전환을 특성화하지만 마지막 이벤트에 가장 많은 가중치를 제공하고 이전 이벤트에 순차적으로 더 적은 가중치를 제공합니다.
 
-노출 횟수만으로 전환 앞에 오면 전환은 다음으로 간주됩니다. *뷰스루*&#x200B;광고주의 값에 따라 가중치가 매겨지는 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv) 또는 — 지정된 대로 — 보고서, 뷰 또는 사용자 정의 시뮬레이션 매개변수에 지정된 뷰스루 평가 방법에 따라 결정됩니다.
+노출 횟수로만 전환되는 경우 전환은 광고주의 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv)에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 *뷰스루*&#x200B;로 간주됩니다.
 
 전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe Advertising 제품에 의해 다르게 처리됩니다.
 
-* 검색, 소셜 및 상거래에서 [노출 재정의 가중치](/help/search-social-commerce/glossary.md#i-j) — 광고주의 노출 재정의 가중치 설정과 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정되며, 이 항목이 노출에 먼저 적용됩니다.
+* 검색, 소셜 및 Commerce에서 [노출 재정의 가중치](/help/search-social-commerce/glossary.md#i-j)(광고주의 노출 재정의 가중치 설정과 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정됨)이 먼저 노출에 적용됩니다.
 
 * DSP에서는 노출이 무시되고 클릭에만 가중치가 적용됩니다. DSP은 기여도 분석을 위해 노출 재정의 가중치를 고려하지 않습니다.
 
-![마지막 이벤트 가중치 더 많은 기여도 비율](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "마지막 이벤트 가중치 더 많은 기여도 비율")
+![마지막 이벤트 가중치 추가 속성 비율](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "마지막 이벤트 가중치 추가 속성 비율")
 
 <!-- start examples as collapsible content -->
 
@@ -259,17 +260,17 @@ ht-degree: 0%
 
 ### 노출 횟수와 클릭 수가 모두 포함된 예
 
-**참고:** 노출 횟수는 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
+**참고:** 노출은 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
 
 이벤트 경로: 노출 1, 클릭 1, 노출 2, 클릭 2, 전환 120 USD
 
-#### (검색, 소셜 및 상거래만 해당) 10%의 기본 &quot;노출 대체 가중치&quot; 사용
+#### (검색, 소셜 및 Commerce만 해당) 10%의 기본 &quot;노출 재정의 가중치&quot; 사용
 
 이벤트 시리즈에는 노출과 클릭이 모두 포함되었으므로 노출 재정의 가중치는 노출에 적용됩니다.
 
 속성: 노출 1 = 4 USD, 클릭 1 = 36 USD, 노출 2 = 8 USD, 클릭 2 = 72 USD (총 120 USD)
 
-#### (DSP만 해당) 노출 무시 가중치 사용 또는 (검색, 소셜 및 상거래만 해당) 0%의 &quot;노출 무시 가중치&quot; 사용
+#### (DSP만 해당) 노출 무시 가중치 사용 또는 (검색, 소셜 및 Commerce만 해당) 0%의 &quot;노출 무시 가중치&quot; 사용
 
 이벤트 시리즈에는 노출과 클릭이 모두 포함되므로 노출은 무시됩니다.
 
@@ -277,7 +278,7 @@ ht-degree: 0%
 
 ### 모든 노출 횟수를 포함한 예
 
-**참고:** 노출 횟수는 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
+**참고:** 노출은 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
 
 이벤트 경로: 노출 1, 노출 2, 노출 3, 전환 120 USD
 
@@ -293,17 +294,17 @@ ht-degree: 0%
 
 ## U자형
 
-광고주의 내에서 발생한 일련의 모든 이벤트에 대한 전환을 지정합니다. [전환 확인 기간 클릭](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j)에서는 첫 번째 이벤트와 마지막 이벤트에 가장 많은 가중치를 부여하지만, 전환 경로 중간에 있는 이벤트에는 순차적으로 더 적은 가중치를 줍니다.
+광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 일련의 모든 이벤트에 대한 전환을 특성화하지만 첫 번째 이벤트와 마지막 이벤트에 가장 많은 가중치를 부여하며 전환 경로 중간에 있는 이벤트에는 순차적으로 더 적은 가중치를 제공합니다.
 
-노출 횟수만으로 전환 앞에 오면 전환은 다음으로 간주됩니다. *뷰스루*&#x200B;광고주의 값에 따라 가중치가 매겨지는 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv) 또는 — 지정된 대로 — 보고서, 뷰 또는 사용자 정의 시뮬레이션 매개변수에 지정된 뷰스루 평가 방법에 따라 결정됩니다.
+노출 횟수로만 전환되는 경우 전환은 광고주의 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv)에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 *뷰스루*&#x200B;로 간주됩니다.
 
 전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe Advertising 제품에 의해 다르게 처리됩니다.
 
-* 검색, 소셜 및 상거래에서 [노출 재정의 가중치](/help/search-social-commerce/glossary.md#i-j) — 광고주의 노출 재정의 가중치 설정과 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정되며, 이 항목이 노출에 먼저 적용됩니다.
+* 검색, 소셜 및 Commerce에서 [노출 재정의 가중치](/help/search-social-commerce/glossary.md#i-j)(광고주의 노출 재정의 가중치 설정과 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정됨)이 먼저 노출에 적용됩니다.
 
 * DSP에서는 노출이 무시되고 클릭에만 가중치가 적용됩니다. DSP은 기여도 분석을 위해 노출 재정의 가중치를 고려하지 않습니다.
 
-![U자형 속성 비율](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U자형 속성 비율")
+![U자형 속성 백분율](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U자형 속성 백분율")
 
 <!-- start examples as collapsible content -->
 
@@ -317,17 +318,17 @@ ht-degree: 0%
 
 ### 노출 횟수와 클릭 수가 모두 포함된 예
 
-**참고:** 노출 횟수는 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
+**참고:** 노출은 디스플레이 및 소셜 광고에서만 적용할 수 있습니다.
 
 이벤트 경로: 노출 1, 클릭 1, 노출 2, 클릭 2, 전환 120 USD
 
-#### (검색, 소셜 및 상거래만 해당) 10%의 기본 &quot;노출 대체 가중치&quot; 사용
+#### (검색, 소셜 및 Commerce만 해당) 10%의 기본 &quot;노출 재정의 가중치&quot; 사용
 
 이벤트 시리즈에는 노출과 클릭이 모두 포함되었으므로 노출 재정의 가중치는 노출에 적용됩니다.
 
 속성: 노출 1 = 6 USD, 클릭 1 = 54 USD, 노출 2 = 6 USD, 클릭 2 = 54 USD (총 120 USD)
 
-#### 노출 재정의 가중치 없음(DSP만 해당) 또는 0%의 &quot;노출 재정의 가중치&quot;(검색, 소셜 및 상거래만 해당)를 사용합니다.
+#### 노출 무시 가중치 없음(DSP만) 또는 &quot;노출 무시 가중치&quot; 0% 사용(검색, 소셜 및 Commerce만)
 
 이벤트 시리즈에는 노출과 클릭이 모두 포함되므로 노출은 무시됩니다.
 
@@ -335,7 +336,7 @@ ht-degree: 0%
 
 ### 모든 노출 횟수를 포함한 예
 
-**참고:** 디스플레이 광고에 대한 노출만 적용할 수 있습니다.
+**참고:** 디스플레이 광고에 대한 노출만 적용됩니다.
 
 이벤트 경로: 노출 1, 노출 2, 노출 3, 노출 4, 전환 120 USD
 

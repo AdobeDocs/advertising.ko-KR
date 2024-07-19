@@ -22,7 +22,7 @@ ht-degree: 0%
 * 일반적으로 이 거래는 게시자의 광고 서버에서 우선 순위가 높습니다.
 * 입찰 요청은 단일 거래나 구매자에게만 국한되지 않습니다.
 * 단일 거래 ID에서 여러 유형의 비디오가 지원됩니다.
-* 게시자 관리 광고는 [!DNL Google Authorized Buyers] SSP.
+* 게시자가 관리하는 광고는 [!DNL Google Authorized Buyers] SSP를 통해 수락됩니다.
 * SSP 및 게시자에게는 배달 SLA가 있습니다.
 
 DSP이 각 입찰 요청에 대한 요청을 반환하고 SSP로 배달 SLA를 이행할 수 있도록 PG 거래에는 PG 기본 배치 및 광고(또는 게시자 관리 광고의 경우 1x1 픽셀)가 필요합니다. 필수 PG 기본 배치를 설정하면 다른 배치에서 PG 거래를 타깃팅할 수도 있습니다.
@@ -32,14 +32,14 @@ DSP이 각 입찰 요청에 대한 요청을 반환하고 SSP로 배달 SLA를 �
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]
 * [!DNL Google Authorized Buyers]
-* [!DNL Magnite CTV] (이전 [!DNL Telaria])
-* [!DNL Magnite DV+] (이전 [!DNL Rubicon])
+* [!DNL Magnite CTV](이전 [!DNL Telaria])
+* [!DNL Magnite DV+](이전 [!DNL Rubicon])
 * [!DNL OpenX]
 * [!DNL SpotX]
 
 >[!MORELIKETHIS]
 >
->* [프로그램 보증 거래 협상을 위한 팁](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [프로그램 보증 거래를 협상하기 위한 팁](/help/dsp/inventory/programmatic-guaranteed-tips.md)
 >* [프로그램 보증 거래 설정](programmatic-guaranteed-set-up.md)
 >* [SSP 파트너](ssp-partners.md)
->* [재고 기능 개요](inventory-overview.md)
+>* [인벤토리 기능 개요](inventory-overview.md)

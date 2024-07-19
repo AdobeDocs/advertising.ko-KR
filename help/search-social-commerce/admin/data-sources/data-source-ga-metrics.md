@@ -1,19 +1,19 @@
 ---
-title: 사용 가능 [!DNL Google Analytics] 지표
-description: 참조 [!DNL Google Analytics] 데이터 소스에 사용할 수 있는 지표입니다.
+title: 사용 가능한 [!DNL Google Analytics] 지표
+description: 데이터 원본에 사용할 수 있는  [!DNL Google Analytics] 지표를 참조합니다.
 role: User, Admin
-exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
+exl-id: 434c569d-7869-4874-90a5-5af18bc8157e
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-# 부록 - 사용 가능 [!DNL Google Analytics] 지표
+# 부록 - 사용 가능한 [!DNL Google Analytics] 지표
 
-언급된 제외를 제외하고 다음 지표는에서 고객의 구현에 활성화되어 있을 때 사용할 수 있습니다. [!DNL Google Analytics].
+제외를 제외한 다음 지표는 [!DNL Google Analytics]의 고객 구현에서 사용하도록 설정된 경우 사용할 수 있습니다.
 
 <!-- Notes as FYI to self:
 >[!NOTE]
@@ -38,10 +38,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [동기화 기본 정보 [!DNL Google Analytics] 전환 지표](data-source-about.md)
->* [구성 사전 요구 사항 [!DNL Google Analytics] 데이터 소스](data-source-prerequisites.md)
->* [구성 [!DNL Google Analytics] 데이터 소스로 보기](data-source-configure.md)
->* [편집 [!DNL Google Analytics] 데이터 소스](data-source-edit.md)
->* [데이터 소스 동기화 일시 중지](data-source-pause.md)
->* [재인증 [!DNL Google Analytics] 데이터 소스](data-source-reauthenticate.md)
->* [[!DNL Google Analytics] 데이터 소스 설정](data-source-settings.md)
+>* [동기화 정보 [!DNL Google Analytics] 전환 지표](data-source-about.md)
+>* [데이터 원본 [!DNL Google Analytics] 구성을 위한 필수 구성 요소](data-source-prerequisites.md)
+>* [데이터 소스로  [!DNL Google Analytics] 보기 구성](data-source-configure.md)
+>* [데이터 원본 편집 [!DNL Google Analytics] 2}](data-source-edit.md)
+>* [데이터 원본 동기화 일시 중지](data-source-pause.md)
+>* [데이터 원본 다시 인증 [!DNL Google Analytics] 2}](data-source-reauthenticate.md)
+>* [[!DNL Google Analytics] 데이터 원본 설정](data-source-settings.md)

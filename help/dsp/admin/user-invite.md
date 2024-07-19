@@ -18,15 +18,15 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행합니다.
 
-   * 메인 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * 메인 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Users]**&#x200B;을(를) 클릭합니다.
 
-   * 메인 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Edit users]**.
+   * 주 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Edit users]**&#x200B;을(를) 클릭합니다.
 
-1. 다음에서 **[!UICONTROL Invitations]** 섹션, 클릭 **[!UICONTROL Send Invite]**.
+1. **[!UICONTROL Invitations]** 섹션에서 **[!UICONTROL Send Invite]**&#x200B;을(를) 클릭합니다.
 
-1. 다음에서 **[!UICONTROL User Email]** 필드에 초대를 보낼 이메일 주소를 입력합니다.
+1. **[!UICONTROL User Email]** 필드에 초대를 보낼 전자 메일 주소를 입력합니다.
 
-1. 클릭 **[!UICONTROL Send Invite]**.
+1. **[!UICONTROL Send Invite]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >

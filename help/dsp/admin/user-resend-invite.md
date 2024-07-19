@@ -16,11 +16,11 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행합니다.
 
-   * 메인 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * 메인 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Users]**&#x200B;을(를) 클릭합니다.
 
-   * 메인 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Edit users]**.
+   * 주 메뉴에서 **[!UICONTROL Settings]** > **[!UICONTROL Account]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Edit users]**&#x200B;을(를) 클릭합니다.
 
-1. 다음에서 **초대** 섹션, 클릭 ![다시 전송](/help/dsp/assets/resend.png).
+1. **초대** 섹션에서 ![다시 보내기](/help/dsp/assets/resend.png)를 클릭합니다.
 
 >[!MORELIKETHIS]
 >

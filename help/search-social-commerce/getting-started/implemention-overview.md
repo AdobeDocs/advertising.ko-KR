@@ -1,24 +1,24 @@
 ---
-title: 검색, 소셜 및 상거래 구현 개요
+title: Search, Social 및 Commerce 구현 개요
 description: 학습
-exl-id: 31a4cd6f-8b02-4762-8e68-c9f377389935
+exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
 
-# 검색, 소셜 및 상거래 구현 개요
+# Search, Social 및 Commerce 구현 개요
 
 [!DNL Adobe] 또는 제휴 에이전시 중 하나가 각 광고주와 협력하여 온라인 광고 포트폴리오를 시작하고 추가 광고 캠페인을 추적합니다. 처음 시작 후 진행 중인 추가 작업을 통해 광고주의 목표를 계속 달성할 수 있습니다.
 
-다음은 검색, 소셜 및 상거래를 구현하고 사용하기 위한 일반적인 워크플로우입니다.
+다음은 검색, 소셜 및 Commerce을 구현하고 사용하기 위한 일반적인 워크플로우입니다.
 
 ## 초기 실행
 
-[!DNL Adobe] 및/또는 에이전시가 귀하와 함께 작업하려면 다음 작업을 수행하십시오.
+[!DNL Adobe] 및/또는 에이전시가 귀하와 함께 작업하면 다음과 같은 작업이 수행됩니다.
 
 1. 높은 수준의 비즈니스 목표를 평가하고 이를 달성하기 위한 전략을 수립합니다.
 
@@ -40,17 +40,17 @@ ht-degree: 0%
 
 1. 각 광고 네트워크 계정에 대한 캠페인과 동기화하거나 만듭니다.
 
-   * a) 계정 액세스 자격 증명 및 추적 옵션이 포함된 검색, 소셜 및 상거래에서 해당 계정 레코드를 생성하고 b) 계정 상태를 활성화로 설정하여 계정과 동기화합니다.
+   * a) 계정 액세스 자격 증명 및 추적 옵션이 포함된 검색, 소셜 및 Commerce에서 해당 계정 레코드를 생성하고 b) 계정 상태를 활성화로 설정하여 계정과 동기화합니다.
 
-   * 계정에 캠페인 데이터가 아직 포함되어 있지 않은 경우 검색, 소셜, 상거래 또는 광고 네트워크 내에서 캠페인, 광고 그룹, 키워드, 광고 및 배치를 추가하십시오.
+   * 계정에 캠페인 데이터가 아직 포함되어 있지 않은 경우 검색, 소셜 및 Commerce 내 또는 광고 네트워크 내에서 캠페인, 광고 그룹, 키워드, 광고 및 배치를 추가하십시오.
 
      검색 캠페인 설정에 대한 자세한 내용은 &quot;Campaign Management&quot;의 도움말 장을 참조하십시오.
 
 1. Adobe Advertising에서 전환을 추적하려는 모든 광고에 대한 추적을 설정합니다.
 
-   1. (필요한 경우) 광고 및 선택적으로 키워드에 대한 클릭 추적을 설정합니다. [!DNL Google Ads] 배치 및 [!DNL Google Ads] 클릭 추적 URL을 생성하고 업로드하여 확장한 것입니다.
+   1. (필요한 경우) 클릭 추적 URL을 생성하고 업로드하여 광고에 대한 클릭 추적을 설정하고, 선택적으로 키워드, [!DNL Google Ads] 배치 및 [!DNL Google Ads] 확장을 설정합니다.
 
-      Adobe Advertising 픽셀 기반 전환 추적 서비스를 사용하는 광고주를 위한 클릭 추적 URL에는 리디렉션이 포함됩니다. [!DNL Adobe] 서버.
+      Adobe Advertising 픽셀 기반 전환 추적 서비스를 사용하는 광고주를 위한 클릭 추적 URL에는 [!DNL Adobe] 서버로의 리디렉션이 포함됩니다.
 
    1. 전환 추적을 설정합니다. 구현에 따라, 여기에는 적절한 웹 페이지에 전환 추적 태그를 추가하거나, 자체 방법을 사용하여 수집한 전환 데이터에 대해 일별 피드 드롭 설정이 포함될 수 있습니다.
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
    1. (Adobe Analytics 및/또는 Adobe Audience Manager이 있는 광고주) Adobe Advertising이 다양한 계정과 데이터를 교환할 수 있도록 계정 간의 통합을 설정합니다.
 
-      &quot;&quot;에 대한 안내서 참조[Experience Cloud과 통합](/help/integrations/home.md).&quot;
+      &quot;[Experience Cloud과 통합](/help/integrations/home.md)&quot;에 대한 안내서를 참조하세요.
 
-   1. (광고주: [!DNL Google Analytics]) 다음에 대한 전환 지표 동기화 [!DNL Google Analytics] 최적화 및 보고를 위한 계정, 속성 및 보기 조합.
+   1. (광고주: [!DNL Google Analytics]) 최적화 및 보고를 위해 [!DNL Google Analytics] 계정, 속성 및 보기 조합에 대한 전환 지표를 동기화합니다.
 
-      도움말 섹션 &quot;관리자&quot; > &quot; 참조[데이터 소스 구성](/help/search-social-commerce/admin/data-sources/data-source-about.md).&quot;
+      도움말 하위 챕터 &quot;관리자&quot; > &quot;[데이터 원본 구성](/help/search-social-commerce/admin/data-sources/data-source-about.md)&quot;을 참조하십시오.
 
 1. 포트폴리오 설정 및 실행:
 
@@ -72,11 +72,11 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >Search, Social 및 Commerce는 포트폴리오에 할당되지 않은 캠페인에 대한 데이터를 추적하고 보고하지만 입찰을 최적화하지 않습니다.
+      >Search, Social 및 Commerce은 포트폴리오에 할당되지 않은 캠페인에 대한 데이터를 추적하고 보고하지만 입찰을 최적화하지 않습니다.
 
-   1. 기준을 만드는 데 충분한 데이터를 사용할 수 있게 되면 팀이 포트폴리오를 시작할 수 있으므로 검색, 소셜 및 상거래를 통해 최적화 유형에 따라 포트폴리오에 대한 입찰 및/또는 예산을 최적화할 수 있습니다.
+   1. 기준을 만드는 데 충분한 데이터를 사용할 수 있게 되면 팀이 포트폴리오를 시작할 수 있으므로 검색, 소셜 및 Commerce은 최적화 유형을 기반으로 포트폴리오에 대한 입찰 및/또는 예산을 최적화할 수 있습니다.
 
-   포트폴리오 설정 및 시작에 대한 자세한 내용은 &quot;최적화&quot;에 대한 도움말을 참조하십시오. [!UICONTROL Help] 메뉴 (![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴"))을 클릭하여 제품에서 사용할 수 있습니다.
+   포트폴리오 설정 및 시작에 대한 자세한 내용은 Search, Social 및 Commerce 내 페이지의 오른쪽 상단에 있는 [!UICONTROL Help] 메뉴(![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴"))에서 &quot;최적화&quot;에 대한 도움말을 참조하십시오.
 
 1. 포트폴리오 성능 모니터링:
 
@@ -86,11 +86,11 @@ ht-degree: 0%
 
    광고 인사이트 실행 및 보고서 설정에 대한 자세한 내용은 &quot;인사이트 및 보고서&quot;의 도움말 장을 참조하십시오.
 
-1. (선택 사항) [성능 데이터 보기](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) 표시할 데이터를 표시합니다.
+1. (선택 사항) 보려는 데이터를 표시하도록 [성능 데이터 보기](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)를 구성합니다.
 
 ## 진행 중인 작업
 
-처음 시작 후 다음의 진행 중인 작업이 필요합니다. 계약 조건에 따라 다음 중 하나를 수행합니다. [!DNL Adobe], 제휴 에이전시 또는 광고주가 다음 작업을 수행합니다.
+처음 시작 후 다음의 진행 중인 작업이 필요합니다. 계약 조건에 따라 [!DNL Adobe], 제휴 에이전시 또는 광고주가 다음 작업을 수행합니다.
 
 * 경고, 각 포트폴리오와 해당 구성 요소 캠페인에 대한 성과 데이터, 사용자 정의 가능한 보고서 및 (일부 역할) 시뮬레이션을 보고 각 포트폴리오의 성과를 계속 모니터링하고 분석할 수 있습니다.
 
@@ -108,4 +108,4 @@ ht-degree: 0%
 
    * 새 포트폴리오를 추가합니다.
 
-포트폴리오 모니터링 및 포트폴리오 전략 조정에 대한 지침은 도움말 단원 &quot;최적화&quot; > &quot;Portfolio 관리&quot; > &quot;성능 모니터링 및 관리&quot;를 참조하십시오. [!UICONTROL Help] 메뉴 (![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴"))을 클릭하여 제품에서 사용할 수 있습니다.
+포트폴리오 모니터링 및 포트폴리오 전략 조정에 대한 지침은 Search, Social 및 Commerce 내 페이지의 오른쪽 상단에 있는 [!UICONTROL Help] 메뉴(![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴"))에서 사용할 수 있는 &quot;최적화&quot; > &quot;Portfolio 관리&quot; > &quot;성능 모니터링 및 관리&quot; 도움말 단원을 참조하십시오.

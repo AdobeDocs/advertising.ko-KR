@@ -1,9 +1,9 @@
 ---
 title: 캠페인 성과 모니터링 및 관리
 description: 각 캠페인 및 포트폴리오의 성과를 모니터링하고 목표를 달성하기 위해 변경하는 방법에 대해 알아봅니다.
-exl-id: cf3d015f-a171-45f2-be92-94f19b30e5ce
+exl-id: dad9d218-37ee-4949-ae61-ac91f7723906
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -18,11 +18,11 @@ Adobe 계정 팀, 에이전시 팀 또는 광고주(서비스 수준 계약의 �
 
 다음과 같이 각 캠페인의 성과를 정기적으로 모니터링합니다.
 
-* 보기 [사용자 지정 경고](/help/search-social-commerce/alerts/alert-view.md) 가능합니다.
+* 사용 가능한 [사용자 지정 경고](/help/search-social-commerce/alerts/alert-view.md)를 보는 중입니다.
 
 * 포함된 캠페인에 대한 계정 요약 및 성과 세부 정보 보기
 
-* 실행 중 [보고서](/help/search-social-commerce/reports/report-about.md), 포함 [다음 [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) (해당되는 경우), [다음 [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md), [다음 [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)및 가능한 경우 추가 성능 보고서. 포트폴리오를 사용할 때는 예측된 성능을 실제 성능과 비교해야 합니다.
+* [보고서 [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)(해당되는 경우), [보고서 [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md), [보고서 [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md) 및 해당되는 경우 추가 성능 보고서를 포함하는 [보고서](/help/search-social-commerce/reports/report-about.md)을(를) 실행합니다. 포트폴리오를 사용할 때는 예측된 성능을 실제 성능과 비교해야 합니다.
 
 ## 성과 관리 및 캠페인 및 포트폴리오 구조 조정
 
@@ -36,7 +36,7 @@ Adobe 계정 팀, 에이전시 팀 또는 광고주(서비스 수준 계약의 �
 
 * 캠페인을 일시 중단하거나 포트폴리오를 비활성화하여 캠페인의 광고 및 키워드에 대한 입찰을 중지합니다.
 
-* (해당되는 경우) [새 포트폴리오에 캠페인 할당](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+* (해당되는 경우) [새 포트폴리오에 캠페인을 할당](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
 * (해당되는 경우) 포트폴리오 전략을 조정하여 성과를 개선하고 성장 기회를 활용합니다.
 
@@ -44,6 +44,6 @@ Adobe 계정 팀, 에이전시 팀 또는 광고주(서비스 수준 계약의 �
 
 >[!MORELIKETHIS]
 >
->* [검색, 소셜 및 상거래의 캠페인 관리 기본 정보](campaign-management-about.md)
+>* [검색, 소셜 및 Commerce의 캠페인 관리 정보](campaign-management-about.md)
 >* [광고 네트워크 계정 및 캠페인 구현 개요](campaign-implemention-overview.md)
->* [검색, 소셜 및 상거래의 Google 광고 전환 데이터](google-conversion-data.md)
+>* [검색, 소셜 및 Commerce의 Google 광고 전환 데이터](google-conversion-data.md)

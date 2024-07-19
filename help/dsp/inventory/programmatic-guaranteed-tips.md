@@ -5,7 +5,7 @@ feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 41a2a307-5cb2-4b41-bb3b-edee1e15c5fa
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 * 크기 표시
 * 성능 목표
 * 브랜드 안전 요구 사항
-* Target 대상
+* 타겟 대상자
 * 노출 횟수
 * 예산
 * CPM
@@ -48,4 +48,3 @@ ht-degree: 2%
 >* [프로그램 보증 거래 정보](programmatic-guaranteed-about.md)
 >* [프로그램 보증 거래 설정](programmatic-guaranteed-set-up.md)
 >* [SSP 파트너](ssp-partners.md)
-

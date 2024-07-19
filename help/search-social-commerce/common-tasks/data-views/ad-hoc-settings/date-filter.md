@@ -21,33 +21,33 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 이전 13개월의 데이터를 볼 수 있지만 기존의 모든 사용자 지정 보기에는 이전 180일까지의 데이터만 포함할 수 있습니다.
->* 이전 데이터를 보려면 [[!UICONTROL Reports] 보기](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) 기본 보고서를 실행합니다.
->* 날짜 범위를 저장할 수도 있습니다. [기본 보기 또는 사용자 지정 보기](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
+>* 이전 데이터를 보려면 [[!UICONTROL Reports] 보기](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)(으)로 이동하여 기본 보고서를 실행하십시오.
+>* [기본 보기 또는 사용자 지정 보기](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)에 대한 날짜 범위를 저장할 수도 있습니다.
 
 ## 캠페인 보기에서 전역 날짜 필터 변경
 
 1. 검색 \> 캠페인 \> 캠페인의 데이터 테이블 위에서 현재 날짜 범위를 클릭합니다.
 
-1. 다음에서 **[!UICONTROL Date Range]** 필드에서 범위를 지정합니다.
+1. **[!UICONTROL Date Range]** 필드에서 범위를 지정합니다.
 
-   * 사전 설정된 범위의 경우: 다음 범위의 공통 시간 증분 목록에서 선택합니다. *[!UICONTROL Today]* 끝 *[!UICONTROL Last 180 Days]*. 기본값은 입니다 *[!UICONTROL Yesterday]*.
+   * 사전 설정된 범위의 경우: *[!UICONTROL Today]*&#x200B;에서 *[!UICONTROL Last 180 Days]* 사이의 공통 시간 증분 목록에서 선택합니다. 기본값은 *[!UICONTROL Yesterday]*&#x200B;입니다.
 
-   * 특정 범위의 경우 다음을 선택합니다 **[!UICONTROL Custom Date Range]** 를 클릭한 다음 시작 날짜와 종료 날짜를 지정합니다.
+   * 특정 범위의 경우: **[!UICONTROL Custom Date Range]** 을(를) 선택한 다음 시작 날짜와 종료 날짜를 지정합니다.
 
-     날짜를 MM/DD/YYYY 또는 MM-DD-YYYY 형식으로 입력하거나 ![달력 아이콘](/help/search-social-commerce/assets/calendar.png "달력 아이콘") 각 필드 옆에 있는 을 클릭하여 달력을 열고 날짜를 선택합니다.
+     날짜를 MM/DD/YYYY 또는 MM-DD-YYYY 형식으로 입력하거나 각 필드 옆에 있는 ![달력 아이콘](/help/search-social-commerce/assets/calendar.png "달력 아이콘")을 클릭하여 달력을 열고 날짜를 선택합니다.
 
 1. (선택 사항) 지정된 날짜 범위의 데이터를 두 번째 날짜 범위의 데이터와 비교합니다.
 
-   1. 이동 **[!UICONTROL Comparison]** 슬라이더 *[!UICONTROL On]*.
+   1. **[!UICONTROL Comparison]** 슬라이더를 *[!UICONTROL On]*(으)로 이동합니다.
 
-      이 옵션을 선택하면 각 일반 데이터 열에 대해 두 개의 열이 더 추가됩니다. 예를 들어 &quot;에 대해 하나의 열만 포함하는 대신[!UICONTROL Impressions],&quot; 표에는 &quot;에 대한 열이 포함되어 있습니다.[!UICONTROL Impressions R1],&quot; &quot;[!UICONTROL Impressions R2]및 &quot;[!UICONTROL Impressions Diff].&quot;  데이터를 내보내면 동일한 열의 맞춤법이 다음과 같습니다[!UICONTROL Impressions Range 1],&quot; &quot;[!UICONTROL Impressions Range 2]및 &quot;[!UICONTROL Impressions Difference].&quot;
+      이 옵션을 선택하면 각 일반 데이터 열에 대해 두 개의 열이 더 추가됩니다. 예를 들어 테이블에 &quot;[!UICONTROL Impressions]&quot;에 대한 열을 하나만 포함하는 대신 &quot;[!UICONTROL Impressions R1]&quot;, &quot;[!UICONTROL Impressions R2]&quot; 및 &quot;[!UICONTROL Impressions Diff]&quot;에 대한 열이 포함됩니다.  데이터를 내보내면 동일한 열의 철자가 &quot;[!UICONTROL Impressions Range 1]&quot;, &quot;[!UICONTROL Impressions Range 2]&quot; 및 &quot;[!UICONTROL Impressions Difference]&quot;로 지정됩니다.
 
    1. 두 번째 날짜 범위를 지정합니다.
 
-   1. &quot;\[&quot;에서 선택한 두 날짜 범위의 데이터 차이를 표시하는 방법 선택&#x200B;_데이터 필드_\] 차이&quot; 열:
+   1. &quot;\[_데이터 필드_\] 차이&quot; 열에서 선택한 두 날짜 범위의 데이터 차이를 표시하는 방법을 선택하십시오.
 
-      * *[!UICONTROL Variance]* (기본값): 차이를 숫자 값으로 표시합니다.
+      * *[!UICONTROL Variance]*(기본값): 차이를 숫자 값으로 표시합니다.
 
-      * *[!UICONTROL % Change]:*  차이를 백분율로 표시합니다.
+      * *[!UICONTROL % Change]:* 차이를 백분율로 표시합니다.
 
-1. 클릭 **[!UICONTROL Apply]**.
+1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.

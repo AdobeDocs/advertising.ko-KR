@@ -18,33 +18,32 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 다음을 수행할 수도 있습니다. [계정에 액세스할 수 있는 개별 광고주 편집](deal-id-edit-advertisers.md).
+> 계정에 액세스할 수 있는 개별 광고주를 [편집할 수도 있습니다](deal-id-edit-advertisers.md).
 
 ## 거래처와 거래 ID 공유
 
-1. 메인 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. 메인 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**&#x200B;을(를) 클릭합니다.
 
-1. 거래 행에서 **[!UICONTROL ...]** > **[!UICONTROL Share]**.
+1. 거래 행에서 **[!UICONTROL ...]** > **[!UICONTROL Share]**&#x200B;을(를) 클릭합니다.
 
 1. 공유할 각 계정의 경우:
 
-   1. 다음을 입력합니다. **[!UICONTROL Email Address]** 거래에 액세스할 수 있는 거래처용.
+   1. 거래에 액세스할 수 있는 계정의 **[!UICONTROL Email Address]**&#x200B;을(를) 입력하십시오.
 
-   1. 클릭 **[!UICONTROL Share]**.
+   1. **[!UICONTROL Share]**&#x200B;을(를) 클릭합니다.
 
 ## 거래처와의 거래 ID 공유 중지
 
-1. 메인 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. 메인 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**&#x200B;을(를) 클릭합니다.
 
-1. 거래 행에서 **[!UICONTROL ...]** > **[!UICONTROL Share]**.
+1. 거래 행에서 **[!UICONTROL ...]** > **[!UICONTROL Share]**&#x200B;을(를) 클릭합니다.
 
-1. 다음 옆에 [!UICONTROL Account Email] 값, 클릭 **[!UICONTROL Unshare].**
+1. [!UICONTROL Account Email] 값 옆에 있는 **[!UICONTROL Unshare].**&#x200B;을(를) 클릭합니다
 
-1. 클릭 **[!UICONTROL Cancel]** 창을 닫습니다.
+1. 창을 닫으려면 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭하십시오.
 
 >[!MORELIKETHIS]
 >
->* [비공개 인벤토리 정보](private-inventory-about.md)
->* [거래 ID에 대한 액세스 권한이 있는 광고주 편집](/help/dsp/inventory/deal-id-edit-advertisers.md)
+>* [개인 인벤토리 정보](private-inventory-about.md)
+>* [거래 ID에 액세스할 수 있는 광고주 편집](/help/dsp/inventory/deal-id-edit-advertisers.md)
 >* [수동 거래 ID 설정](deal-id-settings.md)
-

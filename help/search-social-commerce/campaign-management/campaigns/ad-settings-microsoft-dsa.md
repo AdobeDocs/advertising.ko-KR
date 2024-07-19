@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Microsoft Advertising] 확장된 동적 검색 광고 설정'
-description: 다음에 대한 설정 참조 [!DNL Microsoft Advertising] 확장된 동적 검색 광고.
+description: ' [!DNL Microsoft Advertising] 확장된 동적 검색 광고에 대한 설정을 참조하십시오.'
 exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Expanded Dynamic Search Ad Details]
 
-**[!UICONTROL Description Line 1]:** 광고 본문. 최대 길이는 90개의 싱글바이트 문자 또는 45개의 더블바이트 문자입니다.
+**[!UICONTROL Description Line 1]:** 광고 본문입니다. 최대 길이는 90개의 싱글바이트 문자 또는 45개의 더블바이트 문자입니다.
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 
 {{$include /help/_includes/display-path1-2.md}}
 
-**[!UICONTROL Description Line 2]:** (선택 사항) 광고의 두 번째 줄입니다. 최대 길이는 90개의 싱글바이트 문자 또는 45개의 더블바이트 문자입니다.
+**[!UICONTROL Description Line 2]:**(선택 사항) 광고의 두 번째 줄입니다. 최대 길이는 90개의 싱글바이트 문자 또는 45개의 더블바이트 문자입니다.
 
 <!-- **[!UICONTROL Status]:** -->
 
@@ -40,5 +40,5 @@ ht-degree: 0%
 >* [광고 관리](ad-manage.md)
 >* [[!DNL Microsoft Advertising] 멀티미디어 광고 설정](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft Advertising] 제품 광고 설정](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] 반응형(대상) 광고 설정](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] 응답형(대상) 광고 설정](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft Advertising] 반응형 검색 광고 설정](ad-settings-microsoft-rsa.md)

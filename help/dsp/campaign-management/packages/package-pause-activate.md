@@ -2,7 +2,8 @@
 title: 패키지 일시 중지 또는 활성화
 description: 패키지를 일시 중단하거나 활성화하는 방법을 알아봅니다.
 feature: DSP Packages
-source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
+exl-id: c4a6fb08-14db-4c8b-ab7a-0bbc0f201390
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 ## 패키지 일시 중지
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
-1. 캠페인 이름을 클릭하여 [!UICONTROL Packages] 보기.
-1. 패키지 이름 옆에 있는  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL Packages] 보기를 열려면 캠페인 이름을 클릭하십시오.
+1. 패키지 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Pause]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
 >
@@ -27,9 +28,9 @@ ht-degree: 0%
 
 ## 패키지 활성화
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
-1. 캠페인 이름을 클릭하여 [!UICONTROL Packages] 보기.
-1. 패키지 이름 옆에 있는  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL Packages] 보기를 열려면 캠페인 이름을 클릭하십시오.
+1. 패키지 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Activate]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >

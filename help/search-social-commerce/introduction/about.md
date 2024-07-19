@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Adobe Advertising 검색, 소셜 및 Commerce 정보
 
-[!DNL Adobe] 은 고객 경험 솔루션에서 시장 및 기술 리더입니다. Adobe Advertising은 모든 화면에서 모든 형식으로 브랜드 및 성과 캠페인 관리를 위한 크로스 채널 광고 캠페인 게재를 간소화합니다. Adobe Advertising은 검색, 쇼핑, 소셜, 대상 네트워크 및 성과 최대 채널에 대한 Advertising Search, Social 및 Commerce, 디스플레이 채널에 대한 Advertising DSP(Demand Side Platform) 및 디스플레이 광고에 대한 최종 사용자 경험을 만드는 Advertising Creative의 세 가지 하위 솔루션으로 구성됩니다.
+[!DNL Adobe]은(는) 고객 경험 솔루션의 시장 및 기술 리더입니다. Adobe Advertising은 모든 화면에서 모든 형식으로 브랜드 및 성과 캠페인 관리를 위한 크로스 채널 광고 캠페인 게재를 간소화합니다. Adobe Advertising은 검색, 쇼핑, 소셜, 대상 네트워크 및 성과 최대 채널을 위한 Advertising 검색, 소셜 및 Commerce, 디스플레이 채널을 위한 Advertising DSP(Demand Side Platform), 디스플레이 광고를 위한 최종 사용자 경험을 만드는 Advertising Creative의 세 가지 하위 솔루션으로 구성됩니다.
 
-Adobe Advertising의 일환으로 Advertising Search, Social 및 Commerce은 동급 최고의 포트폴리오 기반 광고 관리와 지능형 캠페인 예측 및 데이터 최적화 광고를 위한 타깃팅된 광고 제공을 결합합니다.
+Adobe Advertising의 일환으로 Advertising 검색, 소셜 및 Commerce은 동급 최고의 포트폴리오 기반 광고 관리와 지능형 캠페인 예측 및 데이터 최적화 광고를 위한 타깃팅된 광고 전달을 결합합니다.
 
 ## 광고 최적화를 위한 AI 기반 기술
 
 Search, Social 및 Commerce은 광고주의 비즈니스 목표, 지표, 예산 및 기타 비즈니스 제한 사항의 경계 내에서 광고 네트워크 전반에 걸친 광고 캠페인에 대한 입찰 및 예산 관리를 자동화하고 최적화합니다. 각 마케팅 채널의 입찰 환경에 대한 정보는 물론 각 광고주의 키워드 및 광고에 대한 클릭, 비용 및 전환 내역을 추적합니다. 포트폴리오 이론 접근 방식을 사용하여 최적화 기능은 전체 캠페인 포트폴리오에 걸쳐 가능한 모든 예산 할당을 비교하여 광고 지출에 대한 가능한 가장 높은 수익을 산출할 입찰 및 캠페인 예산을 결정하고 그에 따라 입찰 및 예산을 실행합니다. 최적화 기능은 광고주의 키워드 및 광고를 지속적으로 모니터링하여 마켓플레이스가 변경될 때 입찰 및 예산을 동적으로 조정합니다.
 
-여러 유형의 최적화를 사용할 수 있으므로 검색, 소셜 및 Commerce과 광고 네트워크가 입찰 최적화에 대한 제어 수준을 다양하게 설정할 수 있습니다. 최적화 유형에 따라 Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics], 또는 기타 자사 엔터프라이즈 피드.
+여러 유형의 최적화를 사용할 수 있으므로 검색, 소셜 및 Commerce과 광고 네트워크가 입찰 최적화에 대한 제어 수준을 다양하게 설정할 수 있습니다. 최적화 유형에 따라 Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] 또는 기타 자사 엔터프라이즈 피드에서 추적한 전환을 사용하여 포트폴리오를 최적화할 수 있습니다.
 
 역할에 따라 예측 모델링을 사용하여 최적 지출 시점을 식별하는 포트폴리오 성과 시뮬레이션과 세부 예측 정확도 보고서를 볼 수 있습니다. 모든 사용자는 지출 권장 사항 도구를 사용하여 포트폴리오 전반에 걸쳐 최적의 예산 분배를 식별할 수 있습니다.
 
@@ -30,13 +30,13 @@ Search, Social 및 Commerce은 광고주의 비즈니스 목표, 지표, 예산 
 
 Search, Social 및 Commerce은 광고 네트워크 전반에 걸쳐 포괄적인 캠페인 관리, 최적화, 추적 및 보고를 제공합니다. 광고 관리 보기에서 다음 작업을 수행할 수 있습니다.
 
-* **캠페인 관리:**  지원되는 광고 네트워크에 대한 광고 계정을 동기화한 다음, 일괄 시트를 사용하고 인벤토리 데이터 피드를 자동으로 사용하여 많은 캠페인 유형을 수동으로 설정하고 관리합니다.
+* **캠페인 관리:** 지원되는 광고 네트워크에 대한 광고 계정을 동기화한 다음 일괄 시트를 사용하고 인벤토리 데이터 피드를 자동으로 사용하여 여러 캠페인 유형을 수동으로 설정하고 관리합니다.
 
-* **최적화:** 캠페인 및 광고 세트를 최적화를 위한 다양한 유형의 포트폴리오로 그룹화합니다. 포트폴리오 시뮬레이션을 사용하여 지출 전략 및 기타 포트폴리오 설정에 대한 변경 사항의 영향을 예측합니다.
+* **최적화:** 최적화를 위해 캠페인 및 광고 세트를 다른 유형의 포트폴리오로 그룹화합니다. 포트폴리오 시뮬레이션을 사용하여 지출 전략 및 기타 포트폴리오 설정에 대한 변경 사항의 영향을 예측합니다.
 
-* **캠페인 추적:** 추적 및 보고만 하려는 다른 광고 캠페인에 대한 액세스를 설정합니다. 여기에는 캠페인 데이터 및 지표 업로드가 포함될 수 있습니다.
+* **캠페인 추적:** 추적 및 보고만 하려는 다른 광고 캠페인에 대한 액세스 권한을 설정합니다. 여기에는 캠페인 데이터 및 지표 업로드가 포함될 수 있습니다.
 
-* **보고:** 성능 데이터 보기 및 사용자 정의 가능한 세부 보고서를 통해 추적 중인 포트폴리오 및 기타 모든 캠페인의 성능을 모니터링하고 분석합니다. Adobe Analytics의 전환 지표를 포함할 수 있습니다. [!DNL Google Ads], [!DNL Google Analytics], 그리고 데이터 보기 및 보고서에서 다른 자사 엔터프라이즈 피드를 사용하는 방법에 대해 설명합니다.
+* **보고:** 성능 데이터 보기 및 사용자 지정 가능한 세부 보고서를 통해 추적 중인 포트폴리오와 다른 캠페인의 성능을 모니터링하고 분석합니다. Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] 및 다른 자사 엔터프라이즈 피드의 전환 지표를 데이터 보기 및 보고서에 포함할 수 있습니다.
 
    * 사용자에게 중요한 성능 데이터를 최적의 상태로 볼 수 있도록 다양한 성능 데이터 보기를 구성합니다.
 
@@ -44,13 +44,13 @@ Search, Social 및 Commerce은 광고 네트워크 전반에 걸쳐 포괄적인
 
    * 포트폴리오의 경우 규범적 통찰력은 성능을 향상시키는 데 사용할 수 있는 시각적이고 실행 가능한 데이터도 제공합니다.
 
-를 참조하십시오.[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)다른 광고 네트워크 및 광고 유형 지원에 대한 자세한 내용은 &quot;.
+다양한 광고 네트워크 및 광고 유형에 대한 지원에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;를 참조하십시오.
 
 ## Adobe Experience Cloud 솔루션 및 서비스와의 통합
 
-Adobe Analytics 및 Adobe Audience Manager과의 기본 통합을 통해 광고 타겟팅을 위해 데이터 및 대상 세그먼트를 연결할 수 있습니다. [!DNL Google Ads] 대상 생성, 최적화 및 보고/분석.
+Adobe Analytics 및 Adobe Audience Manager과의 기본 통합을 통해 광고 타깃팅, [!DNL Google Ads] 대상 만들기, 최적화 및 보고/분석을 위해 데이터와 대상 세그먼트를 연결할 수 있습니다.
 
-이러한 제품과 다른 Adobe 제품과의 통합에 대한 자세한 내용은 &quot;[Adobe Experience Cloud 솔루션 및 서비스와의 통합](/help/search-social-commerce/introduction/integrations.md).&quot;
+이러한 제품과 다른 Adobe 제품과의 통합에 대한 자세한 내용은 &quot;[Adobe Experience Cloud 솔루션 및 서비스와 통합](/help/search-social-commerce/introduction/integrations.md)&quot;을 참조하십시오.
 
 ## 전환 추적
 
@@ -63,4 +63,4 @@ Adobe Advertising은 선택적으로 웹 사이트에 연결되는 광고의 온
 >[!MORELIKETHIS]
 >
 >* [지원되는 인벤토리](supported-inventory.md)
->* [Adobe Experience Cloud 솔루션 및 서비스와의 통합](integrations.md)
+>* [Adobe Experience Cloud 솔루션 및 서비스와 통합](integrations.md)

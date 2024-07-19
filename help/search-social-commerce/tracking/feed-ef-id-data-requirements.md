@@ -1,11 +1,11 @@
 ---
 title: EF ID를 사용한 데이터 피드에 대한 데이터 요구 사항
 description: EF ID를 사용하여 데이터 피드에 대한 데이터 요구 사항을 참조하십시오.
-exl-id: 15e76f3a-c376-4e7b-b3c8-ca76fd427002
+exl-id: 507ed42c-349f-4311-af61-8f7a27794162
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---

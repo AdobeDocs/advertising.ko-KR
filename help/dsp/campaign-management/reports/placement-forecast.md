@@ -27,15 +27,15 @@ ht-degree: 0%
 
 * **[!UICONTROL Summary]:**
 
-   * **[!UICONTROL Estimated CPM]:** 타겟팅 설정에 도달할 것으로 예상되는 노출 횟수당 예상 비용(eCPM).
+   * **[!UICONTROL Estimated CPM]:** 타기팅 설정에 도달할 것으로 예상되는 eCPM(천 단위 노출 횟수)당 예상 비용입니다.
 
-   * **[!UICONTROL Budget]:** 타겟팅 설정에 대한 예상 예산.
+   * **[!UICONTROL Budget]:** 타깃팅 설정에 대한 예상 예산입니다.
 
-   * **[!UICONTROL Impression]:** 타겟팅 설정에 대한 예상 노출 횟수입니다.
+   * **[!UICONTROL Impression]:** 타깃팅 설정에 대한 예상 노출 횟수입니다.
 
-* **[!UICONTROL Budget Yield Curve]:** 다른 모든 타겟팅 설정이 동일한 경우 배치가 다른 예산 수준에서 제공할 수 있는 예상 노출 횟수입니다.
+* **[!UICONTROL Budget Yield Curve]:** 다른 모든 타깃팅 설정이 동일한 경우 다른 예산 수준에서 배치가 제공할 수 있는 예상 노출 횟수입니다.
 
-* **[!UICONTROL Max Bid Yield Curve]:** 다른 모든 타깃팅 설정이 동일할 때 서로 다른 최대 입찰 수준에서 배치에 대한 예상 지출입니다.
+* **[!UICONTROL Max Bid Yield Curve]:** 다른 모든 타깃팅 설정이 동일한 경우 다른 최대 입찰 수준에서 배치에 대한 예상 지출입니다.
 
 * **[!UICONTROL Message]:** 예측을 생성할 수 없는 시나리오를 포함하여 예측된 출력에 대한 정보를 제공합니다. 또한 검토되었지만 데이터 부족으로 인해 해당 시나리오에서 고려되지 않은 모든 타겟팅 설정을 강조 표시합니다.
 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 ## 배치 예측 보고서 열기
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]**.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
-1. 캠페인 이름을 클릭한 다음 **[!UICONTROL Placements]**.
+1. 캠페인 이름을 클릭한 다음 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
 
-1. 배치 이름 옆에 있는 를 클릭합니다  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. 를 찾습니다. **[!UICONTROL Forecast]** 오른쪽 상단에 있는 섹션입니다. 필요한 경우 ![예측](/help/dsp/assets/placement-forecast.png).
+1. 오른쪽 상단에서 **[!UICONTROL Forecast]** 섹션을 찾습니다. 필요한 경우 ![예측](/help/dsp/assets/placement-forecast.png)을 클릭하세요.
 
    >[!NOTE]
    >

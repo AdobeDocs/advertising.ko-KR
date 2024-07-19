@@ -22,9 +22,9 @@ ht-degree: 0%
 * 모든 배치
 * 모든 광고
 
-1. 메인 메뉴에서 **[!UICONTROL Campaigns]** 내보낼 보기를 엽니다.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭하고 내보낼 보기를 엽니다.
 
-1. 오른쪽 위 도구 모음에서 를 클릭합니다.  **[!UICONTROL ...]** > **[!UICONTROL Export]**.
+1. 오른쪽 위 도구 모음에서 **[!UICONTROL ...]** > **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 
    파일은 브라우저의 기본 다운로드 폴더에 저장됩니다.
 
