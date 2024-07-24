@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising] 캠페인 설정'
 description: ' [!DNL Microsoft Advertising] 캠페인에 대한 설정을 참조합니다.'
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
+source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
@@ -79,17 +79,17 @@ ht-degree: 0%
 
 * *[!UICONTROL Maximize Clicks]:*(검색 및 쇼핑 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 클릭수를 최대화하기 위해 입찰을 최적화합니다. 선택적으로 **[!UICONTROL Max CPC]**(클릭당 비용)을 입력하여 광고 네트워크가 클릭당 특정 금액 이상을 지불하지 않도록 합니다. **주의:** 이 전략을 사용하는 캠페인을 포트폴리오에 추가하면 클릭 가중치(포트폴리오 목표가 아님)가 입찰을 유도합니다.
 
-* *[!UICONTROL Maximize Conversion Value]:*(검색 및 쇼핑/스마트 쇼핑 네트워크, 성과 최대 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 전환 가치를 극대화하기 위해 입찰을 최적화합니다. 필요한 경우 **[!UICONTROL Target Return on Ad Spend]**(ROAS)을(를) 백분율로 입력하십시오. **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다.
+* *[!UICONTROL Maximize Conversion Value]:*(검색 및 쇼핑/스마트 쇼핑 네트워크, 성과 최대 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 전환 가치를 극대화하기 위해 입찰을 최적화합니다. 필요한 경우 **[!UICONTROL Target Return on Ad Spend]**(ROAS)을(를) 백분율로 입력하십시오. **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다. 하이브리드 포트폴리오에서 검색, 소셜 및 Commerce은 Target ROAS를 최적화합니다.
 
-* *[!UICONTROL Maximize Conversions]:*(검색 네트워크 또는 대상 네트워크의 성과 최대 캠페인 및 캠페인(대상 비디오 또는 연결된 TV는 제외) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 전환을 최대화하기 위해 입찰을 최적화합니다. 필요한 경우 **[!UICONTROL Target CPC]**(클릭당 비용)을 입력합니다. 대상 캠페인의 경우 선택적 **[!UICONTROL Target CPA]**(획득당 비용)을 입력할 수도 있습니다. **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다.
+* *[!UICONTROL Maximize Conversions]:*(검색 네트워크 또는 대상 네트워크의 성과 최대 캠페인 및 캠페인(대상 비디오 또는 연결된 TV는 제외) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 전환을 최대화하기 위해 입찰을 최적화합니다. 필요한 경우 **[!UICONTROL Target CPC]**(클릭당 비용)을 입력합니다. 대상 캠페인의 경우 선택적 **[!UICONTROL Target CPA]**(획득당 비용)을 입력할 수도 있습니다. **참고:** 표준 포트폴리오가 아닌 하이브리드 포트폴리오의 캠페인에 이 옵션을 사용합니다. 하이브리드 포트폴리오에서 검색, 소셜 및 Commerce은 Target CPA를 최적화합니다.
 
-* *[!UICONTROL Target CPA]:*(검색 네트워크의 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 선택적 **[!UICONTROL Target CPA]**(획득당 비용)을 기준으로 입찰을 최적화합니다. 이 값은 획득(전환)에 대해 지불할 30일 평균 금액입니다. **참고:** [!UICONTROL Weekly] 또는 [!UICONTROL Google Target CPA]을(를) 제외한 지출 전략이 있는 하이브리드 포트폴리오(표준 포트폴리오는 아님)의 캠페인에 이 옵션을 사용합니다.
+* *[!UICONTROL Target CPA]:*(검색 네트워크의 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 선택적 **[!UICONTROL Target CPA]**(획득당 비용)을 기준으로 입찰을 최적화합니다. 이 값은 획득(전환)에 대해 지불할 30일 평균 금액입니다. **참고:** [!UICONTROL Weekly] 또는 [!UICONTROL Google Target CPA]을(를) 제외한 지출 전략이 있는 하이브리드 포트폴리오(표준 포트폴리오는 아님)의 캠페인에 이 옵션을 사용합니다. 하이브리드 포트폴리오에서 검색, 소셜 및 Commerce은 Target CPA를 최적화합니다.
 
   이 입찰 전략이 있는 캠페인에는 평균 위치 및 CPC 입찰 데이터를 사용할 수 없습니다.
 
 * *[!UICONTROL Target Impression Share]:*(검색 네트워크의 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 입찰을 최적화하여 타겟 노출 점유율 및 광고 위치를 달성합니다. 필요한 경우 **[!UICONTROL Target Impression Share]**, **[!UICONTROL Target Ad Position]** 및 **[!UICONTROL Max CPC]**(클릭당 비용)을 입력합니다. **참고:** 이 옵션은 하이브리드 포트폴리오에서 지원되지 않습니다.
 
-* *[!UICONTROL Target Return on Ad Spend]:*(검색 및 쇼핑 네트워크의 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 백분율로 지정된 **[!UICONTROL Target ROAS]**(광고 투자 수익률)을 기반으로 입찰을 최적화합니다. 선택적으로 **[!UICONTROL Max CPC]**(클릭당 비용)을 입력하여 광고 네트워크가 클릭당 특정 금액 이상을 지불하지 않도록 합니다. **참고:** [!UICONTROL Weekly] 또는 [!UICONTROL Google Target ROAS]을(를) 제외한 지출 전략이 있는 하이브리드 포트폴리오(표준 포트폴리오는 아님)의 캠페인에 이 옵션을 사용합니다.
+* *[!UICONTROL Target Return on Ad Spend]:*(검색 및 쇼핑 네트워크의 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 백분율로 지정된 **[!UICONTROL Target ROAS]**(광고 투자 수익률)을 기반으로 입찰을 최적화합니다. 선택적으로 **[!UICONTROL Max CPC]**(클릭당 비용)을 입력하여 광고 네트워크가 클릭당 특정 금액 이상을 지불하지 않도록 합니다. **참고:** [!UICONTROL Weekly] 또는 [!UICONTROL Google Target ROAS]을(를) 제외한 지출 전략이 있는 하이브리드 포트폴리오(표준 포트폴리오는 아님)의 캠페인에 이 옵션을 사용합니다. 하이브리드 포트폴리오에서 검색, 소셜 및 Commerce은 Target ROAS를 최적화합니다.
 
   이 입찰 전략이 있는 캠페인에는 평균 위치 및 CPC 입찰 데이터를 사용할 수 없습니다.
 

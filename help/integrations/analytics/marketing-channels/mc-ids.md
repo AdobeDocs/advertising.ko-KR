@@ -3,9 +3,9 @@ title: Adobe Advertising ID를 사용하여  [!DNL Marketing Channels] 규칙 �
 description: Adobe Advertising ID를 사용하여  [!DNL Analytics Marketing Channels]에 대한 처리 규칙을 만드는 방법을 알아봅니다.
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+source-git-commit: 96a0add168c7fb7a6d80cf1b81ef4b315fbba89f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -35,16 +35,17 @@ AMO ID의 나머지 부분은 무시할 수 있습니다.
 
 | [!UICONTROL AMO ID] | 채널 | 규칙 논리 |
 |--------|---------|--------------------|
-| 알! (접두사) | [!UICONTROL Paid Search] | 다음으로 시작 |
-| ac! (접두사) | [!UICONTROL DSP] | 다음으로 시작 |
+| !ctv(접미사) | [!UICONTROL DSP Connected TV View-through] | 종료 문자 |
+| !d! (본문) | [!UICONTROL Display Network] | 다음 포함 |
 | ! (본문) | [!UICONTROL Google Search] | 다음 포함 |
 | !s! (본문) | [!UICONTROL Search Partner] | 다음 포함 |
-| !d! (본문) | [!UICONTROL Display Network] | 다음 포함 |
 | ! (본문) | [!UICONTROL Smart Shopping Campaign] | 다음 포함 |
 | ! (본문) | [!UICONTROL YouTube Video Ad] | 다음 포함 |
 | ! (본문) | [!UICONTROL YouTube Search Ad] | 다음 포함 |
 | !vp! (본문) | [!UICONTROL Google Video Partners] | 다음 포함 |
 | !vt(접미어) | [!UICONTROL DSP View-through] | 종료 문자 |
+| 알! (접두사) | [!UICONTROL Paid Search] | 다음으로 시작 |
+| ac! (접두사) | [!UICONTROL DSP] | 다음으로 시작 |
 
 ### AMO ID를 사용하는 처리 규칙의 예
 
