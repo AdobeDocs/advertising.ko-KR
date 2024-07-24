@@ -3,9 +3,9 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: ab3118901b7cd88776f7c0ce8038b928118a7555
+source-git-commit: 5ca730f519ab8273cd6aaf910b5b09487ed4d77e
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -115,9 +115,13 @@ ht-degree: 0%
 
 (패키지 수준 게재 간격이 있는 패키지) 패키지의 전체 [!UICONTROL Flight Dates] 내의 사용자 지정 게재 기간을 포함하여 패키지의 플라이트 기간입니다. [!UICONTROL Goals & Budget] 섹션에서 [!UICONTROL Activate Custom Flighting] 옵션이 활성화된 경우에만 사용자 지정 항공편을 구성할 수 있습니다.
 
+**[!UICONTROL Automatically rollover remaining flight budget to next flight]:**([!UICONTROL Activate Custom Flighting] 옵션이 활성화된 경우에만 사용 가능) 다음 항공편의 기존 예산에 이전 항공편의 남은 예산을 자동으로 추가합니다.
+
+[!UICONTROL Packages] 보기 및 [!DNL Package Name] > [!UICONTROL Flights] 보기에서 현재 비행 목표를 표시하는 [!UICONTROL Interval Goal] 필드에 롤오버 예산이 포함되어 있습니다.
+
 **[!DNL Flight N]:**([!UICONTROL Activate Custom Flighting] 옵션이 활성화된 경우에만 사용 가능) 각 항공편에 대해 시작 날짜, 종료 날짜 및 목표 지출 목표를 지정하십시오. 다른 비행기를 추가하려면 **[!UICONTROL Add Flight]**&#x200B;을(를) 클릭하십시오.
 
-기존 패키지의 경우 선택적으로 모든 비행에 대해 [!UICONTROL Rollover] 열에 값을 입력하여 다음 비행에 잠재적 미지출 예산을 추가할 수 있습니다. [!UICONTROL Adjusted Goal (Goal + Rollover)] 열의 예상 값이 그에 따라 변경되었습니다.<!-- clarify usage -->
+&quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot; 옵션이 활성화된 기존 패키지의 경우 설정을 다시 열어 모든 비행에 대해 **[!UICONTROL Rollover]** 열에 값을 입력하여 다음 비행에 지출되지 않은 잠재적 예산을 추가할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
