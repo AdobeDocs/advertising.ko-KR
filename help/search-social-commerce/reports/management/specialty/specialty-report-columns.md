@@ -3,9 +3,9 @@ title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 13b1ca84571c33e4369b67ace24f39a23ad5fe24
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2639'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension]개의 보고서) 총 수입을 지출로 나눈 비율로 표시합니다. |
 | [!UICONTROL All Revenue Per Conversion] | ([!UICONTROL MSA Ad Extension]개 보고서) 전환당 매출입니다. |
 | [!UICONTROL Asset] | ([!UICONTROL RSA Asset Report]) 에셋입니다. |
-| [!UICONTROL Asset ID] | ([!UICONTROL RSA Asset Report]) Search, Social 및 Commerce이 자산에 할당하는 숫자 ID입니다. |
+| [!UICONTROL Asset ID] | ([!UICONTROL RSA Asset Report]) 기존 자산을 식별하는 고유 ID입니다. |
 | [!UICONTROL Asset Performance Label] | ([!UICONTROL RSA Asset Report]) 에셋의 [[!DNL Google Ads] 성능 평가](https://support.google.com/google-ads/answer/9564897). |
 | [!UICONTROL Asset Status] | ([!UICONTROL RSA Asset Report]) 에셋 상태: *[!UICONTROL Enabled]* 또는 *[!UICONTROL Enabled]*(제거됨). |
 | [!UICONTROL Asset Type] | ([!UICONTROL RSA Asset Report]) 자산 유형: *[!UICONTROL Creative Title]* 또는 *[!UICONTROL Description]*. |
