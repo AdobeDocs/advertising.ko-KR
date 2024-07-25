@@ -3,9 +3,9 @@ title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3741'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Active Campaigns] | 활성 캠페인 수. |
 | [!UICONTROL Active Keywords] | 활성 키워드의 수입니다. |
 | [!UICONTROL Ad Group] | 광고 그룹. |
-| [!UICONTROL Ad Group ID] | Search, Social 및 Commerce이 광고 그룹에 할당하는 숫자 ID입니다. |
+| [!UICONTROL Ad Group ID] | 기존 광고 그룹을 식별하는 고유 ID입니다. |
 | [!UICONTROL Ad Group Status] | 광고 그룹 상태: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> 또는 <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Ad Group Type] | 광고 그룹 유형(예: <i>[!UICONTROL Audience]</i>(대상 캠페인만), <i>[!UICONTROL Discovery]</i>(검색 캠페인만), <i>[!UICONTROL Display]</i>(표시 캠페인만), <i>[!UICONTROL Search Dynamic]</i>(동적 검색 광고만), <i>[!UICONTROL Search Standard]</i>(반응형 검색 광고 및 기존 확장 텍스트 광고만), <i>[!UICONTROL Shopping Showcase]</i>, <i>[!UICONTROL Shopping Product]</i>(표준 쇼핑 캠페인만) 또는 <i>[!UICONTROL Shopping Smart]</i>(스마트 쇼핑 캠페인만). 일부 캠페인 유형의 경우, 단일 캠페인에 여러 광고 유형이 포함될 수 있습니다. |
 | [!UICONTROL Ad Groups] | 레이블 값이 할당된 광고 그룹 수입니다. |
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Interactions] | (비디오 광고) 사람들이 광고를 시청한 횟수입니다. |
 | [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) 포트폴리오에 입찰 전략이 [!UICONTROL Maximize Clicks]인 캠페인이 포함된 경우 <i>true</i>이고, 그렇지 않은 경우 <i>false</i>입니다. |
 | [!UICONTROL Keyword] | 키워드.<br><br><b>참고:</b> 보고서에 콘텐츠 사용 검색 캠페인의 광고 그룹 데이터가 포함된 경우 이 열에는 &quot;(광고 그룹 콘텐츠) 광고 그룹 이름&quot;과 같은 해당 광고 그룹 이름이 포함됩니다. 검색 캠페인의 사이트 타겟팅 배치의 경우 이 열에는 값이 없습니다. |
-| [!UICONTROL Keyword ID] | Search, Social 및 Commerce이 키워드에 할당하는 숫자 ID입니다. |
+| [!UICONTROL Keyword ID] | 기존 키워드를 식별하는 고유 ID입니다. |
 | [!UICONTROL Keyword Status] | 검색어와 일치하는 키워드의 상태: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i> 또는 <i>[!UICONTROL Disapproved]</i>. |
 | [!UICONTROL Label Classification] | ([!UICONTROL Label Classification Report] 및 [!UICONTROL Label Value Report]) 레이블 분류입니다. |
 | [!UICONTROL Label Value] | ([!UICONTROL Label Classification Report] 및 [!UICONTROL Label Value Report]) 레이블 분류의 값입니다. |

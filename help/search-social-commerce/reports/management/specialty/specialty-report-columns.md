@@ -3,9 +3,9 @@ title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension]개 보고서) 광고 확장에 대한 버전 특성입니다. |
 | [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension]개 보고서) 광고 확장 유형입니다. |
 | [!UICONTROL Ad Group] | 광고 그룹. |
-| [!UICONTROL Ad Group ID] | Search, Social 및 Commerce이 광고 그룹에 할당하는 숫자 ID입니다. |
+| [!UICONTROL Ad Group ID] | 기존 광고 그룹을 식별하는 고유 ID입니다. |
 | [!UICONTROL Ad Group Name] | 광고 그룹. |
 | [!UICONTROL Ad Group Status] | 광고 그룹 상태: *[!UICONTROL Active]*, *[!UICONTROL Paused]* 또는 *[!UICONTROL Deleted]*. |
 | [!UICONTROL Ad Title] | ([!UICONTROL MSA Ad Extension]개 보고서) 광고 제목입니다. |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Share Percent] | 받은 노출 횟수를 받을 자격이 있는 예상 노출 횟수로 나눈 값입니다. |
 | [!UICONTROL Impressions] | 지정된 날짜 범위 동안의 광고 노출 횟수입니다. |
 | [!UICONTROL Keyword] | 키워드.<br><br><b>참고:</b> 보고서에 콘텐츠 사용 검색 캠페인의 광고 그룹 데이터가 포함된 경우 이 열에는 &quot;(광고 그룹 콘텐츠) 광고 그룹 이름&quot;과 같은 해당 광고 그룹 이름이 포함됩니다. 검색 캠페인의 사이트 타겟팅 배치의 경우 이 열에는 값이 없습니다. |
-| [!UICONTROL Keyword ID] | Search, Social 및 Commerce이 키워드에 할당하는 숫자 ID입니다. |
+| [!UICONTROL Keyword ID] | 기존 키워드를 식별하는 고유 ID입니다. |
 | [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) 광고 네트워크가 광고 확장에 할당하는 숫자 ID입니다. |
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) 광고 확장에 대한 버전 특성입니다. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) 광고 확장 유형입니다. |
