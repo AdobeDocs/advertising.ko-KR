@@ -3,9 +3,9 @@ title: 기본 디스플레이 광고 설정
 description: 기본 디스플레이 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 다음 설정은 사용자가 만들거나 편집하는 각 픽셀에 적용됩니다.
 
-**[!UICONTROL Integration Event]:** 픽셀을 실행하도록 트리거하는 이벤트입니다. 이 광고 형식의 경우 *[!UICONTROL Impression]* 옵션만 있습니다.
+**[!UICONTROL Integration Event]:** 픽셀을 실행하도록 트리거하는 이벤트입니다.
 
 **[!UICONTROL Pixel Type]:** 픽셀이 *[!UICONTROL IMG URL]*(1x1 픽셀 이미지 파일), *[!UICONTROL HTML]* 또는 *[!UICONTROL JavaScript URL]*&#x200B;인지 여부.
 
