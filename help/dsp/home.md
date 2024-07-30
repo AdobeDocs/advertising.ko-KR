@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: b47d5ef00067af455107da07af51b466faa415a1
+source-git-commit: 5a967894f2aa9e26dde981c771dce10b5d9e84f7
 workflow-type: tm+mt
-source-wordcount: '3859'
+source-wordcount: '3822'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024년 7월 24일 | [!UICONTROL Planner] | 이제 플래너 도구를 사용하여 배치 도달을 예측할 수 있습니다.<ul><li>**대상 우편 번호 또는 제외된 우편 번호**: 다음 중 하나를 수행할 수 있습니다.<ul><li>지정한 국가의 쉼표로 구분된 값을 붙여 넣은 다음 **[!UICONTROL Include All]** 또는 **[!UICONTROL Exclude All]**&#x200B;을(를) 클릭합니다.</li><li>국가 및 도시별로 검색하여 올바른 우편 번호를 클릭한 다음 **[!UICONTROL Include]** 또는 **[!UICONTROL Exclude]**&#x200B;을(를) 클릭합니다.</li></ul></li><li>**타깃팅되거나 제외된 웹 사이트 및 앱**: 한 줄에 하나의 URL을 입력한 다음 **[!UICONTROL Include All]** 또는 **[!UICONTROL Exclude All]**&#x200B;을(를) 클릭합니다.</li></ul> | &quot;[플래너 설정](/help/dsp/planner/planner-settings.md)&quot;을 참조하세요. |
+| 2024년 7월 30일 | [!UICONTROL Placements] | 8월 14일부터 DSP에서는 [!DNL Audiences by Oracle (BlueKai)]개 세그먼트에 대한 세그먼트 카운트 새로 고침을 중지하고, 9월 말에 종료되며 모든 카운트는 점진적으로 0으로 줄어듭니다. | — |
 | | [!UICONTROL Packages] | [!UICONTROL Activate Custom Flighting] 옵션을 사용하도록 설정한 경우 패키지 설정에 &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot;에 대한 옵션이 포함됩니다. 이 옵션을 활성화하면 이전 항공편의 남은 예산이 다음 항공편의 기존 예산에 자동으로 추가됩니다. 자동 롤오버 옵션을 선택하면 [!UICONTROL Rollover] 열을 수동으로 편집할 수 없습니다.<br><br>[!UICONTROL Packages] 보기 및 [패키지 이름] > [!UICONTROL Flights] 보기에서 현재 비행 목표를 표시하는 &quot;[!UICONTROL Interval Goal]&quot; 열에 롤오버 예산이 포함됩니다. | &quot;[패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)&quot;을(를) 참조하십시오. |
 | 2024년 7월 12일 | [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] | [!UICONTROL Campaigns], [!UICONTROL Packages] 및 [!UICONTROL Placements] 보기에서 피드백을 기반으로 일부 지표의 이름이 변경되었습니다.<ul><li>트렌드 차트에서 &quot;필수 지출&quot;은 &quot;지출 벤치마크&quot;로, &quot;타겟 지출&quot;은 &quot;지출 타겟&quot;으로 이름이 변경되었습니다.</li><li>데이터 테이블에서:<ul><li>&quot;어제의 필수 지출&quot;과 &quot;오늘의 필수 지출&quot;은 &quot;어제의 지출 벤치마크&quot; 및 &quot;오늘의 지출 벤치마크&quot;로 이름이 변경되었습니다.</li><li>툴팁 &quot;어제의 게재 간격 % 및 &quot;오늘의 게재 간격 %&quot;가 &quot;어제의 총 지출을 어제의 지출 벤치마크의 %로&quot; 및 &quot;오늘의 총 지출을 어제의 지출 벤치마크의 %로&quot; 로 변경되었습니다.</li><li>&quot;어제의 목표 지출&quot;과 &quot;오늘의 목표 지출&quot;은 &quot;어제의 지출 목표&quot;와 &quot;오늘의 지출 목표&quot;로 이름이 바뀌었습니다.</li></ul></li><ul> | &quot;[사용자 지정 열 보기 만들기](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)&quot; 및 &quot;[사용자 지정 열 보기 편집](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)&quot;을 참조하십시오.&quot; |
 |  |  | [!DNL Oracle]은(는) 2024년 9월 30일까지 광고 사업을 종료할 예정입니다. [!DNL BlueKai], [!DNL Oracle Data Cloud](이전에는 [!DNL Grapeshot]) 및 [!DNL MOAT]의 모든 서비스가 비활성화됩니다. 다음 대체 요소를 이미 사용할 수 있습니다.<ul><li>표준 타사 및 사용자 지정 세그먼트: [!DNL eXelate], [!DNL Eyeota], [!DNL LiveRamp], [!DNL Lotame], [!DNL Neustar] 및 사용 가능한 기타 타사 데이터 파트너</li><li>예측 타사 세그먼트: [!DNL Proximic by Comscore]</li><li>[!DNL Integral Ad Science]을(를) 통한 캠페인 수준 브랜드 안전성 및 조회 측정</li><li>[!DNL DoubleVerify] 및 [!DNL Integral Ad Science]의 배치 수준 사전 입찰 가시성</li><li>[!DNL Proximic by Comscore]의 배치 수준 주제 타기팅</li></ul>타사 세그먼트에 대한 CPM 가격은 [!UICONTROL Audience Library]에서 사용할 수 있으며, 서비스에 대한 CPM 가격은 [!UICONTROL Settings] > [!UICONTROL Fees]에서 사용할 수 있습니다. | &quot;[사용 가능한 타사 데이터 공급자](/help/dsp/audiences/third-party-data-providers.md)&quot;, &quot;[브랜드 안전 및 미디어 품질](/help/dsp/introduction/features/brand-safety-media-quality.md)&quot;, &quot;[캠페인 설정](/help/dsp/campaign-management/campaigns/campaign-settings.md)&quot; 및 &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)&quot;을 참조하십시오.&quot; |
