@@ -3,7 +3,7 @@ title: 광고 네트워크 계정 관리
 description: 광고 네트워크 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법을 알아봅니다.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 68efad8ad3bc2985ac75a0f9437a2eafb194e4b6
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -12,7 +12,13 @@ ht-degree: 0%
 
 # 광고 네트워크 계정 관리
 
+<!-- Probably need to change the page title. If I update the filename, get B. to create a redirect to the new URL. -->
+
 다음은 광고 네트워크 계정 세부 정보를 만들고 편집하고, 계정에 대한 [!DNL oAuth] 토큰을 새로 고치고, 계정을 사용하지 않도록 설정하는 지침입니다.
+
+<!-- Move out info about Naver?  Then change to the following:  Following are instructions for creating and editing account details for an ad network account that Search, Social, & Commerce will sync using the ad network's API; refreshing the [!DNL oAuth] token for an account; and disabling accounts. -->
+
+<!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
 각 광고 네트워크에서 사용할 수 있는 기능에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;를 참조하십시오.
 
@@ -243,7 +249,7 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S_kwcid 형식** - (기존 [!DNL Google Ads] 계정은 Adobe Advertising-Adobe Analytics 통합을 사용하며 AMO ID(s_kwcid)가 이미 마이그레이션되지 않은 광고주용 계정입니다.)
+* **S_kwcid 형식:**(기존 [!DNL Google Ads]은(는) Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주용 계정이며 AMO ID(s_kwcid)가 이미 마이그레이션되지 않았습니다.)
 
 이 계정은 AMO ID 추적 코드에 대해 이전 형식을 사용하므로 Adobe Advertising이 Adobe Analytics과 계정에 대한 데이터를 공유할 수 있습니다. [최신 형식](/help/integrations/analytics/ids.md#amo-id-formats)에는 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수가 포함되어 있습니다. 이 매개 변수는 Analytics의 [!DNL Google Ads] 성과 최대 캠페인 및 초안과 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요합니다.
 
@@ -253,9 +259,9 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 
 전체 지침은 &quot;[계정 [!DNL Google Ads] 의 AMO ID 추적 코드 업데이트](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)&quot;를 참조하십시오.
 
-**보고서 세트 이름** - (토큰만 사용하는 EF 리디렉션용, Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주, 선택 사항) Search, Social 및 Commerce에서 엔티티 분류 및 계정에 대한 클릭 데이터를 포함하여 광고 네트워크에서 수집하는 데이터를 전송하는 하나 이상의 Analytics 보고서 세트입니다. 이 기능은 지원되는 광고 네트워크에서만 사용할 수 있습니다.
+**보고서 세트 이름:**(토큰만 사용하는 EF 리디렉션, Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주, 선택 사항) Search, Social 및 Commerce이 엔터티 분류 및 계정에 대한 클릭 데이터를 포함하여 광고 네트워크에서 수집하는 데이터를 전송하는 하나 이상의 Analytics 보고서 세트입니다. 이 기능은 지원되는 광고 네트워크에서만 사용할 수 있습니다.
 
-데이터를 보고서 세트에 표시하려면 (a) 계정에 대해 서버측 AMO ID 기능을 구성해야 하거나 (b) &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot;에 대한 광고주 수준 설정을 활성화해야 합니다. 또한 광고주의 Analytics 계정이 검색, 소셜 및 Commerce에서 데이터를 수신하도록 구성되어 있어야 합니다. 자세한 내용은 Adobe 계정 관리자에게 문의하십시오.
+데이터를 보고서 세트에 표시하려면 (a) 계정에 대해 서버측 AMO ID 기능을 구성해야 하거나 (b) &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot;에 대한 광고주 수준 설정을 활성화해야 합니다. 또한 광고주의 Analytics 계정이 검색, 소셜 및 Commerce에서 데이터를 수신하도록 구성되어 있어야 합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
 >[!MORELIKETHIS]
 >

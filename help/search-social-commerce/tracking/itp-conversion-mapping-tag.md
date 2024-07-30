@@ -3,7 +3,7 @@ title: Adobe Advertising 전환 매핑 태그
 description: Adobe Advertising이 랜딩 페이지가 아닌 페이지에서 발생하는 전환 이벤트를 추적할 수 있는 ITP 2.2용 JavaScript 기반 전환 매핑 태그에 대해 알아봅니다.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Adobe Advertising JavaScript 기반 전환 매핑 태그 를 Adobe Advertising J
 
       * `{AMO User ID}`을(를) 검색, 소셜 및 Commerce 계정의 고유 사용자 ID로 바꿉니다.
 
-조직 ID 또는 검색, 소셜 및 Commerce 사용자 ID의 값을 모를 경우 Adobe 계정 관리자에게 문의하십시오.
+조직 ID 또는 검색, 소셜 및 Commerce 사용자 ID의 값을 모를 경우 Adobe 계정 팀에 문의하십시오.
 
 ### 예시
 
