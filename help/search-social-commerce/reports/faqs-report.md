@@ -3,7 +3,7 @@ title: 사용자 정의 보고서에 대한 FAQ
 description: 데이터 문제 해결을 포함하여 성능 보고서에 대한 일반적인 질문에 대한 답변을 살펴볼 수 있습니다.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -124,6 +124,7 @@ ht-degree: 0%
 |---|---|---|
 | 광고 계정에서 클릭 데이터를 검색하는 프로세스가 실패했습니다. | 이 문제를 감지하는 체계적인 방법은 없지만, 광고 계정에서 비용을 사용했음에도 불구하고 캠페인에 비용이 표시되지 않거나 클릭 정보가 표시되지 않을 수 있습니다. | Adobe 계정 팀에 문의하십시오.<br><br>데이터가 24시간 이상 누락된 경우 데이터를 검색할 때까지 비용 예측에서 해당 날짜를 제외합니다. Adobe 계정 팀에서 날짜를 제외할 수 있습니다. |
 | 광고주와 광고 네트워크 사이의 과금 문제로 인해 광고 계정이 지출되지 않습니다. | 이 문제를 감지하는 체계적인 방법은 없지만, 캠페인에 비용이나 클릭 정보가 표시되지 않을 수 있습니다. | 청구 문제로 인해 광고 계정을 사용할 수 없었던 것을 알고 있는 경우 비용 예측에서 해당 날짜를 제외하십시오. Adobe 계정 팀에서 날짜를 제외할 수 있습니다. |
+
 +++
 
 +++성능 데이터가 광고 네트워크 편집기의 데이터와 다릅니다.
@@ -227,7 +228,7 @@ ht-degree: 0%
 
 *가능한 해결 방법 또는 해결 방법:*
 
-1. **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]**(으)로 이동하여 [!UICONTROL Transaction Report]을(를) 생성합니다. Search, Social 및 Commerce이 수신한 거래를 광고주의 데이터와 비교합니다.
+1. **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]**(으)로 이동하여 [!UICONTROL Transaction Report]을(를) 생성합니다. Search, Social 및 Commerce이 받은 거래를 광고주의 데이터와 비교합니다.
 
 1. 일부 트랜잭션이 올바르지 않거나 누락된 경우, 관련 전환 추적 태그가 적용 가능한 모든 웹 페이지에 구현되어 있는지, Adobe 계정 팀에서 이를 권장하지 않는 한 편집되지 않았는지 확인하십시오. 웹 사이트가 최근에 업데이트된 경우 태그가 누락되거나 변경될 수 있습니다.
 
@@ -283,7 +284,7 @@ ht-degree: 0%
 
 *가능한 해결 방법 또는 해결 방법:*
 
-1. **[!UICONTROL Insights]및[!UICONTROL Reports > Reports]**(으)로 이동하여 [!UICONTROL Transaction Report]을(를) 생성합니다. Search, Social 및 Commerce이 수신한 거래를 광고주의 데이터와 비교합니다.
+1. **[!UICONTROL Insights]및[!UICONTROL Reports > Reports]**(으)로 이동하여 [!UICONTROL Transaction Report]을(를) 생성합니다. Search, Social 및 Commerce이 받은 거래를 광고주의 데이터와 비교합니다.
 
 1. 일부 트랜잭션이 올바르지 않거나 누락된 경우, a) 피드 파일에 모든 필수 트랜잭션 ID가 포함되어 있고 중복 추적 ID는 없는지, b) 트랜잭션 ID가 고유하고 올바른지 확인하십시오.
 
