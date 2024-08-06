@@ -3,9 +3,9 @@ title: ' [!DNL Yahoo! Japan] 계정의 일괄 시트 데이터'
 description: ' [!DNL Yahoo! Japan] 계정에 대해 다운로드한 일괄 시트의 머리글 필드 및 데이터 필드를 참조합니다.'
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2668'
+source-wordcount: '2672'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!TIP]
 >
->다음 테이블은 넓습니다. 필요한 경우 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 봅니다. 왼쪽 창 위쪽에 있는 ![왼쪽 창 숨기기](/help/search-social-commerce/assets/hide-left-pane.png "왼쪽 창 숨기기") 또는 오른쪽 창 위쪽에 있는 ![오른쪽 창 숨기기](/help/search-social-commerce/assets/hide-right-pane.png "오른쪽 창 숨기기")을 클릭하여 목차 또는 오른쪽 창을 일시적으로 숨길 수도 있습니다.
+>다음 테이블은 넓습니다. 보기 영역을 확장하려면 왼쪽 창 상단의 ![왼쪽 창 숨기기](/help/dsp/assets/hide-left-pane.png "왼쪽 창 숨기기") 및 오른쪽 창 상단의 ![오른쪽 창 숨기기](/help/dsp/assets/hide-right-pane.png "오른쪽 창 숨기기")을 클릭하여 목차와 오른쪽 창을 일시적으로 숨길 수 있습니다. 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 볼 수도 있습니다.
 
 | 필드 | 캠페인 | 광고 그룹 | 키워드 | 텍스트 광고 | 캠페인 위치 타겟 | 설명 |
 |----|----|----|----|----|----|----|

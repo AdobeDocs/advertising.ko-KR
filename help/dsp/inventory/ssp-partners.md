@@ -3,9 +3,9 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 개방형 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 3bb03e0896fca0e7d58d4726939d18577f458e2c
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 자�
 
 >[!TIP]
 >
->다음 테이블은 넓습니다. 필요한 경우 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 봅니다. 왼쪽 창 위쪽에 있는 ![왼쪽 창 숨기기](/help/dsp/assets/hide-left-pane.png "왼쪽 창 숨기기") 또는 오른쪽 창 위쪽에 있는 ![오른쪽 창 숨기기](/help/dsp/assets/hide-right-pane.png "오른쪽 창 숨기기")을 클릭하여 목차 또는 오른쪽 창을 일시적으로 숨길 수도 있습니다.
+>다음 테이블은 넓습니다. 보기 영역을 확장하려면 왼쪽 창 상단의 ![왼쪽 창 숨기기](/help/dsp/assets/hide-left-pane.png "왼쪽 창 숨기기") 및 오른쪽 창 상단의 ![오른쪽 창 숨기기](/help/dsp/assets/hide-right-pane.png "오른쪽 창 숨기기")을 클릭하여 목차와 오른쪽 창을 일시적으로 숨길 수 있습니다. 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 볼 수도 있습니다.
 
 | 나열된 SSP | 회사 | Seat ID | 프로그램 보증 지원 | 지역 | 지원되는 통화 | 비디오 데스크탑 | 비디오 모바일 | 비디오 CTV | 디스플레이 데스크탑 | 디스플레이 모바일 | 기본 디스플레이 | 오디오 데스크탑 및 모바일 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |

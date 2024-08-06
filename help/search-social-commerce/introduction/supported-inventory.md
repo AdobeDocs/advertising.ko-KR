@@ -3,9 +3,9 @@ title: 지원되는 인벤토리
 description: 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형을 참조하십시오.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: a27e5bf805f198a9f3896da4970e922bb629953b
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2720'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->다음 테이블은 넓습니다. 필요한 경우 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 봅니다. 왼쪽 창 위쪽에 있는 ![왼쪽 창 숨기기](/help/search-social-commerce/assets/hide-left-pane.png "왼쪽 창 숨기기") 또는 오른쪽 창 위쪽에 있는 ![오른쪽 창 숨기기](/help/search-social-commerce/assets/hide-right-pane.png "오른쪽 창 숨기기")을 클릭하여 목차 또는 오른쪽 창을 일시적으로 숨길 수도 있습니다.
+>다음 테이블은 넓습니다. 보기 영역을 확장하려면 왼쪽 창 상단의 ![왼쪽 창 숨기기](/help/dsp/assets/hide-left-pane.png "왼쪽 창 숨기기") 및 오른쪽 창 상단의 ![오른쪽 창 숨기기](/help/dsp/assets/hide-right-pane.png "오른쪽 창 숨기기")을 클릭하여 목차와 오른쪽 창을 일시적으로 숨길 수 있습니다. 표 하단에 있는 스크롤 막대를 사용하여 전체 내용을 볼 수도 있습니다.
 
 | Source | 네트워크 | 캠페인 유형 | 광고 유형 | 동기화 및 보기 | 만들기/편집 | 트랙[^1] | 최적화 | 보고서[^2] | Adobe Analytics 지원[^3] |
 |----|----|----|----|----|----|----|----|----|----|
