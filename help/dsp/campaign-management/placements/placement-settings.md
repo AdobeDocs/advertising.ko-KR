@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 07ecb613c49e27e1a1e82d7082b1715040b82610
+source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
 workflow-type: tm+mt
-source-wordcount: '3915'
+source-wordcount: '3921'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ ht-degree: 0%
 
    * *[!UICONTROL RampID]*: 사용자의 전자 메일 주소를 사용하여 사이트에 로그인한 [!DNL LiveRamp] [!DNL RampIDs]명의 사용자를 대상으로 합니다.<!-- Verify --> [!DNL RampIDs]은(는) 북미, 오스트레일리아 및 뉴질랜드의 사용자가 사용할 수 있습니다.
 
-   * *[!UICONTROL Unified ID2.0]*: 전자 메일 주소를 사용하여 사이트에 로그인한 사용자의 [!DNL Unified ID2.0](UID2) ID를 타깃팅합니다.<!-- Verify -->[!DNL UID2 IDs]은(는) 유럽 경제 지역 및 일부 추가 국가에서 사용할 수 없습니다. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2)을 참조하세요.
+   * *[!UICONTROL Unified ID2.0]*: 이메일 주소를 사용하여 사이트에 로그인한 사용자의 [!DNL Unified ID2.0](UID2) ID를 타겟팅합니다.<!-- Verify -->[!DNL UID2 IDs]은(는) 유럽 경제 지역 및 일부 추가 국가에서 사용할 수 없습니다. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2)을 참조하세요.
 
   **[!UICONTROL Terms of service]**: 유니버설 ID 사용에 대한 서비스 약관. 데이터를 새 ID 유형으로 변환하려면 사용자나 DSP 계정의 다른 사용자가 약관에 한 번 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 귀하의 동의를 받고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 **>**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
 
@@ -365,7 +365,7 @@ ht-degree: 0%
 >
 >* [!DNL Proximic by Comscore] 또는 [!DNL Oracle Data Cloud]의 세그먼트(이전의 [!DNL Grapeshot]) 내에서 부정적인 타깃팅을 설정합니다.
 
-**[!UICONTROL Device Targeting]:**(선택 사항) 대상으로 포함 및 제외할 장치 유형, 제조업체, 운영 체제, 브라우저 및 연결 유형 등 특정 장치 정보입니다. 장치 타깃팅을 지정하려면:
+**[!UICONTROL Device Targeting]:**(선택 사항) 대상으로 포함 및 제외할 장치 유형, 제조업체, 운영 체제, 브라우저 및 연결 유형 등 특정 장치 정보입니다. 유형은 배치 유형에 따라 다릅니다. 장치 타깃팅을 지정하려면:
 
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 포함 및 제외할 장치 세부 정보를 지정합니다.
