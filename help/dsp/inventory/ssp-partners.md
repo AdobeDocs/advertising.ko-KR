@@ -3,7 +3,7 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 개방형 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 96a8080a134bc3bdff597d8a26bfbc4cd40bc545
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -47,7 +47,7 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 자�
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 또는 Adobe Advertising | 아니요 | 글로벌 | 미국 달러 | x | x | x | x | x |  |  |
 | [!DNL Triton] |  | Adobe Advertising | 예 | 글로벌 | 미국 달러 |  |  |  |  |  |  | x |
 | [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | 아니요 | 미국 + EMEA | 미국 달러 | x | x | x |  |  |  |  |
-| [!DNL Yahoo] | [!DNL TubeMogul] 또는 Adobe Advertising | 아니요 | 글로벌 | 미국 달러 | x | x | x | x | x |  |  |
+| [!DNL Yahoo] |  | [!DNL TubeMogul] 또는 Adobe Advertising | 아니요 | 글로벌 | 미국 달러 | x | x | x | x | x |  |  |
 
 {style="table-layout:auto"}
 
