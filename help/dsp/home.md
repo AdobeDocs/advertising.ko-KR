@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5a967894f2aa9e26dde981c771dce10b5d9e84f7
+source-git-commit: 20c2001ff66a75c64364450c0f0841cb8403d326
 workflow-type: tm+mt
-source-wordcount: '3822'
+source-wordcount: '3849'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024년 8월 14일 | [!UICONTROL Placements] | DSP은 더 이상 [!DNL Audiences by Oracle (BlueKai)]개 세그먼트에 대한 세그먼트 수를 새로 고치지 않으며, 이는 9월 말에 종료되며 모든 카운트는 점진적으로 0으로 줄어듭니다. | — |
 | 2024년 7월 30일 | [!UICONTROL Placements] | 8월 14일부터 DSP에서는 [!DNL Audiences by Oracle (BlueKai)]개 세그먼트에 대한 세그먼트 카운트 새로 고침을 중지하고, 9월 말에 종료되며 모든 카운트는 점진적으로 0으로 줄어듭니다. | — |
 | | [!UICONTROL Packages] | [!UICONTROL Activate Custom Flighting] 옵션을 사용하도록 설정한 경우 패키지 설정에 &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot;에 대한 옵션이 포함됩니다. 이 옵션을 활성화하면 이전 항공편의 남은 예산이 다음 항공편의 기존 예산에 자동으로 추가됩니다. 자동 롤오버 옵션을 선택하면 [!UICONTROL Rollover] 열을 수동으로 편집할 수 없습니다.<br><br>[!UICONTROL Packages] 보기 및 [패키지 이름] > [!UICONTROL Flights] 보기에서 현재 비행 목표를 표시하는 &quot;[!UICONTROL Interval Goal]&quot; 열에 롤오버 예산이 포함됩니다. | &quot;[패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)&quot;을(를) 참조하십시오. |
 | 2024년 7월 12일 | [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] | [!UICONTROL Campaigns], [!UICONTROL Packages] 및 [!UICONTROL Placements] 보기에서 피드백을 기반으로 일부 지표의 이름이 변경되었습니다.<ul><li>트렌드 차트에서 &quot;필수 지출&quot;은 &quot;지출 벤치마크&quot;로, &quot;타겟 지출&quot;은 &quot;지출 타겟&quot;으로 이름이 변경되었습니다.</li><li>데이터 테이블에서:<ul><li>&quot;어제의 필수 지출&quot;과 &quot;오늘의 필수 지출&quot;은 &quot;어제의 지출 벤치마크&quot; 및 &quot;오늘의 지출 벤치마크&quot;로 이름이 변경되었습니다.</li><li>툴팁 &quot;어제의 게재 간격 % 및 &quot;오늘의 게재 간격 %&quot;가 &quot;어제의 총 지출을 어제의 지출 벤치마크의 %로&quot; 및 &quot;오늘의 총 지출을 어제의 지출 벤치마크의 %로&quot; 로 변경되었습니다.</li><li>&quot;어제의 목표 지출&quot;과 &quot;오늘의 목표 지출&quot;은 &quot;어제의 지출 목표&quot;와 &quot;오늘의 지출 목표&quot;로 이름이 바뀌었습니다.</li></ul></li><ul> | &quot;[사용자 지정 열 보기 만들기](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)&quot; 및 &quot;[사용자 지정 열 보기 편집](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)&quot;을 참조하십시오.&quot; |
