@@ -3,9 +3,9 @@ title: ' [!DNL Analytics for Advertising]을(를) 구현하기 위한 필수 구
 description: ' [!DNL Analytics for Advertising]을(를) 구현하기 위한 필수 구성 요소 및 키 정보'
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 8481227a8ccb1f1e6e715e34e14732967110c168
+source-git-commit: 1559c2cb83e32d90f4b2fe959d07c4e588d9becf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Adobe Advertising 구현 팀에 다음 사항을 제공합니다.
 
 * Adobe Analytics의 [!DNL Analytics for Advertising] 전환 추적은 구성 가능한 추적 전환 확인 기간(기본적으로 60일)을 사용합니다. Adobe Advertising 보고서는 이 추적 전환 확인 기간의 종료를 통한 사이트 전환 및 참여를 반영합니다.
 
-* 모든 광고 유형이 지원됩니다. 그러나 모든 광고 환경이 지원되는 것은 아닙니다.
+* 모든 광고 유형이 지원됩니다. <!--Clarify what this might include. It used to include CTV, but not anymore: However, not all ad environments are supported. -->
 
 * [!DNL Analytics] 전환은 현재 추적되며 동일한 장치의 방문자에게만 연결됩니다.
 
