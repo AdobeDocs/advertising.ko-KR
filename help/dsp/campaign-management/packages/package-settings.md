@@ -3,7 +3,7 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 5ca730f519ab8273cd6aaf910b5b09487ed4d77e
+source-git-commit: f7332ae243daed3fcc45b69a8d71fff74d7caaeb
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
