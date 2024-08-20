@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 편집
 description: 사용자 지정 보고서 설정을 편집하는 방법을 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 42208276-d766-41c8-a764-c79a20e302e6
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%

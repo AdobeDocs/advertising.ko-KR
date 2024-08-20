@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 만들기
 description: 사용자 지정 보고서를 만드는 방법을 알아봅니다.
 feature: DSP Custom Reports
 exl-id: f895529b-dc69-4c74-bca6-3f7617f41ceb
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 0%
