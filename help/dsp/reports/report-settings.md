@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 9313b20b4bcdb001138f30d8fa82d2b22be19831
+source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 사용자 지정 보고서 설정
 
-**[!UICONTROL Name]** 보고서 이름입니다. 최대 길이는 180자입니다.
+**[!UICONTROL Name]:** 보고서 이름입니다. 최대 길이는 180자입니다.
 
-**[!UICONTROL Report Type]** 보고서 유형: *[!UICONTROL Custom]*(사용 가능한 옵션 포함), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* 또는 *[!UICONTROL Household Conversions]*.
+**[!UICONTROL Report Type]:** 보고서 유형: *[!UICONTROL Custom]*(사용 가능한 옵션 포함), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* 또는 *[!UICONTROL Household Conversions]*.
 
-## [!UICONTROL Report range] 섹션
+## [!UICONTROL Report Range] 섹션
 
 이 섹션은 보고서에 포함되는 데이터를 결정합니다. 보고서 일정에 대한 날짜를 설정하려면 &quot;[!UICONTROL Report run schedule]&quot; 섹션을 참조하십시오.
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Custom Range]:** 특정 시작 날짜와 종료 날짜 사이의 데이터를 포함합니다. 전날까지 데이터를 보고하려면 **[!UICONTROL Present]**&#x200B;을(를) 선택하십시오.
 
-## [!UICONTROL Report run schedule] 섹션
+## [!UICONTROL Report Run schedule] 섹션
 
 이 섹션은 보고서가 실행되는 날짜를 결정합니다. 보고서 데이터를 포함할 날짜를 설정하려면 &quot;[!UICONTROL Report range]&quot; 섹션을 참조하십시오.
 
