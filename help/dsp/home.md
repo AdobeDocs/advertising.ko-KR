@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 20c2001ff66a75c64364450c0f0841cb8403d326
+source-git-commit: ec9bf9bb6e12255548d4d8c869b87a78226bbf1e
 workflow-type: tm+mt
-source-wordcount: '3849'
+source-wordcount: '3906'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024년 8월 22일 | [!UICONTROL Packages] | 이제 검토를 위해 XLSX([!DNL Microsoft Excel] 스프레드시트) 형식으로 하나 이상의 패키지에 대한 설정을 다운로드할 수 있습니다. 스프레드시트에는 비행 정보가 포함된 별도의 탭이 포함됩니다. 그런 다음 두 탭에서 필드를 선택하도록 변경하고 모두 DSP에 다시 업로드할 수 있습니다. | &quot;[스프레드시트를 사용하여 패키지 설정 검토 및 편집](/help/dsp/campaign-management/packages/package-qa.md)&quot;을 참조하십시오. |
 | 2024년 8월 14일 | [!UICONTROL Placements] | DSP은 더 이상 [!DNL Audiences by Oracle (BlueKai)]개 세그먼트에 대한 세그먼트 수를 새로 고치지 않으며, 이는 9월 말에 종료되며 모든 카운트는 점진적으로 0으로 줄어듭니다. | — |
 | 2024년 7월 30일 | [!UICONTROL Placements] | 8월 14일부터 DSP에서는 [!DNL Audiences by Oracle (BlueKai)]개 세그먼트에 대한 세그먼트 카운트 새로 고침을 중지하고, 9월 말에 종료되며 모든 카운트는 점진적으로 0으로 줄어듭니다. | — |
 | | [!UICONTROL Packages] | [!UICONTROL Activate Custom Flighting] 옵션을 사용하도록 설정한 경우 패키지 설정에 &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot;에 대한 옵션이 포함됩니다. 이 옵션을 활성화하면 이전 항공편의 남은 예산이 다음 항공편의 기존 예산에 자동으로 추가됩니다. 자동 롤오버 옵션을 선택하면 [!UICONTROL Rollover] 열을 수동으로 편집할 수 없습니다.<br><br>[!UICONTROL Packages] 보기 및 [패키지 이름] > [!UICONTROL Flights] 보기에서 현재 비행 목표를 표시하는 &quot;[!UICONTROL Interval Goal]&quot; 열에 롤오버 예산이 포함됩니다. | &quot;[패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)&quot;을(를) 참조하십시오. |
