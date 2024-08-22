@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 14e3499c78bc45f86bbd61e6b081af8c26ecbea3
+source-git-commit: eec7bdce1a91094fe78a839084253a3dbb8a72a2
 workflow-type: tm+mt
-source-wordcount: '4089'
+source-wordcount: '4093'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024년 8월 22일 | [!UICONTROL Custom Reports] | 다음과 같은 사용자 지정 보고서 기능 및 개선 사항이 릴리스되었습니다.<ul><li>[!UICONTROL Reports] > [!UICONTROL Custom Reports] 보기가 다시 디자인되었습니다.<ul><li>이제 열에는 &quot;[!UICONTROL Status]&quot;, &quot;[!UICONTROL Report Run]&quot;(2024년 8월 22일부터 보고서가 트리거된 날짜가 표시됨), &quot;[!UICONTROL Recurrence]&quot;, &quot;[!UICONTROL Created By]&quot; 및 &quot;[!UICONTROL Download Report]&quot;(지난 4개월 동안 모든 보고서 인스턴스를 즉시 다운로드할 수 있도록 &quot;[!UICONTROL Download]&quot; 버튼 사용)이 포함됩니다.</li><li>보고서가 반복인지 일회인지 여부, 보고서 유형, 대상 유형 및 보고서 작성자 상태 별로 목록을 필터링할 수 있습니다. 기본적으로 사용자가 만든 보관되지 않은 모든 보고서가 나열되며 가장 최근의 보고서가 맨 위에 표시됩니다.</li><li>이제 보고서 이름 옆에 있는 **[!UICONTROL …]**&#x200B;을(를) 클릭하여 각 보고서에 대한 빠른 작업 단추(예: [!UICONTROL Copy] 및 [!UICONTROL Delete])를 사용할 수 있습니다.</li></ul><li>이제 보고서 예약 옵션은 개별 대상 수준이 아닌 보고서 수준에서 사용할 수 있습니다. 보고서 설정에서 이제 &quot;[!UICONTROL Report run schedule]&quot; 섹션의 맨 위 근처에서 일정 설정을 사용할 수 있습니다. 개별 대상에 대해 기존 일정이 다른 이전 보고서를 편집하는 경우 일정을 설정하라는 메시지가 표시되고 일정이 모든 기존 대상에 대한 기존 일정을 대체한다는 메시지가 표시됩니다.</li></ul> | &quot;[보고서 정보](/help/dsp/reports/report-about.md)&quot; 및 &quot;[보고서 설정](/help/dsp/reports/report-settings.md)&quot;을 참조하십시오. |
+| 2024년 8월 22일 | [!UICONTROL Custom Reports] | 다음과 같은 사용자 지정 보고서 기능 및 개선 사항이 릴리스되었습니다.<ul><li>[!UICONTROL Reports] > [!UICONTROL Custom Reports] 보기가 다시 디자인되었습니다.<ul><li>이제 열에는 &quot;[!UICONTROL Status]&quot;, &quot;[!UICONTROL Report Run]&quot;(2024년 8월 22일부터 보고서가 트리거된 날짜가 표시됨), &quot;[!UICONTROL Recurrence]&quot;, &quot;[!UICONTROL Created By]&quot; 및 &quot;[!UICONTROL Download Report]&quot;(지난 4개월 동안 모든 보고서 인스턴스를 즉시 다운로드할 수 있도록 &quot;[!UICONTROL Download]&quot; 버튼 사용)이 포함됩니다.</li><li>보고서가 반복인지 일회인지 여부, 보고서 유형, 대상 유형 및 보고서 작성자 상태 별로 목록을 필터링할 수 있습니다. 기본적으로 사용자가 만든 보관되지 않은 모든 보고서가 나열되며 가장 최근의 보고서가 맨 위에 표시됩니다.</li><li>이제 보고서 이름 옆에 있는 **[!UICONTROL …]**&#x200B;을(를) 클릭하여 각 보고서에 대한 빠른 작업 단추(예: [!UICONTROL Copy] 및 [!UICONTROL Delete])를 사용할 수 있습니다.</li></ul><li>이제 보고서 예약 옵션은 개별 대상 수준이 아닌 보고서 수준에서 사용할 수 있습니다. 보고서 설정에서 이제 &quot;[!UICONTROL Report run schedule]&quot; 섹션의 맨 위 근처에서 일정 설정을 사용할 수 있습니다. 개별 대상에 대해 기존 일정이 다른 이전 보고서를 편집하는 경우 일정을 설정하라는 메시지가 표시되고 일정이 모든 기존 대상에 대한 기존 일정을 대체한다는 메시지가 표시됩니다.</li></ul> | &quot;[보고서 정보](/help/dsp/reports/report-about.md)&quot;, &quot;[사용자 지정 보고서 다운로드](/help/dsp/reports/report-download.md)&quot; 및 &quot;[보고서 설정](/help/dsp/reports/report-settings.md)&quot;을 참조하십시오. |
 | 2024년 8월 22일 | [!UICONTROL Packages] | 이제 검토를 위해 XLSX([!DNL Microsoft Excel] 스프레드시트) 형식으로 하나 이상의 패키지에 대한 설정을 다운로드할 수 있습니다. 스프레드시트에는 비행 정보가 포함된 별도의 탭이 포함됩니다. 그런 다음 두 탭의 대부분 필드를 변경한 다음 한 번에 모두 DSP에 다시 업로드할 수 있습니다. | &quot;[스프레드시트를 사용하여 패키지 설정 검토 및 편집](/help/dsp/campaign-management/packages/package-qa.md)&quot;을 참조하십시오. |
 | 2024년 8월 14일 | [!UICONTROL Placements] | DSP은 더 이상 [!DNL Audiences by Oracle (BlueKai)]개 세그먼트에 대한 세그먼트 수를 새로 고치지 않으며, 이는 9월 말에 종료되며 모든 카운트는 점진적으로 0으로 줄어듭니다. | — |
 | 2024년 7월 30일 | [!UICONTROL Placements] | 8월 14일부터 DSP에서는 [!DNL Audiences by Oracle (BlueKai)]개 세그먼트에 대한 세그먼트 카운트 새로 고침을 중지하고, 9월 말에 종료되며 모든 카운트는 점진적으로 0으로 줄어듭니다. | — |
