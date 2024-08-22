@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a4ab8bdeea2d15f14a7ef84c1055888ecc77014b
+source-git-commit: 9313b20b4bcdb001138f30d8fa82d2b22be19831
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
