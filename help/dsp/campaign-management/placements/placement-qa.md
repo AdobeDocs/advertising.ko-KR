@@ -3,16 +3,16 @@ title: 스프레드시트를 사용하여 배치 설정 검토 및 편집
 description: 스프레드시트를 사용하여 주요 배치 설정을 검토하고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # 스프레드시트를 사용하여 배치 설정 검토 및 편집
 
-하나 이상의 배치 또는 캠페인의 모든 배치에 대한 설정을 XLSX(Excel 스프레드시트) 형식으로 다운로드하여 검토할 수 있습니다. 이 기능을 사용하여 다음과 같은 세부 사항을 신속하게 검토할 수 있습니다.
+하나 이상의 배치 또는 캠페인의 모든 배치에 대한 설정을 XLSX([!DNL Microsoft Excel] 스프레드시트) 형식으로 다운로드하여 검토할 수 있습니다. 이 기능을 사용하여 다음과 같은 세부 사항을 신속하게 검토할 수 있습니다.
 
 * 캠페인이 타겟팅하는 대상자입니다.
 * 배치가 게재를 시작할 때와 중단될 때.
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * 상단 메뉴 모음 오른쪽에서 ![작업](/help/dsp/assets/downloads.png)을 클릭합니다. 작업 옆에 있는 **[!UICONTROL Download]**&#x200B;을(를) 클릭합니다.
 
-   파일은 브라우저의 다운로드 폴더에 저장됩니다. 포함된 열 목록은 &quot;[다운로드한/업로드한 스프레드시트의 열](#qa-sheet-columns)&quot;을(를) 참조하십시오.
+   파일은 브라우저의 다운로드 폴더에 저장됩니다. 포함된 열의 목록은 &quot;[다운로드한/업로드한 스프레드시트의 배치 열](#qa-sheet-columns)&quot;을 참조하십시오.
 
 ## 하나 이상의 배치에 대한 다운로드 설정
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 일괄 작업 도구 모음에서 **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**&#x200B;을(를) 클릭합니다.
 
-파일은 브라우저의 다운로드 폴더에 자동으로 저장됩니다. 포함된 열 목록은 &quot;[다운로드한/업로드한 스프레드시트의 열](#qa-sheet-columns)&quot;을(를) 참조하십시오.
+파일은 브라우저의 다운로드 폴더에 자동으로 저장됩니다. 포함된 열의 목록은 &quot;[다운로드한/업로드한 스프레드시트의 배치 열](#qa-sheet-columns)&quot;을 참조하십시오.
 
 ## 캠페인의 모든 배치에 대한 설정 업로드
 

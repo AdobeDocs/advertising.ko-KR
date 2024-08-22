@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: b89da28d56cb80d105fd8bebd9c734dd5230c4c3
+source-git-commit: ad95e76ff5f2418a76ffad04b7d2bd176ceea726
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '920'
 ht-degree: 3%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 3%
    + 패키지 {#packages}
       + [패키지 관리 정보](/help/dsp/campaign-management/packages/package-about.md)
       + [패키지 만들기](/help/dsp/campaign-management/packages/package-create.md)
+      + [스프레드시트를 사용하여 패키지 설정 검토 및 편집](/help/dsp/campaign-management/packages/package-qa.md)
       + [패키지 편집](/help/dsp/campaign-management/packages/package-edit.md)
       + [패키지 복제](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [패키지에 배치 첨부](/help/dsp/campaign-management/packages/package-attach-placement.md)
