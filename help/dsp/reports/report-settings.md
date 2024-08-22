@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: a4ab8bdeea2d15f14a7ef84c1055888ecc77014b
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,51 @@ ht-degree: 0%
 
 **[!UICONTROL Report Type]** 보고서 유형: *[!UICONTROL Custom]*(사용 가능한 옵션 포함), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* 또는 *[!UICONTROL Household Conversions]*.
 
-## [!UICONTROL Apply Filters] 섹션
+## [!UICONTROL Report range] 섹션
+
+이 섹션은 보고서에 포함되는 데이터를 결정합니다. 보고서 일정에 대한 날짜를 설정하려면 &quot;[!UICONTROL Report run schedule]&quot; 섹션을 참조하십시오.
 
 **[!UICONTROL Timezone]:** 보고를 위한 시간대입니다.
 
 **[!UICONTROL Observe Daylight Savings Time]:**&#x200B;은(는) 보고된 시간에 일광 절약 시간을 고려합니다.
 
-**\[Date Range\]:** 데이터를 생성할 날짜 범위입니다. 사용 가능한 일 수는 보고서 및 선택한 차원에 따라 다릅니다. 다음 중 하나를 선택합니다.
+**범위:** 데이터를 생성할 날짜 범위입니다. 사용 가능한 일 수는 보고서 및 선택한 차원에 따라 다릅니다. 다음 중 하나를 선택합니다.
 
-* **[!UICONTROL Previous N days]:** 오늘 이전 특정 일수의 데이터를 포함합니다.
-
-* **[!UICONTROL Custom]:** 특정 시작 날짜와 종료 날짜 사이의 데이터를 포함합니다. 전날까지 데이터를 보고하려면 **[!UICONTROL Present]**&#x200B;을(를) 선택하십시오.
+* **[!UICONTROL Last Calendar Week]:** 이전 일정 주에 대한 데이터를 포함합니다.
 
 * **[!UICONTROL Last Calendar Month]:** 이전 달력의 데이터를 포함합니다.
+
+* **[!UICONTROL Custom Range]:** 특정 시작 날짜와 종료 날짜 사이의 데이터를 포함합니다. 전날까지 데이터를 보고하려면 **[!UICONTROL Present]**&#x200B;을(를) 선택하십시오.
+
+## [!UICONTROL Report run schedule] 섹션
+
+이 섹션은 보고서가 실행되는 날짜를 결정합니다. 보고서 데이터를 포함할 날짜를 설정하려면 &quot;[!UICONTROL Report range]&quot; 섹션을 참조하십시오.
+
+**\[Schedule\]:** 보고서 생성 시기:
+
+* *[!UICONTROL Immediately]*: 보고서를 보고서 큐에 즉시 추가합니다.
+
+  >[!NOTE]
+  >
+  >[!UICONTROL Reports] 보기에서 [언제든지 사용자 지정 보고서를 실행](report-run-now.md)할 수도 있습니다.
+
+* *[!UICONTROL On]\&lt;날짜\>:* 계정의 시간대에서 09:00까지 완료하도록 지정된 날짜에 보고서를 실행합니다.
+
+* *[!UICONTROL Recurring]:* 지정한 기간 동안 일정에 따라 보고서를 실행합니다.
+
+   * **\[Schedule\]:** 보고서 실행 빈도:
+
+      * *매일* - N일마다 보고서를 실행합니다. 예를 들어 보고서를 2주(14일)마다 실행하려면 이 옵션을 선택하고 **14**&#x200B;을(를) 입력하십시오.
+
+      * *주별* 보고서를 지정된 요일에 실행합니다. 예를 들어 매주 월요일과 금요일에 보고서를 실행하려면 이 옵션을 선택하고 **월요일**&#x200B;과 **금요일** 옆에 있는 확인란을 선택하십시오.
+
+      * *월별* - 해당 월의 특정 숫자(1일 ~ 30일)에 보고서를 실행합니다. 예를들어 매월 첫째 날에 보고서를 실행하고 이 옵션을 선택한 다음 **1**&#x200B;을(를) 입력합니다.
+
+   * **시작**: 보고서를 실행할 수 있는 첫 번째 날짜입니다. 지정된 일정에 따라 첫 번째 보고서 인스턴스가 이 날짜 이후에 발생할 수 있습니다.
+
+   * **까지**: 보고서 만료일로, 최대 4개월 후에 만료될 수 있습니다. 보고서가 만료되기 전에 지정된 모든 이메일 대상은 만료일 7일 1일 전에 이메일 알림을 받습니다. 보고서를 더 오래 유지하려면 이 날짜를 변경하십시오.
+
+## [!UICONTROL Apply Filters] 섹션
 
 **[!UICONTROL Add Filters]:**(선택 사항) 차원을 보고서에 열로 포함할지 여부에 관계없이 데이터를 필터링할 추가 차원입니다. 사용 가능한 필터는 보고서 유형에 따라 다르며 *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* 및 *[!UICONTROL Video Duration]*&#x200B;을(를) 포함할 수 있습니다.
 
@@ -120,17 +152,23 @@ ht-degree: 0%
 
 ## [!UICONTROL Add Report Destinations] 섹션
 
-**[!UICONTROL Destination Type]:** 다음 대상 유형 중 하나를 선택하십시오.
-
-* *[!UICONTROL S3]:* 완료된 보고서를 하나 이상의 [!DNL Amazon Simple Storage Service]([!DNL Amazon S3]) 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에 지정해야 합니다.
-* *[!UICONTROL sFTP]:* 완료된 보고서를 하나 이상의 SFTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에 지정해야 합니다.
-* *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에 지정해야 합니다.
-* *[!UICONTROL FTP SSL](현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에 지정해야 합니다.
-* *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서나 알림을 보낼 전자 메일 주소를 지정합니다.
+**[!UICONTROL Destination Type]:** 완료된 보고서 및 오류 알림을 전달할 위치입니다. 보고서를 저장하면 대상 유형을 변경할 수 없습니다.
 
 >[!NOTE]
 >
-> 보고서를 저장하면 대상 유형을 변경할 수 없습니다.
+>완료된 보고서는 항상 [!UICONTROL Reports] > [!UICONTROL Custom Reports] 보기에서 다운로드할 수 있습니다.
+
+* *[!UICONTROL None]:* 보고서나 알림을 배달하지 않습니다.
+
+* *[!UICONTROL S3]:* 완료된 보고서를 하나 이상의 [!DNL Amazon Simple Storage Service]([!DNL Amazon S3]) 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+
+* *[!UICONTROL sFTP]:* 완료된 보고서를 하나 이상의 SFTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+
+* *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+
+* *[!UICONTROL FTP SSL](현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+
+* *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서나 알림을 보낼 전자 메일 주소를 지정합니다.
 
 **[!UICONTROL Email]:**(전자 메일 대상 유형만 해당) 각 주소에 주소를 입력하고 **+**&#x200B;을(를) 클릭합니다.
 
@@ -148,26 +186,13 @@ ht-degree: 0%
 
       이제 기존 대상 목록에서 새 대상을 사용할 수 있으며, 원할 경우 보고서에 추가할 수 있습니다.
 
-**[!UICONTROL Frequency]:**(각 [!UICONTROL Destination Name]에 대해) 보고서를 대상으로 보내는 빈도: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]* 또는 *[!UICONTROL Monthly]*.
-
-보고서를 생성할 **[!UICONTROL Start Day]:**(*[!UICONTROL Weekly]* 또는 *[!UICONTROL Monthly]*&#x200B;의 [!UICONTROL Frequency]을(를) 가진 각 [!UICONTROL Destination Name]에 대해). 주별 보고서의 경우 요일을 선택합니다. 월별 보고서의 경우 해당 월의 숫자 일을 선택합니다.
-
-## [!UICONTROL Save Report] 섹션
-
-**[!UICONTROL When to Generate]:** 보고서 생성 시기: *[!UICONTROL On Schedule]* 또는 *[!UICONTROL Run Now]*. 예약된 보고서는 계정의 시간대에서 09:00까지 제공됩니다.
-
-**[!UICONTROL End Date]:** 최대 4개월 후의 보고서 만료일입니다. 보고서가 만료되기 전에 지정된 모든 이메일 수신자는 만료 날짜로부터 7일 1일 전에 이메일 경고를 수신하게 됩니다. 보고서를 더 오래 유지하려면 보고서 설정에서 만료 날짜를 변경합니다.
-
->[!NOTE]
->
->[!UICONTROL Reports] 보기에서 [언제든지 사용자 지정 보고서를 실행](report-run-now.md)할 수 있습니다.
-
 >[!MORELIKETHIS]
 >
 >* [사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)
 >* [사용자 지정 보고서 만들기](/help/dsp/reports/report-create.md)
 >* [사용자 지정 보고서 복제](/help/dsp/reports/report-copy.md)
 >* [사용자 지정 보고서 편집](/help/dsp/reports/report-edit.md)
+>* [사용자 지정 보고서 다운로드](/help/dsp/reports/report-download.md)
 >* [사용자 지정 보고서 실행](/help/dsp/reports/report-run-now.md)
 >* [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
 >* [보고서 대상 정보](/help/dsp/reports/report-destinations/report-destination-about.md)

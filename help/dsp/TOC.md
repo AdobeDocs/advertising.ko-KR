@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: ad95e76ff5f2418a76ffad04b7d2bd176ceea726
+source-git-commit: 281ab6a76b34b718281e5e656e4b29ecaf608bd3
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '924'
 ht-degree: 3%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 3%
    + [사용자 지정 보고서 편집](/help/dsp/reports/report-edit.md)
    + [사용자 지정 보고서 삭제](/help/dsp/reports/report-delete.md)
    + [사용자 지정 보고서 실행](/help/dsp/reports/report-run-now.md)
+   + [사용자 지정 보고서 다운로드](/help/dsp/reports/report-download.md)
    + [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
    + [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
    + [세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md)

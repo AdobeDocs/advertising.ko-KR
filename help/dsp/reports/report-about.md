@@ -3,9 +3,9 @@ title: 사용자 정의 보고서 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,15 @@ ht-degree: 0%
 사용자 지정 보고서를 사용하면 캠페인 차원(광고주, 배치, 사이트 또는 지역 등)과 사용자에게 가장 중요한 지표를 사용하여 보고서 데이터의 콘텐츠와 게재를 사용자 지정할 수 있습니다. 다음 중 하나를 수행할 수 있습니다.
 
 * 세분화된 수준에서 캠페인 성과 보고서를 완전히 구성합니다.
+
 * 사전 구성된 보고서 템플릿 중에서 선택하고 선택적으로 추가로 사용자 지정합니다.
 
-보고서를 한 번 생성하거나 지정된 시간대의 03:00에 일별, 주별 또는 월별 생성되도록 예약할 수 있습니다. 보고서가 생성되면 지정된 각 전자 메일 받는 사람 또는 다음 유형의 연결된 [보고서 대상](/help/dsp/reports/report-destinations/report-destination-about.md)에 전달됩니다.
+보고서를 한 번 생성하거나 지정된 기준(예: 15일마다 또는 매월 1일)에 따라 지정된 시간대의 03:00에 매일, 매주 또는 매월 생성되도록 예약할 수 있습니다. 보고서가 생성되면 [!UICONTROL Reports] > [!UICONTROL Custom Reports] 또는 다음 유형의 연결된 [보고서 대상](/help/dsp/reports/report-destinations/report-destination-about.md)에서 다운로드할 수 있습니다.
 
 * [!DNL Amazon Simple Storage Service]([!DNL S3])
 * FTP
+* FTP SSL <!-- (in beta) -->
 * SFTP
-* FTP SSL (Beta)
 
 >[!NOTE]
 >
@@ -84,9 +85,30 @@ ht-degree: 0%
 
 [!UICONTROL Settings] > [!UICONTROL Account]의 계정 설정은 a) 계정에 데이터를 사용할 수 있는 다른 계정과 b) 계정의 데이터에 액세스할 수 있는 다른 계정을 나타냅니다.
 
+## [!UICONTROL Custom Reports] 보기
+
+[!UICONTROL Reports] > [!UICONTROL Custom Reports]에는 생성된 보고서, 향후 생성이 예약된 보고서 및 실패한 보고서를 포함하여 기존 보고서가 나열됩니다. &quot;[!UICONTROL Report Run]&quot; 열은 2024년 8월 22일부터 보고서가 트리거된 날짜를 표시합니다. 기본적으로 사용자가 만든 보관되지 않은 모든 보고서가 나열되며 가장 최근의 보고서가 맨 위에 표시됩니다. 보고서가 반복인지 일회인지 여부, 보고서 유형, 대상 유형 및 보고서 작성자 상태 별로 목록을 추가로 필터링할 수 있습니다.
+
+새 사용자 지정 보고서를 만들거나, 기존 보고서를 편집하거나, 복제하여 새 보고서를 만들거나, 보고서를 즉시 실행하고, 지난 4개월 동안의 보고서 인스턴스를 다운로드하고, 보고서를 삭제할 수 있습니다.
+
+## 보고서 상태 {#custom-report-status}
+
+* **[!UICONTROL Yet to start]:** 보고서가 실행된 적이 없습니다.
+
+* **[!UICONTROL Report generating]:** 보고서를 만드는 중입니다.
+
+* **[!UICONTROL Ready to download]:**(반복 보고서만 해당) 하나 이상의 보고서 인스턴스를 다운로드할 수 있으며 더 많은 보고서 인스턴스가 예약되어 있습니다.
+
+* **[!UICONTROL Failed]:** 보고서 작업이 실패했습니다. 보고서 견인에 대해 개별 보고서 인스턴스가 실패한 이유를 보려면 [!UICONTROL Download] 옆에 있는 ![아래쪽 화살표](/help/dsp/assets/chevron-down.png "아래쪽 화살표")를 클릭하십시오. 실패한 보고서 작업은 오류 아이콘(![오류 표시기](/help/dsp/assets/indicator-critical.png "오류 표시기"))으로 표시됩니다. 오류 설명을 보려면 커서를 오류 아이콘 위에 놓습니다.
+
+* **[!UICONTROL Completed]:** 반복되지 않는 보고서의 경우 보고서가 완료됩니다. 반복 보고서의 경우 모든 보고서 인스턴스가 완료되었습니다. 지난 4개월 동안 완료된 모든 보고서를 다운로드할 수 있습니다.
+
+* **[!UICONTROL Archived]:** 보고서가 보관되어 있으므로 실행할 수 없습니다. 이 상태는 보고서에 대해 보고서 생성에 여러 번 실패하는 경우 설정됩니다. 현재 사용자 인터페이스에서는 이 상태를 설정할 수 없습니다.
+
 >[!MORELIKETHIS]
 >
 >* [사용자 지정 보고서 만들기](/help/dsp/reports/report-create.md)
+>* [사용자 지정 보고서 다운로드](/help/dsp/reports/report-download.md)
 >* [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
 >* 가족 보고서 관련 [FAQ](/help/dsp/reports/faq-household-report.md)
 >* [Campaign Management 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
