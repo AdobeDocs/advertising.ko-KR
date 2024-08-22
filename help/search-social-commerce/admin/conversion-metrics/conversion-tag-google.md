@@ -3,9 +3,9 @@ title: ' [!DNL Google Ads]에 대한 변환 태그 만들기'
 description: ' [!DNL Google Ads] 전환 태그를 만드는 방법을 알아봅니다.'
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 **[!UICONTROL View Through Conversion Window]:** 사용자가 광고를 본 후 뷰스루 전환이 기록된 최대 일 수입니다. 검색, 표시 및 쇼핑 캠페인의 경우 기간은 1~90일 사이일 수 있습니다. 숫자를 선택하거나 **[!UICONTROL Custom]**&#x200B;을(를) 선택하고 숫자를 입력하세요.
 
-**[!UICONTROL Attribution Model]:** [각 광고 상호 작용에 필요한 크레딧](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]*, *[!UICONTROL Last click]*, *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]* 또는 *[!UICONTROL Position based]*.
+**[!UICONTROL Attribution Model]:** [각 광고 상호 작용에 필요한 크레딧의 양](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]* 또는 *[!UICONTROL Last click]*. **참고:** 이전에 현재 지원되지 않는 *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]* 또는 *[!UICONTROL Position based]* 모델을 사용했던 전환 작업에서 이제 *[!UICONTROL Data driven]* 모델을 사용합니다.
 
 >[!MORELIKETHIS]
 >
