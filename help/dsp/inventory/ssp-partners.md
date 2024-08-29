@@ -3,9 +3,9 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 개방형 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: e9001913f7b5a18ad625f32230199ee7209e1a64
+source-git-commit: 311200b84c4f2d037ecc9cc17ba49495bd523464
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 자�
 | [!DNL TripleLift] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 글로벌 | 미국 달러 | 기본 디스플레이 |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 글로벌 | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
 | [!DNL Triton] |  | Adobe Advertising | PG 지원 | 글로벌 | 미국 달러 | 오디오 데스크탑 및 모바일 |
-| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | 미국 + EMEA | 미국 달러 | 비디오 데스크탑, 모바일 및 CTV |
+| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | 미국 + EMEA | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
 | [!DNL Yahoo] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 글로벌 | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
 
 >[!MORELIKETHIS]
