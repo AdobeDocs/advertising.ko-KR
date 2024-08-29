@@ -3,9 +3,9 @@ title: Adobe Analytics [!DNL eVars]  및 prop에서 전환 지표 만들기
 description: ' [!DNL eVar] 및  [!DNL prop] 수준 데이터를 사용하여 사용자 지정 성공 이벤트 지표를 구성합니다.'
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: a0d5bc1791f5d05e2cbdeab58e1943f4d494b53f
+source-git-commit: db815958b039508b005f4be60561ddc4656da86e
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [!DNL Analytics] 관리자 또는 다른 사용자가 다음 작업 대부분을 수행해야 합니다. 지원이 필요한 경우 `adcloud_support@adobe.com`의 DSP 기술 지원 팀(DSP 사용자) 또는 Adobe 계정 팀(검색, 소셜 및 Commerce 사용자)에 문의하십시오.
 
-1. [!DNL Analytics]에서 [자리 표시자 성공 이벤트를 만듭니다](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html?lang=en).
+1. [!DNL Analytics]에서 [자리 표시자 성공 이벤트를 만듭니다](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
 
    다음 추가 매개 변수를 사용하십시오.
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 지표를 사용할 수 있게 되면 이를 사용하여 목표를 만든 다음 검색, 소셜 및 Commerce 포트폴리오에 할당하거나 DSP 패키지에 대한 [사용자 지정 목표](/help/dsp/optimization/custom-goal.md)(으)로 사용할 수 있습니다.
 
-목표 생성에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 &quot;목표&quot;에 대한 최적화 안내서 장을 참조하십시오.
+검색, 소셜 및 Commerce 내에서 사용할 수 있는 &quot;목표&quot;에 대한 최적화 안내서 장을 참조하십시오.
 
 >[!MORELIKETHIS]
 >
