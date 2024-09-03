@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
+source-git-commit: 2c85ae5ff14349603ea38b2d478e4ab723800bea
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1729'
 ht-degree: 2%
 
 ---
@@ -233,11 +233,12 @@ ht-degree: 2%
             + [피드에서 생성된 캠페인 데이터를 광고 네트워크에 게시](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
             + [재고 피드 데이터에 대한 게시 작업 중지](/help/search-social-commerce/campaign-management/inventory-feeds/stop-job.md)
             + [피드에서 생성된 데이터 상태](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-status.md)
-      + 고유한 워크플로우를 사용하여 캠페인 및 광고 구현{#special-campaign-types}
-         + [ [!DNL Google Ads] 동적 검색 광고 구현](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md)
-         + [ [!DNL Google Ads] 성과 최대 캠페인 구현](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md)
-         + [ [!DNL Google Ads] 쇼핑 캠페인 구현](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
-         + [ [!DNL Microsoft Advertising] 쇼핑 캠페인 구현](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+      + 고유한 워크플로우를 사용하여 캠페인, 광고 및 전환 구현{#special-workflows}
+         + [리드에 대해  [!DNL Google Ads] 향상된 전환 구현](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
+         + [ [!DNL Google Ads] 동적 검색 광고 구현](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
+         + [ [!DNL Google Ads] 성과 최대 캠페인 구현](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
+         + [ [!DNL Google Ads] 쇼핑 캠페인 구현](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [ [!DNL Microsoft Advertising] 쇼핑 캠페인 구현](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
       + [수동으로 광고 네트워크 데이터 동기화](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [포트폴리오에 캠페인 할당](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
    + [포트폴리오에서 캠페인 제거](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
@@ -309,6 +310,7 @@ ht-degree: 2%
                + [[!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
                + [[!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
                + [[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
+               + [[!UICONTROL Google Asset Group Performance Report]](/help/search-social-commerce/reports/management/specialty/google-asset-group-performance-report.md)
                + [[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
                + [[!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
                + [[!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
@@ -383,7 +385,7 @@ ht-degree: 2%
       + [클릭 추적 URL 디코딩](/help/search-social-commerce/tools/click-tracking-url-decode.md)
       + [Adobe Advertising 변환 태그 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + 광고 네트워크 {#upload-ad-networks}에 전환 데이터를 업로드하는 중
-      + [전환 지표를  [!DNL Google Ads]에 업로드](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+      + [검색, 소셜 및 Commerce 추적 전환 지표를  [!DNL Google Ads]에 업로드합니다.](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [광고 네트워크에 목표 업로드 활성화](/help/search-social-commerce/tools/objective-upload-to-networks.md)
    + [!DNL Naver] 추적 전용 계정 {#generic-tracking}에 대한 지표 업로드 중
       + [ [!DNL Naver] 추적 전용 계정에 대한 트래픽 및 전환 지표 업로드](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
@@ -408,7 +410,10 @@ ht-degree: 2%
       + [광고주에 대해 추적된 전환 지표 보기](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
       + [관리 보기 및 보고서에서 사용할 수 있는 전환 지표 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [전환 지표에 대한 표시 이름 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
-      + 전환 태그 {#conversion-tags} 관리
+      + 광고 네트워크별 전환 태그 및 전환 작업 관리 {#network-conversions}
          + [ [!DNL Google Ads]에 대한 변환 태그 만들기](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+         + 전환 작업 {#conversion-actions} 관리
+            + [ [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+            + [향상된 전환을 위해 오프라인 전환 데이터 업로드](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [도움말 보기](get-help.md)
 + [용어집](glossary.md)

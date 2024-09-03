@@ -3,9 +3,9 @@ title: 보고서에 사용된 데이터
 description: 데이터 보기 및 사용자 지정 보고서에서 사용할 수 있는 다양한 유형의 데이터에 대해 알아봅니다.
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: 840c7f6295b73a784725c301a78ae89c827fd45e
+source-git-commit: f357d9a9ec0f8b38fbc43726265521e6fd77c7d0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -45,15 +45,16 @@ ht-degree: 0%
 보고서에 대해 지정하는 속성 규칙에 따라 다음 날짜에 각 보고서 유형의 데이터를 사용할 수 있습니다.
 
 | 보고서 그룹 | 보고서 | 데이터를 사용할 수 있는 날짜 |
-|---|---|---|
+| --- | --- | --- |
 | [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 2021년 5월 15일부터 시작.<br><br><b>예외:</b> 강조 지표 데이터는 2022년 9월 8일부터 사용할 수 있습니다. |
 | | 다른 모든 [!UICONTROL Basic Reports] | 지난 36개월.<br><br><b>예외:</b> 강조 지표 데이터는 2022년 9월 8일부터 사용할 수 있습니다. |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | 이전 45일. |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | 이전 두 달(2)과 현재 달의 더하기. |
 | [!UICONTROL Assist Reports] | 모두 | 지난 18개월. |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | 이전 연도. |
-| | [!UICONTROL RSA Assets Report] | 2022년 8월 10일부터 시작. |
+| | [!UICONTROL Google Asset Group Performance Report] | 제한 없음 |
 | | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | 지난 180일. |
+| | [!UICONTROL RSA Assets Report] | 2022년 8월 10일부터 시작. |
 | | 다른 모든 [!UICONTROL Specialty Reports] | 이전 2개월. |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 지난 18개월. |
 | [!UICONTROL Change History Report] | — | 이전 31일. |

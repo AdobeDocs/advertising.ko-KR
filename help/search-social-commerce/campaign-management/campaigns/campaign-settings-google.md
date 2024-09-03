@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: ' [!DNL Google Ads] 캠페인에 대한 설정을 참조합니다.'
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 760d46182a61588748cfd5031168266ba53c9dcc
+source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2503'
 ht-degree: 0%
 
 ---
@@ -347,7 +347,9 @@ ht-degree: 0%
 >[!NOTE]
 >대상자 신호가 [캠페인 수준 및 광고 그룹 수준의 대상자 대상](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)과(와) 다릅니다.
 
-**[!UICONTROL Add new asset group]:** 다른 자산 그룹을 지정할 수 있습니다.
+**[!UICONTROL Primary Status]:**(성과 최대 캠페인의 기존 에셋 그룹에 대한 읽기 전용 필드) 에셋 그룹이 전체 용량으로 제공되거나 제공되지 않는 이유. 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다. 값에는 *적격,* *제한,* *NOT_적격,* *일시 중지됨,* *보류 중,* *제거됨,* *알 수 없음,* 또는 *지정되지 않음.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->&#x200B;이 포함될 수 있습니다.
+
+**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨}이 포함될 수 있습니다.*
 
 ## [!UICONTROL Conversion Goals]
 
