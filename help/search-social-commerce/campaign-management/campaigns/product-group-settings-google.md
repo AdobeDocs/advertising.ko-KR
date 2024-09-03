@@ -3,7 +3,7 @@ title: '[!DNL Google Ads] 제품 그룹 설정'
 description: ' [!DNL Google Ads] 쇼핑 제품 그룹의 설정을 참조합니다.'
 exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -52,4 +52,4 @@ ht-degree: 0%
 >* [쇼핑 제품 그룹 정보](product-group-about.md)
 >* [쇼핑 제품 그룹 관리](product-group-manage.md)
 >* [쇼핑 캠페인 제품 필터](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [쇼핑 캠페인 구현 [!DNL Google Ads] 2}](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [쇼핑 캠페인 구현 [!DNL Google Ads] 2}](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)

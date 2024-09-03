@@ -3,9 +3,9 @@ title: 광고 네트워크 관리자 계정의 자격 증명 관리
 description: ' [!DNL Google Ads] 관리자 계정의 자격 증명을 제공하는 방법을 알아봅니다.'
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -59,5 +59,5 @@ Search, Social 및 Commerce에서 계정 간 전환을 업로드할 [!DNL Google
 >[!MORELIKETHIS]
 >
 >* [광고 네트워크에 목표를 업로드할 수 있도록 설정](/help/search-social-commerce/tools/objective-upload-to-networks.md)
->* [전환 지표를  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)에 업로드
+>* [검색, 소셜 및 Commerce에서 추적한 전환 지표를  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)에 업로드합니다.
 >* [알림 설정 편집](/help/search-social-commerce/notifications/notification-edit.md)

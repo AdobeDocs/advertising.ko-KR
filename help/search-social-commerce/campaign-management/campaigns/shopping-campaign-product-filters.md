@@ -3,7 +3,7 @@ title: 쇼핑 캠페인 제품 필터
 description: 쇼핑 제품 그룹에 사용할 수 있는 제품 필터를 참조하십시오.
 exl-id: 91695fa8-6e5e-42a7-a84a-0b46b9f4dfcc
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -27,8 +27,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [쇼핑 캠페인 구현 [!DNL Google Ads] 2}](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
->* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [쇼핑 캠페인 구현 [!DNL Google Ads] 2}](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
 >* [쇼핑 제품 그룹 정보](product-group-about.md)
 >* [쇼핑 제품 그룹 관리](product-group-manage.md)
 >* [[!DNL Google Ads] 제품 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)

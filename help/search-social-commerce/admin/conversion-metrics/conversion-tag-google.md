@@ -3,9 +3,9 @@ title: ' [!DNL Google Ads]에 대한 변환 태그 만들기'
 description: ' [!DNL Google Ads] 전환 태그를 만드는 방법을 알아봅니다.'
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
+source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 기존 전환에 대한 전환 태그를 생성하려면 광고 네트워크의 편집기를 사용하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다. 그러면 **[!UICONTROL Summary]** 탭이 열립니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭합니다.
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 **[!UICONTROL Select an Account]:** 적용 가능한 Google 광고 계정입니다.
 
-**[!UICONTROL Type of Conversion]:** 추적 전환 유형: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* 또는 *[!UICONTROL Clicks to your number on your mobile website]*.
+**[!UICONTROL Type of Conversion]:** 추적 전환 유형: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* 또는 *[!UICONTROL Clicks to your number on your mobile website]*. **참고:** *[!UICONTROL Import conversion]*&#x200B;은(는) 다른 용도로 사용됩니다. &quot;[잠재 고객에 대한 전환 작업 만들기 [!DNL Google Ads] 향상된 전환](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)&quot;를 참조하세요.&quot;
 
 **[!UICONTROL Conversion Name]:** 전환 지표에 대한 고유한 이름입니다.
 
@@ -68,4 +68,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [향상된 전환을 위해 오프라인 전환 데이터 업로드](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 >* [[!DNL Google Ads] 검색, 소셜 및 Commerce의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)

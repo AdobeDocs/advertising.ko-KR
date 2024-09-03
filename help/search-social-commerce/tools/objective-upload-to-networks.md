@@ -3,9 +3,9 @@ title: 광고 네트워크에 목표 업로드 활성화
 description: 하이브리드 포트폴리오의 목표를  [!DNL Google Ads] 및 [!DNL Microsoft Advertising]에 업로드하는 방법을 알아봅니다.
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: f491537c2dd56716abe0ab4fa8c26b8558dca664
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -84,4 +84,4 @@ GGL_Lead 는 Google 광고 추적 지표이므로 계산/업로드에 포함되�
 >[!MORELIKETHIS]
 >
 >* [광고주의 전환 지표 관리 정보](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
->* [전환 지표를  [!DNL Google Ads]](conversion-metrics-upload-to-google.md)에 업로드
+>* [검색, 소셜 및 Commerce에서 추적한 전환 지표를  [!DNL Google Ads]](conversion-metrics-upload-to-google.md)에 업로드합니다.

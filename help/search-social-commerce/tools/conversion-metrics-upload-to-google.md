@@ -1,18 +1,18 @@
 ---
-title: 전환 지표를  [!DNL Google Ads]에 업로드
+title: 검색, 소셜 및 Commerce 추적 전환 지표를  [!DNL Google Ads]에 업로드합니다.
 description: 검색, 소셜 및 Commerce 추적 전환 지표를  [!DNL Google Ads]에 업로드하는 방법을 알아봅니다.
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-# 전환 지표를 [!DNL Google Ads]에 업로드
+# 검색, 소셜 및 Commerce에서 추적한 전환 지표를 [!DNL Google Ads]에 업로드합니다.
 
-[!DNL Google Ads]개의 계정만 있는 *광고주*
+*계정 [!DNL Google Ads]개와 Adobe Advertising 전환 추적만 있는 광고주*
 
 검색, 소셜 및 Commerce은 선택적으로 Adobe Advertising 전환 추적 서비스를 사용하는 [!DNL Google Ads] 캠페인에 대해 추적하는 모든 전환 지표를 [!DNL Google Ads]에 업로드할 수 있습니다. 이 옵션을 사용하면 하이브리드 최적화에 변환을 사용할 수 없습니다. 하이브리드 최적화에 Adobe 전환을 사용하려면 &quot;[광고 네트워크에 목표 업로드 사용](objective-upload-to-networks.md)&quot;을 참조하세요.
 

@@ -3,7 +3,7 @@ title: 광고 네트워크 계정 및 캠페인 구현 개요
 description: 광고 네트워크 계정 설정, 동기화 및 관리와 관련된 작업에 대해 알아봅니다.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Adobe은 각 광고주와 함께 작동하여 광고 네트워크 계정 및 캠
 
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo! 일본 광고 및 Yandex 계정만 해당) 개별 구성 요소에 대한 데이터를 인터페이스에 직접 입력합니다. 대부분의 캠페인 및 광고 유형의 경우 캠페인 수준, 광고 그룹 수준 및 개별 키워드, 배치 및 광고 수준에서 데이터를 만들 수 있습니다.
 
-      그러나 일부 캠페인 및 광고 유형에는 고유한 워크플로우가 필요합니다. [[!DNL Microsoft Advertising] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md), [[!DNL Google Ads] 동적 검색 광고](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md), [[!DNL Google Ads] 성과 최대 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md) 및 [[!DNL Google Ads] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md) 설정에 대한 지침을 참조하십시오.
+      그러나 일부 캠페인 및 광고 유형에는 고유한 워크플로우가 필요합니다. [[!DNL Microsoft Advertising] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md), [[!DNL Google Ads] 동적 검색 광고](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md), [[!DNL Google Ads] 성과 최대 캠페인](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md) 및 [[!DNL Google Ads] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md) 설정에 대한 지침을 참조하십시오.
 
    1. ([!DNL Naver] 추적 전용 계정 전용) 데이터가 포함된 [일괄 시트 파일](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)을 업로드하여 [!DNL Naver]에 게시하지 않고 검색, 소셜 및 Commerce에서 기존 캠페인, 광고 그룹 및 키워드를 복제합니다.
 

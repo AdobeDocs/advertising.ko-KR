@@ -3,7 +3,7 @@ title: 쇼핑 제품 그룹 기본 정보
 description: 쇼핑 캠페인의 쇼핑 제품 그룹에 대해 알아봅니다.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 동일한 제품이 둘 이상의 캠페인에 포함된 경우 광고 네트워크는 먼저 캠페인 우선 순위를 사용하여 광고 경매에 적합한 캠페인(및 관련 입찰)을 결정합니다. 모든 캠페인이 동일한 우선 순위를 갖는 경우 입찰이 가장 높은 캠페인이 적격입니다.
 
-[!DNL Google] 쇼핑 캠페인 및 광고에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 3}&quot; 및 [Google 광고 설명서](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1)를 참조하십시오. ](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md) [!DNL Microsoft] 쇼핑 캠페인에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 3}&quot; 및 [[!DNL Microsoft Advertising] 설명서](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)를 참조하세요.](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+[!DNL Google] 쇼핑 캠페인 및 광고에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 3}&quot; 및 [Google 광고 설명서](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1)를 참조하십시오. ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md) [!DNL Microsoft] 쇼핑 캠페인에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 3}&quot; 및 [[!DNL Microsoft Advertising] 설명서](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)를 참조하세요.](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
 
 >[!NOTE]
 >
@@ -58,6 +58,6 @@ ht-degree: 0%
 >
 >* [쇼핑 제품 그룹 관리](product-group-manage.md)
 >* [[!DNL Google Ads] 제품 그룹 설정](product-group-settings-google.md)
->* [쇼핑 캠페인 구현 [!DNL Google Ads] 2}](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [쇼핑 캠페인 구현 [!DNL Google Ads] 2}](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising] 제품 그룹 설정](product-group-settings-microsoft.md)
->* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

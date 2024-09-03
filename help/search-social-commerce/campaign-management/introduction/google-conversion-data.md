@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 전환 데이터'
 description: 검색, 소셜 및 Commerce에서 사용할 수 있는  [!DNL Google Ads] 추적 전환 데이터 유형에 대해 알아봅니다.
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -106,3 +106,4 @@ Search, Social 및 Commerce은 보고와 최적화를 위해 [!DNL Google Ads] �
 >* [광고 네트워크 캠페인의 성능 모니터링 및 관리](monitor-performance-campaigns.md)
 >* [광고주에 대해 추적된 전환 지표를 봅니다](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
 >* [변환 태그 만들기 [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+>* [향상된 전환을 위해 오프라인 전환 데이터 업로드](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
