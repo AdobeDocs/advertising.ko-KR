@@ -3,16 +3,16 @@ title: Campaign 보관 또는 보관 해제
 description: 캠페인을 보관하거나 보관 해제하는 방법을 알아봅니다.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: f3ff78b4c383fd9af89e95f5572e4b88b6a293a6
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Campaign 보관 또는 보관 해제
 
-보관하여 사용되지 않는 캠페인을 숨깁니다. 보관된 캠페인에 대해 수행할 수 있는 유일한 작업은 보관을 해제하는 것입니다. 보관된 캠페인은 기본적으로 표시되지 않지만 보고에 사용할 수 있습니다.
+모든 지출을 일시 중지하는 데 사용되지 않는 캠페인을 보관하고 연결된 모든 엔티티를 보관합니다. 보관된 캠페인에 대해 수행할 수 있는 유일한 작업은 보관을 해제하는 것입니다. 보관된 캠페인은 기본적으로 표시되지 않지만 보고에 사용할 수 있습니다.
 
 언제든지 캠페인을 보관 해제하여 이전 상태를 복원할 수 있습니다.
 
