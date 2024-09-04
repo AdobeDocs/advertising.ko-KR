@@ -3,9 +3,9 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: f7332ae243daed3fcc45b69a8d71fff74d7caaeb
+source-git-commit: c1967636a762379f1daafb52cfe57dd0122b0748
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,9 @@ ht-degree: 0%
 **[!UICONTROL Gross Budget]:**(패키지 수준 게재 간격 및 동적 마진 관리 전용 패키지) 패키지 기간에 대한 총 예산 상한.
 
 **[!UICONTROL Optimization Goal]:**(패키지 수준 간격 지정 전용 패키지) 패키지의 최적화 목표입니다. [최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md)에서 각 최적화 목표에 대한 설명을 참조하십시오.
+
+
+**[!UICONTROL Link PG Placements for Incremental Reach Optimization]:**(패키지 수준 게재 간격, &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; 및 &quot;[!UICONTROL Lowest Cost per Reach]&quot; 최적화 목표만 있는 패키지) 캠페인에서 프로그래밍 방식으로 보장된 모든 배치의 가구 도달 데이터를 사용하여 증분 도달 속도를 최적화합니다.
 
 **[!UICONTROL Custom Goal for Model Learning]:**(&quot;[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 있는 패키지) CPA 또는 ROAS 지표를 계산하는 데 사용되는 매출 또는 전환 이벤트가 포함된 [사용자 지정 목표](/help/dsp/optimization/custom-goal.md). 사용자 지정 목표에는 패키지 최적화를 위한 CPA 또는 ROAS 지표 외에 사용할 추가 가중치가 적용된 상위 단계 이벤트(예: 페이지 방문 및 장바구니 추가)가 선택적으로 포함될 수 있습니다. 사용자 지정 목표 및 이를 사용하는 캠페인에 대한 생성 모범 사례를 포함하여 사용자 지정 목표에 대한 자세한 내용은 &quot;[사용자 지정 목표](/help/dsp/optimization/custom-goal.md)&quot; 및 &quot;[성능 캠페인 설정에 대한 모범 사례](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;를 참조하십시오.<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
