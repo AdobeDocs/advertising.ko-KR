@@ -3,9 +3,9 @@ title: JavaScript 전환 추적 태그 버전 2의 형식
 description: JavaScript 전환 추적 태그 버전 2의 형식을 참조하십시오.
 exl-id: 75e96f97-a3f0-4f5b-8bbb-4b1e8986f01a
 feature: Search Tracking
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: f73e91c54fb58cbd165ddf4ca652033435fbbede
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 0%
 ```
 <script language="javascript" src="https://www.everestjs.net/static/st.v2.js"></script>
 <script language="javascript">
+window.id5PartnerId=<Your_ID5_PartnerID>
 var ef_event_type="transaction";
 var ef_transaction_properties = "ev_property name=<property name>&ev_transid=<transid>";
 /*
@@ -40,6 +41,8 @@ effp();
 여기서:
 
 * `<ef-userid>`은(는) 검색, 소셜 및 Commerce이 광고주에게 할당하는 고유한 숫자 사용자 ID입니다.
+
+* `<Your_ID5_PartnerID>`은(는) 조직이 [!DNL ID5]과(와) 계약에 서명한 후 받는 조직의 ID5 파트너 ID입니다. 조직에서 DSP을 사용하고 ID5 유니버설 ID와 연결된 사용자를 추적하는 [사용자 지정 세그먼트](/help/dsp/audiences/universal-ids.md)가 있는 경우에만 이 변수를 포함하십시오.
 
 * `<propertyname>`은(는) 추적할 변환입니다. 예를 들어 &quot;등록&quot;이라는 전환을 추적하는 경우 태그에 매개 변수 `ev_registration=<registration>`이(가) 포함되며 각 거래(예: `ev_registration=1`)에 대한 실제 매출을 전달해야 합니다. 여러 속성을 추적하면 `ev_registration=<registration>&ev_sale=<sale>`(예: `ev_registration=1&ev_sale=12.99`)과 같은 앰퍼샌드(`&`)로 연결됩니다. **참고:** 속성 이름에 특수 문자가 포함되지 않을 수 있습니다.
 
