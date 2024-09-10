@@ -3,7 +3,7 @@ title: JavaScript 전환 추적 태그 버전 3의 형식
 description: JavaScript 전환 추적 태그 버전 3의 형식을 참조하십시오.
 exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: 8bed8f22c112abcff67727456ef4aad3b38d0ca6
+source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
                         , allow3rdPartyPixels: 1});
               EF.main();
         };
-        window.id5PartnerId=<Your_ID5_PartnerID>
+        window.id5PartnerId=<ID5_PartnerID>
         window.EF = window.EF || {};
         if (window.EF.main) {
             f();
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 * `<ef-userid>`은(는) 검색, 소셜 및 Commerce이 광고주에게 할당하는 고유한 숫자 사용자 ID입니다.
 
-* `<Your_ID5_PartnerID>`은(는) 조직이 [!DNL ID5]과(와) 계약에 서명한 후 받는 조직의 ID5 파트너 ID입니다. 조직에서 DSP을 사용하고 ID5 유니버설 ID와 연결된 사용자를 추적하는 [사용자 지정 세그먼트](/help/dsp/audiences/universal-ids.md)가 있는 경우에만 이 변수를 포함하십시오.
+* `<ID5_PartnerID>`은(는) 조직이 [!DNL ID5]과(와) 계약에 서명한 후 받는 조직의 ID5 파트너 ID입니다. 조직에서 DSP을 사용하고 ID5 유니버설 ID와 연결된 사용자를 추적하는 [사용자 지정 세그먼트](/help/dsp/audiences/universal-ids.md)가 있는 경우에만 이 변수를 포함하십시오.
 
 * `<propertyname>`은(는) 추적할 변환입니다. 예를 들어 &quot;등록&quot;이라는 전환을 추적하는 경우 태그에 매개 변수 `ev_registration=<registration>`이(가) 포함되며 각 거래(예: `ev_registration=1`)에 대한 실제 매출을 전달해야 합니다. 여러 속성을 추적하면 `ev_registration=<registration>&ev_sale=<sale>`(예: `ev_registration=1&ev_sale=12.99`)과 같은 앰퍼샌드(`&`)로 연결됩니다. **참고:** 속성 이름에 특수 문자가 포함되지 않을 수 있습니다.
 

@@ -3,7 +3,7 @@ title: 사용자 지정 세그먼트 만들기 및 구현
 description: 광고에 노출된 사용자 또는 웹 페이지를 방문하는 사용자를 추적하기 위해 사용자 지정 세그먼트를 만들고 구현하는 방법에 대해 알아봅니다.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 3774da55139fd9f70162c931dd7708e8e258ad83
+source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -30,14 +30,14 @@ ht-degree: 0%
 
    1. 마지막 이벤트 서비스가 초기화되기 전이나  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)에 필요한 [JavaScript 코드 내에서 다음 매개 변수를 웹 페이지에 추가하십시오.
 
-      ```window.id5PartnerId=Your_ID5_PartnerID;```
+      ```window.id5PartnerId=ID5_PartnerID;```
 
       예:
 
       ```
       <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
       <script>
-        window.id5PartnerId=Your_ID5_PartnerID;
+        window.id5PartnerId=ID5_PartnerID;
              if("undefined" != typeof AdCloudEvent)
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
