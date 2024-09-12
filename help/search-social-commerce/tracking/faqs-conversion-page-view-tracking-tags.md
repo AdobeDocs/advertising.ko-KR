@@ -3,9 +3,9 @@ title: Adobe Advertising 전환 및 페이지 보기 추적 태그에 대한 FAQ
 description: Adobe Advertising 전환 추적 태그와 페이지 보기 추적 태그의 비교를 참조하십시오.
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: e9d55ba2f4b3ce8b1ac19c06fe8759a2f862c480
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 | ---- | ---- | ---- | ---- | ---- |
 | 다른 JS 버전과 동일한 웹 페이지에서 사용할 수 있습니다. | — | — | — | 해당 사항 없음 |
 | 동일한 웹 페이지에서 동일한 광고주 사용자 ID로 여러 태그를 사용할 수 있습니다. | 예 | 예 | 예 | — |
-| 동일한 웹 페이지에서 서로 다른 광고주 사용자 ID가 있는 여러 태그를 사용할 수 있습니다. | 예 | 예 | 아니요 | 아니요 |
+| 동일한 웹 페이지에서 서로 다른 광고주 사용자 ID가 있는 여러 태그를 사용할 수 있습니다. | 예 | 예 | — | — |
 | Adobe Experience Platform용 Adobe Advertising 확장에서 사용하며, Experience Platform을 사용하여 생성된 다른 태그와 호환됩니다 | 예 | 예 | — | — |
 | Adobe Advertising JavaScript 전환 매핑 태그와 함께 사용할 때 [!DNL Apple Safari] 및 [!DNL Mozilla Firefox]에서 시작된 모든 전환을 추적할 수 있습니다. | 예 | 예 | 예 | — |
 
