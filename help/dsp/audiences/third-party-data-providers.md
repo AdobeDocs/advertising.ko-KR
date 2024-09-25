@@ -3,9 +3,9 @@ title: Advertising DSP에서 사용 가능한 타사 데이터 공급자
 description: 사용 가능한 모든 타사 데이터 공급자 목록을 참조하십시오.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 8921023b03865e73f71f49d320e092070035ecce
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 0%
 배치 설정 및 저장된 대상자 설정의 세그먼트 이름 옆에 각 세그먼트 사용 요금이 표시됩니다.
 
 * [!DNL Adsquare]
-* [!DNL Audiences by Oracle (BlueKai)](2024년 9월 30일 일몰 예정)
 * [!DNL digitalAudience]
 * [!DNL DLX Mobile]
 * [!DNL eXelate]([!DNL Nielsen])

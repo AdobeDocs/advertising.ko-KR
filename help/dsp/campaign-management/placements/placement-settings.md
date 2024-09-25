@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '3921'
+source-wordcount: '3887'
 ht-degree: 0%
 
 ---
@@ -346,15 +346,13 @@ ht-degree: 0%
    * 간격을 수동으로 선택하려면 셀 내부를 클릭하고 선택적으로 드래그하여 간격을 선택합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-**[!UICONTROL Topic Targeting]:**(선택 사항, [!DNL Proximic by Comscore] 및 [!DNL Oracle Data Cloud] 세그먼트로 구성된 광고주에게 사용 가능) 대상으로 포함할 특정 세그먼트 이름 또는 [!DNL Proximic by Comscore] 및 [!DNL Oracle Data Cloud](이전의 [!DNL Grapeshot])의 ID입니다. 이 기능에 대한 추가 비용이 발생할 수 있습니다. 이 기능을 활성화하고 주제 세그먼트를 설정하려면 Adobe 계정 팀에 문의하십시오.
-
-**참고:** [!DNL Oracle]은(는) [!DNL Oracle Data Cloud](이전의 [!DNL Grapeshot])의 모든 서비스를 포함하여 2024년 9월 30일까지 광고 사업을 종료합니다.
+**[!UICONTROL Topic Targeting]:**(선택 사항, [!DNL Proximic by Comscore] 세그먼트로 구성된 광고주에게 사용 가능) 대상으로 포함할 특정 세그먼트 이름 또는 [!DNL Proximic by Comscore]의 ID입니다. 이 기능에 대한 추가 비용이 발생할 수 있습니다. 이 기능을 활성화하고 주제 세그먼트를 설정하려면 Adobe 계정 팀에 문의하십시오.
 
 주제 타깃팅을 지정하려면 다음을 수행합니다.
 
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 타겟팅할 세그먼트 지정:
-   1. 왼쪽 열에서 파트너(*[!UICONTROL Comscore]* 또는 *[!UICONTROL Grapeshot]*)를 선택합니다.
+   1. 왼쪽 열에서 파트너(*[!UICONTROL Comscore]*)를 선택합니다.
    1. 입력 필드에 세그먼트 이름 또는 세그먼트 ID를 입력합니다.
 1. (선택 사항) 주제 정보가 포함된 CSV 파일을 브라우저의 다운로드 위치에 다운로드하려면 **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
@@ -363,7 +361,7 @@ ht-degree: 0%
 >
 >* 주제 타깃팅은 배치가 입찰할 수 있는 인벤토리를 제한하므로 전체 구매에서 작은 비율에만 주제 타깃팅을 사용하십시오.
 >
->* [!DNL Proximic by Comscore] 또는 [!DNL Oracle Data Cloud]의 세그먼트(이전의 [!DNL Grapeshot]) 내에서 부정적인 타깃팅을 설정합니다.
+>* [!DNL Proximic by Comscore]의 세그먼트 내에서 부정적인 타깃팅을 설정합니다.
 
 **[!UICONTROL Device Targeting]:**(선택 사항) 대상으로 포함 및 제외할 장치 유형, 제조업체, 운영 체제, 브라우저 및 연결 유형 등 특정 장치 정보입니다. 유형은 배치 유형에 따라 다릅니다. 장치 타깃팅을 지정하려면:
 
@@ -431,11 +429,7 @@ ht-degree: 0%
 
 **[!UICONTROL Pre-bid viewability]:**
 
-배치를 적용할 [!DNL DoubleVerify], [!DNL Oracle Advertising]([!DNL Moat]) 및 [!DNL Integral Ad Science]의 사전 입찰 가시성 필터 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다. 추가 요금이 부과될 수 있습니다.
-
->[!NOTE]
->
->[!DNL Oracle]은(는) [!DNL MOAT]의 모든 서비스를 포함하여 2024년 9월 30일까지 광고 사업을 종료할 예정입니다.
+배치를 적용할 [!DNL DoubleVerify] 및 [!DNL Integral Ad Science]의 사전 입찰 가시성 필터 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다. 추가 요금이 부과될 수 있습니다.
 
 **[!UICONTROL Ads.txt filtering]:**
 

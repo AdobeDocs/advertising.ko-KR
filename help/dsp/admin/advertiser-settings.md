@@ -2,9 +2,9 @@
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
 role: User, Admin
-source-git-commit: 55190d02a2cdf74c39968ccd91abfecc2ce5539d
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -122,11 +122,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-배치에 적용할 [!DNL DoubleVerify], [!DNL Oracle Advertising]([!DNL Moat]) 및 [!DNL Integral Ad Science]별 선택적 사전 입찰 가시성 필터입니다. 새 배치에 대해 광고주 수준 기본값이 선택됩니다. [배치 수준](/help/dsp/campaign-management/placements/placement-settings.md)에서 광고주 수준 설정을 재정의할 수 있습니다.
-
->[!NOTE]
->
->[!DNL Oracle]은(는) [!DNL MOAT]의 모든 서비스를 포함하여 2024년 9월 30일까지 광고 사업을 종료할 예정입니다.
+배치에 적용할 [!DNL DoubleVerify] 및 [!DNL Integral Ad Science]별 선택적 사전 입찰 가시성 필터입니다. 새 배치에 대해 광고주 수준 기본값이 선택됩니다. [배치 수준](/help/dsp/campaign-management/placements/placement-settings.md)에서 광고주 수준 설정을 재정의할 수 있습니다.
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
@@ -155,10 +151,6 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 ##### [!UICONTROL Integral Ad Science] {#ias-viewability}
 
 선택적 **[!UICONTROL Video Viewability Targets]** 필터 및 선택적 **[!UICONTROL Display Viewability Targets]** 필터입니다. 추가 요금이 부과될 수 있습니다.
-
-##### [!UICONTROL Moat] {#moat-viewability}
-
-선택적 **[!UICONTROL Video Viewability Standard]** 필터 및 선택적 **[!UICONTROL Display Viewability Standard]** 필터입니다. 추가 요금이 부과될 수 있습니다.
 
 #### [!UICONTROL Ads.text]
 

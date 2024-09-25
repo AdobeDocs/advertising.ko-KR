@@ -3,9 +3,9 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: a927c073fd27e0b2c84bd1929eb4d6d233a29cb5
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Advertising DSP은 각 캠페인이 브랜드 안전 환경에서 실제 사용�
 
 사기 행위 감시 팀은 [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)] 및 [!DNL WhiteOps]과(와) 같은 업계 선두 파트너와 긴밀히 협력하여 플랫폼에서 인벤토리를 신중하게 조정합니다. DSP은 공급에 대한 사전 관리를 통해 플랫폼의 모든 광고주가 사람이 아닌 트래픽(보트, 크롤러, 데이터센터 트래픽 및 사기)으로부터 보호되고 브랜드가 안전한 컨텍스트에서만 전달되도록 합니다.
 
-중앙의 품질 관리를 제공하는 것 외에도 광고주가 브랜드에 맞는 컨트롤을 디자인할 수 있는 권한을 부여한다고 생각합니다. DSP은 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud] 및 [!DNL Peer39]과의 통합을 제공하므로 각 광고주가 원하는 수준의 사기 행위 방지, 컨텍스트 필터링 및 키워드 타깃팅을 선택할 수 있습니다.
+중앙의 품질 관리를 제공하는 것 외에도 광고주가 브랜드에 맞는 컨트롤을 디자인할 수 있는 권한을 부여한다고 생각합니다. DSP은 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] 및 [!DNL Peer39]과의 통합을 제공하여 각 광고주가 원하는 수준의 사기 행위 방지, 컨텍스트 필터링 및 키워드 타깃팅을 선택할 수 있도록 합니다.
 
 ## 품질 이니셔티브
 
@@ -110,15 +110,11 @@ DSP은 광고를 실행하는 것이 안전하지 않은 것으로 간주되는 
 
 ### 사전 입찰 가시성 {#pre-bid-viewability}
 
-업계 최고의 파트너 [!DNL DoubleVerify], [!DNL Oracle Advertising]([!DNL Moat]) 및 [!DNL Integral Ad Science]에서 제공하는 사전 입찰 가시성 필터를 사용하면 광고주가 비디오 및 디스플레이 인벤토리에서 광고주가 원하는 가시성 성능 목표를 달성할 수 있습니다.
-
->[!NOTE]
->
->[!DNL Oracle]은(는) [!DNL MOAT]의 모든 서비스를 포함하여 2024년 9월 30일까지 광고 사업을 종료할 예정입니다.
+업계 선도적인 파트너 [!DNL DoubleVerify] 및 [!DNL Integral Ad Science]이(가) 제공하는 사전 입찰 가시성 필터를 사용하면 광고주가 비디오 및 디스플레이 인벤토리에서 원하는 가시성 성능 목표를 달성할 수 있습니다.
 
 각 광고주에 대해 기본 조회 필터를 설정<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->한 다음 선택적으로 [각 배치에 대한 설정을 사용자 지정](/help/dsp/campaign-management/placements/placement-settings.md)할 수 있습니다. 이 기능을 사용하면 추가 비용이 발생할 수 있습니다.
 
-![DoubleVerify 로고](/help/dsp/assets/doubleverify-logo.png) ![Advertising 로고 Oracle](/help/dsp/assets/oracle-advertising-logo.png) ![Integral Ad Science 로고](/help/dsp/assets/ias-logo.png)
+![DoubleVerify 로고](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science 로고](/help/dsp/assets/ias-logo.png)
 
 ### 주의 타기팅 및 측정
 
@@ -132,17 +128,13 @@ DSP은 광고를 실행하는 것이 안전하지 않은 것으로 간주되는 
 
 ### 주제 타기팅
 
-DSP 주제 타깃팅을 사용하면 업계 최고의 컨텍스트 파트너 [!DNL Comscore] 및 [!DNL Oracle Data Cloud](이전의 [!DNL Grapeshot])을(를) 활용하여 키워드 목록을 타깃팅하거나 차단할 수 있습니다. 주제 타깃팅은 유해한 콘텐츠 차단 또는 더 큰 성과를 보장하는 컨텍스트에서 지출 보장이 포함되든 간에 브랜드에 맞는 환경에서 광고가 항상 제공되도록 하는 데 도움이 됩니다.
-
->[!NOTE]
->
->[!DNL Oracle]은(는) [!DNL Oracle Data Cloud](이전에는 [!DNL Grapeshot])의 모든 서비스를 포함하여 2024년 9월 30일까지 광고 사업을 종료합니다.
+DSP 주제 타깃팅을 사용하면 업계 최고의 컨텍스트 파트너 [!DNL Comscore]을(를) 활용하여 키워드 목록을 타깃팅하거나 차단할 수 있습니다. 주제 타깃팅은 유해한 콘텐츠 차단 또는 더 큰 성과를 보장하는 컨텍스트에서 지출 보장이 포함되든 간에 브랜드에 맞는 환경에서 광고가 항상 제공되도록 하는 데 도움이 됩니다.
 
 주제 타깃팅을 사용하려면 파트너 플랫폼을 사용하여 직접 사용자 정의 주제 세그먼트를 만들어야 합니다. 세그먼트가 만들어지면 각 배치에 대해 [!UICONTROL Audience Targeting] 섹션에서 세그먼트 ID를 [타깃팅하거나 제외](/help/dsp/campaign-management/placements/placement-settings.md)할 수 있습니다. 이 기능에 대한 추가 비용이 발생할 수 있습니다.
 
 [!DNL Comscore] 계정을 만들고 사용자 지정 주제 세그먼트를 만들려면 [https://agents.comscore.com](https://agents.comscore.com)에서 [!DNL Activation Segment Manager]에 대한 로그인을 요청할 수 있습니다. 사용자 지정 세그먼트 설정에 대한 전체 지침은 [[!DNL Comscore] 도움말 센터](https://comscoreactivation.zendesk.com/hc/)를 참조하세요. 사용자 지정 세그먼트에 대한 요금은 만들 때 [!DNL Segment Manager]에 표시됩니다.
 
-![Comscore 로고](/help/dsp/assets/comscore-logo.png) ![Grapheshot 로고](/help/dsp/assets/oracle-grapeshot-logo.png)
+![Comscore 로고](/help/dsp/assets/comscore-logo.png)
 
 ### [!DNL DoubleVerify Authentic Brand Safety]
 

@@ -3,9 +3,9 @@ title: 캠페인 설정
 description: 사용 가능한 캠페인 설정에 대한 설명을 참조하십시오.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 0fbdc7e38026d71483c2de1406a4110066690130
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -117,8 +117,6 @@ ht-degree: 0%
 * **[!UICONTROL IAS Account ID (AnID)]:**(광고주가 자체 [!DNL IAS] 계정을 가지고 있음, 선택 사항) 조직의 [!DNL IAS] 계정 ID입니다. [!DNL IAS]은(는) 사용을 위해 직접 청구합니다.
 
 * **[!UICONTROL IAS Team ID]:**(광고주가 자체 [!DNL IAS] 계정을 가지고 있음, 선택 사항) [!DNL IAS]에서 직접 사용량에 대해 청구하는 조직의 [!DNL IAS] 계정에 대한 팀 ID입니다. <!-- verify -->
-
-**[!UICONTROL MOAT]:**(선택 사항) 가시성, 사기, 브랜드 안전성 및 대상 확인에 대한 [!DNL MOAT] 측정 및 보고를 사용합니다. 추가 요금이 부과됩니다. **참고:** [!DNL Oracle]은(는) [!DNL MOAT]의 모든 서비스를 포함하여 2024년 9월 30일까지 광고 사업을 종료합니다.
 
 #### 대상 확인
 

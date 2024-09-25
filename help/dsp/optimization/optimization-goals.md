@@ -3,9 +3,9 @@ title: 최적화 목표 및 사용 방법
 description: 사용 가능한 최적화 목표를 참조하고 이를 사용할 시기를 확인하십시오.
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: b40f016a02d99a3753358c9911e40ac63e83fd54
+source-git-commit: 6c8782b2f4ebe3dbd06ecb1e8cdfb3670ebc7c7f
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,6 @@ ht-degree: 0%
 | [!UICONTROL Lowest vCPM (Adobe - GroupM)] | 패키지 수준 최적화를 통해 예산 할당은 가장 낮은 vCPM을 사용하는 배치에 우선 순위를 둡니다.<br><br>경매 평가는 vCPM의 우선 순위를 지정합니다. 지출 목표가 충족되고 있으며 DSP은 CPM을 낮추는 것과 조회 수를 높이는 것의 균형을 맞추려고 합니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 효율적인 CPM 및 가장 높은 vCPM<br><br>광고 유형: 프리롤, 디스플레이<br><br><b>참고:</b> 최상의 vCPM을 달성하려면 이 목표를 사용하십시오.<br><br>최대 CPM을 보장하려면 최대 배치 입찰가로 사용합니다. |
 | [!UICONTROL Lowest vCPM (Adobe - MRC)] | 패키지 수준 최적화를 통해 예산 할당은 가장 낮은 vCPM을 사용하는 배치에 우선 순위를 둡니다.<br><br>경매 평가는 vCPM의 우선 순위를 지정합니다. 지출 목표가 충족되고 있으며 DSP은 CPM을 낮추는 것과 조회 수를 높이는 것의 균형을 맞추려고 합니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 효율적인 CPM 및 가장 높은 vCPM<br><br>광고 유형: 프리롤, 디스플레이<br><br><b>참고:</b> 최상의 vCPM을 달성하려면 이 목표를 사용하십시오.<br><br>최대 CPM을 보장하려면 최대 배치 입찰가로 사용합니다. |
 | [!UICONTROL Lowest vCPM (IAS - MRC)] | 패키지 수준 최적화를 통해 예산 할당은 가장 낮은 vCPM을 사용하는 배치에 우선 순위를 둡니다.<br><br>경매 평가는 vCPM의 우선 순위를 지정합니다. 지출 목표가 충족되고 있으며 DSP은 CPM을 낮추는 것과 조회 수를 높이는 것의 균형을 맞추려고 합니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 효율적인 CPM 및 가장 높은 vCPM<br><br>광고 유형: 프리롤, 디스플레이<br><br><b>참고:</b> 최상의 vCPM을 달성하려면 이 목표를 사용하십시오.<br><br>최대 CPM을 보장하려면 최대 배치 입찰가로 사용합니다.<br><br>이 설정은 IAS의 타사 데이터가 알고리즘을 알리는 경우에 가장 적합합니다. 캠페인에 대해 IAS 통합을 활성화한 경우에만 이 목표를 사용하십시오. |
-| [!UICONTROL Lowest vCPM (Moat - GroupM)] | 패키지 수준 최적화를 통해 예산 할당은 가장 낮은 vCPM을 사용하는 배치에 우선 순위를 둡니다.<br><br>경매 평가는 vCPM의 우선 순위를 지정합니다. 지출 목표가 충족되고 있으며 DSP은 CPM을 낮추는 것과 조회 수를 높이는 것의 균형을 맞추려고 합니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 효율적인 CPM 및 가장 높은 vCPM<br><br>광고 유형: 프리롤, 디스플레이<br><br><b>참고:</b> 최상의 vCPM을 달성하려면 이 목표를 사용하십시오.<br><br>최대 CPM을 보장하려면 최대 배치 입찰가로 사용합니다.<br><br>이 설정은 [!DNL Moat]의 타사 데이터가 알고리즘을 알리는 경우에 가장 적합합니다. 캠페인에 대해 [!DNL Moat] 통합을 활성화한 경우에만 이 목표를 사용하십시오. |
-| [!UICONTROL Lowest vCPM (Moat - MRC)] | 패키지 수준 최적화를 통해 예산 할당은 가장 낮은 vCPM을 사용하는 배치에 우선 순위를 둡니다.<br><br>경매 평가는 vCPM의 우선 순위를 지정합니다. 지출 목표가 충족되고 있으며 DSP은 CPM을 낮추는 것과 조회 수를 높이는 것의 균형을 맞추려고 합니다. | 캠페인 유형: 브랜딩<br><br>벤치마크: 효율적인 CPM 및 가장 높은 vCPM<br><br>광고 유형: 프리롤, 디스플레이<br><br><b>참고:</b> 최상의 vCPM을 달성하려면 이 목표를 사용하십시오.<br><br>최대 CPM을 보장하려면 최대 배치 입찰가로 사용합니다.<br><br>이 설정은 [!DNL Moat]의 타사 데이터가 알고리즘을 알리는 경우에 가장 적합합니다. 캠페인에 대해 [!DNL Moat] 통합을 활성화한 경우에만 이 목표를 사용하십시오. |
 
 {style="table-layout:auto"}
 
