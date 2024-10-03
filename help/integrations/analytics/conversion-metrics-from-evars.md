@@ -3,9 +3,9 @@ title: Adobe Analytics [!DNL eVars]  및 prop에서 전환 지표 만들기
 description: ' [!DNL eVar] 및  [!DNL prop] 수준 데이터를 사용하여 사용자 지정 성공 이벤트 지표를 구성합니다.'
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: db815958b039508b005f4be60561ddc4656da86e
+source-git-commit: 91e8435ff00feca804dfa2f4c323f88ee31813ab
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 지표를 사용할 수 있게 되면 이를 사용하여 목표를 만든 다음 검색, 소셜 및 Commerce 포트폴리오에 할당하거나 DSP 패키지에 대한 [사용자 지정 목표](/help/dsp/optimization/custom-goal.md)(으)로 사용할 수 있습니다.
 
-검색, 소셜 및 Commerce 내에서 사용할 수 있는 &quot;목표&quot;에 대한 최적화 안내서 장을 참조하십시오.
+목표 작성에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 &quot;목표&quot;에 대한 최적화 안내서 장을 참조하십시오
 
 >[!MORELIKETHIS]
 >
