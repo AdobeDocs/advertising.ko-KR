@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising] 전환 데이터'
 description: 검색, 소셜 및 Commerce에서 사용할 수 있는  [!DNL Microsoft Advertising] 추적 전환 데이터 유형에 대해 알아봅니다.
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: b8a34f3d85947536eb92ee481966f84694250f29
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 검색, 소셜 및 Commerce의 [!DNL Microsoft Advertising] 전환 데이터
 
-검색, 소셜 및 Commerce은 보고와 최적화를 위해 뷰스루 전환을 포함한 웹 사이트 전환을 위해 [[!DNL Microsoft Advertising] UET(범용 이벤트 추적) 태그](https://about.ads.microsoft.com/solutions/tools/universal-event-tracking)에 의해 추적된 모든 전환을 자동으로 동기화합니다.
+검색, 소셜 및 Commerce은 보고와 최적화를 위해 뷰스루 전환을 포함한 웹 사이트 전환을 위해 [[!DNL Microsoft Advertising] UET(범용 이벤트 추적) 태그](https://help.ads.microsoft.com/#apex/ads/en/53056)에 의해 추적된 모든 전환을 자동으로 동기화합니다.
 
 모든 지표는 캠페인 관리 보기 및 기본 보고서에서 자동으로 사용할 수 있으며, [!DNL Microsoft Advertising] 캠페인의 최적화를 위한 포트폴리오 목표에서도 사용할 수 있습니다.
 

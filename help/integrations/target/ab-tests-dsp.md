@@ -2,7 +2,7 @@
 title: Adobe Target에서 Adobe Advertising DSP 광고에 대한 A/B 테스트 구성
 description: DSP 광고용  [!DNL Target] 에서 A/B 테스트를 설정하는 방법에 대해 알아봅니다.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7ffa5d3e9f1aae0f9d66d87c74807e491e818daa
+source-git-commit: 964246bb2c8bfa442f2d4f981c9e02de35c69ed5
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Audience Manager 태그 및 배치 설정에서 광고 노출 이벤트 픽셀�
 
       >[!NOTE]
       >
-      >여러 URL을 사용하여 뷰스루 사이트 항목을 테스트할 수 있습니다. 자세한 내용은 &quot;[다중 페이지 활동](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html)&quot;을 참조하세요. Analytics에서 [사이트 시작 보고서](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html)를 만들어 페이지 URL별로 상위 항목을 쉽게 식별할 수 있습니다.
+      >여러 URL을 사용하여 뷰스루 사이트 항목을 테스트할 수 있습니다. 자세한 내용은 &quot;[다중 페이지 활동](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html)&quot;을 참조하세요. Analytics에서 [사이트 시작 보고서](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports)를 만들어 페이지 URL별로 상위 항목을 쉽게 식별할 수 있습니다.
 
    1. **[!UICONTROL Goal]** 필드에 테스트에 대한 성공 지표를 입력합니다.
 

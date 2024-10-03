@@ -3,9 +3,9 @@ title: Campaign Management 보기의 성능 보고서 유형
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
+source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ ht-degree: 0%
 
 #### 경고 표시기
 
-*Beta 기능*
-
 &quot;[!UICONTROL Alerts]&quot; 열은 캠페인 또는 그 아래의 자식 엔터티에 문제가 있는 시기를 나타냅니다. 도구 모음 오른쪽의 [!UICONTROL Pulse Panel] 아이콘은 나열된 엔터티에 대해 사용 가능한 경고가 있는지 여부도 나타냅니다. 자세한 내용은 &quot;[경고 보기](campaign-alerts.md)&quot;를 참조하십시오.
 
 ## 단일 캠페인 보고 {#single-campaign-reporting}
@@ -61,8 +59,6 @@ ht-degree: 0%
 각 엔터티 탭에서 각 행에는 기본적으로 게재 간격 및 게재 지표가 포함되어 있지만 [열 보기를 변경](campaign-data-views-manage.md#column-view-change)하거나, [사용자 지정 열 보기를 만들기](campaign-data-views-manage.md#column-view-create)하여 캠페인의 모든 하위 탭에 적용할 수도 있습니다. 추가 방법으로 [데이터 테이블을 사용자 지정](campaign-data-views-manage.md#data-tables-manage)할 수 있습니다. 각 데이터 테이블에는 [!UICONTROL Subtotals] 행이 포함되어 있으며 이는 표시되는 모든 행에서 각 지표의 합계 또는 평균 값을 표시합니다.
 
 #### 경고 표시기
-
-*Beta 기능*
 
 &quot;[!UICONTROL Alerts]&quot; 열은 패키지, 배치 또는 광고(또는 패키지 또는 배치 아래의 자식 항목)에 문제가 있는 시기를 나타냅니다. &quot;[!UICONTROL Alerts]&quot; 열은 캠페인 또는 그 아래의 자식 엔터티에 문제가 있는 시기를 나타냅니다. 도구 모음 오른쪽의 [!UICONTROL Pulse Panel] 아이콘은 나열된 엔터티에 대해 사용 가능한 경고가 있는지 여부도 나타냅니다. 자세한 내용은 &quot;[경고 보기](campaign-alerts.md)&quot;를 참조하십시오.
 

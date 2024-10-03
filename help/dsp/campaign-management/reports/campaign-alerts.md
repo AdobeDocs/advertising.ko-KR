@@ -3,16 +3,14 @@ title: 경고 보기
 description: 캠페인 및 캠페인 구성 요소에 대한 경고 및 권장 해결 방법을 보는 방법을 알아봅니다.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 3e227bcd39b3928898e764cace1fea91f61d58d5
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # 경고 보기
-
-*Beta 기능*
 
 DSP은 캠페인이나 캠페인 구성 요소에 문제가 있는 경우를 식별하는 데 도움이 됩니다. 각 문제에 대해 DSP은 타임스탬프와 문제 해결을 위한 권장 조치를 갖춘 경고를 만듭니다. 경고 이유에는 구성 문제(예: 배치에 광고가 첨부되지 않았거나 거래가 잘못 설정된 경우), 광고 거부, 캠페인 상태 문제(예: 광고 게재 불량 또는 성능 저하)가 포함됩니다. 경고는 캠페인, 패키지, 배치, 광고 및 거래 수준에서 사용할 수 있습니다.
 
