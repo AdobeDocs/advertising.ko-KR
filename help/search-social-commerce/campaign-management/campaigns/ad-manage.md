@@ -3,9 +3,9 @@ title: 광고 관리
 description: 광고를 만들고 관리하는 방법에 대해 알아봅니다.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 다음 광고 유형은 *변경 가능*&#x200B;입니다. 즉, 광고 사본 또는 이미지를 변경하고 동일한 광고 ID를 유지할 수 있습니다. 동적 검색 광고를 제외한 모든 [!DNL Google Ads] 광고 유형 및 [!DNL Microsoft Advertising] 확장된 텍스트 광고.
->* 기타 지원되는 모든 광고는 *변경할 수 없음*&#x200B;입니다. 즉, 광고 복사본 또는 이미지를 변경하면 기존 광고가 삭제되고 새 광고가 만들어집니다. Search, Social 및 Commerce이 입찰을 최적화하기에 충분한 데이터를 수집하는 동안 몇 주 동안 새 광고의 성과가 불안정할 수 있습니다.
+>* 기타 지원되는 모든 광고는 *변경할 수 없음*&#x200B;입니다. 즉, 광고 복사본 또는 이미지를 변경하면 기존 광고가 삭제되고 새 광고가 만들어집니다. 검색, 소셜 및 Commerce이 최적화를 위해 충분한 데이터를 수집하는 동안 새 광고의 성능은 2주 동안 불안정할 수 있습니다.
 >* [!DNL Microsoft Advertising] 제품 광고의 프로모션 라인을 제외하고 제품 광고의 콘텐츠를 편집할 수 없습니다. 그러나 광고를 일시 중지하거나 삭제할 수 있습니다.
 
 >[!TIP]

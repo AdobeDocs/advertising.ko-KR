@@ -3,16 +3,16 @@ title: 포트폴리오에서 캠페인 제거
 description: 포트폴리오에서 캠페인을 제거하는 방법을 알아봅니다.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
 
 # 포트폴리오에서 캠페인 제거
 
-포트폴리오에서 캠페인을 제거하면 검색, 소셜 및 Commerce에서 해당 캠페인의 키워드 및 광고에 대한 입찰과 예산을 최적화할 수 없습니다.
+포트폴리오에서 캠페인을 제거하면 검색, 소셜 및 Commerce에서 해당 캠페인에 대한 입찰, 캠페인 예산 및 입찰 전략 타겟을 최적화할 수 없습니다.
 
 작업은 포트폴리오의 변경 내역에 기록됩니다.
 

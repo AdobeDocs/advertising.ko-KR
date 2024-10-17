@@ -3,9 +3,9 @@ title: 보고서 기본 정보
 description: 사용 가능한 다양한 보고서 유형 및 보고서 자동화 방법을 포함하여 성능 보고서에 대해 알아봅니다.
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Advanced Reports] | [고급 보고서](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)는 광고 구성에 대한 추가적인 정보를 제공하여 지리적 타겟팅 또는 네트워크 설정을 변경하여 이점을 얻을 수 있는 위치를 식별하는 데 도움이 됩니다. 또한 광고주의 내부 전환 추적 데이터에 대해 캠페인 및 포트폴리오 관리 보기와 보고서에서 전환 데이터의 유효성을 검사하는 데 도움이 될 수 있습니다. |
 | [!UICONTROL Assist Reports] | [지원 보고서](/help/search-social-commerce/reports/management/assist/assist-report-about.md)는 광고주의 모든 키워드 및 광고에 대한 전환 경로에 대한 통찰력을 제공합니다. Adobe Advertising 전환 추적 서비스를 통해 캡처한 데이터를 사용하며 해당 서비스를 사용하는 광고주에게만 생성될 수 있습니다. |
 | [!UICONTROL Specialty Reports] | [특성 보고서](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)는 Adobe Advertising 추적이 아니라 광고 네트워크에서 수집한 데이터로 구성됩니다. |
-| [!UICONTROL Model Accuracy Reports] | [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 입찰을 최적화하는 데 사용되는 비용 및 수익 모델의 정확도를 나타냅니다. |
+| [!UICONTROL Model Accuracy Reports] | [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 포트폴리오의 입찰, 캠페인 예산 및 입찰 전략 목표를 최적화하는 데 사용되는 비용 및 수익 모델의 정확도를 나타냅니다. |
 
 ## 보고서 자동화
 

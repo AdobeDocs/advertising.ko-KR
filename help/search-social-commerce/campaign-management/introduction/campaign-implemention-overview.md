@@ -3,9 +3,9 @@ title: 광고 네트워크 계정 및 캠페인 구현 개요
 description: 광고 네트워크 계정 설정, 동기화 및 관리와 관련된 작업에 대해 알아봅니다.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Adobe은 각 광고주와 함께 작동하여 광고 네트워크 계정 및 캠
 
 1. (Adobe Analytics을 사용하는 광고주) 데이터를 교환할 수 있도록 [Adobe Advertising과 Analytics를 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)합니다.
 
-1. (Search, Social 및 Commerce에서 입찰 및/또는 캠페인 예산을 최적화할 수 있도록 하려면. [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)만 해당) [포트폴리오에 캠페인을 할당](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+1. (Search, Social 및 Commerce에서 입찰, 캠페인 예산 및/또는 캠페인 입찰 전략 타겟을 최적화할 수 있도록 하려면. [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)만 해당) [포트폴리오에 캠페인을 할당](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
    아직 포트폴리오를 시작하지 않은 경우(입찰 및/또는 예산 최적화) 최적화 기능을 통해 비용 및 수익 모델을 구축할 수 있는 충분한 데이터를 수집하여 포트폴리오를 시작하기 전에 포트폴리오의 기준 성능을 설정할 수 있습니다.
 

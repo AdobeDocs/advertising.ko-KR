@@ -3,9 +3,9 @@ title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a31e380b0cdaaf426895397a3829f41145d82a6d
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2854'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio ID] | 숫자 포트폴리오 ID입니다. |
 | [!UICONTROL Portfolio Name] | 포트폴리오입니다. |
 | [!UICONTROL Portfolio Spend Strategy] | (Portfolio 보고서) 포트폴리오의 지출 전략: *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, *[!UICONTROL ROI]*, *[!UICONTROL Day of week]*, *[!UICONTROL Day of month]*, *[!UICONTROL CPT]*, *[!UICONTROL Marginal CPT]*, *[!UICONTROL Google Target CPA]* 또는 *[!UICONTROL Google Target ROAS]*. |
-| [!UICONTROL Portfolio Status] | 포트폴리오 상태:<ul><li>*[!UICONTROL Optimize]*: 최적화 기능은 관련 캠페인에 대한 클릭 및 수익 데이터를 수집하고, 데이터를 모델링하여 입찰을 최적화하며, 입찰 및/또는 캠페인 예산을 최적화합니다(최적화 유형 및 캠페인 입찰 전략에 따라 다름).</li><li>*[!UICONTROL Active]*: 최적화 기능이 관련 캠페인에 대한 클릭 및 매출 데이터를 수집하고 데이터를 모델링하고 있지만 입찰 또는 캠페인 예산을 최적화하지 않습니다.</li><li>*[!UICONTROL Inactive]*: 최적화 기능이 보고 목적으로 관련 캠페인에 대한 클릭 데이터를 수집하고 있지만 데이터를 모델링하거나 입찰 또는 캠페인 예산을 최적화하지 않습니다.</li></ul> |
+| [!UICONTROL Portfolio Status] | 포트폴리오 상태:<ul><li>*[!UICONTROL Optimize]*: 최적화 기능은 관련 캠페인에 대한 클릭 및 매출 데이터를 수집하고, 최적화에 사용된 데이터를 모델링하고, 입찰, 캠페인 예산 및 캠페인 입찰 전략 대상(최적화 유형 및 입찰 전략에 따라)을 최적화하는 것입니다.</li><li>*[!UICONTROL Active]*: 최적화 기능이 관련 캠페인에 대한 클릭 및 매출 데이터를 수집하고 데이터를 모델링하고 있지만 입찰 또는 캠페인 예산을 최적화하지 않습니다.</li><li>*[!UICONTROL Inactive]*: 최적화 기능이 보고 목적으로 관련 캠페인에 대한 클릭 데이터를 수집하고 있지만 데이터를 모델링하거나 입찰 또는 캠페인 예산을 최적화하지 않습니다.</li></ul> |
 | [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) 자산 그룹이 최대 용량으로 사용되고 있거나 사용되고 있지 않은 이유. 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다. 값에는 *적격,* *제한,* *NOT_적격,* *일시 중지됨,* *보류 중,* *제거됨,* *알 수 없음,* 또는 *지정되지 않음.*&#x200B;이 포함될 수 있습니다. |
 | [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨}이 포함될 수 있습니다.* |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report]) 광고에 표시된 제품의 제품 ID입니다. <b>참고:</b> 제품 목록에 추적 매개 변수 `ev_plx=<GMC product ID>`이(가) 포함된 경우에만 ID가 캡처됩니다. [!DNL Google Merchant Center] 내에 추가해야 합니다. |

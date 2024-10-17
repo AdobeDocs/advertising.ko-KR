@@ -3,7 +3,7 @@ title: Search, Social 및 Commerce 구현 개요
 description: 학습
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -72,7 +72,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >Search, Social 및 Commerce은 포트폴리오에 할당되지 않은 캠페인에 대한 데이터를 추적하고 보고하지만 입찰을 최적화하지 않습니다.
+      >Search, Social 및 Commerce은 포트폴리오에 할당되지 않은 캠페인에 대한 데이터를 추적하고 보고하지만 최적화를 제공하지 않습니다.
 
    1. 기준을 만드는 데 충분한 데이터를 사용할 수 있게 되면 팀이 포트폴리오를 시작할 수 있으므로 검색, 소셜 및 Commerce은 최적화 유형을 기반으로 포트폴리오에 대한 입찰 및/또는 예산을 최적화할 수 있습니다.
 

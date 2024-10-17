@@ -3,9 +3,9 @@ title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '3741'
+source-wordcount: '3743'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Group Name] | 포트폴리오가 속한 포트폴리오 그룹의 이름입니다. |
 | [!UICONTROL Portfolio ID] | 숫자 포트폴리오 ID입니다. |
 | [!UICONTROL Portfolio Spend Strategy] | ([!UICONTROL Portfolio Report]) 포트폴리오에 대한 지출 전략: <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly]</i>, <i>[!UICONTROL Monthly]</i>, <i>[!UICONTROL ROI]</i>, <i>[!UICONTROL Day of week]</i>, <i>[!UICONTROL Day of month]</i>, <i>[!UICONTROL CPT]</i>, <i>[!UICONTROL Marginal CPT]</i>, <i>[!UICONTROL Google Target CPA]</i> 또는 <i>[!UICONTROL Google Target ROAS]</i>. |
-| [!UICONTROL Portfolio Status] | 포트폴리오 상태:<ul><li><i>[!UICONTROL Optimize]:</i> 최적화 기능은 관련 캠페인에 대한 클릭 및 수익 데이터를 수집하고, 데이터를 모델링하여 입찰을 최적화하며, 입찰 및/또는 캠페인 예산을 최적화합니다(최적화 유형 및 캠페인 입찰 전략에 따라 다름).</li><li><i>[!UICONTROL Active]:</i> 최적화 기능이 관련 캠페인에 대한 클릭 및 매출 데이터를 수집하고 데이터를 모델링하고 있지만 입찰 또는 캠페인 예산을 최적화하지 않습니다.</li><li><i>[!UICONTROL Inactive]:</i> 최적화 기능이 보고 목적으로 관련 캠페인에 대한 클릭 데이터를 수집하고 있지만 데이터를 모델링하거나 입찰 또는 캠페인 예산을 최적화하지 않습니다.</li></ul> |
+| [!UICONTROL Portfolio Status] | 포트폴리오 상태:<ul><li><i>[!UICONTROL Optimize]:</i> 최적화 기능은 관련 캠페인에 대한 클릭 및 매출 데이터를 수집하고, 최적화에 사용된 데이터를 모델링하고, 입찰, 캠페인 예산 및 캠페인 입찰 전략 대상(최적화 유형 및 입찰 전략에 따라)을 최적화하는 것입니다.</li><li><i>[!UICONTROL Active]:</i> 최적화 기능이 관련 캠페인에 대한 클릭 및 매출 데이터를 수집하고 데이터를 모델링하고 있지만 입찰 또는 캠페인 예산을 최적화하지 않습니다.</li><li><i>[!UICONTROL Inactive]:</i> 최적화 기능이 보고 목적으로 관련 캠페인에 대한 클릭 데이터를 수집하고 있지만 데이터를 모델링하거나 입찰 또는 캠페인 예산을 최적화하지 않습니다.</li></ul> |
 | [!UICONTROL Portfolio Target] | ([!UICONTROL Portfolio Report]) 포트폴리오의 지출 전략에 대한 일일 목표입니다. 일별/월별 및 요일/월 전략의 경우 현재 날짜의 대상이 표시됩니다. |
 | [!UICONTROL Preferred Devices] | ([!DNL Google Ads], [!DNL Microsoft Advertising] 및 [!DNL Yahoo! Japan Ads] 캠페인) 광고 설정에서 <i>[!UICONTROL Mobile ads]</i> 또는 <i>[!UICONTROL All ads]</i> 환경 설정을 지정하는지 여부입니다. |
 | [!UICONTROL Product Group ID] | 광고 네트워크가 제품 그룹에 할당하는 숫자 ID입니다. |
