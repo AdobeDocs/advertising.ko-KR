@@ -3,9 +3,9 @@ title: 용어집
 description: 주요 용어의 정의를 참조하십시오.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
+source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **전환 추적:** 전환 추적은 쿠키를 사용하여 a) 광고 네트워크에서 광고주의 광고 클릭수 및 b) 광고주의 웹 사이트에서 결과 트랜잭션을 추적합니다.
 
-**비용 정확도:**(포트폴리오가 있는 광고주) 포트폴리오의 실제 지출을 예측된 지출로 나눕니다. [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 최적화에 사용되는 비용 모델의 정확도를 나타냅니다.
+**비용 정확도:**(포트폴리오가 있는 광고주) 포트폴리오의 실제 지출을 예측된 지출로 나눕니다. [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 최적화에 사용되는 비용 모델의 정확도를 나타내며 [[!UICONTROL Model Accuracy]인사이트](/help/search-social-commerce/advertising-insights/insight-about.md)에는 모델 정확도를 개선하기 위한 권장 사항과 함께 자세한 내용이 포함되어 있습니다.
 
 **비용 모델:**(포트폴리오가 있는 광고주) 검색, 비용 양, 각 위치 또는 배치를 얻는 데 필요한 입찰, 내역 데이터 및 수학 예측 기술을 사용하여 각 입찰 단위에 대한 CPC(검색) 또는 CPM(디스플레이)을 예측하는 소셜 및 Commerce 기술.
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 **최소 입찰:** 1) 노출 당 또는 1000노출 당 최소 지불 금액입니다. 2) 검색 키워드의 경우 품질 점수를 기반으로 주어진 키워드에 필요한 최소 입찰가입니다. 최소 입찰가는 일반적으로 키워드가 광고를 표시하기 위해 클릭당 지불할 수 있는 최소 금액입니다.
 
-**모델 정확도:**(포트폴리오가 있는 광고주) 입찰, 예산 및 포트폴리오 타겟을 최적화하는 데 사용되는 비용 모델 및 수익 모델의 정확도 백분율입니다. &quot;비용 모델&quot;, &quot;비용 정확도&quot;, &quot;수익 모델&quot; 및 &quot;수익 정확도&quot;를 참조하십시오.  [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 비용 및 수익 모델의 정확도를 나타냅니다.
+**모델 정확도:**(포트폴리오가 있는 광고주) 포트폴리오의 입찰, 캠페인 예산 및 입찰 전략 타겟을 최적화하는 데 사용되는 비용 모델 및 수익 모델의 정확도 백분율입니다. &quot;비용 모델&quot;, &quot;비용 정확도&quot;, &quot;수익 모델&quot; 및 &quot;수익 정확도&quot;를 참조하십시오.  [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 비용 및 수익 모델의 정확도를 나타냅니다.
 
 ## O-P {#o-p}
 
