@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: ' [!DNL Google Ads] 캠페인에 대한 설정을 참조합니다.'
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
+source-git-commit: ba85bd47c6d6f145aef31688b2bd69cdc94f33f0
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2576'
 ht-degree: 0%
 
 ---
@@ -196,6 +196,18 @@ ht-degree: 0%
 
 {{$include /help/_includes/dsa-language.md}}
 
+## [!UICONTROL Customer Acquisition Goals]
+
+**[!UICONTROL Customer Acquisition]:**(성과 최대 및 검색 캠페인만 해당) 새 고객 및 기존 고객에 대한 입찰을 할당하는 방법:
+
+* *[!UICONTROL Bid equally for new and existing customers]*
+
+* *[!UICONTROL Bid higher for new customers than for existing customers]*
+
+  **참고:** 이 설정을 사용하려면 먼저 [!DNL Google Ads] 계정에 대해 새 고객 확보 목표를 활성화해야 하며, 해당하는 경우 관리자 계정에 대해 새 고객 확보 목표를 활성화해야 합니다. 목표는 적격한 기존 고객 목록과 전환 설정에서 새 고객에 대한 추가 전환 값을 정의합니다. [!DNL Google Ads] 도움말의 1-2단계 &quot;[새 고객 확보 목표 활성화](https://support.google.com/google-ads/answer/14007601)&quot;를 참조하십시오.
+
+* *[!UICONTROL Only bid for new customers]*
+
 ## [!UICONTROL Negative Keywords]
 
 <!-- **[!UICONTROL Negative Keywords]:** -->
@@ -368,4 +380,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [캠페인 관리](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-
