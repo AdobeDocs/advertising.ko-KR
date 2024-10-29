@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: '[!UICONTROL Channel Assist Report]에 대해 알아봅니다.'
 exl-id: 67bce347-2776-4585-adb4-e1a4d76fbadc
 feature: Search Reports, Search Assist Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 45920c6ea9d2953c963ddf6472966b3fc3a91395
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -14,8 +14,7 @@ ht-degree: 0%
 
 *검색, 소셜 및 Commerce 클릭 추적 및 Adobe Advertising, Adobe Analytics([!DNL Analytics] 통합 포함)의 전환 추적 또는 토큰(`ef_id`)만 사용하여 피드로 제공되는 광고주*
 
-[!UICONTROL Channel Assist Report]은(는) 다양한 마케팅 채널(검색, 소셜 및 Commerce의 검색 또는 소셜, Advertising DSP의 디스플레이 또는 비디오)이 전환 프로세스를 어떻게 지원했는지 나타냅니다. 이 보고서는 하나 이상의 전환으로 이어진 각 이벤트 유형 패턴이 전체 전환에 어떻게 기여했는지 보여 줍니다. 예를 들어, 사용자가 디스플레이 광고 노출을 처음 본 다음 검색 광고를 클릭한 다음 클릭했을 때 발생한 전환 수를 볼 수 있습니다
-주문하거나, 사용자가 10개 이상의 광고와 상호 작용한 후 발생한 전환 수를 볼 수 있습니다. 이벤트 유형에는 검색 클릭, 디스플레이 노출 횟수 및 클릭 수, 비디오 노출 횟수 및 클릭 수, 기타 노출 횟수 및 기타 클릭 수가 포함됩니다. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
+[!UICONTROL Channel Assist Report]은(는) 다양한 마케팅 채널(검색, 소셜 및 Commerce의 검색 또는 소셜, Advertising DSP의 디스플레이 또는 비디오)이 전환 프로세스를 어떻게 지원했는지 나타냅니다. 이 보고서는 하나 이상의 전환으로 이어진 각 이벤트 유형 패턴이 전체 전환에 어떻게 기여했는지 보여 줍니다. 예를 들어, 사용자가 디스플레이 광고 노출을 처음 본 다음 검색 광고를 클릭한 다음 주문했을 때 얼마나 많은 전환이 발생했는지 보거나, 사용자가 10개 이상의 광고와 상호 작용한 후 얼마나 많은 전환이 발생했는지 볼 수 있습니다. 이벤트 유형에는 검색 클릭, 디스플레이 노출 횟수 및 클릭 수, 비디오 노출 횟수 및 클릭 수, 기타 노출 횟수 및 기타 클릭 수가 포함됩니다. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
 
 보고서 결과에는 광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 전환 경로의 각 이벤트 유형(최대 N개의 가장 이른 이벤트 유형)에 대한 집계된 데이터가 포함됩니다. 예를 들어, 경로 크기 5를 선택하는 경우 보고서에는 추적된 이벤트 유형의 각 패턴에 대해 하나의 행이 있는, 가장 이른 이벤트 5개까지 포함된 전환 경로가 포함됩니다(예: &quot;검색 클릭&quot;, &quot;노출 표시&quot;). 각 행에는 경로의 첫 번째 이벤트와 전환을 초래한 마지막 이벤트를 포함한 한 가지 이벤트 패턴이 표시됩니다(마지막 이벤트가 지정된 경로 크기를 벗어난 경우에도). 기본적으로 행은 경로에 있는 이벤트 수만큼 오름차순으로 정렬됩니다.
 
