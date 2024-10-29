@@ -3,7 +3,7 @@ title: 캠페인 관리
 description: 광고 캠페인을 만들고 관리하는 방법을 알아봅니다.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 821342d502dd253661cdc7ca62d16b0ae22624a0
+source-git-commit: 3af579ad61dd05f0d2b1e565c5b1532cebaeebe1
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    여러 캠페인의 경우 설정은 광고 네트워크에 따라 [!UICONTROL Campaign Details], [!UICONTROL Budget Options] 및 [!UICONTROL URL Options](으)로 그룹화될 수 있습니다. 선택한 모든 캠페인에 공통되는 필드만 편집할 수 있으며 변경 사항은 선택한 모든 캠페인에 적용됩니다. 일부 영숫자 필드의 경우 기존 값을 지정된 값으로 변경하거나, 기존 문자열을 지정된 문자열로 대체하거나, 각 값의 시작 부분에 지정된 접두사를 추가하거나, 각 값의 끝에 접미사를 추가하는 옵션이 있습니다. 일부 통화 필드의 경우, 기존 값을 지정된 값으로 변경하거나, 특정 백분율 또는 통화 금액만큼 금액을 제한으로 늘리거나 줄이는 옵션이 있습니다.
 
-   단일 캠페인의 경우 설정이 [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options] 및 [!UICONTROL (Google) DSA Options](으)로 그룹화될 수 있습니다. 사용 가능한 경우 [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] 또는 [!UICONTROL Campaign Goals]에 대한 추가 설정을 구성하려면 각각 **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** 또는 **[!UICONTROL Set Campaign Goals]**&#x200B;을 클릭합니다.
+   단일 캠페인의 경우 설정이 [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], [!UICONTROL (Google) DSA Options] 및 ([!DNL Google Ads]) [!UICONTROL Customer Acquisition Goals](으)로 그룹화될 수 있습니다. 사용 가능한 경우 [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] 또는 [!UICONTROL Campaign Goals]에 대한 추가 설정을 구성하려면 각각 **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** 또는 **[!UICONTROL Set Campaign Goals]**&#x200B;을 클릭합니다.
 
 1. 데이터를 저장합니다.
 
