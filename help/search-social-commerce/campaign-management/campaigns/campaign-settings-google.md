@@ -3,7 +3,7 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: ' [!DNL Google Ads] 캠페인에 대한 설정을 참조합니다.'
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: ba85bd47c6d6f145aef31688b2bd69cdc94f33f0
+source-git-commit: ae98579b6b2edb54de5753e84891987a88184515
 workflow-type: tm+mt
 source-wordcount: '2576'
 ht-degree: 0%
@@ -14,8 +14,7 @@ ht-degree: 0%
 
 ## \[캠페인 만들기 화면\]
 
-**[!UICONTROL Campaign Type]:**(캠페인 생성 중에만 사용 가능) 광고 위치와 광고 유형
-캠페인에는 다음이 포함될 수 있습니다.
+**[!UICONTROL Campaign Type]:**(캠페인 생성 중에만 사용 가능) 광고를 배치할 위치와 캠페인에 포함될 수 있는 광고 유형:
 
 * *[!UICONTROL Search Network Only]:* 검색 네트워크에 [!DNL Google]개의 검색 결과와 선택적으로 검색 파트너 사이트를 포함하는 광고를 표시합니다. 각 광고 그룹에 대해 키워드를 지정해야 합니다.
 
@@ -33,19 +32,19 @@ ht-degree: 0%
 
    * [!DNL Google Merchant Center] 제품 피드에 대한 링크는 지원되지 않습니다.
 
-   * 목록 그룹 지원을 사용할 수 없습니다. 목록 그룹에 대한 데이터를 관리하고 보려면 [!DNL Google Ads] 편집기에 로그인하십시오.
+   * 목록 그룹에 대한 지원을 사용할 수 없습니다. 목록 그룹에 대한 데이터를 관리하고 보려면 편집기 편집기에 [!DNL Google Ads] 로그인합니다.
 
-   * 하이브리드 최적화가 지원됩니다. 입찰 전략 목표와 캠페인 예산은 캠페인 수준에서 설정됩니다.
+   * 하이브리드 최적화가 지원됩니다. 입찰 전략 타겟 및 캠페인 예산은 캠페인 수준에서 설정됩니다.
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** 계정 내에서 고유한 캠페인 이름.
+**[!UICONTROL Campaign Name]:** 계정 내에서 고유한 캠페인 이름입니다.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Audience Target Method]:**(기존, 읽기 전용 Gmail 캠페인만 해당) 다음을 수행할지 여부:
+**[!UICONTROL Audience Target Method]:**(기존의 읽기 전용 Gmail 캠페인만 해당) 다음 여부:
 
 * *[!UICONTROL Target and Bid]* 광고 그룹의 다른 타겟을 충족시키는 타겟 대상자와 연결된 사용자에게만 광고를 표시합니다.
 
@@ -78,7 +77,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPC]*(기본값): (성과 최대 캠페인에는 사용할 수 없음) 클릭당 비용(CPC) 모델을 사용합니다. 광고 네트워크에서 캠페인에 대한 입찰을 변경하도록 허용할 수 있습니다(선택적).
 
-   * **[!UICONTROL Enable Enhanced CPC]**(기본적으로 비활성화됨): &quot;[!UICONTROL Enhanced CPC]&quot; 옵션을 사용하는 것과 같습니다.
+   * **[!UICONTROL Enable Enhanced CPC]** (기본적으로 비활성화됨): &quot;[!UICONTROL Enhanced CPC]&quot; 옵션을 사용하는 것과 같습니다.
 
 * *[!UICONTROL Maximize Clicks]:*(검색, 표시 및 쇼핑 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 클릭수를 최대화하기 위해 입찰을 최적화합니다. 선택적으로 **[!UICONTROL Max CPC]**(클릭당 비용)을 입력하여 광고 네트워크가 클릭당 특정 금액 이상을 지불하지 않도록 합니다. **주의:** 이 전략을 사용하는 캠페인을 포트폴리오에 추가하면 입찰이 포트폴리오 목표가 아니라 클릭 가중치에 의해 결정됩니다.
 
@@ -159,7 +158,7 @@ ht-degree: 0%
 
    * 반경 타겟.
 
-   * [!DNL Google Ads]이(가) 서퍼의 URL에서 상위 위치를 보내지 않는 주/도/지역/군/현 수준 아래의 일부 위치(공항 및 미국 의회 지구 포함).
+   * 공항과 미국 하원의원 선거구를 포함하여 서퍼의 URL에서 상위 위치를 전송하지 않는 주/도/지역/카운티/현 수준 [!DNL Google Ads] 아래의 일부 위치.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -167,10 +166,10 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced Device Options]
 
-**[!UICONTROL Mobile Carriers]:**(네트워크 표시 전용) 특정 이동통신사를 대상으로 합니다. 통신사는 정렬됩니다.
-국가별로. 아무 것도 선택하지 않으면 모두 타겟팅됩니다.
+**[!UICONTROL Mobile Carriers]:** (디스플레이 네트워크만 해당) 타겟 지정할 특정 이동통신사. 이동통신사가 정렬됨
+국가별로. 선택하지 않으면 모두 타깃팅됩니다.
 
-**[!UICONTROL Mobile Carriers]:**(네트워크 표시 전용) 특정 운영 체제를 대상으로 합니다. 아무 것도 선택하지 않으면 모두 타겟팅됩니다.
+**[!UICONTROL Mobile Carriers]:** (디스플레이 네트워크만 해당) 타겟 지정할 특정 운영 체제. 선택하지 않으면 모두 타깃팅됩니다.
 
 ## [!UICONTROL URL Options]
 
@@ -198,13 +197,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Customer Acquisition Goals]
 
-**[!UICONTROL Customer Acquisition]:**(성과 최대 및 검색 캠페인만 해당) 새 고객 및 기존 고객에 대한 입찰을 할당하는 방법:
+**[!UICONTROL Customer Acquisition]:** (실적 최대화 캠페인 및 검색 캠페인만 해당) 신규 고객 및 기존 고객에 대한 입찰가를 할당하는 방법:
 
 * *[!UICONTROL Bid equally for new and existing customers]*
 
 * *[!UICONTROL Bid higher for new customers than for existing customers]*
 
-  **참고:** 이 설정을 사용하려면 먼저 [!DNL Google Ads] 계정에 대해 새 고객 확보 목표를 활성화해야 하며, 해당하는 경우 관리자 계정에 대해 새 고객 확보 목표를 활성화해야 합니다. 목표는 적격한 기존 고객 목록과 전환 설정에서 새 고객에 대한 추가 전환 값을 정의합니다. [!DNL Google Ads] 도움말의 1-2단계 &quot;[새 고객 확보 목표 활성화](https://support.google.com/google-ads/answer/14007601)&quot;를 참조하십시오.
+  **참고:** 이 설정을 사용하려면 먼저 계정 또는 해당하는 경우 관리자 계정에 대해 [!DNL Google Ads] 새 고객 확보 목표를 활성화해야 합니다. 목표는 적격한 기존 고객 목록과 전환 설정에서 새 고객에 대한 추가 전환 값을 정의합니다. [!DNL Google Ads] 도움말의 1-2단계 &quot;[새 고객 확보 목표 활성화](https://support.google.com/google-ads/answer/14007601)&quot;를 참조하십시오.
 
 * *[!UICONTROL Only bid for new customers]*
 
@@ -274,13 +273,13 @@ ht-degree: 0%
 
       1. 종횡비를 선택합니다.
 
-      1. 필요에 따라 자르기 상자를 끌어서 놓고 이미지의 볼 수 있는 부분을 선택한 다음 필요할 경우 이미지의 볼 수 있는 부분의 크기를 조정합니다.
+      1. 필요에 따라 자르기 상자를 끌어 배치하여 이미지에서 볼 수 있는 부분을 선택하고 가능한 경우 이미지에서 볼 수 있는 부분의 크기를 필요에 따라 조정합니다.
 
-      1. (선택 사항) 추가 종횡비를 선택하고 선택한 각 종횡비에 필요한 경우 이미지의 위치를 변경하고 크기를 선택적으로 조정합니다.
+      1. (선택 사항) 추가 종횡비를 선택하고, 선택적으로 선택한 각 종횡비에 대해 필요에 따라 이미지의 위치 및 크기를 조정합니다.
 
-         선택한 각 종횡비에 대해 하나의 에셋이 만들어집니다.
+         선택한 각 종횡비에 대해 자산 하나가 만들어집니다.
 
-      1. **[!UICONTROL Proceed]**&#x200B;을(를) 클릭합니다.
+      1. 을 누르십시오 **[!UICONTROL Proceed]**.
 
    1. 이미지 지정을 마치면 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
@@ -350,11 +349,11 @@ ht-degree: 0%
 
 * [!UICONTROL Asset Library]에서 자산을 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 자산을 선택하십시오.
 
-**[!UICONTROL Call to Action]:** 광고에 포함할 작업에 대한 호출입니다. 기본적으로 *[!UICONTROL Automated]*&#x200B;이(가) 선택되어 있고 [!DNL Google Ads]이(가) 콜 투 액션을 선택합니다. 선택적으로 다른 작업을 선택할 수 있습니다.
+**[!UICONTROL Call to Action]:** 광고에 포함할 작업에 대한 호출입니다. 기본적으로 *[!UICONTROL Automated]* 이 선택되어 있으며 [!DNL Google Ads] 클릭 유도문안을 선택합니다. 선택적으로 다른 작업을 선택할 수 있습니다.
 
-**[!UICONTROL Business Name]:** 비즈니스 이름으로, 최대 25자입니다.
+**[!UICONTROL Business Name]:** 최대 25자의 회사 이름입니다.
 
-**[!UICONTROL Audience Signal]:**(선택 사항) 캠페인을 위한 대상 신호로 사용할 대상 [!DNL Google Ads]개. [!DNL Google Ads] 기계 학습 모델은 대상을 사용하여 타깃팅할 유사한 웹 서퍼를 찾고, 성능 목표를 충족하는 데 도움이 되도록 신호로 지정되지 않은 대상에 광고를 표시할 수도 있습니다. 변환할 가능성이 가장 큰 대상을 선택하십시오.
+**[!UICONTROL Audience Signal]:** (선택 사항) [!DNL Google Ads] 캠페인의 대상자 신호로 사용할 대상입니다. [!DNL Google Ads] 머신러닝 모델은 잠재고객을 사용하여 타겟 유사한 웹 서퍼를 찾고, 실적 목표를 달성하는 데 도움이 되는 신호로 지정되지 않은 잠재고객에게 광고를 게재할 수도 있습니다. 전환할 가능성이 가장 높은 대상을 선택합니다.
 
 >[!NOTE]
 >대상자 신호가 [캠페인 수준 및 광고 그룹 수준의 대상자 대상](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)과(와) 다릅니다.
