@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 281ab6a76b34b718281e5e656e4b29ecaf608bd3
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '932'
 ht-degree: 3%
 
 ---
@@ -46,11 +46,12 @@ ht-degree: 3%
       + [Campaign 보관 또는 보관 해제](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [캠페인에 대한 변경 로그 보기](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [캠페인 설정](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+      + [일괄 시트를 사용하여 캠페인 구성 요소 설정 검토 및 편집](/help/dsp/campaign-management/campaign-components-review-edit.md)
       + [Campaign 시작 검사 목록](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + 패키지 {#packages}
       + [패키지 관리 정보](/help/dsp/campaign-management/packages/package-about.md)
       + [패키지 만들기](/help/dsp/campaign-management/packages/package-create.md)
-      + [스프레드시트를 사용하여 패키지 설정 검토 및 편집](/help/dsp/campaign-management/packages/package-qa.md)
+      + [일괄 시트를 사용하여 패키지 설정 검토 및 편집](/help/dsp/campaign-management/packages/package-qa.md)
       + [패키지 편집](/help/dsp/campaign-management/packages/package-edit.md)
       + [패키지 복제](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [패키지에 배치 첨부](/help/dsp/campaign-management/packages/package-attach-placement.md)
@@ -61,7 +62,7 @@ ht-degree: 3%
    + 배치 {#placements}
       + [배치 관리 정보](/help/dsp/campaign-management/placements/placement-about.md)
       + [배치 만들기](/help/dsp/campaign-management/placements/placement-create.md)
-      + [스프레드시트를 사용하여 배치 설정 검토 및 편집](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [일괄 시트를 사용하여 배치 설정 검토 및 편집](/help/dsp/campaign-management/placements/placement-qa.md)
       + [배치 편집](/help/dsp/campaign-management/placements/placement-edit.md)
       + [배치 복제](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [배치에 대한 입찰 승수 관리](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
@@ -203,7 +204,7 @@ ht-degree: 3%
    + [사용자 지정 보고서 다운로드](/help/dsp/reports/report-download.md)
    + [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
    + [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
-   + [세대 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md)
+   + [세대 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)
    + 보고서 대상 {#report-destinations}
       + [[!UICONTROL Report Destinations] 정보](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [[!UICONTROL Report Destination] 만들기](/help/dsp/reports/report-destinations/report-destination-create.md)

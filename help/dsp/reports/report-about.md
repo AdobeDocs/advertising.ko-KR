@@ -3,7 +3,7 @@ title: 사용자 정의 보고서 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 691c0097a81ee5066448fc411dc3de8f853e9bbd
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 0%
@@ -73,9 +73,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Site]:** 기본적으로 표준 지표, 사이트별 총 미디어 순 지출 및 총 청구 가능 순 지출을 포함합니다.
 
-   * **[!UICONTROL Household Reach & Frequency]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 단일 차원에 대한 노출 횟수, 도달 범위 및 빈도를 확인할 수 있습니다. 인사이트를 사용하여 미디어 믹스를 최적화하고, 성능을 개선하고, 증분 도달 기회를 식별합니다. 자세한 내용은 &quot;[가구 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md)&quot;를 참조하십시오. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
+   * **[!UICONTROL Household Reach & Frequency]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 단일 차원에 대한 노출 횟수, 도달 범위 및 빈도를 확인할 수 있습니다. 인사이트를 사용하여 미디어 믹스를 최적화하고, 성능을 개선하고, 증분 도달 기회를 식별합니다. 자세한 내용은 &quot;[가구 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
 
-   * **[!UICONTROL Household Conversions]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 뷰스루 전환을 볼 수 있습니다. 이 인사이트를 사용하여 캠페인 성과를 측정하고 최적화할 수 있습니다. 자세한 내용은 &quot;[가구 보고서에 대한 FAQ](/help/dsp/reports/faq-household-report.md)&quot;를 참조하십시오. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
+   * **[!UICONTROL Household Conversions]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 뷰스루 전환을 볼 수 있습니다. 이 인사이트를 사용하여 캠페인 성과를 측정하고 최적화할 수 있습니다. 자세한 내용은 &quot;[가구 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
 
    * **[!UICONTROL Path to Conversion Beta]:**(Beta 기능) 이 보고서를 사용하여 성과가 가장 좋은 광고 상호 작용 시퀀스를 기반으로 예산을 최적화하고 광고를 개인화하는 방법을 확인하십시오. 이 보고서는 지정된 데이터 범위에서 선택한 각 전환 지표를 유도하는 동일한 가구의 상호 작용 포인트 시퀀스를 보여 줍니다. 보고서는 첫 번째 상호 작용과 전환 사이에 지정된 전환 확인 기간을 사용하며 다음 차원 하나를 포함할 수 있습니다.
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 >* [사용자 지정 보고서 만들기](/help/dsp/reports/report-create.md)
 >* [사용자 지정 보고서 다운로드](/help/dsp/reports/report-download.md)
 >* [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
->* 가족 보고서 관련 [FAQ](/help/dsp/reports/faq-household-report.md)
+>* 가족 보고서 관련 [FAQ](/help/dsp/reports/faq-reports.md)
 >* [Campaign Management 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
 >* [정보 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
