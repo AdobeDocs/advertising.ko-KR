@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: be229b54dcdaa3386c7c3c658dd8f2434b51e5e8
+source-git-commit: 0e91fa93e8de53edda81dd5321eeca4682ad0c13
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 \* *[!UICONTROL Account]*&#x200B;은(는) 조직이 [교차 계정 보고](report-about.md#cross-account-reporting)에 대해 구성된 경우에만 다음 보고서 유형에 사용할 수 있습니다. [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] 및 [!UICONTROL Conversion]. 교차 계정 보고에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:**(전환 경로, 경로 길이 및 전환 시간 보고서만 해당) Advertising 검색, 소셜 및 Commerce의 검색 광고 클릭에 대한 데이터를 포함합니다. 이 옵션을 선택하면 포함할 검색, 소셜 및 Commerce 캠페인을 선택합니다.
+**[!UICONTROL Include data from Adobe Advertising SSC]:**(전환 경로, 경로 길이 및 전환 시간 보고서만 해당) 지정된 Advertising 검색, 소셜 및 Commerce 캠페인의 검색 광고 클릭에 대한 데이터를 포함합니다. 이 옵션을 선택하면 **필터 기준[!UICONTROL SSC Account]** 필터를 사용하여 검색, 소셜 및 Commerce 계정을 선택합니다. 그런 다음 **필터 기준[!UICONTROL SSC Campaign]** 필터를 사용하여 캠페인을 선택하십시오. 여러 캠페인을 선택하려면 두 번째 및 후속 캠페인에 대해 **[!UICONTROL Add Criteria]**&#x200B;을(를) 클릭하십시오.
 
 ## [!UICONTROL Build Your Report] 섹션
 
