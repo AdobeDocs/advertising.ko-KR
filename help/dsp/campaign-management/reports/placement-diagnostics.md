@@ -3,9 +3,9 @@ title: 배치 진단 보고서 보기
 description: 배치 설정 및 게재 간격 관련 문제를 진단하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1f8fd9d267aba0858b18c0b5a9b4a693e2b62468
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,8 @@ ht-degree: 0%
    * DSP이 배치에 입찰하지 않은 이유를 확인하려면:
 
       1. 오른쪽 상단에서 **[!UICONTROL Non Bids]**&#x200B;을(를) 클릭합니다.
+
+      1. (선택 사항) 특정 비공개 거래 대상별로 배치를 필터링하려면 거래를 선택합니다. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
       1. (선택 사항) 날짜 범위를 변경하려면 날짜 필드를 클릭하고 다른 날짜 또는 날짜 범위를 선택합니다.
 
