@@ -3,9 +3,9 @@ title: 비공개 거래에 대한 배치 및 광고 나열
 description: 비공개 거래와 연계된 배치 및 광고 목록을 여는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: a820c5b8162953c34978e79e1ce9efe51f4063d4
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 
 1. (선택 사항) 다음 중 하나를 수행합니다.
 
+   * 비공개 거래에서 배치를 입찰할 수 없는 이유를 보려면 배치 행 위에 커서를 놓고 **[!UICONTROL Non bid reasons]**&#x200B;을(를) 클릭합니다.
+
    * 배치 설정을 편집하려면 배치 행 위에 커서를 놓고 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다. [배치 설정을 편집](/help/dsp/campaign-management/placements/placement-settings.md)한 다음 **[!UICONTROL Update placement]**&#x200B;을(를) 클릭합니다.
 
    * 배치의 인벤토리 대상에서 거래를 제거하려면 배치 행 위에 커서를 놓고 **[!UICONTROL More]** > **[!UICONTROL Detach Placement]**&#x200B;을(를) 클릭합니다. 확인 메시지에서 **[!UICONTROL Yes]**&#x200B;을(를) 클릭합니다.
@@ -35,3 +37,4 @@ ht-degree: 0%
 >* [개인 인벤토리 정보](private-inventory-about.md)
 >* [거래 ID에 대한 배치 및 광고 지정](deal-id-attach-placements.md)
 >* [거래에 대한 자세한 보고서 보기](deal-view-report.md)
+>* [배치 진단 보고서 보기](/help/dsp/campaign-management/reports/placement-diagnostics.md)
