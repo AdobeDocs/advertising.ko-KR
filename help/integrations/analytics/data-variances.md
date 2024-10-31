@@ -3,7 +3,7 @@ title: ' [!DNL Analytics] 과(와) Adobe Advertising 사이의 예상 데이터 
 description: ' [!DNL Analytics] 과(와) Adobe Advertising 사이의 예상 데이터 분산'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
+source-git-commit: 6470ed471c60477bf19cf9b125f0250136f31511
 workflow-type: tm+mt
 source-wordcount: '3358'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Adobe Advertising 보고서와 [!DNL Analytics] 보고서 간의 뷰스루 전�
 >
 >혼동을 방지하기 위해 [!DNL Analytics]은(는) 보고 인터페이스에서 내역 데이터를 사용할 수 없게 합니다. [!DNL eVar]을(를) 다시 초기 할당 설정으로 변경하면 내역 데이터를 볼 수 있습니다. 단, 내역 데이터에 액세스하기 위해 [!DNL eVar] 할당 설정을 변경해서는 안 됩니다. Adobe은 이미 많은 내역 데이터가 있는 [!DNL eVar]에 대한 할당 설정을 변경하는 대신 이미 기록되고 있는 데이터에 대해 새 할당 설정을 적용하려는 경우 새 [!DNL eVar]을(를) 사용하는 것을 권장합니다.
 
-[https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html)에서 [!DNL Analytics] 속성 모델 및 해당 정의 목록을 참조하십시오.
+[https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)에서 [!DNL Analytics] 속성 모델 및 해당 정의 목록을 참조하십시오.
 
 [!DNL Search, Social, & Commerce]에 로그인한 경우 목록을 찾을 수 있습니다.
 
