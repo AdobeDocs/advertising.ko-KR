@@ -3,9 +3,9 @@ title: 사용자 정의 보고서 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,13 @@ ht-degree: 0%
 
      최대 10개의 최신 상호 작용 지점이 포함됩니다. 경로 행은 전환 횟수별로 정렬됩니다.
 
-   * **[!UICONTROL Path Length Beta]:**(Beta 기능) 전환에 필요한 사용자 상호 작용 지점의 수를 기반으로 광고 빈도를 관리하려면 이 보고서를 사용하십시오. 이 보고서는 사용자가 광고 상호 작용을 한 번, 광고 상호 작용을 두 번 한 후 발생한 전환 수와 같이 경로 길이(상호 작용 지점)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다.
+     이 보고서를 [!DNL Advanced Measurement Services] 및 Adobe 분석에서 만든 보고서와 비교하려면 &quot;[사용자 지정 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오.
+
+   * **[!UICONTROL Path Length Beta]:**(Beta 기능) 이 보고서를 사용하여      최적의 광고 빈도를 선택할 수 있도록 시간 경과에 따른 전환에 필요한 사용자 상호 작용 지점 수를 추적합니다. 이 보고서는 사용자가 광고 상호 작용을 한 번, 광고 상호 작용을 두 번 한 후 발생한 전환 수와 같이 경로 길이(상호 작용 지점)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다.
 
      데이터는 최대 10의 각 경로 길이에 대해 표시되며, 10보다 큰 경로 길이에 대한 데이터는 함께 그룹화됩니다.
 
-   * **[!UICONTROL Time to Conversion Beta]:**(Beta 기능) 이 보고서를 사용하여 최적의 속성 전환 확인 기간을 결정하고 재타겟팅할 새 기회를 식별합니다. 이 보고서는 마지막 상호 작용(광고 노출 또는 클릭)에서 전환까지의 시간(일)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다. 전환 확인 기간보다 오래 걸리는 전환은 한 행으로 그룹화됩니다(예: 보고서에서 30일 전환 확인 기간을 사용하는 경우, 발생하는 데 30일 이상 걸리는 모든 전환은 &quot;[!UICONTROL Time Taken (in days)]&quot; 값이 &quot;30+&quot;인 행으로 그룹화됨).
+   * **[!UICONTROL Time to Conversion Beta]:**(Beta 기능) 이 보고서를 사용하여 최적의 속성 전환 확인 기간을 결정하고 전환 시간이 더 긴 캠페인을 식별하십시오. 전환 시간이 더 길어질 수 있으며, 이는 재타겟팅의 이점을 얻을 수 있습니다. 이 보고서는 마지막 상호 작용(광고 노출 또는 클릭)에서 전환까지의 시간(일)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다. 전환 확인 기간보다 오래 걸리는 전환은 한 행으로 그룹화됩니다(예: 보고서에서 30일 전환 확인 기간을 사용하는 경우, 발생하는 데 30일 이상 걸리는 모든 전환은 &quot;[!UICONTROL Time Taken (in days)]&quot; 값이 &quot;30+&quot;인 행으로 그룹화됨).
 
 ## 교차 계정 보고 {#cross-account-reporting}
 
