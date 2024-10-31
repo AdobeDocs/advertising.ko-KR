@@ -2,9 +2,9 @@
 title: 사용자 정의 보고서에 대한 FAQ
 description: 세대 보고서 및 전환 경로 분석 보고서를 포함하여 사용자 지정 보고서에 대해 자세히 알아보십시오.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,9 @@ ht-degree: 0%
 
 ## 전환 경로 분석 보고서
 
-### 전환 경로 보고서는 [!DNL Advanced Measurement Services] 및 Adobe Analytics에서 만든 보고서와 어떻게 비교됩니까?
+### 전환 경로 보고서는 [!DNL Advanced Measurement Services] 및 Adobe Analytics Analysis Workspace에서 만든 보고서와 어떻게 비교됩니까?
 
-| | 전환 보고서 경로 | 검색 보고에 대한 Advanced Measurement Services Halo 효과 | Adobe Analytics Workspace 보고서 |
+| | 전환 보고서 경로 | 검색 보고에 대한 Advanced Measurement Services Halo 효과 | Analysis Workspace의 보고서 |
 | --- | --- | --- |---|
 | 고객 가치 | 셀프 서비스 사용자 지정 보고서를 생성하여 최적화를 높이기 위해 전환된 광고 여정의 경로를 파악합니다. | 검색 클릭에 대한 연결된 TV(CTV) 전술의 영향 이해 | 검색 클릭에 대한 다른 마케팅 채널과 함께 전체적인 Adobe Advertising 투자의 영향을 이해합니다 |
 | 가구 수준 | 예 | 예 | 아니요 |
