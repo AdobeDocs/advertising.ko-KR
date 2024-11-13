@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 66779bea5bdf43652f8fa49852f293b1bc49e968
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024년 11월 13일 | [!DNL Analytics for Advertising] | ([!DNL Analytics for Advertising] 및 Adobe Customer Journey Analytics이 있는 광고주) 예약된 변수를 사용하여 AMO ID 및 EF ID를 캡처하는 경우 가능한 한 빨리 AMO ID 및 EF ID에 대한 예약된 변수를 표준 [!DNL eVars]에 복사하여 Adobe Advertising과 Adobe Customer Journey Analytics 간의 향후 통합을 준비할 수 있습니다. 이를 통해 작업을 완료하는 즉시 AMO ID 및 EF ID에 대한 내역 데이터를 수집할 수 있으며 내역 데이터는 나중에 사용할 수 있습니다. 예약된 변수를 사용하며 이 작업을 완료해야 하는 경우 Adobe 계정 팀에 알려줍니다. | &quot;[Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집](/help/integrations/analytics/rvars-to-evars.md)&quot;을 참조하십시오. |
 | 2023년 12월 16일 | 도움말 | 새 문서에서는 검색, 소셜 및 Commerce의 광고에서 클릭스루 트래픽에 대해 [!DNL Target]에서 A/B 테스트를 설정하는 방법과 [!DNL Analytics]에서 테스트를 측정하고 시각화하는 방법에 대한 팁을 설명합니다. | &quot;[Adobe Target에서 검색, 소셜 및 Commerce 광고에 대한 A/B 테스트 구성](/help/integrations/target/ab-tests-search.md)&quot;을 참조하십시오. |
 | 2023년 8월 8일 | [!DNL Analytics for Advertising] | 표준, 사용자 지정 및 예약 전환 지표와 트래픽 지표를 포함한 일부 [!DNL Analytics] 성공 이벤트 지표는 DSP과 검색, 소셜 및 Commerce에서 자동으로 사용할 수 있습니다. 이제 [!DNL eVar] 및 [!DNL prop] 수준의 데이터를 사용자 지정 성공 이벤트에 통합하여 기존 [!DNL Analytics] [!DNL eVars] 및 [!DNL props]을(를) 기반으로 나만의 성공 지표를 구성할 수도 있습니다. | &quot;[Adobe Analytics에서 전환 지표 만들기 [!DNL eVars] 및 [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)&quot;를 참조하십시오. |
 | 2023년 7월 13일 | 보고 | (DSP 사용자 [!DNL Analytics for Advertising]) 연결된 TV(CTV) 배치에 대한 뷰스루 전환이 이제 Adobe Analytics 내에서 사용할 수 있는 전환 데이터에 포함됩니다. | &quot;[개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples)&quot;에서 &quot;통합 사용 방법의 예&quot; 섹션을 참조하십시오. |
