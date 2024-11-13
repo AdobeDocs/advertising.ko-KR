@@ -4,10 +4,10 @@ user-guide-description: Advertising DSP 및 Advertising Search와 다른 Adobe E
 breadcrumb-title: Experience Cloud와 통합
 role: User, Developer
 index: true
-source-git-commit: 41029d46df032a7fdf5b215df1c9413b4ae08a8c
+source-git-commit: 9f3550c97ffe045a16df9d7bccf7a8c70f1ed7b0
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 11%
+source-wordcount: '232'
+ht-degree: 10%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 11%
       + [ [!DNL Analytics for Advertising]을(를) 구현하기 위한 필수 구성 요소 및 키 정보](/help/integrations/analytics/prerequisites.md)
       + [(DSP)  [!DNL Analytics for Advertising]에 대한 JavaScript 코드](/help/integrations/analytics/javascript.md)
       + [Adobe Experience Platform과  [!DNL Last Event Service] JavaScript 라이브러리 사용 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
+      + [Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집](/help/integrations/analytics/rvars-to-evars.md)
       + (DSP) 광고 태그 {#macros}에 대한 매크로
          + [ [!DNL Flashtalking] 광고 태그에  [!DNL Analytics for Advertising] 매크로 추가](/help/integrations/analytics/macros-flashtalking.md)
          + [ [!DNL Google Campaign Manager 360] 광고 태그에  [!DNL Analytics for Advertising] 매크로 추가](/help/integrations/analytics/macros-google-campaign-manager.md)
