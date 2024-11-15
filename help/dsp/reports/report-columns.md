@@ -3,7 +3,7 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 6afc297fee8ebf94605c5bc1fceafe4a903387a5
+source-git-commit: 15ce5490ae12fd0c50e4a178f8cb642078c4e847
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 0%
@@ -137,9 +137,6 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | <code>[!UICONTROL Net Spend]/[!UICONTROL 100% Completions]에 의해 계산된 완료된 비디오 보기당 평균 순 비용</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | <code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000으로 계산된 1000회 노출당 평균 순 비용</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | <code>[!UICONTROL Net Spend]/[!UICONTROL Views]에 의해 계산된 비디오 보기당 평균 순 비용</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Data eCPM] | <code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000으로 계산된 1000회 노출당 평균 순 데이터 비용입니다.</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | <code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000으로 계산된 1000회 노출당 평균 순 미디어 비용</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | 기타 수수료에 대한 1000회 노출당 평균 순 비용, <code>[!UICONTROL Net Spend (Other)]/[!UICONTROL Impressions] x 1000으로 계산됨</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | 최대 CPM에서 입찰한 총 입찰의 백분율입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | DSP이 배치를 위해 입찰한 고유한 사용자 수입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | DSP을 통해 청구된 대상 세그먼트 데이터 요금의 총 순 비용입니다. |
@@ -156,10 +153,13 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | DSP을 통해 청구되지 않은 기타 서비스 요금(타사 인증 파트너 및 서비스 제공 등)의 총 비용. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)] 및 [!UICONTROL Billable Spend (Other)]의 합계입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data eCPM] | <code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000으로 계산된 1000회 노출당 평균 순 데이터 비용입니다.</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | 대상 세그먼트 데이터 요금의 총 순 비용입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media CPM] | <code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000으로 계산된 1000회 노출당 평균 순 미디어 비용</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | 기술 비용을 포함한 미디어의 총 순 비용. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | [!UICONTROL Net Spend (Media)], [!UICONTROL Net Spend (Data)] 및 [!UICONTROL Net Spend (Other)]의 합계입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | [!UICONTROL Non-billable Spend (Media)], [!UICONTROL Non-billable Spend (Data)] 및 [!UICONTROL Non-billable Spend (Other)]의 합계입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | 기타 수수료에 대한 1000회 노출당 평균 순 비용, <code>[!UICONTROL Net Spend (Other)]/[!UICONTROL Impressions] x 1000으로 계산됨</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | 기타 서비스 요금(타사 인증 파트너, 광고 서비스 등)의 총 순 비용. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 광고 전체를 시청한 보기 횟수의 비율입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 광고 전체를 시청한 보기 수입니다. |
