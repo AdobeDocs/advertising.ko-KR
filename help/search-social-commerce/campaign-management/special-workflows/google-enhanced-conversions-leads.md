@@ -2,9 +2,10 @@
 title: 리드에 대해  [!DNL Google Ads] 향상된 전환 구현
 description: 리드에 대해  [!DNL Google Ads] 향상된 전환을 설정하는 워크플로에 대해 알아봅니다.
 feature: Search Campaign Management, Conversions
-source-git-commit: 60a67c8668df13afc08e14b0a495a37ded24bc0c
+exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
+source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,17 @@ ht-degree: 0%
 
 [[!DNL Google Ads] 잠재 고객에 대한 향상된 전환](https://support.google.com/google-ads/answer/9888656)을 통해 자사 전환 데이터를 사용하여 사용자를 오프라인 전환에 매핑할 수 있습니다. 웹 사이트 잠재 고객의 결과로 발생하는 전화 또는 이메일 판매 추적과 같이 클릭 ID를 사용할 수 없는 환경에서 잠재 고객에 대해 향상된 전환 기능을 사용합니다.
 
-Search, Social 및 Commerce 내에서 리드에 대한 향상된 전환을 보고서 내의 지표로, 최적화를 위한 목표 내의 가중 지표로 포함할 수 있습니다. 검색, 소셜 및 Commerce은 광고주 시간대의 05:00에 매일 리드에 대한 기존 강화 전환을 동기화합니다.
+검색, 소셜 및 Commerce 내에서 다음 작업을 수행할 수 있습니다.
+
+* 잠재 고객에 대한 기존 향상된 전환 보기
+
+  검색, 소셜 및 Commerce은 광고주 시간대의 05:00에 매일 리드에 대한 기존 강화 전환을 동기화합니다.
+
+* 잠재 고객에 대한 향상된 전환 만들기
+
+* 자사 오프라인 전환 데이터를 업로드하여 리드에 대한 향상된 전환에 매핑합니다.
+
+* 보고서 내의 지표와 최적화 목표 내의 가중 지표로 잠재 고객에 대한 향상된 전환을 포함합니다.
 
 이 기능을 사용하려면 다음 단계를 완료하십시오. 전환 추적 태그를 만드는 단계와 전환 작업을 만드는 단계는 선택적으로 되돌릴 수 있습니다.
 
