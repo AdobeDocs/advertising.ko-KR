@@ -2,9 +2,9 @@
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
 role: User, Admin
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,8 @@ ht-degree: 0%
 # 광고주 계정 설정
 
 *읽기 전용 사용자가 사용할 수 없음*
+
+<!-- Not published -->
 
 ## [!UICONTROL General] 설정
 
@@ -166,11 +168,11 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **[!UICONTROL Enable Site Safety Block]:** 기본적으로 실시간 입찰 필터를 사용하여 광고주가 타깃팅하는 사이트에서 광고가 제공되도록 합니다. <!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
 
-#### [!UICONTROL DoubleVerify Authentic Brand Safety]
+#### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
 **[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify]개 고객만 해당; 선택 사항) 조직의 [!DNL DoubleVerify] 계정과 연결된 브랜드 안전 세그먼트 ID입니다.
 
-**[!UICONTROL Enable Authentic Brand Safety]:**(선택 사항) 기본적으로 지정된 세그먼트 ID에 대해 구성된 사용자 지정 브랜드 안전 규칙을 사용하여 입찰 후 노출을 차단하는 [!DNL DoubleVerify] 정품 브랜드 안전 기능을 사용합니다. DSP은 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
+**[!UICONTROL Enable Authentic Brand Suitability]:**(선택 사항) 기본적으로 지정된 세그먼트 ID에 대해 구성된 사용자 지정 브랜드 안전 규칙을 사용하여 입찰 후 노출을 차단하는 [!DNL DoubleVerify Authentic Brand Safety]을(를) 활성화합니다. DSP은 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
 
 배치 수준에서 광고주 수준 설정을 재정의할 수 있습니다.
 

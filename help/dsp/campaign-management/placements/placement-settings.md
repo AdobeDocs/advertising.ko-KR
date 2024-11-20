@@ -3,7 +3,7 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 0%
@@ -215,11 +215,11 @@ ht-degree: 0%
 
 아웃스트림 광고는 대개 비디오 플레이어에서 일반 비디오 광고가 아니라 콘텐츠 위에 팝업 또는 콘텐츠로 채워집니다(기본 경험에서).
 
-## [!UICONTROL Site Targeting]
+## [!UICONTROL Site and App Targeting]
 
 **[!UICONTROL Traffic type]:** 대상에 대한 트래픽 유형입니다. 옵션은 **[!UICONTROL Websites]** 및 **[!UICONTROL Apps]**&#x200B;입니다.
 
-**[!UICONTROL Site tier]:**(**[!UICONTROL Paste list of targeted sites]**&#x200B;이(가) *[!UICONTROL Off]*&#x200B;인 경우 사용 가능) 타깃팅할 사이트의 품질입니다. 계층 1-3은 모두 브랜드에 적합하며 DSP 매핑 팀에서 승인했습니다.
+**[!UICONTROL Tier]:**(**[!UICONTROL Paste list of targeted sites]**&#x200B;이(가) *[!UICONTROL Off]*&#x200B;인 경우 사용 가능) 대상 트래픽의 품질입니다. 계층 1-3은 모두 브랜드에 적합하며 DSP 매핑 팀에서 승인했습니다.
 
 * 전국적으로 인식할 수 있는 Premium 사이트 및 응용 프로그램이 *[!UICONTROL Tier 1]:*&#x200B;개 있습니다.
 
@@ -227,7 +227,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Tier 3]:* 대상 계층 1-2와 적절한 브랜드 보호 사이트 및 응용 프로그램을 적절히 사용할 수 있도록 합니다. 도달 또는 데이터 타겟팅 구매에 계층 3을 사용합니다.
 
-* *[!UICONTROL All Sites]:*&#x200B;은(는) 계층 1-3과 선별되거나 분류되지 않은 새 인벤토리를 대상으로 하며 도달 시 사용할 수 있습니다.
+* *[!UICONTROL All Sites or Apps]:*&#x200B;은(는) 계층 1-3과 선별되거나 분류되지 않은 새 인벤토리를 대상으로 하며 도달 시 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -237,7 +237,7 @@ ht-degree: 0%
 >
 >성과 캠페인의 경우 가장 좋은 방법은 *[!UICONTROL All Sites]*&#x200B;을(를) 선택하는 것입니다.
 
-**[!UICONTROL Site Categories]:**(선택 사항, **[!UICONTROL Paste list of targeted sites]**&#x200B;이(가) *[!UICONTROL Off]*&#x200B;인 경우 사용 가능) 대상으로 포함하거나 제외할 선택된 사이트 계층 내의 사이트 범주(둘 다 아님). 제목을 기반으로 DSP이 매핑한 세로 사이트 목록 중에서 선택합니다.
+**[!UICONTROL Site or App Categories]:**(선택 사항, **[!UICONTROL Paste list of targeted sites]**&#x200B;이(가) *[!UICONTROL Off]*&#x200B;인 경우 사용 가능) 대상으로 포함하거나 제외할 선택된 사이트 계층 내의 사이트 범주(둘 다 아님). 제목을 기반으로 DSP이 매핑한 세로 사이트 목록 중에서 선택합니다.
 
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 포함 또는 제외할 사이트 범주를 지정합니다.
@@ -250,7 +250,7 @@ ht-degree: 0%
 1. (선택 사항) 타깃팅 정보가 포함된 CSV 파일을 브라우저의 다운로드 위치로 다운로드하려면 **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-**[!UICONTROL Exclude Sites]:**(선택 사항, **[!UICONTROL Paste list of targeted sites]**&#x200B;이(가) *[!UICONTROL Off]*&#x200B;인 경우 사용 가능) 제외할 사이트. 사이트를 검색하여 선택하거나 도메인 이름을 입력하거나 붙여넣을 수 있습니다.
+**[!UICONTROL Exclude Sites or Apps]:**(선택 사항, **[!UICONTROL Paste list of targeted sites]**&#x200B;이(가) *[!UICONTROL Off]*&#x200B;인 경우 사용 가능) 제외할 사이트. 사이트를 검색하여 선택하거나 도메인 이름을 입력하거나 붙여넣을 수 있습니다.
 
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 사이트를 지정합니다.
@@ -273,7 +273,7 @@ ht-degree: 0%
 
 **[!UICONTROL Language]:**(선택 사항) 타깃팅할 단일 언어입니다.
 
-**[!UICONTROL Site List Preview]:**(읽기 전용) 배치에 대해 타겟팅되고 차단된 모든 사이트.
+**[!UICONTROL Site or App List Preview]:**(읽기 전용) 배치에 대해 타겟팅되고 차단된 모든 사이트.
 
 선택적으로 타겟팅되고 차단된 사이트 목록을 쉼표로 구분된 값(CSV) 파일로 내보낼 수 있습니다. 목록을 내보내려면 **[!UICONTROL Export full site list]**&#x200B;을(를) 클릭한 다음 브라우저의 일반 절차에 따라 파일을 열거나 저장합니다.
 
@@ -389,7 +389,7 @@ ht-degree: 0%
 1. (선택 사항) ISP 타깃팅 정보가 있는 CSV 파일을 브라우저의 다운로드 위치로 다운로드하려면 **[!UICONTROL Export]**&#x200B;을(를) 클릭하십시오.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-## [!UICONTROL Brand Safety and Media Targeting]
+## [!UICONTROL Brand Safety and Media Quality]
 
 적용할 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] 및 [!DNL Peer39] 컨텍스트 필터의 **[!UICONTROL Contextual filtering]:** 유형. 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다.
 
