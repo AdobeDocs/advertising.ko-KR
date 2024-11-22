@@ -3,7 +3,7 @@ title: 자사 대상 소스 정보
 description: 쿠키 없는 타깃팅을 위해 자사 세그먼트의 다른 사용자 식별자를 범용 ID로 변환하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -70,9 +70,9 @@ DSP은 자사 세그먼트를 빠르게 수집할 수 있도록 다음 CDP에 �
 
 DSP은 배치, 스트리밍 또는 API 기반 데이터 공유를 사용하여 추가 CDP에 연결할 수도 있습니다. 새 CDP와 통합하려면 Adobe 계정 팀에 문의하십시오.
 
-### [!DNL Adobe Real-Time Customer Data Platform]
+### [!DNL Adobe Real-Time CDP]
 
-DSP은(는) Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)에 대한 통합된 *대상*&#x200B;입니다.
+DSP은(는) Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)에 대한 통합된 *대상*&#x200B;입니다.
 
 [!DNL Real-Time CDP]에서 대상은 원활한 데이터 활성화를 허용하는 외부 데이터 플랫폼에 대한 연결입니다. 대상을 사용하여 DSP의 타깃팅된 광고를 위해 해시된 이메일 주소를 활성화할 수 있습니다. 대상에 대한 자세한 내용은 Experience Platform [대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)를 참조하세요. 제품 개요, [대상 작업 공간 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) 및 [대상 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)에 대한 지침, [대상에 대한 데이터 활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 

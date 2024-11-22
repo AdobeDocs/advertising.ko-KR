@@ -3,7 +3,7 @@ title: ' [!DNL Adobe] [!DNL Real-time CDP]과(와) DSP 통합 사용'
 description: DSP에서  [!DNL Adobe] [!DNL Real-time CDP]개의 자사 세그먼트를 수집할 수 있도록 하는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta 기능*
 
-Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)과(와) DSP 통합을 사용하여 해시된 이메일 주소를 타깃팅된 광고를 위한 범용 ID로 변환합니다.
+Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)과(와) DSP 통합을 사용하여 해시된 이메일 주소를 타깃팅된 광고를 위한 범용 ID로 변환합니다.
 
 1. (전자 메일 주소를 [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->(으)로 전환하려면, [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용하는 광고주) [!DNL Analytics] 측정에 대한 추적을 설정합니다.
 
