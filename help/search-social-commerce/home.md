@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: d17a2ebc90d95daf2f159099c5603a7e1be19cdd
+source-git-commit: b6182274a03d508868b1e333ec865266ea738ccc
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2662'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024년 10월 29일 릴리스 | [!DNL Adobe Analytics for Advertising] | (성과 최대 캠페인 [!DNL Adobe Analytics for Advertising] 및 [!DNL Microsoft Advertising]개를 사용하는 광고주) 이제 광고와 키워드가 포함되지 않은 성과 최대 캠페인의 추적 URL에서 새 AMO ID([!DNL s_kwcid]) 매개 변수를 구현할 때 성과 최대 캠페인에 대한 에셋 그룹 수준 데이터를 Adobe Analytics에서 사용할 수 있습니다. 대부분의 성과 최대 캠페인에 대한 추적이 이미 새 형식으로 마이그레이션되었습니다. 새 형식으로 아직 마이그레이션되지 않은 [!UICONTROL Auto Upload] 추적 옵션이 없는 성과 최대 캠페인의 경우 다음 AMO ID 형식을 포함하도록 각 랜딩 페이지 접미사를 수동으로 업데이트해야 합니다.<br><br>`AL!%(userid)d!%(sid)d!%(creativeref)s!!!%(termid/orderid)d!!!%(campaignid)!%(adref)`<br><br>성과 최대 캠페인에 대한 Adobe Analytics 데이터는 Search, Social 및 Commerce에서도 사용할 수 있습니다. | 새로운 [AMO ID 형식]((/help/integrations/analytics/ids.md #amo-id-format-search) 및 [추적 URL에 매개 변수를 추가하는 시기와 방법](/help/integrations/analytics/ids.md#amo-id-implement)을 참조하세요. |
 | 2024년 10월 29일 | [!UICONTROL Campaigns] | 성과 최대 및 검색 캠페인 각각에 대해 이제 [!DNL Google Ads]이(가) 새 고객에 대해 더 높은 입찰가를 갖도록 할지, 새 고객에 대해서만 입찰가를 갖도록 할지 또는 새 고객과 기존 고객에 대해 동일한 입찰가를 갖도록 할지 선택할 수 있습니다. 새 고객을 위해 더 높은 입찰가를 책정하려면 먼저 [!DNL Google Ads]을(를) 사용하여 [!DNL Google Ads] 계정 또는 관리자 계정에 대한 새 고객 확보 목표를 활성화해야 합니다. 목표 정의에는 적격한 기존 고객 목록과 새 고객에 대한 추가 전환 값이 포함됩니다. | &quot;[[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)&quot;을 참조하십시오.<br><br> [!DNL Google Ads] 도움말 &quot;[새 고객 확보 목표 정보](https://support.google.com/google-ads/answer/12080169)&quot; 및 &quot;[새 고객 확보 목표 활성화](https://support.google.com/google-ads/answer/14007601)&quot;의 1-2단계도 참조하십시오. |
 | 2024년 9월 3일 | [!DNL Google Ads]개 전환 | 이제 [!DNL Google Ads] 향상된 잠재 고객 전환에 대해 다음 지원을 사용할 수 있습니다. 이 기능은 웹 사이트 잠재 고객의 전화 판매 추적과 같이 클릭 ID(`gclid` 값)를 사용할 수 없는 오프라인 전환 이벤트에 사용할 수 있습니다.<ul><li>Search, Social 및 Commerce은 리드에 대한 기존의 향상된 전환을 동기화하므로 보고 및 최적화에 사용할 수 있습니다. 데이터는 광고주 시간대의 05:00에 매일 동기화됩니다.</li><li>잠재 고객에 대한 향상된 전환을 위해 전환 작업을 만들 수 있습니다.</li><li>잠재 고객에 대한 고급 전환에 매핑된 자사 오프라인 전환 데이터를 업로드할 수 있습니다.</li></li></ul>Google 내에서 리드에 대해 개별적으로 향상된 전환을 위해 전환 태그를 만들고 구현해야 합니다. | 워크플로우의 개요에 대해서는 &quot;[리드에 대한 향상된 전환 구현 [!DNL Google Ads] 향상된 전환](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)&quot;, &quot;[리드에 대한 향상된 전환 만들기 [!DNL Google Ads] 및 &quot;[향상된 전환을 위한 오프라인 전환 데이터 업로드](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)&quot;를 참조하십시오.](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) |
 | | [!UICONTROL Campaigns]<br>[!UICONTROL Reports] | ([!DNL Google Ads] 성과 최대 캠페인) 새로운 기능은 자산 그룹에 대한 정보와 데이터를 제공합니다.<ul><li>각 성과 최대 캠페인의 기존 에셋 그룹 설정에서 두 개의 읽기 전용 정보 필드를 사용할 수 있습니다.<ul><li>**[!UICONTROL Primary Status]:** 자산 그룹이 최대 용량으로 사용되고 있거나 사용되고 있지 않은 이유 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다.</li><li>**[!UICONTROL Primary Status Reason]:** 자산 그룹의 기본 상태에 대한 추가 세부 정보.</li></ul></li><li>새 특성 보고서 [!UICONTROL Google Asset Group Performance Report]은(는) 지정된 계정 내의 성과 최대 캠페인의 자산 그룹에 대한 성과 데이터를 제공합니다. 보고서에는 포함된 각 자산 그룹에 대한 주요 상태 및 상태 사유가 포함됩니다.</li></ul> | &quot;[[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)&quot;, &quot;[[!UICONTROL Google Asset Group Performance Report]](/help/search-social-commerce/reports/management/specialty/google-asset-group-performance-report.md)&quot; 및 &quot;[특성 보고서 설정](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)을 참조하세요.&quot; |
