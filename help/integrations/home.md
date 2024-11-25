@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 1e5c1fb6b164e95612b3815f44d2d4f8b3613d7a
+source-git-commit: ebb8eb77a078d503f9a141f3a3f65813b7c7049f
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2024년 10월 29일 릴리스 | [!DNL Adobe Analytics for Advertising] | (성과 최대 캠페인 [!DNL Adobe Analytics for Advertising] 및 [!DNL Microsoft Advertising]개를 사용하는 광고주) 이제 광고와 키워드가 포함되지 않은 성과 최대 캠페인의 추적 URL에서 새 AMO ID([!DNL s_kwcid]) 매개 변수를 구현할 때 성과 최대 캠페인에 대한 에셋 그룹 수준 데이터를 Adobe Analytics에서 사용할 수 있습니다. 대부분의 성과 최대 캠페인에 대한 추적이 이미 새 형식으로 마이그레이션되었습니다. 새 형식으로 아직 마이그레이션되지 않은 [!UICONTROL Auto Upload] 추적 옵션이 없는 성과 최대 캠페인의 경우 다음 AMO ID 형식을 포함하도록 각 랜딩 페이지 접미사를 수동으로 업데이트해야 합니다.<br><br>`AL!%(userid)d!%(sid)d!%(creativeref)s!!!%(termid/orderid)d!!!%(campaignid)!%(adref)`<br><br>성과 최대 캠페인에 대한 Adobe Analytics 데이터는 Search, Social 및 Commerce에서도 사용할 수 있습니다. | 새 [AMO ID 형식](/help/integrations/analytics/ids.md##amo-id-formats) 및 [추적 URL에 매개 변수를 추가하는 시기와 방법](/help/integrations/analytics/ids.md#amo-id-implement)을 참조하세요. |
+| 2024년 10월 29일 릴리스 | [!DNL Adobe Analytics for Advertising] | (성과 최대 캠페인 [!DNL Adobe Analytics for Advertising] 및 [!DNL Microsoft Advertising]개를 사용하는 광고주) 이제 광고와 키워드가 포함되지 않은 성과 최대 캠페인의 추적 URL에서 새 AMO ID([!DNL s_kwcid]) 매개 변수를 구현할 때 성과 최대 캠페인에 대한 에셋 그룹 수준 데이터를 Adobe Analytics에서 사용할 수 있습니다. 성과 최대 캠페인이 있는 대부분의 계정에 대한 추적이 이미 새 형식으로 마이그레이션되었습니다. [!UICONTROL Auto Upload] 추적 옵션이 없는 성과 최대 캠페인이 이미 새 형식으로 마이그레이션되지 않은 계정의 경우 다음 AMO ID 형식을 포함하도록 각 랜딩 페이지 접미사를 수동으로 업데이트해야 합니다.<br><br>`AL!%(userid)d!%(sid)!%(creativeref)s!!!%(termid/orderid)d!!!%(campaignid)!%(adref)`.성과 최대 캠페인에 대한 <br><br>Adobe Analytics 데이터는 검색, 소셜 및 Commerce에서도 사용할 수 있습니다. | 새 [AMO ID 형식](/help/integrations/analytics/ids.md#amo-id-formats) 및 [추적 URL에 매개 변수를 추가하는 시기와 방법](/help/integrations/analytics/ids.md#amo-id-implement)을 참조하세요. |
 | 2024년 11월 13일 | [!DNL Analytics for Advertising] | ([!DNL Analytics for Advertising] 및 Adobe Customer Journey Analytics이 있는 광고주) 예약된 변수를 사용하여 AMO ID 및 EF ID를 캡처하는 경우 가능한 한 빨리 AMO ID 및 EF ID에 대한 예약된 변수를 표준 [!DNL eVars]에 복사하여 Adobe Advertising과 Adobe Customer Journey Analytics 간의 향후 통합을 준비할 수 있습니다. 이를 통해 작업을 완료하는 즉시 AMO ID 및 EF ID에 대한 내역 데이터를 수집할 수 있으며 내역 데이터는 나중에 사용할 수 있습니다. 예약된 변수를 사용하며 이 작업을 완료해야 하는 경우 Adobe 계정 팀에 알려줍니다. | &quot;[Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집](/help/integrations/analytics/rvars-to-evars.md)&quot;을 참조하십시오. |
 | 2023년 12월 16일 | 도움말 | 새 문서에서는 검색, 소셜 및 Commerce의 광고에서 클릭스루 트래픽에 대해 [!DNL Target]에서 A/B 테스트를 설정하는 방법과 [!DNL Analytics]에서 테스트를 측정하고 시각화하는 방법에 대한 팁을 설명합니다. | &quot;[Adobe Target에서 검색, 소셜 및 Commerce 광고에 대한 A/B 테스트 구성](/help/integrations/target/ab-tests-search.md)&quot;을 참조하십시오. |
 | 2023년 8월 8일 | [!DNL Analytics for Advertising] | 표준, 사용자 지정 및 예약 전환 지표와 트래픽 지표를 포함한 일부 [!DNL Analytics] 성공 이벤트 지표는 DSP과 검색, 소셜 및 Commerce에서 자동으로 사용할 수 있습니다. 이제 [!DNL eVar] 및 [!DNL prop] 수준의 데이터를 사용자 지정 성공 이벤트에 통합하여 기존 [!DNL Analytics] [!DNL eVars] 및 [!DNL props]을(를) 기반으로 나만의 성공 지표를 구성할 수도 있습니다. | &quot;[Adobe Analytics에서 전환 지표 만들기 [!DNL eVars] 및 [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md)&quot;를 참조하십시오. |
