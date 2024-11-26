@@ -3,9 +3,9 @@ title: ' [!DNL Analytics]이(가) 사용하는 Adobe Advertising ID'
 description: ' [!DNL Analytics]이(가) 사용하는 Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 33a27faa14cbd1fa3248364cc7a3bf9c0cd94c76
+source-git-commit: 7d10ab34b804f96d621c351d9f8049c924019ba1
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,7 @@ where:
 
 >[!NOTE]
 >
->성과 캠페인이 있는 모든 계정은 위의 형식으로 마이그레이션되었습니다. 다른 캠페인 유형을 사용하는 계정의 경우, 랜딩 페이지 접미사는 2025년 초까지 새로운 s_kwcid 형식을 사용하도록 마이그레이션됩니다. 당분간은 다음과 같은 레거시 형식이 여전히 작동합니다.
+>성과 최대 캠페인이 포함된 모든 계정은 위의 형식으로 마이그레이션되었습니다. 다른 캠페인 유형을 사용하는 계정의 경우, 랜딩 페이지 접미사는 2025년 초까지 새로운 s_kwcid 형식을 사용하도록 마이그레이션됩니다. 당분간은 다음과 같은 레거시 형식이 여전히 작동합니다.
 >* 캠페인 검색:
 >  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* 쇼핑 캠페인([!DNL Microsoft Merchant Center] 사용):
