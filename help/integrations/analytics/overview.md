@@ -3,9 +3,9 @@ title: ' [!DNL Analytics for Advertising] 개요'
 description: ' [!DNL Analytics for Advertising] 개요'
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 2575b737926cfd681fd744401d5f4555402fbee2
+source-git-commit: 8911f6ea16878bede96151f004e6de2717484140
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,8 @@ Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유
 ### 입찰 신호로서의 사이트 전환 지표
 
 [!DNL Analytics]의 표준 이벤트와 사용자 지정 이벤트를 사용하여 Adobe Advertising에서 가중 목표를 작성할 수 있습니다. 목표는 [!DNL DSP] 패키지 및 Search, Social, Commerce 포트폴리오에 대한 입찰 결정을 알려줍니다.
+
+검색, 소셜 및 Commerce 하이브리드 포트폴리오의 [!DNL Google Ads] 및 [!DNL Google Microsoft Advertising] 캠페인의 경우 선택적으로 목표의 [!DNL Analytics] 이벤트를 포함한 목표를 광고 네트워크에 직접 업로드할 수 있습니다. 그러면 이 목표를 계정 수준 및 캠페인 수준 사용자 지정 전환 목표에 대한 전환 작업으로 사용할 수 있습니다.
 
 >[!NOTE]
 >
