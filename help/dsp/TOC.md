@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 5a667f353d436870e6d22422f64ae16f886d7bc8
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 3%
@@ -233,5 +233,5 @@ ht-degree: 3%
       + [경고 구독 기본 정보](/help/dsp/admin/alerts-about.md)
       + [경고 구독 관리](/help/dsp/admin/alerts-manage.md)
 + [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ [고객 지원](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)
++ [고객 지원](https://experienceleague.adobe.com/home?support-tab=home#support)
 + [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
