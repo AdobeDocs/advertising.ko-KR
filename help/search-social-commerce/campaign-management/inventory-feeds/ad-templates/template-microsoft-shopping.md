@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Microsoft Ads] 인벤토리 피드에 대한 쇼핑 광고 템플릿 설정'
+title: 인벤토리 피드에 대한 [!DNL Microsoft Ads] 쇼핑 광고 템플릿 설정
 description: 인벤토리 피드에 대한  [!DNL Microsoft Ads] 쇼핑 광고 템플릿 설정을 참조하십시오.
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds

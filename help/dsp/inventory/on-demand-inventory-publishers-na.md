@@ -1,5 +1,5 @@
 ---
-title: '[!DNL On Demand] 북미의 프리미엄 인벤토리 게시자'
+title: 북미의 Premium 인벤토리 게시자 [!DNL On Demand]명
 description: 북미에서 사용 가능한 [!DNL On Demand] 프리미엄 인벤토리 게시자를 확인하십시오.
 feature: DSP On Demand Inventory
 exl-id: f1805fe0-5687-4e32-809f-c584acee3676

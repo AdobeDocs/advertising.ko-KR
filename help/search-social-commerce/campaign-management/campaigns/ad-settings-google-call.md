@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Google Ads] 호출 전용 광고 설정'
+title: '[!DNL Google Ads] 통화 전용 광고 설정'
 description: ' [!DNL Google Ads] 통화 전용 광고에 대한 설정을 참조합니다.'
 exl-id: 10672771-53fd-4ce9-9d67-6b1f8f5a41b8
 feature: Search Campaign Management

@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Google Ads] 인벤토리 피드에 대한 쇼핑 광고 템플릿 설정'
+title: 인벤토리 피드에 대한 [!DNL Google Ads] 쇼핑 광고 템플릿 설정
 description: 인벤토리 피드에 대한  [!DNL Google Ads] 쇼핑 광고 템플릿 설정을 참조하십시오.
 exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds

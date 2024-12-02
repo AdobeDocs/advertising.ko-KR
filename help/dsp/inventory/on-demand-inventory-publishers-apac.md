@@ -1,5 +1,5 @@
 ---
-title: '[!DNL On Demand] 아시아 태평양의 프리미엄 인벤토리 게시자'
+title: 아시아 태평양의 [!DNL On Demand] 프리미엄 인벤토리 게시자
 description: 아시아 태평양 지역에서 사용 가능한  [!DNL On Demand] 프리미엄 인벤토리 게시자를 참조하십시오.
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f

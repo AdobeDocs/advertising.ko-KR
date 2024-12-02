@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Analytics] 데이터 Adobe Advertising'
-description: '[!DNL Analytics] 데이터 Adobe Advertising'
+title: Adobe Advertising의 [!DNL Analytics] 데이터
+description: Adobe Advertising의 [!DNL Analytics] 데이터
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
 source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6

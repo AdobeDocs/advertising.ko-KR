@@ -1,6 +1,6 @@
 ---
-title: '[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자'
-description: '[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자'
+title: 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자 [!DNL On Demand]명
+description: 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자 [!DNL On Demand]명
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284

@@ -1,5 +1,5 @@
 ---
-title: '[!DNL On Demand] 호주 및 뉴질랜드의 프리미엄 인벤토리 게시자'
+title: 오스트레일리아 및 뉴질랜드의 [!DNL On Demand] 프리미엄 인벤토리 게시자
 description: 호주와 뉴질랜드의 사용 가능한 [!DNL On Demand] 프리미엄 인벤토리 게시자를 확인하세요.
 feature: DSP On Demand Inventory
 exl-id: 9c494ad0-eb35-464e-b154-3f56c02968f1

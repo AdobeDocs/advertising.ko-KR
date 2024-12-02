@@ -1,6 +1,6 @@
 ---
-title: "사용자 ID를  [!DNL ActionIQ] 에서 범용 ID로 변환"
-description: "DSP에서  [!DNL ActionIQ] 자사 세그먼트를 수집할 수 있도록 하는 방법을 알아봅니다."
+title: 사용자 ID를  [!DNL ActionIQ] 에서 범용 ID로 변환
+description: DSP에서  [!DNL ActionIQ] 자사 세그먼트를 수집할 수 있도록 하는 방법을 알아봅니다.
 feature: DSP Audiences
 source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt

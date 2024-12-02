@@ -1,5 +1,5 @@
 ---
-title: Adobe Advertising 고객용 '[!DNL Adobe] [!DNL Audience Analytics] '
+title: 'Adobe Advertising 고객용 [!DNL Adobe] [!DNL Audience Analytics] '
 description: 광고 사용 사례에  [!DNL Adobe] [!DNL Audience Analytics]을(를) 사용하는 방법 알아보기
 feature: Integration with Adobe Audience Manager
 exl-id: 457d4335-2762-4aab-94b8-12f8a79d109b
