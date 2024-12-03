@@ -3,9 +3,9 @@ title: ' [!DNL Google Ads] 계정에 대한 AMO ID(s_kwcid) 추적 코드 업데
 description: ' [!DNL Google Ads]  계정에 대한 최신 AMO ID 추적 코드로 전환하는 방법에 대해 알아봅니다.'
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: edb46265c6977a1e2c1b352f41fedcfc3a9e3bbf
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,13 @@ ht-degree: 0%
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-기존 계정 중 일부 또는 전부에 대해 개별적으로 현재 형식으로 변경할 수 있습니다. 성과 최대 캠페인 또는 초안 및 실험 캠페인이 없는 경우 새로운 포맷으로의 마이그레이션은 선택 사항입니다.
+기존 형식을 사용하는 기존 계정의 경우 현재 형식으로 변경할 수 있습니다. 성과 최대 캠페인 또는 초안 및 실험 캠페인이 없는 경우 새로운 포맷으로의 마이그레이션은 선택 사항입니다.
 
 모든 새 [!DNL Google Ads] 계정은 현재 AMO ID 형식을 자동으로 사용합니다.
 
 >[!NOTE]
+>
+>이 옵션은 현재 형식을 사용하지 않는 계정에만 사용할 수 있습니다.
 >
 >계정을 마이그레이션한 후 모든 클릭, 비용 및 노출 데이터가 변경 후 올바르게 보고되지만 마이그레이션 전에 발생한 모든 클릭스루는 여전히 이전 AMO ID 형식을 기반으로 한 전환 데이터에 기여합니다.
 
@@ -40,7 +42,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 1. 마이그레이션을 시작합니다.
 
-   1. **[!UICONTROL S_KWCID FORMAT]** 옆에 있는 **[!UICONTROL LEGACY S_KWCID FORMAT]**&#x200B;을(를) 클릭합니다.
+   1. [!UICONTROL Account Tracking] 설정에서 **[!UICONTROL S_KWCID FORMAT]** 옆에 있는 **[!UICONTROL LEGACY S_KWCID FORMAT]**&#x200B;을(를) 클릭합니다.
 
    1. **[!UICONTROL Migrate to new s_kwcid format]**&#x200B;을(를) 클릭합니다.
 
@@ -58,7 +60,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
    * 추적 설정에서 [!UICONTROL Auto Upload] 기능을 사용하도록 설정하면 검색, 소셜 및 Commerce은 이 계정과 해당 캠페인에 대한 랜딩 페이지 접미사의 추적 코드를 자동으로 업데이트합니다. 아무것도 안 해도 돼
 
-   * [!UICONTROL Auto Upload] 기능을 사용할 수 없고 [서버측 AMO ID 기능](/help/integrations/analytics/ids.md#amo-id-formats)을 사용하지 않는 경우 랜딩 페이지 접미사 설정에서 AMO ID 매개 변수를 수동으로 업데이트해야 합니다. 계정 및 캠페인 설정에서 수동으로 또는 일괄 시트에서 변경 사항을 업로드하여 계정 및 캠페인 수준 접미사를 변경할 수 있습니다. 광고 그룹 수준 이하에서 접미사를 구성하려면 [!DNL Google Ads] 편집기를 사용하십시오.
+   * [!UICONTROL Auto Upload] 기능을 사용할 수 없고 [서버측 AMO ID 기능](/help/integrations/analytics/ids.md#amo-id-formats)을 사용하지 않는 경우 랜딩 페이지 접미사 설정에서 AMO ID 매개 변수를 수동으로 업데이트해야 합니다. [계정 설정](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) 및 [캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)에서 또는 [일괄 시트에서 변경 내용을 업로드](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)하여 계정 및 캠페인 수준 접미사를 수동으로 변경할 수 있습니다. 광고 그룹 수준 이하에서 접미사를 구성하려면 [!DNL Google Ads] 편집기를 사용하십시오.
 
    * 캠페인 구성 요소에 대한 기본 URL 설정에 AMO ID를 포함하는 경우 해당 랜딩 페이지 접미사 설정으로 이동합니다.
 
