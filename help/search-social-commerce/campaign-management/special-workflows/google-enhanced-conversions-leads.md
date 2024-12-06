@@ -3,9 +3,9 @@ title: 리드에 대해  [!DNL Google Ads] 향상된 전환 구현
 description: 리드에 대해  [!DNL Google Ads] 향상된 전환을 설정하는 워크플로에 대해 알아봅니다.
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
-source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
+source-git-commit: e0b1a65e3eddc41bed73817dabb6e38b1ef881b5
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,13 @@ ht-degree: 0%
 
    1. [!DNL Google] 태그를 사용할지 [!DNL Google Tag Manager]을(를) 사용하여 변환 태그를 만들지 선택합니다.
 
-
-1. 전환 작업에 대한 [!DNL Google] 태그를 구성하고 구현합니다.
+1. 전환 작업을 추적할 태그를 구성하고 구현합니다.
 
    지침은 [a [!DNL Google] tag](https://support.google.com/google-ads/answer/11021502) 또는 [using [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292) 리드에 대한 향상된 전환을 위한 태그를 만드는 [!DNL Google Ads] 도움말을 참조하세요.
 
 1. [검색, 소셜 및 Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) 또는 [Google 광고](https://support.google.com/google-ads/answer/12216226) 내에서 잠재 고객에 대한 향상된 전환에 대한 전환 작업을 만듭니다.
 
-   **전환 유형에 대해** *전환 가져오기* 또는 *가져오기를 선택합니다.*
+   검색, 소셜 및 Commerce 내에서 전환 작업을 만드는 경우 **전환 유형**&#x200B;을(를) *전환 가져오기* 또는 *가져오기*(으)로 지정하십시오.
 
 1. 필요한 경우 해시된 이메일 주소 또는 전화 번호를 포함한 자사 데이터를 업로드하여 지정된 계정에 대한 전환에 기여합니다. [검색, 소셜 및 Commerce](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md) 내에서 또는 [!DNL Google Data Manager]을(를) 사용하여 이 단계를 완료할 수 있습니다.
 
