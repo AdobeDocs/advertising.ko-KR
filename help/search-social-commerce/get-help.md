@@ -2,7 +2,7 @@
 title: 도움말 보기
 description: 온라인 도움말 및 커뮤니티 리소스를 보는 방법과 기술 지원을 받는 방법을 알아봅니다.
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 8a6755041218ab795c0aaa8b875a34d85b3582b8
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## Adobe Advertising 커뮤니티에 문의
 
-[Adobe Advertising 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community)에서 질문에 대한 답변을 찾아보세요.
+[Adobe Advertising 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community)에서 질문에 대한 답변을 찾아보세요.
 
 ## 연락처 [!DNL Adobe]
 

@@ -3,7 +3,7 @@ title: Adobe Analytics 전환 추적
 description: Adobe Advertising 캠페인에 Adobe Analytics 전환 추적을 사용하는 방법에 대해 알아봅니다.
 exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 8deabf2c98901d706acdd035221e8c24e4a1d20d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주의 경우, Advertising Cloud은 [입찰 단위](/help/search-social-commerce/glossary.md#a-b)에 대한 클릭 추적 URL에서 토큰(`ef_id` 매개 변수)을 사용하여 리디렉션을 사용할 때 [!DNL Analytics]에서 추적한 사이트 참여 및 전환 지표와 광고 클릭수 및 노출수를 연결할 수 있습니다. [!DNL Analytics] 데이터는 일별 피드 파일을 통해 자동으로 Advertising Cloud으로 전송됩니다.
 
-통합에 대한 자세한 내용은 &quot;[개요 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}&quot;을(를) 참조하십시오.
+통합에 대한 자세한 내용은 &quot;[개요 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/dsp/integrations/analytics/overview.html){target="_blank"}&quot;을(를) 참조하십시오.
 
 >[!PREREQUISITES]
 >
