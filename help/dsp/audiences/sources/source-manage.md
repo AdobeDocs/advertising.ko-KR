@@ -3,9 +3,9 @@ title: 범용 ID 대상을 활성화하기 위한 대상 소스 관리
 description: 소스를 만들고 관리하여 고객 데이터 플랫폼에서 대상을 가져와 범용 ID가 포함된 세그먼트로 변환하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---

@@ -3,9 +3,9 @@ title: Advertising DSP의 광고 관리 정보
 description: 광고 관리에 대해 알아봅니다.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ DSP은 다양한 광고 유형에 대한 서드파티 광고 서비스 태그(�
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-광고가 설정되면 캠페인의 게재 방법을 제어하는 타겟팅 매개 변수(예: 지역, 대상자, 디바이스 및 인벤토리 타겟팅)가 포함된 배치에 각 광고를 첨부합니다. 단일 광고를 하나 또는 여러 배치에 첨부할 수 있습니다.
+광고가 설정되면 캠페인의 게재 방법을 제어하는 타겟팅 매개 변수(예: 지역, 대상자, 장치 및 인벤토리 타겟팅)를 포함하는 하나 이상의 배치에 각 광고를 첨부합니다. 광고 실행을 시작하려면 배치에 광고를 첨부해야 합니다.
 
 ## 사용 가능한 광고 유형 {#ad-types}
 
