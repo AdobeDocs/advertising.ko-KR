@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: dd359c91b97d5aea3d1d01d19ef585bc24d9e266
+source-git-commit: 17a547a5aad0ca19f156940b26ead6e808b3ea15
 workflow-type: tm+mt
-source-wordcount: '4622'
+source-wordcount: '4735'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2024년 12월 12일 | [!UICONTROL Placements], 브랜드 안전 | 이제 배치 수준에서 [!DNL DoubleVerify Authentic Brand Safety]개 세그먼트 ID를 타깃팅할 수 있습니다. 이전에는 광고주 수준에서만 타깃팅할 수 있었습니다.<br><br>기본적으로 광고주 계정 설정에 세그먼트 ID가 지정되어 있으면 광고주 수준 ID가 배치 설정에 입력되지만 다른 세그먼트를 사용하도록 ID를 변경하거나 해당 ID를 삭제하여 기능을 비활성화할 수 있습니다.<br><br>광고주 수준 설정에서 기능을 사용할 수 있는 옵션이 제거되었습니다. 이제 세그먼트 ID를 지정하면 기능을 사용할 수 있습니다. 기존 광고주 중 하나에 대해 기능이 비활성화된 경우 세그먼트 ID 필드는 이제 비어 있습니다. 사용자 작업은 필요하지 않습니다. | &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)&quot;을 참조하십시오. |
 | 2024년 10월 29일 | [!UICONTROL Custom Reports] | (Beta 기능) 세 개의 새로운 보고서를 통해 광고 상호 작용 경로가 전환에 이르는 심층적인 통찰력을 얻을 수 있습니다.<ul><li>[!UICONTROL Path to Conversion Beta]: 지정된 데이터 범위에서 선택한 각 전환 지표를 유도하는 동일한 세대의 상호 작용 지점 시퀀스를 표시합니다.</li><li> [!UICONTROL Path Length Beta]: 사용자가 광고 상호 작용을 한 후 발생한 전환 수와 같이 경로 길이(상호 작용 지점)별 전환 수를 표시합니다.</li><li>[!UICONTROL Time to Conversion Beta]은(는) 마지막 상호 작용(광고 노출 또는 클릭)에서 전환까지의 시간(일)별 전환 수를 표시합니다.</li></ul> | &quot;[사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)&quot; 및 &quot;[사용자 지정 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오. |
 | | [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads] | 이제 하나의 스프레드시트 내에서 캠페인에 있는 모든 패키지, 배치 및 광고에 대한 설정을 검토할 수 있습니다. 검토를 위해 선택한 캠페인 구성 요소 유형(패키지, 배치, 배치 광고 스케줄, 배치 입찰 배율기, 광고 및 픽셀 포함)에 대한 기존 설정이 있는 QA 시트를 다운로드할 수 있습니다. 설정을 추가하거나 편집하려면 빈 일괄 시트 템플릿을 다운로드하고 QA 시트의 캠페인 구성 요소 데이터를 일괄 시트 템플릿에 입력하거나 붙여 넣은 다음 채워진 일괄 시트를 업로드하십시오.<br><br>또한 특정 패키지 및 배치에 대한 설정을 다운로드하는 명령 이름이 이제 &quot;[!UICONTROL Download Bulksheet]&quot;입니다. 오른쪽 상단의 [!UICONTROL ...] > &quot;[!UICONTROL Upload Bulksheet]&quot; 옵션에서 특정 패키지 및 배치에 대한 설정을 업로드할 수 있습니다. | &quot;[일괄 시트를 사용하여 캠페인 구성 요소 설정 검토 및 편집](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;을(를) 참조하십시오.<br><br>또한 &quot;[일괄 시트를 사용하여 패키지 설정 검토 및 편집](/help/dsp/campaign-management/packages/package-qa.md)&quot; 및 &quot;[일괄 시트를 사용하여 배치 설정 검토 및 편집](/help/dsp/campaign-management/placements/placement-qa.md)을 참조하십시오.&quot; |
 | | [!UICONTROL Placements], 비공개 인벤토리, [!UICONTROL Non Bid Reasons] | 이제 배치에 의해 타겟팅된 특정 비공개 딜에 의해 배치에 대한 비입찰 이유 목록을 필터링할 수 있습니다. 이 기능은 모든 개인 인벤토리를 대상으로 하는 배치에는 사용할 수 없습니다.<br><br>또한 [!UICONTROL Inventory] > [!UICONTROL Deals]에 나열된 비공개 거래의 [!UICONTROL Placements and Ads] 보기에 이제 각 행에 &quot;[!UICONTROL Non bid reasons]&quot; 옵션이 포함됩니다. 옵션을 클릭하여 비공개 거래로 필터링한 비입찰 탭에 대한 배치 진단 보고서를 엽니다. | &quot;[배치 진단 보고서 보기](/help/dsp/campaign-management/reports/placement-diagnostics.md)&quot; 및 &quot;[비공개 거래에 대한 배치 및 광고 나열](/help/dsp/inventory/private-deal-view-placements.md)&quot;을 참조하십시오. |
