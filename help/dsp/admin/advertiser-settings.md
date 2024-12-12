@@ -2,9 +2,9 @@
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
 role: User, Admin
-source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
+source-git-commit: 20f69d2e8d5d289015c911f153609c0805307f0a
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -170,11 +170,9 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify]개 고객만 해당; 선택 사항) 조직의 [!DNL DoubleVerify] 계정과 연결된 브랜드 안전 세그먼트 ID입니다.
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify]개 고객만 해당; 선택 사항) 모든 배치에 기본적으로 사용할 조직의 [!DNL DoubleVerify] 계정과 연결된 [!DNL DoubleVerify Authentic Brand Safety] 세그먼트 ID입니다. ID를 지정하면 지정된 세그먼트 ID에 대해 구성된 사용자 지정 브랜드 안전 규칙을 사용하여 입찰 후 노출을 차단합니다. DSP은 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
 
-**[!UICONTROL Enable Authentic Brand Suitability]:**(선택 사항) 기본적으로 지정된 세그먼트 ID에 대해 구성된 사용자 지정 브랜드 안전 규칙을 사용하여 입찰 후 노출을 차단하는 [!DNL DoubleVerify Authentic Brand Safety]을(를) 활성화합니다. DSP은 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
-
-배치 수준에서 광고주 수준 설정을 재정의할 수 있습니다.
+ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다. 배치 수준에서 광고주 수준 ID를 변경하거나 삭제할 수 있습니다.
 
 >[!MORELIKETHIS]
 >

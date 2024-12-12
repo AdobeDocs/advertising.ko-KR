@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
+source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
 workflow-type: tm+mt
-source-wordcount: '3887'
+source-wordcount: '3967'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,15 @@ ht-degree: 0%
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
+**[!UICONTROL DoubleVerify ABS segment ID]:**(선택 사항; [!DNL DoubleVerify] 고객만 해당; 데스크톱 프리롤, 표준 및 클릭-재생 디스플레이, 기본 디스플레이 및 비디오 배치에만 사용 가능; [거래의 기본 프로그램 보장 배치](/help/dsp/inventory/programmatic-guaranteed-about.md)에는 지원되지 않음) 배치에 사용할 조직의 [!DNL DoubleVerify] 계정과 연결된 [!DNL DoubleVerify Authentic Brand Safety] 세그먼트 ID입니다. ID를 지정하면 지정된 세그먼트 ID에 대해 구성된 사용자 지정 브랜드 안전 규칙을 사용하여 입찰 후 노출을 차단합니다. DSP은 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
+
+ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다. 기본적으로 광고주 계정 설정에 세그먼트 ID가 지정되어 있으면 광고주 수준 ID가 입력되지만, 다른 세그먼트를 사용하도록 ID를 변경하거나 해당 ID를 삭제하여 기능을 비활성화할 수 있습니다.
+
 적용할 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] 및 [!DNL Peer39] 컨텍스트 필터의 **[!UICONTROL Contextual filtering]:** 유형. 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다.
+
+<!-- Looks like we didn't rename this:
+**[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
+-->
 
 * [!UICONTROL DoubleVerify]:
 
@@ -441,8 +449,6 @@ ht-degree: 0%
 * *[!UICONTROL Ads.txt sellers only]*: 도메인의 승인된 직접 판매자에서만 인벤토리를 구매합니다.
 
 **[!UICONTROL Attention Targeting]:**(디스플레이, 비디오, 모바일 및 표준 연결 TV 배치) 지정된 사이트, 형식 및 광고 크기를 기반으로 특정 주의 수준(높음, 중간 또는 낮음)을 가진 [!DNL Adelaide]개의 사전 입찰 세그먼트를 타겟팅합니다. 세그먼트는 매주 업데이트됩니다. **참고:** 타깃팅에 [!DNL Adelaide] 세그먼트를 사용하면 [!DNL Adelaide] 주의 타깃팅으로 전달된 각 노출에 대해 CPM 비용이 발생합니다. 이 비용은 [주의 측정](/help/dsp/campaign-management/campaigns/campaign-settings.md)에 대한 비용과 별개입니다. 대화형 프리롤 배치의 경우 VAST 노출에 대해서만 요금이 부과됩니다.
-
-**[!UICONTROL DoubleVerify Authentic Brand Safety]:**([!UICONTROL DoubleVerify Authentic Brand Safety] 옵션으로 구성된 광고주) 지정된 세그먼트 ID에 대해 구성된 사용자 지정 브랜드 안전 규칙을 사용하여 입찰 후 노출을 차단하는 [!DNL DoubleVerify Authentic Brand Safety]을(를) 사용하도록 설정합니다. DSP은 광고주 설정에 지정된 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 

@@ -3,7 +3,7 @@ title: 일괄 시트를 사용하여 배치 설정 검토 및 편집
 description: 스프레드시트를 사용하여 주요 배치 설정을 대량으로 검토하고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 8f4e694885919a8dcf7895c2f8d8aeb11249e03c
 workflow-type: tm+mt
 source-wordcount: '1457'
 ht-degree: 0%
@@ -109,6 +109,10 @@ Download a blank bulksheet template that includes tabs for each type of campaign
 
 ### 캠페인 수준 스프레드시트
 
+<!-- 
+Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
+-->
+
 | 섹션 | 열 | 설명 | 편집 가능합니까? |
 |---------|--------|-------------|-----------|
 | [!UICONTROL Basic] | [!UICONTROL Placement ID] | 배치의 숫자 ID입니다. | — |
@@ -195,6 +199,25 @@ Download a blank bulksheet template that includes tabs for each type of campaign
 | [!UICONTROL Secondary Frequency Cap Interval] | 보조 빈도 제한 간격 유형: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]* 또는 *[!UICONTROL Minute]*. 적용 가능한 주, 일, 시간 또는 분 수는 [!UICONTROL Secondary Frequency Cap Interval Value]에 표시됩니다. | 예 |
 | [!UICONTROL Secondary Frequency Cap Interval Value] | [!UICONTROL Secondary Frequency Cap]이(가) 적용되는 주, 일, 시간 또는 분 수입니다. 예를 들어 보조 캡이 6시간당 세 개의 노출 횟수이면 여기에 있는 값은 `6`입니다. | 예 |
 | [!UICONTROL Attached Ad ID] | 배치에 첨부된 고유 DSP 생성 광고 ID로, 세미콜론으로 구분됩니다. [!UICONTROL Ads] 보기에서 광고 이름 및 관련 광고 ID 목록을 다운로드하려면 [!UICONTROL Ad ID] 지표를 포함하는 사용자 지정 보기를 만든 다음 [데이터를 내보냅니다](/help/dsp/campaign-management/reports/campaign-export-data.md). | 예 |
+
+
+<!-- LOTS MORE THAN I HAD ORIGINALLY DOCUMENTED -- BELOW ARE THE LAST, BUT NOT ALL:
+
+Brand Safety - Contextual Filtering #								"		
+
+| Brand Safety | Brand Safety - Contextual Filtering # |  |  |
+| Brand Safety | Brand Safety - Pre-Bid Fraud blocking # |  |  |
+| Brand Safety | Brand Safety - Pre-Bid Viewability # |  |  |
+| Brand Safety | Site Safety Block |  |  |
+| Tracking | Tracking Pixels # |  |  |
+| Tracking | Conversion Pixels # |  |  |
+| Tracking | 3rd-party fees |  |  |
+| # of Ads Attached |  |  |
+| Ads |  Ad Names |  |  |
+| Ads | Attached Ad ID |  |  |
+| Environment | Environment |  |  |
+-->
+
 
 >[!MORELIKETHIS]
 >
