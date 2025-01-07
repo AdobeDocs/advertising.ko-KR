@@ -3,7 +3,7 @@ title: '[!DNL Yahoo! Japan Ads] 키워드 설정'
 description: ' [!DNL Yahoo! Japan Ads] 키워드에 대한 설정을 참조합니다.'
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cfb7cf030d91ed6b2b31832fd8ab8c97135477f3
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** 키워드입니다. 키워드에 대한 [[!DNL Yahoo! Japan Ads] 일치 유형 구문](https://ads-help.yahoo.co.jp/yahooads/ss/articledetail?lan=en&amp;aid=27)을(를) 포함하여 최대 길이는 80자입니다.
+**[!UICONTROL Keywords]:** 키워드입니다. 키워드에 대한 [[!DNL Yahoo! Japan Ads] 일치 유형 구문](https://ads-help.yahoo-net.jp/s/article/H000044997)을(를) 포함하여 최대 길이는 80자입니다.
 
 최대 2000개의 키워드를 입력하거나 붙여넣을 수 있습니다. 여러 키워드를 쉼표로 구분하거나 별도의 줄에 입력합니다.
 
