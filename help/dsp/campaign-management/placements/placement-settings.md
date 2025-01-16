@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
+source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '3966'
 ht-degree: 0%
 
 ---
@@ -448,7 +448,7 @@ ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다
 * *[!UICONTROL Ads.txt sellers only]*: 도메인의 승인된 직접 판매자 및 리셀러에서만 인벤토리를 구매합니다.
 * *[!UICONTROL Ads.txt sellers only]*: 도메인의 승인된 직접 판매자에서만 인벤토리를 구매합니다.
 
-**[!UICONTROL Attention Targeting]:**(디스플레이, 비디오, 모바일 및 표준 연결 TV 배치) 지정된 사이트, 형식 및 광고 크기를 기반으로 특정 주의 수준(높음, 중간 또는 낮음)을 가진 [!DNL Adelaide]개의 사전 입찰 세그먼트를 타겟팅합니다. 세그먼트는 매주 업데이트됩니다. **참고:** 타깃팅에 [!DNL Adelaide] 세그먼트를 사용하면 [!DNL Adelaide] 주의 타깃팅으로 전달된 각 노출에 대해 CPM 비용이 발생합니다. 이 비용은 [주의 측정](/help/dsp/campaign-management/campaigns/campaign-settings.md)에 대한 비용과 별개입니다. 대화형 프리롤 배치의 경우 VAST 노출에 대해서만 요금이 부과됩니다.
+**[!UICONTROL Attention Targeting]:**(디스플레이, 비디오 및 표준 연결된 TV 배치) 지정된 사이트, 형식 및 광고 크기를 기반으로 특정 주의 수준(높음, 중간 또는 낮음)을 가진 [!DNL Adelaide]개의 사전 입찰 세그먼트를 타겟팅합니다. 세그먼트는 매주 업데이트됩니다. **참고:** 타깃팅에 [!DNL Adelaide] 세그먼트를 사용하면 [!DNL Adelaide] 주의 타깃팅으로 전달된 각 노출에 대해 CPM 비용이 발생합니다. 이 비용은 [주의 측정](/help/dsp/campaign-management/campaigns/campaign-settings.md)에 대한 비용과 별개입니다. 대화형 프리롤 배치의 경우 VAST 노출에 대해서만 요금이 부과됩니다.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
