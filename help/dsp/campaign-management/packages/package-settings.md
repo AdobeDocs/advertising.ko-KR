@@ -3,9 +3,9 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: c1967636a762379f1daafb52cfe57dd0122b0748
+source-git-commit: 26c9c553dbd4086aa114b97dabdf4d9be10cdebe
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 **[!UICONTROL 3rd Party Billed Fees]:** (선택 사항) 청구 불가능한 비용으로 추적할 정적 타사 수수료:
 
-* **[!UICONTROL CPM]:** CPM(1000회 노출당 비용.
+* **[!UICONTROL CPM]:** 1000개 노출 당 비용(CPM).
 
 * **[!UICONTROL Description]:** CPM 요금에 대한 설명입니다.
 
@@ -58,11 +58,11 @@ ht-degree: 0%
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:**(패키지 수준 게재 간격, &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; 및 &quot;[!UICONTROL Lowest Cost per Reach]&quot; 최적화 목표만 있는 패키지) 캠페인에서 프로그래밍 방식으로 보장된 모든 배치의 가구 도달 데이터를 사용하여 증분 도달 속도를 최적화합니다.
 
-**[!UICONTROL Custom Goal for Model Learning]:**(&quot;[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 있는 패키지) CPA 또는 ROAS 지표를 계산하는 데 사용되는 매출 또는 전환 이벤트가 포함된 [사용자 지정 목표](/help/dsp/optimization/custom-goal.md). 사용자 지정 목표에는 패키지 최적화를 위한 CPA 또는 ROAS 지표 외에 사용할 추가 가중치가 적용된 상위 단계 이벤트(예: 페이지 방문 및 장바구니 추가)가 선택적으로 포함될 수 있습니다. 사용자 지정 목표 및 이를 사용하는 캠페인에 대한 생성 모범 사례를 포함하여 사용자 지정 목표에 대한 자세한 내용은 &quot;[사용자 지정 목표](/help/dsp/optimization/custom-goal.md)&quot; 및 &quot;[성능 캠페인 설정에 대한 모범 사례](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;를 참조하십시오.<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:**(&quot;[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 있는 패키지) CPA 또는 ROAS 지표를 계산하는 데 사용되는 매출 또는 전환 이벤트가 포함된 [사용자 지정 목표](/help/dsp/optimization/custom-goal.md). 사용자 지정 목표에는 패키지 최적화를 위한 CPA 또는 ROAS 지표 외에 사용할 추가 가중치가 적용된 상위 단계 이벤트(예: 페이지 방문 및 장바구니 추가)가 포함되어야 합니다. 사용자 지정 목표 및 이를 사용하는 캠페인에 대한 생성 모범 사례를 포함하여 사용자 지정 목표에 대한 자세한 내용은 &quot;[사용자 지정 목표](/help/dsp/optimization/custom-goal.md)&quot; 및 &quot;[성능 캠페인 설정에 대한 모범 사례](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;를 참조하십시오.<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:**(선택 사항, 최적화 목표가 &quot;[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;인 패키지 전용) 최적화 모델에 클릭 기반 전환에서만 학습하도록 지시합니다. 그렇지 않으면 최적화 모델이 클릭 및 노출 기반 전환 모두에서 학습합니다.
 
-**[!UICONTROL Conversion Metric]:**(선택 사항; &quot;[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 포함된 패키지) 광고 지출 수익률 또는 획득당 비용을 계산하는 데 사용할 최종 전환 이벤트(예: 등록) 또는 매출 이벤트/판매 금액(예: 구매 및 구매 값)입니다. 선택한 사용자 정의 목표에 매핑된 모든 기본 이벤트(&quot;목표 지표&quot;) 목록에서 선택합니다. 목록이 비어 있는 경우 기본 이벤트 중 하나 이상을 목표 지표로 포함하도록 사용자 지정 목표를 편집합니다.
+**[!UICONTROL Conversion Metric]:**(&quot;[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 있는 패키지) 광고 투자 수익률 또는 획득당 비용을 계산하는 데 사용할 최종 전환 이벤트(예: 가입) 또는 매출 이벤트/판매 금액(예: 구매 및 구매 값)입니다. 선택한 사용자 정의 목표에 매핑된 모든 기본 이벤트(&quot;목표 지표&quot;) 목록에서 선택합니다. 목록이 비어 있는 경우 기본 이벤트 중 하나 이상을 목표 지표로 포함하도록 사용자 지정 목표를 편집합니다.
 
 **[!UICONTROL Package Goal Type]:**(사용자 지정 최적화 목표가 있는 패키지 전용) 패키지의 목적입니다. 이 설정은 패키지를 최적화하는 방법을 결정하는 데 도움이 됩니다.
 

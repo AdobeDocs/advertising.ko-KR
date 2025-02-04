@@ -3,9 +3,9 @@ title: 용어집
 description: 주요 용어의 정의를 참조하십시오.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
+source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ ht-degree: 0%
 
 **비용 정확도:**(포트폴리오가 있는 광고주) 포트폴리오의 실제 지출을 예측된 지출로 나눕니다. [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 최적화에 사용되는 비용 모델의 정확도를 나타내며 [[!UICONTROL Model Accuracy]인사이트](/help/search-social-commerce/advertising-insights/insight-about.md)에는 모델 정확도를 개선하기 위한 권장 사항과 함께 자세한 내용이 포함되어 있습니다.
 
-**비용 모델:**(포트폴리오가 있는 광고주) 검색, 비용 양, 각 위치 또는 배치를 얻는 데 필요한 입찰, 내역 데이터 및 수학 예측 기술을 사용하여 각 입찰 단위에 대한 CPC(검색) 또는 CPM(디스플레이)을 예측하는 소셜 및 Commerce 기술.
+**비용 모델:**(포트폴리오가 있는 광고주) 검색, 비용 양, 각 위치 또는 배치를 얻는 데 필요한 입찰, 기록 데이터 및 수학 예측 기술을 사용하여 각 입찰 단위에 대한 CPC(검색) 또는 CPM(디스플레이)를 예측하는 소셜 및 Commerce 기술.
 
 **비용 모델 적용 범위:**(포트폴리오가 있는 광고주) 최적화 기능으로 비용 모델을 만들 수 있도록 지난 7일 동안 최소 하나의 노출을 받은 CPC 또는 eCPC 캠페인의 입찰 단위 수 및/또는 백분율입니다. 모든 입찰 단위에 비용 모델이 있는 것은 아닙니다. 비용 모델이 있는 입찰 단위는 비용 모델 적용 범위에 포함됩니다.
 
 **비용 모델 반감기:**(포트폴리오가 있는 광고주) 비용 데이터가 더 최신으로 간주되어 비용 모델에 더 적합한 현재 날짜까지의 일 수입니다.
 
-**1000회 노출당 비용:**(CPM) 1000회 노출당 광고 비용입니다. CPM 가격 책정 모델을 사용하는 광고주는 클릭이 아닌 노출 횟수로 지급합니다.
+**1000회 노출당 비용:**(CPM) 1000회 노출당 광고 비용입니다. CPM 가격 모델을 사용하는 광고주는 클릭이 아닌 노출에 의해 비용을 지불합니다.
 
 **획득당 비용:**(CPA) 광고 비용을 전환 횟수로 나눈 값입니다. CPT(트랜잭션당 비용) 또는 CPO(주문당 비용)라고도 합니다.
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 **CPC:** &quot;클릭당 비용&quot;을 참조하십시오.
 
-**CPM:** &quot;노출 횟수 1,000회당 비용&quot;을 참조하십시오.
+**CPM:** &quot;노출 횟수 1000회당 비용&quot;을 참조하십시오.
 
 **CPO:** &quot;주문당 비용&quot;을 참조하십시오.
 
@@ -180,6 +180,8 @@ ht-degree: 0%
 **지출 전략:**(포트폴리오가 있는 광고주) 포트폴리오에 대한 키워드/광고 입찰을 최적화하기 위해 선택한 전략입니다.
 
 **`s_kwcid`:** &quot;AMO ID&quot;를 참조하십시오.
+
+**추적 템플릿:**(최종 URL만 있는 계정) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종/고급 URL을 임베드하는 추적 템플릿 또는 추적 URL입니다. 캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 Search, Social 및 Commerce에서 자동으로 리디렉션 및 추적 코드 접두사를 추가합니다.
 
 **추적 URL:** 광고 클릭에 대한 정보를 추적하기 위해 추가 매개 변수가 추가된 추적 템플릿 또는 대상 URL입니다. 광고주의 랜딩 페이지로 리디렉션하기 전에 사용자를 먼저 추적 서버로 보내는 리디렉션 URL을 포함할 수도 있습니다.
 
