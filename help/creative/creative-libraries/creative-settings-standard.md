@@ -2,9 +2,10 @@
 title: 크리에이티브 설정
 description: xxxx에 대해 알아보십시오.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -105,7 +106,7 @@ ht-degree: 0%
 >
 >경험에 크리에이티브를 포함할 때 클릭 태그의 기본값을 사용자 지정 랜딩 페이지 URL로 대체하여 기본 크리에이티브의 파생물을 생성할 수 있습니다.
 
-**랜딩 페이지 URL:**(한 개의 랜딩 페이지만 있는 단순 HTML5 광고) 광고 연결용 각 광고의 기본 랜딩 페이지 URL입니다. http:// 또는 https://으로 시작하는 유효한 URL이어야 합니다. 여기에는 서드파티 추적 매개 변수 또는 [[!DNL Creative] 매크로](/help/creative/creative-macros.md)가 포함될 수 있습니다.
+**랜딩 페이지 URL:**(하나의 랜딩 페이지만 있는 간단한 HTML5 광고) 광고 연결과 관련된 각 광고의 기본 랜딩 페이지 URL입니다. http:// 또는 https://으로 시작하는 유효한 URL이어야 합니다. 여기에는 서드파티 추적 매개 변수 또는 [[!DNL Creative] 매크로](/help/creative/creative-macros.md)가 포함될 수 있습니다.
 
 번들에 크리에이티브를 포함하고 번들을 경험에 할당하는 경우, 원할 경우 번들의 각 크리에이티브에 대해 랜딩 페이지 URL을 변경하고 노출 및 클릭 추적 URL과 JavaScript을 추가할 수 있습니다. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
@@ -143,7 +144,7 @@ ht-degree: 0%
 
    [HTML 광고 사양](html5-creative-specification.md)을 참조하세요.
 
-1. 필요에 따라 새 [HTML 5 광고 설정](#creative-settings-html5)을(를) 편집합니다.
+1. 필요에 따라 새 [HTML5 광고 설정](#creative-settings-html5)을 편집합니다.
 
 1. **[!UICONTROL Edit]** 클릭
 
@@ -173,7 +174,7 @@ ht-degree: 0%
 
 **JavaScriptCode:** 타사 광고 서버의 크리에이티브를 가리키는 JavaScript 태그(및 선택적으로 JavaScript을 지원하지 않는 브라우저용 대체 태그)입니다. 스크립트는 광고 서버에 따라 다릅니다. 여러 크리에이티브를 편집할 때 선택한 각 크리에이티브에 동일한 값이 적용됩니다.
 
-사용 가능한 모든 매크로와 매크로가 대체되는 데이터는 입력 필드 아래에 나열됩니다. 매크로 중 하나를 태그에 삽입하려면 매크로 설명 위에 커서를 놓고 ![클립보드에 복사](/help/creative/assets/copy-to-clipboard.png "클립보드에 복사")를 클릭한 다음 태그 내에서 원하는 위치에 이미지를 붙여넣습니다.
+모든 [사용 가능한 매크로](/help/creative/creative-macros.md) 및 이 매크로가 대체되는 데이터가 입력 필드 아래에 나열됩니다. 매크로 중 하나를 태그에 삽입하려면 매크로 설명 위에 커서를 놓고 ![클립보드에 복사](/help/creative/assets/copy-to-clipboard.png "클립보드에 복사")를 클릭한 다음 태그 내에서 원하는 위치에 이미지를 붙여넣습니다.
 
 DSP에서 광고로 구현하는 경험에 이 크리에이티브를 포함하면 DSP은 이 태그의 정보를 사용하여 광고를 표시하고, 광고 노출 횟수 및 클릭 수를 추적한 다음 태그를 광고 교환으로 푸시합니다. 광고를 표시하고 클릭하면 광고 서버, DSP 및 [!DNL Creative]에서 이벤트를 추적합니다.
 
@@ -201,3 +202,4 @@ u
 >
 >* [Creative 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md)
 >* [표준 광고 편집](/help/creative/creative-libraries/creative-edit-standard.md)
+>* [추적 URL에 사용할 수 있는 매크로](/help/creative/creative-macros.md)

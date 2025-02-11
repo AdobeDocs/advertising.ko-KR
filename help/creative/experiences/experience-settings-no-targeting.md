@@ -2,9 +2,10 @@
 title: 타깃팅되지 않은 경험에 대한 설정
 description: 의사 결정 트리 타깃팅이 없는 광고 경험에 대한 모든 설정 설명을 참조하십시오.
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: aeeca035-8ae2-4173-827a-b8690d228549
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced] 섹션
 
-**데이터 전달:**(동적 광고만 있는 경험, 선택 사항) DSP, 게시자 또는 파트너가 노출 시 실시간으로 전달하는 특정 키-값 쌍을 기준으로 사용자를 타깃팅합니다. 최대 5개의 데이터 패스 키(매개 변수)를 지정할 수 있습니다.<!-- May move this to just within the decision tree. -->
+**데이터 패스:**(동적 광고만 있는 경험, 선택 사항) DSP, 게시자 또는 파트너가 노출 시 실시간으로 전달하는 특정 키-값 쌍을 기준으로 사용자를 타깃팅합니다. 최대 5개의 데이터 패스 키(매개 변수)를 지정할 수 있습니다.<!-- May move this to just within the decision tree. -->
 
 나중에 특정 크리에이티브 크기에 대한 광고 경험 태그를 만들면 이 필드에 지정된 각 키가 태그에 매크로로 추가됩니다. 태그를 DSP에 광고로 구현하기 전에 태그 내의 각 키-값 쌍에 대한 값을 입력해야 합니다.
 
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 **[!UICONTROL Impression Tracking URL]:**(선택 사항) 경험에서 만든 모든 광고의 랜딩 페이지 URL에 추가할 타사 노출 추적 URL입니다. 최대 5개의 URL을 포함할 수 있습니다. URL을 추가하려면 ![아이콘](/help/creative/assets/create.png) **[!UICONTROL Add More]을(를) 클릭하고 URL을 입력하십시오.
 
-URL을 입력하면 사용 가능한 모든 매크로와 매크로가 대체되는 데이터가 페이지 아래쪽에 나열됩니다. URL에 매크로 중 하나를 삽입하려면 매크로 설명 위에 커서를 놓고 ![클립보드에 복사](/help/creative/assets/copy-to-clipboard.png "클립보드에 복사")를 클릭한 다음 URL 필드에 매크로를 원하는 위치에 붙여넣습니다.
+URL을 입력하면 [사용 가능한 모든 매크로](/help/creative/creative-macros.md)와 이 매크로가 대체되는 데이터가 페이지 아래쪽에 나열됩니다. URL에 매크로 중 하나를 삽입하려면 매크로 설명 위에 커서를 놓고 ![클립보드에 복사](/help/creative/assets/copy-to-clipboard.png "클립보드에 복사")를 클릭한 다음 URL 필드에 매크로를 원하는 위치에 붙여넣습니다.
 
 >[!NOTE]
 >
@@ -77,7 +78,7 @@ URL을 입력하면 사용 가능한 모든 매크로와 매크로가 대체되�
 
 **[!UICONTROL Click Tracking URL]:** (선택 사항) 랜딩 페이지 URL에 추가할 타사 클릭 추적 URL입니다. 최대 5개의 URL을 포함할 수 있습니다. URL을 추가하려면 ![아이콘](/help/creative/assets/create.png) **[!UICONTROL Add More]**&#x200B;을(를) 클릭하고 URL을 입력하십시오.
 
-URL을 입력하면 사용 가능한 모든 매크로와 매크로가 대체되는 데이터가 페이지 아래쪽에 나열됩니다. URL에 매크로 중 하나를 삽입하려면 매크로 설명 위에 커서를 놓고 ![클립보드에 복사](/help/creative/assets/copy-to-clipboard.png "클립보드에 복사")를 클릭한 다음 URL 필드에 매크로를 원하는 위치에 붙여넣습니다.
+URL을 입력하면 [사용 가능한 모든 매크로](/help/creative/creative-macros.md)와 이 매크로가 대체되는 데이터가 페이지 아래쪽에 나열됩니다. URL에 매크로 중 하나를 삽입하려면 매크로 설명 위에 커서를 놓고 ![클립보드에 복사](/help/creative/assets/copy-to-clipboard.png "클립보드에 복사")를 클릭한 다음 URL 필드에 매크로를 원하는 위치에 붙여넣습니다.
 
 >[!NOTE]
 >
@@ -94,6 +95,7 @@ URL을 입력하면 사용 가능한 모든 매크로와 매크로가 대체되�
 >
 >* [의사 결정 트리 타깃팅 없이 경험 만들기](experience-create-no-targeting.md)
 >* [의사 결정 트리 타깃팅 없이 경험 편집](experience-edit-no-targeting.md)
+>* [추적 URL에 사용할 수 있는 매크로](/help/creative/creative-macros.md)
 >* [적용 가능한 광고 크기에 대한 광고 태그를 수동으로 만듭니다](experience-tag-create-manually.md)
 >* [타깃팅이 없는 경험에 대한 광고 태그에 크리에이티브를 할당](experience-tag-assign-creatives.md)
 >* [타깃팅하지 않고 경험에 대한 추적 URL 사용자 지정](experience-tracking-urls-no-targeting.md)

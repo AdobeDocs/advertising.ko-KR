@@ -2,9 +2,10 @@
 title: 크리에이티브 라이브러리에 표준 크리에이티브 추가
 description: 크리에이티브 라이브러리에 표준(비동적) 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ You can do either of the following:
 
 -->
 
-여러 개의 유연한 크리에이티브 단위를 업로드할 수 있습니다. 유연한 크리에이티브는 ZIP 형식이어야 하며, 최대 2MB일 수 있습니다. 파일 요구 사항에 대해서는 [HTML 5 광고 사양](html5-creative-specification.md)을 참조하세요.
+여러 개의 유연한 크리에이티브 단위를 업로드할 수 있습니다. 유연한 크리에이티브는 ZIP 형식이어야 하며, 최대 2MB일 수 있습니다. 파일 요구 사항은 [HTML5 Creative 사양](html5-creative-specification.md)을 참조하십시오.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
@@ -111,7 +112,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->[!DNL Creative] 내에서 직접 편집할 수 있는 표준 HTML 태그로서 모든 특성을 가진 [유연한 HTMLHTML 5 광고](#flexible-creative-add)를 추가할 수도 있습니다.
+>[!DNL Creative] 내에서 직접 편집할 수 있는 표준 HTML 태그로 모든 특성을 가진 HTML5 크리에이티브인 [유연한 HTML5 크리에이티브를 추가](#flexible-creative-add)할 수도 있습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
@@ -147,7 +148,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 ## 광고 라이브러리에 이미지 광고 추가
 
-이미지 크리에이티브는 GIF, JPEG, JPG 또는 PNG 형식일 수 있습니다. 최대 파일 크기는 2MB입니다. [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하세요.
+GIF, JPEG, JPG 또는 PNG 형식의 이미지를 만들 수 있습니다. 최대 파일 크기는 2MB입니다. [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하세요.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
@@ -175,7 +176,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. **[!UICONTROL Create]** 클릭
 
-## 크리에이티브 라이브러리에 서드파티 크리에이티브 추가
+## 크리에이티브 라이브러리에 서드파티 크리에이티브 추가 {#creative-add-third-party}
 
 [!DNL Creative]은(는) 대부분의 타사 광고 서버에서 호스팅되는 크리에이티브에 대해 JavaScript 추적 태그를 지원합니다.
 
@@ -187,9 +188,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**&#x200B;을(를) 클릭합니다.
 
-1. [타사 크리에이티브 설정]에서 크리에이티브에 대한 JavaScript 태그 및 기타 설정을 지정합니다.
+1. [타사 크리에이티브 설정](#creative-settings-third-party)에서 크리에이티브에 대한 JavaScript 태그 및 기타 설정을 지정합니다.
 
-   사용 가능한 매크로를 복사하여 JavaScript 태그에 붙여넣을 수 있습니다.
+   [사용 가능한 매크로](/help/creative/creative-macros.md)를 복사하여 JavaScript 태그에 붙여넣을 수 있습니다.
 
 1. **[!UICONTROL Create]** 클릭
 
@@ -197,6 +198,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 >
 >* [표준 광고 편집](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [추적 URL에 사용할 수 있는 매크로](/help/creative/creative-macros.md)
 >* [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)
 >* [크리에이티브 미리 보기](/help/creative/creative-libraries/creative-preview.md)
 >* [번들에서 광고 연결 및 분리](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
