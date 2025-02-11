@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 73641f1a3cd1729ccb978739e9888cf2ff58d16f
+source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 **범위:** 데이터를 생성할 날짜 범위입니다. 사용 가능한 일 수는 보고서 및 선택한 차원에 따라 다릅니다. 다음 중 하나를 선택합니다.
 
-* **[!UICONTROL Last Calendar Week]:** 이전 일정 주에 대한 데이터를 포함합니다.
+* **[!UICONTROL Previous Calendar Week]:** 이전 일정 주에 대한 데이터를 포함합니다.
 
-* **[!UICONTROL Last Calendar Month]:** 이전 달력의 데이터를 포함합니다.
+* **[!UICONTROL Previous Calendar Month]:** 이전 달력의 데이터를 포함합니다.
 
 * **[!UICONTROL Custom Range]:** 특정 시작 날짜와 종료 날짜 사이의 데이터를 포함합니다. 전날까지 데이터를 보고하려면 **[!UICONTROL Present]**&#x200B;을(를) 선택하십시오.
 

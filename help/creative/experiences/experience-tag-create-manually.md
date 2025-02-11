@@ -2,9 +2,10 @@
 title: 적용 가능한 광고 크기에 대한 광고 태그를 수동으로 만듭니다.
 description: 특정 크리에이티브 크기에 대한 광고 태그를 만드는 방법을 알아봅니다.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,8 @@ ht-degree: 0%
    같은 크리에이티브 크기에 대해 여러 태그를 만들 수 있습니다.<!-- What are the implications? -->
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+
+   태그 행을 확장하여 포함된 크리에이티브를 볼 수 있습니다.
 
 >[!MORELIKETHIS]
 >

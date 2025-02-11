@@ -2,9 +2,10 @@
 title: 라이브 경험을 위한 광고 경험 태그 내보내기 및 구현
 description: 광고 경험 태그를 내보내고 선택적으로 Advertising DSP 캠페인에 업로드하는 방법을 알아봅니다.
 feature: Creative Experiences
-source-git-commit: fc2cd07944026badc0722c1449aa9aaf2c94bfd7
+exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,6 @@ Advertising DSP을 사용하는 광고주는 선택적으로 태그를 광고로
 >* 의사 결정 트리 타깃팅으로 경험을 만들면 [!DNL Creative]에서 적용 가능한 각 광고 크기에 대한 광고 태그를 자동으로 만듭니다.
 >* 의사 결정 트리 타깃팅이 없는 경험을 만드는 경우 적용 가능한 각 광고 크기에 대해 [수동으로 광고 태그를 만들어야](experience-tag-create-manually.md) 합니다.
 >* 경험 태그는 동적입니다. 경험을 편집하는 경우 태그를 업데이트할 필요가 없습니다.
-
-## 의사 결정 트리 타겟팅이 있는 경험에 대한 광고 태그 내보내기
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;을(를) 클릭합니다.
 

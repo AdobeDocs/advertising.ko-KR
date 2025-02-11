@@ -4,73 +4,15 @@ user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: Creative 안내서
 hide: true
-index: false
-source-git-commit: d51687fd2cac271424485b26cd20787d603d3112
+source-git-commit: a5952cbd26ebdbf7e16d7735555d956353616d40
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 
 # (폐쇄형 Beta) Advertising Creative 2.0 안내서 {#creative}
-
-<!-- combine intro/common tasks into just a couple of top-level files? -->
-
-
-<!-- Add in once the pages are done:
-
-+ [What's new](/help/creative/home.md)
-+ Introduction {#creative-introduction}
-  + [About Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
-  + [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)
-  + [How the user interface is organized](/help/creative/introduction/ui.md)
-
-
-  + Creatives {#creatives}
-    + Standard creatives {#standard-creatives}
-      + [Available flexible creative templates ](/help/creative/creative-libraries/flexible-html5-templates.md)
-
-    + Dynamic creatives {#dynamic-creatives}
-	    + [Add dynamic creatives to a creative library](/help/creative/creative-libraries/creative-add-dynamic.md)
-	    + [Edit dynamic creatives](/help/creative/creative-libraries/creative-edit-dynamic.md)
-	    + [Dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md)
-
-+ Ad experiences {#creative-experiences}
-  + Workflow
-  + Workflow
-
-  + Ad tags
-    + (Experiences without targeting) Create an ad tag [already listed above]
-    + [Export and implement an ad experience tag for a live experience](/help/creative/experiences/experience-tag-export.md)
-    + [Rename an ad tag](/help/creative/experiences/experience-tag-rename.md)
-
-
-  + [Delete an experience](/help/creative/experiences/experience-delete.md)
-  + Performance Reports {#reports}
-    + 
-
-+ Tracking pixels
-  + [Manage conversion pixels](/help/creative/pixels/conversion-pixel-manage.md)
-
-+ Custom Reports {#custom-reports}
-  + [About Custom Reports](/help/dsp/reports/report-about.md)
-  + [Create a Custom Report](/help/dsp/reports/report-create.md)
-  + [Duplicate a Custom Report](/help/dsp/reports/report-copy.md)
-  + [Edit a Custom Report](/help/dsp/reports/report-edit.md)
-  + [Delete a Custom Report](/help/dsp/reports/report-delete.md)
-  + [Run a Custom Report](/help/dsp/reports/report-run-now.md)
-  + [Download a Custom Report](/help/dsp/reports/report-download.md)
-  + [Custom Report Settings](/help/dsp/reports/report-settings.md)
-  + [Available Report Columns](/help/dsp/reports/report-columns.md)
-  + [FAQs About Household Reports](/help/dsp/reports/faq-reports.md)
-  + Report Destinations {#report-destinations}
-    + [About [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
-    + [Create a [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
-    + [Edit a [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-    + [Delete a [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-    + [[!UICONTROL Report Destination] Settings](/help/dsp/reports/report-destinations/report-destination-settings.md)
--->
 
 + [새로운 기능](/help/creative/home.md)
 + {#introduction} 소개
@@ -128,8 +70,10 @@ ht-degree: 0%
    + [보기의 모든 경험 다운로드](/help/creative/experiences/experience-download-view.md)
    + [광고 태그 이름 바꾸기](/help/creative/experiences/experience-tag-rename.md)
    + [경험 삭제](/help/creative/experiences/experience-delete.md)
++ 성능 보고서 {#reports}
+   + [경험 수준 성과 보고서](/help/creative/experiences/experience-performance-details.md)
+   + [사용자 정의 크리에이티브 보고서](/help/creative/report-custom-creative.md)
 + [픽셀 재타겟팅](/help/creative/pixels/retargeting-pixel-manage.md)
-+ 사용자 지정 보고서 {#custom-reports}
 + [추적 URL에 사용 가능한 매크로](/help/creative/creative-macros.md)
 + [고객 지원](https://experienceleague.adobe.com/home?support-tab=home#support)
 + [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

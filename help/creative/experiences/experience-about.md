@@ -2,7 +2,8 @@
 title: Advertising Creative의 경험 정보
 description: 개인화된 광고 경험을 구성하고 성능에 따라 광고 요소를 최적화하는 방법을 알아봅니다.
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -51,7 +52,7 @@ ht-degree: 0%
 [!UICONTROL Creative] > [!UICONTROL Experiences] 보기에서 경험에 대한 자세한 성능 데이터를 볼 수 있습니다. 경험에서 성능을 모니터링하려면 [!UICONTROL Custom Creative Report]을(를) 만드십시오.
 
 <!--
-You can [view detailed performance data for any experience](experience-view-report.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
+You can [view detailed performance data for any experience](experience-performance-details.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
 -->
 
 ## 경험 상태 {#experience-statuses}
