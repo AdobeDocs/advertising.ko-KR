@@ -2,9 +2,10 @@
 title: 픽셀 재타겟팅 관리
 description: 광고 경험의 타겟으로 사용할 리타기팅 픽셀을 만들고 구현하는 방법에 대해 알아봅니다.
 feature: Creative Pixels
-source-git-commit: 91edc406401cbdae44932a2c70f7daf12d8d7b4e
+exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
+source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> * [!DNL Creative]은(는) 현재 Advertising DSP에 대해서만 범용 ID를 지원합니다. 향후 릴리스는 타사 DSP의 범용 ID를 지원합니다.<!-- Clarify this and reword as needed -->
+> * [!DNL Creative]은(는) 현재 Advertising DSP에 대해서만 범용 ID를 지원합니다. 향후 릴리스는 타사 DSP용 범용 ID를 지원합니다.<!-- Clarify this and reword as needed -->
 >* 또한 Adobe Audience Manager 및 Adobe Analytics의 자사 대상을 [경험의 크리에이티브 대상](/help/creative/experiences/experience-settings-targeting.md)(으)로 사용할 수 있습니다.
 >* Advertising DSP 배치 내에서 경험을 광고로 사용할 때 DSP에서 사용할 수 있는 모든 대상자에게 배치를 타깃팅할 수 있습니다. [사용자 지정 대상 세그먼트 태그를 만들어](/help/dsp/audiences/custom-segment-create.md) 특정 랜딩 페이지에 대한 모든 방문자를 추적한 다음 해당 세그먼트를 배치를 위한 크리에이티브 대상으로 사용할 수도 있습니다.
 >* 광고 타깃팅을 위한 추적을 옵트아웃한 웹 사이트 방문자는 대상 세그먼트 또는 재타깃팅 프로필을 기반으로 개인화된 크리에이티브 콘텐츠가 포함된 광고를 받지 않습니다.
@@ -78,7 +79,7 @@ ht-degree: 0%
 
    추가 속성을 수동으로 추가하는 경우 URL 인코딩을 포함해야 합니다.
 
-   예를 들어 &quot;category&quot;, &quot;color&quot; 및 &quot;size&quot; 특성을 포함하고 ID5 유니버설 ID를 캡처하는 경우 픽셀 태그에 다음 매개 변수가 포함됩니다. `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` 및 `&id5pid=--Insert ID5_PARTNER_ID--`. 예를 들어 크기 10의 빨간색 샌들을 선택하는 사용자를 타겟팅하려면 이미지 태그와 스크립트 태그의 매개 변수를 모두 `&ut1=--sandals--&ut2=--red--&ut3=--10--`(으)로 변경하고 스크립트 태그에 ID5 파트너 ID(예: `&id5pid=--0123456789--`)를 입력합니다.&lt;!— 최종 구문을 확인합니다. — 다음과 같아야 합니다. &amp;ut1=sandals&amp;ut2=10&amp;ut2=red ? —>
+   예를 들어 &quot;category&quot;, &quot;color&quot; 및 &quot;size&quot; 특성을 포함하고 ID5 유니버설 ID를 캡처하는 경우 픽셀 태그에 다음 매개 변수가 포함됩니다. `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` 및 `&id5pid=--Insert ID5_PARTNER_ID--`. 예를 들어 크기 10의 빨간색 샌들을 선택하는 사용자를 타겟팅하려면 이미지 태그와 스크립트 태그의 매개 변수를 모두 `&ut1=sandals&ut2=red&ut3=10`(으)로 변경하고 스크립트 태그에 ID5 파트너 ID(예: `&id5pid=0123456789`)를 입력합니다.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -116,7 +117,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Ramp ID]:* 픽셀 태그가 [!DNL Ramp IDs]을(를) 추적합니다. 범용 ID에 게재되는 노출에 대해서는 요금이 부과되지 않습니다.
 
-이 기능을 사용하려면, 새 ID 유형에 범용 ID를 사용하기 전에 사용자 또는 DSP 계정의 다른 사용자가 범용 ID 사용에 대한 서비스 약관에 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 귀하의 동의를 받고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 **[!UICONTROL Terms of Service]**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
+이 기능을 사용하려면 새 ID 유형에 범용 ID를 사용하기 전에 사용자 또는 DSP 계정의 다른 사용자가 범용 ID 사용에 대한 서비스 약관에 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 사용자의 동의를 얻고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 **[!UICONTROL Terms of Service]**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
