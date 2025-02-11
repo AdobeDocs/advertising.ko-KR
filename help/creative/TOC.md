@@ -4,7 +4,7 @@ user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: Creative 안내서
 hide: true
-source-git-commit: a5952cbd26ebdbf7e16d7735555d956353616d40
+source-git-commit: f13f2b3e9bed34acbe1c3c07adbca2b7a61ac76c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -17,8 +17,8 @@ ht-degree: 0%
 + [새로운 기능](/help/creative/home.md)
 + {#introduction} 소개
    + [데이터 보기 사용자 지정](/help/creative/introduction/customize-data-views.md)
-   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative 라이브러리 {#creative-libraries}
    + [크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)
    + [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)
@@ -28,7 +28,7 @@ ht-degree: 0%
          + [크리에이티브 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md)
          + [표준 광고 편집](/help/creative/creative-libraries/creative-edit-standard.md)
          + [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md)
-         + [HTML5 크리에이티브 사양](/help/creative/creative-libraries/html5-creative-specification.md)
+         + [HTML5 creative 사양](/help/creative/creative-libraries/html5-creative-specification.md)
       + [크리에이티브 미리 보기](/help/creative/creative-libraries/creative-preview.md)
       + [번들에서 크리에이티브 연결 및 분리](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [광고 복제](/help/creative/creative-libraries/creative-duplicate.md)
@@ -37,7 +37,7 @@ ht-degree: 0%
    + Creative 번들 {#bundles}
       + [Creative 번들 관리](/help/creative/creative-libraries/bundle-manage.md)
 + 광고 경험 {#creative-experiences}
-   + [Advertising Creative의 경험 정보](/help/creative/experiences/experience-about.md)
+   + [Advertising Creative의 경험](/help/creative/experiences/experience-about.md)
    + 타깃팅 {#experience-targeted}이(가) 있는 경험
       + [의사 결정 트리 레이아웃](/help/creative/experiences/experience-decision-tree.md)
       + [타깃팅으로 경험 만들기](/help/creative/experiences/experience-create-targeting.md)
@@ -75,5 +75,5 @@ ht-degree: 0%
    + [사용자 정의 크리에이티브 보고서](/help/creative/report-custom-creative.md)
 + [픽셀 재타겟팅](/help/creative/pixels/retargeting-pixel-manage.md)
 + [추적 URL에 사용 가능한 매크로](/help/creative/creative-macros.md)
-+ [고객 지원](https://experienceleague.adobe.com/home?support-tab=home#support)
-+ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [고객 지원](https://experienceleague.adobe.com/home?support-tab=home#support){target="_blank"}
++ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
