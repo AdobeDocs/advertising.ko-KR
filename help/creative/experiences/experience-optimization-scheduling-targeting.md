@@ -3,9 +3,9 @@ title: 경험을 위한 크리에이티브 최적화 및 일정 사용자 정의
 description: 방법 알아보기
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
+source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 1. 크리에이티브 순환 유형을 선택합니다.
 
-   * &amp;ast;&amp;ast; *Weighted* &amp;ast;&amp;ast; — 상대 가중치에 따라 각 번들의 크리에이티브를 수동으로 회전합니다. 각 번들의 가중치를 백분율로 입력합니다. 모든 번들의 무게는 최대 100까지 더해야 합니다.
+   * *[!UICONTROL Weighted]:* 각 번들의 크리에이티브를 상대 가중치에 따라 수동으로 회전합니다. 각 번들의 가중치를 백분율로 입력합니다. 모든 번들의 무게는 최대 100까지 더해야 합니다.
 
-   * &amp;ast;&amp;ast; *Algorithmic* &amp;ast;&amp;ast; — 지정된 최적화 목표에 따라 각 번들의 크리에이티브를 알고리즘적으로 회전합니다.
+   * *[!UICONTROL Algorithmic]:* 지정된 최적화 목표에 따라 각 번들의 크리에이티브를 알고리즘 방식으로 회전합니다.
 
       * **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오.  *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.<!-- Verify -->
 
@@ -57,9 +57,9 @@ ht-degree: 0%
 
    1. 크리에이티브 순환 유형을 선택합니다.
 
-      * &amp;ast;&amp;ast; *Weighted* &amp;ast;&amp;ast; — 상대 가중치에 따라 각 번들의 크리에이티브를 수동으로 회전합니다. 각 번들의 가중치를 백분율로 입력합니다. 선택한 모든 번들에 대한 가중치는 최대 100까지 추가해야 합니다.
+      * *[!UICONTROL Weighted]:* 각 번들의 크리에이티브를 상대 가중치에 따라 수동으로 회전합니다. 각 번들의 가중치를 백분율로 입력합니다. 선택한 모든 번들에 대한 가중치는 최대 100까지 추가해야 합니다.
 
-      * &amp;ast;&amp;ast; *Algorithmic* &amp;ast;&amp;ast; — 지정된 최적화 목표에 따라 각 번들의 크리에이티브를 알고리즘적으로 회전합니다.
+      * *[!UICONTROL Algorithmic]:* 지정된 최적화 목표에 따라 각 번들의 크리에이티브를 알고리즘 방식으로 회전합니다.
 
          * **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오.  *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.<!-- Verify -->
 
@@ -73,9 +73,9 @@ ht-degree: 0%
 
    1. 크리에이티브 순환 유형을 선택합니다.
 
-      * &amp;ast;&amp;ast; *Weighted* &amp;ast;&amp;ast; — 상대 가중치에 따라 각 번들의 크리에이티브를 수동으로 회전합니다. 각 번들의 가중치를 백분율로 입력합니다. 선택한 모든 번들에 대한 가중치는 최대 100까지 추가해야 합니다.
+      * *[!UICONTROL Weighted]:* 각 번들의 크리에이티브를 상대 가중치에 따라 수동으로 회전합니다. 각 번들의 가중치를 백분율로 입력합니다. 선택한 모든 번들에 대한 가중치는 최대 100까지 추가해야 합니다.
 
-      * &amp;ast;&amp;ast; *Algorithmic* &amp;ast;&amp;ast; — 지정된 최적화 목표에 따라 각 번들의 크리에이티브를 알고리즘적으로 회전합니다.
+      * *[!UICONTROL Algorithmic]:* 지정된 최적화 목표에 따라 각 번들의 크리에이티브를 알고리즘 방식으로 회전합니다.
 
          * **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오.  *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.<!-- Verify -->
 
