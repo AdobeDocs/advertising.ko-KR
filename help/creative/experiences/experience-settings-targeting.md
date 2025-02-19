@@ -3,9 +3,9 @@ title: 타깃팅된 경험 설정
 description: 타겟팅된 광고 경험에 대한 모든 설정 설명을 참조하십시오.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 75ecbf5309c21952fb4355be852f80100aa916ae
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 각 키는 광고 경험에 매크로로 추가됩니다
 태그 : DSP에서 광고로 구현하기 위해 생성할 수 있습니다.
 
-**반경:**(동적 광고만 있는 경험, 선택 사항) 타깃팅할 사용자 반경. 0마일에서 200마일까지 반경을 선택하십시오.<!-- Affect within the decision tree? -->
+**반경:**(동적 광고만 있는 경험, 선택 사항) 피드 파일에 지정된 미국 우편 번호에서 타깃팅할 반경입니다. 0마일에서 200마일 사이의 반경을 선택하십시오. 경험에 대한 동적 광고를 만드는 데 사용되는 피드 파일에는 파일의 각 제품 행에 대한 값이 있는 [!UICONTROL ZIP] 열<!-- or a user-named column mapped to a ZIP column -->이(가) 포함되어야 합니다. 예를 들어 반경 10마일의 경우, 95110에서 사용 가능한 제품에 대한 광고를 반경 10마일 내의 사용자에게 표시할 수 95110.
 
 **RT 픽셀:**(기존 경험의 경우 읽기 전용, 선택 사항) 잠재적으로 타깃팅할 [!UICONTROL Creative] 리타겟팅 픽셀입니다. 의사 결정 트리 내에서 타깃팅을 설정할 때 한 수준의 RT 픽셀 대상 노드를 포함하고 각 노드에 대해 타깃팅할 픽셀과, 할당된 크리에이티브 번들에서 크리에이티브를 표시하기 위해 존재해야 하는 픽셀 속성에 대한 필수 값을 지정할 수 있습니다. 경험을 만들 때 이 필드에 픽셀을 지정하지 않으면 결정 트리 내에서 픽셀을 지정할 수 있습니다.<!-- May move this to just within the decision tree. -->
 
