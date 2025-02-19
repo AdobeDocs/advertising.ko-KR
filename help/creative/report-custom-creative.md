@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: 교차 경험 [!UICONTROL Custom Creative Report]을(를) 생성하는 방법을 알아봅니다.
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 7e355e7574a9fb6f3fdd4073ad7a4eae3f0cf0d1
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1915'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 보고서를 한 번 생성하거나 지정된 기준(예: 15일마다 또는 매월 1일)에 따라 지정된 시간대의 03:00에 매일, 매주 또는 매월 예약할 수 있습니다. 보고서가 생성되면 [!UICONTROL Reports] > [!UICONTROL Custom Reports] 또는 다음 유형의 연결된 [보고서 대상](/help/dsp/reports/report-destinations/report-destination-about.md)에서 다운로드할 수 있습니다.
 
-* [!DNL Amazon Simple Storage Service]([!DNL S3])
+* [!DNL Amazon Simple Storage Service]&#x200B;([!DNL S3])
 * FTP
 * FTP SSL <!-- (in beta) -->
 * SFTP
@@ -113,7 +113,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:* 전환 경로에 있는 차원 값(예: 장치 또는 배치)의 발생 빈도에 따라 각 전환의 크레딧을 배포합니다. 예를 들어 전환 전에 CTV에 8개, 모바일에 2개로 총 10개의 노출이 있었다면 크레딧의 80%(0.8)는 CTV 화면에, 0.2는 모바일에 제공됩니다.
 
-* **\[규칙 유형\]:**(Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 특성화하는 방법. 규칙 간의 차이를 비교하려면 두 개 이상의 규칙을 선택할 수 있습니다.
+* **\[규칙 유형\]:**(Adobe Advertising 전환 추적 전용 광고주) 보고서 내에서 전환으로 이어지는 일련의 이벤트에서 전환 데이터를 특성화하는 방법. 규칙 간의 차이를 비교하려면 두 개 이상의 규칙을 선택할 수 있습니다.
 
   >[!NOTE]
   >
@@ -131,7 +131,7 @@ ht-degree: 0%
 
    * *[!UICONTROL U-shaped]:* 전환 경로의 모든 이벤트에 대한 전환의 특성을 지정하지만 첫 번째 이벤트와 마지막 이벤트에 가장 많은 가중치를 제공하고 전환 경로 중간에 있는 이벤트에는 순차적으로 더 적은 가중치를 제공합니다.
 
-   * *[!UICONTROL Display Only]:* 특성 변환이 변환 경로의 마지막 DSP 클릭 또는 노출로 변경되었습니다. 여기에는 비디오 및 연결된 TV 광고가 포함되며 [!DNL Advertising Search, Social, & Commerce]개 광고에 대한 클릭은 제외됩니다.
+   * *[!UICONTROL Display Only]:* 특성을 전환 경로에서 마지막 DSP 클릭 또는 노출로 전환했습니다. 여기에는 비디오 및 연결된 TV 광고가 포함되며 [!DNL Advertising Search, Social, & Commerce]개 광고에 대한 클릭은 제외됩니다.
 
    * *[!UICONTROL Social Only]:* 사용되지 않음
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 * *[!UICONTROL None]:* 보고서나 알림을 배달하지 않습니다.
 
-* *[!UICONTROL S3]:* 완료된 보고서를 하나 이상의 [!DNL Amazon Simple Storage Service]([!DNL Amazon S3]) 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+* *[!UICONTROL S3]:* 완료된 보고서를 하나 이상의 [!DNL Amazon Simple Storage Service]&#x200B;([!DNL Amazon S3]) 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL sFTP]:* 완료된 보고서를 하나 이상의 SFTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Creative ID] | 크리에이티브 ID. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement Name] | 광고가 실행된 배치의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Buy ID] | 광고 배치에 대한 구매 ID입니다. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | 광고가 실행된 DSP ID입니다. |
+| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | 광고가 실행된 DSP의 ID입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | 광고가 실행된 DSP의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site ID] | 광고가 실행된 사이트의 ID. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site Name] | 광고가 실행된 사이트의 이름입니다. |
@@ -251,7 +251,7 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | 제품에 대해 제공된 광고의 총 매출입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | 제공된 광고의 총 매출액. |
 | [!UICONTROL Conversion Metrics] | [보고서 설정에서 광고주별로 그룹화됨] | [광고주별 전환] | 지정된 광고주별 전환 지표 또는 Adobe Analytics 이벤트에 대한 합계입니다. |
-| [!UICONTROL Custom Goals] | [보고서 설정에서 광고주별로 그룹화됨] | [광고주별 사용자 지정 목표] | 지정된 [사용자 지정 목표](/help/dsp/optimization/custom-goal.md)에 포함된 모든 전환의 가중 합계입니다. |
+| [!UICONTROL Custom Goals] | [보고서 설정에서 광고주별로 그룹화됨] | [광고주별 사용자 지정 목표] | 지정된 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)에 포함된 모든 전환의 가중 합계입니다. |
 
 {style="table-layout:auto"}
 

@@ -3,9 +3,9 @@ title: 경험 수준 성과 보고서
 description: 경험 수준 성과 보고서를 보는 방법에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 137f334eec778499f263e26c125e97ffe37d6112
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    * (선택 사항) 보고된 전환을 변경하려면 ![설정](/help/creative/assets/settings.png)을 클릭하고 **[!UICONTROL Conversions]** 메뉴에서 전환 이름을 선택합니다.&lt;!— 한 번? 아니면 여러 번? 이러한 항목이 어떻게 표시되는지 확인합니다. — 이미 여러 개의 전환이 설정된 광고주를 확인해야 합니다 —>
 
-     사용 가능한 전환 열에는 검색, 소셜 및 Commerce 고객인지 여부에 관계없이 Advertising 검색, 소셜 및 Commerce에서 사용할 수 있는 전환이 포함됩니다. 여기에는 Adobe Analytics에서 동기화된 전환 및 사이트 참여 지표가 포함될 수 있습니다. <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> 보고서에 수집된 전환을 포함하는 방법에 대한 자세한 내용은 검색, 소셜 및 Commerce 가이드 항목 &quot;[광고주의 전환 지표 관리에 대한 정보](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;를 참조하십시오.
+     사용 가능한 전환 열에는 검색, 소셜 및 Commerce 고객인지 여부에 관계없이 Advertising 검색, 소셜 및 Commerce에서 사용할 수 있는 전환이 포함됩니다. 광고주가 [an [!DNL Adobe Analytics for Advertising] 통합](/help/integrations/analytics/overview.md)을 보유한 경우 Adobe Analytics에서 동기화된 전환 및 사이트 참여 지표가 여기에 포함될 수 있습니다. <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> 보고서에 수집된 전환을 포함하는 방법에 대한 자세한 내용은 검색, 소셜 및 Commerce 가이드 항목 &quot;[광고주의 전환 지표 관리에 대한 정보](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;를 참조하십시오.
 
 1. [!UICONTROL Overview] 탭에서:
 
