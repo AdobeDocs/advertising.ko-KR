@@ -3,7 +3,7 @@ title: '[!UICONTROL Deal ID Inbox] 정보'
 description: ' [!DNL FreeWheel], [!DNL Google Authorized Buyers] (이전 이름:  [!DNL AdX]), and [!DNL Magnite DV+] (이전 이름:  [!DNL Rubicon])에 게시자와 이미 협상한 비공개 거래를 수락할 수 있는 [!UICONTROL Deal ID inbox] 기능에 대해 알아봅니다.'
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 394a281c9b9d7eeab939f4c58508ec1f34eba67c
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Deal ID Inbox] 정보
 
-Advertising DSP [!UICONTROL Deal ID inbox]을(를) 사용하면 DSP이 SSP(공급측 플랫폼)를 통해 게시자로부터 가져온 거래를 빠르게 설정할 수 있으므로 각 거래를 수동으로 설정할 필요가 없습니다. [!UICONTROL Deal ID inbox]에서 [!DNL FreeWheel], [!DNL Google Authorized Buyers](이전 [!DNL AdX]) 및 [!DNL Magnite DV+](이전 [!DNL Rubicon])의 게시자와 이미 협상한 비공개 인벤토리 거래와 보장되지 않는 비공개 인벤토리 거래를 수락할 수 있습니다.
+Advertising DSP [!UICONTROL Deal ID inbox]을(를) 사용하면 DSP이 SSP(공급측 플랫폼)를 통해 게시자로부터 가져온 거래를 빠르게 설정할 수 있으므로 각 거래를 수동으로 설정할 필요가 없습니다. [!UICONTROL Deal ID inbox]에서 [!DNL FreeWheel], [!DNL Google Authorized Buyers]&#x200B;(이전 [!DNL AdX]) 및 [!DNL Magnite DV+]&#x200B;(이전 [!DNL Rubicon])의 게시자와 이미 협상한 비공개 인벤토리 거래와 보장되지 않는 비공개 인벤토리 거래를 수락할 수 있습니다.
 
 >[!NOTE]
 >
@@ -33,6 +33,7 @@ For each deal, you can select one publisher and one media type (Desktop Video, M
 DSP은 매일 오전 4:30(EST)에 모든 거래 세부 정보를 자동으로 새로 고칩니다. 또한 모든 [!DNL FreeWheel] 거래가 새로 고침되고 [!DNL Google] 및 [!DNL Magnite DV+]에서 시간별로 기존 거래가 업데이트됩니다. 거래 세부 사항을 수동으로 새로 고쳐 언제든지 새 거래를 채울 수도 있습니다.
 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
+
 >[!NOTE]
 >
 >[!DNL Google Authorized Buyers]을(를) 통해 프로그램 방식으로 보장되는 거래의 경우 예산의 90% 이상을 제공해야 합니다. 그렇지 않으면 계정에서 [!UICONTROL Deal ID inbox]의 [!DNL Google] 거래에 액세스할 수 없습니다.
@@ -51,7 +52,7 @@ DSP은 매일 오전 4:30(EST)에 모든 거래 세부 정보를 자동으로 �
 
 * 필요하지 않거나 원치 않는 거래는 **무시합니다**. 무시된 거래는 [!UICONTROL Deal ID inbox] 내의 [!UICONTROL Ignored Deals] 탭으로 이동되며 보관 역할을 합니다. DSP은 사용자가 거래를 무시할 때 SSP 및 게시자에게 알리지 않습니다.
 
-* **이미 수락된 거래의 세부 정보를 수정**([!UICONTROL Inventory] > [!UICONTROL Deals]([!UICONTROL Deal ID inbox]에 없음). 마찬가지로, 게시자가 거래에 대한 변경 사항을 보낼 때 [!UICONTROL Deal ID inbox]이(가) 거래가 설정된 후 SSP의 변경 사항을 동기화하지 않으므로 광고주가 [!UICONTROL Inventory] > [!UICONTROL Deals]에서 해당 변경 사항을 구현해야 합니다.
+* **이미 수락된 거래의 세부 정보를 수정**([!UICONTROL Inventory] > [!UICONTROL Deals]&#x200B;([!UICONTROL Deal ID inbox]에 없음). 마찬가지로, 게시자가 거래에 대한 변경 사항을 보낼 때 [!UICONTROL Deal ID inbox]이(가) 거래가 설정된 후 SSP의 변경 사항을 동기화하지 않으므로 광고주가 [!UICONTROL Inventory] > [!UICONTROL Deals]에서 해당 변경 사항을 구현해야 합니다.
 
 ## 어떤 종류의 거래를 수락할 수 없습니까?
 
