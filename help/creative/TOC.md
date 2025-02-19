@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: Creative 안내서
 hide: true
-source-git-commit: f13f2b3e9bed34acbe1c3c07adbca2b7a61ac76c
+source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
       + [의사 결정 트리 레이아웃](/help/creative/experiences/experience-decision-tree.md)
       + [타깃팅으로 경험 만들기](/help/creative/experiences/experience-create-targeting.md)
       + [타깃팅으로 경험 편집](/help/creative/experiences/experience-edit-targeting.md)
+      + [타깃팅된 경험 설정](/help/creative/experiences/experience-settings-targeting.md)
       + {#subtasks} 경험을 만들고 편집하기 위한 하위 작업
          + 대상 노드 {#nodes}
             + [최종 수준에 대상 노드 추가](/help/creative/experiences/experience-target-node-add-final.md)
@@ -53,12 +54,11 @@ ht-degree: 0%
             + [최종 노드에 크리에이티브 번들 지정 및 지정 취소](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [크리에이티브용 추적 URL 사용자 지정](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [크리에이티브 최적화 및 일정 사용자 정의](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-      + [타깃팅된 경험 설정](/help/creative/experiences/experience-settings-targeting.md)
    + {#experience-nontargeted}을(를) 타깃팅하지 않은 경험
       + [타깃팅하지 않고 경험 만들기](/help/creative/experiences/experience-create-no-targeting.md)
       + [타깃팅하지 않고 경험 편집](/help/creative/experiences/experience-edit-no-targeting.md)
       + [타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md)
-      + 광고 {#non-targeted-creatives}
+      + 광고 태그 및 광고 {#non-targeted-creatives}
          + [적용 가능한 광고 크기에 대한 광고 태그를 수동으로 만듭니다.](/help/creative/experiences/experience-tag-create-manually.md)
          + [타깃팅하지 않은 경험에 대해 광고 태그에 크리에이티브 할당](/help/creative/experiences/experience-tag-assign-creatives.md)
          + [타깃팅하지 않고 경험에 대한 추적 URL 사용자 지정](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
