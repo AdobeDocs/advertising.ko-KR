@@ -3,7 +3,7 @@ title: 타깃팅된 경험 설정
 description: 타겟팅된 광고 경험에 대한 모든 설정 설명을 참조하십시오.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 75ecbf5309c21952fb4355be852f80100aa916ae
+source-git-commit: 727860ba89ae98d50a33befa28ab1654650263e6
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 0%
