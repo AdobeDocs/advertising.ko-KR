@@ -1,11 +1,11 @@
 ---
 title: 추적 URL에 사용 가능한 매크로
-description: 랜딩 페이지 URL 추적 URL 및 서드파티 크리에이티브에 추가할 수 있는 매크로를 참조합니다.
+description: 랜딩 페이지 URL, 추적 URL 및 서드파티 크리에이티브에 추가할 수 있는 매크로를 참조합니다.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,12 @@ ht-degree: 0%
 | `${TM_ACC_EXPERIENCE_ID}` | Advertising Creative 경험 ID를 추적하고 보고합니다. | — |
 | `${TM_ACC_CREATIVE_ID}` | Advertising Creative Creative ID를 추적하고 보고합니다 | — |
 | `${TM_RANDOM}` | 1과 1000000 사이의 난수 | — |
-| `${TM_TIMESTAMP}` | Unix 타임스탬프(초) | — |
-| `${TM_CLICK_URL_URLENC}` | (URL 인코딩이 필요한 공급업체의 서드파티 광고) 광고 서버가 광고 클릭을 추적하고 계산할 수 있도록 인코딩된 클릭 리디렉션 URL입니다. 광고가 게재되고 사용자가 해당 광고를 클릭하면 매크로가 활성화되고 클릭이 보고용으로 기록 및 카운트됩니다. | 예 |
+| `${TM_TIMESTAMP}` | UNIX® 타임스탬프(초) | — |
+| `${TM_CLICK_URL_URLENC}` | (URL 인코딩이 필요한 공급업체의 서드파티 광고) 광고 서버가 광고 클릭을 추적하고 계산할 수 있도록 인코딩된 클릭 리디렉션 URL입니다. 사용자가 광고를 클릭하면 매크로가 활성화되고 클릭이 기록 및 보고용으로 카운트됩니다. | 예 |
 
 >[!MORELIKETHIS]
 >
 >* [Creative 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* 
+>* [타깃팅된 경험 설정](/help/creative/experiences/experience-settings-targeting.md)
+>*[타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md)
