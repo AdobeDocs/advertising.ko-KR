@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: 교차 경험 [!UICONTROL Custom Creative Report]을(를) 생성하는 방법을 알아봅니다.
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 2062e2ce4f92070b209422c3184e9c0b14229bb5
+source-git-commit: 3033f26bba5a9e7622d0de51b36035be1005c60f
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
@@ -244,13 +244,13 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | 제품 광고에 대한 모든 클릭 수의 합계입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | 제품 광고에 대한 모든 전환의 합계입니다. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | 전환으로 이어진 제품에 대한 광고의 백분율입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | 전환으로 이어진 제품에 대한 광고의 비율입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | 제품 광고에 대한 클릭스루 비율(광고 노출 횟수로 나눈 클릭 수) |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | 제품에 대한 총 노출 횟수입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | 제품에 대해 제공된 광고의 총 매출입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | 제공된 광고의 총 매출액. |
 | [!UICONTROL Conversion Metrics] | [보고서 설정에서 광고주별로 그룹화됨] | [광고주별 전환] | 지정된 광고주별 전환 지표 또는 Adobe Analytics 이벤트에 대한 합계입니다. |
-| [!UICONTROL Custom Goals] | [보고서 설정에서 광고주별로 그룹화됨] | [광고주별 사용자 지정 목표] | 지정된 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)에 포함된 모든 전환의 가중 합계입니다. |
+| [!UICONTROL Custom Goals] | [보고서 설정에서 광고주별로 그룹화됨] | [광고주별 사용자 지정 목표] | (Advertising DSP을 사용하는 광고주) 지정된 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)에 포함된 모든 전환의 가중 합계입니다. |
 
 {style="table-layout:auto"}
 
