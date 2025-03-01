@@ -3,9 +3,9 @@ title: Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대�
 description: Adobe Customer Journey Analytics에서 나중에 사용할 수 있도록 Adobe Analytics에서 예약된 변수에 대한 내역 데이터를 수집하는 방법을 알아봅니다
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: fa3065d12d5c8828eaaeaca52deeadfec7b0e318
+source-git-commit: 6bf9647910aa7b1f74cf2bd726f8de27a8641b38
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -48,16 +48,16 @@ Adobe Advertising은 Customer Journey Analytics을 사용하여 향후 구현을
       * `AMO ID`의 경우:
 
          1. **값 덮어쓰기**&#x200B;를 선택합니다.
-         1. *\&lt;새로 만들기/사용하지 않은 eVar\>* 선택
+         1. *\&lt;새로 만들기/사용하지 않은 eVar\>*&#x200B;을(를) 선택합니다.
          1. **쿼리 문자열 매개 변수**&#x200B;을(를) 선택하십시오.
          1. `s_kwcid` 입력.
 
-        예: `rVar10`의 값을 쿼리 문자열 매개 변수 `s_kwcid`(으)로 덮어쓰기
+        예: &quot;`rVar10`의 값을 쿼리 문자열 매개 변수 &#39;s_kwcid&#39;로 덮어쓰기&quot;
 
       * `EF ID`의 경우:
 
          1. **값 덮어쓰기**&#x200B;를 선택합니다.
-         1. *\&lt;새로 만들기/사용하지 않은 eVar\>* 선택
+         1. *\&lt;새로 만들기/사용하지 않은 eVar\>*&#x200B;을(를) 선택합니다.
          1. **쿼리 문자열 매개 변수**&#x200B;을(를) 선택하십시오.
          1. `ef_id` 입력.
 
