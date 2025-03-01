@@ -3,9 +3,9 @@ title: Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대�
 description: Adobe Customer Journey Analytics에서 나중에 사용할 수 있도록 Adobe Analytics에서 예약된 변수에 대한 내역 데이터를 수집하는 방법을 알아봅니다
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: a1e6f04bed489fcafdc982394656757e6229c8db
+source-git-commit: 5b78ec0fc4c5ea4742cbb080b992bdb323fc9af3
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Adobe Advertising은 Customer Journey Analytics을 사용하여 향후 구현을
          1. **쿼리 문자열 매개 변수**&#x200B;을(를) 선택하십시오.
          1. `ef_id` 입력.
 
-        예: `rVar11`의 값을 쿼리 문자열 매개 변수 `ef_id`(으)로 덮어쓰기
+        예: `Overwrite the value of rVar11 with Query String Parameter ef_id`
 
    * [!UICONTROL Reason for rule]의 경우 &quot;AMO ID 및 EF ID가 Adobe Analytics Connector를 통해 AEP으로 전송됩니다.&quot;와 같은 설명 메모를 사용합니다.
 
