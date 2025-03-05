@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: Creative 안내서
 hide: true
-source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
          + [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md)
          + [HTML5 creative 사양](/help/creative/creative-libraries/html5-creative-specification.md)
       + [크리에이티브 미리 보기](/help/creative/creative-libraries/creative-preview.md)
-      + [번들에서 크리에이티브 연결 및 분리](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+      + [번들에 크리에이티브 첨부](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [광고 복제](/help/creative/creative-libraries/creative-duplicate.md)
       + [크리에이티브 다운로드](/help/creative/creative-libraries/creative-download.md)
       + [광고 삭제](/help/creative/creative-libraries/creative-delete.md)
@@ -50,7 +50,7 @@ ht-degree: 0%
             + [동일 수준의 대상 노드 추가](/help/creative/experiences/experience-target-node-add-sibling.md)
             + [동일한 수준의 다른 노드에 하위 노드 복사](/help/creative/experiences/experience-target-node-copy.md)
             + [대상 노드 또는 크리에이티브 리프 노드 삭제](/help/creative/experiences/experience-target-node-delete.md)
-         + Creative 번들 및 Creative {#bundles}
+         + Creative 번들 및 광고 {#bundles}
             + [최종 노드에 크리에이티브 번들 지정 및 지정 취소](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [크리에이티브용 추적 URL 사용자 지정](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [크리에이티브 최적화 및 일정 사용자 정의](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
@@ -72,7 +72,7 @@ ht-degree: 0%
    + [경험 삭제](/help/creative/experiences/experience-delete.md)
 + 성능 보고서 {#reports}
    + [경험 수준 성과 보고서](/help/creative/experiences/experience-performance-details.md)
-   + [사용자 정의 크리에이티브 보고서](/help/creative/report-custom-creative.md)
+   + [사용자 지정 Creative 보고서](/help/creative/report-custom-creative.md)
 + [픽셀 재타겟팅](/help/creative/pixels/retargeting-pixel-manage.md)
 + [추적 URL에 사용 가능한 매크로](/help/creative/creative-macros.md)
 + [고객 지원](https://experienceleague.adobe.com/home?support-tab=home#support){target="_blank"}

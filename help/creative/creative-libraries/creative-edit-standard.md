@@ -2,9 +2,10 @@
 title: Creative Library에서 표준 크리에이티브 편집
 description: Creative Library에서 표준(비동적) 크리에이티브의 설정을 변경하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -13,11 +14,11 @@ ht-degree: 0%
 
 *베타가 닫힘*
 
-표준 문안의 각 유형에 대한 일부 설정을 편집할 수 있습니다. 동일한 크리에이티브 유형의 여러 크리에이티브 <!-- or creative variations -->을(를) 편집할 수 있습니다(하나의 랜딩 페이지로만 구성된 단순 HTML5, 여러 랜딩 페이지로 구성된 정적 HTML5, 유연한 HTML5, 이미지 또는 타사<!-- , or dynamic -->).
+표준 문안의 각 유형에 대한 일부 설정을 편집할 수 있습니다. 동일한 크리에이티브 유형의 여러 크리에이티브<!-- or creative variations -->을(를) 편집할 수 있습니다(랜딩 페이지가 한 개만 있는 단순 HTML5, 랜딩 페이지가 여러 개인 정적 HTML5, 유연한 HTML5, 이미지 또는 타사<!-- , or dynamic -->).
 
-유연한 HTML5 및 정적 HTML5 크리에이티브의 경우, 레이아웃은 다르지만 속성 이름의 세트가 동일한 새 템플릿 파일을 업로드할 수 있습니다. 간단한 HTML5 크리에이티브의 경우 속성을 편집하거나 새 템플릿을 새 속성이나 이미지와 함께 업로드하여 이미지를 추가할 수 있습니다. 모든 경우에 템플릿은 최대 2MB의 ZIP 형식의 로컬 파일이어야 합니다.
+유연한 HTML5 및 정적 HTML5 크리에이티브의 경우, 레이아웃은 다르지만 속성 이름 세트는 동일한 새 템플릿 파일을 업로드할 수 있습니다. 간단한 HTML5 크리에이티브의 경우 속성을 편집하거나 새 템플릿을 새 속성이나 이미지와 함께 업로드하여 이미지를 추가할 수 있습니다. 모든 경우에 템플릿은 최대 2MB의 ZIP 형식의 로컬 파일이어야 합니다.
 
-번들에 포함된 Creative <!-- or creative variation -->을(를) 편집할 때 경험 수준에 지정된 사용자 지정 랜딩 페이지 및 추적 URL이 해당 경험에 첨부된 번들에 적용할 수 있는 상태로 유지된다는 점을 제외하고 번들을 포함하는 모든 경험에 변경 사항이 자동으로 적용됩니다.
+번들에 포함된 Creative<!-- or creative variation -->을(를) 편집할 때 경험 수준에 지정된 사용자 지정 랜딩 페이지 및 추적 URL이 해당 경험에 첨부된 번들에 적용할 수 있는 상태로 유지되는 경우를 제외하고 번들을 포함하는 모든 경험에 변경 사항이 자동으로 적용됩니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
@@ -49,7 +50,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >* (유연한 HTML5 광고 전용) 단일 광고 속성에만 특성을 편집할 수 있습니다.<!-- Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* (유연한 HTML5 크리에이티브만 해당) 단일 크리에이티브에 대한 특성만 편집할 수 있습니다.<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
 
 <!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
 1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
@@ -66,5 +67,3 @@ ht-degree: 0%
 >* [Creative 라이브러리에 표준 크리에이티브 추가](creative-add-standard.md)
 >* [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [크리에이티브 미리 보기](/help/creative/creative-libraries/creative-preview.md)
->* [광고 중복](/help/creative/creative-libraries/creative-duplicate.md)
->* [광고 삭제](/help/creative/creative-libraries/creative-delete.md)

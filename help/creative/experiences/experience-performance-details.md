@@ -3,9 +3,9 @@ title: 경험 수준 성과 보고서
 description: 경험 수준 성과 보고서를 보는 방법에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 137f334eec778499f263e26c125e97ffe37d6112
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 0%
 
    [!UICONTROL Overview] 탭이 열립니다.
 
-1. (선택 사항) 오른쪽 상단 도구 모음에서 모든 성능 보고서 내에 보고된 날짜 범위, 전환 속성 규칙 및 전환을 지정합니다.
+1. (선택 사항) 오른쪽 상단 도구 모음에서 날짜 범위, 전환 속성 규칙 및 모든 성능 보고서 내에서 보고된 전환을 지정합니다.
 
    * (선택 사항) 성능 데이터의 날짜 범위를 변경하려면 날짜 메뉴에서 옵션을 선택합니다.
 

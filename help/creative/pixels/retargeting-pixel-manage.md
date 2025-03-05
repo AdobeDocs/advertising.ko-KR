@@ -3,9 +3,9 @@ title: 픽셀 재타겟팅 관리
 description: 광고 경험의 타겟으로 사용할 리타기팅 픽셀을 만들고 구현하는 방법에 대해 알아봅니다.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    추가 속성을 수동으로 추가하는 경우 URL 인코딩을 포함해야 합니다.
 
-   예를 들어 &quot;category&quot;, &quot;color&quot; 및 &quot;size&quot; 특성을 포함하고 ID5 유니버설 ID를 캡처하는 경우 픽셀 태그에 다음 매개 변수가 포함됩니다. `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` 및 `&id5pid=--Insert ID5_PARTNER_ID--`. 예를 들어 크기 10의 빨간색 샌들을 선택하는 사용자를 타겟팅하려면 이미지 태그와 스크립트 태그의 매개 변수를 모두 `&ut1=sandals&ut2=red&ut3=10`(으)로 변경하고 스크립트 태그에 ID5 파트너 ID(예: `&id5pid=0123456789`)를 입력합니다.
+   예를 들어 &quot;category&quot;, &quot;color&quot; 및 &quot;size&quot; 특성을 포함하고 ID5 유니버설 ID를 캡처한 경우 픽셀 태그에 `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` 및 `&id5pid=--Insert ID5_PARTNER_ID--` 매개 변수가 포함됩니다. 예를 들어 크기 10의 빨간색 샌들을 선택하는 사용자를 타겟팅하려면 이미지 태그와 스크립트 태그의 매개 변수를 모두 `&ut1=sandals&ut2=red&ut3=10`(으)로 변경하고 스크립트 태그에 ID5 파트너 ID(예: `&id5pid=0123456789`)를 입력합니다.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 

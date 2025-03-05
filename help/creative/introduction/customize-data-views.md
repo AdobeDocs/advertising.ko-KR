@@ -2,7 +2,8 @@
 title: 데이터 보기 사용자 지정
 description: 사용 가능한 각 보기 내에서 데이터를 사용자 지정하는 방법을 알아봅니다.
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -83,7 +84,7 @@ Refresh the pane to see any changes that other users have made.
 
 * [!UICONTROL Creative Libraries]: [!UICONTROL Library Name], 만든 날짜([!UICONTROL Created On]) 또는 마지막 업데이트([!UICONTROL Modified On])별로 정렬합니다.
 
-* Creative Libraries > [!UICONTROL Standard Ads]: [!UICONTROL Creative Name], 만든 날짜([!UICONTROL Created On]) 또는 마지막 업데이트([!UICONTROL Modified On])별로 정렬합니다.
+* Creative 라이브러리 > [!UICONTROL Standard Ads]: [!UICONTROL Creative Name], 만든 날짜([!UICONTROL Created On]) 또는 마지막 업데이트([!UICONTROL Modified On])별로 정렬합니다.
 
 * [!UICONTROL Experiences]: 시작 날짜([!UICONTROL Start On]) 또는 종료 날짜([!UICONTROL End On])별로 정렬합니다.[!UICONTROL Experience Name]
 

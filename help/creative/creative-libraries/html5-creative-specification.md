@@ -1,17 +1,18 @@
 ---
-title: HTML5 크리에이티브 사양
-description: Advertising Creative을 위해 HTML5 크리에이티브 사양 을 참조하십시오.
+title: HTML5 creative 사양
+description: HTML5 creative specification for Advertising Creative 를 참조하십시오.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
 
-# HTML5 Advertising Creative 크리에이티브 사양
+# HTML5 creative specification for Advertising Creative
 
-이 문서에서는 [!DNL Creative] 내의 HTML 5 크리에이티브에 대한 요구 사항 및 API 지원에 대해 간략하게 설명합니다. API를 사용하면 크리에이티브 게재 시 속성을 구성할 수 있는 HTML5 크리에이티브를 개발할 수 있습니다.
+이 문서에서는 [!DNL Creative] 내의 HTML5 크리에이티브에 대한 요구 사항 및 API 지원에 대해 간략하게 설명합니다. API를 통해 광고 게재 시 특성을 구성할 수 있는 HTML5 크리에이티브를 개발할 수 있습니다.
 
 ## 범위
 
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 -->
 
-* **HTML5:** 창의적 생성 및 트래픽 분석 중에 구성할 수 있는 랜딩 페이지 URL을 최대 5개까지 지원합니다.
+* **HTML5:** 광고 만들기 및 트래픽 관리 중에 구성할 수 있는 랜딩 페이지 URL을 최대 5개까지 지원합니다.
 
 * **유연한 HTML5:** 창의적 작성 및 트래픽 관리 중에 구성할 수 있는 랜딩 페이지 URL을 최대 5개까지 지원하며, 창의적 작성 및 트래픽 관리 중에 창의적 특성을 수정할 수 있습니다.
 
@@ -37,11 +38,11 @@ ht-degree: 0%
 
 * ZIP 파일에는 [!DNL Creative] JavaScript 라이브러리에 대한 참조를 포함하는 HTML 파일(기본 HTML 표시 파일)이 하나 이상 있어야 합니다. 기본 HTML 파일은 루트 폴더 또는 하위 폴더에 있을 수 있습니다.
 
-* 기본 HTML 파일에는 특수 문자가 포함되지 않으면 이름을 지정할 수 있지만, `index.html`이(가) 권장됩니다.
+* 기본 HTML 파일의 이름은 `index.html`이(가) 권장되지만 특수 문자가 포함되지 않는 한 아무 것이나 지정할 수 있습니다.
 
 * 최종 크리에이티브를 렌더링하는 데 필요한 모든 지원 에셋은 HTML 표시 파일과 동일한 폴더에 있거나 기본 폴더의 하위 폴더에 있어야 합니다.
 
-* 해당 크리에이티브에 대해 참조되지 않은 파일을 크리에이티브에 포함하지 마십시오.
+* 크리에이티브가 참조하지 않는 파일을 크리에이티브에 포함하지 마십시오.
 
 ### Advertising Creative JavaScript 파일 포함
 
@@ -81,11 +82,11 @@ var clickTag = “http://www.example.com”;
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-클릭스루 URL과 각 URL을 참조하는 데 사용되는 관련 매개 변수(`clickTag`)를 등록합니다. [!DNL Creative] 광고 서버에 클릭 추적을 추가할 위치를 알려 줍니다. 이 API를 사용하여 각각 해당 랜딩 페이지 URL을 갖는 최대 5개의 클릭 태그 변수를 등록할 수 있습니다.
+클릭스루 URL과 각 URL을 참조하는 데 사용되는 관련 매개 변수(`clickTag`)를 등록합니다. 이 API는 클릭 추적을 추가할 위치를 [!DNL Creative] 광고 서버에 알립니다. 이 API를 사용하여 각각 해당 랜딩 페이지 URL을 갖는 최대 5개의 클릭 태그 변수를 등록할 수 있습니다.
 
 >[!NOTE]
 >
->HTML5 크리에이티브에 포함하는 정적 URL은 로컬 테스트용으로만 사용되며 덮어씁니다. HTML5 크리에이티브를 업로드할 때 각 `clickTag` 변수에 대한 기본 랜딩 페이지를 정의합니다. 업로드된 HTML5 크리에이티브를 광고 경험에 할당할 때 선택적으로 각 `clickTag` 변수에 대한 기본 랜딩 페이지를 재정의할 수 있습니다. [!DNL Creative]은(는) 경험을 저장할 때 클릭 추적을 URL에 추가합니다.
+>HTML5 크리에이티브에 포함하는 정적 URL은 로컬 테스트 목적으로만 사용되며 덮어씁니다. HTML5 크리에이티브를 업로드할 때 각 `clickTag` 변수에 대한 기본 랜딩 페이지를 정의합니다. 업로드된 HTML5 크리에이티브를 광고 경험에 할당할 때 선택적으로 각 `clickTag` 변수에 대한 기본 랜딩 페이지를 재정의할 수 있습니다. [!DNL Creative]은(는) 경험을 저장할 때 클릭 추적을 URL에 추가합니다.
 
 ###### 매개 변수
 
@@ -125,11 +126,11 @@ var clickTag = “http://www.example.com”;
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-클릭스루 URL과 각 URL을 참조하는 데 사용되는 관련 매개 변수(`clickTag`)를 등록합니다. [!DNL Creative] 광고 서버에 클릭 추적을 추가할 위치를 알려 줍니다. 이 API를 사용하여 각각 해당 랜딩 페이지 URL을 갖는 최대 5개의 클릭 태그 변수를 등록할 수 있습니다.
+클릭스루 URL과 각 URL을 참조하는 데 사용되는 관련 매개 변수(`clickTag`)를 등록합니다. 이 API는 클릭 추적을 추가할 위치를 [!DNL Creative] 광고 서버에 알립니다. 이 API를 사용하여 각각 해당 랜딩 페이지 URL을 갖는 최대 5개의 클릭 태그 변수를 등록할 수 있습니다.
 
 >[!NOTE]
 >
->HTML5 크리에이티브에 포함하는 정적 URL은 로컬 테스트용으로만 사용되며 덮어씁니다. HTML5 크리에이티브를 업로드할 때 각 `clickTag` 변수에 대한 기본 랜딩 페이지를 정의합니다. 업로드된 HTML5 크리에이티브를 광고 경험에 할당할 때 선택적으로 각 `clickTag` 변수에 대한 기본 랜딩 페이지를 재정의할 수 있습니다. [!DNL Creative]은(는) 경험을 저장할 때 클릭 추적을 URL에 추가합니다.
+>HTML5 크리에이티브에 포함하는 정적 URL은 로컬 테스트 목적으로만 사용되며 덮어씁니다. HTML5 크리에이티브를 업로드할 때 각 `clickTag` 변수에 대한 기본 랜딩 페이지를 정의합니다. 업로드된 HTML5 크리에이티브를 광고 경험에 할당할 때 선택적으로 각 `clickTag` 변수에 대한 기본 랜딩 페이지를 재정의할 수 있습니다. [!DNL Creative]은(는) 경험을 저장할 때 클릭 추적을 URL에 추가합니다.
 
 ###### 매개 변수
 
@@ -187,11 +188,11 @@ var clickTag = “http://www.example.com”;
 
 ##### `amo.attributes`
 
-크리에이티브 속성 변수 이름 및 값을 쿼리하기 위한 JSON 개체. 객체 키는 속성 이름이 되고, 값은 해당 속성의 값이 됩니다.
+크리에이티브 속성 변수 이름 및 값을 쿼리하기 위한 JSON 개체. 객체 키는 속성 이름이고 값은 해당 속성의 값입니다.
 
 로컬 테스트 모드에서 키-값 쌍은 `amo.registerAttribute` API에 의해 등록된 쌍입니다. 제작의 경우, 창의적 생성 및 트래픽 처리 시 창의적 속성 변수 이름과 값을 구성해야 합니다.
 
-### 크리에이티브 콘텐츠 요구 사항
+### Creative 컨텐츠 요구 사항
 
 Advertising DSP에서 사용할 수 있는 대부분의 디스플레이 교환에는 다음과 같은 크리에이티브 요구 사항이 있습니다.
 
@@ -244,7 +245,7 @@ Advertising DSP에서 사용할 수 있는 대부분의 디스플레이 교환�
 ]
 ```
 
-## 예제 HTML5 크리에이티브
+## 예제 HTML5 creative
 
 ### 폴더 구조 예(압축 해제 후)
 
@@ -254,7 +255,7 @@ Advertising DSP에서 사용할 수 있는 대부분의 디스플레이 교환�
 
    * bg.jpg (JPG, PNG, SVG 또는 GIF 이미지)
 
-### 단순 HTML5 크리에이티브용 HTML 파일(index.html) 예
+### 간단한 HTML5 크리에이티브용 HTML 파일(index.html) 예
 
 ```
 <!DOCTYPE html>
@@ -273,7 +274,7 @@ Advertising DSP에서 사용할 수 있는 대부분의 디스플레이 교환�
 </html>
 ```
 
-### 정적 HTML5 크리에이티브용 예제 HTML 파일(index.html)
+### 정적 HTML5 크리에이티브용 HTML 파일(index.html) 예
 
 ```
 <!DOCTYPE html>

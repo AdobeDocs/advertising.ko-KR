@@ -2,26 +2,35 @@
 title: 크리에이티브를 크리에이티브 번들에 첨부
 description: 크리에이티브 번들에 크리에이티브를 첨부하는 방법을 알아봅니다.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# 크리에이티브 번들에서 크리에이티브 첨부 및 분리
+# Creative 번들에 <!-- and detach -->개 크리에이티브 첨부
 
 *베타가 닫힘*
 
+<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available. -->
+
 표준 광고 항목을 표준 번들에 첨부하고 동적 광고 항목을 동적 번들에 첨부하면 [광고 경험](/help/creative/experiences/experience-about.md)에 추가할 수 있습니다. 각 번들에는 각 \[creative size + language\] 조합 중 하나만 포함될 수 있습니다.
 
-번들에서 크리에이티브를 분리하여 둘 간의 연관을 제거할 수도 있으므로 크리에이티브가 더 이상 번들을 타깃팅하는 경험에 사용되지 않도록 할 수 있습니다. 번들에서 크리에이티브를 분리해도 크리에이티브 라이브러리의 크리에이티브 탭에서는 크리에이티브가 삭제되지 않습니다.
+<!--
+You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.
+-->
 
 >[!NOTE]
 >
->[광고 콘텐츠를 번들에 연결하고 번들 보기에서 번들에서 분리할 수도 있습니다](/help/creative/creative-libraries/bundle-manage.md).
+><!-- also -->할 수 있습니다. [번들에 크리에이티브를 연결하고 번들 보기에서 번들에서 크리에이티브를 분리합니다](/help/creative/creative-libraries/bundle-manage.md).
 
-## 크리에이티브 번들에 크리에이티브 첨부
+<!-- Hide header until second procedure is available:
+
+## Attach creatives to creative bundles
+
+-->
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
@@ -37,31 +46,31 @@ ht-degree: 0%
 
    크리에이티브 유형에 적합한 각 번들이 오른쪽 프레임에 나열됩니다. 크리에이티브가 이미 첨부된 번들은 나열되지만 선택할 수 없습니다.
 
-1. 오른쪽 프레임에서 해당 제작물을 첨부할 각 번들 옆의 확인란을 선택한 다음 **[!UICONTROL Attach Creative to Bundle]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 프레임에서 각 번들 옆의 확인란을 선택하여 크리에이티브를 첨부한 다음 **[!UICONTROL Attach Creative to Bundle]**&#x200B;을(를) 클릭합니다.
 
-## 크리에이티브 번들에서 크리에이티브 분리
+<!-- Verify and edit all of the following, including the command names and where they're available -- not in UI yet as of 1/17. I'm not sure what the UI will really look like.
 
-**UI에서 구현한 후 구현 방법을 확인해야 함**
+## Detach creatives from a creative bundle
 
-<!-- Verify and edit all of the following, including the command names and where they're available -- not in UI yet as of 1/17. I'm not sure what the UI will really look like. -->
+1. In the main menu, click **[!UICONTROL Creative]**3/4> **[!UICONTROL Creative Libraries]**.
 
-1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+1. (Optional) [Customize the view](/help/creative/introduction/customize-data-views.md) to include specific libraries.
 
-1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+1. Click the library name.
 
-1. 라이브러리 이름을 클릭합니다.
+1. Click the **[!UICONTROL Standard Ads]** or **[!UICONTROL Dynamic Ads]** tab.
 
-1. **[!UICONTROL Standard Ads]** 또는 **[!UICONTROL Dynamic Ads]** 탭을 클릭합니다.
+1. Select the creative:
 
-1. 크리에이티브 선택:
+   * In card view, click **[!UICONTROL ...]** next to the creative name, and then click **[!UICONTROL Attach/Detach from Bundle]**.
+     
+   * In table view, hold the cursor over the row and click **[!UICONTROL Attach/Detach from Bundle]**.
 
-   * 카드 보기에서 Creative 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Attach/Detach from Bundle]**&#x200B;을(를) 클릭합니다.
+   Each bundle that's eligible for the creative type is listed in the right frame. For bundles to which the creative is already attached, the check box is selected. To detach the creative for a bundle, deselect the check box.
 
-   * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Attach/Detach from Bundle]**&#x200B;을(를) 클릭합니다.
+1. In the right frame, deselect the check box next to each bundle from which to remove the creative, and then click **[!UICONTROL Attach Creatives to Bundle]**.
 
-   크리에이티브 유형에 적합한 각 번들이 오른쪽 프레임에 나열됩니다. 크리에이티브가 이미 첨부된 번들의 경우 확인란이 선택됩니다. 번들에 대한 크리에이티브를 분리하려면 확인란의 선택을 취소합니다.
-
-1. 오른쪽 프레임에서 크리에이티브를 제거할 각 번들 옆의 확인란을 선택 취소한 다음 **[!UICONTROL Attach Creatives to Bundle]**&#x200B;을(를) 클릭합니다.
+-->
 
 <!-- What this should be like, but I don't think this will be implemented:
 

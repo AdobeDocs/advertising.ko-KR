@@ -2,9 +2,10 @@
 title: Creative 번들 관리
 description: xxxx에 대해 알아보십시오.
 feature: Creative Bundles
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -103,11 +104,13 @@ ht-degree: 0%
 
 ## 번들에 크리에이티브 첨부
 
-표준 번들에 [기존 표준 크리에이티브](/help/creative/creative-libraries/creative-libraries-about.md)을(를) 연결하고 동적 번들에 기존 동적 크리에이티브 <!-- [existing dynamic creatives](creative-dynamic-manage.md) -->을(를) 연결할 수 있습니다. 번들에 크리에이티브를 첨부하면 번들이 할당된 모든 경험에서 크리에이티브를 사용할 수 있습니다. 각 번들에는 각 \[creative size + language\] 조합 중 하나만 포함될 수 있습니다.
+표준 번들에 [기존 표준 크리에이티브](/help/creative/creative-libraries/creative-libraries-about.md)을(를) 연결하고 동적 번들에 기존 동적 크리에이티브<!-- [existing dynamic creatives](creative-dynamic-manage.md) -->을(를) 연결할 수 있습니다. 번들에 크리에이티브를 첨부하면 번들이 할당된 모든 경험에서 크리에이티브를 사용할 수 있습니다. 각 번들에는 각 \[creative size + language\] 조합 중 하나만 포함될 수 있습니다.
 
+<!--
 >[!NOTE]
 >
->표준 광고 및 동적 광고 보기에서 [번들에 크리에이티브를 첨부할 수도 있습니다](creative-attach-detach-bundles.md).
+>You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
+-->
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
@@ -218,7 +221,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## 번들 삭제
 
-라이브 경험에 할당되지 않은 번들을 삭제할 수 있습니다.<!-- Add an x-ref?  --> 번들이 라이브 경험에 할당된 경우 계속하기 전에 경험에 대한 결정 트리에서 번들을 제거하십시오<!-- add x-ref -->.
+[live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) 경험에 할당되지 않은 번들을 삭제할 수 있습니다. 번들이 라이브 경험에 할당된 경우 계속하기 전에 경험에 대한 [결정 트리에서 번들을 제거](/help/creative/experiences/experience-target-node-delete.md)하십시오.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
@@ -250,5 +253,6 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 >[!MORELIKETHIS]
 >
 >* [경험의 최종 노드에 Creative 번들 할당 및 할당 해제](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Creative 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Creative 라이브러리 관리](/help/creative/creative-libraries/creative-library-manage.md)
 >* [크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)

@@ -2,9 +2,10 @@
 title: 크리에이티브 라이브러리 관리
 description: 크리에이티브 라이브러리를 만들고, 이름을 바꾸고, 삭제하는 방법을 알아봅니다.
 feature: Creative Libraries
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *베타가 닫힘*
 
-각 광고주별로 여러 개의 크리에이티브 라이브러리를 만들 수 있습니다. 나중에 각 라이브러리를 [표준 크리에이티브](creative-add-standard.md) <!-- , dynamic creatives, --> 및 [크리에이티브 번들](bundle-manage.md)(으)로 채울 수 있습니다. Adobe 계정 팀은 라이브러리에 동적 크리에이티브를 추가할 수도 있습니다.
+각 광고주별로 여러 개의 크리에이티브 라이브러리를 만들 수 있습니다. 나중에 각 라이브러리를 [표준 광고](creative-add-standard.md)<!-- , dynamic creatives, --> 및 [광고 번들](bundle-manage.md)(으)로 채울 수 있습니다. Adobe 계정 팀은 라이브러리에 동적 크리에이티브를 추가할 수도 있습니다.
 
 ## 크리에이티브 라이브러리 만들기
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
 ## 크리에이티브 라이브러리 삭제
 
-라이브 경험에 할당되지 않은 크리에이티브 및 번들이 포함된 라이브러리를 삭제할 수 있습니다.<!-- Add an x-ref?  --> 계속하기 전에 해당 경험에 대한 결정 트리에서 라이브 경험에 할당된 크리에이티브 또는 번들을 제거하십시오<!-- add x-ref -->.
+[live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) 경험에 할당되지 않은 크리에이티브 및 번들로 라이브러리를 삭제할 수 있습니다. 라이브 타깃팅된 경험의 경우 계속하기 전에 해당 경험에 대한 [의사 결정 트리에서 크리에이티브 또는 번들을 제거](/help/creative/experiences/experience-target-node-delete.md)하십시오.<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
@@ -65,7 +66,7 @@ ht-degree: 0%
 
       * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
-   * 라이브러리를 하나 이상 삭제하려면 삭제할 각 라이브러리에 대한 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL Delete]을(를) 클릭합니다.
+   * 라이브러리를 하나 이상 삭제하려면 삭제할 각 라이브러리에 대한 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
      모든 행을 선택하려면 왼쪽 상단의 글로벌 확인란을 선택합니다.
 

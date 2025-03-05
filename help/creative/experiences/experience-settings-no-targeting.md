@@ -3,7 +3,7 @@ title: 타깃팅되지 않은 경험에 대한 설정
 description: 의사 결정 트리 타깃팅이 없는 광고 경험에 대한 모든 설정 설명을 참조하십시오.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f4d83da98f89313624e038fd1d8f0fedcf802cc4
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **\[기본 크리에이티브 지정\]:** 브라우저가 JavaScript을 사용할 수 없거나 광고 서버가 지연으로 인해 광고를 개인화할 수 없는 경우와 같이 브라우저에 경험에 할당된 크리에이티브를 표시할 수 없는 경우 사용할 기본 이미지 크리에이티브입니다. 경험이 적용되는 광고 크기당 하나의 이미지 크리에이티브를 포함합니다. 선택에 따라 경험에 사용할 수 있는 창의적인 크기가 결정됩니다. <!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
 
-의사 결정 트리 타깃팅이 없는 경험의 경우 [!UICONTROL Tag Manager].<!-- verify --> 내에서 크기가 같은 크리에이티브로 기본 크리에이티브를 재정의할 수 있습니다.
+의사 결정 트리 타깃팅이 없는 경험의 경우 [!UICONTROL Tag Manager] 내에서 크기가 같은 크리에이티브로 기본 크리에이티브를 재정의할 수 있습니다.
 
 * 다른 차원의 기본 크리에이티브를 추가하려면 **[!UICONTROL + Add Sizes]**&#x200B;을(를) 클릭하고 오른쪽 창에서 추가할 각 크리에이티브 옆의 확인란을 선택한 다음 **[!UICONTROL Add Creatives]**&#x200B;을(를) 클릭합니다.
 

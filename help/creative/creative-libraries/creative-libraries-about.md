@@ -1,10 +1,11 @@
 ---
 title: 크리에이티브 라이브러리 정보
-description: 광고 경험에서 사용할 크리에이티브를 관리하는 방법에 대해 알아봅니다.
+description: 광고 경험을 위한 크리에이티브 관리에 대해 알아봅니다.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *닫힌 Beta 기능*
 
-크리에이티브 라이브러리를 사용하면 광고 경험에서 사용할 모든 크리에이티브를 관리할 수 있습니다. 한 경험에 한 단위로 추가할 수 있는 크리에이티브 그룹인 크리에이티브 세트와 *크리에이티브 번들*&#x200B;이 포함된 여러 라이브러리를 만들 수 있습니다.
+크리에이티브 라이브러리를 사용하면 광고 경험에서 사용할 크리에이티브를 관리할 수 있습니다. 한 경험에 한 단위로 추가할 수 있는 크리에이티브 그룹인 크리에이티브 세트와 *크리에이티브 번들*&#x200B;이 포함된 여러 라이브러리를 만들 수 있습니다.
 
 라이브러리는 다음을 포함할 수 있습니다.
 
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 * **크리에이티브 번들:** 정의된 사용자 대상이 있는 여러 경험에서 사용할 크리에이티브를 번들로 그룹화합니다. 표준 광고로 구성된 *표준 번들*&#x200B;과 동적으로 생성된 광고로 구성된 *동적 번들*&#x200B;을 만들 수 있습니다.
 
-## 지원되는 크리에이티브 형식 {#creative-creative-formats}
+## 지원되는 Creative 형식 {#creative-creative-formats}
 
 ### 표준 광고 형식
 
@@ -33,7 +34,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->광고 경험에 HTMl5, 유연한 HTML5 또는 서드파티 크리에이티브를 사용하려는 경우에도 사용할 크리에이티브 크기마다 이미지 크리에이티브를 추가해야 합니다.
+>광고 경험을 위해 HTML5, 유연한 HTML5 또는 서드파티 크리에이티브를 사용하려는 경우에도 사용하는 크리에이티브 크기마다 이미지 크리에이티브를 추가해야 합니다.
 >
 >각 경험에는 경험에 지정된 각 크리에이티브 크기에 대한 기본 이미지 크리에이티브가 필요합니다. 기본 이미지 크리에이티브는 브라우저가 JavaScript을 사용할 수 없거나 광고 서버가 지연 때문에 광고를 개인화할 수 없는 경우에 사용됩니다.
 
@@ -41,9 +42,9 @@ ht-degree: 0%
 
 유연한 HTML5 크리에이티브는 모든 이미지 및 기타 특성을 표준 HTML 태그로 사용하는 HTML5 크리에이티브 기능으로, 크리에이티브 라이브러리 또는 개별 경험(원본 크리에이티브의 변형을 만드는)에서 [!DNL Creative] 내에서 직접 편집할 수 있습니다. 유연한 HTML5 광고 팀은 [광고 포트폴리오](https://flexibleads.iabtechlab.com/)에 대한 IAB(Interactive Advertising Bureau) 기술 연구소의 표준을 사용합니다. 광고 형식 크기는 유연하고(고정된 것이 아니라) 광고의 종횡비와 크기 범위를 기반으로 하며, 광고는 장치 및 게시자 사이트 간에 해상도를 유지합니다.
 
-<!-- either -->유연한 HTML5 광고 파일을 ZIP 파일로 업로드<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->할 수 있습니다. [유연한 HTML5 광고 사양](html5-creative-specification.md)을 참조하세요.
+유연한 HTML5 크리에이티브를 ZIP 파일로 <!-- either -->업로드할 수 있습니다<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. [유연한 HTML5 광고 사양](html5-creative-specification.md)을 참조하세요.
 
-<!-- Will flattening the view be possible in the MVP?
+<!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
 
 
@@ -53,7 +54,7 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
  -->
 
-원할 경우 유연한 HTML5 크리에이티브에 지정된 속성의 기본값을 변경할 수 있습니다. 나중에 특정 경험 내의 속성에 대해 사용자 지정 값을 지정할 수 있습니다. 이렇게 하면 상위 크리에이티브의 변형이 만들어집니다.
+유연한 HTML5 크리에이티브에 지정된 속성의 기본값을 선택적으로 변경할 수 있습니다. 나중에 특정 경험 내의 속성에 대해 사용자 지정 값을 지정할 수 있습니다. 이렇게 하면 상위 크리에이티브의 변형이 만들어집니다.
 
 #### HTML5 광고
 
@@ -61,7 +62,7 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 #### 이미지 크리에이티브
 
-이미지 크리에이티브를 GIF, JPEG, JPG 또는 PNG 형식으로 포함할 수 있습니다. 장치 또는 네트워크에서 <!--LATER:   images from your Adobe Experience Manager accounts or -->개의 이미지를 업로드할 수 있습니다.
+GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 수 있습니다. 장치 또는 네트워크에서 <!--LATER:   images from your Adobe Experience Manager accounts or -->개의 이미지를 업로드할 수 있습니다.
 
 각 광고 경험에는 경험에 할당된 각 광고 크기에 대한 기본 이미지 크리에이티브가 필요합니다.
 
@@ -75,7 +76,7 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 ### 다이내믹 광고 형식
 
-관리자 사용자는 HTML 템플릿의 동적 변수를 피드 파일의 값에 매핑하여 정적 HTML5 및 동적 피드 5 형식으로 동적으로 생성된 크리에이티브를 만들 수 있습니다. 여기에는 기존 Adobe Advertising DCO(Dynamic Creative Optimization) 경험의 크리에이티브가 포함될 수 있습니다.
+관리자 사용자는 광고 템플릿의 동적 변수를 피드 파일의 값에 매핑하여 정적 HTML5 및 동적 HTML5 형식으로 동적으로 크리에이티브를 생성할 수 있습니다. 동적 크리에이티브에는 기존 Adobe Advertising DCO(Dynamic Creative Optimization) 경험의 크리에이티브가 포함될 수 있습니다.
 
 ## [!UICONTROL Creative Libraries] 보기
 
@@ -83,7 +84,7 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 ### [!UICONTROL Creative Libraries] 기본 보기
 
-[!UICONTROL Creative Libraries] 기본 보기는 모든 크리에이티브 라이브러리를 표시합니다. 각 라이브러리에 대한 데이터에는 라이브러리의 번들이 할당된 경험 수, 번들 수, 크리에이티브 수, 크리에이티브 크기 수, 기본 언어 대상 수, 생성 날짜 및 라이브러리의 모든 요소에 대한 마지막 수정 날짜가 포함됩니다. 테이블 모드에는 광고주에 대한 열도 포함됩니다.
+[!UICONTROL Creative Libraries] 기본 보기에는 모든 크리에이티브 라이브러리가 표시됩니다. 각 라이브러리에 대한 데이터에는 라이브러리의 번들이 할당된 경험 수, 번들 수, 크리에이티브 수, 크리에이티브 크기 수, 기본 언어 대상 수, 생성 날짜 및 라이브러리의 모든 요소에 대한 마지막 수정 날짜가 포함됩니다. 테이블 모드에는 광고주에 대한 열도 포함됩니다.
 
 #### 사용 가능한 작업
 
@@ -127,7 +128,7 @@ add or remove labels, regenerate thumbnails for your creatives. When a creative 
 
 #### [!UICONTROL Dynamic Ads]
 
-[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [!UICONTROL Dynamic Ads] 탭에서 [수동으로 삭제](creative-delete.md)한 동적 크리에이티브는 예외입니다. 카탈로그가 마지막으로 처리된 이후 [수동으로 복제](creative-duplicate.md)한 동적 크리에이티브가 있으면 해당 카탈로그에 대한 크리에이티브 목록에도 중복 크리에이티브가 포함됩니다.
+[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [!UICONTROL Dynamic Ads] 탭에서 [수동으로 삭제](creative-delete.md)한 동적 크리에이티브는 예외입니다. 카탈로그가 마지막으로 처리된 이후의 모든 동적 크리에이티브를 [수동으로 복제](creative-duplicate.md)하면 해당 카탈로그에 대한 크리에이티브 목록에도 중복 크리에이티브가 포함됩니다.
 
 각 창작물별 데이터에는 창작유형, 창작규모, 창작물이 속한 카탈로그 개수, 창작날짜 등이 포함된다. 테이블 모드에는 크리에이티브가 생성된 템플릿 및 오퍼 수에 대한 열도 포함됩니다.
 

@@ -3,9 +3,9 @@ title: 크리에이티브 라이브러리에 표준 크리에이티브 추가
 description: 크리에이티브 라이브러리에 표준(비동적) 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 ## 크리에이티브 라이브러리에 HTML5 크리에이티브 추가
 
-<!-- verify -->단일 유형(단순 또는 정적)의 여러 HTML5 크리에이티브를 한 번에 추가할 수 있습니다.
+단일 유형(단순 또는 정적)의 여러 HTML5 크리에이티브를 한 번에 추가할 수 있습니다.
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -122,7 +122,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL HTML5]**&#x200B;을(를) 클릭합니다.
 
-<!-- Doesn't seem to be an option as of 11/27/24:
+<!-- Not an option as of 3/4:
 
 1. (Optional) To download a sample HTML5 creative as a ZIP file, click **Sample HTML5 Creatives**.
 
@@ -202,8 +202,5 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지를 만들 수 있습니다. 최대
 >* [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)
 >* [크리에이티브 미리 보기](/help/creative/creative-libraries/creative-preview.md)
 >* [번들에서 광고 연결 및 분리](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
->* [광고 중복](/help/creative/creative-libraries/creative-duplicate.md)
->* [광고 다운로드](/help/creative/creative-libraries/creative-download.md)
->* [광고 삭제](/help/creative/creative-libraries/creative-delete.md)
 >* [크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)
 >* [Creative 라이브러리 관리](/help/creative/creative-libraries/creative-library-manage.md)
