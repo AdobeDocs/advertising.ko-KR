@@ -3,7 +3,7 @@ title: 사용자 정의 보고서 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
+source-git-commit: 49e254ca954389b1ea13ac571de55f404ed7ba7c
 workflow-type: tm+mt
 source-wordcount: '1498'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 보고서를 한 번 생성하거나 지정된 기준(예: 15일마다 또는 매월 1일)에 따라 지정된 시간대의 03:00에 매일, 매주 또는 매월 예약할 수 있습니다. 보고서가 생성되면 [!UICONTROL Reports] > [!UICONTROL Custom Reports] 또는 다음 유형의 연결된 [보고서 대상](/help/dsp/reports/report-destinations/report-destination-about.md)에서 다운로드할 수 있습니다.
 
-* [!DNL Amazon Simple Storage Service]([!DNL S3])
+* [!DNL Amazon Simple Storage Service]&#x200B;([!DNL S3])
 * FTP
 * FTP SSL <!-- (in beta) -->
 * SFTP
@@ -42,6 +42,10 @@ ht-degree: 0%
      >이 보고서에는 청구 세그먼트에 대한 데이터가 포함됩니다. 사용자 또는 장치에 여러 세그먼트에 속하는 노출이 제공되는 경우 청구 가능한 세그먼트는 하나만 노출로 크레딧됩니다.
 
    * **[!UICONTROL Conversion]:** 이 보고서를 사용하여 Adobe Advertising 전환 추적을 사용하여 캡처된 전환 지표에 따라 캠페인이 수행되는 방식을 이해합니다. 이 보고서에는 멀티 터치 속성이 포함됩니다.
+
+  <!--
+    * **[!UICONTROL Custom Creative Report Beta]:** (Beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
+    -->
 
    * **[!UICONTROL Device]:** 미리 채워진 이 템플릿을 사용하여 장치 관련 차원별 주요 지표를 확인합니다.
 
@@ -133,6 +137,6 @@ ht-degree: 0%
 >* [사용자 지정 보고서 다운로드](/help/dsp/reports/report-download.md)
 >* [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
 >* 가족 보고서 관련 [FAQ](/help/dsp/reports/faq-reports.md)
->* [Campaign Management 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [캠페인 관리 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
 >* [정보 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

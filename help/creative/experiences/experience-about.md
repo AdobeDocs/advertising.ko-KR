@@ -3,7 +3,7 @@ title: Advertising Creative의 경험
 description: 개인화된 광고 경험을 구성하고 성능에 따라 광고 요소를 최적화하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: e2b88275f2ebbc69f769cf905a0d20859bf0af3b
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## 경험에 대한 성능 데이터
 
-[!UICONTROL Experiences] 보기에서 [!UICONTROL Metrics] 옵션을 활성화하면 각 경험 카드 또는 행은 경험이 받은 노출 횟수 및 클릭 수를 나타냅니다.
+[!UICONTROL Creative] > [!UICONTROL Experiences] 보기에서 [!UICONTROL Metrics] 옵션을 활성화하면 각 경험 카드 또는 행은 경험이 받은 노출 횟수 및 클릭 수를 나타냅니다.
 
 ![지표 옵션](/help/creative/assets/metrics-option.png "지표 옵션")
 
@@ -59,11 +59,9 @@ ht-degree: 0%
 
 <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
-[!UICONTROL Creative] > [!UICONTROL Experiences] 보기에서 경험에 대한 자세한 성능 데이터를 볼 수 있습니다. 경험에서 성능을 모니터링하려면 [!UICONTROL Custom Creative Report]을(를) 만드십시오.
+[!UICONTROL Experiences] 보기에서 [경험에 대한 자세한 성능 데이터를 볼 수 있습니다](experience-performance-details.md).
 
-<!--
-You can [view detailed performance data for any experience](experience-performance-details.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
--->
+경험에서 성능을 모니터링하려면 [!UICONTROL Custom Creative Report](/help/creative/report-custom-creative.md)을(를) 만드십시오.
 
 ## 경험 상태 {#experience-statuses}
 
