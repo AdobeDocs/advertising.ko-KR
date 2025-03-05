@@ -2,7 +2,8 @@
 title: 크리에이티브 다운로드
 description: 크리에이티브를 ZIP 파일로 다운로드하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 6507d472-be25-4f20-a32e-ad73250d78d4
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%

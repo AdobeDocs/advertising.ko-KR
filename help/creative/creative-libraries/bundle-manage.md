@@ -3,7 +3,7 @@ title: Creative 번들 관리
 description: xxxx에 대해 알아보십시오.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 ## 번들에서 크리에이티브 미리 보기
 
-시청자가 보게 될 대로 하이퍼링크를 사용하여 크리에이티브를 미리 볼 수 있습니다.
+하이퍼링크를 포함하여 사용자가 보게 될 대로 크리에이티브를 미리 볼 수 있습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 

@@ -3,9 +3,9 @@ title: Creative 설정
 description: xxxx에 대해 알아보십시오.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1806'
 ht-degree: 0%
 
 ---

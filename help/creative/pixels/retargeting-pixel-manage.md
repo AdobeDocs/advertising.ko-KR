@@ -3,7 +3,7 @@ title: 픽셀 재타겟팅 관리
 description: 광고 경험의 타겟으로 사용할 리타기팅 픽셀을 만들고 구현하는 방법에 대해 알아봅니다.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> * [!DNL Creative]은(는) 현재 Advertising DSP에 대해서만 범용 ID를 지원합니다. 향후 릴리스는 타사 DSP용 범용 ID를 지원합니다.<!-- Clarify this and reword as needed -->
+> * [!DNL Creative]은(는) 현재 Advertising DSP에 대해서만 범용 ID를 지원합니다. 향후 릴리스는 타사 DSP용 범용 ID를 지원합니다.<!-- Clarify this and reword as needed  -->
 >* 또한 Adobe Audience Manager 및 Adobe Analytics의 자사 대상을 [경험의 크리에이티브 대상](/help/creative/experiences/experience-settings-targeting.md)(으)로 사용할 수 있습니다.
 >* Advertising DSP 배치 내에서 경험을 광고로 사용할 때 DSP에서 사용할 수 있는 모든 대상자에게 배치를 타깃팅할 수 있습니다. [사용자 지정 대상 세그먼트 태그를 만들어](/help/dsp/audiences/custom-segment-create.md) 특정 랜딩 페이지에 대한 모든 방문자를 추적한 다음 해당 세그먼트를 배치를 위한 크리에이티브 대상으로 사용할 수도 있습니다.
 >* 광고 타깃팅을 위한 추적을 옵트아웃한 웹 사이트 방문자는 대상 세그먼트 또는 재타깃팅 프로필을 기반으로 개인화된 크리에이티브 콘텐츠가 포함된 광고를 받지 않습니다.

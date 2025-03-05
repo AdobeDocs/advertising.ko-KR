@@ -3,7 +3,7 @@ title: HTML5 creative 사양
 description: HTML5 creative specification for Advertising Creative 를 참조하십시오.
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # HTML5 creative specification for Advertising Creative
 
-이 문서에서는 [!DNL Creative] 내의 HTML5 크리에이티브에 대한 요구 사항 및 API 지원에 대해 간략하게 설명합니다. API를 통해 광고 게재 시 특성을 구성할 수 있는 HTML5 크리에이티브를 개발할 수 있습니다.
+이 문서에서는 [!DNL Creative] 내의 HTML5 크리에이티브에 대한 요구 사항 및 API 지원에 대해 간략하게 설명합니다. API는 광고 게재 시 특성을 구성할 수 있는 HTML5 크리에이티브 개발을 지원합니다.
 
 ## 범위
 

@@ -3,7 +3,7 @@ title: 추적 URL에 사용 가능한 매크로
 description: 랜딩 페이지 URL, 추적 URL 및 서드파티 크리에이티브에 추가할 수 있는 매크로를 참조합니다.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *베타가 닫힘*
 
-<!-- More feature metadata??? -->
+<!-- More feature metadata???  -->
 
 서드파티 크리에이티브, 경험에 대한 서드파티 추적 URL 및 자체 사용을 위한 랜딩 페이지 URL에 다음 매크로를 포함할 수 있습니다.
 

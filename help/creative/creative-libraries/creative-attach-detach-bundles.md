@@ -3,7 +3,7 @@ title: 크리에이티브를 크리에이티브 번들에 첨부
 description: 크리에이티브 번들에 크리에이티브를 첨부하는 방법을 알아봅니다.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *베타가 닫힘*
 
-<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available. -->
+<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
 표준 광고 항목을 표준 번들에 첨부하고 동적 광고 항목을 동적 번들에 첨부하면 [광고 경험](/help/creative/experiences/experience-about.md)에 추가할 수 있습니다. 각 번들에는 각 \[creative size + language\] 조합 중 하나만 포함될 수 있습니다.
 
