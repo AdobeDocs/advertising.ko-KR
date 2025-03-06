@@ -2,9 +2,10 @@
 title: 의사 결정 트리 타겟팅으로 경험 편집
 description: 의사 결정 트리를 사용하여 타깃팅된 광고 경험에 대한 설정을 편집하는 방법을 알아봅니다.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -59,7 +60,7 @@ ht-degree: 0%
 
          * [최종 노드에 대한 크리에이티브 할당 및 할당 해제](experience-assign-creative-bundles.md).
 
-           각 최종 노드에 하나 이상의 번들을 할당하지 않는 경우 경험을 저장할 때 할당되지 않은 각 노드에 대한 기본 크리에이티브를 사용하도록 선택할 수 있습니다. 게시하려면 경험에 번들을 할당하거나 경험을 통해 만든 모든 광고에 기본 크리에이티브를 사용해야 합니다.
+           각 최종 노드에 하나 이상의 번들을 할당하지 않는 경우 경험을 저장할 때 할당되지 않은 각 노드에 대한 기본 크리에이티브를 사용하도록 선택할 수 있습니다. 경험을 게시하려면 번들을 할당하거나 각 최종 노드에 대한 기본 크리에이티브를 사용해야 합니다.
 
          * [할당된 번들의 광고 추적 URL을 사용자 지정](experience-tracking-urls-targeting.md)합니다.
 
@@ -71,7 +72,7 @@ ht-degree: 0%
 
    * (맨 아래 수준의 각 노드에 크리에이티브 번들이 하나 이상 포함되지 않은 경우) 다음 중 하나를 수행하십시오.
 
-      * 필요한 모든 Creative 번들 없이 환경을 저장하려면 **[!UICONTROL Save as Draft]**&#x200B;을(를) 클릭합니다.
+      * 필요한 모든 Creative 번들 없이 경험을 저장하려면 **[!UICONTROL Save as Draft]**&#x200B;을(를) 클릭합니다.
 
         [초안](experience-about.md#experience-statuses) 경험에 대한 광고 태그를 만들 수 없습니다.
 

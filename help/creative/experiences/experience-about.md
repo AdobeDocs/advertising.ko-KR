@@ -3,9 +3,9 @@ title: Advertising Creative의 경험
 description: 개인화된 광고 경험을 구성하고 성능에 따라 광고 요소를 최적화하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: e2b88275f2ebbc69f769cf905a0d20859bf0af3b
+source-git-commit: 0a6cd8e32ae87c7fda9ed0e1b50f9b54cd337192
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 [!UICONTROL Experiences] 보기에서 [경험에 대한 자세한 성능 데이터를 볼 수 있습니다](experience-performance-details.md).
 
-경험에서 성능을 모니터링하려면 [!UICONTROL Custom Creative Report](/help/creative/report-custom-creative.md)을(를) 만드십시오.
+경험에서 성능을 모니터링하려면 [사용자 지정 Creative 보고서](/help/creative/report-custom-creative.md)를 만드십시오.
 
 ## 경험 상태 {#experience-statuses}
 
