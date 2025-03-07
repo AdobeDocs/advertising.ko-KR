@@ -3,9 +3,9 @@ title: 타깃팅되지 않은 경험에 대한 설정
 description: 의사 결정 트리 타깃팅이 없는 광고 경험에 대한 모든 설정 설명을 참조하십시오.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 **반경:**(동적 광고만 있는 경험, 선택 사항) 피드 파일에 지정된 미국 우편 번호에서 타깃팅할 반경입니다. 0마일에서 200마일 사이의 반경을 선택하십시오. 경험에 대한 동적 광고를 만드는 데 사용되는 피드 파일에는 파일의 각 제품 행에 대한 값이 있는 [!UICONTROL ZIP] 열<!-- or a user-named column mapped to a ZIP column -->이(가) 포함되어야 합니다. 예를 들어 반경 10마일의 경우, 95110에서 사용할 수 있는 제품에 대한 광고를 95110 10마일(사용자의 IP 주소로 결정됨) 내의 사용자에게 표시할 수 있습니다.
 
-**RT 픽셀:**(동적 광고만 있는 경험, 선택 사항) 잠재적으로 타깃팅할 [!UICONTROL Creative] 리타겟팅 픽셀입니다. 의사 결정 트리 내에서 타깃팅을 설정할 때 한 수준의 RT 픽셀 대상 노드를 포함할 수 있습니다. 각 노드에 대해 타겟팅할 픽셀과 할당된 크리에이티브 번들에서 크리에이티브를 표시하는 데 필요한 픽셀 속성 값을 지정합니다. 이 필드에 픽셀을 지정하지 않으면 결정 트리 내에서 픽셀을 지정할 수 있습니다.&lt;!— R부터: &quot;RT 픽셀은 동적 광고 설정에서 콘텐츠 선택을 통해 이루어져야 합니다.&quot; — 명확화. 동적 광고 설정에 &quot;Datapass&quot;(한 단어)가 표시되지만 해당 설정과 이 경험 수준 설정이 어떻게 함께 작동하는지 확실하지 않습니다. —>
+**RT 픽셀:**(동적 광고만 있는 경험, 선택 사항) 잠재적으로 타깃팅할 [!UICONTROL Creative] 리타겟팅 픽셀입니다. 의사 결정 트리 내에서 타깃팅을 설정할 때 한 수준의 RT 픽셀 대상 노드를 포함할 수 있습니다. 각 노드에 대해 타겟팅할 픽셀과 할당된 크리에이티브 번들에서 크리에이티브를 표시하는 데 필요한 픽셀 속성 값을 지정합니다. 이 필드에 픽셀을 지정하지 않으면 결정 트리 내에서 픽셀을 지정할 수 있습니다.<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
 **[!UICONTROL Label]:**<!-- should be "Labels" -->(선택 사항) 경험에 적용할 모든 [!DNL Creative]별 레이블. 경험<!-- sic --> 보기에서 레이블을 기준으로 경험을 필터링할 수 있습니다.
 
