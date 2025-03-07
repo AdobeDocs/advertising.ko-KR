@@ -3,7 +3,7 @@ title: 라이브 경험을 위한 광고 경험 태그 내보내기 및 구현
 description: 광고 경험 태그를 내보내고 선택적으로 Advertising DSP 캠페인에 업로드하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *베타가 닫힘*
 
-특정 크리에이티브 크기의 광고 태그를 [live](experience-about.md#experience-statuses) 경험에 사용할 수 있게 되면, Advertising DSP 또는 다른 DSP에서 구현할 수 있도록 JavaScript 및 iframe 형식으로 태그를 생성하고 복사할 수 있습니다. DSP용 태그에는 DSP에 필요한 모든 매크로가 포함됩니다.
+특정 크리에이티브 크기의 광고 태그를 [live](experience-about.md#experience-statuses) 경험에 사용할 수 있게 되면, Advertising DSP 또는 기타 DSP에서 구현할 수 있도록 태그를 JavaScript 및 iframe 형식으로 생성하고 복사할 수 있습니다. DSP의 태그에는 DSP에 필요한 모든 매크로가 포함됩니다.
 
 Advertising DSP을 사용하는 광고주는 선택적으로 태그를 광고로 Advertising DSP 캠페인에 직접 업로드할 수 있습니다.
 
@@ -48,7 +48,7 @@ Advertising DSP을 사용하는 광고주는 선택적으로 태그를 광고로
 
 1. [!UICONTROL Destinations] 목록에서 경험을 위한 광고를 만들 위치를 선택합니다.
 
-   * Advertising DSP에서 만들 광고의 경우 *Adobe Advertising:*.
+   * *Adobe Advertising:* Advertising DSP에서 만들 광고입니다.
 
    * *일반:* 다른 DSP에서 만들 광고의 경우. **참고:** 필요에 따라 추가 매크로를 수동으로 포함해야 할 수도 있습니다.
 
@@ -70,7 +70,7 @@ Advertising DSP을 사용하는 광고주는 선택적으로 태그를 광고로
 
       1. 오른쪽 상단의 **[!UICONTROL Next]**&#x200B;을(를) 클릭하거나 왼쪽 메뉴에서 **[!UICONTROL DSP link]**&#x200B;을(를) 클릭합니다.
 
-      1. 광고 태그를 사용할 수 있게 될 캠페인을 선택합니다.
+      1. 광고 태그를 업로드할 캠페인을 선택합니다.
 
       1. **[!UICONTROL Assign Tags]**&#x200B;을(를) 클릭합니다.
 

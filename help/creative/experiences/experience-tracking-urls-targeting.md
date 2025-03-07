@@ -2,9 +2,10 @@
 title: 경험에 대한 추적 URL 사용자 지정
 description: 의사 결정 트리 타깃팅을 사용하는 경험에서 각 크리에이티브에 대한 추적 URL을 사용자 지정하는 방법을 알아봅니다.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 0%
 *기존 크리에이티브만 있는 노드 타깃팅*
 *Beta 완료*
 
-의사 결정 트리 타깃팅이 있는 경험의 경우 의사 결정 트리 내에서 경험에 사용되는 개별 크리에이티브에 대해 최대 5개의 사용자 지정 노출 추적 URL, 5개의 사용자 지정 클릭 추적 URL 및 1개의 사용자 지정 랜딩 페이지 URL을 만들 수 있습니다.
+의사 결정 트리 타깃팅이 있는 경험의 경우 경험에 사용되는 각 개별 크리에이티브에 대해 최대 5개의 사용자 지정 노출 추적 URL, 5개의 사용자 지정 클릭 추적 URL 및 1개의 사용자 지정 랜딩 페이지 URL을 만들 수 있습니다. 의사 결정 트리 내에서 추적 URL을 사용자 지정할 수 있습니다.
 
 사용자 지정 URL은 경험에서 만든 광고에만 사용되며 [!UICONTROL Creative Libraries]의 기본 크리에이티브 설정에 저장되지 않습니다.
 
 1. 대상 노드 아래의 Creative 번들 리프/폴더 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**&#x200B;을(를) 클릭합니다.
 
-   [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] 및 [!UICONTROL Landing URLs] 탭에는 할당된 번들에서 적용 가능한 크기의 모든 크리에이티브 이름이 나열됩니다. 적용 가능한 크기는 경험에 대한 기본 이미지 크리에이티브의 크기에 따라 결정됩니다.<!-- There's no distinct "Creative Sizes" setting. -->
+   [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] 및 [!UICONTROL Landing URLs] 탭에는 할당된 번들에서 적용 가능한 크기의 모든 크리에이티브 이름이 나열됩니다. 경험에 대한 기본 이미지 크리에이티브 크기가 사용 가능한 크기를 결정합니다.<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** 및 **[!UICONTROL Landing URLs]** 탭에서 필요에 따라 각 크리에이티브에 대해 다음을 수행합니다.
 

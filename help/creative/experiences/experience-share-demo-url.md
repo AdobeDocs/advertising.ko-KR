@@ -2,9 +2,10 @@
 title: 경험에 대한 데모 URL 공유
 description: 경험의 데모 URL을 공유하는 방법을 알아봅니다.
 feature: Creative Experiences
-source-git-commit: 14d972044d485ead5101f1c383d2726bb6fd9d25
+exl-id: 0d523270-e6b2-4d7b-a39c-749f3cc94561
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -28,3 +29,7 @@ ht-degree: 0%
 1. 미리 보기의 오른쪽 상단에서 ![공유](/help/creative/assets/share.png "공유")를 클릭합니다.
 
 1. [!UICONTROL Share Demo URL] 대화 상자에서 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 URL을 클립보드에 복사하여 다른 사람과 공유할 수 있도록 합니다.
+
+>[!MORELIKETHIS]
+>
+>* [경험 미리 보기](/help/creative/experiences/experience-preview.md)

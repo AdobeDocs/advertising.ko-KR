@@ -2,9 +2,10 @@
 title: 하위 노드를 동일한 수준의 다른 대상 노드에 복사
 description: 상위 대상 노드의 모든 하위 노드를 동일한 수준의 다른 대상 노드로 복사하는 방법에 대해 알아봅니다
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *의사 결정 트리가 타겟팅된 경험*
 *Beta 완료*
 
-상위 대상 노드의 모든 하위 노드(모든 하위 대상 및 여기에 할당된 크리에이티브 번들 포함)를 동일한 레벨의 다른 대상 노드에 복사할 수 있습니다. 복사한 노드를 기존 프레임워크에 추가하거나 기존 프레임워크를 완전히 대체할 수 있습니다. <!-- Give the main use case or an example to explain. -->
+상위 대상 노드의 모든 하위 노드(모든 하위 대상 및 해당 하위 노드에 할당된 크리에이티브 번들 포함)를 동일한 레벨의 다른 대상 노드에 복사할 수 있습니다. a) 복사한 노드를 기존 프레임워크에 추가하거나 b) 기존 프레임워크를 완전히 교체하여 노드를 복사할 수 있습니다. <!-- Give the main use case or an example to explain. -->
 
 이 기능은 상위 노드에 대해 지정된 대상에는 영향을 주지 않으며 하위 노드에만 영향을 줍니다.
 

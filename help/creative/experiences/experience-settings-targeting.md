@@ -3,9 +3,9 @@ title: 타깃팅된 경험 설정
 description: 타겟팅된 광고 경험에 대한 모든 설정 설명을 참조하십시오.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f339fafa90f93632778e15dddcfb5f889ad77395
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ ht-degree: 0%
 
 **반경:**(동적 광고만 있는 경험, 선택 사항) 피드 파일에 지정된 미국 우편 번호에서 타깃팅할 반경입니다. 0마일에서 200마일 사이의 반경을 선택하십시오. 경험에 대한 동적 광고를 만드는 데 사용되는 피드 파일에는 파일의 각 제품 행에 대한 값이 있는 [!UICONTROL ZIP] 열<!-- or a user-named column mapped to a ZIP column -->이(가) 포함되어야 합니다. 예를 들어 반경 10마일의 경우, 95110에서 사용할 수 있는 제품에 대한 광고를 95110 10마일(사용자의 IP 주소로 결정됨) 내의 사용자에게 표시할 수 있습니다.
 
-**RT 픽셀:**(기존 경험의 경우 읽기 전용, 선택 사항) 잠재적으로 타깃팅할 [!UICONTROL Creative] 리타겟팅 픽셀입니다. 의사 결정 트리 내에서 타깃팅을 설정할 때 한 수준의 RT 픽셀 대상 노드를 포함하고 각 노드에 대해 타깃팅할 픽셀과, 할당된 크리에이티브 번들에서 크리에이티브를 표시하기 위해 존재해야 하는 픽셀 속성에 대한 필수 값을 지정할 수 있습니다. 경험을 만들 때 이 필드에 픽셀을 지정하지 않으면 결정 트리 내에서 픽셀을 지정할 수 있습니다.<!-- May move this to just within the decision tree. -->
+**RT 픽셀:**(기존 경험의 경우 읽기 전용, 선택 사항) 잠재적으로 타깃팅할 [!UICONTROL Creative] 리타겟팅 픽셀입니다. 의사 결정 트리 내에서 타깃팅을 설정할 때 한 수준의 RT 픽셀 대상 노드를 포함할 수 있습니다. 각 노드에 대해 타겟팅할 픽셀과 할당된 크리에이티브 번들에서 크리에이티브를 표시하는 데 필요한 픽셀 속성 값을 지정합니다. 경험을 만들 때 이 필드에 픽셀을 지정하지 않으면 결정 트리 내에서 픽셀을 지정할 수 있습니다.<!-- May move this to just within the decision tree. -->
 
-**레이블:** <!-- should be "Labels" -->(선택 사항) 경험에 적용할 모든 [!DNL Creative]별 레이블. 경험<!-- sic --> 보기에서 레이블을 기준으로 경험을 필터링할 수 있습니다.
+**레이블:**<!-- should be "Labels" --> (선택 사항) 경험에 적용할 [!DNL Creative]별 레이블입니다. 경험<!-- sic --> 보기에서 레이블을 기준으로 경험을 필터링할 수 있습니다.
 
 * 기존 레이블을 선택하려면 ![아래로](/help/creative/assets/chevron-down.png "아래로")를 클릭하고 적용할 각 레이블 옆에 있는 확인란을 선택하십시오.
 

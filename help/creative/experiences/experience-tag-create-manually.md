@@ -3,9 +3,9 @@ title: 적용 가능한 광고 크기에 대한 광고 태그를 수동으로 �
 description: 특정 크리에이티브 크기에 대한 광고 태그를 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 고유한 **[!UICONTROL Tag name]**&#x200B;을(를) 입력하고 **[!UICONTROL Tag size]**&#x200B;을(를) 선택하십시오.
 
-   사용 가능한 광고 크기는 경험에 대한 기본 이미지 광고 크기에 따라 결정됩니다.
+   경험에 대한 기본 이미지 크리에이티브 크기가 사용 가능한 크리에이티브 크기를 결정합니다.
 
    같은 크리에이티브 크기에 대해 여러 태그를 만들 수 있습니다.<!-- What are the implications? -->
 

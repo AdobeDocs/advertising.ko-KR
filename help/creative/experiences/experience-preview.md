@@ -2,9 +2,10 @@
 title: 경험 미리보기
 description: 광고 경험에서 크리에이티브를 미리 보는 방법을 알아봅니다.
 feature: Creative Experiences
-source-git-commit: 14d972044d485ead5101f1c383d2726bb6fd9d25
+exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,9 @@ ht-degree: 0%
 
    * 알고리즘 광고 회전의 경우 최적화 목표를 기반으로 크리에이티브가 선택됩니다.
 
-   * 가중 광고 회전의 경우, 매번 지정된 가중치(예: 크리에이티브 A가 표시될 80% 확률 및 크리에이티브 B가 표시될 20% 확률)를 기반으로 크리에이티브가 선택됩니다.
+   * 가중 광고 회전의 경우, 매번 지정된 가중치(예: Creative A가 표시될 80% 확률 및 Creative B가 표시될 20% 확률)를 기반으로 크리에이티브가 선택됩니다.
 
-   * 예약된 광고 순환의 경우 처음에는 예약에 첫 번째 크리에이티브가 표시되며, 미리보기를 계속 새로 고쳐 시퀀스를 계속 진행할 수 있습니다.<!-- Refresh isn't there as of 2/3 -->
+   * 예약된 광고 순환의 경우 예약의 첫 번째 크리에이티브가 표시됩니다. 시퀀스를 계속하려면 미리 보기를 계속 새로 고칠 수 있습니다.<!-- Refresh isn't there as of 2/3 -->
 
 ## 의사 결정 트리 타겟팅을 사용하는 경험에서 크리에이티브 미리 보기
 

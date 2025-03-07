@@ -2,9 +2,10 @@
 title: 경험에서 대상 노드 또는 크리에이티브 리프 노드 삭제
 description: 경험 내에서 노드를 삭제하는 방법을 알아봅니다.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
