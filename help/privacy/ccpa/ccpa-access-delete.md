@@ -4,9 +4,9 @@ description: 지원되는 데이터 요청 유형, 필수 설정 및 필드 값,
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: a3e39ca4fa89f84ddc2669662c34bccb4425a2bb
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -94,11 +94,11 @@ Adobe Advertising에서 지원을 받으려면 모든 단계가 필요합니다.
 
 * `"user IDs":`
 
-   * `"namespace": **411**`([!DNL adCloud] 쿠키 공간을 나타냄)
+   * `"namespace": **411**`([[!DNL AdCloud] 쿠키 공간](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)을 나타냄)
 
    * `"value":` &lt;*`AdobePrivacy.js`*&#x200B;에서 검색된 실제 고객의 쿠키 ID 값>
 
-* `"include": **adCloud**`(요청에 적용되는 [!DNL Adobe] 제품)
+* `"include": **adCloud**`(요청에 적용되는 [[!DNL Adobe] product](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix))
 
 * `"regulation": **ccpa**`(요청에 적용되는 개인 정보 보호 규정)
 
