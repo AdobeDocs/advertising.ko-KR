@@ -3,9 +3,9 @@ title: 게시자 권장 사항 및 인사이트 지원 기본 정보
 description: 게시자 권장 사항 및 인사이트를 보고 관리하는 지원에 대해 알아봅니다.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 73cc45da72a48b844b4baa426331822b4e857245
+source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * 계정에 실행되지 않은 모든 지원되는 권장 사항을 한눈에 볼 수 있습니다. 각 항목에 대한 정보에는 권장 사항 유형, [!DNL Adobe] 권장 사항, 영향을 받는 지표, 영향을 받는 엔터티 및 자세한 정보에 대한 링크가 포함됩니다. 지표에 대한 예측된 증가는 녹색으로 강조 표시됩니다.
 
-  ![Recommendations UI](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations UI")
+  ![권장 사항 UI](/help/search-social-commerce/assets/recommendations-ui.png "권장 사항 UI")
 
   보기를 열면 데이터를 실시간으로 사용할 수 있습니다. 데이터를 새로 고치려면 페이지의 왼쪽 하단에 있는 ![새로 고침](/help/search-social-commerce/assets/refresh.png "새로 고침")을 클릭하세요.
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 | 추천 카테고리 | 권장 사항 유형 | 설명 |
 | --- | --- | --- |
-| [!UICONTROL Ads and extensions](이제 [!DNL Google Ads]에서 &quot;[!DNL Ads and assets]&quot;이라고 함) | [!UICONTROL Call extension] | 캠페인에 호출 확장 추가 |
+| [!UICONTROL Ads and extensions]&#x200B;(이제 [!DNL Google Ads]에서 &quot;[!DNL Ads and assets]&quot;이라고 함) | [!UICONTROL Call extension] | 캠페인에 호출 확장 추가 |
 | | [!UICONTROL Callout extension] | 캠페인에 설명선 확장 추가 |
 | | [!UICONTROL Optimize ad rotation] | 최적화된 광고 순환 사용 |
 | | [!UICONTROL Responsive search ad] | 새 반응형 검색 광고 추가 |
@@ -60,10 +60,9 @@ ht-degree: 0%
 | | [!UICONTROL Upgrade local campaign to performance max] | 레거시 로컬 캠페인을 성과 최대 캠페인으로 업그레이드 |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | 레거시 스마트 쇼핑 캠페인을 성과 최대 캠페인으로 업그레이드 |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | 현재 예산으로 제한된 캠페인에 대한 권장 예산 |
-| | [!UICONTROL Enhanced CPC opt in] | [!UICONTROL Enhanced CPC](으)로 입찰 |
 | | [!UICONTROL Forecasting campaign budget] | 향후 예산에 의해 제한될 것으로 예상되는 캠페인에 대한 권장 예산 |
 | | [!UICONTROL Forecasting set Target CPA] | 트래픽 증가가 예상되는 시즌 이벤트 전에 캠페인 대상 CPA를 하나 설정 안 함 |
-| | [!UICONTROL Forecasting set Target ROAS] | 트래픽이 증가할 것으로 예상되는 계절별 이벤트 전에 예산을 늘리고 입찰 전략을 [!UICONTROL Maximize Conversion Value]에서 [!UICONTROL Target ROAS](으)로 변경합니다. |
+| | [!UICONTROL Forecasting set Target ROAS] | 트래픽이 증가할 것으로 예상되는 계절별 이벤트 전에 예산을 늘리고 입찰 전략을 [!UICONTROL Maximize Conversion Value]에서 [!UICONTROL Target ROAS]&#x200B;(으)로 변경합니다. |
 | | [!UICONTROL Marginal ROI campaign budget] | 캠페인 예산을 조정하여 ROI 향상 |
 | | [!UICONTROL Maximize clicks opt in] | [!UICONTROL Maximize Clicks] 입찰 전략으로 변경 |
 | | [!UICONTROL Maximize conversion value opt in] | 전환 값 최대화 입찰 전략으로 변경 |

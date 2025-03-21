@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 광고 그룹 설정'
 description: ' [!DNL Google Ads] 광고 그룹에 대한 설정을 참조합니다.'
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Use campaign setting]*(새 광고 그룹의 기본값): 기존 캠페인 수준의 광고 순환 설정을 사용합니다. **참고:** 캠페인 수준 설정은 검색, 소셜 및 Commerce에 표시되지 않습니다.
 
-캠페인이 스마트 입찰 입찰 전략(예: [!UICONTROL Target CPA], [!UICONTROL Target ROAS] 또는 [!UICONTROL Enhanced CPC])을 사용하는 경우 [!DNL Google Ads]에서 옵션을 자동으로 &quot;[!UICONTROL Optimize]&quot;(으)로 설정합니다.
+캠페인이 스마트 입찰 입찰 전략(예: [!UICONTROL Target CPA], [!UICONTROL Target ROAS])을 사용하는 경우 [!DNL Google Ads]에서 옵션을 자동으로 &quot;[!UICONTROL Optimize]&quot;(으)로 설정합니다.
 
 **[!UICONTROL Custom Bid Level]:**(디스플레이 네트워크만 대상으로 하는 캠페인) 입찰 방법: *[!UICONTROL Ad Group]*(기본값), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]*(Google 광고의 관심 분야 및 리마케팅), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]*(웹 사이트), *[!UICONTROL Unknown]* 또는 *[!UICONTROL Vertical]*.
 
