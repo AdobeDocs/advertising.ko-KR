@@ -3,9 +3,9 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 개방형 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 9bdd7eda97fc7794210a71aceb49d9570a3ad8fb
+source-git-commit: bbc6549b55bdbefda7f421fe609c54d737ffe570
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 자�
 
 | 나열된 SSP | 회사 | Seat ID | 프로그램 보증 지원 | 지역 | 지원되는 통화 | 지원되는 인벤토리 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [!DNL AdColony]&#x200B;(이전 [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | — | 글로벌 | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑 및 모바일 |
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | PG 지원 | 글로벌 | USD, EUR, GBP | 오디오 데스크탑 및 모바일 |
 | [!DNL AppNexus] | [!DNL Xandr] | 비디오 시트 ID: 9094<br>디스플레이 시트 ID: 3939 | — | 글로벌 | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 미국 + EMEA | USD, EUR | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
