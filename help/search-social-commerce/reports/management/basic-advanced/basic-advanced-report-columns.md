@@ -3,9 +3,9 @@ title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: af7f2dbb2b53b6f61b848a75a081c402341df979
 workflow-type: tm+mt
-source-wordcount: '3743'
+source-wordcount: '3745'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Group] | 광고 그룹. |
 | [!UICONTROL Ad Group ID] | 기존 광고 그룹을 식별하는 고유 ID입니다. |
 | [!UICONTROL Ad Group Status] | 광고 그룹 상태: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> 또는 <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Ad Group Type] | 광고 그룹 유형(예: <i>[!UICONTROL Audience]</i>(대상 캠페인만), <i>[!UICONTROL Discovery]</i>(검색 캠페인만), <i>[!UICONTROL Display]</i>(표시 캠페인만), <i>[!UICONTROL Search Dynamic]</i>(동적 검색 광고만), <i>[!UICONTROL Search Standard]</i>(반응형 검색 광고 및 기존 확장 텍스트 광고만), <i>[!UICONTROL Shopping Showcase]</i>, <i>[!UICONTROL Shopping Product]</i>(표준 쇼핑 캠페인만) 또는 <i>[!UICONTROL Shopping Smart]</i>(스마트 쇼핑 캠페인만). 일부 캠페인 유형의 경우, 단일 캠페인에 여러 광고 유형이 포함될 수 있습니다. |
+| [!UICONTROL Ad Group Type] | 광고 그룹 유형(예: <i>[!UICONTROL Audience]</i>(대상 캠페인만), <i>[!UICONTROL Demand Gen]</i>(수요 세대 캠페인만), <i>[!UICONTROL Display]</i>(표시 캠페인만), <i>[!UICONTROL Search Dynamic]</i>(동적 검색 광고만), <i>[!UICONTROL Search Standard]</i>(반응형 검색 광고 및 기존 확장 텍스트 광고만), <i>[!UICONTROL Shopping Showcase]</i>, <i>[!UICONTROL Shopping Product]</i>(표준 쇼핑 캠페인만) 또는 <i>[!UICONTROL Shopping Smart]</i>(스마트 쇼핑 캠페인만). 일부 캠페인 유형의 경우, 단일 캠페인에 여러 광고 유형이 포함될 수 있습니다. |
 | [!UICONTROL Ad Groups] | 레이블 값이 할당된 광고 그룹 수입니다. |
 | [!UICONTROL AD Name] | 광고 그룹 이름. [!UICONTROL Ad Group]과(와) 동일한 값. |
 | [!UICONTROL Ad Recall Lift] | ([!DNL Meta] 캠페인만 해당) 이틀 내에 광고를 기억하는 예상 사람 수입니다. |
@@ -51,7 +51,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Product Scope Filter] | (쇼핑 네트워크만 사용하는 캠페인) 판매자 계정의 제품으로서, 캠페인에 대한 제품 광고를 만들 수 있습니다. |
 | [!UICONTROL Campaign Start Date] | 캠페인에 대한 입찰이 수행된/배치된 첫 번째 날입니다. |
 | [!UICONTROL Campaign Status] | 캠페인 상태: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Ended]</i> 또는 <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Campaign Type] | <i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Video)]</i>, <i>[!UICONTROL Brand Shopping]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Store Ad]</i>, <i>[!UICONTROL Video]</i> 또는 <i>[!UICONTROL Others]</i>과(와) 같은 캠페인 유형. |
+| [!UICONTROL Campaign Type] | <i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Video)]</i>, <i>[!UICONTROL Brand Shopping]</i>, <i>[!UICONTROL Demand Gen]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Store Ad]</i>, <i>[!UICONTROL Video]</i> 또는 <i>[!UICONTROL Others]</i>과(와) 같은 캠페인 유형. |
 | [!UICONTROL Channel Type] | 마케팅 채널 유형: <i>[!UICONTROL Search]</i> 또는 <i>[!UICONTROL Content]</i>. 보고서 설정에서 보고서의 [!UICONTROL Search/Content] 설정이 &quot;[!UICONTROL Combined]&quot;인 경우 이 열은 포함되지 않습니다. |
 | [!UICONTROL City] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Transaction Report]) 클릭이 시작된 도시입니다. 사용자의 IP 주소에서 결정됩니다. |
 | [!UICONTROL Click Match Type] | 클릭한 광고에 대한 키워드 일치 유형입니다. 이는 일치 유형이 여러 개인 [!DNL Microsoft Advertising] 키워드를 제외하고 [!UICONTROL Listing Match Type]과(와) 동일합니다. [!DNL Microsoft Advertising] 키워드의 경우 실제로 클릭한 일치 유형입니다. |
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Name] | ([!DNL Yahoo! Japan]만 해당) 광고 이미지 이름입니다. |
 | [!UICONTROL Creative Title], [!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | 광고의 제목 또는 헤드라인입니다. 각 크리에이티브 유형에는 필수 및 선택적 제목 줄 수가 다릅니다. 반응형 광고 또는 멀티미디어 광고 [!DNL Microsoft Advertising]에서 [!UICONTROL Creative Title4] 이상의 열을 보려면 보고서 설정에 &quot;[!UICONTROL Creative Titles]&quot; 열을 포함하십시오. |
 | [!UICONTROL Creative Titles] | (멀티미디어 및 반응형 검색 광고만 해당) 각 광고의 짧은 헤드라인(&quot;[!UICONTROL Creative Title]&quot; ~ &quot;[!UICONTROL Creative Title15]&quot;)에 대해 열을 추가합니다. 이 열을 포함할 때 다른 [!UICONTROL Creative Title]개의 열은 포함할 필요가 없지만 [!UICONTROL Order Results/Limit Rows By] 섹션을 편집하여 [!UICONTROL Creative Title] 대신 [!UICONTROL Creative Titles]을(를) 기준으로 정렬합니다. |
-| [!UICONTROL Creative Type] | 광고 포맷. 가능한 값은 <i>[!UICONTROL App Install Ad]</i>, <i>[!UICONTROL Call Only Ad]</i>, <i>[!UICONTROL Discovery Ad (single-image ads)]</i>, <i>[!UICONTROL Discovery Carousel Ad]</i>(다중 이미지 회전 광고), <i>[!UICONTROL Display Ad]</i>, <i>[!UICONTROL Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Text Ad]</i>, <i>[!UICONTROL Legacy Text Ad]</i>, <i>[!UICONTROL Multimedia Ad]</i>, <i>[!UICONTROL Product Ad]</i>, <i>[!UICONTROL Responsive Ad]</i>, <i>[!UICONTROL Responsive Search Ad]</i> 또는 <i>[!UICONTROL Text Ad]</i>입니다. |
+| [!UICONTROL Creative Type] | 광고 포맷. 가능한 값은 <i>[!UICONTROL App Install Ad]</i>, <i>[!UICONTROL Call Only Ad]</i>, <i>[!UICONTROL Demand Gen Carousel Ad]</i>(다중 이미지 회전 광고), <i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>, <i>[!UICONTROL Demand Gen Product Ad]</i>, <i>[!UICONTROL Demand Gen Video Ad]</i>, <i>[!UICONTROL Display Ad]</i>, <i>[!UICONTROL Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Text Ad]</i>, <i>[!UICONTROL Legacy Text Ad]</i>, <i>[!UICONTROL Multimedia Ad]</i>, <i>[!UICONTROL Product Ad]</i>, <i>[!UICONTROL Responsive Ad]</i>, <i>[!UICONTROL Responsive Search Ad]</i> 또는 <i>[!UICONTROL Text Ad]</i>입니다. |
 | [!UICONTROL CTR] | 클릭스루 비율(클릭 수를 포함된 광고에 대한 노출 횟수로 나눈 값) |
 | [!UICONTROL Currency] | 해당 통화 유형(예: &quot;USD&quot; 또는 &quot;GBP&quot;).<br><br><b>참고:</b> 보고서에 통화가 다른 계정에 대한 데이터가 포함된 경우 &quot;[!UICONTROL Total]&quot; 통화 값은 통화에 관계없이 열에 있는 모든 숫자의 합계입니다. |
 | [!UICONTROL Current Bid] | 대상의 현재 입찰입니다. |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL Exclude (yes/no)] | 일치하는 제품에 대한 광고에 입찰이 제외되었는지(<i>[!UICONTROL Yes]</i>) 또는 입찰이 허용되었는지(<i>[!UICONTROL No]</i>) 여부. |
 | [!UICONTROL First Page CPC] | (Google 캠페인만 해당) 지정된 날짜 범위 동안 검색 결과의 첫 페이지에 표시되는 광고의 클릭당 비용(CPC)입니다. |
 | [!UICONTROL Frequency] | ([!DNL Meta] 캠페인만 해당) 누군가 내 광고를 본 평균 횟수입니다. |
-| `GGL*`, `GGL_CT*` 및 `GGL_XD_CT*` [[!DNL Google Ads] 추적 전환] | ( 검색 및 쇼핑 네트워크의 [!DNL Google Ads]개 캠페인) 각 전환에 대해 최대 3개의 개별 지표가 있는 [!DNL Google Ads]개의 추적된 전환:<ul><li>`GGL*` — (추적할 때) &quot;GGL&quot; 접두사로 시작하는 키워드에 대한 전환 값(예: GGL 구매)입니다.</li><li>`GGL_CT*` — &quot;GGL_CT&quot; 접두사로 시작하는 전환 수(개수)(예: GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (전환 유형에 사용 가능한 경우, 추적할 때) &quot;GGL_XD_CT_&quot; 접두사로 시작하는 [!DNL Google Ads]로 측정한 교차 장치 전환 수(개수)입니다(예: GGL_XD_CT_Purchase).</li></ul><br>각 전환은 입찰 단위와 클릭 날짜별로 기록되며 이벤트 수준에서 사용할 수 없습니다. [!DNL Google Ads]개의 추적된 전환에 대한 자세한 내용은 &quot;[[!DNL Google Ads] 검색, 소셜 및 Commerce의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)&quot;를 참조하십시오. |
+| `GGL*`, `GGL_CT*` 및 `GGL_XD_CT*` [[!DNL Google Ads] 추적 전환] | ( 검색 및 쇼핑 네트워크의 [!DNL Google Ads]개 캠페인) 각 전환에 대해 최대 3개의 개별 지표가 있는 [!DNL Google Ads]개의 추적된 전환:<ul><li>`GGL*` — (추적할 때) &quot;GGL&quot; 접두사로 시작하는 키워드에 대한 전환 값(예: GGL 구매)입니다.</li><li>`GGL_CT*` — &quot;GGL_CT&quot; 접두사로 시작하는 전환 수(개수)(예: GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (전환 유형에 사용 가능한 경우, 추적할 때) &quot;GGL_XD_CT_&quot; 접두사로 시작하는 [!DNL Google Ads]로 측정되는 교차 장치 전환 수(개수)입니다(예: GGL_XD_CT_Purchase).</li></ul><br>각 전환은 입찰 단위와 클릭 날짜별로 기록되며 이벤트 수준에서 사용할 수 없습니다. [!DNL Google Ads]개의 추적된 전환에 대한 자세한 내용은 &quot;[[!DNL Google Ads] 검색, 소셜 및 Commerce의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)&quot;를 참조하십시오. |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads]만 해당) 유기 검색 결과 위에 첫 번째 광고로 표시되는 광고 노출 비율입니다. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads]만 해당) 유기 검색 결과 위에 표시되는 광고 노출 비율입니다. |
 | [!UICONTROL Impressions] | 지정된 날짜 범위 동안의 광고 노출 횟수입니다. |
