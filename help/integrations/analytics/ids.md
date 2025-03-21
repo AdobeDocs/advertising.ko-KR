@@ -1,11 +1,11 @@
 ---
-title: ' [!DNL Analytics]이(가) 사용하는 Adobe Advertising ID'
-description: ' [!DNL Analytics]이(가) 사용하는 Adobe Advertising ID'
+title: ' [!DNL Analytics]에서 사용하는 Adobe Advertising ID'
+description: ' [!DNL Analytics]에서 사용하는 Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: dc99c7b6d1383fdc4a3b7fb59bfded0cec6b917a
+source-git-commit: 6afd0b726cde0770d4d063c2c55bb632956aaf51
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1776'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 *Advertising DSP 및[!DNL Advertising Search, Social, & Commerce]*&#x200B;에 적용 가능
 
-Adobe Advertising은 사이트 내 성능 추적에 *EF ID* 및 *AMO ID* ID를 사용합니다.
+Adobe Advertising에서는 현장 성능 추적에 *EF ID*&#x200B;와 *AMO ID*, 이렇게 두 개의 ID를 사용합니다.
 
-광고 노출 시 Adobe Advertising은 AMO ID 및 EF ID 값을 생성하여 저장합니다. 광고를 본 방문자가 광고를 클릭하지 않고 사이트에 들어오면 [!DNL Analytics]에서 [!DNL Analytics for Advertising] JavaScript 코드를 통해 Adobe Advertising에서 이 값을 호출합니다. 뷰스루 트래픽의 경우 [!DNL Analytics]에서 보조 ID(`SDID`)를 생성합니다. 보조 ID는 EF ID와 AMO ID를 [!DNL Analytics]에 연결하는 데 사용됩니다. 클릭스루 트래픽의 경우 이러한 ID는 `ef_id` 및 `s_kwcid`(AMO ID의 경우) 쿼리 문자열 매개 변수를 사용하여 랜딩 페이지 URL에 포함됩니다.
+광고 노출이 발생하면 Adobe Advertising에서 AMO ID 및 EF ID 값을 생성하고 저장합니다. 광고를 본 방문자가 광고를 클릭하지 않고 사이트로 이동하면 [!DNL Analytics]은(는) [!DNL Analytics for Advertising] JavaScript 코드를 통해 Adobe Advertising에서 이러한 값을 호출합니다. 뷰스루 트래픽의 경우 [!DNL Analytics]에서 보조 ID(`SDID`)를 생성합니다. 보조 ID는 EF ID와 AMO ID를 [!DNL Analytics]에 연결하는 데 사용됩니다. 클릭스루 트래픽의 경우 이러한 ID는 `ef_id` 및 `s_kwcid`(AMO ID의 경우) 쿼리 문자열 매개 변수를 사용하여 랜딩 페이지 URL에 포함됩니다.
 
 Adobe Advertising은 다음 기준을 사용하여 웹 사이트에 대한 클릭스루 또는 뷰스루 항목을 구별합니다.
 
@@ -30,7 +30,7 @@ Adobe Advertising은 다음 기준을 사용하여 웹 사이트에 대한 클�
 
 * 클릭스루 항목은 사이트 방문자가 사이트에 들어가기 전에 광고를 클릭할 때 캡처됩니다. 다음 조건 중 하나가 발생하면 [!DNL Analytics]에서 클릭스루를 캡처합니다.
 
-   * URL에는 Adobe Advertising으로 랜딩 페이지 URL에 추가된 EF ID 및 AMO ID가 포함되어 있습니다.
+   * 이 URL에는 Adobe Advertising에서 랜딩 페이지 URL에 추가한 EF ID와 AMO ID가 포함되어 있습니다.
 
    * URL에 추적 코드가 포함되어 있지 않지만 Adobe Advertising JavaScript 코드는 지난 2분 내에 클릭을 감지합니다.
 
@@ -42,9 +42,9 @@ Adobe Advertising은 다음 기준을 사용하여 웹 사이트에 대한 클�
 
 *그림 2: Adobe Advertising 클릭 URL 기반 [!DNL Analytics] 통합*
 
-## ADOBE ADVERTISING EF ID
+## Adobe Advertising
 
-EF ID는 Adobe Advertising이 활동을 온라인 클릭 또는 광고 노출과 연결하는 데 사용하는 고유한 토큰입니다. EF ID는 [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 [!DNL rVar](예약된 [!DNL eVar]) 차원(Adobe Advertising EF ID)에 저장되며 개별 브라우저 또는 장치 수준에서 각 광고 클릭 또는 노출을 추적합니다. EF ID는 주로 Adobe Advertising 내의 보고 및 입찰 최적화를 위해 [!DNL Analytics] 데이터를 Adobe Advertising에 보내는 키 역할을 합니다.
+EF ID는 Adobe Advertising이 활동을 온라인 클릭 또는 광고 노출과 연결하는 데 사용하는 고유한 토큰입니다. EF ID는 [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 [!DNL rVar]&#x200B;(예약된 [!DNL eVar]) 차원(Adobe Advertising EF ID)에 저장되며 개별 브라우저 또는 장치 수준에서 각 광고 클릭 또는 노출을 추적합니다. EF ID는 주로 Adobe Advertising 내에서 보고 및 입찰 최적화를 위해 [!DNL Analytics] 데이터를 Adobe Advertising에 보내는 키 역할을 합니다.
 
 ### EF ID 형식
 
@@ -60,7 +60,7 @@ EF ID는 Adobe Advertising이 활동을 온라인 클릭 또는 광고 노출과
 
 여기서:
 
-* `gclid`은(는) [!DNL Google Click ID](GCLID)입니다.
+* `gclid`은(는) [!DNL Google Click ID]&#x200B;(GCLID)입니다.
 * `s`은(는) 네트워크 유형입니다(검색의 경우 &quot;s&quot;).
 
 #### [!DNL Microsoft Advertising]개 검색 광고
@@ -71,7 +71,7 @@ EF ID는 Adobe Advertising이 활동을 온라인 클릭 또는 광고 노출과
 
 여기서:
 
-* `msclkid`은(는) [!DNL Microsoft Click ID](MSCLKID)입니다.
+* `msclkid`은(는) [!DNL Microsoft Click ID]&#x200B;(MSCLKID)입니다.
 * `s`은(는) 네트워크 유형입니다(검색의 경우 &quot;s&quot;).
 
 #### 다른 검색 엔진에 광고 및 검색 광고 표시
@@ -89,7 +89,7 @@ EF ID는 Adobe Advertising이 활동을 온라인 클릭 또는 광고 노출과
 * &lt;*채널 유형*>은(는) 클릭 또는 노출을 담당하는 채널 유형입니다.
 
    * DSP 디스플레이 광고 클릭용 `d`(디스플레이 클릭스루)
-   * DSP 디스플레이 광고 노출 횟수의 경우 `i`(디스플레이 뷰스루)
+   * DSP 디스플레이 광고(디스플레이 뷰스루)의 노출에 대한 `i`
    * `s`(검색 광고 클릭(검색 클릭스루)).
 
 예 `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
@@ -102,7 +102,7 @@ EF ID에는 Analysis Workspace의 500k 고유 식별자 제한이 적용됩니�
 
 ## ADOBE ADVERTISING AMO ID {#amo-id}
 
-AMO ID는 각 고유 광고 조합을 덜 세분화된 수준에서 추적하며, [!DNL Analytics] 데이터 분류와 Adobe Advertising에서 광고 지표(예: 노출 횟수, 클릭 수 및 비용)의 수집에 사용됩니다. AMO ID는 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 rVar 차원(AMO ID)에 저장되며 [!DNL Analytics]의 보고에만 사용됩니다.
+AMO ID는 덜 세분화된 수준에서 각각의 고유한 광고 조합을 추적하며, [!DNL Analytics] 데이터 분류와 Adobe Advertising의 광고 지표(노출 횟수, 클릭 수 및 비용 등) 수집에 사용됩니다. AMO ID는 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 rVar 차원(AMO ID)에 저장되며 [!DNL Analytics]의 보고에만 사용됩니다.
 
 AMO ID를 `s_kwcid`이라고도 하며, &quot;[!DNL squid]&quot;(으)로 발음되기도 합니다.
 
@@ -112,7 +112,7 @@ AMO ID를 `s_kwcid`이라고도 하며, &quot;[!DNL squid]&quot;(으)로 발음�
 
 * (권장) 서버측 삽입 기능이 구현된 경우.
 
-   * DSP 고객: 픽셀 서버는 최종 사용자가 Adobe Advertising 픽셀로 디스플레이 광고를 볼 때 s_kwcid 매개 변수를 랜딩 페이지 접미사에 자동으로 추가합니다.
+   * DSP 고객: 픽셀 서버는 최종 사용자가 Adobe Advertising 픽셀로 디스플레이 광고를 볼 때 랜딩 페이지 접미사에 s_kwcid 매개 변수를 자동으로 추가합니다.
 
    * 검색, 소셜 및 Commerce 고객:
 
@@ -146,9 +146,9 @@ AMO ID를 `s_kwcid`이라고도 하며, &quot;[!DNL squid]&quot;(으)로 발음�
 
 * `AC`은(는) 디스플레이 채널을 나타냅니다.
 
-* `{TM_AD_ID}`은(는) Adobe Advertising이 생성한 영숫자 광고 키입니다. Adobe Advertising에 대한 고유 식별자를 사용하며, 광고 엔터티 메타데이터를 읽을 수 있는 [!DNL Analytics] 차원으로 변환하는 키 역할을 합니다.
+* `{TM_AD_ID}`은(는) Adobe Advertising에서 생성한 영숫자 광고 키입니다. 광고의 고유 식별자를 사용하며, Adobe Advertising 엔티티 메타데이터를 읽을 수 있는 [!DNL Analytics] 차원으로 변환하는 데 중요한 역할을 합니다.
 
-* `{TM_PLACEMENT_ID}`은(는) Adobe Advertising이 생성한 영숫자 배치 키입니다. 배치에 고유한 식별자를 사용하며 Adobe Advertising 엔터티 메타데이터를 읽을 수 있는 [!DNL Analytics] 차원으로 변환하는 키 역할을 합니다.
+* `{TM_PLACEMENT_ID}`은(는) Adobe Advertising에서 생성한 영숫자 배치 키입니다. 배치에 고유한 식별자를 사용하며 Adobe Advertising 엔터티 메타데이터를 읽을 수 있는 [!DNL Analytics] 차원으로 변환하는 데 키 역할을 합니다.
 
 예제 AMO ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
@@ -160,7 +160,7 @@ AMO ID를 `s_kwcid`이라고도 하며, &quot;[!DNL squid]&quot;(으)로 발음�
 
 * `{userid}`은(는) 광고주에게 할당된 고유 사용자 ID입니다.
 
-* `{sid}`은(는) 광고주의 광고 네트워크 계정에 대한 숫자 ID로 대체됩니다. [!DNL Google Ads]의 경우 *3*, [!DNL Microsoft Advertising]의 경우 *10*, [!DNL Meta]의 경우 *45*, [!DNL Yahoo! Display Network]의 경우 *86*, [!DNL Naver]의 경우 *87*, [!DNL Baidu]의 경우 *87*, [!DNL Yandex]의 경우 *90*, [!DNL Yahoo! Japan Ads]의 경우 *94*, [!DNL Yahoo Native]의 경우 *105*(더 이상 사용되지 않음) 또는 *1062 [!DNL Pinterest]용}(더 이상 사용되지 않음)*
+* `{sid}`은(는) 광고주의 광고 네트워크 계정에 대한 숫자 ID로 대체됩니다. [!DNL Google Ads]의 경우 *3*, [!DNL Microsoft Advertising]의 경우 *10*, [!DNL Meta]의 경우 *45*, [!DNL Yahoo! Display Network]의 경우 *86*, [!DNL Naver]의 경우 *87*, [!DNL Baidu]의 경우 *87*, [!DNL Yandex]의 경우 *90*, [!DNL Yahoo! Japan Ads]의 경우 *94*, [!DNL Yahoo Native]의 경우 *105*(더 이상 사용되지 않음) 또는 [!DNL Pinterest]용 *106*(더 이상 사용되지 않음).
 
 ##### [!DNL Baidu]
 
@@ -234,7 +234,9 @@ where:
 
 >[!NOTE]
 >
->성과 최대 캠페인이 포함된 모든 계정은 위의 형식으로 마이그레이션되었습니다. 다른 캠페인 유형을 사용하는 계정의 경우, 랜딩 페이지 접미사는 2025년 초까지 새로운 s_kwcid 형식을 사용하도록 마이그레이션됩니다. 당분간은 다음과 같은 레거시 형식이 여전히 작동합니다.
+>성과 최대 캠페인 및 [!UICONTROL Auto Upload] 추적 옵션이 있는 모든 계정의 경우 랜딩 페이지 접미사가 위의 형식으로 마이그레이션되었습니다. [!UICONTROL Auto Upload] 추적 옵션이 있는 다른 캠페인 유형의 경우, 랜딩 페이지 접미사는 2025년 초까지 위의 s_kwcid 형식을 사용하도록 마이그레이션됩니다.
+> 새 형식으로 이미 마이그레이션되지 않은 [!UICONTROL Auto Upload] 추적 옵션이 없는 캠페인이 있는 계정의 경우 위의 형식을 포함하도록 각 랜딩 페이지 접미사를 수동으로 업데이트하십시오.
+>당분간은 다음과 같은 레거시 형식이 여전히 작동합니다.
 >* 캠페인 검색:
 >  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* 쇼핑 캠페인([!DNL Microsoft Merchant Center] 사용):
@@ -267,13 +269,13 @@ where:
 
 Analytics 보고서에서 [!UICONTROL AMO ID] 차원을 검색하고 [!UICONTROL AMO ID Instances] 지표를 사용하여 AMO ID 데이터를 찾을 수 있습니다. [!UICONTROL AMO ID] 차원은 캡처된 모든 AMO ID 값을 포함하는 반면, [!UICONTROL AMO ID Instances] 지표는 사이트에서 AMO ID 값을 캡처한 빈도를 나타냅니다. 예를 들어 동일한 검색 광고를 4번 클릭했지만 Analytics가 7개의 사이트 항목을 추적한 경우 [!UICONTROL AMO ID Instances]은(는) 7개가 되고 [!UICONTROL Clicks]은(는) 4개가 됩니다.
 
-[!DNL Analytics] 내의 보고 또는 감사의 경우 가장 좋은 방법은 해당 인스턴스와 함께 AMO ID를 사용하는 것입니다. 자세한 내용은 &quot;[!DNL Analytics]과(와) Adobe Advertising 간의 예상 데이터 분산&quot;에서 &quot; [!DNL Analytics for Advertising]](data-variances.md#data-validation)에 대한 [클릭스루 데이터 유효성 검사&quot;를 참조하십시오.
+[!DNL Analytics] 내의 보고 또는 감사의 경우 가장 좋은 방법은 해당 인스턴스와 함께 AMO ID를 사용하는 것입니다. 자세한 내용은 &quot;[!DNL Analytics]과(와) Adobe Advertising 간의 예상 데이터 차이&quot;에서 &quot; [!DNL Analytics for Advertising]](data-variances.md#data-validation)에 대한 [클릭스루 데이터 유효성 검사&quot;를 참조하십시오.
 
 ## Analytics 분류 정보
 
-[!DNL Analytics]에서 [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)는 계정, 캠페인 또는 광고와 같은 지정된 추적 코드에 대한 메타데이터입니다. Adobe Advertising은 분류를 사용하여 원시 Adobe Advertising 데이터를 분류하므로 보고서를 생성할 때 광고 유형이나 캠페인별로 데이터를 다양한 방식으로 표시할 수 있습니다. 분류는 [!DNL Analytics]에서 Adobe Advertising 보고의 기초가 되며 [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] 및 [!UICONTROL AMO Clicks]과(와) 같은 AMO 지표와 함께 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] 및 [!UICONTROL Revenue]과(와) 같은 사용자 지정 및 표준 온사이트 이벤트에서도 사용할 수 있습니다.
+[!DNL Analytics]에서 [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)는 계정, 캠페인 또는 광고와 같은 지정된 추적 코드에 대한 메타데이터입니다. Adobe Advertising은 분류를 사용하여 원시 Adobe Advertising 데이터를 분류하므로 보고서를 생성할 때 광고 유형이나 캠페인별로 데이터를 다양한 방식으로 표시할 수 있습니다. 분류는 [!DNL Analytics]에서 Adobe Advertising 보고의 기초가 되며 [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] 및 [!UICONTROL AMO Clicks]과(와) 같은 AMO 지표와 함께 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] 및 [!UICONTROL Revenue]과(와) 같은 사용자 지정 및 표준 온사이트 이벤트에서 사용할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
 >* [개요 [!DNL Analytics for Advertising]](overview.md)
->* [과(와) Adobe Advertising  [!DNL Analytics]  사이의 예상 데이터 분산](data-variances.md)
+>* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) ](data-variances.md)
