@@ -3,7 +3,7 @@ title: 배치 편집
 description: 배치를 편집하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->하나 이상의 배치 또는 캠페인의 모든 배치에 대한 설정을 XLSX(Excel 스프레드시트) 형식으로 다운로드하고, 키 필드의 제한된 하위 집합을 변경하고, 모두 DSP에 다시 업로드할 수도 있습니다. &quot;[일괄 시트를 사용하여 배치 설정 검토 및 편집](placement-qa.md)&quot;을(를) 참조하십시오.
+>하나 이상의 배치에 대한 설정 또는 캠페인의 모든 배치에 대한 설정을 XLSX(Excel 스프레드시트) 형식으로 다운로드하고, 대부분의 필드를 변경하고, 모두 DSP으로 한 번에 업로드할 수도 있습니다. &quot;[일괄 시트를 사용하여 배치 설정 검토 및 편집](placement-qa.md)&quot;을(를) 참조하십시오.
 
 ## 키 배치 설정을 빠르게 편집 {#placement-quick-edit}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 1. 하위 메뉴에서 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
 1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**&#x200B;을(를) 클릭합니다.
 1. 사용 가능한 [배치 설정](placement-settings.md): **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** 및 **[!UICONTROL Budget]**&#x200B;을(를) 편집합니다.
-1. 을 누르십시오 **[!UICONTROL Apply]**.
+1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
 ## 단일 배치 편집
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Update placement]**&#x200B;을(를) 클릭합니다.
 
-## 여러 배치 편집 {#edit-multiple-placements}
+## 여러 배치에 대해 동일한 변경 {#edit-multiple-placements}
 
 선택한 모든 배치에 동일한 변경 내용을 적용하려는 경우에만 이 옵션을 사용합니다.
 
@@ -73,11 +73,11 @@ ht-degree: 0%
 
       * **추가**(기존 값을 유지하고 새 값을 추가하려면)
 
-      * **지우기** (기존 값을 모두 제거)
+      * **지우기**(기존의 모든 값을 제거하려면)
 
-      * **감소** (기존 값을 지정된 양만큼 줄이기)
+      * **감소**(기존 값을 지정된 양만큼 감소)
 
-      * **증가** (기존 값을 지정된 양만큼 증가시키기 위해)
+      * **증가**(기존 값을 지정된 양만큼 증가)
 
       * **덮어쓰기**(기존 값을 새 값으로 변경)
 
