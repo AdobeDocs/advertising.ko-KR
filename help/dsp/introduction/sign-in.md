@@ -2,7 +2,8 @@
 title: DSP에 로그인
 description: DSP에 로그인하는 방법에 대해 알아봅니다.
 feature: DSP Introduction
-source-git-commit: b3393c6b0cf3df707793a91aa6a3e8c844f75fb2
+exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
+source-git-commit: 4bc35abb18db857d12ff8620b18d60d1198b569a
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # Adobe Advertising DSP에 로그인
 
-Adobe Advertising DSP이 로그인 인증을 위해 Adobe Identity Management 서비스(IMS)로 전환하고 있습니다. IMS는 Real-Time Customer Data Platform, Customer Journey Analytics, Target 및 Analytics를 포함하여 IMS를 지원하는 모든 [!DNL Adobe] 제품에 대한 SSO(Single Sign-On) 액세스를 제공합니다. 변경 사항:
+Adobe Advertising DSP이 로그인 인증을 위해 Adobe Identity Management 서비스(IMS)로 전환하고 있습니다. IMS는 Real-Time Customer Data Platform, Customer Journey Analytics, Target 및 Analytics를 포함하여 IMS를 지원하는 모든 [!DNL Adobe] 제품에 SSO(Single Sign-On) 액세스를 제공합니다. 변경 사항:
 
 * [!DNL Adobe ID] 하나를 사용하여 Experience Cloud 로그인 페이지 또는 기존 DSP 로그인 페이지에서 [!DNL Adobe] 제품 간에 로그인할 수 있습니다. [!DNL Adobe ID]에서 사용자 프로필 관리를 제공합니다. 향후 릴리스에서는 상단 메뉴에서 DSP 계정, IMS 조직 계정 및 [!DNL Adobe] 제품을 변경할 수 있습니다.
 
