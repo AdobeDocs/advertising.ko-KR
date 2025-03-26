@@ -2,7 +2,7 @@
 title: DSP에 로그인
 description: DSP에 로그인하는 방법에 대해 알아봅니다.
 feature: DSP Introduction
-source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
+source-git-commit: d90270666dfc587097088e94a2ee4f0c353c9c70
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -59,9 +59,7 @@ Adobe Advertising DSP이 로그인 인증을 위해 Adobe Identity Management �
 
 #### Adobe IMS 계정을 사용하여 로그인한 후 adobe.advertising.com으로 다시 리디렉션되지 않습니다.
 
-사용 중인 이메일이 IMS 조직에 추가되었는지 IMS 조직 관리자에게 문의하십시오.
-
-관리자가 사용자가 IMS 조직에 추가된 것을 확인한 경우 Adobe 계정 팀에 DSP을 사용할 계정을 프로비저닝하도록 요청합니다.
+사용 중인 이메일이 IMS 조직에 추가되었는지 IMS 조직 관리자에게 문의하십시오. 관리자가 사용자가 IMS 조직에 추가된 것을 확인한 경우 Adobe 계정 팀에 DSP을 사용할 계정을 프로비저닝하도록 요청합니다.
 
 그동안 기존 DSP 자격 증명을 계속 사용할 수 있습니다.
 
@@ -69,7 +67,7 @@ Adobe Advertising DSP이 로그인 인증을 위해 Adobe Identity Management �
 
 1. [experience.adobe.com](https://experience.adobe.com)&#x200B;(으)로 이동하여 로그아웃합니다.
 
-[advertising.adobe.com](https://advertising.adobe.com)&#x200B;(으)로 이동하여 올바른 전자 메일 ID로 로그인합니다.
+1. [advertising.adobe.com](https://advertising.adobe.com)&#x200B;(으)로 이동하여 올바른 전자 메일 ID로 로그인합니다.
 
 #### 내 [!DNL Adobe] IMS 계정과 DSP 계정이 다른 전자 메일로 등록되었습니다. [!DNL Adobe] IMS 계정을 사용하여 로그인하려면 어떻게 해야 합니까?
 
