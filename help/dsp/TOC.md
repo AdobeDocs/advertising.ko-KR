@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 5a667f353d436870e6d22422f64ae16f886d7bc8
+source-git-commit: edb62b97e6b03efbabc051c8ec2d7326b291e085
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '938'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 3%
 -->
 
 + [새로운 기능](/help/dsp/home.md)
++ [Adobe Advertising DSP에 로그인](/help/dsp/introduction/sign-in.md)
 + {#introduction} 소개
    + [Adobe Advertising DSP 소개](/help/dsp/introduction/dsp-about.md)
    + 주요 기능 {#features}
@@ -34,10 +35,10 @@ ht-degree: 3%
    + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)
-+ Campaign Management {#campaign-management}
-   + [Campaign Management 구조 개요](/help/dsp/campaign-management/campaign-management-overview.md)
++ 캠페인 관리 {#campaign-management}
+   + [캠페인 관리 구조 개요](/help/dsp/campaign-management/campaign-management-overview.md)
    + 캠페인 {#campaigns}
-      + [Campaign Management 정보](/help/dsp/campaign-management/campaigns/campaign-about.md)
+      + [캠페인 관리 기본 정보](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [캠페인 만들기](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [캠페인 편집](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [캠페인 복제](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
@@ -96,9 +97,9 @@ ht-degree: 3%
          + [프리롤 광고 설정](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [지원되는 광고 유형에 대한 사양](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Campaign Management 보기 {#campaign-reports}의 성능 보고서
-      + [Campaign Management 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-      + [Campaign Management 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md)
+   + 캠페인 관리 보기 {#campaign-reports}의 성과 보고서
+      + [캠페인 관리 보기의 성과 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [캠페인 관리 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [배치에 대한 사이트, 광고, 빈도 및 재고 세부 정보 보기](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [배치 진단 보고서 보기](/help/dsp/campaign-management/reports/placement-diagnostics.md)
@@ -106,7 +107,7 @@ ht-degree: 3%
       + [Campaign 데이터 보기 관리](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
    + [DSP 매크로](/help/dsp/campaign-management/macros.md)
    + [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Campaign Management에 대한 FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [Campaign 관리에 대한 FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
    + [범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 + 최적화 {#optimization}
    + [ [!DNL DSP] 캠페인을 최적화하는 방법](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
