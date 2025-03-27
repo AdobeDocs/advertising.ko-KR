@@ -3,9 +3,9 @@ title: ' [!DNL Analytics]에서 사용하는 Adobe Advertising ID'
 description: ' [!DNL Analytics]에서 사용하는 Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 6afd0b726cde0770d4d063c2c55bb632956aaf51
+source-git-commit: 474eff3bd7704d79bbaf372480676207252a74c4
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,6 @@ where:
 
 >[!NOTE]
 >
->성과 최대 캠페인 및 [!UICONTROL Auto Upload] 추적 옵션이 있는 모든 계정의 경우 랜딩 페이지 접미사가 위의 형식으로 마이그레이션되었습니다. [!UICONTROL Auto Upload] 추적 옵션이 있는 다른 캠페인 유형의 경우, 랜딩 페이지 접미사는 2025년 초까지 위의 s_kwcid 형식을 사용하도록 마이그레이션됩니다.
 > 새 형식으로 이미 마이그레이션되지 않은 [!UICONTROL Auto Upload] 추적 옵션이 없는 캠페인이 있는 계정의 경우 위의 형식을 포함하도록 각 랜딩 페이지 접미사를 수동으로 업데이트하십시오.
 >당분간은 다음과 같은 레거시 형식이 여전히 작동합니다.
 >* 캠페인 검색:
