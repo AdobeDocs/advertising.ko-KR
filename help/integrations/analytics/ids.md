@@ -3,7 +3,7 @@ title: ' [!DNL Analytics]에서 사용하는 Adobe Advertising ID'
 description: ' [!DNL Analytics]에서 사용하는 Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 474eff3bd7704d79bbaf372480676207252a74c4
+source-git-commit: 19d96e6016c2d170c2a08091249c024ee92e5e64
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 0%
@@ -164,7 +164,7 @@ AMO ID를 `s_kwcid`이라고도 하며, &quot;[!DNL squid]&quot;(으)로 발음�
 
 ##### [!DNL Baidu]
 
-`s_kwcid=AL!{userid}!{sid}!{creative}!{placement}!{keywordid}`
+`s_kwcid=AL!{userid}!{88}!{creative}!{placement}!{keywordid}`
 
 여기서:
 
@@ -178,11 +178,11 @@ AMO ID를 `s_kwcid`이라고도 하며, &quot;[!DNL squid]&quot;(으)로 발음�
 
 * 성과 최대 캠페인 및 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준 보고를 지원하는 최신 AMO ID 형식을 사용하는 계정:
 
-  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+  `s_kwcid=AL!{userid}!{3}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
 * 다른 모든 계정:
 
-  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+  `s_kwcid=AL!{userid}!{3}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 여기서:
 
@@ -207,7 +207,7 @@ AMO ID를 `s_kwcid`이라고도 하며, &quot;[!DNL squid]&quot;(으)로 발음�
 
 ##### [!DNL Meta]
 
-`s_kwcid=AL!{userid}!{sid}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
+`s_kwcid=AL!{userid}!{45}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
 
 where:
 
@@ -223,7 +223,7 @@ where:
 
 * 모든 캠페인 유형:
 
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+  `s_kwcid=AL!{userid}!{10}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 
 여기서:
 
@@ -237,15 +237,15 @@ where:
 > 새 형식으로 이미 마이그레이션되지 않은 [!UICONTROL Auto Upload] 추적 옵션이 없는 캠페인이 있는 계정의 경우 위의 형식을 포함하도록 각 랜딩 페이지 접미사를 수동으로 업데이트하십시오.
 >당분간은 다음과 같은 레거시 형식이 여전히 작동합니다.
 >* 캠페인 검색:
->  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  `s_kwcid=AL!{userid}!{10}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* 쇼핑 캠페인([!DNL Microsoft Merchant Center] 사용):
->  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+>  `s_kwcid=AL!{userid}!{10}!{AdId}!{CriterionId}`
 >* 대상 네트워크 캠페인:
->  `s_kwcid=AL!{userid}!{sid}!{AdId}`
+>  `s_kwcid=AL!{userid}!{10}!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
-`s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{network}!{keyword}`
+`s_kwcid=AL!{userid}!{94}!{creative}!{matchtype}!{network}!{keyword}`
 
 여기서:
 
@@ -256,7 +256,7 @@ where:
 
 ##### [!DNL Yandex]
 
-`s_kwcid=AL!{userid}!{sid}!{ad_id}!{source_type}!!!{phrase_id}`
+`s_kwcid=AL!{userid}!{90}!{ad_id}!{source_type}!!!{phrase_id}`
 
 여기서:
 
