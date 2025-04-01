@@ -3,7 +3,7 @@ title: ' [!DNL Microsoft Advertising]에 대한 클릭 추적 형식'
 description: ' [!DNL Microsoft Advertising] 계정의 클릭 추적 형식에 대해 알아봅니다.'
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>`은(는) Adobe Advertising 내 광고주의 고유 ID에 대한 변수입니다.
+>* `<advertiser_ID>`은(는) Adobe Advertising 내의 광고주 고유 ID에 대한 변수입니다.
 >
 >* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `<advertiser_ID>` 뒤의 `cq?`을(를) `c?`(으)로 바꾸십시오.
 >
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>`은(는) Adobe Advertising 내 광고주의 고유 ID에 대한 변수입니다.
+>* `<advertiser_ID>`은(는) Adobe Advertising 내의 광고주 고유 ID에 대한 변수입니다.
 >
 >* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `<advertiser_ID>` 뒤의 `cq?`을(를) `c?`(으)로 바꾸십시오.
 >
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>`은(는) Adobe Advertising 내 광고주의 고유 ID에 대한 변수입니다.
+>* `<advertiser_ID>`은(는) Adobe Advertising 내의 광고주 고유 ID에 대한 변수입니다.
 >
 >* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `<advertiser_ID>` 뒤의 `cq?`을(를) `c?`(으)로 바꾸십시오.
 >
@@ -86,7 +86,7 @@ Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 �
 
 * 광고주가 Adobe Analytics 통합을 사용하는 경우 접미사에 다음을 포함해야 합니다.
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}`
 
 * 광고주에 Adobe Analytics 통합이 없는 경우 접미사에 다음 내용이 포함되어야 합니다.
 
@@ -98,7 +98,7 @@ Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 �
 
 * 광고주가 Adobe Analytics 통합을 사용하는 경우 접미사에 다음을 포함해야 합니다.
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 
 * 광고주에 Adobe Analytics 통합이 없는 경우 접미사에 다음 내용이 포함되어야 합니다.
 
@@ -106,5 +106,5 @@ Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 �
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertising 전환 추적 서비스의 클릭 추적 URL 형식 정보](formats-click-tracking-about.md)
+>* [Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](formats-click-tracking-about.md)
 >* [AMO ID 형식](/help/integrations/analytics/ids.md#amo-id-formats)

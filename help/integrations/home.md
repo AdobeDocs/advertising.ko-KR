@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: d4be329355d21b90179e11865bb4b865f97f29ee
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2026년 3월 26일 | [!DNL Adobe Analytics for Advertising] | (Search, Social 및 Commerce이 있는 광고주; [!DNL Microsoft Advertising] 계정; [!DNL Adobe Analytics for Advertising]) 추적 옵션이 [!UICONTROL Auto Upload]인 계정의 경우, 모든 캠페인 유형에 대한 랜딩 페이지 접미사에 있는 AMO ID 매개 변수의 형식이 최신 형식으로 업데이트되었습니다. 이전에는 대부분의 계정에 대한 성과 최대 캠페인이 새 형식으로 마이그레이션되었습니다.<br><br>아직 새 형식으로 마이그레이션되지 않은 [!UICONTROL Auto Upload] 추적 옵션이 없는 계정의 경우 새 AMO ID 형식을 포함하도록 각 랜딩 페이지 접미사를 수동으로 업데이트해야 합니다.<br><br>현재 형식: `s_kwcid=AL!{userid}!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | &quot;[개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)&quot; 및 [AMO ID 형식](/help/integrations/analytics/ids.md#amo-id-formats)을(를) 참조하십시오.&quot; |
+| 2026년 3월 26일 | [!DNL Adobe Analytics for Advertising] | (Search, Social 및 Commerce이 있는 광고주; [!DNL Microsoft Advertising] 계정; [!DNL Adobe Analytics for Advertising]) 추적 옵션이 [!UICONTROL Auto Upload]인 계정의 경우, 모든 캠페인 유형에 대한 랜딩 페이지 접미사에 있는 AMO ID 매개 변수의 형식이 최신 형식으로 업데이트되었습니다. 이전에는 대부분의 계정에 대한 성과 최대 캠페인이 새 형식으로 마이그레이션되었습니다.<br><br>아직 새 형식으로 마이그레이션되지 않은 [!UICONTROL Auto Upload] 추적 옵션이 없는 계정의 경우 새 AMO ID 형식을 포함하도록 각 랜딩 페이지 접미사를 수동으로 업데이트해야 합니다.<br><br>현재 형식: `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | &quot;[개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)&quot; 및 [AMO ID 형식](/help/integrations/analytics/ids.md#amo-id-formats)을(를) 참조하십시오.&quot; |
 | 2024년 10월 29일 릴리스 | [!DNL Adobe Analytics for Advertising] | (성과 최대 캠페인 [!DNL Adobe Analytics for Advertising] 및 [!DNL Microsoft Advertising]개를 사용하는 광고주) 이제 광고와 키워드가 포함되지 않은 성과 최대 캠페인의 추적 URL에서 새 AMO ID([!DNL s_kwcid]) 매개 변수를 구현할 때 성과 최대 캠페인에 대한 에셋 그룹 수준 데이터를 Adobe Analytics에서 사용할 수 있습니다. 성과 최대 캠페인이 있는 대부분의 계정에 대한 추적이 이미 새 형식으로 마이그레이션되었습니다. [!UICONTROL Auto Upload] 추적 옵션이 없는 성과 최대 캠페인이 이미 새 형식으로 마이그레이션되지 않은 계정의 경우, 새 AMO ID 형식을 포함하도록 각 랜딩 페이지 접미사를 수동으로 업데이트해야 합니다.성과 최대 캠페인에 대한 <br><br>Adobe Analytics 데이터는 검색, 소셜 및 Commerce에서도 사용할 수 있습니다. | 새 [AMO ID 형식](/help/integrations/analytics/ids.md#amo-id-formats) 및 [추적 URL에 매개 변수를 추가하는 시기와 방법](/help/integrations/analytics/ids.md#amo-id-implement)을 참조하세요. |
 | 2024년 11월 13일 | [!DNL Analytics for Advertising] | ([!DNL Analytics for Advertising] 및 Adobe Customer Journey Analytics이 있는 광고주) 예약된 변수를 사용하여 AMO ID 및 EF ID를 캡처하는 경우 가능한 한 빨리 AMO ID 및 EF ID에 대한 예약된 변수를 표준 [!DNL eVars]에 복사하여 Adobe Advertising과 Adobe Customer Journey Analytics 간의 향후 통합을 준비할 수 있습니다. 이를 통해 작업을 완료하는 즉시 AMO ID 및 EF ID에 대한 내역 데이터를 수집할 수 있으며 내역 데이터는 나중에 사용할 수 있습니다. 예약된 변수를 사용하며 이 작업을 완료해야 하는 경우 Adobe 계정 팀에 알려줍니다. | &quot;[Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집](/help/integrations/analytics/rvars-to-evars.md)&quot;을 참조하십시오. |
 | 2023년 12월 16일 | 도움말 | 새 문서에서는 검색, 소셜 및 Commerce의 광고에서 클릭스루 트래픽에 대해 [!DNL Target]에서 A/B 테스트를 설정하는 방법과 [!DNL Analytics]에서 테스트를 측정하고 시각화하는 방법에 대한 팁을 설명합니다. | &quot;[Adobe Target에서 검색, 소셜 및 Commerce 광고에 대한 A/B 테스트 구성](/help/integrations/target/ab-tests-search.md)&quot;을 참조하십시오. |

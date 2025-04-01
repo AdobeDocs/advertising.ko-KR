@@ -3,7 +3,7 @@ title: ' [!DNL Google Ads]에 대한 클릭 추적 형식'
 description: ' [!DNL Google Ads] 계정의 클릭 추적 형식에 대해 알아봅니다.'
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>`은(는) Adobe Advertising 내 광고주의 고유 ID에 대한 변수입니다.
+>* `<advertiser_ID>`은(는) Adobe Advertising 내의 광고주 고유 ID에 대한 변수입니다.
 >
 >* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `<advertiser_ID>` 뒤의 `cq?`을(를) `c?`(으)로 바꾸십시오.
 >
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* `<advertiser_ID>`은(는) Adobe Advertising 내 광고주의 고유 ID에 대한 변수입니다.
+>* `<advertiser_ID>`은(는) Adobe Advertising 내의 광고주 고유 ID에 대한 변수입니다.
 >
 >* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `<advertiser_ID>` 뒤의 `cq?`을(를) `c?`(으)로 바꾸십시오.
 >
@@ -72,13 +72,13 @@ Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 �
 
    * 성과 최대 캠페인, 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준 보고를 지원하는 최신 [AMO ID 형식](/help/integrations/analytics/ids.md#amo-id-formats)(`s_kwcid`부터 시작)을 사용하는 [!DNL Google Ads] 계정:
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
      계정에 서버측 AMO ID 구현이 있고 계정 또는 캠페인 설정 &quot;[!UICONTROL Auto Upload]&quot;이(가) 활성화되어 있으면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 수동으로 추가해야 합니다. &quot; [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)에서 사용하는 [Adobe Advertising ID&quot;를 참조하십시오.&quot;
 
    * 다른 모든 [!DNL Google Ads] 계정:
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * 광고주에 Adobe Analytics 통합이 없는 경우 접미사에 다음 내용이 포함되어야 합니다.
 
@@ -92,5 +92,5 @@ Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 �
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertising 전환 추적 서비스의 클릭 추적 URL 형식 정보](formats-click-tracking-about.md)
+>* [Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](formats-click-tracking-about.md)
 >* [AMO ID 형식](/help/integrations/analytics/ids.md#amo-id-formats)
