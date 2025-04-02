@@ -2,7 +2,7 @@
 title: 도움말 보기
 description: 온라인 도움말 및 커뮤니티 리소스를 보는 방법과 기술 지원을 받는 방법을 알아봅니다.
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: 8a6755041218ab795c0aaa8b875a34d85b3582b8
+source-git-commit: a900c0ef919c36810ce115b51dc432c0008f3419
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 * Adobe 계정 팀에 문의하십시오.
 
-* 상단 메뉴에서 ![도움말](/help/search-social-commerce/assets/help-main-menu.png "도움말") > **[!UICONTROL Provide Feedback]**&#x200B;을 클릭하고 메시지를 입력한 다음 **[!UICONTROL Send Feedback]**&#x200B;을(를) 클릭합니다. |
+* 상단 메뉴에서 ![도움말](/help/search-social-commerce/assets/help-main-menu.png "도움말") > **[!UICONTROL Provide Feedback]**&#x200B;을 클릭하고 메시지를 입력한 다음 **[!UICONTROL Send Feedback]**&#x200B;을(를) 클릭합니다.
 
 문제, 관련 데이터 및 수행한 사전 문제 해결에 대한 정보를 재현하는 자세한 단계를 제공합니다. Adobe 계정 팀에 문제를 보고하는 경우 브라우저 이름과 버전도 포함하십시오.
 
