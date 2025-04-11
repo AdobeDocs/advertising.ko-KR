@@ -2,9 +2,9 @@
 title: Adobe Target에서 Adobe Advertising DSP 광고에 대한 A/B 테스트 구성
 description: ' [!DNL Target] 에서 DSP 광고를 위해 A/B 테스트를 설정하는 방법에 대해 알아봅니다.'
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 4722d7c280eeb066bff5597d3956690d42044dcd
+source-git-commit: e8c8316418acf4a8c62beabcae2c1b7388dbc297
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Adobe Advertising 및 Adobe Target을 사용하면 마케터가 유료 미디어
 
 Flash Talking 또는 Google Campaign Manager 360 내에서 AMO ID 변수를 캡처하는 데 필요한 매크로를 포함하도록 각 광고의 클릭스루 URL을 수동으로 업데이트합니다. AMO ID 변수는 클릭 데이터를 Adobe Analytics으로 전송하고 A/B 테스트를 위한 배치 키를 공유하는 데 사용됩니다. 지침은 다음 페이지를 참조하십시오.
 
-* [추가 [!DNL Analytics for Advertising] 매크로를  [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)에 추가합니다. **참고:** 조직에서 [!DNL Flashtalking]과(와) 직접 파트너 관계를 맺고 `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`의 [!DNL Flashtalking] 지원 설명서에 따라 데이터 전달 매크로를 대신 사용하는 경우에는 이 절차가 필요하지 않습니다.
+* [추가 [!DNL Analytics for Advertising] 매크로를  [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)에 추가합니다. **참고:** 조직에서 [!DNL Flashtalking]과(와) 직접 파트너 관계를 맺고 데이터 전달 매크로를 사용하여 `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`의 [!DNL Flashtalking] 지원 설명서에 따라 클릭 데이터를 수집하는 경우에는 이 절차가 필요하지 않습니다.
 
 * [ [!DNL Google Campaign Manager 360] 광고 태그에  [!DNL Analytics for Advertising] 매크로 추가](/help/integrations/analytics/macros-google-campaign-manager.md)
 
