@@ -3,7 +3,7 @@ title: ' [!DNL Flashtalking] 광고 태그에  [!DNL Analytics for Advertising] 
 description: ' [!DNL Flashtalking] 광고 태그에  [!DNL Analytics for Advertising] 매크로를 추가하는 이유와 방법을 알아봅니다.'
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: e8c8316418acf4a8c62beabcae2c1b7388dbc297
+source-git-commit: bbb5feaf96a9be28e112544e34f11fc8f7015946
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%

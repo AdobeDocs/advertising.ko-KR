@@ -2,7 +2,7 @@
 title: Adobe Target에서 Adobe Advertising DSP 광고에 대한 A/B 테스트 구성
 description: ' [!DNL Target] 에서 DSP 광고를 위해 A/B 테스트를 설정하는 방법에 대해 알아봅니다.'
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: e8c8316418acf4a8c62beabcae2c1b7388dbc297
+source-git-commit: bbb5feaf96a9be28e112544e34f11fc8f7015946
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 0%
