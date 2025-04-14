@@ -3,9 +3,9 @@ title: ' [!DNL Analytics]에서 사용하는 Adobe Advertising ID'
 description: ' [!DNL Analytics]에서 사용하는 Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 8d9bd2aeed8fa7c6d34be9dbb813b35205ba72b4
+source-git-commit: a69bef9d249514f5c494cff8d706b9df792eaf23
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1762'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ AMO ID를 `s_kwcid`이라고도 하며, &quot;[!DNL squid]&quot;(으)로 발음�
 
    * DSP 고객: [JavaScript 코드](javascript.md)는 자동으로 클릭스루 및 뷰스루를 기록합니다. 브라우저가 타사 쿠키를 지원하지 않는 경우에도 다음 광고 유형에 대한 클릭 기반 전환을 추적할 수 있습니다.
 
-      * [!DNL Flashtalking] 광고 태그의 경우 &quot;[추가 [!DNL Analytics for Advertising] 추가 [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)&quot;에 따라 추가 매크로를 수동으로 삽입하십시오. **참고:** 조직에서 [!DNL Flashtalking]과(와) 직접 파트너 관계를 맺고 데이터 전달 매크로를 사용하여 `https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros`의 [!DNL Flashtalking] 지원 설명서에 따라 `s_kwcid` 및 `ef_id` 추적 매개 변수를 추적하는 경우에는 이 절차가 필요하지 않습니다.
+      * [!DNL Flashtalking] 광고 태그의 경우 &quot;[추가 [!DNL Analytics for Advertising] 추가 [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)&quot;에 따라 추가 매크로를 수동으로 삽입하십시오. **참고:** 조직에서 [!DNL Flashtalking]과(와) 직접 파트너 관계를 맺고 데이터 전달 매크로를 사용하여 [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)에 있는 [!DNL Flashtalking] 지원 설명서별로 `s_kwcid` 및 `ef_id` 추적 매개 변수를 추적하는 경우에는 이 절차가 필요하지 않습니다.
 
       * [!DNL Google Campaign Manager 360] 광고 태그의 경우 &quot;[추가 [!DNL Analytics for Advertising] 추가 [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;에 따라 추가 매크로를 수동으로 삽입하십시오.
 
