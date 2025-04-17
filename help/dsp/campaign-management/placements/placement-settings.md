@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
+source-git-commit: 6c4e5c3b114684dc360c1c2a35c90f07a8df11bc
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4039'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 **[!UICONTROL Inventory Sources]:** 대상으로 포함하거나 제외할 인벤토리 소스입니다. 대부분의 배치 유형에는 기본적으로 모든 재고 유형과 각 유형의 모든 소스가 포함됩니다. [!DNL Roku] 배치의 경우 인벤토리 유형 및 소스를 지정해야 합니다. 다음 유형의 재고 중에서 선택할 수 있습니다.
 
-* [!UICONTROL Public]: (Roku를 제외한 모든 배치 유형) DSP이 액세스할 수 있는 모든 열려 있는 exchange 인벤토리를 포함합니다. 공개 인벤토리를 포함 및 제외할 수 있습니다.
+* [!UICONTROL Public]: (Roku를 제외한 모든 배치 유형) DSP이 액세스할 수 있는 모든 열려 있는 exchange 인벤토리입니다. 공개 인벤토리를 포함 및 제외할 수 있습니다.
 
   소스 또는 피드별로 목록을 볼 수 있습니다. 피드별로 목록을 볼 때 피드 이름, 피드 키 또는 선택한 특성 태그로 검색할 수 있습니다.
 
@@ -237,7 +237,7 @@ ht-degree: 0%
 >
 >성과 캠페인의 경우 가장 좋은 방법은 *[!UICONTROL All Sites]*&#x200B;을(를) 선택하는 것입니다.
 
-**[!UICONTROL Site or App Categories]:**(선택 사항, **[!UICONTROL Paste list of targeted sites]**&#x200B;이(가) *[!UICONTROL Off]*&#x200B;인 경우 사용 가능) 대상으로 포함하거나 제외할 선택된 사이트 계층 내의 사이트 범주(둘 다 아님). 제목을 기반으로 DSP이 매핑한 세로 사이트 목록 중에서 선택합니다.
+**[!UICONTROL Site or App Categories]:**(선택 사항, **[!UICONTROL Paste list of targeted sites]**&#x200B;이(가) *[!UICONTROL Off]*&#x200B;인 경우 사용 가능) 대상으로 포함하거나 제외할 선택된 사이트 계층 내의 사이트 범주(둘 다 아님). DSP이 제목을 기반으로 매핑한 세로 사이트 목록 중에서 선택합니다.
 
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 포함 또는 제외할 사이트 범주를 지정합니다.
@@ -268,7 +268,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* DSP [전역적으로 차단된 사이트 목록](/help/dsp/introduction/features/brand-safety-media-quality.md) 외에 계정 수준 및 광고주 수준의 차단된 사이트 목록도 적용되며, 여기에는 광고에서 안전하지 않은 것으로 간주되는 사이트가 포함됩니다.
+>* 광고에는 안전하지 않은 것으로 간주되는 사이트가 포함된 DSP [전역 차단 사이트 목록](/help/dsp/introduction/features/brand-safety-media-quality.md) 외에 계정 수준 및 광고주 수준의 차단 사이트 목록도 적용됩니다.
 >* 차단된 사이트 목록은 항상 타겟팅된 사이트 목록보다 우선 적용됩니다. 배치가 둘 다 광고에 대한 동일한 타겟을 제외하고 포함하면 타겟은 제외됩니다.
 
 **[!UICONTROL Language]:**(선택 사항) 타깃팅할 단일 언어입니다.
@@ -323,9 +323,9 @@ ht-degree: 0%
 
    * *[!UICONTROL RampID]*: 사용자의 전자 메일 주소를 사용하여 사이트에 로그인한 [!DNL LiveRamp] [!DNL RampIDs]명의 사용자를 대상으로 합니다.<!-- Verify --> [!DNL RampIDs]은(는) 북미, 오스트레일리아 및 뉴질랜드의 사용자가 사용할 수 있습니다.
 
-   * *[!UICONTROL Unified ID2.0]*: 이메일 주소를 사용하여 사이트에 로그인한 사용자의 [!DNL Unified ID2.0](UID2) ID를 타겟팅합니다.<!-- Verify -->[!DNL UID2 IDs]은(는) 유럽 경제 지역 및 일부 추가 국가에서 사용할 수 없습니다. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2)을 참조하세요.
+   * *[!UICONTROL Unified ID2.0]*: 이메일 주소를 사용하여 사이트에 로그인한 사용자의 [!DNL Unified ID2.0]&#x200B;(UID2) ID를 타겟팅합니다.<!-- Verify -->[!DNL UID2 IDs]은(는) 유럽 경제 지역 및 일부 추가 국가에서 사용할 수 없습니다. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2)을 참조하세요.
 
-  **[!UICONTROL Terms of service]**: 유니버설 ID 사용에 대한 서비스 약관. 데이터를 새 ID 유형으로 변환하려면 사용자나 DSP 계정의 다른 사용자가 약관에 한 번 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 귀하의 동의를 받고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 **>**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
+  **[!UICONTROL Terms of service]**: 유니버설 ID 사용에 대한 서비스 약관. 데이터를 새 ID 유형으로 변환하려면 사용자나 DSP 계정의 다른 사용자가 약관에 한 번 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 사용자의 동의를 얻고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 **>**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
 
 **[!UICONTROL Cross Device Targeting]:**([campaign이 사용자 기반 교차 장치 타깃팅에 대해 구성된 경우 사용 가능](/help/dsp/campaign-management/campaigns/campaign-settings.md)), 레거시 ID만 타깃팅하고(범용 ID는 아님), 하나 이상의 세그먼트 또는 대상을 선택했습니다. 지정한 세그먼트에 없는 장치도, 개인의 알려진 모든 장치(캠페인 설정에 지정된 장치 그래프에 따라)로 타깃팅을 확장할 수 있습니다. 캠페인에 대해 지정된 그래프에 따라 요금이 적용될 수 있습니다. 장치 그래프 데이터는 북미에서만 사용할 수 있습니다.
 
@@ -333,7 +333,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 캠페인, 패키지 및 배치 수준에서 빈도 상한을 설정할 수 있습니다. DSP은 campaign 계층 구조에서 가장 엄격한 빈도 상한을 따릅니다.
+> 캠페인, 패키지 및 배치 수준에서 빈도 상한을 설정할 수 있습니다. DSP은 캠페인 계층에서 가장 엄격한 빈도 상한을 준수합니다.
 
 **[!UICONTROL Secondary Cap]:**(선택 사항, 숫자 [!UICONTROL Placement Cap]을(를) 포함하는 경우 사용 가능) 기본 배치 상한 내의 추가 제한입니다. 노출 횟수와 기간을 선택합니다(예: 12시간당 3회).
 
@@ -395,7 +395,7 @@ ht-degree: 0%
 
 ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다. 기본적으로 광고주 계정 설정에 세그먼트 ID가 지정되어 있으면 광고주 수준 ID가 입력되지만, 다른 세그먼트를 사용하도록 ID를 변경하거나 해당 ID를 삭제하여 기능을 비활성화할 수 있습니다.
 
-적용할 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] 및 [!DNL Peer39] 컨텍스트 필터의 **[!UICONTROL Contextual filtering]:** 유형. 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다.
+**[!UICONTROL Contextual filtering]:**(데스크톱 및 모바일 웹 디스플레이, 기본 및 비디오 광고에 적용 가능) 적용할 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] 및 [!DNL Peer39] 컨텍스트 필터의 유형. 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다.
 
 <!-- Looks like we didn't rename this:
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
@@ -421,34 +421,30 @@ ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다
 
 **[!UICONTROL Pre-bid fraud blocking]:** [!DNL DoubleVerify], [!DNL Integral Ad Science] 및 [!DNL Peer39]을(를) 통해 측정된 사기 트래픽 및 의심스러운 활동을 기반으로 차단할 사이트 유형입니다. 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다.
 
-* [!UICONTROL DoubleVerify]:
+* [!UICONTROL DoubleVerify]: (데스크톱 및 모바일 웹 디스플레이, 기본 및 비디오 광고에 적용 가능)
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** 기본적으로 새 배치에 대해 하이재핑된 장치의 트래픽을 포함하여 100% 잘못된 모든 트래픽을 차단합니다. 추가 요금이 부과될 수 있습니다.
 
-   * **[!UICONTROL Also block sites with]:**(선택 사항) DSP이 기본적으로 광고를 차단하도록 하는 추가적인 수준의 사기 및 잘못된 트래픽입니다. *[!UICONTROL None]*(기본값: 추가 트래픽을 차단하지 않음), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* 또는 *[!UICONTROL >25% Average Fraud/IVT levels]*. 추가 요금이 부과될 수 있습니다.
+   * **[!UICONTROL Also block sites with]:**(선택 사항) DSP에서 기본적으로 광고를 차단하는 추가적인 수준의 사기 및 잘못된 트래픽: *[!UICONTROL None]*(기본값: 추가 트래픽을 차단하지 않음), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* 또는 *[!UICONTROL >25% Average Fraud/IVT levels]*. 추가 요금이 부과될 수 있습니다.
 
-* [!UICONTROL Peer 39]:
+* [!UICONTROL Peer 39]: (데스크톱 및 모바일 웹 디스플레이, 기본 및 비디오 광고에 적용 가능)
 
    * **[!UICONTROL Block sites that are]:**(선택 사항) DSP에서 기본적으로 광고를 차단하는 하나 이상의 사기 유형: *[!UICONTROL Fraud]*(사기로 모든 사이트를 차단함), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* 및/또는 *[!UICONTROL Fraud: Zero Ads]*. 추가 요금이 부과될 수 있습니다.
 
-* [!UICONTROL Integral Ad Science]:
+* [!UICONTROL Integral Ad Science]: (데스크톱 및 모바일 웹 디스플레이, 기본 및 비디오 광고에 적용 가능)
 
-   * **[!UICONTROL Block sites that are]:**(선택 사항) DSP에서 기본적으로 광고를 차단하도록 하는 의심스러운 웹 사이트 또는 앱 활동 유형: *[!UICONTROL None]*(의심스러운 활동을 기반으로 광고를 차단하지 않는 기본값), *[!UICONTROL Suspicious Activity - High Risk]* 또는 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 추가 요금이 부과될 수 있습니다.
+   * **[!UICONTROL Block sites that are]:**(선택 사항) DSP에서 기본적으로 광고를 차단하는 의심스러운 웹 사이트 또는 앱 활동 유형: *[!UICONTROL None]*(기본적으로 의심스러운 활동에 따라 광고를 차단하지 않음), *[!UICONTROL Suspicious Activity - High Risk]* 또는 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 추가 요금이 부과될 수 있습니다.
 
-**[!UICONTROL Pre-bid viewability]:**
+**[!UICONTROL Pre-bid viewability]:**(데스크탑 및 모바일 웹 디스플레이, 기본 및 비디오 광고에 적용 가능) [!DNL DoubleVerify] 및 [!DNL Integral Ad Science]이(가) 배치를 적용할 보기 가능 필터를 미리 입찰합니다. 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다. 추가 요금이 부과될 수 있습니다.
 
-배치를 적용할 [!DNL DoubleVerify] 및 [!DNL Integral Ad Science]의 사전 입찰 가시성 필터 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다. 추가 요금이 부과될 수 있습니다.
-
-**[!UICONTROL Ads.txt filtering]:**
-
-각 게시자의 Authorized Digital Sellers 목록을 적용하여 사용할 [Ads.txt](https://iabtechlab.com/ads-txt-about/) 수준의 사전 입찰 필터링입니다. 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다.
+**[!UICONTROL Ads.txt filtering]:**(데스크톱 및 모바일 웹 디스플레이, 기본, 비디오 및 오디오 광고에 적용 가능) 각 게시자의 Authorized Digital Sellers 목록을 적용하여 사용할 [Ads.txt](https://iabtechlab.com/ads-txt-about/) 수준의 사전 입찰 필터링. 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다.
 
 * *[!UICONTROL Opt out of ads.txt (default)]*: 모든 판매자의 인벤토리를 구매합니다.
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: 도메인의 승인된 직접 판매자 및 리셀러로부터 인벤토리 구매의 우선 순위를 지정합니다.
 * *[!UICONTROL Ads.txt sellers only]*: 도메인의 승인된 직접 판매자 및 리셀러에서만 인벤토리를 구매합니다.
 * *[!UICONTROL Ads.txt sellers only]*: 도메인의 승인된 직접 판매자에서만 인벤토리를 구매합니다.
 
-**[!UICONTROL Attention Targeting]:**(디스플레이, 비디오 및 표준 연결된 TV 배치) 지정된 사이트, 형식 및 광고 크기를 기반으로 특정 주의 수준(높음, 중간 또는 낮음)을 가진 [!DNL Adelaide]개의 사전 입찰 세그먼트를 타겟팅합니다. 세그먼트는 매주 업데이트됩니다. **참고:** 타깃팅에 [!DNL Adelaide] 세그먼트를 사용하면 [!DNL Adelaide] 주의 타깃팅으로 전달된 각 노출에 대해 CPM 비용이 발생합니다. 이 비용은 [주의 측정](/help/dsp/campaign-management/campaigns/campaign-settings.md)에 대한 비용과 별개입니다. 대화형 프리롤 배치의 경우 VAST 노출에 대해서만 요금이 부과됩니다.
+**[!UICONTROL Attention Targeting]:**(데스크톱 및 모바일 웹 디스플레이, 비디오 및 표준 연결된 TV 광고에 적용 가능) 지정된 사이트, 형식 및 광고 크기를 기반으로 특정 주의 수준(높음, 중간 또는 낮음)을 가진 [!DNL Adelaide] 사전 입찰 세그먼트를 타겟팅합니다. 세그먼트는 매주 업데이트됩니다. **참고:** 타깃팅에 [!DNL Adelaide] 세그먼트를 사용하면 [!DNL Adelaide] 주의 타깃팅으로 전달된 각 노출에 대해 CPM 비용이 발생합니다. 이 비용은 [주의 측정](/help/dsp/campaign-management/campaigns/campaign-settings.md)에 대한 비용과 별개입니다. 대화형 프리롤 배치의 경우 VAST 노출에 대해서만 요금이 부과됩니다.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
@@ -507,4 +503,4 @@ ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다
 >* [배치에 대한 입찰 승수 관리](placement-manage-bid-multipliers.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* Campaign Management에 대한 [FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
+>* 캠페인 관리에 대한 [FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
