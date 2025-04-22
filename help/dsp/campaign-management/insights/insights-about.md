@@ -2,9 +2,10 @@
 title: 성능 인사이트 정보
 description: 캠페인에 대한 성능 통찰력에 대해 알아봅니다.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
+exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
+source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,19 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-시각화를 통한 높은 수준의 성능 통찰력은 캠페인을 효율적으로 최적화하고 새로운 기회를 발견하여 성과를 확장하는 데 필요한 정보를 제공합니다.
+시각화를 통한 높은 수준의 성능 통찰력은 캠페인을 효율적으로 최적화하고 새로운 기회를 발견하여 성과를 확장하는 데 필요한 정보를 제공합니다. 캠페인 간 데이터를 보거나 더 낮은 수준으로 드릴다운할 수 있습니다.
 
-모든 insight의 경우 시각화 없이 Microsoft Excel 스프레드시트(XLSX) 형식으로 보고서를 다운로드할 수 있습니다.
+성능 인사이트를 사용하여 다음을 수행할 수 있습니다.
+
+* 전략적 계획 수립 및 정보에 입각한 의사 결정을 위한 장기적인 추세를 추적합니다.
+
+* 더 나은 결과를 얻을 수 있는 기회를 식별합니다.
+
+* 원시 데이터를 얻는 것과 실행 가능한 통찰력을 얻는 것 사이의 시간을 줄여 효율성을 향상시킵니다.
+
+Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭의 모든 시각화를 PDF 파일로 내보내거나 특정 insight의 데이터를 다운로드할 수 있습니다.
+
+캠페인 관리 보기와 마찬가지로 [보기를 구성하고 사용자 지정 보기로 저장](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)할 수도 있습니다.
 
 ## Insights 유형
 
@@ -35,13 +46,15 @@ ht-degree: 0%
 
 * 세 개의 고객 지정 지표(기본적으로 [!UICONTROL Net Spend], [!UICONTROL Unique Reach] 및 [!UICONTROL Net CPM])에 대한 일별 또는 주별 트렌드 차트입니다.
 
-* [!UICONTROL Media Type], [!UICONTROL Device Type] 또는 [!UICONTROL Inventory Type]까지 증가하는 가구 도달 범위의 파이 차트입니다. 증분 가구 도달은 단일 미디어, 장치 또는 재고 유형을 통해서만 도달하는 가구로 정의됩니다.
+* [!UICONTROL Media Type], [!UICONTROL Device Type] 또는 [!UICONTROL Inventory Type]까지 증가하는 가구 도넛형 차트입니다. 증분 가구 도달은 단일 미디어, 장치 또는 재고 유형을 통해서만 도달하는 가구로 정의됩니다.
 
-* [!UICONTROL Media Type], [!UICONTROL Device Type] 또는 [!UICONTROL Inventory Type]별 [!UICONTROL Unique Reach]을(를) 보여 주는 막대 차트입니다. **참고:** 여러 미디어, 장치 또는 인벤토리 유형에 의해 연결된 가정은 겹치는 것으로 간주됩니다.
+* [!UICONTROL Media Type], [!UICONTROL Device Type] 또는 [!UICONTROL Inventory Type]까지 증가하는 고유한 가구 도달 횟수와 겹치는 가구 도달 횟수입니다.
 
-* 상위 지출 캠페인, 배치, 패키지, 게시자, 사이트/앱, 미디어 유형, 인벤토리 유형 또는 디바이스 유형 목록. 지표에는 [!UICONTROL Unique Reach], [!UICONTROL Net Spend] 및 [!UICONTROL Cost per Reach]이(가) 포함됩니다.
+  증분 가구 도달은 단일 미디어, 장치 또는 재고 유형을 통해서만 도달하는 가구로 정의됩니다. 여러 매체, 장치 또는 재고 유형이 도달한 가구는 겹치는 것으로 간주됩니다.
 
-* 패키지, 게시자 또는 사이트/앱별 [!UICONTROL Cost per Reach] 및 [!UICONTROL Net Spend]의 <!-- ???? --> 차트입니다.
+* [!UICONTROL Unique Reach], [!UICONTROL Net Spend] 및 [!UICONTROL Cost per Reach]별 성과가 가장 좋은 캠페인, 배치, 패키지, 게시자, 사이트/앱, 미디어 유형, 인벤토리 유형 또는 장치 유형.
+
+* 패키지, 게시자 또는 사이트/앱별 [!UICONTROL Cost per Reach] 및 [!UICONTROL Net Spend]. 이 insight을 사용하여 중요한 증분 도달 가능성을 보여 주는 패키지, 게시자 또는 사이트/앱을 확인하십시오.
 
 ## 성능 인사이트 열기
 
@@ -72,7 +85,13 @@ ht-degree: 0%
 
 1. 지표를 선택한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-## insight 다운로드
+## 탭에 대한 모든 시각화를 PDF 파일로 내보내기
+
+* 탭 위에서 **[!UICONTROL ...]** > **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
+
+  파일은 브라우저의 기본 다운로드 폴더에 저장됩니다.
+
+## XLSX 파일에 특정 Insight 다운로드
 
 * insight 오른쪽 상단에서 ![다운로드](/help/creative/assets/download.png "다운로드")를 클릭합니다.
 
