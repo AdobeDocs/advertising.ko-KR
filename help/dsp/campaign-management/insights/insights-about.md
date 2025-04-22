@@ -2,9 +2,9 @@
 title: 성능 인사이트 정보
 description: 캠페인에 대한 성능 통찰력에 대해 알아봅니다.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
+source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 모든 insight의 경우 시각화 없이 Microsoft Excel 스프레드시트(XLSX) 형식으로 보고서를 다운로드할 수 있습니다.
 
-## [!UICONTROL Home] 탭
+## Insights 유형
+
+### [!UICONTROL Home] 탭
 
 [!UICONTROL Home] 탭은 광고주의 모든 캠페인에서 주요 표준, 성능 및 조회 지표를 제공합니다<!-- active only? -->. 기본적으로 캠페인 간 데이터가 표시됩니다. 선택적으로 특정 캠페인<!-- active only? -->, 패키지<!-- active only? -->, 사용자 지정 목표 및 배치<!-- active only? -->에 대한 데이터만 표시하도록 필터를 구성할 수 있습니다. 인사이트는 다음과 같습니다.
 
@@ -27,7 +29,7 @@ ht-degree: 0%
 
 * 캠페인, 게시자 및 미디어 유형별로 등 고객이 지정한 세 차원별로 특정 지표에 대한 데이터를 분류합니다. 각 차원 분류에 대해 다른 지표를 선택할 수 있습니다.
 
-## [!UICONTROL Household Reach] 탭
+### [!UICONTROL Household Reach] 탭
 
 [!UICONTROL Household Reach] 탭은 광고주의 모든 캠페인<!-- active only? -->에서 가정용 도달 지표를 제공합니다. 기본적으로 캠페인 간 데이터가 표시됩니다. 선택적으로 다른 광고주에 대한 데이터나 특정 캠페인에 대한 데이터만 표시하도록 필터를 구성할 수 있습니다<!-- active only? -->. 인사이트는 다음과 같습니다.
 

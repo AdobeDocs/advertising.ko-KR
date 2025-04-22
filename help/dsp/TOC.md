@@ -4,7 +4,7 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 148917239a2179b651b04418e53038d29856c649
+source-git-commit: 2d8785ed0f9be576d7c5437ac5793a46d787b954
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 3%
@@ -97,8 +97,8 @@ ht-degree: 3%
          + [프리롤 광고 설정](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [지원되는 광고 유형에 대한 사양](/help/dsp/campaign-management/ads/ad-specs.md)
-+ Cross-Campaign 성능 인사이트 {#insights}
-   + [성능 인사이트 정보](/help/dsp/campaign-management/insights/insights-about.md)
+   + Cross-Campaign 성능 인사이트 {#insights}
+      + [성능 인사이트 정보](/help/dsp/campaign-management/insights/insights-about.md)
    + 캠페인 관리 보기의 성과 보고서 {#campaign-reports}
       + [캠페인 관리 보기의 성과 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [캠페인 관리 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md)
