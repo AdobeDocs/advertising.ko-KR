@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: edb62b97e6b03efbabc051c8ec2d7326b291e085
+source-git-commit: 148917239a2179b651b04418e53038d29856c649
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '944'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 + [새로운 기능](/help/dsp/home.md)
 + [Adobe Advertising DSP에 로그인](/help/dsp/introduction/sign-in.md)
-+ {#introduction} 소개
++ 소개 {#introduction}
    + [Adobe Advertising DSP 소개](/help/dsp/introduction/dsp-about.md)
    + 주요 기능 {#features}
       + [최적화](/help/dsp/introduction/features/optimization.md)
@@ -97,7 +97,9 @@ ht-degree: 3%
          + [프리롤 광고 설정](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [지원되는 광고 유형에 대한 사양](/help/dsp/campaign-management/ads/ad-specs.md)
-   + 캠페인 관리 보기 {#campaign-reports}의 성과 보고서
++ Cross-Campaign 성능 인사이트 {#insights}
+   + [성능 인사이트 정보](/help/dsp/campaign-management/insights/insights-about.md)
+   + 캠페인 관리 보기의 성과 보고서 {#campaign-reports}
       + [캠페인 관리 보기의 성과 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [캠페인 관리 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [배치에 대한 사이트, 광고, 빈도 및 재고 세부 정보 보기](/help/dsp/campaign-management/reports/placement-details-view.md)
@@ -116,7 +118,7 @@ ht-degree: 3%
    + [사용자 정의 목표](/help/dsp/optimization/custom-goal.md)
    + [성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [문제 해결 성능](/help/dsp/optimization/troubleshooting-performance.md)
-+ 대상 {#audiences}
++ 대상자 {#audiences}
    + [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
    + [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
    + 재사용 가능한 대상 {#reusable-audiences}
@@ -142,7 +144,7 @@ ht-degree: 3%
       + [세그먼트 삭제](/help/dsp/audiences/segment-delete.md)
    + 소스 {#sources}
       + [자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)
-      + 고객 데이터 플랫폼 {#sources-workflows}별 워크플로
+      + 고객 데이터 플랫폼별 워크플로 {#sources-workflows}
          + [사용자 ID를  [!DNL Adobe Real-Time CDP] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
          + [사용자 ID를  [!DNL Amperity] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-amperity.md)
          + [사용자 ID를  [!DNL Optimizely] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-optimizely.md)
@@ -177,7 +179,7 @@ ht-degree: 3%
             + [프로그램 보증 거래 개요](/help/dsp/inventory/programmatic-guaranteed-about.md)
             + [프로그램 보증 거래 협상을 위한 팁](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [프로그램 보증 거래 설정](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
-            + [!DNL FreeWheel] 프로그램 보증 거래 {#freewheel}
+            + 프로그램 보증 거래 [!DNL FreeWheel]개 {#freewheel}
                + [ [!DNL FreeWheel]의 프로그램 보증 거래 설정 개요](/help/dsp/inventory/freewheel-overview.md)
                + [프로그램 보증 거래에 대한 광고를  [!DNL FreeWheel]에 제출](/help/dsp/inventory/freewheel-submit.md)
                + [ [!DNL FreeWheel] 프로그램 보증 거래의 광고 상태 확인](/help/dsp/inventory/freewheel-check-status.md)
@@ -189,13 +191,13 @@ ht-degree: 3%
       + [비공개 거래에 대한 경매 인사이트 보기](/help/dsp/inventory/private-deal-auction-insights.md)
       + [비공개 거래에 대한 배치 및 광고 나열](/help/dsp/inventory/private-deal-view-placements.md)
       + [비공개 거래 보관 또는 보관 해제](/help/dsp/inventory/private-deal-archive-unarchive.md)
-   + [!UICONTROL Simple Ad Serving] 거래 {#sas}
+   + [!UICONTROL Simple Ad Serving]개 거래 {#sas}
       + [[!UICONTROL Simple Ad Serving] 정보](/help/dsp/inventory/simple-deal-about.md)
       + [[!UICONTROL Simple Ad Serving] 거래 만들기](/help/dsp/inventory/simple-deal-create.md)
       + [[!UICONTROL Simple Ad Serving] 거래 설정 편집](/help/dsp/inventory/simple-deal-edit.md)
       + [[!UICONTROL Simple Ad Serving] 거래 설정](/help/dsp/inventory/simple-deal-settings.md)
    + [거래에 대한 상세 보고서 보기](/help/dsp/inventory/deal-view-report.md)
-+ 사용자 지정 보고서 {#custom-reports}
++ 사용자 정의 보고서 {#custom-reports}
    + [사용자 정의 보고서 정보](/help/dsp/reports/report-about.md)
    + [사용자 지정 보고서 만들기](/help/dsp/reports/report-create.md)
    + [사용자 지정 보고서 복제](/help/dsp/reports/report-copy.md)
