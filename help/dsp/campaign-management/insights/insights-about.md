@@ -2,9 +2,9 @@
 title: 성능 인사이트 정보
 description: 캠페인에 대한 성능 통찰력에 대해 알아봅니다.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f76b0aad77b896bb84a898779e457a0893913024
+source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -41,24 +41,40 @@ ht-degree: 0%
 
 * 패키지, 게시자 또는 사이트/앱별 [!UICONTROL Cost per Reach] 및 [!UICONTROL Net Spend]의 <!-- ???? --> 차트입니다.
 
+## 성능 인사이트 열기
+
+* (모든 캠페인에 대한 인사이트를 열려면) 기본 메뉴에서 **[인사이트 BETA]**&#x200B;을 클릭합니다.
+
+* (특정 캠페인, 패키지 또는 배치에 대한 인사이트를 열려면) [!UICONTROL Campaigns], [!UICONTROL Packages] 또는 [!UICONTROL Placements] 보기에서 엔터티 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Insights]**&#x200B;을(를) 클릭합니다.
+
+## 탭에 필터 적용
+
+1. 탭 상단의 도구 모음에서
+![필터 단추](/help/dsp/assets/filter.png)를 클릭합니다.
+
+1. 왼쪽 열에서 차원을 선택한 다음 오른쪽 열에서 하나 이상의 값을 선택합니다.
+
+   한 번에 한 명의 광고주만 선택할 수 있습니다.
+
+1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 데이터 범위를 더 좁히려면 도구 모음에서 엔티티 유형을 선택한 다음 특정 엔티티 값(단일 캠페인, 패키지 또는 배치)을 선택합니다.
+
+## insight에 대해 보고된 Dimension 변경
+
+* 드롭다운 메뉴에서 insight의 왼쪽 상단으로 차원을 선택합니다.
+
+## insight에 대해 보고된 지표 변경
+
+1. insight 오른쪽 상단에서 ![지표 설정](/help/dsp/assets/metric-settings.png "지표 설정")을 클릭합니다.
+
+1. 지표를 선택한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+
 ## insight 다운로드
 
-* insight 위에 있는 ![다운로드](/help/creative/assets/download.png "다운로드")를 클릭합니다.
+* insight 오른쪽 상단에서 ![다운로드](/help/creative/assets/download.png "다운로드")를 클릭합니다.
 
   파일은 브라우저의 기본 다운로드 폴더에 저장됩니다.
-
-<!--
-## Apply Filters
-
-to whole tab, I think
-
-Filter icon + drop-down menu
--->
-
-<!--
-## Change the Metrics and Dimensions for an Insight
-
--->
 
 >[!MORELIKETHIS]
 >
