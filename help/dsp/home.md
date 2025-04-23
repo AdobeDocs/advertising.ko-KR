@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 1bfff1966bc68edf4e6796ec5c8ca932019e92a1
+source-git-commit: 44506653ef24dfe73396143a5bbe131f41caedda
 workflow-type: tm+mt
-source-wordcount: '5179'
+source-wordcount: '5228'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025년 4월 23일 | 성능 [UICONTROL Insights] | (Beta 기능) 시각화를 통한 높은 수준의 성능 통찰력은 캠페인을 효율적으로 최적화하는 데 필요한 정보를 제공하며 성능을 확장할 수 있는 새로운 기회를 발견할 수 있습니다. 캠페인 간 데이터를 보거나 더 낮은 수준으로 드릴다운할 수 있습니다. | &quot;[성능 인사이트 정보](/help/dsp/campaign-management/insights/insights-about.md)&quot;를 참조하십시오. |
 | 2025년 3월 26일 | 로그인 | DSP이 로그인 인증을 위해 Adobe Identity Management 서비스(IMS)로 전환하고 있습니다. IMS는 Real-Time Customer Data Platform, Customer Journey Analytics, Target 및 Analytics를 포함하여 IMS를 지원하는 모든 [!DNL Adobe] 제품에 SSO(Single Sign-On) 액세스를 제공합니다. 이제 하나의 [!DNL Adobe ID]을(를) 사용하여 Experience Cloud 로그인 페이지 또는 이전 DSP 로그인 페이지에서 [!DNL Adobe] 제품 간에 로그인할 수 있습니다. 현재 DSP 자격 증명은 90일 동안 활성 상태로 유지되므로 변경을 준비할 수 있습니다. | &quot;[Adobe Advertising DSP에 로그인](/help/dsp/introduction/sign-in.md)&quot;을 참조하십시오.<br><br>사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오. |
 | | [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads] | 이제 다음 벌크 편집 기능을 사용할 수 있습니다.<ul><li>캠페인 패키지, 배치 및 광고에 대한 설정이 포함된 캠페인 수준 스프레드시트를 직접 편집하고 다시 업로드할 수 있습니다. 이전에는 템플릿 파일을 다운로드하고 업로드할 변경 사항을 수동으로 입력해야 했습니다.</li><li>이제 [!UICONTROL Campaigns] 보기 전체에서 파일이 &quot;QA 시트&quot; 대신 &quot;*bulksheets*&quot;이라고 하며, &quot;[!UICONTROL Download Bulksheet]&quot; 및 &quot;[!UICONTROL Upload Bulksheet]&quot; 옵션을 선택합니다.</li><li>이제 대부분의 배치 설정을 일괄 시트에서 사용할 수 있습니다.</li></ul> | &quot;[일괄 시트를 사용하여 캠페인 구성 요소 설정 검토 및 편집](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;을(를) 참조하십시오.<br><br>또한 &quot;[일괄 시트를 사용하여 패키지 설정 검토 및 편집](/help/dsp/campaign-management/packages/package-qa.md)&quot; 및 &quot;[일괄 시트를 사용하여 배치 설정 검토 및 편집](/help/dsp/campaign-management/placements/placement-qa.md)을 참조하십시오.&quot; |
 | 2025년 3월 10일 릴리스 | 개인 정보 보호 | Digital Advertising Alliance(DAA)와의 [!DNL Adobe's] 파트너십을 통해 최종 사용자는 이제 &quot;Adobe Marketing Cloud - Advertising 서비스&quot;(DSP + Audience Manager 쿠키를 포함하는 Adobe Experience Cloud의 이전 이름)의 해시된 이메일 주소에 의존하는 모든 행동 타깃팅을 옵트아웃할 수 있습니다. 이전에는 DSP에서 쿠키 기반 옵트아웃만 지원했습니다.<br><br>최종 사용자가 동작 타깃팅을 옵트아웃하면 DSP은 최종 사용자의 쿠키, 모바일 ID 또는 해시된 이메일 주소(DSP이 [!DNL Unified ID 2.0 (UID2.0)] ID 또는 [!DNL LiveRamp] [!DNL RampID]과(와) 연결할 수 있음)를 캡처합니다. 그런 다음 DSP은 최종 사용자가 5년 동안 지속되는 옵트아웃 쿠키를 유지하는 한 해당 최종 사용자에 대한 광고 노출에 대한 행동 타깃팅을 제외합니다.<br><br>최종 사용자는 a\) [https://optout.aboutads.info](https://optout.aboutads.info)에서 브라우저의 광고를 옵트아웃하거나 b\) 브라우저, 앱에서 광고를 옵트아웃하거나 [https://youradchoices.com/control](https://youradchoices.com/control)에서 토큰 식별자를 사용할 수 있습니다.<br><br>광고주에게는 작업이 필요하지 않습니다. | &quot;[Adobe 개인정보 처리방침](https://www.adobe.com/privacy/policy.html)&quot;을(를) 참조하십시오. |
