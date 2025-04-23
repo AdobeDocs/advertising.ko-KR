@@ -3,9 +3,9 @@ title: 성능 인사이트 정보
 description: 시각화를 통한 성능 통찰력에 대해 알아봅니다.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 04858fdbe884c30ebec3e1dff0d9c4d2622a16a1
+source-git-commit: e0e44a0be283f27d2dd1c1ae0c5f0c00c08edddc
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 
 ## 성능 인사이트 열기
 
-* (모든 캠페인에 대한 인사이트를 열려면) 기본 메뉴에서 **[UICONTROL 인사이트 BETA]**&#x200B;를 클릭합니다.
+* (모든 캠페인에 대한 인사이트를 열려면) 기본 메뉴에서 **[!UICONTROL Insights BETA]**&#x200B;을(를) 클릭합니다.
 
 * (특정 캠페인, 패키지 또는 배치에 대한 인사이트를 열려면) [!UICONTROL Campaigns], [!UICONTROL Packages] 또는 [!UICONTROL Placements] 보기에서 엔터티 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Insights]**&#x200B;을(를) 클릭합니다.
 
