@@ -3,7 +3,7 @@ title: Campaign 데이터 보기 관리
 description: 캠페인, 패키지, 배치 및 광고에 대한 데이터 보기를 사용자 지정하는 방법을 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 40cfd72c0f295ab1b6b7743828dded4032d435d4
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ![열 보기 선택기](/help/dsp/assets/column-view-selector.png)
 
-DSP에서는 가장 최근 보기를 기본 보기로 저장하므로 페이지로 돌아올 때마다 사용자와 관련된 지표를 항상 볼 수 있습니다.
+DSP에서는 가장 최근 보기를 기본 보기로 저장하므로 페이지로 돌아올 때마다 자신과 관련된 지표를 항상 볼 수 있습니다.
 
 #### 열 보기 변경 {#column-view-change}
 
@@ -56,7 +56,7 @@ DSP에서는 가장 최근 보기를 기본 보기로 저장하므로 페이지�
 
    1. 사용 가능한 지표 목록에서 포함할 각 지표 옆에 있는 확인란을 선택합니다.
 
-      모든 지표는 범주별로 알파벳순입니다. [!UICONTROL Settings], [!UICONTROL Spend], [!UICONTROL Pacing], [!UICONTROL Reporting](DSP이 추적하는 표준 지표), [!UICONTROL Viewability] 및 [!UICONTROL Conversions]. &quot;([!UICONTROL Lifetime])&quot;이(가) 추가된 지표는 페이지에서 선택한 날짜 범위와 관계없이 캠페인 시작부터 값을 반환합니다.
+      모든 지표는 범주별로 알파벳순입니다. [!UICONTROL Settings], [!UICONTROL Spend], [!UICONTROL Pacing], [!UICONTROL Reporting]&#x200B;(DSP이 추적하는 표준 지표), [!UICONTROL Viewability] 및 [!UICONTROL Conversions]. &quot;([!UICONTROL Lifetime])&quot;이(가) 추가된 지표는 페이지에서 선택한 날짜 범위와 관계없이 캠페인 시작부터 값을 반환합니다.
 
    1. 오른쪽 패널의 열 이름을 클릭하고 필요한 위치로 끌어 열 순서를 필요에 따라 편집합니다.
 
@@ -82,7 +82,7 @@ DSP에서는 가장 최근 보기를 기본 보기로 저장하므로 페이지�
 
    1. 사용 가능한 지표 목록에서 포함할 각 지표 옆의 확인란을 선택하고 제외할 각 지표 옆의 확인란을 선택 취소합니다.
 
-      모든 지표는 범주별로 알파벳순입니다. [!UICONTROL Settings], [!UICONTROL Spend], [!UICONTROL Pacing], [!UICONTROL Reporting](DSP이 추적하는 표준 지표), [!UICONTROL Viewability] 및 [!UICONTROL Conversions]. &quot;([!UICONTROL Lifetime])&quot;이(가) 추가된 지표는 페이지에서 선택한 날짜 범위와 관계없이 캠페인 시작부터 값을 반환합니다.
+      모든 지표는 범주별로 알파벳순입니다. [!UICONTROL Settings], [!UICONTROL Spend], [!UICONTROL Pacing], [!UICONTROL Reporting]&#x200B;(DSP이 추적하는 표준 지표), [!UICONTROL Viewability] 및 [!UICONTROL Conversions]. &quot;([!UICONTROL Lifetime])&quot;이(가) 추가된 지표는 페이지에서 선택한 날짜 범위와 관계없이 캠페인 시작부터 값을 반환합니다.
 
    1. 오른쪽 패널의 열 이름을 클릭하고 필요한 위치로 끌어 열 순서를 필요에 따라 편집합니다.
 
@@ -112,8 +112,8 @@ DSP에서는 가장 최근 보기를 기본 보기로 저장하므로 페이지�
    * [!UICONTROL Campaign status]
    * [!UICONTROL Advertiser]
 * [!UICONTROL Packages] 보기 필터:
-   * [!UICONTROL Custom flights](존재 여부)
-   * [!UICONTROL Custom goal](해당되는 경우)
+   * [!UICONTROL Custom flights]&#x200B;(존재 여부)
+   * [!UICONTROL Custom goal]&#x200B;(해당되는 경우)
    * [!UICONTROL End end date]
    * [!UICONTROL Optimization goal]
    * [!UICONTROL Flight pacing]
@@ -122,11 +122,11 @@ DSP에서는 가장 최근 보기를 기본 보기로 저장하므로 페이지�
    * [!UICONTROL Start date]
 * [!UICONTROL Placements] 보기 필터:
    * [!UICONTROL Custom ad scheduling]
-   * [!UICONTROL Custom goal](해당되는 경우)
+   * [!UICONTROL Custom goal]&#x200B;(해당되는 경우)
    * [!UICONTROL End date]
-   * [!UICONTROL Max bid]([!UICONTROL less than], [!UICONTROL greater than] 또는 [!UICONTROL equal to]에 지정된 값)
+   * [!UICONTROL Max bid]&#x200B;([!UICONTROL less than], [!UICONTROL greater than] 또는 [!UICONTROL equal to]에 지정된 값)
    * [!UICONTROL Optimization goal]
-   * [!UICONTROL Pacing on]([!UICONTROL impressions] 또는 [!UICONTROL spend])
+   * [!UICONTROL Pacing on]&#x200B;([!UICONTROL impressions] 또는 [!UICONTROL spend])
    * [!UICONTROL Flight pacing]
    * [!UICONTROL Intraday pacing]
    * [!UICONTROL Package]
@@ -141,7 +141,6 @@ DSP에서는 가장 최근 보기를 기본 보기로 저장하므로 페이지�
    * [!UICONTROL Ad name]
    * [!UICONTROL Ad type]
    * [!UICONTROL Creation date]
-
 
 ### 날짜 범위 변경
 
@@ -172,9 +171,9 @@ DSP에서는 가장 최근 보기를 기본 보기로 저장하므로 페이지�
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management 보기의 성능 보고서 유형](campaign-reports-about.md)
+>* [캠페인 관리 보기의 성능 보고서 유형](campaign-reports-about.md)
 >* [배치에 대한 사이트, 광고 및 빈도 세부 정보 보기](placement-details-view.md)
 >* [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [배치 진단 보고서 보기](placement-diagnostics.md)
->* [Campaign Management 보기에서 데이터 내보내기](campaign-export-data.md)
+>* [캠페인 관리 보기에서 데이터 내보내기](campaign-export-data.md)
 >* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

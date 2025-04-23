@@ -3,9 +3,9 @@ title: 성능 인사이트 정보
 description: 캠페인에 대한 성능 통찰력에 대해 알아봅니다.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
+source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭의 모든 시각화를 PDF 파일로 내보내거나 특정 insight의 데이터를 다운로드할 수 있습니다.
 
-캠페인 관리 보기와 마찬가지로 [보기를 구성하고 사용자 지정 보기로 저장](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)할 수도 있습니다.
+캠페인 관리 보기와 마찬가지로 [날짜 범위를 변경하고 보기를 구성하고 사용자 지정 보기를 저장](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)할 수도 있습니다.
 
 ## Insights 유형
 
@@ -102,3 +102,4 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 >* [사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)
 >* [캠페인 관리 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
+>* [Campaign 데이터 보기 관리](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
