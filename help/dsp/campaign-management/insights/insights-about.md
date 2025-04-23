@@ -3,9 +3,9 @@ title: 성능 인사이트 정보
 description: 시각화를 통한 성능 통찰력에 대해 알아봅니다.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
+source-git-commit: 04858fdbe884c30ebec3e1dff0d9c4d2622a16a1
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭의 모든 시각화를 PDF 파일로 내보내거나 특정 insight의 데이터를 다운로드할 수 있습니다.
 
-[날짜 범위를 변경하고, 보기를 구성하고, 사용자 지정 보기를 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) 캠페인 관리 보기와 같이 저장할 수도 있습니다.
+[날짜 범위를 변경하고, 보기를 구성하고, 사용자 지정 보기를 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} 캠페인 관리 보기와 같이 저장할 수도 있습니다.
 
 ## Insights 유형
 
@@ -58,7 +58,7 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 
 ## 성능 인사이트 열기
 
-* (모든 캠페인에 대한 인사이트를 열려면) 기본 메뉴에서 **[인사이트 BETA]**&#x200B;을 클릭합니다.
+* (모든 캠페인에 대한 인사이트를 열려면) 기본 메뉴에서 **[UICONTROL 인사이트 BETA]**&#x200B;를 클릭합니다.
 
 * (특정 캠페인, 패키지 또는 배치에 대한 인사이트를 열려면) [!UICONTROL Campaigns], [!UICONTROL Packages] 또는 [!UICONTROL Placements] 보기에서 엔터티 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Insights]**&#x200B;을(를) 클릭합니다.
 
