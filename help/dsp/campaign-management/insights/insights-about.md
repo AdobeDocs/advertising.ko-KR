@@ -1,9 +1,9 @@
 ---
 title: 성능 인사이트 정보
-description: 캠페인에 대한 성능 통찰력에 대해 알아봅니다.
-feature: DSP Packages, DSP Placements, DSP Ads
+description: 시각화를 통한 성능 통찰력에 대해 알아봅니다.
+feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
+source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-시각화를 통한 높은 수준의 성능 통찰력은 캠페인을 효율적으로 최적화하고 새로운 기회를 발견하여 성과를 확장하는 데 필요한 정보를 제공합니다. 캠페인 간 데이터를 보거나 더 낮은 수준으로 드릴다운할 수 있습니다.
+시각화를 통한 높은 수준의 성능 통찰력은 캠페인을 효율적으로 최적화하고 새로운 기회를 발견하여 성능을 확장하는 데 필요한 정보를 제공합니다. 캠페인 간 데이터를 보거나 더 낮은 수준으로 드릴다운할 수 있습니다.
 
 성능 인사이트를 사용하여 다음을 수행할 수 있습니다.
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭의 모든 시각화를 PDF 파일로 내보내거나 특정 insight의 데이터를 다운로드할 수 있습니다.
 
-캠페인 관리 보기와 마찬가지로 [날짜 범위를 변경하고 보기를 구성하고 사용자 지정 보기를 저장](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)할 수도 있습니다.
+[날짜 범위를 변경하고, 보기를 구성하고, 사용자 지정 보기를 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) 캠페인 관리 보기와 같이 저장할 수도 있습니다.
 
 ## Insights 유형
 
@@ -50,7 +50,7 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 
 * [!UICONTROL Media Type], [!UICONTROL Device Type] 또는 [!UICONTROL Inventory Type]까지 증가하는 고유한 가구 도달 횟수와 겹치는 가구 도달 횟수입니다.
 
-  증분 가구 도달은 단일 미디어, 장치 또는 재고 유형을 통해서만 도달하는 가구로 정의됩니다. 여러 매체, 장치 또는 재고 유형이 도달한 가구는 겹치는 것으로 간주됩니다.
+  증분 가구 도달은 단일 미디어, 장치 또는 재고 유형을 통해서만 도달하는 가구로 정의됩니다. 여러 미디어, 장치 또는 재고 유형이 도달한 가구는 겹치는 것으로 간주됩니다.
 
 * [!UICONTROL Unique Reach], [!UICONTROL Net Spend] 및 [!UICONTROL Cost per Reach]별 성과가 가장 좋은 캠페인, 배치, 패키지, 게시자, 사이트/앱, 미디어 유형, 인벤토리 유형 또는 장치 유형.
 
