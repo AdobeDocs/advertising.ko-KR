@@ -3,9 +3,9 @@ title: 크리에이티브 라이브러리 정보
 description: 광고 경험을 위한 크리에이티브 관리에 대해 알아봅니다.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 731728964eef89aa1299c02fd90c805e13a0b163
+source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 #### 이미지 크리에이티브
 
-GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 수 있습니다. 장치 또는 네트워크에서 <!--LATER:   images from your Adobe Experience Manager accounts or -->개의 이미지를 업로드할 수 있습니다.
+GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 수 있습니다. Adobe Experience Manager 계정에서 이미지를 업로드하거나 장치 또는 네트워크에서 이미지를 업로드할 수 있습니다.
 
 각 광고 경험에는 경험에 할당된 각 광고 크기에 대한 기본 이미지 크리에이티브가 필요합니다.
 
