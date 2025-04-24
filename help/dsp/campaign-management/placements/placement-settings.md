@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 6c4e5c3b114684dc360c1c2a35c90f07a8df11bc
+source-git-commit: 479c8e169469e1e56831e017f150eb6fa499e784
 workflow-type: tm+mt
-source-wordcount: '4039'
+source-wordcount: '4042'
 ht-degree: 0%
 
 ---
@@ -421,7 +421,7 @@ ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다
 
 **[!UICONTROL Pre-bid fraud blocking]:** [!DNL DoubleVerify], [!DNL Integral Ad Science] 및 [!DNL Peer39]을(를) 통해 측정된 사기 트래픽 및 의심스러운 활동을 기반으로 차단할 사이트 유형입니다. 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다.
 
-* [!UICONTROL DoubleVerify]: (데스크톱 및 모바일 웹 디스플레이, 기본 및 비디오 광고에 적용 가능)
+* [!UICONTROL DoubleVerify]: (데스크톱 및 모바일 웹 디스플레이, 기본, 비디오 및 표준 연결된 TV 광고에 적용 가능)
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** 기본적으로 새 배치에 대해 하이재핑된 장치의 트래픽을 포함하여 100% 잘못된 모든 트래픽을 차단합니다. 추가 요금이 부과될 수 있습니다.
 
