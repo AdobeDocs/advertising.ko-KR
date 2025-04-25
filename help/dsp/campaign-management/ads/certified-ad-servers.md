@@ -3,9 +3,9 @@ title: 인증 광고 서비스 제공 파트너
 description: 인증된 모든 광고 서버 및 광고 단위를 확인합니다.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: 75d4efbf5028b0d3ceeee247d1ee3616ae49d683
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!DNL Spirable] | | X | | | |
 | [!DNL SUBLIME] | | | X | | |
 | [!DNL SundaySky] | | | | X | |
-| [!DNL Teads] | | X | | | 아웃스트림 인벤토리에서 VPAID에 대한 지원은 없습니다. |
+| [!DNL Teads] | | X | | | 기본 디스플레이를 포함합니다. 아웃스트림 인벤토리에서 VPAID에 대한 지원은 없습니다. |
 | [!DNL Trueffect] | | X | | | |
 | [!DNL Undertone] | | | X | | 사용자 지정 페이지 Grabber 광고 단위가 DSP에서 180x150으로 업로드되었습니다</br></br>색인 교환이 180x150 경매를 통과하고 DSP이 경매에 입찰하여 노출되면 크리에이티브는 전체 페이지 표시 광고로 확장됩니다.</br></br>페이지 Grabber, 확장 가능한 접착 및 화면 이동 광고 단위에 대해 처음에 인증되었습니다. 프로세스에 대해 단계를 표시하여 이를 재인증해야 합니다. |
 | [!DNL Vox] | | | X | | 광고 단위 [!DNL Athena]개 |
