@@ -3,7 +3,7 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 개방형 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: bbc6549b55bdbefda7f421fe609c54d737ffe570
+source-git-commit: 67ebc7eb18f5151f4dac7ea1583e5c108098542a
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
