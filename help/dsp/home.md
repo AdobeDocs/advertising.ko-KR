@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ccdc71ccef37650d6f2cc830e96ab3882a7d52b4
+source-git-commit: b103a2ac8834fa559428e7b3cd1947a0cd3ed33b
 workflow-type: tm+mt
-source-wordcount: '5225'
+source-wordcount: '5277'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025년 4월 25일 | [!UICONTROL Placements], 브랜드 안전 및 미디어 품질 | DSP은 이제 표준 연결된 TV 배치에 대한 사전 입찰 사기 차단을 [!DNL DoubleVerify]개 제공합니다. 새 배치는 광고주 수준의 부정 행위 차단 설정을 자동으로 상속합니다. 상속된 설정을 제외하려면 수동으로 제거합니다.<br><br>향후 릴리스에서 범용 비디오 배치에 대한 지원을 사용할 수 있습니다. | &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md#prebid-fraud-blocking)&quot;을 참조하십시오. |
 | 2025년 4월 24일 | 성능 [!UICONTROL Insights] | (Beta 기능) 시각화를 통한 높은 수준의 성능 통찰력은 캠페인을 효율적으로 최적화하고 새로운 성과 확장 기회를 발견하는 데 필요한 정보를 제공합니다. 캠페인 간 데이터를 보거나 더 낮은 수준으로 드릴다운할 수 있습니다. | &quot;[성능 인사이트 정보](/help/dsp/campaign-management/insights/insights-about.md)&quot;를 참조하십시오. |
 | 2025년 3월 26일 | 로그인 | DSP이 로그인 인증을 위해 Adobe Identity Management 서비스(IMS)로 전환하고 있습니다. IMS는 Real-Time Customer Data Platform, Customer Journey Analytics, Target 및 Analytics를 포함하여 IMS를 지원하는 모든 [!DNL Adobe] 제품에 SSO(Single Sign-On) 액세스를 제공합니다. 이제 하나의 [!DNL Adobe ID]을(를) 사용하여 Experience Cloud 로그인 페이지 또는 이전 DSP 로그인 페이지에서 [!DNL Adobe] 제품 간에 로그인할 수 있습니다. 현재 DSP 자격 증명은 90일 동안 활성 상태로 유지되므로 변경을 준비할 수 있습니다. | &quot;[Adobe Advertising DSP에 로그인](/help/dsp/introduction/sign-in.md)&quot;을 참조하십시오.<br><br>사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오. |
 | | [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads] | 이제 다음 벌크 편집 기능을 사용할 수 있습니다.<ul><li>캠페인 패키지, 배치 및 광고에 대한 설정이 포함된 캠페인 수준 스프레드시트를 직접 편집하고 다시 업로드할 수 있습니다. 이전에는 템플릿 파일을 다운로드하고 업로드할 변경 사항을 수동으로 입력해야 했습니다.</li><li>이제 [!UICONTROL Campaigns] 보기 전체에서 파일이 &quot;QA 시트&quot; 대신 &quot;*bulksheets*&quot;이라고 하며, &quot;[!UICONTROL Download Bulksheet]&quot; 및 &quot;[!UICONTROL Upload Bulksheet]&quot; 옵션을 선택합니다.</li><li>이제 대부분의 배치 설정을 일괄 시트에서 사용할 수 있습니다.</li></ul> | &quot;[일괄 시트를 사용하여 캠페인 구성 요소 설정 검토 및 편집](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;을(를) 참조하십시오.<br><br>또한 &quot;[일괄 시트를 사용하여 패키지 설정 검토 및 편집](/help/dsp/campaign-management/packages/package-qa.md)&quot; 및 &quot;[일괄 시트를 사용하여 배치 설정 검토 및 편집](/help/dsp/campaign-management/placements/placement-qa.md)을 참조하십시오.&quot; |
