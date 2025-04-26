@@ -3,9 +3,9 @@ title: 크리에이티브 라이브러리에 표준 크리에이티브 추가
 description: 크리에이티브 라이브러리에 표준(비동적) 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: d68c8c31a047c4615224e9ab19654e56b5e8c8f9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -158,15 +158,21 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지를 만들 수 있습니다. 최대
 
 1. **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Image]**&#x200B;을(를) 클릭합니다.
 
-1. 다음 방법 중 하나로 파일을 지정합니다.
+1. 이미지를 지정합니다.
 
-   * 장치나 네트워크의 파일을 상자로 끌어서 놓습니다.
+   * 로컬 이미지 에셋의 경우 다음 중 하나를 수행합니다.
 
-   * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL select a file]**&#x200B;을(를) 클릭하십시오.
-<!--  Verify wording and workflow and add when available:
+      * 장치나 네트워크의 파일을 상자로 끌어서 놓습니다.
 
-   * Click **[!UICONTROL AEM Asset Library]** to locate a file in your Adobe Experience Manager library.
--->
+      * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL select a file]**&#x200B;을(를) 클릭하십시오.
+
+   * Adobe Experience Manager 라이브러리에 있는 이미지의 경우 다음을 수행하십시오.
+
+      1. **[!UICONTROL AEM Asset Library]**&#x200B;을(를) 클릭합니다.
+
+      1. Experience Manager 계정에 로그인합니다.
+
+      1. [!UICONTROL Assets] 또는 [!UICONTROL Collections] 보기에서 파일을 찾아 선택한 다음 오른쪽 상단의 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
 
 1. 이미지 추가 또는 제거:
 
