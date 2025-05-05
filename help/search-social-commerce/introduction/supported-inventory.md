@@ -64,6 +64,6 @@ ht-degree: 0%
 
 [^2]: 검색, 소셜 및 Commerce 내에서 사용할 수 있는 최적화 안내서의 &quot;캠페인 입찰 전략별 적격 포트폴리오 유형&quot;을 참조하십시오.
 
-[^3]: Adobe Analytics과의 통합이 필요합니다. &quot;[Adobe Advertising용 Analytics 개요](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)&quot;를 참조하십시오.
+[^3]: Adobe Analytics과의 통합이 필요합니다. &quot;[Adobe Advertising용 Analytics 개요](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko)&quot;를 참조하십시오.
 
 [^4]: [!DNL Analytics] 데이터가 계정에 일반적으로 사용하는 AMO ID 형식에 관계없이 업그레이드된 AMO ID 추적 매개 변수(`s_kwcid`(으)로 시작)를 사용하여 Search, Social 및 Commerce으로 전송됩니다. 일반적으로 이전 버전의 AMO ID를 사용하는 경우 최상의 경험을 위해 새 AMO ID 형식으로 업그레이드하는 것이 좋습니다. 그러나 클릭/비용 데이터와 매출 데이터가 서로 다른 AMO ID를 사용하여 추적되더라도 두 데이터 세트는 모두 동일한 캠페인 및 계정에서 완전히 분류되고 집계됩니다.

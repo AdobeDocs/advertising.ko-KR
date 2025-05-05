@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Advertising DSP의 경우 [!DNL Analytics for Advertising] 통합은 뷰스루 및 클릭스루 사이트 상호 작용을 추적합니다. 클릭스루 방문은 웹 페이지의 표준 Adobe Analytics 코드에 의해 추적됩니다. [!DNL Analytics] 코드는 랜딩 페이지 URL의 AMO ID 및 EF ID 매개 변수를 캡처하여 예약된 해당 [!DNL eVars]에서 추적합니다. 웹 페이지에 JavaScript 코드 조각을 배포하여 뷰스루 방문을 추적할 수 있습니다.
 
-사이트 방문의 첫 번째 페이지 보기에서 JavaScript 코드 Adobe Advertising은 방문자가 이전에 광고를 보거나 클릭했는지 확인합니다. 사용자가 이전에 클릭스루를 통해 사이트로 들어오거나 광고를 보지 않은 경우 방문자가 무시됩니다. 방문자가 Adobe Advertising 내에 설정된 [전환 확인 기간](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 동안 클릭스루를 통해 광고를 보고 사이트로 들어가지 않은 경우, Adobe Advertising JavaScript 코드는 a) [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 사용하여 보조 ID(`SDID`)를 생성하거나 b) Adobe Experience Platform [!DNL Web SDK] `generateRandomID` 메서드를 사용하여 `[!DNL StitchID]`을(를) 생성합니다. 두 ID 중 하나는 Adobe Advertising의 데이터를 방문자의 Adobe Analytics 히트에 연결하는 데 사용됩니다. 그런 다음 Adobe Analytics은 Adobe Advertising에 광고 노출과 연결된 AMO ID 및 EF ID를 쿼리합니다. 그런 다음 AMO ID 및 EF ID가 해당 [!DNL eVars]에서 채워집니다. 이 값은 지정된 기간(기본적으로 60일) 동안 지속됩니다.
+사이트 방문의 첫 번째 페이지 보기에서 JavaScript 코드 Adobe Advertising은 방문자가 이전에 광고를 보거나 클릭했는지 확인합니다. 사용자가 이전에 클릭스루를 통해 사이트로 들어오거나 광고를 보지 않은 경우 방문자가 무시됩니다. 방문자가 Adobe Advertising 내에 설정된 [전환 확인 기간](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 동안 클릭스루를 통해 광고를 보고 사이트로 들어가지 않은 경우, Adobe Advertising JavaScript 코드는 a) [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 사용하여 보조 ID(`SDID`)를 생성하거나 b) Adobe Experience Platform [!DNL Web SDK] `generateRandomID` 메서드를 사용하여 `[!DNL StitchID]`을(를) 생성합니다. 두 ID 중 하나는 Adobe Advertising의 데이터를 방문자의 Adobe Analytics 히트에 연결하는 데 사용됩니다. 그런 다음 Adobe Analytics은 Adobe Advertising에 광고 노출과 연결된 AMO ID 및 EF ID를 쿼리합니다. 그런 다음 AMO ID 및 EF ID가 해당 [!DNL eVars]에서 채워집니다. 이 값은 지정된 기간(기본적으로 60일) 동안 지속됩니다.
 
 [!DNL Analytics]은(는) EF ID를 키로 사용하여 사이트 트래픽 지표(페이지 보기 수, 방문 횟수, 체류 시간 등) 및 [!DNL Analytics] 사용자 지정 또는 표준 이벤트를 시간별로 Adobe Advertising에 보냅니다. 그런 다음 이러한 [!DNL Analytics] 지표는 Adobe Advertising 속성 시스템을 통해 실행되어 전환을 클릭 및 노출 기록에 연결합니다.
 
@@ -134,7 +134,7 @@ JavaScript 라이브러리는 [!DNL Analytics]과(와) Adobe Advertising이 서�
 
 #### [!DNL Adobe Experience Cloud Debugger]을(를) 사용하여 코드를 확인하는 방법
 
-1. 홈 페이지에서 [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)을(를) 엽니다.
+1. 홈 페이지에서 [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ko)을(를) 엽니다.
 1. [!UICONTROL Network] 탭으로 이동합니다.
 1. [!UICONTROL Solutions Filter] 도구 모음에서 [!UICONTROL Adobe Advertising] 및 [!UICONTROL Analytics]을(를) 클릭합니다.
 1. [!UICONTROL Request URL - Hostname] 매개 변수 행에서 `lasteventf-tm.everesttech.net`을(를) 찾습니다.

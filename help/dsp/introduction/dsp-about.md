@@ -28,5 +28,5 @@ DSP(Adobe Advertising DSP)은 고급 자사 데이터 세분화 및 활성화 �
 
 >[!MORELIKETHIS]
 >
->* [비디오: Advertising DSP 소개](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
->* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [비디오: Advertising DSP 소개](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html?lang=ko)
+>* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ko)

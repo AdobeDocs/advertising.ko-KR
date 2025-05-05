@@ -77,5 +77,5 @@ ht-degree: 0%
 >* [광고 관리 정보](ad-about.md)
 >* [광고 사양](ad-specs.md)
 >* [단일 광고 만들기](ad-create.md)
->* [비디오: 타사 광고 태그를 일괄 업로드하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [비디오: 타사 광고 태그를 일괄 업로드하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=ko)
 >* 범용 비디오에 대한 [FAQ](/help/dsp/campaign-management/faq-universal-video.md)

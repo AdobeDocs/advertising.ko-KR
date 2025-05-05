@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## Adobe Advertising 커뮤니티에 문의
 
-[Adobe Advertising 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community)에서 질문에 대한 답변을 찾아보세요.
+[Adobe Advertising 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ko)에서 질문에 대한 답변을 찾아보세요.
 
 ## 연락처 [!DNL Adobe]
 

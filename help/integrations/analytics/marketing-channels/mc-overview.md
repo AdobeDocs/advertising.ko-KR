@@ -14,7 +14,7 @@ ht-degree: 0%
 
 이 페이지에서는 [!DNL Analytics for Advertising] 사용자가 이해해야 하는 [!DNL Analytics Marketing Channels]에 대한 주요 정보를 설명합니다.
 
-[!DNL Marketing Channels]에 대한 전체 설명서는 &quot;[시작하기 [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html)&quot;를 참조하십시오.
+[!DNL Marketing Channels]에 대한 전체 설명서는 &quot;[시작하기 [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=ko)&quot;를 참조하십시오.
 
 ## [!DNL Marketing Channels] 개요
 
@@ -43,5 +43,5 @@ Adobe Advertising이 사용자 지정 마케팅 채널을 만드는 데 필요�
 >* [Adobe Advertising ID를 사용하여 만들기 [!DNL Marketing Channels] 처리 규칙](mc-ids.md)
 >* [Adobe Advertising 데이터와 채널 데이터가 서로 다를 수 있는 이유 [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Adobe Advertising 데이터로  [!DNL Analytics Marketing Channels] 사용](mc-ac-data.md)
->* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ko)
 >* [개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

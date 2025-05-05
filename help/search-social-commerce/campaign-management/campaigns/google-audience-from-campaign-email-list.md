@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. [!DNL Campaign]에서 Advertising 검색, 소셜 및 Commerce에 전자 메일 목록 게재를 설정합니다.
 
-   1. [외부 계정](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html)을 만들어 검색, 소셜 및 Commerce 제공 SFTP 계정을 연결합니다.
+   1. [외부 계정](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=ko)을 만들어 검색, 소셜 및 Commerce 제공 SFTP 계정을 연결합니다.
 
       1. 왼쪽 메뉴에서 **\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**(으)로 이동합니다.
 

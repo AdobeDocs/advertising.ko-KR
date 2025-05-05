@@ -21,7 +21,7 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽 [!
 
 * 광고와 관련된 보다 개인화된 랜딩 페이지 경험을 제공합니다(예: 이미지/비디오 크리에이티브, 복사, 키워드 또는 기타 광고 신호를 랜딩 페이지에 일치).
 
-또한 Adobe Analytics에 통합된 기본 [[!DNL Analytics] for Advertising](/help/integrations/analytics/overview.md) 및 [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 통합 보고 차원을 결합하여 [!DNL Analytics]개의 지표 및 성공 이벤트를 사용하여 테스트 데이터를 측정하고 시각화할 수 있습니다.
+또한 Adobe Analytics에 통합된 기본 [[!DNL Analytics] for Advertising](/help/integrations/analytics/overview.md) 및 [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko) 통합 보고 차원을 결합하여 [!DNL Analytics]개의 지표 및 성공 이벤트를 사용하여 테스트 데이터를 측정하고 시각화할 수 있습니다.
 
 필수 구성 요소, 검색, 소셜 및 Commerce의 광고에서 클릭스루 트래픽에 대한 [!DNL Target]의 A/B 테스트 설정 지침 및 [!DNL Analytics]에서 테스트를 측정하고 시각화하는 방법에 대한 팁을 다음 섹션에서 확인하십시오.
 
@@ -38,15 +38,15 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽 [!
 
 * [[!DNL Analytics] Advertising용](/help/integrations/analytics/overview.md) 통합<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 통합
+* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko) 통합
 
 ## 1단계: [!DNL Target]에서 검색, 소셜 및 Commerce을 위한 A/B 테스트 활동 만들기
 
 다음 지침은 검색, 소셜 및 Commerce 사용 사례와 관련된 정보를 강조 표시합니다.
 
-1. [Adobe Target에 로그인](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
+1. [Adobe Target에 로그인](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=ko).
 
-1. [A/B 테스트 만들기](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
+1. [A/B 테스트 만들기](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ko):
 
    1. **[!UICONTROL Enter Activity URL]** 필드에 테스트용 랜딩 페이지 URL을 입력합니다.
 
@@ -61,7 +61,7 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽 [!
 
    1. **[!UICONTROL Reporting Settings]** 내에서 Search, Social 및 Commerce 계정에 연결된 **[!UICONTROL Company Name]** 및 **[!UICONTROL Report Suite]**&#x200B;을(를) 선택하십시오.
 
-      추가 보고 팁은 &quot;[보고 모범 사례 및 문제 해결](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html)&quot;을 참조하십시오.
+      추가 보고 팁은 &quot;[보고 모범 사례 및 문제 해결](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=ko)&quot;을 참조하십시오.
 
    1. **[!UICONTROL Date Range]** 필드에 테스트에 대한 적절한 시작 날짜와 종료 날짜를 입력합니다.
 
@@ -77,7 +77,7 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽 [!
 
    1. 활동을 저장합니다.
 
-1. [Target 시각적 경험 작성기](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)를 사용하여 A/B 테스트 랜딩 페이지 템플릿에 대한 디자인을 변경합니다.
+1. [Target 시각적 경험 작성기](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ko)를 사용하여 A/B 테스트 랜딩 페이지 템플릿에 대한 디자인을 변경합니다.
 
    * 경험 A: 개인화가 없는 기본/제어 랜딩 페이지 경험이므로 편집하지 마십시오.
 
@@ -91,7 +91,7 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽 [!
 
 [!DNL Analytics for Target] (A4T)은(는) 광고주가 [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 [!DNL Target] 활동을 만든 다음 [!DNL Analytics]을(를) 보고 소스로 사용하여 결과를 측정할 수 있는 솔루션 간 통합입니다. 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics] 데이터 수집을 기반으로 합니다.
 
-구현 지침에 대한 링크를 포함하여 [!DNL Analytics for Target]에 대한 자세한 내용은 &quot;[Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)&quot;을(를) 참조하십시오.
+구현 지침에 대한 링크를 포함하여 [!DNL Analytics for Target]에 대한 자세한 내용은 &quot;[Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko)&quot;을(를) 참조하십시오.
 
 ### [!DNL Analytics for Target] 패널 설정
 
@@ -119,7 +119,7 @@ Analysis Workspace에서 [!DNL Target] 활동 및 경험을 분석하도록 [!DN
 
 Analysis Workspace 내에서 활동 및 경험 데이터가 최소화되거나 채워지지 않는 것을 발견하면 다음을 수행하십시오.
 
-* [!DNL Target]과(와) [!DNL Analytics]에 모두 동일한 [!UICONTROL Supplemental Data ID] (SDID)가 사용되는지 확인하십시오. 캠페인이 사용자를 유도하는 랜딩 페이지에서 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html)를 사용하여 SDID 값을 확인할 수 있습니다.
+* [!DNL Target]과(와) [!DNL Analytics]에 모두 동일한 [!UICONTROL Supplemental Data ID] (SDID)가 사용되는지 확인하십시오. 캠페인이 사용자를 유도하는 랜딩 페이지에서 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=ko)를 사용하여 SDID 값을 확인할 수 있습니다.
 
 [Adobe Debugger의 SDID(Supplemental Data ID) 값](/help/integrations/assets/target-troubleshooting-sdid.png)
 
@@ -133,8 +133,8 @@ Analysis Workspace 내에서 활동 및 경험 데이터가 최소화되거나 �
 
 ## 추가 읽기
 
-* [Analytics와 Target 통합](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Analysis Workspace에서 [!DNL Target] 보고를 설정하는 방법에 대해 설명합니다.
-* [A/B 테스트 개요](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - 검색, 소셜 및 Commerce 광고에 사용할 수 있는 A/B 테스트 활동에 대해 설명합니다.
+* [Analytics와 Target 통합](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=ko) - Analysis Workspace에서 [!DNL Target] 보고를 설정하는 방법에 대해 설명합니다.
+* [A/B 테스트 개요](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=ko) - 검색, 소셜 및 Commerce 광고에 사용할 수 있는 A/B 테스트 활동에 대해 설명합니다.
 * [Advertising용 Analytics 개요](/help/integrations/analytics/overview.md) - Analytics 인스턴스에서 클릭스루 및 뷰스루 사이트 상호 작용을 추적할 수 있는 Advertising용 Analytics를 소개합니다.
 
 >[!MORELIKETHIS]

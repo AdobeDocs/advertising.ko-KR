@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주의 경우, Advertising Cloud은 [입찰 단위](/help/search-social-commerce/glossary.md#a-b)에 대한 클릭 추적 URL에서 토큰(`ef_id` 매개 변수)을 사용하여 리디렉션을 사용할 때 [!DNL Analytics]에서 추적한 사이트 참여 및 전환 지표와 광고 클릭수 및 노출수를 연결할 수 있습니다. [!DNL Analytics] 데이터는 일별 피드 파일을 통해 자동으로 Advertising Cloud으로 전송됩니다.
 
-통합에 대한 자세한 내용은 &quot;[개요 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview){target="_blank"}&quot;을(를) 참조하십시오.
+통합에 대한 자세한 내용은 &quot;[개요 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/ko/docs/advertising/integrations/analytics/overview){target="_blank"}&quot;을(를) 참조하십시오.
 
 >[!PREREQUISITES]
 >

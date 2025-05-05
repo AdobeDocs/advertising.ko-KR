@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 모든 새로운 구현은 JavaScript 버전 3을 사용합니다.
->* ECID가 있는 JavaScript 태그는 [ECID(Adobe Experience Cloud ID) 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html)와 레거시 ef_id 및 gsurferid를 사용하여 전환을 측정합니다. 이 최신 태그는 [자사 Experience Cloud s_ecid 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html)를 만들고 다른 Experience Cloud 제품과의 긴밀한 통합을 제공합니다.
+>* ECID가 있는 JavaScript 태그는 [ECID(Adobe Experience Cloud ID) 서비스](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=ko)와 레거시 ef_id 및 gsurferid를 사용하여 전환을 측정합니다. 이 최신 태그는 [자사 Experience Cloud s_ecid 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=ko)를 만들고 다른 Experience Cloud 제품과의 긴밀한 통합을 제공합니다.
 >* 광고주의 웹 페이지에 이미 태그가 구현된 경우에만 JavaScript 버전 2 태그를 사용합니다.
 >* 가장 좋은 방법은 사이트에 이미지 태그 사용에 대한 정책이 없는 한 이미지 태그 대신 JavaScript 태그를 사용하는 것입니다.
 >* JavaScript 태그는 Adobe Experience Cloud에서 만들거나 Adobe Audience Manager에서 만들거나 Audience Manager 또는 Adobe Analytics에서 Adobe Experience Cloud에 게시한 대상을 타깃팅하려는 광고주에게 필요합니다.

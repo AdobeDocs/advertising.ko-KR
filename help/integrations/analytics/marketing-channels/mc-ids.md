@@ -18,7 +18,7 @@ Adobe Advertising ID([AMO ID 및 EF ID](../ids.md))를 사용하여 Adobe Analyt
 
 ## 처리 규칙의 AMO ID
 
-AMO ID는 [!DNL Analytics] 내의 Adobe Advertising 데이터를 보고하는 데 사용되는 기본 추적 코드입니다. AMO ID는 [!DNL Analytics] 내에서 세분화된 보고를 제공하기 위해 Adobe에서 관리하는 동적 값의 연결입니다. [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 rVar 차원(AMO ID)에 저장됩니다. AMO ID는 두 가지 방법으로 [!DNL Analytics]에 설정할 수 있습니다.
+AMO ID는 [!DNL Analytics] 내의 Adobe Advertising 데이터를 보고하는 데 사용되는 기본 추적 코드입니다. AMO ID는 [!DNL Analytics] 내에서 세분화된 보고를 제공하기 위해 Adobe에서 관리하는 동적 값의 연결입니다. [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ko) 또는 rVar 차원(AMO ID)에 저장됩니다. AMO ID는 두 가지 방법으로 [!DNL Analytics]에 설정할 수 있습니다.
 
 * 클릭스루 추적: Adobe Advertising은 링크에 `s_kwcid` 쿼리 문자열 매개 변수를 설정하고 클릭스루가 발생할 때 [!DNL Analytics]이(가) 랜딩 페이지 URL에서 매개 변수를 선택합니다.
 * 뷰스루 추적([!DNL DSP]만 해당): 마지막 이벤트 서비스는 서버측에서 뷰스루를 감지하여 AMO ID를 [!DNL Analytics]에 보냅니다. 이 경우 URL에 `s_kwcid` 매개 변수가 포함되어 있지 않습니다.
@@ -94,5 +94,5 @@ EF ID 차원은 [!DNL Analytics] 보고에 직접 사용되지 않지만 마케�
 >* [기본  [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertising 데이터와 채널 데이터가 서로 다를 수 있는 이유 [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Adobe Advertising 데이터로  [!DNL Analytics Marketing Channels] 사용](mc-ac-data.md)
->* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ko)
 >*  [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)에서 사용하는 Adobe Advertising ID

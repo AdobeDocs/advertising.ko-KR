@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * 다른 모든 경우에는 광고 네트워크가 클릭을 Adobe Advertising 픽셀 서버로 직접 전송합니다. 픽셀 서버는 사용자의 컴퓨터에 쿠키를 배치한 다음(아직 없는 경우) 사용자를 웹 사이트의 관련 URL로 리디렉션합니다. 최종 사용자의 전체 경험은 리디렉션이 없는 경우와 동일합니다.
 
-쿠키가 [!DNL Adobe] 도메인(`everesttech.net`)에 자사 쿠키로 설정되어 있습니다. 리디렉션 후 사용자는 광고주의 도메인에 있고 쿠키는 타사 쿠키로 처리됩니다. Adobe Advertising 쿠키에 대한 자세한 내용은 &quot;[Adobe Advertising 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)&quot;를 참조하십시오.
+쿠키가 [!DNL Adobe] 도메인(`everesttech.net`)에 자사 쿠키로 설정되어 있습니다. 리디렉션 후 사용자는 광고주의 도메인에 있고 쿠키는 타사 쿠키로 처리됩니다. Adobe Advertising 쿠키에 대한 자세한 내용은 &quot;[Adobe Advertising 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ko)&quot;를 참조하십시오.
 
 ## 전환 데이터
 

@@ -26,9 +26,9 @@ Adobe Experience Cloud 내에서 직접 또는 Commerce에 로그인할 수 있�
 
 >[!NOTE]
 >
->귀사는 Adobe Experience Cloud에서 프로비저닝되어야 하며 [Experience Cloud 계정을 Search, Social 및 Commerce 계정에 연결](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html)해야 합니다.
+>귀사는 Adobe Experience Cloud에서 프로비저닝되어야 하며 [Experience Cloud 계정을 Search, Social 및 Commerce 계정에 연결](https://experiencecloud.adobe.com/resources/help/ko_KR/mcloud/organizations.html)해야 합니다.
 
-1. [Adobe Experience Cloud에 로그인](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
+1. [Adobe Experience Cloud에 로그인](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko#signin).
 
 1. 상단 메뉴에서 ![솔루션 선택기](/help/search-social-commerce/assets/menu-icon.png "솔루션 선택기")를 선택합니다.
 

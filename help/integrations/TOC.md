@@ -49,4 +49,4 @@ ht-degree: 10%
 + Adobe Target과(와) 통합 {#target}
    + [Adobe Target for DSP Ads에서 A/B 테스트 구성](/help/integrations/target/ab-tests-dsp.md)
    + [검색, 소셜 및 Commerce 광고를 위해 Adobe Target에서 A/B 테스트 구성](/help/integrations/target/ab-tests-search.md)
-+ [Adobe Advertising 통합에 대한 비디오 Tutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
++ [Adobe Advertising 통합에 대한 비디오 Tutorials](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ko)<!-- rename if the tutorials TOC structure changes -->

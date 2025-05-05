@@ -41,7 +41,7 @@ Adobe Advertising 구현 팀에 다음 사항을 제공합니다.
 * 유료 미디어 활동에 대한 보고 및 최적화 및 Adobe Advertising 보고를 위한 사이트 활동 피딩에 사용할 [!DNL Analytics] 보고서 세트 ID
 * 회사의 Experience Cloud 조직 ID(조직 ID).
 
-이 두 ID는 모두 Adobe Experience Cloud Debugger의 [요약 탭](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)에서 찾을 수 있습니다.
+이 두 ID는 모두 Adobe Experience Cloud Debugger의 [요약 탭](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ko)에서 찾을 수 있습니다.
 
 ![Experience Cloud Debugger 요약 화면](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -68,7 +68,7 @@ Adobe Advertising 구현 팀에 다음 사항을 제공합니다.
 
 >[!NOTE]
 >
->다른 기간에 대한 데이터를 세그먼트화하려면 Analysis Workspace 내에서 다른 전환 확인 기간을 사용하여 [사용자 지정 세그먼트를 설정](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)할 수 있습니다.
+>다른 기간에 대한 데이터를 세그먼트화하려면 Analysis Workspace 내에서 다른 전환 확인 기간을 사용하여 [사용자 지정 세그먼트를 설정](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=ko)할 수 있습니다.
 
 ## 지원되는 광고 환경
 
@@ -111,7 +111,7 @@ Adobe Advertising 구현 팀에 다음 사항을 제공합니다.
 
 정확한 데이터 통합을 위해 콘텐츠를 전달하거나 목표 지표를 기록하기 위해 [!DNL Analytics for Advertising] 활동에서 사용하는 모든 Adobe Advertising 호출에는 동일한 보충 ID를 공유하는 해당 [!DNL Analytics] 히트가 있어야 합니다.
 
-[!DNL Analytics]에서 문제를 해결하는 경우 [!DNL Analytics]개의 히트에 대한 보조 ID가 있는지 확인하십시오. [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)에서 이 ID는 Adobe Advertising 탭에서 `sdid` 매개 변수로 표시됩니다.
+[!DNL Analytics]에서 문제를 해결하는 경우 [!DNL Analytics]개의 히트에 대한 보조 ID가 있는지 확인하십시오. [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ko)에서 이 ID는 Adobe Advertising 탭에서 `sdid` 매개 변수로 표시됩니다.
 
 >[!NOTE]
 >

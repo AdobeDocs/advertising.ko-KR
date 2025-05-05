@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Audience Manager 및 Experience Cloud [!DNL Audience Library] 인터페이스에서 대상을 만드는 방법과 다양한 대상 유형에 대한 일반적인 사용 사례에 대한 자세한 내용은 &quot;[대상 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;을 참조하십시오.
+>Audience Manager 및 Experience Cloud [!DNL Audience Library] 인터페이스에서 대상을 만드는 방법과 다양한 대상 유형에 대한 일반적인 사용 사례에 대한 자세한 내용은 &quot;[대상 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ko)&quot;을 참조하십시오.
 
 ## Audience Manager에 DSP Media 노출 데이터 보내기
 
@@ -54,6 +54,6 @@ Adobe Audience Manager을 사용하는 DSP 고객은 Audience Manager에 대한 
 
 ## Audience Analytics을 통해 사이트 활동에 대한 더 풍부한 통찰력 얻기
 
-[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)을(를) 가진 Adobe Advertising 고객은 사이트 활동에 대한 보강된 통찰력을 위해 Adobe Advertising이 추적한 데이터와 Audience Manager 세그먼트를 모두 [!DNL Analytics]에 보낼 수 있습니다.
+[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ko)을(를) 가진 Adobe Advertising 고객은 사이트 활동에 대한 보강된 통찰력을 위해 Adobe Advertising이 추적한 데이터와 Audience Manager 세그먼트를 모두 [!DNL Analytics]에 보낼 수 있습니다.
 
 자세한 내용은 &quot;[[!DNL Adobe Audience Analytics] Adobe Advertising 고객에 대해](/help/integrations/audience-manager/audience-analytics.md)&quot;을(를) 참조하십시오.

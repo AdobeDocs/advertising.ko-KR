@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 1단계: Audience Manager에서 데이터 Source 설정 {#set-up-data-source}
 
-Audience Manager에서 DSP 노출에 대한 [데이터 원본](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html)을(를) 만들고 데이터를 클릭합니다. 추적된 모든 이벤트가 데이터 원본에 속하도록 각 이벤트 태그에 데이터 원본 ID [을(를) 포함합니다](#implement-dsp-pixels).
+Audience Manager에서 DSP 노출에 대한 [데이터 원본](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=ko)을(를) 만들고 데이터를 클릭합니다. 추적된 모든 이벤트가 데이터 원본에 속하도록 각 이벤트 태그에 데이터 원본 ID [을(를) 포함합니다](#implement-dsp-pixels).
 
 >[!NOTE]
 > 단일 데이터 소스 내에서 여러 DSP에서 실행되는 광고 캠페인에 대한 모든 노출 횟수 및 클릭 데이터를 수집할 수 있습니다.
@@ -33,7 +33,7 @@ Audience Manager에서 DSP 노출에 대한 [데이터 원본](https://experienc
 
 >[!NOTE]
 >
->조직에서 [!DNL Analytics] 추적을 사용하는 경우 Audience Manager 클릭 추적이 필요하지 않을 수 있습니다. Adobe Analytics은 클릭 신호를 캡처하여 [서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 통해 Audience Manager으로 보낼 수 있습니다.
+>조직에서 [!DNL Analytics] 추적을 사용하는 경우 Audience Manager 클릭 추적이 필요하지 않을 수 있습니다. Adobe Analytics은 클릭 신호를 캡처하여 [서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko)을 통해 Audience Manager으로 보낼 수 있습니다.
 
 ### 픽셀 구문
 
@@ -79,9 +79,9 @@ Audience Manager에서 DSP 노출에 대한 [데이터 원본](https://experienc
 
 키-값 쌍에서 값 변수는 하드 코딩된 ID이거나, 캠페인 및 사용자 추적을 위해 광고 태그가 로드될 때 해당 값으로 동적으로 대체되는 작은 자체 포함 코드 단위인 *macro*&#x200B;일 수 있습니다. 캠페인 관련 매개 변수의 경우 Audience Manager 매크로 대신 [DSP 매크로](/help/dsp/campaign-management/macros.md)를 사용하여 해당 노출과 함께 캠페인 특성을 보내거나 모든 Audience Manager에서 단일 픽셀을 사용하여 데이터를 클릭하여 광고를 표시할 수 있습니다. 이벤트 픽셀에 삽입하는 DSP 매크로는 픽셀 내에 포함하는 키-값 쌍에 적합한 값이어야 합니다. 예를 들어 `d_placement` 키의 경우 DSP 매크로 `${TM_PLACEMENT_ID_NUM}`을(를) 값으로 사용하여 Adobe Advertising 매크로에서 생성한 배치 ID를 캡처합니다.
 
-Audience Manager에서 노출 이벤트 픽셀에 대해 지원하는 매크로 목록을 보려면 &quot;[픽셀 호출을 통해 캠페인 노출 데이터 캡처](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs)&quot;를 참조하십시오.
+Audience Manager에서 노출 이벤트 픽셀에 대해 지원하는 매크로 목록을 보려면 &quot;[픽셀 호출을 통해 캠페인 노출 데이터 캡처](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=ko#supported-key-value-pairs)&quot;를 참조하십시오.
 
-클릭 이벤트 픽셀에 대해 Audience Manager이 지원하는 매크로 목록을 보려면 &quot;[픽셀 호출을 통해 캠페인 클릭 데이터 캡처](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html)&quot;를 참조하십시오.
+클릭 이벤트 픽셀에 대해 Audience Manager이 지원하는 매크로 목록을 보려면 &quot;[픽셀 호출을 통해 캠페인 클릭 데이터 캡처](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=ko)&quot;를 참조하십시오.
 
 >[!TIP]
 >
@@ -116,11 +116,11 @@ Audience Manager에서 노출 이벤트 픽셀에 대해 지원하는 매크로 
 
 ### [!DNL Amazon S3] 버킷 및 Data Source 만들기
 
-데이터가 Audience Manager 서버에 있으면 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) 버킷을 만든 다음 모든 픽셀 데이터가 전송되는 데이터 소스를 만들어야 합니다. 지원이 필요한 경우 Audience Manager 컨설턴트나 [고객 지원 센터](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html)에 문의하십시오.
+데이터가 Audience Manager 서버에 있으면 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) 버킷을 만든 다음 모든 픽셀 데이터가 전송되는 데이터 소스를 만들어야 합니다. 지원이 필요한 경우 Audience Manager 컨설턴트나 [고객 지원 센터](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html?lang=ko)에 문의하십시오.
 
 ### Audience Manager 트레이트 및 세그먼트 만들기
 
-이벤트 데이터가 [사용되지 않은 신호](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html)(으)로 Audience Manager에 전송됩니다. 보고서에 데이터를 사용하기 전에 수집된 데이터에서 [규칙 기반 특성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html)을 수동으로 만든 다음 이러한 특성을 사용하여 [세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html)을(를) 만드십시오.
+이벤트 데이터가 [사용되지 않은 신호](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=ko)(으)로 Audience Manager에 전송됩니다. 보고서에 데이터를 사용하기 전에 수집된 데이터에서 [규칙 기반 특성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ko)을 수동으로 만든 다음 이러한 특성을 사용하여 [세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=ko)을(를) 만드십시오.
 
 DSP의 특정 크리에이티브에 노출된 사용자에 대해 사용자 수준 데이터를 채우는 예제 트레이트:
 

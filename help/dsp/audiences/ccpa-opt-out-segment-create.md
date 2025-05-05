@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* Adobe Experience Platform Privacy Service API를 사용하여 CCPA 판매 중지 요청을 Adobe Advertising에 전달하는 방법에 대한 자세한 내용은 [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html)을(를) 참조하십시오.
+>* Adobe Experience Platform Privacy Service API를 사용하여 CCPA 판매 중지 요청을 Adobe Advertising에 전달하는 방법에 대한 자세한 내용은 [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=ko](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=ko)을(를) 참조하십시오.
 >* CCPA 판매 중지 이벤트 추적과 관련이 없는 목적으로 웹 페이지를 방문하는 사용자와 데스크톱, 모바일 및 CTV 장치에서 광고에 노출된 사용자를 추적하려면 [사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md)를 만드십시오.
 
 1. 세그먼트를 만듭니다.

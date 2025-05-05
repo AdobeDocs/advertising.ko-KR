@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
 
-조직에서 데이터 수집을 위해 레거시 Adobe Analytics `visitorAPI.js` 라이브러리를 사용하는 경우 선택적으로 [!DNL Edge Network]을(를) 통해 다양한 Experience Cloud 서비스와 상호 작용할 수 있는 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 라이브러리(`alloy.js`)를 사용하는 것으로 전환할 수 있습니다.
+조직에서 데이터 수집을 위해 레거시 Adobe Analytics `visitorAPI.js` 라이브러리를 사용하는 경우 선택적으로 [!DNL Edge Network]을(를) 통해 다양한 Experience Cloud 서비스와 상호 작용할 수 있는 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 라이브러리(`alloy.js`)를 사용하는 것으로 전환할 수 있습니다.
 
 [!DNL Analytics for Advertising] [!DNL Last Event Service] JavaScript 라이브러리는 있는 그대로 뷰스루 및 클릭스루 이벤트를 기록하고 보조 ID(`SDID`)를 사용하여 연결된 전환에 결합합니다. 그러나 [!DNL Web SDK] 라이브러리는 [!DNL stitch ID]을(를) 제공하지 않습니다. [!DNL Analytics for Advertising]에 대해 [!DNL Web SDK]을(를) 사용하려면 1) 웹 페이지에서 사용하는 [!DNL Last Event Service] 태그와 2) [!DNL Web SDK] `sendEvent` 명령을 적절하게 수정해야 합니다.
 
