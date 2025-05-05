@@ -24,7 +24,7 @@ Advertising DSP은 각 캠페인이 브랜드 안전 환경에서 실제 사용�
 
 ### [!DNL Ads.txt] 지원을 통한 인벤토리 확인
 
- [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt)을(를) 의미하는 [[!DNL Ads.txt]은(는) 공개 시장에서 인벤토리의 적절한 표현을 용이하게 하기 위해 2017년 6월 [!DNL Interactive Advertising Bureau]([!DNL IAB])이 시작한 이니셔티브로, 트래픽 및 도메인 스푸핑의 불법 소스를 결합합니다. 참여하는 게시자 및 배포자는 도메인의 최상위 수준(예: `example.com/ads.txt`)에서 `ads.txt` 페이지를 유지함으로써 디지털 인벤토리를 판매할 수 있는 회사와 그러한 관계의 특성을 공개적으로 선언합니다.
+ [!DNL Authorized Digital Sellers][&#128279;](https://iabtechlab.com/ads-txt)을(를) 의미하는 [!DNL Ads.txt]은(는) 공개 시장에서 인벤토리의 적절한 표현을 용이하게 하기 위해 2017년 6월 [!DNL Interactive Advertising Bureau] ([!DNL IAB])이 시작한 이니셔티브로, 트래픽 및 도메인 스푸핑의 불법 소스를 결합합니다. 참여하는 게시자 및 배포자는 도메인의 최상위 수준(예: `example.com/ads.txt`)에서 `ads.txt` 페이지를 유지함으로써 디지털 인벤토리를 판매할 수 있는 회사와 그러한 관계의 특성을 공개적으로 선언합니다.
 
 DSP에서는 각 게시자의 `ads.txt` 파일을 읽고 확인된 [!DNL ads.txt] 판매자에서만 구매할 수 있는 옵션을 제공하여 [!DNL ads.txt]을(를) 지원합니다. 예를 들어, `nytimes.com`에 액세스하는 데 보이는 판매자를 New York Times의 `ads.txt` 파일과 일치시켜 합법적인 판매자와 그렇지 않은 판매자를 식별할 수 있으며, 배치가 확인된 판매자만 구매하도록 구성된 경우 위반자를 차단합니다. <!-- can we actually mention NY Times? -->
 
@@ -42,7 +42,7 @@ DSP에서는 각 게시자의 `ads.txt` 파일을 읽고 확인된 [!DNL ads.txt
 
 DSP은 플랫폼 전반에서 사기 행각을 관리하기 위한 강력한 내부 도구 및 시스템을 구축했으며 [!DNL Whiteops] 및 [!DNL Integral Ad Science]과(와) 같은 업계 선도적인 공급업체와 파트너 관계를 맺고 있습니다.
 
-또한 Adobe은 [!DNL IAB] 및 [!DNL TAG]과(와) 밀접하게 작동하여 [!DNL ads.txt](이전 섹션 참조), [!DNL IAB] 보트 및 스파이더 목록, [!DNL TAG] 데이터 센터 IP 목록과 같은 도구를 활용하여 강력한 업계 표준 사기 행위 차단을 보장하여 광고주를 보호합니다.
+또한 Adobe은 [!DNL IAB] 및 [!DNL TAG]과(와) 밀접하게 작동하여 [!DNL ads.txt] (이전 섹션 참조), [!DNL IAB] 보트 및 스파이더 목록, [!DNL TAG] 데이터 센터 IP 목록과 같은 도구를 활용하여 강력한 업계 표준 사기 행위 차단을 보장하여 광고주를 보호합니다.
 
 품질에 대한 다차원적 접근 방식을 통해 팀은 예외 항목과 잘못된 트래픽 패턴을 모니터링하여 보호된 인벤토리에서 3% 미만의 잘못된 트래픽을 보장합니다. 특정 도메인에 대한 인벤토리 또는 특정 게시자 또는 판매자의 인벤토리를 포함하여 의심되는 모든 인벤토리는 플랫폼 전체에서 즉시 차단됩니다.
 
@@ -122,7 +122,7 @@ DSP은 광고를 실행하는 것이 안전하지 않은 것으로 간주되는 
 
 [배치 수준 사전 입찰 주의 타기팅](/help/dsp/campaign-management/placements/placement-settings.md)을 통해 광고주는 고객 참여를 개선하기 위해 특정 주의 수준을 타기팅할 수 있습니다.
 
-또한 광고주는 모든 캠페인에서 최상의 비즈니스 결과를 생성하는 배치 전략을 이해하기 위해 배치 수준 [!UICONTROL Attention Score] 지표](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement)(노출 횟수의 가중 평균 [!DNL Attention Units] 수)에 대한 [추적을 활성화할 수 있습니다.
+또한 광고주는 모든 캠페인에서 최상의 비즈니스 결과를 생성하는 배치 전략을 이해하기 위해 배치 수준 [!UICONTROL Attention Score] 지표[&#128279;](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement)(노출 횟수의 가중 평균 [!DNL Attention Units] 수)에 대한 추적을 활성화할 수 있습니다.
 
 각 기능에 대해 추가 비용이 적용됩니다.
 

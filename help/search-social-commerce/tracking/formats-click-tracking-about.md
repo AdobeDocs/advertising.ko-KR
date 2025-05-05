@@ -28,7 +28,7 @@ Adobe Advertising 전환 추적 서비스를 사용하는 광고 계정 및 캠�
 
    * `c?` 또는 `r`은(는) 토큰 전달이 비활성화되었음을 나타냅니다.
 
-* `<ad network ID>`은(는) 지정한 광고 네트워크의 숫자 ID에 대한 변수입니다. 예를 들어 [!DNL Google Ads]의 *3*, [!DNL Microsoft Advertising]의 *10*, [!DNL Meta]의 *45*, [!DNL Yahoo! Display Network]의 *86*, [!DNL Naver]의 *87*, [!DNL Baidu]의 *87*, [!DNL Yandex]의 *90*, [!DNL Yahoo! Japan Ads]의 *94*, [!DNL Yahoo Native]의 *105*(더 이상 사용되지 않음) 또는 *106962 [!DNL Pinterest]용}(더 이상 사용되지 않음)*
+* `<ad network ID>`은(는) 지정한 광고 네트워크의 숫자 ID에 대한 변수입니다. 예를 들어 [!DNL Google Ads]의 *3*, [!DNL Microsoft Advertising]의 *10*, [!DNL Meta]의 *45*, [!DNL Yahoo! Display Network]의 *86*, [!DNL Naver]의 *87*, [!DNL Baidu]의 *87*, [!DNL Yandex]의 *90*, [!DNL Yahoo! Japan Ads]의 *94*, [!DNL Yahoo Native]의 *105*(더 이상 사용되지 않음) 또는 *106962 [!DNL Pinterest]용&rbrace;(더 이상 사용되지 않음)*
 
 * `<tracking ID>`은(는) 계정에서 고유한 키워드, 광고 또는 배치를 식별하는 시스템 생성 추적 ID 문자열의 변수입니다. 문자열은 광고 네트워크별로 다릅니다.
 
@@ -39,8 +39,8 @@ Adobe Advertising 전환 추적 서비스를 사용하는 광고 계정 및 캠�
 >[!MORELIKETHIS]
 >
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Baidu]](formats-click-tracking-baidu.md)
->*  [!DNL Google Ads]](formats-click-tracking-google.md)에 대한 [클릭 추적 형식
->*  [!DNL Microsoft Advertising]](formats-click-tracking-microsoft.md)에 대한 [클릭 추적 형식
+>*  [!DNL Google Ads][&#128279;](formats-click-tracking-google.md)에 대한 클릭 추적 형식
+>*  [!DNL Microsoft Advertising][&#128279;](formats-click-tracking-microsoft.md)에 대한 클릭 추적 형식
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Naver]](formats-click-tracking-naver.md)
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)

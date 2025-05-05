@@ -116,7 +116,7 @@ Audience Manager에서 노출 이벤트 픽셀에 대해 지원하는 매크로 
 
 ### [!DNL Amazon S3] 버킷 및 Data Source 만들기
 
-데이터가 Audience Manager 서버에 있으면 [!DNL Amazon Simple Storage Service]([!DNL Amazon S3]) 버킷을 만든 다음 모든 픽셀 데이터가 전송되는 데이터 소스를 만들어야 합니다. 지원이 필요한 경우 Audience Manager 컨설턴트나 [고객 지원 센터](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html)에 문의하십시오.
+데이터가 Audience Manager 서버에 있으면 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) 버킷을 만든 다음 모든 픽셀 데이터가 전송되는 데이터 소스를 만들어야 합니다. 지원이 필요한 경우 Audience Manager 컨설턴트나 [고객 지원 센터](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html)에 문의하십시오.
 
 ### Audience Manager 트레이트 및 세그먼트 만들기
 

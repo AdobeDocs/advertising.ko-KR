@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### UID2 금지 국가
 
-서비스를 통해 UID2 Universal ID를 사용하기로 선택함으로써 귀하는 UID2 Universal ID와 관련하여 온디맨드 서비스를 통해 전송, 저장, 표시, 배포 또는 사용할 수 있게 된 모든 클라이언트 데이터가 본 문서 A](#prohibited-countries-uid2)에 나열된 [UID2 금지 국가에 거주하는 개인과 관련이 없도록 하는 데 동의합니다.
+서비스를 통해 UID2 Universal ID를 사용하기로 선택함으로써 귀하는 UID2 Universal ID와 관련하여 온디맨드 서비스를 통해 전송, 저장, 표시, 배포 또는 사용할 수 있게 된 모든 클라이언트 데이터가 본 문서 A[&#128279;](#prohibited-countries-uid2)에 나열된 UID2 금지 국가에 거주하는 개인과 관련이 없도록 하는 데 동의합니다.
 
 ## 차별 없음
 

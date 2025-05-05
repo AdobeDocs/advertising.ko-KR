@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 사용 가능한 [!UICONTROL Destination Types]
 
-* [!DNL Amazon Simple Storage Service]([!DNL S3])
+* [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
 * SFTP
 * FTP SSL (Beta)

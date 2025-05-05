@@ -147,7 +147,7 @@ Search, Social 및 Commerce이 [OAuth 인증 프로토콜](https://oauth.net/2/)
 
 >[!NOTE]
 >
->광고 네트워크 관리자 계정은 여기에서 지원되지 않습니다. [!DNL Microsoft Advertising] 또는 [!DNL Yandex]에 대한 관리자 계정을 식별하려면 각각 기본 계정 ID 또는 MCC 계정 필드를 사용하십시오. [관리자 계정  [!DNL Google Ads] 의 자격 증명을 설정하려면[!UICONTROL Admin] \> [!UICONTROL Manager Accounts](으)로 이동하십시오.](/help/search-social-commerce/admin/manager-accounts.md)
+>광고 네트워크 관리자 계정은 여기에서 지원되지 않습니다. [!DNL Microsoft Advertising] 또는 [!DNL Yandex]에 대한 관리자 계정을 식별하려면 각각 기본 계정 ID 또는 MCC 계정 필드를 사용하십시오. [관리자 계정  [!DNL Google Ads] 의 자격 증명을 설정하려면[!UICONTROL Admin] \> [!UICONTROL Manager Accounts] (으)로 이동하십시오.](/help/search-social-commerce/admin/manager-accounts.md)
 
 **[!UICONTROL Account Name]:** Search, Social 및 Commerce 내에서 계정에 대해 표시될 이름입니다.
 
@@ -255,7 +255,7 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-이 계정이 캠페인 및 광고 그룹 수준에서 보고해야 하는 경우 [!UICONTROL Edit](연필) 아이콘을 클릭한 다음 **[!UICONTROL Migrate to new s_kwcid format]**&#x200B;을(를) 클릭하여 새 형식으로 변경합니다. 이러한 캠페인 유형을 포함하지 않는 계정의 경우, 새로운 포맷으로의 마이그레이션은 선택 사항이지만 권장됩니다.
+이 계정이 캠페인 및 광고 그룹 수준에서 보고해야 하는 경우 [!UICONTROL Edit] (연필) 아이콘을 클릭한 다음 **[!UICONTROL Migrate to new s_kwcid format]**&#x200B;을(를) 클릭하여 새 형식으로 변경합니다. 이러한 캠페인 유형을 포함하지 않는 계정의 경우, 새로운 포맷으로의 마이그레이션은 선택 사항이지만 권장됩니다.
 
 전체 지침은 &quot;[계정 [!DNL Google Ads] 의 AMO ID 추적 코드 업데이트](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)&quot;를 참조하십시오.
 

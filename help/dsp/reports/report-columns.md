@@ -97,10 +97,10 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Duration] | 업로드 후 처리되는 비디오 길이입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | DSP의 비디오 크리에이티브에 대한 고유 식별자입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Name] | 사용자가 할당한 크리에이티브의 이름. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL % Distinct Uniques] | [!UICONTROL App/Site Distinct Uniques]을(를) [!UICONTROL App/Site Uniques](으)로 나눈 값입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL % Distinct Uniques] | [!UICONTROL App/Site Distinct Uniques]을(를) [!UICONTROL App/Site Uniques] (으)로 나눈 값입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL App/Site Distinct Uniques] | 이 앱에서만 도달한 총 장치 수입니다. 여러 게시자에서 광고에 노출되는 뷰어는 이 값에 포함되지 않습니다. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Distinct Unique] | [!UICONTROL Total Spend]을(를) [!UICONTROL App/Site Distinct Uniques](으)로 나눈 값입니다. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Unique] | [!UICONTROL Total Spend]을(를) [!UICONTROL App/Site Uniques](으)로 나눈 값입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Distinct Unique] | [!UICONTROL Total Spend]을(를) [!UICONTROL App/Site Distinct Uniques] (으)로 나눈 값입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Unique] | [!UICONTROL Total Spend]을(를) [!UICONTROL App/Site Uniques] (으)로 나눈 값입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated % Reached] | 노출을 받은 타겟팅된 가정 우주의 예상 백분율입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Average Frequency] | 고유 항목에 표시된 평균 노출 횟수입니다. 일부 인벤토리의 경우 게시자는 장치 식별자를 전달하지 않으며 그러한 노출 횟수는 이 값에 포함되지 않습니다. [!UICONTROL Frequency (by App/Site)] 보고서에 유사한 지표가 있지만 해당 지표는 예상되지 않습니다. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Impressions (Device/Browser)] | ([!UICONTROL Frequency (by Impression)] 보고서에 포함됨) 특정 빈도 분류에 대한 예상 노출 횟수입니다. DSP 추정치는 노출 횟수의 샘플을 기반으로 합니다. 일부 인벤토리의 경우 게시자는 장치 식별자를 전달하지 않으며 그러한 노출 횟수는 이 값에 포함되지 않습니다. [!UICONTROL Frequency (by App/Site)] 보고서에 유사한 지표가 있지만 해당 지표는 예상되지 않습니다. |
@@ -133,7 +133,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000으로 계산된 1000회 노출당 평균 비용</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | <code>[!UICONTROL Gross Spend]/[!UICONTROL Views]에 의해 계산된 비디오 보기당 평균 비용입니다.</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000으로 계산된 조회 가능한 노출 횟수 1000건당 평균 비용</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | 광고 클릭당 평균 순 비용입니다. <code>[!UICONTROL Net Spend]/[!UICONTROL Total Ad Clicks](으)로 계산됨</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | 광고 클릭당 평균 순 비용입니다. <code>[!UICONTROL Net Spend]/[!UICONTROL Total Ad Clicks] (으)로 계산됨</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | <code>[!UICONTROL Net Spend]/[!UICONTROL 100% Completions]에 의해 계산된 완료된 비디오 보기당 평균 순 비용</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | <code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000으로 계산된 1000회 노출당 평균 순 비용</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | <code>[!UICONTROL Net Spend]/[!UICONTROL Views]에 의해 계산된 비디오 보기당 평균 순 비용</code>. |
@@ -145,7 +145,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Data] | 서드파티 대상 세그먼트 및 데이터 서비스에 대한 예상 세금입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | DSP의 미디어 비용 재청구 및 기술 비용 서비스에 적용되는 세금을 포함하는 미디어에 대한 예상 세금입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | DSP을 통해 청구된 기타 서비스 수수료(타사 확인 파트너, 주제 타기팅 등 포함)에 대한 예상 세금입니다. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | (여백 관리가 활성화된 경우) <code>([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend](으)로 계산되는 여백 비율입니다.</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | (여백 관리가 활성화된 경우) <code>([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend] (으)로 계산되는 여백 비율입니다.</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Media Cost] | 기술 수수료 없이 청구 불가능한 미디어 비용과 청구 가능한 미디어 비용의 합계입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | <code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000으로 계산된 조회 가능한 노출 횟수 1000건당 평균 순 비용</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | DSP을 통해 청구되지 않은 대상 세그먼트 데이터 요금의 총 순 비용입니다. |
@@ -195,7 +195,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Impressions] | 조회에 측정할 수 없는 광고 노출 횟수입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Rate (%)] | 조회에 측정할 수 없는 광고 노출 비율입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable rate (Not supported)] | 이 광고 단위에서 지원되지 않는 조회 추적으로 인해 조회에 측정할 수 없는 노출 비율입니다. |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | 측정 가능한 모든 노출 중 볼 수 있는 노출 횟수의 백분율로, <code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions](으)로 계산됩니다.</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | 측정 가능한 모든 노출 중 볼 수 있는 노출 횟수의 백분율로, <code>[!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions] (으)로 계산됩니다.</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | 조회 가능한 것으로 간주된 광고 노출 횟수. |
 | [!UICONTROL Conversion Metrics] | [보고서 설정에서 광고주별로 그룹화됨] | [광고주별 전환] | 지정된 광고주별 전환 지표 또는 Adobe Analytics 이벤트에 대한 합계입니다. |
 | [!UICONTROL Custom Goals] | [보고서 설정에서 광고주별로 그룹화됨] | [광고주별 사용자 지정 목표] | 지정된 [사용자 지정 목표](/help/dsp/optimization/custom-goal.md)에 포함된 모든 전환의 가중 합계입니다. |

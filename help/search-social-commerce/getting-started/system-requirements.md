@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 다음 브라우저 중 하나
 
-   * [!DNL Apple Safari]([!DNL iOS]의 [!DNL Safari] 포함) 10 이상
+   * [!DNL Apple Safari] ([!DNL iOS]의 [!DNL Safari] 포함) 10 이상
 
    * [!DNL Google Chrome] 103 이상
 

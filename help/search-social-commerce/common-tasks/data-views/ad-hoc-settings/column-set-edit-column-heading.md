@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 도구 모음의 오른쪽에 있는 [!UICONTROL Columns] 아이콘](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)에서 보기의 열을 일시적으로 변경하고 정렬 순서 [을(를) 변경할 수도 있습니다.
+>* 도구 모음의 오른쪽에 있는 [!UICONTROL Columns] 아이콘[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)에서 보기의 열을 일시적으로 변경하고 정렬 순서 을(를) 변경할 수도 있습니다.
 >* 기본 보기를 편집하거나 [사용자 지정 보기를 만들기](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)하여 특정 광고주에 대해 포함된 열을 변경할 수 있습니다.
 
 * (모든 광고주에 대한 특정 열을 표시하려면) 열 제목의 오른쪽에서 ![아래쪽 화살표](/help/search-social-commerce/assets/arrow-down-expand.png "아래쪽 화살표")를 클릭하고 **[!UICONTROL Select Columns]**&#x200B;을(를) 강조 표시한 다음 포함할 각 열 옆의 확인란을 선택하고 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.

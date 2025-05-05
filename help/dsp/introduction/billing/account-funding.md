@@ -21,7 +21,7 @@ DSP은 다음 두 가지 방법 중 하나로 미디어 및 서비스 구매에 
 
 고객이 자신의 신용이나 선결제에 반대해서 지출함에 따라 0의 잔액에 도달할 때까지 매체 및 서비스에 대한 자금은 지출에 준하여 감소한다. 송장이 지급됨에 따라 크레딧이 조정됩니다. 모든 미결 Adobe 송장은 DSP 자금 조달에 영향을 미칠 수 있습니다. 모든 Adobe 송장의 지불 기한은 귀하에게 달려 있습니다. 가용 잔액 이상으로 자금이 필요한 경우 Adobe 계정 팀과 협력합니다.
 
-[!DNL DSP]에서 거의 실시간으로 클라이언트 계정 자금 조달이 업데이트됩니다. 계정의 구매 통화로 &quot;[!UICONTROL Usable Funds]&quot;(으)로 표시되는 사용 가능한 잔액을 보려면 [!UICONTROL Settings] > [!UICONTROL Account](으)로 이동하십시오. [!UICONTROL General] 및 [!UICONTROL Admin] 사용자 역할이 있는 DSP 사용자만 [!UICONTROL Usable Funds]을(를) 볼 수 있습니다.
+[!DNL DSP]에서 거의 실시간으로 클라이언트 계정 자금 조달이 업데이트됩니다. 계정의 구매 통화로 &quot;[!UICONTROL Usable Funds]&quot;(으)로 표시되는 사용 가능한 잔액을 보려면 [!UICONTROL Settings] > [!UICONTROL Account] (으)로 이동하십시오. [!UICONTROL General] 및 [!UICONTROL Admin] 사용자 역할이 있는 DSP 사용자만 [!UICONTROL Usable Funds]을(를) 볼 수 있습니다.
 
 ![계정에 사용할 수 있는 자금](/help/dsp/assets/account-usable-funds.png)
 

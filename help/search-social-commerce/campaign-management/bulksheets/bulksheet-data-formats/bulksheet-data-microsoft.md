@@ -78,7 +78,7 @@ ht-degree: 0%
 | 네트워크 상태 검색 | 검색 네트워크의 다양한 요소에 광고 그룹을 배치할지 여부:<ul><li><i>모두:</i> 모든 Bing 검색 네트워크 및 신디케이트된 검색 파트너에 광고를 게재합니다.</li><li><i>OwnedAndOperatedOnly:</i>Bing 및 Yahoo에만 광고를 배치합니다. 웹 사이트.</li><li><i>SyndicatedSearchOnly:</i> Bing 및 Yahoo에만 광고를 배치합니다. 신디케이트된 검색 파트너.</li><li><i>해제:</i> 검색 네트워크가 아닌 콘텐츠 네트워크에만 광고를 게재합니다.</li></ul> 새 광고 그룹의 경우 기본값은 [켜짐]입니다. |
 | [!UICONTROL Content Network Status] | 더 이상 사용되지 않음 |
 | [!UICONTROL Languages] | 광고 그룹의 광고 대상 언어: [!UICONTROL English], [!UICONTROL French], [!UICONTROL Finnish], [!UICONTROL German], [!UICONTROL Norwegian], [!UICONTROL Spanish] 또는 [!UICONTROL Swedish]. 새 캠페인의 기본값은 [!UICONTROL English]입니다.<br><br>이 설정은 광고를 표시할 국가 및 지역을 결정합니다. 캠페인의 위치 대상과 호환되는 언어를 선택해야 합니다. |
-| [!UICONTROL Budget Type] | 예산이 <i>[!UICONTROL Daily]</i>(기본값)인지 <i>[!UICONTROL Monthly]</i>인지 여부.<br><br>참고: 최적화된 포트폴리오에 캠페인을 할당하면 이 값은 자동으로 [!UICONTROL Daily](으)로 설정됩니다. |
+| [!UICONTROL Budget Type] | 예산이 <i>[!UICONTROL Daily]</i>(기본값)인지 <i>[!UICONTROL Monthly]</i>인지 여부.<br><br>참고: 최적화된 포트폴리오에 캠페인을 할당하면 이 값은 자동으로 [!UICONTROL Daily] (으)로 설정됩니다. |
 | [!UICONTROL Device] | 캠페인 또는 광고 그룹 수준에서 입찰 조정을 수행하는 장치 유형: <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i> 또는 <i>[!UICONTROL desktop]</i>. |
 | [!UICONTROL Bid Adjustment] | 지정된 대상 유형에 대한 입찰 조정입니다. 예를 들어 키워드 수준의 입찰가가 1USD이고 스마트폰 입찰가 조정이 50%라면 스마트폰 입찰가는 1.50USD이다. 기본적으로 모든 타겟은 키워드 수준의 입찰에서 입찰됩니다. 유효한 백분율은 다음과 같습니다.<ul><li>스마트폰 및 태블릿: -100(장치 유형에 대해 입찰하지 않음) 및 -90 ~ 900</li><li>데스크탑: 0 ~ 900</li></ul> |
 | [!UICONTROL Creative Preferred Devices] | 광고 또는 사이트 링크를 표시할 장치 유형: <i>[!UICONTROL All]</i>(기본값) 또는 <i>[!UICONTROL Mobile]</i>. 모바일을 지정하면 네트워크에서 데스크탑 또는 태블릿 사용자가 아닌 모바일 장치 사용자에게 광고 또는 사이트링크를 표시하려고 합니다. 그렇지 않으면 네트워크는 모든 디바이스 유형에 광고 또는 사이트링크를 표시합니다. <b>참고:</b> 네트워크에서 기본 장치 유형에 광고를 표시할 수 있는 것은 아닙니다. |
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 ### 제품(쇼핑) 광고 필드
 
-쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)
+쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2&rbrace;&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)
 
 이 광고 유형의 경우 [!UICONTROL Download Bulksheet] 대화 상자에서 &quot;[!UICONTROL Creative (except RSA)]&quot; 행을 사용하십시오.
 
@@ -466,5 +466,5 @@ ht-degree: 0%
 >* [일괄 시트에서 수행할 수 있는 작업](bulksheet-operations.md)
 >* [지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
->*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 [클릭 추적 형식
+>*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
 >* [일괄 시트 파일 또는 수정된 오류 파일 업로드](../bulksheet-upload.md)

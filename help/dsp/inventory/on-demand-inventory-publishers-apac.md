@@ -113,7 +113,7 @@ ht-degree: 0%
 | [!DNL BuzzFeed] | 일본 |
 | [!DNL CNN International] | 일본 |
 | [!DNL Conde Nast] | 일본 |
-| [!DNL DAZN]([!DNL Perform Media]) | 일본 |
+| [!DNL DAZN] ([!DNL Perform Media]) | 일본 |
 | [!DNL Discovery] | 일본 |
 | [!DNL EA] | 일본 |
 | [!DNL Gameloft] | 일본 |
@@ -138,7 +138,7 @@ ht-degree: 0%
 | [!DNL CNBC] | 말레이시아 |
 | [!DNL CNN International] | 말레이시아 |
 | [!DNL Conde Nast] | 말레이시아 |
-| [!DNL DAZN]([!DNL Perform Media]) | 말레이시아 |
+| [!DNL DAZN] ([!DNL Perform Media]) | 말레이시아 |
 | [!DNL Digital Trends] | 말레이시아 |
 | [!DNL EA] | 말레이시아 |
 | [!DNL Gameloft] | 말레이시아 |
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!DNL CNN International] | SEA |
 | [!DNL Coconuts] | SEA |
 | [!DNL Conde Nast] | SEA |
-| [!DNL DAZN]([!DNL Perform Media]) | SEA |
+| [!DNL DAZN] ([!DNL Perform Media]) | SEA |
 | [!DNL Dek-D] | SEA |
 | [!DNL Detik] | SEA |
 | [!DNL Doisongphapluat] | SEA |
@@ -270,7 +270,7 @@ ht-degree: 0%
 | [!DNL CNBC] | 싱가포르 |
 | [!DNL CNN International] | 싱가포르 |
 | [!DNL Conde Nast] | 싱가포르 |
-| [!DNL DAZN]([!DNL Perform Media]) | 싱가포르 |
+| [!DNL DAZN] ([!DNL Perform Media]) | 싱가포르 |
 | [!DNL EA] | 싱가포르 |
 | [!DNL Gameloft] | 싱가포르 |
 | [!DNL Investopedia] | 싱가포르 |
@@ -372,7 +372,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [정보 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-about.md)
->* [Premium Inventory 구독 및 액세스 요청 [!DNL On Demand] 2}](on-demand-inventory-subscribe.md)
+>* [Premium Inventory 구독 및 액세스 요청 [!DNL On Demand] 2&rbrace;](on-demand-inventory-subscribe.md)
 >* 호주 및 뉴질랜드의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-emea.md)
 >* [[!DNL On Demand Premium] 북미 인벤토리 게시자](on-demand-inventory-publishers-na.md)

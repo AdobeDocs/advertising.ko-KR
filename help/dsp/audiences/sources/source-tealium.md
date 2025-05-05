@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta 기능*
 
-[!DNL Tealium] 고객 데이터 플랫폼과 DSP 통합을 사용하여 조직의 자사 해시된 이메일 주소를 타깃팅된 광고를 위한 범용 ID로 변환합니다. 프로세스에서 [!DNL Amazon Web Services](AWS) firehose 커넥터를 사용합니다. Tealium의 데이터를 DSP과 공유하려면 다음 단계를 따르십시오.
+[!DNL Tealium] 고객 데이터 플랫폼과 DSP 통합을 사용하여 조직의 자사 해시된 이메일 주소를 타깃팅된 광고를 위한 범용 ID로 변환합니다. 프로세스에서 [!DNL Amazon Web Services] (AWS) firehose 커넥터를 사용합니다. Tealium의 데이터를 DSP과 공유하려면 다음 단계를 따르십시오.
 
 1. (전자 메일 주소를 [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용하는 광고주로 변환하려면) [추적을 사용하도록 설정 [!DNL Analytics] 측정](#analytics-tracking)합니다.
 

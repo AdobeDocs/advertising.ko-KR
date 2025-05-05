@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 피드에서 생성된 데이터 상태
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads](삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 각 구성 요소는 다음 상태 중 하나를 가질 수 있습니다.
 

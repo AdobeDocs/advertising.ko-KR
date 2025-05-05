@@ -24,7 +24,7 @@ RTB 이상을 원하는 광고주는 전용 인벤토리를 사용하여 전용 
 
 다음 방법 중 하나로 거래 ID를 사용할 수 있습니다.
 
-* (활성화가 필요한 선택적 기능) [!UICONTROL Deal ID Inbox]에서 [!UICONTROL Deal ID inbox]의 SSP(공급측 플랫폼)인 [!DNL FreeWheel], [!DNL Google Authorized Buyers](이전의 [!DNL AdX]) 및 [!DNL Magnite DV+](이전의 [!DNL Rubicon])에 있는 게시자의 합의된 보장 및 보장되지 않는 개인 인벤토리 거래를 검토하고 빠르게 수락할 수 있습니다.
+* (활성화가 필요한 선택적 기능) [!UICONTROL Deal ID Inbox]에서 [!UICONTROL Deal ID inbox]의 SSP(공급측 플랫폼)인 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (이전의 [!DNL AdX]) 및 [!DNL Magnite DV+] (이전의 [!DNL Rubicon])에 있는 게시자의 합의된 보장 및 보장되지 않는 개인 인벤토리 거래를 검토하고 빠르게 수락할 수 있습니다.
 
   자세한 내용은 &quot;[[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md) 정보&quot;를 참조하세요.
 

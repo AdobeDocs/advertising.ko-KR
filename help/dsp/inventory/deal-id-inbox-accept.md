@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *SSP 계정에만 매핑된 DSP 계정의 사용자*
 
-[!DNL FreeWheel], [!DNL Google Authorized Buyers](이전 [!DNL AdX]) 및 [!DNL Magnite DV+](이전 [!DNL Rubicon])에 게시자와 이미 협상한 비공개 거래를 빠르게 수락하려면 [!UICONTROL Deal ID inbox]을(를) 사용하십시오.
+[!DNL FreeWheel], [!DNL Google Authorized Buyers] (이전 [!DNL AdX]) 및 [!DNL Magnite DV+] (이전 [!DNL Rubicon])에 게시자와 이미 협상한 비공개 거래를 빠르게 수락하려면 [!UICONTROL Deal ID inbox]을(를) 사용하십시오.
 
 >[!NOTE]
 >

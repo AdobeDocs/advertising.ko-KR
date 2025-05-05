@@ -17,7 +17,7 @@ ht-degree: 0%
 * () 그룹을 나타냅니다.
 * [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->에 대한 `||`
 * [!DNL AND]에 대한 &amp;&amp;
-* ! 대상: [!DNL NOT](제외)
+* ! 대상: [!DNL NOT] (제외)
 
 >[!NOTE]
 >

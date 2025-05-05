@@ -97,9 +97,9 @@ ht-degree: 0%
   >
   >[!UICONTROL Household Reach & Frequency] 보고서에는 겹치는 지표 또는 겹치지 않는 지표가 포함될 수 있지만 둘 다 포함할 수는 없습니다.
 
-* [!UICONTROL Conversion Metrics](광고주별로 정렬됨)
+* [!UICONTROL Conversion Metrics] (광고주별로 정렬됨)
 
-* [!UICONTROL Custom Goals](광고주별로 정렬됨)
+* [!UICONTROL Custom Goals] (광고주별로 정렬됨)
 
 모든 옵션에 대한 설명은 &quot;[사용 가능한 보고서 열](report-columns.md)&quot;을 참조하십시오.
 
@@ -173,13 +173,13 @@ ht-degree: 0%
 
 * *[!UICONTROL None]:* 보고서나 알림을 배달하지 않습니다.
 
-* *[!UICONTROL S3]:* 완료된 보고서를 하나 이상의 [!DNL Amazon Simple Storage Service]([!DNL Amazon S3]) 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+* *[!UICONTROL S3]:* 완료된 보고서를 하나 이상의 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL sFTP]:* 완료된 보고서를 하나 이상의 SFTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
-* *[!UICONTROL FTP SSL](현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+* *[!UICONTROL FTP SSL] (현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서나 알림을 보낼 전자 메일 주소를 지정합니다.
 

@@ -92,7 +92,7 @@ JavaScript 라이브러리는 [!DNL Analytics]과(와) Adobe Advertising이 서�
 
 ### 코드 배포 확인
 
-아래 설명된 대로 Adobe Advertising으로 이동하는 요청과 [!DNL Analytics](으)로 이동하는 요청 사이의 4개 ID 값을 비교하여 패킷 스니퍼 유형의 도구([!DNL Charles], [!DNL Fiddler] 또는 [!DNL Chrome Developer Tools])를 사용하여 유효성 검사를 수행할 수 있습니다.
+아래 설명된 대로 Adobe Advertising으로 이동하는 요청과 [!DNL Analytics] (으)로 이동하는 요청 사이의 4개 ID 값을 비교하여 패킷 스니퍼 유형의 도구([!DNL Charles], [!DNL Fiddler] 또는 [!DNL Chrome Developer Tools])를 사용하여 유효성 검사를 수행할 수 있습니다.
 
 #### [!DNL Chrome Developer Tools]을(를) 사용하여 코드를 확인하는 방법 {#validate-js-chrome}
 
@@ -114,11 +114,11 @@ JavaScript 라이브러리는 [!DNL Analytics]과(와) Adobe Advertising이 서�
 
 1. (Experience Cloud ID 서비스 `visitorAPI.js` 코드를 사용하는 구현) `/b/ss`에서 필터링하여 Analytics 히트를 확인합니다.
 
-   `/b/ss`](/help/integrations/assets/a4adc-code-validation-filter-bss.png)에서 ![필터링
+   `/b/ss`![&#128279;](/help/integrations/assets/a4adc-code-validation-filter-bss.png)에서 필터링
 
 1. (Experience Platform [!DNL Web SDK] `alloy.js`코드를 사용하는 Edge Network) `/interact`에서 필터링하여 요청에 대한 요청 페이로드에 `advertisingStitchID`이(가) 포함되어 있는지 확인합니다.
 
-   `/interact`](/help/integrations/assets/a4adc-code-validation-filter-interact.png)에서 ![필터링
+   `/interact`![&#128279;](/help/integrations/assets/a4adc-code-validation-filter-interact.png)에서 필터링
 
 1. 두 히트 간의 ID 값을 비교합니다. Analytics 히트의 보고서 세트 ID(`/b/ss/` 바로 뒤 URL 경로)를 제외한 모든 값은 쿼리 문자열 매개 변수에 있어야 합니다.
 
@@ -143,7 +143,7 @@ JavaScript 라이브러리는 [!DNL Analytics]과(와) Adobe Advertising이 서�
    * (Experience Platform [!DNL Web SDK] `alloy.js`코드를 사용하는 구현) `advertisingStitchID` 매개 변수의 값이 Experience Platform Edge Network에 전송된 `Sdid`과(와) 일치하는지 확인하십시오.
    * 코드가 생성되지 않으면 [!UICONTROL Application] 탭에서 Adobe Advertising 쿠키가 제거되었는지 확인하십시오. 페이지가 제거되면 페이지를 새로 고치고 프로세스를 반복합니다.
 
-   [!DNL Experience Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)에서 [!DNL Analytics for Advertising] JavaScript 코드 감사 ![
+   [!DNL Experience Cloud Debugger]![&#128279;](/help/integrations/assets/a4adc-js-audit-debugger.png)에서 [!DNL Analytics for Advertising] JavaScript 코드 감사 
 
 >[!MORELIKETHIS]
 >

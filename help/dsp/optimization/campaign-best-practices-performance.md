@@ -111,7 +111,7 @@ DSP은 성과 중심의 캠페인을 최적화할 수 있습니다. 성과 캠�
 
 ### 인벤토리
 
-확장을 최대화하려면 [!UICONTROL Public](Exchange 열기) 및 [!UICONTROL On Demand] 인벤토리를 사용합니다.
+확장을 최대화하려면 [!UICONTROL Public] (Exchange 열기) 및 [!UICONTROL On Demand] 인벤토리를 사용합니다.
 
 ### 사이트 타겟팅
 

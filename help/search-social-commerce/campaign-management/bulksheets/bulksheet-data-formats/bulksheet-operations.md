@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * 삭제 중:
 
-   * 기존 구성 요소를 삭제하려면 해당 구성 요소를 편집하고 상태를 [!UICONTROL Deleted](으)로 변경하는 데 필요한 모든 필드를 포함하십시오. 예를 들어 [!DNL Google Ads] 광고 그룹을 삭제하려면 값이 <i>[!UICONTROL Deleted]</i>인 [!UICONTROL Campaign Name], [!UICONTROL Ad Group Name], [!UICONTROL Ad Group Status] 및 [!UICONTROL Ad Group ID]을(를) 포함해야 합니다.
+   * 기존 구성 요소를 삭제하려면 해당 구성 요소를 편집하고 상태를 [!UICONTROL Deleted] (으)로 변경하는 데 필요한 모든 필드를 포함하십시오. 예를 들어 [!DNL Google Ads] 광고 그룹을 삭제하려면 값이 <i>[!UICONTROL Deleted]</i>인 [!UICONTROL Campaign Name], [!UICONTROL Ad Group Name], [!UICONTROL Ad Group Status] 및 [!UICONTROL Ad Group ID]을(를) 포함해야 합니다.
 
    * ([!UICONTROL Param1], [!UICONTROL Param2] 및 [!UICONTROL Param3] 값만 해당) 키워드에 대한 기존 [!DNL paramN] 값을 삭제하려면 해당 필드에 값 `[delete]`(대괄호 포함)을(를) 입력하여 키워드를 편집하는 데 필요한 모든 필드를 포함하고 기존 [!DNL paramN] 값도 삭제합니다.
 

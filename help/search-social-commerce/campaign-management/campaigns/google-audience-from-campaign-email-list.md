@@ -64,7 +64,7 @@ ht-degree: 0%
 
            세그먼트 이름이 이미 있지 않아야 합니다. 세그먼트 이름은 대/소문자를 구분하며 ASCII 문자로 구성되어야 하지만 밑줄(`_`)은 포함할 수 없습니다.
 
-           그러나 특정 [!DNL Google Ad] 계정에 세그먼트를 추가하려면 밑줄 및 [!UICONTROL User SE Account ID](네트워크 계정 ID가 아닌 [!DNL Google Ads] 계정에 대한 검색, 소셜 및 Commerce의 ID)을 사용하여 세그먼트 이름을 추가하십시오.
+           그러나 특정 [!DNL Google Ad] 계정에 세그먼트를 추가하려면 밑줄 및 [!UICONTROL User SE Account ID] (네트워크 계정 ID가 아닌 [!DNL Google Ads] 계정에 대한 검색, 소셜 및 Commerce의 ID)을 사용하여 세그먼트 이름을 추가하십시오.
 
            `_<User SE Account ID>`
 

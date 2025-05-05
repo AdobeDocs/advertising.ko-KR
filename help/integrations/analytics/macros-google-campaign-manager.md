@@ -42,7 +42,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* 랜딩 페이지 URL에 일반적이지 않은 해시 기호(#)가 포함되어 있으면 해시 기호 앞에 `amo` 매개 변수를 배치합니다.
+>&#x200B;>* 랜딩 페이지 URL에 일반적이지 않은 해시 기호(#)가 포함되어 있으면 해시 기호 앞에 `amo` 매개 변수를 배치합니다.
 >* `amo` 매개 변수 뒤에 다른 매개 변수가 포함되지 않은 경우 그 뒤에 매개 변수(예: &amp;a=b)를 추가합니다. 예: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### 광고주 수준 랜딩 페이지 URL 접미사 구성
@@ -83,5 +83,5 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 >[!MORELIKETHIS]
 >
 >* [개요 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics]](/help/integrations/analytics/ids.md)에서 사용하는 [Adobe Advertising ID
+>*  [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)에서 사용하는 Adobe Advertising ID
 >* [추가 [!DNL Analytics for Advertising] 매크로를  [!DNL Flashtalking] 광고 태그](macros-flashtalking.md)에 추가

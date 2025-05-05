@@ -28,9 +28,9 @@ ht-degree: 0%
 >
 >단일 배치에서 한 가지 유형의 ID만 타깃팅할 수 있습니다. ID 유형별로 성능을 테스트하려면 [세그먼트의 각 ID 유형에 대해 별도의 배치를 만듭니다](/help/dsp/campaign-management/placements/placement-create.md).
 
-* *[!DNL RampID]:* PII를 [!DNL RampID](으)로 변환하려는 경우 로그인 사용자를 다시 타겟팅하고 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 측정을 위해 [!DNL RampIDs]을(를) 사용할 수 있습니다.
+* *[!DNL RampID]:* PII를 [!DNL RampID] (으)로 변환하려는 경우 로그인 사용자를 다시 타겟팅하고 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 측정을 위해 [!DNL RampIDs]을(를) 사용할 수 있습니다.
 
-* *[!DNL Unified ID2.0](Beta):* 로그인 사용자를 다시 타깃팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
+* *[!DNL Unified ID2.0] (Beta):* 로그인 사용자를 다시 타깃팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.

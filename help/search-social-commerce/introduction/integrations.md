@@ -18,7 +18,7 @@ Advertising Search, Social 및 Commerce이 다음 [!DNL Adobe] 제품과 통합�
 
 * Adobe Analytics — (옵트인 기능) Adobe Advertising과 [!DNL Analytics]은(는) 다음과 같은 방법으로 통합됩니다.
 
-   * Adobe Advertising과 [!DNL Analytics]이(가) 데이터를 원활하게 공유합니다. [!DNL Analytics]은(는) 사이트 참여 및 전환 데이터를 매일 검색, 소셜 및 Commerce으로 보낼 수 있습니다. 해당 데이터는 광고 최적화 및 보고에 사용할 수 있습니다. 또한 Adobe Advertising은 광고 네트워크에서 노출 횟수, 클릭 수, 비용을 포함한 광고 트래픽 데이터를 매일 [!DNL Analytics](모든 보고 도구에서 사용 가능)으로 보낼 수 있습니다.
+   * Adobe Advertising과 [!DNL Analytics]이(가) 데이터를 원활하게 공유합니다. [!DNL Analytics]은(는) 사이트 참여 및 전환 데이터를 매일 검색, 소셜 및 Commerce으로 보낼 수 있습니다. 해당 데이터는 광고 최적화 및 보고에 사용할 수 있습니다. 또한 Adobe Advertising은 광고 네트워크에서 노출 횟수, 클릭 수, 비용을 포함한 광고 트래픽 데이터를 매일 [!DNL Analytics] (모든 보고 도구에서 사용 가능)으로 보낼 수 있습니다.
 
      각 광고 네트워크 및 광고 유형에 대한 [!DNL Analytics] 지원에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;을(를) 참조하십시오. 데이터 교환에 대한 자세한 내용은 &quot;[개요 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}&quot;도 참조하세요.
 
@@ -36,6 +36,6 @@ Advertising Search, Social 및 Commerce이 다음 [!DNL Adobe] 제품과 통합�
 
 * Adobe Target — Search, Social, &amp; Commerce과 [!DNL Target] 간의 클릭스루 신호 공유를 구현하고, 광고에 대해 [!DNL Target]에서 A/B 테스트 활동을 설정한 다음 [!DNL Analytics] Analysis Workspace을 사용하여 테스트 데이터를 볼 수 있습니다.
 
-* Adobe Campaign — [!DNL Campaign]](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md) 내에서 전자 메일 목록을 사용하여 [고객 일치 대상을 만들고 업데이트할 수 있습니다 [!DNL Google Ads] .
+* Adobe Campaign — [!DNL Campaign][&#128279;](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md) 내에서 전자 메일 목록을 사용하여 고객 일치 대상을 만들고 업데이트할 수 있습니다 [!DNL Google Ads] .
 
 * Adobe Experience Cloud 알림 — (Adobe Experience Cloud을 통해 로그인한 경우) 각 페이지 상단의 알림 링크([경고 알림](/help/search-social-commerce/assets/notifications-panel.png "경고 알림"))에서 모든 Adobe Experience Cloud 시스템 업데이트, 게시물, 언급 및 공유된 에셋을 볼 수 있습니다. Adobe Experience Cloud 액세스에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오.

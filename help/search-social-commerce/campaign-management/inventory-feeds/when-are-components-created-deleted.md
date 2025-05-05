@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 계정 구성 요소는 언제 재고 피드에서 생성되거나 삭제됩니까?
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads](삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 인벤토리 피드 파일이 템플릿을 통해 전파되면 다음과 같이 계정 구성 요소가 생성되고 삭제됩니다.
 

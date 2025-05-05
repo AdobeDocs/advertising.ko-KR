@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 인벤토리 피드를 사용한 광고 관리 자동화 정보
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads](삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 고급 캠페인 관리를 위한 [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] 보기를 사용하면 광고 네트워크 계정 구조를 자동으로 만들고 업데이트하며 제품 또는 서비스 인벤토리에 대한 데이터를 기반으로 동적 광고를 게재할 수 있습니다. 매일 또는 원하는 횟수만큼 제품 데이터가 포함된 새 파일을 업로드하거나 [!DNL Google] 또는 [!DNL Microsoft] 가맹점 센터 계정에 직접 연결할 수 있습니다. 이 기능을 사용하여 다음을 수행할 수 있습니다.
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 재고 피드를 사용한 캠페인 데이터 관리 워크플로우
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads](삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 처음에는 적어도 한 개의 피드 파일 또는 계정을 테스트한 다음 프로세스를 완전히 자동화하거나 각 단계에서 계속 제어할 수 있습니다.
 

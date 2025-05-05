@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 인벤토리 데이터 피드 파일 관리
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads](삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 자체 피드 데이터를 제출하는 경우 제품 데이터가 포함된 파일을 업로드하여 제품 데이터를 기반으로 캠페인 구조, 광고 및 키워드를 동적으로 만들어야 합니다. 그런 다음 광고 네트워크별 광고 템플릿에 연결하고 템플릿을 통해 데이터를 처리하여 관련 광고 네트워크에 데이터를 게시할 수 있습니다. 여러 템플릿을 하나의 피드 파일과 연결할 수 있지만 각 템플릿은 하나의 피드 파일에만 연결할 수 있습니다.
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
   데이터 파일을 저장하고 자동으로 처리하기 위해 FTP 디렉터리를 설정하려면 Adobe 계정 팀에 문의하십시오.
 
-* **수동 처리:** [!UICONTROL Advanced](ACM) 보기에서 피드 파일을 수동으로 [업로드](#feed-file-upload)할 수 있습니다. 피드 파일을 하나 이상의 광고 네트워크별 [템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)과 연결한 후 [피드 데이터 설정](feed-settings-manage.md)에 따라 [템플릿을 통해 피드 데이터를 전달](feed-data-propagate.md)하여 캠페인 및 광고 데이터를 생성할 수 있습니다. 선택적으로 캠페인 계층 보기 내에서 생성된 데이터를 미리 보거나, 검토를 위해 일괄 시트 파일을 생성하거나, 광고 네트워크에 즉시 게시하기 위해 일괄 시트 파일을 생성할 수 있습니다. 데이터를 즉시 게시하지 않으면 [미리 보기](propagated-data-view.md)하고 나중에 [게시](propagated-data-post.md)할 수 있습니다. 나중에 기존 템플릿 연결을 끊지 않고 [기존 피드 파일을 새 파일로 바꾸기](#feed-file-replace)할 수 있습니다.
+* **수동 처리:** [!UICONTROL Advanced] (ACM) 보기에서 피드 파일을 수동으로 [업로드](#feed-file-upload)할 수 있습니다. 피드 파일을 하나 이상의 광고 네트워크별 [템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)과 연결한 후 [피드 데이터 설정](feed-settings-manage.md)에 따라 [템플릿을 통해 피드 데이터를 전달](feed-data-propagate.md)하여 캠페인 및 광고 데이터를 생성할 수 있습니다. 선택적으로 캠페인 계층 보기 내에서 생성된 데이터를 미리 보거나, 검토를 위해 일괄 시트 파일을 생성하거나, 광고 네트워크에 즉시 게시하기 위해 일괄 시트 파일을 생성할 수 있습니다. 데이터를 즉시 게시하지 않으면 [미리 보기](propagated-data-view.md)하고 나중에 [게시](propagated-data-post.md)할 수 있습니다. 나중에 기존 템플릿 연결을 끊지 않고 [기존 피드 파일을 새 파일로 바꾸기](#feed-file-replace)할 수 있습니다.
 
 ## 피드 파일 요구 사항
 

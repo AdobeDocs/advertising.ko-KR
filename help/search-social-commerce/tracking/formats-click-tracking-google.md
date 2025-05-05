@@ -74,7 +74,7 @@ Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 �
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     계정에 서버측 AMO ID 구현이 있고 계정 또는 캠페인 설정 &quot;[!UICONTROL Auto Upload]&quot;이(가) 활성화되어 있으면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 수동으로 추가해야 합니다. &quot; [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)에서 사용하는 [Adobe Advertising ID&quot;를 참조하십시오.&quot;
+     계정에 서버측 AMO ID 구현이 있고 계정 또는 캠페인 설정 &quot;[!UICONTROL Auto Upload]&quot;이(가) 활성화되어 있으면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 수동으로 추가해야 합니다. &quot; [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md#amo-id-implement)에서 사용하는 Adobe Advertising ID&quot;를 참조하십시오.&quot;
 
    * 다른 모든 [!DNL Google Ads] 계정:
 

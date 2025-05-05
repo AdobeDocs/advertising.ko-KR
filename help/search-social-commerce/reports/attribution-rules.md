@@ -24,8 +24,8 @@ ht-degree: 0%
 >
 >* 속성 규칙은 모든 채널에서 유료 광고를 클릭하고 디스플레이 및 소셜 광고의 노출에 적용됩니다. 이벤트 수준에서 추적할 수 없는 유료 검색 광고의 노출에는 적용되지 않습니다.
 >* Adobe Advertising은 전환 전에 항상 각 웹 서퍼에 대해 다음 이벤트를 저장합니다. a) 첫 번째 유료 클릭, b) 첫 번째 클릭을 포함하여 각 채널(검색, 소셜 또는 디스플레이)에 대해 최대 10개의 클릭, c) 최대 10개의 디스플레이 노출. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* Advertising DSP 및 Advertising Creative에서 장치 간 정의는 선택한 속성 규칙의 이벤트 경로만 고려합니다.<!-- cross-device attribution via LiveRamp only -->
-* 보고서 및 관리 보기에서 값에 대해 표시되는 소수점 이하 자리 수는 통화에 따라 다르지만 Adobe Advertising에 더 정확한 값이 저장됩니다.
+>* Advertising DSP 및 Advertising Creative에서 장치 간 정의는 선택한 속성 규칙의 이벤트 경로만 고려합니다.<!-- cross-device attribution via LiveRamp only -->
+>* 보고서 및 관리 보기에서 값에 대해 표시되는 소수점 이하 자리 수는 통화에 따라 다르지만 Adobe Advertising에 더 정확한 값이 저장됩니다.
 
 ## 마지막 이벤트(기본값)
 

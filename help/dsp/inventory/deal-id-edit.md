@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. [거래 설정](deal-id-settings.md)을(를) 편집합니다.
 
-   [!UICONTROL Deal Name], [!UICONTROL Media Type](거래에 여러 미디어 유형이 포함된 경우), [!UICONTROL CPM] 값, [!UICONTROL Account email], [!UICONTROL Advertisers that can access this deal], [!UICONTROL Flight dates] 및 [!UICONTROL Impressions]을(를) 편집할 수 있습니다.
+   [!UICONTROL Deal Name], [!UICONTROL Media Type] (거래에 여러 미디어 유형이 포함된 경우), [!UICONTROL CPM] 값, [!UICONTROL Account email], [!UICONTROL Advertisers that can access this deal], [!UICONTROL Flight dates] 및 [!UICONTROL Impressions]을(를) 편집할 수 있습니다.
 
    [!UICONTROL Deal ID], [!UICONTROL Publisher], [!UICONTROL SSP], [!UICONTROL Deal Type] 또는 [!UICONTROL Billing Method]을(를) 편집할 수 없습니다.
 

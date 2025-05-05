@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** 보기 내에서 평가할 엔터티 형식([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] 또는 [!UICONTROL Product Groups])에 대한 캠페인 관리 하위 보기를 엽니다.
 
-예를 들어 키워드 수준의 경고 템플릿을 만들려면 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns](으)로 이동한 다음 [!UICONTROL Keywords]을(를) 선택합니다.
+예를 들어 키워드 수준의 경고 템플릿을 만들려면 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] (으)로 이동한 다음 [!UICONTROL Keywords]을(를) 선택합니다.
 
 1. 데이터 테이블 위의 도구 모음 오른쪽에서 ![경고 만들기](/help/search-social-commerce/assets/add-alert.png "경고 만들기")를 클릭합니다.
 

@@ -21,7 +21,7 @@ ht-degree: 0%
 * [!DNL Adsquare]
 * [!DNL digitalAudience]
 * [!DNL DLX Mobile]
-* [!DNL eXelate]([!DNL Nielsen])
+* [!DNL eXelate] ([!DNL Nielsen])
 * [!DNL Eyeota]
 * [!DNL Factual]
 * [!DNL Fraud Protection]

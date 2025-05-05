@@ -31,7 +31,7 @@ ef_id가 포함되지 않은 경우 Adobe 계정 팀에 도움을 요청하십�
 
 데이터를 동기화할 각 [!DNL Google Analytics] 계정 및 속성 조합에 대해 다음 작업을 반복합니다. 이러한 작업에 대한 도움말은 [[!DNL Google Analytics] 사용자 지정 차원 만들기 및 구현에 대한 설명서](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article)를 참조하십시오.
 
-1. [!DNL Google Analytics]에서 &quot;`ef_id`&quot;(이)라는 사용자 지정 차원을 만듭니다. 차원의 범위를 [!DNL User](으)로 설정하고 차원을 활성으로 설정합니다.
+1. [!DNL Google Analytics]에서 &quot;`ef_id`&quot;(이)라는 사용자 지정 차원을 만듭니다. 차원의 범위를 [!DNL User] (으)로 설정하고 차원을 활성으로 설정합니다.
 
    >[!NOTE]
    >
@@ -53,8 +53,8 @@ ef_id가 포함되지 않은 경우 Adobe 계정 팀에 도움을 요청하십�
 >
 >* [동기화 정보 [!DNL Google Analytics] 전환 지표](data-source-about.md)
 >* [데이터 소스로  [!DNL Google Analytics] 보기 구성](data-source-configure.md)
->* [데이터 원본 편집 [!DNL Google Analytics] 2}](data-source-edit.md)
+>* [데이터 원본 편집 [!DNL Google Analytics] 2&rbrace;](data-source-edit.md)
 >* [데이터 원본 동기화 일시 중지](data-source-pause.md)
->* [데이터 원본 다시 인증 [!DNL Google Analytics] 2}](data-source-reauthenticate.md)
+>* [데이터 원본 다시 인증 [!DNL Google Analytics] 2&rbrace;](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 데이터 원본 설정](data-source-settings.md)
 >* [부록 - 사용 가능 [!DNL Google Analytics] 지표](data-source-ga-metrics.md)

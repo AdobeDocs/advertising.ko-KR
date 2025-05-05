@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 범용 비디오 배치와 동일한 캠페인에서 [하나의 범용 비디오 광고를 만들거나](/help/dsp/campaign-management/ads/ad-create.md) [여러 개의 범용 비디오 광고를 만듭니다](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-   여러 광고를 만드는 경우 &quot;[!UICONTROL Universal Video]&quot;을(를) [!UICONTROL Ad Type](으)로 지정하십시오.
+   여러 광고를 만드는 경우 &quot;[!UICONTROL Universal Video]&quot;을(를) [!UICONTROL Ad Type] (으)로 지정하십시오.
 
    * [!DNL Google] 또는 [!DNL Flashtalking] 광고의 경우: 파일을 업로드한 후 &quot;[!UICONTROL Review ad types]&quot; 단계에서 **[!UICONTROL Ad Type]** 필드를 클릭하고 **[!UICONTROL Universal Video]**&#x200B;을(를) 선택합니다.
 

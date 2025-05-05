@@ -32,7 +32,7 @@ ht-degree: 0%
 
    한 번의 작업으로 최대 2000개의 키워드를 입력하거나 붙여넣을 수 있습니다. 여러 키워드를 쉼표로 구분하거나 별도의 줄에 입력합니다.
 
-   광고 네트워크에 따라 설정이 [!UICONTROL Keyword Details], [!UICONTROL Bids], [!UICONTROL Placeholders] 및 [!UICONTROL URL Options](으)로 그룹화될 수 있습니다.
+   광고 네트워크에 따라 설정이 [!UICONTROL Keyword Details], [!UICONTROL Bids], [!UICONTROL Placeholders] 및 [!UICONTROL URL Options] (으)로 그룹화될 수 있습니다.
 
    계정 또는 캠페인 설정에 크리에이티브(광고) 수준에서의 추적만 필요한 경우 키워드에 대한 추적을 생성할 수 없습니다.
 

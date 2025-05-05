@@ -95,4 +95,4 @@ EF ID 차원은 [!DNL Analytics] 보고에 직접 사용되지 않지만 마케�
 >* [Adobe Advertising 데이터와 채널 데이터가 서로 다를 수 있는 이유 [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Adobe Advertising 데이터로  [!DNL Analytics Marketing Channels] 사용](mc-ac-data.md)
 >* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
->*  [!DNL Analytics]](/help/integrations/analytics/ids.md)에서 사용하는 [Adobe Advertising ID
+>*  [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)에서 사용하는 Adobe Advertising ID

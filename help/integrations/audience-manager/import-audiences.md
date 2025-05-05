@@ -22,7 +22,7 @@ Advertising DSP 및 [!DNL Advertising Search, Social, & Commerce]은(는) 다음
 
 * Adobe Experience Platform에서 생성되어 Audience Manager을 통해 Adobe Advertising으로 전송되는 세그먼트
 
-DSP 또는 [!DNL Creative]에서 [!DNL Adobe]개의 대상에 액세스하려면 대상을 DSP으로 가져와야 합니다. [!DNL Search, Social, & Commerce]에서 [!DNL Adobe]명의 대상자에 액세스하려면 대상자를 [!DNL Search, Social, & Commerce](으)로 가져와야 합니다.
+DSP 또는 [!DNL Creative]에서 [!DNL Adobe]개의 대상에 액세스하려면 대상을 DSP으로 가져와야 합니다. [!DNL Search, Social, & Commerce]에서 [!DNL Adobe]명의 대상자에 액세스하려면 대상자를 [!DNL Search, Social, & Commerce] (으)로 가져와야 합니다.
 
 ## 전제 조건
 
@@ -34,7 +34,7 @@ DSP 또는 [!DNL Creative]에서 [!DNL Adobe]개의 대상에 액세스하려면
 
   [!UICONTROL Organization ID]을(를) 사용하면 여러 Adobe Experience Cloud 제품이 있는 조직에서 일부 제품 간에 데이터를 공유할 수 있습니다.
 
-* (광고주: [!DNL Analytics]) 광고주는 `appMeasurement.js`](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview) 버전 1.6.4 이상을 사용하여 [구현 [!DNL Analytics] 해야 합니다.
+* (광고주: [!DNL Analytics]) 광고주는 `appMeasurement.js`[&#128279;](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview) 버전 1.6.4 이상을 사용하여 구현 [!DNL Analytics] 해야 합니다.
 
 * 광고주의 웹 사이트 방문자에 [!DNL Apple Safari]명의 사용자가 포함되지 않습니다.
 
@@ -70,13 +70,13 @@ API는 자동으로
 
    * Adobe AdCloud: 411(이 픽셀은 [!DNL Identity Service] 버전 2.0의 일부로 기본적으로 제공되며 자동으로 제공됩니다. [!DNL Identity Service] 버전이 2.0 미만인 조직에서는 이 픽셀을 Audience Manager 컨테이너에 추가해야 합니다.
 
-## [!DNL Search, Social, & Commerce](으)로 Audience Manager 대상 가져오기
+## [!DNL Search, Social, & Commerce] (으)로 Audience Manager 대상 가져오기
 
-### 대상자를 [!DNL Search, Social, & Commerce](으)로 가져오는 단계
+### 대상자를 [!DNL Search, Social, & Commerce] (으)로 가져오는 단계
 
 [!DNL Adobe]명의 직원이 다음 단계를 대부분 또는 모두 수행합니다.
 
-1. Adobe 계정 팀은 [!DNL Search, Social, & Commerce]과(와) Audience Manager 간의 통합을 설정하도록 데이터 작업 팀에 요청을 제출해야 합니다. [!DNL Search, Social, & Commerce](으)로 내보낼 Audience Manager 세그먼트의 이름을 포함합니다.
+1. Adobe 계정 팀은 [!DNL Search, Social, & Commerce]과(와) Audience Manager 간의 통합을 설정하도록 데이터 작업 팀에 요청을 제출해야 합니다. [!DNL Search, Social, & Commerce] (으)로 내보낼 Audience Manager 세그먼트의 이름을 포함합니다.
 
 1. Audience Manager 내에서 [!DNL Search, Social, & Commerce]의 대상을 구성합니다.
 
@@ -92,7 +92,7 @@ API는 자동으로
 
 1. [!DNL Search, Social, & Commerce] 내에서 [!DNL Search, Social, & Commerce] 구현 팀이나 직접 액세스 클라이언트 관리자 역할을 가진 사용자가 [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Audience Manager Setup]에서 가져오기를 시작해야 합니다.
 
-   조직의 Experience Cloud [!DNL Organization ID]([!DNL IMS org ID])이(가) 필요합니다. ID는 조직의 Audience Manager 계정에 사용되는 ID와 동일해야 합니다.
+   조직의 Experience Cloud [!DNL Organization ID] ([!DNL IMS org ID])이(가) 필요합니다. ID는 조직의 Audience Manager 계정에 사용되는 ID와 동일해야 합니다.
 
 ### 어떤 변경 사항이 Audience Manager을 발생시킵니까?
 

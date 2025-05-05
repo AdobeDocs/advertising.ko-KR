@@ -26,7 +26,7 @@ Adobe Advertising 고객은 [!DNL Audience Analytics]을(를) 사용하여 혜�
 
 * (Advertising DSP을 사용하는 광고주) 전체적인 여정 관리 통찰력을 위해 노출 세그먼트를 더 추가합니다.
 
-  Advertising DSP은 Adobe Experience Platform 또는 Audience Manager 노출 추적 픽셀의 구현을 통해 노출 데이터를 실행 가능한 신호로 Audience Manager에 보낼 수 있습니다. 동일한 데이터를 [!DNL Analytics](으)로 전달하면 고급 데이터 분석이 가능합니다. 자세한 내용은 &quot;[Adobe Audience Manager과 Adobe Advertising 미디어 데이터 통합 개요](/help/integrations/audience-manager/media-data-integration/overview.md)&quot;를 참조하십시오.
+  Advertising DSP은 Adobe Experience Platform 또는 Audience Manager 노출 추적 픽셀의 구현을 통해 노출 데이터를 실행 가능한 신호로 Audience Manager에 보낼 수 있습니다. 동일한 데이터를 [!DNL Analytics] (으)로 전달하면 고급 데이터 분석이 가능합니다. 자세한 내용은 &quot;[Adobe Audience Manager과 Adobe Advertising 미디어 데이터 통합 개요](/help/integrations/audience-manager/media-data-integration/overview.md)&quot;를 참조하십시오.
 
 필수 구성 요소 및 워크플로를 포함하여 [!DNL Audience Analytics]에 대한 자세한 내용은 &quot;[Audience Analytics 개요](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)&quot;를 참조하십시오.
 

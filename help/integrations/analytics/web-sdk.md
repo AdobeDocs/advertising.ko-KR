@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 2단계: [!DNL Web SDK]을(를) 사용하여 [!DNL Analytics]에 대한 XDM 데이터로 [!DNL StitchID]을(를) 보냅니다.
 
-[!DNL Web SDK] `sendEvent` 명령 내에 다음 속성을 삽입하여 [!DNL Analytics]에 대한 [!DNL Experience Data Model](XDM) 데이터로 [!DNL Experience Edge]에 [!DNL StitchID]을(를) 보냅니다.<!-- The library sends the StitchID to [!DNL Experience Edge] as `[_adcloud.advertisingStitchID](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/adcloud/stitch.schema.md)`. --> [!DNL Analytics]이(가) 값을 `SDID`(으)로 사용합니다.
+[!DNL Web SDK] `sendEvent` 명령 내에 다음 속성을 삽입하여 [!DNL Analytics]에 대한 [!DNL Experience Data Model] (XDM) 데이터로 [!DNL Experience Edge]에 [!DNL StitchID]을(를) 보냅니다.<!-- The library sends the StitchID to [!DNL Experience Edge] as `[_adcloud.advertisingStitchID](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/adcloud/stitch.schema.md)`. --> [!DNL Analytics]이(가) 값을 `SDID`(으)로 사용합니다.
 
 추가할 **속성:**
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->보기의 열 머리글](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)에서 정렬 순서 [을(를) 변경하지 않고 보기의 열을 일시적으로 변경할 수도 있습니다.
+>보기의 열 머리글[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)에서 정렬 순서 을(를) 변경하지 않고 보기의 열을 일시적으로 변경할 수도 있습니다.
 >
 >기본 보기를 편집하거나 [사용자 지정 보기를 만들기](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)하여 특정 광고주에 대해 포함된 열에 변경 내용을 저장할 수 있습니다.
 

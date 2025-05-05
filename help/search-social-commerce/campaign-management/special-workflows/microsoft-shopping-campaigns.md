@@ -38,7 +38,7 @@ ht-degree: 0%
 
    1. (선택 사항) [하위 제품 그룹을 만듭니다](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md).
 
-   1. 광고 그룹 내의 각 쇼핑 광고에 포함될 수 있는 [프로모션 줄이 있는 [제품 광고](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)를 만듭니다](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md).
+   1. 광고 그룹 내의 각 쇼핑 광고에 포함될 수 있는 [&#128279;](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)프로모션 줄이 있는 [제품 광고](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)를 만듭니다.
 
       Microsoft Advertising은 각 광고에 대한 광고 사본과 랜딩 페이지 URL을 동적으로 생성합니다.
 

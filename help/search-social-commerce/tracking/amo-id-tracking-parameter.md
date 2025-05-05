@@ -21,4 +21,4 @@ AMO ID 매개 변수를 추적 URL에 추가하는 방법과 DSP 및 Search, Soc
 >[!MORELIKETHIS]
 >
 >* [개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md){target="_blank"}
->*  [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id){target="_blank"}에서 사용하는 [Adobe Advertising ID
+>*  [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md#amo-id){target="_blank"}에서 사용하는 Adobe Advertising ID

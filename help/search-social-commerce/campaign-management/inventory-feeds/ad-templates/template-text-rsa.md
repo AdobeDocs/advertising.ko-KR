@@ -13,7 +13,7 @@ ht-degree: 0%
 # 인벤토리 피드에 대한 텍스트 광고 및 반응형 검색 광고 템플릿 설정
 
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads](삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 >[!NOTE]
 >
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] 템플릿만 해당) 제목, 텍스트, 표시 URL 또는 최종 URL에 `{Param3}` 동적 대체 문자열이 포함된 경우 광고에서 대체 값으로 사용할 문자열입니다. 최대 길이는 70자이지만 사용하는 광고 요소의 최대 길이에 유의하십시오(예: 광고 제목에는 최대 25자가 포함될 수 있음).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** 일치 유형 또는 광고 유형이 지정된 각 키워드에 대한 초기 입찰입니다.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** 일치 유형 또는 광고 유형이 지정된 각 키워드에 대한 초기 입찰입니다.
 
 ## [!UICONTROL Ads]
 

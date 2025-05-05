@@ -15,7 +15,7 @@ ht-degree: 0%
 # (폐쇄형 Beta) Advertising Creative 2.0 안내서 {#creative}
 
 + [새로운 기능](/help/creative/home.md)
-+ {#introduction} 소개
++ 소개{#introduction}
    + [데이터 보기 사용자 지정](/help/creative/introduction/customize-data-views.md)
    + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
@@ -38,12 +38,12 @@ ht-degree: 0%
       + [Creative 번들 관리](/help/creative/creative-libraries/bundle-manage.md)
 + 광고 경험 {#creative-experiences}
    + [Advertising Creative의 경험](/help/creative/experiences/experience-about.md)
-   + 타깃팅 {#experience-targeted}이(가) 있는 경험
+   + 타깃팅이(가) 있는 경험 {#experience-targeted}
       + [의사 결정 트리 레이아웃](/help/creative/experiences/experience-decision-tree.md)
       + [타깃팅으로 경험 만들기](/help/creative/experiences/experience-create-targeting.md)
       + [타깃팅으로 경험 편집](/help/creative/experiences/experience-edit-targeting.md)
       + [타깃팅된 경험 설정](/help/creative/experiences/experience-settings-targeting.md)
-      + {#subtasks} 경험을 만들고 편집하기 위한 하위 작업
+      + 경험을 만들고 편집하기 위한 하위 작업{#subtasks}
          + 대상 노드 {#nodes}
             + [최종 수준에 대상 노드 추가](/help/creative/experiences/experience-target-node-add-final.md)
             + [노드 사이에 대상 노드 삽입](/help/creative/experiences/experience-target-node-add-inner.md)
@@ -54,7 +54,7 @@ ht-degree: 0%
             + [최종 노드에 크리에이티브 번들 지정 및 지정 취소](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [크리에이티브용 추적 URL 사용자 지정](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [크리에이티브 최적화 및 일정 사용자 정의](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-   + {#experience-nontargeted}을(를) 타깃팅하지 않은 경험
+   + 을(를) 타깃팅하지 않은 경험{#experience-nontargeted}
       + [타깃팅하지 않고 경험 만들기](/help/creative/experiences/experience-create-no-targeting.md)
       + [타깃팅하지 않고 경험 편집](/help/creative/experiences/experience-edit-no-targeting.md)
       + [타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md)

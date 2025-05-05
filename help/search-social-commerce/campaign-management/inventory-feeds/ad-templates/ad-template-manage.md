@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 인벤토리 피드에 대한 광고 템플릿 관리
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads](삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 데이터를 업로드하기 전이나 후에 데이터를 처리할 수 있는 검색 엔진별 광고 템플릿을 만들 수 있습니다. 텍스트 광고 및 확장/확장 텍스트 광고, [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 반응형 검색 광고, [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 쇼핑 광고에 대한 템플릿을 만들 수 있습니다.
 

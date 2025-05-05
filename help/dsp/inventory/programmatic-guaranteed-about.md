@@ -32,8 +32,8 @@ DSP이 각 입찰 요청에 대한 요청을 반환하고 SSP로 배달 SLA를 �
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]
 * [!DNL Google Authorized Buyers]
-* [!DNL Magnite CTV](이전 [!DNL Telaria])
-* [!DNL Magnite DV+](이전 [!DNL Rubicon])
+* [!DNL Magnite CTV] (이전 [!DNL Telaria])
+* [!DNL Magnite DV+] (이전 [!DNL Rubicon])
 * [!DNL OpenX]
 * [!DNL SpotX]
 

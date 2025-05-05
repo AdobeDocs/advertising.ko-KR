@@ -27,7 +27,7 @@ ht-degree: 0%
 
    * 노드에 대한 모든 자식 노드 및 크리에이티브를 바꾸려면 복사한 정보를 붙여넣을 노드를 클릭하고 **..**&#x200B;을(를) 클릭한 다음 a\) **[!UICONTROL Replace ctrl+shift+v]** 또는 b\)를 선택하고 키보드에 **[!UICONTROL Ctrl+Shift+V]**([!DNL Microsoft Windows]) 또는 **[!UICONTROL Command-Shift-V]**([!DNL Apple Macintosh])을(를) 입력합니다.
 
-   * (여러 하위 대상이 있는 노드, &quot;모든&quot; 노드가 없고 크리에이티브만 없음) 노드에 모든 하위 노드 및 크리에이티브를 추가하려면 기존 하위 노드를 삭제하지 않고 복사한 정보를 붙여넣을 노드를 클릭하고 **..**&#x200B;을(를) 클릭한 다음 a\) **[!UICONTROL Add ctrl+v]** ** 또는 b\)를 선택합니다. 키보드에 **[!UICONTROL Ctrl+V]**([!DNL Microsoft Windows]) 또는 **[!UICONTROL Command-V]**([!DNL Apple Macintosh])을(를) 입력합니다.
+   * (여러 하위 대상이 있는 노드, &quot;모든&quot; 노드가 없고 크리에이티브만 없음) 노드에 모든 하위 노드 및 크리에이티브를 추가하려면 기존 하위 노드를 삭제하지 않고 복사한 정보를 붙여넣을 노드를 클릭하고 **..**&#x200B;을(를) 클릭한 다음 a\) **[!UICONTROL Add ctrl+v]** **&#x200B; 또는 b\)를 선택합니다. 키보드에 &#x200B;** [!UICONTROL Ctrl+V]&#x200B;**([!DNL Microsoft Windows]) 또는 &#x200B;** [!UICONTROL Command-V]**([!DNL Apple Macintosh])을(를) 입력합니다.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 재고 피드 데이터에 대한 게시 작업 중지
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads](삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 다음과 같은 방법으로 피드에서 생성된 캠페인 데이터의 게시를 중단할 수 있습니다.
 

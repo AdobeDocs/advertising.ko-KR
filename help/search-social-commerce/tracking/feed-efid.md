@@ -22,7 +22,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >* 이 메서드는 광고주가 Adobe Advertising 전환 추적 태그를 사용할 필요가 없습니다.
-   >* 기존 계정 또는 캠페인에 대한 리디렉션 유형을 [!UICONTROL Standard]에서 [!UICONTROL Token](으)로 전환하거나 그 반대로 전환하는 경우 적용 가능한 모든 추적 URL을 다시 생성해야 합니다.
+   >* 기존 계정 또는 캠페인에 대한 리디렉션 유형을 [!UICONTROL Standard]에서 [!UICONTROL Token] (으)로 전환하거나 그 반대로 전환하는 경우 적용 가능한 모든 추적 URL을 다시 생성해야 합니다.
 
    ef_id는 최종 사용자가 광고를 클릭하여 Adobe Advertising 서버로 리디렉션될 때 채워져 랜딩 페이지 URL에 추가됩니다. 그런 다음 ef_id가 광고 또는 키워드의 대상 URL 또는 최종 URL에서 광고주에게 전달됩니다. 다음은 리디렉션 중에 광고주에게 전달되는 대상 URL의 예입니다.
 

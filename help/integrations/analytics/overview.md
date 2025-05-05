@@ -45,7 +45,7 @@ ht-degree: 0%
 
 [!DNL Analytics]을(를) 유료 미디어 보고 도구로 사용하려면 조직에서 Analysis Workspace에 액세스할 수 있는 Experience Cloud 로그인이 필요합니다. Adobe Advertising 팀은 Adobe Advertising 데이터를 Analysis Workspace의 개별 보고서 세트에 매핑하는 데 도움이 됩니다. Adobe Advertising 데이터를 모든 보고서 세트에 보낼 수 있지만, Adobe Advertising에 매핑된 보고서 세트와 매핑되지 않은 보고서 세트를 알고 있어야 합니다. 보고서 세트에 따라, 보고된 데이터가 변경될 수 있습니다.
 
- [!DNL Analytics]](ids.md) 내의 [Adobe Advertising ID는 사용자 지정 영구 만료로 다른 [!DNL eVars]과(와) 동일하게 작동합니다. 기본적으로 Adobe Advertising 구현 중에 속성 전환 확인 기간은 60일로 설정됩니다. 이 설정을 변경하려면 Adobe 계정 팀과 작업하십시오.
+ [!DNL Analytics][&#128279;](ids.md) 내의 Adobe Advertising ID는 사용자 지정 영구 만료로 다른 [!DNL eVars]과(와) 동일하게 작동합니다. 기본적으로 Adobe Advertising 구현 중에 속성 전환 확인 기간은 60일로 설정됩니다. 이 설정을 변경하려면 Adobe 계정 팀과 작업하십시오.
 
 Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유형(AMO ID)&quot;)와 함께 추가됩니다. 사용 가능한 차원 목록은 &quot;[Analysis Workspace의 Adobe Advertising 지표](advertising-metrics-in-analytics.md)&quot;을 참조하십시오.
 

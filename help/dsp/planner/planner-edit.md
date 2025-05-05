@@ -24,7 +24,7 @@ ht-degree: 0%
 
    계획을 저장하면 예측된 출력이 표시됩니다.
 
-1. (선택 사항) [!UICONTROL Budget vs Reach] 예측을 [!DNL Microsoft Excel] 스프레드시트로 내보내려면 ** 상단의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
+1. (선택 사항) [!UICONTROL Budget vs Reach] 예측을 [!DNL Microsoft Excel] 스프레드시트로 내보내려면 **&#x200B; 상단의 &#x200B;** [!UICONTROL ...]&#x200B;**&#x200B;을(를) 클릭한 다음 &#x200B;** [!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >

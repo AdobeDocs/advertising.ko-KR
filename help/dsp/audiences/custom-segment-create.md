@@ -22,13 +22,13 @@ ht-degree: 0%
 
 *Beta 기능*
 
-* ID5 ID와 연결된 사용자를 추적할 세그먼트를 생성하기 전에 [!DNL ID5](으)로 계약에 서명하고 조직의 파트너 ID를 얻으십시오. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+* ID5 ID와 연결된 사용자를 추적할 세그먼트를 생성하기 전에 [!DNL ID5] (으)로 계약에 서명하고 조직의 파트너 ID를 얻으십시오. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
 * Adobe Analytics에서 측정하는 경우 다음을 수행해야 합니다.
 
    1. 구현하기 위한 모든 [필수 구성 요소 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)를 완료하고 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md)이(가) 추적 URL에 채워져 있는지 확인하십시오.
 
-   1. 마지막 이벤트 서비스가 초기화되기 전이나  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)에 필요한 [JavaScript 코드 내에서 다음 매개 변수를 웹 페이지에 추가하십시오.
+   1. 마지막 이벤트 서비스가 초기화되기 전이나  [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/javascript.md)에 필요한 JavaScript 코드 내에서 다음 매개 변수를 웹 페이지에 추가하십시오.
 
       ```window.id5PartnerId=ID5_PartnerID;```
 

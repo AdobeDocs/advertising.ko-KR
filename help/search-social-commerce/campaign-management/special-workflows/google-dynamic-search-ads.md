@@ -40,7 +40,7 @@ ht-degree: 0%
 
    1. (선택 사항) 계정 수준 추적 템플릿을 무시하지만 더 낮은 수준에서 재정의할 수 있는 캠페인 수준 추적 템플릿을 구성합니다.
 
-      (서버측 추적이 없는 Adobe Analytics을 사용하는 광고주) 검색, 소셜 및 Commerce에서 Analytics로의 역방향 피드에 대한 추적을 포함하려면 AMO ID 추적 코드를 계정 수준 추가 매개 변수에 추가하고, 이렇게 하면 코드를 최종 URL에 추가합니다. &quot; [!DNL Analytics]](/help/integrations/analytics/ids.md)에서 사용하는 [Adobe Advertising ID&quot;를 참조하십시오.&quot;
+      (서버측 추적이 없는 Adobe Analytics을 사용하는 광고주) 검색, 소셜 및 Commerce에서 Analytics로의 역방향 피드에 대한 추적을 포함하려면 AMO ID 추적 코드를 계정 수준 추가 매개 변수에 추가하고, 이렇게 하면 코드를 최종 URL에 추가합니다. &quot; [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)에서 사용하는 Adobe Advertising ID&quot;를 참조하십시오.&quot;
 
 1. 다음 단계를 포함하여 캠페인 내에서 [광고 그룹을 만듭니다](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md).
 

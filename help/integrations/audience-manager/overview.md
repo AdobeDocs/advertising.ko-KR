@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### Audience Manager 및 기타 [!DNL Adobe] 세그먼트를 사용하여 광고를 타깃팅하거나 제외합니다. {#audience-manager-targets}
 
-* ([!DNL Search, Social, & Commerce]을(를) 사용하는 옵트인 광고주) [!DNL Google Ads] 캠페인에서  [!DNL Adobe] 세그먼트](#audience-manager-google-audiences)를 사용하여 [만든 [!DNL Google Ads] 대상을 캠페인 수준 또는 광고 그룹 수준 타겟 또는 제외로 사용할 수 있습니다.
+* ([!DNL Search, Social, & Commerce]을(를) 사용하는 옵트인 광고주) [!DNL Google Ads] 캠페인에서  [!DNL Adobe] 세그먼트[&#128279;](#audience-manager-google-audiences)를 사용하여 만든 [!DNL Google Ads] 대상을 캠페인 수준 또는 광고 그룹 수준 타겟 또는 제외로 사용할 수 있습니다.
 
 * (DSP을 사용하는 광고주) 기존 [!DNL Adobe] 세그먼트를 광고 배치 대상으로 사용할 수 있습니다. 재사용 가능한 대상에 세그먼트를 선택적으로 포함할 수 있으며, 이 대상은 여러 배치에 대한 타겟 또는 제외로 사용할 수 있습니다.
 

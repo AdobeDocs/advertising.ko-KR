@@ -69,7 +69,7 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽 [!
 
       [관련 ID 열을 엔터티 보기에 추가](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)하여 ID를 찾을 수 있습니다.
 
-      [!UICONTROL Accounts] 보기의 [!UICONTROL Accounts] 보기](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] 열에 있는 ![[!UICONTROL Network Account ID] 열")
+      [!UICONTROL Accounts] 보기의 [!UICONTROL Accounts] 보기&rbrack;(/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] 열에 있는 !&lbrack;[!UICONTROL Network Account ID] 열")
 
       지원이 필요한 경우 Adobe 계정 팀과 협력합니다.
 
@@ -89,7 +89,7 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽 [!
 
 ## 2단계: [!DNL Analytics]에서 [!DNL Analytics for Target] Analysis Workspace 설정
 
-[!DNL Analytics for Target](A4T)은(는) 광고주가 [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 [!DNL Target] 활동을 만든 다음 [!DNL Analytics]을(를) 보고 소스로 사용하여 결과를 측정할 수 있는 솔루션 간 통합입니다. 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics] 데이터 수집을 기반으로 합니다.
+[!DNL Analytics for Target] (A4T)은(는) 광고주가 [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 [!DNL Target] 활동을 만든 다음 [!DNL Analytics]을(를) 보고 소스로 사용하여 결과를 측정할 수 있는 솔루션 간 통합입니다. 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics] 데이터 수집을 기반으로 합니다.
 
 구현 지침에 대한 링크를 포함하여 [!DNL Analytics for Target]에 대한 자세한 내용은 &quot;[Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)&quot;을(를) 참조하십시오.
 
@@ -119,7 +119,7 @@ Analysis Workspace에서 [!DNL Target] 활동 및 경험을 분석하도록 [!DN
 
 Analysis Workspace 내에서 활동 및 경험 데이터가 최소화되거나 채워지지 않는 것을 발견하면 다음을 수행하십시오.
 
-* [!DNL Target]과(와) [!DNL Analytics]에 모두 동일한 [!UICONTROL Supplemental Data ID](SDID)가 사용되는지 확인하십시오. 캠페인이 사용자를 유도하는 랜딩 페이지에서 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html)를 사용하여 SDID 값을 확인할 수 있습니다.
+* [!DNL Target]과(와) [!DNL Analytics]에 모두 동일한 [!UICONTROL Supplemental Data ID] (SDID)가 사용되는지 확인하십시오. 캠페인이 사용자를 유도하는 랜딩 페이지에서 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html)를 사용하여 SDID 값을 확인할 수 있습니다.
 
 [Adobe Debugger의 SDID(Supplemental Data ID) 값](/help/integrations/assets/target-troubleshooting-sdid.png)
 

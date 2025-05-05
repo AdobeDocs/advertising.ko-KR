@@ -14,13 +14,13 @@ ht-degree: 0%
 
 반응형 광고 형식은 [!DNL Microsoft Audience Network]에서 이미지 기반, 비디오 기반 및 연결된 TV 비디오 기반 대상 광고에 사용할 수 있습니다. 광고 네트워크는 광고 요소의 가장 효과적인 조합을 사용하여 반응형 광고를 동적으로 조합합니다.
 
-## [!UICONTROL Ad Settings](비디오 광고의 경우) 및 [!UICONTROL Audience CTV Video Ad Details]
+## [!UICONTROL Ad Settings] (비디오 광고의 경우) 및 [!UICONTROL Audience CTV Video Ad Details]
 
 **[!UICONTROL Videos]:** 비디오 광고 URL.
 
 **[!UICONTROL Status]:** 광고 상태입니다.
 
-## [!UICONTROL Responsive Ad Details](이미지 광고의 경우)
+## [!UICONTROL Responsive Ad Details] (이미지 광고의 경우)
 
 >[!NOTE]
 >

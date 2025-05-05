@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 피드에서 생성된 캠페인 데이터를 광고 네트워크에 게시
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads](삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 피드에서 생성된 캠페인 데이터를 관련 템플릿을 통해 전파할 때 또는 별도의 프로세스로 게시할 수 있습니다. 데이터를 게시하면 기존의 전파된 데이터가 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] 및 [!UICONTROL Ads] 목록에서 제거됩니다.
 

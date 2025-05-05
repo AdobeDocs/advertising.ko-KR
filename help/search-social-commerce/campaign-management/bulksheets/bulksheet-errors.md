@@ -45,8 +45,8 @@ Search, Social 및 Commerce은 일괄 시트 작업 중에 두 가지 유형의 
 | 일반 | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | 작업이 완전히 실패했습니다. 문제가 지속되면 Adobe 계정 팀에 문의하십시오. |
 | 모든 엔티티 | [!UICONTROL Invalid Fields.] \[잘못된 필드 및 오류\] | 지정한 데이터가 누락되었거나 잘못되었습니다. |
 |  | [!UICONTROL Invalid Reference Given] | 광고 네트워크에 있는 엔티티의 ID 또는 상위 엔티티의 ID(예: 계정 ID)는 Search, Social 및 Commerce의 엔티티에 해당하지 않습니다. 이 문제는 일괄 시트에서 ID를 편집한 경우에 발생할 수 있습니다. |
-|  | [!UICONTROL <Entity> is deleted or expired] | 엔티티가 만료되었거나 삭제되었으므로 해당 속성을 변경할 수 없습니다. 누군가 상태를 수동으로 편집한 경우 엔티티가 삭제될 수 있습니다. |
-|  | [!UICONTROL <Entity> status should be Active or Paused] | (새 엔티티) 새 엔티티는 &quot;활성&quot; 또는 &quot;일시 중지됨&quot;만 될 수 있습니다. |
+|  | [!UICONTROL &lt;Entity> is deleted or expired] | 엔티티가 만료되었거나 삭제되었으므로 해당 속성을 변경할 수 없습니다. 누군가 상태를 수동으로 편집한 경우 엔티티가 삭제될 수 있습니다. |
+|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | (새 엔티티) 새 엔티티는 &quot;활성&quot; 또는 &quot;일시 중지됨&quot;만 될 수 있습니다. |
 |  | [!UICONTROL Duplicate Entries are present] | 각 행에 다른 속성을 가진 동일한 엔티티에 대해 여러 행이 포함됩니다. 변경 사항을 하나의 행으로 통합합니다. |
 |  | [!UICONTROL Invalid AMO ID given] | 행에 대한 AMO ID가 존재하지 않습니다. 이 문제는 일괄 시트에서 ID를 편집한 경우 발생할 수 있습니다. |
 |  | [!UICONTROL Invalid row given] | 행에 엔티티 유형을 결정하기에 충분한 정보가 포함되지 않습니다. 엔티티 유형에 대한 모든 필수 필드를 포함하도록 행을 편집합니다. |
@@ -62,7 +62,7 @@ Search, Social 및 Commerce은 일괄 시트 작업 중에 두 가지 유형의 
 | 모든 광고 그룹 구성 요소 | [!UICONTROL Adgroup creation failed] | 상위 광고 그룹을 만들지 못했으므로 이 엔터티를 만들 수 없습니다. 광고 그룹 필드에 오류가 있거나 상위 캠페인이 실패했기 때문일 수 있습니다. 모든 상위 엔티티에 모든 필수 필드가 포함되어 있는지 확인합니다. |
 |  | [!UICONTROL Adgroup Row Missing] | 지정한 상위 광고 그룹이 없으므로 엔터티를 만들 수 없습니다. 새 행에 상위 광고 그룹을 만듭니다. |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | &quot;[!UICONTROL Tracking Template]&quot; 필드는 최종/고급 URL을 사용하는 계정에만 사용할 수 있습니다. 최종/고급 URL을 사용하도록 계정을 마이그레이션하기 전까지 값을 제거합니다. |
-| 광고 | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | (텍스트, 확장 텍스트, 제품, 앱 설치 및 동적 검색 이외의 광고 유형) 이 광고 유형의 상태와 URL만 편집할 수 있습니다. |
+| 광고 | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | (텍스트, 확장 텍스트, 제품, 앱 설치 및 동적 검색 이외의 광고 유형) 이 광고 유형의 상태와 URL만 편집할 수 있습니다. |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | 각 광고 그룹에는 최대 50개의 광고가 포함될 수 있으며 이 일괄 시트에는 50개 이상의 광고가 포함됩니다. 광고 수를 줄입니다. |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | 광고가 만료되거나 삭제된 상위 엔티티에 있어 편집할 수 없습니다. |
 | 키워드 | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | 상위 캠페인 또는 광고 그룹이 삭제되거나 만료되었으므로 엔티티를 변경할 수 없습니다. |
@@ -85,7 +85,7 @@ Search, Social 및 Commerce은 일괄 시트 작업 중에 두 가지 유형의 
 |----|----|----|
 | 일반 | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | 작업이 완전히 실패했습니다. 문제가 지속되면 Adobe 계정 팀에 문의하십시오. |
 | 모든 엔티티 | [!UICONTROL Entity]이(가) 광고 네트워크에 게시됨 | 엔티티가 광고 네트워크에 게시되었지만 동시에 검색, 소셜 및 Commerce에 동기화되지 않았으므로 엔티티 데이터를 검색, 소셜 및 Commerce에서 즉시 사용할 수 없습니다. 이제 동기화 프로세스가 자동으로 트리거됩니다.<br><br>대량의 데이터가 동기화되면 검색, 소셜 및 Commerce에서 몇 시간 이상 데이터를 사용할 수 없습니다. |
-| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | 상위 엔티티를 생성할 수 없으므로 이 하위 엔티티는 생성되지 않았습니다. |
+| | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | 상위 엔티티를 생성할 수 없으므로 이 하위 엔티티는 생성되지 않았습니다. |
 
 >[!MORELIKETHIS]
 >

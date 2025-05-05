@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 피드에서 생성된 데이터 편집
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads](삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 피드 데이터를 광고 네트워크에 동시에 게시하지 않고 전파할 때 다음 방법 중 하나로 데이터를 편집할 수 있습니다. 나중에 필요에 따라 두 위치에서 관련 광고 네트워크로 데이터를 [게시](propagated-data-post.md)할 수 있습니다.
 

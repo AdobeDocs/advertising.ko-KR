@@ -15,5 +15,5 @@ ht-degree: 0%
 
 **메모:**
 
-* [!UICONTROL Standard]에서 [!UICONTROL Token](으)로 전환하거나 그 반대로 전환하는 경우 계정에 대한 추적 URL을 다시 생성해야 합니다.
+* [!UICONTROL Standard]에서 [!UICONTROL Token] (으)로 전환하거나 그 반대로 전환하는 경우 계정에 대한 추적 URL을 다시 생성해야 합니다.
 * 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.

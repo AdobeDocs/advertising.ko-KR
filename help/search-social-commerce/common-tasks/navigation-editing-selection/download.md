@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences] 및 [!UICONTROL Extensions] 보기를 제외한 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기에서 데이터를 다운로드할 수 있습니다. 다음 중 하나를 다운로드할 수 있습니다.
 
-* [!DNL XLSM](매크로가 활성화된 [!DNL Microsoft Excel] 스프레드시트) 형식의 보고서입니다. 뷰에서 특정 행을 선택하면 보고서에는 선택한 각 행에 대해 하나의 행이 포함됩니다. 행을 선택하지 않으면 보기의 각 행에 대해 하나의 행이 만들어집니다.
+* [!DNL XLSM] (매크로가 활성화된 [!DNL Microsoft Excel] 스프레드시트) 형식의 보고서입니다. 뷰에서 특정 행을 선택하면 보고서에는 선택한 각 행에 대해 하나의 행이 포함됩니다. 행을 선택하지 않으면 보기의 각 행에 대해 하나의 행이 만들어집니다.
 
 * 모든 관련 하위 엔티티를 포함하는 TXT 형식의 일괄 시트 파일. 여러 광고 네트워크의 엔티티에 대해 행을 선택하면 각 관련 광고 네트워크에 대해 하나의 파일이 만들어집니다. 행을 선택하지 않으면 보기에 표시된 각 광고 네트워크에 대해 하나의 파일이 만들어집니다. 다른 광고 네트워크용으로 생성된 일괄 시트 파일에는 다른 데이터 열이 포함되어 있습니다.
 

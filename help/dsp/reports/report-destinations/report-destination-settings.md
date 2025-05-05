@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]:** 대상을 식별하는 데 도움이 되는 이름입니다.
 
-**[!UICONTROL S3 Bucket URL]:** 보고서가 업로드되는 [!DNL Amazon Simple Storage Service](S3) 버킷의 폴더에 대한 전체 경로입니다. 예: `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** 보고서가 업로드되는 [!DNL Amazon Simple Storage Service] (S3) 버킷의 폴더에 대한 전체 경로입니다. 예: `s3://dsp_account/reports`
 
 **[!UICONTROL Access Key ID]:** ([!DNL Amazon S3]) 버킷에 대한 액세스 키 ID([!DNL Amazon]에서 제공)입니다.
 

@@ -46,7 +46,7 @@ Adobe Advertising 전환 추적 서비스를 사용하는 경우 랜딩 페이�
 
 * **[!UICONTROL Products]** — [!UICONTROL Products] 보기에는 동기화된 각 [[!DNL Google] 또는 [!DNL Microsoft] 판매자 센터 계정에 대한 데이터가 표시됩니다](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). 기본 [!UICONTROL Accounts] 하위 보기는 동기화된 모든 계정을 나열합니다. 일부 사용자 유형은 이 보기에서 새 계정을 추가할 수 있습니다. [!UICONTROL Products] 하위 보기는 계정 내의 각 제품을 나열합니다.
 
-* **[!UICONTROL Advanced (ACM)]** — [!DNL Advanced]([!DNL AMC], 고급 Campaign Management) 보기에서, 사용자가 만든 광고 네트워크별 광고 템플릿과 FTP 위치에 업로드한 [!DNL Google Merchant Center] 계정 또는 인벤토리 데이터 파일의 내용에 따라 인벤토리의 각 항목을 대상으로 하는 [동적 광고 및 키워드](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)를 만드는 자동화된 프로세스를 설정할 수 있습니다. 하위 보기는 광고주에 대한 각 피드 템플릿에 대한 세부 정보를 보여주며, 피드 템플릿을 통해 전파되었지만 광고 네트워크에 게시되지 않은 피드에 포함된 각 캠페인, 광고 그룹, 키워드 및 광고를 보여줍니다.
+* **[!UICONTROL Advanced (ACM)]** — [!DNL Advanced] ([!DNL AMC], 고급 Campaign Management) 보기에서, 사용자가 만든 광고 네트워크별 광고 템플릿과 FTP 위치에 업로드한 [!DNL Google Merchant Center] 계정 또는 인벤토리 데이터 파일의 내용에 따라 인벤토리의 각 항목을 대상으로 하는 [동적 광고 및 키워드](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)를 만드는 자동화된 프로세스를 설정할 수 있습니다. 하위 보기는 광고주에 대한 각 피드 템플릿에 대한 세부 정보를 보여주며, 피드 템플릿을 통해 전파되었지만 광고 네트워크에 게시되지 않은 피드에 포함된 각 캠페인, 광고 그룹, 키워드 및 광고를 보여줍니다.
 
 * **[!UICONTROL Bulksheets]** — [!UICONTROL Bulksheets] 보기를 사용하여 [지원되는 광고 네트워크](/help/search-social-commerce/introduction/supported-inventory.md)에서 계정에 대해 원하는 만큼의 데이터를 포함하는 [일괄 시트 파일](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)을 만든 다음 광고 네트워크에 게시합니다.
 

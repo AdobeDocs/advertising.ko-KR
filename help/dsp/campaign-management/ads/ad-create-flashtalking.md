@@ -10,6 +10,6 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Flashtalking](으)로 광고 만들기
+# [!DNL Flashtalking] (으)로 광고 만들기
 
 [!DNL Flashtalking]과(와)의 Advertising DSP 유료 광고 서비스 파트너 관계에 대해 자세히 알아보려면 [!DNL adcloud-support@adobe.com]에 자세한 내용을 문의하십시오.
