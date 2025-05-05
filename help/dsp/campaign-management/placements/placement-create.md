@@ -145,4 +145,4 @@ ht-degree: 0%
 >* 범용 비디오에 대한 [FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [성능 문제 해결](/help/dsp/optimization/troubleshooting-performance.md)
->* [비디오: 표준 디스플레이 배치를 만드는 방법](https://video.tv.adobe.com/v/340454)
+>* [비디오: 표준 디스플레이 배치를 만드는 방법](https://video.tv.adobe.com/v/345002?captions=kor)
