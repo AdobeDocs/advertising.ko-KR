@@ -3,9 +3,9 @@ title: 일괄 시트를 사용하여 캠페인 구성 요소 설정 검토 및 �
 description: 스프레드시트를 사용하여 주요 패키지, 배치 및 광고 설정을 대량으로 검토하고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: 7af6788f2aae3a2fb9e2048676dbe1955c2e56d9
+source-git-commit: e4df27ec0e4864d5604920f3e8ebe427152187d9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,10 @@ ht-degree: 0%
      파일이 브라우저의 다운로드 폴더에 저장됩니다.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      설정을 편집하려면 파일을 직접 편집한 다음 변경 사항을 업로드하십시오. 편집 가능한 모든 열이 파란색으로 강조 표시됩니다. 필드에 올바른 형식을 사용하려면 해당 패키지 설정 또는 배치 설정에서 값을 선택하고 복사합니다. 데이터 분할, 사용자 정의 목표 및 전환 지표와 같은 일부 타겟 설정의 경우 설정 내에서 복사 옵션을 사용할 수 있습니다.
+
+     >[!NOTE]
+     >
+     >일부 타겟 설정의 경우 선택 범위를 특정 타겟으로 좁히지 않으면 기본적으로 모든 옵션이 타겟팅됩니다. 대상을 좁히지 않은 경우 일괄 시트 필드가 비어 있으므로 모든 옵션이 타겟팅됩니다.
 
 ## 캠페인에 대한 패키지, 배치 및 광고 설정이 있는 일괄 시트 업로드{#upload-bulksheet-campaign-components}
 
@@ -116,7 +120,6 @@ ht-degree: 0%
 | [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Included #] | The number of targeted [!UICONTROL On-Demand Inventory] deals, if any are specified, *[!UICONTROL All]*, or *[!UICONTROL None]*. | &mdash; |
 | [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Excluded #] | The number of excluded On-Demand Inventory deals, if any are specified, or *[!UICONTROL None]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Traffic Type] | The targeted type of traffic: *[!UICONTROL Website]* and/or *[!UICONTROL Apps]* | &mdash; |
-| [!UICONTROL Sites] | [!UICONTROL Exclude out-stream] | Whether the Inventory Targeting option to exclude outstream traffic is <i[!UICONTROL >ON]* or *[!UICONTROL OFF]*.<br>Outstream ads usually appear over the content as a pop-up or stuffed into content (in the native experience), rather than as regular video ads in a video player. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Site Tier] | The quality of the sites to target: *[!UICONTROL Tier 1]*, *[!UICONTROL Tier 2]*, *[!UICONTROL Tier 3]*, or *[!UICONTROL All Sites]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Categories - Included #] | The number of targeted site categories, if any are specified, or *[!UICONTROL All]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Categories - Excluded #] | The number of excluded site categories, if any are specified, or *[!UICONTROL All]*. | &mdash; |

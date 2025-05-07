@@ -2,7 +2,7 @@
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
 role: User, Admin
-source-git-commit: 20f69d2e8d5d289015c911f153609c0805307f0a
+source-git-commit: 1f8a76e060612cdcc8ee3709bdf49654faf31b57
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-추가 Adobe Experience Cloud 제품이 있는 광고주는 Experience Cloud을 위해 조직의 고유 ID를 사용하여 일부 제품 간에 데이터를 공유할 수 있습니다. [!UICONTROL Integrations] 섹션에서 특정 제품 통합을 구성할 수 있습니다.
+추가 Adobe Experience Cloud 제품이 있는 광고주는 Experience Cloud에 대한 조직의 고유 ID를 사용하여 일부 제품 간에 데이터를 공유할 수 있습니다. [!UICONTROL Integrations] 섹션에서 특정 제품 통합을 구성할 수 있습니다.
 
-**[!UICONTROL Account IMS org and ID]:**(여러 광고주가 있는 Experience Cloud 계정을 통해 라이선스가 부여된 추가 Experience Cloud 제품을 가진 광고주; 선택 사항) 광고주의 Experience Cloud 조직 ID입니다.
+**[!UICONTROL Account IMS org and ID]:**(여러 광고주가 있는 Experience Cloud 계정을 통해 라이선스가 부여된 추가 Experience Cloud 제품이 있는 광고주; 선택 사항) 광고주의 Experience Cloud 조직 ID입니다.
 
 **[!UICONTROL Advertiser IMS org and ID]:**(추가 Experience Cloud 제품에 대한 직접 라이선스가 있는 광고주, 선택 사항) 광고주의 Experience Cloud 조직 ID입니다.
 
@@ -41,15 +41,15 @@ ht-degree: 0%
 
 (선택 사항) DSP 계정에 연결된 추가 Experience Cloud 제품. 제품은 [!UICONTROL Adobe IMS IDs] 섹션에 제공된 것과 동일한 Experience Cloud 조직 ID와 연결되어 있어야 합니다.
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:**(광고주: [!DNL Advertising Search, Social, & Commerce] 또는 Adobe Advertising 전환 픽셀을 사용) DSP이 속성 데이터를 교환하는 [!DNL Search, Social, & Commerce] 계정.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:**(광고주: [!DNL Advertising Search, Social, & Commerce] 또는 Adobe Advertising 전환 픽셀을 사용) DSP에서 속성 데이터를 교환하는 [!DNL Search, Social, & Commerce] 계정.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:**(Adobe Analytics을 사용하는 광고주; 선택 사항; [!DNL EF Redirect] 및 토큰만 포함하는 Adobe Advertising 전환 추적 태그를 사용하여 수집된 데이터에만 적용 가능) DSP이 게시자 및 공급측 파트너로부터 수집한 데이터를 전송하는 하나 이상의 [!DNL Analytics] 보고서 세트. 또한 Analytics는 클라이언트 사이트에서 수집한 데이터를 DSP으로 전송합니다.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:**(Adobe Analytics을 사용하는 광고주; 선택 사항; [!DNL EF Redirect] 및 토큰만 포함하는 Adobe Advertising 전환 추적 태그를 사용하여 수집된 데이터에만 적용 가능) DSP에서 게시자 및 공급측 파트너로부터 수집한 데이터를 전송하는 하나 이상의 [!DNL Analytics] 보고서 세트. 또한 Analytics는 클라이언트 사이트에서 수집한 데이터를 DSP으로 전송합니다.
 
 데이터가 보고서 세트에 표시되도록 하려면 적절한 [!DNL Search, Social, & Commerce] 광고주 수준 설정을 사용해야 합니다. 또한 광고주의 [!DNL Analytics] 계정이 Adobe Advertising에서 데이터를 받도록 구성되어 있어야 합니다.
 
 >[!WARNING]
 >
->이전에 연결된 보고서 세트를 제거하면 DSP이 더 이상 해당 세트와 데이터를 교환하지 않습니다. 데이터 변동이 발생할 것으로 예상됩니다.
+>이전에 연결된 보고서 세트를 제거하면 DSP에서 더 이상 해당 세트와 데이터를 교환하지 않습니다. 데이터 변동이 발생할 것으로 예상됩니다.
 
 [!DNL Analytics]과의 통합에 대한 자세한 내용은 &quot;[개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)&quot;를 참조하십시오.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 * Audience Manager 세그먼트
 * Adobe Experience Cloud에 게시된 [!DNL Analytics]개 세그먼트
 * Adobe Experience Cloud [!DNL Audience Library]을(를) 사용하여 만든 세그먼트
-* Adobe Experience Platform에서 생성되어 Audience Manager을 통해 Adobe Advertising으로 전송되는 세그먼트
+* Adobe Experience Platform에서 만들어져 Audience Manager을 통해 Adobe Advertising으로 전송되는 세그먼트
 
 초기 동기화는 약 24시간이 소요됩니다. 그 후에는 데이터가 1~2초 지연으로 실시간으로 동기화됩니다.
 <!-- I don't think this is true anymore:
@@ -82,6 +82,8 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ### [!UICONTROL Media Quality]
 
+<!-- See placement settings for specs on applicable ad/device types -->
+
 #### [!UICONTROL Contextual Filtering]
 
 적용할 [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] 및 [!DNL Peer39] 컨텍스트 필터의 형식입니다. [배치 수준](/help/dsp/campaign-management/placements/placement-settings.md)에서 광고주 수준 설정을 재정의할 수 있습니다.
@@ -104,7 +106,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **[!UICONTROL Alcohol Content]:**(선택 사항) 기본적으로 광고를 차단할 알코올 도입니다. *[!UICONTROL Do Not Block]*(기본값), *[!UICONTROL Standard]* 또는 *[!UICONTROL Strict]*. 추가 요금이 부과될 수 있습니다.
 
-#### [!UICONTROL Pre-Bid Fraud Blocking]
+#### [!UICONTROL Pre-Bid Fraud Blocking] {#prebid-fraud-blocking}
 
 [!DNL DoubleVerify], [!DNL Integral Ad Science] 및 [!DNL Peer39]을(를) 통해 측정된 사기 트래픽 및 의심스러운 활동을 기반으로 차단할 사이트 유형입니다. [배치 수준](/help/dsp/campaign-management/placements/placement-settings.md)에서 광고주 수준 설정을 재정의할 수 있습니다.
 
@@ -112,7 +114,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** 기본적으로 새 배치에 대해 하이재핑된 장치의 트래픽을 포함하여 100% 잘못된 모든 트래픽을 차단합니다. 추가 요금이 부과될 수 있습니다.
 
-**[!UICONTROL Also block sites with]:**(선택 사항) DSP이 기본적으로 광고를 차단하도록 하는 추가적인 수준의 사기 및 잘못된 트래픽입니다. *[!UICONTROL None]*(기본값: 추가 트래픽을 차단하지 않음), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* 또는 *[!UICONTROL >25% Average Fraud/IVT levels]*. 추가 요금이 부과될 수 있습니다.
+**[!UICONTROL Also block sites with]:**(선택 사항) DSP에서 기본적으로 광고를 차단하는 추가적인 수준의 사기 및 잘못된 트래픽: *[!UICONTROL None]*(기본값: 추가 트래픽을 차단하지 않음), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* 또는 *[!UICONTROL >25% Average Fraud/IVT levels]*. 추가 요금이 부과될 수 있습니다.
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
@@ -120,7 +122,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]:**(선택 사항) DSP에서 기본적으로 광고를 차단하도록 하는 의심스러운 웹 사이트 또는 앱 활동 유형: *[!UICONTROL None]*(의심스러운 활동을 기반으로 광고를 차단하지 않는 기본값), *[!UICONTROL Suspicious Activity - High Risk]* 또는 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 추가 요금이 부과될 수 있습니다.
+**[!UICONTROL Block sites that are]:**(선택 사항) DSP에서 기본적으로 광고를 차단하는 의심스러운 웹 사이트 또는 앱 활동 유형: *[!UICONTROL None]*(기본적으로 의심스러운 활동에 따라 광고를 차단하지 않음), *[!UICONTROL Suspicious Activity - High Risk]* 또는 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 추가 요금이 부과될 수 있습니다.
 
 #### [!UICONTROL Pre-Bid Viewability]
 
@@ -130,19 +132,19 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ###### 비디오
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average video viewability rate is]** 이 옵션을 사용하여 기준을 선택합니다.
+**0}을(를) 사용합니다. **[!UICONTROL Include URL's whose average video viewability rate is]** 이 옵션을 사용하여 기준을 선택합니다.
 
-**0&rbrace; 사용&#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+**0} 사용&#x200B;**[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average completion & fully viewable rate is]** 이 옵션을 사용하여 기준을 선택합니다.
+**0}을(를) 사용합니다. **[!UICONTROL Include URL's whose average completion & fully viewable rate is]** 이 옵션을 사용하여 기준을 선택합니다.
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average player size composition is]** 이 옵션을 사용하여 기준을 선택합니다.
+**0}을(를) 사용합니다. **[!UICONTROL Include URL's whose average player size composition is]** 이 옵션을 사용하여 기준을 선택합니다.
 
-**0&rbrace; 사용&#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+**0} 사용&#x200B;**[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 표시
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]** 이 옵션을 사용하여 기준을 선택합니다.
+**0}을(를) 사용합니다. **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]** 이 옵션을 사용하여 기준을 선택합니다.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
