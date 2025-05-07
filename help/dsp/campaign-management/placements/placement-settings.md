@@ -265,7 +265,7 @@ ht-degree: 0%
       1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
       1. 검색 결과에서 제외할 사이트를 선택합니다.
          * 개별 사이트를 제외하려면 인접한 확인란을 선택합니다.
-         * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**을(를) 클릭합니다.
+         * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**&#x200B;을(를) 클릭합니다.
    * 도메인 이름을 입력하려면 다음을 수행합니다.
       1. **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
       1. 별도의 줄에 도메인 이름을 하나 이상 입력합니다.
@@ -296,7 +296,7 @@ ht-degree: 0%
       1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
       1. 검색 결과에서 포함할 사이트를 선택합니다.
          * 개별 사이트를 제외하려면 인접한 확인란을 선택합니다.
-         * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 포함하려면 **[!UICONTROL Include these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 포함하려면 **[!UICONTROL Include these \<*NN *\>]**을(를) 클릭하십시오.
+         * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 포함하려면 **[!UICONTROL Include these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 포함하려면 **[!UICONTROL Include these \<*NN *\>]**&#x200B;을(를) 클릭하십시오.
    * 도메인 이름을 입력하려면 다음을 수행합니다.
       1. **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
       1. 별도의 줄에 도메인 이름을 하나 이상 입력합니다.
@@ -323,7 +323,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (기본값) 쿠키, 모바일 광고 ID 또는 연결된 TV(CTV) ID를 기준으로 사용자를 타깃팅합니다. ID는 브라우저, 인앱 또는 CTV 인벤토리를 기반으로 선택됩니다.
 
-* *[!UICONTROL Universal ID Beta]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트](/help/dsp/audiences/sources/source-about.md) 또는 [범용 ID를 추적하는 사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md)에 사용합니다.[
+* *[!UICONTROL Universal ID Beta]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[&#128279;](/help/dsp/audiences/sources/source-about.md) 또는 [범용 ID를 추적하는 사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md)에 사용합니다.
 
    * *[!UICONTROL ID5]*: 이메일 주소 및 기타 신호에서 [!DNL ID5] ID를 확률적으로 만들었습니다.<!-- What countries/geos are these available for? Everywhere?-->개의 ID5 ID를 무료로 사용할 수 있습니다. **참고:** [!DNL Eyeota]의 타사 세그먼트에는 ID5 ID가 포함될 수 있습니다.
 
