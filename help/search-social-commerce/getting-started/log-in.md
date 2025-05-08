@@ -3,7 +3,7 @@ title: 로그인
 description: 로그인 방법에 대해 알아봅니다.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 3d66f9a417d08f297d11b3f71479c3fe7a2232b3
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 로그인
 
-Adobe Experience Cloud 내에서 직접 또는 Commerce에 로그인할 수 있습니다.
+Adobe Experience Cloud 내에서 또는 직접 검색, 소셜 및 Commerce에 로그인할 수 있습니다.
 
 ## 직접 로그인
 
@@ -26,9 +26,9 @@ Adobe Experience Cloud 내에서 직접 또는 Commerce에 로그인할 수 있�
 
 >[!NOTE]
 >
->귀사는 Adobe Experience Cloud에서 프로비저닝되어야 하며 [Experience Cloud 계정을 Search, Social 및 Commerce 계정에 연결](https://experiencecloud.adobe.com/resources/help/ko_KR/mcloud/organizations.html)해야 합니다.
+>회사가 Adobe Experience Cloud에서 프로비저닝되어야 하며, [Experience Cloud 계정을 Search, Social 및 Commerce 계정에 연결](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html)해야 합니다.
 
-1. [Adobe Experience Cloud에 로그인](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko#signin).
+1. [Adobe Experience Cloud 로그인](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
 1. 상단 메뉴에서 ![솔루션 선택기](/help/search-social-commerce/assets/menu-icon.png "솔루션 선택기")를 선택합니다.
 
