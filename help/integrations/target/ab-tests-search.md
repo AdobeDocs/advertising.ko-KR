@@ -69,7 +69,7 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽 [!
 
       [관련 ID 열을 엔터티 보기에 추가](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)하여 ID를 찾을 수 있습니다.
 
-      [!UICONTROL Accounts] 보기의 [!UICONTROL Accounts] 보기](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] 열에 있는 ![[!UICONTROL Network Account ID] 열")
+      [!UICONTROL Accounts] 보기의 [!UICONTROL Accounts] 보기&rbrack;(/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] 열에 있는 !&lbrack;[!UICONTROL Network Account ID] 열")
 
       지원이 필요한 경우 Adobe 계정 팀과 협력합니다.
 
