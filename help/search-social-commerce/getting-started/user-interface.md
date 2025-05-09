@@ -3,7 +3,7 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * ![경고 알림](/help/search-social-commerce/assets/notifications-panel.png "경고 알림") 검색, 소셜 및 Commerce 알림이 나열된 패널입니다.
 
-  [Adobe Experience Cloud을 통해 로그인](log-in.md)하면 이 패널에 Experience Cloud의 알림이 표시됩니다.
+  [Adobe Experience Cloud을 통해 로그인](sign-in.md)하면 이 패널에 Experience Cloud의 알림이 표시됩니다.
 
 * ![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴") 도움말 메뉴로서 설명서 및 기타 정보에 대한 링크를 포함합니다.
 
@@ -50,9 +50,9 @@ ht-degree: 0%
 
 * ![사용자 프로필](/help/search-social-commerce/assets/user-profile.png "사용자 프로필") 로그아웃할 수 있는 프로필 링크입니다.
 
-  [Adobe Experience Cloud을 통해 로그인](log-in.md)하는 경우 Experience Cloud 암호 및 알림 설정을 포함하여 Experience Cloud 프로필을 편집할 수도 있습니다.
+  [Adobe Experience Cloud을 통해 로그인](sign-in.md)하는 경우 Experience Cloud 암호 및 알림 설정을 포함하여 Experience Cloud 프로필을 편집할 수도 있습니다.
 
 >[!MORELIKETHIS]
 >
->* [로그인](log-in.md)
->* [로그아웃](log-out.md)
+>* [로그인](sign-in.md)
+>* [로그아웃](sign-out.md)

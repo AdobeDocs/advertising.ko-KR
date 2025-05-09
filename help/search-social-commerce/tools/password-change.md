@@ -3,7 +3,7 @@ title: 암호 변경
 description: 계정 암호를 변경하는 방법에 대해 알아봅니다.
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -28,5 +28,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [로그인](/help/search-social-commerce/getting-started/log-in.md)
->* [로그아웃](/help/search-social-commerce/getting-started/log-out.md)
+>* [로그인](/help/search-social-commerce/getting-started/sign-in.md)
+>* [로그아웃](/help/search-social-commerce/getting-started/sign-out.md)

@@ -3,7 +3,7 @@ title: 날짜 범위별로 데이터 필터링
 description: 글로벌 날짜 범위 필터를 사용하는 방법을 알아봅니다.
 exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%

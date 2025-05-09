@@ -3,7 +3,7 @@ title: 사용자 정의 목표
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 패키지에서 성공 이벤트를 정의하는 사용자 정의 목표에 대해 알아봅니다.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 290eea50fe3c52a534ad6ab4fcf6d857b13230aa
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 사용자 정의 목표
 
-사용자 지정 목표는 광고주가 비즈니스 목표를 달성하는 데 필요한 성공 이벤트를 정의합니다. 최적화 목표 &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot; 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;을(를) 사용하는 각 패키지에는 전체 최적화 목표를 달성하는 데 도움이 되도록 사용자 지정 목표가 포함되어야 합니다. 사용자 지정 목표를 [!DNL Advertising Search, Social, & Commerce]의 *목표*(으)로 만들 수 있습니다. DSP의 각 목표의 이름 앞에는 &quot;ADSP_&quot;가 붙어야 합니다.
+사용자 지정 목표는 광고주가 비즈니스 목표를 달성하는 데 필요한 성공 이벤트를 정의합니다. 최적화 목표 &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot; 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;을(를) 사용하는 각 패키지에는 전체 최적화 목표를 달성하는 데 도움이 되도록 사용자 지정 목표가 포함되어야 합니다. 사용자 지정 목표를 [!DNL Advertising Search, Social, & Commerce]의 *목표*(으)로 만들 수 있습니다. DSP에 대한 각 목표의 이름 앞에는 &quot;ADSP_&quot;가 붙어야 합니다.
 
 <!-- update image or omit it
 
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 [사용자 지정 목표를 만들기](#custom-goal-create)하면 Adobe Sensei을 사용하여 보고 및 알고리즘 최적화를 위해 [패키지에 할당](/help/dsp/campaign-management/packages/package-settings.md)할 수 있습니다.
 
-가중치 권장 사항은 목표의 DSP 속성 지표에 대해 자동으로 생성되며 한 번의 클릭으로 모든 가중치 권장 사항을 적용할 수 있습니다. &quot;ADSP_&quot;가 접두사로 붙은 목표의 모든 가중치 변경 사항은 2일 이내에 DSP에서 알고리즘적으로 적용됩니다. 가중치 권장 사항에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 &quot;(Beta) 새 목표&quot;에 대한 최적화 안내서 장을 참조하십시오.
+가중치 권장 사항은 목표의 DSP 기반 지표에 대해 자동으로 생성되며, 한 번의 클릭으로 모든 가중치 권장 사항을 적용할 수 있습니다. &quot;ADSP_&quot;가 접두사로 붙은 목표의 모든 가중치 변경 사항은 2일 이내에 DSP에서 알고리즘적으로 적용됩니다. 가중치 권장 사항에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 &quot;(Beta) 새 목표&quot;에 대한 최적화 안내서 장을 참조하십시오.
 
 ## 사용자 지정 목표 만들기 {#custom-goal-create}
 
-사용자 지정 목표를 만들려면 DSP 계정이 [!DNL Search, Social, & Commerce] 클라이언트 설정 내에서 동일한 Adobe Experience Cloud 조직 ID를 가진 [!DNL Search, Social, & Commerce] 계정에 연결되어 있어야 합니다. DSP 계정이 [!DNL Search, Social, & Commerce] 계정에 연결되어 있지 않으면 Adobe 계정 팀에 문의하십시오.
+사용자 지정 목표를 만들려면 [!DNL Search, Social, & Commerce] 클라이언트 설정 내에서 DSP 계정이 동일한 Adobe Experience Cloud 조직 ID를 가진 [!DNL Search, Social, & Commerce] 계정에 연결되어 있어야 합니다. DSP 계정이 [!DNL Search, Social, & Commerce] 계정에 연결되어 있지 않으면 Adobe 계정 팀에 문의하십시오.
 
 1. (북미 사용자) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 또는 (다른 모든 사용자) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com)에서 [!DNL Advertising Search, Social, & Commerce]에 로그인합니다.
 
@@ -70,7 +70,7 @@ ht-degree: 0%
       >
       >최적의 성능을 위해서는 사용자 지정 목표(목표)의 결합된 지표가 하루에 10개 이상의 전환을 수행해야 합니다. 그렇지 않은 경우 제품 페이지나 애플리케이션 시작과 같은 추가 지원 전환 지표를 목표에 추가하는 것이 좋습니다. 지침이 필요하면 [사용자 지정 목표 작성에 대한 우수 사례](#custom-goal-best-practices)를 참조하십시오.
 
-최적화 목표 &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;을(를) 사용하는 패키지에 대한 DSP 패키지 설정에서 목표 이름이 이제 [!UICONTROL Custom Goals] 목록에 포함됩니다. 패키지의 사용자 지정 목표로 목표를 선택하면 [!UICONTROL Conversion Metric] 목록에 목표에 대한 모든 목표 지표가 포함됩니다.
+최적화 목표 &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;을(를) 사용하는 패키지의 DSP 패키지 설정에서 목표 이름이 이제 [!UICONTROL Custom Goals] 목록에 포함됩니다. 패키지의 사용자 지정 목표로 목표를 선택하면 [!UICONTROL Conversion Metric] 목록에 목표에 대한 모든 목표 지표가 포함됩니다.
 
 ## 사용자 지정 목표 빌드를 위한 우수 사례 {#custom-goal-best-practices}
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 비모바일 가중치는 1(으)로, 모든 디바이스에서 디스플레이 광고를 위해 추적된 매출의 각 $1에 대해 1(1)의 값과 동일합니다. 예를 들어 비모바일 가중치가 1인 $250 전환은 전환에 대해 $250로 보고됩니다. 전환 지표에 0.5의 비모바일 가중치가 할당되면 $250 전환은 Adobe Advertising($250 전환 * 0.5 [!UICONTROL Non-mobile Weight] = $125)에서 $125로 보고됩니다.
+> 비모바일 가중치는 1(으)로, 모든 디바이스에서 디스플레이 광고를 위해 추적된 매출의 각 $1에 대해 1(1)의 값과 동일합니다. 예를 들어 비모바일 가중치가 1인 $250 전환은 전환에 대해 $250로 보고됩니다. 전환 지표에 0.5의 비모바일 가중치가 할당되면 Adobe Advertising에서 $250 전환은 $125로 보고됩니다($250 전환 * 0.5 [!UICONTROL Non-mobile Weight] = $125).
 
 #### 최적화 목표가 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;인 캠페인의 예
 
@@ -104,13 +104,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 비모바일 가중치는 1(1)로, 모든 디바이스에서 디스플레이 광고를 위해 추적된 각 전환에 대해 1(1)의 값과 동일합니다. 예를 들어 10개의 애플리케이션 제출 전환이 추적되면 10개의 애플리케이션 제출 전환이 보고됩니다. 그러나 전환 지표에 0.5의 비모바일 가중치가 할당되면 Adobe Advertising에서 10개의 전환이 5개(5)로 보고됩니다(10개 전환 * 0.5 [!UICONTROL Non-mobile Weight] = 5).
+> 비모바일 가중치는 1(1)로, 모든 디바이스에서 디스플레이 광고를 위해 추적된 각 전환에 대해 1(1)의 값과 동일합니다. 예를 들어 10개의 애플리케이션 제출 전환이 추적되면 10개의 애플리케이션 제출 전환이 보고됩니다. 그러나 전환 지표에 0.5의 비모바일 가중치가 할당되면 Adobe Advertising에서 10개의 전환이 5개(10개 전환 * 0.5 [!UICONTROL Non-mobile Weight] = 5)로 보고됩니다.
 
 ### 여러 지표를 사용하는 사용자 정의 목표
 
 사용자 지정 목표에서 여러 지표를 사용하는 두 가지 시나리오가 있습니다.
 
-* 캠페인 목표에는 여러 개의 성공 이벤트가 있습니다. 예를 들어 둘 이상의 온사이트 작업(PDF 다운로드, 연락처 및 이메일 등록)에 대해 광고하고 있을 수 있으며 모든 작업은 CPA 목표에 기여하는 작업입니다. 목표에 각각 비모바일 가중치가 1인 세 개의 개별 지표가 포함되어 있는 경우 [!DNL Adobe Sensei] 알고리즘은 각 지표 및 사용자 장치 유형을 동일한 중요도로 처리합니다. 서로 다른 지표에 다양한 비용이나 중요도가 있는 경우 그에 따라 상대적 가중치를 조정합니다.
+* 캠페인 목표에는 여러 개의 성공 이벤트가 있습니다. 예를 들어 두 개 이상의 온사이트 작업(PDF 다운로드, 연락처 및 이메일 등록)을 광고하고 있을 수 있으며 모든 작업은 CPA 목표에 기여하는 작업입니다. 목표에 각각 비모바일 가중치가 1인 세 개의 개별 지표가 포함되어 있는 경우 [!DNL Adobe Sensei] 알고리즘은 각 지표 및 사용자 장치 유형을 동일한 중요도로 처리합니다. 서로 다른 지표에 다양한 비용이나 중요도가 있는 경우 그에 따라 상대적 가중치를 조정합니다.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -136,4 +136,4 @@ ht-degree: 0%
 >
 >* [최적화 목표 및 사용 방법](optimization-goals.md)
 >* [패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)
-> * [DSP이 캠페인을 최적화하는 방법](optimization-how-dsp-optimizes-campaigns.md)
+> * [DSP에서 캠페인을 최적화하는 방법](optimization-how-dsp-optimizes-campaigns.md)
