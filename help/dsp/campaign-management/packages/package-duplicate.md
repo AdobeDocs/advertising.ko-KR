@@ -3,9 +3,9 @@ title: 패키지 복제
 description: 패키지를 복제하는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,11 @@ ht-degree: 0%
 패키지를 복제하여 유사한 설정으로 패키지를 만듭니다. 다음을 수행할 수 있습니다.
 
 * 원래 광고주와 캠페인 또는 다른 광고주 내에서 패키지를 복제합니다.
+
 * 선택적으로 패키지 내에 배치 복제
+
 * (원래 캠페인 내의 복제된 패키지의 경우) 선택적으로 원래 광고 및 배치 수준 이벤트 픽셀을 복제합니다
+
 * 새 패키지의 비행 날짜 수정
 
 중복되지 않은 배치 설정 목록은 &quot;[중복되지 않은 항목](#package-not-duplicated)&quot;을 참조하십시오.
@@ -58,6 +61,33 @@ ht-degree: 0%
    * 이벤트 픽셀
    * 광고
    * 배치 수준 [!DNL DoubleVerify Authentic Brand Safety] 세그먼트(광고주 수준 세그먼트를 재정의함)
+
+## 새 패키지 구성 모범 사례
+
+>[!TIP]
+>
+>* 일괄 시트를 사용하여 [한 번에 여러 캠페인 구성 요소를 변경](/help/dsp/campaign-management/campaign-components-review-edit.md)할 수 있습니다.
+* 광고 태그 시트를 사용하여 [여러 타사 광고를 업로드](/help/dsp/campaign-management/ads/ad-create-multiple.md)합니다.
+
+* 새 패키지를 활성화할 준비가 될 때까지 일시 중지합니다.
+
+* 다음 사항을 고려하여 필요에 따라 새 패키지 설정을 편집합니다.
+
+   * 그 계좌에는 새 패키지 예산을 수용할 충분한 자금이 있습니까?
+
+   * 새 패키지는 이전 패키지와 다른 예산이 필요합니까?
+
+   * 필요한 사용자 지정 광고 가중치 및 일정을 포함하여 크리에이티브를 업로드하고 배치에 첨부합니다.
+
+   * 필요에 따라 배치 및 광고에 이벤트 픽셀을 첨부합니다.
+
+   * 필요한 경우 배치에 지리적 대상과 배치 수준 [!DNL DoubleVerify Authentic Brand Safety] 세그먼트를 포함하십시오.
+
+   * 프로그램 보증 거래의 경우 새 거래 ID를 사용하고 기본 배치를 만듭니다.
+
+   * 필요에 따라 [!UICONTROL Simple Ad Serving] 거래에 대한 새 배치를 만듭니다.
+
+* 사용자 지정 최적화 목표를 사용하는 패키지의 경우 각 패키지에 대해 [[!UICONTROL Linked Package for Optimization Learnings Carryover] 설정](/help/dsp/campaign-management/packages/package-settings.md)을(를) 사용하여 이전 캠페인의 기록 데이터를 패키지 최적화를 위한 입력으로 사용합니다.
 
 >[!MORELIKETHIS]
 >

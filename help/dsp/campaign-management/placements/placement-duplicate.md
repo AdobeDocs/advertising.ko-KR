@@ -3,9 +3,9 @@ title: 중복 배치
 description: 하나 이상의 배치를 복제하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    1. (단일 배치) 새 배치 이름을 입력합니다.
 
-   1. **[!UICONTROL Choose Package (Required)]** 메뉴에서 부모 패키지 또는 &lbrace;1*** 중 하나를 선택합니다.[!UICONTROL No package]
+   1. **[!UICONTROL Choose Package (Required)]** 메뉴에서 부모 패키지 또는 {1*** 중 하나를 선택합니다.[!UICONTROL No package]
 
    1. (선택 사항) 기본 설정을 변경합니다.
 
@@ -68,6 +68,31 @@ ht-degree: 0%
    * 이벤트 픽셀
    * 광고
    * 배치 수준 [!DNL DoubleVerify Authentic Brand Safety] 세그먼트(광고주 수준 세그먼트를 재정의함)
+
+## 새 배치 구성 모범 사례
+
+>[!TIP]
+>
+>* 일괄 시트를 사용하여 [한 번에 여러 캠페인 구성 요소를 변경](/help/dsp/campaign-management/campaign-components-review-edit.md)할 수 있습니다.
+* 광고 태그 시트를 사용하여 [여러 타사 광고를 업로드](/help/dsp/campaign-management/ads/ad-create-multiple.md)합니다.
+
+* 새 배치를 활성화할 준비가 될 때까지 일시 중지합니다.
+
+* 다음 사항을 고려하고 필요에 따라 새 배치 설정을 편집합니다.
+
+   * 그 계좌는 새로운 배치 예산을 수용할 충분한 자금이 있습니까?
+
+   * 새 배치에 이전 배치와 다른 예산이 필요합니까?
+
+   * 필요한 사용자 지정 광고 가중치 및 일정을 포함하여 크리에이티브를 업로드하고 배치에 첨부합니다.
+
+   * 필요에 따라 배치 및 광고에 이벤트 픽셀을 첨부합니다.
+
+   * 필요에 따라 지리적 대상과 배치 수준 [!DNL DoubleVerify Authentic Brand Safety] 세그먼트를 배치에 포함하십시오.
+
+   * 프로그램 보증 거래의 경우 새 거래 ID를 사용하고 기본 배치를 만듭니다.
+
+   * 필요에 따라 [!UICONTROL Simple Ad Serving] 거래에 대한 새 배치를 만듭니다.
 
 >[!MORELIKETHIS]
 >
