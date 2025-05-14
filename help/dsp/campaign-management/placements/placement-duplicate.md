@@ -43,7 +43,7 @@ ht-degree: 0%
 
    1. (단일 배치) 새 배치 이름을 입력합니다.
 
-   1. **[!UICONTROL Choose Package (Required)]** 메뉴에서 부모 패키지 또는 {1*** 중 하나를 선택합니다.[!UICONTROL No package]
+   1. **[!UICONTROL Choose Package (Required)]** 메뉴에서 부모 패키지 또는 &lbrace;1*** 중 하나를 선택합니다.[!UICONTROL No package]
 
    1. (선택 사항) 기본 설정을 변경합니다.
 
