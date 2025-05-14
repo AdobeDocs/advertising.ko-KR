@@ -3,9 +3,9 @@ title: 캠페인 복제
 description: 캠페인을 복제하는 방법을 알아봅니다.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 * 새 캠페인을 활성화할 준비가 될 때까지 일시 중지합니다.
 
-* 다음 사항을 고려하고 필요에 따라 새 캠페인 설정을 편집합니다.
+* 다음 사항을 고려하고 필요에 따라 새 캠페인을 편집합니다.
 
    * 그 계좌에는 새로운 캠페인 예산을 수용할 충분한 자금이 있습니까?
 

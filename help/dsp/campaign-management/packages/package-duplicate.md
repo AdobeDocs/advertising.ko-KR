@@ -3,9 +3,9 @@ title: 패키지 복제
 description: 패키지를 복제하는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 * 새 패키지를 활성화할 준비가 될 때까지 일시 중지합니다.
 
-* 다음 사항을 고려하여 필요에 따라 새 패키지 설정을 편집합니다.
+* 다음 사항을 고려하고 필요에 따라 새 패키지를 편집합니다.
 
    * 그 계좌에는 새 패키지 예산을 수용할 충분한 자금이 있습니까?
 
