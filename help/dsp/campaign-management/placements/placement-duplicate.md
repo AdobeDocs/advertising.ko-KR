@@ -3,9 +3,9 @@ title: 중복 배치
 description: 하나 이상의 배치를 복제하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    1. (단일 배치) 새 배치 이름을 입력합니다.
 
-   1. **[!UICONTROL Choose Package (Required)]** 메뉴에서 부모 패키지 또는 &lbrace;1*** 중 하나를 선택합니다.[!UICONTROL No package]
+   1. **[!UICONTROL Choose Package (Required)]** 메뉴에서 부모 패키지 또는 {1*** 중 하나를 선택합니다.[!UICONTROL No package]
 
    1. (선택 사항) 기본 설정을 변경합니다.
 
@@ -60,6 +60,7 @@ ht-degree: 0%
 원래 배치의 모든 설정은 다음을 제외하고 복제됩니다.
 
 * 실험 설정
+* 배치 수준의 최소 예산
 * (플라이트 날짜를 변경하는 경우) 사용자 지정 광고 예약
 * (광고를 첨부하지 않는 경우) 사용자 지정 광고 가중치 및 예약
 * 프로그래밍 방식 보장(PG) 거래의 기본 배치 및 [!UICONTROL Simple Ad Serving] 거래의 배치
@@ -82,7 +83,7 @@ ht-degree: 0%
 
    * 그 계좌는 새로운 배치 예산을 수용할 충분한 자금이 있습니까?
 
-   * 새 배치에 이전 배치와 다른 예산이 필요합니까?
+   * 새 배치에 이전 배치와 다른 예산이 필요합니까? 최소 예산이 필요합니까?
 
    * 필요한 사용자 지정 광고 가중치 및 일정을 포함하여 크리에이티브를 업로드하고 배치에 첨부합니다.
 
