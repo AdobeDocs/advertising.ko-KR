@@ -3,9 +3,9 @@ title: Creative 번들 관리
 description: xxxx에 대해 알아보십시오.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
+source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -106,11 +106,9 @@ ht-degree: 0%
 
 표준 번들에 [기존 표준 크리에이티브](/help/creative/creative-libraries/creative-libraries-about.md)을(를) 연결하고 동적 번들에 기존 동적 크리에이티브<!-- [existing dynamic creatives](creative-dynamic-manage.md) -->을(를) 연결할 수 있습니다. 번들에 크리에이티브를 첨부하면 번들이 할당된 모든 경험에서 크리에이티브를 사용할 수 있습니다. 각 번들에는 각 \[creative size + language\] 조합 중 하나만 포함될 수 있습니다.
 
-<!--
 >[!NOTE]
 >
->You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
--->
+>표준 광고 및 동적 광고 보기에서 [번들에 크리에이티브를 첨부할 수도 있습니다](creative-attach-detach-bundles.md).
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
@@ -127,6 +125,8 @@ ht-degree: 0%
    * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Attach Creatives]**&#x200B;을(를) 클릭합니다.
 
    번들 유형에 적합한 각 크리에이티브가 오른쪽 프레임에 나열됩니다. 번들에 이미 첨부된 크리에이티브는 나열되지만 선택할 수 없습니다.
+
+1. (선택 사항) ![카드 보기](/help/creative/assets/card-view-button.png "카드 보기")를 클릭하여 카드 보기를 열거나 ![테이블/목록 보기](/help/creative/assets/table-view-button.png "표 보기")을(를) 클릭하여 테이블 보기로 돌아가면서 사용 가능한 번들의 기본 테이블 보기와 카드 보기 사이를 전환합니다.
 
 1. 오른쪽 프레임에서 번들에 첨부할 각 광고 옆에 있는 확인란을 선택한 다음 **[!UICONTROL Attach Creative to Bundle]**&#x200B;을(를) 클릭합니다.
 
@@ -182,6 +182,10 @@ ht-degree: 0%
 
 <!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
 
+1. (선택 사항) 크리에이티브의 랜딩 페이지를 열려면 크리에이티브를 클릭합니다.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
 1. (선택 사항) 크리에이티브를 다운로드하려면 ![다운로드](/help/creative/assets/download.png "다운로드")를 클릭합니다.
 
    브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
@@ -205,6 +209,10 @@ ht-degree: 0%
 1. (선택 사항) 크기별로 크리에이티브를 필터링하려면 **[!UICONTROL Size]** 목록에서 옵션을 선택한 다음 미리 보기의 오른쪽 상단에 있는 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 화면 내의 이미지 크기를 조정하려면 **[!UICONTROL Zoom]** 목록에서 이미지 크기의 10%에서 100%까지 옵션을 선택합니다.
+
+1. (선택 사항) 크리에이티브의 랜딩 페이지를 열려면 크리에이티브를 클릭합니다.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (선택 사항) [!DNL Creative]에 로그인하지 않은 다른 사용자가 광고 내용을 미리 볼 수 있도록 데모 URL을 공유하려면 다음을 수행하십시오.
 
