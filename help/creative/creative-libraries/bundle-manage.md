@@ -3,7 +3,7 @@ title: Creative 번들 관리
 description: xxxx에 대해 알아보십시오.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
+source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
 workflow-type: tm+mt
 source-wordcount: '1359'
 ht-degree: 0%
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 1. (선택 사항) 크리에이티브의 랜딩 페이지를 열려면 크리에이티브를 클릭합니다.
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (선택 사항) 크리에이티브를 다운로드하려면 ![다운로드](/help/creative/assets/download.png "다운로드")를 클릭합니다.
 
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 1. (선택 사항) 크리에이티브의 랜딩 페이지를 열려면 크리에이티브를 클릭합니다.
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (선택 사항) [!DNL Creative]에 로그인하지 않은 다른 사용자가 광고 내용을 미리 볼 수 있도록 데모 URL을 공유하려면 다음을 수행하십시오.
 
