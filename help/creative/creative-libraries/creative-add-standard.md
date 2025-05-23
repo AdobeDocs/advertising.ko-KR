@@ -3,9 +3,9 @@ title: 크리에이티브 라이브러리에 표준 크리에이티브 추가
 description: 크리에이티브 라이브러리에 표준(비동적) 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: d68c8c31a047c4615224e9ab19654e56b5e8c8f9
+source-git-commit: 38ba8473eae3df204f618eac1f20e605e57ece5a
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,13 @@ ht-degree: 0%
 
 ## 크리에이티브 라이브러리에 유연한 HTML 광고 추가 {#flexible-creative-add}
 
-<!-- Later:
-You can do either of the following: 
+다음 중 하나를 수행할 수 있습니다.
 
-* Upload your own flexible creatives in ZIP files.
+* ZIP 파일에 자신의 유연한 크리에이티브를 업로드하십시오.
 
-* Use any of the predefined flexible creative templates as a starting point for your own flexible creative.
+* 계정에 업로드된 사전 정의된 유연한 크리에이티브 템플릿을 자신의 유연한 크리에이티브를 위한 시작점으로 사용합니다.
 
-### Upload your own flexible creatives {#flexible-creative-upload}
-
--->
+### 자신만의 유연한 크리에이티브 업로드 {#flexible-creative-upload}
 
 여러 개의 유연한 크리에이티브 단위를 업로드할 수 있습니다. 유연한 크리에이티브는 ZIP 형식이어야 하며, 최대 2MB일 수 있습니다. 파일 요구 사항은 [HTML5 Creative 사양](html5-creative-specification.md)을 참조하십시오.
 
@@ -65,42 +62,48 @@ You can do either of the following:
 
 1. **[!UICONTROL Create]** 클릭
 
-<!-- In a later phase:
+### 템플릿을 사용하여 유연한 크리에이티브 추가 {#flexible-creative-use-template}
 
-### Add flexible creatives using a template {#flexible-creative-use-template}
+계정에 업로드된 유연한 크리에이티브 템플릿을 사용하여 사전 정의 크기의 광고를 작성할 수 있습니다. 사용할 템플릿을 선택하면 클릭 태그 및 속성이 편집됩니다.&lt;!— 템플릿 다운로드 기능을 다시 추가하는 경우 마지막 문장을 다음으로 바꾸기: a\) 사용할 템플릿을 선택한 다음 클릭 태그 및 특성을 편집할 수 있습니다. 또는 b\) [템플릿을 ZIP 파일로 다운로드](#download-flexible-creative-template), 콘텐츠를 오프라인으로 편집하여 자체 크리에이티브를 만든 다음 [편집된 파일을 새 크리에이티브로 업로드](flexible-creative-upload)할 수 있습니다.>
 
-You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads. Once you select a template to use, you'll edit the click tags and attributes.<!-- Replace last sentence with this if we add the template download feature back:  You can either a\) select a template to use, and then edit the click tags and attributes; or b\) [download a template as a ZIP file](#download-flexible-creative-template), edit the contents offline to build your own creative, and then [upload the edited file as a new creative](flexible-creative-upload).>
+<!-- Not currently an option:
+You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
 
 For information about the attributes available in predefined templates, see "[Available flexible creative templates](#flexible-creative-templates-available)."
+-->
 
-1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
-1. Click the library name.
+1. 라이브러리 이름을 클릭합니다.
 
-1. On the **[!UICONTROL Creatives]** tab, click the **[!UICONTROL Standard Ads]** subtab.
+1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Standard Ads]** 하위 탭을 클릭합니다.
 
-1. Click **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
+1. **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**&#x200B;을(를) 클릭합니다.
 
-1. Click **[!UICONTROL Browse System Flexible Templates]**.
+1. **[!UICONTROL Browse System Flexible Templates]**&#x200B;을(를) 클릭합니다.
 
-
-
-[The following are old instructions; see how this works in the new UI]
-
+<!-- Not options as of 5/22/25:
 
 1. In the left panel, select the creative size to see all available templates for that size.
 
-1. Under the template name, click **[!UICONTROL Use This Creative]**.
+1. Select the template:
 
-1. Edit the [flexible HTML5 creative settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) to include your own click tags, images, and other attributes.
-
-   The maximum file size of the creative, once it's zipped, is 2 MB.[Will saving the creative zip it??]
-
-1. (Optional) Once you've made your changes, click []()[add image] to preview the new creative. 
-
-1. Click **[!UICONTROL Save]**.
-
+   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
+     
+   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
 -->
+
+1. (선택 사항) 템플릿을 미리 보려면 템플릿 이름 옆에 있는 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
+
+   템플릿을 선택적으로 다운로드할 수 있습니다
+
+1. 템플릿 이름 옆에 있는 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Use Selected]**&#x200B;을(를) 클릭합니다.
+
+1. 언어를 지정하고 자신의 클릭 태그, 이미지 및 기타 특성을 포함하도록 [유연한 HTML5 Creative 설정](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5)을 편집합니다.
+
+   크리에이티브가 압축되면 최대 파일 크기는 2MB입니다.<!-- Still true? -->
+
+1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
 ## 크리에이티브 라이브러리에 HTML5 크리에이티브 추가
 

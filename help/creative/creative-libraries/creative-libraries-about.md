@@ -3,9 +3,9 @@ title: 크리에이티브 라이브러리 정보
 description: 광고 경험을 위한 크리에이티브 관리에 대해 알아봅니다.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: c69b01e12801947f156120e50615225eb3dad261
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 유연한 HTML5 크리에이티브는 모든 이미지 및 기타 특성을 표준 HTML 태그로 사용하는 HTML5 크리에이티브 기능으로, 크리에이티브 라이브러리 또는 개별 경험(원본 크리에이티브의 변형을 만드는)에서 [!DNL Creative] 내에서 직접 편집할 수 있습니다. 유연한 HTML5 광고 팀은 [광고 포트폴리오](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->에 대한 IAB(Interactive Advertising Bureau) 기술 연구소의 표준을 사용합니다. 광고 형식 크기는 유연하고(고정된 것이 아님) 광고의 종횡비와 크기 범위를 기반으로 하며, 광고는 장치 및 게시자 사이트 간에 해상도를 유지합니다.
 
-유연한 HTML5 크리에이티브를 ZIP 파일로 <!-- either -->업로드할 수 있습니다<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. [유연한 HTML5 광고 사양](html5-creative-specification.md)을 참조하세요.
+유연한 HTML5 크리에이티브를 ZIP 파일로 업로드하거나 계정에 사용할 수 있는 템플릿 중 하나를 시작점으로 사용 —> 할 수 있습니다. [유연한 HTML5 광고 사양](html5-creative-specification.md)을 참조하세요.
 
 <!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.

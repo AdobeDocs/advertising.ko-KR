@@ -3,9 +3,9 @@ title: 크리에이티브 미리 보기
 description: 크리에이티브 미리보기를 여는 방법에 대해 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: 845ab0192a1cf429a282fbf934be10e1307d2034
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. (선택 사항) 화면 내에서 이미지 크기를 조정하려면 **[!UICONTROL Zoom]** 목록에서 이미지 크기의 10%에서 100%까지 옵션을 선택합니다.
 
-<!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
+1. (유연한 HTML5 크리에이티브, 선택 사항) 크리에이티브의 프레임 사이를 스크롤하려면 **\&lt;** 및 **\>**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 크리에이티브를 다운로드하려면 ![다운로드](/help/creative/assets/download.png "다운로드")를 클릭합니다.
 
