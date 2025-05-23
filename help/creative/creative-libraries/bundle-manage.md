@@ -3,9 +3,9 @@ title: Creative 번들 관리
 description: xxxx에 대해 알아보십시오.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ ht-degree: 0%
 
      모든 행을 선택하려면 왼쪽 상단의 글로벌 확인란을 선택합니다.
 
-## 번들에서 크리에이티브 미리 보기
+## 번들에서 단일 크리에이티브 미리 보기
 
 하이퍼링크를 포함하여 사용자가 보게 될 대로 크리에이티브를 미리 볼 수 있습니다.
 
@@ -186,6 +186,31 @@ ht-degree: 0%
 
    브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
 
+## 번들의 모든 크리에이티브 미리 보기
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. 라이브러리 이름을 클릭합니다.
+
+1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
+
+1. 번들을 선택합니다.
+
+   * 카드 보기에서 번들 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
+
+   * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 언어별로 크리에이티브를 필터링하려면 **[!UICONTROL Language]** 목록에서 옵션을 선택한 다음 미리 보기의 오른쪽 상단에 있는 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 크기별로 크리에이티브를 필터링하려면 **[!UICONTROL Size]** 목록에서 옵션을 선택한 다음 미리 보기의 오른쪽 상단에 있는 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 화면 내의 이미지 크기를 조정하려면 **[!UICONTROL Zoom]** 목록에서 이미지 크기의 10%에서 100%까지 옵션을 선택합니다.
+
+1. (선택 사항) [!DNL Creative]에 로그인하지 않은 다른 사용자가 광고 내용을 미리 볼 수 있도록 데모 URL을 공유하려면 다음을 수행하십시오.
+
+   1. 미리 보기의 오른쪽 상단에 있는 ![공유](/help/creative/assets/share.png "공유")를 클릭합니다.
+
+   1. [!UICONTROL Share Demo URL] 대화 상자에서 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 URL을 클립보드에 복사하여 다른 사람과 공유할 수 있도록 합니다.
 
 <!-- Not there as of 1/22/25:
 
@@ -253,6 +278,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 >[!MORELIKETHIS]
 >
 >* [경험의 최종 노드에 Creative 번들 할당 및 할당 해제](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [크리에이티브 미리 보기](/help/creative/creative-libraries/creative-preview.md)
 >* [Creative 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Creative 라이브러리 관리](/help/creative/creative-libraries/creative-library-manage.md)
 >* [크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)
