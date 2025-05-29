@@ -3,9 +3,9 @@ title: 의사 결정 트리 타겟팅으로 경험 만들기
 description: 의사 결정 트리를 사용하여 타깃팅된 광고 경험을 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,12 @@ ht-degree: 0%
          * [할당된 번들의 광고 추적 URL을 사용자 지정](experience-tracking-urls-targeting.md)합니다.
 
          * 할당된 번들에 대해 [크리에이티브 최적화 및 예약을 사용자 지정](experience-optimization-scheduling-targeting.md)합니다.
+
+1. (선택 사항) 의사 결정 트리와 일반 설정 간에 전환합니다.
+
+   * 결정 트리에서 일반 설정을 열려면 오른쪽 상단의 **[!UICONTROL Experience Form]**&#x200B;을(를) 클릭합니다.
+
+   * 일반 설정에서 결정 트리를 열려면 오른쪽 상단의 **[!UICONTROL Decision Tree]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
 
