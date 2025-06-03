@@ -3,14 +3,16 @@ title: 조직 계정에 새 사용자 초대
 description: 새 사용자를 계정에 초대하는 방법을 알아봅니다.
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
+source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # 조직 계정에 새 사용자 초대
+
+*관리자 사용자만*
 
 관리자 사용자는 계정에 새 사용자를 초대할 수 있습니다. 사용자가 초대를 수락하면 해당 계정의 모든 광고주에 액세스할 수 있습니다. 새 사용자는 기본적으로 읽기 전용 액세스 권한을 갖습니다.
 
