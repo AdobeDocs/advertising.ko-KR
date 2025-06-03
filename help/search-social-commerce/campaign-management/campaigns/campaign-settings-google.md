@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: ' [!DNL Google Ads] 캠페인에 대한 설정을 참조합니다.'
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: f5e453975f693777e5717924d471b9de9f1f651b
+source-git-commit: cbe18b75d49ca53460883931ecea21aa6c2d8326
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -347,7 +347,7 @@ ht-degree: 0%
 
 * [!UICONTROL Asset Library]에서 자산을 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 자산을 선택하십시오.
 
-**[!UICONTROL Call to Action]:** 광고에 포함할 작업에 대한 호출입니다. 기본적으로 *[!UICONTROL Automated]*&#x200B;이(가) 선택되어 있고 [!DNL Google Ads]이(가) 콜 투 액션을 선택합니다. 선택적으로 다른 작업을 선택할 수 있습니다.
+**[!UICONTROL Call to Action]:** 광고에 포함할 call to action. 기본적으로 *[!UICONTROL Automated]*&#x200B;이(가) 선택되어 있고 [!DNL Google Ads]이(가) call to action을 선택합니다. 선택적으로 다른 작업을 선택할 수 있습니다.
 
 **[!UICONTROL Business Name]:** 비즈니스 이름으로, 최대 25자입니다.
 
@@ -358,7 +358,7 @@ ht-degree: 0%
 
 **[!UICONTROL Primary Status]:**(성과 최대 캠페인의 기존 에셋 그룹에 대한 읽기 전용 필드) 에셋 그룹이 전체 용량으로 제공되거나 제공되지 않는 이유. 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다. 값에는 *적격,* *제한,* *NOT_적격,* *일시 중지됨,* *보류 중,* *제거됨,* *알 수 없음,* 또는 *지정되지 않음.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->&#x200B;이 포함될 수 있습니다.
 
-**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨&rbrace;이 포함될 수 있습니다.*
+**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨}이 포함될 수 있습니다.*
 
 ## [!UICONTROL Conversion Goals]
 

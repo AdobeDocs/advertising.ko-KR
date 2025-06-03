@@ -3,7 +3,7 @@ title: 크리에이티브 라이브러리 관리
 description: 크리에이티브 라이브러리를 만들고, 이름을 바꾸고, 삭제하는 방법을 알아봅니다.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: b41dfbb570db025a5eba3ceff8d28529f9a8058e
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
      모든 행을 선택하려면 왼쪽 상단의 글로벌 확인란을 선택합니다.
 
-1. 확인 메시지에서 **[!UICONTROL Delete].** <!--Verify wording -->을(를) 클릭합니다
+1. 확인 메시지에서 **[!UICONTROL Delete].**&#x200B;을(를) 클릭합니다
 
 >[!MORELIKETHIS]
 >
