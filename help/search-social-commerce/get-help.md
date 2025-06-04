@@ -1,10 +1,11 @@
 ---
 title: 도움말 보기
 description: 온라인 도움말 및 커뮤니티 리소스를 보는 방법과 기술 지원을 받는 방법을 알아봅니다.
+feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: a900c0ef919c36810ce115b51dc432c0008f3419
+source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -25,9 +26,11 @@ ht-degree: 0%
 
    * ![도움말](/help/search-social-commerce/assets/help-main-menu.png "도움말") > **검색, 소셜 및 Commerce 최적화 안내서**.
 
-## Adobe Advertising 커뮤니티에 문의
+<!--
+## Ask the Adobe Advertising community
 
-[Adobe Advertising 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ko)에서 질문에 대한 답변을 찾아보세요.
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+-->
 
 ## 연락처 [!DNL Adobe]
 
