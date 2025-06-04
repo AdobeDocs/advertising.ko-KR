@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 온라인 도움말 열기
 
-모든 기능을 사용하는 방법을 설명하는 전체 도움말 세트를 열려면 주 메뉴에서 **[!UICONTROL Help]**&#x200B;을(를) 클릭하고 &quot;[DNL Creative]&quot; 장을 엽니다.
+모든 기능을 사용하는 방법을 설명하는 전체 도움말 세트를 열려면 주 메뉴에서 **[!UICONTROL Help]**&#x200B;을(를) 클릭하고 &quot;[!DNL Creative]&quot; 장을 엽니다.
 
 <!--
 ## Ask the Adobe Advertising community
