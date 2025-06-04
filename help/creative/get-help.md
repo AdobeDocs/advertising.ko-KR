@@ -2,7 +2,7 @@
 title: 도움말 보기
 description: 온라인 도움말 및 커뮤니티 리소스를 보는 방법과 기술 지원을 받는 방법을 알아봅니다.
 feature: Creative Introduction
-source-git-commit: 8e09fd00597203bd837957fad663e6648655be43
+source-git-commit: b610a0b8db410759cae79a6193c38abc573c28ba
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -10,6 +10,8 @@ ht-degree: 0%
 ---
 
 # 도움말 보기
+
+<!-- Can remove this page when we move this into DSP help -->
 
 사용자 인터페이스 내의 모든 페이지에서 온라인 도움말을 열 수 있습니다. 온라인 도움말에서 질문에 대한 답변을 얻을 수 없는 경우 문의하시기 바랍니다.
 
@@ -20,7 +22,7 @@ ht-degree: 0%
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ko).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## 연락처 [!DNL Adobe]
