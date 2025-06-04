@@ -2,9 +2,9 @@
 title: 도움말 보기
 description: 온라인 도움말 및 커뮤니티 리소스를 보는 방법과 기술 지원을 받는 방법을 알아봅니다.
 feature: Creative Introduction
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+source-git-commit: 8e09fd00597203bd837957fad663e6648655be43
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 0%
 
 ## 온라인 도움말 열기
 
-모든 기능을 사용하는 방법을 설명하는 전체 도움말 세트를 열려면 주 메뉴에서 **[!UICONTROL Help]**&#x200B;을(를) 클릭하고 &quot;[!DNL Creative]&quot; 장을 엽니다.
+모든 기능을 사용하는 방법을 설명하는 전체 도움말 집합을 열려면 주 메뉴에서 **[!UICONTROL Help]**&#x200B;을(를) 클릭하고 &quot;[!DNL Creative]&quot; 장을 엽니다.
 
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ko).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## 연락처 [!DNL Adobe]
