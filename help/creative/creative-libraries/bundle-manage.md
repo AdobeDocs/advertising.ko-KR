@@ -3,9 +3,9 @@ title: Creative 번들 관리
 description: xxxx에 대해 알아보십시오.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
+source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,8 @@ ht-degree: 0%
 >
 >표준 광고 및 동적 광고 보기에서 [번들에 크리에이티브를 첨부할 수도 있습니다](creative-attach-detach-bundles.md).
 
+### 번들 목록의 번들에 크리에이티브 첨부
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
@@ -129,6 +131,24 @@ ht-degree: 0%
 1. (선택 사항) ![카드 보기](/help/creative/assets/card-view-button.png "카드 보기")를 클릭하여 카드 보기를 열거나 ![테이블/목록 보기](/help/creative/assets/table-view-button.png "표 보기")을(를) 클릭하여 테이블 보기로 돌아가면서 사용 가능한 번들의 기본 테이블 보기와 카드 보기 사이를 전환합니다.
 
 1. 오른쪽 프레임에서 번들에 첨부할 각 광고 옆에 있는 확인란을 선택한 다음 **[!UICONTROL Attach Creative to Bundle]**&#x200B;을(를) 클릭합니다.
+
+### 번들의 크리에이티브 목록에서 번들에 크리에이티브 첨부
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 라이브러리 이름을 클릭합니다.
+
+1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
+
+1. 번들 카드 또는 행을 클릭하여 번들의 모든 크리에이티브를 표시합니다.
+
+1. 오른쪽 상단에서 **[!UICONTROL Attach Creatives]**&#x200B;을(를) 클릭합니다.
+
+1. 오른쪽 패널에서 첨부할 각 창작물에 대한 확인란을 선택합니다.
+
+1. **[!UICONTROL Attach Creatives to Bundle]**&#x200B;을(를) 클릭합니다.
 
 ## 번들에서 크리에이티브 분리 {#bundle-detach-creatives}
 
