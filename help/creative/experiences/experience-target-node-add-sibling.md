@@ -2,9 +2,10 @@
 title: 경험의 노드 사이에 동일 수준의 타겟 노드 추가
 description: 대상이 있거나 대상이 있는 노드와 동일한 수준에 있는 모든 노드에 형제 노드를 추가하는 방법을 알아봅니다.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ In an existing experience,
 
 1. 대상을 지정합니다.
 
-   * Adobe 대상자 타겟의 경우 다음을 수행합니다.
+   * Adobe 대상 타겟의 경우 다음을 수행합니다.
 
       1. **[!UICONTROL Click to Browse]**&#x200B;을(를) 클릭하여 [!UICONTROL Audience Targeting] 옵션을 열고 **[!UICONTROL Adobe Segments]** 탭을 열고 광고주의 [!DNL Adobe] 대상 대상을 한 개 이상 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -51,9 +52,9 @@ In an existing experience,
 
       1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-   * 데이터 전달 대상의 경우 단일 데이터 전달 값을 입력한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+   * 데이터 전달 대상의 경우 선택적으로 데이터 전달 키를 사용자 지정하고 단일 데이터 전달 값을 입력한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-   키-값 쌍의 키가 [경험 설정](experience-settings-targeting.md)의 [!UICONTROL Advanced] 섹션에 있는 **[!UICONTROL Data Pass]** 필드에 이미 설정되어 있으므로 키를 추가할 수 없습니다.
+     키-값 쌍의 키에 대한 기본값이 [경험 설정](experience-settings-targeting.md)의 [!UICONTROL Advanced] 섹션에 있는 **[!UICONTROL Data Pass]** 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
 
    * 픽셀 대상을 재타겟팅하려면 사용할 재타겟팅 픽셀과 크리에이티브를 표시하기 위해 존재해야 하는 픽셀 속성에 대한 필수 값을 선택합니다. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
