@@ -3,9 +3,9 @@ title: 경험 수준 성과 보고서
 description: 경험 수준 성과 보고서를 보는 방법에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7e022d8753eb41f5eed8667b9af66085f912bff
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
-* **크리에이티브 성능** 탭*: 크리에이티브 및 번들 또는 광고 태그별 성능 개요:
+* **Creative 성능** 탭*: 다음 항목을 포함하는 크리에이티브 및 번들 또는 광고 태그별 성능 개요:
 
    * **크리에이티브** 하위 탭: 경험의 각 크리에이티브에 대한 총 노출 횟수, 클릭 수 및 CTR 수입니다.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
@@ -158,12 +158,14 @@ ht-degree: 0%
 
    * (의사 결정 트리 타깃팅만 있는 경험, 선택 사항) 적용된 각 광고 대상에 대한 성능을 분석하려면 **[!UICONTROL Split targeting]**&#x200B;을(를) 활성화합니다.
 
-1. (선택 사항) 데이터를 스프레드시트(XLSX) 형식으로 [!DNL Microsoft Excel] 파일로 다운로드하려면 도구 모음에서 ![다운로드](/help/creative/assets/download.png "다운로드")를 클릭합니다.
+## 경험에 대한 성능 보고서 다운로드
 
-   브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+* 성능 보고서 상단의 도구 모음에서 ![다운로드](/help/creative/assets/download.png "다운로드")를 클릭합니다.
+
+  브라우저의 일반 절차에 따라 스프레드시트(XLSX) 형식으로 [!DNL Microsoft Excel] 파일로 파일이 다운로드됩니다.
 
 >[!MORELIKETHIS]
 >
->* [사용자 지정 광고 보고서](/help/creative/report-custom-creative.md)
+>* [사용자 지정 Creative 보고서](/help/creative/report-custom-creative.md)
 >* [보기의 모든 경험 다운로드](/help/creative/experiences/experience-download-view.md)
 >* [Advertising Creative의 경험 정보](/help/creative/experiences/experience-about.md)
