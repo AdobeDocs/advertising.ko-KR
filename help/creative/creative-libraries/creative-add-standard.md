@@ -3,9 +3,9 @@ title: 크리에이티브 라이브러리에 표준 크리에이티브 추가
 description: 크리에이티브 라이브러리에 표준(비동적) 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 38ba8473eae3df204f618eac1f20e605e57ece5a
+source-git-commit: 98ae35b8ef428d662e329ba6dd77e28216575ae1
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ### 템플릿을 사용하여 유연한 크리에이티브 추가 {#flexible-creative-use-template}
 
-계정에 업로드된 유연한 크리에이티브 템플릿을 사용하여 사전 정의 크기의 광고를 작성할 수 있습니다. 사용할 템플릿을 선택하면 클릭 태그 및 속성이 편집됩니다.&lt;!— 템플릿 다운로드 기능을 다시 추가하는 경우 마지막 문장을 다음으로 바꾸기: a\) 사용할 템플릿을 선택한 다음 클릭 태그 및 특성을 편집할 수 있습니다. 또는 b\) [템플릿을 ZIP 파일로 다운로드](#download-flexible-creative-template), 콘텐츠를 오프라인으로 편집하여 자체 크리에이티브를 만든 다음 [편집된 파일을 새 크리에이티브로 업로드] (flexible-creative-upload)할 수 있습니다.>
+계정에 업로드된 유연한 크리에이티브 템플릿을 사용하여 사전 정의 크기의 광고를 작성할 수 있습니다. 사용할 템플릿을 선택하면 클릭 태그 및 속성이 편집됩니다.&lt;!— 템플릿 다운로드 기능을 다시 추가하는 경우 마지막 문장을 다음으로 바꾸기: a\) 사용할 템플릿을 선택한 다음 클릭 태그 및 특성을 편집할 수 있습니다. 또는 b\) [템플릿을 ZIP 파일로 다운로드](#download-flexible-creative-template), 콘텐츠를 오프라인으로 편집하여 자체 크리에이티브를 만든 다음 [편집된 파일을 새 크리에이티브로 업로드](flexible-creative-upload)할 수 있습니다.>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -169,13 +169,15 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지를 만들 수 있습니다. 최대
 
       * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL select a file]**&#x200B;을(를) 클릭하십시오.
 
-   * Adobe Experience Manager 라이브러리에 있는 이미지의 경우 다음을 수행하십시오.
+   * DSP 계정에 연결된 [Adobe Experience Manager 라이브러리](/help/creative/creative-libraries/aem-assets-configure.md)의 이미지에 대해 다음을 수행하십시오.
 
       1. **[!UICONTROL AEM Asset Library]**&#x200B;을(를) 클릭합니다.
 
       1. Experience Manager 계정에 로그인합니다.
 
       1. [!UICONTROL Assets] 또는 [!UICONTROL Collections] 보기에서 파일을 찾아 선택한 다음 오른쪽 상단의 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
+
+         <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
 
 1. 이미지 추가 또는 제거:
 
