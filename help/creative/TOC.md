@@ -4,7 +4,7 @@ user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: Creative 안내서
 hide: true
-source-git-commit: 98ae35b8ef428d662e329ba6dd77e28216575ae1
+source-git-commit: bf075eedf094ca354d6a024bf7329e4a0a2b1ba6
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -17,14 +17,14 @@ ht-degree: 0%
 + [새로운 기능](/help/creative/home.md)
 + 소개 {#introduction}
    + [데이터 보기 사용자 지정](/help/creative/introduction/customize-data-views.md)
-   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative 라이브러리 {#creative-libraries}
    + [크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)
    + [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)
    + [Creative Libraries 관리](/help/creative/creative-libraries/creative-library-manage.md)
    + 광고 {#creatives}
-      + [Adobe Experience Manager 이미지 자산에 액세스하도록  [!DNL Creative] 구성](/help/creative/creative-libraries/aem-assets-configure.md)
+      + [Adobe Experience Manager 이미지 자산에 대한 액세스 구성](/help/creative/creative-libraries/aem-assets-configure.md)
       + 표준 광고 {#standard-creatives}
          + [크리에이티브 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md)
          + [표준 광고 편집](/help/creative/creative-libraries/creative-edit-standard.md)
@@ -77,4 +77,4 @@ ht-degree: 0%
 + [픽셀 재타겟팅](/help/creative/pixels/retargeting-pixel-manage.md)
 + [추적 URL에 사용 가능한 매크로](/help/creative/creative-macros.md)
 + [도움말 보기](/help/creative/get-help.md)
-+ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko){target="_blank"}
++ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

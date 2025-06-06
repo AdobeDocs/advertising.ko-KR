@@ -3,9 +3,9 @@ title: 경험의 노드 사이에 동일 수준의 타겟 노드 추가
 description: 대상이 있거나 대상이 있는 노드와 동일한 수준에 있는 모든 노드에 형제 노드를 추가하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ In an existing experience,
 
       1. (선택 사항) 여러 대상을 지정할 때 여러 대상 노드를 만들려면 **[!UICONTROL Split targets to create nodes]**&#x200B;을(를) 선택합니다.
 
-         이 기능은 지정된 각 대상에 대해 별도의 대상 노드(별도의 크리에이티브 번들을 포함)를 만듭니다. 타겟을 분할하지 않는 경우 사용자는 지정된 모든 대상에 속해야 합니다.
+         이 기능은 지정된 각 대상에 대해 별도의 대상 노드(별도의 크리에이티브 번들을 포함)를 만듭니다. 대상을 분할하지 않으면 사용자가 지정된 모든 대상([!DNL Boolean] `AND` 문)에 속해야 합니다.
 
       1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
@@ -48,7 +48,7 @@ In an existing experience,
 
       1. (선택 사항) 지리적 대상을 여러 개 지정할 때 여러 대상 노드를 만들려면 **[!UICONTROL Split targets to create nodes]**&#x200B;을(를) 선택합니다.
 
-         이 기능은 지정된 각 지리적 대상에 대해 별도의 대상 노드(별도의 크리에이티브 번들과 함께)를 만듭니다. 대상을 분할하지 않으면 사용자가 지정된 모든 위치에 속해야 합니다.
+         이 기능은 지정된 각 지리적 대상에 대해 별도의 대상 노드(별도의 크리에이티브 번들과 함께)를 만듭니다. 대상을 분할하지 않으면 사용자가 지정된 모든 위치([!DNL Boolean] `AND` 문)에 속해야 합니다.
 
       1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
@@ -66,7 +66,7 @@ In an existing experience,
 
       1. (선택 사항) 지리적 대상을 여러 개 지정할 때 여러 대상 노드를 만들려면 **[!UICONTROL Split targets to create nodes]**&#x200B;을(를) 선택합니다.
 
-         이 기능은 지정된 각 지리적 대상에 대해 별도의 대상 노드(별도의 크리에이티브 번들과 함께)를 만듭니다. 대상을 분할하지 않으면 사용자가 지정된 모든 위치에 속해야 합니다.
+         이 기능은 지정된 각 지리적 대상에 대해 별도의 대상 노드(별도의 크리에이티브 번들과 함께)를 만듭니다. 대상을 분할하지 않으면 사용자가 지정된 모든 위치([!DNL Boolean] `AND` 문)에 속해야 합니다.
 
       1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
