@@ -3,7 +3,7 @@ title: 경험 수준 성과 보고서
 description: 경험 수준 성과 보고서를 보는 방법에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
+source-git-commit: 118838e0236c0e40aea797edb1b2f8fb0efb2a79
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -20,9 +20,7 @@ ht-degree: 0%
 
 보고서 보기에는 다음 데이터가 포함됩니다.
 
-* **개요** 탭: 다음을 포함하여 전체 경험에 대한 모든 전환 지표에 대한 성능 개요:
-
-  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+* **개요** 탭: 다음을 포함하여 전체 경험에 대한 모든 전환 지표에 대한 성능 개요<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." -->:
 
    * **전체 성능** 섹션:
 
