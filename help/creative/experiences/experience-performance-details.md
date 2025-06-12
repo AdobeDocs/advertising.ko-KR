@@ -3,7 +3,7 @@ title: 경험 수준 성과 보고서
 description: 경험 수준 성과 보고서를 보는 방법에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: fc28fe5c4486939718cf6e7bd58555f72fd0c8ed
+source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -22,33 +22,33 @@ ht-degree: 0%
 
 * **개요** 탭: 다음을 포함하여 전체 경험에 대한 모든 전환 지표에 대한 성능 개요:
 
-<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
 
-* **전체 성능** 섹션:
+   * **전체 성능** 섹션:
 
-* **전체 성능**: 총 노출 횟수, 클릭 수, 클릭스루 비율(CTR), 뷰스루 전환 및 클릭스루 전환
+      * **전체 성능**: 총 노출 횟수, 클릭 수, 클릭스루 비율(CTR), 뷰스루 전환 및 클릭스루 전환
 
-  <!--
+     <!--
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-* **기본 비율**: (의사 결정 트리 타깃팅만 있는 경험) 타깃팅된 크리에이티브, 타깃팅이 없거나 &quot;기타 사용자&quot;에게 타깃팅된 일반 크리에이티브 및 경험의 기본 크리에이티브로 인한 노출 횟수.
+      * **기본 비율**: (의사 결정 트리 타깃팅만 있는 경험) 타깃팅된 크리에이티브, 타깃팅이 없거나 &quot;기타 사용자&quot;에게 타깃팅된 일반 크리에이티브 및 경험의 기본 크리에이티브로 인한 노출 횟수.
 
-  <!--
+     <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-* **성능 분석** 섹션:
+   * **성능 분석** 섹션:
 
-   * **지역별 성능:*: 지리적 위치에 따른 개별 지표입니다.
+      * **지역별 성능:*: 지리적 위치에 따른 개별 지표입니다.
 
-     <!--   
+        <!--   
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-   * **장치 성능:** 장치 유형, 운영 체제 및 브라우저별 개별 지표입니다. 필요한 경우 장치 범주에 대한 값을 클릭하여 해당 기준으로 제공되는 상위 <!-- NN -->개의 크리에이티브 목록을 확인합니다.
+      * **장치 성능:** 장치 유형, 운영 체제 및 브라우저별 개별 지표입니다. 필요한 경우 장치 범주에 대한 값을 클릭하여 해당 기준으로 제공되는 상위 <!-- NN -->개의 크리에이티브 목록을 확인합니다.
 
-     <!--    
+        <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
