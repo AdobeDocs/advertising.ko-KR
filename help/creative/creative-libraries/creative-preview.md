@@ -3,7 +3,7 @@ title: 크리에이티브 미리 보기
 description: 크리에이티브 미리보기를 여는 방법에 대해 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: 5d1b39f2a0602d4492d468520a946d86ceae16ed
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -12,8 +12,7 @@ ht-degree: 0%
 
 # 크리에이티브 미리 보기
 
-*표준 크리에이티브만*
-*Beta 완료*
+*베타가 닫힘*
 
 하이퍼링크를 포함하여 사용자가 보게 될 대로 크리에이티브를 미리 볼 수 있습니다.
 
@@ -21,7 +20,7 @@ ht-degree: 0%
 
 1. 라이브러리 이름을 클릭합니다.
 
-1. **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** 탭에서 크리에이티브를 선택합니다.
+1. **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** 탭 또는 **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ads]** 탭에서 크리에이티브를 선택합니다.
 
    * 카드 보기에서 Creative 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 

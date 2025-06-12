@@ -3,9 +3,9 @@ title: 게시자 권장 사항 및 인사이트 지원 기본 정보
 description: 게시자 권장 사항 및 인사이트를 보고 관리하는 지원에 대해 알아봅니다.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
+source-git-commit: 568927a009b2c38d30fc817a9f4aa4e964b4cd9f
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 각 [!DNL Google Ads] 권장 사항에서는 계정의 성과 기록, 캠페인 설정 및 [!DNL Google Ads]의 트렌드에 따라 에셋 추가부터 예산 증액까지 캠페인의 다양한 성과 측면에 대한 사용자 지정 제안을 제공합니다.
 
-* 각 [!DNL Microsoft Advertising] 성능 인사이트 및 권장 사항에서는 머신 러닝 알고리즘 및 모범 사례를 기반으로 캠페인 성능을 최적화하는 변경 사항을 제안합니다.
+* 각 [!DNL Microsoft Advertising] 성능 insight 및 권장 사항에서는 머신 러닝 알고리즘 및 모범 사례를 기반으로 캠페인 성능을 최적화하는 변경 사항을 제안합니다.
 
 ## [!UICONTROL Recommendations & Publisher Insights] 보기
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
   보기를 열면 데이터를 실시간으로 사용할 수 있습니다. 데이터를 새로 고치려면 페이지의 왼쪽 하단에 있는 ![새로 고침](/help/search-social-commerce/assets/refresh.png "새로 고침")을 클릭하세요.
 
-* [!DNL Microsoft Advertising] 계정의 경우 [!DNL Microsoft Advertising] 계정에 대해 지난 30일 동안 생성된 각 성능 인사이트를 한 눈에 볼 수 있습니다. 인사이트는 권장 사항과 유사한 정보를 제공하지만 다른 형식으로 제공합니다. 각 인사이트에는 날짜, 문제에 대한 설명, 영향을 받는 엔티티, 근본 원인(더 자세한 정보에 대한 링크가 포함될 수 있음) 및 [!DNL Microsoft Advertising] 편집기를 여는 링크가 포함된 제안된 작업이 포함되어 있으며 이를 통해 특정 인사이트에 대해 작업을 수행할 수 있습니다.
+* [!DNL Microsoft Advertising] 계정의 경우 [!DNL Microsoft Advertising] 계정에 대해 지난 30일 동안 생성된 각 성능 insight을 한눈에 볼 수 있습니다. 인사이트는 권장 사항과 유사한 정보를 제공하지만 다른 형식으로 제공합니다. 각 insight에는 날짜, 문제에 대한 설명, 영향을 받는 엔터티, 근본 원인(자세한 정보에 대한 링크가 포함될 수 있음) 및 [!DNL Microsoft Advertising] 편집기를 여는 링크가 있는 제안된 작업이 포함되어 있으며 이를 통해 특정 insight에 대해 작업을 수행할 수 있습니다.
 
 * 권장 사항에 대한 세부 정보를 보고, 권장 사항을 직접 적용하거나 취소합니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->광고 네트워크 권장 사항 및 성능 인사이트는 캠페인 성과를 개선하는 데 도움이 되지만, 일부는 더 광범위한 목표에 부합하지 않을 수 있습니다. 따라서 권장 사항이나 통찰력을 구현하기 전에 Adobe 계정 팀과 상담하는 것이 가장 좋습니다.
+>광고 네트워크 권장 사항 및 성능 인사이트는 캠페인 성과를 개선하는 데 도움이 되지만, 일부는 더 광범위한 목표에 부합하지 않을 수 있습니다. 따라서 권장 사항이나 insight을 구현하기 전에 Adobe 계정 팀에 문의하는 것이 가장 좋습니다.
 
 ## [!DNL Google Ads]에 대해 지원되는 추천 유형
 
@@ -46,6 +46,7 @@ ht-degree: 0%
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions]&#x200B;(이제 [!DNL Google Ads]에서 &quot;[!DNL Ads and assets]&quot;이라고 함) | [!UICONTROL Call extension] | 캠페인에 호출 확장 추가 |
 | | [!UICONTROL Callout extension] | 캠페인에 설명선 확장 추가 |
+|  | [!UICONTROL Improve demand gen ad strength] | 수요 세대 광고에 대한 광고 강도를 개선하기 위한 제안 |
 | | [!UICONTROL Optimize ad rotation] | 최적화된 광고 순환 사용 |
 | | [!UICONTROL Responsive search ad] | 새 반응형 검색 광고 추가 |
 | | [!UICONTROL Responsive search ad asset] | 광고에 반응형 검색 광고 에셋 추가 |
@@ -77,6 +78,7 @@ ht-degree: 0%
 | | [!UICONTROL Target ROAS opt in] | [!UICONTROL Target ROAS] 입찰 전략으로 변경 |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | 디스플레이 확장을 사용하도록 캠페인을 업데이트하여 도달 범위를 확장합니다. |
 | | [!UICONTROL Keyword] | 새 키워드 추가 |
+|  | [!UICONTROL Refresh customer match list] | 고객 일치 목록을 새로 고쳐 최근 고객에게 개인화된 광고를 표시합니다. |
 | | [!UICONTROL Search partners opt in] | [!DNL Google]개의 검색 파트너와 연결 범위 확장 |
 | | [!UICONTROL Use broad match keyword] | 완전 자동화된 전환 기반 입찰로 전환 기반 캠페인에 광범위한 일치 사용 |
 
