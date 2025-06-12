@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: 교차 경험 [!UICONTROL Custom Creative Report]을(를) 생성하는 방법을 알아봅니다.
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 3033f26bba5a9e7622d0de51b36035be1005c60f
+source-git-commit: a6e8bd3d9c2f8a373a90460b9ee8780d1c0702c6
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
-* *[!UICONTROL FTP SSL] (현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+* *[!UICONTROL FTP SSL](현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서나 알림을 보낼 전자 메일 주소를 지정합니다.
 
@@ -183,8 +183,6 @@ ht-degree: 0%
 
 ## 사용 가능한 보고서 열 {#report-custom-creative-columns}
 
-<!-- Need to finish these definitions -->
-
 | 지표 유형 | 하위 유형 | 열 이름 | 설명 |
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Size] | 게시된 광고의 차원입니다. |
@@ -196,16 +194,12 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative ID] | [!UICONTROL Creative]이(가) 상위 Creative에 할당한 ID입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative Name] | 상위 문안의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative Type] | 상위 크리에이티브 유형(예: [!UICONTROL HTML5]). |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Ad Link] | . |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Click Type] | 클릭 유형. |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] | |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Ad Link] | 랜딩 페이지 URL. |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Click Type] | 사용자 인터랙션의 특정 유형. |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] | 크리에이티브 경험 내에서 사용자의 클릭 인터랙션에 대한 방향 흐름 또는 탐색 경로. |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Browser] | 광고가 표시된 브라우저(예: [!UICONTROL Chrome] 또는 [!UICONTROL Firefox]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device OS] | 광고가 표시된 운영 체제(예: [!UICONTROL Windows]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Type] | 광고가 표시된 장치의 유형입니다(예: [!UICONTROL Desktop]). |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Ad ID] | 광고 ID입니다. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Buy ID] | 광고 배치에 대한 구매 ID입니다. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Creative ID] | 크리에이티브 ID. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | 광고가 실행된 DSP의 ID입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | 광고가 실행된 DSP의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement ID] | 광고가 실행된 배치 ID입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement Name] | 광고가 실행된 배치의 이름입니다. |
@@ -216,8 +210,8 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Date/Time] | 이벤트 날짜 및 시간입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience ID] | [!UICONTROL Creative]이(가) 경험에 할당한 ID입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience Name] | 경험의 이름입니다. |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Targeting Branch Value] | 타겟이요 |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Trafficking Line] | |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Targeting Branch Value] | 사용자에게 제공된 크리에이티브 경험 변형을 결정하는 타겟팅 결정 트리를 통한 특정 경로. |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Trafficking Line] | 광고 태그의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL City] | 보고된 데이터가 속하는 도시입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL Country Code] | 보고된 데이터가 속하는 국가의 국가 코드입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL DMA] | 보고된 데이터가 속하는 DMA(Designated Market Area). |
@@ -232,22 +226,22 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 5] | (Dynamic ads) 다섯 번째 크리에이티브 속성입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product ID] | (동적 광고) 대상 제품 ID입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product Name] | (Dynamic ads) 대상 제품 이름입니다. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | 보고된 데이터가 속하는 대상 세그먼트의 ID입니다. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment ID] | 보고된 데이터가 속하는 대상 세그먼트의 세그먼트 ID입니다. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment Name] | 보고된 데이터가 속하는 대상 세그먼트의 이름입니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | 광고 테마와 일치하는 최대 5개의 사용자 세그먼트에 대한 ID입니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment ID] | 보고된 데이터가 속하는 리타겟팅 픽셀의 ID입니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment Name] | 보고된 데이터가 속하는 재타겟팅 픽셀의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Values] | 보고된 데이터가 속하는 대상 세그먼트의 속성입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Clicks] | 광고의 모든 클릭 수 합계입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL CTR] | 클릭스루 비율(광고 노출 횟수로 나눈 클릭 수의 백분율)입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagement Rate] | 사용자 참여를 유도한 제공된 노출 횟수의 비율입니다. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagements] | 제공된 광고의 상호 작용 수입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Impressions] | 총 광고 노출 횟수. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | 제품 광고에 대한 모든 클릭 수의 합계입니다. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | 제품 광고에 대한 모든 전환의 합계입니다. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | 전환으로 이어진 제품에 대한 광고의 비율입니다. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | 제품 광고에 대한 클릭스루 비율(광고 노출 횟수로 나눈 클릭 수) |
-| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | 제품에 대한 총 노출 횟수입니다. |
-| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | 제품에 대해 제공된 광고의 총 매출입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | 재타겟팅된 쿠키가 있는 노출 비율입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | (동적 광고만 해당) 제품 광고에 대한 모든 클릭의 합계입니다. 제품이 null이면 이 값은 0(영)입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | (동적 광고만 해당) 제품 광고에 대한 모든 전환의 합계입니다. 제품이 null이면 이 값은 0(영)입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | (동적 광고만 해당) 전환을 초래한 제품에 대한 광고의 비율입니다. 제품이 null이면 이 값은 0(영)입니다. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | (동적 광고만 해당) 제품 광고에 대한 클릭스루 비율(광고 노출 횟수로 나눈 클릭 수) 제품이 null이면 이 값은 0(영)입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | (동적 광고만 해당) 제품에 대한 총 노출 횟수입니다. 제품이 null이면 이 값은 0(영)입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | (동적 광고만 해당) 제품에 대해 제공된 광고의 총 매출액. 제품이 null이면 이 값은 0(영)입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | 제공된 광고의 총 매출액. |
 | [!UICONTROL Conversion Metrics] | [보고서 설정에서 광고주별로 그룹화됨] | [광고주별 전환] | 지정된 광고주별 전환 지표 또는 Adobe Analytics 이벤트에 대한 합계입니다. |
 | [!UICONTROL Custom Goals] | [보고서 설정에서 광고주별로 그룹화됨] | [광고주별 사용자 지정 목표] | (Advertising DSP을 사용하는 광고주) 지정된 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)에 포함된 모든 전환의 가중 합계입니다. |
