@@ -3,9 +3,9 @@ title: 타깃팅되지 않은 경험에 대한 설정
 description: 의사 결정 트리 타깃팅이 없는 광고 경험에 대한 모든 설정 설명을 참조하십시오.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
+source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Targeting] 섹션
 
-**[!UICONTROL Targeting]:**(기존 경험의 경우 읽기 전용) 의사 결정 트리를 사용하여 타깃팅을 사용하지 않도록 설정하는 경우에는 적용할 수 없습니다. 이 옵션은 사용하지 않도록 설정하십시오.
+**[!UICONTROL Targeting]:**(기존 경험의 경우 읽기 전용) 의사 결정 트리를 사용하여 타깃팅을 사용하지 않도록 설정하는 경우에는 적용할 수 없습니다. 이 옵션은 사용하지 않도록 설정하십시오. **참고:** 타깃팅 없이 경험을 저장하면 나중에 타깃팅을 추가할 수 없습니다.
 
 **[!UICONTROL Dynamic ads]:**(기존 경험의 경우 읽기 전용) 경험에 동적 광고가 포함되어 있음을 나타냅니다. **참고:** 경험에는 모든 표준 광고 또는 모든 동적 광고가 포함될 수 있습니다.
 

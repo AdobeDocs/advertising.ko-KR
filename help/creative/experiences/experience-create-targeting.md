@@ -3,9 +3,9 @@ title: 의사 결정 트리 타겟팅으로 경험 만들기
 description: 의사 결정 트리를 사용하여 타깃팅된 광고 경험을 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
+source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,12 @@ ht-degree: 0%
 # 의사 결정 트리 타겟팅으로 경험 만들기
 
 *베타가 닫힘*
+
+의사 결정 트리를 사용하여 타깃팅된 광고 경험을 만듭니다. 각 경험은 단일 크리에이티브 라이브러리의 광고를 사용합니다.
+
+>[!NOTE]
+>
+> 타겟팅된 경험을 만들면 나중에 다른 워크플로우를 사용하는 타겟팅되지 않은 경험으로 변경할 수 없습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;을(를) 클릭합니다.
 

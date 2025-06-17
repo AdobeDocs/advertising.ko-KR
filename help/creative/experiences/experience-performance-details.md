@@ -3,9 +3,9 @@ title: 경험 수준 성과 보고서
 description: 경험 수준 성과 보고서를 보는 방법에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 118838e0236c0e40aea797edb1b2f8fb0efb2a79
+source-git-commit: 1718a7f5a7e3bbfeed336b195a2575275c8fd753
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **장치 성능:** 장치 유형, 운영 체제 및 브라우저별 개별 지표입니다. 필요한 경우 장치 범주에 대한 값을 클릭하여 해당 기준으로 제공되는 상위 <!-- NN -->개의 크리에이티브 목록을 확인합니다.
+      * **장치 성능:** 장치 유형, 운영 체제 및 브라우저별 개별 지표입니다. 필요한 경우 디바이스 카테고리의 값을 클릭하여 해당 기준과 함께 제공된 상위 10개의 크리에이티브 목록을 확인합니다.
 
         <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}

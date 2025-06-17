@@ -2,9 +2,10 @@
 title: 의사 결정 트리 타깃팅 없이 경험 만들기
 description: 타깃팅 없이 광고 경험을 만드는 방법을 알아봅니다.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 327b1df5-5663-4513-9238-f481370c8c38
+source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,12 @@ ht-degree: 0%
 # 의사 결정 트리 타깃팅 없이 경험 만들기
 
 *베타가 닫힘*
+
+타깃팅하지 않고 광고 경험을 만듭니다. 각 경험은 단일 크리에이티브 라이브러리의 광고를 사용할 수 있습니다.
+
+>[!NOTE]
+>
+> 타깃팅되지 않은 경험을 만들면 나중에 다른 워크플로우를 사용하는 타깃팅된 경험으로 변경할 수 없습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;을(를) 클릭합니다.
 
@@ -25,7 +32,11 @@ ht-degree: 0%
 
    * [적용 가능한 광고 크기에 대한 광고 태그를 수동으로 만듭니다](experience-tag-create-manually.md).
 
+     [!DNL Creative]은(는) 타깃팅되지 않은 경험에 대한 광고 태그를 자동으로 만들지 않습니다.
+
    * [광고 태그에 크리에이티브 할당](experience-tag-assign-creatives.md).
+
+     광고 태그에 크리에이티브를 할당하고 경험 설정 내에서는 할당할 수 없습니다.
 
    * [추적 URL 사용자 지정](experience-tracking-urls-no-targeting.md)
 
