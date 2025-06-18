@@ -3,7 +3,7 @@ title: 라이브 경험을 위한 광고 경험 태그 내보내기 및 구현
 description: 광고 경험 태그를 내보내고 선택적으로 Advertising DSP 캠페인에 업로드하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: c05c5d22f4763cd6c1425b5ab3b0bf11b78b0aee
+source-git-commit: 41763b21bda47e8bd45f48c18a674cd694df68d1
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Advertising DSP을 사용하는 광고주는 선택적으로 태그를 광고로
 
    * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다
 
-1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![광고 태그 내보내기](/help/creative/assets/export.png "광고 태그 내보내기") **[!UICONTROL Export ad tags]** 또는 **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**&#x200B;를 클릭합니다.
+1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![광고 태그 내보내기](/help/creative/assets/export.png "광고 태그 내보내기") **[!UICONTROL Export ad tags]** 또는 **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**&#x200B;를 클릭합니다.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -44,15 +44,15 @@ Advertising DSP을 사용하는 광고주는 선택적으로 태그를 광고로
 
 1. 오른쪽 상단의 **[!UICONTROL Next]**&#x200B;을(를) 클릭하거나 왼쪽 메뉴에서 **[!UICONTROL Generate ad tags]**&#x200B;을(를) 클릭합니다.
 
-1. 태그 형식을 선택하십시오. ** *JavaScript<!-- sic -->* **&#x200B; 또는 &#x200B;** *IFRAME* ** <!-- sic -->.
+1. 태그 형식을 선택하십시오. ** *JavaScript<!-- sic -->* ** 또는 ** *IFRAME* ** <!-- sic -->.
 
 1. [!UICONTROL Destinations] 목록에서 경험을 위한 광고를 만들 위치를 선택합니다.
 
    * *일반:* 다른 DSP에서 만들 광고의 경우. **참고:** 필요에 따라 [추가 매크로](/help/creative/creative-macros.md)를 수동으로 포함해야 할 수도 있습니다.
 
-   * *Adobe Advertising:* Advertising DSP에서 만들 광고입니다.
+   * Advertising DSP에서 만들 광고의 경우 *Adobe AdCloud:*.
 
-   * *Google DCM:* [!DNL Google Campaign Manager 360]에서 만들 광고의 경우. **참고:** 필요에 따라 [추가 매크로](/help/creative/creative-macros.md)를 수동으로 포함해야 할 수도 있습니다.
+   * [!DNL Google Campaign Manager 360]에 만들 광고의 경우 *Google CM360:*. **참고:** 필요에 따라 [추가 매크로](/help/creative/creative-macros.md)를 수동으로 포함해야 할 수도 있습니다.
 
 1. **[!UICONTROL Generate tags]**&#x200B;을(를) 클릭합니다.
 

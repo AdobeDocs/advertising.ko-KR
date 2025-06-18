@@ -3,7 +3,7 @@ title: 경험 미리보기
 description: 광고 경험에서 크리에이티브를 미리 보는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. (선택 사항) [!DNL Creative]에 로그인하지 않고 다른 사용자와 공유할 경험의 데모 URL을 복사하려면 다음을 수행하십시오.
 
-   1. 미리 보기의 오른쪽 상단에서 ![공유](/help/creative/assets/share2.png "공유")를 클릭합니다.
+   1. 미리 보기의 오른쪽 상단에서 ![공유](/help/creative/assets/share.png "공유")를 클릭합니다.
 
    1. [!UICONTROL Share Demo URL] 대화 상자에서 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 URL을 클립보드에 복사하여 다른 사람과 공유할 수 있도록 합니다.
 
