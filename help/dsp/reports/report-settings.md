@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: 8e6d2a1d39231176f3836246958b82691fbb5006
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -62,7 +62,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Apply Filters] 섹션
 
-**[!UICONTROL Filter by]:**(선택 사항) 차원을 보고서에 열로 포함할지 여부에 관계없이 데이터를 필터링할 추가 차원입니다. 사용 가능한 필터는 보고서 유형에 따라 다르며 *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* 및 *[!UICONTROL Video Duration]*&#x200B;을(를) 포함할 수 있습니다.
+**[!UICONTROL Filter by]:**(선택 사항) 차원을 보고서에 열로 포함할지 여부에 관계없이 데이터를 필터링할 추가 차원입니다. 사용 가능한 필터는 보고서 유형에 따라 다르며 *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* 및 *[!UICONTROL Video Duration]*&#x200B;을(를) 포함할 수 있습니다.
+
+<!-- Add when available:
+*[!UICONTROL Deal ID]*, *[!UICONTROL Deal List]*, 
+-->
 
 하나 이상의 필터를 적용하려면 다음을 수행합니다.
 
@@ -97,9 +101,9 @@ ht-degree: 0%
   >
   >[!UICONTROL Household Reach & Frequency] 보고서에는 겹치는 지표 또는 겹치지 않는 지표가 포함될 수 있지만 둘 다 포함할 수는 없습니다.
 
-* [!UICONTROL Conversion Metrics] (광고주별로 정렬됨)
+* [!UICONTROL Conversion Metrics]&#x200B;(광고주별로 정렬됨)
 
-* [!UICONTROL Custom Goals] (광고주별로 정렬됨)
+* [!UICONTROL Custom Goals]&#x200B;(광고주별로 정렬됨)
 
 모든 옵션에 대한 설명은 &quot;[사용 가능한 보고서 열](report-columns.md)&quot;을 참조하십시오.
 
@@ -113,7 +117,7 @@ ht-degree: 0%
 
 **[!UICONTROL Attribution Rule Settings]:** 설정은 보고서 유형에 따라 다릅니다.
 
-* **\[속성 유형\]:**([!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열이 있는 [!UICONTROL Household Conversion] 보고서, Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환을 유도하는 일련의 이벤트에서 전환 데이터를 특성화하는 방법:
+* **\[속성 유형\]:**([!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열이 있는 [!UICONTROL Household Conversion] 보고서, Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환을 초래하는 일련의 이벤트에서 전환 데이터를 특성화하는 방법:
 
    * *[!UICONTROL Unique]:*(기본값) 전환 경로에 있는 차원 값(예: 장치 또는 배치)의 횟수를 카운트합니다.
 
@@ -137,13 +141,13 @@ ht-degree: 0%
 
    * *[!UICONTROL U-shaped]:* 전환 경로의 모든 이벤트에 대한 전환의 특성을 지정하지만 첫 번째 이벤트와 마지막 이벤트에 가장 많은 가중치를 제공하고 전환 경로 중간에 있는 이벤트에는 순차적으로 더 적은 가중치를 제공합니다.
 
-   * *[!UICONTROL Display Only]:* 특성 변환이 변환 경로의 마지막 DSP 클릭 또는 노출로 변경되었습니다. 여기에는 비디오 및 연결된 TV 광고가 포함되며 [!DNL Advertising Search, Social, & Commerce]개 광고에 대한 클릭은 제외됩니다.
+   * *[!UICONTROL Display Only]:* 특성을 전환 경로에서 마지막 DSP 클릭 또는 노출로 전환했습니다. 여기에는 비디오 및 연결된 TV 광고가 포함되며 [!DNL Advertising Search, Social, & Commerce]개 광고에 대한 클릭은 제외됩니다.
 
    * *[!UICONTROL Social Only]:* 사용되지 않음
 
 또한 &quot;[Adobe Advertising에 대한 속성 규칙을 계산하는 방법](/help/search-social-commerce/reports/attribution-rules.md)&quot;을 참조하십시오.
 
-* **전환 확인:**([!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열이 있는 [!UICONTROL Household Conversion] 보고서, [!UICONTROL Conversion Metrics] 열만 있는 [!UICONTROL Path to Conversion], [!UICONTROL Path Length] 또는 [!UICONTROL Time to Conversion] 보고서, Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환 이벤트가 해당 이벤트에 귀속될 수 있는 노출 이벤트 또는 클릭 이벤트([!UICONTROL Path to Conversion], [!UICONTROL Path Length] 또는 [!UICONTROL Time to Conversion] 보고서)의 최대 일 수. 기본값은 *[!UICONTROL 30 days]*&#x200B;이고 최대값은 92일입니다.
+* **전환 확인:**([!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열이 있는 [!UICONTROL Household Conversion] 보고서, [!UICONTROL Conversion Metrics] 열만 있는 [!UICONTROL Path to Conversion], [!UICONTROL Path Length] 또는 [!UICONTROL Time to Conversion] 보고서, Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환 이벤트가 할당될 수 있는 노출 이벤트 또는 클릭 이벤트([!UICONTROL Path to Conversion], [!UICONTROL Path Length] 또는 [!UICONTROL Time to Conversion] 보고서)의 최대 일 수. 기본값은 *[!UICONTROL 30 days]*&#x200B;이고 최대값은 92일입니다.
 
   >[!TIP]
   >
@@ -173,13 +177,13 @@ ht-degree: 0%
 
 * *[!UICONTROL None]:* 보고서나 알림을 배달하지 않습니다.
 
-* *[!UICONTROL S3]:* 완료된 보고서를 하나 이상의 [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+* *[!UICONTROL S3]:* 완료된 보고서를 하나 이상의 [!DNL Amazon Simple Storage Service]&#x200B;([!DNL Amazon S3]) 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL sFTP]:* 완료된 보고서를 하나 이상의 SFTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
-* *[!UICONTROL FTP SSL] (현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+* *[!UICONTROL FTP SSL](현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서나 알림을 보낼 전자 메일 주소를 지정합니다.
 

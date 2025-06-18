@@ -3,9 +3,9 @@ title: 비공개 인벤토리 정보
 description: 비공개 인벤토리 정보
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ RTB 이상을 원하는 광고주는 전용 인벤토리를 사용하여 전용 
 
 다음 방법 중 하나로 거래 ID를 사용할 수 있습니다.
 
-* (활성화가 필요한 선택적 기능) [!UICONTROL Deal ID Inbox]에서 [!UICONTROL Deal ID inbox]의 SSP(공급측 플랫폼)인 [!DNL FreeWheel], [!DNL Google Authorized Buyers] (이전의 [!DNL AdX]) 및 [!DNL Magnite DV+] (이전의 [!DNL Rubicon])에 있는 게시자의 합의된 보장 및 보장되지 않는 개인 인벤토리 거래를 검토하고 빠르게 수락할 수 있습니다.
+* (활성화가 필요한 선택적 기능) [!UICONTROL Deal ID Inbox]에서 [!UICONTROL Deal ID inbox]의 SSP(공급측 플랫폼)인 [!DNL FreeWheel], [!DNL Google Authorized Buyers]&#x200B;(이전의 [!DNL AdX]) 및 [!DNL Magnite DV+]&#x200B;(이전의 [!DNL Rubicon])에 있는 게시자의 합의된 보장 및 보장되지 않는 개인 인벤토리 거래를 검토하고 빠르게 수락할 수 있습니다.
 
   자세한 내용은 &quot;[[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md) 정보&quot;를 참조하세요.
 
@@ -40,9 +40,14 @@ RTB 이상을 원하는 광고주는 전용 인벤토리를 사용하여 전용 
 
 필터를 적용하고, 표시되는 열을 사용자 지정하고, 선택적으로 사용자 지정 보기를 저장하고, 열을 정렬하고, 데이터를 차트로 확인하여 기존 거래 데이터가 표시되는 방식을 사용자 지정할 수 있습니다.
 
+## 거래 목록 보기
+
+[!UICONTROL Inventory] > [!UICONTROL Deal Lists] 보기에서 더 쉬운 배치 타깃팅을 위해 비공개 거래를 목록으로 그룹화할 수 있습니다.
+
 >[!MORELIKETHIS]
 >
 >* [인벤토리 기능 개요](/help/dsp/inventory/inventory-overview.md)
 >* [[!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md) 정보
 >* [거래 ID 받은 편지함에서 거래 수락](deal-id-inbox-accept.md)
 >* [거래 ID 세부 정보 수동으로 만들기](deal-id-create.md)
+>* [거래 목록 관리](/help/dsp/inventory/lists-deals-manage.md)
