@@ -3,9 +3,9 @@ title: 경험의 노드 사이에 타겟 노드 추가
 description: 광고 경험에서 타겟 노드 사이에 타겟 노드를 추가하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,16 @@ ht-degree: 0%
          1. (선택 사항) 지리적 대상을 여러 개 지정할 때 여러 대상 노드를 만들려면 **[!UICONTROL Split targets to create nodes]**&#x200B;을(를) 선택합니다.
 
          1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 사용자 정의 분기의 사용자 지정 분기 이름을 지정합니다.
+
+   기본적으로 사용자 정의 분기는 적용된 타겟으로 레이블이 지정됩니다.
+
+   &quot;All&quot; 또는 &quot;Everyone Else&quot; 분기에 대한 사용자 지정 분기 이름을 만들 수 없습니다.
+
+   1. 대상 노드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**&#x200B;을(를) 클릭합니다.
+
+   1. **[!UICONTROL Node Name]**&#x200B;을(를) 입력한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 

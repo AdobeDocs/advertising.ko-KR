@@ -3,9 +3,9 @@ title: 경험의 노드 사이에 동일 수준의 타겟 노드 추가
 description: 대상이 있거나 대상이 있는 노드와 동일한 수준에 있는 모든 노드에 형제 노드를 추가하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ In an existing experience,
          이 기능은 지정된 각 지리적 대상에 대해 별도의 대상 노드(별도의 크리에이티브 번들과 함께)를 만듭니다. 대상을 분할하지 않으면 사용자가 지정된 모든 위치([!DNL Boolean] `AND` 문)에 속해야 합니다.
 
       1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 사용자 정의 분기의 사용자 지정 분기 이름을 지정합니다.
+
+   기본적으로 사용자 정의 분기는 적용된 타겟으로 레이블이 지정됩니다.
+
+   &quot;All&quot; 또는 &quot;Everyone Else&quot; 분기에 대한 사용자 지정 분기 이름을 만들 수 없습니다.
+
+   1. 대상 노드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**&#x200B;을(를) 클릭합니다.
+
+   1. **[!UICONTROL Node Name]**&#x200B;을(를) 입력한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 

@@ -3,7 +3,7 @@ title: 의사 결정 트리 타겟팅으로 경험 만들기
 description: 의사 결정 트리를 사용하여 타깃팅된 광고 경험을 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
+source-git-commit: 39e2d6afa357f2cbe4037371a1441ddc2ffa9ef2
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
       * 대상:
 
-        *[경험의 최종 수준에 대상 노드를 추가](experience-target-node-add-final.md)합니다.
+         * [경험의 최종 수준에 대상 노드를 추가](experience-target-node-add-final.md)합니다.
 
          * [노드 사이에 대상 노드를 삽입합니다](experience-target-node-add-inner.md).
 

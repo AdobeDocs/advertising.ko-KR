@@ -3,9 +3,9 @@ title: Advertising Creative의 경험
 description: 개인화된 광고 경험을 구성하고 성능에 따라 광고 요소를 최적화하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
+source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experiences] 보기
 
-[!UICONTROL Experiences] 보기는 타깃팅되고 타깃팅되지 않은 모든 경험을 표시합니다. 경험 이름, 상태, 시작 및 종료 날짜, 할당된 크리에이티브 또는 크리에이티브 번들의 수 및 차원, 경험에 동적 광고가 포함되는지 여부를 확인할 수 있습니다. [!UICONTROL Experiences] 보기에서 [!UICONTROL Metrics] 옵션을 활성화하면 각 경험 카드 또는 행은 경험이 받은 노출 횟수 및 클릭 수를 나타냅니다.
+[!UICONTROL Experiences] 보기는 타깃팅되고 타깃팅되지 않은 모든 경험을 표시합니다. 경험 이름, 상태, 시작 및 종료 날짜, 할당된 크리에이티브 또는 크리에이티브 번들의 수 및 차원, 경험에 동적 광고가 포함되는지 여부를 확인할 수 있습니다. [!UICONTROL Experiences] 보기에서 [!UICONTROL Metrics] 옵션을 활성화하면 각 경험 카드 또는 행은 경험이 받은 노출 횟수 및 클릭 수를 나타냅니다. 카드 모드에서는 &lt; 및 > 버튼을 사용하여 여러 크리에이티브가 있는 환경의 크리에이티브를 스크롤할 수 있습니다.
 
 경험을 만들고 관리하고, 광고 경험 태그를 만들고 이름을 바꾸고, DSP에서 구현할 수 있도록 JavaScript 및 iframe 형식으로 태그를 내보낼 수 있습니다. Advertising DSP을 사용하는 광고주는 선택적으로 광고 태그를 Advertising DSP 캠페인에 직접 업로드할 수 있습니다.
 

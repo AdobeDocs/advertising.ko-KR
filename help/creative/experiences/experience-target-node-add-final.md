@@ -3,9 +3,9 @@ title: 경험의 최종 수준에 대상 노드 추가
 description: 광고 경험의 최종 타겟 수준에 타겟 노드를 추가하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 7e345130f43fc2d8c2ada287a2dc61b1515e2d25
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,16 @@ ht-degree: 0%
          이 기능은 지정된 각 지리적 대상에 대해 별도의 대상 노드(별도의 크리에이티브 번들과 함께)를 만듭니다. 대상을 분할하지 않으면 사용자가 지정된 모든 위치([!DNL Boolean] `AND` 문)에 속해야 합니다.
 
       1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 사용자 정의 분기의 사용자 지정 분기 이름을 지정합니다.
+
+   기본적으로 사용자 정의 분기는 적용된 타겟으로 레이블이 지정됩니다.
+
+   &quot;All&quot; 또는 &quot;Everyone Else&quot; 분기에 대한 사용자 지정 분기 이름을 만들 수 없습니다.
+
+   1. 대상 노드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**&#x200B;을(를) 클릭합니다.
+
+   1. **[!UICONTROL Node Name]**&#x200B;을(를) 입력한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 

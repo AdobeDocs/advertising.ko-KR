@@ -3,9 +3,9 @@ title: 크리에이티브 라이브러리 정보
 description: 광고 경험을 위한 크리에이티브 관리에 대해 알아봅니다.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 677596e41944de7782c520496f6751f03bf5d9a2
+source-git-commit: 86bd3384a44cc526428dd8ea5e97fdd684331086
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * **개별 크리에이티브:** 사용자 타겟이 정의되지 않은 광고 경험 내에 개별 크리에이티브를 직접 포함할 수 있습니다. 또한 크리에이티브를 사용하여 번들을 만들 수도 있습니다. 이 번들은 타깃팅된 [광고 경험](/help/creative/experiences/experience-about.md)에 포함할 수 있습니다.
 
-   * **표준 크리에이티브:** [다양한 형식](#creative-creative-formats)의 크리에이티브를 업로드하고 관리할 수 있습니다. 각 크리에이티브에 대해 크리에이티브를 연결하는 각 광고의 기본 언어, 사용자가 크리에이티브가 포함된 광고를 클릭할 때 열리는 기본 랜딩 페이지 및 [!DNL Creative] 내의 다양한 보기에서 필터로 사용할 선택적 레이블을 지정합니다.
+   * **표준 크리에이티브:** [다양한 형식](#creative-creative-formats)의 크리에이티브를 업로드하고 관리할 수 있습니다. 각 크리에이티브에 대해 크리에이티브를 연결하는 각 광고의 기본 언어와 사용자가 크리에이티브가 포함된 광고를 클릭할 때 열리는 기본 랜딩 페이지를 지정합니다. [!UICONTROL Creative Label] 차원을 사용할 것을 포함할 때 [!DNL Creative] 내의 다양한 보기에서 필터로 사용하고 [!UICONTROL Custom Creative Report]의 열 값으로 사용할 레이블을 선택적으로 지정할 수 있습니다.
 
    * **동적 크리에이티브:**(기존 Adobe Advertising DCO 고객만 해당) 관리자 사용자는 광고 템플릿의 동적 변수를 피드 파일의 값에 매핑하여 동적으로 생성된 크리에이티브를 만들 수 있습니다. 모든 사용자는 기존 동적 광고를 미리 보고, 복제하고, 삭제할 수 있습니다.
 
@@ -90,6 +90,8 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 [!UICONTROL Creative Libraries] 기본 보기에는 모든 크리에이티브 라이브러리가 표시됩니다. 각 라이브러리에 대한 데이터에는 라이브러리의 번들이 할당된 경험 수, 번들 수, 크리에이티브 수, 크리에이티브 크기 수, 기본 언어 대상 수, 생성 날짜 및 라이브러리의 모든 요소에 대한 마지막 수정 날짜가 포함됩니다. 테이블 모드에는 광고주에 대한 열도 포함됩니다.
 
+카드 모드에서는 &lt; 및 > 버튼을 사용하여 여러 크리에이티브가 있는 라이브러리의 이미지를 스크롤할 수 있습니다.
+
 #### 사용 가능한 작업
 
 * 새 라이브러리 만들기
@@ -156,7 +158,7 @@ add or remove labels, regenerate thumbnails for your creatives. When a creative 
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] 보기
 
-[!UICONTROL Bundles] 보기에는 표준 및 동적 번들 컨테이너가 모두 표시됩니다. 각 번들에 포함된 창작자들의 창작이름, 창작크기, 언어를 살펴볼 수 있다.
+[!UICONTROL Bundles] 보기에는 표준 및 동적 번들 컨테이너가 모두 표시됩니다. 각 번들에 포함된 창작자들의 창작이름, 창작크기, 언어를 살펴볼 수 있다. 카드 모드에서는 &lt; 및 > 버튼을 사용하여 여러 크리에이티브가 포함된 번들로 이미지를 스크롤할 수 있습니다.
 
 #### 사용 가능한 작업
 
