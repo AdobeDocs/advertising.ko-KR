@@ -33,7 +33,7 @@ Advertising DSP을 사용하는 광고주는 선택적으로 태그를 광고로
 
    * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다
 
-1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![광고 태그 내보내기](/help/creative/assets/export.png "광고 태그 내보내기") **[!UICONTROL Export ad tags]** 또는 **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**&#x200B;를 클릭합니다.
+1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![광고 태그 내보내기](/help/creative/assets/export.png "광고 태그 내보내기") **[!UICONTROL Export ad tags]** 또는 **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**&#x200B;를 클릭합니다.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -45,7 +45,7 @@ Advertising DSP을 사용하는 광고주는 선택적으로 태그를 광고로
 
 1. 오른쪽 상단의 **[!UICONTROL Next]**&#x200B;을(를) 클릭하거나 왼쪽 메뉴에서 **[!UICONTROL Generate ad tags]**&#x200B;을(를) 클릭합니다.
 
-1. 태그 형식을 선택하십시오. ** *JavaScript<!-- sic -->* ** 또는 ** *IFRAME* ** <!-- sic -->.
+1. 태그 형식을 선택하십시오. ** *JavaScript<!-- sic -->* **&#x200B; 또는 &#x200B;** *IFRAME* ** <!-- sic -->.
 
 1. [!UICONTROL Destinations] 목록에서 경험을 위한 광고를 만들 위치를 선택합니다.
 
