@@ -3,9 +3,9 @@ title: 의사 결정 트리 타깃팅 없이 경험 만들기
 description: 타깃팅 없이 광고 경험을 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
+source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 0%
 1. (선택 사항) 경험을 계속 구성합니다.
 
    * [적용 가능한 광고 크기에 대한 광고 태그를 수동으로 만듭니다](experience-tag-create-manually.md).
+
+     그런 다음 [광고 태그를 내보내고 DSP에서 구현](/help/creative/experiences/experience-tag-export.md)할 수 있습니다.
 
      [!DNL Creative]은(는) 타깃팅되지 않은 경험에 대한 광고 태그를 자동으로 만들지 않습니다.
 
