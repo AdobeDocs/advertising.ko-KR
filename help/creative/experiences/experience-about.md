@@ -3,9 +3,9 @@ title: Advertising Creative의 경험
 description: 개인화된 광고 경험을 구성하고 성능에 따라 광고 요소를 최적화하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * 국가, 주, 미국 내 DMA, 도시 및 우편번호를 포함한 특정 지리적 위치
 
-   * DSP, 게시자 또는 파트너로부터 특정 키-값 쌍(데이터 패스 대상)이 전달되는 뷰어
+   * DSP, 게시자 또는 파트너로부터 특정 키-값 쌍(데이터 전달 대상)이 전달되는 뷰어(예: SKU=01234567890123 또는 Cart=empty)
 
    * [!DNL Creative] 재타겟팅 픽셀 및 지정된 특성 값
 
@@ -38,12 +38,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 두 유형의 경험에는 서로 다른 워크플로가 있으므로 경험을 저장한 후 의사 결정 트리 타깃팅의 사용 여부를 변경할 수 없습니다. 즉, 타깃팅되지 않은 경험을 타깃팅된 경험으로 변경할 수 없습니다. 마찬가지로 타겟팅된 경험을 타겟팅되지 않은 경험으로 변경할 수 없습니다.
+> 두 유형의 경험에는 서로 다른 워크플로가 있으므로 타깃팅되지 않은 경험을 타깃팅된 경험으로 변경하거나 타깃팅된 경험을 타깃팅되지 않은 경험으로 변경할 수 없습니다.
 
 ## 광고 서비스 제공 및 최적화
 
 <!-- MORE -->
-<!--When multiple ad variants qualify for an impression-->
+<!-- When multiple ad variants qualify for an impression -->
 
 [!DNL Creative]은(는) 사용 가능한 광고 인벤토리는 물론 지정된 타깃팅(해당되는 경우), 예약, 광고 순환 및 최적화 목표 옵션을 기반으로 경험에 대한 자사 광고를 제공하고 타사 광고를 트리거합니다.
 
@@ -61,6 +61,10 @@ ht-degree: 0%
 
 필요한 모든 광고 요소가 포함된 라이브 경험을 만든 후에는 [전체 경험에 대한 JavaScript 또는 iframe 태그를 생성](experience-tag-export.md)할 수 있습니다. 경험 태그를 Adobe Advertising DSP의 캠페인에 광고로 업로드하거나 서드파티 DSP에서 광고로 구현할 수 있습니다.
 
+>[!NOTE]
+>
+>계층 타겟팅 동작은 DSP에 따라 다를 수 있습니다. Advertising DSP은 배치 수준 타깃팅 위에 광고 수준 타깃팅을 적용합니다.
+
 ## 경험에 대한 성능 데이터
 
 다음 성능 데이터를 사용할 수 있습니다.
@@ -68,10 +72,6 @@ ht-degree: 0%
 * [!UICONTROL Creative] > [!UICONTROL Experiences] 보기에서 [!UICONTROL Metrics] 옵션을 활성화하면 각 경험 카드 또는 행은 경험이 받은 노출 횟수 및 클릭 수를 나타냅니다.
 
   ![지표 옵션](/help/creative/assets/metrics-option.png "지표 옵션")
-
-  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
-
-  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
 * [!UICONTROL Experiences] 보기에서 [경험에 대한 자세한 성능 데이터를 볼 수 있습니다](experience-performance-details.md).
 

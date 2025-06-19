@@ -3,9 +3,9 @@ title: 타깃팅되지 않은 경험에 대한 설정
 description: 의사 결정 트리 타깃팅이 없는 광고 경험에 대한 모든 설정 설명을 참조하십시오.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Advanced] 섹션
 
-**데이터 패스:**(동적 광고만 있는 경험, 선택 사항) DSP, 게시자 또는 파트너가 노출 시 실시간으로 전달하는 특정 키-값 쌍을 기준으로 사용자를 타깃팅합니다. 최대 5개의 데이터 패스 키(매개 변수)를 지정할 수 있습니다.<!-- May move this to just within the decision tree. -->
+**데이터 전달:**(동적 광고만 있는 경험, 선택 사항) DSP, 게시자 또는 파트너가 노출 시 실시간으로 전달하는 특정 키-값 쌍(예: SKU=01234567890123 또는 Cart=empty)을 기준으로 사용자를 타깃팅합니다. 최대 5개의 데이터 패스 키(매개 변수)를 지정할 수 있습니다.<!-- May move this to just within the decision tree. -->
 
 특정 크리에이티브 크기에 대한 광고 경험 태그를 만들면 이 필드에 지정된 각 키가 태그에 매크로로 추가됩니다. 태그를 DSP에 광고로 구현하기 전에 태그 내의 각 키-값 쌍에 대한 값을 입력합니다.
 

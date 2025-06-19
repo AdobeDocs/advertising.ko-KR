@@ -3,7 +3,7 @@ title: 크리에이티브 라이브러리 정보
 description: 광고 경험을 위한 크리에이티브 관리에 대해 알아봅니다.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 86bd3384a44cc526428dd8ea5e97fdd684331086
+source-git-commit: 915fd9e2aebf300a37a5b6fdac6aa3526bd09f50
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -42,23 +42,7 @@ ht-degree: 0%
 
 유연한 HTML5 크리에이티브는 모든 이미지 및 기타 특성을 표준 HTML 태그로 사용하는 HTML5 크리에이티브 기능으로, 크리에이티브 라이브러리 또는 개별 경험(원본 크리에이티브의 변형을 만드는)에서 [!DNL Creative] 내에서 직접 편집할 수 있습니다. DSP에서 유연한 HTML5 크리에이티브는 단일 특정 광고 크기(픽셀 단위)에 해당합니다. 유연한 HTML5 크리에이티브에 지정된 속성의 기본값을 선택적으로 변경할 수 있습니다. 나중에 특정 경험 내의 속성에 대해 사용자 지정 값을 지정할 수 있습니다. 이렇게 하면 상위 크리에이티브의 변형이 만들어집니다.
 
-<!-- Removed:
-
-Flexible HTML5 creatives are HTML5 creatives with all of their images and other attributes as standard HTML tags, which you can edit directly within [!DNL Creative], either within a creative library or within an individual experience (which creates a variation of the original creative). Flexible HTML5 creatives use the Interactive Advertising Bureau (IAB) Technology Laboratory's standard for an [ad portfolio](https://flexibleads.iabtechlab.com/), for which ad format sizes are flexible (rather than fixed) and are based on the ad’s aspect ratio and size range, and for which ads maintain their resolution across devices and publisher sites. You can optionally change the default values of the attributes specified in a flexible HTML5 creative. Later, you can specify custom values for the attributes within a specific experience, which creates a variation of the parent creative.
-
--->
-
 유연한 HTML5 크리에이티브를 ZIP 파일로 업로드하거나 계정에 사용할 수 있는 템플릿 중 하나를 시작점으로 사용할 수 있습니다. [유연한 HTML5 광고 사양](html5-creative-specification.md)을 참조하세요.
-
-<!-- Will flattening the view be possible later?
-The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
-
-
-[Example default card view for a flexible creative with variations]()[]add image]
-  
-[Example card for a flexible creative with one variation]() [add image]
-
- -->
 
 #### HTML5 광고
 
@@ -94,15 +78,15 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 #### 사용 가능한 작업
 
-* 새 라이브러리 만들기
+* [새 라이브러리 만들기](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
 
 * 각 Creative Library의 경우:
 
-   * 라이브러리 이름 편집
+   * [라이브러리 이름 편집](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * 라이브러리를 열어 라이브러리에 할당된 크리에이티브 및 번들을 봅니다
+   * [라이브러리를 열어 라이브러리에 할당된 크리에이티브 및 번들을 봅니다](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
-   * 라이브러리 삭제
+   * [라이브러리 삭제](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] 보기
 
@@ -125,12 +109,6 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 * [표준 광고 다운로드](creative-download.md)
 
 * [표준 광고 삭제](creative-delete.md)
-
-<!-- Add in as separate actions?
-
-add or remove labels, regenerate thumbnails for your creatives. When a creative has child creative variations, you can view the variations within the Card view.
-
--->
 
 #### [!UICONTROL Dynamic Ads]
 

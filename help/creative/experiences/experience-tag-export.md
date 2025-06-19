@@ -3,9 +3,9 @@ title: 라이브 경험을 위한 광고 경험 태그 내보내기 및 구현
 description: 광고 경험 태그를 내보내고 선택적으로 Advertising DSP 캠페인에 업로드하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 41763b21bda47e8bd45f48c18a674cd694df68d1
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Advertising DSP을 사용하는 광고주는 선택적으로 태그를 광고로
 >* 의사 결정 트리 타깃팅으로 경험을 만들면 [!DNL Creative]에서 적용 가능한 각 광고 크기에 대한 광고 태그를 자동으로 만듭니다.
 >* 의사 결정 트리 타깃팅이 없는 경험을 만드는 경우 적용 가능한 각 광고 크기에 대해 [수동으로 광고 태그를 만들어야](experience-tag-create-manually.md) 합니다.
 >* 경험 태그는 동적입니다. 경험을 편집하는 경우 태그를 업데이트할 필요가 없습니다.
+>* 광고 경험을 구현할 캠페인에 경험과 호환되는 타겟팅이 포함되어 있는지 확인하십시오. 계층 타겟팅 동작은 DSP에 따라 다를 수 있습니다. Advertising DSP에서 광고 수준 타깃팅은 배치 수준 타깃팅 후에 적용되며 배치 수준 타깃팅을 대체하지 않습니다. 예를 들어 Advertising DSP 배치가 오스트레일리아의 사용자를 타겟팅하고 광고가 일본의 사용자를 타겟팅하는 경우 광고는 &quot;기타 사용자&quot; 분기를 타겟팅합니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;을(를) 클릭합니다.
 
@@ -32,7 +33,7 @@ Advertising DSP을 사용하는 광고주는 선택적으로 태그를 광고로
 
    * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다
 
-1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![광고 태그 내보내기](/help/creative/assets/export.png "광고 태그 내보내기") **[!UICONTROL Export ad tags]** 또는 **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**&#x200B;를 클릭합니다.
+1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![광고 태그 내보내기](/help/creative/assets/export.png "광고 태그 내보내기") **[!UICONTROL Export ad tags]** 또는 **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**&#x200B;를 클릭합니다.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -44,7 +45,7 @@ Advertising DSP을 사용하는 광고주는 선택적으로 태그를 광고로
 
 1. 오른쪽 상단의 **[!UICONTROL Next]**&#x200B;을(를) 클릭하거나 왼쪽 메뉴에서 **[!UICONTROL Generate ad tags]**&#x200B;을(를) 클릭합니다.
 
-1. 태그 형식을 선택하십시오. ** *JavaScript<!-- sic -->* **&#x200B; 또는 &#x200B;** *IFRAME* ** <!-- sic -->.
+1. 태그 형식을 선택하십시오. ** *JavaScript<!-- sic -->* ** 또는 ** *IFRAME* ** <!-- sic -->.
 
 1. [!UICONTROL Destinations] 목록에서 경험을 위한 광고를 만들 위치를 선택합니다.
 

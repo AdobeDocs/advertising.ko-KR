@@ -3,9 +3,9 @@ title: 의사 결정 트리 타겟팅으로 경험 만들기
 description: 의사 결정 트리를 사용하여 타깃팅된 광고 경험을 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 타겟팅된 경험을 만들면 나중에 다른 워크플로우를 사용하는 타겟팅되지 않은 경험으로 변경할 수 없습니다.
+>* 타겟팅된 경험을 만들면 나중에 다른 워크플로우를 사용하는 타겟팅되지 않은 경험으로 변경할 수 없습니다.
+>* 광고 경험에 구현할 캠페인과 호환되는 타겟팅이 포함되어 있는지 확인하십시오. 계층 타겟팅 동작은 DSP에 따라 다를 수 있습니다. 광고 경험 태그를 Advertising DSP에 업로드하고 배치에 첨부하면 광고 수준 타깃팅이 배치 수준 타깃팅 (대신 적용되지 않음) 위에 적용됩니다. 예를 들어 배치가 오스트레일리아의 사용자를 타겟팅하고 광고가 일본의 사용자를 타겟팅하는 경우 광고는 &quot;기타 사용자&quot; 분기를 타겟팅합니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;을(를) 클릭합니다.
 
