@@ -2,9 +2,9 @@
 title: Adobe Advertising Creative 정보
 description: ' [!DNL Creative]에 대해 알아봅니다.'
 feature: Creative Introduction
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: 46f5665642e5e03dbf1c0a7d29032baab70943cb
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -15,38 +15,37 @@ ht-degree: 0%
 
 <!-- verify all and rewrite to include new stuff -->
 
-Adobe Advertising의 일부인 Advertising Creative은 개인화된 실시간 광고 경험을 자동화하고 선택적으로 광고 요소 수준에서 광고를 최적화하는 셀프서비스 플랫폼입니다.
+Adobe Advertising의 일부인 Advertising Creative은 개인화된 실시간 광고 경험을 자동화하고 선택적으로 광고 요소 수준에서 광고를 최적화하는 셀프서비스 플랫폼입니다.<!-- Verify --> Adobe Advertising DSP을 비롯한 모든 DSP에서 광고 경험을 광고로 구현할 수 있습니다.
 
 ## 재사용 가능한 크리에이티브 사용자 정의 크리에이티브 라이브러리
 
-Creative 라이브러리를 사용하면 광고 경험에서 사용할 크리에이티브를 관리할 수 있습니다. 개별 크리에이티브 및 크리에이티브 그룹이 포함된 라이브러리를 여러 개 만들 수 있습니다(*번들*). 광고 경험에 크리에이티브 번들을 추가합니다.
+Creative 라이브러리를 사용하면 광고 경험에서 사용할 크리에이티브를 관리할 수 있습니다. 개별 크리에이티브 및 크리에이티브 그룹이 포함된 여러 라이브러리를 만들 수 있습니다(*번들*(경험에 첨부됨).
 
-## 규칙 기반 경험
+### [!DNL Adobe] 자산 통합
 
-[!DNL Creative]을(를) 사용하면 규칙 기반 의사 결정 트리 모델을 사용하여 스토리를 작성할 수 있습니다. 즉, 대상자에 대해 알고 있는 내용에 따라 실시간으로 맞춤화되고 고객이 다른 웹 사이트로 이동할 때에도 고객을 따라 이동하는 안무된 광고 문자열을 펼칠 수 있습니다<!-- verify if that's true without Adobe CDP -->. 예를 들어 스토리는 고객 행동, 지역, 인구 통계, 재타겟팅, 고객 여정 내 위치 등에 따라 변경될 수 있습니다.
+[!DNL Creative]은(는) Adobe Experience Manager과 직접 통합되어 있으므로 디자인 팀에서 만들고 승인하는 [!DNL Adobe] 이미지 에셋을 쉽게 업로드한 다음 광고 경험의 실시간 스토리보딩과 편집에 사용할 수 있습니다.
 
-<!-- Add when available:
+## 규칙 기반 및 타깃팅되지 않은 경험 모두
 
-## [!DNL Adobe] content and data integrations
+* **타깃팅된 규칙 기반 경험:** 규칙 기반 의사 결정 트리 모델을 사용하여 스토리를 빌드합니다. 대상에 대해 알고 있는 내용에 따라 실시간으로 사용자 지정된 광고 안무 문자열을 펼칩니다. 예를 들어 스토리는 고객 행동, 지역, 인구 통계, 재타겟팅, 고객 여정 내 위치 등에 따라 변경될 수 있습니다.
 
-[!DNL Creative] has direct integrations with Adobe Experience Manager, allowing you to easily upload the [!DNL Adobe] assets that your design team creates and use them for real-time storyboarding and editing of ad experiences.
+* **타깃팅되지 않은 경험:** 대상을 좁히지 않고 광고 요소를 예약하고 최적화합니다.
 
-You also can use your first-party audience segments from Adobe Audience Manager and Adobe Analytics &mdash; as well as audience segments you create in Advertising Cloud DSP
-or retargeting pixels you create using [!DNL Creative] &mdash; as targets for specific creatives in an ad experience.
--->
+### [!DNL Adobe] 데이터 통합
+
+Adobe Audience Manager 및 Adobe Analytics의 자사 대상 세그먼트뿐만 아니라 Advertising Cloud DSP에서 만든 대상 세그먼트와 [!DNL Creative]을(를) 사용하여 만든 픽셀을 광고 경험의 특정 크리에이티브를 위한 타겟으로 사용할 수 있습니다. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
 ### 경험을 광고로 구현
 
-경험을 만든 후에는 경험에 대한 JavaScript 또는 iframe 태그를 생성하고 Advertising DSP 또는 다른 DSP에서 타사 광고로 태그를 구현할 수 있습니다.<!-- Add any more info about integration with DSP? -->
-
-<!-- Maybe add a subsection "Audience targeting options" with info about types of creative-level Retargeting and placement-level targeting within your DSP.  Need to clarify if any placement-level targeting might contradict/override creative-level targeting, or if they're completely different.
-
-Advertiser should be able to target all segments which are available in DSP for targeting
--->
+경험을 만든 후에는 경험에 대한 JavaScript 또는 iframe 태그를 생성하고 Advertising DSP 캠페인이나 다른 DSP에서 타사 표준 디스플레이 광고로 태그를 구현할 수 있습니다.<!-- Will add video and other ad formats; not sure if they'll be available for both standard and dynamic ads. -->
 
 ### 광고 요소 최적화
 
 선택적으로 [!DNL Creative]이(가) Adobe Sensei에서 제공하는 최적화된 가중 광고 회전을 사용하여 특정 대상 타겟을 정의하는지 여부에 관계없이 성능에 따라 모든 경험에 대한 광고 요소를 최적화하도록 허용할 수 있습니다.
+
+<!--
+[!DNL Creative] serves first-party ads and triggers third-party ads for the experience based on the specified targeting (when applicable), scheduling, ad rotation, and optimization goal options 
+-->
 
 ## 픽셀 재타겟팅
 
@@ -67,7 +66,7 @@ to the DSP.
 
 Creative > Experiences에서 경험 수준의 상세한 성과 보고서를 볼 수 있습니다.
 
-보고서 > 사용자 지정 보고서에서 사용자 지정 Creative 보고서를 만들어 경험 전반의 경험 수준 성능을 모니터링할 수도 있습니다. [!DNL Creative] 경험을 DSP 캠페인 내에서 광고로 사용하는 경우 해당 광고의 성능 데이터는 다른 DSP 광고의 데이터와 마찬가지로 추가 사용자 지정 보고서에서 사용할 수 있습니다. <!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
+보고서 > 사용자 지정 보고서에서 사용자 지정 Creative 보고서를 만들어 경험 전반의 경험 수준 성능을 모니터링할 수도 있습니다. [!DNL Creative] 경험을 DSP 캠페인 내에서 광고로 사용하는 경우 해당 광고의 성능 데이터는 다른 DSP 광고의 데이터와 마찬가지로 추가 사용자 지정 보고서에서 사용할 수 있습니다. <!-- Verify that [!DNL Creative] users have access to ALL other reports. -->
 
 선택적으로 사용자 지정 보고서를 지정된 [보고서 대상](/help/dsp/reports/report-destinations/report-destination-about.md)에 전달할 수 있습니다.
 
