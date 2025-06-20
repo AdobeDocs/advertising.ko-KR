@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: Creative 안내서
 hide: true
-source-git-commit: 1d48dd40b0803220ab933c06e1f9d25a18aefde4
+source-git-commit: 78865ed65255aa3c5f9167703877234595e8d1e7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 + 소개 {#introduction}
    + [Adobe Advertising Creative 정보](/help/creative/introduction/creative-about.md)
    + [데이터 보기 사용자 지정](/help/creative/introduction/customize-data-views.md)
-   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative 라이브러리 {#creative-libraries}
    + [크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)
    + [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)
@@ -69,7 +69,7 @@ ht-degree: 0%
    + [경험 미리보기](/help/creative/experiences/experience-preview.md)
    + [라이브 경험을 위한 광고 경험 태그 내보내기 및 구현](/help/creative/experiences/experience-tag-export.md)
    + [경험에 대한 데모 URL 공유](/help/creative/experiences/experience-share-demo-url.md)
-   + [보기의 모든 경험 다운로드](/help/creative/experiences/experience-download-view.md)
+   + [[!UICONTROL Experiences] 보기에서 데이터 다운로드](/help/creative/experiences/experience-download-view.md)
    + [광고 태그 이름 바꾸기](/help/creative/experiences/experience-tag-rename.md)
    + [경험 삭제](/help/creative/experiences/experience-delete.md)
 + 성능 보고서 {#reports}
@@ -78,4 +78,4 @@ ht-degree: 0%
 + [픽셀 재타겟팅](/help/creative/pixels/retargeting-pixel-manage.md)
 + [추적 URL에 사용 가능한 매크로](/help/creative/creative-macros.md)
 + [도움말 보기](/help/creative/get-help.md)
-+ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko){target="_blank"}
++ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
