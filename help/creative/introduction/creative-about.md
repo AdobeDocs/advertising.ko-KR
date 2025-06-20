@@ -2,7 +2,7 @@
 title: Adobe Advertising Creative 정보
 description: ' [!DNL Creative]에 대해 알아봅니다.'
 feature: Creative Introduction
-source-git-commit: 46f5665642e5e03dbf1c0a7d29032baab70943cb
+source-git-commit: 72a6c3de183aa47cecc2ec4d0fab30ff91d4bb05
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Creative 라이브러리를 사용하면 광고 경험에서 사용할 크리에
 
 ### [!DNL Adobe] 데이터 통합
 
-Adobe Audience Manager 및 Adobe Analytics의 자사 대상 세그먼트뿐만 아니라 Advertising Cloud DSP에서 만든 대상 세그먼트와 [!DNL Creative]을(를) 사용하여 만든 픽셀을 광고 경험의 특정 크리에이티브를 위한 타겟으로 사용할 수 있습니다. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
+Adobe Audience Manager 및 Adobe Analytics의 자사 대상 세그먼트뿐만 아니라 Advertising DSP에서 만드는 사용자 지정 대상 세그먼트와 [!DNL Creative]을(를) 사용하여 만드는 픽셀을 광고 경험의 특정 크리에이티브를 위한 타겟으로 사용할 수 있습니다. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
 ### 경험을 광고로 구현
 
