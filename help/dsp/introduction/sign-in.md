@@ -3,7 +3,7 @@ title: DSP에 로그인
 description: DSP에 로그인하는 방법에 대해 알아봅니다.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: a7e28cb2e37e1c9b6951f844b5f542ae2c8ac1a0
+source-git-commit: 143c7bfc38baca48abde323cbca7f582de234bc1
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Adobe Advertising DSP이 로그인 인증을 위해 Adobe Identity Management �
 
 * 매시간 로그인하는 대신 24시간 동안 로그인할 수 있습니다.
 
-현재 DSP 자격 증명은 변경을 준비할 수 있도록 2025년 6월 26일까지 활성 상태로 유지됩니다.
+현재 DSP 자격 증명은 변경을 준비할 수 있도록 2025년 7월 15일까지 활성 상태로 유지됩니다.
 
 ## 인증에 기존 DSP 로그인 사용
 
@@ -42,15 +42,15 @@ Adobe Advertising DSP이 로그인 인증을 위해 Adobe Identity Management �
 
 1. 조직 선택:
 
-   * 메시지가 표시되면 **개인 계정&quot; 또는 &#x200B;** 회사 또는 학교 계정**&#x200B;을 선택합니다.
+   * 메시지가 표시되면 **개인 계정&quot; 또는 **회사 또는 학교 계정**&#x200B;을 선택합니다.
 
    * 여러 IMS 조직에 액세스할 수 있는 경우 올바른 조직을 선택합니다.
 
-사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
+사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
 
 ### 문제 해결
 
-일반적인 로그인 문제에 대해서는 &quot;[Adobe 계정 로그인 문제 해결](https://helpx.adobe.com/kr/manage-account/kb/account-password-sign-help.linkfree.html)&quot;도 참조하십시오.
+일반적인 로그인 문제에 대해서는 &quot;[Adobe 계정 로그인 문제 해결](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;도 참조하십시오.
 
 #### 새 [!DNL Adobe] IMS 로그인을 활성화하기 위한 필수 구성 요소가 있습니까?
 
