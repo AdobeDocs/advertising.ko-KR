@@ -3,18 +3,24 @@ title: 로그인
 description: 로그인 방법에 대해 알아봅니다.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 1bf1c26b56c2d57437d288ae5ac9d2ba1ff1db77
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
 # 로그인
 
-Adobe Experience Cloud 내에서 또는 직접 검색, 소셜 및 Commerce에 로그인할 수 있습니다.
+<!-- update with new info -->
 
-## 직접 로그인
+<!--
+
+You can sign in to Search, Social, & Commerce directly or from within Adobe Experience Cloud.
+
+## Sign in directly
+
+ -->
 
 * 다음 URL 중 하나에 로그인합니다.
 
@@ -22,20 +28,25 @@ Adobe Experience Cloud 내에서 또는 직접 검색, 소셜 및 Commerce에 �
 
    * 다른 모든 영역의 사용자: [https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
 
-## Adobe Experience Cloud에서 로그인
+<!--
+
+## Sign in from Adobe Experience Cloud
 
 >[!NOTE]
 >
->회사가 Adobe Experience Cloud에서 프로비저닝되어야 하며, [Experience Cloud 계정을 Search, Social 및 Commerce 계정에 연결](https://experiencecloud.adobe.com/resources/help/ko_KR/mcloud/organizations.html)해야 합니다.
+>Your company must be provisioned in Adobe Experience Cloud, and you must have [linked your Experience Cloud account to a Search, Social, & Commerce account](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-1. [Adobe Experience Cloud 로그인](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko#signin).
+1. [Sign in to Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
-1. 상단 메뉴에서 ![솔루션 선택기](/help/search-social-commerce/assets/menu-icon.png "솔루션 선택기")를 선택합니다.
+1. In the top menu, select ![Solution selector](/help/search-social-commerce/assets/menu-icon.png "Solution selector").
 
-1. 하위 메뉴에서 **[!UICONTROL Advertising Cloud]**&#x200B;을(를) 선택합니다.
+1. In the submenu, select **[!UICONTROL Advertising Cloud]**.
+
+-->
 
 >[!MORELIKETHIS]
 >
+>* [새 사용자 인터페이스와 기존 사용자 인터페이스 간 전환](ui-switch.md)
 >* [로그아웃](sign-out.md)
 >* [암호 변경](/help/search-social-commerce/tools/password-change.md)
 >* [사용자 인터페이스를 구성하는 방법](user-interface.md)
