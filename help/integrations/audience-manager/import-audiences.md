@@ -26,19 +26,19 @@ DSP 또는 [!DNL Creative]에서 [!DNL Adobe]개의 대상에 액세스하려면
 
 ## 사전 요구 사항
 
-* 광고주는 [the [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview) 버전 2.0 이상을 구현해야 합니다. [!DNL Identity Service]은(는) Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다.
+* 광고주는 [the [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/ko/docs/id-service/using/intro/overview) 버전 2.0 이상을 구현해야 합니다. [!DNL Identity Service]은(는) Experience Cloud의 모든 솔루션에서 방문자를 식별하는 범용 영구 ID를 제공합니다.
 
   구현에는 광고주 사이트의 각 웹 페이지에 [!DNL Identity service] 코드를 추가하는 작업이 포함됩니다.
 
-* 조직은 Experience Cloud 서비스에 대해 [활성화됨](https://experienceleague.adobe.com/en/docs/core-services/interface/services/overview)이어야 하며 Experience Cloud [!DNL Organization ID]&#x200B;(이전 이름: [!DNL IMS org ID])이(가) 있어야 합니다.
+* 조직은 Experience Cloud 서비스에 대해 [활성화됨](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/overview)이어야 하며 Experience Cloud [!DNL Organization ID]&#x200B;(이전 이름: [!DNL IMS org ID])이(가) 있어야 합니다.
 
   [!UICONTROL Organization ID]을(를) 사용하면 여러 Adobe Experience Cloud 제품이 있는 조직에서 일부 제품 간에 데이터를 공유할 수 있습니다.
 
-* (광고주: [!DNL Analytics]) 광고주는 `appMeasurement.js`[&#128279;](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview) 버전 1.6.4 이상을 사용하여 구현 [!DNL Analytics] 해야 합니다.
+* (광고주: [!DNL Analytics]) 광고주는 `appMeasurement.js`[&#128279;](https://experienceleague.adobe.com/ko/docs/analytics/implementation/js/overview) 버전 1.6.4 이상을 사용하여 구현 [!DNL Analytics] 해야 합니다.
 
 * 광고주의 웹 사이트 방문자에 [!DNL Apple Safari]명의 사용자가 포함되지 않습니다.
 
-* (광고주가 Audience Manager과 [!DNL Analytics]을(를) 모두 사용하는 경우 권장) 각 웹 페이지에 대한 호출을 줄이려면 데이터 수집을 위해 기존 Audience Manager [!DNL Data Integration Library] 코드를 제거하고 대신 각 [!DNL Analytics] 보고서 세트에 대해 서버측 전달을 사용하도록 설정하십시오. 자세한 내용은 &quot;[서버측 전달 개요](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf)를 참조하십시오.
+* (광고주가 Audience Manager과 [!DNL Analytics]을(를) 모두 사용하는 경우 권장) 각 웹 페이지에 대한 호출을 줄이려면 데이터 수집을 위해 기존 Audience Manager [!DNL Data Integration Library] 코드를 제거하고 대신 각 [!DNL Analytics] 보고서 세트에 대해 서버측 전달을 사용하도록 설정하십시오. 자세한 내용은 &quot;[서버측 전달 개요](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf)를 참조하십시오.
 
 * (권장) 일치율을 높이려면 자사 웹 사이트 데이터만 Adobe Advertising으로 보냅니다. 광고주가 고객 관계 관리 시스템의 타사 데이터 또는 오프라인 데이터를 번들로 제공하는 경우 데이터 유출로 인해 일치율이 감소할 수 있습니다.
 
@@ -123,7 +123,7 @@ Audience Manager에서 조직에서 두 개의 [!DNL Search, Social, & Commerce]
 
 ### DSP의 데이터 동기화 방법
 
-DSP은 [!DNL Adobe Experience Cloud Identity (ECID) Service]을(를) 사용하여 데이터를 자동으로 동기화합니다. 동기화하는 동안 [!DNL ECID Service]이(가) [!DNL cm.everesttech.net]에 Adobe Advertising을 호출합니다. Adobe Advertising은 신뢰할 수 있는 도메인이므로 대부분의 타사 활성화 파트너와 마찬가지로 ID 동기화는 대상 게시 iframe 내에서가 아니라 상위 페이지에서 수행됩니다. Audience Manager은 [!DNL Device ID]이라고도 하는 [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/ids-in-aam)을(를) 사용하여 장치 ID별로 고유 사용자를 식별합니다.
+DSP은 [!DNL Adobe Experience Cloud Identity (ECID) Service]을(를) 사용하여 데이터를 자동으로 동기화합니다. 동기화하는 동안 [!DNL ECID Service]이(가) [!DNL cm.everesttech.net]에 Adobe Advertising을 호출합니다. Adobe Advertising은 신뢰할 수 있는 도메인이므로 대부분의 타사 활성화 파트너와 마찬가지로 ID 동기화는 대상 게시 iframe 내에서가 아니라 상위 페이지에서 수행됩니다. Audience Manager은 [!DNL Device ID]이라고도 하는 [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/ko/docs/audience-manager/user-guide/reference/ids-in-aam)을(를) 사용하여 장치 ID별로 고유 사용자를 식별합니다.
 
 <!--
 ![Synchronization of [!DNL Adobe] audiences in DSP](/help/integrations/assets/audience-manager-sync.png)
@@ -131,7 +131,7 @@ DSP은 [!DNL Adobe Experience Cloud Identity (ECID) Service]을(를) 사용하�
 
 ### 검색, 소셜 및 Commerce이 데이터를 동기화하는 방법
 
-Search, Social 및 Commerce은 [!DNL Adobe Experience Cloud Identity (ECID) Service]을(를) 사용하여 데이터를 자동으로 동기화합니다. 동기화하는 동안 [!DNL ECID Service]이(가) Adobe Advertising에 속하는 신뢰할 수 있는 도메인인 [!DNL cm.everesttech.net]에서 Adobe Advertising을 호출합니다. Audience Manager은 [!DNL Device ID]이라고도 하는 [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/ids-in-aam)을(를) 사용하여 장치 ID별로 고유 사용자를 식별합니다.
+Search, Social 및 Commerce은 [!DNL Adobe Experience Cloud Identity (ECID) Service]을(를) 사용하여 데이터를 자동으로 동기화합니다. 동기화하는 동안 [!DNL ECID Service]이(가) Adobe Advertising에 속하는 신뢰할 수 있는 도메인인 [!DNL cm.everesttech.net]에서 Adobe Advertising을 호출합니다. Audience Manager은 [!DNL Device ID]이라고도 하는 [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/ko/docs/audience-manager/user-guide/reference/ids-in-aam)을(를) 사용하여 장치 ID별로 고유 사용자를 식별합니다.
 
 ## 동기화된 세그먼트를 찾을 수 있는 곳
 

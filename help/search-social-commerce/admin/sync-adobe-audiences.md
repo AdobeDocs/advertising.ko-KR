@@ -24,7 +24,7 @@ Search, Social 및 Commerce을 허용하면 광고주나 에이전시의 모든 
 
 * Adobe Experience Cloud [!DNL Audience Library]을(를) 사용하여 만든 세그먼트
 
-자격을 얻으려면 광고주나 에이전시는 [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 구현하고 해당 조직 ID(이전의 [!DNL IMS Org ID])를 제공해야 합니다.
+자격을 얻으려면 광고주나 에이전시는 [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 구현하고 해당 조직 ID(이전의 [!DNL IMS Org ID])를 제공해야 합니다.
 
 초기 동기화는 약 24시간이 소요됩니다. 그 후에는 데이터가 1~2초 지연으로 실시간으로 동기화됩니다.
 
