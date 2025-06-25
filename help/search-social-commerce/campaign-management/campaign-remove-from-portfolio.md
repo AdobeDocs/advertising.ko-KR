@@ -3,9 +3,9 @@ title: 포트폴리오에서 캠페인 제거
 description: 포트폴리오에서 캠페인을 제거하는 방법을 알아봅니다.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: c721215003a769f2a4a25951f524588bdb5594f2
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 작업은 포트폴리오의 변경 내역에 기록됩니다.
 
 최적화에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 최적화 안내서를 참조하십시오.
+
+## (새 UI) [!UICONTROL Manage] > [!UICONTROL Portfolios] 보기에서 포트폴리오에서 캠페인을 제거합니다.
+
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;을(를) 클릭합니다.
+
+1. 데이터 테이블 위의 도구 모음에서 ![편집](/help/search-social-commerce/assets/edit.png "편집") **[!UICONTROL Edit]**&#x200B;을 클릭합니다.
+
+1. [포트폴리오 설정](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)에서 [!UICONTROL Assign Campaigns] 섹션으로 이동하여 캠페인 할당을 변경하십시오.
+
+1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
+
+1. 설정을 검토하고 필요에 따라 변경한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+## (기존 UI) [!UICONTROL Portfolios] 보기에서 포트폴리오에서 캠페인을 제거합니다.
 
 1. 주 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**&#x200B;을(를) 클릭한 다음 포트폴리오를 찾습니다.
 
