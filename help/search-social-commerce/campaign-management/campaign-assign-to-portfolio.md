@@ -3,7 +3,7 @@ title: 포트폴리오에 캠페인 할당
 description: 최적화를 위해 포트폴리오에 캠페인을 포함하는 방법을 알아봅니다.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 도구 모음에서 ![추가 작업](/help/search-social-commerce/assets/more-actions.png "추가 작업") **[!UICONTROL More Actions]** > ![할당](/help/search-social-commerce/assets/assign.png "할당") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**&#x200B;을 클릭합니다.
 
-1. [!UICONTROL Create Portfolio] 화면에서 [포트폴리오 설정](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)을 지정하십시오.
+1. [!UICONTROL Create Portfolio] 화면에서 포트폴리오 설정을 지정<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->합니다.
 
    이전에 선택한 캠페인은 이미 캠페인에 할당되어 있습니다. 포트폴리오에 대한 캠페인 목록을 선택적으로 편집할 수 있습니다.
 
