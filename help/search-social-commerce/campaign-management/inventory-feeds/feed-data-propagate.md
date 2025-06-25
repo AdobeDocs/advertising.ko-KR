@@ -3,7 +3,7 @@ title: 템플릿을 통해 인벤토리 피드 데이터 전파
 description: 계정 구조를 관리하고 동적 광고를 게재하기 위해 인벤토리 피드에서 광고 템플릿을 통해 데이터를 전파하는 방법에 대해 알아봅니다.
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 템플릿을 통해 인벤토리 피드 데이터 전파
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 광고 네트워크별 피드 템플릿을 만들고 피드 파일 또는 [!DNL Google] 또는 [!DNL Microsoft] 판매자 센터 계정을 연결한 후 [피드 데이터 설정](feed-settings-manage.md)에 따라 템플릿을 통해 피드 데이터를 전파하여 광고를 동적으로 만들 수 있습니다. 전달 중에 템플릿의 열 이름은 피드의 데이터 값으로 대체되며, 템플릿에서 다르게 지정하지 않는 한 생성된 캠페인 및 해당 구성 요소의 기본 설정은 다음과 같습니다. 템플릿 옵션에 따라 검색, 소셜 및 Commerce은 광고에 대한 새 계정 구조(캠페인, 광고 그룹, 키워드)를 만들거나 광고를 기존 계정 구조에 매핑합니다.
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Templates] 탭에서 피드 파일 전파
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
 
 1. 전파할 템플릿 옆에 있는 확인란을 선택합니다.
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Feeds] 목록에서 피드 파일 전파
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Feeds]**&#x200B;을(를) 클릭합니다.
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## 전달 요약 보기
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Propagations]** 탭을 클릭합니다.
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 작업이 대기열에 있는 동안 재고 피드 데이터에 대한 전달 작업을 중지할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
 
 1. 템플릿 이름 옆의 &quot;[!UICONTROL Last Prop. Status]&quot; 열에서 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭합니다.
 

@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising] 전환 데이터'
 description: 검색, 소셜 및 Commerce에서 사용할 수 있는  [!DNL Microsoft Advertising] 추적 전환 데이터 유형에 대해 알아봅니다.
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: b8a34f3d85947536eb92ee481966f84694250f29
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 검색, 소셜 및 Commerce은 &quot;[!DNL Include in 'Conversions']&quot; 옵션이 활성화된 전환에 대한 데이터를 동기화하여 지난 35일 동안 데이터를 가져온 다음 광고주의 시간대에서 매일 09:00-10:00까지 변경 사항을 가져옵니다. 각 클릭에 대해 새로운 전환이 추적되므로 내역 데이터가 매일 변경될 수 있습니다.
 
-[!DNL Microsoft Advertising]에 구성된 전환 이름을 사용하여 [[!DNL Microsoft Advertising]에서 추적된 각 전환](https://help.ads.microsoft.com/apex/index/3/en-us/n5012)([!DNL Microsoft Advertising]에서 설정됨)에 대한 두 개의 지표를 Search, Social 및 Commerce에서 자동으로 사용할 수 있습니다. 각 전환에 대한 지표는 다음과 같습니다.
+[!DNL Microsoft Advertising]에 구성된 전환 이름을 사용하여 [[!DNL Microsoft Advertising]에서 추적된 각 전환](https://help.ads.microsoft.com/apex/index/3/en-us/n5012)&#x200B;([!DNL Microsoft Advertising]에서 설정됨)에 대한 두 개의 지표를 Search, Social 및 Commerce에서 자동으로 사용할 수 있습니다. 각 전환에 대한 지표는 다음과 같습니다.
 
 * `<conversion-name>` — 키워드에 대한 전환 값(예: Purchase)입니다.
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 검색, 소셜 및 Commerce에서 보기 또는 보고서 옵션을 사용하여 클릭 날짜(트랜잭션 날짜가 아님)를 기반으로 전환을 봅니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Create Report]**&#x200B;을 클릭하고 **[!UICONTROL Basic Reports]** 위에 커서를 놓은 다음 **[!UICONTROL Search Engine Account Report]**&#x200B;을 클릭합니다.
 

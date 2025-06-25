@@ -3,7 +3,7 @@ title: '[!UICONTROL Asset Library]에서 광고 자산 보기 및 만들기'
 description: ' [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정 수준 자산 라이브러리에 대한 재사용 가능한 이미지, 비디오 및 텍스트 자산을 보고 만드는 방법을 알아봅니다.'
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 에셋 만들기 및 업로드
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**&#x200B;을(를) 클릭합니다.
 
 1. 오른쪽 상단에서 광고 네트워크 및 계정을 선택합니다.
 

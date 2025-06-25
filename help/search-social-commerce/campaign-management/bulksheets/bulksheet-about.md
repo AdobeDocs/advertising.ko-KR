@@ -3,7 +3,7 @@ title: 일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보
 description: 광고 네트워크에서 사용할 수 있는 일괄 시트 기능, 일괄 시트 워크플로우 및 오류 처리에 대해 알아봅니다.
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ## 각 파일에 대한 정보
 
-다운로드한 모든 데이터 파일, 업로드한 파일 및 오류 파일은 [!UICONTROL Search] > [!UICONTROL Bulksheets]에서 사용할 수 있습니다.
+다운로드한 모든 데이터 파일, 업로드한 파일 및 오류 파일은 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets]에서 사용할 수 있습니다.
 
 각 파일에 대한 정보에는 현재 작업 상태 및 완료된 작업의 비율, 작업 생성일, 지정된 광고 네트워크에 게시되었거나 게시될 날짜(해당하는 경우), 예약된 삭제 날짜, 작업을 시작한 사용자의 로그인 이름 등이 포함됩니다.
 

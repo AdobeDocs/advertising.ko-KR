@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -15,4 +15,4 @@ ht-degree: 0%
 * 음수 구 일치: `"keyword"`
 * 정확히 일치하는 음수: `[keyword]`
 
-구문과 정확한 일치 유형에 대한 일반적인 구문은 템플릿을 통해 피드 데이터를 전파할 때 생성되는 일괄 시트에서 사용됩니다. **참고:** [!UICONTROL Keywords] 탭이나 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기에서 음수 키워드를 볼 수 없습니다.
+구문과 정확한 일치 유형에 대한 일반적인 구문은 템플릿을 통해 피드 데이터를 전파할 때 생성되는 일괄 시트에서 사용됩니다. **참고:** [!UICONTROL Keywords] 탭이나 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기에서 음수 키워드를 볼 수 없습니다.

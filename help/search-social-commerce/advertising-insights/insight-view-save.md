@@ -3,7 +3,7 @@ title: ' [!DNL Advertising Insight] 보기 또는 저장'
 description: ' [!DNL Advertising Insight] 을(를) 보고 파일에 저장하는 방법을 알아봅니다.'
 exl-id: 4baf24eb-5ebf-41d9-8b3b-6af1672ad030
 feature: Search Advertising Insights
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Advertising Insight] 보기 또는 저장
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**&#x200B;을(를) 클릭합니다.
 
 2. 왼쪽 메뉴에서 ![보고서](/help/search-social-commerce/assets/insight-reports.png "보고서")를 클릭합니다.
 

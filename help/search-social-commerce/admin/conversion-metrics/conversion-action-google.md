@@ -2,7 +2,8 @@
 title: ' [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기'
 description: 잠재 고객에 대한 향상된 전환을 위해  [!DNL Google Ads] 전환 작업을 만드는 방법을 알아봅니다.
 feature: Conversions
-source-git-commit: 5eb6ed5b42e74f424fc8499f6df0dbe3f2430ab2
+exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 관리자 계정 수준에서 추적되는 전환이 아니라 개별 [!DNL Google Ads] 계정에 대해 추적할 잠재 고객에 대한 [!DNL Google Ads] 향상된 전환에 대한 전환 작업을 만들 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;을(를) 클릭하면 **[!UICONTROL Summary]** 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;을(를) 클릭하면 **[!UICONTROL Summary]** 탭이 열립니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭합니다.
 

@@ -3,7 +3,7 @@ title: 복사 및 붙여넣기를 사용하여 캠페인 데이터 일괄 생성
 description: 복사 및 붙여넣기 기능을 사용하여 캠페인 데이터를 대량으로 관리하는 방법을 알아봅니다.
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 데이터 행 복사
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| 을 클릭합니다 [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| 을 클릭합니다 [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**.
 
 1. 복사할 각 행 옆의 확인란을 선택합니다.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. [!DNL Excel] 또는 다른 편집기에서 관련 탭으로 구분된 행을 복사합니다.
 
-1. 검색, 소셜 및 Commerce 주 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 데이터를 붙여넣을 보기를 엽니다(**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \|) [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**).
+1. 검색, 소셜 및 Commerce 주 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 데이터를 붙여넣을 보기를 엽니다(**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \|) [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**).
 
 1. 데이터 테이블 위의 도구 모음에서 ![자세히](/help/search-social-commerce/assets/more.png "자세히")를 클릭한 다음 **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
 

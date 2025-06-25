@@ -3,7 +3,7 @@ title: 일괄 시트 또는 수정된 오류 파일 업로드
 description: 일괄 시트 파일 또는 수정된 랜딩 페이지 유효성 검사 오류 파일을 수동으로 업로드하는 방법을 알아봅니다.
 exl-id: 44c76ca3-1d3e-43c2-868a-4868157d32b0
 feature: Search Bulksheets
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [지원되는 광고 네트워크](bulksheet-about.md#bulksheet-functionality-by-network)에 대해 장치 또는 네트워크에서 일괄 시트 파일, 수정된 랜딩 페이지 유효성 검사 오류 파일 및 기타 수정된 오류 파일을 업로드할 수 있습니다. 파일을 업로드할 때 파일의 모든 사용자 정의 열이 삭제됩니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Upload Bulksheet]**&#x200B;을(를) 클릭합니다.
 

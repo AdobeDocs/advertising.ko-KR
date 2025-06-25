@@ -3,7 +3,7 @@ title: 피드에서 생성된 캠페인 데이터를 광고 네트워크에 게�
 description: 인벤토리 데이터 피드에서 생성된 데이터를 광고 네트워크에 게시하는 방법을 알아봅니다.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 피드에서 생성된 캠페인 데이터를 광고 네트워크에 게시
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 피드에서 생성된 캠페인 데이터를 관련 템플릿을 통해 전파할 때 또는 별도의 프로세스로 게시할 수 있습니다. 데이터를 게시하면 기존의 전파된 데이터가 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] 및 [!UICONTROL Ads] 목록에서 제거됩니다.
 
@@ -32,7 +32,7 @@ ht-degree: 0%
   >
   >이전에 랜딩 페이지의 유효성을 검사하지 않았으며 그렇게 하려면 광고 네트워크에 게시하지 않고 [데이터를 전파하고 [!UICONTROL Bulksheets] 보기에서 미리 보기](feed-data-propagate.md)합니다. 그런 다음 파일을 광고 네트워크에 수동으로 게시하기 전에 [URL의 유효성을 확인](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)할 수 있습니다.
 
-   1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
+   1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
 
    1. 템플릿 옆에 있는 확인란을 선택합니다.
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
               날짜를 지정하려면 DD/MM/YYYY 또는 D/M/YYYY 형식을 사용하거나 ![달력](/help/search-social-commerce/assets/calendar.png "달력")을 클릭하여 달력을 열고 [날짜를 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)합니다. 시간을 변경하려면 시간을 24시간 형식 HH/MM 또는 H/M으로 입력하거나 목록에서 시간(30분 간격)을 선택합니다.
 
-         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** [!UICONTROL Search] > [!UICONTROL Bulksheets] 보기에서 사용할 수 있는 일괄 시트 파일을 만듭니다. 선택적으로 여기에서 파일을 게시할 수 있습니다.
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets] 보기에서 사용할 수 있는 일괄 시트 파일을 만듭니다. 선택적으로 여기에서 파일을 게시할 수 있습니다.
 
            결과 일괄 시트 파일이 2MB를 초과하는 경우 파일은 ZIP 형식입니다. 파일을 게시하기 위해 압축 해제할 필요가 없습니다.
 

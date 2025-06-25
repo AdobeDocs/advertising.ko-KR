@@ -3,7 +3,7 @@ title: 전환 지표에 대한 표시 이름 변경
 description: 관리 보기 및 보고서의 열 제목에 표시되는 전환 지표 이름을 변경하는 방법을 알아봅니다.
 feature: Conversions
 exl-id: 5c3c1eaf-6754-42f1-acf1-f75d01e2d216
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[Google Analytics의 지표](/help/search-social-commerce/admin/data-sources/data-source-about.md)에 대해 통합을 업데이트하거나 다시 인증하면 표시 이름에 대한 수동 변경 내용을 덮어씁니다. 마찬가지로, 통합을 [업데이트](/help/search-social-commerce/admin/data-sources/data-source-edit.md) 또는 [재인증](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)하지 않는 한 Google Analytics 내의 이름 변경 내용은 무시됩니다.
+>[Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md)의 지표의 경우 통합을 업데이트하거나 다시 인증하면 표시 이름에 대한 수동 변경 내용을 덮어씁니다. 마찬가지로, 통합을 [업데이트](/help/search-social-commerce/admin/data-sources/data-source-edit.md) 또는 [재인증](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)하지 않는 한 Google Analytics 내의 모든 이름 변경 내용은 무시됩니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
 
 1. 지표의 **[!UICONTROL Display Name]** 열에서 셀 내부를 클릭합니다.
 

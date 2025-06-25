@@ -3,7 +3,7 @@ title: ' [!DNL Google Ads] 설명선 관리'
 description: ' [!DNL Google Ads] 설명선 확장을 만들고 관리하는 방법을 알아봅니다.'
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!DNL Google Ads] 공유 설명선 만들기
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭합니다.
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 한 번에 하나의 공유 콜아웃을 편집할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**&#x200B;을(를) 클릭합니다.
 
 1. 편집할 설명선 옆에 있는 확인란을 선택합니다.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## [!DNL Google Ads]개의 공유 설명선 삭제
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**&#x200B;을(를) 클릭합니다.
 
 1. 삭제할 각 공유 설명선 옆의 확인란을 선택합니다.
 

@@ -3,7 +3,7 @@ title: 사용자 지정 경고에 대한 데이터 내보내기
 description: 트리거된 경고에 대한 데이터를 파일로 내보내는 방법을 알아봅니다.
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 03475909ca942010e4380456079519f0c18adca3
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행합니다.
 
-   * (경고 템플릿에 대해 가장 최근에 트리거된 경고에 대한 데이터를 내보내려면) 기본 메뉴에서 경고 템플릿 보기로 열리는 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**&#x200B;을(를) 클릭합니다.
+   * (경고 템플릿에 대해 가장 최근에 트리거된 경고에 대한 데이터를 내보내려면) 기본 메뉴에서 경고 템플릿 보기로 열리는 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**&#x200B;을(를) 클릭합니다.
 
-   * (특정 트리거된 경고에 대한 데이터를 내보내려면) 기본 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Triggered Alerts]**&#x200B;을(를) 클릭합니다.
+   * (특정 트리거된 경고에 대한 데이터를 내보내려면) 기본 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Triggered Alerts]**&#x200B;을(를) 클릭합니다.
 
 1. 템플릿 또는 보고서 이름 옆에 있는 [!UICONTROL Export] 열에서 형식 이름을 클릭한 다음 브라우저의 일반 절차에 따라 파일을 열거나 저장합니다.
 

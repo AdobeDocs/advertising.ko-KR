@@ -3,7 +3,7 @@ title: 수정자 관리
 description: 인벤토리 데이터 피드에 대한 광고 템플릿에 대한 수정자를 구성하고 관리하는 방법에 대해 알아봅니다.
 exl-id: 74c9a7c7-0979-4f78-9225-43bc6c94acd7
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 수정자 관리
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 수정자는 형용사 또는 부사로서 기본적인 문장 구조를 바꾸지 않고 문장에 추가하거나 문장에서 제거할 수 있다. 피드 데이터 템플릿의 다양한 데이터 필드에 변수로 사용할 수정자 그룹을 만들 수 있습니다. 계정 구조(캠페인 및 광고 그룹) 필드, 키워드, 기본 URL 및 광고에 수정자를 포함시켜 연결된 각 수정자 값에 대해 하나의 값을 만듭니다. 예를 들어 광고 헤드라인에서 수정자 그룹 변수를 사용하고 수정자 그룹에 3개의 수정자(&quot;저렴한&quot;, &quot;할인&quot; 및 &quot;경제적인&quot;)가 포함된 경우 데이터 피드의 각 데이터 행에 대해 3개의 개별 광고(수정자마다 하나씩)가 만들어집니다. 마찬가지로, 광고 그룹의 기본 URL에 여러 값이 있는 수정자 그룹을 포함하면 결과 기본 URL마다 하나의 키워드 세트가 만들어집니다.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 수정자 그룹 만들기
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Modifiers]**&#x200B;을(를) 클릭합니다.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 수정자 그룹 편집
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Modifiers]**&#x200B;을(를) 클릭합니다.
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 >
 >수정자 그룹을 삭제하면 기존 템플릿의 필드에서 해당 수정자 그룹(`<modifier_group_name>`(으)로 표시됨)에 대한 모든 변수를 제거합니다. 존재하지 않는 수정자에 대한 변수를 사용하여 템플릿을 통해 데이터를 전파하려고 하면 작업이 실패합니다1.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Modifiers]**&#x200B;을(를) 클릭합니다.
 

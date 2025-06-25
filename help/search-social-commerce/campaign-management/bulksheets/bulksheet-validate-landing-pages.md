@@ -3,7 +3,7 @@ title: 일괄 시트 파일의 랜딩 페이지 유효성 검사
 description: 단일 계정 일괄 시트 파일에서 대상 URL의 유효성을 검사하는 방법을 알아봅니다.
 exl-id: 191cb1bc-54a9-4c6c-a29c-f3cbae08e0d8
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >* 이 기능은 기본 URL/최종 URL 열의 값을 확인하지 않습니다.
 >* 일괄 시트 파일을 검증하는 동안 또는 오류가 발견되더라도 게시할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**&#x200B;을(를) 클릭합니다.
 
 1. 유효성을 검사할 각 파일 옆에 있는 확인란을 선택합니다.
 

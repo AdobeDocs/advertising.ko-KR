@@ -3,7 +3,7 @@ title: 클릭 추적 URL 생성
 description: 검색, 소셜 및 Commerce 클릭 추적 URL을 수동으로 생성하는 방법을 알아봅니다.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >이 기능은 관련 광고 계정에서 추적 템플릿 또는 대상 URL을 구현하지 않습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Tracking URL]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Tracking URL]**&#x200B;을(를) 클릭합니다.
 
 1. 목록에서 광고 네트워크 계정을 선택합니다.
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 대상 URL이 있는 계정의 경우 해당 [!UICONTROL Base URL] 필드에 값을 입력하십시오.
 
-최종 URL이 있는 계정의 경우 해당 [!UICONTROL Tracking Template] 필드에 화면 값을 입력하십시오. `&url=` 매개 변수(예: `{lpurl}`) 뒤에 최종 URL에 대한 매개 변수를 추가해야 합니다. [!DNL Yahoo! Japan Ads] 계정의 경우 `{lpurl}` 매개 변수를 사용하십시오. 추적 템플릿의 최종 URL을 나타내는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 매개 변수 목록을 보려면 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)(&quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿 전용&quot; 매개 변수 참조) 및 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799/2)를 참조하십시오.
+최종 URL이 있는 계정의 경우 해당 [!UICONTROL Tracking Template] 필드에 화면 값을 입력하십시오. `&url=` 매개 변수(예: `{lpurl}`) 뒤에 최종 URL에 대한 매개 변수를 추가해야 합니다. [!DNL Yahoo! Japan Ads] 계정의 경우 `{lpurl}` 매개 변수를 사용하십시오. 추적 템플릿의 최종 URL을 나타내는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 매개 변수 목록을 보려면 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)&#x200B;(&quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿 전용&quot; 매개 변수 참조) 및 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799/2)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >

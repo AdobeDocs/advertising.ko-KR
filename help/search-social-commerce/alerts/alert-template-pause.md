@@ -3,7 +3,7 @@ title: 사용자 지정 경고 템플릿 일시 중지
 description: 활성 경고 템플릿을 일시 중지하는 방법을 알아봅니다.
 exl-id: c0ce222d-5478-467b-abe2-bb0fc4906160
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 활성 경고 템플릿을 일시 중지할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Alert Templates] 보기로 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Alert Templates] 보기로 열립니다.
 
 1. 다음 중 하나를 수행합니다.
 

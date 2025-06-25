@@ -3,7 +3,7 @@ title: 레이블 분류 값 삭제
 description: 레이블 분류에 대한 값을 삭제하는 방법을 알아봅니다.
 exl-id: 1b404c6d-a6db-485b-9438-b102786eb65d
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >계정 구성 요소에서 분류 값의 연결을 해제하려면 &quot;[캠페인 구성 요소에서 분류 값 제거](classification-values-remove.md)&quot;를 참조하십시오.
 
-1. **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
 
 1. 하위 메뉴에서 **[!UICONTROL Label Values]**&#x200B;을(를) 선택합니다.
 

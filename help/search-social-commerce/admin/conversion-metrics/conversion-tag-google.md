@@ -3,7 +3,7 @@ title: ' [!DNL Google Ads]에 대한 변환 태그 만들기'
 description: ' [!DNL Google Ads] 전환 태그를 만드는 방법을 알아봅니다.'
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 기존 전환에 대한 전환 태그를 생성하려면 광고 네트워크의 편집기를 사용하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다. 그러면 **[!UICONTROL Summary]** 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다. 그러면 **[!UICONTROL Summary]** 탭이 열립니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭합니다.
 

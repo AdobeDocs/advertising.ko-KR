@@ -3,7 +3,7 @@ title: 업로드된 일괄 시트 및 오류 파일 삭제
 description: 일괄 시트 파일 및 오류 파일을 삭제하는 방법에 대해 알아봅니다.
 exl-id: a4cdceb4-6013-46b6-95bc-5536e45e34d2
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >일괄 시트를 게시했지만 오류가 발생한 경우 모든 오류가 해결될 때까지 오류 파일을 삭제하지 마십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**&#x200B;을(를) 클릭합니다.
 
 1. 삭제할 각 파일 옆에 있는 확인란을 선택합니다.
 

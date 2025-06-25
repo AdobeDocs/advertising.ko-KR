@@ -3,7 +3,7 @@ title: 쇼핑 제품 그룹 관리
 description: 쇼핑 캠페인에서 쇼핑 제품 그룹을 만들고 관리하는 방법을 알아봅니다.
 exl-id: cf818b87-ee4b-4cf5-a4e8-0b9a7fc32182
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising] 쇼핑 캠페인만*
 
-[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] 보기에서 제품 그룹을 만들고 편집하고, 제품 그룹과 해당 하위 제품 그룹을 삭제할 수 있습니다.
+[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] 보기에서 제품 그룹을 만들고 편집하고, 제품 그룹과 해당 하위 제품 그룹을 삭제할 수 있습니다.
 
 ## &quot;[!UICONTROL All Products]&quot; 제품 그룹 만들기
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >한 번에 많은 계정 구성 요소를 만들려면 [캠페인 일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭합니다.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 >
 >한 번에 많은 계정 구성 요소를 만들려면 [캠페인 일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 트리 보기에서 제품 그룹 및 하위 제품 그룹 노드를 보려면 커서를 제품 그룹 이름 위에 놓고 ![메뉴 아이콘](/help/search-social-commerce/assets/arrow-dropdown-menu.png "메뉴 아이콘")을 클릭한 다음 **[!UICONTROL Tree View]**&#x200B;을(를) 선택합니다.
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 광고 그룹에 포함된 단위 제품 그룹 노드(하위 제품 그룹 노드가 없는 제품 그룹)에 대한 입찰 및 추적 템플릿을 편집할 수 있습니다. 하위 제품 그룹 노드가 있는 제품 그룹인 제외된 단위 제품 그룹 또는 포함되거나 제외된 하위 분할 노드에 대한 정보는 편집할 수 없습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 트리 보기에서 제품 그룹 및 하위 제품 그룹 노드를 보려면 커서를 제품 그룹 이름 위에 놓고 ![메뉴 아이콘](/help/search-social-commerce/assets/arrow-dropdown-menu.png "메뉴 아이콘")을 클릭한 다음 **[!UICONTROL Tree View]**&#x200B;을(를) 선택합니다.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 같은 수준에 다른 제품 그룹이 있는 경우 &quot;기타 모든 제품&quot; 그룹을 제외한 모든 제품 그룹을 삭제할 수 있습니다. 이 그룹은 머천트 센터 계정의 제품 중 광고 그룹에 대한 쇼핑 광고에 포함되는 제품을 결정하는 데 사용됩니다. 제품 그룹을 삭제하면 모든 하위 제품 그룹이 삭제됩니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 제품 그룹을 포함하도록 목록을 필터링합니다.
 

@@ -3,7 +3,7 @@ title: 광고 그룹 관리
 description: 광고 그룹을 만들고 관리하는 방법에 대해 알아봅니다.
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >한 번에 대량의 광고 그룹 데이터를 추가하려면 [복사 및 붙여넣기 기능](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 또는 [캠페인 일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Ad Groups]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Ad Groups]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭합니다.
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! 입력 일본 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md) 또는 [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 광고 그룹 설정입니다.
 
-   광고 네트워크에 따라 설정이 [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting] 및 [!UICONTROL URL Options] (으)로 그룹화될 수 있습니다. [!UICONTROL Adgroup Frequency Cap Settings], [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites]에 대한 설정을 구성하려면 **[!UICONTROL Add Frequency Cap Settings]**, **[!UICONTROL Add Negative Keywords]** 또는 **[!UICONTROL Add Negative Websites]**&#x200B;을(를) 각각 클릭합니다.
+   광고 네트워크에 따라 설정이 [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting] 및 [!UICONTROL URL Options]&#x200B;(으)로 그룹화될 수 있습니다. [!UICONTROL Adgroup Frequency Cap Settings], [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites]에 대한 설정을 구성하려면 **[!UICONTROL Add Frequency Cap Settings]**, **[!UICONTROL Add Negative Keywords]** 또는 **[!UICONTROL Add Negative Websites]**&#x200B;을(를) 각각 클릭합니다.
 
 1. **[!UICONTROL Post]**&#x200B;을(를) 클릭합니다.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 >
 >한 번에 많은 양의 데이터를 편집하려면 [복사 및 붙여넣기 기능](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 또는 [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Ad Groups]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Ad Groups]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 
 1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! 편집 일본 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md) 또는 [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 광고 그룹 설정입니다.
 
-   여러 광고 그룹의 경우 설정은 광고 네트워크에 따라 [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting] 및 [!UICONTROL URL Options] (으)로 그룹화될 수 있습니다. 선택한 모든 광고 그룹에 공통되는 필드만 편집할 수 있으며, 변경 사항은 선택한 모든 광고 그룹에 적용됩니다. 일부 영숫자 필드의 경우 기존 값을 지정된 값으로 변경하거나, 기존 문자열을 지정된 문자열로 대체하거나, 각 값의 시작 부분에 지정된 접두사를 추가하거나, 각 값의 끝에 접미사를 추가하는 옵션이 있습니다. 일부 통화 필드의 경우, 기존 값을 지정된 값으로 변경하거나, 특정 백분율 또는 통화 금액만큼 금액을 제한으로 늘리거나 줄이는 옵션이 있습니다.
+   여러 광고 그룹의 경우 설정은 광고 네트워크에 따라 [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting] 및 [!UICONTROL URL Options]&#x200B;(으)로 그룹화될 수 있습니다. 선택한 모든 광고 그룹에 공통되는 필드만 편집할 수 있으며, 변경 사항은 선택한 모든 광고 그룹에 적용됩니다. 일부 영숫자 필드의 경우 기존 값을 지정된 값으로 변경하거나, 기존 문자열을 지정된 문자열로 대체하거나, 각 값의 시작 부분에 지정된 접두사를 추가하거나, 각 값의 끝에 접미사를 추가하는 옵션이 있습니다. 일부 통화 필드의 경우, 기존 값을 지정된 값으로 변경하거나, 특정 백분율 또는 통화 금액만큼 금액을 제한으로 늘리거나 줄이는 옵션이 있습니다.
 
-   단일 광고 그룹의 경우 설정이 [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting] 및 [!UICONTROL URL Options] (으)로 그룹화될 수 있습니다. [!UICONTROL Negative Keywords] 또는 [!UICONTROL Negative Websites]에 대한 설정을 구성하려면 **[!UICONTROL Add Negative Keywords]** 또는 **[!UICONTROL Add Negative Websites]**&#x200B;을(를) 각각 클릭합니다.
+   단일 광고 그룹의 경우 설정이 [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting] 및 [!UICONTROL URL Options]&#x200B;(으)로 그룹화될 수 있습니다. [!UICONTROL Negative Keywords] 또는 [!UICONTROL Negative Websites]에 대한 설정을 구성하려면 **[!UICONTROL Add Negative Keywords]** 또는 **[!UICONTROL Add Negative Websites]**&#x200B;을(를) 각각 클릭합니다.
 
 1. 데이터를 저장합니다.
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 활성 또는 일시 중지된 검색 광고 그룹을 삭제할 수도 있습니다. 삭제된 광고 그룹은 광고 네트워크에서 삭제됩니다. 여전히 표시되지만 변경할 수는 없습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Ad Groups]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Ad Groups]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 광고 그룹을 포함하도록 목록을 필터링합니다.
 

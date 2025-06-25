@@ -3,7 +3,7 @@ title: 공유 사이트 링크 관리
 description: 공유 사이트링크 확장을 만들고 관리하는 방법을 알아봅니다.
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: c3b8e387cfc38d195e77761791e689fd094d8f39
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 공유 사이트링크 만들기
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭합니다.
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 공유 사이트링크를 한 번에 하나씩 편집할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**&#x200B;을(를) 클릭합니다.
 
 1. 편집할 사이트 링크 옆에 있는 확인란을 선택합니다.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 공유 사이트 링크 삭제
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**&#x200B;을(를) 클릭합니다.
 
 1. 삭제할 각 공유 사이트 링크 옆에 있는 확인란을 선택합니다.
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 **[!UICONTROL Tracking Template]:**(선택 사항) 모든 랜딩 외부 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종/랜딩 페이지 URL을 임베드하는 추적 템플릿 또는 추적 URL입니다. 예: 리디렉션을 포함하는 `{lpurl}?source={network}&id=5` 또는 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`.
 
-* 캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;자동 업로드&quot;가 포함된 경우에 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 Search, Social 및 Commerce에 자체 클릭 추적 코드가 자동으로 접두사로 추가됩니다.
+* 캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;자동 업로드&quot;가 포함된 경우에 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 검색, 소셜 및 Commerce에서 자동으로 자체 클릭 추적 코드 접두사를 추가합니다.
 
 * 최종 URL을 포함하는 지원되는 매개 변수에 대해서는 [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 

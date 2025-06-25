@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -14,5 +14,5 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* ([!DNL Google Ads]만 해당) [!UICONTROL Channel]에 대해 가능한 값은 &quot;[!UICONTROL Local]&quot; 또는 &quot;[!UICONTROL Online]&quot;이고 [!UICONTROL ChannelExclusivity]에 대해 가능한 값은 &quot;[!UICONTROL SingleChannel]&quot; 및 &quot;[!UICONTROL MultiChannel]&quot;입니다.&quot;
->* [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기의 [!UICONTROL Product Groups] 탭에서 광고 그룹에 대한 두 번째 계층(하위) 제품 그룹을 만들 때 기본 광고 그룹 입찰을 사용하여 &quot;[!UICONTROL Everything Else]&quot;이라는 다른 제품 그룹이 자동으로 만들어집니다. 그러나 인벤토리 피드 템플릿을 사용하면 &quot;[!UICONTROL Everything Else]&quot; 제품 그룹이 제외됩니다.
+>* [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기의 [!UICONTROL Product Groups] 탭에서 광고 그룹에 대한 두 번째 계층(하위) 제품 그룹을 만들 때 기본 광고 그룹 입찰을 사용하여 &quot;[!UICONTROL Everything Else]&quot;이라는 다른 제품 그룹이 자동으로 만들어집니다. 그러나 인벤토리 피드 템플릿을 사용하면 &quot;[!UICONTROL Everything Else]&quot; 제품 그룹이 제외됩니다.
 >* 여러 계층을 포함하고 최종(번호가 가장 높은) 계층에 사용할 수 있는 값이 없는 경우 다음으로 높은 계층이 결합 가능한 제품 그룹으로 사용됩니다. 예를 들어 5개의 계층을 포함하고 계층 5에 사용할 수 있는 값이 없는 경우 계층 4가 결합 가능한 제품 그룹(단위)으로 사용됩니다. 그러나 중간 계층에 사용할 수 있는 값이 없으면 행이 무시됩니다. 예를 들어 5개의 계층을 포함하고 계층 5에는 값이 있지만 계층 4에는 값이 없는 경우 행 4는 무시됩니다.

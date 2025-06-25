@@ -3,7 +3,7 @@ title: 캠페인 및 광고 그룹과의 광고 확장 연결 삭제
 description: 광고 확장을 캠페인 및 광고 그룹과 연결 해제하는 방법을 알아봅니다.
 exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 모든 위치, 전화 및 사이트 링크 확장과 캠페인 및 광고 그룹 수준 연결을 삭제할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**&#x200B;을(를) 클릭합니다.
 
 1. 삭제할 각 연관 옆의 확인란을 선택합니다.
 

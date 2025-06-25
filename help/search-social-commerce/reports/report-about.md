@@ -3,7 +3,7 @@ title: 보고서 기본 정보
 description: 사용 가능한 다양한 보고서 유형 및 보고서 자동화 방법을 포함하여 성능 보고서에 대해 알아봅니다.
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 | 보고서 범주 | 설명 |
 | ----| ---- |
 | [!UICONTROL Basic Reports] | 모든 사용자가 사용할 수 있는 [기본 보고서](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)에는 포트폴리오, 광고 네트워크 계정, 특정 광고 네트워크 계정, 캠페인, 광고 그룹, 광고, 키워드, 제품 그룹, 레이블 분류 및 레이블 값, 입찰 단위 제한, 네트워크 제한에 대한 실제 비용과 클릭 데이터가 표시됩니다. 해당 광고 네트워크에서 청구한 클릭을 기반으로 하며 선택적으로 전환 데이터 또는 사용자가 만든 다른 지표를 포함할 수 있습니다. |
-| [!UICONTROL Advanced Reports] | [고급 보고서](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)는 광고 구성에 대한 추가적인 정보를 제공하여 지리적 타겟팅 또는 네트워크 설정을 변경하여 이점을 얻을 수 있는 위치를 식별하는 데 도움이 됩니다. 또한 광고주의 내부 전환 추적 데이터에 대해 캠페인 및 포트폴리오 관리 보기와 보고서에서 전환 데이터의 유효성을 검사하는 데 도움이 될 수 있습니다. |
+| [!UICONTROL Advanced Reports] | [고급 보고서](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)는 광고 구성에 추가 insight을 제공하므로 지리적 타깃팅 또는 네트워크 설정을 변경하여 이점을 얻을 수 있는 위치를 파악할 수 있습니다. 또한 광고주의 내부 전환 추적 데이터에 대해 캠페인 및 포트폴리오 관리 보기와 보고서에서 전환 데이터의 유효성을 검사하는 데 도움이 될 수 있습니다. |
 | [!UICONTROL Assist Reports] | [지원 보고서](/help/search-social-commerce/reports/management/assist/assist-report-about.md)는 광고주의 모든 키워드 및 광고에 대한 전환 경로에 대한 통찰력을 제공합니다. Adobe Advertising 전환 추적 서비스를 통해 캡처한 데이터를 사용하며 해당 서비스를 사용하는 광고주에게만 생성될 수 있습니다. |
 | [!UICONTROL Specialty Reports] | [특성 보고서](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)는 Adobe Advertising 추적이 아니라 광고 네트워크에서 수집한 데이터로 구성됩니다. |
 | [!UICONTROL Model Accuracy Reports] | [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 포트폴리오의 입찰, 캠페인 예산 및 입찰 전략 목표를 최적화하는 데 사용되는 비용 및 수익 모델의 정확도를 나타냅니다. |
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 보고서 보기
 
-[!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Reports]의 [!UICONTROL Reports] 보기를 사용하면 보고서, 템플릿 및 스프레드시트 피드를 만들고 관리할 수 있습니다. 이 보기에는 두 개의 탭이 있습니다.
+[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Reports]의 [!UICONTROL Reports] 보기를 사용하면 보고서, 템플릿 및 스프레드시트 피드를 만들고 관리할 수 있습니다. 이 보기에는 두 개의 탭이 있습니다.
 
 * **[!UICONTROL Latest Reports]** 탭에는 수동으로 삭제된 보고서를 제외하고 지난 7일 동안 요청한 사용 가능한 모든 보고서가 나열되며 가장 최근 보고서는 기본적으로 맨 위에 있습니다. 각 보고서에 대해 표시되는 정보에는 보고서 실행 일정(해당되는 경우), 데이터가 생성되었거나 생성될 시작 및 종료 날짜, 보고서 상태(*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* 또는 *[!UICONTROL Error]*)가 포함됩니다.
 
@@ -60,8 +60,8 @@ ht-degree: 0%
 | ---- | ---- |
 | 성능 모니터링 | <ul><li>[[!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)</li><li>[[!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)</li><li>[[!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[[!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)</li><li>[[!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)</li><li>[[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | 성능 문제 해결 및 추세 분석 | <ul><li>[[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)</li><li>[[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)</li><li>[[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)</li><li>[[!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)</li><li>[[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md) 및 [[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>&quot;[!UICONTROL Compare with]&quot; 기능을 사용하여 두 시간 창을 비교하는 모든 기본 보고서</li></ul> |
-| 비즈니스 성장 기회 파악 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
-| 분석 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
+| 비즈니스 성장 기회 파악 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
+| 분석 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
 
 >[!MORELIKETHIS]
 >

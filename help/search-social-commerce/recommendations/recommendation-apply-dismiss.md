@@ -3,7 +3,7 @@ title: 게시자 추천 적용 또는 취소
 description: 게시자 권장 사항을 보거나, 적용하거나, 취소하는 방법에 대해 알아봅니다.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >권장 사항은 캠페인 성과를 개선하는 데 도움이 되지만, 일부는 더 광범위한 목표에 부합하지 않을 수 있습니다. 따라서 권장 사항을 구현하기 전에 Adobe 계정 팀에 문의하는 것이 가장 좋습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**&#x200B;을(를) 클릭합니다.
 
 1. 오른쪽 상단에서 광고 네트워크 및 계정을 선택합니다.
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 1. (선택 사항) 카테고리 및 유형별로 권장 사항을 필터링합니다.
 
-1. 권장 사항 또는 인사이트 행의 [!UICONTROL Actions] 열에서 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
+1. 권장 사항 또는 insight 행에 대한 [!UICONTROL Actions] 열에서 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
-1. (하위 권장 사항이 있는 Recommendations) 하위 권장 사항 옆에 있는 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
+1. (하위 권장 사항이 있는 권장 사항) 하위 권장 사항 옆에 있는 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 다음 중 하나를 수행합니다.
 

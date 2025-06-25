@@ -3,7 +3,7 @@ title: 부정적인 키워드 만들기
 description: 검색 캠페인 및 광고 그룹에 대한 부정적인 키워드를 만드는 방법을 알아봅니다.
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!TIP]
 >한 번에 여러 개의 부정적인 키워드를 만들려면 [캠페인 일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Negatives]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Negatives]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭한 다음 **[!UICONTROL Campaign]**&#x200B;을(를) 클릭하여 캠페인 수준의 부정적인 키워드를 만들거나 **[!UICONTROL Ad Group]**&#x200B;을(를) 클릭하여 광고 그룹 수준의 부정적인 키워드를 만듭니다.
 

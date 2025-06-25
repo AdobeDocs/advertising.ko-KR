@@ -3,7 +3,7 @@ title: 사용자 지정 경고 보기
 description: 경고 인스턴스를 나열하는 방법을 알아봅니다.
 exl-id: 0a5260f6-8651-451e-841c-600be371cc3f
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Triggered Alerts] 보기 내에서 경고 보기
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**&#x200B;을(를) 클릭합니다.
 
 1. 하위 메뉴에서 **[!UICONTROL Triggered Alerts]**&#x200B;을(를) 클릭합니다.
 

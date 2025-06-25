@@ -3,7 +3,7 @@ title: 진행 중인 일괄 시트 작업 중지
 description: 일괄 시트 작업이 진행되는 동안 중지하는 방법을 알아봅니다.
 exl-id: 10577dcf-3b86-49f1-8e3a-ccfe56fffe84
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 파일이 계속 진행되는 동안 파일 게시를 포함하여 일괄 시트 작업을 중지할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**&#x200B;을(를) 클릭합니다.
 
 1. 중지할 각 작업 옆의 확인란을 선택합니다.
 

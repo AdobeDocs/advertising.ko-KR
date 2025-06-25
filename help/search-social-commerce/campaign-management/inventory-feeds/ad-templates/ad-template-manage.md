@@ -3,7 +3,7 @@ title: 인벤토리 피드에 대한 광고 템플릿 관리
 description: 계정 구조를 관리하고 동적 광고를 게재하기 위해 인벤토리 데이터를 처리할 수 있는 광고 템플릿 관리에 대해 알아봅니다.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 인벤토리 피드에 대한 광고 템플릿 관리
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 데이터를 업로드하기 전이나 후에 데이터를 처리할 수 있는 검색 엔진별 광고 템플릿을 만들 수 있습니다. 텍스트 광고 및 확장/확장 텍스트 광고, [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 반응형 검색 광고, [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 쇼핑 광고에 대한 템플릿을 만들 수 있습니다.
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 텍스트 및 확장/확장 텍스트 광고, 반응형 검색 광고, [!DNL Google Ads]개 쇼핑 광고 및 [!DNL Microsoft Advertising]개 쇼핑 광고에 대한 별도의 템플릿을 만듭니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
 
 1. 다음 중 하나를 수행합니다.
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 >
 >일시 중지된 템플릿을 통해 데이터를 수동으로 전파할 수는 있지만 데이터가 자동으로 전파되지는 않습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
 
 1. 상태를 변경할 각 템플릿 옆의 확인란을 선택합니다.
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 ## 피드 템플릿 삭제
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
 
 1. 삭제할 각 템플릿 옆에 있는 확인란을 선택합니다.
 

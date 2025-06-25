@@ -3,7 +3,7 @@ title: 알림 삭제
 description: 알림을 삭제하는 방법을 알아봅니다.
 exl-id: 242c30dc-7e53-42cb-a027-908f2e53998d
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Notification Center] 내에서 알림 삭제
 
-1. (검색, 소셜 및 Commerce 내에서) 기본 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Notification Center Beta]**&#x200B;을(를) 클릭합니다.
+1. (검색, 소셜 및 Commerce 내에서) 기본 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Notification Center Beta]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 유형별로 알림을 필터링하려면 *[!UICONTROL Notices]*, *[!UICONTROL Recommendations]*, *[!UICONTROL Warnings]* 또는 *[!UICONTROL Issues]*&#x200B;을(를) 클릭합니다.
 

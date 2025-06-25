@@ -3,7 +3,7 @@ title: 생성 또는 업로드한 일괄 시트 파일 내보내기
 description: 오류 파일 및 랜딩 페이지 유효성 검사 파일을 포함하여 bulksheet 파일을 다운로드하는 방법을 알아봅니다.
 exl-id: 25868c67-5e6e-4570-9d8f-1a56b9bb88ac
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 오류 파일 및 랜딩 페이지 유효성 검사 파일을 포함하여 생성되거나 업로드된 일괄 시트 파일을 30일 동안 다운로드할 수 있습니다. 파일은 업로드되거나 생성된 후 30일 후에 자동으로 삭제됩니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 일괄 시트 목록 위에 나열된 파일을 제한하려면 [필터를 추가](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)하십시오.
 

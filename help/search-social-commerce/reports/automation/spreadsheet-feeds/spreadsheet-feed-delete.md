@@ -3,7 +3,7 @@ title: 스프레드시트 보고서 피드 삭제
 description: 스프레드시트 피드를 삭제하는 방법을 알아봅니다.
 exl-id: 762e4438-3986-4ae9-92af-335563c23bf7
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >피드와 연결된 보고서 템플릿이 삭제되면 피드가 자동으로 삭제됩니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**&#x200B;을(를) 클릭합니다.
 
 1. 삭제할 각 피드 옆의 확인란을 선택합니다.
 

@@ -3,7 +3,7 @@ title: 고객 데이터 목록을 사용하여 고객 일치 대상 관리
 description: 고객 데이터 목록에서  [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 고객 일치 대상을 만들고 편집하는 방법을 알아봅니다.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -30,7 +30,7 @@ CRM(고객 관계 관리) 시스템에서 생성한 데이터 파일에서 [!DNL
 
    이름과 성, 이메일 주소 및 전화 번호는 SHA-256 알고리즘을 사용하여 해시해야 합니다. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads]명의 대상자에 대해 허용된 연락처 정보 필드 및 요구 사항 목록을 보려면 &quot;[해시된 데이터를 업로드하기 위한 서식 지정 지침](https://support.google.com/google-ads/answer/7476159)&quot;의 [!DNL Google Ads] 설명서를 참조하십시오. [!DNL Microsoft Advertising]명의 대상자에 대해서는 [고객 일치 목록 준비](https://help.ads.microsoft.com/#apex/ads/en/56921)에 대한 [!DNL Microsoft Advertising] 설명서를 참조하십시오. 필요한 경우 연락처 정보에 대한 [!DNL Microsoft Excel] 템플릿을 다운로드할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭합니다.
 
@@ -64,7 +64,7 @@ CRM(고객 관계 관리) 시스템에서 생성한 데이터 파일에서 [!DNL
 
       1. [!UICONTROL Select File] 필드에서 **[!UICONTROL Choose File]**&#x200B;을(를) 클릭하고 네트워크나 장치에서 파일을 선택합니다.
 
-      1. [!DNL Adobe] 및 광고 네트워크 개인정보 처리방침 약관에 동의함을 나타내려면 확인란을 선택하십시오.
+      1. [!DNL Adobe] 약관 및 광고 네트워크 개인정보 처리방침에 동의함을 나타내려면 확인란을 선택하십시오.
 
       1. (EEA(European Economic Area) 또는 영국(UK)에서 비즈니스를 수행하는 [!DNL Google Ads]명의 대상을 만드는 광고주; 선택 사항) EEA 및 영국 사용자로부터 광고 목적으로 데이터를 업로드하는 것에 대한 동의를 수집한 경우 **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]** 옆에 있는 확인란을 선택합니다
 
@@ -91,9 +91,9 @@ CRM(고객 관계 관리) 시스템에서 생성한 데이터 파일에서 [!DNL
 
 1. 기존 데이터 유형에 필요한 형식으로 고객 데이터가 포함된 파일을 생성합니다.
 
-이름과 성, 이메일 주소 및 전화 번호는 SHA-256 알고리즘을 사용하여 해시해야 합니다. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads]명의 대상자에 대해 허용된 연락처 정보 필드 및 요구 사항 목록을 보려면 &quot;[해시된 데이터를 업로드하기 위한 서식 지정 지침](https://support.google.com/google-ads/answer/7476159)&quot;의 [!DNL Google Ads] 설명서를 참조하십시오. [!DNL Microsoft Advertising]명의 대상자에 대해서는 [고객 일치 목록 준비](https://help.ads.microsoft.com/#apex/ads/en/56921)에 있는 [!DNL Microsoft Advertising] 설명서를 참조하십시오. 필요한 경우 연락처 정보에 대한 [!DNL Microsoft Excel] 템플릿을 다운로드할 수 있습니다.
+이름과 성, 이메일 주소 및 전화 번호는 SHA-256 알고리즘을 사용하여 해시해야 합니다. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads]명의 대상자에 대해 허용된 연락처 정보 필드 및 요구 사항 목록을 보려면 &quot;[해시된 데이터를 업로드하기 위한 서식 지정 지침](https://support.google.com/google-ads/answer/7476159)&quot;의 [!DNL Google Ads] 설명서를 참조하십시오. [!DNL Microsoft Advertising]명의 대상자에 대해서는 [고객 일치 목록 준비]&#x200B;(https://help.ads.microsoft.com/#apex/ads/en/56921)에 있는 [!DNL Microsoft Advertising] 설명서를 참조하십시오. 필요한 경우 연락처 정보에 대한 [!DNL Microsoft Excel] 템플릿을 다운로드할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**&#x200B;을(를) 클릭합니다.
 
 1. 편집할 대상 옆에 있는 확인란을 선택합니다.
 
@@ -105,7 +105,7 @@ CRM(고객 관계 관리) 시스템에서 생성한 데이터 파일에서 [!DNL
 
    1. [!UICONTROL Select File] 필드에서 **[!UICONTROL Choose File]**&#x200B;을(를) 클릭하고 네트워크나 장치에서 파일을 선택합니다.
 
-   1. [!DNL Adobe] 및 광고 네트워크 개인정보 처리방침 약관에 동의함을 나타내려면 확인란을 선택하십시오.
+   1. [!DNL Adobe] 약관 및 광고 네트워크 개인정보 처리방침에 동의함을 나타내려면 확인란을 선택하십시오.
 
    1. **[!UICONTROL Upload File]**&#x200B;을(를) 클릭합니다.
 
@@ -119,5 +119,5 @@ CRM(고객 관계 관리) 시스템에서 생성한 데이터 파일에서 [!DNL
 >
 >* [대상자 정보](audience-about.md)
 >* [고객 일치 대상자 만들기 [!DNL Google Ads] 출처 [!DNL Adobe] 대상자](google-audience-from-adobe-audience.md)
->* [Adobe Campaign 전자 메일 목록에서 고객 일치 대상 만들기 [!DNL Google Ads] 2&rbrace;](google-audience-from-campaign-email-list.md)
+>* [Adobe Campaign 전자 메일 목록에서 고객 일치 대상 만들기 [!DNL Google Ads] 2}](google-audience-from-campaign-email-list.md)
 >* [동적 리마케팅 대상자 관리](audience-dynamic-remarketing-manage.md)

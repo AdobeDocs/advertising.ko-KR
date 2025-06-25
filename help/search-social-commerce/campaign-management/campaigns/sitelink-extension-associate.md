@@ -3,7 +3,7 @@ title: 공유 사이트링크를 계정, 캠페인 및 광고 그룹과 연결
 description: 공유 사이트링크 확장을 계정, 캠페인 및 광고 그룹에 할당하는 방법을 알아봅니다.
 exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 사이트링크가 광고와 함께 표시되도록 하려면 데스크톱과 모바일 모두에 대해 최소 6개의 활성 사이트링크가 있어야 합니다. 계정, 캠페인 또는 광고 그룹당 최대 20개의 사이트링크를 할당할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭한 다음 **[!UICONTROL Sitelink]**&#x200B;을(를) 선택합니다.
 

@@ -3,7 +3,7 @@ title: 인벤토리 데이터 피드 파일 관리
 description: 피드 데이터 처리 방법을 제어하는 설정을 구성하는 방법에 대해 알아봅니다.
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 인벤토리 데이터 피드 파일 관리
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 자체 피드 데이터를 제출하는 경우 제품 데이터가 포함된 파일을 업로드하여 제품 데이터를 기반으로 캠페인 구조, 광고 및 키워드를 동적으로 만들어야 합니다. 그런 다음 광고 네트워크별 광고 템플릿에 연결하고 템플릿을 통해 데이터를 처리하여 관련 광고 네트워크에 데이터를 게시할 수 있습니다. 여러 템플릿을 하나의 피드 파일과 연결할 수 있지만 각 템플릿은 하나의 피드 파일에만 연결할 수 있습니다.
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
   데이터 파일을 저장하고 자동으로 처리하기 위해 FTP 디렉터리를 설정하려면 Adobe 계정 팀에 문의하십시오.
 
-* **수동 처리:** [!UICONTROL Advanced] (ACM) 보기에서 피드 파일을 수동으로 [업로드](#feed-file-upload)할 수 있습니다. 피드 파일을 하나 이상의 광고 네트워크별 [템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)과 연결한 후 [피드 데이터 설정](feed-settings-manage.md)에 따라 [템플릿을 통해 피드 데이터를 전달](feed-data-propagate.md)하여 캠페인 및 광고 데이터를 생성할 수 있습니다. 선택적으로 캠페인 계층 보기 내에서 생성된 데이터를 미리 보거나, 검토를 위해 일괄 시트 파일을 생성하거나, 광고 네트워크에 즉시 게시하기 위해 일괄 시트 파일을 생성할 수 있습니다. 데이터를 즉시 게시하지 않으면 [미리 보기](propagated-data-view.md)하고 나중에 [게시](propagated-data-post.md)할 수 있습니다. 나중에 기존 템플릿 연결을 끊지 않고 [기존 피드 파일을 새 파일로 바꾸기](#feed-file-replace)할 수 있습니다.
+* **수동 처리:** [!UICONTROL Advanced]&#x200B;(ACM) 보기에서 피드 파일을 수동으로 [업로드](#feed-file-upload)할 수 있습니다. 피드 파일을 하나 이상의 광고 네트워크별 [템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)과 연결한 후 [피드 데이터 설정](feed-settings-manage.md)에 따라 [템플릿을 통해 피드 데이터를 전달](feed-data-propagate.md)하여 캠페인 및 광고 데이터를 생성할 수 있습니다. 선택적으로 캠페인 계층 보기 내에서 생성된 데이터를 미리 보거나, 검토를 위해 일괄 시트 파일을 생성하거나, 광고 네트워크에 즉시 게시하기 위해 일괄 시트 파일을 생성할 수 있습니다. 데이터를 즉시 게시하지 않으면 [미리 보기](propagated-data-view.md)하고 나중에 [게시](propagated-data-post.md)할 수 있습니다. 나중에 기존 템플릿 연결을 끊지 않고 [기존 피드 파일을 새 파일로 바꾸기](#feed-file-replace)할 수 있습니다.
 
 ## 피드 파일 요구 사항
 
@@ -82,7 +82,7 @@ shoes<TAB>Clarks<TAB>20
 
 수동으로 또는 FTP를 사용하여 업로드한 피드 파일을 열거나 다운로드할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
 
 1. 피드 파일을 찾습니다.
 
@@ -101,7 +101,7 @@ shoes<TAB>Clarks<TAB>20
 >[!NOTE]
 > 템플릿을 수동으로 업로드한 파일에 연결하지만, 이름, 파일 확장명 및 문법적 대소문자가 동일한 다른 파일을 FTP를 통해 업로드하는 경우 템플릿을 통해 데이터를 전파할 때 FTP 파일이 사용됩니다. 예를 들어 myfile.csv는 myfile.csv를 대체하지만 Myfile.CSV는 그렇지 않습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
 
 1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Feeds]**&#x200B;을(를) 클릭합니다.
 
@@ -117,7 +117,7 @@ shoes<TAB>Clarks<TAB>20
 
 새 파일의 파일 이름이나 확장명이 다르더라도 피드 파일을 바꾸면 기존의 모든 템플릿 연결이 유지됩니다. 원래 이전 파일과 연관된 모든 템플릿을 통해 데이터를 전파할 때 새 파일이 사용됩니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
 
 1. 다음 중 하나를 수행합니다.
 
@@ -141,7 +141,7 @@ shoes<TAB>Clarks<TAB>20
 
 수동으로 또는 FTP를 통해 업로드된 모든 피드 파일을 삭제할 수 있습니다. 피드 파일을 삭제하면 더 이상 템플릿과 연결되지 않습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
 
 1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Feeds]**&#x200B;을(를) 클릭합니다.
 

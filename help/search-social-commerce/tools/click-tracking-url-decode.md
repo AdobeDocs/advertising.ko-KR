@@ -3,7 +3,7 @@ title: 클릭 추적 URL 디코딩
 description: 기본 URL에서 검색, 소셜 및 Commerce 클릭 추적 코드를 제거하는 방법을 알아봅니다.
 exl-id: 2f40f6a9-afc9-4e9d-9233-40e29a7f50d8
 feature: Search Tools, Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >* 한 번에 원하는 만큼 URL을 디코딩할 수 있지만 성능은 사용하는 브라우저에 따라 다릅니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**&#x200B;을(를) 클릭합니다.
 
 1. 입력 필드에 검색, 소셜 및 Commerce 추적 코드가 포함된 각 URL을 입력합니다.
 

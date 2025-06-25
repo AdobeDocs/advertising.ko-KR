@@ -3,7 +3,7 @@ title: 쿠키 기반 클릭 추적 설정
 description: 클릭 추적 태그를 설정하고 유효성을 검사하는 방법에 대해 알아봅니다.
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Search, Social 및 Commerce에서 클릭을 추적하려면 다음 요소를 구
 
 1. 각 광고 네트워크 계정에 대해 다음을 수행합니다.
 
-   1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+   1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
    1. 계정 이름 위에 커서를 놓고 ![메뉴 아이콘](/help/search-social-commerce/assets/arrow-dropdown-menu.png "메뉴 아이콘")을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 
@@ -42,7 +42,7 @@ Search, Social 및 Commerce에서 클릭을 추적하려면 다음 요소를 구
 
 1. 각 캠페인에 대해 다음 작업을 수행합니다.
 
-   1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+   1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
    1. 캠페인 이름 위에 커서를 놓고 ![메뉴 아이콘](/help/search-social-commerce/assets/arrow-dropdown-menu.png "메뉴 아이콘")을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 

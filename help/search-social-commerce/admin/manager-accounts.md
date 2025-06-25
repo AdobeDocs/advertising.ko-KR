@@ -3,7 +3,7 @@ title: 광고 네트워크 관리자 계정의 자격 증명 관리
 description: ' [!DNL Google Ads] 관리자 계정의 자격 증명을 제공하는 방법을 알아봅니다.'
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Search, Social 및 Commerce에서 계정 간 전환을 업로드할 [!DNL Google
 
 ## 새 관리자 계정에 대한 자격 증명을 추가하려면
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Create new manager account]**&#x200B;을(를) 선택합니다.
 
@@ -40,7 +40,7 @@ Search, Social 및 Commerce에서 계정 간 전환을 업로드할 [!DNL Google
 
 ## 기존 관리자 계정을 다시 인증하려면
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Reauthenticate existing manager account]**&#x200B;을(를) 선택합니다.
 

@@ -3,7 +3,7 @@ title: 캠페인에 대한 FAQ
 description: 캠페인 관리 및 캠페인 데이터 보기에 대한 질문에 대한 답변을 살펴볼 수 있습니다.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >(포트폴리오가 있는 광고주) 검색, 소셜 및 Commerce이 데이터를 수집하여 모델을 생성하는 동안 새로운 키워드와 일치 유형 조합의 성능은 불안정할 것으로 예상합니다.
 
-[!UICONTROL Search] > [!UICONTROL Campaigns] 보기, 일괄 시트 게시 프로세스 및 광고 네트워크의 자체 편집기에서 **작업:**
+[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] 보기, 일괄 시트 게시 프로세스 및 광고 네트워크의 자체 편집기에서 **작업:**
 
 기존 키워드 또는 광고가 삭제되고 다음 경우에 다른 키워드 또는 광고가 만들어집니다.
 
@@ -99,7 +99,7 @@ Search, Social 및 Commerce에서 전환 지표의 표시 이름을 변경하면
 
 현재 날짜의 검색 네트워크에서 [!DNL Google Ads]개의 캠페인 수준 성과 지표를 광고주의 시간대에서 08:00 및 16:00에 가져옵니다.
 
-[!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기와 [!UICONTROL Optimization] > [!UICONTROL Portfolios] 보기 모두의 [!UICONTROL Campaigns] 탭에서 [!UICONTROL Today] 또는 현재 날짜가 포함된 사용자 지정 날짜 범위에 대해 보고할 때 데이터에 가장 최근에 동기화된 데이터가 포함됩니다.
+[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기와 [!UICONTROL Optimization] > [!UICONTROL Portfolios] 보기 모두의 [!UICONTROL Campaigns] 탭에서 [!UICONTROL Today] 또는 현재 날짜가 포함된 사용자 지정 날짜 범위에 대해 보고할 때 데이터에 가장 최근에 동기화된 데이터가 포함됩니다.
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Search, Social 및 Commerce에서 전환 지표의 표시 이름을 변경하면
 
 병렬 추적은 광고에서 최종 URL로 고객을 직접 보냅니다. 이 URL에는 최종 URL 접미사 또는 &quot;랜딩 페이지 접미사&quot;의 추가 매개 변수가 포함될 수 있습니다. 추적 템플릿 URL(클릭 측정에 대한 추가 매개 변수 포함)은 백그라운드에서 별도로 로드됩니다. 그 결과 랜딩 페이지가 더 빨리 로드됩니다.
 
-Search, Social 및 Commerce에서는 광고 네트워크의 클릭 식별자를 사용하여 검색 및 쇼핑 캠페인에 대한 병렬 추적을 지원합니다([!DNL Microsoft Advertising]의 경우 `msclkid`, [!DNL Google Ads]의 경우 `gclid`). 병렬 추적을 지원하는 브라우저에서 하위 광고에 대한 클릭을 추적하기 위해 랜딩 페이지 URL에 추가되는 [계정 수준](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 또는 [캠페인 수준](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (광고 네트워크에서 &quot;[!DNL final URL suffix]&quot;이라고 함)을 사용합니다. [다음에 필요한 접미사 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [다음에 필요한 접미사 형식 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)을(를) 참조하십시오.
+Search, Social 및 Commerce에서는 광고 네트워크의 클릭 식별자를 사용하여 검색 및 쇼핑 캠페인에 대한 병렬 추적을 지원합니다([!DNL Microsoft Advertising]의 경우 `msclkid`, [!DNL Google Ads]의 경우 `gclid`). 병렬 추적을 지원하는 브라우저에서 하위 광고에 대한 클릭을 추적하기 위해 랜딩 페이지 URL에 추가되는 [계정 수준](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 또는 [캠페인 수준](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix]&#x200B;(광고 네트워크에서 &quot;[!DNL final URL suffix]&quot;이라고 함)을 사용합니다. [다음에 필요한 접미사 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [다음에 필요한 접미사 형식 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)을(를) 참조하십시오.
 
 사용자가 병렬 추적을 지원하지 않는 브라우저에서 광고를 볼 때 광고 네트워크는 대신 순차적 추적을 사용합니다. 고객이 먼저 추적 템플릿 URL로 전송되어 최종 URL로 리디렉션되기 전에 고객을 중간 추적 서버로 리디렉션할 수 있습니다(랜딩 페이지 접미사에 추가 매개 변수를 포함할 수 있음). 광고 네트워크 계정에 대한 모든 추적 템플릿에는 [!UICONTROL Landing Page Suffix]에서 사용하는 것과 동일한 클릭 식별자 매개 변수가 포함되어야 합니다. [다음에 대한 추적 템플릿 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)과 [다음에 대한 추적 템플릿 형식 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)을 참조하세요.
 +++

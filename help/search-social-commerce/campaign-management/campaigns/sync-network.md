@@ -3,7 +3,7 @@ title: 수동으로 광고 네트워크 데이터 동기화
 description: 지원되는 광고 네트워크에 대한 캠페인 구조 및 캠페인 엔티티의 동기화를 수동으로 트리거하는 방법에 대해 알아봅니다.
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: c4600e6ef41193f09722052ef9b16fe5d07bdaaf
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 수동으로 광고 네트워크 데이터 동기화
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising] (이전 [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex] 및 기존 [!DNL Baidu] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising]&#x200B;(이전 [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex] 및 기존 [!DNL Baidu] 계정만*
 
 동기화는 검색, 소셜 및 Commerce이 [지원되는 광고 네트워크](/help/search-social-commerce/introduction/supported-inventory.md)에서 각 광고주의 연결된 광고 네트워크 계정에 대한 업데이트된 정보를 수집하는 프로세스입니다. 이 데이터에는 Search, Social 및 Commerce에서 관리되거나 보고된 대부분의 속성을 포함하여 광고주의 캠페인 구조와 캠페인 엔티티가 포함됩니다. 여기에는 클릭 데이터나 Search, Social 및 Commerce 외부에 입력된 입찰 및 입찰 수정자가 포함되지 않으며 이들은 별도로 수집됩니다.
 
@@ -26,7 +26,7 @@ Search, Social 및 Commerce은 하루에 한 번 그리고 광고 네트워크 �
 >
 >[일괄 시트를 만들기](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)할 때마다 일괄 시트를 만들기 전에 광고 네트워크와 선택적으로 동기화할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Accounts]**&#x200B;을(를) 선택하여 특정 계정의 모든 캠페인을 동기화하거나 **[!UICONTROL Campaigns]**&#x200B;을(를) 선택하여 특정 캠페인을 동기화합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Accounts]**&#x200B;을(를) 선택하여 특정 계정의 모든 캠페인을 동기화하거나 **[!UICONTROL Campaigns]**&#x200B;을(를) 선택하여 특정 캠페인을 동기화합니다.
 
 1. (선택 사항) 특정 계정 또는 캠페인을 포함하도록 목록을 필터링합니다.
 

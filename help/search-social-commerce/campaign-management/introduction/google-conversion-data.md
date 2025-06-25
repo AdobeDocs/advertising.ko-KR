@@ -3,7 +3,7 @@ title: '[!DNL Google Ads] 전환 데이터'
 description: 검색, 소셜 및 Commerce에서 사용할 수 있는  [!DNL Google Ads] 추적 전환 데이터 유형에 대해 알아봅니다.
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Search, Social 및 Commerce은 보고와 최적화를 위해 [!DNL Google Ads] �
 
 검색, 소셜 및 Commerce은 &quot;[!DNL Include in 'Conversions']&quot; 옵션이 활성화된 전환에 대한 데이터를 동기화하여 지난 35일 동안 데이터를 가져온 다음 광고주의 시간대에서 매일 09:00-10:00까지 변경 사항을 가져옵니다. 각 클릭에 대해 새로운 전환이 추적되므로 내역 데이터가 매일 변경될 수 있습니다.
 
-[[!DNL Google Ads]에서 추적된 각 전환](https://support.google.com/google-ads/answer/4677036)([!DNL Google Ads]에서 설정됨)에 대해 최대 3개의 지표를 [!DNL Google Ads]에 구성된 전환 이름을 사용하여 검색, 소셜 및 Commerce에서 자동으로 사용할 수 있습니다. 각 전환에 대한 지표는 다음과 같습니다.
+[[!DNL Google Ads]에서 추적된 각 전환](https://support.google.com/google-ads/answer/4677036)&#x200B;([!DNL Google Ads]에서 설정됨)에 대해 최대 3개의 지표를 [!DNL Google Ads]에 구성된 전환 이름을 사용하여 검색, 소셜 및 Commerce에서 자동으로 사용할 수 있습니다. 각 전환에 대한 지표는 다음과 같습니다.
 
 <!--
 
@@ -42,7 +42,7 @@ Search, Social 및 Commerce은 보고와 최적화를 위해 [!DNL Google Ads] �
 
 >[!NOTE]
 >
->* 동일한 전환 이름을 가진 계정이 여러 개 있는 경우 Adobe Advertising에 중복 전환 이름이 표시될 수 있습니다. 이 경우 [!UICONTROL Admin] > [!UICONTROL Conversions]에서 중복 지표 중 하나에 대한 [표시 이름을 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)합니다. 두 개의 서로 다른 지표에 동일한 이름이 있을 때는 보고가 정확하지 않습니다.
+>* 전환 이름이 동일한 계정이 여러 개 있는 경우 Adobe Advertising에 중복 전환 이름이 표시될 수 있습니다. 이 경우 [!UICONTROL Admin] > [!UICONTROL Conversions]에서 중복 지표 중 하나에 대한 [표시 이름을 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)합니다. 두 개의 서로 다른 지표에 동일한 이름이 있을 때는 보고가 정확하지 않습니다.
 >* 입찰 단위 수준의 데이터가 동일한 수준의 [!DNL Google Ads]의 데이터와 일치합니다. 그러나 상위 수준에 대한 [!DNL Google Ads]의 자체 전환 데이터에는 하위 입찰 단위에 귀속되지 않는 추가 전환이 포함될 수 있습니다. 검색, 소셜 및 Commerce의 데이터는 항상 입찰 단위 수준에서 롤업되므로, 예를 들어 캠페인 수준 보고서의 합계는 Google 광고의 캠페인 수준 보고서와 동일하지 않을 수 있습니다.
 >* 데이터 분산은 일반적으로 추가 전환이 아직 동기화되지 않은 날의 후반보다 오전 동기화 후에 더 적습니다. 오전에 데이터의 유효성을 검사하는 것이 좋습니다.
 >* [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App] 및 [!DNL YouTube] 광고에 전환 데이터를 사용할 수 없습니다. [!DNL Google Ads]의 데이터와 검색, 소셜 및 Commerce의 데이터를 비교할 때 이러한 유형의 광고를 필터링합니다.
@@ -82,7 +82,7 @@ Search, Social 및 Commerce은 보고와 최적화를 위해 [!DNL Google Ads] �
 
 검색, 소셜 및 Commerce에서 보기 또는 보고서 옵션을 사용하여 클릭 날짜(트랜잭션 날짜가 아님)를 기반으로 전환을 봅니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Create Report]**&#x200B;을 클릭하고 **[!UICONTROL Basic Reports]** 위에 커서를 놓은 다음 **[!UICONTROL Search Engine Account Report]**&#x200B;을 클릭합니다.
 

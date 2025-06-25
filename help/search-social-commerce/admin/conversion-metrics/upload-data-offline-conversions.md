@@ -3,7 +3,7 @@ title: 향상된 전환을 위해 오프라인 전환 데이터 업로드
 description: 자사 오프라인 전환 데이터를 업로드하여  [!DNL Google Ads] 잠재 고객에 대한 향상된 전환 및 [!DNL Microsoft Advertising] 향상된 전환에 매핑하는 방법을 알아봅니다.
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-source-git-commit: eb7320fdddce4895a689c32ec6fb1e44cb8f2705
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 향상된 전환을 위한 데이터 업로드
 
-1. 주 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Upload]** 탭을 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Upload]** 탭을 클릭합니다.
 
 1. 광고 네트워크를 선택한 다음 계정을 선택합니다.
 
@@ -46,8 +46,8 @@ ht-degree: 0%
 | 전환 시간 | (필수) 전환 이벤트가 [지원되는 시간 형식](https://support.google.com/google-ads/answer/7014069#prepare_data)에서 발생한 시간입니다. 데이터 테이블 위의 `Parameters:TimeZone=insert_timezone` 행에 계정의 시간대 ID를 포함하지 않는 경우 a\) [지원되는 시간대 ID 형식](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) 또는 b\) + 또는 -로 표시된 GMT 오프셋 및 4자리 시간 차이(예: 뉴욕 -0500, 베를린 +0100 또는 그리니치 표준시 +0000)를 사용하여 각 행의 시간대를 포함합니다. |
 | 전환 값 | (필수) 숫자 전환 값입니다. |
 | 전환 통화 | 전환 이벤트에 대한 통화 코드입니다. |
-| 광고 사용자 데이터 | (EEA(European Economic Area) 또는 영국(UK)의 사용자와 관련된 데이터에 적용 가능) 광고 개인화를 위해 [!DNL Google]에 사용자 데이터를 전송하는 데 동의했는지 여부를 나타냅니다. 값에는 `Granted`, `Denied` 또는 \[null\] ([!DNL Google Ads]에 `Unspecified`(으)로 전송됨)이(가) 포함될 수 있습니다. **참고:** [!DNL Google Ads]은(는) 현재 잠재 고객의 향상된 전환에 대한 동의를 적용하지 않지만 향후 그렇게 할 수 있습니다. |
-| 광고 Personalization | (EEA(European Economic Area) 또는 영국(UK)의 사용자와 관련된 데이터에 적용 가능) 광고 목적으로 [!DNL Google]에 사용자 데이터를 보내는 데 동의했는지 여부를 나타냅니다. 값에는 `Granted`, `Denied` 또는 \[null\] ([!DNL Google Ads]에 `Unspecified`(으)로 전송됨)이(가) 포함될 수 있습니다. **참고:** [!DNL Google Ads]은(는) 현재 잠재 고객의 향상된 전환에 대한 동의를 적용하지 않지만 향후 그렇게 할 수 있습니다. |
+| 광고 사용자 데이터 | (EEA(European Economic Area) 또는 영국(UK)의 사용자와 관련된 데이터에 적용 가능) 광고 개인화를 위해 [!DNL Google]에 사용자 데이터를 전송하는 데 동의했는지 여부를 나타냅니다. 값에는 `Granted`, `Denied` 또는 \[null\]([!DNL Google Ads]에 `Unspecified`(으)로 전송됨)이(가) 포함될 수 있습니다. **참고:** [!DNL Google Ads]은(는) 현재 잠재 고객의 향상된 전환에 대한 동의를 적용하지 않지만 향후 그렇게 할 수 있습니다. |
+| 광고 Personalization | (EEA(European Economic Area) 또는 영국(UK)의 사용자와 관련된 데이터에 적용 가능) 광고 목적으로 [!DNL Google]에 사용자 데이터를 보내는 데 동의했는지 여부를 나타냅니다. 값에는 `Granted`, `Denied` 또는 \[null\]([!DNL Google Ads]에 `Unspecified`(으)로 전송됨)이(가) 포함될 수 있습니다. **참고:** [!DNL Google Ads]은(는) 현재 잠재 고객의 향상된 전환에 대한 동의를 적용하지 않지만 향후 그렇게 할 수 있습니다. |
 
 ### [!DNL Microsoft Advertising]의 테이블 열 및 값
 
@@ -67,5 +67,5 @@ ht-degree: 0%
 >
 >* [잠재 고객에 대한  [!DNL Google Ads] 향상된 전환 구현](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
 >* [구현 [!DNL Microsoft Advertising] 향상된 오프라인 전환](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* ([!DNL Google Ads only]) [잠재 고객에 대한 전환 작업 만들기 [!DNL Google Ads] 향상된 전환 만들기](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* ([!DNL Google Ads only])[잠재 고객에 대한 전환 작업 만들기 [!DNL Google Ads] 향상된 전환 만들기](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [검색, 소셜 및 Commerce에서 추적한 전환 지표를  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)에 업로드합니다.

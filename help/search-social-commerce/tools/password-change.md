@@ -3,7 +3,7 @@ title: 암호 변경
 description: 계정 암호를 변경하는 방법에 대해 알아봅니다.
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 암호를 변경하면 현재 세션에서 로그아웃됩니다. 작업을 계속하려면 새 암호로 로그인해야 합니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Change Password]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Change Password]**&#x200B;을(를) 클릭합니다.
 
 1. 필드에 정보를 입력한 다음 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 

@@ -3,7 +3,7 @@ title: 광고 관리
 description: 광고를 만들고 관리하는 방법에 대해 알아봅니다.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >한 번에 많은 광고를 만들려면 [복사 및 붙여넣기 기능](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 또는 [캠페인 일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Ads]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Ads]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭합니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >(Adobe Advertising 전환 추적이 있는 캠페인) 계정이나 캠페인 설정이 키워드 수준에서만 추적을 지정하는 경우 검색, 소셜 및 Commerce에서 광고에 대한 추적을 생성하지 않습니다.
+   >(Adobe Advertising 전환 추적이 있는 캠페인) 계정 또는 캠페인 설정에서 키워드 수준에서만 추적을 지정하는 경우 검색, 소셜 및 Commerce에서 광고에 대한 추적을 생성하지 않습니다.
 
 1. **[!UICONTROL Post]**&#x200B;을(를) 클릭합니다.
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 >
 >한 번에 많은 양의 데이터를 편집하려면 [복사 및 붙여넣기 기능](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 또는 [캠페인 일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Ads]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Ads]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 활성 또는 일시 중지된 검색 광고를 삭제할 수도 있습니다. 삭제된 광고는 광고 네트워크에서 삭제됩니다. 아직 볼 수는 있지만 변경할 수는 없습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Ads]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Ads]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 광고를 포함하도록 목록을 필터링합니다.
 

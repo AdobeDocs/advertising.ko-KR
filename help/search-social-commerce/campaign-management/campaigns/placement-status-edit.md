@@ -3,7 +3,7 @@ title: 배치 및 음수 배치 상태 변경
 description: ' [!DNL Google Ads]에 대한 배치 및 부정적 배치의 상태를 변경하는 방법에 대해 알아봅니다.'
 exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 활성 또는 일시정지된 배치나 음수 배치를 삭제할 수도 있습니다. 삭제된 배치/부정적 배치는 광고 네트워크에서 삭제됩니다. 아직 볼 수는 있지만 변경할 수는 없습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| 을 클릭합니다 [!UICONTROL Negatives]\]**.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| 을 클릭합니다 [!UICONTROL Negatives]\]**.
 
 1. (선택 사항) 특정 배치 또는 음수 배치를 포함하도록 목록을 필터링합니다.
 

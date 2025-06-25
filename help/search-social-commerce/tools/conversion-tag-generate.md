@@ -3,7 +3,7 @@ title: Adobe Advertising 전환 추적 태그 생성
 description: Adobe Advertising 전환 태그를 만들어 전환 이벤트를 추적하는 방법에 대해 알아봅니다.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >이 기능은 광고주의 웹 페이지에 이미지 태그 또는 [!DNL JavaScript] 태그를 추가하지 않습니다. 태그는 웹 페이지를 업데이트하기 위한 광고주의 일반적인 절차에 따라 추가해야 합니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**&#x200B;을(를) 클릭합니다.
 
 1. [변환 태그 설정](#conversion-tag-settings)을 지정하십시오.
 
@@ -56,9 +56,9 @@ ht-degree: 0%
 
 **[!UICONTROL Include unique transaction IDs]:**(선택 사항) 태그에 트랜잭션 ID 속성(`ev_transid=<transid>`)이 포함되어 있습니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
-이 옵션을 선택하는 경우 거래가 완료되면 광고주는 `<transid>`에 대한 고유한 값(예: 실제 주문 ID)을 생성한 다음 `ev_transid=0123`과 같은 Adobe Advertising에 다시 전달해야 합니다. Adobe Advertising은 거래 ID를 사용하여 거래 ID와 속성 값이 동일한 중복 거래를 제거합니다. 트랜잭션 ID에는 매개 변수 구분 기호로 예약된 앰퍼샌드 기호(`&`)를 포함할 수 없습니다. 거래 ID가 [의 [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)에 포함되어 있습니다. 광고주의 데이터로 검색, 소셜 및 Commerce 내의 데이터를 확인하는 데 사용할 수 있습니다.
+이 옵션을 선택하는 경우 거래가 완료되면 광고주는 `<transid>`에 대한 고유 값(예: 실제 주문 ID)을 생성한 다음 `ev_transid=0123`과 같이 Adobe Advertising에 다시 전달해야 합니다. Adobe Advertising은 거래 ID를 사용하여 거래 ID와 속성 값이 동일한 중복 거래를 제거합니다. 트랜잭션 ID에는 매개 변수 구분 기호로 예약된 앰퍼샌드 기호(`&`)를 포함할 수 없습니다. 거래 ID가 [의 [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)에 포함되어 있습니다. 광고주의 데이터로 검색, 소셜 및 Commerce 내의 데이터를 확인하는 데 사용할 수 있습니다.
 
-데이터에 트랜잭션당 고유 ID가 포함되지 않으면 Adobe Advertising은 여전히 트랜잭션 시간을 기반으로 ID를 생성합니다.
+데이터에 트랜잭션당 고유 ID가 포함되지 않은 경우 Adobe Advertising은 여전히 트랜잭션 시간을 기준으로 ID를 생성합니다.
 
 >[!NOTE]
 >

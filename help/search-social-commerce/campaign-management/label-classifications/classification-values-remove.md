@@ -3,7 +3,7 @@ title: 계정 구성 요소에서 레이블 분류 값 제거
 description: 레이블 분류 값과 계정 구성 요소 사이의 연결을 제거하는 방법을 알아봅니다.
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >레이블 분류에서 값을 삭제하려면 &quot;[레이블 분류 값 삭제](classification-values-delete.md)&quot;를 참조하십시오.
 
-1. **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;에서 엔터티 보기를 선택합니다.
+1. **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;에서 엔터티 보기를 선택합니다.
 
 1. 다음 중 하나를 수행합니다.
 

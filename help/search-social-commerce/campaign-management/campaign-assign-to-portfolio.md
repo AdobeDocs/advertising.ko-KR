@@ -3,7 +3,7 @@ title: 포트폴리오에 캠페인 할당
 description: 최적화를 위해 포트폴리오에 캠페인을 포함하는 방법을 알아봅니다.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## (기존 UI) [!UICONTROL Campaigns] 보기에서 포트폴리오에 캠페인을 할당합니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ## (레거시 UI) [!UICONTROL Portfolios] 보기에서 포트폴리오의 캠페인을 변경합니다
 
-1. 주 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**&#x200B;을(를) 클릭한 다음 포트폴리오를 찾습니다.
+1. 주 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**&#x200B;을(를) 클릭한 다음 포트폴리오를 찾습니다.
 
    포트폴리오 그룹 또는 [!UICONTROL Ungrouped Portfolios] 노드를 선택하여 왼쪽 패널의 [!UICONTROL Portfolios] 메뉴에서 포트폴리오 목록을 필터링할 수 있습니다.
 

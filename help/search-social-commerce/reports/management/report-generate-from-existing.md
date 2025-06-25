@@ -3,7 +3,7 @@ title: 기존 보고서에서 보고서 생성
 description: 이전에 생성한 보고서를 사용하여 보고서를 만드는 방법을 알아봅니다.
 exl-id: f094c767-629a-4e3c-91f6-12761927fe89
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 기존 보고서에서 보고서 생성
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다. 그러면 **[!UICONTROL Latest Reports]** 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다. 그러면 **[!UICONTROL Latest Reports]** 탭이 열립니다.
 
 1. 기존 보고서 옆에 있는 ![유사한 단추 만들기](/help/search-social-commerce/assets/create-similar.png "유사한 단추 만들기")를 클릭합니다.
 

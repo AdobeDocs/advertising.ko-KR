@@ -3,7 +3,7 @@ title: 캠페인 관리 보기에서 계정 구성 요소에 분류 값 할당
 description: 계정 구성 요소에 분류 값을 할당하는 방법을 알아봅니다.
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >일부 광고 네트워크 및 캠페인 유형의 키워드 및 광고 복사본은 [변경할 수 없음](/help/search-social-commerce/campaign-management/faqs-campaigns.md)입니다. 즉, 편집하면 기존 엔터티가 삭제되고 새 엔터티가 만들어집니다. 이러한 방식으로 기존 엔티티를 삭제하면 레이블 분류가 새 엔티티에 할당되지 않습니다.
 
-1. **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭한 다음 계정 구성 요소 보기를 선택합니다.
+1. **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭한 다음 계정 구성 요소 보기를 선택합니다.
 
 1. 다음 중 하나를 수행합니다.
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
       * 분류를 만들려면 [!UICONTROL +]을(를) 클릭합니다. 입력 필드에 분류 이름을 입력한 다음 ![저장](/help/search-social-commerce/assets/select.png "저장")을 클릭하여 분류를 즉시 저장합니다.
 
-        이름은 [ASCII 문자 32-126](https://www.asciitable.com/)(으)로 구성되어야 하며 최대 길이는 27개의 싱글바이트 문자입니다.
+        이름은 [ASCII 문자 32-126](https://www.asciitable.com/)&#x200B;(으)로 구성되어야 하며 최대 길이는 27개의 싱글바이트 문자입니다.
 
    1. **[!UICONTROL Value Name]** 열에서 값의 이름을 지정합니다.
 

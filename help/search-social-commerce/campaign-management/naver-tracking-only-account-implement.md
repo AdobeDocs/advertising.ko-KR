@@ -3,7 +3,7 @@ title: ' [!DNL Naver] 추적 전용 계정 구현'
 description: 광고 네트워크에서 직접 구매하는 광고의 성과를 추적하고 보고하고 시각화할 수 있도록  [!DNL Naver] 계정에 대한 추적 캠페인을 설정하는 방법에 대해 알아봅니다.
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -64,15 +64,15 @@ ht-degree: 0%
 
    전체 계정 계층 구조 및 포함하려는 지표를 포함합니다. Search, Social 및 Commerce은 업로드한 데이터를 기존 캠페인의 데이터와 일치시킵니다.
 
-1. (선택 사항) 웹 페이지에서 Adobe Advertising 전환 추적 서비스 태그를 사용하여 광고 네트워크에서 추적되지 않는 전환을 추적하는 경우, 일별로 집계된 전환 데이터가 포함된 피드 파일을 전송하여 추적 캠페인에 추가합니다.
+1. (선택 사항) 웹 페이지에서 Adobe Advertising 전환 추적 서비스 태그를 사용하여 광고 네트워크에서 추적되지 않는 전환을 추적하는 경우, 일별로 집계된 전환 데이터가 포함된 피드 파일을 전송하여 추적 캠페인에 추가하십시오.
 
    자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
-업로드된 모든 추적 데이터는 [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] 및 [!UICONTROL Keywords] 보기 내에서 [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]에서 사용할 수 있습니다. [!UICONTROL Insights & Reports] 보기의 보고서에도 사용할 수 있습니다.
+업로드된 모든 추적 데이터는 [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] 및 [!UICONTROL Keywords] 보기 내에서 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]에서 사용할 수 있습니다. [!UICONTROL Insights & Reports] 보기의 보고서에도 사용할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
 >* [부록 - [!DNL Naver] 계정](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)에 필요한 일괄 시트 데이터
->* [추적 전용 계정에 대한 트래픽 및 전환 지표 업로드 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
->* [추적 전용 계정에 대한 지표 데이터 요구 사항 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
+>* [추적 전용 계정에 대한 트래픽 및 전환 지표 업로드 [!DNL Naver] 2}](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
+>* [추적 전용 계정에 대한 지표 데이터 요구 사항 [!DNL Naver] 2}](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
+>*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 [클릭 추적 형식

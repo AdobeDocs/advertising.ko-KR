@@ -3,7 +3,7 @@ title: 추가 인벤토리 동기화 활성화
 description: ' [!DNL YouTube] 캠페인 및 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 스마트 쇼핑 캠페인을 동기화하는 방법을 알아봅니다.'
 exl-id: 3e8cc7b1-e38f-43f3-ba67-f2adaec6129d
 feature: Search Tools
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 이러한 캠페인 유형은 다른 유형의 캠페인과 동일하게 청구됩니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Inventory Selection]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Inventory Selection]**&#x200B;을(를) 클릭합니다.
 
 1. 동기화를 활성화하려면 옵션 옆에 있는 확인란을 선택하고 동기화를 비활성화하려면 확인란 선택을 취소합니다.
 

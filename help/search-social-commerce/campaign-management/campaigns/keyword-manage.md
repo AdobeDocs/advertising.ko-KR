@@ -3,7 +3,7 @@ title: 바인딩 가능한 키워드 관리
 description: 검색 광고 그룹에 사용할 수 있는 키워드를 만들고 관리하는 방법을 알아봅니다.
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >한 번에 많은 키워드를 만들려면 [복사 및 붙여넣기 기능](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 또는 [캠페인 일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭합니다.
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    한 번의 작업으로 최대 2000개의 키워드를 입력하거나 붙여넣을 수 있습니다. 여러 키워드를 쉼표로 구분하거나 별도의 줄에 입력합니다.
 
-   광고 네트워크에 따라 설정이 [!UICONTROL Keyword Details], [!UICONTROL Bids], [!UICONTROL Placeholders] 및 [!UICONTROL URL Options] (으)로 그룹화될 수 있습니다.
+   광고 네트워크에 따라 설정이 [!UICONTROL Keyword Details], [!UICONTROL Bids], [!UICONTROL Placeholders] 및 [!UICONTROL URL Options]&#x200B;(으)로 그룹화될 수 있습니다.
 
    계정 또는 캠페인 설정에 크리에이티브(광고) 수준에서의 추적만 필요한 경우 키워드에 대한 추적을 생성할 수 없습니다.
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 >
 >다른 광고 네트워크의 키워드를 포함하여 한 번에 더 많은 양의 키워드 데이터를 편집하려면 [복사 및 붙여넣기 기능](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) 또는 [캠페인 일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**&#x200B;을(를) 클릭합니다.
 
 1. 편집할 각 행 옆의 확인란을 선택합니다.
 
