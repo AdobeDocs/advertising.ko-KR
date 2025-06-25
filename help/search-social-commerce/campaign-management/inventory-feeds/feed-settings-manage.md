@@ -104,7 +104,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Immediately]*(기본값): 데이터가 템플릿을 통해 전파된 후 대량 시트 파일을 관련 광고 네트워크에 게시합니다. 일괄 시트 파일은 30일 동안 [!UICONTROL Bulksheets] 보기에서 사용할 수 있습니다.
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]:** 일괄 시트 파일을 관련 광고 네트워크에 게시하지 않지만 나중에 게시할 수 있는 [!UICONTROL Bulksheets] 보기에 나열합니다. 일괄 시트 파일은 30일 동안 [!UICONTROL Bulksheets] 보기에서 사용할 수 있습니다. 일괄 시트 파일이 10MB보다 크지만 2GB보다 작은 경우 파일이 ZIP 형식이므로 게시하기 위해 파일의 압축을 풀 필요가 없습니다. **팁:** 이전에 랜딩 페이지의 유효성을 검사하지 않았다면 이 옵션을 사용하여 데이터를 광고 네트워크에 게시하기 전에 [!UICONTROL Bulksheets] 보기에서 유효성을 검사할 수 있습니다.
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**&#x200B; 일괄 시트 파일을 관련 광고 네트워크에 게시하지 않지만 나중에 게시할 수 있는 [!UICONTROL Bulksheets] 보기에 나열합니다. 일괄 시트 파일은 30일 동안 [!UICONTROL Bulksheets] 보기에서 사용할 수 있습니다. 일괄 시트 파일이 10MB보다 크지만 2GB보다 작은 경우 파일이 ZIP 형식이므로 게시하기 위해 파일의 압축을 풀 필요가 없습니다. &#x200B;** 팁:** 이전에 랜딩 페이지의 유효성을 검사하지 않았다면 이 옵션을 사용하여 데이터를 광고 네트워크에 게시하기 전에 [!UICONTROL Bulksheets] 보기에서 유효성을 검사할 수 있습니다.
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]:**&#x200B;은(는) 지정된 단어 수가 넘는 키워드 구문을 광고 네트워크에 게시하지 못하도록 합니다. 이 옵션을 선택하면 최대 단어 수를 초과하는 키워드 구문이 전파되어 [!UICONTROL Keywords] 탭에 나열되지만 데이터를 게시하려고 하면 게시되지 않습니다.
 

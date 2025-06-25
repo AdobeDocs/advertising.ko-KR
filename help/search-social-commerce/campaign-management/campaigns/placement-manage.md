@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
 
-1. 
+1. &#x200B;
    1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭합니다.
 
 1. 광고 네트워크, 계정, 캠페인 및 광고 그룹을 선택한 다음 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
