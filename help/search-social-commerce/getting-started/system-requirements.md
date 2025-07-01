@@ -3,9 +3,9 @@ title: 시스템 요구 사항
 description: 소프트웨어 및 계정 요구 사항에 대해 알아봅니다.
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d2956703efd76db58305e31c5acf959e67747f02
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,21 @@ ht-degree: 0%
 
 ## 소프트웨어
 
-* 다음 브라우저 중 하나
+* (새 사용자 인터페이스) 최신 버전에서 다음 브라우저 중 하나를 뺀 것입니다.
+
+   * 최상의 경험을 위해:
+
+      * [!DNL Google Chrome]
+
+      * [!DNL Microsoft Edge]
+
+   * [!DNL Apple Safari]
+
+   * [!DNL Mozilla Firefox]
+
+   * [!DNL Opera]
+
+* (기존 사용자 인터페이스) 다음 브라우저 중 하나:
 
    * [!DNL Apple Safari]&#x200B;([!DNL iOS]의 [!DNL Safari] 포함) 10 이상
 
