@@ -3,46 +3,62 @@ title: 로그인
 description: 로그인 방법에 대해 알아봅니다.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 1bf1c26b56c2d57437d288ae5ac9d2ba1ff1db77
+source-git-commit: 5f28b2ba916778b110e19b6c3a1583312417a34e
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
 # 로그인
 
-<!-- update with new info -->
+Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Management 서비스(IMS)로 전환하고 있습니다. IMS는 Real-Time Customer Data Platform, Customer Journey Analytics, Target 및 Analytics를 포함하여 IMS를 지원하는 모든 [!DNL Adobe] 제품에 SSO(Single Sign-On) 액세스를 제공합니다. 변경 사항:
 
-<!--
+* [!DNL Adobe ID] 하나를 사용하여 Experience Cloud 로그인 페이지 또는 기존 검색, 소셜 및 Commerce 로그인 페이지에서 [!DNL Adobe] 제품 간에 로그인할 수 있습니다. [!DNL Adobe ID]은(는) 사용자 프로필 관리를 제공하며 상단 메뉴에서 다른 [!DNL Adobe] 제품으로 전환할 수 있습니다. 향후 릴리스에서는 상단 메뉴에서 검색, 소셜 및 Commerce 계정과 IMS 조직 계정을 변경할 수 있습니다.
 
-You can sign in to Search, Social, & Commerce directly or from within Adobe Experience Cloud.
+* 엔터프라이즈 인증이 지원됩니다.
 
-## Sign in directly
+* 24시간 동안 로그인할 수 있습니다.
 
- -->
+현재 검색, 소셜 및 Commerce 자격 증명은 변경을 준비할 수 있도록 2025년 7월 15일까지 활성 상태로 유지됩니다.
 
-* 다음 URL 중 하나에 로그인합니다.
+사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
 
-   * 북미 사용자: [https://enterprise-na.efrontier.com](https://enterprise-na.efrontier.com)
+## 기존 검색, 소셜 및 Commerce 로그인 페이지에서 로그인
 
-   * 다른 모든 영역의 사용자: [https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
+### 인증을 위해 기존 검색, 소셜 및 Commerce 로그인 사용
 
-<!--
+이 옵션은 2025년 7월 15일까지 사용할 수 있습니다.
 
-## Sign in from Adobe Experience Cloud
+* [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) 또는 [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/)&#x200B;(으)로 이동한 다음 기존 검색, 소셜 및 Commerce 자격 증명을 사용하여 로그인합니다.
 
->[!NOTE]
->
->Your company must be provisioned in Adobe Experience Cloud, and you must have [linked your Experience Cloud account to a Search, Social, & Commerce account](https://experiencecloud.adobe.com/resources/help/ko_KR/mcloud/organizations.html).
+  기본적으로 기존 사용자 인터페이스가 열립니다.
 
-1. [Sign in to Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko#signin).
+## 인증에 [!DNL Adobe ID] 사용
 
-1. In the top menu, select ![Solution selector](/help/search-social-commerce/assets/menu-icon.png "Solution selector").
+1. [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) 또는 [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/)&#x200B;(으)로 이동한 다음 [!DNL Adobe] ID를 사용하여 로그인합니다.
 
-1. In the submenu, select **[!UICONTROL Advertising Cloud]**.
+기본적으로 새 사용자 인터페이스가 열립니다.
 
--->
+## [!DNL Adobe ID]을(를) 사용하여 Adobe Experience Cloud에서 로그인
+
+<!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
+
+1. [experience.adobe.com](https://experience.adobe.com)&#x200B;(으)로 이동합니다.
+
+1. [!DNL Adobe] ID 자격 증명을 입력하십시오.
+
+1. 조직 선택:
+
+   * 메시지가 표시되면 **개인 계정&quot; 또는 **회사 또는 학교 계정**<!-- Will it necessarily be "Company or School Account?" -->을 선택합니다.
+
+   * 여러 IMS 조직에 액세스할 수 있는 경우 올바른 조직을 선택합니다.
+
+1. 홈 페이지의 [!UICONTROL Quick Access] 섹션에서 **[!UICONTROL Advertising Search, Social, & Commerce]**&#x200B;을(를) 클릭합니다.
+
+![Advertising 검색, 소셜 및 Commerce)](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising 검색, 소셜 및 Commerce)")
+
+기본적으로 새 사용자 인터페이스가 열립니다.
 
 >[!MORELIKETHIS]
 >
