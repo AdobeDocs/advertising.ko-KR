@@ -50,7 +50,7 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 1. 조직 선택:
 
-   * 메시지가 표시되면 **개인 계정&quot; 또는 **회사 또는 학교 계정**<!-- Will it necessarily be "Company or School Account?" -->을 선택합니다.
+   * 메시지가 표시되면 **개인 계정&quot; 또는 &#x200B;** 회사 또는 학교 계정**<!-- Will it necessarily be "Company or School Account?" -->을 선택합니다.
 
    * 여러 IMS 조직에 액세스할 수 있는 경우 올바른 조직을 선택합니다.
 
