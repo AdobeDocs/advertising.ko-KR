@@ -3,9 +3,9 @@ title: 로그인
 description: 로그인 방법에 대해 알아봅니다.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 5f28b2ba916778b110e19b6c3a1583312417a34e
+source-git-commit: 16bc95001d815f22ade46390d07e40fcc29e2fdb
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 현재 검색, 소셜 및 Commerce 자격 증명은 변경을 준비할 수 있도록 2025년 7월 15일까지 활성 상태로 유지됩니다.
 
-사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
+사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
 
 ## 기존 검색, 소셜 및 Commerce 로그인 페이지에서 로그인
 
@@ -30,15 +30,21 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 이 옵션은 2025년 7월 15일까지 사용할 수 있습니다.
 
-* [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) 또는 [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/)&#x200B;(으)로 이동한 다음 기존 검색, 소셜 및 Commerce 자격 증명을 사용하여 로그인합니다.
+* [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) 또는 [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/)&#x200B;(으)로 이동한 다음 기존 검색, 소셜 및 Commerce 사용자 이름과 암호를 사용하여 로그인합니다.
 
   기본적으로 기존 사용자 인터페이스가 열립니다.
 
 ## 인증에 [!DNL Adobe ID] 사용
 
-1. [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) 또는 [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/)&#x200B;(으)로 이동한 다음 [!DNL Adobe] ID를 사용하여 로그인합니다.
+1. [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) 또는 [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/)&#x200B;(으)로 이동하여 **[!UICONTROL Sign in with SSO]**&#x200B;을(를) 클릭합니다.
 
-기본적으로 새 사용자 인터페이스가 열립니다.
+1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
+
+1. 메시지가 표시되면 **개인 계정&quot; 또는 **회사 또는 학교 계정**<!-- Will it necessarily be "Company or School Account?" -->을 선택합니다.
+
+   기본적으로 새 사용자 인터페이스가 열립니다.
+
+1. 여러 IMS 조직에 액세스할 수 있는 경우 페이지의 오른쪽 상단에서 올바른 조직을 선택합니다.
 
 ## [!DNL Adobe ID]을(를) 사용하여 Adobe Experience Cloud에서 로그인
 
@@ -46,19 +52,17 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 1. [experience.adobe.com](https://experience.adobe.com)&#x200B;(으)로 이동합니다.
 
-1. [!DNL Adobe] ID 자격 증명을 입력하십시오.
+1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. 조직 선택:
-
-   * 메시지가 표시되면 **개인 계정&quot; 또는 &#x200B;** 회사 또는 학교 계정**<!-- Will it necessarily be "Company or School Account?" -->을 선택합니다.
-
-   * 여러 IMS 조직에 액세스할 수 있는 경우 올바른 조직을 선택합니다.
+1. 메시지가 표시되면 **개인 계정&quot; 또는 **회사 또는 학교 계정**<!-- Will it necessarily be "Company or School Account?" -->을 선택합니다.
 
 1. 홈 페이지의 [!UICONTROL Quick Access] 섹션에서 **[!UICONTROL Advertising Search, Social, & Commerce]**&#x200B;을(를) 클릭합니다.
 
 ![Advertising 검색, 소셜 및 Commerce)](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising 검색, 소셜 및 Commerce)")
 
 기본적으로 새 사용자 인터페이스가 열립니다.
+
+1. 여러 IMS 조직에 액세스할 수 있는 경우 페이지의 오른쪽 상단에서 올바른 조직을 선택합니다.
 
 >[!MORELIKETHIS]
 >
