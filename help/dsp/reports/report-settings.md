@@ -183,7 +183,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
-* *[!UICONTROL FTP SSL](현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+* *[!UICONTROL FTP SSL] (현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서나 알림을 보낼 전자 메일 주소를 지정합니다.
 
