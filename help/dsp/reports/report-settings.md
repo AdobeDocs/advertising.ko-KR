@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 8e6d2a1d39231176f3836246958b82691fbb5006
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]:** 보고서 이름입니다. 최대 길이는 180자입니다.
 
-**[!UICONTROL Report Type]:** 보고서 유형: *[!UICONTROL Custom]*(사용 가능한 대부분의 옵션 포함), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*, *[!UICONTROL Household Conversions]*, *[!UICONTROL Path to Conversions Beta]*, *[!UICONTROL Path Length Beta]* 또는 *[!UICONTROL Time to Conversion Beta]*.
+**[!UICONTROL Report Type]:** 보고서 유형: *[!UICONTROL Custom]*(사용 가능한 대부분의 옵션 포함), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*, *[!UICONTROL Household Conversions]*, **, *[!UICONTROL Path Length]* 또는 *[!UICONTROL Time to Conversion]*.
 
 ## [!UICONTROL Report Range] 섹션
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >[!UICONTROL Reports] 보기에서 [언제든지 사용자 지정 보고서를 실행](report-run-now.md)할 수도 있습니다.
+  >[ 보기에서 ](report-run-now.md)언제든지 사용자 지정 보고서를 실행[!UICONTROL Reports]할 수도 있습니다.
 
 * *[!UICONTROL On]\&lt;날짜\>:* 계정의 시간대에서 09:00까지 완료하도록 지정된 날짜에 보고서를 실행합니다.
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 **[!UICONTROL Attribution Rule Settings]:** 설정은 보고서 유형에 따라 다릅니다.
 
-* **\[속성 유형\]:**([!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열이 있는 [!UICONTROL Household Conversion] 보고서, Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환을 초래하는 일련의 이벤트에서 전환 데이터를 특성화하는 방법:
+* **\[속성 유형\]:**([!UICONTROL Household Conversion] 또는 [!UICONTROL Conversion Metrics] 열이 있는 [!UICONTROL Custom Goals] 보고서) 보고서 내에서 전환을 유도하는 일련의 이벤트에서 전환 데이터를 특성화하는 방법:
 
    * *[!UICONTROL Unique]:*(기본값) 전환 경로에 있는 차원 값(예: 장치 또는 배치)의 횟수를 카운트합니다.
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 또한 &quot;[Adobe Advertising에 대한 속성 규칙을 계산하는 방법](/help/search-social-commerce/reports/attribution-rules.md)&quot;을 참조하십시오.
 
-* **전환 확인:**([!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열이 있는 [!UICONTROL Household Conversion] 보고서, [!UICONTROL Conversion Metrics] 열만 있는 [!UICONTROL Path to Conversion], [!UICONTROL Path Length] 또는 [!UICONTROL Time to Conversion] 보고서, Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환 이벤트가 할당될 수 있는 노출 이벤트 또는 클릭 이벤트([!UICONTROL Path to Conversion], [!UICONTROL Path Length] 또는 [!UICONTROL Time to Conversion] 보고서)의 최대 일 수. 기본값은 *[!UICONTROL 30 days]*&#x200B;이고 최대값은 92일입니다.
+* **전환 확인:**([!UICONTROL Household Conversion] 또는 [!UICONTROL Conversion Metrics] 열이 있는 [!UICONTROL Custom Goals] 보고서, [!UICONTROL Path to Conversion] 열만 있는 [!UICONTROL Path Length], [!UICONTROL Time to Conversion] 또는 [!UICONTROL Conversion Metrics] 보고서, Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환 이벤트가 할당될 수 있는 노출 이벤트 또는 클릭 이벤트([!UICONTROL Path to Conversion], [!UICONTROL Path Length] 또는 [!UICONTROL Time to Conversion] 보고서)의 최대 일 수. 기본값은 *[!UICONTROL 30 days]*&#x200B;이고 최대값은 92일입니다.
 
   >[!TIP]
   >
@@ -183,7 +183,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
-* *[!UICONTROL FTP SSL] (현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+* *[!UICONTROL FTP SSL](현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서나 알림을 보낼 전자 메일 주소를 지정합니다.
 

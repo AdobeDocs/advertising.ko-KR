@@ -2,9 +2,9 @@
 title: 사용자 정의 보고서에 대한 FAQ
 description: 세대 보고서 및 전환 경로 분석 보고서를 포함하여 사용자 지정 보고서에 대해 자세히 알아보십시오.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 예를 들어 한 세대 내의 세 개의 장치에 한 번의 노출이 제공되더라도 고유 세대 도달 지표는 1입니다.
 
-##### 지원되는 Dimension
+##### 지원되는 차원
 
 [!UICONTROL Household Reach & Frequency] 보고서는 [다음 차원](/help/dsp/reports/report-columns.md)을 지원합니다. &quot;[!UICONTROL Campaign],&quot; &quot;[!UICONTROL Package],&quot; &quot;[!UICONTROL Placement],&quot; &quot;[!UICONTROL Site/Apps]&quot;(중복 지표에 대한 액세스 권한 제공 안 함), &quot;[!UICONTROL Media Type],&quot; &quot;[!UICONTROL Feed Type],&quot; &quot;[!UICONTROL Device],&quot; &quot;[!UICONTROL Publisher],&quot; &quot;[!UICONTROL Audience],&quot;[!UICONTROL Creative Length]&quot; 및 사용자가 만든 배치 &quot;[!UICONTROL Tags].&quot; |
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 겹치기 지표가 있는 보고서는 최대 3개의 값 교차를 출력합니다. 예를 들어 10개의 배치에 대해 [!UICONTROL Unique Household (Overlap)] 지표를 사용하는 경우 개별 배치에 의해 도달된 고유한 가구, 두 배치의 조합에 의해 도달된 일반적인 가구, 세 배치의 조합에 의해 도달된 일반적인 가구를 볼 수 있습니다. 4개 이상의 배치에 의해 도달된 일반적인 가구를 볼 수 없다.
 
-캠페인, 패키지 또는 배치 이외의 차원의 경우 보고서는 각 차원에서 최대 10개의 값을 지원합니다. 예를 들어 [!UICONTROL Audience] 차원에 대한 [!UICONTROL Unique Household Reached] 보고서를 생성하려면 고유한 대상의 수가 10보다 작거나 같아야 합니다. 10개 이상의 고유 대상을 포함하는 경우 빈 보고서가 생성됩니다.
+캠페인, 패키지 또는 배치 이외의 차원의 경우 보고서는 각 차원에서 최대 10개의 값을 지원합니다. 예를 들어 [!UICONTROL Unique Household Reached] 차원에 대한 [!UICONTROL Audience] 보고서를 생성하려면 고유한 대상의 수가 10보다 작거나 같아야 합니다. 10개 이상의 고유 대상을 포함하는 경우 빈 보고서가 생성됩니다.
 
 #### [!UICONTROL Custom] 보고서와 [!UICONTROL Household Reach & Frequency] 보고서 간에 빈도 및 고유 도달 값이 다른 이유는 무엇입니까?
 
@@ -83,13 +83,11 @@ ht-degree: 0%
 
 #### 가구 전환 보고는 Adobe Analytics의 CTV 뷰스루 보고와 어떻게 다릅니까?
 
-[!DNL Analytics]의 CTV 뷰스루 데이터는 [!DNL Analytics] 추적 기능을 제공하며, 가구 전환 데이터는 Adobe Advertising 전환 추적을 사용하여 수집된 데이터를 사용합니다. 또한 [!DNL Analytics]의 DSP 속성 논리에서는 마지막 이벤트만 사용하지만 가구 전환 보고에서는 고유한 및 MTA라는 두 가지 다른 속성 방법을 지원합니다.
+* [!DNL Analytics]에서 [!DNL CTV View-Through Conversion] 보고서는 CTV 노출이 전환 전 마지막 터치포인트였던 전환 수를 보여줍니다. 반대로 DSP [!UICONTROL Household Conversions] 보고서는 전환 전에 정의된 전환 확인 기간 내의 모든 지점에서 CTV 노출에 노출된 고유한 가구의 수를 보여줍니다.
 
-#### [!DNL Analytics for Advertising]과(와) 사용자 지정 보고서 모두에서 CTV 뷰스루 데이터를 볼 수 있습니까?
+* [!DNL Analytics]에서 속성 논리는 Adobe Advertising의 마지막 터치포인트에만 전환을 할당합니다. 반면 DSP [!UICONTROL Household Conversions] 보고서는 추가 속성 모델 *[!UICONTROL Unique]* 및 *[!UICONTROL Multi-Touch Attribution (MTA)]*&#x200B;을(를) 지원합니다.
 
-[!DNL Analytics for Advertising]이(가) 없는 광고주는 가구 전환 보고에 가구 전환 보고서만 사용할 수 있습니다.
-
-조직에 [!DNL Analytics for Advertising]이(가) 있는 경우 두 유형의 보고를 함께 사용하십시오. CTV 뷰스루 보고는 광범위한 채널 분석, 사이트 동작 등에 적합하지만, 사용자 지정 보고서는 전환율을 유도하는 요인을 나타내기 위해 세부적인 보기(미디어 유형, 게시자 등으로 분류된 데이터 포함)를 제공합니다.
+* [!DNL Analytics] 보고서 데이터는 마케팅 채널, 사이트 참여 지표 등을 기준으로 분석하는 데 특히 유용합니다. DSP [!UICONTROL Household Conversions] 보고서는 전환 데이터를 미디어 유형 및 게시자와 같은 다양한 차원으로 분할할 수 있도록 함으로써 보다 세부적인 통찰력을 제공합니다.
 
 ### [!UICONTROL Household Reach & Frequency] 및 [!UICONTROL Household Conversions]개 보고서와 [!DNL Advanced Measurement Services]의 데이터 비교
 
@@ -109,14 +107,14 @@ ht-degree: 0%
 
 | | 전환 보고서 경로 | 검색 보고에 대한 Advanced Measurement Services Halo 효과 | Analysis Workspace의 보고서 |
 | --- | --- | --- |---|
-| 고객 가치 | 셀프 서비스 사용자 지정 보고서를 생성하여 최적화를 높이기 위해 전환된 광고 여정의 경로를 파악합니다. | 검색 클릭에 대한 연결된 TV(CTV) 전술의 영향 이해 | 검색 클릭에 대한 다른 마케팅 채널과 함께 전체적인 Adobe Advertising 투자의 영향을 이해합니다 |
+| 고객 가치 | 셀프 서비스 사용자 지정 보고서를 생성하여 최적화를 높이기 위해 전환된 광고 여정의 경로를 파악합니다. | 검색 클릭에 대한 연결된 TV(CTV) 전술의 영향 이해 | 다른 마케팅 채널과 함께 전체적인 Adobe Advertising 투자가 검색 클릭에 미치는 영향을 이해합니다 |
 | 가구 수준 | 예 | 예 | 아니요 |
 | CTV가 지원됩니까? | 예 | 예 | 예 |
 | 속성 방법론 | 마지막 터치 이벤트(노출 또는 클릭)는 룩북 창 내에 있어야 합니다. | 고유 개수 | 마지막 터치 |
 | | 마지막 터치 이벤트가 전환 경로에 고려되기 30일 이전의 상호 작용 지점이 고려됩니다. | (CTV는 사용자의 클릭 경로 내 CTV 노출 위치에 관계없이 크레딧을 받습니다.) | (노출이 전환 확인 기간의 마지막 이벤트이고 CTV 노출 전후에 다른 형식에서 유료 클릭이 없는 경우 CTV가 크레딧을 받습니다.) |
 | 보고 수준 | 세부기간 | 세부기간 | 광범위 |
-| | (채널 유형, 크리에이티브/광고, 키워드, 경로, 길이, 전환 시간) | (CTV 전술, CTV 앱/게시자) | (Adobe Advertising 및 기타 마케팅 채널) |
-| 마케팅 채널 | DSP + 검색(검색, 소셜 및 Commerce) | DSP + 검색(검색, 소셜 및 Commerce) | Adobe Advertising 클릭스루 EF ID(예: Organic Search, Organic Social, Email 및 Affiliate)로 추적되지 않는 마케팅 채널 |
+| | (채널 유형, Creative/Ad, 키워드, 경로, 길이, 전환 시간) | (CTV 전술, CTV 앱/게시자) | (Adobe Advertising 및 기타 마케팅 채널) |
+| 마케팅 채널 | DSP + 검색(검색, 소셜 및 Commerce) | DSP + 검색(검색, 소셜 및 Commerce) | Adobe Advertising 클릭스루 EF ID로 추적되지 않는 마케팅 채널(예: 유기 검색, 유기 소셜, 이메일 및 제휴) |
 | 지원되는 전환 지표 | Adobe Advertising 이벤트 픽셀(AMO ID) 및 Adobe Analytics 추적을 사용하여 추적된 지표 | 클릭 수(전환 없음) | Adobe Analytics 추적을 사용하여 추적된 지표 |
 
 검색 보고에 대한 Advanced Measurement Services Halo 효과에 대한 자세한 내용은 &quot;[고급 측정 서비스](/help/dsp/introduction/advanced-measurement-services.md)&quot;를 참조하십시오.

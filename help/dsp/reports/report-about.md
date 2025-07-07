@@ -3,9 +3,9 @@ title: 사용자 정의 보고서 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 49e254ca954389b1ea13ac571de55f404ed7ba7c
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Household Conversions]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 뷰스루 전환을 볼 수 있습니다. 이 인사이트를 사용하여 캠페인 성과를 측정하고 최적화할 수 있습니다. 자세한 내용은 &quot;[가구 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
 
-   * **[!UICONTROL Path to Conversion Beta]:**(Beta 기능) 이 보고서를 사용하여 성과가 가장 좋은 광고 상호 작용 시퀀스를 기반으로 예산을 최적화하고 광고를 개인화하는 방법을 확인하십시오. 이 보고서는 지정된 데이터 범위에서 선택한 각 전환 지표를 유도하는 동일한 가구의 상호 작용 포인트 시퀀스를 보여 줍니다. 보고서는 첫 번째 상호 작용과 전환 사이에 지정된 전환 확인 기간을 사용하며 다음 차원 하나를 포함할 수 있습니다.
+   * **[!UICONTROL Path to Conversion]:** 이 보고서를 사용하여 성과가 가장 좋은 광고 상호 작용 시퀀스를 기반으로 예산을 최적화하고 광고를 개인화하는 방법을 확인하십시오. 이 보고서는 지정된 데이터 범위에서 선택한 각 전환 지표를 유도하는 동일한 가구의 상호 작용 포인트 시퀀스를 보여 줍니다. 보고서는 첫 번째 상호 작용과 전환 사이에 지정된 전환 확인 기간을 사용하며 다음 차원 하나를 포함할 수 있습니다.
 
       * [!UICONTROL Channel Assist Type]: [!UICONTROL Audio Impression], [!UICONTROL CTV Impression], [!UICONTROL Display Click], [!UICONTROL Display Impression], [!UICONTROL Native Click], [!UICONTROL Native Impression], [!UICONTROL Search Click], [!UICONTROL Video Click] 또는 [!UICONTROL Video Impression] 마케팅 채널이 전환 프로세스를 어떻게 지원했는지 표시합니다.
 
@@ -97,17 +97,17 @@ ht-degree: 0%
 
      이 보고서를 [!DNL Advanced Measurement Services] 및 Adobe 분석에서 만든 보고서와 비교하려면 &quot;[사용자 지정 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오.
 
-   * **[!UICONTROL Path Length Beta]:**(Beta 기능) 이 보고서를 사용하여      최적의 광고 빈도를 선택할 수 있도록 시간 경과에 따른 전환에 필요한 사용자 상호 작용 지점 수를 추적합니다. 이 보고서는 사용자가 광고 상호 작용을 한 번, 광고 상호 작용을 두 번 한 후 발생한 전환 수와 같이 경로 길이(상호 작용 지점)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다.
+   * **[!UICONTROL Path Length]:** 이 보고서를 사용하여 다음을 수행할 수 있습니다.      최적의 광고 빈도를 선택할 수 있도록 시간 경과에 따른 전환에 필요한 사용자 상호 작용 지점 수를 추적합니다. 이 보고서는 사용자가 광고 상호 작용을 한 번, 광고 상호 작용을 두 번 한 후 발생한 전환 수와 같이 경로 길이(상호 작용 지점)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다.
 
      데이터는 최대 10의 각 경로 길이에 대해 표시되며, 10보다 큰 경로 길이에 대한 데이터는 함께 그룹화됩니다.
 
-   * **[!UICONTROL Time to Conversion Beta]:**(Beta 기능) 이 보고서를 사용하여 최적의 속성 전환 확인 기간을 결정하고 전환 시간이 더 긴 캠페인을 식별하십시오. 전환 시간이 더 길어질 수 있으며, 이는 재타겟팅의 이점을 얻을 수 있습니다. 이 보고서는 마지막 상호 작용(광고 노출 또는 클릭)에서 전환까지의 시간(일)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다. 전환 확인 기간보다 오래 걸리는 전환은 한 행으로 그룹화됩니다(예: 보고서에서 30일 전환 확인 기간을 사용하는 경우, 발생하는 데 30일 이상 걸리는 모든 전환은 &quot;[!UICONTROL Time Taken (in days)]&quot; 값이 &quot;30+&quot;인 행으로 그룹화됨).
+   * **[!UICONTROL Time to Conversion]:** 이 보고서를 사용하여 최적의 속성 전환 확인 기간을 결정하고 전환 시간이 더 긴 캠페인을 식별하십시오. 전환 시간이 더 길어질 수 있으며, 이는 재타겟팅의 이점을 얻을 수 있습니다. 이 보고서는 마지막 상호 작용(광고 노출 또는 클릭)에서 전환까지의 시간(일)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다. 전환 확인 기간보다 오래 걸리는 전환은 한 행으로 그룹화됩니다(예: 보고서에서 30일 전환 확인 기간을 사용하는 경우, 발생하는 데 30일 이상 걸리는 모든 전환은 &quot;[!UICONTROL Time Taken (in days)]&quot; 값이 &quot;30+&quot;인 행으로 그룹화됨).
 
 ## 교차 계정 보고 {#cross-account-reporting}
 
 여러 DSP 계정이 있는 조직은 조직의 필요에 따라 선택적으로 사용자 지정 보고서에서 교차 계정 데이터를 활성화할 수 있습니다. 예를 들어 계정 A에게 계정 B의 데이터에 대한 액세스 권한을 부여하고 계정 B에게 계정 C의 (계정 A의 데이터는 아님) 데이터에 대한 액세스 권한을 부여할 수 있습니다. 이 기능을 활성화하고 구성하려면 Adobe 계정 팀에 문의하십시오.
 
-조직에 대해 기능이 활성화되면 [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] 및 [!UICONTROL Conversion] 보고서 유형을 계정별로 [필터링](report-settings.md)할 수 있습니다.
+조직에 대해 기능이 활성화되면 [, ](report-settings.md), [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo] 및 [!UICONTROL Device] 보고서 유형을 계정별로 [!UICONTROL Frequency (by Impression)]필터링[!UICONTROL Conversion]할 수 있습니다.
 
 [!UICONTROL Settings] > [!UICONTROL Account]의 계정 설정은 a) 계정에 데이터를 사용할 수 있는 다른 계정과 b) 계정의 데이터에 액세스할 수 있는 다른 계정을 나타냅니다.
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ready to download]:**(반복 보고서만 해당) 하나 이상의 보고서 인스턴스를 다운로드할 수 있으며 더 많은 보고서 인스턴스가 예약되어 있습니다.
 
-* **[!UICONTROL Failed]:** 보고서 작업이 실패했습니다. 보고서 견인에 대해 개별 보고서 인스턴스가 실패한 이유를 보려면 [!UICONTROL Download] 옆에 있는 ![아래쪽 화살표](/help/dsp/assets/chevron-down.png "아래쪽 화살표")를 클릭하십시오. 실패한 보고서 작업은 오류 아이콘(![오류 표시기](/help/dsp/assets/indicator-critical.png "오류 표시기"))으로 표시됩니다. 오류 설명을 보려면 커서를 오류 아이콘 위에 놓습니다.
+* **[!UICONTROL Failed]:** 보고서 작업이 실패했습니다. 보고서 견인에 대해 개별 보고서 인스턴스가 실패한 이유를 보려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png "아래쪽 화살표")아래쪽 화살표[!UICONTROL Download]를 클릭하십시오. 실패한 보고서 작업은 오류 아이콘(![오류 표시기](/help/dsp/assets/indicator-critical.png "오류 표시기"))으로 표시됩니다. 오류 설명을 보려면 커서를 오류 아이콘 위에 놓습니다.
 
 * **[!UICONTROL Completed]:** 반복되지 않는 보고서의 경우 보고서가 완료됩니다. 반복 보고서의 경우 모든 보고서 인스턴스가 완료되었습니다. 지난 4개월 동안 완료된 모든 보고서를 다운로드할 수 있습니다.
 
