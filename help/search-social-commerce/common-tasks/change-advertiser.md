@@ -3,19 +3,13 @@ title: 다른 광고주에 대한 데이터 보기
 description: 다른 광고주에 대한 데이터를 보는 방법에 대해 알아봅니다.
 exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
 feature: Search Common Tasks
-source-git-commit: 1b1b449798d8e1eb610012378228aaf539a77dc7
+source-git-commit: 6487410267dcb17ee02320eed62c7744adbce1fb
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-&#x200B;---
-제목: 다른 광고주에 대한 데이터 보기
-description: 다른 광고주의 데이터를 보는 방법을 알아봅니다.
-exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
-기능: 일반 작업 검색
----
 # 다른 광고주에 대한 데이터 보기
 
 *여러 광고주 계정만 관리하는 사용자*
