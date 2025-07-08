@@ -3,7 +3,7 @@ title: 기본 및 사용자 지정 보기 관리
 description: 기본 보기 및 사용자 지정 보기를 맞춤화하는 방법에 대해 알아봅니다.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: ac434e2c9f049830b0fbe6941a268ca7def9b4bf
+source-git-commit: c5faf88a5240a7ec05dab3f06d0c4e466fd17164
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -162,7 +162,7 @@ ht-degree: 0%
 
    1. 필요에 따라 탭([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] 및 [!UICONTROL From Others])을 클릭하여 보기를 찾습니다.
 
-   1. 보기 이름 위에 커서를 놓고 ![되돌리기](/help/search-social-commerce/assets/revert-new.jpg)를 클릭합니다.
+   1. 보기 이름 위에 커서를 놓고 ![되돌리기](/help/search-social-commerce/assets/revert-new.png)를 클릭합니다.
 
 * 기존 캠페인 관리 보기에서 다음을 수행합니다.
 
