@@ -3,9 +3,9 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -56,3 +56,4 @@ ht-degree: 0%
 >
 >* [로그인](sign-in.md)
 >* [로그아웃](sign-out.md)
+>* [새 UI와 레거시 UI 간 전환](ui-switch.md)
