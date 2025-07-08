@@ -31,7 +31,7 @@ ht-degree: 0%
 
 사용자 지정 목표를 만들려면 [!DNL Search, Social, & Commerce] 클라이언트 설정 내에서 DSP 계정이 동일한 Adobe Experience Cloud 조직 ID를 가진 [!DNL Search, Social, & Commerce] 계정에 연결되어 있어야 합니다. DSP 계정이 [!DNL Search, Social, & Commerce] 계정에 연결되어 있지 않으면 Adobe 계정 팀에 문의하십시오.
 
-1. (북미 사용자) [!DNL Advertising Search, Social, & Commerce][`https://enterprise-na.efrontier.com` 또는 (다른 모든 사용자) ](https://enterprise-na.efrontier.com)[`https://enterprise-intl.efrontier.com`에서 ](https://enterprise-intl.efrontier.com)에 로그인합니다.
+1. (북미 사용자) [!DNL Advertising Search, Social, & Commerce][`https://enterprise-na.efrontier.com` 또는 (다른 모든 사용자) ](https://enterprise-na.efrontier.com) [`https://enterprise-intl.efrontier.com`에서 ](https://enterprise-intl.efrontier.com)에 로그인합니다.
 
 1. 목표에 포함할 지표가 추적되고 제품에서 사용할 수 있는지 확인하고 표시 이름을 포함하십시오.
 
