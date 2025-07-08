@@ -10,9 +10,7 @@ ht-degree: 0%
 
 ---
 
-# 여러 행 선택
-i
-관리 보기의 새 사용자 인터페이스와 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] 및 [!UICONTROL Optimization] > [!UICONTROL Constraints]의 레거시 UI에서 여러 행을 선택할 수 있습니다.
+# 여러 행 선택i관리 보기의 새 사용자 인터페이스와 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] 및 [!UICONTROL Optimization] > [!UICONTROL Constraints]의 레거시 UI에서 여러 행을 선택할 수 있습니다.
 
 * 키보드 단축키:
 
