@@ -1,9 +1,9 @@
 ---
 title: 속성 규칙 계산 방법
-description: Adobe Advertising이 각 속성 규칙 유형을 계산하는 방법을 알아봅니다.
+description: Adobe Advertising에서 각 유형의 속성 규칙을 계산하는 방법을 알아봅니다.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
 workflow-type: tm+mt
 source-wordcount: '2716'
 ht-degree: 0%
@@ -23,9 +23,9 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 속성 규칙은 모든 채널에서 유료 광고를 클릭하고 디스플레이 및 소셜 광고의 노출에 적용됩니다. 이벤트 수준에서 추적할 수 없는 유료 검색 광고의 노출에는 적용되지 않습니다.
->* Adobe Advertising은 전환 전에 항상 각 웹 서퍼에 대해 다음 이벤트를 저장합니다. a) 첫 번째 유료 클릭, b) 첫 번째 클릭을 포함하여 각 채널(검색, 소셜 또는 디스플레이)에 대해 최대 10개의 클릭, c) 최대 10개의 디스플레이 노출. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+>* Adobe Advertising은 전환 전에 각 웹 서퍼에 대해 항상 다음 이벤트를 저장합니다. a) 첫 번째 유료 클릭, b) 첫 번째 클릭을 포함하여 각 채널(검색, 소셜 또는 디스플레이)에 대해 최대 10개의 클릭, c) 최대 10개의 디스플레이 노출.<!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 >* Advertising DSP 및 Advertising Creative에서 장치 간 정의는 선택한 속성 규칙의 이벤트 경로만 고려합니다.<!-- cross-device attribution via LiveRamp only -->
->* 보고서 및 관리 보기에서 값에 대해 표시되는 소수점 이하 자리 수는 통화에 따라 다르지만 Adobe Advertising에 더 정확한 값이 저장됩니다.
+>* 보고서 및 관리 보기에서 값에 대해 표시되는 소수점 이하 자리 수는 통화에 따라 다르지만 Adobe Advertising은 보다 정확한 값을 저장합니다.
 
 ## 마지막 이벤트(기본값)
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 광고주의 [클릭 전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 내의 일련의 첫 번째 유료 클릭으로, 또는 유료 클릭이 발생하지 않은 경우 광고주의 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내의 첫 번째 노출로 전환을 지정합니다. 이 규칙은 단일 장치의 이벤트에만 사용할 수 있습니다.
 
-노출 횟수로만 전환되는 경우 전환은 광고주의 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv)에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 *뷰스루*&#x200B;로 간주됩니다.
+노출 횟수로만 전환되는 경우 전환은 광고주의 *뷰스루 가중치 설정*&#x200B;에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 [뷰스루](/help/search-social-commerce/glossary.md#uv)로 간주됩니다.
 
 ![첫 번째 이벤트 속성 백분율](/help/search-social-commerce/assets/attribution-percent-first-event.png "첫 번째 이벤트 속성 백분율")
 
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 일련의 모든 이벤트에 대한 전환을 특성화하지만 첫 번째 이벤트에 가장 많은 가중치를 제공하고 다음 이벤트에 순차적으로 더 적은 가중치를 제공합니다.이 규칙은 단일 장치의 이벤트에만 사용할 수 있습니다.
 
-노출 횟수로만 전환되는 경우 전환은 광고주의 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv)에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 *뷰스루*&#x200B;로 간주됩니다.
+노출 횟수로만 전환되는 경우 전환은 광고주의 *뷰스루 가중치 설정*&#x200B;에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 [뷰스루](/help/search-social-commerce/glossary.md#uv)로 간주됩니다.
 
 전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe Advertising 제품에 의해 다르게 처리됩니다.
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
 속성: 노출 1 = 8 USD, 클릭 1 = 72 USD, 노출 2 = 4 USD, 클릭 2 = 36 USD (총 120 USD)
 
-#### (DSP만 해당) 노출 무시 가중치 사용 또는 (검색, 소셜 및 Commerce만 해당) 0%의 &quot;노출 무시 가중치&quot; 사용
+#### (DSP만 해당) 노출 무시 가중치 없음 또는 (검색, 소셜 및 Commerce만 해당) 0%의 &quot;노출 무시 가중치&quot;를 사용합니다.
 
 이벤트 시리즈에는 노출과 클릭이 모두 포함되므로 노출은 무시됩니다.
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 
 광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 일련의 각 이벤트에 대해 동일하게 전환을 특성화합니다.
 
-노출 횟수로만 전환되는 경우 전환은 광고주의 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv)에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 *뷰스루*&#x200B;로 간주됩니다.
+노출 횟수로만 전환되는 경우 전환은 광고주의 *뷰스루 가중치 설정*&#x200B;에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 [뷰스루](/help/search-social-commerce/glossary.md#uv)로 간주됩니다.
 
 전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe Advertising 제품에 의해 다르게 처리됩니다.
 
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 속성: 노출 1 = 6 USD, 클릭 1 = 54 USD, 노출 2 = 6 USD, 클릭 2 = 54 USD (총 120 USD)
 
-#### 노출 무시 가중치 없음(Adobe Advertising DSP 전용) 또는 0%의 &quot;노출 무시 가중치&quot;(검색, 소셜 및 Commerce 전용)를 사용합니다.
+#### (Adobe Advertising DSP만 해당) 노출 무시 가중치 없음 또는 (검색, 소셜 및 Commerce만 해당) 0%의 &quot;노출 무시 가중치&quot;를 사용합니다.
 
 이벤트 시리즈에는 노출과 클릭이 모두 포함되므로 노출은 무시됩니다.
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 일련의 모든 이벤트에 대한 전환을 특성화하지만 마지막 이벤트에 가장 많은 가중치를 제공하고 이전 이벤트에 순차적으로 더 적은 가중치를 제공합니다.
 
-노출 횟수로만 전환되는 경우 전환은 광고주의 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv)에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 *뷰스루*&#x200B;로 간주됩니다.
+노출 횟수로만 전환되는 경우 전환은 광고주의 *뷰스루 가중치 설정*&#x200B;에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 [뷰스루](/help/search-social-commerce/glossary.md#uv)로 간주됩니다.
 
 전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe Advertising 제품에 의해 다르게 처리됩니다.
 
@@ -270,7 +270,7 @@ ht-degree: 0%
 
 속성: 노출 1 = 4 USD, 클릭 1 = 36 USD, 노출 2 = 8 USD, 클릭 2 = 72 USD (총 120 USD)
 
-#### (DSP만 해당) 노출 무시 가중치 사용 또는 (검색, 소셜 및 Commerce만 해당) 0%의 &quot;노출 무시 가중치&quot; 사용
+#### (DSP만 해당) 노출 무시 가중치 없음 또는 (검색, 소셜 및 Commerce만 해당) 0%의 &quot;노출 무시 가중치&quot;를 사용합니다.
 
 이벤트 시리즈에는 노출과 클릭이 모두 포함되므로 노출은 무시됩니다.
 
@@ -296,7 +296,7 @@ ht-degree: 0%
 
 광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 일련의 모든 이벤트에 대한 전환을 특성화하지만 첫 번째 이벤트와 마지막 이벤트에 가장 많은 가중치를 부여하며 전환 경로 중간에 있는 이벤트에는 순차적으로 더 적은 가중치를 제공합니다.
 
-노출 횟수로만 전환되는 경우 전환은 광고주의 [뷰스루 가중치 설정](/help/search-social-commerce/glossary.md#uv)에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 *뷰스루*&#x200B;로 간주됩니다.
+노출 횟수로만 전환되는 경우 전환은 광고주의 *뷰스루 가중치 설정*&#x200B;에 따라 가중치가 적용되거나 보고서, 보기 또는 사용자 지정 시뮬레이션 매개 변수에 지정된 뷰스루 평가 방법에 따라 가중치가 적용되는 [뷰스루](/help/search-social-commerce/glossary.md#uv)로 간주됩니다.
 
 전환 경로에 유료 클릭과 노출이 모두 포함되어 있는 경우 노출은 다른 Adobe Advertising 제품에 의해 다르게 처리됩니다.
 
@@ -328,7 +328,7 @@ ht-degree: 0%
 
 속성: 노출 1 = 6 USD, 클릭 1 = 54 USD, 노출 2 = 6 USD, 클릭 2 = 54 USD (총 120 USD)
 
-#### 노출 무시 가중치 없음(DSP만) 또는 &quot;노출 무시 가중치&quot; 0% 사용(검색, 소셜 및 Commerce만)
+#### 노출 무시 가중치 없음(DSP만 해당) 또는 &quot;노출 무시 가중치&quot; 0% 사용(검색, 소셜 및 Commerce만 해당)
 
 이벤트 시리즈에는 노출과 클릭이 모두 포함되므로 노출은 무시됩니다.
 
