@@ -3,7 +3,7 @@ title: 기본 및 사용자 지정 보기 관리
 description: 기본 보기 및 사용자 지정 보기를 맞춤화하는 방법에 대해 알아봅니다.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: c5faf88a5240a7ec05dab3f06d0c4e466fd17164
+source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
    >
    >탭과 탭이 적용되는 정보(예: &quot;일시 중지된 캠페인&quot; 또는 &quot;상위 50개 광고&quot;)를 식별하는 데 도움이 되는 이름을 사용합니다.
 
-## 기본 또는 사용자 지정 보기 편집
+## 기본 또는 사용자 지정 보기 편집 {#view-edit}
 
 ### (새 UI) 기본 또는 사용자 지정 보기 편집
 
@@ -132,7 +132,7 @@ ht-degree: 0%
 
    * 새 사용자 지정 보기에 설정을 저장하려면 **[!UICONTROL Save As]**&#x200B;을(를) 클릭합니다. [!UICONTROL Enter New Custom View Name] 창에서 새 보기의 이름을 입력한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-## (새 UI) 기본 또는 사용자 정의 보기 복제
+## (새 UI) 기본 또는 사용자 정의 보기 복제 {#view-clone}
 
 *[!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] 및 [!UICONTROL Ad Groups] 보기에서 사용 가능*
 
