@@ -3,7 +3,7 @@ title: '[!UICONTROL Change History] 보고서 보기'
 description: 광고주 계정의 최근 변경 사항을 보는 방법에 대해 알아봅니다.
 exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 모든 열을 기준으로 데이터를 정렬하고 필터링할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Change History]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Change History]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 다음 방법 중 하나로 보고서에 포함된 데이터를 변경합니다.
 

@@ -3,7 +3,7 @@ title: 알림 보기
 description: 알림을 보는 다양한 방법에 대해 알아봅니다.
 exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta 기능*
 
-계정 인증 오류, 트리거된 사용자 지정 경고 및 생성된 [!UICONTROL Advertising Insights]에 대한 [알림을 구독](notification-edit.md)할 때 [!UICONTROL Notifications] 패널 또는 [!UICONTROL Notification Center]에서 알림을 볼 수 있습니다.
+계정 인증 오류, 트리거된 사용자 지정 경고 및 생성된 [에 대한 ](notification-edit.md)알림을 구독[!UICONTROL Advertising Insights]할 때 [!UICONTROL Notifications] 패널 또는 [!UICONTROL Notification Center]에서 알림을 볼 수 있습니다.
 
 ## [!UICONTROL Notifications] 패널 내에서 알림 보기
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Notification Center] 내의 알림 보기
 
-1. (검색, 소셜 및 Commerce 내에서) 기본 메뉴에서 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**&#x200B;을(를) 클릭합니다.
+1. (검색, 소셜 및 Commerce 내에서) 기본 메뉴에서 **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 유형별로 알림을 필터링하려면 *[!UICONTROL Notices], [!UICONTROL Recommendations], [!UICONTROL Warnings] 또는[!UICONTROL Issues]*&#x200B;을(를) 클릭합니다.
 

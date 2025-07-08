@@ -3,7 +3,7 @@ title: 알림 설정 편집
 description: 알림에 대한 설정을 편집하는 방법을 알아봅니다.
 exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * 페이지의 오른쪽 상단에서 ![알림](/help/search-social-commerce/assets/notifications-panel.png "알림")을 클릭하여 [!UICONTROL Notifications] 패널을 엽니다. 오른쪽 상단에서 ![설정](/help/search-social-commerce/assets/settings-nc.png "설정")을(를) 클릭합니다.
 
-   * 메인 메뉴에서 **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**&#x200B;을(를) 클릭합니다. 왼쪽 메뉴에서 ![설정](/help/search-social-commerce/assets/settings-nc.png "설정")을 클릭합니다.
+   * 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**&#x200B;을(를) 클릭합니다. 왼쪽 메뉴에서 ![설정](/help/search-social-commerce/assets/settings-nc.png "설정")을 클릭합니다.
 
 1. [알림 범주](notification-about.md)에 대한 설정 변경:
 

@@ -3,7 +3,7 @@ title: 기본 및 사용자 지정 보기 관리
 description: 기본 보기 및 사용자 지정 보기를 맞춤화하는 방법에 대해 알아봅니다.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '2917'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### (기존 UI) 캠페인 관리 보기에 기본 또는 사용자 지정 보기를 적용합니다
 
-* (기본 보기) 기본 메뉴에서 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]** \> **\[entity type\]**&#x200B;을(를) 클릭합니다.
+* (기본 보기) 기본 메뉴에서 **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]** \> **\[entity type\]**&#x200B;을(를) 클릭합니다.
 
 * (사용자 정의 보기) 왼쪽 탐색 패널에서 다음을 수행합니다.
 
@@ -52,6 +52,17 @@ ht-degree: 0%
 
 <!--
 ## (New UI) Create a custom view from management views
+
+*Available in the [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns], and [!UICONTROL Ad Groups] views*
+
+Custom views are specific to a single view (such as the [!UICONTROL Portfolios] view).
+
+1. Above the data table, click the name of the currently-applied view (![View](/help/search-social-commerce/assets/view.png "View")).
+
+2. Click **[!UICONTROL Create View]**.
+
+
+
 -->
 
 ## (기존 UI) 캠페인 관리 보기에서 사용자 정의 보기를 만듭니다

@@ -3,7 +3,7 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 메인 메뉴
 
-* **[!UICONTROL Search]** — Search, Social 및 Commerce에서 추적 중이지만 입찰이 아닌 계정을 포함하여 Search, Social 및 Commerce 내에서 광고 네트워크 계정을 관리합니다.
+* **[!UICONTROL Search, Social, & Commerce]** \> — Search, Social, &amp; Commerce에서 추적 중이지만 입찰하지 않는 계정을 포함하여 Search, Social, &amp; Commerce 내에서 광고 네트워크 계정을 관리합니다.
 
 ## [!UICONTROL Search]개 메뉴
 

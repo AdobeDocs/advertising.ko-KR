@@ -3,7 +3,7 @@ title: 광고 네트워크 계정 관리
 description: 광고 네트워크 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법을 알아봅니다.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 >* 새 [!DNL Baidu] 계정에 대한 지원을 사용할 수 없습니다.
 >* 광고 네트워크에서 실제 계정을 만들려면 광고 네트워크의 웹 사이트로 이동합니다.
 
-1. 주 메뉴에서 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
       1. 계정의 **[!UICONTROL Login]** 값을 입력하고 암호를 선택적으로 입력한 다음 **[!UICONTROL Authenticate]**&#x200B;을(를) 클릭합니다.
 
-         가장 좋은 방법은 계정에 대한 API 액세스에 로그인을 사용하는 것입니다. 암호화하고 저장할 때 Adobe 계정 팀이 필요에 따라 토큰을 새로 고칠 수 있도록 암호를 입력합니다.
+         가장 좋은 방법은 계정에 대한 API 액세스에 로그인을 사용하는 것입니다. 암호화하고 저장할 때 암호를 입력하여 Adobe 계정 팀이 필요에 따라 토큰을 새로 고칠 수 있도록 합니다.
 
       1. (광고주의 계정에 로그인하지 않은 경우) 광고주의 광고 계정에 로그인합니다. 가장 좋은 방법은 계정에 대한 API 액세스에 자격 증명을 사용하는 것입니다.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 >
 >광고 네트워크에서 실제 계정을 편집하려면 광고 네트워크의 웹 사이트로 이동합니다.
 
-1. 주 메뉴에서 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. 계정 이름 위에 커서를 놓고 ![자세히](/help/search-social-commerce/assets/more-filters.png "자세히")를 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 
@@ -99,7 +99,7 @@ Search, Social 및 Commerce이 [OAuth 인증 프로토콜](https://oauth.net/2/)
 
 1. (동일한 브라우저 애플리케이션에서 동일한 광고 네트워크의 다른 계정에 로그인한 경우) 광고주의 계정이 아닌 다른 계정에서 로그아웃합니다.
 
-1. 주 메뉴에서 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. 계정 이름 위에 커서를 놓고 ![자세히](/help/search-social-commerce/assets/more-filters.png "자세히")를 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
 
@@ -121,7 +121,7 @@ Search, Social 및 Commerce이 [OAuth 인증 프로토콜](https://oauth.net/2/)
 
 광고 네트워크 계정을 활성화하면 Search, Social 및 Commerce이 캠페인 데이터를 계정과 동기화하고(지원되는 경우) 포트폴리오의 캠페인에 대한 자동화된 입찰 및/또는 캠페인 예산을 푸시합니다.광고 네트워크 계정을 비활성화하면 Search, Social 및 Commerce이 계정에서 모든 활동을 중지합니다. 계정이 활성화된 동안 수집된 데이터는 여전히 저장되지만 캠페인 관리 보기 및 보고서에는 계정이 비활성화된 기간에 대한 데이터가 포함되지 않습니다. 나중에 계정을 다시 활성화하여 계정으로 활동을 재개할 수 있습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
@@ -147,7 +147,7 @@ Search, Social 및 Commerce이 [OAuth 인증 프로토콜](https://oauth.net/2/)
 
 >[!NOTE]
 >
->광고 네트워크 관리자 계정은 여기에서 지원되지 않습니다. [!DNL Microsoft Advertising] 또는 [!DNL Yandex]에 대한 관리자 계정을 식별하려면 각각 기본 계정 ID 또는 MCC 계정 필드를 사용하십시오. [관리자 계정  [!DNL Google Ads] 의 자격 증명을 설정하려면[!UICONTROL Admin] \> [!UICONTROL Manager Accounts] (으)로 이동하십시오.](/help/search-social-commerce/admin/manager-accounts.md)
+>광고 네트워크 관리자 계정은 여기에서 지원되지 않습니다. [!DNL Microsoft Advertising] 또는 [!DNL Yandex]에 대한 관리자 계정을 식별하려면 각각 기본 계정 ID 또는 MCC 계정 필드를 사용하십시오. [관리자 계정  [!DNL Google Ads] 의 자격 증명을 설정하려면](/help/search-social-commerce/admin/manager-accounts.md) \> [!UICONTROL Admin]&#x200B;(으)로 이동하십시오.[!UICONTROL Manager Accounts]
 
 **[!UICONTROL Account Name]:** Search, Social 및 Commerce 내에서 계정에 대해 표시될 이름입니다.
 
@@ -177,7 +177,7 @@ Search, Social 및 Commerce이 [OAuth 인증 프로토콜](https://oauth.net/2/)
 
 예: `param1=value1&param2=value2`
 
-Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 네트워크의 클릭 식별자([!DNL Microsoft Advertising]의 경우 `msclkid`, Google의 경우 `gclid`)를 포함해야 합니다. Adobe Analytics 통합이 있는 계정은 AMO ID 매개 변수(`s_kwcid`(으)로 시작)를 사용해야 합니다. 계정에 서버측 AMO ID 구현이 있는 경우 사용자가 광고를 클릭하면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 여기에 매개 변수를 수동으로 추가해야 합니다. [다음에 필요한 접미사 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [다음에 필요한 접미사 형식 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)을(를) 참조하십시오.
+Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 네트워크의 클릭 식별자(`msclkid`의 경우 [!DNL Microsoft Advertising], Google의 경우 `gclid`)를 포함해야 합니다. Adobe Analytics 통합이 있는 계정은 AMO ID 매개 변수(`s_kwcid`(으)로 시작)를 사용해야 합니다. 계정에 서버측 AMO ID 구현이 있는 경우 사용자가 광고를 클릭하면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 여기에 매개 변수를 수동으로 추가해야 합니다. [다음에 필요한 접미사 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [다음에 필요한 접미사 형식 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)을(를) 참조하십시오.
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 
 * 최종 URL을 포함하려면 다음을 수행하십시오.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 ](https://help.ads.microsoft.com/#apex/3/en/56799) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
    * ([!DNL Yahoo! Japan Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 
@@ -249,17 +249,17 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S_kwcid 형식:**(기존 [!DNL Google Ads]은(는) Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주용 계정이며 AMO ID(s_kwcid)가 이미 마이그레이션되지 않았습니다.)
+* **S_kwcid 형식:**(기존 [!DNL Google Ads] 계정은 Adobe Advertising-Adobe Analytics 통합을 사용하며 AMO ID(s_kwcid)가 이미 마이그레이션되지 않은 광고주용 계정)
 
 이 계정은 AMO ID 추적 코드에 대해 이전 형식을 사용하므로 Adobe Advertising이 Adobe Analytics과 계정에 대한 데이터를 공유할 수 있습니다. [최신 형식](/help/integrations/analytics/ids.md#amo-id-formats)에는 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수가 포함되어 있습니다. 이 매개 변수는 Analytics의 [!DNL Google Ads] 성과 최대 캠페인 및 초안과 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요합니다.
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-이 계정이 캠페인 및 광고 그룹 수준에서 보고해야 하는 경우 [!UICONTROL Edit] (연필) 아이콘을 클릭한 다음 **[!UICONTROL Migrate to new s_kwcid format]**&#x200B;을(를) 클릭하여 새 형식으로 변경합니다. 이러한 캠페인 유형을 포함하지 않는 계정의 경우, 새로운 포맷으로의 마이그레이션은 선택 사항이지만 권장됩니다.
+이 계정이 캠페인 및 광고 그룹 수준에서 보고해야 하는 경우 [!UICONTROL Edit]&#x200B;(연필) 아이콘을 클릭한 다음 **[!UICONTROL Migrate to new s_kwcid format]**&#x200B;을(를) 클릭하여 새 형식으로 변경합니다. 이러한 캠페인 유형을 포함하지 않는 계정의 경우, 새로운 포맷으로의 마이그레이션은 선택 사항이지만 권장됩니다.
 
 전체 지침은 &quot;[계정 [!DNL Google Ads] 의 AMO ID 추적 코드 업데이트](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)&quot;를 참조하십시오.
 
-**보고서 세트 이름:**(토큰만 사용하는 EF 리디렉션, Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주, 선택 사항) Search, Social 및 Commerce이 엔터티 분류 및 계정에 대한 클릭 데이터를 포함하여 광고 네트워크에서 수집하는 데이터를 전송하는 하나 이상의 Analytics 보고서 세트입니다. 이 기능은 지원되는 광고 네트워크에서만 사용할 수 있습니다.
+**보고서 세트 이름:**(토큰만 사용하는 EF 리디렉션, Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주, 선택 사항) 검색, 소셜 및 Commerce에서 엔티티 분류 및 계정에 대한 클릭 데이터를 포함하여 광고 네트워크에서 수집하는 데이터를 전송하는 하나 이상의 Analytics 보고서 세트입니다. 이 기능은 지원되는 광고 네트워크에서만 사용할 수 있습니다.
 
 데이터를 보고서 세트에 표시하려면 (a) 계정에 대해 서버측 AMO ID 기능을 구성해야 하거나 (b) &quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot;에 대한 광고주 수준 설정을 활성화해야 합니다. 또한 광고주의 Analytics 계정이 검색, 소셜 및 Commerce에서 데이터를 수신하도록 구성되어 있어야 합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 

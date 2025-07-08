@@ -3,7 +3,7 @@ title: 판매자 계정 관리
 description: 머천트 센터 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법에 대해 알아봅니다.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Search, Social 및 Commerce은 광고주의 Google 판매자 센터 또는 Micro
 >
 >판매자 네트워크에 실제 계정을 만들려면 해당 네트워크의 웹 사이트로 이동합니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Accounts] 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Accounts] 탭이 열립니다.
 
 1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Create Account]**&#x200B;을(를) 클릭합니다.
 
@@ -92,7 +92,7 @@ Search, Social 및 Commerce은 광고주의 Google 판매자 센터 또는 Micro
 
 판매자 계정을 비활성화하면 Search, Social 및 Commerce이 계정에 로그인하지 않으므로 업데이트된 제품 데이터를 검색하지 않습니다. 계정이 활성화된 동안 수집된 데이터는 여전히 저장되며, 제품 데이터를 사용하여 만든 기존 광고는 피드 템플릿 및 피드 데이터 설정에 따라 업데이트, 일시 중지 또는 삭제되지 않습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** 을(를) 클릭합니다. 그러면 [!UICONTROL Accounts] 탭이 열립니다.
+1. 주 메뉴에서 **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** 을(를) 클릭합니다. 그러면 [!UICONTROL Accounts] 탭이 열립니다.
 
 1. 계정 이름 옆에 있는 ![설정 보기/편집](/help/search-social-commerce/assets/settings.png "설정 보기/편집")을 클릭합니다.
 

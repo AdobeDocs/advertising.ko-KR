@@ -3,7 +3,7 @@ title: 사용자 정의 목표
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 패키지에서 성공 이벤트를 정의하는 사용자 정의 목표에 대해 알아봅니다.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 사용자 정의 목표
 
-사용자 지정 목표는 광고주가 비즈니스 목표를 달성하는 데 필요한 성공 이벤트를 정의합니다. 최적화 목표 &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot; 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;을(를) 사용하는 각 패키지에는 전체 최적화 목표를 달성하는 데 도움이 되도록 사용자 지정 목표가 포함되어야 합니다. 사용자 지정 목표를 [!DNL Advertising Search, Social, & Commerce]의 *목표*(으)로 만들 수 있습니다. DSP에 대한 각 목표의 이름 앞에는 &quot;ADSP_&quot;가 붙어야 합니다.
+사용자 지정 목표는 광고주가 비즈니스 목표를 달성하는 데 필요한 성공 이벤트를 정의합니다. 최적화 목표 &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot; 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;을(를) 사용하는 각 패키지에는 전체 최적화 목표를 달성하는 데 도움이 되도록 사용자 지정 목표가 포함되어야 합니다. 사용자 지정 목표를 *의*&#x200B;목표[!DNL Advertising Search, Social, & Commerce]&#x200B;(으)로 만들 수 있습니다. DSP에 대한 각 목표의 이름 앞에는 &quot;ADSP_&quot;가 붙어야 합니다.
 
 <!-- update image or omit it
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 사용자 지정 목표를 만들려면 [!DNL Search, Social, & Commerce] 클라이언트 설정 내에서 DSP 계정이 동일한 Adobe Experience Cloud 조직 ID를 가진 [!DNL Search, Social, & Commerce] 계정에 연결되어 있어야 합니다. DSP 계정이 [!DNL Search, Social, & Commerce] 계정에 연결되어 있지 않으면 Adobe 계정 팀에 문의하십시오.
 
-1. (북미 사용자) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) 또는 (다른 모든 사용자) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com)에서 [!DNL Advertising Search, Social, & Commerce]에 로그인합니다.
+1. (북미 사용자) [!DNL Advertising Search, Social, & Commerce][`https://enterprise-na.efrontier.com` 또는 (다른 모든 사용자) ](https://enterprise-na.efrontier.com)[`https://enterprise-intl.efrontier.com`에서 ](https://enterprise-intl.efrontier.com)에 로그인합니다.
 
 1. 목표에 포함할 지표가 추적되고 제품에서 사용할 수 있는지 확인하고 표시 이름을 포함하십시오.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. 사용자 지정 목표를 *목표*(으)로 만듭니다.
 
-   1. 메인 메뉴에서 **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]**&#x200B;을(를) 클릭합니다.
+   1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]**&#x200B;을(를) 클릭합니다.
 
    1. 도구 모음에서 ![만들기](/help/dsp/assets/create-search-ui.png "만들기")를 클릭합니다.
 
