@@ -3,7 +3,7 @@ title: 캠페인 관리 보기에서 데이터 사용자 정의 기본 정보
 description: Campaign 데이터 보기에서 사용자 지정할 수 있는 데이터 유형에 대해 알아봅니다.
 exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 42495874f93f3af2d6aaec19148d007062fd3b9b
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # 캠페인 관리 보기에서 데이터 사용자 정의 기본 정보
+
+<!-- Add info about new UI -->
 
 대부분의 캠페인 데이터 보기에서 데이터 테이블 내에 표시되는 데이터를 사용자 지정할 수 있습니다. 다음과 같은 방법으로 데이터를 사용자 지정할 수 있습니다.
 
