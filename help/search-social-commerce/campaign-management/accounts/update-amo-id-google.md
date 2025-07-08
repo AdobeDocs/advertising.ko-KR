@@ -70,4 +70,4 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >
 >* [광고 네트워크 계정 관리](ad-network-account-manage.md)
 >* [사용한 Adobe Advertising ID [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [개요 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [개요 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ko){target="_blank"}
