@@ -3,16 +3,18 @@ title: 트렌드 차트 표시 및 숨기기
 description: 일부 캠페인 관리 보기에서 데이터에 대한 추세 차트를 보고 숨기는 방법을 알아봅니다.
 exl-id: fa58b123-648f-4a95-86f0-3c38fa89cb28
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # 트렌드 차트 표시 및 숨기기
 
-[!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]-[!UICONTROL Keywords], [!UICONTROL Ads] 및 [!UICONTROL Product Groups] 보기에서 데이터의 추세 차트를 볼 수 있습니다.
+*기존 사용자 인터페이스만*
+
+[!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] 및 [!UICONTROL Product Groups] 보기에서 데이터의 추세 차트를 볼 수 있습니다.
 
 기본적으로 이 차트는 지정된 통화를 사용하는 계정에 대해 선택한 날짜 범위 동안의 클릭 수와 비용을 보여줍니다. 선택적으로 비교할 지표를 변경할 수 있으며, 여러 통화가 포함된 계정이 있는 경우 데이터를 포함할 통화를 변경할 수 있습니다.
 

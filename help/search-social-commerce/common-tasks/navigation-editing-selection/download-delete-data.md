@@ -3,7 +3,7 @@ title: '[!UICONTROL Downloads] 메뉴에서 성능 데이터 보고서 또는 �
 description: 캠페인 관리 보기를 다운로드한 보고서 또는 일괄 시트 파일을 삭제하는 방법을 알아봅니다.
 exl-id: cd1244da-ddb8-4ee1-8ebb-2df4e9924952
 feature: Search Common Tasks
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # [!UICONTROL Downloads] 메뉴에서 성능 데이터 보고서 또는 일괄 시트 파일 삭제
+
+<!-- Add info about new UI -->
 
 >[!NOTE]
 >

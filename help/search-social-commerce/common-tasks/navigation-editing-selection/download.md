@@ -3,7 +3,7 @@ title: 캠페인 관리 보기에서 데이터 다운로드
 description: 대부분의 캠페인 관리 보기에서 데이터를 다운로드하는 방법을 알아봅니다.
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -12,7 +12,9 @@ ht-degree: 0%
 
 # 캠페인 관리 보기에서 데이터 다운로드
 
-[!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences] 및 [!UICONTROL Extensions] 보기를 제외한 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기에서 데이터를 다운로드할 수 있습니다. 다음 중 하나를 다운로드할 수 있습니다.
+<!-- Add info about new UI -->
+
+[!UICONTROL Search, Social, & Commerce] - [!UICONTROL Campaigns], [!UICONTROL Campaigns] - [!UICONTROL Keywords], [!UICONTROL Keyword Negatives] 및 [!UICONTROL Placements] 보기를 제외한 [!UICONTROL Placement Negatives] > [!UICONTROL Audiences] > [!UICONTROL Extensions] 보기에서 데이터를 다운로드할 수 있습니다. 다음 중 하나를 다운로드할 수 있습니다.
 
 * [!DNL XLSM]&#x200B;(매크로가 활성화된 [!DNL Microsoft Excel] 스프레드시트) 형식의 보고서입니다. 뷰에서 특정 행을 선택하면 보고서에는 선택한 각 행에 대해 하나의 행이 포함됩니다. 행을 선택하지 않으면 보기의 각 행에 대해 하나의 행이 만들어집니다.
 
