@@ -3,16 +3,18 @@ title: 날짜 범위별로 데이터 필터링
 description: 글로벌 날짜 범위 필터를 사용하는 방법을 알아봅니다.
 exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # 날짜 범위별로 데이터 필터링
 
-특정 날짜 범위를 저장한 기본 및 사용자 지정 보기를 제외하고 모든 광고주에 걸쳐 있는 대부분의 캠페인 데이터 보기에 동일한 전역 날짜 범위 필터가 적용됩니다. 캠페인 관리 보기에 대한 시스템 기본 날짜 범위는 &quot;어제&quot;입니다.
+<!-- The same in new UI and legacy CM views -->
+
+특정 날짜 범위를 저장한 기본 및 사용자 지정 보기를 제외하고 모든 광고주에 걸쳐 있는 대부분의 데이터 보기에 동일한 전역 날짜 범위 필터가 적용됩니다. 캠페인 관리 보기에 대한 시스템 기본 날짜 범위는 &quot;어제&quot;입니다.
 
 날짜 범위 설정은 브라우저별 쿠키에 저장되므로, 필터를 변경하거나 쿠키를 삭제할 때까지 동일한 브라우저 애플리케이션을 사용하여 로그인할 때마다 날짜 범위 필터에 대한 모든 변경 사항이 모든 광고주에 대해 사용됩니다. 사용하는 각 브라우저 애플리케이션은 날짜 범위 필터 설정을 다른 쿠키에 저장합니다.
 
@@ -38,7 +40,7 @@ ht-degree: 0%
 
 1. (선택 사항) 지정된 날짜 범위의 데이터를 두 번째 날짜 범위의 데이터와 비교합니다.
 
-   1. **[!UICONTROL Comparison]** 슬라이더를 *[!UICONTROL On]*(으)로 이동합니다.
+   1. **[!UICONTROL Comparison]** 슬라이더를 &quot;켜짐&quot; 위치로 이동합니다.
 
       이 옵션을 선택하면 각 일반 데이터 열에 대해 두 개의 열이 더 추가됩니다. 예를 들어 테이블에 &quot;[!UICONTROL Impressions]&quot;에 대한 열을 하나만 포함하는 대신 &quot;[!UICONTROL Impressions R1]&quot;, &quot;[!UICONTROL Impressions R2]&quot; 및 &quot;[!UICONTROL Impressions Diff]&quot;에 대한 열이 포함됩니다.  데이터를 내보내면 동일한 열의 철자가 &quot;[!UICONTROL Impressions Range 1]&quot;, &quot;[!UICONTROL Impressions Range 2]&quot; 및 &quot;[!UICONTROL Impressions Difference]&quot;로 지정됩니다.
 
