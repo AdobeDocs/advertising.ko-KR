@@ -3,9 +3,9 @@ title: 사용자 지정 지표 편집
 description: 표준 지표에서 계산된 사용자 지정 지표를 편집하는 방법을 알아봅니다.
 exl-id: 89271cd6-0a9d-49b7-9fd3-8c9b77e55e5a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,23 @@ ht-degree: 0%
 >
 >복잡한 사용자 지정 지표를 계산하는 데 시간이 더 오래 걸리고, 지표를 포함하는 보고서와 보기 횟수(특히 클릭스루 및 뷰스루 전환을 위한 별도의 열을 포함하는 경우)가 생성되는 데 시간이 더 오래 걸립니다.
 
-## 캠페인 관리 보기에서 사용자 지정 지표 편집
+## (새 UI) 관리 보기에서 사용자 지정 지표를 편집합니다
+
+*[!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] 및 [!UICONTROL Ad Groups] 보기에서 사용 가능*
+
+1. 데이터 테이블 위에서 다음 중 하나를 수행합니다.
+
+   * ![보기 선택기](/help/search-social-commerce/assets/view.png "보기 선택기") \[기본 보기 또는 사용자 지정 보기의 이름\]을 클릭하여 보기 설정을 엽니다. 예: ![예제 보기](/help/search-social-commerce/assets/view-selector-example.png "예제 보기")
+
+   * 열 구성 설정을 열려면 ![사용자 지정 열](/help/search-social-commerce/assets/custom-columns-new.png "사용자 지정 열")을 클릭하세요.
+
+1. 열 이름 위에 커서를 놓고 열 이름 옆에 있는 ![편집](/help/search-social-commerce/assets/edit-new.png "편집")을 클릭합니다.
+
+1. [사용자 지정 지표 설정](custom-metric-settings.md)을 지정하십시오.
+
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+## (기존 UI) 캠페인 관리 보기에서 사용자 지정 지표를 편집합니다
 
 1. 데이터 테이블 위에서 다음 중 하나를 수행합니다.
 
@@ -32,7 +48,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-## 보고서 또는 보고서 템플릿 양식에서 사용자 지정 지표 편집
+## (기존 UI) 보고서 또는 보고서 템플릿 양식에서 사용자 지정 지표를 편집합니다
 
 1. 보고서 또는 보고서 템플릿 양식 내에서 **[!UICONTROL Columns]** 탭으로 이동합니다.
 
@@ -42,7 +58,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
-## [!UICONTROL Portfolios] 보기에서 사용자 지정 지표 편집
+## (기존 UI) [!UICONTROL Portfolios] 보기에서 사용자 지정 지표를 편집합니다
 
 1. 데이터 테이블 위에서 ![선택한 보기 편집](/help/search-social-commerce/assets/view-settings.png "선택한 보기 편집")을 클릭합니다.
 
