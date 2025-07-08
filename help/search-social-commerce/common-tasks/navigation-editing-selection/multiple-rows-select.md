@@ -3,14 +3,16 @@ title: 여러 행 선택
 description: 모든 행에 대해 동일한 작업을 수행할 수 있도록 여러 행을 선택하는 방법을 알아봅니다.
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: 347d223d226ce3372e29e80c00a11df605318c9f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-# 여러 행 선택i관리 보기의 새 사용자 인터페이스와 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] 및 [!UICONTROL Optimization] > [!UICONTROL Constraints]의 레거시 UI에서 여러 행을 선택할 수 있습니다.
+# 여러 행 선택
+
+관리 보기의 새 사용자 인터페이스와 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] 및 [!UICONTROL Optimization] > [!UICONTROL Constraints]의 기존 사용자 인터페이스에서 여러 행을 선택할 수 있습니다.
 
 * 키보드 단축키:
 
