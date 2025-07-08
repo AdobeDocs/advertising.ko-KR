@@ -3,9 +3,9 @@ title: 사용자 지정 지표 편집
 description: 표준 지표에서 계산된 사용자 지정 지표를 편집하는 방법을 알아봅니다.
 exl-id: 89271cd6-0a9d-49b7-9fd3-8c9b77e55e5a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 0%
 
 1. 데이터 테이블 위에서 다음 중 하나를 수행합니다.
 
-   * ![보기 선택기](/help/search-social-commerce/assets/view.png "보기 선택기") \[기본 보기 또는 사용자 지정 보기의 이름\]을 클릭하여 보기 설정을 엽니다. 예: ![예제 보기](/help/search-social-commerce/assets/view-selector-example.png "예제 보기")
+   * 현재 적용된 보기의 이름(![보기](/help/search-social-commerce/assets/view.png "보기"))을 클릭합니다. 편집 가능한 보기의 이름 위에 커서를 놓고 ![편집](/help/search-social-commerce/assets/edit-new.png "편집")을(를) 클릭하여 보기 설정을 엽니다.
+
+     모든 보기에서 변경 사항이 표시됩니다.
 
    * 열 구성 설정을 열려면 ![사용자 지정 열](/help/search-social-commerce/assets/custom-columns-new.png "사용자 지정 열")을 클릭하세요.
 

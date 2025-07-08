@@ -3,9 +3,9 @@ title: 사용자 지정 지표 만들기
 description: 표준 지표에서 계산되는 사용자 지정 지표를 구성하는 방법을 알아봅니다.
 exl-id: a9ce503a-67ee-477e-8f79-31b4a9c6e51a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 1. 데이터 테이블 위에서 다음 중 하나를 수행합니다.
 
-   * ![보기 선택기](/help/search-social-commerce/assets/view.png "보기 선택기") \[기본 보기 또는 사용자 지정 보기의 이름\]을 클릭하여 보기 설정을 엽니다. 예: ![예제 보기](/help/search-social-commerce/assets/view-selector-example.png "예제 보기")
+   * 현재 적용된 보기의 이름(![보기](/help/search-social-commerce/assets/view.png "보기"))을 클릭합니다. 편집 가능한 보기의 이름 위에 커서를 놓고 ![편집](/help/search-social-commerce/assets/edit-new.png "편집")을(를) 클릭하여 보기 설정을 엽니다.
+
+     만든 사용자 지정 지표는 모든 보기에서 사용할 수 있습니다.
 
    * 열 구성 설정을 열려면 ![사용자 지정 열](/help/search-social-commerce/assets/custom-columns-new.png "사용자 지정 열")을 클릭하세요.
 

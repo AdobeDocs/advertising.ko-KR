@@ -3,9 +3,9 @@ title: 사용자 지정 지표 삭제
 description: 표준 지표에서 계산된 사용자 지정 지표를 삭제하는 방법을 알아봅니다.
 exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,15 @@ ht-degree: 0%
 
 1. 데이터 테이블 위에서 다음 중 하나를 수행합니다.
 
-   * ![보기 선택기](/help/search-social-commerce/assets/view.png "보기 선택기") \[기본 보기 또는 사용자 지정 보기의 이름\]을 클릭하여 보기 설정을 엽니다. 예: ![예제 보기](/help/search-social-commerce/assets/view-selector-example.png "예제 보기")
+   * 현재 적용된 보기의 이름(![보기](/help/search-social-commerce/assets/view.png "보기"))을 클릭합니다. 편집 가능한 보기의 이름 위에 커서를 놓고 ![편집](/help/search-social-commerce/assets/edit-new.png "편집")을(를) 클릭하여 보기 설정을 엽니다.
+
+     사용자 지정 지표는 모든 보기에서 삭제됩니다.
 
    * 열 구성 설정을 열려면 ![사용자 지정 열](/help/search-social-commerce/assets/custom-columns-new.png "사용자 지정 열")을 클릭하세요.
 
 1. 열 이름 위에 커서를 놓고 열 이름 옆에 있는 ![삭제](/help/search-social-commerce/assets/delete-new.png "삭제")를 클릭합니다.
 
-1. 확인 메시지에서 **[!UICONTROL Cpnfirm]**&#x200B;을(를) 클릭합니다.
+1. 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
 ## (기존 UI) 캠페인 관리 보기에서 사용자 지정 지표를 삭제합니다
 
