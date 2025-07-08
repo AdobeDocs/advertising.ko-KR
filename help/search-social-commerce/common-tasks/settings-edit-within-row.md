@@ -3,14 +3,16 @@ title: 행 내에서 직접 설정 편집
 description: 행 내의 관리 보기에서 데이터를 편집하는 방법을 알아봅니다.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 1b1b449798d8e1eb610012378228aaf539a77dc7
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
 # 행 내에서 직접 설정 편집
+
+*기존 사용자 인터페이스*
 
 >[!NOTE]
 >
