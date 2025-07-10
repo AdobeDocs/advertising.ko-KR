@@ -3,9 +3,9 @@ title: 광고 사양
 description: 일반 및 게시자별 광고 사양을 참조하십시오.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] 및 [!DNL Sizmek]의 태그 시트를 사용할 수 있습니다. 지원되는 공급업체의 전체 목록에 대해서는 &quot;[인증된 광고 서비스 제공 파트너](certified-ad-servers.md)&quot;를 참조하십시오.
 
-### HD 비디오 Assets 요구 사항(필수)
+### HD 비디오 Assets 요구 사항
 
 **비디오 태그 유형:** VPAID 2.0 JavaScript 또는 VAST(CTV). 모든 VPAID 광고 단위는 IAB(Advertising Bureau)에서 정의한 [VPAID 2.0 사양](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf)을 준수해야 합니다.
 
@@ -84,11 +84,11 @@ ht-degree: 0%
 
 **HTML5:** 이미지 파일 형식: GIF, JPG/JPEG, PNG, SVG
 
-### 이미지 Assets 요구 사항(필수)
+### 이미지 Assets 요구 사항
 
 범용 디스플레이가 지원됩니다.
 
-**권장 광고 크기:** 120x60, 160x600, 180x150, 300x50, 300x1050, 300x250, 300x600, 320x50, 320x480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x 90
+**권장 광고 크기:** 120x60, 160x600, 180x150, 300x50, 300x1050, 300x250, 300x600, 320x50, 320x480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x90
 
 **지원되는 타사 광고 서버:** [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] 및 [!DNL Sizmek]의 태그 시트를 사용할 수 있습니다. 지원되는 공급업체의 전체 목록에 대해서는 &quot;[인증된 광고 서비스 제공 파트너](certified-ad-servers.md)&quot;를 참조하십시오.
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] 및 [!DNL Sizmek]의 태그 시트를 사용할 수 있습니다. 지원되는 공급업체의 전체 목록에 대해서는 &quot;[인증된 광고 서비스 제공 파트너](certified-ad-servers.md)&quot;를 참조하십시오.
 
-### Audio Assets 요구 사항(필수)
+### Audio Assets 요구 사항
 
 **파일 형식:** MP3, OGG, AAC
 
@@ -156,27 +156,27 @@ ht-degree: 0%
 * **[!DNL iHeartRadio]:**
    * 파일 유형: JPEG, JPG, PNG, GIF, SWF, HTML
    * 최대 파일 크기: 2.2MB
-   * Dimension: 300x250
+   * 크기: 300x250
 
 * **[!DNL Pandora]:**
    * 파일 유형: JPEG, GIF
    * 최대 파일 크기: 크기: 100KB
-   * Dimension: 300x250(모바일 또는 데스크탑) 또는 500x500(데스크탑)
+   * 크기: 300x250(모바일 또는 데스크탑) 또는 500x500(데스크탑)
 
 * **[!DNL SoundCloud]:**
    * 파일 유형: 정적 JPG, PNG
    * 최대 파일 크기: 400KB 미만
-   * Dimension: 1024x1024
+   * 크기: 1024x1024
 
 * **[!DNL Spotify]:**
    * 파일 유형: 정적 JPG, PNG
    * 최대 파일 크기: 200KB
-   * Dimension: 300x250
+   * 크기: 300x250
 
 * **[!DNL TuneIn]:**
    * 파일 유형: JPEG, JPG, PNG, GIF, HTML
    * 최대 파일 크기: 2MB
-   * Dimension: 300x250
+   * 크기: 300x250
 
 ## 기본 디스플레이 광고
 
@@ -216,7 +216,7 @@ ht-degree: 0%
 
 **후원:** 최대 200자, 30자 권장
 
-**클릭 유도 문안(MoPub만 해당):** 최대 15자
+**Call to action(MoPub만 해당):** 최대 15자
 
 >[!NOTE]
 >
@@ -234,7 +234,7 @@ ht-degree: 0%
 
 * 타사 클릭 추적 픽셀: URL에 포함된 랜딩 페이지로 리디렉션해야 함(HTTP 302 리디렉션)
 
-* DMP(데이터 관리 플랫폼)에서는 응답이 200개 이상인 클릭 추적기를 지원하지 않습니다.
+* 응답이 200개 이상인 데이터 관리 플랫폼(DMP) 클릭 추적기는 지원되지 않습니다.
 
 >[!MORELIKETHIS]
 >

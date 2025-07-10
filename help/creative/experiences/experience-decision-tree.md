@@ -3,9 +3,9 @@ title: 의사 결정 트리 레이아웃
 description: 타깃팅이 있는 경험의 의사 결정 트리 레이아웃에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 3c1316fa898e5773fbf1763733e388c9ed3bd389
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## 용어
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 의사 결정 트리의 타겟
 
-각 의사 결정 트리는 최대 5개 수준의 대상을 가질 수 있습니다. 각 타겟 수준에는 동일한 타겟 유형(대상 세그먼트, 지리적 위치 유형, 지정된 데이터 패스 키의 값, 지정된 리타겟팅 픽셀의 속성 또는 디바이스 카테고리)을 가진 하나 이상의 노드가 각각 있는 여러 분기가 포함될 수 있습니다. 기본 이미지 크리에이티브를 지정한 각 광고 크기의 크리에이티브 번들을 최하위 레벨 대상 노드에 할당할 수 있습니다.
+각 의사 결정 트리는 최대 5개 수준의 대상을 가질 수 있습니다. 각 타겟 수준에는 동일한 타겟 유형(대상 세그먼트, 지리적 위치 유형, 지정된 데이터 패스 키의 값, 지정된 리타겟팅 픽셀의 속성 또는 디바이스 카테고리)을 가진 하나 이상의 노드가 각각 있는 여러 분기가 포함될 수 있습니다. 기본 이미지 크리에이티브 또는 비디오 크리에이티브를 지정한 각 광고 크기의 크리에이티브 번들을 최하위 레벨 대상 노드에 할당할 수 있습니다.
 
 ![대상이 있는 의사 결정 트리의 예](/help/creative/assets/experience-decision-tree.png "대상이 있는 의사 결정 트리의 예")
 

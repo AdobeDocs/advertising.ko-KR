@@ -3,9 +3,9 @@ title: 적용 가능한 광고 크기에 대한 광고 태그를 수동으로 �
 description: 특정 크리에이티브 크기에 대한 광고 태그를 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 0%
 
    * 카드 보기에서 경험 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다.
 
-   * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다
+   * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Create Tag]**&#x200B;을(를) 클릭합니다.
 
 1. 고유한 **[!UICONTROL Tag name]**&#x200B;을(를) 입력하고 **[!UICONTROL Tag size]**&#x200B;을(를) 선택하십시오.
 
-   경험에 대한 기본 이미지 크리에이티브 크기가 사용 가능한 크리에이티브 크기를 결정합니다.
+   경험에 대한 기본 크리에이티브의 크기가 사용 가능한 크리에이티브 크기를 결정합니다.
 
    같은 크리에이티브 크기에 대해 여러 태그를 만들 수 있습니다.<!-- What are the implications? -->
 
@@ -41,10 +41,13 @@ ht-degree: 0%
 
    태그 행을 확장하여 포함된 크리에이티브를 볼 수 있습니다.
 
+   비디오 광고 경험의 경우 비디오 크리에이티브가 DSP as VAST 2.0 태그로 자동으로 코드 변환되므로 미리 볼 수 있습니다. 필요한 경우 [게시자별 코드 변환 적용](experience-tag-video-transcoding.md)할 수 있습니다.
+
 >[!MORELIKETHIS]
 >
 >* [타깃팅이 없는 경험에 대한 광고 태그에 크리에이티브를 할당](experience-tag-assign-creatives.md)
 >* [타깃팅하지 않고 경험에 대한 추적 URL 사용자 지정](experience-tracking-urls-no-targeting.md)
 >* [타깃팅하지 않고 경험에 대한 크리에이티브 최적화 및 일정 사용자 지정](experience-optimization-scheduling-no-targeting.md)
+>* [비디오 광고 경험 태그에 대한 코드 변환 옵션 사용자 지정](experience-tag-video-transcoding.md)
 >* [라이브 경험에 대한 광고 경험 태그 내보내기 및 구현](experience-tag-export.md)
 >* [광고 태그 이름 바꾸기](experience-tag-rename.md)

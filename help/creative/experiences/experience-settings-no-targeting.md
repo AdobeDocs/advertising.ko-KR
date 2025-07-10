@@ -3,9 +3,9 @@ title: 타깃팅되지 않은 경험에 대한 설정
 description: 의사 결정 트리 타깃팅이 없는 광고 경험에 대한 모든 설정 설명을 참조하십시오.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics] 섹션
 
+**[!UICONTROL Ad Type]:**(기존 경험의 경우 읽기 전용) 경험에 포함된 광고 유형: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* 또는 *[!UICONTROL Video]*. 경험을 저장하면 광고 유형을 변경할 수 없습니다.
+
 **[!UICONTROL Advertiser]:**(기존 경험의 경우 읽기 전용) 경험에 포함된 크리에이티브에 입찰할 광고주입니다. 경험을 저장하면 광고주를 변경할 수 없습니다.
 
 **[!UICONTROL Experience Name]:** 경험의 고유한 이름입니다. **팁:** Advertising DSP 또는 다른 DSP에서 환경을 광고로 사용할 때 쉽게 찾을 수 있는 이름을 사용하십시오.
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Default creatives] 섹션
 
-**\[기본 크리에이티브 지정\]:** 브라우저가 JavaScript을 사용할 수 없거나 광고 서버가 지연으로 인해 광고를 개인화할 수 없는 경우와 같이 브라우저에 경험에 할당된 크리에이티브를 표시할 수 없는 경우 사용할 기본 이미지 크리에이티브입니다. 경험이 적용되는 광고 크기당 하나의 이미지 크리에이티브를 포함합니다. 선택에 따라 경험에 사용할 수 있는 창의적인 크기가 결정됩니다. <!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
+**\[기본 크리에이티브 지정\]:** 브라우저에 JavaScript이 사용되지 않거나 지연으로 인해 광고 서버가 광고를 개인화할 수 없는 경우와 같이 경험에 할당된 크리에이티브를 표시할 수 없는 경우 사용할 기본 크리에이티브입니다. 표준 디스플레이 경험의 경우 경험이 적용되는 광고 크기당 하나의 이미지 크리에이티브를 포함합니다. 표준 비디오 경험의 경우 경험이 적용되는 광고 크기당 하나의 비디오 크리에이티브를 포함합니다. 선택에 따라 경험에 사용할 수 있는 창의적인 크기가 결정됩니다.
 
 의사 결정 트리 타깃팅이 없는 경험의 경우 [!UICONTROL Tag Manager] 내에서 크기가 같은 크리에이티브로 기본 크리에이티브를 재정의할 수 있습니다.
 
@@ -40,8 +42,6 @@ ht-degree: 0%
 
 **[!UICONTROL Targeting]:**(기존 경험의 경우 읽기 전용) 의사 결정 트리를 사용하여 타깃팅을 사용하지 않도록 설정하는 경우에는 적용할 수 없습니다. 이 옵션은 사용하지 않도록 설정하십시오. **참고:** 타깃팅 없이 경험을 저장하면 나중에 타깃팅을 추가할 수 없습니다.
 
-**[!UICONTROL Dynamic ads]:**(기존 경험의 경우 읽기 전용) 경험에 동적 광고가 포함되어 있음을 나타냅니다. **참고:** 경험에는 모든 표준 광고 또는 모든 동적 광고가 포함될 수 있습니다.
-
 **[!UICONTROL Language Targeting]:**(표준 광고만 있는 경험, 선택 사항, 기존 경험의 경우 읽기 전용) 사용자의 브라우저 언어 설정을 확인하고 해당 언어의 크리에이티브를 사용할 수 있는 경우 지정된 언어의 크리에이티브를 표시합니다. 브라우저 지정 언어의 크리에이티브를 사용할 수 없는 경우 대신 [!UICONTROL Preferred language] 설정이 사용됩니다. 경험을 저장하면 이 설정을 변경할 수 없습니다.
 
 **[!UICONTROL Preferred language]:**(표준 광고만 있는 경험, 기존 경험의 경우 읽기 전용) [!UICONTROL Language Targeting]이(가) 활성화된 경우를 제외하고 경험에서 만든 모든 광고의 언어입니다. 경험을 저장하면 이 설정을 변경할 수 없습니다.
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 **RT 픽셀:**(동적 광고만 있는 경험, 선택 사항) 잠재적으로 타깃팅할 [!UICONTROL Creative] 리타겟팅 픽셀입니다. 의사 결정 트리 내에서 타깃팅을 설정할 때 한 수준의 RT 픽셀 대상 노드를 포함할 수 있습니다. 각 노드에 대해 타겟팅할 픽셀과 할당된 크리에이티브 번들에서 크리에이티브를 표시하는 데 필요한 픽셀 속성 값을 지정합니다. 이 필드에 픽셀을 지정하지 않으면 결정 트리 내에서 픽셀을 지정할 수 있습니다.<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
-**[!UICONTROL Label]:**<!-- should be "Labels" -->(선택 사항) 경험에 적용할 모든 [!DNL Creative]별 레이블. 경험 보기에서 레이블을 기준으로 경험을 필터링하고 [!UICONTROL Custom Creative Report]에 [!UICONTROL Experience Label] 차원을 포함할 수 있습니다.
+**[!UICONTROL Label]:**<!-- should be "Labels" -->(선택 사항) 경험에 적용할 모든 [!DNL Creative]별 레이블. 경험 보기에서 레이블을 기준으로 경험을 필터링하고 [!UICONTROL Experience Label]에 [!UICONTROL Custom Creative Report] 차원을 포함할 수 있습니다.
 
 * 기존 레이블을 선택하려면 ![아래로](/help/creative/assets/chevron-down.png "아래로")를 클릭하고 적용할 각 레이블 옆에 있는 확인란을 선택하십시오.
 

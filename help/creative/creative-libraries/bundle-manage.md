@@ -3,9 +3,9 @@ title: Creative 번들 관리
 description: xxxx에 대해 알아보십시오.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-번들은 한 경험에 한 단위로 추가할 수 있는 광고 그룹입니다. 번들 컨테이너를 만든 후 크리에이티브를 번들에 첨부할 수 있습니다. 표준 번들에는 표준 광고만 포함될 수 있고, 동적 번들에는 동적 광고만 포함될 수 있습니다. 기본 크리에이티브에 영향을 주지 않고 경험 결정 트리 내에서 경험에 할당된 번들 내의 모든 크리에이티브에 대한 랜딩 페이지, 노출 추적 태그 및 클릭 추적 태그를 재정의할 수 있습니다.
+번들은 한 경험에 한 단위로 추가할 수 있는 광고 그룹입니다. 번들 컨테이너를 만든 후 크리에이티브를 번들에 첨부할 수 있습니다. 표준 디스플레이 번들에는 표준 디스플레이 광고만 포함될 수 있고, 표준 비디오 번들에는 표준 비디오 광고만 포함될 수 있으며, 동적 디스플레이 번들에는 동적 디스플레이 광고만 포함될 수 있습니다. 기본 크리에이티브에 영향을 주지 않고 경험 결정 트리 내에서 경험에 할당된 번들 내의 모든 크리에이티브에 대한 랜딩 페이지, 노출 추적 태그 및 클릭 추적 태그를 재정의할 수 있습니다.
 
 [!DNL Creative]은(는) 번들이 할당된 각 경험에 대해 지정된 대로 번들의 크리에이티브를 순환합니다. 선택적으로 [!DNL Creative]이(가) Adobe Sensei에서 제공하는 알고리즘 광고 순환을 사용하여 성능을 기반으로 모든 경험에 대한 광고 요소를 최적화하도록 허용할 수 있습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**&#x200B;을(를) 클릭합니다.
 
-1. 고유 **[!UICONTROL Bundle Name]** 및 **[!UICONTROL Bundle Type]:** *표준*(표준 크리에이티브) 또는 *동적*(동적 크리에이티브)을 입력하십시오.
+1. 고유 **[!UICONTROL Bundle Name]** 및 **[!UICONTROL Bundle Type]:** *표준 디스플레이*(표준 디스플레이 크리에이티브), *동적 디스플레이*(동적 디스플레이 크리에이티브), *표준 비디오*(표준 비디오 크리에이티브)를 입력하십시오.
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 ## 번들에 크리에이티브 첨부
 
-표준 번들에 [기존 표준 크리에이티브](/help/creative/creative-libraries/creative-libraries-about.md)을(를) 연결하고 동적 번들에 기존 동적 크리에이티브<!-- [existing dynamic creatives](creative-dynamic-manage.md) -->을(를) 연결할 수 있습니다. 번들에 크리에이티브를 첨부하면 번들이 할당된 모든 경험에서 크리에이티브를 사용할 수 있습니다. 각 번들에는 각 \[creative size + language\] 조합 중 하나만 포함될 수 있습니다.
+기존 표준 디스플레이 크리에이티브를 표준 디스플레이 번들에, 표준 비디오 크리에이티브를 표준 비디오 번들에, 동적 디스플레이 크리에이티브를 동적 번들에 첨부할 수 있습니다. 번들에 크리에이티브를 첨부하면 번들이 할당된 모든 경험에서 크리에이티브를 사용할 수 있습니다. 각 번들에는 각 \[creative size + language\] 조합 중 하나만 포함될 수 있습니다.
 
 >[!NOTE]
 >

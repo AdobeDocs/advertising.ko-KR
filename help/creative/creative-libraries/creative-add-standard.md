@@ -3,9 +3,9 @@ title: 크리에이티브 라이브러리에 표준 크리에이티브 추가
 description: 크리에이티브 라이브러리에 표준(비동적) 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: bfb2dccf08ae79ca8f338a0423176f1d3309d4fc
+source-git-commit: bc3309523572656362cebebab9b735530003a81c
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *베타가 닫힘*
 
-[광고 경험](/help/creative/experiences/experience-about.md)에서 사용할 크리에이티브 라이브러리를 [추가](creative-library-manage.md)합니다.
+[광고 경험](creative-library-manage.md)에서 사용할 크리에이티브 라이브러리를 [추가](/help/creative/experiences/experience-about.md)합니다.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    * 장치나 네트워크의 파일을 상자로 끌어서 놓습니다.
 
-   * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL select a file]**&#x200B;을(를) 클릭하십시오.
+   * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL Select a file]**&#x200B;을(를) 클릭하십시오.
 
    [유연한 광고 사양](#flexible-ad-spec)을 참조하세요.
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ### 템플릿을 사용하여 유연한 크리에이티브 추가 {#flexible-creative-use-template}
 
-계정에 업로드된 유연한 크리에이티브 템플릿을 사용하여 사전 정의 크기의 광고를 작성할 수 있습니다. 사용할 템플릿을 선택하면 클릭 태그 및 속성이 편집됩니다.&lt;!— 템플릿 다운로드 기능을 다시 추가하는 경우 마지막 문장을 다음으로 바꾸기: a\) 사용할 템플릿을 선택한 다음 클릭 태그 및 특성을 편집할 수 있습니다. 또는 b\) [템플릿을 ZIP 파일로 다운로드](#download-flexible-creative-template), 콘텐츠를 오프라인으로 편집하여 자체 크리에이티브를 만든 다음 [편집된 파일을 새 크리에이티브로 업로드] (flexible-creative-upload)할 수 있습니다.>
+계정에 업로드된 유연한 크리에이티브 템플릿을 사용하여 사전 정의 크기의 광고를 작성할 수 있습니다. 사용할 템플릿을 선택하면 클릭 태그 및 속성이 편집됩니다.&lt;!— 템플릿 다운로드 기능을 다시 추가하는 경우 마지막 문장을 다음으로 바꾸기: a\) 사용할 템플릿을 선택한 다음 클릭 태그 및 특성을 편집할 수 있습니다. 또는 b\) [템플릿을 ZIP 파일로 다운로드](#download-flexible-creative-template), 콘텐츠를 오프라인으로 편집하여 자체 크리에이티브를 만든 다음 [편집된 파일을 새 크리에이티브로 업로드](flexible-creative-upload)할 수 있습니다.>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -115,7 +115,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->[!DNL Creative] 내에서 직접 편집할 수 있는 표준 HTML 태그로 모든 특성을 가진 HTML5 크리에이티브인 [유연한 HTML5 크리에이티브를 추가](#flexible-creative-add)할 수도 있습니다.
+>[ 내에서 직접 편집할 수 있는 표준 HTML 태그로 모든 특성을 가진 HTML5 크리에이티브인 ](#flexible-creative-add)유연한 HTML5 크리에이티브를 추가[!DNL Creative]할 수도 있습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
@@ -139,7 +139,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * 장치나 네트워크의 파일을 상자로 끌어서 놓습니다.
 
-   * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL select a file]**&#x200B;을(를) 클릭하십시오.
+   * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL Select a file]**&#x200B;을(를) 클릭하십시오.
 
    [HTML5 광고 사양](/help/creative/creative-libraries/html5-creative-specification.md)을 참조하세요.
 
@@ -167,7 +167,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지를 만들 수 있습니다. 최대
 
       * 장치나 네트워크의 파일을 상자로 끌어서 놓습니다.
 
-      * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL select a file]**&#x200B;을(를) 클릭하십시오.
+      * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL Select a file]**&#x200B;을(를) 클릭하십시오.
 
    * DSP 계정에 연결된 [Adobe Experience Manager 라이브러리](/help/creative/creative-libraries/aem-assets-configure.md)에서 승인된 이미지의 경우 다음을 수행하십시오.
 
@@ -206,6 +206,30 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지를 만들 수 있습니다. 최대
 1. [타사 크리에이티브 설정](#creative-settings-third-party)에서 크리에이티브에 대한 JavaScript 태그 및 기타 설정을 지정합니다.
 
    [사용 가능한 매크로](/help/creative/creative-macros.md)를 복사하여 JavaScript 태그에 붙여넣을 수 있습니다.
+
+1. **[!UICONTROL Create]** 클릭
+
+## 광고 라이브러리에 비디오 광고 추가
+
+[비디오 크리에이티브 사양](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs) 및 [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하세요.
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. 라이브러리 이름을 클릭합니다.
+
+1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Standard Ads]** 하위 탭을 클릭합니다.
+
+1. **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Video]**&#x200B;을(를) 클릭합니다.
+
+1. 다음 방법 중 하나로 비디오 파일을 지정합니다.
+
+   * 장치나 네트워크의 파일을 상자로 끌어서 놓습니다.
+
+   * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL Select a file]**&#x200B;을(를) 클릭하십시오.
+
+1. [비디오 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video)을 지정하십시오.
+
+   기본적으로 방금 업로드한 크리에이티브가 선택되고 지정한 설정이 선택한 크리에이티브에 적용됩니다.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 
 1. **[!UICONTROL Create]** 클릭
 

@@ -3,9 +3,9 @@ title: 타깃팅하지 않은 경험에 대해 광고 태그에 크리에이티�
 description: 특정 크리에이티브 크기의 광고 태그에 크리에이티브를 할당하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
-source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    * 카드 보기에서 경험 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다.
 
-   * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다
+   * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다.
 
 1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 **[!UICONTROL + Add Creatives]**&#x200B;을(를) 클릭합니다. <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -47,4 +47,5 @@ ht-degree: 0%
 >* [적용 가능한 광고 크기에 대한 광고 태그를 수동으로 만듭니다](experience-tag-create-manually.md)
 >* [크리에이티브에 대한 추적 URL을 사용자 지정](experience-tracking-urls-no-targeting.md).
 >* [크리에이티브 최적화 및 크리에이티브 일정 사용자 지정](experience-optimization-scheduling-no-targeting.md)
+>* [비디오 광고 경험 태그에 대한 코드 변환 옵션 사용자 지정](experience-tag-video-transcoding.md)
 >* [라이브 경험에 대한 광고 경험 태그 내보내기 및 구현](experience-tag-export.md)

@@ -3,9 +3,9 @@ title: Creative 설정
 description: xxxx에 대해 알아보십시오.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: b3ae58583020a907a41e72967b8c2a331c2d3257
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 >When you include the creative in an experience, you can replace the default value for any of the click tags with a custom landing page URL to generate a derivation of the base creative.
 -->
 
-**레이블:** (선택 사항) 선택한 모든 크리에이티브에 적용할 레이블입니다. [!DNL Creative] 내의 다양한 보기에서 레이블을 기준으로 광고 항목을 필터링하고 [!UICONTROL Custom Creative Report]에 [!UICONTROL Creative Label] 차원을 포함할 수 있습니다.
+**레이블:** (선택 사항) 선택한 모든 크리에이티브에 적용할 레이블입니다. [!DNL Creative] 내의 다양한 보기에서 레이블을 기준으로 광고 항목을 필터링하고 [!UICONTROL Creative Label]에 [!UICONTROL Custom Creative Report] 차원을 포함할 수 있습니다.
 
 * 기존 레이블을 선택하려면 ![아래로](/help/creative/assets/chevron-down.png "아래로")를 클릭하고 적용할 각 레이블 옆에 있는 확인란을 선택하십시오.
 
@@ -183,10 +183,32 @@ DSP에서 광고로 구현하는 경험에 이 크리에이티브를 포함하�
 **Creative 이름:** 크리에이티브 이름입니다. **팁:** 경험에 크리에이티브를 포함할 때 쉽게 찾을 수 있는 이름을 사용하십시오.
 
 **Creative 크기:**(기존 광고의 경우 읽기 전용) 크리에이티브 차원. 새로운 광고 크리에이티브의 경우 표준 광고 크기 목록에서 을(를) 선택합니다.
-u
+
 **언어:** 광고 크리에이티브를 연결하는 각 광고의 기본 언어입니다.
 
 **랜딩 페이지 URL:** 광고 크리에이티브를 연결하는 각 광고의 유효성을 검사하는 데 사용되는 랜딩 페이지 URL입니다. 서드파티 광고 서버는 각 광고의 실제 랜딩 페이지를 결정합니다.
+
+**레이블:** (선택 사항) 선택한 모든 크리에이티브에 적용할 레이블입니다. [!DNL Creative] 내의 다양한 보기에서 레이블을 기준으로 광고 항목을 필터링할 수 있습니다.
+
+* 기존 레이블을 선택하려면 ![아래로](/help/creative/assets/chevron-down.png "아래로")를 클릭하고 적용할 각 레이블 옆에 있는 확인란을 선택하십시오.
+
+* 기존 레이블을 검색하려면 레이블 이름 내에 텍스트 문자열 입력을 시작합니다.
+
+* 크리에이티브에 적용할 새 레이블을 만들려면 목록을 열고 **+ 레이블 추가**&#x200B;를 클릭하고 [!UICONTROL Label] 필드에 새 레이블 이름을 입력한 다음 **만들기**&#x200B;를 클릭합니다.
+
+* 레이블을 제거하려면 레이블 이름 옆에 있는 확인란을 선택 취소합니다.
+
+## 비디오 크리에이티브 설정 {#creative-settings-video}
+
+**Creative 에셋 이름:** 크리에이티브 이름입니다. 새 크리에이티브의 경우 기본적으로 파일 이름이 사용되지만 이름을 변경할 수 있습니다. 여러 이미지의 경우 개별 크리에이티브 이름을 편집할 수 있습니다. **팁:** 경험에 크리에이티브를 포함할 때 쉽게 찾을 수 있는 이름을 사용하십시오.
+
+**기간:**(읽기 전용) 비디오가 자동으로 채워지는 기간입니다.
+
+**언어:** 광고 크리에이티브를 연결하는 각 광고의 기본 언어입니다. 선택한 모든 이미지에 동일한 값이 적용됩니다. 경험에 크리에이티브를 포함하는 경우 선택적으로 경험에 대한 언어 환경 설정을 사용자 지정할 수 있습니다.
+
+**랜딩 페이지 URL:** 광고 크리에이티브를 연결하는 각 광고의 기본 랜딩 페이지 URL입니다. 랜딩 페이지 URL은 http:// 또는 https://으로 시작하는 유효한 URL이어야 합니다. 여기에는 서드파티 추적 매개 변수 또는 [[!DNL Creative] 매크로](/help/creative/creative-macros.md)가 포함될 수 있습니다. 선택한 모든 이미지에 동일한 값이 적용됩니다.
+
+번들에 크리에이티브를 포함한 다음 번들을 경험에 할당할 때 번들의 각 크리에이티브에 대해 선택적으로 랜딩 페이지 URL을 변경하고 노출 및 클릭 추적 URL과 JavaScript을 추가할 수 있습니다. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **레이블:** (선택 사항) 선택한 모든 크리에이티브에 적용할 레이블입니다. [!DNL Creative] 내의 다양한 보기에서 레이블을 기준으로 광고 항목을 필터링할 수 있습니다.
 
