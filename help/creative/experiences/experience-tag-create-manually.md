@@ -3,9 +3,9 @@ title: 적용 가능한 광고 크기에 대한 광고 태그를 수동으로 �
 description: 특정 크리에이티브 크기에 대한 광고 태그를 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 *의사 결정 트리가 없는 경험 타기팅만 사용*
 *Beta 완료*
 
-경험에 사용되는 각 광고 크기에 대해 하나 이상의 광고 태그를 만들 수 있습니다. 나중에 [광고 태그에 크리에이티브를 할당](experience-tag-assign-creatives.md)할 수 있습니다.
+경험에 사용되는 각 광고 크기 또는 비디오 지속 시간에 대해 언어당 하나 이상의 광고 태그를 만들 수 있습니다. 나중에 [광고 태그에 크리에이티브를 할당](experience-tag-assign-creatives.md)할 수 있습니다.
 
 >[!NOTE]
 >
->의사 결정 트리 타깃팅이 있는 경험의 경우 [!DNL Creative]은(는) 적용 가능한 각각의 크리에이티브 크기에 대해 하나의 태그를 자동으로 만듭니다.
+>의사 결정 트리 타깃팅을 사용하는 경험의 경우 [!DNL Creative]은(는) 각 적용 가능한 광고 크기 또는 비디오 지속 시간에 대해 언어당 하나의 태그를 자동으로 만듭니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;을(를) 클릭합니다.
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 1. 오른쪽 상단에서 **[!UICONTROL Create Tag]**&#x200B;을(를) 클릭합니다.
 
-1. 고유한 **[!UICONTROL Tag name]**&#x200B;을(를) 입력하고 **[!UICONTROL Tag size]**&#x200B;을(를) 선택하십시오.
+1. 고유한 **[!UICONTROL Tag name]**&#x200B;을(를) 입력하고 (표준 디스플레이 광고) **[!UICONTROL Tag size]** 또는 (표준 비디오 광고) **[!UICONTROL Duration]**&#x200B;을(를) 선택합니다.
 
-   경험에 대한 기본 크리에이티브의 크기가 사용 가능한 크리에이티브 크기를 결정합니다.
+   경험에 대한 기본 크리에이티브의 크기 또는 기간에 따라 사용 가능한 크리에이티브 크기 또는 비디오 지속 시간이 결정됩니다.
 
-   같은 크리에이티브 크기에 대해 여러 태그를 만들 수 있습니다.<!-- What are the implications? -->
+   동일한 제작 크기 또는 기간에 대해 여러 태그를 만들 수 있습니다.<!-- What are the implications? -->
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
