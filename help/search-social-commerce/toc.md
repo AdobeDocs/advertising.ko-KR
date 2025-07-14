@@ -4,7 +4,7 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 9d92118fceb26d71a5909f66ae6e382616a5e098
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '1746'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe Experience Cloud과 통합 {#integrations}
       + [Adobe Experience Cloud 솔루션 및 서비스와의 통합](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko){target="_blank"}
-      + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ko){target="_blank"}
-   + [소비자 개인 정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
-   + [정책 및 지침(링크)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=ko){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [소비자 개인 정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [정책 및 지침(링크)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + 시작 {#getting-started}
    + [구현 개요](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [시스템 요구 사항](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -81,7 +81,7 @@ ht-degree: 2%
             + [ [!DNL Yahoo! Japan Ads]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [ [!DNL Yandex]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [클릭 추적 URL에 대한 선택적 추적 매개 변수](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ko){target="_blank"}
+      + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [AMO ID(s_kwcid) 추적 매개 변수](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + 전환 추적 {#conversion-tracking}
       + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)
@@ -178,7 +178,7 @@ ht-degree: 2%
          + 대상 및 대상 타겟 {#audiences-and-targets}
             + 대상자 {#audiences}
                + [대상자 정보](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
-               + [ [!DNL Adobe] 대상에서  [!DNL Google Ads] 고객 일치 대상 만들기](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
+               + [ [!DNL Google Ads] 대상에서  [!DNL Adobe] 고객 일치 대상 만들기](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
                + [Adobe Campaign 이메일 목록에서  [!DNL Google Ads] 고객 일치 대상 만들기](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
                + [고객 데이터 목록을 사용하여 고객 일치 대상 관리](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
                + [동적 리마케팅 대상자 관리](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
@@ -393,7 +393,7 @@ ht-degree: 2%
       + [ [!DNL Naver] 추적 전용 계정에 대한 트래픽 및 전환 지표 업로드](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
       + [ [!DNL Naver] 추적 전용 계정에 대한 지표 데이터 요구 사항](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
    + [추가 인벤토리 동기화 활성화](/help/search-social-commerce/tools/sync-inventory.md)
-   + [ [!DNL Microsoft Advertising]의  [!DNL Google Ads] 캠페인 복제](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
+   + [ [!DNL Google Ads] 의  [!DNL Microsoft Advertising]캠페인 복제](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
 + 관리 {#admin}
    + [역할 기본 정보](/help/search-social-commerce/admin/role-about.md)
    + [광고 네트워크 관리자 계정의 자격 증명 관리](/help/search-social-commerce/admin/manager-accounts.md)

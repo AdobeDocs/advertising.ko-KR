@@ -3,7 +3,7 @@ title: 사용자 정의 보고서에 대한 FAQ
 description: 데이터 문제 해결을 포함하여 성능 보고서에 대한 일반적인 질문에 대한 답변을 살펴볼 수 있습니다.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -35,11 +35,11 @@ ht-degree: 0%
 +++
 
 +++[!DNL Google Ads] 광고 확장 또는 제품 목록에서 전환된 결과를 어떻게 알 수 있습니까?
-[!UICONTROL Transaction Report]을(를) 생성하여 광고 자체 대신 [!DNL Google Ads] 광고 확장 클릭 또는 제품 목록에서 발생한 전환을 확인할 수 있습니다. [!UICONTROL Link Type] 열 값은 클릭한 링크의 형식과 제목을 표시합니다.
+[!DNL Google Ads]을(를) 생성하여 광고 자체 대신 [!UICONTROL Transaction Report] 광고 확장 클릭 또는 제품 목록에서 발생한 전환을 확인할 수 있습니다. [!UICONTROL Link Type] 열 값은 클릭한 링크의 형식과 제목을 표시합니다.
 
 * 제품 목록이 `pla:<product ID>`(예: `pla:8525822`)(으)로 나열됩니다.
 
-* 사이트 링크는 `sl:See Current Offers`과(와) 같이 `sl:<Sitelink text>`(으)로 나열됩니다.
+* 사이트 링크는 `sl:<Sitelink text>`과(와) 같이 `sl:See Current Offers`(으)로 나열됩니다.
 
   보고서에 [!UICONTROL Tracking URL] 열을 포함하는 경우 사이트 링크를 식별할 수도 있습니다. 사이트 링크의 [!UICONTROL Tracking URL]에 `&ev_ltx=sl:<link-name>` 특성이 포함되어 있습니다.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 +++[!UICONTROL Device] 또는 [!UICONTROL Objective Name]과(와) 같은 특정 계정 속성 지표에 대한 보고서를 만들 수 있습니까?
 캠페인 엔터티 보고서([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report] 및 [!UICONTROL Product Group Report])의 경우 지표 데이터는 보고서에 포함하는 속성 열에 의해 동적으로 집계됩니다. 선택적으로 보고서에 대한 키 열을 제거하고 데이터를 집계할 속성 열만 포함할 수 있습니다.
 
-예를 들어 [!UICONTROL Ad Group] 및  장치 열을 포함하는 [!UICONTROL Keyword Report]을(를) 생성하는 경우 기본적으로 보고서는 광고 그룹 및 장치 유형별로 각 키워드에 대한 지표를 집계합니다. 그러나 보고서를 생성하기 전에 [!UICONTROL Keyword] 열을 제거하면 보고서에서 지정된 광고 그룹에 대한 지표를 장치 유형별로 동적으로 생성합니다.
+예를 들어 [!UICONTROL Keyword Report] 및 [!UICONTROL Ad Group] 장치 열을 포함하는 을(를) 생성하는 경우 기본적으로 보고서는 광고 그룹 및 장치 유형별로 각 키워드에 대한 지표를 집계합니다. 그러나 보고서를 생성하기 전에 [!UICONTROL Keyword] 열을 제거하면 보고서에서 지정된 광고 그룹에 대한 지표를 장치 유형별로 동적으로 생성합니다.
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 * 포트폴리오 필터 선택 사항에서는 전환으로 이어지는 일부 이벤트가 제외됩니다.
 
-  포트폴리오의 하위 집합에 대해 보고하는 경우 속성 규칙 중 하나에 전환이 귀속된 이벤트를 포함한 캠페인을 포함하지 않을 수 있습니다. 예를 들어 사용자가 Keyword_1에서 Portfolio_1을 클릭하고 Portfolio_2에서 키워드_2를 클릭한 다음 를 변환한다고 가정해 봅시다. 보고서에서 &quot;[!UICONTROL First Event]&quot; 속성 규칙을 사용하는 경우 변환에 대한 Portfolio_1이 보고서에 포함되어야 합니다. 그러나 보고서에서 &quot;마지막 이벤트&quot; 속성 규칙을 사용하는 경우 Portfolio_2를 포함해야 합니다.
+  포트폴리오의 하위 집합에 대해 보고하는 경우 속성 규칙 중 하나에 전환이 귀속된 이벤트를 포함한 캠페인을 포함하지 않을 수 있습니다. 예를 들어 사용자가 Portfolio_1에서 Keyword_1을 클릭하고 Portfolio_2에서 Keyword_2를 클릭한 다음 를 전환한다고 가정해 보십시오. 보고서에서 &quot;[!UICONTROL First Event]&quot; 속성 규칙을 사용하는 경우 보고서에 변환을 포함하려면 Portfolio_1이 포함되어야 합니다. 그러나 보고서에서 &quot;마지막 이벤트&quot; 속성 규칙을 사용하는 경우 Portfolio_2를 포함해야 합니다.
 
 >[!TIP]
 >
@@ -98,9 +98,9 @@ ht-degree: 0%
 +++
 
 +++클릭 또는 매출 데이터가 누락되면 이후 입찰에 영향을 주지 않도록 하려면 어떻게 해야 합니까?
-검색, 소셜 및 Commerce이 광고 네트워크와 동기화되지 않을 때 클릭 데이터 문제가 발생합니다. 계정을 수동으로 동기화하려면 Adobe 계정 팀에 문의하십시오. 하루 동안 클릭 데이터가 누락된 경우 Adobe 계정 팀에 비용 모델에서 해당 날짜를 제외하도록 요청하십시오.
+검색, 소셜 및 Commerce이 광고 네트워크와 동기화되지 않을 때 클릭 데이터 문제가 발생합니다. 계정을 수동으로 동기화하려면 Adobe 계정 팀에 문의하십시오. 하루 종일 클릭 데이터가 누락된 경우 Adobe 계정 팀에 비용 모델에서 해당 날짜를 제외하도록 요청하십시오.
 
-매출 데이터 문제는 추적 또는 피드 파일 문제로 인해 발생할 수 있습니다. 문제를 조사하려면 Adobe 계정 팀에 문의하십시오. 하루 전체에 대한 수입 데이터가 누락된 경우 Adobe 계정 팀에 해당 날을 수입 모델에서 제외하도록 요청하십시오.
+매출 데이터 문제는 추적 또는 피드 파일 문제로 인해 발생할 수 있습니다. 문제를 조사하려면 Adobe 계정 팀에 문의하십시오. 하루 종일 매출 데이터가 누락된 경우 Adobe 계정 팀에 해당 요일을 매출 모델에서 제외하도록 요청하십시오.
 +++
 
 +++통화 데이터가 잘못된 형식으로 표시됩니다.
@@ -232,7 +232,7 @@ ht-degree: 0%
 
 1. 일부 트랜잭션이 올바르지 않거나 누락된 경우, 관련 전환 추적 태그가 적용 가능한 모든 웹 페이지에 구현되어 있는지, Adobe 계정 팀에서 이를 권장하지 않는 한 편집되지 않았는지 확인하십시오. 웹 사이트가 최근에 업데이트된 경우 태그가 누락되거나 변경될 수 있습니다.
 
-   Search, Social 및 Commerce에는 `ef_transaction_properties` 변수와 `img` 태그의 `src` 요소 내에 올바른 형식의 URL(이름-값 쌍의 매개 변수 포함)이 필요합니다.
+   Search, Social 및 Commerce에는 `ef_transaction_properties` 변수와 `src` 태그의 `img` 요소 내에 올바른 형식의 URL(이름-값 쌍의 매개 변수 포함)이 필요합니다.
 
 1. 문제를 확인하고 해결할 수 없는 경우 [고객 지원 센터에 문의](/help/search-social-commerce/get-help.md)하십시오.
 
@@ -294,13 +294,13 @@ ht-degree: 0%
 +++
 
 +++매출 데이터가 Adobe Analytics의 데이터와 다름
-[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=ko](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=ko).<!-- change link URL to relative link --> 참조
+[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link --> 참조
 +++
 
 ## 특정 보고서
 
 +++[!UICONTROL Portfolio Report]이(가) [!UICONTROL Portfolios] 보기와 동일한 수치를 표시해야 합니까?
-보기의 모든 필터, 보고서 매개 변수 및 보기와 보고서의 데이터 열이 동일하면 [!UICONTROL Portfolio Report] 및 [!UICONTROL Portfolios] 보기에 동일한 데이터가 표시됩니다. 예를 들어 [!UICONTROL Portfolios] 보기에 날짜 범위 &quot;[!UICONTROL Last 7 days]&quot;에 대한 &quot;[!UICONTROL All but inactive]&quot;인 포트폴리오가 표시되고 기본 데이터 열만 표시되는 경우 기본 매개 변수를 사용하는 [!UICONTROL Portfolio Report]은(는) 동일한 데이터를 표시합니다. [!UICONTROL Portfolios] 보기에서 보고서 매개 변수를 변경하거나 다른 필터를 사용하는 경우 데이터 값이 다를 수 있습니다.
+보기의 모든 필터, 보고서 매개 변수 및 보기와 보고서의 데이터 열이 동일하면 [!UICONTROL Portfolio Report] 및 [!UICONTROL Portfolios] 보기에 동일한 데이터가 표시됩니다. 예를 들어 [!UICONTROL Portfolios] 보기에 날짜 범위 &quot;[!UICONTROL All but inactive]&quot;에 대한 &quot;[!UICONTROL Last 7 days]&quot;인 포트폴리오가 표시되고 기본 데이터 열만 표시되는 경우 기본 매개 변수를 사용하는 [!UICONTROL Portfolio Report]은(는) 동일한 데이터를 표시합니다. [!UICONTROL Portfolios] 보기에서 보고서 매개 변수를 변경하거나 다른 필터를 사용하는 경우 데이터 값이 다를 수 있습니다.
 +++
 
 +++[!UICONTROL Portfolio Report]의 데이터가 [!UICONTROL Search Engine Report] 또는 [!UICONTROL Search Engine Account Report]의 데이터와 일치하지 않습니다.
@@ -308,7 +308,7 @@ ht-degree: 0%
 +++
 
 +++[!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report]은(는) 포트폴리오 수준 [!UICONTROL Model Accuracy Report]과(와) 어떻게 다릅니까?
-(에이전시 계정 관리자, Adobe 계정 관리자 및 관리자 사용자만 해당) [!UICONTROL Reports] > [!UICONTROL Model Accuracy]에서 사용할 수 있는 [!UICONTROL Forecast Accuracy Report]은(는) 포트폴리오 수준 [!UICONTROL Model Accuracy Report]과(와) 동일한 데이터를 제공합니다. 단, 여러 포트폴리오에서 실행할 수 있으며 속성 규칙을 변경할 수 있습니다. 사용자 지정 매개 변수를 사용하여 보고서를 실행하고 예약할 수도 있으며, 스프레드시트 피드를 만드는 데 사용할 수도 있습니다. 또한 [!UICONTROL Forecast Accuracy Report]은(는) 현재 목표보다 포트폴리오에 대한 기록 목표를 사용하여 매출 정확도를 평가하고 해당 시간대의 데이터를 더 정확하게 나타내므로 기존 포트폴리오 수준 보고서보다 정확합니다.
+(에이전시 계정 관리자, Adobe 계정 관리자 및 관리자 사용자만 해당) [!UICONTROL Forecast Accuracy Report] > [!UICONTROL Reports]에서 사용할 수 있는 [!UICONTROL Model Accuracy]은(는) 포트폴리오 수준 [!UICONTROL Model Accuracy Report]과(와) 동일한 데이터를 제공합니다. 단, 여러 포트폴리오에서 실행할 수 있으며 속성 규칙을 변경할 수 있습니다. 사용자 지정 매개 변수를 사용하여 보고서를 실행하고 예약할 수도 있으며, 스프레드시트 피드를 만드는 데 사용할 수도 있습니다. 또한 [!UICONTROL Forecast Accuracy Report]은(는) 현재 목표보다 포트폴리오에 대한 기록 목표를 사용하여 매출 정확도를 평가하고 해당 시간대의 데이터를 더 정확하게 나타내므로 기존 포트폴리오 수준 보고서보다 정확합니다.
 +++
 
 +++[!DNL Google Ads] 동적 검색 광고(DSA), 성과 최대, 스마트 쇼핑 및 [!DNL YouTube] 캠페인에 대해 광고 수준 데이터를 사용할 수 없습니다.
@@ -316,7 +316,7 @@ ht-degree: 0%
 +++
 
 +++[!UICONTROL Transaction Report]에서 데이터 피드에서 가져온 전환 지표 또는 Adobe Advertising 추적 픽셀에서 추적한 전환 지표를 어떻게 알 수 있습니까?
-트랜잭션 보고서에서 사용자 지정 열 &quot;[!UICONTROL Tracking URL]&quot;을(를) 포함하는 경우 포함된 전환 지표가 Adobe Advertising 추적 픽셀에 의해 추적되었는지 여부를 알 수 있습니다. Adobe Advertising 추적 픽셀이 있는 추적 URL은 &quot;`http://pixel.everesttech.net`&quot;(으)로 시작합니다.
+트랜잭션 보고서에서, 사용자 지정 열 &quot;[!UICONTROL Tracking URL]&quot;을(를) 포함하는 경우 포함된 전환 지표가 Adobe Advertising 추적 픽셀에 의해 추적되었는지 여부를 알 수 있습니다. Adobe Advertising 추적 픽셀이 있는 추적 URL은 &quot;`http://pixel.everesttech.net`&quot;(으)로 시작합니다.
 +++
 
 +++[!UICONTROL Transaction Report]의 데이터가 [!UICONTROL Keyword Report]의 데이터와 일치하지 않습니다.
