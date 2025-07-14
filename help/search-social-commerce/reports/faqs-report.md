@@ -294,7 +294,7 @@ ht-degree: 0%
 +++
 
 +++매출 데이터가 Adobe Analytics의 데이터와 다름
-[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link --> 참조
+[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=ko](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=ko).<!-- change link URL to relative link --> 참조
 +++
 
 ## 특정 보고서
