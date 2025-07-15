@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
+source-git-commit: 190f2e5bbf394de05e0d47b46090795d9ee19552
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1867'
 ht-degree: 2%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe Experience Cloud과 통합 {#integrations}
       + [Adobe Experience Cloud 솔루션 및 서비스와의 통합](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko){target="_blank"}
-      + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ko){target="_blank"}
-   + [소비자 개인 정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
-   + [정책 및 지침(링크)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=ko){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [소비자 개인 정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [정책 및 지침(링크)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + 시작 {#getting-started}
    + [구현 개요](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [시스템 요구 사항](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -65,6 +65,41 @@ ht-degree: 2%
       + 관리 보기에서 데이터 다운로드 {#download-data-views}
          + [캠페인 관리 보기에서 데이터 다운로드](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [[!UICONTROL Downloads] 메뉴에서 성능 데이터 보고서 또는 일괄 시트 파일 삭제](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
++ (Beta) 새 사용자 인터페이스 {#new-ui}
+   + [성능 대시보드 보기](/help/search-social-commerce/new-ui/dashboard-view.md)
+   + 플랜 {#plan}
+      + 목표 {#objectives}
+         + [목표 정보](/help/search-social-commerce/new-ui/plan/objectives/objective-about.md)
+         + [목표 만들기](/help/search-social-commerce/new-ui/plan/objectives/objective-create.md)
+         + [목표 편집](/help/search-social-commerce/new-ui/plan/objectives/objective-edit.md)
+         + [목표 삭제](/help/search-social-commerce/new-ui/plan/objectives/objective-delete.md)
+         + [목표에 가중치 권장 사항 적용](/help/search-social-commerce/new-ui/plan/objectives/objective-apply-weight-recommendations.md)
+         + [목표 설정](/help/search-social-commerce/new-ui/plan/objectives/objective-settings.md)
+      + 시뮬레이션 {#simulations}
+         + [시뮬레이션 정보](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+         + [사용자 지정 시뮬레이션 실행 또는 재실행](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+         + [시뮬레이션 다운로드](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+      + [[!UICONTROL Spend Planner] 사용](/help/search-social-commerce/new-ui/plan/spend-planner.md)
+   + 관리 {#manage}
+      + 포트폴리오 {#portfolios}
+         + [포트폴리오 기본 정보](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)
+         + [포트폴리오 만들기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)
+         + [포트폴리오 복제](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-duplicate.md)
+         + [포트폴리오 세부 정보 편집](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)
+         + [일괄 시트 파일을 사용하여 포트폴리오 설정 일괄 편집](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)
+         + [Portfolio 설정](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
+         + [포트폴리오 성능 세부 정보 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
+         + [[!UICONTROL Portfolios] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+      + 캠페인 {#campaigns}
+         + [[!UICONTROL Campaigns] 보기 정보](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
+         + [포트폴리오에 캠페인 할당](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [포트폴리오에서 캠페인 제거](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+         + [[!UICONTROL Campaigns] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+      + 광고 그룹 {#ad-groups}
+         + [[!UICONTROL Ad Groups] 보기 정보](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
+         + [광고 그룹에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
+         + [[!UICONTROL Ad Groups] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
 + 추적 {#tracking}
    + [추적 기본 정보](/help/search-social-commerce/tracking/tracking-about.md)
    + 클릭 추적 {#click-tracking}
@@ -81,7 +116,7 @@ ht-degree: 2%
             + [ [!DNL Yahoo! Japan Ads]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [ [!DNL Yandex]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [클릭 추적 URL에 대한 선택적 추적 매개 변수](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ko){target="_blank"}
+      + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [AMO ID(s_kwcid) 추적 매개 변수](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + 전환 추적 {#conversion-tracking}
       + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)
