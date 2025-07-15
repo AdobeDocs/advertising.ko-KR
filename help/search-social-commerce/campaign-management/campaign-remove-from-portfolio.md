@@ -3,9 +3,9 @@ title: 포트폴리오에서 캠페인 제거
 description: 포트폴리오에서 캠페인을 제거하는 방법을 알아봅니다.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: a71f2daded3b7c32b8c30a4631eba8c2dbda3a17
+source-git-commit: 868e4090c164df353d4e510fb972b0ea1f1daa82
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 0%
 
 1. 데이터 테이블 위의 도구 모음에서 ![편집](/help/search-social-commerce/assets/edit.png "편집") **[!UICONTROL Edit]**&#x200B;을 클릭합니다.
 
-1. 포트폴리오 설정<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->에서 [!UICONTROL Assign Campaigns] 섹션으로 이동하여 캠페인 할당을 변경하십시오.
+1. 포트폴리오 설정에서 [!UICONTROL Assign Campaigns] 섹션으로 이동하여 캠페인 할당을 변경합니다.
+
+   포트폴리오 설정에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 최적화 안내서를 참조하십시오.
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
@@ -34,7 +36,7 @@ ht-degree: 0%
 
 1. 주 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**&#x200B;을(를) 클릭한 다음 포트폴리오를 찾습니다.
 
-   포트폴리오 그룹 또는 [!UICONTROL Ungrouped Portfolios] 노드를 선택하여 왼쪽 패널의 [!UICONTROL Portfolios] 메뉴에서 포트폴리오 목록을 필터링할 수 있습니다.
+   포트폴리오 그룹 또는 [!UICONTROL Portfolios] 노드를 선택하여 왼쪽 패널의 [!UICONTROL Ungrouped Portfolios] 메뉴에서 포트폴리오 목록을 필터링할 수 있습니다.
 
 1. 포트폴리오 이름 옆에 있는 ![설정 보기/편집 단추](/help/search-social-commerce/assets/settings.png "설정 보기/편집 단추")를 클릭합니다.
 
