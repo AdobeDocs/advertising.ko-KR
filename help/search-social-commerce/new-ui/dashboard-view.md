@@ -3,7 +3,8 @@ title: (새 UI) 성능 대시보드 보기
 description: 성능 대시보드에서 사용할 수 있는 데이터에 대해 알아봅니다.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
+source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 # (새 UI) 성능 대시보드 보기
 
 *Beta 기능*
-
-<!-- See wiki pageId=3404513731 for more things that may be added -->
 
 사용자 지정 가능한 [!UICONTROL Dashboard]을(를) 사용하면 모든 포트폴리오 <!-- May later include other entity-level data -->의 성능을 모니터링할 수 있으므로 조사 및 해결할 수 있는 잠재적인 성능 문제를 식별할 수 있습니다. 지난 90일 동안의 모든 기간에 대해 일별, 주별 또는 월별 데이터를 볼 수 있습니다.
 
@@ -57,4 +56,3 @@ ht-degree: 0%
    * 보고된 지표([!UICONTROL Cost] \[기본적으로 선택됨\], [!UICONTROL Clicks] 또는 [!UICONTROL Objective Value])를 변경합니다.
 
    * [!UICONTROL Portfolios] 보기를 열려면 차트의 오른쪽 하단에서 **[!UICONTROL View More]**&#x200B;을(를) 클릭합니다. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
-
