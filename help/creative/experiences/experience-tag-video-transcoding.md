@@ -3,9 +3,9 @@ title: 비디오 광고 경험 태그에 대한 코드 변환 옵션 사용자 �
 description: 비디오 광고 태그에 대한 코드 변환 옵션을 사용자 지정하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: b5d3a2d88eb49d975823dc7c4fe71cfa9ea3f231
+source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Video Settings]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Publisher specific transcodes]** 목록에서 코드 변환 형식을 선택합니다.
+1. **[!UICONTROL Publisher-specific transcodes]** 목록에서 코드 변환을 적용할 DSP을 선택합니다.
 
 1. **[!UICONTROL Save Settings]**&#x200B;을(를) 클릭합니다.
 

@@ -3,9 +3,9 @@ title: 의사 결정 트리 타겟팅으로 경험 만들기
 description: 의사 결정 트리를 사용하여 타깃팅된 광고 경험을 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 경험이 라이브되면 [!DNL Creative]은(는) 각 적용 가능한 광고 크기 또는 비디오 지속 시간에 대해 하나의 광고 태그를 자동으로 만듭니다. 그런 다음 [광고 태그를 내보내고 DSP에서 구현](/help/creative/experiences/experience-tag-export.md)할 수 있습니다.
 
-비디오 광고 경험의 경우 비디오 크리에이티브가 DSP as VAST 2.0 태그로 자동으로 코드 변환되므로 미리 볼 수 있습니다. 원할 경우 [게시자별 코드 변환](experience-tag-video-transcoding.md)을 모든 비디오 광고 경험 태그에 적용할 수 있습니다.
+비디오 광고 경험의 경우 비디오 크리에이티브가 Adobe Advertising DSP as VAST 2.0 태그로 자동으로 코드 변환되므로 미리 볼 수 있습니다. 원할 경우 [다른 DSP에 대한 코드 변환 적용을](experience-tag-video-transcoding.md)할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
