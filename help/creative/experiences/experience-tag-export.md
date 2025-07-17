@@ -33,7 +33,7 @@ Advertising DSP을 사용하는 광고주는 선택적으로 광고 유형이 &q
 
    * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다.
 
-1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![광고 태그 내보내기](/help/creative/assets/export.png "광고 태그 내보내기") **[!UICONTROL Export ad tags]** 또는 **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**&#x200B;를 클릭합니다.
+1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![광고 태그 내보내기](/help/creative/assets/export.png "광고 태그 내보내기") **[!UICONTROL Export ad tags]** 또는 **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**&#x200B;를 클릭합니다.
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ Advertising DSP을 사용하는 광고주는 선택적으로 광고 유형이 &q
 
 1. 태그 유형 선택:
 
-   * (비비디오 경험) **0}JavaScript *** 또는 **<!-- sic -->* IFRAME ****&#x200B;입니다.<!-- sic -->
+   * (비비디오 경험) **0&rbrace;JavaScript &#x200B;*** 또는 **<!-- sic -->* IFRAME **&#x200B;**&#x200B;입니다.<!-- sic -->
 
-   * (비디오 경험) **0}비디오&#x200B;***.*
+   * (비디오 경험) **0&rbrace;비디오&#x200B;***.*
 
 1. [!UICONTROL Destinations] 목록에서 경험을 위한 광고를 만들 위치를 선택합니다.
 
