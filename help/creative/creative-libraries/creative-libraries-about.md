@@ -3,9 +3,9 @@ title: 크리에이티브 라이브러리 정보
 description: 광고 경험을 위한 크리에이티브 관리에 대해 알아봅니다.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 85f89ef480ee938c7dbac0f3a1d5b9a5db0bef8f
+source-git-commit: 056502f8c634ee62b750d7c4c188dc248b836a5a
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 장치나 네트워크에서 웹, 모바일 또는 연결된 TV에 대한 자사 비디오 크리에이티브를 업로드할 수 있습니다. 각 표준 비디오 광고 경험은 경험에 지정된 각 크리에이티브 기간에 대해 기본 비디오 크리에이티브를 필요로 합니다. 모든 비디오 크리에이티브는 DSP as VAST 2.0 태그로 자동으로 코드 변환되므로 미리 볼 수 있습니다. [!UICONTROL Tag Manager]에서 원할 경우 [게시자별 코드 변환](/help/creative/experiences/experience-tag-video-transcoding.md)을 비디오 광고 경험 태그에 적용할 수 있습니다.
 
-다음 비디오 크리에이티브 요구 사항을 참조하십시오.
+다음 비디오 크리에이티브 요구 사항을 참조하십시오. **참고:** 비디오 경험을 Advertising DSP에 업로드하려면 DSP의 [HD 비디오 Assets 요구 사항](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)도 참조하세요. 이는 더 제한될 수 있습니다.
 
 **파일 형식:** .mov, .mp4, .webm
 
