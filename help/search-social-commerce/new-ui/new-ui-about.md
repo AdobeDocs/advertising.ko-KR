@@ -2,9 +2,9 @@
 title: 새 사용자 인터페이스 정보
 description: 새로운 사용자 인터페이스에 대해 알아봅니다.
 feature: Search Introduction
-source-git-commit: 982b7b93a392029859be13ae59fb4b0b2fa69a59
+source-git-commit: 97c7776ab7dfacbb7ac4fdc038f25d4ced5b54e4
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,4 @@ ht-degree: 0%
 >
 >* [사용자 인터페이스를 구성하는 방법](/help/search-social-commerce/getting-started/user-interface.md)
 >* [새 사용자 인터페이스와 기존 사용자 인터페이스 간 전환](/help/search-social-commerce/getting-started/ui-switch.md)
+>* 새 사용자 인터페이스 및 기존 사용자 인터페이스에서 사용자 정의 및 기본 보기 관리, 다른 광고주의 데이터 보기, 데이터 필터 적용 및 기타 탐색 및 데이터 관련 작업에 대한 자세한 내용은 &quot;일반 작업&quot;에 대한 장을 참조하십시오
