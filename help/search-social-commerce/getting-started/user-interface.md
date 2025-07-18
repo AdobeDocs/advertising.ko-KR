@@ -3,7 +3,7 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a9425f4ccf79778b6b113de9ab925f2bdcee81c9
+source-git-commit: 2d218c960cd74fdfa9c981540951d7305b7740c7
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Beta 기능*
 
-![사용자 인터페이스](/help/search-social-commerce/assets/new-ui.png "사용자 인터페이스")
+![사용자 인터페이스](/help/search-social-commerce/assets/ui-new.png "사용자 인터페이스")
 
 각 페이지에는 주 메뉴와 기타 작업 및 정보 기반 메뉴가 포함되어 있습니다.
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Objectives]** 기존 목표를 모두 보고 목표를 만들고 편집하고 삭제할 수 있는 새 [!UICONTROL Objectives] 보기를 엽니다. 목표 설정은 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta]에 있는 기존 사용자 인터페이스의 설정과 동일합니다.
 
-   * **[!UICONTROL Simulations]** 사용자가 만든 모든 사용자 지정 시뮬레이션 및 자동으로 생성된 주별 시뮬레이션을 볼 수 있는 새 [[!UICONTROL Simulations] 보기를 엽니다](/help/search-social-commerce/new-ui/optimization/plan/simulations/simulation-about.md). 새 사용자 지정 시뮬레이션을 생성하고 기존 시뮬레이션을 다시 실행할 수 있습니다. [!UICONTROL Spend Planner] 단추를 사용하면 [!UICONTROL Spend Recommendation] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization]에서 레거시 [!UICONTROL Spend Recommendation] 도구가 열립니다.
+   * **[!UICONTROL Simulations]** 사용자가 만든 모든 사용자 지정 시뮬레이션 및 자동으로 생성된 주별 시뮬레이션을 볼 수 있는 새 [[!UICONTROL Simulations] 보기를 엽니다](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md). 새 사용자 지정 시뮬레이션을 생성하고 기존 시뮬레이션을 다시 실행할 수 있습니다. [!UICONTROL Spend Planner] 단추를 사용하면 [!UICONTROL Spend Recommendation] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization]에서 레거시 [!UICONTROL Spend Recommendation] 도구가 열립니다.
 
 * **[!UICONTROL Manage]** 하위 메뉴:
 
