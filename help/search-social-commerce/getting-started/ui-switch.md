@@ -3,9 +3,9 @@ title: 새 사용자 인터페이스와 기존 사용자 인터페이스 간 전
 description: 새 사용자 인터페이스와 기존 사용자 인터페이스 간을 전환하는 방법에 대해 알아봅니다.
 feature: Search Introduction
 exl-id: 4dbdbaa1-6b06-42a2-86da-feb0183f3c9a
-source-git-commit: 9a466a57f4c3ab61be6f5d98edf951ac7c766e81
+source-git-commit: 70c4b5633aaec148c68d7da0ac8fe926706eb660
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
 
  -->
 
-<!--
 >[!MORELIKETHIS]
 >
->* [How the user interface is organized](user-interface.md)
--->
+>* [사용자 인터페이스를 구성하는 방법](user-interface.md)
