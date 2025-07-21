@@ -3,9 +3,10 @@ title: (새 UI) 목표 만들기
 description: 목표를 만드는 방법을 알아봅니다.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 21516197-d005-4703-8735-c789107dc3c4
+source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,9 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Plan]>[!UICONTROL Objectives]**&#x200B;을(를) 클릭합니다.
 
-1. 오른쪽 상단에서 ![추가](/help/search-social-commerce/assets/add-new.png "추가")를 클릭합니다.
+1. 오른쪽 상단에서 **[!UICONTROL Create Objective]** 또는 ![추가](/help/search-social-commerce/assets/add-new.png "추가")를 클릭합니다.
+
+   표시되는 단추는 브라우저 너비에 따라 다릅니다.
 
 1. 목표 설정을 입력합니다.
 

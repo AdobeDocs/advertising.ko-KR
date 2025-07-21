@@ -3,9 +3,10 @@ title: (새 UI) 포트폴리오 만들기
 description: 포트폴리오를 만드는 방법을 알아봅니다.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: f7fe6138-8335-407a-88fd-f0ace27c93ee
+source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,9 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;을(를) 클릭합니다.
 
-1. 데이터 테이블 위의 도구 모음에서 ![추가](/help/search-social-commerce/assets/add-new.png "추가")를 클릭합니다.
+1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Create Portfolio]** 또는 ![추가](/help/search-social-commerce/assets/add-new.png "추가")를 클릭합니다.
+
+   표시되는 단추는 브라우저 너비에 따라 다릅니다.
 
 1. 포트폴리오 설정을 지정합니다.
 
