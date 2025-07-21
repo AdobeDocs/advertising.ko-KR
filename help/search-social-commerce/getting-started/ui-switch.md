@@ -3,7 +3,7 @@ title: 새 사용자 인터페이스와 기존 사용자 인터페이스 간 전
 description: 새 사용자 인터페이스와 기존 사용자 인터페이스 간을 전환하는 방법에 대해 알아봅니다.
 feature: Search Introduction
 exl-id: 4dbdbaa1-6b06-42a2-86da-feb0183f3c9a
-source-git-commit: 70c4b5633aaec148c68d7da0ac8fe926706eb660
+source-git-commit: 30c47defdd82e759f0e9025bf111faf0ee7dd707
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -20,13 +20,7 @@ ht-degree: 0%
 
 ## 기존 UI에서 새 UI로 전환
 
-* 페이지 맨 위에서 **[!UICONTROL Try the new UI Beta]**&#x200B;을(를) 클릭합니다.
-
-<!-- CHANGING ICON/location/wording WITH GA :
-
-* In the upper right of any page, click **[!UICONTROL Switch to New UI]**.
-
- -->
+* 페이지 맨 위에서 **[!UICONTROL Switch to New UI]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
