@@ -40,7 +40,7 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
+1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
 
    기본적으로 새 사용자 인터페이스가 열립니다.
 
@@ -54,7 +54,7 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
+1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
 
 1. 홈 페이지의 [!UICONTROL Quick Access] 섹션에서 **[!UICONTROL Advertising Search, Social, & Commerce]**&#x200B;을(를) 클릭합니다.
 
