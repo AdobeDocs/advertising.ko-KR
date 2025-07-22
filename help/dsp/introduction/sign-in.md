@@ -3,9 +3,9 @@ title: DSP에 로그인
 description: DSP에 로그인하는 방법에 대해 알아봅니다.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 143c7bfc38baca48abde323cbca7f582de234bc1
+source-git-commit: f81a6d9b9df17540e27681218483acc30b5724a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,15 @@ Adobe Advertising DSP이 로그인 인증을 위해 Adobe Identity Management �
 
 1. 조직 선택:
 
-   * 메시지가 표시되면 **개인 계정&quot; 또는 &#x200B;** 회사 또는 학교 계정**&#x200B;을 선택합니다.
+   * 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 **[!UICONTROL Company or School Account]**&#x200B;을(를) 선택합니다.
 
    * 여러 IMS 조직에 액세스할 수 있는 경우 올바른 조직을 선택합니다.
 
-사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
+사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
 
 ### 문제 해결
 
-일반적인 로그인 문제에 대해서는 &quot;[Adobe 계정 로그인 문제 해결](https://helpx.adobe.com/kr/manage-account/kb/account-password-sign-help.linkfree.html)&quot;도 참조하십시오.
+일반적인 로그인 문제에 대해서는 &quot;[Adobe 계정 로그인 문제 해결](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;도 참조하십시오.
 
 #### 새 [!DNL Adobe] IMS 로그인을 활성화하기 위한 필수 구성 요소가 있습니까?
 
