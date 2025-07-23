@@ -3,16 +3,16 @@ title: DSP에 로그인
 description: DSP에 로그인하는 방법에 대해 알아봅니다.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 414bc93bc4a550f918742bd55d1078d36440063d
+source-git-commit: 62430015c5252cdd1418000d05e49a1c7869e09e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # Adobe Advertising DSP에 로그인
 
-Adobe Advertising DSP이 로그인 인증을 위해 Adobe Identity Management 서비스(IMS)로 전환하고 있습니다. IMS는 Real-Time Customer Data Platform, Customer Journey Analytics, Target 및 Analytics를 포함하여 IMS를 지원하는 모든 [!DNL Adobe] 제품에 SSO(Single Sign-On) 액세스를 제공합니다. 변경 사항:
+Adobe Advertising DSP이 로그인 인증을 위해 Adobe Identity Management 서비스(IMS)로 전환하고 있습니다. IMS는 Real-Time Customer Data Platform, Customer Journey Analytics, Target 및 Analytics를 포함하여 IMS를 지원하는 모든 [!DNL Adobe] 제품에 Federated ID를 사용하여 SSO(Single Sign-On) 액세스를 제공합니다. 변경 사항:
 
 * [!DNL Adobe ID] 하나를 사용하여 Experience Cloud 로그인 페이지 또는 기존 DSP 로그인 페이지에서 [!DNL Adobe] 제품 간에 로그인할 수 있습니다. [!DNL Adobe ID]에서 사용자 프로필 관리를 제공합니다. 향후 릴리스에서는 상단 메뉴에서 DSP 계정, IMS 조직 계정 및 [!DNL Adobe] 제품을 변경할 수 있습니다.
 
@@ -42,15 +42,15 @@ Adobe Advertising DSP이 로그인 인증을 위해 Adobe Identity Management �
 
 1. 조직 선택:
 
-   * 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**&#x200B;을(를) 선택합니다.
+   * 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 **[!UICONTROL Company or School Account]**&#x200B;을(를) 선택합니다.
 
    * 여러 IMS 조직에 액세스할 수 있는 경우 올바른 조직을 선택합니다.
 
-사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
+사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
 
 ### 문제 해결
 
-일반적인 로그인 문제에 대해서는 &quot;[Adobe 계정 로그인 문제 해결](https://helpx.adobe.com/kr/manage-account/kb/account-password-sign-help.linkfree.html)&quot;도 참조하십시오.
+일반적인 로그인 문제에 대해서는 &quot;[Adobe 계정 로그인 문제 해결](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;도 참조하십시오.
 
 #### 새 [!DNL Adobe] IMS 로그인을 활성화하기 위한 필수 구성 요소가 있습니까?
 
