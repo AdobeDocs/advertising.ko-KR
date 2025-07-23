@@ -22,7 +22,7 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 현재 검색, 소셜 및 Commerce 자격 증명은 변경을 준비할 수 있도록 잠시 동안 활성 상태로 유지됩니다.
 
-사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
+사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
 
 ## 기존 검색, 소셜 및 Commerce 로그인 페이지에서 로그인
 
