@@ -101,7 +101,7 @@ Admin Console은 여러 유형의 관리자를 제공하지만 검색, 소셜 �
 
    1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-   1. **[!UICONTROL Personal Account]&quot; 또는 **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> 중 하나를 선택하십시오.
+   1. **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> 중 하나를 선택하십시오.
 
    1. 해당 Experience Cloud 조직을 선택합니다.
 
