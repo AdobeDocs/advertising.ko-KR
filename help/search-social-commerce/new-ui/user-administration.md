@@ -101,7 +101,7 @@ Admin Console은 여러 유형의 관리자를 제공하지만 검색, 소셜 �
 
    1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-   1. **[!UICONTROL Personal Account]&quot; 또는 **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> 중 하나를 선택하십시오.
+   1. **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> 중 하나를 선택하십시오.
 
    1. 해당 Experience Cloud 조직을 선택합니다.
 
@@ -135,7 +135,7 @@ Admin Console은 여러 유형의 관리자를 제공하지만 검색, 소셜 �
 
    사용자 지정 프로필은 이미 사용 가능한 4개의 기본 제품 프로필에 추가됩니다.
 
-   조직의 각 제품 프로필에는 고유한 이름이 있어야 합니다. 조직에서 여러 검색, 소셜 및 Commerce 인스턴스(예: Acme_US 및 Acme_JP)를 사용하는 경우 여러 인스턴스에서 제품 프로필 이름을 복제할 수 없습니다. **모범 사례:** 명명 규칙 사용 &quot;<Name>_<Instance>,&quot;(예: &quot;Simulations_Only_JP&quot;)
+   조직의 각 제품 프로필에는 고유한 이름이 있어야 합니다. 조직에서 여러 검색, 소셜 및 Commerce 인스턴스(예: Acme_US 및 Acme_JP)를 사용하는 경우 여러 인스턴스에서 제품 프로필 이름을 복제할 수 없습니다. **모범 사례:** 명명 규칙 사용 &quot;&lt;Name>_&lt;Instance>,&quot;(예: &quot;Simulations_Only_JP&quot;)
 
 1. [각 사용자 또는 사용자 그룹을 관련 제품 프로필에 할당](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)합니다. 수동으로 또는 일괄적으로.
 
