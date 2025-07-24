@@ -113,7 +113,7 @@ Admin Console은 여러 유형의 관리자를 제공하지만 검색, 소셜 �
 
 1. [Adobe Admin Console에 로그인하여 검색, 소셜 및 Commerce으로 열기](#open-admin-console).
 
-1. [제품 관리자를 추가](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)하여 제품 및 사용자 관리를 위임합니다.
+1. [제품 관리자를 추가](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html#enterprise)하여 제품 및 사용자 관리를 위임합니다.
 
 <!-- what else? -->
 
@@ -121,9 +121,9 @@ Admin Console은 여러 유형의 관리자를 제공하지만 검색, 소셜 �
 
 1. [Adobe Admin Console에 로그인하여 검색, 소셜 및 Commerce으로 열기](#open-admin-console).
 
-1. 필요에 따라 최종 사용자를 [개별적으로](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) 또는 [일괄적으로](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)만드십시오.
+1. 필요에 따라 최종 사용자를 [개별적으로](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html) 또는 [일괄적으로](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html)만드십시오.
 
-1. (선택 사항) 각 제품 인스턴스에 대해 [사용자 그룹](https://helpx.adobe.com/enterprise/using/user-groups.html)을(를) 만들고 각 사용자 그룹에 사용자를 할당합니다.
+1. (선택 사항) 각 제품 인스턴스에 대해 [사용자 그룹](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)을(를) 만들고 각 사용자 그룹에 사용자를 할당합니다.
 
    인스턴스에 사용자가 많은 경우 사용자 그룹을 만들어 사용자가 전문 지식 수준에 따라 올바른 프로필이 할당되도록 합니다. (제품 프로필에 사용자 그룹을 할당하려면 4단계 를 참조하십시오.) LOB, 사용자 액세스 요구 사항, 사용자 고용 일자 또는 기타 기준에 따라 사용자 그룹을 생성할 수 있습니다.
 
@@ -131,16 +131,16 @@ Admin Console은 여러 유형의 관리자를 제공하지만 검색, 소셜 �
    >
    >사용자 그룹 이름은 사용자 그룹에 할당해야 하는 권한을 명확하게 전달해야 합니다. 예를 들어 &quot;읽기 전용&quot; 권한이 있는 사용자 그룹을 만들려면 사용자 그룹 이름에 &quot;Acme_Uk_ReadOnly&quot; 또는 &quot;Acme_ReadOnly&quot;와 같이 &quot;읽기 전용&quot;을 포함합니다.
 
-1. (선택 사항) 정의된 권한 집합을 사용하여 [사용자 지정 제품 프로필을 만듭니다](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html).
+1. (선택 사항) 정의된 권한 집합을 사용하여 [사용자 지정 제품 프로필을 만듭니다](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html).
 
    사용자 지정 프로필은 이미 사용 가능한 4개의 기본 제품 프로필에 추가됩니다.
 
    조직의 각 제품 프로필에는 고유한 이름이 있어야 합니다. 조직에서 여러 검색, 소셜 및 Commerce 인스턴스(예: Acme_US 및 Acme_JP)를 사용하는 경우 여러 인스턴스에서 제품 프로필 이름을 복제할 수 없습니다. **모범 사례:** &quot;Simulations_Only_JP&quot;와 같은 명명 규칙 `<Name>_<Instance>,`을(를) 사용합니다.
 
-1. [각 사용자 또는 사용자 그룹을 관련 제품 프로필에 할당](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)합니다. 수동으로 또는 일괄적으로.
+1. [각 사용자 또는 사용자 그룹을 관련 제품 프로필에 할당](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)합니다. 수동으로 또는 일괄적으로.
 
 ## 전체 사용자 관리 안내서 및 추가 링크
 
-* Adobe Admin Console을 사용한 사용자 관리에 대한 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/enterprise/admin-guide.html)를 포함하여 &quot;[Adobe Enterprise &amp; Teams 관리 안내서](https://helpx.adobe.com/enterprise/using/admin-console.html)&quot;을 참조하십시오.
+* Adobe Admin Console을 사용한 사용자 관리에 대한 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/kr/enterprise/admin-guide.html)를 포함하여 &quot;[Adobe Enterprise &amp; Teams 관리 안내서](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)&quot;을 참조하십시오.
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
