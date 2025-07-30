@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
+source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
 workflow-type: tm+mt
-source-wordcount: '4477'
+source-wordcount: '4560'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,16 @@ ht-degree: 0%
    * *[!UICONTROL Minimum Budget]*: 패키지 예산의 최소 예산 비율입니다. 간격 상한을 지정하면 최소 예산 값은 항상 간격 상한의 백분율로 계산됩니다. 그렇지 않으면 패키지 예산의 백분율로 계산됩니다.
 
 **[!UICONTROL Max Bid]:** 1000회 노출 시 최대 결제 금액입니다.
+
+**[!UICONTROL Min Bid]:**(비공개 및 [!DNL On-Demand] 거래에만 해당) 인벤토리 유형에 따른 최소 입찰가입니다. 옵션을 선택합니다.
+
+* *[!UICONTROL None]*: 인벤토리 유형에 대한 최소 입찰이 없습니다. 계산된 입찰가가 타겟팅된 거래의 고정/기본 가격보다 낮은 경우 DSP은 입찰하지 않습니다. 이는 규모에 영향을 미칠 수 있습니다.
+
+* *[!UICONTROL Fixed/floor price for Private deals only]*: DSP은 알고리즘 계산식 입찰이 더 적더라도 타깃팅된 비공개 딜에 대해 최소 고정/최저 가격을 입찰합니다. 성능에 영향을 줄 수 있습니다.
+
+* *[!UICONTROL Fixed/floor price for On-demand deals only]*: DSP은 알고리즘 계산식 입찰이 더 적더라도 타겟팅된 [!DNL On-Demand] 거래의 고정/최저 가격을 입찰합니다. 성능에 영향을 줄 수 있습니다.
+
+* *[!UICONTROL Fixed/floor price for both Private and On-demand deals]*: DSP은 알고리즘 계산식 입찰이 더 적더라도 타겟팅된 비공개 및 [!DNL On-Demand] 거래의 고정/최저 가격을 입찰합니다. 성능에 영향을 줄 수 있습니다.
 
 **[!UICONTROL Placement Pre-bid Filters]:** 입찰을 진행하려면 충족해야 하는 최대 5개의 KPI 임계값(예: 최소 가시성 지표 또는 클릭스루 비율)이 있습니다. 최적화 전술로 사전 입찰 필터를 사용할 수 있지만 각 규칙은 이 배치가 입찰할 수 있는 기회를 제한할 수 있습니다. 필터를 추가하거나 편집하려면:
 
@@ -181,13 +191,9 @@ ht-degree: 0%
 
   [!UICONTROL Deals] 탭에서 키워드, 키, 거래 ID 또는 사용자 지정 태그로 목록을 검색할 수 있습니다. [!UICONTROL Deal Lists] 탭에서 거래 목록 이름 또는 거래 목록 ID별로 목록을 검색할 수 있습니다.
 
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (선택 사항) 거래의 고정 가격 및 최저 가격을 입찰하도록 입찰 가격 알고리즘을 재정의합니다.
-
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: [!DNL DSP]에서 구독한 모든 [premium, 보장되지 않는 [!UICONTROL On Demand] 인벤토리](/help/dsp/inventory/on-demand-inventory-about.md)(또는 [!DNL Roku] 배치에 대해 [!UICONTROL On Demand]개의 [!DNL Roku] 거래). [!UICONTROL On Demand] 인벤토리를 포함 및 제외할 수 있습니다.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: [에서 구독한 모든 [!UICONTROL On Demand]premium, 보장되지 않는 ](/help/dsp/inventory/on-demand-inventory-about.md) 인벤토리[!UICONTROL On Demand]&#x200B;(또는 [!DNL Roku] 배치에 대해 [!DNL Roku]개의 [!DNL DSP] 거래). [!UICONTROL On Demand] 인벤토리를 포함 및 제외할 수 있습니다.
 
   소스 또는 피드별로 목록을 볼 수 있습니다. 피드별로 목록을 볼 때 피드 이름, 피드 키 또는 선택한 게시자 영역, 범주 태그 또는 특성 태그별로 검색할 수 있습니다.
-
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (선택 사항) 거래의 고정 가격 및 최저 가격을 입찰하도록 입찰 가격 알고리즘을 재정의합니다.
 
 재고 타깃팅을 지정하려면 다음을 수행합니다.
 
@@ -269,7 +275,7 @@ ht-degree: 0%
          1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
          1. 검색 결과에서 제외할 사이트를 선택합니다.
             * 개별 사이트를 제외하려면 인접한 확인란을 선택합니다.
-            * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**&#x200B;을(를) 클릭합니다.
+            * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**을(를) 클릭합니다.
       * 도메인 이름을 입력하려면 다음을 수행합니다.
          1. **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
          1. 별도의 줄에 도메인 이름을 하나 이상 입력합니다.
@@ -304,7 +310,7 @@ ht-degree: 0%
          1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
          1. 검색 결과에서 포함할 사이트를 선택합니다.
             * 개별 사이트를 포함하려면 인접한 확인란을 선택합니다.
-            * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 포함하려면 **[!UICONTROL Include these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 포함하려면 **[!UICONTROL Include these \<*NN *\>]**&#x200B;을(를) 클릭하십시오.
+            * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 포함하려면 **[!UICONTROL Include these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 포함하려면 **[!UICONTROL Include these \<*NN *\>]**을(를) 클릭하십시오.
       * 도메인 이름을 입력하려면 다음을 수행합니다.
          1. **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
          1. 별도의 줄에 도메인 이름을 하나 이상 입력합니다.
@@ -323,15 +329,15 @@ ht-degree: 0%
 
 **[!UICONTROL Included Audiences]:** [타사 세그먼트, 자사 세그먼트, Adobe 세그먼트, 사용자 지정 세그먼트 및 저장된 대상을 포함하여 배치에 대한 모든 대상 대상](/help/dsp/audiences/audience-settings.md). 선택한 모든 세그먼트 및 저장된 대상자 전체에 걸쳐 중복 제거된 총 활성 대상자 크기도 표시됩니다. 기존 대상을 선택하거나, 나중에 다시 사용할 수 있는 대상을 만들거나, 특정 대상 세그먼트를 선택할 수 있습니다.
 
-* 기존 대상을 선택하려면 [!UICONTROL Included Audiences] 옆에 있는 ![선택](/help/dsp/assets/chevron-down.png)을 클릭한 다음 대상을 선택하십시오.
-* 대상을 만들려면 [!UICONTROL Included Audiences] 옆에 있는 ![선택](/help/dsp/assets/chevron-down.png)을 클릭한 다음 **[!UICONTROL + Create Audience]**&#x200B;을(를) 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
+* 기존 대상을 선택하려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 대상을 선택하십시오.
+* 대상을 만들려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 **[!UICONTROL + Create Audience]**&#x200B;을(를) 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
 * 특정 대상 세그먼트를 선택하려면 **[!UICONTROL Select segments for this placement only]**&#x200B;을(를) 클릭하십시오. 세그먼트 논리를 선택합니다. 지침은 &quot;[재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)&quot;의 6단계를 참조하십시오. 완료되면 **저장**&#x200B;을 클릭하세요.
 
 **[!UICONTROL Excluded Audiences]:** [타사 세그먼트, 자사 세그먼트, Adobe 세그먼트, 사용자 지정 세그먼트 및 저장된 대상을 포함하여 배치에 대해 제외할 대상](/help/dsp/audiences/audience-settings.md)입니다. 제외된 모든 대상에 걸쳐 중복 제거된 총 활성 대상 크기도 표시됩니다. 기존 대상을 선택하거나 나중에 다시 사용할 수 있는 새 대상을 만들 수 있습니다.
 
-* 기존 대상을 선택하려면 [!UICONTROL Excluded Audiences] 옆에 있는 ![선택](/help/dsp/assets/chevron-down.png)을 클릭한 다음 대상을 선택하십시오.
+* 기존 대상을 선택하려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Excluded Audiences]을 클릭한 다음 대상을 선택하십시오.
 
-* 대상을 만들려면 [!UICONTROL Excluded Audiences] 옆에 있는 ![선택](/help/dsp/assets/chevron-down.png)을 클릭한 다음 **+ 대상 만들기**&#x200B;를 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
+* 대상을 만들려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Excluded Audiences]을 클릭한 다음 **+ 대상 만들기**&#x200B;를 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
 
 **[!UICONTROL Targeting]:** 타깃팅할 사용자 ID의 유형입니다. 배치가 라이브 상태가 된 후(즉, 비행이 시작된 후) 이 설정을 변경할 수 없습니다.
 
@@ -339,7 +345,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (기본값) 쿠키, 모바일 광고 ID 또는 연결된 TV(CTV) ID를 기준으로 사용자를 타깃팅합니다. ID는 브라우저, 인앱 또는 CTV 인벤토리를 기반으로 선택됩니다.
 
-* *[!UICONTROL Universal ID Beta]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[&#128279;](/help/dsp/audiences/sources/source-about.md) 또는 [범용 ID를 추적하는 사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md)에 사용합니다.
+* *[!UICONTROL Universal ID Beta]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[ 또는 ](/help/dsp/audiences/sources/source-about.md)범용 ID를 추적하는 사용자 지정 세그먼트[에 사용합니다.](/help/dsp/audiences/custom-segment-create.md)
 
    * *[!UICONTROL ID5]*: 이메일 주소 및 기타 신호에서 [!DNL ID5] ID를 확률적으로 만들었습니다.<!-- What countries/geos are these available for? Everywhere?-->개의 ID5 ID를 무료로 사용할 수 있습니다. **참고:** [!DNL Eyeota]의 타사 세그먼트에는 ID5 ID가 포함될 수 있습니다.
 
@@ -413,7 +419,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]:**(선택 사항; [!DNL DoubleVerify] 고객만 해당; 데스크톱 프리롤, 표준 및 클릭-재생 디스플레이, 기본 디스플레이 및 비디오 배치에만 사용 가능; [거래의 기본 프로그램 보장 배치](/help/dsp/inventory/programmatic-guaranteed-about.md)에는 지원되지 않음) 배치에 사용할 조직의 [!DNL DoubleVerify] 계정과 연결된 [!DNL DoubleVerify Authentic Brand Safety] 세그먼트 ID입니다. ID를 지정하면 지정된 세그먼트 ID에 대해 구성된 사용자 지정 브랜드 안전 규칙을 사용하여 입찰 후 노출을 차단합니다. DSP은 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
+**[!UICONTROL DoubleVerify ABS segment ID]:**(선택 사항; [!DNL DoubleVerify] 고객만 해당; 데스크톱 프리롤, 표준 및 클릭-재생 디스플레이, 기본 디스플레이 및 비디오 배치에만 사용 가능; [거래의 기본 프로그램 보장 배치](/help/dsp/inventory/programmatic-guaranteed-about.md)에는 지원되지 않음) 배치에 사용할 조직의 [!DNL DoubleVerify Authentic Brand Safety] 계정과 연결된 [!DNL DoubleVerify] 세그먼트 ID입니다. ID를 지정하면 지정된 세그먼트 ID에 대해 구성된 사용자 지정 브랜드 안전 규칙을 사용하여 입찰 후 노출을 차단합니다. DSP은 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
 
 ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다. 기본적으로 광고주 계정 설정에 세그먼트 ID가 지정되어 있으면 광고주 수준 ID가 입력되지만, 다른 세그먼트를 사용하도록 ID를 변경하거나 해당 ID를 삭제하여 기능을 비활성화할 수 있습니다.
 
