@@ -3,7 +3,7 @@ title: 라이브 경험을 위한 광고 경험 태그 내보내기 및 구현
 description: 광고 경험 태그를 내보내고 선택적으로 Advertising DSP 캠페인에 업로드하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: 1ce04f4bfa0707d9bcc1f6601dadbdab682ad95d
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Advertising DSP을 사용하는 광고주는 선택적으로 광고 유형이 &q
 
    * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다.
 
-1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![광고 태그 내보내기](/help/creative/assets/export.png "광고 태그 내보내기") **[!UICONTROL Export ad tags]** 또는 **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**&#x200B;를 클릭합니다.
+1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![광고 태그 내보내기](/help/creative/assets/export.png "광고 태그 내보내기") **[!UICONTROL Export ad tags]** 또는 **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**&#x200B;를 클릭합니다.
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ Advertising DSP을 사용하는 광고주는 선택적으로 광고 유형이 &q
 
 1. 태그 유형 선택:
 
-   * (비비디오 경험) **0&rbrace;JavaScript &#x200B;*** 또는 **<!-- sic -->* IFRAME **&#x200B;**&#x200B;입니다.<!-- sic -->
+   * (비비디오 경험) ***JavaScript* ** 또는 ** *Iframe* **.
 
-   * (비디오 경험) **0&rbrace;비디오&#x200B;***.*
+   * (비디오 경험) **0}비디오&#x200B;***.*
 
 1. [!UICONTROL Destinations] 목록에서 경험을 위한 광고를 만들 위치를 선택합니다.
 
