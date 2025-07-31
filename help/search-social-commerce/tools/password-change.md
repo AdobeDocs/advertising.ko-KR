@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 기능은 기존 검색, 소셜 및 Commerce 계정에만 적용할 수 있습니다. 이제 대부분의 사용자가 [!DNL Adobe] ID를 대신 사용합니다.<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>이 기능은 기존 검색, 소셜 및 Commerce 계정에만 적용할 수 있습니다. 이제 대부분의 사용자가 [!DNL Adobe] ID를 대신 사용합니다.<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
 
 암호를 변경하면 현재 세션에서 로그아웃됩니다. 작업을 계속하려면 새 암호로 로그인해야 합니다.
 
