@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # (새 UI) 검색, 소셜 및 상거래에 대한 사용자 관리
 
-일부 사용자는 모든 Adobe 권한 및 사용자 관리를 관리하는 중앙 위치인 [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)을(를) 사용하여 새 검색, 소셜 및 Commerce 사용자 인터페이스에 대한 액세스를 관리할 수 있습니다. 사용자는 최종 사용자 또는 관리자로 분류됩니다. 관리자인 경우 Adobe 계정 팀에서 알림을 보냅니다. 관리자는 다음 섹션을 참조하여 사용자 관리를 위한 권한 및 워크플로를 식별합니다.
+일부 사용자는 모든 Adobe 권한 및 사용자 관리를 관리하는 중앙 위치인 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을(를) 사용하여 새 검색, 소셜 및 Commerce 사용자 인터페이스에 대한 액세스를 관리할 수 있습니다. 사용자는 최종 사용자 또는 관리자로 분류됩니다. 관리자인 경우 Adobe 계정 팀에서 알림을 보냅니다. 관리자는 다음 섹션을 참조하여 사용자 관리를 위한 권한 및 워크플로를 식별합니다.
 
 ## 관리자 유형
 
@@ -111,9 +111,9 @@ Admin Console에서는 여러 유형의 관리자를 제공합니다. 검색, �
 
 1. [Adobe Admin Console에 로그인하여 검색, 소셜 및 Commerce으로 열기](#open-admin-console).
 
-1. (선택 사항) [다른 시스템 관리자를 추가](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)합니다.
+1. (선택 사항) [다른 시스템 관리자를 추가](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html#enterprise)합니다.
 
-1. [제품 관리자를 추가](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise)하여 제품 및 사용자 관리를 위임합니다.
+1. [제품 관리자를 추가](https://helpx.adobe.com/kr/enterprise/using/admin-roles.html#enterprise)하여 제품 및 사용자 관리를 위임합니다.
 
 ### 제품 관리자를 위한 워크플로
 
@@ -121,9 +121,9 @@ Admin Console에서는 여러 유형의 관리자를 제공합니다. 검색, �
 
 1. [Adobe Admin Console에 로그인하여 검색, 소셜 및 Commerce으로 열기](#open-admin-console).
 
-1. 필요에 따라 최종 사용자를 [개별적으로](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) 또는 [일괄적으로](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)만드십시오.
+1. 필요에 따라 최종 사용자를 [개별적으로](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html) 또는 [일괄적으로](https://helpx.adobe.com/kr/enterprise/using/bulk-upload-users.html)만드십시오.
 
-1. (선택 사항) 인스턴스에 대해 [사용자 그룹](https://helpx.adobe.com/enterprise/using/user-groups.html)을(를) 만들고 각 사용자 그룹에 사용자를 할당합니다.
+1. (선택 사항) 인스턴스에 대해 [사용자 그룹](https://helpx.adobe.com/kr/enterprise/using/user-groups.html)을(를) 만들고 각 사용자 그룹에 사용자를 할당합니다.
 
    인스턴스에 사용자가 많은 경우 사용자 그룹을 만들어 사용자가 전문 지식 수준에 따라 올바른 프로필이 할당되도록 합니다. (제품 프로필에 사용자 그룹을 할당하려면 4단계 를 참조하십시오.) LOB, 사용자 액세스 요구 사항, 사용자 고용 일자 또는 기타 기준에 따라 사용자 그룹을 생성할 수 있습니다.
 
@@ -131,7 +131,7 @@ Admin Console에서는 여러 유형의 관리자를 제공합니다. 검색, �
    >
    >사용자 그룹 이름은 사용자 그룹에 할당해야 하는 권한을 명확하게 전달해야 합니다. 예를 들어 &quot;읽기 전용&quot; 권한이 있는 사용자 그룹을 만들려면 사용자 그룹 이름에 &quot;Acme_Uk_ReadOnly&quot; 또는 &quot;Acme_ReadOnly&quot;와 같이 &quot;읽기 전용&quot;을 포함합니다.
 
-1. (선택 사항) 정의된 권한 집합을 사용하여 [사용자 지정 제품 프로필을 만듭니다](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html).
+1. (선택 사항) 정의된 권한 집합을 사용하여 [사용자 지정 제품 프로필을 만듭니다](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html).
 
    사용자 지정 프로필은 이미 사용 가능한 4개의 기본 제품 프로필에 추가됩니다.
 
@@ -139,10 +139,10 @@ Admin Console에서는 여러 유형의 관리자를 제공합니다. 검색, �
 
    **주의:** 제품 사용 권한이 매우 세분화되었습니다. 사용자 정의 제품 프로필을 구성할 때는 주의하십시오. 그렇지 않으면 포함하려는 기능을 생략할 수 있습니다.
 
-1. [각 사용자 또는 사용자 그룹을 관련 제품 프로필에 할당](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)합니다. 수동으로 또는 일괄적으로.
+1. [각 사용자 또는 사용자 그룹을 관련 제품 프로필에 할당](https://helpx.adobe.com/kr/enterprise/using/manage-product-profiles.html)합니다. 수동으로 또는 일괄적으로.
 
 ## 전체 사용자 관리 안내서 및 추가 링크
 
-* Adobe Admin Console을 사용한 사용자 관리에 대한 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/enterprise/admin-guide.html)를 포함하여 &quot;[Adobe Enterprise &amp; Teams 관리 안내서](https://helpx.adobe.com/enterprise/using/admin-console.html)&quot;을 참조하십시오.
+* Adobe Admin Console을 사용한 사용자 관리에 대한 자세한 내용은 [Admin Console 개요](https://helpx.adobe.com/kr/enterprise/admin-guide.html)를 포함하여 &quot;[Adobe Enterprise &amp; Teams 관리 안내서](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)&quot;을 참조하십시오.
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
