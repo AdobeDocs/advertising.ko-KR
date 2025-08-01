@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 기능은 기존 검색, 소셜 및 Commerce 로그인 자격 증명에만 적용할 수 있습니다. 이제 대부분의 사용자가 인증에 [!DNL Adobe] ID를 대신 사용합니다. [!DNL Adobe] ID의 암호를 변경하려면 &quot;[Adobe 암호 재설정 또는 변경](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)&quot;을 참조하십시오.
+>이 기능은 기존 검색, 소셜 및 Commerce 로그인 자격 증명에만 적용할 수 있습니다. 이제 대부분의 사용자가 인증에 [!DNL Adobe] ID를 대신 사용합니다. [!DNL Adobe] ID의 암호를 변경하려면 &quot;[Adobe 암호 재설정 또는 변경](https://helpx.adobe.com/kr/manage-account/using/change-or-reset-password.html)&quot;을 참조하십시오.
 
 암호를 변경하면 현재 세션에서 로그아웃됩니다. 작업을 계속하려면 새 암호로 로그인해야 합니다.
 
