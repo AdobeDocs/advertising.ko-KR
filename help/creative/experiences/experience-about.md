@@ -3,9 +3,9 @@ title: Advertising Creative의 경험
 description: 개인화된 광고 경험을 구성하고 성능에 따라 광고 요소를 최적화하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
   타겟팅 옵션은 다음과 같습니다.
 
-   * Adobe Audience Manager, Adobe Analytics 및 Advertising DSP의 자사 대상 세그먼트, Advertising DSP의 사용자 지정 세그먼트, Advertising DSP에서 제공하는 타사 세그먼트
+   * Adobe Audience Manager, Adobe Analytics 및 Advertising DSP의 대상 세그먼트, 계정에 대해 가져온 다른 모든 자사 세그먼트, Advertising DSP의 사용자 지정 세그먼트, Advertising DSP에서 제공하는 타사 세그먼트, 대상 라이브러리에 빌드된 기존 Advertising DSP 대상
 
    * 국가, 주, 미국 내 DMA, 도시 및 우편번호를 포함한 특정 지리적 위치
 

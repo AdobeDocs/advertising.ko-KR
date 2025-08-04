@@ -3,9 +3,9 @@ title: 경험의 최종 수준에 대상 노드 추가
 description: 광고 경험의 최종 타겟 수준에 타겟 노드를 추가하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 7e345130f43fc2d8c2ada287a2dc61b1515e2d25
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,15 @@ ht-degree: 0%
 
 1. 대상을 지정합니다.
 
-   * Adobe 대상 대상에 대해 **[!UICONTROL Adobe Audience]**&#x200B;을(를) 선택한 후 다음을 수행합니다.
+   * 대상 대상에 대해 **[!UICONTROL Audience]**&#x200B;을(를) 선택한 후 다음을 수행합니다.
 
-      1. **[!UICONTROL Click to Browse]**&#x200B;을(를) 클릭하여 [!UICONTROL Audience Targeting] 옵션을 열고 **[!UICONTROL Adobe Segments]** 탭을 열고 광고주의 [!DNL Adobe] 대상 대상을 한 개 이상 지정한 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+      1. **[!UICONTROL Click to Browse]**&#x200B;을(를) 클릭하여 [!UICONTROL Audience Targeting] 옵션을 열고 타겟팅할 광고주의 대상을 하나 이상 지정합니다.
 
-      1. (선택 사항) 여러 대상을 지정할 때 여러 대상 노드를 만들려면 **[!UICONTROL Split targets to create nodes]**&#x200B;을(를) 선택합니다.
+      1. 오른쪽 열에서 지정한 대상 중 노드에 대해 *[!UICONTROL Include any]*(기본값) 또는 *[!UICONTROL Include all]*&#x200B;을(를) 사용할지 여부를 선택합니다.
 
-         이 기능은 지정된 각 대상에 대해 별도의 대상 노드(별도의 크리에이티브 번들을 포함)를 만듭니다. 대상을 분할하지 않으면 사용자가 지정된 모든 대상([!DNL Boolean] `AND` 문)에 속해야 합니다.
+     이 옵션은 사용자가 지정된 대상([!DNL Boolean] `OR` 문) 중 하나 이상에 속해야 하는지 또는 지정된 모든 대상([!DNL Boolean] `AND` 문)에 속해야 노출에 적합한지 여부를 결정합니다.
+
+      1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
       1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
@@ -51,7 +53,7 @@ ht-degree: 0%
 
    * 데이터 전달 대상에 대해 **[!UICONTROL Data Pass]**&#x200B;을(를) 선택하고 선택적으로 데이터 전달 키를 사용자 지정하고 단일 데이터 전달 값을 입력한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-   키-값 쌍의 키에 대한 기본값이 [경험 설정](experience-settings-targeting.md)의 [!UICONTROL Advanced] 섹션에 있는 **[!UICONTROL Data Pass]** 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
+   키-값 쌍의 키에 대한 기본값이 **[!UICONTROL Data Pass]**&#x200B;경험 설정[!UICONTROL Advanced]의 [ 섹션에 있는 ](experience-settings-targeting.md) 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
 
    * 재타겟팅 픽셀 타겟의 경우 **[!UICONTROL RT Pixel]**&#x200B;을(를) 선택하고 사용할 단일 재타겟팅 픽셀과 크리에이티브를 표시하는 데 필요한 픽셀 특성 값을 선택한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 

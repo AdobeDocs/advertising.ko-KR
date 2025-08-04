@@ -3,9 +3,9 @@ title: 경험의 노드 사이에 동일 수준의 타겟 노드 추가
 description: 대상이 있거나 대상이 있는 노드와 동일한 수준에 있는 모든 노드에 형제 노드를 추가하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,15 @@ In an existing experience,
 
 1. 대상을 지정합니다.
 
-   * Adobe 대상 타겟의 경우 다음을 수행합니다.
+   * 대상자 타겟의 경우 다음을 수행합니다.
 
-      1. **[!UICONTROL Click to Browse]**&#x200B;을(를) 클릭하여 [!UICONTROL Audience Targeting] 옵션을 열고 **[!UICONTROL Adobe Segments]** 탭을 열고 광고주의 [!DNL Adobe] 대상 대상을 한 개 이상 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+      1. **[!UICONTROL Click to Browse]**&#x200B;을(를) 클릭하여 [!UICONTROL Audience Targeting] 옵션을 열고 타겟팅할 광고주의 대상을 하나 이상 지정합니다.
 
-      1. (선택 사항) 여러 대상을 지정할 때 여러 대상 노드를 만들려면 **[!UICONTROL Split targets to create nodes]**&#x200B;을(를) 선택합니다.
+      1. 오른쪽 열에서 지정한 대상 중 노드에 대해 *[!UICONTROL Include any]*(기본값) 또는 *[!UICONTROL Include all]*&#x200B;을(를) 사용할지 여부를 선택합니다.
 
-         이 기능은 지정된 각 대상에 대해 별도의 대상 노드(별도의 크리에이티브 번들을 포함)를 만듭니다. 대상을 분할하지 않으면 사용자가 지정된 모든 대상([!DNL Boolean] `AND` 문)에 속해야 합니다.
+     이 옵션은 사용자가 지정된 대상([!DNL Boolean] `OR` 문) 중 하나 이상에 속해야 하는지 또는 지정된 모든 대상([!DNL Boolean] `AND` 문)에 속해야 노출에 적합한지 여부를 결정합니다.
+
+      1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
       1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
@@ -54,7 +56,7 @@ In an existing experience,
 
    * 데이터 전달 대상의 경우 선택적으로 데이터 전달 키를 사용자 지정하고 단일 데이터 전달 값을 입력한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-     키-값 쌍의 키에 대한 기본값이 [경험 설정](experience-settings-targeting.md)의 [!UICONTROL Advanced] 섹션에 있는 **[!UICONTROL Data Pass]** 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
+     키-값 쌍의 키에 대한 기본값이 **[!UICONTROL Data Pass]**&#x200B;경험 설정[!UICONTROL Advanced]의 [ 섹션에 있는 ](experience-settings-targeting.md) 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
 
    * 픽셀 대상을 재타겟팅하려면 사용할 재타겟팅 픽셀과 크리에이티브를 표시하기 위해 존재해야 하는 픽셀 속성에 대한 필수 값을 선택합니다. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
