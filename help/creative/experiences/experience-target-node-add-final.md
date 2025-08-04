@@ -3,9 +3,9 @@ title: 경험의 최종 수준에 대상 노드 추가
 description: 광고 경험의 최종 타겟 수준에 타겟 노드를 추가하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,31 @@ ht-degree: 0%
 
 1. 대상을 지정합니다.
 
-   * 대상 대상에 대해 **[!UICONTROL Audience]**&#x200B;을(를) 선택한 후 다음을 수행합니다.
+   * 대상 대상의 경우 **[!UICONTROL Audience]**&#x200B;을(를) 선택하고 **[!UICONTROL Click to Browse]**&#x200B;을(를) 클릭하여 [!UICONTROL Audience Targeting] 옵션을 연 후 다음을 수행합니다.
 
-      1. **[!UICONTROL Click to Browse]**&#x200B;을(를) 클릭하여 [!UICONTROL Audience Targeting] 옵션을 열고 타겟팅할 광고주의 대상을 하나 이상 지정합니다.
+      * 첫 번째 세그먼트를 추가하려면 왼쪽 패널에서 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
 
-      1. 오른쪽 열에서 지정한 대상 중 노드에 대해 *[!UICONTROL Include any]*(기본값) 또는 *[!UICONTROL Include all]*&#x200B;을(를) 사용할지 여부를 선택합니다.
+      * 기존 세그먼트 그룹에 세그먼트를 추가하려면 다음 작업을 수행하십시오.
 
-     이 옵션은 사용자가 지정된 대상([!DNL Boolean] `OR` 문) 중 하나 이상에 속해야 하는지 또는 지정된 모든 대상([!DNL Boolean] `AND` 문)에 속해야 노출에 적합한지 여부를 결정합니다.
+         1. 오른쪽 패널에서 세그먼트 그룹을 클릭합니다.
+
+         1. (선택 사항) 필요에 따라 그룹 논리를 *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* 또는 *[!UICONTROL Exclude All]*(으)로 변경합니다.
+
+            *[!UICONTROL Exclude All]*&#x200B;은(는) 첫 번째 세그먼트 그룹에서 사용할 수 없습니다. 제외만 포함하는 대상의 경우 이 대상을 *[!UICONTROL Include Any]*(으)로 만든 다음 DSP 내의 배치에 추가할 때 해당 대상을 제외합니다.
+
+         1. 왼쪽 패널에서 새 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
+
+            세그먼트 그룹이 새 세그먼트로 자동으로 업데이트됩니다.
+
+      * 새 세그먼트 그룹을 추가하려면:
+
+         1. 오른쪽 패널에서 **[!UICONTROL + New Group]**&#x200B;을(를) 클릭합니다.
+
+         1. (선택 사항) 필요에 따라 이전 그룹과 새 그룹 간의 논리를 *[!UICONTROL And]* 또는 *[!UICONTROL Or]*(으)로 변경합니다.
+
+         1. 왼쪽 패널에서 새 그룹의 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
+
+         1. (선택 사항) 필요에 따라 그룹 논리를 *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* 또는 *[!UICONTROL Exclude All]*(으)로 변경합니다.
 
       1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
