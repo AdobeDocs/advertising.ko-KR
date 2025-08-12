@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
 
-예약된 변수를 사용하여 [ 통합을 위한 ](ids.md)AMO ID 및 EF ID[!DNL Analytics for Advertising]을(를) 캡처하는 경우, AMO ID 및 EF ID에 대한 예약된 변수를 가능한 한 빨리 [standard](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) [!DNL analytics]에 복사하여 Adobe Advertising과 [Adobe Customer Journey Analytics [!DNL eVars]&#x200B;(Adobe의 차세대 ](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/evar) 솔루션) 간의 통합을 위해 데이터를 준비할 수 있습니다. 이를 통해 작업을 완료하는 즉시 AMO ID 및 EF ID에 대한 내역 데이터를 수집할 수 있습니다. 예약된 변수를 사용하며 이 작업을 완료해야 하는 경우 Adobe 계정 팀에 알려줍니다.
+예약된 변수를 사용하여 [ 통합을 위한 ](ids.md)AMO ID 및 EF ID[!DNL Analytics for Advertising]을(를) 캡처하는 경우, AMO ID 및 EF ID에 대한 예약된 변수를 가능한 한 빨리 [standard](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview) [!DNL analytics]에 복사하여 Adobe Advertising과 [Adobe Customer Journey Analytics [!DNL eVars]&#x200B;(Adobe의 차세대 ](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/evar) 솔루션) 간의 통합을 위해 데이터를 준비할 수 있습니다. 이를 통해 작업을 완료하는 즉시 AMO ID 및 EF ID에 대한 내역 데이터를 수집할 수 있습니다. 예약된 변수를 사용하며 이 작업을 완료해야 하는 경우 Adobe 계정 팀에 알려줍니다.
 
 <!-- You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation. -->
 
@@ -28,7 +28,7 @@ Customer Journey Analytics을 사용하면 Adobe Experience Platform의 데이�
 
 Adobe Advertising은 데이터를 Customer Journey Analytics에 자동으로 전송하는 솔루션을 구축하고 있습니다. 솔루션이 출시되면 Adobe Advertising은 Customer Journey Analytics에서 사용하기 위해 AMO ID 및 EF ID에 대한 데이터를 전송하기 시작하지만, 릴리스 날짜 이전의 내역 데이터는 존재하지 않습니다.
 
-그러나 이제 간단한 <!-- [!DNL rVars] -->처리 규칙[[!DNL Analytics] 을(를) 만들어 AMO ID 및 EF ID ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)을(를) <!-- [!DNL rVars] -->에 복사하면 AMO ID 및 EF ID [!DNL eVars]에 대한 데이터를 더 빨리 수집할 수 있습니다. 처리 규칙을 만들면 새 이벤트를 추적하는 즉시 AMO ID 및 EF ID <!-- [!DNL rVars] -->에 대한 데이터를 누적하기 시작합니다. 그런 다음 솔루션을 사용할 수 있게 되면 Customer Journey Analytics 내에서 내역 데이터를 사용할 수 있습니다.
+그러나 이제 간단한 <!-- [!DNL rVars] -->처리 규칙[[!DNL Analytics] 을(를) 만들어 AMO ID 및 EF ID ](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)을(를) <!-- [!DNL rVars] -->에 복사하면 AMO ID 및 EF ID [!DNL eVars]에 대한 데이터를 더 빨리 수집할 수 있습니다. 처리 규칙을 만들면 새 이벤트를 추적하는 즉시 AMO ID 및 EF ID <!-- [!DNL rVars] -->에 대한 데이터를 누적하기 시작합니다. 그런 다음 솔루션을 사용할 수 있게 되면 Customer Journey Analytics 내에서 내역 데이터를 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Adobe Advertising은 데이터를 Customer Journey Analytics에 자동으로 전
 
 이 단계는 수동이며, 향후 Adobe Advertising과 통합할 것으로 예상되는 AMO ID 및 EF ID <!-- [!DNL rVars] -->을(를) 추적하는 각 보고서 세트에 대해 완료해야 합니다.
 
-1. 다음 설정으로 [처리 규칙을 만듭니다](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules).
+1. 다음 설정으로 [처리 규칙을 만듭니다](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules).
 
    * AMO ID 및 EF ID <!-- [!DNL rVar] --> 데이터를 Customer Journey Analytics에서 사용하기 위해 Experience Platform으로 마이그레이션할 보고서 세트를 선택하십시오.
 
@@ -73,7 +73,7 @@ Adobe Advertising은 데이터를 Customer Journey Analytics에 자동으로 전
 
    예를 들어 새 eVar `eVar142`이(가) `amo.s_kwcid(Context Data)`에 매핑되어 있으면 `eVar142`과(와) `AMO ID`의 데이터가 동일해야 합니다.
 
-처리 규칙 적용 방법에 대한 자세한 내용은 &quot;[처리 규칙 작동 방식](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)&quot;을 참조하십시오.
+처리 규칙 적용 방법에 대한 자세한 내용은 &quot;[처리 규칙 작동 방식](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)&quot;을 참조하십시오.
 
 >[!MORELIKETHIS]
 >
