@@ -33,7 +33,7 @@ Adobe Advertising 및 Adobe Target을 사용하면 마케터가 유료 미디어
 
 * [[!DNL Analytics] Advertising용](/help/integrations/analytics/overview.md) 통합<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 통합
+* [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko) 통합
 
 * Audience Manager(뷰스루 테스트에만 필요)
 
@@ -77,15 +77,15 @@ Adobe 계정 팀에 문의하여 필요한 배치 키를 검색하고 설정을 
 
    1. 세그먼트 데이터를 사용할 수 있는지 확인합니다.
 
-      1. 세그먼트 사용자를 그룹화할 수준을 결정하는 [키-값 쌍](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html)에 대한 신호를 [검색](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html)합니다.
+      1. 세그먼트 사용자를 그룹화할 수준을 결정하는 [키-값 쌍](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=ko)에 대한 신호를 [검색](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=ko)합니다.
 
-         Audience Manager 노출 이벤트 픽셀에 추가한 매크로에 해당하는 값으로 [지원되는 키](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html)을(를) 사용합니다.
+         Audience Manager 노출 이벤트 픽셀에 추가한 매크로에 해당하는 값으로 [지원되는 키](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=ko)을(를) 사용합니다.
 
          예를 들어 특정 배치에 대해 사용자를 그룹화하려면 `d_placement` 키를 사용하십시오. 값에 대해 DSP 매크로 `${TM_PLACEMENT_ID_NUM}`에서 캡처한 실제 숫자 배치 ID(예: 2501853)를 사용합니다. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
          검색 결과에 픽셀이 올바르게 배치되었고 데이터가 흐르고 있음을 나타내는 키-값 쌍에 대한 사용자 수가 표시되면 다음 단계를 계속 진행합니다.
 
-   1. Audience Manager에서 세그먼트를 만들 [규칙 기반 특성을 만듭니다](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html).
+   1. Audience Manager에서 세그먼트를 만들 [규칙 기반 특성을 만듭니다](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ko).
 
       * 테스트 활동 내에서 쉽게 식별할 수 있도록 트레이트 이름을 지정합니다. 원하는 폴더에 트레이트를 저장합니다.
 
@@ -93,7 +93,7 @@ Adobe 계정 팀에 문의하여 필요한 배치 키를 검색하고 설정을 
 
       * 트레이트 식의 경우 `d_event`을(를) **[!UICONTROL Key]**(으)로 사용하고 `imp`을(를) **[!UICONTROL Value]**(으)로 사용합니다.
 
-   1. [Audience Manager에서 새 트레이트에 대한 테스트 세그먼트를 설정](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html)하고 `Ad Cloud`을(를) **[!UICONTROL Data Source]**(으)로 선택합니다.
+   1. [Audience Manager에서 새 트레이트에 대한 테스트 세그먼트를 설정](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=ko)하고 `Ad Cloud`을(를) **[!UICONTROL Data Source]**(으)로 선택합니다.
 
       Audience Manager은 세그먼트를 표준 랜딩 페이지 경험을 받는 컨트롤 그룹과 개인화된 온사이트 경험을 받는 테스트 그룹으로 자동으로 분할합니다.
 
@@ -101,15 +101,15 @@ Adobe 계정 팀에 문의하여 필요한 배치 키를 검색하고 설정을 
 
 다음 지침은 DSP 사용 사례와 관련된 정보를 강조 표시합니다.
 
-1. [Adobe Target 로그인](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
+1. [Adobe Target 로그인](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=ko).
 
-1. [A/B 테스트 만들기](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
+1. [A/B 테스트 만들기](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ko):
 
    1. **[!UICONTROL Enter Activity URL]** 필드에 테스트용 랜딩 페이지 URL을 입력합니다.
 
       >[!NOTE]
       >
-      >여러 URL을 사용하여 뷰스루 사이트 항목을 테스트할 수 있습니다. 자세한 내용은 &quot;[다중 페이지 활동](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html)&quot;을 참조하세요. Analytics에서 [사이트 시작 보고서](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports)를 만들어 페이지 URL별로 상위 항목을 쉽게 식별할 수 있습니다.
+      >여러 URL을 사용하여 뷰스루 사이트 항목을 테스트할 수 있습니다. 자세한 내용은 &quot;[다중 페이지 활동](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html?lang=ko)&quot;을 참조하세요. Analytics에서 [사이트 시작 보고서](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports)를 만들어 페이지 URL별로 상위 항목을 쉽게 식별할 수 있습니다.
 
    1. **[!UICONTROL Goal]** 필드에 테스트에 대한 성공 지표를 입력합니다.
 
@@ -121,7 +121,7 @@ Adobe 계정 팀에 문의하여 필요한 배치 키를 검색하고 설정을 
 
    1. **[!UICONTROL Reporting Settings]** 내에서 DSP 계정에 연결된 **[!UICONTROL Company Name]** 및 **[!UICONTROL Report Suite]**&#x200B;을(를) 선택하십시오.
 
-      추가 보고 팁은 &quot;[보고 모범 사례 및 문제 해결](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html)&quot;을 참조하십시오.
+      추가 보고 팁은 &quot;[보고 모범 사례 및 문제 해결](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=ko)&quot;을 참조하십시오.
 
    1. **[!UICONTROL Date Range]** 필드에 테스트에 대한 적절한 시작 날짜와 종료 날짜를 입력합니다.
 
@@ -135,7 +135,7 @@ Adobe 계정 팀에 문의하여 필요한 배치 키를 검색하고 설정을 
 
    1. 활동을 저장합니다.
 
-1. [Target 시각적 경험 작성기](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)를 사용하여 A/B 테스트 랜딩 페이지 템플릿에 대한 디자인을 변경합니다.
+1. [Target 시각적 경험 작성기](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ko)를 사용하여 A/B 테스트 랜딩 페이지 템플릿에 대한 디자인을 변경합니다.
 
    * 경험 A: 개인화가 없는 기본/제어 랜딩 페이지 경험이므로 편집하지 마십시오.
 
@@ -151,7 +151,7 @@ Adobe 계정 팀에 문의하여 필요한 배치 키를 검색하고 설정을 
 
 [!DNL Analytics for Target]&#x200B;(A4T)은(는) 광고주가 [!DNL Target] 전환 지표 및 대상 세그먼트를 기반으로 [!DNL Analytics] 활동을 만든 다음 [!DNL Analytics]을(를) 보고 소스로 사용하여 결과를 측정할 수 있는 솔루션 간 통합입니다. 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics] 데이터 수집을 기반으로 합니다.
 
-구현 지침에 대한 링크를 포함하여 [!DNL Analytics for Target]에 대한 자세한 내용은 &quot;[Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)&quot;을(를) 참조하십시오.
+구현 지침에 대한 링크를 포함하여 [!DNL Analytics for Target]에 대한 자세한 내용은 &quot;[Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko)&quot;을(를) 참조하십시오.
 
 ### [!DNL Analytics for Target] 패널 설정
 
@@ -179,7 +179,7 @@ Analysis Workspace에서 [!DNL Analytics for Target panel] 활동 및 경험을 
 
 Analysis Workspace 내에서 활동 및 경험 데이터가 최소화되거나 채워지지 않는 것을 발견하면 다음을 수행하십시오.
 
-* [!UICONTROL Supplemental Data ID]과(와) [!DNL Target]에 모두 동일한 [!DNL Analytics]&#x200B;(SDID)가 사용되는지 확인하십시오. 캠페인이 사용자를 유도하는 랜딩 페이지에서 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html)를 사용하여 SDID 값을 확인할 수 있습니다.
+* [!UICONTROL Supplemental Data ID]과(와) [!DNL Target]에 모두 동일한 [!DNL Analytics]&#x200B;(SDID)가 사용되는지 확인하십시오. 캠페인이 사용자를 유도하는 랜딩 페이지에서 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=ko)를 사용하여 SDID 값을 확인할 수 있습니다.
 
 [Adobe Debugger의 SDID(Supplemental Data ID) 값](/help/integrations/assets/target-troubleshooting-sdid.png)
 
@@ -193,10 +193,10 @@ Analysis Workspace 내에서 활동 및 경험 데이터가 최소화되거나 �
 
 ## 추가 읽기
 
-* [Analytics와 Target 통합](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Analysis Workspace에서 [!DNL Target] 보고를 설정하는 방법에 대해 설명합니다.
-* [A/B 테스트 개요](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - DSP 광고에 사용할 수 있는 A/B 테스트 활동에 대해 설명합니다.
-* [경험 및 오퍼](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) - DSP 테스트 사용자가 노출되는 사이트 콘텐츠를 결정하는 [!DNL Target] 도구에 대해 설명합니다.
-* [신호, 트레이트 및 세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html) - DSP 뷰스루 테스트에 도움이 되는 일부 Audience Manager 도구를 정의합니다.
+* [Analytics와 Target 통합](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=ko) - Analysis Workspace에서 [!DNL Target] 보고를 설정하는 방법에 대해 설명합니다.
+* [A/B 테스트 개요](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=ko) - DSP 광고에 사용할 수 있는 A/B 테스트 활동에 대해 설명합니다.
+* [경험 및 오퍼](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=ko) - DSP 테스트 사용자가 노출되는 사이트 콘텐츠를 결정하는 [!DNL Target] 도구에 대해 설명합니다.
+* [신호, 트레이트 및 세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=ko) - DSP 뷰스루 테스트에 도움이 되는 일부 Audience Manager 도구를 정의합니다.
 * [Advertising용 Analytics 개요](/help/integrations/analytics/overview.md) - Analytics 인스턴스에서 클릭스루 및 뷰스루 사이트 상호 작용을 추적할 수 있는 Advertising용 Analytics를 소개합니다.
 
 >[!MORELIKETHIS]
