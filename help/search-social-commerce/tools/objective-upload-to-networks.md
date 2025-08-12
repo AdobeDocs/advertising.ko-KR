@@ -3,9 +3,9 @@ title: 광고 네트워크에 목표 업로드 활성화
 description: 하이브리드 포트폴리오의 목표를  [!DNL Google Ads] 및 [!DNL Microsoft Advertising]에 업로드하는 방법을 알아봅니다.
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: cfdf9325f6a0696e7ab74379daaf77b20c184d9d
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Search, Social 및 Commerce에서 광고주 계정의 포트폴리오의 목표�
 
 여기서 `<network_ID>`은(는) Search, Social 및 Commerce에서 광고 네트워크에 사용하는 숫자 ID이고, `<objective_id>`은(는) 숫자 목표 ID이며, `<network_account_ID>`은(는) 광고 네트워크 계정 또는 관리자 계정에 대한 숫자 ID입니다.
 
-[!DNL Google Ads]에 대한 업로드는 광고주 시간대의 06:00에 매일 발생합니다. [!DNL Microsoft Advertising]에 대한 업로드는 광고주 시간대의 09:00에 매일 발생합니다.
+대부분의 광고주의 경우 [!DNL Google Ads]에 대한 업로드는 매시간 발생합니다. 계정이 크거나 사용자 지정 구성이 있는 광고주의 경우 업로드는 매일 3회 이상 발생합니다. [!DNL Microsoft Advertising]에 대한 업로드는 광고주 시간대의 09:00에 매일 발생합니다.
 
 >[!IMPORTANT]
 >
@@ -40,7 +40,7 @@ Search, Social 및 Commerce에서 광고주 계정의 포트폴리오의 목표�
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-1. (전환이 관리자 계정 수준에서 추적되는 경우) **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;에서 [관리자 계정에 대한 자격 증명을 추가](/help/search-social-commerce/admin/manager-accounts.md)합니다.
+1. (전환이 관리자 계정 수준에서 추적되는 경우) [ > ](/help/search-social-commerce/admin/manager-accounts.md) > **[!UICONTROL Search, Social, & Commerce]에서 [!UICONTROL Admin]관리자 계정에 대한 자격 증명을 추가[!UICONTROL Manager Accounts]**&#x200B;합니다.
 
 1. 광고 네트워크에 이틀 안에 `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`(이)라는 각 목표가 표시되는지 확인하십시오.
 
