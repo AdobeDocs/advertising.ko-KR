@@ -3,7 +3,7 @@ title: 광고 네트워크에 목표 업로드 활성화
 description: 하이브리드 포트폴리오의 목표를  [!DNL Google Ads] 및 [!DNL Microsoft Advertising]에 업로드하는 방법을 알아봅니다.
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 3d3031946bb614f2c58b83170473b1394e4a017c
+source-git-commit: 464fd13de476f2710536bea6540e0b9be4684395
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
