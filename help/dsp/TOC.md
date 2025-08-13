@@ -32,8 +32,8 @@ ht-degree: 3%
       + [크로스 디바이스 솔루션](/help/dsp/introduction/features/cross-device-solutions.md)
    + [계정 자금 조달](/help/dsp/introduction/billing/account-funding.md)
    + [지원되는 통화](/help/dsp/currency.md)
-   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)
 + 캠페인 관리 {#campaign-management}
    + [캠페인 관리 구조 개요](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -83,7 +83,7 @@ ht-degree: 3%
       + [스프레드시트를 사용하여 광고 세부 정보 검토](/help/dsp/campaign-management/ads/ad-qa.md)
       + [광고 편집](/help/dsp/campaign-management/ads/ad-edit.md)
       + [광고 복제](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [배치에 광고 첨부](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [배치에 광고 첨부](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=ko)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [광고에 대한 상세 보고서 보기](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [광고 일시 중지 또는 활성화](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -238,6 +238,6 @@ ht-degree: 3%
    + 알림 {#notifications}
       + [경고 구독 기본 정보](/help/dsp/admin/alerts-about.md)
       + [경고 구독 관리](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ko)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [도움말 보기](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)
