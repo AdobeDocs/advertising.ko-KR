@@ -3,9 +3,9 @@ title: Insights 정보
 description: 시각화를 통한 성능 통찰력에 대해 알아봅니다.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 99b9c110de5efbf646e35979eee6baac1d34f6ed
+source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,8 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 * 드롭다운 메뉴에서 insight의 왼쪽 상단으로 차원을 선택합니다.
 
 ## insight에 대해 보고된 지표 변경
+
+전환 지표의 경우, Adobe Advertising 추적 및 Adobe Analytics 추적 전환 모두에 대해 지원을 사용할 수 있습니다.
 
 1. insight 오른쪽 상단에서 ![지표 설정](/help/dsp/assets/metric-settings.png "지표 설정")을 클릭합니다.
 
