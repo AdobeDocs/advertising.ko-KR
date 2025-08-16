@@ -2,16 +2,15 @@
 title: 경험 삭제
 description: 사용하지 않는 경험을 삭제하는 방법을 알아봅니다.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5658692f-4ae6-41d5-82d3-78ff5560b95f
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
 # 경험 삭제
-
-*베타가 닫힘*
 
 <!-- No multiselect for experiences as of 1/30 -->
 
@@ -33,4 +32,3 @@ ht-degree: 0%
 >
 >* [의사 결정 트리 타깃팅으로 경험 만들기](experience-create-targeting.md)
 >* [의사 결정 트리 타깃팅 없이 경험 만들기](experience-create-no-targeting.md)
-

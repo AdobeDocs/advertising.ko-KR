@@ -3,16 +3,14 @@ title: 광고 복제
 description: Creative Library에서 크리에이티브를 복제하는 방법을 알아봅니다.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
 
 # 광고 복제
-
-*베타가 닫힘*
 
 크리에이티브를 복제하여 동일한 설정을 가진 새 크리에이티브를 동일한 라이브러리에 추가합니다. 나중에 새 크리에이티브의 이름을 바꾸고 필요에 따라 크리에이티브 설정을 편집할 수 있습니다.
 

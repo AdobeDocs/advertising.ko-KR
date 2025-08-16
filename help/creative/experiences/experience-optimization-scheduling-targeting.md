@@ -3,9 +3,9 @@ title: 경험을 위한 크리에이티브 최적화 및 일정 사용자 정의
 description: 방법 알아보기
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 의사 결정 트리 타겟팅을 사용하는 경험에 대한 크리에이티브 최적화 및 예약 사용자 지정
 
 *기존 크리에이티브만 있는 노드 타깃팅*
-*Beta 완료*
 
 기본적으로 경험에 대한 크리에이티브 순환은 전체 클릭스루 속도를 최적화하기 위해 알고리즘적으로 결정되며 크리에이티브 최적화 설정은 할당된 모든 번들에 적용됩니다. 상대적 가중치에 따라 각 번들에서 크리에이티브를 수동으로 실행하거나 지정된 Advertising DSP 사용자 지정 목표에 대해 알고리즘적으로 최적화하도록 크리에이티브 순환을 사용자 지정할 수 있습니다. 또한 특정 크리에이티브 번들이 지정된 순차적 기간 동안 실행되도록 예약하고 각 예약에 대해 사용자 정의 크리에이티브 순환 설정을 적용할 수 있습니다.
 

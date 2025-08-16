@@ -3,9 +3,9 @@ title: 경험의 최종 수준에 대상 노드 추가
 description: 광고 경험의 최종 타겟 수준에 타겟 노드를 추가하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 경험의 최종 수준에 대상 노드 추가
 
 *의사 결정 트리가 타겟팅된 경험*
-*Beta 완료*
 
 루트 &quot;모든&quot; 노드이든, 타겟 특정 노드이든, &quot;기타 모든&quot; 노드이든 간에 경험의 최상위 수준에 타겟 노드를 추가하면 타겟을 직접 정의하고 동일 수준의 노드를 만들 필요가 없습니다. 하위 수준 노드를 추가하면 대상 노드와 동일한 수준에 추가 &quot;기타 모든 항목&quot; 노드가 만들어집니다.
 

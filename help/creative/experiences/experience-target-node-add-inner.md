@@ -3,9 +3,9 @@ title: 경험의 노드 사이에 타겟 노드 추가
 description: 광고 경험에서 타겟 노드 사이에 타겟 노드를 추가하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 경험의 노드 사이에 타겟 노드 추가
 
 *의사 결정 트리가 타겟팅된 경험*
-*Beta 완료*
 
 기존 레벨 사이에 대상 노드를 삽입하면 새 대상 노드는 기존의 모든 하위 대상 및 크리에이티브를 유지하고 새 노드를 처음에는 &quot;모두&quot;라고 합니다. 더 많은 특정 대상을 추가하지 않고 선택적으로 새 노드를 유지할 수 있습니다.
 

@@ -2,16 +2,15 @@
 title: Adobe Advertising Creative 정보
 description: ' [!DNL Creative]에 대해 알아봅니다.'
 feature: Creative Introduction
-source-git-commit: 72a6c3de183aa47cecc2ec4d0fab30ff91d4bb05
+exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # Adobe Advertising Creative 2.0 정보
-
-*베타가 닫힘*
 
 <!-- verify all and rewrite to include new stuff -->
 

@@ -3,9 +3,9 @@ title: 크리에이티브 다운로드
 description: 크리에이티브를 ZIP 파일로 다운로드하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: 6507d472-be25-4f20-a32e-ad73250d78d4
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 크리에이티브 다운로드
 
 *표준 크리에이티브만*
-*Beta 완료*
 
 브라우저의 일반적인 절차에 따라 선택한 모든 크리에이티브를 ZIP 형식의 파일로 다운로드합니다.
 

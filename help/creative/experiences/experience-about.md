@@ -3,16 +3,14 @@ title: Advertising Creative의 경험
 description: 개인화된 광고 경험을 구성하고 성능에 따라 광고 요소를 최적화하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
 
 # Advertising Creative 2.0의 경험 정보
-
-*베타가 닫힘*
 
 각 광고 경험에는 하나의 광고 유형(표준 디스플레이, 표준 비디오 또는 동적 디스플레이)이 포함될 수 있습니다. [!DNL Advertising Creative 2.0]은(는) 하나의 광고 라이브러리에서 광고에 대한 두 가지 다른 광고 경험 구조를 제공합니다.
 

@@ -3,9 +3,9 @@ title: 경험의 최종 노드에 크리에이티브 번들 지정 및 지정 �
 description: 광고 경험의 각 타겟에 크리에이티브를 할당하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 경험의 최종 노드에 크리에이티브 번들 지정 및 지정 취소
 
 *의사 결정 트리가 타겟팅된 경험*
-*Beta 완료*
 
 경험 의사 결정 트리의 맨 아래 레벨에 있는 대상 노드에 크리에이티브 번들을 할당할 수 있습니다. 타겟을 구성하지 않은 경험의 경우 가장 아래 레벨이 &quot;모두&quot; 아래에 있습니다.
 

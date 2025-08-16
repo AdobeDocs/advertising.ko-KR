@@ -3,16 +3,14 @@ title: 광고 태그 이름 바꾸기
 description: 경험에 대한 광고 태그의 이름을 변경하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 8c2fda31-2e4c-49ea-bcf2-f1bf564068b8
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
 # 경험용 광고 태그 이름 바꾸기
-
-*베타가 닫힘*
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;을(를) 클릭합니다.
 

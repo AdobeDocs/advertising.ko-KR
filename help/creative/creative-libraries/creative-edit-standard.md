@@ -3,16 +3,14 @@ title: Creative Library에서 표준 크리에이티브 편집
 description: Creative Library에서 표준(비동적) 크리에이티브의 설정을 변경하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # Creative Library에서 표준 크리에이티브 편집
-
-*베타가 닫힘*
 
 표준 문안의 각 유형에 대한 일부 설정을 편집할 수 있습니다. 동일한 크리에이티브 유형의 여러 크리에이티브<!-- or creative variations -->을(를) 편집할 수 있습니다(랜딩 페이지가 한 개만 있는 단순 HTML5, 랜딩 페이지가 여러 개인 정적 HTML5, 유연한 HTML5, 이미지 또는 타사<!-- , or dynamic -->).
 

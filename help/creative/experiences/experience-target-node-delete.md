@@ -3,9 +3,9 @@ title: 경험에서 대상 노드 또는 크리에이티브 리프 노드 삭제
 description: 경험 내에서 노드를 삭제하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
-source-git-commit: a98f5dc623e8ac86878171f8742f3bf279343343
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 경험에서 대상 노드 또는 크리에이티브 리프 노드 삭제
 
 *의사 결정 트리가 타겟팅된 경험*
-*Beta 완료*
 
 모든 하위 타겟과 해당 하위 노드에 할당된 크리에이티브 번들을 포함한 타겟 노드를 삭제할 수 있습니다. 크리에이티브 리프 노드를 삭제할 수도 있습니다.
 

@@ -3,16 +3,14 @@ title: 비디오 광고 경험 태그에 대한 코드 변환 옵션 사용자 �
 description: 비디오 광고 태그에 대한 코드 변환 옵션을 사용자 지정하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 # 비디오 광고 경험 태그에 대한 코드 변환 옵션 사용자 지정
-
-*베타가 닫힘*
 
 비디오 광고 경험에 대한 트랜스코딩 옵션을 사용자 지정하여 게시자 간에 빠르게 재생하고 품질을 제어할 수 있습니다.
 

@@ -3,16 +3,14 @@ title: 의사 결정 트리 타겟팅으로 경험 편집
 description: 의사 결정 트리를 사용하여 타깃팅된 광고 경험에 대한 설정을 편집하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 47a230347059a26c6c1c2db7c73306a376062478
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
 
 # 의사 결정 트리 타겟팅으로 경험 편집
-
-*베타가 닫힘*
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;을(를) 클릭합니다.
 

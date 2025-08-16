@@ -3,16 +3,14 @@ title: 경험에 대한 데모 URL 공유
 description: 경험의 데모 URL을 공유하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 0d523270-e6b2-4d7b-a39c-749f3cc94561
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
 # 경험에 대한 데모 URL 공유
-
-*베타가 닫힘*
 
 [!DNL Creative]에 로그인하지 않은 다른 사용자가 데모 URL을 공유하여 경험을 미리 보도록 허용할 수 있습니다.
 

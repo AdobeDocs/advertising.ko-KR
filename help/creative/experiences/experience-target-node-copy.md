@@ -3,9 +3,9 @@ title: 하위 노드를 동일한 수준의 다른 대상 노드에 복사
 description: 상위 대상 노드의 모든 하위 노드를 동일한 수준의 다른 대상 노드로 복사하는 방법에 대해 알아봅니다
 feature: Creative Experiences
 exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 하위 노드를 동일한 수준의 다른 대상 노드에 복사
 
 *의사 결정 트리가 타겟팅된 경험*
-*Beta 완료*
 
 상위 대상 노드의 모든 하위 노드(모든 하위 대상 및 해당 하위 노드에 할당된 크리에이티브 번들 포함)를 동일한 레벨의 다른 대상 노드에 복사할 수 있습니다. a) 복사한 노드를 기존 프레임워크에 추가하거나 b) 기존 프레임워크를 완전히 교체하여 노드를 복사할 수 있습니다. <!-- Give the main use case or an example to explain. -->
 
@@ -27,7 +26,7 @@ ht-degree: 0%
 
    * 노드에 대한 모든 자식 노드 및 크리에이티브를 바꾸려면 복사한 정보를 붙여넣을 노드를 클릭하고 **..**&#x200B;을(를) 클릭한 다음 a\) **[!UICONTROL Replace ctrl+shift+v]** 또는 b\)를 선택하고 키보드에 **[!UICONTROL Ctrl+Shift+V]**([!DNL Microsoft Windows]) 또는 **[!UICONTROL Command-Shift-V]**([!DNL Apple Macintosh])을(를) 입력합니다.
 
-   * (여러 하위 대상이 있는 노드, &quot;모든&quot; 노드가 없고 크리에이티브만 없음) 노드에 모든 하위 노드 및 크리에이티브를 추가하려면 기존 하위 노드를 삭제하지 않고 복사한 정보를 붙여넣을 노드를 클릭하고 **..**&#x200B;을(를) 클릭한 다음 a\) **[!UICONTROL Add ctrl+v]** **&#x200B; 또는 b\)를 선택합니다. 키보드에 &#x200B;** [!UICONTROL Ctrl+V]&#x200B;**([!DNL Microsoft Windows]) 또는 &#x200B;** [!UICONTROL Command-V]**([!DNL Apple Macintosh])을(를) 입력합니다.
+   * (여러 하위 대상이 있는 노드, &quot;모든&quot; 노드가 없고 크리에이티브만 없음) 노드에 모든 하위 노드 및 크리에이티브를 추가하려면 기존 하위 노드를 삭제하지 않고 복사한 정보를 붙여넣을 노드를 클릭하고 **..**&#x200B;을(를) 클릭한 다음 a\) **[!UICONTROL Add ctrl+v]** ** 또는 b\)를 선택합니다. 키보드에 **[!UICONTROL Ctrl+V]**([!DNL Microsoft Windows]) 또는 **[!UICONTROL Command-V]**([!DNL Apple Macintosh])을(를) 입력합니다.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

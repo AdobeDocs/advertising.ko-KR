@@ -3,16 +3,14 @@ title: 의사 결정 트리 레이아웃
 description: 타깃팅이 있는 경험의 의사 결정 트리 레이아웃에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
 
 # [!DNL Creative] 경험에 대한 의사 결정 트리 레이아웃
-
-*베타가 닫힘*
 
 경험에 대해 &quot;[!UICONTROL Targeting]&quot; 옵션을 활성화하면 의사 결정 트리를 사용하여 경험을 설정합니다.
 
@@ -26,7 +24,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## 용어
 

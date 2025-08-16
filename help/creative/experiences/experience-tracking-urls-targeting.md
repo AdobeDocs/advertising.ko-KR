@@ -3,9 +3,9 @@ title: 경험에 대한 추적 URL 사용자 지정
 description: 의사 결정 트리 타깃팅을 사용하는 경험에서 각 크리에이티브에 대한 추적 URL을 사용자 지정하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 의사 결정 트리 타겟팅이 있는 경험에서 크리에이티브에 대한 추적 URL 사용자 지정
 
 *기존 크리에이티브만 있는 노드 타깃팅*
-*Beta 완료*
 
 의사 결정 트리 타깃팅이 있는 경험의 경우 경험에 사용되는 각 개별 크리에이티브에 대해 최대 5개의 사용자 지정 노출 추적 URL, 5개의 사용자 지정 클릭 추적 URL 및 1개의 사용자 지정 랜딩 페이지 URL을 만들 수 있습니다. 의사 결정 트리 내에서 추적 URL을 사용자 지정할 수 있습니다.
 

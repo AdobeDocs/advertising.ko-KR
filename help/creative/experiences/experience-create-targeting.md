@@ -3,16 +3,14 @@ title: 의사 결정 트리 타겟팅으로 경험 만들기
 description: 의사 결정 트리를 사용하여 타깃팅된 광고 경험을 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
 # 의사 결정 트리 타겟팅으로 경험 만들기
-
-*베타가 닫힘*
 
 의사 결정 트리를 사용하여 타깃팅된 광고 경험을 만듭니다. 각 경험은 단일 크리에이티브 라이브러리의 광고를 사용합니다.
 

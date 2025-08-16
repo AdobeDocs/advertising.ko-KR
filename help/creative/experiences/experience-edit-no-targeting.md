@@ -2,16 +2,15 @@
 title: 의사 결정 트리 타깃팅 없이 경험 편집
 description: 타깃팅하지 않고 광고 경험에 대한 설정을 편집하는 방법을 알아봅니다.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 29f54944-72a0-405a-bc11-87ea03edc09a
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
 
 # 의사 결정 트리 타깃팅 없이 경험 편집
-
-*베타가 닫힘*
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;을(를) 클릭합니다.
 

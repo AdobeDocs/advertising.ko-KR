@@ -3,9 +3,9 @@ title: 적용 가능한 광고 크기에 대한 광고 태그를 수동으로 �
 description: 특정 크리에이티브 크기에 대한 광고 태그를 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # (타깃팅이 없는 경험) 적용 가능한 크리에이티브 크기에 대한 광고 태그를 수동으로 만듭니다
 
 *의사 결정 트리가 없는 경험 타기팅만 사용*
-*Beta 완료*
 
 경험에 사용되는 각 광고 크기(비디오가 아닌 크리에이티브) 또는 비디오 지속 시간에 대해 언어당 하나 이상의 광고 태그를 만들 수 있습니다. 나중에 [광고 태그에 크리에이티브를 할당](experience-tag-assign-creatives.md)할 수 있습니다.
 

@@ -3,16 +3,14 @@ title: 데이터 보기 사용자 지정
 description: 사용 가능한 각 보기 내에서 데이터를 사용자 지정하는 방법을 알아봅니다.
 feature: Creative Introduction
 exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # 데이터 보기 사용자 지정
-
-*베타가 닫힘*
 
 ## 다른 광고주에 대한 데이터 보기
 
@@ -86,6 +84,6 @@ Refresh the pane to see any changes that other users have made.
 
 * Creative 라이브러리 > [!UICONTROL Standard Ads]: [!UICONTROL Creative Name], 만든 날짜([!UICONTROL Created On]) 또는 마지막 업데이트([!UICONTROL Modified On])별로 정렬합니다.
 
-* [!UICONTROL Experiences]: 시작 날짜([!UICONTROL Start On]) 또는 종료 날짜([!UICONTROL End On])별로 정렬합니다.[!UICONTROL Experience Name]
+* [!UICONTROL Experiences]: 시작 날짜([!UICONTROL Experience Name]) 또는 종료 날짜([!UICONTROL Start On])별로 정렬합니다.[!UICONTROL End On]
 
 ![정렬 옵션 예제](/help/creative/assets/sort.png "정렬 옵션 예제")

@@ -3,16 +3,14 @@ title: 경험 미리보기
 description: 광고 경험에서 크리에이티브를 미리 보는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # 경험 미리보기
-
-*베타가 닫힘*
 
 모든 하이퍼링크를 포함하여 타겟 뷰어가 경험에 대해 보게 될 특정 광고 크기로 크리에이티브를 미리 볼 수 있습니다. 의사 결정 트리 타겟팅이 있는 경험의 경우 단일 크리에이티브, 특정 분기(타겟 유형)에 대한 크리에이티브 또는 경험의 모든 크리에이티브를 미리 볼 수 있습니다. 의사 결정 트리 타깃팅이 없는 경험의 경우 단일 크리에이티브를 미리 볼 수 있습니다. <!-- verify -->
 

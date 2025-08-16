@@ -4,22 +4,22 @@ user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: Creative 안내서
 hide: true
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 
-# (폐쇄형 Beta) Advertising Creative 2.0 안내서 {#creative}
+# Advertising Creative 2.0 안내서 {#creative}
 
 + [새로운 기능](/help/creative/home.md)
 + 소개 {#introduction}
    + [Adobe Advertising Creative 정보](/help/creative/introduction/creative-about.md)
    + [데이터 보기 사용자 지정](/help/creative/introduction/customize-data-views.md)
-   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative 라이브러리 {#creative-libraries}
    + [크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)
    + [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)
@@ -79,4 +79,4 @@ ht-degree: 0%
 + [픽셀 재타겟팅](/help/creative/pixels/retargeting-pixel-manage.md)
 + [추적 URL에 사용 가능한 매크로](/help/creative/creative-macros.md)
 + [도움말 보기](/help/creative/get-help.md)
-+ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko){target="_blank"}
++ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

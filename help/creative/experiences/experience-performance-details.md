@@ -3,16 +3,14 @@ title: 경험 수준 성과 보고서
 description: 경험 수준 성과 보고서를 보는 방법에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 1718a7f5a7e3bbfeed336b195a2575275c8fd753
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
 # 경험 수준 성과 보고서
-
-*베타가 닫힘*
 
 모든 경험에 대한 자세한 성능 데이터를 볼 수 있습니다.
 

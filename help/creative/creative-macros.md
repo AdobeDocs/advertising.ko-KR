@@ -3,16 +3,14 @@ title: 추적 URL에 사용 가능한 매크로
 description: 랜딩 페이지 URL, 추적 URL 및 서드파티 크리에이티브에 추가할 수 있는 매크로를 참조합니다.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
 # 추적 URL에 사용 가능한 매크로
-
-*베타가 닫힘*
 
 <!-- More feature metadata???  -->
 
@@ -57,4 +55,4 @@ ht-degree: 0%
 >* [Creative 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [타깃팅된 경험 설정](/help/creative/experiences/experience-settings-targeting.md)
->*[타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md)
+>  >*[타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md)

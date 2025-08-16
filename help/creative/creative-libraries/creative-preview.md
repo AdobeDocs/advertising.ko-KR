@@ -3,16 +3,14 @@ title: 크리에이티브 미리 보기
 description: 크리에이티브 미리보기를 여는 방법에 대해 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: e70ea2b9fb0e8338d5a9e4680d79e9f3e436eef6
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
 # 크리에이티브 미리 보기
-
-*베타가 닫힘*
 
 하이퍼링크를 포함하여 사용자가 보게 될 대로 크리에이티브를 미리 볼 수 있습니다.
 

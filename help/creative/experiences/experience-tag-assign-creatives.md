@@ -3,9 +3,9 @@ title: 타깃팅하지 않은 경험에 대해 광고 태그에 크리에이티�
 description: 특정 크리에이티브 크기의 광고 태그에 크리에이티브를 할당하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # 타깃팅하지 않은 경험에 대해 광고 태그에 크리에이티브 할당
 
 *의사 결정 트리가 없는 경험 타기팅만 사용*
-*Beta 완료*
 
 경험에 사용되는 광고 태그에 적용 가능한 크리에이티브 크기의 크리에이티브를 할당할 수 있습니다. 경험 설정에 지정된 Creative 라이브러리의 Creative를 사용할 수 있습니다. 표준 광고 경험의 경우 표준 광고 크리에이티브만 할당할 수 있습니다. 동적 광고 경험의 경우 동적 크리에이티브만 할당할 수 있습니다.<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
 
