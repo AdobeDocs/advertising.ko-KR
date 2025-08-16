@@ -3,16 +3,14 @@ title: 픽셀 재타겟팅 관리
 description: 광고 경험의 타겟으로 사용할 리타기팅 픽셀을 만들고 구현하는 방법에 대해 알아봅니다.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # 픽셀 재타겟팅 관리
-
-*베타가 닫힘*
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
@@ -75,7 +73,7 @@ ht-degree: 0%
 
 1. 태그를 컴퓨터의 클립보드에 복사하려면 **[!UICONTROL Copy to Clipboard]**&#x200B;을(를) 클릭합니다. 그러면 텍스트를 저장할 파일에 붙여넣을 수 있습니다.
 
-1. 픽셀 태그에서 각 &quot;`Insert <attribute>`&quot;을(를) 값으로 대체하여 `<img src>` 및 `<script src>` 섹션 모두에서 각 특성의 값을 지정하십시오. 태그가 범용 ID를 캡처하는 경우 ID5 파트너 ID를 지정합니다.
+1. 픽셀 태그에서 각 &quot;`<img src>`&quot;을(를) 값으로 대체하여 `<script src>` 및 `Insert <attribute>` 섹션 모두에서 각 특성의 값을 지정하십시오. 태그가 범용 ID를 캡처하는 경우 ID5 파트너 ID를 지정합니다.
 
    추가 속성을 수동으로 추가하는 경우 URL 인코딩을 포함해야 합니다.
 
@@ -111,7 +109,7 @@ ht-degree: 0%
 
 픽셀에 노출된 사용자에게 광고 경험을 타깃팅할 때 타깃팅 설정은 크리에이티브를 표시하기 위해 존재해야 하는 속성 값을 지정합니다.
 
-**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:**(Beta 기능, 새 픽셀만 해당, 선택 사항) 추적할 픽셀 태그의 유니버설 ID 유형:
+**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:**(새 픽셀만 해당, 선택 사항) 추적할 픽셀 태그에 대한 범용 ID 유형:
 
 * *[!UICONTROL ID5]:* 픽셀 태그가 [!DNL ID5]개의 ID를 추적합니다. 범용 ID에 게재되는 노출에 대해서는 요금이 부과되지 않습니다.
 
