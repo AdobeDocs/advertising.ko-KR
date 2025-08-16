@@ -55,4 +55,4 @@ ht-degree: 0%
 >* [Creative 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [타깃팅된 경험 설정](/help/creative/experiences/experience-settings-targeting.md)
->  >*[타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md)
+>  &#x200B;>*[타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md)
