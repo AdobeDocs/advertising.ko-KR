@@ -2,10 +2,10 @@
 title: 속성 규칙 계산 방법
 description: Adobe Advertising에서 각 유형의 속성 규칙을 계산하는 방법을 알아봅니다.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
-feature: Search Reports
-source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
+feature: Search Reports, DSP Custom Reports
+source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,19 @@ ht-degree: 0%
 
 광고주 수준 속성 규칙은 전환으로 이어지는 일련의 이벤트에서 전환 데이터(잠재적으로 여러 광고 채널 간에)를 기여하는 데 사용됩니다.
 
-보고서, Advertising 검색, 소셜 및 Commerce(검색, 소셜 및 Commerce)에 대한 기본 및 사용자 지정 보기, 검색, 소셜 및 Commerce에 대한 (일부 사용자 역할) 포트폴리오 수준 시뮬레이션에서 선택한 규칙은 보기, 보고서 또는 시뮬레이션 데이터에만 사용됩니다. 다양한 속성 규칙이 다음과 같이 적용됩니다.
+다음 위치에서 속성 규칙을 선택하여 결과 데이터에만 규칙을 적용할 수도 있습니다.
+
+* DSP
+
+   * 멀티 터치 속성을 사용하는 사용자 지정 보고서
+
+* 검색, 소셜 및 Commerce
+
+   * 사용자 정의 보고서
+
+   * 기본 및 사용자 지정 보기
+
+   * (일부 사용자 역할) Portfolio 수준 시뮬레이션.
 
 >[!NOTE]
 >
@@ -37,7 +49,7 @@ ht-degree: 0%
 
 <!-- start examples as collapsible content -->
 
-+++이벤트 계산 예
++++이벤트 계산의 예
 
 ### 모든 클릭 수를 포함한 예
 
@@ -79,7 +91,7 @@ ht-degree: 0%
 
 <!-- start examples as collapsible content -->
 
-+++이벤트 계산 예
++++이벤트 계산의 예
 
 ### 모든 클릭 수를 포함한 예
 
@@ -128,7 +140,7 @@ ht-degree: 0%
 
 <!-- start examples as collapsible content -->
 
-+++이벤트 계산 예
++++이벤트 계산의 예
 
 ### 모든 클릭 수를 포함한 예
 
@@ -190,7 +202,7 @@ ht-degree: 0%
 
 <!-- start examples as collapsible content -->
 
-+++이벤트 계산 예
++++이벤트 계산의 예
 
 ### 모든 클릭 수를 포함한 예
 
@@ -250,7 +262,7 @@ ht-degree: 0%
 
 <!-- start examples as collapsible content -->
 
-+++이벤트 계산 예
++++이벤트 계산의 예
 
 ### 모든 클릭 수를 포함한 예
 
@@ -308,7 +320,7 @@ ht-degree: 0%
 
 <!-- start examples as collapsible content -->
 
-+++이벤트 계산 예
++++이벤트 계산의 예
 
 ### 모든 클릭 수를 포함한 예
 
