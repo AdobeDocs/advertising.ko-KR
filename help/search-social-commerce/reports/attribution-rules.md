@@ -3,9 +3,9 @@ title: 속성 규칙 계산 방법
 description: Adobe Advertising에서 각 유형의 속성 규칙을 계산하는 방법을 알아봅니다.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports, DSP Custom Reports
-source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
+source-git-commit: 4450592aa0406a28da5e2f426ac31a07ba2fe5c3
 workflow-type: tm+mt
-source-wordcount: '2711'
+source-wordcount: '2707'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 * DSP
 
-   * 멀티 터치 속성을 사용하는 사용자 지정 보고서
+   * 사용자 정의 보고서
 
 * 검색, 소셜 및 Commerce
 
-   * 사용자 정의 보고서
+   * 보고서
 
    * 기본 및 사용자 지정 보기
 
