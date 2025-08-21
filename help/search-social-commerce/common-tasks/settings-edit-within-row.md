@@ -3,9 +3,9 @@ title: 행 내에서 직접 설정 편집
 description: 행 내의 관리 보기에서 데이터를 편집하는 방법을 알아봅니다.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: e83fe03e8887dc30a7e60313b17dbdce46e6362b
+source-git-commit: 533484b8e2e462891d7d34091991047b2d9b62c7
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,14 @@ ht-degree: 0%
 
 ## (새 UI) 행 내 설정 편집
 
-1. 셀 내부를 클릭하여 활성화하거나, 커서를 값 위에 놓고 ![편집](/help/search-social-commerce/assets/edit-new.png "편집")을 클릭합니다.
+1. 셀 내부를 클릭하여 활성화하거나 커서를 값 위에 놓습니다.
 
 1. 값을 변경합니다.
 
-1. **적용**&#x200B;을 클릭합니다.
+   * (목록의 옵션) 목록에서 새 옵션을 선택합니다.
 
-<!--
-1. Change the value:
+   * (자유 형식 값) ![편집](/help/search-social-commerce/assets/edit-new.png "편집")을 클릭하고 값을 변경한 다음 **적용**&#x200B;을 클릭합니다.
 
-   * (Options in a list) Select a new option from the list.
-   
-   * (Dates) Enter a new date, or click ![Calendar](/help/search-social-commerce/assets/calendar.png "Calendar") to open the calendar and [select a new date](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
-   
-   * (Free-form values) Enter a new value.
--->
 
 ## (기존 UI) 행 내 설정 편집
 
