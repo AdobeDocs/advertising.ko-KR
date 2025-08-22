@@ -2,9 +2,9 @@
 title: Adobe Advertising과 Adobe Customer Journey Analytics 간의 통합 개요
 description: Adobe Advertising을 Adobe Customer Journey Analytics과 통합하는 옵션에 대해 알아봅니다.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 1e8305031b175f9bb1c52b82b6ed4913e6108349
+source-git-commit: ed3c3b4331b743d0c40f04fb8543c535d80ca1d5
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,15 @@ ht-degree: 0%
 
 *Advertising DSP 및[!DNL Advertising Search, Social, & Commerce]*&#x200B;을(를) 사용하는 광고주
 
-Adobe Advertising은 Adobe Customer Journey Analytics과 통합되어 각 제품의 기능을 확장하고 향상합니다. 통합 설정을 위한 두 가지 옵션이 있습니다.
+Adobe Advertising은 양방향 데이터 공유를 위해 Adobe Customer Journey Analytics과 통합됩니다. 통합 설정을 위한 두 가지 옵션이 있습니다.
 
 * [!DNL Analytics for Advertising]과(와) Customer Journey Analytics이 모두 있는 광고주는 [!DNL Analytics for Advertising]을(를) 통해 가지고 있는 것과 동일한 기능을 가지며 Customer Journey Analytics의 시각화가 추가되었습니다.
 
   Adobe Experience Platform Web SDK(`alloy.js`) 또는 Adobe Experience Cloud Identity 서비스(`visitorAPI.js`)를 사용하여 클릭스루 이벤트를 계속 추적하게 됩니다. Advertising DSP을 사용하는 광고주는 여전히 JavaScript 코드 조각을 사용하여 뷰스루 이벤트를 추적합니다. Customer Journey Analytics에서 사용할 수 있는 데이터는 다음과 같습니다.
 
    * Adobe Advertising의 캠페인 성과 데이터
+
+     **참고:** [!DNL Apple] 및 [!DNL Tiktok]의 데이터를 사용할 수 없습니다.
 
    * [!DNL Google Ads], [!DNL Microsoft Advertising] 및 [!DNL Meta]이(가) 추적한 사이트 활동 및 전환
 
