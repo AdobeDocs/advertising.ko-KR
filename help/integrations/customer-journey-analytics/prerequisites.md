@@ -1,0 +1,27 @@
+---
+title: Adobe Advertising과 Customer Journey Analytics 통합을 위한 사전 요구 사항
+description: Adobe Advertising과 Customer Journey Analytics 통합을 위한 사전 요구 사항
+feature: Integration with Adobe Customer Journey Analytics
+source-git-commit: b93ea465edf98837bf7af693b6b5f5bbd4adea02
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 0%
+
+---
+
+# Adobe Advertising과 Customer Journey Analytics 통합을 위한 사전 요구 사항
+
+*Advertising DSP 및[!DNL Advertising Search, Social, & Commerce]*&#x200B;을(를) 사용하는 광고주
+
+Adobe Advertising을 Adobe Customer Journey Analytics과 통합하기 전에 다음 정보를 검토하십시오.
+
+## Customer Journey Analytics에서 Adobe Advertising 데이터를 보고하기 위한 요구 사항
+
+* [!DNL Analytics for Advertising]과(와) Customer Journey Analytics을 모두 사용하는 광고주:
+
+   * Adobe Customer Journey Analytics<!-- any specific version? -->
+   * [다른 모든 필수 구성 요소 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md).
+
+>[!MORELIKETHIS]
+>
+>* [개요](overview.md)
