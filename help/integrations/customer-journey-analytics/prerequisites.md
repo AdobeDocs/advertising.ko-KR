@@ -2,9 +2,9 @@
 title: Adobe Advertising과 Customer Journey Analytics 통합을 위한 사전 요구 사항
 description: Adobe Advertising과 Customer Journey Analytics 통합을 위한 사전 요구 사항
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: b93ea465edf98837bf7af693b6b5f5bbd4adea02
+source-git-commit: 199fc8f6784dbbb43eeb8fcfe9c6f0f35cfdad6b
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,4 @@ Adobe Advertising을 Adobe Customer Journey Analytics과 통합하기 전에 다
 >[!MORELIKETHIS]
 >
 >* [개요](overview.md)
+>* (Adobe Analytics 사용자) [Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집](/help/integrations/analytics/rvars-to-evars.md).
