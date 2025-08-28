@@ -3,9 +3,9 @@ title: Adobe Advertising과 Customer Journey Analytics 통합을 위한 사전 �
 description: Adobe Advertising과 Customer Journey Analytics 통합을 위한 사전 요구 사항
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: 194675147b64af37de6373116f246f1e61388a23
+source-git-commit: 9e89f91f31c756e21db3f5b2b7c87991166e4859
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
    * [다른 모든 필수 구성 요소 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md).
 
-* [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주:
+* (Beta 기능) [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주:
 
    * Adobe Experience Platform 웹 SDK 라이브러리: `alloy.js`
 
-     웹 SDK에 사용되는 [!DNL Org ID]과(와) Adobe Advertising 광고주 계정에 사용되는 은(는) 같아야 합니다. 이 ID는 Adobe Experience Cloud Debugger의 [요약 탭](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ko)에서 찾을 수 있습니다.
+     웹 SDK에 사용되는 [!DNL Org ID]과(와) Adobe Advertising 광고주 계정에 사용되는 은(는) 같아야 합니다. 이 ID는 Adobe Experience Cloud Debugger의 [요약 탭](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)에서 찾을 수 있습니다.
 
      ![Experience Cloud Debugger 요약 화면](/help/integrations/assets/a4adc-debugger-summary.png)
 
