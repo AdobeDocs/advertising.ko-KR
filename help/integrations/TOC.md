@@ -52,5 +52,5 @@ ht-degree: 11%
 + Adobe Customer Journey Analytics과 통합 {#customer-journey-analytics}
    + [개요](/help/integrations/customer-journey-analytics/overview.md)
    + [사전 요구 사항](/help/integrations/customer-journey-analytics/prerequisites.md)
-   + [!DNL Customer Journey Analytics](/help/integrations/customer-journey-analytics/ids.md)에서 사용하는 Adobe Advertising ID
+   + [[!DNL Customer Journey Analytics에서 사용하는 Adobe Advertising ID]](/help/integrations/customer-journey-analytics/ids.md)
 + [Adobe Advertising 통합에 대한 비디오 튜토리얼](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
