@@ -3,9 +3,9 @@ title: Adobe Advertising과 Adobe Customer Journey Analytics 간의 통합 개�
 description: Adobe Advertising을 Adobe Customer Journey Analytics과 통합하는 옵션에 대해 알아봅니다.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 57636259-f91a-404f-b972-994af67098b1
-source-git-commit: 37c0485189c9bf084d4051fec501a1b2128687ec
+source-git-commit: b60834569c795013d989fca81c3799165250094b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Adobe Advertising은 양방향 데이터 공유 및 보고를 위해 Adobe Custo
 
   이 사용 사례에서는 선택적으로 [Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터를 수집](/help/integrations/analytics/rvars-to-evars.md)하는 것 외에는 추가 단계를 수행할 필요가 없습니다.
 
-* (예정된 Beta 기능) Customer Journey Analytics을 사용하고 있지만 [!DNL Analytics for Advertising]을(를) 사용하지 않는 광고주는 Adobe Experience Platform Web SDK(`alloy.js`)를 사용하여 클릭스루 및 뷰스루 이벤트를 추적하여 Adobe Advertising과 Customer Journey Analytics 간에 기본적으로 다음 데이터를 교환할 수 있습니다. 캠페인, 광고 그룹, 패키지, 배치 및 키워드 수준에서 데이터를 사용할 수 있습니다.
+* (예정된 Beta 기능) [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주는 기본적으로 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 라이브러리(`alloy.js`)를 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 데이터를 교환할 수 있습니다. 쿠키, 해시된 IP 및 범용 ID([!DNL LiveRamp RampIDs] 및 ID5 ID)를 사용하여 사이트 이벤트를 추적하고 사이트 이벤트를 유료 미디어 활동에 연결할 수 있습니다. 캠페인, 광고 그룹, 패키지, 배치 및 키워드 수준에서 다음 데이터를 사용할 수 있습니다.
 
    * Customer Journey Analytics의 Adobe Advertising에서 캠페인 성과 데이터
 
@@ -40,7 +40,7 @@ Adobe Advertising은 양방향 데이터 공유 및 보고를 위해 Adobe Custo
 
    * 최적화 및 보고에 사용할 수 있는 Adobe Advertising의 Customer Journey Analytics 속성 데이터
 
-  **참고:** 아직 사용 가능한 유기 데이터가 없습니다.<!-- Does that belong somewhere up above? -->
+  **참고:** 아직 유기 데이터를 사용할 수 없습니다.
 
   이 사용 사례에서는 웹 SDK을 사용하여 사이트 이벤트(쿠키, 해시된 IP 주소 또는 범용 ID 사용)를 추적하고 사이트 이벤트를 [!DNL Google Ads], [!DNL Microsoft Advertising] 및 [!DNL Meta]의 유료 미디어 활동과 Adobe DSP에 연결합니다. 데이터 수집에도 Adobe Experience Platform을 사용합니다.
 
