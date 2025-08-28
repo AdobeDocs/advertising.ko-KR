@@ -24,7 +24,7 @@ ht-degree: 0%
 
    * Adobe Experience Platform 웹 SDK 라이브러리: `alloy.js`
 
-     웹 SDK에 사용되는 [!DNL Org ID]과(와) Adobe Advertising 광고주 계정에 사용되는 은(는) 같아야 합니다. 이 ID는 Adobe Experience Cloud Debugger의 [요약 탭](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html)에서 찾을 수 있습니다.
+     웹 SDK에 사용되는 [!DNL Org ID]과(와) Adobe Advertising 광고주 계정에 사용되는 은(는) 같아야 합니다. 이 ID는 Adobe Experience Cloud Debugger의 [요약 탭](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ko)에서 찾을 수 있습니다.
 
      ![Experience Cloud Debugger 요약 화면](/help/integrations/assets/a4adc-debugger-summary.png)
 
