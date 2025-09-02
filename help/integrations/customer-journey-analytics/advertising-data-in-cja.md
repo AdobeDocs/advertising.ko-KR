@@ -2,7 +2,7 @@
 title: Customer Journey Analytics의 Adobe Advertising 지표 및 차원
 description: Customer Journey Analytics에서 사용할 수 있는 Adobe Advertising 지표 및 차원을 참조하십시오.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: eddd9c997ada380d5624703b82bca189be90b893
+source-git-commit: c3836d8af50061701434790b2bd9214df29e8a01
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -13,10 +13,7 @@ ht-degree: 0%
 
 *Adobe Advertising-Customer Journey Analytics 통합만 있는 광고주*
 
->[!NOTE]
->
->* Adobe Advertising은 트래픽 지표 및 차원을 매일 [!DNL Customer Journey Analytics]에 전달합니다.
->* [!DNL Web SDK]에서 Adobe Advertising 클릭스루 및 뷰스루를 실시간으로 캡처하여 Customer Journey Analytics에 전달합니다.
+Adobe Advertising은 트래픽 지표 및 차원을 매일 [!DNL Customer Journey Analytics]에 전달합니다. [!DNL Web SDK]에서 Adobe Advertising 클릭스루 및 뷰스루를 실시간으로 캡처하여 Customer Journey Analytics에 전달합니다.
 
 ## Adobe Advertising 트래픽 지표
 
@@ -24,7 +21,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* &#x200B;
 >* &quot;XDM 필드 이름&quot;은 Adobe Experience Platform의 필드 이름입니다.
 >* &quot;XDM 필드 표시 이름&quot;은 Customer Journey Analytics 내의 표시 이름을 나타냅니다.
 
