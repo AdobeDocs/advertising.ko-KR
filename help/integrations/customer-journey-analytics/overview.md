@@ -3,9 +3,9 @@ title: Adobe Advertising과 Adobe Customer Journey Analytics 간의 통합 개�
 description: Adobe Advertising을 Adobe Customer Journey Analytics과 통합하는 옵션에 대해 알아봅니다.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 57636259-f91a-404f-b972-994af67098b1
-source-git-commit: 545dcedda0a593ebd3424cda33e5c85a7fb7a28d
+source-git-commit: ca039c91a976d79ed732ad7e0435566d58f3f843
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,13 @@ Adobe Advertising은 양방향 데이터 공유 및 보고를 위해 Adobe Custo
 
    * 최적화 및 보고에 사용할 수 있는 Adobe Advertising의 [!DNL Analytics]에서 가져온 속성 데이터입니다.
 
-  이 사용 사례에서는 선택적으로 [Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터를 수집](/help/integrations/analytics/rvars-to-evars.md)하는 것 외에는 추가 단계를 수행할 필요가 없습니다.
+  이 사용 사례에서도 선택적으로 [Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터를 수집](/help/integrations/analytics/rvars-to-evars.md)해야 합니다.
 
-* (예정된 Beta 기능) [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주는 기본적으로 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 라이브러리(`alloy.js`)를 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 데이터를 교환할 수 있습니다. 쿠키, 해시된 IP 및 범용 ID([!DNL LiveRamp RampIDs] 및 ID5 ID)를 사용하여 사이트 이벤트를 추적하고 사이트 이벤트를 유료 미디어 활동에 연결할 수 있습니다. 캠페인, 광고 그룹, 패키지, 배치 및 키워드 수준에서 다음 데이터를 사용할 수 있습니다.
+<!--
+  In this use case, you don't need to perform any extra steps except to optionally [collect historical data for AMO IDs and EF IDs for use in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
+-->
+
+* (예정된 Beta 기능) [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주는 기본적으로 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)을(를) 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 데이터를 교환할 수 있습니다. 쿠키, 해시된 IP 및 범용 ID([!DNL LiveRamp RampIDs] 및 ID5 ID)를 사용하여 사이트 이벤트를 추적하고 사이트 이벤트를 유료 미디어 활동에 연결할 수 있습니다. 캠페인, 광고 그룹, 패키지, 배치 및 키워드 수준에서 다음 데이터를 사용할 수 있습니다.
 
    * Customer Journey Analytics의 Adobe Advertising에서 캠페인 성과 데이터
 
