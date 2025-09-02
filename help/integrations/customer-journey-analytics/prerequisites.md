@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Advertising DSP 및[!DNL Advertising Search, Social, & Commerce]*&#x200B;을(를) 사용하는 광고주
 
-* Adobe Experience Platform 데이터 모델링 및 관리 기술([스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) 및 [데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) 포함)과 [데이터 수집 기술](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home)&#x200B;([데이터 스트림](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) 및 [태그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) 포함)
+* Adobe Experience Platform 데이터 모델링 및 관리 기술([스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 및 [데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview) 포함)과 [데이터 수집 기술](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/home)&#x200B;([데이터 스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview) 및 [태그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home) 포함)
 
   이러한 기술을 사용하려면 Experience Platform 사이트 관리자의 지원이 필요합니다.
 
