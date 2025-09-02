@@ -2,9 +2,9 @@
 title: Customer Journey Analytics의 Adobe Advertising 지표 및 차원
 description: Customer Journey Analytics에서 사용할 수 있는 Adobe Advertising 지표 및 차원을 참조하십시오.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 4b02ee2b334401884e3d15159851e8447d74fe96
+source-git-commit: 6e22ead8f91d87cce3f104635e95a2dcab03bc3a
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ Adobe Advertising은 트래픽 지표 및 차원을 매일 [!DNL Customer Journe
 
 <!-- Verify column names -->
 
->[!NOTE]
->
->* &quot;XDM 필드 이름&quot;은 Adobe Experience Platform의 필드 이름입니다.
->* &quot;XDM 필드 표시 이름&quot;은 Customer Journey Analytics 내의 표시 이름을 나타냅니다.
+다음 표에서
+
+* &quot;XDM 필드 이름&quot;은 Adobe Experience Platform의 필드 이름입니다.
+
+* &quot;XDM 필드 표시 이름&quot;은 Customer Journey Analytics 내의 표시 이름을 나타냅니다.
 
 | Adobe Advertising 필드 이름 | XDM 필드 이름 | XDM 필드 표시 이름 | Source |
 |------------------------------|----------------|------------------------|--------|
@@ -59,10 +60,11 @@ Adobe Advertising은 트래픽 지표 및 차원을 매일 [!DNL Customer Journe
 
 ## Adobe Advertising 차원
 
->[!NOTE]
->
->* &quot;XDM 필드&quot;는 Adobe Experience Platform의 필드 이름입니다.
->* &quot;XDM 필드 표시 이름&quot;은 Customer Journey Analytics 내의 표시 이름을 나타냅니다.
+다음 표에서
+
+* &quot;XDM 필드 이름&quot;은 Adobe Experience Platform의 필드 이름입니다.
+
+* &quot;XDM 필드 표시 이름&quot;은 Customer Journey Analytics 내의 표시 이름을 나타냅니다.
 
 | Adobe Advertising 필드 이름 | XDM 필드 이름 | XDM 필드 표시 이름 | Source |
 |------------------------------|----------------|------------------------|--------|
