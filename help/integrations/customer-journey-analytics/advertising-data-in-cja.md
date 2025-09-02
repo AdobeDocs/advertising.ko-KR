@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 
+>* &#x200B;
 >* &quot;XDM 필드 이름&quot;은 Adobe Experience Platform의 필드 이름입니다.
 >* &quot;XDM 필드 표시 이름&quot;은 Customer Journey Analytics 내의 표시 이름을 나타냅니다.
 
