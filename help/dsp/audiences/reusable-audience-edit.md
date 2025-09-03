@@ -3,9 +3,9 @@ title: 재사용 가능한 대상 편집
 description: 재사용 가능한 대상을 편집하는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # 재사용 가능한 대상 편집
 
 배치나 기타 재사용 가능한 대상에 사용되는 대상을 편집하면 해당 배치 및 대상에 변경 사항이 즉시 적용됩니다.<!-- verify -->
+
+>[!NOTE]
+>
+>(DSP에서 해시된 이메일 ID를 LiveRamp RampID 세그먼트로 변환하는 광고주) 활성, 예약됨 또는 일시 중지된 배치에 첨부되지 않은 자사 RampID 세그먼트는 일시 중지됩니다. 세그먼트는 세그먼트 목록에 &quot;자동 일시 중지됨&quot;으로 표시됩니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**&#x200B;을(를) 클릭합니다.
 

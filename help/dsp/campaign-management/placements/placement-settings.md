@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '4560'
+source-wordcount: '4586'
 ht-degree: 0%
 
 ---
@@ -275,7 +275,7 @@ ht-degree: 0%
          1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
          1. 검색 결과에서 제외할 사이트를 선택합니다.
             * 개별 사이트를 제외하려면 인접한 확인란을 선택합니다.
-            * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**&#x200B;을(를) 클릭합니다.
+            * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**을(를) 클릭합니다.
       * 도메인 이름을 입력하려면 다음을 수행합니다.
          1. **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
          1. 별도의 줄에 도메인 이름을 하나 이상 입력합니다.
@@ -310,7 +310,7 @@ ht-degree: 0%
          1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
          1. 검색 결과에서 포함할 사이트를 선택합니다.
             * 개별 사이트를 포함하려면 인접한 확인란을 선택합니다.
-            * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 포함하려면 **[!UICONTROL Include these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 포함하려면 **[!UICONTROL Include these \<*NN *\>]**&#x200B;을(를) 클릭하십시오.
+            * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 포함하려면 **[!UICONTROL Include these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 포함하려면 **[!UICONTROL Include these \<*NN *\>]**을(를) 클릭하십시오.
       * 도메인 이름을 입력하려면 다음을 수행합니다.
          1. **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
          1. 별도의 줄에 도메인 이름을 하나 이상 입력합니다.
@@ -332,6 +332,10 @@ ht-degree: 0%
 * 기존 대상을 선택하려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 대상을 선택하십시오.
 * 대상을 만들려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 **[!UICONTROL + Create Audience]**&#x200B;을(를) 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
 * 특정 대상 세그먼트를 선택하려면 **[!UICONTROL Select segments for this placement only]**&#x200B;을(를) 클릭하십시오. 세그먼트 논리를 선택합니다. 지침은 &quot;[재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)&quot;의 6단계를 참조하십시오. 완료되면 **저장**&#x200B;을 클릭하세요.
+
+>[!NOTE]
+>
+>활성, 예약됨 또는 일시 중지됨 배치에 첨부되지 않은 자사 RampID 세그먼트는 일시 중지됩니다. 세그먼트는 세그먼트 목록에 &quot;자동 일시 중지됨&quot;으로 표시됩니다.
 
 **[!UICONTROL Excluded Audiences]:** [타사 세그먼트, 자사 세그먼트, Adobe 세그먼트, 사용자 지정 세그먼트 및 저장된 대상을 포함하여 배치에 대해 제외할 대상](/help/dsp/audiences/audience-settings.md)입니다. 제외된 모든 대상에 걸쳐 중복 제거된 총 활성 대상 크기도 표시됩니다. 기존 대상을 선택하거나 나중에 다시 사용할 수 있는 새 대상을 만들 수 있습니다.
 

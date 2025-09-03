@@ -3,9 +3,9 @@ title: 재사용 가능한 대상 만들기
 description: 대상 세그먼트 및 기타 저장된 대상으로 구성된 재사용 가능한 대상을 만드는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
 대상 세그먼트 및 여러 배치에 대한 타겟 또는 제외로 사용할 수 있는 기타 저장된 대상의 그룹인 재사용 가능한 대상을 저장하고 관리할 수 있습니다.
+
+>[!NOTE]
+>
+>(DSP에서 해시된 이메일 ID를 LiveRamp RampID 세그먼트로 변환하는 광고주) 활성, 예약됨 또는 일시 중지된 배치에 첨부되지 않은 자사 RampID 세그먼트는 일시 중지됩니다. 세그먼트는 세그먼트 목록에 &quot;자동 일시 중지됨&quot;으로 표시됩니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**&#x200B;을(를) 클릭합니다.
 

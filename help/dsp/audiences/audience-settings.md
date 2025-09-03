@@ -3,9 +3,9 @@ title: 대상자 설정
 description: 사용 가능한 대상 설정에 대한 설명을 참조하십시오.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 ## 자사 세그먼트
 
 (선택 사항) 가져온 모든 자사 세그먼트 및/또는 대상 구성에 포함할 계정에 대해 가져온 사용자 지정 세그먼트입니다.
+
+>[!NOTE]
+>
+>(DSP에서 해시된 이메일 ID를 LiveRamp RampID 세그먼트로 변환하는 광고주) 활성, 예약됨 또는 일시 중지된 배치에 첨부되지 않은 자사 RampID 세그먼트는 이제 일시 중지됩니다. 세그먼트는 세그먼트 목록에 &quot;자동 일시 중지됨&quot;으로 표시됩니다.
 
 ## Adobe 세그먼트
 

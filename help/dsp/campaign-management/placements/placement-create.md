@@ -3,9 +3,9 @@ title: 배치 만들기
 description: 배치를 만드는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,13 @@ ht-degree: 0%
 
       1. 대상자 범위를 좁힙니다. 여기에는 배치 내에서 타깃팅할 대상 세그먼트 선택이 포함됩니다.
 
-         [!DNL Roku] 배치의 경우 [!DNL Roku] (옵트인) 결정적 데이터 세트에 대해 일치시킬 수 있는 하나 이상의 대상 세그먼트를 포함하여  [!DNL Roku][&#128279;](/help/dsp/inventory/roku-inventory.md)과(와) 일치하는 DSP의 고유한 대상 세그먼트를 활용할 수 있습니다.
+         [!DNL Roku] 배치의 경우 [(옵트인) 결정적 데이터 세트에 대해 일치시킬 수 있는 하나 이상의 대상 세그먼트를 포함하여  [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)과(와) 일치하는 [!DNL Roku]DSP의 고유한 대상 세그먼트를 활용할 수 있습니다.
+
+         활성, 예약됨 또는 일시 중지됨 배치에 첨부되지 않은 자사 RampID 세그먼트는 일시 중지됩니다. 세그먼트는 세그먼트 목록에 &quot;자동 일시 중지됨&quot;으로 표시됩니다.
 
       1. (사람 수준 크로스 디바이스 타깃팅이 있는 캠페인의 경우, 선택 사항) 배치가 하나 이상의 특정 대상을 타겟팅하는 경우 배치에 대해 사람 기반 크로스 디바이스 타깃팅을 활성화합니다.
 
-         사용자 기반 장치 간 타깃팅은 [!DNL LiveRamp]에서 미국 데이터만 사용하여 제공합니다. [!DNL LiveRamp] 장치 그래프(즉, 타깃팅된 대상 세그먼트 내에서 찾을 수 없는 장치)를 사용하여 제공된 노출 횟수에 대해 모든 광고주가 0.35 CPM으로 서비스를 이용할 수 있습니다.
+         사용자 기반 장치 간 타깃팅은 [!DNL LiveRamp]에서 미국 데이터만 사용하여 제공합니다. [!DNL LiveRamp] 장치 그래프(즉, 타깃팅된 대상 세그먼트 내에서 찾을 수 없는 장치의 경우)를 사용하여 제공된 노출 횟수에 대해 $0.35 CPM의 모든 광고주가 이 서비스를 사용할 수 있습니다.
 
    1. (선택 사항) [!DNL Brand Safety and Media Targeting] 섹션에서 배치에 대한 브랜드 안전 제한을 적용합니다.
 
@@ -145,4 +147,4 @@ ht-degree: 0%
 >* 범용 비디오에 대한 [FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [성능 문제 해결](/help/dsp/optimization/troubleshooting-performance.md)
->* [비디오: 표준 디스플레이 배치를 만드는 방법](https://video.tv.adobe.com/v/345002?captions=kor)
+>* [비디오: 표준 디스플레이 배치를 만드는 방법](https://video.tv.adobe.com/v/340454)
