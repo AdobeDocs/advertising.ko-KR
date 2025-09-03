@@ -3,9 +3,9 @@ title: Advertising Creative의 경험
 description: 개인화된 광고 경험을 구성하고 성능에 따라 광고 요소를 최적화하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 * **예약:**(선택 사항) 특정 크리에이티브가 지정된 순차적 기간 동안 실행되도록 예약합니다.
 
-* **광고 회전:** 상대 가중치에 따라 창의력을 수동으로 회전하거나 지정된 최적화 목표에 따라 알고리즘적으로 회전합니다.
+* **광고 회전:** 지정된 최적화 목표, 지정된 번들 시퀀스 또는 상대 가중치에 따라 창의력을 알고리즘 방식으로 회전합니다.
 
 * **최적화 목표:** 최상의 클릭스루 비율 또는 기존 [Advertising DSP 사용자 지정 목표에 대한 광고 요소 최적화](/help/dsp/optimization/custom-goal.md)
 

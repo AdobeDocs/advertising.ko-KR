@@ -6,20 +6,22 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: e716d1c5fd3c9700ca2bca25c79b4edbbf395929
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
 
-# [!DNL Creative] 2.0의 차이점
+# [!DNL Creative] 2.0의 새로운 기능
 
-<!-- The following features are new or recently changed. -->
+다음 기능은 새로운 기능이거나 최근에 변경되었습니다.
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2025년 8월 4일 | 광고  경험에 대한 대상 타겟 | 대상 포함 및 제외를 위한 보다 복잡한 논리 - Advertising DSP에서 사용할 수 있는 것과 동일한 논리 - 는 대상 타겟 설정 내에서 사용할 수 있습니다. 이제 광고 경험에 대한 대상 타겟을 구성할 때 여러 세그먼트 그룹을 구성하고 논리를 기반으로 사용자를 포함할지 또는 제외할지 여부를 지정할 수 있습니다.<br><br>각 세그먼트에 대한 총 대상 구성원 수와 각 세그먼트 그룹에 대한 활성 및 총 대상 구성원 수를 볼 수 있습니다.<br><br>이 옵션을 사용하면 &quot;[!UICONTROL Split targets to create nodes]&quot;에 대한 기존 옵션을 더 이상 사용할 수 없습니다.<br><br>여러 세그먼트를 대상으로 하는 대상 노드에 대한 기존 경험이 있는 경우 이제 &quot;[!UICONTROL Include Any]&quot; 옵션을 사용하여 대상이 지정되며 사용자는 한 세그먼트에만 속해야 노출을 받을 수 있습니다. 이전에는 사용자가 모든 세그먼트에 속해야 했습니다. | &quot;[최종 수준에 대상 노드 추가](/help/creative/experiences/experience-target-node-add-final.md)&quot;, &quot;[노드 사이에 대상 노드 삽입](/help/creative/experiences/experience-target-node-add-inner.md)&quot;, &quot;[형제 대상 노드 추가](/help/creative/experiences/experience-target-node-add-sibling.md)&quot;를 참조하십시오.&quot; |
+| 2025년 9월 3일 | [!DNL experiences]에 대한 Creative 최적화 및 예약 | 이제 Creative 최적화 및 예약을 구성하기 위한 메뉴 옵션 또는 단추를 &quot;[!UICONTROL Creative Optimization]&quot; 또는 &quot;[!UICONTROL Edit Schedules]&quot; 대신 &quot;[!UICONTROL Add Schedules]&quot;이라고 합니다. | &quot;[타깃팅된 경험에 대한 크리에이티브 최적화 및 일정 사용자 지정](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot; 및 &quot;[타깃팅되지 않은 경험에 대한 크리에이티브 최적화 및 일정 사용자 지정](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)&quot;을 참조하십시오. |
+|  | [!DNL experiences]에 대한 광고 순환 및 예약 | 새 크리에이티브 회전 유형 &quot;[!UICONTROL Sequencing]&quot;은(는) 각 번들 시퀀스에 걸쳐 지정된 총 노출 횟수로 연결된 크리에이티브 번들을 지정된 순서(첫 번째 제공된 번들 1, 두 번째 제공된 번들 2 등)로 회전합니다. a\) 무기한으로 표시되거나 b\) 루프를 첫 번째 번들로 되돌리도록 시퀀스의 마지막 번들을 구성할 수 있습니다. | &quot;[타깃팅된 경험에 대한 크리에이티브 최적화 및 일정 사용자 지정](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot; 및 &quot;[타깃팅되지 않은 경험에 대한 크리에이티브 최적화 및 일정 사용자 지정](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)&quot;을 참조하십시오. |
+| 2025년 8월 4일 | 광고 [!DNL experiences]에 대한 대상 타겟 | 대상 포함 및 제외를 위한 보다 복잡한 논리 - Advertising DSP에서 사용할 수 있는 것과 동일한 논리 - 는 대상 타겟 설정 내에서 사용할 수 있습니다. 이제 광고 경험에 대한 대상 타겟을 구성할 때 여러 세그먼트 그룹을 구성하고 논리를 기반으로 사용자를 포함할지 또는 제외할지 여부를 지정할 수 있습니다.<br><br>각 세그먼트에 대한 총 대상 구성원 수와 각 세그먼트 그룹에 대한 활성 및 총 대상 구성원 수를 볼 수 있습니다.<br><br>이 옵션을 사용하면 &quot;[!UICONTROL Split targets to create nodes]&quot;에 대한 기존 옵션을 더 이상 사용할 수 없습니다.<br><br>여러 세그먼트를 대상으로 하는 대상 노드에 대한 기존 경험이 있는 경우 이제 &quot;[!UICONTROL Include Any]&quot; 옵션을 사용하여 대상이 지정되며 사용자는 한 세그먼트에만 속해야 노출을 받을 수 있습니다. 이전에는 사용자가 모든 세그먼트에 속해야 했습니다. | &quot;[최종 수준에 대상 노드 추가](/help/creative/experiences/experience-target-node-add-final.md)&quot;, &quot;[노드 사이에 대상 노드 삽입](/help/creative/experiences/experience-target-node-add-inner.md)&quot;, &quot;[형제 대상 노드 추가](/help/creative/experiences/experience-target-node-add-sibling.md)&quot;를 참조하십시오.&quot; |
 | 2025년 7월 10일 | 비디오 크리에이티브 | 이제 자사 비디오 크리에이티브 및 비디오별 번들 및 경험에 대한 지원을 사용할 수 있습니다.<ul><li>이제 자사 비디오 크리에이티브를 업로드하고 이를 비디오별 번들에 추가할 수 있습니다. 번들 설정에서 &quot;[!UICONTROL Bundle Type]&quot; 옵션에는 이제 [!UICONTROL Standard Display], [!UICONTROL Dynamic Display] 및 [!UICONTROL Standard Video]이(가) 포함됩니다.</li><li>비디오 번들로 비디오별 광고 경험을 만들 수 있습니다. 이제 광고 경험 설정에 [!UICONTROL Ad Type], [!UICONTROL Standard Display] 및 [!UICONTROL Dynamic Display] 옵션이 있는 &quot;[!UICONTROL Video]&quot; 설정이 포함됩니다. 클릭스루 비율, 완료율 또는 사용자 지정 목표에 따라 비디오 광고를 최적화할 수 있습니다.</li><li>비디오 광고 경험 태그에 대한 태그는 광고 크기가 아니라 비디오 지속 시간 및 비트율로 정의됩니다.</li><li>비디오 광고는 미리 볼 수 있도록 Adobe Advertising DSP 인코딩으로 자동으로 변환됩니다. [!UICONTROL Tag Manager] 내의 모든 광고 경험 태그에 다른 DSP에 대한 코드 변환 기능을 선택적으로 적용할 수 있습니다.</li></ul> | &quot;[Creative 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)&quot;, &quot;[Creative 번들 관리](/help/creative/creative-libraries/bundle-manage.md)&quot;, &quot;[타깃팅된 경험 설정](/help/creative/experiences/experience-settings-targeting.md)&quot;, &quot;[타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md) 및 &quot;[비디오 광고 경험 태그에 대한 코드 변환 옵션 사용자 지정](/help/creative/experiences/experience-tag-video-transcoding.md)&quot;을 참조하십시오. |
 | 2025년 5월 21일 | [!UICONTROL Creative Libraries] | 이제 광고 경험 내에서 사용할 수 있도록 Adobe Experience Manager 자산 라이브러리의 이미지를 [!UICONTROL Creative Libraries]에 추가할 수 있습니다. | &quot;[Adobe Experience Manager 이미지 에셋에 대한 액세스 구성](/help/creative/creative-libraries/aem-assets-configure.md)&quot; 및 &quot;[Creative 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md)&quot;를 참조하십시오. |
 | 2025년 2월 10일 | [!UICONTROL Creative Libraries] | 이전에는 광고 라이브러리가 한 개 있었습니다. 이제 각 광고주용으로 여러 라이브러리를 만들 수 있습니다. | &quot;[크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)&quot;를 참조하십시오. |

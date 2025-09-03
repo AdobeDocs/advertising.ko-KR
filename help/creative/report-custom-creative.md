@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: 교차 경험 [!UICONTROL Custom Creative Report]을(를) 생성하는 방법을 알아봅니다.
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: bf969c1b3cc57e2ef83087952a9bac530b276916
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
-* *[!UICONTROL FTP SSL] (현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+* *[!UICONTROL FTP SSL](현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서나 알림을 보낼 전자 메일 주소를 지정합니다.
 
@@ -187,7 +187,7 @@ ht-degree: 0%
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Size] | 게시된 광고의 차원입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Is Default] | 제공된 광고가 경험에 대한 기본 이미지 광고인지 비디오 광고인지 여부. |
-| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Rotation Type] | 광고가 상대적 가중치(*가중*)에 따라 회전되었는지 또는 알고리즘 방식으로 회전되었는지(*알고리즘*) 여부. |
+| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Rotation Type] | 광고가 알고리즘 방식으로 회전되었는지(*알고리즘*), 지정된 시퀀스(*시퀀스*) 또는 상대적 가중치에 따라 회전되었는지(*가중*). |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative ID] | [!UICONTROL Creative]이(가) 크리에이티브에 할당한 ID입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative Name] | 크리에이티브 이름. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative Type] | 크리에이티브 유형(예: [!UICONTROL HTML5]). |
