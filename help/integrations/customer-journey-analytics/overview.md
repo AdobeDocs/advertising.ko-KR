@@ -3,9 +3,9 @@ title: Adobe Advertising과 Adobe Customer Journey Analytics 간의 통합 개�
 description: Adobe Advertising을 Adobe Customer Journey Analytics과 통합하는 옵션에 대해 알아봅니다.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 57636259-f91a-404f-b972-994af67098b1
-source-git-commit: 14f2bd22c44237a817443d48e798457e6c78312e
+source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobe Advertising은 양방향 데이터 공유 및 보고를 위해 Adobe Custo
   In this use case, you don't need to perform any extra steps except to optionally [collect historical data for AMO IDs and EF IDs for use in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 -->
 
-* (예정된 Beta 기능) [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주는 기본적으로 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)을(를) 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 데이터를 교환할 수 있습니다. 쿠키, 해시된 IP 및 범용 ID([!DNL LiveRamp RampIDs] 및 ID5 ID)를 사용하여 사이트 이벤트를 추적하고 사이트 이벤트를 유료 미디어 활동에 연결할 수 있습니다. 캠페인, 광고 그룹, 패키지, 배치 및 키워드 수준에서 다음 데이터를 사용할 수 있습니다.
+* (예정된 Beta 기능) [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주는 기본적으로 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)을(를) 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 데이터를 교환할 수 있습니다. 쿠키, 해시된 IP 및 범용 ID([!DNL LiveRamp RampIDs] 및 ID5 ID)를 사용하여 사이트 이벤트를 추적하고 사이트 이벤트를 유료 미디어 활동에 연결할 수 있습니다. 캠페인, 광고 그룹, 패키지, 배치 및 키워드 수준에서 다음 데이터를 사용할 수 있습니다.
 
    * Customer Journey Analytics의 Adobe Advertising에서 캠페인 성과 데이터
 
@@ -54,5 +54,6 @@ Adobe Advertising은 양방향 데이터 공유 및 보고를 위해 Adobe Custo
 >
 >* [필수 구성 요소](prerequisites.md)
 >* [사용한 Adobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
+>* [데이터 수집, 데이터 전송 및 보고 설정](set-up.md)
 >* [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](advertising-data-in-cja.md)
 >* (Adobe Analytics 사용자) [Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집](/help/integrations/analytics/rvars-to-evars.md).
