@@ -55,4 +55,4 @@ ht-degree: 10%
    + [Customer Journey Analytics에서 사용하는 Adobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
    + [데이터 수집, 데이터 전송 및 보고 설정](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Adobe Advertising 통합에 대한 비디오 튜토리얼](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
++ [Adobe Advertising 통합에 대한 비디오 튜토리얼](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ko)<!-- rename if the tutorials TOC structure changes -->
