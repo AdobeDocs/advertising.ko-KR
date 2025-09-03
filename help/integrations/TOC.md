@@ -4,10 +4,10 @@ user-guide-description: Advertising DSP 및 Advertising Search와 다른 Adobe E
 breadcrumb-title: Experience Cloud와 통합
 role: User, Developer
 index: true
-source-git-commit: 6fda5ca754e1d1241d123edec06f81aabafd0a50
+source-git-commit: 6ba15a874cef5748088897edc9ef3f4a27e8ce52
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 11%
+source-wordcount: '257'
+ht-degree: 10%
 
 ---
 
@@ -52,5 +52,6 @@ ht-degree: 11%
 + Adobe Customer Journey Analytics과 통합 {#customer-journey-analytics}
    + [개요](/help/integrations/customer-journey-analytics/overview.md)
    + [사전 요구 사항](/help/integrations/customer-journey-analytics/prerequisites.md)
-   + [ [!DNL Customer Journey Analytics]에서 사용하는 Adobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
-+ [Adobe Advertising 통합에 대한 비디오 튜토리얼](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ko)<!-- rename if the tutorials TOC structure changes -->
+   + [Customer Journey Analytics에서 사용하는 Adobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
+   + [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
++ [Adobe Advertising 통합에 대한 비디오 튜토리얼](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
