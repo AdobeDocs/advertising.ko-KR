@@ -38,5 +38,5 @@ The following procedures explain the steps required to view Advertising Cloud da
 >* [사용한 Adobe Advertising ID [!DNL Customer Journey Analytics]](ids.md)
 >* [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](advertising-data-in-cja.md)
 >* [Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집](/help/integrations/analytics/rvars-to-evars.md).
->* [Customer Journey Analytics 안내서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
->* Customer Journey Analytics [Adobe Analytics 사용자를 위한 사용 안내서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* [Customer Journey Analytics 안내서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-landing)
+>* Customer Journey Analytics [Adobe Analytics 사용자를 위한 사용 안내서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
