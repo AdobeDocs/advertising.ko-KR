@@ -3,9 +3,9 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: e07713ed7b3b700560577f8020066540e34d8952
+source-git-commit: 4b09e4c09bd2d028365c820c24ac041fb5e5283c
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,15 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | DSP의 Campaign 고유 식별자입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Name] | 사용자가 할당한 캠페인의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Start Date] | 캠페인의 첫 번째 날짜입니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | 컨텐츠 제목. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | 콘텐츠 시리즈. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | 콘텐츠 장르. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | [IAB 기술 연구소](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)에서 정의한 프로덕션 품질입니다. 값은 `Unknown`, `Professionally Produced`, `Prosumer` 또는 `User Generated`일 수 있습니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | [IAB 기술 연구소](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)에서 정의한 콘텐츠 유형입니다. 값에는 `Video,` `Game`, `Music`, `Application`, `Text`, `Other` 또는 `Unknown`이(가) 포함될 수 있습니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Rating] | 콘텐츠 등급(예: PG 또는 R). |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Livestream] | 광고가 실시간 스트림에 표시되었는지 여부: `Not Live` 또는 `Live`. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Length (in seconds)] | 콘텐츠의 길이(초)입니다. 일반적으로 비디오나 오디오에 사용됩니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Language (as per ISO 639)] | ISO-639-1-alpha-2를 사용하는 콘텐츠의 언어입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Day (YYYY-MM-DD)] | 연도, 월, 일입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL of Week]일 | 특정 날짜(예: [!UICONTROL Monday] 또는 [!UICONTROL Tuesday]). |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Hour (YYYY-MM-DD HH)] | 연도, 월, 일 및 시간. |

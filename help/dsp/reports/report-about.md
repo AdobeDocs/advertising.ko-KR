@@ -3,9 +3,9 @@ title: 사용자 정의 보고서 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: a3e6324edcf5a52f6338ce969034cd9c4b6fb487
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 사전 구성된 보고서 템플릿 중에서 선택하고 선택적으로 추가로 사용자 지정합니다.
 
-보고서를 한 번 생성하거나 지정된 기준(예: 15일마다 또는 매월 1일)에 따라 지정된 시간대의 03:00에 매일, 매주 또는 매월 예약할 수 있습니다. 보고서가 생성되면 [!UICONTROL Reports] > [!UICONTROL Custom Reports] 또는 다음 유형의 연결된 [보고서 대상](/help/dsp/reports/report-destinations/report-destination-about.md)에서 다운로드할 수 있습니다.
+보고서를 한 번 생성하거나 지정된 기준(예: 15일마다 또는 매월 1일)에 따라 지정된 시간대의 03:00에서 매일, 매주 또는 매월 예약할 수 있습니다. 보고서가 생성되면 [!UICONTROL Reports] > [!UICONTROL Custom Reports] 또는 다음 유형의 연결된 [보고서 대상](/help/dsp/reports/report-destinations/report-destination-about.md)에서 다운로드할 수 있습니다.
 
 * [!DNL Amazon Simple Storage Service]&#x200B;([!DNL S3])
 * FTP
@@ -97,11 +97,13 @@ ht-degree: 0%
 
      이 보고서를 [!DNL Advanced Measurement Services] 및 Adobe 분석에서 만든 보고서와 비교하려면 &quot;[사용자 지정 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오.
 
-   * **[!UICONTROL Path Length]:** 이 보고서를 사용하여 다음을 수행할 수 있습니다.      최적의 광고 빈도를 선택할 수 있도록 시간 경과에 따른 전환에 필요한 사용자 상호 작용 지점 수를 추적합니다. 이 보고서는 사용자가 광고 상호 작용을 한 번, 광고 상호 작용을 두 번 한 후 발생한 전환 수와 같이 경로 길이(상호 작용 지점)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다.
+   * **[!UICONTROL Path Length]:** 최적의 광고 빈도를 선택할 수 있도록 이 보고서를 사용하여 시간에 따른 전환에 필요한 사용자 상호 작용 지점 수를 추적합니다. 이 보고서는 사용자가 광고 상호 작용을 한 번, 광고 상호 작용을 두 번 한 후 발생한 전환 수와 같이 경로 길이(상호 작용 지점)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다.
 
      데이터는 최대 10의 각 경로 길이에 대해 표시되며, 10보다 큰 경로 길이에 대한 데이터는 함께 그룹화됩니다.
 
    * **[!UICONTROL Time to Conversion]:** 이 보고서를 사용하여 최적의 속성 전환 확인 기간을 결정하고 전환 시간이 더 긴 캠페인을 식별하십시오. 전환 시간이 더 길어질 수 있으며, 이는 재타겟팅의 이점을 얻을 수 있습니다. 이 보고서는 마지막 상호 작용(광고 노출 또는 클릭)에서 전환까지의 시간(일)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다. 전환 확인 기간보다 오래 걸리는 전환은 한 행으로 그룹화됩니다(예: 보고서에서 30일 전환 확인 기간을 사용하는 경우, 발생하는 데 30일 이상 걸리는 모든 전환은 &quot;[!UICONTROL Time Taken (in days)]&quot; 값이 &quot;30+&quot;인 행으로 그룹화됨).
+
+   * **[!UICONTROL Content BETA]:** 이 보고서를 사용하여 지정된 콘텐츠 차원(예: 장르, 프로덕션 품질 및 콘텐츠 등급)별로 노출 전달 및 기타 지표를 이해함으로써 타깃팅을 최적화하고 브랜드 안전을 보장할 수 있습니다. 보고서는 콘텐츠 차원 외에도 대부분의 표준 차원, 지표 및 필터를 포함합니다. 콘텐츠 차원별 데이터는 [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] 및 [!DNL Triplelift]에 사용할 수 있습니다. 콘텐츠 신호는 비트스트림 중에 게시자에 의해 전달되고 가용성의 영향을 받습니다.
 
 ## 교차 계정 보고 {#cross-account-reporting}
 
