@@ -3,9 +3,9 @@ title: 용어집
 description: 주요 용어의 정의를 참조하십시오.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **광고 변형:** 광고 그룹 또는 광고 전략 내의 모든 광고.
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Adobe Advertising이 Adobe Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다. `s_kwcid=`(으)로 시작합니다.
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Adobe Advertising에서 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다. `s_kwcid=`(으)로 시작합니다.
 
 **입찰 단위:** 입찰이 있는 단위에 대한 검색, 소셜 및 Commerce 용어입니다.
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **전환 추적:** 전환 추적은 쿠키를 사용하여 a) 광고 네트워크에서 광고주의 광고 클릭수 및 b) 광고주의 웹 사이트에서 결과 트랜잭션을 추적합니다.
 
-**비용 정확도:**(포트폴리오가 있는 광고주) 포트폴리오의 실제 지출을 예측된 지출로 나눕니다. [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 최적화에 사용되는 비용 모델의 정확도를 나타내며 [[!UICONTROL Model Accuracy]인사이트](/help/search-social-commerce/advertising-insights/insight-about.md)에는 모델 정확도를 개선하기 위한 권장 사항과 함께 자세한 내용이 포함되어 있습니다.
+**비용 정확도:**(포트폴리오가 있는 광고주) 포트폴리오의 실제 지출을 예측된 지출로 나눕니다. [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 최적화에 사용되는 비용 모델의 정확도를 나타내며 [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)에는 모델 정확도를 개선하기 위한 권장 사항과 함께 자세한 내용이 포함되어 있습니다.
 
 **비용 모델:**(포트폴리오가 있는 광고주) 검색, 비용 양, 각 위치 또는 배치를 얻는 데 필요한 입찰, 기록 데이터 및 수학 예측 기술을 사용하여 각 입찰 단위에 대한 CPC(검색) 또는 CPM(디스플레이)를 예측하는 소셜 및 Commerce 기술.
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 **고아 트랜잭션:** 특정 키워드 또는 광고와 연결할 수 없는 트랜잭션 이벤트입니다.
 
-**픽셀:** 추적을 위해 웹 페이지에 포함된 1픽셀 단위의 투명한 이미지입니다. Adobe Advertising 전환 추적 태그에는 클릭 수와 결과 트랜잭션을 추적할 HTML 이미지 픽셀 또는 JavaScript이 포함됩니다.
+**픽셀:** 추적을 위해 웹 페이지에 포함된 1픽셀 단위의 투명한 이미지입니다. Adobe Advertising 전환 추적 태그에는 클릭 수와 결과 트랜잭션을 추적할 HTML 이미지 픽셀 또는 JavaScript이 포함되어 있습니다.
 
 **배치:** 디스플레이 네트워크에서 광고가 표시될 수 있는 위치입니다. 전체 웹 사이트, 웹 사이트의 하위 집합 또는 특정 페이지에서의 광고 위치일 수 있습니다.
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 **투자 수익률:**(ROI) 매출에서 비용을 뺀 금액입니다.
 
-**수익 정확도:**(포트폴리오가 있는 광고주) 포트폴리오의 실제 수익을 예상 수익으로 나눕니다. [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 최적화에 사용되는 수익 모델의 정확도를 나타내며 [[!UICONTROL Model Accuracy]인사이트](/help/search-social-commerce/advertising-insights/insight-about.md)에는 모델 정확도를 개선하기 위한 권장 사항과 함께 자세한 내용이 포함되어 있습니다.
+**수익 정확도:**(포트폴리오가 있는 광고주) 포트폴리오의 실제 수익을 예상 수익으로 나눕니다. [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 최적화에 사용되는 수익 모델의 정확도를 나타내며 [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)에는 모델 정확도를 개선하기 위한 권장 사항과 함께 자세한 내용이 포함되어 있습니다.
 
 **매출 모델:**(포트폴리오가 있는 광고주) 클릭 데이터(검색 및 소셜) 또는 노출 데이터(디스플레이)와 광고주의 전환 데이터를 기반으로 각 입찰 단위에 대한 전환율과 예상 수익을 예측하는 검색, 소셜 및 Commerce 기술.
 
