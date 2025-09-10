@@ -54,7 +54,7 @@ EF ID에는 Analysis Workspace의 500k 고유 식별자 제한이 적용됩니�
 
 ## ADOBE ADVERTISING AMO ID {#amo-id}
 
-AMO ID는 덜 세분화된 수준에서 각각의 고유한 광고 조합을 추적하며, [!DNL Analytics] 데이터 분류와 Adobe Advertising의 광고 지표(노출 횟수, 클릭 수 및 비용 등) 수집에 사용됩니다. AMO ID는 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 rVar 차원(AMO ID)에 저장되며 [!DNL Analytics]의 보고에만 사용됩니다.
+AMO ID는 덜 세분화된 수준에서 각각의 고유한 광고 조합을 추적하며, [!DNL Analytics] 데이터 분류와 Adobe Advertising의 광고 지표(노출 횟수, 클릭 수 및 비용 등) 수집에 사용됩니다. AMO ID는 [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ko) 또는 rVar 차원(AMO ID)에 저장되며 [!DNL Analytics]의 보고에만 사용됩니다.
 
 AMO ID를 `s_kwcid`이라고도 하며, &quot;[!DNL squid]&quot;(으)로 발음되기도 합니다.
 
@@ -224,7 +224,7 @@ Analytics 보고서에서 [!UICONTROL AMO ID] 차원을 검색하고 [!UICONTROL
 
 ## Analytics 분류 정보
 
-[!DNL Analytics]에서 [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)는 계정, 캠페인 또는 광고와 같은 지정된 추적 코드에 대한 메타데이터입니다. Adobe Advertising은 분류를 사용하여 원시 Adobe Advertising 데이터를 분류하므로 보고서를 생성할 때 광고 유형이나 캠페인별로 데이터를 다양한 방식으로 표시할 수 있습니다. 분류는 [!DNL Analytics]에서 Adobe Advertising 보고의 기초가 되며 [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] 및 [!UICONTROL AMO Clicks]과(와) 같은 AMO 지표와 함께 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] 및 [!UICONTROL Revenue]과(와) 같은 사용자 지정 및 표준 온사이트 이벤트에서 사용할 수 있습니다.
+[!DNL Analytics]에서 [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ko)는 계정, 캠페인 또는 광고와 같은 지정된 추적 코드에 대한 메타데이터입니다. Adobe Advertising은 분류를 사용하여 원시 Adobe Advertising 데이터를 분류하므로 보고서를 생성할 때 광고 유형이나 캠페인별로 데이터를 다양한 방식으로 표시할 수 있습니다. 분류는 [!DNL Analytics]에서 Adobe Advertising 보고의 기초가 되며 [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] 및 [!UICONTROL AMO Clicks]과(와) 같은 AMO 지표와 함께 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] 및 [!UICONTROL Revenue]과(와) 같은 사용자 지정 및 표준 온사이트 이벤트에서 사용할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
