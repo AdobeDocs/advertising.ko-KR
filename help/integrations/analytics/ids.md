@@ -102,7 +102,7 @@ Analytics 보고서에서 [!UICONTROL AMO ID] 차원을 검색하고 [!UICONTROL
 
 ## Analytics 분류 정보
 
-[!DNL Analytics]에서 [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)는 계정, 캠페인 또는 광고와 같은 지정된 추적 코드에 대한 메타데이터입니다. Adobe Advertising은 분류를 사용하여 원시 Adobe Advertising 데이터를 분류하므로 보고서를 생성할 때 광고 유형이나 캠페인별로 데이터를 다양한 방식으로 표시할 수 있습니다. 분류는 [!DNL Analytics]에서 Adobe Advertising 보고의 기초가 되며 [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] 및 [!UICONTROL AMO Clicks]과(와) 같은 AMO 지표와 함께 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] 및 [!UICONTROL Revenue]과(와) 같은 사용자 지정 및 표준 온사이트 이벤트에서 사용할 수 있습니다.
+[!DNL Analytics]에서 [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ko)는 계정, 캠페인 또는 광고와 같은 지정된 추적 코드에 대한 메타데이터입니다. Adobe Advertising은 분류를 사용하여 원시 Adobe Advertising 데이터를 분류하므로 보고서를 생성할 때 광고 유형이나 캠페인별로 데이터를 다양한 방식으로 표시할 수 있습니다. 분류는 [!DNL Analytics]에서 Adobe Advertising 보고의 기초가 되며 [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] 및 [!UICONTROL AMO Clicks]과(와) 같은 AMO 지표와 함께 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] 및 [!UICONTROL Revenue]과(와) 같은 사용자 지정 및 표준 온사이트 이벤트에서 사용할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
