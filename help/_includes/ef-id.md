@@ -1,7 +1,7 @@
 ---
-source-git-commit: 47b5d399d4a5daa8832456abc32fff68e694abe9
+source-git-commit: 32602df7b402bd129baf73ef5bb12c4385f01196
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -9,13 +9,17 @@ ht-degree: 0%
 
 ## Adobe Advertising
 
-EF ID는 Adobe Advertising이 활동을 온라인 클릭 또는 광고 노출과 연결하는 데 사용하는 고유한 토큰입니다. EF ID는 [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ko) 또는 [!DNL rVar]&#x200B;(예약된 [!DNL eVar]) 차원(Adobe Advertising EF ID)에 저장되며 개별 브라우저 또는 장치 수준에서 각 광고 클릭 또는 노출을 추적합니다. EF ID는 주로 Adobe Advertising 내에서 보고 및 입찰 최적화를 위해 [!DNL Analytics] 데이터를 Adobe Advertising에 보내는 키 역할을 합니다.
+EF ID는 Adobe Advertising이 활동을 개별 브라우저 또는 장치 수준에서 온라인 클릭 또는 광고 노출과 연결하는 데 사용하는 고유한 토큰입니다. EF ID는 주로 Adobe Advertising 내에서 보고 및 입찰 최적화를 위해 [!DNL Analytics] 데이터 및 Customer Journey Analytics 데이터를 Adobe Advertising에 전송하는 키 역할을 합니다.
+
+[!DNL Analytics]의 경우 EF ID는 [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 [!DNL rVar]&#x200B;(예약된 [!DNL eVar]) 차원(Adobe Advertising EF ID)에 저장됩니다.
+
+Customer Journey Analytics의 경우 EF ID는 `trackingIdentities`의 일부인 `conversionDetails` 개체의 [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] 속성에 저장됩니다.
 
 ### EF ID 형식 {#ef-id-formats}
 
 >[!NOTE]
 >
->EF ID는 대/소문자를 구분합니다. [!DNL Analytics] 구현에서 URL 추적을 소문자로 강제하는 경우 Adobe Advertising에서 EF ID를 인식하지 못합니다. 이는 Adobe Advertising 입찰 및 보고에 영향을 주지만 [!DNL Analytics] 내의 Adobe Advertising 보고에는 영향을 주지 않습니다.
+>EF ID는 대/소문자를 구분합니다. [!DNL Analytics] 또는 Customer Journey Analytics 구현에서 URL 추적을 소문자로 강제하는 경우 Adobe Advertising에서 EF ID를 인식하지 못합니다. 이는 Adobe Advertising 입찰 및 보고에 영향을 주지만 [!DNL Analytics] 또는 Customer Journey Analytics 내의 Adobe Advertising 보고에는 영향을 주지 않습니다.
 
 #### [!DNL Google Ads]개 검색 광고
 
