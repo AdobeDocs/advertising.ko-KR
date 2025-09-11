@@ -3,9 +3,9 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 4b09e4c09bd2d028365c820c24ac041fb5e5283c
+source-git-commit: ae7431218dcb547ded53d4bad1a79b894ee973fe
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | DSP의 Campaign 고유 식별자입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Name] | 사용자가 할당한 캠페인의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Start Date] | 캠페인의 첫 번째 날짜입니다. |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | 컨텐츠 제목. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | 콘텐츠/영화 제목. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | 콘텐츠 시리즈. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | 콘텐츠 장르. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | [IAB 기술 연구소](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)에서 정의한 프로덕션 품질입니다. 값은 `Unknown`, `Professionally Produced`, `Prosumer` 또는 `User Generated`일 수 있습니다. |
