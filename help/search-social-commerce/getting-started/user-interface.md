@@ -3,7 +3,7 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 553d0c90160cb12b8b32d3540c58797e6fac2abb
+source-git-commit: a180f99dc28fb1ed9abbd7654914fdd75e642c37
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 0%
@@ -38,15 +38,13 @@ ht-degree: 0%
 
 * **[!UICONTROL Manage]** 하위 메뉴:
 
-<!--  * **[!UICONTROL Portfolio Groups]:** Exits the new UI site and opens the legacy [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] view > [!UICONTROL Portfolio Groups] tab. -->
+   * **[!UICONTROL Portfolios]:** 광고주의 모든 포트폴리오를 나열하는 새 [!UICONTROL Portfolios] 보기를 엽니다. 이 보기에서 포트폴리오를 관리할 수 있습니다. 할당된 제한 목록을 열고 포트폴리오의 성능 및 컴포지션 세부 사항을 볼 수 있습니다.
 
-* **[!UICONTROL Portfolios]:** 광고주의 모든 포트폴리오를 나열하는 새 [!UICONTROL Portfolios] 보기를 엽니다. 이 보기에서 포트폴리오를 관리할 수 있습니다. 할당된 제한 목록을 열고 포트폴리오의 성능 및 컴포지션 세부 사항을 볼 수 있습니다.
+     포트폴리오 설정에는 목표 및 캠페인 할당, 지출 관리, 제한 관리 및 최적화 제어를 위한 탭이 포함됩니다. [!UICONTROL Control Optimization] 탭의 설정은 &quot;전문가 최적화&quot; 역할 이상의 사용자만 편집할 수 있습니다.
 
-  포트폴리오 설정에는 목표 및 캠페인 할당, 지출 관리, 제한 관리 및 최적화 제어를 위한 탭이 포함됩니다. [!UICONTROL Control Optimization] 탭의 설정은 &quot;전문가 최적화&quot; 역할 이상의 사용자만 편집할 수 있습니다.
+   * **[!UICONTROL Campaigns]:** 광고주의 모든 캠페인을 표시하는 새 [!UICONTROL Campaigns] 보기를 엽니다. 포트폴리오에 캠페인을 할당하고 선택한 캠페인에 대한 제한 할당을 관리할 수 있습니다. 데이터 테이블 내용에 대한 보고서를 다운로드할 수도 있습니다. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-* **[!UICONTROL Campaigns]:** 광고주의 모든 캠페인을 표시하는 새 [!UICONTROL Campaigns] 보기를 엽니다. 포트폴리오에 캠페인을 할당하고 선택한 캠페인에 대한 제한 할당을 관리할 수 있습니다. 데이터 테이블 내용에 대한 보고서를 다운로드할 수도 있습니다. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
-
-  캠페인을 만들고, 편집하고, 삭제하려면 기본 메뉴에서 **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;을(를) 클릭하거나 [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)를 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+     캠페인을 만들고, 편집하고, 삭제하려면 기본 메뉴에서 **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;을(를) 클릭하거나 [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)를 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
 * **[!UICONTROL Ad Groups]:** 광고주의 모든 광고 그룹을 표시하는 새 [!UICONTROL Ad Groups] 보기를 엽니다. 선택한 광고 그룹에 대한 제한 할당을 관리할 수 있습니다. 데이터 테이블 내용에 대한 보고서를 다운로드할 수도 있습니다.
 
