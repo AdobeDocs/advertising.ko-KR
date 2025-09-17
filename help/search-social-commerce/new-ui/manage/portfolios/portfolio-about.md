@@ -3,9 +3,10 @@ title: (새 UI) 포트폴리오 정보
 description: 포트폴리오에 대해 알아봅니다.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
+source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 일부 사용자 역할은 포트폴리오를 만들고 구성할 수 있습니다. 포트폴리오 유형에 따라 포트폴리오 설정에는 포트폴리오 목표, 할당된 캠페인, 지출 전략, 포트폴리오 수준의 입찰 제한 및 모델링 및 최적화 매개변수가 포함될 수 있습니다. 검색, 소셜 및 Commerce에서 포트폴리오 최적화를 시작할 준비가 되면 상태를 &quot;최적화됨&quot;으로 변경합니다.
 
-선택적으로 포트폴리오를 포트폴리오 그룹으로 그룹화하여 전체 그룹에 대한 합성 클릭 및 매출 데이터를 볼 수 있습니다. [레거시 UI](/help/search-social-commerce/getting-started/ui-switch.md)에서 포트폴리오 그룹을 만드십시오.
+포트폴리오를 [포트폴리오 그룹](portfolio-group-manage.md)(으)로 그룹화하여 전체 그룹에 대한 복합 데이터를 볼 수 있습니다(선택 사항).
 
 역할에 따라 예측 모델링을 사용하여 최적의 지출 포인트와 상세 예측 정확도 보고서를 식별하는 성능 시뮬레이션을 생성할 수 있습니다.<!-- Mention this now? In addition, all users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios. -->
 
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->&quot;스마트 입찰&quot;과 &quot;자동화된 입찰&quot;은 종종 상호 교환적으로 사용되지만 동일한 것은 아닙니다. 스마트 입찰은 경매 시간 입찰을 사용하는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 자동화된 입찰 전략만 참조합니다. 즉, 광고 네트워크는 각 경매 시 전환 또는 전환 값을 최적화합니다.
+>&#39;스마트 입찰&#39;과 &#39;자동화 입찰&#39;이 혼용되는 경우가 많지만 같은 일은 아니다. 스마트 입찰은 경매 시간 입찰을 사용하는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 자동화된 입찰 전략만 참조합니다. 즉, 광고 네트워크는 각 경매 시 전환 또는 전환 값을 최적화합니다.
 
 <!-- Add "Frequency of Bidding (or other actions, like adjusting campaign budget or bid adjustment values?) -->
 
