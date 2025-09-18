@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: a2cf15742557686df280b2a73eea996be53e5f4d
+source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 3%
       + [크로스 디바이스 솔루션](/help/dsp/introduction/features/cross-device-solutions.md)
    + [계정 자금 조달](/help/dsp/introduction/billing/account-funding.md)
    + [지원되는 통화](/help/dsp/currency.md)
-   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)
 + 캠페인 관리 {#campaign-management}
    + [캠페인 관리 구조 개요](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -67,11 +67,12 @@ ht-degree: 3%
       + [배치 편집](/help/dsp/campaign-management/placements/placement-edit.md)
       + [중복 배치](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [배치에 대한 입찰 승수 관리](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
-      + [배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [배치에서 광고 첨부 및 제거](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [광고에서 픽셀 첨부 및 제거](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md)
       + [배치에 대한 광고 일정 편집](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [배치에 대한 상세 보고서 보기](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [배치에 대한 변경 로그 보기](/help/dsp/campaign-management/placements/placement-change-log.md)
-      + [배치 일시 중지 또는 활성화](/help/dsp/campaign-management/placements/placement-pause-activate.md)
+      + [배치 비활성화 또는 활성화](/help/dsp/campaign-management/placements/placement-pause-activate.md)
       + [배치 보관 또는 보관 해제](/help/dsp/campaign-management/placements/placement-archive-unarchive.md)
       + [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
    + 광고 {#ads}
@@ -79,11 +80,11 @@ ht-degree: 3%
       + [인증 광고 서비스 제공 파트너](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [단일 광고 만들기](/help/dsp/campaign-management/ads/ad-create.md)
       + [여러 타사 광고 만들기](/help/dsp/campaign-management/ads/ad-create-multiple.md)
-      + [[!DNL Flashtalking] (으)로 광고 만들기](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [ [!DNL Flashtalking](으)로 광고 만들기](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [스프레드시트를 사용하여 광고 세부 정보 검토](/help/dsp/campaign-management/ads/ad-qa.md)
       + [광고 편집](/help/dsp/campaign-management/ads/ad-edit.md)
       + [광고 복제](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [배치에 광고 첨부](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=ko)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [배치에서 광고 첨부 및 제거](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [광고에 대한 상세 보고서 보기](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [광고 일시 중지 또는 활성화](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -238,6 +239,6 @@ ht-degree: 3%
    + 알림 {#notifications}
       + [경고 구독 기본 정보](/help/dsp/admin/alerts-about.md)
       + [경고 구독 관리](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ko)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [도움말 보기](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)
++ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

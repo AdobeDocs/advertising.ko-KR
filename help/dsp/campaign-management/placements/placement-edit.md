@@ -3,7 +3,7 @@ title: 배치 편집
 description: 배치를 편집하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 1. 캠페인의 이름을 클릭합니다.
 1. 하위 메뉴에서 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
-1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**&#x200B;을(를) 클릭합니다.
+1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Quick Edit]**&#x200B;을(를) 클릭합니다.
 1. 사용 가능한 [배치 설정](placement-settings.md): **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** 및 **[!UICONTROL Budget]**&#x200B;을(를) 편집합니다.
 1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. 하위 메뉴에서 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
 
-1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Edit]** **[!UICONTROL Full Edit]** > 을 클릭합니다.
 
 1. [배치 설정](placement-settings.md)을(를) 편집합니다.
 
@@ -97,9 +97,9 @@ ht-degree: 0%
 >* [배치 복제](placement-duplicate.md)
 >* [배치에 대한 입찰 승수 관리](placement-manage-bid-multipliers.md)
 >* [배치에 대한 광고 일정 편집](placement-edit-ad-schedule.md)
->* [배치 일시 중지 또는 활성화](placement-pause-activate.md)
+>* [배치 비활성화 또는 활성화](placement-pause-activate.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [배치 설정](placement-settings.md)
 >* [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [비디오: 일괄 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=ko)
+>* [비디오: 일괄 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

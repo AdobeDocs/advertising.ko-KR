@@ -1,25 +1,25 @@
 ---
-title: 배치 일시 중지 또는 활성화
-description: 배치를 일시 중단하거나 활성화하는 방법을 알아봅니다.
+title: 배치 비활성화 또는 활성화
+description: 배치를 비활성화하거나 활성화하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: cd58d8f7-8dd0-433b-9272-a4fc1e3e98d9
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
-# 배치 일시 중지 또는 활성화
+# 배치 비활성화 또는 활성화
 
-라이브 배치를 일시 중지하거나, 구성된 플라이트 일정 내에 있는 경우 일시 중지된 배치를 활성화합니다.
+라이브 배치를 비활성화하거나, 구성된 비행 일정 내에 있는 경우 일시 중지된 배치를 활성화합니다.
 
-## 라이브 배치 일시 중지
+## 라이브 배치 비활성화
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 1. 캠페인의 이름을 클릭합니다.
 1. 하위 메뉴에서 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
-1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Pause]**&#x200B;을(를) 클릭합니다.
+1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Deactivate]**&#x200B;을(를) 클릭합니다.
 
 ## 일시 중지된 배치 활성화
 

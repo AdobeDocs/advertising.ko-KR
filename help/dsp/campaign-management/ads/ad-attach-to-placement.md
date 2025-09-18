@@ -1,166 +1,113 @@
 ---
-title: 배치에 광고 첨부
-description: 배치에 광고를 첨부하는 방법을 알아봅니다.
+title: 배치에서 광고 첨부 및 제거
+description: 배치에 광고를 첨부하고 배치에서 광고를 제거하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 86acfaecdf761adc7c6585a49dbcdf4490290a8c
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
 
-# 배치에 광고 첨부
+# 배치에서 광고 첨부 및 제거
 
-[!UICONTROL Ad Tools] 보기를 사용하여 배치에 광고를 첨부하고, 광고에 서드파티 추적 픽셀을 첨부하고, 광고에서 기존 서드파티 추적 픽셀을 분리합니다.
+배치에서 광고를 첨부 및 제거할 수 있습니다.
 
 >[!NOTE]
 >
 >범용 비디오 광고는 범용 비디오 배치에만 첨부할 수 있습니다.
 
-## [!UICONTROL Ad Tools] 보기 열기 {#ad-tools-open}
+## [!UICONTROL Placements] 보기에서 배치에 광고 첨부 {#attach-ads-placement}
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
 1. 캠페인의 이름을 클릭합니다.
 
-1. 다음 방법 중 하나로 [!UICONTROL Ad Tools] 보기를 엽니다.
+1. **[!UICONTROL Placements]** 탭을 클릭합니다.
 
-   * ([!UICONTROL Packages] , [!UICONTROL Placements] 또는 [!UICONTROL Ads] 보기에서) 오른쪽 상단에서 **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**&#x200B;을(를) 클릭합니다.
+1. 다음 중 하나를 수행합니다.
 
-   * ([!UICONTROL Placements] 보기에서) 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**&#x200B;을(를) 클릭합니다
+   * (단일 배치의 경우) 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Ads]** > **[!UICONTROL Attach Ads]**&#x200B;을(를) 클릭합니다.
 
-   * ([!UICONTROL Ads] 보기에서) 광고 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**&#x200B;을(를) 클릭합니다.
+   * (여러 배치에 동일한 광고를 첨부하려면) 각 배치 이름에 확인란을 선택합니다. 일괄 작업 메뉴에서 **[!UICONTROL Attach Ads]**&#x200B;을(를) 클릭합니다.
 
-   기본적으로 [!UICONTROL Attach Ads] 탭이 선택되어 있습니다.
+1. 첨부할 각 광고 옆에 있는 확인란을 선택합니다
 
-## 배치에 광고 첨부 {#attach-ads-campaign}
+1. **[!UICONTROL Attach Selected Ads]**&#x200B;을(를) 클릭합니다.
 
-1. [[!UICONTROL Ad Tools] 보기를 엽니다](#ad-tools-open).
+## [!UICONTROL Ads] 보기에서 배치에 광고 첨부 {#attach-ads}
 
-1. [!UICONTROL Edit] 하위 보기에서 배치에 첨부할 각 광고 그룹에 대해 다음 작업을 수행합니다.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
-   1. (선택 사항) 다음 방법 중 하나로 특정 배치 및 광고를 찾습니다.
+1. 캠페인의 이름을 클릭합니다.
 
-      * 왼쪽 테이블 위에 있는 ![필터](/help/dsp/assets/filter.png)를 클릭하고 패키지, 배치 유형, 배치 상태, 광고 유형 또는 광고 상태별로 목록을 필터링합니다.
+1. **[!UICONTROL Ads]** 탭을 클릭합니다.
 
-      * 오른쪽 및 왼쪽 표 위에서 배치 및 광고 이름에서 특정 텍스트 문자열을 검색합니다.
+1. 광고 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Add to placements]**&#x200B;을(를) 클릭합니다.
 
-   1. 왼쪽 표에서 광고를 첨부할 각 배치 옆의 확인란을 선택합니다.
+1. 다음 중 하나를 수행합니다.
 
-   1. 오른쪽 표에서 선택한 배치에 첨부할 각 광고 옆에 있는 확인란을 선택합니다.
+   * 새 배치를 만들고 이 배치에 광고를 첨부하려면 다음을 수행합니다.
 
-      배치 유형에 적용할 수 있고 선택한 배치에 아직 첨부되지 않은 광고만 선택할 수 있습니다.
+      1. **[!UICONTROL Create a New Placement]**&#x200B;을(를) 클릭합니다.
 
-   1. 오른쪽 하단에서 **[!UICONTROL Attach]**&#x200B;을(를) 클릭합니다.
+      1. [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)을 입력한 다음 **[!UICONTROL Create Placement]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 [!UICONTROL Ad Tools] 왼쪽에 있는 ![폴더로 돌아가기](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")를 클릭하고 캠페인 이름을 선택합니다.
+         배치 유형은 광고 유형에 의해 결정됩니다.
 
-## 배치에 첨부된 광고 보기 {#view-ads-campaign}
+      1. **[!UICONTROL Attach ad]**&#x200B;을(를) 클릭합니다.
 
-<!-- should be a separate page, combined with "List the Placements Associated with an Ad" (although that pertains to a single ad only), or maybe just rename this topic -->
+      1. 배치에 첨부할 각 광고 옆의 확인란을 선택합니다.
 
-1. [[!UICONTROL Ad Tools] 보기를 엽니다](#ad-tools-open).
+      1. **[!UICONTROL Attach Selected Ads]**&#x200B;을(를) 클릭합니다.
 
-1. 오른쪽 상단의 **[!UICONTROL View]** 옵션으로 전환합니다.
+   * 기존 배치에 광고를 첨부하려면 다음을 수행합니다.
 
-1. (선택 사항) 필요에 따라 특정 배치 및 광고를 찾습니다.
+      1. **[!UICONTROL Select a Placement].** 클릭
 
-   * 왼쪽 테이블 위에 있는 ![필터](/help/dsp/assets/filter.png)를 클릭하고 패키지, 배치 유형, 배치 상태, 광고 유형 또는 광고 상태별로 목록을 필터링합니다.
+      1. 배치 이름 옆에 있는 **[!UICONTROL Select].**&#x200B;을 클릭합니다.
 
-   * 오른쪽 및 왼쪽 표에서 배치 또는 광고 이름에서 특정 텍스트 문자열을 검색합니다.
+      1. (선택 사항) 각 추가 배치에 대해 **[!UICONTROL Attach To Another Placement]**&#x200B;을(를) 클릭한 다음 이전 단계를 반복합니다.
 
-1. 왼쪽 표에 있는 배치 행을 클릭하면 오른쪽 표에 첨부된 광고가 표시됩니다.
+      1. **[!UICONTROL I'm done for now]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 더 많은 광고를 캠페인의 배치에 첨부하려면 오른쪽 상단의 **[!UICONTROL Edit]** 보기로 전환합니다. 지침은 이전 절차의 2단계인 &quot;[배치에 광고 첨부](#attach-ads-campaign)&quot;를 참조하십시오.
+## [!UICONTROL Placements] 보기에서 배치에서 광고 제거 {#remove-ads-placement}
 
-## 배치에 있는 광고에 서드파티 추적 픽셀 첨부 {#attach-pixels-ads}
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
-1. [[!UICONTROL Ad Tools] 보기를 엽니다](#ad-tools-open).
+1. 캠페인의 이름을 클릭합니다.
 
-1. **[!UICONTROL Attach Pixels]** 탭을 클릭합니다.
+1. **[!UICONTROL Placements]** 탭을 클릭합니다.
 
-1. [!UICONTROL Edit] 하위 보기에서:
+1. 다음 중 하나를 수행합니다.
 
-   1. (선택 사항) 다음 방법 중 하나로 광고와 서드파티 픽셀을 찾습니다.
+   * (단일 배치의 경우) 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Ads]** > **[!UICONTROL Detach Ads]**&#x200B;을(를) 클릭합니다.
 
-      * 왼쪽 표 위에 있는 ![필터](/help/dsp/assets/filter.png)를 클릭하고 광고 상태, 광고 유형, 픽셀 통합 이벤트 또는 픽셀 유형별로 목록을 필터링합니다.
+   * (여러 배치에서 동일한 광고를 제거하려면) 각 배치 이름에 대한 확인란을 선택합니다. 일괄 작업 메뉴에서 **[!UICONTROL Detach Ads]**&#x200B;을(를) 클릭합니다.
 
-      * 오른쪽 및 왼쪽 표 위에서 광고 이름 및 픽셀 이름에서 특정 텍스트 문자열을 검색합니다.
+1. 제거할 각 광고 옆에 있는 확인란을 선택합니다.
 
-   1. (캠페인에 대한 서드파티 추적 픽셀이 없는 경우) 픽셀을 만듭니다.
+1. **[!UICONTROL Detach Selected Ads]**&#x200B;을(를) 클릭합니다.
 
-      1. 오른쪽 테이블에서 **[!UICONTROL Create pixel]**&#x200B;을(를) 클릭합니다.
+## [!UICONTROL Placement Inspector]의 배치에서 광고 제거 {#remove-ads-placement-inspector}
 
-      1. 설정을 지정합니다.
+1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
-         **[!UICONTROL Integration Event]:** 픽셀을 실행하도록 트리거하는 이벤트(예: *[!UICONTROL Impression]* 또는 *[!UICONTROL Click-through]*).
+1. 캠페인의 이름을 클릭합니다.
 
-         **[!UICONTROL Pixel Type]:** 픽셀이 *[!UICONTROL IMG URL]*(1x1 픽셀 이미지 파일), *[!UICONTROL HTML]* 또는 *[!UICONTROL JavaScript URL]*&#x200B;인지 여부.
+1. **[!UICONTROL Placements]** 탭을 클릭합니다.
 
-         **[!UICONTROL Pixel URL or Code]:** 지정된 픽셀 유형에 적절한 형식의 픽셀 이미지 URL입니다.
+1. 커서를 배치 행 위에 놓고 **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**&#x200B;을(를) 클릭합니다.
 
-         **[!UICONTROL Pixel Name]:** 픽셀 이름입니다. 픽셀을 쉽게 식별하는 데 도움이 되는 이름을 사용합니다.
+1. **[!UICONTROL Ads]** 탭을 클릭합니다.
 
-         **[!UICONTROL Pixel Provider]:** 픽셀 공급자: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* 또는 *[!UICONTROL IAS]*.
-
-      1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-
-   1. 왼쪽 표에서 서드파티 추적 픽셀을 첨부할 각 광고 옆에 있는 확인란을 선택합니다.
-
-   1. 오른쪽 표에서 선택한 광고에 첨부할 각 서드파티 추적 픽셀 옆의 확인란을 선택합니다.
-
-      선택한 광고에 아직 첨부되지 않은 픽셀만 선택할 수 있습니다.
-
-   1. 오른쪽 하단에서 **[!UICONTROL Attach]**&#x200B;을(를) 클릭합니다.
-
-1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 [!UICONTROL Ad Tools] 왼쪽에 있는 ![폴더로 돌아가기](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")를 클릭하고 캠페인 이름을 선택합니다.
-
-## 배치의 광고에서 서드파티 추적 픽셀 분리 {#detach-pixels-ads}
-
-1. [[!UICONTROL Ad Tools] 보기를 엽니다](#ad-tools-open).
-
-1. **[!UICONTROL Attach Pixels]** 탭을 클릭합니다.
-
-1. [!UICONTROL Edit] 하위 보기에서:
-
-   1. (선택 사항) 다음 방법 중 하나로 광고와 서드파티 픽셀을 찾습니다.
-
-      * 왼쪽 표 위에 있는 ![필터](/help/dsp/assets/filter.png)를 클릭하고 광고 상태, 광고 유형, 픽셀 통합 이벤트 또는 픽셀 유형별로 목록을 필터링합니다.
-
-      * 오른쪽 및 왼쪽 표 위에서 광고 이름 및 픽셀 이름에서 특정 텍스트 문자열을 검색합니다.
-
-   1. 왼쪽 표에서 서드파티 추적 픽셀을 분리할 각 광고 옆에 있는 확인란을 선택합니다.
-
-   1. 오른쪽 표에서 선택한 광고에서 분리할 각 타사 추적 픽셀 옆의 확인란을 선택합니다.
-
-      선택한 모든 광고에 첨부된 픽셀만 선택할 수 있습니다.
-
-   1. 오른쪽 하단에서 **[!UICONTROL Detach]**&#x200B;을(를) 클릭합니다.
-
-1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 [!UICONTROL Ad Tools] 왼쪽에 있는 ![폴더로 돌아가기](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")를 클릭하고 캠페인 이름을 선택합니다.
-
-## 광고에 첨부된 픽셀 보기 {#view-pixels-ads}
-
-1. [[!UICONTROL Ad Tools] 보기를 엽니다](#ad-tools-open).
-
-1. **[!UICONTROL Attach Pixels]** 탭을 클릭합니다.
-
-1. 오른쪽 상단의 **[!UICONTROL View]** 옵션으로 전환합니다.
-
-1. (선택 사항) 필요에 따라 광고 및 서드파티 픽셀을 찾습니다.
-
-   * 왼쪽 표 위에 있는 ![필터](/help/dsp/assets/filter.png)를 클릭하고 광고 상태, 광고 유형, 픽셀 통합 이벤트 또는 픽셀 유형별로 목록을 필터링합니다.
-
-   * 오른쪽 및 왼쪽 표 위에서 광고 이름 및 픽셀 이름에서 특정 텍스트 문자열을 검색합니다.
-
-1. 왼쪽 테이블의 광고 행을 클릭하면 오른쪽 테이블에 첨부된 픽셀이 표시됩니다.
-
-1. (선택 사항) 광고에 더 많은 픽셀을 첨부하려면 오른쪽 상단의 **[!UICONTROL Edit]** 보기로 전환합니다. 지침은 이전 절차의 3단계, &quot;[배치에 서드파티 추적 픽셀 첨부](#attach-pixels-ads)&quot;를 참조하십시오.
+1. 광고 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Detach]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
 >* [광고 관리 정보](ad-about.md)
+>* [광고에서 픽셀 첨부 및 제거](ad-pixel-attach-detach.md)
 >* [단일 광고 만들기](ad-create.md)
 >* [여러 타사 광고 만들기](ad-create-multiple.md)
 >* [광고 편집](ad-edit.md)

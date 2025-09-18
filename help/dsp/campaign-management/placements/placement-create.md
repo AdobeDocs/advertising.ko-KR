@@ -3,7 +3,7 @@ title: 배치 만들기
 description: 배치를 만드는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -94,45 +94,45 @@ ht-degree: 0%
 
       * 캠페인에 기존 광고를 첨부하려면:
 
-      1. **[!UICONTROL Select an Ad]**&#x200B;을(를) 클릭합니다.
-
-      1. 다음 중 하나를 수행합니다.
-
-         * 한 번에 광고를 하나씩 추가하려면:
-
-            1. 광고 이름 옆에 있는 **[!UICONTROL Select].**&#x200B;을(를) 클릭합니다
-
-            1. (선택 사항) 첨부할 각 추가 광고에 대해 **[!UICONTROL Attach Another Ad]**&#x200B;을(를) 클릭한 다음 이 프로세스를 반복합니다.
-
-         * 한 번에 최대 20개의 광고를 추가하려면:
-
-            1. 광고 목록 위에 있는 확인란을 선택합니다.
-
-            1. 추가할 각 광고 옆에 있는 확인란을 선택합니다.
-
-            1. **[!UICONTROL Attach]**&#x200B;을(를) 클릭합니다.
-
-            1. 광고 이름 옆에 있는 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
-
-      1. (선택 사항) 배치의 특정 광고에 대한 기본 비행 기간 및 광고 회전을 무시하려면 다음을 수행하십시오.
-
-         1. **[!UICONTROL Custom Schedule Ads]**&#x200B;을(를) 클릭합니다.
+         1. **[!UICONTROL Select an Ad]**&#x200B;을(를) 클릭합니다.
 
          1. 다음 중 하나를 수행합니다.
 
-            * 항공편을 추가하려면 **[!UICONTROL Add Flight]**&#x200B;을(를) 클릭한 다음 시작 날짜와 종료 날짜를 지정하십시오.
+            * 한 번에 광고를 하나씩 추가하려면:
 
-            * 광고에 기존 비행을 추가하려면 비행 열의 광고 행에서 **[!UICONTROL +]**&#x200B;을(를) 클릭합니다.
+               1. 광고 이름 옆에 있는 **[!UICONTROL Select].**&#x200B;을(를) 클릭합니다
 
-            * 광고에서 기존 플라이트 제거를 수행하려면 플라이트 열의 광고 행에서 **[!UICONTROL x]**&#x200B;을(를) 클릭합니다.
+               1. (선택 사항) 첨부할 각 추가 광고에 대해 **[!UICONTROL Attach Another Ad]**&#x200B;을(를) 클릭한 다음 이 프로세스를 반복합니다.
 
-            * (여러 광고의 비행 시간이 동일한 경우) 광고를 불균일하게 회전하려면 비행 정보에서 **[!UICONTROL Even Rotation]**&#x200B;을(를) 클릭한 다음 각 광고를 회전하는 상대 가중치를 백분율로 입력하십시오.
+            * 한 번에 최대 20개의 광고를 추가하려면:
 
-              총 가중치는 100이어야 합니다.
+               1. 광고 목록 위에 있는 확인란을 선택합니다.
 
-         1. 오른쪽 상단에서 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
+               1. 추가할 각 광고 옆에 있는 확인란을 선택합니다.
 
-         1. 비행 세부 정보를 검토한 다음 **[!UICONTROL Save & Finish]**&#x200B;을(를) 클릭합니다.
+               1. **[!UICONTROL Attach]**&#x200B;을(를) 클릭합니다.
+
+               1. 광고 이름 옆에 있는 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
+
+         1. (선택 사항) 배치의 특정 광고에 대한 기본 비행 기간 및 광고 회전을 무시하려면 다음을 수행하십시오.
+
+            1. **[!UICONTROL Custom Schedule Ads]**&#x200B;을(를) 클릭합니다.
+
+            1. 다음 중 하나를 수행합니다.
+
+               * 항공편을 추가하려면 **[!UICONTROL Add Flight]**&#x200B;을(를) 클릭한 다음 시작 날짜와 종료 날짜를 지정하십시오.
+
+               * 광고에 기존 비행을 추가하려면 비행 열의 광고 행에서 **[!UICONTROL +]**&#x200B;을(를) 클릭합니다.
+
+               * 광고에서 기존 플라이트 제거를 수행하려면 플라이트 열의 광고 행에서 **[!UICONTROL x]**&#x200B;을(를) 클릭합니다.
+
+               * (여러 광고의 비행 시간이 동일한 경우) 광고를 불균일하게 회전하려면 비행 정보에서 **[!UICONTROL Even Rotation]**&#x200B;을(를) 클릭한 다음 각 광고를 회전하는 상대 가중치를 백분율로 입력하십시오.
+
+                 총 가중치는 100이어야 합니다.
+
+            1. 오른쪽 상단에서 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
+
+            1. 비행 세부 정보를 검토한 다음 **[!UICONTROL Save & Finish]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
@@ -140,11 +140,11 @@ ht-degree: 0%
 >* [배치 편집](placement-edit.md)
 >* [배치에 대한 입찰 승수 관리](placement-manage-bid-multipliers.md)
 >* [배치에 대한 광고 일정 편집](placement-edit-ad-schedule.md)
->* [배치 일시 중지 또는 활성화](placement-pause-activate.md)
+>* [배치 비활성화 또는 활성화](placement-pause-activate.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [배치 설정](placement-settings.md)
 >* [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* 범용 비디오에 대한 [FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [성능 문제 해결](/help/dsp/optimization/troubleshooting-performance.md)
->* [비디오: 표준 디스플레이 배치를 만드는 방법](https://video.tv.adobe.com/v/345002?captions=kor)
+>* [비디오: 표준 디스플레이 배치를 만드는 방법](https://video.tv.adobe.com/v/340454)

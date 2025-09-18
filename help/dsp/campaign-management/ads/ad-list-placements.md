@@ -3,9 +3,9 @@ title: 광고와 연결된 배치 나열
 description: 광고와 연결된 배치를 확인하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # 광고와 연결된 배치 나열
 
 광고와 연결된 배치 목록을 보고 배치별로 성능 데이터를 보고 필요한 경우 배치 설정을 편집합니다.
-
-&quot;[배치에 첨부된 광고 보기](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign)&quot;도 참조하세요.
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 1. 캠페인의 이름을 클릭합니다.

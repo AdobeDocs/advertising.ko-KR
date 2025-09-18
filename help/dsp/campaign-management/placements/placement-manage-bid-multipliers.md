@@ -3,7 +3,7 @@ title: 배치에 대한 입찰 승수 관리
 description: 배치 타겟에 대한 입찰 승수를 만들고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 28f1b799daaa4e511abab1102a639e72b3a32d18
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 1. 하위 메뉴에서 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
 
-1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**&#x200B;을(를) 클릭합니다.
+1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Bid Multiplier]**&#x200B;을(를) 클릭합니다.
 
 1. 적격 대상에 대한 입찰 승수를 조정합니다.
 

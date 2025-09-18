@@ -3,7 +3,7 @@ title: 프리롤 광고 설정
 description: 프리롤 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: d0ba4346-13ae-405c-92b6-a0c32dd09d0a
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Pixel]
 
-배치에 대한 기존의 모든 이벤트 추적 픽셀은 자동으로 첨부됩니다. 개별 광고에 대한 추적 요구 사항을 기반으로 기존 픽셀을 분리하고 필요에 따라 새 픽셀을 만들 수 있습니다. **팁:** [!UICONTROL Ad Tools] 보기를 사용하여 한 번에 배치의 여러 광고에 대한 타사 추적 픽셀을 편집하려면 &quot;[배치에 타사 추적 픽셀 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)&quot;를 참조하십시오.
+배치에 대한 기존의 모든 이벤트 추적 픽셀은 자동으로 첨부됩니다. 개별 광고에 대한 추적 요구 사항을 기반으로 기존 픽셀을 분리하고 필요에 따라 새 픽셀을 만들 수 있습니다. **팁:** [!UICONTROL Ad Tools] 보기를 사용하여 한 번에 배치의 여러 광고에 대한 타사 추적 픽셀을 편집하려면 &quot;[배치에 타사 추적 픽셀 첨부](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)&quot;를 참조하십시오.
 
 다음 설정은 사용자가 만들거나 편집하는 각 픽셀에 적용됩니다.
 

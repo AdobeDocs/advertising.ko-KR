@@ -3,9 +3,9 @@ title: 기본 디스플레이 광고 설정
 description: 기본 디스플레이 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -32,17 +32,17 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page]:** 뷰어가 광고를 클릭할 때 들어오는 URL입니다.
 
-**[!UICONTROL Final Landing Page]:** 필요한 [Advertising DSP 추적 매크로](/help/dsp/campaign-management/macros.md)가 삽입된 [!UICONTROL Landing Page] URL입니다(해당하는 경우).
+**[!UICONTROL Final Landing Page]:** 필요한 [!UICONTROL Landing Page]Advertising DSP 추적 매크로[가 삽입된 ](/help/dsp/campaign-management/macros.md) URL입니다(해당하는 경우).
 
 **[!UICONTROL Sponsored By (Advertiser Name)]:** 광고주입니다.
 
 **[!UICONTROL Call to Action]:**(선택 사항) 사용자가 이 광고를 보게 되면 수행할 단계입니다.
 
-**[!UICONTROL Advertiser Logo]:**(선택 사항) 더 많은 브랜드 인식을 위해 광고에 포함할 1:1 비율의 로고입니다. **[!UICONTROL Browse]**&#x200B;을(를) 클릭하고 장치나 네트워크에서 파일을 찾은 다음 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
+**[!UICONTROL Advertiser Logo]:**(선택 사항) 더 많은 브랜드 인식을 위해 광고에 포함할 1:1 비율 로고입니다. **[!UICONTROL Browse]**&#x200B;을(를) 클릭하고 장치나 네트워크에서 파일을 찾은 다음 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
 ### [!UICONTROL Pixel]
 
-배치에 대한 기존의 모든 이벤트 추적 픽셀은 자동으로 첨부됩니다. 개별 광고에 대한 추적 요구 사항을 기반으로 기존 픽셀을 분리하고 필요에 따라 새 픽셀을 만들 수 있습니다. **팁:** [!UICONTROL Ad Tools] 보기를 사용하여 한 번에 배치의 여러 광고에 대한 타사 추적 픽셀을 편집하려면 &quot;[배치에 타사 추적 픽셀 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)&quot;를 참조하십시오.
+배치에 대한 기존의 모든 이벤트 추적 픽셀은 자동으로 첨부됩니다. 개별 광고에 대한 추적 요구 사항을 기반으로 기존 픽셀을 분리하고 필요에 따라 새 픽셀을 만들 수 있습니다. **팁:** [!UICONTROL Ad Tools] 보기를 사용하여 한 번에 배치의 여러 광고에 대한 타사 추적 픽셀을 편집하려면 &quot;[배치에 타사 추적 픽셀 첨부](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)&quot;를 참조하십시오.
 
 다음 설정은 사용자가 만들거나 편집하는 각 픽셀에 적용됩니다.
 

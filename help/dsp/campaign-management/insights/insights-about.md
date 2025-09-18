@@ -3,9 +3,9 @@ title: Insights 정보
 description: 시각화를 통한 성능 통찰력에 대해 알아봅니다.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,8 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 * (모든 캠페인에 대한 인사이트를 열려면) 기본 메뉴에서 **[!UICONTROL Insights BETA]**&#x200B;을(를) 클릭합니다.
 
 * (특정 캠페인, 패키지 또는 배치에 대한 인사이트를 열려면) [!UICONTROL Campaigns], [!UICONTROL Packages] 또는 [!UICONTROL Placements] 보기에서 엔터티 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Insights]**&#x200B;을(를) 클릭합니다.
+
+* (특정 배치에 대한 인사이트를 열려면) [!UICONTROL Campaigns], [!UICONTROL Packages] 또는 [!UICONTROL Placements] 보기에서 엔터티 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]** 을 클릭합니다.
 
 ## 탭에 필터 적용
 
