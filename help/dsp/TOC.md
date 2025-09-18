@@ -80,7 +80,7 @@ ht-degree: 3%
       + [인증 광고 서비스 제공 파트너](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [단일 광고 만들기](/help/dsp/campaign-management/ads/ad-create.md)
       + [여러 타사 광고 만들기](/help/dsp/campaign-management/ads/ad-create-multiple.md)
-      + [ [!DNL Flashtalking](으)로 광고 만들기](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [[!DNL Flashtalking] (으)로 광고 만들기](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [스프레드시트를 사용하여 광고 세부 정보 검토](/help/dsp/campaign-management/ads/ad-qa.md)
       + [광고 편집](/help/dsp/campaign-management/ads/ad-edit.md)
       + [광고 복제](/help/dsp/campaign-management/ads/ad-duplicate.md)
