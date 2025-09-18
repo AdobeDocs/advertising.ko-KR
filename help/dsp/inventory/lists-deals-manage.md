@@ -1,26 +1,21 @@
 ---
 title: 거래 목록 관리
 description: 배치 타깃팅에 대한 거래 목록을 만들고 관리하는 방법을 알아봅니다.
-feature: DSP Private Inventory, DSP Deal IDs, DSP Placements
-source-git-commit: 60c808fe1b78443a55d900a1a424442bd388e872
+feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
+exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
+source-git-commit: 166117045e52a92d9c1fda4eeca9320c9e0bf3f1
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
 
 # 거래 목록 관리
 
-<!-- Will later add fct for On-Demand deals, too, so keep title generic. Later add "DSP On Demand Inventory to feature metadata -->
+배치 타깃팅을 위해 비공개 거래 및 [!DNL On Demand]개 거래 목록을 만들고 관리할 수 있습니다. 배치 설정 내에서 특정 비공개 거래 목록을 타깃팅하거나 제외합니다.
 
-배치 타깃팅을 위해 비공개 거래 목록을 만들고 관리할 수 있습니다. 배치 설정 내에서 특정 비공개 거래 목록을 타깃팅하거나 제외합니다.
-
-사용자 지정 보고서에서 a) 거래 목록별로 데이터를 필터링하고 b) [!UICONTROL Build Your Report] 섹션에 [!UICONTROL Feed] 차원 &quot;[!UICONTROL Deal list]&quot;을(를) 포함할 수 있습니다.
-
-<!--
-What's New:  
-
-In custom reports, you can now a) filter data by deal lists and deals and b) include the [!UICONTROL Feed] dimensions "[!UICONTROL Deal list]" and "[!UICONTROL Deal]" in the [!UICONTROL Build Your Report] section.
+<!-- Later:
+In custom reports, you can a) filter data by deal lists and deals and b) include the [!UICONTROL Feed] dimensions "[!UICONTROL Deal list]" and "[!UICONTROL Deal]" in the [!UICONTROL Build Your Report] section
 -->
 
 ## 거래 목록 보기
@@ -35,9 +30,15 @@ In custom reports, you can now a) filter data by deal lists and deals and b) inc
 
 1. 오른쪽 상단에서 **[!UICONTROL Create].**&#x200B;을(를) 클릭합니다
 
+1. **[!UICONTROL List name]**&#x200B;을(를) 입력하고 **[!UICONTROL Inventory Type]**(*[!UICONTROL Private]* 또는 *[!UICONTROL On Demand]*)을(를) 선택합니다.
+
 1. **[!UICONTROL Add Deals].** 클릭
 
-1. (옵션) 게시자, SSP 또는 거래 유형(*[!UICONTROL Guaranteed]* 또는 *[!UICONTROL Non-Guaranteed]*)별로 목록을 필터링하거나 거래 이름 또는 거래 ID별로 목록을 검색합니다.
+1. (선택 사항) 거래를 필터링하거나 검색합니다.
+
+   * 비공개 거래의 경우 게시자, SSP 또는 거래 유형(*[!UICONTROL Guaranteed]* 또는 *[!UICONTROL Non-Guaranteed]*)별로 목록을 필터링하거나 거래 이름 또는 거래 ID별로 목록을 검색하십시오.
+
+   * [!UICONTROL On Demand] 거래의 경우 게시자, 지역 또는 미디어 유형별로 목록을 필터링하거나 거래 이름별로 목록을 검색합니다.
 
 1. 목록에 포함할 각 거래 옆의 확인란을 선택합니다.
 
