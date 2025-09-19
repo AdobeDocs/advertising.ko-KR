@@ -3,9 +3,9 @@ title: 거래 목록 관리
 description: 배치 타깃팅에 대한 거래 목록을 만들고 관리하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: 166117045e52a92d9c1fda4eeca9320c9e0bf3f1
+source-git-commit: e030783a046002e02d719a36c99d1b10808cd4a9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
    * 비공개 거래의 경우 게시자, SSP 또는 거래 유형(*[!UICONTROL Guaranteed]* 또는 *[!UICONTROL Non-Guaranteed]*)별로 목록을 필터링하거나 거래 이름 또는 거래 ID별로 목록을 검색하십시오.
 
-   * [!UICONTROL On Demand] 거래의 경우 게시자, 지역 또는 미디어 유형별로 목록을 필터링하거나 거래 이름별로 목록을 검색합니다.
+   * [!UICONTROL On Demand] 거래의 경우 게시자, 지역 또는 미디어 유형별로 목록을 필터링하거나 거래 이름별로 목록을 검색합니다. 이 목록에는 구독한 [!DNL On Demand] 거래만 포함됩니다.
 
 1. 목록에 포함할 각 거래 옆의 확인란을 선택합니다.
 
