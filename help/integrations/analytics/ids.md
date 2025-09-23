@@ -48,7 +48,7 @@ EF ID는 Adobe Advertising이 활동을 개별 브라우저 또는 장치 수준
 
 [!DNL Analytics]의 경우 EF ID는 [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 [!DNL rVar]&#x200B;(예약된 [!DNL eVar]) 차원(Adobe Advertising EF ID)에 저장됩니다.
 
-Customer Journey Analytics의 경우 EF ID는 `trackingIdentities``conversionDetails`[의 일부인 [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] 개체의 ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) 속성에 저장됩니다.
+Customer Journey Analytics의 경우 EF ID는 `trackingIdentities` `conversionDetails`[의 일부인 [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] 개체의 ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) 속성에 저장됩니다.
 
 ### EF ID 형식 {#ef-id-formats}
 
