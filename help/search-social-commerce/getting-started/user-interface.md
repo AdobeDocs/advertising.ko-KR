@@ -3,7 +3,7 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
+source-git-commit: 3b4d92d2f6fe8b2ef57dfd5ce833772c37b039f8
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Recommendations]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] 보기를 엽니다.
 
-* **[!UICONTROL Alerts & Notifications]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] 보기를 엽니다.
+   * **[!UICONTROL Alerts & Notifications]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] 보기를 엽니다.
 
 * **[!UICONTROL Goals]** 하위 메뉴:
 
