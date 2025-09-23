@@ -4,7 +4,7 @@ description: 성능 대시보드에서 사용할 수 있는 데이터에 대해 
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 6fe42303c8499dbff6d5964d4074e98a2f2486ba
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *Beta 기능*
 
-사용자 지정 가능한 [!UICONTROL Dashboard]을(를) 사용하면 모든 포트폴리오 <!-- May later include other entity-level data -->의 성능을 모니터링할 수 있으므로 조사 및 해결할 수 있는 잠재적인 성능 문제를 식별할 수 있습니다. 지난 90일 동안의 모든 기간에 대해 일별, 주별 또는 월별 데이터를 볼 수 있습니다.
+사용자 지정 가능한 [!UICONTROL Dashboard] > [!UICONTROL Overview]을(를) 사용하면 모든 포트폴리오 <!-- May later include other entity-level data -->의 성능을 모니터링할 수 있으므로 잠재적인 성능 문제를 파악하여 조사하고 해결할 수 있습니다. 지난 90일 동안의 모든 기간에 대해 일별, 주별 또는 월별 데이터를 볼 수 있습니다.
 
 [!UICONTROL Dashboard]에 다음 시각적 보고서가 포함되어 있습니다.
 
