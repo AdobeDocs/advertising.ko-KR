@@ -3,9 +3,10 @@ title: 광고 그룹에 대한 제한 할당 관리
 description: 광고 그룹에 제약 조건을 할당하는 방법을 알아봅니다.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 1. 단일 제한을 할당할 각 광고 그룹 옆의 확인란을 선택합니다.
 
-1. 도구 모음에서 ![추가 작업](/help/search-social-commerce/assets/more-actions.png "추가 작업") **[!UICONTROL More Actions]** > ![할당](/help/search-social-commerce/assets/assign.png "할당") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]**&#x200B;을 클릭합니다.
+1. 일괄 작업 도구 모음에서 **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**&#x200B;을(를) 클릭합니다.
 
 1. 제약조건을 선택합니다.
 
@@ -58,7 +59,7 @@ ht-degree: 0%
 
 1. 제한을 할당 해제할 각 광고 그룹 옆의 확인란을 선택합니다.
 
-1. 도구 모음에서 ![추가 작업](/help/search-social-commerce/assets/more-actions.png "추가 작업") **[!UICONTROL More Actions]** > ![할당](/help/search-social-commerce/assets/unassign.png "할당 해제") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**&#x200B;을 클릭합니다.
+1. 일괄 작업 도구 모음에서 **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 

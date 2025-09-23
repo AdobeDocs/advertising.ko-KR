@@ -4,9 +4,9 @@ description: 성능 대시보드에서 사용할 수 있는 데이터에 대해 
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 * **가장 큰 이동자 - \[선택한 지표\]:** 이전 기간과 비교하여 지정된 지표에 대한 변경 내용이 가장 큰 10개의 포트폴리오입니다.
 
 * **지출 분포:** 광고 네트워크별 지출 분포입니다.
+
+## 성능 대시보드 보기
+
+* 메인 메뉴에서 **[!UICONTROL Dashboard]>[!UICONTROL Overview]**&#x200B;을(를) 클릭합니다.
 
 ## 성능 대시보드 사용자 정의
 

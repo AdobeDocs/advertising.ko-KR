@@ -3,9 +3,9 @@ title: 사용자 정의 목표
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 패키지에서 성공 이벤트를 정의하는 사용자 정의 목표에 대해 알아봅니다.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,19 @@ ht-degree: 0%
 
 [사용자 지정 목표를 만들기](#custom-goal-create)하면 Adobe Sensei을 사용하여 보고 및 알고리즘 최적화를 위해 [패키지에 할당](/help/dsp/campaign-management/packages/package-settings.md)할 수 있습니다.
 
-가중치 권장 사항은 목표의 DSP 기반 지표에 대해 자동으로 생성되며, 한 번의 클릭으로 모든 가중치 권장 사항을 적용할 수 있습니다. &quot;ADSP_&quot;가 접두사로 붙은 목표의 모든 가중치 변경 사항은 2일 이내에 DSP에서 알고리즘적으로 적용됩니다. 가중치 권장 사항에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 &quot;(Beta) 새 목표&quot;에 대한 최적화 안내서 장을 참조하십시오.
+가중치 권장 사항은 목표의 DSP 기반 지표에 대해 자동으로 생성되며, 한 번의 클릭으로 모든 가중치 권장 사항을 적용할 수 있습니다. &quot;ADSP_&quot;가 접두사로 붙은 목표의 모든 가중치 변경 사항은 2일 이내에 DSP에서 알고리즘적으로 적용됩니다. 가중치 권장 사항에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 &quot;목표&quot;에 대한 최적화 안내서 장을 참조하십시오.
 
 ## 사용자 지정 목표 만들기 {#custom-goal-create}
 
 사용자 지정 목표를 만들려면 [!DNL Search, Social, & Commerce] 클라이언트 설정 내에서 DSP 계정이 동일한 Adobe Experience Cloud 조직 ID를 가진 [!DNL Search, Social, & Commerce] 계정에 연결되어 있어야 합니다. DSP 계정이 [!DNL Search, Social, & Commerce] 계정에 연결되어 있지 않으면 Adobe 계정 팀에 문의하십시오.
 
-1. (북미 사용자) [!DNL Advertising Search, Social, & Commerce][`https://enterprise-na.efrontier.com` 또는 (다른 모든 사용자) ](https://enterprise-na.efrontier.com) [`https://enterprise-intl.efrontier.com`에서 ](https://enterprise-intl.efrontier.com)에 로그인합니다.
+1. [Advertising 검색, 소셜 및 Commerce에 로그인](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}.
 
 1. 목표에 포함할 지표가 추적되고 제품에서 사용할 수 있는지 확인하고 표시 이름을 포함하십시오.
 
-   1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
+   1. 메인 메뉴에서 **[!UICONTROL Goals]** > **[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
+
+      전환 보기는 새 브라우저 또는 브라우저 탭에서 열립니다.
 
    1. 지표를 찾고 지표에 대해 **[!UICONTROL Show in UI and Reports]**&#x200B;이(가) 활성화되어 있는지 확인하십시오.
 
@@ -45,30 +47,24 @@ ht-degree: 0%
 
    1. 지표에 **[!UICONTROL Display Name]** 열의 값이 없으면 셀을 클릭하고 표시 이름을 입력한 다음 **[!UICONTROL Apply]을(를) 클릭합니다.**
 
-1. 사용자 지정 목표를 *목표*(으)로 만듭니다.
+1. [사용자 지정 목표를 *목표*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"}(으)로 만듭니다. 다음 사항을 고려하십시오.
 
-   1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]**&#x200B;을(를) 클릭합니다.
+   * Advertising DSP 패키지에 사용되는 목표의 경우 목표 이름 앞에 &quot;ADSP_Registrations&quot;와 같은 &quot;ADSP_&quot;가 붙어야 합니다. 접두사는 대/소문자를 구분하지 않습니다.
 
-   1. 도구 모음에서 ![만들기](/help/dsp/assets/create-search-ui.png "만들기")를 클릭합니다.
+   * DSP에 속하는 지표만 포함합니다. 검색, 소셜 및 Commerce 또는 기타 광고 네트워크에 속하는 모든 지표는 무시됩니다.
 
-   1. 비모바일 장치에 대한 관련 지표와 관련 숫자 가중치를 포함하여 목표 설정을 입력한 다음 목표를 저장합니다. 다음 사항을 고려하십시오.
+   * 하나 이상의 지표에는 지표 유형 *[!UICONTROL Goal]*&#x200B;이(가) 있어야 합니다.
 
-      * Advertising DSP 패키지에 사용되는 목표의 경우 목표 이름 앞에 &quot;ADSP_Registrations&quot;와 같은 &quot;ADSP_&quot;가 붙어야 합니다. 접두사는 대소문자를 구분하지 않습니다.
+   * DSP은 모든 광고에 비모바일 가중치를 사용합니다. 지정된 모든 모바일 가중치는 무시됩니다.
 
-      * DSP에 속하는 지표만 포함합니다. 검색, 소셜 및 Commerce 또는 기타 광고 네트워크에 속하는 모든 지표는 무시됩니다.
+   >[!NOTE]
+   >
+   >* [!DNL Analytics]개의 사용자 지정 이벤트가 이 명명 규칙을 따릅니다. `custom_event_[*event #*]_[*Analytics report suite ID*]`. 예: `custom_event_16_examplersid`
+   >* [!DNL Analytics]개의 차원 및 세그먼트를 Adobe Advertising 최적화에 사용할 수 없습니다.
 
-      * 하나 이상의 지표에는 지표 유형 *[!UICONTROL Goal]*&#x200B;이(가) 있어야 합니다.
-
-      * DSP은 모든 광고에 비모바일 가중치를 사용합니다. 지정된 모든 모바일 가중치는 무시됩니다.
-
-      >[!NOTE]
-      >
-      >* [!DNL Analytics]개의 사용자 지정 이벤트가 이 명명 규칙을 따릅니다. `custom_event_[*event #*]_[*Analytics report suite ID*]`. 예: `custom_event_16_examplersid`
-      >* [!DNL Analytics]개의 차원 및 세그먼트를 Adobe Advertising 최적화에 사용할 수 없습니다.
-
-      >[!TIP]
-      >
-      >최적의 성능을 위해서는 사용자 지정 목표(목표)의 결합된 지표가 하루에 10개 이상의 전환을 수행해야 합니다. 그렇지 않은 경우 제품 페이지나 애플리케이션 시작과 같은 추가 지원 전환 지표를 목표에 추가하는 것이 좋습니다. 지침이 필요하면 [사용자 지정 목표 작성에 대한 우수 사례](#custom-goal-best-practices)를 참조하십시오.
+   >[!TIP]
+   >
+   >최적의 성능을 위해서는 사용자 지정 목표(목표)의 결합된 지표가 하루에 10개 이상의 전환을 수행해야 합니다. 그렇지 않은 경우 제품 페이지나 애플리케이션 시작과 같은 추가 지원 전환 지표를 목표에 추가하는 것이 좋습니다. 지침이 필요하면 [사용자 지정 목표 작성에 대한 우수 사례](#custom-goal-best-practices)를 참조하십시오.
 
 최적화 목표 &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;을(를) 사용하는 패키지의 DSP 패키지 설정에서 목표 이름이 이제 [!UICONTROL Custom Goals] 목록에 포함됩니다. 패키지의 사용자 지정 목표로 목표를 선택하면 [!UICONTROL Conversion Metric] 목록에 목표에 대한 모든 목표 지표가 포함됩니다.
 
@@ -110,7 +106,7 @@ ht-degree: 0%
 
 사용자 지정 목표에서 여러 지표를 사용하는 두 가지 시나리오가 있습니다.
 
-* 캠페인 목표에는 여러 개의 성공 이벤트가 있습니다. 예를 들어 두 개 이상의 온사이트 작업(PDF 다운로드, 연락처 및 이메일 등록)을 광고하고 있을 수 있으며 모든 작업은 CPA 목표에 기여하는 작업입니다. 목표에 각각 비모바일 가중치가 1인 세 개의 개별 지표가 포함되어 있는 경우 [!DNL Adobe Sensei] 알고리즘은 각 지표 및 사용자 장치 유형을 동일한 중요도로 처리합니다. 서로 다른 지표에 다양한 비용이나 중요도가 있는 경우 그에 따라 상대적 가중치를 조정합니다.
+* 캠페인 목표에는 여러 개의 성공 이벤트가 있습니다. 예를 들어 두 개 이상의 온사이트 작업(PDF 다운로드, 연락처 및 이메일 등록)을 광고하는 경우 모든 작업은 CPA 목표에 기여하는 작업입니다. 목표에 각각 비모바일 가중치가 1인 세 개의 개별 지표가 포함되어 있는 경우 [!DNL Adobe Sensei] 알고리즘은 각 지표 및 사용자 장치 유형을 동일한 중요도로 처리합니다. 서로 다른 지표에 다양한 비용이나 중요도가 있는 경우 그에 따라 상대적 가중치를 조정합니다.
 
 <!-- update image or delete it and adjust the wording above
 

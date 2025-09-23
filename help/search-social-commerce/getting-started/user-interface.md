@@ -3,9 +3,9 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a180f99dc28fb1ed9abbd7654914fdd75e642c37
+source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,37 @@ ht-degree: 0%
 
 ## 메인 메뉴
 
-새 사용자 인터페이스 왼쪽에는 작업 단계(계획, 관리, 검토, 설정)별로 작업을 구성하는 새 메인 메뉴가 표시됩니다. 기존 사용자 인터페이스의 추가 하위 메뉴 및 옵션이 나중에 추가됩니다.
+새 사용자 인터페이스는 작업 단계별로 작업을 구성하는 새 메인 메뉴를 왼쪽에 표시합니다. 기존 사용자 인터페이스의 추가 하위 메뉴 및 옵션이 나중에 추가됩니다.
 
 ### 메인 메뉴 옵션
 
 역할에서 사용 가능한 옵션을 결정합니다.<!-- add link when available -->
 
-* **[!UICONTROL Dashboard]** 모든 포트폴리오에 대한 성능 시각화를 사용하여 구성 가능한 [!UICONTROL Dashboard] 보기를 엽니다.
+* **[!UICONTROL Dashboard]** 하위 메뉴:
+
+   * **[!UICONTROL Overview]** 모든 포트폴리오에 대한 성능 시각화를 사용하여 구성 가능한 [!UICONTROL Dashboard] 보기를 엽니다.
+
+   * **[!UICONTROL Recommendations]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] 보기를 엽니다.
+
+* **[!UICONTROL Alerts & Notifications]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] 보기를 엽니다.
+
+* **[!UICONTROL Goals]** 하위 메뉴:
+
+   * **[!UICONTROL Objectives]** 기존 목표를 모두 보고 목표를 만들고 편집하고 삭제할 수 있는 새 [!UICONTROL Objectives] 보기를 엽니다.
+
+   * **[!UICONTROL Conversions]** 새 사이트를 종료하고 기존 [!UICONTROL Admin] > [!UICONTROL Conversions] 보기를 엽니다.
+
+   * **[!UICONTROL Conversion Value Rules]** 새 사이트를 종료하고 기존 [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] 보기를 엽니다.
+
+   * **[!UICONTROL Constraints]** 새 사이트를 종료하고 기존 [!UICONTROL Optimization] > [!UICONTROL Constraints] 보기를 엽니다.
 
 * **[!UICONTROL Plan]** 하위 메뉴:
 
-   * **[!UICONTROL Objectives]** 기존 목표를 모두 보고 목표를 만들고 편집하고 삭제할 수 있는 새 [!UICONTROL Objectives] 보기를 엽니다. 목표 설정은 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta]에 있는 기존 사용자 인터페이스의 설정과 동일합니다.
-
    * **[!UICONTROL Simulations]** 사용자가 만든 모든 사용자 지정 시뮬레이션 및 자동으로 생성된 주별 시뮬레이션을 볼 수 있는 새 [[!UICONTROL Simulations] 보기를 엽니다](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md). 새 사용자 지정 시뮬레이션을 생성하고 기존 시뮬레이션을 다시 실행할 수 있습니다. [!UICONTROL Spend Planner] 단추를 사용하면 [!UICONTROL Spend Recommendation] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization]에서 레거시 [!UICONTROL Spend Recommendation] 도구가 열립니다.
+
+   * **[!UICONTROL Spend Planner]** 새 사이트를 종료하고 기존 [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] 보기를 엽니다.
+
+   * **[!UICONTROL Label Classification]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Label Classifications] 보기를 엽니다.
 
 * **[!UICONTROL Manage]** 하위 메뉴:
 
@@ -46,27 +64,59 @@ ht-degree: 0%
 
      캠페인을 만들고, 편집하고, 삭제하려면 기본 메뉴에서 **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;을(를) 클릭하거나 [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)를 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
-* **[!UICONTROL Ad Groups]:** 광고주의 모든 광고 그룹을 표시하는 새 [!UICONTROL Ad Groups] 보기를 엽니다. 선택한 광고 그룹에 대한 제한 할당을 관리할 수 있습니다. 데이터 테이블 내용에 대한 보고서를 다운로드할 수도 있습니다.
+   * **[!UICONTROL Ad Groups]:** 광고주의 모든 광고 그룹을 표시하는 새 [!UICONTROL Ad Groups] 보기를 엽니다. 선택한 광고 그룹에 대한 제한 할당을 관리할 수 있습니다. 데이터 테이블 내용에 대한 보고서를 다운로드할 수도 있습니다.
 
-  캠페인을 만들고, 편집하고, 삭제하려면 기본 메뉴에서 **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;을(를) 클릭하거나 [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)를 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+     캠페인을 만들고, 편집하고, 삭제하려면 기본 메뉴에서 **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;을(를) 클릭하거나 [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)를 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
-* **[!UICONTROL Review]** 하위 메뉴:
+   * **[!UICONTROL Ads]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
+
+* **[!UICONTROL Reports]** 하위 메뉴:
 
    * **[!UICONTROL Insights]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Insights] 보기를 엽니다.
 
-   * **[!UICONTROL Reports]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Reports] 보기를 엽니다.
-
-   * **[!UICONTROL Recommendations]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] 보기를 엽니다.
+   * **[!UICONTROL Scheduled Reports]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Reports] 보기를 엽니다.
 
    * **[!UICONTROL Spreadsheet Feeds]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets] 보기를 엽니다.
 
    * **[!UICONTROL History Logs]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Change History] 보기를 엽니다.
 
+* **[!UICONTROL Target]** 하위 메뉴:
+
+   * **[!UICONTROL Audience]**: 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기를 엽니다.
+
+   * **[!UICONTROL Keywords]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
+
+   * **[!UICONTROL Placements]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
+
+* **[!UICONTROL Assets]** 하위 메뉴:
+
+   * **[!UICONTROL Auto Targets]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
+
+   * **[!UICONTROL Creatives]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
+
+   * **[!UICONTROL Extensions]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
+
+   * **[!UICONTROL Shopping]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.<!-- Should this go to Campaigns > Products? -->
+
 * **[!UICONTROL Set Up]** 하위 메뉴:
 
    * **[!UICONTROL Accounts]**: 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
 
-   * **[!UICONTROL Audiences]**: 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기를 엽니다.
+<!-- What's happenening to these?
+
+Campaigns > ACM
+Campaigns > Bulksheets
+Campaigns > Asset Library
+
+Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
+
+Tools > Conversion Upload Setup
+Tools > Generic Tracking
+Tools > Inventory Selection
+Import Campaigns
+
+Tools > Admin > Data Source Setup
+-->
 
 ### 메인 메뉴 접기
 

@@ -2,18 +2,19 @@
 title: 새 사용자 인터페이스 정보
 description: 새로운 사용자 인터페이스에 대해 알아봅니다.
 feature: Search Introduction
-source-git-commit: 97c7776ab7dfacbb7ac4fdc038f25d4ced5b54e4
+exl-id: 27fcc1c2-fe69-4bdc-9786-c48b28da1560
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
 # 새 사용자 인터페이스 정보
 
-이제 새로운 UI(사용자 인터페이스)에서 목표, 시뮬레이션 및 포트폴리오를 관리할 수 있습니다. 캠페인 및 광고 그룹에 대해 일부 작업을 수행하고 일부 이전 보기를 열 수도 있습니다. 새 검색, 소셜 및 Commerce 사용자 인터페이스는 https://experience.adobe.com 도메인 내의 새 URL에서 실행됩니다.
+이제 새로운 UI(사용자 인터페이스)에서 목표, 시뮬레이션 및 포트폴리오를 관리할 수 있습니다. 캠페인 및 광고 그룹에 대해 일부 작업을 수행할 수도 있습니다. 새 검색, 소셜 및 Commerce UI는 https://experience.adobe.com 도메인 내의 새 URL에서 실행됩니다.
 
-시간이 지남에 따라 추가 기능이 새 사용자 인터페이스로 이동됩니다. 그동안 새 UI와 기존 UI 간에 쉽게 전환할 수 있습니다.
+시간이 지남에 따라 추가 기능이 새 UI로 이동됩니다. 그동안 새 UI의 메인 메뉴에서 기존 UI의 기능 대부분을 열 수 있습니다. 또한 새 UI와 기존 UI 간에 쉽게 전환할 수 있습니다.
 
 새 UI를 구성하는 방법에 대한 자세한 내용은 &quot;[사용자 인터페이스를 구성하는 방법](/help/search-social-commerce/getting-started/user-interface.md)&quot;을 참조하십시오.
 

@@ -3,9 +3,10 @@ title: 일괄 시트 파일을 사용하여 포트폴리오 설정 일괄 편집
 description: 일괄 시트 파일을 사용하여 여러 포트폴리오의 설정을 편집하는 방법에 대해 알아봅니다.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 * 필드 편집에 대한 정보가 포함된 읽기 전용 [!UICONTROL Instructions] 워크시트입니다.
 
-* 포함된 포트폴리오당 하나의 행이 있는 [!UICONTROL Portfolio Settings Edit] 탭입니다. 필요에 따라 필드를 편집하고, 로컬에 파일을 저장한 다음 [편집된 파일을 업로드](#portfolio-bulksheet-upload)하여 검색, 소셜 및 Commerce에 추가할 수 있습니다.
+* 포함된 포트폴리오당 하나의 행이 있는 [!UICONTROL Portfolio Settings Edit] 탭입니다. 필요에 따라 필드를 편집하고, 로컬에 파일을 저장한 다음 [편집된 파일을 업로드](#portfolio-bulksheet-upload)하여 검색, 소셜 및 Commerce에 추가할 수 있습니다. 편집 가능한 필드는 색상으로 강조 표시됩니다.
 
 ## 포트폴리오 설정이 있는 일괄 시트 파일 다운로드
 

@@ -3,9 +3,9 @@ title: 포트폴리오에 캠페인 할당
 description: 최적화를 위해 포트폴리오에 캠페인을 포함하는 방법을 알아봅니다.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 각 캠페인 옆의 확인란을 선택하여 단일 포트폴리오에 할당합니다.
 
-1. 도구 모음에서 ![추가 작업](/help/search-social-commerce/assets/more-actions.png "추가 작업") **[!UICONTROL More Actions]** > ![할당](/help/search-social-commerce/assets/assign.png "할당") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]** 을 클릭합니다.
+1. 일괄 작업 도구 모음에서 **+[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]** 을(를) 클릭합니다.
 
 1. 포트폴리오를 선택합니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 새 포트폴리오를 만들려는 각 캠페인 옆의 확인란을 선택합니다.
 
-1. 도구 모음에서 ![추가 작업](/help/search-social-commerce/assets/more-actions.png "추가 작업") **[!UICONTROL More Actions]** > ![할당](/help/search-social-commerce/assets/assign.png "할당") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**&#x200B;을 클릭합니다.
+1. 일괄 작업 도구 모음에서 **+[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**&#x200B;을(를) 클릭합니다.
 
 1. [!UICONTROL Create Portfolio] 화면에서 포트폴리오 설정을 지정합니다.
 
