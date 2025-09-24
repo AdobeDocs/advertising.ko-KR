@@ -2,9 +2,9 @@
 title: 동적 크리에이티브 설정
 description: 동적 크리에이티브에 대한 설정을 참조하십시오.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 85fea6483ccf5db27d5730b5ebb2fb2b0957302d
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## 광고 템플릿
 
-**[!UICONTROL Ad Template]:** 광고를 만들 광고 템플릿입니다.&lt;!— 자체 광고 템플릿을 업로드할 수도 있습니다. —> 세부 항목을 추가해야 합니다.
+**[!UICONTROL Ad Template]:** 광고를 만들 광고 템플릿입니다.<!-- also an option to upload your own ad template. Need to add the specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]:** 각 광고에 대해 만들 수 있는 오퍼 수입니다.&lt;!— 이를 명확히 설명하십시오. — 빈도 제한(광고를 제공할 수 있는 최대 횟수)입니까? —>
+**[!UICONTROL Number of offers (Max 50)]:** 각 광고에 대해 만들 수 있는 오퍼 수입니다.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## 카탈로그
 
-**[!UICONTROL Template]:** 광고를 만드는 데 사용할 피드 템플릿입니다.&lt;!— 자체 피드 템플릿을 업로드하는 옵션도 있습니다. —> 세부 항목을 추가해야 합니다.
+**[!UICONTROL Template]:** 광고를 만드는 데 사용할 피드 템플릿입니다.<!-- also an option to upload your own feed template.  Need to add the specs for that -->
 
-**\[Catalogs\]**: 광고를 생성할 지정된 광고주 카탈로그 중 하나 이상.&lt;!— 자신의 카탈로그를 업로드할 수 있는 옵션도 있습니다. 필요한 카탈로그를 찾을 수 없습니까? 템플릿을 다운로드하고 직접 만들어 디바이스에서 업로드합니다.) — 해당 세부 항목을 추가해야 합니다 —>
+**\[Catalogs\]**: 광고를 생성할 지정된 광고주 카탈로그 중 하나 이상입니다.<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
