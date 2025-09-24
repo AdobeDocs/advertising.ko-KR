@@ -2,9 +2,9 @@
 title: 크리에이티브 라이브러리에서 동적 크리에이티브 편집
 description: 크리에이티브 라이브러리에서 동적 크리에이티브를 편집하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
       1. 번들을 선택한 다음 **[!UICONTROL Attach Creative to Bundles]**&#x200B;을(를) 클릭합니다.
 
-   * 광고를 저장하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 다시 클릭합니다.
+   * 광고를 저장하고 설치를 종료하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 다시 클릭합니다.
 
 >[!MORELIKETHIS]
 >

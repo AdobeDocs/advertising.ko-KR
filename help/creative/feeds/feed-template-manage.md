@@ -2,9 +2,9 @@
 title: 피드 템플릿 관리
 description: 피드 템플릿을 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Field Mapping] 설정
 
-피드 파일의 각 필드를 Advertising Creative 백엔드의 필드에 매핑합니다.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> &quot;[!UICONTROL Is Unique]&quot;(으)로 표시된 피드 파일 필드를 하나 이상 포함해야 합니다. 필드 매핑을 추가하려면 **[!UICONTROL +]**&#x200B;을(를) 클릭합니다. 마지막 필드 매핑을 제거하려면 **[!UICONTROL +]**&#x200B;을(를) 클릭하십시오.
+피드 파일의 각 필드를 Advertising Creative 백엔드의 필드에 매핑합니다.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> 피드 파일 필드는 하나 이상 &quot;[!UICONTROL Is Unique]&quot;(으)로 표시되어야 합니다. 필드 매핑을 추가하려면 **[!UICONTROL +]**&#x200B;을(를) 클릭합니다. 마지막 필드 매핑을 제거하려면 **[!UICONTROL +]**&#x200B;을(를) 클릭하십시오.
 
 **[!UICONTROL Field Name]:** 피드 파일의 필드입니다.
 

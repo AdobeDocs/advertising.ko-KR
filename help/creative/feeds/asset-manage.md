@@ -2,7 +2,7 @@
 title: 에셋 파일 관리
 description: 광고주를 위한 에셋 파일을 업로드하고 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -16,7 +16,6 @@ Dynamic HTML5 광고에는 XLSX(Microsoft Excel 스프레드시트) 형식의 �
 >[!NOTE]
 >
 > 각 피드 파일은 하나의 카탈로그에 대해서만 사용할 수 있습니다.
-
 
 ## 파일 요구 사항
 

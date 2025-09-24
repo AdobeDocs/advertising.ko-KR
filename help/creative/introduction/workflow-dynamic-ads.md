@@ -2,9 +2,9 @@
 title: 동적 광고의 워크플로
 description: 동적 광고 관리 워크플로우에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 한 번에 모두 광고 경험에 첨부할 수 있는 [동적 광고 번들을 만듭니다](/help/creative/creative-libraries/bundle-manage.md).
 
-1. [타깃팅 포함](/help/creative/experiences/experience-create-targeting.md) 또는 [타깃팅 없음](/help/creative/experiences/experience-create-no-targeting.md)으로 동적 광고 경험을 만들고 [이러한 경험을 동적 광고 경험에 번들로 할당](/help/creative/experiences/experience-assign-creative-bundles.md)합니다.
+1. [타깃팅을 사용하여](/help/creative/experiences/experience-create-targeting.md) 또는 [타깃팅 없이](/help/creative/experiences/experience-create-no-targeting.md) 동적 광고 경험을 만들고 [경험에 Creative 번들을 할당](/help/creative/experiences/experience-assign-creative-bundles.md)합니다.
 
 1. [광고 경험 태그를 생성하고 구현](/help/creative/experiences/experience-tag-export.md)하여 DSP에서 광고로 실행하십시오.
 
