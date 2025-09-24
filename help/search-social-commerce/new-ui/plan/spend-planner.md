@@ -2,9 +2,10 @@
 title: '[!UICONTROL Spend Planner] 사용'
 description: '[!UICONTROL Spend Planner]을(를) 사용하여 포트폴리오에서 최적의 지출 분포를 식별하는 방법에 대해 알아봅니다.'
 feature: Search Optimization, Search Portfolios, Search Simulations
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+exl-id: 966b8968-68b6-4385-9efb-e639a6729362
+source-git-commit: ff4deeb1cfbcd863e5b0ef2ac9b2f7124906c3dd
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -29,13 +30,13 @@ ht-degree: 0%
 
 * 선택한 모든 포트폴리오에서 현재 총 일별 지출 목표를 유지 관리할 때 또는 제안된 총 지출 목표에 대해 권장 일일 지출(비용)과 예측 매출 분포 또는 클릭 분포를 보여주는 각 포트폴리오에 대한 막대 차트입니다. 선택적으로 선택한 포트폴리오에 권장 지출 타겟을 적용할 수 있으며, 이는 다음 입찰 실행 주기의 입찰에 영향을 줍니다.
 
-## (새 UI) [!UICONTROL Spend Planner] > [!UICONTROL Manage] 보기에서 [!UICONTROL Simulations] 보고서 생성
+## (새 UI) [!UICONTROL Spend Planner] 보고서 생성
 
-<!-- The path will probably change, so then update the heading and instructions -->
+1. 다음 중 하나를 수행합니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;을(를) 클릭합니다.
+   * 메인 메뉴에서 **[!UICONTROL Plan]>[!UICONTROL Spend Planner]**&#x200B;을(를) 클릭합니다.
 
-1. 데이터 테이블 위의 도구 모음에서 ![지출 계획자](/help/search-social-commerce/assets/spend-planner-icon.png "지출 계획자")를 클릭합니다.
+   * 메인 메뉴에서 **[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;을(를) 클릭합니다. 데이터 테이블 위의 도구 모음에서 ![지출 계획자](/help/search-social-commerce/assets/spend-planner-icon.png "지출 계획자")를 클릭합니다.
 
    [!UICONTROL Spend Recommendation] 도구가 기존 사용자 인터페이스에서 열립니다.
 
