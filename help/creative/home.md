@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 53e565307b55be2aabd847643b05a701dd1f2b93
+source-git-commit: d8030203f7bfce3baf18d50369067157f7cb0991
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025년 9월 24일 | 다이내믹 크리에이티브 | 이제 광고 템플릿을 통해 전달되는 피드 파일의 데이터를 사용하여 동적 광고를 생성하는 데 셀프서비스 워크플로우를 사용할 수 있습니다. | 모든 단계에 대한 링크가 포함된 &quot;[동적 광고에 대한 워크플로우](/help/creative/introduction/workflow-dynamic-ads.md)&quot;을(를) 참조하십시오. |
 | 2025년 9월 3일 | [!DNL experiences]에 대한 Creative 최적화 및 예약 | 이제 Creative 최적화 및 예약을 구성하기 위한 메뉴 옵션 또는 단추를 &quot;[!UICONTROL Creative Optimization]&quot; 또는 &quot;[!UICONTROL Edit Schedules]&quot; 대신 &quot;[!UICONTROL Add Schedules]&quot;이라고 합니다. | &quot;[타깃팅된 경험에 대한 크리에이티브 최적화 및 일정 사용자 지정](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot; 및 &quot;[타깃팅되지 않은 경험에 대한 크리에이티브 최적화 및 일정 사용자 지정](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)&quot;을 참조하십시오. |
 |  | [!DNL experiences]에 대한 광고 순환 및 예약 | 새 크리에이티브 회전 유형 &quot;[!UICONTROL Sequencing]&quot;은(는) 각 번들 시퀀스에 걸쳐 지정된 총 노출 횟수로 연결된 크리에이티브 번들을 지정된 순서(첫 번째 제공된 번들 1, 두 번째 제공된 번들 2 등)로 회전합니다. a\) 무기한으로 표시되거나 b\) 루프를 첫 번째 번들로 되돌리도록 시퀀스의 마지막 번들을 구성할 수 있습니다. | &quot;[타깃팅된 경험에 대한 크리에이티브 최적화 및 일정 사용자 지정](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot; 및 &quot;[타깃팅되지 않은 경험에 대한 크리에이티브 최적화 및 일정 사용자 지정](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)&quot;을 참조하십시오. |
 | 2025년 8월 4일 | 광고 [!DNL experiences]에 대한 대상 타겟 | 대상 포함 및 제외를 위한 보다 복잡한 논리 - Advertising DSP에서 사용할 수 있는 것과 동일한 논리 - 는 대상 타겟 설정 내에서 사용할 수 있습니다. 이제 광고 경험에 대한 대상 타겟을 구성할 때 여러 세그먼트 그룹을 구성하고 논리를 기반으로 사용자를 포함할지 또는 제외할지 여부를 지정할 수 있습니다.<br><br>각 세그먼트에 대한 총 대상 구성원 수와 각 세그먼트 그룹에 대한 활성 및 총 대상 구성원 수를 볼 수 있습니다.<br><br>이 옵션을 사용하면 &quot;[!UICONTROL Split targets to create nodes]&quot;에 대한 기존 옵션을 더 이상 사용할 수 없습니다.<br><br>여러 세그먼트를 대상으로 하는 대상 노드에 대한 기존 경험이 있는 경우 이제 &quot;[!UICONTROL Include Any]&quot; 옵션을 사용하여 대상이 지정되며 사용자는 한 세그먼트에만 속해야 노출을 받을 수 있습니다. 이전에는 사용자가 모든 세그먼트에 속해야 했습니다. | &quot;[최종 수준에 대상 노드 추가](/help/creative/experiences/experience-target-node-add-final.md)&quot;, &quot;[노드 사이에 대상 노드 삽입](/help/creative/experiences/experience-target-node-add-inner.md)&quot;, &quot;[형제 대상 노드 추가](/help/creative/experiences/experience-target-node-add-sibling.md)&quot;를 참조하십시오.&quot; |
