@@ -3,9 +3,9 @@ title: 크리에이티브 라이브러리 정보
 description: 광고 경험을 위한 크리에이티브 관리에 대해 알아봅니다.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 3c4fcd4cf63003cf10775ebec23ae3f68d3bbd07
+source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    * **표준 크리에이티브:** [다양한 형식](#creative-creative-formats)의 크리에이티브를 업로드하고 관리할 수 있습니다. 각 크리에이티브에 대해 크리에이티브를 연결하는 각 광고의 기본 언어와 사용자가 크리에이티브가 포함된 광고를 클릭할 때 열리는 기본 랜딩 페이지를 지정합니다. [!DNL Creative] 차원을 사용할 것을 포함할 때 [!UICONTROL Custom Creative Report] 내의 다양한 보기에서 필터로 사용하고 [!UICONTROL Creative Label]의 열 값으로 사용할 레이블을 선택적으로 지정할 수 있습니다.
 
-   * **동적 크리에이티브:**(기존 Adobe Advertising DCO 고객만 해당) 관리자 사용자는 광고 템플릿의 동적 변수를 피드 파일의 값에 매핑하여 동적으로 생성된 크리에이티브를 만들 수 있습니다. 모든 사용자는 기존 동적 광고를 미리 보고, 복제하고, 삭제할 수 있습니다.
+   * **동적 크리에이티브:** 광고 템플릿의 동적 변수를 피드 파일의 값에 매핑하여 동적으로 생성된 크리에이티브를 만들 수 있습니다. 모든 사용자는 기존 동적 광고를 미리 보고, 복제하고, 삭제할 수 있습니다.
 
 * **크리에이티브 번들:** 정의된 사용자 대상이 있는 여러 경험에서 사용할 크리에이티브를 번들로 그룹화합니다. 표준 디스플레이 광고로 구성된 *표준 디스플레이 번들*, 표준 비디오 광고로 구성된 *표준 비디오 번들*, 동적으로 생성된 디스플레이 광고로 구성된 *동적 디스플레이 번들*&#x200B;을 만들 수 있습니다.
 
@@ -64,7 +64,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 장치나 네트워크에서 웹, 모바일 또는 연결된 TV에 대한 자사 비디오 크리에이티브를 업로드할 수 있습니다. 각 표준 비디오 광고 경험은 경험에 지정된 각 크리에이티브 기간에 대해 기본 비디오 크리에이티브를 필요로 합니다. 모든 비디오 크리에이티브는 DSP as VAST 2.0 태그로 자동으로 코드 변환되므로 미리 볼 수 있습니다. [!UICONTROL Tag Manager]에서 비디오 광고 경험 태그에 선택적으로 [DSP 전용 코드 변환](/help/creative/experiences/experience-tag-video-transcoding.md)을 적용할 수 있습니다.
 
-다음 비디오 크리에이티브 요구 사항을 참조하십시오. **참고:** 비디오 경험을 Advertising DSP에 업로드하려면 DSP의 [HD 비디오 Assets 요구 사항](https://experienceleague.adobe.com/ko/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)도 참조하세요. 이는 더 제한될 수 있습니다.
+다음 비디오 크리에이티브 요구 사항을 참조하십시오. **참고:** 비디오 경험을 Advertising DSP에 업로드하려면 DSP의 [HD 비디오 Assets 요구 사항](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)도 참조하세요. 이는 더 제한될 수 있습니다.
 
 **파일 형식:** .mov, .mp4, .webm
 
@@ -94,7 +94,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 ### 다이내믹 광고 형식
 
-관리자 사용자는 광고 템플릿의 동적 변수를 피드 파일의 값에 매핑하여 정적 HTML5 및 동적 HTML5 형식으로 동적으로 크리에이티브를 생성할 수 있습니다. 동적 크리에이티브에는 기존 Adobe Advertising DCO(Dynamic Creative Optimization) 경험의 크리에이티브가 포함될 수 있습니다.
+광고 템플릿의 동적 변수를 피드 파일의 값에 매핑하여 정적 HTML5 및 동적 HTML5 형식으로 동적으로 크리에이티브를 생성할 수 있습니다. 동적 크리에이티브에는 기존 Adobe Advertising Dynamic Creative Optimization(DCO) 경험에서 마이그레이션된 크리에이티브가 포함될 수 있습니다.
 
 ## [!UICONTROL Creative Libraries] 보기
 
@@ -144,17 +144,19 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 #### [!UICONTROL Dynamic Ads]
 
-[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [ 탭에서 ](creative-delete.md)수동으로 삭제[!UICONTROL Dynamic Ads]한 동적 크리에이티브는 예외입니다. 카탈로그가 마지막으로 처리된 이후의 모든 동적 크리에이티브를 [수동으로 복제](creative-duplicate.md)하면 해당 카탈로그에 대한 크리에이티브 목록에도 중복 크리에이티브가 포함됩니다.
+[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [ 탭에서 ](creative-delete.md)수동으로 삭제[!UICONTROL Dynamic Ads]한 동적 크리에이티브는 예외입니다. [수동으로 복제](creative-duplicate.md) 모든 동적 크리에이티브<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->를 수행하는 경우 해당 카탈로그에 대한 크리에이티브 목록에는 중복 크리에이티브도 포함됩니다.
 
-각 창작물별 데이터에는 창작유형, 창작규모, 창작물이 속한 카탈로그 개수, 창작날짜 등이 포함된다. 테이블 모드에는 크리에이티브가 생성된 템플릿 및 오퍼 수에 대한 열도 포함됩니다.
+각 창작물별 데이터에는 창작유형, 창작규모, 창작물이 속한 카탈로그 개수, 창작날짜 등이 포함된다. 테이블 모드에는 광고 크리에이티브가 생성된 광고 템플릿 열과 오퍼 수가 포함됩니다.
 
 >[!NOTE]
 >
->카탈로그가 처리될 때마다 해당 카탈로그의 기존 동적 크리에이티브에 대한 데이터가 새로 고쳐집니다.
+>카탈로그가 처리될 때마다 해당 카탈로그의 기존 동적 크리에이티브에 대한 데이터가 새로 고쳐집니다.<!-- Verify this!!! And is there anything more to say w/regard to  -->
 
 ##### 사용 가능한 작업
 
-동적 크리에이티브를 만들고 편집하는 기능은 현재 Adobe 계정 팀에서만 사용할 수 있습니다. 그러나 모든 사용자는 다음과 같은 작업을 수행할 수 있습니다.
+* [라이브러리에 동적 크리에이티브 추가](creative-add-dynamic.md)
+
+* [다이내믹 크리에이티브 편집](creative-edit-dynamic.md)
 
 * [동적 크리에이티브 미리 보기](creative-preview.md)
 

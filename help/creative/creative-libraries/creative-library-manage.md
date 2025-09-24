@@ -3,16 +3,16 @@ title: 크리에이티브 라이브러리 관리
 description: 크리에이티브 라이브러리를 만들고, 이름을 바꾸고, 삭제하는 방법을 알아봅니다.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # 크리에이티브 라이브러리 관리
 
-각 광고주별로 여러 개의 크리에이티브 라이브러리를 만들 수 있습니다. 나중에 각 라이브러리를 [표준 광고](creative-add-standard.md)<!-- , dynamic creatives, --> 및 [광고 번들](bundle-manage.md)(으)로 채울 수 있습니다. Adobe 계정 팀은 라이브러리에 동적 크리에이티브를 추가할 수도 있습니다.
+각 광고주별로 여러 개의 크리에이티브 라이브러리를 만들 수 있습니다. 나중에 각 라이브러리를 [표준 크리에이티브](creative-add-standard.md), [동적 크리에이티브](creative-add-dynamic.md) 및 [크리에이티브 번들](bundle-manage.md)(으)로 채울 수 있습니다.
 
 ## 크리에이티브 라이브러리 만들기
 

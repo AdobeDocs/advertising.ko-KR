@@ -3,16 +3,16 @@ title: 크리에이티브 라이브러리에 표준 크리에이티브 추가
 description: 크리에이티브 라이브러리에 표준(비동적) 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
 # 크리에이티브 라이브러리에 표준 크리에이티브 추가
 
-[광고 경험](creative-library-manage.md)에서 사용할 크리에이티브 라이브러리를 [추가](/help/creative/experiences/experience-about.md)합니다.
+표준 [광고 경험](creative-library-manage.md)에서 사용할 표준 크리에이티브를 [크리에이티브 라이브러리](/help/creative/experiences/experience-about.md)에 추가하십시오.
 
 >[!NOTE]
 >
@@ -34,9 +34,7 @@ ht-degree: 0%
 
 1. 라이브러리 이름을 클릭합니다.
 
-1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Standard Ads]** 하위 탭을 클릭합니다.
-
-1. **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Flexible]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Upload New]**&#x200B;을(를) 클릭합니다.
 
@@ -62,7 +60,7 @@ ht-degree: 0%
 
 ### 템플릿을 사용하여 유연한 크리에이티브 추가 {#flexible-creative-use-template}
 
-계정에 업로드된 유연한 크리에이티브 템플릿을 사용하여 사전 정의 크기의 광고를 작성할 수 있습니다. 사용할 템플릿을 선택하면 클릭 태그 및 속성이 편집됩니다.&lt;!— 템플릿 다운로드 기능을 다시 추가하는 경우 마지막 문장을 다음으로 바꾸기: a\) 사용할 템플릿을 선택한 다음 클릭 태그 및 특성을 편집할 수 있습니다. 또는 b\) [템플릿을 ZIP 파일로 다운로드](#download-flexible-creative-template), 콘텐츠를 오프라인으로 편집하여 자체 크리에이티브를 만든 다음 [편집된 파일을 새 크리에이티브로 업로드] (flexible-creative-upload)할 수 있습니다.>
+계정에 업로드된 유연한 크리에이티브 템플릿을 사용하여 사전 정의 크기의 광고를 작성할 수 있습니다. 사용할 템플릿을 선택하면 클릭 태그 및 속성이 편집됩니다.&lt;!— 템플릿 다운로드 기능을 다시 추가하는 경우 마지막 문장을 다음으로 바꾸기: a\) 사용할 템플릿을 선택한 다음 클릭 태그 및 특성을 편집할 수 있습니다. 또는 b\) [템플릿을 ZIP 파일로 다운로드](#download-flexible-creative-template), 콘텐츠를 오프라인으로 편집하여 자체 크리에이티브를 만든 다음 [편집된 파일을 새 크리에이티브로 업로드](flexible-creative-upload)할 수 있습니다.>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -74,22 +72,9 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. 라이브러리 이름을 클릭합니다.
 
-1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Standard Ads]** 하위 탭을 클릭합니다.
-
-1. **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Flexible]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Browse System Flexible Templates]**&#x200B;을(를) 클릭합니다.
-
-<!-- Not options as of 5/22/25:
-
-1. In the left panel, select the creative size to see all available templates for that size.
-
-1. Select the template:
-
-   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
-     
-   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
--->
 
 1. (선택 사항) 템플릿을 미리 보려면 템플릿 이름 옆에 있는 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 
@@ -102,6 +87,17 @@ For information about the attributes available in predefined templates, see "[Av
    크리에이티브가 압축되면 최대 파일 크기는 2MB입니다.<!-- Still true? -->
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+
+<!-- Not options as of 5/22/25:
+
+1. In the left panel, select the creative size to see all available templates for that size.
+
+1. Select the template:
+
+   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
+     
+   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
+-->
 
 ## 크리에이티브 라이브러리에 HTML5 크리에이티브 추가
 
@@ -119,9 +115,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. 라이브러리 이름을 클릭합니다.
 
-1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Standard Ads]** 하위 탭을 클릭합니다.
-
-1. **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL HTML5]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL HTML5]**&#x200B;을(를) 클릭합니다.
 
 <!-- Not an option as of 3/4:
 
@@ -155,9 +149,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지를 만들 수 있습니다. 최대
 
 1. 라이브러리 이름을 클릭합니다.
 
-1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Standard Ads]** 하위 탭을 클릭합니다.
-
-1. **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Image]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Image]**&#x200B;을(를) 클릭합니다.
 
 1. 이미지를 지정합니다.
 
@@ -197,9 +189,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지를 만들 수 있습니다. 최대
 
 1. 라이브러리 이름을 클릭합니다.
 
-1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Standard Ads]** 하위 탭을 클릭합니다.
-
-1. **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL 3rd Party]**&#x200B;을(를) 클릭합니다.
 
 1. [타사 크리에이티브 설정](#creative-settings-third-party)에서 크리에이티브에 대한 JavaScript 태그 및 기타 설정을 지정합니다.
 
@@ -215,9 +205,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지를 만들 수 있습니다. 최대
 
 1. 라이브러리 이름을 클릭합니다.
 
-1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Standard Ads]** 하위 탭을 클릭합니다.
-
-1. **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Video]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Video]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 방법 중 하나로 비디오 파일을 지정합니다.
 
