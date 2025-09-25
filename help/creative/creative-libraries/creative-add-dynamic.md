@@ -2,9 +2,9 @@
 title: Creative 라이브러리에 동적 크리에이티브 추가
 description: Creative Library에 동적 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
 
    1. 광고를 만드는 데 사용할 카탈로그 행의 기준을 선택하십시오.
 
-   1. 지정된 광고 템플릿의 각 속성(동적 광고 필드)을 지정된 피드 파일(카탈로그 레이블)의 열에 매핑합니다.
+   1. 지정된 광고 템플릿의 각 속성(동적 광고 필드)을 지정된 피드 파일(카탈로그 레이블)의 열에 매핑하거나 정적 값을 입력합니다.
 
    1. 생성할 크리에이티브를 미리 보려면 **[!UICONTROL Continue]**&#x200B;을(를) 클릭하십시오. 미리보기 내에서 다음 중 하나를 수행할 수 있습니다.
 
@@ -75,13 +75,13 @@ ht-degree: 0%
 
       * 미리 보기 영역 아래의 검색 필드에서 고유 ID로 제품을 검색합니다.
 
-      * 표시되는 열을 변경하려면 미리 보기 영역 아래의 ![열 필터](/help/creative/assets/custom-columns. "열 필터")를 클릭하십시오.
+      * 표시되는 열을 변경하려면 미리 보기 영역 아래의 ![열 필터](/help/creative/assets/custom-columns.png "열 필터")를 클릭하십시오.
 
       * 특정 크리에이티브를 미리 보려면 행의 확인란을 선택합니다.
 
       * 콘텐츠 변경:
 
-         * 테이블 내에서 셀 값을 편집하려면 셀 내부를 누르고 값을 편집합니다. 셀 외부를 클릭하거나 **[!DNL Enter]** 키를 눌러 변경 내용을 저장합니다.
+         * 테이블 내에서 셀의 값을 편집하려면 셀 내부를 클릭하고 값을 편집합니다. 셀 외부를 클릭하거나 **[!DNL Enter]** 키를 눌러 변경 내용을 저장합니다.
 
          * 단일 제품을 기본값 <!--Explain what this means. -->(으)로 표시하려면 행 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**&#x200B;을(를) 클릭합니다.
 

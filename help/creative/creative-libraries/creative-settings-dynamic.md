@@ -2,9 +2,9 @@
 title: 동적 크리에이티브 설정
 description: 동적 크리에이티브에 대한 설정을 참조하십시오.
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]:**
 
-지정된 광고 템플릿의 각 속성(동적 광고 필드)을 지정된 카탈로그(카탈로그 레이블)의 열에 매핑합니다.
+지정된 광고 템플릿의 각 속성(동적 광고 필드)을 지정된 카탈로그(카탈로그 레이블)의 열에 매핑하거나 정적 값을 입력합니다.
 
 >[!MORELIKETHIS]
 >
