@@ -2,14 +2,16 @@
 title: 동적 광고용 워크플로우
 description: 동적 광고 관리 워크플로우에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
 
 # 동적 광고용 워크플로우
+
+*동적 광고를 만들 수 있는 권한이 있는 사용자*
 
 다음 두 가지 방법 중 하나로 동적 광고를 설정할 수 있습니다.
 
@@ -22,6 +24,11 @@ ht-degree: 0%
   다른 사람이 다른 작업을 완료하거나 한 번에 하나의 작업만 완료하려는 경우 이 워크플로를 사용합니다.
 
 ## 워크플로우 1
+
+>[!PREREQUISITES]
+>
+>* HTML5 형식의 광고 템플릿
+>* CSV, TSV 또는 Microsoft Excel 스프레드시트(XLSX) 형식의 제품 카탈로그
 
 1. Creative 라이브러리의 [동적 크리에이티브 만들기](/help/creative/creative-libraries/creative-add-dynamic.md). 다이내믹 HTML5 광고의 경우 광고 템플릿과 카탈로그를 업로드하십시오.
 
