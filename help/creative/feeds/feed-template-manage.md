@@ -2,9 +2,9 @@
 title: 피드 템플릿 관리
 description: 피드 템플릿을 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-피드 템플릿은 피드 파일의 필드를 Advertising Creative 백엔드의 필드와 매핑합니다. 정적 HTML5 광고가 아닌 동적 HTML5 광고에는 동적 광고를 만들기 위한 피드 템플릿이 필요합니다.
+피드 템플릿은 피드 파일/카탈로그의 필드를 Advertising Creative 백엔드의 필드와 매핑합니다. 정적 HTML5 광고가 아닌 동적 HTML5 광고에는 동적 광고를 만들기 위한 피드 템플릿이 필요합니다.
 
 피드 템플릿은 여러 광고 템플릿과 함께 사용할 수 있습니다.
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [동적 광고에 대한 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [동적 광고용 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [자산 파일 관리](/help/creative/feeds/asset-manage.md)
 >* [카탈로그 관리](/help/creative/feeds/catalog-manage.md)
 >* [카탈로그 처리 작업의 상태를 추적](/help/creative/feeds/job-status-track.md)

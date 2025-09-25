@@ -2,9 +2,9 @@
 title: 피드 카탈로그 관리
 description: 피드 카탈로그를 관리하는 방법에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 광고 변형을 사용하여 [크리에이티브 라이브러리에 동적 광고를 추가](/help/creative/creative-libraries/creative-add-dynamic.md)하려면 먼저 카탈로그를 처리하십시오.
 
 ## 카탈로그 만들기 {#feed-catalog-create}
+
+>[!NOTE]
+>
+>[Creative 라이브러리에 동적 크리에이티브를 추가](/help/creative/creative-libraries/creative-add-dynamic.md)할 때 카탈로그를 직접 업로드할 수도 있습니다. 만든 모든 카탈로그는 나중에 사용할 수 있도록 [!UICONTROL Catalogs] 보기 내에서 사용할 수 있습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Feeds]**&#x200B;을(를) 클릭합니다.
 
@@ -102,7 +106,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [카탈로그 처리 작업의 상태를 추적](/help/creative/feeds/job-status-track.md)
->* [동적 광고에 대한 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [동적 광고용 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [자산 파일 관리](/help/creative/feeds/asset-manage.md)
 >* [피드 템플릿 관리](/help/creative/feeds/feed-template-manage.md)
 >* [동적 광고 템플릿 관리](/help/creative/ad-templates/ad-template-manage.md)

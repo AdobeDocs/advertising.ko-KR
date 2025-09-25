@@ -2,7 +2,7 @@
 title: 카탈로그 처리 작업 상태 추적
 description: 광고주를 위한 에셋 파일을 업로드하고 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -40,4 +40,4 @@ By clicking on "View Failure" on the right, you can see further details about th
 >[!MORELIKETHIS]
 >
 >* [카탈로그 관리](/help/creative/feeds/catalog-manage.md)
->* [동적 광고에 대한 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [동적 광고용 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)

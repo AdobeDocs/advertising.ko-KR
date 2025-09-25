@@ -2,9 +2,9 @@
 title: 동적 광고 템플릿 관리
 description: xxxx에 대해 알아보십시오.
 feature: Creative Templates
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 <!-- EXPLAIN MORE:  Is this like repropagating a feed file through a template, or can you just change some things? Is generating an ad template a one-time thing, using the existing feed file, but you might later update the file and re-propagation doesn't happen automatically? Clarify the use cases for each.-->
 
 ## 동적 광고 템플릿 만들기
+
+>[!NOTE]
+>
+>[Creative 라이브러리에 동적 크리에이티브를 추가](/help/creative/creative-libraries/creative-add-dynamic.md)할 때 동적 광고 템플릿을 업로드할 수도 있습니다. 만든 모든 광고 템플릿은 나중에 사용할 수 있도록 [!UICONTROL Ad Templates] 보기 내에서 사용할 수 있습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**&#x200B;을(를) 클릭합니다.
 
@@ -56,6 +60,10 @@ ht-degree: 0%
 1. 확인 메시지에서 **[!UICONTROL Delete]**.<!-- Confirm -->을(를) 클릭합니다
 
 ## 광고 템플릿에서 동적 광고 만들기
+
+>[!NOTE]
+>
+>Creative 라이브러리 내에서 [Creative 라이브러리에 동적 크리에이티브를 추가](/help/creative/creative-libraries/creative-add-dynamic.md)할 수도 있습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**&#x200B;을(를) 클릭합니다.
 
@@ -113,7 +121,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [동적 광고에 대한 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [동적 광고용 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [자산 파일 관리](/help/creative/feeds/asset-manage.md)
 >* [피드 템플릿 관리](/help/creative/feeds/feed-template-manage.md)
 >* [카탈로그 관리](/help/creative/feeds/catalog-manage.md)

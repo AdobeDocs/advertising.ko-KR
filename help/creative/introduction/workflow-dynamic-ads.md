@@ -1,17 +1,43 @@
 ---
-title: 동적 광고의 워크플로
+title: 동적 광고용 워크플로우
 description: 동적 광고 관리 워크플로우에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
 
-# 동적 광고의 워크플로
+# 동적 광고용 워크플로우
 
-1. 사용 가능한 자산을 기반으로 동적 광고의 [광고 템플릿을 만듭니다](/help/creative/ad-templates/ad-template-manage.md)
+다음 두 가지 방법 중 하나로 동적 광고를 설정할 수 있습니다.
+
+* 워크플로우 1: 크리에이티브 라이브러리에 동적 광고를 추가할 때 동적 광고 설정 내에서 직접 광고 템플릿 및 광고 변형 카탈로그를 업로드합니다. 기존 피드 템플릿을 다운로드하여 카탈로그를 만들 수 있습니다.
+
+  동일한 사람이 (피드 템플릿을 제외한) 모든 정보를 제공하여 광고를 만들 수 있는 경우 이 워크플로를 사용하십시오. 업로드된 파일은 나중에 사용할 수 있습니다.
+
+* 워크플로우 2: 별도의 보기 내에서 광고 템플릿 및 광고 변형 카탈로그를 설정한 다음 이미 사용 가능한 광고 템플릿 및 카탈로그를 사용하여 크리에이티브에 동적 광고를 별도로 추가합니다.
+
+  다른 사람이 다른 작업을 완료하거나 한 번에 하나의 작업만 완료하려는 경우 이 워크플로를 사용합니다.
+
+## 워크플로우 1
+
+1. Creative 라이브러리의 [동적 크리에이티브 만들기](/help/creative/creative-libraries/creative-add-dynamic.md). 다이내믹 HTML5 광고의 경우 광고 템플릿과 카탈로그를 업로드하십시오.
+
+1. 광고 경험에 동적 크리에이티브 사용:
+
+   1. 한 번에 모두 광고 경험에 첨부할 수 있는 [동적 광고 번들을 만듭니다](/help/creative/creative-libraries/bundle-manage.md).
+
+   1. [타깃팅을 사용하여](/help/creative/experiences/experience-create-targeting.md) 또는 [타깃팅 없이](/help/creative/experiences/experience-create-no-targeting.md) 동적 광고 경험을 만들고 [경험에 Creative 번들을 할당](/help/creative/experiences/experience-assign-creative-bundles.md)합니다.
+
+   1. [광고 경험 태그를 생성하고 구현](/help/creative/experiences/experience-tag-export.md)하여 DSP에서 광고로 실행하십시오.
+
+      Adobe Advertising DSP에서 광고 경험을 광고로 사용하려면 광고 경험 태그를 Advertising DSP 캠페인에 업로드하십시오. 다른 DSP에서 광고 경험을 광고로 사용하려면 해당 DSP에서 광고 경험 태그를 구현하십시오.
+
+## 워크플로 2
+
+1. 사용 가능한 자산을 기반으로 동적 광고의 [광고 템플릿을 만듭니다](/help/creative/ad-templates/ad-template-manage.md).
 
 1. 광고 요소 설정:
 
@@ -33,10 +59,12 @@ ht-degree: 0%
 
 1. Creative 라이브러리의 [동적 크리에이티브 만들기](/help/creative/creative-libraries/creative-add-dynamic.md). 다이내믹 HTML5 광고의 경우 지정된 광고 템플릿과 지정된 카탈로그를 사용하십시오.
 
-1. 한 번에 모두 광고 경험에 첨부할 수 있는 [동적 광고 번들을 만듭니다](/help/creative/creative-libraries/bundle-manage.md).
+1. 광고 경험에 동적 크리에이티브 사용:
 
-1. [타깃팅을 사용하여](/help/creative/experiences/experience-create-targeting.md) 또는 [타깃팅 없이](/help/creative/experiences/experience-create-no-targeting.md) 동적 광고 경험을 만들고 [경험에 Creative 번들을 할당](/help/creative/experiences/experience-assign-creative-bundles.md)합니다.
+   1. 한 번에 모두 광고 경험에 첨부할 수 있는 [동적 광고 번들을 만듭니다](/help/creative/creative-libraries/bundle-manage.md).
 
-1. [광고 경험 태그를 생성하고 구현](/help/creative/experiences/experience-tag-export.md)하여 DSP에서 광고로 실행하십시오.
+   1. [타깃팅을 사용하여](/help/creative/experiences/experience-create-targeting.md) 또는 [타깃팅 없이](/help/creative/experiences/experience-create-no-targeting.md) 동적 광고 경험을 만들고 [경험에 Creative 번들을 할당](/help/creative/experiences/experience-assign-creative-bundles.md)합니다.
 
-   Adobe Advertising DSP에서 광고 경험을 광고로 사용하려면 광고 경험 태그를 Advertising DSP 캠페인에 업로드하십시오. 다른 DSP에서 광고 경험을 광고로 사용하려면 해당 DSP에서 광고 경험 태그를 구현하십시오.
+   1. [광고 경험 태그를 생성하고 구현](/help/creative/experiences/experience-tag-export.md)하여 DSP에서 광고로 실행하십시오.
+
+      Adobe Advertising DSP에서 광고 경험을 광고로 사용하려면 광고 경험 태그를 Advertising DSP 캠페인에 업로드하십시오. 다른 DSP에서 광고 경험을 광고로 사용하려면 해당 DSP에서 광고 경험 태그를 구현하십시오.

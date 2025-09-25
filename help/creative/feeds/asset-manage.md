@@ -2,9 +2,9 @@
 title: 에셋 파일 관리
 description: 광고주를 위한 에셋 파일을 업로드하고 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ Dynamic HTML5 광고에는 XLSX(Microsoft Excel 스프레드시트) 형식의 �
      ZIP 파일에 단일 이미지 또는 여러 이미지를 업로드할 수 있습니다.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 ## 에셋 파일 업로드
+
+>[!NOTE]
+>
+>에셋 파일을 업로드하는 대신 [Creative 라이브러리에 동적 크리에이티브를 추가](/help/creative/creative-libraries/creative-add-dynamic.md)할 때 카탈로그를 직접 업로드할 수도 있습니다. 만든 모든 카탈로그는 나중에 사용할 수 있도록 [!UICONTROL Catalogs] 보기 내에서 사용할 수 있습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Feeds]**&#x200B;을(를) 클릭합니다.
 
@@ -77,7 +81,7 @@ Dynamic HTML5 광고에는 XLSX(Microsoft Excel 스프레드시트) 형식의 �
 
 >[!MORELIKETHIS]
 >
->* [동적 광고에 대한 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [동적 광고용 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [피드 템플릿 관리](/help/creative/feeds/feed-template-manage.md)
 >* [카탈로그 관리](/help/creative/feeds/catalog-manage.md)
 >* [동적 광고 템플릿 관리](/help/creative/ad-templates/ad-template-manage.md)
