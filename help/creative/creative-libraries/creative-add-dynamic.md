@@ -2,9 +2,9 @@
 title: Creative 라이브러리에 동적 크리에이티브 추가
 description: Creative Library에 동적 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 1cee56f8bd40f94b1f78536725fb8eab249b9915
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,21 @@ ht-degree: 0%
 
 ## 동적 HTML5 광고 템플릿을 사용하여 동적 크리에이티브 추가
 
-1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+1. 다음 중 하나를 수행합니다.
 
-1. 라이브러리 이름을 클릭합니다.
+   * 크리에이티브 라이브러리에서:
 
-1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**&#x200B;을(를) 클릭합니다.
+      1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+      1. 라이브러리 이름을 클릭합니다.
+
+      1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**&#x200B;을(를) 클릭합니다.
+
+   * 광고 템플릿에서:
+
+      1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**&#x200B;을(를) 클릭합니다.
+
+      1. 광고 템플릿 행 위에 커서를 놓고 **[!UICONTROL Create Dynamic Ad]**&#x200B;을(를) 클릭합니다.
 
 1. [동적 광고 설정 지정](/help/creative/creative-libraries/creative-settings-dynamic.md):
 
@@ -79,4 +89,4 @@ ht-degree: 0%
 >
 >* [동적 크리에이티브 설정](creative-settings-dynamic.md)
 >* [Creative 라이브러리에서 동적 크리에이티브 편집](creative-edit-dynamic.md)
->* [동적 광고에 대한 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [동적 광고용 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)
