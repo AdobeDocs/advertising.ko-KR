@@ -2,9 +2,9 @@
 title: 에셋 파일 관리
 description: 광고주를 위한 에셋 파일을 업로드하고 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: 40f8fbde0879f2412816a2b08e6e99da67f16219
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,15 @@ Dynamic HTML5 광고에는 XLSX(Microsoft Excel 스프레드시트) 형식의 �
 
 * Dynamic HTML5 광고:
 
-   * 각 광고 변형에 대해 하나의 헤더 행과 하나의 데이터 행이 있는 Microsoft Excel 스프레드시트(XLSX) 형식의 피드 파일입니다. 각 행에 이미지 이름 또는 Adobe Experience Manager에 대한 참조를 포함하십시오.<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * CSV, TSV 또는 Microsoft Excel 스프레드시트(XLSX) 형식의 피드 파일로, 각 광고 변형에 대해 하나의 머리글 행과 하나의 데이터 행이 있습니다. 각 행에 이미지 이름 또는 Adobe Experience Manager에 대한 참조를 포함하십시오.<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
 
      업로드할 이미지의 경우 `images/image_name` 형식(예: `images/300x250_acme_logo.png`)을 사용하여 이미지를 참조합니다.<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
 
    * GIF, JPEG, JPG 또는 PNG 형식의 연결된 이미지 자산입니다.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하십시오.
 
-  하나의 XLSX 파일, 하나의 이미지 파일 또는 XLSX와 이미지 파일의 조합이 포함된 하나의 ZIP 파일을 업로드할 수 있습니다.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+   * (선택 사항) MP4 또는 WEBM 형식의 비디오 자산
+
+  하나의 XLSX 파일, 하나의 이미지 또는 비디오 파일 또는 XLSX, 이미지 및 비디오 파일의 모든 조합이 포함된 하나의 ZIP 파일을 업로드할 수 있습니다.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 정적 HTML5 광고:
 
