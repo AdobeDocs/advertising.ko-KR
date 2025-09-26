@@ -2,7 +2,7 @@
 title: 에셋 파일 관리
 description: 광고주를 위한 에셋 파일을 업로드하고 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 40f8fbde0879f2412816a2b08e6e99da67f16219
+source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -12,6 +12,7 @@ ht-degree: 0%
 # 에셋 파일 관리
 
 Dynamic HTML5 광고에는 XLSX(Microsoft Excel 스프레드시트) 형식의 피드 파일과 스프레드시트에서 참조되는 이미지 자산이 모두 필요합니다(Adobe Experience Manager 자산 참조 제외). 정적 HTML5 광고에는 광고당 하나의 이미지 자산만 필요합니다.
+
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ Dynamic HTML5 광고에는 XLSX(Microsoft Excel 스프레드시트) 형식의 �
 
      업로드할 이미지의 경우 `images/image_name` 형식(예: `images/300x250_acme_logo.png`)을 사용하여 이미지를 참조합니다.<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
 
-   * GIF, JPEG, JPG 또는 PNG 형식의 연결된 이미지 자산입니다.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하십시오.
+   * GIF, JPEG, JPG 또는 PNG 형식의 연결된 이미지 자산입니다.<!-- Is this true: The maximum file size is two (2) MB. --> [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하십시오.
 
    * (선택 사항) MP4 또는 WEBM 형식의 비디오 자산
 
