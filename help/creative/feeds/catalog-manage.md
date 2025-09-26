@@ -2,9 +2,9 @@
 title: 피드 카탈로그 관리
 description: 피드 카탈로그를 관리하는 방법에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 처리된 피드 카탈로그는 지정된 피드 파일 및 지정된 피드 템플릿에서 생성된 잠재적인 광고 변형의 집합입니다. 정적 HTML5 광고가 아닌 동적 HTML5 광고에는 동적 광고를 만들기 위한 카탈로그가 필요합니다.
 
-광고 변형을 사용하여 [크리에이티브 라이브러리에 동적 광고를 추가](/help/creative/creative-libraries/creative-add-dynamic.md)하려면 먼저 카탈로그를 처리하십시오.
+광고 변형을 만들고 [크리에이티브 라이브러리에 동적 광고를 추가](/help/creative/creative-libraries/creative-add-dynamic.md)하려면 먼저 카탈로그를 처리하십시오. 나중에 피드 파일을 업데이트하고 카탈로그를 다시 처리하여 새 광고 변형 집합을 만들 수 있습니다.<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
 
 ## 카탈로그 만들기 {#feed-catalog-create}
 
