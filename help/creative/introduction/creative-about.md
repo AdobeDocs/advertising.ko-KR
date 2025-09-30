@@ -3,9 +3,9 @@ title: Adobe Advertising Creative 정보
 description: ' [!DNL Creative]에 대해 알아봅니다.'
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 41814881a2fc0efde76927d12a8649efad86f4cb
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Creative 라이브러리를 사용하면 광고 경험에서 사용할 크리에
 
 ### [!DNL Adobe] 자산 통합
 
-[!DNL Creative]은(는) Adobe Experience Manager과 직접 통합되어 있으므로 디자인 팀에서 만들고 승인하는 [!DNL Adobe] 이미지 에셋을 쉽게 업로드한 다음 광고 경험의 실시간 스토리보딩과 편집에 사용할 수 있습니다.
+[!DNL Creative]은(는) Adobe Experience Manager과 직접 통합되어 있으므로 디자인 팀이 표준 이미지 광고에 대해 만들고 승인하는 [!DNL Adobe] 이미지 에셋을 쉽게 업로드할 수 있습니다.
 
 ## 규칙 기반 및 타깃팅되지 않은 경험 모두
 

@@ -2,9 +2,9 @@
 title: 동적 광고용 워크플로우
 description: 동적 광고 관리 워크플로우에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    * (동적 HTML5 광고의 경우) 광고 요소의 카탈로그를 만듭니다.
 
-      1. 각 광고 변형에 대해 하나의 행을 사용하여 Microsoft Excel 스프레드시트(XLSX) 형식으로 피드 파일을 만듭니다. 각 행에 이미지 이름 또는 Adobe Experience Manager에 대한 참조를 포함합니다. 연결된 이미지 에셋을 별도로 수집합니다.
+      1. 각 광고 변형에 대해 하나의 행을 사용하여 Microsoft Excel 스프레드시트(XLSX) 형식으로 피드 파일을 만듭니다. 각 행에 이미지 이름을 포함합니다. 연결된 이미지 에셋을 별도로 수집합니다.
 
       1. [피드 파일 및 이미지 자산을 업로드합니다](/help/creative/feeds/asset-manage.md).
 
