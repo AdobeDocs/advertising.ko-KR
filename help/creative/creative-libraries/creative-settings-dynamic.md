@@ -2,9 +2,9 @@
 title: 동적 크리에이티브 설정
 description: 동적 크리에이티브에 대한 설정을 참조하십시오.
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 0%
 
 업로드된 카탈로그는 ZIP 형식이어야 하며, 다음과 같은 내용을 포함해야 합니다.
 
-* CSV, TSV 또는 Microsoft Excel 스프레드시트(XLSX) 형식의 피드 파일이 하나 이상 있습니다.<!-- Need to add more specs for that -->
+* CSV, TSV 또는 Microsoft Excel 스프레드시트(XLSX) 형식의 피드 파일 하나 이상. 최대 파일 크기는 512MB입니다.<!-- Need to add more specs for the feed files -->
 
 * GIF, JPEG, JPG 또는 PNG 형식의 이미지 자산
-
-* (선택 사항) MP4 또는 WEBM 형식의 비디오 자산
 
 ### [!UICONTROL Attributes Mapping]
 
