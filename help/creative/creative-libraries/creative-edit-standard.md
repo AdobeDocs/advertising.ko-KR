@@ -3,9 +3,9 @@ title: Creative Library에서 표준 크리에이티브 편집
 description: Creative Library에서 표준(비동적) 크리에이티브의 설정을 변경하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >* (유연한 HTML5 크리에이티브만 해당) 단일 크리에이티브에 대한 특성만 편집할 수 있습니다.<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* (유연한 HTML5 크리에이티브만 해당) 단일 크리에이티브에 대한 속성만 편집할 수 있습니다.
 
-<!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
-1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
--->
+1. (유연한 HTML5 크리에이티브, 선택 사항) 변경 내용을 적용한 후 이미지 위에서 ![미리 보기](/help/creative/assets/preview.png "미리 보기")를 클릭하여 새 크리에이티브를 미리 봅니다.
 
 1. **저장**&#x200B;을 클릭합니다.
 
