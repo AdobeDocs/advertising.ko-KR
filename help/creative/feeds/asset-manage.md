@@ -2,9 +2,9 @@
 title: 에셋 파일 관리
 description: 광고주를 위한 에셋 파일을 업로드하고 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Dynamic HTML5 광고에는 XLSX(Microsoft Excel 스프레드시트) 형식의 �
 
 * Dynamic HTML5 광고:
 
-   * CSV, TSV 또는 Microsoft Excel 스프레드시트(XLSX) 형식의 피드 파일로, 각 광고 변형에 대해 하나의 머리글 행과 하나의 데이터 행이 있습니다. 각 행에 이미지 이름 또는 Adobe Experience Manager에 대한 참조를 포함하십시오.<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * CSV, TSV 또는 Microsoft Excel 스프레드시트(XLSX) 형식의 피드 파일로, 각 광고 변형에 대해 하나의 머리글 행과 하나의 데이터 행이 있습니다. `images/image_name` 형식(예: `images/300x250_acme_logo.png`)을 사용하여 각 행에 이미지 이름을 포함하십시오.
 
-     업로드할 이미지의 경우 `images/image_name` 형식(예: `images/300x250_acme_logo.png`)을 사용하여 이미지를 참조합니다.<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
+     광고주별 필드 이름은 [동적 광고 피드 파일에 사용 가능한 필드](/help/creative/appendix-available-feed-fields.md)에 매핑해야 합니다.
 
    * GIF, JPEG, JPG 또는 PNG 형식의 연결된 이미지 자산입니다.<!-- Is this true: The maximum file size is two (2) MB. --> [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하십시오.
 
@@ -84,6 +84,7 @@ Dynamic HTML5 광고에는 XLSX(Microsoft Excel 스프레드시트) 형식의 �
 
 >[!MORELIKETHIS]
 >
+>* [동적 광고 피드 파일에 사용할 수 있는 필드](/help/creative/appendix-available-feed-fields.md)
 >* [동적 광고용 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [피드 템플릿 관리](/help/creative/feeds/feed-template-manage.md)
 >* [카탈로그 관리](/help/creative/feeds/catalog-manage.md)

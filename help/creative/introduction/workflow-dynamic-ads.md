@@ -2,9 +2,9 @@
 title: 동적 광고용 워크플로우
 description: 동적 광고 관리 워크플로우에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 워크플로 2
 
-1. 사용 가능한 자산을 기반으로 동적 광고의 [광고 템플릿을 만듭니다](/help/creative/ad-templates/ad-template-manage.md).
+1. 사용 가능한 자산을 기반으로 동적 광고의 [광고 템플릿을 만듭니다](/help/creative/ad-templates/ad-template-manage.md). 광고 템플릿에는 원하는 광고 형식의 HTML5 파일과 (동적 HTML5 광고만 해당) 광고 특성이 있는 파일이 포함되어 있습니다.
 
 1. 광고 요소 설정:
 

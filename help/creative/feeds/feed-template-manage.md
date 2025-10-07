@@ -2,9 +2,9 @@
 title: 피드 템플릿 관리
 description: 피드 템플릿을 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Field Mapping] 설정
 
-피드 파일의 각 필드를 Advertising Creative 백엔드의 필드에 매핑합니다.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> 피드 파일 필드는 하나 이상 &quot;[!UICONTROL Is Unique]&quot;(으)로 표시되어야 합니다. 필드 매핑을 추가하려면 **[!UICONTROL +]**&#x200B;을(를) 클릭합니다. 마지막 필드 매핑을 제거하려면 **[!UICONTROL +]**&#x200B;을(를) 클릭하십시오.
+피드 파일의 각 필드를 Advertising Creative 백엔드의 필드에 매핑합니다. 백엔드 필드 및 필수 특성 목록은 &quot;[동적 광고 피드 파일에 사용할 수 있는 필드](/help/creative/appendix-available-feed-fields.md)&quot;을(를) 참조하십시오.<!-- Check w/product: What is displayed where in the UI/reports and published ads? -->
+
+적어도 하나의 피드 파일 필드는 &quot;[!UICONTROL Is Unique]&quot;(으)로 표시되어야 합니다. 필드 매핑을 추가하려면 **[!UICONTROL +]**&#x200B;을(를) 클릭합니다. 마지막 필드 매핑을 제거하려면 **[!UICONTROL +]**&#x200B;을(를) 클릭하십시오.
 
 **[!UICONTROL Field Name]:** 피드 파일의 필드입니다.
 
@@ -97,7 +99,7 @@ ht-degree: 0%
 
 **[!UICONTROL Is Unique]:** 필드가 고유 ID(키)임을 나타냅니다. 피드 템플릿당 하나 이상의 필드는 고유해야 합니다. 이 옵션을 선택하려면 단추를 클릭하여 오른쪽으로 이동합니다.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** 피드 파일에서 지정된 [!UICONTROL Field Name]에 매핑되는 Advertising Creative 백엔드의 필드입니다.
+**[!UICONTROL Backend Field]:** 피드 파일에서 지정된 [에 매핑되는 Advertising Creative 백 엔드의 ](/help/creative/appendix-available-feed-fields.md)필드[!UICONTROL Field Name]입니다.
 
 >[!MORELIKETHIS]
 >
