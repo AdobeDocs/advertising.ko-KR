@@ -1,8 +1,8 @@
 ---
 title: 동적 광고 피드 파일에 사용 가능한 필드
 description: 동적 광고를 만드는 데 사용하는 피드 파일에 포함할 수 있는 필드에 대해 알아봅니다.
-feature: Creative Dynamic Ads
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+feature: Creative Dynamic Creatives
+source-git-commit: 67ee38860ac5cb7e9340f8e9d4667353e509b1ec
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
