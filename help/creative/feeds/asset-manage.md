@@ -2,16 +2,16 @@
 title: 에셋 파일 관리
 description: 광고주를 위한 에셋 파일을 업로드하고 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+source-git-commit: af29637d42b9932933cd23a64d6a0e2b7084fa31
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # 에셋 파일 관리
 
-Dynamic HTML5 광고에는 XLSX(Microsoft Excel 스프레드시트) 형식의 피드 파일과 스프레드시트에서 참조되는 이미지 자산이 모두 필요합니다(Adobe Experience Manager 자산 참조 제외). 정적 HTML5 광고에는 광고당 하나의 이미지 자산만 필요합니다.
+Dynamic HTML5 광고에는 Microsoft Excel 스프레드시트(XLSX) 형식의 피드 파일과 스프레드시트에서 참조되는 이미지 자산이 모두 필요합니다. 정적 HTML5 광고에는 광고당 하나의 이미지 자산만 필요합니다.
 
 
 >[!NOTE]
@@ -28,9 +28,7 @@ Dynamic HTML5 광고에는 XLSX(Microsoft Excel 스프레드시트) 형식의 �
 
    * GIF, JPEG, JPG 또는 PNG 형식의 연결된 이미지 자산입니다.<!-- Is this true: The maximum file size is two (2) MB. --> [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하십시오.
 
-   * (선택 사항) MP4 또는 WEBM 형식의 비디오 자산
-
-  하나의 XLSX 파일, 하나의 이미지 또는 비디오 파일 또는 XLSX, 이미지 및 비디오 파일의 모든 조합이 포함된 하나의 ZIP 파일을 업로드할 수 있습니다.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+  하나의 XLSX 파일, 하나의 이미지 파일 또는 XLSX와 이미지 파일의 조합이 포함된 하나의 ZIP 파일을 업로드할 수 있습니다.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 정적 HTML5 광고:
 

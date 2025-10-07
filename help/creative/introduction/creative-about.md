@@ -3,9 +3,9 @@ title: Adobe Advertising Creative 정보
 description: ' [!DNL Creative]에 대해 알아봅니다.'
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: 41814881a2fc0efde76927d12a8649efad86f4cb
+source-git-commit: 9082d9f455a0d26ca027dc699df29737b9042457
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Adobe Audience Manager 및 Adobe Analytics의 자사 대상 세그먼트뿐만 �
 
 ### 경험을 광고로 구현
 
-경험을 만든 후에는 경험에 대한 JavaScript 또는 iframe 태그를 생성하고 Advertising DSP 캠페인이나 다른 DSP에서 타사 표준 디스플레이 광고로 태그를 구현할 수 있습니다.<!-- Will add video and other ad formats; not sure if they'll be available for both standard and dynamic ads. -->
+경험을 만든 후에는 경험에 대한 JavaScript 또는 iframe 태그를 생성하고 Advertising DSP 캠페인 또는 다른 DSP에서 타사 광고로 태그를 구현할 수 있습니다.
 
 ### 광고 요소 최적화
 
