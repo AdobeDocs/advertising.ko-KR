@@ -99,7 +99,7 @@ ht-degree: 0%
 
 **[!UICONTROL Is Unique]:** 필드가 고유 ID(키)임을 나타냅니다. 피드 템플릿당 하나 이상의 필드는 고유해야 합니다. 이 옵션을 선택하려면 단추를 클릭하여 오른쪽으로 이동합니다.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** 피드 파일에서 지정된 [에 매핑되는 Advertising Creative 백 엔드의 ](/help/creative/appendix-available-feed-fields.md)필드[!UICONTROL Field Name]입니다.
+**[!UICONTROL Backend Field]:** 피드 파일에서 지정된 [에 매핑되는 Advertising Creative 백 엔드의 &#x200B;](/help/creative/appendix-available-feed-fields.md)필드[!UICONTROL Field Name]입니다.
 
 >[!MORELIKETHIS]
 >
