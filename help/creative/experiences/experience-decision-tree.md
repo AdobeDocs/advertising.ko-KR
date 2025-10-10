@@ -3,9 +3,9 @@ title: 의사 결정 트리 레이아웃
 description: 타깃팅이 있는 경험의 의사 결정 트리 레이아웃에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
+source-git-commit: 4057f413b58343580a965f9a419af1e002892ff6
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## 용어
 
@@ -36,7 +36,9 @@ ht-degree: 0%
 
 ## 의사 결정 트리의 타겟
 
-각 의사 결정 트리는 최대 5개 수준의 대상을 가질 수 있습니다. 각 타겟 수준에는 동일한 타겟 유형(대상 세그먼트, 지리적 위치 유형, 지정된 데이터 패스 키의 값, 지정된 리타겟팅 픽셀의 속성 또는 디바이스 카테고리)을 가진 하나 이상의 노드가 각각 있는 여러 분기가 포함될 수 있습니다. 기본 이미지 크리에이티브 또는 비디오 크리에이티브를 지정한 각 광고 크기의 크리에이티브 번들을 최하위 레벨 대상 노드에 할당할 수 있습니다.
+각 의사 결정 트리는 최대 5개 수준의 대상을 가질 수 있습니다. 경험 수준 타겟은 DSP의 타겟팅 옵션과 함께 적용됩니다. 계층 타겟팅 동작은 DSP에 따라 다를 수 있습니다. 광고 경험에 구현할 캠페인과 호환되는 타겟팅이 포함되어 있는지 확인하십시오.
+
+각 타겟 수준에는 동일한 타겟 유형(대상 세그먼트, 지리적 위치 유형, 지정된 데이터 패스 키의 값, 지정된 리타겟팅 픽셀의 속성 또는 디바이스 카테고리)을 가진 하나 이상의 노드가 각각 있는 여러 분기가 포함될 수 있습니다. 기본 이미지 크리에이티브 또는 비디오 크리에이티브를 지정한 각 광고 크기의 크리에이티브 번들을 최하위 레벨 대상 노드에 할당할 수 있습니다.
 
 ![대상이 있는 의사 결정 트리의 예](/help/creative/assets/experience-decision-tree.png "대상이 있는 의사 결정 트리의 예")
 
