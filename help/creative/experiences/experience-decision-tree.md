@@ -3,9 +3,9 @@ title: 의사 결정 트리 레이아웃
 description: 타깃팅이 있는 경험의 의사 결정 트리 레이아웃에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## 용어
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 경험의 각 최종 대상 노드에 크리에이티브 번들을 할당합니다.
 
-크리에이티브 번들이 있는 각 노드 내에서, a) 지정된 가중치에 따라 또는 b) 클릭스루 비율 또는 사용자 지정 목표를 최적화하기 위해 알고리즘적으로 포함된 크리에이티브를 선택적으로 회전할 수 있습니다. 동일한 옵션을 사용하여 지정된 시간 시퀀스에서 크리에이티브를 선택적으로 회전할 수도 있습니다.
+크리에이티브 번들이 있는 각 노드 내에서, 포함된 크리에이티브를 선택적으로 a) 클릭스루 비율 또는 사용자 지정 목표를 최적화하기 위해 알고리즘적으로 회전하거나, b) 지정된 가중치에 따라 또는 c) 특정 순서로 회전할 수 있습니다. 동일한 옵션의 조합을 사용하여 지정된 시간 시퀀스에서 크리에이티브를 선택적으로 회전할 수도 있습니다.
 
 개별 크리에이티브에 대해 필요에 따라 랜딩 페이지 URL, 노출 추적 URL 및 클릭 추적 URL을 선택적으로 사용자 지정할 수 있습니다. <!-- Not in the UI as of 1/31: For flexible HTML5 creatives, you can customize any of the flexible attributes. -->
 
