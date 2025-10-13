@@ -3,9 +3,9 @@ title: 타깃팅된 경험 설정
 description: 타겟팅된 광고 경험에 대한 모든 설정 설명을 참조하십시오.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 0%
 * 오른쪽의 [크리에이티브] 창을 표시하거나 숨기려면 오른쪽 창의 오른쪽 상단에 있는 ![표시/숨기기](/help/creative/assets/hide-show-creatives.png "표시/숨기기")를 클릭합니다.
 
 ## [!UICONTROL Targeting] 섹션
+
+경험 수준 타겟은 DSP의 타겟팅 옵션과 함께 적용됩니다. 계층 타겟팅 동작은 DSP에 따라 다를 수 있습니다. 예를 들어 Adobe Advertising DSP은 배치 수준 타깃팅의 맨 위에(대신에 적용되지 않음) 광고 수준 타깃팅을 적용합니다. 광고 경험에 구현할 캠페인과 호환되는 타겟팅이 포함되어 있는지 확인하십시오.
 
 **[!UICONTROL Targeting]:**(기존 경험의 경우 읽기 전용) 의사 결정 트리 및 자동 태그 생성을 사용하여 크리에이티브 타깃팅을 활성화합니다. 경험을 저장하면 이 설정을 변경할 수 없습니다.
 
