@@ -195,7 +195,7 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 
 * 최종 URL을 포함하려면 다음을 수행하십시오.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 ](https://help.ads.microsoft.com/#apex/3/en/56799) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
    * ([!DNL Yahoo! Japan Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 

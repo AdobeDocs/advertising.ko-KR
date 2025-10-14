@@ -13,7 +13,7 @@ AMO ID는 보다 세분화된 수준에서 각각의 고유한 광고 조합을 
 
 [!DNL Analytics]의 경우 AMO ID는 [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ko) 또는 rVar 차원(AMO ID)에 저장됩니다.
 
-Customer Journey Analytics의 경우 AMO ID가 `trackingCode` `conversionDetails`[의 일부인 [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] 개체의 ](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) 속성에 저장됩니다.
+Customer Journey Analytics의 경우 AMO ID가 `trackingCode` `conversionDetails`[의 일부인 [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] 개체의 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) 속성에 저장됩니다.
 
 AMO ID를 `s_kwcid`이라고도 하며, &quot;[!DNL squid]&quot;(으)로 발음되기도 합니다.
 
@@ -82,7 +82,7 @@ AMO ID를 `s_kwcid`이라고도 하며, &quot;[!DNL squid]&quot;(으)로 발음�
 >
 >* 동적 검색 광고의 경우 {keyword}이(가) 자동 타겟으로 채워집니다.
 >* [!DNL Google] 쇼핑 광고에 대한 추적을 생성하면 키워드 매개 변수 앞에 제품 ID 매개 변수 `{adwords_producttargetid}`이(가) 삽입됩니다. 제품 ID 매개 변수가 [!DNL Google Ads] 계정 수준 및 캠페인 수준 추적 매개 변수에 표시되지 않습니다.
->* 최신 AMO ID 추적 코드를 사용하려면 &quot;[계정 [!DNL Google Ads] 에 대한 AMO ID 추적 코드 업데이트&quot;를 참조하십시오. ](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)<!-- Update terminology there too. -->
+>* 최신 AMO ID 추적 코드를 사용하려면 &quot;[계정 [!DNL Google Ads] 에 대한 AMO ID 추적 코드 업데이트&quot;를 참조하십시오. &#x200B;](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)<!-- Update terminology there too. -->
 
 <!--
 

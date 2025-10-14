@@ -75,4 +75,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [설명 [!DNL Google Ads] 설명선 확장](callout-extension-about.md)
->* [캠페인 또는 광고 그룹과 공유 콜아웃 확장 연결 [!DNL Google Ads] ](callout-extension-associate.md)
+>* [캠페인 또는 광고 그룹과 공유 콜아웃 확장 연결 [!DNL Google Ads] &#x200B;](callout-extension-associate.md)

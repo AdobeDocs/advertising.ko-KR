@@ -51,9 +51,9 @@ Adobe Advertising 및 Adobe Target을 사용하면 마케터가 유료 미디어
 
 [!DNL Flashtalking] 또는 Google Campaign Manager 360 내에서 각 광고의 클릭스루 URL을 수동으로 업데이트하여 AMO ID 변수를 캡처하는 데 필요한 매크로를 포함합니다. AMO ID 변수는 클릭 데이터를 Adobe Analytics으로 전송하고 A/B 테스트를 위한 배치 키를 공유하는 데 사용됩니다. 지침은 다음 페이지를 참조하십시오.
 
-* [추가 [!DNL Analytics for Advertising] 매크로를  [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)에 추가합니다. **참고:** 조직에서 [!DNL Flashtalking]과(와) 직접 파트너 관계를 맺고 데이터 전달 매크로를 사용하여 `s_kwcid`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros`ef_id`에 있는 [!DNL Flashtalking] 지원 설명서별로 [ 및 ](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) 추적 매개 변수를 추적하는 경우에는 이 절차가 필요하지 않습니다.
+* [추가 [!DNL Analytics for Advertising] 매크로를  [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)에 추가합니다. **참고:** 조직에서 [!DNL Flashtalking]과(와) 직접 파트너 관계를 맺고 데이터 전달 매크로를 사용하여 `s_kwcid`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros`ef_id`에 있는 [!DNL Flashtalking] 지원 설명서별로 [&#x200B; 및 &#x200B;](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) 추적 매개 변수를 추적하는 경우에는 이 절차가 필요하지 않습니다.
 
-* [ [!DNL Analytics for Advertising] 광고 태그에  [!DNL Google Campaign Manager 360] 매크로 추가](/help/integrations/analytics/macros-google-campaign-manager.md)
+* [&#x200B; [!DNL Analytics for Advertising] 광고 태그에  [!DNL Google Campaign Manager 360] 매크로 추가](/help/integrations/analytics/macros-google-campaign-manager.md)
 
 Adobe 계정 팀에 문의하여 필요한 배치 키를 검색하고 설정을 완료하고 각 클릭스루 URL에 배치 키가 채워져 있는지 확인하십시오.
 
@@ -67,7 +67,7 @@ Adobe 계정 팀에 문의하여 필요한 배치 키를 검색하고 설정을 
 
    지침은 &quot;[Advertising DSP 캠페인에서 미디어 노출 데이터 수집](/help/integrations/audience-manager/media-data-integration/collect.md)&quot;을 참조하십시오.
 
-   숫자 배치 ID에 대한 [을(를) 포함하여 노출 이벤트 픽셀에서 다시 전달할 모든 데이터를 캡처하려면 ](/help/dsp/campaign-management/macros.md)DSP 매크로`${TM_PLACEMENT_ID_NUM}`를 추가해야 합니다.
+   숫자 배치 ID에 대한 [을(를) 포함하여 노출 이벤트 픽셀에서 다시 전달할 모든 데이터를 캡처하려면 &#x200B;](/help/dsp/campaign-management/macros.md)DSP 매크로`${TM_PLACEMENT_ID_NUM}`를 추가해야 합니다.
 
    >[!NOTE]
    >

@@ -92,7 +92,7 @@ ht-degree: 0%
 +++합계가 정확하지만 개별 데이터 필드가 올바르지 않습니다.
 이 상황은 지표 형식이 정수를 사용할 때 발생할 수 있습니다.
 
-* [사용자 지정 지표](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)을(를) *소수점 포함/제외 숫자*(데이터를 정수로 표시) 형식으로 만들고 가중 전환 속성 규칙([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] 또는 [!UICONTROL Even Distribution])을 사용하는 보기 또는 보고서에 포함하면 출력이 소수가 아닌 정수로 표시됩니다. 이 경우 합계가 정확하지만 개별 데이터 필드가 올바르지 않을 수 있습니다. 예를 들어, 순서가 세 이벤트 간에 균등하게 나누어지면 한 개의 순서 (0.33 순서 대신)가 세 이벤트 각각에 기여됩니다. 이 문제를 해결하려면 [지표 형식을 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)에서 *소수점 이하 숫자*(으)로 변경하십시오.
+* [사용자 지정 지표](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)을(를) *소수점 포함/제외 숫자*(데이터를 정수로 표시) 형식으로 만들고 가중 전환 속성 규칙([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] 또는 [!UICONTROL Even Distribution])을 사용하는 보기 또는 보고서에 포함하면 출력이 소수가 아닌 정수로 표시됩니다. 이 경우 합계가 정확하지만 개별 데이터 필드가 올바르지 않을 수 있습니다. 예를 들어, 순서가 세 이벤트 간에 균등하게 나누어지면 한 개의 순서 (0.33 순서 대신)가 세 이벤트 각각에 기여됩니다. 이 문제를 해결하려면 [지표 형식을 &#x200B;](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)에서 *소수점 이하 숫자*(으)로 변경하십시오.
 
 * 마찬가지로 정수로 전송되는 매출 지표가 있는 경우 동일한 문제가 발생합니다. 매출 형식은 데이터를 제출하는 전환 태그에 의해 제어됩니다. 이 문제를 해결하려면 매출 지표로만 구성된 [사용자 지정 지표를 만들고](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) *소수점 이하 숫자* 형식을 사용하여 원래 지표가 아닌 보기 및 보고서에 포함하십시오.
 +++

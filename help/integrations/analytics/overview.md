@@ -148,6 +148,6 @@ Adobe Advertising 사이트 시작 보고서를 만들어 요일, 시간, 브라
 >* [구현을 위한 필수 구성 요소 및 키 정보 [!DNL Analytics for Advertising]](prerequisites.md)
 >* [Analytics에서 사용하는 Adobe Advertising ID](ids.md)
 >* [Advertising용 Analytics용 JavaScript 코드](/help/integrations/analytics/javascript.md)
->* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) ](data-variances.md)
+>* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) &#x200B;](data-variances.md)
 >* Analysis Workspace의 [Adobe Advertising 지표](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Adobe Advertising의 데이터](/help/integrations/analytics/analytics-data-in-advertising.md)

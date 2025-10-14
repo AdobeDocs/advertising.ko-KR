@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 전환 태그를 복사하여 전환 지표를 추적할 웹 사이트에 구현합니다.
 
-   &quot;[2&quot;에 대한 [!DNL Google Ads] 도움말의 &quot;[!DNL Google] 태그 설치&quot;를 참조하십시오. Google 태그 ](https://support.google.com/google-ads/answer/12215519)을(를) 설정합니다.&quot;
+   &quot;[2&quot;에 대한 [!DNL Google Ads] 도움말의 &quot;[!DNL Google] 태그 설치&quot;를 참조하십시오. Google 태그 &#x200B;](https://support.google.com/google-ads/answer/12215519)을(를) 설정합니다.&quot;
 
 1. **[!UICONTROL Done].** 클릭
 

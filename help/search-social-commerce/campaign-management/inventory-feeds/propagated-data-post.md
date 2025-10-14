@@ -22,7 +22,7 @@ ht-degree: 0%
 
   이전에 [랜딩 페이지의 유효성 검사](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)를 하지 않았다면 파일을 게시하기 전에 확인할 수 있습니다.
 
-* 옵션을 &quot;[!UICONTROL Propagate only]&quot;에 사용한 경우 [!UICONTROL Templates] 탭에서 캠페인 계층 구조 보기 내에 [[!UICONTROL New] 상태가 ](propagated-data-status.md)인 구성 요소에 대해 생성된 데이터를 게시할 수 있습니다.
+* 옵션을 &quot;[!UICONTROL Propagate only]&quot;에 사용한 경우 [!UICONTROL Templates] 탭에서 캠페인 계층 구조 보기 내에 [[!UICONTROL New] 상태가 &#x200B;](propagated-data-status.md)인 구성 요소에 대해 생성된 데이터를 게시할 수 있습니다.
 
   >[!NOTE]
   >

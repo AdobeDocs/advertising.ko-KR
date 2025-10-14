@@ -40,7 +40,7 @@ Using your first-party data, you can create segments with IDs from the following
 
    * [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용한 측정용입니다.
 
-* [[!DNL Unified ID 2.0 (UID2.0)] ](https://unifiedid.com):
+* [[!DNL Unified ID 2.0 (UID2.0)] &#x200B;](https://unifiedid.com):
 
    * 로그인한 사용자를 재타겟팅하기 위해
 

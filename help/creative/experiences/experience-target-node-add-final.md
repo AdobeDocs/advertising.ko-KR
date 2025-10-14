@@ -70,7 +70,7 @@ ht-degree: 0%
 
    * 데이터 전달 대상에 대해 **[!UICONTROL Data Pass]**&#x200B;을(를) 선택하고 선택적으로 데이터 전달 키를 사용자 지정하고 단일 데이터 전달 값을 입력한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-   키-값 쌍의 키에 대한 기본값이 **[!UICONTROL Data Pass]**&#x200B;경험 설정[!UICONTROL Advanced]의 [ 섹션에 있는 ](experience-settings-targeting.md) 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
+   키-값 쌍의 키에 대한 기본값이 **[!UICONTROL Data Pass]**&#x200B;경험 설정[!UICONTROL Advanced]의 [&#x200B; 섹션에 있는 &#x200B;](experience-settings-targeting.md) 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
 
    * 재타겟팅 픽셀 타겟의 경우 **[!UICONTROL RT Pixel]**&#x200B;을(를) 선택하고 사용할 단일 재타겟팅 픽셀과 크리에이티브를 표시하는 데 필요한 픽셀 특성 값을 선택한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 

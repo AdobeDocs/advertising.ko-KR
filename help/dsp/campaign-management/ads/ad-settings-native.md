@@ -32,7 +32,7 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page]:** 뷰어가 광고를 클릭할 때 들어오는 URL입니다.
 
-**[!UICONTROL Final Landing Page]:** 필요한 [!UICONTROL Landing Page]Advertising DSP 추적 매크로[가 삽입된 ](/help/dsp/campaign-management/macros.md) URL입니다(해당하는 경우).
+**[!UICONTROL Final Landing Page]:** 필요한 [!UICONTROL Landing Page]Advertising DSP 추적 매크로[가 삽입된 &#x200B;](/help/dsp/campaign-management/macros.md) URL입니다(해당하는 경우).
 
 **[!UICONTROL Sponsored By (Advertiser Name)]:** 광고주입니다.
 

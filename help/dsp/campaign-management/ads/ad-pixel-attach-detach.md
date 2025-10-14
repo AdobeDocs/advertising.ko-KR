@@ -65,7 +65,7 @@ ht-degree: 0%
 
    1. 오른쪽 하단에서 **[!UICONTROL Attach]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 ![ 왼쪽에 있는 ](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")폴더로 돌아가기[!UICONTROL Ad Tools]를 클릭하고 캠페인 이름을 선택합니다.
+1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 ![&#x200B; 왼쪽에 있는 &#x200B;](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")폴더로 돌아가기[!UICONTROL Ad Tools]를 클릭하고 캠페인 이름을 선택합니다.
 
 ## 배치의 광고에서 서드파티 추적 픽셀 분리 {#detach-pixels-ads}
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    1. 오른쪽 하단에서 **[!UICONTROL Detach]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 ![ 왼쪽에 있는 ](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")폴더로 돌아가기[!UICONTROL Ad Tools]를 클릭하고 캠페인 이름을 선택합니다.
+1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 ![&#x200B; 왼쪽에 있는 &#x200B;](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")폴더로 돌아가기[!UICONTROL Ad Tools]를 클릭하고 캠페인 이름을 선택합니다.
 
 ## 광고에 첨부된 픽셀 보기 {#view-pixels-ads}
 

@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios] 보기
 
-[!UICONTROL Portfolios] 보기는 사용자 지정 가능한 성능 데이터와 함께 기존 포트폴리오를 나열합니다. [보기 내의 열을 사용자 지정하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) 도구 모음[ 또는 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)열 제목[에서 특정 포트폴리오 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)을(를) 포함하도록 데이터를 필터링할 수 있습니다.
+[!UICONTROL Portfolios] 보기는 사용자 지정 가능한 성능 데이터와 함께 기존 포트폴리오를 나열합니다. [보기 내의 열을 사용자 지정하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) 도구 모음[&#x200B; 또는 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)열 제목[에서 특정 포트폴리오 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)을(를) 포함하도록 데이터를 필터링할 수 있습니다.
 
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
 

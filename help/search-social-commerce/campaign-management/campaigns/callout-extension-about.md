@@ -33,4 +33,4 @@ Search, Social 및 Commerce은 광고 확장에 대한 클릭 수와 그 결과 
 >[!MORELIKETHIS]
 >
 >* [콜아웃 확장 관리 [!DNL Google Ads] 콜아웃 확장](callout-extension-manage.md)
->* [캠페인 또는 광고 그룹과 공유 콜아웃 확장 연결 [!DNL Google Ads] ](callout-extension-associate.md)
+>* [캠페인 또는 광고 그룹과 공유 콜아웃 확장 연결 [!DNL Google Ads] &#x200B;](callout-extension-associate.md)

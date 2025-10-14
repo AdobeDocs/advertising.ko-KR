@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
 
-성공 이벤트 지표를 사용하여 브랜드 목표에 가장 적합한 DSP 사이트 데이터를 기반으로 Commerce 패키지 및 검색, 소셜 및 Adobe Analytics 캠페인을 최적화할 수 있습니다. [[!DNL Analytics] [!DNL eVars] 및 ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ko) 수준 데이터를 이벤트에 통합하여 기존 [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html?lang=ko) 및 [!DNL eVar][!DNL prop]을(를) 기반으로 사용자 지정 성공 이벤트 지표를 구성할 수 있습니다. 표준, 사용자 지정 및 예약 전환 지표와 트래픽 지표를 포함한 다른 [!DNL Analytics] 지표는 DSP과 검색, 소셜 및 Commerce에서 자동으로 사용할 수 있습니다.
+성공 이벤트 지표를 사용하여 브랜드 목표에 가장 적합한 DSP 사이트 데이터를 기반으로 Commerce 패키지 및 검색, 소셜 및 Adobe Analytics 캠페인을 최적화할 수 있습니다. [[!DNL Analytics] [!DNL eVars] 및 &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ko) 수준 데이터를 이벤트에 통합하여 기존 [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html?lang=ko) 및 [!DNL eVar][!DNL prop]을(를) 기반으로 사용자 지정 성공 이벤트 지표를 구성할 수 있습니다. 표준, 사용자 지정 및 예약 전환 지표와 트래픽 지표를 포함한 다른 [!DNL Analytics] 지표는 DSP과 검색, 소셜 및 Commerce에서 자동으로 사용할 수 있습니다.
 
 ![사용 예](/help/integrations/assets/a4adc-conversion-evar-example.jpg "사용 예")
 

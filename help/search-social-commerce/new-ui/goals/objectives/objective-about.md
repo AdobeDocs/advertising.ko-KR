@@ -51,7 +51,7 @@ ht-degree: 0%
 
 * [!DNL Google] 지표:<!-- Search only, or might DSP-only clients also have these? -->
 
-   * 동기화된 [[!DNL Google Ads] 계정에서 ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) 추적된 전환[!DNL Google Ads]입니다.
+   * 동기화된 [[!DNL Google Ads] 계정에서 &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) 추적된 전환[!DNL Google Ads]입니다.
 
    * ([[!DNL Google Analytics] 통합](/help/search-social-commerce/admin/data-sources/data-source-about.md)을 사용하는 광고주) 페이지 보기 수, 세션, 바운스 비율(바운스/세션으로 계산됨) 및 세션 기간입니다.
 

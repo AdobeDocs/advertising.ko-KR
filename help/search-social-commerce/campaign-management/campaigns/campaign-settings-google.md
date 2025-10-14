@@ -261,7 +261,7 @@ ht-degree: 0%
 
 **[!UICONTROL Final URL]:** 자산 그룹에서 만든 모든 광고의 최종 URL입니다. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** 다음 크기를 포함하여 광고용 이미지를 최대 15개까지 포함합니다. 1) 정사각형 이미지 3개 이상, 가로 이미지 3개 이상, 세로 이미지 1개 이상. [[!DNL Google Ads] 이미지 사양](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)을 참조하세요. 이미지를 업로드하거나 [!UICONTROL Asset Library]에서 선택할 수 있지만 둘 다 동일한 작업에서 선택할 수는 없습니다.
+**[!UICONTROL Images]:** 다음 크기를 포함하여 광고용 이미지를 최대 15개까지 포함합니다. 1) 정사각형 이미지 3개 이상, 가로 이미지 3개 이상, 세로 이미지 1개 이상. [[!DNL Google Ads] 이미지 사양](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)을 참조하세요. 이미지를 업로드하거나 [!UICONTROL Asset Library]에서 선택할 수 있지만 둘 다 동일한 작업에서 선택할 수는 없습니다.
 
 * 이미지를 업로드하려면:
 
@@ -283,7 +283,7 @@ ht-degree: 0%
 
 * [!UICONTROL Asset Library]에서 이미지를 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 이미지를 선택하십시오.
 
-**[!UICONTROL Logos]:** 하나 이상의 사각형(1:1) 로고와 가로(4:1) 로고. 각 크기의 최대 5개를 포함할 수 있습니다. [[!DNL Google Ads] 로고 사양](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)을 참조하세요. 이미지를 업로드하거나 [!UICONTROL Asset Library]에서 선택할 수 있지만 둘 다 동일한 작업에서 선택할 수는 없습니다.
+**[!UICONTROL Logos]:** 하나 이상의 사각형(1:1) 로고와 가로(4:1) 로고. 각 크기의 최대 5개를 포함할 수 있습니다. [[!DNL Google Ads] 로고 사양](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)을 참조하세요. 이미지를 업로드하거나 [!UICONTROL Asset Library]에서 선택할 수 있지만 둘 다 동일한 작업에서 선택할 수는 없습니다.
 
 * 이미지를 업로드하려면:
 

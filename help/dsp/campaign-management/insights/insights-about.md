@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭의 모든 시각화를 PDF 파일로 내보내거나 특정 insight의 데이터를 다운로드할 수 있습니다.
 
-[날짜 범위를 변경하고, 보기를 구성하고, 사용자 지정 보기를 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} 캠페인 관리 보기와 같이 저장할 수도 있습니다.
+[날짜 범위를 변경하고, 보기를 구성하고, 사용자 지정 보기를 &#x200B;](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} 캠페인 관리 보기와 같이 저장할 수도 있습니다.
 
 ## Insights 유형
 

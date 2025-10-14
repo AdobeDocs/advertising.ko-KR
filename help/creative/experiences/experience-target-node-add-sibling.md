@@ -73,7 +73,7 @@ In an existing experience,
 
    * 데이터 전달 대상의 경우 선택적으로 데이터 전달 키를 사용자 지정하고 단일 데이터 전달 값을 입력한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-     키-값 쌍의 키에 대한 기본값이 **[!UICONTROL Data Pass]**&#x200B;경험 설정[!UICONTROL Advanced]의 [ 섹션에 있는 ](experience-settings-targeting.md) 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
+     키-값 쌍의 키에 대한 기본값이 **[!UICONTROL Data Pass]**&#x200B;경험 설정[!UICONTROL Advanced]의 [&#x200B; 섹션에 있는 &#x200B;](experience-settings-targeting.md) 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
 
    * 픽셀 대상을 재타겟팅하려면 사용할 재타겟팅 픽셀과 크리에이티브를 표시하기 위해 존재해야 하는 픽셀 속성에 대한 필수 값을 선택합니다. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 

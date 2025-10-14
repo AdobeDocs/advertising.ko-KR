@@ -191,7 +191,7 @@ ht-degree: 0%
 
   [!UICONTROL Deals] 탭에서 키워드, 키, 거래 ID 또는 사용자 지정 태그로 목록을 검색할 수 있습니다. [!UICONTROL Deal Lists] 탭에서 거래 목록 이름 또는 거래 목록 ID별로 목록을 검색할 수 있습니다.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: [에서 구독한 모든 [!UICONTROL On Demand]premium, 보장되지 않는 ](/help/dsp/inventory/on-demand-inventory-about.md) 인벤토리[!UICONTROL On Demand]&#x200B;(또는 [!DNL Roku] 배치에 대해 [!DNL Roku]개의 [!DNL DSP] 거래). [!UICONTROL On Demand] 인벤토리를 포함 및 제외할 수 있습니다.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: [에서 구독한 모든 [!UICONTROL On Demand]premium, 보장되지 않는 &#x200B;](/help/dsp/inventory/on-demand-inventory-about.md) 인벤토리[!UICONTROL On Demand]&#x200B;(또는 [!DNL Roku] 배치에 대해 [!DNL Roku]개의 [!DNL DSP] 거래). [!UICONTROL On Demand] 인벤토리를 포함 및 제외할 수 있습니다.
 
   소스 또는 피드별로 목록을 볼 수 있습니다. 피드별로 목록을 볼 때 피드 이름, 피드 키 또는 선택한 게시자 영역, 범주 태그 또는 특성 태그별로 검색할 수 있습니다.
 
@@ -329,8 +329,8 @@ ht-degree: 0%
 
 **[!UICONTROL Included Audiences]:** [타사 세그먼트, 자사 세그먼트, Adobe 세그먼트, 사용자 지정 세그먼트 및 저장된 대상을 포함하여 배치에 대한 모든 대상 대상](/help/dsp/audiences/audience-settings.md). 선택한 모든 세그먼트 및 저장된 대상자 전체에 걸쳐 중복 제거된 총 활성 대상자 크기도 표시됩니다. 기존 대상을 선택하거나, 나중에 다시 사용할 수 있는 대상을 만들거나, 특정 대상 세그먼트를 선택할 수 있습니다.
 
-* 기존 대상을 선택하려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 대상을 선택하십시오.
-* 대상을 만들려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 **[!UICONTROL + Create Audience]**&#x200B;을(를) 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
+* 기존 대상을 선택하려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 대상을 선택하십시오.
+* 대상을 만들려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 **[!UICONTROL + Create Audience]**&#x200B;을(를) 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
 * 특정 대상 세그먼트를 선택하려면 **[!UICONTROL Select segments for this placement only]**&#x200B;을(를) 클릭하십시오. 세그먼트 논리를 선택합니다. 지침은 &quot;[재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)&quot;의 6단계를 참조하십시오. 완료되면 **저장**&#x200B;을 클릭하세요.
 
 >[!NOTE]
@@ -339,9 +339,9 @@ ht-degree: 0%
 
 **[!UICONTROL Excluded Audiences]:** [타사 세그먼트, 자사 세그먼트, Adobe 세그먼트, 사용자 지정 세그먼트 및 저장된 대상을 포함하여 배치에 대해 제외할 대상](/help/dsp/audiences/audience-settings.md)입니다. 제외된 모든 대상에 걸쳐 중복 제거된 총 활성 대상 크기도 표시됩니다. 기존 대상을 선택하거나 나중에 다시 사용할 수 있는 새 대상을 만들 수 있습니다.
 
-* 기존 대상을 선택하려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Excluded Audiences]을 클릭한 다음 대상을 선택하십시오.
+* 기존 대상을 선택하려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Excluded Audiences]을 클릭한 다음 대상을 선택하십시오.
 
-* 대상을 만들려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Excluded Audiences]을 클릭한 다음 **+ 대상 만들기**&#x200B;를 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
+* 대상을 만들려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Excluded Audiences]을 클릭한 다음 **+ 대상 만들기**&#x200B;를 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
 
 **[!UICONTROL Targeting]:** 타깃팅할 사용자 ID의 유형입니다. 배치가 라이브 상태가 된 후(즉, 비행이 시작된 후) 이 설정을 변경할 수 없습니다.
 
@@ -349,7 +349,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (기본값) 쿠키, 모바일 광고 ID 또는 연결된 TV(CTV) ID를 기준으로 사용자를 타깃팅합니다. ID는 브라우저, 인앱 또는 CTV 인벤토리를 기반으로 선택됩니다.
 
-* *[!UICONTROL Universal ID Beta]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[ 또는 ](/help/dsp/audiences/sources/source-about.md)범용 ID를 추적하는 사용자 지정 세그먼트[에 사용합니다.](/help/dsp/audiences/custom-segment-create.md)
+* *[!UICONTROL Universal ID Beta]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[&#x200B; 또는 &#x200B;](/help/dsp/audiences/sources/source-about.md)범용 ID를 추적하는 사용자 지정 세그먼트[에 사용합니다.](/help/dsp/audiences/custom-segment-create.md)
 
    * *[!UICONTROL ID5]*: 이메일 주소 및 기타 신호에서 [!DNL ID5] ID를 확률적으로 만들었습니다.<!-- What countries/geos are these available for? Everywhere?-->개의 ID5 ID를 무료로 사용할 수 있습니다. **참고:** [!DNL Eyeota]의 타사 세그먼트에는 ID5 ID가 포함될 수 있습니다.
 

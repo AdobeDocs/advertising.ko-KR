@@ -26,7 +26,7 @@ ht-degree: 0%
 
 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기에서 개별적으로 성과 최대 캠페인을 설정할 수 있습니다.
 
-1. [캠페인 유형 **[!UICONTROL Performance Max]**&#x200B;을(를) 사용하여 ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) 캠페인을 만듭니다.
+1. [캠페인 유형 **[!UICONTROL Performance Max]**&#x200B;을(를) 사용하여 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) 캠페인을 만듭니다.
 
    [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Campaign Targeting] 및 [!UICONTROL URL Options]을(를) 지정하십시오. 필요한 경우 [!UICONTROL Negative Keywords]을(를) 입력하고 [!UICONTROL Negative Websites]을(를) 입력하거나 [!UICONTROL Campaign Tracking] 옵션을 재정의합니다.
 

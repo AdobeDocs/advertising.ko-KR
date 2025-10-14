@@ -36,7 +36,7 @@ ht-degree: 0%
 
    * [!DNL Google] 태그를 사용하려면 &quot;[태그 [!DNL Google] 태그를 사용하는 리드에 대한 향상된 전환 설정](https://support.google.com/google-ads/answer/11347292)에서 &quot;[!DNL Google] 태그 설정 구성&quot;에 대한 [!DNL Google Ads] 지침을 참조하십시오.&quot;
 
-   * [!DNL Google Tag Manager]을(를) 사용하려면 &quot;[ [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11021502?#configure)의 잠재 고객에 대한 향상된 전환 설정&quot;에서 &quot;[!DNL Google] 태그 설정을 구성&quot;하고 &quot;설정을 확인하고 컨테이너를 게시&quot;하는 [!DNL Google Ads] 지침을 참조하십시오.&quot;
+   * [!DNL Google Tag Manager]을(를) 사용하려면 &quot;[&#x200B; [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11021502?#configure)의 잠재 고객에 대한 향상된 전환 설정&quot;에서 &quot;[!DNL Google] 태그 설정을 구성&quot;하고 &quot;설정을 확인하고 컨테이너를 게시&quot;하는 [!DNL Google Ads] 지침을 참조하십시오.&quot;
 
 1. **[!UICONTROL Done].** 클릭
 

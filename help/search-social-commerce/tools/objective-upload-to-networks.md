@@ -40,7 +40,7 @@ Search, Social 및 Commerce에서 광고주 계정의 포트폴리오의 목표�
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-1. (전환이 관리자 계정 수준에서 추적되는 경우) [ > ](/help/search-social-commerce/admin/manager-accounts.md) > **[!UICONTROL Search, Social, & Commerce]에서 [!UICONTROL Admin]관리자 계정에 대한 자격 증명을 추가[!UICONTROL Manager Accounts]**&#x200B;합니다.
+1. (전환이 관리자 계정 수준에서 추적되는 경우) [&#x200B; > &#x200B;](/help/search-social-commerce/admin/manager-accounts.md) > **[!UICONTROL Search, Social, & Commerce]에서 [!UICONTROL Admin]관리자 계정에 대한 자격 증명을 추가[!UICONTROL Manager Accounts]**&#x200B;합니다.
 
 1. 광고 네트워크에 이틀 안에 `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`(이)라는 각 목표가 표시되는지 확인하십시오.
 

@@ -24,9 +24,9 @@ Adobe Advertising은 다음 기준을 사용하여 웹 사이트에 대한 클�
 
 * 뷰스루 항목은 사용자가 광고를 보고 사이트를 방문하지만 클릭하지 않을 때 캡처됩니다. [!DNL Analytics]은(는) 다음 두 가지 조건이 충족되는 경우 뷰스루를 기록합니다.
 
-   * [!DNL DSP]전환 확인 기간[!DNL Search, Social, & Commerce] 동안 방문자에게 [ 또는 ](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 광고에 대한 클릭스루가 없습니다.
+   * [!DNL DSP]전환 확인 기간[!DNL Search, Social, & Commerce] 동안 방문자에게 [&#x200B; 또는 &#x200B;](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 광고에 대한 클릭스루가 없습니다.
 
-   * 방문자가 [!DNL DSP]노출 전환 확인 기간[ 동안 하나 이상의 ](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 광고를 보았습니다. 마지막 노출은 뷰스루로 전달됩니다.
+   * 방문자가 [!DNL DSP]노출 전환 확인 기간[&#x200B; 동안 하나 이상의 &#x200B;](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 광고를 보았습니다. 마지막 노출은 뷰스루로 전달됩니다.
 
 * 클릭스루 항목은 사이트 방문자가 사이트에 들어가기 전에 광고를 클릭할 때 캡처됩니다. 다음 조건 중 하나가 발생하면 [!DNL Analytics]에서 클릭스루를 캡처합니다.
 
@@ -48,7 +48,7 @@ EF ID는 Adobe Advertising이 활동을 개별 브라우저 또는 장치 수준
 
 [!DNL Analytics]의 경우 EF ID는 [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ko) 또는 [!DNL rVar]&#x200B;(예약된 [!DNL eVar]) 차원(Adobe Advertising EF ID)에 저장됩니다.
 
-Customer Journey Analytics의 경우 EF ID는 `trackingIdentities` `conversionDetails`[의 일부인 [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] 개체의 ](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) 속성에 저장됩니다.
+Customer Journey Analytics의 경우 EF ID는 `trackingIdentities` `conversionDetails`[의 일부인 [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] 개체의 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) 속성에 저장됩니다.
 
 ### EF ID 형식 {#ef-id-formats}
 
@@ -126,7 +126,7 @@ EF ID에는 Analysis Workspace의 500k 고유 식별자 제한이 적용됩니�
 
    * DSP 고객: [JavaScript 코드](javascript.md)는 자동으로 클릭스루 및 뷰스루를 기록합니다. 브라우저가 타사 쿠키를 지원하지 않는 경우에도 다음 광고 유형에 대한 클릭 기반 전환을 추적할 수 있습니다.
 
-      * [!DNL Flashtalking] 광고 태그의 경우 &quot;[추가 [!DNL Analytics for Advertising] 추가 [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)&quot;에 따라 추가 매크로를 수동으로 삽입하십시오. **참고:** 조직에서 [!DNL Flashtalking]과(와) 직접 파트너 관계를 맺고 데이터 전달 매크로를 사용하여 `s_kwcid`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros`ef_id`에 있는 [!DNL Flashtalking] 지원 설명서별로 [ 및 ](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) 추적 매개 변수를 추적하는 경우에는 이 절차가 필요하지 않습니다.
+      * [!DNL Flashtalking] 광고 태그의 경우 &quot;[추가 [!DNL Analytics for Advertising] 추가 [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)&quot;에 따라 추가 매크로를 수동으로 삽입하십시오. **참고:** 조직에서 [!DNL Flashtalking]과(와) 직접 파트너 관계를 맺고 데이터 전달 매크로를 사용하여 `s_kwcid`https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros`ef_id`에 있는 [!DNL Flashtalking] 지원 설명서별로 [&#x200B; 및 &#x200B;](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) 추적 매개 변수를 추적하는 경우에는 이 절차가 필요하지 않습니다.
 
       * [!DNL Google Campaign Manager 360] 광고 태그의 경우 &quot;[추가 [!DNL Analytics for Advertising] 추가 [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;에 따라 추가 매크로를 수동으로 삽입하십시오.
 
@@ -151,4 +151,4 @@ Analytics 보고서에서 [!UICONTROL AMO ID] 차원을 검색하고 [!UICONTROL
 >[!MORELIKETHIS]
 >
 >* [개요 [!DNL Analytics for Advertising]](overview.md)
->* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) ](data-variances.md)
+>* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) &#x200B;](data-variances.md)

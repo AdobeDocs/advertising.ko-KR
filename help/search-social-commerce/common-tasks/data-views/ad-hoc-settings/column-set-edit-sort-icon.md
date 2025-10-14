@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->보기의 열 머리글[에서 정렬 순서 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)을(를) 변경하지 않고 보기의 열을 일시적으로 변경할 수도 있습니다.
+>보기의 열 머리글[에서 정렬 순서 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)을(를) 변경하지 않고 보기의 열을 일시적으로 변경할 수도 있습니다.
 >
 >기본 보기를 편집하거나 [사용자 지정 보기를 만들기](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)하여 특정 광고주에 대해 포함된 열에 변경 내용을 저장할 수 있습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    * (열을 제거하려면) [!UICONTROL Selected Columns & Ordering] 목록에서 열 이름을 클릭한 다음 [!UICONTROL Available Columns] 목록으로 끌어 놓거나 ![제거](/help/search-social-commerce/assets/chevron-left.png "제거")를 클릭하여 이동합니다.
 
-   * (새 수익 열이 추가되고 표시되지 않는 경우 열 목록을 새로 고치려면) &quot;![&quot; 옆에 있는 ](/help/search-social-commerce/assets/refresh.png "새로 고침")새로 고침[!UICONTROL Available Columns]을 클릭합니다.
+   * (새 수익 열이 추가되고 표시되지 않는 경우 열 목록을 새로 고치려면) &quot;![&quot; 옆에 있는 &#x200B;](/help/search-social-commerce/assets/refresh.png "새로 고침")새로 고침[!UICONTROL Available Columns]을 클릭합니다.
 
 1. 정렬 옵션을 지정합니다.
 

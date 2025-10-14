@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta 기능*
 
-계정 인증 오류, 트리거된 사용자 지정 경고 및 생성된 [에 대한 ](notification-edit.md)알림을 구독[!UICONTROL Advertising Insights]할 때 [!UICONTROL Notifications] 패널 또는 [!UICONTROL Notification Center]에서 알림을 볼 수 있습니다.
+계정 인증 오류, 트리거된 사용자 지정 경고 및 생성된 [에 대한 &#x200B;](notification-edit.md)알림을 구독[!UICONTROL Advertising Insights]할 때 [!UICONTROL Notifications] 패널 또는 [!UICONTROL Notification Center]에서 알림을 볼 수 있습니다.
 
 ## [!UICONTROL Notifications] 패널 내에서 알림 보기
 
