@@ -3,9 +3,9 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ae7431218dcb547ded53d4bad1a79b894ee973fe
+source-git-commit: 00931d247b43f4ec26e79d56ac5138c10323a79f
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,11 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Vendor] | 광고가 표시된 운영 체제의 공급업체(예: [!UICONTROL Microsoft] 또는 [!UICONTROL Apple]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Version] | 광고가 표시된 운영 체제의 버전(예: [!UICONTROL Windows 10] 또는 [!UICONTROL iOS Mojave]) |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System] | 광고가 표시된 운영 체제(예: [!UICONTROL Apple iOS] 또는 [!UICONTROL Android]). |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal ID] | 외부 공급 파트너를 통해 거래에 할당된 고유 식별자. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | DSP에 입력된 거래에 대해 사용자가 할당한 이름. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Source] | 재고를 제공하는 공급측 파트너. 이는 일반적으로 게시자이지만 SSP일 수도 있습니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Name] | DSP에 입력된 거래에 대해 사용자가 할당한 이름. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Type] | 거래가 *[!UICONTROL Guaranteed]*&#x200B;인지 *[!UICONTROL Non-Guaranteed]*&#x200B;인지 여부. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Inventory Type] | 인벤토리 분류: *[!UICONTROL Private],* *[!UICONTROL On Demand],* 또는 *[!UICONTROL Public]*. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Private Deal ID] | 외부 공급 파트너를 통해 비공개 거래에 할당된 고유 식별자. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Publisher] | 재고를 제공하는 공급측 파트너. 이는 일반적으로 게시자이지만 SSP일 수도 있습니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL SSP] | 미디어가 속하는 SSP(공급측 파트너)입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Frequency] | [!UICONTROL Frequency] | 장치가 고유 쿠키 또는 장치 ID를 기반으로 한 광고를 받은 횟수입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | 보고된 데이터가 속하는 도시입니다. |
