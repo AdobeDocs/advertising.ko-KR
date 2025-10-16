@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 광고 그룹 설정'
 description: ' [!DNL Google Ads] 광고 그룹에 대한 설정을 참조합니다.'
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
+source-git-commit: 345c2af5363ca10412f3809700e281af5b06897f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ ht-degree: 0%
 >* 키워드로 입찰하면 키워드 수준에서 추적 템플릿을 만듭니다. 마찬가지로, 배치로 입찰하는 경우 배치 수준에서 추적 템플릿을 만듭니다. 다른 모든 차원에 대해 광고 수준에서 추적 템플릿을 만듭니다.
 >* 포트폴리오의 캠페인에 대해 연령, 성별, 관심사 및 목록 또는 세로로 입찰할 때 최적화 기능이 차원에 대한 입찰을 최적화하지 않습니다. 또한 모든 속성이 광고 그룹에 적용됩니다.
 >* 검색 네트워크의 광고는 항상 키워드 입찰을 사용합니다.
+
+**[!UICONTROL AI Max Search Term Matching]:**(검색 네트워크를 대상으로 하며 [AI 최대 기능](https://support.google.com/google-ads/answer/15910366) 및 캠페인 수준 검색어 일치 기능이 활성화된 캠페인입니다. 읽기 전용) 광고 그룹 수준 검색어 일치가 활성화되어 있는지 여부: *[!UICONTROL Disabled]* 또는 *[!UICONTROL Enabled]*.
 
 ## [!UICONTROL Budget Options]
 

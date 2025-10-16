@@ -3,9 +3,9 @@ title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: af7f2dbb2b53b6f61b848a75a081c402341df979
+source-git-commit: f5fa38460486a5eadce8c8e6334723f67e3814f5
 workflow-type: tm+mt
-source-wordcount: '3745'
+source-wordcount: '3806'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 | [!UICONTROL 7-Day Cost Accuracy] | ([!UICONTROL Portfolio Report]) 현재 날짜를 포함하지 않고(보고서의 지정된 날짜 범위가 아님) 이전 7일 동안의 비용 예측의 평균 정확도를 백분율로 표시합니다. |
 | [!UICONTROL 7-Day Revenue Accuracy] | ([!UICONTROL Portfolio Report]) 현재 일을 포함하지 않고(보고서의 지정된 날짜 범위가 아님) 이전 7일 동안의 수익 예측의 평균 정확도를 백분율로 표시합니다. |
 | [!UICONTROL Account] | 계정 이름. |
-| [!UICONTROL Account Status] | 검색, 소셜 및 Commerce 내 계정의 상태: <ul><li><i>[!UICONTROL Enabled]:</i>(기본값) 동기화된 광고 네트워크의 경우 검색, 소셜 및 Commerce은 광고 네트워크 계정에 로그인하여 캠페인 데이터를 검색할 수 있으며 최적화 및 추적 생성과 같은 기타 적용 가능한 기능이 활성화됩니다.<br><br>동기화되지 않은 광고 네트워크의 경우 최적화 및/또는 추적 생성과 같은 해당 기능을 사용할 수 있습니다.</li><li><i>[!UICONTROL Disabled]:</i> 동기화된 광고 네트워크의 경우 검색, 소셜 및 Commerce이 광고 네트워크 계정에 로그인하지 않으므로 캠페인 데이터를 검색하지 않으며 최적화 및 추적 생성과 같은 기타 적용 가능한 기능이 비활성화됩니다. 계정이 활성화된 동안 수집된 데이터는 여전히 저장되지만 나중에 만드는 모든 캠페인 관리 보기 및 모든 보고서에는 계정이 비활성화된 기간에 대한 데이터가 포함되지 않습니다.<br><br>동기화되지 않은 광고 네트워크의 경우 최적화 및/또는 추적 생성과 같은 해당 기능을 사용할 수 없습니다.</li></ul> |
+| [!UICONTROL Account Status] | 검색, 소셜 및 Commerce 내 계정의 상태: <ul><li><i>[!UICONTROL Enabled]:</i>(기본값) 동기화된 광고 네트워크의 경우 검색, 소셜 및 Commerce은 광고 네트워크 계정에 로그인하여 캠페인 데이터를 검색할 수 있으며 최적화 및 추적 생성과 같은 기타 적용 가능한 기능이 활성화됩니다.<br><br>동기화되지 않은 광고 네트워크의 경우 최적화 및/또는 추적 생성과 같은 해당 기능을 사용할 수 있습니다.</li><li><i>[!UICONTROL Disabled]:</i> 동기화된 광고 네트워크의 경우 검색, 소셜 및 Commerce이 광고 네트워크 계정에 로그인하지 않으므로 캠페인 데이터를 검색하지 않으며 최적화 및 추적 생성과 같은 기타 적용 가능한 기능이 비활성화됩니다. 계정이 활성화된 동안 수집된 데이터는 여전히 저장되지만 나중에 만드는 모든 캠페인 관리 보기 및 모든 보고서에는 계정이 비활성화된 기간에 대한 데이터가 포함되지 않습니다.<br><br>동기화되지 않은 광고 네트워크에서는 최적화 및/또는 추적 생성과 같은 해당 기능을 사용할 수 없습니다.</li></ul> |
 | [!UICONTROL Active Ad Groups] | 활성 광고 그룹 수입니다. |
 | [!UICONTROL Active Ads/Creatives] | 활성 광고/광고 크리에이티브 수. |
 | [!UICONTROL Active Campaigns] | 활성 캠페인 수. |
@@ -38,13 +38,16 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | 광고 차원. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] 반응형 검색 광고) 광고의 효과: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> 또는 <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising] 및 [!DNL Yahoo! Japan Ads] 캠페인) 광고가 모바일 장치에 표시될 때 입찰이 조정되는 방법을 결정하는 현재 광고 그룹 수준의 모바일 입찰 조정입니다. |
+| [!UICONTROL AI Max Bundling Required] | (검색 네트워크만 대상으로 하는 캠페인, AI Max 기능이 활성화된 캠페인, 읽기 전용) 번들링이 필요한지 여부: *[!UICONTROL NOT_REQUIRED]* 또는 null. |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max] 기능 ](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: *[!UICONTROL false]* 또는 null. |
+| [!UICONTROL AI Max Search Term Matching] | (검색 네트워크를 대상으로 하며 [AI 최대 기능](https://support.google.com/google-ads/answer/15910366) 및 캠페인 수준 검색어 일치 기능이 활성화된 캠페인입니다. 읽기 전용) 광고 그룹 수준 검색어 일치가 활성화되었는지 여부: *[!UICONTROL true]* 또는 null. |
 | [!UICONTROL Advertiser] | 광고주 이름. |
 | [!UICONTROL Advertiser ID] | 광고주의 검색, 소셜 및 Commerce 계정에 대한 숫자 ID입니다. |
 | [!UICONTROL Avg Position] | 지정된 날짜 범위 동안의 평균 광고 위치입니다.<br><br>[!DNL Google Ads] 및 [!DNL Yahoo! Japan Ads] 캠페인의 경우 이 데이터는 2019년 9월까지만 사용할 수 있습니다. [!DNL Microsoft Advertising]의 경우 이 데이터는 2021년 1월 22일까지만 사용할 수 있습니다. |
 | [!UICONTROL Base URL] | 캠페인이나 계정에 대해 구성된 추가 매개 변수를 포함한 키워드의 기본 URL입니다. 여기에는 검색, 소셜 및 Commerce 리디렉션 및 추적 코드가 포함되지 않습니다. |
 | [!UICONTROL Bid Strategy] | (대부분의 광고 네트워크) 캠페인 또는 캠페인 구성 요소의 경우 이것이 캠페인의 입찰 전략입니다. 관리자 계정에 연결된 광고 네트워크 계정의 경우 계정 간 입찰 전략입니다. 사용 가능한 값은 광고 네트워크에 따라 다릅니다. |
 | [!UICONTROL Business Name] | ([!DNL Microsoft Advertising]개의 반응형 광고) 비즈니스 이름입니다. |
-| [!UICONTROL Call to Action] | ([!DNL Microsoft Advertising] 반응형 및 멀티미디어 광고) 광고에 포함된 콜 투 액션입니다. |
+| [!UICONTROL Call to Action] | ([!DNL Microsoft Advertising] 반응형 및 멀티미디어 광고) 광고에 포함된 call to action. |
 | [!UICONTROL Campaign] | 캠페인. |
 | [!UICONTROL Campaign Budget] | 캠페인 예산. |
 | [!UICONTROL Campaign MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising] 및 [!DNL Yahoo! Japan Ads] 캠페인) 광고가 모바일 장치에 표시될 때 입찰이 조정되는 방법을 결정하는 현재 캠페인 수준의 모바일 입찰 조정입니다. |
@@ -54,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Type] | <i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Video)]</i>, <i>[!UICONTROL Brand Shopping]</i>, <i>[!UICONTROL Demand Gen]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Store Ad]</i>, <i>[!UICONTROL Video]</i> 또는 <i>[!UICONTROL Others]</i>과(와) 같은 캠페인 유형. |
 | [!UICONTROL Channel Type] | 마케팅 채널 유형: <i>[!UICONTROL Search]</i> 또는 <i>[!UICONTROL Content]</i>. 보고서 설정에서 보고서의 [!UICONTROL Search/Content] 설정이 &quot;[!UICONTROL Combined]&quot;인 경우 이 열은 포함되지 않습니다. |
 | [!UICONTROL City] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Transaction Report]) 클릭이 시작된 도시입니다. 사용자의 IP 주소에서 결정됩니다. |
-| [!UICONTROL Click Match Type] | 클릭한 광고에 대한 키워드 일치 유형입니다. 이는 일치 유형이 여러 개인 [!DNL Microsoft Advertising] 키워드를 제외하고 [!UICONTROL Listing Match Type]과(와) 동일합니다. [!DNL Microsoft Advertising] 키워드의 경우 실제로 클릭한 일치 유형입니다. |
+| [!UICONTROL Click Match Type] | 클릭한 광고에 대한 키워드 일치 유형입니다. 이는 일치 유형이 여러 개인 [!UICONTROL Listing Match Type] 키워드를 제외하고 [!DNL Microsoft Advertising]과(와) 동일합니다. [!DNL Microsoft Advertising] 키워드의 경우 실제로 클릭한 일치 유형입니다. |
 | [!UICONTROL Click Value] | ([!UICONTROL Portfolio Report]) 포트폴리오의 목표에 지정된 클릭 값입니다. |
 | [!UICONTROL Click/Impression Time] | ([!UICONTROL Transaction Report]) 전환의 원인이 된 클릭 또는 노출이 발생한 시간입니다. |
 | [!UICONTROL Clicks] | 지정된 날짜 범위 동안 광고를 클릭한 횟수입니다. |
@@ -77,18 +80,18 @@ ht-degree: 0%
 | [!UICONTROL Creative Base URL] | 캠페인이나 계정에 대해 구성된 추가 매개 변수를 포함한 광고의 기본 URL입니다. 여기에는 검색, 소셜 및 Commerce 리디렉션 및 추적 코드가 포함되지 않습니다. |
 | [!UICONTROL Creative Destination URL] | 광고의 최종 URL 또는 대상 URL(추적 매개 변수 포함)입니다. |
 | [!UICONTROL Creative Name] | ([!DNL Yahoo! Japan]만 해당) 광고 이미지 이름입니다. |
-| [!UICONTROL Creative Title], [!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | 광고의 제목 또는 헤드라인입니다. 각 크리에이티브 유형에는 필수 및 선택적 제목 줄 수가 다릅니다. 반응형 광고 또는 멀티미디어 광고 [!DNL Microsoft Advertising]에서 [!UICONTROL Creative Title4] 이상의 열을 보려면 보고서 설정에 &quot;[!UICONTROL Creative Titles]&quot; 열을 포함하십시오. |
-| [!UICONTROL Creative Titles] | (멀티미디어 및 반응형 검색 광고만 해당) 각 광고의 짧은 헤드라인(&quot;[!UICONTROL Creative Title]&quot; ~ &quot;[!UICONTROL Creative Title15]&quot;)에 대해 열을 추가합니다. 이 열을 포함할 때 다른 [!UICONTROL Creative Title]개의 열은 포함할 필요가 없지만 [!UICONTROL Order Results/Limit Rows By] 섹션을 편집하여 [!UICONTROL Creative Title] 대신 [!UICONTROL Creative Titles]을(를) 기준으로 정렬합니다. |
+| [!UICONTROL Creative Title], [!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | 광고의 제목 또는 헤드라인입니다. 각 크리에이티브 유형에는 필수 및 선택적 제목 줄 수가 다릅니다. 반응형 광고 또는 멀티미디어 광고 [!UICONTROL Creative Title4]에서 [!DNL Microsoft Advertising] 이상의 열을 보려면 보고서 설정에 &quot;[!UICONTROL Creative Titles]&quot; 열을 포함하십시오. |
+| [!UICONTROL Creative Titles] | (멀티미디어 및 반응형 검색 광고만 해당) 각 광고의 짧은 헤드라인(&quot;[!UICONTROL Creative Title]&quot; ~ &quot;[!UICONTROL Creative Title15]&quot;)에 대해 열을 추가합니다. 이 열을 포함할 때 다른 [!UICONTROL Creative Title]개의 열은 포함할 필요가 없지만 [!UICONTROL Order Results/Limit Rows By] 섹션을 편집하여 [!UICONTROL Creative Titles] 대신 [!UICONTROL Creative Title]을(를) 기준으로 정렬합니다. |
 | [!UICONTROL Creative Type] | 광고 포맷. 가능한 값은 <i>[!UICONTROL App Install Ad]</i>, <i>[!UICONTROL Call Only Ad]</i>, <i>[!UICONTROL Demand Gen Carousel Ad]</i>(다중 이미지 회전 광고), <i>[!UICONTROL Demand Gen Image Ad (single-image ads)]</i>, <i>[!UICONTROL Demand Gen Product Ad]</i>, <i>[!UICONTROL Demand Gen Video Ad]</i>, <i>[!UICONTROL Display Ad]</i>, <i>[!UICONTROL Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Text Ad]</i>, <i>[!UICONTROL Legacy Text Ad]</i>, <i>[!UICONTROL Multimedia Ad]</i>, <i>[!UICONTROL Product Ad]</i>, <i>[!UICONTROL Responsive Ad]</i>, <i>[!UICONTROL Responsive Search Ad]</i> 또는 <i>[!UICONTROL Text Ad]</i>입니다. |
 | [!UICONTROL CTR] | 클릭스루 비율(클릭 수를 포함된 광고에 대한 노출 횟수로 나눈 값) |
 | [!UICONTROL Currency] | 해당 통화 유형(예: &quot;USD&quot; 또는 &quot;GBP&quot;).<br><br><b>참고:</b> 보고서에 통화가 다른 계정에 대한 데이터가 포함된 경우 &quot;[!UICONTROL Total]&quot; 통화 값은 통화에 관계없이 열에 있는 모든 숫자의 합계입니다. |
 | [!UICONTROL Current Bid] | 대상의 현재 입찰입니다. |
 | [!UICONTROL Current First Page Bid] | ([!DNL Google Ads] 캠페인만 해당) [!DNL Google] 검색 쿼리가 키워드와 일치할 때 광고를 검색 결과의 첫 페이지에 배치하는 데 현재 필요한 예상 클릭당 비용(CPC) 입찰입니다.<br><br>단일 키워드 및 일치 유형 조합의 경우 이 값은 현재 해당 조합에 필요한 첫 번째 페이지 입찰입니다. 동일한 키워드 및 일치 유형 조합이 여러 캠페인에서 사용되는 경우 이 값은 모든 인스턴스에서 현재 필요한 최소 첫 페이지 입찰가입니다. |
-| [!UICONTROL Current Quality Score] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인만 해당) 광고 네트워크에서 지정한 키워드 또는 입찰 단위의 현재 품질 점수입니다. 범위는 1(낮음)부터 10(완벽)까지입니다. 단일 키워드 및 일치 유형 조합의 경우 이 값은 해당 조합의 현재 점수입니다. 여러 캠페인에서 동일한 키워드 및 일치 유형 조합을 사용하는 경우 이 값은 모든 인스턴스 중 최대 현재 점수입니다.<br><br>광고 네트워크에서 품질 점수를 사용하여 입찰 가격 및 광고 위치를 결정합니다. 관련 광고 및 사용자의 검색 쿼리와 랜딩 페이지의 품질 관련 등 여러 요인에 따라 계산됩니다. [!DNL Google Ads]의 키워드의 경우 키워드의 클릭스루 비율도 고려되며 [!DNL Microsoft Advertising]의 키워드의 경우 랜딩 페이지에서 제공하는 사용자 경험도 고려됩니다. |
+| [!UICONTROL Current Quality Score] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인만 해당) 광고 네트워크에서 지정한 키워드 또는 입찰 단위의 현재 품질 점수입니다. 범위는 1(낮음)부터 10(완벽)까지입니다. 단일 키워드 및 일치 유형 조합의 경우 이 값은 해당 조합의 현재 점수입니다. 여러 캠페인에서 동일한 키워드 및 일치 유형 조합을 사용하는 경우 이 값은 모든 인스턴스 중 최대 현재 점수입니다.<br><br>광고 네트워크에서 품질 점수를 사용하여 입찰 가격 및 광고 위치를 결정합니다. 관련 광고 및 사용자의 검색 쿼리와 랜딩 페이지의 품질을 포함한 많은 요소에 따라 계산됩니다. [!DNL Google Ads]의 키워드의 경우 키워드의 클릭스루 비율도 고려되며 [!DNL Microsoft Advertising]의 키워드의 경우 랜딩 페이지에서 제공하는 사용자 경험도 고려됩니다. |
 | [!UICONTROL Custom Bid Level] | (디스플레이 네트워크만 대상으로 하는 Google 캠페인) <i>[!UICONTROL Ad Group]</i>, <i>[!UICONTROL Age]</i>, <i>[!UICONTROL Gender]</i>, <i>[!UICONTROL Interest and List]</i>, <i>[!UICONTROL Keyword]</i>, <i>[!UICONTROL Placement]</i>, <i>[!UICONTROL Vertical]</i>, <i>[!UICONTROL None]</i> 또는 <i>[!UICONTROL Unknown]</i>까지 입찰이 이루어지는 수준입니다. |
-| [!UICONTROL Description1] - [!UICONTROL Description4] | 광고 본문. 크리에이티브 유형마다 필수 및 선택적 설명 라인의 숫자가 다릅니다. [!DNL Microsoft Advertising]개의 반응형 광고 또는 멀티미디어 광고에서 [!UICONTROL Description3] 및 [!UICONTROL Description4] 열을 보려면 보고서 설정에 &quot;[!UICONTROL Descriptions]&quot; 열을 포함하십시오. |
+| [!UICONTROL Description1] - [!UICONTROL Description4] | 광고 본문. 크리에이티브 유형마다 필수 및 선택적 설명 라인의 숫자가 다릅니다. [!UICONTROL Description3]개의 반응형 광고 또는 멀티미디어 광고에서 [!UICONTROL Description4] 및 [!DNL Microsoft Advertising] 열을 보려면 보고서 설정에 &quot;[!UICONTROL Descriptions]&quot; 열을 포함하십시오. |
 | [!UICONTROL Descriptions] | ([!DNL Microsoft Advertising] 반응형 및 멀티미디어 광고) 각 광고의 설명 행(&quot;[!UICONTROL Description1]&quot; ~ &quot;[!UICONTROL Description4]&quot;)에 대해 열을 추가합니다. 이 열을 포함할 때 다른 [!UICONTROL Description]개의 열은 포함할 필요가 없습니다. |
-| [!UICONTROL Device] | ([!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads] 및 [!DNL Yahoo Native] 캠페인) 광고가 표시된 장치 유형: <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Mobile]</i>, <i>[!UICONTROL Tablets]</i>, <i>[!UICONTROL Other]</i> 또는 <i>[!UICONTROL N/A]</i>(값 없음). 다른 광고 네트워크의 행에는 N/A 값이 있습니다.<br><br>검색 캠페인에서 키워드, 광고 및/또는 광고 확장에 대한 추적 템플릿 또는 대상 URL에 광고를 클릭할 때 장치(`&ev_dvc={device}&ev_dvm={devicemodel}`)별로 데이터를 추적하기 위한 매개 변수가 포함된 경우 각 장치 유형의 행에도 전환 데이터가 포함됩니다. 그렇지 않으면 전환 데이터가 디바이스 유형에 귀속될 수 없는 경우 &quot;[!UICONTROL Device]&quot; 값이 [!UICONTROL N/A]인 별도의 행에 집계됩니다. |
+| [!UICONTROL Device] | ([!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads] 및 [!DNL Yahoo Native] 캠페인) 광고가 표시된 장치 유형: <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Mobile]</i>, <i>[!UICONTROL Tablets]</i>, <i>[!UICONTROL Other]</i> 또는 <i>[!UICONTROL N/A]</i>(값 없음). 다른 광고 네트워크의 행에는 N/A 값이 있습니다.<br><br>검색 캠페인에서 키워드, 광고 및/또는 광고 확장에 대한 추적 템플릿 또는 대상 URL에 광고를 클릭할 때 장치(`&ev_dvc={device}&ev_dvm={devicemodel}`)별로 데이터를 추적하기 위한 매개 변수가 포함된 경우 각 장치 유형의 행에도 전환 데이터가 포함됩니다. 그렇지 않으면 전환 데이터가 장치 유형에 귀속될 수 없는 경우 &quot;[!UICONTROL Device]&quot; 값이 [!UICONTROL N/A]인 별도의 행에서 집계됩니다. |
 | [!UICONTROL Display Path 1] | ([!DNL Google Ads] 확장 텍스트 광고만 해당) 광고의 기본 URL 뒤에 있는 첫 번째 표시 경로입니다. |
 | [!UICONTROL Display Path 2] | ([!DNL Google Ads] 확장 텍스트 광고만 해당) 광고의 기본 URL 뒤에 있는 두 번째 표시 경로입니다. |
 | [!UICONTROL Display Type] | 사용되지 않음 |
@@ -100,7 +103,7 @@ ht-degree: 0%
 | [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Adobe Advertising 전환 추적 서비스 및 토큰이 있는 &quot;[!UICONTROL EF Redirect]&quot; 추적 메서드를 사용하는 광고주) 클릭 또는 전환에 대한 토큰입니다.<ul><li>[!DNL Google Ads] 검색 광고의 경우 EF ID는 `{gclid}:G:s`이며, 여기에는 Google 클릭 ID(GCLID)와 네트워크 유형(검색의 경우 &quot;s&quot;)이 포함됩니다.</li><li> [!DNL Microsoft Advertising] 검색 광고의 경우 EF ID는 `{msclkid}:G:s`이며, 여기에는 Microsoft 클릭 ID(MSCLKID)와 네트워크 유형(&quot;s&quot; for search)이 포함됩니다.</li><li>다른 광고 네트워크의 검색 광고의 경우 EF ID에는 서퍼 ID, 클릭 시간 및 네트워크 유형이 포함됩니다.</li><li>디스플레이 광고의 경우 EF ID에는 서퍼 ID, 클릭 또는 노출 시간 및 네트워크 유형이 포함됩니다.</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]; Search, Social 및 Commerce의 경우 만 사용) 데이터를 정규화하는 데 사용되는 지리적 위치에 대한 내부 ID입니다. |
 | [!UICONTROL EF Portfolio Group ID] | 포트폴리오가 속한 포트폴리오 그룹의 숫자 ID입니다. |
-| [!UICONTROL EF Search Engine ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. [!DNL Google Ads]의 <i>[!UICONTROL 3]</i>, [!DNL Microsoft Advertising]의 <i>[!UICONTROL 10]</i>, [!DNL Meta]의 <i>[!UICONTROL 45]</i>, [!DNL Yahoo! Display Network]의 <i>[!UICONTROL 86]</i>, [!DNL Naver]의 <i>[!UICONTROL 87]</i>, [!DNL Baidu]의 <i>[!UICONTROL 88]</i>, [!DNL Yandex]의 <i>[!UICONTROL 90]</i>, [!DNL Yahoo! Japan Ads]의 <i>[!UICONTROL 94]</i>, [!DNL Yahoo Native]의 <i>[!UICONTROL 105]</i>(더 이상 사용되지 않음) 또는 [!DNL Pinterest]의 <i>[!UICONTROL 106]</i>(더 이상 사용되지 않음). |
+| [!UICONTROL EF Search Engine ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. <i>[!UICONTROL 3]</i>의 [!DNL Google Ads], <i>[!UICONTROL 10]</i>의 [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i>의 [!DNL Meta], <i>[!UICONTROL 86]</i>의 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i>의 [!DNL Naver], <i>[!UICONTROL 88]</i>의 [!DNL Baidu], <i>[!UICONTROL 90]</i>의 [!DNL Yandex], <i>[!UICONTROL 94]</i>의 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i>의 [!DNL Yahoo Native]&#x200B;(더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i>의 [!DNL Pinterest]&#x200B;(더 이상 사용되지 않음). |
 | [!UICONTROL End Date] | 마지막으로 보고된 날짜입니다. |
 | [!UICONTROL Engagement Rate] | (비디오 광고) 참여 수를 광고가 표시된 횟수로 나눈 값입니다. |
 | [!UICONTROL Engagements] | (비디오 광고) 사용자가 광고를 10초 이상 시청한 횟수나, 10초 미만인 경우 전체 광고입니다. |
@@ -116,18 +119,18 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | 지정된 날짜 범위 동안의 광고 노출 횟수입니다. |
 | [!UICONTROL Interaction Rate] | (비디오 광고) 상호 작용 수를 광고(비디오 및 썸네일 노출) 표시 횟수로 나눈 값입니다. |
 | [!UICONTROL Interactions] | (비디오 광고) 사람들이 광고를 시청한 횟수입니다. |
-| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) 포트폴리오에 입찰 전략이 [!UICONTROL Maximize Clicks]인 캠페인이 포함된 경우 <i>true</i>이고, 그렇지 않은 경우 <i>false</i>입니다. |
+| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) 포트폴리오에 입찰 전략이 <i>인 캠페인이 포함된 경우 </i>true[!UICONTROL Maximize Clicks]이고, 그렇지 않은 경우 <i>false</i>입니다. |
 | [!UICONTROL Keyword] | 키워드.<br><br><b>참고:</b> 보고서에 콘텐츠 사용 검색 캠페인의 광고 그룹 데이터가 포함된 경우 이 열에는 &quot;(광고 그룹 콘텐츠) 광고 그룹 이름&quot;과 같은 해당 광고 그룹 이름이 포함됩니다. 검색 캠페인의 사이트 타겟팅 배치의 경우 이 열에는 값이 없습니다. |
 | [!UICONTROL Keyword ID] | 기존 키워드를 식별하는 고유 ID입니다. |
 | [!UICONTROL Keyword Status] | 검색어와 일치하는 키워드의 상태: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i> 또는 <i>[!UICONTROL Disapproved]</i>. |
 | [!UICONTROL Label Classification] | ([!UICONTROL Label Classification Report] 및 [!UICONTROL Label Value Report]) 레이블 분류입니다. |
 | [!UICONTROL Label Value] | ([!UICONTROL Label Classification Report] 및 [!UICONTROL Label Value Report]) 레이블 분류의 값입니다. |
 | [!UICONTROL Language] | (캠페인 표시) 타겟 대상 언어입니다. |
-| [!UICONTROL Link Type] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인만 해당. 보고서에 지정된 속성 규칙이 &quot;마지막 이벤트&quot;인 경우에만 데이터를 사용할 수 있음) 행에서 광고 확장(광고 자체 대신) 또는 제품/쇼핑 광고를 클릭했을 때 전환을 보고하는 경우 이 열에는 클릭한 링크의 유형과 제목이 표시됩니다.<ul><li>`pla:*` - 제품 광고가 `pla:<product ID>`(으)로 나열됩니다(예: &quot;pla:8525822&quot;).</li><li>`sl:*` — 사이트 링크는 &quot;sl:See Current Offers&quot;와 같이 `sl:<Sitelink text>`(으)로 나열됩니다.</li></ul> |
+| [!UICONTROL Link Type] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인만 해당. 보고서에 지정된 속성 규칙이 &quot;마지막 이벤트&quot;인 경우에만 데이터를 사용할 수 있음) 행에서 광고 확장(광고 자체 대신) 또는 제품/쇼핑 광고를 클릭했을 때 전환을 보고하는 경우 이 열에는 클릭한 링크의 유형과 제목이 표시됩니다.<ul><li>`pla:*` — 제품 광고가 `pla:<product ID>`(예: &quot;pla:8525822&quot;)로 나열됩니다.</li><li>`sl:*` — 사이트 링크는 &quot;sl`sl:<Sitelink text>` 현재 오퍼&quot;와 같이 :See(으)로 나열됩니다.</li></ul> |
 | [!UICONTROL Listing Match Type] | 광고 목록에 대한 키워드 일치 유형, 콘텐츠 타겟팅 캠페인에 있는 광고의 경우 <i>[!UICONTROL Content]</i>, 사이트 타겟팅 캠페인에 있는 배치의 경우 <i>[!UICONTROL Sitecpc]</i>. [!DNL Microsoft Advertising] 키워드의 경우 여러 일치 유형(예: &quot;[!UICONTROL Broad],[!UICONTROL Exact]&quot;)이 포함될 수 있습니다. |
 | [!UICONTROL Location] | (캠페인 표시) 타겟 대상자 위치입니다. |
 | [!UICONTROL Long Creative Title1] - [!UICONTROL Long Creative Title5] | (반응형 및 멀티미디어 광고 [!DNL Microsoft Advertising]에 대해 완료된 보고서 행에서) 광고의 긴 헤드라인입니다. 이 열을 보려면 보고서 설정에 &quot;[!UICONTROL Long Creative Titles]&quot; 열을 포함하십시오. |
-| [!UICONTROL Long Creative Titles] | (반응형 및 멀티미디어 광고 [!DNL Microsoft Advertising]개) 각 광고의 긴 제목(&quot;[!UICONTROL Long Creative Title1]&quot;에서 &quot;[!UICONTROL Long Creative Title5]&quot;)에 대해 열을 추가합니다. |
+| [!UICONTROL Long Creative Titles] | (반응형 및 멀티미디어 광고 [!DNL Microsoft Advertising]개) 각 광고의 긴 제목(&quot;[!UICONTROL Long Creative Title1]&quot; ~ &quot;[!UICONTROL Long Creative Title5]&quot;)에 대해 열을 추가합니다. |
 | [!UICONTROL Market Type] | 시장 유형: <i>[!UICONTROL search]</i> 또는 <i>[!UICONTROL social]</i> |
 | [!UICONTROL Max Spend % Target] | ([!UICONTROL ROI], [!UICONTROL CPT] 또는 [!UICONTROL Marginal Cost per Transaction] 지출 전략이 있는 포트폴리오의 캠페인) 포트폴리오의 최대 일일 예산 목표입니다. |
 | [!UICONTROL Max Spend (%)] | ([!UICONTROL Network Constraint Report]) 광고 네트워크에 대해 구성된 포트폴리오의 최대 지출 비율입니다. 제약 조건 유형 &quot;[!UICONTROL Min-Max]&quot;을(를) 사용하는 포트폴리오의 경우 [!UICONTROL Max %] 값입니다. 제약 조건 유형 &quot;[!UICONTROL Target Spend]&quot;을(를) 사용하는 포트폴리오의 경우 [!UICONTROL Target Spend] 값입니다. |
@@ -164,10 +167,10 @@ ht-degree: 0%
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) 노출 또는 클릭이 시작된 지역 또는 미국/캐나다 주입니다. 사용자의 IP 주소에서 결정됩니다. |
 | [!UICONTROL SE Creative ID] | 네트워크에서 할당한 광고 ID입니다. |
 | [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 절대 최상위 위치(유기 검색 결과 위의 첫 번째 광고)에서 받은 노출 횟수를 최상위 위치에서 받을 수 있는 예상 노출 횟수로 나눈 값입니다. 10% 미만의 백분율은 &quot;`<10%`&quot; 또는 &quot;`0.0999`&quot;(으)로 표시됩니다. |
-| [!UICONTROL Search (Top) IS] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 상위 위치(유기 검색 결과 위)에서 받은 노출 횟수를 상위 위치에서 받을 수 있는 예상 노출 횟수로 나눕니다. 10% 미만의 백분율은 &quot;`<10%`&quot; 또는 &quot;`0.0999`&quot;(으)로 표시됩니다. |
+| [!UICONTROL Search (Top) IS] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 상위 위치(유기 검색 결과 위)에서 받은 노출 횟수를 상위 위치에서 받을 수 있는 예상 노출 횟수로 나눈 값입니다. 10% 미만의 백분율은 &quot;`<10%`&quot; 또는 &quot;`0.0999`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Search Engine] | 광고 네트워크입니다. |
 | [!UICONTROL Search exact match IS] | 키워드와 정확히 일치하는 검색에 대해 받은 노출 수를 수신 자격이 있는 예상 정확한 일치 노출 수로 나눈 값입니다. 이 수치가 낮으면 입찰가가 너무 낮거나 광고 품질이나 관련성이 낮기 때문일 수 있습니다. |
-| [!UICONTROL Search impr. share] | ([!DNL Google Ads]만 해당) 받은 노출 횟수를 받을 수 있는 예상 노출 횟수로 나눕니다. 10% 미만의 백분율은 &quot;&lt;10%&quot;로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;으로 표시됩니다. |
+| [!UICONTROL Search impr. share] | ([!DNL Google Ads]만 해당) 받은 노출 횟수를 받을 수 있는 예상 노출 횟수로 나눈 값입니다. 10% 미만의 백분율은 &quot;&lt;10%&quot;로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;으로 표시됩니다. |
 | [!UICONTROL Search lost abs. top IS (budget)] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 일별 또는 월별 예산이 너무 낮아서 광고가 유기 검색 결과보다 첫 번째 광고가 아닌 시간의 비율입니다. Google 광고 캠페인의 경우 90% 이상의 백분율이 &quot;`>90%`&quot; 또는 &quot;`0.9001`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Search lost abs. top IS (rank)] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 광고 순위가 낮아 광고가 유기 검색 결과보다 첫 번째 광고가 아닌 시간의 백분율입니다. Google 광고 캠페인의 경우 90% 이상의 백분율이 &quot;`>90%`&quot; 또는 &quot;`0.9001`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Search lost IS (budget)] | ([!DNL Google Ads]만 해당) 일별 또는 월별 예산이 너무 낮아서 광고가 표시되지 않은 시간의 비율입니다. 이 지표는 캠페인 수준에서만 사용할 수 있습니다. 90%가 넘는 백분율이 &quot;`>90%`&quot; 또는 &quot;`0.9001`&quot;(으)로 표시됩니다. |

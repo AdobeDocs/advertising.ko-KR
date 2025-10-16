@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: ' [!DNL Google Ads] 캠페인에 대한 설정을 참조합니다.'
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: cbe18b75d49ca53460883931ecea21aa6c2d8326
+source-git-commit: b321c807e3ab470068ad557ed428484d58e95ed4
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2505'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search with Display Select]:* 검색 네트워크(검색 결과 [!DNL Google]개 및 선택적으로 검색 파트너 사이트 포함)에 광고를 표시하고 디스플레이 네트워크 사이트에 광고를 표시할 수 있습니다. 디스플레이 네트워크에서 [!DNL Google Ads]은(는) 캠페인의 입찰 전략과 관계없이 자동화된 입찰을 사용하여 선택적으로 광고를 표시합니다. 검색 광고의 경우 각 광고 그룹에 대한 키워드를 지정하고, 디스플레이 광고의 경우 배치를 지정하고 선택적으로 각 광고 그룹에 대한 키워드를 지정합니다.
 
-* *[!UICONTROL Shopping Network]:* 제품 광고를 표시합니다. 이 광고는 [!DNL Google]에서 [!DNL Google Shopping]의 [!DNL Google Merchant Center], [!DNL Google]개의 검색 결과 옆 영역(텍스트 광고와 별도) 및 검색 파트너 웹 사이트(선택 사항)에 있는 제품을 기반으로 자동으로 생성합니다. 캠페인의 각 광고 그룹에 대해 광고할 제품 그룹을 지정할 수 있습니다.
+* *[!UICONTROL Shopping Network]:* 제품 광고를 표시합니다. 이 광고는 [!DNL Google]에서 [!DNL Google Merchant Center]의 [!DNL Google Shopping], [!DNL Google]개의 검색 결과 옆 영역(텍스트 광고와 별도) 및 검색 파트너 웹 사이트(선택 사항)에 있는 제품을 기반으로 자동으로 생성합니다. 캠페인의 각 광고 그룹에 대해 광고할 제품 그룹을 지정할 수 있습니다.
 
 * *[!UICONTROL Display Network Only]:* 디스플레이 네트워크에 광고를 표시합니다. 각 광고 그룹에 대해 배치를 지정해야 하며 선택적으로 키워드를 지정할 수 있습니다.
 
@@ -56,8 +56,11 @@ ht-degree: 0%
 
 {{$include /help/_includes/end-date.md}}
 
-**[!UICONTROL Search Partners]:**(쇼핑 캠페인을 포함하여 검색 네트워크만 대상으로 하는 캠페인) 표시
-광고 네트워크의 검색 파트너 네트워크에 광고를 게시합니다. 기본적으로 이 옵션은 *[!UICONTROL Off]*&#x200B;입니다.
+**[!UICONTROL Search Partners]:**(쇼핑 캠페인을 포함하여 검색 네트워크만 대상으로 하는 캠페인) 광고 네트워크의 검색 파트너 네트워크에 광고를 표시합니다. 기본적으로 이 옵션은 *[!UICONTROL Off]*&#x200B;입니다.
+
+**[!UICONTROL AI Max Enabled]:**(검색 네트워크만 대상으로 하는 캠페인; 읽기 전용) [[!UICONTROL AI Max] 기능](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: *[!UICONTROL On]* 또는 *[!UICONTROL Off]*.
+
+**[!UICONTROL AI Max Bundling]:**(검색 네트워크만 대상으로 하는 캠페인, AI 최대 기능이 활성화된 캠페인, 읽기 전용) 번들링이 필요한지 여부: *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* 또는 *[!UICONTROL Unspecified]*.
 
 ## [!UICONTROL Budget Options]
 
@@ -112,7 +115,7 @@ ht-degree: 0%
 
 **팁:** 이 설정을 사용하는 경우 [!UICONTROL Inventory Filter] 설정에서 로컬 광고를 제외하지 마십시오.
 
-**참고:** 로컬 인벤토리 광고에는 [!DNL Google Merchant Center]에 대한 두 개의 추가 피드가 필요합니다. 하나는 로컬 제품 데이터를 사용하고 다른 하나는 로컬 제품 인벤토리를 사용합니다. [로컬 쇼핑 광고](https://www.google.com/retail/local-inventory-ads/)에 대한 자세한 내용은 [!DNL Google Ads] 설명서를 참조하세요.
+**참고:** 로컬 인벤토리 광고에는 [!DNL Google Merchant Center]에 대한 두 개의 추가 피드가 필요합니다. 하나는 로컬 제품 데이터를 사용하고 다른 하나는 로컬 제품 인벤토리를 사용합니다. [!DNL Google Ads]로컬 쇼핑 광고[에 대한 자세한 내용은 ](https://www.google.com/retail/local-inventory-ads/) 설명서를 참조하세요.
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
@@ -283,7 +286,7 @@ ht-degree: 0%
 
 * [!UICONTROL Asset Library]에서 이미지를 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 이미지를 선택하십시오.
 
-**[!UICONTROL Logos]:** 하나 이상의 사각형(1:1) 로고와 가로(4:1) 로고. 각 크기의 최대 5개를 포함할 수 있습니다. [[!DNL Google Ads] 로고 사양](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)을 참조하세요. 이미지를 업로드하거나 [!UICONTROL Asset Library]에서 선택할 수 있지만 둘 다 동일한 작업에서 선택할 수는 없습니다.
+**[!UICONTROL Logos]:** 하나 이상의 정사각형(1:1) 로고와 하나의 가로(4:1) 로고. 각 크기의 최대 5개를 포함할 수 있습니다. [[!DNL Google Ads] 로고 사양](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)을 참조하세요. 이미지를 업로드하거나 [!UICONTROL Asset Library]에서 선택할 수 있지만 둘 다 동일한 작업에서 선택할 수는 없습니다.
 
 * 이미지를 업로드하려면:
 
@@ -358,7 +361,7 @@ ht-degree: 0%
 
 **[!UICONTROL Primary Status]:**(성과 최대 캠페인의 기존 에셋 그룹에 대한 읽기 전용 필드) 에셋 그룹이 전체 용량으로 제공되거나 제공되지 않는 이유. 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다. 값에는 *적격,* *제한,* *NOT_적격,* *일시 중지됨,* *보류 중,* *제거됨,* *알 수 없음,* 또는 *지정되지 않음.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->&#x200B;이 포함될 수 있습니다.
 
-**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨&rbrace;이 포함될 수 있습니다.*
+**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨}이 포함될 수 있습니다.*
 
 ## [!UICONTROL Conversion Goals]
 
