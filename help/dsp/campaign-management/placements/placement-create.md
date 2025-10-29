@@ -3,9 +3,9 @@ title: 배치 만들기
 description: 배치를 만드는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: d1be9ab441fd8abdc21491afb57763ec6eb2bec0
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       대부분의 배치 유형에는 기본적으로 모든 재고 유형과 각 유형의 모든 소스가 포함됩니다. [!DNL Roku] 배치의 경우 인벤토리 유형 및 소스를 지정해야 합니다.
 
-   1. (선택 사항) [!UICONTROL Site Targeting] 섹션에서 타겟팅할 사이트 범위를 좁히고 제외할 사이트를 지정합니다.
+   1. (선택 사항) [!UICONTROL Site or app And Keyword Targeting] 섹션에서 대상 및 제외할 사이트 및 앱의 범위를 좁힙니다.
 
    1. (선택 사항) [!UICONTROL Audience Targeting] 섹션에서:
 
@@ -147,4 +147,4 @@ ht-degree: 0%
 >* 범용 비디오에 대한 [FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [성능 문제 해결](/help/dsp/optimization/troubleshooting-performance.md)
->* [비디오: 표준 디스플레이 배치를 만드는 방법](https://video.tv.adobe.com/v/345002?captions=kor)
+>* [비디오: 표준 디스플레이 배치를 만드는 방법](https://video.tv.adobe.com/v/340454)
