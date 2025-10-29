@@ -3,9 +3,9 @@ title: 배치 설정
 description: 사용 가능한 배치 설정에 대한 설명을 참조하십시오.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: f8f877552018de50649fbba22c56452775e72df3
 workflow-type: tm+mt
-source-wordcount: '4586'
+source-wordcount: '4436'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ ht-degree: 0%
 
   [!UICONTROL Deals] 탭에서 키워드, 키, 거래 ID 또는 사용자 지정 태그로 목록을 검색할 수 있습니다. [!UICONTROL Deal Lists] 탭에서 거래 목록 이름 또는 거래 목록 ID별로 목록을 검색할 수 있습니다.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: [에서 구독한 모든 [!UICONTROL On Demand]premium, 보장되지 않는 &#x200B;](/help/dsp/inventory/on-demand-inventory-about.md) 인벤토리[!UICONTROL On Demand]&#x200B;(또는 [!DNL Roku] 배치에 대해 [!DNL Roku]개의 [!DNL DSP] 거래). [!UICONTROL On Demand] 인벤토리를 포함 및 제외할 수 있습니다.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: [에서 구독한 모든 [!UICONTROL On Demand]premium, 보장되지 않는 ](/help/dsp/inventory/on-demand-inventory-about.md) 인벤토리[!UICONTROL On Demand]&#x200B;(또는 [!DNL Roku] 배치에 대해 [!DNL Roku]개의 [!DNL DSP] 거래). [!UICONTROL On Demand] 인벤토리를 포함 및 제외할 수 있습니다.
 
   소스 또는 피드별로 목록을 볼 수 있습니다. 피드별로 목록을 볼 때 피드 이름, 피드 키 또는 선택한 게시자 영역, 범주 태그 또는 특성 태그별로 검색할 수 있습니다.
 
@@ -226,15 +226,15 @@ ht-degree: 0%
 
 * 재생이 시작되는 방식별 **[!UICONTROL Playback mode]:** 대상(제외는 아님) 인벤토리를 작성합니다. 이 설정은 데스크탑 및 모바일 환경에 대한 프리롤 배치, 모바일 표준 프리롤 배치 및 범용 비디오 배치에 적용됩니다. 기본적으로 모든 모드가 타깃팅됩니다. 대상 범위를 좁히려면 특정 대상 모드 및/또는 *알 수 없음*&#x200B;을 선택하세요.
 
-* **[!UICONTROL Skippability]:** 스킵할 수 있는지 여부에 따른 대상(제외할 수는 없음) 인벤토리. 이 설정은 프리롤, 모바일 표준 프리롤, 연결된 TV 및 범용 비디오 배치를 포함한 모든 VAST/VPAID 배치에 적용됩니다. 기본적으로 모든 옵션이 타깃팅됩니다. 대상 범위를 좁히려면 특정 대상 및/또는 *알 수 없음*&#x200B;을 선택하세요.
+* **[!UICONTROL Skippability]:** 스킵할 수 있는지 여부에 따라 대상(제외할 수는 없음) 인벤토리를 구성합니다. 이 설정은 프리롤, 모바일 표준 프리롤, 연결된 TV 및 범용 비디오 배치를 포함한 모든 VAST/VPAID 배치에 적용됩니다. 기본적으로 모든 옵션이 타깃팅됩니다. 대상 범위를 좁히려면 특정 대상 및/또는 *알 수 없음*&#x200B;을 선택하세요.
 
 광고 위치별 **[!UICONTROL Position targeting]:** 대상(제외는 아님) 인벤토리. 이 설정은 프리롤, 모바일 표준 프리롤, 연결된 TV 및 범용 비디오 배치를 포함한 모든 VAST/VPAID 배치에 적용됩니다. 기본적으로 모든 Position을 타겟팅합니다. 대상 범위를 좁히려면 특정 대상 위치 및/또는 *알 수 없음*&#x200B;을 선택하세요.
 
-## [!UICONTROL Site and App Targeting]
+## [!UICONTROL Site or App and Keyword Targeting]
 
 **[!UICONTROL Traffic type]:** 대상에 대한 트래픽 유형입니다. 옵션은 **[!UICONTROL Websites]** 및 **[!UICONTROL Apps]**&#x200B;입니다.
 
-**[!UICONTROL Tier]:**(**[!UICONTROL Paste list of targeted sites]**&#x200B;이(가) *[!UICONTROL Off]*&#x200B;인 경우 사용 가능) 대상 트래픽의 품질입니다. 계층 1-3은 모두 브랜드에 적합하며 DSP 매핑 팀에서 승인했습니다.
+**[!UICONTROL Tier]:**(**[!UICONTROL Toggle for Sites or Apps Tiering]**&#x200B;이(가) *[!UICONTROL On]*&#x200B;인 경우 사용 가능) 대상 트래픽의 품질입니다. 계층 1-3은 모두 브랜드에 적합하며 DSP 매핑 팀에서 승인했습니다.
 
 * 전국적으로 인식할 수 있는 Premium 사이트 및 응용 프로그램이 *[!UICONTROL Tier 1]:*&#x200B;개 있습니다.
 
@@ -252,7 +252,7 @@ ht-degree: 0%
 >
 >성과 캠페인의 경우 가장 좋은 방법은 *[!UICONTROL All Sites]*&#x200B;을(를) 선택하는 것입니다.
 
-**[!UICONTROL Site or App Categories]:**(선택 사항, **[!UICONTROL Paste list of targeted sites]**&#x200B;이(가) *[!UICONTROL Off]*&#x200B;인 경우 사용 가능) 대상으로 포함하거나 제외할 선택된 사이트 계층 내의 사이트 범주(둘 다 아님). DSP이 제목을 기반으로 매핑한 세로 사이트 목록 중에서 선택합니다.
+**[!UICONTROL Site or App Categories]:**(선택 사항) 선택한 트래픽 유형 내의 사이트 범주 및 (지정된 경우) 타겟으로 포함하거나 제외할 사이트 계층(둘 다 포함하지는 않음)입니다. DSP이 제목을 기반으로 매핑한 세로 사이트 목록 중에서 선택합니다.
 
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 포함 또는 제외할 사이트 범주를 지정합니다.
@@ -265,7 +265,7 @@ ht-degree: 0%
 1. (선택 사항) 타깃팅 정보가 포함된 CSV 파일을 브라우저의 다운로드 위치로 다운로드하려면 **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-**[!UICONTROL Exclude Sites or Apps]:**(선택 사항, **[!UICONTROL Paste list of targeted sites]**&#x200B;이(가) *[!UICONTROL Off]*&#x200B;인 경우 사용 가능) 제외할 사이트/앱 및 [URL 목록](/help/dsp/resources/lists-url-manage.md). [!UICONTROL Paste URL] 탭에서 사이트를 검색하여 선택하거나 도메인 이름을 입력하거나 붙여 넣을 수 있습니다. [!UICONTROL URL Lists] 탭에서 URL 목록을 선택할 수 있습니다.
+**[!UICONTROL Exclude Sites or Apps]:**(선택 사항, **[!UICONTROL Toggle for Sites or Apps Tiering]**&#x200B;이(가) *[!UICONTROL On]*&#x200B;인 경우 사용 가능) 제외할 사이트/앱 및 [URL 목록](/help/dsp/resources/lists-url-manage.md). [!UICONTROL Paste URL] 탭에서 사이트를 검색하여 선택하거나 도메인 이름을 입력하거나 붙여 넣을 수 있습니다. [!UICONTROL URL Lists] 탭에서 URL 목록을 선택할 수 있습니다.
 
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 사이트를 지정합니다.
@@ -275,7 +275,7 @@ ht-degree: 0%
          1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
          1. 검색 결과에서 제외할 사이트를 선택합니다.
             * 개별 사이트를 제외하려면 인접한 확인란을 선택합니다.
-            * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**&#x200B;을(를) 클릭합니다.
+            * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**을(를) 클릭합니다.
       * 도메인 이름을 입력하려면 다음을 수행합니다.
          1. **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
          1. 별도의 줄에 도메인 이름을 하나 이상 입력합니다.
@@ -290,47 +290,30 @@ ht-degree: 0%
 >* 광고에는 안전하지 않은 것으로 간주되는 사이트가 포함된 DSP [전역 차단 사이트 목록](/help/dsp/introduction/features/brand-safety-media-quality.md) 외에 계정 수준 및 광고주 수준의 차단 사이트 목록도 적용됩니다.
 >* 차단된 사이트 목록은 항상 타겟팅된 사이트 및 사이트 목록을 재정의합니다. 배치가 둘 다 광고에 대한 동일한 타겟을 제외하고 포함하면 타겟은 제외됩니다.
 
+**[!UICONTROL Context of Sites or App]:**(선택 사항) 타깃팅하거나 제외할 컨텍스트 기반 대상 세그먼트. 다음 L 중에서 선택
+
+* **[!UICONTROL Marketplace]** 탭: 모든 사용자가 지정된 요금으로 사용할 수 있는 [!DNL Peer39]개의 세그먼트를 나열합니다.
+
+* **[!UICONTROL Custom Segments]** 탭: 조직의 [!DNL Peer39] 사용자 지정 세그먼트를 나열합니다.
+
+* **[!UICONTROL Paste Segments]** 탭: (조직에 [!DNL Comscore] 파트너십이 있는 광고주, Adobe 계정 팀의 활성화 이후에 사용 가능) 조직의 [!DNL Comscore] 컨텍스트 세그먼트에 대해 하나 이상의 세그먼트 ID 또는 세그먼트 이름을 입력합니다. 여러 값을 쉼표로 구분합니다(예: Segment1, Segment2, Segment3).
+
 **[!UICONTROL Language]:**(선택 사항) 타깃팅할 단일 언어입니다.
 
-**[!UICONTROL Site or app list preview]:**(읽기 전용) 계정 수준, 광고주 수준 및 DSP 전역 차단 사이트 목록의 사이트/앱을 포함하여 배치에 대해 타깃팅되고 차단된 모든 사이트/앱입니다.
+**[!UICONTROL Site or app list preview]:**(읽기 전용, **[!UICONTROL Toggle for Sites or Apps Tiering]**&#x200B;이(가) *[!UICONTROL On]*&#x200B;인 경우 사용 가능) 계정 수준, 광고주 수준 및 DSP 전역 차단 사이트 목록의 사이트/앱을 포함하여 배치에 대해 타깃팅되고 차단된 모든 사이트/앱입니다.
 
 선택적으로 타겟팅되고 차단된 사이트 목록을 쉼표로 구분된 값(CSV) 파일로 내보낼 수 있습니다. 목록을 내보내려면 **[!UICONTROL Export full site list]**&#x200B;을(를) 클릭한 다음 브라우저의 일반 절차에 따라 파일을 열거나 저장합니다.
 
 **[!UICONTROL Allow unscreened sites]:**(표준 표시 배치만 해당) 감사되지 않은 사이트에서 광고 배달을 사용하도록 설정합니다. 배치가 개인 인벤토리를 타겟팅하면 이 옵션은 차단된 사이트에 광고를 게재할 수 있습니다.
 
-**[!UICONTROL Paste list of targeted sites]:** 특정 사이트만 타깃팅할 수 있습니다. 이 옵션을 활성화하면 다른 사이트 타겟팅 옵션이 비활성화됩니다.
-
-**[!UICONTROL Sites or Apps]:**(**[!UICONTROL Paste list of targeted sites]**&#x200B;이(가) *[!UICONTROL On]*&#x200B;인 경우 사용 가능) 사이트를 대상으로 지정합니다. [!UICONTROL Paste URL] 탭에서 사이트를 검색하여 선택하거나 도메인 이름을 입력하거나 붙여 넣을 수 있습니다. [!UICONTROL URL Lists] 탭에서 URL 목록을 선택할 수 있습니다.
-
-1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
-1. 사이트를 지정합니다.
-   * [!UICONTROL Paste URL] 탭에서:
-      * 사이트를 검색하려면 다음 작업을 수행하십시오.
-         1. **[!UICONTROL Search]**&#x200B;을(를) 클릭합니다.
-         1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
-         1. 검색 결과에서 포함할 사이트를 선택합니다.
-            * 개별 사이트를 포함하려면 인접한 확인란을 선택합니다.
-            * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 포함하려면 **[!UICONTROL Include these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 포함하려면 **[!UICONTROL Include these \<*NN *\>]**&#x200B;을(를) 클릭하십시오.
-      * 도메인 이름을 입력하려면 다음을 수행합니다.
-         1. **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
-         1. 별도의 줄에 도메인 이름을 하나 이상 입력합니다.
-         1. **[!UICONTROL Include All]**&#x200B;을(를) 클릭합니다.
-   * [!UICONTROL URL Lists] 탭에서:
-      1. (선택 사항) 검색 필드에 목록 이름의 전체 또는 일부를 입력하여 URL 목록을 검색합니다.
-      1. 포함할 각 URL 목록 옆에 있는 확인란을 선택합니다.
-1. 완료되면 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
-
->[!NOTE]
->
->* 광고에는 안전하지 않은 것으로 간주되는 사이트가 포함된 DSP [전역 차단 사이트 목록](/help/dsp/introduction/features/brand-safety-media-quality.md) 외에 계정 수준 및 광고주 수준의 차단 사이트 목록도 적용됩니다.
->* 차단된 사이트 목록은 항상 타겟팅된 사이트 및 사이트 목록을 재정의합니다. 배치가 둘 다 광고에 대한 동일한 대상을 제외하고 포함하면 대상이 제외됩니다. 사이트를 검색하여 선택하거나 도메인 이름을 입력하거나 붙여넣을 수 있습니다.
+**[!UICONTROL Toggle for Sites or Apps Tiering]:** 타겟팅하거나 제외할 사이트 또는 앱 계층을 지정할 수 있습니다.
 
 ## [!UICONTROL Audience Targeting]
 
 **[!UICONTROL Included Audiences]:** [타사 세그먼트, 자사 세그먼트, Adobe 세그먼트, 사용자 지정 세그먼트 및 저장된 대상을 포함하여 배치에 대한 모든 대상 대상](/help/dsp/audiences/audience-settings.md). 선택한 모든 세그먼트 및 저장된 대상자 전체에 걸쳐 중복 제거된 총 활성 대상자 크기도 표시됩니다. 기존 대상을 선택하거나, 나중에 다시 사용할 수 있는 대상을 만들거나, 특정 대상 세그먼트를 선택할 수 있습니다.
 
-* 기존 대상을 선택하려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 대상을 선택하십시오.
-* 대상을 만들려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 **[!UICONTROL + Create Audience]**&#x200B;을(를) 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
+* 기존 대상을 선택하려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 대상을 선택하십시오.
+* 대상을 만들려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 **[!UICONTROL + Create Audience]**&#x200B;을(를) 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
 * 특정 대상 세그먼트를 선택하려면 **[!UICONTROL Select segments for this placement only]**&#x200B;을(를) 클릭하십시오. 세그먼트 논리를 선택합니다. 지침은 &quot;[재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)&quot;의 6단계를 참조하십시오. 완료되면 **저장**&#x200B;을 클릭하세요.
 
 >[!NOTE]
@@ -339,9 +322,9 @@ ht-degree: 0%
 
 **[!UICONTROL Excluded Audiences]:** [타사 세그먼트, 자사 세그먼트, Adobe 세그먼트, 사용자 지정 세그먼트 및 저장된 대상을 포함하여 배치에 대해 제외할 대상](/help/dsp/audiences/audience-settings.md)입니다. 제외된 모든 대상에 걸쳐 중복 제거된 총 활성 대상 크기도 표시됩니다. 기존 대상을 선택하거나 나중에 다시 사용할 수 있는 새 대상을 만들 수 있습니다.
 
-* 기존 대상을 선택하려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Excluded Audiences]을 클릭한 다음 대상을 선택하십시오.
+* 기존 대상을 선택하려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Excluded Audiences]을 클릭한 다음 대상을 선택하십시오.
 
-* 대상을 만들려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Excluded Audiences]을 클릭한 다음 **+ 대상 만들기**&#x200B;를 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
+* 대상을 만들려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Excluded Audiences]을 클릭한 다음 **+ 대상 만들기**&#x200B;를 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
 
 **[!UICONTROL Targeting]:** 타깃팅할 사용자 ID의 유형입니다. 배치가 라이브 상태가 된 후(즉, 비행이 시작된 후) 이 설정을 변경할 수 없습니다.
 
@@ -349,7 +332,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (기본값) 쿠키, 모바일 광고 ID 또는 연결된 TV(CTV) ID를 기준으로 사용자를 타깃팅합니다. ID는 브라우저, 인앱 또는 CTV 인벤토리를 기반으로 선택됩니다.
 
-* *[!UICONTROL Universal ID Beta]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[&#x200B; 또는 &#x200B;](/help/dsp/audiences/sources/source-about.md)범용 ID를 추적하는 사용자 지정 세그먼트[에 사용합니다.](/help/dsp/audiences/custom-segment-create.md)
+* *[!UICONTROL Universal ID Beta]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[ 또는 ](/help/dsp/audiences/sources/source-about.md)범용 ID를 추적하는 사용자 지정 세그먼트[에 사용합니다.](/help/dsp/audiences/custom-segment-create.md)
 
    * *[!UICONTROL ID5]*: 이메일 주소 및 기타 신호에서 [!DNL ID5] ID를 확률적으로 만들었습니다.<!-- What countries/geos are these available for? Everywhere?-->개의 ID5 ID를 무료로 사용할 수 있습니다. **참고:** [!DNL Eyeota]의 타사 세그먼트에는 ID5 ID가 포함될 수 있습니다.
 
