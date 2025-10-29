@@ -29,14 +29,14 @@ ht-degree: 0%
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ko).
 -->
 
 ## 연락처 [!DNL Adobe]
 
 제품 또는 계정 문제에 대해 다음을 수행합니다.
 
-* (셀프 서비스 계약을 보유한 광고주) [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)에서 조직에 대한 티켓을 엽니다.
+* (셀프 서비스 계약을 보유한 광고주) [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 티켓을 엽니다.
 
   제품에 대해 &quot;[!UICONTROL Advertising - Search, Social, & Commerce]&quot;을(를) 선택합니다.
 
