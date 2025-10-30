@@ -3,7 +3,7 @@ title: 사용자 정의 보고서 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a3e6324edcf5a52f6338ce969034cd9c4b6fb487
+source-git-commit: f2b912a9e4952d2ccb9a461cdbc56c7bc731e690
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -103,13 +103,13 @@ ht-degree: 0%
 
    * **[!UICONTROL Time to Conversion]:** 이 보고서를 사용하여 최적의 속성 전환 확인 기간을 결정하고 전환 시간이 더 긴 캠페인을 식별하십시오. 전환 시간이 더 길어질 수 있으며, 이는 재타겟팅의 이점을 얻을 수 있습니다. 이 보고서는 마지막 상호 작용(광고 노출 또는 클릭)에서 전환까지의 시간(일)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다. 전환 확인 기간보다 오래 걸리는 전환은 한 행으로 그룹화됩니다(예: 보고서에서 30일 전환 확인 기간을 사용하는 경우, 발생하는 데 30일 이상 걸리는 모든 전환은 &quot;[!UICONTROL Time Taken (in days)]&quot; 값이 &quot;30+&quot;인 행으로 그룹화됨).
 
-   * **[!UICONTROL Content BETA]:** 이 보고서를 사용하여 지정된 콘텐츠 차원(예: 장르, 프로덕션 품질 및 콘텐츠 등급)별로 노출 전달 및 기타 지표를 이해함으로써 타깃팅을 최적화하고 브랜드 안전을 보장할 수 있습니다. 보고서는 콘텐츠 차원 외에도 대부분의 표준 차원, 지표 및 필터를 포함합니다. 콘텐츠 차원별 데이터는 [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] 및 [!DNL Triplelift]에 사용할 수 있습니다. 콘텐츠 신호는 비트스트림 중에 게시자에 의해 전달되고 가용성의 영향을 받습니다.
+   * **[!UICONTROL Content]:** 이 보고서를 사용하여 지정된 콘텐츠 차원(예: 장르, 프로덕션 품질 및 콘텐츠 등급)별로 노출 전달 및 기타 지표를 이해함으로써 타깃팅을 최적화하고 브랜드 안전을 보장할 수 있습니다. 보고서는 콘텐츠 차원 외에도 대부분의 표준 차원, 지표 및 필터를 포함합니다. 콘텐츠 차원별 데이터는 [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] 및 [!DNL Triplelift]에 사용할 수 있습니다. 콘텐츠 신호는 비트스트림 중에 게시자에 의해 전달되고 가용성의 영향을 받습니다.
 
 ## 교차 계정 보고 {#cross-account-reporting}
 
 여러 DSP 계정이 있는 조직은 조직의 필요에 따라 선택적으로 사용자 지정 보고서에서 교차 계정 데이터를 활성화할 수 있습니다. 예를 들어 계정 A에게 계정 B의 데이터에 대한 액세스 권한을 부여하고 계정 B에게 계정 C의 (계정 A의 데이터는 아님) 데이터에 대한 액세스 권한을 부여할 수 있습니다. 이 기능을 활성화하고 구성하려면 Adobe 계정 팀에 문의하십시오.
 
-조직에 대해 기능이 활성화되면 [, &#x200B;](report-settings.md), [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo] 및 [!UICONTROL Device] 보고서 유형을 계정별로 [!UICONTROL Frequency (by Impression)]필터링[!UICONTROL Conversion]할 수 있습니다.
+조직에 대해 기능이 활성화되면 [, ](report-settings.md), [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo] 및 [!UICONTROL Device] 보고서 유형을 계정별로 [!UICONTROL Frequency (by Impression)]필터링[!UICONTROL Conversion]할 수 있습니다.
 
 [!UICONTROL Settings] > [!UICONTROL Account]의 계정 설정은 a) 계정에 데이터를 사용할 수 있는 다른 계정과 b) 계정의 데이터에 액세스할 수 있는 다른 계정을 나타냅니다.
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ready to download]:**(반복 보고서만 해당) 하나 이상의 보고서 인스턴스를 다운로드할 수 있으며 더 많은 보고서 인스턴스가 예약되어 있습니다.
 
-* **[!UICONTROL Failed]:** 보고서 작업이 실패했습니다. 보고서 견인에 대해 개별 보고서 인스턴스가 실패한 이유를 보려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png "아래쪽 화살표")아래쪽 화살표[!UICONTROL Download]를 클릭하십시오. 실패한 보고서 작업은 오류 아이콘(![오류 표시기](/help/dsp/assets/indicator-critical.png "오류 표시기"))으로 표시됩니다. 오류 설명을 보려면 커서를 오류 아이콘 위에 놓습니다.
+* **[!UICONTROL Failed]:** 보고서 작업이 실패했습니다. 보고서 견인에 대해 개별 보고서 인스턴스가 실패한 이유를 보려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png "아래쪽 화살표")아래쪽 화살표[!UICONTROL Download]를 클릭하십시오. 실패한 보고서 작업은 오류 아이콘(![오류 표시기](/help/dsp/assets/indicator-critical.png "오류 표시기"))으로 표시됩니다. 오류 설명을 보려면 커서를 오류 아이콘 위에 놓습니다.
 
 * **[!UICONTROL Completed]:** 반복되지 않는 보고서의 경우 보고서가 완료됩니다. 반복 보고서의 경우 모든 보고서 인스턴스가 완료되었습니다. 지난 4개월 동안 완료된 모든 보고서를 다운로드할 수 있습니다.
 
