@@ -3,9 +3,9 @@ title: 캠페인 설정
 description: 사용 가능한 캠페인 설정에 대한 설명을 참조하십시오.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: daf995b0c40d77434d2c86c738351a33552dc555
+source-git-commit: 1b15b14b0ace6137e79b456c7c8f8444efa8acac
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Margin % of Total Budget]:*(기본값) [!UICONTROL Gross Budget]의 비율로 요금을 계산합니다. [!UICONTROL Agency Fee Type]&#x200B;(고정 또는 복합)과 [!UICONTROL Margin %] 또는 [!UICONTROL Composite Margin %]을(를) 지정하십시오.
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]:* [!UICONTROL Gross Budget]의 지정된 비율을 미디어 비용, 데이터 및 기타 비용 및/또는 [!DNL Adobe] 기술 비용에 추가합니다. [!UICONTROL Markup %]을(를) 지정하고 마크업을 적용할 구성 요소를 선택합니다.
+   * *[!UICONTROL Apply Markup % on top of individual cost components]:* 지정한 비율을 미디어 비용, 데이터 및 기타 비용 및/또는 [!DNL Adobe] 기술 비용에 추가합니다. [!UICONTROL Markup %]을(를) 지정하고 마크업을 적용할 구성 요소를 선택합니다.
 
 * **[!UICONTROL Agency Fee Type]:**([!UICONTROL Margin % of Total Budget]을(를) 사용하는 캠페인) 에이전시 수수료 유형.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Composite Margin %]:**(복합 마진이 있는 [!UICONTROL Margin % of Total Budget]을(를) 사용하는 캠페인) 대리점 요금과 [!DNL Adobe] 기술 요금의 합계(백분율)입니다. 이 금액은 [!UICONTROL Gross Budget]에서 공제되어 순 캠페인 예산을 정의합니다. [!UICONTROL Estimated Tax Withholding]의 [!UICONTROL Gross Budget]에 여백이 적용되지 않습니다.
 
-* **[!UICONTROL Markup %]:**([!UICONTROL Apply Markup % on top of individual cost components]을(를) 사용하는 캠페인) 지정된 비용 구성 요소에 추가할 [!UICONTROL Gross Budget]의 비율입니다.
+* **[!UICONTROL Markup %]:**([!UICONTROL Apply Markup % on top of individual cost components]을(를) 사용하는 캠페인) 지정된 비용 구성 요소에 추가할 비율입니다.
 
 * **[!UICONTROL Select cost components on which markup will be applied]:**([!UICONTROL Apply Markup % on top of individual cost components]을(를) 사용하는 캠페인) [!UICONTROL Markup %]이(가) 적용되는 비용 구성 요소입니다. 적용 가능한 모든 구성 요소를 선택하십시오. *[!UICONTROL Media cost]*, *[!UICONTROL Data and Other costs]* 및/또는 *[!UICONTROL Adobe tech fees]*.
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 **[!UICONTROL Adelaide]:** 배치 수준 [!UICONTROL Attention Score] 지표(노출 횟수의 가중 평균 [!DNL Adelaide] &quot;[!DNL Attention Units]&quot; 수)에 대한 추적을 사용하도록 설정합니다. [!DNL Roku] 연결된 TV, VPAID 전용 프리롤 및 팟캐스트가 아닌 오디오를 제외한 모든 배치 유형에 대해 지표를 사용할 수 있습니다. DSP은 연결된 모든 크리에이티브에 JavaScript 태그를 자동으로 연결하며, [!DNL Adelaide]은(는) 노출 데이터를 추적하여 매일 DSP으로 보냅니다. 날짜를 사용하여 더 나은 주의 점수로 배치 전략에 대한 지출을 수동으로 최적화할 수 있습니다.
 
-[!UICONTROL Attention Score] 필드는 보고서의 [!UICONTROL Metrics] 섹션([!UICONTROL Campaigns], [!UICONTROL Packages] 및 [!UICONTROL Placements] 보기 내)과 [!UICONTROL Sites]배치 세부 정보 보기[!UICONTROL Ads]의 [!UICONTROL Inventory], [&#x200B; 및 &#x200B;](/help/dsp/campaign-management/reports/placement-details-view.md) 탭에서 사용할 수 있습니다.
+[!UICONTROL Attention Score] 필드는 보고서의 [!UICONTROL Metrics] 섹션([!UICONTROL Campaigns], [!UICONTROL Packages] 및 [!UICONTROL Placements] 보기 내)과 [!UICONTROL Sites]배치 세부 정보 보기[!UICONTROL Ads]의 [!UICONTROL Inventory], [ 및 ](/help/dsp/campaign-management/reports/placement-details-view.md) 탭에서 사용할 수 있습니다.
 
 측정에 [!DNL Adelaide] 세그먼트를 사용하면 [!DNL Adelaide] 측정 태그가 있는 광고에서 게재된 각 노출에 대해 CPM 요금이 발생합니다. 이 요금은 [배치 수준 주의 타기팅](/help/dsp/campaign-management/placements/placement-settings.md)에 대한 요금과는 별개입니다.
 
