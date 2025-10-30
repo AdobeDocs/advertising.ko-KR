@@ -134,7 +134,7 @@ ht-degree: 0%
 
 **[!UICONTROL Adelaide]:** 배치 수준 [!UICONTROL Attention Score] 지표(노출 횟수의 가중 평균 [!DNL Adelaide] &quot;[!DNL Attention Units]&quot; 수)에 대한 추적을 사용하도록 설정합니다. [!DNL Roku] 연결된 TV, VPAID 전용 프리롤 및 팟캐스트가 아닌 오디오를 제외한 모든 배치 유형에 대해 지표를 사용할 수 있습니다. DSP은 연결된 모든 크리에이티브에 JavaScript 태그를 자동으로 연결하며, [!DNL Adelaide]은(는) 노출 데이터를 추적하여 매일 DSP으로 보냅니다. 날짜를 사용하여 더 나은 주의 점수로 배치 전략에 대한 지출을 수동으로 최적화할 수 있습니다.
 
-[!UICONTROL Attention Score] 필드는 보고서의 [!UICONTROL Metrics] 섹션([!UICONTROL Campaigns], [!UICONTROL Packages] 및 [!UICONTROL Placements] 보기 내)과 [!UICONTROL Sites]배치 세부 정보 보기[!UICONTROL Ads]의 [!UICONTROL Inventory], [ 및 ](/help/dsp/campaign-management/reports/placement-details-view.md) 탭에서 사용할 수 있습니다.
+[!UICONTROL Attention Score] 필드는 보고서의 [!UICONTROL Metrics] 섹션([!UICONTROL Campaigns], [!UICONTROL Packages] 및 [!UICONTROL Placements] 보기 내)과 [!UICONTROL Sites]배치 세부 정보 보기[!UICONTROL Ads]의 [!UICONTROL Inventory], [&#x200B; 및 &#x200B;](/help/dsp/campaign-management/reports/placement-details-view.md) 탭에서 사용할 수 있습니다.
 
 측정에 [!DNL Adelaide] 세그먼트를 사용하면 [!DNL Adelaide] 측정 태그가 있는 광고에서 게재된 각 노출에 대해 CPM 요금이 발생합니다. 이 요금은 [배치 수준 주의 타기팅](/help/dsp/campaign-management/placements/placement-settings.md)에 대한 요금과는 별개입니다.
 
