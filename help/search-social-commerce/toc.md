@@ -111,13 +111,13 @@ ht-degree: 2%
       + 클릭 추적 URL 구성 요소 {#click-tracking-components}
          + 클릭 추적 URL의 표준 형식 {#click-tracking-formats}
             + [클릭 추적 URL 형식 기본 정보](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
-            + [ [!DNL Baidu]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
-            + [ [!DNL Google Ads]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
-            + [ [!DNL Microsoft Advertising]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
-            + [ [!DNL Naver]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
-            + [ [!DNL Yahoo! Display Network]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
-            + [ [!DNL Yahoo! Japan Ads]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
-            + [ [!DNL Yandex]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
+            + [&#x200B; [!DNL Baidu]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-baidu.md)
+            + [&#x200B; [!DNL Google Ads]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-google.md)
+            + [&#x200B; [!DNL Microsoft Advertising]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
+            + [&#x200B; [!DNL Naver]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
+            + [&#x200B; [!DNL Yahoo! Display Network]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
+            + [&#x200B; [!DNL Yahoo! Japan Ads]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
+            + [&#x200B; [!DNL Yandex]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [클릭 추적 URL에 대한 선택적 추적 매개 변수](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
       + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [AMO ID(s_kwcid) 추적 매개 변수](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
@@ -151,9 +151,9 @@ ht-degree: 2%
       + 광고 네트워크 계정 {#ad-network-accounts}
          + [광고 네트워크 계정 기본 정보](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [광고 네트워크 계정 관리](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [ [!DNL Google Ads] 계정에 대한 AMO ID 추적 코드 업데이트](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
+         + [&#x200B; [!DNL Google Ads] 계정에 대한 AMO ID 추적 코드 업데이트](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [머천트 센터 계정 관리](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
-   + [ [!DNL Naver] 추적 전용 계정 구현](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+   + [&#x200B; [!DNL Naver] 추적 전용 계정 구현](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + 캠페인 관리 {#management}
       + [광고 네트워크 캠페인 관리 옵션](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)
       + [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기 내에서 데이터 관리 {#campaigns}
@@ -211,12 +211,12 @@ ht-degree: 2%
             + [부정적인 배치 만들기](/help/search-social-commerce/campaign-management/campaigns/placement-negative-create.md)
             + [배치 및 음수 배치 상태 변경](/help/search-social-commerce/campaign-management/campaigns/placement-status-edit.md)
          + 자동 타겟 {#auto-targets}
-            + [ [!DNL Google Ads] 동적 검색 대상 정보](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-about.md)
-            + [ [!DNL Google Ads] 동적 검색 대상 관리](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)
+            + [&#x200B; [!DNL Google Ads] 동적 검색 대상 정보](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-about.md)
+            + [&#x200B; [!DNL Google Ads] 동적 검색 대상 관리](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)
          + 대상 및 대상 타겟 {#audiences-and-targets}
             + 대상자 {#audiences}
                + [대상자 정보](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
-               + [ [!DNL Google Ads] 대상에서  [!DNL Adobe] 고객 일치 대상 만들기](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
+               + [&#x200B; [!DNL Google Ads] 대상에서  [!DNL Adobe] 고객 일치 대상 만들기](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)
                + [Adobe Campaign 이메일 목록에서  [!DNL Google Ads] 고객 일치 대상 만들기](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
                + [고객 데이터 목록을 사용하여 고객 일치 대상 관리](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
                + [동적 리마케팅 대상자 관리](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
@@ -225,9 +225,9 @@ ht-degree: 2%
                   + [캠페인 및 광고 그룹에 대한 대상자 제외 관리](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
          + 광고 확장 {#ad-extensions}
             + [!DNL Google Ads]개의 설명선 확장 {#callouts}
-               + [ [!DNL Google Ads] 설명선 확장 정보](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
-               + [ [!DNL Google Ads] 설명선 관리](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
-               + [ [!DNL Google Ads] 공유 설명선 확장을 캠페인 또는 광고 그룹과 연결](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
+               + [&#x200B; [!DNL Google Ads] 설명선 확장 정보](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
+               + [&#x200B; [!DNL Google Ads] 설명선 관리](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
+               + [&#x200B; [!DNL Google Ads] 공유 설명선 확장을 캠페인 또는 광고 그룹과 연결](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
             + 사이트 링크 확장 {#sitelinks}
                + [사이트링크 확장 기본 정보](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
                + [공유 사이트 링크 관리](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
@@ -247,13 +247,13 @@ ht-degree: 2%
          + Bulksheets에 필수/포함된 데이터{#bulksheet-data-formats}
             + [지원되는 일괄 시트 파일 형식](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-file-formats.md)
             + [일괄 시트에서 수행할 수 있는 작업](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md)
-            + [ [!DNL Baidu] 계정의 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-            + [ [!DNL Google Ads] 계정의 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-            + [ [!DNL Microsoft Advertising] 계정의 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-            + [ [!DNL Naver] 계정의 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-            + [ [!DNL Yahoo! Display Network] 계정의 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-            + [ [!DNL Yahoo! Japan] 계정의 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-            + [ [!DNL Yandex] 계정의 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+            + [&#x200B; [!DNL Baidu] 계정의 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+            + [&#x200B; [!DNL Google Ads] 계정의 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+            + [&#x200B; [!DNL Microsoft Advertising] 계정의 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+            + [&#x200B; [!DNL Naver] 계정의 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+            + [&#x200B; [!DNL Yahoo! Display Network] 계정의 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+            + [&#x200B; [!DNL Yahoo! Japan] 계정의 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+            + [&#x200B; [!DNL Yandex] 계정의 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + 인벤토리 피드를 사용하여 캠페인 데이터 자동화 {#inventory-feeds}
          + [인벤토리 피드를 사용한 광고 관리 자동화 정보](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
          + [계정 구성 요소는 언제 재고 피드에서 생성되거나 삭제됩니까?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
@@ -274,11 +274,11 @@ ht-degree: 2%
             + [피드에서 생성된 데이터 상태](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-status.md)
       + 고유한 워크플로우를 통해 캠페인, 광고 및 전환 구현{#special-workflows}
          + [리드에 대해  [!DNL Google Ads] 향상된 전환 구현](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
-         + [ [!DNL Google Ads] 동적 검색 광고 구현](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
-         + [ [!DNL Google Ads] 성과 최대 캠페인 구현](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
-         + [ [!DNL Google Ads] 쇼핑 캠페인 구현](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [&#x200B; [!DNL Google Ads] 동적 검색 광고 구현](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
+         + [&#x200B; [!DNL Google Ads] 성과 최대 캠페인 구현](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
+         + [&#x200B; [!DNL Google Ads] 쇼핑 캠페인 구현](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
          + [오프라인 전환을 위해  [!DNL Microsoft Advertising] 향상된 전환 구현](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
-         + [ [!DNL Microsoft Advertising] 쇼핑 캠페인 구현](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+         + [&#x200B; [!DNL Microsoft Advertising] 쇼핑 캠페인 구현](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
       + [수동으로 광고 네트워크 데이터 동기화](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [포트폴리오에 캠페인 할당](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
    + [포트폴리오에서 캠페인 제거](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
@@ -300,9 +300,9 @@ ht-degree: 2%
 + 인사이트 및 보고서 {#insights-reports}
    + Advertising Insights {#insights}
       + [[!UICONTROL Advertising Insights] 정보](/help/search-social-commerce/advertising-insights/insight-about.md)
-      + [ [!DNL Advertising Insight] 생성](/help/search-social-commerce/advertising-insights/insight-generate.md)
-      + [ [!DNL Advertising Insight] 보기 또는 저장](/help/search-social-commerce/advertising-insights/insight-view-save.md)
-      + [ [!DNL Advertising Insight] 삭제](/help/search-social-commerce/advertising-insights/insight-delete.md)
+      + [&#x200B; [!DNL Advertising Insight] 생성](/help/search-social-commerce/advertising-insights/insight-generate.md)
+      + [&#x200B; [!DNL Advertising Insight] 보기 또는 저장](/help/search-social-commerce/advertising-insights/insight-view-save.md)
+      + [&#x200B; [!DNL Advertising Insight] 삭제](/help/search-social-commerce/advertising-insights/insight-delete.md)
    + 보고서 {#reports}
       + [보고서 기본 정보](/help/search-social-commerce/reports/report-about.md)
       + [보고서의 초기 설정 작업](/help/search-social-commerce/reports/initial-setup.md)
@@ -429,21 +429,21 @@ ht-degree: 2%
       + [검색, 소셜 및 Commerce 추적 전환 지표를  [!DNL Google Ads]에 업로드합니다.](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [광고 네트워크에 목표 업로드 활성화](/help/search-social-commerce/tools/objective-upload-to-networks.md)
    + [!DNL Naver] 추적 전용 계정에 대한 지표 업로드 중 {#generic-tracking}
-      + [ [!DNL Naver] 추적 전용 계정에 대한 트래픽 및 전환 지표 업로드](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
-      + [ [!DNL Naver] 추적 전용 계정에 대한 지표 데이터 요구 사항](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
+      + [&#x200B; [!DNL Naver] 추적 전용 계정에 대한 트래픽 및 전환 지표 업로드](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
+      + [&#x200B; [!DNL Naver] 추적 전용 계정에 대한 지표 데이터 요구 사항](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
    + [추가 인벤토리 동기화 활성화](/help/search-social-commerce/tools/sync-inventory.md)
-   + [ [!DNL Google Ads] 의  [!DNL Microsoft Advertising]캠페인 복제](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
+   + [&#x200B; [!DNL Google Ads] 의  [!DNL Microsoft Advertising]캠페인 복제](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md)
 + 관리 {#admin}
    + [역할 기본 정보](/help/search-social-commerce/admin/role-about.md)
    + [광고 네트워크 관리자 계정의 자격 증명 관리](/help/search-social-commerce/admin/manager-accounts.md)
    + [동기화 [!DNL Adobe] 대상](/help/search-social-commerce/admin/sync-adobe-audiences.md)
    + 데이터 소스 구성 {#data-sources}
-      + [ [!DNL Google Analytics] 전환 지표 동기화 정보](/help/search-social-commerce/admin/data-sources/data-source-about.md)
-      + [ [!DNL Google Analytics] 데이터 원본을 구성하기 위한 필수 구성 요소](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
-      + [ [!DNL Google Analytics] 보기를 데이터 소스로 구성](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
-      + [ [!DNL Google Analytics] 데이터 원본 편집](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
+      + [&#x200B; [!DNL Google Analytics] 전환 지표 동기화 정보](/help/search-social-commerce/admin/data-sources/data-source-about.md)
+      + [&#x200B; [!DNL Google Analytics] 데이터 원본을 구성하기 위한 필수 구성 요소](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
+      + [&#x200B; [!DNL Google Analytics] 보기를 데이터 소스로 구성](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
+      + [&#x200B; [!DNL Google Analytics] 데이터 원본 편집](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
       + [데이터 소스 동기화 일시 중지](/help/search-social-commerce/admin/data-sources/data-source-pause.md)
-      + [ [!DNL Google Analytics] 데이터 원본 재인증](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
+      + [&#x200B; [!DNL Google Analytics] 데이터 원본 재인증](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] 데이터 원본 설정](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
       + [부록 - 사용 가능 [!DNL Google Analytics] 지표](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
    + 광고주의 전환 지표 관리{#conversion-metrics}
@@ -452,9 +452,9 @@ ht-degree: 2%
       + [관리 보기 및 보고서에서 사용할 수 있는 전환 지표 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [전환 지표에 대한 표시 이름 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
       + 광고 네트워크별 전환 태그 및 전환 작업/목표 관리 {#network-conversions}
-         + [ [!DNL Google Ads]에 대한 변환 태그 만들기](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+         + [&#x200B; [!DNL Google Ads]에 대한 변환 태그 만들기](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
          + 전환 작업 및 목표 관리 {#conversion-actions}
-            + [ [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+            + [&#x200B; [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
             + [향상된 전환을 위해 오프라인 전환 데이터 업로드](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [도움말 보기](get-help.md)
 + [용어집](glossary.md)
