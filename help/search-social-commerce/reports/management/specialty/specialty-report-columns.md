@@ -3,9 +3,9 @@ title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 83523acea2890272987ea9dcc1fe2f5ce4663c7e
 workflow-type: tm+mt
-source-wordcount: '2854'
+source-wordcount: '2922'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 | 열 | 설명 |
 |----|----|
-| \[광고주별 사용자 지정(파생) 지표\] | 만든 사용자 지정 지표의 값은 기존 지표에서 계산됩니다. |
+| \[광고주별 사용자 지정(파생) 지표\] | 생성한 사용자 지정 지표의 값은 기존 지표에서 계산됩니다. |
 | \[광고주별 전환 지표\] | 지정된 전환 지표 또는 사이트 참여 지표에 대한 전환 수입니다. |
 | [!UICONTROL Absolute Top Impression Rate Percent] | 검색 결과 상단의 첫 번째 위치에 표시된 광고 노출 비율입니다. |
 | [!UICONTROL Absolute Top Impression Share Lost To Budget Percent] | 일별 또는 월별 예산이 너무 낮기 때문에 검색 결과 맨 위의 첫 번째 위치에 광고가 표시되지 않은 예상 시간의 백분율입니다. |
@@ -59,7 +59,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign Name] | 캠페인. |
 | [!UICONTROL Campaign Start Date] | ([!UICONTROL Campaign Daily Impression Share Report]) 캠페인에 대한 입찰이 이루어진 첫 번째 날입니다. |
 | [!UICONTROL Campaign Status] | 캠페인 상태: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, *[!UICONTROL Ended]* 또는 *[!UICONTROL Deleted]*. |
-| [!UICONTROL Category] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) 첫 번째 수준부터 다섯 번째 수준까지 [!DNL Google] 제품 범주입니다. |
+| [!UICONTROL Category]&#x200B;([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) 첫 번째 수준부터 다섯 번째 수준까지 [!DNL Google] 제품 범주입니다. |
 | [!UICONTROL Channel Type] | 마케팅 채널 유형: *[!UICONTROL Search]* 또는 *[!UICONTROL Content]*. 보고서 설정에서 보고서의 [!UICONTROL Search/Content] 설정이 &quot;[!UICONTROL Combined]&quot;인 경우 이 열은 포함되지 않습니다. |
 | [!UICONTROL City] | ([!UICONTROL AdWords Geo Report] 및 [!UICONTROL Bing Ads Geo Report]) 클릭이 시작된 도시입니다. 사용자의 IP 주소에서 결정됩니다. |
 | [!UICONTROL Click Match Type] | ([!UICONTROL Keyword Daily Impression Share Report]) 클릭한 광고에 대한 키워드 일치 유형입니다. 이 값은 일치 유형이 여러 개인 [!DNL Microsoft Advertising] 키워드를 제외하고 목록 일치 유형과 동일합니다. [!DNL Microsoft Advertising] 키워드의 경우 이 값은 실제로 클릭한 일치 유형입니다. |
@@ -68,7 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | ([!DNL Google Ads]만 해당; [!UICONTROL Campaign Daily Impression Share Report]) 디스플레이/대상 네트워크의 광고에 대해 받은 노출 횟수를 받을 수 있는 예상 노출 횟수로 나눈 값입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | ([!DNL Google Ads]만 해당; [!UICONTROL Campaign Daily Impression Share Report]) 일별 또는 월별 예산이 너무 낮아서 디스플레이/대상 네트워크에 있는 광고가 받지 못한 예상 노출 비율입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | ([!DNL Google Ads]만 해당; [!UICONTROL Campaign Daily Impression Share Report]) 광고 등급이 낮아 디스플레이/대상 네트워크에 광고가 표시되지 않은 예상 노출 비율입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다. |
-| [!UICONTROL Cost Micros] | ([!UICONTROL Google Asset Group Performance Report]) 지정한 기간 동안 CPC(Cost-per-Click) 비용과 CPM(Cost-per-Thousands) 비용의 합계입니다. |
+| [!UICONTROL Cost Micros] | ([!UICONTROL Google Asset Group Performance Report]) 지정한 기간 동안 CPC(클릭당 비용)와 천 단위 노출 수(CPM) 비용의 합계입니다. |
 | [!UICONTROL Conversion Rate] | 전환 수를 총 클릭 수로 나눈 값입니다. |
 | [!UICONTROL Conversion Type] | 광고주의 웹 사이트에서 추적된 사용자 정의 전환 유형입니다. |
 | [!UICONTROL Conversions] | ([!UICONTROL MSA Ad Extension] 및 [!UICONTROL Google Asset Group Performance] 보고서) 지정된 기간의 전환 값입니다. [!UICONTROL MSA Ad Extension]의 경우 판매 또는 다른 성공 측정값이 발생한 클릭 수입니다. |
@@ -86,14 +86,15 @@ ht-degree: 0%
 | [!UICONTROL Creative Name] | (트랜잭션 보고서; [!DNL Yahoo! Japan]만 해당) 광고 이미지 이름입니다. |
 | [!UICONTROL Creative Title] | 광고의 제목 또는 헤드라인입니다. |
 | [!UICONTROL CTR] | 클릭스루 비율(클릭 수를 포함된 광고에 대한 노출 횟수로 나눈 값) |
-| [!UICONTROL Current Quality Score] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인만 해당) 광고 네트워크에서 지정한 키워드 또는 입찰 단위의 현재 품질 점수입니다. 범위는 1(낮음)부터 10(완벽)까지입니다. 단일 키워드 및 일치 유형 조합의 경우 이 값은 해당 조합의 현재 점수입니다. 여러 캠페인에서 동일한 키워드 및 일치 유형 조합을 사용하는 경우 이 값은 모든 인스턴스 중 최대 현재 점수입니다.<br><br>광고 네트워크에서 품질 점수를 사용하여 입찰 가격 및 광고 위치를 결정합니다. 관련 광고 및 사용자의 검색 쿼리와 랜딩 페이지의 품질 관련 등 여러 요인에 따라 계산됩니다. [!DNL Google Ads]의 키워드의 경우 키워드의 클릭스루 비율도 고려되며 [!DNL Microsoft Advertising]의 키워드의 경우 랜딩 페이지에서 제공하는 사용자 경험도 고려됩니다. |
+| [!UICONTROL Current Quality Score] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인만 해당) 광고 네트워크에서 지정한 키워드 또는 입찰 단위의 현재 품질 점수입니다. 범위는 1(낮음)부터 10(완벽)까지입니다. 단일 키워드 및 일치 유형 조합의 경우 이 값은 해당 조합의 현재 점수입니다. 여러 캠페인에서 동일한 키워드 및 일치 유형 조합을 사용하는 경우 이 값은 모든 인스턴스 중 최대 현재 점수입니다.<br><br>광고 네트워크에서 품질 점수를 사용하여 입찰 가격 및 광고 위치를 결정합니다. 관련 광고 및 사용자의 검색 쿼리와 랜딩 페이지의 품질을 포함한 많은 요소에 따라 계산됩니다. [!DNL Google Ads]의 키워드의 경우 키워드의 클릭스루 비율도 고려되며 [!DNL Microsoft Advertising]의 키워드의 경우 랜딩 페이지에서 제공하는 사용자 경험도 고려됩니다. |
 | [!UICONTROL Delivered Match Type] | ([!UICONTROL MSA Ad Extension]개 보고서) 광고를 게재하는 데 사용되는 광고 네트워크의 일치 유형입니다. |
 | [!UICONTROL Device OS] | 광고가 표시되거나 클릭한 장치의 운영 체제입니다. |
 | [!UICONTROL Device Type] | 광고가 표시되거나 클릭된 장치:<ul><li>*[!UICONTROL desktop]*: 데스크톱 컴퓨터</li><li>*[!UICONTROL mobile]*: 전체 브라우저가 있는 모바일 장치</li><li>*[!UICONTROL tablet]*: 전체 브라우저가 있는 태블릿</li></ul> |
+| [!UICONTROL Display Name] | ([!UICONTROL Google Performance Max Placement Report]) 배치에 표시되는 이름(예: 웹 사이트 URL, 모바일 앱 이름 또는 [!DNL YouTube] 비디오 이름). |
 | [!UICONTROL eCPM] | 유효 CPM 또는 지정된 날짜 범위 동안 1000회 노출당 지급된 평균 비용입니다. eCPM 값은 CPM 또는 CPC 캠페인에 대해 계산됩니다. |
 | [!UICONTROL EF Campaign ID] | Search, Social 및 Commerce이 캠페인에 할당하는 숫자 ID입니다. |
 | [!UICONTROL EF Portfolio Group ID] | 포트폴리오가 속한 포트폴리오 그룹의 숫자 ID입니다. |
-| [!UICONTROL EF Search Engine ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. [!DNL Google Ads]의 <i>[!UICONTROL 3]</i>, [!DNL Microsoft Advertising]의 <i>[!UICONTROL 10]</i>, [!DNL Meta]의 <i>[!UICONTROL 45]</i>, [!DNL Yahoo! Display Network]의 <i>[!UICONTROL 86]</i>, [!DNL Naver]의 <i>[!UICONTROL 87]</i>, [!DNL Baidu]의 <i>[!UICONTROL 88]</i>, [!DNL Yandex]의 <i>[!UICONTROL 90]</i>, [!DNL Yahoo! Japan Ads]의 <i>[!UICONTROL 94]</i>, [!DNL Yahoo Native]의 <i>[!UICONTROL 105]</i>(더 이상 사용되지 않음) 또는 [!DNL Pinterest]의 <i>[!UICONTROL 106]</i>(더 이상 사용되지 않음). |
+| [!UICONTROL EF Search Engine ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. <i>[!UICONTROL 3]</i>의 [!DNL Google Ads], <i>[!UICONTROL 10]</i>의 [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i>의 [!DNL Meta], <i>[!UICONTROL 86]</i>의 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i>의 [!DNL Naver], <i>[!UICONTROL 88]</i>의 [!DNL Baidu], <i>[!UICONTROL 90]</i>의 [!DNL Yandex], <i>[!UICONTROL 94]</i>의 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i>의 [!DNL Yahoo Native]&#x200B;(더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i>의 [!DNL Pinterest]&#x200B;(더 이상 사용되지 않음). |
 | [!UICONTROL End Date] | 마지막으로 보고된 날짜입니다. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension]개 보고서) [확장의 표시 이름](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension]개 보고서) 광고 확장 유형에 대한 ID입니다. |
@@ -129,15 +130,17 @@ ht-degree: 0%
 | [!UICONTROL Network Type] | 광고가 표시된 네트워크:<ul><li>*[!UICONTROL google_search]*: [!DNL Google Search Network]</li><li>*[!UICONTROL search_partners]* [!DNL Google Search Partners]</li><li>*[!UICONTROL display_network]*: [!DNL Google Display Network]</li></ul> |
 | [!UICONTROL Path1] | ([!UICONTROL Google Asset Group Performance Report]) 광고의 표시 URL에 추가할 수 있는 첫 번째 텍스트 집합입니다. |
 | [!UICONTROL Path2] | ([!UICONTROL Google Asset Group Performance Report]) 광고의 표시 URL에 추가할 수 있는 두 번째 텍스트 집합입니다. 이 필드는 Path1 값이 지정된 경우에만 사용할 수 있습니다. |
+| [!UICONTROL Placement] | ([!UICONTROL Google Performance Max Placement Report]) 배치 이름입니다. |
+| [!UICONTROL Placement Type] | ([!UICONTROL Google Performance Max Placement Report]) 광고가 제공된 배치 유형: *[!UICONTROL Mobile App]*, *[!UICONTROL YouTube Video]*(광고가 [!DNL YouTube] 비디오에 표시되거나 옆에 표시됨) 또는 *[!UICONTROL Webpage]*. |
 | [!UICONTROL Portfolio Group Name] | 포트폴리오가 속한 포트폴리오 그룹의 이름입니다. |
 | [!UICONTROL Portfolio ID] | 숫자 포트폴리오 ID입니다. |
 | [!UICONTROL Portfolio Name] | 포트폴리오입니다. |
 | [!UICONTROL Portfolio Spend Strategy] | (Portfolio 보고서) 포트폴리오의 지출 전략: *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, *[!UICONTROL ROI]*, *[!UICONTROL Day of week]*, *[!UICONTROL Day of month]*, *[!UICONTROL CPT]*, *[!UICONTROL Marginal CPT]*, *[!UICONTROL Google Target CPA]* 또는 *[!UICONTROL Google Target ROAS]*. |
 | [!UICONTROL Portfolio Status] | 포트폴리오 상태:<ul><li>*[!UICONTROL Optimize]*: 최적화 기능은 관련 캠페인에 대한 클릭 및 매출 데이터를 수집하고, 최적화에 사용된 데이터를 모델링하고, 입찰, 캠페인 예산 및 캠페인 입찰 전략 대상(최적화 유형 및 입찰 전략에 따라)을 최적화하는 것입니다.</li><li>*[!UICONTROL Active]*: 최적화 기능이 관련 캠페인에 대한 클릭 및 매출 데이터를 수집하고 데이터를 모델링하고 있지만 입찰 또는 캠페인 예산을 최적화하지 않습니다.</li><li>*[!UICONTROL Inactive]*: 최적화 기능이 보고 목적으로 관련 캠페인에 대한 클릭 데이터를 수집하고 있지만 데이터를 모델링하거나 입찰 또는 캠페인 예산을 최적화하지 않습니다.</li></ul> |
 | [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) 자산 그룹이 최대 용량으로 사용되고 있거나 사용되고 있지 않은 이유. 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다. 값에는 *적격,* *제한,* *NOT_적격,* *일시 중지됨,* *보류 중,* *제거됨,* *알 수 없음,* 또는 *지정되지 않음.*&#x200B;이 포함될 수 있습니다. |
-| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨&rbrace;이 포함될 수 있습니다.* |
+| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨}이 포함될 수 있습니다.* |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report]) 광고에 표시된 제품의 제품 ID입니다. <b>참고:</b> 제품 목록에 추적 매개 변수 `ev_plx=<GMC product ID>`이(가) 포함된 경우에만 ID가 캡처됩니다. [!DNL Google Merchant Center] 내에 추가해야 합니다. |
-| [!UICONTROL Product Type] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) 첫 번째 수준부터 다섯 번째 수준까지의 제품 유형(제품 그룹에 대해 사용자가 직접 정의한 특성)입니다. |
+| [!UICONTROL Product Type]&#x200B;([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) 첫 번째 수준부터 다섯 번째 수준까지의 제품 유형(제품 그룹에 대해 사용자가 직접 정의한 특성)입니다. |
 | [!UICONTROL Query Match Type] | (AdWords 검색 쿼리 보고서) 검색 쿼리에 대한 키워드 일치 유형입니다. |
 | [!UICONTROL Region] | ([!UICONTROL AdWords Geo Report] 및 [!UICONTROL Bing Ads Geo Report]) 노출 또는 클릭이 시작된 지역 또는 미국/캐나다 주입니다. 사용자의 IP 주소에서 결정됩니다. |
 | [!UICONTROL Return on Ad Spend] | ([!UICONTROL MSA Ad Extension]개의 보고서) 총 수입을 지출로 나눈 비율로 표시합니다. |
@@ -168,6 +171,7 @@ ht-degree: 0%
 | [!UICONTROL Start Date] | 보고된 첫 번째 날. |
 | [!UICONTROL Status] | ([!UICONTROL Google Asset Group Performance Report]) 자산 그룹 상태입니다. |
 | [!UICONTROL Store ID] | 머천트 센터 스토어에 대한 광고 네트워크의 ID입니다. |
+| [!UICONTROL Target URL] | ([!UICONTROL Google Performance Max Placement Report]) 웹 사이트 또는 앱스토어의 모바일 앱 링크와 같은 배치용 URL 또는 [!DNL YouTube] 비디오용 URL입니다. |
 | [!UICONTROL title_part1] | ([!UICONTROL MSA Ad Extension by Ad Report]) 웹 사이트로 연결되는 광고의 첫 번째 줄입니다. |
 | [!UICONTROL title_part2] | ([!UICONTROL MSA Ad Extension by Ad Report]) 웹 사이트로 연결되는 광고의 두 번째 줄입니다. |
 | [!UICONTROL title_part3] | ([!UICONTROL MSA Ad Extension by Ad Report]) 웹 사이트로 연결되는 광고의 세 번째 줄입니다. |
