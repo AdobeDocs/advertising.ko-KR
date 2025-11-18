@@ -71,7 +71,7 @@ ht-degree: 0%
 
   ![지표 옵션](/help/creative/assets/metrics-option.png "지표 옵션")
 
-* [ 보기에서 ](experience-performance-details.md)경험에 대한 자세한 성능 데이터를 볼 수 있습니다[!UICONTROL Experiences].
+* [&#x200B; 보기에서 &#x200B;](experience-performance-details.md)경험에 대한 자세한 성능 데이터를 볼 수 있습니다[!UICONTROL Experiences].
 
 * 경험에서 성능을 모니터링하려면 [사용자 지정 Creative 보고서](/help/creative/report-manage.md)를 만드십시오.
 
