@@ -3,9 +3,9 @@ title: 사용자 정의 보고서 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: ae75e6110443d8b744f141df370160e02e4d725e
+source-git-commit: a643a2d255431c5ce93f2df092d92932d4cccc02
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,19 @@ ht-degree: 0%
 
 * 사전 구성된 보고서 템플릿
 
+   * **[!UICONTROL All-in Cost BETA]**: (Advertising Creative과 Advertising DSP을 모두 사용하는 광고주, Beta 기능) 이 보고서를 사용하여 Advertising DSP 지출이 Adobe Creative의 광고 제공으로 인한 것인지 확인하십시오. 캠페인, 패키지, 배치 및 광고 수준에서 크리에이티브, 속성, 타겟 및 기타 데이터를 볼 수 있습니다.
+
    * **[!UICONTROL Billing]:** 이 보고서를 사용하여 캠페인별 미디어 청구에 대한 지출 지표와 같은 주요 청구 지표를 이해할 수 있습니다. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
 
      >[!NOTE]
      >
      >이 보고서에는 청구 세그먼트에 대한 데이터가 포함됩니다. 사용자 또는 장치에 여러 세그먼트에 속하는 노출이 제공되는 경우 청구 가능한 세그먼트는 하나만 노출로 크레딧됩니다.
 
+   * **[!UICONTROL Content]:** 이 보고서를 사용하여 지정된 콘텐츠 차원(예: 장르, 프로덕션 품질 및 콘텐츠 등급)별로 노출 전달 및 기타 지표를 이해함으로써 타깃팅을 최적화하고 브랜드 안전을 보장할 수 있습니다. 보고서는 콘텐츠 차원 외에도 대부분의 표준 차원, 지표 및 필터를 포함합니다. 콘텐츠 차원별 데이터는 [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] 및 [!DNL Triplelift]에 사용할 수 있습니다. 콘텐츠 신호는 비트스트림 중에 게시자에 의해 전달되고 가용성의 영향을 받습니다.
+
    * **[!UICONTROL Conversion]:** 이 보고서를 사용하여 Adobe Advertising 전환 추적을 사용하여 캡처된 전환 지표에 따라 캠페인이 수행되는 방식을 이해합니다. 이 보고서에는 멀티 터치 속성이 포함됩니다.
 
-   * **[!UICONTROL Custom Creative Report]:**(Advertising Creative을 사용하는 광고주, Beta 기능) 이 보고서를 사용하여 Advertising Creative 광고 경험 전반에서 성과를 모니터링합니다.
+   * **[!UICONTROL Custom Creative]:**(Advertising Creative을 사용하는 광고주만 해당) 이 보고서를 사용하여 Advertising Creative 광고 경험 전반에서 성과를 모니터링합니다.
 
    * **[!UICONTROL Device]:** 미리 채워진 이 템플릿을 사용하여 장치 관련 차원별 주요 지표를 확인합니다.
 
@@ -64,20 +68,11 @@ ht-degree: 0%
 
    * **[!UICONTROL Geo]**: 미리 채워진 이 템플릿을 사용하여 지리적 차원별 주요 지표를 확인하십시오.
 
-   * **[!UICONTROL Margin]:** 이 보고서를 사용하여 캠페인이나 배치별 이익, 이익 및 기타 지출 지표와 같은 주요 지표를 볼 수 있습니다. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
-
-   * **[!UICONTROL Segment]:** 미리 채워진 이 템플릿을 사용하여 세그먼트별로 주요 지표를 확인합니다.
-
-     >[!NOTE]
-     >
-     >* 이 보고서는 다양한 타겟팅된 세그먼트의 성과를 보여 주기 위한 것입니다. 세그먼트 멤버십 데이터를 사용합니다. 노출이 두 개 이상의 타겟팅된 세그먼트에 속하는 개인 또는 디바이스에 제공되면 이 보고서에는 각 세그먼트에 대한 행이 한 개 포함됩니다. 이러한 이유로 이 보고서의 합계는 실제 게재와 일치하지 않을 수 있습니다.
-     >* 세그먼트에 대한 전환 지표 및 사용자 지정 목표 데이터는 2019년 8월 2일 이후에 사용할 수 있습니다. 세그먼트에 대한 다른 모든 데이터는 2018년 6월 1일 이후부터 사용할 수 있습니다.
-
-   * **[!UICONTROL Site]:** 기본적으로 표준 지표, 사이트별 총 미디어 순 지출 및 총 청구 가능 순 지출을 포함합니다.
+   * **[!UICONTROL Household Conversions]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 뷰스루 전환을 볼 수 있습니다. 이 인사이트를 사용하여 캠페인 성과를 측정하고 최적화할 수 있습니다. 자세한 내용은 &quot;[가구 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
 
    * **[!UICONTROL Household Reach & Frequency]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 단일 차원에 대한 노출 횟수, 도달 범위 및 빈도를 확인할 수 있습니다. 인사이트를 사용하여 미디어 믹스를 최적화하고, 성능을 개선하고, 증분 도달 기회를 식별합니다. 자세한 내용은 &quot;[가구 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
 
-   * **[!UICONTROL Household Conversions]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 뷰스루 전환을 볼 수 있습니다. 이 인사이트를 사용하여 캠페인 성과를 측정하고 최적화할 수 있습니다. 자세한 내용은 &quot;[가구 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
+   * **[!UICONTROL Margin]:** 이 보고서를 사용하여 캠페인이나 배치별 이익, 이익 및 기타 지출 지표와 같은 주요 지표를 볼 수 있습니다. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
 
    * **[!UICONTROL Path to Conversion]:** 이 보고서를 사용하여 성과가 가장 좋은 광고 상호 작용 시퀀스를 기반으로 예산을 최적화하고 광고를 개인화하는 방법을 확인하십시오. 이 보고서는 지정된 데이터 범위에서 선택한 각 전환 지표를 유도하는 동일한 가구의 상호 작용 포인트 시퀀스를 보여 줍니다. 보고서는 첫 번째 상호 작용과 전환 사이에 지정된 전환 확인 기간을 사용하며 다음 차원 하나를 포함할 수 있습니다.
 
@@ -99,15 +94,22 @@ ht-degree: 0%
 
      데이터는 최대 10의 각 경로 길이에 대해 표시되며, 10보다 큰 경로 길이에 대한 데이터는 함께 그룹화됩니다.
 
-   * **[!UICONTROL Time to Conversion]:** 이 보고서를 사용하여 최적의 속성 전환 확인 기간을 결정하고 전환 시간이 더 긴 캠페인을 식별하십시오. 전환 시간이 더 길어질 수 있으며, 이는 재타겟팅의 이점을 얻을 수 있습니다. 이 보고서는 마지막 상호 작용(광고 노출 또는 클릭)에서 전환까지의 시간(일)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다. 전환 확인 기간보다 오래 걸리는 전환은 한 행으로 그룹화됩니다(예: 보고서에서 30일 전환 확인 기간을 사용하는 경우, 발생하는 데 30일 이상 걸리는 모든 전환은 &quot;[!UICONTROL Time Taken (in days)]&quot; 값이 &quot;30+&quot;인 행으로 그룹화됨).
+   * **[!UICONTROL Segment]:** 미리 채워진 이 템플릿을 사용하여 세그먼트별로 주요 지표를 확인합니다.
 
-   * **[!UICONTROL Content]:** 이 보고서를 사용하여 지정된 콘텐츠 차원(예: 장르, 프로덕션 품질 및 콘텐츠 등급)별로 노출 전달 및 기타 지표를 이해함으로써 타깃팅을 최적화하고 브랜드 안전을 보장할 수 있습니다. 보고서는 콘텐츠 차원 외에도 대부분의 표준 차원, 지표 및 필터를 포함합니다. 콘텐츠 차원별 데이터는 [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] 및 [!DNL Triplelift]에 사용할 수 있습니다. 콘텐츠 신호는 비트스트림 중에 게시자에 의해 전달되고 가용성의 영향을 받습니다.
+     >[!NOTE]
+     >
+     >* 이 보고서는 다양한 타겟팅된 세그먼트의 성과를 보여 주기 위한 것입니다. 세그먼트 멤버십 데이터를 사용합니다. 노출이 두 개 이상의 타겟팅된 세그먼트에 속하는 개인 또는 디바이스에 제공되면 이 보고서에는 각 세그먼트에 대한 행이 한 개 포함됩니다. 이러한 이유로 이 보고서의 합계는 실제 게재와 일치하지 않을 수 있습니다.
+     >* 세그먼트에 대한 전환 지표 및 사용자 지정 목표 데이터는 2019년 8월 2일 이후에 사용할 수 있습니다. 세그먼트에 대한 다른 모든 데이터는 2018년 6월 1일 이후부터 사용할 수 있습니다.
+
+   * **[!UICONTROL Site]:** 기본적으로 표준 지표, 사이트별 총 미디어 순 지출 및 총 청구 가능 순 지출을 포함합니다.
+
+   * **[!UICONTROL Time to Conversion]:** 이 보고서를 사용하여 최적의 속성 전환 확인 기간을 결정하고 전환 시간이 더 긴 캠페인을 식별하십시오. 전환 시간이 더 길어질 수 있으며, 이는 재타겟팅의 이점을 얻을 수 있습니다. 이 보고서는 마지막 상호 작용(광고 노출 또는 클릭)에서 전환까지의 시간(일)별 전환 수를 보여줍니다. 보고서는 여러 전환 지표에 대한 데이터를 포함할 수 있으며 첫 번째 상호 작용과 전환 간에 지정된 전환 확인 기간을 사용합니다. 보고서의 열에는 &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;전환 지표 이름 1\>,&quot;% \&lt;전환 지표 이름 1\>,&quot; \&lt;전환 지표 이름 2\>,&quot;% \&lt;전환 지표 이름 2\> 등이 있습니다. 전환 확인 기간보다 오래 걸리는 전환은 한 행으로 그룹화됩니다(예: 보고서에서 30일 전환 확인 기간을 사용하는 경우, 발생하는 데 30일 이상 걸리는 모든 전환은 &quot;[!UICONTROL Time Taken (in days)]&quot; 값이 &quot;30+&quot;인 행으로 그룹화됨).
 
 ## 교차 계정 보고 {#cross-account-reporting}
 
 여러 DSP 계정이 있는 조직은 조직의 필요에 따라 선택적으로 사용자 지정 보고서에서 교차 계정 데이터를 활성화할 수 있습니다. 예를 들어 계정 A에게 계정 B의 데이터에 대한 액세스 권한을 부여하고 계정 B에게 계정 C의 (계정 A의 데이터는 아님) 데이터에 대한 액세스 권한을 부여할 수 있습니다. 이 기능을 활성화하고 구성하려면 Adobe 계정 팀에 문의하십시오.
 
-조직에 대해 기능이 활성화되면 [, &#x200B;](report-settings.md), [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo] 및 [!UICONTROL Device] 보고서 유형을 계정별로 [!UICONTROL Frequency (by Impression)]필터링[!UICONTROL Conversion]할 수 있습니다.
+조직에 대해 기능이 활성화되면 [, ](report-settings.md), [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo] 및 [!UICONTROL Device] 보고서 유형을 계정별로 [!UICONTROL Frequency (by Impression)]필터링[!UICONTROL Conversion]할 수 있습니다.
 
 [!UICONTROL Settings] > [!UICONTROL Account]의 계정 설정은 a) 계정에 데이터를 사용할 수 있는 다른 계정과 b) 계정의 데이터에 액세스할 수 있는 다른 계정을 나타냅니다.
 
@@ -125,7 +127,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Ready to download]:**(반복 보고서만 해당) 하나 이상의 보고서 인스턴스를 다운로드할 수 있으며 더 많은 보고서 인스턴스가 예약되어 있습니다.
 
-* **[!UICONTROL Failed]:** 보고서 작업이 실패했습니다. 보고서 견인에 대해 개별 보고서 인스턴스가 실패한 이유를 보려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png "아래쪽 화살표")아래쪽 화살표[!UICONTROL Download]를 클릭하십시오. 실패한 보고서 작업은 오류 아이콘(![오류 표시기](/help/dsp/assets/indicator-critical.png "오류 표시기"))으로 표시됩니다. 오류 설명을 보려면 커서를 오류 아이콘 위에 놓습니다.
+* **[!UICONTROL Failed]:** 보고서 작업이 실패했습니다. 보고서 견인에 대해 개별 보고서 인스턴스가 실패한 이유를 보려면 ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png "아래쪽 화살표")아래쪽 화살표[!UICONTROL Download]를 클릭하십시오. 실패한 보고서 작업은 오류 아이콘(![오류 표시기](/help/dsp/assets/indicator-critical.png "오류 표시기"))으로 표시됩니다. 오류 설명을 보려면 커서를 오류 아이콘 위에 놓습니다.
 
 * **[!UICONTROL Completed]:** 반복되지 않는 보고서의 경우 보고서가 완료됩니다. 반복 보고서의 경우 모든 보고서 인스턴스가 완료되었습니다. 지난 4개월 동안 완료된 모든 보고서를 다운로드할 수 있습니다.
 
