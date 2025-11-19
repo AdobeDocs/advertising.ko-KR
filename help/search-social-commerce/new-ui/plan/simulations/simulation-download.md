@@ -3,9 +3,10 @@ title: 시뮬레이션 다운로드
 description: 스프레드시트 파일에서 시뮬레이션을 다운로드하는 방법을 알아봅니다.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
+source-git-commit: f34bbc952d7d2a23349df718ea5eabab272bf3c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->많은 추가 지표와 대부분의 시뮬레이션 설정에 대한 열을 포함하도록 [[!UICONTROL Simulations] 보기를 사용자 지정](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)할 수도 있습니다. 포함할 수 있는 열에 대한 자세한 내용은 &quot;[시뮬레이션 정보](simulation-about.md#simulations-actions)에서 &quot;사용 가능한 작업&quot; 섹션을 참조하십시오.
+>* [시뮬레이션 결과를 화면에서 ](simulation-view.md)볼 수도 있습니다.
+>* 많은 추가 지표와 대부분의 시뮬레이션 설정에 대한 열을 포함하도록 [[!UICONTROL Simulations] 보기를 사용자 지정](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)할 수 있습니다. 포함할 수 있는 열에 대한 자세한 내용은 &quot;[시뮬레이션 정보](simulation-about.md#simulations-actions)에서 &quot;사용 가능한 작업&quot; 섹션을 참조하십시오.
 
 1. 메인 메뉴에서 **[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;을(를) 클릭합니다.
 
@@ -32,3 +34,4 @@ ht-degree: 0%
 >
 >* [시뮬레이션 정보](simulation-about.md)
 >* [시뮬레이션 실행 또는 다시 실행](simulation-create.md)
+>* [시뮬레이션 세부 정보 보기](simulation-view.md)
