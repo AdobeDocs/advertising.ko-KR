@@ -3,9 +3,9 @@ title: 광고 네트워크에 목표 업로드 활성화
 description: 하이브리드 포트폴리오의 목표를  [!DNL Google Ads] 및 [!DNL Microsoft Advertising]에 업로드하는 방법을 알아봅니다.
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 464fd13de476f2710536bea6540e0b9be4684395
+source-git-commit: 8b741fd9e5a2cb950bc7d8ba4f3307dab23e72fe
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Search, Social 및 Commerce에서 광고주 계정의 포트폴리오의 목표�
 
 여기서 `<network_ID>`은(는) Search, Social 및 Commerce에서 광고 네트워크에 사용하는 숫자 ID이고, `<objective_id>`은(는) 숫자 목표 ID이며, `<network_account_ID>`은(는) 광고 네트워크 계정 또는 관리자 계정에 대한 숫자 ID입니다.
 
-[!DNL Google Ads] 및 [!DNL Microsoft Advertising]&#x200B;(으)로의 업로드는 하루 종일, 때로는 매시간마다 발생합니다. 대형 계정 또는 사용자 지정 구성을 사용하는 광고주의 경우 업로드가 최소 하루에 세 번 발생합니다.
+[!DNL Google Ads] 및 [!DNL Microsoft Advertising]&#x200B;(으)로의 업로드는 하루 종일(보통 시간별) 발생합니다. 대형 계정 또는 사용자 지정 구성을 사용하는 광고주의 경우 업로드가 최소 하루에 세 번 발생합니다.
 
 >[!IMPORTANT]
 >
@@ -40,7 +40,7 @@ Search, Social 및 Commerce에서 광고주 계정의 포트폴리오의 목표�
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-1. (전환이 관리자 계정 수준에서 추적되는 경우) [&#x200B; > &#x200B;](/help/search-social-commerce/admin/manager-accounts.md) > **[!UICONTROL Search, Social, & Commerce]에서 [!UICONTROL Admin]관리자 계정에 대한 자격 증명을 추가[!UICONTROL Manager Accounts]**&#x200B;합니다.
+1. (전환이 관리자 계정 수준에서 추적되는 경우) [ > ](/help/search-social-commerce/admin/manager-accounts.md) > **[!UICONTROL Search, Social, & Commerce]에서 [!UICONTROL Admin]관리자 계정에 대한 자격 증명을 추가[!UICONTROL Manager Accounts]**&#x200B;합니다.
 
 1. 광고 네트워크에 이틀 안에 `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`(이)라는 각 목표가 표시되는지 확인하십시오.
 
@@ -50,7 +50,7 @@ Search, Social 및 Commerce에서 광고주 계정의 포트폴리오의 목표�
 
 ## 가중 목표 계산 방법
 
-광고 네트워크에 전달된 가중 목표는 [!DNL Google Ads] 또는 [!DNL Microsoft Advertising] UET(범용 이벤트 추적) 태그에 의해 추적된 전환을 제외하고 수집된 모든 지표 값의 합계입니다. 값은 광고주의 Search, Social 및 Commerce 계정에 대해 설정된 속성 방법을 사용하여 계산됩니다.
+광고 네트워크에 전달된 가중 목표는 [!DNL Google Ads] 또는 [!DNL Microsoft Advertising] UET(범용 이벤트 추적) 태그에 의해 추적된 전환을 제외하고 수집된 모든 지표 값의 합계입니다. 이 값은 광고주의 검색, 소셜 및 Commerce 계정에 대해 설정된 속성 방법을 사용하여 계산됩니다.
 
 예를 들어 목표의 목표 지표가 가중치가 25인 장바구니 추가이고, 지원 지표에는 가중치가 1인 GGL_Lead 및 매출 과 가중치가 0.5인 다운로드 가 있다고 가정해 보겠습니다.
 
