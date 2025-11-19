@@ -3,9 +3,10 @@ title: 사용자 지정 시뮬레이션 실행 또는 재실행
 description: 포트폴리오에 대한 사용자 지정 시뮬레이션을 실행하거나 다시 실행하는 방법을 알아봅니다.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
+source-git-commit: d96e003346c7cc3c1803c8cba259f2b18d839168
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -107,4 +108,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [시뮬레이션 정보](simulation-about.md)
+>* [시뮬레이션 세부 정보 보기](simulation-view.md)
 >* [시뮬레이션 다운로드](simulation-download.md)
