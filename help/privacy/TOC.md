@@ -14,8 +14,8 @@ ht-degree: 56%
 
 # Adobe Advertising 고객 개인정보 보호 지원 {#privacy}
 
-+ [소비자 개인 정보 보호를 위한 Adobe Advertising 지원 정보](/help/privacy/home.md)
++ [소비자 개인정보 보호를 위한 Adobe Advertising 지원 정보](/help/privacy/home.md)
 + [GDPR 지원](/help/privacy/gdpr.md)
-+ CCPA에 대한 지원 {#ccpa}
++ CCPA 지원 {#ccpa}
    + [CCPA: 소비자 데이터 액세스 및 삭제 지원](/help/privacy/ccpa/ccpa-access-delete.md)
-   + [(DSP만 해당) CCPA 지원: 소비자 판매 중지](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+   + [(DSP만 해당) CCPA: 소비자 판매 중지 지원](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)

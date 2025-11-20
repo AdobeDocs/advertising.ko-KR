@@ -32,8 +32,8 @@ ht-degree: 3%
       + [크로스 디바이스 솔루션](/help/dsp/introduction/features/cross-device-solutions.md)
    + [계정 자금 조달](/help/dsp/introduction/billing/account-funding.md)
    + [지원되는 통화](/help/dsp/currency.md)
-   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)
 + 캠페인 관리 {#campaign-management}
    + [캠페인 관리 구조 개요](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -80,11 +80,11 @@ ht-degree: 3%
       + [인증 광고 서비스 제공 파트너](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [단일 광고 만들기](/help/dsp/campaign-management/ads/ad-create.md)
       + [여러 타사 광고 만들기](/help/dsp/campaign-management/ads/ad-create-multiple.md)
-      + [[!DNL Flashtalking] (으)로 광고 만들기](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [ [!DNL Flashtalking](으)로 광고 만들기](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [스프레드시트를 사용하여 광고 세부 정보 검토](/help/dsp/campaign-management/ads/ad-qa.md)
       + [광고 편집](/help/dsp/campaign-management/ads/ad-edit.md)
       + [광고 복제](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [배치에서 광고 첨부 및 제거](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=ko)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [배치에서 광고 첨부 및 제거](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [광고에 대한 상세 보고서 보기](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [광고 일시 중지 또는 활성화](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -113,7 +113,7 @@ ht-degree: 3%
    + [Campaign 관리에 대한 FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
    + [범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 + 최적화 {#optimization}
-   + [&#x200B; [!DNL DSP] 캠페인을 최적화하는 방법](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+   + [ [!DNL DSP] 캠페인을 최적화하는 방법](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md)
    + [배치 수준 사전 입찰 필터 및 사용 방법](/help/dsp/optimization/optimization-pre-bid-filters.md)
    + [사용자 정의 목표](/help/dsp/optimization/custom-goal.md)
@@ -151,22 +151,22 @@ ht-degree: 3%
          + [사용자 ID를  [!DNL Optimizely] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-optimizely.md)
          + [사용자 ID를  [!DNL Tealium] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-tealium.md)
       + [범용 ID 대상을 활성화하기 위한 대상 소스 관리](/help/dsp/audiences/sources/source-manage.md)
-   + [&#x200B; [!DNL LiveRamp]에서 인증된 세그먼트 수동으로 가져오기](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+   + [ [!DNL LiveRamp]에서 인증된 세그먼트 수동으로 가져오기](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [사용 가능한 타사 데이터 공급자](/help/dsp/audiences/third-party-data-providers.md)
 + 인벤토리 {#inventory}
    + [재고 기능 개요](/help/dsp/inventory/inventory-overview.md)
-   + [&#x200B; [!DNL Roku Inventory] 사용 중](/help/dsp/inventory/roku-inventory.md)
+   + [ [!DNL Roku Inventory] 사용 중](/help/dsp/inventory/roku-inventory.md)
    + [SSP 파트너](/help/dsp/inventory/ssp-partners.md)
    + [!DNL On Demand] 인벤토리 {#on-demand}
-      + [&#x200B; [!DNL On Demand] Premium 인벤토리 정보](/help/dsp/inventory/on-demand-inventory-about.md)
+      + [ [!DNL On Demand] Premium 인벤토리 정보](/help/dsp/inventory/on-demand-inventory-about.md)
       + 사용 가능한 [!DNL On Demand] 프리미엄 인벤토리 게시자 {#publishers}
          + [아시아 태평양의 [!DNL On Demand] 프리미엄 인벤토리 게시자](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
          + [오스트레일리아 및 뉴질랜드의 [!DNL On Demand] 프리미엄 인벤토리 게시자](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
          + [유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자 [!DNL On Demand]명](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
          + [북미의 Premium 인벤토리 게시자 [!DNL On Demand]명](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [&#x200B; [!DNL On Demand] Premium 인벤토리 거래 구독 및 액세스 요청](/help/dsp/inventory/on-demand-inventory-subscribe.md)
-      + [&#x200B; [!DNL On Demand] Premium 인벤토리 거래 재요청](/help/dsp/inventory/on-demand-inventory-rerequest.md)
-      + [&#x200B; [!DNL On Demand] 거래 요청 및 구독 상태 보기](/help/dsp/inventory/on-demand-inventory-view-status.md)
+      + [ [!DNL On Demand] Premium 인벤토리 거래 구독 및 액세스 요청](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [ [!DNL On Demand] Premium 인벤토리 거래 재요청](/help/dsp/inventory/on-demand-inventory-rerequest.md)
+      + [ [!DNL On Demand] 거래 요청 및 구독 상태 보기](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + 비공개 인벤토리 {#private-inventory}
       + [비공개 인벤토리 정보](/help/dsp/inventory/private-inventory-about.md)
       + 거래 ID {#deal-ids}
@@ -181,9 +181,9 @@ ht-degree: 3%
             + [프로그램 보증 거래 협상을 위한 팁](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [프로그램 보증 거래 설정](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + 프로그램 보증 거래 [!DNL FreeWheel]개 {#freewheel}
-               + [&#x200B; [!DNL FreeWheel]의 프로그램 보증 거래 설정 개요](/help/dsp/inventory/freewheel-overview.md)
+               + [ [!DNL FreeWheel]의 프로그램 보증 거래 설정 개요](/help/dsp/inventory/freewheel-overview.md)
                + [프로그램 보증 거래에 대한 광고를  [!DNL FreeWheel]에 제출](/help/dsp/inventory/freewheel-submit.md)
-               + [&#x200B; [!DNL FreeWheel] 프로그램 보증 거래의 광고 상태 확인](/help/dsp/inventory/freewheel-check-status.md)
+               + [ [!DNL FreeWheel] 프로그램 보증 거래의 광고 상태 확인](/help/dsp/inventory/freewheel-check-status.md)
                + [FreeWheel 광고 제출을 위한 오류 코드](/help/dsp/inventory/freewheel-error-codes.md)
       + [비공개 거래 설정 편집](/help/dsp/inventory/deal-id-edit.md)
       + [비공개 거래에 대한 배치 및 광고 지정](/help/dsp/inventory/deal-id-attach-placements.md)
@@ -239,6 +239,6 @@ ht-degree: 3%
    + 알림 {#notifications}
       + [경고 구독 기본 정보](/help/dsp/admin/alerts-about.md)
       + [경고 구독 관리](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ko)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [도움말 보기](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)
++ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
