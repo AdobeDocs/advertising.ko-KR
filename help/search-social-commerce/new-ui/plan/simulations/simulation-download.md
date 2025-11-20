@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* [시뮬레이션 결과를 화면에서 ](simulation-view.md)볼 수도 있습니다.
+>* [시뮬레이션 결과를 화면에서 &#x200B;](simulation-view.md)볼 수도 있습니다.
 >* 많은 추가 지표와 대부분의 시뮬레이션 설정에 대한 열을 포함하도록 [[!UICONTROL Simulations] 보기를 사용자 지정](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)할 수 있습니다. 포함할 수 있는 열에 대한 자세한 내용은 &quot;[시뮬레이션 정보](simulation-about.md#simulations-actions)에서 &quot;사용 가능한 작업&quot; 섹션을 참조하십시오.
 
 1. 메인 메뉴에서 **[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;을(를) 클릭합니다.
