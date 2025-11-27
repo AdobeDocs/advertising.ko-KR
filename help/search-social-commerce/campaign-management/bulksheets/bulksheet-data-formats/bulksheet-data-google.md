@@ -3,9 +3,9 @@ title: ' [!DNL Google Ads] 계정의 필수 일괄 시트 데이터'
 description: ' [!DNL Google Ads] 계정의 일괄 시트에 있는 필수 머리글 필드 및 데이터 필드를 참조합니다.'
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 6063d7fac0df863e4d4e06ce23603a5f678073e1
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
-source-wordcount: '7860'
+source-wordcount: '7859'
 ht-degree: 0%
 
 ---
@@ -38,13 +38,13 @@ ht-degree: 0%
 | [!UICONTROL Campaign Name] | 계정에 대한 캠페인을 식별하는 고유한 이름. |
 | [!UICONTROL Campaign Budget] | 금전적 기호와 구두점을 포함하거나 포함하지 않는 캠페인에 대한 일일 지출 제한. 이 값은 재정의되지만 계정 예산을 초과할 수 없습니다. |
 | [!UICONTROL Delivery Method] | <p>매일 캠페인에 대한 광고를 표시하는 속도:</p><ul><li><p><i>[!UICONTROL Standard (Distributed)]</i>(새 캠페인의 기본값): 광고 노출 횟수를 하루 전체에 분산합니다.</p></li><li><p><i>[!UICONTROL Accelerated]:</i>(2019년 10월에 더 이상 사용되지 않음) 예산에 도달할 때까지 가능한 한 자주 광고를 표시합니다. 그 결과, 오늘 오후에 광고가 표시되지 않을 수 있습니다.</p></li></ul> |
-| [!UICONTROL Channel Type] | <p>광고를 게재할 채널. 하나 이상의 옵션을 지정합니다.</p><ul><li><p><i>[!UICONTROL Search]</i>(새 캠페인의 기본값): [!DNL Google Ads] 검색 네트워크([!DNL Google Ads] 검색 및 검색 파트너 웹 사이트 포함)와 선택적으로 [!DNL Google Ads] 디스플레이 네트워크에도 광고를 게재합니다. <b>참고:</b> 검색 네트워크와 디스플레이 네트워크를 모두 대상으로 하는 캠페인은 입찰 최적화를 위해 포트폴리오에 추가할 수 없습니다.</p></li><li><p><i>[!UICONTROL Display]</i>: [!DNL Google Ads] 디스플레이 네트워크에만 광고를 배치합니다.</p></li><li><p><i>[!UICONTROL Shopping]</i>: [!DNL Google Ads] 쇼핑 네트워크(일부 국가)와 [!DNL Google Ads] 검색 네트워크(검색 및 검색 파트너 웹 사이트 [!DNL Google Ads]개 포함)에 쇼핑 광고를 게재합니다. 쇼핑 광고를 만들려면 [!DNL Google Merchant Center] 계정에 제품이 있어야 하며 [검색, 소셜 및 Commerce에서 계정에서 데이터를 다운로드하도록 허용](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)해야 합니다. 쇼핑 광고를 만드는 프로세스에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 2&rbrace;&quot;을 참조하십시오.](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)</p></li></ul> |
+| [!UICONTROL Channel Type] | <p>광고를 게재할 채널. 하나 이상의 옵션을 지정합니다.</p><ul><li><p><i>[!UICONTROL Search]</i>(새 캠페인의 기본값): [!DNL Google Ads] 검색 네트워크([!DNL Google Ads] 검색 및 검색 파트너 웹 사이트 포함)와 선택적으로 [!DNL Google Ads] 디스플레이 네트워크에도 광고를 게재합니다. <b>참고:</b> 검색 네트워크와 디스플레이 네트워크를 모두 대상으로 하는 캠페인은 입찰 최적화를 위해 포트폴리오에 추가할 수 없습니다.</p></li><li><p><i>[!UICONTROL Display]</i>: [!DNL Google Ads] 디스플레이 네트워크에만 광고를 배치합니다.</p></li><li><p><i>[!UICONTROL Shopping]</i>: [!DNL Google Ads] 쇼핑 네트워크(일부 국가)와 [!DNL Google Ads] 검색 네트워크(검색 및 검색 파트너 웹 사이트 [!DNL Google Ads]개 포함)에 쇼핑 광고를 게재합니다. 쇼핑 광고를 만들려면 [!DNL Google Merchant Center] 계정에 제품이 있어야 하며 [검색, 소셜 및 Commerce에서 계정에서 데이터를 다운로드하도록 허용](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)해야 합니다. 쇼핑 광고를 만드는 프로세스에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 2}&quot;을 참조하십시오.](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)</p></li></ul> |
 | [!UICONTROL Networks] | <p>광고를 배치할 위치. 하나 이상의 옵션을 지정합니다.</p><ul><li><p><i>[!UICONTROL Google Search]</i>: Google Search Network에서만 스폰서 검색 목록을 제공합니다.</p></li><li><p><i>[!UICONTROL Search Partners]</i>: Google의 검색 파트너에 대한 스폰서 검색 목록입니다.</p></li><li><p><i>[!UICONTROL Content]</i>: 네트워크 목록 표시에 대한 입찰을 진행합니다.</p></li><li><p><i>[!UICONTROL All]</i>(새 캠페인의 기본값): Google 검색, 파트너 검색 및 콘텐츠를 타깃팅합니다.</p></li></ul> |
 | [!UICONTROL DSA Domain Name] | <p>(Search Network만 해당, 확장된 동적 검색 광고에만 적용) 광고 네트워크가 동적 검색 광고를 타깃팅하는 데 사용하는 콘텐츠가 있는 웹 사이트의 루트 도메인(예: example.com) 또는 하위 도메인(예: shoes.example.com)입니다.<br><br><b>메모:</b></p><ul><li><p>확장된 동적 검색 광고는 키워드가 아닌 웹 사이트 콘텐츠를 타겟팅합니다.</p></li><li><p>타겟팅할 광고 네트워크의 유기 검색 색인으로 도메인을 색인화해야 합니다.</p></li><li><p>도메인을 지정하지 않는 경우 각 광고 그룹에 대해 모든 웹 사이트 페이지 또는 그 하위 집합을 타겟팅하는 동적 검색 타겟을 만들어야 합니다.</p></li></ul> |
 | [!UICONTROL DSA Domain Language] | (검색 네트워크만 해당, 확장된 동적 검색 광고에만 해당) 지정된 웹 사이트 도메인의 언어입니다. <b>참고:</b> 도메인에 여러 언어로 된 페이지가 포함되어 있고 이러한 페이지를 모두 대상으로 지정하려면 각 언어에 대해 별도의 캠페인을 만드십시오. |
 | [!UICONTROL GDN Custom Bid Level] | (디스플레이 네트워크만 대상으로 하는 캠페인) 입찰 방법: <i>[!UICONTROL Ad Group]</i>(기본값), <i>[!UICONTROL Keyword]</i>, <i>[!UICONTROL Placement]</i>(웹 사이트) 또는 <i>[!UICONTROL None]</i>(기존 값을 다시 설정). 다른 차원(<i>연령</i>, <i>성별</i>, <i>관심 항목 및 목록</i>, <i>주제</i> 및 <i>수직</i>)은 [!DNL Google Ads] 인터페이스에서 사용할 수 있습니다. [!DNL Google Ads] 인터페이스를 사용하여 다른 차원별 입찰을 구성한 경우 해당 값이 표시되지만 여기에서 해당 차원을 선택하거나 입력할 수 없습니다.</p><p><b>참고:</b></p><ul><li><p>키워드로 입찰하면 키워드 수준에서 추적 템플릿을 만듭니다. 마찬가지로, 배치로 입찰하는 경우 배치 수준에서 추적 템플릿을 만듭니다. 다른 모든 차원에 대해 광고 수준에서 추적 템플릿을 만듭니다.</p></li><li><p>지원되지 않는 차원(연령, 성별, 관심사 및 목록 또는 주제)으로 입찰하는 경우 검색, 소셜 및 Commerce이 차원에 대한 입찰을 최적화하지 않으며 모든 속성이 광고 그룹에 적용됩니다.</p></li><li><p>검색 네트워크의 광고는 항상 키워드 입찰을 사용합니다.</p></li></ul> |
 | [!UICONTROL Campaign Priority] | <p>(쇼핑 캠페인만 해당) 여러 캠페인이 동일한 제품을 광고할 때 사용하는 우선 순위입니다. <i>[!UICONTROL Low]</i>(새 캠페인의 기본값), <i>[!UICONTROL Medium]</i> 또는 <i>[!UICONTROL High]</i>.</p><p>동일한 제품이 둘 이상의 캠페인에 포함된 경우 광고 네트워크는 캠페인 우선 순위를 먼저 사용하여 광고 경매에 적합한 캠페인(및 관련 입찰)을 결정합니다. 모든 캠페인이 동일한 우선 순위를 갖는 경우 입찰이 가장 높은 캠페인이 적격입니다. |
-| [!UICONTROL Merchant ID] | (판매자 피드에만 연결된 쇼핑 캠페인 및 대상 캠페인) 캠페인에 제품이 사용되는 판매자 계정의 고객 ID입니다. |  |
+| [!UICONTROL Merchant ID] | (판매자 피드에만 연결된 쇼핑 캠페인 및 대상 캠페인) 캠페인에 제품이 사용되는 판매자 계정의 고객 ID입니다. |
 | [!UICONTROL Sales Country] | (쇼핑 캠페인 전용, 기존 캠페인의 경우 읽기 전용) 캠페인의 제품이 판매되는 국가입니다. 제품은 대상 국가와 연결되어 있으므로 이 설정은 캠페인에 광고되는 제품을 결정합니다. |
 | [!UICONTROL Product Scope Filter] | ([!DNL Google Ads] 쇼핑 네트워크만 사용하는 캠페인) [!DNL Google Merchant Center] 계정의 제품에서 캠페인에 대한 쇼핑 광고를 만들 수 있습니다. dimension=attribute 형식을 사용하여 제품을 필터링할 제품 차원 및 속성 조합을 최대 7개까지 입력할 수 있습니다. &quot;>>&quot; 구분 기호로 여러 필터를 구분합니다. 사용 가능한 제품 차원 목록을 보려면 &quot;[쇼핑 캠페인 제품 필터](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;을 참조하세요.</p><p>예: &quot;CategoryL1=animals>>CategoryL2=pet supplies>>Brand=Acme Pet Supplies&quot;</p><p>기존 값을 삭제하려면 <code>[delete] 값을 사용하십시오.</code> (대괄호를 포함).</p> |
 | [!UICONTROL Languages] | <p>(검색 및 디스플레이 네트워크만 해당) 캠페인의 광고 대상 언어입니다.</p><p>새 캠페인에 대해 이 필드 또는 [!UICONTROL Geo Targeting] 필드 값을 입력하지 않으면 계정에 대해 지정된 통화는 기본 언어를 결정합니다. 단, 특정 언어로 매핑되지 않은 통화(예: EUR)가 포함된 캠페인은 모든 언어로 타깃팅됩니다. 이 필드에 값을 입력하지 않고 새 캠페인에 대한 [!UICONTROL Geo Targeting] 필드에 값을 입력하면 기본값은 <i>[!UICONTROL All]</i>입니다. 기존 캠페인에 대해 이 필드를 비워 두면 기존 값이 유지됩니다.</p><p>모든 언어를 대상으로 지정하려면 <span style="font-style: italic;">&lt;i[!UICONTROL >All]</i></span>을(를) 입력하십시오. 특정 언어를 타깃팅하려면 <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#languages" target="_blank">[!DNL Google Ads]개의 언어 이름</a>(예: 올바른 숫자 코드로 대체되는 <i>영어;일본어</i>) 또는 숫자 코드(예: <i>1000;1005</i>)를 사용하여 세미콜론으로 구분된 값을 입력하십시오. 값은 대/소문자를 구분하지 않습니다.</p> |
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Adobe Rec Bid Adjustment] | (정보 목적으로 생성된 일괄 시트에 포함됨) Adobe에서 캠페인 수준 위치 대상 또는 RLSA에 권장하는 읽기 전용 입찰 조정입니다. 가중 전환 지표를 사용하는 목표를 가진 포트폴리오([!UICONTROL Maximize Clicks] 목표가 아님)에 캠페인이 있고, 최근 90일 동안 최소 5번의 클릭으로 두 개 이상의 위치 대상 또는 RLSA가 포함된 경우 또는 비용 USD가 5개인 경우에만 계산됩니다.</p><p>위치 타겟 또는 RLSA를 수동으로 편집하여 권장 값을 사용하려는 경우, 위치 타겟 또는 RLSA를 만든 후 최소 2주를 기다린 후 충분한 데이터 수집을 허용하고 값을 일주일에 두 번 이상 변경하지 마십시오. |
 | [!UICONTROL Device Targets] | <p>(기존 캠페인 유형만 해당) 광고를 표시할 수 있는 장치: <i>[!UICONTROL All]</i>, <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Smartphones]</i> 또는 <i>[!UICONTROL Tablets]</i>. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | (레거시 캠페인 유형만 해당, 장치 대상에 &quot;스마트폰&quot; 또는 &quot;태블릿&quot;이 포함된 경우 적용 가능) 광고가 표시될 수 있는 운영 체제: <i>[!UICONTROL All]</i>, <i>[!UICONTROL Android]</i>, <i>[!UICONTROL iOS]</i> 또는 <i>[!UICONTROL Palm]</i>. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
-| [!UICONTROL Mobile Carriers (Google Adwords)] | <p>(기존 캠페인 유형만 해당; [!UICONTROL Device Targets]에 &quot;[!UICONTROL All]&quot; 또는 &quot;[!UICONTROL Smartphones]&quot;이(가) 포함된 경우에 적용 가능) 스마트폰이 연결될 수 있는 이동통신사: <i>[!UICONTROL All]</i> 또는 <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">사용 가능한 통신사 및 [!DNL Google Ads]</a>용 코드 목록을 사용하는 &lt;c<i>통신사 코드</i>>,&lt;<i>국가 코드</i>>(예: T-Mobile,US)로 표시된 하나 이상의 통신사. 세미콜론(예: T-Mobile, US, T-Mobile, GB)으로 여러 캐리어를 구분하십시오. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
+| [!UICONTROL Mobile Carriers (Google Adwords)] | <p>(기존 캠페인 유형만 해당; [!UICONTROL Device Targets]에 &quot;[!UICONTROL All]&quot; 또는 &quot;[!UICONTROL Smartphones]&quot;이(가) 포함된 경우에 적용 가능) 스마트폰이 연결될 수 있는 이동통신사: <i>[!UICONTROL All]</i> 또는 <i>사용 가능한 통신사 및 </i>용 코드 목록을 사용하는 &lt;c<i>통신사 코드</i>>,&lt;<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">국가 코드[!DNL Google Ads]</a>>(예: T-Mobile,US)로 표시된 하나 이상의 통신사. 세미콜론(예: T-Mobile, US, T-Mobile, GB)으로 여러 캐리어를 구분하십시오. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
 | [!UICONTROL Ad Group Name] | <p>광고 그룹을 식별하는 고유한 이름. 최대 길이는 255자입니다. 후행 빈 문자는 저장되지 않습니다(예: &quot;광고 그룹 1&quot;이 &quot;광고 그룹 1&quot;로 저장됨). 이 필드는 캠페인 수준 사이트 링크 또는 캠페인 수준 장치 타겟에 적용할 수 없습니다.</p> |
 | [!UICONTROL Ad Group Type] | <p>광고 그룹 유형: <i>[!UICONTROL Demand Gen]</i>(수요 창출 캠페인만 해당), <i>[!UICONTROL Display]</i>(디스플레이 캠페인만 해당), <i>[!UICONTROL Search Dynamic]</i>(확장된 동적 검색 광고의 경우), <i>[!UICONTROL Search Standard]</i>(검색 광고의 경우), <i>[!UICONTROL Shopping Product]</i>(쇼핑 제품 광고의 경우), <i>[!UICONTROL Shopping Showcase]</i>(만들기 및 편집이 지원되지 않음) 또는 <i>[!UICONTROL Unknown]</i>.</p> |
 | [!UICONTROL Max CPC] | <p>(CPC 캠페인만 해당) CPC(최대 클릭당 비용)는 금전적 기호와 구두점 유무에 관계없이 광고 네트워크에서 광고 클릭에 대해 지불하는 가장 높은 금액입니다. 광고 그룹 및 키워드, 제품 그룹, 동적 검색 타겟에 대한 값을 설정할 수 있습니다. 새 키워드의 기본값은 광고 그룹 수준에서 상속됩니다. 제품 그룹의 경우 가장 낮은 제품 그룹 계층의 값을 설정할 수 있습니다. 새 계층의 기본값은 상위 계층에서 상속됩니다.</p><p>최적화된 포트폴리오의 기존 제품 그룹 및 동적 검색 타겟의 경우 업데이트는 하루 동안만 유효하며 다음 최적화 주기 동안 덮어쓰여집니다.</p> |
@@ -65,15 +65,15 @@ ht-degree: 0%
 | [!UICONTROL Placement] | (컨텐츠를 사용하는 캠페인만 일치) 광고가 표시될 수 있는 디스플레이 네트워크의 배치입니다. 다음 중 하나를 지정합니다.</p><ul><li><p>웹 사이트: 올바른 URL을 입력하십시오. 최상위 도메인, 첫 번째 수준 하위 도메인 또는 단일 디렉터리 이름의 도메인일 수 있습니다. URL에는 물음표(?)를 포함할 수 없습니다. 예:<code><br />www.example.com<br />example.com<br />autos.example.com<br />example.com/widgets</code></p></li><li><p>특정 페이지의 광고 위치: `<URL> >> <location,sublocation>` 형식(예: `finance.google.com >> Company pages,Top right`)을 사용합니다.</p></li><li><p>주제 범주: 구문 `<category::<category> > <subcategory>` 등을 사용합니다(예: `category::Industries > Energy & Utilities > Oil & Gas`).</p></li></ul><p><b>참고:</b> 광고 그룹 또는 캠페인 수준에서 배치를 제외하려면 [!UICONTROL Match Type]을(를) <i>[!UICONTROL Negative]</i>(으)로 설정하십시오. 행에 광고 그룹 이름이 포함된 경우 광고 그룹에 대한 배치가 제외됩니다. 행에 광고 그룹 이름이 포함되지 않은 경우 전체 캠페인에 대한 배치가 제외됩니다.</p> |
 | [!UICONTROL Auto Target Expression] | <p>(&quot;[!UICONTROL Use my website contents to target my ads]&quot;(으)로 캠페인 설정을 사용하지 않는 경우 필요합니다. 그렇지 않으면 선택 사항입니다.) 광고 그룹에 대한 동적 검색 대상입니다.</p><p>모든 대상에 대해 별표(*)를 사용합니다.</p><p>최대 3개의 동적 검색 조건을 대상으로 지정하려면 `<category>=<target>` 형식을 사용하십시오. 여기서 `<category>`에는 아래 범주가 포함될 수 있습니다. &quot;\[blank space\] 및 \[blank space\]&quot;를 사용하여 개별 범주에 대한 여러 대상을 조인하고 &quot;[blank space] 및 [blank space]&quot;을(를) 사용하여 여러 범주에 조인합니다.</p><ul><li><p><i>[!UICONTROL Category]</i>: 특정 [!DNL Google Ads] 콘텐츠 범주가 있는 인덱싱된 페이지에 대해 확장된 동적 검색 광고를 표시합니다.</p></li><li><p><i>[!UICONTROL URL]</i>: 특정 URL을 가진 인덱싱된 페이지에 대한 확장된 동적 검색 광고를 표시합니다. 여기서 값은 URL 내 어디에나 포함될 수 있습니다.</p></li><li><p><i>[!UICONTROL Page Title]</i>: 페이지 제목에 특정 텍스트가 있는 인덱싱된 페이지에 대한 확장된 동적 검색 광고를 표시합니다.</p></li><li><p><i>[!UICONTROL Page Content]</i>: 특정 콘텐츠가 있는 인덱싱된 페이지에 대한 확장된 동적 검색 광고를 표시합니다.</p></li></ul><p>예: url=shoes.example.com 및 페이지 제목=footwear</p> |
 | [!UICONTROL Parent Product Groupings] | 상위 제품 그룹의 계층입니다.<br><br>예: `All Products>>ProductTypeL1=a>>ProductTypeL2=b` |
-| [!UICONTROL Product Grouping] | <p>제품 그룹(예: &quot;brand=acme&quot; 또는 &quot;모든 제품&quot;).</p><p><b>참고:</b></p><ul><li><p>지정한 제품 그룹이 [!UICONTROL Parent Product Groupings] 계층에 없으면 Search, Social 및 Commerce에서 필요한 계층 구조의 일부를 만듭니다.</p></li><li><p>기본 입찰이 광고 그룹 기본 입찰로 설정된 [!DNL Google Ads] 쇼핑 캠페인에서 광고 그룹을 만들 때 Search, Social 및 Commerce에서 자동으로 &quot;[!UICONTROL All Products]&quot; 그룹을 만듭니다. Search, Social 및 Commerce은 제품 그룹 계층의 각 수준에서 광고 그룹 기본 입찰이 있는 &quot;[!UICONTROL Everything Else]&quot; 그룹을 자동으로 만듭니다. 이러한 기본 그룹을 명시적으로 생성하고 제외하거나 입찰을 변경할 수 있습니다.</p></li><li><p>각 광고 그룹은 &quot;[!UICONTROL All Products]&quot; 및 7개의 다른 계층을 포함하여 최대 8개의 제품 그룹 계층을 포함할 수 있습니다.</p></li></ul> |
+| [!UICONTROL Product Grouping] | <p>제품 그룹(예: &quot;brand=acme&quot; 또는 &quot;모든 제품&quot;).</p><p><b>참고:</b></p><ul><li><p>지정한 제품 그룹이 [!UICONTROL Parent Product Groupings] 계층에 없으면 Search, Social 및 Commerce에서 필요한 계층 구조의 일부를 만듭니다.</p></li><li><p>기본 입찰이 광고 그룹 기본 입찰로 설정된 [!UICONTROL All Products] 쇼핑 캠페인에서 광고 그룹을 만들 때 Search, Social 및 Commerce에서 자동으로 &quot;[!DNL Google Ads]&quot; 그룹을 만듭니다. Search, Social 및 Commerce은 제품 그룹 계층의 각 수준에서 광고 그룹 기본 입찰이 있는 &quot;[!UICONTROL Everything Else]&quot; 그룹을 자동으로 만듭니다. 이러한 기본 그룹을 명시적으로 생성하고 제외하거나 입찰을 변경할 수 있습니다.</p></li><li><p>각 광고 그룹은 &quot;[!UICONTROL All Products]&quot; 및 7개의 다른 계층을 포함하여 최대 8개의 제품 그룹 계층을 포함할 수 있습니다.</p></li></ul> |
 | [!UICONTROL Partition Type] | 제품 그룹에 대한 파티션 형식: <i>subdivision</i>(하위 제품 그룹이 있는 경우) 또는 <i>unit</i>(하위 제품 그룹이 없는 경우). |
 | [!UICONTROL Match Type] | <p>동적 검색 대상 또는 제품 그룹의 경우: 동적 검색 대상 또는 제품 그룹에 대한 키워드 일치 옵션: <i>[!UICONTROL Dynamic Ad Target]</i>(새 동적 검색 대상의 기본값), <i>[!UICONTROL Product Group]</i>(새 제품 그룹의 기본값) 또는 <i>[!UICONTROL Negative Product Group]</i>(제품 그룹을 제외).</p><p>키워드의 경우: 키워드에 대한 키워드 일치 옵션: <i>[!UICONTROL Broad]</i>, <i>[!UICONTROL Phrase]</i>, <i>[!UICONTROL Exact]</i> 또는 <i>[!UICONTROL Negative]</i>(디스플레이 네트워크에서 키워드 또는 배치를 제외); 쇼핑 광고와 함께 사용되는 제품 그룹의 일치 유형은 <i>[!UICONTROL Product Group]</i>입니다. <i>[!UICONTROL Negative]</i>을(를) 사용하는 경우 제외할 일치 유형도 포함해야 합니다(예: &quot;음수 구&quot;).</p><p>새 키워드의 경우 기본값은 <i>[!UICONTROL Broad]</i>입니다. 일치 유형 또는 키워드 ID 값은 여러 일치 유형이 있는 키워드를 편집하는 데만 필요합니다.</p><p><b>참고:</b></p><ul><li><p>일치 유형은 키워드를 사용하지 않는 확장된 동적 검색 광고에 적용할 수 없습니다.</p></li><li><p>[!DNL Google Ads] 키워드의 일치 유형을 변경하면 기존 키워드가 삭제되고 새 키워드가 만들어집니다.</p></li><li><p>Broad Match 수정자의 경우 &quot;Broad&quot;를 선택하고 가까운 변형이 필요한 키워드 내의 단어 앞에 +를 삽입합니다(예: &quot;red&quot; 및 &quot;shoes&quot;의 가까운 변형이 필요한 &quot;+red +shoes&quot;). <b>참고:</b> 이제 Broad 일치 한정자의 동작이 일부 언어에 대해 Phrase match와 동일하며 2021년 7월 이후 새로운 broad match 한정자 키워드를 만들 수 없습니다. 자세한 내용은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/7042511)를 참조하세요.</p> |
 | [!UICONTROL First Page Bid] | (정보 목적으로 생성된 일괄 시트에 포함) 검색 결과의 첫 페이지에 광고를 배치하는 데 필요한 입찰입니다. 이 값은 광고 네트워크에 게시되지 않습니다. |
 | [!UICONTROL Quality Score] | (정보 목적으로 생성된 일괄 시트에 포함됨) 검색 엔진이 키워드에 할당한 현재 품질 점수입니다. 이 값은 광고 네트워크에 게시되지 않습니다.) |
 | [!UICONTROL Creative Preferred Devices] | (텍스트 광고, 확장된 동적 검색 광고 및 향상된 사이트 링크, 선택 사항) 광고를 표시할 장치 유형은 <i>[!UICONTROL All]</i>(기본값) 또는 <i>[!UICONTROL Mobile]</i>입니다. <i>[!UICONTROL Mobile]</i>을(를) 지정하면 네트워크에서 데스크톱 또는 태블릿 사용자가 아닌 모바일 장치 사용자에게 광고를 표시하려고 합니다. 그렇지 않으면 네트워크는 모든 디바이스 유형에 광고를 표시합니다.</p><p><b>참고:</b></p><ul><li><p>관리자 및 [!DNL Adobe] 계정 관리자 사용자만 이 설정을 편집할 수 있습니다.</p></li><li><p>네트워크는 기본 장치 유형에 광고를 표시할 것을 보장하지 않습니다.</p></li><li><p>향상된 새 사이트링크는 기존의 향상된 사이트링크가 있거나 사이트링크가 없는 캠페인에서만 만들 수 있습니다.</p></li></ul> |
-| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | (확장된 텍스트 광고 및 반응형 검색 광고만 해당) 각각 수직 파이프(&vert;)로 구분된 광고의 헤드라인 각 광고 제목 필드의 최대 길이는 동적 텍스트(예: 키워드 및 광고 사용자 정의 값)를 포함하여 30자 또는 15개의 더블바이트 문자입니다.</p><p>반응형 검색 광고의 경우 [!UICONTROL Ad Title], [!UICONTROL Ad Title 2] 및 [!UICONTROL Ad Title 3]이(가) 필요하며 다른 모든 광고 제목 필드는 선택 사항입니다. 필수가 아닌 필드의 기존 값을 삭제하려면 <code>[delete] 값을 사용하십시오.</code> (대괄호를 포함).</p><p>반응형 검색 광고의 경우 <code>{CUSTOMIZER.AdCustomizerName:DefaultText} 형식을 사용하여 광고 사용자 지정자를 삽입합니다.</code>, 예: <code>{CUSTOMIZER.Discount:10%}</code></p><p>만들거나 편집할 수 없지만 확장된 텍스트 광고는 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다. |
+| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | (확장된 텍스트 광고 및 반응형 검색 광고만 해당) 각각 수직 파이프(&amp;vert;)로 구분된 광고의 헤드라인 각 광고 제목 필드의 최대 길이는 동적 텍스트(예: 키워드 및 광고 사용자 정의 값)를 포함하여 30자 또는 15개의 더블바이트 문자입니다.</p><p>반응형 검색 광고의 경우 [!UICONTROL Ad Title], [!UICONTROL Ad Title 2] 및 [!UICONTROL Ad Title 3]이(가) 필요하며 다른 모든 광고 제목 필드는 선택 사항입니다. 필수가 아닌 필드의 기존 값을 삭제하려면 <code>[delete] 값을 사용하십시오.</code> (대괄호를 포함).</p><p>반응형 검색 광고의 경우 다음 형식을 사용하여 광고 사용자 지정자를 삽입합니다. <code>{CUSTOMIZER.AdCustomizerName:DefaultText}</code>, 예: <code>{CUSTOMIZER.Discount:10%}</code></p><p>만들거나 편집할 수 없지만 확장된 텍스트 광고는 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다. |
 | [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | <p>(반응형 검색 광고만 해당; 선택 사항) 해당 광고 제목을 고정할 위치: `[null]`(모든 위치에 대해 광고 제목을 사용할 수 있는 값 없음), <i>1</i>, <i>2</i> 또는 <i>3</i>. 예를 들어 [!UICONTROL Ad Title Position]의 값이 1이면 광고 제목은 위치 1에만 나타납니다. 기본적으로 모든 광고 제목은 null입니다(값 없음).</p><p>기존 값을 삭제하려면 <code>[delete] 값을 사용하십시오.</code> (대괄호를 포함).</p><p><b>참고:</b> 여러 광고 제목을 같은 위치에 고정할 수 있습니다. 광고 네트워크는 해당 위치에 고정된 광고 제목 중 하나를 사용합니다. 위치 3에 고정된 제목은 광고와 함께 표시되지 않을 수 있습니다.</p> |
-| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | <p>(확장된 동적 검색 광고, 확장된 텍스트 광고 및 반응형 검색 광고만 해당) 광고 본문입니다. 각 설명 필드의 최대 길이는 동적 텍스트(예: 키워드 및 광고 사용자 정의 값)를 포함하여 90자 또는 45개의 더블바이트 문자입니다.</p><p>반응형 검색 광고의 경우 `{CUSTOMIZER.Discount:10%}`과(와) 같은 `{CUSTOMIZER.AdCustomizerName:DefaultText}` 형식을 사용하여 광고 사용자 지정자를 삽입합니다.</p><p>확장된 동적 검색 광고의 경우 [!UICONTROL Description Line 1] 및 [!UICONTROL Description Line 2]만 사용하십시오. <b>참고:</b> 이 광고 형식의 경우 광고 복사본을 변경하면 기존 광고가 삭제되고 새 광고가 만들어집니다.</p><p>만들거나 편집할 수 없지만 확장된 텍스트 광고는 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다.</p><p>반응형 검색 광고의 경우 [!UICONTROL Description Line 1] 및 [!UICONTROL Description Line 2]이(가) 필요하며 [!UICONTROL Description Line 3] 및 [!UICONTROL Description Line 4]은(는) 선택 사항입니다. 기존 값을 삭제하려면 <code>[delete] 값을 사용하십시오.</code> (대괄호를 포함).</p> |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | <p>(확장된 동적 검색 광고, 확장된 텍스트 광고 및 반응형 검색 광고만 해당) 광고 본문입니다. 각 설명 필드의 최대 길이는 동적 텍스트(예: 키워드 및 광고 사용자 정의 값)를 포함하여 90자 또는 45개의 더블바이트 문자입니다.</p><p>반응형 검색 광고의 경우 `{CUSTOMIZER.AdCustomizerName:DefaultText}`과(와) 같은 `{CUSTOMIZER.Discount:10%}` 형식을 사용하여 광고 사용자 지정자를 삽입합니다.</p><p>확장된 동적 검색 광고의 경우 [!UICONTROL Description Line 1] 및 [!UICONTROL Description Line 2]만 사용하십시오. <b>참고:</b> 이 광고 형식의 경우 광고 복사본을 변경하면 기존 광고가 삭제되고 새 광고가 만들어집니다.</p><p>만들거나 편집할 수 없지만 확장된 텍스트 광고는 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다.</p><p>반응형 검색 광고의 경우 [!UICONTROL Description Line 1] 및 [!UICONTROL Description Line 2]이(가) 필요하며 [!UICONTROL Description Line 3] 및 [!UICONTROL Description Line 4]은(는) 선택 사항입니다. 기존 값을 삭제하려면 <code>[delete] 값을 사용하십시오.</code> (대괄호를 포함).</p> |
 | [!UICONTROL Description Line 1 Position]-[!UICONTROL Description Line 4 Position] | (반응형 검색 광고만 해당; 선택 사항) 해당 설명을 고정할 위치입니다. `[null]`(값 없음), <i>1</i>, <i>2</i> 또는 <i>3</i>. 예를 들어 [!UICONTROL Description 1 Position]의 값이 1이면 [!UICONTROL Description 1]은(는) 위치 1에만 나타납니다. 기본적으로 설명은 위치에 고정되지 않습니다.</p><p>기존 값을 삭제하려면 값 `[delete]`(대괄호 포함)을 사용하십시오.</p><p><b>참고:</b> 동일한 위치에 여러 설명을 고정할 수 있습니다. 광고 네트워크는 해당 위치에 고정된 설명 중 하나를 사용합니다. 위치 2에 고정된 설명은 광고와 함께 표시되지 않을 수 있습니다. |
 | [!UICONTROL Display URL] | 광고에 포함된 URL.<br><br>확장된 동적 검색 광고의 경우 [!DNL Google Ads]은(는) 웹 사이트 도메인에서 동적으로 이 값을 생성하므로 값을 입력할 필요가 없습니다.<br><br>반응형 검색 광고의 경우 값을 입력할 필요가 없습니다. 표시 URL은 최종 URL의 도메인에서 자동으로 추출됩니다. 선택적으로 경로 1 및 경로 2 필드를 사용하여 URL을 사용자 지정할 수 있습니다.<br><br>만들거나 편집할 수 없지만 확장된 텍스트 광고를 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다.<br><br><b>참고:</b>(최종 URL이 있는 계정) 표시 URL과 최종 URL의 도메인 이름은 일치해야 합니다.</p> |
 | [!UICONTROL Display Path 1] | <p>(확장된 텍스트 광고<span> 및 반응형 검색 광고</span>만 해당)</p><p>(선택 사항) 최종 URL에서 자동으로 추출되는 표시 URL에 추가되는 텍스트입니다. URL 앞에는 슬래시(/)가 표시됩니다. 경로에는 슬래시(/) 또는 줄바꿈(\n) 문자를 사용할 수 없습니다. 최대 길이는 15자 또는 7개의 더블바이트 문자입니다.</p><p>광고 사용자 지정기를 삽입하려면 다음 형식을 사용하십시오. 여기서 `Default text`은(는) 피드 파일에 유효한 값이 포함되지 않은 경우 삽입할 선택적 값입니다.&lt; `{CUSTOMIZER.AdCustomizerName:Default text}`, 예: `{CUSTOMIZER.Discount:10%}`</p><p>예를 들어 [!UICONTROL Display Path 1]이(가) &quot;거래&quot;이면 표시 URL은 &lt;<i>표시 URL</i>>/거래입니다(예: www.example.com/deals).</p><p>만들거나 편집할 수 없지만 확장된 텍스트 광고는 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다.</p> |
@@ -87,7 +87,7 @@ ht-degree: 0%
 | [!UICONTROL End Date] | <p>(향상된 사이트 링크만 해당) 사이트 링크에 대한 입찰이 이루어질 수 있는 마지막 날짜, 광고주의 시간대 및 다음 형식 중 하나입니다.  <i>m/d/yyyy</i>, <i>m/d/yy</i>, <i>m-d-yyyy</i> 또는 <i>m-d-yy</i>. 기본값은 없음(종료 날짜 없음)입니다.</p><p><b>참고:</b> 향상된 새 사이트링크는 기존의 향상된 사이트링크가 있거나 사이트링크가 없는 캠페인에서만 만들 수 있습니다.</p> |
 | [!UICONTROL Exclude Tablet (Google Adwords)] | (기존 앱 설치 광고만 해당)</p><p>(선택 사항) [!DNL Google Ads]이(가) 태블릿 사용자에게 광고를 표시하지 못하도록 합니다. 값에는 <i>예</i> 및 <i>아니요</i>가 포함될 수 있습니다. |
 | [!UICONTROL Landing Page Suffix] | 정보를 추적하기 위해 최종 URL 끝에 추가할 모든 매개 변수입니다. 예: `param2=value1&param3=value2`<br><br>자세한 내용은 &quot;[클릭 추적 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)을 참조하세요.&quot;<br><br>하위 수준의 최종 URL 접미사가 계정 수준 접미사를 재정의합니다. 간편하게 유지 관리할 수 있도록 개별 계정 구성 요소에 대해 다른 추적이 필요하지 않은 경우 계정 수준 접미사만 사용하십시오. 광고 그룹 수준 이하에서 접미사를 구성하려면 [!DNL Google Ads] 편집기를 사용하십시오. |
-| [!UICONTROL Tracking Template] | 모든 랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 [!DNL ValueTrack] 매개 변수에 최종 URL을 임베드하는 추적 템플릿입니다. 가장 세부적인 수준의 추적 템플릿(키워드를 가장 세부적인 수준으로 사용)은 모든 상위 수준의 값을 무시합니다.<br><br>캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 검색, 소셜 및 Commerce에서 자동으로 리디렉션 및 추적 코드를 추가합니다.<br><br>서드파티 리디렉션 및 추적의 경우 값을 입력하십시오. 추적 템플릿의 최종 URL을 나타내는 [!DNL ValueTrack] 매개 변수 목록에 대해서는 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/2375447)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.<br><br>기존 값을 삭제하려면 `[delete]` 값(대괄호 포함)을 사용하십시오. |
+| [!UICONTROL Tracking Template] | 모든 랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 [!DNL ValueTrack] 매개 변수에 최종 URL을 임베드하는 추적 템플릿입니다. 가장 세부적인 수준의 추적 템플릿(키워드를 가장 세부적인 수준으로 사용)은 모든 상위 수준의 값을 무시합니다.<br><br>캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 검색, 소셜 및 Commerce에서 자동으로 리디렉션 및 추적 코드를 추가합니다.<br><br>서드파티 리디렉션 및 추적의 경우 값을 입력하십시오. 추적 템플릿의 최종 URL을 나타내는 [!DNL ValueTrack] 매개 변수 목록에 대해서는 [!DNL ValueTrack]설명서[[!DNL Google Ads] 의 &quot;사용 가능한 ](https://support.google.com/google-ads/answer/2375447) 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.<br><br>기존 값을 삭제하려면 `[delete]` 값(대괄호 포함)을 사용하십시오. |
 | [!UICONTROL Base URL/Final URL] | 캠페인 또는 계정에 대해 구성된 추가 매개 변수를 포함하여 검색 엔진 사용자가 광고를 클릭할 때 취하는 랜딩 페이지 URL입니다. 키워드 수준의 기본/최종 URL은 광고 수준 이상의 URL을 재정의합니다.<br><br>기존 값을 삭제하려면 `[delete]` 값(대괄호 포함)을 사용하십시오. |
 | [!UICONTROL Destination URL] | (정보 목적으로 생성된 일괄 시트에 포함됨, 검색 엔진에 게시되지 않음) 대상 URL이 있는 계정의 경우, 광고가 광고주 웹 사이트의 기본 URL/랜딩 페이지에 연결되는 URL입니다(경우에 따라 클릭을 추적한 다음 사용자를 랜딩 페이지로 리디렉션하는 다른 사이트를 통해). 여기에는 Search, Social 및 Commerce 캠페인 또는 계정에 대해 구성된 추가 매개 변수가 포함됩니다. 추적 URL을 생성한 경우, 이는 계정 설정 및 캠페인 설정의 추적 매개 변수를 기반으로 합니다. 검색 엔진별 매개 변수를 추가한 경우 이 매개 변수는 검색, 소셜 및 Commerce에 대한 동등한 매개 변수로 대체될 수 있습니다.<br><br>최종 URL이 있는 계정의 경우 이 열은 기본 URL/최종 URL 열과 동일한 값을 표시합니다. |
 | [!UICONTROL Custom URL Param] | 변수가 검색 계정 또는 캠페인 설정에 대한 추적 매개 변수에 포함된 경우 `{custom_code}` 동적 변수를 대체할 데이터입니다. 추적 URL에 사용자 지정 값을 삽입하려면 추적 URL 생성 옵션을 사용하여 일괄 시트 파일을 업로드해야 합니다. |
@@ -239,9 +239,9 @@ ht-degree: 0%
 
 ### 확장된 동적 검색 광고
 
-이제 [!DNL Google Ads]에서 이 광고 유형을 &quot;동적 검색 광고&quot;라고 합니다. 동적 검색 광고 만들기에 대한 자세한 내용은 &quot;[동적 검색 광고 구현 [!DNL Google Ads] 2&rbrace;을 참조하세요.&quot;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=ko)
+이제 [!DNL Google Ads]에서 이 광고 유형을 &quot;동적 검색 광고&quot;라고 합니다. 동적 검색 광고 만들기에 대한 자세한 내용은 &quot;[동적 검색 광고 구현 [!DNL Google Ads] 2}을 참조하세요.&quot;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)
 
-이 광고 유형의 경우 [!UICONTROL Download Bulksheet] 대화 상자에서 &quot;[!UICONTROL Creative (except RSA)]&quot; 행을 사용하십시오.
+이 광고 유형의 경우 [!UICONTROL Creative (except RSA)] 대화 상자에서 &quot;[!UICONTROL Download Bulksheet]&quot; 행을 사용하십시오.
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google)&quot;을 참조하세요.
 
@@ -264,9 +264,9 @@ ht-degree: 0%
 
 ### 제품 목록/쇼핑 광고 필드
 
-쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 2&rbrace;&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=ko)
+쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 2}&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)
 
-이 광고 유형의 경우 [!UICONTROL Download Bulksheet] 대화 상자에서 &quot;[!UICONTROL Creative (except RSA)]&quot; 행을 사용하십시오.
+이 광고 유형의 경우 [!UICONTROL Creative (except RSA)] 대화 상자에서 &quot;[!UICONTROL Download Bulksheet]&quot; 행을 사용하십시오.
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google)&quot;을 참조하세요.
 
@@ -290,7 +290,7 @@ ht-degree: 0%
 
 ### 반응형 검색 광고 필드
 
-이 광고 유형의 경우 [!UICONTROL Download Bulksheet] 대화 상자에서 &quot;[!UICONTROL Responsive Search Ad]&quot; 행을 사용하십시오.
+이 광고 유형의 경우 [!UICONTROL Responsive Search Ad] 대화 상자에서 &quot;[!UICONTROL Download Bulksheet]&quot; 행을 사용하십시오.
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google)&quot;을 참조하세요.
 
@@ -298,7 +298,7 @@ ht-degree: 0%
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 엔터티에 대한 &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않는 경우 필요합니다. |
 | [!UICONTROL Campaign Name] | 필수 |
-| [!UICONTROL Ad Group Name] | 필수 | |
+| [!UICONTROL Ad Group Name] | 필수 |
 | [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | 반응형 검색 광고의 경우 광고를 만들려면 [!UICONTROL Ad Title], [!UICONTROL Ad Title 2] 및 [!UICONTROL Ad Title 3]이(가) 필요하며 다른 모든 광고 제목 필드는 선택 사항입니다. 필수가 아닌 필드의 기존 값을 삭제하려면 값 `[delete]`(대괄호 포함)을(를) 사용합니다. |
 | [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | 선택 사항 |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | 반응형 검색 광고의 경우 광고를 만들려면 [!UICONTROL Description Line 1] 및 [!UICONTROL Description Line 2]이(가) 필요하며 [!UICONTROL Description Line 3] 및 [!UICONTROL Description Line 4]은(는) 선택 사항입니다. 기존 값을 삭제하려면 값 `[delete]`(대괄호 포함)을 사용하십시오. |
@@ -318,7 +318,7 @@ ht-degree: 0%
 
 ### 텍스트 광고 필드
 
-이 광고 유형의 경우 [!UICONTROL Download Bulksheet] 대화 상자에서 &quot;[!UICONTROL Creative (except RSA)]&quot; 행을 사용하십시오.
+이 광고 유형의 경우 [!UICONTROL Creative (except RSA)] 대화 상자에서 &quot;[!UICONTROL Download Bulksheet]&quot; 행을 사용하십시오.
 
 각 데이터 필드에 대한 설명은 &quot;[사용 가능한 모든 데이터 필드](#bulksheet-fields-all-google)&quot;을 참조하세요.
 
@@ -333,7 +333,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Name] | 필수 |
 | [!UICONTROL Creative Preferred Devices] | 읽기 전용 |
 | [!UICONTROL Ad Title], 광고 제목 2-3 | 읽기 전용 |
-| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] 읽기 전용 |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] | 읽기 전용 |
 | [!UICONTROL Display URL] | 읽기 전용 |
 | [!UICONTROL Display Path 1] | 읽기 전용 |
 | [!UICONTROL Display Path 2] | 읽기 전용 |
@@ -345,7 +345,7 @@ ht-degree: 0%
 | \[광고주별 레이블 분류\] | 선택 사항 |
 | [!UICONTROL Campaign ID] | 선택 사항 |
 | [!UICONTROL Ad Group ID] | 선택 사항 |
-| [!UICONTROL Ad ID] | 행에 a) 광고를 식별할 수 있는 충분한 광고 속성 열 또는 b) &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않는 한 광고 상태를 변경할 때만 필요합니다. 그러나 [!UICONTROL Ad ID]과(와) [!UICONTROL AMO ID]을(를) 모두 포함하지 않고 광고 속성 열이 여러 광고와 일치하는 경우 광고 중 하나에 대한 상태만 변경됩니다. |
+| [!UICONTROL Ad ID] | 행에 a&amp;rpar; 광고 또는 b&amp;rpar; &quot;[!UICONTROL AMO ID]&quot;을(를) 식별하는 데 충분한 광고 속성 열이 포함되지 않는 한 광고 상태를 변경할 때만 필요합니다. 그러나 [!UICONTROL Ad ID]과(와) [!UICONTROL AMO ID]을(를) 모두 포함하지 않고 광고 속성 열이 여러 광고와 일치하는 경우 광고 중 하나에 대한 상태만 변경됩니다. |
 | [!UICONTROL AMO ID] | 엔티티 ID 및 상위 엔티티 ID를 포함하지 않는 한 데이터를 편집하거나 삭제하는 데 필요합니다.<br><br>검색, 소셜 및 Commerce에서는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 
 ### 동적 검색 대상(자동 타겟) 필드
@@ -469,5 +469,5 @@ ht-degree: 0%
 >* [일괄 시트에서 수행할 수 있는 작업](bulksheet-operations.md)
 >* [지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
+>* [에 대한  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)클릭 추적 형식
 >* [일괄 시트 파일 또는 수정된 오류 파일 업로드](../bulksheet-upload.md)

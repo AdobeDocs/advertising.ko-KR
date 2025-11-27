@@ -3,7 +3,7 @@ title: 일괄 시트 또는 수정된 오류 파일 업로드
 description: 일괄 시트 파일 또는 수정된 랜딩 페이지 유효성 검사 오류 파일을 수동으로 업로드하는 방법을 알아봅니다.
 exl-id: 44c76ca3-1d3e-43c2-868a-4868157d32b0
 feature: Search Bulksheets
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->일괄 시트 데이터를 광고 네트워크에 게시하는 경우 [!UICONTROL Bulksheets] 보기의 [!UICONTROL Progress] 열에 있는 파일의 진행 상황을 따를 수 있습니다. 많은 양의 데이터를 게시하는 데 시간이 더 오래 걸립니다.
+>일괄 시트 데이터를 광고 네트워크에 게시하는 경우 [!UICONTROL Progress] 보기의 [!UICONTROL Bulksheets] 열에 있는 파일의 진행 상황을 따를 수 있습니다. 많은 양의 데이터를 게시하는 데 시간이 더 오래 걸립니다.
 
 ## 일괄 시트 및 수정된 오류 파일에 대한 업로드 설정 {#bulksheet-upload-settings}
 
 | 매개 변수 | 설명 |
 |----|----|
-| [!UICONTROL File to Upload] | 업로드할 파일입니다. 전체 경로와 파일 이름을 입력하거나 <b>[!UICONTROL Browse]</b>을(를) 클릭하여 장치 또는 네트워크에서 파일을 찾아 파일을 지정하십시오.<br><br>일괄 시트 파일은 최대 2.5GB(약 250만 행)일 수 있으며 <i>[!UICONTROL .tsv]</i>(탭으로 구분된 값의 경우), <i>[!UICONTROL .txt]</i>(유니코드 호환 ASCII 텍스트의 경우), <i>[!UICONTROL .csv]</i>(쉼표로 구분된 값의 경우) 또는 <i>[!UICONTROL .zip]</i>(TSV 파일로 압축 해제하는 압축 ZIP 형식의 경우) 파일 확장명 중 하나를 포함해야 합니다. 파일 이름에는 다음 문자를 포함할 수 없습니다. `# % &amp; * | \ : &quot; &lt; &gt; . ? /`<br><br><b>팁:</b> 국제 문자가 포함된 데이터의 경우 TSV 또는 TXT 형식의 파일을 사용하십시오. |
+| [!UICONTROL File to Upload] | 업로드할 파일입니다. 전체 경로와 파일 이름을 입력하거나 <b>[!UICONTROL Browse]</b>을(를) 클릭하여 장치 또는 네트워크에서 파일을 찾아 파일을 지정하십시오.<br><br>일괄 시트 파일은 최대 2.5GB(약 250만 행)일 수 있으며 <i>[!UICONTROL .tsv]</i>(탭으로 구분된 값의 경우), <i>[!UICONTROL .txt]</i>(유니코드 호환 ASCII 텍스트의 경우), <i>[!UICONTROL .csv]</i>(쉼표로 구분된 값의 경우) 또는 <i>[!UICONTROL .zip]</i>(TSV 파일로 압축 해제하는 압축 ZIP 형식의 경우) 파일 확장명 중 하나를 포함해야 합니다. 파일 이름에는 다음 문자를 포함할 수 없습니다. `# % &amp; * \| \ : " < > . ? /`<br><br><b>팁:</b> 국제 문자가 포함된 데이터의 경우 TSV 또는 TXT 형식의 파일을 사용하십시오. |
 | [!UICONTROL Single Account] | 파일이 하나의 계정에 적용되는지 여부: <i>[!UICONTROL Yes]</i>(하나의 계정에 대해) 또는 <i>[!UICONTROL No]</i>(여러 계정에 대해). |
 | [!UICONTROL Account (Search Engine)] | (파일이 단일 계정에 적용되는 경우) 데이터를 업로드할 계정입니다. |
 | [!UICONTROL Search Engine] | (파일이 여러 계정에 적용되는 경우) 데이터를 업로드할 광고 네트워크입니다. |

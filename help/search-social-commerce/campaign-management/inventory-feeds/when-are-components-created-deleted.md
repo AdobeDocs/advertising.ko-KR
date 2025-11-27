@@ -3,16 +3,16 @@ title: 계정 구성 요소는 언제 재고 피드에서 생성되거나 삭제
 description: 인벤토리 피드를 게시할 때 계정 구성 요소를 만들고 삭제하는 상황에 대해 알아봅니다.
 exl-id: 39a3cc2c-f956-4a89-a69d-687a27a38a1e
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
 
 # 계정 구성 요소는 언제 재고 피드에서 생성되거나 삭제됩니까?
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 인벤토리 피드 파일이 템플릿을 통해 전파되면 다음과 같이 계정 구성 요소가 생성되고 삭제됩니다.
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 >
 >광고 그룹 내에는 중복 광고가 생성되지 않습니다.
 
-| 시나리오 | 예 | 작업 |
+| 시나리오 | 예 | 액션 |
 |----|----|----|
 | 피드 데이터에는 캠페인 이름, 광고 그룹 이름, 키워드 또는 제품 그룹에 사용된 열에 대한 새 값이 포함됩니다. | 이전 파일:<br>캠페인=모자<br>캠페인=장갑<br><br>새 파일:<br>캠페인=신발 | 새 캠페인, 광고 그룹, 키워드 또는 제품 그룹이 광고 네트워크에 없는 경우 만들어집니다. |
 | 피드 데이터에는 광고에 사용된 열에 대한 새 값이 포함되어 있습니다. | 이전 파일: 광고에 가격=20<br><br>새 파일: 동일한 광고에 대한 가격=10 | [!DNL Microsoft Advertising]개의 확장된 텍스트 광고, [!DNL Yahoo! Japan ads] 또는 [!DNL Yandex]개의 광고에 대한 광고 복사본이 변경되면 기존 광고가 삭제되고 새 광고가 만들어집니다.<br><br>다른 광고 유형에 대해 광고 복사가 변경되거나 광고의 [!DNL Google Ads] 광고 매개 변수({param1} 또는 {param2})에 적용 가능한 열이 사용되는 경우 기존 광고가 업데이트됩니다. |
-| 마지막 전달 이후 캠페인, 광고 그룹, 키워드 또는 제품 그룹에 대한 템플릿 설정이 변경되었습니다. | 이전 설정:Keyword=[Keyword]<br><br>새 설정: Keyword=&lt;색상>[키워드] | 새 캠페인, 광고 그룹, 키워드 또는 제품 그룹이 광고 네트워크에 없는 경우 만들어집니다. |
+| 마지막 전달 이후 캠페인, 광고 그룹, 키워드 또는 제품 그룹에 대한 템플릿 설정이 변경되었습니다. | 이전 설정:Keyword=[키워드]<br><br>새 설정: 키워드=&lt;색상>[키워드] | 새 캠페인, 광고 그룹, 키워드 또는 제품 그룹이 광고 네트워크에 없는 경우 만들어집니다. |
 | 마지막 전달 이후 광고의 템플릿 설정이 변경되었습니다. | 이전 설정: Ad description=&quot;지금 [category]을(를) 구입하십시오.&quot;<br><br>새 설정: 광고 설명=&quot;지금 [브랜드] 구매&quot; | [!DNL Microsoft Advertising]개의 확장된 텍스트 광고, [!DNL Yahoo! Japan ads] 또는 [!DNL Yandex]개의 광고에 대한 광고 복사본이 변경되면 기존 광고가 삭제되고 새 광고가 만들어집니다.<br><br>다른 광고 유형에 대해 광고 복사가 변경되었거나 변경 내용에 광고의 단일 [!DNL Google Ads] 광고 매개 변수({param1} 또는 {param2})에 사용된 열의 변경 내용이 반영되면 기존 광고가 업데이트됩니다. |
 | 새 피드 데이터에는 기존 캠페인 또는 광고 그룹에 대한 행이 포함되지 않습니다. | 해당 사항 없음 | 기존 캠페인 및 광고 그룹은 그대로 유지됩니다. |
 | 새 피드 데이터에는 기존 광고 그룹, 광고, 키워드 또는 제품 그룹에 대한 행이 포함되지 않습니다. | 해당 사항 없음 | 기존 광고 그룹, 광고, 키워드 또는 제품 그룹은 [피드 데이터 설정](feed-settings-manage.md#feed-data-settings)에 따라 그대로 유지되거나 일시 중지되거나 삭제됩니다. |
@@ -32,7 +32,8 @@ ht-degree: 0%
 | 새 피드 데이터에는 광고 그룹, 광고, 키워드 또는 제품 그룹에 대한 행이 포함됩니다. 이 행은 a) 이전 데이터의 일부이지만 b) 이후 생략되었으며 [피드 데이터 설정](feed-settings-manage.md#feed-data-settings)에 따라 일시 중지되었습니다. | 해당 사항 없음 | 기존 광고 그룹, 광고, 키워드 또는 제품 그룹은 기록 또는 품질 점수를 손실하지 않고 다시 활성화됩니다. |
 | 새 피드 데이터에는 광고 그룹, 광고, 키워드 또는 제품 그룹에 대한 행이 포함됩니다. 이 행은 a) 이전 데이터에서는 삭제되었지만, b) 이후 생략되었으며 [피드 데이터 설정](feed-settings-manage.md#feed-data-settings)에 따라 삭제되었습니다. | 해당 사항 없음 | 새 광고 그룹, 광고, 키워드 또는 제품 그룹이 만들어집니다. |
 | 캠페인 또는 광고 그룹 수준 옵션을 &quot;[!UICONTROL Delete negative keywords when omitted from list]&quot;(으)로 비활성화했습니다. | 부정적 키워드 목록에는 &quot;coupe&quot;와 &quot;sports car&quot;가 포함됩니다.<br><br>광고 그룹에 부정적인 키워드 &quot;SUV&quot;가 이미 포함되어 있습니다. | 목록에 없는 기존의 부정적인 키워드는 그대로 유지됩니다. |
-| 캠페인 또는 광고 그룹 수준 옵션을 &quot;[!UICONTROL Delete negative keywords when omitted from list]&quot;에 사용하도록 설정했으며 목록에 없는 부정적인 키워드가 있습니다. | 부정적 키워드 목록에는 &quot;coupe&quot;와 &quot;sports car&quot;가 포함됩니다.<br><br>광고 그룹에 부정적인 키워드 &quot;SUV&quot;가 이미 포함되어 있습니다. | 이전에 템플릿을 사용하여 만든 지정되지 않은 부정적 키워드는 피드 파일이 템플릿을 통해 전파될 때 삭제됩니다. 그러나 다른 방법(예: 일반 일괄 시트, [!UICONTROL Campaigns] 보기 또는 광고 네트워크의 광고 편집기)을 사용하여 만든 지정되지 않은 부정적인 키워드는 그대로 유지됩니다. | | 게시된 피드 파일의 구성 요소에 대해 예약된 종료 날짜가 발생합니다. | 해당 사항 없음 | 기존 캠페인은 그대로 유지됩니다. 기존 광고 그룹, 광고 및 키워드는 [피드 데이터 설정](feed-settings-manage.md#feed-data-settings)에 따라 그대로 유지되거나 일시 중지되거나 삭제됩니다. |
+| 캠페인 또는 광고 그룹 수준 옵션을 &quot;[!UICONTROL Delete negative keywords when omitted from list]&quot;에 사용하도록 설정했으며 목록에 없는 부정적인 키워드가 있습니다. | 부정적 키워드 목록에는 &quot;coupe&quot;와 &quot;sports car&quot;가 포함됩니다.<br><br>광고 그룹에 부정적인 키워드 &quot;SUV&quot;가 이미 포함되어 있습니다. | 이전에 템플릿을 사용하여 만든 지정되지 않은 부정적 키워드는 피드 파일이 템플릿을 통해 전파될 때 삭제됩니다. 그러나 다른 방법(예: 일반 일괄 시트, [!UICONTROL Campaigns] 보기 또는 광고 네트워크의 광고 편집기)을 사용하여 만든 지정되지 않은 부정적인 키워드는 그대로 유지됩니다. |
+| 게시된 피드 파일의 구성 요소에 대해 예약된 종료 날짜가 발생합니다. | 해당 사항 없음 | 기존 캠페인은 그대로 유지됩니다. 기존 광고 그룹, 광고 및 키워드는 [피드 데이터 설정](feed-settings-manage.md#feed-data-settings)에 따라 그대로 유지되거나 일시 중지되거나 삭제됩니다. |
 | 항목의 재고 수준이 [피드 데이터 설정](feed-settings-manage.md#feed-data-settings)에 지정된 최소값 미만으로 떨어집니다. | 이전 파일: stock=10<br><br>새 파일: stock=0 | 기존 캠페인은 그대로 유지됩니다. [피드 데이터 설정](feed-settings-manage.md#feed-data-settings)에 따라 기존 광고 그룹, 광고, 키워드 및 제품 그룹이 일시 중지되거나 삭제됩니다. |
 | 항목의 재고 수준이 [피드 데이터 설정](feed-settings-manage.md#feed-data-settings)에 지정된 최소값을 초과합니다. | 이전 파일: stock=0<br><br> 새 파일: stock=10 | 기존 광고, 키워드 또는 제품 그룹이 일시 중지되면 기록 또는 품질 점수가 손실되지 않고 다시 활성화됩니다. 광고, 키워드 또는 제품 그룹이 존재하지 않으면(예: 재고 수준이 최소값 미만이어서 이전에 삭제된 경우) 새 광고, 키워드 또는 제품 그룹이 만들어집니다. |
 

@@ -2,7 +2,8 @@
 title: Customer Journey Analytics의 Adobe Advertising 지표 및 차원
 description: Customer Journey Analytics에서 사용할 수 있는 Adobe Advertising 지표 및 차원을 참조하십시오.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
+exl-id: 97c89e03-ab15-4906-96fc-6bb77ea0cd7c
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -68,26 +69,26 @@ Adobe Advertising은 트래픽 지표 및 차원을 매일 [!DNL Customer Journe
 
 | Adobe Advertising 필드 이름 | XDM 필드 이름 | XDM 필드 표시 이름 | Source |
 |------------------------------|----------------|------------------------|--------|
-| 키 | skwcid | ADOBE ADVERTISING ID |
-| 광고 플랫폼 | adobe_advertising_ad_platform | Adobe Advertising 광고 플랫폼 |
-| 계정 | adobe_advertising_account | Adobe Advertising 계정 |
-| 캠페인 | adobe_advertising_campaign | Adobe Advertising 캠페인 |
-| 광고 그룹 | adobe_advertising_ad_group | Adobe Advertising 광고 그룹 |
-| 키워드 | adobe_advertising_키워드 | Adobe Advertising 키워드 |
-| 광고 | adobe_advertising_ad | Adobe Advertising 광고 |
-| 배치 | adobe_advertising_placement | Adobe Advertising 배치 |
-| 일치 유형 | adobe_advertising_match_type | Adobe Advertising 일치 유형 |
-| 광고 제목 | adobe_advertising_ad_title | Adobe Advertising 광고 제목 |
-| 광고 설명 | adobe_advertising_ad_description | Adobe Advertising 광고 설명 |
-| 광고 대상 URL | adobe_advertising_ad_destination_url | Adobe Advertising 광고 대상 URL |
-| 광고 표시 URL | adobe_advertising_ad_display_url | Adobe Advertising 광고 표시 URL |
-| 장치 | adobe_advertising_device | Adobe Advertising 장치 |
-| 키워드 일치 유형 | adobe_advertising_keyword_matchtype | Adobe Advertising 키워드 일치 유형 |
-| 네트워크 | adobe_advertising_network | Adobe Advertising 네트워크 |
-| 광고 유형 | adobe_advertising_ad_type | Adobe Advertising 광고 유형 |
-| 제품 타겟 | adobe_advertising_product_target | Adobe Advertising 제품 타겟 |
-| 랜딩 유형 | adobe_advertising_landing_type | Adobe Advertising 랜딩 유형 |
-| 최적화 | adobe_advertising_optimization | Adobe Advertising 최적화 |
+| 키 | skwcid | ADOBE ADVERTISING ID |  |
+| 광고 플랫폼 | adobe_advertising_ad_platform | Adobe Advertising 광고 플랫폼 |  |
+| 계정 | adobe_advertising_account | Adobe Advertising 계정 |  |
+| 캠페인 | adobe_advertising_campaign | Adobe Advertising 캠페인 |  |
+| 광고 그룹 | adobe_advertising_ad_group | Adobe Advertising 광고 그룹 |  |
+| 키워드 | adobe_advertising_키워드 | Adobe Advertising 키워드 |  |
+| 광고 | adobe_advertising_ad | Adobe Advertising 광고 |  |
+| 배치 | adobe_advertising_placement | Adobe Advertising 배치 |  |
+| 일치 유형 | adobe_advertising_match_type | Adobe Advertising 일치 유형 |  |
+| 광고 제목 | adobe_advertising_ad_title | Adobe Advertising 광고 제목 |  |
+| 광고 설명 | adobe_advertising_ad_description | Adobe Advertising 광고 설명 |  |
+| 광고 대상 URL | adobe_advertising_ad_destination_url | Adobe Advertising 광고 대상 URL |  |
+| 광고 표시 URL | adobe_advertising_ad_display_url | Adobe Advertising 광고 표시 URL |  |
+| 장치 | adobe_advertising_device | Adobe Advertising 장치 |  |
+| 키워드 일치 유형 | adobe_advertising_keyword_matchtype | Adobe Advertising 키워드 일치 유형 |  |
+| 네트워크 | adobe_advertising_network | Adobe Advertising 네트워크 |  |
+| 광고 유형 | adobe_advertising_ad_type | Adobe Advertising 광고 유형 |  |
+| 제품 타겟 | adobe_advertising_product_target | Adobe Advertising 제품 타겟 |  |
+| 랜딩 유형 | adobe_advertising_landing_type | Adobe Advertising 랜딩 유형 |  |
+| 최적화 | adobe_advertising_optimization | Adobe Advertising 최적화 |  |
 
 >[!MORELIKETHIS]
 >

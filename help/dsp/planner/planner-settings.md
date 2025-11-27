@@ -3,7 +3,7 @@ title: 연결된 TV 도달 계획에 대한 설정
 description: 연결된 TV 도달 계획에 대한 설정 설명을 참조하십시오.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 5d8d981f08eaea2b0a0bc553ab06bd47f1e88ac9
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [DSP Planner 도구 정보](planner-about.md)
+>* [DSP 플래너 도구 정보](planner-about.md)
 >* [연결된 TV 도달 계획 만들기](planner-create.md)
 >* [연결된 TV 도달 계획 복제](planner-duplicate.md)
 >* [연결된 TV 도달 계획 편집](planner-edit.md)
