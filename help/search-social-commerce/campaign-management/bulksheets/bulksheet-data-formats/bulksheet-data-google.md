@@ -239,7 +239,7 @@ ht-degree: 0%
 
 ### 확장된 동적 검색 광고
 
-이제 [!DNL Google Ads]에서 이 광고 유형을 &quot;동적 검색 광고&quot;라고 합니다. 동적 검색 광고 만들기에 대한 자세한 내용은 &quot;[동적 검색 광고 구현 [!DNL Google Ads] 2&rbrace;을 참조하세요.&quot;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)
+이제 [!DNL Google Ads]에서 이 광고 유형을 &quot;동적 검색 광고&quot;라고 합니다. 동적 검색 광고 만들기에 대한 자세한 내용은 &quot;[동적 검색 광고 구현 [!DNL Google Ads] 2&rbrace;을 참조하세요.&quot;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=ko)
 
 이 광고 유형의 경우 [!UICONTROL Creative (except RSA)] 대화 상자에서 &quot;[!UICONTROL Download Bulksheet]&quot; 행을 사용하십시오.
 
@@ -264,7 +264,7 @@ ht-degree: 0%
 
 ### 제품 목록/쇼핑 광고 필드
 
-쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 2&rbrace;&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)
+쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 2&rbrace;&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=ko)
 
 이 광고 유형의 경우 [!UICONTROL Creative (except RSA)] 대화 상자에서 &quot;[!UICONTROL Download Bulksheet]&quot; 행을 사용하십시오.
 
