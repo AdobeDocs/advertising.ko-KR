@@ -3,7 +3,7 @@ title: 광고 사양
 description: 일반 및 게시자별 광고 사양을 참조하십시오.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
+source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 * **검색:** 검색의 [광고 사양](/help/dsp/assets/discovery-networks-ad-specs.pdf)을 참조하세요.
 
-* **Disney(포함) Hulu):** Disney의 [광고 사양](https://hulu.disneyadsales.com/ad-products/video-commercial/)을 참조하십시오.
+* **Disney(포함) Hulu):** Disney의 [광고 사양](https://www.disneyadvertising.com/mediakit/#specifications)을 참조하십시오.
 
 * **HBO 최대:** HBO 최대 [광고 사양](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx)을 참조하십시오.
 
