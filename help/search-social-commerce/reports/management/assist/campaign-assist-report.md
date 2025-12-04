@@ -3,10 +3,10 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: '[!UICONTROL Campaign Assist Report]에 대해 알아봅니다.'
 exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 1%
 
 ---
 
@@ -47,8 +47,8 @@ ht-degree: 0%
 | [!UICONTROL EF Campaign ID] | 사용자 정의 | Search, Social 및 Commerce이 캠페인에 할당하는 숫자 ID입니다. |
 | [!UICONTROL EF Portfolio Group ID] | 사용자 정의 | 포트폴리오가 속한 포트폴리오 그룹의 숫자 ID입니다. |
 | [!UICONTROL EF Search Engine ID] | 사용자 정의 | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. <i>[!UICONTROL 3]</i>의 [!DNL Google Ads], <i>[!UICONTROL 10]</i>의 [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i>의 [!DNL Meta], <i>[!UICONTROL 86]</i>의 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i>의 [!DNL Naver], <i>[!UICONTROL 88]</i>의 [!DNL Baidu], <i>[!UICONTROL 90]</i>의 [!DNL Yandex], <i>[!UICONTROL 94]</i>의 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i>의 [!DNL Yahoo Native]&#x200B;(더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i>의 [!DNL Pinterest]&#x200B;(더 이상 사용되지 않음). |
-| [!UICONTROL Portfolio ID] | 숫자 포트폴리오 ID입니다. |  |
-| [!UICONTROL User SE Account ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. |  |
+| [!UICONTROL Portfolio ID] | 사용자 정의 | 숫자 포트폴리오 ID입니다. |
+| [!UICONTROL User SE Account ID] | 사용자 정의 | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. |
 
 >[!MORELIKETHIS]
 >
