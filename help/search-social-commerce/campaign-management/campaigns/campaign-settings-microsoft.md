@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising] 캠페인 설정'
 description: ' [!DNL Microsoft Advertising] 캠페인에 대한 설정을 참조합니다.'
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]:* 대상 네트워크에서 표준 비디오 광고를 표시합니다.
 
-* *[!UICONTROL Performance Max]:* [!DNL Microsoft Advertising] 스마트 입찰을 사용하여 모든 네트워크에서 여러 광고 유형을 표시합니다. 캠페인 설정 내에서 이미지, 로고, 헤드라인, 설명, 선택적 콜 투 액션 및 대상 신호를 포함하는 자산 그룹을 하나 이상 지정해야 합니다. 광고 네트워크는 채널을 기반으로 광고를 제공할 자산을 자동으로 결합합니다.
+* *[!UICONTROL Performance Max]:* [!DNL Microsoft Advertising] 스마트 입찰을 사용하여 모든 네트워크에서 여러 광고 유형을 표시합니다. 캠페인 설정 내에서 이미지, 로고, 헤드라인, 설명, 선택적 call to action 및 대상 신호를 포함하는 에셋 그룹을 하나 이상 지정해야 합니다. 광고 네트워크는 채널을 기반으로 광고를 제공할 자산을 자동으로 결합합니다.
 
 ## [!UICONTROL Campaign Details]
 
@@ -47,6 +47,8 @@ ht-degree: 0%
 
 {{$include /help/_includes/end-date.md}}
 
+**[!UICONTROL Contains EU Political Ads]:**(유럽 연합(EU)에서 대상을 타겟팅하는 캠페인에 적용) EU 규정 2024/90: *[!UICONTROL Yes]* 또는 *[!UICONTROL No]*&#x200B;에 따라 유럽 연합에서 제공되는 광고에 대한 요구 사항에 따라 캠페인에 정치적 광고가 포함되어 있는지 여부.
+
 ## [!UICONTROL Budget Options]
 
 <!-- **[!UICONTROL Budget]:** -->
@@ -59,7 +61,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** 캠페인에 대한 입찰 전략:
 
-* *[!UICONTROL Cost per Sale]:*(쇼핑 캠페인만 해당) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 [!UICONTROL Target CPS] (판매당 비용)을 기반으로 입찰을 최적화합니다. 제품을 클릭할 때만 지불하고 24시간 이내에 판매합니다. **참고:** 이 입찰 전략이 포함된 캠페인을 포트폴리오에 포함하지 마십시오. 이 입찰 전략을 사용하는 캠페인에는 검색, 소셜 및 Commerce 최적화를 사용할 수 없습니다.
+* *[!UICONTROL Cost per Sale]:*(쇼핑 캠페인만 해당) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 [!UICONTROL Target CPS]&#x200B;(판매당 비용)을 기반으로 입찰을 최적화합니다. 제품을 클릭할 때만 지불하고 24시간 이내에 판매합니다. **참고:** 이 입찰 전략이 포함된 캠페인을 포트폴리오에 포함하지 마십시오. 이 입찰 전략을 사용하는 캠페인에는 검색, 소셜 및 Commerce 최적화를 사용할 수 없습니다.
 
   이 입찰 전략으로 브랜드에 대한 쇼핑 캠페인을 저장하면 입찰 전략을 변경할 수 없습니다. 다른 쇼핑 캠페인 유형의 경우 이 전략은 새 캠페인에만 사용할 수 있습니다.
 
@@ -75,7 +77,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPA]:*([!DNL Microsoft Store Ads] 캠페인) CPA(획득 당 비용) 모델을 사용합니다.
 
-* *[!UICONTROL Manual CPM]*(대상 캠페인 및 대상 비디오 캠페인만 해당) 1,000회 시청한 노출당 지출할 비용을 지정하는 CPM(Cost-per-Thousand-Impressions) 모델을 사용합니다. 이 입찰 전략을 사용하는 캠페인은 포트폴리오에 포함될 때 최적화되지 않습니다.
+* *[!UICONTROL Manual CPM]*(대상 캠페인 및 대상 비디오 캠페인만 해당) 1,000회 시청한 노출당 지출할 비용을 지정하는 천 단위 노출당 비용(CPM) 모델을 사용합니다. 이 입찰 전략을 사용하는 캠페인은 포트폴리오에 포함될 때 최적화되지 않습니다.
 
 * *[!UICONTROL Maximize Clicks]:*(검색 및 쇼핑 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 클릭수를 최대화하기 위해 입찰을 최적화합니다. 선택적으로 **[!UICONTROL Max CPC]**(클릭당 비용)을 입력하여 광고 네트워크가 클릭당 특정 금액 이상을 지불하지 않도록 합니다. **주의:** 이 전략을 사용하는 캠페인을 포트폴리오에 추가하면 클릭 가중치(포트폴리오 목표가 아님)가 입찰을 유도합니다.
 
@@ -200,7 +202,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/append-parameters.md}}
 
-## [!UICONTROL Asset Groups] (자산 그룹당)
+## [!UICONTROL Asset Groups]&#x200B;(자산 그룹당)
 
 **[!UICONTROL Asset Group Name]:** 자산 폴더(자산 그룹)의 이름입니다.
 
@@ -282,7 +284,7 @@ ht-degree: 0%
 
 * [!UICONTROL Asset Library]에서 자산을 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 자산을 선택하십시오.
 
-**[!UICONTROL Call to Action]:** 광고에 포함할 작업에 대한 호출입니다. 기본적으로 *[!UICONTROL Act Now]*&#x200B;이(가) 선택되어 있습니다.
+**[!UICONTROL Call to Action]:** 광고에 포함할 call to action. 기본적으로 *[!UICONTROL Act Now]*&#x200B;이(가) 선택되어 있습니다.
 
 **[!UICONTROL Business Name]:** 비즈니스 이름으로, 최대 25자입니다. 스크립트, HTML 또는 기타 마크업 언어를 포함할 수 없습니다.
 

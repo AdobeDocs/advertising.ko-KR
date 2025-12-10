@@ -3,9 +3,9 @@ title: ' [!DNL Microsoft Advertising] 계정의 필수 일괄 시트 데이터'
 description: ' [!DNL Microsoft Advertising] 계정의 일괄 시트에 있는 필수 머리글 필드 및 데이터 필드를 참조합니다.'
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '6895'
+source-wordcount: '6934'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
 | [!UICONTROL Channel Type] | 캠페인이 타겟팅하는 채널 유형: <i>[!UICONTROL Audience]</i>, <i>[!UICONTROL DynamicSearchAds]</i>, <i>[!UICONTROL Search]</i> 또는 <i>[!UICONTROL Shopping]</i>. |
 | [!UICONTROL Delivery Method] | (일일 예산이 있는 캠페인만 해당) 매일 캠페인에 대한 광고를 표시하는 속도:<ul><li><i>[!UICONTROL Standard (Distributed)]</i>(새 캠페인의 기본값): 광고 노출 횟수를 하루 전체에 분산합니다.</li><li><i>[!UICONTROL Accelerated]:</i> 예산에 도달할 때까지 가능한 한 자주 광고를 표시합니다. 그 결과, 오늘 오후에 광고가 표시되지 않을 수 있습니다.</li></ul> |
 | [!UICONTROL Campaign Priority] | (쇼핑 캠페인만 해당) 여러 캠페인이 동일한 제품을 광고할 때 사용하는 우선 순위입니다. <i>[!UICONTROL Low]</i>(새 캠페인의 기본값), <i>[!UICONTROL Medium]</i> 또는 <i>[!UICONTROL High]</i>.<br><br>동일한 제품이 두 개 이상의 캠페인에 포함된 경우 광고 네트워크에서는 먼저 캠페인 우선 순위를 사용하여 광고 경매에 적합한 캠페인(및 관련 입찰)을 결정합니다. 모든 캠페인이 동일한 우선 순위를 갖는 경우 입찰이 가장 높은 캠페인이 적격입니다. |
+| [!UICONTROL Has EU Political Ads] | (유럽 연합(EU)에서 대상을 타겟팅하는 캠페인에 적용) EU 규정 2024/90: <i>[!UICONTROL Yes]</i> 또는 <i>[!UICONTROL No]</i>에 따라 유럽 연합에서 제공되는 광고에 대한 요구 사항에 따라 캠페인에 정치적 광고가 포함되어 있는지 여부. |
 | [!UICONTROL Merchant ID] | (판매자 피드에만 연결된 쇼핑 캠페인 및 대상 캠페인) 캠페인에 제품이 사용되는 판매자 계정의 고객 ID입니다. |
 | [!UICONTROL Sales Country] | (쇼핑 캠페인 전용, 기존 캠페인의 경우 읽기 전용) 캠페인의 제품이 판매되는 국가입니다. 제품은 대상 국가와 연결되어 있으므로 이 설정은 캠페인에 광고되는 제품을 결정합니다. |
 | [!UICONTROL Product Scope Filter] | (쇼핑 네트워크만 사용하는 캠페인) 판매자 계정의 제품으로서, 캠페인에 대한 제품 광고를 만들 수 있습니다. dimension=attribute 형식을 사용하여 제품을 필터링할 제품 차원 및 속성 조합을 최대 7개까지 입력할 수 있습니다. &quot;>>&quot; 구분 기호로 여러 필터를 구분합니다. 사용 가능한 제품 차원 목록을 보려면 &quot;[쇼핑 캠페인 제품 필터](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;을 참조하세요.<br><br> 예: &quot;`CategoryL1==Animals & Pet Supplies>>CategoryL2=Pet Supplies>>Brand=Acme Pet Supplies`&quot;<br><br> 기존 값을 삭제하려면 값 `[delete]`(대괄호 포함)을(를) 사용하십시오. |
@@ -136,6 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Channel Type] | 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Delivery Method] | 선택 사항 |
 | [!UICONTROL Campaign Priority] | 쇼핑 캠페인을 만드는 데 필요합니다. |
+| [!UICONTROL Has EU Political Ads] | 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Merchant ID] | 쇼핑 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Sales Country] | 쇼핑 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Product Scope Filter] | (쇼핑 캠페인) 선택 사항 |
@@ -225,12 +227,12 @@ ht-degree: 0%
 | \[광고주별 레이블 분류\] | 선택 사항 |
 | [!UICONTROL Campaign ID] | 선택 사항 |
 | [!UICONTROL Ad Group ID] | 선택 사항 |
-| [!UICONTROL Ad ID] | 행에 a&rpar; 광고 또는 b&rpar; &quot;[!UICONTROL AMO ID]&quot;을(를) 식별하는 데 충분한 광고 속성 열이 포함되지 않는 한 광고 상태를 변경할 때만 필요합니다. 그러나 [!UICONTROL Ad ID]과(와) [!UICONTROL AMO ID]을(를) 모두 포함하지 않고 광고 속성 열이 여러 광고와 일치하는 경우 광고 중 하나에 대한 상태만 변경됩니다. |
+| [!UICONTROL Ad ID] | 행에 a&amp;rpar; 광고 또는 b&amp;rpar; &quot;[!UICONTROL AMO ID]&quot;을(를) 식별하는 데 충분한 광고 속성 열이 포함되지 않는 한 광고 상태를 변경할 때만 필요합니다. 그러나 [!UICONTROL Ad ID]과(와) [!UICONTROL AMO ID]을(를) 모두 포함하지 않고 광고 속성 열이 여러 광고와 일치하는 경우 광고 중 하나에 대한 상태만 변경됩니다. |
 | [!UICONTROL AMO ID] | 엔티티 ID 및 상위 엔티티 ID를 포함하지 않는 한 데이터를 편집하거나 삭제하는 데 필요합니다.<br><br>검색, 소셜 및 Commerce에서는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 
 ### 제품(쇼핑) 광고 필드
 
-쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2&rbrace;&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=ko)
+쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)
 
 이 광고 유형의 경우 [!UICONTROL Creative (except RSA)] 대화 상자에서 &quot;[!UICONTROL Download Bulksheet]&quot; 행을 사용하십시오.
 

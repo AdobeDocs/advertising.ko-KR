@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] 캠페인 설정'
 description: ' [!DNL Google Ads] 캠페인에 대한 설정을 참조합니다.'
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 21dc29e97915712053bbcc39d8141693c1dbf8bf
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2617'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,21 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Details]
 
+<!-- left to right -->
+
 **[!UICONTROL Campaign Name]:** 계정 내에서 고유한 캠페인 이름.
+
+**[!UICONTROL Status]:** 캠페인의 표시 상태: *활성* 또는 *일시 중지됨*. 새 광고 캠페인의 기본값은 *활성*&#x200B;입니다.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
 {{$include /help/_includes/start-date.md}}
+
+<!-- **[!UICONTROL End Date]:** -->
+
+{{$include /help/_includes/end-date.md}}
+
+**[!UICONTROL Search Partners]:**(쇼핑 캠페인을 포함하여 검색 네트워크만 대상으로 하는 캠페인) 광고 네트워크의 검색 파트너 네트워크에 광고를 표시합니다. 기본적으로 이 옵션은 *[!UICONTROL Off]*&#x200B;입니다.
 
 **[!UICONTROL Audience Target Method]:**(기존, 읽기 전용 Gmail 캠페인만 해당) 다음을 수행할지 여부:
 
@@ -50,13 +60,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Bid Only]:* 다른 광고 그룹 수준 타겟을 만족시키는 한 타겟 대상자와 연결되지 않은 사람에게도 광고를 표시합니다. 그러나 해당 대상자에 대해 더 높은 입찰가를 설정하여 특정 대상자에게 광고가 표시될 가능성을 높일 수 있습니다.
 
-**[!UICONTROL Status]:** 캠페인의 표시 상태: *활성* 또는 *일시 중지됨*. 새 광고 캠페인의 기본값은 *활성*&#x200B;입니다.
-
-<!-- **[!UICONTROL End Date]:** -->
-
-{{$include /help/_includes/end-date.md}}
-
-**[!UICONTROL Search Partners]:**(쇼핑 캠페인을 포함하여 검색 네트워크만 대상으로 하는 캠페인) 광고 네트워크의 검색 파트너 네트워크에 광고를 표시합니다. 기본적으로 이 옵션은 *[!UICONTROL Off]*&#x200B;입니다.
+**[!UICONTROL Contains EU Political Ads]:**(유럽 연합(EU)에서 대상을 타겟팅하는 캠페인에 적용) EU 규정 2024/90: *[!UICONTROL Yes]* 또는 *[!UICONTROL No]*&#x200B;에 따라 유럽 연합에서 제공되는 광고에 대한 요구 사항에 따라 캠페인에 정치적 광고가 포함되어 있는지 여부.
 
 **[!UICONTROL AI Max Enabled]:**(검색 네트워크만 대상으로 하는 캠페인; 읽기 전용) [[!UICONTROL AI Max] 기능](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: *[!UICONTROL On]* 또는 *[!UICONTROL Off]*.
 
@@ -131,7 +135,7 @@ ht-degree: 0%
 
 **팁:** 이 설정을 사용하는 경우 [!UICONTROL Inventory Filter] 설정에서 로컬 광고를 제외하지 마십시오.
 
-**참고:** 로컬 인벤토리 광고에는 [!DNL Google Merchant Center]에 대한 두 개의 추가 피드가 필요합니다. 하나는 로컬 제품 데이터를 사용하고 다른 하나는 로컬 제품 인벤토리를 사용합니다. [!DNL Google Ads]로컬 쇼핑 광고[에 대한 자세한 내용은 &#x200B;](https://www.google.com/retail/local-inventory-ads/) 설명서를 참조하세요.
+**참고:** 로컬 인벤토리 광고에는 [!DNL Google Merchant Center]에 대한 두 개의 추가 피드가 필요합니다. 하나는 로컬 제품 데이터를 사용하고 다른 하나는 로컬 제품 인벤토리를 사용합니다. [!DNL Google Ads]로컬 쇼핑 광고[에 대한 자세한 내용은 ](https://www.google.com/retail/local-inventory-ads/) 설명서를 참조하세요.
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
@@ -377,7 +381,7 @@ ht-degree: 0%
 
 **[!UICONTROL Primary Status]:**(성과 최대 캠페인의 기존 에셋 그룹에 대한 읽기 전용 필드) 에셋 그룹이 전체 용량으로 제공되거나 제공되지 않는 이유. 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다. 값에는 *적격,* *제한,* *NOT_적격,* *일시 중지됨,* *보류 중,* *제거됨,* *알 수 없음,* 또는 *지정되지 않음.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->&#x200B;이 포함될 수 있습니다.
 
-**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨&rbrace;이 포함될 수 있습니다.*
+**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨}이 포함될 수 있습니다.*
 
 ## [!UICONTROL Conversion Goals]
 

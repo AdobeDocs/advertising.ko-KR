@@ -3,9 +3,9 @@ title: 인벤토리 피드에 대한 [!DNL Google Ads] 쇼핑 광고 템플릿 �
 description: 인벤토리 피드에 대한  [!DNL Google Ads] 쇼핑 광고 템플릿 설정을 참조하십시오.
 exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,8 @@ target 국가의 경우 이 설정은 캠페인에 광고되는 제품을 결정
 <!-- **[!UICONTROL Locations]:** -->
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
+
+**[!UICONTROL Has EU Political Ads]:**([!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인만 해당, 유럽 연합(EU)의 대상을 타겟팅하는 캠페인에 적용 가능) EU 규정 2024/90: *[!UICONTROL Yes]* 또는 *[!UICONTROL No]*&#x200B;에 따라 유럽 연합에서 제공되는 광고에 대한 요구 사항에 따라 캠페인에 정치적 광고가 포함되는지 여부.
 
 ## [!UICONTROL Ad Groups]
 

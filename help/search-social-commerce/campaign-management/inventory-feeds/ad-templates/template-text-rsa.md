@@ -3,17 +3,16 @@ title: 인벤토리 피드에 대한 텍스트 광고 및 반응형 검색 광�
 description: 재고 피드에 대한 텍스트 광고 및 반응형 검색 광고 템플릿에 대한 설정을 참조하십시오.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
 
 # 인벤토리 피드에 대한 텍스트 광고 및 반응형 검색 광고 템플릿 설정
 
-
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 >[!NOTE]
 >
@@ -66,11 +65,11 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]:**(최종/고급 URL만 있는 계정; 선택 사항) 모든 랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 캠페인 수준 추적 템플릿입니다. 이 값은 계정 수준 설정을 무시하지만, 더 세분화된 수준에서(키워드를 가장 세분화된 수준으로) 추적 템플릿이 이 값을 무시합니다.
 
-* 캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 Search, Social 및 Commerce에서 자동으로 리디렉션 및 추적 코드를 추가합니다.
+* 캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 검색, 소셜 및 Commerce에서 리디렉션 및 추적 코드를 자동으로 추가합니다.
 
 * 최종 URL을 포함하려면 다음을 수행하십시오.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799/2) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 ](https://help.ads.microsoft.com/#apex/3/en/56799/2) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
    * ([!DNL Yahoo! Japan Ads]만 해당) `!{unescapedurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 
@@ -120,6 +119,8 @@ ht-degree: 0%
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
 
+**[!UICONTROL Has EU Political Ads]:**([!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인만 해당, 유럽 연합(EU)의 대상을 타겟팅하는 캠페인에 적용 가능) EU 규정 2024/90: *[!UICONTROL Yes]* 또는 *[!UICONTROL No]*&#x200B;에 따라 유럽 연합에서 제공되는 광고에 대한 요구 사항에 따라 캠페인에 정치적 광고가 포함되는지 여부.
+
 ## [!UICONTROL Ad Groups]
 
 <!-- **[!UICONTROL Ad Group]:** -->
@@ -136,13 +137,13 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Tracking Template]:**(최종/고급 URL만 있는 계정) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 광고 그룹 수준 추적 템플릿입니다.
 
-캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 Search, Social 및 Commerce에서 자동으로 리디렉션 및 추적 코드를 추가합니다.
+캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 검색, 소셜 및 Commerce에서 리디렉션 및 추적 코드를 자동으로 추가합니다.
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다. 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 
 * Yahoo! Japan Ads 계정에서 매개 변수 {lpurl}을(를) 사용합니다.
 
-* Microsoft Advertising 및 Google Ads 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
+* Microsoft Advertising 및 Google Ads 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [!DNL ValueTrack]설명서[[!DNL Google Ads] 의 &quot;사용 가능한 ](https://support.google.com/google-ads/answer/6305348) 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
 
 이 값은 계정 및 캠페인 수준 설정을 재정의하지만, 더 세분화된 수준에서(키워드를 가장 세분화된 수준으로) 추적 템플릿이 이 값을 재정의합니다.
 
@@ -200,13 +201,13 @@ ht-degree: 0%
 
 **[!UICONTROL Keyword Tracking Template]:**(final/advanced URL이 있는 계정; 선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 추적 템플릿입니다. 가장 세부적인 수준의 추적 템플릿(키워드를 가장 세부적인 수준으로 사용)은 다른 모든 수준의 값을 재정의합니다.
 
-* 캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 Search, Social 및 Commerce에서 자동으로 리디렉션 및 추적 코드를 추가합니다.
+* 캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 검색, 소셜 및 Commerce에서 리디렉션 및 추적 코드를 자동으로 추가합니다.
 
 * 선택적으로 서드파티 리디렉션 및 추적을 입력할 수 있습니다.
 
 * 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 ](https://help.ads.microsoft.com/#apex/3/en/56799) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
    * ([!DNL Yahoo! Japan Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 
@@ -228,7 +229,7 @@ ht-degree: 0%
 
    * 통화 기호나 코드 앞에 값을 추가하거나 추가할 수 있습니다. 예를 들어 £2.000,000 및 2000GBP가 유효합니다.
 
-   * 값에는 쉼표(,) 또는 마침표(.)가 포함될 수 있습니다. 선택적 마침표(.)가 있는 구분 기호로 또는 분수 값의 경우 쉼표(,)가 표시됩니다. 예를 들어 1,000.00과 2.000,10이 유효합니다.
+   * 값에는 쉼표(,) 또는 마침표(.)가 구분 기호로 포함될 수 있으며 분수 값에는 선택적 마침표(.) 또는 쉼표(,)가 포함됩니다. 예를 들어 1,000.00과 2.000,10이 유효합니다.
 
    * 값 앞에 퍼센트 기호(%), 더하기 기호(+) 또는 빼기 기호(-)를 붙이거나 붙일 수 있습니다. 예를 들어 20%, 208+ 및 -42.32가 유효합니다.
 
@@ -238,7 +239,7 @@ ht-degree: 0%
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] 템플릿만 해당) 제목, 텍스트, 표시 URL 또는 최종 URL에 `{Param3}` 동적 대체 문자열이 포함된 경우 광고에서 대체 값으로 사용할 문자열입니다. 최대 길이는 70자이지만 사용하는 광고 요소의 최대 길이에 유의하십시오(예: 광고 제목에는 최대 25자가 포함될 수 있음).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** 일치 유형 또는 광고 유형이 지정된 각 키워드에 대한 초기 입찰입니다.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** 일치 유형 또는 광고 유형이 지정된 각 키워드에 대한 초기 입찰입니다.
 
 ## [!UICONTROL Ads]
 
@@ -320,7 +321,7 @@ ht-degree: 0%
 
 **[!UICONTROL Base URL]:**(대상 URL만 있는 계정) 사용자를 가져오는 페이지입니다. 여기에는 서드파티 리디렉션 및 추적 코드가 포함될 수 있습니다. Adobe Advertising 전환 추적 서비스를 사용하고 캠페인 설정에 [!UICONTROL EF Redirect] 사용 및 광고 수준에서 추적 추가가 포함된 경우 검색, 소셜 및 Commerce은 자동으로 자체 리디렉션 및 추적 코드를 광고에 추가합니다.
 
-열 이름이나 한정자 그룹을 동적 매개 변수로 삽입하려면 입력 필드를 클릭한 다음 열 목록에서 열 이름을 클릭하거나 [!UICONTROL Modifiers] 목록에서 [한정자 이름](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)을 클릭합니다.
+열 이름이나 한정자 그룹을 동적 매개 변수로 삽입하려면 입력 필드를 클릭한 다음 열 목록에서 열 이름을 클릭하거나 [ 목록에서 ](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)한정자 이름[!UICONTROL Modifiers]을 클릭합니다.
 
 **[!UICONTROL Final URL]:**(최종/고급 URL이 있는 계정) 사용자가 광고를 클릭할 때 사용하는 랜딩 페이지 URL입니다. 표시 URL과 동일한 도메인을 포함해야 하며 최종 URL의 모든 매개 변수는 광고 클릭 후 랜딩 페이지 URL의 매개 변수와 일치해야 합니다. 랜딩 페이지 도메인 또는 하위 도메인 내에는 리디렉션이 포함될 수 있지만 랜딩 페이지 도메인 외부에는 리디렉션이 포함되지 않습니다.
 
@@ -333,13 +334,13 @@ ht-degree: 0%
 
 **[!UICONTROL Tracking Template]:**(final/advanced URL이 있는 계정; 선택 사항) 모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 추적 템플릿입니다. 가장 세부적인 수준의 추적 템플릿(키워드를 가장 세부적인 수준으로 사용)은 다른 모든 수준의 값을 재정의합니다.
 
-캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 Search, Social 및 Commerce에서 자동으로 리디렉션 및 추적 코드를 추가합니다.
+캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 검색, 소셜 및 Commerce에서 리디렉션 및 추적 코드를 자동으로 추가합니다.
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다. 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 
 * Yahoo! Japan Ads 계정에서 매개 변수 {lpurl}을(를) 사용합니다.
 
-* Microsoft Advertising 및 Google Ads 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
+* Microsoft Advertising 및 Google Ads 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [!DNL ValueTrack]설명서[[!DNL Google Ads] 의 &quot;사용 가능한 ](https://support.google.com/google-ads/answer/6305348) 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
 
 **\[원본 광고 필드 아래의 대체 광고 필드\]:**(선택 사항) 광고에 대한 대체 광고 복사본 집합입니다. 이 집합은 전달하는 동안 동적 매개 변수가 데이터로 채워지면 원본 광고 복사본에 허용된 최대 길이를 초과하는 경우 사용할 수 있습니다.
 
