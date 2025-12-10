@@ -69,7 +69,7 @@ ht-degree: 0%
 
 * 최종 URL을 포함하려면 다음을 수행하십시오.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 ](https://help.ads.microsoft.com/#apex/3/en/56799/2) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799/2) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
    * ([!DNL Yahoo! Japan Ads]만 해당) `!{unescapedurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 * Yahoo! Japan Ads 계정에서 매개 변수 {lpurl}을(를) 사용합니다.
 
-* Microsoft Advertising 및 Google Ads 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [!DNL ValueTrack]설명서[[!DNL Google Ads] 의 &quot;사용 가능한 ](https://support.google.com/google-ads/answer/6305348) 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
+* Microsoft Advertising 및 Google Ads 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [!DNL ValueTrack]설명서[[!DNL Google Ads] 의 &quot;사용 가능한 &#x200B;](https://support.google.com/google-ads/answer/6305348) 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
 
 이 값은 계정 및 캠페인 수준 설정을 재정의하지만, 더 세분화된 수준에서(키워드를 가장 세분화된 수준으로) 추적 템플릿이 이 값을 재정의합니다.
 
@@ -207,7 +207,7 @@ ht-degree: 0%
 
 * 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 ](https://help.ads.microsoft.com/#apex/3/en/56799) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
    * ([!DNL Yahoo! Japan Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 
@@ -239,7 +239,7 @@ ht-degree: 0%
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] 템플릿만 해당) 제목, 텍스트, 표시 URL 또는 최종 URL에 `{Param3}` 동적 대체 문자열이 포함된 경우 광고에서 대체 값으로 사용할 문자열입니다. 최대 길이는 70자이지만 사용하는 광고 요소의 최대 길이에 유의하십시오(예: 광고 제목에는 최대 25자가 포함될 수 있음).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** 일치 유형 또는 광고 유형이 지정된 각 키워드에 대한 초기 입찰입니다.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** 일치 유형 또는 광고 유형이 지정된 각 키워드에 대한 초기 입찰입니다.
 
 ## [!UICONTROL Ads]
 
@@ -321,7 +321,7 @@ ht-degree: 0%
 
 **[!UICONTROL Base URL]:**(대상 URL만 있는 계정) 사용자를 가져오는 페이지입니다. 여기에는 서드파티 리디렉션 및 추적 코드가 포함될 수 있습니다. Adobe Advertising 전환 추적 서비스를 사용하고 캠페인 설정에 [!UICONTROL EF Redirect] 사용 및 광고 수준에서 추적 추가가 포함된 경우 검색, 소셜 및 Commerce은 자동으로 자체 리디렉션 및 추적 코드를 광고에 추가합니다.
 
-열 이름이나 한정자 그룹을 동적 매개 변수로 삽입하려면 입력 필드를 클릭한 다음 열 목록에서 열 이름을 클릭하거나 [ 목록에서 ](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)한정자 이름[!UICONTROL Modifiers]을 클릭합니다.
+열 이름이나 한정자 그룹을 동적 매개 변수로 삽입하려면 입력 필드를 클릭한 다음 열 목록에서 열 이름을 클릭하거나 [&#x200B; 목록에서 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)한정자 이름[!UICONTROL Modifiers]을 클릭합니다.
 
 **[!UICONTROL Final URL]:**(최종/고급 URL이 있는 계정) 사용자가 광고를 클릭할 때 사용하는 랜딩 페이지 URL입니다. 표시 URL과 동일한 도메인을 포함해야 하며 최종 URL의 모든 매개 변수는 광고 클릭 후 랜딩 페이지 URL의 매개 변수와 일치해야 합니다. 랜딩 페이지 도메인 또는 하위 도메인 내에는 리디렉션이 포함될 수 있지만 랜딩 페이지 도메인 외부에는 리디렉션이 포함되지 않습니다.
 
@@ -340,7 +340,7 @@ ht-degree: 0%
 
 * Yahoo! Japan Ads 계정에서 매개 변수 {lpurl}을(를) 사용합니다.
 
-* Microsoft Advertising 및 Google Ads 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [!DNL ValueTrack]설명서[[!DNL Google Ads] 의 &quot;사용 가능한 ](https://support.google.com/google-ads/answer/6305348) 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
+* Microsoft Advertising 및 Google Ads 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [!DNL ValueTrack]설명서[[!DNL Google Ads] 의 &quot;사용 가능한 &#x200B;](https://support.google.com/google-ads/answer/6305348) 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
 
 **\[원본 광고 필드 아래의 대체 광고 필드\]:**(선택 사항) 광고에 대한 대체 광고 복사본 집합입니다. 이 집합은 전달하는 동안 동적 매개 변수가 데이터로 채워지면 원본 광고 복사본에 허용된 최대 길이를 초과하는 경우 사용할 수 있습니다.
 

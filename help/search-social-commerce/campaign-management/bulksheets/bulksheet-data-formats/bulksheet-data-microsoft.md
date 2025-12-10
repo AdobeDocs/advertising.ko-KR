@@ -227,12 +227,12 @@ ht-degree: 0%
 | \[광고주별 레이블 분류\] | 선택 사항 |
 | [!UICONTROL Campaign ID] | 선택 사항 |
 | [!UICONTROL Ad Group ID] | 선택 사항 |
-| [!UICONTROL Ad ID] | 행에 a&amp;rpar; 광고 또는 b&amp;rpar; &quot;[!UICONTROL AMO ID]&quot;을(를) 식별하는 데 충분한 광고 속성 열이 포함되지 않는 한 광고 상태를 변경할 때만 필요합니다. 그러나 [!UICONTROL Ad ID]과(와) [!UICONTROL AMO ID]을(를) 모두 포함하지 않고 광고 속성 열이 여러 광고와 일치하는 경우 광고 중 하나에 대한 상태만 변경됩니다. |
+| [!UICONTROL Ad ID] | 행에 a&rpar; 광고 또는 b&rpar; &quot;[!UICONTROL AMO ID]&quot;을(를) 식별하는 데 충분한 광고 속성 열이 포함되지 않는 한 광고 상태를 변경할 때만 필요합니다. 그러나 [!UICONTROL Ad ID]과(와) [!UICONTROL AMO ID]을(를) 모두 포함하지 않고 광고 속성 열이 여러 광고와 일치하는 경우 광고 중 하나에 대한 상태만 변경됩니다. |
 | [!UICONTROL AMO ID] | 엔티티 ID 및 상위 엔티티 ID를 포함하지 않는 한 데이터를 편집하거나 삭제하는 데 필요합니다.<br><br>검색, 소셜 및 Commerce에서는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 
 ### 제품(쇼핑) 광고 필드
 
-쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)
+쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2&rbrace;&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)
 
 이 광고 유형의 경우 [!UICONTROL Creative (except RSA)] 대화 상자에서 &quot;[!UICONTROL Download Bulksheet]&quot; 행을 사용하십시오.
 
