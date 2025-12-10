@@ -4,9 +4,9 @@ description: 일괄 시트 파일을 사용하여 여러 포트폴리오의 설�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -45,11 +45,11 @@ ht-degree: 0%
 
 날짜 범위 선택기 옆에 있는 [!UICONTROL Global Sync Status] 단추(![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태"))에서 업로드 상태를 확인할 수 있습니다.<!-- icon similar to Refresh -->. 실패한 변경 사항이 있으면 실패한 항목을 보여 주는 오류 파일을 다운로드할 수 있습니다.
 
-알림도 알림 센터에 추가되며 ![&#x200B; 단추(](/help/search-social-commerce/assets/notifications-new.png ") 옆에 있는 ")알림[!UICONTROL Global Sync Status]알림![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태") 아이콘에서 알림 창을 열 수 있습니다.
+알림도 알림 센터에 추가되며 ![ 단추(](/help/search-social-commerce/assets/notifications-new.png ") 옆에 있는 ")알림[!UICONTROL Global Sync Status]알림![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태") 아이콘에서 알림 창을 열 수 있습니다.
 
 ## 업로드된 일괄 시트 파일에 대한 데이터 요구 사항
 
-다운로드한 일괄 시트 파일의 [!UICONTROL Instructions] 탭을 참조하십시오.
+모든 일괄 시트 파일에는 열 [!UICONTROL Portfolio ID]이(가) 포함되어야 하며, 각 데이터 행에는 [!UICONTROL Portfolio ID]을(를) 실행할 수 있는 값이 포함되어야 합니다. 데이터 요구 사항에 대한 자세한 내용은 다운로드한 일괄 시트 파일의 [!UICONTROL Instructions] 탭을 참조하십시오.
 
 [!UICONTROL Portfolio Settings Edit] 탭의 포트폴리오 설정 열에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 최적화 안내서를 참조하십시오.
 
