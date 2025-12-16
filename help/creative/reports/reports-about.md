@@ -2,7 +2,7 @@
 title: 사용자 정의 보고서 정보
 description: 사용자 지정 보고서를 만들기 위한 옵션에 대해 알아봅니다.
 feature: Creative Reporting
-source-git-commit: 5b644fb2eb881b8180932bb9449dd303a70d9647
+source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -22,6 +22,6 @@ ht-degree: 0%
 
 ## 사용 가능한 보고서
 
-* **[!UICONTROL All-in Cost BETA]**: (Advertising Creative 및 Advertising DSP만 사용하는 광고주, Beta 기능) 이 보고서를 사용하여 Advertising DSP 지출이 Adobe Creative의 광고 제공으로 인한 영향을 얼마나 받았는지 확인할 수 있습니다. 캠페인, 패키지, 배치 및 광고 수준에서 크리에이티브, 속성, 타겟 및 기타 데이터를 볼 수 있습니다.
+* **[!UICONTROL All-in Cost]**: (Advertising Creative 및 Advertising DSP만 사용하는 광고주, Beta 기능) 이 보고서를 사용하여 Advertising DSP 지출이 Adobe Creative의 광고 제공으로 인한 영향을 얼마나 받았는지 확인할 수 있습니다. 캠페인, 패키지, 배치 및 광고 수준에서 크리에이티브, 속성, 타겟 및 기타 데이터를 볼 수 있습니다.
 
 * **[!UICONTROL Custom Creative Report]:** 이 보고서를 사용하여 Advertising Creative 광고 경험에서 성능을 모니터링합니다.
