@@ -3,9 +3,9 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 7b7e9687bf79fce564103606efbe8c5997d3c05c
+source-git-commit: ab5d16d5132be59d2e902533155502c830c04bea
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2467'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | 보고된 데이터가 속하는 도시입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Country] | 보고된 데이터가 속하는 국가입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL DMA] | 보고된 데이터가 속하는 DMA(Designated Market Area). |
+| [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Pin Code] | 보고된 데이터가 속하는 우편 번호(PIN) 코드. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL State] | 보고된 데이터가 속하는 상태입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Audience] | 청중. 이 보고서는 최대 10개의 고유한 대상을 지원합니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Campaign] | 캠페인. |
@@ -85,6 +86,10 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Media Type] | 미디어 유형. (디스플레이, 오디오 등) |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Publisher] | 게시자입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Placement] | 배치. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Budget] | 패키지 항공편에 대한 예산. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight End Date] | 패키지 항공편의 종료 날짜입니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Rollover] | 패키지 항공편에 대한 모든 롤오버 예산. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Start Date] | 패키지 항공편의 시작 날짜입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package End Date] | 패키지의 종료 날짜입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Goal Type] | 패키지의 게재 간격 목표 양입니다. 이 금액은 지출 또는 노출 횟수입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package ID] | DSP 패키지의 고유 식별자입니다. |
@@ -144,13 +149,14 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | 총 고유 가구(고유 IP 주소)에 도달했습니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Identifier] | [!UICONTROL Identifier Type] | 타겟팅된 ID의 유형입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | 최대 CPM에서 입찰한 총 입찰의 백분율입니다. |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | <code>[!UICONTROL Gross Spend]/[!UICONTROL Custom Goal]에 의해 계산된 획득당 평균 총 비용</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | <code>[!UICONTROL Gross Spend]/[!UICONTROL conversion metric]에 의해 계산된 획득당 평균 총 비용</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | 광고 클릭당 평균 총 비용입니다(<code>[!UICONTROL Gross Spend]/[!UICONTROL Total Ad Clicks]).</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | 완료된 비디오 보기당 평균 비용입니다(<code>[!UICONTROL Gross Spend]/[!UICONTROL 100% Completions]).</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPE] | 광고 참여당 평균 총 비용입니다(<code>[!UICONTROL Gross Spend]/[!UICONTROL Total Ad Engagements]).</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPI] | 광고 노출당 평균 총 비용입니다(<code>[!UICONTROL Gross Spend]/[!UICONTROL Total Ad Impressions]).</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000으로 계산된 1000회 노출당 평균 비용</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | <code>[!UICONTROL Gross Spend]/[!UICONTROL Views]에 의해 계산된 비디오 보기당 평균 비용입니다.</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross Custom Goal CPA] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>여기서 [!UICONTROL Custom Goal]은(는) 사용자 지정 목표에 첨부된 모든 전환의 목표 가중치입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000으로 계산된 조회 가능한 노출 횟수 1000건당 평균 비용</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | 광고 클릭당 평균 순 비용입니다. <code>[!UICONTROL Net Spend]/[!UICONTROL Total Ad Clicks]&#x200B;(으)로 계산됨</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | <code>[!UICONTROL Net Spend]/[!UICONTROL 100% Completions]에 의해 계산된 완료된 비디오 보기당 평균 순 비용</code>. |
@@ -229,7 +235,6 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<!-- |Omitted|[!UICONTROL Performance]|Custom Goal CPA|The average cost per acquisition, calculated by <code>Gross Spend / Custom Goal</code> | -->
 <!-- |Omitted|[!UICONTROL Performance]|Custom Goal ROAS|The average return on ad spend, calculated by <code>Custom goal / Gross spend</code> |-->
 
 >[!MORELIKETHIS]
