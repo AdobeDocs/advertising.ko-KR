@@ -3,9 +3,9 @@ role: User
 user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: Creative 안내서
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
    + [Adobe Advertising Creative 정보](/help/creative/introduction/creative-about.md)
    + [데이터 보기 사용자 지정](/help/creative/introduction/customize-data-views.md)
    + [동적 광고용 워크플로우](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
+   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative 라이브러리 {#creative-libraries}
    + [크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)
    + [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)
@@ -86,10 +86,11 @@ ht-degree: 0%
 + [부록: 동적 광고 피드 파일에 사용 가능한 필드](/help/creative/appendix-available-feed-fields.md)
 + 성능 보고서 {#reports}
    + [경험 수준 성과 보고서](/help/creative/experiences/experience-performance-details.md)
+   + [경고 보기](/help/creative/reports/alerts-view.md)
    + [사용자 지정 보고서]{#custom-reports}
       + [사용자 지정 보고서 기본 정보](/help/creative/reports/reports-about.md)
       + [사용자 정의 보고서 관리](/help/creative/reports/report-manage.md)
 + [픽셀 재타겟팅](/help/creative/pixels/retargeting-pixel-manage.md)
 + [추적 URL에 사용 가능한 매크로](/help/creative/creative-macros.md)
 + [도움말 보기](/help/creative/get-help.md)
-+ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko){target="_blank"}
++ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

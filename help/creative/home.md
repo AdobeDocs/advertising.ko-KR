@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2025년 12월 17일 | 경고 | [!UICONTROL Pulse Panel] 보기의 [!UICONTROL Experiences] 아이콘은 경험에 사용할 수 있는 경고가 있는지 여부를 나타냅니다. 패널을 열어 각 경고를 보고 선택적으로 해당 경험을 열어 필요에 따라 편집하여 문제를 해결할 수 있습니다. 선택적으로 경고를 무시할 수도 있습니다.<br><br>Advertising DSP을 사용하는 광고주의 경우 [!DNL Creative] 경험에서 만든 DSP 배치에 대한 알림을 DSP 내의 캠페인 수준에서 사용할 수 있습니다. | &quot;[경고 보기](/help/creative/reports/alerts-view.md)&quot;를 참조하십시오. |
 | 2025년 11월 26일 | Advertising Creative 비용 보고 | (Advertising Creative 및 Advertising DSP만 사용하는 광고주, Beta 기능) 새로운 [!UICONTROL All-in Cost] 보고서는 Beta 버전이 아니며 일반적으로 사용할 수 있습니다. | &quot;[사용자 지정 보고서 정보](/help/creative/reports/reports-about.md)&quot; 및 &quot;[사용자 지정 보고서 관리](/help/creative/reports/report-manage.md)&quot;를 참조하십시오. |
 | 2025년 11월 17일 | Advertising Creative 비용 보고 | (Advertising Creative 및 Advertising DSP만 사용하는 광고주, Beta 기능) 새로운 [!UICONTROL All-in Cost BETA] 보고서는 Adobe Creative에 대한 광고 제공으로 인한 지출이 얼마나 되는지 보여줍니다. 보고서에 대한 지출 지표에는 [!UICONTROL Billable Creative Spend], [!UICONTROL Non Billable Creative Spend], [!UICONTROL Total Creative Spend], [!UICONTROL Total Creative CPM] 및 [!UICONTROL Estimated Tax on Creative]이(가) 포함됩니다. 캠페인, 패키지, 배치 및 광고 수준에서 크리에이티브, 속성, 타겟 및 기타 데이터를 볼 수 있습니다. | &quot;[사용자 지정 보고서 정보](/help/creative/reports/reports-about.md)&quot; 및 &quot;[사용자 지정 보고서 관리](/help/creative/reports/report-manage.md)&quot;를 참조하십시오. |
 | 2025년 9월 24일 | 다이내믹 크리에이티브 | 이제 광고 템플릿을 통해 전달되는 광고 변형 카탈로그의 데이터를 사용하여 동적 광고를 생성하는 간단한 셀프서비스 워크플로우를 사용할 수 있습니다. | &quot;[동적 광고용 워크플로우](/help/creative/introduction/workflow-dynamic-ads.md)&quot;를 참조하십시오. |

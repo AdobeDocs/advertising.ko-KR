@@ -3,9 +3,9 @@ title: Advertising Creative의 경험
 description: 개인화된 광고 경험을 구성하고 성능에 따라 광고 요소를 최적화하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,13 @@ ht-degree: 0%
 
   ![지표 옵션](/help/creative/assets/metrics-option.png "지표 옵션")
 
-* [&#x200B; 보기에서 &#x200B;](experience-performance-details.md)경험에 대한 자세한 성능 데이터를 볼 수 있습니다[!UICONTROL Experiences].
+* [ 보기에서 ](experience-performance-details.md)경험에 대한 자세한 성능 데이터를 볼 수 있습니다[!UICONTROL Experiences].
 
 * 경험에서 성능을 모니터링하려면 [사용자 지정 Creative 보고서](/help/creative/reports/report-manage.md)를 만드십시오.
+
+## 경고 표시기
+
+&quot;[!UICONTROL Alerts]&quot; 열은 경험 또는 그 아래에 있는 모든 하위 크리에이티브에 문제가 있는 시기를 나타냅니다. 도구 모음 오른쪽에 있는 [!UICONTROL Pulse Panel] 아이콘은 하위 크리에이티브를 포함하여 경험에 사용할 수 있는 경고가 있는지 여부를 나타냅니다. 자세한 내용은 &quot;[경고 보기](/help/creative/reports/alerts-view.md)&quot;를 참조하십시오.
 
 ## 경험 상태 {#experience-statuses}
 
