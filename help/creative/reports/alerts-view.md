@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Advertising DSP 내에서 [경험 [!DNL Creative] 에서 만든 배치에 대한 ](/help/dsp/campaign-management/reports/campaign-alerts.md)경고를 캠페인 수준에서 사용할 수 있습니다.
+>Advertising DSP 내에서 [경험 [!DNL Creative] 에서 만든 배치에 대한 &#x200B;](/help/dsp/campaign-management/reports/campaign-alerts.md)경고를 캠페인 수준에서 사용할 수 있습니다.
 
 ## [!UICONTROL Pulse Panel]에서 경고 보기
 
