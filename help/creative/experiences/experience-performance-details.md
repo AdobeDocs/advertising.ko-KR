@@ -3,7 +3,7 @@ title: 경험 수준 성과 보고서
 description: 경험 수준 성과 보고서를 보는 방법에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 39e0b8b57fd54e99b09e56ecf9cef753b0c6ea44
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -132,4 +132,4 @@ ht-degree: 0%
 >* [사용자 지정 보고서 관리](/help/creative/reports/report-manage.md)
 >* [보기의 모든 경험 다운로드](/help/creative/experiences/experience-download-view.md)
 >* [Advertising Creative의 경험 정보](/help/creative/experiences/experience-about.md)
->* [경고 보기](/help/creative/experiences/alerts.md)
+>* [경고 보기](/help/creative/reports/alerts-view.md)
