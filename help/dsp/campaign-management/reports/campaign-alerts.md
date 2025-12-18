@@ -3,9 +3,9 @@ title: 경고 보기
 description: 캠페인 및 캠페인 구성 요소에 대한 경고 및 권장 해결 방법을 보는 방법을 알아봅니다.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 9ab8d3345659f48d1d131c3c6c1e1b87f0b0a0e6
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ DSP을 사용하면 캠페인이나 캠페인 구성 요소에 문제가 있는 
       1. 패키지, 배치 또는 광고 행에 대한 경고 표시기를 클릭한 다음 **[!UICONTROL View in Pulse Panel]**&#x200B;을(를) 클릭합니다.
 
    타겟팅된 거래를 포함하여 캠페인 및 해당 구성 요소와 관련된 모든 경고가 나열됩니다. 기본적으로 중요한 경고가 먼저 나열됩니다.
+
+1. (Advertising Creative을 사용하는 광고주, 선택 사항) Advertising Creative 경험을 포함하는 배치에 대한 경고를 보려면 **[!UICONTROL Creative]** 탭을 클릭하십시오.
 
 1. (선택 사항) 첫 번째 감지 날짜에 따라 경고를 그룹화하거나 경고 상태, 구성 요소 상태, 구성 요소 유형 또는 특정 캠페인 이름별로 경고를 필터링하려면 패널의 오른쪽 상단에 있는 ![필터 단추](/help/dsp/assets/filter.png)를 클릭하고 필터 옵션을 선택한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
