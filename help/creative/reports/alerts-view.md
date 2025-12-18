@@ -2,16 +2,16 @@
 title: 경고 보기
 description: 경험에 대한 경고 및 권장 해결 방법을 보는 방법에 대해 알아봅니다.
 feature: Creative Experiences
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 2300fbf25566dd5ffe0f2cb68be9bebd9f211f60
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # 경고 보기
 
-[!DNL Creative]을(를) 사용하면 경험 내의 크리에이티브를 포함하여 경험에 문제가 있는 경우를 식별할 수 있습니다. 각 문제에 대해 [!DNL Creative]이(가) 타임스탬프와 문제 해결을 위한 권장 작업을 포함하는 경고를 발행합니다. 경고의 일부 이유에는 만료된 경험, 타겟팅된 광고가 아닌 기본 광고에서의 높은 게재, 링크 오류 등이 포함됩니다. 경고는 경험 수준에서 사용할 수 있습니다.
+[!DNL Creative]을(를) 사용하면 경험 내의 크리에이티브를 포함하여 경험에 문제가 있는 경우를 식별할 수 있습니다. 각 문제에 대해 [!DNL Creative]이(가) 타임스탬프와 문제 해결을 위한 권장 작업을 포함하는 경고를 발행합니다. 경고의 이유에는 만료된 경험 및 타깃팅된 광고가 아닌 기본 광고에서의 높은 게재 등이 있습니다. 경고는 경험 수준에서 사용할 수 있습니다.
 
 경고에 대한 관련 경험을 열어 필요에 따라 편집하여 문제를 해결할 수 있습니다. 개별 경고를 무시하도록 선택하여 [!UICONTROL Pulse] 패널에서 제거할 수도 있습니다.
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Advertising DSP 내에서 [경험 [!DNL Creative] 에서 만든 배치에 대한 &#x200B;](/help/dsp/campaign-management/reports/campaign-alerts.md)경고를 캠페인 수준에서 사용할 수 있습니다.
+>Advertising DSP 내에서 [경험 [!DNL Creative] 에서 만든 배치에 대한 ](/help/dsp/campaign-management/reports/campaign-alerts.md)경고를 캠페인 수준에서 사용할 수 있습니다.
 
 ## [!UICONTROL Pulse Panel]에서 경고 보기
 
