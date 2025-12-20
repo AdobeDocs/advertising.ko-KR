@@ -3,9 +3,9 @@ title: 광고 네트워크 계정 관리
 description: 광고 네트워크 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법을 알아봅니다.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: 304b3589109fe9ddf4d2f0df84c7fa45aa3726d2
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Search, Social 및 Commerce이 [OAuth 인증 프로토콜](https://oauth.net/2/)
 
 *에이전시 계정 관리자, Adobe 계정 관리자 및 관리자 역할만*
 
-광고 네트워크 계정을 활성화하면 Search, Social 및 Commerce이 캠페인 데이터를 계정과 동기화하고(지원되는 경우) 포트폴리오의 캠페인에 대한 자동화된 입찰 및/또는 캠페인 예산을 푸시합니다.광고 네트워크 계정을 비활성화하면 Search, Social 및 Commerce이 계정에서 모든 활동을 중지합니다. 계정이 활성화된 동안 수집된 데이터는 여전히 저장되지만 캠페인 관리 보기 및 보고서에는 계정이 비활성화된 기간에 대한 데이터가 포함되지 않습니다. 나중에 계정을 다시 활성화하여 계정으로 활동을 재개할 수 있습니다.
+광고 네트워크 계정을 활성화하면 Search, Social 및 Commerce이 캠페인 데이터를 계정과 동기화하고(지원되는 경우) 포트폴리오의 캠페인에 대한 자동화된 입찰 및/또는 캠페인 예산을 푸시합니다. 광고 네트워크 계정을 비활성화하면 검색, 소셜 및 Commerce이 계정에서 모든 활동을 중지합니다. 계정이 활성화된 동안 수집된 데이터는 여전히 저장되지만 캠페인 관리 보기 및 보고서에는 계정이 비활성화된 기간에 대한 데이터가 포함되지 않습니다. 나중에 계정을 다시 활성화하여 계정으로 활동을 재개할 수 있습니다.
 
 1. 주 메뉴에서 **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
@@ -153,7 +153,7 @@ Search, Social 및 Commerce이 [OAuth 인증 프로토콜](https://oauth.net/2/)
 
 >[!NOTE]
 >
->Search, Social 및 Commerce-Adobe Analytics 통합이 있고 검색 계정의 이름을 변경한 경우, Adobe 계정 팀에 알려 매핑을 업데이트할 수 있도록 하십시오.
+>Search, Social 및 Commerce-Adobe Analytics 통합이 있고 검색 계정의 이름을 변경한 경우, Adobe 계정 팀에 매핑을 업데이트하도록 요청하십시오.
 
 **[!UICONTROL Login Details]: \[Login Type\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center]만 해당) 다음을 사용하여 계정에 대한 로그인을 승인할지 여부:
 
@@ -195,7 +195,7 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 
 * 최종 URL을 포함하려면 다음을 수행하십시오.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 ](https://help.ads.microsoft.com/#apex/3/en/56799) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
    * ([!DNL Yahoo! Japan Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 
