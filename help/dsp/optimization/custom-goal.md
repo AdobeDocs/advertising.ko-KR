@@ -23,7 +23,7 @@ ht-degree: 0%
 
 예를 들어 세 개의 전환 지표가 캠페인 중 하나의 특정 패키지와 관련이 있다고 가정해 보겠습니다. &quot;PDF 다운로드&quot;(20 USD), &quot;이메일 등록&quot;(30 USD) 및 &quot;주문 확인&quot;(40 USD)입니다. 고객 조치의 일회성 통화 가치에 따라 가중치를 부여하려면 지표의 상대 가중치는 1, 1.5 및 2가 됩니다.
 
-[사용자 지정 목표를 만들기](#custom-goal-create)하면 [을(를) 사용하여 보고 및 알고리즘 최적화를 위해 ](/help/dsp/campaign-management/packages/package-settings.md)패키지에 할당[!DNL Adobe AI]할 수 있습니다.
+[사용자 지정 목표를 만들기](#custom-goal-create)하면 [을(를) 사용하여 보고 및 알고리즘 최적화를 위해 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)패키지에 할당[!DNL Adobe AI]할 수 있습니다.
 
 가중치 권장 사항은 목표의 DSP 기반 지표에 대해 자동으로 생성되며, 한 번의 클릭으로 모든 가중치 권장 사항을 적용할 수 있습니다. &quot;ADSP_&quot;가 접두사로 붙은 목표의 모든 가중치 변경 사항은 2일 이내에 DSP에서 알고리즘적으로 적용됩니다. 가중치 권장 사항에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 &quot;목표&quot;에 대한 최적화 안내서 장을 참조하십시오.
 

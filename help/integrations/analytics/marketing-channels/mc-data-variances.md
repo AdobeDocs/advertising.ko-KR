@@ -30,7 +30,7 @@ Adobe Advertising에서 추적한 데이터와 [!DNL Analytics]에서 추적한 
 
 >[!MORELIKETHIS]
 >
->* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) ](/help/integrations/analytics/data-variances.md)
+>* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) &#x200B;](/help/integrations/analytics/data-variances.md)
 >* [기본  [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertising ID를 사용하여 만들기 [!DNL Marketing Channels] 처리 규칙](mc-ids.md)
 >* [Adobe Advertising 데이터로  [!DNL Analytics Marketing Channels] 사용](mc-ac-data.md)
