@@ -3,7 +3,7 @@ title: DSP이 캠페인을 최적화하는 방법
 description: DSP이 캠페인에서 패키지를 최적화하는 방법을 알아봅니다.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Advertising DSP이 캠페인을 최적화하는 방법
 
-이 페이지에서는 [!DNL Adobe Sensei]에서 제공하는 DSP 최적화 엔진이 캠페인의 패키지를 최적화하는 방법에 대해 설명합니다. 캠페인을 수동으로 최적화하는 방법에 대한 팁과 요령은 Adobe 계정 팀에 문의하십시오. <!-- add link to trading playbook if we add it to help -->
+이 페이지에서는 [!DNL Adobe AI]에서 제공하는 DSP 최적화 엔진이 캠페인의 패키지를 최적화하는 방법에 대해 설명합니다. 캠페인을 수동으로 최적화하는 방법에 대한 팁과 요령은 Adobe 계정 팀에 문의하십시오. <!-- add link to trading playbook if we add it to help -->
 
 패키지 최적화 목표는 다음 두 가지 수준에서 작동합니다.
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 패키지 최적화
 
-DSP은 특정 성능 목표에 맞게 사용할 수 있는 20개의 변형을 통해 두 가지 기본 방법으로 게재를 최적화할 수 있습니다. 다음을 선택할 수 있습니다.
+DSP에서는 특정 성능 목표에 맞게 사용할 수 있는 20개의 변형을 통해 두 가지 기본 방법으로 게재를 최적화할 수 있습니다. 다음을 선택할 수 있습니다.
 
 * 성능 우선 순위 지정
 
@@ -36,7 +36,7 @@ KPI를 달성하는 데 도움이 되는 최적화 목표를 결정하려면 [�
 
 ### 성능 우선 순위를 지정하는 패키지
 
-성능 비율을 우선시하는 최적화 목표의 경우 DSP은 각 경매의 성능을 예측하고 항상 최대 입찰에서 입찰합니다. 적용 가능한 최적화 목표의 예로는 [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate] 등이 있습니다.
+성과 비율을 우선시하는 최적화 목표의 경우 DSP은 각 경매의 성과를 예측하고 항상 최대 입찰에서 입찰합니다. 적용 가능한 최적화 목표의 예로는 [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate] 등이 있습니다.
 
 이 최적화 모드는 다음과 같은 경우에 잘 작동합니다.
 
@@ -66,7 +66,7 @@ KPI를 달성하는 데 도움이 되는 최적화 목표를 결정하려면 [�
 
 * 성과 지표가 균형을 이루는 경우([!UICONTROL Lowest CPM]을(를) 제외한 모든 목표) 예측된 KPI가 입찰 금액으로 결합됩니다. 따라서 &quot;비용 기준&quot;으로 더 성능이 높을 것으로 예상되는 경매에 대해 더 높은 입찰을 합니다.
 
-* 지출 속도가 늦어지면 DSP은 가격에 덜 민감해지고 입찰가가 [!UICONTROL Max Bid]까지 높아져 게재 계획을 통해 낙찰률을 상쇄합니다.
+* 지출 속도가 늦어지면 DSP은 가격에 덜 민감해지고 입찰가를 높게 책정하여 최대 [!UICONTROL Max Bid]까지 가격 책정 계획과 승률을 교환합니다.
 
 #### 가격/입찰 음영 지우기 {#clearing-price-balanced}
 

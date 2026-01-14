@@ -3,9 +3,9 @@ title: Adobe Advertising Creative 정보
 description: ' [!DNL Creative]에 대해 알아봅니다.'
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: 9082d9f455a0d26ca027dc699df29737b9042457
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Adobe Audience Manager 및 Adobe Analytics의 자사 대상 세그먼트뿐만 �
 
 ### 광고 요소 최적화
 
-선택적으로 [!DNL Creative]이(가) Adobe Sensei에서 제공하는 최적화된 가중 광고 회전을 사용하여 특정 대상 타겟을 정의하는지 여부에 관계없이 성능에 따라 모든 경험에 대한 광고 요소를 최적화하도록 허용할 수 있습니다.
+[!DNL Creative]에서 제공하는 최적화된 가중치 광고 순환을 사용하여 선택적으로 [!DNL Adobe AI]에서 특정 대상 대상을 정의하는지 여부에 관계없이 성능에 따라 모든 경험에 대한 광고 요소를 최적화하도록 허용할 수 있습니다.
 
 <!--
 [!DNL Creative] serves first-party ads and triggers third-party ads for the experience based on the specified targeting (when applicable), scheduling, ad rotation, and optimization goal options 
