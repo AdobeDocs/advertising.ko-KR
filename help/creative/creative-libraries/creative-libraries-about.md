@@ -3,9 +3,9 @@ title: 크리에이티브 라이브러리 정보
 description: 광고 경험을 위한 크리에이티브 관리에 대해 알아봅니다.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1529'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,24 @@ ht-degree: 0%
 
 유연한 HTML5 크리에이티브를 ZIP 파일로 업로드하거나 계정에 사용할 수 있는 템플릿 중 하나를 시작점으로 사용할 수 있습니다. [유연한 HTML5 광고 사양](html5-creative-specification.md)을 참조하세요.
 
-#### HTML5 광고
+#### 표준 디스플레이 크리에이티브
 
-모든 속성과 이미지가 지정된 단순 또는 정적 HTML5 크리에이티브를 ZIP 파일로 업로드할 수 있습니다. 속성을 편집하거나 이미지를 추가할 수 없습니다. 대신 새 ZIP 파일을 업로드하여 새 크리에이티브를 추가하십시오. [단순 및 정적 HTML5 광고 사양](html5-creative-specification.md)을 참조하세요.
+표준 디스플레이 광고는 다음과 같습니다.
 
-#### 이미지 크리에이티브
+* HTML5 크리에이티브가 로컬 또는 Adobe GenStudio for Performance Marketing에서 업로드되었습니다.
+* 로컬로 또는 Adobe Experience Manager에서 업로드한 이미지 파일입니다.
+
+##### HTML5 광고
+
+* **GenStudio 경험:** [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)의 [디스플레이 광고 경험](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)에서 모든 광고 변형을 HTML5 크리에이티브로 가져올 수 있습니다. 외부 링크는 로컬 참조로 변환됩니다. HTML 콘텐츠는 최대 20MB일 수 있으며 개별 이미지는 최대 50MB일 수 있습니다.
+
+  이 기능을 사용하려면 GenStudio 계정과 Advertising Creative 계정이 모두 동일한 조직 ID를 사용해야 하며 사용자에게 GenStudio에 액세스할 수 있는 권한이 있어야 합니다.
+
+  GenStudio 경험을 가져오면 가져온 크리에이티브에 대한 메타데이터(이름, 언어, 태그)를 편집할 수 있지만, 크리에이티브 콘텐츠에는 편집할 수 없습니다. GenStudio 내에서 GenStudio 환경을 편집하는 경우 [!DNL Creative]에서 환경을 다시 가져와서 최신 버전을 사용하십시오.
+
+* **업로드된 파일:** 모든 특성과 이미지를 지정하여 단순 또는 정적 HTML5 크리에이티브를 ZIP 파일로 업로드할 수도 있습니다. 속성을 편집하거나 이미지를 추가할 수 없습니다. 대신 새 ZIP 파일을 업로드하여 새 크리에이티브를 추가하십시오. [단순 및 정적 HTML5 광고 사양](html5-creative-specification.md)을 참조하세요.
+
+##### 이미지 크리에이티브
 
 GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 수 있습니다. Adobe Experience Manager 계정에서 승인된 이미지를 업로드하거나 장치 또는 네트워크에서 이미지를 업로드할 수 있습니다.
 
@@ -64,7 +77,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 장치나 네트워크에서 웹, 모바일 또는 연결된 TV에 대한 자사 비디오 크리에이티브를 업로드할 수 있습니다. 각 표준 비디오 광고 경험은 경험에 지정된 각 크리에이티브 기간에 대해 기본 비디오 크리에이티브를 필요로 합니다. DSP은 모든 비디오 크리에이티브를 VAST 2.0 태그로 자동 코드 변환하여 미리 볼 수 있습니다. [!UICONTROL Tag Manager]에서 비디오 광고 경험 태그에 선택적으로 [DSP 전용 코드 변환](/help/creative/experiences/experience-tag-video-transcoding.md)을 적용할 수 있습니다.
 
-다음 비디오 크리에이티브 요구 사항을 참조하십시오. **참고:** 비디오 경험을 Advertising DSP에 업로드하려면 DSP의 [HD 비디오 Assets 요구 사항](https://experienceleague.adobe.com/ko/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)도 참조하세요. 이는 더 제한될 수 있습니다.
+다음 비디오 크리에이티브 요구 사항을 참조하십시오. **참고:** 비디오 경험을 Advertising DSP에 업로드하려면 DSP의 [HD 비디오 Assets 요구 사항](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)도 참조하세요. 이는 더 제한될 수 있습니다.
 
 **파일 형식:** .mov, .mp4, .webm
 
@@ -144,7 +157,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 #### [!UICONTROL Dynamic Ads]
 
-[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [&#x200B; 탭에서 &#x200B;](creative-delete.md)수동으로 삭제[!UICONTROL Dynamic Ads]한 동적 크리에이티브는 예외입니다. [수동으로 복제](creative-duplicate.md) 모든 동적 크리에이티브<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->를 수행하는 경우 해당 카탈로그에 대한 크리에이티브 목록에는 중복 크리에이티브도 포함됩니다.
+[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [ 탭에서 ](creative-delete.md)수동으로 삭제[!UICONTROL Dynamic Ads]한 동적 크리에이티브는 예외입니다. [수동으로 복제](creative-duplicate.md) 모든 동적 크리에이티브<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->를 수행하는 경우 해당 카탈로그에 대한 크리에이티브 목록에는 중복 크리에이티브도 포함됩니다.
 
 각 창작물별 데이터에는 창작유형, 창작규모, 창작물이 속한 카탈로그 개수, 창작날짜 등이 포함된다. 테이블 모드에는 광고 크리에이티브가 생성된 광고 템플릿 열과 오퍼 수가 포함됩니다.
 
