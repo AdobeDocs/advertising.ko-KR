@@ -4,9 +4,9 @@ description: 일괄 시트 파일을 사용하여 여러 포트폴리오의 설�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
+source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ ht-degree: 0%
 
 ## 포트폴리오 설정이 있는 일괄 시트 파일 다운로드
 
-1. 일괄 시트에 포함할 각 포트폴리오 옆의 확인란을 선택합니다.
+1. (선택 사항) 일괄 시트에 포함할 각 포트폴리오 옆에 있는 확인란을 선택합니다.
 
-1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**&#x200B;을(를) 클릭합니다.
+   특정 포트폴리오를 선택하지 않으면 모든 포트폴리오에 대한 설정을 다운로드할 수 있습니다.
+
+1. 데이터 테이블 위의 도구 모음에서 다음 을 클릭합니다.
+
+   * (모든 포트폴리오의 경우) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**.
+
+   * (선택한 포트폴리오의 경우) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
 
 1. 만들 일괄 시트 파일의 이름을 입력한 다음 **[!UICONTROL Export Now]**&#x200B;을(를) 클릭합니다.
 
@@ -45,7 +51,7 @@ ht-degree: 0%
 
 날짜 범위 선택기 옆에 있는 [!UICONTROL Global Sync Status] 단추(![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태"))에서 업로드 상태를 확인할 수 있습니다.<!-- icon similar to Refresh -->. 실패한 변경 사항이 있으면 실패한 항목을 보여 주는 오류 파일을 다운로드할 수 있습니다.
 
-알림도 알림 센터에 추가되며 ![&#x200B; 단추(](/help/search-social-commerce/assets/notifications-new.png ") 옆에 있는 ")알림[!UICONTROL Global Sync Status]알림![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태") 아이콘에서 알림 창을 열 수 있습니다.
+알림도 알림 센터에 추가되며 ![ 단추(](/help/search-social-commerce/assets/notifications-new.png ") 옆에 있는 ")알림[!UICONTROL Global Sync Status]알림![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태") 아이콘에서 알림 창을 열 수 있습니다.
 
 ## 업로드된 일괄 시트 파일에 대한 데이터 요구 사항
 
