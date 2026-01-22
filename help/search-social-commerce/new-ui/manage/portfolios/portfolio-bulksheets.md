@@ -51,7 +51,7 @@ ht-degree: 0%
 
 날짜 범위 선택기 옆에 있는 [!UICONTROL Global Sync Status] 단추(![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태"))에서 업로드 상태를 확인할 수 있습니다.<!-- icon similar to Refresh -->. 실패한 변경 사항이 있으면 실패한 항목을 보여 주는 오류 파일을 다운로드할 수 있습니다.
 
-알림도 알림 센터에 추가되며 ![ 단추(](/help/search-social-commerce/assets/notifications-new.png ") 옆에 있는 ")알림[!UICONTROL Global Sync Status]알림![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태") 아이콘에서 알림 창을 열 수 있습니다.
+알림도 알림 센터에 추가되며 ![&#x200B; 단추(](/help/search-social-commerce/assets/notifications-new.png ") 옆에 있는 ")알림[!UICONTROL Global Sync Status]알림![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태") 아이콘에서 알림 창을 열 수 있습니다.
 
 ## 업로드된 일괄 시트 파일에 대한 데이터 요구 사항
 
