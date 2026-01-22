@@ -4,9 +4,9 @@ description: 일괄 시트 파일을 사용하여 여러 포트폴리오의 설�
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
+source-git-commit: 8b63f697278b5dc4ecbb720af44053fbc771273f
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -41,17 +41,17 @@ ht-degree: 0%
 
 파일은 XLSX 형식이어야 합니다.
 
-1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**&#x200B;을(를) 클릭합니다. &lt;!— &quot;Portfolio 설정 가져오기&quot;여야 합니다. — &quot;세부 정보&quot;는 너무 모호할 수 있으며 다른 내용이 포함되어 있을 수 있습니다. —>
+1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**&#x200B;을(를) 클릭합니다.
 
-1. [!UICONTROL Import Portfolio Details File] 대화 상자:<!-- reword if we change the name of the operation -->
+1. [!UICONTROL Import Portfolio Details File] 대화 상자에서:
 
-   1. 파일을 상자로 끌어다 놓거나 **[!UICONTROL Browse File]**<!-- "Browse for file" or just "Browse"??? -->을(를) 클릭하여 장치나 네트워크에서 파일을 선택합니다.
+   1. 파일을 상자로 끌어다 놓거나 **[!UICONTROL Browse File]**&#x200B;을(를) 클릭하여 장치나 네트워크에서 파일을 선택합니다.
 
    1. **[!UICONTROL Import]**&#x200B;을(를) 클릭합니다.
 
-날짜 범위 선택기 옆에 있는 [!UICONTROL Global Sync Status] 단추(![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태"))에서 업로드 상태를 확인할 수 있습니다.<!-- icon similar to Refresh -->. 실패한 변경 사항이 있으면 실패한 항목을 보여 주는 오류 파일을 다운로드할 수 있습니다.
+날짜 범위 선택기 옆에 있는 [!UICONTROL Global Sync Status] 단추(![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태"))에서 업로드 상태를 확인할 수 있습니다. 실패한 변경 사항이 있으면 실패한 항목을 보여 주는 오류 파일을 다운로드할 수 있습니다.
 
-알림도 알림 센터에 추가되며 ![&#x200B; 단추(](/help/search-social-commerce/assets/notifications-new.png ") 옆에 있는 ")알림[!UICONTROL Global Sync Status]알림![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태") 아이콘에서 알림 창을 열 수 있습니다.
+알림도 알림 센터에 추가되며 ![ 단추(](/help/search-social-commerce/assets/notifications-new.png ") 옆에 있는 ")알림[!UICONTROL Global Sync Status]알림![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태") 아이콘에서 알림 창을 열 수 있습니다.
 
 ## 업로드된 일괄 시트 파일에 대한 데이터 요구 사항
 
