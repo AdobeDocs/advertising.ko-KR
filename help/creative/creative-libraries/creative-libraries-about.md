@@ -40,7 +40,7 @@ ht-degree: 0%
 
 유연한 HTML5 크리에이티브는 모든 이미지 및 기타 특성을 표준 HTML 태그로 사용하는 HTML5 크리에이티브 기능으로, 크리에이티브 라이브러리 또는 개별 경험(원본 크리에이티브의 변형을 만드는)에서 [!DNL Creative] 내에서 직접 편집할 수 있습니다. DSP에서 유연한 HTML5 크리에이티브는 단일 특정 광고 크기(픽셀 단위)에 해당합니다. 유연한 HTML5 크리에이티브에 지정된 속성의 기본값을 선택적으로 변경할 수 있습니다. 나중에 특정 경험 내의 속성에 대한 사용자 지정 값을 지정하여 상위 크리에이티브 변형을 만들 수 있습니다.
 
-유연한 HTML5 광고 소재를 ZIP 파일로 업로드하거나 계정 사용 가능한 템플릿 중 하나를 시작점으로 사용할 수 있습니다. 유연한 HTML5 광고 소재에 대한 사양을 [](html5-creative-specification.md)참조하세요.
+유연한 HTML5 광고 소재를 ZIP 파일로 업로드하거나 계정 사용 가능한 템플릿 중 하나를 시작점으로 사용할 수 있습니다. 유연한 HTML5 광고 소재에 대한 사양을 [&#128279;](html5-creative-specification.md)참조하세요.
 
 #### 표준 디스플레이 크리에이티브
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Dynamic Ads]
 
-[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [ 탭에서 ](creative-delete.md)수동으로 삭제[!UICONTROL Dynamic Ads]한 동적 크리에이티브는 예외입니다. [수동으로 복제](creative-duplicate.md) 모든 동적 크리에이티브<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->를 수행하는 경우 해당 카탈로그에 대한 크리에이티브 목록에는 중복 크리에이티브도 포함됩니다.
+[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [&#x200B; 탭에서 &#x200B;](creative-delete.md)수동으로 삭제[!UICONTROL Dynamic Ads]한 동적 크리에이티브는 예외입니다. [수동으로 복제](creative-duplicate.md) 모든 동적 크리에이티브<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->를 수행하는 경우 해당 카탈로그에 대한 크리에이티브 목록에는 중복 크리에이티브도 포함됩니다.
 
 각 창작물별 데이터에는 창작유형, 창작규모, 창작물이 속한 카탈로그 개수, 창작날짜 등이 포함된다. 테이블 모드에는 광고 크리에이티브가 생성된 광고 템플릿 열과 오퍼 수가 포함됩니다.
 
