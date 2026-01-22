@@ -3,9 +3,9 @@ title: 크리에이티브 라이브러리에 표준 크리에이티브 추가
 description: 크리에이티브 라이브러리에 표준(비동적) 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
+source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ### 템플릿을 사용하여 유연한 크리에이티브 추가 {#flexible-creative-use-template}
 
-계정에 업로드된 유연한 크리에이티브 템플릿을 사용하여 사전 정의된 크기의 광고를 작성할 수 있습니다. 사용할 템플릿을 선택하면 클릭 태그 및 속성이 편집됩니다.&lt;!— 템플릿 다운로드 기능을 다시 추가하는 경우 마지막 문장을 다음으로 바꾸기: a\) 사용할 템플릿을 선택한 다음 클릭 태그 및 특성을 편집할 수 있습니다. 또는 b\) [템플릿을 ZIP 파일로 다운로드](#download-flexible-creative-template), 콘텐츠를 오프라인으로 편집하여 자체 크리에이티브를 만든 다음 [편집된 파일을 새 크리에이티브로 업로드] (flexible-creative-upload)할 수 있습니다.>
+계정에 업로드된 유연한 크리에이티브 템플릿을 사용하여 사전 정의된 크기의 광고를 작성할 수 있습니다. 사용할 템플릿을 선택하면 클릭 태그 및 속성이 편집됩니다.&lt;!— 템플릿 다운로드 기능을 다시 추가하는 경우 마지막 문장을 다음으로 바꾸기: a\) 사용할 템플릿을 선택한 다음 클릭 태그 및 특성을 편집할 수 있습니다. 또는 b\) [템플릿을 ZIP 파일로 다운로드](#download-flexible-creative-template), 콘텐츠를 오프라인으로 편집하여 자체 크리에이티브를 만든 다음 [편집된 파일을 새 크리에이티브로 업로드](flexible-creative-upload)할 수 있습니다.>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -112,7 +112,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->[&#x200B; 내에서 직접 편집할 수 있는 표준 HTML 태그로 모든 특성을 가진 HTML5 크리에이티브인 &#x200B;](#flexible-creative-add)유연한 HTML5 크리에이티브를 추가[!DNL Creative]할 수도 있습니다.
+>[ 내에서 직접 편집할 수 있는 표준 HTML 태그로 모든 특성을 가진 HTML5 크리에이티브인 ](#flexible-creative-add)유연한 HTML5 크리에이티브를 추가[!DNL Creative]할 수도 있습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
@@ -148,7 +148,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       1. 디스플레이 광고 경험을 찾아 선택한 다음 오른쪽 상단의 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
 
-         <!-- Each creative variant in the experience will be imported as a separate HTML5 creative. -->
+     선택한 경험의 각 크리에이티브 변형을 별도의 HTML5 크리에이티브로 가져옵니다.
 
 1. 광고 추가 또는 제거:
 
@@ -158,9 +158,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. [HTML5 광고 설정](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) 또는 [이미지 광고 설정](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)을 지정하십시오.
 
-   기본적으로 방금 업로드한 모든 크리에이티브가 선택되고 지정한 설정이 선택한 모든 크리에이티브에 적용됩니다. 하나의 값만 있는 모든 설정은 선택한 모든 크리에이티브에 적용됩니다. 특정 크리에이티브에 대한 설정을 입력하려면 적용할 수 없는 각 크리에이티브의 선택을 해제합니다.
+   기본적으로 방금 업로드한 모든 크리에이티브 또는 GenStudio 경험이 선택되고 지정한 설정이 선택한 모든 항목에 적용됩니다. 값이 하나만 있는 설정은 선택한 모든 항목에 적용됩니다. 특정 크리에이티브 또는 GenStudio 경험에 대한 설정을 입력하려면 적용할 수 없는 각 크리에이티브 또는 경험의 선택을 해제합니다.
 
-1. **[!UICONTROL Create]** 또는 **[!UICONTROL Import]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
 ## 크리에이티브 라이브러리에 서드파티 크리에이티브 추가 {#creative-add-third-party}
 
