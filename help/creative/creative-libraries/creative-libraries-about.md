@@ -159,7 +159,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 #### [!UICONTROL Dynamic Ads]
 
-[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [ 탭에서 ](creative-delete.md)수동으로 삭제[!UICONTROL Dynamic Ads]한 동적 크리에이티브는 예외입니다. [수동으로 복제](creative-duplicate.md) 모든 동적 크리에이티브<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->를 수행하는 경우 해당 카탈로그에 대한 크리에이티브 목록에는 중복 크리에이티브도 포함됩니다.
+[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [&#x200B; 탭에서 &#x200B;](creative-delete.md)수동으로 삭제[!UICONTROL Dynamic Ads]한 동적 크리에이티브는 예외입니다. [수동으로 복제](creative-duplicate.md) 모든 동적 크리에이티브<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->를 수행하는 경우 해당 카탈로그에 대한 크리에이티브 목록에는 중복 크리에이티브도 포함됩니다.
 
 각 창작물별 데이터에는 창작유형, 창작규모, 창작물이 속한 카탈로그 개수, 창작날짜 등이 포함된다. 테이블 모드에는 광고 크리에이티브가 생성된 광고 템플릿 열과 오퍼 수가 포함됩니다.
 
