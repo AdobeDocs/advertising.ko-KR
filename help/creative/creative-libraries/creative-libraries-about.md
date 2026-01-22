@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ##### HTML5 광고
 
-* **GenStudio 경험:** [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)의 [디스플레이 광고 경험](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)에서 모든 광고 변형을 HTML5 크리에이티브로 가져올 수 있습니다. 외부 링크는 로컬 참조로 변환됩니다. HTML 콘텐츠는 최대 20MB일 수 있으며 개별 이미지는 최대 50MB일 수 있습니다.
+* **GenStudio 경험:** [GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)의 [디스플레이 광고 경험](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)에서 모든 광고 변형을 HTML5 크리에이티브로 가져올 수 있습니다. 외부 링크는 로컬 참조로 변환됩니다. HTML 콘텐츠는 최대 20MB일 수 있으며 개별 이미지는 최대 50MB일 수 있습니다.
 
   GenStudio 경험을 가져오면 가져온 크리에이티브에 대한 메타데이터(이름, 언어, 태그)를 편집할 수 있지만, 크리에이티브 콘텐츠에는 편집할 수 없습니다. GenStudio 내에서 GenStudio 환경을 편집하는 경우 [!DNL Creative]에서 환경을 다시 가져와서 최신 버전을 사용하십시오.
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 장치나 네트워크에서 웹, 모바일 또는 연결된 TV에 대한 자사 비디오 크리에이티브를 업로드할 수 있습니다. 각 표준 비디오 광고 경험은 경험에 지정된 각 크리에이티브 기간에 대해 기본 비디오 크리에이티브를 필요로 합니다. DSP은 모든 비디오 크리에이티브를 VAST 2.0 태그로 자동 코드 변환하여 미리 볼 수 있습니다. [!UICONTROL Tag Manager]에서 비디오 광고 경험 태그에 선택적으로 [DSP 전용 코드 변환](/help/creative/experiences/experience-tag-video-transcoding.md)을 적용할 수 있습니다.
 
-다음 비디오 크리에이티브 요구 사항을 참조하십시오. **참고:** 비디오 경험을 Advertising DSP에 업로드하려면 DSP의 [HD 비디오 Assets 요구 사항](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)도 참조하세요. 이는 더 제한될 수 있습니다.
+다음 비디오 크리에이티브 요구 사항을 참조하십시오. **참고:** 비디오 경험을 Advertising DSP에 업로드하려면 DSP의 [HD 비디오 Assets 요구 사항](https://experienceleague.adobe.com/ko/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)도 참조하세요. 이는 더 제한될 수 있습니다.
 
 **파일 형식:** .mov, .mp4, .webm
 
