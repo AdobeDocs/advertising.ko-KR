@@ -3,7 +3,7 @@ title: 크리에이티브 라이브러리 정보
 description: 광고 경험을 위한 크리에이티브 관리에 대해 알아봅니다.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
+source-git-commit: 8d549853be10ebfbb71b14e013b04178466e87fe
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    * **동적 크리에이티브:** 광고 템플릿의 동적 변수를 피드 파일의 값에 매핑하여 동적으로 생성된 크리에이티브를 만들 수 있습니다. 모든 사용자는 기존 동적 광고를 미리 보고, 복제하고, 삭제할 수 있습니다.
 
-* **크리에이티브 번들:** 정의된 사용자 대상이 있는 여러 경험에서 사용할 크리에이티브를 번들로 그룹화합니다. 표준 디스플레이 광고로 구성된 *표준 디스플레이 번들*, 표준 비디오 광고로 구성된 *표준 비디오 번들*, 동적으로 생성된 디스플레이 광고로 구성된 *동적 디스플레이 번들*&#x200B;을 만들 수 있습니다.
+* **크리에이티브 번들:** 정의된 사용자 대상이 있는 여러 경험에서 사용할 크리에이티브를 번들로 그룹화합니다. 표준 디스플레이 광고로 구성된 표준 디스플레이 번들&#x200B;*,*&#x200B;표준 동영상 광고로 구성된 표준 동영상 번들&#x200B;*,*&#x200B;동적으로 생성된 디스플레이 광고로 구성된 동적 디스플레이 번들&#x200B;*을 만들*&#x200B;수 있습니다.
 
 ## 지원되는 Creative 형식 {#creative-creative-formats}
 
@@ -38,9 +38,9 @@ ht-degree: 0%
 
 #### 유연한 HTML5
 
-유연한 HTML5 크리에이티브는 모든 이미지 및 기타 특성을 표준 HTML 태그로 사용하는 HTML5 크리에이티브 기능으로, 크리에이티브 라이브러리 또는 개별 경험(원본 크리에이티브의 변형을 만드는)에서 [!DNL Creative] 내에서 직접 편집할 수 있습니다. DSP에서 유연한 HTML5 크리에이티브는 단일 특정 광고 크기(픽셀 단위)에 해당합니다. 유연한 HTML5 크리에이티브에 지정된 속성의 기본값을 선택적으로 변경할 수 있습니다. 나중에 특정 경험 내의 속성에 대해 사용자 지정 값을 지정할 수 있습니다. 이렇게 하면 상위 크리에이티브의 변형이 만들어집니다.
+유연한 HTML5 크리에이티브는 모든 이미지 및 기타 특성을 표준 HTML 태그로 사용하는 HTML5 크리에이티브 기능으로, 크리에이티브 라이브러리 또는 개별 경험(원본 크리에이티브의 변형을 만드는)에서 [!DNL Creative] 내에서 직접 편집할 수 있습니다. DSP에서 유연한 HTML5 크리에이티브는 단일 특정 광고 크기(픽셀 단위)에 해당합니다. 유연한 HTML5 크리에이티브에 지정된 속성의 기본값을 선택적으로 변경할 수 있습니다. 나중에 특정 경험 내의 속성에 대한 사용자 지정 값을 지정하여 상위 크리에이티브 변형을 만들 수 있습니다.
 
-유연한 HTML5 크리에이티브를 ZIP 파일로 업로드하거나 계정에 사용할 수 있는 템플릿 중 하나를 시작점으로 사용할 수 있습니다. [유연한 HTML5 광고 사양](html5-creative-specification.md)을 참조하세요.
+유연한 HTML5 광고 소재를 ZIP 파일로 업로드하거나 계정 사용 가능한 템플릿 중 하나를 시작점으로 사용할 수 있습니다. 유연한 HTML5 광고 소재에 대한 사양을 [](html5-creative-specification.md)참조하세요.
 
 #### 표준 디스플레이 크리에이티브
 
@@ -51,23 +51,25 @@ ht-degree: 0%
 
 ##### HTML5 광고
 
-* **GenStudio 경험:** [GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)의 [디스플레이 광고 경험](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)에서 모든 광고 변형을 HTML5 크리에이티브로 가져올 수 있습니다. 외부 링크는 로컬 참조로 변환됩니다. HTML 콘텐츠는 최대 20MB일 수 있으며 개별 이미지는 최대 50MB일 수 있습니다.
-
-  이 기능을 사용하려면 GenStudio 계정과 Advertising Creative 계정이 모두 동일한 조직 ID를 사용해야 하며 사용자에게 GenStudio에 액세스할 수 있는 권한이 있어야 합니다.
+* **GenStudio 경험:** [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)의 [디스플레이 광고 경험](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)에서 모든 광고 변형을 HTML5 크리에이티브로 가져올 수 있습니다. 외부 링크는 로컬 참조로 변환됩니다. HTML 콘텐츠는 최대 20MB일 수 있으며 개별 이미지는 최대 50MB일 수 있습니다.
 
   GenStudio 경험을 가져오면 가져온 크리에이티브에 대한 메타데이터(이름, 언어, 태그)를 편집할 수 있지만, 크리에이티브 콘텐츠에는 편집할 수 없습니다. GenStudio 내에서 GenStudio 환경을 편집하는 경우 [!DNL Creative]에서 환경을 다시 가져와서 최신 버전을 사용하십시오.
 
+  >[!NOTE]
+  >
+  >이 기능을 사용하려면 GenStudio 계정과 Advertising Creative 계정이 모두 동일한 조직 ID를 사용해야 하며 사용자에게 GenStudio에 액세스할 수 있는 권한이 있어야 합니다.
+
 * **업로드된 파일:** 모든 특성과 이미지를 지정하여 단순 또는 정적 HTML5 크리에이티브를 ZIP 파일로 업로드할 수도 있습니다. 속성을 편집하거나 이미지를 추가할 수 없습니다. 대신 새 ZIP 파일을 업로드하여 새 크리에이티브를 추가하십시오. [단순 및 정적 HTML5 광고 사양](html5-creative-specification.md)을 참조하세요.
 
-##### 이미지 크리에이티브
+##### 이미지 광고 소재
 
-GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 수 있습니다. Adobe Experience Manager 계정에서 승인된 이미지를 업로드하거나 장치 또는 네트워크에서 이미지를 업로드할 수 있습니다.
+이미지 광고 소재를 GIF, JPEG, JPG 또는 PNG 포맷 형식으로 포함할 수 있습니다. Adobe Experience Manager 계정에서 승인된 이미지나 디바이스 또는 네트워크에서 이미지를 업로드할 수 있습니다.
 
-각 표준 디스플레이 광고 경험에는 경험에 지정된 각 크리에이티브 크기에 대한 기본 이미지 크리에이티브가 필요합니다.
+각 표준 디스플레이 광고 경험에는 경험에 할당된 각 크리에이티브 크기에 대한 기본 이미지 크리에이티브가 필요합니다.
 
-#### 서드파티 크리에이티브
+#### 타사 광고 소재
 
-타사 광고 서버에서 호스팅하는 크리에이티브에 대한 JavaScript 추적 태그를 입력합니다. 스크립트는 광고 서버마다 다릅니다. 예를 들면 다음과 같습니다.
+서드파티 광고 서버에서 호스팅되는 광고 소재의 JavaScript 추적 태그를 입력합니다. 스크립트는 광고 서버마다 다릅니다. 예를 들면 다음과 같습니다.
 
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
@@ -77,7 +79,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 장치나 네트워크에서 웹, 모바일 또는 연결된 TV에 대한 자사 비디오 크리에이티브를 업로드할 수 있습니다. 각 표준 비디오 광고 경험은 경험에 지정된 각 크리에이티브 기간에 대해 기본 비디오 크리에이티브를 필요로 합니다. DSP은 모든 비디오 크리에이티브를 VAST 2.0 태그로 자동 코드 변환하여 미리 볼 수 있습니다. [!UICONTROL Tag Manager]에서 비디오 광고 경험 태그에 선택적으로 [DSP 전용 코드 변환](/help/creative/experiences/experience-tag-video-transcoding.md)을 적용할 수 있습니다.
 
-다음 비디오 크리에이티브 요구 사항을 참조하십시오. **참고:** 비디오 경험을 Advertising DSP에 업로드하려면 DSP의 [HD 비디오 Assets 요구 사항](https://experienceleague.adobe.com/ko/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)도 참조하세요. 이는 더 제한될 수 있습니다.
+다음 비디오 크리에이티브 요구 사항을 참조하십시오. **참고:** 비디오 경험을 Advertising DSP에 업로드하려면 DSP의 [HD 비디오 Assets 요구 사항](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)도 참조하세요. 이는 더 제한될 수 있습니다.
 
 **파일 형식:** .mov, .mp4, .webm
 
@@ -89,9 +91,9 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 **비디오 길이:** 최대 90초
 
-**비트율:** 360p의 경우 600-1200kbps, 720p의 경우 1500-2500kbps, 1080p의 경우 3000-5000kbps 이상
+**비트 전송률:** 360p의 경우 600-1200kbps, 720p의 경우 1500-2500kbps, 1080p의 경우 3000-5000+ kbps
 
-**비디오 프레임 속도:** 23.98FPS. 지역 또는 게시자 요구 사항에 따라 추가 프레임 속도가 허용될 수 있습니다
+**비디오 프레임 속도:** 23.98의 FPS. 추가 프레임 속도는 지역 또는 게시자 요구 사항에 따라 허용될 수 있습니다
 
 **비디오 코덱:** H.264(업계 표준), AV1, H.265
 
@@ -127,7 +129,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
    * [라이브러리 이름 편집](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * [라이브러리를 열어 라이브러리에 할당된 크리에이티브 및 번들을 봅니다](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+   * [라이브러리를 열어 라이브러리에 할당된 광고 소재 및 번들 보기](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
    * [라이브러리 삭제](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
@@ -145,11 +147,11 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 * [표준 크리에이티브 미리 보기](creative-preview.md)
 
-* [표준 디스플레이 번들에 표준 크리에이티브를 추가하고 표준 디스플레이 번들에서 표준 크리에이티브를 제거합니다.](creative-attach-detach-bundles.md)
+* [표준 디스플레이 번들에 표준 광고 소재를 추가하고 표준 디스플레이 번들에서 표준 광고 소재를 삭제합니다](creative-attach-detach-bundles.md)
 
-* [표준 비디오 번들에 비디오 크리에이티브를 추가하고 표준 비디오 번들에서 비디오 크리에이티브를 제거합니다.](creative-attach-detach-bundles.md)
+* [표준 동영상 번들에 동영상 광고 소재를 추가하고 표준 동영상 번들에서 동영상 광고 소재를 삭제합니다](creative-attach-detach-bundles.md)
 
-* [중복 표준 크리에이티브](creative-duplicate.md)
+* [표준 광고 소재 중복](creative-duplicate.md)
 
 * [표준 광고 다운로드](creative-download.md)
 
@@ -157,7 +159,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 #### [!UICONTROL Dynamic Ads]
 
-[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [&#x200B; 탭에서 &#x200B;](creative-delete.md)수동으로 삭제[!UICONTROL Dynamic Ads]한 동적 크리에이티브는 예외입니다. [수동으로 복제](creative-duplicate.md) 모든 동적 크리에이티브<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->를 수행하는 경우 해당 카탈로그에 대한 크리에이티브 목록에는 중복 크리에이티브도 포함됩니다.
+[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [ 탭에서 ](creative-delete.md)수동으로 삭제[!UICONTROL Dynamic Ads]한 동적 크리에이티브는 예외입니다. [수동으로 복제](creative-duplicate.md) 모든 동적 크리에이티브<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->를 수행하는 경우 해당 카탈로그에 대한 크리에이티브 목록에는 중복 크리에이티브도 포함됩니다.
 
 각 창작물별 데이터에는 창작유형, 창작규모, 창작물이 속한 카탈로그 개수, 창작날짜 등이 포함된다. 테이블 모드에는 광고 크리에이티브가 생성된 광고 템플릿 열과 오퍼 수가 포함됩니다.
 
@@ -175,7 +177,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 * [동적 디스플레이 번들에 동적 크리에이티브를 추가하고 동적 디스플레이 번들에서 동적 크리에이티브를 제거합니다.](creative-attach-detach-bundles.md)
 
-* [동적 크리에이티브 복제](creative-duplicate.md)
+* [동적 광고 소재 중복](creative-duplicate.md)
 
 * [동적 크리에이티브 삭제](creative-delete.md)
 
@@ -183,7 +185,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] 보기
 
-[!UICONTROL Bundles] 보기에는 표준 및 동적 번들 컨테이너가 모두 표시됩니다. 각 번들에 포함된 창작자들의 창작이름, 창작크기, 언어를 살펴볼 수 있다. 카드 모드에서는 &lt; 및 > 버튼을 사용하여 여러 크리에이티브가 포함된 번들로 이미지를 스크롤할 수 있습니다.
+이 보기에는 [!UICONTROL Bundles] 모든 표준 및 동적 번들 컨테이너가 표시됩니다. 각 번들에 포함된 광고 소재의 크리에이티브 이름, 크리에이티브 크기, 언어를 확인할 수 있습니다. 카드 모드에서는 버튼을 사용하여 &lt; and > 여러 광고 소재가 포함된 번들의 이미지를 스크롤할 수 있습니다.
 
 #### 사용 가능한 작업
 
@@ -206,4 +208,4 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 >* [Creative 라이브러리 관리](/help/creative/creative-libraries/creative-library-manage.md)
 >* [Creative 라이브러리에 표준 크리에이티브 추가](creative-add-standard.md)
 >* [Creative 번들 관리](bundle-manage.md)
->* [데이터 보기 사용자 지정](/help/creative/introduction/customize-data-views.md)
+>* [데이터 보기 맞춤설정](/help/creative/introduction/customize-data-views.md)
