@@ -3,9 +3,9 @@ title: Adobe Advertising Creative 정보
 description: ' [!DNL Creative]에 대해 알아봅니다.'
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 1394b988828f5400b858f1a40b1b6382431a62b0
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ Creative 라이브러리를 사용하면 광고 경험에서 사용할 크리에
 
 ### [!DNL Adobe] 자산 통합
 
-[!DNL Creative]은(는) Adobe Experience Manager과 직접 통합되어 있으므로 디자인 팀이 표준 이미지 광고에 대해 만들고 승인하는 [!DNL Adobe] 이미지 에셋을 쉽게 업로드할 수 있습니다.
+[!DNL Creative]은(는) 다음 [!DNL Adobe] 제품과 직접 통합되므로 자산을 Creative Libraries로 가져올 수 있습니다.
+
+* **Adobe Experience Manager:** 디자인 팀이 만들고 표준 이미지 광고에 대해 승인하는 [!DNL Adobe] 이미지 에셋을 업로드합니다.
+
+* **Adobe GenStudio for Performance Marketing:** 디스플레이 광고 경험에서 모든 광고 변형을 HTML5 광고 크리에이티브로 가져옵니다.
 
 ## 규칙 기반 및 타깃팅되지 않은 경험 모두
 
@@ -32,7 +36,7 @@ Creative 라이브러리를 사용하면 광고 경험에서 사용할 크리에
 
 ### [!DNL Adobe] 데이터 통합
 
-Adobe Audience Manager 및 Adobe Analytics의 자사 대상 세그먼트뿐만 아니라 Advertising DSP에서 만드는 사용자 지정 대상 세그먼트와 [!DNL Creative]을(를) 사용하여 만드는 픽셀을 광고 경험의 특정 크리에이티브를 위한 타겟으로 사용할 수 있습니다. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
+Adobe Audience Manager 및 Adobe Analytics의 자사 대상 세그먼트뿐만 아니라 Advertising DSP에서 만드는 사용자 지정 대상 세그먼트와 [!DNL Creative]을(를) 사용하여 만드는 픽셀을 광고 경험의 특정 크리에이티브를 위한 타겟으로 사용합니다. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
 ### 경험을 광고로 구현
 
