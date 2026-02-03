@@ -3,7 +3,7 @@ title: '[!UICONTROL Change History] 보고서 보기'
 description: 광고주 계정의 최근 변경 사항을 보는 방법에 대해 알아봅니다.
 exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: 503bda100511b80693745c1cf2fbb2b6296809ec
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%

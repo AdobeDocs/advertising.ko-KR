@@ -1,11 +1,11 @@
 ---
 title: 경험을 위한 크리에이티브 최적화 및 일정 사용자 정의
-description: 방법 알아보기
+description: 타깃팅하지 않고 경험에 대한 최적화 및 광고 예약을 구성하는 방법에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: ad6f076e24d69cfa93b9306a33d9b0cd4c7e813e
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: 동적 광고 템플릿 관리
-description: xxxx에 대해 알아보십시오.
+description: 동적 광고 템플릿을 관리하고 이러한 템플릿에서 광고를 만드는 방법에 대해 알아봅니다.
 feature: Creative Templates
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
