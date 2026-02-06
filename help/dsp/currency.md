@@ -3,7 +3,7 @@ title: 지원되는 통화
 description: 지원되는 통화 목록을 참조하십시오.
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 5fa4ba523b3036b8fc184dea082ae5a77ef71919
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -14,10 +14,9 @@ ht-degree: 0%
 
 Adobe Advertising은 다음 통화를 지원합니다.
 
-
 >[!NOTE]
 >
->Adobe Analytics은 [더 큰 통화 집합](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=ko)을 지원합니다.
+>Adobe Analytics은 [더 큰 통화 집합](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html)을 지원합니다.
 
 ## DSP 및 Creative
 
