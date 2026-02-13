@@ -4,9 +4,9 @@ description: AI 지원 대상 에이전트를 사용하여 Adobe Advertising DSP
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: c632774e68069ab03f41fb9453a27c6fe63c8168
+source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,8 @@ AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 
 ### 프롬프트에 포함해야 하는 것은 무엇입니까?
 
 * 대상 대상을 설명하려면 명확하고 수사적인 언어를 사용하십시오.
+
+  일반적으로 프롬프트는 대/소문자를 구분하지 않으며 명확성을 제공하는 것 외에는 구두점이 필요하지 않습니다.
 
 * 포함하려는 모든 대상 특성과 제외하려는 특성에 대한 세부 정보를 지정하고 제공해야 합니다. 세부 정보를 많이 제공할수록 요구 사항에 맞는 결과를 얻을 수 있는 가능성이 커집니다.
 
