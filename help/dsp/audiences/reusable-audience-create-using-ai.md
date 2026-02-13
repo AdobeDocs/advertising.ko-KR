@@ -4,7 +4,7 @@ description: AI 지원 대상 에이전트를 사용하여 Adobe Advertising DSP
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: 92fde92fa37f91ac2ac02c3386cbf7e811866899
+source-git-commit: c632774e68069ab03f41fb9453a27c6fe63c8168
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 0%
@@ -43,7 +43,7 @@ AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 
 
 1. 대상자 작성:
 
-   &#x200B;<!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->Beta 권한이 있는 사용자의 경우 AI 옵션이 기본값입니다. [대상자를 직접 결합](/help/dsp/audiences/reusable-audience-create.md)하려면 맨 아래에 있는 &quot;수동 모드로 전환&quot; 단추를 클릭하십시오.
+   Beta 권한이 있는 사용자의 경우 AI 옵션이 기본값입니다. [대상자를 직접 결합](/help/dsp/audiences/reusable-audience-create.md)하려면 맨 아래에 있는 &quot;수동 모드로 전환&quot; 단추를 클릭하십시오.
 
    1. 포함 및 제외할 대상 특성을 설명하는 하나 이상의 프롬프트를 입력합니다. 각 프롬프트를 제출하려면 ![프롬프트 제출](/help/dsp/assets/submit-prompt.png "프롬프트 제출")을 클릭하십시오.
 
