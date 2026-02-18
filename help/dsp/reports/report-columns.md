@@ -3,7 +3,7 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ab5d16d5132be59d2e902533155502c830c04bea
+source-git-commit: 9eb020f9cb243dc4cf38adbc5af7f723439797d2
 workflow-type: tm+mt
 source-wordcount: '2467'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Vendor] | 광고가 표시된 브라우저의 공급업체(예: Google 또는 Mozilla). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Version] | 광고가 표시된 브라우저의 버전입니다(예: [!UICONTROL Safari 4.3] 또는 [!UICONTROL Chrome 7.0]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser] | 광고가 표시된 브라우저(예: [!UICONTROL Chrome] 또는 [!UICONTROL Firefox]). |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Environment] | 광고가 *[!UICONTROL sites]*&#x200B;에 표시되었는지 아니면 *[!UICONTROL Apps]*&#x200B;에 표시되었는지 여부입니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Environment] | 배치가 타겟팅하는 장치 환경: (*[!UICONTROL Desktop]*, *[!UICONTROL Mobile]* 및/또는 *[!UICONTROL Connected TV])*. |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Hardware] | 광고가 표시된 디바이스 유형(예: [!UICONTROL Set Top Box] 또는 [!UICONTROL Mobile Phone]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Manufacturer] | 광고가 표시된 장치의 제조업체(예: [!UICONTROL Samsung], [!UICONTROL Lenovo] 또는 [!UICONTROL Apple]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Model] | 광고가 표시된 장치의 모델입니다(예: [!UICONTROL iPhone XS] 또는 [!UICONTROL Galaxy Note 7]). |
@@ -102,7 +102,6 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Name] | 사용자가 지정한 배치의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Budget] | 배치 예산. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Max Bid] | 배치에 대한 최대 입찰가. |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Device Environment] | 배치가 타겟팅하는 장치 환경: (*[!UICONTROL Desktop]*, *[!UICONTROL Mobile]* 및/또는 *[!UICONTROL Connected TV])*. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement End Date] | 배치 종료 일자. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Start Date] | 배치 시작 일자. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Tags] | 배치에 대한 사용자 지정 식별자로 사용되는 배치 태그입니다. |
@@ -115,6 +114,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | 세그먼트와 연계된 데이터 공급자의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | DSP 사이트 또는 앱의 고유 식별자입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | 사이트의 이름입니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Traffic Type] | 광고가 *[!UICONTROL sites]*&#x200B;에 표시되었는지 아니면 *[!UICONTROL Apps]*&#x200B;에 표시되었는지 여부입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Duration] | 업로드 후 처리되는 비디오 길이입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | DSP의 비디오 크리에이티브에 대한 고유 식별자입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Name] | 사용자가 할당한 크리에이티브의 이름. |
