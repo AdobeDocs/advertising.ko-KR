@@ -3,7 +3,7 @@ title: 타깃팅된 경험 설정
 description: 타겟팅된 광고 경험에 대한 모든 설정 설명을 참조하십시오.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics] 섹션
 
-**[!UICONTROL Ad Type]:**(기존 경험의 경우 읽기 전용) 경험에 포함된 광고 유형: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* 또는 *[!UICONTROL Video]*. 경험을 저장하면 광고 유형을 변경할 수 없습니다.
+**[!UICONTROL Ad Type]:**(기존 경험의 경우 읽기 전용) 경험에 포함된 광고 유형: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Standard Video]* 또는 *[!UICONTROL Display Video]*. 경험을 저장하면 광고 유형을 변경할 수 없습니다.
 
 **[!UICONTROL Advertiser]:**(기존 경험의 경우 읽기 전용) 경험에 포함된 광고 및 타겟 조합에 입찰할 광고주입니다. 경험을 저장하면 광고주를 변경할 수 없습니다.
 

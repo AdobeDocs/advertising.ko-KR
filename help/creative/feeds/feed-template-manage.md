@@ -2,9 +2,10 @@
 title: 피드 템플릿 관리
 description: 피드 템플릿을 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,13 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-피드 템플릿은 피드 파일/카탈로그의 필드를 Advertising Creative 백엔드의 필드와 매핑합니다. 정적 HTML5 광고가 아닌 동적 HTML5 광고에는 동적 광고를 만들기 위한 피드 템플릿이 필요합니다.
+피드 템플릿은 피드 파일/카탈로그의 필드를 Advertising Creative 백엔드의 필드와 매핑합니다. 정적 HTML5 광고가 아닌 동적 HTML5 및 비디오 광고에는 동적 광고를 만들기 위한 피드 템플릿이 필요합니다. 선택적으로 마스터 피드 템플릿([!UICONTROL Retail] 및 [!UICONTROL Adobe Creative Template])을 다운로드하여 채울 수 있습니다.
 
 피드 템플릿은 여러 광고 템플릿과 함께 사용할 수 있습니다.
+
+>[!TIP]
+>
+>동적 비디오가 있는 모든 계정의 경우 가장 좋은 방법은 [마스터 피드 템플릿 [!UICONTROL Adobe Creative Template]](feed-template-manage.md)을(를) 다운로드하고 에셋 파일의 각 필드를 Advertising Creative 백엔드의 필드에 매핑한 다음 피드 템플릿의 이름을 변경하여 업로드하는 것입니다. 자산 파일과 함께 새 피드 템플릿을 사용하여 [카탈로그를 만들기](catalog-manage.md)하십시오.
 
 ## 피드 템플릿 만들기
 
@@ -99,7 +104,7 @@ ht-degree: 0%
 
 **[!UICONTROL Is Unique]:** 필드가 고유 ID(키)임을 나타냅니다. 피드 템플릿당 하나 이상의 필드는 고유해야 합니다. 이 옵션을 선택하려면 단추를 클릭하여 오른쪽으로 이동합니다.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** 피드 파일에서 지정된 [에 매핑되는 Advertising Creative 백 엔드의 &#x200B;](/help/creative/appendix-available-feed-fields.md)필드[!UICONTROL Field Name]입니다.
+**[!UICONTROL Backend Field]:** 피드 파일에서 지정된 [에 매핑되는 Advertising Creative 백 엔드의 ](/help/creative/appendix-available-feed-fields.md)필드[!UICONTROL Field Name]입니다.
 
 >[!MORELIKETHIS]
 >

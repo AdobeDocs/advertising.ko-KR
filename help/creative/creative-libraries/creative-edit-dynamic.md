@@ -2,9 +2,10 @@
 title: 크리에이티브 라이브러리에서 동적 크리에이티브 편집
 description: 크리에이티브 라이브러리에서 동적 크리에이티브를 편집하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ ht-degree: 0%
 
    * 콘텐츠 변경:
 
-      * 테이블 내에서 셀의 값을 편집하려면 셀 내부를 클릭하고 값을 편집합니다. 셀 외부를 클릭하거나 **[!DNL Enter]** 키를 눌러 변경 내용을 저장합니다.
+      * (광고만 표시) 표 내에서 셀의 값을 편집하려면 셀 내부를 클릭하고 값을 편집합니다. 셀 외부를 클릭하거나 **[!DNL Enter]** 키를 눌러 변경 내용을 저장합니다.
 
       * 단일 제품을 기본값 <!--Explain what this means. -->(으)로 표시하려면 행 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**&#x200B;을(를) 클릭합니다.
 

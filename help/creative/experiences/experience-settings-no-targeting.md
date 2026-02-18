@@ -3,7 +3,7 @@ title: 타깃팅되지 않은 경험에 대한 설정
 description: 의사 결정 트리 타깃팅이 없는 광고 경험에 대한 모든 설정 설명을 참조하십시오.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics] 섹션
 
-**[!UICONTROL Ad Type]:**(기존 경험의 경우 읽기 전용) 경험에 포함된 광고 유형: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* 또는 *[!UICONTROL Video]*. 경험을 저장하면 광고 유형을 변경할 수 없습니다.
+**[!UICONTROL Ad Type]:**(기존 경험의 경우 읽기 전용) 경험에 포함된 광고 유형: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Standard Video]* 또는 *[!UICONTROL Display Video]*. 경험을 저장하면 광고 유형을 변경할 수 없습니다.
 
 **[!UICONTROL Advertiser]:**(기존 경험의 경우 읽기 전용) 경험에 포함된 크리에이티브에 입찰할 광고주입니다. 경험을 저장하면 광고주를 변경할 수 없습니다.
 

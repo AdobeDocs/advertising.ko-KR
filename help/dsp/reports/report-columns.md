@@ -3,9 +3,9 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 9eb020f9cb243dc4cf38adbc5af7f723439797d2
+source-git-commit: bd85b4451624e14c95157c84537fdfb53662773f
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2724'
 ht-degree: 0%
 
 ---
@@ -219,6 +219,25 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Total Ad Clicks] | 광고의 모든 클릭 수 합계입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Viewed Minutes] | 비디오 광고를 본 총 시간(분)입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Views] | 총 비디오 광고 보기 횟수. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completion Rate] | (사용자 지정 Creative 보고서) 광고 전체를 시청한 보기 비율입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completions] | (사용자 지정 Creative 보고서) 광고 전체를 시청한 보기 수입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completion Rate] | (사용자 지정 Creative 보고서) 최소 1개 이상의 광고 분위를 시청한 보기 비율입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completions] | (사용자 지정 Creative 보고서) 하나 이상의 광고 사분위를 시청한 보기 수입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completion Rate] | (사용자 지정 Creative 보고서) 최소 2개 이상의 광고 분위를 시청한 보기 비율입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completions] | (사용자 지정 Creative 보고서) 최소 2개 이상의 광고 분위를 시청한 보기 수입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completion Rate] | (사용자 지정 Creative 보고서) 최소 3개 이상의 광고 분위를 시청한 보기 비율입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completions] | (사용자 지정 Creative 보고서) 최소 3개 사분위의 광고를 시청한 보기 수입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Avg Percent Viewed] | (사용자 지정 Creative 보고서) 모든 보기를 고려하여 완료되기 위해 관찰된 광고의 평균 백분율입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Play Rate] | (사용자 지정 Creative 보고서) 비디오 보기에 따른 노출 횟수의 비율입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Playtime per View] | (사용자 지정 Creative 보고서) 비디오 보기의 평균 기간(초 단위)입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Mute] | (사용자 지정 Creative 보고서) 비디오가 음소거된 총 횟수입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Pause] | (사용자 지정 Creative 보고서) 비디오가 일시 중지된 총 횟수입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Resume] | (사용자 지정 Creative 보고서) 일시 중지 후 비디오가 다시 시작된 총 횟수입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Rewind] | (사용자 지정 Creative 보고서) 비디오가 되감겨진 총 횟수입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Start] | (사용자 지정 Creative 보고서) 비디오가 시작된 총 횟수입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Unmute] | (사용자 지정 Creative 보고서) 비디오가 음소거 해제된 총 횟수입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Viewed Minutes] | (사용자 지정 Creative 보고서) 비디오 광고를 본 총 시간(분)입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Views] | (사용자 지정 Creative 보고서) 총 비디오 광고 보기 수입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Avg. Player Width x Height] | 평균 플레이어 너비 및 높이입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Impressions] | 조회 수를 측정할 수 있는 제공된 총 노출 횟수. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | 조회 수를 측정할 수 있었던 제공된 노출 횟수의 백분율로, <code>[!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]로 계산됩니다.</code>. |

@@ -3,16 +3,16 @@ title: Advertising Creative의 경험
 description: 개인화된 광고 경험을 구성하고 성능에 따라 광고 요소를 최적화하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
 
 # Advertising Creative 2.0의 경험 정보
 
-각 광고 경험에는 하나의 광고 유형(표준 디스플레이, 표준 비디오 또는 동적 디스플레이)이 포함될 수 있습니다. [!DNL Advertising Creative 2.0]은(는) 하나의 광고 라이브러리에서 광고에 대한 두 가지 다른 광고 경험 구조를 제공합니다.
+각 광고 경험에는 하나의 광고 유형(표준 디스플레이, 표준 비디오, 동적 디스플레이 또는 동적 비디오)이 포함될 수 있습니다. [!DNL Advertising Creative 2.0]은(는) 하나의 광고 라이브러리에서 광고에 대한 두 가지 다른 광고 경험 구조를 제공합니다.
 
 * **의사 결정 트리 타겟팅이 있는 경험:** [!DNL Creative]을(를) 사용하면 의사 결정 트리 모델을 사용하여 고객 여정 전반에 걸쳐 개인화된 광고 경험을 구성할 수 있습니다. 타겟 대상을 기반으로 모든 광고 요소(이미지, 헤드라인, 오퍼 및 랜딩 페이지)를 사용자 지정할 수 있습니다.
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
   ![지표 옵션](/help/creative/assets/metrics-option.png "지표 옵션")
 
-* [&#x200B; 보기에서 &#x200B;](experience-performance-details.md)경험에 대한 자세한 성능 데이터를 볼 수 있습니다[!UICONTROL Experiences].
+* [ 보기에서 ](experience-performance-details.md)경험에 대한 자세한 성능 데이터를 볼 수 있습니다[!UICONTROL Experiences].
 
 * 경험에서 성능을 모니터링하려면 [사용자 지정 Creative 보고서](/help/creative/reports/report-manage.md)를 만드십시오.
 

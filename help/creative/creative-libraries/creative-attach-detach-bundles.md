@@ -3,9 +3,9 @@ title: 크리에이티브를 크리에이티브 번들에 첨부
 description: 크리에이티브 번들에 크리에이티브를 첨부하는 방법을 알아봅니다.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
-표준 디스플레이 번들에 표준 디스플레이 크리에이티브, 표준 비디오 번들에 표준 비디오 크리에이티브, 동적 디스플레이 번들에 동적 디스플레이 크리에이티브를 첨부하여 [광고 경험](/help/creative/experiences/experience-about.md)에 추가할 수 있습니다. 각 번들에는 \[creative size or duration + language\] 조합 중 하나만 포함될 수 있습니다.
+표준 디스플레이 번들에 표준 디스플레이 크리에이티브, 표준 비디오 번들에 표준 비디오 크리에이티브, 동적 디스플레이 번들에 동적 디스플레이 크리에이티브, 동적 비디오 번들에 동적 비디오 크리에이티브를 첨부하여 [광고 경험](/help/creative/experiences/experience-about.md)에 추가할 수 있습니다. 각 번들에는 \[creative size or duration + language\] 조합 중 하나만 포함될 수 있습니다.
 
 <!--
 You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.

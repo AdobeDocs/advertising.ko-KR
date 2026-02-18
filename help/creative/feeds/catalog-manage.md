@@ -2,18 +2,25 @@
 title: 피드 카탈로그 관리
 description: 피드 카탈로그를 관리하는 방법에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # 피드 카탈로그 관리
 
-처리된 피드 카탈로그는 지정된 피드 파일 및 지정된 피드 템플릿에서 생성된 잠재적인 광고 변형의 집합입니다. 정적 HTML5 광고가 아닌 동적 HTML5 광고에는 동적 광고를 만들기 위한 카탈로그가 필요합니다.
+처리된 피드 카탈로그는 지정된 피드 파일 및 지정된 피드 템플릿에서 생성된 잠재적인 광고 변형의 집합입니다. 정적 HTML5 광고가 아닌 동적 HTML5 및 비디오 광고에는 동적 광고를 만들기 위한 카탈로그가 필요합니다.
 
 광고 변형을 만들고 [크리에이티브 라이브러리에 동적 광고를 추가](/help/creative/creative-libraries/creative-add-dynamic.md)하려면 먼저 카탈로그를 처리하십시오. 나중에 피드 파일을 업데이트하고 카탈로그를 다시 처리하여 새 광고 변형 집합을 만들 수 있습니다.<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
+
+각 피드 파일은 비디오 에셋으로 최대 500개의 행을 처리할 수 있습니다.
+
+>[!TIP]
+>
+>동적 비디오가 있는 모든 계정의 경우 가장 좋은 방법은 [마스터 피드 템플릿 [!UICONTROL Adobe Creative Template]](feed-template-manage.md)을(를) 다운로드하고 에셋 파일의 각 필드를 Advertising Creative 백엔드의 필드에 매핑한 다음 피드 템플릿의 이름을 변경하여 업로드하는 것입니다. 새 피드 템플릿을 자산 파일과 함께 사용하여 카탈로그를 만듭니다.
 
 ## 카탈로그 만들기 {#feed-catalog-create}
 

@@ -2,9 +2,10 @@
 title: Creative 라이브러리에 동적 크리에이티브 추가
 description: Creative Library에 동적 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
+source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -59,9 +60,11 @@ ht-degree: 0%
 
 1. [동적 광고 설정 지정](/help/creative/creative-libraries/creative-settings-dynamic.md):
 
-   1. 기본 광고 세부 정보를 지정합니다.
+   1. 광고 유형을 포함한 기본 광고 세부 정보를 지정합니다.
 
    1. 광고 크리에이티브에 사용할 광고 템플릿을 선택합니다.
+
+      디스플레이 광고에는 HTML5 광고 템플릿을 사용하고 비디오 광고에는 비디오 광고 템플릿을 사용합니다.
 
    1. 광고를 제작할 카탈로그를 선택하십시오.
 
