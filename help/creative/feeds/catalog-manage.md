@@ -3,7 +3,7 @@ title: 피드 카탈로그 관리
 description: 피드 카탈로그를 관리하는 방법에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
 exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->동적 비디오가 있는 모든 계정의 경우 가장 좋은 방법은 [마스터 피드 템플릿 [!UICONTROL Adobe Creative Template]](feed-template-manage.md)을(를) 다운로드하고 에셋 파일의 각 필드를 Advertising Creative 백엔드의 필드에 매핑한 다음 피드 템플릿의 이름을 변경하여 업로드하는 것입니다. 새 피드 템플릿을 자산 파일과 함께 사용하여 카탈로그를 만듭니다.
+>동적 비디오가 있는 모든 계정의 경우 가장 좋은 방법은 [범용 피드 템플릿 [!UICONTROL Adobe Creative Template]](feed-template-manage.md)을(를) 다운로드하고 에셋 파일의 각 필드를 Advertising Creative 백엔드의 필드에 매핑한 다음 피드 템플릿의 이름을 바꾸고 업로드하는 것입니다. 새 피드 템플릿을 자산 파일과 함께 사용하여 카탈로그를 만듭니다.
 
 ## 카탈로그 만들기 {#feed-catalog-create}
 

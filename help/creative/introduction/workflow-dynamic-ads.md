@@ -3,9 +3,9 @@ title: 동적 광고용 워크플로우
 description: 동적 광고 관리 워크플로우에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ ht-degree: 0%
 
       1. [피드 파일 및 자산을 업로드합니다](/help/creative/feeds/asset-manage.md).
 
-      1. 피드 파일(스프레드시트)의 필드를 Advertising Creative 백엔드의 필드에 매핑하려면 [피드 템플릿을 만듭니다](/help/creative/feeds/feed-template-manage.md). 선택적으로 마스터 피드 템플릿을 다운로드하고 소매 <!-- and what is the creative template?-->과(와) 관련된 필드로 채울 수 있습니다.
+      1. 피드 파일(스프레드시트)의 필드를 Advertising Creative 백엔드의 필드에 매핑하려면 [피드 템플릿을 만듭니다](/help/creative/feeds/feed-template-manage.md). 선택적으로 범용 피드 템플릿을 다운로드하여 캠페인 유형과 관련된 필드로 채울 수 있습니다.
 
       1. [지정된 피드 파일 및 지정된 피드 템플릿에서 카탈로그를 만들고](/help/creative/feeds/catalog-manage.md#feed-catalog-create), 만들 수 있는 광고 변형을 보려면 [카탈로그를 처리](/help/creative/feeds/catalog-manage.md#feed-catalog-process)하십시오.
 
          각 피드 파일은 하나의 카탈로그에 대해서만 사용할 수 있습니다.
 
-         [&#x200B; > &#x200B;](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative] 탭에서 [!UICONTROL Feeds]카탈로그 처리 작업의 상태를 추적[!UICONTROL Job Status]할 수 있습니다.
+         [ > ](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative] 탭에서 [!UICONTROL Feeds]카탈로그 처리 작업의 상태를 추적[!UICONTROL Job Status]할 수 있습니다.
 
 1. Creative 라이브러리의 [동적 크리에이티브 만들기](/help/creative/creative-libraries/creative-add-dynamic.md). 다이내믹 HTML5 광고의 경우 지정된 광고 템플릿과 지정된 카탈로그를 사용하십시오.
 
