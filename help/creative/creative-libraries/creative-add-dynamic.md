@@ -3,9 +3,9 @@ title: Creative 라이브러리에 동적 크리에이티브 추가
 description: Creative Library에 동적 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
+source-git-commit: 2a89d5f3997345c051728d41af865dc0e75541f5
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 0%
 
       * 콘텐츠 변경:
 
-         * 테이블 내에서 셀의 값을 편집하려면 셀 내부를 클릭하고 값을 편집합니다. 셀 외부를 클릭하거나 **[!DNL Enter]** 키를 눌러 변경 내용을 저장합니다.
+         * (광고만 표시) 표 내에서 셀의 값을 편집하려면 셀 내부를 클릭하고 값을 편집합니다. 셀 외부를 클릭하거나 **[!DNL Enter]** 키를 눌러 변경 내용을 저장합니다.
 
          * 단일 제품을 기본값 <!--Explain what this means. -->(으)로 표시하려면 행 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**&#x200B;을(를) 클릭합니다.
 
