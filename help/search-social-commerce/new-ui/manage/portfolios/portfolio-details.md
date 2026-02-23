@@ -3,9 +3,10 @@ title: (새 UI) 포트폴리오 성능 세부 정보 보기
 description: 포트폴리오 수준 및 할당된 각 캠페인에 대한 실제 및 예상 지표를 포함하여 포트폴리오 성과 세부 정보를 보는 방법에 대해 알아봅니다.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
+source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -82,6 +83,8 @@ ht-degree: 0%
 
    * 차트에서 임의의 점에 대한 데이터를 보려면 해당 점 위에 커서를 놓습니다.
 
+1. **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
+
 ## 포트폴리오에 캠페인 나열
 
 * **[!UICONTROL Campaigns]** 탭을 클릭합니다.
@@ -103,6 +106,14 @@ ht-degree: 0%
    * 표시되는 포트폴리오 설정을 편집하려면 설정 섹션 옆에 있는 ![편집](/help/search-social-commerce/assets/edit.png "편집")을 클릭하고 [포트폴리오 설정 편집](portfolio-edit.md)을 클릭합니다.
 
 포트폴리오 설정에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 최적화 안내서를 참조하십시오.
+
+## 포트폴리오 성과 보고서 및 포트폴리오 구성 요소 목록 다운로드
+
+1. 도구 모음에서 **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
+
+1. 포함할 각 성과 보고서와 포트폴리오 구성 요소 유형 옆의 확인란을 선택합니다.
+
+   일부 성능 보고서의 경우 데이터를 장바구니로 다운로드할지 표로 다운로드할지를 선택할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
