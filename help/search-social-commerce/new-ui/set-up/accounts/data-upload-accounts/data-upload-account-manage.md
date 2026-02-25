@@ -2,9 +2,10 @@
 title: 데이터 업로드를 위한 광고 네트워크 계정 구성
 description: 광고 네트워크 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법을 알아봅니다.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
+source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ ht-degree: 0%
 
    1. **[!UICONTROL Account Details]** 탭에서 계정 세부 정보를 편집합니다.
 
-   1. ([[!DNL Adobe Analytics for Advertising] 통합](/help/integrations/analytics/overview.md)을 사용하는 광고주) **[!UICONTROL Set up Adobe Analytics]** 탭을 클릭하고 캠페인 활동 추적 및 보고에 사용할 [!DNL Analytics] 보고 세트를 편집합니다.
+   1. ([[!DNL Adobe Analytics for Advertising] 통합](/help/integrations/analytics/overview.md)을 사용하는 광고주) **[!UICONTROL Set up Adobe Analytics]** 탭을 클릭하고 캠페인 활동 추적 및 보고에 사용할 [!DNL Analytics] 보고 세트를 편집하십시오.
 
    1. (선택 사항) **[!UICONTROL Upload File]** 탭에서 계정에 대한 데이터 파일을 업로드합니다.
 
