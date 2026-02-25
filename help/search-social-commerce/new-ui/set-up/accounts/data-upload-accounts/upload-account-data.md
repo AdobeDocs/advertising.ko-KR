@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-# [!DNL Amazon] [!DNL S3] 버킷에 계정 데이터 업로드 {#data-upload-s3}
+&#x200B;# [!DNL Amazon] [!DNL S3] 버킷에 계정 데이터 업로드 {#data-upload-s3}
 
 [!DNL Amazon Web Services]&#x200B;(AWS) [!DNL Simple Storage Service]&#x200B;([!DNL S3]) 버킷의 Search, Social 및 Commerce 할당 폴더에 데이터를 업로드하여 캠페인 콘텐츠와 비용, 클릭 및 전환 데이터로 계정을 채울 수 있습니다.
 
@@ -113,7 +113,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 1. (조직당 한 번) 로컬 AWS 환경을 설정합니다.
 
-   1. [!DNL AWS Command Line Interface]https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html[ 위치에서 ](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)&#x200B;(AWS CLI)을 다운로드하여 설치하십시오.
+   1. [!DNL AWS Command Line Interface]https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html[&#x200B; 위치에서 &#x200B;](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)&#x200B;(AWS CLI)을 다운로드하여 설치하십시오.
 
    1. AWS 자격 증명을 구성합니다.
 
@@ -143,7 +143,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 1. 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Upload Logs]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 업로드된 파일의 데이터를 다운로드하려면 ![ 열의 ](/help/search-social-commerce/assets/download.png "다운로드")다운로드[!UICONTROL Download]를 클릭하고 브라우저의 일반적인 절차에 따라 파일을 다운로드합니다.
+1. (선택 사항) 업로드된 파일의 데이터를 다운로드하려면 ![&#x200B; 열의 &#x200B;](/help/search-social-commerce/assets/download.png "다운로드")다운로드[!UICONTROL Download]를 클릭하고 브라우저의 일반적인 절차에 따라 파일을 다운로드합니다.
 
 ## 필수 데이터
 
