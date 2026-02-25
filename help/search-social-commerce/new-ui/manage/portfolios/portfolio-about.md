@@ -4,9 +4,9 @@ description: 포트폴리오에 대해 알아봅니다.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
+source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios] 보기
 
-[!UICONTROL Portfolios] 보기는 사용자 지정 가능한 성능 데이터와 함께 기존 포트폴리오를 나열합니다. [보기 내의 열을 사용자 지정하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) 도구 모음[&#x200B; 또는 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)열 제목[에서 특정 포트폴리오 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)을(를) 포함하도록 데이터를 필터링할 수 있습니다.
+[!UICONTROL Portfolios] 보기는 사용자 지정 가능한 성능 데이터와 함께 기존 포트폴리오를 나열합니다. [보기 내의 열을 사용자 지정하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) 도구 모음[ 또는 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)열 제목[에서 특정 포트폴리오 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)을(를) 포함하도록 데이터를 필터링할 수 있습니다.
+
+데이터 테이블 위에서, 지정된 날짜 범위에 대한 보기의 모든 포트폴리오에 대해 총 3개의 지표가 있는 성능 그래프를 열 수 있습니다.
 
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
 
@@ -77,6 +79,8 @@ ht-degree: 0%
 * [포트폴리오 설정 편집](portfolio-edit.md)
 
 * [일괄 시트 파일을 사용하여 포트폴리오 설정 일괄 편집](portfolio-bulksheets.md)
+
+* [보기의 모든 포트폴리오에 대한 성능 그래프 보기](portfolio-view-performance-graph.md)
 
 * [포트폴리오 성능 세부 정보 보기](portfolio-details.md)
 

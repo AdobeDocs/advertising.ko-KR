@@ -3,9 +3,9 @@ title: 레이블 분류 값 삭제
 description: 레이블 분류에 대한 값을 삭제하는 방법을 알아봅니다.
 exl-id: 1b404c6d-a6db-485b-9438-b102786eb65d
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 >[!NOTE]
 >
 >계정 구성 요소에서 분류 값의 연결을 해제하려면 &quot;[캠페인 구성 요소에서 분류 값 제거](classification-values-remove.md)&quot;를 참조하십시오.
+
+## (새 UI) 레이블 분류 값을 삭제합니다.
+
+1. **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Label Values]** 탭을 클릭합니다.
+
+1. (선택 사항) 특정 레이블 값을 포함하도록 목록을 필터링합니다.
+
+1. 삭제할 각 레이블 값 옆에 있는 확인란을 선택합니다.
+
+   한 번에 최대 200개의 행을 삭제할 수 있습니다.
+
+   여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
+
+1. 일괄 작업 도구 모음에서 ![삭제](/help/search-social-commerce/assets/delete.png "삭제")를 클릭합니다.
+
+1. 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
+
+## (기존 UI) 레이블 분류 값을 삭제합니다.
 
 1. **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
 

@@ -3,9 +3,9 @@ title: 캠페인 관리 보기에서 계정 구성 요소에 분류 값 할당
 description: 계정 구성 요소에 분류 값을 할당하는 방법을 알아봅니다.
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,40 @@ ht-degree: 0%
 >[!NOTE]
 >
 >일부 광고 네트워크 및 캠페인 유형의 키워드 및 광고 복사본은 [변경할 수 없음](/help/search-social-commerce/campaign-management/faqs-campaigns.md)입니다. 즉, 편집하면 기존 엔터티가 삭제되고 새 엔터티가 만들어집니다. 이러한 방식으로 기존 엔티티를 삭제하면 레이블 분류가 새 엔티티에 할당되지 않습니다.
+
+## (새 UI) 계정 구성 요소에 분류 값 할당
+
+새 UI에서 사용할 수 있는 적용 가능한 계정 구성 요소에 분류 값을 할당할 수 있습니다.
+
+1. **[!UICONTROL Manage]** 또는 **[!UICONTROL Target]** 메뉴에서 엔터티 보기를 엽니다.
+
+1. 각 관련 행 옆에 있는 확인란을 선택합니다.
+
+   여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
+
+1. 일괄 작업 도구 모음에서 **+[!UICONTROL Assign]** > **[!UICONTROL Label Classification]**&#x200B;을(를) 클릭합니다.
+
+1. 적용 가능한 각 분류 값에 대해 다음을 수행합니다.
+
+   1. **[!UICONTROL Classifications]** 열에서 분류를 지정합니다.
+
+      * 기존 분류를 사용하려면 분류 이름을 클릭하여 확장합니다.
+
+      * 분류를 만들려면 열 머리글에서 [!UICONTROL +]을(를) 클릭합니다. 입력 필드에 분류 이름을 입력한 다음 ![저장](/help/search-social-commerce/assets/save-checkmark.png "저장")을 클릭하여 분류를 즉시 저장합니다. 새 분류를 사용하려면 분류 이름을 클릭하여 확장합니다.
+
+        이름은 [ASCII 문자 32-126](https://www.asciitable.com/)&#x200B;(으)로 구성되어야 하며 최대 길이는 27개의 싱글바이트 문자입니다.
+
+   1. **[!UICONTROL Value Name]** 열에서 선택한 분류의 값을 지정하십시오.
+
+      * 기존 값을 사용하려면 값을 선택합니다.
+
+      * 값을 만들려면 열 머리글에서 [!UICONTROL +]을(를) 클릭합니다. 입력 필드에 값을 입력한 다음 ![저장](/help/search-social-commerce/assets/save-checkmark.png "저장")을 클릭하여 값을 즉시 저장하고 기본적으로 선택합니다.
+
+        최대 길이는 100자이며 ASCII 및 비 ASCII 문자를 포함할 수 있습니다.
+
+1. **+[!UICONTROL Assign Now]**&#x200B;을(를) 클릭합니다.
+
+## (기존 UI) 계정 구성 요소에 분류 값 할당
 
 1. **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭한 다음 계정 구성 요소 보기를 선택합니다.
 

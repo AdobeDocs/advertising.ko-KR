@@ -3,9 +3,9 @@ title: 계정 구성 요소에서 레이블 분류 값 제거
 description: 레이블 분류 값과 계정 구성 요소 사이의 연결을 제거하는 방법을 알아봅니다.
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 >[!NOTE]
 >
 >레이블 분류에서 값을 삭제하려면 &quot;[레이블 분류 값 삭제](classification-values-delete.md)&quot;를 참조하십시오.
+
+## (새 UI) 계정 구성 요소에서 레이블 분류 값을 제거합니다.
+
+새 UI에서 사용할 수 있는 적용 가능한 계정 구성 요소에서 분류 값을 제거할 수 있습니다.
+
+1. **[!UICONTROL Manage]** 또는 **[!UICONTROL Target]** 메뉴에서 엔터티 보기를 엽니다.
+
+1. 각 관련 행 옆에 있는 확인란을 선택합니다.
+
+   여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
+
+1. 일괄 작업 도구 모음에서 **-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**&#x200B;을(를) 클릭합니다.
+
+1. 선택한 엔터티에서 제거할 각 분류 값 옆의 확인란을 선택합니다.<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
+
+   할당된 모든 값을 선택하려면 **[!UICONTROL Select All]**&#x200B;을(를) 클릭하십시오. 할당된 모든 값을 선택 해제하려면 **[!UICONTROL Deselect All]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Unassign Selected]**&#x200B;을(를) 클릭합니다.
+
+## (기존 UI) 계정 구성 요소에서 레이블 분류 값을 제거합니다.
 
 1. **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;에서 엔터티 보기를 선택합니다.
 
