@@ -44,5 +44,5 @@ Search, Social 및 Commerce은 지원되는 광고 네트워크 계정과 동기
 >* [API 연결을 통해 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
 >* [데이터 업로드를 위한 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
 >* [관리 [!DNL Naver] 추적 전용 계정](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
->* [추적 전용 계정 구현 [!DNL Naver] 2}](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [추적 전용 계정 구현 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [판매자 센터 계정 관리](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
