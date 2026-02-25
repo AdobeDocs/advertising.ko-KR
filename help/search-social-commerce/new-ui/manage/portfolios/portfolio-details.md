@@ -4,9 +4,9 @@ description: 포트폴리오 수준 및 할당된 각 캠페인에 대한 실제
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
-source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
+source-git-commit: e786ffc8c9e331fffcc8b0f7cce4cb082baea6ac
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -109,11 +109,23 @@ ht-degree: 0%
 
 ## 포트폴리오 성과 보고서 및 포트폴리오 구성 요소 목록 다운로드
 
-1. 도구 모음에서 **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
+* 모든 보고서를 다운로드하려면 다음 작업을 수행하십시오.
 
-1. 포함할 각 성과 보고서와 포트폴리오 구성 요소 유형 옆의 확인란을 선택합니다.
+   1. 도구 모음에서 **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
 
-   일부 성능 보고서의 경우 데이터를 장바구니로 다운로드할지 표로 다운로드할지를 선택할 수 있습니다.
+   1. 포함할 각 성과 보고서와 포트폴리오 구성 요소 유형 옆의 확인란을 선택합니다.
+
+      일부 성능 보고서의 경우 데이터를 차트로 다운로드할지 표로 다운로드할지를 선택할 수 있습니다.
+
+   1. **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
+
+* 특정 유형의 데이터가 포함된 [!DNL model accuracy] 보고서를 다운로드하려면 다음을 수행하십시오.
+
+   1. 보고서의 도구 모음에서 **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
+
+   1. 포함할 각 데이터 유형 및 데이터 분류 방법(입찰 단위 및/또는 클릭 볼륨) 옆에 있는 확인란을 선택합니다.
+
+   1. **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
