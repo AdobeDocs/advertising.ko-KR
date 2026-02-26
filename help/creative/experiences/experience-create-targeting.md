@@ -3,7 +3,7 @@ title: 의사 결정 트리 타겟팅으로 경험 만들기
 description: 의사 결정 트리를 사용하여 타깃팅된 광고 경험을 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 7031347edb4491a91d622c0357ea2d3fb63f0a8a
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -55,9 +55,9 @@ ht-degree: 0%
 
            각 최종 노드에 하나 이상의 번들을 할당하지 않는 경우 경험을 저장할 때 할당되지 않은 각 노드에 대한 기본 크리에이티브를 사용하도록 선택할 수 있습니다. 경험을 게시하려면 번들을 할당하거나 각 최종 노드에 대한 기본 크리에이티브를 사용해야 합니다.
 
-         * [할당된 번들의 광고 추적 URL을 사용자 지정](experience-tracking-urls-targeting.md)합니다.
-
          * 할당된 번들에 대해 [크리에이티브 최적화 및 예약을 사용자 지정](experience-optimization-scheduling-targeting.md)합니다.
+
+         * [할당된 번들의 광고 추적 URL을 사용자 지정](experience-tracking-urls-targeting.md)합니다.
 
 1. (선택 사항) 의사 결정 트리와 일반 설정 간에 전환합니다.
 

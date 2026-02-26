@@ -3,9 +3,9 @@ title: 경험을 위한 크리에이티브 최적화 및 일정 사용자 정의
 description: 타겟팅된 경험에 대한 최적화 및 광고 예약을 구성하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,21 @@ ht-degree: 0%
 
 크리에이티브 일정이 비활성화되면 크리에이티브 최적화 설정이 할당된 모든 크리에이티브에 적용됩니다.
 
-1. 대상 노드 아래의 크리에이티브 리프 노드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**&#x200B;을(를) 클릭합니다.
+1. 경험을 [생성](experience-create-targeting.md) 또는 [편집](experience-edit-targeting.md)하는 동안 크리에이티브 최적화 설정을 여십시오.
+
+   1. 대상 노드 아래의 크리에이티브 리프 노드 위에 커서를 놓고 다음을 수행합니다.
+
+      * 기존 번들의 경우 **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**&#x200B;을(를) 클릭합니다.
+
+      * 새 번들의 경우 **[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]** 및 [번들 할당](experience-assign-creative-bundles.md)을 클릭합니다.
+
+1. **[!UICONTROL Creative Optimization]** 탭을 클릭합니다.
 
 1. **[!UICONTROL Schedule]**&#x200B;을(를) 사용하지 않도록 설정합니다.
 
 1. 연결된 번들의 광고 변형에 대한 크리에이티브 회전 유형을 선택합니다.
 
-   * *[!UICONTROL Weighted]:* 상대 가중치에 따라 연결된 Creative 번들의 광고 변형을 표시합니다. 각 번들의 가중치를 백분율로 입력합니다. 선택한 모든 번들에 대한 가중치는 최대 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->까지 추가해야 합니다.
+   * *[!UICONTROL Weighted]:* 상대 가중치에 따라 연결된 Creative 번들의 광고 변형을 표시합니다. 각 번들의 가중치를 백분율로 입력합니다. 연결된 모든 번들에 동일한 가중치를 적용하려면 (![동일한 가중치 적용](/help/creative/assets/apply-equal-weight.png "동일한 가중치 적용"))을 클릭합니다. 선택한 모든 번들에 대한 가중치는 최대 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->까지 추가해야 합니다.
 
    * *[!UICONTROL Algorithmic]:* 지정된 목표를 기반으로 가장 효과적인 광고 변형을 더 자주 표시합니다.
 
@@ -54,7 +62,15 @@ ht-degree: 0%
 
 예약을 사용할 때는 경험 기간 동안 번들을 예약해야 합니다.
 
-1. 대상 노드 아래의 크리에이티브 리프 노드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**&#x200B;을(를) 클릭합니다.
+1. 경험을 [생성](experience-create-targeting.md) 또는 [편집](experience-edit-targeting.md)하는 동안 크리에이티브 최적화 설정을 여십시오.
+
+   1. 대상 노드 아래의 크리에이티브 리프 노드 위에 커서를 놓고 다음을 수행합니다.
+
+      * 기존 번들의 경우 **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**&#x200B;을(를) 클릭합니다.
+
+      * 새 번들의 경우 **[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]** 및 [번들 할당](experience-assign-creative-bundles.md)을 클릭합니다.
+
+1. **[!UICONTROL Creative Optimization]** 탭을 클릭합니다.
 
 1. **[!UICONTROL Schedule]** 사용
 
@@ -62,11 +78,11 @@ ht-degree: 0%
 
    1. 왼쪽 열에서 첫 번째 예약에 추가할 각 Creative 번들 옆의 확인란을 선택합니다.
 
-   1. 일정의 시작 및 종료 날짜를 지정합니다.
+   1. 일정의 시작 일자 및 시작 시간과 종료 일자 및 종료 시간을 지정합니다.
 
    1. 크리에이티브 순환 유형을 선택합니다.
 
-      * *[!UICONTROL Weighted]:* 각 번들의 크리에이티브를 상대 가중치에 따라 수동으로 회전합니다. 각 번들의 가중치를 백분율로 입력합니다. 선택한 모든 번들에 대한 가중치는 최대 100까지 추가해야 합니다.
+      * *[!UICONTROL Weighted]:* 각 번들의 크리에이티브를 상대 가중치에 따라 수동으로 회전합니다. 각 번들의 가중치를 백분율로 입력합니다. 일정에 있는 모든 번들에 동일한 가중치를 적용하려면 (![동일한 가중치 적용](/help/creative/assets/apply-equal-weight.png "동일한 가중치 적용"))을 클릭합니다. 선택한 모든 번들에 대한 가중치는 최대 100까지 추가해야 합니다.
 
       * *[!UICONTROL Algorithmic]:* 지정된 최적화 목표에 따라 각 번들의 크리에이티브를 알고리즘 방식으로 회전합니다.
 

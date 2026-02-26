@@ -3,7 +3,7 @@ title: 의사 결정 트리 타깃팅 없이 경험 만들기
 description: 타깃팅 없이 광고 경험을 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -38,9 +38,9 @@ ht-degree: 0%
 
      광고 태그에 크리에이티브를 할당하고 경험 설정 내에서는 할당할 수 없습니다.
 
-   * [추적 URL 사용자 지정](experience-tracking-urls-no-targeting.md)
-
    * [크리에이티브 최적화 및 일정 사용자 지정](experience-optimization-scheduling-no-targeting.md).
+
+   * [추적 URL 사용자 지정](experience-tracking-urls-no-targeting.md)
 
 >[!MORELIKETHIS]
 >
