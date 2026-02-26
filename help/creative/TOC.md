@@ -2,11 +2,11 @@
 role: User
 user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
-breadcrumb-title: Creative 안내서
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+breadcrumb-title: 크리에이티브 안내서
+source-git-commit: 0f1355be9eab674970207afb03c56d2857ea24ae
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 0%
    + [Adobe Advertising Creative 정보](/help/creative/introduction/creative-about.md)
    + [데이터 보기 사용자 지정](/help/creative/introduction/customize-data-views.md)
    + [동적 광고용 워크플로우](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
+   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative 라이브러리 {#creative-libraries}
    + [크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)
    + [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)
@@ -58,8 +58,8 @@ ht-degree: 0%
             + [대상 노드 또는 크리에이티브 리프 노드 삭제](/help/creative/experiences/experience-target-node-delete.md)
          + Creative 번들 및 크리에이티브 {#bundles}
             + [최종 노드에 크리에이티브 번들 지정 및 지정 취소](/help/creative/experiences/experience-assign-creative-bundles.md)
-            + [크리에이티브용 추적 URL 사용자 지정](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [크리에이티브 최적화 및 일정 사용자 정의](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
+            + [크리에이티브용 추적 URL 사용자 지정](/help/creative/experiences/experience-tracking-urls-targeting.md)
    + 타깃팅이 없는 경험 {#experience-nontargeted}
       + [타깃팅하지 않고 경험 만들기](/help/creative/experiences/experience-create-no-targeting.md)
       + [타깃팅하지 않고 경험 편집](/help/creative/experiences/experience-edit-no-targeting.md)
@@ -67,8 +67,8 @@ ht-degree: 0%
       + 광고 태그 및 크리에이티브{#non-targeted-creatives}
          + [적용 가능한 광고 크기에 대한 광고 태그를 수동으로 만듭니다.](/help/creative/experiences/experience-tag-create-manually.md)
          + [타깃팅하지 않은 경험에 대해 광고 태그에 크리에이티브 할당](/help/creative/experiences/experience-tag-assign-creatives.md)
-         + [타깃팅하지 않고 경험에 대한 추적 URL 사용자 지정](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
          + [타깃팅하지 않고 경험에 대한 크리에이티브 최적화 및 예약 사용자 지정](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
+         + [타깃팅하지 않고 경험에 대한 추적 URL 사용자 지정](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
    + [경험 복제](/help/creative/experiences/experience-clone.md)
    + [경험 미리보기](/help/creative/experiences/experience-preview.md)
    + [비디오 광고 경험 태그에 대한 코드 변환 옵션 사용자 지정](/help/creative/experiences/experience-tag-video-transcoding.md)
@@ -93,4 +93,4 @@ ht-degree: 0%
 + [픽셀 재타겟팅](/help/creative/pixels/retargeting-pixel-manage.md)
 + [추적 URL에 사용 가능한 매크로](/help/creative/creative-macros.md)
 + [도움말 보기](/help/creative/get-help.md)
-+ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko){target="_blank"}
++ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
