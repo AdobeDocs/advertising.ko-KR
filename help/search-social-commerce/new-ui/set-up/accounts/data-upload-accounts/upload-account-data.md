@@ -113,7 +113,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 1. (조직당 한 번) 로컬 AWS 환경을 설정합니다.
 
-   1. [!DNL AWS Command Line Interface]https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html[ 위치에서 ](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)&#x200B;(AWS CLI)을 다운로드하여 설치하십시오.
+   1. [!DNL AWS Command Line Interface]https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html[&#x200B; 위치에서 &#x200B;](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)&#x200B;(AWS CLI)을 다운로드하여 설치하십시오.
 
    1. AWS 자격 증명을 구성합니다.
 
@@ -143,7 +143,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 1. 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Upload Logs]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 업로드된 파일의 데이터를 다운로드하려면 ![ 열의 ](/help/search-social-commerce/assets/download.png "다운로드")다운로드[!UICONTROL Download]를 클릭하고 브라우저의 일반적인 절차에 따라 파일을 다운로드합니다.
+1. (선택 사항) 업로드된 파일의 데이터를 다운로드하려면 ![&#x200B; 열의 &#x200B;](/help/search-social-commerce/assets/download.png "다운로드")다운로드[!UICONTROL Download]를 클릭하고 브라우저의 일반적인 절차에 따라 파일을 다운로드합니다.
 
 ## 필수 데이터
 
