@@ -3,9 +3,9 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: bd85b4451624e14c95157c84537fdfb53662773f
+source-git-commit: c318c29e78f33c665380e5e5ac0b58a653f8987a
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2933'
 ht-degree: 0%
 
 ---
@@ -194,6 +194,19 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | [!UICONTROL Non-billable Spend (Media)], [!UICONTROL Non-billable Spend (Data)] 및 [!UICONTROL Non-billable Spend (Other)]의 합계입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | 기타 수수료에 대한 1000회 노출당 평균 순 비용, <code>[!UICONTROL Net Spend (Other)]/[!UICONTROL Impressions] x 1000으로 계산됨</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other Spend] | 기타 서비스 요금(타사 인증 파트너, 광고 서비스 등)의 총 순 비용. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Clicks] | 총 클릭수입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL CTR] | 클릭수를 노출수로 나눈 비율입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagements] | 제공된 광고의 상호 작용 수입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagement Rate] | 노출 횟수로 나눈 제공된 광고의 상호 작용 백분율입니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Impressions] | 총 노출 횟수. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Media Match Rate] | 크리에이티브가 의도한 미디어/인벤토리 또는 대상과 성공적으로 일치한 노출 횟수(또는 이벤트) 점유율. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Clicks] | 특정 제품에 귀속된 총 클릭 수입니다. 광고 크리에이티브에 여러 제품(예: 슬라이드 광고)이 표시되고 제품별로 보고하는 경우에 사용합니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversions] | 특정 제품에 귀속된 총 전환 수입니다. 광고 크리에이티브에 여러 제품(예: 슬라이드 광고)이 표시되고 제품별로 보고하는 경우에 사용합니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversion Rate] | [!UICONTROL Product Conversions]을(를) [!UICONTROL Product Impressions]&#x200B;(으)로 나눈 값이 특정 제품에 속합니다. 광고 크리에이티브에 여러 제품(예: 슬라이드 광고)이 표시되고 제품별로 보고하는 경우에 사용합니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product CTR] | [!UICONTROL Product Clicks]을(를) [!UICONTROL Product Impressions]&#x200B;(으)로 나눈 값이 특정 제품에 속합니다. 광고 크리에이티브에 여러 제품(예: 슬라이드 광고)이 표시되고 제품별로 보고하는 경우에 사용합니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Impressions] | 특정 제품에 기여한 총 노출 횟수입니다. 광고 크리에이티브에 여러 제품(예: 슬라이드 광고)이 표시되고 제품별로 보고하는 경우에 사용합니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Revenue] | 특정 제품에 귀속되는 총 매출액. 광고 크리에이티브에 여러 제품(예: 슬라이드 광고)이 표시되고 제품별로 보고하는 경우에 사용합니다. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Revenue] | 총 매출액. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | 광고 전체를 시청한 보기 횟수의 비율입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | 광고 전체를 시청한 보기 수입니다. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | 광고 전체를 시청한 볼 수 있는 노출 횟수의 백분율입니다. |
