@@ -3,9 +3,9 @@ title: 동적 크리에이티브 설정
 description: 동적 크리에이티브에 대한 설정을 참조하십시오.
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 164ee92f85c0e649dc2bd6c0224a531eb72d1962
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** 광고를 만들 크리에이티브 라이브러리입니다. [!UICONTROL Creatives] > [!UICONTROL Creative Libraries] 내에서 광고를 만드는 경우 라이브러리 이름이 이미 선택되고 읽기 전용입니다.
 
-**[!UICONTROL Ad Template Size]:**(동적 디스플레이 광고 전용) 광고를 만들 광고 템플릿의 [광고 차원](/help/creative/creative-libraries/creative-sizes.md)입니다. 먼저 특정 [!UICONTROL Ad Template]을(를) 선택하면 이 값이 자동으로 선택됩니다.
-
 ## 광고 템플릿
 
 **[!UICONTROL Ad Template]:** 광고를 만들 광고 템플릿입니다. 기존 광고 템플릿을 선택하거나 새 광고 템플릿을 업로드하고 템플릿 유형(*정적* 또는 *동적*)을 선택하십시오. 템플릿은 ZIP 형식이어야 하며 다음 항목을 포함해야 합니다. <!-- Need to add more specs for templates -->
@@ -40,13 +38,13 @@ ht-degree: 0%
 
 계속하려면 **[!UICONTROL Select Ad Template]**&#x200B;을(를) 클릭하십시오.
 
+**[!UICONTROL Size]:**(동적 디스플레이 광고 전용, 읽기 전용) 광고를 만드는 데 사용되는 선택한 광고 템플릿에 대한 [광고 차원](/help/creative/creative-libraries/creative-sizes.md)입니다.
+
 **[!UICONTROL Card Count (Max 50)]:**(광고만 표시) 회전판에 표시할 제품 수입니다.
 
 **[!UICONTROL Duration]:**(비디오 광고 전용, 읽기 전용) 선택한 광고 템플릿에서 파생된 비디오 기간입니다. 각 비디오의 재생 시간은 1~90초 사이여야 합니다.
 
 ## 카탈로그
-
-**[!UICONTROL Template]:** 광고를 만드는 데 사용할 피드 템플릿입니다.
 
 **\[Catalogs\]**: 광고를 생성할 하나 이상의 카탈로그. 기존 카탈로그를 선택하거나 기존 피드 템플릿을 다운로드하고 새 카탈로그를 만들어 업로드하여 새 카탈로그를 만드십시오. **[!UICONTROL Select Catalog]**&#x200B;을(를) 클릭합니다.
 
