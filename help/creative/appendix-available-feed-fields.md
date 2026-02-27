@@ -2,9 +2,10 @@
 title: 동적 광고 피드 파일에 사용 가능한 필드
 description: 동적 광고를 만드는 데 사용하는 피드 파일에 포함할 수 있는 필드에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: 67ee38860ac5cb7e9340f8e9d4667353e509b1ec
+exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
+source-git-commit: 5bf0474f49160775d31dff0d434ba1e069f27959
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -39,14 +40,37 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 
 | 필드 이름 | 데이터 유형 | 필수? |
 |------------|-----------|-----------|
-| PART_NUM | varchar(64) | 예 |
-| PRODUCT_이름 | 텍스트 | 아니요 |
-| PRODUCT_URL | 텍스트 | 아니요 |
-| 가격 | 십진수(10,2) | 아니요 |
+| AD_SIZE | varchar(32) | 아니요 |
+| ADDITIONAL_PRICE_1 | 십진수(10,2) | 아니요 |
+| ADDITIONAL_PRICE_2 | 십진수(10,2) | 아니요 |
+| ADDITIONAL_PRICE_3 | 십진수(10,2) | 아니요 |
+| AREA_코드 | 텍스트 | 아니요 |
+| AUDIENCE_SEGMENT | 텍스트 | 아니요 |
+| AUDIO_1 | varchar(1024) | 아니요 |
+| AUDIO_2 | varchar(1024) | 아니요 |
+| 오디오_3 | varchar(1024) | 아니요 |
+| AUDIO_4 | varchar(1024) | 아니요 |
+| AUDIO_5 | varchar(1024) | 아니요 |
+| 도시 | 텍스트 | 아니요 |
+| 국가 | 텍스트 | 아니요 |
+| CREATIVE_ATTRIBUTE_1 | varchar(256) | 아니요 |
+| CREATIVE_ATTRIBUTE_2 | varchar(256) | 아니요 |
+| CREATIVE_ATTRIBUTE_3 | varchar(256) | 아니요 |
+| CREATIVE_ATTRIBUTE_4 | varchar(256) | 아니요 |
+| CREATIVE_ATTRIBUTE_5 | varchar(256) | 아니요 |
+| CREATIVE_ATTRIBUTE_6 | varchar(256) | 아니요 |
+| CREATIVE_ATTRIBUTE_7 | varchar(256) | 아니요 |
+| CREATIVE_ATTRIBUTE_8 | varchar(256) | 아니요 |
+| CREATIVE_ATTRIBUTE_9 | varchar(256) | 아니요 |
+| CREATIVE_ATTRIBUTE_10 | varchar(256) | 아니요 |
+| DATAPASS_FILTER_1 | 텍스트 | 아니요 |
+| DATAPASS_FILTER_2 | 텍스트 | 아니요 |
+| DATAPASS_FILTER_3 | 텍스트 | 아니요 |
+| DATAPASS_FILTER_4 | 텍스트 | 아니요 |
+| DATAPASS_FILTER_5 | 텍스트 | 아니요 |
 | DISCOUNT_PRICE | 십진수(10,2) | 아니요 |
+| DMA | 텍스트 | 아니요 |
 | 이미지 | varchar(1024) | 아니요 |
-| IMAGE_높이 | int | 아니요 |
-| IMAGE_너비 | int | 아니요 |
 | 이미지_1 | varchar(1024) | 아니요 |
 | 이미지 2 | varchar(1024) | 아니요 |
 | 이미지_3 | varchar(1024) | 아니요 |
@@ -57,6 +81,21 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 | 이미지_8 | varchar(1024) | 아니요 |
 | IMAGE_9 | varchar(1024) | 아니요 |
 | 이미지_10 | varchar(1024) | 아니요 |
+| IMAGE_높이 | int | 아니요 |
+| IMAGE_너비 | int | 아니요 |
+| IS_DEFAULT | enum | 아니요 |
+| 언어 | 텍스트 | 아니요 |
+| PART_NUM | varchar(64) | 예 |
+| 가격 | 십진수(10,2) | 아니요 |
+| PRODUCT_이름 | 텍스트 | 아니요 |
+| PRODUCT_URL | 텍스트 | 아니요 |
+| PROFILE_FILTER_1 | 텍스트 | 아니요 |
+| PROFILE_FILTER_2 | 텍스트 | 아니요 |
+| PROFILE_FILTER_3 | 텍스트 | 아니요 |
+| PROFILE_FILTER_4 | 텍스트 | 아니요 |
+| PROFILE_필터_5 | 텍스트 | 아니요 |
+| 순위 | int | 아니요 |
+| 시/도 | 텍스트 | 아니요 |
 | TEXT_1 | 텍스트 | 아니요 |
 | TEXT_2 | 텍스트 | 아니요 |
 | TEXT_3 | 텍스트 | 아니요 |
@@ -72,39 +111,12 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 | TEXT_13 | 텍스트 | 아니요 |
 | TEXT_14 | 텍스트 | 아니요 |
 | TEXT_15 | 텍스트 | 아니요 |
-| ADDITIONAL_PRICE_1 | 십진수(10,2) | 아니요 |
-| ADDITIONAL_PRICE_2 | 십진수(10,2) | 아니요 |
-| ADDITIONAL_PRICE_3 | 십진수(10,2) | 아니요 |
-| AD_SIZE | varchar(32) | 아니요 |
-| 순위 | int | 아니요 |
-| 국가 | 텍스트 | 아니요 |
-| 시/도 | 텍스트 | 아니요 |
-| 도시 | 텍스트 | 아니요 |
+| VIDEO_1 | varchar(1024) | 아니요 |
+| VIDEO_2 | varchar(1024) | 아니요 |
+| 비디오3 | varchar(1024) | 아니요 |
+| VIDEO_4 | varchar(1024) | 아니요 |
+| VIDEO_5 | varchar(1024) | 아니요 |
 | ZIP | 텍스트 | 아니요 |
-| DMA | 텍스트 | 아니요 |
-| PROFILE_FILTER_1 | 텍스트 | 아니요 |
-| PROFILE_FILTER_2 | 텍스트 | 아니요 |
-| PROFILE_FILTER_3 | 텍스트 | 아니요 |
-| PROFILE_FILTER_4 | 텍스트 | 아니요 |
-| PROFILE_필터_5 | 텍스트 | 아니요 |
-| DATAPASS_FILTER_1 | 텍스트 | 아니요 |
-| DATAPASS_FILTER_2 | 텍스트 | 아니요 |
-| DATAPASS_FILTER_3 | 텍스트 | 아니요 |
-| DATAPASS_FILTER_4 | 텍스트 | 아니요 |
-| DATAPASS_FILTER_5 | 텍스트 | 아니요 |
-| AUDIENCE_SEGMENT | 텍스트 | 아니요 |
-| 언어 | 텍스트 | 아니요 |
-| CREATIVE_ATTRIBUTE_1 | varchar(256) | 아니요 |
-| CREATIVE_ATTRIBUTE_2 | varchar(256) | 아니요 |
-| CREATIVE_ATTRIBUTE_3 | varchar(256) | 아니요 |
-| CREATIVE_ATTRIBUTE_4 | varchar(256) | 아니요 |
-| CREATIVE_ATTRIBUTE_5 | varchar(256) | 아니요 |
-| CREATIVE_ATTRIBUTE_6 | varchar(256) | 아니요 |
-| CREATIVE_ATTRIBUTE_7 | varchar(256) | 아니요 |
-| CREATIVE_ATTRIBUTE_8 | varchar(256) | 아니요 |
-| CREATIVE_ATTRIBUTE_9 | varchar(256) | 아니요 |
-| CREATIVE_ATTRIBUTE_10 | varchar(256) | 아니요 |
-| IS_DEFAULT | enum | 아니요 |
 
 >[!MORELIKETHIS]
 >
