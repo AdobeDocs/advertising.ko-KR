@@ -3,9 +3,9 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
+source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,11 @@ ht-degree: 0%
 
 * **[!UICONTROL Target]** 하위 메뉴:
 
-   * **[!UICONTROL Audience]**: 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기를 엽니다.
+   * **[!UICONTROL Audience]**: 광고주의 기존 대상을 모두 표시하는 새 [!UICONTROL Audiences] 보기를 엽니다. 대상자를 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
-   * **[!UICONTROL Keywords]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
+   * **[!UICONTROL Keywords]** 광고주의 기존 키워드와 부정적 키워드를 보여 주는 새 [!UICONTROL Keywords] 보기를 엽니다. 선택한 키워드에 대한 제한 할당을 관리할 수 있습니다.
+
+     키워드와 부정적 키워드를 만들고, 편집하고, 삭제하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
    * **[!UICONTROL Placements]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
 
