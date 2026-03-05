@@ -3,9 +3,9 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a3963ef31025caa2cebc83a99866862000838455
+source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,9 @@ ht-degree: 0%
 
      키워드와 부정적 키워드를 만들고, 편집하고, 삭제하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
-   * **[!UICONTROL Placements]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
+   * **[!UICONTROL Placements]** 광고주에 대한 기존 배치 및 부정적인 배치를 보여 주는 새 [!UICONTROL Placements] 보기를 엽니다. 선택한 배치에 대한 제한 지정을 관리할 수 있습니다.
+
+     배치 및 부정적인 배치를 만들고, 편집하고, 삭제하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
 * **[!UICONTROL Assets]** 하위 메뉴:
 
