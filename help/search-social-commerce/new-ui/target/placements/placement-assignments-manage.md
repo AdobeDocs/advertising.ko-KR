@@ -1,17 +1,16 @@
 ---
-title: 캠페인에 대한 제한 할당 관리
-description: 캠페인에 제한 사항을 할당하는 방법을 알아봅니다.
+title: 배치에 대한 제한 할당 관리
+description: 배치에 제약 조건을 할당하는 방법을 알아봅니다.
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
 source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
 
-# (새 UI) 캠페인에 대한 제한 할당 관리
+# (새 UI) 배치에 대한 제한 할당 관리
 
 *Beta 기능*
 
@@ -26,13 +25,13 @@ ht-degree: 0%
 >* 나중에 광고의 키워드나 광고 사본을 편집하여 새 키워드나 광고를 만들 경우 새 엔티티에 제한이 할당되지 않습니다.
 >* 활성 제한은 최적화된 레거시 키워드 수준 포트폴리오에서 할당된 입찰 단위에 대해서만 입찰을 제한합니다. 활성 포트폴리오에 있거나, 하이브리드 포트폴리오에 있거나, 포트폴리오에 없는 입찰 단위에 대해서는 무시됩니다.
 
-## 새 [!UICONTROL Campaigns] 보기에서 선택한 캠페인에 제한 할당
+## 새 [!UICONTROL Placements] 보기에서 선택한 배치에 제한 할당
 
-하나 이상의 캠페인에 단일 제한을 할당할 수 있습니다.
+하나 이상의 배치에 단일 제한을 지정할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Target]>[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
 
-1. 단일 제한을 할당할 각 캠페인 옆의 확인란을 선택합니다.
+1. **[!UICONTROL Placements]** 탭에서 단일 제약 조건을 할당할 각 배치 옆의 확인란을 선택합니다.
 
 1. 일괄 작업 도구 모음에서 **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**&#x200B;을(를) 클릭합니다.
 
@@ -60,11 +59,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-## 새 [!UICONTROL Campaigns] 보기에서 선택한 캠페인에서 제한 할당 해제
+## 새 [!UICONTROL Placements] 보기에서 선택한 배치에서 제약 조건 할당 해제
 
-1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Target]>[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
 
-1. 제한을 할당 해제할 각 캠페인 옆의 확인란을 선택합니다.
+1. **[!UICONTROL Placements]** 탭에서 제약 조건 할당을 취소할 각 배치 옆의 확인란을 선택합니다.
 
 1. 일괄 작업 도구 모음에서 **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**&#x200B;을(를) 클릭합니다.
 
@@ -88,7 +87,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
+>* [캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [광고 그룹에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [광고에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
 >* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
->* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)

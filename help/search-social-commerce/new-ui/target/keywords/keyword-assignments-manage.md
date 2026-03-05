@@ -3,9 +3,9 @@ title: 키워드에 대한 제한 할당 관리
 description: 키워드에 제약 조건을 할당하는 방법을 알아봅니다.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: a3963ef31025caa2cebc83a99866862000838455
+source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-## 새 [!UICONTROL Ads] 보기에서 선택한 캠페인에서 제한 할당 해제
+## 새 [!UICONTROL Keywords] 보기에서 선택한 캠페인에서 제한 할당 해제
 
 1. 메인 메뉴에서 **[!UICONTROL Target]>[!UICONTROL Keywords]**&#x200B;을(를) 클릭합니다.
 
@@ -90,3 +90,4 @@ ht-degree: 0%
 >* [캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [광고 그룹에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [광고에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+>* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
