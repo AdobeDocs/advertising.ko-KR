@@ -3,9 +3,9 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Conversions]** 새 사이트를 종료하고 기존 [!UICONTROL Admin] > [!UICONTROL Conversions] 보기를 엽니다.
 
-   * **[!UICONTROL Conversion Value Rules]** 캠페인 수준 및 계정 수준 전환 값 규칙의 읽기 전용 보기를 엽니다. 전환 값 규칙을 관리하려면 기존 [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] 보기를 사용합니다.
+   * **[!UICONTROL Conversion Value Rules]** 캠페인 수준 및 계정 수준 전환 값 규칙의 읽기 전용 보기를 엽니다. 전환 값 규칙을 관리하려면 기존 [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
    * **[!UICONTROL Constraints]** 새 사이트를 종료하고 기존 [!UICONTROL Optimization] > [!UICONTROL Constraints] 보기를 엽니다.
 
@@ -62,13 +62,15 @@ ht-degree: 0%
 
    * **[!UICONTROL Campaigns]:** 광고주의 모든 캠페인을 표시하는 새 [!UICONTROL Campaigns] 보기를 엽니다. 포트폴리오에 캠페인을 할당하고 선택한 캠페인에 대한 제한 할당을 관리할 수 있습니다. 데이터 테이블 내용에 대한 보고서를 다운로드할 수도 있습니다. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     캠페인을 만들고, 편집하고, 삭제하려면 기본 메뉴에서 **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;을(를) 클릭하거나 [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)를 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+     캠페인을 만들고, 편집하고, 삭제하려면 [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)를 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
    * **[!UICONTROL Ad Groups]:** 광고주의 모든 광고 그룹을 표시하는 새 [!UICONTROL Ad Groups] 보기를 엽니다. 선택한 광고 그룹에 대한 제한 할당을 관리할 수 있습니다. 데이터 테이블 내용에 대한 보고서를 다운로드할 수도 있습니다.
 
-     캠페인을 만들고, 편집하고, 삭제하려면 기본 메뉴에서 **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]**&#x200B;을(를) 클릭하거나 [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)를 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+     캠페인을 만들고, 편집하고, 삭제하려면 [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)를 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
-   * **[!UICONTROL Ads]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
+   * **[!UICONTROL Ads]** 광고주의 모든 광고를 표시하는 새 [!UICONTROL Ads] 보기를 엽니다. 선택한 광고에 대한 제한 할당을 관리할 수 있습니다.
+
+     광고를 만들고, 편집하고, 삭제하려면 [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)를 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
 * **[!UICONTROL Reports]** 하위 메뉴:
 
@@ -94,7 +96,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Creatives]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
 
-   * **[!UICONTROL Extensions]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
+   * **[!UICONTROL Extensions]** 기존 광고 확장의 읽기 전용 보기를 엽니다. 확장을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
    * **[!UICONTROL Shopping]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.<!-- Should this go to Campaigns > Products? -->
 
