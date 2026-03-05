@@ -3,9 +3,9 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 3b4d92d2f6fe8b2ef57dfd5ce833772c37b039f8
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Conversions]** 새 사이트를 종료하고 기존 [!UICONTROL Admin] > [!UICONTROL Conversions] 보기를 엽니다.
 
-   * **[!UICONTROL Conversion Value Rules]** 새 사이트를 종료하고 기존 [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] 보기를 엽니다.
+   * **[!UICONTROL Conversion Value Rules]** 캠페인 수준 및 계정 수준 전환 값 규칙의 읽기 전용 보기를 엽니다. 전환 값 규칙을 관리하려면 기존 [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] 보기를 사용합니다.
 
    * **[!UICONTROL Constraints]** 새 사이트를 종료하고 기존 [!UICONTROL Optimization] > [!UICONTROL Constraints] 보기를 엽니다.
 
