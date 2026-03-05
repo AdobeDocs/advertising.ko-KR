@@ -90,4 +90,4 @@ ht-degree: 0%
 >
 >* [광고 그룹에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [광고에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
-[키워드에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>[키워드에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)

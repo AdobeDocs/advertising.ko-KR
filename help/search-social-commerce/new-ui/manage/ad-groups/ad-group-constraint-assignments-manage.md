@@ -83,4 +83,4 @@ ht-degree: 0%
 >
 >* [캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [광고에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
-[키워드에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>[키워드에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
