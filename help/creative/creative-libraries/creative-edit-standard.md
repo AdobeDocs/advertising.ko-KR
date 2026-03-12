@@ -3,9 +3,9 @@ title: Creative Library에서 표준 크리에이티브 편집
 description: Creative Library에서 표준(비동적) 크리에이티브의 설정을 변경하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -63,3 +63,4 @@ ht-degree: 0%
 >* [Creative 라이브러리에 표준 크리에이티브 추가](creative-add-standard.md)
 >* [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [크리에이티브 미리 보기](/help/creative/creative-libraries/creative-preview.md)
+>* [크리에이티브에 대한 변경 로그 보기](/help/creative/creative-libraries/creative-view-change-log.md)

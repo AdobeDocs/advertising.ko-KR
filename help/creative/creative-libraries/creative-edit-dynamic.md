@@ -3,9 +3,9 @@ title: 크리에이티브 라이브러리에서 동적 크리에이티브 편집
 description: 크리에이티브 라이브러리에서 동적 크리에이티브를 편집하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -58,4 +58,5 @@ ht-degree: 0%
 >
 >* [동적 크리에이티브 설정](creative-settings-dynamic.md)
 >* [Creative 라이브러리에 동적 크리에이티브 추가](creative-add-dynamic.md)
+>* [크리에이티브에 대한 변경 로그 보기](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [동적 광고용 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)
