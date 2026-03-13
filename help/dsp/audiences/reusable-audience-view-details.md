@@ -3,9 +3,9 @@ title: 재사용 가능한 대상에 대한 세부 정보 보기
 description: 재사용 가능한 대상의 구성 및 대상 크기를 보는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
-source-git-commit: 5f96a9b1097137a337733be4f1df9bd6b9670626
+source-git-commit: ddd55586ed895962b8f6da0390a3d76fe43ca1ca
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. 대상자 행 위에 커서를 놓고 **[!UICONTROL View Details]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 장치 유형(쿠키 기반 ID의 경우) 및 유니버설 ID 유형별로 활성 또는 총 대상 구성원 수를 보려면 **[!UICONTROL Active]** 또는 **[!UICONTROL Total]** 대상 크기 옆에 있는 ![장치 분류](/help/dsp/assets/device-breakdown.png)를 클릭하십시오.
+1. (선택 사항) 장치 유형(쿠키 기반 ID의 경우) 및 유니버설 ID 유형별로 활성 대상 구성원 수를 보려면 대상 크기 옆에 있는 ![장치 분류](/help/dsp/assets/device-breakdown.png)를 클릭하십시오.
 
 1. (선택 사항) 대상 설정을 편집하려면 **[!UICONTROL Edit Audience]** 및 [대상 이름 및 구성 편집](reusable-audience-edit.md)을 클릭합니다.
 
