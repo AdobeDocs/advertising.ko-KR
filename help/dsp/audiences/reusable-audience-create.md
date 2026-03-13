@@ -3,9 +3,9 @@ title: 재사용 가능한 대상 만들기
 description: 대상 세그먼트 및 기타 저장된 대상으로 구성된 재사용 가능한 대상을 만드는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: e2d040409bcf18ca3c7906e8f3d5d3dc6633d2d7
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ ht-degree: 0%
    >대상을 만들면 자세한 [대상 크기 데이터](audience-about.md)가 오른쪽 패널에서 업데이트됩니다
 
    * [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] 및 [!UICONTROL Saved Audiences] 탭](audience-settings.md)에서 사용 가능한 세그먼트를 사용하여 수동으로 세그먼트 논리를 만들려면 다음을 수행하십시오.
+
+      * (선택 사항) 세그먼트 이름, 설명 또는 경로를 검색합니다.
+
+        검색 결과에는 사용하는 정확한 용어에 따라 세그먼트가 포함됩니다. 여러 용어를 입력할 때 세그먼트에 대한 모든 용어를 찾아야 합니다.
 
       * 첫 번째 세그먼트를 추가하려면 왼쪽 패널에서 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
 
