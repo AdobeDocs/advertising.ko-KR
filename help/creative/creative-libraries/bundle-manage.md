@@ -3,9 +3,9 @@ title: Creative 번들 관리
 description: 크리에이티브 그룹을 관리하고 사용하는 방법에 대해 알아봅니다.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -269,6 +269,28 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 1.
 
  -->
+
+## 번들에 대한 변경 로그 보기
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 라이브러리 이름을 클릭합니다.
+
+1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
+
+1. 번들을 선택합니다.
+
+   * 카드 보기에서 번들 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Change Log]**&#x200B;을(를) 클릭합니다.
+
+   * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]** > **[!UICONTROL Change Log]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 보고된 시간 범위를 변경합니다.
+
+1. (선택 사항) 메모를 추가하려면 행 위에 커서를 놓고 **[!UICONTROL Add Notes]**&#x200B;을(를) 클릭합니다. 메모를 입력하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 추가된 메모를 포함하여 변경 로그 항목을 보려면 행 위에 커서를 놓고 **[!UICONTROL View Details]**&#x200B;을(를) 클릭합니다.
 
 ## 번들 삭제
 

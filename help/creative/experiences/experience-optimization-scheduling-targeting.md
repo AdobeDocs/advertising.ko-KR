@@ -3,9 +3,9 @@ title: 경험을 위한 크리에이티브 최적화 및 일정 사용자 정의
 description: 타겟팅된 경험에 대한 최적화 및 광고 예약을 구성하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -130,3 +130,4 @@ ht-degree: 0%
 >
 >* [경험의 최종 노드에 Creative 번들 할당 및 할당 해제](/help/creative/experiences/experience-assign-creative-bundles.md)
 >* [광고 추적 URL 사용자 지정](/help/creative/experiences/experience-tracking-urls-targeting.md)
+>* [경험에 대한 변경 로그 보기](/help/creative/experiences/experience-view-change-log.md)

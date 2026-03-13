@@ -3,9 +3,9 @@ title: 의사 결정 트리 타겟팅으로 경험 편집
 description: 의사 결정 트리를 사용하여 타깃팅된 광고 경험에 대한 설정을 편집하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,4 @@ ht-degree: 0%
 >* [크리에이티브 최적화 및 일정 사용자 지정](experience-optimization-scheduling-targeting.md)
 >* [라이브 경험에 대한 광고 경험 태그 내보내기 및 구현](/help/creative/experiences/experience-tag-export.md)
 >* [의사 결정 트리 타깃팅으로 경험 만들기](experience-create-targeting.md)
+>* [경험에 대한 변경 로그 보기](/help/creative/experiences/experience-view-change-log.md)

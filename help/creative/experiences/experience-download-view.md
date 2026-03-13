@@ -3,9 +3,9 @@ title: '[!UICONTROL Experiences] 보기에서 데이터 다운로드'
 description: '[!UICONTROL Experiences] 보기에서 메타데이터를 내보내는 방법을 알아봅니다.'
 feature: Creative Experiences
 exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >* [Advertising Creative의 경험 정보](/help/creative/experiences/experience-about.md)
+>* [경험에 대한 변경 로그 보기](/help/creative/experiences/experience-view-change-log.md)

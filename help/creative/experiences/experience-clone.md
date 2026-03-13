@@ -3,9 +3,9 @@ title: 경험 복제
 description: 기존 경험을 복제하여 경험을 만드는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 8c305732-f2ff-4a9d-80ad-e9e0f6484ba2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -28,3 +28,4 @@ ht-degree: 0%
 >
 >* [의사 결정 트리 타깃팅으로 경험 만들기](experience-create-targeting.md)
 >* [의사 결정 트리 타깃팅 없이 경험 만들기](experience-create-no-targeting.md)
+>* [경험에 대한 변경 로그 보기](/help/creative/experiences/experience-view-change-log.md)
