@@ -4,9 +4,9 @@ description: 목표를 편집하는 방법을 알아봅니다.
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: b2363781-d767-4a4a-9137-17834088721e
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -36,3 +36,4 @@ ht-degree: 0%
 >* [목표 삭제](objective-delete.md)
 >* [목표에 가중치 권장 사항 적용](objective-apply-weight-recommendations.md)
 >* [목표 설정](objective-settings.md)
+>* [목표에 대한 성능 데이터 다운로드](objective-download-performance-data.md)

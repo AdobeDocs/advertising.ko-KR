@@ -4,9 +4,9 @@ description: 목표를 만드는 방법을 알아봅니다.
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 21516197-d005-4703-8735-c789107dc3c4
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -39,3 +39,4 @@ Advertising DSP 패키지와 함께 사용하기 위해 앞에 &quot;`ADSP_`&quo
 >* [목표 편집](objective-edit.md)
 >* [목표에 가중치 권장 사항 적용](objective-apply-weight-recommendations.md)
 >* [목표 설정](objective-settings.md)
+>* [목표에 대한 성능 데이터 다운로드](objective-download-performance-data.md)
