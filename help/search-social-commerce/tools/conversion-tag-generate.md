@@ -1,24 +1,26 @@
 ---
-title: Adobe Advertising 전환 추적 태그 생성
+title: Adobe Advertising 전환 추적 태그 생성 및 구현
 description: Adobe Advertising 전환 태그를 만들어 전환 이벤트를 추적하는 방법에 대해 알아봅니다.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d92fc3fa1ce218788890c073df22afa336aa9ad1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising 전환 추적 태그 생성
+# Adobe Advertising 전환 추적 태그 생성 및 구현
 
 *Adobe Advertising 전환 추적만 있는 광고주*
 
-추적할 각 지표 세트에 대해 별도의 전환 태그를 생성하고 각 태그를 삽입할 웹 페이지 목록과 함께 광고주 또는 에이전시에 제공합니다.
+추적할 각 지표 세트에 대해 별도의 전환 태그를 만듭니다.
+
+## 검색, 소셜 및 Commerce 내에서 전환 추적 태그를 생성하고 구현합니다.
 
 >[!NOTE]
 >
->이 기능은 광고주의 웹 페이지에 이미지 태그 또는 [!DNL JavaScript] 태그를 추가하지 않습니다. 태그는 웹 페이지를 업데이트하기 위한 광고주의 일반적인 절차에 따라 추가해야 합니다.
+>이 기능은 광고주의 웹 페이지에 이미지 태그 또는 [!DNL JavaScript] 태그를 추가하지 않습니다. 각 태그를 삽입할 웹 페이지 목록을 광고주 또는 에이전시에 제공합니다. 태그는 웹 페이지를 업데이트하기 위한 광고주의 일반적인 절차에 따라 추가해야 합니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**&#x200B;을(를) 클릭합니다.
 
@@ -36,7 +38,7 @@ ht-degree: 0%
 >
 >새 전환 태그의 각 지표는 구현되지 않았거나 해당 웹 페이지가 클릭을 받지 않은 경우에도 [!UICONTROL Admin] > [!UICONTROL Conversions]에 자동으로 나열됩니다. 이 동작은 수동으로 만든 태그 또는 다른 곳에서 만든 태그의 동작 중 하나가 클릭될 때까지 [!UICONTROL Admin] > [!UICONTROL Conversions]에 나열되지 않는 것과 다릅니다. 그러나 모든 경우에 각 지표는 명시적으로 사용할 수 있도록 할 때까지 처음에는 포트폴리오 목표, 보고서 및 보기에서 제외됩니다. 그러나 포트폴리오 목표에 지표를 추가하기 전에 먼저 지표를 사용할 수 있도록 하고 보고서에 추가하여 클릭 수를 받는 시점을 확인하는 것을 고려하십시오.
 
-## Adobe Advertising 전환 태그 설정 {#conversion-tag-settings}
+### Adobe Advertising 전환 태그 설정 {#conversion-tag-settings}
 
 **[!UICONTROL Tag Type]:** 만들 태그의 형식:
 
@@ -48,11 +50,11 @@ ht-degree: 0%
 
 **[!UICONTROL Tag Properties]:** 최종 사용자가 전환 태그가 포함된 페이지를 볼 때 추적할 하나 이상의 전환 지표가 있습니다. 목록에 지표를 추가하려면 &quot;[!UICONTROL Add new property]&quot; 필드에 지표 이름을 입력하고 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
-여러 지표를 추적할 때 `ev_Property1=<Property1>&ev_Property2=<Property2>`과(와) 같은 태그의 앰퍼샌드(`&`)에 의해 연결됩니다.
+여러 지표를 추적할 때 `&`과(와) 같은 태그의 앰퍼샌드(`ev_Property1=<Property1>&ev_Property2=<Property2>`)에 의해 연결됩니다.
 
 >[!NOTE]
 >
->이 목록에 추가된 지표는 아무 곳에나 저장되지 않거나 [!UICONTROL Admin] 탭에서 클라이언트의 [!UICONTROL Conversions] 목록과 통합됩니다. 그러나 Adobe Advertising이 실제로 지표에 대한 데이터를 수집하면 지표가 클라이언트의 [!UICONTROL Conversions] 목록에 자동으로 추가됩니다. 이 오류는 전환 태그가 페이지에 구현되어 있고 최종 사용자가 해당 페이지를 여는 트랜잭션을 완료할 때 발생합니다.
+>이 목록에 추가된 지표는 아무 곳에나 저장되지 않거나 [!UICONTROL Conversions] 탭에서 클라이언트의 [!UICONTROL Admin] 목록과 통합됩니다. 그러나 Adobe Advertising이 실제로 지표에 대한 데이터를 수집하면 지표가 클라이언트의 [!UICONTROL Conversions] 목록에 자동으로 추가됩니다. 이 오류는 전환 태그가 페이지에 구현되어 있고 최종 사용자가 해당 페이지를 여는 트랜잭션을 완료할 때 발생합니다.
 
 **[!UICONTROL Include unique transaction IDs]:**(선택 사항) 태그에 트랜잭션 ID 속성(`ev_transid=<transid>`)이 포함되어 있습니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
@@ -71,6 +73,72 @@ ht-degree: 0%
 **[!UICONTROL JS Version]:**([!DNL JavaScript] 태그만) 만들 [!DNL JavaScript] 태그의 버전: *[!UICONTROL v2]*(기본값) 또는 *[!UICONTROL v3]*.
 
 Adobe Advertising 전환 및 페이지 보기 추적 태그에 대한 &quot;[FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)&quot;를 참조하십시오. 차이점에 대한 자세한 정보를 제공합니다.
+
+## Adobe Experience Platform 태그를 사용하여 전환 추적 태그 구현
+
+Adobe Experience Platform(이전의 Adobe Experience Platform Launch)의 태그를 사용하여 검색, 소셜 및 Commerce에 대한 전환 추적을 설정할 수 있습니다. 태그는 부가가치 기능으로 포함되어 Adobe Experience Cloud 고객이 사용할 수 있습니다.
+
+Experience Platform 사용자 인터페이스 또는 Experience Platform 데이터 수집 사용자 인터페이스에서 검색, 소셜 및 Commerce에 대한 전환 추적 태그를 구성하는 데 다음 작업이 필요합니다. 태그 구성에 대한 전체 정보와 지침은 &quot;[태그 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; 및 &quot;[빠른 시작 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;로 시작하는 Experience Platform 태그 안내서를 참조하십시오.
+
+>[!PREREQUISITES]
+>
+>필요한 태그 확장을 설치하려면 조직 관리자에게 `manage_properties` 권한을 포함한 UI의 데이터 수집 기능에 대한 액세스 권한을 요청하십시오.
+
+1. [데이터 수집 UI](https://experience.adobe.com/#/data-collection/)에서 Adobe Advertising [확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)을 설치하십시오.
+
+   1. 해당 속성에서 확장 카탈로그를 열고 **Adobe Advertising**&#x200B;을(를) 선택합니다.
+
+   1. 풀다운 메뉴에서 **SSC**(검색, 소셜 및 Commerce의 경우)를 선택합니다.
+
+   1. **SSC UserID** 필드에 조직의 Search, Social 및 Commerce 계정에 대한 숫자 사용자 ID를 입력합니다.
+
+      사용자 ID를 모르는 경우 Adobe 계정 팀에 문의하십시오.
+
+   1. **저장**&#x200B;을 클릭합니다.
+
+1. 검색, 소셜 및 Commerce 전환 태그를 트리거할 새 규칙(예: &quot;form_completes&quot;)을 만듭니다.
+
+   1. 이벤트 구성 섹션에서 다음을 수행합니다.
+
+      1. 다음 값을 선택합니다.
+
+         **확장:** `Core`
+
+         **이벤트 유형:** `Library Loaded (Page Top)`
+
+      1. **변경 내용 유지**&#x200B;를 클릭합니다.
+
+   1. 조건 구성 섹션에서 다음을 수행합니다.
+
+      1. 다음 값을 지정합니다.
+
+         **논리 유형:** `Regular`
+
+         **확장:** `Core`
+
+         **조건 유형:** `Path Without Query String`
+
+         **경로가 다음과 같은 경우 true를 반환합니다.** 전환을 추적해야 하는 경로입니다(예: `/form_complete`).
+
+      1. **변경 내용 유지**&#x200B;를 클릭합니다.
+
+   1. 작업 구성 섹션에서 다음을 수행합니다.
+
+      1. 다음 값을 지정합니다.
+
+         **확장:** `Adobe Advertising`
+
+         **작업 유형:** `AMO Measurement`
+
+         **전환 속성 이름:** 전환 속성의 이름입니다(예: `form_completes`).
+
+         **값:** 전환 속성의 숫자 값(예: `1` to track form_completes)이거나 기존 [데이터 요소](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)를 선택하십시오.
+
+      1. **변경 내용 유지**&#x200B;를 클릭합니다.
+
+   1. 규칙을 저장합니다.
+
+1. 변경 사항을 게시합니다.
 
 >[!MORELIKETHIS]
 >

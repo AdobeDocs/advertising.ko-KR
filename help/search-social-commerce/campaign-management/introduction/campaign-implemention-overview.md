@@ -3,18 +3,18 @@ title: 광고 네트워크 계정 및 캠페인 구현 개요
 description: 광고 네트워크 계정 설정, 동기화 및 관리와 관련된 작업에 대해 알아봅니다.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 6014f2dc349286d562f219db7e05279deb96e477
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
 # 광고 네트워크 계정 및 캠페인 구현 개요
 
-Adobe은 각 광고주와 함께 작동하여 광고 네트워크 계정 및 캠페인을 설정합니다. 여기에는 광고주의 계정에 연결하고 동기화하도록 검색, 소셜 및 Commerce 구성, 필요에 따라 새 캠페인 및 캠페인 구성 요소 만들기, 구성 요소 광고에 대한 추적 설정, 선택적 포트폴리오에 캠페인을 추가하여 검색, 소셜 및 Commerce이 광고에서 입찰을 최적화할 수 있도록 허용, 초기 비용, 클릭 및 매출 데이터 유효성 검사가 포함됩니다.
+Adobe은 각 광고주와 함께 광고 네트워크 계정 및 캠페인을 설정합니다. 여기에는 광고주의 계정에 연결하고 동기화하도록 검색, 소셜 및 Commerce 구성, 필요에 따라 새 캠페인 및 캠페인 구성 요소 만들기, 구성 요소 광고에 대한 추적 설정, 선택적 포트폴리오에 캠페인을 추가하여 검색, 소셜 및 Commerce이 광고에서 입찰을 최적화할 수 있도록 허용, 초기 비용, 클릭 및 매출 데이터 유효성 검사가 포함됩니다.
 
-캠페인이 활성화되고 선택적으로 포트폴리오에 추가되면 Adobe 계정 관리 팀, 에이전시 팀 또는 광고주(서비스 수준 계약의 약관에 따라)는 각 캠페인을 모니터링하고 광고주의 목표를 충족하기 위해 필요한 경우 관련 구성 요소 및 설정을 변경해야 합니다.
+캠페인이 활성화되고 선택적으로 포트폴리오에 추가되면 Adobe 계정 관리 팀, 에이전시 팀 또는 광고주(service level agreement의 약관에 따라 다름)는 각 캠페인을 모니터링하고 광고주의 목표를 충족하는 데 필요한 관련 구성 요소 및 설정을 변경해야 합니다.
 
 이 페이지에는 동기화된 계정에 대한 캠페인 구조를 설정하는 방법을 포함하여 모든 계정 유형에 대한 정보가 포함되어 있습니다. [!DNL Naver]에 대한 추적 전용 계정 설정에 대한 추가 지침은 &quot;[구현 [!DNL Naver] 추적 전용 계정](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)&quot;을 참조하세요.
 
@@ -50,9 +50,9 @@ Adobe은 각 광고주와 함께 작동하여 광고 네트워크 계정 및 캠
 
    1. ([!DNL Naver] 추적 전용 계정 전용) 데이터가 포함된 [일괄 시트 파일](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)을 업로드하여 [!DNL Naver]에 게시하지 않고 검색, 소셜 및 Commerce에서 기존 캠페인, 광고 그룹 및 키워드를 복제합니다.
 
-1. Adobe Advertising이 전환을 추적할 모든 광고에 대한 추적을 설정합니다.
+1. Adobe Advertising에서 전환을 추적할 모든 광고에 대한 추적을 설정합니다.
 
-   1. (Adobe Advertising 전환 추적 서비스를 사용하는 광고주) 필요한 경우 검색, 소셜 및 Commerce 클릭 추적 URL을 생성하고 업로드하여 광고에 대한 [클릭 추적을 설정](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)하고 선택적으로 키워드, 배치 및 광고 확장을 설정합니다.
+   1. (Adobe Advertising 전환 추적 서비스를 사용하는 광고주) 필요한 경우 검색, 소셜 및 Commerce 클릭 추적 URL을 생성하고 업로드하여 광고에 대해 [클릭 추적을 설정](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)하고 선택적으로 키워드, 배치 및 광고 확장에 대해 설정합니다.
 
       [!DNL Google Ads] 성과 최대 캠페인의 경우 [캠페인의 추적 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)에서 모든 추적을 설정하십시오.
 
@@ -60,13 +60,13 @@ Adobe은 각 광고주와 함께 작동하여 광고 네트워크 계정 및 캠
 
    1. 전환 추적을 설정합니다. 구현에 따라, 광고주의 웹 페이지에 전환 추적 태그를 추가하거나 광고주가 별도로 수집한 전환 데이터에 대해 일별 피드 드롭을 설정하는 작업이 여기에 포함될 수 있습니다.
 
-      Adobe Advertising 전환 추적 서비스를 사용하는 경우 Search, Social 및 Commerce 내에서 전환 추적 태그 [를 생성하거나](/help/search-social-commerce/tools/conversion-tag-generate.md) [Adobe Experience Platform 사용](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=ko)을 생성할 수 있습니다.
+      Adobe Advertising 전환 추적 서비스를 사용하는 경우 검색, 소셜 및 Commerce 내에서 [전환 추적 태그를 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)하거나 Adobe Experience Platform의 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html)&#x200B;(이전의 Adobe Experience Platform Launch)를 사용할 수 있습니다.
 
    1. 추적된 데이터의 유효성을 검사합니다.
 
    추적 설정에 대한 자세한 내용은 &quot;추적&quot; 장을 참조하십시오.
 
-1. (Adobe Analytics을 사용하는 광고주) 데이터를 교환할 수 있도록 [Adobe Advertising과 Analytics를 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko)합니다.
+1. (Adobe Analytics을 사용하는 광고주) 데이터를 교환할 수 있도록 [Adobe Advertising과 Analytics를 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)합니다.
 
 1. (Search, Social 및 Commerce에서 입찰, 캠페인 예산 및/또는 캠페인 입찰 전략 타겟을 최적화할 수 있도록 하려면. [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)만 해당) [포트폴리오에 캠페인을 할당](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
