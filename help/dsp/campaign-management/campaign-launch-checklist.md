@@ -1,16 +1,16 @@
 ---
-title: Campaign 시작 검사 목록
+title: Campaign 실행 검사 목록
 description: 캠페인을 시작하기 전에 수행해야 하는 작업에 대해 알아봅니다.
 feature: DSP Placements, DSP Ads
 exl-id: 9a8c2b3e-233e-4401-8311-daffde6cda68
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-# Campaign 시작 검사 목록
+# Campaign 실행 검사 목록
 
 ## 계정 자금 조달
 
@@ -32,4 +32,4 @@ ht-degree: 0%
 >
 >* [캠페인 설정](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
->* [성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [성과 캠페인 설정에 대한 모범 사례](/help/dsp/optimization/campaign-best-practices-performance.md)

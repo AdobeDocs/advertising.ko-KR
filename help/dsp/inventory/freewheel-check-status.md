@@ -3,14 +3,14 @@ title: ' [!DNL FreeWheel] PG 거래에 대한 광고 상태 확인'
 description: ' [!DNL Freewheel] 프로그램 보증 거래의 상태 광고를 찾는 방법에 대해 알아봅니다.'
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
 
 ---
 
-# 프로그램 보증 거래 [!DNL Freewheel]에 대한 광고 상태 확인
+# 프로그램 보증 거래 [!DNL Freewheel]개에 대한 광고 상태 확인
 
 [!DNL Freewheel]에 대한 광고 제출이 성공했는지 확인하십시오. 필요에 따라 광고를 다시 제출할 수 있습니다.
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    [!UICONTROL Submission Status] 열은 광고가 제출되고 승인되었는지 여부를 나타냅니다.
 
-   제출 실패의 경우 [!UICONTROL API] 응답 열은 오류를 나타냅니다. 실패한 제출에 대한 오류 코드의 전체 목록과 이를 수정하는 다음 단계는 &quot;[광고 제출에 대한 오류 코드 [!DNL FreeWheel] 2&rbrace;&quot;를 참조하십시오.](freewheel-error-codes.md)
+   제출 실패의 경우 [!UICONTROL API] 응답 열은 오류를 나타냅니다. 실패한 제출에 대한 오류 코드의 전체 목록과 이를 수정하는 다음 단계는 &quot;[광고 제출에 대한 오류 코드 [!DNL FreeWheel] 2}&quot;를 참조하십시오.](freewheel-error-codes.md)
 
 1. (선택 사항) 승인을 위해 광고를 다시 제출하려면 광고 행 위에 커서를 놓은 다음 **[!UICONTROL More]** > **[!UICONTROL Resubmit]**&#x200B;을(를) 클릭합니다.
 

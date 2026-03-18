@@ -2,7 +2,7 @@
 title: '[!UICONTROL Simple Ad Serving] 거래에 대한 이벤트 픽셀 보기'
 description: '[!UICONTROL Simple Ad Serving] 거래에 대한 이벤트 추적 픽셀 복사본을 가져오는 방법을 알아봅니다.'
 feature: DSP Simple Ad Serving
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%

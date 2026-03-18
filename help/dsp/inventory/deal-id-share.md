@@ -3,7 +3,7 @@ title: 비공개 거래에 대한 액세스 권한이 있는 계정 편집
 description: 서로 다른 계정과의 비공개 거래를 공유 및 중단하는 방법에 대해 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    1. **[!UICONTROL Share]**&#x200B;을(를) 클릭합니다.
 
-## 거래처와의 거래 ID 공유 중지
+## 계정과 거래 ID 공유 중지
 
 1. 메인 메뉴에서 **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**&#x200B;을(를) 클릭합니다.
 

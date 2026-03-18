@@ -3,7 +3,7 @@ title: 광고 사양
 description: 일반 및 게시자별 광고 사양을 참조하십시오.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 지원되는 광고 유형에 대한 사양
 
-## 비디오 광고(프리롤, CTV 및 유니버설 비디오)
+## 비디오 광고(프리롤, CTV 및 범용 비디오)
 
-### 지원되는 Screens
+### 지원되는 화면
 
 광고는 기본적으로 데스크탑, 모바일 및 연결된 TV 디바이스에서 제공됩니다. 장치 타깃팅을 사용하여 게재를 조정할 수 있습니다.
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] 및 [!DNL Sizmek]의 태그 시트를 사용할 수 있습니다. 지원되는 공급업체의 전체 목록에 대해서는 &quot;[인증된 광고 서비스 제공 파트너](certified-ad-servers.md)&quot;를 참조하십시오.
 
-### HD 비디오 Assets 요구 사항
+### HD 비디오 자산 요구 사항
 
 **비디오 태그 유형:** VPAID 2.0 JavaScript 또는 VAST(CTV). 모든 VPAID 광고 단위는 IAB(Advertising Bureau)에서 정의한 [VPAID 2.0 사양](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf)을 준수해야 합니다.
 
@@ -72,9 +72,9 @@ ht-degree: 0%
 
 * **Paramount:** Paramount의 [광고 사양](https://www.paramount.com/digital-ads)을 참조하십시오.
 
-## 디스플레이 광고
+## 광고 표시
 
-### 지원되는 Screens
+### 지원되는 화면
 
 광고는 기본적으로 데스크탑 및 모바일 디바이스에서 제공됩니다. 장치 타깃팅을 사용하여 게재를 조정할 수 있습니다.
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 **HTML5:** 이미지 파일 형식: GIF, JPG/JPEG, PNG, SVG
 
-### 이미지 Assets 요구 사항
+### 이미지 자산 요구 사항
 
 범용 디스플레이가 지원됩니다.
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 ## 오디오 광고
 
-### 지원되는 Screens
+### 지원되는 화면
 
 데스크탑, 모바일, 태블릿, 스마트 스피커 및 연결된 TV
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] 및 [!DNL Sizmek]의 태그 시트를 사용할 수 있습니다. 지원되는 공급업체의 전체 목록에 대해서는 &quot;[인증된 광고 서비스 제공 파트너](certified-ad-servers.md)&quot;를 참조하십시오.
 
-### Audio Assets 요구 사항
+### 오디오 자산 요구 사항
 
 **파일 형식:** MP3, OGG, AAC
 
@@ -182,11 +182,11 @@ ht-degree: 0%
 
 각 광고에는 스틸 이미지 또는 움직이는 GIF(cinemagraph)가 포함될 수 있습니다.
 
-### 지원되는 Screens
+### 지원되는 화면
 
 광고는 기본적으로 데스크탑 및 모바일 디바이스에서 제공됩니다. 장치 타깃팅을 사용하여 게재를 조정할 수 있습니다.
 
-### 모든 기본 인피드 형식에 필요한 Assets
+### 모든 기본 인피드 형식에 필요한 에셋
 
 #### 이미지 자산
 
