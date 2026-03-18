@@ -3,7 +3,7 @@ title: ' [!DNL Google Ads]에 대한 클릭 추적 형식'
 description: ' [!DNL Google Ads] 계정의 클릭 추적 형식에 대해 알아봅니다.'
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
+source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`은(는) Adobe Advertising 내의 광고주 고유 ID에 대한 변수입니다.
 >
->* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `<advertiser_ID>` 뒤의 `cq?`을(를) `c?`(으)로 바꾸십시오.
+>* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `cq?` 뒤의 `<advertiser_ID>`을(를) `c?`(으)로 바꾸십시오.
 >
 >* 추적 템플릿의 최종 URL을 나타내는 [!DNL ValueTrack] 매개 변수는 `{lpurl}` 또는 `!{unescapedurl}`이어야 합니다.
 >
@@ -40,7 +40,7 @@ ht-degree: 0%
 >
 >* (동적 검색 광고) [!DNL Google Ads]은(는) 최종 URL을 동적으로 결정하므로 입력할 필요가 없습니다.
 >
->* (사이트 링크) [!UICONTROL Transaction Report]을(를) 생성하여 사이트 링크를 클릭했을 때 발생한 전환을 확인할 수 있습니다. 사이트 링크의 [!UICONTROL Link Type] 열 값은 `sl:See Current Offers`과(와) 같이 `sl:<Sitelink text>`입니다.
+>* (사이트 링크) [!UICONTROL Transaction Report]을(를) 생성하여 사이트 링크를 클릭했을 때 발생한 전환을 확인할 수 있습니다. 사이트 링크의 [!UICONTROL Link Type] 열 값은 `sl:<Sitelink text>`과(와) 같이 `sl:See Current Offers`입니다.
 
 ### 쇼핑 네트워크
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`은(는) Adobe Advertising 내의 광고주 고유 ID에 대한 변수입니다.
 >
->* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `<advertiser_ID>` 뒤의 `cq?`을(를) `c?`(으)로 바꾸십시오.
+>* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `cq?` 뒤의 `<advertiser_ID>`을(를) `c?`(으)로 바꾸십시오.
 >
 >* 추적 템플릿의 최종 URL을 나타내는 [!DNL ValueTrack] 매개 변수는 `{lpurl}` 또는 `!{unescapedurl}`이어야 합니다.
 >
@@ -66,15 +66,15 @@ ht-degree: 0%
 
 ## 랜딩 페이지 접미사(최종 URL 접미사) 형식
 
-Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 네트워크의 클릭 식별자([!DNL Google Ads]의 경우 `gclid`)를 포함해야 합니다.
+Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 네트워크의 클릭 식별자(`gclid`의 경우 [!DNL Google Ads])를 포함해야 합니다.
 
 * 광고주가 Adobe Analytics 통합을 사용하는 경우 접미사에 다음 중 하나가 포함되어야 합니다.
 
-   * 성과 최대 캠페인, 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준 보고를 지원하는 최신 [AMO ID 형식](/help/integrations/analytics/ids.md#amo-id-formats)(`s_kwcid`부터 시작)을 사용하는 [!DNL Google Ads] 계정:
+   * 성과 최대 캠페인, 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준 보고를 지원하는 최신 [!DNL Google Ads]AMO ID 형식[(](/help/integrations/analytics/ids.md#amo-id-formats)부터 시작)을 사용하는 `s_kwcid` 계정:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     계정에 서버측 AMO ID 구현이 있고 계정 또는 캠페인 설정 &quot;[!UICONTROL Auto Upload]&quot;이(가) 활성화되어 있으면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 수동으로 추가해야 합니다. &quot; [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md#amo-id-implement)에서 사용하는 Adobe Advertising ID&quot;를 참조하십시오.&quot;
+     계정에 서버측 AMO ID 구현이 있고 계정 또는 캠페인 설정 &quot;[!UICONTROL Auto Upload]&quot;이(가) 활성화되어 있으면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 수동으로 추가해야 합니다. &quot;[에서 사용하는  [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)Adobe Advertising ID&quot;를 참조하십시오.&quot;
 
    * 다른 모든 [!DNL Google Ads] 계정:
 
