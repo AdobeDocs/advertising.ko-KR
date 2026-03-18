@@ -32,4 +32,4 @@ ht-degree: 0%
 >* [패키지에 대한 변경 로그 보기](package-change-log.md)
 >* [패키지 일시 중지 또는 활성화](package-pause-activate.md)
 >* [패키지 설정](package-settings.md)
->* [비디오: 패키지를 만드는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [비디오: 패키지를 만드는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=ko)
