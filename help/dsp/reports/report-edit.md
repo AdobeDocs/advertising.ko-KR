@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 편집
 description: 사용자 지정 보고서 설정을 편집하는 방법을 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 42208276-d766-41c8-a764-c79a20e302e6
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
@@ -29,5 +29,5 @@ ht-degree: 0%
 >* [사용자 지정 보고서 실행](/help/dsp/reports/report-run-now.md)
 >* [사용자 지정 보고서 삭제](/help/dsp/reports/report-delete.md)
 >* [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
->* [Campaign Management 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [캠페인 관리 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)

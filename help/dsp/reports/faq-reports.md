@@ -2,7 +2,7 @@
 title: 사용자 정의 보고서에 대한 FAQ
 description: 세대 보고서 및 전환 경로 분석 보고서를 포함하여 사용자 지정 보고서에 대해 자세히 알아보십시오.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 사용자 정의 보고서에 대한 FAQ
 
-## 세대 보고서
+## 가구 보고서
 
 ### [!UICONTROL Household Reach & Frequency] 보고서
 

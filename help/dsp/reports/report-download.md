@@ -1,15 +1,16 @@
 ---
-title: 사용자 지정 보고서 다운로드
+title: 사용자 정의 보고서 다운로드
 description: 사용자 지정 보고서를 즉시 다운로드하는 방법을 알아봅니다.
 feature: DSP Custom Reports
-source-git-commit: 02d670231e1362f902aeb8bc358986e8381512f4
+exl-id: a27ed432-c9d4-47c5-9c04-b38bb32e6425
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# 사용자 지정 보고서 다운로드
+# 사용자 정의 보고서 다운로드
 
 지난 4개월 동안 [상태](report-about.md#custom-report-status) &quot;[!UICONTROL Ready to Download]&quot; 또는 &quot;[!UICONTROL Completed]&quot;인 완료된 보고서 인스턴스를 다운로드할 수 있습니다.
 
@@ -19,7 +20,7 @@ ht-degree: 0%
 
    * 보고서의 최신 인스턴스를 다운로드하려면 **[!UICONTROL Download]**&#x200B;을(를) 클릭하십시오.
 
-   * (여러 인스턴스가 있는 보고서) [!UICONTROL Download] 옆에 있는 ![아래쪽 화살표](/help/dsp/assets/chevron-down.png "아래쪽 화살표")를 클릭한 다음 다운로드할 보고서의 완료 날짜를 클릭합니다. 다운로드 가능한 보고서 인스턴스는 다운로드 아이콘(![다운로드 아이콘](/help/dsp/assets/indicator-downloadable.png "다운로드 아이콘"))으로 표시됩니다.
+   * (여러 인스턴스가 있는 보고서) ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png "아래쪽 화살표")아래쪽 화살표[!UICONTROL Download]를 클릭한 다음 다운로드할 보고서의 완료 날짜를 클릭합니다. 다운로드 가능한 보고서 인스턴스는 다운로드 아이콘(![다운로드 아이콘](/help/dsp/assets/indicator-downloadable.png "다운로드 아이콘"))으로 표시됩니다.
 
      사용 가능한 인스턴스가 많으면 필요한 경우 목록 맨 아래의 **[!UICONTROL Load More]**&#x200B;을(를) 클릭합니다.
 

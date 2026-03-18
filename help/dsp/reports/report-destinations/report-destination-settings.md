@@ -3,7 +3,7 @@ title: 보고서 대상 설정
 description: 대상 유형별로 보고서 대상에 필요한 세부 정보를 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
