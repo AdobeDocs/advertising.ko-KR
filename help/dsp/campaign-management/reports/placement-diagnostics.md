@@ -1,32 +1,32 @@
 ---
-title: 배치 진단 보고서 보기
+title: 배치 [!UICONTROL Diagnostics] 보고서 보기
 description: 배치 설정 및 게재 간격 관련 문제를 진단하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-# 배치 진단 보고서 보기
+# 배치 [!UICONTROL Diagnostics] 보고서 보기
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
 진단 보고서는 캠페인이 라이브되면 배치 설정 및 게재 간격 관련 문제를 진단하는 데 도움이 됩니다.
 
-## 배치 진단 보고서의 정보
+## 배치 [!UICONTROL Diagnostics] 보고서의 정보
 
 * **[!UICONTROL Change Log]:** 이름, 상태 및 최대 입찰가와 같은 키 배치 설정에 대한 변경 내용을 표시합니다. 각 항목에는 변경한 사람의 날짜 및 사용자 이름이 포함됩니다.
 
 * **[!UICONTROL Ad Approvals]:** 인벤토리 공급자가 광고를 승인했는지 또는 거부했는지 여부를 표시합니다. 선택적으로 광고의 상태를 변경(예: 거부된 광고를 일시 중지)하거나 광고 설정을 열 수 있습니다.
 
-* **[!UICONTROL Non Bids]:** DSP이 배치에 입찰하지 않은 이유를 표시합니다.
+* **[!UICONTROL Non Bids]:** DSP이 배치를 입찰하지 않은 이유를 표시합니다.
 
-## 배치 진단 보고서 열기
+## 배치 [!UICONTROL Diagnostics] 보고서 열기
 
-1. Diagnostics 보고서를 엽니다.
+1. [!UICONTROL Diagnostics] 보고서 열기:
 
    1. 배치 설정을 엽니다.
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
       1. (선택 사항) 광고 설정을 열려면 광고 옆에 있는 **[!UICONTROL View Ad]**&#x200B;을(를) 클릭합니다.
 
-   * DSP이 배치에 입찰하지 않은 이유를 확인하려면:
+   * DSP이 배치 입찰에 응찰하지 않은 이유를 확인하려면:
 
       1. 오른쪽 상단에서 **[!UICONTROL Non Bids]**&#x200B;을(를) 클릭합니다.
 
@@ -72,6 +72,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management 보기의 성능 보고서 유형](campaign-reports-about.md)
+>* [캠페인 관리 보기의 성능 보고서 유형](campaign-reports-about.md)
 >* [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)

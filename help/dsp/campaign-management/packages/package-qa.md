@@ -3,7 +3,7 @@ title: 일괄 시트를 사용하여 패키지 설정 검토 및 편집
 description: 스프레드시트를 사용하여 주요 패키지 설정을 대량으로 검토하고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: c482f476de5b79ee9a363791d62ba8c2ada12cbc
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -107,7 +107,7 @@ ht-degree: 0%
 설정 업데이트에 실패하면 색상 코딩이 있는 일괄 시트 오류 파일을 다운로드하여 저장된 설정(행)과 각 실패에 대한 이유를 표시할 수 있습니다. 그런 다음 동일한 파일 내에서 문제를 해결하고 다시 업로드하여 수정된 정보를 처리할 수 있습니다.
 
 <!--
-## Package Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns-packages}
+## Package setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns-packages}
 
 >[!TIP]
 >

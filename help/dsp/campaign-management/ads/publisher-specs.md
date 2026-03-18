@@ -2,7 +2,7 @@
 title: 게시자별 광고 사양
 description: 지원되는 게시자에 대한 광고 사양을 참조하십시오.
 feature: DSP Ads
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 0%

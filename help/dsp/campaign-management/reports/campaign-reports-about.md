@@ -1,16 +1,16 @@
 ---
-title: Campaign Management 보기의 성능 보고서 유형
+title: 캠페인 관리 보기의 성과 보고서 유형
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
-# Campaign Management 보기의 성능 보고서 유형
+# 캠페인 관리 보기의 성과 보고서 유형
 
 캠페인 관리 보기에는 포괄적인 보고서 데이터가 포함됩니다. 사용 가능한 보고서를 통해 성과가 좋은 패키지 및 배치와 주의가 필요한 배치를 식별할 수 있습니다. 또한 빠른 작업 버튼을 사용하면 생산성이 향상됩니다.
 
@@ -87,6 +87,6 @@ ht-degree: 0%
 >
 >* [배치에 대한 사이트, 광고 및 빈도 세부 정보 보기](placement-details-view.md)
 >* [Campaign 데이터 보기 관리](campaign-data-views-manage.md)
->* [Campaign Management 보기에서 데이터 내보내기](campaign-export-data.md)
+>* [캠페인 관리 보기에서 데이터 내보내기](campaign-export-data.md)
 >* [캠페인에 대한 자세한 보고서 보기](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [경고 보기](campaign-alerts.md)

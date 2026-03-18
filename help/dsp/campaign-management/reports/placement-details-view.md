@@ -1,16 +1,16 @@
 ---
-title: 배치에 대한 사이트, 광고, 빈도 및 재고 세부 정보 보기
+title: 배치에 대한 사이트, 광고, 빈도 및 인벤토리 세부 정보 보기
 description: 배치에 대한 타겟팅된 사이트, 광고, 빈도 및 인벤토리 데이터를 보는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-# 배치에 대한 사이트, 광고, 빈도 및 재고 세부 정보 보기
+# 배치에 대한 사이트, 광고, 빈도 및 인벤토리 세부 정보 보기
 
 각 배치에 대해 [배치 내 모든 타겟팅된 사이트, 광고 및 거래를 나열하는 (세부 정보 보기 [!UICONTROL Inspector])](placement-details-view.md)을(를) 열 수 있습니다. 또한 배치에 대한 빈도 데이터도 포함됩니다. 탭에서 데이터를 선택적으로 내보낼 수 있습니다.
 

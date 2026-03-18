@@ -3,7 +3,7 @@ title: 패키지 복제
 description: 패키지를 복제하는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -63,7 +63,7 @@ ht-degree: 0%
    * 광고
    * 배치 수준 [!DNL DoubleVerify Authentic Brand Safety] 세그먼트(광고주 수준 세그먼트를 재정의함)
 
-## 새 패키지 구성 모범 사례
+## 새 패키지를 구성하는 우수 사례
 
 >[!TIP]
 >

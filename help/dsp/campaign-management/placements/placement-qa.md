@@ -3,7 +3,7 @@ title: 일괄 시트를 사용하여 배치 설정 검토 및 편집
 description: 스프레드시트를 사용하여 주요 배치 설정을 대량으로 검토하고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >하나 이상의 배치에 대해 더 많은 필드를 빠르게 편집하려면 &quot;[배치 편집](/help/dsp/campaign-management/placements/placement-edit.md)&quot;을(를) 참조하십시오.
 
-## 캠페인의 모든 배치에 대한 다운로드 설정
+## 캠페인의 모든 배치에 대한 설정 다운로드
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 설정 업데이트에 실패하면 색상 코딩이 있는 일괄 시트 오류 파일을 다운로드하여 저장된 설정(행)과 각 실패에 대한 이유를 표시할 수 있습니다. 그런 다음 동일한 파일 내에서 문제를 해결하고 다시 업로드하여 수정된 정보를 처리할 수 있습니다.
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns}
 
 >[!TIP]
 >

@@ -1,16 +1,16 @@
 ---
-title: Insights 정보
+title: 인사이트 정보
 description: 시각화를 통한 성능 통찰력에 대해 알아봅니다.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
 
 ---
 
-# Insights 정보
+# 인사이트 정보
 
 *Beta 기능*
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭의 모든 시각화를 PDF 파일로 내보내거나 특정 insight의 데이터를 다운로드할 수 있습니다.
 
-[날짜 범위를 변경하고, 보기를 구성하고, 사용자 지정 보기를 &#x200B;](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} 캠페인 관리 보기와 같이 저장할 수도 있습니다.
+[날짜 범위를 변경하고, 보기를 구성하고, 사용자 지정 보기를 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} 캠페인 관리 보기와 같이 저장할 수도 있습니다.
 
-## Insights 유형
+## 인사이트 유형
 
 ### [!UICONTROL Home] 탭
 
@@ -104,7 +104,7 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 
 1. (선택 사항) 데이터 범위를 더 좁히려면 도구 모음에서 엔티티 유형을 선택한 다음 특정 엔티티 값(단일 캠페인, 패키지 또는 배치)을 선택합니다.
 
-## insight에 대해 보고된 Dimension 변경
+## insight에 대해 보고된 차원 변경
 
 * 드롭다운 메뉴에서 insight의 왼쪽 상단으로 차원을 선택합니다.
 
@@ -122,7 +122,7 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 
   파일은 브라우저의 기본 다운로드 폴더에 저장됩니다.
 
-## XLSX 파일에 특정 Insight 다운로드
+## XLSX 파일에 특정 insight 다운로드
 
 * insight 오른쪽 상단에서 ![다운로드](/help/creative/assets/download.png "다운로드")를 클릭합니다.
 
@@ -131,6 +131,6 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 >[!MORELIKETHIS]
 >
 >* [사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)
->* [캠페인 관리 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [캠페인 관리 보기의 성과 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
->* [Campaign 데이터 보기 관리](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [캠페인 데이터 보기 관리](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
