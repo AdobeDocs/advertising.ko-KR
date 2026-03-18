@@ -53,9 +53,9 @@ DSP premium 마켓플레이스를 통해 다음과 같은 작업을 수행할 �
 
 >[!MORELIKETHIS]
 >
->* [Premium 인벤토리 거래 구독 및 액세스 요청 [!DNL On Demand] 2}](on-demand-inventory-subscribe.md)
+>* [Premium 인벤토리 거래 구독 및 액세스 요청 [!DNL On Demand] 2&rbrace;](on-demand-inventory-subscribe.md)
 >* [On Demand Premium 인벤토리 거래 재요청](on-demand-inventory-rerequest.md)
->* [거래 요청 및 구독 상태 보기 [!DNL On Demand] 2}](on-demand-inventory-view-status.md)
+>* [거래 요청 및 구독 상태 보기 [!DNL On Demand] 2&rbrace;](on-demand-inventory-view-status.md)
 >* 아시아 태평양의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
 >* 호주 및 뉴질랜드의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-emea.md)

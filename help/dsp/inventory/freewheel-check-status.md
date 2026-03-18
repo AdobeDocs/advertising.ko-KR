@@ -42,7 +42,7 @@ ht-degree: 0%
 
    [!UICONTROL Submission Status] 열은 광고가 제출되고 승인되었는지 여부를 나타냅니다.
 
-   제출 실패의 경우 [!UICONTROL API] 응답 열은 오류를 나타냅니다. 실패한 제출에 대한 오류 코드의 전체 목록과 이를 수정하는 다음 단계는 &quot;[광고 제출에 대한 오류 코드 [!DNL FreeWheel] 2}&quot;를 참조하십시오.](freewheel-error-codes.md)
+   제출 실패의 경우 [!UICONTROL API] 응답 열은 오류를 나타냅니다. 실패한 제출에 대한 오류 코드의 전체 목록과 이를 수정하는 다음 단계는 &quot;[광고 제출에 대한 오류 코드 [!DNL FreeWheel] 2&rbrace;&quot;를 참조하십시오.](freewheel-error-codes.md)
 
 1. (선택 사항) 승인을 위해 광고를 다시 제출하려면 광고 행 위에 커서를 놓은 다음 **[!UICONTROL More]** > **[!UICONTROL Resubmit]**&#x200B;을(를) 클릭합니다.
 
