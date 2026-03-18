@@ -176,4 +176,4 @@ DSP에서는 가장 최근 보기를 기본 보기로 저장하므로 페이지�
 >* [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [배치 진단 보고서 보기](placement-diagnostics.md)
 >* [캠페인 관리 보기에서 데이터 내보내기](campaign-export-data.md)
->* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ko)
