@@ -35,4 +35,4 @@ ht-degree: 0%
 >
 >* [캠페인 만들기](campaign-create.md)
 >* [캠페인 설정](campaign-settings.md)
->* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ko)

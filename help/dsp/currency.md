@@ -16,7 +16,7 @@ Adobe Advertising은 다음 통화를 지원합니다.
 
 >[!NOTE]
 >
->Adobe Analytics은 [더 큰 통화 집합](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html)을 지원합니다.
+>Adobe Analytics은 [더 큰 통화 집합](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=ko)을 지원합니다.
 
 ## DSP 및 Creative
 

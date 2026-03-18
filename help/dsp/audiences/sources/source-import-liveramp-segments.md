@@ -44,5 +44,5 @@ ht-degree: 0%
 >
 >* [자사 대상 소스 정보](source-about.md)
 >* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
->* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ko)
 >* [대상자 관리 정보](/help/dsp/audiences/audience-about.md)
