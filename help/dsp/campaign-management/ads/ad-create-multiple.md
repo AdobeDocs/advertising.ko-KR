@@ -3,7 +3,7 @@ title: 여러 타사 광고 만들기
 description: 한 번에 여러 타사 광고를 만드는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 
       * 광고를 제거하려면 광고 행에서 **[!UICONTROL X]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Create *N *개의 광고]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Create *N *개의 광고]**를 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
@@ -77,5 +77,5 @@ ht-degree: 0%
 >* [광고 관리 정보](ad-about.md)
 >* [광고 사양](ad-specs.md)
 >* [단일 광고 만들기](ad-create.md)
->* [비디오: 타사 광고 태그를 일괄 업로드하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=ko)
+>* [비디오: 타사 광고 태그를 일괄 업로드하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* 범용 비디오에 대한 [FAQ](/help/dsp/campaign-management/faq-universal-video.md)

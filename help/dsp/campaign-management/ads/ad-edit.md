@@ -3,7 +3,7 @@ title: 광고 편집
 description: 광고를 편집하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: c97fcf61f444ab3363d9d55398402ec9f162be99
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save and Close]**&#x200B;을(를) 클릭합니다.
 
-   편집된 광고는 새 [광고 검토](ad-about.md)를 거칩니다. 이 검토에는 24~48시간이 소요되며 중요한 카테고리에 대한 검사, 클릭 URL 기능 및 렌더링 미리 보기가 포함됩니다. [!UICONTROL Status] 열은 DSP이 광고를 승인했는지 여부를 나타냅니다. 끊어진 광고는 24-48시간 이상 보류 상태일 수 있으므로 오류를 수정하고 거부할 수 있습니다.
+   편집된 광고는 새 [광고 검토](ad-about.md)를 거칩니다. 이 검토에는 24~48시간이 소요되며 중요한 카테고리에 대한 검사, 클릭 URL 기능 및 렌더링 미리 보기가 포함됩니다. [!UICONTROL Status] 열은 DSP에서 광고를 승인했는지 여부를 나타냅니다. 끊어진 광고는 24-48시간 이상 보류 상태일 수 있으므로 오류를 수정하고 거부할 수 있습니다.
 
    >[!NOTE]
    >
-   >광고는 DSP과 SSP가 모두 크리에이티브를 승인한 경우에만 제공할 수 있습니다. 각 SSP에는 고유한 승인 요구 사항 및 프로세스가 있습니다.
+   >DSP과 SSP가 모두 크리에이티브를 승인한 경우에만 광고를 제공할 수 있습니다. 각 SSP에는 고유한 승인 요구 사항 및 프로세스가 있습니다.
 
 >[!MORELIKETHIS]
 >

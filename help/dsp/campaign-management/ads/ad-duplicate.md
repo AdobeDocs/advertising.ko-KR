@@ -3,7 +3,7 @@ title: 광고 복제
 description: 광고를 복제하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save & Submit for Review]**&#x200B;을(를) 클릭합니다.
 
-   새 광고에 대한 [광고 검토](ad-about.md)는 24~48시간이 소요되며 중요한 범주, 클릭 URL 기능 및 미리 보기 렌더링 확인을 포함합니다. [!UICONTROL Status] 열은 DSP이 광고를 승인했는지 여부를 나타냅니다. 끊어진 광고는 24-48시간 이상 보류 상태일 수 있으므로 오류를 수정하고 거부할 수 있습니다.
+   새 광고에 대한 [광고 검토](ad-about.md)는 24~48시간이 소요되며 중요한 범주, 클릭 URL 기능 및 미리 보기 렌더링 확인을 포함합니다. [!UICONTROL Status] 열은 DSP에서 광고를 승인했는지 여부를 나타냅니다. 끊어진 광고는 24-48시간 이상 보류 상태일 수 있으므로 오류를 수정하고 거부할 수 있습니다.
 
    >[!NOTE]
    >
-   >광고는 DSP과 SSP가 모두 크리에이티브를 승인한 경우에만 제공할 수 있습니다. 각 SSP에는 고유한 승인 요구 사항 및 프로세스가 있습니다.
+   >DSP과 SSP가 모두 크리에이티브를 승인한 경우에만 광고를 제공할 수 있습니다. 각 SSP에는 고유한 승인 요구 사항 및 프로세스가 있습니다.
 
 >[!MORELIKETHIS]
 >

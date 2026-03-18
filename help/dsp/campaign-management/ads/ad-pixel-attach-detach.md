@@ -2,7 +2,8 @@
 title: 광고에서 픽셀 첨부 및 제거
 description: 광고에서 서드파티 추적 픽셀을 첨부 및 제거하는 방법을 알아봅니다.
 feature: DSP Ads
-source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
+exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -65,7 +66,7 @@ ht-degree: 0%
 
    1. 오른쪽 하단에서 **[!UICONTROL Attach]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 ![&#x200B; 왼쪽에 있는 &#x200B;](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")폴더로 돌아가기[!UICONTROL Ad Tools]를 클릭하고 캠페인 이름을 선택합니다.
+1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 ![ 왼쪽에 있는 ](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")폴더로 돌아가기[!UICONTROL Ad Tools]를 클릭하고 캠페인 이름을 선택합니다.
 
 ## 배치의 광고에서 서드파티 추적 픽셀 분리 {#detach-pixels-ads}
 
@@ -89,7 +90,7 @@ ht-degree: 0%
 
    1. 오른쪽 하단에서 **[!UICONTROL Detach]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 ![&#x200B; 왼쪽에 있는 &#x200B;](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")폴더로 돌아가기[!UICONTROL Ad Tools]를 클릭하고 캠페인 이름을 선택합니다.
+1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 ![ 왼쪽에 있는 ](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")폴더로 돌아가기[!UICONTROL Ad Tools]를 클릭하고 캠페인 이름을 선택합니다.
 
 ## 광고에 첨부된 픽셀 보기 {#view-pixels-ads}
 
@@ -119,4 +120,3 @@ ht-degree: 0%
 >* [광고에 연결된 배치 나열](ad-list-placements.md)
 >* [배치에 대한 광고 일정 편집](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* 범용 비디오에 대한 [FAQ](/help/dsp/campaign-management/faq-universal-video.md)
-

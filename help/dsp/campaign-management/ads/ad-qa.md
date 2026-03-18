@@ -1,16 +1,16 @@
 ---
-title: Bulksheets를 사용하여 광고 세부 사항 검토 및 편집
+title: 일괄 시트를 사용하여 광고 세부 사항 검토 및 편집
 description: 스프레드시트를 사용하여 광고 설정을 대량으로 검토하는 방법에 대해 알아봅니다.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 4ae53bfc362f752b994ee4d4a62c8c1aa1a1e775
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
-# Bulksheets를 사용하여 광고 세부 사항 검토 및 편집
+# 일괄 시트를 사용하여 광고 세부 사항 검토 및 편집
 
 <!-- I should probably change this filename and get __?__ to set up a redirect from the old file to the new file. -->
 
