@@ -1,24 +1,24 @@
 ---
-title: Analysis Workspace에서 지표 Adobe Advertising
-description: Analysis Workspace에서 지표 Adobe Advertising
+title: Analysis Workspace의 Adobe Advertising 지표
+description: Analysis Workspace의 Adobe Advertising 지표
 feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
-source-git-commit: da69280679a4e0c5ce04f55ee94ce984745395ff
+source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
-# Analysis Workspace에서 지표 Adobe Advertising
+# Analysis Workspace의 Adobe Advertising 지표
 
 *Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
 
 >[!NOTE]
 >
->* Adobe Advertising이 트래픽 지표 및 차원을 매일 [!DNL Analytics]에 전달합니다.
+>* Adobe Advertising은 트래픽 지표 및 차원을 매일 [!DNL Analytics]에 전달합니다.
 >* [!DNL Analytics]은(는) Adobe Advertising 클릭스루 및 뷰스루를 실시간으로 캡처합니다.
->* [!DNL Search, Social, & Commerce]의 경우 이 기능은 대부분의 광고 네트워크 및 캠페인 유형에 대해 지원됩니다. 자세한 내용은 [!DNL Search, Social, & Commerce] 안내서의 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;을(를) 참조하십시오.
+>* [!DNL Search, Social, & Commerce]의 경우 이 기능은 대부분의 광고 네트워크 및 캠페인 유형에 대해 지원됩니다. 자세한 내용은 [ 안내서의 &quot;](/help/search-social-commerce/introduction/supported-inventory.md)지원되는 인벤토리[!DNL Search, Social, & Commerce]&quot;을(를) 참조하십시오.
 
 ## Adobe Advertising의 트래픽 지표
 
@@ -28,19 +28,19 @@ ht-degree: 0%
 | -------------- | ----------- |
 | [!UICONTROL Adobe Advertising Clicks] 또는 (일부 이전 고객) [!UICONTROL AMO Clicks] | 총 Adobe Advertising 클릭 수입니다. |
 | [!UICONTROL Adobe Advertising Cost] 또는 (일부 이전 고객) [!UICONTROL AMO Cost] | Adobe Advertising은 보고서 세트의 통화로 지출합니다. |
-| [!UICONTROL Adobe Advertising Impressions] 또는 (일부 이전 고객) [!UICONTROL AMO Impressions] | Adobe Advertising 노출 횟수입니다. |
+| [!UICONTROL Adobe Advertising Impressions] 또는 (일부 이전 고객) [!UICONTROL AMO Impressions] | Adobe Advertising 노출 횟수. |
 | [!UICONTROL Adobe Advertising Measurable Impressions] | 조회 계측을 성공적으로 초기화하기 위해 제공된 노출 횟수입니다. 이 값은 (계측된 노출 횟수 - 측정할 수 없는 노출 횟수)로 계산됩니다. |
 | [!UICONTROL Adobe Advertising Minutes Viewed] | Adobe Advertising 비디오를 본 시간(분)입니다. |
 | [!UICONTROL Adobe Advertising Not Viewable Impressions] | 볼 수 없는 것으로 결정된 노출 횟수입니다. 이 값은 ([!UICONTROL Adobe Advertising Measurable Impressions] - [!UICONTROL Adobe Advertising Viewable])로 계산됩니다. |
 | [!UICONTROL Adobe Advertising Viewable Impressions] | 배치 구성에 따라 볼 수 있도록 측정된 노출 횟수. |
 | [!UICONTROL Adobe Advertising Views] | 광고에 대한 보기 횟수입니다. 뷰어는 뷰어가 Adobe Advertising 비디오를 시작할 때 카운트됩니다. |
-| [!UICONTROL Adobe Advertising Views 25% Complete] | Adobe Advertising 비디오를 25% 이상 시청한 보기 횟수. |
+| [!UICONTROL Adobe Advertising Views 25% Complete] | Adobe Advertising 비디오를 25% 이상 시청한 보기 수. |
 | [!UICONTROL Adobe Advertising Views 50% Complete] | Adobe Advertising 비디오를 50% 이상 시청한 보기 횟수. |
-| [!UICONTROL Adobe Advertising Views 75% Complete] | Adobe Advertising 비디오를 75% 이상 시청한 보기 횟수. |
-| [!UICONTROL Adobe Advertising Views 100% Complete] | Adobe Advertising 비디오를 100% 시청한 보기 횟수. |
+| [!UICONTROL Adobe Advertising Views 75% Complete] | Adobe Advertising 비디오를 75% 이상 시청한 보기 수. |
+| [!UICONTROL Adobe Advertising Views 100% Complete] | Adobe Advertising 비디오를 100% 시청한 보기 수. |
 | [!UICONTROL AMO ID Instances] | [!UICONTROL AMO ID]이(가) 설정된 횟수입니다. |
 
-## Adobe Advertising Dimension
+## Adobe Advertising 차원
 
 >[!NOTE]
 >
