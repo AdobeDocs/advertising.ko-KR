@@ -40,7 +40,7 @@ Experience Platform에서 데이터 수집을 설정하고 전환 추적 태그�
 
    * [!UICONTROL Schema Details]에서 사이트 이벤트를 캡처할 스키마의 기본 클래스로 **[!UICONTROL Experience Event]**&#x200B;을(를) 선택합니다. 스키마 이름을 지정하고 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
-   * 왼쪽 패널에서 필드 그룹 [Adobe Advertising Cloud ExperienceEvent 전체 확장](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)을(를) 추가하여 Adobe Advertising 관련 필드를 추가합니다. 최소한 `trackingCode`AMO ID 및 EF ID`trackingIdentities`를 포함하는 [ 및 ](ids.md) 속성이 있는 conversionDetails 개체를 포함하십시오. 다른 필드는 선택 사항입니다.
+   * 왼쪽 패널에서 필드 그룹 [Adobe Advertising Cloud ExperienceEvent 전체 확장](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)을(를) 추가하여 Adobe Advertising 관련 필드를 추가합니다. 최소한 `trackingCode`AMO ID 및 EF ID`trackingIdentities`를 포함하는 [&#x200B; 및 &#x200B;](ids.md) 속성이 있는 conversionDetails 개체를 포함하십시오. 다른 필드는 선택 사항입니다.
 
    * (선택 사항) 필요에 따라 추가 데이터 필드를 Adobe Advertising 데이터에 연결하는 데 추가 필드 그룹을 추가합니다.
 

@@ -43,13 +43,13 @@ Audience Manager에서 DSP 노출에 대한 [데이터 소스](https://experienc
 
 `[Audience Manager customer domain].demdex.net/event?d_event=imp&d_src=[source id]&d_campaign=${TM_CAMPAIGN_ID_NUM}`
 
-[ 접두사가 있는 ](#parameters)선택적 추가 매개 변수`&` 사용
+[&#x200B; 접두사가 있는 &#x200B;](#parameters)선택적 추가 매개 변수`&` 사용
 
 **클릭 추적 픽셀:**
 
 `[Audience Manager customer domain].demdex.net/event?d_event=click&d_src=[source id]&d_rd=[redirect URL]&d_campaign=${TM_CAMPAIGN_ID_NUM}`
 
-[ 접두사가 있는 ](#parameters)선택적 추가 매개 변수`&` 사용
+[&#x200B; 접두사가 있는 &#x200B;](#parameters)선택적 추가 매개 변수`&` 사용
 
 위치:
 
