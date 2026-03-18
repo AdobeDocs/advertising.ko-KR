@@ -372,7 +372,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [정보 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-about.md)
->* [Premium Inventory 구독 및 액세스 요청 [!DNL On Demand] 2}](on-demand-inventory-subscribe.md)
+>* [Premium Inventory 구독 및 액세스 요청 [!DNL On Demand] 2&rbrace;](on-demand-inventory-subscribe.md)
 >* 호주 및 뉴질랜드의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-emea.md)
 >* [[!DNL On Demand Premium] 북미 인벤토리 게시자](on-demand-inventory-publishers-na.md)
