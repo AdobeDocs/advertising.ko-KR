@@ -3,7 +3,7 @@ title: 보류 중인 사용자 초대 다시 보내기
 description: 보류 중인 사용자 초대를 다시 보내는 방법을 알아봅니다.
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%

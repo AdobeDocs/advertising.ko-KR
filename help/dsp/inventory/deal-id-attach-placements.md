@@ -3,7 +3,7 @@ title: 비공개 거래에 대한 배치 및 광고 지정
 description: 추가 배치 및 광고를 통해 비공개 거래를 사용하는 방법에 대해 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%

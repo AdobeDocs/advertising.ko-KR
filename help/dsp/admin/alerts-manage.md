@@ -3,7 +3,7 @@ title: 경고 구독 관리
 description: 자동 이메일 경고를 관리하는 방법을 알아봅니다.
 role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
       설정은 경고 유형에 따라 다릅니다.
 
-   1. (선택 사항) 경고를 즉시 실행하려면 **[!UICONTROL Alert immediately]**&#x200B;을(를) 선택합니다. 기본적으로 경고는 계정의 시간대에서 08:00에 실행됩니다.
+   1. (선택 사항) 경고를 즉시 실행하려면 **[!UICONTROL Alert immediately]**&#x200B;을(를) 선택합니다. 기본적으로 경고는 계정의 시간대의 08:00에 실행됩니다.
 
    1. (선택 사항) 구독에 경고를 추가하려면 **[!UICONTROL Add Alert]**&#x200B;을(를) 클릭하고 경고를 만드십시오.
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
   여러 주소는 공백으로 구분합니다.
 
-* 구독의 구독자를 제거하려면 **[!UICONTROL Subscribers]** 아래의 전자 메일 주소 옆에 있는 **[!UICONTROL X]**&#x200B;을(를) 클릭합니다.
+* 구독의 구독자를 제거하려면 **[!UICONTROL X]** 아래의 전자 메일 주소 옆에 있는 **[!UICONTROL Subscribers]**&#x200B;을(를) 클릭합니다.
 
 ## 구독 비활성화 또는 활성화
 

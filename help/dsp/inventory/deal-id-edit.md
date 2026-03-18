@@ -3,7 +3,7 @@ title: 비공개 거래 설정 편집
 description: 비공개 거래의 세부 정보를 편집하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. [거래 설정](deal-id-settings.md)을(를) 편집합니다.
 
-   [!UICONTROL Deal Name], [!UICONTROL Media Type] (거래에 여러 미디어 유형이 포함된 경우), [!UICONTROL CPM] 값, [!UICONTROL Account email], [!UICONTROL Advertisers that can access this deal], [!UICONTROL Flight dates] 및 [!UICONTROL Impressions]을(를) 편집할 수 있습니다.
+   [!UICONTROL Deal Name], [!UICONTROL Media Type]&#x200B;(거래에 여러 미디어 유형이 포함된 경우), [!UICONTROL CPM] 값, [!UICONTROL Account email], [!UICONTROL Advertisers that can access this deal], [!UICONTROL Flight dates] 및 [!UICONTROL Impressions]을(를) 편집할 수 있습니다.
 
    [!UICONTROL Deal ID], [!UICONTROL Publisher], [!UICONTROL SSP], [!UICONTROL Deal Type] 또는 [!UICONTROL Billing Method]을(를) 편집할 수 없습니다.
 

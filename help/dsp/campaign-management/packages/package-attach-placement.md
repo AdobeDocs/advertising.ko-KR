@@ -3,7 +3,7 @@ title: 패키지에 배치 첨부
 description: 패키지에 배치를 첨부하는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 패키지에 배치 첨부
 
-## [!UICONTROL Placements] 보기에서 새 배치 첨부
+## [!UICONTROL Placements] 보기에서 새 배치를 첨부합니다.
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 1. 나머지 [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)을 입력한 다음 **[!UICONTROL Create Placement]**&#x200B;을(를) 클릭합니다.
 
-## [!UICONTROL Packages] 보기에서 새 위치 또는 기존 위치 첨부
+## [!UICONTROL Packages] 보기에서 새 배치 또는 기존 배치를 첨부합니다.
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 

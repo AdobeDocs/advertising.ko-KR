@@ -3,7 +3,7 @@ title: '[!UICONTROL Deal ID Inbox]에서 거래 수락'
 description: 거래 ID 받은 편지함을 사용하여  [!DNL FreeWheel], [!DNL Google Authorized Buyers] (이전에는  [!DNL AdX]), and [!DNL Magnite DV+] (이전에는  [!DNL Rubicon])에 게시자와 협상한 비공개 거래를 수락하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *SSP 계정에만 매핑된 DSP 계정의 사용자*
 
-[!DNL FreeWheel], [!DNL Google Authorized Buyers] (이전 [!DNL AdX]) 및 [!DNL Magnite DV+] (이전 [!DNL Rubicon])에 게시자와 이미 협상한 비공개 거래를 빠르게 수락하려면 [!UICONTROL Deal ID inbox]을(를) 사용하십시오.
+[!UICONTROL Deal ID inbox], [!DNL FreeWheel]&#x200B;(이전 [!DNL Google Authorized Buyers]) 및 [!DNL AdX]&#x200B;(이전 [!DNL Magnite DV+])에 게시자와 이미 협상한 비공개 거래를 빠르게 수락하려면 [!DNL Rubicon]을(를) 사용하십시오.
 
 >[!NOTE]
 >

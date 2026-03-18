@@ -2,7 +2,7 @@
 title: 고급 측정 솔루션
 description: 고급 측정에 사용할 수 있는 솔루션 목록을 참조하십시오.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: f2f24b85ad2f6068739b54e4a72a2e7bef6cd31b
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 데이터 기반 미디어 환경에서 속성 측정은 이 문제에 대한 솔루션을 제공합니다. AMS(Advanced Measurement &amp; Strategy) 팀은 브랜드 및 에이전시 파트너가 Adobe Advertising의 요소와 [!DNL Adobe] 통합을 함께 구매하여 결과를 도출하는 방법을 측정할 수 있도록 지원합니다. 강력한 속성 측정 오퍼링을 통해 AMS는 정교한 측정 프레임워크를 사용하여 선별된 타기팅 전략을 배포할 수 있으므로 브랜드가 미디어 달러를 비즈니스를 주도하는 실제 결과에 쉽게 연결할 수 있습니다. 팀은 다음을 수행하는 데 도움을 줄 수 있습니다.
 
-* 전체 단계 디지털 미디어 캠페인에서 측정 연구 활성화
+* 전체 funnel 디지털 미디어 캠페인에서 측정 연구 활성화
 
-* 패키지화된 보고 솔루션을 사용하여 캠페인 스토리텔링 업로드
+* 패키지 보고 솔루션을 사용하여 Campaign storytelling 업로드
 
 * 시간이 지남에 따라 캠페인 효과를 학습하고 개선하여 광고 관행을 발전시킵니다.
 

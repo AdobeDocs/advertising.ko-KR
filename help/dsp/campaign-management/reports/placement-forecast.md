@@ -3,7 +3,7 @@ title: 배치 예측 보고서 보기
 description: 배치에 대한 특정 타겟팅 전략에 대해 예측된 노출 횟수, 지출 횟수 및 최적 최대 입찰가 를 참조하십시오.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >* 우편 번호는 배치 예측 계산에서 고려되지 않습니다.
 >* 가용성과 지출이 결정적이기 때문에 프로그램 보증(PG) 타깃팅만 있는 배치에 대한 예측이 생성되지 않습니다.
 
-## Forecast 의 정보
+## 예측의 정보
 
 예측에는 다음 정보가 포함됩니다.
 
@@ -81,6 +81,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management 보기의 성능 보고서 유형](campaign-reports-about.md)
+>* [캠페인 관리 보기의 성능 보고서 유형](campaign-reports-about.md)
 >* [배치 진단 보고서 보기](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -1,16 +1,16 @@
 ---
-title: Advertising DSP의 Campaign Management
+title: Advertising DSP의 캠페인 관리 기본 정보
 description: 캠페인 관리에 대해 알아봅니다.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Advertising DSP의 Campaign Management
+# Advertising DSP의 캠페인 관리 기본 정보
 
 캠페인은 비행 설정의 중요한 프레임워크입니다. 모든 캠페인 수준 설정은 캠페인 내의 각 패키지 및 배치에 자동으로 적용됩니다. 각 캠페인은 특정 광고주와 연결됩니다.
 
@@ -35,4 +35,4 @@ ht-degree: 0%
 >
 >* [캠페인 만들기](campaign-create.md)
 >* [캠페인 설정](campaign-settings.md)
->* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ko)
+>* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
