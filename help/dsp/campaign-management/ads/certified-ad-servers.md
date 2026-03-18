@@ -1,16 +1,16 @@
 ---
-title: 인증 광고 서비스 제공 파트너
+title: 공인 광고 서비스 파트너
 description: 인증된 모든 광고 서버 및 광고 단위를 확인합니다.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 70224b9e9c248d45a5ce227d296f2604dd06c222
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
-# 인증 광고 서비스 제공 파트너
+# 공인 광고 서비스 파트너
 
 | 광고 서버 | 오디오 | 표시 | 고충격 디스플레이 | 비디오 | 특별 요구 사항 및 참고 사항 |
 | --- | --- | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | 영향력이 큰 스킨(Cavai 전환 광고 포함)은 Inskin 인벤토리 네트워크에 있는 180x150 디스플레이 거래 ID에서 제공되어야 합니다. |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | 320x50 앵커, BYOC, Hover, Breakout, Breaway, Runway 및 Sidekick, 300x250 Outstream, HighRise, 표준 데스크톱 디스플레이(특정 광고 플러그인 ID가 필요하지 않음), 비디오 앵커(VAST만 해당), CTV([!DNL Pubmatic]</br></br>을 통해 Adobe 계정 팀에 연락하여 광고 단위 설정에 대한 지원을 받으십시오. |
+| [!DNL Kargo] | | X | | X | 320x50 앵커, BYOC, Hover, Breakout, Breaway, Runway 및 Sidekick, 300x250 Outstream, HighRise, 표준 데스크탑 디스플레이(특정 광고 플러그인 ID가 필요하지 않음), 비디오 앵커(VAST만 해당), CTV([!DNL Pubmatic]</br></br>을(를) 통해 Adobe 계정 팀에 연락하여 광고 단위 설정에 대한 지원을 받으십시오. |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |

@@ -3,7 +3,7 @@ title: Advertising DSP에서 사용 가능한 타사 데이터 공급자
 description: 사용 가능한 모든 타사 데이터 공급자 목록을 참조하십시오.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Advertising DSP에서 사용 가능한 타사 데이터 공급자
 
-다음 타사 데이터 공급자에 대한 데이터 카테고리와 세그먼트는 DSP에서 배치 대상으로 사용할 수 있습니다. 이러한 세그먼트는 주로 미국 대상자에 대해 사용할 수 있습니다.
+다음 타사 데이터 공급자에 대한 데이터 카테고리와 세그먼트는 DSP에서 배치 타겟으로 사용할 수 있습니다. 이러한 세그먼트는 주로 미국 대상자에 대해 사용할 수 있습니다.
 
 배치 설정 및 저장된 대상자 설정의 세그먼트 이름 옆에 각 세그먼트 사용 요금이 표시됩니다.
 
 * [!DNL Adsquare]
 * [!DNL digitalAudience]
 * [!DNL DLX Mobile]
-* [!DNL eXelate] ([!DNL Nielsen])
+* [!DNL eXelate]&#x200B;([!DNL Nielsen])
 * [!DNL Eyeota]
 * [!DNL Factual]
 * [!DNL Fraud Protection]

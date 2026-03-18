@@ -3,7 +3,7 @@ title: 사용자 지정 세그먼트 만들기 및 구현
 description: 광고에 노출된 사용자 또는 웹 페이지를 방문하는 사용자를 추적하기 위해 사용자 지정 세그먼트를 만들고 구현하는 방법에 대해 알아봅니다.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 *Beta 기능*
 
-* ID5 ID와 연결된 사용자를 추적할 세그먼트를 생성하기 전에 [!DNL ID5] (으)로 계약에 서명하고 조직의 파트너 ID를 얻으십시오. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+* ID5 ID와 연결된 사용자를 추적할 세그먼트를 생성하기 전에 [!DNL ID5]&#x200B;(으)로 계약에 서명하고 조직의 파트너 ID를 얻으십시오. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
 * Adobe Analytics에서 측정하는 경우 다음을 수행해야 합니다.
 
    1. 구현하기 위한 모든 [필수 구성 요소 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)를 완료하고 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md)이(가) 추적 URL에 채워져 있는지 확인하십시오.
 
-   1. 마지막 이벤트 서비스가 초기화되기 전이나  [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/javascript.md)에 필요한 JavaScript 코드 내에서 다음 매개 변수를 웹 페이지에 추가하십시오.
+   1. 마지막 이벤트 서비스가 초기화되기 전이나 [에 필요한  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)JavaScript 코드 내에서 다음 매개 변수를 웹 페이지에 추가하십시오.
 
       ```window.id5PartnerId=ID5_PartnerID;```
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
          * *[!UICONTROL ID5]:* 세그먼트 태그는 [!DNL ID5]개의 ID를 추적합니다. 범용 ID에 게재되는 노출에 대해서는 요금이 부과되지 않습니다.
 
-        **[!UICONTROL Terms of Service]:** 범용 ID 사용에 대한 서비스 약관 계약입니다. 귀하 또는 DSP 계정의 다른 사용자는 새 ID 유형에 범용 ID를 사용하기 전에 약관에 한 번 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 귀하의 동의를 받고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 **>**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
+        **[!UICONTROL Terms of Service]:** 범용 ID 사용에 대한 서비스 약관 계약입니다. 새 ID 유형에 범용 ID를 사용하려면 사용자나 DSP 계정의 다른 사용자가 약관에 한 번 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 사용자의 동의를 얻고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 **>**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
 
    1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
          1. &quot;[!UICONTROL Desktop or mobile ads]&quot;(으)로 레이블이 지정된 노출 추적 태그를 복사합니다.
 
-         1. 관련 있는 각 광고의 [!UICONTROL Pixel] 탭이나 관련 있는 각 배치에 대한 [[!UICONTROL Tracking] 설정의 [!UICONTROL Event Pixels] 섹션에 태그를 추가하십시오](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. 관련 있는 각 광고의 [!UICONTROL Pixel] 탭이나 관련 있는 각 배치에 대한 [!UICONTROL Event Pixels] 설정의 [[!UICONTROL Tracking] 섹션에 태그를 추가하십시오](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 추적 태그가 구현되면 모든 배치에 대해 대상 타겟 또는 제외에서 세그먼트를 사용할 수 있습니다.
 

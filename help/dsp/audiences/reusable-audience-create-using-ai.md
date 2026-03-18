@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: f2d7428f70448421dd7b6d9c3d237783b800cd83
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -139,7 +139,7 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수도 있습니다.
 
-## 대상 개요 만들기에 대한 우수 사례 {#audience-brief-best-practices}
+## 대상자 개요 작성을 위한 우수 사례 {#audience-brief-best-practices}
 
 대상자 요약은 캠페인의 대상 대상자를 정의하는 전략 작성입니다. 잘 만들어진 요약은 DSP 대상 에이전트가 타겟팅 가능한 대상을 취합하기 위해 가장 관련성이 높은 세그먼트를 식별하는 데 도움이 됩니다.
 
