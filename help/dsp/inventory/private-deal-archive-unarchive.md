@@ -3,7 +3,7 @@ title: 비공개 거래 보관 또는 보관 해제
 description: 비공개 거래를 보관하거나 보관 해제하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%

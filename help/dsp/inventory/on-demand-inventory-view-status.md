@@ -3,7 +3,7 @@ title: ' [!DNL On Demand] 거래 요청 및 구독 상태 보기'
 description: ' [!DNL On Demand] 거래 요청 및 구독의 상태를 보는 방법에 대해 알아봅니다.'
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -37,11 +37,11 @@ ht-degree: 0%
 
   각 광고주에 대해 요청이 거부된 이유를 보려면 ![거부](/help/dsp/assets/denied.png)를 클릭하십시오. 거부 이유가 해결될 수 있는 경우 [거래를 다시 요청](/help/dsp/inventory/on-demand-inventory-rerequest.md)할 수 있습니다.
 
-승인 프로세스에 대한 질문이 있는 경우 Adobe 계정 팀에 문의하십시오.
+승인 프로세스에 대해 질문이 있는 경우 Adobe 계정 팀에 문의하십시오.
 
 >[!MORELIKETHIS]
 >
->* [Premium 인벤토리 거래 구독 및 액세스 요청 [!DNL On Demand] 2&rbrace;](on-demand-inventory-subscribe.md)
+>* [Premium 인벤토리 거래 구독 및 액세스 요청 [!DNL On Demand] 2}](on-demand-inventory-subscribe.md)
 >* [On Demand Premium 인벤토리 거래 재요청](on-demand-inventory-rerequest.md)
 >* 아시아 태평양의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
 >* 호주 및 뉴질랜드의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-anz.md)

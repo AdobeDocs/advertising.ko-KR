@@ -3,7 +3,7 @@ title: 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자 [!
 description: 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자 [!DNL On Demand]명
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -178,7 +178,7 @@ ht-degree: 0%
 | [!DNL Conde Nast] | 영국 |
 | [!DNL DailyMail] | 영국 |
 | [!DNL Daily Star] | 영국 |
-| [!DNL DAZN] ([!DNL Perform Media]) | 영국 |
+| [!DNL DAZN]&#x200B;([!DNL Perform Media]) | 영국 |
 | [!DNL Dennis Publishing] | 영국 |
 | [!DNL Digiteka] | 영국 |
 | [!DNL ebay] | 영국 |
@@ -228,7 +228,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [정보 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-about.md)
->* [Premium Inventory 구독 및 액세스 요청 [!DNL On Demand] 2&rbrace;](on-demand-inventory-subscribe.md)
+>* [Premium Inventory 구독 및 액세스 요청 [!DNL On Demand] 2}](on-demand-inventory-subscribe.md)
 >* 아시아 태평양의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
 >* 호주 및 뉴질랜드의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
 >* 북미 지역의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-na.md)

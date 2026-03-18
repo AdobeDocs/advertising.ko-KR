@@ -3,7 +3,7 @@ title: 캠페인 변경 로그 보기
 description: 캠페인에 대한 변경 사항을 보는 방법을 알아봅니다.
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Campaign Management 정보](campaign-about.md)
+>* [캠페인 관리 정보](campaign-about.md)
 >* [캠페인 만들기](campaign-create.md)
 >* [캠페인 편집](campaign-edit.md)
 >* [캠페인 설정](campaign-settings.md)

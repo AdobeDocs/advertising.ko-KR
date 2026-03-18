@@ -3,7 +3,7 @@ title: 프로그램 보증 거래 정보
 description: 프로그램 보증 거래(PG) 및 이를 제공하는 인증 SSP에 대해 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## PG 거래의 특징
 
-* 거래는 항상 DSP을 통해 청구됩니다.
+* 이 거래는 항상 DSP을 통해 청구됩니다.
 * 그 거래에는 정가와 수량이 있다.
 * 게시자 또는 SSP(공급측 플랫폼)는 모든 예산 게재 간격, 예산 한도 및 모든 타겟팅을 처리합니다.
 * 일반적으로 이 거래는 게시자의 광고 서버에서 우선 순위가 높습니다.
@@ -25,15 +25,15 @@ ht-degree: 0%
 * 게시자가 관리하는 광고는 [!DNL Google Authorized Buyers] SSP를 통해 수락됩니다.
 * SSP 및 게시자에게는 배달 SLA가 있습니다.
 
-DSP이 각 입찰 요청에 대한 요청을 반환하고 SSP로 배달 SLA를 이행할 수 있도록 PG 거래에는 PG 기본 배치 및 광고(또는 게시자 관리 광고의 경우 1x1 픽셀)가 필요합니다. 필수 PG 기본 배치를 설정하면 다른 배치에서 PG 거래를 타깃팅할 수도 있습니다.
+PG 거래에는 PG 기본 배치 및 광고(또는 게시자 관리 광고의 경우 1x1 픽셀)가 필요하므로 DSP은 각 입찰 요청에 요청을 반환하고 SSP로 배달 SLA를 충족할 수 있습니다. 필수 PG 기본 배치를 설정하면 다른 배치에서 PG 거래를 타깃팅할 수도 있습니다.
 
-## DSP의 PG 거래에 대해 인증된 SSP
+## DSP PG 거래에 대해 인증된 SSP
 
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]
 * [!DNL Google Authorized Buyers]
-* [!DNL Magnite CTV] (이전 [!DNL Telaria])
-* [!DNL Magnite DV+] (이전 [!DNL Rubicon])
+* [!DNL Magnite CTV]&#x200B;(이전 [!DNL Telaria])
+* [!DNL Magnite DV+]&#x200B;(이전 [!DNL Rubicon])
 * [!DNL OpenX]
 * [!DNL SpotX]
 
