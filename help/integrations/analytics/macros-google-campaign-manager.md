@@ -42,7 +42,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* 랜딩 페이지 URL에 일반적이지 않은 해시 기호(#)가 포함되어 있으면 해시 기호 앞에 `amo` 매개 변수를 배치합니다.
+>&#x200B;>* 랜딩 페이지 URL에 일반적이지 않은 해시 기호(#)가 포함되어 있으면 해시 기호 앞에 `amo` 매개 변수를 배치합니다.
 >* `amo` 매개 변수 뒤에 다른 매개 변수가 포함되지 않은 경우 그 뒤에 매개 변수(예: &amp;a=b)를 추가합니다. 예: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### 광고주 수준 랜딩 페이지 URL 접미사 구성

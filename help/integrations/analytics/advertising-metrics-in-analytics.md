@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >* Adobe Advertising은 트래픽 지표 및 차원을 매일 [!DNL Analytics]에 전달합니다.
 >* [!DNL Analytics]은(는) Adobe Advertising 클릭스루 및 뷰스루를 실시간으로 캡처합니다.
->* [!DNL Search, Social, & Commerce]의 경우 이 기능은 대부분의 광고 네트워크 및 캠페인 유형에 대해 지원됩니다. 자세한 내용은 [ 안내서의 &quot;](/help/search-social-commerce/introduction/supported-inventory.md)지원되는 인벤토리[!DNL Search, Social, & Commerce]&quot;을(를) 참조하십시오.
+>* [!DNL Search, Social, & Commerce]의 경우 이 기능은 대부분의 광고 네트워크 및 캠페인 유형에 대해 지원됩니다. 자세한 내용은 [&#x200B; 안내서의 &quot;](/help/search-social-commerce/introduction/supported-inventory.md)지원되는 인벤토리[!DNL Search, Social, & Commerce]&quot;을(를) 참조하십시오.
 
 ## Adobe Advertising의 트래픽 지표
 
