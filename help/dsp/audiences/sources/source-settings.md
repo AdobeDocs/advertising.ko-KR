@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!DNL RampID]:* PII를 [!DNL RampID]&#x200B;(으)로 변환하려는 경우 로그인 사용자를 다시 타겟팅하고 [!DNL RampIDs] 측정을 위해 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용할 수 있습니다.
 
-* *[!DNL Unified ID2.0](Beta):* 로그인 사용자를 다시 타깃팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
+* *[!DNL Unified ID2.0] (Beta):* 로그인 사용자를 다시 타깃팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
