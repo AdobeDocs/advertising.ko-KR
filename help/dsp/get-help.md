@@ -3,7 +3,7 @@ title: 도움말 보기
 description: 온라인 설명서 및 커뮤니티 리소스를 보는 방법과 기술 지원을 받는 방법을 알아봅니다.
 feature: DSP Introduction
 exl-id: 2e0226ea-bcd3-4a38-8907-d2e078c758d0
-source-git-commit: d2276e7e57c5c4fcc270aeef68a8bf4d013e3eba
+source-git-commit: 494ac8907b569bea3a60d9b5e9a2655cb65194c2
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -25,14 +25,14 @@ ht-degree: 0%
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ko).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## 연락처 [!DNL Adobe]
 
 제품 또는 계정 문제에 대해 다음을 수행합니다.
 
-* (셀프 서비스 계약을 보유한 광고주) [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 티켓을 엽니다.
+* (셀프 서비스 계약을 보유한 광고주) [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)에서 조직에 대한 티켓을 엽니다.
 
   제품에 대해 &quot;[!UICONTROL Advertising - DSP]&quot;을(를) 선택합니다.
 
