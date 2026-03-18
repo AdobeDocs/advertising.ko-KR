@@ -1,15 +1,16 @@
 ---
-title: 사용자 정의 보고서 정보
+title: 사용자 지정 보고서 기본 정보
 description: 사용자 지정 보고서를 만들기 위한 옵션에 대해 알아봅니다.
 feature: Creative Reporting
-source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
+exl-id: d52a2761-5e50-4a38-a9e1-141e962f1166
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
-# 사용자 정의 보고서 정보
+# 사용자 지정 보고서 기본 정보
 
 사용자 지정 보고서를 사용하면 가장 중요한 지표를 사용하여 보고서 데이터의 콘텐츠와 게재를 사용자 지정할 수 있습니다.
 

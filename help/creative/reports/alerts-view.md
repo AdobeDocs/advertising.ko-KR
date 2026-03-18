@@ -2,7 +2,8 @@
 title: 경고 보기
 description: 경험에 대한 경고 및 권장 해결 방법을 보는 방법에 대해 알아봅니다.
 feature: Creative Experiences
-source-git-commit: e03517dc1d984df660048d81f77d5364f156fb6c
+exl-id: faea1b1f-62f5-4277-acc4-6d99cf166906
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Advertising DSP 내에서 [경험 [!DNL Creative] 에서 만든 배치에 대한 &#x200B;](/help/dsp/campaign-management/reports/campaign-alerts.md)경고를 캠페인 수준에서 사용할 수 있습니다.
+>Advertising DSP 내에서 [경험 [!DNL Creative] 에서 만든 배치에 대한 ](/help/dsp/campaign-management/reports/campaign-alerts.md)경고를 캠페인 수준에서 사용할 수 있습니다.
 
 ## [!UICONTROL Pulse Panel]에서 경고 보기
 

@@ -3,7 +3,7 @@ title: 표준 크리에이티브 설정
 description: 표준 크리에이티브에 대한 설정을 참조하십시오.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '2106'
 ht-degree: 0%
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ## HTML5 크리에이티브 설정 {#creative-settings-html5}
 
-## 세부 정보 탭
+### 세부 정보 탭
 
 새 크리에이티브의 경우 다음 설정은 명명된 탭에 없습니다.
 

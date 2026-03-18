@@ -3,10 +3,10 @@ title: HTML5 creative 사양
 description: HTML5 creative specification for Advertising Creative 를 참조하십시오.
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -88,7 +88,7 @@ var clickTag = “http://www.example.com”;
 >
 >HTML5 크리에이티브에 포함하는 정적 URL은 로컬 테스트 목적으로만 사용되며 덮어씁니다. HTML5 크리에이티브를 업로드할 때 각 `clickTag` 변수에 대한 기본 랜딩 페이지를 정의합니다. 업로드된 HTML5 크리에이티브를 광고 경험에 할당할 때 선택적으로 각 `clickTag` 변수에 대한 기본 랜딩 페이지를 재정의할 수 있습니다. [!DNL Creative]은(는) 경험을 저장할 때 클릭 추적을 URL에 추가합니다.
 
-###### 매개 변수
+###### 매개변수
 
 * `clkVar` — 큰따옴표로 묶인 클릭 변수(일반적으로 &quot;clickTag&quot;)의 이름입니다.
 
@@ -96,7 +96,7 @@ var clickTag = “http://www.example.com”;
 
 ###### 사용
 
-기본 HTML 파일의 `<head>` 섹션에서 `amo.registerClick()`을(를) 호출합니다.
+기본 HTML 파일의 `amo.registerClick()` 섹션에서 `<head>`을(를) 호출합니다.
 
 ###### 예
 
@@ -106,7 +106,7 @@ var clickTag = “http://www.example.com”;
 
 종료 이벤트를 트리거하여 사용자를 `clickTag`에 대해 구성된 랜딩 페이지로 리디렉션합니다. 로컬 테스트 중에 이 함수는 개발자에게 함수에 전달되는 URL이 등록되었는지 여부를 알립니다.
 
-###### 매개 변수
+###### 매개변수
 
 * `clkTag` — `amo.registerClick()` 함수를 사용하여 랜딩 페이지 URL을 할당하는 데 사용하는 클릭 변수의 이름으로 작은 따옴표로 묶여 있습니다.
 
@@ -114,9 +114,9 @@ var clickTag = “http://www.example.com”;
 
 ###### 사용
 
-기본 HTML 파일의 `<body>` 섹션에서 `amo.onAdClick()`을(를) 호출합니다.
+기본 HTML 파일의 `amo.onAdClick()` 섹션에서 `<body>`을(를) 호출합니다.
 
-###### 예시
+###### 예
 
 `amo.onAdClick('clickTag')` 또는 `amo.onAdClick('clickTag',clickEvt)`
 
@@ -132,7 +132,7 @@ var clickTag = “http://www.example.com”;
 >
 >HTML5 크리에이티브에 포함하는 정적 URL은 로컬 테스트 목적으로만 사용되며 덮어씁니다. HTML5 크리에이티브를 업로드할 때 각 `clickTag` 변수에 대한 기본 랜딩 페이지를 정의합니다. 업로드된 HTML5 크리에이티브를 광고 경험에 할당할 때 선택적으로 각 `clickTag` 변수에 대한 기본 랜딩 페이지를 재정의할 수 있습니다. [!DNL Creative]은(는) 경험을 저장할 때 클릭 추적을 URL에 추가합니다.
 
-###### 매개 변수
+###### 매개변수
 
 * `clkVar` — 큰따옴표로 묶인 클릭 변수(일반적으로 &quot;clickTag&quot;)의 이름입니다.
 
@@ -140,7 +140,7 @@ var clickTag = “http://www.example.com”;
 
 ###### 사용
 
-기본 HTML 파일의 `<head>` 섹션에서 `amo.registerClick()`을(를) 호출합니다.
+기본 HTML 파일의 `amo.registerClick()` 섹션에서 `<head>`을(를) 호출합니다.
 
 ###### 예
 
@@ -150,7 +150,7 @@ var clickTag = “http://www.example.com”;
 
 종료 이벤트를 트리거하여 사용자를 `clickTag`에 대해 구성된 랜딩 페이지로 리디렉션합니다. 로컬 테스트 중에 이 함수는 개발자에게 함수에 전달되는 URL이 등록되었는지 여부를 알립니다.
 
-###### 매개 변수
+###### 매개변수
 
 * `clkTag` — `amo.registerClick()` 함수를 사용하여 랜딩 페이지 URL을 할당하는 데 사용하는 클릭 변수의 이름으로 작은 따옴표로 묶여 있습니다.
 
@@ -158,9 +158,9 @@ var clickTag = “http://www.example.com”;
 
 ###### 사용
 
-기본 HTML 파일의 `<body>` 섹션에서 `amo.onAdClick()`을(를) 호출합니다.
+기본 HTML 파일의 `amo.onAdClick()` 섹션에서 `<body>`을(를) 호출합니다.
 
-###### 예시
+###### 예
 
 `amo.onAdClick('clickTag')` 또는 `amo.onAdClick('clickTag',clickEvt)`
 
@@ -174,7 +174,7 @@ var clickTag = “http://www.example.com”;
 >
 >이 방법에 정의된 값은 로컬 개발에만 사용되며 라이브 광고 서비스에는 사용되지 않습니다.
 
-###### 매개 변수
+###### 매개변수
 
 * `key` — 속성의 영숫자 이름입니다. 영문자로 시작해야 합니다.
 
@@ -192,7 +192,7 @@ var clickTag = “http://www.example.com”;
 
 로컬 테스트 모드에서 키-값 쌍은 `amo.registerAttribute` API에 의해 등록된 쌍입니다. 제작의 경우, 창의적 생성 및 트래픽 처리 시 창의적 속성 변수 이름과 값을 구성해야 합니다.
 
-### Creative 컨텐츠 요구 사항
+### Creative 콘텐츠 요구 사항
 
 Advertising DSP에서 사용할 수 있는 대부분의 디스플레이 교환에는 다음과 같은 크리에이티브 요구 사항이 있습니다.
 

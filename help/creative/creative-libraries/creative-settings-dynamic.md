@@ -3,7 +3,7 @@ title: 동적 크리에이티브 설정
 description: 동적 크리에이티브에 대한 설정을 참조하십시오.
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: 164ee92f85c0e649dc2bd6c0224a531eb72d1962
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
