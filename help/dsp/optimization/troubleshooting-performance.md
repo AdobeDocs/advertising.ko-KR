@@ -1,16 +1,16 @@
 ---
-title: 문제 해결 성능
+title: 성능 문제 해결
 description: 일반적인 성능 문제를 참조하여 이를 해결하는 방법에 대해 알아보십시오.
 feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
-# 문제 해결 성능
+# 성능 문제 해결
 
 | 문제 | 가능한 원인 | 수행할 작업 |
 | --- | --- | --- |
