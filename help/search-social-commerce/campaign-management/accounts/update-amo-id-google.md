@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]개의 계정만*
 
-기존 [ 계정의 ](/help/integrations/analytics/ids.md#amo-id-formats)AMO ID 추적 코드[!DNL Google Ads]에 대한 레거시(2019년 10월 이전) 형식은 [!DNL Google Ads] 성과 최대 캠페인, 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서의 보고와 같은 Analytics의 일부 기능을 지원하지 않으며, 여러 캠페인에 동일한 ad+키워드+일치 유형 조합이 있는 기타 사용 사례도 지원합니다.
+기존 [&#x200B; 계정의 &#x200B;](/help/integrations/analytics/ids.md#amo-id-formats)AMO ID 추적 코드[!DNL Google Ads]에 대한 레거시(2019년 10월 이전) 형식은 [!DNL Google Ads] 성과 최대 캠페인, 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서의 보고와 같은 Analytics의 일부 기능을 지원하지 않으며, 여러 캠페인에 동일한 ad+키워드+일치 유형 조합이 있는 기타 사용 사례도 지원합니다.
 
 현재 형식에는 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수가 포함되어 있습니다.
 
