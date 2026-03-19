@@ -3,7 +3,7 @@ title: 재사용 가능한 대상 공유
 description: 재사용 가능한 대상을 계정에 사용 가능한 다른 광고주와 공유하는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%

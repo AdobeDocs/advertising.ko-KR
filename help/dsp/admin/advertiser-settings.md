@@ -2,7 +2,7 @@
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
 role: User, Admin
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -132,19 +132,19 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ###### 비디오
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average video viewability rate is]** 이 옵션을 사용하여 기준을 선택합니다.
+**0}을(를) 사용합니다. **[!UICONTROL Include URL's whose average video viewability rate is]** 이 옵션을 사용하여 기준을 선택합니다.
 
-**0&rbrace; 사용&#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+**0} 사용&#x200B;**[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average completion & fully viewable rate is]** 이 옵션을 사용하여 기준을 선택합니다.
+**0}을(를) 사용합니다. **[!UICONTROL Include URL's whose average completion & fully viewable rate is]** 이 옵션을 사용하여 기준을 선택합니다.
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average player size composition is]** 이 옵션을 사용하여 기준을 선택합니다.
+**0}을(를) 사용합니다. **[!UICONTROL Include URL's whose average player size composition is]** 이 옵션을 사용하여 기준을 선택합니다.
 
-**0&rbrace; 사용&#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+**0} 사용&#x200B;**[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 표시
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]** 이 옵션을 사용하여 기준을 선택합니다.
+**0}을(를) 사용합니다. **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]** 이 옵션을 사용하여 기준을 선택합니다.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -158,7 +158,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL Ads.text]
 
-**[!UICONTROL Ads.txt Filtering]:** 기본적으로 각 게시자의 [[!DNL Ads.txt]  목록을 활용하여 사용할 &#x200B;](https://iabtechlab.com/ads-txt-about/)사전 입찰 필터링[!DNL Authorized Digital Sellers] 수준입니다.
+**[!UICONTROL Ads.txt Filtering]:** 기본적으로 각 게시자의 [[!DNL Ads.txt]  목록을 활용하여 사용할 ](https://iabtechlab.com/ads-txt-about/)사전 입찰 필터링[!DNL Authorized Digital Sellers] 수준입니다.
 * *[!UICONTROL Opt out of ads.txt (default)]*: 모든 판매자의 인벤토리를 구매합니다.
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: 도메인의 승인된 직접 판매자 및 리셀러로부터 인벤토리 구매의 우선 순위를 지정합니다.
 * *[!UICONTROL Ads.txt sellers only]*: 도메인의 승인된 직접 판매자 및 리셀러에서만 인벤토리를 구매합니다.
@@ -180,4 +180,4 @@ ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다
 >
 >* [광고주 계정 만들기](/help/dsp/admin/advertiser-create.md)
 
-<!-- >* [View the Advertiser List for the Account](/help/dsp/admin/advertiser-view.md) -->
+<!-- >* [View the advertiser list for the account](/help/dsp/admin/advertiser-view.md) -->

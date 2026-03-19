@@ -3,7 +3,7 @@ title: 세그먼트 삭제
 description: 사용자 지정 또는 CCPA 판매 중지 세그먼트를 삭제하는 방법을 알아봅니다.
 feature: DSP Segments
 exl-id: 2b5f61b1-b07d-45e1-bf1c-8e7c25ead42b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%

@@ -1,16 +1,16 @@
 ---
-title: 재사용 가능한 대상의 세그먼트 키를 클립보드에 복사
+title: 재사용 가능한 대상의 세그먼트 키를 클립보드에 복사합니다.
 description: 재사용 가능한 대상의 구성 및 대상 크기를 보는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
-# 재사용 가능한 대상의 세그먼트 키를 클립보드에 복사
+# 재사용 가능한 대상의 세그먼트 키를 클립보드에 복사합니다.
 
 대상자의 영숫자 세그먼트 키(ID)를 클립보드에 복사할 수 있습니다. 세그먼트 키를 사용하여 [다른 재사용 가능한 대상을 위한 세그먼트 논리를 수동으로 정의](audience-segment-logic-syntax.md)할 수 있습니다.
 

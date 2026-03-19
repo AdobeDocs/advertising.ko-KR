@@ -3,7 +3,7 @@ title: 세그먼트 공유 또는 공유 중지
 description: 사용자 지정 또는 CCPA 판매 중지 세그먼트를 다른 DSP 사용자 계정과 공유하거나 공유를 중지하는 방법에 대해 알아봅니다.
 feature: DSP Segments
 exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%

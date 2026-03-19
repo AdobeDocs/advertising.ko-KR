@@ -3,7 +3,7 @@ title: 재사용 가능한 대상 삭제
 description: 재사용 가능한 대상을 삭제하는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%

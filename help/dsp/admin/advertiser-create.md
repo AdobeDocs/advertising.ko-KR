@@ -2,7 +2,7 @@
 title: 광고주 계정 만들기
 description: 광고주 계정을 만드는 방법을 알아봅니다.
 role: User, Admin
-source-git-commit: bd29bf822385670a3420cf5dac346cecdecabf3d
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%

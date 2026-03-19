@@ -3,7 +3,7 @@ title: 대상 세그먼트 논리 구문
 description: 대상 세그먼트에 대한 논리를 정의하는 데 사용할 수 있는 구문을 참조하십시오.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 재사용 가능한 대상을 만들 때 영숫자 세그먼트 ID(키)와 다음 구문을 사용하여 세그먼트 논리를 수동으로 정의할 수 있습니다.
 
 * () 그룹을 나타냅니다.
-* [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->에 대한 `||`
+* `||` [!DNL OR]에 대한 <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
 * [!DNL AND]에 대한 &amp;&amp;
-* ! 대상: [!DNL NOT] (제외)
+* ! 대상: [!DNL NOT]&#x200B;(제외)
 
 >[!NOTE]
 >
 >* 앞에 ! (이들 제외).
->* [!UICONTROL Audiences] > [!UICONTROL All audiences]에서 [대상자의 세그먼트 ID를 찾을 수 있습니다](reusable-audience-clipboard.md).
+>* [ > ](reusable-audience-clipboard.md)에서 [!UICONTROL Audiences]대상자의 세그먼트 ID를 찾을 수 있습니다[!UICONTROL All audiences].
 
 예를 들어, 다음 논리는
 
