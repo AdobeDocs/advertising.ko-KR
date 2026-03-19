@@ -2,7 +2,7 @@
 title: 사용자 ID를  [!DNL ActionIQ] 에서 범용 ID로 변환
 description: DSP에서  [!DNL ActionIQ] 자사 세그먼트를 수집할 수 있도록 하는 방법을 알아봅니다.
 feature: DSP Audiences
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 1. 대상 라이브러리([!UICONTROL Audiences] > [!UICONTROL All Audiences]에서 대상을 만들거나 편집할 때 또는 배치 설정 내에서 사용 가능)에서 세그먼트가 채워지고 있는지 확인하고 범용 ID 수를 원래 해시된 이메일 주소 수와 비교합니다.
 
-   세그먼트는 DSP에서 24시간 이내에 사용할 수 있어야 합니다. DSP이 대상자 규모 데이터를 받은 후 9시간 이내에 세그먼트를 볼 수 있어야 합니다. 허용되는 ID 변환 속도와 세그먼트 수가 달라질 수 있는 이유에 대한 자세한 내용은 &quot;[이메일 ID와 범용 ID 간의 데이터 분산](#universal-ids-data-variances)&quot;을 참조하십시오.
+   세그먼트는 DSP에서 24시간 이내에 사용할 수 있어야 합니다. DSP이 대상자 규모 데이터를 받은 후 9시간 이내에 세그먼트를 볼 수 있어야 합니다. 허용되는 ID 변환 속도와 세그먼트 수가 달라질 수 있는 이유에 대한 자세한 내용은 &quot;[전자 메일 ID와 범용 ID 간의 데이터 분산](#universal-ids-data-variances)&quot;을 참조하십시오.
 
 세그먼트는 24시간마다 새로 고쳐집니다.
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)
+>* [자사 대상 원본 정보](/help/dsp/audiences/sources/source-about.md)
 >* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
 >* [사용자 ID를  [!DNL Adobe Real-Time CDP] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [사용자 ID를  [!DNL Tealium] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-tealium.md)
