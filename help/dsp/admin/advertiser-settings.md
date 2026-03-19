@@ -132,19 +132,19 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ###### 비디오
 
-**0}을(를) 사용합니다. **[!UICONTROL Include URL's whose average video viewability rate is]** 이 옵션을 사용하여 기준을 선택합니다.
+**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average video viewability rate is]** 이 옵션을 사용하여 기준을 선택합니다.
 
-**0} 사용&#x200B;**[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+**0&rbrace; 사용&#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**0}을(를) 사용합니다. **[!UICONTROL Include URL's whose average completion & fully viewable rate is]** 이 옵션을 사용하여 기준을 선택합니다.
+**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average completion & fully viewable rate is]** 이 옵션을 사용하여 기준을 선택합니다.
 
-**0}을(를) 사용합니다. **[!UICONTROL Include URL's whose average player size composition is]** 이 옵션을 사용하여 기준을 선택합니다.
+**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average player size composition is]** 이 옵션을 사용하여 기준을 선택합니다.
 
-**0} 사용&#x200B;**[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+**0&rbrace; 사용&#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 표시
 
-**0}을(를) 사용합니다. **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]** 이 옵션을 사용하여 기준을 선택합니다.
+**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]** 이 옵션을 사용하여 기준을 선택합니다.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -158,7 +158,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL Ads.text]
 
-**[!UICONTROL Ads.txt Filtering]:** 기본적으로 각 게시자의 [[!DNL Ads.txt]  목록을 활용하여 사용할 ](https://iabtechlab.com/ads-txt-about/)사전 입찰 필터링[!DNL Authorized Digital Sellers] 수준입니다.
+**[!UICONTROL Ads.txt Filtering]:** 기본적으로 각 게시자의 [[!DNL Ads.txt]  목록을 활용하여 사용할 &#x200B;](https://iabtechlab.com/ads-txt-about/)사전 입찰 필터링[!DNL Authorized Digital Sellers] 수준입니다.
 * *[!UICONTROL Opt out of ads.txt (default)]*: 모든 판매자의 인벤토리를 구매합니다.
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: 도메인의 승인된 직접 판매자 및 리셀러로부터 인벤토리 구매의 우선 순위를 지정합니다.
 * *[!UICONTROL Ads.txt sellers only]*: 도메인의 승인된 직접 판매자 및 리셀러에서만 인벤토리를 구매합니다.

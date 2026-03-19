@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 앞에 ! (이들 제외).
->* [ > ](reusable-audience-clipboard.md)에서 [!UICONTROL Audiences]대상자의 세그먼트 ID를 찾을 수 있습니다[!UICONTROL All audiences].
+>* [&#x200B; > &#x200B;](reusable-audience-clipboard.md)에서 [!UICONTROL Audiences]대상자의 세그먼트 ID를 찾을 수 있습니다[!UICONTROL All audiences].
 
 예를 들어, 다음 논리는
 
