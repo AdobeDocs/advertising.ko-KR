@@ -3,9 +3,9 @@ title: 배치에 대한 입찰 승수 관리
 description: 배치 타겟에 대한 입찰 승수를 만들고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 32b811e1fc7c9895b75c1e184db72f2d3f5963a5
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [배치 관리 정보](placement-about.md)
+>* [Advertising DSP의 배치 관리 정보](placement-about.md)
 >* [배치 편집](placement-edit.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [배치 설정](placement-settings.md)
