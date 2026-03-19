@@ -3,9 +3,9 @@ title: 연결된 TV 광고 설정
 description: 연결된 TV 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -70,8 +70,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [광고 관리 정보](ad-about.md)
+>* [Advertising DSP의 광고 관리 정보](ad-about.md)
 >* [단일 광고 만들기](ad-create.md)
->* [광고에 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [광고와 연계된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [광고 사양](ad-specs.md)
 >* [DSP 매크로](/help/dsp/campaign-management/macros.md)

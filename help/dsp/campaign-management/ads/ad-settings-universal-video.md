@@ -3,9 +3,9 @@ title: 범용 비디오 광고 설정
 description: 범용 비디오 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -65,8 +65,8 @@ VAST 형식만 필요한 연결된 TV 또는 인벤토리(일반적으로 Google
 >[!MORELIKETHIS]
 >
 >* 범용 비디오에 대한 [FAQ](/help/dsp/campaign-management/faq-universal-video.md)
->* [광고 관리 정보](ad-about.md)
+>* [Advertising DSP의 광고 관리 정보](ad-about.md)
 >* [단일 광고 만들기](ad-create.md)
->* [광고에 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [광고와 연계된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [광고 사양](ad-specs.md)
 >* [DSP 매크로](/help/dsp/campaign-management/macros.md)

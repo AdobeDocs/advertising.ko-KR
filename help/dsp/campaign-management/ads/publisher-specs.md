@@ -2,9 +2,9 @@
 title: 게시자별 광고 사양
 description: 지원되는 게시자에 대한 광고 사양을 참조하십시오.
 feature: DSP Ads
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [광고 관리 정보](ad-about.md)
+>* [Advertising DSP의 광고 관리 정보](ad-about.md)
 >* [여러 타사 광고 만들기](ad-create-multiple.md)
 >* [광고 사양](/help/dsp/campaign-management/ads/ad-specs.md)

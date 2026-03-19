@@ -3,9 +3,9 @@ title: 캠페인 편집
 description: 캠페인을 편집하는 방법을 알아봅니다.
 feature: DSP Campaigns
 exl-id: d0cbcd11-138a-41be-a027-e5e49e24afa2
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [캠페인 관리 정보](campaign-about.md)
+>* [Advertising DSP의 캠페인 관리 정보](campaign-about.md)
 >* [캠페인 만들기](campaign-create.md)
 >* [캠페인에 대한 변경 로그 보기](campaign-change-log.md)
 >* [캠페인 일시 중지 또는 활성화](campaign-pause-activate.md)

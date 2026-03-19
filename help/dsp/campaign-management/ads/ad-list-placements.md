@@ -3,9 +3,9 @@ title: 광고와 연결된 배치 나열
 description: 광고와 연결된 배치를 확인하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [광고 관리 정보](ad-about.md)
+>* [Advertising DSP의 광고 관리 정보](ad-about.md)
 >* [광고 편집](ad-edit.md)
 >* [배치 편집](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [배치에 대한 자세한 보고서 보기](/help/dsp/campaign-management/placements/placement-view-report.md)

@@ -3,9 +3,9 @@ title: 캠페인 복제
 description: 캠페인을 복제하는 방법을 알아봅니다.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [캠페인 관리 정보](campaign-about.md)
+>* [Advertising DSP의 캠페인 관리 정보](campaign-about.md)
 >* [캠페인 만들기](campaign-create.md)
 >* [캠페인 편집](campaign-edit.md)
 >* [캠페인에 대한 변경 로그 보기](campaign-change-log.md)
