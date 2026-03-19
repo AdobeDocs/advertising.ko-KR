@@ -3,7 +3,7 @@ title: 범용 ID 대상을 활성화하기 위한 대상 소스 관리
 description: 소스를 만들고 관리하여 고객 데이터 플랫폼에서 대상을 가져와 범용 ID가 포함된 세그먼트로 변환하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: b14f9c4ff59332c8850d1c1534d286aa79fe575a
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -121,7 +121,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 * *[!DNL RampID]:* PII를 [!DNL RampID]&#x200B;(으)로 변환하려는 경우 로그인 사용자를 다시 타겟팅하고 [!DNL RampIDs] 측정을 위해 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용할 수 있습니다.
 
-* *[!DNL Unified ID2.0] (Beta):* 로그인 사용자를 다시 타깃팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
+* *[!DNL Unified ID2.0](Beta):* 로그인 사용자를 다시 타깃팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
@@ -134,7 +134,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 >[!MORELIKETHIS]
 >
->* [자사 대상 소스 정보](source-about.md)
+>* [자사 대상 원본 정보](source-about.md)
 >* [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
 >* [사용자 ID를  [!DNL Adobe Real-Time CDP] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [사용자 ID를  [!DNL Amperity] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-amperity.md)
