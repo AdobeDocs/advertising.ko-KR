@@ -3,7 +3,7 @@ title: 데이터 업로드를 위한 광고 네트워크 계정 구성
 description: 광고 네트워크 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법을 알아봅니다.
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
+source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 **[!UICONTROL Account Synchronization and Management]> [!UICONTROL Account Enabled]:** 검색, 소셜 및 Commerce에서는 지정된 S3 버킷에 대해 자동화된 데이터 가져오기를 허용합니다.
 
-## [!UICONTROL Setup Analytics] 탭
+### [!UICONTROL Setup Analytics] 탭
 
 **[!UICONTROL Adobe Analytics Report Suite]:**(Advertisers with an [[!DNL Adobe Analytics for Advertising] integration](/help/integrations/analytics/overview.md); 선택 사항) Search, Social 및 Commerce이 개체 분류 및 계정에 대한 클릭 데이터를 포함하여 광고 네트워크에 대해 업로드한 데이터를 전송하는 하나 이상의 Analytics 보고서 세트입니다.
 
