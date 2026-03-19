@@ -3,9 +3,9 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 784d65f60de8962e634613f513037b2a6e6058bc
 workflow-type: tm+mt
-source-wordcount: '2933'
+source-wordcount: '2927'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,8 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | 콘텐츠/영화 제목. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | 콘텐츠 시리즈. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | 콘텐츠 장르. |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | [IAB 기술 연구소](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)에서 정의한 프로덕션 품질입니다. 값은 `Unknown`, `Professionally Produced`, `Prosumer` 또는 `User Generated`일 수 있습니다. |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | [IAB 기술 연구소](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)에서 정의한 콘텐츠 유형입니다. 값에는 `Video,` `Game`, `Music`, `Application`, `Text`, `Other` 또는 `Unknown`이(가) 포함될 수 있습니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | [the [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)에 정의된 프로덕션 품질입니다. 값은 `Unknown`, `Professionally Produced`, `Prosumer` 또는 `User Generated`일 수 있습니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | [the [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md)&#x200B;(으)로 정의된 콘텐츠 형식입니다. 값에는 `Video,` `Game`, `Music`, `Application`, `Text`, `Other` 또는 `Unknown`이(가) 포함될 수 있습니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Rating] | 콘텐츠 등급(예: PG 또는 R). |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Livestream] | 광고가 실시간 스트림에 표시되었는지 여부: `Not Live` 또는 `Live`. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Length (in seconds)] | 콘텐츠의 길이(초)입니다. 일반적으로 비디오나 오디오에 사용됩니다. |
