@@ -26,11 +26,11 @@ Adobe Advertising과 [!DNL Marketing Channels] 데이터 세트의 통합에 대
 
   이 데이터를 수집하기 위해 [!DNL Analytics for Advertising] 통합은 사용자 지정 변수(eVar) 또는 예약된 변수(rVar)로 저장된 Adobe Analytics의 AMO ID 차원에서 클릭스루 및 뷰스루 추적 코드로 변환할 수 있는 원시 AMO ID를 전달합니다. 다른 채널의 클릭스루는 AMO ID 차원에 설정되지 않으므로 AMO ID 차원은 이러한 다른 채널의 항목을 추적할 수 없습니다. 따라서 AMO ID는 [!DNL Marketing Channels] 진입점을 통해 유지됩니다.
 
-Adobe Advertising에서 추적한 데이터와 [!DNL Analytics]에서 추적한 데이터 간의 가능한 데이터 차이에 대한 자세한 내용은 &quot;[과(와) Adobe Advertising 간의 예상 데이터 분산 [!DNL Analytics] 과(와) ](../data-variances.md)&quot;을(를) 참조하십시오.&quot;
+Adobe Advertising에서 추적한 데이터와 [!DNL Analytics]에서 추적한 데이터 간의 가능한 데이터 차이에 대한 자세한 내용은 &quot;[과(와) Adobe Advertising 간의 예상 데이터 분산 [!DNL Analytics] 과(와) &#x200B;](../data-variances.md)&quot;을(를) 참조하십시오.&quot;
 
 >[!MORELIKETHIS]
 >
->* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) ](/help/integrations/analytics/data-variances.md)
+>* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) &#x200B;](/help/integrations/analytics/data-variances.md)
 >* [기본  [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertising ID를 사용하여 만들기 [!DNL Marketing Channels] 처리 규칙](mc-ids.md)
 >* [사용 [!DNL Analytics Marketing Channels] Adobe Advertising 데이터 사용](mc-ac-data.md)
