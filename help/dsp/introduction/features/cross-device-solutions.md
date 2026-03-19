@@ -3,7 +3,7 @@ title: 크로스 디바이스 솔루션
 description: 크로스 디바이스 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 2c7ba1862b1883b4523d9121d8b0761129ad70fb
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 0%

@@ -1,11 +1,11 @@
 ---
 title: 개인 인벤토리 기본 정보
-description: 비공개 인벤토리 정보
+description: 개인 인벤토리 기본 정보
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ RTB 이상을 원하는 광고주는 전용 인벤토리를 사용하여 전용 
 
 다음 방법 중 하나로 거래 ID를 사용할 수 있습니다.
 
-* (활성화가 필요한 선택적 기능) [!UICONTROL Deal ID Inbox]에서 [!DNL FreeWheel]의 SSP(공급측 플랫폼)인 [!DNL Google Authorized Buyers], [!DNL AdX]&#x200B;(이전의 [!DNL Magnite DV+]) 및 [!DNL Rubicon]&#x200B;(이전의 [!UICONTROL Deal ID inbox])에 있는 게시자의 합의된 보장 및 보장되지 않는 개인 인벤토리 거래를 검토하고 빠르게 수락할 수 있습니다.
+* (활성화가 필요한 선택적 기능) [!UICONTROL Deal ID Inbox]에서 [!DNL FreeWheel]의 SSP(공급측 플랫폼)인 [!DNL Google Authorized Buyers], [!DNL AdX]&#x200B;(이전의 [!DNL Magnite DV+]) 및 [!DNL Rubicon]&#x200B;(이전의 [!UICONTROL Deal ID Inbox])에 있는 게시자의 합의된 보장 및 보장되지 않는 개인 인벤토리 거래를 검토하고 빠르게 수락할 수 있습니다.
 
   자세한 내용은 &quot;[[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md) 정보&quot;를 참조하세요.
 
@@ -49,6 +49,6 @@ RTB 이상을 원하는 광고주는 전용 인벤토리를 사용하여 전용 
 >
 >* [인벤토리 기능 개요](/help/dsp/inventory/inventory-overview.md)
 >* [[!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md) 정보
->* [거래 ID 받은 편지함에서 거래 수락](deal-id-inbox-accept.md)
->* [거래 ID 세부 정보 수동으로 만들기](deal-id-create.md)
+>* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)에서 거래 수락
+>* [거래 ID 세부 정보를 수동으로 만들기](deal-id-create.md)
 >* [거래 목록 관리](/help/dsp/inventory/lists-deals-manage.md)
