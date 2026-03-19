@@ -3,9 +3,9 @@ title: ' [!DNL Marketing Channels]의 기본 사항'
 description: ' [!DNL Analytics Marketing Channels] 사용자가 이해해야 하는  [!DNL Analytics for Advertising] 에 대한 주요 정보를 알아봅니다.'
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
+source-git-commit: e0436d3840fc138bad6ee3e3599cffd2385750cd
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 이 페이지에서는 [!DNL Analytics Marketing Channels] 사용자가 이해해야 하는 [!DNL Analytics for Advertising]에 대한 주요 정보를 설명합니다.
 
-[!DNL Marketing Channels]에 대한 전체 설명서는 &quot;[시작하기 [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=ko)&quot;를 참조하십시오.
+[!DNL Marketing Channels]에 대한 전체 설명서는 &quot;[시작하기 [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html)&quot;를 참조하십시오.
 
 ## [!DNL Marketing Channels] 개요
 
@@ -36,12 +36,12 @@ ht-degree: 0%
 
 Adobe에서는 분석 팀과 함께 비즈니스와 관련된 모든 채널을 추적할 수 있는 포괄적인 [!DNL Marketing Channels] 처리 규칙 집합을 빌드하는 것을 권장합니다. 이렇게 하면 강력한 속성 보고를 생성할 수 있습니다.
 
-Adobe Advertising이 사용자 지정 마케팅 채널을 만드는 데 필요한 신호에 어떻게 기여할 수 있는지 이해하려면 &quot;[Advertising ID를 사용하여 만들기 [!DNL Marketing Channels] 규칙](mc-ids.md)&quot;을 참조하세요.
+Adobe Advertising이 사용자 지정 마케팅 채널을 만드는 데 필요한 신호에 어떻게 기여할 수 있는지 이해하려면 &quot;[Adobe Advertising ID를 사용하여 만들기 [!DNL Marketing Channels] 처리 규칙 만들기](mc-ids.md)&quot;를 참조하십시오.
 
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising ID를 사용하여 만들기 [!DNL Marketing Channels] 처리 규칙](mc-ids.md)
 >* [채널 데이터가 Adobe Advertising과  [!DNL Marketing Channels]](mc-data-variances.md) 간에 다를 수 있는 이유
 >* [사용 [!DNL Analytics Marketing Channels] Adobe Advertising 데이터 사용](mc-ac-data.md)
->* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ko)
+>* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
