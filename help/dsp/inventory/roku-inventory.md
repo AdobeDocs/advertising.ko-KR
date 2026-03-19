@@ -69,8 +69,8 @@ DSP 캠페인에서 배치 유형 &quot;[&quot;을(를) 사용하여  [!DNL Roku
 
 가장 빠른 설정의 경우:
 
-* [!DNL The Roku Channel]인벤토리[[!DNL On Demand] 에서 ](/help/dsp/inventory/on-demand-inventory-subscribe.md)의 기존 상시 거래를 대상으로 하여 [!DNL Roku]개의 소유 및 운영 인벤토리에 빠르게 액세스할 수 있습니다.
-* [!DNL Roku Network]인벤토리[[!DNL On Demand] 에서 ](/help/dsp/inventory/on-demand-inventory-subscribe.md)에 대해 항상 유지되는 기존 거래를 대상으로 하여 [!DNL Roku] 플랫폼 전반에서 빠르게 확장할 수 있습니다.
+* [!DNL The Roku Channel]인벤토리[[!DNL On Demand] 에서 &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)의 기존 상시 거래를 대상으로 하여 [!DNL Roku]개의 소유 및 운영 인벤토리에 빠르게 액세스할 수 있습니다.
+* [!DNL Roku Network]인벤토리[[!DNL On Demand] 에서 &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)에 대해 항상 유지되는 기존 거래를 대상으로 하여 [!DNL Roku] 플랫폼 전반에서 빠르게 확장할 수 있습니다.
 
 최대 크기 조절:
 
