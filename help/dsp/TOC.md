@@ -73,7 +73,7 @@ ht-degree: 4%
       + [공인 광고 서비스 파트너](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [단일 광고 만들기](/help/dsp/campaign-management/ads/ad-create.md)
       + [여러 타사 광고 만들기](/help/dsp/campaign-management/ads/ad-create-multiple.md)
-      + [ [!DNL Flashtalking](으)로 광고 만들기](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [[!DNL Flashtalking] (으)로 광고 만들기](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [일괄 시트를 사용하여 광고 세부 사항 검토 및 편집](/help/dsp/campaign-management/ads/ad-qa.md)
       + [광고 편집](/help/dsp/campaign-management/ads/ad-edit.md)
       + [광고 복제](/help/dsp/campaign-management/ads/ad-duplicate.md)
@@ -145,11 +145,11 @@ ht-degree: 4%
          + [사용자 ID를  [!DNL Optimizely] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-optimizely.md)
          + [사용자 ID를  [!DNL Tealium] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-tealium.md)
       + [범용 ID 대상을 활성화하기 위한 대상 소스 관리](/help/dsp/audiences/sources/source-manage.md)
-   + [ [!DNL LiveRamp]에서 인증된 세그먼트를 수동으로 가져오기](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+   + [&#x200B; [!DNL LiveRamp]에서 인증된 세그먼트를 수동으로 가져오기](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [사용 가능한 타사 데이터 공급자](/help/dsp/audiences/third-party-data-providers.md)
 + 인벤토리 {#inventory}
    + [Advertising DSP의 인벤토리 기능 개요](/help/dsp/inventory/inventory-overview.md)
-   + [ [!DNL Roku Inventory] 사용 중](/help/dsp/inventory/roku-inventory.md)
+   + [&#x200B; [!DNL Roku Inventory] 사용 중](/help/dsp/inventory/roku-inventory.md)
    + [SSP 파트너](/help/dsp/inventory/ssp-partners.md)
    + [!DNL On Demand] 인벤토리 {#on-demand}
       + [약 [!DNL On Demand] premium 인벤토리](/help/dsp/inventory/on-demand-inventory-about.md)
@@ -158,9 +158,9 @@ ht-degree: 4%
          + [호주 및 뉴질랜드의 프리미엄 인벤토리 게시자 [!DNL On Demand]명](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
          + [유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자 [!DNL On Demand]명](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
          + [북미의 프리미엄 인벤토리 게시자 [!DNL On Demand]명](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [ [!DNL On Demand] 프리미엄 인벤토리 거래 구독 및 액세스 요청](/help/dsp/inventory/on-demand-inventory-subscribe.md)
-      + [ [!DNL On Demand] 프리미엄 인벤토리 거래 재요청](/help/dsp/inventory/on-demand-inventory-rerequest.md)
-      + [ [!DNL On Demand] 거래 요청 및 구독 상태 보기](/help/dsp/inventory/on-demand-inventory-view-status.md)
+      + [&#x200B; [!DNL On Demand] 프리미엄 인벤토리 거래 구독 및 액세스 요청](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [&#x200B; [!DNL On Demand] 프리미엄 인벤토리 거래 재요청](/help/dsp/inventory/on-demand-inventory-rerequest.md)
+      + [&#x200B; [!DNL On Demand] 거래 요청 및 구독 상태 보기](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + 비공개 인벤토리 {#private-inventory}
       + [개인 인벤토리 기본 정보](/help/dsp/inventory/private-inventory-about.md)
       + 거래 ID {#deal-ids}
@@ -175,9 +175,9 @@ ht-degree: 4%
             + [프로그램 보증 거래를 협상하기 위한 팁](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [프로그램 보증 거래 설정](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel]개의 프로그램 보증 거래 {#freewheel}
-               + [ [!DNL Freewheel]에서 프로그램 보증 거래 설정에 대한 개요](/help/dsp/inventory/freewheel-overview.md)
+               + [&#x200B; [!DNL Freewheel]에서 프로그램 보증 거래 설정에 대한 개요](/help/dsp/inventory/freewheel-overview.md)
                + [프로그램 보증 거래에 대한 광고를  [!DNL Freewheel]에 제출](/help/dsp/inventory/freewheel-submit.md)
-               + [ [!DNL FreeWheel] PG 거래에 대한 광고 상태 확인](/help/dsp/inventory/freewheel-check-status.md)
+               + [&#x200B; [!DNL FreeWheel] PG 거래에 대한 광고 상태 확인](/help/dsp/inventory/freewheel-check-status.md)
                + [FreeWheel 광고 제출을 위한 오류 코드](/help/dsp/inventory/freewheel-error-codes.md)
       + [비공개 거래 설정 편집](/help/dsp/inventory/deal-id-edit.md)
       + [비공개 거래에 대한 배치 및 광고 지정](/help/dsp/inventory/deal-id-attach-placements.md)
