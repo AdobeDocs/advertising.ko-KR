@@ -3,7 +3,7 @@ title: 일괄 시트를 사용하여 광고 세부 사항 검토 및 편집
 description: 스프레드시트를 사용하여 광고 설정을 대량으로 검토하는 방법에 대해 알아봅니다.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -45,7 +45,7 @@ XLSX(Excel 스프레드시트) 형식으로 캠페인에 있는 모든 광고에
 
    * 상단 메뉴 모음 오른쪽에서 ![작업](/help/dsp/assets/downloads.png)을 클릭합니다. 작업 옆에 있는 **[!UICONTROL Download]**&#x200B;을(를) 클릭합니다.
 
-     파일이 브라우저의 다운로드 폴더에 저장됩니다.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     파일이 브라우저의 다운로드 폴더에 저장됩니다.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 >[!MORELIKETHIS]
 >

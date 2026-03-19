@@ -1,16 +1,16 @@
 ---
-title: 유니버설 비디오에 대한 FAQ
+title: 범용 비디오에 대한 FAQ
 description: 범용 비디오 광고에 대해 자세히 알아보십시오.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# 유니버설 비디오에 대한 FAQ
+# 범용 비디오에 대한 FAQ
 
 [범용 비디오 광고](/help/dsp/campaign-management/ads/ad-about.md#ad-types)를 사용하면 단일 비디오 배치를 사용하여 VPAID 및 VAST 인벤토리를 위해 데스크톱, 모바일 및 연결된 TV 환경에서 비디오 인벤토리를 타깃팅할 수 있습니다.
 
