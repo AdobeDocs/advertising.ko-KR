@@ -2,9 +2,9 @@
 title: 사용자 정의 보고서에 대한 FAQ
 description: 세대 보고서 및 전환 경로 분석 보고서를 포함하여 사용자 지정 보고서에 대해 자세히 알아보십시오.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 8ba0d485562017caf2a5dedb6215e1485be16c34
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 #### [!UICONTROL Placement Tags] 차원에 대한 보고서를 구성하려면 어떻게 해야 합니까?
 
-배치용 태그를 만들려면 [배치 설정을 열고](/help/dsp/campaign-management/placements/placement-edit.md) [배치 태그 필드에 값을 입력하십시오](/help/dsp/campaign-management/placements/placement-settings.md).
+배치에 태그를 만들려면 [배치 설정을 열고](/help/dsp/campaign-management/placements/placement-edit.md) [[!UICONTROL Placement Tags] 필드에 값을 입력하십시오](/help/dsp/campaign-management/placements/placement-settings.md).
 
 배치에 여러 태그가 포함되어 있는 경우 보고서는 전체 문자열을 하나의 태그로 간주합니다. 보고서에는 각 고유 문자열에 대해 하나의 행이 포함됩니다.
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 * [!DNL Analytics] 보고서 데이터는 마케팅 채널, 사이트 참여 지표 등을 기준으로 분석하는 데 특히 유용합니다. DSP [!UICONTROL Household Conversions] 보고서는 전환 데이터를 미디어 유형 및 게시자와 같은 다양한 차원으로 분할할 수 있도록 함으로써 보다 세부적인 통찰력을 제공합니다.
 
-### [!UICONTROL Household Reach & Frequency] 및 [!UICONTROL Household Conversions]개 보고서와 [!DNL Advanced Measurement Services]의 데이터 비교
+### [!UICONTROL Household Reach & Frequency] 및 [!UICONTROL Household Conversions] 보고서와 [!DNL Advanced Measurement Services]의 데이터 비교
 
 가족 단위 기반 도달 범위와 빈도 또는 전환에 대한 고급 보고를 위해 [[!DNL Strategic Advertising Consulting] 팀](/help/dsp/introduction/advanced-measurement-services.md)은(는) 전체적인 전략적 권장 사항과 함께 사용자 지정성이 높은 보고서를 제공할 수 있습니다. [!DNL Advanced Measurement Services]에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
@@ -103,9 +103,9 @@ ht-degree: 0%
 
 ## 전환 경로 분석 보고서
 
-### 전환 경로 보고서는 [!DNL Advanced Measurement Services] 및 Adobe Analytics Analysis Workspace에서 만든 보고서와 어떻게 비교됩니까?
+### [!UICONTROL Path to Conversion] 보고서는 [!DNL Advanced Measurement Services] 및 Adobe Analytics Analysis Workspace에서 만든 보고서와 어떻게 비교됩니까?
 
-| | 전환 보고서 경로 | 검색 보고에 대한 Advanced Measurement Services Halo 효과 | Analysis Workspace의 보고서 |
+| | [!UICONTROL Path to Conversion] 보고서 | 검색 보고에 대한 Advanced Measurement Services Halo 효과 | Analysis Workspace의 보고서 |
 | --- | --- | --- |---|
 | 고객 가치 | 셀프 서비스 사용자 지정 보고서를 생성하여 최적화를 높이기 위해 전환된 광고 여정의 경로를 파악합니다. | 검색 클릭에 대한 연결된 TV(CTV) 전술의 영향 이해 | 다른 마케팅 채널과 함께 전체적인 Adobe Advertising 투자가 검색 클릭에 미치는 영향을 이해합니다 |
 | 가구 수준 | 예 | 예 | 아니요 |
@@ -117,7 +117,7 @@ ht-degree: 0%
 | 마케팅 채널 | DSP + 검색(검색, 소셜 및 Commerce) | DSP + 검색(검색, 소셜 및 Commerce) | Adobe Advertising 클릭스루 EF ID로 추적되지 않는 마케팅 채널(예: 유기 검색, 유기 소셜, 이메일 및 제휴) |
 | 지원되는 전환 지표 | Adobe Advertising 이벤트 픽셀(AMO ID) 및 Adobe Analytics 추적을 사용하여 추적된 지표 | 클릭 수(전환 없음) | Adobe Analytics 추적을 사용하여 추적된 지표 |
 
-검색 보고에 대한 Advanced Measurement Services Halo 효과에 대한 자세한 내용은 &quot;[고급 측정 서비스](/help/dsp/introduction/advanced-measurement-services.md)&quot;를 참조하십시오.
+검색 보고에 대한 고급 측정 서비스 후광 효과에 대한 자세한 내용은 &quot;[고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)&quot;을 참조하십시오.
 
 >[!MORELIKETHIS]
 >
