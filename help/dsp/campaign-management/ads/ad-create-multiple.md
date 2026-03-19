@@ -54,7 +54,7 @@ ht-degree: 0%
 
       * 광고를 제거하려면 광고 행에서 **[!UICONTROL X]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Create *N *개의 광고]**를 클릭합니다.
+1. **[!UICONTROL Create *N *개의 광고]**&#x200B;를 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 

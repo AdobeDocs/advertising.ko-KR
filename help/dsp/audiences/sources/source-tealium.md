@@ -124,7 +124,7 @@ ht-degree: 0%
 
                * Cookies 특성의 경우 사용자 지정 메시지의 이름을 `cookies`로 지정합니다.
 
-            1. 사용자 지정 필드를 만드는 옵션의 [!DNL Source Key] 필드에 이전 절차의 [!UICONTROL External Segment Key]세그먼트 매핑 데이터[에 포함된 ](#map-data)을(를) 입력하십시오.
+            1. 사용자 지정 필드를 만드는 옵션의 [!DNL Source Key] 필드에 이전 절차의 [!UICONTROL External Segment Key]세그먼트 매핑 데이터[에 포함된 &#x200B;](#map-data)을(를) 입력하십시오.
 
                DSP은 이 키를 사용하여 세그먼트를 채웁니다.
 
