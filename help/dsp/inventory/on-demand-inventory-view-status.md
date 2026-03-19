@@ -3,9 +3,9 @@ title: ' [!DNL On Demand] 거래 요청 및 구독 상태 보기'
 description: ' [!DNL On Demand] 거래 요청 및 구독의 상태를 보는 방법에 대해 알아봅니다.'
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: a65abcd843c34e43b1a6f031420ea000092f2b73
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Premium 인벤토리 거래 구독 및 액세스 요청 [!DNL On Demand] 2&rbrace;](on-demand-inventory-subscribe.md)
->* [On Demand Premium 인벤토리 거래 재요청](on-demand-inventory-rerequest.md)
->* 아시아 태평양의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
->* 호주 및 뉴질랜드의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
+>* [프리미엄 인벤토리 거래  [!DNL On Demand] 구독 및 액세스 요청](on-demand-inventory-subscribe.md)
+>* [재요청 [!DNL On Demand] 프리미엄 인벤토리 거래](on-demand-inventory-rerequest.md)
+>* 아시아 태평양의 [[!DNL On Demand] 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
+>* 호주 및 뉴질랜드의 [[!DNL On Demand] 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-emea.md)
->* 북미 지역의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-na.md)
+>* 북미 지역의 [[!DNL On Demand] 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-na.md)
