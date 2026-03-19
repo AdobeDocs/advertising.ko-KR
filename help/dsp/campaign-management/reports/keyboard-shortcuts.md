@@ -3,7 +3,7 @@ title: 키보드 단축키
 description: 배치 설정 내에서 사용할 수 있는 키보드 단축키를 참조하십시오.
 feature: DSP Placements
 exl-id: d1711166-8f20-4641-a1f5-c865a40ad387
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 1%

@@ -3,9 +3,9 @@ title: 연결된 TV 도달 계획에 대한 예측 내보내기
 description: 연결된 TV 도달 계획에 대한 Forecast를 내보내는 방법을 알아봅니다.
 feature: DSP Planner
 exl-id: f4bad569-1b56-439a-8c41-92a24a710476
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [DSP 플래너 도구 정보](planner-about.md)
+>* [DSP [!UICONTROL Planner] 도구 정보](planner-about.md)
 >* [연결된 TV 도달 계획 만들기](planner-create.md)
 >* [연결된 TV 도달 계획 복제](planner-duplicate.md)
 >* [연결된 TV 도달 계획 편집](planner-edit.md)

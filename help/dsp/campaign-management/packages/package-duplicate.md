@@ -3,9 +3,9 @@ title: 패키지 복제
 description: 패키지를 복제하는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [패키지 관리 정보](package-about.md)
+>* [Advertising DSP의 패키지 관리 정보](package-about.md)
 >* [패키지 만들기](package-create.md)
 >* [패키지 편집](package-edit.md)
 >* [패키지에 대한 변경 로그 보기](package-change-log.md)

@@ -3,9 +3,9 @@ title: 패키지 편집
 description: 패키지를 편집하는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [패키지 관리 정보](package-about.md)
+>* [Advertising DSP의 패키지 관리 정보](package-about.md)
 >* [일괄 시트를 사용하여 패키지 설정 검토 및 편집](/help/dsp/campaign-management/packages/package-qa.md)
 >* [패키지 만들기](package-create.md)
 >* [패키지 복제](package-duplicate.md)

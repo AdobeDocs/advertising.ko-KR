@@ -3,9 +3,9 @@ title: 연결된 TV 도달 계획 보관
 description: 연결된 TV 도달 계획을 보관하는 방법에 대해 알아봅니다.
 feature: DSP Planner
 exl-id: 335db881-51e6-412d-9346-216c6a70a6de
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [DSP 플래너 도구 정보](planner-about.md)
+>* [DSP [!UICONTROL Planner] 도구 정보](planner-about.md)
 >* [연결된 TV 도달 계획 만들기](planner-create.md)
 >* [연결된 TV 도달 계획 복제](planner-duplicate.md)
 >* [연결된 TV 도달 계획 편집](planner-edit.md)
