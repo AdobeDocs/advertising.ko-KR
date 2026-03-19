@@ -3,16 +3,16 @@ title: ' [!DNL FreeWheel] 광고 제출을 위한 오류 코드'
 description: 광고 제출을 위해  [!DNL FreeWheel]에 반환되는 오류 코드를 참조합니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '642'
 ht-degree: 3%
 
 ---
 
 # [!DNL FreeWheel] 광고 제출에 대한 오류 코드
 
-실패한 광고 제출에 대한 오류 메시지는 Advertising DSP 또는 [!DNL FreeWheel]에서 가져올 수 있습니다. 오류 메시지가 [!UICONTROL API Response] 대화 상자[[!UICONTROL Freewheel Status]의 &#x200B;](freewheel-check-status.md) 열에 표시됩니다.
+실패한 광고 제출에 대한 오류 메시지는 Advertising DSP 또는 [!DNL FreeWheel]에서 가져올 수 있습니다. 오류 메시지가 [!UICONTROL API Response] 대화 상자[[!UICONTROL Freewheel Status]의 ](freewheel-check-status.md) 열에 표시됩니다.
 
 ## Advertising DSP 내부 오류
 
@@ -65,6 +65,6 @@ ht-degree: 3%
 >[!MORELIKETHIS]
 >
 >* [프로그램 보증 거래 설정 개요 [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
->* [거래 ID 받은 편지함에서 거래 수락](deal-id-inbox-accept.md)
->* [프로그램 보증 거래에 대한 광고 제출 [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
->* [광고 상태 확인 [!DNL FreeWheel] 프로그램 보증 거래](/help/dsp/inventory/freewheel-check-status.md)
+>* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)에서 거래 수락
+>* [프로그램 보증 거래에 대한 광고를  [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)에 제출
+>* [PG 거래에 대한 광고 상태 확인 [!DNL FreeWheel] PG 거래](/help/dsp/inventory/freewheel-check-status.md)

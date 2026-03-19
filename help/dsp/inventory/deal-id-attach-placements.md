@@ -3,7 +3,7 @@ title: 비공개 거래에 대한 배치 및 광고 지정
 description: 추가 배치 및 광고를 통해 비공개 거래를 사용하는 방법에 대해 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -56,6 +56,6 @@ ht-degree: 0%
 >
 >* [개인 인벤토리 정보](private-inventory-about.md)
 >* [비공개 거래에 대한 배치 및 광고 나열](/help/dsp/inventory/private-deal-view-placements.md)
->* [거래 ID 세부 정보 수동으로 만들기](deal-id-create.md)
+>* [거래 ID 세부 정보를 수동으로 만들기](deal-id-create.md)
 >* [수동 거래 ID 설정](deal-id-settings.md)
 >* [프로그램 보증 거래 설정](programmatic-guaranteed-set-up.md)

@@ -3,7 +3,7 @@ title: 거래 ID 세부 정보 수동으로 만들기
 description: 거래 ID에 대한 세부 사항을 수동으로 입력하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -70,4 +70,4 @@ ht-degree: 0%
 >* [프로그램 보증 거래 설정](programmatic-guaranteed-set-up.md)
 >* [프로그램 보증 거래에 대한 광고 제출 [!DNL FreeWheel]](freewheel-submit.md)
 >* [프로그램 보증 거래 정보](programmatic-guaranteed-about.md)
-<!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
+<!-- >* [Specify placements and ads for a private deal](deal-id-attach-placements.md)-->

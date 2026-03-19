@@ -3,9 +3,9 @@ title: 호주 및 뉴질랜드의 프리미엄 인벤토리 게시자 [!DNL On D
 description: 호주와 뉴질랜드의 사용 가능한 [!DNL On Demand] 프리미엄 인벤토리 게시자를 확인하세요.
 feature: DSP On Demand Inventory
 exl-id: 9c494ad0-eb35-464e-b154-3f56c02968f1
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -96,8 +96,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [정보 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-about.md)
->* [Premium Inventory 구독 및 액세스 요청 [!DNL On Demand] 2&rbrace;](on-demand-inventory-subscribe.md)
->* 아시아 태평양의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand Premium] 유럽, 중동 및 아프리카의 인벤토리 게시자](on-demand-inventory-publishers-emea.md)
->* 북미 지역의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-na.md)
+>* [정보 [!DNL On Demand] 프리미엄 인벤토리](on-demand-inventory-about.md)
+>* [프리미엄 인벤토리 거래  [!DNL On Demand] 구독 및 액세스 요청](on-demand-inventory-subscribe.md)
+>* 아시아 태평양의 [[!DNL On Demand] 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-emea.md)
+>* 북미 지역의 [[!DNL On Demand] 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-na.md)

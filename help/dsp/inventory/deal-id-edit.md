@@ -3,9 +3,9 @@ title: 비공개 거래 설정 편집
 description: 비공개 거래의 세부 정보를 편집하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
    [!UICONTROL Deal Name], [!UICONTROL Media Type]&#x200B;(거래에 여러 미디어 유형이 포함된 경우), [!UICONTROL CPM] 값, [!UICONTROL Account email], [!UICONTROL Advertisers that can access this deal], [!UICONTROL Flight dates] 및 [!UICONTROL Impressions]을(를) 편집할 수 있습니다.
 
-   [!UICONTROL Deal ID], [!UICONTROL Publisher], [!UICONTROL SSP], [!UICONTROL Deal Type] 또는 [!UICONTROL Billing Method]을(를) 편집할 수 없습니다.
+   [!UICONTROL Deal ID], [!UICONTROL Publisher], [!UICONTROL SSP], [!UICONTROL Deal Type] 또는 [!UICONTROL Billing Method] 설정을 편집할 수 없습니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
 >* [개인 인벤토리 정보](private-inventory-about.md)
->* [거래 ID 세부 정보 수동으로 만들기](deal-id-create.md)
+>* [거래 ID 세부 정보를 수동으로 만들기](deal-id-create.md)
 >* [수동 거래 ID 설정](deal-id-settings.md)
 >* [프로그램 보증 거래 설정](programmatic-guaranteed-set-up.md)
->* [비공개 거래에 배치 및 광고 첨부](/help/dsp/inventory/deal-id-attach-placements.md)
+>* [비공개 거래에 대한 배치 및 광고 지정](/help/dsp/inventory/deal-id-attach-placements.md)
 >* [비공개 거래 보관 또는 보관 해제](/help/dsp/inventory/private-deal-archive-unarchive.md)

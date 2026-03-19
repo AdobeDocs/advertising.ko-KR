@@ -3,9 +3,9 @@ title: ' [!DNL FreeWheel]에게 PG 거래에 대한 광고 제출'
 description: ' [!DNL Freewheel]의 게시자와 프로그래밍 방식으로 보장되는 거래에 대한 광고 승인을 요청하는 방법에 대해 알아봅니다.'
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [프로그램 보증 거래 설정 개요 [!DNL Freewheel]](freewheel-overview.md)
->* [거래 ID 받은 편지함에서 거래 수락](deal-id-inbox-accept.md)
->* [광고 상태 확인 [!DNL FreeWheel] 프로그램 보증 거래](freewheel-check-status.md)
->* [광고 제출을 위한 오류 코드 [!DNL Freewheel] 오류 코드](freewheel-error-codes.md)
+>* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)에서 거래 수락
+>* [PG 거래에 대한 광고 상태 확인 [!DNL FreeWheel] PG 거래](freewheel-check-status.md)
+>* [광고 제출을 위한 오류 코드 [!DNL FreeWheel] 오류 코드](freewheel-error-codes.md)

@@ -3,7 +3,7 @@ title: 배치에 대한 세부 보고서 보기
 description: '[!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications] 및 [!UICONTROL Ads] 데이터의 섹션이 있는 배치 수준 보고서를 여는 방법에 대해 알아봅니다.'
 feature: DSP Placements, DSP Campaign Data Views
 exl-id: ddfae530-1dc6-4470-9910-ae13abcbaa8b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -24,6 +24,6 @@ ht-degree: 0%
 >* [배치에 대한 사이트, 광고 및 빈도 세부 정보 보기](/help/dsp/campaign-management/reports/placement-details-view.md)
 >* [광고에 대한 자세한 보고서 보기](/help/dsp/campaign-management/ads/ad-view-report.md)
 >* [캠페인에 대한 자세한 보고서 보기](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [캠페인 관리 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [캠페인 관리 보기의 성과 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)

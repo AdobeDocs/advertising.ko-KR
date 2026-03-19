@@ -3,7 +3,7 @@ title: 비공개 거래에 액세스할 수 있는 광고주 편집
 description: 비공개 거래에 액세스할 수 있는 광고주를 지정하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 51f3fa66-de70-4233-a866-ec48d72e88dc
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -26,5 +26,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >* [개인 인벤토리 정보](private-inventory-about.md)
->* [거래 ID에 액세스할 수 있는 계정 편집](/help/dsp/inventory/deal-id-share.md)
+>* [비공개 거래에 액세스할 수 있는 계정 편집](/help/dsp/inventory/deal-id-share.md)
 >* [수동 거래 ID 설정](deal-id-settings.md)
