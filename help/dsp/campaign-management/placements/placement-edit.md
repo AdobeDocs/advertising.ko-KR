@@ -102,4 +102,4 @@ ht-degree: 0%
 >* [배치 설정](placement-settings.md)
 >* [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [비디오: 일괄 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [비디오: 일괄 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=ko)
