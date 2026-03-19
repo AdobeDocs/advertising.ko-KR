@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 만들기
 description: 사용자 지정 보고서를 만드는 방법을 알아봅니다.
 feature: DSP Custom Reports
 exl-id: f895529b-dc69-4c74-bca6-3f7617f41ceb
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 0%
@@ -29,5 +29,5 @@ ht-degree: 0%
 >* [사용자 지정 보고서 실행](/help/dsp/reports/report-run-now.md)
 >* [사용자 지정 보고서 삭제](/help/dsp/reports/report-delete.md)
 >* [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
->* [캠페인 관리 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [캠페인 관리 보기의 성과 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)

@@ -3,9 +3,9 @@ title: 사용자 정의 보고서 관리
 description: 교차 경험 [!UICONTROL Custom Creative Report]을(를) 생성하고 관리하는 방법을 알아봅니다.
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1479'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    * 보고서의 최신 인스턴스를 다운로드하려면 **[!UICONTROL Download]**&#x200B;을(를) 클릭하십시오.
 
-   * (여러 인스턴스가 있는 보고서) ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png "아래쪽 화살표")아래쪽 화살표[!UICONTROL Download]를 클릭한 다음 다운로드할 보고서의 완료 날짜를 클릭합니다. 다운로드 가능한 보고서 인스턴스는 다운로드 아이콘(![다운로드 아이콘](/help/dsp/assets/indicator-downloadable.png "다운로드 아이콘"))으로 표시됩니다.
+   * (여러 인스턴스가 있는 보고서) ![ 옆에 있는 ](/help/dsp/assets/chevron-down.png "아래쪽 화살표")아래쪽 화살표[!UICONTROL Download]를 클릭한 다음 다운로드할 보고서의 완료 날짜를 클릭합니다. 다운로드 가능한 보고서 인스턴스는 다운로드 아이콘(![다운로드 아이콘](/help/dsp/assets/indicator-downloadable.png "다운로드 아이콘"))으로 표시됩니다.
 
      사용 가능한 인스턴스가 많으면 필요한 경우 목록 맨 아래의 **[!UICONTROL Load More]**&#x200B;을(를) 클릭합니다.
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >[&#x200B; 보기에서 &#x200B;](#report-run-now)언제든지 사용자 지정 보고서를 실행[!UICONTROL Reports]할 수도 있습니다.
+  >[ 보기에서 ](#report-run-now)언제든지 사용자 지정 보고서를 실행[!UICONTROL Reports]할 수도 있습니다.
 
 * *[!UICONTROL On]\&lt;날짜\>:* 계정의 시간대에서 09:00까지 완료되도록 지정된 날짜에 보고서를 실행합니다.
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
-* *[!UICONTROL FTP SSL] (현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+* *[!UICONTROL FTP SSL](현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서나 알림을 보낼 전자 메일 주소를 지정합니다.
 
@@ -330,4 +330,4 @@ ht-degree: 0%
 >
 >* [경험 수준 성과 보고서](/help/creative/experiences/experience-performance-details.md)
 >* [DSP 사용자 지정 보고서 정보](/help/dsp/reports/report-about.md){target="_blank"}
->* [정보 [!UICONTROL report destinations]](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}
+>* [보고서 대상 정보](/help/dsp/reports/report-destinations/report-destination-about.md){target="_blank"}

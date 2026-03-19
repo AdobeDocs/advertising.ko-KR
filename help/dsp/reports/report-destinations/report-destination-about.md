@@ -1,22 +1,22 @@
 ---
-title: '[!UICONTROL Report Destinations] 정보'
+title: 보고서 대상 정보
 description: 사용자 지정 보고서의 게재 위치 관리에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Report Destinations] 정보
+# 보고서 대상 정보
 
 사용자 지정 보고서에 대해 *[!DNL report destinations]*(이)라는 게재 위치를 만들고 관리할 수 있습니다. 보고서 대상을 구성하고 나면 한 개 이상의 단일 대상 유형 위치에 배달될 각 사용자 지정 보고서를 설정할 수 있습니다. 보고서를 저장하면 대상 유형을 변경할 수 없습니다.
 
 ## 사용 가능한 [!UICONTROL Destination Types]
 
-* [!DNL Amazon Simple Storage Service] ([!DNL S3])
+* [!DNL Amazon Simple Storage Service]&#x200B;([!DNL S3])
 * FTP
 * SFTP
 * FTP SSL (Beta)
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md) 만들기
->* [[!UICONTROL Report Destination] 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [보고서 대상 만들기](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [보고서 대상 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md) 편집
->* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md) 삭제
+>* [보고서 대상 삭제](/help/dsp/reports/report-destinations/report-destination-delete.md)

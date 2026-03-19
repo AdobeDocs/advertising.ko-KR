@@ -3,9 +3,9 @@ title: 보고서 대상 설정
 description: 대상 유형별로 보고서 대상에 필요한 세부 정보를 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [정보 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md) 만들기
+>* [보고서 대상 정보](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [보고서 대상 만들기](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md) 편집
->* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md) 삭제
+>* [보고서 대상 삭제](/help/dsp/reports/report-destinations/report-destination-delete.md)

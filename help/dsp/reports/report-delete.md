@@ -3,7 +3,7 @@ title: 사용자 지정 보고서 삭제
 description: 사용자 지정 보고서를 삭제하는 방법을 알아봅니다.
 feature: DSP Custom Reports
 exl-id: e3cebb69-bab6-4f41-94fd-b4471f9bbdb9
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%

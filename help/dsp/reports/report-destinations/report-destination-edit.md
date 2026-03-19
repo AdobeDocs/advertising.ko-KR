@@ -3,9 +3,9 @@ title: 보고서 대상 편집
 description: 보고서 대상을 편집하는 방법을 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 33c011a5-c207-455d-8112-360098024eaa
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [정보 [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md) 만들기
->* [[!UICONTROL Report Destination] 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md) 삭제
+>* [보고서 대상 정보](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [보고서 대상 만들기](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [보고서 대상 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [보고서 대상 삭제](/help/dsp/reports/report-destinations/report-destination-delete.md)
