@@ -3,9 +3,9 @@ title: 패키지 변경 로그 보기
 description: 패키지에 대한 변경 사항을 보는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [패키지 관리 정보](package-about.md)
+>* [Advertising DSP의 패키지 관리 정보](package-about.md)
 >* [패키지 만들기](package-create.md)
 >* [패키지 편집](package-edit.md)
 >* [패키지에 배치 첨부](package-attach-placement.md)

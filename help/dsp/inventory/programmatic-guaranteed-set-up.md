@@ -3,7 +3,7 @@ title: 프로그램 보증 거래 설정
 description: 게시자와 협상한 프로그램 보증 거래(PG)를 설정하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *[지원되는 공급측 플랫폼만](programmatic-guaranteed-about.md)*
 
-지원되는 게시자와 프로그램 보증(PG) 거래를 협상한 후 [!DNL Deal ID inbox]을(를) 사용하거나 거래 세부 정보를 수동으로 입력하여 DSP 내에서 거래를 설정할 수 있습니다.
+지원되는 게시자와 프로그램 보증(PG) 거래를 협상한 후 [!DNL Deal ID Inbox]을(를) 사용하거나 거래 세부 정보를 수동으로 입력하여 DSP 내에서 거래를 설정할 수 있습니다.
 
 >[!NOTE]
 >
 > PG 거래의 경우 게시자는 모든 예산 게재 간격, 예산 한도 및 타겟팅을 처리합니다. DSP을 통한 PG를 허용하는 모든 SSP는 게시자가 예산 상한을 설정할 수 있음을 확인합니다.
 >
-> [!DNL FreeWheel]에서 게시자와 프로그래밍 방식으로 보장되는 거래를 설정하려면 추가 권한과 단계가 필요합니다. 자세한 내용은 &quot;[프로그램 보증 거래 설정 개요 [!DNL FreeWheel]](freewheel-overview.md)&quot;를 참조하십시오.
+> [!DNL FreeWheel]에서 게시자와 프로그래밍 방식으로 보장되는 거래를 설정하려면 추가 권한과 단계가 필요합니다. 자세한 내용은 &quot;[에서 프로그램 보증 거래 설정 개요 [!DNL FreeWheel]](freewheel-overview.md)&quot;를 참조하십시오.
 
 ## [!DNL Deal ID Inbox]을(를) 사용하여 프로그램 보증 거래 설정 {#pg-setup-deal-id-inbox}
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 >* [프로그램 보증 거래 정보](programmatic-guaranteed-about.md)
 >* [프로그램 보증 거래를 협상하기 위한 팁](/help/dsp/inventory/programmatic-guaranteed-tips.md)
 >* [프로그램 보증 거래에 대한 광고 제출 [!DNL FreeWheel]](freewheel-submit.md)
->* [거래 ID 받은 편지함에서 거래 수락](deal-id-inbox-accept.md)
->* [거래 ID 세부 정보 수동으로 만들기](deal-id-create.md)
+>* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)에서 거래 수락
+>* [거래 ID 세부 정보를 수동으로 만들기](deal-id-create.md)
 >* [SSP 파트너](ssp-partners.md)
->* [인벤토리 기능 개요](inventory-overview.md)
+>* [Advertising DSP의 인벤토리 기능 개요](inventory-overview.md)

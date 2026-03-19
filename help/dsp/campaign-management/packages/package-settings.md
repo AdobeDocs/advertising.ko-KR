@@ -3,9 +3,9 @@ title: 패키지 설정
 description: 사용 가능한 패키지 설정에 대한 설명을 참조하십시오.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 **[!UICONTROL Gross Budget]:**(패키지 수준 게재 간격 및 동적 마진 관리 전용 패키지) 패키지 기간에 대한 총 예산 상한.
 
-**[!UICONTROL Optimization Goal]:**(패키지 수준 간격 지정 전용 패키지) 패키지의 최적화 목표입니다. [최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md)에서 각 최적화 목표에 대한 설명을 참조하십시오.
+**[!UICONTROL Optimization Goal]:**(패키지 수준 간격 지정 전용 패키지) 패키지의 최적화 목표입니다. [최적화 목표와 사용 방법](/help/dsp/optimization/optimization-goals.md)에서 각 최적화 목표에 대한 설명을 참조하십시오.
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:**(패키지 수준 게재 간격, &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; 및 &quot;[!UICONTROL Lowest Cost per Reach]&quot; 최적화 목표만 있는 패키지) 캠페인에서 프로그래밍 방식으로 보장된 모든 배치의 가구 도달 데이터를 사용하여 증분 도달 속도를 최적화합니다.
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [패키지 관리 정보](package-about.md)
+>* [Advertising DSP의 패키지 관리 정보](package-about.md)
 >* [패키지 만들기](package-create.md)
 >* [패키지 편집](package-edit.md)
 >* [패키지에 배치 첨부](package-attach-placement.md)

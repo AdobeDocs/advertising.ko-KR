@@ -3,7 +3,7 @@ title: ' [!DNL Roku] 인벤토리 사용'
 description: 인벤토리 옵션, 승인된 타사 추적 공급업체 및  [!DNL Roku]별 배치에 대한 모범 사례를 포함하여  [!DNL Roku]과(와)의 DSP 파트너십에 대해 알아봅니다.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -69,8 +69,8 @@ DSP 캠페인에서 배치 유형 &quot;[&quot;을(를) 사용하여  [!DNL Roku
 
 가장 빠른 설정의 경우:
 
-* [!DNL The Roku Channel]인벤토리[[!DNL On Demand] 에서 &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)의 기존 상시 거래를 대상으로 하여 [!DNL Roku]개의 소유 및 운영 인벤토리에 빠르게 액세스할 수 있습니다.
-* [!DNL Roku Network]인벤토리[[!DNL On Demand] 에서 &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)에 대해 항상 유지되는 기존 거래를 대상으로 하여 [!DNL Roku] 플랫폼 전반에서 빠르게 확장할 수 있습니다.
+* [!DNL The Roku Channel]인벤토리[[!DNL On Demand] 에서 ](/help/dsp/inventory/on-demand-inventory-subscribe.md)의 기존 상시 거래를 대상으로 하여 [!DNL Roku]개의 소유 및 운영 인벤토리에 빠르게 액세스할 수 있습니다.
+* [!DNL Roku Network]인벤토리[[!DNL On Demand] 에서 ](/help/dsp/inventory/on-demand-inventory-subscribe.md)에 대해 항상 유지되는 기존 거래를 대상으로 하여 [!DNL Roku] 플랫폼 전반에서 빠르게 확장할 수 있습니다.
 
 최대 크기 조절:
 
@@ -78,6 +78,6 @@ DSP 캠페인에서 배치 유형 &quot;[&quot;을(를) 사용하여  [!DNL Roku
 
 >[!MORELIKETHIS]
 >
->* [거래 ID 세부 정보 수동으로 만들기](/help/dsp/inventory/deal-id-create.md)
-> * [Premium 인벤토리 거래 구독 및 액세스 요청 [!DNL On Demand] 2&rbrace;](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+>* [거래 ID 세부 정보를 수동으로 만들기](/help/dsp/inventory/deal-id-create.md)
+> * [프리미엄 인벤토리 거래  [!DNL On Demand] 구독 및 액세스 요청](/help/dsp/inventory/on-demand-inventory-subscribe.md)
 >* [배치 만들기](/help/dsp/campaign-management/placements/placement-create.md)

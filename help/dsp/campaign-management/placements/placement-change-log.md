@@ -3,9 +3,9 @@ title: 배치 변경 로그 보기
 description: 배치에 대한 변경 사항을 보는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [배치 관리 정보](placement-about.md)
+>* [Advertising DSP의 배치 관리 정보](placement-about.md)
 >* [배치 만들기](placement-create.md)
 >* [배치 편집](placement-edit.md)
 >* [배치 복제](placement-duplicate.md)

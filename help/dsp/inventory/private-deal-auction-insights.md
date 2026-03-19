@@ -3,7 +3,7 @@ title: 비공개 거래에 대한 경매 인사이트 보기
 description: 경매 인사이트를 사용하여 비공개 거래의 거래 구성을 분석하는 방법에 대해 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -51,4 +51,4 @@ Auction Insights는 보장된 비공개 거래와 보장되지 않은 비공개 
 >* [개인 인벤토리 정보](private-inventory-about.md)
 >* [거래 ID에 대한 배치 및 광고 지정](deal-id-attach-placements.md)
 >* [거래에 대한 자세한 보고서 보기](deal-view-report.md)
->* [캠페인 관리 보기의 성능 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [캠페인 관리 보기의 성과 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
