@@ -3,7 +3,7 @@ title: 최적화 목표 및 사용 방법
 description: 사용 가능한 최적화 목표를 참조하고 이를 사용할 시기를 확인하십시오.
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 0%
@@ -37,6 +37,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [성과 캠페인 설정에 대한 모범 사례](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [배치 수준 사전 입찰 필터 및 사용 방법](optimization-pre-bid-filters.md)
 >* [캠페인 설정](/help/dsp/campaign-management/campaigns/campaign-settings.md)

@@ -3,7 +3,7 @@ title: 광고에 대한 상세 보고서 보기
 description: 개요, 지역 및 조회 데이터를 사용하여 광고 수준 보고서를 여는 방법에 대해 알아봅니다.
 feature: DSP Ads, DSP Campaign Data Views
 exl-id: 61e964af-b133-4c86-9672-27167ac6bad1
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 41be6988fdc3f824f5f838c109c608e2b3f3afee
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%

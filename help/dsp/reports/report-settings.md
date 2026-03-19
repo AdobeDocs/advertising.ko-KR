@@ -3,9 +3,9 @@ title: 사용자 지정 보고서 설정
 description: 사용자 지정 보고서 설정에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >[&#x200B; 보기에서 &#x200B;](report-run-now.md)언제든지 사용자 지정 보고서를 실행[!UICONTROL Reports]할 수도 있습니다.
+  >[ 보기에서 ](report-run-now.md)언제든지 사용자 지정 보고서를 실행[!UICONTROL Reports]할 수도 있습니다.
 
 * *[!UICONTROL On]\&lt;날짜\>:* 계정의 시간대에서 09:00까지 완료되도록 지정된 날짜에 보고서를 실행합니다.
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 \* *[!UICONTROL Account]*&#x200B;은(는) 조직이 [교차 계정 보고](report-about.md#cross-account-reporting)에 대해 구성된 경우에만 다음 보고서 유형에 사용할 수 있습니다. [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] 및 [!UICONTROL Conversion]. 교차 계정 보고에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:**(전환 경로, 경로 길이 및 전환 시간 보고서만 해당) 지정된 Advertising 검색, 소셜 및 Commerce 캠페인의 검색 광고 클릭에 대한 데이터를 포함합니다. 이 옵션을 선택하는 경우:
+**[!UICONTROL Include data from Adobe Advertising SSC]:**([!UICONTROL Path to Conversion], [!UICONTROL Path Length] 및 [!UICONTROL Time to Conversion] 보고서만 해당) 지정된 Advertising 검색, 소셜 및 Commerce 캠페인의 검색 광고 클릭에 대한 데이터를 포함합니다. 이 옵션을 선택하는 경우:
 
 1. **필터 기준[!UICONTROL SSC Account]** 필터를 사용하여 검색, 소셜 및 Commerce 계정을 선택하십시오.
 
@@ -183,7 +183,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
-* *[!UICONTROL FTP SSL] (현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+* *[!UICONTROL FTP SSL](현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서나 알림을 보낼 전자 메일 주소를 지정합니다.
 

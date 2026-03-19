@@ -5,7 +5,7 @@ feature: DSP Introduction, Creative Introduction
 hidefromtoc: true
 hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 54442a2bea5a2f34ca6eb59b7d3c8c36c4bb79bb
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-AI 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색할 수 있습니다. 답변은 [Experience League](https://experienceleague.adobe.com/ko/docs/advertising)에서 이러한 제품에 대해 문서화된 내용만 기반으로 합니다.
+AI 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색할 수 있습니다. 답변은 [Experience League](https://experienceleague.adobe.com/en/docs/advertising)에서 이러한 제품에 대해 문서화된 내용만 기반으로 합니다.
 
 응답에는 쿼리를 구체화하고 추가 정보를 찾는 데 도움이 되는 추가 프롬프트 및 후속 질문뿐만 아니라 인용 문항이 포함됩니다. 채팅 기록이 유지되고 쿼리가 다른 사용자와 공유되지 않습니다.
 

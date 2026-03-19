@@ -3,9 +3,9 @@ title: 광고에서 픽셀 첨부 및 제거
 description: 광고에서 서드파티 추적 픽셀을 첨부 및 제거하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    1. 오른쪽 하단에서 **[!UICONTROL Attach]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 ![&#x200B; 왼쪽에 있는 &#x200B;](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")폴더로 돌아가기[!UICONTROL Ad Tools]를 클릭하고 캠페인 이름을 선택합니다.
+1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 ![ 왼쪽에 있는 ](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")폴더로 돌아가기[!UICONTROL Ad Tools]를 클릭하고 캠페인 이름을 선택합니다.
 
 ## 배치의 광고에서 서드파티 추적 픽셀 분리 {#detach-pixels-ads}
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
    1. 오른쪽 하단에서 **[!UICONTROL Detach]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 ![&#x200B; 왼쪽에 있는 &#x200B;](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")폴더로 돌아가기[!UICONTROL Ad Tools]를 클릭하고 캠페인 이름을 선택합니다.
+1. (선택 사항) 캠페인 세부 정보 보기로 돌아가려면 ![ 왼쪽에 있는 ](/help/dsp/assets/breadcrumb-return.png "폴더로 돌아가기")폴더로 돌아가기[!UICONTROL Ad Tools]를 클릭하고 캠페인 이름을 선택합니다.
 
 ## 광고에 첨부된 픽셀 보기 {#view-pixels-ads}
 
@@ -108,15 +108,15 @@ ht-degree: 0%
 
 1. 왼쪽 테이블의 광고 행을 클릭하면 오른쪽 테이블에 첨부된 픽셀이 표시됩니다.
 
-1. (선택 사항) 광고에 더 많은 픽셀을 첨부하려면 오른쪽 상단의 **[!UICONTROL Edit]** 보기로 전환합니다. 지침은 이전 절차의 3단계, &quot;[배치에 서드파티 추적 픽셀 첨부](#attach-pixels-ads)&quot;를 참조하십시오.
+1. (선택 사항) 광고에 더 많은 픽셀을 첨부하려면 오른쪽 상단의 **[!UICONTROL Edit]** 보기로 전환합니다. 지침은 이전 절차의 3단계, &quot;[배치에 있는 광고에 서드파티 추적 픽셀 첨부](#attach-pixels-ads)&quot;를 참조하십시오.
 
 >[!MORELIKETHIS]
 >
->* [광고 관리 정보](ad-about.md)
+>* [Advertising DSP의 광고 관리 정보](ad-about.md)
 >* [배치에 광고 첨부](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
 >* [단일 광고 만들기](ad-create.md)
 >* [여러 타사 광고 만들기](ad-create-multiple.md)
 >* [광고 편집](ad-edit.md)
->* [광고에 연결된 배치 나열](ad-list-placements.md)
+>* [광고와 연계된 배치 나열](ad-list-placements.md)
 >* [배치에 대한 광고 일정 편집](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* 범용 비디오에 대한 [FAQ](/help/dsp/campaign-management/faq-universal-video.md)

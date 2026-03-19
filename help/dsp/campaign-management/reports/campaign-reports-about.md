@@ -3,7 +3,7 @@ title: 캠페인 관리 보기의 성과 보고서 유형
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 다른 데이터 분류의 경우 [캠페인 수준 보고 페이지](/help/dsp/campaign-management/campaigns/campaign-view-report.md)를 보세요. 보고서에 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability] 및 [!UICONTROL Audience Performance] 데이터에 대한 섹션이 포함되어 있습니다.
 
-### 배치 수준 보고의 다른 유형
+### 기타 유형의 배치 수준 보고
 
 다른 데이터 분류의 경우 [배치 수준 보고 페이지](/help/dsp/campaign-management/placements/placement-view-report.md)를 보세요. 보고서에 [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications] 및 [!UICONTROL Ads] 데이터에 대한 섹션이 포함되어 있습니다.
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [배치에 대한 사이트, 광고 및 빈도 세부 정보 보기](placement-details-view.md)
->* [Campaign 데이터 보기 관리](campaign-data-views-manage.md)
+>* [캠페인 데이터 보기 관리](campaign-data-views-manage.md)
 >* [캠페인 관리 보기에서 데이터 내보내기](campaign-export-data.md)
 >* [캠페인에 대한 자세한 보고서 보기](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [경고 보기](campaign-alerts.md)

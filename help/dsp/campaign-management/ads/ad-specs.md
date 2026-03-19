@@ -3,9 +3,9 @@ title: 광고 사양
 description: 일반 및 게시자별 광고 사양을 참조하십시오.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [광고 관리 정보](ad-about.md)
+>* [Advertising DSP의 광고 관리 정보](ad-about.md)
 >* [단일 광고 만들기](ad-create.md)
 >* [여러 타사 광고 만들기](ad-create-multiple.md)
 >* [광고 편집](ad-edit.md)

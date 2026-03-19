@@ -3,9 +3,9 @@ title: 배치 편집
 description: 배치를 편집하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 배치 이름, 상태, 최대 입찰가 및 예산만 편집하려면 &quot;[주요 배치 설정을 빠르게 편집](#placement-quick-edit)&quot;을 참조하십시오.
+> 배치 이름, 상태, 최대 입찰 및 예산만 편집하려면 &quot;[주요 배치 설정을 빠르게 편집](#placement-quick-edit)&quot;을 참조하십시오.
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [배치 관리 정보](placement-about.md)
+>* [Advertising DSP의 배치 관리 정보](placement-about.md)
 >* [일괄 시트를 사용하여 배치 설정 검토 및 편집](placement-qa.md)
 >* [배치 만들기](placement-create.md)
 >* [배치 복제](placement-duplicate.md)
@@ -102,4 +102,4 @@ ht-degree: 0%
 >* [배치 설정](placement-settings.md)
 >* [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [비디오: 일괄 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=ko)
+>* [비디오: 일괄 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
