@@ -3,7 +3,7 @@ title: Adobe Advertising 범용 ID 요구 사항 정책
 description: 범용 ID 사용에 대한 정책을 참조하십시오.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: c7438ee214e6b5d5cfb6e6c72eb480bc334596c7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 마지막 업데이트 날짜: 2024년 2월 29일
 
-이 범용 ID 요구 사항 정책(&quot;정책&quot;)은 [!DNL Adobe's] On-demand Services for Adobe Advertising(&quot;서비스&quot;)를 통해 배포된 광고와 관련하여 범용 ID 사용에 대한 요구 사항을 설명합니다. 이 정책은 [!DNL Adobe]과(와) 온디맨드 서비스를 사용하는 고객(&quot;귀하&quot;) 간의 계약에 참조에 의해 통합됩니다. 본 정책에 사용되지만 본 계약에서 정의되지 않은 자본화된 용어는 해당 계약에 명시된 의미를 갖습니다.
+이 범용 ID 요구 사항 정책(&quot;정책&quot;)은 [!DNL Adobe's] On-demand Services for Adobe Advertising(&quot;서비스&quot;)를 통해 배포된 광고와 관련하여 범용 ID의 사용 요구 사항을 설명합니다. 이 정책은 [!DNL Adobe]과(와) 온디맨드 서비스를 사용하는 고객(&quot;귀하&quot;) 간의 계약에 참조에 의해 통합됩니다. 본 정책에 사용되지만 본 계약에서 정의되지 않은 자본화된 용어는 해당 계약에 명시된 의미를 갖습니다.
 
 [!DNL Adobe]은(는) 광고 또는 광고가 리디렉션되거나 링크되는 웹 사이트가 이 정책의 요구 사항을 위반하는지 여부를 결정할 수 있는 권한을 보유합니다. 이 경우 이벤트 [!DNL Adobe]은(는) 이러한 광고를 거부하거나 해당 기준에 따라 서비스 액세스를 종료 또는 중단할 수 있습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### UID 금지 국가
 
-서비스를 통해 UID2 Universal ID를 사용하기로 선택함으로써 귀하는 UID2 Universal ID와 관련하여 온디맨드 서비스를 통해 귀하가 전송, 저장, 표시, 배포 또는 사용할 수 있도록 한 모든 클라이언트 데이터가 본 문서 A[에 나열된 &#x200B;](#prohibited-countries-uid2)UID2 금지 국가에 거주하는 개인과 관련이 없음을 확인하는 데 동의하게 됩니다.
+서비스를 통해 UID2 범용 ID를 사용하도록 선택함으로써 귀하는 UID2 범용 ID와 관련하여 온디맨드 서비스를 통해 전송, 저장, 표시, 배포 또는 사용할 수 있는 모든 클라이언트 데이터가 본 문서 A[에 나열된 ](#prohibited-countries-uid2)UID2 금지 국가에 거주하는 개인과 관련이 없음을 확인하는 데 동의하게 됩니다.
 
 ## 차별 없음
 
