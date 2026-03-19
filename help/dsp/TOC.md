@@ -4,10 +4,10 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 962a366b4bcfb74505677f6c73bfb26781c2a69c
+source-git-commit: c6d921a7916d941413ca59b6133a37b6208fb117
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 3%
+source-wordcount: '1015'
+ht-degree: 4%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 3%
       + [크로스 디바이스 솔루션](/help/dsp/introduction/features/cross-device-solutions.md)
    + [계정 자금 조달](/help/dsp/introduction/billing/account-funding.md)
    + [지원되는 통화](/help/dsp/currency.md)
-   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko)
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko)
+   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)
 + [AI 지원 채팅을 사용하여 제품 설명서 검색](/help/dsp/agent-chat.md)
 + 캠페인 관리 {#campaign-management}
@@ -41,7 +41,7 @@ ht-degree: 3%
       + [캠페인에 대한 변경 로그 보기](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [캠페인 설정](/help/dsp/campaign-management/campaigns/campaign-settings.md)
       + [일괄 시트를 사용하여 캠페인 구성 요소 설정 검토 및 편집](/help/dsp/campaign-management/campaign-components-review-edit.md)
-      + [Campaign 시작 검사 목록](/help/dsp/campaign-management/campaign-launch-checklist.md)
+      + [Campaign 실행 검사 목록](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + 패키지 {#packages}
       + [Advertising DSP의 패키지 관리 정보](/help/dsp/campaign-management/packages/package-about.md)
       + [패키지 만들기](/help/dsp/campaign-management/packages/package-create.md)
@@ -54,7 +54,7 @@ ht-degree: 3%
       + [패키지에 대한 변경 로그 보기](/help/dsp/campaign-management/packages/package-change-log.md)
       + [패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)
    + 배치 {#placements}
-      + [배치 관리 정보](/help/dsp/campaign-management/placements/placement-about.md)
+      + [Advertising DSP의 배치 관리 기본 정보](/help/dsp/campaign-management/placements/placement-about.md)
       + [배치 만들기](/help/dsp/campaign-management/placements/placement-create.md)
       + [일괄 시트를 사용하여 배치 설정 검토 및 편집](/help/dsp/campaign-management/placements/placement-qa.md)
       + [배치 편집](/help/dsp/campaign-management/placements/placement-edit.md)
@@ -63,7 +63,7 @@ ht-degree: 3%
       + [배치에서 광고 첨부 및 제거](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [광고에서 픽셀 첨부 및 제거](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md)
       + [배치에 대한 광고 일정 편집](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
-      + [배치에 대한 상세 보고서 보기](/help/dsp/campaign-management/placements/placement-view-report.md)
+      + [배치에 대한 세부 보고서 보기](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [배치에 대한 변경 로그 보기](/help/dsp/campaign-management/placements/placement-change-log.md)
       + [배치 비활성화 또는 활성화](/help/dsp/campaign-management/placements/placement-pause-activate.md)
       + [배치 보관 또는 보관 해제](/help/dsp/campaign-management/placements/placement-archive-unarchive.md)
@@ -73,11 +73,11 @@ ht-degree: 3%
       + [공인 광고 서비스 파트너](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [단일 광고 만들기](/help/dsp/campaign-management/ads/ad-create.md)
       + [여러 타사 광고 만들기](/help/dsp/campaign-management/ads/ad-create-multiple.md)
-      + [[!DNL Flashtalking] (으)로 광고 만들기](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [ [!DNL Flashtalking](으)로 광고 만들기](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [일괄 시트를 사용하여 광고 세부 사항 검토 및 편집](/help/dsp/campaign-management/ads/ad-qa.md)
       + [광고 편집](/help/dsp/campaign-management/ads/ad-edit.md)
       + [광고 복제](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [배치에서 광고 첨부 및 제거](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=ko)
+      + [배치에서 광고 첨부 및 제거](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [광고에 대한 상세 보고서 보기](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [광고 일시 중지 또는 활성화](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -92,18 +92,18 @@ ht-degree: 3%
          + [범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [지원되는 광고 유형에 대한 사양](/help/dsp/campaign-management/ads/ad-specs.md)
    + 크로스 캠페인 인사이트 {#insights}
-      + [Insights 정보](/help/dsp/campaign-management/insights/insights-about.md)
+      + [인사이트 정보](/help/dsp/campaign-management/insights/insights-about.md)
    + 캠페인 관리 보기의 성과 보고서 {#campaign-reports}
       + [캠페인 관리 보기의 성과 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [캠페인 관리 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md)
-      + [배치에 대한 사이트, 광고, 빈도 및 재고 세부 정보 보기](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [배치에 대한 사이트, 광고, 빈도 및 인벤토리 세부 정보 보기](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [배치 진단 보고서 보기](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [경고 보기](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [Campaign 데이터 보기 관리](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + [DSP 매크로](/help/dsp/campaign-management/macros.md)
+   + [Advertising DSP 매크로](/help/dsp/campaign-management/macros.md)
    + [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Campaign 관리에 대한 FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [캠페인 관리에 대한 FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
    + [범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 + 최적화 {#optimization}
    + [Advertising DSP에서 캠페인을 최적화하는 방법](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
@@ -130,7 +130,7 @@ ht-degree: 3%
    + 세그먼트 {#segments}
       + [사용자 지정 세그먼트 만들기 및 구현](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale]개 세그먼트 {#ccpa-opt-out-of-sale-segments}
-         + [[!UICONTROL CCPA Opt-out-of-Sale]개 세그먼트 정보](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [[!UICONTROL CCPA Opt-out-of-Sale]개 세그먼트 및 보고서 정보](/help/dsp/audiences/ccpa-opt-out-about.md)
          + [[!UICONTROL CCPA Opt-out-of-Sale] 세그먼트 만들기 및 구현](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
          + [[!UICONTROL Consumer Opt-Out-of-Sale]개 보고서 검색](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
       + [세그먼트 정보 편집](/help/dsp/audiences/segment-edit.md)
@@ -145,39 +145,39 @@ ht-degree: 3%
          + [사용자 ID를  [!DNL Optimizely] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-optimizely.md)
          + [사용자 ID를  [!DNL Tealium] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-tealium.md)
       + [범용 ID 대상을 활성화하기 위한 대상 소스 관리](/help/dsp/audiences/sources/source-manage.md)
-   + [&#x200B; [!DNL LiveRamp]에서 인증된 세그먼트 수동으로 가져오기](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+   + [ [!DNL LiveRamp]에서 인증된 세그먼트를 수동으로 가져오기](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [사용 가능한 타사 데이터 공급자](/help/dsp/audiences/third-party-data-providers.md)
 + 인벤토리 {#inventory}
-   + [재고 기능 개요](/help/dsp/inventory/inventory-overview.md)
-   + [&#x200B; [!DNL Roku Inventory] 사용 중](/help/dsp/inventory/roku-inventory.md)
+   + [Advertising DSP의 인벤토리 기능 개요](/help/dsp/inventory/inventory-overview.md)
+   + [ [!DNL Roku Inventory] 사용 중](/help/dsp/inventory/roku-inventory.md)
    + [SSP 파트너](/help/dsp/inventory/ssp-partners.md)
    + [!DNL On Demand] 인벤토리 {#on-demand}
-      + [&#x200B; [!DNL On Demand] Premium 인벤토리 정보](/help/dsp/inventory/on-demand-inventory-about.md)
-      + 사용 가능한 [!DNL On Demand] 프리미엄 인벤토리 게시자 {#publishers}
-         + [아시아 태평양의 [!DNL On Demand] 프리미엄 인벤토리 게시자](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
-         + [오스트레일리아 및 뉴질랜드의 [!DNL On Demand] 프리미엄 인벤토리 게시자](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
+      + [약 [!DNL On Demand] premium 인벤토리](/help/dsp/inventory/on-demand-inventory-about.md)
+      + 사용 가능한 프리미엄 인벤토리 게시자 [!DNL On Demand]개 {#publishers}
+         + [아시아 태평양의 프리미엄 인벤토리 게시자 [!DNL On Demand]명](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
+         + [호주 및 뉴질랜드의 프리미엄 인벤토리 게시자 [!DNL On Demand]명](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
          + [유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자 [!DNL On Demand]명](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
-         + [북미의 Premium 인벤토리 게시자 [!DNL On Demand]명](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [&#x200B; [!DNL On Demand] Premium 인벤토리 거래 구독 및 액세스 요청](/help/dsp/inventory/on-demand-inventory-subscribe.md)
-      + [&#x200B; [!DNL On Demand] Premium 인벤토리 거래 재요청](/help/dsp/inventory/on-demand-inventory-rerequest.md)
-      + [&#x200B; [!DNL On Demand] 거래 요청 및 구독 상태 보기](/help/dsp/inventory/on-demand-inventory-view-status.md)
+         + [북미의 프리미엄 인벤토리 게시자 [!DNL On Demand]명](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
+      + [ [!DNL On Demand] 프리미엄 인벤토리 거래 구독 및 액세스 요청](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [ [!DNL On Demand] 프리미엄 인벤토리 거래 재요청](/help/dsp/inventory/on-demand-inventory-rerequest.md)
+      + [ [!DNL On Demand] 거래 요청 및 구독 상태 보기](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + 비공개 인벤토리 {#private-inventory}
-      + [비공개 인벤토리 정보](/help/dsp/inventory/private-inventory-about.md)
+      + [개인 인벤토리 기본 정보](/help/dsp/inventory/private-inventory-about.md)
       + 거래 ID {#deal-ids}
-         + [!UICONTROL Deal ID Inbox] {#inbox}
+         + [!UICONTROL Deal ID inbox] {#inbox}
             + [[!UICONTROL Deal ID Inbox] 정보](/help/dsp/inventory/deal-id-inbox-about.md)
             + [[!UICONTROL Deal ID Inbox]에서 거래 수락](/help/dsp/inventory/deal-id-inbox-accept.md)
          + 수동으로 입력한 거래 ID {#manual}
-            + [[!UICONTROL Deal ID] 세부 정보 수동으로 만들기](/help/dsp/inventory/deal-id-create.md)
-            + [수동 [!UICONTROL Deal ID] 설정](/help/dsp/inventory/deal-id-settings.md)
+            + [거래 ID 세부 정보 수동으로 만들기](/help/dsp/inventory/deal-id-create.md)
+            + [수동 거래 ID 설정](/help/dsp/inventory/deal-id-settings.md)
          + 프로그램 보증 거래 {#programmatic-guaranteed-deal}
             + [프로그램 보증 거래 개요](/help/dsp/inventory/programmatic-guaranteed-about.md)
-            + [프로그램 보증 거래 협상을 위한 팁](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+            + [프로그램 보증 거래를 협상하기 위한 팁](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [프로그램 보증 거래 설정](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
-            + 프로그램 보증 거래 [!DNL FreeWheel]개 {#freewheel}
-               + [&#x200B; [!DNL FreeWheel]의 프로그램 보증 거래 설정 개요](/help/dsp/inventory/freewheel-overview.md)
-               + [프로그램 보증 거래에 대한 광고를  [!DNL FreeWheel]에 제출](/help/dsp/inventory/freewheel-submit.md)
-               + [&#x200B; [!DNL FreeWheel] 프로그램 보증 거래의 광고 상태 확인](/help/dsp/inventory/freewheel-check-status.md)
+            + [!DNL FreeWheel]개의 프로그램 보증 거래 {#freewheel}
+               + [ [!DNL Freewheel]에서 프로그램 보증 거래 설정에 대한 개요](/help/dsp/inventory/freewheel-overview.md)
+               + [프로그램 보증 거래에 대한 광고를  [!DNL Freewheel]에 제출](/help/dsp/inventory/freewheel-submit.md)
+               + [ [!DNL FreeWheel] PG 거래에 대한 광고 상태 확인](/help/dsp/inventory/freewheel-check-status.md)
                + [FreeWheel 광고 제출을 위한 오류 코드](/help/dsp/inventory/freewheel-error-codes.md)
       + [비공개 거래 설정 편집](/help/dsp/inventory/deal-id-edit.md)
       + [비공개 거래에 대한 배치 및 광고 지정](/help/dsp/inventory/deal-id-attach-placements.md)
@@ -186,12 +186,12 @@ ht-degree: 3%
       + [비공개 거래에 대한 경매 인사이트 보기](/help/dsp/inventory/private-deal-auction-insights.md)
       + [비공개 거래에 대한 배치 및 광고 나열](/help/dsp/inventory/private-deal-view-placements.md)
       + [비공개 거래 보관 또는 보관 해제](/help/dsp/inventory/private-deal-archive-unarchive.md)
-   + [!UICONTROL Simple Ad Serving]개 거래 {#sas}
+   + 거래 [!UICONTROL Simple Ad Serving]개 {#sas}
       + [[!UICONTROL Simple Ad Serving] 정보](/help/dsp/inventory/simple-deal-about.md)
       + [[!UICONTROL Simple Ad Serving] 거래 만들기](/help/dsp/inventory/simple-deal-create.md)
       + [[!UICONTROL Simple Ad Serving] 거래 설정 편집](/help/dsp/inventory/simple-deal-edit.md)
       + [[!UICONTROL Simple Ad Serving] 거래 설정](/help/dsp/inventory/simple-deal-settings.md)
-   + [거래에 대한 상세 보고서 보기](/help/dsp/inventory/deal-view-report.md)
+   + [거래에 대한 세부 보고서 보기](/help/dsp/inventory/deal-view-report.md)
    + [거래 목록 관리](/help/dsp/inventory/lists-deals-manage.md)
 + 사용자 정의 보고서 {#custom-reports}
    + [사용자 지정 보고서 기본 정보](/help/dsp/reports/report-about.md)
@@ -205,19 +205,19 @@ ht-degree: 3%
    + [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
    + [사용자 정의 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)
    + 보고서 대상 {#report-destinations}
-      + [[!UICONTROL Report Destinations] 정보](/help/dsp/reports/report-destinations/report-destination-about.md)
-      + [[!UICONTROL Report Destination] 만들기](/help/dsp/reports/report-destinations/report-destination-create.md)
-      + [[!UICONTROL Report Destination] 편집](/help/dsp/reports/report-destinations/report-destination-edit.md)
-      + [[!UICONTROL Report Destination] 삭제](/help/dsp/reports/report-destinations/report-destination-delete.md)
-      + [[!UICONTROL Report Destination] 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)
+      + [보고서 대상 정보](/help/dsp/reports/report-destinations/report-destination-about.md)
+      + [보고서 대상 만들기](/help/dsp/reports/report-destinations/report-destination-create.md)
+      + [보고서 대상 편집](/help/dsp/reports/report-destinations/report-destination-edit.md)
+      + [보고서 대상 삭제](/help/dsp/reports/report-destinations/report-destination-delete.md)
+      + [보고서 대상 설정](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + 플래너 {#planner}
-   + [DSP Planner 도구 정보](/help/dsp/planner/planner-about.md)
+   + [DSP [!UICONTROL Planner] 도구 정보](/help/dsp/planner/planner-about.md)
    + [연결된 TV 도달 계획 만들기](/help/dsp/planner/planner-create.md)
    + [연결된 TV 도달 계획 복제](/help/dsp/planner/planner-duplicate.md)
    + [연결된 TV 도달 계획 편집](/help/dsp/planner/planner-edit.md)
    + [연결된 TV 도달 계획에 대한 설정](/help/dsp/planner/planner-settings.md)
-   + [연결된 TV 도달 계획에 대한 Forecast 내보내기](/help/dsp/planner/planner-export.md)
-   + [연결된 TV 도달 계획에 대한 예측 재생성](/help/dsp/planner/planner-forecast.md)
+   + [연결된 TV 도달 계획에 대한 예측 내보내기](/help/dsp/planner/planner-export.md)
+   + [연결된 TV 도달 계획에 대한 예측 다시 생성](/help/dsp/planner/planner-forecast.md)
    + [연결된 TV 도달 계획 보관](/help/dsp/planner/planner-archive.md)
 + 리소스 {#resources}
    + [URL 목록 관리](/help/dsp/resources/lists-url-manage.md)
@@ -233,15 +233,15 @@ ht-degree: 3%
    + 알림 {#notifications}
       + [경고 구독 기본 정보](/help/dsp/admin/alerts-about.md)
       + [경고 구독 관리](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ko)
++ [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [도움말 보기](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)
++ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
-<!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
-      + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
+<!-- add back to about below "Edit the advertisers with access to a deal ID" when reintroduced:
+      + [Edit the attribute tags for a deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
 -->
 
 <!-- add back to Inventory > SAS section when reimplemented:
-      +  [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-show-pixels.md)
+      +  [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](/help/dsp/inventory/simple-deal-show-pixels.md)
 -->
