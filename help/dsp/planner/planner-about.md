@@ -1,16 +1,16 @@
 ---
-title: DSP Planner 도구 정보
+title: DSP [!UICONTROL Planner] 도구 정보
 description: 지정된 예산 및 타깃팅 기준에 따라 연결된 TV(CTV) 배치에 대한 고유한 도달 범위를 예측하는 플래너 도구에 대해 알아봅니다.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
-# DSP Planner 도구 정보
+# DSP [!UICONTROL Planner] 도구 정보
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [DSP 플래너 도구 정보](planner-about.md)
+>* [DSP [!UICONTROL Planner] 도구 정보](planner-about.md)
 >* [연결된 TV 도달 계획 만들기](planner-create.md)
 >* [연결된 TV 도달 계획 복제](planner-duplicate.md)
 >* [연결된 TV 도달 계획 편집](planner-edit.md)

@@ -3,7 +3,7 @@ title: 배치 예측 보고서 보기
 description: 배치에 대한 특정 타겟팅 전략에 대해 예측된 노출 횟수, 지출 횟수 및 최적 최대 입찰가 를 참조하십시오.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -81,6 +81,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [캠페인 관리 보기의 성능 보고서 유형](campaign-reports-about.md)
+>* [캠페인 관리 보기의 성과 보고서 유형](campaign-reports-about.md)
 >* [배치 진단 보고서 보기](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)

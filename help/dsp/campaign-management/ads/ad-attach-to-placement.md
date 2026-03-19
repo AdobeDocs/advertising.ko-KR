@@ -3,9 +3,9 @@ title: 배치에서 광고 첨부 및 제거
 description: 배치에 광고를 첨부하고 배치에서 광고를 제거하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Detach Selected Ads]**&#x200B;을(를) 클릭합니다.
 
-## [!UICONTROL Placement Inspector]의 배치에서 광고 제거 {#remove-ads-placement-inspector}
+## [!UICONTROL Inspector] 배치의 배치에서 광고를 제거합니다. {#remove-ads-placement-inspector}
 
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [광고 관리 정보](ad-about.md)
+>* [Advertising DSP의 광고 관리 정보](ad-about.md)
 >* [광고에서 픽셀 첨부 및 제거](ad-pixel-attach-detach.md)
 >* [단일 광고 만들기](ad-create.md)
 >* [여러 타사 광고 만들기](ad-create-multiple.md)
 >* [광고 편집](ad-edit.md)
->* [광고에 연결된 배치 나열](ad-list-placements.md)
+>* [광고와 연계된 배치 나열](ad-list-placements.md)
 >* [배치에 대한 광고 일정 편집](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* 범용 비디오에 대한 [FAQ](/help/dsp/campaign-management/faq-universal-video.md)

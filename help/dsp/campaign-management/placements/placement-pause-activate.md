@@ -3,7 +3,7 @@ title: 배치 비활성화 또는 활성화
 description: 배치를 비활성화하거나 활성화하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: cd58d8f7-8dd0-433b-9272-a4fc1e3e98d9
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%

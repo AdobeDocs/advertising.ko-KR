@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -50,7 +50,7 @@ AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 
 
    1. 포함 및 제외할 대상 특성을 설명하는 하나 이상의 프롬프트를 입력합니다. 각 프롬프트를 제출하려면 ![프롬프트 제출](/help/dsp/assets/submit-prompt.png "프롬프트 제출")을 클릭하십시오.
 
-      자세한 내용은 &quot;[프롬프트 작성](#writing-prompts)&quot; 및 &quot;[대상자 개요 만들기 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
+      자세한 내용은 &quot;[프롬프트 작성](#writing-prompts)&quot; 및 &quot;[대상자 개요 작성에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
 
       대상 에이전트가 관련 세그먼트를 찾을 때 기준에 따라 대상 표현식을 만듭니다. 또한 대상을 취합할 일치하는 세그먼트를 찾기 전에 승인을 요청합니다.
 
@@ -94,7 +94,7 @@ AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 
 
   대상자 에이전트는 생성된 대상자 표현식을 대상자로 자동으로 저장하지 않습니다. 프롬프트 영역 외부에 있는 [!UICONTROL Create] 단추만 클릭하여 대상자를 저장할 수 있으므로 보관하지 않을 변경 내용을 실행 취소할 수 있습니다.
 
-대상자에 대한 프롬프트를 최적화하는 자세한 방법은 &quot;[대상자 개요 만들기 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
+대상자에 대한 프롬프트를 최적화하는 자세한 방법은 &quot;[대상자 브리프 만들기에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
 
 <!-- I think these are happening later:
 

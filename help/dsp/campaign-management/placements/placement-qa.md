@@ -3,7 +3,7 @@ title: 일괄 시트를 사용하여 배치 설정 검토 및 편집
 description: 스프레드시트를 사용하여 주요 배치 설정을 대량으로 검토하고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
    * 상단 메뉴 모음 오른쪽에서 ![작업](/help/dsp/assets/downloads.png)을 클릭합니다. 작업 옆에 있는 **[!UICONTROL Download]**&#x200B;을(를) 클릭합니다.
 
-   파일이 브라우저의 다운로드 폴더에 저장됩니다.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   파일이 브라우저의 다운로드 폴더에 저장됩니다.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 ## 특정 배치에 대한 다운로드 설정
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
    * 상단 메뉴 모음 오른쪽에서 ![작업](/help/dsp/assets/downloads.png)을 클릭합니다. 작업 옆에 있는 **[!UICONTROL Download]**&#x200B;을(를) 클릭합니다.
 
-   파일이 브라우저의 다운로드 폴더에 저장됩니다.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   파일이 브라우저의 다운로드 폴더에 저장됩니다.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
    설정을 편집하려면 파일을 직접 편집한 다음 변경 사항을 업로드하십시오.  편집 가능한 모든 열이 파란색으로 강조 표시됩니다. 필드에 올바른 형식을 사용하려면 해당 패키지 설정 또는 배치 설정에서 값을 선택하고 복사합니다. 데이터 분할, 사용자 정의 목표 및 전환 지표와 같은 일부 타겟 설정의 경우 설정 내에서 복사 옵션을 사용할 수 있습니다.
 

@@ -3,7 +3,7 @@ title: URL 목록 관리
 description: 배치 타깃팅용 URL 목록을 만들고 관리하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%

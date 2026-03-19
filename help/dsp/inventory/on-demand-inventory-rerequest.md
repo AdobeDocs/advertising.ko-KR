@@ -3,9 +3,9 @@ title: ' [!DNL On Demand] 프리미엄 인벤토리 거래 재요청'
 description: 이전에 거부된  [!DNL On Demand] 거래를 다시 요청하는 방법에 대해 알아봅니다.
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [정보 [!DNL On Demand] Premium 인벤토리](on-demand-inventory-about.md)
->* [거래 요청 및 구독 상태 보기 [!DNL On Demand] 2&rbrace;](on-demand-inventory-view-status.md)
->* [Premium Inventory 구독 및 액세스 요청 [!DNL On Demand] 2&rbrace;](on-demand-inventory-subscribe.md)
->* 아시아 태평양의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
->* 호주 및 뉴질랜드의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
+>* [정보 [!DNL On Demand] 프리미엄 인벤토리](on-demand-inventory-about.md)
+>* [거래 요청 및 구독 상태 보기 [!DNL On Demand] 2}](on-demand-inventory-view-status.md)
+>* [프리미엄 인벤토리 거래  [!DNL On Demand] 구독 및 액세스 요청](on-demand-inventory-subscribe.md)
+>* 아시아 태평양의 [[!DNL On Demand] 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
+>* 호주 및 뉴질랜드의 [[!DNL On Demand] 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-emea.md)
->* 북미 지역의 [[!DNL On Demand] Premium 인벤토리 게시자](on-demand-inventory-publishers-na.md)
+>* 북미 지역의 [[!DNL On Demand] 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-na.md)

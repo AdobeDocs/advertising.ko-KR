@@ -3,7 +3,7 @@ title: 조직 계정에 새 사용자 초대
 description: 새 사용자를 계정에 초대하는 방법을 알아봅니다.
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%

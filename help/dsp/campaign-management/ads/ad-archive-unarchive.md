@@ -3,7 +3,7 @@ title: 광고 보관 또는 보관 해제
 description: 광고를 보관 또는 보관 해제하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: 086c120f-df55-43b0-a6fb-51d68d00a29e
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%

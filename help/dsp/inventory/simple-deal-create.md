@@ -3,7 +3,7 @@ title: '[!UICONTROL Simple Ad Serving] 거래 만들기'
 description: '[!UICONTROL Simple Ad Serving] 거래의 추적 픽셀을 만드는 방법을 알아봅니다.'
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -66,5 +66,5 @@ ht-degree: 0%
 >* [거래에 대한 자세한 보고서 보기](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
->* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+>* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

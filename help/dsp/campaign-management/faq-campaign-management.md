@@ -3,7 +3,7 @@ title: 캠페인 관리에 대한 FAQ
 description: 변경 사항에 대한 지연 기간 및 비행 중 예산을 변경할 때 발생하는 상황 등 캠페인 관리에 대해 자세히 알아보십시오.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -46,4 +46,4 @@ ht-degree: 0%
 >
 >* [패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
->* [성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [성과 캠페인 설정에 대한 모범 사례](/help/dsp/optimization/campaign-best-practices-performance.md)

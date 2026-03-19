@@ -3,7 +3,7 @@ title: 패키지 일시 중지 또는 활성화
 description: 패키지를 일시 중단하거나 활성화하는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: c4a6fb08-14db-4c8b-ab7a-0bbc0f201390
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%

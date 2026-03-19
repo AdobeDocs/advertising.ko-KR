@@ -3,7 +3,7 @@ title: 경고 보기
 description: 캠페인 및 캠페인 구성 요소에 대한 경고 및 권장 해결 방법을 보는 방법을 알아봅니다.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -64,4 +64,4 @@ DSP을 사용하면 캠페인이나 캠페인 구성 요소에 문제가 있는 
 
 >[!MORELIKETHIS]
 >
->* [캠페인 관리 보기의 성능 보고서 유형](campaign-reports-about.md)
+>* [캠페인 관리 보기의 성과 보고서 유형](campaign-reports-about.md)

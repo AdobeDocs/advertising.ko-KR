@@ -3,9 +3,9 @@ title: 배치에 대한 사이트, 광고, 빈도 및 인벤토리 세부 정보
 description: 배치에 대한 타겟팅된 사이트, 광고, 빈도 및 인벤토리 데이터를 보는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
   [!UICONTROL Inventory] 탭에서는 [!UICONTROL Auctions], [!UICONTROL Bids] 및 [!UICONTROL Win Rate]과(와) 같은 성능 통계를 표시하여 문제를 빠르게 해결할 수 있습니다. 탭에는 검색 및 필터 기능, 기본 페이지에서 사용할 수 있는 동일한 표준 및 사용자 지정 열 보기 옵션, 추가 문제 해결을 위한 [!UICONTROL Edit], [!UICONTROL View Report] 및 [[!UICONTROL Auction Insights]을(를) 비롯한 각 행의 빠른 작업 버튼이 포함되어 있습니다](/help/dsp/inventory/private-deal-auction-insights.md).
 
-## [!UICONTROL Placement Inspector] 열기 {#inspector-open}
+## [!UICONTROL Inspector] 배치를 엽니다. {#inspector-open}
 
 1. 상위 캠페인 또는 패키지에 대한 배치 보기를 엽니다.
 
@@ -66,9 +66,9 @@ ht-degree: 0%
 
    데이터는 브라우저의 기본 다운로드 폴더에 XLSM 형식의 보고서로 저장됩니다.
 
-## [!UICONTROL Placement Inspector]의 배치에서 광고 제거 {#remove-ads-placement-inspector}
+## [!UICONTROL Inspector]의 배치에서 광고 제거 {#remove-ads-placement-inspector}
 
-1. [[!UICONTROL Placement Inspector]](#inspector-open)을(를) 엽니다.
+1. [배치 [!UICONTROL Inspector]](#inspector-open)을(를) 엽니다.
 
 1. **[!UICONTROL Ads]** 탭을 클릭합니다.
 
@@ -90,5 +90,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [캠페인 관리 보기의 성능 보고서 유형](campaign-reports-about.md)
->* [Campaign 데이터 보기 관리](campaign-data-views-manage.md)
+>* [캠페인 관리 보기의 성과 보고서 유형](campaign-reports-about.md)
+>* [캠페인 데이터 보기 관리](campaign-data-views-manage.md)

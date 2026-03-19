@@ -3,7 +3,7 @@ title: 최적화
 description: 최적화 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction, DSP Optimization
 exl-id: c60e58e7-ab16-49bd-9acf-e5b858755493
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Advertising DSP은 두 단계에서 가장 중요한 지표를 최적화합니�
 
 >[!MORELIKETHIS]
 >
-> * [DSP이 캠페인을 최적화하는 방법](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+> * [DSP에서 캠페인을 최적화하는 방법](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
 >* [최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md)
 >* [패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)
 >* [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)
