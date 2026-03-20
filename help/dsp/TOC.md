@@ -24,8 +24,8 @@ ht-degree: 4%
       + [크로스 디바이스 솔루션](/help/dsp/introduction/features/cross-device-solutions.md)
    + [계정 자금 조달](/help/dsp/introduction/billing/account-funding.md)
    + [지원되는 통화](/help/dsp/currency.md)
-   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko)
+   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko)
    + [고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)
 + [AI 지원 채팅을 사용하여 제품 설명서 검색](/help/dsp/agent-chat.md)
 + 캠페인 관리 {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 4%
       + [일괄 시트를 사용하여 광고 세부 사항 검토 및 편집](/help/dsp/campaign-management/ads/ad-qa.md)
       + [광고 편집](/help/dsp/campaign-management/ads/ad-edit.md)
       + [광고 복제](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [배치에서 광고 첨부 및 제거](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
+      + [배치에서 광고 첨부 및 제거](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=ko)
       + [광고와 연결된 배치 나열](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [광고에 대한 상세 보고서 보기](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [광고 일시 중지 또는 활성화](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -233,9 +233,9 @@ ht-degree: 4%
    + 알림 {#notifications}
       + [경고 구독 기본 정보](/help/dsp/admin/alerts-about.md)
       + [경고 구독 관리](/help/dsp/admin/alerts-manage.md)
-+ [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
++ [Adobe Experience Cloud과 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ko)
 + [도움말 보기](/help/dsp/get-help.md)
-+ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)
 
 
 <!--

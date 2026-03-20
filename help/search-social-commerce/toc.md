@@ -22,10 +22,10 @@ ht-degree: 2%
    + [지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe Experience Cloud과 통합 {#integrations}
       + [Adobe Experience Cloud 솔루션 및 서비스와의 통합](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
-      + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
-   + [소비자 개인 정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-   + [정책 및 지침(링크)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko){target="_blank"}
+      + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ko){target="_blank"}
+   + [소비자 개인 정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
+   + [정책 및 지침(링크)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=ko){target="_blank"}
 + 시작 {#getting-started}
    + [구현 개요](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [시스템 요구 사항](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -97,8 +97,8 @@ ht-degree: 2%
          + [[!UICONTROL Portfolios] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + 캠페인 {#campaigns}
          + [[!UICONTROL Campaigns] 보기 정보](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [포트폴리오에 캠페인 할당](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [포트폴리오에서 캠페인 제거](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [포트폴리오에 캠페인 할당](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [포트폴리오에서 캠페인 제거](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [[!UICONTROL Campaigns] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
       + 광고 그룹 {#ad-groups}
@@ -110,13 +110,13 @@ ht-degree: 2%
          + [광고에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
    + 보고서 {#reports}
       + 레이블 분류 {#label-classifications}
-         + [레이블 분류 정보](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
-         + [레이블 분류 만들기](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
-         + [캠페인 관리 보기에서 계정 구성 요소에 분류 값을 할당](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
-         + [일괄 시트를 사용하여 계정 구성 요소에 분류 값 할당](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
-         + [계정 구성 요소에서 레이블 분류 값 제거](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
-         + [레이블 분류 값 삭제](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
-         + [레이블 분류 삭제](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
+         + [레이블 분류 정보](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
+         + [레이블 분류 만들기](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
+         + [캠페인 관리 보기에서 계정 구성 요소에 분류 값을 할당](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
+         + [일괄 시트를 사용하여 계정 구성 요소에 분류 값 할당](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
+         + [계정 구성 요소에서 레이블 분류 값 제거](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
+         + [레이블 분류 값 삭제](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
+         + [레이블 분류 삭제](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
    + Target {#target}
       + 키워드 {#keywords}
          + [[!UICONTROL Keywords] 보기 정보](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
@@ -150,13 +150,13 @@ ht-degree: 2%
             + [&#x200B; [!DNL Yahoo! Japan Ads]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [&#x200B; [!DNL Yandex]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [클릭 추적 URL에 대한 선택적 추적 매개 변수](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+      + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ko){target="_blank"}
       + [AMO ID(s_kwcid) 추적 매개 변수](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + 전환 추적 {#conversion-tracking}
       + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Adobe Advertising 전환 추적 {#advertising-conversion-tracking}
          + [Adobe Advertising 전환 추적 태그 기본 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-         + [Adobe Advertising 변환 태그 생성 및 구현](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
+         + [Adobe Advertising 변환 태그 생성 및 구현](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
          + [JavaScript 전환 추적 태그 버전 3의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript 전환 추적 태그 버전 2의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [이미지 변환 추적 태그의 형식](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
