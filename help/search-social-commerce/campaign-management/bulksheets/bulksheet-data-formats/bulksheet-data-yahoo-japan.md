@@ -3,7 +3,7 @@ title: ' [!DNL Yahoo! Japan] 계정의 일괄 시트 데이터'
 description: ' [!DNL Yahoo! Japan] 계정에 대해 다운로드한 일괄 시트의 머리글 필드 및 데이터 필드를 참조합니다.'
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '2672'
 ht-degree: 0%
@@ -13,16 +13,6 @@ ht-degree: 0%
 # 부록 - [!DNL Yahoo! Japan] 계정에 대한 일괄 시트 데이터
 
 [!DNL Yahoo! Japan] 계정의 데이터를 대량으로 다운로드할 수 있지만 일괄 시트를 광고 네트워크에 업로드하거나 게시할 수 없습니다.
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adjustment,Location,Location Type,Ad Group Name,Max CPC,Keyword,Match Type,First Page Bid, Quality Score,Ad Name (Yahoo JP),Creative Preferred Devices,Ad Title,Ad Title2,Description Line 1,Description Line 2,Creative Type,Display URL,Display Path 1,Display Path 2,Base URL/Final URL,Destination URL,Tracking Template,Campaign Status,Ad Group Status,Keyword Status,Ad Status,Location Status,[Advertiser-specific Label Classification],Constraints,Campaign ID,Ad Group ID,Keyword ID,Ad ID,AMO ID,Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## 사용 가능한 데이터 필드
 
@@ -69,7 +59,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 | [!UICONTROL Ad Group ID] | 해당 사항 없음 | 해당 사항 없음: 만들기<br><br>필수/선택 사항: 편집 또는 삭제 | 선택 사항 | 선택 사항 | 해당 사항 없음 | 기존 광고 그룹을 식별하는 고유 ID입니다. CSV 및 TSV 파일에서 앞에는 작은 따옴표(`'`)가 있어야 합니다.[^1] 행에 광고 그룹에 대한 &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않은 경우 광고 그룹 이름을 변경할 때만 필요합니다. |
 | [!UICONTROL Keyword ID] | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음: 만들기<br><br>필수/선택 사항: 편집<br><br>필수: 삭제 | 해당 사항 없음 | 해당 사항 없음 | 기존 키워드를 식별하는 고유 ID입니다. CSV 및 TSV 파일에서 앞에는 작은 따옴표(`'`)가 있어야 합니다.[^1] 행에 a) 키워드를 식별할 수 있는 속성 열이 충분하거나 b) &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않는 한 키워드를 편집하거나 삭제할 때만 필요합니다. |
 | [!UICONTROL Ad ID] | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음: 만들기<br><br>필수/선택 사항: 편집 또는 삭제 | 해당 사항 없음 | 기존 광고를 식별하는 고유 ID입니다. CSV 및 TSV 파일에서 앞에는 작은 따옴표(`'`)가 있어야 합니다.[^1] 반응형 검색 광고의 경우 광고 데이터를 편집하거나 삭제하려면 [!UICONTROL Ad ID] 또는 [!UICONTROL AMO ID]이(가) 필요합니다. 다른 모든 엔터티 형식의 경우 행에 a) 광고를 식별할 수 있는 충분한 광고 속성 열 또는 b) &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않는 한 광고 상태를 변경할 때만 [!UICONTROL AMO ID]이(가) 필요합니다. 그러나 [!UICONTROL Ad ID]과(와) [!UICONTROL AMO ID]을(를) 모두 포함하지 않고 광고 속성 열이 여러 광고와 일치하는 경우 광고 중 하나에 대한 상태만 변경됩니다.<br><br><b>참고:</b> a) 기존 광고에 대한 [!UICONTROL Status]을(를) 제외한 광고 속성 열 또는 b) 응답형 검색 광고에 대한 데이터를 편집하고 [!UICONTROL Ad ID]과(와) [!UICONTROL AMO ID]을(를) 포함하지 않으면 새 광고가 만들어지고 기존 광고가 변경되지 않습니다. |
-| [!UICONTROL AMO ID] | 해당 없음: 만들기<br><br>선택 사항: 편집 또는 삭제 | 해당 없음: 만들기<br><br>선택 사항: 편집 또는 삭제 | 해당 없음: 만들기<br><br>선택 사항: 편집 또는 삭제 | 해당 없음: 만들기<br><br>선택 사항: 편집 또는 삭제 | 해당 사항 없음 | (생성된 일괄 시트에서) 동기화된 엔터티에 대해 [!DNL Adobe]이(가) 생성한 고유 식별자입니다. 반응형 검색 광고의 경우 [!UICONTROL Ad ID]을(를) 포함하지 않으면 [!UICONTROL AMO ID]에서 광고를 편집하거나 삭제해야 합니다. [!UICONTROL AMO ID]이(가) 있는 다른 모든 엔터티 형식의 데이터를 편집하려면 엔터티 ID와 상위 엔터티 ID를 포함하지 않으면 [!UICONTROL AMO ID]에서 데이터를 편집하거나 삭제해야 합니다.<br><br>검색, 소셜 및 Commerce에서는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
+| [!UICONTROL AMO ID] | 해당 없음: 만들기<br><br>선택 사항: 편집 또는 삭제 | 해당 없음: 만들기<br><br>선택 사항: 편집 또는 삭제 | 해당 없음: 만들기<br><br>선택 사항: 편집 또는 삭제 | 해당 없음: 만들기<br><br>선택 사항: 편집 또는 삭제 | 해당 사항 없음 | (생성된 일괄 시트에서) 동기화된 엔터티에 대해 [!DNL Adobe]이(가) 생성한 고유 식별자입니다. 반응형 검색 광고의 경우 [!UICONTROL AMO ID]을(를) 포함하지 않으면 [!UICONTROL Ad ID]에서 광고를 편집하거나 삭제해야 합니다. [!UICONTROL AMO ID]이(가) 있는 다른 모든 엔터티 형식의 데이터를 편집하려면 엔터티 ID와 상위 엔터티 ID를 포함하지 않으면 [!UICONTROL AMO ID]에서 데이터를 편집하거나 삭제해야 합니다.<br><br>검색, 소셜 및 Commerce에서는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 | [!UICONTROL EF Error Message] | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | (정보 목적으로 생성된 일괄 시트에 포함됨) 검색, 소셜 및 Commerce에서 행의 데이터에 대한 오류 메시지를 표시하는 자리 표시자입니다. 오류 메시지는 [!UICONTROL EF Errors]개 파일에 포함됩니다. 이 값은 광고 네트워크에 게시되지 않습니다. |
 | [!UICONTROL SE Error Message] | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | 해당 사항 없음 | (정보 목적으로 생성된 일괄 시트에 포함됨) 행의 데이터에 대한 광고 네트워크의 오류 메시지를 표시하는 자리 표시자입니다. 오류 메시지는 [!UICONTROL SE Errors] 파일에 포함됩니다. 이 값은 광고 네트워크에 게시되지 않습니다. |
 
@@ -81,5 +71,5 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 >* [일괄 시트에서 수행할 수 있는 작업](bulksheet-operations.md)
 >* [지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
+>* [에 대한  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)클릭 추적 형식
 >* [일괄 시트 파일 또는 수정된 오류 파일 업로드](../bulksheet-upload.md)

@@ -2,9 +2,10 @@
 title: 동적 광고 템플릿 관리
 description: 동적 광고 템플릿을 관리하고 이러한 템플릿에서 광고를 만드는 방법에 대해 알아봅니다.
 feature: Creative Templates
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+exl-id: 248f1467-ebd3-47f2-a24c-043bbfadcc6e
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ ht-degree: 0%
 
 1. 광고 템플릿 행 위에 커서를 놓고 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
-1. 확인 메시지에서 **[!UICONTROL Delete]**.<!-- Confirm -->을(를) 클릭합니다
+1. 확인 메시지에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
 ## 광고 템플릿에서 동적 광고 만들기
 
@@ -87,13 +88,9 @@ ht-degree: 0%
 
 **[!UICONTROL Description]**: (선택 사항) 광고 템플릿을 사용하는 모든 사용자에게 유용한 정보입니다.
 
-<!-- I don't see this on 9/24:
+### (정적 HTML5 광고 템플릿) 클릭 태그
 
-### (Static HTML5 ad templates) Click Tags
-
-**\[Click Tag Parameter\]**: The click tag parameters to allow click-tracking redirects from ads created using the ad template. To add a parameter, click **[!UICONTROL + Add More]** and enter an additional parameter. You can include up to five parameters.
-
--->
+**\[태그 매개 변수 클릭\]**: 광고 템플릿을 사용하여 만든 광고에서 클릭 추적 리디렉션을 허용하는 클릭 태그 매개 변수입니다. 매개 변수를 추가하려면 **[!UICONTROL + Add More]**&#x200B;을(를) 클릭하고 추가 매개 변수를 입력하십시오. 최대 5개의 매개 변수를 포함할 수 있습니다.
 
 ### HTML zip
 
@@ -109,9 +106,7 @@ ht-degree: 0%
 
 ### (동적 HTML5 광고 템플릿) 특성 파일
 
-<!-- EXPLAIN -->광고 템플릿에 대한 속성을 포함하는 파일입니다. 파일을 이미 업로드한 경우에는 파일 이름이 나열됩니다.
-
-<!-- Add specs for this file type -->
+<!-- EXPLAIN and ad specs below for this file type -->광고 템플릿에 대한 속성을 포함하는 파일입니다. 파일을 이미 업로드한 경우에는 파일 이름이 나열됩니다.
 
 파일을 업로드하려면:
 
@@ -126,4 +121,3 @@ ht-degree: 0%
 >* [피드 템플릿 관리](/help/creative/feeds/feed-template-manage.md)
 >* [카탈로그 관리](/help/creative/feeds/catalog-manage.md)
 >* [Creative 라이브러리에 동적 크리에이티브 추가](/help/creative/creative-libraries/creative-add-dynamic.md)
-

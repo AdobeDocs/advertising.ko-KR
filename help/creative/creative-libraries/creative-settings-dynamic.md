@@ -3,7 +3,7 @@ title: 동적 크리에이티브 설정
 description: 동적 크리에이티브에 대한 설정을 참조하십시오.
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Attributes Mapping]
 
-**[!UICONTROL Enable targeting]**: <!-- "targeting options/filters," but I don't think this means user targeting since that is set in the experience/ad on DSP -->피드 파일에 광고를 만들려면 값이 있어야 하는 열 형식: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **참고:** 이러한 설정은 광고 경험 설정의 고급 설정과 독립적으로 작동합니다.<!-- Clarify what qualifies for each, and explain more -->
+**[!UICONTROL Enable targeting]**: 피드 파일에 광고를 만들려면 값이 있어야 하는 열 형식: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **참고:** 이러한 설정은 광고 경험 설정의 고급 설정과 독립적으로 작동합니다.<!-- Clarify what qualifies for each, and explain more -->
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]:**
 

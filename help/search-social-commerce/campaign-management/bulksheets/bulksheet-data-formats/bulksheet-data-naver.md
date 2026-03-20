@@ -3,7 +3,7 @@ title: ' [!DNL Naver] 계정의 필수 일괄 시트 데이터'
 description: ' [!DNL Naver] 계정의 일괄 시트에 있는 필수 머리글 필드 및 데이터 필드를 참조합니다.'
 exl-id: 1bfcdbb6-8026-4230-ab6b-b7c79b0d185a
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 0%
@@ -15,16 +15,6 @@ ht-degree: 0%
 [!DNL Naver] 내에 일괄 시트 파일을 생성한 다음 Search, Social 및 Commerce에 업로드하여 Search, Social 및 Commerce에서 [!DNL Naver] 계정을 채웁니다.
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,[Advertiser-specific Label Classification],Constraints,Campaign Status,Ad Group Status,Keyword Status,Campaign ID,Ad Group ID,Keyword ID,AMO ID,Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## 사용 가능한 데이터 필드
 
@@ -59,6 +49,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,
 >* [일괄 시트에서 수행할 수 있는 작업](bulksheet-operations.md)
 >* [지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
+>* [에 대한  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)클릭 추적 형식
 >* [일괄 시트 파일 또는 수정된 오류 파일 업로드](../bulksheet-upload.md)
->* [추적 전용 계정 구현 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [추적 전용 계정 구현 [!DNL Naver] 2}](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)

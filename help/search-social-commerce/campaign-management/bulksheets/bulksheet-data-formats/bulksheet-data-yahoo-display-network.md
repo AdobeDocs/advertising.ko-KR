@@ -3,7 +3,7 @@ title: ' [!DNL Yahoo! Display Network] 계정의 일괄 시트 데이터'
 description: ' [!DNL Yahoo! Display Network] 계정에 대해 다운로드한 일괄 시트의 머리글 필드 및 데이터 필드를 참조합니다.'
 exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -17,16 +17,6 @@ ht-degree: 0%
 -->
 
 [!DNL Yahoo! Display Network] 계정의 데이터를 대량으로 다운로드할 수 있지만 일괄 시트를 광고 네트워크에 업로드하거나 게시할 수 없습니다.
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-The following example shows data in comma-delimited values. If you're using tab-separated values, then the data looks different.
-
-Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Line 1,Description Line 2,Base URL/Final URL,Destination URL,[Advertiser-specific Label Classification],Bid Rules,Constraints,Campaign Status,Ad Group Status,Ad Status,Campaign ID,Ad Group ID,Ad ID,AMO ID,EF Error Message
-
--->
 
 ## 사용 가능한 데이터 필드
 
