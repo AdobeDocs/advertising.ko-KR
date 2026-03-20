@@ -3,9 +3,9 @@ title: 경험을 위한 크리에이티브 최적화 및 일정 사용자 정의
 description: 타깃팅하지 않고 경험에 대한 최적화 및 광고 예약을 구성하는 방법에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+source-git-commit: 3a77f85f8cbb2ca7a77c5e8ebab5a22ca377feed
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,18 @@ ht-degree: 0%
 
    * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다.
 
-1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![크리에이티브 최적화 편집](/help/creative/assets/edit-gray.png "크리에이티브 최적화 편집") **[!UICONTROL Creative Optimization]**&#x200B;을 클릭합니다.&lt;!— 2/2부터 Tag Manager에는 목록 보기만 있고 카드 보기는 없습니다. >
+1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![크리에이티브 최적화 편집](/help/creative/assets/edit-gray.png "크리에이티브 최적화 편집") **[!UICONTROL Creative Optimization]**을 클릭합니다.&lt;!—
+Tag Manager에는 2/2부터 목록 보기만 있고 카드 보기는 없습니다. >
 
 1. **[!UICONTROL Schedule]**&#x200B;을(를) 사용하지 않도록 설정합니다.
 
 1. 연결된 번들의 광고 변형에 대한 크리에이티브 회전 유형을 선택합니다.
 
-   * *[!UICONTROL Weighted]:* 상대 가중치에 따라 연결된 Creative 번들의 광고 변형을 표시합니다. 각 번들의 가중치를 백분율로 입력합니다. 연결된 모든 번들에 동일한 가중치를 적용하려면 (![동일한 가중치 적용](/help/creative/assets/apply-equal-weight.png "동일한 가중치 적용"))을 클릭합니다. 선택한 모든 번들에 대한 가중치는 최대 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->까지 추가해야 합니다.
+   * *[!UICONTROL Weighted]:* 상대 가중치에 따라 연결된 Creative 번들의 광고 변형을 표시합니다. 각 번들의 가중치를 백분율로 입력합니다. 연결된 모든 번들에 동일한 가중치를 적용하려면 (![동일한 가중치 적용](/help/creative/assets/apply-equal-weight.png "동일한 가중치 적용"))을 클릭합니다. 선택한 모든 번들에 대한 가중치는 최대 100까지 추가해야 합니다.
+
+   <!-- 
+   For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. 
+   -->
 
    * *[!UICONTROL Algorithmic]:* 지정된 목표를 기반으로 가장 효과적인 광고 변형을 더 자주 표시합니다.
 
@@ -66,7 +71,7 @@ ht-degree: 0%
 
    * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다.
 
-1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![크리에이티브 최적화 편집](/help/creative/assets/edit-gray.png "크리에이티브 최적화 편집") **[!UICONTROL Creative Optimization]**&#x200B;을 클릭합니다. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— 2/2부터 Tag Manager에는 목록 보기만 있고 카드 보기는 없습니다. >
+1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![크리에이티브 최적화 편집](/help/creative/assets/edit-gray.png "크리에이티브 최적화 편집") **[!UICONTROL Creative Optimization]**&#x200B;을 클릭합니다. <!-- For targeted experiences, this is "Edit Schedules" Tag Manager has only a list view, but no card view, as of 2/2. -->
 
 1. **[!UICONTROL Schedule]** 사용
 
