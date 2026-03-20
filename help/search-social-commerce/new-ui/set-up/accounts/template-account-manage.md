@@ -125,5 +125,5 @@ When you enable an ad network account, Search, Social, & Commerce synchronizes c
 
 >[!MORELIKETHIS]
 >
->* [추적 전용 계정 구현 [!DNL Naver] 2}](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [추적 전용 계정 구현 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [광고 네트워크 계정 정보](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
