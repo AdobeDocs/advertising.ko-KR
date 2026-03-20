@@ -3,7 +3,7 @@ title: Advertising DSP의 캠페인 관리 개요
 description: 캠페인 관리 계층 및 구성 요소에 대해 알아봅니다.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -18,7 +18,8 @@ DSP 캠페인에는 다음 계층 구조가 있습니다.
    * 패키지
       * 배치
          * 광고
-<!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
+<!--
+ Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package includes placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
 
@@ -56,4 +57,4 @@ In Advertising DSP, an insertion order is represented as a campaign, and line it
 >* [성과 캠페인 설정에 대한 모범 사례](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [캠페인 관리 보기의 성과 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [캠페인 데이터 보기 관리](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ko)
+>* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

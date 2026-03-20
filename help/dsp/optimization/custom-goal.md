@@ -3,7 +3,7 @@ title: 사용자 정의 목표
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 패키지에서 성공 이벤트를 정의하는 사용자 정의 목표에 대해 알아봅니다.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -14,7 +14,8 @@ ht-degree: 0%
 
 사용자 지정 목표는 광고주가 비즈니스 목표를 달성하는 데 필요한 성공 이벤트를 정의합니다. 최적화 목표 &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"]&quot; 또는 &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;을(를) 사용하는 각 패키지에는 전체 최적화 목표를 달성하는 데 도움이 되도록 사용자 지정 목표가 포함되어야 합니다. 사용자 지정 목표를 *의*&#x200B;목표[!DNL Advertising Search, Social, & Commerce]&#x200B;(으)로 만들 수 있습니다. DSP에 대한 각 목표의 이름 앞에는 &quot;ADSP_&quot;가 붙어야 합니다.
 
-<!-- update image or omit it
+<!--
+ update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 예를 들어 세 개의 전환 지표가 캠페인 중 하나의 특정 패키지와 관련이 있다고 가정해 보겠습니다. &quot;PDF 다운로드&quot;(20 USD), &quot;이메일 등록&quot;(30 USD) 및 &quot;주문 확인&quot;(40 USD)입니다. 고객 조치의 일회성 통화 가치에 따라 가중치를 부여하려면 지표의 상대 가중치는 1, 1.5 및 2가 됩니다.
 
-[사용자 지정 목표를 만들기](#custom-goal-create)하면 [을(를) 사용하여 보고 및 알고리즘 최적화를 위해 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)패키지에 할당[!DNL Adobe AI]할 수 있습니다.
+[사용자 지정 목표를 만들기](#custom-goal-create)하면 [을(를) 사용하여 보고 및 알고리즘 최적화를 위해 ](/help/dsp/campaign-management/packages/package-settings.md)패키지에 할당[!DNL Adobe AI]할 수 있습니다.
 
 가중치 권장 사항은 목표의 DSP 기반 지표에 대해 자동으로 생성되며, 한 번의 클릭으로 모든 가중치 권장 사항을 적용할 수 있습니다. &quot;ADSP_&quot;가 접두사로 붙은 목표의 모든 가중치 변경 사항은 2일 이내에 DSP에서 알고리즘적으로 적용됩니다. 가중치 권장 사항에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 &quot;목표&quot;에 대한 최적화 안내서 장을 참조하십시오.
 
@@ -78,7 +79,8 @@ ht-degree: 0%
 
 캠페인 목표가 매출([!UICONTROL Highest Return on Ad Spend (ROAS)])이고 모든 장치 유형의 매출이 동일하게 중요한 경우 비모바일 가중치가 1(1)인 &quot;[!UICONTROL Revenue]&quot; 지표를 포함하십시오. 모바일 가중치는 무시됩니다. 지표 유형 *[!UICONTROL Goal]*&#x200B;을(를) 선택하십시오.
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a ROAS custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -92,7 +94,8 @@ ht-degree: 0%
 
 캠페인 목표가 CPA(취득당 최저 비용)이고 성공 이벤트(예: &quot;애플리케이션 제출&quot;)가 하나만 필요한 경우 해당 지표를 하나 포함하고 지표 유형을 *[!UICONTROL Goal]*(으)로 지정하십시오. 가장 좋은 방법은 비모바일 가중치를 1로 설정하는 것입니다. 모바일 가중치는 무시됩니다.
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a CPA custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -108,7 +111,8 @@ ht-degree: 0%
 
 * 캠페인 목표에는 여러 개의 성공 이벤트가 있습니다. 예를 들어 두 개 이상의 온사이트 작업(PDF 다운로드, 연락처 및 이메일 등록)을 광고하는 경우 모든 작업은 CPA 목표에 기여하는 작업입니다. 목표에 각각 비모바일 가중치가 1인 세 개의 개별 지표가 포함되어 있는 경우 [!DNL Adobe AI] 기반 알고리즘은 각 지표 및 사용자 장치 유형을 동일한 중요도로 처리합니다. 서로 다른 지표에 다양한 비용이나 중요도가 있는 경우 그에 따라 상대적 가중치를 조정합니다.
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties.png)
 
@@ -120,7 +124,8 @@ ht-degree: 0%
 
   다음 예제 목표에는 각각 다른 비모바일 가중치를 갖는 세 개의 지표(애플리케이션 제출 = 1, 애플리케이션 시작 = 0.1, 광고주 랜딩 페이지 = 0.01)가 포함됩니다. 즉, 각 애플리케이션 제출 전환은 평균 10개의 애플리케이션 시작 전환과 100개의 광고주 랜딩 페이지 전환과 동일한 값을 비즈니스에 제공합니다.
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties2.png)
 

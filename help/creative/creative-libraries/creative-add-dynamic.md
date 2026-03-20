@@ -3,7 +3,7 @@ title: Creative 라이브러리에 동적 크리에이티브 추가
 description: Creative Library에 동적 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -18,7 +18,8 @@ ht-degree: 0%
 >
 >크리에이티브 라이브러리에 동적 크리에이티브를 추가하려면 먼저 광고 템플릿 만들기, 에셋 업로드 및 피드 템플릿 및 카탈로그 만들기(동적 HTML5 광고) 등의 다른 단계를 완료해야 합니다. &quot;[동적 광고용 워크플로우](/help/creative/introduction/workflow-dynamic-ads.md)&quot;를 참조하십시오.
 
-<!-- This does't work for me 9/24 -- I still have to select a catalog:
+<!--
+ This does't work for me 9/24 -- I still have to select a catalog:
 
 ## Add dynamic creatives using a static HTML5 ad template
 

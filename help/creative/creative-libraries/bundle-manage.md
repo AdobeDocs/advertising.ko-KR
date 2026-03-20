@@ -3,7 +3,7 @@ title: Creative 번들 관리
 description: 크리에이티브 그룹을 관리하고 사용하는 방법에 대해 알아봅니다.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1587'
 ht-degree: 0%
@@ -238,7 +238,8 @@ ht-degree: 0%
 
    1. [!UICONTROL Share Demo URL] 대화 상자에서 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 URL을 클립보드에 복사하여 다른 사람과 공유할 수 있도록 합니다.
 
-<!-- Not there as of 1/22/25:
+<!--
+ Not there as of 1/22/25:
 
 ## Edit the landing page and tracking tags for the creatives in a standard creative bundle
 

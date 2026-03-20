@@ -3,7 +3,7 @@ title: 대상 소스 설정
 description: 대상 소스의 설정에 대해 알아보십시오.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
@@ -30,9 +30,10 @@ ht-degree: 0%
 
 * *[!DNL RampID]:* PII를 [!DNL RampID]&#x200B;(으)로 변환하려는 경우 로그인 사용자를 다시 타겟팅하고 [!DNL RampIDs] 측정을 위해 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용할 수 있습니다.
 
-* *[!DNL Unified ID2.0] (Beta):* 로그인 사용자를 다시 타깃팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
+* *[!DNL Unified ID2.0](Beta):* 로그인 사용자를 다시 타깃팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
 
-<!-- Later
+<!--
+ Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
 
 -->
@@ -46,5 +47,5 @@ ht-degree: 0%
 >* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
 >* [자사 대상 원본 정보](source-about.md)
 >* [인증된 세그먼트를 수동으로 가져오기 [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ko)
+>* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [대상자 관리 정보](/help/dsp/audiences/audience-about.md)

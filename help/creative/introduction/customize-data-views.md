@@ -3,7 +3,7 @@ title: 데이터 보기 사용자 지정
 description: 사용 가능한 각 보기 내에서 데이터를 사용자 지정하는 방법을 알아봅니다.
 feature: Creative Introduction
 exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -32,7 +32,8 @@ ht-degree: 0%
 
 ![테이블 보기의 예](/help/creative/assets/table-view-example.png "테이블 보기의 예")
 
-<!-- not implemented as of 11-26:
+<!--
+ not implemented as of 11-26:
 In card view, you can increase or decrease the size of the cards.
 
 In either view, you can:
@@ -54,7 +55,8 @@ Refresh the pane to see any changes that other users have made.
 
 * **[!UICONTROL Experiences]:** 특정 상태(*Live*, *초안*, *처리*) 및 관련 레이블
 
-<!-- Only available to non-admin users in Phase 1
+<!--
+ Only available to non-admin users in Phase 1
 
 * **[!UICONTROL Feeds] > [!UICONTROL Catalog]:** Specific library [??? different than the statuses for the Template tab, which I'd expect to show something different anyway] statuses (*Active*, *Inactive*, *Deleted*)
 

@@ -3,7 +3,7 @@ title: 크리에이티브를 크리에이티브 번들에 첨부
 description: 크리에이티브 번들에 크리에이티브를 첨부하는 방법을 알아봅니다.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -24,7 +24,8 @@ You can also detach a creative from a bundle to remove the association between t
 >
 ><!-- also -->할 수 있습니다. [번들에 크리에이티브를 연결하고 번들 보기에서 번들에서 크리에이티브를 분리합니다](/help/creative/creative-libraries/bundle-manage.md).
 
-<!-- Hide header until second procedure is available (if we add that):
+<!--
+ Hide header until second procedure is available (if we add that):
 
 ## Attach creatives to creative bundles
 
@@ -48,7 +49,8 @@ You can also detach a creative from a bundle to remove the association between t
 
 1. 오른쪽 프레임에서 각 번들 옆의 확인란을 선택하여 크리에이티브를 첨부한 다음 **[!UICONTROL Attach Creative to Bundle]**&#x200B;을(를) 클릭합니다.
 
-<!-- Verify and edit all of the following, including the command names and where they're available -- not in UI yet as of 1/17. I'm not sure what the UI will really look like.
+<!--
+ Verify and edit all of the following, including the command names and where they're available -- not in UI yet as of 1/17. I'm not sure what the UI will really look like.
 
 ## Detach creatives from a creative bundle
 
@@ -72,7 +74,8 @@ You can also detach a creative from a bundle to remove the association between t
 
 -->
 
-<!-- What this should be like, but I don't think this will be implemented:
+<!--
+ What this should be like, but I don't think this will be implemented:
 
 1. Select the creative:
 

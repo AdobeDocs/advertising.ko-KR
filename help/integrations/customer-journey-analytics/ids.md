@@ -3,7 +3,7 @@ title: Customer Journey Analytics에서 사용하는 Adobe Advertising ID
 description: Customer Journey Analytics에서 사용하는 Adobe Advertising ID
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: af60dcb4-4d1a-4097-ac30-688bd8b9f644
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 0%
@@ -20,7 +20,8 @@ ht-degree: 0%
 
 Adobe Advertising에서는 현장 성능 추적에 *EF ID*&#x200B;와 *AMO ID*, 이렇게 두 개의 ID를 사용합니다.
 
-<!-- Rewrite for CJA:
+<!--
+ Rewrite for CJA:
 
 When an ad impression occurs, Adobe Advertising creates the AMO ID and EF ID values and stores them. For click-through traffic, these IDs are included in the landing page URL using the `ef_id` and `s_kwcid` (for the AMO ID) query string parameters.
 
@@ -56,7 +57,8 @@ Adobe Advertising distinguishes between a click-through or view-through entry to
 
 {{$include /help/_includes/amo-id.md}}
 
-<!-- rewrite for CJA:
+<!--
+ rewrite for CJA:
 
 ### AMO ID Dimension in [!DNL Customer Journey Analytics]
 

@@ -3,7 +3,7 @@ title: DSP [!UICONTROL Planner] 도구 정보
 description: 지정된 예산 및 타깃팅 기준에 따라 연결된 TV(CTV) 배치에 대한 고유한 도달 범위를 예측하는 플래너 도구에 대해 알아봅니다.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
@@ -70,6 +70,8 @@ ht-degree: 0%
 +++계획자 예측 결과를 저장할 수 있습니까?
 
 예. 오른쪽 상단의 [!DNL Microsoft Excel] > **[!UICONTROL ...]**&#x200B;을(를) 클릭하여 예측을 **[!UICONTROL Export]** 스프레드시트로 내보낼 수 있습니다. 스프레드시트는 [!UICONTROL Budget] 및 [!UICONTROL Reach] 데이터 열을 사용하여 도달 예산 곡선에 표시된 정보를 캡처합니다.
+
++++
 
 >[!MORELIKETHIS]
 >

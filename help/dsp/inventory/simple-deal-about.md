@@ -3,7 +3,7 @@ title: '[!UICONTROL Simple Ad Serving] 정보'
 description: 이벤트 추적 픽셀을 사용한 [!UICONTROL Simple Ad Serving] 거래에 대해 알아봅니다.
 feature: DSP Simple Ad Serving
 exl-id: 327a2c93-d729-42e1-856f-f0e05efab7ca
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -35,6 +35,7 @@ ht-degree: 0%
 >* [[!UICONTROL Simple Ad Serving] 설정](simple-deal-settings.md)
 >* [거래에 대한 자세한 보고서 보기](/help/dsp/inventory/deal-view-report.md)
 
-<!-- add back when reimplemented:
+<!--
+ add back when reimplemented:
 >* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

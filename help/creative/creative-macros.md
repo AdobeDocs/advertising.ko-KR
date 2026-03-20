@@ -3,7 +3,7 @@ title: 추적 URL에 사용 가능한 매크로
 description: 랜딩 페이지 URL, 추적 URL 및 서드파티 크리에이티브에 추가할 수 있는 매크로를 참조합니다.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,7 +18,8 @@ ht-degree: 0%
 
 사용 가능한 매크로 중 일부 또는 이와 동등한 매크로는 경험 태그에 자동으로 포함됩니다.
 
-<!-- Later: 
+<!--
+ Later: 
 
 | Macro | Description | Automatically in experience tags for Advertising DSP? | Automatically in experience tags for [!DNL Google Campaign Manager 360]? |
 | --- | --- | --- | --- |
@@ -55,4 +56,4 @@ ht-degree: 0%
 >* [Creative 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [타깃팅된 경험 설정](/help/creative/experiences/experience-settings-targeting.md)
->  &#x200B;>*[타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md)
+>*[타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md)

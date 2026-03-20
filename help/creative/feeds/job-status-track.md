@@ -2,7 +2,8 @@
 title: 카탈로그 처리 작업 상태 추적
 description: 광고주를 위한 에셋 파일을 업로드하고 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+exl-id: 90593f80-cade-4fef-9dd6-d655291077d1
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -13,7 +14,8 @@ ht-degree: 0%
 
 카탈로그 처리 작업의 상태를 확인합니다. 처리 중에 오류가 발생하면 [!UICONTROL Failed Count] 열은 문제가 발생한 행 수를 나타냅니다.
 
-<!-- Validate and reword:
+<!--
+ Validate and reword:
 
 By clicking on "View Failure" on the right, you can see further details about the error. The most common errors are "Image processing error" where there is a missing image asset, or "Duplicate partnum" where the unique column has a non-unique name that is referenced in another feed or within the same feed file.
 

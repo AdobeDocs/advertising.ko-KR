@@ -3,7 +3,7 @@ title: Advertising DSP 매크로
 description: 일반 추적에 사용 가능한 매크로를 참조하고 서드파티 디스플레이 광고의 클릭을 추적합니다.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -48,7 +48,8 @@ VAST 태그, URL, DSP 또는 타사 이벤트 픽셀과 같은 모든 위치에 
 
 {style="table-layout:auto"}
 
-<!-- Removed because not found in code base:
+<!--
+ Removed because not found in code base:
 |` ${TM_MACRO_PROMOTED_AD_KEY}` | The promoted ad key for the placement. Required for [!DNL AppsFlyer] click trackers for mobile app install ads. | string |
  -->
 

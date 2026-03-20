@@ -4,7 +4,7 @@ user-guide-title: Adobe Advertising 고객 개인정보 보호 지원
 user-guide-description: 광고주 고객이 소비자 개인정보 보호 법을 준수할 수 있도록 Adobe Advertising이 제공하는 모든 유형의 보안 및 개인정보 보호 제어 기능에 대해 알아봅니다.
 breadcrumb-title: 고객 개인 정보 보호 지원
 index: true
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 31%

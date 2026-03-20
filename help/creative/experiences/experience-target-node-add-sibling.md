@@ -3,7 +3,7 @@ title: 경험의 노드 사이에 동일 수준의 타겟 노드 추가
 description: 대상이 있거나 대상이 있는 노드와 동일한 수준에 있는 모든 노드에 형제 노드를 추가하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -16,7 +16,8 @@ ht-degree: 0%
 
 대상이 있거나 대상이 있는 노드와 동일한 레벨에 있는 모든 노드에 동위 노드를 추가할 수 있습니다.
 
-<!-- 1. Open the decision tree:
+<!--
+ 1. Open the decision tree:
 
 In a new experience
 
@@ -73,7 +74,7 @@ In an existing experience,
 
    * 데이터 전달 대상의 경우 선택적으로 데이터 전달 키를 사용자 지정하고 단일 데이터 전달 값을 입력한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-     키-값 쌍의 키에 대한 기본값이 **[!UICONTROL Data Pass]**&#x200B;경험 설정[!UICONTROL Advanced]의 [&#x200B; 섹션에 있는 &#x200B;](experience-settings-targeting.md) 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
+     키-값 쌍의 키에 대한 기본값이 **[!UICONTROL Data Pass]**&#x200B;경험 설정[!UICONTROL Advanced]의 [ 섹션에 있는 ](experience-settings-targeting.md) 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
 
    * 픽셀 대상을 재타겟팅하려면 사용할 재타겟팅 픽셀과 크리에이티브를 표시하기 위해 존재해야 하는 픽셀 속성에 대한 필수 값을 선택합니다. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 

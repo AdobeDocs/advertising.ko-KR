@@ -3,7 +3,7 @@ title: 경험 미리보기
 description: 광고 경험에서 크리에이티브를 미리 보는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -52,7 +52,8 @@ ht-degree: 0%
 
       1. 광고 크기를 선택합니다.
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
@@ -60,7 +61,8 @@ ht-degree: 0%
 
    * 경험의 모든 크리에이티브를 미리 보려면 **[!UICONTROL Entire Tree]**&#x200B;을(를) 클릭합니다.
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Click **[!UICONTROL Entire Tree]**.
      1. Select the ad size.
      1. Select whether to group the creatives by Rotation Type or Ad Size.

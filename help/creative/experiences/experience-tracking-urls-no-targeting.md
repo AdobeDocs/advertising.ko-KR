@@ -3,9 +3,9 @@ title: 타깃팅하지 않고 경험에 대한 추적 URL 사용자 지정
 description: 의사 결정 트리 타깃팅 없이 경험에서 각 크리에이티브에 대한 추적 URL을 사용자 지정하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![추적 URL 편집](/help/creative/assets/edit-gray.png "추적 URL 편집") **[!UICONTROL Tracking URLs]**&#x200B;을(를) 클릭합니다. <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;!— 2/2부터 Tag Manager에는 목록 보기만 있고 카드 보기는 없습니다. >
+1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![추적 URL 편집](/help/creative/assets/edit-gray.png "추적 URL 편집") **[!UICONTROL Tracking URLs]**&#x200B;을(를) 클릭합니다. <!-- For targeted experiences, this is "EDIT Tracking URLs"  Tag Manager has only a list view, but no card view, as of 2/2. -->
 
    [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] 및 [!UICONTROL Landing URLs] 탭에는 할당된 번들에서 적용 가능한 크기의 모든 크리에이티브 이름이 나열됩니다. 경험에 대한 기본 크리에이티브 크기가 사용 가능한 크기를 결정합니다.<!-- There's no distinct "Creative Sizes" setting. -->
 

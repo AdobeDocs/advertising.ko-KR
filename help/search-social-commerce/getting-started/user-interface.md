@@ -3,7 +3,7 @@ title: 사용자 인터페이스 구성 방법
 description: 다양한 기능에 액세스할 수 있는 위치를 알아봅니다.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 0%
@@ -108,7 +108,8 @@ ht-degree: 0%
 
    * **[!UICONTROL Accounts]**: 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
 
-<!-- What's happenening to these?
+<!--
+ What's happenening to these?
 
 Campaigns > ACM
 Campaigns > Bulksheets

@@ -2,7 +2,7 @@
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
 role: User, Admin
-source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -61,7 +61,8 @@ ht-degree: 0%
 * Adobe Experience Platform에서 만들어져 Audience Manager을 통해 Adobe Advertising으로 전송되는 세그먼트
 
 초기 동기화는 약 24시간이 소요됩니다. 그 후에는 데이터가 1~2초 지연으로 실시간으로 동기화됩니다.
-<!-- I don't think this is true anymore:
+<!--
+ I don't think this is true anymore:
 Segment membership data is sent to Adobe Advertising only after one of the following:
 
 * The segment is targeted in an Adobe Advertising placement or audience library
@@ -132,19 +133,19 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ###### 비디오
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average video viewability rate is]** 이 옵션을 사용하여 기준을 선택합니다.
+**0}을(를) 사용합니다. **[!UICONTROL Include URL's whose average video viewability rate is]** 이 옵션을 사용하여 기준을 선택합니다.
 
-**0&rbrace; 사용&#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+**0} 사용&#x200B;**[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average completion & fully viewable rate is]** 이 옵션을 사용하여 기준을 선택합니다.
+**0}을(를) 사용합니다. **[!UICONTROL Include URL's whose average completion & fully viewable rate is]** 이 옵션을 사용하여 기준을 선택합니다.
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average player size composition is]** 이 옵션을 사용하여 기준을 선택합니다.
+**0}을(를) 사용합니다. **[!UICONTROL Include URL's whose average player size composition is]** 이 옵션을 사용하여 기준을 선택합니다.
 
-**0&rbrace; 사용&#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+**0} 사용&#x200B;**[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 표시
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]** 이 옵션을 사용하여 기준을 선택합니다.
+**0}을(를) 사용합니다. **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]** 이 옵션을 사용하여 기준을 선택합니다.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -158,7 +159,7 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL Ads.text]
 
-**[!UICONTROL Ads.txt Filtering]:** 기본적으로 각 게시자의 [[!DNL Ads.txt]  목록을 활용하여 사용할 &#x200B;](https://iabtechlab.com/ads-txt-about/)사전 입찰 필터링[!DNL Authorized Digital Sellers] 수준입니다.
+**[!UICONTROL Ads.txt Filtering]:** 기본적으로 각 게시자의 [[!DNL Ads.txt]  목록을 활용하여 사용할 ](https://iabtechlab.com/ads-txt-about/)사전 입찰 필터링[!DNL Authorized Digital Sellers] 수준입니다.
 * *[!UICONTROL Opt out of ads.txt (default)]*: 모든 판매자의 인벤토리를 구매합니다.
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: 도메인의 승인된 직접 판매자 및 리셀러로부터 인벤토리 구매의 우선 순위를 지정합니다.
 * *[!UICONTROL Ads.txt sellers only]*: 도메인의 승인된 직접 판매자 및 리셀러에서만 인벤토리를 구매합니다.

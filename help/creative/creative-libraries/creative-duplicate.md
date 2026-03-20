@@ -3,7 +3,7 @@ title: 광고 복제
 description: Creative Library에서 크리에이티브를 복제하는 방법을 알아봅니다.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -36,7 +36,8 @@ ht-degree: 0%
 
    새 광고 이름은 `<original name> (copy) # 1`(또는 시퀀스의 다음 번호)로 지정됩니다. 예를 들어 &quot;테스트 이미지&quot;를 두 개 복제하는 경우 중복 항목의 이름은 &quot;테스트 이미지(복사본) # 1&quot;과 &quot;테스트 이미지(복사본) # 2&quot;입니다.
 
-<!-- Add to TOC later when this feature is available to users:
+<!--
+ Add to TOC later when this feature is available to users:
 
 >* [Edit dynamic creatives](creative-edit-dynamic.md)
 >* [Dynamic ad settings](creative-settings-dynamic.md)

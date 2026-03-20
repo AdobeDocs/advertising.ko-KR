@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -96,7 +96,8 @@ AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 
 
 대상자에 대한 프롬프트를 최적화하는 자세한 방법은 &quot;[대상자 브리프 만들기에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
 
-<!-- I think these are happening later:
+<!--
+ I think these are happening later:
 
 DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
 
@@ -147,7 +148,8 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 브리핑의 다음 목록에서 가능한 한 많은 대상 속성 유형을 포함하십시오. 제외할 속성에 대해 구체적으로 지정합니다.
 
-<!-- What about these:
+<!--
+ What about these:
 
 * Device specifications
 * Presence in audiences from specific third-party data providers

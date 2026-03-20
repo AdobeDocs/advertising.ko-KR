@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising] 제품 그룹 설정'
 description: ' [!DNL Microsoft Advertising] 쇼핑 제품 그룹의 설정을 참조합니다.'
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -38,7 +38,8 @@ ht-degree: 0%
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
-<!-- ExL can't handle the same include twice in the same file, so using a snippet for the second occurrence.
+<!--
+ ExL can't handle the same include twice in the same file, so using a snippet for the second occurrence.
 
 {{$include /help/_includes/tracking-template-microsoft.md}}
 -->
@@ -52,4 +53,4 @@ ht-degree: 0%
 >* [쇼핑 제품 그룹 정보](product-group-about.md)
 >* [쇼핑 제품 그룹 관리](product-group-manage.md)
 >* [쇼핑 캠페인 제품 필터](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2&rbrace;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

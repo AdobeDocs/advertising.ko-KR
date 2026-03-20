@@ -4,7 +4,7 @@ description: 포트폴리오 시뮬레이션에 대해 알아봅니다.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
-source-git-commit: 73528e2aa905216584d1aa294f5581d2bca88432
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 0%
@@ -17,7 +17,8 @@ ht-degree: 0%
 
 시뮬레이션 보고서는 다양한 지출 수준(비용)과 해당 일별 예산 또는 기타 타겟에서 포트폴리오에 대해 예상할 수 있는 예상 한계 비용-목표 값, 비용, 클릭 수 및 목표 값을 보여 줍니다. 필요한 경우 [보기를 사용자 지정](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)하여 추가 트래픽 지표, 시뮬레이션 설정 및 특정 시뮬레이션 유형([!UICONTROL Weekly] 또는 [!UICONTROL Custom])만 볼 수 있습니다.
 
-<!-- Not available as of 6/21/25:
+<!--
+ Not available as of 6/21/25:
 When the portfolio has a daily budget, you can optionally change the portfolio's spend target to any of the spend targets listed in the simulation.
 -->
 

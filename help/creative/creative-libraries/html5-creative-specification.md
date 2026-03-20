@@ -3,7 +3,7 @@ title: HTML5 creative 사양
 description: HTML5 creative specification for Advertising Creative 를 참조하십시오.
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 1%
@@ -18,7 +18,8 @@ ht-degree: 1%
 
 [!DNL Creative]은(는) 페이지의 설정된 테두리 내에 표시되는 리치 미디어 크리에이티브가 아닌 HTML5 배너를 지원합니다. 다음 유형의 HTML5 광고 유형을 사용할 수 있습니다.
 
-<!--Remove to simplify:
+<!--
+Remove to simplify:
 
 * **Simple HTML5:** Supports a single landing page URL that can be configured during creative creation and trafficking.
 
@@ -52,7 +53,8 @@ ht-degree: 1%
 
 이 파일에는 종료 이벤트의 로컬 테스트가 문제 없이 발생하도록 하는 함수가 포함되어 있습니다.
 
-<!-- Remove to simplify:
+<!--
+ Remove to simplify:
 
 ### Simple HTML5 creative requirements
 
@@ -72,7 +74,8 @@ var clickTag = “http://www.example.com”;
 
 -->
 
-<!-- Renamed to simplify:
+<!--
+ Renamed to simplify:
 ### Static HTML5 creative requirements
 -->
 

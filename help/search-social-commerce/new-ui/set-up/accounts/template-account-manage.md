@@ -2,7 +2,8 @@
 title: (새 UI)  [!DNL Naver] 추적 전용 계정 관리
 description: ' [!DNL Naver] 계정의 새 UI에서 계정 세부 사항을 설정하고 관리하는 방법에 대해 알아봅니다.'
 feature: Search Campaign Management
-source-git-commit: 0de2a01905727314ca6c0792c5efaf6450548293
+exl-id: bc4be409-9935-448b-bfba-f93eb30bd5ca
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -65,7 +66,8 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-<!-- What does this do?
+<!--
+ What does this do?
 
 ## Enable or disable ad network accounts {#enable-disable-account}
 
@@ -123,5 +125,5 @@ When you enable an ad network account, Search, Social, & Commerce synchronizes c
 
 >[!MORELIKETHIS]
 >
->* [추적 전용 계정 구현 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [추적 전용 계정 구현 [!DNL Naver] 2}](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [광고 네트워크 계정 정보](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)

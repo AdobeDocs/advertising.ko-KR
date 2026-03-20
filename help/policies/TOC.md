@@ -4,7 +4,7 @@ user-guide-title: Adobe Advertising 정책 및 지침
 user-guide-description: Advertising DSP 및  [!DNL Advertising Search, Social, & Commerce]에 대한 정책 및 지침에 대해 알아봅니다.
 breadcrumb-title: 정책 및 지침
 index: true
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: 일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보
 description: 광고 네트워크에서 사용할 수 있는 일괄 시트 기능, 일괄 시트 워크플로우 및 오류 처리에 대해 알아봅니다.
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -38,7 +38,8 @@ ht-degree: 0%
 
 동기화된 계정에 일괄 시트를 사용하는 의 표준 단계는 다음과 같습니다.
 
-<!-- insert image
+<!--
+ insert image
   [EDIT/RECREATE FILE to replace "search engine"]
 -->
 
