@@ -28,7 +28,7 @@ ht-degree: 0%
 
    * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다.
 
-1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![크리에이티브 최적화 편집](/help/creative/assets/edit-gray.png "크리에이티브 최적화 편집") **[!UICONTROL Creative Optimization]**을 클릭합니다.&lt;!—
+1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![크리에이티브 최적화 편집](/help/creative/assets/edit-gray.png "크리에이티브 최적화 편집") **[!UICONTROL Creative Optimization]**&#x200B;을 클릭합니다.&lt;!—
 Tag Manager에는 2/2부터 목록 보기만 있고 카드 보기는 없습니다. >
 
 1. **[!UICONTROL Schedule]**&#x200B;을(를) 사용하지 않도록 설정합니다.
