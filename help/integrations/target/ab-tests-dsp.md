@@ -77,7 +77,7 @@ Adobe 계정 팀에 문의하여 필요한 배치 키를 검색하고 설정을 
 
    1. 세그먼트 데이터를 사용할 수 있는지 확인합니다.
 
-      1. 세그먼트 사용자를 그룹화할 수준을 결정하는 [키-값 쌍](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html)에 대한 신호를 [검색](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=ko)합니다.
+      1. 세그먼트 사용자를 그룹화할 수준을 결정하는 [키-값 쌍](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=ko)에 대한 신호를 [검색](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=ko)합니다.
 
          Audience Manager 노출 이벤트 픽셀에 추가한 매크로에 해당하는 값으로 [지원되는 키](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=ko)을(를) 사용합니다.
 
