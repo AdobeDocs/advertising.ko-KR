@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **광고 변형:** 광고 그룹 또는 광고 전략 내의 모든 광고.
 
-**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Adobe Advertising에서 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다. `s_kwcid=`(으)로 시작합니다.
+**[AMO ID](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id):** Adobe Advertising에서 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다. `s_kwcid=`(으)로 시작합니다.
 
 **입찰 단위:** 입찰이 있는 단위에 대한 검색, 소셜 및 Commerce 용어입니다.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 **eCPM:** 유효 CPM 또는 지정된 날짜 범위 동안 1000회 노출당 지불된 평균 비용입니다. eCPM 값은 CPM 또는 CPC 캠페인에 대해 계산할 수 있습니다.
 
-**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** Adobe Advertising에서 온라인 클릭 또는 광고 노출과 활동을 연결하고 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다.
+**[EF ID](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-ef-id):** Adobe Advertising에서 온라인 클릭 또는 광고 노출과 활동을 연결하고 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다.
 
 ## G-H {#g-h}
 

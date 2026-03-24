@@ -19,4 +19,4 @@ ht-degree: 0%
 
 * (병렬 추적을 사용하는 광고 네트워크) 병렬 추적을 활성화하는 소스의 클릭에 대체되지 않는 매크로를 사용하지 마십시오. 광고주가 매크로를 사용해야 하는 경우 Adobe 계정 팀은 고객 지원 팀 또는 구현 팀과 협력하여 매크로를 추가해야 합니다.
 
-* (Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주) 검색, 소셜 및 Commerce 데이터를 [!DNL Analytics]&#x200B;(으)로 보낼 AMO ID 매개 변수를 포함하려면 [광고 네트워크별 형식](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)을 참조하세요. 서버측 AMO ID 구현으로 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에 대한 매개 변수를 수동으로 추가할 필요는 없습니다.
+* (Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주) 검색, 소셜 및 Commerce 데이터를 [!DNL Analytics]&#x200B;(으)로 보낼 AMO ID 매개 변수를 포함하려면 [광고 네트워크별 형식](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items)을 참조하세요. 서버측 AMO ID 구현으로 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에 대한 매개 변수를 수동으로 추가할 필요는 없습니다.
