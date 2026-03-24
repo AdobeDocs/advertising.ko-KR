@@ -3,9 +3,9 @@ title: 용어집
 description: 주요 용어의 정의를 참조하십시오.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2342'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **광고 변형:** 광고 그룹 또는 광고 전략 내의 모든 광고.
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** Adobe Advertising에서 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다. `s_kwcid=`(으)로 시작합니다.
+**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Adobe Advertising에서 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다. `s_kwcid=`(으)로 시작합니다.
 
 **입찰 단위:** 입찰이 있는 단위에 대한 검색, 소셜 및 Commerce 용어입니다.
 
@@ -88,6 +88,8 @@ ht-degree: 0%
 
 **eCPM:** 유효 CPM 또는 지정된 날짜 범위 동안 1000회 노출당 지불된 평균 비용입니다. eCPM 값은 CPM 또는 CPC 캠페인에 대해 계산할 수 있습니다.
 
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** Adobe Advertising에서 온라인 클릭 또는 광고 노출과 활동을 연결하고 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다.
+
 ## G-H {#g-h}
 
 **반감기:** 수량이 초기 값의 절반으로 줄어드는 데 필요한 시간입니다. 각 포트폴리오에 대해 반감기를 지정하여 비용 모델 및 수익 모델에 대해 데이터가 얼마나 관련이 있는지 나타낼 수 있습니다.
@@ -99,7 +101,7 @@ ht-degree: 0%
 
 **노출 전환 확인 기간:**(디스플레이 및 소셜 캠페인만 해당) 광고 노출이 발생한 후 노출이 전환으로 인한 영향을 받을 수 있는 일 수를 지정하는 광고주 수준 설정입니다.
 
-**노출 재정의 가중치:** 유료 클릭과 노출이 모두 있을 때 전환에 앞서 클라이언트의 노출 전환 확인 기간 내에 발생하는 노출에 기여하는 지정된 전환 값의 백분율입니다. 전환 앞에 노출만 있으면 노출 재정의 가중치가 아닌 광고주의 뷰스루 가중치가 노출에 적용됩니다.
+**노출 재정의 가중치:** 유료 클릭과 노출이 모두 있을 때 전환에 앞서 클라이언트의 노출 전환 확인 기간 내에 발생하는 노출에 연결할 전환 값의 지정된 백분율입니다. 전환 앞에 노출만 있으면 노출 재정의 가중치가 아닌 광고주의 뷰스루 가중치가 노출에 적용됩니다.
 
 ## K-L {#k-l}
 

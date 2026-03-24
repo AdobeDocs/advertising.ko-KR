@@ -3,9 +3,9 @@ title: ' [!DNL Google Ads] 계정에 대한 AMO ID(s_kwcid) 추적 코드 업데
 description: ' [!DNL Google Ads]  계정에 대한 최신 AMO ID 추적 코드로 전환하는 방법에 대해 알아봅니다.'
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]개의 계정만*
 
-기존 [&#x200B; 계정의 &#x200B;](/help/integrations/analytics/ids.md#amo-id-formats)AMO ID 추적 코드[!DNL Google Ads]에 대한 레거시(2019년 10월 이전) 형식은 [!DNL Google Ads] 성과 최대 캠페인, 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서의 보고와 같은 Analytics의 일부 기능을 지원하지 않으며, 여러 캠페인에 동일한 ad+키워드+일치 유형 조합이 있는 기타 사용 사례도 지원합니다.
+기존 [ 계정의 ](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)AMO ID 추적 코드[!DNL Google Ads]에 대한 레거시(2019년 10월 이전) 형식은 [!DNL Google Ads] 성과 최대 캠페인, 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서의 보고와 같은 Analytics의 일부 기능을 지원하지 않으며, 여러 캠페인에 동일한 ad+키워드+일치 유형 조합이 있는 기타 사용 사례도 지원합니다.
 
 현재 형식에는 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수가 포함되어 있습니다.
 
@@ -60,7 +60,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
    * 추적 설정에서 [!UICONTROL Auto Upload] 기능을 사용하도록 설정하면 검색, 소셜 및 Commerce은 이 계정과 해당 캠페인에 대한 랜딩 페이지 접미사의 추적 코드를 자동으로 업데이트합니다. 아무것도 안 해도 돼
 
-   * [!UICONTROL Auto Upload] 기능을 사용할 수 없고 [서버측 AMO ID 기능](/help/integrations/analytics/ids.md#amo-id-formats)을 사용하지 않는 경우 랜딩 페이지 접미사 설정에서 AMO ID 매개 변수를 수동으로 업데이트해야 합니다. [계정 설정](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) 및 [캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)에서 또는 [일괄 시트에서 변경 내용을 업로드](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)하여 계정 및 캠페인 수준 접미사를 수동으로 변경할 수 있습니다. 광고 그룹 수준 이하에서 접미사를 구성하려면 [!DNL Google Ads] 편집기를 사용하십시오.
+   * [!UICONTROL Auto Upload] 기능을 사용할 수 없고 [서버측 AMO ID 기능](/help/integrations/analytics/ids.md#)을 사용하지 않는 경우 랜딩 페이지 접미사 설정에서 AMO ID 매개 변수를 수동으로 업데이트해야 합니다. [계정 설정](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) 및 [캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)에서 또는 [일괄 시트에서 변경 내용을 업로드](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)하여 계정 및 캠페인 수준 접미사를 수동으로 변경할 수 있습니다. 광고 그룹 수준 이하에서 접미사를 구성하려면 [!DNL Google Ads] 편집기를 사용하십시오.
 
    * 캠페인 구성 요소에 대한 기본 URL 설정에 AMO ID를 포함하는 경우 해당 랜딩 페이지 접미사 설정으로 이동합니다.
 
@@ -70,4 +70,4 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >
 >* [광고 네트워크 계정 관리](ad-network-account-manage.md)
 >* [에서 사용하는  [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID
->* [개요 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ko){target="_blank"}
+>* [개요 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
