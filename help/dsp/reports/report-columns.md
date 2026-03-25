@@ -3,9 +3,9 @@ title: 사용 가능한 보고서 열
 description: 사용자 지정 보고서에서 사용 가능한 열에 대한 설명을 참조하십시오.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 917441d02d8e8b43911da44e19fcc2b7a64fc301
 workflow-type: tm+mt
-source-wordcount: '2927'
+source-wordcount: '2947'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 |[!UICONTROL Dimension]|[!UICONTROL Feed]|[!UICONTROL Deal List]|The name of a user-created deal list for which an ad was shown.|
 
 -->
+
+사용 가능한 보고서 열은 보고서 유형에 따라 다릅니다. 다음은 모든 보고서 유형에 걸쳐 있는 열의 상위 집합입니다.
 
 | 지표 유형 | 하위 유형 | 열 이름 | 설명 |
 |-----------|-------|-----------|-----------|
