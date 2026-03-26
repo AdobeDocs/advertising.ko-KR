@@ -3,7 +3,7 @@ title: '[!UICONTROL Simple Ad Serving] 거래 설정'
 description: '[!UICONTROL Simple Ad Serving] 거래에 사용 가능한 설정에 대해 알아봅니다.'
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 90cc9d56a090136bc94270b048573d89503231c6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 | **[!UICONTROL Serving Type]** | 이 거래의 미디어 유형: *[!UICONTROL Video],* *[!UICONTROL Display],* 또는 *[!UICONTROL Audio].* |
 | **[!UICONTROL Publisher Site Served On]** | 이 재고를 판매하는 게시자의 이름입니다. 이름에 처음 두 개 이상의 문자를 입력하여 게시자를 검색합니다. 목록에 없는 게시자를 추가하려면 Adobe 계정 팀에 문의하십시오. |
 | **[!UICONTROL Advertiser]** | 이 거래에 액세스할 수 있는 계정의 단일 광고주입니다. 또한 캠페인 및 (선택적으로) 거래를 사용할 수 있는 패키지를 선택합니다. |
-| **[!UICONTROL Media Quality Assessment?]** | (일부 사용자) 서드파티 확인을 위해 다른 DSP에서 광고를 실행할 수 있도록 합니다. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
+| **[!UICONTROL Media Quality Assessment?]** | (일부 사용자) 서드파티 확인을 위해 다른 DSP에서 광고를 실행할 수 있도록 합니다. |
 | **[!UICONTROL Ad Source]** | 유일한 옵션은 *[!UICONTROL Site Serve (Event Pixels)]*&#x200B;입니다. |
 | **[!UICONTROL Ad Creation]** | (새 거래만 해당):<ul><li>*[!UICONTROL Create New]:* 이 거래에 대한 광고를 만듭니다.</li><li>*[!UICONTROL Select Ads]:* 이 거래에 기존 광고를 사용합니다.</li></ul> |
 | **[!UICONTROL Ad Type]** | 이 거래의 광고 유형. 거래에 대한 광고를 만들려면 요청에 따라 광고 크기 또는 기간을 포함하십시오. 사용 가능한 옵션은 미디어 유형에 따라 다릅니다. |
