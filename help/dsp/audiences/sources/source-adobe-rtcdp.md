@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta 기능*
 
-Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)과(와) DSP 통합을 사용하여 해시된 이메일 주소, 쿠키 및 모바일 광고 ID를 포함한 사용자 ID를 타깃팅된 광고를 위한 범용 ID로 변환합니다.
+Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko)과(와) DSP 통합을 사용하여 해시된 이메일 주소, 쿠키 및 모바일 광고 ID를 포함한 사용자 ID를 타깃팅된 광고를 위한 범용 ID로 변환합니다.
 
 1. (사용자 ID를 [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->(으)로 전환하려면 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용하는 광고주) [!DNL Analytics] 측정에 대한 추적을 설정합니다.
 
@@ -32,11 +32,11 @@ Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time CDP]](https://
 
    이메일 주소는 SHA-256 알고리즘을 사용하여 해시해야 합니다.
 
-   DSP 대상 연결을 활성화하고, 대상을 활성화하고, 데이터 내보내기를 확인하는 방법에 대한 지침은 &quot;[Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)&quot;을 참조하십시오.
+   DSP 대상 연결을 활성화하고, 대상을 활성화하고, 데이터 내보내기를 확인하는 방법에 대한 지침은 &quot;[Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ko)&quot;을 참조하십시오.
 
    >[!NOTE]
    >
-   >해시된 이메일 주소만 지원하는 기존 연결을 이제 &quot;[기존 Adobe Advertising Cloud DSP 연결](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)&quot;이라고 합니다. 이미 기존 연결을 사용하고 있는 경우 즉시 변경할 필요가 없습니다. 그러나 레거시 연결은 결국 제거됩니다.
+   >해시된 이메일 주소만 지원하는 기존 연결을 이제 &quot;[기존 Adobe Advertising Cloud DSP 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy)&quot;이라고 합니다. 이미 기존 연결을 사용하고 있는 경우 즉시 변경할 필요가 없습니다. 그러나 레거시 연결은 결국 제거됩니다.
 
 1. 대상 라이브러리([!UICONTROL Audiences] > [!UICONTROL All Audiences]에서 대상을 만들거나 편집할 때 또는 배치 설정 내에서 사용 가능)에서 세그먼트가 채워지고 있는지 확인하고 범용 ID 수를 원래 사용자 ID 수와 비교합니다.
 
@@ -54,7 +54,7 @@ Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time CDP]](https://
 >
 >* [자사 대상 원본 정보](/help/dsp/audiences/sources/source-about.md)
 >* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
->* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [대상 카탈로그 개요](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ko)
+>* Adobe Experience Platform [대상 카탈로그 개요](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ko)
 >* [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
 >* [대상자 관리 정보](/help/dsp/audiences/audience-about.md)
