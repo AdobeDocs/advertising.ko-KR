@@ -3,7 +3,7 @@ title: 범용 비디오에 대한 FAQ
 description: 범용 비디오 광고에 대해 자세히 알아보십시오.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 다음 시나리오 중 하나에서 **[!UICONTROL VAST]**&#x200B;을(를) 사용합니다.
 
 * 배치 대상이 TV 인벤토리를 연결했습니다.
-* 이 배치는 Google Ad Manager, Appnexus, SpotX 또는 Freewheel의 비디오 인벤토리를 타깃팅합니다. 이러한 SSP는 VPAID 및 VAST 비디오 형식을 지원하지 않습니다.
+* 배치는 Google Ad Manager, Appnexus, SpotX 또는 FreeWheel의 비디오 인벤토리를 타깃팅합니다. 이러한 SSP는 VPAID 및 VAST 비디오 형식을 지원하지 않습니다.
 
 ## 여러 범용 비디오 광고를 동일한 범용 비디오 배치에 첨부할 수 있습니까?
 

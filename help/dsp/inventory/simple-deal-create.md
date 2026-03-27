@@ -3,9 +3,9 @@ title: '[!UICONTROL Simple Ad Serving] 거래 만들기'
 description: '[!UICONTROL Simple Ad Serving] 거래의 추적 픽셀을 만드는 방법을 알아봅니다.'
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    1. 피드 세부 정보에서 피드 세부 사항을 편집한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-      DSP은 광고에 대해 &quot;SAS 배치 - &lt;*거래 이름*>&quot;이라는 배치를 자동으로 생성합니다. 배치에서 거래는 [!UICONTROL Inventory Targets] 섹션에서 자동으로 타깃팅됩니다. 다른 모든 타깃팅 옵션은 적용할 수 없습니다.
+      DSP은 광고에 대해 &quot;SAS Placement - &lt;*거래 이름*>&quot;이라는 배치를 자동으로 생성합니다. 배치에서 거래는 [!UICONTROL Inventory Targets] 섹션에서 자동으로 타깃팅됩니다. 다른 모든 타깃팅 옵션은 적용할 수 없습니다.
 
 1. 다음 방법 중 하나로 구현을 위해 이벤트 추적 픽셀을 게시자에게 보냅니다.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
          * 장치의 전자 메일 응용 프로그램에 정보를 전자 메일 메시지에 붙여 넣으려면 **[!UICONTROL Email & Done]**&#x200B;을(를) 클릭하고 전자 메일 응용 프로그램을 선택하십시오. [!UICONTROL CC:] 필드가 [!DNL Adobe] 지원 주소로 미리 채워져 있습니다. 그런 다음 메시지를 게시자에게 적절한 연락처로 보낼 수 있습니다.
 
-         * 클립보드에 정보를 복사하려면 **[!UICONTROL Copy Email]을(를) 클릭합니다.** 전자 메일 메시지에 내용을 수동으로 붙여 넣고 게시자의 해당 연락처로 보낼 수 있습니다. `publisher-support-global@adobe.com`에 대한 복사본(참조:)을 포함해야 합니다. 메시지 복사가 끝나면 **[!UICONTROL Email & Done]**&#x200B;을(를) 클릭합니다.
+         * 클립보드에 정보를 복사하려면 **[!UICONTROL Copy Email]을(를) 클릭합니다.** 전자 메일 메시지에 내용을 수동으로 붙여 넣고 게시자의 해당 연락처로 보낼 수 있습니다. `publisher-support-global@adobe.com`에 대한 복사본(참조:)을 포함합니다. 메시지 복사가 끝나면 **[!UICONTROL Email & Done]**&#x200B;을(를) 클릭합니다.
 
       1. (필요한 경우) 게시자의 후속 작업을 통해 태그가 적절한 매크로를 포함하여 게시자의 광고 서버에서 태그가 작동하는지 확인합니다.
 

@@ -3,7 +3,7 @@ title: 범용 비디오 광고 설정
 description: 범용 비디오 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** 잠재적인 인벤토리에 대한 광고 플레이어의 형식: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* 또는 *[!UICONTROL VAST]*. [!UICONTROL VPAID]에 대해 항상 조회 수가 측정되지만 [!UICONTROL VPAID & VAST]에 조회 수를 측정할 수 없는 인벤토리가 포함되어 있습니다. 조회 지표가 캠페인에 중요한 경우 이 구분을 고려하십시오.
 
-VAST 형식만 필요한 연결된 TV 또는 인벤토리(일반적으로 Google Ad Manager, Appnexus, SpotX 및 Freewheel과 같은 공급 원본)를 대상으로 할 때 조회 측정을 허용하지 않는 [!UICONTROL VAST]을(를) 사용합니다. 또한 이전에 표준 프리롤(VAST) 또는 전화 + 태블릿 표준 프리롤(VAST) 배치/광고와 호환되었던 인벤토리에 대해서도 이 옵션을 사용합니다.
+VAST 형식만 필요한 연결된 TV 또는 인벤토리(일반적으로 Google Ad Manager, Appnexus, SpotX 및 FreeWheel과 같은 공급 원본)를 대상으로 할 때 조회 측정을 허용하지 않는 [!UICONTROL VAST]을(를) 사용합니다. 또한 이전에 표준 프리롤(VAST) 또는 전화 + 태블릿 표준 프리롤(VAST) 배치/광고와 호환되었던 인벤토리에 대해서도 이 옵션을 사용합니다.
 
 **[!UICONTROL Clock Number]**: (영국에서만 사용되며 권한이 있는 사용자만 사용할 수 있음) 올바른 광고가 브로드캐스트되도록 하는 데 사용되는 고유 식별자입니다. 이 설정을 적용할 수 없으면 비워 둡니다.
 

@@ -1,26 +1,26 @@
 ---
 title: ' [!DNL FreeWheel]에게 PG 거래에 대한 광고 제출'
-description: ' [!DNL Freewheel]의 게시자와 프로그래밍 방식으로 보장되는 거래에 대한 광고 승인을 요청하는 방법에 대해 알아봅니다.'
+description: ' [!DNL FreeWheel]의 게시자와 프로그래밍 방식으로 보장되는 거래에 대한 광고 승인을 요청하는 방법에 대해 알아봅니다.'
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# 프로그램 보증 거래에 대한 광고를 [!DNL Freewheel]에 제출합니다.
+# 프로그램 보증 거래에 대한 광고를 [!DNL FreeWheel]에 제출합니다.
 
 *프로그래밍 방식으로 보장된 [!DNL FreeWheel] 권한이 있는 계정*
 
-[FreeWheel](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)에서 게시자와 함께 프로그램 방식으로 보장되는 거래를 수락하려면 광고를 선택하고 거래에 사용할 프로그램 방식으로 보장되는 기본 배치를 만들어야 합니다. 승인을 위해 광고를 [!DNL Freewheel]에 제출해야 합니다.
+[FreeWheel](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)에서 게시자와 함께 프로그램 방식으로 보장되는 거래를 수락하려면 광고를 선택하고 거래에 사용할 프로그램 방식으로 보장되는 기본 배치를 만들어야 합니다. 승인을 위해 광고를 [!DNL FreeWheel]에 제출해야 합니다.
 
 >[!PREREQUISITES]
 >
 >Adobe 계정 팀과 함께 [!DNL DSP] 계정에 [!DNL FreeWheel] 프로그램 방식으로 보장된 워크플로우를 사용할 수 있는 권한이 있는지 확인하십시오.
 
-1. [!DNL Freewheel] 거래에 사용된 광고의 광고 키를 복사합니다.
+1. [!DNL FreeWheel] 거래에 사용된 광고의 광고 키를 복사합니다.
 
    1. 캠페인의 이름을 클릭합니다.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
       https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads
       ```
 
-1. [!DNL Freewheel]에 광고 제출:
+1. [!DNL FreeWheel]에 광고 제출:
 
    1. 다음 중 하나를 수행합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [프로그램 보증 거래 설정 개요 [!DNL Freewheel]](freewheel-overview.md)
+>* [프로그램 보증 거래 설정 개요 [!DNL FreeWheel]](freewheel-overview.md)
 >* [[!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)에서 거래 수락
 >* [PG 거래에 대한 광고 상태 확인 [!DNL FreeWheel] PG 거래](freewheel-check-status.md)
 >* [광고 제출을 위한 오류 코드 [!DNL FreeWheel] 오류 코드](freewheel-error-codes.md)

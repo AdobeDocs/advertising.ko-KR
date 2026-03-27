@@ -3,7 +3,7 @@ title: 연결된 TV 도달 계획 보관
 description: 연결된 TV 도달 계획을 보관하는 방법에 대해 알아봅니다.
 feature: DSP Planner
 exl-id: 335db881-51e6-412d-9346-216c6a70a6de
-source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 연결된 TV 도달 계획 보관
 
-플랜을 보관하면 기본 [!UICONTROL Planner] 보기에서 제거됩니다.<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
+플랜을 보관하면 기본 [!UICONTROL Planner] 보기에서 플랜이 제거됩니다.
 
 1. 주 메뉴에서 **[!UICONTROL Planner]**&#x200B;을(를) 클릭합니다.
 
