@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # [!DNL FreeWheel] 광고 제출에 대한 오류 코드
 
-실패한 광고 제출에 대한 오류 메시지는 Advertising DSP 또는 [!DNL FreeWheel]에서 가져올 수 있습니다. [!UICONTROL API Response] 대화 상자[[!UICONTROL FreeWheel Status]의 ](freewheel-check-status.md) 열에서 오류 메시지를 찾습니다.
+실패한 광고 제출에 대한 오류 메시지는 Advertising DSP 또는 [!DNL FreeWheel]에서 가져올 수 있습니다. [!UICONTROL API Response] 대화 상자[[!UICONTROL FreeWheel Status]의 &#x200B;](freewheel-check-status.md) 열에서 오류 메시지를 찾습니다.
 
 ## Advertising DSP 내부 오류
 
