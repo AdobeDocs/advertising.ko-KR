@@ -3,7 +3,7 @@ title: 연결된 TV 도달 계획에 대한 예측 다시 생성
 description: 연결된 TV 도달 계획에 대한 새 예측을 만드는 방법을 알아봅니다.
 feature: DSP Planner
 exl-id: ec3de39c-c2b3-4004-8d86-eb6479608121
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. 계획 행 위에 커서를 놓고 **[!UICONTROL Forecast]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) [!UICONTROL Budget vs Reach] 예측을 [!DNL Microsoft Excel] 스프레드시트로 내보내려면 **&#x200B; 상단의 &#x200B;** [!UICONTROL ...]&#x200B;**&#x200B;을(를) 클릭한 다음 &#x200B;** [!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
+1. (선택 사항) [!UICONTROL Budget vs Reach] 예측을 [!DNL Microsoft Excel] 스프레드시트로 내보내려면 ** 상단의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
