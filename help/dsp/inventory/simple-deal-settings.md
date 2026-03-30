@@ -3,7 +3,7 @@ title: '[!UICONTROL Simple Ad Serving] 거래 설정'
 description: '[!UICONTROL Simple Ad Serving] 거래에 사용 가능한 설정에 대해 알아봅니다.'
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 90cc9d56a090136bc94270b048573d89503231c6
+source-git-commit: 1af0dd2cdcfdf7f63f4ad9be5bec445d5fd78687
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 새 [!UICONTROL Simple Ad Serving] 거래
 
-### [!UICONTROL Select ad source]
+### [!UICONTROL Ad Source]
 
 | 매개 변수 | 설명 |
 |-----------|-------------|
@@ -28,15 +28,13 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Select ad(s)]
+### [!UICONTROL Select/Upload Creative]
 
-(기존 광고를 사용하는 경우) 거래에 포함할 광고입니다. 포함할 각 광고 옆에 있는 확인란을 선택합니다.
+* 기존 광고를 사용하는 경우 거래에 포함할 각 광고 옆에 있는 확인란을 선택합니다.
 
-### [!UICONTROL Select & upload [Media Type]]
+* 새 광고를 만들 때는 화면을 사용하여 새 [타사 광고](/help/dsp/campaign-management/ads/ad-create-multiple.md)를 만드십시오.
 
-(새 광고만 해당) Screens에서 새 [타사 광고](/help/dsp/campaign-management/ads/ad-create-multiple.md)를 만들 수 있습니다.
-
-### [!UICONTROL Feed details]
+### [!UICONTROL Feed Details]
 
 | 매개 변수 | 설명 |
 |-----------|-------------|
