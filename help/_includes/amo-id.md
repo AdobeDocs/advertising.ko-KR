@@ -1,5 +1,5 @@
 ---
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -11,17 +11,18 @@ ht-degree: 0%
 
 AMO ID는 보다 세분화된 수준에서 각각의 고유한 광고 조합을 추적하며, [!DNL Analytics] 및 Customer Journey Analytics 데이터 분류와 Adobe Advertising에서 광고 지표(예: 노출 횟수, 클릭 수 및 비용)의 수집에 사용됩니다.
 
-[!DNL Analytics]의 경우 AMO ID는 [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ko) 또는 rVar 차원(AMO ID)에 저장됩니다.
+[!DNL Analytics]의 경우 AMO ID는 [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 rVar 차원(AMO ID)에 저장됩니다.
 
-Customer Journey Analytics의 경우 AMO ID가 `trackingCode` `conversionDetails`[의 일부인 [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] 개체의 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) 속성에 저장됩니다.
+Customer Journey Analytics의 경우 AMO ID가 `trackingCode``conversionDetails`[의 일부인 [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension] 개체의 ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) 속성에 저장됩니다.
 
 AMO ID를 `s_kwcid`이라고도 하며, &quot;[!DNL squid]&quot;(으)로 발음되기도 합니다.
 
 ### AMO ID 형식 {#amo-id-formats}
 
-&quot;Adobe Analytics 구성 요소 안내서&quot;에서 [AMO ID 차원 항목에 대한 형식](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items)을 참조하십시오.
+&quot;Adobe Analytics 구성 요소 안내서&quot;에서 [AMO ID 차원 항목에 대한 형식](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)을 참조하십시오.
 
-<!-- Legacy content:
+<!--
+Legacy content:
 
 Notes for GGL Ads: Verify Creative description. Also, are there more networks now (audience and shopping?) Re "To use the latest AMO ID tracking code, see "[Update the AMO ID tracking code for a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).: Update terminology there too.
 
