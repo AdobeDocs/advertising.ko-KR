@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # 보관
 
-이 리포지토리가 <https://github.com/Adobe-Enterprise-Docs/advertising.en>(으)로 마이그레이션되었습니다.
+이 리포지토리가 <https://github.com/Adobe-Enterprise-Docs/advertising.ko-KR>(으)로 마이그레이션되었습니다.
