@@ -1,5 +1,5 @@
 ---
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -23,7 +23,9 @@ Customer Journey Analytics의 경우 EF ID는 `trackingIdentities` `conversionDe
 >
 >EF ID는 대/소문자를 구분합니다. [!DNL Analytics] 또는 Customer Journey Analytics 구현에서 URL 추적을 소문자로 강제하는 경우 Adobe Advertising에서 EF ID를 인식하지 못합니다. 이는 Adobe Advertising 입찰 및 보고에 영향을 주지만 [!DNL Analytics] 또는 Customer Journey Analytics 내의 Adobe Advertising 보고에는 영향을 주지 않습니다.
 
-<!-- Legacy content:
+<!--
+
+Legacy content:
 
 #### [!DNL Google Ads] search ads
 
