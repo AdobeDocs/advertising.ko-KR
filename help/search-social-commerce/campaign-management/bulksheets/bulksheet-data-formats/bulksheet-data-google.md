@@ -3,9 +3,17 @@ title: ' [!DNL Google Ads] 계정의 필수 일괄 시트 데이터'
 description: ' [!DNL Google Ads] 계정의 일괄 시트에 있는 필수 머리글 필드 및 데이터 필드를 참조합니다.'
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+TQID: https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '7898'
+source-wordcount: 7898
 ht-degree: 0%
 
 ---
@@ -56,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Adobe Rec Bid Adjustment] | (정보 목적으로 생성된 일괄 시트에 포함됨) Adobe에서 캠페인 수준 위치 대상 또는 RLSA에 권장하는 읽기 전용 입찰 조정입니다. 가중 전환 지표를 사용하는 목표를 가진 포트폴리오([!UICONTROL Maximize Clicks] 목표가 아님)에 캠페인이 있고, 최근 90일 동안 최소 5번의 클릭으로 두 개 이상의 위치 대상 또는 RLSA가 포함된 경우 또는 비용 USD가 5개인 경우에만 계산됩니다.</p><p>위치 타겟 또는 RLSA를 수동으로 편집하여 권장 값을 사용하려는 경우, 위치 타겟 또는 RLSA를 만든 후 최소 2주를 기다린 후 충분한 데이터 수집을 허용하고 값을 일주일에 두 번 이상 변경하지 마십시오. |
 | [!UICONTROL Device Targets] | <p>(기존 캠페인 유형만 해당) 광고를 표시할 수 있는 장치: <i>[!UICONTROL All]</i>, <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Smartphones]</i> 또는 <i>[!UICONTROL Tablets]</i>. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | (레거시 캠페인 유형만 해당, 장치 대상에 &quot;스마트폰&quot; 또는 &quot;태블릿&quot;이 포함된 경우 적용 가능) 광고가 표시될 수 있는 운영 체제: <i>[!UICONTROL All]</i>, <i>[!UICONTROL Android]</i>, <i>[!UICONTROL iOS]</i> 또는 <i>[!UICONTROL Palm]</i>. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
-| [!UICONTROL Mobile Carriers (Google Adwords)] | <p>(기존 캠페인 유형만 해당; [!UICONTROL Device Targets]에 &quot;[!UICONTROL All]&quot; 또는 &quot;[!UICONTROL Smartphones]&quot;이(가) 포함된 경우에 적용 가능) 스마트폰이 연결될 수 있는 이동통신사: <i>[!UICONTROL All]</i> 또는 <i>사용 가능한 통신사 및 </i>용 코드 목록을 사용하는 &lt;c<i>통신사 코드</i>>,&lt;<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">국가 코드[!DNL Google Ads]</a>>(예: T-Mobile,US)로 표시된 하나 이상의 통신사. 세미콜론(예: T-Mobile, US, T-Mobile, GB)으로 여러 캐리어를 구분하십시오. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
+| [!UICONTROL Mobile Carriers (Google Adwords)] | <p>(기존 캠페인 유형만 해당; [!UICONTROL Device Targets]에 &quot;[!UICONTROL All]&quot; 또는 &quot;[!UICONTROL Smartphones]&quot;이(가) 포함된 경우에만 적용 가능) 스마트폰이 연결될 수 있는 이동통신사: <i>[!UICONTROL All]</i> 또는 <i>사용 가능한 통신사 및 </i>용 코드 목록을 사용하여 &lt;c<i>통신사 코드</i>>,&lt;<a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">국가 코드[!DNL Google Ads]</a>>(예: T-Mobile,US)로 표시된 이동통신사 하나 이상. 세미콜론(예: T-Mobile, US, T-Mobile, GB)으로 여러 캐리어를 구분하십시오. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
 | [!UICONTROL Ad Group Name] | <p>광고 그룹을 식별하는 고유한 이름. 최대 길이는 255자입니다. 후행 빈 문자는 저장되지 않습니다(예: &quot;광고 그룹 1&quot;이 &quot;광고 그룹 1&quot;로 저장됨). 이 필드는 캠페인 수준 사이트 링크 또는 캠페인 수준 장치 타겟에 적용할 수 없습니다.</p> |
 | [!UICONTROL Ad Group Type] | <p>광고 그룹 유형: <i>[!UICONTROL Demand Gen]</i>(수요 창출 캠페인만 해당), <i>[!UICONTROL Display]</i>(디스플레이 캠페인만 해당), <i>[!UICONTROL Search Dynamic]</i>(확장된 동적 검색 광고의 경우), <i>[!UICONTROL Search Standard]</i>(검색 광고의 경우), <i>[!UICONTROL Shopping Product]</i>(쇼핑 제품 광고의 경우), <i>[!UICONTROL Shopping Showcase]</i>(만들기 및 편집이 지원되지 않음) 또는 <i>[!UICONTROL Unknown]</i>.</p> |
 | [!UICONTROL Max CPC] | <p>(CPC 캠페인만 해당) CPC(최대 클릭당 비용)는 금전적 기호와 구두점 유무에 관계없이 광고 네트워크에서 광고 클릭에 대해 지불하는 가장 높은 금액입니다. 광고 그룹 및 키워드, 제품 그룹, 동적 검색 타겟에 대한 값을 설정할 수 있습니다. 새 키워드의 기본값은 광고 그룹 수준에서 상속됩니다. 제품 그룹의 경우 가장 낮은 제품 그룹 계층의 값을 설정할 수 있습니다. 새 계층의 기본값은 상위 계층에서 상속됩니다.</p><p>최적화된 포트폴리오의 기존 제품 그룹 및 동적 검색 타겟의 경우 업데이트는 하루 동안만 유효하며 다음 최적화 주기 동안 덮어쓰여집니다.</p> |
@@ -77,11 +85,11 @@ ht-degree: 0%
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | <p>(확장된 동적 검색 광고, 확장된 텍스트 광고 및 반응형 검색 광고만 해당) 광고 본문입니다. 각 설명 필드의 최대 길이는 동적 텍스트(예: 키워드 및 광고 사용자 정의 값)를 포함하여 90자 또는 45개의 더블바이트 문자입니다.</p><p>반응형 검색 광고의 경우 `{CUSTOMIZER.AdCustomizerName:DefaultText}`과(와) 같은 `{CUSTOMIZER.Discount:10%}` 형식을 사용하여 광고 사용자 지정자를 삽입합니다.</p><p>확장된 동적 검색 광고의 경우 [!UICONTROL Description Line 1] 및 [!UICONTROL Description Line 2]만 사용하십시오. <b>참고:</b> 이 광고 형식의 경우 광고 복사본을 변경하면 기존 광고가 삭제되고 새 광고가 만들어집니다.</p><p>만들거나 편집할 수 없지만 확장된 텍스트 광고는 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다.</p><p>반응형 검색 광고의 경우 [!UICONTROL Description Line 1] 및 [!UICONTROL Description Line 2]이(가) 필요하며 [!UICONTROL Description Line 3] 및 [!UICONTROL Description Line 4]은(는) 선택 사항입니다. 기존 값을 삭제하려면 <code>[delete] 값을 사용하십시오.</code> (대괄호를 포함).</p> |
 | [!UICONTROL Description Line 1 Position]-[!UICONTROL Description Line 4 Position] | (반응형 검색 광고만 해당; 선택 사항) 해당 설명을 고정할 위치입니다. `[null]`(값 없음), <i>1</i>, <i>2</i> 또는 <i>3</i>. 예를 들어 [!UICONTROL Description 1 Position]의 값이 1이면 [!UICONTROL Description 1]은(는) 위치 1에만 나타납니다. 기본적으로 설명은 위치에 고정되지 않습니다.</p><p>기존 값을 삭제하려면 값 `[delete]`(대괄호 포함)을 사용하십시오.</p><p><b>참고:</b> 동일한 위치에 여러 설명을 고정할 수 있습니다. 광고 네트워크는 해당 위치에 고정된 설명 중 하나를 사용합니다. 위치 2에 고정된 설명은 광고와 함께 표시되지 않을 수 있습니다. |
 | [!UICONTROL Display URL] | 광고에 포함된 URL.<br><br>확장된 동적 검색 광고의 경우 [!DNL Google Ads]은(는) 웹 사이트 도메인에서 동적으로 이 값을 생성하므로 값을 입력할 필요가 없습니다.<br><br>반응형 검색 광고의 경우 값을 입력할 필요가 없습니다. 표시 URL은 최종 URL의 도메인에서 자동으로 추출됩니다. 선택적으로 경로 1 및 경로 2 필드를 사용하여 URL을 사용자 지정할 수 있습니다.<br><br>만들거나 편집할 수 없지만 확장된 텍스트 광고를 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다.<br><br><b>참고:</b>(최종 URL이 있는 계정) 표시 URL과 최종 URL의 도메인 이름은 일치해야 합니다.</p> |
-| [!UICONTROL Display Path 1] | <p>(확장된 텍스트 광고<span> 및 반응형 검색 광고</span>만 해당)</p><p>(선택 사항) 최종 URL에서 자동으로 추출되는 표시 URL에 추가되는 텍스트입니다. URL 앞에는 슬래시(/)가 표시됩니다. 경로에는 슬래시(/) 또는 줄바꿈(\n) 문자를 사용할 수 없습니다. 최대 길이는 15자 또는 7개의 더블바이트 문자입니다.</p><p>광고 사용자 지정기를 삽입하려면 다음 형식을 사용하십시오. 여기서 `Default text`은(는) 피드 파일에 유효한 값이 포함되지 않은 경우 삽입할 선택적 값입니다.&lt; `{CUSTOMIZER.AdCustomizerName:Default text}`, 예: `{CUSTOMIZER.Discount:10%}`</p><p>예를 들어 [!UICONTROL Display Path 1]이(가) &quot;거래&quot;이면 표시 URL은 &lt;<i>표시 URL</i>>/거래입니다(예: www.example.com/deals).</p><p>만들거나 편집할 수 없지만 확장된 텍스트 광고는 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다.</p> |
-| [!UICONTROL Display Path 2] | 두 번째 표시 경로입니다. [!UICONTROL Display Path 1]의 항목을 참조하십시오.<br><br>예: [!UICONTROL Display Path 1]이(가) &quot;거래&quot;이고 [!UICONTROL Display Path 2]이(가) &quot;로컬&quot;이면 디스플레이 URL은 &lt;<i>디스플레이 URL</i>>/거래/로컬입니다(예: www.example.com/deals/local).</p><p>만들거나 편집할 수 없지만 확장된 텍스트 광고는 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다.</p> |
+| [!UICONTROL Display Path 1] | <p>(확장된 텍스트 광고<span> 및 반응형 검색 광고</span>만 해당)</p><p>(선택 사항) 최종 URL에서 자동으로 추출되는 표시 URL에 추가되는 텍스트입니다. URL 앞에는 슬래시(/)가 표시됩니다. 경로에는 슬래시(/) 또는 줄바꿈(\n) 문자를 사용할 수 없습니다. 최대 길이는 15자 또는 7개의 더블바이트 문자입니다.</p><p>광고 사용자 지정기를 삽입하려면 다음 형식을 사용하십시오. 여기서 `Default text`은(는) 피드 파일에 유효한 값이 포함되지 않은 경우 삽입할 선택적 값입니다.&lt; `{CUSTOMIZER.AdCustomizerName:Default text}`, 예: `{CUSTOMIZER.Discount:10%}`</p><p>예를 들어 [!UICONTROL Display Path 1]이(가) &quot;거래&quot;이면 디스플레이 URL은 &lt;<i>디스플레이 URL</i>>/거래입니다(예: www.example.com/deals).</p><p>만들거나 편집할 수 없지만 확장된 텍스트 광고는 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다.</p> |
+| [!UICONTROL Display Path 2] | 두 번째 표시 경로입니다. [!UICONTROL Display Path 1]의 항목을 참조하십시오.<br><br>예: [!UICONTROL Display Path 1]이(가) &quot;deals&quot;이고 [!UICONTROL Display Path 2]이(가) &quot;local&quot;이면 디스플레이 URL은 &lt;<i>디스플레이 URL</i>>/deals/local(예: www.example.com/deals/local)입니다.</p><p>만들거나 편집할 수 없지만 확장된 텍스트 광고는 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다.</p> |
 | [!UICONTROL Promotion Line] | (제품 목록 광고만 해당) 검색 결과의 제품 목록에 포함될 선택적 프로모션 라인입니다. 최대 길이는 45자입니다.</p><p>프로모션 라인은 페이지에서 광고가 표시되는 위치에 따라 광고에 대한 다른 위치(예: 광고 아래)에 표시될 수 있습니다. |
 | [!UICONTROL Link Name] | <p>사이트링크 텍스트입니다. 최대 25자를 포함할 수 있습니다.</p><p>새 사이트링크의 경우 사이트링크 행 내에 캠페인 이름을 포함해야 합니다. 광고 그룹 수준의 사이트링크의 경우 광고 그룹 이름도 포함해야 합니다.</p><p><b>참고:</b> 데스크톱 및 태블릿의 광고에는 35자의 기존 텍스트가 계속 표시되지만 모바일 장치에는 표시되지 않습니다.</p> |
-| [!UICONTROL Mobile App Platform (Google Adwords)] | (기존 앱 설치 광고만 해당) 모바일 애플리케이션이 실행되는 운영 체제: <i>Android™</i> 또는 <i>ios</i>. |
+| [!UICONTROL Mobile App Platform (Google Adwords)] | (기존 앱 설치 광고만 해당) 모바일 애플리케이션이 실행되는 운영 체제: <i>™</i> 또는 <i>ios</i>. |
 | [!UICONTROL Mobile App ID (Google Adwords)] | (기존 앱 설치 광고만 해당) <p>애플리케이션 ID 또는 패키지 이름입니다. |
 | [!UICONTROL Mobile App Name (Google Adwords)] | (기존 앱 설치 광고만 해당) 애플리케이션 이름. |
 | [!UICONTROL Start Date] | <p>(향상된 사이트 링크만 해당) 사이트 링크에 대한 입찰이 이루어질 수 있는 첫 번째 날짜로서 광고주의 시간대 및 <i>m/d/yyyy</i>, <i>m/d/yy</i>, <i>m-d-yyyy</i> 또는 <i>m-d-yy</i> 중 하나입니다. 향상된 새 사이트링크의 기본값은 현재 날짜입니다.</p><p><b>참고:</b> 향상된 새 사이트링크는 기존의 향상된 사이트링크가 있거나 사이트링크가 없는 캠페인에서만 만들 수 있습니다.</p> |
@@ -241,7 +249,7 @@ ht-degree: 0%
 
 ### 확장된 동적 검색 광고
 
-이제 [!DNL Google Ads]에서 이 광고 유형을 &quot;동적 검색 광고&quot;라고 합니다. 동적 검색 광고 만들기에 대한 자세한 내용은 &quot;[동적 검색 광고 구현 [!DNL Google Ads] 2&rbrace;을 참조하세요.&quot;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=ko)
+이제 [!DNL Google Ads]에서 이 광고 유형을 &quot;동적 검색 광고&quot;라고 합니다. 동적 검색 광고 만들기에 대한 자세한 내용은 &quot;[동적 검색 광고 구현 [!DNL Google Ads] 2&rbrace;을 참조하세요.&quot;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)
 
 이 광고 유형의 경우 [!UICONTROL Creative (except RSA)] 대화 상자에서 &quot;[!UICONTROL Download Bulksheet]&quot; 행을 사용하십시오.
 

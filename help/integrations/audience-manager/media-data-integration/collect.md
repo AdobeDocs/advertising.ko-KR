@@ -3,9 +3,26 @@ title: Advertising DSP 캠페인에서 클릭 및 노출 데이터 수집
 description: Audience Manager 픽셀을 사용하여 Advertising DSP 광고에서 쿠키 기반 노출과 클릭 이벤트를 캡처하는 방법에 대해 알아봅니다
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: 997
 ht-degree: 0%
 
 ---
@@ -22,7 +39,7 @@ ht-degree: 0%
 
 ## 1단계: Audience Manager에서 데이터 소스 설정 {#set-up-data-source}
 
-Audience Manager에서 DSP 노출에 대한 [데이터 소스](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=ko)를 만들고 데이터를 클릭합니다. 추적된 모든 이벤트가 데이터 원본에 속하도록 각 이벤트 태그에 데이터 원본 ID [을(를) 포함합니다](#implement-dsp-pixels).
+Audience Manager에서 DSP 노출에 대한 [데이터 소스](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html)를 만들고 데이터를 클릭합니다. 추적된 모든 이벤트가 데이터 원본에 속하도록 각 이벤트 태그에 데이터 원본 ID [을(를) 포함합니다](#implement-dsp-pixels).
 
 >[!NOTE]
 > 단일 데이터 소스 내에서 여러 DSP에서 실행되는 광고 캠페인에 대한 모든 노출을 수집하고 클릭 데이터를 수집할 수 있습니다.
@@ -120,7 +137,7 @@ Audience Manager에서 클릭 이벤트 픽셀에 대해 지원하는 매크로 
 
 ### Audience Manager 트레이트 및 세그먼트 만들기
 
-이벤트 데이터가 [사용되지 않은 신호](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=ko)&#x200B;(으)로 Audience Manager에 전송됩니다. 보고서에 데이터를 사용하기 전에 수집된 데이터에서 [규칙 기반 특성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ko)을 수동으로 만든 다음 이러한 특성을 사용하여 [세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=ko)을(를) 만드십시오.
+이벤트 데이터가 [사용되지 않은 신호](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=ko)&#x200B;(으)로 Audience Manager에 전송됩니다. 보고서에 데이터를 사용하기 전에 수집된 데이터에서 [규칙 기반 특성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html)을 수동으로 만든 다음 이러한 특성을 사용하여 [세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=ko)을(를) 만드십시오.
 
 DSP의 특정 크리에이티브에 노출된 사용자에 대해 사용자 수준 데이터를 채우는 예제 트레이트입니다.
 

@@ -3,9 +3,16 @@ title: 보고서 템플릿 편집
 description: 재사용 가능한 보고서 템플릿에 대한 설정을 편집하는 방법에 대해 알아봅니다.
 exl-id: f986bc75-e42c-4388-8cb1-305100678b1b
 feature: Search Reports
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/bb2qq2HUVdhjoMS41Jbd7kcZUrSrP7YCYCiYf6u753I
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: 109
 ht-degree: 0%
 
 ---
@@ -24,7 +31,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 설정을 편집할 때 [!UICONTROL Scheduling and Delivery] 섹션에서 &quot;[!UICONTROL Save as template]&quot; 옆의 확인란을 선택할 필요가 없습니다. 이렇게 하면 다른 이름으로 새 템플릿을 만들라는 메시지가 표시됩니다.
+   > 설정을 편집할 때 [!UICONTROL Save as template] 섹션에서 &quot;[!UICONTROL Scheduling and Delivery]&quot; 옆의 확인란을 선택할 필요가 없습니다. 이렇게 하면 다른 이름으로 새 템플릿을 만들라는 메시지가 표시됩니다.
 
 1. **[!UICONTROL Update Template]**&#x200B;을(를) 클릭합니다.
 

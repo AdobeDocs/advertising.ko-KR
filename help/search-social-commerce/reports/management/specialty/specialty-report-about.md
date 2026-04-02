@@ -3,9 +3,16 @@ title: 전문 보고서 정보
 description: 전문 보고서에 대해 알아봅니다.
 exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/Ryz4VVERj-pBZMgBMrEOUr66VlZpzqwMFUW1jRB9oBo
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: 138
 ht-degree: 0%
 
 ---
@@ -16,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->대부분의 전문 보고서 의 경우 전날 데이터는 매일 23:00(오후 11:00)에 가져옵니다. 예를 들어, 6월 18일 23시에 6월 17일에 대한 데이터를 가져옵니다. 6월 18일에 대한 데이터를 가져오기 전인 6월 19일 09:00에 보고서를 실행하는 경우 보고서에는 6월 17일 23:00까지의 데이터가 포함됩니다. 이 데이터 동기화는 모든 [!DNL Google Ads] 전문 보고서와 [!UICONTROL Bing Ads Geo Report] 및 [!UICONTROL Bing Ads Search Query Report]에 적용됩니다.
+>대부분의 전문 보고서의 경우, 전날 데이터는 매일 23:00(오후 11:00)에 가져옵니다. 예를 들어, 6월 18일 23:00에서 6월 17일에 대한 데이터를 가져옵니다. 6월 18일에 대한 데이터를 가져오기 전인 6월 19일 09:00에 보고서를 실행하는 경우 보고서에는 6월 17일 23:00까지의 데이터가 포함됩니다. 이 데이터 동기화는 모든 [!DNL Google Ads] 전문 보고서와 [!UICONTROL Bing Ads Geo Report] 및 [!UICONTROL Bing Ads Search Query Report]에 적용됩니다.
 
 ## 전문 보고서 유형
 

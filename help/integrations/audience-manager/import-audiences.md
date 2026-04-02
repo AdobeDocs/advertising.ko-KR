@@ -3,9 +3,27 @@ title: 광고 타깃팅용 Adobe Audience Manager 세그먼트 가져오기
 description: ' [!DNL Adobe] 대상자를 Advertising DSP으로 가져오고 Adobe Audience Manager을 사용하여 검색하는 방법에 대해 알아봅니다.'
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/-OqZLPZ1uWjBqSaCtGnmF5nrrxVIdT0kpE6YznQWttw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2:
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: 920
 ht-degree: 0%
 
 ---
@@ -30,7 +48,7 @@ DSP 또는 [!DNL Adobe]에서 [!DNL Creative]개의 대상에 액세스하려면
 
   구현에는 광고주 사이트의 각 웹 페이지에 [!DNL Identity service] 코드를 추가하는 작업이 포함됩니다.
 
-* 조직은 Experience Cloud 서비스에 대해 [활성화됨](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/overview)이어야 하며 Experience Cloud [!DNL Organization ID]&#x200B;(이전 이름: [!DNL IMS org ID])이(가) 있어야 합니다.
+* 조직은 Experience Cloud 서비스에 대해 [활성화됨](https://experienceleague.adobe.com/en/docs/core-services/interface/services/overview)이어야 하며 Experience Cloud [!DNL Organization ID]&#x200B;(이전 이름: [!DNL IMS org ID])이(가) 있어야 합니다.
 
   [!UICONTROL Organization ID]을(를) 사용하면 여러 Adobe Experience Cloud 제품이 있는 조직에서 일부 제품 간에 데이터를 공유할 수 있습니다.
 
@@ -38,7 +56,7 @@ DSP 또는 [!DNL Adobe]에서 [!DNL Creative]개의 대상에 액세스하려면
 
 * 광고주의 웹 사이트 방문자에 [!DNL Apple Safari]명의 사용자가 포함되지 않습니다.
 
-* (광고주가 Audience Manager과 [!DNL Analytics]을(를) 모두 사용하는 경우 권장) 각 웹 페이지에 대한 호출을 줄이려면 데이터 수집을 위해 기존 Audience Manager [!DNL Data Integration Library] 코드를 제거하고 대신 각 [!DNL Analytics] 보고서 세트에 대해 서버측 전달을 사용하도록 설정하십시오. 자세한 내용은 &quot;[서버측 전달 개요](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf)를 참조하십시오.
+* (광고주가 Audience Manager과 [!DNL Analytics]을(를) 모두 사용하는 경우 권장) 각 웹 페이지에 대한 호출을 줄이려면 데이터 수집을 위해 기존 Audience Manager [!DNL Data Integration Library] 코드를 제거하고 대신 각 [!DNL Analytics] 보고서 세트에 대해 서버측 전달을 사용하도록 설정하십시오. 자세한 내용은 &quot;[서버측 전달 개요](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf)를 참조하십시오.
 
 * (권장) 일치율을 높이려면 자사 웹 사이트 데이터만 Adobe Advertising으로 보냅니다. 광고주가 고객 관계 관리 시스템의 타사 데이터 또는 오프라인 데이터를 번들로 제공하는 경우 데이터 유출로 인해 일치율이 감소할 수 있습니다.
 

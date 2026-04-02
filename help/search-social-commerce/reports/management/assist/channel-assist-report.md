@@ -3,16 +3,25 @@ title: '[!UICONTROL Channel Assist Report]'
 description: '[!UICONTROL Channel Assist Report]에 대해 알아봅니다.'
 exl-id: 67bce347-2776-4585-adb4-e1a4d76fbadc
 feature: Search Reports, Search Assist Reports
-source-git-commit: 45920c6ea9d2953c963ddf6472966b3fc3a91395
+TQID: https://experienceleague.adobe.com/G2KcySAZVdf-J14CxQS2Hk5av6KHlpyFehwfMcZYj78
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: 684
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Channel Assist Report]
 
-*검색, 소셜 및 Commerce 클릭 추적 및 Adobe Advertising, Adobe Analytics([!DNL Analytics] 통합 포함)의 전환 추적 또는 토큰(`ef_id`)만 사용하여 피드로 제공되는 광고주*
+*검색, 소셜 및 Commerce 클릭 추적 및 Adobe Advertising, Adobe Analytics([!DNL Analytics] 통합 포함)의 전환 추적을 사용하거나 토큰(`ef_id`)만 사용하여 피드에 제공된 광고주*
 
 [!UICONTROL Channel Assist Report]은(는) 다양한 마케팅 채널(검색, 소셜 및 Commerce의 검색 또는 소셜, Advertising DSP의 디스플레이 또는 비디오)이 전환 프로세스를 어떻게 지원했는지 나타냅니다. 이 보고서는 하나 이상의 전환으로 이어진 각 이벤트 유형 패턴이 전체 전환에 어떻게 기여했는지 보여 줍니다. 예를 들어, 사용자가 디스플레이 광고 노출을 처음 본 다음 검색 광고를 클릭한 다음 주문했을 때 얼마나 많은 전환이 발생했는지 보거나, 사용자가 10개 이상의 광고와 상호 작용한 후 얼마나 많은 전환이 발생했는지 볼 수 있습니다. 이벤트 유형에는 검색 클릭, 디스플레이 노출 횟수 및 클릭 수, 비디오 노출 횟수 및 클릭 수, 기타 노출 횟수 및 기타 클릭 수가 포함됩니다. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
 

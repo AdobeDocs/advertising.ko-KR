@@ -3,16 +3,21 @@ title: 인벤토리 피드를 사용한 광고 관리 자동화 정보
 description: 제품 또는 서비스 인벤토리에 대한 데이터를 기반으로 계정 구조를 자동으로 관리하고 동적 광고를 게재할 수 있는 고급 캠페인 관리에 대해 알아봅니다.
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: 838
 ht-degree: 0%
 
 ---
 
 # 인벤토리 피드를 사용한 광고 관리 자동화 정보
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 고급 캠페인 관리를 위한 [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] 보기를 사용하면 광고 네트워크 계정 구조를 자동으로 만들고 업데이트하며 제품 또는 서비스 인벤토리에 대한 데이터를 기반으로 동적 광고를 게재할 수 있습니다. 매일 또는 원하는 횟수만큼 제품 데이터가 포함된 새 파일을 업로드하거나 [!DNL Google] 또는 [!DNL Microsoft] 가맹점 센터 계정에 직접 연결할 수 있습니다. 이 기능을 사용하여 다음을 수행할 수 있습니다.
 
@@ -35,11 +40,11 @@ ht-degree: 0%
 
 ## 재고 피드를 사용한 캠페인 데이터 관리 워크플로우
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 처음에는 적어도 한 개의 피드 파일 또는 계정을 테스트한 다음 프로세스를 완전히 자동화하거나 각 단계에서 계속 제어할 수 있습니다.
 
-1. (선택 사항) 데이터 파일을 저장하기 위한 FTP 디렉터리를 설정하려면 Adobe 계정 팀에 문의하십시오.
+1. (선택 사항) Adobe 계정 팀에 문의하여 데이터 파일을 저장할 FTP 디렉터리를 설정하십시오.
 
    FTP 디렉터리를 사용하는 경우 피드 서비스는 2시간마다 새 파일을 확인합니다.
 
@@ -49,7 +54,7 @@ ht-degree: 0%
 
    FTP를 사용하는 경우 처음에 데이터를 광고 네트워크에 자동으로 게시하지 마십시오. 첫 번째 파일의 출력을 확인하고 결과에 만족하면 설정을 변경할 수 있습니다.
 
-1. FTP 디렉터리에 데이터 파일을 업로드하거나, [데이터 파일을 수동으로 업로드](feed-files-manage.md)하거나, [Google 또는 Microsoft 판매자 센터 계정에 대한 액세스 사용](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)하십시오.[!UICONTROL Advanced (ACM) view]
+1. FTP 디렉터리에 데이터 파일을 업로드하거나, [데이터 파일을 수동으로 업로드](feed-files-manage.md)하거나, [!UICONTROL Advanced (ACM) view]Google 또는 Microsoft 판매자 센터 계정에 대한 액세스 사용[하십시오.](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
 
 파일을 수동으로 업로드하려면 데이터 파일을 사용하는 템플릿을 만들 때까지 기다릴 수 있습니다.
 

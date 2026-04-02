@@ -3,9 +3,14 @@ title: 일괄 시트 파일 다운로드/만들기
 description: 광고 네트워크에 대한 계정 데이터를 다운로드하여 일괄 시트 파일을 만드는 방법을 알아봅니다.
 exl-id: a3fcef52-3d36-462e-a975-c741d003326e
 feature: Search Bulksheets
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+TQID: https://experienceleague.adobe.com/2naHFI92HnVZ7Vi1gRnTtBtI1PbfTmfkeLQGRJJCSgs
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: 1759
 ht-degree: 0%
 
 ---

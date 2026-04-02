@@ -3,9 +3,17 @@ title: 기본 보고서 및 고급 보고서 정보
 description: 사용자 지정 가능한 기본 및 고급 보고서에 대해 알아봅니다.
 exl-id: ecdafac5-3944-4c39-bd7c-8e3c9e6a3425
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/zKPVAfyStkc6bjL552SSoCc4dEmhyzHThTXqylslMFg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: 373
 ht-degree: 0%
 
 ---
@@ -58,7 +66,7 @@ ht-degree: 0%
 
 고급 보고서를 사용하면 지리적 타겟팅 또는 네트워크 설정을 다시 구성하여 이점이 있는 위치를 식별하여 광고 전략에 대한 전략적 결정을 내리는 데 도움이 될 수 있습니다. 또한 광고주의 내부 전환 추적 데이터에 대해 검색, 소셜 및 Commerce에서 사용할 수 있는 전환 데이터를 확인하는 데 도움이 될 수도 있습니다.
 
-모든 사용자는 키워드별로 개별 트랜잭션을 표시하는 [!UICONTROL Transaction Report]을(를) 생성할 수 있습니다. 다른 모든 고급 보고서는 Adobe Advertising 전환 추적 서비스를 통해 캡처한 데이터를 사용하며 해당 서비스를 사용하는 광고주만 생성할 수 있습니다.
+모든 사용자는 키워드별로 개별 트랜잭션을 표시하는 [!UICONTROL Transaction Report]을(를) 생성할 수 있습니다. 다른 모든 고급 보고서는 Adobe Advertising 전환 추적 서비스를 통해 캡처한 데이터를 사용하며 해당 서비스를 사용하는 광고주에게만 생성될 수 있습니다.
 
 모든 고급 보고서에는 선택적으로 전환 데이터 또는 사용자가 만든 다른 지표가 포함될 수 있습니다. 광고 네트워크가 아닌 포트폴리오에서 생성된 고급 보고서에는 지정된 포트폴리오에 현재 매핑된 캠페인에 대한 데이터가 표시됩니다. 보고서
 날짜 범위 동안 포트폴리오에 있었지만 아직 없는 캠페인에 대한 데이터는 포함하지 마십시오.

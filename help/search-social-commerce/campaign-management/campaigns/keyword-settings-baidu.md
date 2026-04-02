@@ -3,9 +3,16 @@ title: '[!DNL Baidu] 키워드 설정'
 description: ' [!DNL Baidu] 키워드에 대한 설정을 참조합니다.'
 exl-id: 3b3a578b-06f1-486f-9ade-9104e0a1dd5f
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/uMU0oAkL8rmsOIMXYR8qgp9-upe2qWIK-ev1YtPQUb4
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: 230
 ht-degree: 0%
 
 ---
@@ -43,7 +50,7 @@ ht-degree: 0%
 
 레코드를 저장하면 기본 URL에 캠페인이나 계정에 대해 구성된 추가 매개 변수가 포함됩니다.
 
-Adobe Advertising 전환 추적 서비스를 사용하고 캠페인 설정에 [!UICONTROL EF Redirect] 사용 및 키워드 수준에서 추적 추가가 포함된 경우 검색, 소셜 및 Commerce에서 자동으로 자체 클릭 추적 코드를 추가합니다.
+Adobe Advertising 전환 추적 서비스를 사용하고 캠페인 설정에 [!UICONTROL EF Redirect] 사용 및 키워드 수준의 추적 추가가 포함된 경우 검색, 소셜 및 Commerce에서 자동으로 자체 클릭 추적 코드를 추가합니다.
 
 >[!MORELIKETHIS]
 >

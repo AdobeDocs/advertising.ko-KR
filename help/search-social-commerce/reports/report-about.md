@@ -3,9 +3,17 @@ title: 보고서 기본 정보
 description: 사용 가능한 다양한 보고서 유형 및 보고서 자동화 방법을 포함하여 성능 보고서에 대해 알아봅니다.
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/2Cw55tN9cx9vfc6sEHdOQfW5VcLIUZdbNtMkKdINkZM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: 851
 ht-degree: 0%
 
 ---
@@ -16,7 +24,7 @@ ht-degree: 0%
 
 보고서의 데이터는 보고서를 실행할 때마다 동적으로 컴파일됩니다. 선택적으로 기존 보고서에서 새 보고서를 생성할 수 있습니다. 사용 가능한 보고서 매개 변수는 보고서 유형에 따라 다릅니다. 대부분의 보고서에서는 전체 보고서를 생성하는 대신 처음 50개 줄을 미리 볼 수 있는 옵션이 제공됩니다. 보고서를 생성할 때 보고서가 완료되면 하나 이상의 이메일 주소에 대한 다운로드 링크가 있는 알림을 보낼 수 있으며 받는 사람은 [[!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md)에서 알림을 관리할 수 있습니다.
 
-완료된 보고서는 모두 [!UICONTROL Reports] 보기의 [!UICONTROL Latest Reports] 섹션에서 사용할 수 있으며 브라우저 창에서 표 형식으로 보거나 열거나 파일로 다운로드할 수 있습니다.
+완료된 보고서는 모두 [!UICONTROL Latest Reports] 보기의 [!UICONTROL Reports] 섹션에서 사용할 수 있으며 브라우저 창에서 표 형식으로 보거나 열거나 파일로 다운로드할 수 있습니다.
 
 ## 사용 가능한 보고서 카테고리
 
@@ -42,7 +50,7 @@ ht-degree: 0%
 
 ## 보고서 보기
 
-[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Reports]의 [!UICONTROL Reports] 보기를 사용하면 보고서, 템플릿 및 스프레드시트 피드를 만들고 관리할 수 있습니다. 이 보기에는 두 개의 탭이 있습니다.
+[!UICONTROL Reports] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports]의 [!UICONTROL Reports] 보기를 사용하면 보고서, 템플릿 및 스프레드시트 피드를 만들고 관리할 수 있습니다. 이 보기에는 두 개의 탭이 있습니다.
 
 * **[!UICONTROL Latest Reports]** 탭에는 수동으로 삭제된 보고서를 제외하고 지난 7일 동안 요청한 사용 가능한 모든 보고서가 나열되며 가장 최근 보고서는 기본적으로 맨 위에 있습니다. 각 보고서에 대해 표시되는 정보에는 보고서 실행 일정(해당되는 경우), 데이터가 생성되었거나 생성될 시작 및 종료 날짜, 보고서 상태(*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* 또는 *[!UICONTROL Error]*)가 포함됩니다.
 

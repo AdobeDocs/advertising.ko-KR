@@ -3,9 +3,14 @@ title: 판매자 계정 관리
 description: 머천트 센터 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법에 대해 알아봅니다.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+TQID: https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: 789
 ht-degree: 0%
 
 ---
@@ -62,7 +67,7 @@ Search, Social 및 Commerce은 광고주의 Google 판매자 센터 또는 Micro
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   계정의 모든 제품에 대한 특성 데이터는 다음 일별 동기화 프로세스(사용자의 현지 시간대에서 약 06:00) 후 검색, 소셜 및 Commerce에서 사용할 수 있습니다. 그런 다음 제품 데이터를 사용하여 인벤토리 피드를 사용하여 광고 생성을 자동화할 수 있습니다.
+   계정의 모든 제품에 대한 특성 데이터는 다음 일별 동기화 프로세스(사용자의 현지 시간대의 약 06:00) 후에 검색, 소셜 및 Commerce에서 사용할 수 있습니다. 그런 다음 제품 데이터를 사용하여 인벤토리 피드를 사용하여 광고 생성을 자동화할 수 있습니다.
 
 ## 판매자 계정 세부 정보 편집 {#edit-merchant-account}
 
@@ -84,7 +89,7 @@ Search, Social 및 Commerce은 광고주의 Google 판매자 센터 또는 Micro
 
 >[!NOTE]
 >
->Search, Social 및 Commerce은 새 계정 데이터를 판매자 네트워크의 데이터와 동기화해야 합니다. 이 작업은 사용자의 현지 시간대에서 매일 06:00에 한 번 자동으로 수행됩니다.
+>Search, Social 및 Commerce은 새 계정 데이터를 판매자 네트워크의 데이터와 동기화해야 합니다. 이 작업은 사용자의 현지 시간대에서 매일 약 06:00에 한 번 자동으로 수행됩니다.
 
 ## 판매자 계정에 대한 액세스 비활성화 {#disable-merchant-account}
 

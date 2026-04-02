@@ -3,9 +3,21 @@ title: 성능 문제 해결
 description: 일반적인 성능 문제를 참조하여 이를 해결하는 방법에 대해 알아보십시오.
 feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
-source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
+TQID: https://experienceleague.adobe.com/CLEAjCOYzIKDaAbH4-mZxna7MK5jmpvaCjdhGScwzQs
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: 519
 ht-degree: 0%
 
 ---
@@ -25,7 +37,7 @@ ht-degree: 0%
 | | 이 배치는 승률이 낮습니다. | 승률을 향상시키려면 [!UICONTROL Max Bid]을(를) 늘립니다.<br><br><b>참고:</b> 인벤토리 가격은 배치 타깃팅에 따라 달라질 수 있습니다.<br><br>10%의 승률은 정상으로 간주됩니다. |
 | | 적은 수의 재고를 사용할 수 있습니다. | 가능한 경우 추가 또는 모든 재고 소스를 타깃팅합니다.<br><br>입찰 전 필터, 지역, 인벤토리 및 대상자와 같은 여러 배치 대상을 사용하면 입찰과 지출이 누적적으로 제한될 수 있습니다. |
 | | 사용 가능한 사용자 수가 적습니다. | 지정된 대상 타겟에 활성 사용자가 충분히 포함되어 있는지 확인하십시오. 대상이 없다면 대상을 더 추가하여 대상을 확장합니다.<br><br>입찰 전 필터, 지역, 인벤토리 및 대상자와 같은 여러 배치 대상을 사용하면 입찰과 지출이 누적적으로 제한될 수 있습니다. |
-| | 패키지에는 많은 활성 배치가 포함되어 있습니다. | 패키지 내 활성 배치 수를 줄이거나 전체 패키지 예산을 늘립니다.<br><br>패키지에 배치가 많지만 예산이 충분하지 않은 경우 DSP에서 각 배치에 충분한 예산을 할당하지 못할 수 있습니다. 각 배치에는 최소 2USD/일을 사용할 수 있는 기회가 있어야 합니다. 예를 들어 패키지의 예산이 10 USD/일인 경우 5개 이하의 배치를 포함하는 것이 가장 좋습니다. &#x200B; |
+| | 패키지에는 많은 활성 배치가 포함되어 있습니다. | 패키지 내 활성 배치 수를 줄이거나 전체 패키지 예산을 늘립니다.<br><br>패키지에 배치가 많지만 예산이 충분하지 않은 경우 DSP에서 각 배치에 충분한 예산을 할당하지 못할 수 있습니다. 각 배치에는 최소 2USD/일을 사용할 수 있는 기회가 있어야 합니다. 예를 들어 패키지의 예산이 10 USD/일인 경우 5개 이하의 배치를 포함하는 것이 가장 좋습니다&#x200B;. |
 
 {style="table-layout:auto"}
 

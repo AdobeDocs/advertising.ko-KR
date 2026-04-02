@@ -3,9 +3,14 @@ title: 캠페인 관리 보기에서 데이터 사용자 정의 기본 정보
 description: Campaign 데이터 보기에서 사용자 지정할 수 있는 데이터 유형에 대해 알아봅니다.
 exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 062c63c314bb6eb262fc57f6acc79bc4f2164258
+TQID: https://experienceleague.adobe.com/PnBql37yqK03DWH2OhLf8hnCBPOwFAVZxD65NNZu0VU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: 411
 ht-degree: 0%
 
 ---

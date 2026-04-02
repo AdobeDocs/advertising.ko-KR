@@ -3,9 +3,16 @@ title: '[!UICONTROL MSA Network Impression Share Report]'
 description: '[!UICONTROL MSA Network Impression Share Report]에 대해 알아봅니다.'
 feature: Search Reports, Search Specialty Reports
 exl-id: 274f7bac-5eea-4e21-bcdb-ebf6250c4959
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/eJ7bmM92y9h-vkhBd5hBcIkGU0ic4HIxg2MVIN7K-1M
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: 157
 ht-degree: 0%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft Advertising]개의 계정만*
 
-이 보고서는 지정된 [!DNL Microsoft Advertising] 계정에 대한 광고 배포(검색 또는 대상) 및 네트워크(예: [!DNL Microsoft] 사이트 및 선택 트래픽 또는 대상)별 캠페인 수준 노출 점유율 지표 및 기본 트래픽 지표(비용, 클릭 수, 노출 수)를 표시합니다.
+이 보고서는 지정된 [!DNL Microsoft] 계정에 대한 광고 배포(검색 또는 대상) 및 네트워크(예: [!DNL Microsoft Advertising] 사이트 및 선택 트래픽 또는 대상)별 캠페인 수준 노출 점유율 지표 및 기본 트래픽 지표(비용, 클릭 수, 노출 수)를 표시합니다.
 
 지표 열만 있고 차원은 없는 보고서를 실행하면, 생성된 보고서에는 두 개의 중복 행, 즉 집계된 데이터가 있는 행과 모든 지표가 있는 행이 포함됩니다.
 

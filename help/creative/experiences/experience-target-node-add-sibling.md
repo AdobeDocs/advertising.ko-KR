@@ -3,9 +3,16 @@ title: 경험의 노드 사이에 동일 수준의 타겟 노드 추가
 description: 대상이 있거나 대상이 있는 노드와 동일한 수준에 있는 모든 노드에 형제 노드를 추가하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/fRdbFmlTUBzHHkmrfonZ0COJ7-1x6t2HRczwlcVb99o
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: 755
 ht-degree: 0%
 
 ---

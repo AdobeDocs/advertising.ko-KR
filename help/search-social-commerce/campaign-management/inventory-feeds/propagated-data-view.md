@@ -3,9 +3,14 @@ title: 피드에서 생성된 데이터 보기
 description: 인벤토리 데이터 피드에서 생성된 데이터를 보는 방법에 대해 알아봅니다.
 exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/AG-bR4RcQZcDjJTLkrWhC4J3RcYb7kBRRiC3moSCxp0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: 429
 ht-degree: 0%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 0%
 
 피드 데이터를 광고 네트워크에 동시에 게시하지 않고 전파할 때 다음 방법 중 하나로 데이터를 미리 볼 수 있습니다. 나중에 선택적으로 두 위치에서 관련 광고 네트워크로 데이터를 [게시](propagated-data-post.md)할 수 있습니다.
 
-* 옵션을 &quot;[!UICONTROL Propagate and Preview]&quot;에 사용한 경우 [!UICONTROL Bulksheets] 보기에서 생성된 일괄 시트(&quot;`<feed file name>_<template name>`&quot;)를 봅니다. [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] 및 [!UICONTROL Ads] 탭에 데이터가 포함되지 않았습니다. 이 옵션을 사용하면 데이터를 게시하기 전에 광고 및 키워드와 연결된 [랜딩 페이지의 유효성을 검사](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)할 수 있습니다.
+* 옵션을 &quot;[!UICONTROL Propagate and Preview]&quot;에 사용한 경우 `<feed file name>_<template name>` 보기에서 생성된 일괄 시트(&quot;[!UICONTROL Bulksheets]&quot;)를 봅니다. [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] 및 [!UICONTROL Ads] 탭에 데이터가 포함되지 않았습니다. 이 옵션을 사용하면 데이터를 게시하기 전에 광고 및 키워드와 연결된 [랜딩 페이지의 유효성을 검사](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)할 수 있습니다.
 
 * 옵션을 &quot;[!UICONTROL Propagate only]&quot;에 사용한 경우 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] 및 [!UICONTROL Ads] 탭에서 캠페인 계층 구조 보기 내에서 생성된 데이터를 봅니다.
 

@@ -3,9 +3,16 @@ title: ' [!DNL Microsoft Advertising] 계정의 필수 일괄 시트 데이터'
 description: ' [!DNL Microsoft Advertising] 계정의 일괄 시트에 있는 필수 머리글 필드 및 데이터 필드를 참조합니다.'
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '6934'
+source-wordcount: 6934
 ht-degree: 0%
 
 ---
@@ -63,7 +70,7 @@ ht-degree: 0%
 | [!UICONTROL Promotion Line] | (제품 목록 광고만 해당) 검색 결과의 제품 목록에 포함될 고유한 프로모션 라인(예: &quot;지금 무료 배송!&quot;). 최대 길이는 45자입니다.<br><br>홍보 줄이 페이지에 광고가 표시되는 위치에 따라 광고와 관련된 다른 위치(광고 아래 등)에 표시될 수 있습니다. |
 | [!UICONTROL Display URL] | 광고에 포함된 URL.<br><br>확장된 동적 검색 광고의 경우 광고 네트워크는 웹 사이트 도메인에서 동적으로 이 값을 생성하므로 값을 입력할 필요가 없습니다.<br><br>확장된 텍스트 광고 및 반응형 검색 광고의 경우 값을 입력할 필요가 없습니다. 표시 URL은 최종 URL의 도메인에서 자동으로 추출됩니다. 선택적으로 경로 1 및 경로 2 필드를 사용하여 URL을 사용자 지정할 수 있습니다.<br><br><b>메모:</b><ul><li>(최종 URL이 있는 계정) 표시 URL과 최종 URL의 도메인 이름은 일치해야 합니다.</li><li>[!DNL Microsoft Advertising]은(는) 2022년 8월에 확장 텍스트 광고를 더 이상 사용하지 않으며 이제 보고하거나 삭제할 수만 있습니다.</li></ul> |
 | [!UICONTROL Display Path 1] | (확장된 텍스트 광고, 동적 검색 광고 및 반응형 검색 광고만 해당) 최종 URL에서 자동으로 추출되는 표시 URL에 추가되는 텍스트. 각 경로는 URL 앞에 슬래시(/)가 붙습니다. 경로에는 슬래시(/) 또는 줄바꿈(\n) 문자를 사용할 수 없습니다. 각 경로의 최대 길이는 15자 또는 7개의 더블바이트 문자입니다.<br><br>광고 사용자 지정기를 삽입하려면 다음 형식을 사용하십시오. 여기서 &quot;기본 텍스트&quot;는 피드 파일에 유효한 값이 포함되지 않은 경우 삽입할 선택적 값입니다. `{CUSTOMIZER.Attribute name:Default text}`(예: `{CUSTOMIZER.Discount:10%}`<br><br>). 예를 들어 [!UICONTROL Display Path 1]이(가) &quot;거래&quot;인 경우 표시 URL은 &lt;display URL>/deals(예: www.example.com/deals)입니다.<br><br>[!DNL Microsoft Advertising]은(는) 2022년 8월에 확장 텍스트 광고를 더 이상 사용하지 않으며 이제 보고하거나 삭제할 수만 있습니다. |
-| [!UICONTROL Display Path 1] | (확장된 텍스트 광고, 동적 검색 광고 및 반응형 검색 광고만 해당) 추가 표시 경로입니다. [!UICONTROL Display Path 1]의 항목을 참조하십시오.<br><br>예: [!UICONTROL Display Path 1]이(가) &quot;거래&quot;이고 [!UICONTROL Display Path 2]이(가) &quot;로컬&quot;인 경우 표시 URL은 &lt;<i>표시 URL</i>>/거래/로컬이 됩니다(예: www.example.com/deals/local). |
+| [!UICONTROL Display Path 1] | (확장된 텍스트 광고, 동적 검색 광고 및 반응형 검색 광고만 해당) 추가 표시 경로입니다. [!UICONTROL Display Path 1]의 항목을 참조하십시오.<br><br>예: [!UICONTROL Display Path 1]이(가) &quot;deals&quot;이고 [!UICONTROL Display Path 2]이(가) &quot;local&quot;이면 디스플레이 URL은 &lt;<i>디스플레이 URL</i>>/deals/local(예: www.example.com/deals/local)이 됩니다. |
 | [!UICONTROL Start Date] | (향상된 사이트 링크만 해당) 사이트 링크에 대한 입찰이 배치될 수 있는 첫 번째 날짜로 광고주의 시간대 및 m/d/yyyy, m/d/yy, m-d-yyyy 또는 m-d-yy 중 하나입니다. 향상된 새 사이트링크의 기본값은 현재 날짜입니다. <b>참고:</b> 향상된 새 사이트링크는 기존의 향상된 사이트링크가 있거나 사이트링크가 없는 캠페인에서만 만들 수 있습니다. |
 | [!UICONTROL End Date] | 광고주의 시간대와 m/d/yyyy, m/d/yy, m-d-yyyy 또는 m-d-yy 형식 중 하나로 사이트 링크가 광고와 함께 표시될 수 있는 마지막 날짜입니다. 새 사이트 링크의 경우 기본값은 `[blank]`입니다(즉, 종료 날짜 없음). |
 | [!UICONTROL Call To Action] | 광고에 포함할 call to action. 가능한 값의 목록은 [API 참조를 참조하십시오](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction). 하지만 작업에 대한 여러 단어 호출을 일괄 시트에 여러 단어(예: &quot;BetNow&quot; 대신 &quot;Bet Now&quot;)로 입력하십시오. |
@@ -232,7 +239,7 @@ ht-degree: 0%
 
 ### 제품(쇼핑) 광고 필드
 
-쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2&rbrace;&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=ko)
+쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2&rbrace;&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)
 
 이 광고 유형의 경우 [!UICONTROL Creative (except RSA)] 대화 상자에서 &quot;[!UICONTROL Download Bulksheet]&quot; 행을 사용하십시오.
 

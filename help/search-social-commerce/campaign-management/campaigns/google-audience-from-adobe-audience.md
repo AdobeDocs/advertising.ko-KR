@@ -1,11 +1,20 @@
 ---
-title: ' [!DNL Adobe] 대상에서  [!DNL Google Ads] 고객 일치 대상 만들기'
+title: ' [!DNL Google Ads] 대상에서  [!DNL Adobe] 고객 일치 대상 만들기'
 description: 기존 Adobe Analytics 및 Audience Manager 대상에서  [!DNL Google Ads] 고객 일치 대상을 만드는 방법을 알아봅니다.
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -16,7 +25,7 @@ ht-degree: 0%
 
 *Adobe Advertising-Adobe Audience Manager 또는 Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
 
-옵트인 광고주는 a) Adobe Experience Cloud과 공유되는 [!DNL Analytics] 세그먼트 및 b) Adobe Experience Cloud에 게시되는 [!DNL Analytics] 세그먼트와 Adobe Experience Cloud 대상 라이브러리를 사용하여 생성된 세그먼트를 포함하여 검색, 소셜 및 Commerce을 대상으로 하는 Audience Manager 세그먼트의 사용자 ID를 사용하여 [!DNL Google Ads] 고객 일치 대상을 만들 수 있습니다. Search, Social 및 Commerce은 [!DNL Google]이(가) 대상자를 추적할 수 있도록 [!DNL Google] 추적 URL을 각 [!DNL Analytics] 또는 Audience Manager 세그먼트로 자동으로 푸시합니다.
+옵트인 광고주는 a) Adobe Experience Cloud과 공유되는 [!DNL Google Ads] 세그먼트 및 b) Adobe Experience Cloud에 게시되는 [!DNL Analytics] 세그먼트와 Adobe Experience Cloud 대상 라이브러리를 사용하여 생성된 세그먼트를 포함하여 검색, 소셜 및 Commerce을 대상으로 하는 Audience Manager 세그먼트의 사용자 ID를 사용하여 [!DNL Analytics] 고객 일치 대상을 만들 수 있습니다. Search, Social 및 Commerce은 [!DNL Google]이(가) 대상자를 추적할 수 있도록 [!DNL Analytics] 추적 URL을 각 [!DNL Google] 또는 Audience Manager 세그먼트로 자동으로 푸시합니다.
 
 각 [!DNL Adobe] 대상은 하나의 [!DNL Google] 대상에만 사용할 수 있습니다.
 
@@ -28,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Search, Social 및 Commerce은 [!DNL Google] 대상자를 만들거나 편집하는 데 사용되는 [!DNL Adobe] 세그먼트의 고객 데이터를 저장하지 않습니다.
+>Search, Social 및 Commerce은 [!DNL Adobe] 대상자를 만들거나 편집하는 데 사용되는 [!DNL Google] 세그먼트의 고객 데이터를 저장하지 않습니다.
 
 1. 필요에 따라 사전 요구 사항을 완료합니다.
 
@@ -56,11 +65,11 @@ ht-degree: 0%
 
    1. **[!UICONTROL Data Source]** 메뉴에서 **[!UICONTROL Adobe Audience]**&#x200B;을(를) 선택합니다.
 
-   1. [!DNL Google] 대상을 기준으로 할 [!UICONTROL Adobe Audience]을(를) 선택하십시오.
+   1. [!UICONTROL Adobe Audience] 대상을 기준으로 할 [!DNL Google]을(를) 선택하십시오.
 
       >[!NOTE]
       >
-      >다른 [!DNL Google] 대상에 이미 사용된 [!DNL Adobe]개의 대상은 사용할 수 없습니다.
+      >다른 [!DNL Adobe] 대상에 이미 사용된 [!DNL Google]개의 대상은 사용할 수 없습니다.
 
       필요한 경우 최소 3자의 특정 텍스트 문자열이 포함된 대상을 검색할 수 있습니다. 일치하는 대상을 선택하려면 **[!UICONTROL Include]**&#x200B;을(를) 클릭하십시오.
 

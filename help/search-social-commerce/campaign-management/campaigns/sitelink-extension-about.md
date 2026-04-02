@@ -3,9 +3,16 @@ title: 사이트링크 확장 기본 정보
 description: 사이트링크 확장에 대해 알아봅니다.
 exl-id: c2d96440-62da-4b57-a98e-d7b94882d6c5
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: 344
 ht-degree: 0%
 
 ---
@@ -20,13 +27,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Sitelinks] 및 [!UICONTROL Associations] 보기
 
-[!UICONTROL Campaigns] > [!UICONTROL Campaigns]의 [!UICONTROL Extensions] > [!UICONTROL Sitelinks] 라이브러리는 모든 계정 수준 사이트 링크를 나열하며, 여기에서 공유 사이트 링크를 만들고 관리할 수 있습니다. [[!DNL Google Ads] 계정](https://support.google.com/google-ads/answer/6372658) 및 [[!DNL Microsoft Advertising] 계정](https://help.ads.microsoft.com/#apex/3/en/52001)당 최대 광고 확장 수에 대해서는 광고 네트워크 도움말을 참조하십시오. 라이브러리의 사이트 링크는 계정 엔티티에 할당할 때까지 광고와 함께 사용되지 않습니다.
+[!UICONTROL Extensions] > [!UICONTROL Sitelinks]의 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 라이브러리는 모든 계정 수준 사이트 링크를 나열하며, 여기에서 공유 사이트 링크를 만들고 관리할 수 있습니다. [[!DNL Google Ads] 계정](https://support.google.com/google-ads/answer/6372658) 및 [[!DNL Microsoft Advertising] 계정](https://help.ads.microsoft.com/#apex/3/en/52001)당 최대 광고 확장 수에 대해서는 광고 네트워크 도움말을 참조하십시오. 라이브러리의 사이트 링크는 계정 엔티티에 할당할 때까지 광고와 함께 사용되지 않습니다.
 
 [!UICONTROL Extensions] > [!UICONTROL Associations] 보기에서 계정 수준([!DNL Google Ads]만), 캠페인 수준 또는 광고 그룹 수준([!DNL Google Ads]만)의 모든 광고에 가능한 확장으로 사이트 링크를 할당할 수 있습니다.
 
 ## 사이트링크에 대한 성능 데이터
 
-Search, Social 및 Commerce은 광고 확장 클릭 수와 결과 전환을 확장이 포함된 광고와 연결된 키워드에 매핑합니다. 검색, 소셜 및 Commerce에서 확장 수준의 비용 또는 클릭 데이터를 사용할 수 없습니다. 그러나 [[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)에서는 링크 유형 열의 값이 `sl:<Sitelink text>`(예: sl:See Current Offers)로 나열될 때 광고 자체가 아닌 사이트 링크로 인해 트랜잭션이 발생했는지 여부를 알 수 있습니다.
+Search, Social 및 Commerce은 광고 확장 클릭 수와 결과 전환을 확장이 포함된 광고와 연결된 키워드에 매핑합니다. 검색, 소셜 및 Commerce에서 확장 수준의 비용 또는 클릭 데이터를 사용할 수 없습니다. 그러나 [[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)에서는 링크 유형 열의 값이 `sl:<Sitelink text>`(예: sl:See 현재 오퍼)로 나열될 때 거래가 (광고 자체가 아닌) 사이트 링크에서 발생했는지 여부를 알 수 있습니다.
 
 [!DNL Google Ads] 및 [!DNL Microsoft Advertising]에서 [!DNL Ad Extensions] 탭에서 비용을 확인하고 데이터를 클릭할 수 있습니다.
 

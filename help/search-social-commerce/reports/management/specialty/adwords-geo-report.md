@@ -3,9 +3,16 @@ title: '[!UICONTROL AdWords Geo Report]'
 description: '[!UICONTROL AdWords Geo Report]에 대해 알아봅니다.'
 exl-id: e64f371f-b1dc-48e0-a883-dde6d4796b58
 feature: Search Reports, Search Specialty Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/85NJVnzICtSYZ3rY6ccba3KouVDyuRL6H9kYOQwPGco
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: 214
 ht-degree: 0%
 
 ---
@@ -21,7 +28,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 지리적 위치를 결정하는 데 사용되는 다양한 공급업체 및 방법론으로 인해 이 보고서의 합계는 [!UICONTROL Geo Distribution Report]의 동일한 캠페인 및 기간(Search, Social 및 Commerce이 컴파일함)에 대한 합계와 다를 수 있습니다.
->* 이 보고서에 대한 데이터는 매일 23:00(오후 11:00)에 이전 날짜의 데이터를 가져옵니다. 예를 들어, 6월 18일 23시에 6월 17일에 대한 데이터를 가져옵니다. 6월 18일에 대한 데이터를 가져오기 전인 6월 19일 09:00에 보고서를 실행하는 경우 보고서에는 6월 17일 23:00까지의 데이터가 포함됩니다.
+>* 이 보고서에 대한 데이터는 매일 23:00(오후 11:00)에 이전 날짜의 데이터를 가져옵니다. 예를 들어, 6월 18일 23:00에서 6월 17일에 대한 데이터를 가져옵니다. 6월 19일 09:00에 보고서를 실행하는 경우(6월 18일 데이터를 가져오기 전) 보고서에는 6월 17일 23:00까지의 데이터가 포함됩니다.
 
 ## 기본 열
 

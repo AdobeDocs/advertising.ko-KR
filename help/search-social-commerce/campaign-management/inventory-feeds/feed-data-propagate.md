@@ -3,9 +3,14 @@ title: 템플릿을 통해 인벤토리 피드 데이터 전파
 description: 계정 구조를 관리하고 동적 광고를 게재하기 위해 인벤토리 피드에서 광고 템플릿을 통해 데이터를 전파하는 방법에 대해 알아봅니다.
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/2MCDHOgRqhAgwKuT-drdVZCHZJhSYxX3F3wLAVnpXT0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: 876
 ht-degree: 0%
 
 ---

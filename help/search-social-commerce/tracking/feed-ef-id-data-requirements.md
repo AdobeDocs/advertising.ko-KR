@@ -3,9 +3,16 @@ title: EF ID를 사용한 데이터 피드에 대한 데이터 요구 사항
 description: EF ID를 사용하여 데이터 피드에 대한 데이터 요구 사항을 참조하십시오.
 exl-id: 507ed42c-349f-4311-af61-8f7a27794162
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/p66X8xVlx-JwKjGgXxonJRRu78Q8F4109VkaIVtUbwU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: 256
 ht-degree: 0%
 
 ---
@@ -16,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >* 후속 행의 데이터가 동일한 순서를 따르는 한 헤더는 임의의 순서가 될 수 있습니다. 헤더를 포함하지 않는 경우 데이터 행의 순서는 각 피드 파일과 일치해야 합니다.
->* 피드 파일의 각 줄에는 한 트랜잭션에 대한 데이터가 포함되어야 하며, 트랜잭션은 Adobe Advertising이 생성한 ef_id(토큰)로 식별되어야 합니다.
+>* 피드 파일의 각 줄에는 한 트랜잭션에 대한 데이터가 포함되어야 하며, 트랜잭션은 Adobe Advertising에서 생성한 ef_id(토큰)로 식별되어야 합니다.
 
 | 헤더 필드/열 이름 | 유형 | 설명 |
 | ---- | ---- | ---- |

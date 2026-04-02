@@ -3,9 +3,24 @@ title: Adobe Audience Manager에 DSP 미디어 노출 데이터 보내기 개요
 description: Audience Manager 이벤트 픽셀을 사용하여 Advertising DSP 캠페인에서 노출 수준 및 클릭 수준 데이터를 캡처하는 방법을 알아봅니다
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/MqAVZH8WKVulxVDOD3SDbROYnkRG0tlm028WGBL9wOM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: 529
 ht-degree: 0%
 
 ---

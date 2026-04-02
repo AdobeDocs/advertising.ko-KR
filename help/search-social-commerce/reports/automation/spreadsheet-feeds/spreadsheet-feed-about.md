@@ -3,9 +3,16 @@ title: 스프레드시트 보고서 피드 정보
 description: 사용자 지정 형식의 스프레드시트 형식으로 일별 성능 데이터를 가져오는 방법에 대해 알아봅니다.
 exl-id: 559dde7a-17c3-4d94-b3b0-c8248c745258
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/fQkx0PK8gR-YjbiZp8KPVXMV6R2Hy4s7Upz7bFErtfE
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: 223
 ht-degree: 0%
 
 ---

@@ -3,10 +3,15 @@ title: 일괄 시트 오류
 description: 각 일괄 시트 오류에 대한 잠재적인 이유를 참조하십시오.
 exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/7jGIKXI-Un6mnstJlPDqk0q4yB6k3tEsqHngD1cCyEw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 0%
+source-wordcount: 1137
+ht-degree: 1%
 
 ---
 
@@ -29,18 +34,18 @@ Search, Social 및 Commerce은 일괄 시트 작업 중에 두 가지 유형의 
 
 ## [!UICONTROL EF Error]개 메시지
 
-다음 오류가 [!UICONTROL EF Errors] 파일의 [!UICONTROL EF Error] 열에 포함될 수 있습니다.
+다음 오류가 [!UICONTROL EF Error] 파일의 [!UICONTROL EF Errors] 열에 포함될 수 있습니다.
 
 ### 오류 다운로드/만들기
 
-| 범주 | 메시지 | 설명 |
+| 카테고리 | 메시지 | 설명 |
 |----|----|----|
 | 일반 | [!UICONTROL Internal Error: Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 분류되지 않거나 처리되지 않은 오류로 인해 작업이 완전히 실패했습니다. 문제가 지속되면 Adobe 계정 팀에 문의하여 원인을 확인하십시오. |
 | | [!UICONTROL Pre-Sync Failed. Please Try Creating the bulksheet Again. If Problem Persists Contact Technical Support] | 일괄 시트를 만들기 전에 검색, 소셜 및 Commerce이 광고 네트워크와 동기화할 수 없어 일괄 시트가 만들어지지 않았습니다. 문제가 지속되면 Adobe 계정 팀에 문의하십시오. |
 
 ### 업로드 오류
 
-| 범주 | 메시지 | 설명 |
+| 카테고리 | 메시지 | 설명 |
 |----|----|----|
 | 일반 | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | 작업이 완전히 실패했습니다. 문제가 지속되면 Adobe 계정 팀에 문의하십시오. |
 | 모든 엔티티 | [!UICONTROL Invalid Fields.] \[잘못된 필드 및 오류\] | 지정한 데이터가 누락되었거나 잘못되었습니다. |
@@ -81,7 +86,7 @@ Search, Social 및 Commerce은 일괄 시트 작업 중에 두 가지 유형의 
 
 [!UICONTROL EF Errors]개 파일에서만 다음 오류가 발생합니다. 대부분의 게시 오류는 광고 네트워크에서 발생하며 SE 오류 파일에 포함됩니다.
 
-| 범주 | 메시지 | 설명 |
+| 카테고리 | 메시지 | 설명 |
 |----|----|----|
 | 일반 | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | 작업이 완전히 실패했습니다. 문제가 지속되면 Adobe 계정 팀에 문의하십시오. |
 | 모든 엔티티 | [!UICONTROL Entity]이(가) 광고 네트워크에 게시됨 | 엔티티가 광고 네트워크에 게시되었지만 동시에 검색, 소셜 및 Commerce에 동기화되지 않았으므로 엔티티 데이터를 검색, 소셜 및 Commerce에서 즉시 사용할 수 없습니다. 이제 동기화 프로세스가 자동으로 트리거됩니다.<br><br>대량의 데이터가 동기화되면 검색, 소셜 및 Commerce에서 몇 시간 이상 데이터를 사용할 수 없습니다. |

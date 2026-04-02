@@ -3,9 +3,14 @@ title: '[!DNL Microsoft Advertising] 멀티미디어 광고 설정'
 description: ' [!DNL Microsoft Advertising] 멀티미디어 광고 설정을 참조하십시오.'
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/BmzclS43QHM1mtVus2pIdJqEh0B-tUQVKyUFdzH4iEw
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 203
 ht-degree: 0%
 
 ---
@@ -36,9 +41,9 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Text]:** 최소 두 개, 최대 네 개의 단어 하나와 최대 90자로 구성된 설명.
 
-**[!UICONTROL Call to Action]:** 광고에 포함할 작업에 대한 호출입니다. 기본적으로 자동화된 가 선택되어 있으며 광고 네트워크에서 콜 투 액션을 선택합니다. 선택적으로 다른 작업을 선택할 수 있습니다.
+**[!UICONTROL Call to Action]:** 광고에 포함할 call to action. 기본적으로 자동화가 선택되어 있으며 광고 네트워크에서 call to action을 선택합니다. 선택적으로 다른 작업을 선택할 수 있습니다.
 
-**[!UICONTROL Call to Action Language]:** 콜 투 액션 옵션의 언어입니다.
+**[!UICONTROL Call to Action Language]:** call to action 옵션의 언어입니다.
 
 ## [!UICONTROL Tracking URLs]
 

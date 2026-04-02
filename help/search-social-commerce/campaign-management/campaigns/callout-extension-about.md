@@ -3,9 +3,14 @@ title: ' [!DNL Google Ads] 설명선 확장 정보'
 description: 검색, 소셜 및 Commerce의  [!DNL Google Ads] 설명선 확장에 대해 알아봅니다.
 exl-id: d821067f-7ec6-4cd3-a6eb-e1e194cea0df
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/aB0vtxy3oiu3kWLKqyYyatkhohTmFU2VnHw-Wf4-JB8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: 258
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Callouts] 및 [!UICONTROL Associations] 보기
 
-[!UICONTROL Campaigns] > [!UICONTROL Campaigns]의 [!UICONTROL Extensions] > [!UICONTROL Callout] 라이브러리에는 모든 계정 수준 설명선이 나열되며, 여기에서 공유 설명선을 만들고 관리할 수 있습니다. [계정 [!DNL Google Ads] 당 최대 광고 확장 수](https://support.google.com/google-ads/answer/6372658?hl=en)에 대해서는 광고 네트워크 도움말을 참조하십시오.
+[!UICONTROL Extensions] > [!UICONTROL Callout]의 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 라이브러리에는 모든 계정 수준 설명선이 나열되며, 여기에서 공유 설명선을 만들고 관리할 수 있습니다. [계정 [!DNL Google Ads] 당 최대 광고 확장 수](https://support.google.com/google-ads/answer/6372658?hl=en)에 대해서는 광고 네트워크 도움말을 참조하십시오.
 
 라이브러리의 설명선은 캠페인이나 광고 그룹에 할당할 때까지 광고와 함께 사용되지 않습니다. [!UICONTROL Extensions] > [!UICONTROL Associations] 보기에서 캠페인 수준 또는 광고 그룹 수준의 모든 광고에 가능한 확장으로 콜아웃을 할당할 수 있습니다. 광고가 콜아웃과 함께 표시될 수 있도록 캠페인 또는 광고 그룹당 최소 2개의 콜아웃을 할당해야 합니다. 광고 그룹 수준의 콜아웃은 캠페인 수준의 콜아웃을 재정의합니다.
 

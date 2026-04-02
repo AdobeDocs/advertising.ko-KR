@@ -3,9 +3,14 @@ title: 일괄 시트에서 수행할 수 있는 작업
 description: 일괄 시트를 사용하여 캠페인 데이터를 추가, 편집 및 삭제하는 방법에 대한 일반 정보를 참조하십시오.
 exl-id: 17ec9307-6dfd-45cb-b8bd-d0d7fcbf2d41
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/v0lNqlMXWFmw8O1Tr51d-WoHC-X2dxdSh-ZRKIPxGQY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 381
 ht-degree: 0%
 
 ---
@@ -30,9 +35,9 @@ ht-degree: 0%
 
 * 삭제 중:
 
-   * 기존 구성 요소를 삭제하려면 해당 구성 요소를 편집하고 상태를 [!UICONTROL Deleted] (으)로 변경하는 데 필요한 모든 필드를 포함하십시오. 예를 들어 [!DNL Google Ads] 광고 그룹을 삭제하려면 값이 <i>[!UICONTROL Deleted]</i>인 [!UICONTROL Campaign Name], [!UICONTROL Ad Group Name], [!UICONTROL Ad Group Status] 및 [!UICONTROL Ad Group ID]을(를) 포함해야 합니다.
+   * 기존 구성 요소를 삭제하려면 해당 구성 요소를 편집하고 상태를 [!UICONTROL Deleted]&#x200B;(으)로 변경하는 데 필요한 모든 필드를 포함하십시오. 예를 들어 [!DNL Google Ads] 광고 그룹을 삭제하려면 값이 [!UICONTROL Campaign Name]인 [!UICONTROL Ad Group Name], [!UICONTROL Ad Group Status], <i>[!UICONTROL Deleted]</i> 및 [!UICONTROL Ad Group ID]을(를) 포함해야 합니다.
 
-   * ([!UICONTROL Param1], [!UICONTROL Param2] 및 [!UICONTROL Param3] 값만 해당) 키워드에 대한 기존 [!DNL paramN] 값을 삭제하려면 해당 필드에 값 `[delete]`(대괄호 포함)을(를) 입력하여 키워드를 편집하는 데 필요한 모든 필드를 포함하고 기존 [!DNL paramN] 값도 삭제합니다.
+   * ([!UICONTROL Param1], [!UICONTROL Param2] 및 [!UICONTROL Param3] 값만 해당) 키워드에 대한 기존 [!DNL paramN] 값을 삭제하려면 해당 필드에 값 [!DNL paramN]&#x200B;(대괄호 포함)을(를) 입력하여 키워드를 편집하는 데 필요한 모든 필드를 포함하고 기존 `[delete]` 값도 삭제합니다.
 
    * (허용되는 속성 필드) 구성 요소의 기존 속성 값을 삭제하려면 해당 구성 요소를 편집하는 데 필요한 모든 필드를 포함하고 `[delete]` 값(대괄호 포함)을 입력하여 속성 값도 삭제합니다. 허용되는 필드는 다음과 같습니다.
 

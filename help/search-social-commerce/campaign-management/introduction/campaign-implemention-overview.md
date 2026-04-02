@@ -3,9 +3,18 @@ title: 광고 네트워크 계정 및 캠페인 구현 개요
 description: 광고 네트워크 계정 설정, 동기화 및 관리와 관련된 작업에 대해 알아봅니다.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 6014f2dc349286d562f219db7e05279deb96e477
+TQID: https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: 979
 ht-degree: 0%
 
 ---
@@ -60,7 +69,7 @@ Adobe은 각 광고주와 함께 광고 네트워크 계정 및 캠페인을 설
 
    1. 전환 추적을 설정합니다. 구현에 따라, 광고주의 웹 페이지에 전환 추적 태그를 추가하거나 광고주가 별도로 수집한 전환 데이터에 대해 일별 피드 드롭을 설정하는 작업이 여기에 포함될 수 있습니다.
 
-      Adobe Advertising 전환 추적 서비스를 사용하는 경우 검색, 소셜 및 Commerce 내에서 [전환 추적 태그를 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)하거나 Adobe Experience Platform의 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=ko)&#x200B;(이전의 Adobe Experience Platform Launch)를 사용할 수 있습니다.
+      Adobe Advertising 전환 추적 서비스를 사용하는 경우 검색, 소셜 및 Commerce 내에서 [전환 추적 태그를 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)하거나 Adobe Experience Platform의 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html)&#x200B;(이전의 Adobe Experience Platform Launch)를 사용할 수 있습니다.
 
    1. 추적된 데이터의 유효성을 검사합니다.
 

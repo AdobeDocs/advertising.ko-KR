@@ -3,9 +3,18 @@ title: '[!DNL Microsoft Advertising] 전환 데이터'
 description: 검색, 소셜 및 Commerce에서 사용할 수 있는  [!DNL Microsoft Advertising] 추적 전환 데이터 유형에 대해 알아봅니다.
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/ZK-uDqw0sThnMzX6bdR-d33gh-AlLTaytJr1fS7pdgs
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: 629
 ht-degree: 0%
 
 ---
@@ -20,7 +29,7 @@ ht-degree: 0%
 
 검색, 소셜 및 Commerce은 &quot;[!DNL Include in 'Conversions']&quot; 옵션이 활성화된 전환에 대한 데이터를 동기화하여 지난 35일 동안 데이터를 가져온 다음 광고주의 시간대에서 매일 09:00-10:00까지 변경 사항을 가져옵니다. 각 클릭에 대해 새로운 전환이 추적되므로 내역 데이터가 매일 변경될 수 있습니다.
 
-[!DNL Microsoft Advertising]에 구성된 전환 이름을 사용하여 [[!DNL Microsoft Advertising]에서 추적된 각 전환](https://help.ads.microsoft.com/apex/index/3/en-us/n5012)&#x200B;([!DNL Microsoft Advertising]에서 설정됨)에 대한 두 개의 지표를 Search, Social 및 Commerce에서 자동으로 사용할 수 있습니다. 각 전환에 대한 지표는 다음과 같습니다.
+[[!DNL Microsoft Advertising]에 구성된 전환 이름을 사용하여 &#x200B;](https://help.ads.microsoft.com/apex/index/3/en-us/n5012)에서 추적된 각 전환[!DNL Microsoft Advertising]&#x200B;([!DNL Microsoft Advertising]에서 설정됨)에 대한 두 개의 지표를 Search, Social 및 Commerce에서 자동으로 사용할 수 있습니다. 각 전환에 대한 지표는 다음과 같습니다.
 
 * `<conversion-name>` — 키워드에 대한 전환 값(예: Purchase)입니다.
 
@@ -40,7 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 전환 이름이 동일한 계정이 여러 개 있는 경우 Adobe Advertising에 중복 전환 이름이 표시될 수 있습니다. 이 경우 [!UICONTROL Admin] > [!UICONTROL Conversions]에서 중복 지표 중 하나에 대한 [표시 이름을 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)합니다. 두 개의 서로 다른 지표에 동일한 이름이 있을 때는 보고가 정확하지 않습니다.
+>* 전환 이름이 동일한 계정이 여러 개 있는 경우 Adobe Advertising에 중복 전환 이름이 표시될 수 있습니다. 이 경우 [&#x200B; > &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)에서 중복 지표 중 하나에 대한 [!UICONTROL Admin]표시 이름을 변경[!UICONTROL Conversions]합니다. 두 개의 서로 다른 지표에 동일한 이름이 있을 때는 보고가 정확하지 않습니다.
 >* 입찰 단위 수준의 데이터는 동일한 수준의 광고 네트워크에 있는 데이터와 일치합니다. 그러나 상위 수준에 대한 광고 네트워크의 자체 전환 데이터에는 하위 입찰 단위에 귀속되지 않는 추가 전환이 포함될 수 있습니다. 검색, 소셜 및 Commerce의 데이터는 항상 입찰 단위 수준에서 롤업되므로, 예를 들어 캠페인 수준 보고서의 합계는 광고 네트워크의 캠페인 수준 보고서와 동일하지 않을 수 있습니다.
 >* 데이터 분산은 일반적으로 추가 전환이 아직 동기화되지 않은 날의 후반보다 오전 동기화 후에 더 적습니다. 오전에 데이터의 유효성을 검사하는 것이 좋습니다.
 >* 데이터는 대상 또는 지리적 위치 수준에서 사용할 수 없으므로 RLSA 및 위치 입찰 조정을 자동으로 최적화하는 데 사용되지 않습니다.

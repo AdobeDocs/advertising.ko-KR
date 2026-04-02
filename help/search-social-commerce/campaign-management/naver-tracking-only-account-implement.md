@@ -3,9 +3,17 @@ title: ' [!DNL Naver] 추적 전용 계정 구현'
 description: 광고 네트워크에서 직접 구매하는 광고의 성과를 추적하고 보고하고 시각화할 수 있도록  [!DNL Naver] 계정에 대한 추적 캠페인을 설정하는 방법에 대해 알아봅니다.
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/ny0Bdmm-faAvcnnS77oGVJGwGr3tAHOtFpQ-EGhcBVs
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: 687
 ht-degree: 0%
 
 ---
@@ -48,7 +56,7 @@ ht-degree: 0%
 
 1. 캠페인에 대한 추적을 설정합니다.
 
-   1. 검색, 소셜 및 Commerce에서 &quot;[!UICONTROL Generate Tracking URLs]&quot;에 대한 옵션을 사용하여 [새 일괄 시트 파일을 다운로드](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)하십시오.
+   1. 검색, 소셜 및 Commerce에서 &quot;[&quot;에 대한 옵션을 사용하여 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)새 일괄 시트 파일을 다운로드[!UICONTROL Generate Tracking URLs]하십시오.
 
    &quot;[!UICONTROL Generate Tracking URLs]&quot; 옵션을 사용하면 각 키워드에 대한 [!UICONTROL Destination URL] 필드가 [!UICONTROL Base URL] 값 접두사가 있는 Search, Social 및 Commerce 추적 코드로 채워집니다.
 
@@ -68,11 +76,11 @@ ht-degree: 0%
 
    자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
-업로드된 모든 추적 데이터는 [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] 및 [!UICONTROL Keywords] 보기 내에서 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]에서 사용할 수 있습니다. [!UICONTROL Insights & Reports] 보기의 보고서에도 사용할 수 있습니다.
+업로드된 모든 추적 데이터는 [!UICONTROL Search, Social, & Commerce], [!UICONTROL Campaigns], [!UICONTROL Campaigns] 및 [!UICONTROL Accounts] 보기 내에서 [!UICONTROL Campaigns] > [!UICONTROL Ad Groups] > [!UICONTROL Keywords]에서 사용할 수 있습니다. [!UICONTROL Insights & Reports] 보기의 보고서에도 사용할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
 >* [부록 - [!DNL Naver] 계정](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)에 필요한 일괄 시트 데이터
 >* [추적 전용 계정에 대한 트래픽 및 전환 지표 업로드 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
 >* [추적 전용 계정에 대한 지표 데이터 요구 사항 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
+>* [에 대한  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)클릭 추적 형식

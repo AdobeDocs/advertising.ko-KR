@@ -3,9 +3,14 @@ title: Bulksheets 업로드를 위한 FTP 계정 설정
 description: 일괄 시트 파일 업로드를 위해 FTP 계정을 요청하는 방법을 알아봅니다.
 exl-id: c8c70638-10ea-476c-8b02-921adb091ef9
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/VBIFLPV-BiCWFrqmwuNGmsx5xgXU80RfnouM1p4VnrY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: 161
 ht-degree: 0%
 
 ---
@@ -20,9 +25,9 @@ ht-degree: 0%
 >
 >FTP를 통해 인벤토리 피드 파일도 업로드하는 경우 일괄 시트 파일에 대해 별도의 FTP 디렉터리를 사용합니다.
 
-1. 일괄 시트 파일 업로드를 위한 FTP 계정을 설정하려면 Adobe 계정 팀에 문의하십시오.
+1. 일괄 시트 파일을 업로드할 FTP 계정을 설정하려면 Adobe 계정 팀에 문의하십시오.
 
-   Adobe 계정 팀이 FTP 위치와 사용자 이름 및 암호를 제공합니다.
+   Adobe 계정 팀은 FTP 위치와 사용자 이름 및 암호를 제공합니다.
 
 1. (선택 사항) FTP 계정에서 처리된 일괄 시트 파일에 대한 이메일 알림을 받으려면 Adobe 계정 팀에 문의하십시오.
 

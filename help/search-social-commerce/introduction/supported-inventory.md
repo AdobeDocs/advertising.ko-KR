@@ -3,9 +3,18 @@ title: 지원되는 인벤토리
 description: 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형을 참조하십시오.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+TQID: https://experienceleague.adobe.com/l2PmtgKVgNVGjWsbJqfxbTdh9P8qo2wIxjjcDQeYcMQ
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '2873'
+source-wordcount: 2873
 ht-degree: 0%
 
 ---
@@ -65,6 +74,6 @@ ht-degree: 0%
 
 [^2]: &quot;[입찰 전략별 최적화 지원](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy)&quot;에서 자세히 알아보세요.
 
-[^3]: Adobe Analytics과의 통합이 필요합니다. &quot;[Adobe Advertising용 Analytics 개요](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko)&quot;를 참조하십시오.
+[^3]: Adobe Analytics과의 통합이 필요합니다. &quot;[Adobe Advertising용 Analytics 개요](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)&quot;를 참조하십시오.
 
 [^4]: [!DNL Analytics] 데이터가 계정에 일반적으로 사용하는 AMO ID 형식에 관계없이 업그레이드된 AMO ID 추적 매개 변수(`s_kwcid`(으)로 시작)를 사용하여 Search, Social 및 Commerce으로 전송됩니다. 일반적으로 이전 버전의 AMO ID를 사용하는 경우 최상의 경험을 위해 새 AMO ID 형식으로 업그레이드하는 것이 좋습니다. 그러나 클릭/비용 데이터와 매출 데이터가 서로 다른 AMO ID를 사용하여 추적되더라도 두 데이터 세트는 모두 동일한 캠페인 및 계정에서 완전히 분류되고 집계됩니다.

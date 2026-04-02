@@ -3,9 +3,16 @@ title: 보고서를 분석하여 키워드 및 캠페인 설정 세분화
 description: 보고서를 사용하여 키워드 및 캠페인 설정을 세분화하는 모범 사례에 대해 알아봅니다.
 exl-id: f1e3834b-2a6c-4d41-9355-70435a9e83e6
 feature: Search Best Practices
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/RJfrnMplFPld70TgLzc98p77-8pnM870Vv4ETt2gFeg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 255
 ht-degree: 0%
 
 ---
@@ -20,11 +27,11 @@ ht-degree: 0%
 
 * 콘텐츠와 시장 변화가 사이트 트래픽의 가치를 빠르게 변화시킬 수 있으므로 캠페인에서 웹 사이트를 제외하는 것은 신중해야 합니다.
 
-키워드 및 캠페인 설정 조정에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 최적화 안내서의 Portfolio 섹션에서 &quot;포트폴리오 전략 조정&quot;을 참조하십시오.<!-- verify convention for referencing Optimization Guide here -->
+키워드 및 캠페인 설정 조정에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 최적화 안내서의 포트폴리오 섹션에서 &quot;포트폴리오 전략 조정&quot;을 참조하십시오.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >
->포트폴리오의 캠페인에 대한 자세한 우수 사례를 보려면 최적화 안내서 > Portfolio 관리 > Portfolio 우수 사례 섹션도 참조하십시오. 이 섹션은 Search, Social 및 Commerce 내에서 사용할 수 있습니다.<!-- verify convention for referencing Optimization Guide here -->
+>포트폴리오의 캠페인에 대한 자세한 우수 사례는 최적화 안내서 > 포트폴리오 관리 > 포트폴리오 우수 사례 섹션을 참조하십시오. 이 섹션은 Search, Social 및 Commerce에서 사용할 수 있습니다.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >

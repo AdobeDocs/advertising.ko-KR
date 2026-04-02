@@ -3,9 +3,20 @@ title: 사용자 정의 보고서에 대한 FAQ
 description: 데이터 문제 해결을 포함하여 성능 보고서에 대한 일반적인 질문에 대한 답변을 살펴볼 수 있습니다.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
+TQID: https://experienceleague.adobe.com/2pGYTNuu54grOLUSyVpfQVttGWG8OMPCUrzAYmyIv0k
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3922'
+source-wordcount: 3922
 ht-degree: 0%
 
 ---
@@ -49,7 +60,7 @@ ht-degree: 0%
 
 +++
 
-+++내 보고서의 &quot;[!UICONTROL Keyword]&quot; 열에 값 &quot;(광고 그룹 컨텐츠) &lt;*광고 그룹 이름*>이(가) 포함되어 있습니다.&quot;
++++내 보고서의 &quot;[!UICONTROL Keyword]&quot; 열에 &quot;(광고 그룹 컨텐츠) &lt;*광고 그룹 이름*>&quot; 값이 포함되어 있습니다.
 행에 키워드가 포함되지 않은 콘텐츠 사용 검색 캠페인, 디스플레이 캠페인 또는 소셜 캠페인에 대한 데이터가 포함된 경우 [!UICONTROL Keyword] 열에 해당 광고 그룹 이름이 대신 표시됩니다.
 +++
 
@@ -97,7 +108,7 @@ ht-degree: 0%
 * 마찬가지로 정수로 전송되는 매출 지표가 있는 경우 동일한 문제가 발생합니다. 매출 형식은 데이터를 제출하는 전환 태그에 의해 제어됩니다. 이 문제를 해결하려면 매출 지표로만 구성된 [사용자 지정 지표를 만들고](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) *소수점 이하 숫자* 형식을 사용하여 원래 지표가 아닌 보기 및 보고서에 포함하십시오.
 +++
 
-+++클릭 또는 매출 데이터가 누락되면 이후 입찰에 영향을 주지 않도록 하려면 어떻게 해야 합니까?
++++클릭 또는 매출 데이터가 누락된 경우 해당 데이터가 향후 입찰에 영향을 주지 않도록 하려면 어떻게 해야 합니까?
 검색, 소셜 및 Commerce이 광고 네트워크와 동기화되지 않을 때 클릭 데이터 문제가 발생합니다. 계정을 수동으로 동기화하려면 Adobe 계정 팀에 문의하십시오. 하루 종일 클릭 데이터가 누락된 경우 Adobe 계정 팀에 비용 모델에서 해당 날짜를 제외하도록 요청하십시오.
 
 매출 데이터 문제는 추적 또는 피드 파일 문제로 인해 발생할 수 있습니다. 문제를 조사하려면 Adobe 계정 팀에 문의하십시오. 하루 종일 매출 데이터가 누락된 경우 Adobe 계정 팀에 해당 요일을 매출 모델에서 제외하도록 요청하십시오.
@@ -149,11 +160,11 @@ ht-degree: 0%
 
 ## 전환 지표
 
-+++내 보고서에 전환 데이터가 표시되지 않습니다.
++++보고서에 전환 데이터가 표시되지 않습니다.
 전환이 발생한 전환 지표는 보고서에 포함되지 않을 수 있습니다.
 +++
 
-+++보고서에서 수입이 누락되었습니다.
++++보고서에서 수익이 누락되었습니다.
 
 **Adobe Advertising 전환 태그를 사용하는 광고주**
 
@@ -210,7 +221,7 @@ ht-degree: 0%
    고객 지원 센터는 파일이 수신되고 구문 분석되었는지 확인합니다. 파일이 오류 없이 처리된 경우 고아 트랜잭션을 확인합니다.
 +++
 
-+++일부 고급 보고서에는 광고주 피드에서 제공한 전환 데이터가 포함되지 않습니다.
++++일부 고급 보고서에는 광고주 피드에서 제공한 전환 데이터가 포함되지 않습니다. 
 [!UICONTROL Geo Distribution Report] 및 [!UICONTROL Domain Referral Report]은(는) Adobe Advertising 전환 추적 서비스를 통해 캡처한 데이터를 사용하며 해당 서비스를 사용하는 광고주에게만 생성될 수 있습니다. 보고서에는 Adobe Advertising 전환 추적 시스템 외부에서 추적되는 전환 데이터가 포함되지 않습니다.
 +++
 
@@ -293,7 +304,7 @@ ht-degree: 0%
    고객 지원 센터에서 데이터 구문 분석 오류 및 고립된 트랜잭션을 확인합니다.
 +++
 
-+++매출 데이터가 Adobe Analytics의 데이터와 다름
++++매출 데이터가 Adobe Analytics의 데이터와 다릅니다.
 [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=ko](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=ko).<!-- change link URL to relative link --> 참조
 +++
 
@@ -307,11 +318,11 @@ ht-degree: 0%
 [!UICONTROL Portfolio Report]에는 지정된 포트폴리오에 할당된 캠페인에 대한 데이터만 표시되지만 [!UICONTROL Search Engine Report] 및 [!UICONTROL Search Engine Account Report]에는 포트폴리오에 할당되지 않은 캠페인에 대한 데이터도 포함될 수 있습니다.
 +++
 
-+++[!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report]은(는) 포트폴리오 수준 [!UICONTROL Model Accuracy Report]과(와) 어떻게 다릅니까?
++++[!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report]이(가) 포트폴리오 수준 [!UICONTROL Model Accuracy Report]과(와) 어떻게 다릅니까?
 (에이전시 계정 관리자, Adobe 계정 관리자 및 관리자 사용자만 해당) [!UICONTROL Forecast Accuracy Report] > [!UICONTROL Reports]에서 사용할 수 있는 [!UICONTROL Model Accuracy]은(는) 포트폴리오 수준 [!UICONTROL Model Accuracy Report]과(와) 동일한 데이터를 제공합니다. 단, 여러 포트폴리오에서 실행할 수 있으며 속성 규칙을 변경할 수 있습니다. 사용자 지정 매개 변수를 사용하여 보고서를 실행하고 예약할 수도 있으며, 스프레드시트 피드를 만드는 데 사용할 수도 있습니다. 또한 [!UICONTROL Forecast Accuracy Report]은(는) 현재 목표보다 포트폴리오에 대한 기록 목표를 사용하여 매출 정확도를 평가하고 해당 시간대의 데이터를 더 정확하게 나타내므로 기존 포트폴리오 수준 보고서보다 정확합니다.
 +++
 
-+++[!DNL Google Ads] 동적 검색 광고(DSA), 성과 최대, 스마트 쇼핑 및 [!DNL YouTube] 캠페인에 대해 광고 수준 데이터를 사용할 수 없습니다.
++++[!DNL Google Ads] 동적 검색 광고(DSA), 성능 최대, 스마트 쇼핑 및 [!DNL YouTube] 캠페인에 대한 광고 수준 데이터를 사용할 수 없습니다.
 광고 네트워크는 이러한 캠페인을 위해 매출을 개별 광고에 연결하는 데 필요한 식별자를 제공하지 않습니다. 따라서 [!UICONTROL Ads] 보기 또는 [!UICONTROL Ad Variation Report]의 해당 캠페인 유형에 대해 광고 수준 성과 데이터를 사용할 수 없습니다. 캠페인에 대한 총 광고 수준 데이터와 캠페인에 대한 총 데이터 간의 불일치를 예상합니다.
 +++
 
@@ -325,7 +336,7 @@ ht-degree: 0%
 
 ## 스프레드시트 피드
 
-+++보고서 출력에 날짜 범위의 혼합이 포함됩니다.
++++보고서 출력에는 날짜 범위의 혼합이 포함됩니다.
 피드가 &quot;[!UICONTROL Daily]&quot; 이외의 데이터 집계 수준을 사용하여 데이터를 집계하는 경우 다른 날짜 범위를 볼 수 있습니다.
 
 이 문제를 해결하려면 매일 집계된 데이터를 포함하도록 스프레드시트 피드를 업데이트합니다. 이 작업에는 보고서 템플릿을 업데이트하고, 템플릿을 사용하여 보고서를 생성하고, 보고서를 사용하여 사용자 지정 [!DNL Microsoft Excel] 템플릿을 만든 다음 새 Excel 템플릿을 포함하도록 피드 설정을 업데이트하는 작업이 포함됩니다. 자세한 내용은 &quot;[스프레드시트 보고서 피드 설정 편집](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)&quot;을 참조하십시오.
@@ -338,7 +349,7 @@ ht-degree: 0%
 +++
 
 +++[!DNL Excel]에서 스프레드시트 피드를 열려고 하면 [!DNL Excel]에서 &quot;읽을 수 없는 콘텐츠&quot; 오류를 보고하고 복구된 콘텐츠에서 데이터가 제거됩니다.
-[!DNL Microsoft Excel] 템플릿이 시작 날짜별로 데이터를 오름차순으로 정렬하지 않으면 스프레드시트 피드에 빈 행이 포함될 수 있습니다. 특히 [!DNL Excel]은(는) &quot;Excel에서 &#39;&lt;*보고서 이름*>.xlsx&#39;에서 읽을 수 없는 콘텐츠를 찾았습니다&quot;라는 오류를 보고합니다. 통합 문서의 내용을 복구하시겠습니까? 이 통합 문서의 원본을 신뢰하는 경우 [예]를 클릭하십시오.&quot; &quot;예&quot;를 클릭하면 &quot;제거된 레코드: /xl/worksheets/sheet1.xml 부분의 셀 정보&quot;라는 메시지가 표시되고 스프레드시트 피드에 빈 행이 포함됩니다.
+[!DNL Microsoft Excel] 템플릿이 시작 날짜별로 데이터를 오름차순으로 정렬하지 않으면 스프레드시트 피드에 빈 행이 포함될 수 있습니다. 특히 [!DNL Excel]은(는) &quot;Excel에서 &#39;&lt;*보고서 이름*>.xlsx&#39;에서 읽을 수 없는 콘텐츠를 찾았습니다.&quot;라는 오류를 보고합니다. 통합 문서의 내용을 복구하시겠습니까? 이 통합 문서의 원본을 신뢰하는 경우 [예]를 클릭하십시오.&quot; &quot;예&quot;를 클릭하면 &quot;제거된 레코드: /xl/worksheets/sheet1.xml 부분의 셀 정보&quot;라는 메시지가 표시되고 스프레드시트 피드에 빈 행이 포함됩니다.
 
 이 문제를 해결하려면 피드와 연결된 [!DNL Excel] 템플릿을 편집하여 데이터를 [!DNL Start date in Ascending (Oldest to Newest) order] 기준으로 정렬한 다음 스프레드시트 피드 설정을 통해 업데이트된 템플릿을 업로드하십시오. 자세한 내용은 &quot;[스프레드시트 보고서 피드 편집](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)&quot;을 참조하십시오.
 +++
