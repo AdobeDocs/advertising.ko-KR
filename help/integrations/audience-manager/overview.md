@@ -69,6 +69,6 @@ Adobe Audience Manager을 사용하는 DSP 고객은 Audience Manager에 대한 
 
 ## Audience Analytics을 통해 사이트 활동에 대한 보다 풍부한 통찰력 얻기
 
-[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)을(를) 가진 Adobe Advertising 고객은 사이트 활동에 대한 풍부한 통찰력을 위해 Adobe Advertising 추적 데이터와 Audience Manager 세그먼트를 모두 [!DNL Analytics]에 보낼 수 있습니다.
+[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ko)을(를) 가진 Adobe Advertising 고객은 사이트 활동에 대한 풍부한 통찰력을 위해 Adobe Advertising 추적 데이터와 Audience Manager 세그먼트를 모두 [!DNL Analytics]에 보낼 수 있습니다.
 
 자세한 내용은 &quot;[[!DNL Adobe Audience Analytics] Adobe Advertising 고객용](/help/integrations/audience-manager/audience-analytics.md)&quot;을 참조하십시오.

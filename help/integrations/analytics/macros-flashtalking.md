@@ -58,9 +58,9 @@ Advertising DSP 광고에 [!DNL Flashtalking]의 광고 태그를 사용하는 �
 
 예:
 
-`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/kr/products/photoshop?[ftqs:[AdobeAMO]]`
 
-`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/kr/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## 비디오 광고 태그
 
@@ -74,9 +74,9 @@ Advertising DSP 광고에 [!DNL Flashtalking]의 광고 태그를 사용하는 �
 
 예:
 
-`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/kr/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
-`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/kr/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >

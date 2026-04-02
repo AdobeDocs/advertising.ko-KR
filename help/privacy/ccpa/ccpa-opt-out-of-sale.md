@@ -79,7 +79,7 @@ CCPA를 위한 Adobe 개인 정보 서비스에 대한 자세한 내용은 [Adob
    >
    >[!DNL DSP] 계정 또는 광고주, [!DNL Search, Social, & Commerce] 계정, [!DNL Creative] 또는 [!DNL DCO] 계정 등 조직의 모든 Adobe Advertising 계정이 Experience Cloud 조직 ID에 연결되어 있는지 확인하려면 회사의 Adobe Advertising 담당자에게 문의하십시오.
 
-1. Adobe Experience Platform Privacy Service API를 사용하여 소비자를 대신하여 Adobe Advertising에 [판매 중지 요청을 제출](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html)하고 기존 요청의 상태를 확인합니다.
+1. Adobe Experience Platform Privacy Service API를 사용하여 소비자를 대신하여 Adobe Advertising에 [판매 중지 요청을 제출](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=ko)하고 기존 요청의 상태를 확인합니다.
 
    판매 중지 요청의 예는 아래 부록 을 참조하십시오.
 

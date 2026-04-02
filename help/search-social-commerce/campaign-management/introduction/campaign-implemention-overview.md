@@ -75,7 +75,7 @@ Adobe은 각 광고주와 함께 광고 네트워크 계정 및 캠페인을 설
 
    추적 설정에 대한 자세한 내용은 &quot;추적&quot; 장을 참조하십시오.
 
-1. (Adobe Analytics을 사용하는 광고주) 데이터를 교환할 수 있도록 [Adobe Advertising과 Analytics를 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)합니다.
+1. (Adobe Analytics을 사용하는 광고주) 데이터를 교환할 수 있도록 [Adobe Advertising과 Analytics를 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko)합니다.
 
 1. (Search, Social 및 Commerce에서 입찰, 캠페인 예산 및/또는 캠페인 입찰 전략 타겟을 최적화할 수 있도록 하려면. [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)만 해당) [포트폴리오에 캠페인을 할당](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

@@ -25,7 +25,7 @@ ht-degree: 0%
 
 이 페이지에서는 [!DNL Analytics Marketing Channels] 사용자가 이해해야 하는 [!DNL Analytics for Advertising]에 대한 주요 정보를 설명합니다.
 
-[!DNL Marketing Channels]에 대한 전체 설명서는 &quot;[시작하기 [!DNL Marketing Channels]](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)&quot;를 참조하십시오.
+[!DNL Marketing Channels]에 대한 전체 설명서는 &quot;[시작하기 [!DNL Marketing Channels]](https://experienceleague.adobe.com/ko/docs/analytics/components/marketing-channels/c-getting-started-mchannel)&quot;를 참조하십시오.
 
 ## [!DNL Marketing Channels] 개요
 

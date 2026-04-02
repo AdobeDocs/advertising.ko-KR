@@ -76,7 +76,7 @@ Adobe Advertising에서 소비자 개인 정보에 액세스하고 삭제를 요
    >
    >[!DNL DSP] 계정 또는 광고주, [!DNL Search, Social, & Commerce] 계정, [!DNL Creative] 또는 [!DNL DCO] 계정 등 조직의 모든 Adobe Advertising 계정이 Experience Cloud 조직 ID에 연결되어 있는지 확인하려면 회사의 Adobe Advertising 담당자에게 문의하십시오.
 
-1. [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html)&#x200B;(자동화된 요청의 경우) 또는 [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)&#x200B;(임시 요청의 경우)를 사용하여 소비자를 대신하여 Adobe Advertising에 개인 정보에 액세스하고 삭제하는 요청을 제출하고 기존 요청의 상태를 확인합니다.
+1. [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ko)&#x200B;(자동화된 요청의 경우) 또는 [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)&#x200B;(임시 요청의 경우)를 사용하여 소비자를 대신하여 Adobe Advertising에 개인 정보에 액세스하고 삭제하는 요청을 제출하고 기존 요청의 상태를 확인합니다.
 
    [!DNL DSP]을(를) 사용하여 고객과 상호 작용하고 캠페인을 시작하는 모바일 앱이 있는 광고주의 경우 Experience Cloud용 Privacy-ready Mobile SDK를 다운로드해야 합니다. Mobile SDK를 사용하면 비즈니스에서 옵트아웃 상태 플래그를 설정하고 소비자의 장치 ID(네임스페이스 ID: `deviceID`)를 검색한 다음 Privacy Service API에 요청을 제출할 수 있습니다. 모바일 앱에는 SDK 버전 4.15.0 이상이 필요합니다.
 
@@ -105,11 +105,11 @@ Adobe Advertising에서 지원을 받으려면 모든 단계가 필요합니다.
 
 * `"user IDs":`
 
-   * `"namespace": **411**`([[!DNL AdCloud] 쿠키 공간](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)을 나타냄)
+   * `"namespace": **411**`([[!DNL AdCloud] 쿠키 공간](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/appendix)을 나타냄)
 
    * `"value":` &lt;*`AdobePrivacy.js`*&#x200B;에서 검색된 실제 고객의 쿠키 ID 값>
 
-* `"include": **adCloud**`(요청에 적용되는 [[!DNL Adobe] product](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix))
+* `"include": **adCloud**`(요청에 적용되는 [[!DNL Adobe] product](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/appendix))
 
 * `"regulation": **ccpa**`(요청에 적용되는 개인 정보 보호 규정)
 

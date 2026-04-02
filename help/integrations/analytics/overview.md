@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> [비디오 소개 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics)를 시청하세요.
+> [비디오 소개 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=ko#analytics)를 시청하세요.
 
 ## 유료 미디어 보고에 Analytics 사용
 
@@ -105,13 +105,13 @@ Adobe Advertising은 [!DNL Analytics]과(와) Experience Cloud 간의 기본 Exp
 
 [!DNL Analytics] 세그먼트는 24시간 내에 사용할 수 있으며 매일 업데이트됩니다.
 
-Experience Cloud 대상 서비스에 대한 자세한 내용은 [Experience Cloud 대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)을 참조하세요.
+Experience Cloud 대상 서비스에 대한 자세한 내용은 [Experience Cloud 대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)을 참조하세요.
 
 ## 통합 사용 방법의 예 {#integration-examples}
 
 ### Analysis Workspace에서 Adobe Advertising 데이터 사용
 
-Adobe Advertising 데이터를 사용하여 Analysis Workspace에서 시각적 보고서를 만드는 방법에 대해 알아보려면 비디오 &quot;[Workspace 및 보고 소개](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html)&quot;를 참조하십시오.
+Adobe Advertising 데이터를 사용하여 Analysis Workspace에서 시각적 보고서를 만드는 방법에 대해 알아보려면 비디오 &quot;[Workspace 및 보고 소개](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=ko)&quot;를 참조하십시오.
 
 #### 보고서에서 연결된 TV 뷰스루 전환 사용
 
@@ -159,7 +159,7 @@ Adobe Advertising 사이트 시작 보고서를 만들어 요일, 시간, 브라
 
 >[!MORELIKETHIS]
 >
->* [비디오: 소개 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
+>* [비디오: 소개 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=ko)
 >* [구현을 위한 필수 구성 요소 및 키 정보 [!DNL Analytics for Advertising]](prerequisites.md)
 >* [Analytics에서 사용하는 Adobe Advertising ID](ids.md)
 >* [Advertising용 Analytics용 JavaScript 코드](/help/integrations/analytics/javascript.md)
