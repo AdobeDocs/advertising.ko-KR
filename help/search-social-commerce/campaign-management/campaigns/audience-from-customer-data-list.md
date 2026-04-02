@@ -4,9 +4,12 @@ description: 고객 데이터 목록에서  [!DNL Google Ads] 및 [!DNL Microsof
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/XoDGbJAFowx-KX0hWQH4XoFrc0R2YiftT-mN6f4KWDE
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 840
@@ -32,7 +35,7 @@ CRM(고객 관계 관리) 시스템에서 생성한 데이터 파일에서 [!DNL
 
 1. 고객 데이터가 포함된 파일을 필요한 형식으로 생성합니다.
 
-   이름과 성, 이메일 주소 및 전화 번호는 SHA-256 알고리즘을 사용하여 해시해야 합니다. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads]명의 대상자에 대해 허용된 연락처 정보 필드 및 요구 사항 목록을 보려면 &quot;[!DNL Google Ads]해시된 데이터를 업로드하기 위한 서식 지정 지침[&quot;의 ](https://support.google.com/google-ads/answer/7476159) 설명서를 참조하십시오. [!DNL Microsoft Advertising]명의 대상자에 대해서는 [!DNL Microsoft Advertising]고객 일치 목록 준비[에 대한 ](https://help.ads.microsoft.com/#apex/ads/en/56921) 설명서를 참조하십시오. 필요한 경우 연락처 정보에 대한 [!DNL Microsoft Excel] 템플릿을 다운로드할 수 있습니다.
+   이름과 성, 이메일 주소 및 전화 번호는 SHA-256 알고리즘을 사용하여 해시해야 합니다. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads]명의 대상자에 대해 허용된 연락처 정보 필드 및 요구 사항 목록을 보려면 &quot;[!DNL Google Ads]해시된 데이터를 업로드하기 위한 서식 지정 지침[&quot;의 &#x200B;](https://support.google.com/google-ads/answer/7476159) 설명서를 참조하십시오. [!DNL Microsoft Advertising]명의 대상자에 대해서는 [!DNL Microsoft Advertising]고객 일치 목록 준비[에 대한 &#x200B;](https://help.ads.microsoft.com/#apex/ads/en/56921) 설명서를 참조하십시오. 필요한 경우 연락처 정보에 대한 [!DNL Microsoft Excel] 템플릿을 다운로드할 수 있습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**&#x200B;을(를) 클릭합니다.
 
@@ -50,7 +53,7 @@ CRM(고객 관계 관리) 시스템에서 생성한 데이터 파일에서 [!DNL
 
       1. [!UICONTROL Data Upload Type]: *[!UICONTROL Emails, Phones, and/or Mailing Addresses]*, *[!UICONTROL User IDs]* 또는 *[!UICONTROL Mobile Device IDs]*&#x200B;을(를) 선택하십시오.
 
-         사용자 ID 옵션은 [!DNL Google Ads]사용자 ID 세그먼트[에 대해 옵트인된 미국의 ](https://support.google.com/google-ads/answer/9199250)개 광고주에게만 제공됩니다
+         사용자 ID 옵션은 [!DNL Google Ads]사용자 ID 세그먼트[에 대해 옵트인된 미국의 &#x200B;](https://support.google.com/google-ads/answer/9199250)개 광고주에게만 제공됩니다
 
       1. (모바일 장치 ID 목록만 해당) **[!UICONTROL OS Type]**(*[!UICONTROL Android™]* 또는 *[!UICONTROL iOS]*)을(를) 선택하고 **[!UICONTROL App ID]**&#x200B;을(를) 입력합니다.
 
@@ -95,7 +98,7 @@ CRM(고객 관계 관리) 시스템에서 생성한 데이터 파일에서 [!DNL
 
 1. 기존 데이터 유형에 필요한 형식으로 고객 데이터가 포함된 파일을 생성합니다.
 
-이름과 성, 이메일 주소 및 전화 번호는 SHA-256 알고리즘을 사용하여 해시해야 합니다. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads]명의 대상자에 대해 허용된 연락처 정보 필드 및 요구 사항 목록을 보려면 &quot;[!DNL Google Ads]해시된 데이터를 업로드하기 위한 서식 지정 지침[&quot;의 ](https://support.google.com/google-ads/answer/7476159) 설명서를 참조하십시오. [!DNL Microsoft Advertising]명의 대상자에 대해서는 [!DNL Microsoft Advertising]고객 일치 목록 준비[(https://help.ads.microsoft.com/#apex/ads/en/56921)에 있는 ] 설명서를 참조하십시오. 필요한 경우 연락처 정보에 대한 [!DNL Microsoft Excel] 템플릿을 다운로드할 수 있습니다.
+이름과 성, 이메일 주소 및 전화 번호는 SHA-256 알고리즘을 사용하여 해시해야 합니다. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> [!DNL Google Ads]명의 대상자에 대해 허용된 연락처 정보 필드 및 요구 사항 목록을 보려면 &quot;[!DNL Google Ads]해시된 데이터를 업로드하기 위한 서식 지정 지침[&quot;의 &#x200B;](https://support.google.com/google-ads/answer/7476159) 설명서를 참조하십시오. [!DNL Microsoft Advertising]명의 대상자에 대해서는 [!DNL Microsoft Advertising]고객 일치 목록 준비[(https://help.ads.microsoft.com/#apex/ads/en/56921)에 있는 ] 설명서를 참조하십시오. 필요한 경우 연락처 정보에 대한 [!DNL Microsoft Excel] 템플릿을 다운로드할 수 있습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**&#x200B;을(를) 클릭합니다.
 
@@ -123,5 +126,5 @@ CRM(고객 관계 관리) 시스템에서 생성한 데이터 파일에서 [!DNL
 >
 >* [대상자 정보](audience-about.md)
 >* [고객 일치 대상자 만들기 [!DNL Google Ads] 출처 [!DNL Adobe] 대상자](google-audience-from-adobe-audience.md)
->* [Adobe Campaign 전자 메일 목록에서 고객 일치 대상 만들기 [!DNL Google Ads] 2}](google-audience-from-campaign-email-list.md)
+>* [Adobe Campaign 전자 메일 목록에서 고객 일치 대상 만들기 [!DNL Google Ads] 2&rbrace;](google-audience-from-campaign-email-list.md)
 >* [동적 리마케팅 대상자 관리](audience-dynamic-remarketing-manage.md)

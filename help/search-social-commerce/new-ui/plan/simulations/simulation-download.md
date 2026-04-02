@@ -5,9 +5,13 @@ feature: Search Optimization, Search Portfolios, Search Simulations
 hide: yes
 exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
 TQID: https://experienceleague.adobe.com/5FVQv17adrIz6OJU1K3ftG8NRO-0evlIzc1tGIFoHfY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 141
@@ -23,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* [시뮬레이션 결과를 화면에서 ](simulation-view.md)볼 수도 있습니다.
+>* [시뮬레이션 결과를 화면에서 &#x200B;](simulation-view.md)볼 수도 있습니다.
 >* 많은 추가 지표와 대부분의 시뮬레이션 설정에 대한 열을 포함하도록 [[!UICONTROL Simulations] 보기를 사용자 지정](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)할 수 있습니다. 포함할 수 있는 열에 대한 자세한 내용은 &quot;[시뮬레이션 정보](simulation-about.md#simulations-actions)에서 &quot;사용 가능한 작업&quot; 섹션을 참조하십시오.
 
 1. 메인 메뉴에서 **[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;을(를) 클릭합니다.

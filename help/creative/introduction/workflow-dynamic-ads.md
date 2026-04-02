@@ -4,9 +4,12 @@ description: 동적 광고 관리 워크플로우에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
 TQID: https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 643
@@ -71,7 +74,7 @@ ht-degree: 0%
 
          각 피드 파일은 하나의 카탈로그에 대해서만 사용할 수 있습니다.
 
-         [ > ](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative] 탭에서 [!UICONTROL Feeds]카탈로그 처리 작업의 상태를 추적[!UICONTROL Job Status]할 수 있습니다.
+         [&#x200B; > &#x200B;](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative] 탭에서 [!UICONTROL Feeds]카탈로그 처리 작업의 상태를 추적[!UICONTROL Job Status]할 수 있습니다.
 
 1. Creative 라이브러리의 [동적 크리에이티브 만들기](/help/creative/creative-libraries/creative-add-dynamic.md). 다이내믹 HTML5 광고의 경우 지정된 광고 템플릿과 지정된 카탈로그를 사용하십시오.
 

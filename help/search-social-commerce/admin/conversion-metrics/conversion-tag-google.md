@@ -4,9 +4,12 @@ description: ' [!DNL Google Ads] 전환 태그를 만드는 방법을 알아봅�
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
 TQID: https://experienceleague.adobe.com/pskBpQ12sQXj9RyLd3IQAG0MktlOvV2JvZBl5rGtQT0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 415
@@ -36,7 +39,7 @@ ht-degree: 0%
 
 1. 전환 태그를 복사하여 전환 지표를 추적할 웹 사이트에 구현합니다.
 
-   &quot;[!DNL Google]2&quot;에 대한 [!DNL Google Ads] 도움말의 &quot;[ 태그 설치&quot;를 참조하십시오. Google 태그 ](https://support.google.com/google-ads/answer/12215519)을(를) 설정합니다.&quot;
+   &quot;[!DNL Google]2&quot;에 대한 [!DNL Google Ads] 도움말의 &quot;[&#x200B; 태그 설치&quot;를 참조하십시오. Google 태그 &#x200B;](https://support.google.com/google-ads/answer/12215519)을(를) 설정합니다.&quot;
 
 1. **[!UICONTROL Done].** 클릭
 

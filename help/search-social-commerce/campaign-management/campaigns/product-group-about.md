@@ -4,9 +4,12 @@ description: 쇼핑 캠페인의 쇼핑 제품 그룹에 대해 알아봅니다.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/P3QrbE-JI1XMVzAqA4Pb8jO1t9bRNN-x1q0ehpBvaPw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 721
@@ -24,7 +27,7 @@ ht-degree: 0%
 
 동일한 제품이 둘 이상의 캠페인에 포함된 경우 광고 네트워크는 먼저 캠페인 우선 순위를 사용하여 광고 경매에 적합한 캠페인(및 관련 입찰)을 결정합니다. 모든 캠페인이 동일한 우선 순위를 갖는 경우 입찰이 가장 높은 캠페인이 적격입니다.
 
-[!DNL Google] 쇼핑 캠페인 및 광고에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 3}&quot; 및 ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)Google 광고 설명서[를 참조하십시오. ](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1) [!DNL Microsoft] 쇼핑 캠페인에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 3}&quot; 및 ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)설명서[[!DNL Microsoft Advertising] 를 참조하세요.](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)
+[!DNL Google] 쇼핑 캠페인 및 광고에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 3&rbrace;&quot; 및 &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)Google 광고 설명서[를 참조하십시오. &#x200B;](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1) [!DNL Microsoft] 쇼핑 캠페인에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 3&rbrace;&quot; 및 &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)설명서[[!DNL Microsoft Advertising] 를 참조하세요.](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)
 
 >[!NOTE]
 >
@@ -54,7 +57,7 @@ ht-degree: 0%
   >
   >([!DNL Microsoft Advertising]) 제품 피드 내의 사용자 지정 열에 Search, Social 및 Commerce 추적 URL을 포함하지 않는 경우에만 이 옵션을 사용합니다. 두 작업을 모두 수행하는 경우 URL에 두 개의 리디렉션이 포함되어 링크가 끊어집니다.
 
-* ([!DNL Microsoft Advertising]만 해당) [!DNL Microsoft Merchant Center] 계정 내의 제품 데이터에 추적 URL을 추가합니다. 이렇게 하려면 제품 피드 내의 `link``mobile_link`이라는 사용자 지정 열에 [`bingads_redirect` 또는 ](https://help.ads.microsoft.com/#apex/3/en/51084/0) 필드의 값과 함께 추적 URL을 적절하게 포함하십시오. 이 방법을 사용하여 생성된 URL에는 검색, 소셜 및 Commerce 내의 계정 또는 캠페인 설정에 지정된 추적 매개 변수가 포함되지 않습니다.
+* ([!DNL Microsoft Advertising]만 해당) [!DNL Microsoft Merchant Center] 계정 내의 제품 데이터에 추적 URL을 추가합니다. 이렇게 하려면 제품 피드 내의 `link` `mobile_link`이라는 사용자 지정 열에 [`bingads_redirect` 또는 &#x200B;](https://help.ads.microsoft.com/#apex/3/en/51084/0) 필드의 값과 함께 추적 URL을 적절하게 포함하십시오. 이 방법을 사용하여 생성된 URL에는 검색, 소셜 및 Commerce 내의 계정 또는 캠페인 설정에 지정된 추적 매개 변수가 포함되지 않습니다.
 
 [의 [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)에서 제품 그룹에 대한 데이터를 볼 수 있습니다.
 
@@ -62,6 +65,6 @@ ht-degree: 0%
 >
 >* [쇼핑 제품 그룹 관리](product-group-manage.md)
 >* [[!DNL Google Ads] 제품 그룹 설정](product-group-settings-google.md)
->* [쇼핑 캠페인 구현 [!DNL Google Ads] 2}](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [쇼핑 캠페인 구현 [!DNL Google Ads] 2&rbrace;](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising] 제품 그룹 설정](product-group-settings-microsoft.md)
->* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2&rbrace;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

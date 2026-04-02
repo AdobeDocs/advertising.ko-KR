@@ -4,9 +4,12 @@ description: ' [!DNL Advertising Insight]을(를) 만드는 방법을 알아봅�
 exl-id: e6b692be-189e-4c6c-a536-e6c78801853d
 feature: Search Advertising Insights
 TQID: https://experienceleague.adobe.com/meXmiqRiNyUxVnnMdl8S-GfHk0xWWu-62tU0W5Ogtd8
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 337
@@ -66,7 +69,7 @@ ht-degree: 0%
 
 4. **[!UICONTROL Generate Insight]**&#x200B;을(를) 클릭합니다.
 
-   [에 대해 ](/help/search-social-commerce/notifications/notification-edit.md)구성된 알림 설정[!UICONTROL Advertising Insights]을 기반으로 작업이 완료되거나 실패하면 알림을 받습니다.
+   [에 대해 &#x200B;](/help/search-social-commerce/notifications/notification-edit.md)구성된 알림 설정[!UICONTROL Advertising Insights]을 기반으로 작업이 완료되거나 실패하면 알림을 받습니다.
 
 >[!MORELIKETHIS]
 >

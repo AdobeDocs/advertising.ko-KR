@@ -4,10 +4,14 @@ description: 광고 관리에 대해 알아봅니다.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
 TQID: https://experienceleague.adobe.com/RQDnXgB496PHM7qJdiBHwYa9THctwmZtWI9-39PGZqM
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 737
@@ -56,7 +60,7 @@ DSP에서는 다음 광고 유형을 모두 사용할 수 있습니다. 각 광�
 
 DSP이 광고를 승인하면 광고의 상태 열에 녹색 점이 표시됩니다.
 
-![ 열의 [!UICONTROL Status]승인 표시기](/help/dsp/assets/ad-approval-status.png)
+![&#x200B; 열의 [!UICONTROL Status]승인 표시기](/help/dsp/assets/ad-approval-status.png)
 
 >[!NOTE]
 >

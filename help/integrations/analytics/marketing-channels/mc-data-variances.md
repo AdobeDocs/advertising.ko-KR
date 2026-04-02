@@ -4,10 +4,17 @@ description: AMO ID로 추적되는 채널 데이터가  [!DNL Analytics Marketi
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
 TQID: https://experienceleague.adobe.com/zzYKrbiwvW9Ysf7baDfKGsETmSvYbXDY7-lIygorXH8
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: dba482e5-29a8-4127-afa2-c4b913512ef8id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: dba482e5-29a8-4127-afa2-c4b913512ef8
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 414
@@ -31,11 +38,11 @@ Adobe Advertising과 [!DNL Marketing Channels] 데이터 세트의 통합에 대
 
   이 데이터를 수집하기 위해 [!DNL Analytics for Advertising] 통합은 사용자 지정 변수(eVar) 또는 예약된 변수(rVar)로 저장된 Adobe Analytics의 AMO ID 차원에서 클릭스루 및 뷰스루 추적 코드로 변환할 수 있는 원시 AMO ID를 전달합니다. 다른 채널의 클릭스루는 AMO ID 차원에 설정되지 않으므로 AMO ID 차원은 이러한 다른 채널의 항목을 추적할 수 없습니다. 따라서 AMO ID는 [!DNL Marketing Channels] 진입점을 통해 유지됩니다.
 
-Adobe Advertising에서 추적한 데이터와 [!DNL Analytics]에서 추적한 데이터 간의 가능한 데이터 차이에 대한 자세한 내용은 &quot;[과(와) Adobe Advertising 간의 예상 데이터 분산 [!DNL Analytics] 과(와) ](../data-variances.md)&quot;을(를) 참조하십시오.&quot;
+Adobe Advertising에서 추적한 데이터와 [!DNL Analytics]에서 추적한 데이터 간의 가능한 데이터 차이에 대한 자세한 내용은 &quot;[과(와) Adobe Advertising 간의 예상 데이터 분산 [!DNL Analytics] 과(와) &#x200B;](../data-variances.md)&quot;을(를) 참조하십시오.&quot;
 
 >[!MORELIKETHIS]
 >
->* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) ](/help/integrations/analytics/data-variances.md)
+>* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) &#x200B;](/help/integrations/analytics/data-variances.md)
 >* [기본  [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertising ID를 사용하여 만들기 [!DNL Marketing Channels] 처리 규칙](mc-ids.md)
 >* [사용 [!DNL Analytics Marketing Channels] Adobe Advertising 데이터 사용](mc-ac-data.md)

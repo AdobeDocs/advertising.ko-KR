@@ -5,11 +5,18 @@ role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
 TQID: https://experienceleague.adobe.com/Tvl3PF1mPSWuoWdVVreAoo6aXe3Kg9-9DXsOz3porOI
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-subfeature_v2: id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 568
@@ -41,7 +48,7 @@ ht-degree: 0%
 
       1. [!DNL Google Analytics] 계정의 숫자 ID를 입력하십시오.
 
-      1. 이 데이터 소스의 데이터에 액세스하는 데 사용할 이메일 주소를 입력하십시오. 전자 메일 주소는 [!DNL Google] 계정에 등록되어야 하며 [!DNL Google Analytics] 계정에 대한 &quot;읽기 및 분석&quot; 권한이 있어야 합니다. [ [!DNL Google Analytics]에서 사용자 권한 할당에 대한 ](https://support.google.com/analytics/answer/9305587)지침을 참조하세요.
+      1. 이 데이터 소스의 데이터에 액세스하는 데 사용할 이메일 주소를 입력하십시오. 전자 메일 주소는 [!DNL Google] 계정에 등록되어야 하며 [!DNL Google Analytics] 계정에 대한 &quot;읽기 및 분석&quot; 권한이 있어야 합니다. [&#x200B; [!DNL Google Analytics]에서 사용자 권한 할당에 대한 &#x200B;](https://support.google.com/analytics/answer/9305587)지침을 참조하세요.
 
          >[!TIP]
          >
@@ -63,7 +70,7 @@ ht-degree: 0%
 
       >[!WARNING]
       >
-      >[!DNL Google Analytics]은(는) 단일 데이터 피드에서 최대 10개의 지표를 허용합니다. Search, Social 및 Commerce은 총 20개의 지표로 최대 2개의 피드를 지원할 수 있지만 두 번째 피드를 사용하면 API 호출이 [!DNL Google Analytics]에 대해 두 배가 됩니다. 지표가 많은 경우 최적화를 위해 목표에 사용할 지표만 선택합니다. [ [!DNL Google Analytics]에 대한 API 요청에 대한 ](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)할당량 및 호출 제한에 대해 자세히 알아보십시오.
+      >[!DNL Google Analytics]은(는) 단일 데이터 피드에서 최대 10개의 지표를 허용합니다. Search, Social 및 Commerce은 총 20개의 지표로 최대 2개의 피드를 지원할 수 있지만 두 번째 피드를 사용하면 API 호출이 [!DNL Google Analytics]에 대해 두 배가 됩니다. 지표가 많은 경우 최적화를 위해 목표에 사용할 지표만 선택합니다. [&#x200B; [!DNL Google Analytics]에 대한 API 요청에 대한 &#x200B;](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas)할당량 및 호출 제한에 대해 자세히 알아보십시오.
 
    1. [!UICONTROL Metric Tag] 섹션에서 데이터 소스의 각 지표에 추가할 태그의 이름을 입력합니다.
 
@@ -79,8 +86,8 @@ ht-degree: 0%
 >
 >* [동기화 정보 [!DNL Google Analytics] 전환 지표](data-source-about.md)
 >* [데이터 원본 [!DNL Google Analytics] 구성을 위한 필수 구성 요소](data-source-prerequisites.md)
->* [데이터 원본 편집 [!DNL Google Analytics] 2}](data-source-edit.md)
+>* [데이터 원본 편집 [!DNL Google Analytics] 2&rbrace;](data-source-edit.md)
 >* [데이터 원본 동기화 일시 중지](data-source-pause.md)
->* [데이터 원본 다시 인증 [!DNL Google Analytics] 2}](data-source-reauthenticate.md)
+>* [데이터 원본 다시 인증 [!DNL Google Analytics] 2&rbrace;](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 데이터 원본 설정](data-source-settings.md)
 >* [부록 - 사용 가능 [!DNL Google Analytics] 지표](data-source-ga-metrics.md)

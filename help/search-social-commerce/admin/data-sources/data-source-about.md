@@ -5,11 +5,19 @@ role: User, Admin
 exl-id: 32d0ba22-5c27-4f50-9886-1c09d2da952c
 feature: Search Admin, Search Data Sources
 TQID: https://experienceleague.adobe.com/dN7AVijGEiKM1o2iu3Fcb2D61pFkTguFOOu0qIe-mZk
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fbid: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 289
@@ -25,7 +33,7 @@ Search, Social 및 Commerce은 최적화 및 보고를 위해 특정 [!DNL Googl
 >
 >Advertising DSP 사용자는 전환 지표를 사용자 지정 목표 및 보고서로 사용할 수 있습니다.
 
-데이터 전송에 대한 모든 API 사용은 적용 가능한 [!DNL Google Analytics] 계정의 프로젝트에 평가됩니다. [다음 [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas)에서 이 프로젝트에 대한 할당량을 볼 수 있습니다. [!DNL Google Analytics]보고 API 요청에 대한 할당량 및 호출 제한에 대한 자세한 내용은 [ 설명서를 참조하십시오](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
+데이터 전송에 대한 모든 API 사용은 적용 가능한 [!DNL Google Analytics] 계정의 프로젝트에 평가됩니다. [다음 [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas)에서 이 프로젝트에 대한 할당량을 볼 수 있습니다. [!DNL Google Analytics]보고 API 요청에 대한 할당량 및 호출 제한에 대한 자세한 내용은 [&#x200B; 설명서를 참조하십시오](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
 다음 단계에서는 [!DNL Google Analytics]에서 변환 데이터를 동기화하는 프로세스에 대해 간략히 설명합니다.
 
@@ -45,8 +53,8 @@ Search, Social 및 Commerce은 최적화 및 보고를 위해 특정 [!DNL Googl
 >
 >* [데이터 원본 [!DNL Google Analytics] 구성을 위한 필수 구성 요소](data-source-prerequisites.md)
 >* [데이터 소스로  [!DNL Google Analytics] 보기 구성](data-source-configure.md)
->* [데이터 원본 편집 [!DNL Google Analytics] 2}](data-source-edit.md)
+>* [데이터 원본 편집 [!DNL Google Analytics] 2&rbrace;](data-source-edit.md)
 >* [데이터 원본 동기화 일시 중지](data-source-pause.md)
->* [데이터 원본 다시 인증 [!DNL Google Analytics] 2}](data-source-reauthenticate.md)
+>* [데이터 원본 다시 인증 [!DNL Google Analytics] 2&rbrace;](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 데이터 원본 설정](data-source-settings.md)
 >* [부록 - 사용 가능 [!DNL Google Analytics] 지표](data-source-ga-metrics.md)

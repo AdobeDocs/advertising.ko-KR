@@ -4,11 +4,17 @@ description: 개인화된 광고 경험을 구성하고 성능에 따라 광고 
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
 TQID: https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 1169
@@ -77,7 +83,7 @@ ht-degree: 0%
 
   ![지표 옵션](/help/creative/assets/metrics-option.png "지표 옵션")
 
-* [ 보기에서 ](experience-performance-details.md)경험에 대한 자세한 성능 데이터를 볼 수 있습니다[!UICONTROL Experiences].
+* [&#x200B; 보기에서 &#x200B;](experience-performance-details.md)경험에 대한 자세한 성능 데이터를 볼 수 있습니다[!UICONTROL Experiences].
 
 * 경험에서 성능을 모니터링하려면 [사용자 지정 광고 보고서를 만드세요](/help/creative/reports/report-manage.md).
 

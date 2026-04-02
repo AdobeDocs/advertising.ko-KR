@@ -4,9 +4,16 @@ description: 데이터 문제 해결을 포함하여 성능 보고서에 대한 
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
 TQID: https://experienceleague.adobe.com/2pGYTNuu54grOLUSyVpfQVttGWG8OMPCUrzAYmyIv0k
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 3922
@@ -96,7 +103,7 @@ ht-degree: 0%
 +++합계가 정확하지만 개별 데이터 필드가 올바르지 않습니다.
 이 상황은 지표 형식이 정수를 사용할 때 발생할 수 있습니다.
 
-* [사용자 지정 지표](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)을(를) *소수점 포함/제외 숫자*(데이터를 정수로 표시) 형식으로 만들고 가중 전환 속성 규칙([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] 또는 [!UICONTROL Even Distribution])을 사용하는 보기 또는 보고서에 포함하면 출력이 소수가 아닌 정수로 표시됩니다. 이 경우 합계가 정확하지만 개별 데이터 필드가 올바르지 않을 수 있습니다. 예를 들어, 순서가 세 이벤트 간에 균등하게 나누어지면 한 개의 순서 (0.33 순서 대신)가 세 이벤트 각각에 기여됩니다. 이 문제를 해결하려면 [지표 형식을 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)에서 *소수점 이하 숫자*(으)로 변경하십시오.
+* [사용자 지정 지표](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)을(를) *소수점 포함/제외 숫자*(데이터를 정수로 표시) 형식으로 만들고 가중 전환 속성 규칙([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] 또는 [!UICONTROL Even Distribution])을 사용하는 보기 또는 보고서에 포함하면 출력이 소수가 아닌 정수로 표시됩니다. 이 경우 합계가 정확하지만 개별 데이터 필드가 올바르지 않을 수 있습니다. 예를 들어, 순서가 세 이벤트 간에 균등하게 나누어지면 한 개의 순서 (0.33 순서 대신)가 세 이벤트 각각에 기여됩니다. 이 문제를 해결하려면 [지표 형식을 &#x200B;](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)에서 *소수점 이하 숫자*(으)로 변경하십시오.
 
 * 마찬가지로 정수로 전송되는 매출 지표가 있는 경우 동일한 문제가 발생합니다. 매출 형식은 데이터를 제출하는 전환 태그에 의해 제어됩니다. 이 문제를 해결하려면 매출 지표로만 구성된 [사용자 지정 지표를 만들고](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) *소수점 이하 숫자* 형식을 사용하여 원래 지표가 아닌 보기 및 보고서에 포함하십시오.
 +++

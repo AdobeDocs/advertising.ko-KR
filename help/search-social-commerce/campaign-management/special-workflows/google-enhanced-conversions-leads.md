@@ -4,9 +4,13 @@ description: 리드에 대해  [!DNL Google Ads] 향상된 전환을 설정하�
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
 TQID: https://experienceleague.adobe.com/yFJJ662wcsm2KLzCIpxXo6F8nPsklVItHMTBk1h6wHg
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 388
@@ -44,7 +48,7 @@ ht-degree: 0%
 
 1. 전환 작업을 추적할 태그를 구성하고 구현합니다.
 
-   지침은 [!DNL Google Ads]a[tag [!DNL Google]  또는 ](https://support.google.com/google-ads/answer/11021502)using[ [!DNL Google Tag Manager] 리드에 대한 향상된 전환을 위한 태그를 만드는 ](https://support.google.com/google-ads/answer/11347292) 도움말을 참조하세요.
+   지침은 [!DNL Google Ads]a[tag [!DNL Google]  또는 &#x200B;](https://support.google.com/google-ads/answer/11021502)using[&#x200B; [!DNL Google Tag Manager] 리드에 대한 향상된 전환을 위한 태그를 만드는 &#x200B;](https://support.google.com/google-ads/answer/11347292) 도움말을 참조하세요.
 
 1. [검색, 소셜 및 Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) 또는 [Google 광고](https://support.google.com/google-ads/answer/12216226) 내에서 잠재 고객에 대한 향상된 전환에 대한 전환 작업을 만듭니다.
 

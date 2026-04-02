@@ -4,10 +4,15 @@ description: Analysis Workspace의 Adobe Advertising 지표
 feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
 TQID: https://experienceleague.adobe.com/CLPeE8g0Mix4Scq90qCd-s-tCUuBmkTBrkBWT1aPEhw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 495
@@ -23,7 +28,7 @@ ht-degree: 0%
 >
 >* Adobe Advertising은 트래픽 지표 및 차원을 매일 [!DNL Analytics]에 전달합니다.
 >* [!DNL Analytics]은(는) Adobe Advertising 클릭스루 및 뷰스루를 실시간으로 캡처합니다.
->* [!DNL Search, Social, & Commerce]의 경우 이 기능은 대부분의 광고 네트워크 및 캠페인 유형에 대해 지원됩니다. 자세한 내용은 [ 안내서의 &quot;](/help/search-social-commerce/introduction/supported-inventory.md)지원되는 인벤토리[!DNL Search, Social, & Commerce]&quot;을(를) 참조하십시오.
+>* [!DNL Search, Social, & Commerce]의 경우 이 기능은 대부분의 광고 네트워크 및 캠페인 유형에 대해 지원됩니다. 자세한 내용은 [&#x200B; 안내서의 &quot;](/help/search-social-commerce/introduction/supported-inventory.md)지원되는 인벤토리[!DNL Search, Social, & Commerce]&quot;을(를) 참조하십시오.
 
 ## Adobe Advertising의 트래픽 지표
 

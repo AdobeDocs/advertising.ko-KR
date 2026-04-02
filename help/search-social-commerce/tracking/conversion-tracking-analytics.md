@@ -4,9 +4,14 @@ description: Adobe Advertising의 캠페인에 Adobe Analytics 전환 추적을 
 exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/CM0S4RvR4RJ5Ylta5EJTdZh-VDDHYIfa7Qsd1Dm4D78
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 297
@@ -18,7 +23,7 @@ ht-degree: 0%
 
 *Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
 
-Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주의 경우 [!DNL Analytics]입찰 단위`ef_id`에 대한 클릭 추적 URL에서 토큰([ 매개 변수)을 사용한 리디렉션을 사용할 때 Advertising Cloud는 ](/help/search-social-commerce/glossary.md#a-b)에서 추적한 사이트 참여 및 전환 지표와 광고 클릭 및 노출을 연결할 수 있습니다. [!DNL Analytics] 데이터는 일일 피드 파일을 통해 Advertising Cloud로 자동으로 전송됩니다.
+Adobe Advertising-Adobe Analytics 통합을 사용하는 광고주의 경우 [!DNL Analytics]입찰 단위`ef_id`에 대한 클릭 추적 URL에서 토큰([&#x200B; 매개 변수)을 사용한 리디렉션을 사용할 때 Advertising Cloud는 &#x200B;](/help/search-social-commerce/glossary.md#a-b)에서 추적한 사이트 참여 및 전환 지표와 광고 클릭 및 노출을 연결할 수 있습니다. [!DNL Analytics] 데이터는 일일 피드 파일을 통해 Advertising Cloud로 자동으로 전송됩니다.
 
 통합에 대한 자세한 내용은 &quot;[개요 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview){target="_blank"}&quot;을(를) 참조하십시오.
 

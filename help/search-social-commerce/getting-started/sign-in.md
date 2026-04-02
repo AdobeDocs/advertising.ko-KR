@@ -4,9 +4,12 @@ description: 로그인 방법에 대해 알아봅니다.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/kkgk8VMLaF3phB1rVzMoxdOkgPWWk-fTqs8U2aGPJxw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 363
@@ -44,7 +47,7 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
+1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
 
    기본적으로 새 사용자 인터페이스가 열립니다.
 
@@ -58,7 +61,7 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
+1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
 
 1. 홈 페이지의 [!UICONTROL Quick Access] 섹션에서 **[!UICONTROL Advertising Search, Social, & Commerce]**&#x200B;을(를) 클릭합니다.
 

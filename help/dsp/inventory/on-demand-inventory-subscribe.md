@@ -4,10 +4,14 @@ description: '[!DNL On Demand]개 거래를 구독하고 이에 대한 액세스
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
 TQID: https://experienceleague.adobe.com/k3uCoU7U-K-TfHrlpFPn8XYtb-Vk5XWwmxCXby57tKs
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 393
@@ -90,7 +94,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [정보 [!DNL On Demand] 프리미엄 인벤토리](on-demand-inventory-about.md)
->* [거래 요청 및 구독 상태 보기 [!DNL On Demand] 2}](on-demand-inventory-view-status.md)
+>* [거래 요청 및 구독 상태 보기 [!DNL On Demand] 2&rbrace;](on-demand-inventory-view-status.md)
 >* [재요청 [!DNL On Demand] 프리미엄 인벤토리 거래](on-demand-inventory-rerequest.md)
 >* 아시아 태평양의 [[!DNL On Demand] 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
 >* 호주 및 뉴질랜드의 [[!DNL On Demand] 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-anz.md)

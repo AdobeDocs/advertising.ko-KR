@@ -4,9 +4,12 @@ description: ' [!DNL Google Ads] 성과 최대 캠페인을 설정하는 워크�
 exl-id: 4208774c-e4dd-499d-987e-933fe073c04f
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/2vNnyo0W66ZuIZ3cY1nlSYWTjEPOiNXkc-ppbuxNMnI
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 286
@@ -30,7 +33,7 @@ ht-degree: 0%
 
 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기에서 개별적으로 성과 최대 캠페인을 설정할 수 있습니다.
 
-1. [캠페인 유형 ](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)을(를) 사용하여 **[!UICONTROL Performance Max]** 캠페인을 만듭니다.
+1. [캠페인 유형 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)을(를) 사용하여 **[!UICONTROL Performance Max]** 캠페인을 만듭니다.
 
    [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Campaign Targeting] 및 [!UICONTROL URL Options]을(를) 지정하십시오. 필요한 경우 [!UICONTROL Negative Keywords]을(를) 입력하고 [!UICONTROL Negative Websites]을(를) 입력하거나 [!UICONTROL Campaign Tracking] 옵션을 재정의합니다.
 
