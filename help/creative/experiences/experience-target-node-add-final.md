@@ -3,9 +3,13 @@ title: 경험의 최종 수준에 대상 노드 추가
 description: 광고 경험의 최종 타겟 수준에 타겟 노드를 추가하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+TQID: https://experienceleague.adobe.com/1T0Jwc8noxF-uaTA2cN78uOBsgHDjSnoD9Scmmw4L3s
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: 824
 ht-degree: 0%
 
 ---
@@ -70,7 +74,7 @@ ht-degree: 0%
 
    * 데이터 전달 대상에 대해 **[!UICONTROL Data Pass]**&#x200B;을(를) 선택하고 선택적으로 데이터 전달 키를 사용자 지정하고 단일 데이터 전달 값을 입력한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-   키-값 쌍의 키에 대한 기본값이 **[!UICONTROL Data Pass]**&#x200B;경험 설정[!UICONTROL Advanced]의 [&#x200B; 섹션에 있는 &#x200B;](experience-settings-targeting.md) 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
+   키-값 쌍의 키에 대한 기본값이 **[!UICONTROL Data Pass]**&#x200B;경험 설정[!UICONTROL Advanced]의 [ 섹션에 있는 ](experience-settings-targeting.md) 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
 
    * 재타겟팅 픽셀 타겟의 경우 **[!UICONTROL RT Pixel]**&#x200B;을(를) 선택하고 사용할 단일 재타겟팅 픽셀과 크리에이티브를 표시하는 데 필요한 픽셀 특성 값을 선택한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 

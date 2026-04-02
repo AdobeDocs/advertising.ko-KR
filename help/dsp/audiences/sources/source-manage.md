@@ -3,9 +3,15 @@ title: 범용 ID 대상을 활성화하기 위한 대상 소스 관리
 description: 소스를 만들고 관리하여 고객 데이터 플랫폼에서 대상을 가져와 범용 ID가 포함된 세그먼트로 변환하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
+TQID: https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: 758
 ht-degree: 0%
 
 ---
@@ -120,7 +126,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 * *[!DNL RampID]:* PII를 [!DNL RampID]&#x200B;(으)로 변환하려는 경우 로그인 사용자를 다시 타겟팅하고 [!DNL RampIDs] 측정을 위해 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용할 수 있습니다.
 
-* *[!DNL Unified ID2.0] (Beta):* 로그인 사용자를 다시 타깃팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
+* *[!DNL Unified ID2.0](Beta):* 로그인 사용자를 다시 타깃팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
 
 <!--
  Later

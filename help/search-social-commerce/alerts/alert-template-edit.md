@@ -3,9 +3,13 @@ title: 사용자 지정 경고 템플릿 편집
 description: 사용자 지정 경고를 생성하기 위해 템플릿을 편집하는 방법을 알아봅니다.
 exl-id: 37dfaaa2-ecd2-42cf-a3a6-9d82a8610355
 feature: Search Alerts
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/zE2vVaddZClw-kythHguZCUiX39rx7ubl79Msnqnrbo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: 137
 ht-degree: 0%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 0%
 
 1. 템플릿 이름 옆에 있는 ![편집](/help/search-social-commerce/assets/edit.png "편집")을 클릭합니다.
 
-1. [!UICONTROL Update \[Entity Type\] Alert] 창에서 **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** 및 **[!UICONTROL Scheduling and Delivery]** 탭의 [경고 설정](alert-template-settings.md)을(를) 편집합니다.
+1. [!UICONTROL Update \[Entity Type\] Alert] 창에서 [, ](alert-template-settings.md) 및 **[!UICONTROL Date Range]** 탭의 **[!UICONTROL Filters]**&#x200B;경고 설정&#x200B;**[!UICONTROL Scheduling and Delivery]**&#x200B;을(를) 편집합니다.
 
    탭 이름(예: &quot;필터&quot;)을 클릭하거나 오른쪽 하단의 **[!UICONTROL Next]**&#x200B;을 클릭하여 탭 사이를 이동할 수 있습니다.
 

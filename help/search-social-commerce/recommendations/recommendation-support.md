@@ -3,9 +3,13 @@ title: 게시자 권장 사항 및 인사이트 지원 기본 정보
 description: 게시자 권장 사항 및 인사이트를 보고 관리하는 지원에 대해 알아봅니다.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 568927a009b2c38d30fc817a9f4aa4e964b4cd9f
+TQID: https://experienceleague.adobe.com/Ual5eWu0z8jyBAPFOkJw1nUuYnOadW-FqezsD4rXySE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: 734
 ht-degree: 0%
 
 ---
@@ -44,7 +48,7 @@ ht-degree: 0%
 
 | 추천 카테고리 | 권장 사항 유형 | 설명 |
 | --- | --- | --- |
-| [!UICONTROL Ads and extensions]&#x200B;(이제 [!DNL Google Ads]에서 &quot;[!DNL Ads and assets]&quot;이라고 함) | [!UICONTROL Call extension] | 캠페인에 호출 확장 추가 |
+| [!UICONTROL Ads and extensions]&#x200B;(이제 [!DNL Ads and assets]에서 &quot;[!DNL Google Ads]&quot;이라고 함) | [!UICONTROL Call extension] | 캠페인에 호출 확장 추가 |
 | | [!UICONTROL Callout extension] | 캠페인에 설명선 확장 추가 |
 |  | [!UICONTROL Improve demand gen ad strength] | 수요 세대 광고에 대한 광고 강도를 개선하기 위한 제안 |
 | | [!UICONTROL Optimize ad rotation] | 최적화된 광고 순환 사용 |
@@ -73,8 +77,8 @@ ht-degree: 0%
 | | [!UICONTROL Set Target CPA] | 없는 캠페인에 대한 타겟 CPA 설정 |
 | | [!UICONTROL Set Target ROAS] | ROAS가 없는 캠페인에 대한 타겟 ROAS 설정 |
 | | [!UICONTROL Target CPA opt in] | [!UICONTROL Target CPA] 입찰 전략으로 변경 |
-| | [!UICONTROL Target CPA raising] | 이전 전환에서 계산된 [!DNL Google Ads] 예측을 기반으로 [!UICONTROL Target CPA]을(를) 제기합니다. |
-| | [!UICONTROL Target ROAS lowering] | 이전 전환에서 계산된 [!DNL Google Ads] 예측을 기준으로 [!UICONTROL Target ROAS]을(를) 낮춥니다. |
+| | [!UICONTROL Target CPA raising] | 이전 전환에서 계산된 [!UICONTROL Target CPA] 예측을 기반으로 [!DNL Google Ads]을(를) 제기합니다. |
+| | [!UICONTROL Target ROAS lowering] | 이전 전환에서 계산된 [!UICONTROL Target ROAS] 예측을 기준으로 [!DNL Google Ads]을(를) 낮춥니다. |
 | | [!UICONTROL Target ROAS opt in] | [!UICONTROL Target ROAS] 입찰 전략으로 변경 |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | 디스플레이 확장을 사용하도록 캠페인을 업데이트하여 도달 범위를 확장합니다. |
 | | [!UICONTROL Keyword] | 새 키워드 추가 |

@@ -3,9 +3,12 @@ title: 행 내에서 직접 설정 편집
 description: 행 내의 관리 보기에서 데이터를 편집하는 방법을 알아봅니다.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: dac4989bf58f823fee5ea1adf5f8d71348001a11
+TQID: https://experienceleague.adobe.com/fX7Ndpu3haEWr0lKtUTX-AF8vacZLuFbWtRTh188Tec
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: 178
 ht-degree: 0%
 
 ---

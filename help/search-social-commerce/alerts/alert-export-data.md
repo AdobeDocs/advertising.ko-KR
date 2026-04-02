@@ -3,9 +3,13 @@ title: 사용자 지정 경고에 대한 데이터 내보내기
 description: 트리거된 경고에 대한 데이터를 파일로 내보내는 방법을 알아봅니다.
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/JyEfHoeveq0ZA5buoLKJis4RECKBtHNCiJZ982uXSW0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: 267
 ht-degree: 0%
 
 ---

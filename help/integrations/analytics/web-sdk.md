@@ -3,9 +3,14 @@ title: ' [!DNL Last Event Service] 에서  [!DNL Web SDK]JavaScript 라이브러
 description: ' [!DNL Analytics] [!DNL visitorAPI]구현을 위해  [!DNL Experience Platform] [!DNL Web SDK] 라이브러리에서  [!DNL Analytics for Advertising]  라이브러리로 전환하는 단계에 대해 알아봅니다.'
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/zT1lQV1yotCfJJdzTBGzSspsNEKQEB5ulxYE0qyWa9Q
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: 193
 ht-degree: 0%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 0%
 
 *Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
 
-조직에서 데이터 수집을 위해 레거시 Adobe Analytics `visitorAPI.js` 라이브러리를 사용하는 경우 선택적으로 [을(를) 통해 다양한 Experience Cloud 서비스와 상호 작용할 수 있는  [!DNL Web SDK]Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)`alloy.js` 라이브러리([!DNL Edge Network])를 사용하는 것으로 전환할 수 있습니다.
+조직에서 데이터 수집을 위해 레거시 Adobe Analytics `visitorAPI.js` 라이브러리를 사용하는 경우 선택적으로 [을(를) 통해 다양한 Experience Cloud 서비스와 상호 작용할 수 있는  [!DNL Web SDK]Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)`alloy.js` 라이브러리([!DNL Edge Network])를 사용하는 것으로 전환할 수 있습니다.
 
 [!DNL Analytics for Advertising] [!DNL Last Event Service] JavaScript 라이브러리는 있는 그대로 뷰스루 및 클릭스루 이벤트를 기록하고 보조 ID(`SDID`)를 사용하여 연결된 전환에 결합합니다. 그러나 [!DNL Web SDK] 라이브러리는 [!DNL stitch ID]을(를) 제공하지 않습니다. [!DNL Web SDK]에 대해 [!DNL Analytics for Advertising]을(를) 사용하려면 1) 웹 페이지에서 사용하는 [!DNL Last Event Service] 태그와 2) [!DNL Web SDK] `sendEvent` 명령을 적절하게 수정해야 합니다.
 

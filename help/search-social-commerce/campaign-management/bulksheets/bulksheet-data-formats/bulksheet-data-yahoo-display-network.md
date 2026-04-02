@@ -3,9 +3,12 @@ title: ' [!DNL Yahoo! Display Network] 계정의 일괄 시트 데이터'
 description: ' [!DNL Yahoo! Display Network] 계정에 대해 다운로드한 일괄 시트의 머리글 필드 및 데이터 필드를 참조합니다.'
 exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
-source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
+TQID: https://experienceleague.adobe.com/cqFcEzgFtjpBzPZEUYNnXjZSb-yRDytPCQm4hqX0R9w
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: 522
 ht-degree: 0%
 
 ---

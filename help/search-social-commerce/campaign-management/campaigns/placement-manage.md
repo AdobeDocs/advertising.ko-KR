@@ -3,9 +3,13 @@ title: ' [!DNL Google Ads] 배치 관리'
 description: ' [!DNL Google Ads] 광고 그룹에 대해 추가할 수 있는 배치를 만들고 관리하는 방법을 알아봅니다.'
 exl-id: 80cb6fc6-e778-4b19-9e52-e0b57bde0d73
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/rvRv9LNnt-HX4u3hCsdhqbcl3XdNRvhLCqlVrX-tbm8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: 367
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]개의 계정만*
 
-[동기화된 광고 네트워크 계정](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 내에서 디스플레이 네트워크를 대상으로 하는 [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)에서 광고 그룹에 대한 배치를 만들고 편집할 수 있습니다.
+[동기화된 광고 네트워크 계정](/help/search-social-commerce/introduction/supported-inventory.md) 내에서 디스플레이 네트워크를 대상으로 하는 [지원되는 캠페인 유형](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)에서 광고 그룹에 대한 배치를 만들고 편집할 수 있습니다.
 
 ## [!DNL Google Ads]개 배치 만들기
 
@@ -24,7 +28,7 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
 
-1. &#x200B;
+1. 
    1. 데이터 테이블 위의 도구 모음에서 ![만들기](/help/search-social-commerce/assets/add.png "만들기")를 클릭합니다.
 
 1. 광고 네트워크, 계정, 캠페인 및 광고 그룹을 선택한 다음 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
@@ -61,7 +65,7 @@ ht-degree: 0%
 
 ### [!UICONTROL Placement Details]
 
-광고가 표시될 수 있는 콘텐츠 네트워크의 사이트 **[!UICONTROL Placements]:**&#x200B;개. 올바른 URL(예: www.example.com, example.com 또는 www.example.com/shoes/kids)을 입력하십시오. 여러 문자열을 지정하려면 쉼표로 구분하거나 별도의 줄에 입력합니다. URL에 물음표(`?`)를 포함할 수 없습니다. **참고:** [!UICONTROL Placements] > [!UICONTROL Negatives] 보기, 광고 그룹 및 캠페인 설정에서 [웹 사이트 배치를 제외](placement-negative-create.md)할 수 있습니다.
+광고가 표시될 수 있는 콘텐츠 네트워크의 사이트 **[!UICONTROL Placements]:**&#x200B;개. 올바른 URL(예: www.example.com, example.com 또는 www.example.com/shoes/kids)을 입력하십시오. 여러 문자열을 지정하려면 쉼표로 구분하거나 별도의 줄에 입력합니다. URL에 물음표(`?`)를 포함할 수 없습니다. **참고:** [ > ](placement-negative-create.md) 보기, 광고 그룹 및 캠페인 설정에서 [!UICONTROL Placements]웹 사이트 배치를 제외[!UICONTROL Negatives]할 수 있습니다.
 
 **[!UICONTROL Status]:** 배치 표시 상태: *활성*(입찰 활성화, 기본값), *일시 중지됨*(입찰 비활성화) 또는 *삭제됨*(배치를 삭제, 기존 배치만 해당).
 

@@ -3,9 +3,13 @@ title: '[!UICONTROL AdWords Shopping Performance Report]'
 description: '[!UICONTROL AdWords Shopping Performance Report]에 대해 알아봅니다.'
 exl-id: 891c8940-bf92-455c-a6f3-92e2a0122b4a
 feature: Search Reports, Search Specialty Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/923ThJ4GB0iDIZH22x1WcSxEIX22v7cX0Pf9uC90lLk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: 269
 ht-degree: 0%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 제품에 [!UICONTROL Product Category] 열이 포함되어 있고 제품이 여러 범주에 나타나면 제품이 여러 행에 나타나고 적용 가능한 각 행에서 전환 수가 중복됩니다. 전환 데이터 합계가 정확하지 않으므로 카테고리별로 전환 추세에 대한 일반적인 이해만을 위해 데이터를 정렬합니다.
->* 이 보고서에 대한 데이터는 매일 23:00(오후 11:00)에 이전 날짜의 데이터를 가져옵니다. 예를 들어, 6월 18일 23시에 6월 17일에 대한 데이터를 가져옵니다. 6월 18일에 대한 데이터를 가져오기 전인 6월 19일 09:00에 보고서를 실행하는 경우 보고서에는 6월 17일 23:00까지의 데이터가 포함됩니다.
+>* 이 보고서에 대한 데이터는 매일 23:00(오후 11:00)에 이전 날짜의 데이터를 가져옵니다. 예를 들어, 6월 18일 23:00에서 6월 17일에 대한 데이터를 가져옵니다. 6월 19일 09:00에 보고서를 실행하는 경우(6월 18일 데이터를 가져오기 전) 보고서에는 6월 17일 23:00까지의 데이터가 포함됩니다.
 
 ## 기본 열
 

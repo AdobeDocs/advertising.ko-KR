@@ -3,9 +3,13 @@ title: 웹 사이트 랜딩 페이지 최적화
 description: 웹 사이트 랜딩 페이지를 최적화하는 모범 사례에 대해 알아봅니다.
 exl-id: cd94277c-a340-4161-8630-86a249eb3465
 feature: Search Best Practices
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/W-jWR37BWiSfwdR-CozewBAEbaIOGIRd-S4CLsPATVI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: 724
 ht-degree: 0%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->포트폴리오의 캠페인에 대한 자세한 우수 사례를 보려면 최적화 안내서 > Portfolio 관리 > Portfolio 우수 사례 섹션도 참조하십시오. 이 섹션은 Search, Social 및 Commerce 내에서 사용할 수 있습니다.<!-- verify convention for referencing Optimization Guide here -->
+>포트폴리오의 캠페인에 대한 자세한 우수 사례는 최적화 안내서 > 포트폴리오 관리 > 포트폴리오 우수 사례 섹션을 참조하십시오. 이 섹션은 Search, Social 및 Commerce에서 사용할 수 있습니다.<!-- verify convention for referencing Optimization Guide here -->
 
 ## 효과적인 랜딩 페이지 디자인
 

@@ -3,9 +3,12 @@ title: 피드에서 생성된 데이터 편집
 description: 인벤토리 데이터 피드에서 생성된 데이터를 편집하는 방법을 알아봅니다.
 exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/YAjOramjWXPJmOkLB2dhjG3PLUUAEbDAPRBYLVSl3vo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: 426
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 * 옵션을 &quot;[!UICONTROL Propagate and Preview]&quot;에 사용한 경우 생성된 일괄 시트 파일(&quot;`<feed file name>_<template name>`&quot;)을 [!UICONTROL Bulksheets] 보기에서 다운로드하고 편집한 다음 다시 업로드하여 편집할 수 있습니다. [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] 및 [!UICONTROL Ads] 탭에 데이터가 포함되지 않았습니다.
 
-* 옵션을 &quot;[!UICONTROL Propagate only]&quot;에 사용한 경우 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] 및 [!UICONTROL Ads] 탭에서 캠페인 계층 구조 보기 내에서 [[!UICONTROL New] 상태](propagated-data-status.md)의 구성 요소에 대해 생성된 데이터를 편집할 수 있습니다.
+* 옵션을 &quot;[!UICONTROL Propagate only]&quot;에 사용한 경우 [[!UICONTROL New], ](propagated-data-status.md), [!UICONTROL Campaigns] 및 [!UICONTROL Ad Groups] 탭에서 캠페인 계층 구조 보기 내에서 [!UICONTROL Keywords] 상태[!UICONTROL Ads]의 구성 요소에 대해 생성된 데이터를 편집할 수 있습니다.
 
   캠페인 계층 구조 보기에는 기존 계정 구성 요소가 표시되지 않고 피드 파일에서 생성된 데이터만 표시됩니다. 구성 요소 및 모든 하위 구성 요소에 대한 데이터가 광고 네트워크에 게시되면 더 이상 캠페인 계층에 나열되지 않습니다.
 

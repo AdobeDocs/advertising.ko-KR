@@ -3,16 +3,19 @@ title: 피드에서 생성된 데이터 상태
 description: 인벤토리 데이터 피드에서 생성된 데이터의 상태에 대해 알아봅니다.
 exl-id: 45c93fb2-0ed2-4336-9883-e150c292a7a5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/3QPUheA0wIhk8aVqCcqeTGbgz9FdMUHstnpm5V8AXgE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: 260
 ht-degree: 0%
 
 ---
 
 # 피드에서 생성된 데이터 상태
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
 
 각 구성 요소는 다음 상태 중 하나를 가질 수 있습니다.
 

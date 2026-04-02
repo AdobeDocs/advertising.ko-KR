@@ -1,11 +1,14 @@
 ---
 title: Adobe Advertising 전환 매핑 태그
-description: Adobe Advertising이 랜딩 페이지가 아닌 페이지에서 발생하는 전환 이벤트를 추적할 수 있는 ITP 2.2용 JavaScript 기반 전환 매핑 태그에 대해 알아봅니다.
+description: Adobe Advertising에서 랜딩 페이지가 아닌 페이지에서 발생하는 전환 이벤트를 추적할 수 있는 ITP 2.2용 JavaScript 기반 전환 매핑 태그에 대해 알아봅니다.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
+TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: 637
 ht-degree: 0%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 0%
 
 *Adobe Advertising 전환 추적만 있는 광고주*
 
-Adobe Advertising JavaScript 기반 전환 매핑 태그 를 Adobe Advertising JavaScript v2 또는 v3 전환 추적 태그 와 함께 사용할 경우, Adobe Advertising은 랜딩 페이지가 아닌 페이지에서 발생하는 전환 이벤트를 추적할 수 있습니다. ITP 2.2 솔루션은 광고주가 소유한 iFrame의 로컬 저장소에 사용자의 쿠키를 저장합니다. 그런 다음 로컬 저장소는 클릭 다운스트림에서 전환 페이지까지 쿠키 값을 유지할 수 있습니다.
+Adobe Advertising JavaScript 기반 전환 매핑 태그 를 Adobe Advertising JavaScript v2 또는 v3 전환 추적 태그 와 함께 사용하면 Adobe Advertising에서 랜딩 페이지가 아닌 페이지에서 발생하는 전환 이벤트를 추적할 수 있습니다. ITP 2.2 솔루션은 광고주가 소유한 iFrame의 로컬 저장소에 사용자의 쿠키를 저장합니다. 그런 다음 로컬 저장소는 클릭 다운스트림에서 전환 페이지까지 쿠키 값을 유지할 수 있습니다.
 
 전환 매핑 태그를 사용하여 Adobe Advertising이 Apple Safari 및 Mozilla Firefox 브라우저 내에서 발생하는 모든 전환을 추적할 수 있도록 함으로써 자사 쿠키의 지속성을 제한합니다. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
@@ -81,7 +84,7 @@ Adobe Advertising JavaScript 기반 전환 매핑 태그 를 Adobe Advertising J
 
 조직 ID 또는 검색, 소셜 및 Commerce 사용자 ID의 값을 모를 경우 Adobe 계정 팀에 문의하십시오.
 
-### 예시
+### 예
 
 ```
 <script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="abc12345@AdobeOrg" userid="99999"></script>`

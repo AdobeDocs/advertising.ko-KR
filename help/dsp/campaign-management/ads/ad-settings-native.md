@@ -3,9 +3,14 @@ title: 기본 디스플레이 광고 설정
 description: 기본 디스플레이 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+TQID: https://experienceleague.adobe.com/e8QS9qdzTGrlRMjbgvQDZEhlsh4BdYZ-tJ6b7D-cGfQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: 221
 ht-degree: 0%
 
 ---
@@ -32,7 +37,7 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page]:** 뷰어가 광고를 클릭할 때 들어오는 URL입니다.
 
-**[!UICONTROL Final Landing Page]:** 필요한 [!UICONTROL Landing Page]Advertising DSP 추적 매크로[가 삽입된 &#x200B;](/help/dsp/campaign-management/macros.md) URL입니다(해당하는 경우).
+**[!UICONTROL Final Landing Page]:** 필요한 [!UICONTROL Landing Page]Advertising DSP 추적 매크로[가 삽입된 ](/help/dsp/campaign-management/macros.md) URL입니다(해당하는 경우).
 
 **[!UICONTROL Sponsored By (Advertiser Name)]:** 광고주입니다.
 

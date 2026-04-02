@@ -1,16 +1,19 @@
 ---
-title: ' [!DNL Microsoft Advertising]의  [!DNL Google Ads] 캠페인 복제'
+title: ' [!DNL Google Ads] 의  [!DNL Microsoft Advertising]캠페인 복제'
 description: ' [!DNL Google Ads] 계정의 동기화된 캠페인을 동기화된 [!DNL Microsoft Advertising] 계정으로 직접 내보내는 방법에 대해 알아봅니다.'
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: 942
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising]에서 [!DNL Google Ads] 캠페인 복제
+# [!DNL Google Ads]에서 [!DNL Microsoft Advertising] 캠페인 복제
 
 [!DNL Google Ads] 계정의 동기화된 캠페인을 eCPC(향상된 CPC) 캠페인으로 동기화된 [!DNL Microsoft Advertising] 계정으로 직접 내보낼 수 있습니다. 기존 입찰 및 캠페인 예산의 크기가 조정됩니다. 기존 검색, 소셜 및 Commerce 추적은 가져오지 않습니다.
 
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 * [!DNL Google Ads] 검색 및 표시 캠페인을 [!DNL Microsoft Advertising] 검색 및 표시 캠페인으로 보냅니다.
 
-* Microsoft Audience Network의 [!DNL Microsoft Advertising] 대상 캠페인에 광고 이미지를 포함한 [!DNL Google Display Network] 캠페인.
+* Microsoft Audience Network의 [!DNL Google Display Network] 대상 캠페인에 광고 이미지를 포함한 [!DNL Microsoft Advertising] 캠페인.
 
   쇼핑 피드 기반 표시 캠페인을 복제하려면 먼저 [!DNL Google Merchant Center] 제품 오퍼를 [!DNL Microsoft Merchant Center]에 복제하십시오. 캠페인을 복제할 때 가져오기 옵션에서 [!DNL Microsoft Merchant Center] 스토어를 선택하여 스토어를 피드 기반 대상 캠페인에 연결합니다.
 
@@ -26,7 +29,7 @@ ht-degree: 0%
 
 캠페인을 한 번 업데이트하거나, 매일 또는 매월 업데이트하거나, [!DNL Microsoft Advertising]의 권장 일정에 따라 업데이트할 수 있습니다. 선택적으로 가져오기 작업이 실행될 때마다 또는 오류나 변경 사항이 발생할 때 알림을 구성할 수 있습니다. 캠페인을 [!DNL Microsoft Advertising]&#x200B;(으)로 가져오면 가져오기 작업의 상태를 확인하고 오류 로그를 검토하며 가져오기 작업을 수동으로 실행하고 가져오기 일정을 편집, 일시 중지, 활성화 또는 삭제할 수 있습니다.
 
-일부 캠페인 정보는 복제되지 않으며 [!DNL Microsoft Advertising] 캠페인에 일부 정보를 추가해야 할 수 있습니다. 가져온 데이터에 대한 자세한 내용은 &quot;[가져온 항목 [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851)&quot;에 대한 [!DNL Microsoft Advertising] 도움말을 참조하십시오. 검색, 소셜 및 Commerce 추적을 가져오지 않았으므로 [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [광고 그룹](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) 또는 [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 설정 내에서도 추적을 추가해야 합니다.
+일부 캠페인 정보는 복제되지 않으며 [!DNL Microsoft Advertising] 캠페인에 일부 정보를 추가해야 할 수 있습니다. 가져온 데이터에 대한 자세한 내용은 &quot;[!DNL Microsoft Advertising]가져온 항목[ [!DNL Google Ads]&quot;에 대한 ](https://help.ads.microsoft.com/#apex/ads/en/50851) 도움말을 참조하십시오. 검색, 소셜 및 Commerce 추적을 가져오지 않았으므로 [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [광고 그룹](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) 또는 [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 설정 내에서도 추적을 추가해야 합니다.
 
 ## [!DNL Google Ads]개 캠페인 복제
 

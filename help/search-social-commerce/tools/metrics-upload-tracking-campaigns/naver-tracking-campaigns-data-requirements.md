@@ -3,9 +3,12 @@ title: ' [!DNL Naver] 추적 전용 계정의 트래픽 및 전환 지표에 대
 description: ' [!DNL Naver] 추적 전용 계정에 대한 데이터 업로드 요구 사항을 참조하십시오.'
 exl-id: cc8ee5de-2bf2-48fd-9fa7-28421aed673f
 feature: Search Tools
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/e4n2ab469CRIiEmqq5wd97pXSQZ9Dt-tehqJSp125GU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: 226
 ht-degree: 0%
 
 ---
@@ -28,6 +31,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [추적 전용 계정 구현 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [추적 전용 계정 구현 [!DNL Naver] 2}](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [부록 - [!DNL Naver] 계정](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)에 대한 일괄 시트 데이터 필요)
->* [추적 전용 계정에 대한 트래픽 및 전환 지표 업로드 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
+>* [추적 전용 계정에 대한 트래픽 및 전환 지표 업로드 [!DNL Naver] 2}](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)

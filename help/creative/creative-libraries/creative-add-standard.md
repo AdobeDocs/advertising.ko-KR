@@ -3,9 +3,13 @@ title: 크리에이티브 라이브러리에 표준 크리에이티브 추가
 description: 크리에이티브 라이브러리에 표준(비동적) 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/mgUcE-E6LAIFFU8S5WrUceCQ6ZMSGF9tFkqEfnuKKSQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: 1069
 ht-degree: 0%
 
 ---
@@ -118,7 +122,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->[&#x200B; 내에서 직접 편집할 수 있는 표준 HTML 태그로 모든 특성을 가진 HTML5 크리에이티브인 &#x200B;](#flexible-creative-add)유연한 HTML5 크리에이티브를 추가[!DNL Creative]할 수도 있습니다.
+>[ 내에서 직접 편집할 수 있는 표준 HTML 태그로 모든 특성을 가진 HTML5 크리에이티브인 ](#flexible-creative-add)유연한 HTML5 크리에이티브를 추가[!DNL Creative]할 수도 있습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 

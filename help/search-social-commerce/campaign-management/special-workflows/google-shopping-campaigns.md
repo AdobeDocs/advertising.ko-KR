@@ -3,9 +3,13 @@ title: ' [!DNL Google Ads] 쇼핑 캠페인 구현'
 description: ' [!DNL Google Ads] 쇼핑 캠페인을 설정하는 워크플로에 대해 알아봅니다.'
 exl-id: d80370d9-534d-4854-b7d3-1384a84320ad
 feature: Search Campaign Management
-source-git-commit: 283fced2b3faa64b6383b6ab2a41696cba0da06f
+TQID: https://experienceleague.adobe.com/9xk2sCRBNJdRI1az99RyUkAlL-8P9s3OD70Htmnt4r8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: 452
 ht-degree: 0%
 
 ---
@@ -14,13 +18,13 @@ ht-degree: 0%
 
 쇼핑 캠페인의 광고는 키워드 대신 기존 [!DNL Google Merchant Center] 제품 피드의 제품에 대한 데이터를 사용하여 광고를 표시할 방법과 위치를 결정합니다.
 
-[!DNL Google Ads] 캠페인은 [!UICONTROL Campaign Type] &quot;[!UICONTROL Shopping Network]&quot;을(를) 사용하여 [!DNL Google Shopping Network]을(를) 타깃팅할 수 있습니다. [!DNL Google Shopping] 캠페인에 대한 설정에 우선 순위([!UICONTROL High], [!UICONTROL Medium] 또는 [!UICONTROL Low])가 포함되어 있습니다. 캠페인 수준 설정을 사용하여 선택적으로 쇼핑 광고에 로컬 인벤토리 정보를 표시할 수 있습니다.
+[!DNL Google Ads] 캠페인은 [!DNL Google Shopping Network] &quot;[!UICONTROL Campaign Type]&quot;을(를) 사용하여 [!UICONTROL Shopping Network]을(를) 타깃팅할 수 있습니다. [!DNL Google Shopping] 캠페인에 대한 설정에 우선 순위([!UICONTROL High], [!UICONTROL Medium] 또는 [!UICONTROL Low])가 포함되어 있습니다. 캠페인 수준 설정을 사용하여 선택적으로 쇼핑 광고에 로컬 인벤토리 정보를 표시할 수 있습니다.
 
 광고 그룹 수준에서 다중 수준 *[제품 그룹](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)*&#x200B;을 설정하여 쇼핑 광고와 함께 표시되는 제품을 제어할 수 있습니다. 제품 그룹은 모든 제품 속성(카테고리, 제품 유형, 브랜드, 조건, 제품 ID 및 사용자 정의 레이블)을 기반으로 하며, 입찰에서 포함하거나 제외할 최대 7개의 제품 그룹 수준을 만들 수 있습니다. 일치하는 모든 제품에 대해 동일한 입찰을 사용하여 제품 그룹의 최하위 수준에서 입찰을 설정할 수 있습니다. 동일한 제품이 두 개 이상의 캠페인에 포함된 경우 [!DNL Google Ads]은(는) 캠페인 수준 우선 순위를 먼저 사용하여 광고 경매에 적합한 캠페인(및 관련 입찰)을 결정합니다. 모든 캠페인이 동일한 우선 순위를 갖는 경우 입찰이 가장 높은 캠페인이 적격입니다.
 
 ## [!DNL Google Ads] 쇼핑 캠페인을 설정하는 단계
 
-[!DNL Google Shopping]에 대해 [인벤토리 피드 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md), [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하거나 개별적으로 쇼핑 캠페인을 설정할 수 있습니다. 다음 지침에는 개별 엔티티 만들기에 대한 링크가 포함되어 있습니다.
+[에 대해 ](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)인벤토리 피드 템플릿[!DNL Google Shopping], [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하거나 개별적으로 쇼핑 캠페인을 설정할 수 있습니다. 다음 지침에는 개별 엔티티 만들기에 대한 링크가 포함되어 있습니다.
 
 1. [!DNL Google Merchant Center] 계정을 설정하고 제품 데이터로 채웁니다.
 
@@ -55,5 +59,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md) 및 [인벤토리 피드 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)을 사용하여 [!DNL Google Shopping] 캠페인 및 제품 그룹을 관리하는 데 필요한 필드를 참조하세요.
+>* [!DNL Google Shopping]일괄 시트[ 및 ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)인벤토리 피드 템플릿[을 사용하여 ](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md) 캠페인 및 제품 그룹을 관리하는 데 필요한 필드를 참조하세요.
 >* [!DNL Google Shopping] 캠페인에 대한 자세한 내용은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/2454022)를 참조하세요.

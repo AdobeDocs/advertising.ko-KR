@@ -3,18 +3,22 @@ title: 거래 ID 피드를 사용한 전환 추적
 description: 전환 추적 데이터에 거래 ID 피드를 사용하는 방법에 대해 알아봅니다.
 exl-id: 3341ac20-d435-4387-99da-7b874e53c2e7
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/wGlR5tUF7ajbnQLUnW0c-U84BskLzr63Wet-e-x823M
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 293
 ht-degree: 0%
 
 ---
 
 # 거래 ID 피드를 사용한 전환 추적
 
-광고주가 온라인 및 오프라인 트랜잭션을 모두 보유한 경우, Adobe Advertising은 Adobe Advertising 전환 추적 픽셀을 통해 온라인 트랜잭션을 추적할 수 있으며, 광고주는 트랜잭션 ID를 사용하여 오프라인 트랜잭션을 추적하고 피드를 통해 게재할 수 있습니다.
+광고주가 온라인 및 오프라인 트랜잭션을 모두 보유한 경우, Adobe Advertising은 Adobe Advertising 전환 추적 픽셀을 통해 온라인 트랜잭션을 추적할 수 있으며, 광고주는 트랜잭션 ID를 사용하여 오프라인 트랜잭션을 추적하고 피드를 통해 이를 전달할 수 있습니다.
 
-* 온라인 트랜잭션의 경우 Adobe Advertising은 광고 클릭과 웹 사이트의 결과 트랜잭션을 추적합니다.
+* 온라인 트랜잭션의 경우 Adobe Advertising은 광고 클릭 수와 웹 사이트의 결과 트랜잭션을 추적합니다.
 
 * 광고주는 오프라인 전환을 추적하고 트랜잭션 수준 피드 파일을 Adobe Advertising에 보내야 합니다.
 
@@ -30,7 +34,7 @@ ht-degree: 0%
 
 1. 광고주가 [필요한 변환 데이터](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)가 포함된 파일을 지정된 서버 위치에 업로드합니다.
 
-1. 기술 서비스는 업로드된 파일의 변환 데이터를 구문 분석한 다음 데이터를 Adobe Advertising으로 업로드합니다. 그런 다음 Adobe Advertising은 개별 키워드, 광고 및 배치에 대해 데이터를 추적하고 각각에 대한 매출 예측을 만듭니다.
+1. 기술 서비스는 업로드된 파일의 변환 데이터를 구문 분석한 다음 데이터를 Adobe Advertising에 업로드합니다. 그런 다음 Adobe Advertising은 개별 키워드, 광고 및 배치에 대해 데이터를 추적하고 각각에 대한 매출 예측을 만듭니다.
 
 1. 기술 서비스는 피드 데이터에 대해 처리된 데이터의 유효성을 검사하고 [고립 트랜잭션](/help/search-social-commerce/glossary.md#o-p)을(를) 확인합니다.
 

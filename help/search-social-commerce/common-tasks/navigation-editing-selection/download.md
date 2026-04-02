@@ -3,9 +3,12 @@ title: 캠페인 관리 보기에서 데이터 다운로드
 description: 대부분의 캠페인 관리 보기에서 데이터를 다운로드하는 방법을 알아봅니다.
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+TQID: https://experienceleague.adobe.com/Wg-OZ-59-SkdA96KQgLWuY8seK10bK0tnt94TdKXzeQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: 433
 ht-degree: 0%
 
 ---

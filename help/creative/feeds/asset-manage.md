@@ -3,9 +3,12 @@ title: 에셋 파일 관리
 description: 광고주를 위한 에셋 파일을 업로드하고 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
+TQID: https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: 596
 ht-degree: 0%
 
 ---
@@ -46,7 +49,7 @@ ht-degree: 0%
 
      광고주별 필드 이름은 [동적 광고 피드 파일에 사용 가능한 필드](/help/creative/appendix-available-feed-fields.md)에 매핑해야 합니다.
 
-     다이내믹 비디오가 있는 모든 계정의 경우 가장 좋은 방법은 자산 파일의 각 필드를 Advertising Creative 백엔드의 필드에 매핑하는 [유니버설 피드 템플릿 &#x200B;](catalog-manage.md)의 복사본과 함께 자산 파일을 사용하여 [카탈로그를 만들기[!UICONTROL Adobe Creative Template]](feed-template-manage.md)하는 것입니다.
+     다이내믹 비디오가 있는 모든 계정의 경우 가장 좋은 방법은 자산 파일의 각 필드를 Advertising Creative 백엔드의 필드에 매핑하는 [유니버설 피드 템플릿 ](catalog-manage.md)의 복사본과 함께 자산 파일을 사용하여 [카탈로그를 만들기[!UICONTROL Adobe Creative Template]](feed-template-manage.md)하는 것입니다.
 
    * MP4, MOV 또는 WEBM 형식의 연결된 비디오 자산입니다. 지원되는 광고 템플릿에는 시작 카드, 끝 카드, 상단 오버레이, 하단 오버레이 또는 L자형 등이 있습니다. 각 비디오의 재생 시간은 1~90초 사이여야 합니다. [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하세요.
 

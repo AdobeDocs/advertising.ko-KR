@@ -3,9 +3,15 @@ title: ' [!DNL Roku] 인벤토리 사용'
 description: 인벤토리 옵션, 승인된 타사 추적 공급업체 및  [!DNL Roku]별 배치에 대한 모범 사례를 포함하여  [!DNL Roku]과(와)의 DSP 파트너십에 대해 알아봅니다.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+TQID: https://experienceleague.adobe.com/6CdN1InBGyd9pkECHBITFv1l8JjVdQ6Ot2MUDIAvDjY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: ac506c20-96f2-48f6-9096-77706e336bdaid: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: fbfa676f-2cdb-49be-b949-f2fab1be6dafid: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 450
 ht-degree: 0%
 
 ---
@@ -74,8 +80,8 @@ DSP 캠페인에서 배치 유형 &quot;[&quot;을(를) 사용하여  [!DNL Roku
 
 가장 빠른 설정의 경우:
 
-* [!DNL The Roku Channel]인벤토리[[!DNL On Demand] 에서 &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)의 기존 상시 거래를 대상으로 하여 [!DNL Roku]개의 소유 및 운영 인벤토리에 빠르게 액세스할 수 있습니다.
-* [!DNL Roku Network]인벤토리[[!DNL On Demand] 에서 &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)에 대해 항상 유지되는 기존 거래를 대상으로 하여 [!DNL Roku] 플랫폼 전반에서 빠르게 확장할 수 있습니다.
+* [!DNL The Roku Channel]인벤토리[[!DNL On Demand] 에서 ](/help/dsp/inventory/on-demand-inventory-subscribe.md)의 기존 상시 거래를 대상으로 하여 [!DNL Roku]개의 소유 및 운영 인벤토리에 빠르게 액세스할 수 있습니다.
+* [!DNL Roku Network]인벤토리[[!DNL On Demand] 에서 ](/help/dsp/inventory/on-demand-inventory-subscribe.md)에 대해 항상 유지되는 기존 거래를 대상으로 하여 [!DNL Roku] 플랫폼 전반에서 빠르게 확장할 수 있습니다.
 
 최대 크기 조절:
 

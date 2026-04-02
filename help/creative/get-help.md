@@ -3,9 +3,14 @@ title: 도움말 보기
 description: 온라인 도움말 및 커뮤니티 리소스를 보는 방법과 기술 지원을 받는 방법을 알아봅니다.
 feature: Creative Introduction
 exl-id: 88059f73-6da3-4deb-b4ef-fa8e8eaec569
-source-git-commit: d2276e7e57c5c4fcc270aeef68a8bf4d013e3eba
+TQID: https://experienceleague.adobe.com/3JnaHzyXhsIcBipdgJtjPWbv3LF2UGuWRJpyy4KORIU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: 169
 ht-degree: 0%
 
 ---
@@ -27,14 +32,14 @@ ht-degree: 0%
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=ko).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## 연락처 [!DNL Adobe]
 
 제품 또는 계정 문제에 대해 다음을 수행합니다.
 
-* (셀프 서비스 계약을 보유한 광고주) [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 티켓을 엽니다.
+* (셀프 서비스 계약을 보유한 광고주) [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)에서 조직에 대한 티켓을 엽니다.
 
   제품에 대해 &quot;[!UICONTROL Advertising - Creative]&quot;을(를) 선택합니다.
 

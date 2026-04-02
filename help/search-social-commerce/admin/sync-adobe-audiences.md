@@ -3,9 +3,14 @@ title: 동기화 [!DNL Adobe] 대상
 description: ' [!DNL Adobe] 대상자에 대한 메타데이터, 계층 데이터 및 고유 대상자 데이터를 동기화하는 방법을 알아봅니다.'
 exl-id: 8b8c3aa0-2aa9-4ad7-a4c0-1b7ba881acd3
 feature: Search Admin
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/PKWhdnMHVAI3aI--1vdCeqnX6b8j34uvHycZLw1Yvjw
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: 185
 ht-degree: 0%
 
 ---
@@ -24,7 +29,7 @@ Search, Social 및 Commerce을 허용하면 광고주나 에이전시의 모든 
 
 * Adobe Experience Cloud [!DNL Audience Library]을(를) 사용하여 만든 세그먼트
 
-자격을 얻으려면 광고주나 에이전시는 [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 구현하고 해당 조직 ID(이전의 [!DNL IMS Org ID])를 제공해야 합니다.
+자격을 얻으려면 광고주나 에이전시는 [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 구현하고 해당 조직 ID(이전의 [!DNL IMS Org ID])를 제공해야 합니다.
 
 초기 동기화는 약 24시간이 소요됩니다. 그 후에는 데이터가 1~2초 지연으로 실시간으로 동기화됩니다.
 
@@ -32,7 +37,7 @@ Search, Social 및 Commerce을 허용하면 광고주나 에이전시의 모든 
 
 1. 광고주의 Adobe Experience Cloud 계정에 대한 고유한 조직 ID를 입력한 다음 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
-   광고주의 조직 ID를 모를 경우 [!UICONTROL Admin] > [!UICONTROL Manage Client]의 광고주 설정의 **[!UICONTROL IMS Org ID]** 필드에서 검색하십시오.
+   광고주의 조직 ID를 모를 경우 **[!UICONTROL IMS Org ID]** > [!UICONTROL Admin]의 광고주 설정의 [!UICONTROL Manage Client] 필드에서 검색하십시오.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,12 @@ title: 캠페인 관리 보기에서 데이터 사용자 정의 기본 정보
 description: Campaign 데이터 보기에서 사용자 지정할 수 있는 데이터 유형에 대해 알아봅니다.
 exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 062c63c314bb6eb262fc57f6acc79bc4f2164258
+TQID: https://experienceleague.adobe.com/PnBql37yqK03DWH2OhLf8hnCBPOwFAVZxD65NNZu0VU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: 411
 ht-degree: 0%
 
 ---
@@ -16,9 +19,9 @@ ht-degree: 0%
 
 대부분의 캠페인 데이터 보기에서 데이터 테이블 내에 표시되는 데이터를 사용자 지정할 수 있습니다. 다음과 같은 방법으로 데이터를 사용자 지정할 수 있습니다.
 
-* 특정 열 순서, 필터, 날짜 범위, 속성 규칙 등을 포함하도록 특정 엔터티 보기(예: [)에 대한 &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md##view-edit)전체 기본 보기의 설정을 편집하고[!UICONTROL Campaigns] 설정을 일시적으로 적용하거나 저장하십시오. [추가 사용자 지정 보기를 만들고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view), [기존 보기를 복제하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#view-clone), [원하는 보기를 적용하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#apply-a-default-or-custom-view)할 수도 있습니다.
+* 특정 열 순서, 필터, 날짜 범위, 속성 규칙 등을 포함하도록 특정 엔터티 보기(예: [)에 대한 ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md##view-edit)전체 기본 보기의 설정을 편집하고[!UICONTROL Campaigns] 설정을 일시적으로 적용하거나 저장하십시오. [추가 사용자 지정 보기를 만들고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view), [기존 보기를 복제하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#view-clone), [원하는 보기를 적용하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#apply-a-default-or-custom-view)할 수도 있습니다.
 
-* 도구 모음 오른쪽의 [&#x200B; 아이콘을 사용하여 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)열과 해당 정렬 순서를 변경[!UICONTROL Columns]하거나 보기의 열 머리글에서 [열만 변경](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)합니다.
+* 도구 모음 오른쪽의 [ 아이콘을 사용하여 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)열과 해당 정렬 순서를 변경[!UICONTROL Columns]하거나 보기의 열 머리글에서 [열만 변경](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)합니다.
 
 * (기존 사용자 인터페이스만 해당) [왼쪽 탐색 패널에서](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md)다음 작업을 수행할 수 있습니다.
 

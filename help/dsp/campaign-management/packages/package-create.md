@@ -3,9 +3,14 @@ title: 패키지 만들기
 description: 패키지를 만드는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: 528c57f2-fa83-44d7-9ce4-509ca7565135
-source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
+TQID: https://experienceleague.adobe.com/DJ9OaNGnPh9fg0-2B5-7atX3aRnlhY6MqgEigtcNmzs
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: 105
 ht-degree: 0%
 
 ---
@@ -32,4 +37,4 @@ ht-degree: 0%
 >* [패키지에 대한 변경 로그 보기](package-change-log.md)
 >* [패키지 일시 중지 또는 활성화](package-pause-activate.md)
 >* [패키지 설정](package-settings.md)
->* [비디오: 패키지를 만드는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=ko)
+>* [비디오: 패키지를 만드는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)

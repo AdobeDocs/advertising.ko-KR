@@ -3,9 +3,12 @@ title: ' [!DNL Naver] 계정의 필수 일괄 시트 데이터'
 description: ' [!DNL Naver] 계정의 일괄 시트에 있는 필수 머리글 필드 및 데이터 필드를 참조합니다.'
 exl-id: 1bfcdbb6-8026-4230-ab6b-b7c79b0d185a
 feature: Search Bulksheets
-source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
+TQID: https://experienceleague.adobe.com/w87Fs-VxlSzJr-eakgPsqVVeHuufeytp3pMQ8n9LCMg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: 998
 ht-degree: 0%
 
 ---
@@ -51,4 +54,4 @@ ht-degree: 0%
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
 >* [에 대한  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)클릭 추적 형식
 >* [일괄 시트 파일 또는 수정된 오류 파일 업로드](../bulksheet-upload.md)
->* [추적 전용 계정 구현 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [추적 전용 계정 구현 [!DNL Naver] 2}](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)

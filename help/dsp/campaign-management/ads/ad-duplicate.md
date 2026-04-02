@@ -3,9 +3,14 @@ title: 광고 복제
 description: 광고를 복제하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+TQID: https://experienceleague.adobe.com/ecJn-5biwPx25Uq4FOIoi2IhAFZr3ZJPCrNU14jjgy4
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: 187
 ht-degree: 0%
 
 ---
@@ -24,7 +29,7 @@ ht-degree: 0%
 
 1. 새 광고 설정을 지정합니다.
 
-   1. (선택 사항) 기본 광고 이름을 변경합니다. 기본적으로 새 광고는 &quot;Copy of \&lt;*original ad name*\>&quot;입니다.
+   1. (선택 사항) 기본 광고 이름을 변경합니다. 기본적으로 새 광고는 &quot;\&lt;*원래 광고 이름*\>의 사본&quot;입니다.
 
    1. (선택 사항) [오디오 광고](ad-settings-audio.md), [연결된 TV](ad-settings-connected-tv.md), [디스플레이 광고](ad-settings-display.md), [모바일 광고](ad-settings-mobile.md), [기본 광고](ad-settings-native.md), [프리롤 광고](ad-settings-pre-roll.md) 또는 [범용 비디오 광고](ad-settings-universal-video.md)에 대한 광고 설정을 변경합니다.
 

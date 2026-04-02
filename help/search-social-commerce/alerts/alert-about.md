@@ -3,9 +3,13 @@ title: 사용자 지정 경고 정보
 description: 경고 템플릿을 만드는 방법 및 경고가 트리거되는 시기를 포함하여 사용자 지정 경고에 대해 알아봅니다.
 exl-id: 11dcc96c-06b8-4d2a-a671-af26297fdc3f
 feature: Search Alerts
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/CLEgDnjBSj3mv0SIrD5w-63svPrNeP15FMX5omSVA1U
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: 274
 ht-degree: 0%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 0%
 
 * 지정된 수신자는 이메일 알림을 받습니다. 경고에 최대 1000개의 레코드가 포함된 경우 전자 메일 알림에 경고를 트리거한 모든 엔터티에 대한 데이터를 포함하여 경고 데이터가 포함된 [CSV](/help/search-social-commerce/glossary.md#c-d) 파일이 포함됩니다.
 
-* 경고가 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]의 [!UICONTROL Triggered Alerts] 보기에 나열됩니다. 다운로드 가능한 보고서는 경고가 트리거된 후 10일 동안 사용할 수 있습니다.
+* 경고가 [!UICONTROL Triggered Alerts] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports]의 [!UICONTROL Custom Alerts] 보기에 나열됩니다. 다운로드 가능한 보고서는 경고가 트리거된 후 10일 동안 사용할 수 있습니다.
 
 * 경고는 해당 엔터티 보기의 [!UICONTROL Notifications] 센터에 나열되며 오른쪽 도구 모음에서 사용할 수 있습니다. 알림은 삭제하거나 읽은 상태로 표시하지 않는 한 [!UICONTROL Notifications] 센터에 남아 있습니다.
 

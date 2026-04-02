@@ -3,9 +3,13 @@ title: 유효한 텍스트 광고 사본 작성
 description: 효과적인 광고 카피 작성을 위한 모범 사례에 대해 알아봅니다.
 exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/GFofyYALATcgqvrjz-2SuI90ct0M-PzOoLtjmvL2Djo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: 582
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->포트폴리오의 캠페인에 대한 자세한 우수 사례를 보려면 최적화 안내서 > Portfolio 관리 > Portfolio 우수 사례 섹션도 참조하십시오. 이 섹션은 Search, Social 및 Commerce 내에서 사용할 수 있습니다.<!-- verify convention for referencing Optimization Guide here -->
+>포트폴리오의 캠페인에 대한 자세한 우수 사례는 최적화 안내서 > 포트폴리오 관리 > 포트폴리오 우수 사례 섹션을 참조하십시오. 이 섹션은 Search, Social 및 Commerce에서 사용할 수 있습니다.<!-- verify convention for referencing Optimization Guide here -->
 
 ## 모든 광고 네트워크에 대한 일반 요구 사항
 
@@ -40,7 +44,7 @@ ht-degree: 0%
 
 * 부적절한 언어는 금지되어 있습니다.
 
-## 효과적인 광고를 위한 Recommendations
+## 효과적인 광고에 대한 권장 사항
 
 * 잠재 고객을 유치하기 위해 강력한 헤드라인을 작성하십시오.
 
@@ -62,7 +66,7 @@ ht-degree: 0%
 
 * 가능하면 헤드라인/제목과 설명/본문의 두 줄 모두에서 키워드를 사용하십시오. [1]
 
-* 클릭스루 비율을 높이려면 항상 &quot;보기&quot;, &quot;체크아웃&quot;, &quot;주문&quot; 또는 &quot;등록&quot;과 같은 작업 호출을 텍스트에 포함합니다. 이미지 광고의 경우 웹 사이트로 연결되는 버튼에 콜 투 액션을 포함하고, 리치 미디어 광고의 경우 초기 프레임에 콜 투 액션을 포함합니다.
+* 항상 &quot;보기&quot;, &quot;체크아웃&quot;, &quot;주문&quot; 또는 &quot;등록&quot;과 같은 텍스트에 call to action을 포함하여 클릭스루 비율을 높입니다. 이미지 광고의 경우 웹 사이트에 연결되는 버튼에 call to action을 포함하고, 리치 미디어 광고의 경우 초기 프레임에 call to action을 포함합니다.
 
 * 광고주가 자신의 브랜드를 어떻게 인식하기를 원하는지에 민감하게 반응하라. 예를 들어 광고주는 &quot;cheap&quot;라는 단어가 광고에 표시되는 것을 원하지 않을 수 있습니다.
 

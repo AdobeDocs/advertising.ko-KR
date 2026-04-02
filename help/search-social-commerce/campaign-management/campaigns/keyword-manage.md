@@ -3,9 +3,12 @@ title: 바인딩 가능한 키워드 관리
 description: 검색 광고 그룹에 사용할 수 있는 키워드를 만들고 관리하는 방법을 알아봅니다.
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/rvAZIAdcUmWSl4GKm4TCvDwkS-jdWFZ1S5vUYYEPRzU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] 및 기존 [!DNL Baidu] 계정만*
 
-[동기화된 광고 네트워크 계정](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 내에서 검색 및 표시/기본 네트워크를 대상으로 하는 [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)에서 검색 광고 그룹에 대한 키워드를 만들고 편집할 수 있습니다.
+[동기화된 광고 네트워크 계정](/help/search-social-commerce/introduction/supported-inventory.md) 내에서 검색 및 표시/기본 네트워크를 대상으로 하는 [지원되는 캠페인 유형](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)에서 검색 광고 그룹에 대한 키워드를 만들고 편집할 수 있습니다.
 
 ## 키워드 만들기
 

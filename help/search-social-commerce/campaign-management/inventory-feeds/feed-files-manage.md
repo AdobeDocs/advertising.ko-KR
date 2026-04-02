@@ -3,9 +3,13 @@ title: 인벤토리 데이터 피드 파일 관리
 description: 피드 데이터 처리 방법을 제어하는 설정을 구성하는 방법에 대해 알아봅니다.
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: 1242
 ht-degree: 0%
 
 ---
@@ -26,7 +30,7 @@ ht-degree: 0%
 
   데이터 파일을 저장하고 자동으로 처리하기 위해 FTP 디렉터리를 설정하려면 Adobe 계정 팀에 문의하십시오.
 
-* **수동 처리:** [!UICONTROL Advanced]&#x200B;(ACM) 보기에서 피드 파일을 수동으로 [업로드](#feed-file-upload)할 수 있습니다. 피드 파일을 하나 이상의 광고 네트워크별 [템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)과 연결한 후 [피드 데이터 설정](feed-settings-manage.md)에 따라 [템플릿을 통해 피드 데이터를 전달](feed-data-propagate.md)하여 캠페인 및 광고 데이터를 생성할 수 있습니다. 선택적으로 캠페인 계층 보기 내에서 생성된 데이터를 미리 보거나, 검토를 위해 일괄 시트 파일을 생성하거나, 광고 네트워크에 즉시 게시하기 위해 일괄 시트 파일을 생성할 수 있습니다. 데이터를 즉시 게시하지 않으면 [미리 보기](propagated-data-view.md)하고 나중에 [게시](propagated-data-post.md)할 수 있습니다. 나중에 기존 템플릿 연결을 끊지 않고 [기존 피드 파일을 새 파일로 바꾸기](#feed-file-replace)할 수 있습니다.
+* **수동 처리:** [(ACM) 보기에서 피드 파일을 수동으로 ](#feed-file-upload)업로드[!UICONTROL Advanced]할 수 있습니다. 피드 파일을 하나 이상의 광고 네트워크별 [템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)과 연결한 후 [피드 데이터 설정](feed-data-propagate.md)에 따라 [템플릿을 통해 피드 데이터를 전달](feed-settings-manage.md)하여 캠페인 및 광고 데이터를 생성할 수 있습니다. 선택적으로 캠페인 계층 보기 내에서 생성된 데이터를 미리 보거나, 검토를 위해 일괄 시트 파일을 생성하거나, 광고 네트워크에 즉시 게시하기 위해 일괄 시트 파일을 생성할 수 있습니다. 데이터를 즉시 게시하지 않으면 [미리 보기](propagated-data-view.md)하고 나중에 [게시](propagated-data-post.md)할 수 있습니다. 나중에 기존 템플릿 연결을 끊지 않고 [기존 피드 파일을 새 파일로 바꾸기](#feed-file-replace)할 수 있습니다.
 
 ## 피드 파일 요구 사항
 

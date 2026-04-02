@@ -3,9 +3,15 @@ title: ' [!DNL Analytics for Advertising] ad 태그에  [!DNL Google Campaign Ma
 description: ' [!DNL Analytics for Advertising] 광고 태그에  [!DNL Google Campaign Manager 360] 매크로를 추가하는 이유와 방법을 알아봅니다.'
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
+TQID: https://experienceleague.adobe.com/9qDSGAIk2uelZpEekvKmQMxIMAQeCT8cy55zub-uFv4
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: 487
 ht-degree: 0%
 
 ---
@@ -42,7 +48,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->&#x200B;>* 랜딩 페이지 URL에 일반적이지 않은 해시 기호(#)가 포함되어 있으면 해시 기호 앞에 `amo` 매개 변수를 배치합니다.
+>>* 랜딩 페이지 URL에 일반적이지 않은 해시 기호(#)가 포함되어 있으면 해시 기호 앞에 `amo` 매개 변수를 배치합니다.
 >* `amo` 매개 변수 뒤에 다른 매개 변수가 포함되지 않은 경우 그 뒤에 매개 변수(예: &amp;a=b)를 추가합니다. 예: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### 광고주 수준 랜딩 페이지 URL 접미사 구성

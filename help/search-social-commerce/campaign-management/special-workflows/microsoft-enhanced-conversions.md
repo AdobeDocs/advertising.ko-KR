@@ -2,9 +2,14 @@
 title: 오프라인 전환을 위해  [!DNL Microsoft Advertising] 향상된 전환 구현
 description: 오프라인 전환을 위해  [!DNL Microsoft Advertising] 향상된 전환을 설정하는 워크플로에 대해 알아봅니다.
 feature: Search Campaign Management, Conversions
-source-git-commit: 8f87e5bdab25aa527e72d7e9c75411267fe63780
+exl-id: 44937db7-9e80-4a5d-85c7-5bd5febc3b96
+TQID: https://experienceleague.adobe.com/GLFczqDqV8HE5hUZt8ORAlQMNy4OqQTtMdaHoYoN10U
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: 252
 ht-degree: 0%
 
 ---
@@ -19,7 +24,7 @@ ht-degree: 0%
 
 * 오프라인 전환을 위해 기존의 향상된 전환을 봅니다.
 
-  검색, 소셜 및 Commerce은 광고주의 시간대에서 매일 05:00에 기존의 향상된 전환을 동기화합니다.
+  검색, 소셜 및 Commerce은 광고주의 시간대의 매일 05:00에 기존의 향상된 전환을 동기화합니다.
 
 * 자사 오프라인 전환 데이터를 업로드하여 기존의 향상된 전환 목표에 매핑합니다.
 
@@ -27,7 +32,7 @@ ht-degree: 0%
 
 이 기능을 사용하려면 다음 단계를 완료하십시오.
 
-1. &quot;[향상된 전환](https://help.ads.microsoft.com/#apex/ads/en/60178)&quot;에 대한 [!DNL Microsoft Advertising] 도움말의 모든 필수 구성 요소를 따르십시오.
+1. &quot;[!DNL Microsoft Advertising]향상된 전환[&quot;에 대한 ](https://help.ads.microsoft.com/#apex/ads/en/60178) 도움말의 모든 필수 구성 요소를 따르십시오.
 
 1. [향상된 전환 목표를  [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/60178) 내에 설정합니다.
 
@@ -37,7 +42,7 @@ ht-degree: 0%
 
      업로드된 모든 데이터는 실시간으로 [!DNL Microsoft Advertising]에 동기화됩니다.
 
-   * [!DNL Microsoft Advertising] 내의 데이터 업로드에 대한 자세한 내용은 &quot;[고급 전환](https://help.ads.microsoft.com/#apex/ads/en/60178)&quot;에 대한 [!DNL Microsoft Advertising] 도움말의 &quot;오프라인 전환에 대한 고급 전환 설정&quot; 섹션을 참조하십시오.
+   * [!DNL Microsoft Advertising] 내의 데이터 업로드에 대한 자세한 내용은 &quot;[!DNL Microsoft Advertising]고급 전환[&quot;에 대한 ](https://help.ads.microsoft.com/#apex/ads/en/60178) 도움말의 &quot;오프라인 전환에 대한 고급 전환 설정&quot; 섹션을 참조하십시오.
 
 >[!MORELIKETHIS]
 >

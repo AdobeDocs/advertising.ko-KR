@@ -3,9 +3,13 @@ title: 암호 변경
 description: 계정 암호를 변경하는 방법에 대해 알아봅니다.
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: d6405e1f594e26fb6e6790ad567676ffdaa900b4
+TQID: https://experienceleague.adobe.com/7RxD656uNrwadmhA1C43fYY2Lp4L54g-z7tlne97bJ0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: 136
 ht-degree: 0%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 기능은 기존 검색, 소셜 및 Commerce 로그인 자격 증명에만 적용할 수 있습니다. 이제 대부분의 사용자가 인증에 [!DNL Adobe] ID를 대신 사용합니다. [!DNL Adobe] ID의 암호를 변경하려면 &quot;[Adobe 암호 재설정 또는 변경](https://helpx.adobe.com/kr/manage-account/using/change-or-reset-password.html)&quot;을 참조하십시오.
+>이 기능은 기존 검색, 소셜 및 Commerce 로그인 자격 증명에만 적용할 수 있습니다. 이제 대부분의 사용자가 인증에 [!DNL Adobe] ID를 대신 사용합니다. [!DNL Adobe] ID의 암호를 변경하려면 &quot;[Adobe 암호 재설정 또는 변경](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)&quot;을 참조하십시오.
 
 암호를 변경하면 현재 세션에서 로그아웃됩니다. 작업을 계속하려면 새 암호로 로그인해야 합니다.
 

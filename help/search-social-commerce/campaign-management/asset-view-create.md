@@ -3,18 +3,21 @@ title: '[!UICONTROL Asset Library]에서 광고 자산 보기 및 만들기'
 description: ' [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정 수준 자산 라이브러리에 대한 재사용 가능한 이미지, 비디오 및 텍스트 자산을 보고 만드는 방법을 알아봅니다.'
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: 342
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Asset Library]에서 광고 자산 보기 및 만들기
 
-[!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에 대해서만 *함*
+*및 [!DNL Google Ads] 계정에 대해서만 [!DNL Microsoft Advertising]함*
 
-[!UICONTROL Campaigns] > [!UICONTROL Asset Library]에서 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정 수준 자산 라이브러리에서 재사용 가능한 모든 이미지, 비디오 및 텍스트 자산([!DNL Google Ads]에만 해당)을 볼 수 있습니다. 광고 네트워크 계정에 대한 새 자산을 만들고 이를 광고 네트워크에 업로드할 수도 있습니다.
+[!UICONTROL Campaigns] > [!UICONTROL Asset Library]에서 [!DNL Google Ads] 및 [!DNL Google Ads] 계정 수준 자산 라이브러리에서 재사용 가능한 모든 이미지, 비디오 및 텍스트 자산([!DNL Microsoft Advertising]에만 해당)을 볼 수 있습니다. 광고 네트워크 계정에 대한 새 자산을 만들고 이를 광고 네트워크에 업로드할 수도 있습니다.
 
 성과 최대 캠페인에 모든 자산을 사용할 수 있습니다.
 

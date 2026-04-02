@@ -3,18 +3,23 @@ title: Adobe Advertising 검색, 소셜 및 Commerce 정보
 description: 검색, 소셜 및 Commerce에 대해 알아봅니다.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+TQID: https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebef6e6f-6552-40b6-b842-0c5256698a4e
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: 762
 ht-degree: 0%
 
 ---
 
 # Adobe Advertising 검색, 소셜 및 Commerce 정보
 
-[!DNL Adobe]은(는) 고객 경험 솔루션의 시장 및 기술 리더입니다. Adobe Advertising은 모든 화면에서 모든 형식으로 브랜드 및 성과 캠페인 관리를 위한 크로스 채널 광고 캠페인 게재를 간소화합니다. Adobe Advertising은 검색, 쇼핑, 소셜, 대상 네트워크 및 성과 최대 채널을 위한 Advertising 검색, 소셜 및 Commerce, 디스플레이 채널을 위한 Advertising DSP(Demand Side Platform), 디스플레이 광고를 위한 최종 사용자 경험을 만드는 Advertising Creative의 세 가지 하위 솔루션으로 구성됩니다.
+[!DNL Adobe]은(는) 고객 경험 솔루션의 시장 및 기술 리더입니다. Adobe Advertising은 모든 화면에서 모든 형식으로 브랜드 및 성과 캠페인 관리를 위한 크로스 채널 광고 캠페인 게재를 간소화합니다. Adobe Advertising은 검색, 쇼핑, 소셜, 대상 네트워크 및 성과 최대 채널에 대한 Advertising 검색, 소셜 및 Commerce, 디스플레이 채널에 대한 Advertising DSP(Demand Side Platform) 및 디스플레이 광고에 대한 최종 사용자 경험을 만드는 Advertising Creative의 세 가지 하위 솔루션으로 구성됩니다.
 
-Adobe Advertising의 일환으로 Advertising 검색, 소셜 및 Commerce은 동급 최고의 포트폴리오 기반 광고 관리와 지능형 캠페인 예측 및 데이터 최적화 광고를 위한 타깃팅된 광고 전달을 결합합니다.
+Adobe Advertising의 일부인 Advertising 검색, 소셜 및 Commerce은 동급 최고의 포트폴리오 기반 광고 관리와 지능형 캠페인 예측 및 데이터 최적화 광고를 위한 타깃팅된 광고 전달을 결합합니다.
 
 ## 광고 최적화를 위한 AI 기반 기술
 
@@ -24,7 +29,7 @@ Search, Social 및 Commerce은 광고주의 비즈니스 목표, 지표, 예산 
 
 역할에 따라 예측 모델링을 사용하여 최적 지출 시점을 식별하는 포트폴리오 성과 시뮬레이션과 세부 예측 정확도 보고서를 볼 수 있습니다. 모든 사용자는 지출 권장 사항 도구를 사용하여 포트폴리오 전반에 걸쳐 최적의 예산 분배를 식별할 수 있습니다.
 
-자세한 내용은 Search, Social 및 Commerce에서 사용할 수 있는 최적화 안내서의 Portfolio 장을 참조하십시오.
+자세한 내용은 Search, Social 및 Commerce에서 사용할 수 있는 최적화 안내서의 포트폴리오 장을 참조하십시오.
 
 ## 광고 관리 인터페이스
 
@@ -50,11 +55,11 @@ Search, Social 및 Commerce은 광고 네트워크 전반에 걸쳐 포괄적인
 
 Adobe Analytics 및 Adobe Audience Manager과의 기본 통합을 통해 광고 타깃팅, [!DNL Google Ads] 대상 만들기, 최적화 및 보고/분석을 위해 데이터와 대상 세그먼트를 연결할 수 있습니다.
 
-이러한 제품과 다른 Adobe 제품과의 통합에 대한 자세한 내용은 &quot;[Adobe Experience Cloud 솔루션 및 서비스와 통합](/help/search-social-commerce/introduction/integrations.md)&quot;을 참조하십시오.
+이러한 Adobe 제품과 다른 Adobe Experience Cloud 제품과의 통합에 대한 자세한 내용은 &quot;[솔루션 및 서비스와 통합](/help/search-social-commerce/introduction/integrations.md)&quot;을 참조하십시오.
 
 ## 전환 추적
 
-Adobe Advertising은 선택적으로 웹 사이트에 연결되는 광고의 온라인 전환을 추적할 수 있는 독점적인 픽셀 기반 전환 추적 서비스를 제공합니다. 픽셀 추적 서비스를 사용하면 Adobe Advertising이 광고의 클릭수와 웹 사이트의 결과 트랜잭션/전환을 추적하여 클릭수와 노출수의 각 시퀀스를 전환에 정확하게 매핑합니다. 추적된 전환을 입찰 및 예산 최적화에 사용할 수 있습니다.
+Adobe Advertising은 선택적으로 웹 사이트에 연결되는 광고의 온라인 전환을 추적할 수 있는 독점적인 픽셀 기반 전환 추적 서비스를 제공합니다. 픽셀 추적 서비스를 사용하면 Adobe Advertising에서 광고 클릭수와 웹 사이트의 결과 트랜잭션/전환을 추적하여 클릭수와 노출수의 각 시퀀스를 전환에 정확하게 매핑합니다. 추적된 전환을 입찰 및 예산 최적화에 사용할 수 있습니다.
 
 이 서비스를 사용하면 전환을 초래하는 이벤트에 대한 다양한 데이터 속성 규칙(예: 마지막 관련 이벤트에 대한 속성 전환 또는 마지막 이벤트에 대한 가중치 추가)을 최적화할 수 있습니다. 또한 전환율, 클릭 도움말에 대한 가시성, 요일 및 일일 트렌드 분석을 개선하는 데 사용할 수 있는 고급 보고서에 대한 액세스를 제공합니다.
 

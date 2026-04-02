@@ -3,9 +3,12 @@ title: 업로드된 일괄 시트 및 오류 파일 삭제
 description: 일괄 시트 파일 및 오류 파일을 삭제하는 방법에 대해 알아봅니다.
 exl-id: a4cdceb4-6013-46b6-95bc-5536e45e34d2
 feature: Search Bulksheets
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/Io-E8MwRgTvZ9PmNPlMgQHDojH4qwQjfBERNQ22H8Xc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: 130
 ht-degree: 0%
 
 ---

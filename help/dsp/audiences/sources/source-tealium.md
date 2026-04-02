@@ -3,9 +3,15 @@ title: 사용자 ID를  [!DNL Tealium] 에서 범용 ID로 변환
 description: DSP에서  [!DNL Tealium] 자사 세그먼트를 수집할 수 있도록 하는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+TQID: https://experienceleague.adobe.com/X8mcqFiON6JMoB5KdS5Z0GVLYp-htw2ddCtmuZFflqo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: 1092
 ht-degree: 0%
 
 ---
@@ -124,7 +130,7 @@ ht-degree: 0%
 
                * Cookies 특성의 경우 사용자 지정 메시지의 이름을 `cookies`로 지정합니다.
 
-            1. 사용자 지정 필드를 만드는 옵션의 [!DNL Source Key] 필드에 이전 절차의 [!UICONTROL External Segment Key]세그먼트 매핑 데이터[에 포함된 &#x200B;](#map-data)을(를) 입력하십시오.
+            1. 사용자 지정 필드를 만드는 옵션의 [!DNL Source Key] 필드에 이전 절차의 [!UICONTROL External Segment Key]세그먼트 매핑 데이터[에 포함된 ](#map-data)을(를) 입력하십시오.
 
                DSP은 이 키를 사용하여 세그먼트를 채웁니다.
 

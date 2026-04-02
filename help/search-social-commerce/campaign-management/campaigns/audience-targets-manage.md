@@ -3,9 +3,12 @@ title: 캠페인 및 광고 그룹에 대한 대상자 타겟 관리
 description: ' [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인 및 광고 그룹에 대한 대상 타겟을 구성하고 관리하는 방법을 알아봅니다.'
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: 771
 ht-degree: 0%
 
 ---

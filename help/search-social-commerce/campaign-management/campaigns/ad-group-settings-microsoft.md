@@ -3,9 +3,13 @@ title: '[!DNL Microsoft Advertising] 광고 그룹 설정'
 description: ' [!DNL Microsoft Advertising] 광고 그룹에 대한 설정을 참조합니다.'
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/f-mac9RGzF4qVr7P65-9AuhWKf22tdND5XSJ1YvLWyc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: 651
 ht-degree: 0%
 
 ---
@@ -130,7 +134,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]:**(디스플레이/기본 네트워크의 캠페인만 해당, 선택 사항) 광고를 표시하지 않으려는 디스플레이 네트워크의 사이트. 올바른 URL(예: www.example.com)을 입력하십시오. 여러 문자열을 지정하려면 쉼표로 구분하거나 별도의 줄에 입력합니다.
 
-가용성에 대한 자세한 내용은 &quot;[특정 웹 사이트에 광고가 표시되지 않도록 하기](https://help.ads.microsoft.com/#apex/bae/en/14061/0)&quot;에 대한 [!DNL Microsoft Advertising] 도움말을 참조하십시오.
+가용성에 대한 자세한 내용은 &quot;[!DNL Microsoft Advertising]특정 웹 사이트에 광고가 표시되지 않도록 하기[&quot;에 대한 ](https://help.ads.microsoft.com/#apex/bae/en/14061/0) 도움말을 참조하십시오.
 
 >[!MORELIKETHIS]
 >

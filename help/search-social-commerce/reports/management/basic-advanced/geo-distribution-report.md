@@ -3,9 +3,13 @@ title: '[!UICONTROL Geo Distribution Report]'
 description: '[!UICONTROL Geo Distribution Report]에 대해 알아봅니다.'
 exl-id: f9c08b81-1ebb-43bf-b1f3-1b373bde9d3e
 feature: Search Reports, Search Advanced Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/UxPiz7CHb8Y2z-EUk1xzKV7zOOKiL82hCUUFMLcaqiM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: 319
 ht-degree: 0%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 데이터는 검색 및 디스플레이 캠페인에만 사용할 수 있습니다.
->* 지리적 위치를 결정하는 데 사용되는 다양한 공급업체 및 방법론으로 인해 이 보고서의 합계는 [!DNL Google Ads Geo Report] ([!DNL Google Ads]에서 컴파일)에 있는 동일한 캠페인의 합계와 다를 수 있습니다.
+>* 지리적 위치를 결정하는 데 사용되는 다양한 공급업체 및 방법론으로 인해 이 보고서의 합계는 [!DNL Google Ads Geo Report]&#x200B;([!DNL Google Ads]에서 컴파일)에 있는 동일한 캠페인의 합계와 다를 수 있습니다.
 
 >[!TIP]
 >

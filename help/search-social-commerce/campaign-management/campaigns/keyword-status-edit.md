@@ -3,9 +3,12 @@ title: 키워드 및 부정적 키워드의 상태 변경
 description: 키워드 및 부정적 키워드의 상태를 변경하는 방법에 대해 알아봅니다.
 exl-id: 46b000af-14a0-4f00-8f3c-c3ef2c93fd19
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/2MBvYvI1Zf-5KrnhtPegv9gZDwkIFkLcZMzRCWPw-Es
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: 179
 ht-degree: 0%
 
 ---
@@ -16,7 +19,7 @@ ht-degree: 0%
 
 활성 또는 일시 중지된 검색 키워드나 부정적 키워드를 삭제할 수도 있습니다. 삭제된 키워드/부정적 키워드는 광고 네트워크에서 삭제됩니다. 아직 볼 수는 있지만 변경할 수는 없습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| 을 클릭합니다 [!UICONTROL Negatives]\]**.
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 키워드 또는 부정적 키워드를 포함하도록 목록을 필터링합니다.
 

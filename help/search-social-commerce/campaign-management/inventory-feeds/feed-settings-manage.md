@@ -3,9 +3,12 @@ title: 피드 데이터 설정 구성
 description: 피드 데이터 처리 방법을 제어하는 설정을 구성하는 방법에 대해 알아봅니다.
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: 1155
 ht-degree: 0%
 
 ---
@@ -95,8 +98,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* FTP 파일의 경우 피드 서비스는 2시간마다(PST 시간대의 짝수 시간) FTP 디렉터리에서 업데이트를 확인합니다. 이 옵션은 마지막 확인 이후 업로드된 모든 파일을 처리합니다.
->* 판매자 센터 계정의 경우 검색, 소셜 및 Commerce이 광고주 시간대의 약 06:00에 매일 계정과 동기화됩니다. 이 옵션은 마지막 동기화 이후 업데이트된 모든 데이터를 처리합니다.
->* 전파된 데이터는 광고 네트워크나 [!UICONTROL Bulksheets] 보기에 게시될 때까지 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] 및 [!UICONTROL Ads] 탭에서 사용할 수 있습니다.
+>* 판매자 센터 계정의 경우 검색, 소셜 및 Commerce이 광고주의 시간대에서 매일 약 06:00에 계정과 동기화됩니다. 이 옵션은 마지막 동기화 이후 업데이트된 모든 데이터를 처리합니다.
+>* 전파된 데이터는 광고 네트워크나 [!UICONTROL Campaigns] 보기에 게시될 때까지 [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] 및 [!UICONTROL Bulksheets] 탭에서 사용할 수 있습니다.
 
 **[!UICONTROL Post to the SE]:**(FTP 또는 판매자 센터 계정을 통해 데이터 파일을 업로드하는 광고주) 새 데이터가 해당 템플릿을 통해 전파된 후 관련 광고 네트워크에 대한 올바른 형식으로 일괄 시트 파일을 자동으로 만듭니다. 하위 구성 요소에 오류가 없는 한 이 옵션은 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] 및 [!UICONTROL Ads] 탭에서도 데이터를 제거합니다.
 
@@ -104,7 +107,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Immediately]*(기본값): 데이터가 템플릿을 통해 전파된 후 대량 시트 파일을 관련 광고 네트워크에 게시합니다. 일괄 시트 파일은 30일 동안 [!UICONTROL Bulksheets] 보기에서 사용할 수 있습니다.
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**&#x200B; 일괄 시트 파일을 관련 광고 네트워크에 게시하지 않지만 나중에 게시할 수 있는 [!UICONTROL Bulksheets] 보기에 나열합니다. 일괄 시트 파일은 30일 동안 [!UICONTROL Bulksheets] 보기에서 사용할 수 있습니다. 일괄 시트 파일이 10MB보다 크지만 2GB보다 작은 경우 파일이 ZIP 형식이므로 게시하기 위해 파일의 압축을 풀 필요가 없습니다. &#x200B;** 팁:** 이전에 랜딩 페이지의 유효성을 검사하지 않았다면 이 옵션을 사용하여 데이터를 광고 네트워크에 게시하기 전에 [!UICONTROL Bulksheets] 보기에서 유효성을 검사할 수 있습니다.
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]:** 일괄 시트 파일을 관련 광고 네트워크에 게시하지 않지만 나중에 게시할 수 있는 [!UICONTROL Bulksheets] 보기에 나열합니다. 일괄 시트 파일은 30일 동안 [!UICONTROL Bulksheets] 보기에서 사용할 수 있습니다. 일괄 시트 파일이 10MB보다 크지만 2GB보다 작은 경우 파일이 ZIP 형식이므로 게시하기 위해 파일의 압축을 풀 필요가 없습니다. **팁:** 이전에 랜딩 페이지의 유효성을 검사하지 않았다면 이 옵션을 사용하여 데이터를 광고 네트워크에 게시하기 전에 [!UICONTROL Bulksheets] 보기에서 유효성을 검사할 수 있습니다.
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]:**&#x200B;은(는) 지정된 단어 수가 넘는 키워드 구문을 광고 네트워크에 게시하지 못하도록 합니다. 이 옵션을 선택하면 최대 단어 수를 초과하는 키워드 구문이 전파되어 [!UICONTROL Keywords] 탭에 나열되지만 데이터를 게시하려고 하면 게시되지 않습니다.
 

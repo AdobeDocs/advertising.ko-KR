@@ -3,9 +3,13 @@ title: ' [!DNL Microsoft Advertising]에 대한 클릭 추적 형식'
 description: ' [!DNL Microsoft Advertising] 계정의 클릭 추적 형식에 대해 알아봅니다.'
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+TQID: https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: 579
 ht-degree: 0%
 
 ---
@@ -107,4 +111,4 @@ Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 �
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](formats-click-tracking-about.md)
->* [AMO ID 형식](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID 형식](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

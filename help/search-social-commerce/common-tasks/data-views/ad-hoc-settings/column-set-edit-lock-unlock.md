@@ -3,9 +3,12 @@ title: 열 구성 잠금 및 잠금 해제
 description: 캠페인 보기에서 열 구성을 잠그고 잠금 해제하는 방법을 알아봅니다.
 exl-id: a4a3c9b1-2577-4789-9501-0664d7b84ff3
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
+TQID: https://experienceleague.adobe.com/ftvlLkcjczT3N-p-IqOfqGsrKVJLk6Y68oqDOW-rUCk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: 130
 ht-degree: 0%
 
 ---

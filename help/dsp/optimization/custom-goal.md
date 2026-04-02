@@ -3,9 +3,15 @@ title: 사용자 정의 목표
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 패키지에서 성공 이벤트를 정의하는 사용자 정의 목표에 대해 알아봅니다.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/xSM4vyVErtNbVqF3eMDeHpgEWaMK6hBwQpvijHEs0dc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: 1189
 ht-degree: 0%
 
 ---
@@ -24,7 +30,7 @@ ht-degree: 0%
 
 예를 들어 세 개의 전환 지표가 캠페인 중 하나의 특정 패키지와 관련이 있다고 가정해 보겠습니다. &quot;PDF 다운로드&quot;(20 USD), &quot;이메일 등록&quot;(30 USD) 및 &quot;주문 확인&quot;(40 USD)입니다. 고객 조치의 일회성 통화 가치에 따라 가중치를 부여하려면 지표의 상대 가중치는 1, 1.5 및 2가 됩니다.
 
-[사용자 지정 목표를 만들기](#custom-goal-create)하면 [을(를) 사용하여 보고 및 알고리즘 최적화를 위해 &#x200B;](/help/dsp/campaign-management/packages/package-settings.md)패키지에 할당[!DNL Adobe AI]할 수 있습니다.
+[사용자 지정 목표를 만들기](#custom-goal-create)하면 [을(를) 사용하여 보고 및 알고리즘 최적화를 위해 ](/help/dsp/campaign-management/packages/package-settings.md)패키지에 할당[!DNL Adobe AI]할 수 있습니다.
 
 가중치 권장 사항은 목표의 DSP 기반 지표에 대해 자동으로 생성되며, 한 번의 클릭으로 모든 가중치 권장 사항을 적용할 수 있습니다. &quot;ADSP_&quot;가 접두사로 붙은 목표의 모든 가중치 변경 사항은 2일 이내에 DSP에서 알고리즘적으로 적용됩니다. 가중치 권장 사항에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 &quot;목표&quot;에 대한 최적화 안내서 장을 참조하십시오.
 

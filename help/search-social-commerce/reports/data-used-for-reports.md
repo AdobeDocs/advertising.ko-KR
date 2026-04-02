@@ -3,9 +3,13 @@ title: 보고서에 사용된 데이터
 description: 데이터 보기 및 사용자 지정 보고서에서 사용할 수 있는 다양한 유형의 데이터에 대해 알아봅니다.
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: f357d9a9ec0f8b38fbc43726265521e6fd77c7d0
+TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: 599
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 검색, 소셜 및 Commerce에는 클릭 및 전환 데이터를 기반으로 하는 포괄적인 성능 보고서 세트가 포함되어 있습니다. [!UICONTROL Portfolios] 및 [!UICONTROL Campaigns] 보기에서 포트폴리오 또는 광고 계정의 다양한 구성 요소에 대한 기본 성과 데이터를 볼 수 있을 뿐만 아니라 다양한 기본 및 고급 보고서를 생성할 수도 있습니다.
 
-또한 Adobe Advertising 전환 추적 서비스를 사용하는 광고주는 참조 웹 사이트의 지리적 위치 또는 도메인 이름에 대한 클릭 수, 각 채널의 광고 및 전환으로 이어지는 다양한 이벤트가 전체 전환율에 기여하는 방법, 마케팅 채널별 단일 [전환 지표](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)에 대한 전환 분포를 식별할 수 있습니다. 사용 가능한 보고서는 사용자 계정 유형에 따라 다릅니다. Adobe 계정 팀은 모든 보고서에 액세스할 수 있습니다.
+Adobe Advertising 전환 추적 서비스를 사용하는 광고주는 참조 웹 사이트의 지리적 위치 또는 도메인 이름에 대한 클릭 수, 각 채널의 광고 및 전환으로 이어지는 다양한 이벤트가 전체 전환율에 기여하는 방식, 마케팅 채널별 단일 [전환 지표](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)에 대한 전환 분포를 식별할 수도 있습니다. 사용 가능한 보고서는 사용자 계정 유형에 따라 다릅니다. Adobe 계정 팀은 모든 보고서에 액세스할 수 있습니다.
 
 대부분의 보고서는 보려는 정보만 표시하도록 사용자 지정할 수 있습니다. 다음 표준 지표는 대부분의 보고서에서 사용할 수 있으며 광고 수준에서 계산됩니다.
 

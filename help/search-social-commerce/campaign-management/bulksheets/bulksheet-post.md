@@ -3,9 +3,13 @@ title: 게시물 일괄 시트 또는 수정된 오류 파일
 description: 일괄 시트 파일을 광고 네트워크에 게시하는 방법을 알아봅니다.
 exl-id: 49b930ba-71b3-442d-a162-67cf7ae14e14
 feature: Search Bulksheets
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/N2xYU3CSbNaftsEOKKyXDjDQRYeqhYOolhf5ZyCPiGA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: 726
 ht-degree: 0%
 
 ---
@@ -33,9 +37,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 많은 양의 데이터를 게시하는 데 시간이 더 오래 걸립니다. [!UICONTROL Bulksheets] 보기의 [!UICONTROL Progress] 열에 있는 파일의 진행 상황을 따를 수 있습니다.
+>* 많은 양의 데이터를 게시하는 데 시간이 더 오래 걸립니다. [!UICONTROL Progress] 보기의 [!UICONTROL Bulksheets] 열에 있는 파일의 진행 상황을 따를 수 있습니다.
 >* 게시된 모든 데이터는 네트워크의 편집 절차에 따릅니다.
->* 일괄 시트 파일이 게시되기 전에 게시를 취소할 수 있습니다.
+* 일괄 시트 파일이 게시되기 전에 게시를 취소할 수 있습니다.
 
 ## 일괄 시트 및 수정된 오류 파일에 대한 사후 설정 {#bulksheet-post-settings}
 

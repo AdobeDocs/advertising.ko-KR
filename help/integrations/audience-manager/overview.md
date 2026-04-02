@@ -3,9 +3,15 @@ title: Adobe Audience Manager과 Adobe Advertising 통합
 description: Adobe Advertising이 Adobe Audience Manager과 데이터를 교환할 수 있는 다양한 방법에 대해 알아봅니다.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/4O4O-DmHhClvSiOSxM9blAEvVslzYzRobEyU6RGeMEQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2: id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: 485
 ht-degree: 0%
 
 ---
@@ -34,7 +40,7 @@ ht-degree: 0%
 
 ### Audience Manager 및 기타 [!DNL Adobe] 세그먼트를 사용하여 광고를 타깃팅하거나 제외합니다. {#audience-manager-targets}
 
-* ([!DNL Search, Social, & Commerce]을(를) 사용하는 옵트인 광고주) [!DNL Google Ads] 캠페인에서 [세그먼트 [!DNL Adobe] 를 사용하여 &#x200B;](#audience-manager-google-audiences)만든 [!DNL Google Ads] 대상을 캠페인 수준 또는 광고 그룹 수준 타겟 또는 제외로 사용할 수 있습니다.
+* ([!DNL Search, Social, & Commerce]을(를) 사용하는 옵트인 광고주) [!DNL Google Ads] 캠페인에서 [세그먼트 [!DNL Adobe] 를 사용하여 ](#audience-manager-google-audiences)만든 [!DNL Google Ads] 대상을 캠페인 수준 또는 광고 그룹 수준 타겟 또는 제외로 사용할 수 있습니다.
 
 * (DSP을 사용하는 광고주) 기존 [!DNL Adobe] 세그먼트를 광고 배치 대상으로 사용할 수 있습니다. 재사용 가능한 대상에 세그먼트를 선택적으로 포함할 수 있으며, 이 대상은 여러 배치에 대한 타겟 또는 제외로 사용할 수 있습니다.
 
@@ -42,7 +48,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Audience Manager 및 Experience Cloud [!DNL Audience Library] 인터페이스에서 대상을 만드는 방법과 다양한 대상 유형에 대한 일반적인 사용 사례에 대한 자세한 내용은 &quot;[대상 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ko)&quot;을 참조하십시오.
+>Audience Manager 및 Experience Cloud [!DNL Audience Library] 인터페이스에서 대상을 만드는 방법과 다양한 대상 유형에 대한 일반적인 사용 사례에 대한 자세한 내용은 &quot;[대상 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;을 참조하십시오.
 
 ## Audience Manager에 DSP 미디어 노출 데이터 보내기
 
@@ -54,6 +60,6 @@ Adobe Audience Manager을 사용하는 DSP 고객은 Audience Manager에 대한 
 
 ## Audience Analytics을 통해 사이트 활동에 대한 보다 풍부한 통찰력 얻기
 
-[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ko)을(를) 가진 Adobe Advertising 고객은 사이트 활동에 대한 풍부한 통찰력을 위해 Adobe Advertising 추적 데이터와 Audience Manager 세그먼트를 모두 [!DNL Analytics]에 보낼 수 있습니다.
+[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)을(를) 가진 Adobe Advertising 고객은 사이트 활동에 대한 풍부한 통찰력을 위해 Adobe Advertising 추적 데이터와 Audience Manager 세그먼트를 모두 [!DNL Analytics]에 보낼 수 있습니다.
 
 자세한 내용은 &quot;[[!DNL Adobe Audience Analytics] Adobe Advertising 고객용](/help/integrations/audience-manager/audience-analytics.md)&quot;을 참조하십시오.

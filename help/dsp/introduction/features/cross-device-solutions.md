@@ -3,9 +3,14 @@ title: 크로스 디바이스 솔루션
 description: 크로스 디바이스 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 2c7ba1862b1883b4523d9121d8b0761129ad70fb
+TQID: https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: 997
 ht-degree: 0%
 
 ---
@@ -92,7 +97,7 @@ ht-degree: 0%
 
 * &lt;*전환*>[!UICONTROL (tp)]: 동일한 장치 전환과 장치 간 전환(해당되는 경우)을 모두 포함하는 총 전환(총 인원)을 포함합니다. 보고서에서 &quot;[!UICONTROL (tp)]&quot;이(가) 전환 경로의 전환 지표 이름, 규칙 유형 및 전환 유형(예: &quot;Responses(le)(tl)(tp))에 추가됩니다.
 
-* &lt;*전환*>[!UICONTROL (sd)]: (선택 사항) 전환 경로에서 단일 장치만 추적된 전환만 포함합니다. 보고서에서 &quot;[!UICONTROL (sd)]&quot;이(가) 전환 경로의 전환 지표 이름, 규칙 유형 및 전환 유형(예: &quot;Responses(le)(tl)(sd))에 추가됩니다.
+* &lt;*전환*>[!UICONTROL (sd)]: (선택 사항) 전환 경로에서 단일 디바이스만 추적된 전환만 포함합니다. 보고서에서 &quot;[!UICONTROL (sd)]&quot;이(가) 전환 경로의 전환 지표 이름, 규칙 유형 및 전환 유형(예: &quot;Responses(le)(tl)(sd))에 추가됩니다.
 
 * &lt;*전환*>[!UICONTROL (xd)]: (선택 사항) 전환 경로에서 둘 이상의 장치가 추적된 전환만 포함합니다. 보고서에서 &quot;[!UICONTROL (xd)]&quot;이(가) 전환 경로의 전환 지표 이름, 규칙 유형 및 전환 유형(예: &quot;Responses(le)(tl)(xd))에 추가됩니다.
 

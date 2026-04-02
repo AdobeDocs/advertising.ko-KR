@@ -3,9 +3,13 @@ title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 817c8ab0dce5412e4b3a235c3c032e5691d235ba
+TQID: https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3806'
+source-wordcount: 3806
 ht-degree: 0%
 
 ---
@@ -170,7 +174,7 @@ ht-degree: 0%
 | [!UICONTROL Search (Top) IS] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 상위 위치(유기 검색 결과 위)에서 받은 노출 횟수를 상위 위치에서 받을 수 있는 예상 노출 횟수로 나눈 값입니다. 10% 미만의 백분율은 &quot;`<10%`&quot; 또는 &quot;`0.0999`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Search Engine] | 광고 네트워크입니다. |
 | [!UICONTROL Search exact match IS] | 키워드와 정확히 일치하는 검색에 대해 받은 노출 수를 수신 자격이 있는 예상 정확한 일치 노출 수로 나눈 값입니다. 이 수치가 낮으면 입찰가가 너무 낮거나 광고 품질이나 관련성이 낮기 때문일 수 있습니다. |
-| [!UICONTROL Search impr. share] | ([!DNL Google Ads]만 해당) 받은 노출 횟수를 받을 수 있는 예상 노출 횟수로 나눈 값입니다. 10% 미만의 백분율은 &quot;&lt;10%&quot;로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;으로 표시됩니다. |
+| [!UICONTROL Search impr. share] | ([!DNL Google Ads]만 해당) 받은 노출 횟수를 받을 수 있는 예상 노출 횟수로 나눈 값입니다. 10% 미만의 백분율은 &quot;&lt;10%&quot;로 표시되며, 90% 이상의 백분율은 &quot;`>90%`&quot;로 표시됩니다. |
 | [!UICONTROL Search lost abs. top IS (budget)] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 일별 또는 월별 예산이 너무 낮아서 광고가 유기 검색 결과보다 첫 번째 광고가 아닌 시간의 비율입니다. Google 광고 캠페인의 경우 90% 이상의 백분율이 &quot;`>90%`&quot; 또는 &quot;`0.9001`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Search lost abs. top IS (rank)] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 광고 순위가 낮아 광고가 유기 검색 결과보다 첫 번째 광고가 아닌 시간의 백분율입니다. Google 광고 캠페인의 경우 90% 이상의 백분율이 &quot;`>90%`&quot; 또는 &quot;`0.9001`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Search lost IS (budget)] | ([!DNL Google Ads]만 해당) 일별 또는 월별 예산이 너무 낮아서 광고가 표시되지 않은 시간의 비율입니다. 이 지표는 캠페인 수준에서만 사용할 수 있습니다. 90%가 넘는 백분율이 &quot;`>90%`&quot; 또는 &quot;`0.9001`&quot;(으)로 표시됩니다. |
