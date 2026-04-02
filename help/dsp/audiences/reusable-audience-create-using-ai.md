@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: d450159cfcc0298a0bb9bb0984cd49ac75836519
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 *Beta 기능*
 
 *영어만 지원*
-
-<!-- I thought it was all segment types? -->
 
 <!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
 
@@ -52,17 +50,17 @@ AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 
 
       자세한 내용은 &quot;[프롬프트 작성](#writing-prompts)&quot; 및 &quot;[대상자 개요 작성에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
 
-      대상 에이전트가 관련 세그먼트를 찾을 때 기준에 따라 대상 표현식을 만듭니다. 또한 대상을 취합할 일치하는 세그먼트를 찾기 전에 승인을 요청합니다.
+      대상 에이전트가 관련 세그먼트를 찾을 때 기준에 따라 부울 대상 표현식을 만듭니다. 또한 대상을 취합할 일치하는 세그먼트를 찾기 전에 승인을 요청합니다.
 
       선택적으로 요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수 있습니다.
 
    1. 대상 에이전트가 대상을 적절히 설명하는 대상 표현식을 제공하면 대상 에이전트에게 대상 어셈블 작업을 진행하도록 알립니다.
 
-      &quot;진행&quot;, &quot;확인&quot;, &quot;확인&quot;, &quot;예&quot; 또는 다른 유사한 단어를 입력할 수 있습니다.
+      &quot;진행&quot;, &quot;확인&quot;, &quot;확인&quot;, &quot;예&quot; 또는 다른 유사한 단어를 입력할 수 있습니다. 에이전트는 각 트레이트에 대해 제안된 모든 세그먼트(예: &quot;상위&quot;)를 나열합니다. 트레이트를 확장하여 해당 트레이트에 대해 제안된 개별 세그먼트에 대한 세부 정보를 확인합니다.
 
    1. (필요한 경우) 추가 기준을 지정합니다. 대상 에이전트가 모든 기준을 충족하는 대상 표현식을 제공하면 대상 조립을 진행하도록 대상 에이전트에게 알립니다.
 
-      대상을 모으려면 &quot;진행&quot;, &quot;확인&quot;, &quot;확인&quot;, &quot;예&quot; 또는 다른 유사한 단어를 입력합니다.
+      대상을 모으려면 &quot;진행&quot;, &quot;확인&quot;, &quot;확인&quot;, &quot;예&quot; 또는 다른 유사한 단어를 입력합니다. 에이전트는 각 트레이트에 대해 제안된 모든 세그먼트(예: &quot;상위&quot;)를 나열합니다. 트레이트를 확장하여 해당 트레이트에 대해 제안된 개별 세그먼트에 대한 세부 정보를 확인합니다.
 
 1. 어셈블된 대상자에 동의하면 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 지정된 대상자를 만듭니다.
 
