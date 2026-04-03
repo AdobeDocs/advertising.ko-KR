@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # [!DNL Google Ads]개 전환 값 규칙 정보
 
-Search, Social 및 Commerce은 [ 계정의 ](https://support.google.com/google-ads/answer/10518330)전환 값 규칙[!DNL Google Ads]을 자동으로 동기화합니다. 전환 값 규칙을 사용하면 장치 유형, 위치 및 대상 세그먼트를 포함한 사용자 정보를 기반으로 전환 이벤트의 값을 조정할 수 있습니다. Google 스마트 입찰을 사용하여 검색, 디스플레이, 쇼핑 및 성과 최대 캠페인에서 가치 기반 입찰에 대한 규칙을 사용할 수 있습니다. 전환 최대화 및 Target ROAS 입찰 전략이 있는 캠페인의 경우 [!DNL Google Ads] 알고리즘이 더 높은 값으로 전환을 선호하기 시작합니다.
+Search, Social 및 Commerce은 [&#x200B; 계정의 &#x200B;](https://support.google.com/google-ads/answer/10518330)전환 값 규칙[!DNL Google Ads]을 자동으로 동기화합니다. 전환 값 규칙을 사용하면 장치 유형, 위치 및 대상 세그먼트를 포함한 사용자 정보를 기반으로 전환 이벤트의 값을 조정할 수 있습니다. Google 스마트 입찰을 사용하여 검색, 디스플레이, 쇼핑 및 성과 최대 캠페인에서 가치 기반 입찰에 대한 규칙을 사용할 수 있습니다. 전환 최대화 및 Target ROAS 입찰 전략이 있는 캠페인의 경우 [!DNL Google Ads] 알고리즘이 더 높은 값으로 전환을 선호하기 시작합니다.
 
 캠페인 수준 전환 값 규칙은 계정 수준 규칙을 재정의합니다. 전환이 여러 전환 값 규칙을 충족하면 규칙 중 하나만 적용됩니다. 일반적으로 가장 구체적인 규칙이 적용되지만, 다른 규칙 조건 유형의 우선 순위에 대해서는 [[!DNL Google Ads] 설명서를 참조하십시오](https://support.google.com/google-ads/answer/10520348).
 
@@ -34,8 +34,8 @@ Search, Social 및 Commerce은 [ 계정의 ](https://support.google.com/google-a
 
 >[!MORELIKETHIS]
 >
->* [전환 값 규칙 만들기 [!DNL Google Ads] 2}](create-google-conversion-value-rule.md)
->* [전환 값 규칙 편집 [!DNL Google Ads] 2}](edit-google-conversion-value-rule.md)
->* [전환 값 규칙의 상태 변경 [!DNL Google Ads] ](change-the-status-of-google-conversion-value-rule.md)
+>* [전환 값 규칙 만들기 [!DNL Google Ads] 2&rbrace;](create-google-conversion-value-rule.md)
+>* [전환 값 규칙 편집 [!DNL Google Ads] 2&rbrace;](edit-google-conversion-value-rule.md)
+>* [전환 값 규칙의 상태 변경 [!DNL Google Ads] &#x200B;](change-the-status-of-google-conversion-value-rule.md)
 >* [[!DNL Google Ads] 전환 값 규칙 설정](google-conversion-value-rule-settings.md)
 

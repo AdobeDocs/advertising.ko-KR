@@ -4,9 +4,13 @@ description: ' [!DNL Google Ads] 키워드에 대한 설정을 참조합니다.'
 exl-id: b2937d18-565a-43f0-ba33-d46d4c77ec07
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/XwutnbHVQrg8mfimzVjv-Px6OeUsOWzT7-347-ff2C0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
 source-wordcount: 189
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 검색 및 표시 네트워크를 사용하는 캠페인에 대한 키워드를 만들 수 있습니다.
 
-[!DNL Google Ads]계정당 키워드 제한[에 대한 ](https://support.google.com/google-ads/answer/6372658) 도움말을 참조하십시오.
+[!DNL Google Ads]계정당 키워드 제한[에 대한 &#x200B;](https://support.google.com/google-ads/answer/6372658) 도움말을 참조하십시오.
 
 ## [!UICONTROL Keyword Details]
 
