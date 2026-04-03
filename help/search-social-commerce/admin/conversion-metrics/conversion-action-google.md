@@ -4,15 +4,12 @@ description: 잠재 고객에 대한 향상된 전환을 위해  [!DNL Google Ad
 feature: Conversions
 exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
 TQID: https://experienceleague.adobe.com/KqFHgxjc-4snyo3nf-3-ry6nsyapMPcwKEWvgi-pxGc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: 457
 ht-degree: 0%
 
 ---
@@ -41,9 +38,9 @@ ht-degree: 0%
 
    전환 태그를 만든 후 전환 지표를 추적하려는 웹 사이트에서 필요에 따라 구현합니다. 자세한 내용은 다음을 참조하십시오.
 
-   * [!DNL Google] 태그를 사용하려면 &quot;[!DNL Google Ads]태그[!DNL Google]태그를 사용하는 리드에 대한 향상된 전환 설정[에서 &quot; [!DNL Google]  태그 설정 구성&quot;에 대한 &#x200B;](https://support.google.com/google-ads/answer/11347292) 지침을 참조하십시오.&quot;
+   * [!DNL Google] 태그를 사용하려면 &quot;[!DNL Google Ads]태그[!DNL Google]태그를 사용하는 리드에 대한 향상된 전환 설정[에서 &quot; [!DNL Google]  태그 설정 구성&quot;에 대한 ](https://support.google.com/google-ads/answer/11347292) 지침을 참조하십시오.&quot;
 
-   * [!DNL Google Tag Manager]을(를) 사용하려면 &quot;[!DNL Google Ads]&#x200B;[!DNL Google][의 잠재 고객에 대한 향상된 전환 설정&quot;에서 &quot; [!DNL Google Tag Manager] 태그 설정을 구성&quot;하고 &quot;설정을 확인하고 컨테이너를 게시&quot;하는 &#x200B;](https://support.google.com/google-ads/answer/11021502?#configure) 지침을 참조하십시오.&quot;
+   * [!DNL Google Tag Manager]을(를) 사용하려면 &quot;[!DNL Google Ads][!DNL Google][의 잠재 고객에 대한 향상된 전환 설정&quot;에서 &quot; [!DNL Google Tag Manager] 태그 설정을 구성&quot;하고 &quot;설정을 확인하고 컨테이너를 게시&quot;하는 ](https://support.google.com/google-ads/answer/11021502?#configure) 지침을 참조하십시오.&quot;
 
 1. **[!UICONTROL Done].** 클릭
 
@@ -51,7 +48,7 @@ ht-degree: 0%
 
 ## 전환 작업 설정 {#conversion-action-settings-google}
 
-**[!UICONTROL Select an Account]:** 적용 가능한 Google 광고 계정입니다.
+**[!UICONTROL Select an Account]:** 적용 가능한 [!DNL Google Ads] 계정입니다.
 
 **[!UICONTROL Type of Conversion]:** 추적할 변환 유형: *[!UICONTROL Import conversion]*&#x200B;을(를) 선택합니다. 다른 모든 유형은 다른 유형의 전환에 대한 전환 추적 태그(전환 작업 아님)를 만드는 데 사용됩니다.
 

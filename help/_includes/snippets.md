@@ -1,13 +1,13 @@
 ---
-source-git-commit: 92bf7768be91e75f029e1577c7f4e7e790c5a934
+source-git-commit: 287e8bd0c2a3c3aedbf5f1f9551823b0c4586a57
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
 # 코드 조각
 
-## Google 광고 엔티티에 대한 추적 템플릿 필드 {#tracking-template-google}
+## [!DNL Google Ads] 엔터티에 대한 추적 템플릿 필드 {#tracking-template-google}
 
 <!-- Duplicated from include file because one file has multiple occurrences, which ExL doesn't support. -->
 
