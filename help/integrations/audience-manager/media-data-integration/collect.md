@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 1단계: Audience Manager에서 데이터 소스 설정 {#set-up-data-source}
 
-Audience Manager에서 DSP 노출에 대한 [데이터 소스](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html)를 만들고 데이터를 클릭합니다. 추적된 모든 이벤트가 데이터 원본에 속하도록 각 이벤트 태그에 데이터 원본 ID [을(를) 포함합니다](#implement-dsp-pixels).
+Audience Manager에서 DSP 노출에 대한 [데이터 소스](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=ko)를 만들고 데이터를 클릭합니다. 추적된 모든 이벤트가 데이터 원본에 속하도록 각 이벤트 태그에 데이터 원본 ID [을(를) 포함합니다](#implement-dsp-pixels).
 
 >[!NOTE]
 > 단일 데이터 소스 내에서 여러 DSP에서 실행되는 광고 캠페인에 대한 모든 노출을 수집하고 클릭 데이터를 수집할 수 있습니다.
@@ -137,7 +137,7 @@ Audience Manager에서 클릭 이벤트 픽셀에 대해 지원하는 매크로 
 
 ### Audience Manager 트레이트 및 세그먼트 만들기
 
-이벤트 데이터가 [사용되지 않은 신호](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=ko)&#x200B;(으)로 Audience Manager에 전송됩니다. 보고서에 데이터를 사용하기 전에 수집된 데이터에서 [규칙 기반 특성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html)을 수동으로 만든 다음 이러한 특성을 사용하여 [세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=ko)을(를) 만드십시오.
+이벤트 데이터가 [사용되지 않은 신호](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=ko)&#x200B;(으)로 Audience Manager에 전송됩니다. 보고서에 데이터를 사용하기 전에 수집된 데이터에서 [규칙 기반 특성](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ko)을 수동으로 만든 다음 이러한 특성을 사용하여 [세그먼트](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=ko)을(를) 만드십시오.
 
 DSP의 특정 크리에이티브에 노출된 사용자에 대해 사용자 수준 데이터를 채우는 예제 트레이트입니다.
 

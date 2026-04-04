@@ -69,7 +69,7 @@ Adobe은 각 광고주와 함께 광고 네트워크 계정 및 캠페인을 설
 
    1. 전환 추적을 설정합니다. 구현에 따라, 광고주의 웹 페이지에 전환 추적 태그를 추가하거나 광고주가 별도로 수집한 전환 데이터에 대해 일별 피드 드롭을 설정하는 작업이 여기에 포함될 수 있습니다.
 
-      Adobe Advertising 전환 추적 서비스를 사용하는 경우 검색, 소셜 및 Commerce 내에서 [전환 추적 태그를 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)하거나 Adobe Experience Platform의 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html)&#x200B;(이전의 Adobe Experience Platform Launch)를 사용할 수 있습니다.
+      Adobe Advertising 전환 추적 서비스를 사용하는 경우 검색, 소셜 및 Commerce 내에서 [전환 추적 태그를 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)하거나 Adobe Experience Platform의 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=ko)&#x200B;(이전의 Adobe Experience Platform Launch)를 사용할 수 있습니다.
 
    1. 추적된 데이터의 유효성을 검사합니다.
 
