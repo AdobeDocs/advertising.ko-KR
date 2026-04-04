@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: 457
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## 전환 작업 설정 {#conversion-action-settings-google}
 
-**[!UICONTROL Select an Account]:** 적용 가능한 Google 광고 계정입니다.
+**[!UICONTROL Select an Account]:** 적용 가능한 [!DNL Google Ads] 계정입니다.
 
 **[!UICONTROL Type of Conversion]:** 추적할 변환 유형: *[!UICONTROL Import conversion]*&#x200B;을(를) 선택합니다. 다른 모든 유형은 다른 유형의 전환에 대한 전환 추적 태그(전환 작업 아님)를 만드는 데 사용됩니다.
 

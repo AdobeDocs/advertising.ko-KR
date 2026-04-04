@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 전환 태그 설정 {#conversion-tag-settings-google}
 
-**[!UICONTROL Select an Account]:** 적용 가능한 Google 광고 계정입니다.
+**[!UICONTROL Select an Account]:** 적용 가능한 [!DNL Google Ads] 계정입니다.
 
 **[!UICONTROL Type of Conversion]:** 추적 전환 유형: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* 또는 *[!UICONTROL Clicks to your number on your mobile website]*. **참고:** *[!UICONTROL Import conversion]*&#x200B;은(는) 다른 용도로 사용됩니다. &quot;[잠재 고객에 대한 전환 작업 만들기 [!DNL Google Ads] 향상된 전환](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)&quot;를 참조하세요.&quot;
 

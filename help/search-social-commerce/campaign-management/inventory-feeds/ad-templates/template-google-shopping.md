@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: 518
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]:**(클라이언트 피드 파일 템플릿에 대한 선택 사항) 모든 랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 캠페인 수준 추적 템플릿입니다. 이 값은 계정 수준 설정을 무시하지만, 더 세분화된 수준에서(키워드를 가장 세분화된 수준으로) 추적 템플릿이 이 값을 무시합니다.
 
-캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 Google 광고 쇼핑 캠페인에 대한 [추적 템플릿 형식](/help/search-social-commerce/tracking/formats-click-tracking-google.md)을 사용하십시오. 전체 계정이 쇼핑 광고 전용인 경우 대신 계정 수준에서 추적 템플릿을 정의할 수 있습니다.
+캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 [쇼핑 캠페인 [!DNL Google Ads] 에 대해 &#x200B;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)추적 템플릿 형식을 사용하십시오. 전체 계정이 쇼핑 광고 전용인 경우 대신 계정 수준에서 추적 템플릿을 정의할 수 있습니다.
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다.
 

@@ -48,7 +48,7 @@ DSP 또는 [!DNL Adobe]에서 [!DNL Creative]개의 대상에 액세스하려면
 
   구현에는 광고주 사이트의 각 웹 페이지에 [!DNL Identity service] 코드를 추가하는 작업이 포함됩니다.
 
-* 조직은 Experience Cloud 서비스에 대해 [활성화됨](https://experienceleague.adobe.com/en/docs/core-services/interface/services/overview)이어야 하며 Experience Cloud [!DNL Organization ID]&#x200B;(이전 이름: [!DNL IMS org ID])이(가) 있어야 합니다.
+* 조직은 Experience Cloud 서비스에 대해 [활성화됨](https://experienceleague.adobe.com/ko/docs/core-services/interface/services/overview)이어야 하며 Experience Cloud [!DNL Organization ID]&#x200B;(이전 이름: [!DNL IMS org ID])이(가) 있어야 합니다.
 
   [!UICONTROL Organization ID]을(를) 사용하면 여러 Adobe Experience Cloud 제품이 있는 조직에서 일부 제품 간에 데이터를 공유할 수 있습니다.
 
@@ -56,7 +56,7 @@ DSP 또는 [!DNL Adobe]에서 [!DNL Creative]개의 대상에 액세스하려면
 
 * 광고주의 웹 사이트 방문자에 [!DNL Apple Safari]명의 사용자가 포함되지 않습니다.
 
-* (광고주가 Audience Manager과 [!DNL Analytics]을(를) 모두 사용하는 경우 권장) 각 웹 페이지에 대한 호출을 줄이려면 데이터 수집을 위해 기존 Audience Manager [!DNL Data Integration Library] 코드를 제거하고 대신 각 [!DNL Analytics] 보고서 세트에 대해 서버측 전달을 사용하도록 설정하십시오. 자세한 내용은 &quot;[서버측 전달 개요](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf)를 참조하십시오.
+* (광고주가 Audience Manager과 [!DNL Analytics]을(를) 모두 사용하는 경우 권장) 각 웹 페이지에 대한 호출을 줄이려면 데이터 수집을 위해 기존 Audience Manager [!DNL Data Integration Library] 코드를 제거하고 대신 각 [!DNL Analytics] 보고서 세트에 대해 서버측 전달을 사용하도록 설정하십시오. 자세한 내용은 &quot;[서버측 전달 개요](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf)를 참조하십시오.
 
 * (권장) 일치율을 높이려면 자사 웹 사이트 데이터만 Adobe Advertising으로 보냅니다. 광고주가 고객 관계 관리 시스템의 타사 데이터 또는 오프라인 데이터를 번들로 제공하는 경우 데이터 유출로 인해 일치율이 감소할 수 있습니다.
 

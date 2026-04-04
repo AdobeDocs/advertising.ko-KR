@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: 450
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Rotation Mode]:** [!DNL Google Ads]이(가) 광고 그룹 내에서 서로 관련하여 활성 광고를 전달하는 빈도:
 
-* *[!UICONTROL Optimize]:* Google 광고는 광고 그룹의 다른 광고보다 더 나은 성과를 기대하는 광고를 선호합니다. 이러한 광고는 광고 경매에 더 자주 참여하며 시간이 지남에 따라 단일 광고가 선호됩니다. 이는 비즈니스 및 최적화 목표와 일치하지 않을 수 있습니다.
+* *[!UICONTROL Optimize]:* [!DNL Google Ads]은(는) 광고 그룹의 다른 광고보다 더 나은 성과를 기대하는 광고를 선호합니다. 이러한 광고는 광고 경매에 더 자주 참여하며 시간이 지남에 따라 단일 광고가 선호됩니다. 이는 비즈니스 및 최적화 목표와 일치하지 않을 수 있습니다.
 
 * *[!UICONTROL Rotate forever]:*   각 광고는 더 많은 횟수로 광고 경매에 들어가므로 검색, 소셜 및 Commerce에서 클릭스루 비율뿐만 아니라 전환 횟수에서도 광고에 점수를 매길 수 있습니다.
 

@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1396
 ht-degree: 0%
 
 ---
@@ -48,19 +48,17 @@ ht-degree: 0%
 
    * **[!UICONTROL Objectives]** 기존 목표를 모두 보고 목표를 만들고 편집하고 삭제할 수 있는 새 [!UICONTROL Objectives] 보기를 엽니다.
 
-   * **[!UICONTROL Conversions]** 새 사이트를 종료하고 기존 [!UICONTROL Admin] > [!UICONTROL Conversions] 보기를 엽니다.
+<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
 
-   * **[!UICONTROL Conversion Value Rules]** 캠페인 수준 및 계정 수준 전환 값 규칙의 읽기 전용 보기를 엽니다. 전환 값 규칙을 관리하려면 기존 [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+* **[!UICONTROL Conversion Value Rules]** 캠페인 수준 및 계정 수준 전환 값 규칙의 읽기 전용 보기를 엽니다. 전환 값 규칙을 관리하려면 기존 [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
-   * **[!UICONTROL Constraints]** 새 사이트를 종료하고 기존 [!UICONTROL Optimization] > [!UICONTROL Constraints] 보기를 엽니다.
+* **[!UICONTROL Constraints]** 기존 제약 조건의 읽기 전용 보기를 엽니다. 제한을 관리하려면 기존 [!UICONTROL Optimization] > [!UICONTROL Constraints] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
 * **[!UICONTROL Plan]** 하위 메뉴:
 
    * **[!UICONTROL Simulations]** 사용자가 만든 모든 사용자 지정 시뮬레이션 및 자동으로 생성된 주별 시뮬레이션을 볼 수 있는 새 [[!UICONTROL Simulations] 보기를 엽니다](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md). 새 사용자 지정 시뮬레이션을 생성하고 기존 시뮬레이션을 다시 실행할 수 있습니다. [!UICONTROL Spend Planner] 단추를 사용하면 [!UICONTROL Spend Recommendation] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization]에서 레거시 [!UICONTROL Spend Recommendation] 도구가 열립니다.
 
    * **[!UICONTROL Spend Planner]** 새 사이트를 종료하고 기존 [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] 보기를 엽니다.
-
-   * **[!UICONTROL Label Classification]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Label Classifications] 보기를 엽니다.
 
 * **[!UICONTROL Manage]** 하위 메뉴:
 
@@ -90,9 +88,15 @@ ht-degree: 0%
 
    * **[!UICONTROL History Logs]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Change History] 보기를 엽니다.
 
+   * **[!UICONTROL Label Classification]** 새 [!UICONTROL Label Classifications] 보기를 엽니다. 분류를 관리하고, 새 UI에서 사용할 수 있는 적용 가능한 계정 구성 요소에 분류 값을 지정/지정 취소할 수 있습니다.
+
+   * **[!UICONTROL Bulksheets]**: 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Bulksheets] 보기를 엽니다.
+
 * **[!UICONTROL Target]** 하위 메뉴:
 
-   * **[!UICONTROL Audience]**: 광고주의 기존 대상을 모두 표시하는 새 [!UICONTROL Audiences] 보기를 엽니다. 대상자를 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+   * **[!UICONTROL Audiences]**: 광고주에 대한 모든 기존 대상, 모든 대상 타겟 및 모든 대상 제외를 표시하는 새 [!UICONTROL Audiences] 보기를 엽니다. 대상자를 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+
+   * **[!UICONTROL Auto Targets]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
 
    * **[!UICONTROL Keywords]** 광고주의 기존 키워드와 부정적 키워드를 보여 주는 새 [!UICONTROL Keywords] 보기를 엽니다. 선택한 키워드에 대한 제한 할당을 관리할 수 있습니다.
 
@@ -104,8 +108,6 @@ ht-degree: 0%
 
 * **[!UICONTROL Assets]** 하위 메뉴:
 
-   * **[!UICONTROL Auto Targets]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
-
    * **[!UICONTROL Creatives]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
 
    * **[!UICONTROL Extensions]** 기존 광고 확장의 읽기 전용 보기를 엽니다. 확장을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
@@ -114,13 +116,15 @@ ht-degree: 0%
 
 * **[!UICONTROL Set Up]** 하위 메뉴:
 
-   * **[!UICONTROL Accounts]**: 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
+   * **[!UICONTROL Manager Accounts]**: 새 사이트를 종료하고 기존 [!UICONTROL Admin] > [!UICONTROL Manager Accounts] 보기를 엽니다.
+
+   * **[!UICONTROL Accounts]**: 새 [!UICONTROL Accounts] 보기를 엽니다. API 연결을 통해 동기화되거나 데이터 업로드를 통해 설정된 광고 네트워크 계정을 관리할 수 있습니다. 기존 [!UICONTROL Naver]개의 계정을 관리할 수도 있습니다.
+
+   * **[!UICONTROL Import Campaigns]**: 새 사이트를 종료하고 기존 [!UICONTROL Tools] > [!UICONTROL Import Campaigns] 보기를 엽니다.
 
 <!--
- What's happenening to these?
+ What's happening to these?
 
-Campaigns > ACM
-Campaigns > Bulksheets
 Campaigns > Asset Library
 
 Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
@@ -128,7 +132,6 @@ Insights > Notification Center (doesn't open from Dashboard > Alerts & Notificat
 Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-Import Campaigns
 
 Tools > Admin > Data Source Setup
 -->

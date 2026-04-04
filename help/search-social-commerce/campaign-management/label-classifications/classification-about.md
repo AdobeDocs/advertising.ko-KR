@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 레이블 분류 보기
 
-기존 UI에서 [!UICONTROL Labels Classifications] 보기는 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]에 있습니다. 새 UI에서 [!UICONTROL Labels Classifications] 보기는 [!UICONTROL Reports] > [!UICONTROL Labels Classifications]에 있습니다.
+새 UI에서 [!UICONTROL Labels Classifications] 보기는 [!UICONTROL Reports] > [!UICONTROL Labels Classifications]에 있습니다. 기존 UI에서 [!UICONTROL Labels Classifications] 보기는 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]에 있습니다.
 
 [!UICONTROL Labels Classifications] 보기에는 [!UICONTROL Classifications] 및 [!UICONTROL Label Values] 하위 보기가 포함됩니다. 레이블 분류, [만들기](classification-create.md) 및 [삭제](classification-delete.md) 레이블 분류에 대한 데이터를 보고 레이블 분류 값에 대한 데이터를 볼 수 있습니다. 기본적으로 키워드 수준 레이블 분류 및 값에 대한 데이터가 표시되지만 선택적으로 광고 수준 분류 및 값에 대한 데이터를 볼 수도 있습니다.
 

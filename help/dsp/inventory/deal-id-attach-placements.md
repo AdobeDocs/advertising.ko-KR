@@ -13,9 +13,9 @@ subfeature_v2:
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -40,21 +40,21 @@ ht-degree: 0%
 
 1. [!UICONTROL Ad & Campaign Selection] 설정에서 배치에 사용할 광고를 선택합니다.
 
-       1. 광고주, 캠페인 및 광고 유형을 선택합니다. 선택적으로 광고를 필터링할 광고 상태를 선택합니다.
-       
-       1. 사용 가능한 광고 목록에서 거래에 사용할 각 광고 옆에 있는 확인란을 선택합니다.
-       
-       1. **[!UICONTROL Apply]**.
- 클릭   
-   1. 배치 설정 화면에서
+   1. 광고주, 캠페인 및 광고 유형을 선택합니다. 선택적으로 광고를 필터링할 광고 상태를 선택합니다.
 
-      1. 배치 이름을 입력합니다.
+   1. 사용 가능한 광고 목록에서 거래에 사용할 각 광고 옆에 있는 확인란을 선택합니다.
 
-      1. (선택 사항) 거래의 CPM 값으로 자동으로 채워지는 기본 입찰가를 덮어쓰거나, 날짜 범위를 변경하거나, 더 많은 광고를 첨부하는 등 [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)을 편집합니다.
+   1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+
+1. 배치 설정 화면에서
+
+   1. 배치 이름을 입력합니다.
+
+   1. (선택 사항) 거래의 CPM 값으로 자동으로 채워지는 기본 입찰가를 덮어쓰거나, 날짜 범위를 변경하거나, 더 많은 광고를 첨부하는 등 [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)을 편집합니다.
 
       이 거래는 재고 목표 섹션에서 자동으로 타깃팅됩니다. 다른 모든 타깃팅 옵션은 적용할 수 없습니다.
 
-      1. **[!UICONTROL Create placement]**&#x200B;을(를) 클릭합니다.
+   1. **[!UICONTROL Create placement]**&#x200B;을(를) 클릭합니다.
 
 게시자가 PG 거래 ID를 활성화하면 배치가 실행됩니다.
 

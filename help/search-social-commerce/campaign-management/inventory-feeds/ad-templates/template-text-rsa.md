@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 3360
+source-wordcount: 3352
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 * Yahoo! Japan Ads 계정에서 매개 변수 {lpurl}을(를) 사용합니다.
 
-* Microsoft Advertising 및 Google Ads 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [!DNL ValueTrack]설명서[[!DNL Google Ads] 의 &quot;사용 가능한 &#x200B;](https://support.google.com/google-ads/answer/6305348) 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
+* [!DNL Microsoft Advertising] 및 [!DNL Google Ads] 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [!DNL ValueTrack]설명서[[!DNL Google Ads] 의 &quot;사용 가능한 &#x200B;](https://support.google.com/google-ads/answer/6305348) 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
 
 이 값은 계정 및 캠페인 수준 설정을 재정의하지만, 더 세분화된 수준에서(키워드를 가장 세분화된 수준으로) 추적 템플릿이 이 값을 재정의합니다.
 
@@ -350,7 +350,7 @@ ht-degree: 0%
 
 * Yahoo! Japan Ads 계정에서 매개 변수 {lpurl}을(를) 사용합니다.
 
-* Microsoft Advertising 및 Google Ads 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [!DNL ValueTrack]설명서[[!DNL Google Ads] 의 &quot;사용 가능한 &#x200B;](https://support.google.com/google-ads/answer/6305348) 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
+* [!DNL Microsoft Advertising] 및 [!DNL Google Ads] 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [!DNL ValueTrack]설명서[[!DNL Google Ads] 의 &quot;사용 가능한 &#x200B;](https://support.google.com/google-ads/answer/6305348) 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
 
 **\[원본 광고 필드 아래의 대체 광고 필드\]:**(선택 사항) 광고에 대한 대체 광고 복사본 집합입니다. 이 집합은 전달하는 동안 동적 매개 변수가 데이터로 채워지면 원본 광고 복사본에 허용된 최대 길이를 초과하는 경우 사용할 수 있습니다.
 

@@ -57,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Audience Manager 및 Experience Cloud [!DNL Audience Library] 인터페이스에서 대상을 만드는 방법과 다양한 대상 유형에 대한 일반적인 사용 사례에 대한 자세한 내용은 &quot;[대상 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;을 참조하십시오.
+>Audience Manager 및 Experience Cloud [!DNL Audience Library] 인터페이스에서 대상을 만드는 방법과 다양한 대상 유형에 대한 일반적인 사용 사례에 대한 자세한 내용은 &quot;[대상 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ko)&quot;을 참조하십시오.
 
 ## Audience Manager에 DSP 미디어 노출 데이터 보내기
 

@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: 189
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 검색 및 표시 네트워크를 사용하는 캠페인에 대한 키워드를 만들 수 있습니다.
 
-[계정당 키워드 제한](https://support.google.com/google-ads/answer/6372658)에 대해서는 Google 광고 도움말을 참조하십시오.
+[!DNL Google Ads]계정당 키워드 제한[에 대한 &#x200B;](https://support.google.com/google-ads/answer/6372658) 도움말을 참조하십시오.
 
 ## [!UICONTROL Keyword Details]
 

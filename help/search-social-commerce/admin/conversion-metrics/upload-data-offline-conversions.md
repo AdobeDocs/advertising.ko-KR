@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 785
+source-wordcount: 787
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 `Parameters:TimeZone=insert_timezone`
 
-이 위치 또는 각 행의 &quot;[!UICONTROL Conversion Time]&quot; 열에 계정의 시간대를 입력합니다. a\) ([!DNL Google Ads only]) [지원되는 시간대 ID 형식](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) 또는 b\) + 또는 -로 표시된 GMT 오프셋과 4자리 시간 차이(예: 뉴욕 -0500, 베를린 +0100 또는 그리니치 표준시 +0000)를 사용합니다.
+이 위치 또는 각 행의 &quot;[!UICONTROL Conversion Time]&quot; 열에 계정의 시간대를 입력합니다. a\) ([!DNL [!DNL Google Ads]만]) [지원되는 시간대 ID 형식](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) 또는 b\)과 + 또는 -로 표시된 GMT 오프셋 및 4자리 시간 차이(예: 뉴욕의 경우 -0500, 베를린의 경우 +0100 또는 그리니치 평균 시간의 경우 +0000)를 사용합니다.
 
 ### [!DNL Google Ads]의 테이블 열 및 값
 
