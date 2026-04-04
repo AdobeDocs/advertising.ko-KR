@@ -4,11 +4,22 @@ description: Audience Manager 픽셀을 사용하여 Advertising DSP 광고에�
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
 TQID: https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: d9510790-d834-436d-8423-8d69cd50464a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
 source-wordcount: 991
@@ -49,13 +60,13 @@ Audience Manager에서 DSP 노출에 대한 [데이터 소스](https://experienc
 
 `[Audience Manager customer domain].demdex.net/event?d_event=imp&d_src=[source id]&d_campaign=${TM_CAMPAIGN_ID_NUM}`
 
-[ 접두사가 있는 ](#parameters)선택적 추가 매개 변수`&` 사용
+[&#x200B; 접두사가 있는 &#x200B;](#parameters)선택적 추가 매개 변수`&` 사용
 
 **클릭 추적 픽셀:**
 
 `[Audience Manager customer domain].demdex.net/event?d_event=click&d_src=[source id]&d_rd=[redirect URL]&d_campaign=${TM_CAMPAIGN_ID_NUM}`
 
-[ 접두사가 있는 ](#parameters)선택적 추가 매개 변수`&` 사용
+[&#x200B; 접두사가 있는 &#x200B;](#parameters)선택적 추가 매개 변수`&` 사용
 
 위치:
 
