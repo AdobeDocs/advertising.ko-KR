@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e32890b6c079c539084f32282a42012ce45e0199
+source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
 workflow-type: tm+mt
-source-wordcount: 6924
+source-wordcount: 6986
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026년 4월 7일 | AI 지원 설명서 검색 | 새로운 AI 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색합니다. 응답에는 쿼리를 구체화하고 추가 정보를 찾는 데 도움이 되는 추가 프롬프트 및 후속 질문뿐만 아니라 인용 문항이 포함됩니다. | &quot;[AI 지원 채팅을 사용하여 제품 설명서 검색](/help/dsp/agent-chat.md)&quot;을 참조하십시오. |
 | 2026년 3월 25일 | [!UICONTROL Insights] | 새로운 [!UICONTROL Audience Analysis] 인사이트는 시간 경과에 따른 세그먼트 크기 트렌드와 일별 입찰 funnel 분류와 같이 배치 수준에서 대상 세그먼트 타깃팅의 효과를 보여줍니다. | &quot;[인사이트 정보](/help/dsp/campaign-management/insights/insights-about.md)&quot;를 참조하세요. |
 | 2026년 3월 16일 | 자사 대상 소스, 범용 ID | 이제 Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko)과의 DSP 통합을 사용하여 쿠키 및 모바일 광고 ID(해시된 이메일 주소 포함)를 타깃팅된 광고를 위한 범용 ID로 변환할 수 있습니다. 이전에는 해시된 이메일 주소만 변환할 수 있었습니다.<br><br>이 새 기능을 사용하려면 Experience Platform에서 새 &quot;[Adobe Advertising DSP 연결]&#x200B;(https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection&quot;을 사용하세요. 해시된 이메일 주소만 지원하는 기존 연결의 이름은 &quot;[기존 Adobe Advertising Cloud DSP 연결]&#x200B;(https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy&quot;)로 변경됩니다.<br><br>현재 기존 연결을 사용하는 경우 즉시 변경할 필요가 없습니다. 그러나 레거시 연결은 결국 제거됩니다. | &quot;[사용자 ID를  [!DNL Adobe Real-Time CDP] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-adobe-rtcdp.md)&quot;, &quot;[자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)&quot; 및 &quot;[범용 ID 대상을 활성화하기 위한 대상 소스 관리](/help/dsp/audiences/sources/source-manage.md)&quot;를 참조하십시오.&quot; |
 | 2026년 1월 21일 | Adobe GenStudio for Performance Marketing | (Advertising Creative을 사용하는 광고주) 이제 [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)을(를) 사용하는 광고주는 GenStudio에서 크리에이티브 라이브러리로 디스플레이 광고 경험을 가져올 수 있습니다. 가져온 크리에이티브를 Advertising Creative 환경에 포함한 다음 [!DNL Creative] 경험을 DSP에 배치로 내보낼 수 있습니다. | Advertising Creative 도움말 &quot;[크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)&quot; 및 &quot;[크리에이티브 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md)&quot;를 참조하십시오. |
