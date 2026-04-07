@@ -55,7 +55,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[ [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md)의 지표에 대해 통합을 업데이트하거나 다시 인증하면 표시 이름에 대한 수동 변경 내용을 덮어씁니다. 마찬가지로, 통합을 [!DNL Google Analytics]업데이트[ 또는 ](/help/search-social-commerce/admin/data-sources/data-source-edit.md)재인증[하지 않는 한 ](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md) 내의 이름 변경 내용은 무시됩니다.
+>[&#x200B; [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md)의 지표에 대해 통합을 업데이트하거나 다시 인증하면 표시 이름에 대한 수동 변경 내용을 덮어씁니다. 마찬가지로, 통합을 [!DNL Google Analytics]업데이트[&#x200B; 또는 &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md)재인증[하지 않는 한 &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md) 내의 이름 변경 내용은 무시됩니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    광고주를 위해 수집된 모든 전환 지표와 표시를 위해 지정된 다른 이름이 나열됩니다.
 
-1. (선택 사항) 도구 모음[ 또는 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)열 제목[에서 ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) 목록을 필터링합니다.
+1. (선택 사항) 도구 모음[&#x200B; 또는 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)열 제목[에서 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) 목록을 필터링합니다.
 
 1. 관리 보기 및 보고서에 사용할 수 있는 전환 지표를 변경합니다.
 
@@ -93,4 +93,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* 
+>* &#x200B;
