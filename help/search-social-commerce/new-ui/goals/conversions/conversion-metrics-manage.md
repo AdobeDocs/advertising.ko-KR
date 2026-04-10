@@ -2,9 +2,9 @@
 title: 광고주의 전환 지표 관리
 description: Adobe Advertising이 광고주를 위해 추적하는 전환 지표를 사용하는 방법을 알아봅니다.
 feature: Conversions
-source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 0%
 >[&#x200B; [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md)의 지표에 대해 통합을 업데이트하거나 다시 인증하면 표시 이름에 대한 수동 변경 내용을 덮어씁니다. 마찬가지로, 통합을 [!DNL Google Analytics]업데이트[&#x200B; 또는 &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md)재인증[하지 않는 한 &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md) 내의 이름 변경 내용은 무시됩니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
+
+1. 도구 모음[&#x200B; 또는 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)열 제목[에서 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) 목록을 필터링합니다.
 
 1. 지표의 **[!UICONTROL Conversion Display Name]** 열에서 지표 이름 위에 커서를 놓고 **..** > **[!UICONTROL Rename]**&#x200B;을(를) 클릭합니다.
 

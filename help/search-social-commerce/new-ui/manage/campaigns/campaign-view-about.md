@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: 121
+source-wordcount: 125
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ ht-degree: 0%
 
 * [캠페인에 제한 할당 및 캠페인에서 제한 할당 해제](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
-* [[!UICONTROL Campaigns] 보기에서 데이터 다운로드](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+* [[!UICONTROL Campaigns] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
 
 >[!MORELIKETHIS]
 >
 >* [포트폴리오에 캠페인 할당](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
 >* [포트폴리오에서 캠페인 제거](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [캠페인에 대한 제한 할당 관리](campaign-constraint-assignments-manage.md)
->* [[!UICONTROL Campaigns] 보기에서 데이터 다운로드](campaign-view-report.md)
+>* [[!UICONTROL Campaigns] 보기에서 데이터 보기 보고서 관리](campaign-view-report.md)

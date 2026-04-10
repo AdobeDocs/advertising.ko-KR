@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2023'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 2%
          + [[!UICONTROL Ad Groups] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
       + 광고 {#ads}
          + [[!UICONTROL Ads] 보기 정보](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
-         + [광고에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+         + [[!UICONTROL Ads] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 보고서 {#reports}
       + 레이블 분류 {#label-classifications}
          + [레이블 분류 정보](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
