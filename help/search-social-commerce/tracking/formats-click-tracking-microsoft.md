@@ -4,13 +4,10 @@ description: ' [!DNL Microsoft Advertising] 계정의 클릭 추적 형식에 �
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f3cafbaa91871505a9999402e0979fd4944e835a
 workflow-type: tm+mt
 source-wordcount: 579
 ht-degree: 0%
@@ -93,7 +90,7 @@ Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 �
 
 * 광고주가 Adobe Analytics 통합을 사용하는 경우 접미사에 다음을 포함해야 합니다.
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}`
+  `AL!{user}!10!{ad id}!!!!{keyword/order item id}!!{campaign id}!{ad group id}`
 
 * 광고주에 Adobe Analytics 통합이 없는 경우 접미사에 다음 내용이 포함되어야 합니다.
 
@@ -114,4 +111,4 @@ Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 �
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](formats-click-tracking-about.md)
->* [AMO ID 형식](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID 형식](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)
