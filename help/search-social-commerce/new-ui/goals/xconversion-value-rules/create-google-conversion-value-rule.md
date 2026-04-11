@@ -43,7 +43,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [정보 [!DNL Google Ads] 전환 값 규칙](about-google-conversion-value-rules.md)
->* [전환 값 규칙 편집 [!DNL Google Ads] 2}](edit-google-conversion-value-rule.md)
->* [전환 값 규칙의 상태 변경 [!DNL Google Ads] ](change-the-status-of-google-conversion-value-rule.md)
+>* [전환 값 규칙 편집 [!DNL Google Ads] 2&rbrace;](edit-google-conversion-value-rule.md)
+>* [전환 값 규칙의 상태 변경 [!DNL Google Ads] &#x200B;](change-the-status-of-google-conversion-value-rule.md)
 >* [[!DNL Google Ads] 전환 값 규칙 설정](google-conversion-value-rule-settings.md)
 
