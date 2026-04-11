@@ -1,28 +1,22 @@
 ---
 title: '[!UICONTROL Spend Planner] 사용'
-description: '[!UICONTROL Spend Planner]을(를) 사용하여 포트폴리오에서 최적의 지출 분포를 식별하는 방법에 대해 알아봅니다.'
-feature: Search Optimization, Search Portfolios, Search Simulations
+description: 포트폴리오 예산 권장 사항을 생성, 다운로드 및 적용하여 포트폴리오 전반에서 최적의 지출 분배를 달성하는 데 도움이 되는 방법을 알아봅니다.
+feature: Search Optimization, Search Portfolios
 exl-id: 966b8968-68b6-4385-9efb-e639a6729362
 TQID: https://experienceleague.adobe.com/8BAQij06MRhxYoCoFNjhHsgC4o38lQnj9vpmTzYyqGg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 111739ac2da47170575d9b4dad39cfefe812fe0f
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: 798
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Spend Planner] 사용
 
-<!-- When this becomes a menu item, move file and TOC entry accordingly -->
-
-[!UICONTROL Spend Planner]&#x200B;(기존 사용자 인터페이스에서 &quot;지출 권장 사항 도구&quot;라고 함)은 동일한 목표와 통화를 사용하여 최적화 및 활성 포트폴리오에서 최적의 지출 배포를 식별하므로 포트폴리오 집합에 대한 최대 매출이나 목표 목표를 설정할 수 있습니다.
+[!UICONTROL Spend Planner]&#x200B;(기존 사용자 인터페이스에서 &quot;[!UICONTROL Spend Recommendation Tool]&quot;이라고 함)은 동일한 목표와 통화를 사용하여 최적화 및 활성 포트폴리오에서 최적의 지출 분포를 식별하므로 포트폴리오 집합에 대한 매출 또는 목표 목표를 극대화할 수 있습니다.
 
 일별 예산이 있는 포트폴리오에 대한 지출 권장 보고서를 조회할 때 포트폴리오의 예산을 권장 예산으로 변경할 수 있습니다.
 
@@ -38,7 +32,15 @@ ht-degree: 0%
 
 * 선택한 모든 포트폴리오에서 현재 총 일별 지출 목표를 유지 관리할 때 또는 제안된 총 지출 목표에 대해 권장 일일 지출(비용)과 예측 매출 분포 또는 클릭 분포를 보여주는 각 포트폴리오에 대한 막대 차트입니다. 선택적으로 선택한 포트폴리오에 권장 지출 타겟을 적용할 수 있으며, 이는 다음 입찰 실행 주기의 입찰에 영향을 줍니다.
 
-## (새 UI) [!UICONTROL Spend Planner] 보고서 생성
+## 사용 가능한 작업
+
+* [!UICONTROL Spend Planner]새 UI[ 또는 ](#spend-recommendations-generate)레거시 UI[에서 ](#spend-recommendations-generate-legacy) 보고서 생성
+
+* 해당 포트폴리오에 [지출 권장 사항을 적용](#spend-recommendations-apply)합니다.
+
+* [지출 권장 사항 보고서 데이터를 열거나 파일에 저장](#spend-recommendations-download)
+
+## (새 UI) [!UICONTROL Spend Planner] 보고서 생성 {#spend-recommendations-generate}
 
 1. 다음 중 하나를 수행합니다.
 
@@ -68,7 +70,39 @@ ht-degree: 0%
 
    지출 권장 사항 도구는 주별 시뮬레이션의 데이터를 사용하므로 총 권장 지출은 이상적인 지출 혼합과 제안된 지출 타겟과 가장 가까운 일치입니다.
 
-## (기존 UI) [!UICONTROL Spend Recommendation] > [!UICONTROL Optimization] 보기에서 [!UICONTROL Spend Recommendation] 보고서를 생성합니다.
+<!--
+
+New UI; validate post-Update steps once I get it to generate a report:
+
+## Generate a spend recommendation report {#spend-recommendations-generate}
+
+1. In the main menu, click **[!UICONTROL Plan] > [!UICONTROL Spend Planner]**.
+
+1. View data using the current, combined budgets for the selected portfolios:
+
+   1. Click **[!UICONTROL Select Objective]**.
+
+   1. Select the portfolio objective.
+
+   1. Select the currency.
+
+   1. (Optional) Select a portfolio spend strategy to further filter the portfolios list.
+
+   1. Select the check box next to each portfolio to include.
+
+      Only optimized and active portfolios with the selected parameters are listed.
+
+   1. Click **[!UICONTROL Update]**.
+
+   1. (Optional) To see the cost and revenue for any point on the chart, hold the cursor over the point.
+
+1. (Optional) To view the recommended daily spend and predicted revenue for each of the portfolios using a new total spend target, enter a proposed total daily spend target across all portfolios in the [!UICONTROL Total Spend Target] field. Then press the **Enter** key.
+
+   The spend recommendation tool uses data from weekly simulations, so the total recommended spend is the closest match to your proposed spend target with the ideal spend mix.
+
+-->
+
+## (기존 UI) [!UICONTROL Spend Recommendation] > [!UICONTROL Optimization] 보기에서 [!UICONTROL Spend Recommendation] 보고서를 생성합니다. {#spend-recommendations-generate-legacy}
 
 1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Spend Recommendation]**&#x200B;을(를) 클릭합니다.
 
@@ -92,29 +126,44 @@ ht-degree: 0%
 
    지출 권장 사항 도구는 주별 시뮬레이션의 데이터를 사용하므로 총 권장 지출은 이상적인 지출 혼합과 제안된 지출 타겟과 가장 가까운 일치입니다.
 
-## 지출 권장 사항 적용
+## 지출 권장 사항 적용 {#spend-recommendations-apply}
 
 *일일 예산만 있는 포트폴리오*
 
 >[!NOTE]
 >
->* 적용된 변경 사항이 포트폴리오의 지출 목표를 20% 이상 증가 또는 감소시키는 경우 알림을 받으며 변경 사항을 승인해야 합니다.
+>* 적용된 변경 사항이 포트폴리오의 지출 목표를 20% 이상 증가 또는 감소시키는 경우 변경을 승인해야 합니다.
 >* 포트폴리오에 대한 지출 목표가 20% 이상 변경되는 경우 검색, 소셜 및 Commerce은 모델을 조정하고 새 목표를 달성하는 데 최대 3~4일이 소요됩니다.
 
 1. 일별 예산이 있는 하나 이상의 포트폴리오에 대한 지출 권장 사항 보고서를 봅니다.
 
-1. 권장 지출 목표를 적용할 각 포트폴리오 옆의 확인란을 선택합니다. 모든 포트폴리오를 선택하려면 [!UICONTROL Select All Recommendations] 옆에 있는 확인란을 선택하십시오.
+1. 권장 지출 목표를 적용할 각 포트폴리오 옆의 확인란을 선택합니다. 모든 포트폴리오를 선택하려면 **[!UICONTROL Select All Recommendations]** 옆에 있는 확인란을 선택하십시오.
 
 1. **[!UICONTROL Apply Selected Recommendations]**&#x200B;을(를) 클릭합니다.
 
 1. (예산이 20% 이상 변경되는 경우) 확인 메시지에서 **[!UICONTROL Yes]**&#x200B;을(를) 클릭하여 변경 내용을 승인합니다.
 
-## 파일 열기 또는 데이터 저장
+<!-- 
 
-[!UICONTROL Spend Recommendation] 보고서의 모든 섹션에서 보고서 데이터를 내보낼 수 있습니다. 데이터를 [!DNL Microsoft Excel] 통합 문서 파일로 열거나 저장할 수 있습니다.
+New UI: Verify/edit all steps and edit accordingly:
+
+1. [Generate a spend recommendation report](#spend-recommendations-generate) for one or more portfolios with daily budgets.
+...
+
+ -->
+
+## 데이터를 [!DNL Microsoft Excel] 통합 문서 파일로 열거나 저장 {#spend-recommendations-download}
 
 1. 선택한 포트폴리오에 대한 지출 권장 사항 보고서를 생성합니다.
 
 1. 보고서 위에 있는 ![다운로드](/help/search-social-commerce/assets/download-spend-recommendation.png "다운로드")를 클릭합니다.
 
-   브라우저의 일반 절차에 따라 파일을 열거나 저장합니다.  자세한 내용은 브라우저의 온라인 도움말을 참조하십시오.
+   브라우저의 일반 절차에 따라 파일을 열거나 저장합니다. 자세한 내용은 브라우저의 온라인 도움말을 참조하십시오.
+
+<!--
+
+New UI:  Verify/edit all steps and edit accordingly:
+
+1. [Generate a spend recommendation report](#spend-recommendations-generate).
+...
+-->
