@@ -2,7 +2,7 @@
 title: (새 UI) 포트폴리오 성능 세부 정보 보기
 description: 포트폴리오 수준 및 할당된 각 캠페인에 대한 실제 및 예상 지표를 포함하여 포트폴리오 성과 세부 정보를 보는 방법에 대해 알아봅니다.
 feature: Search Portfolios, Search Optimization
-hide: yes
+hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
 TQID: https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw
 product_v2:
@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: 735
 ht-degree: 0%
