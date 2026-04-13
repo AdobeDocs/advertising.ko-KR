@@ -3,7 +3,8 @@ title: (새 UI) 목표를 위한 성능 데이터 다운로드
 description: 스프레드시트 파일에서 목표를 다운로드하는 방법을 알아봅니다.
 feature: Search Optimization, Search Portfolios
 hide: true
-source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
+exl-id: fbd0e58b-9f9b-4c8e-8a85-197bca220c10
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
