@@ -5,20 +5,14 @@ feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
 TQID: https://experienceleague.adobe.com/CLPeE8g0Mix4Scq90qCd-s-tCUuBmkTBrkBWT1aPEhw
 autotag-review: '2026-04-13T23:29:38.865Z'
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: f2860a4b-f905-4545-bead-1bbc92564592
-subfeature_v2:
-  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2: id: cfd751d4-ee56-4323-8fd1-dc174b031709
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 6e85310e94f642ccf3ccb0d67f43d5ebbf03fa24
 workflow-type: tm+mt
-source-wordcount: 183
+source-wordcount: 190
 ht-degree: 0%
 
 ---
@@ -31,13 +25,13 @@ ht-degree: 0%
 >
 >* Adobe Advertising은 트래픽 지표와 분류를 매일 [!DNL Analytics]에 전달합니다.
 >* [!DNL Analytics]은(는) Adobe Advertising 클릭스루 및 뷰스루를 실시간으로 캡처합니다.
->* [!DNL Search, Social, & Commerce]의 경우 이 기능은 대부분의 광고 네트워크 및 캠페인 유형에 대해 지원됩니다. 자세한 내용은 [&#x200B; 안내서의 &quot;](/help/search-social-commerce/introduction/supported-inventory.md)지원되는 인벤토리[!DNL Search, Social, & Commerce]&quot;을(를) 참조하십시오.
+>* [!DNL Search, Social, & Commerce]의 경우 이 기능은 대부분의 광고 네트워크 및 캠페인 유형에 대해 지원됩니다. 자세한 내용은 [ 안내서의 &quot;](/help/search-social-commerce/introduction/supported-inventory.md)지원되는 인벤토리[!DNL Search, Social, & Commerce]&quot;을(를) 참조하십시오.
 
 ## Adobe Advertising의 트래픽 지표
 
 [!DNL Analytics]의 Adobe Advertising 트래픽 지표는 일반적으로 &quot;[!UICONTROL AMO ID Instances]&quot;을(를) 제외하고 &quot;Adobe Advertising&quot;로 시작합니다. 그러나 예약된 이벤트가 아닌 사용자 지정 이벤트를 사용하여 원래 클릭, 비용 및 노출에 대한 지표를 만든 장기 고객의 경우 해당 지표는 여전히 &quot;AMO&quot;로 시작합니다.
 
-목록에 대해서는 &quot;[Adobe Advertising 지표](https://experienceleague.adobe.com/ko/docs/analytics/components/metrics/amo-metrics)&quot;을(를) 참조하십시오.
+목록에 대해서는 &quot;[Adobe Advertising 지표](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/amo-metrics)&quot;을(를) 참조하십시오.
 
 <!--
 
@@ -61,7 +55,7 @@ ht-degree: 0%
 
 ## Adobe Advertising 분류
 
-&quot;[&#128279;](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#classifications)&quot; 참조
+&quot;[AMO ID 차원에 대한 분류](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#classifications)&quot;을(를) 참조하십시오.
 <!--
 
 >[!NOTE]
