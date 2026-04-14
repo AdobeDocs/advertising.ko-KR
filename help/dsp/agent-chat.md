@@ -2,10 +2,8 @@
 title: AI 지원 채팅을 사용하여 제품 설명서 검색
 description: AI 지원 채팅을 사용하여 Adobe Advertising DSP 및 [!DNL Creative] 설명서를 검색하는 방법에 대해 알아봅니다. 인용 및 제안 후속 프롬프트로 답변을 얻습니다.
 feature: DSP Introduction, Creative Introduction
-hidefromtoc: true
-hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-AI 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색할 수 있습니다. 답변은 [Experience League](https://experienceleague.adobe.com/ko/docs/advertising)에서 이러한 제품에 대해 문서화된 내용만 기반으로 합니다.
+AI 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색할 수 있습니다. 답변은 [Experience League](https://experienceleague.adobe.com/en/docs/advertising)에서 이러한 제품에 대해 문서화된 내용만 기반으로 합니다.
 
 응답에는 쿼리를 구체화하고 추가 정보를 찾는 데 도움이 되는 추가 프롬프트 및 후속 질문뿐만 아니라 인용 문항이 포함됩니다. 채팅 기록은 세션 내내 유지되며 쿼리는 다른 사용자와 공유되지 않습니다.
 
