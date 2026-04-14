@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1e4a456c3add52553936db29a72f42e7d45506c3
+source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
 source-wordcount: 1371
 ht-degree: 0%
@@ -111,13 +111,13 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 
 * **[!UICONTROL Audience Funnel Analysis]:** 모든 타기팅 및 자격 필터가 적용된 후 대상 대상이 사용 가능한 총 풀에서 실제 노출 승리로 축소되는 방식을 보여 주는 일별 시계열 테이블입니다. 전날의 데이터가 표시됩니다. funnel에는 가장 넓은 범위에서 가장 좁은 순서로 다음 지표가 포함되어 있습니다.
 
-   * **[!UICONTROL Audience Segment Size]:** 집계된 대상의 총 고유 사용자 수입니다.
+   * **[!UICONTROL Total Target Audience]:** 집계된 대상의 총 고유 사용자 수입니다.
 
-   * **[!UICONTROL Cookies in Bid Stream]:** 이전 24시간 동안 입찰 스트림에서 활성 상태인 대상 대상의 사용자 수입니다. 이 카운트에는 배치 입찰의 유무에 관계없이 범위에 있는 모든 사용자가 포함됩니다. [!UICONTROL Total Target Audience]에서 [!UICONTROL Reachable Audience]&#x200B;(으)로 감소하면 보고 기간 동안 입찰 스트림에서 활성화되지 않은 대상 부분을 반영하며 입찰 성과가 반영되지 않습니다.
+   * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** 이전 24시간 동안 입찰 스트림에서 활성 상태인 대상 대상의 사용자 수입니다. 이 카운트에는 배치 입찰의 유무에 관계없이 범위에 있는 모든 사용자가 포함됩니다. [!UICONTROL Total Target Audience]에서 [!UICONTROL Reachable Audience]&#x200B;(으)로 감소하면 보고 기간 동안 입찰 스트림에서 활성화되지 않은 대상 부분을 반영하며 입찰 성과가 반영되지 않습니다.
 
-   * **[!UICONTROL Eligible cookies]:** 지역, 장치 유형, 운영 체제 및 브라우저 필터가 적용된 후 남아 있는 연결 가능한 사용자의 하위 집합입니다. 이 숫자가 [!UICONTROL Reachable Audience]보다 상당히 낮은 경우 지역 또는 장치 유형 타깃팅이 너무 제한적인지 검토해 보십시오.
+   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** 지역, 장치 유형, 운영 체제 및 브라우저 필터가 적용된 후 남아 있는 연결 가능한 사용자의 하위 집합입니다. 이 숫자가 [!UICONTROL Reachable Audience]보다 상당히 낮은 경우 지역 또는 장치 유형 타깃팅이 너무 제한적인지 검토해 보십시오.
 
-  **[!UICONTROL Cookies Bid On]:** 배치에서 입찰을 제출한 적격 기회의 수. 이 단계에서의 급격한 하락은 입찰 거래량을 제한하는 예산 또는 게재 간격 제한을 나타낼 수 있다.
+  **[!UICONTROL Devices/Ad Opportunities Bid On]:** 배치에서 입찰을 제출한 적격 기회의 수. 이 단계에서의 급격한 하락은 입찰 거래량을 제한하는 예산 또는 게재 간격 제한을 나타낼 수 있다.
 
    * **[!UICONTROL Impression Wins]:** 배치로 인해 노출이 발생한 기회 수입니다. 낙찰이 입찰보다 훨씬 낮은 경우 입찰 가격은 대상 재고에 대한 일반 시장 비율 미만일 수 있습니다.
 
