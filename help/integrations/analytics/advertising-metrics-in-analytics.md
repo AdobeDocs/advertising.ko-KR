@@ -37,7 +37,7 @@ ht-degree: 0%
 
 [!DNL Analytics]의 Adobe Advertising 트래픽 지표는 일반적으로 &quot;[!UICONTROL AMO ID Instances]&quot;을(를) 제외하고 &quot;Adobe Advertising&quot;로 시작합니다. 그러나 예약된 이벤트가 아닌 사용자 지정 이벤트를 사용하여 원래 클릭, 비용 및 노출에 대한 지표를 만든 장기 고객의 경우 해당 지표는 여전히 &quot;AMO&quot;로 시작합니다.
 
-목록에 대해서는 &quot;[Adobe Advertising 지표](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/amo-metrics)&quot;을(를) 참조하십시오.
+목록에 대해서는 &quot;[Adobe Advertising 지표](https://experienceleague.adobe.com/ko/docs/analytics/components/metrics/amo-metrics)&quot;을(를) 참조하십시오.
 
 <!--
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## Adobe Advertising 분류
 
-&quot;[AMO ID 차원에 대한 분류](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#classifications)&quot;을(를) 참조하십시오.
+&quot;[AMO ID 차원에 대한 분류](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#classifications)&quot;을(를) 참조하십시오.
 <!--
 
 >[!NOTE]
