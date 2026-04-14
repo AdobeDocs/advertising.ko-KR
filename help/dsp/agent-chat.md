@@ -2,10 +2,8 @@
 title: AI 지원 채팅을 사용하여 제품 설명서 검색
 description: AI 지원 채팅을 사용하여 Adobe Advertising DSP 및 [!DNL Creative] 설명서를 검색하는 방법에 대해 알아봅니다. 인용 및 제안 후속 프롬프트로 답변을 얻습니다.
 feature: DSP Introduction, Creative Introduction
-hidefromtoc: true
-hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
