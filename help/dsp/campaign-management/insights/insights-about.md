@@ -4,28 +4,19 @@ description: 시각화를 통한 성능 통찰력에 대해 알아봅니다.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
 TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
-  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
 workflow-type: tm+mt
-source-wordcount: 1371
+source-wordcount: 1369
 ht-degree: 0%
 
 ---
 
 # 인사이트 정보
-
-*Beta 기능*
 
 시각화를 통한 높은 수준의 성능 통찰력은 캠페인을 효율적으로 최적화하고 성과를 확장할 수 있는 새로운 기회를 발견하는 데 필요한 정보를 제공합니다. 지정된 광고주의 캠페인 간에 데이터를 보거나 더 낮은 수준으로 드릴다운할 수 있습니다.
 
@@ -39,7 +30,7 @@ ht-degree: 0%
 
 Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭의 모든 시각화를 PDF 파일로 내보내거나 특정 insight의 데이터를 다운로드할 수 있습니다.
 
-[날짜 범위를 변경하고, 보기를 구성하고, 사용자 지정 보기를 &#x200B;](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} 캠페인 관리 보기와 같이 저장할 수도 있습니다.
+[날짜 범위를 변경하고, 보기를 구성하고, 사용자 지정 보기를 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} 캠페인 관리 보기와 같이 저장할 수도 있습니다.
 
 ## 인사이트 유형
 
@@ -125,7 +116,7 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 
 1. 인사이트 집합 열기:
 
-   * (모든 캠페인에 대한 인사이트를 열려면) 기본 메뉴에서 **[!UICONTROL Insights BETA]**&#x200B;을(를) 클릭합니다.
+   * (모든 캠페인에 대한 인사이트를 열려면) 기본 메뉴에서 **[!UICONTROL Insights]**&#x200B;을(를) 클릭합니다.
 
    * (특정 캠페인, 패키지 또는 배치에 대한 인사이트를 열려면) [!UICONTROL Campaigns], [!UICONTROL Packages] 또는 [!UICONTROL Placements] 보기에서 엔터티 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Insights]**&#x200B;을(를) 클릭합니다.
 
