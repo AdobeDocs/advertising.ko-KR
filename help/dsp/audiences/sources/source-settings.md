@@ -1,11 +1,11 @@
 ---
 title: 대상 소스 설정
-description: 대상 소스의 설정에 대해 알아보십시오.
+description: Learn about the settings for audience sources.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:**(광고주 수준 가시성만 해당) 세그먼트를 사용할 수 있는 광고주입니다. 계정에 액세스할 수 있는 광고주 목록에서 하나를 선택합니다.
 
-**[!UICONTROL Enter IMS Org Id]:**([!DNL Real-Time CDP] 소스만 해당) [!DNL Adobe Experience Platform] 계정에 대한 Adobe Experience Cloud 조직 ID입니다.
+**[!UICONTROL Enter IMS Org Id]:**([!DNL Real-Time CDP] 소스만 해당) [!DNL Adobe Experience Platform] 계정에 대한 Adobe CX Enterprise 조직 ID입니다.
 
 **[!UICONTROL Convert PII to the following IDs]:** PII(개인 식별 정보)를 변환할 ID 유형입니다. 여러 유형을 선택하면 생성된 세그먼트는 선택한 각 ID 유형의 값으로 채워집니다(예: 각 이메일 주소의 [!DNL RampID] 및 [!DNL Unified ID2.0]). 그에 따라 데이터 요금이 부과됩니다.
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >단일 배치에서 한 가지 유형의 ID만 타깃팅할 수 있습니다. ID 유형별로 성능을 테스트하려면 [세그먼트의 각 ID 유형에 대해 별도의 배치를 만듭니다](/help/dsp/campaign-management/placements/placement-create.md).
 
-* *[!DNL RampID]:* PII를 [!DNL RampID]&#x200B;(으)로 변환하려는 경우 로그인 사용자를 다시 타겟팅하고 [!DNL RampIDs] 측정을 위해 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용할 수 있습니다.
+* *[!DNL RampID]:* PII를 [!DNL RampID]&#x200B;(으)로 변환하려는 경우 로그인 사용자를 다시 타겟팅하고 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 측정을 위해 [!DNL RampIDs]을(를) 사용할 수 있습니다.
 
 * *[!DNL Unified ID2.0] (Beta):* 로그인 사용자를 다시 타깃팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 -->
 
-**[!UICONTROL Terms of Service]:** PII를 범용 ID로 변환하는 서비스 약관 계약입니다. 데이터를 새 ID 유형으로 변환하려면 사용자나 DSP 계정의 다른 사용자가 약관에 한 번 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 사용자의 동의를 얻고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 **>**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
+**[!UICONTROL Terms of Service]:** PII를 범용 ID로 변환하는 서비스 약관 계약입니다. 데이터를 새 ID 유형으로 변환하려면 사용자나 DSP 계정의 다른 사용자가 약관에 한 번 동의해야 합니다. For customers with managed service contracts, your Adobe Account Team will get your consent and accept the terms on your organization&#39;s behalf. 용어를 읽으려면 **>**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
 
 **[!UICONTROL Source Key]:**(읽기 전용, 자동으로 생성됨) 고객 데이터 플랫폼에서 대상 연결을 만들어 대상을 Advertising DSP으로 푸시하는 데 사용할 수 있는 소스 키입니다. 값을 클립보드에 복사하여 대상 연결 설정 또는 파일에 붙여넣을 수 있습니다.
 

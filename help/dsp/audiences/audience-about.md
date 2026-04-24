@@ -1,6 +1,6 @@
 ---
-title: Advertising DSP의 고객 관리 정보
-description: 대상자 관리 기능에 대해 알아봅니다.
+title: About audience management in Advertising DSP
+description: Learn about audience management features.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
 TQID: https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA
@@ -18,84 +18,84 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 1321
+source-wordcount: 1394
 ht-degree: 0%
 
 ---
 
-# Advertising DSP의 고객 관리 정보
+# About audience management in Advertising DSP
 
-DSP에서는 배치에 대한 타겟으로 사용할 수 있는 대상 세그먼트 및 대상 세트를 만들고 관리할 수 있습니다.
+In DSP, you can create and manage audience segments and audience sets, which you can use as targets for your placements:
 
-* DSP 세그먼트를 만들고 구현하여 고유한 자사 대상 데이터를 수집합니다. 나중에 광고를 사용하여 세그먼트의 사용자를 다시 타겟팅하거나 세그먼트의 사용자가 광고를 받지 못하도록 할 수 있습니다. 다음 유형의 세그먼트를 만들 수 있습니다.
+* Collect your own first-party audience data by creating and implementing DSP segments. You can later retarget users in the segment with ads or prevent users in the segment from receiving ads. You can create the following types of segments:
 
-   * [사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md) - a) 데스크톱 및 모바일 장치에서 광고에 노출되는 사용자, b) 특정 웹 페이지를 방문하는 사용자를 추적합니다. 추적 태그는 쿠키 기반 사용자 또는 ID5 범용 ID와 연결된 사용자를 추적할 수 있습니다.
+   * [Custom segments](/help/dsp/audiences/custom-segment-create.md) to track a) users exposed to ads from desktop and mobile devices and b) users who visit specific webpages. The tracking tag can track either cookie-based users or users associated with ID5 universal IDs.
 
-   * CCPA(California Consumer Privacy Act)에 따라 [CCPA 판매 중지 세그먼트](/help/dsp/audiences/ccpa-opt-out-segment-create.md)를 통해 웹 사이트의 소비자 판매 중지 요청에서 사용자 ID를 추적할 수 있습니다. 판매 중지 요청에서 사용자 ID의 월별 보고서를 검색할 수 있습니다.
+   * [CCPA opt-out-of-sale segments](/help/dsp/audiences/ccpa-opt-out-segment-create.md) to track the users IDs from consumer opt-out-of-sale requests on your website, per the California Consumer Privacy Act (CCPA). You can retrieve monthly reports of the user IDs from opt-out-of-sale requests.
 
-     CCPA 판매 중지 요청에 대한 Adobe Advertising 지원에 대한 자세한 내용은 [캘리포니아 소비자 개인정보 보호법: 소비자 판매 중지 지원](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)에 대한 Adobe Advertising 지원을 참조하십시오.
+     For more information about Adobe Advertising support for CCPA opt-out-of-sale requests, see [Adobe Advertising support for the California Consumer Privacy Act: Consumer opt-out of sale support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-* (Beta 기능) [쿠키 없는 타깃팅을 위해 유니버설 ID를 가져와 사용](/help/dsp/audiences/universal-ids.md):
+* (Beta feature) [Obtain and use universal IDs for cookieless targeting](/help/dsp/audiences/universal-ids.md):
 
-   * 인증된 [!DNL LiveRamp] [!DNL RampID] 세그먼트를 수동으로 DSP에 직접 보냅니다.
+   * Manually send your authenticated [!DNL LiveRamp] [!DNL RampID] segments directly to DSP.
 
-   * DSP에서 고객 데이터 플랫폼에서 자사 세그먼트를 가져와 지원되는 범용 ID 유형으로 변환할 수 있습니다.
+   * Allow DSP to import first-party segments from your customer data platform and translate them to supported universal ID types.
 
-   * 추가 단계 없이 배치 대상에 범용 ID가 포함된 서드파티 세그먼트를 포함합니다.
+   * Include third-party segments that contain universal IDs in your placement targets without any extra steps.
 
-* [재사용 가능한 대상](/help/dsp/audiences/reusable-audience-create.md)의 대상 라이브러리를 만듭니다. 저장된 대상은 사용 가능한 대상 세그먼트와 다른 저장된 대상으로 구성됩니다. 저장된 대상에 대한 변경 사항은 대상을 타깃팅하거나 제외하는 모든 배치와 저장된 대상을 포함하는 다른 모든 대상에 자동으로 적용됩니다.
+* Create an audience library of [reusable audiences](/help/dsp/audiences/reusable-audience-create.md). Saved audiences are composed of any of your available audience segments and any of your other saved audiences. Any changes you make to a saved audience are automatically applied to all placements that target or exclude the audience and to all other audiences that include the saved audience.
 
-  저장된 대상을 사용하면 미디어 플래너는 복잡한 부울 논리를 사용하여 여러 세그먼트를 포함 및 제외함으로써, 필요에 따라 대상을 그룹화할 수 있습니다. 대상을 만들면 각 개별 세그먼트의 (타깃팅 가능한) 크기 및 전체 활성 대상 크기가 표시됩니다. 그런 다음 캠페인 실행자는 각 배치에 대한 대상 타겟을 수동으로 구성하는 대신, 저장된 하나 이상의 대상을 배치 타겟으로 선택하면 됩니다.
+  Saved audiences allow media planners to group audiences as needed, by including and excluding multiple segments using complex Boolean logic. The  (targetable) size of each individual segment and the overall active audience size are indicated as you build an audience. Campaign executioners can then simply select one or more saved audiences as placement targets rather than manually configure audience targets for each placement.
 
-배치 타깃팅에 추가 대상자 유형을 사용할 수도 있습니다.
+Additional audience types are also available for placement targeting.
 
-## 자사 및 타사 데이터 세그먼트 가져오기
+## Importing first-party and third-party data segments
 
-DSP 사용자 인터페이스를 사용하거나 사용자 지정 가져오기 서비스를 통해 자사 및 타사 데이터 세그먼트를 DSP으로 가져오는 다양한 옵션이 있습니다.
+You have many options to import first-party and third-party data segments into DSP, using the DSP user interface and/or through custom import services.
 
-* DSP은 타깃팅을 위해 Adobe Audience Manager 및 다른 [!DNL Adobe] 대상을 가져올 수 있습니다. 전제 조건 및 지침은 &quot;[광고 타깃팅을 위한 Adobe Audience Manager 세그먼트 가져오기](/help/integrations/audience-manager/import-audiences.md)를 참조하십시오.
+* DSP can pull in your Adobe Audience Manager and other [!DNL Adobe] audiences for targeting. For prerequisites and instructions, see &quot;[Import Adobe Audience Manager segments for ad targeting](/help/integrations/audience-manager/import-audiences.md).
 
-* DSP은 [소스 기능](/help/dsp/audiences/sources/source-about.md)을 사용하여 지원되는 고객 데이터 플랫폼의 자사 데이터 세그먼트를 범용 ID가 있는 세그먼트로 변환할 수 있습니다. 또한 [인증된 세그먼트를 수동으로 [!DNL LiveRamp] [!DNL RampID]DSP으로 직접 보낼 수 있습니다](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
+* DSP can translate first-party data segments from supported customer data platforms to segments with universal IDs using the [Sources feature](/help/dsp/audiences/sources/source-about.md). You can also [manually send your authenticated [!DNL LiveRamp] [!DNL RampID] segments directly to DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
 
-* DSP은 데이터 관리 플랫폼(DMP)에서 직접 다른 자사 데이터 세그먼트를 가져와 필요한 경우 광고주 집합에 제공할 수 있습니다.
+* DSP can import your other first-party data segments directly from your data management platform (DMP) and provide them to any set of advertisers, as needed.
 
-* DSP은 복잡한 타사 세그먼트의 조합을 포함하는 사용자 지정 타사 세그먼트를 가져올 수 있습니다. 필요에 따라 모든 광고주 세트에 세그먼트를 제공할 수 있습니다.
+* DSP can import custom third-party segments, including complex combinations of third-party segments. You can provide the segments to any set of advertisers, as needed.
 
 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
-## 배치 타겟으로 사용할 수 있는 대상자
+## Audiences available as placement targets
 
-배치를 다음 유형의 모든 대상으로 타깃팅할 수 있습니다.
+You can target your placements to all of the following types of audiences.
 
-* DSP에 저장된 사용자가 만든 모든 대상자 세트입니다.
+* All user-created audience sets that were saved in DSP.
 
-* DSP에서 만든 사용자가 만든 모든 대상 세그먼트:
+* All user-created audience segments that were created in DSP:
 
-   * 특정 웹 페이지를 방문한 사용자 및 특정 광고의 노출에 노출된 사용자를 위한 사용자 지정 세그먼트입니다.
+   * Custom segments for users who visited specific webpages and users exposed to impressions of specific ads.
 
-     범용 ID에 게재되는 노출에 대해서는 요금이 부과되지 않습니다.
+     No fees are incurred for impressions delivered to universal IDs.
 
-   * 캘리포니아 소비자 개인정보 보호법(CCPA)에 따라 웹 사이트에서 판매 중지 요청을 제출한 사용자에 대한 CCPA 판매 중지 대상 세그먼트입니다.
+   * CCPA opt-out-of-sale audience segments for users who submitted opt-out-of-sale requests on your website, per the California Consumer Privacy Act (CCPA).
 
-* 범용 ID로 번역된 세그먼트를 포함하여 가져온 모든 자사 데이터 세그먼트.
+* All of your imported first-party data segments, including segments that were translated to universal IDs.
 
-  범용 ID에 게재되는 노출에 대해 추가 비용이 청구됩니다. 요율은 &quot;[자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)&quot;를 참조하십시오.
+  Additional fees are charged for impressions delivered to universal IDs. See &quot;[About first-party audience sources](/help/dsp/audiences/sources/source-about.md)&quot; for rates.
 
-* 가져온 모든 사용자 지정 타사 데이터 세그먼트.
+* All of your imported custom third-party data segments.
 
-* (미국만 대상으로 하는 배치) [모든 타사 데이터 세그먼트는 30개 이상의 공급자에서 사용](/help/dsp/audiences/third-party-data-providers.md)(예: [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar] 등).
+* (Placements targeting the U.S. only) [All third-party data segments available to DSP customers from over 30 providers](/help/dsp/audiences/third-party-data-providers.md), including [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar], and many more.
 
-  대상 데이터에 따라 사용자를 타겟팅하는 특정 세그먼트를 타겟팅할 수 있습니다(예: 특정 인구 통계, 관심사나 의도를 가진 사용자 및/또는 행동 프로필). 데이터 공급자와 범주별로 찾아보거나, 이름 또는 세그먼트 ID별로 세그먼트를 검색하거나, 데이터 공급자, 활성 세그먼트 크기, 웹 브라우저 개수 또는 장치 개수별로 결과를 필터링할 수 있습니다.
+  You can target specific segments, which target users based on audience data (for example, users with specific demographics, interests or intents, and/or behavioral profiles). You can browse by data provider and category, search for segments by name or segment ID, or filter the results by data provider, active segment size, web browser count, or devices count.
 
   타사 세그먼트는 각 세그먼트 이름 옆에 표시되는 추가 비용을 발생시킵니다.
 
-* (Adobe Advertising JavaScript 전환 태그만 사용하는 Adobe Experience Platform 및 [!DNL Real-Time CDP], Adobe Audience Manager 또는 Adobe Analytics을 사용하는 광고주) [!DNL Real-Time CDP]에서 만들었거나, Audience Manager에서 만들었거나, Audience Manager 또는 [!DNL Analytics]에서 Adobe Experience Cloud에 게시한 사용 가능한 모든 퍼스트 파티, 세컨드 파티 또는 서드파티 대상 세그먼트.
+* (Adobe Advertising JavaScript 전환 태그만 사용하는 Adobe Experience Platform 및 [!DNL Real-Time CDP], Adobe Audience Manager 또는 Adobe Analytics을 사용하는 광고주) [!DNL Real-Time CDP]에서 만들었거나, Audience Manager에서 만들었거나, Audience Manager 또는 [!DNL Analytics]에서 Adobe CX Enterprise에 게시한 사용 가능한 모든 퍼스트 파티, 세컨드 파티 또는 서드파티 대상 세그먼트.
 
   세그먼트 사용에 대한 요금은 사전 협상되며 DSP에 표시되지 않습니다.
 
-  [!DNL Analytics]의 세그먼트는 Experience Cloud 대상자로 만들거나 게시한 후 약 1시간 후에 사용할 수 있습니다. Audience Manager 또는 [!DNL Real-Time CDP]에서 직접 가져온 세그먼트는 공유한 후 24시간 이내에 사용할 수 있습니다.
+  [!DNL Analytics]의 세그먼트는 CX Enterprise 대상자로 만들거나 게시한 후 약 1시간 후에 사용할 수 있습니다. Audience Manager 또는 [!DNL Real-Time CDP]에서 직접 가져온 세그먼트는 공유한 후 24시간 이내에 사용할 수 있습니다.
 
   >[!NOTE]
   >

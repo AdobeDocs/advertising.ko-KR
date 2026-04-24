@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1396
+source-wordcount: 1392
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Plan]** 하위 메뉴:
 
-   * **[!UICONTROL Simulations]** 사용자가 만든 모든 사용자 지정 시뮬레이션 및 자동으로 생성된 주별 시뮬레이션을 볼 수 있는 새 [[!UICONTROL Simulations] 보기를 엽니다](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md). 새 사용자 지정 시뮬레이션을 생성하고 기존 시뮬레이션을 다시 실행할 수 있습니다. [!UICONTROL Spend Planner] 단추를 사용하면 [!UICONTROL Spend Recommendation] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization]에서 레거시 [!UICONTROL Spend Recommendation] 도구가 열립니다.
+   * **[!UICONTROL Simulations]** 사용자가 만든 모든 사용자 지정 시뮬레이션 및 자동으로 생성된 주별 시뮬레이션을 볼 수 있는 새 [[!UICONTROL Simulations] 보기를 엽니다](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md). 새 사용자 지정 시뮬레이션을 생성하고 기존 시뮬레이션을 다시 실행할 수 있습니다. [!UICONTROL Spend Planner] 단추를 사용하면 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]에서 레거시 [!UICONTROL Spend Recommendation] 도구가 열립니다.
 
    * **[!UICONTROL Spend Planner]** 새 사이트를 종료하고 기존 [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] 보기를 엽니다.
 
@@ -148,17 +148,17 @@ Tools > Admin > Data Source Setup
 
 ## 오른쪽 상단의 기타 작업 및 정보 기반 메뉴
 
-### 상단 행: Experience Cloud 메뉴
+### 상단 행: CX Enterprise 메뉴
 
-* 액세스 권한이 있는 Experience Cloud 조직의 선택 가능한 목록입니다.
+* 액세스 권한이 있는 CX Enterprise 조직의 선택 가능한 목록입니다.
 
 * ![도움말 센터](/help/search-social-commerce/assets/help-main-menu.png "도움말 센터") 도움말 메뉴(설명서 및 기타 정보 링크 포함)
 
-* ![알림](/help/search-social-commerce/assets/notifications-aec.png "알림") Experience Cloud의 요청, 알림 및 공지를 나열하는 패널.
+* ![알림](/help/search-social-commerce/assets/notifications-aec.png "알림") CX Enterprise의 요청, 알림 및 공지를 나열하는 패널.
 
-* ![앱](/help/search-social-commerce/assets/apps.png "앱") 전환할 수 있는 Adobe Experience Cloud 솔루션 및 서비스 목록입니다.
+* ![앱](/help/search-social-commerce/assets/apps.png "앱") 전환할 수 있는 Adobe CX Enterprise 솔루션 및 서비스 목록입니다.
 
-* ![계정](/help/search-social-commerce/assets/account.png "계정") 환경 설정을 편집하고 로그아웃할 수 있는 Experience Cloud 계정 프로필에 대한 정보입니다.
+* ![계정](/help/search-social-commerce/assets/account.png "계정") 환경 설정을 편집하고 로그아웃할 수 있는 CX Enterprise 계정 프로필에 대한 정보입니다.
 
 ### 두 번째 행: 추가 검색, 소셜 및 Commerce 메뉴
 
@@ -180,7 +180,7 @@ Tools > Admin > Data Source Setup
 
 ![사용자 인터페이스](/help/search-social-commerce/assets/ui.png "사용자 인터페이스")
 
-각 페이지의 상단에는 주 메뉴와 기타 작업 및 정보 기반 메뉴가 포함되어 있습니다.
+The top of each page includes the main menu and other task- and information-based menus.
 
 ## 메인 메뉴
 
@@ -188,38 +188,38 @@ Tools > Admin > Data Source Setup
 
 ## [!UICONTROL Search]개 메뉴
 
-[!UICONTROL Search] 옵션에는 다음 하위 메뉴가 포함되어 있습니다. 역할에 따라 사용 가능한 옵션이 결정됩니다.
+The [!UICONTROL Search] option includes the following submenus. Your role determines your available options:
 
-* **[!UICONTROL Campaigns]** — 이 메뉴에는 관리 또는 추적 중인 광고 계정 및 캠페인에 대한 정보를 보고 관리하는 옵션이 포함되어 있습니다. 광고 네트워크 및 역할에 따라 계정 및 캠페인과 해당 구성 요소를 만들고 편집할 수 있습니다. 다양한 계정 구성 요소에 지정할 수 있는 레이블 분류를 관리할 수도 있습니다.
+* **[!UICONTROL Campaigns]** — This menu includes options to view and manage information about the ad accounts and campaigns that you are managing or tracking. Depending on the ad network and your role, you may be to create and edit accounts and campaigns and their components. You can also manage label classifications, which you can assign to various account components.
 
-* **[!UICONTROL Optimization]** — 이 메뉴에는 비즈니스 목표를 관리하고, 비즈니스 목표에 따라 포트폴리오를 관리하고, 포트폴리오 성과를 모니터링하고, 포트폴리오 간 [!UICONTROL Spend Recommendation Report]을(를) 생성하고, 입찰 제한을 관리하고, [!DNL Google Ads] 전환 값 규칙을 보고(일부 사용자) 관리할 수 있는 옵션이 있습니다.
+* **[!UICONTROL Optimization]** — This menu has options to manage business objectives, manage portfolios based on your business objectives and monitor portfolio performance, generate the cross-portfolio [!UICONTROL Spend Recommendation Report], manage bidding constraints, and view and (some users) manage your [!DNL Google Ads] conversion value rules.
 
-  이러한 기능에 대한 별도의 설명서는 [!UICONTROL Help] 메뉴(![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴"))에서 확인할 수 있습니다.
+  Separate documentation on these features is available from the [!UICONTROL Help] menu (![Help menu](/help/search-social-commerce/assets/help-main-menu.png "Help menu")).
 
-* **[!UICONTROL Insights & Reports]** — 이 메뉴에는 세부 인사이트 및 보고서 생성, 스프레드시트 피드를 사용한 보고서 프로덕션 자동화, 경고 만들기 및 모니터링, 알림 설정 구성, 광고 네트워크 권장 사항 보기, 광고주 계정에 대한 변경 사항 로그 보기 옵션이 포함되어 있습니다.
+* **[!UICONTROL Insights & Reports]** — This menu includes options to generate detailed insights and reports, automate report production using spreadsheet feeds, create and monitor alerts, configure your notification settings, view ad network recommendations, and view a log of changes made to the advertiser account.
 
-* **[!UICONTROL Tools]** — 이 메뉴에는 계정 암호를 변경하고, 웹 사이트 페이지에서 전환을 추적하는 태그를 생성하고, 클릭 추적 URL을 생성 및 디코딩하고, 검색 추적 캠페인에 대한 지표를 업로드하는 옵션이 포함되어 있습니다.
+* **[!UICONTROL Tools]** — This menu includes options to change your account password, generate tags to track conversions from website pages, generate and decode click-tracking URLs, and upload metrics for search tracking campaigns.
 
-* **[!UICONTROL Admin]** — [!UICONTROL Admin] 메뉴에는 데이터 테이블 및 보고서에서 광고주의 전환 지표의 표시 이름을 변경하고, Adobe Audience Manager 계정과 동기화하도록 설정을 구성하고, 특정 [!DNL Google Analytics] 계정, 속성 및 보기 조합에 대한 전환 지표를 동기화하는 옵션이 포함되어 있습니다. 역할에 따라 광고주 계정, 에이전시 계정, 사용자 역할 및 사용자 계정을 관리할 수 있습니다.
+* **[!UICONTROL Admin]** — The [!UICONTROL Admin] menu includes options to change the display names of an advertiser&#39;s conversion metrics in data tables and reports, configure settings to sync with an Adobe Audience Manager account, and sync conversion metrics for a specific [!DNL Google Analytics] account, property, and view combination. Depending on your role, it may allow you to manage advertiser accounts, agency accounts, user roles, and user accounts.
 
-## 오른쪽의 기타 작업 및 정보 기반 메뉴
+## Other task- and information-based menus on the right
 
 * (해당되는 경우) 관리 중인 광고주의 선택 가능한 목록입니다.
 
-* ![경고 알림](/help/search-social-commerce/assets/notifications-panel.png "경고 알림") 검색, 소셜 및 Commerce 알림이 나열된 패널입니다.
+* ![Alert notifications](/help/search-social-commerce/assets/notifications-panel.png "Alert Notifications") A panel listing your Search, Social, &amp; Commerce notifications.
 
-  [Adobe Experience Cloud을 통해 로그인](sign-in.md)하면 이 패널에 Experience Cloud의 알림이 표시됩니다.
+  When you&#39;re [signed in through Adobe CX Enterprise](sign-in.md), this panel shows your notifications from CX Enterprise.
 
-* ![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴") 도움말 메뉴로서 설명서 및 기타 정보에 대한 링크를 포함합니다.
+* ![Help menu](/help/search-social-commerce/assets/help-main-menu.png "Help menu") A help menu that includes links to documentation and other information.
 
-* ![솔루션 전환기](/help/search-social-commerce/assets/menu-icon.png "솔루션 전환기") 전환할 수 있는 Adobe Experience Cloud 솔루션 및 서비스 목록입니다.
+* ![Solution switcher](/help/search-social-commerce/assets/menu-icon.png "Solution switcher") A list of Adobe CX Enterprise solutions and services to which you can switch.
 
-* ![사용자 프로필](/help/search-social-commerce/assets/user-profile.png "사용자 프로필") 로그아웃할 수 있는 프로필 링크입니다.
+* ![User profile](/help/search-social-commerce/assets/user-profile.png "User profile") A link to your profile, from which you can sign out.
 
-  [Adobe Experience Cloud을 통해 로그인](sign-in.md)하는 경우 Experience Cloud 암호 및 알림 설정을 포함하여 Experience Cloud 프로필을 편집할 수도 있습니다.
+  When you&#39;re [signed in through Adobe CX Enterprise](sign-in.md), you can also edit your CX Enterprise profile, including your CX Enterprise password and notification settings.
 
 >[!MORELIKETHIS]
 >
->* [로그인](sign-in.md)
+>* [Sign in](sign-in.md)
 >* [로그아웃](sign-out.md)
->* [새 UI와 레거시 UI 간 전환](ui-switch.md)
+>* [Switch between the new UI and the legacy UI](ui-switch.md)

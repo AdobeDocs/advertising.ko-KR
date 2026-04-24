@@ -18,9 +18,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: 958
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽 [!
 
       [관련 ID 열을 엔터티 보기에 추가](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)하여 ID를 찾을 수 있습니다.
 
-      ![[!UICONTROL Network Account ID] 보기의 [!UICONTROL Accounts] 보기](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] 열에 있는 [!UICONTROL Accounts] 열")
+      [!UICONTROL Accounts] 보기의 [!UICONTROL Accounts] 보기&rbrack;(/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] 열에 있는 !&lbrack;[!UICONTROL Network Account ID] 열")
 
       지원이 필요한 경우 Adobe 계정 팀과 협력합니다.
 
@@ -103,15 +103,15 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽 [!
    >
    >크리에이티브 테스트 사용 사례의 경우 Adobe 계정 팀에 문의하십시오.
 
-## 2단계: [!DNL Analytics for Target]에서 [!DNL Analytics] Analysis Workspace 설정
+## 2단계: [!DNL Analytics]에서 [!DNL Analytics for Target] Analysis Workspace 설정
 
-[!DNL Analytics for Target]&#x200B;(A4T)은(는) 광고주가 [!DNL Target] 전환 지표 및 대상 세그먼트를 기반으로 [!DNL Analytics] 활동을 만든 다음 [!DNL Analytics]을(를) 보고 소스로 사용하여 결과를 측정할 수 있는 솔루션 간 통합입니다. 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics] 데이터 수집을 기반으로 합니다.
+[!DNL Analytics for Target]&#x200B;(A4T)은(는) 광고주가 [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 [!DNL Target] 활동을 만든 다음 [!DNL Analytics]을(를) 보고 소스로 사용하여 결과를 측정할 수 있는 솔루션 간 통합입니다. 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics] 데이터 수집을 기반으로 합니다.
 
 구현 지침에 대한 링크를 포함하여 [!DNL Analytics for Target]에 대한 자세한 내용은 &quot;[Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=ko)&quot;을(를) 참조하십시오.
 
 ### [!DNL Analytics for Target] 패널 설정
 
-Analysis Workspace에서 [!DNL Analytics for Target panel] 활동 및 경험을 분석하도록 [!DNL Target]을(를) 구성합니다. 보고서에 대한 다음과 같은 중요한 지침과 정보를 숙지하십시오.
+Analysis Workspace에서 [!DNL Target] 활동 및 경험을 분석하도록 [!DNL Analytics for Target panel]을(를) 구성합니다. 보고서에 대한 다음과 같은 중요한 지침과 정보를 숙지하십시오.
 
 #### 지표
 
@@ -135,24 +135,24 @@ Analysis Workspace에서 [!DNL Analytics for Target panel] 활동 및 경험을 
 
 Analysis Workspace 내에서 활동 및 경험 데이터가 최소화되거나 채워지지 않는 것을 발견하면 다음을 수행하십시오.
 
-* [!UICONTROL Supplemental Data ID]과(와) [!DNL Target]에 모두 동일한 [!DNL Analytics]&#x200B;(SDID)가 사용되는지 확인하십시오. 캠페인이 사용자를 유도하는 랜딩 페이지에서 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=ko)를 사용하여 SDID 값을 확인할 수 있습니다.
+* [!DNL Target]과(와) [!DNL Analytics]에 모두 동일한 [!UICONTROL Supplemental Data ID]&#x200B;(SDID)가 사용되는지 확인하십시오. 캠페인이 사용자를 유도하는 랜딩 페이지에서 [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=ko)을(를) 사용하여 SDID 값을 확인할 수 있습니다.
 
-[Adobe Debugger의 SDID(Supplemental Data ID) 값](/help/integrations/assets/target-troubleshooting-sdid.png)
+  [Adobe Debugger의 SDID(Supplemental Data ID) 값](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* 같은 랜딩 페이지에서 a) [!UICONTROL Hostname] > [!UICONTROL Solutions] 아래의 Adobe Debugger에 표시된 [!UICONTROL Target]이(가) b) 활동에 대한 [!UICONTROL Tracking Server] ([!DNL Target] > [!UICONTROL Goals & Settings] 아래)에 표시된 [!UICONTROL Reporting Settings]과(와) 일치하는지 확인하십시오.
+* 같은 랜딩 페이지에서 a) [!UICONTROL Solutions] > [!UICONTROL Target] 아래의 Adobe Debugger에 표시된 [!UICONTROL Hostname]이(가) b) 활동에 대한 [!DNL Target] ([!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings] 아래)에 표시된 [!UICONTROL Tracking Server]과(와) 일치하는지 확인하십시오.
 
-  [!DNL Analytics For Target]을(를) 사용하려면 [!DNL Analytics]에서 Analytics용 [!DNL Target] 데이터 수집 서버로 호출하는 동안 [!DNL Modstats] 추적 서버를 보내야 합니다.<!-- just "to Analytics?"-->
+  [!DNL Analytics For Target]을(를) 사용하려면 [!DNL Target]에서 Analytics용 [!DNL Modstats] 데이터 수집 서버로 호출하는 동안 [!DNL Analytics] 추적 서버를 보내야 합니다.<!-- just "to Analytics?"-->
 
-[Adobe Debugger의 호스트 이름 값](/help/integrations/assets/target-troubleshooting-hostname.png)
+  [Adobe Debugger의 호스트 이름 값](/help/integrations/assets/target-troubleshooting-hostname.png)
 
-[Target의 추적 서버 값](/help/integrations/assets/target-troubleshooting-tracking-server.png)
+  [Target의 추적 서버 값](/help/integrations/assets/target-troubleshooting-tracking-server.png)
 
 ## 추가 읽기
 
 * [Analytics와 Target 통합](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=ko) - Analysis Workspace에서 [!DNL Target] 보고를 설정하는 방법에 대해 설명합니다.
-* [A/B 테스트 개요](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=ko) - 검색, 소셜 및 Commerce 광고에 사용할 수 있는 A/B 테스트 활동에 대해 설명합니다.
+* [A/B Test Overview](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=ko) - Describes A/B test activities, which you can use with Search, Social, &amp; Commerce ads.
 * [개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Analytics 인스턴스에서 클릭스루 및 뷰스루 사이트 상호 작용을 추적할 수 있는 [!DNL Analytics for Advertising]을(를) 소개합니다.
 
 >[!MORELIKETHIS]
 >
->* [Advertising DSP 광고를 위한 Adobe Target에서 A/B 테스트 구성](ab-tests-dsp.md)
+>* [Configure A/B tests in Adobe Target for Advertising DSP ads](ab-tests-dsp.md)

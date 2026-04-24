@@ -2,9 +2,9 @@
 title: 광고주 계정 만들기
 description: 광고주 계정을 만드는 방법을 알아봅니다.
 role: User, Admin
-source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
       1. [!UICONTROL General] 설정을 지정하십시오.
 
-      1. (선택 사항) DSP과 다른 Adobe Experience Cloud 제품 간의 통합을 구성하려면 [!UICONTROL Adobe IMS IDs] 섹션에 광고주의 Experience Cloud 조직 ID를 입력한 다음 [!UICONTROL Integrations] 섹션에서 제품 통합을 구성합니다.
+      1. (선택 사항) DSP과 다른 Adobe CX Enterprise 제품 간의 통합을 구성하려면 [!UICONTROL Adobe IMS IDs] 섹션에 광고주의 CX Enterprise 조직 ID를 입력한 다음 [!UICONTROL Integrations] 섹션에서 제품 통합을 구성합니다.
 
    1. (선택 사항) [!UICONTROL Targeting] 섹션에서 각 새 배치에 대한 기본 대상을 지정합니다.
 

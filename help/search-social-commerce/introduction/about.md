@@ -16,9 +16,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 762
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ Search, Social 및 Commerce은 광고 네트워크 전반에 걸쳐 포괄적인
 
 다양한 광고 네트워크 및 광고 유형에 대한 지원에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;를 참조하십시오.
 
-## Adobe Experience Cloud 솔루션 및 서비스와의 통합
+## Adobe CX Enterprise 솔루션 및 서비스와의 통합
 
 Adobe Analytics 및 Adobe Audience Manager과의 기본 통합을 통해 광고 타깃팅, [!DNL Google Ads] 대상 만들기, 최적화 및 보고/분석을 위해 데이터와 대상 세그먼트를 연결할 수 있습니다.
 
-이러한 Adobe 제품과 다른 Adobe Experience Cloud 제품과의 통합에 대한 자세한 내용은 &quot;[솔루션 및 서비스와 통합](/help/search-social-commerce/introduction/integrations.md)&quot;을 참조하십시오.
+이러한 Adobe 제품과 다른 Adobe CX Enterprise 제품과의 통합에 대한 자세한 내용은 &quot;[솔루션 및 서비스와 통합](/help/search-social-commerce/introduction/integrations.md)&quot;을 참조하십시오.
 
 ## 전환 추적
 
@@ -76,4 +76,4 @@ Adobe Advertising은 선택적으로 웹 사이트에 연결되는 광고의 온
 >[!MORELIKETHIS]
 >
 >* [지원되는 인벤토리](supported-inventory.md)
->* [Adobe Experience Cloud 솔루션 및 서비스와 통합](integrations.md)
+>* [Adobe CX Enterprise 솔루션 및 서비스와 통합](integrations.md)

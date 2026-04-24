@@ -1,6 +1,6 @@
 ---
 title: ' [!DNL Marketing Channels]의 기본 사항'
-description: ' [!DNL Analytics Marketing Channels] 사용자가 이해해야 하는  [!DNL Analytics for Advertising] 에 대한 주요 정보를 알아봅니다.'
+description: ' [!DNL Analytics for Advertising] 사용자가 이해해야 하는  [!DNL Analytics Marketing Channels] 에 대한 주요 정보를 알아봅니다.'
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
 TQID: https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk
@@ -14,16 +14,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: 561
 ht-degree: 0%
 
 ---
 
 # [!DNL Analytics Marketing Channels]의 기본 사항
 
-이 페이지에서는 [!DNL Analytics Marketing Channels] 사용자가 이해해야 하는 [!DNL Analytics for Advertising]에 대한 주요 정보를 설명합니다.
+이 페이지에서는 [!DNL Analytics for Advertising] 사용자가 이해해야 하는 [!DNL Analytics Marketing Channels]에 대한 주요 정보를 설명합니다.
 
 [!DNL Marketing Channels]에 대한 전체 설명서는 &quot;[시작하기 [!DNL Marketing Channels]](https://experienceleague.adobe.com/ko/docs/analytics/components/marketing-channels/c-getting-started-mchannel)&quot;를 참조하십시오.
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [!DNL Marketing Channels]은(는) Adobe Analytics의 주요 기능입니다. [!DNL Marketing Channels] 보고서는 고객이 보고 기간 동안 웹 사이트에 도착하는 방법과 각 채널이 매출이나 현장 동작에 미치는 영향을 보여줍니다.
 
-교차 방문 여정의 다음 예를 생각해 보십시오. 웹 사이트에 대한 각 방문은 방문자가 시작한 마케팅 채널에 의해 표시됩니다. 첫 번째 터치 채널이라고도 하는 첫 번째 방문은 이메일입니다. 방문 2에 표시되는 것은 참여 채널이며, 자연어 검색은 마지막 터치 채널로 간주됩니다. [!UICONTROL Last Touch Attribution] 내에서 [!UICONTROL Attribution IQ]을(를) 사용하는 경우 자연어 검색은 $250 전환 이벤트에 대한 전체 크레딧을 받습니다. Experience Cloud ID 서비스를 사용하면 이러한 개별 방문을 함께 연결하여 단일 방문자에 의해 하나의 여정을 표시할 수 있습니다.
+교차 방문 여정의 다음 예를 생각해 보십시오. 웹 사이트에 대한 각 방문은 방문자가 시작한 마케팅 채널에 의해 표시됩니다. 첫 번째 터치 채널이라고도 하는 첫 번째 방문은 이메일입니다. 방문 2에 표시되는 것은 참여 채널이며, 자연어 검색은 마지막 터치 채널로 간주됩니다. [!UICONTROL Attribution IQ] 내에서 [!UICONTROL Last Touch Attribution]을(를) 사용하는 경우 자연어 검색은 $250 전환 이벤트에 대한 전체 크레딧을 받습니다. Adobe CX Enterprise ID 서비스를 사용하면 이러한 개별 방문을 함께 연결하여 단일 방문자에 의해 하나의 여정을 표시할 수 있습니다.
 
 ![마케팅 채널의 교차 방문 전환 여정 예](/help/integrations/assets/a4adc-mc-sample-journey.png)
 

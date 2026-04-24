@@ -18,9 +18,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 834
 ht-degree: 0%
 
 ---
@@ -54,11 +54,11 @@ Adobe Advertising을 Adobe Analytics과 통합하기 전에 다음 정보를 검
 Adobe Advertising 구현 팀에 다음 사항을 제공합니다.
 
 * 유료 미디어 활동에 대한 보고 및 Adobe Advertising의 최적화 및 보고를 위해 사이트 활동을 제공하는 데 사용할 [!DNL Analytics] 보고서 세트 ID
-* 회사의 Experience Cloud 조직 ID(조직 ID).
+* 회사의 CX Enterprise 조직 ID(조직 ID).
 
-이 두 ID는 모두 Adobe Experience Cloud Debugger의 [요약 탭](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ko)에서 찾을 수 있습니다.
+이 두 ID는 모두 Adobe Experience Platform Debugger의 [요약 탭](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ko)에서 찾을 수 있습니다.
 
-![Experience Cloud Debugger 요약 화면](/help/integrations/assets/a4adc-debugger-summary.png)
+![Experience Platform Debugger 요약 화면](/help/integrations/assets/a4adc-debugger-summary.png)
 
 ## Adobe Advertising의 [!DNL Analytics] 데이터 {#lookback-a4adc}
 
@@ -126,7 +126,7 @@ Adobe Advertising의 ![광고주 수준 전환 확인 기간 설정](/help/integ
 
 정확한 데이터 통합을 위해 콘텐츠를 전달하거나 목표 지표를 기록하기 위해 [!DNL Analytics for Advertising] 활동에서 사용하는 모든 Adobe Advertising 호출에는 동일한 보충 ID를 공유하는 해당 [!DNL Analytics] 히트가 있어야 합니다.
 
-[!DNL Analytics]에서 문제를 해결하는 경우 [!DNL Analytics]개의 히트에 대한 보조 ID가 있는지 확인하십시오. [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ko)에서 이 ID는 Adobe Advertising 탭에서 `sdid` 매개 변수로 표시됩니다.
+[!DNL Analytics]에서 문제를 해결하는 경우 [!DNL Analytics]개의 히트에 대한 보조 ID가 있는지 확인하십시오. [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ko)에서 이 ID는 Adobe Advertising 탭에서 `sdid` 매개 변수로 표시됩니다.
 
 >[!NOTE]
 >

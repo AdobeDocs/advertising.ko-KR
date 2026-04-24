@@ -3,9 +3,9 @@ title: Adobe Advertising 전환 추적 태그 생성 및 구현
 description: Adobe Advertising 전환 태그를 만들어 전환 이벤트를 추적하는 방법에 대해 알아봅니다.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: 674c2a40ccb64b6dfcbda2c4030a8b985ce58a45
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,11 @@ ht-degree: 0%
 
 **[!UICONTROL Tag Properties]:** 최종 사용자가 전환 태그가 포함된 페이지를 볼 때 추적할 하나 이상의 전환 지표가 있습니다. 목록에 지표를 추가하려면 &quot;[!UICONTROL Add new property]&quot; 필드에 지표 이름을 입력하고 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
-여러 지표를 추적할 때 `&`과(와) 같은 태그의 앰퍼샌드(`ev_Property1=<Property1>&ev_Property2=<Property2>`)에 의해 연결됩니다.
+여러 지표를 추적할 때 `ev_Property1=<Property1>&ev_Property2=<Property2>`과(와) 같은 태그의 앰퍼샌드(`&`)에 의해 연결됩니다.
 
 >[!NOTE]
 >
->이 목록에 추가된 지표는 아무 곳에나 저장되지 않거나 [!UICONTROL Conversions] 탭에서 클라이언트의 [!UICONTROL Admin] 목록과 통합됩니다. 그러나 Adobe Advertising이 실제로 지표에 대한 데이터를 수집하면 지표가 클라이언트의 [!UICONTROL Conversions] 목록에 자동으로 추가됩니다. 이 오류는 전환 태그가 페이지에 구현되어 있고 최종 사용자가 해당 페이지를 여는 트랜잭션을 완료할 때 발생합니다.
+>이 목록에 추가된 지표는 아무 곳에나 저장되지 않거나 [!UICONTROL Admin] 탭에서 클라이언트의 [!UICONTROL Conversions] 목록과 통합됩니다. 그러나 Adobe Advertising이 실제로 지표에 대한 데이터를 수집하면 지표가 클라이언트의 [!UICONTROL Conversions] 목록에 자동으로 추가됩니다. 이 오류는 전환 태그가 페이지에 구현되어 있고 최종 사용자가 해당 페이지를 여는 트랜잭션을 완료할 때 발생합니다.
 
 **[!UICONTROL Include unique transaction IDs]:**(선택 사항) 태그에 트랜잭션 ID 속성(`ev_transid=<transid>`)이 포함되어 있습니다. 이 옵션은 기본적으로 선택되어 있습니다.
 
@@ -76,7 +76,7 @@ Adobe Advertising 전환 및 페이지 보기 추적 태그에 대한 &quot;[FAQ
 
 ## Adobe Experience Platform 태그 및 Adobe Advertising 확장을 사용하여 전환 추적 태그 구현
 
-Adobe Experience Platform의 태그를 사용하여 검색, 소셜 및 Commerce에 대한 전환 추적을 설정할 수 있습니다. 태그는 부가가치 기능으로 포함되어 Adobe Experience Cloud 고객이 사용할 수 있습니다.
+Adobe Experience Platform의 태그를 사용하여 검색, 소셜 및 Commerce에 대한 전환 추적을 설정할 수 있습니다. 태그는 부가가치 기능으로 포함되어 Adobe CX Enterprise 고객이 사용할 수 있습니다.
 
 Experience Platform 사용자 인터페이스 또는 Experience Platform 데이터 수집 사용자 인터페이스에서 검색, 소셜 및 Commerce에 대한 전환 추적 태그를 구성하는 데 다음 작업이 필요합니다. 태그 구성에 대한 전체 정보와 지침은 &quot;[태그 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home)&quot; 및 &quot;[빠른 시작 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/get-started/quick-start)&quot;로 시작하는 Experience Platform 태그 안내서를 참조하십시오.
 

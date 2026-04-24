@@ -2,40 +2,40 @@
 role: User
 user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
-breadcrumb-title: Creative 안내서
-source-git-commit: a5a29233034121a310ee172fe2cf6997047733c2
+breadcrumb-title: 크리에이티브 안내서
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '410'
 ht-degree: 5%
 
 ---
 
 
-# Advertising Creative 2.0 안내서 {#creative}
+# Advertising Creative 2.0 Guide {#creative}
 
 + [새로운 기능](/help/creative/home.md)
 + 소개 {#introduction}
-   + [Adobe Advertising Creative 정보](/help/creative/introduction/creative-about.md)
-   + [데이터 보기 사용자 지정](/help/creative/introduction/customize-data-views.md)
-   + [동적 광고용 워크플로우](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [소비자 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
-+ Creative 라이브러리 {#creative-libraries}
-   + [크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)
-   + [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)
-   + [Creative Libraries 관리](/help/creative/creative-libraries/creative-library-manage.md)
-   + 광고 {#creatives}
-      + [Adobe Experience Manager 이미지 자산에 대한 액세스 구성](/help/creative/creative-libraries/aem-assets-configure.md)
-      + 표준 광고 {#standard-creatives}
-         + [크리에이티브 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md)
-         + [표준 광고 편집](/help/creative/creative-libraries/creative-edit-standard.md)
-         + [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md)
-         + [HTML5 creative 사양](/help/creative/creative-libraries/html5-creative-specification.md)
-      + 다이내믹 크리에이티브 {#dynamic-creatives}
-         + [Creative 라이브러리에 동적 크리에이티브 추가](/help/creative/creative-libraries/creative-add-dynamic.md)
-         + [동적 크리에이티브 편집](/help/creative/creative-libraries/creative-edit-dynamic.md)
-         + [동적 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-dynamic.md)
-      + [크리에이티브 미리 보기](/help/creative/creative-libraries/creative-preview.md)
+   + [About Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
+   + [Customize your data views](/help/creative/introduction/customize-data-views.md)
+   + [Workflows for dynamic ads](/help/creative/introduction/workflow-dynamic-ads.md)
+   + [Support for consumer privacy](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
+   + [Policies and guidelines](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
++ Creative libraries {#creative-libraries}
+   + [About your creative libraries](/help/creative/creative-libraries/creative-libraries-about.md)
+   + [Supported creative sizes](/help/creative/creative-libraries/creative-sizes.md)
+   + [Manage creative libraries](/help/creative/creative-libraries/creative-library-manage.md)
+   + Creatives {#creatives}
+      + [Configure access to Adobe Experience Manager image assets](/help/creative/creative-libraries/aem-assets-configure.md)
+      + Standard creatives {#standard-creatives}
+         + [Add standard creatives to a creative library](/help/creative/creative-libraries/creative-add-standard.md)
+         + [Edit standard creatives](/help/creative/creative-libraries/creative-edit-standard.md)
+         + [Standard creative settings](/help/creative/creative-libraries/creative-settings-standard.md)
+         + [HTML5 creative specification](/help/creative/creative-libraries/html5-creative-specification.md)
+      + Dynamic creatives {#dynamic-creatives}
+         + [Add dynamic creatives to a creative library](/help/creative/creative-libraries/creative-add-dynamic.md)
+         + [Edit dynamic creatives](/help/creative/creative-libraries/creative-edit-dynamic.md)
+         + [Dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md)
+      + [Preview a creative](/help/creative/creative-libraries/creative-preview.md)
       + [번들에 크리에이티브 첨부](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [광고 복제](/help/creative/creative-libraries/creative-duplicate.md)
       + [크리에이티브 다운로드](/help/creative/creative-libraries/creative-download.md)
@@ -86,13 +86,13 @@ ht-degree: 5%
    + [카탈로그 처리 작업 상태 추적](/help/creative/feeds/job-status-track.md)
 + [동적 광고 템플릿 관리](/help/creative/ad-templates/ad-template-manage.md)
 + [부록: 동적 광고 피드 파일에 사용 가능한 필드](/help/creative/appendix-available-feed-fields.md)
-+ 성능 보고서 {#reports}
-   + [경험 수준 성과 보고서](/help/creative/experiences/experience-performance-details.md)
-   + [경고 보기](/help/creative/reports/alerts-view.md)
-   + [사용자 지정 보고서]{#custom-reports}
-      + [사용자 지정 보고서 기본 정보](/help/creative/reports/reports-about.md)
-      + [사용자 정의 보고서 관리](/help/creative/reports/report-manage.md)
-+ [픽셀 재타겟팅](/help/creative/pixels/retargeting-pixel-manage.md)
-+ [추적 URL에 사용 가능한 매크로](/help/creative/creative-macros.md)
++ Performance reports {#reports}
+   + [Experience-level performance reports](/help/creative/experiences/experience-performance-details.md)
+   + [View alerts](/help/creative/reports/alerts-view.md)
+   + [Custom reports]{#custom-reports}
+      + [About custom reports](/help/creative/reports/reports-about.md)
+      + [Manage custom reports](/help/creative/reports/report-manage.md)
++ [Retargeting pixels](/help/creative/pixels/retargeting-pixel-manage.md)
++ [Available macros for tracking URLs](/help/creative/creative-macros.md)
 + [도움말 보기](/help/creative/get-help.md)
-+ [Adobe Experience Cloud 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko){target="_blank"}
++ [Adobe CX Enterprise release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko){target="_blank"}

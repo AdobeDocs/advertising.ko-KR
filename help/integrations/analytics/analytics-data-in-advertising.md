@@ -11,9 +11,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: 345
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Analytics 세그먼트
 
-[!DNL Analytics]에서 만들어 Experience Cloud에 게시한 모든 세그먼트.
+[!DNL Analytics]에서 만들어 Adobe CX Enterprise(이전 Adobe) Experience Cloud에 게시한 모든 세그먼트입니다.
 
 새 세그먼트가 Adobe Advertising에 표시되는 데 24~48시간이 소요됩니다. 기존 세그먼트에 대한 업데이트는 약 8시간 이내에 동기화됩니다.
 

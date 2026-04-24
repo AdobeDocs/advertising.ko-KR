@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 **[!UICONTROL Advertiser]:**(광고주 수준 가시성만 해당) 세그먼트를 사용할 수 있는 광고주입니다. 계정에 액세스할 수 있는 광고주 목록에서 하나를 선택합니다.
 
-**[!UICONTROL Enter IMS Org Id]:**([!DNL Real-Time CDP] 소스만 해당) [!DNL Adobe Experience Platform] 계정에 대한 Adobe Experience Cloud 조직 ID입니다.
+**[!UICONTROL Enter IMS Org Id]:**([!DNL Real-Time CDP] 소스만 해당) [!DNL Adobe Experience Platform] 계정에 대한 Adobe CX Enterprise 조직 ID입니다.
 
 **[!UICONTROL Convert PII to the following IDs]:** PII(개인 식별 정보)를 변환할 ID 유형입니다. 여러 유형을 선택하면 생성된 세그먼트는 선택한 각 ID 유형의 값으로 채워집니다(예: 각 이메일 주소의 [!DNL RampID] 및 [!DNL Unified ID2.0]). 그에 따라 데이터 요금이 부과됩니다.
 
@@ -129,7 +129,7 @@ All changes to universal IDs translated from the source are applied after you sa
 >
 >단일 배치에서 한 가지 유형의 ID만 타깃팅할 수 있습니다. ID 유형별로 성능을 테스트하려면 [세그먼트의 각 ID 유형에 대해 별도의 배치를 만듭니다](/help/dsp/campaign-management/placements/placement-create.md).
 
-* *[!DNL RampID]:* PII를 [!DNL RampID]&#x200B;(으)로 변환하려는 경우 로그인 사용자를 다시 타겟팅하고 [!DNL RampIDs] 측정을 위해 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용할 수 있습니다.
+* *[!DNL RampID]:* PII를 [!DNL RampID]&#x200B;(으)로 변환하려는 경우 로그인 사용자를 다시 타겟팅하고 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 측정을 위해 [!DNL RampIDs]을(를) 사용할 수 있습니다.
 
 * *[!DNL Unified ID2.0] (Beta):* 로그인 사용자를 다시 타깃팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
 

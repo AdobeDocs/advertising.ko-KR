@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 185
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Search, Social 및 Commerce을 허용하면 광고주나 에이전시의 모든 
 
 * Adobe Audience Manager 세그먼트
 
-* Adobe Experience Cloud에 게시된 Adobe Analytics 세그먼트
+* Adobe CX Enterprise에 게시된 Adobe Analytics 세그먼트
 
-* Adobe Experience Cloud [!DNL Audience Library]을(를) 사용하여 만든 세그먼트
+* Adobe CX Enterprise [!DNL Audience Library]을(를) 사용하여 만든 세그먼트
 
 자격을 얻으려면 광고주나 에이전시는 [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 구현하고 해당 조직 ID(이전의 [!DNL IMS Org ID])를 제공해야 합니다.
 
@@ -39,11 +39,11 @@ Search, Social 및 Commerce을 허용하면 광고주나 에이전시의 모든 
 
 1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**&#x200B;을(를) 클릭합니다.
 
-1. 광고주의 Adobe Experience Cloud 계정에 대한 고유한 조직 ID를 입력한 다음 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
+1. 광고주의 Adobe CX Enterprise 계정에 대한 고유한 조직 ID를 입력한 다음 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
-   광고주의 조직 ID를 모를 경우 **[!UICONTROL IMS Org ID]** > [!UICONTROL Admin]의 광고주 설정의 [!UICONTROL Manage Client] 필드에서 검색하십시오.
+   광고주의 조직 ID를 모를 경우 [!UICONTROL Admin] > [!UICONTROL Manage Client]의 광고주 설정의 **[!UICONTROL IMS Org ID]** 필드에서 검색하십시오.
 
 >[!MORELIKETHIS]
 >
 >* [대상자 정보](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
->* [Adobe Experience Cloud 솔루션 및 서비스와 통합](/help/search-social-commerce/introduction/integrations.md)
+>* [Adobe CX Enterprise 솔루션 및 서비스와 통합](/help/search-social-commerce/introduction/integrations.md)

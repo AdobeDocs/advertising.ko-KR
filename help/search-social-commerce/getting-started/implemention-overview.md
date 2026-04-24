@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 830
+source-wordcount: 832
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
    1. (Adobe Analytics 및/또는 Adobe Audience Manager이 있는 광고주) Adobe Advertising이 다양한 계정과 데이터를 교환할 수 있도록 계정 간의 통합을 설정합니다.
 
-      &quot;[Experience Cloud과 통합](/help/integrations/home.md)&quot;에 대한 안내서를 참조하십시오.
+      &quot;[CX Enterprise과 통합](/help/integrations/home.md)&quot;에 대한 안내서를 참조하십시오.
 
    1. (광고주: [!DNL Google Analytics]) 최적화 및 보고를 위해 [!DNL Google Analytics] 계정, 속성 및 보기 조합에 대한 전환 지표를 동기화합니다.
 

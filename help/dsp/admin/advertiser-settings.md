@@ -2,9 +2,9 @@
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
 role: User, Admin
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-추가 Adobe Experience Cloud 제품이 있는 광고주는 Experience Cloud에 대한 조직의 고유 ID를 사용하여 일부 제품 간에 데이터를 공유할 수 있습니다. [!UICONTROL Integrations] 섹션에서 특정 제품 통합을 구성할 수 있습니다.
+추가 Adobe CX Enterprise 제품이 있는 광고주는 CX Enterprise에 대한 조직의 고유 ID를 사용하여 일부 제품 간에 데이터를 공유할 수 있습니다. [!UICONTROL Integrations] 섹션에서 특정 제품 통합을 구성할 수 있습니다.
 
-**[!UICONTROL Account IMS org and ID]:**(여러 광고주가 있는 Experience Cloud 계정을 통해 라이선스가 부여된 추가 Experience Cloud 제품이 있는 광고주; 선택 사항) 광고주의 Experience Cloud 조직 ID입니다.
+**[!UICONTROL Account IMS org and ID]:**(여러 광고주가 있는 CX Enterprise 계정을 통해 라이선스가 부여된 추가 CX Enterprise 제품이 있는 광고주; 선택 사항) 광고주의 CX Enterprise 조직 ID입니다.
 
-**[!UICONTROL Advertiser IMS org and ID]:**(추가 Experience Cloud 제품에 대한 직접 라이선스가 있는 광고주, 선택 사항) 광고주의 Experience Cloud 조직 ID입니다.
+**[!UICONTROL Advertiser IMS org and ID]:**(추가 CX Enterprise 제품에 대한 직접 라이선스가 있는 광고주, 선택 사항) 광고주의 CX Enterprise 조직 ID입니다.
 
 ### [!UICONTROL Integrations]
 
-(선택 사항) DSP 계정에 연결된 추가 Experience Cloud 제품. 제품은 [!UICONTROL Adobe IMS IDs] 섹션에 제공된 것과 동일한 Experience Cloud 조직 ID와 연결되어 있어야 합니다.
+(선택 사항) DSP 계정에 연결된 추가 CX Enterprise 제품. 제품은 [!UICONTROL Adobe IMS IDs] 섹션에 제공된 것과 동일한 CX Enterprise 조직 ID와 연결되어 있어야 합니다.
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:**(광고주: [!DNL Advertising Search, Social, & Commerce] 또는 Adobe Advertising 전환 픽셀을 사용) DSP에서 속성 데이터를 교환하는 [!DNL Search, Social, & Commerce] 계정.
 
@@ -56,8 +56,8 @@ ht-degree: 0%
 **[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:**(Adobe Audience Manager 또는 Adobe Analytics을 사용하는 광고주, 선택 사항) DSP이 광고주의 모든 Adobe 대상에 대한 세그먼트 메타데이터, 계층 데이터 및 고유 대상 데이터를 가져오는 Audience Manager 또는 [!DNL Analytics] 계정입니다. 여기에는 다음에 대한 데이터가 포함됩니다.
 
 * Audience Manager 세그먼트
-* Adobe Experience Cloud에 게시된 [!DNL Analytics]개 세그먼트
-* Adobe Experience Cloud [!DNL Audience Library]을(를) 사용하여 만든 세그먼트
+* Adobe CX Enterprise에 게시된 [!DNL Analytics]개 세그먼트
+* Adobe CX Enterprise [!DNL Audience Library]을(를) 사용하여 만든 세그먼트
 * Adobe Experience Platform에서 만들어져 Audience Manager을 통해 Adobe Advertising으로 전송되는 세그먼트
 
 초기 동기화는 약 24시간이 소요됩니다. 그 후에는 데이터가 1~2초 지연으로 실시간으로 동기화됩니다.
@@ -133,19 +133,19 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ###### 비디오
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average video viewability rate is]** 이 옵션을 사용하여 기준을 선택합니다.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. 이 옵션을 사용하여 기준을 선택합니다.
 
-**0&rbrace; 사용&#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average completion & fully viewable rate is]** 이 옵션을 사용하여 기준을 선택합니다.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. 이 옵션을 사용하여 기준을 선택합니다.
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Include URL's whose average player size composition is]** 이 옵션을 사용하여 기준을 선택합니다.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. 이 옵션을 사용하여 기준을 선택합니다.
 
-**0&rbrace; 사용&#x200B;**&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 표시
 
-**0&rbrace;을(를) 사용합니다. &#x200B;** [!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]** 이 옵션을 사용하여 기준을 선택합니다.
+**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. 이 옵션을 사용하여 기준을 선택합니다.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -159,26 +159,26 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 #### [!UICONTROL Ads.text]
 
-**[!UICONTROL Ads.txt Filtering]:** 기본적으로 각 게시자의 [[!DNL Ads.txt]  목록을 활용하여 사용할 &#x200B;](https://iabtechlab.com/ads-txt-about/)사전 입찰 필터링[!DNL Authorized Digital Sellers] 수준입니다.
-* *[!UICONTROL Opt out of ads.txt (default)]*: 모든 판매자의 인벤토리를 구매합니다.
-* *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: 도메인의 승인된 직접 판매자 및 리셀러로부터 인벤토리 구매의 우선 순위를 지정합니다.
-* *[!UICONTROL Ads.txt sellers only]*: 도메인의 승인된 직접 판매자 및 리셀러에서만 인벤토리를 구매합니다.
-* *[!UICONTROL Ads.txt sellers only]*: 도메인의 승인된 직접 판매자에서만 인벤토리를 구매합니다.
+**[!UICONTROL Ads.txt Filtering]:** By default, which level of [[!DNL Ads.txt] pre-bid filtering](https://iabtechlab.com/ads-txt-about/) to use by leveraging each publisher&#39;s [!DNL Authorized Digital Sellers] list:
+* *[!UICONTROL Opt out of ads.txt (default)]*: To buy inventory from all sellers.
+* *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: To prioritize buying inventory from a domain&#39;s authorized direct sellers and resellers.
+* *[!UICONTROL Ads.txt sellers only]*: To buy inventory only from a domain&#39;s authorized direct sellers and resellers.
+* *[!UICONTROL Ads.txt sellers only]*: To buy inventory only from a domain&#39;s authorized direct sellers.
 
-[배치 수준](/help/dsp/campaign-management/placements/placement-settings.md)에서 광고주 수준 설정을 재정의할 수 있습니다.
+You can override the advertiser-level setting at the [placement level](/help/dsp/campaign-management/placements/placement-settings.md).
 
 #### [!UICONTROL Safe Site Block]
 
-**[!UICONTROL Enable Site Safety Block]:** 기본적으로 실시간 입찰 필터를 사용하여 광고주가 타깃팅하는 사이트에서 광고가 제공되도록 합니다. <!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
+**[!UICONTROL Enable Site Safety Block]:** By default, enables a real-time, post-bid filter to ensure that ads serve on the sites that the advertiser is targeting. <!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify]개 고객만 해당; 선택 사항) 모든 배치에 기본적으로 사용할 조직의 [!DNL DoubleVerify Authentic Brand Safety] 계정과 연결된 [!DNL DoubleVerify] 세그먼트 ID입니다. ID를 지정하면 지정된 세그먼트 ID에 대해 구성된 사용자 지정 브랜드 안전 규칙을 사용하여 입찰 후 노출을 차단합니다. DSP은 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] customers only; optional) A [!DNL DoubleVerify Authentic Brand Safety] segment ID associated with the organization&#39;s [!DNL DoubleVerify] account to use by default for all placements. Specifying an ID blocks impressions post-bid using the custom brand safety rules configured for the specified segment ID. DSP bills your account for usage for the segment ID.
 
-ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다. 배치 수준에서 광고주 수준 ID를 변경하거나 삭제할 수 있습니다.
+The ID must begin with &quot;51&quot; and consist of eight digits. You can change or delete the advertiser-level ID at the placement level.
 
 >[!MORELIKETHIS]
 >
->* [광고주 계정 만들기](/help/dsp/admin/advertiser-create.md)
+>* [Create an advertiser account](/help/dsp/admin/advertiser-create.md)
 
 <!-- >* [View the advertiser list for the account](/help/dsp/admin/advertiser-view.md) -->

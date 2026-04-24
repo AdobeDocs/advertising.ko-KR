@@ -1,18 +1,18 @@
 ---
-user-guide-title: Adobe Experience Cloud와 통합
-user-guide-description: Advertising DSP 및 Advertising Search와 다른 Adobe Experience Cloud 제품 및 서비스와의 통합에 대해 알아봅니다.
-breadcrumb-title: Experience Cloud와 통합
+user-guide-title: Adobe CX Enterprise과 통합
+user-guide-description: Advertising DSP 및 Advertising Search와 다른 Adobe CX Enterprise(이전의 Adobe Experience Cloud) 제품 및 서비스와의 통합에 대해 알아봅니다.
+breadcrumb-title: CX Enterprise과 통합
 role: User, Developer
 index: true
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 11%
+source-wordcount: '266'
+ht-degree: 1%
 
 ---
 
 
-# Adobe Experience Cloud과 Adobe Advertising 통합 {#integrations}
+# Adobe CX Enterprise과 Adobe Advertising 통합 {#integrations}
 
 + [새로운 기능](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
@@ -24,8 +24,8 @@ ht-degree: 11%
       + [Adobe Experience Platform과 함께  [!DNL Last Event Service] JavaScript 라이브러리 사용 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
       + [Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집](/help/integrations/analytics/rvars-to-evars.md)
       + (DSP) 광고 태그용 매크로 {#macros}
-         + [&#x200B; [!DNL Analytics for Advertising] ad 태그에  [!DNL Flashtalking] 매크로 추가](/help/integrations/analytics/macros-flashtalking.md)
-         + [&#x200B; [!DNL Analytics for Advertising] ad 태그에  [!DNL Google Campaign Manager 360] 매크로 추가](/help/integrations/analytics/macros-google-campaign-manager.md)
+         + [&#x200B; [!DNL Flashtalking] ad 태그에  [!DNL Analytics for Advertising] 매크로 추가](/help/integrations/analytics/macros-flashtalking.md)
+         + [&#x200B; [!DNL Google Campaign Manager 360] ad 태그에  [!DNL Analytics for Advertising] 매크로 추가](/help/integrations/analytics/macros-google-campaign-manager.md)
    + 데이터 교환됨 {#data}
       + [Analysis Workspace의 Adobe Advertising 지표](/help/integrations/analytics/advertising-metrics-in-analytics.md)
       + [Adobe Advertising의 [!DNL Analytics] 데이터](/help/integrations/analytics/analytics-data-in-advertising.md)
