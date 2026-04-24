@@ -2,12 +2,11 @@
 title: 생성 AI를 사용하여 재사용 가능한 대상 만들기
 description: AI 지원 대상 에이전트를 사용하여 Adobe Advertising DSP에서 재사용 가능한 대상을 만드는 방법을 알아봅니다. 타겟 대상을 자연어 프롬프트로 설명합니다. 에이전트는 타겟 또는 제외로 사용할 타사 세그먼트를 제안하고 대상 표현식을 빌드합니다.
 feature: DSP Audiences
-hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -18,9 +17,9 @@ ht-degree: 0%
 
 *영어만 지원*
 
-<!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
+<!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 사용할 수 있는 모든 타사 세그먼트를 사용하여 재사용 가능한 새로운 대상을 생성할 수 있습니다. 여러 배치에 대한 타겟 또는 제외로 대상을 사용할 수 있습니다.
+AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 사용할 수 있는 모든 자사 및 서드파티 세그먼트를 사용하여 재사용 가능한 새로운 대상을 생성할 수 있습니다. 여러 배치에 대한 타겟 또는 제외로 대상을 사용할 수 있습니다.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -29,6 +28,18 @@ AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 
 >이 기능은 베타 모드이며 변경될 수 있습니다. 대상을 만들고 배치에 사용하기 전에 생성된 대상 표현식이 원하는 대상을 나타내는지 확인하십시오.
 
 ## 생성 AI를 사용하여 재사용 가능한 대상 만들기
+
+<!--
+*Beta feature*
+
+*Support for English only*
+
+>[!NOTE]
+>
+>This feature is in beta mode and is subject to change. Make sure that the generated audience expression represents the audience you want before creating the audience and using it for your placements.
+-->
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**&#x200B;을(를) 클릭합니다.
 
@@ -70,6 +81,8 @@ AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 
 
 ## 프롬프트 작성의 기본 사항 {#writing-prompts}
 
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
 ### 프롬프트에 포함해야 하는 것은 무엇입니까?
 
 * 대상 대상을 설명하려면 명확하고 수사적인 언어를 사용하십시오.
@@ -95,17 +108,11 @@ AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 
 대상자에 대한 프롬프트를 최적화하는 자세한 방법은 &quot;[대상자 브리프 만들기에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
 
 <!--
- I think these are happening later:
+Consider starting by asking for what you should include.
 
-DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
+you can give thumbs up or down to [what exactly?].
 
-you can use a predefined prompt (fill in the blanks, and some fields might have selectors where you can choose values)
-
-Over time, DSP XXXX defaults [clarify this]
-
- onsider starting by asking for a general template, which contains placeholder values that you can replace with your desired values. The default template is something like "Create a xxx with NNN xxx."
-
-you can give thumbs up or down to [what exactly?]. Verify what info is carried over from session to session and what starts from scratch.
+Verify what info is carried over from session to session and what starts from scratch.
 
 -->
 
@@ -121,7 +128,7 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 #### 질문을 하는 대상 에이전트
 
-`If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
 긍정 응답: &quot;progress&quot;, &quot;okay&quot;, &quot;ok&quot;, &quot;yes&quot; 또는 다른 유사한 단어
 
