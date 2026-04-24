@@ -1,63 +1,54 @@
 ---
-title: Adobe Audience Manager과 Adobe Advertising 통합
-description: Adobe Advertising이 Adobe Audience Manager과 데이터를 교환할 수 있는 다양한 방법에 대해 알아봅니다.
+title: Adobe Advertising integrations with Adobe Audience Manager
+description: Learn about the different ways in which Adobe Advertising can exchange data with Adobe Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
 TQID: https://experienceleague.adobe.com/4O4O-DmHhClvSiOSxM9blAEvVslzYzRobEyU6RGeMEQ
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-  - id: f2860a4b-f905-4545-bead-1bbc92564592
-subfeature_v2:
-  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2: id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 517
 ht-degree: 0%
 
 ---
 
-# Adobe Audience Manager과 Adobe Advertising 통합
+# Adobe Advertising integrations with Adobe Audience Manager
 
-다음과 같은 방법으로 Adobe Advertising을 Audience Manager과 통합할 수 있습니다.
+You can integrate Adobe Advertising with Audience Manager in the following ways.
 
-## 광고 타깃팅을 위해 Audience Manager 및 기타 [!DNL Adobe] 세그먼트 동기화
+## Synchronize Audience Manager and other [!DNL Adobe] segments for ad targeting
 
-[!DNL Search, Social, & Commerce]과(와) DSP은 광고주나 에이전시의 모든 Audience Manager 및 기타 [!DNL Adobe]개 대상에 대한 메타데이터, 계층 데이터 및 고유한 대상 데이터를 가져올 수 있습니다. 이 고유한 연결은 Adobe Advertising을 사용하는 마케터만 사용할 수 있습니다. &quot;[광고 타깃팅용 Adobe Audience Manager 세그먼트 가져오기](/help/integrations/audience-manager/import-audiences.md)&quot;를 참조하십시오.
+[!DNL Search, Social, & Commerce] and DSP can pull in metadata, hierarchy data, and unique audience data for all of an advertiser&#39;s or agency&#39;s Audience Manager and other [!DNL Adobe] audiences. This unique connection is available only to marketers using Adobe Advertising. See &quot;[Import Adobe Audience Manager segments for ad targeting](/help/integrations/audience-manager/import-audiences.md).&quot;
 
-### Audience Manager 및 기타 [!DNL Adobe] 세그먼트를 사용하여 [!DNL Google Ads] 대상 만들기 {#audience-manager-google-audiences}
+### Use Audience Manager and other [!DNL Adobe] segments to create [!DNL Google Ads] audiences {#audience-manager-google-audiences}
 
-*만 사용하는 [!DNL Advertising Search, Social, & Commerce]옵트인 광고주*
+*Opted-in advertisers with [!DNL Advertising Search, Social, & Commerce] only*
 
-[!DNL Search, Social, & Commerce] 내에서 [!DNL Google Ads] 및 [!UICONTROL Adobe Media Optimizer (HTTP)]을(를) 대상으로 하는 기존 Audience Manager 세그먼트를 사용하여 사용자 ID에서 [!UICONTROL Adobe Media Optimizer Batch Destination] 고객 일치 대상을 만들 수 있습니다. ([!DNL Media Optimizer]은(는) [!DNL Search, Social, & Commerce]의 이전 이름입니다. 여기에는 Adobe Experience Cloud에 게시된 Adobe Analytics 세그먼트와 Adobe Experience Cloud [!DNL Audience Library]을(를) 사용하여 만든 세그먼트가 포함됩니다. 자세한 내용은 &quot;[대상자 만들기 [!DNL Google Ads] 고객 일치 대상자 [!DNL Adobe] 대상자](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)&quot;를 참조하십시오.
+Within [!DNL Search, Social, & Commerce], you can create [!DNL Google Ads] customer match audiences from user IDs using your existing Audience Manager segments that have [!UICONTROL Adobe Media Optimizer (HTTP)] and [!UICONTROL Adobe Media Optimizer Batch Destination] as destinations. ([!DNL Media Optimizer] is a former name for [!DNL Search, Social, & Commerce].) This includes Adobe Analytics segments that are published to Adobe CX Enterprise and segments that are created using the Adobe CX Enterprise [!DNL Audience Library]. For more information, see &quot;[Create [!DNL Google Ads] customer match audiences from [!DNL Adobe] audiences](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).&quot;
 
-[사용자 ID의 고객 일치 대상](https://support.google.com/google-ads/answer/9199250)은(는) 웹 사이트 태그 기반 대상과 비슷하게 작동하지만, 표준 고객 일치 및 웹 사이트 태그 기반 대상과 구별되는 이점을 얻기 위해 PII ID가 아닌 ID가 고유 대상자 구성원에게 할당됩니다.
+[Customer match audiences from user IDs](https://support.google.com/google-ads/answer/9199250) work like website tag-based audiences, but a non-PII ID is assigned to unique audience members for distinct benefits over standard customer match and website tag-based audiences.
 
-필요한 사용자 ID를 만들려면 웹 사이트에서 Adobe Advertising JavaScript 태그 <!-- with a user ID parameter -->을(를) 사용해야 합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+To create the necessary user IDs, you must use an Adobe Advertising JavaScript tag <!-- with a user ID parameter -->on your websites. Contact your Adobe Account Team for more information.
 
-![세그먼트 만들기 프로세스](/help/integrations/assets/ad_search_user_id_pic.png)
+![segment creation process](/help/integrations/assets/ad_search_user_id_pic.png)
 
-대상을 만들면 [!DNL Google Ads] 캠페인에서 [캠페인 수준 또는 광고 그룹 수준 타겟 또는 제외](#audience-manager-targets)(으)로 사용할 수 있습니다.
+Once you create the audiences, you can use them in [!DNL Google Ads] campaigns as [campaign-level or ad group-level targets or exclusions](#audience-manager-targets).
 
-### Audience Manager 및 기타 [!DNL Adobe] 세그먼트를 사용하여 광고를 타깃팅하거나 제외합니다. {#audience-manager-targets}
+### Use Audience Manager and other [!DNL Adobe] segments to target or exclude ads {#audience-manager-targets}
 
-* ([!DNL Search, Social, & Commerce]을(를) 사용하는 옵트인 광고주) [!DNL Google Ads] 캠페인에서 [세그먼트 [!DNL Adobe] 를 사용하여 &#x200B;](#audience-manager-google-audiences)만든 [!DNL Google Ads] 대상을 캠페인 수준 또는 광고 그룹 수준 타겟 또는 제외로 사용할 수 있습니다.
+* (Opted-in advertisers with [!DNL Search, Social, & Commerce]) You can use any [!DNL Google Ads] audiences that were [created using [!DNL Adobe] segments](#audience-manager-google-audiences) as campaign-level or ad group-level targets or exclusions in your [!DNL Google Ads] campaigns.
 
-* (DSP을 사용하는 광고주) 기존 [!DNL Adobe] 세그먼트를 광고 배치 대상으로 사용할 수 있습니다. 재사용 가능한 대상에 세그먼트를 선택적으로 포함할 수 있으며, 이 대상은 여러 배치에 대한 타겟 또는 제외로 사용할 수 있습니다.
+* (Advertisers with DSP) You can use your existing [!DNL Adobe] segments as targets for your ad placements. 재사용 가능한 대상에 세그먼트를 선택적으로 포함할 수 있으며, 이 대상은 여러 배치에 대한 타겟 또는 제외로 사용할 수 있습니다.
 
 * (Advertising Creative을 사용하는 광고주) 기존 [!DNL Adobe] 세그먼트를 광고 경험의 특정 크리에이티브를 위한 타겟으로 사용할 수 있습니다.
 
 >[!NOTE]
 >
->Audience Manager 및 Experience Cloud [!DNL Audience Library] 인터페이스에서 대상을 만드는 방법과 다양한 대상 유형에 대한 일반적인 사용 사례에 대한 자세한 내용은 &quot;[대상 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ko)&quot;을 참조하십시오.
+>Audience Manager 및 Adobe CX Enterprise [!DNL Audience Library] 인터페이스에서 대상을 만드는 방법과 다양한 대상 유형에 대한 일반적인 사용 사례에 대한 자세한 내용은 &quot;[대상 만들기 옵션](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;을 참조하십시오.
 
 ## Audience Manager에 DSP 미디어 노출 데이터 보내기
 
@@ -69,6 +60,6 @@ Adobe Audience Manager을 사용하는 DSP 고객은 Audience Manager에 대한 
 
 ## Audience Analytics을 통해 사이트 활동에 대한 보다 풍부한 통찰력 얻기
 
-[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ko)을(를) 가진 Adobe Advertising 고객은 사이트 활동에 대한 풍부한 통찰력을 위해 Adobe Advertising 추적 데이터와 Audience Manager 세그먼트를 모두 [!DNL Analytics]에 보낼 수 있습니다.
+[[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)을(를) 가진 Adobe Advertising 고객은 사이트 활동에 대한 풍부한 통찰력을 위해 Adobe Advertising 추적 데이터와 Audience Manager 세그먼트를 모두 [!DNL Analytics]에 보낼 수 있습니다.
 
 자세한 내용은 &quot;[[!DNL Adobe Audience Analytics] Adobe Advertising 고객용](/help/integrations/audience-manager/audience-analytics.md)&quot;을 참조하십시오.

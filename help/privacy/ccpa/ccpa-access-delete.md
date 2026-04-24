@@ -5,26 +5,20 @@ feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
 TQID: https://experienceleague.adobe.com/g7Klc5k3qEPYDKIbTmsQcnklUPVvbN6qqhXaHCHvn3A
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1041
+source-wordcount: 1111
 ht-degree: 0%
 
 ---
 
 # 캘리포니아 소비자 개인 정보 보호법에 대한 Adobe Advertising 지원: 소비자 데이터 액세스 및 삭제 지원
 
-*, Adobe Advertising DSP, Adobe Advertising Creative 및 Adobe Advertising DCO의 [!DNL Adobe Advertising Search, Social, & Commerce]개*
+[!DNL Adobe Advertising Search, Social, & Commerce], Adobe Advertising DSP, Adobe Advertising Creative 및 Adobe Advertising DCO의 *개*
 
 >[!IMPORTANT]
 >
@@ -32,7 +26,7 @@ ht-degree: 0%
 
 CCPA(California Consumer Privacy Act)는 2020년 1월 1일에 발효되는 캘리포니아 주의 새로운 개인 정보 보호법입니다. CCPA는 캘리포니아 주민들에게 개인 정보에 대한 새로운 권리를 제공하고 캘리포니아에서 사업을 하는 특정 업체들에 데이터 보호 책임을 부과합니다. CCPA는 소비자에게 개인 정보를 액세스하고 삭제할 수 있는 권한과 제3자에게 &quot;개인 정보 판매&quot;의 자격이 되는 특정 활동을 거부할 수 있는 권한을 제공합니다.
 
-기업은 Adobe Experience Cloud이 기업을 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
+기업은 Adobe CX Enterprise이 기업을 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
 
 Adobe Advertising은 서비스 제공업체로서, 개인 정보에 액세스하고 삭제하기 위한 요청 관리 및 개인 정보 판매를 거부하기 위한 요청 관리를 포함하여 Adobe Advertising 제품 및 서비스 사용에 적용되는 CCPA에 따른 의무를 이행하도록 비즈니스를 지원합니다.
 
@@ -52,50 +46,50 @@ Adobe Experience Platform은 기업이 다음 작업을 완료할 수 있는 기
 
 ## Adobe Advertising에 대한 요청을 전송하기 위한 필수 설정
 
-Adobe Advertising에서 소비자 개인 정보에 액세스하고 삭제를 요청하려면 다음을 수행해야 합니다.
+To make requests to access and delete consumer personal information from Adobe Advertising, you must:
 
-1. JavaScript 라이브러리를 배포하여 고객의 쿠키를 검색하고 제거합니다. 모든 Adobe Experience Cloud 솔루션에 동일한 라이브러리 `AdobePrivacy.js`이(가) 사용됩니다.
-
-   >[!IMPORTANT]
-   >
-   >일부 Experience Cloud 솔루션에 대한 요청에는 JavaScript 라이브러리가 필요하지 않지만 Adobe Advertising에 대한 요청에는 필요합니다.
-
-   고객이 회사의 개인 정보 보호 포털과 같은 액세스 및 삭제 요청을 제출할 수 있는 웹 페이지에 라이브러리를 배포해야 합니다. 라이브러리를 사용하면 Adobe 쿠키(네임스페이스 ID: `gsurferID`)를 검색하여 [!DNL Adobe Experience Platform Privacy Service API]을(를) 통해 액세스 및 삭제 요청의 일부로 이러한 ID를 제출할 수 있습니다.
-
-   고객이 개인 데이터 삭제를 요청하면 라이브러리가 고객 브라우저에서도 고객 쿠키를 삭제합니다.
-
-   >[!NOTE]
-   >
-   >개인 데이터 삭제는 옵트아웃과 다르며, 이렇게 하면 대상 세그먼트가 있는 최종 사용자의 타겟팅이 중지됩니다. 그러나 소비자가 [!DNL Creative], [!DNL DSP] 또는 [!DNL DCO]에서 개인 데이터를 삭제하도록 요청하면 라이브러리가 Adobe Advertising에 세그먼트 타깃팅에서 고객을 옵트아웃하도록 요청하기도 합니다. [!DNL Search, Social, & Commerce]을(를) 사용하는 광고주의 경우 대상 세그먼트 타깃팅을 옵트아웃하는 방법을 설명하는 [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse) 링크를 고객에게 제공하는 것이 좋습니다.
-
-1. Experience Cloud 조직 ID를 식별하고 Adobe Advertising 계정에 연결되어 있는지 확인합니다.
-
-   Experience Cloud 조직 ID는 &quot;@AdobeOrg&quot;가 추가된 24자 영숫자 문자열입니다. 대부분의 Experience Cloud 고객에게는 조직 ID가 할당되었습니다. 마케팅 팀이나 내부 [!DNL Adobe] 시스템 관리자가 조직 ID를 모르거나 조직 ID가 프로비저닝되었는지 확실하지 않은 경우 Adobe 계정 팀에 문의하십시오. `imsOrgID` 네임스페이스를 사용하여 Privacy API에 요청을 제출하려면 조직 ID가 필요합니다.
+1. Deploy a JavaScript library to retrieve and remove your customer&#39;s cookies. 모든 Adobe CX Enterprise 솔루션에 동일한 라이브러리 `AdobePrivacy.js`이(가) 사용됩니다.
 
    >[!IMPORTANT]
    >
-   >[!DNL DSP] 계정 또는 광고주, [!DNL Search, Social, & Commerce] 계정, [!DNL Creative] 또는 [!DNL DCO] 계정 등 조직의 모든 Adobe Advertising 계정이 Experience Cloud 조직 ID에 연결되어 있는지 확인하려면 회사의 Adobe Advertising 담당자에게 문의하십시오.
+   >일부 CX Enterprise 솔루션에 대한 요청에는 JavaScript 라이브러리가 필요하지 않지만 Adobe Advertising에 대한 요청에는 필요합니다.
 
-1. [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ko)&#x200B;(자동화된 요청의 경우) 또는 [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko)&#x200B;(임시 요청의 경우)를 사용하여 소비자를 대신하여 Adobe Advertising에 개인 정보에 액세스하고 삭제하는 요청을 제출하고 기존 요청의 상태를 확인합니다.
+   You should deploy the library on the webpage from which your customers can submit access and delete requests, such as your company&#39;s privacy portal. The library helps you retrieve Adobe cookies (namespace ID: `gsurferID`) so that you can submit these identities as part of access and delete requests via the [!DNL Adobe Experience Platform Privacy Service API].
 
-   [!DNL DSP]을(를) 사용하여 고객과 상호 작용하고 캠페인을 시작하는 모바일 앱이 있는 광고주의 경우 Experience Cloud용 Privacy-ready Mobile SDK를 다운로드해야 합니다. Mobile SDK를 사용하면 비즈니스에서 옵트아웃 상태 플래그를 설정하고 소비자의 장치 ID(네임스페이스 ID: `deviceID`)를 검색한 다음 Privacy Service API에 요청을 제출할 수 있습니다. 모바일 앱에는 SDK 버전 4.15.0 이상이 필요합니다.
-
-   소비자 액세스 요청을 제출하면 Privacy Service API는 지정된 쿠키 또는 장치 ID를 기반으로 소비자 정보를 반환한 다음 소비자에게 반환해야 합니다.
-
-   소비자 삭제 요청을 제출하면 쿠키 ID 또는 장치 ID와 쿠키와 관련된 모든 비용, 클릭 및 매출 데이터가 서버에서 삭제됩니다.
+   When the customer asks to delete personal data, the library also deletes the customer&#39;s cookie from the customer&#39;s browser.
 
    >[!NOTE]
    >
-   >비즈니스에 여러 Experience Cloud 조직 ID가 있는 경우 각각에 대해 별도의 API 요청을 전송해야 합니다. 그러나 하위 솔루션당 하나의 계정으로 여러 Adobe Advertising 하위 솔루션([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] 및 [!DNL DCO])에 대한 하나의 API 요청을 만들 수 있습니다.
+   >Deleting personal data is different than opting out, which stops the targeting of an end user with audience segments. However, when a consumer asks to delete personal data from [!DNL Creative], [!DNL DSP], or [!DNL DCO], the library also sends a request to Adobe Advertising to opt out the customer from segment targeting. For advertisers with [!DNL Search, Social, & Commerce], we recommend that you provide your customers a link to [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse), which explains how to opt out of audience segment targeting.
 
-Adobe Advertising에서 지원을 받으려면 모든 단계가 필요합니다. Adobe Experience Platform Privacy Service을 사용하여 수행해야 하는 이러한 작업 및 기타 관련 작업에 대한 자세한 내용 및 필요한 항목을 찾을 수 있는 위치를 보려면 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)을(를) 참조하십시오.
+1. Identify your CX Enterprise organization ID and make sure that it&#39;s linked to your Adobe Advertising accounts.
+
+   CX Enterprise 조직 ID는 &quot;@AdobeOrg&quot;가 추가된 24자 영숫자 문자열입니다. 대부분의 CX Enterprise 고객에게는 조직 ID가 할당되었습니다. If your marketing team or internal [!DNL Adobe] system administrator doesn&#39;t know your organization ID, or isn&#39;t sure if it&#39;s been provisioned, then contact your Adobe Account Team. `imsOrgID` 네임스페이스를 사용하여 Privacy API에 요청을 제출하려면 조직 ID가 필요합니다.
+
+   >[!IMPORTANT]
+   >
+   >[!DNL DSP] 계정 또는 광고주, [!DNL Search, Social, & Commerce] 계정, [!DNL Creative] 또는 [!DNL DCO] 계정 등 조직의 모든 Adobe Advertising 계정이 CX Enterprise 조직 ID에 연결되어 있는지 확인하려면 회사의 Adobe Advertising 담당자에게 문의하십시오.
+
+1. Use either the [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (for automated requests) or the [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (for ad-hoc requests) to submit requests to access and delete personal information to Adobe Advertising on behalf of consumers, and to check the status of existing requests.
+
+   For advertisers who have a mobile app to interact with customers and launch campaigns with [!DNL DSP], you must download the Privacy-ready Mobile SDKs for CX Enterprise. The Mobile SDKs allow businesses to set opt-out status flags, retrieve the consumer&#39;s device ID (namespace ID: `deviceID`), and submit requests to the Privacy Service API. 모바일 앱에는 SDK 버전 4.15.0 이상이 필요합니다.
+
+   When you submit a consumer access request, the Privacy Service API returns a consumer&#39;s information based on the specified cookie or device ID, which you then must return to the consumer.
+
+   When you submit a consumer delete request, the cookie ID or device ID and all cost, click, and revenue data associated with the cookie are deleted from the server.
+
+   >[!NOTE]
+   >
+   >If your business has multiple CX Enterprise organization IDs, then you must send separate API requests for each. 그러나 하위 솔루션당 하나의 계정으로 여러 Adobe Advertising 하위 솔루션([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] 및 [!DNL DCO])에 대한 하나의 API 요청을 만들 수 있습니다.
+
+Adobe Advertising에서 지원을 받으려면 모든 단계가 필요합니다. Adobe Experience Platform Privacy Service을 사용하여 수행해야 하는 이러한 작업 및 기타 관련 작업에 대한 자세한 내용 및 필요한 항목을 찾을 수 있는 위치를 보려면 [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)을(를) 참조하십시오.
 
 ## Adobe Advertising JSON 요청의 필수 필드 값
 
 `"company context":`
 
 * `"namespace": **imsOrgID**`
-* `"value":` &lt;*Experience Cloud 조직 ID*>
+* `"value":` &lt;*CX Enterprise 조직 ID*>
 
 &quot;users&quot;:
 
@@ -105,11 +99,11 @@ Adobe Advertising에서 지원을 받으려면 모든 단계가 필요합니다.
 
 * `"user IDs":`
 
-   * `"namespace": **411**`([[!DNL AdCloud] 쿠키 공간](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/appendix)을 나타냄)
+   * `"namespace": **411**`([[!DNL AdCloud] 쿠키 공간](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix)을 나타냄)
 
    * `"value":` &lt;*`AdobePrivacy.js`*&#x200B;에서 검색된 실제 고객의 쿠키 ID 값>
 
-* `"include": **adCloud**`(요청에 적용되는 [[!DNL Adobe] product](https://experienceleague.adobe.com/ko/docs/experience-platform/privacy/api/appendix))
+* `"include": **adCloud**`(요청에 적용되는 [[!DNL Adobe] product](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix))
 
 * `"regulation": **ccpa**`(요청에 적용되는 개인 정보 보호 규정)
 

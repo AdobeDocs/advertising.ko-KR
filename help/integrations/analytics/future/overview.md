@@ -3,9 +3,9 @@ title: Adobe Analytics과 Adobe Advertising 통합
 description: Adobe Advertising에서 Adobe Analytics과 데이터를 교환하는 방법과 검색, 소셜 및 Commerce 내에서 데이터를 사용하는 방법에 대해 알아봅니다.
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] 및 DSP에서 가져오기:
 
-* **[!DNL Analytics]세그먼트:** 메타데이터, 계층 데이터 및 [!DNL Analytics]에서 만들어 Experience Cloud에 게시한 모든 광고주 또는 에이전시의 세그먼트에 대한 고유 대상 데이터입니다.
+* **[!DNL Analytics]세그먼트:** 메타데이터, 계층 데이터 및 [!DNL Analytics]에서 만들어 Adobe CX Enterprise에 게시한 모든 광고주 또는 에이전시의 세그먼트에 대한 고유 대상 데이터입니다.
 
 * **[!DNL Analytics]사이트 참여 지표**
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 ### [!DNL Analytics]개의 세그먼트를 사용하여 [!DNL Google Ads]개의 대상 만들기 {#audience-manager-google-audiences}
 
-*만 사용하는 [!DNL Advertising Search, Social, & Commerce]옵트인 광고주*
+[!DNL Advertising Search, Social, & Commerce]만 사용하는 *옵트인 광고주*
 
 <!-- Verify all -->
 
-[!DNL Search, Social, & Commerce] 내에서 기존 [!DNL Google Ads] 세그먼트를 사용하여 사용자 ID에서 [!DNL Analytics] Google 고객 일치 대상을 만들 수 있습니다. 여기에는 Adobe Experience Cloud에 게시된 Adobe Analytics 세그먼트와 Adobe Experience Cloud [!DNL Audience Library]을(를) 사용하여 만든 세그먼트가 포함됩니다. 자세한 내용은 &quot;[대상자 만들기 [!DNL Google Ads] 고객 일치 대상자 [!DNL Adobe] 대상자](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)&quot;를 참조하십시오.
+[!DNL Search, Social, & Commerce] 내에서 기존 [!DNL Analytics] 세그먼트를 사용하여 사용자 ID에서 [!DNL Google Ads] Google 고객 일치 대상을 만들 수 있습니다. 여기에는 Adobe CX Enterprise에 게시된 Adobe Analytics 세그먼트와 Adobe CX Enterprise [!DNL Audience Library]을(를) 사용하여 만든 세그먼트가 포함됩니다. 자세한 내용은 &quot;[대상자 만들기 [!DNL Google Ads] 고객 일치 대상자 [!DNL Adobe] 대상자](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)&quot;를 참조하십시오.
 
 [사용자 ID의 고객 일치 대상](https://support.google.com/google-ads/answer/9199250)은(는) 웹 사이트 태그 기반 대상과 비슷하게 작동하지만, 표준 고객 일치 및 웹 사이트 태그 기반 대상과 구별되는 이점을 얻기 위해 PII ID가 아닌 ID가 고유 대상자 구성원에게 할당됩니다.
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ### [!DNL Analytics]개의 세그먼트를 사용하여 광고를 타깃팅하거나 제외합니다. {#analytics-targets}
 
-* ([!DNL Search, Social, & Commerce]을(를) 사용하는 옵트인 광고주) [!DNL Google Ads] 캠페인에서 [세그먼트 [!DNL Analytics] 를 사용하여 &#x200B;](#audience-manager-google-audiences)만든 [!DNL Google Ads] 대상을 캠페인 수준 또는 광고 그룹 수준 타겟 또는 제외로 사용할 수 있습니다.
+* ([!DNL Search, Social, & Commerce]을(를) 사용하는 옵트인 광고주) [!DNL Google Ads] 캠페인에서  [!DNL Analytics] 세그먼트](#audience-manager-google-audiences)를 사용하여 [만든 [!DNL Google Ads] 대상을 캠페인 수준 또는 광고 그룹 수준 타겟 또는 제외로 사용할 수 있습니다.
 
 * (DSP을 사용하는 광고주) 기존 [!DNL Analytics] 세그먼트를 광고 배치 대상으로 사용할 수 있습니다. 재사용 가능한 대상에 세그먼트를 선택적으로 포함할 수 있으며, 이 대상은 여러 배치에 대한 타겟 또는 제외로 사용할 수 있습니다.
 

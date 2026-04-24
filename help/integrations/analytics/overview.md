@@ -1,55 +1,46 @@
 ---
-title: ' [!DNL Analytics for Advertising] 개요'
-description: ' [!DNL Analytics for Advertising] 개요'
+title: Overview of [!DNL Analytics for Advertising]
+description: Overview of [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
 TQID: https://experienceleague.adobe.com/OHxJO1mtbzOtt5oGDJF26xSuVLG-HnRDdIGDrUH2pzk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1223
+source-wordcount: 1306
 ht-degree: 0%
 
 ---
 
 # [!DNL Analytics for Advertising] 개요
 
-*Advertising DSP 및[!DNL Advertising Search, Social, & Commerce]*&#x200B;을(를) 사용하는 광고주
+*Advertisers with Advertising Creative, Advertising DSP, and[!DNL Advertising Search, Social, & Commerce]*
 
-[!DNL Analytics for Advertising]은(는) Adobe Analytics과 Adobe Advertising을 통합하여 각 제품의 기능을 확장하고 향상합니다.
+[!DNL Analytics for Advertising] integrates Adobe Analytics and Adobe Advertising to extend and enhance the capabilities of each product.
 
-이 통합을 통해 광고주는 [!DNL Analytics] 인스턴스에서 클릭스루 및 뷰스루 사이트 상호 작용을 추적할 수 있으므로 브랜드는 광고 지출이 사이트 참여 및 중요한 비즈니스 목표로 이어지는 방식을 확인할 수 있습니다.
+The integration allows advertisers to track click-through and view-through site interactions in their [!DNL Analytics] instances, allowing brands to see how their advertising spend leads to site engagement and critical business objectives.
 
-또한 Adobe Advertising에서는 [!DNL Analytics]이(가) 사이트에 이미 있는 [!DNL Analytics] 태그를 사용하여 수집하는 방대한 자사 데이터에 액세스할 수 있습니다. 이를 통해 보다 강력한 여정 관리, 자사 리마케팅 및 유료 미디어 사이트 보고를 수행할 수 있습니다. Adobe Advertising은 지출 및 입찰 최적화에 [!DNL Analytics] 데이터를 추가로 사용할 수 있습니다.
+In addition, Adobe Advertising can access the vast first-party data that [!DNL Analytics] collects using [!DNL Analytics] tags already on the site. This allows more robust journey management, first-party remarketing, and paid media site reporting. Adobe Advertising can further use the [!DNL Analytics] data for spend and bid optimization.
 
-올바르게 작동하면 [!DNL Analytics for Advertising]은(는) 광고 여정 관리(광고를 통해 사용자를 사이트로 보내는 행위)와 웹 분석을 통해 해당 사이트 참여를 이해하는 것과 같은 두 가지 기존의 역할 사이의 선을 흐리게 합니다.
+When properly employed, [!DNL Analytics for Advertising] blurs the lines between two traditional roles: advertising journey management (the act of sending users to the site through advertisements) and understanding that site engagement through web analytics.
 
-주요 이점:
+Primary benefits:
 
-* 자사 사이트 리마케팅을 위해 [!DNL Analytics] 세그먼트를 Adobe Advertising으로 직접 보냅니다.
-* 유료 미디어 광고를 최적화하기 위한 전환 신호로 [!DNL Analytics] 사용자 지정 및 표준 이벤트를 사용합니다.
-* 사이트 시작 지점 및 방문 동작을 더 잘 이해하려면 [!DNL Analytics] Analysis Workspace을 활용하십시오.
-* 웹 분석가와 유료 미디어 팀 간의 긴밀한 공동 작업을 활성화합니다.
-* [!DNL Analytics] 내의 영구 Adobe Advertising 뷰스루 및 클릭스루 ID를 사용하여 사이트 참여를 이해합니다.
-* 데이터 또는 픽셀을 광고 서버 또는 기타 DSP로 내보낼 때 얻을 수 없는 사용자 지정 지표, 사용자 지정 차원 및 사이트 활동을 통해 Analysis Workspace의 기존 유료 미디어 보고서를 향상합니다.
-* Adobe Advertising 내에서 추적 및 최적화를 위해 웹 사이트에 이미 있는 [!DNL Analytics] 코드를 활용하십시오.
+* Send [!DNL Analytics] segments directly to Adobe Advertising for first-party site remarketing.
+* Use [!DNL Analytics] custom and standard events as conversion signals for optimizing paid media advertising.
+* Take advantage of [!DNL Analytics] Analysis Workspace to better understand site entry points and visit behavior.
+* Enable closer collaboration between web analysts and paid media teams.
+* Use persistent Adobe Advertising view-through and click-through IDs within [!DNL Analytics] to understand site engagement.
+* Enhance traditional paid media reports in Analysis Workspace with custom metrics, custom dimensions, and site activity not achievable when exporting data or pixels to ad servers or other DSPs.
+* Take advantage of [!DNL Analytics] code already on your website for tracking and optimization within Adobe Advertising.
 
 >[!TIP]
 >
-> [비디오 소개 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=ko#analytics)를 시청하세요.
+> [비디오 소개 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics)를 시청하세요.
 
 ## 유료 미디어 보고에 Analytics 사용
 
@@ -58,9 +49,9 @@ ht-degree: 0%
 * [!DNL Analytics] 내의 영구 Adobe Advertising 뷰스루 및 클릭스루 ID를 사용하여 사이트 참여를 이해합니다.
 * Analysis Workspace을 활용하여 사이트 시작 지점 및 방문 동작을 보다 잘 이해할 수 있습니다. Adobe Advertising 캠페인 엔티티 이름(배치 및 광고까지) 및 관련 지표(예: 클릭, 노출 횟수 및 비용)가 포함된 유료 미디어 차원 및 이벤트 데이터에 액세스할 수 있습니다.
 
-[!DNL Analytics]을(를) 유료 미디어 보고 도구로 사용하려면 조직에서 Analysis Workspace에 액세스할 수 있는 Experience Cloud 로그인이 필요합니다. Adobe Advertising 팀은 Adobe Advertising 데이터를 Analysis Workspace의 개별 보고서 세트에 매핑하는 데 도움이 됩니다. Adobe Advertising 데이터를 모든 보고서 세트에 보낼 수 있지만, Adobe Advertising에 매핑된 보고서 세트와 매핑되지 않은 보고서 세트를 알고 있어야 합니다. 보고서 세트에 따라, 보고된 데이터가 변경될 수 있습니다.
+[!DNL Analytics]을(를) 유료 미디어 보고 도구로 사용하려면 조직에서 Analysis Workspace에 액세스할 수 있는 Adobe CX Enterprise(이전 Adobe Experience Cloud) 로그인이 필요합니다. Adobe Advertising 팀은 Adobe Advertising 데이터를 Analysis Workspace의 개별 보고서 세트에 매핑하는 데 도움이 됩니다. Adobe Advertising 데이터를 모든 보고서 세트에 보낼 수 있지만, Adobe Advertising에 매핑된 보고서 세트와 매핑되지 않은 보고서 세트를 알고 있어야 합니다. 보고서 세트에 따라, 보고된 데이터가 변경될 수 있습니다.
 
-[&#x200B; 내의  [!DNL Analytics]](ids.md)Adobe Advertising ID는 사용자 지정 영구 만료로 다른 [!DNL eVars]과(와) 동일하게 작동합니다. 기본적으로 속성 전환 확인 기간은 Adobe Advertising 구현 중에 60일로 설정됩니다. 이 설정을 변경하려면 Adobe 계정 팀과 협력하십시오.
+ [!DNL Analytics]](ids.md) 내의 [Adobe Advertising ID는 사용자 지정 영구 만료로 다른 [!DNL eVars]과(와) 동일하게 작동합니다. 기본적으로 속성 전환 확인 기간은 Adobe Advertising 구현 중에 60일로 설정됩니다. 이 설정을 변경하려면 Adobe 계정 팀과 협력하십시오.
 
 Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유형(AMO ID)&quot;)가 추가됩니다. 사용 가능한 차원 목록은 &quot;[Analysis Workspace의 Adobe Advertising 지표](advertising-metrics-in-analytics.md)&quot;을 참조하십시오.
 
@@ -77,11 +68,11 @@ Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유
    * 페이지 보기 및 방문 지표와 같은 사이트 참여 지표
    * 사용자 지정 매출 지표.
    * 예약된 매출 지표.
-* [!DNL Analytics]에서 만들어 Experience Cloud에 게시한 세그먼트입니다.
+* [!DNL Analytics]에서 만들어 CX Enterprise에 게시한 세그먼트입니다.
 
-  [!DNL Analytics]의 자사 사이트 리타기팅 및 유료 검색 광고에 [!DNL DSP]개의 세그먼트를 사용할 수 있습니다.
+  [!DNL DSP], [!DNL Creative]의 자사 사이트 리타기팅 및 유료 검색 광고에 [!DNL Analytics]개의 세그먼트를 사용할 수 있습니다.
 
-  ([!DNL Search, Social, & Commerce]만 해당) [!DNL Analytics]을(를) 갖지만 Audience Manager을 갖지 않는 광고주는 Experience Cloud과 공유되는 [!DNL Analytics] 세그먼트에서 Google 웹 사이트 태그 기반 대상(리마케팅 목록) 및 고객 일치 대상(고객 목록)을 만들 수도 있습니다.
+  ([!DNL Search, Social, & Commerce]만 해당) [!DNL Analytics]을(를) 갖지만 Audience Manager을 갖지 않는 광고주는 CX Enterprise과 공유되는 [!DNL Analytics] 세그먼트에서 Google 웹 사이트 태그 기반 대상(리마케팅 목록) 및 고객 일치 대상(고객 목록)을 만들 수도 있습니다.
 
 ### 입찰 신호로서의 사이트 전환 지표
 
@@ -93,25 +84,25 @@ Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유
 >
 > [!DNL Analytics]에서 계산된 지표를 Adobe Advertising에 매핑할 수 없습니다.
 
-Adobe Advertising 팀이 유료 미디어 성능에 적용할 수 있는 이벤트를 식별하고 Adobe Advertising에 매핑하는 데 도움을 줍니다. [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Admin] > [!UICONTROL Conversions]에 나열되어 있습니다.
+Adobe Advertising 팀은 유료 미디어 성능에 적용할 수 있는 이벤트를 식별하고 Adobe Advertising에 매핑하는 데 도움이 됩니다.
 
 사용 가능한 지표 목록은 &quot;[Adobe Advertising의 Analytics 지표](analytics-data-in-advertising.md)&quot;을 참조하십시오.
 
 ### 사이트 리타기팅용 Analytics 세그먼트
 
-Adobe Advertising은 [!DNL Analytics]과(와) Experience Cloud 간의 기본 Experience Cloud 대상 통합을 사용하여 Advertising DSP 및 [!DNL Search, Social, & Commerce] 광고에 대한 리마케팅 목적으로 [!DNL Analytics]개 세그먼트를 수집할 수 있습니다.
+Adobe Advertising은 [!DNL Analytics]과(와) CX Enterprise 간의 기본 CX Enterprise Audiences 통합을 사용하여 [!DNL Creative], [!DNL DSP] 및 [!DNL Search, Social, & Commerce] 광고에 대한 리마케팅 목적으로 [!DNL Analytics] 세그먼트를 수집할 수 있습니다.
 
-[!DNL Analytics] 세그먼트에 액세스하려면 광고주 계정이 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 사용하도록 설정해야 합니다. ID 서비스가 활성화되면 처리되는 즉시 모든 Experience Cloud 세그먼트([!DNL Analytics]에서 만들어 Experience Cloud에 게시한 세그먼트, Adobe Audience Manager에서 만든 세그먼트, [!DNL People core service]을(를) 사용하여 Experience Cloud에서 만든 세그먼트, Adobe Experience Platform에서 만들어 Audience Manager을 통해 Adobe Advertising으로 보낸 세그먼트 포함)를 Adobe Advertising 내에서 사용할 수 있습니다.
+[!DNL Analytics] 세그먼트에 액세스하려면 광고주 계정이 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 사용하도록 설정해야 합니다. ID 서비스가 활성화되면 처리되는 즉시 Adobe Advertising 내에서 모든 CX Enterprise 세그먼트를 사용할 수 있습니다. CX Enterprise 세그먼트에는 [!DNL Analytics]에서 만들어 CX Enterprise에 게시한 세그먼트, Adobe Audience Manager에서 만든 세그먼트, [!DNL People core service]을(를) 사용하여 CX Enterprise에서 만든 세그먼트, Adobe Experience Platform에서 만들어 Audience Manager을 통해 Adobe Advertising에 보낸 세그먼트가 포함됩니다.
 
 [!DNL Analytics] 세그먼트는 24시간 내에 사용할 수 있으며 매일 업데이트됩니다.
 
-Experience Cloud 대상 서비스에 대한 자세한 내용은 [Experience Cloud 대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)을 참조하세요.
+CX Enterprise 대상 서비스에 대한 자세한 내용은 [CX Enterprise 대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)을 참조하세요.
 
 ## 통합 사용 방법의 예 {#integration-examples}
 
 ### Analysis Workspace에서 Adobe Advertising 데이터 사용
 
-Adobe Advertising 데이터를 사용하여 Analysis Workspace에서 시각적 보고서를 만드는 방법에 대해 알아보려면 비디오 &quot;[Workspace 및 보고 소개](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=ko)&quot;를 참조하십시오.
+Adobe Advertising 데이터를 사용하여 Analysis Workspace에서 시각적 보고서를 만드는 방법에 대해 알아보려면 비디오 &quot;[Workspace 및 보고 소개](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html)&quot;를 참조하십시오.
 
 #### 보고서에서 연결된 TV 뷰스루 전환 사용
 
@@ -147,11 +138,11 @@ CTV 뷰스루 전환 지표를 보려면 Analysis Workspace의 배치 보기 또
 
 ### Adobe Advertising 대시보드 만들기
 
-Analysis Workspace의 목표에 따라 Adobe Advertising 데이터를 추적하는 방법에 대해 알아보려면 &quot;[Adobe Analytics으로 Adobe Advertising 대시보드 만들기](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=ko)&quot; 비디오를 참조하십시오.
+Analysis Workspace의 목표에 따라 Adobe Advertising 데이터를 추적하는 방법에 대해 알아보려면 &quot;[Adobe Analytics으로 Adobe Advertising 대시보드 만들기](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)&quot; 비디오를 참조하십시오.
 
 ### 사이트 항목 분석에 Adobe Advertising ID 사용
 
-Adobe Advertising 사이트 시작 보고서를 만들어 요일, 시간, 브라우저 및 지리적 영향을 모니터링하는 방법은 비디오 &quot;[Adobe Advertising 사이트 시작 보고서 만들기](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=ko)&quot;를 참조하십시오.
+Adobe Advertising 사이트 시작 보고서를 만들어 요일, 시간, 브라우저 및 지리적 영향을 모니터링하는 방법은 비디오 &quot;[Adobe Advertising 사이트 시작 보고서 만들기](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html)&quot;를 참조하십시오.
 
 ## [!DNL Analytics for Advertising] 구현을 시작하는 방법
 
@@ -159,10 +150,10 @@ Adobe Advertising 사이트 시작 보고서를 만들어 요일, 시간, 브라
 
 >[!MORELIKETHIS]
 >
->* [비디오: 소개 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=ko)
+>* [비디오: 소개 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
 >* [구현을 위한 필수 구성 요소 및 키 정보 [!DNL Analytics for Advertising]](prerequisites.md)
 >* [Analytics에서 사용하는 Adobe Advertising ID](ids.md)
 >* [Advertising용 Analytics용 JavaScript 코드](/help/integrations/analytics/javascript.md)
->* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) &#x200B;](data-variances.md)
+>* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) ](data-variances.md)
 >* Analysis Workspace의 [Adobe Advertising 지표](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Adobe Advertising의 데이터](/help/integrations/analytics/analytics-data-in-advertising.md)

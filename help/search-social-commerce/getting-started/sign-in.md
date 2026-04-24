@@ -4,15 +4,12 @@ description: 로그인 방법에 대해 알아봅니다.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/kkgk8VMLaF3phB1rVzMoxdOkgPWWk-fTqs8U2aGPJxw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: 389
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 0%
 
 Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Management 서비스(IMS)로 전환하고 있습니다. IMS는 Real-Time Customer Data Platform, Customer Journey Analytics, Target 및 Analytics를 포함하여 IMS를 지원하는 모든 [!DNL Adobe] 제품에 Federated ID를 사용하여 SSO(Single Sign-On) 액세스를 제공합니다. 변경 사항:
 
-* [!DNL Adobe ID] 하나를 사용하여 Experience Cloud 로그인 페이지 또는 기존 검색, 소셜 및 Commerce 로그인 페이지에서 [!DNL Adobe] 제품 간에 로그인할 수 있습니다. [!DNL Adobe ID]은(는) 사용자 프로필 관리를 제공하며 상단 메뉴에서 다른 [!DNL Adobe] 제품으로 전환할 수 있습니다. 향후 릴리스에서는 상단 메뉴에서 검색, 소셜 및 Commerce 계정과 IMS 조직 계정을 변경할 수 있습니다.
+* [!DNL Adobe ID] 하나를 사용하여 CX Enterprise 로그인 페이지 또는 기존 검색, 소셜 및 Commerce 로그인 페이지에서 [!DNL Adobe] 제품 간에 로그인할 수 있습니다. [!DNL Adobe ID]은(는) 사용자 프로필 관리를 제공하며 상단 메뉴에서 다른 [!DNL Adobe] 제품으로 전환할 수 있습니다. 향후 릴리스에서는 상단 메뉴에서 검색, 소셜 및 Commerce 계정과 IMS 조직 계정을 변경할 수 있습니다.
 
 * 엔터프라이즈 인증이 지원됩니다.
 
@@ -29,7 +26,7 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 현재 검색, 소셜 및 Commerce 자격 증명은 변경을 준비할 수 있도록 잠시 동안 활성 상태로 유지됩니다.
 
-사용자 프로필 관리를 포함하여 Experience Cloud 인터페이스에 대한 자세한 내용은 &quot;[Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
+사용자 프로필 관리를 포함하여 CX Enterprise 인터페이스에 대한 자세한 내용은 &quot;[CX Enterprise 인터페이스 및 관리](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
 
 ## 기존 검색, 소셜 및 Commerce 로그인 페이지에서 로그인
 
@@ -47,13 +44,13 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
+1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
 
    기본적으로 새 사용자 인터페이스가 열립니다.
 
 1. 여러 IMS 조직에 액세스할 수 있는 경우 페이지의 오른쪽 상단에서 올바른 조직을 선택합니다.
 
-## [!DNL Adobe ID]을(를) 사용하여 Adobe Experience Cloud에서 로그인
+## [!DNL Adobe ID]을(를) 사용하여 Adobe CX Enterprise에서 로그인
 
 <!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
 
@@ -61,7 +58,7 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
+1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
 
 1. 홈 페이지의 [!UICONTROL Quick Access] 섹션에서 **[!UICONTROL Advertising Search, Social, & Commerce]**&#x200B;을(를) 클릭합니다.
 
