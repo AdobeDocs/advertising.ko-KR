@@ -99,7 +99,7 @@ You can target your placements to all of the following types of audiences.
 
   >[!NOTE]
   >
-  >해당 솔루션의 세그먼트에 대한 데이터 설정 및 수집에 대한 자세한 내용은 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) 및 [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) 설명서를 참조하십시오.
+  >해당 솔루션의 세그먼트에 대한 데이터 설정 및 수집에 대한 자세한 내용은 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=ko), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=ko) 및 [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=ko) 설명서를 참조하십시오.
 
 ## 대상 크기 데이터
 

@@ -18,8 +18,8 @@ ht-degree: 5%
    + [About Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Customize your data views](/help/creative/introduction/customize-data-views.md)
    + [Workflows for dynamic ads](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Support for consumer privacy](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-   + [Policies and guidelines](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Support for consumer privacy](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
+   + [Policies and guidelines](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
 + Creative libraries {#creative-libraries}
    + [About your creative libraries](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Supported creative sizes](/help/creative/creative-libraries/creative-sizes.md)
@@ -95,4 +95,4 @@ ht-degree: 5%
 + [Retargeting pixels](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Available macros for tracking URLs](/help/creative/creative-macros.md)
 + [도움말 보기](/help/creative/get-help.md)
-+ [Adobe CX Enterprise release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
++ [Adobe CX Enterprise release notes](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko){target="_blank"}
