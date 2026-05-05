@@ -12,7 +12,7 @@ subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3e2164230726fe96d4e43ebba26e84640bd806f1
+source-git-commit: fc5533c8823c2a7610861fdc077d5cdfe0c2d377
 workflow-type: tm+mt
 source-wordcount: 560
 ht-degree: 0%
@@ -33,6 +33,8 @@ ht-degree: 0%
 
 
 <!-- ## Manually create a reusable audience -->
+
+<!-- This is no longer the default, so will need to select "Manual" -->
 
 1. 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**&#x200B;을(를) 클릭합니다.
 
@@ -76,11 +78,11 @@ ht-degree: 0%
 
          1. 오른쪽 패널에서 **[!UICONTROL + New Group]**&#x200B;을(를) 클릭합니다.
 
-         1. (선택 사항) 필요에 따라 이전 그룹과 새 그룹 간의 논리를 *[!UICONTROL And]* 또는 *[!UICONTROL Or]*(으)로 변경합니다.
+            1. (선택 사항) 필요에 따라 이전 그룹과 새 그룹 간의 논리를 *[!UICONTROL And]* 또는 *[!UICONTROL Or]*(으)로 변경합니다.
 
-         1. 왼쪽 패널에서 새 그룹의 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
+            1. 왼쪽 패널에서 새 그룹의 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
 
-         1. (선택 사항) 필요에 따라 그룹 논리를 *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* 또는 *[!UICONTROL Exclude All]*(으)로 변경합니다.
+            1. (선택 사항) 필요에 따라 그룹 논리를 *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* 또는 *[!UICONTROL Exclude All]*(으)로 변경합니다.
 
    * 기존 대상의 세그먼트 논리를 사용하려면 다음을 수행합니다.
 

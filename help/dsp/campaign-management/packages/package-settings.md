@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: 1089
+source-wordcount: 1100
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:**(패키지 수준 게재 간격, &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; 및 &quot;[!UICONTROL Lowest Cost per Reach]&quot; 최적화 목표만 있는 패키지) 캠페인에서 프로그래밍 방식으로 보장된 모든 배치의 가구 도달 데이터를 사용하여 증분 도달 속도를 최적화합니다.
 
-**[!UICONTROL Custom Goal for Model Learning]:**(&quot;[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표만 있는 패키지) CPA 또는 ROAS 지표를 계산하는 데 사용되는 매출 또는 전환 이벤트가 포함된 [사용자 지정 목표](/help/dsp/optimization/custom-goal.md). 사용자 지정 목표에는 패키지 최적화를 위한 CPA 또는 ROAS 지표 외에 사용할 추가 가중치가 적용된 상위 funnel 이벤트(예: 페이지 방문 횟수 및 장바구니 추가 횟수)가 포함되어야 합니다. 사용자 지정 목표 및 이를 사용하는 캠페인에 대한 생성 모범 사례를 포함하여 사용자 지정 목표에 대한 자세한 내용은 &quot;[사용자 지정 목표](/help/dsp/optimization/custom-goal.md)&quot; 및 &quot;[성능 캠페인 설정에 대한 모범 사례](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;를 참조하십시오.<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:**(&quot;[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; 최적화 목표가 있는 패키지 전용) CPA 또는 ROAS 지표를 계산하는 데 사용되는 매출 또는 전환 이벤트가 포함된 사용자 지정 목표입니다. 사용자 지정 목표에는 패키지 최적화를 위한 CPA 또는 ROAS 지표 외에 사용할 추가 가중치가 적용된 상위 funnel 이벤트(예: 페이지 방문 횟수 및 장바구니 추가 횟수)가 포함되어야 합니다. 사용자 지정 목표에 대한 자세한 내용은 &quot;[사용자 지정 목표 관리](/help/dsp/admin/custom-objectives-manage.md)&quot;, &quot;[사용자 지정 목표에 대한 우수 사례](/help/dsp/optimization/custom-goal.md)&quot; 및 &quot;[성능 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;를 참조하십시오.
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:**(선택 사항, 최적화 목표가 &quot;[!UICONTROL Highest Return on Ad Spend]&quot; 및 &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;인 패키지 전용) 최적화 모델에 클릭 기반 전환에서만 학습하도록 지시합니다. 그렇지 않으면 최적화 모델이 클릭 및 노출 기반 전환 모두에서 학습합니다.
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Flighting]
 
-(패키지 수준 게재 간격이 있는 패키지) 패키지의 전체 [!UICONTROL Flight Dates] 내의 사용자 지정 게재 기간을 포함하여 패키지의 플라이트 기간입니다. [!UICONTROL Activate Custom Flighting] 섹션에서 [!UICONTROL Goals & Budget] 옵션이 활성화된 경우에만 사용자 지정 항공편을 구성할 수 있습니다.
+(패키지 수준 게재 간격이 있는 패키지) 패키지의 전체 [!UICONTROL Flight Dates] 내의 사용자 지정 게재 기간을 포함하여 패키지의 플라이트 기간입니다. [!UICONTROL Goals & Budget] 섹션에서 [!UICONTROL Activate Custom Flighting] 옵션이 활성화된 경우에만 사용자 지정 항공편을 구성할 수 있습니다.
 
 **[!UICONTROL Automatically rollover remaining flight budget to next flight]:**([!UICONTROL Activate Custom Flighting] 옵션이 활성화된 경우에만 사용 가능) 다음 항공편의 기존 예산에 이전 항공편의 남은 예산을 자동으로 추가합니다.
 

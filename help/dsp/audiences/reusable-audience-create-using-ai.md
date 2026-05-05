@@ -4,9 +4,9 @@ description: AI 지원 대상 에이전트를 사용하여 Adobe Advertising DSP
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
+source-git-commit: fc5533c8823c2a7610861fdc077d5cdfe0c2d377
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 <!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 사용할 수 있는 모든 자사 및 서드파티 세그먼트를 사용하여 재사용 가능한 새로운 대상을 생성할 수 있습니다. 여러 배치에 대한 타겟 또는 제외로 대상을 사용할 수 있습니다.
+AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 사용할 수 있는 모든 자사 및 서드파티 세그먼트를 사용하여 재사용 가능한 새로운 대상을 생성할 수 있습니다. 해당하면 에이전트는 보다 효과적인 대상 개요를 만드는 데 도움이 되는 추가 세그먼트 필터를 제안합니다.
+
+여러 배치에 대한 타겟 또는 제외로 대상을 사용할 수 있습니다.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -55,15 +57,15 @@ AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 
 
 1. 대상자 작성:
 
-   Beta 권한이 있는 사용자의 경우 AI 옵션이 기본값입니다. [대상자를 직접 결합](/help/dsp/audiences/reusable-audience-create.md)하려면 맨 아래에 있는 &quot;수동 모드로 전환&quot; 단추를 클릭하십시오.
+   AI 옵션이 기본값입니다. [대상자를 직접 결합](/help/dsp/audiences/reusable-audience-create.md)하려면 맨 아래에 있는 &quot;수동 모드로 전환&quot; 단추를 클릭하십시오.
 
    1. 포함 및 제외할 대상 특성을 설명하는 하나 이상의 프롬프트를 입력합니다. 각 프롬프트를 제출하려면 ![프롬프트 제출](/help/dsp/assets/submit-prompt.png "프롬프트 제출")을 클릭하십시오.
 
       자세한 내용은 &quot;[프롬프트 작성](#writing-prompts)&quot; 및 &quot;[대상자 개요 작성에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
 
-      대상 에이전트가 관련 세그먼트를 찾을 때 기준에 따라 부울 대상 표현식을 만듭니다. 또한 대상을 취합할 일치하는 세그먼트를 찾기 전에 승인을 요청합니다.
+      해당하면 에이전트는 보다 효과적인 대상 개요를 만드는 데 도움이 되는 추가 세그먼트 필터를 제안합니다. 제안을 수락하거나 거부할 수 있습니다.
 
-      선택적으로 요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수 있습니다.
+      대상 에이전트가 관련 세그먼트를 찾을 때 기준에 따라 부울 대상 표현식을 만듭니다. 또한 대상을 취합할 일치하는 세그먼트를 찾기 전에 승인을 요청합니다. 선택적으로 요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수 있습니다.
 
    1. 대상 에이전트가 대상을 적절히 설명하는 대상 표현식을 제공하면 대상 에이전트에게 대상 어셈블 작업을 진행하도록 알립니다.
 

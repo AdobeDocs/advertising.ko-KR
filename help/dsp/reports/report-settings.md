@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 9c0a1de4a3514cbb28856250b76e79e1b7913963
 workflow-type: tm+mt
-source-wordcount: 1526
+source-wordcount: 1535
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >[&#x200B; 보기에서 &#x200B;](report-run-now.md)언제든지 사용자 지정 보고서를 실행[!UICONTROL Reports]할 수도 있습니다.
+  >[!UICONTROL Reports] 보기에서 [언제든지 사용자 지정 보고서를 실행](report-run-now.md)할 수도 있습니다.
 
 * *[!UICONTROL On]\&lt;Date\>:* 계정의 시간대에서 09:00까지 완료하도록 지정된 날짜에 보고서를 실행합니다.
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Apply Filters] 섹션
 
-**[!UICONTROL Filter by]:**(선택 사항) 차원을 보고서에 열로 포함할지 여부에 관계없이 데이터를 필터링할 추가 차원입니다. 사용 가능한 필터는 보고서 유형에 따라 다르며 *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Deal]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* 및 *[!UICONTROL Video Duration]*&#x200B;을(를) 포함할 수 있습니다.
+**[!UICONTROL Filter by]:**(선택 사항) 차원을 보고서에 열로 포함할지 여부에 관계없이 데이터를 필터링할 추가 차원입니다. 사용 가능한 필터는 보고서 유형에 따라 다르며 *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Deal]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Traffic Type]*, *[!UICONTROL Video]* 및 *[!UICONTROL Video Duration]*&#x200B;을(를) 포함할 수 있습니다.
 
 <!--
  Add when available:
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 **[!UICONTROL Attribution Rule Settings]:** 설정은 보고서 유형에 따라 다릅니다.
 
-* **\[속성 유형\]:**([!UICONTROL Household Conversion] 또는 [!UICONTROL Conversion Metrics] 열이 있는 [!UICONTROL Custom Goals] 보고서) 보고서 내에서 전환을 유도하는 일련의 이벤트에서 전환 데이터를 특성화하는 방법:
+* **\[속성 유형\]:**([!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열이 있는 [!UICONTROL Household Conversion] 보고서) 보고서 내에서 전환을 유도하는 일련의 이벤트에서 전환 데이터를 특성화하는 방법:
 
    * *[!UICONTROL Unique]:*(기본값) 전환 경로에 있는 차원 값(예: 장치 또는 배치)의 횟수를 카운트합니다.
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 
 또한 &quot;[Adobe Advertising에 대한 속성 규칙을 계산하는 방법](/help/search-social-commerce/reports/attribution-rules.md)&quot;을 참조하십시오.
 
-* **전환 확인:**([!UICONTROL Household Conversion] 또는 [!UICONTROL Conversion Metrics] 열이 있는 [!UICONTROL Custom Goals] 보고서, [!UICONTROL Path to Conversion] 열만 있는 [!UICONTROL Path Length], [!UICONTROL Time to Conversion] 또는 [!UICONTROL Conversion Metrics] 보고서, Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환 이벤트가 할당될 수 있는 노출 이벤트 또는 클릭 이벤트([!UICONTROL Path to Conversion], [!UICONTROL Path Length] 또는 [!UICONTROL Time to Conversion] 보고서)의 최대 일 수. 기본값은 *[!UICONTROL 30 days]*&#x200B;이고 최대값은 92일입니다.
+* **전환 확인:**([!UICONTROL Conversion Metrics] 또는 [!UICONTROL Custom Goals] 열이 있는 [!UICONTROL Household Conversion] 보고서, [!UICONTROL Conversion Metrics] 열만 있는 [!UICONTROL Path to Conversion], [!UICONTROL Path Length] 또는 [!UICONTROL Time to Conversion] 보고서, Adobe Advertising 전환 추적만 있는 광고주) 보고서 내에서 전환 이벤트가 할당될 수 있는 노출 이벤트 또는 클릭 이벤트([!UICONTROL Path to Conversion], [!UICONTROL Path Length] 또는 [!UICONTROL Time to Conversion] 보고서)의 최대 일 수. 기본값은 *[!UICONTROL 30 days]*&#x200B;이고 최대값은 92일입니다.
 
   >[!TIP]
   >

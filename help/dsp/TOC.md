@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1063'
 ht-degree: 3%
 
 ---
@@ -88,58 +88,58 @@ ht-degree: 3%
          + [광고 설정 표시](/help/dsp/campaign-management/ads/ad-settings-display.md)
          + [모바일 광고 설정](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
          + [기본 디스플레이 광고 설정](/help/dsp/campaign-management/ads/ad-settings-native.md)
-         + [Pre-roll ad settings](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
-         + [Universal video ad settings](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
-      + [Specifications for supported ad types](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Cross-campaign insights {#insights}
-      + [About insights](/help/dsp/campaign-management/insights/insights-about.md)
-   + Performance reports in campaign management views {#campaign-reports}
-      + [Types of performance reports in campaign management views](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-      + [Export data from a campaign management view](/help/dsp/campaign-management/reports/campaign-export-data.md)
-      + [View the sites, ads, frequency, and inventory details for a placement](/help/dsp/campaign-management/reports/placement-details-view.md)
-      + [View the placement forecast report](/help/dsp/campaign-management/reports/placement-forecast.md)
-      + [View the placement diagnostic reports](/help/dsp/campaign-management/reports/placement-diagnostics.md)
-      + [View alerts](/help/dsp/campaign-management/reports/campaign-alerts.md)
-      + [Manage your campaign data views](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + [Advertising DSP macros](/help/dsp/campaign-management/macros.md)
-   + [Keyboard shortcuts](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [FAQs about campaign management](/help/dsp/campaign-management/faq-campaign-management.md)
-   + [FAQs about universal video](/help/dsp/campaign-management/faq-universal-video.md)
+         + [프리롤 광고 설정](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+         + [범용 비디오 광고 설정](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+      + [지원되는 광고 유형에 대한 사양](/help/dsp/campaign-management/ads/ad-specs.md)
+   + 크로스 캠페인 인사이트 {#insights}
+      + [인사이트 정보](/help/dsp/campaign-management/insights/insights-about.md)
+   + 캠페인 관리 보기의 성과 보고서 {#campaign-reports}
+      + [캠페인 관리 보기의 성과 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [캠페인 관리 보기에서 데이터 내보내기](/help/dsp/campaign-management/reports/campaign-export-data.md)
+      + [배치에 대한 사이트, 광고, 빈도 및 인벤토리 세부 정보 보기](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
+      + [배치 진단 보고서 보기](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+      + [경고 보기](/help/dsp/campaign-management/reports/campaign-alerts.md)
+      + [Campaign 데이터 보기 관리](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+   + [Advertising DSP 매크로](/help/dsp/campaign-management/macros.md)
+   + [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
+   + [캠페인 관리에 대한 FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md)
 + 최적화 {#optimization}
-   + [How Advertising DSP optimizes your campaigns](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
-   + [Optimization goals and how to use them](/help/dsp/optimization/optimization-goals.md)
-   + [Placement-level pre-bid filters and how to use them](/help/dsp/optimization/optimization-pre-bid-filters.md)
-   + [사용자 정의 목표](/help/dsp/optimization/custom-goal.md)
-   + [Best practices for setting up performance campaigns](/help/dsp/optimization/campaign-best-practices-performance.md)
-   + [Troubleshooting performance](/help/dsp/optimization/troubleshooting-performance.md)
+   + [Advertising DSP에서 캠페인을 최적화하는 방법](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+   + [최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md)
+   + [배치 수준 사전 입찰 필터 및 사용 방법](/help/dsp/optimization/optimization-pre-bid-filters.md)
+   + [사용자 정의 목표에 대한 우수 사례](/help/dsp/optimization/custom-goal.md)
+   + [성과 캠페인 설정에 대한 우수 사례](/help/dsp/optimization/campaign-best-practices-performance.md)
+   + [성능 문제 해결](/help/dsp/optimization/troubleshooting-performance.md)
 + 대상자 {#audiences}
-   + [About audience management](/help/dsp/audiences/audience-about.md)
-   + [Support for activating universal IDs](/help/dsp/audiences/universal-ids.md)
-   + Reusable audiences {#reusable-audiences}
+   + [대상자 관리 기본 정보](/help/dsp/audiences/audience-about.md)
+   + [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
+   + 재사용 가능한 대상 {#reusable-audiences}
       + [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)
-      + {hide-from-toc}[Create a reusable audience using generative AI](/help/dsp/audiences/reusable-audience-create-using-ai.md)
-      + [Duplicate a reusable audience](/help/dsp/audiences/reusable-audience-duplicate.md)
-      + [Edit a reusable audience](/help/dsp/audiences/reusable-audience-edit.md)
-      + [View details about a reusable audience](/help/dsp/audiences/reusable-audience-view-details.md)
-      + [Share a reusable audience](/help/dsp/audiences/reusable-audience-share.md)
-      + [Export details about a reusable audience](/help/dsp/audiences/reusable-audience-export.md)
-      + [Copy the segment key for a reusable audience to the clipboard](/help/dsp/audiences/reusable-audience-clipboard.md)
-      + [Delete a reusable audience](/help/dsp/audiences/reusable-audience-delete.md)
+      + {hide-from-toc}[생성 AI를 사용하여 재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create-using-ai.md)
+      + [재사용 가능한 대상 복제](/help/dsp/audiences/reusable-audience-duplicate.md)
+      + [재사용 가능한 대상 편집](/help/dsp/audiences/reusable-audience-edit.md)
+      + [재사용 가능한 대상에 대한 세부 정보 보기](/help/dsp/audiences/reusable-audience-view-details.md)
+      + [재사용 가능한 대상 공유](/help/dsp/audiences/reusable-audience-share.md)
+      + [재사용 가능한 대상에 대한 세부 정보 내보내기](/help/dsp/audiences/reusable-audience-export.md)
+      + [재사용 가능한 대상의 세그먼트 키를 클립보드에 복사합니다.](/help/dsp/audiences/reusable-audience-clipboard.md)
+      + [재사용 가능한 대상 삭제](/help/dsp/audiences/reusable-audience-delete.md)
       + [대상자 설정](/help/dsp/audiences/audience-settings.md)
-      + [Syntax for audience segment logic](/help/dsp/audiences/audience-segment-logic-syntax.md)
-   + Segments {#segments}
-      + [Create and implement a custom segment](/help/dsp/audiences/custom-segment-create.md)
-      + [!UICONTROL CCPA Opt-out-of-Sale] Segments {#ccpa-opt-out-of-sale-segments}
-         + [About [!UICONTROL CCPA Opt-out-of-Sale] segments and reports](/help/dsp/audiences/ccpa-opt-out-about.md)
-         + [Create and implement a [!UICONTROL CCPA Opt-out-of-Sale] segment](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
-         + [Retrieve [!UICONTROL Consumer Opt-Out-of-Sale] reports](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
-      + [Edit segment information](/help/dsp/audiences/segment-edit.md)
-      + [Share or stop sharing a segment](/help/dsp/audiences/segment-share.md)
-      + [View tracking pixels for a segment](/help/dsp/audiences/segment-view-pixels.md)
-      + [Delete a segment](/help/dsp/audiences/segment-delete.md)
-   + Sources {#sources}
-      + [About first-party audience sources](/help/dsp/audiences/sources/source-about.md)
-      + Workflows by customer data platform {#sources-workflows}
+      + [대상 세그먼트 논리 구문](/help/dsp/audiences/audience-segment-logic-syntax.md)
+   + 세그먼트 {#segments}
+      + [사용자 지정 세그먼트 만들기 및 구현](/help/dsp/audiences/custom-segment-create.md)
+      + [!UICONTROL CCPA Opt-out-of-Sale]개 세그먼트 {#ccpa-opt-out-of-sale-segments}
+         + [[!UICONTROL CCPA Opt-out-of-Sale]개 세그먼트 및 보고서 정보](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [[!UICONTROL CCPA Opt-out-of-Sale] 세그먼트 만들기 및 구현](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
+         + [[!UICONTROL Consumer Opt-Out-of-Sale]개 보고서 검색](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
+      + [세그먼트 정보 편집](/help/dsp/audiences/segment-edit.md)
+      + [세그먼트 공유 또는 공유 중지](/help/dsp/audiences/segment-share.md)
+      + [세그먼트에 대한 추적 픽셀 보기](/help/dsp/audiences/segment-view-pixels.md)
+      + [세그먼트 삭제](/help/dsp/audiences/segment-delete.md)
+   + 소스 {#sources}
+      + [자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)
+      + 고객 데이터 플랫폼별 워크플로 {#sources-workflows}
          + [사용자 ID를  [!DNL Adobe Real-Time CDP] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
          + [사용자 ID를  [!DNL Amperity] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-amperity.md)
          + [사용자 ID를  [!DNL Optimizely] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-optimizely.md)
@@ -221,19 +221,21 @@ ht-degree: 3%
    + [연결된 TV 도달 계획 보관](/help/dsp/planner/planner-archive.md)
 + 리소스 {#resources}
    + [URL 목록 관리](/help/dsp/resources/lists-url-manage.md)
-+ 관리 {#admin}
++ 설정/관리 {#admin}
    + [사용자 프로필 편집](/help/dsp/admin/user-own-profile-edit.md)
    + 사용자 {#users}
       + [조직 계정에 새 사용자 초대](/help/dsp/admin/user-invite.md)
       + [보류 중인 사용자 초대 다시 보내기](/help/dsp/admin/user-resend-invite.md)
       + [보류 중인 사용자 초대 취소](/help/dsp/admin/user-uninvite.md)
+   + [전환 관리](/help/dsp/admin/conversion-metrics-manage.md)
+   + [사용자 정의 목표 관리](/help/dsp/admin/custom-objectives-manage.md)
    + 차단된 사이트 {#sites}
       + [계정 수준 및 광고주 수준의 차단된 사이트 목록 정보](/help/dsp/admin/blocked-sites-list-about.md)
       + [계정 수준 또는 광고주 수준의 차단된 사이트 목록 편집](/help/dsp/admin/blocked-sites-list-edit.md)
    + 알림 {#notifications}
       + [경고 구독 기본 정보](/help/dsp/admin/alerts-about.md)
       + [경고 구독 관리](/help/dsp/admin/alerts-manage.md)
-+ [Adobe CX Enterprise과 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ko)
++ [Adobe CX Enterprise와의 통합](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ko)
 + [도움말 보기](/help/dsp/get-help.md)
 + [Adobe CX Enterprise 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko)
 

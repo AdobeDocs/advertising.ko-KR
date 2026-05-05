@@ -12,20 +12,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
 workflow-type: tm+mt
-source-wordcount: 279
+source-wordcount: 280
 ht-degree: 0%
 
 ---
 
 # 광고주의 전환 지표 관리 정보
 
-Adobe Analytics에서 동기화된 [전환 및 사이트 참여 지표](/help/search-social-commerce/glossary.md#c-d)를 포함하여 Adobe Advertising이 광고주에 대해 추적하는 [전환](/help/integrations/analytics/analytics-data-in-advertising.md) 지표는 Search, Social, &amp; Commerce 및 Advertising DSP 전체에서 사용됩니다.
+Adobe Analytics에서 동기화된 [전환 및 사이트 참여 지표](/help/integrations/analytics/analytics-data-in-advertising.md)를 포함하여 Adobe Advertising이 광고주에 대해 추적하는 [전환](/help/search-social-commerce/glossary.md#c-d) 지표는 Search, Social, &amp; Commerce 및 Advertising DSP 전체에서 사용됩니다.
 
 * 검색, 소셜 및 Commerce에서 전환 지표를 사용하여 목표를 만들 수 있습니다. 목표는 포트폴리오를 최적화하는 데 사용됩니다. 또한 전환 지표에 대한 데이터는 캠페인 및 포트폴리오 관리 보기의 열과 보고서에 표시할 수 있습니다.
 
-* Advertising DSP에서 전환 지표를 사용하여 패키지를 최적화하는 데 사용되는 [사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 만들 수 있습니다.
+* Advertising DSP에서 패키지를 최적화하는 데 사용되는 [사용자 지정 목표를 만들기](/help/dsp/admin/custom-objectives-manage.md)하는 전환 지표를 사용할 수 있습니다.
 
 기본적으로 [!DNL Google Ads], [!DNL Google Analytics] 및 [!DNL Microsoft Advertising] 유니버설 이벤트 추적 태그에 의해 추적된 전환을 제외한 광고주의 전환 지표는 캠페인 및 포트폴리오 관리 보기 및 보고서에 사용할 수 없습니다. 표시된 이름인 표시 이름을 포함하고 사용할 수 있도록 명시적으로 설정한 경우에만 사용할 수 있습니다. 전환 지표를 사용할 수 있도록 설정할 때 검색된 데이터의 맞춤법과 정확히 동일한 지표 이름을 사용하거나 가독성을 위해 열 제목에 표시되는 이름을 변경할 수 있습니다.
 

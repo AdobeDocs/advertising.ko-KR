@@ -1,6 +1,6 @@
 ---
-title: Set up data collection, data transfer, and reporting
-description: Learn how to set up data collection, data transfer, and reporting.
+title: 데이터 수집, 데이터 전송 및 보고 설정
+description: 데이터 수집, 데이터 전송 및 보고를 설정하는 방법에 대해 알아봅니다.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: a955e2b0-ea1b-4b5c-937b-f8c66603cd36
 TQID: https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8
@@ -16,58 +16,62 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 67835b7b70333a81572355b4fed794341cd4ff36
 workflow-type: tm+mt
-source-wordcount: 1792
+source-wordcount: 1814
 ht-degree: 0%
 
 ---
 
-# Set up data collection, data transfer, and reporting
+# 데이터 수집, 데이터 전송 및 보고 설정
 
 *Beta 기능*
 
-The following tasks are required to view Advertising Cloud data in Customer Journey Analytics.
+Customer Journey Analytics에서 Advertising Cloud 데이터를 보려면 다음 작업이 필요합니다.
 
-1. (Your organization&#39;s web analyst; optional) [Collect historical data for AMO IDs and EF IDs](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}.
+>[!PREREQUISITES]
+>
+>이 기능이 Beta 모드에 있는 동안 Adobe 계정 팀에 문의하여 광고주 계정에 `Adobe Advertising` 서비스에 대한 액세스 권한을 제공하십시오.
 
-   This step is applicable only for advertisers with [!DNL Analytics for Advertising].
+1. (조직의 웹 분석가, 선택 사항) [AMO ID 및 EF ID에 대한 내역 데이터를 수집합니다](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}.
 
-1. (Your organization&#39;s site administrator for Adobe Experience Platform) [Set up data collection in Experience Platform and implement conversion tracking tags](#data-collection).
+   이 단계는 [!DNL Analytics for Advertising]을(를) 사용하는 광고주에만 적용됩니다.
 
-1. (Your organization&#39;s site administrator for Customer Journey Analytics) [Create a connection to your Experience Platform datasets in Customer Journey Analytics](#dataset-connection).
+1. (조직의 Adobe Experience Platform 사이트 관리자) [Experience Platform에서 데이터 수집을 설정하고 전환 추적 태그를 구현합니다](#data-collection).
 
-1. (Your organization&#39;s web analyst) [Set up data views in Customer Journey Analytics](#cja-data-views).
+1. (조직의 Customer Journey Analytics 사이트 관리자) [Customer Journey Analytics에서 Experience Platform 데이터 세트에 대한 연결을 만듭니다](#dataset-connection).
 
-1. (Your organization&#39;s web analyst) [Set up reports and visualizations in Customer Journey Analytics Workspace](#cja-reports).
+1. (조직의 웹 분석가) [Customer Journey Analytics에서 데이터 보기 설정](#cja-data-views).
 
-The following sections include the detailed procedures, which include the tasks and settings required for the integration but do not explain all features available within the workflows. See the linked resources for full information.
+1. (조직의 웹 분석가) [Customer Journey Analytics Workspace에서 보고서 및 시각화를 설정](#cja-reports)합니다.
 
-## Set up data collection in Adobe Experience Platform and on your website {#data-collection}
+다음 섹션에는 통합에 필요한 작업 및 설정을 포함하지만 워크플로우에서 사용할 수 있는 모든 기능을 설명하지는 않는 세부 절차가 포함되어 있습니다. 자세한 내용은 연결된 리소스를 참조하십시오.
 
-The following tasks are required to set up data collection in Experience Platform and implement conversion tracking tags. Your organization&#39;s site administrator for Experience Platform can perform these tasks, but your organization&#39;s IT department may need to help with deploying tracking tags.
+## Adobe Experience Platform 및 웹 사이트에서 데이터 수집 설정 {#data-collection}
 
-### Collect and send data from Adobe Advertising to Experience Platform Edge Network as a dataset
+Experience Platform에서 데이터 수집을 설정하고 전환 추적 태그를 구현하는 데 다음 작업이 필요합니다. 조직의 Experience Platform 사이트 관리자가 이러한 작업을 수행할 수 있지만, 조직의 IT 부서에서 추적 태그를 배포해야 할 수 있습니다.
 
-1. In Experience Platform, [define a manual schema](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas) for the data you want to collect using the Experience Data Model (XDM).
+### Adobe Advertising에서 데이터를 수집하여 Experience Platform Edge Network에 데이터 세트로 전송합니다
 
-   * In the [!UICONTROL Schema Details], select **[!UICONTROL Experience Event]** as the base class for the schema to capture site events. Name your schema and click **[!UICONTROL Finish]**.
+1. Experience Platform에서 XDM(Experience Data Model)을 사용하여 수집할 데이터에 대해 [수동 스키마를 정의](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/ui/resources/schemas)합니다.
 
-   * In the left panel, add the field group [Adobe Advertising Cloud ExperienceEvent Full Extension](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) to add fields specific to Adobe Advertising. At a minimum, include the conversionDetails object with the `trackingCode` and `trackingIdentities` properties, which include the [AMO ID and EF ID](ids.md). The other fields are optional.
+   * [!UICONTROL Schema Details]에서 사이트 이벤트를 캡처할 스키마의 기본 클래스로 **[!UICONTROL Experience Event]**&#x200B;을(를) 선택합니다. 스키마 이름을 지정하고 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
-   * (Optional) Add additional field groups as needed to connect additional data fields to Adobe Advertising data.
+   * 왼쪽 패널에서 필드 그룹 [Adobe Advertising Cloud ExperienceEvent 전체 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)을(를) 추가하여 Adobe Advertising 관련 필드를 추가합니다. 최소한 [AMO ID 및 EF ID](ids.md)를 포함하는 `trackingCode` 및 `trackingIdentities` 속성이 있는 conversionDetails 개체를 포함하십시오. 다른 필드는 선택 사항입니다.
 
-   **Note:** You can create multiple schemas, but you can use only one schema per dataset and per datastream, which you&#39;ll create in the following steps.
+   * (선택 사항) 필요에 따라 추가 데이터 필드를 Adobe Advertising 데이터에 연결하는 데 추가 필드 그룹을 추가합니다.
 
-1. [Create a dataset](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/create) based on the schema to store and manage the collection of event data.
+   **참고:** 여러 개의 스키마를 만들 수 있지만 데이터 세트 및 데이터 스트림당 하나의 스키마만 사용할 수 있습니다. 다음 단계에서 만들 수 있습니다.
 
-   * Choose the option to **[!UICONTROL Create dataset from schema]** and select your schema.
+1. 이벤트 데이터 컬렉션을 저장 및 관리하려면 스키마를 기반으로 [데이터 집합을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/create).
 
-     Adobe Advertising creates additional datasets for the related summary metrics data (such as conversion values) and lookup data (dimensions/classification metadata, such as Adobe Advertising campaign name) based on your event dataset. Data for the datasets is populated in Experience Platform daily.
+   * **[!UICONTROL Create dataset from schema]** 옵션을 선택하고 스키마를 선택하세요.
 
-1. [Create a datastream](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure) for the schema.
+     <!-- Manual process during beta -->Adobe Advertising은 이벤트 데이터 세트를 기반으로 관련 요약 지표 데이터(예: 전환 값) 및 조회 데이터(차원/분류 메타데이터(예: Adobe Advertising 캠페인 이름)에 대한 추가 데이터 세트를 만듭니다. 데이터 세트에 대한 데이터는 Experience Platform에서 매일 채워집니다.
 
-   * For the [!UICONTROL Mapping schema] setting, select your schema.
+1. 스키마에 대한 [데이터 스트림을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure).
+
+   * [!UICONTROL Mapping schema] 설정에 대해 스키마를 선택합니다.
 
    * `Adobe Advertising` 및 `Adobe Experience Platform` 서비스를 데이터 스트림에 추가하고 사용하도록 설정합니다.
 
@@ -85,7 +89,7 @@ The following tasks are required to set up data collection in Experience Platfor
 
    * 속성의 경우 확장 카탈로그에서 [확장 &quot;Adobe Experience Platform Web SDK&quot;를 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)합니다.
 
-     이 확장은 웹 속성의 데이터를 Experience Platform Edge Network을 통해 Adobe CX Enterprise으로 보냅니다.
+     이 확장은 Experience Platform Edge Network을 통해 웹 속성에서 Adobe CX Enterprise로 데이터를 전송합니다.
 
      Adobe Advertising 확장 기능을 사용하지 마십시오.
 
