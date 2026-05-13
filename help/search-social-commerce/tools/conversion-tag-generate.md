@@ -71,7 +71,7 @@ When multiple metrics are tracked, they're joined by an ampersand (`&`) in the t
 >Metrics added to this list aren't saved anywhere or integrated with the client's [!UICONTROL Conversions] list on the [!UICONTROL Admin] tab. However, metrics are added to the client's [!UICONTROL Conversions] list automatically once Adobe Advertising actually gathers data for a metric, which happens when the conversion tag is implemented on a page and an end user completes a transaction that opens that page.
 
 -->
-## <!-- (Legacy UI) --> 검색, 소셜 및 Commerce 내에서 전환 추적 태그를 생성하고 구현합니다.
+## &#x200B;<!-- (Legacy UI) --> 검색, 소셜 및 Commerce 내에서 전환 추적 태그를 생성하고 구현합니다.
 
 >[!NOTE]
 >
