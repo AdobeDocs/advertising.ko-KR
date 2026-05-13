@@ -2,20 +2,18 @@
 title: 검색 입찰 단위에 대한 제한 관리
 description: 레거시 키워드 수준 포트폴리오의 CPC 캠페인에서 입찰 단위 입찰을 제한하는 제한에 대해 알아봅니다.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: 327f2214d601849008a3e6c8b804ea0f109b53d0
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2649'
 ht-degree: 0%
 
 ---
 
 # 검색 입찰 단위에 대한 제한 관리
 
-<!-- Read through all and edit as appropriate -->
-
 *레거시 키워드 수준의 포트폴리오에서만 CPC 캠페인의 입찰 단위에 적용 가능*
 
-입찰 단위 제한은 제한과 관련된 비용 및 수익 모델을 사용하는 모든 [입찰 단위](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=ko)에 대해 최적화된 입찰을 제한하는 규칙입니다.
+입찰 단위 제한은 제한과 관련된 비용 및 수익 모델을 사용하는 모든 [입찰 단위](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html)에 대해 최적화된 입찰을 제한하는 규칙입니다.
 
 ## 제한 정보
 
@@ -58,15 +56,15 @@ ht-degree: 0%
 
 * 브랜드 또는 프로모션 중에 중요한 특정 용어를 입찰하기 위해.
 
-### UI<!-- wording? --> 전체에서 제약 조건에 대한 정보를 볼 수 있는 위치
+### UI 내의 제한에 대한 정보를 볼 수 있는 위치
 
 [[!UICONTROL Constraints] 보기](#constraints-view)을(를) 여는 것 외에도 다음과 같은 방법으로 제한 관련 정보를 볼 수 있습니다.
 
-* 모든 제약 조건은 &quot;[&quot;이라는 단일 &#x200B;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=ko)레이블 분류[!UICONTROL Constraints]에 대한 레이블 값입니다.
+* 모든 제약 조건은 &quot;[!UICONTROL Constraints]&quot;이라는 단일 [레이블 분류](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html)에 대한 레이블 값입니다.
 
    * &quot;[!UICONTROL Constraints]&quot;은(는) 기본 및 사용자 지정 보기 설정과 예약된 보고서의 &quot;[!UICONTROL Classifications]&quot; 목록에 포함되어 있습니다. 관련 엔티티에 할당된 구속을 보려는 위치에 열을 추가할 수 있습니다.
 
-   * 일괄 시트를 다운로드하면 &quot;[!UICONTROL Constraints]&quot;이(가) [!UICONTROL Classifications] 대화 상자의 적용 가능한 엔터티에 대해 &quot;[!UICONTROL Download Bulksheet]&quot; 열 아래에 나열됩니다. 열을 포함할 때 다운로드된 일괄 시트에는 관련 엔티티에 할당된 모든 구속이 포함됩니다.
+   * 일괄 시트를 다운로드하면 &quot;[!UICONTROL Constraints]&quot;이(가) [!UICONTROL Download Bulksheet] 대화 상자의 적용 가능한 엔터티에 대해 &quot;[!UICONTROL Classifications]&quot; 열 아래에 나열됩니다. 열을 포함할 때 다운로드된 일괄 시트에는 관련 엔티티에 할당된 모든 구속이 포함됩니다.
 
   [!UICONTROL Constraints] 분류가 [!UICONTROL Label Classifications] 보기에 포함되어 있지 않습니다. [!UICONTROL Constraints] 보기는 별개입니다. [!UICONTROL Constraints] 분류도 30개 레이블 분류 제한에 포함되지 않습니다.
 
@@ -80,11 +78,9 @@ ht-degree: 0%
 >
 >[!UICONTROL Constraints] 보기의 행에 대한 성능 데이터가 제약 조건이 할당된 최상위 엔터티의 성능 데이터와 일치하지 않을 수 있습니다. 가장 낮은 수준에서 지정된 제약 조건은 항상 상위 수준에서 지정된 제약 조건을 무시하므로 캠페인이나 광고 그룹에 지정된 제약 조건이 하위 광고 그룹 및 키워드에 지정된 상태로 유지되지 않을 수 있습니다. 예를 들어 캠페인 A에 제한 A가 할당되면 캠페인 A의 모든 광고 그룹 및 키워드는 제한 A를 자동으로 상속합니다. 그러나 이러한 광고 그룹 및 키워드는 나중에 제한 B와 같은 다른 제한에 할당될 수 있고, 그런 다음 제한 A와의 연관성을 잃게 됩니다.
 
-[!UICONTROL Constraints] 보기에서 제약 조건의 상태를 만들고 편집하고 변경할 수 있습니다.
-
 >[!NOTE]
 >
->관련 엔터티 관리 보기(예: 캠페인 수준 제한에 대한 [!UICONTROL Campaigns] 보기)에서 입찰 단위에 제한을 할당하고 할당을 취소할 수 있습니다.
+>관련 엔터티 관리 보기(예: 캠페인 수준 제한에 대한 [!UICONTROL Campaigns] 보기)에서 입찰 단위에 제한을 할당하고 할당을 취소하십시오.
 
 #### 사용 가능한 작업
 
@@ -116,7 +112,7 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Constraints]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 도구 모음[&#x200B; 또는 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)열 제목[에서 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) 목록을 필터링합니다.
+1. (선택 사항) 도구 모음](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서 [ 목록을 필터링합니다.
 
 1. 편집할 제한 옆의 확인란을 선택합니다.
 
@@ -138,7 +134,7 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Constraints]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 도구 모음[&#x200B; 또는 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)열 제목[에서 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) 목록을 필터링합니다.
+1. (선택 사항) 도구 모음](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서 [ 목록을 필터링합니다.
 
 1. 상태를 변경할 각 제약 조건 옆의 확인란을 선택합니다.
 
@@ -170,7 +166,7 @@ ht-degree: 0%
 | | [!UICONTROL Set constraint options for Search Engine Min Bid] | ([!UICONTROL Search Engine Min Bid] 제약 조건) Google에서 검색 결과의 첫 페이지에 입찰 단위를 표시하는 데 필요한 최소 입찰가를 사용합니다([!UICONTROL Google First Page CPC]). 필요한 경우 **[!UICONTROL Min Bid]** 값 및/또는 **[!UICONTROL Max Bid]** 값을 입력하여 제한에 적합한 입찰의 범위를 정의합니다. 예를 들어 [!UICONTROL Min Bid]&#x200B;(2.50 USD)와 [!UICONTROL Max Bid]&#x200B;(4 USD)를 지정하는 경우 [!DNL Google Ads] 첫 페이지 입찰가가 2.50 USD 미만이거나 4 USD 이상이면 입찰 단위에 입찰하지 않습니다. |
 | | [!UICONTROL Set constraint options for Impression Share] | ([!UICONTROL Impression Share] 제약 조건만 해당) 설정에는 다음이 포함됩니다.<ul><li>**[!UICONTROL Min Bid]**(선택 사항) 연결된 입찰 단위에 대한 최소 기본 입찰입니다.</li><li>**[!UICONTROL Max Bid]:**(선택 사항) 연결된 입찰 단위에 대한 최대 기본 입찰입니다.</li><li>**[!UICONTROL Min Impression Share]:** 적용 가능한 입찰 단위에 대한 제한을 트리거하는 가장 낮은 노출 점유율입니다. 10에서 90 사이여야 합니다. **참고:** 제약 조건이 비용 효율적이지 않으면 최적화 기능이 이를 재정의할 수 있습니다.</li><li>**[!UICONTROL Max Impression Share]:** 적용 가능한 입찰 단위에 대한 제한을 트리거하는 가장 높은 노출 점유율입니다. 10에서 90 사이여야 합니다.**참고:** 제약 조건이 비용 효율적이지 않으면 최적화 기능이 이를 재정의할 수 있습니다.</li></ul>> |
 | [!UICONTROL Conditions] | [!UICONTROL Condition Type] | 제약 조건에 조건 적용 여부:<ul><li>*[!UICONTROL No Condition]:*(기본값) 지정한 날짜 범위 동안 제약 조건이 무조건 적용됩니다.</li><li>*[!UICONTROL Satisfy]:* 제약 조건은 지정된 데이터 평가 기간 동안 지정된 조건이 충족되는 경우에만 적용됩니다.</li></ul> |
-| | [!UICONTROL Data Evaluation Period] | (조건이 설정된 경우) 지정된 기준에 대한 데이터를 평가할 기간입니다. *[!UICONTROL Custom date range]을(를) 선택하는 경우&#x200B;**은(는) &#x200B;** [!UICONTROL Start Date] **&#x200B; 형식(예: 2026년 3월 29일 03-29-2026)으로 각 날짜를 입력하거나 &#x200B;** [!UICONTROL End Date]**&#x200B;달력 단추`MM-DD-YYYY`달력 단추![를 클릭하여 달력을 열고 각 날짜를 선택하여 &#x200B;](/help/search-social-commerce/assets/calendar-new.png "과(와) ")을(를) 지정합니다. |
+| | [!UICONTROL Data Evaluation Period] | (조건이 설정된 경우) 지정된 기준에 대한 데이터를 평가할 기간입니다. *[!UICONTROL Custom date range]을(를) 선택하는 경우**은(는) `MM-DD-YYYY` 형식(예: 2026년 3월 29일 03-29-2026)으로 각 날짜를 입력하거나 ![달력 단추](/help/search-social-commerce/assets/calendar-new.png "달력 단추")를 클릭하여 달력을 열고 각 날짜를 선택하여 **[!UICONTROL Start Date]**&#x200B;과(와) **[!UICONTROL End Date]**&#x200B;을(를) 지정합니다. |
 | | [!UICONTROL When to Apply Constraints] | (조건이 설정된 경우) 제한을 적용하려면 몇 개의 필터 조건을 충족해야 합니까?<ul><li>*[!UICONTROL Match All Filters]:* 지정한 모든 필터 조건이 충족될 때 제약 조건을 적용합니다.</li><li>*[!UICONTROL Match Any Filters]:* 지정한 필터 조건 중 하나 이상이 충족되면 제약 조건을 적용합니다.</li></ul> |
 | | [!UICONTROL Filters] | (조건이 설정된 경우) 충족해야 하는 하나 이상의 기준. 필터를 만들려면 목록에서 속성 또는 지표를 선택합니다. 속성(예: [!UICONTROL Channel Type])의 경우 목록에서 적용 가능한 값을 선택합니다. 지표(예: [!UICONTROL Clicks])의 경우 연산자를 선택한 다음 해당 값을 입력합니다. 예를 들어 클릭수가 100개를 초과하는 입찰 단위만 반환하려면 **클릭수**&#x200B;을(를) 선택하고 **보다 큼**&#x200B;을(를) 선택한 다음 입력 필드에 `100`을(를) 입력합니다.</li></ul> |
 
@@ -190,7 +186,7 @@ ht-degree: 0%
 
    <!-- for [campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [ad groups](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [keywords](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md), or [placements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). And ADD LINKS WHEN AVAILABLE for shopping product groups and dynamic search targets. -->
 
-1. (선택 사항) 도구 모음[&#x200B; 또는 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)열 제목[에서 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) 목록을 필터링합니다.
+1. (선택 사항) 도구 모음](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서 [ 목록을 필터링합니다.
 
 1. 단일 구속을 지정할 각 엔티티 옆의 확인란을 선택합니다.
 

@@ -3,7 +3,7 @@ title: Adobe Advertising 전환 추적 태그 생성 및 구현
 description: Adobe Advertising 전환 태그를 만들어 전환 이벤트를 추적하는 방법에 대해 알아봅니다.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -16,7 +16,62 @@ ht-degree: 0%
 
 추적할 각 지표 세트에 대해 별도의 전환 태그를 만듭니다. 검색, 소셜 및 Commerce에서 태그를 생성하거나 Adobe Advertising 확장 기능이 있는 Adobe Experience Platform(이전의 Adobe Experience Platform Launch)의 태그를 사용하여 태그를 생성할 수 있습니다.
 
-## 검색, 소셜 및 Commerce 내에서 전환 추적 태그를 생성하고 구현합니다.
+<!--
+
+## (New UI) Generate and implement a conversion-tracking tag within Search, Social, & Commerce
+
+>[!NOTE]
+>
+>This feature doesn't add image tags or [!DNL JavaScript] tags to the advertiser's webpages. Provide the tags to the advertiser or agency with a list of webpages on which to insert each. The tags must be added according to the advertiser's normal procedure for updating webpages.
+
+1. In the main menu, click **[!UICONTROL Goals] > [!UICONTROL Conversions]**.
+
+1. In the main toolbar, click **[!UICONTROL Conversion Tag]**.
+
+1. Specify the [conversion tag settings](#conversion-tag-settings).
+
+1. Click **[!UICONTROL Generate]**.
+   
+1. Click **[!UICONTROL Copy]** to copy the tag to your clipboard. Give the tag to the advertiser or agency to implement.
+
+>[!NOTE]
+>
+>Each metric in the new conversion tag is automatically listed in [!UICONTROL Admin] > [!UICONTROL Conversions], even if it isn't implemented or the webpages that it's on haven't received any clicks. This behavior is different from the behavior of metrics in tags created manually or elsewhere, which aren't listed in [!UICONTROL Admin] > [!UICONTROL Conversions] until one of the webpages that it's on has received a click. In all cases, however, each metric is initially excluded from portfolio objectives, reports, and views until you explicitly make them available. Before you add the metrics to portfolio objectives, consider first making the metrics available and adding them to reports to verify when they receive clicks.
+
+### Adobe Advertising conversion tag settings {#conversion-tag-settings}
+
+**[!UICONTROL Tag Type]:** The type of tag to create:
+
+* *[!UICONTROL JavaScript]:* To create a JavaScript tag.
+
+* *[!UICONTROL Image]:* To create an image tag to display a 1-pixel x 1-pixel transparent image (pixel), which is invisible to end users, on the webpage. The best practice is to use image tags only when the site has a policy against using JavaScript tags.
+
+For more information about the differences between the tag types, see "[FAQs about Adobe Advertising conversion and page view tracking tags](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)."
+
+**[!UICONTROL Include unique transaction IDs]:** (Optional) Includes a transaction ID property (`ev_transid=<transid>`) in the tag. The option is selected by default.
+
+When you select this option, the advertiser must generate a unique value for `<transid>` (for example, an actual order ID) when the transaction is complete and pass it back to Adobe Advertising, such as `ev_transid=0123`. Adobe Advertising uses the transaction ID to eliminate duplicate transactions with the same transaction ID and property value. The transaction ID can't contain ampersand symbols (`&`), which are reserved as parameter separators. The transaction ID is included in [the [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md), which you can use to validate data within Search, Social, & Commerce with the advertiser's data.
+
+If the data doesn't include a unique ID per transaction, then Adobe Advertising still generates one based on transaction time.
+
+>[!NOTE]
+>
+>If you send [transaction ID feeds](/help/search-social-commerce/tracking/feed-transaction-id.md) with conversion data for offline conversions, then you must submit the transaction ID (`ev_transid`) for the online part of the transaction in the feed data for offline parts of the transaction.
+
+**[!UICONTROL JS Version]:** ([!DNL JavaScript] tags only) Which version of the [!DNL JavaScript] tag to create: *[!UICONTROL v2]* (the default) or *[!UICONTROL v3]*.
+
+**[!UICONTROL Security]:** The security protocol for your website create: *[!UICONTROL Standard]* (for websites that use HTTP) or *[!UICONTROL Secure]* (for websites that use HTTPs).
+
+**[!UICONTROL Properties]:** One or more conversion metrics to be tracked when an end user views a page containing the conversion tag. To add a metric to the list, enter the metric name in the "[!UICONTROL Property name]" field and click **[!UICONTROL Add]**.
+
+When multiple metrics are tracked, they're joined by an ampersand (`&`) in the tag, such as `ev_Property1=<Property1>&ev_Property2=<Property2>`.
+
+>[!NOTE]
+>
+>Metrics added to this list aren't saved anywhere or integrated with the client's [!UICONTROL Conversions] list on the [!UICONTROL Admin] tab. However, metrics are added to the client's [!UICONTROL Conversions] list automatically once Adobe Advertising actually gathers data for a metric, which happens when the conversion tag is implemented on a page and an end user completes a transaction that opens that page.
+
+-->
+## <!-- (Legacy UI) --> 검색, 소셜 및 Commerce 내에서 전환 추적 태그를 생성하고 구현합니다.
 
 >[!NOTE]
 >
@@ -76,15 +131,15 @@ Adobe Advertising 전환 및 페이지 보기 추적 태그에 대한 &quot;[FAQ
 
 ## Adobe Experience Platform 태그 및 Adobe Advertising 확장을 사용하여 전환 추적 태그 구현
 
-Adobe Experience Platform의 태그를 사용하여 검색, 소셜 및 Commerce에 대한 전환 추적을 설정할 수 있습니다. 태그는 부가가치 기능으로 포함되어 Adobe CX Enterprise 고객이 사용할 수 있습니다.
+Adobe Experience Platform의 태그를 사용하여 검색, 소셜 및 Commerce에 대한 전환 추적을 설정할 수 있습니다. 태그는 부가가치 기능으로 포함되어 Adobe CX 엔터프라이즈 고객이 사용할 수 있습니다.
 
-Experience Platform 사용자 인터페이스 또는 Experience Platform 데이터 수집 사용자 인터페이스에서 검색, 소셜 및 Commerce에 대한 전환 추적 태그를 구성하는 데 다음 작업이 필요합니다. 태그 구성에 대한 전체 정보와 지침은 &quot;[태그 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home)&quot; 및 &quot;[빠른 시작 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/get-started/quick-start)&quot;로 시작하는 Experience Platform 태그 안내서를 참조하십시오.
+Experience Platform 사용자 인터페이스 또는 Experience Platform 데이터 수집 사용자 인터페이스에서 검색, 소셜 및 Commerce에 대한 전환 추적 태그를 구성하는 데 다음 작업이 필요합니다. 태그 구성에 대한 전체 정보와 지침은 &quot;[태그 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; 및 &quot;[빠른 시작 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;로 시작하는 Experience Platform 태그 안내서를 참조하십시오.
 
 >[!PREREQUISITES]
 >
 >필요한 태그 확장을 설치하려면 조직 관리자에게 `manage_properties` 권한을 포함한 UI의 데이터 수집 기능에 대한 액세스 권한을 요청하십시오.
 
-1. [데이터 수집 UI](https://experience.adobe.com/#/data-collection/)에서 Adobe Advertising [확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/extensions/overview)을 설치하십시오.
+1. [데이터 수집 UI](https://experience.adobe.com/#/data-collection/)에서 Adobe Advertising [확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)을 설치하십시오.
 
    1. 해당 속성에서 확장 카탈로그를 열고 **Adobe Advertising**&#x200B;을(를) 선택합니다.
 
@@ -132,7 +187,7 @@ Experience Platform 사용자 인터페이스 또는 Experience Platform 데이�
 
          **전환 속성 이름:** 전환 속성의 이름입니다(예: `form_completes`).
 
-         **값:** 전환 속성의 숫자 값(예: `1` to track form_completes)이거나 기존 [데이터 요소](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/data-elements)를 선택하십시오.
+         **값:** 전환 속성의 숫자 값(예: `1` to track form_completes)이거나 기존 [데이터 요소](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)를 선택하십시오.
 
       1. **변경 내용 유지**&#x200B;를 클릭합니다.
 
