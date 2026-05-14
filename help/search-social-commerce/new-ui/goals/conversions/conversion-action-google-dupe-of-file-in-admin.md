@@ -2,22 +2,24 @@
 title: ' [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기'
 description: 잠재 고객에 대한 향상된 전환을 위해  [!DNL Google Ads] 전환 작업을 만드는 방법을 알아봅니다.
 feature: Conversions
-source-git-commit: 88a45014064220a2bec6aa6080a2a1f53d24b9bb
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기
 
-<!-- Includes procedure in new UI -->
+<!-- Includes procedure in new UI, which isn't available to all yet -->
 
 *[!DNL Google Ads]개의 계정만*
 
 관리자 계정 수준에서 추적되는 전환이 아니라 개별 [!DNL Google Ads] 계정에 대해 추적할 수 있도록 [!DNL Google Ads]개의 향상된 전환에 대한 전환 작업을 만들 수 있습니다.<!-- I don't see a list of synced conversion actions here; supposedly we do list them, but I don't see them in the legacy UI either (unless they're just listed as conversions, but not identified differently). Clarify and reword if necessary. -->
 
 ## (새 UI) 전환 작업 만들기
+
+*Beta 기능*
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
 
@@ -107,7 +109,7 @@ ht-degree: 0%
 
    * [!DNL Google] 태그를 사용하려면 &quot;[태그 [!DNL Google] 태그를 사용하는 리드에 대한 향상된 전환 설정](https://support.google.com/google-ads/answer/11347292)에서 &quot;[!DNL Google] 태그 설정 구성&quot;에 대한 [!DNL Google Ads] 지침을 참조하십시오.&quot;
 
-   * [!DNL Google Tag Manager]을(를) 사용하려면 &quot;[&#x200B; [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11021502?#configure)의 잠재 고객에 대한 향상된 전환 설정&quot;에서 &quot;[!DNL Google] 태그 설정을 구성&quot;하고 &quot;설정을 확인하고 컨테이너를 게시&quot;하는 [!DNL Google Ads] 지침을 참조하십시오.&quot;
+   * [!DNL Google Tag Manager]을(를) 사용하려면 &quot;[ [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11021502?#configure)의 잠재 고객에 대한 향상된 전환 설정&quot;에서 &quot;[!DNL Google] 태그 설정을 구성&quot;하고 &quot;설정을 확인하고 컨테이너를 게시&quot;하는 [!DNL Google Ads] 지침을 참조하십시오.&quot;
 
 1. **[!UICONTROL Done].** 클릭
 
