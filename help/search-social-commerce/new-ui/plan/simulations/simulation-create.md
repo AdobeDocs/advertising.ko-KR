@@ -5,16 +5,12 @@ feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
 TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2504e6a4eebeab74352606a89a5012ab96c89c47
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: 505
 ht-degree: 0%
 
 ---
@@ -25,23 +21,35 @@ ht-degree: 0%
 
 [최적화 또는 활성](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md) 포트폴리오에 대한 사용자 지정 시뮬레이션을 생성할 수 있습니다. 기존 시뮬레이션의 매개변수를 변경하고 시뮬레이션을 재생성하거나 기존 매개변수를 사용하여 기존 시뮬레이션을 재실행할 수도 있습니다.
 
+<!-- You can't run sims for portfolios with legacy keyword-level optimization when they include smart bidding campaigns. Clarify all exceptions so users don't find out via error messages. -->
+
 [!UICONTROL Admin] 및 [!UICONTROL Account Manager] 사용자는 다른 사용자가 만든 시뮬레이션을 볼 수 있습니다. 다른 모든 사용자는 자신이 만든 사용자 지정 시뮬레이션만 볼 수 있습니다.
 
 ## 새 시뮬레이션 만들기
 
-1. 메인 메뉴에서 **[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;을(를) 클릭합니다.
+1. 다음 중 하나를 수행합니다.
 
-1. 데이터 테이블 위에서 **[!UICONTROL Run Simulation]**&#x200B;을(를) 클릭합니다.
+* [!UICONTROL Simulations] 보기에서:
 
-1. 포트폴리오 선택:
+   1. 메인 메뉴에서 **[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;을(를) 클릭합니다.
 
-   1. **[!UICONTROL Select Portfolio]**&#x200B;을(를) 클릭합니다.
+   1. 데이터 테이블 위에서 **[!UICONTROL Run Simulation]**&#x200B;을(를) 클릭합니다.
 
-   1. 포트폴리오를 선택합니다.
+   1. 포트폴리오 선택:
 
-      특정 텍스트 문자열을 포함하는 포트폴리오를 검색하려면 검색 필드 내에 텍스트 문자열 입력을 시작합니다. 값은 대/소문자를 구분하지 않습니다.
+      1. **[!UICONTROL Select Portfolio]**&#x200B;을(를) 클릭합니다.
 
-   1. **[!UICONTROL Proceed]**&#x200B;을(를) 클릭합니다.
+      1. 포트폴리오를 선택합니다.
+
+         특정 텍스트 문자열을 포함하는 포트폴리오를 검색하려면 검색 필드 내에 텍스트 문자열 입력을 시작합니다. 값은 대/소문자를 구분하지 않습니다.
+
+      1. **[!UICONTROL Proceed]**&#x200B;을(를) 클릭합니다.
+
+* [!UICONTROL Portfolios] 보기에서:
+
+   1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;을(를) 클릭합니다.
+
+   1. 포트폴리오 행 위에 커서를 놓습니다. 포트폴리오 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**&#x200B;을(를) 클릭합니다.
 
 1. [사용자 지정 시뮬레이션 설정 지정](#custom-simulation-settings):
 
