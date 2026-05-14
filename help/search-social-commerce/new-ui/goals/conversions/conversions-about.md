@@ -13,7 +13,7 @@ ht-degree: 0%
 
 [!UICONTROL Goals] > [!UICONTROL Conversions] 보기에서 다음을 수행할 수 있습니다.
 
-* [Adobe Advertising 전환 추적 태그 생성](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Adobe Advertising 전환 추적 태그 생성](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
 
 * 광고주를 위해 추적된 모든 전환 지표의 경우:
 
