@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
 TQID: https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -37,7 +33,7 @@ ht-degree: 0%
 
 1. 데이터 테이블 위의 도구 모음에서 다음 을 클릭합니다.
 
-   * (모든 포트폴리오의 경우) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**.
+   * (모든 포트폴리오의 경우) ![대량 작업](/help/search-social-commerce/assets/chevron-down.png "대량 작업") > **[!UICONTROL Export All Portfolios]**.
 
    * (선택한 포트폴리오의 경우) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
 
@@ -49,7 +45,7 @@ ht-degree: 0%
 
 파일은 XLSX 형식이어야 합니다.
 
-1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**&#x200B;을(를) 클릭합니다.
+1. 데이터 테이블 위의 도구 모음에서 ![대량 작업](/help/search-social-commerce/assets/chevron-down.png "대량 작업") > **[!UICONTROL Import Portfolio Details]**&#x200B;을 클릭합니다.
 
 1. [!UICONTROL Import Portfolio Details File] 대화 상자에서:
 
@@ -59,7 +55,7 @@ ht-degree: 0%
 
 날짜 범위 선택기 옆에 있는 [!UICONTROL Global Sync Status] 단추(![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태"))에서 업로드 상태를 확인할 수 있습니다. 실패한 변경 사항이 있으면 실패한 항목을 보여 주는 오류 파일을 다운로드할 수 있습니다.
 
-알림도 알림 센터에 추가되며 ![&#x200B; 단추(](/help/search-social-commerce/assets/notifications-new.png ") 옆에 있는 ")알림[!UICONTROL Global Sync Status]알림![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태") 아이콘에서 알림 창을 열 수 있습니다.
+알림도 알림 센터에 추가되며 [!UICONTROL Global Sync Status] 단추(![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태")) 옆에 있는 ![알림](/help/search-social-commerce/assets/notifications-new.png "알림") 아이콘에서 알림 창을 열 수 있습니다.
 
 ## 업로드된 일괄 시트 파일에 대한 데이터 요구 사항
 
