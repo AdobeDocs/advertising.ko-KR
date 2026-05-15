@@ -4,10 +4,14 @@ description: 하나 이상의 배치를 복제하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
 TQID: https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
 source-wordcount: 445
@@ -48,7 +52,7 @@ ht-degree: 0%
 
    1. (단일 배치) 새 배치 이름을 입력합니다.
 
-   1. **[!UICONTROL Choose Package (Required)]** 메뉴에서 부모 패키지 또는 {1*** 중 하나를 선택합니다.[!UICONTROL No package]
+   1. **[!UICONTROL Choose Package (Required)]** 메뉴에서 부모 패키지 또는 &lbrace;1*** 중 하나를 선택합니다.[!UICONTROL No package]
 
    1. (선택 사항) 기본 설정을 변경합니다.
 

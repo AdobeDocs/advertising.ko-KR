@@ -133,19 +133,19 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ###### 비디오
 
-** **[!UICONTROL Include URL's whose average video viewability rate is]**. 이 옵션을 사용하여 기준을 선택합니다.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. 이 옵션을 사용하여 기준을 선택합니다.
 
-** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. 이 옵션을 사용하여 기준을 선택합니다.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. 이 옵션을 사용하여 기준을 선택합니다.
 
-** **[!UICONTROL Include URL's whose average player size composition is]**. 이 옵션을 사용하여 기준을 선택합니다.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. 이 옵션을 사용하여 기준을 선택합니다.
 
-** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 표시
 
-** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. 이 옵션을 사용하여 기준을 선택합니다.
+**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. 이 옵션을 사용하여 기준을 선택합니다.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
