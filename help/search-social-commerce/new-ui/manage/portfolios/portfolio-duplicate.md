@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 144
+source-wordcount: 156
 ht-degree: 0%
 
 ---
@@ -27,9 +27,11 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;을(를) 클릭합니다.
 
-1. 포트폴리오 옆에 있는 확인란을 선택합니다.
+1. 다음 중 하나를 수행합니다.
 
-1. 데이터 테이블 위의 도구 모음에서 ![복제](/help/search-social-commerce/assets/duplicate.png "복제") **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
+   * 포트폴리오 행 위에 커서를 놓고 **[!UICONTROL ...]>[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
+
+   * 포트폴리오 옆에 있는 확인란을 선택합니다. 일괄 작업 도구 모음에서 ![복제](/help/search-social-commerce/assets/duplicate.png "복제") **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 
 1. 포트폴리오 설정을 편집합니다.
 

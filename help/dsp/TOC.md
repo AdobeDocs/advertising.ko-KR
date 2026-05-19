@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1056'
 ht-degree: 3%
 
 ---
@@ -117,7 +117,6 @@ ht-degree: 3%
    + [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
    + 재사용 가능한 대상 {#reusable-audiences}
       + [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)
-      + {hide-from-toc}[생성 AI를 사용하여 재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [재사용 가능한 대상 복제](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [재사용 가능한 대상 편집](/help/dsp/audiences/reusable-audience-edit.md)
       + [재사용 가능한 대상에 대한 세부 정보 보기](/help/dsp/audiences/reusable-audience-view-details.md)

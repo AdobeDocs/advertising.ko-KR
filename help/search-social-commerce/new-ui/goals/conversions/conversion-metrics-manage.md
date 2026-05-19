@@ -2,14 +2,16 @@
 title: 광고주의 전환 지표 관리
 description: Adobe Advertising이 광고주를 위해 추적하는 전환 지표를 사용하는 방법을 알아봅니다.
 feature: Conversions
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
-# 광고주의 전환 지표 관리
+# (새 UI) 광고주의 전환 지표에 대한 성능 데이터를 관리하고 조회합니다
+
+*Beta 기능*
 
 광고주의 [전환](/help/search-social-commerce/glossary.md#c-d) 지표가 Adobe Advertising 전체에서 사용됩니다.
 
@@ -94,6 +96,50 @@ ht-degree: 0%
       1. 일괄 작업 도구 모음에서 ![가시성](/help/search-social-commerce/assets/visible.png "가시성")을 클릭하여 지표를 표시하거나 ![가시성 해제](/help/search-social-commerce/assets/visibility-off.png "가시성 해제")을(를) 클릭하여 지표를 숨깁니다.
 
       1. (지표를 숨기려면) 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭하여 지표가 포함된 파생 지표에서 지표를 제거하는 등 지표를 숨깁니다.
+
+## 변환에 대한 성능 데이터 보고서 관리
+
+추적된 전환에 대한 다음 정보를 다운로드할 수 있습니다. 동기화된 지표 이름, 검색, 소셜 및 Commerce 관리 보기 및 보고서 내 지표의 표시 이름, 관리 보기 및 보고서에 지표가 표시되는지 여부, 전환 ID 및 지표 소스. 데이터를 [!DNL Microsoft Excel] 통합 문서(XLSX 파일) 형식의 파일로 다운로드합니다.
+
+### 필터링된 데이터 행으로 보고서 생성
+
+1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
+
+1. 다운로드하려는 데이터의 전환을 지정합니다.
+
+   * 특정 행에 대한 데이터를 다운로드하려면 행 옆에 있는 확인란을 선택합니다.
+
+   * 모든 행의 데이터를 다운로드하려면 확인란을 선택할 필요가 없습니다. 기본적으로 모든 행이 포함됩니다.
+
+1. 데이터 테이블 위의 도구 모음에서 ![보고서 다운로드](/help/search-social-commerce/assets/download.png "보고서 다운로드") **[!UICONTROL Reports]**&#x200B;를 클릭합니다.
+
+1. [!UICONTROL Grid Reports] 설정에서 고유한 보고서 이름을 입력한 다음 **[!UICONTROL Generate]**&#x200B;을(를) 클릭합니다.
+
+   기본적으로 파일 이름은 &quot;conversionsReport_YYYYMMDD_NNNN&quot;으로 지정됩니다. 여기서 &quot;NNNN&quot;은 순차적 작업 번호입니다(예: &quot;conversionsReport_20260402_1326).
+
+   파일이 [!UICONTROL Recently Generated] 목록에 추가됩니다.
+
+1. (선택 사항) 파일이 완료되면 다운로드하려면 파일 이름 옆에 있는 ![다운로드](/help/search-social-commerce/assets/download.png "다운로드")를 클릭합니다.
+
+   브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+
+### 완료된 보고서 다운로드
+
+1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
+
+1. 데이터 테이블 위의 도구 모음에서 ![보고서 다운로드](/help/search-social-commerce/assets/download.png "보고서 다운로드") **[!UICONTROL Reports]**&#x200B;를 클릭합니다.
+
+1. [!UICONTROL Grid Reports] 대화 상자의 [!UICONTROL Recently Generated] 목록에서 파일 이름 옆에 있는 ![다운로드](/help/search-social-commerce/assets/download.png "다운로드")를 클릭합니다.
+
+   브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+
+### 완료된 보고서 삭제
+
+1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
+
+1. 데이터 테이블 위의 도구 모음에서 ![다운로드](/help/search-social-commerce/assets/download.png "다운로드") **[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다.
+
+1. [!UICONTROL Grid Reports] 대화 상자의 [!UICONTROL Recently Generated] 목록에서 파일 이름 옆에 있는 ![삭제](/help/search-social-commerce/assets/delete-new.png "삭제")를 클릭합니다.
 
 <!--
 >[!MORELIKETHIS]

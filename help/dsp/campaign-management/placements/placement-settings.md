@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 4439
+source-wordcount: 4499
 ht-degree: 0%
 
 ---
@@ -205,7 +205,7 @@ ht-degree: 0%
 
   [!UICONTROL Deals] 탭에서 키워드, 키, 거래 ID 또는 사용자 지정 태그로 목록을 검색할 수 있습니다. [!UICONTROL Deal Lists] 탭에서 거래 목록 이름 또는 거래 목록 ID별로 목록을 검색할 수 있습니다.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: [에서 구독한 모든 [!UICONTROL On Demand]premium, 보장되지 않는 &#x200B;](/help/dsp/inventory/on-demand-inventory-about.md) 인벤토리[!UICONTROL On Demand]&#x200B;(또는 [!DNL Roku] 배치에 대해 [!DNL Roku]개의 [!DNL DSP] 거래). [!UICONTROL On Demand] 인벤토리를 포함 및 제외할 수 있습니다.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: [!DNL DSP]에서 구독한 모든 [premium, 보장되지 않는 [!UICONTROL On Demand] 인벤토리](/help/dsp/inventory/on-demand-inventory-about.md)(또는 [!DNL Roku] 배치에 대해 [!UICONTROL On Demand]개의 [!DNL Roku] 거래). [!UICONTROL On Demand] 인벤토리를 포함 및 제외할 수 있습니다.
 
   소스 또는 피드별로 목록을 볼 수 있습니다. 피드별로 목록을 볼 때 피드 이름, 피드 키 또는 선택한 게시자 영역, 범주 태그 또는 특성 태그별로 검색할 수 있습니다.
 
@@ -326,8 +326,8 @@ ht-degree: 0%
 
 **[!UICONTROL Included Audiences]:** [타사 세그먼트, 자사 세그먼트, Adobe 세그먼트, 사용자 지정 세그먼트 및 저장된 대상을 포함하여 배치에 대한 모든 대상 대상](/help/dsp/audiences/audience-settings.md). 선택한 모든 세그먼트 및 저장된 대상자 전체에 걸쳐 중복 제거된 총 활성 대상자 크기도 표시됩니다. 기존 대상을 선택하거나, 나중에 다시 사용할 수 있는 대상을 만들거나, 특정 대상 세그먼트를 선택할 수 있습니다.
 
-* 기존 대상을 선택하려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 대상을 선택하십시오.
-* 대상을 만들려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Included Audiences]을 클릭한 다음 **[!UICONTROL + Create Audience]**&#x200B;을(를) 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
+* 기존 대상을 선택하려면 [!UICONTROL Included Audiences] 옆에 있는 ![선택](/help/dsp/assets/chevron-down.png)을 클릭한 다음 대상을 선택하십시오.
+* 대상을 만들려면 [!UICONTROL Included Audiences] 옆에 있는 ![선택](/help/dsp/assets/chevron-down.png)을 클릭한 다음 **[!UICONTROL + Create Audience]**&#x200B;을(를) 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
 * 특정 대상 세그먼트를 선택하려면 **[!UICONTROL Select segments for this placement only]**&#x200B;을(를) 클릭하십시오. 세그먼트 논리를 선택합니다. 지침은 &quot;[재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)&quot;의 6단계를 참조하십시오. 완료되면 **저장**&#x200B;을 클릭하세요.
 
 >[!NOTE]
@@ -336,9 +336,9 @@ ht-degree: 0%
 
 **[!UICONTROL Excluded Audiences]:** [타사 세그먼트, 자사 세그먼트, Adobe 세그먼트, 사용자 지정 세그먼트 및 저장된 대상을 포함하여 배치에 대해 제외할 대상](/help/dsp/audiences/audience-settings.md)입니다. 제외된 모든 대상에 걸쳐 중복 제거된 총 활성 대상 크기도 표시됩니다. 기존 대상을 선택하거나 나중에 다시 사용할 수 있는 새 대상을 만들 수 있습니다.
 
-* 기존 대상을 선택하려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Excluded Audiences]을 클릭한 다음 대상을 선택하십시오.
+* 기존 대상을 선택하려면 [!UICONTROL Excluded Audiences] 옆에 있는 ![선택](/help/dsp/assets/chevron-down.png)을 클릭한 다음 대상을 선택하십시오.
 
-* 대상을 만들려면 ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png)선택[!UICONTROL Excluded Audiences]을 클릭한 다음 **+ 대상 만들기**&#x200B;를 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
+* 대상을 만들려면 [!UICONTROL Excluded Audiences] 옆에 있는 ![선택](/help/dsp/assets/chevron-down.png)을 클릭한 다음 **+ 대상 만들기**&#x200B;를 선택하십시오. 지침은 3단계부터 [재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)를 참조하십시오.
 
 **[!UICONTROL Targeting]:** 타깃팅할 사용자 ID의 유형입니다. 배치가 라이브 상태가 된 후(즉, 비행이 시작된 후) 이 설정을 변경할 수 없습니다.
 
@@ -346,13 +346,13 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (기본값) 쿠키, 모바일 광고 ID 또는 연결된 TV(CTV) ID를 기준으로 사용자를 타깃팅합니다. ID는 브라우저, 인앱 또는 CTV 인벤토리를 기반으로 선택됩니다.
 
-* *[!UICONTROL Universal ID Beta]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[&#x200B; 또는 &#x200B;](/help/dsp/audiences/sources/source-about.md)범용 ID를 추적하는 사용자 지정 세그먼트[에 사용합니다.](/help/dsp/audiences/custom-segment-create.md)
+* *[!UICONTROL Universal ID Beta]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[&#128279;](/help/dsp/audiences/sources/source-about.md) 또는 [범용 ID를 추적하는 사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md)에 사용합니다.
 
-   * *[!UICONTROL ID5]*: 이메일 주소 및 기타 신호에서 [!DNL ID5] ID를 확률적으로 만들었습니다.<!-- What countries/geos are these available for? Everywhere?-->개의 ID5 ID를 무료로 사용할 수 있습니다. **참고:** [!DNL Eyeota]의 타사 세그먼트에는 ID5 ID가 포함될 수 있습니다.
+   * *[!UICONTROL ID5]*: 이메일 주소 및 기타 신호에서 [!DNL ID5] ID를 확률적으로 만들었습니다.<!-- What countries/geos are these available for? Everywhere?--> ID5 ID는 무료로 사용할 수 있습니다. **참고:** [!DNL Eyeota]의 타사 세그먼트에는 ID5 ID가 포함될 수 있습니다.
 
    * *[!UICONTROL RampID]*: 사용자의 전자 메일 주소를 사용하여 사이트에 로그인한 [!DNL LiveRamp] [!DNL RampIDs]명의 사용자를 대상으로 합니다.<!-- Verify --> [!DNL RampIDs]은(는) 북미, 오스트레일리아 및 뉴질랜드의 사용자가 사용할 수 있습니다.
 
-   * *[!UICONTROL Unified ID2.0]*: 이메일 주소를 사용하여 사이트에 로그인한 사용자의 [!DNL Unified ID2.0]&#x200B;(UID2) ID를 타겟팅합니다.<!-- Verify -->[!DNL UID2 IDs]은(는) 유럽 경제 지역 및 일부 추가 국가에서 사용할 수 없습니다. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2)을 참조하세요.
+   * *[!UICONTROL Unified ID2.0]*: 전자 메일 주소를 사용하여 사이트에 로그인한 사용자의 [!DNL Unified ID2.0]&#x200B;(UID2) ID를 대상으로 합니다.<!-- Verify -->[!DNL UID2 IDs] 유럽 경제 지역 및 일부 추가 국가의 사용자는 사용할 수 없습니다. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2)을 참조하세요.
 
   **[!UICONTROL Terms of service]**: 유니버설 ID 사용에 대한 서비스 약관. 데이터를 새 ID 유형으로 변환하려면 사용자나 DSP 계정의 다른 사용자가 약관에 한 번 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 사용자의 동의를 얻고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 **>**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
 
@@ -420,7 +420,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]:**(선택 사항; [!DNL DoubleVerify] 고객만 해당; 데스크톱 프리롤, 표준 및 클릭-재생 디스플레이, 기본 디스플레이 및 비디오 배치에만 사용 가능; [거래의 기본 프로그램 보장 배치](/help/dsp/inventory/programmatic-guaranteed-about.md)에는 지원되지 않음) 배치에 사용할 조직의 [!DNL DoubleVerify Authentic Brand Safety] 계정과 연결된 [!DNL DoubleVerify] 세그먼트 ID입니다. ID를 지정하면 지정된 세그먼트 ID에 대해 구성된 사용자 지정 브랜드 안전 규칙을 사용하여 입찰 후 노출을 차단합니다. DSP은 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
+**[!UICONTROL DoubleVerify ABS segment ID]:**(선택 사항; [!DNL DoubleVerify] 고객만 해당; 데스크톱 프리롤, 표준 및 클릭-재생 디스플레이, 기본 디스플레이 및 비디오 배치에만 사용 가능; [거래의 기본 프로그램 보장 배치](/help/dsp/inventory/programmatic-guaranteed-about.md)에는 지원되지 않음) 배치에 사용할 조직의 [!DNL DoubleVerify] 계정과 연결된 [!DNL DoubleVerify Authentic Brand Suitability] 세그먼트 ID입니다. ID를 지정하면 지정된 세그먼트 ID에 대해 구성된 사용자 지정 브랜드 안전 규칙을 사용하여 입찰 후 노출을 차단합니다. DSP은 세그먼트 ID에 대한 사용을 위해 계정에 청구합니다.
 
 ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다. 기본적으로 광고주 계정 설정에 세그먼트 ID가 지정되어 있으면 광고주 수준 ID가 입력되지만, 다른 세그먼트를 사용하도록 ID를 변경하거나 해당 ID를 삭제하여 기능을 비활성화할 수 있습니다.
 

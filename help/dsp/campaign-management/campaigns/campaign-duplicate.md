@@ -14,9 +14,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 380
+source-wordcount: 385
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
    * 지역 대상
    * 이벤트 픽셀
    * 광고
-   * 배치 수준 [!DNL DoubleVerify Authentic Brand Safety] 세그먼트(광고주 수준 세그먼트를 재정의함)
+   * 배치 수준 [!DNL DoubleVerify Authentic Brand Suitability] 세그먼트(광고주 수준 세그먼트를 재정의함)
 
 ## 새 캠페인 구성 모범 사례
 

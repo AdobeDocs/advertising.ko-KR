@@ -12,9 +12,9 @@ subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 445
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
    * 지역 대상
    * 이벤트 픽셀
    * 광고
-   * 배치 수준 [!DNL DoubleVerify Authentic Brand Safety] 세그먼트(광고주 수준 세그먼트를 재정의함)
+   * 배치 수준 [!DNL DoubleVerify Authentic Brand Suitability] 세그먼트(광고주 수준 세그먼트를 재정의함)
 
 ## 새 배치를 구성하는 모범 사례
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
    * 필요에 따라 배치 및 광고에 이벤트 픽셀을 첨부합니다.
 
-   * 필요에 따라 지리적 대상과 배치 수준 [!DNL DoubleVerify Authentic Brand Safety] 세그먼트를 배치에 포함하십시오.
+   * 필요에 따라 지리적 대상과 배치 수준 [!DNL DoubleVerify Authentic Brand Suitability] 세그먼트를 배치에 포함하십시오.
 
    * 프로그램 보증 거래의 경우 새 거래 ID를 사용하고 기본 배치를 만듭니다.
 
