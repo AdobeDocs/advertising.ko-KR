@@ -4,13 +4,10 @@ description: 경험 수준 성과 보고서를 보는 방법에 대해 알아봅
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
 TQID: https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9376767ebde74e1e8edbc8617ecb72bfd49c8a3d
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 50e002abe0c434e5eba9bd9785d7fc3d7ee7d10c
 workflow-type: tm+mt
 source-wordcount: 791
 ht-degree: 0%
@@ -31,29 +28,29 @@ ht-degree: 0%
 
       * **전체 성능**: 총 노출 횟수, 클릭 수, 클릭스루 비율(CTR), 뷰스루 전환 및 클릭스루 전환
 
-        <!--
+     <!--
       ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
       * **기본 비율**: (의사 결정 트리 타깃팅만 있는 경험) 타깃팅된 크리에이티브, 타깃팅이 없거나 &quot;기타 사용자&quot;에게 타깃팅된 일반 크리에이티브 및 경험의 기본 크리에이티브로 인한 노출 횟수.
 
-        <!--
+     <!--
       ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
-      -->
+     -->
 
    * **성능 분석** 섹션:
 
-      * **지역별 성능:*: 지리적 위치에 따른 개별 지표입니다.
+      * **지역 실적:**: 지리적 위치별 개별 지표.
 
-        <!--
+     <!--
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
       * **장치 성능:** 장치 유형, 운영 체제 및 브라우저별 개별 지표입니다. 필요한 경우 디바이스 카테고리의 값을 클릭하여 해당 기준과 함께 제공된 상위 10개의 크리에이티브 목록을 확인합니다.
 
-        <!--
+     <!--
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
 * **Creative 성능** 탭*: 다음 항목을 포함하는 크리에이티브 및 번들 또는 광고 태그별 성능 개요:
 
