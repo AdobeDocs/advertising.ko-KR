@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
+source-git-commit: 845ec19227f14205ec4cd69c2f2f0114bd97cf48
 workflow-type: tm+mt
-source-wordcount: 7264
+source-wordcount: 7338
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026년 5월 20일 | 자사 대상 소스, 유니버설 ID, [!UICONTROL Placements] | 이제 오스트레일리아의 광고주는 타깃팅된 광고를 위해 세그먼트 매핑이 있는 [!DNL AdFixus]개의 범용 ID를 가져올 수 있습니다. DSP은 다른 ID 유형으로 전환하지 않고 [!DNL AdFixus]에서 자사 세그먼트를 있는 그대로 가져옵니다. 이 프로세스에는 대상 소스를 만들고 [!DNL AdFixus] 팀과 자동 생성된 키를 공유하는 작업이 포함됩니다. | &quot;[자사 세그먼트를 가져올 위치 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)&quot;, &quot;[자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)&quot; 및 &quot;[범용 ID 대상을 활성화하기 위한 대상 소스 관리](/help/dsp/audiences/sources/source-manage.md)&quot;를 참조하십시오.&quot; |
 | 2026년 5월 11일 | 재사용 가능한 [!UICONTROL Audiences] | (Beta 기능) 이제 AI 지원 대상 에이전트를 사용하여 재사용 가능한 대상을 만들 수 있습니다. 타겟 대상을 자연어 프롬프트로 설명하고 에이전트는 타겟 또는 제외로 사용할 타사 세그먼트를 제안하고 대상 표현식을 빌드합니다. | &quot;[재사용 가능한 대상 만들기](/help/dsp/audiences/reusable-audience-create.md)&quot;를 참조하십시오. |
 | 2026년 4월 29일 | [!UICONTROL Conversions] | 이제 DSP에서 조직에 대해 Adobe Advertising이 추적하는 모든 전환 지표를 관리할 수 있습니다. 이 지표는 여전히 Advertising 검색, 소셜 및 Commerce에서 보고 및 최적화에 사용할 수 있습니다. | &quot;[전환 관리](/help/dsp/admin/conversion-metrics-manage.md)&quot;를 참조하십시오. |
 | | [!UICONTROL Custom Objectives] | 이제 DSP 내에서 사용자 지정 목표에 사용되는 목표를 만들고 관리할 수 있습니다. | &quot;[사용자 지정 목표 관리](/help/dsp/admin/custom-objectives-manage.md)&quot;를 참조하십시오. |
