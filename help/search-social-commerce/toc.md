@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2088'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,7 @@ ht-degree: 2%
          + [[!UICONTROL Ads] 보기 정보](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [[!UICONTROL Ads] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 보고서 {#reports}
+      + [스프레드시트 보고서 피드 관리](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
       + [[!UICONTROL History Logs] 보고서 보기](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [레이블 분류 관리](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
