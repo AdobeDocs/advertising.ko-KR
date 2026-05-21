@@ -4,11 +4,19 @@ description: 배치를 만드는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
 TQID: https://experienceleague.adobe.com/QEpUfFvrVq62P64w-7gwFk2ujuCNzkegHKz6UancZDY
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
 source-wordcount: 713
@@ -58,7 +66,7 @@ ht-degree: 0%
 
       1. 대상자 범위를 좁힙니다. 여기에는 배치 내에서 타깃팅할 대상 세그먼트 선택이 포함됩니다.
 
-         [!DNL Roku] 배치의 경우 [!DNL Roku]&#x200B;(옵트인) 결정적 데이터 세트에 대해 일치시킬 수 있는 하나 이상의 대상 세그먼트를 포함하여  [!DNL Roku]](/help/dsp/inventory/roku-inventory.md)과(와) 일치하는 [DSP의 고유한 대상 세그먼트를 활용할 수 있습니다.
+         [!DNL Roku] 배치의 경우 [!DNL Roku]&#x200B;(옵트인) 결정적 데이터 세트에 대해 일치시킬 수 있는 하나 이상의 대상 세그먼트를 포함하여  [!DNL Roku][&#128279;](/help/dsp/inventory/roku-inventory.md)과(와) 일치하는 DSP의 고유한 대상 세그먼트를 활용할 수 있습니다.
 
          활성, 예약됨 또는 일시 중지됨 배치에 첨부되지 않은 자사 RampID 세그먼트는 일시 중지됩니다. 세그먼트는 세그먼트 목록에 &quot;자동 일시 중지됨&quot;으로 표시됩니다.
 
