@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 4499
+source-wordcount: 4518
 ht-degree: 0%
 
 ---
@@ -346,15 +346,17 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (기본값) 쿠키, 모바일 광고 ID 또는 연결된 TV(CTV) ID를 기준으로 사용자를 타깃팅합니다. ID는 브라우저, 인앱 또는 CTV 인벤토리를 기반으로 선택됩니다.
 
-* *[!UICONTROL Universal ID Beta]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[&#128279;](/help/dsp/audiences/sources/source-about.md) 또는 [범용 ID를 추적하는 사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md)에 사용합니다.
+* *[!UICONTROL Universal ID]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[&#128279;](/help/dsp/audiences/sources/source-about.md), [자사 [!DNL AdFixus] DSP으로 스트리밍되는 세그먼트](/help/dsp/audiences/sources/source-adfixus.md) 또는 [범용 ID를 추적하는 사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md)와 함께 사용합니다.
 
-   * *[!UICONTROL ID5]*: 이메일 주소 및 기타 신호에서 [!DNL ID5] ID를 확률적으로 만들었습니다.<!-- What countries/geos are these available for? Everywhere?--> ID5 ID는 무료로 사용할 수 있습니다. **참고:** [!DNL Eyeota]의 타사 세그먼트에는 ID5 ID가 포함될 수 있습니다.
+   * *[!UICONTROL AdFixus]*: Advertising DSP으로 가져온 대상 [!DNL AdFixus]개 ID.
 
-   * *[!UICONTROL RampID]*: 사용자의 전자 메일 주소를 사용하여 사이트에 로그인한 [!DNL LiveRamp] [!DNL RampIDs]명의 사용자를 대상으로 합니다.<!-- Verify --> [!DNL RampIDs]은(는) 북미, 오스트레일리아 및 뉴질랜드의 사용자가 사용할 수 있습니다.
+   * *[!UICONTROL ID5]*: 이메일 주소 및 기타 신호에서 [!DNL ID5] ID를 확률적으로 만들었습니다. ID5 ID는 무료로 사용할 수 있습니다. **참고:** [!DNL Eyeota]의 타사 세그먼트에는 ID5 ID가 포함될 수 있습니다.
 
-   * *[!UICONTROL Unified ID2.0]*: 전자 메일 주소를 사용하여 사이트에 로그인한 사용자의 [!DNL Unified ID2.0]&#x200B;(UID2) ID를 대상으로 합니다.<!-- Verify -->[!DNL UID2 IDs] 유럽 경제 지역 및 일부 추가 국가의 사용자는 사용할 수 없습니다. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2)을 참조하세요.
+   * *[!UICONTROL RampID]*: 전자 메일 주소를 사용하여 사이트에 로그인한 사용자의 [!DNL LiveRamp] [!DNL RampIDs]을(를) 대상으로 합니다. [!DNL RampIDs]은(는) 북미, 오스트레일리아 및 뉴질랜드의 사용자가 사용할 수 있습니다.
 
-  **[!UICONTROL Terms of service]**: 유니버설 ID 사용에 대한 서비스 약관. 데이터를 새 ID 유형으로 변환하려면 사용자나 DSP 계정의 다른 사용자가 약관에 한 번 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 사용자의 동의를 얻고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 **>**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
+   * *[!UICONTROL Unified ID2.0]*: 이메일 주소를 사용하여 사이트에 로그인한 사용자의 [!DNL Unified ID2.0]&#x200B;(UID2) ID를 타겟팅합니다. [!DNL UID2 IDs]은(는) 유럽 경제 지역 및 일부 추가 국가에서 사용할 수 없습니다. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2)을 참조하세요.
+
+  **[!UICONTROL Terms of service]**: 유니버설 ID 사용에 대한 서비스 약관. ID를 가져오거나, 데이터를 새 ID 유형으로 변환하거나, ID 유형을 타깃팅하려면 사용자나 DSP 계정의 다른 사용자가 약관에 한 번 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 사용자의 동의를 얻고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 **>**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
 
 **[!UICONTROL Cross Device Targeting]:**([campaign이 사용자 기반 교차 장치 타깃팅에 대해 구성된 경우 사용 가능](/help/dsp/campaign-management/campaigns/campaign-settings.md)), 레거시 ID만 타깃팅하고(범용 ID는 아님), 하나 이상의 세그먼트 또는 대상을 선택했습니다. 지정한 세그먼트에 없는 장치도, 개인의 알려진 모든 장치(캠페인 설정에 지정된 장치 그래프에 따라)로 타깃팅을 확장할 수 있습니다. 캠페인에 대해 지정된 그래프에 따라 요금이 적용될 수 있습니다. 장치 그래프 데이터는 북미에서만 사용할 수 있습니다.
 
@@ -480,7 +482,7 @@ ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다
 
 >[!NOTE]
 >
->([!DNL Roku]개 배치) [!DNL Roku]이(가) 승인한 서드파티 추적 공급업체는 [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] 및 [!DNL Research Now]입니다.
+>([!DNL Roku]개 배치) [!DNL Roku]이(가) 승인한 서드파티 추적 공급업체는 [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], [!DNL Research Now] 및 [!DNL TransUnion]입니다.
 
 **[!UICONTROL Event Pixels]:**(선택 사항) 배치의 모든 새 광고에 기본적으로 첨부할 타사 이벤트 추적 픽셀입니다. 이벤트 픽셀을 지정하려면:
 
