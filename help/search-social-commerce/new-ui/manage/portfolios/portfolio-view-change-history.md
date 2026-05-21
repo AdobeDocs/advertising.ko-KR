@@ -3,7 +3,7 @@ title: (새 UI) 포트폴리오의 변경 내역 보기
 description: 포트폴리오의 변경 기록을 보는 방법에 대해 알아봅니다.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -35,7 +35,6 @@ ht-degree: 0%
    * 변경 유형별로 데이터를 필터링하려면 ![필터](/help/search-social-commerce/assets/filter-new.png "필터")를 클릭하십시오.<!-- Not available as of 5-14: and by the user who performed the action -->.
 
    * 날짜별로 목록을 오름차순 또는 내림차순으로 정렬하려면 ![정렬](/help/search-social-commerce/assets/sort.png "정렬")을 클릭하세요.
-
 
 ## 변경 이력에 대한 성능 데이터 보고서 관리
 
