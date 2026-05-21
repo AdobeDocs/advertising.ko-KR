@@ -4,22 +4,14 @@ description: 인벤토리 옵션, 승인된 타사 추적 공급업체 및  [!DN
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
 TQID: https://experienceleague.adobe.com/6CdN1InBGyd9pkECHBITFv1l8JjVdQ6Ot2MUDIAvDjY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: ac506c20-96f2-48f6-9096-77706e336bda
-  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
-  - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: ac506c20-96f2-48f6-9096-77706e336bdaid: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: fbfa676f-2cdb-49be-b949-f2fab1be6dafid: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -30,7 +22,7 @@ Advertising DSP은 [!DNL Roku]에 광고를 위한 기능을 제공합니다.
 
 ## 대상 일치
 
-[!DNL Roku] 및 DSP 파트너 관계는 [!DNL DSP] 인벤토리에서 1[!DNL Roku] 결정론적 대상 타깃팅에 대한 :1 대상을 [!DNL Roku] ID에 일치시킵니다.
+[!DNL Roku] 및 DSP 파트너 관계는 [!DNL Roku] 인벤토리에서 1:1 결정론적 대상 타깃팅에 대한 [!DNL DSP] 대상을 [!DNL Roku] ID에 일치시킵니다.
 
 ## [!DNL Roku] 인벤토리 옵션
 
@@ -38,19 +30,19 @@ Advertising DSP은 [!DNL Roku]에 광고를 위한 기능을 제공합니다.
 
 * [!DNL Roku]&#x200B;(으)로 직접 비공개 거래 ID를 설정한 다음 거래 ID 데이터를 DSP에 입력합니다.
 
-* [!DNL On Demand] 프로필을 구독하려면 [!DNL Roku] 갤러리를 방문하세요.
+* [!DNL Roku] 프로필을 구독하려면 [!DNL On Demand] 갤러리를 방문하세요.
 
 >[!NOTE]
 >
 >열려 있는 마켓플레이스 및 교환에서 [!DNL Roku] 인벤토리를 사용할 수 없습니다.
 
-* 비공개 거래의 경우 [DSP에서 거래 ID에 대한 정보를 설정](/help/dsp/inventory/deal-id-create.md)한 다음 [!UICONTROL Roku Network - Audience] 배치 내에서 &quot;[!UICONTROL The Roku Channel - Audience]&quot; 및 &quot;[!DNL Roku]&quot;을(를) 타깃팅하세요.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* 비공개 거래의 경우 [DSP에서 거래 ID에 대한 정보를 설정](/help/dsp/inventory/deal-id-create.md)한 다음 [!DNL Roku] 배치 내에서 &quot;[!UICONTROL Roku Network - Audience]&quot; 및 &quot;[!UICONTROL The Roku Channel - Audience]&quot;을(를) 타깃팅하세요.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * [다음 [!DNL Roku] 인벤토리를  [!DNL On Demand] 갤러리](/help/dsp/inventory/on-demand-inventory-subscribe.md) 내에서 구독하고 [!DNL Roku] 배치 내에서 승인된 거래를 타깃팅할 수 있습니다.
 
-   * [!UICONTROL Roku Network - Audience], [!DNL Roku] 및 [!DNL The CW]과(와) 같은 프리미엄 콘텐츠 파트너가 있는 [!DNL ABC] 에코시스템에서 인벤토리에 대한 &quot;[!DNL ESPN]&quot;.
+   * [!DNL The CW], [!DNL ABC] 및 [!DNL ESPN]과(와) 같은 프리미엄 콘텐츠 파트너가 있는 [!DNL Roku] 에코시스템에서 인벤토리에 대한 &quot;[!UICONTROL Roku Network - Audience]&quot;.
 
-   * [!UICONTROL The Roku Channel - Audience] 소유 및 운영(O&amp;O) 앱 콘텐츠의 &quot;[!DNL Roku]&quot;.
+   * [!DNL Roku] 소유 및 운영(O&amp;O) 앱 콘텐츠의 &quot;[!UICONTROL The Roku Channel - Audience]&quot;.
 
 ### [!DNL Roku]을(를) 사용하여 개인 마켓플레이스를 사용자 지정할 수 있는 이점
 
@@ -68,13 +60,13 @@ Advertising DSP은 [!DNL Roku]에 광고를 위한 기능을 제공합니다.
 
 ## [!DNL Roku]개 배치
 
-DSP 캠페인에서 배치 유형 &quot;[&quot;을(를) 사용하여  [!DNL Roku]특정 배치를 만들기](/help/dsp/campaign-management/placements/placement-create.md)합니다[!UICONTROL Connected TV (Roku)]. 정의된 목표를 가진 [!DNL Roku]별 패키지에 [!DNL Roku]개의 배치를 포함합니다.
+DSP 캠페인에서 배치 유형 &quot;[!UICONTROL Connected TV (Roku)]&quot;을(를) 사용하여 [특정 배치를 만들기 [!DNL Roku]합니다](/help/dsp/campaign-management/placements/placement-create.md). 정의된 목표를 가진 [!DNL Roku]별 패키지에 [!DNL Roku]개의 배치를 포함합니다.
 
 각 [!DNL Roku] 배치는 하나 이상의 [!DNL Roku] 거래 또는 소스를 대상으로 해야 합니다. [!DNL Roku]과(와) 일치하는 DSP의 대상 세그먼트를 사용하려면 [!DNL Roku]&#x200B;(옵트인) 결정적 데이터 세트에 대해 일치시킬 수 있는 대상 세그먼트를 하나 이상 포함하십시오.
 
 ### [!DNL Roku]에서 승인한 타사 추적 공급업체
 
-[!DNL Roku] 배치에는 [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] 및 [!DNL Research Now] 공급업체의 전환 픽셀과 타사 이벤트 픽셀이 포함될 수 있습니다.
+[!DNL Roku] 배치에는 [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], [!DNL Research Now] 및 [!DNL TransUnion] 공급업체의 전환 픽셀과 타사 이벤트 픽셀이 포함될 수 있습니다.
 
 ### 배치 전략별 우수 사례
 
@@ -82,14 +74,14 @@ DSP 캠페인에서 배치 유형 &quot;[&quot;을(를) 사용하여  [!DNL Roku
 
 증분 도달 범위를 최대화하려면
 
-* [!DNL Roku O&O]을(를) 사용하여 이미 도달한 대상을 제외하여 [!DNL The Roku Channel]에서 노출된 대상을 제외합니다.
+* [!DNL The Roku Channel]을(를) 사용하여 이미 도달한 대상을 제외하여 [!DNL Roku O&O]에서 노출된 대상을 제외합니다.
 
-* [!DNL All Roku] 플랫폼에서 이미 도달한 대상을 제외하여 [!DNL Roku]에서 노출된 대상을 제외합니다.
+* [!DNL Roku] 플랫폼에서 이미 도달한 대상을 제외하여 [!DNL All Roku]에서 노출된 대상을 제외합니다.
 
 가장 빠른 설정의 경우:
 
-* [!DNL The Roku Channel]인벤토리[[!DNL On Demand] 에서 &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)의 기존 상시 거래를 대상으로 하여 [!DNL Roku]개의 소유 및 운영 인벤토리에 빠르게 액세스할 수 있습니다.
-* [!DNL Roku Network]인벤토리[[!DNL On Demand] 에서 &#x200B;](/help/dsp/inventory/on-demand-inventory-subscribe.md)에 대해 항상 유지되는 기존 거래를 대상으로 하여 [!DNL Roku] 플랫폼 전반에서 빠르게 확장할 수 있습니다.
+* [[!DNL On Demand] 인벤토리](/help/dsp/inventory/on-demand-inventory-subscribe.md)에서 [!DNL The Roku Channel]의 기존 상시 거래를 대상으로 하여 [!DNL Roku]개의 소유 및 운영 인벤토리에 빠르게 액세스할 수 있습니다.
+* [[!DNL On Demand] 인벤토리](/help/dsp/inventory/on-demand-inventory-subscribe.md)에서 [!DNL Roku Network]에 대해 항상 유지되는 기존 거래를 대상으로 하여 [!DNL Roku] 플랫폼 전반에서 빠르게 확장할 수 있습니다.
 
 최대 크기 조절:
 
