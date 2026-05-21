@@ -2,7 +2,7 @@
 title: 레이블 분류 관리
 description: 레이블 분류를 사용하여 계정 구성 요소를 그룹화하는 방법에 대해 알아봅니다.
 feature: Search Label Classifications
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 0%
@@ -161,7 +161,7 @@ ht-degree: 0%
 
    여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
 
-1. 일괄 작업 도구 모음에서 **-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**&#x200B;을(를) 클릭합니다.
+1. 일괄 작업 도구 모음에서 **[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**&#x200B;을(를) 클릭합니다.
 
 1. 선택한 엔터티에서 제거할 각 분류 값 옆의 확인란을 선택합니다.<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
 

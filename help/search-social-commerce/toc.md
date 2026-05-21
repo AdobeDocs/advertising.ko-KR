@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
+source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2189'
 ht-degree: 2%
 
 ---
@@ -117,7 +117,17 @@ ht-degree: 2%
          + [[!UICONTROL Ads] 보기 정보](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [[!UICONTROL Ads] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 보고서 {#reports}
-      + [스프레드시트 보고서 피드 관리](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+      + 예약된 보고서 {#scheduled}
+         + [보고서 기본 정보](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/report-about)
+         + [보고서의 초기 설정 작업](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup)
+         + [보고서에 사용된 데이터](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports)
+      + 보고서 관리 {#report-management}
+         + 자동화 {#automation}
+            + [보고서 템플릿 관리](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+            + [스프레드시트 보고서 피드 관리](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
+            + [보고서에 대한 FTP 액세스](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
+         + [속성 규칙 계산 방법](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules)
+         + [사용자 정의 보고서에 대한 FAQ](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report)
       + [[!UICONTROL History Logs] 보고서 보기](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [레이블 분류 관리](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
