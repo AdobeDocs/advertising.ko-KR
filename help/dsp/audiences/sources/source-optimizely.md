@@ -15,16 +15,14 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: 624
 ht-degree: 0%
 
 ---
 
 # 사용자 ID를 [!DNL Optimizely]에서 유니버설 ID로 변환
-
-*Beta 기능*
 
 [!DNL Optimizely] 고객 데이터 플랫폼과 DSP 통합을 사용하여 타깃팅된 광고를 위해 조직의 자사 해시된 이메일 주소를 범용 ID로 변환합니다.
 
@@ -46,7 +44,7 @@ ht-degree: 0%
 
 1. 범용 ID 파트너에 등록하고 웹 페이지에 범용 ID 관련 코드를 배포하여 데스크탑 및 모바일 웹 브라우저(모바일 앱은 아님)의 ID에서 뷰스루로의 전환을 일치시킵니다.
 
-   * **[!DNL RampIDs]의 경우:** 뷰스루에 대한 데스크톱 및 모바일 웹 브라우저(모바일 앱은 아님)의 ID 전환과 일치하려면 웹 페이지에 추가 JavaScript 태그를 배포해야 합니다. Adobe 계정 팀에 문의하여 [!DNL LiveRamp] 인증 트래픽 솔루션에서 [!DNL LaunchPad] [!DNL LiveRamp] 태그를 등록하는 방법에 대한 지침을 제공받으십시오. 등록은 무료이지만 계약서에 서명하셔야 합니다 등록하면 Adobe 계정 팀이 웹 페이지에 구현할 고유 태그를 생성하여 제공합니다.
+   * **[!DNL RampIDs]의 경우:** 뷰스루에 대한 데스크톱 및 모바일 웹 브라우저(모바일 앱은 아님)의 ID 전환과 일치하려면 웹 페이지에 추가 JavaScript 태그를 배포해야 합니다. Adobe 계정 팀에 문의하여 [!DNL LiveRamp] 인증 트래픽 솔루션에서 [!DNL LiveRamp] [!DNL LaunchPad] 태그를 등록하는 방법에 대한 지침을 제공받으십시오. 등록은 무료이지만 계약서에 서명하셔야 합니다 등록하면 Adobe 계정 팀이 웹 페이지에 구현할 고유 태그를 생성하여 제공합니다.
 
 ## 2단계: DSP에서 대상 소스 만들기 {#source-create}
 

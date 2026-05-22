@@ -14,31 +14,24 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: 881
 ht-degree: 0%
 
 ---
 
 # 범용 ID 대상을 활성화하기 위한 대상 소스 관리
 
-*Beta 기능*
+가져오거나 지정된 범용 ID 유형이 포함된 세그먼트로 변환할 DSP의 고객 데이터 플랫폼용 각 자사 대상에 대한 소스를 만듭니다. 조직의 DSP 계정 또는 광고주 계정으로 세그먼트를 가져올 수 있습니다. 대상을 범용 ID로 변환하면 선택한 범용 ID 유형에 따라 요금이 부과됩니다. 소스를 만들고 나면 각 고객 데이터 플랫폼에서 소스 대상자를 스트리밍하기 위해 추가 단계가 필요합니다. 소스를 만들려면 절차 끝에 있는 메모를 참조하십시오.
 
-지정된 범용 ID 유형이 포함된 세그먼트로 변환할 고객 데이터 플랫폼의 각 자사 대상에 대한 DSP 소스를 만듭니다. 조직의 DSP 계정 또는 광고주 계정으로 세그먼트를 가져올 수 있습니다. 데이터 요금은 선택한 범용 ID 유형을 기반으로 적용됩니다. 소스를 만들고 나면 각 고객 데이터 플랫폼에서 대상을 수집하는 추가 단계가 필요합니다. 소스를 만들려면 절차 끝에 있는 메모를 참조하십시오.
-
-나중에 소스 대상이 번역되는 범용 ID 유형을 변경하고 변경 내용의 로그를 볼 수 있습니다.
+[!DNL AdFixus]을(를) 제외한 모든 고객 데이터 플랫폼에 대해 나중에 소스 대상이 번역되는 범용 ID 유형을 변경하고 변경 내용의 로그를 볼 수 있습니다.
 
 소스를 삭제할 수도 있습니다.
 
 ## 대상자 소스 만들기
 
-<!--
- Not sure about this
-
-You can create one source for each combination of universal ID partner and data visibility level.
-
--->
+범용 ID 파트너 및 계정 또는 개별 광고주의 각 조합에 대해 하나의 소스를 만들 수 있습니다. 예를 들어 계정에 대해 하나의 [!UICONTROL RT-CDP] 소스, 광고주 1에 대해 하나의 [!UICONTROL RT-CDP] 소스, 광고주 2에 대해 하나의 [!UICONTROL RT-CDP] 소스가 있을 수 있습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**&#x200B;을(를) 클릭합니다.
 
@@ -47,6 +40,8 @@ You can create one source for each combination of universal ID partner and data 
 1. [!UICONTROL Select a Type] 메뉴에서 [고객 데이터 플랫폼](source-about.md)을 선택합니다.
 
    * *[!UICONTROL RT-CDP]*: [!DNL Adobe Real-Time CDP].
+
+   * *[!UICONTROL AdFixus ID]*: [!DNL AdFixus] 고객 데이터 플랫폼입니다. 오스트레일리아의 광고주에만 적용됩니다.
 
    * *[!UICONTROL ActionIQ]*: [!DNL ActionIQ] 고객 데이터 플랫폼입니다.
 
@@ -66,9 +61,13 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->고객 데이터 플랫폼에 대한 소스를 만든 후에는 대상을 가져오기 위한 추가 단계를 완료해야 합니다. [워크플로  [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> [워크플로 [!DNL Amperity]](source-amperity.md), [워크플로 [!DNL Optimizely]](source-optimizely.md) 및 [워크플로 [!DNL Tealium]](source-tealium.md)를 참조하십시오.
+>고객 데이터 플랫폼에 대한 소스를 만든 후에는 대상을 가져오기 위한 추가 단계를 완료해야 합니다.
+>* [!DNL ActionIQ] 소스의 경우 Adobe 계정 팀과 협력하십시오.
+>* 다른 소스 유형의 경우 <!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), -->다음에 대한 [워크플로 [!DNL AdFixus]](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md), [다음에 대한 워크플로 [!DNL Amperity]](source-amperity.md), [다음에 대한 워크플로 [!DNL Optimizely]](source-optimizely.md) 및 [다음에 대한 워크플로 [!DNL Tealium]](source-tealium.md)를 참조하십시오.
 
 ## 대상 소스의 ID 유형 변경
+
+[!DNL AdFixus]*을(를) 제외하고 지원되는 모든 고객 데이터 플랫폼에 사용 가능한*
 
 <!-- 
 Clarify this:
@@ -87,7 +86,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 ## 대상 소스 삭제
 
-원본을 삭제하면 원본을 통해 번역된 세그먼트가 제거됩니다.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
+소스를 삭제하면 모든 번역된 ID를 포함하여 소스를 통해 가져온 세그먼트가 제거됩니다.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
 
 1. 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**&#x200B;을(를) 클릭합니다.
 
@@ -121,7 +120,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 **[!UICONTROL Enter IMS Org Id]:**([!DNL Real-Time CDP] 소스만 해당) [!DNL Adobe Experience Platform] 계정에 대한 Adobe CX Enterprise 조직 ID입니다.
 
-**[!UICONTROL Convert PII to the following IDs]:** PII(개인 식별 정보)를 변환할 ID 유형입니다. 여러 유형을 선택하면 생성된 세그먼트는 선택한 각 ID 유형의 값으로 채워집니다(예: 각 이메일 주소의 [!DNL RampID] 및 [!DNL Unified ID2.0]). 그에 따라 데이터 요금이 부과됩니다.
+**[!UICONTROL Convert PII to the following IDs]:**([!DNL AdFixus]을(를) 제외하고 지원되는 모든 고객 데이터 플랫폼에서 사용 가능) PII(개인 식별 정보)를 변환할 ID 유형입니다. 여러 유형을 선택하면 생성된 세그먼트는 선택한 각 ID 유형의 값으로 채워집니다(예: 각 이메일 주소의 [!DNL RampID] 및 [!DNL Unified ID2.0]). 그에 따라 데이터 요금이 부과됩니다.
 
 [!DNL RampID] 및 [!DNL Unified ID2.0]의 경우 공급업체는 각 이메일 주소를 조회하여 ID가 이미 있는지 확인하고 가능한 경우 해당 주소를 일치하는 ID로 변환합니다. 주소에 대한 ID가 없는 경우 새 ID가 만들어집니다.
 
@@ -131,7 +130,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 * *[!DNL RampID]:* PII를 [!DNL RampID]&#x200B;(으)로 변환하려는 경우 로그인 사용자를 다시 타겟팅하고 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 측정을 위해 [!DNL RampIDs]을(를) 사용할 수 있습니다.
 
-* *[!DNL Unified ID2.0] (Beta):* 로그인 사용자를 다시 타깃팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
+* *[!DNL Unified ID2.0]:* 로그인 사용자를 다시 타겟팅하기 위해 PII를 [통합 ID 2.0](https://unifiedid.com) ID로 변환하려는 경우
 
 <!--
  Later
@@ -139,9 +138,9 @@ All changes to universal IDs translated from the source are applied after you sa
 
 -->
 
-**[!UICONTROL Terms of Service]:** PII를 범용 ID로 변환하는 서비스 약관 계약입니다. 데이터를 새 ID 유형으로 변환하려면 사용자나 DSP 계정의 다른 사용자가 약관에 한 번 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 사용자의 동의를 얻고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 **>**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
+**[!UICONTROL Terms of Service]:** PII를 범용 ID로 변환하는 서비스 약관 계약입니다. 귀하 또는 DSP 계정의 다른 사용자는 ID를 가져오거나, 데이터를 새 ID 유형으로 변환하거나, ID 유형을 타깃팅하기 전에 한 번 약관에 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 귀하의 동의를 얻고 조직을 대신하여 약관을 수락합니다. 용어를 읽으려면 **>**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
 
-**[!UICONTROL Source Key]:**(읽기 전용, 자동으로 생성됨) 고객 데이터 플랫폼에서 대상 연결을 만들어 대상을 Advertising DSP으로 푸시하는 데 사용할 수 있는 소스 키입니다. 값을 클립보드에 복사하여 대상 연결 설정 또는 파일에 붙여넣을 수 있습니다.
+**[!UICONTROL Source Key]:**(읽기 전용, 자동으로 생성됨) 고객 데이터 플랫폼에서 대상 연결을 만들어 대상을 Advertising DSP으로 푸시하는 데 사용할 수 있는 소스 키입니다. 값을 클립보드에 복사하여 대상 연결 설정 또는 파일에 붙여넣을 수 있습니다. 대상자를 DSP에 스트리밍할 팀과 값을 공유합니다.
 
 >[!MORELIKETHIS]
 >
@@ -151,4 +150,5 @@ All changes to universal IDs translated from the source are applied after you sa
 >* [사용자 ID를  [!DNL Amperity] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-amperity.md)
 >* [사용자 ID를  [!DNL Optimizely] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-optimizely.md)
 >* [사용자 ID를  [!DNL Tealium] 에서 범용 ID로 변환](/help/dsp/audiences/sources/source-tealium.md)
+>* [다음에서 자사 세그먼트 가져오기 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
 >* [대상자 관리 정보](/help/dsp/audiences/audience-about.md)

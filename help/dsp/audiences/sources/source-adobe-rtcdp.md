@@ -15,26 +15,24 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 595
 ht-degree: 0%
 
 ---
 
 # 사용자 ID를 [!DNL Adobe Real-Time CDP]에서 유니버설 ID로 변환
 
-*Beta 기능*
-
 Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko)과(와) DSP 통합을 사용하여 해시된 이메일 주소, 쿠키 및 모바일 광고 ID를 포함한 사용자 ID를 타깃팅된 광고를 위한 범용 ID로 변환합니다.
 
 1. (사용자 ID를 [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->(으)로 전환하려면 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용하는 광고주) [!DNL Analytics] 측정에 대한 추적을 설정합니다.
 
-   1. 아직 완료하지 않은 경우) 추적 URL에서 [AMO ID 및 EF ID [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)와(과) [을(를) 구현하기 위한 &#x200B;](/help/integrations/analytics/ids.md)필수 구성 요소를 모두 완료하십시오.
+   1. 아직 완료하지 않은 경우) 추적 URL에서 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md)와(과)  [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)을(를) 구현하기 위한 필수 구성 요소를 모두 완료하십시오.
 
    1. 범용 ID 파트너에 등록하고 웹 페이지에 범용 ID 관련 코드를 배포하여 데스크탑 및 모바일 웹 브라우저(모바일 앱은 아님)의 ID에서 뷰스루로의 전환을 일치시킵니다.
 
-      * **[!DNL RampIDs]의 경우:** 뷰스루에 대한 데스크톱 및 모바일 웹 브라우저(모바일 앱은 아님)의 ID 전환과 일치하려면 웹 페이지에 추가 JavaScript 태그를 배포해야 합니다. Adobe 계정 팀에 문의하여 [!DNL LiveRamp] 인증 트래픽 솔루션에서 [!DNL LaunchPad] [!DNL LiveRamp] 태그를 등록하는 방법에 대한 지침을 제공받으십시오. 등록은 무료이지만 계약서에 서명하셔야 합니다 등록하면 Adobe 계정 팀이 웹 페이지에 구현할 고유 태그를 생성하여 제공합니다.
+      * **[!DNL RampIDs]의 경우:** 뷰스루에 대한 데스크톱 및 모바일 웹 브라우저(모바일 앱은 아님)의 ID 전환과 일치하려면 웹 페이지에 추가 JavaScript 태그를 배포해야 합니다. Adobe 계정 팀에 문의하여 [!DNL LiveRamp] 인증 트래픽 솔루션에서 [!DNL LiveRamp] [!DNL LaunchPad] 태그를 등록하는 방법에 대한 지침을 제공받으십시오. 등록은 무료이지만 계약서에 서명하셔야 합니다 등록하면 Adobe 계정 팀이 웹 페이지에 구현할 고유 태그를 생성하여 제공합니다.
 
 1. 대상을 DSP 계정 또는 광고주 계정으로 가져오려면 [대상 소스를 만듭니다](source-manage.md). 사용자 식별자를 [사용 가능한 범용 ID 형식](source-about.md) 중 하나로 변환하도록 선택할 수 있습니다.
 
