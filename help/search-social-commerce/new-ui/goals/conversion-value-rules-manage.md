@@ -2,7 +2,7 @@
 title: (새 UI)  [!DNL Google Ads] 전환 값 규칙 관리
 description: 검색, 소셜 및 Commerce에서  [!DNL Google Ads] 전환 값 규칙을 보고 관리하는 방법을 알아봅니다.
 feature: Conversions
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 0%

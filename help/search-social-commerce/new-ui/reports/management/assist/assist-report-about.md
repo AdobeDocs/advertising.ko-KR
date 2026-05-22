@@ -2,7 +2,7 @@
 title: 지원 보고서 정보
 description: 전환 경로에 대한 통찰력을 제공하는 보고서에 대해 알아봅니다.
 feature: Search Reports, Search Assist Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%

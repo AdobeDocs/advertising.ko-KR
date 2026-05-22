@@ -2,7 +2,7 @@
 title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '3841'
 ht-degree: 0%
