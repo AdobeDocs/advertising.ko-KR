@@ -4,20 +4,14 @@ description: 광고에 노출된 사용자 또는 웹 페이지를 방문하는 
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
 TQID: https://experienceleague.adobe.com/Xemx2oExt-bNTgJPVkDaWfillRBAZAfOPQx1eJYxupw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: c193c532-b70e-4556-bde7-857186cbe140
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: c193c532-b70e-4556-bde7-857186cbe140
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -32,15 +26,13 @@ ht-degree: 0%
 
 ## 세그먼트가 ID5 ID를 추적하기 위한 사전 요구 사항
 
-*Beta 기능*
-
 * ID5 ID와 연결된 사용자를 추적할 세그먼트를 생성하기 전에 [!DNL ID5]&#x200B;(으)로 계약에 서명하고 조직의 파트너 ID를 얻으십시오. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
 * Adobe Analytics에서 측정하는 경우 다음을 수행해야 합니다.
 
    1. 구현하기 위한 모든 [필수 구성 요소 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)를 완료하고 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md)이(가) 추적 URL에 채워져 있는지 확인하십시오.
 
-   1. 마지막 이벤트 서비스가 초기화되기 전이나 [에 필요한  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)JavaScript 코드 내에서 다음 매개 변수를 웹 페이지에 추가하십시오.
+   1. 마지막 이벤트 서비스가 초기화되기 전이나  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)에 필요한 [JavaScript 코드 내에서 다음 매개 변수를 웹 페이지에 추가하십시오.
 
       ```window.id5PartnerId=ID5_PartnerID;```
 
@@ -77,9 +69,11 @@ ht-degree: 0%
 
    1. **[!UICONTROL Advanced]**&#x200B;을(를) 클릭하여 고급 설정을 확장한 다음 세그먼트 태그가 추적하는 사용자 식별자 유형을 선택합니다.
 
-      * *[!UICONTROL Cookies]:*(기본값) 세그먼트 태그가 쿠키를 추적합니다.
+      * [!UICONTROL Legacy]:
 
-      * [!UICONTROL Universal IDs (Beta)]:
+         * *[!UICONTROL Cookies]:*(기본값) 세그먼트 태그가 쿠키를 추적합니다.
+
+      * [!UICONTROL Universal IDs]:
 
          * *[!UICONTROL ID5]:* 세그먼트 태그는 [!DNL ID5]개의 ID를 추적합니다. 범용 ID에 게재되는 노출에 대해서는 요금이 부과되지 않습니다.
 
@@ -119,7 +113,7 @@ ht-degree: 0%
 
          1. &quot;[!UICONTROL Desktop or mobile ads]&quot;(으)로 레이블이 지정된 노출 추적 태그를 복사합니다.
 
-         1. 관련 있는 각 광고의 [!UICONTROL Pixel] 탭이나 관련 있는 각 배치에 대한 [!UICONTROL Event Pixels] 설정의 [[!UICONTROL Tracking] 섹션에 태그를 추가하십시오](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. 관련 있는 각 광고의 [!UICONTROL Pixel] 탭이나 관련 있는 각 배치에 대한 [[!UICONTROL Tracking] 설정의 [!UICONTROL Event Pixels] 섹션에 태그를 추가하십시오](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 추적 태그가 구현되면 모든 배치에 대해 대상 타겟 또는 제외에서 세그먼트를 사용할 수 있습니다.
 
