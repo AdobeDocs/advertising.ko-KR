@@ -2,7 +2,7 @@
 title: 검색 입찰 단위에 대한 제한 관리
 description: 레거시 키워드 수준 포트폴리오의 CPC 캠페인에서 입찰 단위 입찰을 제한하는 제한에 대해 알아봅니다.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
 source-wordcount: '2649'
 ht-degree: 0%
@@ -68,7 +68,7 @@ ht-degree: 0%
 
   [!UICONTROL Constraints] 분류가 [!UICONTROL Label Classifications] 보기에 포함되어 있지 않습니다. [!UICONTROL Constraints] 보기는 별개입니다. [!UICONTROL Constraints] 분류도 30개 레이블 분류 제한에 포함되지 않습니다.
 
-* [[!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)에는 레이블 분류 아키텍처를 사용하는 제약 조건에 대한 비용, 클릭 및 선택적으로 변환 데이터가 포함됩니다.
+* [[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)에는 레이블 분류 아키텍처를 사용하는 제약 조건에 대한 비용, 클릭 및 선택적으로 변환 데이터가 포함됩니다.
 
 ### [!UICONTROL Constraints] 보기 {#constraints-view}
 
@@ -216,4 +216,4 @@ ht-degree: 0%
 >* [광고 그룹에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
 >* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
->* [[!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
+>* [[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)

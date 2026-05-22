@@ -1,15 +1,15 @@
 ---
-title: 게시자 권장 사항 및 인사이트 지원 기본 정보
+title: 게시자 권장 사항 및 통찰력 지원
 description: 게시자 권장 사항 및 인사이트를 보고 관리하는 지원에 대해 알아봅니다.
 feature: Search Recommendations
-source-git-commit: cfd8790d6b8384509a77103b8082ed033106431a
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
 
-# 게시자 권장 사항 및 인사이트 지원 기본 정보
+# 게시자 권장 사항 및 통찰력 지원
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising] 계정*
 

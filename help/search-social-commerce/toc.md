@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: 64c9c550873ff210d1adb4217ddeca5f67548b77
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2298'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 2%
 # Advertising Search, Social 및 Commerce 안내서 {#search-social-commerce}
 
 <!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
+
+<!--
+    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
+-->
 
 + [새로운 기능](home.md)
 + [이 안내서 정보](help-about.md)
@@ -67,8 +71,9 @@ ht-degree: 2%
          + [[!UICONTROL Downloads] 메뉴에서 성능 데이터 보고서 또는 일괄 시트 파일 삭제](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + (Beta) 새 사용자 인터페이스 {#new-ui}
    + [새 사용자 인터페이스 정보](/help/search-social-commerce/new-ui/new-ui-about.md)
-   + [성능 대시보드 보기](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
-   + 플랜 {#plan}
+   + 대시보드 {#dashboard}
+      + [성능 대시보드 보기](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
+   + 목표 {#goals}
       + 목표 {#objectives}
          + [목표 정보](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
          + [목표 만들기](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
@@ -77,11 +82,11 @@ ht-degree: 2%
          + [목표에 가중치 권장 사항 적용](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
          + [목표에 대한 성능 지표 다운로드](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
          + [목표 설정](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
-      + 시뮬레이션 {#simulations}
-         + [시뮬레이션 정보](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
-         + [사용자 지정 시뮬레이션 실행 또는 재실행](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
-         + [시뮬레이션 세부 정보 보기](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
-         + [시뮬레이션 다운로드](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+   + 플랜 {#plan}
+      + [시뮬레이션 정보](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+      + [사용자 지정 시뮬레이션 실행 또는 재실행](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+      + [시뮬레이션 세부 정보 보기](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
+      + [시뮬레이션 다운로드](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
       + [[!UICONTROL Spend Planner] 사용](/help/search-social-commerce/new-ui/plan/spend-planner.md)
    + 관리 {#manage}
       + 포트폴리오 {#portfolios}
@@ -101,8 +106,8 @@ ht-degree: 2%
          + [[!UICONTROL Portfolios] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + 캠페인 {#campaigns}
          + [[!UICONTROL Campaigns] 보기 정보](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [포트폴리오에 캠페인 할당](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [포트폴리오에서 캠페인 제거](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [포트폴리오에 캠페인 할당](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio){target="_blank"}
+         + [포트폴리오에서 캠페인 제거](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio){target="_blank"}
          + [캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [[!UICONTROL Campaigns] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
          + [캠페인 상태 변경](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
@@ -118,16 +123,73 @@ ht-degree: 2%
          + [[!UICONTROL Ads] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 보고서 {#reports}
       + 예약된 보고서 {#scheduled}
-         + [보고서 기본 정보](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/report-about)
-         + [보고서의 초기 설정 작업](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup)
-         + [보고서에 사용된 데이터](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports)
-      + 보고서 관리 {#report-management}
-         + 자동화 {#automation}
-            + [보고서 템플릿 관리](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
-            + [스프레드시트 보고서 피드 관리](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
-            + [보고서에 대한 FTP 액세스](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
-         + [속성 규칙 계산 방법](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules)
-         + [사용자 정의 보고서에 대한 FAQ](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report)
+         + [보고서의 초기 설정 작업](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
+         + [보고서에 사용된 데이터](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
+         + [예약된 보고서 관리](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+         + [보고서 템플릿 관리](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+         + [보고서에 대한 FTP 액세스](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
+         + 예약된 보고서 유형 {#report-types}
+            + 기본 및 고급 보고서 {#basic-advanced-reports}
+               + [기본 및 고급 보고서 정보](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
+               + 기본 보고서 형식 {#basic-report-formats}
+                  + [[!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)
+                  + [[!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)
+                  + [[!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)
+                  + [[!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-hourly-report.md)
+                  + [[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)
+                  + [[!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)
+                  + [[!UICONTROL Label Classification Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/label-classification-report.md)
+                  + [[!UICONTROL Label Value Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/label-value-report.md)
+                  + [[!UICONTROL Network Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/network-constraint-report.md)
+                  + [[!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)
+                  + [[!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md)
+                  + [[!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)
+                  + [[!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)
+               + 고급 보고서 형식 {#advanced-report-formats}
+                  + [[!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)
+                  + [[!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)
+                  + [[!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)
+               + [기본 및 고급 보고서 설정](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-settings.md)
+               + [기본 및 고급 보고서용 보고서 열](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-columns.md)
+            + 지원 보고서 {#assist-reports}
+               + [지원 보고서 정보](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)
+보고서 형식 지원 {#assist-report-formats}
+                  + [[!UICONTROL Channel Assist Report]]/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)
+                  + [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
+                  + [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
+               + [보고서 설정 지원](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-settings.md)
+            + 전문 보고서 {#specialty-reports}
+               + [전문 보고서 정보](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-about.md)
+               + 전문 보고서 형식 {#specialty-report-formats}
+                  + [[!UICONTROL AdWords and Bing Audience Target Report]](/help/search-social-commerce/new-ui/reports/management/specialty/adwords-bing-audience-target-report.md)
+                  + [[!UICONTROL AdWords Conversion Report]](/help/search-social-commerce/new-ui/reports/management/specialty/adwords-conversion-report.md)
+                  + [[!UICONTROL AdWords Geo Report]](/help/search-social-commerce/new-ui/reports/management/specialty/adwords-geo-report.md)
+                  + [[!UICONTROL AdWords Search Query Report]](/help/search-social-commerce/new-ui/reports/management/specialty/adwords-search-query-report.md)
+                  + [[!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/new-ui/reports/management/specialty/adwords-shopping-performance-report.md)
+                  + [[!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/new-ui/reports/management/specialty/bing-ads-geo-report.md)
+                  + [[!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/new-ui/reports/management/specialty/bing-ads-search-query-report.md)
+                  + [[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)
+                  + [[!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/new-ui/reports/management/specialty/google-ai-max-search-term-combination-report.md)
+                  + [[!UICONTROL Google Asset Group Performance Report]](/help/search-social-commerce/new-ui/reports/management/specialty/google-asset-group-performance-report.md)
+                  + [[!UICONTROL Google Performance Max Placement Report]](/help/search-social-commerce/new-ui/reports/management/specialty/google-performance-max-placement-report.md)
+                  + [[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md)
+                  + [[!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)
+                  + [[!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/new-ui/reports/management/specialty/msa-ad-extension-detail-report.md)
+                  + [[!UICONTROL MSA Ad Extension by Keyword Report]](/help/search-social-commerce/new-ui/reports/management/specialty/msa-ad-extension-by-keyword-report.md)
+                  + [[!UICONTROL MSA Ad Extension Detail Report]](/help/search-social-commerce/new-ui/reports/management/specialty/msa-ad-extension-by-ad-report.md)
+                  + [[!UICONTROL MSA Network Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/msa-network-impression-share-report.md)
+                  + [[!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/new-ui/reports/management/specialty/msa-network-performance-report.md)
+               + [특성 보고서 설정](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-settings.md)
+               + [특성 보고서에 대한 보고서 열](/help/search-social-commerce/new-ui/reports/management//specialty/specialty-report-columns.md)
+            + 모델 정확도 보고서 {#model-accuracy-reports}
+               + [모델 정확도 보고서 정보](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-about.md)
+               + 모델 정확도 보고서 형식 {#assist-report-formats}
+                  + [[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)
+                  + [[!UICONTROL Forecast Accuracy (Actuals) Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-actuals-report.md)
+               + [모델 정확도 보고서 설정](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
+         + [속성 규칙 계산 방법](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
+         + [사용자 정의 보고서에 대한 FAQ](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
+      + [스프레드시트 보고서 피드 관리](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
       + [[!UICONTROL History Logs] 보고서 보기](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [레이블 분류 관리](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
@@ -169,7 +231,7 @@ ht-degree: 2%
       + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Adobe Advertising 전환 추적 {#advertising-conversion-tracking}
          + [Adobe Advertising 전환 추적 태그 기본 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-         + [Adobe Advertising 전환 태그 생성 및 구현](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate)
+         + [Adobe Advertising 전환 태그 생성 및 구현](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
          + [JavaScript 전환 추적 태그 버전 3의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript 전환 추적 태그 버전 2의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [이미지 변환 추적 태그의 형식](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
