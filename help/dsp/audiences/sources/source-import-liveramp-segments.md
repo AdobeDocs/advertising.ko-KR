@@ -52,6 +52,6 @@ Is this first step relevant for this process?
 >
 >* [자사 대상 원본 정보](source-about.md)
 >* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
->* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ko)
 >* [대상자 관리 정보](/help/dsp/audiences/audience-about.md)
 >* [다음에서 자사 세그먼트 가져오기 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
