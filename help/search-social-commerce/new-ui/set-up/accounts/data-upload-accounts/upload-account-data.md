@@ -1,9 +1,9 @@
 ---
 title: 보고 및 시뮬레이션을 위한 오프라인 계정 데이터 업로드
 description: 보고 및 시뮬레이션 지원을 위해 오프라인 계정 데이터를 수동으로 업로드하거나  [!DNL Amazon] [!DNL S3] 버킷에 업로드하는 방법을 알아봅니다. 로그 파일은 업로드 작업의 진행 상황을 추적합니다.
-source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 1. (조직당 한 번) 로컬 AWS 환경을 설정합니다.
 
-   1. [!DNL AWS Command Line Interface]https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html[&#x200B; 위치에서 &#x200B;](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)&#x200B;(AWS CLI)을 다운로드하여 설치하십시오.
+   1. [https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) 위치에서 [!DNL AWS Command Line Interface]&#x200B;(AWS CLI)을 다운로드하여 설치하십시오.
 
    1. AWS 자격 증명을 구성합니다.
 
@@ -143,7 +143,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 1. 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Upload Logs]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 업로드된 파일의 데이터를 다운로드하려면 ![&#x200B; 열의 &#x200B;](/help/search-social-commerce/assets/download.png "다운로드")다운로드[!UICONTROL Download]를 클릭하고 브라우저의 일반적인 절차에 따라 파일을 다운로드합니다.
+1. (선택 사항) 업로드된 파일의 데이터를 다운로드하려면 [!UICONTROL Download] 열의 ![다운로드](/help/search-social-commerce/assets/download.png "다운로드")를 클릭하고 브라우저의 일반적인 절차에 따라 파일을 다운로드합니다.
 
 ## 필수 데이터
 

@@ -4,7 +4,7 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 64c9c550873ff210d1adb4217ddeca5f67548b77
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 2%
@@ -126,8 +126,6 @@ ht-degree: 2%
          + [보고서의 초기 설정 작업](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
          + [보고서에 사용된 데이터](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
          + [예약된 보고서 관리](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
-         + [보고서 템플릿 관리](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
-         + [보고서에 대한 FTP 액세스](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
          + 예약된 보고서 유형 {#report-types}
             + 기본 및 고급 보고서 {#basic-advanced-reports}
                + [기본 및 고급 보고서 정보](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
@@ -187,6 +185,8 @@ ht-degree: 2%
                   + [[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)
                   + [[!UICONTROL Forecast Accuracy (Actuals) Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-actuals-report.md)
                + [모델 정확도 보고서 설정](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
+         + [보고서 템플릿 관리](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+         + [보고서에 대한 FTP 액세스](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
          + [속성 규칙 계산 방법](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [사용자 정의 보고서에 대한 FAQ](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [스프레드시트 보고서 피드 관리](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
