@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+source-git-commit: 1da750a4b26fd4fe90c2552f2dc91fb1575019ab
 workflow-type: tm+mt
-source-wordcount: '2302'
+source-wordcount: '2304'
 ht-degree: 2%
 
 ---
@@ -209,6 +209,7 @@ ht-degree: 2%
             + [데이터 업로드를 위한 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [추적에 대해서만  [!DNL Naver] 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
    + [사용자 지정 경고 관리](/help/search-social-commerce/new-ui/alerts-manage.md)
+   + [알림 관리](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [사용자 관리](/help/search-social-commerce/new-ui/user-administration.md)
 + 추적 {#tracking}
    + [추적 기본 정보](/help/search-social-commerce/tracking/tracking-about.md)
