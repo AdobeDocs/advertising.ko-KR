@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: 1499
 ht-degree: 0%
 
 ---
@@ -28,21 +28,19 @@ ht-degree: 0%
 
 각 페이지에는 주 메뉴와 기타 작업 및 정보 기반 메뉴가 포함되어 있습니다.
 
+[제품 프로필](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)은(는) 각 보기에서 사용할 수 있는 기능을 포함하여 사용 가능한 옵션을 결정합니다.
+
 ## 메인 메뉴
 
-새 사용자 인터페이스는 작업 단계별로 작업을 구성하는 새 메인 메뉴를 왼쪽에 표시합니다. 기존 사용자 인터페이스의 추가 하위 메뉴 및 옵션이 나중에 추가됩니다.
+새 사용자 인터페이스는 작업 단계별로 작업을 구성하는 새 메인 메뉴를 왼쪽에 표시합니다.
 
 ### 메인 메뉴 옵션
-
-[제품 프로필](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)에서 사용 가능한 옵션을 결정합니다.
 
 * **[!UICONTROL Dashboard]** 하위 메뉴:
 
    * **[!UICONTROL Overview]** 모든 포트폴리오에 대한 성능 시각화를 사용하여 구성 가능한 [!UICONTROL Dashboard] 보기를 엽니다.
 
    * **[!UICONTROL Recommendations]**: [!DNL Google Ads] 및 [!DNL Microsoft Advertising]의 게시자 권장 사항과 [!DNL Microsoft Advertising.]의 게시자 인사이트에 대한 읽기 전용 보기를 엽니다. 권장 사항과 인사이트를 보고 응답하려면 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
-
-   * **[!UICONTROL Alerts & Notifications]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts] 보기를 엽니다.
 
 * **[!UICONTROL Goals]** 하위 메뉴:
 
@@ -64,7 +62,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Portfolios]:** 광고주의 모든 포트폴리오를 나열하는 새 [!UICONTROL Portfolios] 보기를 엽니다. 이 보기에서 포트폴리오를 관리할 수 있습니다. 할당된 제한 목록을 열고 포트폴리오의 성능 및 컴포지션 세부 사항을 볼 수 있습니다.
 
-     포트폴리오 설정에는 목표 및 캠페인 할당, 지출 관리, 제한 관리 및 최적화 제어를 위한 탭이 포함됩니다. [!UICONTROL Control Optimization] 탭의 설정은 &quot;전문가 최적화&quot; 역할 이상의 사용자만 편집할 수 있습니다.
+     포트폴리오 설정에는 목표 및 캠페인 할당, 지출 관리, 제한 관리 및 최적화 제어를 위한 탭이 포함됩니다. &quot;전문가 최적화&quot; 프로필 이상의 사용자만이 [!UICONTROL Control Optimization] 탭에서 설정을 편집할 수 있습니다.
 
    * **[!UICONTROL Campaigns]:** 광고주의 모든 캠페인을 표시하는 새 [!UICONTROL Campaigns] 보기를 엽니다. 포트폴리오에 캠페인을 할당하고 선택한 캠페인에 대한 제한 할당을 관리할 수 있습니다. 데이터 테이블 내용에 대한 보고서를 다운로드할 수도 있습니다. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
@@ -82,21 +80,19 @@ ht-degree: 0%
 
    * **[!UICONTROL Insights]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Insights] 보기를 엽니다.
 
-   * **[!UICONTROL Scheduled Reports]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Reports] 보기를 엽니다.
+   * **[!UICONTROL Scheduled Reports]**: 예약된 보고서를 생성하고 관리할 수 있는 새 [!UICONTROL Scheduled Reports] 보기를 엽니다.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets] 보기를 엽니다.
+   * **[!UICONTROL Spreadsheet Feeds]**: 매일 업데이트할 보고서 피드를 설정할 수 있는 새 [!UICONTROL Spreadsheets Feeds] 보기를 엽니다.
 
-   * **[!UICONTROL History Logs]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Change History] 보기를 엽니다.
+   * **[!UICONTROL History Logs]**: 광고주 계정의 최근 변경 내용에 대한 세부 정보가 있는 새 [!UICONTROL History Logs] 보기를 엽니다.
 
    * **[!UICONTROL Label Classification]** 새 [!UICONTROL Label Classifications] 보기를 엽니다. 분류를 관리하고, 새 UI에서 사용할 수 있는 적용 가능한 계정 구성 요소에 분류 값을 지정/지정 취소할 수 있습니다.
 
-   * **[!UICONTROL Bulksheets]**: 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Bulksheets] 보기를 엽니다.
-
 * **[!UICONTROL Target]** 하위 메뉴:
 
-   * **[!UICONTROL Audiences]**: 광고주에 대한 모든 기존 대상, 모든 대상 타겟 및 모든 대상 제외를 표시하는 새 [!UICONTROL Audiences] 보기를 엽니다. 대상자를 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+   * **[!UICONTROL Audiences]**: 광고주의 기존 대상, 모든 대상 타겟 및 모든 대상 제외를 표시하는 새 보기를 엽니다. 대상자를 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
-   * **[!UICONTROL Auto Targets]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
+   * **[!UICONTROL Auto Targets]** 광고주에 대한 기존의 모든 자동 타겟을 표시하는 새 보기를 엽니다. 자동 타겟을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
    * **[!UICONTROL Keywords]** 광고주의 기존 키워드와 부정적 키워드를 보여 주는 새 [!UICONTROL Keywords] 보기를 엽니다. 선택한 키워드에 대한 제한 할당을 관리할 수 있습니다.
 
@@ -108,7 +104,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Assets]** 하위 메뉴:
 
-   * **[!UICONTROL Creatives]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.
+   * **[!UICONTROL Creatives]** 기존 크리에이티브 자산을 나열하는 새 보기를 엽니다. 각 크리에이티브를 미리 볼 수 있습니다. 자산 라이브러리를 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Asset Library] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
    * **[!UICONTROL Extensions]** 기존 광고 확장의 읽기 전용 보기를 엽니다. 확장을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
@@ -116,23 +112,19 @@ ht-degree: 0%
 
 * **[!UICONTROL Set Up]** 하위 메뉴:
 
-   * **[!UICONTROL Manager Accounts]**: 새 사이트를 종료하고 기존 [!UICONTROL Admin] > [!UICONTROL Manager Accounts] 보기를 엽니다.
+   * **[!UICONTROL Manager Accounts]**: 기존 관리자 계정 및 광고 네트워크에 대한 새 보기를 엽니다. 관리자 계정을 관리하려면 기존 [!UICONTROL Admin] > [!UICONTROL Manager Accounts] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
    * **[!UICONTROL Accounts]**: 새 [!UICONTROL Accounts] 보기를 엽니다. API 연결을 통해 동기화되거나 데이터 업로드를 통해 설정된 광고 네트워크 계정을 관리할 수 있습니다. 기존 [!UICONTROL Naver]개의 계정을 관리할 수도 있습니다.
 
-   * **[!UICONTROL Import Campaigns]**: 새 사이트를 종료하고 기존 [!UICONTROL Tools] > [!UICONTROL Import Campaigns] 보기를 엽니다.
+   * **[!UICONTROL Import Campaigns]**: 캠페인 데이터를 가져올 수 있는 새 보기를 엽니다.
+
+   * **[!UICONTROL Bulksheets]**: 새 [!UICONTROL Bulksheets] 보기를 엽니다.
 
 <!--
  What's happening to these?
 
-Campaigns > Asset Library
-
-Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
-
-Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-
 Tools > Admin > Data Source Setup
 -->
 
@@ -168,13 +160,13 @@ Tools > Admin > Data Source Setup
 
 * 현재 보기에 대해 구성 가능한 날짜 범위
 
-* ![UI 둘러보기](/help/search-social-commerce/assets/take-ui-tour.png "UI 둘러보기") 새 사용자 인터페이스 둘러보기 링크.
-
 * ![이전 UI로 전환](/help/search-social-commerce/assets/switch-to-old-ui.png "이전 UI로 전환") 기존 사용자 인터페이스를 새 탭이나 창에서 엽니다.
+
+* ![사용자 지정 경고](/help/search-social-commerce/assets/custom-alert.png "사용자 지정 경고") 패널에서 사용자 지정 경고를 만들거나 볼 수 있습니다.
 
 * ![전역 동기화 상태](/help/search-social-commerce/assets/global-sync-status.png "전역 동기화 상태") <!--what kind -->개의 대량 작업 목록을 엽니다.
 
-* ![알림](/help/search-social-commerce/assets/notifications.png "알림") 검색, 소셜 및 Commerce 알림이 나열된 패널을 엽니다.
+* ![알림](/help/search-social-commerce/assets/notifications.png "알림") 검색, 소셜 및 Commerce 알림이 나열된 패널을 엽니다. 목록을 필터링하거나 알림 설정을 편집하거나 [!UICONTROL Notification Center].m을 열 수 있습니다.
 
 ## 기존 사용자 인터페이스
 

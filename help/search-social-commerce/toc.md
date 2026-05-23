@@ -4,9 +4,9 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2302'
 ht-degree: 2%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 2%
          + [속성 규칙 계산 방법](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [사용자 정의 보고서에 대한 FAQ](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [스프레드시트 보고서 피드 관리](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
-      + [[!UICONTROL History Logs] 보고서 보기](/help/search-social-commerce/new-ui/reports/history-logs.md)
+      + [변경 기록 로그 보기](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [레이블 분류 관리](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
       + 키워드 {#keywords}
@@ -208,6 +208,7 @@ ht-degree: 2%
          + 데이터 업로드 계정 {#data-upload}
             + [데이터 업로드를 위한 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [추적에 대해서만  [!DNL Naver] 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+   + [사용자 지정 경고 관리](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [사용자 관리](/help/search-social-commerce/new-ui/user-administration.md)
 + 추적 {#tracking}
    + [추적 기본 정보](/help/search-social-commerce/tracking/tracking-about.md)
