@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: 1499
+source-wordcount: 1506
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ ht-degree: 0%
 
    * **[!UICONTROL Objectives]** 기존 목표를 모두 보고 목표를 만들고 편집하고 삭제할 수 있는 새 [!UICONTROL Objectives] 보기를 엽니다.
 
-<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
+   * **[!UICONTROL Conversions]** 광고주의 전환 지표를 보고 관리 보기 및 보고서에 사용할 수 있는 지표를 사용자 지정할 수 있는 새 보기를 엽니다.
 
-* **[!UICONTROL Conversion Value Rules]** 캠페인 수준 및 계정 수준 전환 값 규칙의 읽기 전용 보기를 엽니다. 전환 값 규칙을 관리하려면 기존 [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+   * **[!UICONTROL Conversion Value Rules]** [!DNL Google Ads] 계정에 대한 캠페인 수준 및 계정 수준 전환 값 규칙을 보고 관리할 새 보기를 엽니다.
 
-* **[!UICONTROL Constraints]** 기존 제약 조건의 읽기 전용 보기를 엽니다. 제한을 관리하려면 기존 [!UICONTROL Optimization] > [!UICONTROL Constraints] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+   * **[!UICONTROL Constraints]** 기존 제약 조건의 읽기 전용 보기를 엽니다. 제한을 관리하려면 기존 [!UICONTROL Optimization] > [!UICONTROL Constraints] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
 * **[!UICONTROL Plan]** 하위 메뉴:
 

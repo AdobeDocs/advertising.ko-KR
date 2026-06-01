@@ -13,9 +13,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
 workflow-type: tm+mt
-source-wordcount: 607
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
 
-예약된 변수를 사용하여 [&#x200B; 통합을 위한 &#x200B;](ids.md)AMO ID 및 EF ID[!DNL Analytics for Advertising]을(를) 캡처하는 경우, AMO ID 및 EF ID에 대한 예약된 변수를 가능한 한 빨리 [standard](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview) [!DNL analytics]에 복사하여 Adobe Advertising과 [Adobe Customer Journey Analytics [!DNL eVars]&#x200B;(Adobe의 차세대 &#x200B;](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/evar) 솔루션) 간의 통합을 위해 데이터를 준비할 수 있습니다. 이를 통해 작업을 완료하는 즉시 AMO ID 및 EF ID에 대한 내역 데이터를 수집할 수 있습니다. 예약된 변수를 사용하며 이 작업을 완료해야 하는 경우 Adobe 계정 팀에 알려줍니다.
+예약된 변수를 사용하여 [!DNL Analytics for Advertising] 통합을 위한 [AMO ID 및 EF ID](ids.md)을(를) 캡처하는 경우, AMO ID 및 EF ID에 대한 예약된 변수를 가능한 한 빨리 [standard [!DNL eVars]](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/evar)에 복사하여 Adobe Advertising과 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview)&#x200B;(Adobe의 차세대 [!DNL analytics] 솔루션) 간의 통합을 위해 데이터를 준비할 수 있습니다. 이를 통해 작업을 완료하는 즉시 AMO ID 및 EF ID에 대한 내역 데이터를 수집할 수 있습니다. 예약된 변수를 사용하며 이 작업을 완료해야 하는 경우 Adobe 계정 팀에 알려줍니다.
 
 <!-- 
 You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation.
@@ -68,7 +68,7 @@ Adobe Advertising은 데이터를 Customer Journey Analytics에 자동으로 전
          1. **쿼리 문자열 매개 변수**&#x200B;을(를) 선택하십시오.
          1. `s_kwcid` 입력.
 
-        예: ```Overwrite the value of rVar10 with Query String Parameter s_kwcid```
+        예: `Overwrite the value of rVar10 with Query String Parameter s_kwcid`
 
       * `EF ID`의 경우:
 

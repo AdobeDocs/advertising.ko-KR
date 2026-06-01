@@ -15,7 +15,7 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
+source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
 workflow-type: tm+mt
 source-wordcount: 700
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    1. 마지막 이벤트 서비스가 초기화되기 전이나  [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/javascript.md)에 필요한 JavaScript 코드 내에서 다음 매개 변수를 웹 페이지에 추가하십시오.
 
-      ```window.id5PartnerId=ID5_PartnerID;```
+      `window.id5PartnerId=ID5_PartnerID;`
 
       예:
 
@@ -101,11 +101,11 @@ ht-degree: 0%
 
             예를 들어 ID5 파트너 ID가 `abcde`이고 생성된 세그먼트 태그가 인 경우
 
-            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
             `ID5_PARTNER_ID`을(를) 태그 내의 `abcde`(으)로 바꾸면 다음을 가져올 수 있습니다.
 
-            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
             조직이 [!DNL ID5]과(와) 계약에 서명할 때 파트너 ID를 받았습니다. 파트너 ID를 모르는 경우 Adobe 계정 팀에 문의하십시오.
 

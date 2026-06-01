@@ -4,9 +4,15 @@ user-guide-title: Advertising Search, Social 및 Commerce 안내서
 user-guide-description: 이 안내서에서는 검색, 소셜 및 상거래 광고 캠페인을 관리하고, 추적하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스를 설명합니다.
 breadcrumb-title: Advertising Search, Social 및 Commerce 안내서
 index: true
-source-git-commit: 1da750a4b26fd4fe90c2552f2dc91fb1575019ab
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: 2329
 ht-degree: 2%
 
 ---
@@ -82,6 +88,10 @@ ht-degree: 2%
          + [목표에 가중치 권장 사항 적용](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
          + [목표에 대한 성능 지표 다운로드](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
          + [목표 설정](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
+         + [광고 네트워크에 목표 업로드 활성화](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
+      + 전환 {#conversions}
+         + [광고주의 전환 지표에 대한 성능 데이터 관리 및 보기](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+      + [&#x200B; [!DNL Google Ads] 전환 값 규칙 관리](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
    + 플랜 {#plan}
       + [시뮬레이션 정보](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
       + [사용자 지정 시뮬레이션 실행 또는 재실행](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
@@ -204,6 +214,7 @@ ht-degree: 2%
          + [광고 네트워크 계정 기본 정보](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
          + API 연결 계정 {#api}
             + [API 연결을 통해 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
+            + [&#x200B; [!DNL Google Ads] 관리자 계정의 자격 증명 관리](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
             + [API 연결을 통해 광고 네트워크 데이터 수동 동기화](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
          + 데이터 업로드 계정 {#data-upload}
             + [데이터 업로드를 위한 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
