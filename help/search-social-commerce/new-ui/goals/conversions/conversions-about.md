@@ -1,19 +1,19 @@
 ---
-title: 전환 지표 관리에 사용할 수 있는 기능
+title: (새 UI) 전환 지표 관리에 사용할 수 있는 기능
 description: 전환 지표 관리에 사용할 수 있는 다양한 기능에 대해 알아봅니다.
 feature: Conversions
-source-git-commit: bb3490852f03ce13dc8572297be1dd1d256043a1
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# 전환 지표 관리에 사용할 수 있는 기능
+# (새 UI) 전환 지표 관리에 사용할 수 있는 기능
 
 [!UICONTROL Goals] > [!UICONTROL Conversions] 보기에서 다음을 수행할 수 있습니다.
 
-* [Adobe Advertising 전환 추적 태그 생성](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Adobe Advertising 전환 추적 태그 생성](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
 
 * 광고주를 위해 추적된 모든 전환 지표의 경우:
 
