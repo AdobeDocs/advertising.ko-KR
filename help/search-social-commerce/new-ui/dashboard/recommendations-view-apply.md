@@ -2,7 +2,7 @@
 title: 게시자 권장 사항 및 통찰력 지원
 description: 게시자 권장 사항 및 인사이트를 보고 관리하는 지원에 대해 알아봅니다.
 feature: Search Recommendations
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 1328e52509e4111bc0e58412ebf3c3b2de0cb291
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -237,14 +237,3 @@ ht-degree: 0%
 | [!UICONTROL Measurement] | 전환 추적 및 인증을 위한 권장 사항 | 검색, 소셜 및 Commerce에서는 사용할 수 없습니다. | 이러한 권장 사항은 성능에 영향을 줄 수 있습니다. 권장 사항을 적용하기 전에 Adobe 계정 팀에 문의하여 권장 사항의 장단점에 대해 논의하십시오. |
 | [!UICONTROL Repairs] | 계정 문제를 개선하기 위한 기타 권장 사항 | 검색, 소셜 및 Commerce에서는 사용할 수 없습니다. | [!DNL Google Ads] 내의 복구 권장 사항을 정기적으로 수동으로 검토하십시오. 이 권장 사항 유형은 승인되지 않은 광고, 피드 문제, 추적 문제 등을 식별하는 좋은 방법입니다. |
 | [!UICONTROL Other] | [!DNL Google Ads] 모바일 앱 사용 권장 사항 | 검색, 소셜 및 Commerce에서는 사용할 수 없습니다. | — |
-
-<!--
-
->[!MORELIKETHIS]
->
->* [View your publisher recommendations and performance insights](recommendation-view.md)
->* [Apply or dismiss a publisher recommendation](recommendation-apply-dismiss.md)
->* [View the publisher recommendations log for an account](recommendation-view-log.md)
->* [Best practices for using publisher recommendations with portfolios](recommendation-best-practices.md)
-
--->

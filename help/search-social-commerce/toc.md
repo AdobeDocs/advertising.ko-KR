@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
 workflow-type: tm+mt
-source-wordcount: 2329
+source-wordcount: 2309
 ht-degree: 2%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 2%
    + [새 사용자 인터페이스 정보](/help/search-social-commerce/new-ui/new-ui-about.md)
    + 대시보드 {#dashboard}
       + [성능 대시보드 보기](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
+      + [게시자 권장 사항 및 통찰력 지원](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
    + 목표 {#goals}
       + 목표 {#objectives}
          + [목표 정보](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -133,8 +134,9 @@ ht-degree: 2%
          + [[!UICONTROL Ads] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 보고서 {#reports}
       + 예약된 보고서 {#scheduled}
-         + [보고서의 초기 설정 작업](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
-         + [보고서에 사용된 데이터](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
+         + [예약된 보고서 정보](/help/search-social-commerce/new-ui/reports/report-about.md)
+         + [보고서의 초기 설정 작업](/help/search-social-commerce/new-ui/reports/initial-setup.md)
+         + [보고서에 사용된 데이터](/help/search-social-commerce/new-ui/reports/data-used-for-reports.md)
          + [예약된 보고서 관리](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
          + 예약된 보고서 유형 {#report-types}
             + 기본 및 고급 보고서 {#basic-advanced-reports}

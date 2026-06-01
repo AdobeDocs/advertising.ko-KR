@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c3664a71f39c9a45fad739fdf4805c9862c69915
+source-git-commit: e0e44e7b2102ce3c7ec27c5dc4c50d46f1def4cf
 workflow-type: tm+mt
-source-wordcount: 801
+source-wordcount: 1020
 ht-degree: 0%
 
 ---
@@ -46,15 +46,11 @@ ht-degree: 0%
 
 ## (새 UI) [!UICONTROL Spend Planner] 보고서 생성 {#spend-recommendations-generate}
 
-1. 다음 중 하나를 수행합니다.
-
-   * 메인 메뉴에서 **[!UICONTROL Plan]>[!UICONTROL Spend Planner]**&#x200B;을(를) 클릭합니다.
-
-   * 메인 메뉴에서 **[!UICONTROL Plan]>[!UICONTROL Simulations]**&#x200B;을(를) 클릭합니다. 데이터 테이블 위의 도구 모음에서 ![지출 계획자](/help/search-social-commerce/assets/spend-planner-icon.png "지출 계획자")를 클릭합니다.
-
-   [!UICONTROL Spend Recommendation] 도구가 기존 사용자 인터페이스에서 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Plan]>[!UICONTROL Spend Planner]**&#x200B;을(를) 클릭합니다.
 
 1. 선택한 포트폴리오에 대해 현재 결합된 예산을 사용하여 데이터를 봅니다.
+
+   1. **[!UICONTROL Select Objective]**&#x200B;을(를) 클릭합니다.
 
    1. 포트폴리오 목표를 선택합니다.
 
@@ -62,7 +58,7 @@ ht-degree: 0%
 
    1. (선택 사항) 포트폴리오 지출 전략을 선택하여 포트폴리오 목록을 추가로 필터링합니다.
 
-   1. 포함할 각 포트폴리오 옆에 있는 확인란을 선택합니다. 모든 포트폴리오를 선택하려면 [!UICONTROL Portfolios] 옆에 있는 확인란을 선택하십시오.
+   1. 포함할 각 포트폴리오 옆에 있는 확인란을 선택합니다.
 
       선택한 매개변수가 있는 최적화 및 활성 포트폴리오만 나열됩니다.
 
@@ -70,45 +66,13 @@ ht-degree: 0%
 
    1. (선택 사항) 차트의 임의 지점에 대한 비용 및 매출을 보려면 해당 지점 위에 커서를 놓습니다.
 
-1. (선택 사항) 다른 총 지출 타겟을 사용하는 각 포트폴리오에 대한 권장 일일 지출 타겟과 예상 매출을 보려면 [!UICONTROL Total Spend Target] 필드에 모든 포트폴리오에 대해 제안된 총 일일 지출 타겟을 입력하십시오. 그런 다음 **Enter** 키를 누릅니다.
+1. (선택 사항) 제안된 할당 및 포트폴리오당 예상 매출을 다운로드하려면 오른쪽 열에서 [!UICONTROL Portfolio Allocation] 옆에 있는 ![다운로드](/help/search-social-commerce/assets/download-spend-recommendation.png "다운로드")를 클릭하십시오.
+
+   브라우저의 일반 절차에 따라 파일을 열거나 저장합니다. 자세한 내용은 브라우저의 온라인 도움말을 참조하십시오.
+
+1. (선택 사항) 다른 총 지출 타겟을 사용하는 각 포트폴리오에 대한 권장 일일 지출 및 예상 매출을 보려면 [!UICONTROL Total Spend Target] 필드에 모든 포트폴리오에 대해 제안된 총 일일 지출 타겟을 입력하십시오. 그런 다음 **Enter** 키를 누릅니다.
 
    지출 권장 사항 도구는 주별 시뮬레이션의 데이터를 사용하므로 총 권장 지출은 이상적인 지출 혼합과 제안된 지출 타겟과 가장 가까운 일치입니다.
-
-<!--
-
-New UI; validate post-Update steps once I get it to generate a report:
-
-## Generate a spend recommendation report {#spend-recommendations-generate}
-
-1. In the main menu, click **[!UICONTROL Plan] > [!UICONTROL Spend Planner]**.
-
-1. View data using the current, combined budgets for the selected portfolios:
-
-   1. Click **[!UICONTROL Select Objective]**.
-
-   1. Select the portfolio objective.
-
-   1. Select the currency.
-
-   1. (Optional) Select a portfolio spend strategy to further filter the portfolios list.
-
-   1. Select the check box next to each portfolio to include.
-
-      Only optimized and active portfolios with the selected parameters are listed.
-
-   1. Click **[!UICONTROL Update]**.
-
-   1. (Optional) To see the cost and revenue for any point on the chart, hold the cursor over the point.
-
-1. (Optional) To download the proposed allocation and expected revenue per portfolio, click ![Download](/help/search-social-commerce/assets/download-spend-recommendation.png "Download") next to [!UICONTROL Portfolio Allocation] in the right column.
-
-   Open or save the file according to your browser's normal procedure. For more information, see your browser's online help.
-
-1. (Optional) To view the recommended daily spend and expected revenue for each of the portfolios using a different total spend target, enter a proposed total daily spend target across all portfolios in the [!UICONTROL Total Spend Target] field. Then press the **Enter** key.
-
-   The spend recommendation tool uses data from weekly simulations, so the total recommended spend is the closest match to your proposed spend target with the ideal spend mix.
-
--->
 
 ## (기존 UI) [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] 보기에서 [!UICONTROL Spend Recommendation] 보고서를 생성합니다. {#spend-recommendations-generate-legacy}
 
@@ -134,27 +98,24 @@ New UI; validate post-Update steps once I get it to generate a report:
 
    지출 권장 사항 도구는 주별 시뮬레이션의 데이터를 사용하므로 총 권장 지출은 이상적인 지출 혼합과 제안된 지출 타겟과 가장 가까운 일치입니다.
 
-<!--
-## (New UI) Apply spend recommendations {#spend-recommendations-apply}
+## (새 UI) 지출 권장 사항 적용 {#spend-recommendations-apply}
 
-*Portfolios with daily budgets only*
+*일일 예산만 있는 포트폴리오*
 
 >[!NOTE]
 >
->* If the applied changes will increase or decrease the spend target of any portfolio by more than 20%, you must approve the change.
->* When the spend target for a portfolio changes by more than 20%, Search, Social, & Commerce takes up to 3-4 days to adjust its models and achieve the new target.
+>* 적용된 변경 사항이 포트폴리오의 지출 목표를 20% 이상 증가 또는 감소시키는 경우 변경을 승인해야 합니다.
+>* 포트폴리오에 대한 지출 목표가 20% 이상 변경되는 경우 검색, 소셜 및 Commerce은 모델을 조정하고 새 목표를 달성하는 데 최대 3~4일이 소요됩니다.
 
-1. [Generate a spend recommendation report](#spend-recommendations-generate) for one or more portfolios with daily budgets.
+1. 일별 예산이 있는 하나 이상의 포트폴리오에 대해 [지출 권장 사항 보고서를 생성합니다](#spend-recommendations-generate).
 
-1. Select the check box next to each portfolio for which you want to apply the recommended spend target. To select all portfolios, select the check box next to **[!UICONTROL Select All Recommendations]**.
+1. 권장 지출 목표를 적용할 각 포트폴리오 옆의 확인란을 선택합니다. 모든 포트폴리오를 선택하려면 **[!UICONTROL Select All Recommendations]** 옆에 있는 확인란을 선택하십시오.
 
-1. Click **[!UICONTROL Apply Selected Recommendations]**.
+1. **[!UICONTROL Apply Selected Recommendations]**&#x200B;을(를) 클릭합니다.
 
-1. (If any of the budgets will change by more than 20%) In the confirmation message, click **[!UICONTROL Confirm]** to approve the changes.
+1. (예산이 20% 이상 변경되는 경우) 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭하여 변경 내용을 승인합니다.
 
--->
-
-## &#x200B;<!--(Legacy UI) -->지출 권장 사항 적용 {#spend-recommendations-apply-legacy}
+## (기존 UI) 지출 권장 사항 적용 {#spend-recommendations-apply-legacy}
 
 *일일 예산만 있는 포트폴리오*
 
@@ -171,23 +132,17 @@ New UI; validate post-Update steps once I get it to generate a report:
 
 1. (예산이 20% 이상 변경되는 경우) 확인 메시지에서 **[!UICONTROL Yes]**&#x200B;을(를) 클릭하여 변경 내용을 승인합니다.
 
-<!--
+## (새 UI) 데이터를 [!DNL Microsoft Excel] 통합 문서 파일로 열거나 저장합니다. {#spend-recommendations-download}
 
-## (New UI) Open or save data as a [!DNL Microsoft Excel] workbook file {#spend-recommendations-download}
+a) 비용 포인트와 각 비용의 예상 매출을 보여 주는 선 차트 및 b) 현재 및 제안된 미디어 믹스의 도넛 차트에서 데이터를 열거나 저장할 수 있습니다. [Portfolio 할당 보고서와 동일한 것 같습니다. 서로 어떻게 달라야 합니까?]
 
-You can open or save data from either a) the line chart showing cost points and the expected revenue for each cost and b) the donut charts of the current and proposed media mix. [This seems to be identical to the Portfolio Allocation report -- how should these be different?]
+1. 선택한 포트폴리오에 대해 [지출 권장 사항 보고서를 생성](#spend-recommendations-generate)합니다.
 
-1. [Generate a spend recommendation report](#spend-recommendations-generate) for selected portfolios.
+1. 보고서 위에 있는 ![다운로드](/help/search-social-commerce/assets/download-spend-recommendation.png "다운로드")를 클릭합니다.
 
-1. Above the report, click ![Download](/help/search-social-commerce/assets/download-spend-recommendation.png "Download").
+   브라우저의 일반 절차에 따라 파일을 열거나 저장합니다. 자세한 내용은 브라우저의 온라인 도움말을 참조하십시오.
 
-   Open or save the file according to your browser's normal procedure. For more information, see your browser's online help.
-
--->
-
-<!--(Legacy UI) -->
-
-## 데이터를 [!DNL Microsoft Excel] 통합 문서 파일로 열거나 저장 {#spend-recommendations-download-legacy}
+## (기존 UI) 데이터를 [!DNL Microsoft Excel] 통합 문서 파일로 열거나 저장합니다. {#spend-recommendations-download-legacy}
 
 1. 선택한 포트폴리오에 대한 지출 권장 사항 보고서를 생성합니다.
 
