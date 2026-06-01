@@ -32,10 +32,10 @@ ht-degree: 2%
    + [지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)
    + Adobe CX Enterprise와의 통합 {#integrations}
       + [Adobe CX 엔터프라이즈 솔루션 및 서비스와의 통합](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
-      + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
-   + [고객 개인정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-   + [정책 및 지침(링크)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko){target="_blank"}
+      + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ko){target="_blank"}
+   + [고객 개인정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
+   + [정책 및 지침(링크)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=ko){target="_blank"}
 + 시작 {#getting-started}
    + [구현 개요](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [시스템 요구 사항](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -116,8 +116,8 @@ ht-degree: 2%
          + [[!UICONTROL Portfolios] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + 캠페인 {#campaigns}
          + [[!UICONTROL Campaigns] 보기 정보](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [포트폴리오에 캠페인 할당](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio){target="_blank"}
-         + [포트폴리오에서 캠페인 제거](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio){target="_blank"}
+         + [포트폴리오에 캠페인 할당](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio){target="_blank"}
+         + [포트폴리오에서 캠페인 제거](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio){target="_blank"}
          + [캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [[!UICONTROL Campaigns] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
          + [캠페인 상태 변경](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
@@ -133,8 +133,8 @@ ht-degree: 2%
          + [[!UICONTROL Ads] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + 보고서 {#reports}
       + 예약된 보고서 {#scheduled}
-         + [보고서의 초기 설정 작업](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
-         + [보고서에 사용된 데이터](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
+         + [보고서의 초기 설정 작업](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
+         + [보고서에 사용된 데이터](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
          + [예약된 보고서 관리](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
          + 예약된 보고서 유형 {#report-types}
             + 기본 및 고급 보고서 {#basic-advanced-reports}
@@ -197,8 +197,8 @@ ht-degree: 2%
                + [모델 정확도 보고서 설정](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
          + [보고서 템플릿 관리](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
          + [보고서에 대한 FTP 액세스](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
-         + [속성 규칙 계산 방법](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
-         + [사용자 정의 보고서에 대한 FAQ](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
+         + [속성 규칙 계산 방법](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
+         + [사용자 정의 보고서에 대한 FAQ](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [스프레드시트 보고서 피드 관리](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
       + [변경 기록 로그 보기](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [레이블 분류 관리](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
@@ -238,13 +238,13 @@ ht-degree: 2%
             + [&#x200B; [!DNL Yahoo! Japan Ads]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [&#x200B; [!DNL Yandex]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [클릭 추적 URL에 대한 선택적 추적 매개 변수](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+      + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ko){target="_blank"}
       + [AMO ID(s_kwcid) 추적 매개 변수](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + 전환 추적 {#conversion-tracking}
       + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Adobe Advertising 전환 추적 {#advertising-conversion-tracking}
          + [Adobe Advertising 전환 추적 태그 기본 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-         + [Adobe Advertising 전환 태그 생성 및 구현](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
+         + [Adobe Advertising 전환 태그 생성 및 구현](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
          + [JavaScript 전환 추적 태그 버전 3의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [JavaScript 전환 추적 태그 버전 2의 형식](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [이미지 변환 추적 태그의 형식](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
