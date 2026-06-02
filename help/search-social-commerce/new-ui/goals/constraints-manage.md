@@ -2,9 +2,9 @@
 title: 검색 입찰 단위에 대한 제한 관리
 description: 레거시 키워드 수준 포트폴리오의 CPC 캠페인에서 입찰 단위 입찰을 제한하는 제한에 대해 알아봅니다.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: ade0f3ada440b76555b60af97162f7abe454fa0f
 workflow-type: tm+mt
-source-wordcount: '2649'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 활성 제한은 최적화된 레거시 키워드 수준 포트폴리오에서 할당된 입찰 단위에 대해서만 입찰을 제한합니다. 하이브리드 포트폴리오에 있거나, 활성 포트폴리오에 있거나, 포트폴리오에 없는 입찰 단위에는 무시됩니다. **팁:** 포트폴리오 설정에서 포트폴리오 옵션을 &quot;캠페인 예산 제한 자동 조정&quot;으로 설정하십시오. 권장 &quot;다중&quot; 값은 &quot;1&quot;입니다.
-> * 비용 및 수익 모델을 생성하기에 충분한 데이터가 없는 입찰 단위에 대해서는 입찰 제한이 무시됩니다.
+>* 비용 및 수익 모델을 생성하기에 충분한 데이터가 없는 입찰 단위에 대해서는 입찰 제한이 무시됩니다.
 >* (CPC 또는 eCPC 입찰 전략이 있는 캠페인) 입찰 제한이 포트폴리오 수준 입찰 제한과 충돌하면 제한 사항이 포트폴리오 수준 제한을 무시합니다. 예를 들어 포트폴리오의 최소 입찰가가 5 USD이지만 포트폴리오의 입찰 단위를 최소 입찰가 3 USD로 제한하면 입찰 단위는 3 USD 이상으로 입찰됩니다. 그러나 제한된 입찰 단위에 대한 전체 지출은 포트폴리오의 [&quot;제약 조건 관련 지출&quot; 매개 변수](#spend-around-constraints)에 의해 결정됩니다.
 >* 제한은 기본 입찰에서 작동합니다. 기본 입찰에 대한 입찰 조정 유형(예: 모바일 디바이스의 최종 사용자에 대한 입찰 상승)은 입찰을 제한에 대한 허용 범위 밖으로 이동할 수 있습니다. 예를 들어 제한에 최대 CPC 6달러가 필요하고 기본 입찰가는 이미 6달러이며 포트폴리오가 모바일 장치에 대한 입찰 조정을 50%-60%로 자동 최적화하는 경우 최대 CPC는 6달러가 아닌 9.00-9.60USD입니다.
 
@@ -172,19 +172,18 @@ ht-degree: 0%
 
 ## 입찰 단위 검색에 제한 할당 {#constraint-assign}
 
-입찰 단위 제한을 단위 수준(하위 분류의 가장 낮은 수준)의 캠페인, 광고 그룹, 키워드, 배치, 쇼핑 제품 그룹 또는 동적 검색 대상에 적용할 수 있습니다.
+모든 캠페인, 광고 그룹, 키워드, 배치 또는 동적 검색 대상(자동 타겟)에 입찰 단위 제한을 적용할 수 있습니다.
 
 각 엔티티에는 하나의 제약조건만 있을 수 있습니다. 한 개의 구속을 하나 이상의 엔티티에 동시에 지정할 수 있습니다.
 
 >[!NOTE]
 >
->나중에 광고의 키워드나 광고 사본을 편집하여 새 키워드나 광고를 만들 경우 새 엔티티에 제한이 할당되지 않습니다.
+>* 나중에 광고의 키워드나 광고 사본을 편집하여 새 키워드나 광고를 만들 경우 새 엔티티에 제한이 할당되지 않습니다.
+>* [[!UICONTROL Campaigns] 보기](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups] 보기](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] 보기](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) 또는 [[!UICONTROL Placements] 보기](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)에서 동일한 지침을 참조하십시오. <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 메인 메뉴에서 관련 관리 보기를 엽니다.
 
    예를 들어 캠페인 수준에서 제약 조건을 할당하려면 [!UICONTROL Manage] > [!UICONTROL Campaigns]&#x200B;(으)로 이동합니다.
-
-   <!-- for [campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [ad groups](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [keywords](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md), or [placements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). And ADD LINKS WHEN AVAILABLE for shopping product groups and dynamic search targets. -->
 
 1. (선택 사항) 도구 모음[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서  목록을 필터링합니다.
 
@@ -198,7 +197,10 @@ ht-degree: 0%
 
 ## 입찰 단위 검색에서 제한 할당 해제 {#constraints-unassign}
 
-**참고:** 제약 조건을 삭제하여 나중에 사용할 수 없게 하려면 &quot;[제약 조건 상태 변경](#constraint-change-status)&quot;을 참조하세요.&quot;
+>[!NOTE]
+>
+>* 제약 조건을 삭제하여 나중에 사용할 수 없게 하려면 &quot;[제약 조건 상태 변경](#constraint-change-status)&quot;을 참조하세요.
+>* [[!UICONTROL Campaigns] 보기](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups] 보기](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] 보기](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) 또는 [[!UICONTROL Placements] 보기](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)에서 동일한 지침을 참조하십시오. <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 메인 메뉴에서 관련 관리 보기를 엽니다.
 

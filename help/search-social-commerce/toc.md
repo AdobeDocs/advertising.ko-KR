@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
-source-wordcount: 2348
+source-wordcount: 2354
 ht-degree: 2%
 
 ---
@@ -98,6 +98,7 @@ ht-degree: 2%
             + [&#x200B; [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
             + [향상된 전환을 위해 오프라인 전환 데이터 업로드](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [&#x200B; [!DNL Google Ads] 전환 값 규칙 관리](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
+      + [검색 입찰 단위에 대한 제한 관리](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
    + 플랜 {#plan}
       + [시뮬레이션 정보](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
       + [사용자 지정 시뮬레이션 실행 또는 재실행](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)

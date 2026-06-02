@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
-source-wordcount: 374
+source-wordcount: 389
 ht-degree: 0%
 
 ---
@@ -89,6 +89,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
->* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [(새 UI) 검색 입찰 단위에 대한 제약 조건을 관리합니다](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
+>* [(새 UI) 캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [(새 UI) 키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [(새 UI) 배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
