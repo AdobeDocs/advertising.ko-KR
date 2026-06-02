@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+source-git-commit: fe6aa2856831433f9b0673d0cc1e35e92f1728de
 workflow-type: tm+mt
-source-wordcount: 2309
+source-wordcount: 2342
 ht-degree: 2%
 
 ---
@@ -91,7 +91,12 @@ ht-degree: 2%
          + [목표 설정](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
          + [광고 네트워크에 목표 업로드 활성화](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
       + 전환 {#conversions}
+         + [전환 지표 관리에 사용할 수 있는 기능](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
+         + [Adobe Advertising 전환 추적 태그 생성 및 구현](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
          + [광고주의 전환 지표에 대한 성능 데이터 관리 및 보기](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+         + 향상된 전환 {#enhanced-conversions}
+            + [&#x200B; [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
+            + [향상된 전환을 위해 오프라인 전환 데이터 업로드](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [&#x200B; [!DNL Google Ads] 전환 값 규칙 관리](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
    + 플랜 {#plan}
       + [시뮬레이션 정보](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
