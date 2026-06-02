@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
 workflow-type: tm+mt
-source-wordcount: 2354
+source-wordcount: 2356
 ht-degree: 2%
 
 ---
@@ -228,6 +228,7 @@ ht-degree: 2%
          + 데이터 업로드 계정 {#data-upload}
             + [데이터 업로드를 위한 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [추적에 대해서만  [!DNL Naver] 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+      + [&#x200B; [!DNL Microsoft Advertising]의  [!DNL Google Ads] 캠페인 복제](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
    + [사용자 지정 경고 관리](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [알림 관리](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [사용자 관리](/help/search-social-commerce/new-ui/user-administration.md)
