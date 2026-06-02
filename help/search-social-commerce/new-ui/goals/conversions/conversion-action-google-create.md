@@ -2,8 +2,11 @@
 title: (새 UI)  [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기
 description: 잠재 고객에 대한 향상된 전환을 위해  [!DNL Google Ads] 전환 작업을 만드는 방법을 알아봅니다.
 feature: Conversions
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
-subfeature_v2: id: d068b149-b9d1-421c-9033-a51495366ddc
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
 source-git-commit: 0bfee2b52410b5cab8e9b3dfba35effc36fc40e1
 workflow-type: tm+mt
 source-wordcount: 510
