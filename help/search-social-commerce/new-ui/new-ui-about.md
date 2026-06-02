@@ -4,22 +4,19 @@ description: 새로운 사용자 인터페이스에 대해 알아봅니다.
 feature: Search Introduction
 exl-id: 27fcc1c2-fe69-4bdc-9786-c48b28da1560
 TQID: https://experienceleague.adobe.com/3xw-2l7hzRLYG-Se1SJV3eEFsipAy6jwbJnybubAzD0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
 workflow-type: tm+mt
-source-wordcount: 207
+source-wordcount: 208
 ht-degree: 0%
 
 ---
 
 # 새 사용자 인터페이스 정보
 
-이제 새로운 UI(사용자 인터페이스)에서 목표, 시뮬레이션 및 포트폴리오를 관리하고 다양한 다른 작업을 수행할 수 있습니다. 새 검색, 소셜 및 Commerce UI는 `https://experience.adobe.com` 도메인 내의 새 URL에서 실행됩니다.
+이제 새로운 UI(사용자 인터페이스)에서 목표, 시뮬레이션 및 포트폴리오를 관리하고 기타 주요 작업을 대부분 수행할 수 있습니다. 새 검색, 소셜 및 Commerce UI는 `https://experience.adobe.com` 도메인 내의 새 URL에서 실행됩니다.
 
 시간이 지남에 따라 나머지 기능이 새 UI에 추가됩니다. 그동안 새 UI의 메인 메뉴에서 기존 UI의 기능 대부분을 열 수 있습니다. 또한 새 UI와 기존 UI 간에 쉽게 전환할 수 있습니다.
 
