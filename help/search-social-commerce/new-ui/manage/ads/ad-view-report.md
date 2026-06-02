@@ -1,11 +1,17 @@
 ---
 title: (새 UI) [!UICONTROL Ads] 보기에서 데이터 보기 보고서를 관리합니다.
-description: 보고서의 [!UICONTROL Ads] 보기에서 하나 이상의 광고에 대한 데이터 행이 포함된 보고서를 생성, 다운로드 및 삭제하는 방법을 알아봅니다.
+description: '[!UICONTROL Ads] 보기에서 하나 이상의 광고에 대한 데이터 행이 포함된 보고서를 생성, 다운로드 및 삭제하는 방법을 알아봅니다.'
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -62,6 +68,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [[!UICONTROL Ads view]](ad-view-about.md) 정보
->* [(레거시 UI) 캠페인 관리 보기에서 데이터를 다운로드합니다](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [(기존 UI) [!UICONTROL Downloads] 메뉴에서 성능 데이터 보고서 또는 일괄 시트 파일을 삭제합니다.](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [!UICONTROL Ads view][&#128279;](ad-view-about.md)에 대한 (새 UI)
+>* [(새 UI) 광고 상태 변경](ad-change-status.md)
