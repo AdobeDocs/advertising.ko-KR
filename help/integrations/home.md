@@ -6,11 +6,20 @@ product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
 TQID: https://experienceleague.adobe.com/6-dzP-cjgKB5-HBvIpy8iU3B8FEbWAfP8r5UEad23Ok
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6id: f2860a4b-f905-4545-bead-1bbc92564592
-subfeature_v2: id: d1e2786d-1070-4f97-93d7-f5b95de25b2bid: d9510790-d834-436d-8423-8d69cd50464a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2:
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
 source-wordcount: 962
@@ -37,7 +46,7 @@ ht-degree: 0%
 | 2021년 4월 27일 | [!DNL Analytics for Advertising] | 클릭 데이터를 Adobe Analytics으로 보내기 위해 [!DNL Analytics for Advertising] 매크로를 [!DNL Google Campaign Manager 360] 광고 태그에 추가하는 이유와 방법을 알아봅니다. | &quot;[추가 [!DNL Analytics for Advertising] 매크로를  [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md)에 추가&quot;를 참조하십시오.&quot; |
 | 2021년 4월 19일 | [!DNL Analytics for Advertising] | 매크로를 [!DNL Flashtalking] 광고 태그에 추가하여 클릭 데이터를 Adobe Analytics으로 보내는 방법과 방법에 대해 알아봅니다. | &quot;[추가 [!DNL Analytics for Advertising] 매크로를  [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)에 추가&quot;를 참조하십시오.&quot; |
 | 2021년 10월 27일 | [!DNL Analytics for Advertising] | 조직이 데이터 수집을 위해 기존 Adobe Analytics `visitorAPI.js` 라이브러리에서 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 라이브러리(`alloy.js`)로 전환하려는 경우 일부 내용을 변경하여 ID 결합을 사용하도록 설정해야 합니다. | &quot;[Adobe Experience Platform과 함께  [!DNL Last Event Service] JavaScript 라이브러리 사용 [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)&quot;을(를) 참조하십시오. |
-| 2021년 5월 26일 | 도움말 | 이제 &quot;[!DNL Analytics for Advertising]&quot; 장에 &quot;Working in [!DNL Analytics Marketing Channels]&quot;에 대한 하위 챕터가 포함됩니다. | &quot;[처리 규칙 기본 사항 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)," "[Using Adobe Advertising IDs to create [!DNL Marketing Channels] 2}&quot;, &quot;[Adobe Advertising 데이터 사용 [!DNL Analytics Marketing Channels] &quot;, &quot;](/help/integrations/analytics/marketing-channels/mc-ac-data.md)&quot; 및 &quot;[Adobe Advertising과  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md) 간에 채널 데이터가 다를 수 있는 이유&quot;를 참조하십시오.&quot;](/help/integrations/analytics/marketing-channels/mc-ids.md) |
+| 2021년 5월 26일 | 도움말 | 이제 &quot;[!DNL Analytics for Advertising]&quot; 장에 &quot;Working in [!DNL Analytics Marketing Channels]&quot;에 대한 하위 챕터가 포함됩니다. | &quot;[처리 규칙 기본 사항 [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-overview.md)," "[&#128279;](/help/integrations/analytics/marketing-channels/mc-ids.md)Using Adobe Advertising IDs to create [!DNL Marketing Channels] 2&rbrace;&quot;, &quot;[Adobe Advertising 데이터 사용 [!DNL Analytics Marketing Channels] &quot;, &quot;](/help/integrations/analytics/marketing-channels/mc-ac-data.md)&quot; 및 &quot;[Adobe Advertising과  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md) 간에 채널 데이터가 다를 수 있는 이유&quot;를 참조하십시오.&quot; |
 | 2021년 5월 26일 | 도움말 | [!DNL Analytics for Advertising]에 대한 모든 비디오 튜토리얼에 대한 링크가 추가되었습니다. | &quot;[Adobe Advertising 통합에 대한 비디오 튜토리얼](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)&quot;을(를) 참조하십시오. |
 
 {style="table-layout:auto"}
