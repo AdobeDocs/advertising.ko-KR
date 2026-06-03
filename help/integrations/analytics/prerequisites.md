@@ -18,16 +18,16 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 840
 ht-degree: 0%
 
 ---
 
 # [!DNL Analytics for Advertising]을(를) 구현하기 위한 필수 구성 요소 및 주요 정보
 
-*Advertising DSP 및[!DNL Advertising Search, Social, & Commerce]*&#x200B;을(를) 사용하는 광고주
+*Advertising Creative, Advertising DSP 및 Advertising 검색, 소셜 및 Commerce을 사용하는 광고주*
 
 Adobe Advertising을 Adobe Analytics과 통합하기 전에 다음 정보를 검토하십시오.
 
@@ -54,7 +54,7 @@ Adobe Advertising을 Adobe Analytics과 통합하기 전에 다음 정보를 검
 Adobe Advertising 구현 팀에 다음 사항을 제공합니다.
 
 * 유료 미디어 활동에 대한 보고 및 Adobe Advertising의 최적화 및 보고를 위해 사이트 활동을 제공하는 데 사용할 [!DNL Analytics] 보고서 세트 ID
-* 회사의 CX Enterprise 조직 ID(조직 ID).
+* 회사의 CX 엔터프라이즈 조직 ID(조직 ID).
 
 이 두 ID는 모두 Adobe Experience Platform Debugger의 [요약 탭](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ko)에서 찾을 수 있습니다.
 
@@ -120,7 +120,7 @@ Adobe Advertising의 ![광고주 수준 전환 확인 기간 설정](/help/integ
 
 ### 보조 ID
 
-사이트에 대해 Experience Cloud Identity 서비스가 구현되면 [!DNL Analytics] 또는 Adobe Advertising의 데이터가 포함된 히트에 보조 ID가 포함됩니다.
+사이트에 대해 Experience Cloud ID 서비스가 구현되면 [!DNL Analytics] 또는 Adobe Advertising의 데이터가 포함된 히트에 보조 ID가 포함됩니다.
 
 예: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
