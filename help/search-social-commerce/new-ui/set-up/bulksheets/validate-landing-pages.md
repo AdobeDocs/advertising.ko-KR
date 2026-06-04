@@ -2,10 +2,15 @@
 title: (새 UI) 일괄 시트 파일의 랜딩 페이지 유효성 검사
 description: 새 검색, 소셜 및 Commerce UI에서 단일 계정 일괄 시트 파일에서 대상 URL의 유효성을 검사하는 방법을 알아봅니다.
 feature: Search Bulksheets
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e58024d1-d6da-420c-80af-6be211808316
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
 workflow-type: tm+mt
 source-wordcount: 585
@@ -52,7 +57,7 @@ ht-degree: 0%
 
    **[!UICONTROL Report redirects as errors]:** 랜딩 페이지가 다른 페이지로 리디렉션되는 경우(예: 랜딩 페이지가 누락되고 사이트에 대체 페이지가 표시되는 경우) 랜딩 페이지 오류 파일의 [!UICONTROL EF Errors] 열은 랜딩 페이지가 리디렉션되는 URL을 나타냅니다.
 
-작업이 시작되면 [!UICONTROL Bulksheets] 보기에 새 행이 추가됩니다. [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md) 내에서 일괄 시트에 대한 전자 메일 알림을 [사용할 수 있는 경우 파일을 만들 때 파일에 대한 링크가 있는 전자 메일 알림을 보냅니다. 컴파일된 데이터의 양에 따라 이메일 알림은 몇 분 이상 걸릴 수 있습니다. 파일을 다운로드하여 편집한 다음 다시 업로드하여 게시할 수 있습니다. 또는 파일을 그대로 게시할 수 있습니다.
+작업이 시작되면 [!UICONTROL Bulksheets] 보기에 새 행이 추가됩니다. [!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md) 내에서 일괄 시트에 대한 전자 메일 알림을 사용할 수 있는 경우 파일을 만들 때 파일에 대한 링크가 있는 전자 메일 알림을 보냅니다. 컴파일된 데이터의 양에 따라 이메일 알림은 몇 분 이상 걸릴 수 있습니다. 파일을 다운로드하여 편집한 다음 다시 업로드하여 게시할 수 있습니다. 또는 파일을 그대로 게시할 수 있습니다.
 
 >[!NOTE]
 >
