@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
-작업이 시작되면 파일이 [!UICONTROL Bulksheets] 보기에 나열됩니다. 일괄 시트에 대한 전자 메일 알림이 [!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md) 내에 활성화되어 있으면 작업이 완료되면 파일에 대한 링크와 함께 전자 메일 알림이 전송됩니다. 컴파일된 데이터의 양에 따라 이메일 알림은 몇 분 이상 걸릴 수 있습니다. 파일 생성이 실패하면 오류 파일이 [!UICONTROL Bulksheets] 보기에 나열되고 오류 파일에 대한 링크와 함께 전자 메일 알림이 전송됩니다.
+작업이 시작되면 파일이 [!UICONTROL Bulksheets] 보기에 나열됩니다. 일괄 시트에 대한 전자 메일 알림이 [!UICONTROL Notification Center] [&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md) 내에 활성화되어 있으면 작업이 완료되면 파일에 대한 링크와 함께 전자 메일 알림이 전송됩니다. 컴파일된 데이터의 양에 따라 이메일 알림은 몇 분 이상 걸릴 수 있습니다. 파일 생성이 실패하면 오류 파일이 [!UICONTROL Bulksheets] 보기에 나열되고 오류 파일에 대한 링크와 함께 전자 메일 알림이 전송됩니다.
 
 >[!NOTE]
 >
