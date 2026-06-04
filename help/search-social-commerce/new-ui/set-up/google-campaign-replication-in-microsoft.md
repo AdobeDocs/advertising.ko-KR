@@ -2,10 +2,9 @@
 title: (새 UI) Microsoft Advertising에서 Google 광고 캠페인을 복제합니다
 description: Google Ads 계정의 동기화된 캠페인을 동기화된 Microsoft Advertising 계정으로 직접 내보내는 방법에 대해 알아봅니다.
 feature: Search Campaign Management
-exl-id: d4f8e452-7b3d-4a1f-9c3e-6b8d2e5a4917
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+source-git-commit: e6649d66757333660662a058410221b73a45e6cc
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -42,27 +41,13 @@ ht-degree: 0%
 
 1. **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
 
-1. [가져오기 설정 지정](#campaign-import-settings):
+1. [가져오기 설정](#campaign-import-settings)을 지정하십시오.
 
-   1. **[!UICONTROL Select accounts]** 단계:
-
-      1. **[!UICONTROL Import Name]** 필드에 가져오기 작업의 이름을 입력합니다.
-
-      1. 원본 [!DNL Google Ads] 계정과 대상 [!DNL Microsoft Advertising] 계정을 선택하십시오.
-
-      1. **[!UICONTROL Credential ID]**&#x200B;을(를) 입력하십시오. 자격 증명 ID가 없는 경우 Adobe 계정 팀에 문의하십시오. [!DNL Microsoft Advertising] 제한 사항으로 인해 자동 생성을 사용할 수 없습니다.
-
-      1. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
-
-   1. **[!UICONTROL Select campaigns & ad groups]** 단계에서 가져올 캠페인 및 광고 그룹을 지정한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
-
-   1. **[!UICONTROL Customize your import]** 단계에서 선택적으로 가져올 항목 형식, 입찰 및 예산 설정 및 기타 옵션을 지정한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
-
-   1. **[!UICONTROL Set schedule]** 단계에서 가져오기 작업을 실행할 시기와 알림을 받는 방법을 지정합니다.
+1. 오른쪽 상단의 **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
 1. 요약에서 선택 내용을 검토하고 **[!UICONTROL Start Import]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [광고 그룹](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) 또는 [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 설정 내에서 검색, 소셜 및 Commerce 추적을 추가합니다.
+1. (선택 사항) [account](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [광고 그룹](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) 또는 [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 설정 내에서 검색, 소셜 및 Commerce 추적을 추가합니다.
 
 ## 캠페인 가져오기 작업에 대한 일정 설정 편집
 
@@ -70,9 +55,7 @@ ht-degree: 0%
 
 1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Jobs]** 탭을 클릭합니다.
-
-1. 가져오기 작업의 이름을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL List of Import Jobs]** 탭에서 가져오기 작업의 이름을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Set schedule]** 단계에서 [예약 설정](#campaign-import-settings)을 지정하십시오.
 
@@ -84,15 +67,13 @@ ht-degree: 0%
 
 1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
 
-   기본적으로 **[!UICONTROL Jobs]** 탭이 열립니다.
+   기본적으로 **[!UICONTROL List of Import Jobs]** 탭이 열립니다.
 
 ## 캠페인 가져오기 작업 실행
 
 1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Jobs]** 탭을 클릭합니다.
-
-1. 가져오기 작업 옆의 확인란을 선택한 다음 **[!UICONTROL Run Now]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL List of Import Jobs]** 탭에서 가져오기 작업 옆의 확인란을 선택한 다음 **[!UICONTROL Run Now]**&#x200B;을(를) 클릭합니다.
 
 ## 캠페인 가져오기 작업에 대한 로그 보기 {#campaign-import-log}
 
@@ -100,13 +81,13 @@ ht-degree: 0%
 
 1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Logs]** 탭을 클릭합니다.
+1. **[!UICONTROL Import Logs]** 탭을 클릭합니다.
 
 1. (선택 사항) 가져오기 작업에 대한 세부 정보를 보려면 [!UICONTROL Summary] 열의 값을 클릭합니다.
 
 ## 캠페인 가져오기 작업 설정 {#campaign-import-settings}
 
-### [!UICONTROL Select accounts]
+### [!UICONTROL Select Accounts] 탭
 
 **[!UICONTROL Import Name]:** 가져오기 작업을 식별하는 이름입니다.
 
@@ -116,7 +97,7 @@ ht-degree: 0%
 
 **[!UICONTROL Credential ID]:** [!DNL Microsoft Advertising]에서 [!DNL Google Ads] 자격 증명을 나타내는 데 사용하는 ID입니다. [!DNL Microsoft Advertising] 제한 사항으로 인해 가져오기용 [!DNL Microsoft Advertising] 자격 증명의 자동 생성을 사용할 수 없습니다. Adobe 계정 팀에 문의하여 자격 증명을 생성하고 ID를 제공합니다.
 
-### [!UICONTROL Select campaigns & ad groups]
+### [!UICONTROL Select Campaigns & Ad Groups] 탭
 
 **\[가져올 데이터\]:** 가져올 데이터:
 
@@ -128,9 +109,9 @@ ht-degree: 0%
 
    * 캠페인 또는 광고 그룹을 선택하려면 확인 표시가 나타나도록 항목을 선택합니다.
 
-   * 캠페인이나 광고 그룹을 제거하려면 항목을 선택 취소하거나 [!UICONTROL Selected] 열에서 삭제 아이콘을 클릭하십시오.
+   * 캠페인 또는 광고 그룹을 제거하려면 항목을 선택 취소하거나 [!UICONTROL Selection] 열에서 ![삭제](/help/search-social-commerce/assets/delete-new.png "삭제")를 클릭하십시오.
 
-### [!UICONTROL Customize your import]
+### [!UICONTROL Customize Your Import] 탭
 
 **[!UICONTROL Choose specific import options]:** 가져올 항목, 입찰 및 예산 및 기타 옵션을 지정할 수 있습니다.
 
@@ -140,7 +121,7 @@ ht-degree: 0%
 
 **[!UICONTROL Other options]:** 가져온 랜딩 페이지 URL, 추적 템플릿, 기타 캠페인, 광고 및 타깃팅 옵션(텍스트 찾기 및 바꾸기 및 접미사 삽입 옵션 포함)을 처리하는 방법을 정의합니다.
 
-### [!UICONTROL Set schedule]
+### [!UICONTROL Set Schedule] 탭
 
 **[!UICONTROL When]:** 지정된 캠페인을 가져올 시기: *자동*([!DNL Microsoft Advertising]이(가) 캠페인을 최적화하기 위해 일정을 설정하도록 허용), *[!UICONTROL Now]*(작업 설정을 게시할 때 작업 실행), 지정된 시간에 *[!UICONTROL Once]*, 지정된 시간에 *[!UICONTROL Daily]*, 지정된 시간에 *[!UICONTROL Weekly]* 또는 지정된 시간에 *[!UICONTROL Monthly]*.
 

@@ -2,9 +2,13 @@
 title: 검색 입찰 단위에 대한 제한 관리
 description: 레거시 키워드 수준 포트폴리오의 CPC 캠페인에서 입찰 단위 입찰을 제한하는 제한에 대해 알아봅니다.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: ade0f3ada440b76555b60af97162f7abe454fa0f
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: c800239a-06eb-4249-9aef-771973d24d35
+source-git-commit: 9cc395a6b0fe25435ca6ed022f8da767d525d68e
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: 2660
 ht-degree: 0%
 
 ---
