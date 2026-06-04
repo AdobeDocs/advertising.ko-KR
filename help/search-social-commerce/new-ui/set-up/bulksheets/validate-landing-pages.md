@@ -57,7 +57,7 @@ ht-degree: 0%
 
    **[!UICONTROL Report redirects as errors]:** 랜딩 페이지가 다른 페이지로 리디렉션되는 경우(예: 랜딩 페이지가 누락되고 사이트에 대체 페이지가 표시되는 경우) 랜딩 페이지 오류 파일의 [!UICONTROL EF Errors] 열은 랜딩 페이지가 리디렉션되는 URL을 나타냅니다.
 
-작업이 시작되면 [!UICONTROL Bulksheets] 보기에 새 행이 추가됩니다. [!UICONTROL Notification Center] [&#128279;](/help/search-social-commerce/new-ui/notifications/notification-manage.md) 내에서 일괄 시트에 대한 전자 메일 알림을 사용할 수 있는 경우 파일을 만들 때 파일에 대한 링크가 있는 전자 메일 알림을 보냅니다. 컴파일된 데이터의 양에 따라 이메일 알림은 몇 분 이상 걸릴 수 있습니다. 파일을 다운로드하여 편집한 다음 다시 업로드하여 게시할 수 있습니다. 또는 파일을 그대로 게시할 수 있습니다.
+작업이 시작되면 [!UICONTROL Bulksheets] 보기에 새 행이 추가됩니다. [!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md) 내에서 일괄 시트에 대한 전자 메일 알림을 사용할 수 있는 경우 파일을 만들 때 파일에 대한 링크가 있는 전자 메일 알림을 보냅니다. 컴파일된 데이터의 양에 따라 이메일 알림은 몇 분 이상 걸릴 수 있습니다. 파일을 다운로드하여 편집한 다음 다시 업로드하여 게시할 수 있습니다. 또는 파일을 그대로 게시할 수 있습니다.
 
 >[!NOTE]
 >
