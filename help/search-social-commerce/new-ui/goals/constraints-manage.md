@@ -17,7 +17,7 @@ ht-degree: 0%
 
 *레거시 키워드 수준의 포트폴리오에서만 CPC 캠페인의 입찰 단위에 적용 가능*
 
-입찰 단위 제한은 제한과 관련된 비용 및 수익 모델을 사용하는 모든 [입찰 단위](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html)에 대해 최적화된 입찰을 제한하는 규칙입니다.
+입찰 단위 제한은 제한과 관련된 비용 및 수익 모델을 사용하는 모든 [입찰 단위](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=ko)에 대해 최적화된 입찰을 제한하는 규칙입니다.
 
 ## 제한 정보
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 [[!UICONTROL Constraints] 보기](#constraints-view)을(를) 여는 것 외에도 다음과 같은 방법으로 제한 관련 정보를 볼 수 있습니다.
 
-* 모든 제약 조건은 &quot;[!UICONTROL Constraints]&quot;이라는 단일 [레이블 분류](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html)에 대한 레이블 값입니다.
+* 모든 제약 조건은 &quot;[!UICONTROL Constraints]&quot;이라는 단일 [레이블 분류](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=ko)에 대한 레이블 값입니다.
 
    * &quot;[!UICONTROL Constraints]&quot;은(는) 기본 및 사용자 지정 보기 설정과 예약된 보고서의 &quot;[!UICONTROL Classifications]&quot; 목록에 포함되어 있습니다. 관련 엔티티에 할당된 구속을 보려는 위치에 열을 추가할 수 있습니다.
 
