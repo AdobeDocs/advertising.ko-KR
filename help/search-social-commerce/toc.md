@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+source-git-commit: 6474daed0ea0dc7b13fff847f6c327e4e5788dde
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: 2416
 ht-degree: 2%
 
 ---
@@ -229,6 +229,17 @@ ht-degree: 2%
             + [데이터 업로드를 위한 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [추적에 대해서만  [!DNL Naver] 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
       + [&#x200B; [!DNL Microsoft Advertising]의  [!DNL Google Ads] 캠페인 복제](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
+      + 일괄 시트 {#bulksheets}
+         + [일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)
+         + [Bulksheets 업로드를 위한 FTP 계정 설정](/help/search-social-commerce/new-ui/set-up/bulksheets/ftp-account.md)
+         + [일괄 시트 파일 다운로드/만들기](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)
+         + [일괄 시트 파일의 랜딩 페이지 유효성 검사](/help/search-social-commerce/new-ui/set-up/bulksheets/validate-landing-pages.md)
+         + [생성 또는 업로드한 일괄 시트 파일 내보내기](/help/search-social-commerce/new-ui/set-up/bulksheets/export.md)
+         + [일괄 시트 또는 수정된 오류 파일 업로드](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md)
+         + [게시물 일괄 시트 또는 수정된 오류 파일](/help/search-social-commerce/new-ui/set-up/bulksheets/post.md)
+         + [일괄 시트 오류](/help/search-social-commerce/new-ui/set-up/bulksheets/errors.md)
+         + [업로드된 일괄 시트 및 오류 파일 삭제](/help/search-social-commerce/new-ui/set-up/bulksheets/delete.md)
+         + [진행 중인 일괄 시트 작업 중지](/help/search-social-commerce/new-ui/set-up/bulksheets/stop-job.md)
    + [사용자 지정 경고 관리](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [알림 관리](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [사용자 관리](/help/search-social-commerce/new-ui/user-administration.md)
