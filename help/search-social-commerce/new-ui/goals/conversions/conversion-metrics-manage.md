@@ -9,14 +9,14 @@ subfeature_v2:
   - id: d068b149-b9d1-421c-9033-a51495366ddc
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 932
 ht-degree: 0%
 
 ---
 
-# (새 UI) 광고주의 전환 지표에 대한 성능 데이터를 관리하고 조회합니다
+# (새 UI) 광고주의 전환 지표를 관리합니다
 
 *Beta 기능*
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
       1. (지표를 숨기려면) 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭하여 지표가 포함된 파생 지표에서 지표를 제거하는 등 지표를 숨깁니다.
 
-## 변환에 대한 성능 데이터 보고서 관리
+## 전환 가시성 및 소스 보고서 관리
 
 추적된 전환에 대한 다음 정보를 다운로드할 수 있습니다. 동기화된 지표 이름, 검색, 소셜 및 Commerce 관리 보기 및 보고서 내 지표의 표시 이름, 관리 보기 및 보고서에 지표가 표시되는지 여부, 전환 ID 및 지표 소스. 데이터를 [!DNL Microsoft Excel] 통합 문서(XLSX 파일) 형식의 파일로 다운로드합니다.
 

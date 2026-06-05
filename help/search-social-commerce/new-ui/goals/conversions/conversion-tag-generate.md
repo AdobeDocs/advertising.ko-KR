@@ -2,9 +2,9 @@
 title: (새 UI) Adobe Advertising 전환 추적 태그 생성 및 구현
 description: Adobe Advertising 전환 태그를 만들어 전환 이벤트를 추적하는 방법에 대해 알아봅니다.
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 추적할 각 지표 세트에 대해 별도의 전환 태그를 만듭니다. 검색, 소셜 및 Commerce에서 태그를 생성하거나 Adobe Advertising 확장 기능이 있는 Adobe Experience Platform(이전의 Adobe Experience Platform Launch)의 태그를 사용하여 태그를 생성할 수 있습니다.
 
-## 검색, 소셜 및 Commerce 내에서 전환 추적 태그를 생성하고 구현합니다.
+## 검색, 소셜 및 Commerce 내에서 전환 추적 태그 생성
 
 >[!NOTE]
 >

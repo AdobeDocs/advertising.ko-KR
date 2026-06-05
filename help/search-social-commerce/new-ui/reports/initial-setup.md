@@ -6,9 +6,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: 352
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 신규 사용자는 다음과 같은 초기 설정 작업을 수행해야 합니다.
 
-* Adobe Advertising이 광고주에 대해 추적하는 전환 지표를 보고서 및 기타 보기에 사용할 수 있도록 하고, 가독성을 위해 열 제목에 표시되는 전환 지표의 이름을 임의로 변경합니다. 광고주의 전환 지표에 대한 성능 데이터 관리 및 보기[&#128279;](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)를 참조하십시오.
+* Adobe Advertising이 광고주에 대해 추적하는 전환 지표를 보고서 및 기타 보기에 사용할 수 있도록 하고, 가독성을 위해 열 제목에 표시되는 전환 지표의 이름을 임의로 변경합니다. &quot;[광고주의 전환 지표 관리](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)&quot;를 참조하십시오.
 
   트랜잭션 속성은 특별히 사용 가능하게 만들지 않으면 보고서에 사용할 수 없습니다.
 

@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6474daed0ea0dc7b13fff847f6c327e4e5788dde
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 2416
+source-wordcount: 2412
 ht-degree: 2%
 
 ---
@@ -93,17 +93,18 @@ ht-degree: 2%
       + 전환 {#conversions}
          + [전환 지표 관리에 사용할 수 있는 기능](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
          + [Adobe Advertising 전환 추적 태그 생성 및 구현](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
-         + [광고주의 전환 지표에 대한 성능 데이터 관리 및 보기](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+         + [광고주의 전환 지표 관리](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
          + 향상된 전환 {#enhanced-conversions}
             + [&#x200B; [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
             + [향상된 전환을 위해 오프라인 전환 데이터 업로드](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
       + [&#x200B; [!DNL Google Ads] 전환 값 규칙 관리](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
       + [검색 입찰 단위에 대한 제한 관리](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
    + 플랜 {#plan}
-      + [시뮬레이션 정보](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
-      + [사용자 지정 시뮬레이션 실행 또는 재실행](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
-      + [시뮬레이션 세부 정보 보기](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
-      + [시뮬레이션 다운로드](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+      + 시뮬레이션 {#simulations}
+         + [시뮬레이션 정보](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+         + [사용자 지정 시뮬레이션 실행 또는 재실행](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+         + [시뮬레이션 세부 정보 보기](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
+         + [시뮬레이션 다운로드](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
       + [[!UICONTROL Spend Planner] 사용](/help/search-social-commerce/new-ui/plan/spend-planner.md)
    + 관리 {#manage}
       + 포트폴리오 {#portfolios}
