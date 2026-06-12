@@ -4,20 +4,14 @@ description: 교차 경험 [!UICONTROL Custom Creative Report]을(를) 생성하
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
 TQID: https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1485
 ht-degree: 0%
 
 ---
@@ -82,7 +76,7 @@ ht-degree: 0%
 
    * 보고서의 최신 인스턴스를 다운로드하려면 **[!UICONTROL Download]**&#x200B;을(를) 클릭하십시오.
 
-   * (여러 인스턴스가 있는 보고서) ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png "아래쪽 화살표")아래쪽 화살표[!UICONTROL Download]를 클릭한 다음 다운로드할 보고서의 완료 날짜를 클릭합니다. 다운로드 가능한 보고서 인스턴스는 다운로드 아이콘(![다운로드 아이콘](/help/dsp/assets/indicator-downloadable.png "다운로드 아이콘"))으로 표시됩니다.
+   * (여러 인스턴스가 있는 보고서) [!UICONTROL Download] 옆에 있는 ![아래쪽 화살표](/help/dsp/assets/chevron-down.png "아래쪽 화살표")를 클릭한 다음 다운로드할 보고서의 완료 날짜를 클릭합니다. 다운로드 가능한 보고서 인스턴스는 다운로드 아이콘(![다운로드 아이콘](/help/dsp/assets/indicator-downloadable.png "다운로드 아이콘"))으로 표시됩니다.
 
      사용 가능한 인스턴스가 많으면 필요한 경우 목록 맨 아래의 **[!UICONTROL Load More]**&#x200B;을(를) 클릭합니다.
 
@@ -130,9 +124,9 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >[&#x200B; 보기에서 &#x200B;](#report-run-now)언제든지 사용자 지정 보고서를 실행[!UICONTROL Reports]할 수도 있습니다.
+  >[!UICONTROL Reports] 보기에서 [언제든지 사용자 지정 보고서를 실행](#report-run-now)할 수도 있습니다.
 
-* *[!UICONTROL On]\&lt;Date\>:* 계정의 시간대에서 09:00까지 완료하도록 지정된 날짜에 보고서를 실행합니다.
+* *[!UICONTROL On]\&lt;날짜\>:* 계정의 시간대에서 09:00까지 완료되도록 지정된 날짜에 보고서를 실행합니다.
 
 * *[!UICONTROL Recurring]:* 지정한 기간 동안 일정에 따라 보고서를 실행합니다.
 
@@ -220,7 +214,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
-* *[!UICONTROL FTP SSL] (현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+* *[!UICONTROL FTP SSL](현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서나 알림을 보낼 전자 메일 주소를 지정합니다.
 
