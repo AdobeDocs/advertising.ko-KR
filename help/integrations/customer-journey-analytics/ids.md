@@ -17,9 +17,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 311530b1a00ee4768f4a31e71093b0ddfe6992fa
+source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
 workflow-type: tm+mt
-source-wordcount: 78
+source-wordcount: 76
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 0%
 *Adobe Advertising-Adobe Customer Journey Analytics 통합만 있는 광고주*
 
 *Advertising DSP 및[!DNL Advertising Search, Social, & Commerce]*&#x200B;에 적용 가능
-
-*Beta 기능*
 
 Adobe Advertising에서는 현장 성능 추적에 *EF ID*&#x200B;와 *AMO ID*, 이렇게 두 개의 ID를 사용합니다.
 

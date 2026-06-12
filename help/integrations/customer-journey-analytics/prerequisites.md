@@ -16,16 +16,14 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
 workflow-type: tm+mt
-source-wordcount: 140
+source-wordcount: 189
 ht-degree: 0%
 
 ---
 
 # Adobe Advertising과 Customer Journey Analytics 통합을 위한 사전 요구 사항
-
-*Beta 기능*
 
 *Advertising DSP 및[!DNL Advertising Search, Social, & Commerce]*&#x200B;을(를) 사용하는 광고주
 
@@ -37,10 +35,12 @@ ht-degree: 0%
 
   이러한 기술을 사용하려면 Experience Platform 사이트 관리자의 지원이 필요합니다.
 
+* ([!DNL Analytics for Advertising]이(가) 없는 광고주) 설정 중에 다양한 작업을 완료할 Adobe 계정 팀이 있는 Collaboration.
+
 >[!MORELIKETHIS]
 >
 >* [개요](overview.md)
->* [에서 사용하는  [!DNL Customer Journey Analytics]](ids.md)Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics][&#128279;](ids.md)에서 사용하는 Adobe Advertising ID
 >* [데이터 수집, 데이터 전송 및 보고 설정](set-up.md)
 >* [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](advertising-data-in-cja.md)
 >* (Adobe Analytics 사용자) [Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집](/help/integrations/analytics/rvars-to-evars.md).
