@@ -4,10 +4,16 @@ description: Adobe CX 엔터프라이즈 솔루션 및 서비스와의 검색, �
 exl-id: 26456f60-937a-4f39-b5cf-a71c1c1b4833
 feature: Search Introduction
 TQID: https://experienceleague.adobe.com/vIjCxWutfGn8H9-TqxLvztNazb9RWq7ECeoOQXLfyEw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: f2860a4b-f905-4545-bead-1bbc92564592
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
 source-wordcount: 619
@@ -47,6 +53,6 @@ Advertising Search, Social 및 Commerce이 다음 [!DNL Adobe] 제품과 통합�
 
 * Adobe Target — Search, Social, &amp; Commerce과 [!DNL Target] 간의 클릭스루 신호 공유를 구현하고, 광고에 대해 [!DNL Target]에서 A/B 테스트 활동을 설정한 다음 [!DNL Analytics] Analysis Workspace을 사용하여 테스트 데이터를 볼 수 있습니다.
 
-* Adobe Campaign — [!DNL Campaign]](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md) 내에서 전자 메일 목록을 사용하여 [고객 일치 대상을 만들고 업데이트할 수 있습니다 [!DNL Google Ads] .
+* Adobe Campaign — [!DNL Campaign][&#128279;](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md) 내에서 전자 메일 목록을 사용하여 고객 일치 대상을 만들고 업데이트할 수 있습니다 [!DNL Google Ads] .
 
 * Adobe CX 엔터프라이즈 알림 — (Adobe CX Enterprise를 통해 로그인한 경우) 각 페이지 상단의 알림 링크([경고 알림](/help/search-social-commerce/assets/notifications-panel.png "경고 알림"))에서 모든 Adobe CX 엔터프라이즈 시스템 업데이트, 게시물, 언급 및 공유된 에셋을 볼 수 있습니다. Adobe CX Enterprise 액세스에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오.
