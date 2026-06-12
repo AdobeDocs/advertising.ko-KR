@@ -4,13 +4,11 @@ description: ' [!DNL Google Ads] 통화 전용 광고에 대한 설정을 참조
 exl-id: 10672771-53fd-4ce9-9d67-6b1f8f5a41b8
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/KtnceFJbgZ-jPcNzl1c6XychNzr4tOIs5B9mMbXegxo
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 351
 ht-degree: 0%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 0%
 
 Search, Social 및 Commerce은 계정 수준 랜딩 페이지 접미사와 추적 템플릿을 사용하여 호출 전용 광고를 추적하지만, 선택적으로 [!DNL Google Ads] Manager 내의 광고 수준에서 계정 수준 추적을 무시할 수 있습니다.
 
-[!DNL Google Ads]계정당 광고 제한[에 대한 &#x200B;](https://support.google.com/google-ads/answer/6372658?hl=en) 도움말을 참조하십시오.
+[계정당 광고 제한](https://support.google.com/google-ads/answer/6372658?hl=en)에 대한 [!DNL Google Ads] 도움말을 참조하십시오.
 
 <!-- ## Call-only Ad -->
 
