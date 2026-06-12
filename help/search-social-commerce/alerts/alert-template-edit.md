@@ -12,7 +12,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 137
+source-wordcount: 136
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 템플릿 이름 옆에 있는 ![편집](/help/search-social-commerce/assets/edit.png "편집")을 클릭합니다.
 
-1. [!UICONTROL Update \[Entity Type\] Alert] 창에서 [, &#x200B;](alert-template-settings.md) 및 **[!UICONTROL Date Range]** 탭의 **[!UICONTROL Filters]**&#x200B;경고 설정&#x200B;**[!UICONTROL Scheduling and Delivery]**&#x200B;을(를) 편집합니다.
+1. [!UICONTROL Update \[Entity Type\] Alert] 창에서 **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** 및 **[!UICONTROL Scheduling and Delivery]** 탭의 [경고 설정](alert-template-settings.md)을(를) 편집합니다.
 
    탭 이름(예: &quot;필터&quot;)을 클릭하거나 오른쪽 하단의 **[!UICONTROL Next]**&#x200B;을 클릭하여 탭 사이를 이동할 수 있습니다.
 
