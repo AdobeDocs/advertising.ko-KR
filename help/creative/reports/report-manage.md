@@ -17,7 +17,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1485
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
 
    * 보고서의 최신 인스턴스를 다운로드하려면 **[!UICONTROL Download]**&#x200B;을(를) 클릭하십시오.
 
-   * (여러 인스턴스가 있는 보고서) ![&#x200B; 옆에 있는 &#x200B;](/help/dsp/assets/chevron-down.png "아래쪽 화살표")아래쪽 화살표[!UICONTROL Download]를 클릭한 다음 다운로드할 보고서의 완료 날짜를 클릭합니다. 다운로드 가능한 보고서 인스턴스는 다운로드 아이콘(![다운로드 아이콘](/help/dsp/assets/indicator-downloadable.png "다운로드 아이콘"))으로 표시됩니다.
+   * (여러 인스턴스가 있는 보고서) [!UICONTROL Download] 옆에 있는 ![아래쪽 화살표](/help/dsp/assets/chevron-down.png "아래쪽 화살표")를 클릭한 다음 다운로드할 보고서의 완료 날짜를 클릭합니다. 다운로드 가능한 보고서 인스턴스는 다운로드 아이콘(![다운로드 아이콘](/help/dsp/assets/indicator-downloadable.png "다운로드 아이콘"))으로 표시됩니다.
 
      사용 가능한 인스턴스가 많으면 필요한 경우 목록 맨 아래의 **[!UICONTROL Load More]**&#x200B;을(를) 클릭합니다.
 
@@ -130,9 +130,9 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >[&#x200B; 보기에서 &#x200B;](#report-run-now)언제든지 사용자 지정 보고서를 실행[!UICONTROL Reports]할 수도 있습니다.
+  >[!UICONTROL Reports] 보기에서 [언제든지 사용자 지정 보고서를 실행](#report-run-now)할 수도 있습니다.
 
-* *[!UICONTROL On]\&lt;Date\>:* 계정의 시간대에서 09:00까지 완료하도록 지정된 날짜에 보고서를 실행합니다.
+* *[!UICONTROL On]\&lt;날짜\>:* 계정의 시간대에서 09:00까지 완료되도록 지정된 날짜에 보고서를 실행합니다.
 
 * *[!UICONTROL Recurring]:* 지정한 기간 동안 일정에 따라 보고서를 실행합니다.
 

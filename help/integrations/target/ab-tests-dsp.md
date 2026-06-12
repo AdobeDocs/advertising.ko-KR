@@ -80,53 +80,53 @@ Adobe 계정 팀에 문의하여 필요한 배치 키를 검색하고 설정을 
 
 광고 태그 및 배치 설정에서 Audience Manager 노출 이벤트 픽셀을 추가하여 추가 뷰스루 테스트 기회를 위한 테스트 세그먼트를 만들 수 있습니다.
 
-1. Implement an Audience Manager impression event pixel in your ad tags and DSP placement settings.
+1. 광고 태그 및 DSP 배치 설정에서 Audience Manager 노출 이벤트 픽셀을 구현합니다.
 
-   For instructions, see &quot;[Collect media exposure data from Advertising DSP campaigns](/help/integrations/audience-manager/media-data-integration/collect.md).&quot;
+   지침은 &quot;[Advertising DSP 캠페인에서 미디어 노출 데이터 수집](/help/integrations/audience-manager/media-data-integration/collect.md)&quot;을 참조하십시오.
 
-   Make sure you add [DSP macros](/help/dsp/campaign-management/macros.md) to capture all data you want the impression event pixel to pass back, including `${TM_PLACEMENT_ID_NUM}` for the numeric placement ID.
+   숫자 배치 ID에 대한 `${TM_PLACEMENT_ID_NUM}`을(를) 포함하여 노출 이벤트 픽셀에서 다시 전달할 모든 데이터를 캡처하려면 [DSP 매크로](/help/dsp/campaign-management/macros.md)를 추가해야 합니다.
 
    >[!NOTE]
    >
-   >Click-tracking URLs include the `${TM_PLACEMENT_ID}` macro for the alphanumeric placement key, instead of `${TM_PLACEMENT_ID_NUM}` for the numeric placement ID.
+   >클릭 추적 URL에는 숫자 배치 ID의 `${TM_PLACEMENT_ID_NUM}` 대신 영숫자 배치 키의 `${TM_PLACEMENT_ID}` 매크로가 포함됩니다.
 
-1. Configure an Audience Manager segment from the DSP impression data:
+1. DSP 노출 데이터에서 Audience Manager 세그먼트를 구성합니다.
 
-   1. Verify that segment data is available:
+   1. 세그먼트 데이터를 사용할 수 있는지 확인합니다.
 
-      1. [Search for the signal](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=ko) for the [key-value pair](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=ko) that determines at what level the segment users are grouped.
+      1. 세그먼트 사용자를 그룹화할 수준을 결정하는 [키-값 쌍](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=ko)에 대한 신호를 [검색](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=ko)합니다.
 
-         Use a [supported key](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=ko) with a value that corresponds to a macro that you added to the Audience Manager impression event pixel.
+         Audience Manager 노출 이벤트 픽셀에 추가한 매크로에 해당하는 값으로 [지원되는 키](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=ko)을(를) 사용합니다.
 
-         For example, to group users for a particular placement, use the `d_placement` key. For the value, use an actual numeric placement ID (such as 2501853) that&#39;s captured by the DSP macro `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
+         예를 들어 특정 배치에 대해 사용자를 그룹화하려면 `d_placement` 키를 사용하십시오. 값에 대해 DSP 매크로 `${TM_PLACEMENT_ID_NUM}`에서 캡처한 실제 숫자 배치 ID(예: 2501853)를 사용합니다. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
-         If the search results show user counts for the key-value pair, which indicates that the pixel was placed correctly and data is flowing, then continue to the next step.
+         검색 결과에 픽셀이 올바르게 배치되었고 데이터가 흐르고 있음을 나타내는 키-값 쌍에 대한 사용자 수가 표시되면 다음 단계를 계속 진행합니다.
 
-   1. [Create a rule-based trait](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ko) for segment creation in Audience Manager.
+   1. Audience Manager에서 세그먼트를 만들 [규칙 기반 특성을 만듭니다](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=ko).
 
-      * Name the trait so that it’s easily identifiable within test activities. Store the trait in whichever folder you prefer.
+      * 테스트 활동 내에서 쉽게 식별할 수 있도록 트레이트 이름을 지정합니다. 원하는 폴더에 트레이트를 저장합니다.
 
-      * Select `Ad Cloud` as the **[!UICONTROL Data Source]**.
+      * `Ad Cloud`을(를) **[!UICONTROL Data Source]**(으)로 선택합니다.
 
-      * For the trait expression, use `d_event` as the **[!UICONTROL Key]** and `imp` as the **[!UICONTROL Value]**.
+      * 트레이트 식의 경우 `d_event`을(를) **[!UICONTROL Key]**(으)로 사용하고 `imp`을(를) **[!UICONTROL Value]**(으)로 사용합니다.
 
-   1. [Set up a test segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=ko) for the new trait in Audience Manager, selecting `Ad Cloud` as the **[!UICONTROL Data Source]**.
+   1. [Audience Manager에서 새 트레이트에 대한 테스트 세그먼트를 설정](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=ko)하고 `Ad Cloud`을(를) **[!UICONTROL Data Source]**(으)로 선택합니다.
 
-      Audience Manager automatically splits the segment into a control group that receives the standard landing page experience and a test group that received a personalized onsite experience.
+      Audience Manager은 세그먼트를 표준 랜딩 페이지 경험을 받는 컨트롤 그룹과 개인화된 온사이트 경험을 받는 테스트 그룹으로 자동으로 분할합니다.
 
-## Step 3: Set up an A/B test activity in [!DNL Target] for DSP
+## 3단계: DSP용 [!DNL Target]에서 A/B 테스트 활동 설정
 
-The following instructions highlight information pertaining to the DSP use case.
+다음 지침은 DSP 사용 사례와 관련된 정보를 강조 표시합니다.
 
-1. [Sign in to Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=ko).
+1. [Adobe Target 로그인](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=ko).
 
-1. [Create an A/B test](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ko):
+1. [A/B 테스트 만들기](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=ko):
 
-   1. In the **[!UICONTROL Enter Activity URL]** field, enter the landing page URL for the test.
+   1. **[!UICONTROL Enter Activity URL]** 필드에 테스트용 랜딩 페이지 URL을 입력합니다.
 
       >[!NOTE]
       >
-      >You can use multiple URLs to test view-through site entry. For more information, see &quot;[Multipage Activity](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html?lang=ko).&quot; Analytics에서 [사이트 시작 보고서](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports)를 만들어 페이지 URL별로 상위 항목을 쉽게 식별할 수 있습니다.
+      >여러 URL을 사용하여 뷰스루 사이트 항목을 테스트할 수 있습니다. 자세한 내용은 &quot;[다중 페이지 활동](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html?lang=ko)&quot;을 참조하세요. Analytics에서 [사이트 시작 보고서](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports)를 만들어 페이지 URL별로 상위 항목을 쉽게 식별할 수 있습니다.
 
    1. **[!UICONTROL Goal]** 필드에 테스트에 대한 성공 지표를 입력합니다.
 
