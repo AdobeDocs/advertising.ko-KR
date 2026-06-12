@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
+source-git-commit: 5a926d18f634eb08b6fd329d6b6ba90a8f91d991
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 191
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
   데이터 세트에 대한 연결을 설정하고 보고를 구성하려면 내부 웹 분석가의 지원이 필요합니다.
 
-* Adobe Experience Platform 데이터 모델링 및 관리 기술([스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 및 [데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview) 포함)과 [데이터 수집 기술](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/home)&#x200B;([데이터 스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview) 및 [태그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home) 포함)
+* ([!DNL Analytics for Advertising]이(가) 없는 광고주) Adobe Experience Platform 데이터 모델링 및 관리 기술([스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 및 [데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview) 포함) 및 [데이터 수집 기술](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/home)&#x200B;([데이터 스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview) 및 [태그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home) 포함)
 
   이러한 기술을 사용하려면 Experience Platform 사이트 관리자의 지원이 필요합니다.
 

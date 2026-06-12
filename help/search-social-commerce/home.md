@@ -18,9 +18,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+source-git-commit: f5aece05b41143c241ae0899f9d3ed3a0bed4c54
 workflow-type: tm+mt
-source-wordcount: 4687
+source-wordcount: 4731
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026년 6월 9일 | Adobe Customer Journey Analytics과 통합 | [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주는 기본적으로 Adobe Experience Platform [!DNL Web SDK]을(를) 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 데이터를 교환할 수 있습니다. | &quot;[Adobe Advertising과 Customer Journey Analytics 간의 통합 개요](/help/integrations/customer-journey-analytics/overview.md)&quot;를 참조하십시오. |
 | 2026년 5월 28일 | 새 UI | 이제 예약된 보고서 및 스프레드시트 피드, Bulksheets, 광고 네트워크 관리자 계정 및 [!DNL Spend Planner]&#x200B;(이전의 &quot;[!DNL Spend Recommendations]&quot;)을(를) 포함하여 대부분의 기능을 새 UI에서 사용할 수 있습니다. | &quot;[사용자 인터페이스를 구성하는 방법](/help/search-social-commerce/getting-started/user-interface.md)&quot; 및 &quot;새 UI&quot; 장을 참조하십시오. |
 | 2026년 2월 25일 | [!UICONTROL Reports] | [!UICONTROL Google AI Max Search Term Combination Report]은(는) [!DNL Google Ads AI Max]이(가) 검색 네트워크 내의 검색을 기반으로 사용하는 특정 광고 조합 및 랜딩 페이지의 성능을 보여 줍니다. | &quot;[[!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/reports/management/specialty/google-ai-max-search-term-combination-report.md)&quot;을(를) 참조하십시오. |
 | | 새 UI > [!UICONTROL Portfolio] 설정 | [!UICONTROL Manage Constraints] 탭에서 설정 &quot;[!UICONTROL Reserve a percentage of the spend target for each campaign]&quot;의 이름이 &quot;[!UICONTROL Set Campaign Spend Allocation Limits]&quot;로 변경되었으며, 이제 모든 지출 전략이 있는 포트폴리오에 사용할 수 있습니다. 기존에는 일일지출 전략이 있는 포트폴리오에만 사용할 수 있었다.<br><br>설정을 통해 캠페인 지출 비율을 지정할 수 있습니다. 예를 들어 포트폴리오 예산의 25% - 40%를 캠페인 A에, 최소 10%를 캠페인 B에, 최대 50%를 캠페인 C에 할당할 수 있습니다. 합계는 100%를 초과할 수 없습니다. | 포트폴리오 설정에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 [!DNL Optimization Guide]을(를) 참조하십시오. |

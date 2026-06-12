@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c62a18194544bcbe98117b86eccb1b5e2740999c
+source-git-commit: e208432cf19b2661fbce58a898a123bb1224c32b
 workflow-type: tm+mt
-source-wordcount: 1804
+source-wordcount: 1789
 ht-degree: 0%
 
 ---
@@ -31,17 +31,15 @@ ht-degree: 0%
 
 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)을(를) 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 기본적으로 데이터를 교환하려면 다음 작업이 필요합니다. 데이터 전송 및 속성은 론치 후에 시작되며 내역 데이터는 포함되지 않습니다.
 
-1. (조직의 웹 분석가, 선택 사항) [AMO ID 및 EF ID에 대한 내역 데이터를 수집합니다](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}.
+[!DNL Analytics for Advertising]을(를) 사용하는 광고주에게는 이러한 작업이 필요하지 않습니다.
 
-   이 단계는 [!DNL Analytics for Advertising]을(를) 사용하는 광고주에만 적용됩니다.
+1. (조직의 Adobe Experience Platform 사이트 관리자) [Experience Platform에서 데이터 수집을 설정하고 전환 추적 태그를 구현합니다](#data-collection).
 
-2. (조직의 Adobe Experience Platform 사이트 관리자) [Experience Platform에서 데이터 수집을 설정하고 전환 추적 태그를 구현합니다](#data-collection).
+1. (조직의 Customer Journey Analytics 사이트 관리자) [Customer Journey Analytics에서 Experience Platform 데이터 세트에 대한 연결을 만듭니다](#dataset-connection).
 
-3. (조직의 Customer Journey Analytics 사이트 관리자) [Customer Journey Analytics에서 Experience Platform 데이터 세트에 대한 연결을 만듭니다](#dataset-connection).
+1. (조직의 웹 분석가) [Customer Journey Analytics에서 데이터 보기 설정](#cja-data-views).
 
-4. (조직의 웹 분석가) [Customer Journey Analytics에서 데이터 보기 설정](#cja-data-views).
-
-5. (조직의 웹 분석가) [Customer Journey Analytics Workspace에서 보고서 및 시각화를 설정](#cja-reports)합니다.
+1. (조직의 웹 분석가) [Customer Journey Analytics Workspace에서 보고서 및 시각화를 설정](#cja-reports)합니다.
 
 다음 섹션에는 통합에 필요한 작업 및 설정을 포함하지만 워크플로우에서 사용할 수 있는 모든 기능을 설명하지는 않는 세부 절차가 포함되어 있습니다. 자세한 내용은 연결된 리소스를 참조하십시오.
 

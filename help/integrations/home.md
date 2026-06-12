@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+source-git-commit: f5aece05b41143c241ae0899f9d3ed3a0bed4c54
 workflow-type: tm+mt
-source-wordcount: 962
+source-wordcount: 1006
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026년 6월 9일 | Adobe Customer Journey Analytics과 통합 | [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주는 기본적으로 Adobe Experience Platform [!DNL Web SDK]을(를) 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 데이터를 교환할 수 있습니다. | &quot;[Adobe Advertising과 Customer Journey Analytics 간의 통합 개요](/help/integrations/customer-journey-analytics/overview.md)&quot;를 참조하십시오. |
 | 2026년 6월 3일 | [!DNL Adobe Analytics for Advertising] | 이제 Advertising Creative 및 [!DNL Adobe Analytics for Advertising]을(를) 사용하는 광고주는 Adobe Analytics에서 변형 및 분기 수준 데이터를 볼 수 있습니다. [!DNL Creative] 경험에서 광고를 실행하는 데 사용되는 DSP에 관계없이 데이터가 표시됩니다. Advertising DSP 배치에서 광고를 실행하는 경우 캠페인 및 배치 수준 데이터뿐만 아니라 비용 관련 지표도 표시됩니다.<br><br>추가 설정이 필요하지 않습니다. | [!DNL Analytics]에 표시되는 Advertising Creative [트래픽 지표](https://experienceleague.adobe.com/ko/docs/analytics/components/metrics/amo-metrics) 및 [분류](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#classifications)을(를) 참조하십시오. |
 | 2025년 9월 8일 | Customer Journey Analytics과 통합 | (Beta 기능) [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주는 이제 [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)을(를) 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 기본적으로 데이터를 교환할 수 있습니다. | &quot;[Adobe Advertising과 Customer Journey Analytics 간의 통합 개요](/help/integrations/customer-journey-analytics/overview.md)&quot;를 참조하십시오. |
 | 2025년 3월 26일 | [!DNL Adobe Analytics for Advertising] | (Search, Social 및 Commerce이 있는 광고주; [!DNL Microsoft Advertising] 계정; [!DNL Adobe Analytics for Advertising]) 추적 옵션이 [!UICONTROL Auto Upload]인 계정의 경우, 모든 캠페인 유형에 대한 랜딩 페이지 접미사에 있는 AMO ID 매개 변수의 형식이 최신 형식으로 업데이트되었습니다. 이전에는 대부분의 계정에 대한 성과 최대 캠페인이 새 형식으로 마이그레이션되었습니다.<br><br>아직 새 형식으로 마이그레이션되지 않은 [!UICONTROL Auto Upload] 추적 옵션이 없는 계정의 경우 새 AMO ID 형식을 포함하도록 각 랜딩 페이지 접미사를 수동으로 업데이트해야 합니다.<br><br>현재 형식: `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | &quot;[개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)&quot; 및 [AMO ID 형식](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items)을(를) 참조하십시오.&quot; |
