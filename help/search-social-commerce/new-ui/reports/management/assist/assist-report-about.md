@@ -2,7 +2,7 @@
 title: 지원 보고서 정보
 description: 전환 경로에 대한 통찰력을 제공하는 보고서에 대해 알아봅니다.
 feature: Search Reports, Search Assist Reports
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -35,3 +35,4 @@ ht-degree: 0%
 >* [[!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [보고서 설정 지원](assist-report-settings.md)
 >* [예약된 보고서 관리](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
+
