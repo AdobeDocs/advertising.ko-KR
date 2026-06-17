@@ -10,20 +10,14 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
+source-git-commit: 9f028c5710eb34f4e7f8a3c50b46dd4406048c57
 workflow-type: tm+mt
-source-wordcount: 2412
+source-wordcount: 2401
 ht-degree: 2%
 
 ---
 
 # Advertising Search, Social 및 Commerce 안내서 {#search-social-commerce}
-
-<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
-
-<!--
-    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
--->
 
 + [새로운 기능](home.md)
 + [이 안내서 정보](help-about.md)
@@ -35,7 +29,7 @@ ht-degree: 2%
       + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko){target="_blank"}
       + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ko){target="_blank"}
    + [고객 개인정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
-   + [정책 및 지침(링크)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=ko){target="_blank"}
+   + [정책 및 지침(링크)](https://experienceleague.adobe.com/ko/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + 시작 {#getting-started}
    + [구현 개요](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [시스템 요구 사항](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -171,10 +165,10 @@ ht-degree: 2%
                + [기본 및 고급 보고서용 보고서 열](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-columns.md)
             + 지원 보고서 {#assist-reports}
                + [지원 보고서 정보](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-about.md)
-보고서 형식 지원 {#assist-report-formats}
-                  + [[!UICONTROL Channel Assist Report]]/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)
-                  + [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
-                  + [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
+                  + 보고서 형식 지원 {#assist-report-formats}
+                     + [[!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)
+                     + [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/campaign-assist-report.md)
+                     + [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/keyword-assist-report.md)
                + [보고서 설정 지원](/help/search-social-commerce/new-ui/reports/management/assist/assist-report-settings.md)
             + 전문 보고서 {#specialty-reports}
                + [전문 보고서 정보](/help/search-social-commerce/new-ui/reports/management/specialty/specialty-report-about.md)
@@ -602,3 +596,9 @@ ht-degree: 2%
 + [도움말 보기](get-help.md)
 + [용어집](glossary.md)
 
+
+<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link doesn't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md) -->
+
+<!--
+    + [Publisher recommendations and insights support](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
+-->
