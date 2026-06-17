@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 66601570e815870c96b93e3a224bd61e8852d680
+source-git-commit: d16baa5b31ebb6d6a45feab3d90110fcde25e31f
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: 619
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ ht-degree: 0%
 * Customer Journey Analytics Workspace이 올바른 데이터 보기를 참조하고 있습니다.
 
 위의 모든 설정을 확인했지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오.
-.
 
 +++
 
@@ -94,7 +93,6 @@ Adobe Advertising에서 Customer Journey Analytics으로의 피드가 특정 광
 * Adobe Advertising 설정이 WebSDK Extension에 올바르게 구성되고 게시되었습니다.
 
 위의 모든 설정을 확인했지만 전환 데이터가 여전히 표시되지 않는 경우 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다.
-.
 
 +++
 
