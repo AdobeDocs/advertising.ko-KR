@@ -1,18 +1,18 @@
 ---
-user-guide-title: Adobe CX Enterprise과 통합
-user-guide-description: Advertising DSP 및 Advertising Search와 다른 Adobe CX Enterprise(이전의 Adobe Experience Cloud) 제품 및 서비스와의 통합에 대해 알아봅니다.
-breadcrumb-title: CX Enterprise과 통합
+user-guide-title: Adobe CX Enterprise와의 통합
+user-guide-description: 다른 Adobe CX Enterprise(이전 Adobe Experience Cloud) 제품 및 서비스와의 Advertising DSP 및 Advertising Search 통합에 대해 알아봅니다.
+breadcrumb-title: CX Enterprise 와 통합
 role: User, Developer
 index: true
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
 
 
-# Adobe CX Enterprise과 Adobe Advertising 통합 {#integrations}
+# Adobe CX Enterprise와 Adobe Advertising 통합 {#integrations}
 
 + [새로운 기능](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
@@ -53,4 +53,5 @@ ht-degree: 1%
    + [Customer Journey Analytics에서 사용하는 Adobe Advertising ID](/help/integrations/customer-journey-analytics/ids.md)
    + [데이터 수집, 데이터 전송 및 보고 설정](/help/integrations/customer-journey-analytics/set-up.md)
    + [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
+   + [문제 해결](/help/integrations/customer-journey-analytics/troubleshooting.md)
 + [Adobe Advertising 통합에 대한 비디오 튜토리얼](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ko)

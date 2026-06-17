@@ -15,9 +15,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: 456
 ht-degree: 0%
 
 ---
@@ -110,3 +110,4 @@ Adobe Advertising은 트래픽 지표 및 차원을 매일 [!DNL Customer Journe
 >* [필수 구성 요소](prerequisites.md)
 >*  [!DNL Customer Journey Analytics][&#128279;](ids.md)에서 사용하는 Adobe Advertising ID
 >* [데이터 수집, 데이터 전송 및 보고 설정](set-up.md)
+>* [문제 해결](troubleshooting.md)

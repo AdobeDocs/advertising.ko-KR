@@ -16,9 +16,9 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5a926d18f634eb08b6fd329d6b6ba90a8f91d991
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: 262
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ ht-degree: 0%
 
 * ([!DNL Analytics for Advertising]이(가) 없는 광고주) 설정 중에 다양한 작업을 완료할 Adobe 계정 팀이 있는 Collaboration.
 
+  Adobe 계정 팀에 Adobe Experience Platform 및 Adobe Customer Journey Analytics 계정에 대한 관리자 수준의 액세스 권한을 부여하려는 경우 팀과 논의할 수 있습니다. 액세스를 통해 통합을 완료하는 데 필요한 것은 아니지만, 액세스를 통해 Adobe 계정 팀은 통합 온보딩, 설정 및 데이터 유효성 검사 완료, Adobe Advertising 보고 차원 및 지표 사용 방법 교육을 위한 최대 지원을 제공할 수 있습니다.
+
 >[!MORELIKETHIS]
 >
 >* [개요](overview.md)
@@ -44,3 +46,4 @@ ht-degree: 0%
 >* [데이터 수집, 데이터 전송 및 보고 설정](set-up.md)
 >* [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](advertising-data-in-cja.md)
 >* (Adobe Analytics 사용자) [Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집](/help/integrations/analytics/rvars-to-evars.md).
+>* [문제 해결](troubleshooting.md)

@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9ac8d984e0d48eab6b2da695c48702dacd41bb33
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: 499
 ht-degree: 0%
 
 ---
@@ -59,6 +59,14 @@ Adobe Advertising은 양방향 데이터 공유 및 보고를 위해 Adobe Custo
 
   이 사용 사례에서는 웹 SDK을 사용하여 사이트 이벤트(쿠키, 해시된 IP 주소 또는 범용 ID 사용)를 추적하고 사이트 이벤트를 [!DNL Google Ads], [!DNL Microsoft Advertising] 및 [!DNL Meta]의 유료 미디어 활동과 Adobe DSP에 연결합니다. 데이터 수집에도 Adobe Experience Platform을 사용합니다.
 
+## 보고서 데이터 유형 정의
+
+* **이벤트 수준 데이터:** 세션, 페이지 보기, 리드 양식 제출 및 응용 프로그램 제출과 같은 타임스탬프가 지정된 이벤트.
+
+* **요약 데이터:** 광고 플랫폼, 캠페인, 배치, 노출, 클릭 및 비용과 같은 집계된 보고 데이터입니다.
+
+* **분류/차원 데이터:** Adobe Advertising 캠페인 이름, 포트폴리오 이름 또는 배치 ID와 같은 보고 차원. 분류/차원별로 이벤트 수준 데이터 및 요약 데이터를 조회 (필터링)할 수 있습니다.
+
 ## Adobe Advertising과 Customer Journey Analytics 간의 기본 통합을 시작하는 방법 {#integration-cja-initiate}
 
 시작하는 데 필요한 초기 구성을 완료하고 조직의 요구 사항에 따라 구현 및 데이터 사용을 계획하는 데 도움이 되는 Adobe 계정 팀에 문의하십시오.
@@ -70,3 +78,4 @@ Adobe Advertising은 양방향 데이터 공유 및 보고를 위해 Adobe Custo
 >* [데이터 수집, 데이터 전송 및 보고 설정](set-up.md)
 >* [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](advertising-data-in-cja.md)
 >* (Adobe Analytics 사용자) [Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집](/help/integrations/analytics/rvars-to-evars.md).
+>* [문제 해결](troubleshooting.md)
