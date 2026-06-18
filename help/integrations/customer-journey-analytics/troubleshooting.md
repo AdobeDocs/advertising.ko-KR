@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d16baa5b31ebb6d6a45feab3d90110fcde25e31f
+source-git-commit: 33382b092be521df814a81aad3c7ae661d853174
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: 620
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 0%
 Adobe Advertising에서 Customer Journey Analytics으로의 피드가 광고주 2에 대해 활성화되어 있는지 확인합니다. Adobe 계정 팀에 문의하십시오.
 
 피드가 광고주에 대해 활성화되어 있지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오.
-.
 
 +++
 
@@ -76,9 +75,9 @@ Adobe Advertising에서 Customer Journey Analytics으로의 피드가 특정 광
 
 ## 이벤트 수준 보고
 
-+++ 시나리오: CJA Customer Journey Analytics Workspace의 보고 차원(예: `Campaign`)에 전환 데이터(예: `Page Views`)를 사용할 수 없습니다.
++++ CJA Customer Journey Analytics Workspace의 보고 차원(예: `Campaign`)에 전환 데이터(예: `Page Views`)를 사용할 수 없습니다.
 
-장벽이 가장 적은 항목부터 시작하여 다음 사항을 확인하십시오.
+확인 장벽이 가장 낮은 항목부터 시작하여 다음을 확인하십시오.
 
 * 적용 가능한 전환 지표는 Adobe Advertising에서 차원에 할당할 수 있는 웹/온라인 이벤트입니다.
 
