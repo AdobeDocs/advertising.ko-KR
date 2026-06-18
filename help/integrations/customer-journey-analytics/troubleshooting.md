@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 33382b092be521df814a81aad3c7ae661d853174
+source-git-commit: 3ca788a8a15277a105c065087ad9a5fbc9108311
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 627
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ Adobe Advertising에서 Customer Journey Analytics으로의 피드가 광고주 
 Adobe Advertising에서 Customer Journey Analytics으로의 피드가 특정 광고 네트워크 계정에 대해 활성화되어 있는지 확인합니다. Adobe 계정 팀에 문의하십시오.
 
 계정에 대해 피드가 사용하도록 설정되어 있지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다.
-.
 
 +++
 
