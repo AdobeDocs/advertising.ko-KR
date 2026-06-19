@@ -1,5 +1,5 @@
 ---
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -11,15 +11,15 @@ ht-degree: 0%
 
 AMO ID는 보다 세분화된 수준에서 각각의 고유한 광고 조합을 추적하며, [!DNL Analytics] 및 Customer Journey Analytics 데이터 분류와 Adobe Advertising에서 광고 지표(예: 노출 횟수, 클릭 수 및 비용)의 수집에 사용됩니다.
 
-[!DNL Analytics]의 경우 AMO ID는 [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ko) 또는 rVar 차원(AMO ID)에 저장됩니다.
+[!DNL Analytics]의 경우 AMO ID는 [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 rVar 차원(AMO ID)에 저장됩니다.
 
-Customer Journey Analytics의 경우 AMO ID가 [[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)의 일부인 `conversionDetails` 개체의 `trackingCode` 속성에 저장됩니다.
+Customer Journey Analytics의 경우 AMO ID가 [[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)의 일부인 `conversionDetails` 개체의 `trackingCode` 속성에 저장됩니다.
 
 AMO ID를 `s_kwcid`이라고도 하며, &quot;[!DNL squid]&quot;(으)로 발음되기도 합니다.
 
 ### AMO ID 형식 {#amo-id-formats}
 
-&quot;Adobe Analytics 구성 요소 안내서&quot;에서 [AMO ID 차원 항목에 대한 형식](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items)을 참조하십시오.
+&quot;Adobe Analytics 구성 요소 안내서&quot;에서 [AMO ID 차원 항목에 대한 형식](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)을 참조하십시오.
 
 <!--
 Legacy content:
@@ -64,7 +64,7 @@ The parameters vary by ad network, but the following parameters are common to al
 
 * `{userid}` is a unique user ID assigned to the advertiser.
 
-* `{sid}` is replaced by the numeric ID for the advertiser's ad network account: *3* for [!DNL Google Ads], *10* for [!DNL Microsoft Advertising], *45* for [!DNL Meta], *86* for [!DNL Yahoo! Display Network], *87* for [!DNL Naver], *88* for [!DNL Baidu], *90* for [!DNL Yandex], *94* for [!DNL LY Ads (formerly Yahoo! Japan) Ads], *105* for [!DNL Yahoo Native] (deprecated), or *106* for [!DNL Pinterest] (deprecated).
+* `{sid}` is replaced by the numeric ID for the advertiser's ad network account: *3* for [!DNL Google Ads], *10* for [!DNL Microsoft Advertising], *45* for [!DNL Meta], *86* for [!DNL Yahoo DSP] (formerly [!DNL Yahoo! Display Network)], *87* for [!DNL Naver], *88* for [!DNL Baidu], *90* for [!DNL Yandex], *94* for [!DNL LY Ads (formerly Yahoo! Japan) Ads], *105* for [!DNL Yahoo Native] (deprecated), or *106* for [!DNL Pinterest] (deprecated).
 
 ##### [!DNL Baidu]
 

@@ -4,16 +4,12 @@ description: 주요 용어의 정의를 참조하십시오.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
 TQID: https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 2342
+source-wordcount: 2377
 ht-degree: 0%
 
 ---
@@ -26,7 +22,7 @@ ht-degree: 0%
 
 **광고 변형:** 광고 그룹 또는 광고 전략 내의 모든 광고.
 
-**[AMO ID](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id):** Adobe Advertising에서 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다. `s_kwcid=`(으)로 시작합니다.
+**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Adobe Advertising에서 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다. `s_kwcid=`(으)로 시작합니다.
 
 **입찰 단위:** 입찰이 있는 단위에 대한 검색, 소셜 및 Commerce 용어입니다.
 
@@ -34,7 +30,7 @@ ht-degree: 0%
 
 * [!DNL Maximize Clicks], [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition] 또는 [!DNL Target Return on Ad Spend] 지출 전략이 있는 캠페인의 경우 각 캠페인은 입찰 단위입니다.
 
-* 키워드를 사용하지 않는 [!DNL Yahoo! Display Network]의 캠페인의 경우 광고 그룹 내의 모든 광고에 동일한 입찰이 있으며 동일한 입찰 단위로 간주됩니다.
+* 키워드를 사용하지 않는 [!DNL Yahoo DSP]의 캠페인의 경우 광고 그룹 내의 모든 광고에 동일한 입찰이 있으며 동일한 입찰 단위로 간주됩니다.
 
 **입찰 단위 제한:** &quot;제한&quot;을 참조하십시오.
 
@@ -96,7 +92,7 @@ ht-degree: 0%
 
 **eCPM:** 유효 CPM 또는 지정된 날짜 범위 동안 1000회 노출당 지불된 평균 비용입니다. eCPM 값은 CPM 또는 CPC 캠페인에 대해 계산할 수 있습니다.
 
-**[EF ID](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-ef-id):** Adobe Advertising에서 온라인 클릭 또는 광고 노출과 활동을 연결하고 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다.
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** Adobe Advertising에서 온라인 클릭 또는 광고 노출과 활동을 연결하고 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다.
 
 ## G-H {#g-h}
 

@@ -2,18 +2,13 @@
 title: (새 UI) 일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보
 description: 새 검색, 소셜 및 Commerce UI에서 광고 네트워크에서 사용할 수 있는 일괄 시트 기능, 일괄 시트 워크플로우 및 오류 처리에 대해 알아봅니다.
 feature: Search Bulksheets
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: e58024d1-d6da-420c-80af-6be211808316
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 772
 ht-degree: 0%
 
 ---
@@ -36,7 +31,7 @@ ht-degree: 0%
 
   [!DNL Naver] 데이터를 Search, Social 및 Commerce 내에서 사용할 수 있도록 업로드할 수 있지만 광고 네트워크에 게시할 수 없습니다. 기존(동기화되지 않은) 데이터를 다운로드할 수도 있습니다.
 
-* **데이터만 다운로드:** [!DNL Pinterest], [!DNL Yahoo Native] 및 [!DNL Yahoo! Display Network] 계정
+* **데이터만 다운로드:** [!DNL Pinterest], [!DNL Yahoo DSP], [!DNL Yahoo Native] 계정
 
   기존(동기화되지 않은) 데이터를 다운로드할 수 있습니다.
 
