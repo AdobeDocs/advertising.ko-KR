@@ -2,10 +2,15 @@
 title: (새 UI) 일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보
 description: 새 검색, 소셜 및 Commerce UI에서 광고 네트워크에서 사용할 수 있는 일괄 시트 기능, 일괄 시트 워크플로우 및 오류 처리에 대해 알아봅니다.
 feature: Search Bulksheets
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e58024d1-d6da-420c-80af-6be211808316
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 772
