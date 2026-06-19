@@ -13,7 +13,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 3846
 ht-degree: 0%
@@ -101,7 +101,7 @@ ht-degree: 0%
 | [!UICONTROL Custom Bid Level] | (디스플레이 네트워크만 대상으로 하는 Google 캠페인) <i>[!UICONTROL Ad Group]</i>, <i>[!UICONTROL Age]</i>, <i>[!UICONTROL Gender]</i>, <i>[!UICONTROL Interest and List]</i>, <i>[!UICONTROL Keyword]</i>, <i>[!UICONTROL Placement]</i>, <i>[!UICONTROL Vertical]</i>, <i>[!UICONTROL None]</i> 또는 <i>[!UICONTROL Unknown]</i>까지 입찰이 이루어지는 수준입니다. |
 | [!UICONTROL Description1] - [!UICONTROL Description4] | 광고 본문. 크리에이티브 유형마다 필수 및 선택적 설명 라인의 숫자가 다릅니다. [!DNL Microsoft Advertising]개의 반응형 광고 또는 멀티미디어 광고에서 [!UICONTROL Description3] 및 [!UICONTROL Description4] 열을 보려면 보고서 설정에 &quot;[!UICONTROL Descriptions]&quot; 열을 포함하십시오. |
 | [!UICONTROL Descriptions] | ([!DNL Microsoft Advertising] 반응형 및 멀티미디어 광고) 각 광고의 설명 행(&quot;[!UICONTROL Description1]&quot; ~ &quot;[!UICONTROL Description4]&quot;)에 대해 열을 추가합니다. 이 열을 포함할 때 다른 [!UICONTROL Description]개의 열은 포함할 필요가 없습니다. |
-| [!UICONTROL Device] | ([!DNL Google Ads], [!DNL LY Ads] 및 [!DNL Microsoft Advertising], [!DNL Yahoo! Display Network] 및 [!DNL Yahoo Native] 캠페인) 광고가 표시된 장치 유형: <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Mobile]</i>, <i>[!UICONTROL Tablets]</i>, <i>[!UICONTROL Other]</i> 또는 <i>[!UICONTROL N/A]</i>(값 없음). 다른 광고 네트워크의 행에는 N/A 값이 있습니다.<br><br>검색 캠페인에서 키워드, 광고 및/또는 광고 확장에 대한 추적 템플릿 또는 대상 URL에 광고를 클릭할 때 장치(`&ev_dvc={device}&ev_dvm={devicemodel}`)별로 데이터를 추적하기 위한 매개 변수가 포함된 경우 각 장치 유형의 행에도 전환 데이터가 포함됩니다. 그렇지 않으면 전환 데이터가 장치 유형에 귀속될 수 없는 경우 &quot;[!UICONTROL Device]&quot; 값이 [!UICONTROL N/A]인 별도의 행에서 집계됩니다. |
+| [!UICONTROL Device] | ([!DNL Google Ads], [!DNL LY Ads] 및 [!DNL Microsoft Advertising], [!DNL Yahoo DSP] 및 [!DNL Yahoo Native] 캠페인) 광고가 표시된 장치 유형: <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Mobile]</i>, <i>[!UICONTROL Tablets]</i>, <i>[!UICONTROL Other]</i> 또는 <i>[!UICONTROL N/A]</i>(값 없음). 다른 광고 네트워크의 행에는 N/A 값이 있습니다.<br><br>검색 캠페인에서 키워드, 광고 및/또는 광고 확장에 대한 추적 템플릿 또는 대상 URL에 광고를 클릭할 때 장치(`&ev_dvc={device}&ev_dvm={devicemodel}`)별로 데이터를 추적하기 위한 매개 변수가 포함된 경우 각 장치 유형의 행에도 전환 데이터가 포함됩니다. 그렇지 않으면 전환 데이터가 장치 유형에 귀속될 수 없는 경우 &quot;[!UICONTROL Device]&quot; 값이 [!UICONTROL N/A]인 별도의 행에서 집계됩니다. |
 | [!UICONTROL Display Path 1] | ([!DNL Google Ads] 확장 텍스트 광고만 해당) 광고의 기본 URL 뒤에 있는 첫 번째 표시 경로입니다. |
 | [!UICONTROL Display Path 2] | ([!DNL Google Ads] 확장 텍스트 광고만 해당) 광고의 기본 URL 뒤에 있는 두 번째 표시 경로입니다. |
 | [!UICONTROL Display Type] | 사용되지 않음 |
@@ -113,7 +113,7 @@ ht-degree: 0%
 | [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Adobe Advertising 전환 추적 서비스 및 토큰이 있는 &quot;[!UICONTROL EF Redirect]&quot; 추적 메서드를 사용하는 광고주) 클릭 또는 전환에 대한 토큰입니다.<ul><li>[!DNL Google Ads] 검색 광고의 경우 EF ID는 `{gclid}:G:s`이며, 여기에는 Google 클릭 ID(GCLID)와 네트워크 유형(검색의 경우 &quot;s&quot;)이 포함됩니다.</li><li> [!DNL Microsoft Advertising] 검색 광고의 경우 EF ID는 `{msclkid}:G:s`이며, 여기에는 Microsoft 클릭 ID(MSCLKID)와 네트워크 유형(&quot;s&quot; for search)이 포함됩니다.</li><li>다른 광고 네트워크의 검색 광고의 경우 EF ID에는 서퍼 ID, 클릭 시간 및 네트워크 유형이 포함됩니다.</li><li>디스플레이 광고의 경우 EF ID에는 서퍼 ID, 클릭 또는 노출 시간 및 네트워크 유형이 포함됩니다.</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]; Search, Social 및 Commerce의 경우 만 사용) 데이터를 정규화하는 데 사용되는 지리적 위치에 대한 내부 ID입니다. |
 | [!UICONTROL EF Portfolio Group ID] | 포트폴리오가 속한 포트폴리오 그룹의 숫자 ID입니다. |
-| [!UICONTROL EF Search Engine ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. [!DNL Google Ads]의 <i>[!UICONTROL 3]</i>, [!DNL Microsoft Advertising]의 <i>[!UICONTROL 10]</i>, [!DNL Meta]의 <i>[!UICONTROL 45]</i>, [!DNL Yahoo! Display Network]의 <i>[!UICONTROL 86]</i>, [!DNL Naver]의 <i>[!UICONTROL 87]</i>, [!DNL Baidu]의 <i>[!UICONTROL 88]</i>, [!DNL Yandex]의 <i>[!UICONTROL 90]</i>, [!DNL LY Ads]의 <i>[!UICONTROL 94]</i>(이전의 [!DNL Yahoo! Japan Ads]), [!DNL Yahoo Native]의 <i>[!UICONTROL 105]</i>(더 이상 사용되지 않음) 또는 [!DNL Pinterest]의 <i>[!UICONTROL 106]</i>(더 이상 사용되지 않음). |
+| [!UICONTROL EF Search Engine ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. [!DNL Google Ads]의 <i>[!UICONTROL 3]</i>, [!DNL Microsoft Advertising]의 <i>[!UICONTROL 10]</i>, [!DNL Meta]의 <i>[!UICONTROL 45]</i>, [!DNL Yahoo DSP]의 <i>[!UICONTROL 86]</i>, [!DNL Naver]의 <i>[!UICONTROL 87]</i>, [!DNL Baidu]의 <i>[!UICONTROL 88]</i>, [!DNL Yandex]의 <i>[!UICONTROL 90]</i>, [!DNL LY Ads]의 <i>[!UICONTROL 94]</i>(이전의 [!DNL Yahoo! Japan Ads]), [!DNL Yahoo Native]의 <i>[!UICONTROL 105]</i>(더 이상 사용되지 않음) 또는 [!DNL Pinterest]의 <i>[!UICONTROL 106]</i>(더 이상 사용되지 않음). |
 | [!UICONTROL End Date] | 마지막으로 보고된 날짜입니다. |
 | [!UICONTROL Engagement Rate] | (비디오 광고) 참여 수를 광고가 표시된 횟수로 나눈 값입니다. |
 | [!UICONTROL Engagements] | (비디오 광고) 사용자가 광고를 10초 이상 시청한 횟수나, 10초 미만인 경우 전체 광고입니다. |

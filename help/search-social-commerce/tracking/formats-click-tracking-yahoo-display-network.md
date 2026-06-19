@@ -1,6 +1,6 @@
 ---
-title: ' [!DNL Yahoo! Display Network]에 대한 클릭 추적 형식'
-description: ' [!DNL Yahoo! Display Network] 계정의 클릭 추적 형식에 대해 알아봅니다.'
+title: ' [!DNL Yahoo DSP]에 대한 클릭 추적 형식'
+description: ' [!DNL Yahoo DSP] 계정의 클릭 추적 형식에 대해 알아봅니다.'
 exl-id: ee6642b3-fb84-4604-91cc-da1213835be8
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/sQo6hr3UHQwN9GgazCKv2ba-m4ZXf2ZrhdemCpbVYvU
@@ -8,14 +8,14 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 90
+source-wordcount: 103
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Display Network]에서 후원 광고에 대한 클릭 추적 형식
+# [!DNL Yahoo DSP]에서 후원 광고에 대한 클릭 추적 형식
 
 다음 기본 대상 UR 형식은 스폰서 광고에 적용됩니다.
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`은(는) Adobe Advertising 내의 광고주 고유 ID에 대한 변수입니다.
 >
->* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `cq?` 뒤의 `<advertiser_ID>`을(를) `c?`(으)로 바꾸십시오.
+>* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `<advertiser_ID>` 뒤의 `cq?`을(를) `c?`(으)로 바꾸십시오.
 >
 >* `<the landing page>`은(는) 최종 사용자가 이동되는 사이트의 URL을 나타내는 변수입니다.
 

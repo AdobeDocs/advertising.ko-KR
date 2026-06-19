@@ -10,7 +10,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 2401
 ht-degree: 2%
@@ -251,10 +251,10 @@ ht-degree: 2%
             + [&#x200B; [!DNL LY Ads]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [&#x200B; [!DNL Microsoft Advertising]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)
             + [&#x200B; [!DNL Naver]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
-            + [&#x200B; [!DNL Yahoo! Display Network]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
+            + [&#x200B; [!DNL Yahoo DSP]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
             + [&#x200B; [!DNL Yandex]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [클릭 추적 URL에 대한 선택적 추적 매개 변수](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ko){target="_blank"}
+      + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [AMO ID(s_kwcid) 추적 매개 변수](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + 전환 추적 {#conversion-tracking}
       + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)
@@ -388,7 +388,7 @@ ht-degree: 2%
             + [&#x200B; [!DNL LY Ads] 계정의 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
             + [&#x200B; [!DNL Microsoft Advertising] 계정의 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
             + [&#x200B; [!DNL Naver] 계정의 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-            + [&#x200B; [!DNL Yahoo! Display Network] 계정의 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+            + [&#x200B; [!DNL Yahoo DSP] 계정의 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
             + [&#x200B; [!DNL Yandex] 계정의 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + 인벤토리 피드를 사용하여 캠페인 데이터 자동화 {#inventory-feeds}
          + [인벤토리 피드를 사용한 광고 관리 자동화 정보](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)

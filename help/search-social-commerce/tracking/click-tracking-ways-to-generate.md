@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 905
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 | [!DNL Google Ads] | 전화 내선 번호 | 해당 사항 없음 |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | 제품 광고 | <ul><li>[!DNL Microsoft Merchant Center] 계정: [!DNL Microsoft Merchant Center] 계정의 각 제품에 대해 [쇼핑 광고에 대한 추적 템플릿 형식](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)을 사용하여 추적 URL을 수동으로 만든 다음 계정, 캠페인 또는 제품 그룹 설정의 [!UICONTROL Tracking Template] 필드에 수동으로 추가하십시오.<br><br>또는 [!DNL Microsoft Merchant Center account] 내의 제품 데이터에 추적 URL을 추가할 수 있습니다. 이렇게 하려면 제품 피드 내의 [사용자 지정 열 &quot;[!DNL bingads_redirect]&quot;에 추적 URL과 &quot;[!DNL link]&quot; 또는 &quot;[!DNL mobile_link]&quot; 필드의 값을 적절하게 포함하십시오](https://help.ads.microsoft.com/#apex/3/en/51084). &quot;[!DNL bingads_redirect]&quot; 필드의 값은 &quot;[!DNL link]&quot; 및 &quot;[!DNL mobile_link]&quot; 필드의 값을 대체합니다. 이 메서드를 사용하여 생성된 URL에는 계정 설정에 지정된 추적 매개 변수가 포함되어 있지 않습니다.<br><br><b>참고:</b> 동기화 중에 추적을 자동으로 업로드하는 계정 수준 및 캠페인 수준 기능은 새 [!DNL Microsoft Advertising] 제품 그룹에 대한 추적을 생성하지 않습니다. 해결 방법은 일괄 시트를 업로드하거나 게시할 때 추적을 생성하는 것입니다.</li><li>[!DNL Google Merchant Center] 계정: [[!UICONTROL Tracking URLs] 도구](/help/search-social-commerce/tools/click-tracking-url-generate.md)를 사용하여 추적 URL을 생성하고 계정, 캠페인 또는 제품 그룹 설정의 [!UICONTROL Tracking Template] 필드에 수동으로 추가하십시오.</li></ul> |
 | [!DNL Naver] | 키워드 | [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 통해 모든 광고에 대한 클릭 추적을 설정할 수 있습니다. 또는 광고의 추적 URL을 수동으로 생성하고 광고 네트워크의 편집기를 사용하여 광고 설정에 수동으로 추가할 수 있습니다. &quot;[추적 전용 계정 구현 [!DNL Naver] 2&rbrace;&quot;을 참조하세요.](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md) |
-| [!DNL Yahoo! Display Network] | 텍스트 및 디스플레이 광고 | 활성 캠페인에 대한 추적 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot; 옵션(캠페인 수준에서 설정되었거나 계정 설정에서 상속됨)이 포함된 경우 광고에 대한 추적 URL을 생성할 필요가 없습니다. Search, Social 및 Commerce은 광고 네트워크와 동기화할 때마다 추적 코드가 포함된 새 대상 URL을 자동으로 만들어 광고 네트워크에 업로드합니다.<br><br>[!UICONTROL Auto Upload] 옵션이 비활성화되어 있으면 [[!UICONTROL Tracking URLs] 도구](/help/search-social-commerce/tools/click-tracking-url-generate.md)을 사용하여 추적 URL을 생성하고 광고 네트워크의 편집기를 사용하여 광고 설정에 수동으로 추가할 수 있습니다. |
+| [!DNL Yahoo DSP] | 텍스트 및 디스플레이 광고 | 활성 캠페인에 대한 추적 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot; 옵션(캠페인 수준에서 설정되었거나 계정 설정에서 상속됨)이 포함된 경우 광고에 대한 추적 URL을 생성할 필요가 없습니다. Search, Social 및 Commerce은 광고 네트워크와 동기화할 때마다 추적 코드가 포함된 새 대상 URL을 자동으로 만들어 광고 네트워크에 업로드합니다.<br><br>[!UICONTROL Auto Upload] 옵션이 비활성화되어 있으면 [[!UICONTROL Tracking URLs] 도구](/help/search-social-commerce/tools/click-tracking-url-generate.md)을 사용하여 추적 URL을 생성하고 광고 네트워크의 편집기를 사용하여 광고 설정에 수동으로 추가할 수 있습니다. |
 
 >[!MORELIKETHIS]
 >

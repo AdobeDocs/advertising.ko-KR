@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 1637
 ht-degree: 0%
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 ## 광고 네트워크별 일괄 시트 행 {#bulksheet-rows-by-ad-network}
 
-| 일괄 시트 행 | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo Native] | [!DNL Yandex] | 메모 |
+| 일괄 시트 행 | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo DSP] | [!DNL Yahoo Native] | [!DNL Yandex] | 메모 |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | 예 | 예 | 예 | 예 | 예 | 예 | 예 | 예 | 예 | — |
 | [!UICONTROL Adgroup] | 예 | 예 | 예 | 예 | 예 | 예 | 예 | 예 | 예 | — |
@@ -163,7 +163,7 @@ ht-degree: 0%
 * [&#x200B; [!DNL LY Ads] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [&#x200B; [!DNL Microsoft Advertising] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
 * [&#x200B; [!DNL Naver] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [&#x200B; [!DNL Yahoo! Display Network] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [&#x200B; [!DNL Yahoo DSP] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
 * [&#x200B; [!DNL Yandex] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]

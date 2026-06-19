@@ -2,7 +2,7 @@
 title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: '3172'
 ht-degree: 0%
@@ -100,7 +100,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | 유효 CPM 또는 지정된 날짜 범위 동안 1000회 노출당 지급된 평균 비용입니다. eCPM 값은 CPM 또는 CPC 캠페인에 대해 계산됩니다. |
 | [!UICONTROL EF Campaign ID] | Search, Social 및 Commerce이 캠페인에 할당하는 숫자 ID입니다. |
 | [!UICONTROL EF Portfolio Group ID] | 포트폴리오가 속한 포트폴리오 그룹의 숫자 ID입니다. |
-| [!UICONTROL EF Search Engine ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. [!DNL Google Ads]의 <i>[!UICONTROL 3]</i>, [!DNL Microsoft Advertising]의 <i>[!UICONTROL 10]</i>, [!DNL Meta]의 <i>[!UICONTROL 45]</i>, [!DNL Yahoo! Display Network]의 <i>[!UICONTROL 86]</i>, [!DNL Naver]의 <i>[!UICONTROL 87]</i>, [!DNL Baidu]의 <i>[!UICONTROL 88]</i>, [!DNL Yandex]의 <i>[!UICONTROL 90]</i>, [!DNL LY Ads]의 <i>[!UICONTROL 94]</i>(이전의 [!DNL Yahoo! Japan Ads]), [!DNL Yahoo Native]의 <i>[!UICONTROL 105]</i>(더 이상 사용되지 않음) 또는 [!DNL Pinterest]의 <i>[!UICONTROL 106]</i>(더 이상 사용되지 않음). |
+| [!UICONTROL EF Search Engine ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. [!DNL Google Ads]의 <i>[!UICONTROL 3]</i>, [!DNL Microsoft Advertising]의 <i>[!UICONTROL 10]</i>, [!DNL Meta]의 <i>[!UICONTROL 45]</i>, [!DNL Yahoo DSP]의 <i>[!UICONTROL 86]</i>, [!DNL Naver]의 <i>[!UICONTROL 87]</i>, [!DNL Baidu]의 <i>[!UICONTROL 88]</i>, [!DNL Yandex]의 <i>[!UICONTROL 90]</i>, [!DNL LY Ads]의 <i>[!UICONTROL 94]</i>(이전의 [!DNL Yahoo! Japan Ads]), [!DNL Yahoo Native]의 <i>[!UICONTROL 105]</i>(더 이상 사용되지 않음) 또는 [!DNL Pinterest]의 <i>[!UICONTROL 106]</i>(더 이상 사용되지 않음). |
 | [!UICONTROL End Date] | 마지막으로 보고된 날짜입니다. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension]개 보고서) [확장의 표시 이름](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension]개 보고서) 광고 확장 유형에 대한 ID입니다. |

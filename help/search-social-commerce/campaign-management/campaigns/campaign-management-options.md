@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 299
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * 옵션 2: [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Bulksheets]에서 계정에 대해 원하는 만큼 데이터가 포함된 [일괄 시트 파일](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)을 업로드합니다. [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Naver], [!DNL Yandex] 및 기존 [!DNL Baidu] 계정의 경우 데이터를 광고 네트워크에 게시할 수 있습니다. [!DNL Naver]의 경우 검색, 소셜 및 Commerce 내에서 사용할 데이터를 업로드할 수 있지만 광고 네트워크에 게시할 수 없습니다.
 
-  기존 [!DNL Pinterest], [!DNL Yahoo Native] 및 [!DNL Yahoo! Display Network] 계정에 대한 데이터가 포함된 일괄 시트 파일을 선택적으로 다운로드하지만 업로드하거나 게시할 수 없습니다.
+  기존 [!DNL Pinterest], [!DNL Yahoo DSP] 및 [!DNL Yahoo Native] 계정에 대한 데이터가 포함된 일괄 시트 파일을 선택적으로 다운로드하지만 업로드하거나 게시할 수 없습니다.
 
 * 옵션 3: [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL &#x200B; Advanced (ACM)]에서 만든 광고 네트워크별 광고 템플릿에 따라 [인벤토리의 각 항목에 타깃팅된 계정 구조 및 동적 광고 및 키워드를 만듭니다](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md). 자동화된 프로세스를 설정합니다. 수동으로 또는 FTP 위치에 업로드하는 인벤토리 데이터 파일의 내용이나 [!DNL Google Merchant Center] 또는 [!DNL Microsoft Merchant Center] 계정의 내용을 기반으로 템플릿을 만듭니다. 데이터가 만들어지는 즉시 자동으로 게시되도록 구성하거나 데이터를 검토한 후 광고 네트워크에 수동으로 게시할 수 있습니다. 이 옵션은 [!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정에서 사용할 수 있습니다.
 

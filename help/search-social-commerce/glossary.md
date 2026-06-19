@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 2342
+source-wordcount: 2377
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * [!DNL Maximize Clicks], [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition] 또는 [!DNL Target Return on Ad Spend] 지출 전략이 있는 캠페인의 경우 각 캠페인은 입찰 단위입니다.
 
-* 키워드를 사용하지 않는 [!DNL Yahoo! Display Network]의 캠페인의 경우 광고 그룹 내의 모든 광고에 동일한 입찰이 있으며 동일한 입찰 단위로 간주됩니다.
+* 키워드를 사용하지 않는 [!DNL Yahoo DSP]의 캠페인의 경우 광고 그룹 내의 모든 광고에 동일한 입찰이 있으며 동일한 입찰 단위로 간주됩니다.
 
 **입찰 단위 제한:** &quot;제한&quot;을 참조하십시오.
 
