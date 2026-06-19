@@ -4,15 +4,12 @@ description: '[!UICONTROL Campaign Assist Report]에 대해 알아봅니다.'
 exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
 TQID: https://experienceleague.adobe.com/9CQ9aS6g0C1lCEYQbGEjctsZXEtIqjLOl5ohP45YFSU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: 857
 ht-degree: 1%
 
 ---
@@ -44,7 +41,7 @@ ht-degree: 1%
 | [!UICONTROL 1st Campaign] - [!UICONTROL 5th Campaign] | 기본값 | 광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 전환 경로의 가장 빠른 캠페인 5개.<br><br>엔터티 이름 뒤에 광고 네트워크, 계정 이름 또는 이벤트 유형을 나타내는 보고서 옵션을 포함한 경우 해당 정보가 캠페인 이름 뒤에 포함됩니다(예: `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | [!UICONTROL Path Size] | 기본값 | 광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 전환 경로의 캠페인 수입니다. |
 | [!UICONTROL First Campaign] | 기본값 | 전환 경로의 첫 번째 캠페인. |
-| [!UICONTROL Last Campaign] | 기본값 | 전환을 초래한 마지막 캠페인(마지막 키워드가 지정된 경로 크기를 벗어난 경우에도).<br><br>엔터티 이름 뒤에 광고 네트워크, 계정 이름 또는 이벤트 유형을 나타내는 보고서 옵션을 포함한 경우 해당 정보가 캠페인 이름 뒤에 포함됩니다(예: `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
+| [!UICONTROL Last Campaign] | 기본값 | 전환을 일으킨 마지막 캠페인(마지막 키워드가 지정된 경로 크기를 벗어난 경우에도)<br><br>개체 이름 뒤에 광고 네트워크, 계정 이름 또는 이벤트 유형을 나타내는 보고서 옵션을 포함한 경우 해당 정보가 캠페인 이름 뒤에 포함됩니다(예: `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | \[광고주별 사용자 지정(파생) 지표\] | 사용자 정의 | 생성한 사용자 지정 지표의 값은 기존 지표에서 계산됩니다. |
 | \[광고주별 전환 지표\] | 사용자 정의 | 지정된 전환 지표 또는 사이트 참여 지표에 대한 전환 수입니다. |
 | [!UICONTROL % of Total] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 전환 지표에 대해 보고서 출력에 자동으로 포함됨) 캠페인 패턴에서 발생한 지정된 전환 지표에 대한 전환 수입니다. |
@@ -53,7 +50,7 @@ ht-degree: 1%
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 보고서 출력에 자동으로 포함됨) 마지막 이벤트(마지막 캠페인)에서 전환까지의 평균 대기 시간(일)입니다. |
 | [!UICONTROL EF Campaign ID] | 사용자 정의 | Search, Social 및 Commerce이 캠페인에 할당하는 숫자 ID입니다. |
 | [!UICONTROL EF Portfolio Group ID] | 사용자 정의 | 포트폴리오가 속한 포트폴리오 그룹의 숫자 ID입니다. |
-| [!UICONTROL EF Search Engine ID] | 사용자 정의 | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. <i>[!UICONTROL 3]</i>의 [!DNL Google Ads], <i>[!UICONTROL 10]</i>의 [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i>의 [!DNL Meta], <i>[!UICONTROL 86]</i>의 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i>의 [!DNL Naver], <i>[!UICONTROL 88]</i>의 [!DNL Baidu], <i>[!UICONTROL 90]</i>의 [!DNL Yandex], <i>[!UICONTROL 94]</i>의 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i>의 [!DNL Yahoo Native]&#x200B;(더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i>의 [!DNL Pinterest]&#x200B;(더 이상 사용되지 않음). |
+| [!UICONTROL EF Search Engine ID] | 사용자 정의 | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. [!DNL Google Ads]의 <i>[!UICONTROL 3]</i>, [!DNL Microsoft Advertising]의 <i>[!UICONTROL 10]</i>, [!DNL Meta]의 <i>[!UICONTROL 45]</i>, [!DNL Yahoo! Display Network]의 <i>[!UICONTROL 86]</i>, [!DNL Naver]의 <i>[!UICONTROL 87]</i>, [!DNL Baidu]의 <i>[!UICONTROL 88]</i>, [!DNL Yandex]의 <i>[!UICONTROL 90]</i>, [!DNL LY Ads]의 <i>[!UICONTROL 94]</i>(이전의 [!DNL Yahoo! Japan Ads]), [!DNL Yahoo Native]의 <i>[!UICONTROL 105]</i>(더 이상 사용되지 않음) 또는 [!DNL Pinterest]의 <i>[!UICONTROL 106]</i>(더 이상 사용되지 않음). |
 | [!UICONTROL Portfolio ID] | 사용자 정의 | 숫자 포트폴리오 ID입니다. |
 | [!UICONTROL User SE Account ID] | 사용자 정의 | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. |
 

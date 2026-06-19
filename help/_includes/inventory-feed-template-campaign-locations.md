@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 * *[!UICONTROL Target all locations]* 또는 *[!UICONTROL Target entire market]*(새 캠페인의 기본값): 지정된 언어의 모든 위치에 광고를 배치합니다.
 
-* *[!UICONTROL Target specified locations]:* 광고 배치를 특정 지리적 영역으로 제한하거나 특정 지리적 위치에서 광고 배치를 제외하려면 ([!DNL Google Ads] 및 [!DNL Yahoo! Japan Ads]만 해당). [!DNL Google Ads] 캠페인의 경우 포함하는 각 위치에 대한 입찰 조정을 선택적으로 추가할 수 있습니다.
+* *[!UICONTROL Target specified locations]:* 광고 배치를 특정 지리적 영역으로 제한하거나 특정 지리적 위치의 광고 배치를 제외하려면 ([!DNL Google Ads] 및 [!DNL LY Ads]&#x200B;(이전에는 [!DNL Yahoo! Japan Ads]만 해당)을(를) 사용합니다. [!DNL Google Ads] 캠페인의 경우 포함하는 각 위치에 대한 입찰 조정을 선택적으로 추가할 수 있습니다.
 
-   * (특정 위치를 타깃팅하거나 제외하려면) 위치 또는 하위 위치를 찾아 **[!UICONTROL Locations Included]** 상자나 **[!UICONTROL Locations Excluded]** 상자로 끌어서 놓습니다([!DNL Google Ads] 및 [!DNL Yahoo! Japan Ads]만 해당).
+   * (특정 위치를 타깃팅하거나 제외하려면) 위치 또는 하위 위치를 찾아 **[!UICONTROL Locations Included]** 상자나 [!DNL Google Ads] 및 [!DNL LY Ads]&#x200B;(이전에는 [!DNL Yahoo! Japan Ads]만 해당) **[!UICONTROL Locations Excluded]** 상자로 끌어서 놓습니다.
 
      목록에 있는 항목의 하위 구성 요소를 나열하려면(예: 미국의 주, 대도시 또는 도시) 항목을 클릭합니다.
 

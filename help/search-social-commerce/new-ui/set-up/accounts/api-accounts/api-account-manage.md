@@ -3,9 +3,9 @@ title: (새 UI) 광고 네트워크 계정 관리
 description: 광고 네트워크 API를 통해 동기화된 광고 네트워크에 대한 새 UI에서 계정 세부 사항을 설정하고 관리하는 방법에 대해 알아봅니다.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->광고 네트워크 관리자 계정은 여기에서 지원되지 않습니다. [!DNL Microsoft Advertising]의 관리자 계정을 식별하려면 각각 기본 계정 ID 또는 MCC 계정 필드를 사용하십시오. [관리자 계정  [!DNL Google Ads] 의 자격 증명을 설정하려면](/help/search-social-commerce/admin/manager-accounts.md) \> [!UICONTROL Admin]&#x200B;(으)로 이동하십시오.[!UICONTROL Manager Accounts]
+>광고 네트워크 관리자 계정은 여기에서 지원되지 않습니다. [!DNL Microsoft Advertising]의 관리자 계정을 식별하려면 각각 기본 계정 ID 또는 MCC 계정 필드를 사용하십시오. [관리자 계정  [!DNL Google Ads] 의 자격 증명을 설정하려면[!UICONTROL Admin] \> [!UICONTROL Manager Accounts]&#x200B;(으)로 이동하십시오.](/help/search-social-commerce/admin/manager-accounts.md)
 
 **[!UICONTROL Currency]:**(읽기 전용) 계정에 사용되는 통화의 약어입니다. 이 값은 레코드를 저장하면 광고 네트워크의 계정에 대해 구성된 통화로 자동으로 채워집니다.
 
@@ -203,11 +203,11 @@ ht-degree: 0%
 >* [!UICONTROL Standard]에서 [!UICONTROL Token]&#x200B;(으)로 전환하거나 그 반대로 전환하는 경우 계정에 대한 추적 URL을 다시 생성해야 합니다.
 >* 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.
 
-**[!UICONTROL Auto Update]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우) 브라우저 및 서버 간 호환성을 위해 추적 URL을 표준화합니다. 검색, 소셜 및 Commerce은 다음 동기화 동안 광고 네트워크에 다음을 자동으로 업로드합니다. (a) 추적 템플릿에 대한 검색, 소셜 및 Commerce 추적 매개 변수와 최종 URL에 추가된 동일한 매개 변수 또는 (b) 검색, 소셜 및 Commerce 추적 코드에 포함된 새 대상 URL. [Adobe Advertising-Adobe Analytics 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko) 및 서버측 AMO ID(s_kwcid) 구성이 있는 광고주의 경우 업로드에는 [&#x200B; 및 &#x200B;](/help/integrations/analytics/ids.md#amo-id) 계정에 대한 [!DNL Google Ads]AMO ID 매개 변수[!DNL Microsoft Advertising]도 포함됩니다. 기본 계정 수준 설정은 광고주의 추적 설정에서 상속됩니다. 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.
+**[!UICONTROL Auto Update]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우) 브라우저 및 서버 간 호환성을 위해 추적 URL을 표준화합니다. 검색, 소셜 및 Commerce은 다음 동기화 동안 광고 네트워크에 다음을 자동으로 업로드합니다. (a) 추적 템플릿에 대한 검색, 소셜 및 Commerce 추적 매개 변수와 최종 URL에 추가된 동일한 매개 변수 또는 (b) 검색, 소셜 및 Commerce 추적 코드에 포함된 새 대상 URL. [Adobe Advertising-Adobe Analytics 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) 및 서버측 AMO ID(s_kwcid) 구성이 있는 광고주의 경우 업로드에는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에 대한 [AMO ID 매개 변수](/help/integrations/analytics/ids.md#amo-id)도 포함됩니다. 기본 계정 수준 설정은 광고주의 추적 설정에서 상속됩니다. 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.
 
 추적 URL은 동기화되지 않은 엔티티(즉, 추가된 새 엔티티 및 속성이 변경된 기존 엔티티)에 대해서만 매일 업데이트됩니다. 따라서 기존 광고주/계정/캠페인에 대해 이 설정을 비활성화에서 활성화로 변경하면 이미 동기화 중인 기존 엔티티에 대한 추적 URL이 업데이트되지 않습니다. 동기화 중인 기존 엔터티의 URL에 추적을 추가하려면 Adobe 계정 팀에 연락하여 1회 수동 동기화 프로세스를 요청하십시오. 자동 업로드 프로세스는 향후 변경 사항을 처리합니다.
 
-**[!UICONTROL URL Encoding]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우, 대상 URL만 있는 계정) 최종 사용자의 브라우저 주소 표시줄 내의 기본 URL을 인코딩합니다(`%3D` 대신 `=`).
+**[!UICONTROL URL Encoding]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우, 대상 URL만 있는 계정) 최종 사용자의 브라우저 주소 표시줄 내의 기본 URL을 인코딩합니다(`=` 대신 `%3D`).
 
 **[!UICONTROL Tracking Level]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우, 계정 및 캠페인 수준에서 사용할 수 있으며 병렬 추적이 활성화된 광고 네트워크에는 적용되지 않음) 리디렉션(관련 있는 경우)을 추가하고 관련 URL에 매개 변수를 추가하여 클릭 및 매출을 추적해야 하는 수준:
 
@@ -221,20 +221,20 @@ ht-degree: 0%
 
 예: `param1=value1&param2=value2`
 
-Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 네트워크의 클릭 식별자(`msclkid`의 경우 [!DNL Microsoft Advertising], Google의 경우 `gclid`)를 포함해야 합니다. Adobe Analytics 통합이 있는 계정은 AMO ID 매개 변수(`s_kwcid`(으)로 시작)를 사용해야 합니다. 계정에 서버측 AMO ID 구현이 있는 경우 사용자가 광고를 클릭하면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 여기에 매개 변수를 수동으로 추가해야 합니다. [다음에 필요한 접미사 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [다음에 필요한 접미사 형식 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)을(를) 참조하십시오.
+Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 네트워크의 클릭 식별자([!DNL Microsoft Advertising]의 경우 `msclkid`, Google의 경우 `gclid`)를 포함해야 합니다. Adobe Analytics 통합이 있는 계정은 AMO ID 매개 변수(`s_kwcid`(으)로 시작)를 사용해야 합니다. 계정에 서버측 AMO ID 구현이 있는 경우 사용자가 광고를 클릭하면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 여기에 매개 변수를 수동으로 추가해야 합니다. [다음에 필요한 접미사 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [다음에 필요한 접미사 형식 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)을(를) 참조하십시오.
 
 >[!NOTE]
 >
 >* 이 필드는 [!UICONTROL Auto Update] 추적 설정에 의해 업데이트되지 않습니다.
 >* 하위 수준의 최종 URL 접미사는 계정 수준 접미사를 덮어씁니다. 간편하게 유지 관리할 수 있도록 개별 계정 구성 요소에 대해 다른 추적이 필요하지 않은 경우 계정 수준 접미사만 사용하십시오. 광고 그룹 수준 또는 하위 수준에서 접미사를 구성하려면 광고 네트워크의 편집기를 사용합니다.
 
-**계정 추적 URL**: ([!DNL Google Ads], [!DNL Microsoft Advertising] 및 [!DNL Yahoo! Japan Ads] 계정만 해당; 선택 사항) 모든 랜딩 외부 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종/랜딩 페이지 URL도 임베드하는 계정의 기본 추적 템플릿입니다. 예: 리디렉션을 포함하는 `{lpurl}?source={network}&id=5` 또는 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`.
+**계정 추적 URL**: ([!DNL Google Ads], [!DNL LY Ads] 및 [!DNL Microsoft Advertising] 계정만 해당; 선택 사항) 모든 랜딩 외부 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종/랜딩 페이지 URL도 임베드하는 계정의 기본 추적 템플릿입니다. 예: 리디렉션을 포함하는 `{lpurl}?source={network}&id=5` 또는 `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5`.
 
 * 최종 URL을 포함하려면 다음을 수행하십시오.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
-   * ([!DNL Yahoo! Japan Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
+   * ([!DNL LY Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 
 * 필요에 따라 URL 매개 변수와 캠페인에 대해 정의된 사용자 지정 매개 변수를 앰퍼샌드(&amp;)로 구분하여 포함할 수 있습니다(예: `{lpurl}?matchtype={matchtype}&device={device}`).
 

@@ -4,20 +4,18 @@ description: 계정 구조를 관리하고 동적 광고를 게재하기 위해 
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1423
+source-wordcount: 1427
 ht-degree: 0%
 
 ---
 
 # 인벤토리 피드에 대한 광고 템플릿 관리
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL LY Ads]&#x200B;(삭제 작업만), [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정만*
 
 데이터를 업로드하기 전이나 후에 데이터를 처리할 수 있는 검색 엔진별 광고 템플릿을 만들 수 있습니다. 텍스트 광고 및 확장/확장 텍스트 광고, [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 반응형 검색 광고, [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 쇼핑 광고에 대한 템플릿을 만들 수 있습니다.
 

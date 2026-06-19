@@ -4,20 +4,18 @@ description: 검색 캠페인 및 광고 그룹에 대한 부정적인 키워드
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/NjLsCcI2-1kWIAfZOv4-IJytuPKUfQWO0OG7ptEDe9w
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 272
+source-wordcount: 279
 ht-degree: 0%
 
 ---
 
 # 부정적인 키워드 만들기
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] 및 기존 [!DNL Baidu] 계정만*
+*[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] 및 기존 [!DNL Baidu] 계정만*
 
 검색 또는 디스플레이/기본 네트워크를 대상으로 하는 검색 광고 그룹 또는 캠페인에 대해 부정적인 키워드를 만들 수 있습니다. 부정적인 키워드는 광고를 트리거하지 않습니다.
 
@@ -43,7 +41,7 @@ ht-degree: 0%
 
    여러 값을 쉼표로 구분하거나 별도의 라인에 입력합니다. 한 번의 작업으로 최대 2000개의 부정적인 키워드를 입력하거나 붙여넣을 수 있습니다. 다음 요구 사항 및 제한 사항을 참조하십시오.
 
-   * 최대 문자 길이: [!DNL Baidu]: 1바이트 또는 15 2바이트; [!DNL Microsoft Advertising]: 100 1바이트 또는 50 2바이트; [!DNL Google Ads] 및 [!DNL Yahoo! Japan Ads]: 80 1바이트 또는 40 2바이트.
+   * 최대 문자 길이: [!DNL Baidu]: 1바이트 또는 15 2바이트; [!DNL Microsoft Advertising]: 100 1바이트 또는 50 2바이트; [!DNL Google Ads] 및 [!DNL LY Ads]: 80 1바이트 또는 40 2바이트.
 
    * [!DNL Baidu]에서는 광고 그룹당 키워드당 일치 유형을 하나만 사용할 수 있습니다. 예를 들어 광고 그룹 1은 `"keyword"`과(와) `[keyword]`을(를) 모두 포함할 수 없습니다.
 

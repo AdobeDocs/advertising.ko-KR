@@ -2,9 +2,10 @@
 title: (새 UI) 수동으로 광고 네트워크 데이터 동기화
 description: 새 UI에서 지원되는 광고 네트워크에 대한 캠페인 구조 및 캠페인 엔티티의 동기화를 수동으로 트리거하는 방법을 알아봅니다.
 feature: Search Campaign Management
-source-git-commit: 5e384445a35f81275eefeac660b31c1acdc785f3
+exl-id: 5e857713-53f0-4d90-8b7a-18a3675d320e
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 <!-- EDIT ALL -- FROM LEGACY UI -->
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising]&#x200B;(이전 [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex] 및 기존 [!DNL Baidu] 계정만*
+*[!DNL Google Ads], [!DNL LY Ads]&#x200B;(이전 [!DNL Yahoo! Japan Ads]), [!DNL Microsoft Advertising]&#x200B;(이전 [!DNL Bing Ads]), [!DNL Yandex] 및 기존 [!DNL Baidu] 계정만*
 
 동기화는 검색, 소셜 및 Commerce이 [지원되는 광고 네트워크](/help/search-social-commerce/introduction/supported-inventory.md)에서 각 광고주의 연결된 광고 네트워크 계정에 대한 업데이트된 정보를 수집하는 프로세스입니다. 이 데이터에는 Search, Social 및 Commerce에서 관리되거나 보고된 대부분의 속성을 포함하여 광고주의 캠페인 구조와 캠페인 엔티티가 포함됩니다. 여기에는 클릭 데이터나 Search, Social 및 Commerce 외부에 입력된 입찰 및 입찰 수정자가 포함되지 않으며 이들은 별도로 수집됩니다.
 
