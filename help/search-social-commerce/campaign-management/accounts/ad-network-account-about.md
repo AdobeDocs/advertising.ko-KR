@@ -4,12 +4,9 @@ description: 검색, 소셜 및 Commerce에서 광고 네트워크 계정에 대
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 430
@@ -49,4 +46,4 @@ Search, Social 및 Commerce은 지원되는 광고 네트워크 계정과 동기
 >
 >* [광고 네트워크 계정 관리](ad-network-account-manage.md)
 >* [판매자 센터 계정 관리](merchant-account-manage.md)
->* [계정 [!DNL Google Ads] 2&rbrace;에 대한 AMO ID 추적 코드 업데이트](update-amo-id-google.md)
+>* [계정 [!DNL Google Ads] 2}에 대한 AMO ID 추적 코드 업데이트](update-amo-id-google.md)

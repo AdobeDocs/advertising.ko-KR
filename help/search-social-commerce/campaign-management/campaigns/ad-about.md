@@ -4,12 +4,9 @@ description: 사용 가능한 광고 유형을 포함하여 검색, 소셜 및 C
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 918
@@ -51,7 +48,7 @@ ht-degree: 0%
 
   [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] 보기에서 광고 그룹에 대해 별도의 제품 그룹을 설정하여 [!DNL Microsoft Advertising] 쇼핑 광고와 함께 표시되는 제품을 제어할 수 있습니다.
 
-  제품/쇼핑 광고 워크플로에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2&rbrace;&quot;을 참조하십시오.  &#x200B;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)제품 광고에 대한 자세한 내용은 [Microsoft Advertising 설명서](https://help.ads.microsoft.com/#apex/3/en/51082)를 참조하세요.
+  제품/쇼핑 광고 워크플로에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}&quot;을 참조하십시오.  ](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)제품 광고에 대한 자세한 내용은 [Microsoft Advertising 설명서](https://help.ads.microsoft.com/#apex/3/en/51082)를 참조하세요.
 
 * 검색 네트워크에서 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인에 대한 반응형 검색 광고. 광고 네트워크는 광고 제목 및 설명 세트에서 텍스트 기반 반응형 검색 광고를 동적으로 어셈블하며, 함께 잘 작동하는 조합을 선호합니다. 이 광고에는 최대 3개의 헤드라인, 2개의 설명 및 기본 URL과 선택적 경로1 및 경로2 필드의 사용자 지정 가능한 URL이 포함되어 있습니다. 광고 제목과 설명을 특정 위치에 선택적으로 고정할 수 있습니다.
 

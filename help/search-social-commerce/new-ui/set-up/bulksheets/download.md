@@ -2,15 +2,10 @@
 title: (새 UI) 일괄 시트 파일 다운로드/만들기
 description: 새 검색, 소셜 및 Commerce UI에서 광고 네트워크에 대한 계정 데이터를 다운로드하여 일괄 시트 파일을 만드는 방법을 알아봅니다.
 feature: Search Bulksheets
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: e58024d1-d6da-420c-80af-6be211808316
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 1637
@@ -158,13 +153,13 @@ ht-degree: 0%
 
 각 광고 네트워크의 필수 열과 선택적 열에 대한 자세한 내용은 광고 네트워크별 일괄 시트 데이터 형식 문서를 참조하십시오.
 
-* [&#x200B; [!DNL Baidu] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-* [&#x200B; [!DNL Google Ads] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-* [&#x200B; [!DNL LY Ads] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-* [&#x200B; [!DNL Microsoft Advertising] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-* [&#x200B; [!DNL Naver] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [&#x200B; [!DNL Yahoo DSP] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [&#x200B; [!DNL Yandex] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+* [ [!DNL Baidu] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+* [ [!DNL Google Ads] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [ [!DNL LY Ads] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+* [ [!DNL Microsoft Advertising] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+* [ [!DNL Naver] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+* [ [!DNL Yahoo DSP] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [ [!DNL Yandex] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]
 >
