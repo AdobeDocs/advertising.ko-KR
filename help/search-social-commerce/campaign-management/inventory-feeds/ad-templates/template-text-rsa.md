@@ -11,16 +11,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 3352
+source-wordcount: 3437
 ht-degree: 0%
 
 ---
 
 # 인벤토리 피드에 대한 텍스트 광고 및 반응형 검색 광고 템플릿 설정
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL LY Ads]&#x200B;(삭제 작업만), [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정만*
 
 >[!NOTE]
 >
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 * 최종 URL을 포함하려면 다음을 수행하십시오.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799/2) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799/2) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
-   * ([!DNL Yahoo! Japan Ads]만 해당) `!{unescapedurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
+   * ([!DNL LY Ads]만 해당) `!{unescapedurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 
    * 필요에 따라 URL 매개 변수와 캠페인에 대해 정의된 사용자 지정 매개 변수를 앰퍼샌드(&amp;)로 구분하여 포함할 수 있습니다(예: `{lpurl}?matchtype={matchtype}&device={device}`).
 
@@ -151,9 +151,9 @@ ht-degree: 0%
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다. 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 
-* Yahoo! Japan Ads 계정에서 매개 변수 {lpurl}을(를) 사용합니다.
+* LY Ads 계정의 경우 매개 변수 {lpurl}을(를) 사용합니다.
 
-* [!DNL Microsoft Advertising] 및 [!DNL Google Ads] 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [!DNL ValueTrack]설명서[[!DNL Google Ads] 의 &quot;사용 가능한 &#x200B;](https://support.google.com/google-ads/answer/6305348) 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
+* [!DNL Microsoft Advertising] 및 [!DNL Google Ads] 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
 
 이 값은 계정 및 캠페인 수준 설정을 재정의하지만, 더 세분화된 수준에서(키워드를 가장 세분화된 수준으로) 추적 템플릿이 이 값을 재정의합니다.
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 열 이름이나 한정자 그룹을 동적 매개 변수로 삽입하려면 입력 필드를 클릭한 다음 열 목록에서 열 이름을 클릭하거나 한정자 목록에서 [한정자 이름](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)을 클릭합니다. 동일한 키워드에 대해 여러 키워드 또는 여러 일치 유형을 지정하려면 별도의 행에 입력합니다. 키워드 일치 유형을 지정하려면 열 이름 주위에 다음 일치 유형 구문을 사용합니다.
 
-* [!DNL Google Ads], [!DNL Microsoft Advertising] 및 [!DNL Yahoo! Japan Ads] 템플릿의 경우:
+* [!DNL Google Ads], [!DNL LY Ads] 및 [!DNL Microsoft Advertising] 템플릿의 경우:
 
    * 동적 매개 변수의 경우: Broad Match = `[keyword]`, [!UICONTROL Keyword] 열의 첫 번째 용어에 대한 Broad Match 수정자(예: +blue suede shoes) = `+[keyword]`, 키워드 열의 각 용어에 대한 Broad Match 수정자(예: +blue +suede +shoes) = `+[keyword]+`, Phrase Match = `"[keyword]"`, Exact Match = `[[keyword]]`
 
@@ -217,9 +217,9 @@ ht-degree: 0%
 
 * 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [!DNL Microsoft Advertising]설명서[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]설명서[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
-   * ([!DNL Yahoo! Japan Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
+   * ([!DNL LY Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 
 **[!UICONTROL Param 1]**, **[!UICONTROL Param 2]\[[!DNL Google Ads] templates\]:** ([!DNL Google Ads] templates only) 광고 복사본에 포함하거나 템플릿에서 만든 모든 광고의 URL을 표시할 수 있는 [!DNL Google Ads] `{param1}` 또는 `{param2}` 변수를 나타내는 지정된 파일의 열입니다. 동적 매개 변수를 삽입하려면 입력 필드를 클릭한 다음 열 목록에서 열 이름을 클릭합니다. 열 이름은 피드 파일이 템플릿을 통해 전파될 때 실제 데이터로 대체됩니다.
 
@@ -239,7 +239,7 @@ ht-degree: 0%
 
    * 통화 기호나 코드 앞에 값을 추가하거나 추가할 수 있습니다. 예를 들어 £2.000,000 및 2000GBP가 유효합니다.
 
-   * 값에는 쉼표(,) 또는 마침표(.)가 구분 기호로 포함될 수 있으며 분수 값에는 선택적 마침표(.) 또는 쉼표(,)가 포함됩니다. 예를 들어 1,000.00과 2.000,10이 유효합니다.
+   * 값에는 쉼표(,) 또는 마침표(.)가 포함될 수 있습니다. 선택적 마침표(.)가 있는 구분 기호로 또는 분수 값의 경우 쉼표(,)가 표시됩니다. 예를 들어 1,000.00과 2.000,10이 유효합니다.
 
    * 값 앞에 퍼센트 기호(%), 더하기 기호(+) 또는 빼기 기호(-)를 붙이거나 붙일 수 있습니다. 예를 들어 20%, 208+ 및 -42.32가 유효합니다.
 
@@ -271,7 +271,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Title]:**(기존 Microsoft Advertising 표준 텍스트 광고만, 읽기 전용) 광고의 제목 또는 첫 줄입니다. Microsoft Advertising에서는 표준 텍스트 광고를 더 이상 만들고 편집하지 않습니다.
 
-**[!UICONTROL Headline 1]**, **[!UICONTROL Headline 2]:**([!DNL Google Ads] 및 [!DNL Yahoo! Japan Ads] 확장/확장 텍스트 광고 템플릿만 해당) 광고의 헤드라인입니다. 각 행의 최대 길이는 동적 매개 변수가 대체된 후 30자 또는 15개의 더블바이트 문자입니다.
+**[!UICONTROL Headline 1]**, **[!UICONTROL Headline 2]:**([!DNL Google Ads] 및 [!DNL LY Ads] 확장/확장 텍스트 광고 템플릿만 해당) 광고의 헤드라인입니다. 각 행의 최대 길이는 동적 매개 변수가 대체된 후 30자 또는 15개의 더블바이트 문자입니다.
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
@@ -295,7 +295,7 @@ ht-degree: 0%
 
 * (Google Ads 확장 텍스트 광고 템플릿) 최대 길이(동적 매개 변수가 대체된 후)는 90자 또는 45개의 더블바이트 문자입니다.
 
-* (야후! 일본 광고 템플릿) 최대 길이(동적 매개 변수가 대체된 후)는 80자 또는 40개의 더블바이트 문자입니다.
+* (야후! LY 광고 템플릿) 최대 길이(동적 매개 변수가 대체된 후)는 80자 또는 40개의 더블바이트 문자입니다.
 
 * (Yandex 템플릿) 최대 길이(동적 매개 변수가 대체된 후)는 75자이며 한 단어는 22자를 초과할 수 없습니다.
 
@@ -325,13 +325,13 @@ ht-degree: 0%
 
 * [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}`(예: `{CUSTOMIZER.Discount:10%}`)
 
-**[!UICONTROL Display URL]:**(기존 [!DNL Microsoft Advertising] 및 [!DNL Yahoo! Japan Ads] 표준 텍스트 광고만, 읽기 전용) 광고에 표시되는 URL입니다.
+**[!UICONTROL Display URL]:**(기존 [!DNL LY Ads] 및 [!DNL Microsoft Advertising] 표준 텍스트 광고만, 읽기 전용) 광고에 표시되는 URL입니다.
 
-[!DNL Microsoft Advertising] 및 [!DNL Yahoo! Japan Ads]에서는 표준 텍스트 광고를 만들고 편집하는 것을 더 이상 사용하지 않습니다.
+[!DNL LY Ads] 및 [!DNL Microsoft Advertising]에서는 표준 텍스트 광고를 만들고 편집하는 것을 더 이상 사용하지 않습니다.
 
 **[!UICONTROL Base URL]:**(대상 URL만 있는 계정) 사용자를 가져오는 페이지입니다. 여기에는 서드파티 리디렉션 및 추적 코드가 포함될 수 있습니다. Adobe Advertising 전환 추적 서비스를 사용하고 캠페인 설정에 [!UICONTROL EF Redirect] 사용 및 광고 수준에서 추적 추가가 포함된 경우 검색, 소셜 및 Commerce은 자동으로 자체 리디렉션 및 추적 코드를 광고에 추가합니다.
 
-열 이름이나 한정자 그룹을 동적 매개 변수로 삽입하려면 입력 필드를 클릭한 다음 열 목록에서 열 이름을 클릭하거나 [&#x200B; 목록에서 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)한정자 이름[!UICONTROL Modifiers]을 클릭합니다.
+열 이름이나 한정자 그룹을 동적 매개 변수로 삽입하려면 입력 필드를 클릭한 다음 열 목록에서 열 이름을 클릭하거나 [!UICONTROL Modifiers] 목록에서 [한정자 이름](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)을 클릭합니다.
 
 **[!UICONTROL Final URL]:**(최종/고급 URL이 있는 계정) 사용자가 광고를 클릭할 때 사용하는 랜딩 페이지 URL입니다. 표시 URL과 동일한 도메인을 포함해야 하며 최종 URL의 모든 매개 변수는 광고 클릭 후 랜딩 페이지 URL의 매개 변수와 일치해야 합니다. 랜딩 페이지 도메인 또는 하위 도메인 내에는 리디렉션이 포함될 수 있지만 랜딩 페이지 도메인 외부에는 리디렉션이 포함되지 않습니다.
 
@@ -348,9 +348,9 @@ ht-degree: 0%
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다. 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 
-* Yahoo! Japan Ads 계정에서 매개 변수 {lpurl}을(를) 사용합니다.
+* [!DNL LY Ads] 계정의 경우 {lpurl} 매개 변수를 사용하십시오.
 
-* [!DNL Microsoft Advertising] 및 [!DNL Google Ads] 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [!DNL ValueTrack]설명서[[!DNL Google Ads] 의 &quot;사용 가능한 &#x200B;](https://support.google.com/google-ads/answer/6305348) 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
+* [!DNL Microsoft Advertising] 및 [!DNL Google Ads] 계정에 사용할 수 있는 매개 변수의 경우 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿만&quot; 매개 변수를 참조하십시오.
 
 **\[원본 광고 필드 아래의 대체 광고 필드\]:**(선택 사항) 광고에 대한 대체 광고 복사본 집합입니다. 이 집합은 전달하는 동안 동적 매개 변수가 데이터로 채워지면 원본 광고 복사본에 허용된 최대 길이를 초과하는 경우 사용할 수 있습니다.
 

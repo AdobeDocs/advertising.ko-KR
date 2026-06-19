@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: 881
 ht-degree: 0%
 
 ---
 
 # 템플릿을 통해 인벤토리 피드 데이터 전파
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL LY Ads]&#x200B;(삭제 작업만), [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정만*
 
 광고 네트워크별 피드 템플릿을 만들고 피드 파일 또는 [!DNL Google] 또는 [!DNL Microsoft] 판매자 센터 계정을 연결한 후 [피드 데이터 설정](feed-settings-manage.md)에 따라 템플릿을 통해 피드 데이터를 전파하여 광고를 동적으로 만들 수 있습니다. 전달 중에 템플릿의 열 이름은 피드의 데이터 값으로 대체되며, 템플릿에서 다르게 지정하지 않는 한 생성된 캠페인 및 해당 구성 요소의 기본 설정은 다음과 같습니다. 템플릿 옵션에 따라 검색, 소셜 및 Commerce은 광고에 대한 새 계정 구조(캠페인, 광고 그룹, 키워드)를 만들거나 광고를 기존 계정 구조에 매핑합니다.
 

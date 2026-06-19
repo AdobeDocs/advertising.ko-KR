@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1637
 ht-degree: 0%
@@ -129,30 +129,30 @@ ht-degree: 0%
 
 ## 광고 네트워크별 일괄 시트 행 {#bulksheet-rows-by-ad-network}
 
-| 일괄 시트 행 | [!DNL Baidu] | [!DNL Google Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo! Japan Ads] | [!DNL Yahoo Native] | [!DNL Yandex] | 메모 |
+| 일괄 시트 행 | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo Native] | [!DNL Yandex] | 메모 |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | 예 | 예 | 예 | 예 | 예 | 예 | 예 | 예 | 예 | — |
 | [!UICONTROL Adgroup] | 예 | 예 | 예 | 예 | 예 | 예 | 예 | 예 | 예 | — |
-| [!UICONTROL Creative] *또는* [!UICONTROL Creative (except RSA)] | 예 | 예 | 예 | — | — | 예 | 예 | 예 | 예 | ([!DNL Google Ads]) [!UICONTROL Responsive Search Ad] 행에서 사용할 수 있는 응답형 검색 광고를 제외한 모든 광고 유형에 사용합니다. |
-| [!UICONTROL Responsive Search Ad] | — | 예 | 예 | — | — | — | — | — | — | — |
-| [!UICONTROL Keyword] | 예 | 예 | 예 | 예 | 예 | — | 예 | 예 | 예 | 음수가 아닌 키워드에만 사용합니다. 캠페인 또는 광고 그룹 수준에서 만든 부정적 키워드를 보려면 [!UICONTROL Campaign Negative Keyword] 또는 [!UICONTROL Adgroup Negative Keyword] 행을 사용하십시오. |
-| [!UICONTROL Promoted Pin] | — | — | — | — | 예 | — | — | — | — | — |
+| [!UICONTROL Creative] *또는* [!UICONTROL Creative (except RSA)] | 예 | 예 | 예 | 예 | — | — | 예 | 예 | 예 | ([!DNL Google Ads]) [!UICONTROL Responsive Search Ad] 행에서 사용할 수 있는 응답형 검색 광고를 제외한 모든 광고 유형에 사용합니다. |
+| [!UICONTROL Responsive Search Ad] | — | 예 | — | 예 | — | — | — | — | — | — |
+| [!UICONTROL Keyword] | 예 | 예 | 예 | 예 | 예 | 예 | — | 예 | 예 | 음수가 아닌 키워드에만 사용합니다. 캠페인 또는 광고 그룹 수준에서 만든 부정적 키워드를 보려면 [!UICONTROL Campaign Negative Keyword] 또는 [!UICONTROL Adgroup Negative Keyword] 행을 사용하십시오. |
+| [!UICONTROL Promoted Pin] | — | — | — | — | — | 예 | — | — | — | — |
 | [!UICONTROL Placement] | — | 예 | — | — | — | — | — | — | — | — |
-| [!UICONTROL Auto Target] | — | 예 | 예 | — | — | — | — | — | — | 광고 그룹의 동적 검색 대상에 를 사용합니다. |
-| [!UICONTROL Shopping Product Group] | — | 예 | 예 | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Site Link] | — | 예 | 예 | — | — | — | — | 예 | — | — |
-| [!UICONTROL Campaign Negative Keyword] | 예 | 예 | 예 | — | — | — | 예 | 예 | — | 캠페인 또는 광고 그룹 수준에서 만든 부정적 키워드에 대해서만 사용합니다. 음수가 아닌 키워드를 보려면 사용 가능한 경우 [!UICONTROL Keyword] 행을 사용하십시오. |
-| [!UICONTROL Campaign Negative Website] | — | 예 | 예 | — | — | — | — | 예 | — | — |
+| [!UICONTROL Auto Target] | — | 예 | — | 예 | — | — | — | — | — | 광고 그룹의 동적 검색 대상에 를 사용합니다. |
+| [!UICONTROL Shopping Product Group] | — | 예 | — | 예 | — | — | — | — | — | — |
+| [!UICONTROL Campaign Site Link] | — | 예 | — | 예 | — | — | — | 예 | — | — |
+| [!UICONTROL Campaign Negative Keyword] | 예 | 예 | 예 | 예 | — | — | — | 예 | — | 캠페인 또는 광고 그룹 수준에서 만든 부정적 키워드에 대해서만 사용합니다. 음수가 아닌 키워드를 보려면 사용 가능한 경우 [!UICONTROL Keyword] 행을 사용하십시오. |
+| [!UICONTROL Campaign Negative Website] | — | 예 | — | 예 | — | — | — | 예 | — | — |
 | [!UICONTROL Adgroup Site Link] | — | 예 | — | — | — | — | — | 예 | — | — |
 | [!UICONTROL Creative Site Link] | — | — | — | — | — | — | — | — | 예 | — |
-| [!UICONTROL Adgroup Negative Keyword] | 예 | 예 | 예 | — | — | — | 예 | 예 | — | — |
-| [!UICONTROL Adgroup Negative Website] | — | 예 | 예 | — | — | — | — | — | — | — |
-| [!UICONTROL Campaign Location Target] | 예 | 예 | 예 | — | — | — | 예 | 예 | — | — |
-| [!UICONTROL Adgroup Location Target] | — | — | 예 | — | — | — | — | 예 | — | — |
-| [!UICONTROL Campaign Device Target] | — | 예 | 예 | — | — | — | — | 예 | — | — |
-| [!UICONTROL Adgroup Device Target] | — | 예 | 예 | — | — | — | — | 예 | — | — |
-| [!UICONTROL Campaign RLSA Target] | — | 예 | 예 | — | — | — | — | — | — | — |
-| [!UICONTROL Adgroup RLSA Target] | — | 예 | 예 | — | — | — | — | — | — | — |
+| [!UICONTROL Adgroup Negative Keyword] | 예 | 예 | 예 | 예 | — | — | — | 예 | — | — |
+| [!UICONTROL Adgroup Negative Website] | — | 예 | — | 예 | — | — | — | — | — | — |
+| [!UICONTROL Campaign Location Target] | 예 | 예 | 예 | 예 | — | — | — | 예 | — | — |
+| [!UICONTROL Adgroup Location Target] | — | — | — | 예 | — | — | — | 예 | — | — |
+| [!UICONTROL Campaign Device Target] | — | 예 | — | 예 | — | — | — | 예 | — | — |
+| [!UICONTROL Adgroup Device Target] | — | 예 | — | 예 | — | — | — | 예 | — | — |
+| [!UICONTROL Campaign RLSA Target] | — | 예 | — | 예 | — | — | — | — | — | — |
+| [!UICONTROL Adgroup RLSA Target] | — | 예 | — | 예 | — | — | — | — | — | — |
 | [!UICONTROL Campaign RLSA Negative] | — | 예 | — | — | — | — | — | — | — | — |
 | [!UICONTROL Adgroup RLSA Negative] | — | 예 | — | — | — | — | — | — | — | — |
 
@@ -160,10 +160,10 @@ ht-degree: 0%
 
 * [&#x200B; [!DNL Baidu] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
 * [&#x200B; [!DNL Google Ads] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [&#x200B; [!DNL LY Ads] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [&#x200B; [!DNL Microsoft Advertising] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
 * [&#x200B; [!DNL Naver] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
 * [&#x200B; [!DNL Yahoo! Display Network] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [&#x200B; [!DNL Yahoo! Japan Ads] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [&#x200B; [!DNL Yandex] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]

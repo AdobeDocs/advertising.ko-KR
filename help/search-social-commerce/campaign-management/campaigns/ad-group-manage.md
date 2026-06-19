@@ -8,20 +8,20 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: 670
 ht-degree: 0%
 
 ---
 
 # 광고 그룹 관리
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] 및 기존 [!DNL Baidu] 계정만*
+*[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] 및 기존 [!DNL Baidu] 계정만*
 
 광고 그룹에는 광고 세트와 관련 키워드가 포함됩니다. 디스플레이 네트워크를 타깃팅하는 캠페인의 광고 그룹에는 광고가 표시될 수 있는 디스플레이 네트워크상의 위치인 배치도 포함될 수 있습니다. 광고 그룹의 모든 구성 요소에 적용되는 광고 그룹 설정은 광고 네트워크별로 다릅니다.
 
-검색, 소셜 및 Commerce 내에서 [동기화된 광고 네트워크 계정](/help/search-social-commerce/introduction/supported-inventory.md) 내의 [지원되는 캠페인 유형](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)에 대한 광고 그룹을 만들 수 있습니다. 광고 그룹의 상태를 편집하고 변경할 수도 있습니다.
+검색, 소셜 및 Commerce 내에서 [동기화된 광고 네트워크 계정](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) 내의 [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)에 대한 광고 그룹을 만들 수 있습니다. 광고 그룹의 상태를 편집하고 변경할 수도 있습니다.
 
 ## 광고 그룹 만들기
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 광고 네트워크, 계정 및 캠페인을 선택한 다음 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! 입력 일본 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md) 또는 [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 광고 그룹 설정입니다.
+1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [LY 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 광고 그룹 설정을 입력하십시오.
 
    광고 네트워크에 따라 설정이 [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting] 및 [!UICONTROL URL Options]&#x200B;(으)로 그룹화될 수 있습니다. [!UICONTROL Adgroup Frequency Cap Settings], [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites]에 대한 설정을 구성하려면 **[!UICONTROL Add Frequency Cap Settings]**, **[!UICONTROL Add Negative Keywords]** 또는 **[!UICONTROL Add Negative Websites]**&#x200B;을(를) 각각 클릭합니다.
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
       * 데이터 테이블 위의 도구 모음에서 ![편집](/help/search-social-commerce/assets/edit.png "편집")을 클릭합니다.
 
-1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! 편집 일본 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md) 또는 [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 광고 그룹 설정입니다.
+1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [LY 광고](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) 광고 그룹 설정을 편집합니다.
 
    여러 광고 그룹의 경우 설정은 광고 네트워크에 따라 [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting] 및 [!UICONTROL URL Options]&#x200B;(으)로 그룹화될 수 있습니다. 선택한 모든 광고 그룹에 공통되는 필드만 편집할 수 있으며, 변경 사항은 선택한 모든 광고 그룹에 적용됩니다. 일부 영숫자 필드의 경우 기존 값을 지정된 값으로 변경하거나, 기존 문자열을 지정된 문자열로 대체하거나, 각 값의 시작 부분에 지정된 접두사를 추가하거나, 각 값의 끝에 접미사를 추가하는 옵션이 있습니다. 일부 통화 필드의 경우, 기존 값을 지정된 값으로 변경하거나, 특정 백분율 또는 통화 금액만큼 금액을 제한으로 늘리거나 줄이는 옵션이 있습니다.
 
@@ -102,6 +102,6 @@ ht-degree: 0%
 >
 >* [[!DNL Baidu] 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
 >* [[!DNL Google Ads] 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+>* [[!DNL LY Ads] 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [[!DNL Microsoft Advertising] 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
->* [[!DNL Yahoo! Japan Ads] 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [[!DNL Yandex] 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)

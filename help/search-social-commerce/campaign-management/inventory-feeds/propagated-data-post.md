@@ -8,26 +8,26 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: 850
 ht-degree: 0%
 
 ---
 
 # 피드에서 생성된 캠페인 데이터를 광고 네트워크에 게시
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL LY Ads]&#x200B;(삭제 작업만), [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정만*
 
 피드에서 생성된 캠페인 데이터를 관련 템플릿을 통해 전파할 때 또는 별도의 프로세스로 게시할 수 있습니다. 데이터를 게시하면 기존의 전파된 데이터가 [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] 및 [!UICONTROL Ads] 목록에서 제거됩니다.
 
 게시가 성공하려면 모든 광고 그룹을 캠페인에 할당하고, 모든 키워드와 광고를 광고 그룹에 할당하며, 길이 위반 없이 모든 필수 정보를 포함해야 합니다.
 
-* 옵션을 &quot;[!UICONTROL Propagate and Preview]&quot;에 사용한 경우 [&#x200B; 보기에서 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md)생성된 일괄 시트 파일`<feed file name>_<template name>`(&quot;[!UICONTROL Bulksheets]&quot;)을 게시합니다.
+* 옵션을 &quot;[!UICONTROL Propagate and Preview]&quot;에 사용한 경우 [!UICONTROL Bulksheets] 보기에서 [생성된 일괄 시트 파일](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md)(&quot;`<feed file name>_<template name>`&quot;)을 게시합니다.
 
   이전에 [랜딩 페이지의 유효성 검사](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)를 하지 않았다면 파일을 게시하기 전에 확인할 수 있습니다.
 
-* 옵션을 &quot;[!UICONTROL Propagate only]&quot;에 사용한 경우 [[!UICONTROL New] 탭에서 캠페인 계층 구조 보기 내에 &#x200B;](propagated-data-status.md) 상태가 [!UICONTROL Templates]인 구성 요소에 대해 생성된 데이터를 게시할 수 있습니다.
+* 옵션을 &quot;[!UICONTROL Propagate only]&quot;에 사용한 경우 [!UICONTROL Templates] 탭에서 캠페인 계층 구조 보기 내에 [[!UICONTROL New] 상태가 &#x200B;](propagated-data-status.md)인 구성 요소에 대해 생성된 데이터를 게시할 수 있습니다.
 
   >[!NOTE]
   >
@@ -35,7 +35,7 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >이전에 랜딩 페이지의 유효성을 검사하지 않았으며 그렇게 하려면 광고 네트워크에 게시하지 않고 [데이터를 전파하고 &#x200B;](feed-data-propagate.md) 보기에서 미리 보기[!UICONTROL Bulksheets]합니다. 그런 다음 파일을 광고 네트워크에 수동으로 게시하기 전에 [URL의 유효성을 확인](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)할 수 있습니다.
+  >이전에 랜딩 페이지의 유효성을 검사하지 않았으며 그렇게 하려면 광고 네트워크에 게시하지 않고 [데이터를 전파하고 [!UICONTROL Bulksheets] 보기에서 미리 보기](feed-data-propagate.md)합니다. 그런 다음 파일을 광고 네트워크에 수동으로 게시하기 전에 [URL의 유효성을 확인](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md)할 수 있습니다.
 
    1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
 
@@ -53,9 +53,9 @@ ht-degree: 0%
 
          * *[!UICONTROL Post to search engine on these start/end times (in America/Los_Angeles time)]:* 일괄 시트 파일을 만들고 나중에 게시합니다. 다음을 지정합니다.
 
-            * **[!UICONTROL Start Time]:** 일괄 시트 파일을 광고 네트워크에 게시해야 하는 미래 날짜 및 시간입니다. 기본적으로 파일은 다음 날 00:00(오전 12:00)에 전송됩니다. **참고:** 더 오래 처리해야 하는 대용량 파일의 경우 캠페인 관리 보기 또는 네트워크의 광고 관리자 내에서 게시된 데이터를 즉시 사용할 수 없습니다.
+            * **[!UICONTROL Start Time]:** 일괄 시트 파일을 광고 네트워크에 게시해야 하는 미래 날짜 및 시간입니다. 기본적으로 파일은 00:00(오전 12:00)에 전송됩니다 다음 날. **참고:** 더 오래 처리해야 하는 대용량 파일의 경우 캠페인 관리 보기 또는 네트워크의 광고 관리자 내에서 게시된 데이터를 즉시 사용할 수 없습니다.
 
-            * **[!UICONTROL End Time]:** &quot;[&quot;에 대한 &#x200B;](feed-settings-manage.md#feed-data-settings)피드 데이터 설정[!UICONTROL When the Scheduled End Date is reached]을(를) 기반으로 게시된 광고를 일시 중지하거나 삭제할 수 있는 향후 날짜 및 시간입니다. 기본적으로 종료 시간은 오늘부터 30일 후인 00:00(오전 12:00)입니다. **[!UICONTROL None]**&#x200B;을(를) 선택하여 무기한으로(또는 템플릿에 대한 새 데이터를 전파할 때까지) 데이터를 활성 상태로 유지하거나 날짜 및 시간을 지정하십시오.
+            * **[!UICONTROL End Time]:** &quot;[!UICONTROL When the Scheduled End Date is reached]&quot;에 대한 [피드 데이터 설정](feed-settings-manage.md#feed-data-settings)을(를) 기반으로 게시된 광고를 일시 중지하거나 삭제할 수 있는 향후 날짜 및 시간입니다. 기본적으로 종료 시간은 00:00(오전 12:00)입니다. 오늘부터 30일 후. **[!UICONTROL None]**&#x200B;을(를) 선택하여 무기한으로(또는 템플릿에 대한 새 데이터를 전파할 때까지) 데이터를 활성 상태로 유지하거나 날짜 및 시간을 지정하십시오.
 
               날짜를 지정하려면 DD/MM/YYYY 또는 D/M/YYYY 형식을 사용하거나 ![달력](/help/search-social-commerce/assets/calendar.png "달력")을 클릭하여 달력을 열고 [날짜를 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)합니다. 시간을 변경하려면 시간을 24시간 형식 HH/MM 또는 H/M으로 입력하거나 목록에서 시간(30분 간격)을 선택합니다.
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
       * **[!UICONTROL Generate Tracking URLs]:** 일괄 시트 파일에 키워드 및 광고 변형에 대한 추적 URL을 포함할지 여부: *[!UICONTROL Yes]*(기본값) 또는 *[!UICONTROL No]*.
 
-        *[!UICONTROL Yes]*&#x200B;을(를) 선택하면 [!UICONTROL Tracking Methods]계정 설정[의 &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) 매개 변수에 따라 키워드 및 광고의 기본 URL에서 URL이 생성되거나 기존 캠페인에 데이터를 매핑하는 경우 기존 [!UICONTROL Tracking Methods]캠페인 설정[의 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) 매개 변수에 URL이 생성됩니다.
+        *[!UICONTROL Yes]*&#x200B;을(를) 선택하면 [계정 설정](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)의 [!UICONTROL Tracking Methods] 매개 변수에 따라 키워드 및 광고의 기본 URL에서 URL이 생성되거나 기존 캠페인에 데이터를 매핑하는 경우 기존 [캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)의 [!UICONTROL Tracking Methods] 매개 변수에 URL이 생성됩니다.
 
         관련 항목에 대한 추적 URL이 있는 경우 새 URL이 필요하지 않으면 다시 생성되지 않습니다(예: 키워드 일치 유형, 크리에이티브 텍스트 또는 계정의 추적 매개 변수가 변경된 경우).
 

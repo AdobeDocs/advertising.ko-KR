@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Yahoo! Japan Ads] 키워드 설정'
-description: ' [!DNL Yahoo! Japan Ads] 키워드에 대한 설정을 참조합니다.'
+title: '[!DNL LY Ads] 키워드 설정'
+description: ' [!DNL LY Ads] 키워드에 대한 설정을 참조합니다.'
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/QE-TpsuMQW3Tmqv5clGPcMvyeJIYDPMQJMiK79eOKms
@@ -10,25 +10,25 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 141
+source-wordcount: 162
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] 키워드 설정
+# [!DNL LY Ads] 키워드 설정
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** 키워드입니다. 키워드에 대한 [[!DNL Yahoo! Japan Ads] 일치 유형 구문](https://ads-help.yahoo-net.jp/s/article/H000044997)을(를) 포함하여 최대 길이는 80자입니다.
+**[!UICONTROL Keywords]:** 키워드입니다. 키워드에 대한 [[!DNL LY Ads] 일치 유형 구문](https://ads-help.yahoo-net.jp/s/article/H000044997)을(를) 포함하여 최대 길이는 80자입니다.
 
 최대 2000개의 키워드를 입력하거나 붙여넣을 수 있습니다. 여러 키워드를 쉼표로 구분하거나 별도의 줄에 입력합니다.
 
 >[!NOTE]
 >
 >* [!UICONTROL Keywords] > [!UICONTROL Negatives] 보기, 광고 그룹 및 캠페인 설정에서 부정적인 키워드를 만들 수 있습니다.
->* 야후! 일본 키워드와 일치 유형은 변경할 수 있으므로 기존 키워드를 삭제하지 않고 편집할 수 있습니다.
+>* LY Ads 키워드 및 일치 유형은 변경할 수 있으므로 기존 키워드를 삭제하지 않고 편집할 수 있습니다.
 
 **[!UICONTROL Status]:** 키워드의 표시 상태: *활성* 또는 *일시 중지됨*. 새 키워드의 기본값은 *Active*&#x200B;입니다.
 

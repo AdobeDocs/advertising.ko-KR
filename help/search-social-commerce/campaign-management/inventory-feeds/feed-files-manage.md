@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1249
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 인벤토리 데이터 피드 파일 관리
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]&#x200B;(삭제 작업만) 및 [!DNL Yandex] 계정만*
+*[!DNL Google Ads], [!DNL LY Ads]&#x200B;(삭제 작업만), [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정만*
 
 자체 피드 데이터를 제출하는 경우 제품 데이터가 포함된 파일을 업로드하여 제품 데이터를 기반으로 캠페인 구조, 광고 및 키워드를 동적으로 만들어야 합니다. 그런 다음 광고 네트워크별 광고 템플릿에 연결하고 템플릿을 통해 데이터를 처리하여 관련 광고 네트워크에 데이터를 게시할 수 있습니다. 여러 템플릿을 하나의 피드 파일과 연결할 수 있지만 각 템플릿은 하나의 피드 파일에만 연결할 수 있습니다.
 

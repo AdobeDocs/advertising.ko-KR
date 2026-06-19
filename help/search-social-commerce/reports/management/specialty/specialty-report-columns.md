@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 3140
+source-wordcount: 3173
 ht-degree: 0%
 
 ---
@@ -65,13 +65,13 @@ ht-degree: 0%
 | [!UICONTROL Audience Status] | 대상의 상태입니다. |
 | [!UICONTROL Average CPC] | 클릭당 평균 비용입니다. |
 | [!UICONTROL Average CPM] | 1,000분(밀리초) 노출 당 평균 비용. |
-| [!UICONTROL Average Position], [!UICONTROL Avg Position] | 지정된 날짜 범위 동안의 평균 광고 위치입니다.<br><br>[!DNL Google Ads] 및 [!DNL Yahoo! Japan Ads] 캠페인의 경우 이 데이터는 2019년 9월까지만 사용할 수 있습니다. [!DNL Microsoft Advertising]의 경우 이 데이터는 2021년 1월 22일까지만 사용할 수 있습니다. |
+| [!UICONTROL Average Position], [!UICONTROL Avg Position] | 지정된 날짜 범위 동안의 평균 광고 위치입니다.<br><br>[!DNL Google Ads] 및 [!DNL LY Ads] 캠페인의 경우 이 데이터는 2019년 9월까지만 사용할 수 있습니다. [!DNL Microsoft Advertising]의 경우 이 데이터는 2021년 1월 22일까지만 사용할 수 있습니다. |
 | [!UICONTROL Bid Match Type] | ([!UICONTROL MSA Ad Extension]개 보고서) 입찰 대상 키워드와 연결된 일치 유형입니다. |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report]) 캠페인 예산. |
 | [!UICONTROL Campaign Name] | 캠페인. |
 | [!UICONTROL Campaign Start Date] | ([!UICONTROL Campaign Daily Impression Share Report]) 캠페인에 대한 입찰이 이루어진 첫 번째 날입니다. |
 | [!UICONTROL Campaign Status] | 캠페인 상태: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, *[!UICONTROL Ended]* 또는 *[!UICONTROL Deleted]*. |
-| [!UICONTROL Category]&#x200B;([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) 첫 번째 수준부터 다섯 번째 수준까지 [!DNL Google] 제품 범주입니다. |
+| [!UICONTROL Category] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) 첫 번째 수준부터 다섯 번째 수준까지 [!DNL Google] 제품 범주입니다. |
 | [!UICONTROL Channel Type] | 마케팅 채널 유형: *[!UICONTROL Search]* 또는 *[!UICONTROL Content]*. 보고서 설정에서 보고서의 [!UICONTROL Search/Content] 설정이 &quot;[!UICONTROL Combined]&quot;인 경우 이 열은 포함되지 않습니다. |
 | [!UICONTROL City] | ([!UICONTROL AdWords Geo Report] 및 [!UICONTROL Bing Ads Geo Report]) 클릭이 시작된 도시입니다. 사용자의 IP 주소에서 결정됩니다. |
 | [!UICONTROL Click Match Type] | ([!UICONTROL Keyword Daily Impression Share Report]) 클릭한 광고에 대한 키워드 일치 유형입니다. 이 값은 일치 유형이 여러 개인 [!DNL Microsoft Advertising] 키워드를 제외하고 목록 일치 유형과 동일합니다. [!DNL Microsoft Advertising] 키워드의 경우 이 값은 실제로 클릭한 일치 유형입니다. |
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Destination URL] | 광고의 최종 URL 또는 대상 URL(추적 매개 변수 포함)입니다. |
 | [!UICONTROL Creative Display URL] | 최종 사용자가 광고에서 보는 광고의 표시 URL입니다. |
 | [!UICONTROL Creative Status] | ([!UICONTROL MSA Ad Extension]개 보고서) 광고 상태입니다. |
-| [!UICONTROL Creative Name] | (트랜잭션 보고서; [!DNL Yahoo! Japan]만 해당) 광고 이미지 이름입니다. |
+| [!UICONTROL Creative Name] | (트랜잭션 보고서; [!DNL LY Ads]만 해당) 광고 이미지 이름입니다. |
 | [!UICONTROL Creative Title] | 광고의 제목 또는 헤드라인입니다. |
 | [!UICONTROL Cross Device Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report]) 사용자가 하나의 장치에서 ad를 클릭한 다음 다른 장치나 브라우저에서 변환할 때 발생하는 변환입니다. 장치 간 전환은 모든 전환에 포함됩니다. |
 | [!UICONTROL CTR] | 클릭스루 비율(클릭 수를 포함된 광고에 대한 노출 횟수로 나눈 값) |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | 유효 CPM 또는 지정된 날짜 범위 동안 1000회 노출당 지급된 평균 비용입니다. eCPM 값은 CPM 또는 CPC 캠페인에 대해 계산됩니다. |
 | [!UICONTROL EF Campaign ID] | Search, Social 및 Commerce이 캠페인에 할당하는 숫자 ID입니다. |
 | [!UICONTROL EF Portfolio Group ID] | 포트폴리오가 속한 포트폴리오 그룹의 숫자 ID입니다. |
-| [!UICONTROL EF Search Engine ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. <i>[!UICONTROL 3]</i>의 [!DNL Google Ads], <i>[!UICONTROL 10]</i>의 [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i>의 [!DNL Meta], <i>[!UICONTROL 86]</i>의 [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i>의 [!DNL Naver], <i>[!UICONTROL 88]</i>의 [!DNL Baidu], <i>[!UICONTROL 90]</i>의 [!DNL Yandex], <i>[!UICONTROL 94]</i>의 [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i>의 [!DNL Yahoo Native]&#x200B;(더 이상 사용되지 않음) 또는 <i>[!UICONTROL 106]</i>의 [!DNL Pinterest]&#x200B;(더 이상 사용되지 않음). |
+| [!UICONTROL EF Search Engine ID] | Search, Social 및 Commerce이 광고 네트워크에 할당하는 숫자 ID입니다. [!DNL Google Ads]의 <i>[!UICONTROL 3]</i>, [!DNL Microsoft Advertising]의 <i>[!UICONTROL 10]</i>, [!DNL Meta]의 <i>[!UICONTROL 45]</i>, [!DNL Yahoo! Display Network]의 <i>[!UICONTROL 86]</i>, [!DNL Naver]의 <i>[!UICONTROL 87]</i>, [!DNL Baidu]의 <i>[!UICONTROL 88]</i>, [!DNL Yandex]의 <i>[!UICONTROL 90]</i>, [!DNL LY Ads]의 <i>[!UICONTROL 94]</i>(이전의 [!DNL Yahoo! Japan Ads]), [!DNL Yahoo Native]의 <i>[!UICONTROL 105]</i>(더 이상 사용되지 않음) 또는 [!DNL Pinterest]의 <i>[!UICONTROL 106]</i>(더 이상 사용되지 않음). |
 | [!UICONTROL End Date] | 마지막으로 보고된 날짜입니다. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension]개 보고서) [확장의 표시 이름](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension]개 보고서) 광고 확장 유형에 대한 ID입니다. |
@@ -159,7 +159,7 @@ ht-degree: 0%
 | [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) 자산 그룹이 최대 용량으로 사용되고 있거나 사용되고 있지 않은 이유. 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다. 값에는 *적격,* *제한,* *NOT_적격,* *일시 중지됨,* *보류 중,* *제거됨,* *알 수 없음,* 또는 *지정되지 않음.*&#x200B;이 포함될 수 있습니다. |
 | [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨&rbrace;이 포함될 수 있습니다.* |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report]) 광고에 표시된 제품의 제품 ID입니다. <b>참고:</b> 제품 목록에 추적 매개 변수 `ev_plx=<GMC product ID>`이(가) 포함된 경우에만 ID가 캡처됩니다. [!DNL Google Merchant Center] 내에 추가해야 합니다. |
-| [!UICONTROL Product Type]&#x200B;([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) 첫 번째 수준부터 다섯 번째 수준까지의 제품 유형(제품 그룹에 대해 사용자가 직접 정의한 특성)입니다. |
+| [!UICONTROL Product Type] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) 첫 번째 수준부터 다섯 번째 수준까지의 제품 유형(제품 그룹에 대해 사용자가 직접 정의한 특성)입니다. |
 | [!UICONTROL Query Match Type] | (AdWords 검색 쿼리 보고서) 검색 쿼리에 대한 키워드 일치 유형입니다. |
 | [!UICONTROL Region] | ([!UICONTROL AdWords Geo Report] 및 [!UICONTROL Bing Ads Geo Report]) 노출 또는 클릭이 시작된 지역 또는 미국/캐나다 주입니다. 사용자의 IP 주소에서 결정됩니다. |
 | [!UICONTROL Return on Ad Spend] | ([!UICONTROL MSA Ad Extension]개의 보고서) 총 수입을 지출로 나눈 비율로 표시합니다. |
@@ -179,7 +179,7 @@ ht-degree: 0%
 | [!UICONTROL Search IS% Lost to Budget] | ([!UICONTROL Campaign Daily Impression Share Report] 및 [!UICONTROL Keyword Daily Impression Share Report]) 일별 또는 월별 예산이 너무 낮아서 광고에 받지 못한 노출 횟수의 예상 비율입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Search IS% Lost to Keyword Relevance (Bing)] | ([!DNL Microsoft Advertising]만 해당, [!UICONTROL Campaign Daily Impression Share Report] 및 [!UICONTROL Keyword Daily Impression Share Report], 2019년 10월 11일까지 사용 가능한 데이터만 해당) 키워드 관련성이 부족하여 광고가 받지 못한 예상 노출 비율입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Search IS% Lost to Page Relevance (Bing)] | ([!DNL Microsoft Advertising]만 해당, [!UICONTROL Campaign Daily Impression Share Report] 및 [!UICONTROL Keyword Daily Impression Share Report], 2019년 10월 11일까지 사용 가능한 데이터만 해당) 페이지 관련성이 부족하여 광고가 받지 못한 예상 노출 비율입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다. |
-| [!UICONTROL Search IS% Lost to Rank] | ([!UICONTROL Campaign Daily Impression Share Report] 및 [!UICONTROL Keyword Daily Impression Share Report]) 광고 등급이 충분하지 않아 광고가 받지 못한 검색 네트워크에 대한 노출 횟수의 예상 비율입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다.<br><br><b>참고:</b> [!DNL Microsoft Advertising] 캠페인에 대한 데이터는 2019년 10월 11일까지만 사용할 수 있습니다. |
+| [!UICONTROL Search IS% Lost to Rank] | ([!UICONTROL Campaign Daily Impression Share Report] 및 [!UICONTROL Keyword Daily Impression Share Report]) 광고 등급이 충분하지 않아 광고가 받지 못한 검색 네트워크에 대한 노출 횟수의 예상 비율입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다.<br><br><b>참고:</b> [!DNL Microsoft Advertising] 캠페인에 대한 데이터는 2019년 10월 11일까지 사용할 수 있습니다. |
 | [!UICONTROL Search lost abs. top IS (budget)] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] 및 [!UICONTROL Keyword Daily Impression Share Report]) 일별 또는 월별 예산이 너무 낮아서 광고가 유기 검색 결과보다 첫 번째 광고가 아닌 시간의 비율입니다. [!DNL Google Ads] 캠페인의 경우 90%가 넘는 백분율이 &quot;>90%&quot; 또는 &quot;0.9001&quot;로 표시됩니다. |
 | [!UICONTROL Search lost abs. top IS (rank)] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] 및 [!UICONTROL Keyword Daily Impression Share Report]) 광고 순위가 낮기 때문에 광고가 유기 검색 결과보다 첫 번째 광고가 아닌 시간의 백분율입니다. [!DNL Google Ads] 캠페인의 경우 90%가 넘는 백분율이 &quot;`>90%`&quot; 또는 &quot;`0.9001`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Search lost IS (budget)] | ([!DNL Google Ads]만 해당; [!UICONTROL Keyword Daily Impression Share Report]) 일별 또는 월별 예산이 너무 낮아서 광고가 표시되지 않은 시간의 비율입니다. 이 지표는 캠페인 수준에서만 사용할 수 있습니다. 90%가 넘는 백분율이 &quot;`>90%`&quot; 또는 &quot;`0.9001`&quot;(으)로 표시됩니다. |

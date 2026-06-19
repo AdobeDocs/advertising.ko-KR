@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 484
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 대상 URL이 있는 계정의 경우 해당 [!UICONTROL Base URL] 필드에 값을 입력하십시오.
 
-최종 URL이 있는 계정의 경우 해당 [!UICONTROL Tracking Template] 필드에 화면 값을 입력하십시오. `&url=` 매개 변수(예: `{lpurl}`) 뒤에 최종 URL에 대한 매개 변수를 추가해야 합니다. [!DNL Yahoo! Japan Ads] 계정의 경우 `{lpurl}` 매개 변수를 사용하십시오. 추적 템플릿의 최종 URL을 나타내는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 매개 변수 목록을 보려면 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)&#x200B;(&quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿 전용&quot; 매개 변수 참조) 및 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799/2)를 참조하십시오.
+최종 URL이 있는 계정의 경우 해당 [!UICONTROL Tracking Template] 필드에 화면 값을 입력하십시오. `&url=` 매개 변수(예: `{lpurl}`) 뒤에 최종 URL에 대한 매개 변수를 추가해야 합니다. [!DNL LY Ads] 계정의 경우 `{lpurl}` 매개 변수를 사용하십시오. 추적 템플릿의 최종 URL을 나타내는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 매개 변수 목록을 보려면 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)&#x200B;(&quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 &quot;추적 템플릿 전용&quot; 매개 변수 참조) 및 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799/2)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >

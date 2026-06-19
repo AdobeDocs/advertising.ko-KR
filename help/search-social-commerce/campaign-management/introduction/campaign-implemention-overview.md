@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 979
+source-wordcount: 992
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ Adobe은 각 광고주와 함께 광고 네트워크 계정 및 캠페인을 설
 
       * (Google Ads, Microsoft Advertising, Yahoo! Ads 및 Yandex 계정만 해당) 사용자가 만든 광고 네트워크별 광고 템플릿과 FTP 위치에 업로드한 인벤토리 데이터 파일의 내용에 따라 인벤토리의 각 항목을 대상으로 하는 동적 광고 및 키워드를 만드는 [자동화된 프로세스를 설정합니다.](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
 
-      * (Baidu, Google Ads, Microsoft Advertising, Yahoo! 일본 광고 및 Yandex 계정만 해당) 계정에 대해 원하는 만큼의 데이터가 포함된 [일괄 시트 파일](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)을 업로드한 다음 광고 네트워크에 게시합니다.
+      * (Baidu, Google Ads, [!DNL LY Ads], Microsoft Advertising 및 Yandex 계정만 해당) 계정에 대해 원하는 만큼 데이터가 포함된 [일괄 시트 파일](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)을 업로드한 다음 광고 네트워크에 게시합니다.
 
-      * (Baidu, Google Ads, Microsoft Advertising, Yahoo! 일본 광고 및 Yandex 계정만 해당) 개별 구성 요소에 대한 데이터를 인터페이스에 직접 입력합니다. 대부분의 캠페인 및 광고 유형의 경우 캠페인 수준, 광고 그룹 수준 및 개별 키워드, 배치 및 광고 수준에서 데이터를 만들 수 있습니다.
+      * (Baidu, Google Ads, [!DNL LY Ads], Microsoft Advertising 및 Yandex 계정만 해당) 개별 구성 요소에 대한 데이터를 인터페이스에 직접 입력합니다. 대부분의 캠페인 및 광고 유형의 경우 캠페인 수준, 광고 그룹 수준 및 개별 키워드, 배치 및 광고 수준에서 데이터를 만들 수 있습니다.
 
       그러나 일부 캠페인 및 광고 유형에는 고유한 워크플로우가 필요합니다. [[!DNL Microsoft Advertising] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md), [[!DNL Google Ads] 동적 검색 광고](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md), [[!DNL Google Ads] 성과 최대 캠페인](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md) 및 [[!DNL Google Ads] 쇼핑 캠페인](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md) 설정에 대한 지침을 참조하십시오.
 
