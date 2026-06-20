@@ -4,13 +4,11 @@ description: 광고 네트워크에서 사용할 수 있는 일괄 시트 기능
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/VvfpRiNIhOEk15R4eJn-BP-NmPeNvYVzRN6evnJK45U
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
 workflow-type: tm+mt
-source-wordcount: 774
+source-wordcount: 775
 ht-degree: 0%
 
 ---
@@ -35,7 +33,7 @@ ht-degree: 0%
 
   [!DNL Naver] 데이터를 Search, Social 및 Commerce 내에서 사용할 수 있도록 업로드할 수 있지만 광고 네트워크에 게시할 수 없습니다. 기존(동기화되지 않은) 데이터를 다운로드할 수도 있습니다.
 
-* **데이터만 다운로드:** [!DNL Pinterest], [!DNL Yahoo Native] 및 [!DNL Yahoo! Display Network] 계정
+* **데이터만 다운로드:** [!DNL Pinterest], [!DNL Yahoo DSP] 및 [!DNL Yahoo Native] 계정
 
   기존(동기화되지 않은) 데이터를 다운로드할 수 있습니다.
 
