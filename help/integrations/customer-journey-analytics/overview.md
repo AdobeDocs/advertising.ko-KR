@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
+source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 498
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Adobe Advertising은 양방향 데이터 공유 및 보고를 위해 Adobe Custo
 
    * 최적화 및 보고에 사용할 수 있는 Adobe Advertising의 Customer Journey Analytics 속성 데이터
 
-  이 사용 사례에서는 웹 SDK을 사용하여 사이트 이벤트(쿠키, 해시된 IP 주소 또는 범용 ID 사용)를 추적하고 사이트 이벤트를 [!DNL Google Ads], [!DNL Microsoft Advertising] 및 [!DNL Meta]의 유료 미디어 활동과 Adobe DSP에 연결합니다. 데이터 수집에도 Adobe Experience Platform을 사용합니다.
+  이 사용 사례에서는 웹 SDK을 사용하여 사이트 이벤트(쿠키, 해시된 IP 주소 또는 범용 ID 사용)를 추적하고 사이트 이벤트를 [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Meta] 및 Adobe DSP의 유료 미디어 활동에 연결합니다. 데이터 수집에도 Adobe Experience Platform을 사용합니다.
 
 ## 보고서 데이터 유형 정의
 
