@@ -4,16 +4,12 @@ description: ' [!DNL Baidu] 캠페인에 대한 설정을 참조합니다.'
 exl-id: bc8ec4e2-4b40-4c9d-8223-29143fe63784
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/eYQ4cNEAmEEoC6OksxjtqdJRf90E0a2UGiTny5BVGQU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 116
+source-wordcount: 115
 ht-degree: 0%
 
 ---
@@ -26,7 +22,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** 계정 내에서 고유한 캠페인 이름. 최대 길이는 15개의 더블바이트 문자입니다.
+**[!UICONTROL Campaign Name]:** 계정에서 고유한 캠페인 이름. 최대 길이는 15개의 더블바이트 문자입니다.
 
 **[!UICONTROL Ad Serving]:**
 검색 엔진이 광고 그룹 내에서 서로 관련하여 활성 광고를 제공하는 빈도:
