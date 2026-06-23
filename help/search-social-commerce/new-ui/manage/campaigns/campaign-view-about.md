@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: 245
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 *Beta 기능*
 
 [!UICONTROL Manage] > [!UICONTROL Campaigns] 보기는 선택한 광고주 계정에 대해 필터링된 보기의 모든 캠페인을 나열합니다. 캠페인 이름을 클릭하여 캠페인에서 광고 그룹 목록을 열 수 있습니다.
+
+[!UICONTROL Campaigns] 보기에서 캠페인 데이터를 추가하고 편집하면 검색, 소셜 및 Commerce이 데이터 변경 내용을 광고 네트워크에 즉시 푸시합니다. 또한 검색, 소셜 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에서 매시간 캠페인 구조 데이터를 가져오고, 다른 동기화된 광고 네트워크 계정에 대해 매일 클릭 데이터를 가져오며, 또는 새 캠페인이 검색되는 경우 더 자주 사용합니다. 동기화된 모든 광고 네트워크의 경우 필요에 따라 온디맨드로 계정을 동기화할 수도 있습니다.
 
 ## 사용 가능한 작업
 
