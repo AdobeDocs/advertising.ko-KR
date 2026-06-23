@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 651
+source-wordcount: 655
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Select From Below List]:* 선택한 장르를 대상으로 합니다. 사용 가능한 모든 장르 목록에서 선택합니다.
 
-연결된 TV(CTV) 광고 위치는 비디오 품질과 입찰 금액에 따라 다릅니다. [CTV 광고에 대한 기술 요구 사항](https://help.ads.microsoft.com/#apex/ads/en/60102/0/#TechnicalRequirements)을 참조하세요.
+연결된 TV(CTV) 광고 위치는 비디오 품질과 입찰 금액에 따라 다릅니다. [CTV 광고에 대한 기술 요구 사항](#TechnicalRequirements)을 참조하세요.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 **[!UICONTROL Negative Websites]:**(디스플레이/기본 네트워크의 캠페인만 해당, 선택 사항) 광고를 표시하지 않으려는 디스플레이 네트워크의 사이트. 올바른 URL(예: www.example.com)을 입력하십시오. 여러 문자열을 지정하려면 쉼표로 구분하거나 별도의 줄에 입력합니다.
 
-가용성에 대한 자세한 내용은 &quot;[!DNL Microsoft Advertising]특정 웹 사이트에 광고가 표시되지 않도록 하기[&quot;에 대한 &#x200B;](https://help.ads.microsoft.com/#apex/bae/en/14061/0) 도움말을 참조하십시오.
+가용성에 대한 자세한 내용은 &quot;[특정 웹 사이트에 광고가 표시되지 않도록 하기](https://help.ads.microsoft.com/#apex/bae/en/14061/0)&quot;에 대한 [!DNL Microsoft Advertising] 도움말을 참조하십시오.
 
 >[!MORELIKETHIS]
 >

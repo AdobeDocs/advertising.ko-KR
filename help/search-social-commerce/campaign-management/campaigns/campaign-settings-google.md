@@ -12,9 +12,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 2617
+source-wordcount: 2700
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search with Display Select]:* 검색 네트워크(검색 결과 [!DNL Google]개 및 선택적으로 검색 파트너 사이트 포함)에 광고를 표시하고 디스플레이 네트워크 사이트에 광고를 표시할 수 있습니다. 디스플레이 네트워크에서 [!DNL Google Ads]은(는) 캠페인의 입찰 전략과 관계없이 자동화된 입찰을 사용하여 선택적으로 광고를 표시합니다. 검색 광고의 경우 각 광고 그룹에 대한 키워드를 지정하고, 디스플레이 광고의 경우 배치를 지정하고 선택적으로 각 광고 그룹에 대한 키워드를 지정합니다.
 
-* *[!UICONTROL Shopping Network]:* 제품 광고를 표시합니다. 이 광고는 [!DNL Google]에서 [!DNL Google Merchant Center]의 [!DNL Google Shopping], [!DNL Google]개의 검색 결과 옆 영역(텍스트 광고와 별도) 및 검색 파트너 웹 사이트(선택 사항)에 있는 제품을 기반으로 자동으로 생성합니다. 캠페인의 각 광고 그룹에 대해 광고할 제품 그룹을 지정할 수 있습니다.
+* *[!UICONTROL Shopping Network]:* 제품 광고를 표시합니다. 이 광고는 [!DNL Google]에서 [!DNL Google Shopping]의 [!DNL Google Merchant Center], [!DNL Google]개의 검색 결과 옆 영역(텍스트 광고와 별도) 및 검색 파트너 웹 사이트(선택 사항)에 있는 제품을 기반으로 자동으로 생성합니다. 캠페인의 각 광고 그룹에 대해 광고할 제품 그룹을 지정할 수 있습니다.
 
 * *[!UICONTROL Display Network Only]:* 디스플레이 네트워크에 광고를 표시합니다. 각 광고 그룹에 대해 배치를 지정해야 하며 선택적으로 키워드를 지정할 수 있습니다.
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 <!-- left to right -->
 
-**[!UICONTROL Campaign Name]:** 계정 내에서 고유한 캠페인 이름.
+**[!UICONTROL Campaign Name]:** 계정에서 고유한 캠페인 이름.
 
 **[!UICONTROL Status]:** 캠페인의 표시 상태: *활성* 또는 *일시 중지됨*. 새 광고 캠페인의 기본값은 *활성*&#x200B;입니다.
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/budget.md}}
 
-**[!UICONTROL Google Recommended Budget]:**(선택 사항, 모든 필수 설정을 사용하며 광고 그룹만 포함하는 성과 최대 및 검색 캠페인에 적용 가능) **[!UICONTROL Show Recommendation]**&#x200B;에서 권장하는 예산을 보려면 [!DNL Google Ads]을(를) 클릭하십시오. 현재는 키워드가 4만 개 미만인 캠페인만 대상이다.
+**[!UICONTROL Google Recommended Budget]:**(선택 사항, 모든 필수 설정을 사용하며 광고 그룹만 포함하는 성과 최대 및 검색 캠페인에 적용 가능) [!DNL Google Ads]에서 권장하는 예산을 보려면 **[!UICONTROL Show Recommendation]**&#x200B;을(를) 클릭하십시오. 현재는 키워드가 4만 개 미만인 캠페인만 대상이다.
 
 성과 최대 및 검색 캠페인의 경우 권장 사항에 다음 설정이 필요합니다.
 
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 **팁:** 이 설정을 사용하는 경우 [!UICONTROL Inventory Filter] 설정에서 로컬 광고를 제외하지 마십시오.
 
-**참고:** 로컬 인벤토리 광고에는 [!DNL Google Merchant Center]에 대한 두 개의 추가 피드가 필요합니다. 하나는 로컬 제품 데이터를 사용하고 다른 하나는 로컬 제품 인벤토리를 사용합니다. [!DNL Google Ads]로컬 쇼핑 광고[에 대한 자세한 내용은 &#x200B;](https://www.google.com/retail/local-inventory-ads/) 설명서를 참조하세요.
+**참고:** 로컬 인벤토리 광고에는 [!DNL Google Merchant Center]에 대한 두 개의 추가 피드가 필요합니다. 하나는 로컬 제품 데이터를 사용하고 다른 하나는 로컬 제품 인벤토리를 사용합니다. [로컬 쇼핑 광고](https://www.google.com/retail/local-inventory-ads/)에 대한 자세한 내용은 [!DNL Google Ads] 설명서를 참조하세요.
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 

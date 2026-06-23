@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 464
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Optimize]:* [!DNL Google Ads]은(는) 광고 그룹의 다른 광고보다 더 나은 성과를 기대하는 광고를 선호합니다. 이러한 광고는 광고 경매에 더 자주 참여하며 시간이 지남에 따라 단일 광고가 선호됩니다. 이는 비즈니스 및 최적화 목표와 일치하지 않을 수 있습니다.
 
-* *[!UICONTROL Rotate forever]:*   각 광고는 더 많은 횟수로 광고 경매에 들어가므로 검색, 소셜 및 Commerce에서 클릭스루 비율뿐만 아니라 전환 횟수에서도 광고에 점수를 매길 수 있습니다.
+* *[!UICONTROL Rotate forever]:* 각 광고는 더 많은 횟수로 광고 경매에 들어가므로 Search, Social 및 Commerce에서 클릭스루율뿐만 아니라 전환율에서도 광고를 채점할 수 있습니다.
 
 * *[!UICONTROL Use campaign setting]*(새 광고 그룹의 기본값): 기존 캠페인 수준의 광고 순환 설정을 사용합니다. **참고:** 캠페인 수준 설정은 검색, 소셜 및 Commerce에 표시되지 않습니다.
 

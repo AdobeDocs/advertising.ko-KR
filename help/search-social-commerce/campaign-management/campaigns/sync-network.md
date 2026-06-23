@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 391
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 동기화는 검색, 소셜 및 Commerce이 [지원되는 광고 네트워크](/help/search-social-commerce/introduction/supported-inventory.md)에서 각 광고주의 연결된 광고 네트워크 계정에 대한 업데이트된 정보를 수집하는 프로세스입니다. 이 데이터에는 Search, Social 및 Commerce에서 관리되거나 보고된 대부분의 속성을 포함하여 광고주의 캠페인 구조와 캠페인 엔티티가 포함됩니다. 여기에는 클릭 데이터나 Search, Social 및 Commerce 외부에 입력된 입찰 및 입찰 수정자가 포함되지 않으며 이들은 별도로 수집됩니다.
 
-Search, Social 및 Commerce은 하루에 한 번 그리고 광고 네트워크 중 하나에서 새 캠페인을 감지할 때마다 광고 네트워크 계정과 자동으로 동기화(동기화)합니다. 또한 검색, 소셜 및 Commerce 내에서 수행한 캠페인 데이터에 대한 모든 변경 사항을 광고 네트워크로 즉시 전송합니다.
+Search, Social 및 Commerce은 매일 광고 네트워크 계정과 자동으로 동기화(동기화)됩니다. 또한 광고 네트워크 중 하나에서 새 캠페인을 감지할 때마다 동기화됩니다. 또한 검색, 소셜 및 Commerce 내에서 수행한 캠페인 데이터에 대한 모든 변경 사항을 광고 네트워크로 즉시 전송합니다.
 
 지정된 계정 또는 특정 활성 및 일시 중지된 캠페인에서 모든 활성 및 일시 중지된 캠페인의 동기화를 수동으로 요청할 수 있습니다. 이 작업은 광고 네트워크에서 새로 추가되거나 변경된 엔티티를 수집합니다.
 
