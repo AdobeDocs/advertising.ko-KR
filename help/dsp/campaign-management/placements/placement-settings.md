@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+source-git-commit: 8338485f735af56a90a50b8aa878861b5c0a5894
 workflow-type: tm+mt
-source-wordcount: 4532
+source-wordcount: 4555
 ht-degree: 0%
 
 ---
@@ -174,16 +174,18 @@ ht-degree: 0%
       1. (필요한 경우) 확장할 위치를 클릭합니다.
       1. 위치 옆에 있는 *[!UICONTROL Include]*&#x200B;을(를) 클릭하여 대상으로 포함하거나 *[!UICONTROL Exclude]*&#x200B;을(를) 클릭하여 대상으로 제외합니다.
    * [우편 번호 목록](/help/dsp/resources/lists-postal-codes-manage.md)을 포함하거나 제외하려면 다음을 수행하십시오.
-      1. **[!UICONTROL Search Postal Code]**&#x200B;을(를) 클릭합니다.
+      1. 왼쪽 열에서 **[!UICONTROL Postal Code List]**&#x200B;을(를) 클릭합니다.
       1. 우편 번호 옆에 있는 *[!UICONTROL Include]*&#x200B;을(를) 클릭하여 대상으로 포함하거나 *[!UICONTROL Exclude]*&#x200B;을(를) 클릭하여 대상으로 제외합니다.
    * 우편 번호를 검색하고 선택한 모든 결과를 포함하거나 제외하려면
-      1. **[!UICONTROL Search Postal Code]**&#x200B;을(를) 클릭합니다.
+      1. 왼쪽 열에서 **[!UICONTROL Postal Code]**&#x200B;을(를) 클릭합니다.
+      1. 국가 목록 위에 있는 **[!UICONTROL Search]**&#x200B;을(를) 클릭합니다.
       1. 국가를 선택합니다.
       1. 구/군/시 이름을 입력한 다음 ![편집](/help/dsp/assets/search.png)을 클릭합니다.
       1. 올바른 검색 결과를 클릭합니다.
       1. 모든 위치를 대상으로 포함하려면 *[!UICONTROL Include All]*&#x200B;을(를) 클릭하고, 모든 위치를 대상으로 제외하려면 *[!UICONTROL Exclude All]*&#x200B;을(를) 클릭하십시오.
    * 우편 번호를 입력하거나 붙여 넣고 모두 포함하거나 제외하려면 다음을 수행합니다.
-      1. **[!UICONTROL Paste Postal Code]**&#x200B;을(를) 클릭합니다.
+      1. 왼쪽 열에서 **[!UICONTROL Postal Code]** 클릭을 클릭합니다.
+      1. 국가 목록 위에 있는 **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
       1. 국가를 선택합니다.
       1. 최대 1000개의 우편 번호를 입력하거나 붙여넣습니다.
 한 줄에 하나의 우편 번호를 포함하거나, 쉼표 또는 탭으로 구분된 여러 값을 입력합니다.
