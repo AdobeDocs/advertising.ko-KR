@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ffaa0312ba2e1f583e11326c867838753fa9c6ff
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: 7476
+source-wordcount: 7507
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026년 6월 23일 | [!UICONTROL Placements], 우편 번호 | 이제 개별 국가가 배치 대상 또는 제외로 재사용할 우편 번호 목록을 만들 수 있습니다. | &quot;[우편 번호 목록 관리](/help/dsp/resources/lists-postal-codes-manage.md)&quot; 및 &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)&quot;을 참조하십시오. |
 | 2026년 6월 9일 | Adobe Customer Journey Analytics과 통합 | [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주는 기본적으로 Adobe Experience Platform [!DNL Web SDK]을(를) 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 데이터를 교환할 수 있습니다. | &quot;[Adobe Advertising과 Customer Journey Analytics 간의 통합 개요](/help/integrations/customer-journey-analytics/overview.md)&quot;를 참조하십시오. |
 | 2026년 6월 3일 | [!DNL Adobe Analytics for Advertising] | 이제 Advertising Creative 및 [!DNL Adobe Analytics for Advertising]을(를) 사용하는 광고주는 Adobe Analytics에서 변형 및 분기 수준 데이터를 볼 수 있습니다. [!DNL Creative] 경험에서 광고를 실행하는 데 사용되는 DSP에 관계없이 데이터가 표시됩니다. Advertising DSP 배치에서 광고를 실행하는 경우 캠페인 및 배치 수준 데이터뿐만 아니라 비용 관련 지표도 표시됩니다.<br><br>추가 설정이 필요하지 않습니다. | [!DNL Analytics]에 표시되는 Advertising Creative [트래픽 지표](https://experienceleague.adobe.com/ko/docs/analytics/components/metrics/amo-metrics) 및 [분류](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#classifications)을(를) 참조하십시오. |
 | 2026년 5월 20일 | 자사 대상 소스, 유니버설 ID, [!UICONTROL Placements] | 이제 오스트레일리아의 광고주는 타깃팅된 광고를 위해 세그먼트 매핑이 있는 [!DNL AdFixus]개의 범용 ID를 가져올 수 있습니다. DSP은 다른 ID 유형으로 전환하지 않고 [!DNL AdFixus]에서 자사 세그먼트를 있는 그대로 가져옵니다. 이 프로세스에는 대상 소스를 만들고 [!DNL AdFixus] 팀과 자동 생성된 키를 공유하는 작업이 포함됩니다. | &quot;[자사 세그먼트를 가져올 위치 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)&quot;, &quot;[자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)&quot; 및 &quot;[범용 ID 대상을 활성화하기 위한 대상 소스 관리](/help/dsp/audiences/sources/source-manage.md)&quot;를 참조하십시오.&quot; |
