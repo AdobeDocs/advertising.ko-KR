@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 834
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 0%
 
 검색, 소셜 및 Commerce을 사용하면 검색, 표시/컨텐츠, 소셜, 쇼핑, 대상자 및 성과 최대 캠페인을 한 곳에서 추적 및/또는 관리할 수 있습니다. 광고 네트워크 및 캠페인 유형에 따라 사용 가능한 기능에는 광고 네트워크와의 동기화, 기능 생성 및 편집, 추적 및 전환 속성, 보고, 입찰 및 예산 최적화가 포함될 수 있습니다. 각 광고 네트워크에서 사용할 수 있는 기능에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;를 참조하십시오.
 
-[!UICONTROL Campaigns] 보기에서 캠페인 데이터를 추가하고 편집하면 검색, 소셜 및 Commerce이 데이터 변경 내용을 광고 네트워크에 즉시 푸시합니다. 또한 검색, 소셜 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에서 매시간 캠페인 구조 데이터를 가져오고, 다른 동기화된 광고 네트워크 계정에 대해 매일 클릭 데이터를 가져오며, 또는 새 캠페인이 검색되는 경우 더 자주 사용합니다. 동기화된 모든 광고 네트워크의 경우 필요에 따라 온디맨드로 계정을 동기화할 수도 있습니다.
+[!UICONTROL Campaigns] 보기에서 캠페인 데이터를 추가하고 편집하면 검색, 소셜 및 Commerce이 데이터 변경 내용을 광고 네트워크에 즉시 푸시합니다. 또한 검색, 소셜 및 Commerce은 동기화된 광고 네트워크 계정에서 매일 또는 새 캠페인이 감지되면 더 자주 캠페인 구조 데이터와 클릭 데이터를 가져옵니다. 동기화된 모든 광고 네트워크의 경우 필요에 따라 온디맨드로 계정을 동기화할 수도 있습니다.
+
+Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에서 매시간 성능 데이터를 가져오고, 동기화된 다른 광고 네트워크 계정에 대해서는 매일 성능 데이터를 가져옵니다.
 
 ## 광고 네트워크 계정에 대한 액세스 설정
 
