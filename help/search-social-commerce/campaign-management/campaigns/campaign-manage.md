@@ -8,20 +8,20 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 76dcbceead386ad4f5117c23e449aa904696f338
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 753
 ht-degree: 0%
 
 ---
 
 # 캠페인 관리
 
-*[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] 및 기존 [!DNL Baidu] 계정만*
-
 캠페인은 광고 네트워크 계정의 기본 구성 요소입니다. 대부분의 캠페인 유형의 경우, 광고 그룹 또는 광고 세트 세트로 구성됩니다. 캠페인 설정에는 캠페인 예산 매개 변수, 광고 타겟 및 캠페인의 모든 광고에 대한 선택적 추적 매개 변수가 포함됩니다. 캠페인 수준 추적 매개 변수는 계정 수준 매개 변수를 재정의하지만, 그 자체가 더 낮은 수준에서 재정의될 수 있습니다.
 
 [광고 네트워크 계정에 액세스할 수 있도록 설정](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)하고 검색, 소셜 및 Commerce이 계정 데이터를 광고 네트워크와 동기화하면 [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)으로 새 캠페인을 만들 수 있습니다. 캠페인의 상태를 편집하고 변경할 수도 있습니다.
+
+각 광고 네트워크에서 사용할 수 있는 기능에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;를 참조하십시오.
 
 ## 캠페인 만들기
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
       * 데이터 테이블 위의 도구 모음에서 ![편집](/help/search-social-commerce/assets/edit.png "편집")을 클릭합니다.
 
-1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google 광고](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [LY 광고](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) 캠페인 설정을 편집합니다.
+1. [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google 광고](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [LY 광고](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), [Meta 광고](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) 캠페인 설정을 편집합니다.
 
    여러 캠페인의 경우 설정은 광고 네트워크에 따라 [!UICONTROL Campaign Details], [!UICONTROL Budget Options] 및 [!UICONTROL URL Options]&#x200B;(으)로 그룹화될 수 있습니다. 선택한 모든 캠페인에 공통되는 필드만 편집할 수 있으며 변경 사항은 선택한 모든 캠페인에 적용됩니다. 일부 영숫자 필드의 경우 기존 값을 지정된 값으로 변경하거나, 기존 문자열을 지정된 문자열로 대체하거나, 각 값의 시작 부분에 지정된 접두사를 추가하거나, 각 값의 끝에 접미사를 추가하는 옵션이 있습니다. 일부 통화 필드의 경우, 기존 값을 지정된 값으로 변경하거나, 특정 백분율 또는 통화 금액만큼 금액을 제한으로 늘리거나 줄이는 옵션이 있습니다.
 
@@ -109,5 +109,6 @@ ht-degree: 0%
 >* [[!DNL Baidu] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
 >* [[!DNL LY Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+>* [[Meta 광고] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-meta.md)
 >* [[!DNL Microsoft Advertising] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
 >* [[!DNL Yandex] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
