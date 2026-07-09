@@ -14,7 +14,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: b1904d5c8dad3e935245b45ff4b1a8104fc897dd
+source-git-commit: cb1e07d89c0d8107fce38695b73352cd57246879
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 0%
@@ -71,7 +71,7 @@ Adobe Advertising에서 Customer Journey Analytics으로의 피드가 특정 광
 
 * [!DNL Workspace] 및 Adobe Advertising 보고서에 적용된 모든 필터 및 세그먼트로 인해 데이터에 차이가 발생하지 않습니다.
 
-* Customer Journey Analytics 데이터 보기의 [!UICONTROL Time Zone]이(가) Advertising DSP 계정의 [[!UICONTROL Default Timezone]과(와) 일치합니다](help/dsp/admin/user-own-profile-edit.md).
+* Customer Journey Analytics 데이터 보기의 [!UICONTROL Time Zone]이(가) Advertising DSP 계정의 [[!UICONTROL Default Timezone]과(와) 일치합니다](/help/dsp/admin/user-own-profile-edit.md).
 
 * 설정 &quot;[!UICONTROL Backfill all existing data]&quot;은(는) Customer Journey Analytics 연결의 세 개의 데이터 세트(지표의 차원/분류/조회, 요약 및 이벤트 지표)에 대해 활성화됩니다.
 
