@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
+source-git-commit: 61a66d7d35873247de40480f7361f87e2dedde88
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 
 ## 클릭을 전환에 연결하려면 클릭 추적
 
-Adobe Advertising 전환 추적 서비스를 사용하는 경우 랜딩 페이지 접미사에 검색, 소셜 및 Commerce 클릭 추적 코드, 추적 템플릿 및 광고, 키워드, 배치, 사이트링크 및 제품 목록에 대한 최종/대상 URL을 포함해야 합니다. 캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 [지원되는 광고 네트워크 및 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)의 경우 레코드를 저장할 때 검색, 소셜 및 Commerce에서 자동으로 리디렉션 및 추적 코드를 추가하므로 수동으로 추가할 필요가 없습니다. 그렇지 않으면 코드를 추적 템플릿 또는 최종 URL에 수동으로 추가해야 합니다.
+Adobe Advertising 전환 추적 서비스를 사용하는 경우 랜딩 페이지 접미사에 검색, 소셜 및 Commerce 클릭 추적 코드, 추적 템플릿 및 광고, 키워드, 배치, 사이트링크 및 제품 목록에 대한 최종/대상 URL을 포함해야 합니다. 캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 [지원되는 광고 네트워크 및 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)의 경우 레코드를 저장할 때 검색, 소셜 및 Commerce에서 자동으로 리디렉션 및 추적 코드를 추가하므로 수동으로 추가할 필요가 없습니다. 그렇지 않으면 검색, 소셜 및 Commerce 내에서 또는 광고 네트워크의 자체 편집기 내에서 코드를 추적 템플릿 또는 최종 URL에 수동으로 추가해야 합니다.
 
 추적에 대한 자세한 내용은 &quot;추적&quot; 장을 참조하십시오.
 
