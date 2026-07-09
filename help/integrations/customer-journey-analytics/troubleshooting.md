@@ -39,7 +39,7 @@ ht-degree: 0%
 
 * Adobe Advertising 차원 및 요약 지표는 Customer Journey Analytics 데이터 보기에 포함됩니다.
 
-위의 모든 설정을 확인했지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오.
+위의 모든 설정을 확인했지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오.
 
 +++
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 * 설정 &quot;[!UICONTROL Backfill all existing data]&quot;은(는) Customer Journey Analytics 연결의 세 개의 데이터 세트(지표의 차원/분류/조회, 요약 및 이벤트 지표)에 대해 활성화됩니다.
 
-위의 모든 조건을 확인했지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오.
+위의 모든 조건을 확인했지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오.
 
 +++
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 Adobe Advertising에서 Customer Journey Analytics으로의 피드가 특정 광고 네트워크 계정에 대해 활성화되어 있는지 확인합니다. Adobe 계정 팀에 문의하십시오.
 
-계정에 대해 피드가 사용하도록 설정되어 있지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다.
+계정에 대해 피드가 사용하도록 설정되어 있지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다.
 
 +++
 
@@ -75,7 +75,7 @@ Adobe Advertising에서 Customer Journey Analytics으로의 피드가 특정 광
 
 * 설정 &quot;[!UICONTROL Backfill all existing data]&quot;은(는) Customer Journey Analytics 연결의 세 개의 데이터 세트(지표의 차원/분류/조회, 요약 및 이벤트 지표)에 대해 활성화됩니다.
 
-데이터 불일치가 확실하면 [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다.. 불일치의 증거를 보여주는 스크린샷과 스프레드시트를 포함하십시오. Adobe 계정 팀은 필요한 경우 데이터 피드를 소급하여 수정하여 불일치를 해결할 수 있습니다.
+데이터 불일치가 확실하면 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다.. 불일치의 증거를 보여주는 스크린샷과 스프레드시트를 포함하십시오. Adobe 계정 팀은 필요한 경우 데이터 피드를 소급하여 수정하여 불일치를 해결할 수 있습니다.
 
 +++
 
@@ -97,7 +97,7 @@ Adobe Advertising에서 Customer Journey Analytics으로의 피드가 특정 광
 
 * Adobe Advertising 설정이 WebSDK Extension에 올바르게 구성되고 게시되었습니다.
 
-위의 모든 설정을 확인했지만 전환 데이터가 여전히 표시되지 않는 경우 [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다.
+위의 모든 설정을 확인했지만 전환 데이터가 여전히 표시되지 않는 경우 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다.
 
 +++
 
