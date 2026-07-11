@@ -2,9 +2,12 @@
 title: Creative Studio에서 표준 광고 관리
 description: Creative Studio 광고 라이브러리에서 표준 디스플레이 광고를 생성, 편집, 복제, 다운로드 및 삭제하는 방법에 대해 알아봅니다.
 exl-id: 01d3cdec-80d0-494c-94dd-d9d0ae8ca53c
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
 workflow-type: tm+mt
 source-wordcount: 1181
