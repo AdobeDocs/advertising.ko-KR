@@ -4,13 +4,11 @@ description: 사용 가능한 각 보기 내에서 데이터를 사용자 지정
 feature: Creative Introduction
 exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
 TQID: https://experienceleague.adobe.com/hOby2-Do4TakO04FrP6zzfdIyCf6OCcjXjBzyTBuHc8
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: 273
 ht-degree: 0%
 
 ---
@@ -25,7 +23,9 @@ ht-degree: 0%
 
 ## 데이터를 카드 또는 표로 보기
 
-[!UICONTROL Creative Libraries] 및 [!UICONTROL Experiences] 보기의 데이터를 개별 카드로 보거나 테이블/목록으로 봅니다. 기본적으로 데이터는 카드 보기 모드로 표시됩니다. 카드 보기에는 관련 크리에이티브의 썸네일이 표시됩니다.
+<!-- Different images in Creative Studio, although pretty close -->
+
+[!UICONTROL Creative Studio], [!UICONTROL Creative Libraries] 및 [!UICONTROL Experiences] 보기의 데이터를 개별 카드로 보거나 테이블/목록으로 봅니다. 기본적으로 데이터는 카드 보기 모드로 표시됩니다. 카드 보기에는 관련 크리에이티브의 썸네일이 표시됩니다.
 
 카드 보기와 표 보기 간에 전환하면 필터와 선택 항목이 유지됩니다.
 
@@ -91,6 +91,6 @@ Refresh the pane to see any changes that other users have made.
 
 * Creative 라이브러리 > [!UICONTROL Standard Ads]: [!UICONTROL Creative Name], 만든 날짜([!UICONTROL Created On]) 또는 마지막 업데이트([!UICONTROL Modified On])별로 정렬합니다.
 
-* [!UICONTROL Experiences]: 시작 날짜([!UICONTROL Experience Name]) 또는 종료 날짜([!UICONTROL Start On])별로 정렬합니다.[!UICONTROL End On]
+* [!UICONTROL Experiences]: 시작 날짜([!UICONTROL Start On]) 또는 종료 날짜([!UICONTROL End On])별로 정렬합니다.[!UICONTROL Experience Name]
 
 ![정렬 옵션 예제](/help/creative/assets/sort.png "정렬 옵션 예제")
