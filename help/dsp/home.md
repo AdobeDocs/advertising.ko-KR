@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+source-git-commit: 82946754a9bd29908e00adad8721063964130999
 workflow-type: tm+mt
-source-wordcount: 7507
+source-wordcount: 7672
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026년 7월 1일 | [!DNL Creative] | Advertising Creative에서는 다음 Beta 기능을 사용할 수 있습니다.<ul><li>**[!UICONTROL Creative Studio]**&#x200B;은(는) 하나의 세션에서 여러 형식의 디스플레이 광고를 빌드, 크기 조정 및 구체화할 수 있는 AI 지원 환경입니다. 자연어 채팅 인터페이스를 통해 AI와 상호 작용하여 광고 콘텐츠를 생성하고 수정할 수 있으므로 콘텐츠 필드에 수동 디자인 작업이 필요하지 않습니다.</li><li>로고, 색상 팔레트, 음성 지침, 이미지 표준 및 채널별 복사 지침을 포함하여 브랜드의 시각적 및 메시징 ID를 반영하는 **[!UICONTROL brand profiles]**&#x200B;을(를) 만들고 관리합니다. [!UICONTROL Creative Studio]에서 광고를 만들 때 AI 에이전트는 브랜드 프로필 정보를 사용하여 특정 브랜드의 콘텐츠를 생성합니다.</li></ul> | &quot;[Creative Studio 정보](/help/creative/creative-studio/creative-studio-about.md)&quot; 및 &quot;[브랜드 프로필 관리](/help/creative/brands/brand-manage.md)&quot;를 참조하십시오. |
 | 2026년 6월 23일 | [!UICONTROL Placements], 우편 번호 | 이제 개별 국가가 배치 대상 또는 제외로 재사용할 우편 번호 목록을 만들 수 있습니다. | &quot;[우편 번호 목록 관리](/help/dsp/resources/lists-postal-codes-manage.md)&quot; 및 &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)&quot;을 참조하십시오. |
 | 2026년 6월 9일 | Adobe Customer Journey Analytics과 통합 | [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주는 기본적으로 Adobe Experience Platform [!DNL Web SDK]을(를) 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 데이터를 교환할 수 있습니다. | &quot;[Adobe Advertising과 Customer Journey Analytics 간의 통합 개요](/help/integrations/customer-journey-analytics/overview.md)&quot;를 참조하십시오. |
 | 2026년 6월 3일 | [!DNL Adobe Analytics for Advertising] | 이제 Advertising Creative 및 [!DNL Adobe Analytics for Advertising]을(를) 사용하는 광고주는 Adobe Analytics에서 변형 및 분기 수준 데이터를 볼 수 있습니다. [!DNL Creative] 경험에서 광고를 실행하는 데 사용되는 DSP에 관계없이 데이터가 표시됩니다. Advertising DSP 배치에서 광고를 실행하는 경우 캠페인 및 배치 수준 데이터뿐만 아니라 비용 관련 지표도 표시됩니다.<br><br>추가 설정이 필요하지 않습니다. | [!DNL Analytics]에 표시되는 Advertising Creative [트래픽 지표](https://experienceleague.adobe.com/ko/docs/analytics/components/metrics/amo-metrics) 및 [분류](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#classifications)을(를) 참조하십시오. |

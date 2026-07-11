@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: 617
 ht-degree: 0%
 
 ---
@@ -29,13 +29,17 @@ ht-degree: 0%
 
 ## 파일 요구 사항
 
+최대 데이터 행 수: 2백만
+
+최대 파일 크기: 2GB
+
 * Dynamic HTML5 광고:
 
    * CSV, TSV 또는 Microsoft Excel 스프레드시트(XLSX) 형식의 피드 파일로, 각 광고 변형에 대해 하나의 머리글 행과 하나의 데이터 행이 있습니다. `images/image_name` 형식(예: `images/300x250_acme_logo.png`)을 사용하여 각 행에 이미지 이름을 포함하십시오.
 
      광고주별 필드 이름은 [동적 광고 피드 파일에 사용 가능한 필드](/help/creative/appendix-available-feed-fields.md)에 매핑해야 합니다.
 
-   * GIF, JPEG, JPG 또는 PNG 형식의 연결된 이미지 자산입니다.<!-- Is this true: The maximum file size is two (2) MB. --> [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하세요.
+   * GIF, JPEG, JPG 또는 PNG 형식의 연결된 이미지 자산입니다. 최대 파일 크기는 10MB입니다. [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하세요.
 
   하나의 XLSX 파일, 하나의 이미지 파일 또는 XLSX와 이미지 파일의 조합이 포함된 하나의 ZIP 파일을 업로드할 수 있습니다.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

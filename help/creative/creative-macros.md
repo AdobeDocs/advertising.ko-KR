@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 3c3bffe0c28bb24c0df9385f9cc91be1376a66d2
+source-git-commit: e1ce403e53ed6da4b16f5d7e4bfbbc50e1317ea8
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: 312
 ht-degree: 0%
 
 ---
@@ -78,4 +78,5 @@ ht-degree: 0%
 >
 >* [Creative 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* &lbrack;타깃팅된 경험 설정*[타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md)
+>* [타깃팅된 경험 설정](/help/creative/experiences/experience-settings-targeting.md)
+>* [타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md)
