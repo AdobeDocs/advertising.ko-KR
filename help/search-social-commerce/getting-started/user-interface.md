@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+source-git-commit: 57e8552cd8b71fe06be153954294063fe810b327
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: 1558
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Extensions]** 기존 광고 확장의 읽기 전용 보기를 엽니다. 확장을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
-   * **[!UICONTROL Shopping]** 새 사이트를 종료하고 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 엽니다.<!-- Should this go to Campaigns > Products? -->
+   * **[!UICONTROL Shopping]** 기존 쇼핑 제품 그룹의 읽기 전용 보기를 엽니다. 제품 그룹을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Product Groups] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
 * **[!UICONTROL Set Up]** 하위 메뉴:
 
@@ -119,6 +119,8 @@ ht-degree: 0%
    * **[!UICONTROL Import Campaigns]**: 캠페인 데이터를 가져올 수 있는 새 보기를 엽니다.
 
    * **[!UICONTROL Bulksheets]**: 새 [!UICONTROL Bulksheets] 보기를 엽니다.
+
+   * **[!UICONTROL Products]** 기존 판매자 센터 계정 및 제품에 대한 읽기 전용 보기를 엽니다. 판매자 센터 계정을 추가하려면 기존의 [!UICONTROL Campaigns] > [!UICONTROL Products] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
 <!--
  What's happening to these?
