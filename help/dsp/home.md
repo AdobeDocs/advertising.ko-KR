@@ -6,11 +6,25 @@ product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
 TQID: https://experienceleague.adobe.com/HgUQENjtjLRyizGpXGBRYZOanvoouKfGdcjDyf5Dlaw
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+  - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 836dbc21997c7af7b8a2bc4e0c5e59d3c3605ea8
 workflow-type: tm+mt
 source-wordcount: 7665
@@ -50,7 +64,7 @@ ht-degree: 0%
 | | [!UICONTROL Placements], [!UICONTROL Ads] | 이제 [!UICONTROL Placements] 보기 및 [!DNL Inspector] 배치에서 광고를 분리할 수 있습니다. [!DNL Inspector] 배치에 더 이상 광고를 일시 중지할 수 있는 옵션이 없습니다.<br><br>일괄 시트를 사용하여 배치에서 광고를 제거하려면 배치에 대한 광고 정보(승인 상태 포함)를 제거하고 편집된 일괄 시트를 업로드하십시오. | &quot;[배치에서 광고 첨부 및 제거](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot; 및 &quot;[배치에 대한 사이트, 광고, 빈도 및 인벤토리 세부 정보 보기](/help/dsp/campaign-management/reports/placement-details-view.md)&quot;를 참조하십시오.<br><br>또한 &quot;[일괄 시트를 사용하여 캠페인 구성 요소 설정 검토 및 편집](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;을 참조하십시오. |
 | | 배치 타깃팅에 대한 [!DNL On Demand]개의 인벤토리 목록 | 이제 [!UICONTROL Inventory] > [!UICONTROL Deal Lists]에서 배치에 포함하거나 제외할 [!DNL On Demand] 거래 목록을 만들 수 있습니다. 배치 설정 내에서 목록을 사용합니다. | &quot;[거래 목록 관리](/help/dsp/inventory/lists-deals-manage.md)&quot; 및 &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)&quot;을 참조하십시오. |
 | 2025년 9월 3일 | [!UICONTROL Custom Reports] | (Beta 기능) [!UICONTROL Reports] > [!UICONTROL Custom Reports]의 새 [!UICONTROL Content BETA] 보고서를 사용하면 새로운 콘텐츠 차원 그룹(제목, 장르 및 콘텐츠 등급)별로 표준, 지출, 성능, 가시성, 주의 및 전환 지표와 사용자 지정 목표를 볼 수 있습니다. | &quot;[사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)&quot; 및 &quot;[사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)&quot;을 참조하세요. |
-|  | [!UICONTROL Audiences], [!UICONTROL Placements], [!UICONTROL Pulse] 경고의 자사 세그먼트 | (DSP에서 해시된 이메일 ID를 [!DNL  LiveRamp RampID]개의 세그먼트로 변환하는 광고주) 활성, 예약 또는 일시 중지된 배치에 첨부되지 않은 자사 [!DNL RampID]개의 세그먼트가 이제 일시 중지됩니다.  세그먼트가 일시 중지된 경우:<ul><li>대상 라이브러리의 [!UICONTROL First Party Segments] 탭([!UICONTROL Audiences] > [!UICONTROL All Audiences]에서 대상을 만들거나 편집할 때 또는 배치 설정 내에서 사용할 수 있음)에서 세그먼트는 &quot;[!UICONTROL Auto paused]&quot;(으)로 표시됩니다.</li><li> [!UICONTROL Pulse]은(는) 세그먼트가 일시 중지되었음을 나타내는 연결된 모든 배치에 대한 경고를 표시합니다.</li></ul>DSP은 고객 데이터 플랫폼에서 해시된 이메일 ID를 계속 수집하고, 세그먼트에 포함하기 위해 만료 기간을 기준으로 더 빨리 만료되는 데이터를 제외하고 7일의 데이터를 유지합니다. a\) 활성, 예약됨 또는 일시 중지됨 배치에 추가하거나 b\) 할당된 기존 배치를 활성, 예약됨 또는 일시 중지됨 상태로 변경하여 세그먼트를 활성화하면 유지된 해시된 이메일 ID가 [!DNL RampIDs]&#x200B;(으)로 변환됩니다. | &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)&quot; 및 &quot;[대상자 설정](/help/dsp/audiences/audience-settings.md)&quot;을 참조하십시오. |
+|  | [!UICONTROL Audiences], [!UICONTROL Placements], [!UICONTROL Pulse] 경고의 자사 세그먼트 | (DSP에서 해시된 이메일 ID를 [!DNL &#x200B; LiveRamp RampID]개의 세그먼트로 변환하는 광고주) 활성, 예약 또는 일시 중지된 배치에 첨부되지 않은 자사 [!DNL RampID]개의 세그먼트가 이제 일시 중지됩니다.  세그먼트가 일시 중지된 경우:<ul><li>대상 라이브러리의 [!UICONTROL First Party Segments] 탭([!UICONTROL Audiences] > [!UICONTROL All Audiences]에서 대상을 만들거나 편집할 때 또는 배치 설정 내에서 사용할 수 있음)에서 세그먼트는 &quot;[!UICONTROL Auto paused]&quot;(으)로 표시됩니다.</li><li> [!UICONTROL Pulse]은(는) 세그먼트가 일시 중지되었음을 나타내는 연결된 모든 배치에 대한 경고를 표시합니다.</li></ul>DSP은 고객 데이터 플랫폼에서 해시된 이메일 ID를 계속 수집하고, 세그먼트에 포함하기 위해 만료 기간을 기준으로 더 빨리 만료되는 데이터를 제외하고 7일의 데이터를 유지합니다. a\) 활성, 예약됨 또는 일시 중지됨 배치에 추가하거나 b\) 할당된 기존 배치를 활성, 예약됨 또는 일시 중지됨 상태로 변경하여 세그먼트를 활성화하면 유지된 해시된 이메일 ID가 [!DNL RampIDs]&#x200B;(으)로 변환됩니다. | &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)&quot; 및 &quot;[대상자 설정](/help/dsp/audiences/audience-settings.md)&quot;을 참조하십시오. |
 | 2025년 8월 13일 | [!UICONTROL Placements] | 이제 동일한 패키지 내에서 배치를 복제할 수 있습니다. [!UICONTROL Duplicate Placement] 설정에서 &quot;[!UICONTROL Choose Package]&quot; 설정에 &quot;[!UICONTROL Same Package]&quot; 옵션이 있습니다. | &quot;[중복 배치](/help/dsp/campaign-management/placements/placement-duplicate.md)&quot;을(를) 참조하십시오. |
 | | [!UICONTROL Insights] | (Beta 기능) 이제 인사이트에는 4개의 데이터 시각화가 있는 &quot;가구 전환&quot; 탭이 포함됩니다. Adobe Advertising 추적 및 Adobe Analytics 추적 전환 모두에 대한 지원을 사용할 수 있습니다. | &quot;[인사이트 정보](/help/dsp/campaign-management/insights/insights-about.md)&quot;를 참조하세요. |
 | 2025년 7월 30일 | [!UICONTROL Placements], [!UICONTROL Private] 및 [!DNL On-Demand] 거래 | 배치 설정에서 비공개 및 [!DNL On-Demand] 거래에 대한 기존 &quot;[!UICONTROL Ensure Fixed or Floor Price for the bid]&quot; 설정을 제거하고 기능을 이동했습니다. 이제 &quot;[!UICONTROL Goals]&quot; 섹션의 새 &quot;[!UICONTROL Min Bid]&quot; 설정을 사용하여 인벤토리 유형에 따라 최소 입찰가를 지정하십시오.<ul><li><i>[!UICONTROL None]:</i> 인벤토리 유형에 대한 최소 입찰이 없습니다. 계산된 입찰가가 타겟팅된 거래의 고정/기본 가격보다 낮은 경우 DSP은 입찰하지 않습니다. 이는 규모에 영향을 미칠 수 있습니다.</li><li><i>[!UICONTROL Fixed/floor price for Private deals only],</i> <i>[!UICONTROL Fixed/floor price for On-demand deals only],</i> 및 <i>[!UICONTROL Fixed/floor price for both Private and On-demand deals]</i>: DSP은 알고리즘 계산으로 계산된 입찰이 더 적은 경우에도 지정된 거래 유형에 대해 고정/최저가 이상의 입찰을 합니다. 성능에 영향을 줄 수 있습니다.</li></ul> | &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)&quot;을(를) 참조하십시오. |
