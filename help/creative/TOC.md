@@ -18,8 +18,8 @@ ht-degree: 4%
    + [Adobe Advertising Creative 정보](/help/creative/introduction/creative-about.md)
    + [데이터 보기 사용자 지정](/help/creative/introduction/customize-data-views.md)
    + [동적 광고용 워크플로우](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [고객 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [고객 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
+   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
 + Creative 스튜디오 {#creative-studio}
    + [Creative Studio 정보](/help/creative/creative-studio/creative-studio-about.md)
    + [표준 광고 관리](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
@@ -102,4 +102,4 @@ ht-degree: 4%
 + [픽셀 재타겟팅](/help/creative/pixels/retargeting-pixel-manage.md)
 + [추적 URL에 사용 가능한 매크로](/help/creative/creative-macros.md)
 + [도움말 보기](/help/creative/get-help.md)
-+ [Adobe CX Enterprise 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
++ [Adobe CX Enterprise 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko){target="_blank"}
