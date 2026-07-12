@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3095c6a8f35d390d7d9b46df14f83b5e610c8e81
+source-git-commit: 836dbc21997c7af7b8a2bc4e0c5e59d3c3605ea8
 workflow-type: tm+mt
-source-wordcount: 1897
+source-wordcount: 1890
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 2026년 7월 1일 | [!DNL Creative Studio], [!DNL Brands] | 다음 Beta 기능을 사용할 수 있습니다.<ul><li>**[!UICONTROL Creative Studio]**&#x200B;은(는) 하나의 세션에서 여러 형식의 디스플레이 광고를 빌드, 크기 조정 및 구체화할 수 있는 AI 지원 환경입니다. 자연어 채팅 인터페이스를 통해 AI와 상호 작용하여 광고 콘텐츠를 생성하고 수정할 수 있으므로 콘텐츠 필드에 수동 디자인 작업이 필요하지 않습니다.</li><li>로고, 색상 팔레트, 음성 지침, 이미지 표준 및 채널별 복사 지침을 포함하여 브랜드의 시각적 및 메시징 ID를 반영하는 **[!UICONTROL brand profiles]**&#x200B;을(를) 만들고 관리합니다. [!UICONTROL Creative Studio]에서 광고를 만들 때 AI 에이전트는 브랜드 프로필 정보를 사용하여 특정 브랜드의 콘텐츠를 생성합니다.</li></ul> | &quot;[Creative Studio 정보](/help/creative/creative-studio/creative-studio-about.md)&quot; 및 &quot;[브랜드 프로필 관리](/help/creative/brands/brand-manage.md)&quot;를 참조하십시오. |
+| 2026년 7월 1일 | [!DNL Creative Studio], [!DNL Brands] | 다음 Beta 기능을 사용할 수 있습니다.<ul><li>**[!UICONTROL Creative Studio]**&#x200B;은(는) 생성 AI를 사용하여 단일 세션에서 여러 형식의 디스플레이 광고를 빌드, 크기 조정 및 구체화할 수 있습니다. 자연어 채팅 인터페이스를 사용하여 광고 콘텐츠를 생성하고 수정합니다. 콘텐츠 필드에 수동 디자인 작업이 필요하지 않습니다.</li><li>로고, 색상 팔레트, 음성 지침, 이미지 표준 및 채널별 복사 지침을 포함하여 브랜드의 시각적 및 메시징 ID를 반영하는 **[!UICONTROL brand profiles]**&#x200B;을(를) 만들고 관리합니다. [!UICONTROL Creative Studio]에서 광고를 만들 때 AI 에이전트는 브랜드 프로필 정보를 사용하여 특정 브랜드의 콘텐츠를 생성합니다.</li></ul> | &quot;[Creative Studio 정보](/help/creative/creative-studio/creative-studio-about.md)&quot; 및 &quot;[브랜드 프로필 관리](/help/creative/brands/brand-manage.md)&quot;를 참조하십시오. |
 | 2026년 6월 3일 | [!DNL Adobe Analytics for Advertising] | 이제 Advertising Creative 및 [!DNL Adobe Analytics for Advertising]을(를) 사용하는 광고주는 Adobe Analytics에서 변형 및 분기 수준 데이터를 볼 수 있습니다. [!DNL Creative] 경험에서 광고를 실행하는 데 사용되는 DSP에 관계없이 데이터가 표시됩니다. Advertising DSP 배치에서 광고를 실행하는 경우 캠페인 및 배치 수준 데이터뿐만 아니라 비용 관련 지표도 표시됩니다.<br><br>추가 설정이 필요하지 않습니다. | [!DNL Analytics]에 표시되는 Advertising Creative [트래픽 지표](https://experienceleague.adobe.com/ko/docs/analytics/components/metrics/amo-metrics) 및 [분류](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#classifications)을(를) 참조하십시오. |
 | 2025년 2월 25일 | [!DNL experiences]에 대한 Creative 최적화 및 예약 | 개선 사항은 다음과 같습니다.<ul><li>의사 결정 트리 타깃팅이 있는 경험의 경우 이제 크리에이티브 번들을 할당하고 동일한 화면의 별도 탭에서 크리에이티브 최적화 및 예약을 구성할 수 있습니다.</li><li>이제 광고 예약에 시작 시간과 종료 시간이 포함됩니다. 기본적으로 예약은 오전 12:00에 시작하여 오후 11:59에 종료됩니다.</li><li>[!UICONTROL Weighted] 회전 옵션에는 지정된 모든 번들에 동일한 가중치를 적용하려면 단추(![동일한 가중치 적용](/help/creative/assets/apply-equal-weight.png "동일한 가중치 적용"))가 포함됩니다.</li></ul> | [타깃팅이 있는 경험](/help/creative/experiences/experience-optimization-scheduling-targeting.md) 및 [타깃팅이 없는 경험](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)에 대한 지침을 참조하십시오. |
 | 2026년 2월 18일 | 다이내믹 크리에이티브 | 이제 피드를 사용하여 CTV, 웹 및 모바일 앱에서 사용할 VAST 호환 비디오 광고를 생성할 수 있습니다.<ul><li>비디오 광고 템플릿은 ZIP 형식이어야 하며 .scene 파일을 포함해야 합니다.</li><li>에셋 파일에는 MP4, MOV 또는 WEBM 형식의 비디오 에셋이 포함되어야 합니다. 지원되는 광고 템플릿에는 시작 카드, 끝 카드, 상단 오버레이, 하단 오버레이 또는 L자형 등이 있으며 각 비디오의 지속 시간은 1~90초 사이여야 합니다. 각 피드 파일은 비디오 에셋으로 최대 500개의 행을 처리할 수 있습니다.</li><li>Creative Libraries에서 동적 Creative 설정에 옵션 &quot;[!UICONTROL Display]&quot; 및 &quot;[!UICONTROL Video]&quot;이(가) 있는 [!UICONTROL Creative Type] 설정이 포함됩니다. 번들 설정에는 &quot;[!UICONTROL Dynamic Video]&quot;도 포함됩니다.</li><li>광고 경험에 대한 설정에도 &quot;[!UICONTROL Dynamic Video]&quot;이(가) 포함됩니다.</li><li>이제 [!UICONTROL Custom Creative Report]에 피드 기반 비디오 변형에 대한 다양한 비디오 지표(예: 노출 횟수, 사분위수, 음소거/음소거 해제)가 포함됩니다.</li></ul> | &quot;[동적 광고용 워크플로](/help/creative/introduction/workflow-dynamic-ads.md)&quot;, &quot;[Creative 라이브러리에 동적 크리에이티브 추가](/help/creative/creative-libraries/creative-add-dynamic.md)&quot;, &quot;[동적 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-dynamic.md)&quot; 및 &quot;[에셋 파일 관리](/help/creative/feeds/asset-manage.md)&quot;를 참조하십시오.&quot; |
