@@ -1,13 +1,10 @@
 ---
 title: Creative Studio에서 광고 템플릿 관리
 description: Adobe Advertising Creative의 Creative Studio 템플릿 탭에서 광고 템플릿을 만들고, 가져오고, 구성하고, 관리하는 방법을 알아봅니다.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 2509
 ht-degree: 2%
@@ -27,13 +24,11 @@ ht-degree: 2%
 탭에는 <!-- Only in the Templates tab --> 페이지 하단에 기존 광고 템플릿이 [개별 카드(기본값) 또는 테이블/목록](/help/creative/introduction/customize-data-views.md) 형식으로 나열되어 있습니다. 광고 템플릿 목록에는 [!UICONTROL All], [!UICONTROL System Templates]&#x200B;(Adobe 계정 팀에서 계정에 업로드함) 및 [!UICONTROL User Templates]에 대한 탭이 포함되어 있습니다. 기본적으로 모든 광고주에 대한 광고 템플릿이 표시됩니다. 특정 광고주에 대한 광고 템플릿만 보려면 페이지 상단의 광고주 목록에서 를 선택합니다.
 
 <!-- 
-
 Probably not necessary:
 
 * **[!UICONTROL Card view]** &mdash; Displays templates as cards. Each card shows a preview thumbnail and the ad dimensions. Hovering a card reveals action controls.
 
 * **[!UICONTROL Table view]** &mdash; Displays templates in a table with columns for **[!UICONTROL Name]**, **[!UICONTROL Type]**, **[!UICONTROL Status]**, **[!UICONTROL Size/Duration]**, **[!UICONTROL Advertiser]**, and **[!UICONTROL Updated]**. Click the **[!UICONTROL Name]** or **[!UICONTROL Updated]** column header to sort ascending or descending. Pagination controls appear at the bottom of the list.
-
 -->
 
 ### 사용 가능한 작업
@@ -516,3 +511,4 @@ These are all saved with the template, but they aren't what you see, as-is, in t
 >* [Creative Studio에서 자산 관리](creative-studio-manage-assets.md)
 >* [Creative Studio에서 표준 광고 관리](creative-studio-manage-standard-ads.md)
 >* [Creative Studio에서 동적 크리에이티브 관리](creative-studio-manage-dynamic-ads.md)
+
