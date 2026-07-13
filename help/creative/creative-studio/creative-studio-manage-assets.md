@@ -1,9 +1,12 @@
 ---
 title: Creative Studio에서 에셋 관리
 description: Adobe Advertising Creative의 Creative Studio Assets 탭에서 에셋을 업로드, 검색 및 관리하는 방법을 알아봅니다.
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
 source-wordcount: 296
