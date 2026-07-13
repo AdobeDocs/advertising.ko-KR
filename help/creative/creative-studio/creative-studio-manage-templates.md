@@ -1,15 +1,12 @@
 ---
 title: Creative Studio에서 광고 템플릿 관리
 description: Adobe Advertising Creative의 Creative Studio 템플릿 탭에서 광고 템플릿을 만들고, 가져오고, 구성하고, 관리하는 방법을 알아봅니다.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 2509
+source-wordcount: 2512
 ht-degree: 2%
 
 ---
@@ -247,7 +244,7 @@ The top toolbar above the canvas is the same for both display and video template
 | 아이콘 | 설명 |
 | --- | --- |
 | **[!UICONTROL Search]** | 라이브러리의 모든 자산 유형을 검색합니다. |
-| **[!UICONTROL Upload]** | 현재 템플릿에서 사용할 이미지 <!-- not there as of 7/10:  or font files (TTF, OTF, WOFF, WOFF2)-->을(를) 편집기에 업로드합니다. 한 번에 최대 20개의 파일을 업로드할 수 있습니다. |
+| **[!UICONTROL Upload]** | 현재 템플릿에서 사용할 이미지 또는 글꼴 파일을 편집기에 업로드합니다. 한 번에 최대 20개의 파일을 업로드할 수 있습니다. |
 | **[!UICONTROL Templates]** | Creative Studio 라이브러리에서 광고 템플릿을 검색하여 기본 레이어 또는 참조 요소로 사용합니다. |
 | **[!UICONTROL My Assets]** | Creative Studio Assets 탭에서 업로드한 모든 에셋을 찾아봅니다. |
 | **[!UICONTROL Images]** | Creative Studio Assets 탭에서 업로드한 이미지 에셋만 찾아봅니다. |
