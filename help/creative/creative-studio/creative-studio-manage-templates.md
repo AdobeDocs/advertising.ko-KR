@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 2509
+source-wordcount: 2512
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ ht-degree: 2%
 탭에는 <!-- Only in the Templates tab --> 페이지 하단에 기존 광고 템플릿이 [개별 카드(기본값) 또는 테이블/목록](/help/creative/introduction/customize-data-views.md) 형식으로 나열되어 있습니다. 광고 템플릿 목록에는 [!UICONTROL All], [!UICONTROL System Templates]&#x200B;(Adobe 계정 팀에서 계정에 업로드함) 및 [!UICONTROL User Templates]에 대한 탭이 포함되어 있습니다. 기본적으로 모든 광고주에 대한 광고 템플릿이 표시됩니다. 특정 광고주에 대한 광고 템플릿만 보려면 페이지 상단의 광고주 목록에서 를 선택합니다.
 
 <!-- 
-
 Probably not necessary:
 
 * **[!UICONTROL Card view]** &mdash; Displays templates as cards. Each card shows a preview thumbnail and the ad dimensions. Hovering a card reveals action controls.
 
 * **[!UICONTROL Table view]** &mdash; Displays templates in a table with columns for **[!UICONTROL Name]**, **[!UICONTROL Type]**, **[!UICONTROL Status]**, **[!UICONTROL Size/Duration]**, **[!UICONTROL Advertiser]**, and **[!UICONTROL Updated]**. Click the **[!UICONTROL Name]** or **[!UICONTROL Updated]** column header to sort ascending or descending. Pagination controls appear at the bottom of the list.
-
 -->
 
 ### 사용 가능한 작업
@@ -249,7 +247,7 @@ The top toolbar above the canvas is the same for both display and video template
 | 아이콘 | 설명 |
 | --- | --- |
 | **[!UICONTROL Search]** | 라이브러리의 모든 자산 유형을 검색합니다. |
-| **[!UICONTROL Upload]** | 현재 템플릿에서 사용할 이미지 <!-- not there as of 7/10:  or font files (TTF, OTF, WOFF, WOFF2)-->을(를) 편집기에 업로드합니다. 한 번에 최대 20개의 파일을 업로드할 수 있습니다. |
+| **[!UICONTROL Upload]** | 현재 템플릿에서 사용할 이미지 또는 글꼴 파일을 편집기에 업로드합니다. 한 번에 최대 20개의 파일을 업로드할 수 있습니다. |
 | **[!UICONTROL Templates]** | Creative Studio 라이브러리에서 광고 템플릿을 검색하여 기본 레이어 또는 참조 요소로 사용합니다. |
 | **[!UICONTROL My Assets]** | Creative Studio Assets 탭에서 업로드한 모든 에셋을 찾아봅니다. |
 | **[!UICONTROL Images]** | Creative Studio Assets 탭에서 업로드한 이미지 에셋만 찾아봅니다. |
@@ -516,3 +514,4 @@ These are all saved with the template, but they aren't what you see, as-is, in t
 >* [Creative Studio에서 자산 관리](creative-studio-manage-assets.md)
 >* [Creative Studio에서 표준 광고 관리](creative-studio-manage-standard-ads.md)
 >* [Creative Studio에서 동적 크리에이티브 관리](creative-studio-manage-dynamic-ads.md)
+

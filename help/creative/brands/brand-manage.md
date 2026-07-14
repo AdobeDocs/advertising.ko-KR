@@ -7,7 +7,7 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
 workflow-type: tm+mt
 source-wordcount: 1085
 ht-degree: 0%
@@ -126,11 +126,11 @@ ht-degree: 0%
 
 브랜드 세부 사항 페이지는 다음 탭으로 구성됩니다.
 
-### **[!UICONTROL Overview]**
+### [!UICONTROL Overview]
 
 브랜드 이름을 표시합니다. 설명을 추가하려면 **[!UICONTROL When to use this brand]**&#x200B;을(를) 클릭하고 설명 텍스트를 입력한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 설명은 즉시 저장되며 페이지 수준 **[!UICONTROL Save]** 단추를 클릭할 필요가 없습니다.
 
-### **[!UICONTROL Brand voice guidelines]**
+### [!UICONTROL Brand voice guidelines]
 
 (선택 사항) 브랜드의 음성 및 메시징 표준을 정의합니다. AI 에이전트는 헤드라인을 생성하고 복사할 때 이 지침을 사용합니다.
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Editorial Restrictions]:**(선택 사항) 피해야 할 규칙을 씁니다. 예: &quot;전문 용어 사용 안 함&quot;, &quot;가격 요구 사항 적용 안 함&quot; 또는 &quot;경쟁업체 이름 사용 안 함&quot;
 
-### **[!UICONTROL Image guidelines]**
+### [!UICONTROL Image guidelines]
 
 (선택 사항) 최대 10개의 카테고리로 구성된 배경 및 제품 이미지에 대한 표준을 정의합니다. AI 에이전트는 배경 이미지 프롬프트를 생성할 때 이 지침을 사용합니다.
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Restrictions]:**(선택 사항) 피해야 할 사항. 최대 5개의 항목을 포함합니다. 예: &quot;재고 사진 미학 없음&quot; 또는 &quot;바쁜 배경 피하기&quot;
 
-### **[!UICONTROL Channel guidelines]**
+### [!UICONTROL Channel guidelines]
 
 최대 10개의 복사 표준을 <!-- Just one set of guidelines as of 7/9: channel-specific -->에 정의합니다. AI 에이전트는 복사 변형을 생성할 때 채널 지침을 사용합니다.
 
@@ -186,7 +186,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Examples]:**(선택 사항) <!-- Just one set of guidelines as of 7/9: channel's --> 지정 스타일을 보여 주는 샘플 광고 복사본(헤드라인, 하위 헤드라인, 본문 및 CTA)입니다. 지침에 따라 광고 복사본의 예를 보려면 **[!UICONTROL Create example]**&#x200B;을(를) 클릭합니다.
 
-### **[!UICONTROL Logos]**
+### [!UICONTROL Logos]
 
 (선택 사항) 로고는 로고 요소를 포함하는 광고에 사용되며 로고 버전을 교환할 때 AI 에이전트에서 사용할 수 있습니다. 지원되는 이미지 유형은 JPG, PNG 및 SVG이며, 각 파일은 최대 5MB일 수 있습니다. 각 브랜드에는 최대 10개의 로고가 포함될 수 있습니다.
 
@@ -212,7 +212,7 @@ ht-degree: 0%
 
    * 브랜드 설정에서 로고를 제거하려면 **[!UICONTROL ...]** > **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다. 확인 메시지에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
-### **[!UICONTROL Colors]**
+### [!UICONTROL Colors]
 
 (선택 사항) 브랜드의 색상 팔레트를 정의합니다. AI 에이전트는 색상 기반 광고 변형을 생성할 때 지정된 색상을 사용합니다.
 

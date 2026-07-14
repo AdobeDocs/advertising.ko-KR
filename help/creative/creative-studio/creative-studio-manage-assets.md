@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 292
+source-wordcount: 296
 ht-degree: 0%
 
 ---
@@ -37,15 +37,22 @@ ht-degree: 0%
 * [에셋 삭제](#assets-delete)
 
 <!--
-
 Should be in "Common Tasks" chapter
 
 ## Browse and search assets {#assets-search}
 
 * Use the **[!UICONTROL Search assets]** field to find assets by name. Enter at least three characters to trigger a search; shorter queries don't filter results.
 * Click **[!UICONTROL Filter]** to filter the asset library by type or other attributes.
-
 -->
+
+## 지원되는 에셋 유형
+
+| 유형 | 지원되는 형식 | 최대 파일 크기 |
+| --- | --- | --- |
+| 이미지 | JPG/JPEG, PNG, GIF, WebP, SVG | 10MB |
+| 비디오 | MP4, MOV, AVI, WebM | 512메가바이트 |
+| 오디오 | MP3, WAV, AAC, OGG | 50MB |
+| 글꼴 | TTF, OTF, WOFF, WOFF2 | 5MB |
 
 ## 에셋 업로드 {#assets-upload}
 
@@ -57,27 +64,9 @@ Should be in "Common Tasks" chapter
 
 1. 컴퓨터 또는 네트워크에서 하나 이상의 파일을 선택합니다.
 
-   지원되는 파일 유형은 다음과 같습니다.
-
-   <!-- Verified 2026-07-09 against creative-api TemplateMediaValidator.java (IMAGE_EXTENSIONS, VIDEO_EXTENSIONS, AUDIO_EXTENSIONS), which backs the /v1/creative/template-medias upload/initiate endpoint used by this tab. The Assets tab file input has no client-side accept restriction (TemplateBrowser.tsx) and relies entirely on this backend validator, so it is authoritative. -->
-
-   | 유형 | 지원되는 형식 | 최대 파일 크기 |
-   | --- | --- | --- |
-   | 이미지 | JPG/JPEG, PNG, GIF, WebP, SVG | 10MB |
-   | 비디오 | MP4, MOV, AVI, WebM | 512메가바이트 |
-   | 오디오 | MP3, WAV, AAC, OGG | 50MB |
-
    오류 알림과 함께 빈 파일 및 지원되지 않는 파일 유형이 거부됩니다.
 
    자산 이름은 확장명 없이 업로드된 파일 이름으로 저장됩니다. 파일 이름의 공백 및 비 ASCII 문자는 밑줄로 대체됩니다. 예를 들어 `My Logo.png`을(를) 업로드하면 이름이 `My_Logo`인 자산이 만들어집니다. 에셋의 이름은 나중에 변경할 수 있습니다.
-
-<!--
-
-maybe later:
-
-   | Fonts | TTF, OTF, WOFF, WOFF2 | 5 MB |
-   
--->
 
 ## 에셋 이름 편집 {#asset-rename}
 
