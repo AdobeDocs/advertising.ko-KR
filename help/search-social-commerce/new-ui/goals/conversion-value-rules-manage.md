@@ -2,14 +2,11 @@
 title: (새 UI)  [!DNL Google Ads] 전환 값 규칙 관리
 description: 검색, 소셜 및 Commerce에서  [!DNL Google Ads] 전환 값 규칙을 보고 관리하는 방법을 알아봅니다.
 feature: Conversions
-feature_v2:
-  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+feature_v2: id: e6916c1b-e939-4e0b-99f5-768e83e1e99fid: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
-source-wordcount: 1844
+source-wordcount: 1854
 ht-degree: 0%
 
 ---
@@ -30,7 +27,7 @@ Search, Social 및 Commerce은 [!DNL Google Ads] 계정의 전환 값 규칙을 
 
 * 개별 계정 또는 캠페인 수준에서 전환을 추적하는 계정에서 계정 수준 및 캠페인 수준 규칙의 상태를 [만들기](#google-conversion-value-rule-create), [편집](#google-conversion-value-rule-edit) 및 [변경](#google-conversion-value-rule-change-status)할 수 있습니다.
 
-  계정은 [[!DNL Google Ads] 관리자 계정](/help/search-social-commerce/new-ui/)에 연결할 수 있지만 계정 간 전환 추적을 사용할 수 없습니다(이 경우 관리자 계정의 모든 계정에서 전환이 추적됨).
+  계정은 [[!DNL Google Ads] 관리자 계정](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)에 연결할 수 있지만 계정 간 전환 추적을 사용할 수 없습니다(이 경우 관리자 계정의 모든 계정에서 전환이 추적됨).
 
 * 계정 간 전환 추적을 사용하는 계정의 계정 수준 및 캠페인 수준 규칙은 관리자 계정에서 상속되며 읽기 전용입니다.
 
