@@ -2,10 +2,15 @@
 title: (새 UI) 게시물 일괄 시트 또는 수정된 오류 파일
 description: 새로운 검색, 소셜 및 Commerce UI에서 일괄 시트 파일을 광고 네트워크에 게시하는 방법을 알아봅니다.
 feature: Search Bulksheets
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e58024d1-d6da-420c-80af-6be211808316
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: 752
@@ -33,7 +38,7 @@ ht-degree: 0%
 
    게시하는 모든 파일에 동일한 설정이 적용됩니다.
 
-작업이 시작되면 [!UICONTROL Bulksheets] 보기에서 행의 상태 및 예약된 게시 날짜가 업데이트됩니다. 일괄 시트에 대한 전자 메일 알림이 [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md) 내에 [활성화되어 있으면 파일을 게시할 때 파일에 대한 링크가 있는 전자 메일 알림이 전송됩니다. 컴파일된 데이터의 양에 따라 이메일 알림은 몇 분 이상 걸릴 수 있습니다. 데이터를 게시할 수 없는 경우 오류 파일이 [!UICONTROL Bulksheets] 보기에 나열되고 오류 파일에 대한 링크와 함께 전자 메일 알림이 전송됩니다.
+작업이 시작되면 [!UICONTROL Bulksheets] 보기에서 행의 상태 및 예약된 게시 날짜가 업데이트됩니다. 일괄 시트에 대한 전자 메일 알림이 [!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md) 내에 활성화되어 있으면 파일을 게시할 때 파일에 대한 링크가 있는 전자 메일 알림이 전송됩니다. 컴파일된 데이터의 양에 따라 이메일 알림은 몇 분 이상 걸릴 수 있습니다. 데이터를 게시할 수 없는 경우 오류 파일이 [!UICONTROL Bulksheets] 보기에 나열되고 오류 파일에 대한 링크와 함께 전자 메일 알림이 전송됩니다.
 
 >[!NOTE]
 >
