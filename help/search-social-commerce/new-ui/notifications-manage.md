@@ -2,7 +2,7 @@
 title: (새 UI) 알림 관리
 description: 푸시 알림 및 알림 센터 웹 애플리케이션을 비롯한 검색, 소셜 및 Commerce 알림을 보고, 구성하고, 관리하는 방법을 알아봅니다.
 feature: Search Notifications
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Bulksheets]**: [일괄 시트 작업](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)이 완료되었거나 실패했다는 알림입니다.<!-- Update link once file for new UI available-->
 
-   * **[!UICONTROL Manager Account Missing]**: Search, Social 및 Commerce에 [ad 네트워크 관리자 계정](/help/search-social-commerce/admin/manager-accounts.md)에 대한 자격 증명이 누락되었다는 알림으로, 중요한 기능을 올바르게 설정하는 데 필요합니다.<!-- Moving to Campaign Management > Setup Errors at some point -->
+   * **[!UICONTROL Manager Account Missing]**: Search, Social 및 Commerce에 [ad 네트워크 관리자 계정](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)에 대한 자격 증명이 누락되었다는 알림으로, 중요한 기능을 올바르게 설정하는 데 필요합니다.<!-- Moving to Campaign Management > Setup Errors at some point -->
 
    * **[!UICONTROL UI Actions]**: 백그라운드에서 수행되는 작업이 완료되었거나 실패했음을 알립니다. 작업 유형에는 [일괄 시트 작업](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->, 데이터 테이블 내의 일괄 편집 작업 또는 도구 모음 사용, 엔티티 할당 작업 또는 사용자 인터페이스 내의 기타 작업(예: 광고 네트워크와의 동기화, 행 붙여넣기 또는 엔티티 이름 바꾸기)이 포함됩니다. 엔터티 할당에는 엔터티에 [레이블 분류 값](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)을 할당하거나 할당 취소, 포트폴리오에 캠페인 할당, 엔터티에 [입찰 제한 할당 또는 할당 취소](/help/search-social-commerce/new-ui/goals/constraints-manage.md)가 포함됩니다.
 

@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 739034010787c2016720bef37fb75dc8efbae58b
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: 752
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    게시하는 모든 파일에 동일한 설정이 적용됩니다.
 
-작업이 시작되면 [!UICONTROL Bulksheets] 보기에서 행의 상태 및 예약된 게시 날짜가 업데이트됩니다. 일괄 시트에 대한 전자 메일 알림이 [!UICONTROL Notification Center] [&#128279;] (/help/search-social-commerce/new-ui/notifications/notification-manage.md) 내에 활성화되어 있으면 파일을 게시할 때 파일에 대한 링크가 있는 전자 메일 알림이 전송됩니다. 컴파일된 데이터의 양에 따라 이메일 알림은 몇 분 이상 걸릴 수 있습니다. 데이터를 게시할 수 없는 경우 오류 파일이 [!UICONTROL Bulksheets] 보기에 나열되고 오류 파일에 대한 링크와 함께 전자 메일 알림이 전송됩니다.
+작업이 시작되면 [!UICONTROL Bulksheets] 보기에서 행의 상태 및 예약된 게시 날짜가 업데이트됩니다. 일괄 시트에 대한 전자 메일 알림이 [!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/new-ui/notifications-manage.md) 내에 활성화되어 있으면 파일을 게시할 때 파일에 대한 링크가 있는 전자 메일 알림이 전송됩니다. 컴파일된 데이터의 양에 따라 이메일 알림은 몇 분 이상 걸릴 수 있습니다. 데이터를 게시할 수 없는 경우 오류 파일이 [!UICONTROL Bulksheets] 보기에 나열되고 오류 파일에 대한 링크와 함께 전자 메일 알림이 전송됩니다.
 
 >[!NOTE]
 >

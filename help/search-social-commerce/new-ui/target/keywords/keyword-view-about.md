@@ -4,9 +4,9 @@ description: '[!UICONTROL Keywords] 보기에서 수행할 수 있는 작업을 
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: e89e47d3-b41c-4330-8b72-f601194d5ddc
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,10 @@ ht-degree: 0%
 
 ## 사용 가능한 작업
 
-* [키워드에 제한 할당 및 키워드에서 제한 할당 해제](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+* [키워드에 제한 할당 및 키워드에서 제한 할당 해제](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+
+* 키워드에 [레이블 분류 할당](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
 
 >[!MORELIKETHIS]
 >
->* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
