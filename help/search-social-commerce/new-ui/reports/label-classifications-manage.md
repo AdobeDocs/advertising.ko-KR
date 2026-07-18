@@ -2,7 +2,7 @@
 title: 레이블 분류 관리
 description: 레이블 분류를 사용하여 계정 구성 요소를 그룹화하는 방법에 대해 알아봅니다.
 feature: Search Label Classifications
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
@@ -111,7 +111,7 @@ ht-degree: 0%
 >
 >일부 광고 네트워크 및 캠페인 유형의 키워드 및 광고 복사본은 [변경할 수 없음](/help/search-social-commerce/campaign-management/faqs-campaigns.md)입니다. 즉, 편집하면 기존 엔터티가 삭제되고 새 엔터티가 만들어집니다. 이러한 방식으로 기존 엔티티를 삭제하면 레이블 분류가 새 엔티티에 할당되지 않습니다.
 
-1. 레이블 분류 값을 할당할 엔터티가 포함된 [일괄 시트를 다운로드합니다](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md).
+1. 레이블 분류 값을 할당할 엔터티가 포함된 [일괄 시트를 다운로드합니다](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md).
 
    * [!UICONTROL Rows and Columns] 탭에서 [!UICONTROL Bulksheet Columns] 창의 [!UICONTROL Campaign] 목록을 확장합니다.
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    값을 추가하는 것 외에도 관련 행에서 기존 값을 제거하여 삭제할 수도 있습니다. 상위 엔티티와 하위 엔티티 모두에서 값을 제거하려면 a) 상위 엔티티 행만 포함하고 기존 분류 값을 제거하거나 b) 상위 엔티티와 하위 엔티티를 모두 포함하고 상위 및 하위 행 모두에서 기존 분류 값을 제거합니다.
 
-1. 연결을 만들려면 [파일을 업로드](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md)합니다.<!-- Update once the new bulksheet UI is GA -->
+1. 연결을 만들려면 [파일을 업로드](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md)하십시오.
 
 업로드된 레이블 값은 관련 엔티티 보기에 표시됩니다.
 
