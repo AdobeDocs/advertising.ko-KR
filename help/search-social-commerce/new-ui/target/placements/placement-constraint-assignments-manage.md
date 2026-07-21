@@ -4,7 +4,7 @@ description: 배치에 제약 조건을 할당하는 방법을 알아봅니다.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-## 새 [!UICONTROL Placements] 보기에서 선택한 배치에서 제약 조건 할당 해제
+## 새 [!UICONTROL Placements] 보기에서 선택한 배치에서 제약 조건 제거
 
 1. 메인 메뉴에서 **[!UICONTROL Target]>[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
 
