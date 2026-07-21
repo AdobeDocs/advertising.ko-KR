@@ -6,7 +6,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -66,9 +66,9 @@ ht-degree: 0%
 
 * 모든 제약 조건은 &quot;[!UICONTROL Constraints]&quot;이라는 단일 [레이블 분류](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=ko)에 대한 레이블 값입니다.
 
-   * &quot;[!UICONTROL Constraints]&quot;은(는) 기본 및 사용자 지정 보기 설정과 예약된 보고서의 &quot;[!UICONTROL Classifications]&quot; 목록에 포함되어 있습니다. 관련 엔티티에 할당된 구속을 보려는 위치에 열을 추가할 수 있습니다.
+  * &quot;[!UICONTROL Constraints]&quot;은(는) 기본 및 사용자 지정 보기 설정과 예약된 보고서의 &quot;[!UICONTROL Classifications]&quot; 목록에 포함되어 있습니다. 관련 엔티티에 할당된 구속을 보려는 위치에 열을 추가할 수 있습니다.
 
-   * 일괄 시트를 다운로드하면 &quot;[!UICONTROL Constraints]&quot;이(가) [!UICONTROL Download Bulksheet] 대화 상자의 적용 가능한 엔터티에 대해 &quot;[!UICONTROL Classifications]&quot; 열 아래에 나열됩니다. 열을 포함할 때 다운로드된 일괄 시트에는 관련 엔티티에 할당된 모든 구속이 포함됩니다.
+  * 일괄 시트를 다운로드하면 &quot;[!UICONTROL Constraints]&quot;이(가) [!UICONTROL Download Bulksheet] 대화 상자의 적용 가능한 엔터티에 대해 &quot;[!UICONTROL Classifications]&quot; 열 아래에 나열됩니다. 열을 포함할 때 다운로드된 일괄 시트에는 관련 엔티티에 할당된 모든 구속이 포함됩니다.
 
   [!UICONTROL Constraints] 분류가 [!UICONTROL Label Classifications] 보기에 포함되어 있지 않습니다. [!UICONTROL Constraints] 보기는 별개입니다. [!UICONTROL Constraints] 분류도 30개 레이블 분류 제한에 포함되지 않습니다.
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 활성 제한을 일시 중지하여 비활성화할 수 있습니다. 나중에 상태를 *활성*(으)로 다시 변경하여 활성화할 수 있습니다.
 
-또한 제한을 삭제할 수 있습니다. 이렇게 하면 계정 구성 요소와의 모든 연결이 제거되고 나중에 사용할 수 없게 됩니다. 제한에 대한 보고서 데이터를 더 이상 사용할 수 없습니다. **참고:** 계정 구성 요소에서 제약 조건을 단순히 연결 해제하려면 &quot;[검색 입찰 단위에서 제약 조건 할당 해제](#constraints-unassign)&quot;를 참조하십시오.
+또한 제한을 삭제할 수 있습니다. 이렇게 하면 계정 구성 요소와의 모든 연결이 제거되고 나중에 사용할 수 없게 됩니다. 제한에 대한 보고서 데이터를 더 이상 사용할 수 없습니다. **참고:** 계정 구성 요소에서 제약 조건을 단순히 연결 해제하려면 &quot;[검색 입찰 단위에서 제약 조건 제거](#constraints-unassign)&quot;를 참조하십시오.
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Constraints]**&#x200B;을(를) 클릭합니다.
 
