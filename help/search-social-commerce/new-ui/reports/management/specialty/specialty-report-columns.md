@@ -2,7 +2,7 @@
 title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
 workflow-type: tm+mt
 source-wordcount: '3172'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!UICONTROL All Conversion Rate] | ([!UICONTROL MSA Ad Extension]개 보고서) 전환율(백분율)입니다. |
 | [!UICONTROL All Conversions] | ([!UICONTROL Google AI Max Search Term Combination] 및 [!UICONTROL MSA Ad Extension] 보고서) 총 전환 수입니다. [!UICONTROL Google AI Max Search Term Combination Report]의 경우 이 값에는 기본 전환 열에 포함되지 않은 전환 작업이 포함됩니다. |
 | [!UICONTROL All Conversions Qualified] | ([!UICONTROL MSA Ad Extension]개 보고서) 전환 수입니다. |
-| [!UICONTROL All Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report])모든 전환의 값입니다. |
+| [!UICONTROL All Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report]) 모든 전환의 값입니다. |
 | [!UICONTROL All Conversions Value Per Cost] | ([!UICONTROL Google AI Max Search Term Combination Report]) 모든 전환의 값을 광고 상호 작용의 총 비용(예: 클릭 수 또는 비디오 보기 수)으로 나눈 값입니다. |
 | [!UICONTROL All Cost Per Conversion] | ([!UICONTROL MSA Ad Extension]개 보고서) 전환당 비용입니다. |
 | [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension]개의 보고서) 총 수입을 지출로 나눈 비율로 표시합니다. |
