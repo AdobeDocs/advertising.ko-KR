@@ -4,9 +4,15 @@ description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열�
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
 TQID: https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
 workflow-type: tm+mt
 source-wordcount: 3847
@@ -43,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] 반응형 검색 광고) 광고의 효과: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> 또는 <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads] 및 [!DNL Microsoft Advertising] 캠페인) 광고가 모바일 장치에 표시될 때 입찰이 조정되는 방법을 결정하는 현재 광고 그룹 수준의 모바일 입찰 조정입니다. |
 | [!UICONTROL AI Max Bundling Required] | (검색 네트워크만 대상으로 하는 캠페인, AI 최대 기능이 활성화된 캠페인, 읽기 전용) 번들링이 필요한지 여부: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* 또는 null. |
-| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max] 기능 ](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max] 기능 &#x200B;](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
 | [!UICONTROL AI Max Search Term Matching] | (검색 네트워크를 대상으로 하며 [AI 최대 기능](https://support.google.com/google-ads/answer/15910366) 및 캠페인 수준 검색어 일치 기능이 활성화된 캠페인입니다. 읽기 전용) 광고 그룹 수준 검색어 일치가 활성화되었는지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
 | [!UICONTROL Advertiser] | 광고주 이름. |
 | [!UICONTROL Advertiser ID] | 광고주의 검색, 소셜 및 Commerce 계정에 대한 숫자 ID입니다. |

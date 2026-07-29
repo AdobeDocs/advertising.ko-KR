@@ -2,10 +2,14 @@
 title: 크리에이티브 에셋 보기 및 만들기
 description: ' [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정 수준 자산 라이브러리에 대한 재사용 가능한 이미지, 비디오 및 텍스트 자산을 보고 만드는 방법을 알아봅니다.'
 feature: Search Campaign Management
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
 workflow-type: tm+mt
 source-wordcount: 492
@@ -102,7 +106,7 @@ ht-degree: 0%
 
 1. 일괄 작업 도구 모음에서 **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
 
-1. <!-- VERIFY -->확인 메시지에서 **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
+1. &#x200B;<!-- VERIFY -->확인 메시지에서 **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
