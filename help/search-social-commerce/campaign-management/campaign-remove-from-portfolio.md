@@ -4,15 +4,12 @@ description: 포트폴리오에서 캠페인을 제거하는 방법을 알아봅
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/0fmf5-BIR03Mm2iEU78xdvR-VczJ-i0d0ZpjR8dYYj4
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3d87bfab8f577b69a86abd0a6b50d07f70ae60a8
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: 251
 ht-degree: 0%
 
 ---
@@ -29,7 +26,9 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;을(를) 클릭합니다.
 
-1. 데이터 테이블 위의 도구 모음에서 ![편집](/help/search-social-commerce/assets/edit.png "편집") **[!UICONTROL Edit]**&#x200B;을 클릭합니다.
+1. 포트폴리오 옆에 있는 확인란을 선택합니다.
+
+1. 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 포트폴리오 설정에서 [!UICONTROL Assign Campaigns] 섹션으로 이동하여 캠페인 할당을 변경합니다.
 
@@ -43,7 +42,7 @@ ht-degree: 0%
 
 1. 주 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**&#x200B;을(를) 클릭한 다음 포트폴리오를 찾습니다.
 
-   포트폴리오 그룹 또는 [!UICONTROL Portfolios] 노드를 선택하여 왼쪽 패널의 [!UICONTROL Ungrouped Portfolios] 메뉴에서 포트폴리오 목록을 필터링할 수 있습니다.
+   포트폴리오 그룹 또는 [!UICONTROL Ungrouped Portfolios] 노드를 선택하여 왼쪽 패널의 [!UICONTROL Portfolios] 메뉴에서 포트폴리오 목록을 필터링할 수 있습니다.
 
 1. 포트폴리오 이름 옆에 있는 ![설정 보기/편집 단추](/help/search-social-commerce/assets/settings.png "설정 보기/편집 단추")를 클릭합니다.
 
