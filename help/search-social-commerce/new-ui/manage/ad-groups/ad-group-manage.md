@@ -2,15 +2,11 @@
 title: 광고 그룹 관리
 description: 광고 그룹을 만들고 관리하는 방법에 대해 알아봅니다.
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e120af366651028227306e993e73f125f29a431f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
 workflow-type: tm+mt
 source-wordcount: 1676
 ht-degree: 0%
@@ -61,7 +57,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create Ad Group]**&#x200B;을(를) 클릭합니다.
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-baidu.md), [Google 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yandex.md) 광고 그룹 설정을 지정합니다.
+1. [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [Google 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md) 광고 그룹 설정을 지정합니다.
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
@@ -97,7 +93,7 @@ ht-degree: 0%
 
    * 광고 그룹 옆에 있는 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-baidu.md), [Google 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yandex.md) 광고 그룹 설정을 편집합니다.
+1. [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [Google 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md) 광고 그룹 설정을 편집합니다.
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
@@ -323,8 +319,8 @@ ht-degree: 0%
 >* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
 >* [(레거시 UI) 캠페인 관리 보기에서 데이터를 다운로드합니다](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(기존 UI) [!UICONTROL Downloads] 메뉴에서 성능 데이터 보고서 또는 일괄 시트 파일을 삭제합니다.](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
->* [[!DNL Baidu] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-baidu.md)
->* [[!DNL Google Ads] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-google.md)
->* [[!DNL LY Ads] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yahoo-japan.md)
->* [[!DNL Microsoft Advertising] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-microsoft.md)
->* [[!DNL Yandex] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yandex.md)
+>* [[!DNL Baidu] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
+>* [[!DNL Google Ads] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
+>* [[!DNL LY Ads] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)
+>* [[!DNL Microsoft Advertising] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
+>* [[!DNL Yandex] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)

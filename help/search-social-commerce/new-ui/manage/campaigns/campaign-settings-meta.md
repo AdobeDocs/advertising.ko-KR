@@ -26,8 +26,6 @@ ht-degree: 0%
 
 <!-- **[!UICONTROL End Date]:** -->
 
-{{$include /help/_includes/end-date.md}}
-
 **[!UICONTROL Status]:** 캠페인의 표시 상태: *활성* 또는 *일시 중지됨*.
 
 ## [!UICONTROL Campaign Tracking]
@@ -40,4 +38,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [캠페인 관리](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [캠페인 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)

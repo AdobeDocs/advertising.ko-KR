@@ -2,15 +2,11 @@
 title: 캠페인 관리
 description: 광고 캠페인을 만들고 관리하는 방법을 알아봅니다.
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7dc3ea3fe1fcb701d9d064b184922ed96626cd4a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6b67f3e2759ddd80300c86df610b36684b7a07e2
 workflow-type: tm+mt
 source-wordcount: 2285
 ht-degree: 0%
@@ -68,7 +64,7 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 
 1. **[!UICONTROL Create Campaign]**&#x200B;을(를) 클릭합니다.
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-baidu.md), [Google 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yandex.md) 캠페인 설정을 지정합니다.
+1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md) 캠페인 설정을 지정합니다.
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
@@ -104,7 +100,7 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 
    * 캠페인 옆에 있는 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-baidu.md), [Google 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yahoo-japan.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-meta.md), --> 편집 [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yandex.md) 캠페인 설정.
+1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> 편집 [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md) 캠페인 설정.
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
@@ -426,11 +422,11 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 >* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
 >* [(레거시 UI) 캠페인 관리 보기에서 데이터를 다운로드합니다](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(기존 UI) [!UICONTROL Downloads] 메뉴에서 성능 데이터 보고서 또는 일괄 시트 파일을 삭제합니다.](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
->* [[!DNL Baidu] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-baidu.md)
->* [[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-google.md)
->* [[!DNL LY Ads] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yahoo-japan.md)
->* [[!DNL Microsoft Advertising] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-microsoft.md)
->* [[!DNL Yandex] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yandex.md)
+>* [[!DNL Baidu] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+>* [[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
+>* [[!DNL LY Ads] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)
+>* [[!DNL Microsoft Advertising] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
+>* [[!DNL Yandex] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
 
-<!-- >* [[!DNL Meta Ads] campaign settings](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-meta.md) -->
+<!-- >* [[!DNL Meta Ads] campaign settings](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md) -->
 
