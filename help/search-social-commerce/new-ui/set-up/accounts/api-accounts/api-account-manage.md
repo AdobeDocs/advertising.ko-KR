@@ -3,9 +3,9 @@ title: (새 UI) 광고 네트워크 계정 관리
 description: 광고 네트워크 API를 통해 동기화된 광고 네트워크에 대한 새 UI에서 계정 세부 사항을 설정하고 관리하는 방법에 대해 알아봅니다.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 694cc3c6bc6217cf6f1febf5da28fd7988690622
+source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,7 @@ ht-degree: 0%
 
 1. ([!DNL Yandex]을(를) 제외한 모든 광고 네트워크) 광고주의 자격 증명을 사용하여 광고 네트워크에 로그인합니다. &quot;이 계정에 대한 계정 추적&quot; 옵션을 선택합니다. 그런 다음 오른쪽 상단에서 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-1. [계정 설정](#account-settings-api) 지정:
-
-   1. **[!UICONTROL Select Accounts]** 탭에서 일반 계정 설정을 지정합니다. [!DNL Yandex] 계정의 경우 계정 자격 증명을 지정하십시오.
-
-   1. **[!UICONTROL Setup Tracking]** 탭을 클릭하고 추적 설정을 입력합니다.
-
-   1. ([[!DNL Adobe Analytics for Advertising] 통합](/help/integrations/analytics/overview.md)을(를) 사용하는 광고주) **[!UICONTROL Set up Adobe Analytics]** 탭을 클릭하고 캠페인 활동 추적 및 보고에 사용할 모든 [!DNL Analytics] 보고 세트를 선택합니다.
+1. 사용 가능한 각 탭에서 [계정 설정](#account-settings-api)을 지정하십시오.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -68,15 +62,7 @@ ht-degree: 0%
 
    * 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. [계정 설정](#account-settings-api)을(를) 편집합니다.
-
-   1. (선택 사항) **[!UICONTROL Account Details]** 탭에서 계정 세부 정보를 편집합니다.
-
-   1. (선택 사항) **[!UICONTROL Setup Tracking]** 탭을 클릭하고 추적 설정을 편집합니다.
-
-   1. (선택 사항, [[!DNL Adobe Analytics for Advertising] 통합](/help/integrations/analytics/overview.md)을 사용하는 광고주) **[!UICONTROL Set up Adobe Analytics]** 탭을 클릭하고 캠페인 활동 추적 및 보고에 사용할 [!DNL Analytics] 보고 세트를 편집하십시오.
-
-   <!-- What are the repercussions of changing the suites? Timing of updated data? -->
+1. 사용 가능한 탭에서 [계정 설정](#account-settings-api)을(를) 편집합니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -114,21 +100,21 @@ ht-degree: 0%
 
    * [!UICONTROL Accounts] 보기에서:
 
-      * (계정을 활성화하려면) 계정 이름 옆에 있는 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Activate]**&#x200B;을(를) 클릭합니다.
+     * (계정을 활성화하려면) 계정 이름 옆에 있는 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Activate]**&#x200B;을(를) 클릭합니다.
 
-      * (계정을 사용하지 않도록 설정하려면) 계정 이름 옆에 있는 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Pause]**&#x200B;을(를) 클릭합니다.
+     * (계정을 사용하지 않도록 설정하려면) 계정 이름 옆에 있는 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Pause]**&#x200B;을(를) 클릭합니다.
 
    * (계정 설정에서):
 
-      1. 다음 방법 중 하나로 계정을 선택합니다.
+     1. 다음 방법 중 하나로 계정을 선택합니다.
 
-         * 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+        * 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-         * 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+        * 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-      1. **[!UICONTROL Account Details]** 탭에서 **[!UICONTROL Account enabled]**&#x200B;을(를) 끕니다.
+     1. **[!UICONTROL Account Details]** 탭에서 **[!UICONTROL Account enabled]**&#x200B;을(를) 끕니다.
 
-      1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 광고 네트워크 계정 설정 {#account-settings-api}
 
@@ -232,9 +218,9 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 
 * 최종 URL을 포함하려면 다음을 수행하십시오.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+  * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
-   * ([!DNL LY Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
+  * ([!DNL LY Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 
 * 필요에 따라 URL 매개 변수와 캠페인에 대해 정의된 사용자 지정 매개 변수를 앰퍼샌드(&amp;)로 구분하여 포함할 수 있습니다(예: `{lpurl}?matchtype={matchtype}&device={device}`).
 
@@ -248,11 +234,11 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 >* 가장 세분화된 수준의 추적 템플릿은 모든 상위 수준의 값을 재정의합니다. 예를 들어 계정 설정과 키워드 설정 모두에 값이 포함된 경우 키워드 값이 적용됩니다.
 >* 광고, 사이트링크 또는 키워드 수준에서 추적 템플릿을 업데이트하는 경우 관련 광고가 다시 제출되어 검토됩니다. 승인을 위해 광고를 다시 제출하지 않고도 계정, 캠페인 또는 광고 그룹 수준에서 추적 템플릿을 업데이트할 수 있습니다.
 
-## [!UICONTROL Setup Analytics] 탭
+## [!UICONTROL Set up Adobe Analytics] 탭
 
 이러한 설정은 [[!DNL Adobe Analytics for Advertising] 통합](/help/integrations/analytics/overview.md)을 사용하는 광고주에게 사용할 수 있습니다.
 
-**[!UICONTROL Adobe Analytics Report Suite]:** (선택 사항) Search, Social 및 Commerce이 광고 네트워크에서 수집하는 데이터를 전송하는 하나 이상의 Analytics 보고서 세트(엔터티 분류 및 계정에 대한 클릭 데이터 포함)입니다. 이 기능은 지원되는 광고 네트워크에서만 사용할 수 있습니다.
+**[!UICONTROL Adobe Analytics Report Suite]:** (선택 사항) Search, Social 및 Commerce이 광고 네트워크에서 수집하는 데이터를 전송하는 하나 이상의 Analytics 보고서 세트(엔터티 분류 및 계정에 대한 클릭 데이터 포함)입니다. 이 기능은 지원되는 광고 네트워크에서만 사용할 수 있습니다.<!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
 데이터를 보고서 세트에 표시하려면 (a) 계정에 대해 서버측 AMO ID 기능을 구성해야 하거나 (b) &quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot;에 대한 광고주 수준 설정을 활성화해야 합니다. 또한 Search, Social 및 Commerce에서 데이터를 수신하도록 광고주의 [!DNL Analytics] 계정을 구성해야 합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 

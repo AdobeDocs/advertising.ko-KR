@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e27316a62339036414dc1c624a35b398ad1cf392
+source-git-commit: 3d853c1ce30e8891baf37b14d20f166c4f79437d
 workflow-type: tm+mt
-source-wordcount: 2413
+source-wordcount: 2371
 ht-degree: 2%
 
 ---
@@ -117,19 +117,21 @@ ht-degree: 2%
       + [포트폴리오의 변경 내역 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [[!UICONTROL Portfolios] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
     + 캠페인 {#campaigns}
-      + [[!UICONTROL Campaigns] 보기 정보](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-      + [포트폴리오에 캠페인 할당](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio){target="_blank"}
-      + [포트폴리오에서 캠페인 제거](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio){target="_blank"}
-      + [캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
-      + [[!UICONTROL Campaigns] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
-      + [캠페인 상태 변경](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
-      + [캠페인 이름 바꾸기](/help/search-social-commerce/new-ui/manage/campaigns/campaign-rename.md)
+      + [캠페인 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+      + 광고 네트워크별 캠페인 설정 {#campaign-settings-by-network}
+        + [[!DNL Baidu] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+        + [[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
+        + [[!DNL LY Ads] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
+        + [[!DNL Yandex] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
     + 광고 그룹 {#ad-groups}
-      + [[!UICONTROL Ad Groups] 보기 정보](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
-      + [광고 그룹에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-      + [[!UICONTROL Ad Groups] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
-      + [광고 그룹 상태 변경](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-change-status.md)
-      + [광고 그룹 이름 바꾸기](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-rename.md)
+      + [광고 그룹 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)
+      + 광고 네트워크별 광고 그룹 설정 {#ad-group-settings-by-network}
+        + [[!DNL Baidu] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
+        + [[!DNL Google Ads] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
+        + [[!DNL LY Ads] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
+        + [[!DNL Yandex] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + 광고 {#ads}
       + [[!UICONTROL Ads] 보기 정보](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
       + [[!UICONTROL Ads] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
@@ -146,6 +148,7 @@ ht-degree: 2%
           + 기본 보고서 형식 {#basic-report-formats}
             + [[!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)
             + [[!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)
+            + [[!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)
             + [[!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)
             + [[!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-hourly-report.md)
             + [[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)
@@ -215,6 +218,7 @@ ht-degree: 2%
       + [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
     + [&#x200B; [!DNL Google Ads] 동적 검색 대상 관리](/help/search-social-commerce/new-ui/target/dynamic-search-target-manage.md)
   + 에셋 {#assets}
+    + [크리에이티브 에셋 보기 및 만들기](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)
     + [쇼핑 제품 그룹 관리](/help/search-social-commerce/new-ui/assets/product-groups-manage.md)
   + 설정 {#setup}
     + 계정 {#accounts}

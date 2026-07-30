@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
 workflow-type: tm+mt
-source-wordcount: 3846
+source-wordcount: 3847
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] 반응형 검색 광고) 광고의 효과: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> 또는 <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads] 및 [!DNL Microsoft Advertising] 캠페인) 광고가 모바일 장치에 표시될 때 입찰이 조정되는 방법을 결정하는 현재 광고 그룹 수준의 모바일 입찰 조정입니다. |
 | [!UICONTROL AI Max Bundling Required] | (검색 네트워크만 대상으로 하는 캠페인, AI 최대 기능이 활성화된 캠페인, 읽기 전용) 번들링이 필요한지 여부: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* 또는 null. |
-| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max] 기능](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: [!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max] 기능 &#x200B;](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
 | [!UICONTROL AI Max Search Term Matching] | (검색 네트워크를 대상으로 하며 [AI 최대 기능](https://support.google.com/google-ads/answer/15910366) 및 캠페인 수준 검색어 일치 기능이 활성화된 캠페인입니다. 읽기 전용) 광고 그룹 수준 검색어 일치가 활성화되었는지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
 | [!UICONTROL Advertiser] | 광고주 이름. |
 | [!UICONTROL Advertiser ID] | 광고주의 검색, 소셜 및 Commerce 계정에 대한 숫자 ID입니다. |
@@ -136,7 +136,7 @@ ht-degree: 0%
 | [!UICONTROL Label Classification] | ([!UICONTROL Label Classification Report] 및 [!UICONTROL Label Value Report]) 레이블 분류입니다. |
 | [!UICONTROL Label Value] | ([!UICONTROL Label Classification Report] 및 [!UICONTROL Label Value Report]) 레이블 분류의 값입니다. |
 | [!UICONTROL Language] | (캠페인 표시) 타겟 대상 언어입니다. |
-| [!UICONTROL Link Type] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인만 해당. 보고서에 지정된 속성 규칙이 &quot;마지막 이벤트&quot;인 경우에만 데이터를 사용할 수 있음) 행에서 광고 확장(광고 자체 대신) 또는 제품/쇼핑 광고를 클릭했을 때 전환을 보고하는 경우 이 열에는 클릭한 링크의 유형과 제목이 표시됩니다.<ul><li>`pla:*` — 제품 광고가 `pla:<product ID>`(예: &quot;pla:8525822&quot;)로 나열됩니다.</li><li>`sl:*` — 사이트 링크는 &quot;sl:See 현재 오퍼&quot;와 같이 `sl:<Sitelink text>`(으)로 나열됩니다.</li></ul> |
+| [!UICONTROL Link Type] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인만 해당. 보고서에 지정된 속성 규칙이 &quot;마지막 이벤트&quot;인 경우에만 데이터를 사용할 수 있음) 행에서 광고 확장(광고 자체 대신) 또는 제품/쇼핑 광고를 클릭했을 때 전환을 보고하는 경우 이 열에는 클릭한 링크의 유형과 제목이 표시됩니다.<ul><li>`pla:*` - 제품 광고가 `pla:<product ID>`(으)로 나열됩니다(예: &quot;pla:8525822&quot;).</li><li>`sl:*` — 사이트 링크는 &quot;sl:See 현재 오퍼&quot;와 같이 `sl:<Sitelink text>`(으)로 나열됩니다.</li></ul> |
 | [!UICONTROL Listing Match Type] | 광고 목록에 대한 키워드 일치 유형, 콘텐츠 타겟팅 캠페인에 있는 광고의 경우 <i>[!UICONTROL Content]</i>, 사이트 타겟팅 캠페인에 있는 배치의 경우 <i>[!UICONTROL Sitecpc]</i>. [!DNL Microsoft Advertising] 키워드의 경우 여러 일치 유형(예: &quot;[!UICONTROL Broad],[!UICONTROL Exact]&quot;)이 포함될 수 있습니다. |
 | [!UICONTROL Location] | (캠페인 표시) 타겟 대상자 위치입니다. |
 | [!UICONTROL Long Creative Title1] - [!UICONTROL Long Creative Title5] | (반응형 및 멀티미디어 광고 [!DNL Microsoft Advertising]에 대해 완료된 보고서 행에서) 광고의 긴 헤드라인입니다. 이 열을 보려면 보고서 설정에 &quot;[!UICONTROL Long Creative Titles]&quot; 열을 포함하십시오. |
