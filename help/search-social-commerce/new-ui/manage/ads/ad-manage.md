@@ -2,17 +2,13 @@
 title: 광고 관리
 description: 사용 가능한 광고 유형을 포함하여 광고를 만들고 관리하는 방법을 알아봅니다.
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6a479ae0bb30d609b16a343efcec296137b9ab43
 workflow-type: tm+mt
-source-wordcount: 1732
+source-wordcount: 1733
 ht-degree: 0%
 
 ---
@@ -125,7 +121,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->(Adobe Advertising 전환 추적을 사용하는 캠페인의 쇼핑 광고, 선택 사항) 광고 클릭을 추적하려면 계정, 캠페인 또는 제품 그룹 설정에 추적 URL을 수동으로 추가하십시오.
+1. <!-- Add link to where to generate this once available to users-->(Adobe Advertising 전환 추적을 사용하는 캠페인의 쇼핑 광고, 선택 사항) 광고 클릭을 추적하려면 계정, 캠페인 또는 제품 그룹 설정에 추적 URL을 수동으로 추가하십시오.
 
 ## 광고 이름 바꾸기 {#ad-rename}
 
@@ -153,7 +149,7 @@ ht-degree: 0%
 
 1. 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Ad Details]** 단계에서 [Baidu 텍스트 광고](ad-settings-baidu-text.md), [Google 광고 확장 동적 검색 광고](ad-settings-google-dsa.md)(이제 Google 광고에서 &quot;동적 검색 광고&quot;라고 함), [Google 광고 반응형 검색 광고](ad-settings-google-rsa.md), [Microsoft Advertising 확장 동적 검색 광고](ad-settings-microsoft-dsa.md), [Advertising 멀티미디어 광고](ad-settings-microsoft-multimedia.md), [Microsoft Microsoft 제품 광고](ad-settings-microsoft-product.md), [Advertising 반응형(대상) 광고](ad-settings-microsoft-responsive.md), [Microsoft Advertising 반응형 검색 광고](ad-settings-microsoft-rsa.md) 또는 [Yandex 텍스트 광고](ad-settings-yandex-text.md) 설정을 편집합니다.
+1. [Baidu 텍스트 광고](ad-settings-baidu-text.md), [Google 광고에서 확장된 동적 검색 광고](ad-settings-google-dsa.md)(이제 Google 광고에서 &quot;동적 검색 광고&quot;라고 함), [Google 광고 반응형 검색 광고](ad-settings-google-rsa.md), [Microsoft Advertising 확장된 동적 검색 광고](ad-settings-microsoft-dsa.md), [Microsoft Advertising 멀티미디어 광고](ad-settings-microsoft-multimedia.md), [Microsoft Advertising 제품 광고](ad-settings-microsoft-product.md), [Microsoft 반응형(대상) 광고](ad-settings-microsoft-responsive.md), [Advertising Microsoft 반응형 검색 광고](ad-settings-microsoft-rsa.md) 또는 [Yandex 텍스트 광고](ad-settings-yandex-text.md) 설정의 나머지 설정을 편집합니다.
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
