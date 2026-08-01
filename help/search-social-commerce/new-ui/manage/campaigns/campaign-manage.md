@@ -2,15 +2,11 @@
 title: 캠페인 관리
 description: 광고 캠페인을 만들고 관리하는 방법을 알아봅니다.
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6b67f3e2759ddd80300c86df610b36684b7a07e2
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
 source-wordcount: 2285
 ht-degree: 0%
@@ -72,7 +68,7 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
-1. 필요한 경우 ![편집](/help/search-social-commerce/assets/edit-new.png "편집")을 클릭하고 캠페인 설정을 변경합니다.
+1. 필요한 경우 ![편집](/help/search-social-commerce/assets/edit-new.png "편집") **[!UICONTROL Edit]**&#x200B;을(를) 클릭하고 캠페인 설정을 변경합니다.
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
@@ -108,7 +104,7 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
-1. 필요한 경우 ![편집](/help/search-social-commerce/assets/edit-new.png "편집")을 클릭하고 캠페인 설정을 변경합니다.
+1. 필요한 경우 ![편집](/help/search-social-commerce/assets/edit-new.png "편집") **[!UICONTROL Edit]**&#x200B;을(를) 클릭하고 캠페인 설정을 변경합니다.
 
 1. **[!UICONTROL Update]**&#x200B;을(를) 클릭합니다.
 
