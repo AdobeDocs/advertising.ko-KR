@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3d853c1ce30e8891baf37b14d20f166c4f79437d
+source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
 workflow-type: tm+mt
-source-wordcount: 2371
+source-wordcount: 2396
 ht-degree: 2%
 
 ---
@@ -133,9 +133,17 @@ ht-degree: 2%
         + [[!DNL Microsoft Advertising] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
         + [[!DNL Yandex] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)
     + 광고 {#ads}
-      + [[!UICONTROL Ads] 보기 정보](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
-      + [[!UICONTROL Ads] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
-      + [광고 상태 변경](/help/search-social-commerce/new-ui/manage/ads/ad-change-status.md)
+      + [광고 관리](/help/search-social-commerce/new-ui/manage/ads/ad-manage.md)
+      + 광고 네트워크별 광고 설정 {#ad-settings-by-network}
+        + [[!DNL Baidu] 텍스트 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
+        + [[!DNL Google Ads] 확장된 동적 검색 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
+        + [[!DNL Google Ads] 반응형 검색 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
+        + [[!DNL Microsoft Advertising] 확장된 동적 검색 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)
+        + [[!DNL Microsoft Advertising] 멀티미디어 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-multimedia.md)
+        + [[!DNL Microsoft Advertising] 제품 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-product.md)
+        + [[!DNL Microsoft Advertising] 반응형(대상) 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-responsive.md)
+        + [[!DNL Microsoft Advertising] 반응형 검색 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
+        + [[!DNL Yandex] 텍스트 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
   + 보고서 {#reports}
     + 예약된 보고서 {#scheduled}
       + [예약된 보고서 정보](/help/search-social-commerce/new-ui/reports/report-about.md)

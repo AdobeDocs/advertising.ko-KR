@@ -10,7 +10,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
 source-wordcount: 2337
 ht-degree: 0%
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
-1. 필요한 경우 ![편집](/help/search-social-commerce/assets/edit-new.png "편집")을 클릭하고 [Google Ads 제품 그룹 설정](#google-ads-product-group-settings) 또는 [Microsoft Advertising 제품 그룹 설정](#microsoft-advertising-product-group-settings)을 변경합니다.
+1. 필요한 경우 ![편집](/help/search-social-commerce/assets/edit-new.png "편집") **[!UICONTROL Edit]**&#x200B;을 클릭하고 [Google 광고 제품 그룹 설정](#google-ads-product-group-settings) 또는 [Microsoft Advertising 제품 그룹 설정](#microsoft-advertising-product-group-settings)을 변경합니다.
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
