@@ -19,7 +19,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 8338485f735af56a90a50b8aa878861b5c0a5894
 workflow-type: tm+mt
-source-wordcount: 4555
+source-wordcount: 4577
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ ht-degree: 0%
 * *[!UICONTROL Optimize based on performance]:* 패키지 수준에서 예산을 제어합니다.
 * *[!UICONTROL Set a Fixed Minimum or Maximum Budget]:* 최소 및/또는 최대 배치 예산을 설정할 수 있습니다. 최소 하나 이상의 예산 유형을 지정합니다.
 
-   * *[!UICONTROL Maximum Budget]*: 값 및 기간(*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*)을 입력하십시오.
+  * *[!UICONTROL Maximum Budget]*: 값 및 기간(*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*)을 입력하십시오.
 
-   * *[!UICONTROL Minimum Budget]*: 패키지 예산의 최소 예산 비율입니다. 간격 상한을 지정하면 최소 예산 값은 항상 간격 상한의 백분율로 계산됩니다. 그렇지 않으면 패키지 예산의 백분율로 계산됩니다.
+  * *[!UICONTROL Minimum Budget]*: 패키지 예산의 최소 예산 비율입니다. 간격 상한을 지정하면 최소 예산 값은 항상 간격 상한의 백분율로 계산됩니다. 그렇지 않으면 패키지 예산의 백분율로 계산됩니다.
 
 **[!UICONTROL Max Bid]:** 1000회 노출 시 최대 결제 금액입니다.
 
@@ -98,8 +98,8 @@ ht-degree: 0%
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 다음 중 하나를 수행합니다.
    * 필터를 추가하려면 다음 작업을 수행하십시오.
-      1. **[!UICONTROL Add Filter]**&#x200B;을(를) 클릭합니다.
-      1. **[!UICONTROL Only bid if]** 옆에 있는 지표를 선택한 다음 값을 입력하십시오.
+     1. **[!UICONTROL Add Filter]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Only bid if]** 옆에 있는 지표를 선택한 다음 값을 입력하십시오.
    * 필터를 제거하려면 필터 행에서 **[!UICONTROL X]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -152,8 +152,8 @@ ht-degree: 0%
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 다음 중 하나를 수행합니다.
    * 필터를 추가하려면 다음 작업을 수행하십시오.
-      1. **[!UICONTROL Add Filter]**&#x200B;을(를) 클릭합니다.
-      1. **[!UICONTROL Only bid if]** 옆에 있는 지표를 선택한 다음 값을 입력하십시오.
+     1. **[!UICONTROL Add Filter]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Only bid if]** 옆에 있는 지표를 선택한 다음 값을 입력하십시오.
    * 필터를 제거하려면 필터 행에서 **[!UICONTROL X]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -170,26 +170,26 @@ ht-degree: 0%
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 다음 중 하나를 수행합니다.
    * 국가, 주, 도시, DMA, 연방 입법 지구 또는 주 입법 지구를 포함하거나 제외하려면 다음을 수행합니다.
-      1. 왼쪽 열에서 위치 유형을 선택합니다.
-      1. (필요한 경우) 확장할 위치를 클릭합니다.
-      1. 위치 옆에 있는 *[!UICONTROL Include]*&#x200B;을(를) 클릭하여 대상으로 포함하거나 *[!UICONTROL Exclude]*&#x200B;을(를) 클릭하여 대상으로 제외합니다.
+     1. 왼쪽 열에서 위치 유형을 선택합니다.
+     1. (필요한 경우) 확장할 위치를 클릭합니다.
+     1. 위치 옆에 있는 *[!UICONTROL Include]*&#x200B;을(를) 클릭하여 대상으로 포함하거나 *[!UICONTROL Exclude]*&#x200B;을(를) 클릭하여 대상으로 제외합니다.
    * [우편 번호 목록](/help/dsp/resources/lists-postal-codes-manage.md)을 포함하거나 제외하려면 다음을 수행하십시오.
-      1. 왼쪽 열에서 **[!UICONTROL Postal Code List]**&#x200B;을(를) 클릭합니다.
-      1. 우편 번호 옆에 있는 *[!UICONTROL Include]*&#x200B;을(를) 클릭하여 대상으로 포함하거나 *[!UICONTROL Exclude]*&#x200B;을(를) 클릭하여 대상으로 제외합니다.
+     1. 왼쪽 열에서 **[!UICONTROL Postal Code List]**&#x200B;을(를) 클릭합니다.
+     1. 우편 번호 옆에 있는 *[!UICONTROL Include]*&#x200B;을(를) 클릭하여 대상으로 포함하거나 *[!UICONTROL Exclude]*&#x200B;을(를) 클릭하여 대상으로 제외합니다.
    * 우편 번호를 검색하고 선택한 모든 결과를 포함하거나 제외하려면
-      1. 왼쪽 열에서 **[!UICONTROL Postal Code]**&#x200B;을(를) 클릭합니다.
-      1. 국가 목록 위에 있는 **[!UICONTROL Search]**&#x200B;을(를) 클릭합니다.
-      1. 국가를 선택합니다.
-      1. 구/군/시 이름을 입력한 다음 ![편집](/help/dsp/assets/search.png)을 클릭합니다.
-      1. 올바른 검색 결과를 클릭합니다.
-      1. 모든 위치를 대상으로 포함하려면 *[!UICONTROL Include All]*&#x200B;을(를) 클릭하고, 모든 위치를 대상으로 제외하려면 *[!UICONTROL Exclude All]*&#x200B;을(를) 클릭하십시오.
+     1. 왼쪽 열에서 **[!UICONTROL Postal Code]**&#x200B;을(를) 클릭합니다.
+     1. 국가 목록 위에 있는 **[!UICONTROL Search]**&#x200B;을(를) 클릭합니다.
+     1. 국가를 선택합니다.
+     1. 구/군/시 이름을 입력한 다음 ![편집](/help/dsp/assets/search.png)을 클릭합니다.
+     1. 올바른 검색 결과를 클릭합니다.
+     1. 모든 위치를 대상으로 포함하려면 *[!UICONTROL Include All]*&#x200B;을(를) 클릭하고, 모든 위치를 대상으로 제외하려면 *[!UICONTROL Exclude All]*&#x200B;을(를) 클릭하십시오.
    * 우편 번호를 입력하거나 붙여 넣고 모두 포함하거나 제외하려면 다음을 수행합니다.
-      1. 왼쪽 열에서 **[!UICONTROL Postal Code]** 클릭을 클릭합니다.
-      1. 국가 목록 위에 있는 **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
-      1. 국가를 선택합니다.
-      1. 최대 1000개의 우편 번호를 입력하거나 붙여넣습니다.
-한 줄에 하나의 우편 번호를 포함하거나, 쉼표 또는 탭으로 구분된 여러 값을 입력합니다.
-      1. 모든 위치를 대상으로 포함하려면 *[!UICONTROL Include All]*&#x200B;을(를) 클릭하고, 모든 위치를 대상으로 제외하려면 *[!UICONTROL Exclude All]*&#x200B;을(를) 클릭하십시오.
+     1. 왼쪽 열에서 **[!UICONTROL Postal Code]** 클릭을 클릭합니다.
+     1. 국가 목록 위에 있는 **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
+     1. 국가를 선택합니다.
+     1. 최대 1000개의 우편 번호를 입력하거나 붙여넣습니다.
+        한 줄에 하나의 우편 번호를 포함하거나, 쉼표 또는 탭으로 구분된 여러 값을 입력합니다.
+     1. 모든 위치를 대상으로 포함하려면 *[!UICONTROL Include All]*&#x200B;을(를) 클릭하고, 모든 위치를 대상으로 제외하려면 *[!UICONTROL Exclude All]*&#x200B;을(를) 클릭하십시오.
    * [!UICONTROL Included] 또는 [!UICONTROL Excluded] 목록에서 위치를 제거하려면 오른쪽 열의 위치 옆에 있는 **[!UICONTROL X]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
@@ -218,22 +218,22 @@ ht-degree: 0%
 
 * 재고 유형을 제외하려면 이름 옆에 있는 확인란의 선택을 취소합니다.
 * 재고 유형을 대상으로 지정하려면
-   1. 재고 유형명 옆에 있는 체크박스를 선택합니다.
-   1. (선택 사항) 포함할 소스를 변경합니다.
-      1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
-      1. ([!UICONTROL Public] 및 [!UICONTROL On Demand] 인벤토리) **[!UICONTROL View by Source]** 또는 **[!UICONTROL View by Feed]**&#x200B;을(를) 클릭하여 원본 나열 방법을 변경합니다.
-      1. (해당되는 경우) 필요에 따라 재고를 필터링합니다.
-      1. 포함 및 제외할 소스를 지정합니다.
-         * [!UICONTROL Public] 또는 [!UICONTROL On Demand] 인벤토리의 경우:
-            * 원본을 포함하려면 원본 이름 옆에 있는 **[!UICONTROL Include]**&#x200B;을(를) 클릭합니다.
-            * 원본을 제외하려면 원본 이름 옆에 있는 **[!UICONTROL Exclude]**&#x200B;을(를) 클릭합니다.
-         * [!UICONTROL Private] 인벤토리의 경우:
-            * [!UICONTROL Deals] 탭에서:
-               * 거래에 모든 인벤토리를 포함하려면 거래 이름 옆에 있는 **[!UICONTROL Include all]**&#x200B;을(를) 클릭합니다.
-               * 개별 재고 출처를 포함하려면 거래명을 확장한 다음 출처명 옆에 있는 확인란을 누릅니다.
-            * [!UICONTROL Deal Lists] 탭에서 거래 목록 이름 옆의 확인란을 클릭합니다.
-   1. (선택 사항) 타깃팅 정보가 포함된 CSV 파일을 브라우저의 다운로드 위치로 다운로드하려면 **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
-   1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+  1. 재고 유형명 옆에 있는 체크박스를 선택합니다.
+  1. (선택 사항) 포함할 소스를 변경합니다.
+     1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
+     1. ([!UICONTROL Public] 및 [!UICONTROL On Demand] 인벤토리) **[!UICONTROL View by Source]** 또는 **[!UICONTROL View by Feed]**&#x200B;을(를) 클릭하여 원본 나열 방법을 변경합니다.
+     1. (해당되는 경우) 필요에 따라 재고를 필터링합니다.
+     1. 포함 및 제외할 소스를 지정합니다.
+        * [!UICONTROL Public] 또는 [!UICONTROL On Demand] 인벤토리의 경우:
+          * 원본을 포함하려면 원본 이름 옆에 있는 **[!UICONTROL Include]**&#x200B;을(를) 클릭합니다.
+          * 원본을 제외하려면 원본 이름 옆에 있는 **[!UICONTROL Exclude]**&#x200B;을(를) 클릭합니다.
+        * [!UICONTROL Private] 인벤토리의 경우:
+          * [!UICONTROL Deals] 탭에서:
+            * 거래에 모든 인벤토리를 포함하려면 거래 이름 옆에 있는 **[!UICONTROL Include all]**&#x200B;을(를) 클릭합니다.
+            * 개별 재고 출처를 포함하려면 거래명을 확장한 다음 출처명 옆에 있는 확인란을 누릅니다.
+          * [!UICONTROL Deal Lists] 탭에서 거래 목록 이름 옆의 확인란을 클릭합니다.
+  1. (선택 사항) 타깃팅 정보가 포함된 CSV 파일을 브라우저의 다운로드 위치로 다운로드하려면 **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
+  1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 >[!TIP]
 >
@@ -276,11 +276,11 @@ ht-degree: 0%
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 포함 또는 제외할 사이트 범주를 지정합니다.
    * 사이트 범주를 포함하려면 다음 작업을 수행하십시오.
-      1. **[!UICONTROL Include categories]**&#x200B;을(를) 클릭합니다.
-      1. 타깃팅할 각 카테고리 옆에 있는 확인란을 선택합니다.
+     1. **[!UICONTROL Include categories]**&#x200B;을(를) 클릭합니다.
+     1. 타깃팅할 각 카테고리 옆에 있는 확인란을 선택합니다.
    * 사이트 범주를 제외하려면 다음 작업을 수행하십시오.
-      1. **[!UICONTROL Exclude categories]**&#x200B;을(를) 클릭합니다.
-      1. 제외할 각 범주 옆에 있는 확인란을 선택합니다.
+     1. **[!UICONTROL Exclude categories]**&#x200B;을(를) 클릭합니다.
+     1. 제외할 각 범주 옆에 있는 확인란을 선택합니다.
 1. (선택 사항) 타깃팅 정보가 포함된 CSV 파일을 브라우저의 다운로드 위치로 다운로드하려면 **[!UICONTROL Export]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -289,19 +289,19 @@ ht-degree: 0%
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 사이트를 지정합니다.
    * [!UICONTROL Paste URL] 탭에서:
-      * 사이트를 검색하려면 다음 작업을 수행하십시오.
-         1. **[!UICONTROL Search]**&#x200B;을(를) 클릭합니다.
-         1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
-         1. 검색 결과에서 제외할 사이트를 선택합니다.
-            * 개별 사이트를 제외하려면 인접한 확인란을 선택합니다.
-            * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**&#x200B;을(를) 클릭합니다.
-      * 도메인 이름을 입력하려면 다음을 수행합니다.
-         1. **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
-         1. 별도의 줄에 도메인 이름을 하나 이상 입력합니다.
-         1. **[!UICONTROL Exclude All]**&#x200B;을(를) 클릭합니다.
+     * 사이트를 검색하려면 다음 작업을 수행하십시오.
+       1. **[!UICONTROL Search]**&#x200B;을(를) 클릭합니다.
+       1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
+       1. 검색 결과에서 제외할 사이트를 선택합니다.
+          * 개별 사이트를 제외하려면 인접한 확인란을 선택합니다.
+          * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**&#x200B;을(를) 클릭합니다.
+     * 도메인 이름을 입력하려면 다음을 수행합니다.
+       1. **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
+       1. 별도의 줄에 도메인 이름을 하나 이상 입력합니다.
+       1. **[!UICONTROL Exclude All]**&#x200B;을(를) 클릭합니다.
    * [!UICONTROL URL Lists] 탭에서:
-      1. (선택 사항) 검색 필드에 목록 이름의 전체 또는 일부를 입력하여 URL 목록을 검색합니다.
-      1. 제외할 각 URL 목록 옆에 있는 확인란을 선택합니다.
+     1. (선택 사항) 검색 필드에 목록 이름의 전체 또는 일부를 입력하여 URL 목록을 검색합니다.
+     1. 제외할 각 URL 목록 옆에 있는 확인란을 선택합니다.
 1. 완료되면 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
@@ -353,13 +353,13 @@ ht-degree: 0%
 
 * *[!UICONTROL Universal ID]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[&#128279;](/help/dsp/audiences/sources/source-about.md), [자사 [!DNL AdFixus] DSP으로 스트리밍되는 세그먼트](/help/dsp/audiences/sources/source-adfixus.md) 또는 [범용 ID를 추적하는 사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md)와 함께 사용합니다.
 
-   * *[!UICONTROL AdFixus]*: Advertising DSP으로 가져온 대상 [!DNL AdFixus]개 ID.
+  * *[!UICONTROL AdFixus]*: Advertising DSP으로 가져온 대상 [!DNL AdFixus]개 ID.
 
-   * *[!UICONTROL ID5]*: 이메일 주소 및 기타 신호에서 [!DNL ID5] ID를 확률적으로 만들었습니다. ID5 ID는 무료로 사용할 수 있습니다. **참고:** [!DNL Eyeota]의 타사 세그먼트에는 ID5 ID가 포함될 수 있습니다.
+  * *[!UICONTROL ID5]*: 이메일 주소 및 기타 신호에서 [!DNL ID5] ID를 확률적으로 만들었습니다. ID5 ID는 무료로 사용할 수 있습니다. **참고:** [!DNL Eyeota]의 타사 세그먼트에는 ID5 ID가 포함될 수 있습니다.
 
-   * *[!UICONTROL RampID]*: 전자 메일 주소를 사용하여 사이트에 로그인한 사용자의 [!DNL LiveRamp] [!DNL RampIDs]을(를) 대상으로 합니다. [!DNL RampIDs]은(는) 북미, 오스트레일리아 및 뉴질랜드의 사용자가 사용할 수 있습니다.
+  * *[!UICONTROL RampID]*: 전자 메일 주소를 사용하여 사이트에 로그인한 사용자의 [!DNL LiveRamp] [!DNL RampIDs]을(를) 대상으로 합니다. [!DNL RampIDs]은(는) 북미, 오스트레일리아 및 뉴질랜드의 사용자가 사용할 수 있습니다.
 
-   * *[!UICONTROL Unified ID2.0]*: 이메일 주소를 사용하여 사이트에 로그인한 사용자의 [!DNL Unified ID2.0]&#x200B;(UID2) ID를 타겟팅합니다. [!DNL UID2 IDs]은(는) 유럽 경제 지역 및 일부 추가 국가에서 사용할 수 없습니다. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2)을 참조하세요.
+  * *[!UICONTROL Unified ID2.0]*: 이메일 주소를 사용하여 사이트에 로그인한 사용자의 [!DNL Unified ID2.0]&#x200B;(UID2) ID를 타겟팅합니다. [!DNL UID2 IDs]은(는) 유럽 경제 지역 및 일부 추가 국가에서 사용할 수 없습니다. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2)을 참조하세요.
 
   **[!UICONTROL Terms of service]**: 유니버설 ID 사용에 대한 서비스 약관. ID를 가져오거나, 데이터를 새 ID 유형으로 변환하거나, ID 유형을 타깃팅하려면 사용자나 DSP 계정의 다른 사용자가 약관에 한 번 동의해야 합니다. 관리 서비스 계약을 보유한 고객의 경우 Adobe 계정 팀이 사용자의 동의를 얻고 조직을 대신하여 약관에 동의합니다. 용어를 읽으려면 **>**&#x200B;을(를) 클릭합니다. 약관에 동의하려면 약관의 맨 아래로 스크롤하여 **[!UICONTROL Accept]**&#x200B;을(를) 클릭합니다.
 
@@ -415,13 +415,13 @@ ht-degree: 0%
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 포함 또는 제외할 ISP를 지정합니다.
    * ISP를 포함하려면:
-      1. **[!UICONTROL Include ISPs]**&#x200B;을(를) 클릭합니다.
-      1. (선택 사항) 키워드로 목록을 필터링합니다.
-      1. 타깃팅할 각 ISP 옆에 있는 확인란을 선택합니다.
+     1. **[!UICONTROL Include ISPs]**&#x200B;을(를) 클릭합니다.
+     1. (선택 사항) 키워드로 목록을 필터링합니다.
+     1. 타깃팅할 각 ISP 옆에 있는 확인란을 선택합니다.
    * ISP를 제외하려면 다음을 수행하십시오.
-      1. **[!UICONTROL Exclude ISPs]**&#x200B;을(를) 클릭합니다.
-      1. (선택 사항) 키워드로 목록을 필터링합니다.
-      1. 제외할 각 ISP 옆에 있는 확인란을 선택합니다.
+     1. **[!UICONTROL Exclude ISPs]**&#x200B;을(를) 클릭합니다.
+     1. (선택 사항) 키워드로 목록을 필터링합니다.
+     1. 제외할 각 ISP 옆에 있는 확인란을 선택합니다.
 1. (선택 사항) ISP 타깃팅 정보가 있는 CSV 파일을 브라우저의 다운로드 위치로 다운로드하려면 **[!UICONTROL Export]**&#x200B;을(를) 클릭하십시오.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -440,37 +440,37 @@ ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다
 
 * [!UICONTROL DoubleVerify]:
 
-   * **[!UICONTROL Block sites that are]:**(선택 사항) 기본적으로 차단되는 하나 이상의 재고 컨텍스트 유형. 추가 요금이 부과될 수 있습니다.
+  * **[!UICONTROL Block sites that are]:**(선택 사항) 기본적으로 차단되는 하나 이상의 재고 컨텍스트 유형. 추가 요금이 부과될 수 있습니다.
 
 * [!UICONTROL Peer 39]:
 
-   * **타깃팅할 사이트:**(선택 사항) 기본적으로 타깃팅할 하나 이상의 재고 특성 유형. 추가 요금이 부과될 수 있습니다.
+  * **타깃팅할 사이트:**(선택 사항) 기본적으로 타깃팅할 하나 이상의 재고 특성 유형. 추가 요금이 부과될 수 있습니다.
 
 * [!UICONTROL ComScore]:
 
-   * **사이트 차단:** (선택 사항) 기본적으로 차단해야 할 하나 이상의 인벤토리 특성 유형. 추가 요금이 부과될 수 있습니다.
+  * **사이트 차단:** (선택 사항) 기본적으로 차단해야 할 하나 이상의 인벤토리 특성 유형. 추가 요금이 부과될 수 있습니다.
 
 * [!UICONTROL Integral Ad Science]
 
-   * **[!UICONTROL Adult Content]:**(선택 사항) 기본적으로 광고를 차단할 성인 콘텐츠의 정도: *[!UICONTROL Do Not Block]*(기본값), *[!UICONTROL Standard]* 또는 *[!UICONTROL Strict]*. 추가 요금이 부과될 수 있습니다.
+  * **[!UICONTROL Adult Content]:**(선택 사항) 기본적으로 광고를 차단할 성인 콘텐츠의 정도: *[!UICONTROL Do Not Block]*(기본값), *[!UICONTROL Standard]* 또는 *[!UICONTROL Strict]*. 추가 요금이 부과될 수 있습니다.
 
-   * **[!UICONTROL Alcohol Content]:**(선택 사항) 기본적으로 광고를 차단할 알코올 도입니다. *[!UICONTROL Do Not Block]*(기본값), *[!UICONTROL Standard]* 또는 *[!UICONTROL Strict]*. 추가 요금이 부과될 수 있습니다.
+  * **[!UICONTROL Alcohol Content]:**(선택 사항) 기본적으로 광고를 차단할 알코올 도입니다. *[!UICONTROL Do Not Block]*(기본값), *[!UICONTROL Standard]* 또는 *[!UICONTROL Strict]*. 추가 요금이 부과될 수 있습니다.
 
 **[!UICONTROL Pre-bid fraud blocking]:** [!DNL DoubleVerify], [!DNL Integral Ad Science] 및 [!DNL Peer39]을(를) 통해 측정된 사기 트래픽 및 의심스러운 활동을 기반으로 차단할 사이트 유형입니다. 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다.
 
 * [!UICONTROL DoubleVerify]: (데스크톱 및 모바일 웹 디스플레이, 기본, 비디오 및 표준 연결된 TV 광고에 적용 가능)
 
-   * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** 기본적으로 새 배치에 대해 하이재핑된 장치의 트래픽을 포함하여 100% 잘못된 모든 트래픽을 차단합니다. 추가 요금이 부과될 수 있습니다.
+  * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** 기본적으로 새 배치에 대해 하이재핑된 장치의 트래픽을 포함하여 100% 잘못된 모든 트래픽을 차단합니다. 추가 요금이 부과될 수 있습니다.
 
-   * **[!UICONTROL Also block sites with]:**(선택 사항) DSP에서 기본적으로 광고를 차단하는 추가적인 수준의 사기 및 잘못된 트래픽: *[!UICONTROL None]*(기본값: 추가 트래픽을 차단하지 않음), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* 또는 *[!UICONTROL >25% Average Fraud/IVT levels]*. 추가 요금이 부과될 수 있습니다.
+  * **[!UICONTROL Also block sites with]:**(선택 사항) DSP에서 기본적으로 광고를 차단하는 추가적인 수준의 사기 및 잘못된 트래픽: *[!UICONTROL None]*(기본값: 추가 트래픽을 차단하지 않음), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* 또는 *[!UICONTROL >25% Average Fraud/IVT levels]*. 추가 요금이 부과될 수 있습니다.
 
 * [!UICONTROL Peer 39]: (데스크톱 및 모바일 웹 디스플레이, 기본 및 비디오 광고에 적용 가능)
 
-   * **[!UICONTROL Block sites that are]:**(선택 사항) DSP에서 기본적으로 광고를 차단하는 하나 이상의 사기 유형: *[!UICONTROL Fraud]*(사기로 모든 사이트를 차단함), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* 및/또는 *[!UICONTROL Fraud: Zero Ads]*. 추가 요금이 부과될 수 있습니다.
+  * **[!UICONTROL Block sites that are]:**(선택 사항) DSP에서 기본적으로 광고를 차단하는 하나 이상의 사기 유형: *[!UICONTROL Fraud]*(사기로 모든 사이트를 차단함), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* 및/또는 *[!UICONTROL Fraud: Zero Ads]*. 추가 요금이 부과될 수 있습니다.
 
 * [!UICONTROL Integral Ad Science]: (데스크톱 및 모바일 웹 디스플레이, 기본 및 비디오 광고에 적용 가능)
 
-   * **[!UICONTROL Block sites that are]:**(선택 사항) DSP에서 기본적으로 광고를 차단하는 의심스러운 웹 사이트 또는 앱 활동 유형: *[!UICONTROL None]*(기본적으로 의심스러운 활동에 따라 광고를 차단하지 않음), *[!UICONTROL Suspicious Activity - High Risk]* 또는 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 추가 요금이 부과될 수 있습니다.
+  * **[!UICONTROL Block sites that are]:**(선택 사항) DSP에서 기본적으로 광고를 차단하는 의심스러운 웹 사이트 또는 앱 활동 유형: *[!UICONTROL None]*(기본적으로 의심스러운 활동에 따라 광고를 차단하지 않음), *[!UICONTROL Suspicious Activity - High Risk]* 또는 *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. 추가 요금이 부과될 수 있습니다.
 
 **[!UICONTROL Pre-bid viewability]:**(데스크탑 및 모바일 웹 디스플레이, 기본 및 비디오 광고에 적용 가능) [!DNL DoubleVerify] 및 [!DNL Integral Ad Science]이(가) 배치를 적용할 보기 가능 필터를 미리 입찰합니다. 새 배치에 대해 광고주 수준 기본값이 선택되지만 설정을 변경할 수 있습니다. 추가 요금이 부과될 수 있습니다.
 
@@ -495,13 +495,13 @@ ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다
 1. 다음 중 하나를 수행합니다.
    * 기존 픽셀을 선택하려면 픽셀 행에서 확인란을 선택합니다.
    * 픽셀을 만들려면 다음 작업을 수행하십시오.
-      1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
-      1. 다음 정보를 입력합니다.
-         * **[!UICONTROL Pixel name]:** 픽셀 이름입니다. 최대 길이는 500자입니다. 픽셀을 쉽게 식별하는 데 도움이 되는 이름을 사용합니다.
-         * **[!UICONTROL Pixel event fires on]:** 픽셀을 실행하도록 트리거하는 이벤트입니다. 사용 가능한 이벤트는 광고 유형에 따라 다릅니다.
-         * **[!UICONTROL Pixel type]:** 픽셀이 *[!UICONTROL IMG URL]*(1x1 픽셀 이미지 파일), *[!UICONTROL HTML]* 또는 *[!UICONTROL JavaScript URL]*&#x200B;인지 여부.
-         * **[!UICONTROL Pixel URL]:** 픽셀 이미지의 URL.
-      1. **[!UICONTROL Create and attach]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+     1. 다음 정보를 입력합니다.
+        * **[!UICONTROL Pixel name]:** 픽셀 이름입니다. 최대 길이는 500자입니다. 픽셀을 쉽게 식별하는 데 도움이 되는 이름을 사용합니다.
+        * **[!UICONTROL Pixel event fires on]:** 픽셀을 실행하도록 트리거하는 이벤트입니다. 사용 가능한 이벤트는 광고 유형에 따라 다릅니다.
+        * **[!UICONTROL Pixel type]:** 픽셀이 *[!UICONTROL IMG URL]*(1x1 픽셀 이미지 파일), *[!UICONTROL HTML]* 또는 *[!UICONTROL JavaScript URL]*&#x200B;인지 여부.
+        * **[!UICONTROL Pixel URL]:** 픽셀 이미지의 URL.
+     1. **[!UICONTROL Create and attach]**&#x200B;을(를) 클릭합니다.
    1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 **[!UICONTROL Conversion Pixels]:**(선택 사항) 기본적으로 배치의 모든 새 광고에 첨부할 전환 추적 픽셀입니다. 변환 픽셀을 지정하려면 다음을 수행합니다.
@@ -510,20 +510,20 @@ ID는 &quot;51&quot;로 시작하고 8자리 숫자로 구성되어야 합니다
 1. 다음 중 하나를 수행합니다.
    * 기존 픽셀을 선택하려면 픽셀 행에서 확인란을 선택합니다.
    * 픽셀을 만들려면 다음 작업을 수행하십시오.
-      1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
-      1. 다음 정보를 입력합니다.
-         * **[!UICONTROL Conversion pixel name]:** 픽셀 이름입니다. 최대 길이는 500자입니다. 픽셀을 쉽게 식별하는 데 도움이 되는 이름을 사용합니다.
-         * **[!UICONTROL Conversion category]:** 변환 유형입니다.
-         * **[!UICONTROL Impression conversion window]:** 광고 노출이 발생한 후 전환으로 노출이 귀속될 수 있는 일 수입니다. 기본값은 30일입니다.
-         * **[!UICONTROL Click conversion window]:** 광고 클릭 발생 후 전환으로 인해 클릭이 발생할 수 있는 일 수입니다. 기본값은 30일입니다.
-         * **[!UICONTROL Notes]:**(선택 사항) 픽셀에 대한 설명 또는 기타 정보입니다.
-      1. **[!UICONTROL Create and attach]**&#x200B;을(를) 클릭합니다.
-      1. 관련 웹 페이지에서 변환 픽셀을 구현합니다.
-         1. 메인 메뉴에서 **[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**(으)로 이동합니다.
-         1. 픽셀 행에서 **[!UICONTROL edit]**&#x200B;을(를) 클릭합니다.
-         1. 필요에 따라 [!UICONTROL HTML Tag] 및 [!UICONTROL Flash Tag] 필드의 값을 복사하여 광고주 또는 웹 사이트 연락처에 제공합니다.
+     1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+     1. 다음 정보를 입력합니다.
+        * **[!UICONTROL Conversion pixel name]:** 픽셀 이름입니다. 최대 길이는 500자입니다. 픽셀을 쉽게 식별하는 데 도움이 되는 이름을 사용합니다.
+        * **[!UICONTROL Conversion category]:** 변환 유형입니다.
+        * **[!UICONTROL Impression conversion window]:** 광고 노출이 발생한 후 전환으로 노출이 귀속될 수 있는 일 수입니다. 기본값은 30일입니다.
+        * **[!UICONTROL Click conversion window]:** 광고 클릭 발생 후 전환으로 인해 클릭이 발생할 수 있는 일 수입니다. 기본값은 30일입니다.
+        * **[!UICONTROL Notes]:**(선택 사항) 픽셀에 대한 설명 또는 기타 정보입니다.
+     1. **[!UICONTROL Create and attach]**&#x200B;을(를) 클릭합니다.
+     1. 관련 웹 페이지에서 변환 픽셀을 구현합니다.
+        1. 메인 메뉴에서 **[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**(으)로 이동합니다.
+        1. 픽셀 행에서 **[!UICONTROL edit]**&#x200B;을(를) 클릭합니다.
+        1. 필요에 따라 [!UICONTROL HTML Tag] 및 [!UICONTROL Flash Tag] 필드의 값을 복사하여 광고주 또는 웹 사이트 연락처에 제공합니다.
 
-            광고주의 IT 부서 또는 다른 그룹은 태그 배포를 예약하거나 그에 대한 정보를 받아야 할 수 있습니다.
+           광고주의 IT 부서 또는 다른 그룹은 태그 배포를 예약하거나 그에 대한 정보를 받아야 할 수 있습니다.
    1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 **[!UICONTROL 3rd-party Fees]:** (선택 사항) 1000회 노출당 청구할 수 없는 비용으로 추적할 정적 타사 요금 비율입니다. 다른 값을 입력하지 않으면 새 배치에 패키지 수준 기본값이 자동으로 적용됩니다.

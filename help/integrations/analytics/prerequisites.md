@@ -34,8 +34,8 @@ Adobe Advertising을 Adobe Analytics과 통합하기 전에 다음 정보를 검
 ## [!DNL Analytics]에서 Adobe Advertising 데이터를 보고하기 위한 요구 사항
 
 * 다음 중 하나를 수행합니다.
-   * Adobe Experience Platform 웹 SDK: `alloy.js`
-   * Experience Cloud Identity 서비스: `visitorAPI.js` 버전 2.0 이상
+  * Adobe Experience Platform 웹 SDK: `alloy.js`
+  * Experience Cloud Identity 서비스: `visitorAPI.js` 버전 2.0 이상
 * 모든 버전의 Adobe Analytics([!DNL Prime], [!DNL Premium] 또는 [!DNL Ultimate] 포함)
 * Adobe Analytics: `appMeasurement.js` 버전 2.1 이상
 * (Advertising DSP 고객) 뷰스루 방문을 추적하기 위해 웹 페이지에 배포된 [Advertising DSP JavaScript 코드 조각](javascript.md).
