@@ -4,11 +4,19 @@ description: 사용 가능한 배치 설정에 대한 설명을 참조하십시�
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
 TQID: https://experienceleague.adobe.com/V9gGiuXBnP2TBFUY3ZB7EkZ2TNeBttOgr-qzHUSdMmk
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 8338485f735af56a90a50b8aa878861b5c0a5894
 workflow-type: tm+mt
 source-wordcount: 4577
@@ -286,7 +294,7 @@ ht-degree: 0%
        1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
        1. 검색 결과에서 제외할 사이트를 선택합니다.
           * 개별 사이트를 제외하려면 인접한 확인란을 선택합니다.
-          * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**을(를) 클릭합니다.
+          * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**&#x200B;을(를) 클릭합니다.
      * 도메인 이름을 입력하려면 다음을 수행합니다.
        1. **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
        1. 별도의 줄에 도메인 이름을 하나 이상 입력합니다.
@@ -343,7 +351,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (기본값) 쿠키, 모바일 광고 ID 또는 연결된 TV(CTV) ID를 기준으로 사용자를 타깃팅합니다. ID는 브라우저, 인앱 또는 CTV 인벤토리를 기반으로 선택됩니다.
 
-* *[!UICONTROL Universal ID]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트](/help/dsp/audiences/sources/source-about.md), [자사 [!DNL AdFixus] DSP으로 스트리밍되는 세그먼트](/help/dsp/audiences/sources/source-adfixus.md) 또는 [범용 ID를 추적하는 사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md)와 함께 사용합니다.[
+* *[!UICONTROL Universal ID]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[&#128279;](/help/dsp/audiences/sources/source-about.md), [자사 [!DNL AdFixus] DSP으로 스트리밍되는 세그먼트](/help/dsp/audiences/sources/source-adfixus.md) 또는 [범용 ID를 추적하는 사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md)와 함께 사용합니다.
 
   * *[!UICONTROL AdFixus]*: Advertising DSP으로 가져온 대상 [!DNL AdFixus]개 ID.
 
