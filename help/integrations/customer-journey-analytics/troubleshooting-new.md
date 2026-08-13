@@ -91,7 +91,7 @@ ht-degree: 0%
 | 서드파티 쿠키가 차단됨 | 데이터 스트림의 에지 구성에서 자사 도메인을 구성하여 자사 CNAME 데이터 수집으로 마이그레이션합니다. |
 | 기존 `s_ecid` 쿠키가 있는 동안 `idMigrationEnabled`이(가) `false`(으)로 설정됩니다. | WebSDK 기본 구성에서 `idMigrationEnabled: true`을(를) 설정하여 `s_ecid` 또는 `AMCV_` 쿠키에서 기존 ECID를 마이그레이션합니다. |
 
-### 규칙 또는 이벤트가 실행되지 않습니다. &lbrace;#rules-or-events-aren이 실행되지 않음&rbrace;
+### 규칙 또는 이벤트가 실행되지 않습니다. #rules-or-events-aren이 실행되지 않음
 
 증상:
 
