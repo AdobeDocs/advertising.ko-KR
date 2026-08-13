@@ -55,4 +55,4 @@ ht-degree: 1%
   + [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
   + [문제 해결](/help/integrations/customer-journey-analytics/troubleshooting.md)
   + {hide-from-toc}[문제 해결](/help/integrations/customer-journey-analytics/troubleshooting-new.md)
-+ [Adobe Advertising 통합에 대한 비디오 튜토리얼](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)
++ [Adobe Advertising 통합에 대한 비디오 튜토리얼](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ko)
