@@ -4,9 +4,9 @@ user-guide-description: 다른 Adobe CX Enterprise(이전 Adobe Experience Cloud
 breadcrumb-title: CX Enterprise 와 통합
 role: User, Developer
 index: true
-source-git-commit: 47ee85790ddbabbd9f7a51db98bcfa7b120648ce
+source-git-commit: de60dcf0a1f0e5d751fb4e85a6e64bca22fadc8b
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -55,4 +55,6 @@ ht-degree: 1%
   + [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
   + [문제 해결](/help/integrations/customer-journey-analytics/troubleshooting.md)
   + {hide-from-toc}[문제 해결](/help/integrations/customer-journey-analytics/troubleshooting-new.md)
+  + {hide-from-toc}[문제 해결](/help/integrations/customer-journey-analytics/troubleshooting-new-accordian.md)
+  + {hide-from-toc}[문제 해결](/help/integrations/customer-journey-analytics/troubleshooting-new-tables.md)
 + [Adobe Advertising 통합에 대한 비디오 튜토리얼](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=ko)
