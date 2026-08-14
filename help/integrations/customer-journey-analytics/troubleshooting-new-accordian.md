@@ -3,21 +3,13 @@ title: Customer Journey Analytics의 Adobe Advertising 데이터 문제 해결
 description: Customer Journey Analytics에서 Adobe Advertising 데이터 문제를 해결하고 해결하는 방법에 대해 알아봅니다.
 feature: Integration with Adobe Customer Journey Analytics
 hide: true
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: b3b90fc7d453a9450f5858e47ae4c05243808a03
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: b0f629e862e1008ca39b7f96901d47abbe595452
 workflow-type: tm+mt
-source-wordcount: 3018
+source-wordcount: 3094
 ht-degree: 0%
 
 ---
@@ -52,15 +44,17 @@ ht-degree: 0%
 
 ### WebSDK 확장이 초기화되지 않음 {#websdk-extension-doesnt-initialize}
 
-증상:
+#### 문제:
 
 * 브라우저 네트워크 탭에 alloy() 호출이 표시되지 않음
 * 콘솔 오류: 합금이 정의되지 않았습니다.
 * edge.adobedc.net에 대한 상호 작용 또는 수집 요청 없음
 
+#### 가능한 원인 및 확인/해결 방법
+
 +++ 라이브러리가 게시되지 않았거나 초안 상태에 있음
 
-[게시 흐름](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/publishing-flow)&#x200B;(으)로 이동하여 WebSDK 확장이 포함된 라이브러리가 승인됨/게시됨 상태인지 확인하십시오.
+[게시 흐름](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)&#x200B;(으)로 이동하여 WebSDK 확장이 포함된 라이브러리가 승인됨/게시됨 상태인지 확인하십시오.
 
 +++
 
@@ -84,15 +78,17 @@ CSP `connect-src` 및 `script-src` 지침에 `edge.adobedc.net` 및 `assets.adob
 
 ### 데이터 스트림이 구성되지 않았거나 잘못 구성되었습니다. {#datastream-not-configured-or-misconfigured}
 
-증상:
+#### 문제:
 
 * 요청이 에지에 도달하지만 400 또는 500 오류를 반환함
 * Adobe Analytics 또는 Adobe Advertising 보고서에 데이터가 표시되지 않음<!-- It's not useful to organize this info by cause, not symptom -->
 * 네트워크 응답 오류: &quot;데이터 스트림을 찾을 수 없음&quot;
 
+#### 가능한 원인 및 확인/해결 방법
+
 +++ 태그 속성에 대한 데이터 스트림 ID가 없거나 잘못되었습니다
 
-1. [!DNL Tags]에서 태그 속성에 대한 [데이터 스트림 구성 설정](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)을 엽니다.
+1. [!DNL Tags]에서 태그 속성에 대한 [데이터 스트림 구성 설정](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)을 엽니다.
 1. [!UICONTROL Datastream] 필드가 각 환경(개발, 스테이징 및 프로덕션)에 대한 올바른 데이터 스트림과 올바른 스키마 및 데이터 집합을 가리키는지 확인합니다.
 
    세 가지 환경 모두에서 하나의 데이터스트림을 명시적으로 공유하지 않는 한 각 환경에는 고유한 데이터스트림이 있어야 합니다.
@@ -101,7 +97,7 @@ CSP `connect-src` 및 `script-src` 지침에 `edge.adobedc.net` 및 `assets.adob
 
 +++ 태그 속성에 대해 데이터 스트림 서비스를 사용할 수 없습니다.
 
-[데이터 스트림 설정을 열고](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure) 다음 서비스가 활성화되어 있는지 확인하십시오.
+[데이터 스트림 설정을 열고](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) 다음 서비스가 활성화되어 있는지 확인하십시오.
 
 * Adobe Advertising(전환/대상 동기화용)
 * Adobe Experience Platform(프로필 수집용)
@@ -116,10 +112,12 @@ CSP `connect-src` 및 `script-src` 지침에 `edge.adobedc.net` 및 `assets.adob
 
 ### ID 및 ECID 문제 {#identity-and-ecid-issues}
 
-증상:
+#### 문제:
 
 * 페이지 간 방문자 ID 변경
 * Advertising 대상 세그먼트가 일치하지 않음
+
+#### 가능한 원인 및 확인/해결 방법
 
 +++ 서드파티 쿠키가 차단됨
 
@@ -133,14 +131,16 @@ WebSDK 기본 구성에서 `idMigrationEnabled: true`을(를) 설정하여 `s_ec
 
 +++
 
-### 규칙 또는 이벤트가 실행되지 않습니다. #rules-or-events-aren이 실행되지 않음
+### 규칙 또는 이벤트가 실행되지 않습니다. {#rules-or-events-aren이 실행되지 않음}
 
-증상:
+#### 문제:
 
 * 디버거에 규칙 조건이 충족되지 않은 것으로 표시됩니다.
 * [!UICONTROL Send Event] 작업이 실행되지 않습니다.
 
-다음을 확인하십시오.
+#### 확인 및 해결
+
++++ 다음을 확인하십시오.
 
 * 규칙이 저장되고 활성 라이브러리 빌드에 포함됩니다.
 * 이벤트 유형은 실제 페이지 동작과 일치합니다(예: [!UICONTROL Library Loaded] 대 [!UICONTROL DOM Ready] 대 [!UICONTROL Window Loaded]).
@@ -148,12 +148,16 @@ WebSDK 기본 구성에서 `idMigrationEnabled: true`을(를) 설정하여 `s_ec
 * 규칙 순서가 올바릅니다. 여러 규칙이 동일한 이벤트를 공유하는 경우 규칙 순서를 확인합니다.
 * 페이지의 이전 부분에서 JavaScript 오류가 발생하여 실행이 중지되지 않았습니다. 브라우저 콘솔에서 발견되지 않은 예외를 확인합니다.
 
++++
+
 ### 라이브러리 빌드 및 게시 문제 {#library-build-and-publishing-issues}
 
-증상:
+#### 문제:
 
 * [!DNL Tags]에서 변경한 내용이 라이브 사이트에 반영되지 않습니다.
 * 확장 업데이트가 적용되었지만 이전 동작이 지속됨
+
+#### 가능한 원인 및 확인/해결 방법
 
 +++ 변경 사항이 라이브러리에 추가되지 않았습니다.
 
@@ -181,22 +185,30 @@ WebSDK 기본 구성에서 `idMigrationEnabled: true`을(를) 설정하여 `s_ec
 
 ### Advertising 필드에 대한 스키마 유효성 검사 문제 {#schema-validation-for-advertising-fields}
 
-증상:
+#### 문제:
 
 * `alloy()` 전송 이벤트 호출이 성공했지만(200 응답 포함) Adobe Advertising 전환 데이터가 보고서에 없습니다
 * 디버거의 XDM 페이로드에 `_experience.adcloud` 개체가 없습니다.
 
-#### 1단계: [!UICONTROL Advertising] 필드 그룹이 스키마에 추가되었는지 확인
+#### 가능한 원인 및 확인/해결 방법
+
++++ 스키마에 [!UICONTROL Advertising] 필드 그룹이 없습니다.
+
+[!UICONTROL Advertising] 필드 그룹이 스키마에 추가되었는지 확인하십시오.
 
 1. Adobe Experience Platform > [!UICONTROL Data Management] > [!UICONTROL Schemas]&#x200B;(으)로 이동합니다.
 1. 데이터 스트림에서 사용하는 스키마를 엽니다.
 1. [!UICONTROL Field Groups] 패널에서 **Adobe Advertising Cloud ExperienceEvent 전체 확장**&#x200B;이 나열되어 있는지 확인합니다.
-1. 누락된 경우 **추가**&#x200B;를 선택하고 **Adobe Advertising Cloud를 검색**&#x200B;한 다음 **Adobe Advertising Cloud ExperienceEvent 전체 확장**&#x200B;을 선택한 다음 **저장**&#x200B;을 선택합니다.
+1. 누락된 경우 **추가**&#x200B;를 선택하고 **Adobe Advertising Cloud**&#x200B;를 검색한 다음 **Adobe Advertising Cloud ExperienceEvent 전체 확장**&#x200B;을 선택하고 설정을 저장합니다.
 
 >[!NOTE]
 >스키마 변경에만 [!DNL Tags] 라이브러리를 다시 게시하는 것은 필요하지 않지만 새 필드가 추가된 경우 [!DNL Tags]에서 XDM 데이터 요소를 다시 매핑해야 합니다.
 
-#### 2단계: 필요한 Adobe Advertising 필드가 `_experience.adcloud.conversionDetails`의 스키마에 있는지 확인
++++
+
++++ 필수 Adobe Advertising 필드가 스키마에서 누락되었습니다.
+
+필요한 Adobe Advertising 필드가 `_experience.adcloud.conversionDetails` 아래의 스키마에 있는지 확인하십시오.
 
 | 필드 경로 | 유형 | 설명 |
 | ----- | --- | --- |
@@ -205,20 +217,22 @@ WebSDK 기본 구성에서 `idMigrationEnabled: true`을(를) 설정하여 `s_ec
 
 필드가 누락된 경우 **Adobe Advertising Cloud ExperienceEvent 전체 확장** 필드 그룹이 스키마에 저장되었는지 확인한 다음 스키마 편집기를 새로 고치십시오.
 
-#### 3단계: 랜딩 페이지 URL에 쿼리 매개 변수가 포함되어 있는지 확인
++++
 
-광고 클릭스루의 경우 랜딩 페이지 URL에 다음과 같은 쿼리 매개 변수를 모두 포함해야 합니다.
++++ 랜딩 페이지 URL에 필수 쿼리 매개 변수가 포함되어 있지 않습니다.
 
-`https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s`
+랜딩 페이지 URL에 필요한 쿼리 매개 변수가 포함되어 있는지 확인합니다. 광고 클릭스루에서 랜딩 페이지 URL에는 쿼리 매개 변수가 모두 포함되어야 합니다(예: `https://www.example.com/landing-page?s_kwcid=AL!12345!3!abc123&ef_id=abc123xyz:G:s`).
 
 | 매개변수 누락 | 가능한 원인 |
 | ----- | --- |
 | `s_kwcid` | 자동 태깅은 Adobe Advertising 검색 또는 DSP 캠페인 설정에서 활성화되지 않습니다. |
 | `ef_id` | 랜딩 페이지 URL이 Adobe Advertising 추적 리디렉션을 사용하지 않거나 EF ID 추가가 캠페인 설정에서 활성화되지 않습니다. |
 
-#### 4단계: 아웃바운드 XDM 페이로드의 유효성 검사
++++
 
-AEP Debugger 또는 브라우저 [!UICONTROL Network] 탭을 열고 `edge.adobedc.net`을(를) 필터링한 다음 상호 작용 요청 본문을 검사합니다. 유효한 클릭스루 페이로드는 다음과 유사합니다.
++++ XDM 페이로드의 일부 매개 변수가 누락되었거나 비어 있습니다.
+
+아웃바운드 XDM 페이로드의 유효성을 검사하려면 [!DNL Adobe Experience Platform] 디버거 또는 브라우저 [!UICONTROL Network] 탭을 열고 `edge.adobedc.net`을(를) 필터링한 다음 상호 작용 요청 본문을 검사하십시오. 유효한 클릭스루 페이로드는 다음과 유사합니다.
 
 ```json
 {
@@ -243,9 +257,11 @@ AEP Debugger 또는 브라우저 [!UICONTROL Network] 탭을 열고 `edge.adobed
 * 규칙이 실행될 때 쿼리 매개 변수가 페이지에 없습니다. URL 및 규칙의 이벤트 타이밍을 확인합니다.
 * 스키마에서 필드 그룹이 누락되었습니다. 위의 스키마 단계를 다시 확인하십시오.
 
++++
+
 ## [!UICONTROL Advertising] 확장 설치 문제 {#advertising-extension-setup-issues}
 
-증상:
+### 문제:
 
 * 웹 페이지에 대해 뷰스루 또는 클릭스루 전환이 기록되지 않습니다.
 
@@ -253,15 +269,17 @@ AEP Debugger 또는 브라우저 [!UICONTROL Network] 탭을 열고 `edge.adobed
 
   1. URL에 `ef_id=test&s_kwcid=test`이(가) 추가된 웹 페이지를 엽니다.
   1. 브라우저의 코드 검사 도구([!DNL Inspect])를 열고 [!DNL Network] 탭을 열고 Adobe Experience Platform에서 event_type=&quot;advertising.enrichment_ct&quot;에 대한 상호 작용 호출을 찾습니다.
-  1. 데이터 수집 인터페이스에서 수집하려는 웹 사이트 데이터에 대한 스키마 정의를 [열고](https://experienceleague.adobe.com/ko/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas) `xdm->_experience->adcloud->conversionDetails->trackingCode` 및 `trackingIdentities`에 `ef_id` 및 `s_kwcid`이(가) 포함되어 있는지 확인합니다.
+  1. 데이터 수집 인터페이스에서 수집하려는 웹 사이트 데이터에 대한 스키마 정의를 [열고](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas) `xdm->_experience->adcloud->conversionDetails->trackingCode` 및 `trackingIdentities`에 `ef_id` 및 `s_kwcid`이(가) 포함되어 있는지 확인합니다.
 
 * 클릭스루에 대한 XDM(경험 데이터 모델) 페이로드에서 `_experience.adcloud`이(가) 없습니다.
 
 * 전환은 디버거 도구에서 확인되지만 Adobe Advertising 보고서에는 표시되지 않습니다
 
+### 가능한 원인 및 확인/해결 방법
+
 +++ 데이터 스트림에 대해 `Adobe Advertising` 서비스를 사용할 수 없습니다.
 
-1. [!DNL Tags]에서 태그 속성에 대한 [데이터 스트림 구성 설정](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)을 엽니다.
+1. [!DNL Tags]에서 태그 속성에 대한 [데이터 스트림 구성 설정](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams)을 엽니다.
 1. 다음 서비스를 활성화하고 설정을 저장합니다.
    * Adobe Advertising(전환/대상 동기화용)
    * Adobe Experience Platform(프로필 수집용)
@@ -272,7 +290,7 @@ AEP Debugger 또는 브라우저 [!UICONTROL Network] 탭을 열고 `edge.adobed
 
 WebSDK 확장 내의 `Adobe Advertising` 구성 요소는 기본적으로 비활성화되며 XDM 스키마 또는 규칙 구성 방법과 관계없이 Adobe Advertising 클릭스루 또는 뷰스루에 대한 추적이 작동하기 전에 명시적으로 활성화되어야 합니다.
 
-1. [!DNL Tags]에서 Adobe Experience Platform Web SDK 구성 설정에서 속성에 대한 [빌드 옵션을 엽니다](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components).
+1. [!DNL Tags]에서 Adobe Experience Platform Web SDK 구성 설정에서 속성에 대한 [빌드 옵션을 엽니다](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components).
 1. **Advertising** 구성 요소를 사용하도록 설정하고 설정을 저장합니다.
 1. 라이브러리를 다시 빌드하고 다시 게시합니다.
 
@@ -293,7 +311,7 @@ WebSDK 확장 내의 `Adobe Advertising` 구성 요소는 기본적으로 비활
    1. [!DNL Tags]에서 [!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure]&#x200B;(으)로 이동합니다.
    1. [!UICONTROL Advertiser] 섹션 아래에서 드롭다운에서 광고주를 선택하고 활성화합니다. 여러 광고주를 구성하려면 **광고주 추가**&#x200B;를 선택하십시오.
 1. 뷰스루 변환 픽셀이 실행되고 있는지 확인합니다.
-   1. AEP Debugger에서 interact 호출에 `xdm.query` 필드 아래의 `stitchId`이(가) 포함되어 있는지 확인합니다.
+   1. [!DNL Adobe Experience Platform] Debugger에서 Interact 호출에 `xdm.query` 필드 아래의 `stitchId`이(가) 포함되어 있는지 확인합니다.
    1. 브라우저 [!UICONTROL Network] 탭에서 형식이 `advertising.enrichment`인 이벤트가 실행되었고 `xdm.query`의 `stitchId`을(를) 포함하는지 확인하십시오.
 
 뷰스루 전환은 방문 수에 관계없이 30분마다 실행됩니다. 상호 작용 호출이 표시되지 않으면 브라우저 캐시를 지우고 다시 시도하십시오.
@@ -325,6 +343,8 @@ WebSDK 확장 구성의 [!UICONTROL Advertiser] 섹션에서 광고주가 구성
 
 ### 요약 보고
 
+#### 문제 및 확인/해결
+
 +++ Customer Journey Analytics for Advertising DSP 또는 Advertising Search, Social, Commerce에서 사용할 수 있는 요약 보고 데이터가 없습니다.
 
 다음을 확인하십시오.
@@ -337,7 +357,7 @@ WebSDK 확장 구성의 [!UICONTROL Advertiser] 섹션에서 광고주가 구성
 
 * Adobe Advertising 차원 및 요약 지표는 Customer Journey Analytics 데이터 보기에 포함됩니다.
 
-위의 모든 설정을 확인했지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오.
+위의 모든 설정을 확인했지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오.
 
 +++
 
@@ -349,7 +369,7 @@ WebSDK 확장 구성의 [!UICONTROL Advertiser] 섹션에서 광고주가 구성
 
 * 설정 &quot;[!UICONTROL Backfill all existing data]&quot;은(는) Customer Journey Analytics 연결의 세 개의 데이터 세트(차원/분류/조회, 요약 및 이벤트 지표)에 대해 활성화됩니다.
 
-위의 모든 조건을 확인했지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오.
+위의 모든 조건을 확인했지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오.
 
 +++
 
@@ -357,7 +377,7 @@ WebSDK 확장 구성의 [!UICONTROL Advertiser] 섹션에서 광고주가 구성
 
 Adobe Advertising에서 Customer Journey Analytics으로의 피드가 특정 광고 네트워크 계정에 대해 활성화되어 있는지 확인합니다. Adobe 계정 팀에 문의하십시오.
 
-계정에 대해 피드가 사용하도록 설정되어 있지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다.
+계정에 대해 피드가 사용하도록 설정되어 있지만 요약 데이터가 표시되지 않는 경우 [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다.
 
 +++
 
@@ -373,11 +393,13 @@ Adobe Advertising에서 Customer Journey Analytics으로의 피드가 특정 광
 
 * 설정 &quot;[!UICONTROL Backfill all existing data]&quot;은(는) Customer Journey Analytics 연결의 세 개의 데이터 세트(차원/분류/조회, 요약 및 이벤트 지표)에 대해 활성화됩니다.
 
-데이터 불일치가 확실하면 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다. 불일치의 증거를 보이기 위해 스크린샷과 스프레드시트를 포함하십시오. Adobe 계정 팀은 필요한 경우 데이터 피드를 소급하여 수정하여 불일치를 해결할 수 있습니다.
+데이터 불일치가 확실하면 [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다. 불일치의 증거를 보이기 위해 스크린샷과 스프레드시트를 포함하십시오. Adobe 계정 팀은 필요한 경우 데이터 피드를 소급하여 수정하여 불일치를 해결할 수 있습니다.
 
 +++
 
 ### 이벤트 수준 보고
+
+#### 문제 및 확인/해결
 
 +++ CJA Customer Journey Analytics Workspace의 보고 차원(예: `Campaign`)에 전환 데이터(예: `Page Views`)를 사용할 수 없습니다.
 
@@ -395,7 +417,7 @@ Adobe Advertising에서 Customer Journey Analytics으로의 피드가 특정 광
 
 * Adobe Advertising 설정이 WebSDK Extension에 올바르게 구성되고 게시되었습니다.
 
-위의 모든 설정을 확인했지만 전환 데이터가 여전히 표시되지 않는 경우 [https://experienceleague.adobe.com/home?lang=ko#support](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다.
+위의 모든 설정을 확인했지만 전환 데이터가 여전히 표시되지 않는 경우 [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support)에서 조직에 대한 지원 티켓을 여십시오. 광고 네트워크 계정에 대한 [!UICONTROL Account ID]을(를) 포함합니다.
 
 +++
 
@@ -437,7 +459,7 @@ Answer
 | 탭 | 확인할 사항 |
 | ----- | --- |
 | [!UICONTROL Summary] | WebSDK가 검색되고 설치된 버전을 표시하는지 확인합니다. |
-| [!UICONTROL AEP Web SDK] | 실행된 각 이벤트, 전체 XDM 페이로드 및 Edge 응답을 표시합니다. |
+| [!UICONTROL Adobe Experience Platform WebSDK] | 실행된 각 이벤트, 전체 XDM 페이로드 및 Edge 응답을 표시합니다. |
 | [!UICONTROL Adobe Advertising] | AMO ID 캡처 및 XDM 인터랙션 호출을 `advertising.enrichment` 이벤트 유형과 확인합니다. |
 
 ### 브라우저 네트워크 탭
@@ -488,13 +510,13 @@ alloy("sendEvent", {
 * XDM 스키마에 [!UICONTROL Advertising] 필드 그룹이 포함되어 있습니다.
 * [!UICONTROL Send Event] 규칙에는 ID 맵이 포함되어 있으며 올바른 이벤트에서 실행됩니다.
 * CSP 또는 브라우저 개인 정보 설정이 Edge 요청을 차단하지 않습니다.
-* AEP Debugger가 이벤트가 에지에 도달하고 있는지 확인합니다.
+* [!DNL Adobe Experience Platform] 디버거에서 이벤트가 가장자리에 도달하고 있는지 확인합니다.
 * 브라우저 콘솔에서 JavaScript 오류가 발생하여 실행이 중지되지 않습니다.
 * **Adobe Advertising Cloud ExperienceEvent 전체 확장** 필드 그룹이 스키마에 추가됩니다.
 * `_experience.adcloud.conversionDetails.trackingCode`이(가) 스키마에 있습니다.
 * `_experience.adcloud.conversionDetails.trackingIdentity`이(가) 스키마에 있습니다.
 * 랜딩 페이지 URL에는 클릭스루에 `s_kwcid`과(와) `ef_id`이(가) 모두 포함되어 있습니다.
-* AEP Debugger가 `conversionDetails`이(가) 아웃바운드 페이로드에 채워져 있는지 확인합니다.
+* [!DNL Adobe Experience Platform] 디버거에서 `conversionDetails`이(가) 아웃바운드 페이로드에서 채워졌는지 확인합니다.
 
 ## 에스컬레이션 시기
 
@@ -507,7 +529,7 @@ alloy("sendEvent", {
 >[!MORELIKETHIS]
 >
 >* [개요](overview.md)
->*  [!DNL Customer Journey Analytics][&#128279;](ids.md)에서 사용하는 Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics]](ids.md)에서 사용하는 [Adobe Advertising ID
 >* [필수 구성 요소](prerequisites.md)
 >* [데이터 수집, 데이터 전송 및 보고 설정](set-up.md)
 >* [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](advertising-data-in-cja.md)
