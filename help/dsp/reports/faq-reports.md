@@ -3,25 +3,30 @@ title: 사용자 정의 보고서에 대한 FAQ
 description: 세대 보고서 및 전환 경로 분석 보고서를 포함하여 사용자 지정 보고서에 대해 자세히 알아보십시오.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
 TQID: https://experienceleague.adobe.com/3AN4vKu3BF-c4jwMusI402Z7lTLY0Nf30uwLZWBUE1E
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: 1336
 ht-degree: 0%
 
 ---
 
 # 사용자 정의 보고서에 대한 FAQ
+
+## 전환 보고서
+
+### [!UICONTROL Conversion] 보고서와 [!UICONTROL DSP Self-Attributed Conversions] 보고서의 차이점은 무엇입니까?
+
+두 보고서는 클릭스루 및 뷰스루 분류를 포함한 동일한 차원, 지표 및 기여도 분석 모델을 사용합니다.
+
+[!UICONTROL Conversion] 보고서를 포함한 대부분의 보고서에서 전환은 전환 전 마지막 클릭으로 크레딧됩니다. 고객이 DSP 광고를 보고 나중에 전환하기 전에 검색 광고를 클릭하면 전환 번호에 해당 DSP 노출이 표시되지 않는 경우가 많습니다.
+
+그러나 [!UICONTROL DSP Self-Attributed Conversions] 보고서는 전환을 DSP 노출 횟수 및 그 이전 클릭 수에 다시 연결하여 DSP의 여정 기여도를 이해할 수 있도록 합니다. 이 보고서를 [!UICONTROL Conversion] 보고서에 대한 수정이 아니라 DSP의 기여도에 대한 보완적인 보기로 생각하십시오. Advertising DSP과 Advertising 검색, 소셜 및 Commerce을 모두 사용하는 광고주에게 가장 유용합니다.
+
+두 보고서는 서로 다른 방법을 사용하여 전환을 광고에 연결하므로 지표 합계가 일치하지 않습니다. 이는 예상되는 것이지, 불일치가 아닙니다.
 
 ## 가구 보고서
 
@@ -35,7 +40,7 @@ ht-degree: 0%
 
 ##### 지원되는 차원
 
-[!UICONTROL Household Reach & Frequency] 보고서는 [다음 차원](/help/dsp/reports/report-columns.md)을 지원합니다. &quot;[!UICONTROL Campaign],&quot; &quot;[!UICONTROL Package],&quot; &quot;[!UICONTROL Placement],&quot; &quot;[!UICONTROL Site/Apps]&quot;(중복 지표에 대한 액세스 권한 제공 안 함), &quot;[!UICONTROL Media Type],&quot; &quot;[!UICONTROL Feed Type],&quot; &quot;[!UICONTROL Device],&quot; &quot;[!UICONTROL Publisher],&quot; &quot;[!UICONTROL Audience],&quot; [!UICONTROL Creative Length]&quot; 및 사용자가 만든 배치 &quot;[!UICONTROL Tags]. |
+[!UICONTROL Household Reach & Frequency] 보고서는 [다음 차원](/help/dsp/reports/report-columns.md)을 지원합니다. &quot;[!UICONTROL Campaign],&quot; &quot;[!UICONTROL Package],&quot; &quot;[!UICONTROL Placement],&quot; &quot;[!UICONTROL Site/Apps]&quot;(중복 지표에 대한 액세스 권한 제공 안 함), &quot;[!UICONTROL Media Type],&quot; &quot;[!UICONTROL Feed Type],&quot; &quot;[!UICONTROL Device],&quot; &quot;[!UICONTROL Publisher],&quot; &quot;[!UICONTROL Audience],&quot;[!UICONTROL Creative Length]&quot; 및 사용자가 만든 배치 &quot;[!UICONTROL Tags].&quot; |
 
 ##### 지원되는 지표
 
@@ -71,7 +76,7 @@ ht-degree: 0%
 
 겹치기 지표가 있는 보고서는 최대 3개의 값 교차를 출력합니다. 예를 들어 10개의 배치에 대해 [!UICONTROL Unique Household (Overlap)] 지표를 사용하는 경우 개별 배치에 의해 도달된 고유한 가구, 두 배치의 조합에 의해 도달된 일반적인 가구, 세 배치의 조합에 의해 도달된 일반적인 가구를 볼 수 있습니다. 4개 이상의 배치에 의해 도달된 일반적인 가구를 볼 수 없다.
 
-캠페인, 패키지 또는 배치 이외의 차원의 경우 보고서는 각 차원에서 최대 10개의 값을 지원합니다. 예를 들어 [!UICONTROL Unique Household Reached] 차원에 대한 [!UICONTROL Audience] 보고서를 생성하려면 고유한 대상의 수가 10보다 작거나 같아야 합니다. 10개 이상의 고유 대상을 포함하는 경우 빈 보고서가 생성됩니다.
+캠페인, 패키지 또는 배치 이외의 차원의 경우 보고서는 각 차원에서 최대 10개의 값을 지원합니다. 예를 들어 [!UICONTROL Audience] 차원에 대한 [!UICONTROL Unique Household Reached] 보고서를 생성하려면 고유한 대상의 수가 10보다 작거나 같아야 합니다. 10개 이상의 고유 대상을 포함하는 경우 빈 보고서가 생성됩니다.
 
 #### [!UICONTROL Custom] 보고서와 [!UICONTROL Household Reach & Frequency] 보고서 간에 빈도 및 고유 도달 값이 다른 이유는 무엇입니까?
 
