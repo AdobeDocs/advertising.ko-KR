@@ -2,20 +2,14 @@
 title: ' [!DNL AdFixus]에서 자사 세그먼트 가져오기'
 description: ' [!DNL AdFixus] 범용 ID로 구성된  [!DNL AdFixus] 자사 세그먼트를 DSP으로 가져오는 방법에 대해 알아봅니다.'
 feature: DSP Audiences
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -36,7 +30,7 @@ ht-degree: 0%
 
 1. (광고주: [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [!DNL Analytics] 측정에 대한 추적을 설정합니다.
 
-   1. 아직 완료하지 않은 경우) 추적 URL에서 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md)와(과)  [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)을(를) 구현하기 위한 필수 구성 요소를 모두 완료하십시오.
+   1. 아직 완료하지 않은 경우) 추적 URL에서 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md)와(과)  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)을(를) 구현하기 위한 [필수 구성 요소를 모두 완료하십시오.
 
    1. 웹 페이지에 [!DNL AdFixus]별 코드를 배포하여 뷰스루에 대한 데스크톱 및 모바일 웹 브라우저(모바일 앱은 아님)의 [!DNL AdFixus] ID의 전환을 일치시키십시오.
 
@@ -48,6 +42,8 @@ ht-degree: 0%
 
    1. 필요한 세그먼트를 DSP에 스트리밍할 수 있도록 [!DNL AdFixus] 팀과 소스 키를 공유하십시오.
 
+      모든 [!DNL AdFixus] 데이터에 대해 동일한 소스 키를 사용하여 계정 또는 광고주와 공유할 수 있습니다.
+
 1. 대상 라이브러리의 [!UICONTROL First Party Segments] 섹션([!UICONTROL Audiences] > [!UICONTROL All Audiences]에서 대상을 만들거나 편집할 때 또는 배치 설정 내에서 사용할 수 있음)에서 세그먼트가 채워지고 있는지 확인합니다. [!DNL AdFixus] ID 수와 [!DNL AdFixus] 내의 사용자 ID 수를 비교합니다.
 
    세그먼트는 만들어지는 즉시 DSP에서 사용할 수 있습니다.
@@ -58,7 +54,7 @@ DSP에 표시된 카운트는 24시간마다 새로 고쳐지지만 세그먼트
 >
 >* [자사 대상 원본 정보](/help/dsp/audiences/sources/source-about.md)
 >* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
->* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ko)
->* Adobe Experience Platform [대상 카탈로그 개요](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ko)
+>* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [대상 카탈로그 개요](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
 >* [대상자 관리 정보](/help/dsp/audiences/audience-about.md)
