@@ -13,9 +13,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: 467
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ ht-degree: 0%
       소스 설정에는 자동 생성된 소스 키가 포함됩니다.
 
    1. 필요한 세그먼트를 DSP에 스트리밍할 수 있도록 [!DNL AdFixus] 팀과 소스 키를 공유하십시오.
+
+      모든 [!DNL AdFixus] 데이터에 대해 동일한 소스 키를 사용하여 계정 또는 광고주와 공유할 수 있습니다.
 
 1. 대상 라이브러리의 [!UICONTROL First Party Segments] 섹션([!UICONTROL Audiences] > [!UICONTROL All Audiences]에서 대상을 만들거나 편집할 때 또는 배치 설정 내에서 사용할 수 있음)에서 세그먼트가 채워지고 있는지 확인합니다. [!DNL AdFixus] ID 수와 [!DNL AdFixus] 내의 사용자 ID 수를 비교합니다.
 
