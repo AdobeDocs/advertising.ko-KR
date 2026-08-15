@@ -4,22 +4,14 @@ description: 사용자 지정 보고서를 수동으로 만들거나 사전 구�
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
 TQID: https://experienceleague.adobe.com/s4EiBrtWrkDbweibjuPa7KAv4s8pMtbLYEG-CEeXBdY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8259705179c77085be82b416f62a093186b03745
 workflow-type: tm+mt
-source-wordcount: 1788
+source-wordcount: 1716
 ht-degree: 0%
 
 ---
@@ -65,11 +57,9 @@ ht-degree: 0%
 
   * **[!UICONTROL Device]:** 미리 채워진 이 템플릿을 사용하여 장치 관련 차원별 주요 지표를 확인합니다.
 
-  * **[DSP 자체 속성 전환]:** 이 보고서를 사용하여 전환에 대한 Advertising DSP의 기여도(DSP이 역할을 했지만 나중에 터치(예: Adobe Advertising 검색 클릭)가 다른 보고서에서 마지막 클릭 크레딧을 받은 고객 여정 포함)를 확인할 수 있습니다.
+  * **[!UICONTROL DSP Self-Attributed Conversions]:** 이 보고서를 사용하여 전환에 대한 Advertising DSP의 기여도(DSP이 역할을 했지만 나중에 터치(예: Adobe Advertising 검색 클릭)가 다른 보고서에서 마지막 클릭 크레딧을 받은 고객 여정 포함)를 확인할 수 있습니다. 자세한 내용은 &quot;[사용자 지정 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오.
 
-    표준 보고는 전환 전 마지막 클릭의 크레딧을 제공합니다. 고객이 DSP 광고를 보고 나중에 전환하기 전에 검색 광고를 클릭하면 전환 번호에 해당 DSP 노출이 표시되지 않는 경우가 많습니다. 이 보고서는 전환을 DSP 노출 횟수 및 그 이전에 수행한 클릭 수에 다시 연결하여 마지막 터치가 아닌 경우에도 DSP의 역할을 볼 수 있도록 합니다. Advertising DSP과 Advertising 검색, 소셜 및 Commerce을 모두 사용하는 광고주에게 가장 유용합니다.
-
-    **중요:** 이 보고서는 속성 Adobe Analytics 보고서 또는 기존 속성 방법을 변경하지 않습니다. 전환 기여도에 대한 보완적인 DSP 관련 보기를 제공합니다.
+    **중요:** 이 보고서는 Adobe Analytics 보고서의 기존 속성 방법론이나 속성을 변경하지 않습니다. 전환 기여도에 대한 보완적인 DSP 관련 보기를 제공합니다.
 
   * **[!UICONTROL Frequency (by Impression)]:** 이 보고서를 사용하여 고유 뷰어에 표시된 노출 분포(예: 한 노출, 두 노출, 세 노출 등을 본 고유 뷰어의 수)를 파악합니다. 배치 또는 캠페인으로 데이터를 사용할 수 있습니다.
 
@@ -88,9 +78,9 @@ ht-degree: 0%
 
   * **[!UICONTROL Geo]**: 미리 채워진 이 템플릿을 사용하여 지리적 차원별 주요 지표를 확인하십시오.
 
-  * **[!UICONTROL Household Conversions]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 뷰스루 전환을 볼 수 있습니다. 이 인사이트를 사용하여 캠페인 성과를 측정하고 최적화할 수 있습니다. 자세한 내용은 &quot;[가구 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
+  * **[!UICONTROL Household Conversions]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 뷰스루 전환을 볼 수 있습니다. 이 인사이트를 사용하여 캠페인 성과를 측정하고 최적화할 수 있습니다. 자세한 내용은 &quot;[사용자 지정 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
 
-  * **[!UICONTROL Household Reach & Frequency]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 단일 차원에 대한 노출 횟수, 도달 범위 및 빈도를 확인할 수 있습니다. 인사이트를 사용하여 미디어 믹스를 최적화하고, 성능을 개선하고, 증분 도달 기회를 식별합니다. 자세한 내용은 &quot;[가구 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
+  * **[!UICONTROL Household Reach & Frequency]:** 이 보고서를 사용하여 장치/쿠키 수준이 아닌 IP 주소를 기반으로 하는 가구 수준에서 단일 차원에 대한 노출 횟수, 도달 범위 및 빈도를 확인할 수 있습니다. 인사이트를 사용하여 미디어 믹스를 최적화하고, 성능을 개선하고, 증분 도달 기회를 식별합니다. 자세한 내용은 &quot;[사용자 지정 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
 
   * **[!UICONTROL Margin]:** 이 보고서를 사용하여 캠페인이나 배치별 이익, 이익 및 기타 지출 지표와 같은 주요 지표를 볼 수 있습니다. 범용 ID를 대상으로 하는 배치에는 데이터를 사용할 수 없습니다.
 
@@ -158,7 +148,7 @@ ht-degree: 0%
 >* [사용자 지정 보고서 만들기](/help/dsp/reports/report-create.md)
 >* [사용자 지정 보고서 다운로드](/help/dsp/reports/report-download.md)
 >* [사용자 지정 보고서 설정](/help/dsp/reports/report-settings.md)
->* 가구 보고서에 대한 [FAQ](/help/dsp/reports/faq-reports.md)
+>* 사용자 지정 보고서에 대한 [FAQ](/help/dsp/reports/faq-reports.md)
 >* [캠페인 관리 보기의 성과 보고서 유형](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)
 >* [보고서 대상 정보](/help/dsp/reports/report-destinations/report-destination-about.md)
