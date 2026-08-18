@@ -3,9 +3,9 @@ role: User
 user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: 크리에이티브 안내서
-source-git-commit: 0c7c5962b0e2b0c72147b0ff27ba83acb5cbf326
+source-git-commit: 0edb79512588498b323ffc4197da0612e2e6d3e6
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '431'
 ht-degree: 4%
 
 ---
@@ -15,91 +15,92 @@ ht-degree: 4%
 
 + [새로운 기능](/help/creative/home.md)
 + 소개 {#introduction}
-   + [Adobe Advertising Creative 정보](/help/creative/introduction/creative-about.md)
-   + [데이터 보기 사용자 지정](/help/creative/introduction/customize-data-views.md)
-   + [동적 광고용 워크플로우](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [고객 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
-   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
+  + [Adobe Advertising Creative 정보](/help/creative/introduction/creative-about.md)
+  + [데이터 보기 사용자 지정](/help/creative/introduction/customize-data-views.md)
+  + [동적 광고용 워크플로우](/help/creative/introduction/workflow-dynamic-ads.md)
+  + [고객 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+  + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative 스튜디오 {#creative-studio}
-   + [Creative Studio 정보](/help/creative/creative-studio/creative-studio-about.md)
-   + [표준 광고 관리](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
-   + [동적 크리에이티브 관리](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
-   + [템플릿 관리](/help/creative/creative-studio/creative-studio-manage-templates.md)
-   + [에셋 관리](/help/creative/creative-studio/creative-studio-manage-assets.md)
+  + [Creative Studio 정보](/help/creative/creative-studio/creative-studio-about.md)
+  + [[!UICONTROL Creative Studio]의 C2PA 메타데이터](/help/creative/creative-studio/creative-studio-content-credentials.md)
+  + [표준 광고 관리](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
+  + [동적 크리에이티브 관리](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
+  + [템플릿 관리](/help/creative/creative-studio/creative-studio-manage-templates.md)
+  + [에셋 관리](/help/creative/creative-studio/creative-studio-manage-assets.md)
 + Creative 라이브러리 {#creative-libraries}
-   + [크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)
-   + [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)
-   + [Creative Libraries 관리](/help/creative/creative-libraries/creative-library-manage.md)
-   + 광고 {#creatives}
-      + [Adobe Experience Manager 이미지 자산에 대한 액세스 구성](/help/creative/creative-libraries/aem-assets-configure.md)
-      + 표준 광고 {#standard-creatives}
-         + [크리에이티브 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md)
-         + [표준 광고 편집](/help/creative/creative-libraries/creative-edit-standard.md)
-         + [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md)
-         + [HTML5 creative 사양](/help/creative/creative-libraries/html5-creative-specification.md)
-      + 다이내믹 크리에이티브 {#dynamic-creatives}
-         + [Creative 라이브러리에 동적 크리에이티브 추가](/help/creative/creative-libraries/creative-add-dynamic.md)
-         + [동적 크리에이티브 편집](/help/creative/creative-libraries/creative-edit-dynamic.md)
-         + [동적 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-dynamic.md)
-      + [크리에이티브 미리 보기](/help/creative/creative-libraries/creative-preview.md)
-      + [번들에 크리에이티브 첨부](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
-      + [광고 복제](/help/creative/creative-libraries/creative-duplicate.md)
-      + [크리에이티브 다운로드](/help/creative/creative-libraries/creative-download.md)
-      + [크리에이티브에 대한 변경 로그 보기](/help/creative/creative-libraries/creative-view-change-log.md)
-      + [광고 삭제](/help/creative/creative-libraries/creative-delete.md)
-   + Creative 번들 {#bundles}
-      + [Creative 번들 관리](/help/creative/creative-libraries/bundle-manage.md)
+  + [크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)
+  + [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)
+  + [Creative Libraries 관리](/help/creative/creative-libraries/creative-library-manage.md)
+  + 광고 {#creatives}
+    + [Adobe Experience Manager 이미지 자산에 대한 액세스 구성](/help/creative/creative-libraries/aem-assets-configure.md)
+    + 표준 광고 {#standard-creatives}
+      + [크리에이티브 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md)
+      + [표준 광고 편집](/help/creative/creative-libraries/creative-edit-standard.md)
+      + [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md)
+      + [HTML5 creative 사양](/help/creative/creative-libraries/html5-creative-specification.md)
+    + 다이내믹 크리에이티브 {#dynamic-creatives}
+      + [Creative 라이브러리에 동적 크리에이티브 추가](/help/creative/creative-libraries/creative-add-dynamic.md)
+      + [동적 크리에이티브 편집](/help/creative/creative-libraries/creative-edit-dynamic.md)
+      + [동적 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-dynamic.md)
+    + [크리에이티브 미리 보기](/help/creative/creative-libraries/creative-preview.md)
+    + [번들에 크리에이티브 첨부](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+    + [광고 복제](/help/creative/creative-libraries/creative-duplicate.md)
+    + [크리에이티브 다운로드](/help/creative/creative-libraries/creative-download.md)
+    + [크리에이티브에 대한 변경 로그 보기](/help/creative/creative-libraries/creative-view-change-log.md)
+    + [광고 삭제](/help/creative/creative-libraries/creative-delete.md)
+  + Creative 번들 {#bundles}
+    + [Creative 번들 관리](/help/creative/creative-libraries/bundle-manage.md)
 + 광고 경험 {#creative-experiences}
-   + [Advertising Creative의 경험](/help/creative/experiences/experience-about.md)
-   + 타깃팅이 있는 경험 {#experience-targeted}
-      + [의사 결정 트리 레이아웃](/help/creative/experiences/experience-decision-tree.md)
-      + [타깃팅으로 경험 만들기](/help/creative/experiences/experience-create-targeting.md)
-      + [타깃팅으로 경험 편집](/help/creative/experiences/experience-edit-targeting.md)
-      + [타깃팅된 경험 설정](/help/creative/experiences/experience-settings-targeting.md)
-      + 경험 만들기 및 편집을 위한 하위 작업 {#subtasks}
-         + 타겟 노드 {#nodes}
-            + [최종 수준에 대상 노드 추가](/help/creative/experiences/experience-target-node-add-final.md)
-            + [노드 사이에 대상 노드 삽입](/help/creative/experiences/experience-target-node-add-inner.md)
-            + [동일 수준의 대상 노드 추가](/help/creative/experiences/experience-target-node-add-sibling.md)
-            + [동일한 수준의 다른 노드에 하위 노드 복사](/help/creative/experiences/experience-target-node-copy.md)
-            + [대상 노드 또는 크리에이티브 리프 노드 삭제](/help/creative/experiences/experience-target-node-delete.md)
-         + Creative 번들 및 크리에이티브 {#bundles}
-            + [최종 노드에 크리에이티브 번들 지정 및 지정 취소](/help/creative/experiences/experience-assign-creative-bundles.md)
-            + [크리에이티브 최적화 및 일정 사용자 정의](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-            + [크리에이티브용 추적 URL 사용자 지정](/help/creative/experiences/experience-tracking-urls-targeting.md)
-   + 타깃팅이 없는 경험 {#experience-nontargeted}
-      + [타깃팅하지 않고 경험 만들기](/help/creative/experiences/experience-create-no-targeting.md)
-      + [타깃팅하지 않고 경험 편집](/help/creative/experiences/experience-edit-no-targeting.md)
-      + [타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md)
-      + 광고 태그 및 크리에이티브{#non-targeted-creatives}
-         + [적용 가능한 광고 크기에 대한 광고 태그를 수동으로 만듭니다.](/help/creative/experiences/experience-tag-create-manually.md)
-         + [타깃팅하지 않은 경험에 대해 광고 태그에 크리에이티브 할당](/help/creative/experiences/experience-tag-assign-creatives.md)
-         + [타깃팅하지 않고 경험에 대한 크리에이티브 최적화 및 예약 사용자 지정](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
-         + [타깃팅하지 않고 경험에 대한 추적 URL 사용자 지정](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
-   + [경험 복제](/help/creative/experiences/experience-clone.md)
-   + [경험 미리보기](/help/creative/experiences/experience-preview.md)
-   + [비디오 광고 경험 태그에 대한 코드 변환 옵션 사용자 지정](/help/creative/experiences/experience-tag-video-transcoding.md)
-   + [라이브 경험을 위한 광고 경험 태그 내보내기 및 구현](/help/creative/experiences/experience-tag-export.md)
-   + [경험에 대한 데모 URL 공유](/help/creative/experiences/experience-share-demo-url.md)
-   + [[!UICONTROL Experiences] 보기에서 데이터 다운로드](/help/creative/experiences/experience-download-view.md)
-   + [광고 태그 이름 바꾸기](/help/creative/experiences/experience-tag-rename.md)
-   + [경험에 대한 변경 로그 보기](/help/creative/experiences/experience-view-change-log.md)
-   + [경험 삭제](/help/creative/experiences/experience-delete.md)
+  + [Advertising Creative의 경험](/help/creative/experiences/experience-about.md)
+  + 타깃팅이 있는 경험 {#experience-targeted}
+    + [의사 결정 트리 레이아웃](/help/creative/experiences/experience-decision-tree.md)
+    + [타깃팅으로 경험 만들기](/help/creative/experiences/experience-create-targeting.md)
+    + [타깃팅으로 경험 편집](/help/creative/experiences/experience-edit-targeting.md)
+    + [타깃팅된 경험 설정](/help/creative/experiences/experience-settings-targeting.md)
+    + 경험 만들기 및 편집을 위한 하위 작업 {#subtasks}
+      + 타겟 노드 {#nodes}
+        + [최종 수준에 대상 노드 추가](/help/creative/experiences/experience-target-node-add-final.md)
+        + [노드 사이에 대상 노드 삽입](/help/creative/experiences/experience-target-node-add-inner.md)
+        + [동일 수준의 대상 노드 추가](/help/creative/experiences/experience-target-node-add-sibling.md)
+        + [동일한 수준의 다른 노드에 하위 노드 복사](/help/creative/experiences/experience-target-node-copy.md)
+        + [대상 노드 또는 크리에이티브 리프 노드 삭제](/help/creative/experiences/experience-target-node-delete.md)
+      + Creative 번들 및 크리에이티브 {#bundles}
+        + [최종 노드에 크리에이티브 번들 지정 및 지정 취소](/help/creative/experiences/experience-assign-creative-bundles.md)
+        + [크리에이티브 최적화 및 일정 사용자 정의](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
+        + [크리에이티브용 추적 URL 사용자 지정](/help/creative/experiences/experience-tracking-urls-targeting.md)
+  + 타깃팅이 없는 경험 {#experience-nontargeted}
+    + [타깃팅하지 않고 경험 만들기](/help/creative/experiences/experience-create-no-targeting.md)
+    + [타깃팅하지 않고 경험 편집](/help/creative/experiences/experience-edit-no-targeting.md)
+    + [타깃팅되지 않은 경험 설정](/help/creative/experiences/experience-settings-no-targeting.md)
+    + 광고 태그 및 크리에이티브{#non-targeted-creatives}
+      + [적용 가능한 광고 크기에 대한 광고 태그를 수동으로 만듭니다.](/help/creative/experiences/experience-tag-create-manually.md)
+      + [타깃팅하지 않은 경험에 대해 광고 태그에 크리에이티브 할당](/help/creative/experiences/experience-tag-assign-creatives.md)
+      + [타깃팅하지 않고 경험에 대한 크리에이티브 최적화 및 예약 사용자 지정](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
+      + [타깃팅하지 않고 경험에 대한 추적 URL 사용자 지정](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
+  + [경험 복제](/help/creative/experiences/experience-clone.md)
+  + [경험 미리보기](/help/creative/experiences/experience-preview.md)
+  + [비디오 광고 경험 태그에 대한 코드 변환 옵션 사용자 지정](/help/creative/experiences/experience-tag-video-transcoding.md)
+  + [라이브 경험을 위한 광고 경험 태그 내보내기 및 구현](/help/creative/experiences/experience-tag-export.md)
+  + [경험에 대한 데모 URL 공유](/help/creative/experiences/experience-share-demo-url.md)
+  + [[!UICONTROL Experiences] 보기에서 데이터 다운로드](/help/creative/experiences/experience-download-view.md)
+  + [광고 태그 이름 바꾸기](/help/creative/experiences/experience-tag-rename.md)
+  + [경험에 대한 변경 로그 보기](/help/creative/experiences/experience-view-change-log.md)
+  + [경험 삭제](/help/creative/experiences/experience-delete.md)
 + [브랜드 프로필 관리](/help/creative/brands/brand-manage.md)
 + 피드 {#feeds}
-   + [에셋 파일 관리](/help/creative/feeds/asset-manage.md)
-   + [피드 템플릿 관리](/help/creative/feeds/feed-template-manage.md)
-   + [카탈로그 관리](/help/creative/feeds/catalog-manage.md)
-   + [카탈로그 처리 작업 상태 추적](/help/creative/feeds/job-status-track.md)
+  + [에셋 파일 관리](/help/creative/feeds/asset-manage.md)
+  + [피드 템플릿 관리](/help/creative/feeds/feed-template-manage.md)
+  + [카탈로그 관리](/help/creative/feeds/catalog-manage.md)
+  + [카탈로그 처리 작업 상태 추적](/help/creative/feeds/job-status-track.md)
 + [동적 광고 템플릿 관리](/help/creative/ad-templates/ad-template-manage.md)
 + [부록: 동적 광고 피드 파일에 사용 가능한 필드](/help/creative/appendix-available-feed-fields.md)
 + 성능 보고서 {#reports}
-   + [경험 수준 성과 보고서](/help/creative/experiences/experience-performance-details.md)
-   + [경고 보기](/help/creative/reports/alerts-view.md)
-   + [사용자 지정 보고서]{#custom-reports}
-      + [사용자 지정 보고서 기본 정보](/help/creative/reports/reports-about.md)
-      + [사용자 정의 보고서 관리](/help/creative/reports/report-manage.md)
+  + [경험 수준 성과 보고서](/help/creative/experiences/experience-performance-details.md)
+  + [경고 보기](/help/creative/reports/alerts-view.md)
+  + [사용자 지정 보고서]{#custom-reports}
+    + [사용자 지정 보고서 기본 정보](/help/creative/reports/reports-about.md)
+    + [사용자 정의 보고서 관리](/help/creative/reports/report-manage.md)
 + [픽셀 재타겟팅](/help/creative/pixels/retargeting-pixel-manage.md)
 + [추적 URL에 사용 가능한 매크로](/help/creative/creative-macros.md)
 + [도움말 보기](/help/creative/get-help.md)
-+ [Adobe CX Enterprise 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko){target="_blank"}
++ [Adobe CX Enterprise 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

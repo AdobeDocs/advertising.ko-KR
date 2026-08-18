@@ -1,13 +1,10 @@
 ---
 title: Advertising Creative의 Creative Studio 정보
 description: Creative Studio를 사용하여 Adobe Advertising Creative에서 AI 지원 광고 콘텐츠를 작성하는 방법에 대해 알아봅니다.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 299275c1e8f37d75c46e825e584453bfe2cd4a95
 workflow-type: tm+mt
 source-wordcount: 811
 ht-degree: 0%
@@ -49,6 +46,8 @@ ht-degree: 0%
 * **템플릿 조직:** 템플릿을 즐겨찾기로 표시하고 레이블을 적용하며, 상태, 형식 또는 원본별로 필터링하여 템플릿 라이브러리를 정리합니다.
 
 ## 광고 제작 워크플로
+
+<!-- Add links to the other workflows!!!!! -->
 
 | 워크플로 | 사용 시기 |
 | --- | --- |
