@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%
@@ -41,21 +41,21 @@ ht-degree: 0%
 
 * (선택 사항) 모든 보고서에 적용할 수 있는 포트폴리오를 변경합니다.
 
-   1. **[!UICONTROL Select Portfolios]** 옆에 있는 현재 매개 변수를 클릭합니다.
+  1. **[!UICONTROL Select Portfolios]** 옆에 있는 현재 매개 변수를 클릭합니다.
 
-   1. (선택 사항) **[!UICONTROL Select by]** 옆에 있는 포트폴리오 선택 방법을 선택하십시오.
+  1. (선택 사항) **[!UICONTROL Select by]** 옆에 있는 포트폴리오 선택 방법을 선택하십시오.
 
-      * *[!UICONTROL All Portfolios]*(기본값): 지정된 포트폴리오에 대해 보고합니다. 필요한 경우 지정된 **[!UICONTROL Currency].**&#x200B;을(를) 변경하여 포트폴리오 목록을 필터링할 수 있습니다. 기본적으로 USD를 사용하는 모든 포트폴리오가 선택됩니다.
+     * *[!UICONTROL All Portfolios]*(기본값): 지정된 포트폴리오에 대해 보고합니다. 필요한 경우 지정된 **[!UICONTROL Currency].**&#x200B;을(를) 변경하여 포트폴리오 목록을 필터링할 수 있습니다. 기본적으로 USD을 사용하는 모든 포트폴리오가 선택됩니다.
 
-      * *[!UICONTROL Portfolio Groups]:* 지정된 **[!UICONTROL Portfolio Group].**&#x200B;에서 지정된 포트폴리오를 보고합니다. 필요한 경우 지정된 **[!UICONTROL Currency].**&#x200B;을(를) 변경하여 포트폴리오 목록을 필터링할 수 있습니다. 기본적으로 지정된 포트폴리오 그룹에서 USD를 사용하는 모든 포트폴리오가 선택됩니다.
+     * *[!UICONTROL Portfolio Groups]:* 지정된 **[!UICONTROL Portfolio Group].**&#x200B;에서 지정된 포트폴리오를 보고합니다. 필요한 경우 지정된 **[!UICONTROL Currency].**&#x200B;을(를) 변경하여 포트폴리오 목록을 필터링할 수 있습니다. 기본적으로 지정된 포트폴리오 그룹에서 USD을 사용하는 모든 포트폴리오가 선택됩니다.
 
-      * *[!UICONTROL Objectives]:* 지정된 포트폴리오에 대해 지정된 **[!UICONTROL Objective].**&#x200B;을(를) 보고합니다. . 필요한 경우 지정된 **[!UICONTROL Currency].**&#x200B;을(를) 변경하여 포트폴리오 목록의 범위를 좁힐 수 있습니다. 기본적으로 지정된 목표에 따라 USD를 사용하는 모든 포트폴리오가 선택됩니다.
+     * *[!UICONTROL Objectives]:* 지정된 포트폴리오에 대해 지정된 **[!UICONTROL Objective].**&#x200B;을(를) 보고합니다. . 필요한 경우 지정된 **[!UICONTROL Currency].**&#x200B;을(를) 변경하여 포트폴리오 목록의 범위를 좁힐 수 있습니다. 기본적으로 지정된 목표에 따라 USD을 사용하는 모든 포트폴리오가 선택됩니다.
 
-   1. [!UICONTROL Selected Portfolios] 섹션에 보고할 포트폴리오가 나열될 때까지 필요에 따라 포트폴리오 옆에 있는 확인란을 선택하고 선택을 취소합니다.
+  1. [!UICONTROL Selected Portfolios] 섹션에 보고할 포트폴리오가 나열될 때까지 필요에 따라 포트폴리오 옆에 있는 확인란을 선택하고 선택을 취소합니다.
 
-   1. **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
+  1. **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
 
-* (선택 사항) **[!UICONTROL Granularity]** 메뉴에서 모든 보고서(*[!UICONTROL Daily]* \[기본값\], *[!UICONTROL Weekly]* \[날짜 범위에 해당하는 경우\] 또는 *[!UICONTROL Monthly]* \[날짜 범위에 해당하는 경우\])의 데이터 세부 기간을 변경합니다.
+* (선택 사항) **[!UICONTROL Data Aggregation]** 메뉴에서 모든 보고서(*[!UICONTROL Daily]* \[기본값\], *[!UICONTROL Weekly]* \[날짜 범위에 해당하는 경우\] 또는 *[!UICONTROL Monthly]* \[날짜 범위에 해당하는 경우\])의 데이터 합계를 변경합니다.
 
 * (선택 사항) **[!UICONTROL Date range]** 메뉴에서 모든 보고서의 날짜 범위를 변경합니다. 지난 90일 동안의 데이터를 포함할 수 있습니다. 기본값은 *[!UICONTROL Last 7 Days]*&#x200B;입니다.
 
@@ -63,8 +63,8 @@ ht-degree: 0%
 
 * ([!UICONTROL Biggest Movers] 보고서, 선택 사항) 다음 중 하나를 수행합니다.
 
-   * 보고된 엔티티를 변경합니다. 현재 옵션은 *[!UICONTROL Portfolio]*&#x200B;뿐입니다.
+  * 보고된 엔티티를 변경합니다. 현재 옵션은 *[!UICONTROL Portfolio]*&#x200B;뿐입니다.
 
-   * 보고된 지표([!UICONTROL Cost] \[기본적으로 선택됨\], [!UICONTROL Clicks] 또는 [!UICONTROL Objective Value])를 변경합니다.
+  * 보고된 지표([!UICONTROL Cost] \[기본적으로 선택됨\], [!UICONTROL Clicks] 또는 [!UICONTROL Objective Value])를 변경합니다.
 
-   * [!UICONTROL Portfolios] 보기를 열려면 차트의 오른쪽 하단에서 **[!UICONTROL View More]**&#x200B;을(를) 클릭합니다. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
+  * [!UICONTROL Portfolios] 보기를 열려면 차트의 오른쪽 하단에서 **[!UICONTROL View More]**&#x200B;을(를) 클릭합니다. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->

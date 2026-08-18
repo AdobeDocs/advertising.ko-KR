@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
 workflow-type: tm+mt
-source-wordcount: 735
+source-wordcount: 738
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 1. 포트폴리오 이름을 클릭합니다.
 
-1. (선택 사항) **[!UICONTROL Granularity]** 메뉴에서 *[!UICONTROL Daily],* *[!UICONTROL Weekly],* 또는 *[!UICONTROL Monthly]사이의 데이터 세부 기간을 변경합니다.*
+1. (선택 사항) **[!UICONTROL Data Aggregation]** 메뉴에서 각 행에 포함된 데이터의 시간 단위를 변경합니다. *[!UICONTROL Daily],* *[!UICONTROL Weekly],* 또는 *[!UICONTROL Monthly].*
 
 1. (선택 사항) 포트폴리오 세부 정보에 대한 날짜 범위를 변경하려면 오른쪽 상단의 날짜 범위를 클릭하고 날짜 범위를 지정한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
@@ -55,41 +55,41 @@ ht-degree: 0%
 
 * (선택 사항) [!UICONTROL Portfolio Performance] 보고서를 사용자 지정하려면 다음 중 하나를 수행합니다.
 
-   * 총 지표와 세부 지표 모두에 사용되는 성능 지표를 변경하려면 **[!UICONTROL Metrics]**&#x200B;을(를) 클릭하고 최대 3개의 지표를 선택하십시오.
+  * 총 지표와 세부 지표 모두에 사용되는 성능 지표를 변경하려면 **[!UICONTROL Metrics]**&#x200B;을(를) 클릭하고 최대 3개의 지표를 선택하십시오.
 
-     기본 지표는 *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* 및 *[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->입니다.
+    기본 지표는 *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* 및 *[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->입니다.
 
-   * 세부 지표의 경우:
+  * 세부 지표의 경우:
 
-      * 예측된 지표 값을 표시하거나 숨기려면 **[!UICONTROL Display predictions]** 옆으로 스위치를 이동하십시오.
+    * 예측된 지표 값을 표시하거나 숨기려면 **[!UICONTROL Display predictions]** 옆으로 스위치를 이동하십시오.
 
-      * 차트 보기(![차트 보기](/help/search-social-commerce/assets/chart-view.png "차트 보기"))와 테이블 보기(![표 보기](/help/search-social-commerce/assets/table-view.png "표 보기")) 간을 전환합니다.
+    * 차트 보기(![차트 보기](/help/search-social-commerce/assets/chart-view.png "차트 보기"))와 테이블 보기(![표 보기](/help/search-social-commerce/assets/table-view.png "표 보기")) 간을 전환합니다.
 
-      * (차트 보기에서) 차트의 임의 지점에 대한 데이터를 보려면 해당 지점 위에 커서를 놓습니다.
+    * (차트 보기에서) 차트의 임의 지점에 대한 데이터를 보려면 해당 지점 위에 커서를 놓습니다.
 
 * (선택 사항) [!UICONTROL Model accuracy] 트렌드 차트를 사용자 지정하려면 다음 중 하나를 수행하십시오.
 
-   * 차트 보기(![차트 보기](/help/search-social-commerce/assets/chart-view.png "차트 보기"))와 테이블 보기(![표 보기](/help/search-social-commerce/assets/table-view.png "표 보기")) 간을 전환합니다.
+  * 차트 보기(![차트 보기](/help/search-social-commerce/assets/chart-view.png "차트 보기"))와 테이블 보기(![표 보기](/help/search-social-commerce/assets/table-view.png "표 보기")) 간을 전환합니다.
 
-   * *[!UICONTROL Click Date]*&#x200B;과(와) *[!UICONTROL Transaction Date]*&#x200B;의 데이터 보기 간에 전환합니다.
+  * *[!UICONTROL Click Date]*&#x200B;과(와) *[!UICONTROL Transaction Date]*&#x200B;의 데이터 보기 간에 전환합니다.
 
-   * *[!UICONTROL Daily Accuracy]*&#x200B;과(와) *[!UICONTROL 7 Day Rolling Accuracy]*&#x200B;에 대한 데이터 보기 간에 전환합니다.
+  * *[!UICONTROL Daily Accuracy]*&#x200B;과(와) *[!UICONTROL 7 Day Rolling Accuracy]*&#x200B;에 대한 데이터 보기 간에 전환합니다.
 
-     [!UICONTROL 7 Day Rolling Accuracy]은(는) 이전 7일 동안의 평균 예측 정확도로 백분율로 표시됩니다. 예를 들어, 2025년 5월 8일 값은 2025년 5월 1일 - 7일 기간에 대한 평균 정확도입니다.
+    [!UICONTROL 7 Day Rolling Accuracy]은(는) 이전 7일 동안의 평균 예측 정확도로 백분율로 표시됩니다. 예를 들어, 2025년 5월 8일 값은 2025년 5월 1일 - 7일 기간에 대한 평균 정확도입니다.
 
-   * (차트 보기에서) 차트의 임의 지점에 대한 데이터를 보려면 해당 지점 위에 커서를 놓습니다.
+  * (차트 보기에서) 차트의 임의 지점에 대한 데이터를 보려면 해당 지점 위에 커서를 놓습니다.
 
 * (선택 사항) [!UICONTROL Target vs actual spend] 트렌드 차트를 사용자 지정하려면 다음 중 하나를 수행하십시오.
 
-   * **[!UICONTROL Display budget]** 옆으로 스위치를 이동하여 각 날짜에 대한 총 캠페인 예산을 표시하거나 숨깁니다.
+  * **[!UICONTROL Display budget]** 옆으로 스위치를 이동하여 각 날짜에 대한 총 캠페인 예산을 표시하거나 숨깁니다.
 
-   * 차트에서 임의의 점에 대한 데이터를 보려면 해당 점 위에 커서를 놓습니다.
+  * 차트에서 임의의 점에 대한 데이터를 보려면 해당 점 위에 커서를 놓습니다.
 
 * (선택 사항) [!UICONTROL Network Accuracy] 트렌드 차트를 사용자 지정하려면 다음 중 하나를 수행하십시오.
 
-   * 보고된 지표를 *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* 또는 *[!UICONTROL Objective Value]*(으)로 변경하십시오.
+  * 보고된 지표를 *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* 또는 *[!UICONTROL Objective Value]*(으)로 변경하십시오.
 
-   * 차트에서 임의의 점에 대한 데이터를 보려면 해당 점 위에 커서를 놓습니다.
+  * 차트에서 임의의 점에 대한 데이터를 보려면 해당 점 위에 커서를 놓습니다.
 
 1. **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 * 포트폴리오 설정을 보거나 숨기려면 **[!UICONTROL Portfolio Settings]**&#x200B;을(를) 클릭합니다.
 
-   * 표시되는 포트폴리오 설정을 편집하려면 설정 섹션 옆에 있는 ![편집](/help/search-social-commerce/assets/edit.png "편집")을 클릭하고 [포트폴리오 설정 편집](portfolio-edit.md)을 클릭합니다.
+  * 표시되는 포트폴리오 설정을 편집하려면 설정 섹션 옆에 있는 ![편집](/help/search-social-commerce/assets/edit.png "편집")을 클릭하고 [포트폴리오 설정 편집](portfolio-edit.md)을 클릭합니다.
 
 포트폴리오 설정에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 최적화 안내서를 참조하십시오.
 
@@ -119,21 +119,21 @@ ht-degree: 0%
 
 * 모든 보고서를 다운로드하려면 다음 작업을 수행하십시오.
 
-   1. 도구 모음에서 **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
+  1. 도구 모음에서 **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
 
-   1. 포함할 각 성과 보고서와 포트폴리오 구성 요소 유형 옆의 확인란을 선택합니다.
+  1. 포함할 각 성과 보고서와 포트폴리오 구성 요소 유형 옆의 확인란을 선택합니다.
 
-      일부 성능 보고서의 경우 데이터를 차트로 다운로드할지 표로 다운로드할지를 선택할 수 있습니다.
+     일부 성능 보고서의 경우 데이터를 차트로 다운로드할지 표로 다운로드할지를 선택할 수 있습니다.
 
-   1. **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
+  1. **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
 
 * 특정 유형의 데이터가 포함된 [!DNL model accuracy] 보고서를 다운로드하려면 다음을 수행하십시오.
 
-   1. 보고서의 도구 모음에서 **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
+  1. 보고서의 도구 모음에서 **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
 
-   1. 포함할 각 데이터 유형 및 데이터 분류 방법(입찰 단위 및/또는 클릭 볼륨) 옆에 있는 확인란을 선택합니다.
+  1. 포함할 각 데이터 유형 및 데이터 분류 방법(입찰 단위 및/또는 클릭 볼륨) 옆에 있는 확인란을 선택합니다.
 
-   1. **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
+  1. **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
