@@ -3,9 +3,9 @@ role: User
 user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: 크리에이티브 안내서
-source-git-commit: 0edb79512588498b323ffc4197da0612e2e6d3e6
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '428'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
 + Creative 스튜디오 {#creative-studio}
   + [Creative Studio 정보](/help/creative/creative-studio/creative-studio-about.md)
-  + [[!UICONTROL Creative Studio]의 C2PA 메타데이터](/help/creative/creative-studio/creative-studio-content-credentials.md)
+
   + [표준 광고 관리](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
   + [동적 크리에이티브 관리](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
   + [템플릿 관리](/help/creative/creative-studio/creative-studio-manage-templates.md)

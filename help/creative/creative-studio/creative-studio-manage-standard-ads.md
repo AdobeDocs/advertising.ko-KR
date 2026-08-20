@@ -8,7 +8,7 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
 source-wordcount: 1181
 ht-degree: 0%
@@ -39,19 +39,19 @@ ht-degree: 0%
 
    * [!UICONTROL Creatives] 탭의 **:**
 
-      1. 주 메뉴에서 **[!UICONTROL Creative Studio]**&#x200B;을(를) 클릭합니다.
+     1. 주 메뉴에서 **[!UICONTROL Creative Studio]**&#x200B;을(를) 클릭합니다.
 
-      1. **[!UICONTROL Creatives]** 탭의 **[!UICONTROL Generate standard ads from templates]** 빠른 작업 카드에서 **[!UICONTROL Generate]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Creatives]** 탭의 **[!UICONTROL Generate standard ads from templates]** 빠른 작업 카드에서 **[!UICONTROL Generate]**&#x200B;을(를) 클릭합니다.
 
-      1. 템플릿 선택 대화 상자에서 템플릿을 클릭하여 선택한 다음 **[!UICONTROL Use this template]**&#x200B;을(를) 클릭합니다.
+     1. 템플릿 선택 대화 상자에서 템플릿을 클릭하여 선택한 다음 **[!UICONTROL Use this template]**&#x200B;을(를) 클릭합니다.
 
    * (광고 표시 전용) **[!UICONTROL Templates] 탭에서:**
 
-      1. 주 메뉴에서 **[!UICONTROL Creative Studio]**&#x200B;을(를) 클릭합니다.
+     1. 주 메뉴에서 **[!UICONTROL Creative Studio]**&#x200B;을(를) 클릭합니다.
 
-      1. **[!UICONTROL Templates]** 탭을 클릭합니다.
+     1. **[!UICONTROL Templates]** 탭을 클릭합니다.
 
-      1. 템플릿 카드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**&#x200B;을(를) 클릭합니다.
+     1. 템플릿 카드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**&#x200B;을(를) 클릭합니다.
 
    [!UICONTROL Ad Variations Generator]이(가) 열립니다. 캔버스에는 템플릿의 사용 가능한 광고 형식이 포함된 **[!UICONTROL Template Sizes]** 섹션과 생성된 컨텐츠가 나타나는 **[!UICONTROL Ad Concepts]** 섹션이 표시됩니다.
 
@@ -100,14 +100,14 @@ ht-degree: 0%
 
    * 개념을 관리하려면 개념 레이블(예: **[!UICONTROL Concept 3]**) 위에 커서를 놓고 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 옵션을 선택합니다.
 
-      * **[!UICONTROL Add to chat]:**&#x200B;이(가) 다음 프롬프트에서 개념을 참조합니다.
-      * **[!UICONTROL Delete]:** 개념을 제거합니다.
+     * **[!UICONTROL Add to chat]:**&#x200B;이(가) 다음 프롬프트에서 개념을 참조합니다.
+     * **[!UICONTROL Delete]:** 개념을 제거합니다.
 
    * 개별 변형을 관리하려면 변형 카드 위에 커서를 놓고 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 옵션을 선택하십시오.
 
-      * **[!UICONTROL Add to Chat]:**&#x200B;이(가) 다음 프롬프트에서 변형을 참조합니다. 변형 카드 본문을 직접 클릭하여 언급을 전환할 수도 있습니다.
-      * **[!UICONTROL Edit Data]:** 템플릿에 정의된 각 클릭 태그에 대한 클릭스루 URL과 변형 **[!UICONTROL Name]**&#x200B;을(를) 업데이트할 수 있는 대화 상자를 엽니다. 적용하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
-      * **[!UICONTROL Delete]:** 변형을 제거합니다.
+     * **[!UICONTROL Add to Chat]:**&#x200B;이(가) 다음 프롬프트에서 변형을 참조합니다. 변형 카드 본문을 직접 클릭하여 언급을 전환할 수도 있습니다.
+     * **[!UICONTROL Edit Data]:** 템플릿에 정의된 각 클릭 태그에 대한 클릭스루 URL과 변형 **[!UICONTROL Name]**&#x200B;을(를) 업데이트할 수 있는 대화 상자를 엽니다. 적용하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
+     * **[!UICONTROL Delete]:** 변형을 제거합니다.
 
 1. 생성된 개념에 만족하면 헤더에서 **[!UICONTROL Save Standard Ads]**&#x200B;을(를) 클릭합니다.
 
@@ -204,4 +204,3 @@ ht-degree: 0%
 >* [Creative Studio에서 동적 크리에이티브 관리](creative-studio-manage-dynamic-ads.md)
 >* [Creative Studio에서 템플릿 관리](creative-studio-manage-templates.md)
 >* [Advertising Creative에서 브랜드 프로필 관리](/help/creative/brands/brand-manage.md)
-
