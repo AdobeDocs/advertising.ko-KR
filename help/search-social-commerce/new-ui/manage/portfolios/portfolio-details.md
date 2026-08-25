@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
 TQID: https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 1a49038dc4f679993eaf908ecbed291324075bc3
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 814
 ht-degree: 0%
 
 ---
@@ -95,13 +91,21 @@ ht-degree: 0%
 
 ## 포트폴리오에 캠페인 나열
 
+각 캠페인에 대한 세부 사항에는 입찰 전략, 실제 및 예상 비용, 클릭 수 및 목표 값, 비용, 클릭 수 및 목표 값 정확도 등이 포함됩니다.
+
 * **[!UICONTROL Campaigns]** 탭을 클릭합니다.
 
 ## 포트폴리오의 광고 그룹 나열
 
+각 광고 그룹에 대한 세부 사항에는 비용, 클릭 수 및 목표 값이 포함됩니다.
+
+* 포트폴리오의 모든 광고 그룹을 보려면 **[!UICONTROL Ad Groups]** 탭을 클릭하십시오.
+
 * 포트폴리오 내의 캠페인에 있는 모든 광고 그룹을 보려면 **[!UICONTROL Campaigns]** 탭을 클릭한 다음 캠페인 이름을 클릭합니다.
 
 ## 포트폴리오의 키워드 나열
+
+각 키워드에 대한 세부 사항에는 입찰 단위 ID, 일치 유형, 실제 및 예상 비용, 클릭 수 및 목표 값, 비용, 클릭 수 및 목표 값 차이 등이 포함됩니다.
 
 * 포트폴리오의 모든 키워드를 보려면 **[!UICONTROL Keywords]** 탭을 클릭하십시오.
 
