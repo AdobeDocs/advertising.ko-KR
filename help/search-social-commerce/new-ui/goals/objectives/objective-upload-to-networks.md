@@ -3,9 +3,9 @@ title: (새 UI) 광고 네트워크에 목표 업로드를 활성화합니다
 description: 하이브리드 포트폴리오에 대한 목표를 Google Ads 및 Microsoft Advertising에 업로드하는 방법을 알아봅니다.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 4342b75f27a412803b0f96192e96cba9ebfbc347
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 *하이브리드 최적화에만 사용할 수 있는 광고주*
 
-Search, Social 및 Commerce에서 광고주 계정의 포트폴리오의 목표를 [!DNL Google Ads] 및 [!DNL Microsoft Advertising]에 업로드하여 하이브리드 최적화에 사용할 수 있습니다. 업로드한 목표는 계정 수준 및 캠페인 수준의 사용자 정의 전환 목표에 대한 전환 작업으로 사용할 수 있습니다. 포트폴리오 설정의 [!UICONTROL Manage Objectives] 탭에서 특정 포트폴리오에 대한 목표 값 데이터를 광고 네트워크로 보내지 않도록 선택할 수 있습니다.
+Search, Social 및 Commerce에서 광고주 계정의 포트폴리오의 목표를 [!DNL Google Ads] 및 [!DNL Microsoft Advertising]에 업로드하여 하이브리드 최적화에 사용할 수 있습니다. 업로드한 목표는 계정 수준 및 캠페인 수준 사용자 지정 전환 목표에 대한 전환 작업으로 사용할 수 있습니다.<!-- You can opt not to send objective value data for a specific portfolio to ad networks from the [!UICONTROL Manage Objectives] tab in the portfolio settings. -->
 
 이 옵션을 활성화하면 스마트 입찰 전략이 포함된 캠페인이 포함된 포트폴리오에서 목표에 대한 업로드가 자동으로 트리거됩니다. Search, Social 및 Commerce은 적용 가능한 각 목표에 대해 광고 네트워크에서 전환을 만듭니다. 전환은 EF ID(클릭 ID) 수준에서 목표의 모든 가중 전환 지표를 나타냅니다. [!DNL Google Ads] 클릭의 경우 EF ID는 [!DNL Google Ads] `gclid`이고, [!DNL Microsoft Advertising] 클릭의 경우 EF ID는 [!DNL Microsoft Advertising] `msclkid`입니다. 이 클릭 ID로 인해 전환 데이터가 특정 키워드 및 클릭 시간에 매핑될 수 있습니다.
 

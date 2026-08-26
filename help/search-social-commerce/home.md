@@ -18,9 +18,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cffcb243a4e2274b3e064548730d6c899831ec9d
+source-git-commit: 8321f27c6fb89234646119b3a34470d08ecec6c8
 workflow-type: tm+mt
-source-wordcount: 5013
+source-wordcount: 4986
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 1%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
-| 8월 19일 | [!UICONTROL Objective Upload], [!UICONTROL Portfolio] 설정 | 이제 포트폴리오 설정의 [!UICONTROL Manage Objectives] 탭에서 특정 포트폴리오에 대한 목표 값 데이터를 광고 네트워크로 보내지 않도록 선택할 수 있습니다. | — |
 | 2026년 7월 29일 | [!UICONTROL Campaigns], [!UICONTROL Reports] | ([!DNL Google Ads] 계정) 이제 검색 네트워크의 새 Google 광고 캠페인에 대한 UI에서 다음 AI Max 지원을 사용할 수 있습니다.<ul><li>관리 > 캠페인에서 AI Max 지원 캠페인을 만들고 관리할 수 있습니다. Campaign 설정에는 AI Max, 자동화된 텍스트 사용자 지정 및 최종 URL 확장을 활성화하는 옵션이 포함된 새로운 AI Max 탭이 포함됩니다. 광고 그룹에서 지리적 관심 타겟을 사용하는지 여부도 확인할 수 있습니다.</li><li>관리 > 광고 그룹에서 AI Max 활성화 캠페인에 대한 광고 그룹을 만들고 관리할 수 있습니다. 설정에는 키워드 없는 검색어 일치 및 대상 관심 위치가 포함됩니다.</li><li>AI가 생성한 크리에이티브 에셋은 Assets > Creative에서 사용할 수 있습니다. 이 보기에서 연결된 광고 그룹에서 텍스트 자산을 제거할 수 있습니다.</li><li>새 [!UICONTROL Asset Report]에는 AI Max 사용 캠페인의 각 AI 생성 에셋에 대한 에셋 수준 성과 데이터가 포함됩니다. 보고서에는 Adobe Analytics 전환이 포함되지 않습니다.</li></ul> | &quot;[캠페인 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)&quot; 및 &quot;[[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)&quot;, &quot;[광고 그룹 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)&quot; 및 &quot;[[!DNL Google Ads] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)&quot;, &quot;[광고 자산 보기 및 만들기](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)를 참조하십시오.&quot; 및 &quot;[[!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)&quot; |
 | 2026년 6월 9일 | Adobe Customer Journey Analytics과 통합 | [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주는 기본적으로 Adobe Experience Platform [!DNL Web SDK]을(를) 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 데이터를 교환할 수 있습니다. | &quot;[Adobe Advertising과 Customer Journey Analytics 간의 통합 개요](/help/integrations/customer-journey-analytics/overview.md)&quot;를 참조하십시오. |
 | 2026년 5월 28일 | 새 UI | 이제 예약된 보고서 및 스프레드시트 피드, Bulksheets, 광고 네트워크 관리자 계정 및 [!DNL Spend Planner]&#x200B;(이전의 &quot;[!DNL Spend Recommendations]&quot;)을(를) 포함하여 대부분의 기능을 새 UI에서 사용할 수 있습니다. | &quot;[사용자 인터페이스를 구성하는 방법](/help/search-social-commerce/getting-started/user-interface.md)&quot; 및 &quot;새 UI&quot; 장을 참조하십시오. |
