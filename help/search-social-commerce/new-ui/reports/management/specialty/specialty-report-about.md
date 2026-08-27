@@ -2,9 +2,9 @@
 title: 전문 보고서 정보
 description: 전문 보고서에 대해 알아봅니다.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: b5fadff06a523e2b1b248c2d262cbd6cd03669c3
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->대부분의 전문 보고서 의 경우 전날 23:00(오후 11:00)에 데이터를 가져옵니다. 매일. 예를 들어, 6월 18일 23:00에서 6월 17일에 대한 데이터를 가져옵니다. 6월 18일에 대한 데이터를 가져오기 전인 6월 19일 09:00에 보고서를 실행하는 경우 보고서에는 6월 17일 23:00까지의 데이터가 포함됩니다. 이 데이터 동기화는 모든 [!DNL Google Ads] 전문 보고서와 [!UICONTROL Bing Ads Geo Report] 및 [!UICONTROL Bing Ads Search Query Report]에 적용됩니다.
+>대부분의 전문 보고서 의 경우 전날 23:00(오후 11:00)에 데이터를 가져옵니다. 매일. 예를 들어, 6월 18일 23시에 6월 17일에 대한 데이터를 가져옵니다. 6월 18일에 대한 데이터를 가져오기 전인 6월 19일 09:00에 보고서를 실행하는 경우 보고서에는 6월 17일 23:00까지의 데이터가 포함됩니다. 이 데이터 동기화는 모든 [!DNL Google Ads] 전문 보고서와 [!UICONTROL Bing Ads Geo Report] 및 [!UICONTROL Bing Ads Search Query Report]에 적용됩니다.
 
 ## 전문 보고서 유형
 
@@ -34,6 +34,12 @@ ht-degree: 0%
 * [[!UICONTROL Bing Ads Search Query Report]](bing-ads-search-query-report.md)
 
 * [[!UICONTROL Campaign Daily Impression Share Report]](campaign-daily-impression-share-report.md)
+
+* [[!UICONTROL Google AI Max Search Term Combination Report]](google-ai-max-search-term-combination-report.md)
+
+* [[!UICONTROL Google Asset Group Performance Report]](google-asset-group-performance-report.md)
+
+* [[!UICONTROL Google Performance Max Placement Report]](google-performance-max-placement-report.md)
 
 * [[!UICONTROL Keyword Daily Impression Share Report]](keyword-daily-impression-share-report.md)
 
