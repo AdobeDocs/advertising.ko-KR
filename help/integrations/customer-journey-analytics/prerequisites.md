@@ -29,15 +29,15 @@ ht-degree: 0%
 
 * (Customer Journey Analytics이 있지만 [!DNL Analytics for Advertising]이(가) 아닌 광고주):
 
-  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 버전 2.36 이상
+  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko) 버전 2.36 이상
 
-  * [Adobe Experience Platform 태그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&#x200B;([[!DNL Web SDK] 확장](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension) 버전 2.37 이상 포함).
+  * [Adobe Experience Platform 태그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home)&#x200B;([[!DNL Web SDK] 확장](https://experienceleague.adobe.com/ko/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension) 버전 2.37 이상 포함).
 
 * 데이터 관리 도구에 대한 액세스 권한이 있는 Adobe Customer Journey Analytics
 
   데이터 세트에 대한 연결을 설정하고 보고를 구성하려면 내부 웹 분석가의 지원이 필요합니다.
 
-* ([!DNL Analytics for Advertising]이(가) 없는 광고주) Adobe Experience Platform 데이터 모델링 및 관리 기술([스키마](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) 및 [데이터 세트](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview) 포함) 및 [데이터 수집 기술](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home)&#x200B;([데이터 스트림](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) 및 [태그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) 포함)
+* ([!DNL Analytics for Advertising]이(가) 없는 광고주) Adobe Experience Platform 데이터 모델링 및 관리 기술([스키마](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/home) 및 [데이터 세트](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/overview) 포함) 및 [데이터 수집 기술](https://experienceleague.adobe.com/ko/docs/experience-platform/collection/home)&#x200B;([데이터 스트림](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/overview) 및 [태그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home) 포함)
 
   이러한 기술을 사용하려면 Experience Platform 사이트 관리자의 지원이 필요합니다.
 
