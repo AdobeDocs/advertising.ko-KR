@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
 TQID: https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 433
 ht-degree: 0%
 
 ---
@@ -28,6 +24,8 @@ ht-degree: 0%
 * 필드 편집에 대한 정보가 포함된 읽기 전용 [!UICONTROL Instructions] 워크시트입니다.
 
 * 포함된 포트폴리오당 하나의 행이 있는 [!UICONTROL Portfolio Settings Edit] 탭입니다. 필요에 따라 필드를 편집하고, 로컬에 파일을 저장한 다음 [편집된 파일을 업로드](#portfolio-bulksheet-upload)하여 검색, 소셜 및 Commerce에 추가할 수 있습니다. 편집 가능한 필드는 색상으로 강조 표시됩니다.
+
+이 기능은 일별, 주별, 월별 및 요일 지출 전략이 있는 포트폴리오에 사용할 수 있습니다.
 
 ## 포트폴리오 설정이 있는 일괄 시트 파일 다운로드
 
@@ -47,7 +45,7 @@ ht-degree: 0%
 
 ## 업데이트된 포트폴리오 설정으로 일괄 시트 파일 업로드 {#portfolio-bulksheet-upload}
 
-파일은 XLSX 형식이어야 합니다.
+파일은 XLSX 형식이어야 하고, 파일 크기는 1KB~1MB 사이여야 하며, 파일 이름의 최대 길이는 100자입니다.
 
 1. 데이터 테이블 위의 도구 모음에서 ![대량 작업](/help/search-social-commerce/assets/chevron-down.png "대량 작업") > **[!UICONTROL Import Portfolio Details]**&#x200B;을 클릭합니다.
 

@@ -2,11 +2,9 @@
 title: 검색 입찰 단위에 대한 제한 관리
 description: 레거시 키워드 수준 포트폴리오의 CPC 캠페인에서 입찰 단위 입찰을 제한하는 제한에 대해 알아봅니다.
 feature: Search Campaign Management, Search Optimization
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: c800239a-06eb-4249-9aef-771973d24d35
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 *레거시 키워드 수준의 포트폴리오에서만 CPC 캠페인의 입찰 단위에 적용 가능*
 
-입찰 단위 제한은 제한과 관련된 비용 및 수익 모델을 사용하는 모든 [입찰 단위](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=ko)에 대해 최적화된 입찰을 제한하는 규칙입니다.
+입찰 단위 제한은 제한과 관련된 비용 및 수익 모델을 사용하는 모든 [입찰 단위](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html)에 대해 최적화된 입찰을 제한하는 규칙입니다.
 
 ## 제한 정보
 
@@ -33,8 +31,8 @@ ht-degree: 0%
 >
 >* 활성 제한은 최적화된 레거시 키워드 수준 포트폴리오에서 할당된 입찰 단위에 대해서만 입찰을 제한합니다. 하이브리드 포트폴리오에 있거나, 활성 포트폴리오에 있거나, 포트폴리오에 없는 입찰 단위에는 무시됩니다. **팁:** 포트폴리오 설정에서 포트폴리오 옵션을 &quot;캠페인 예산 제한 자동 조정&quot;으로 설정하십시오. 권장 &quot;다중&quot; 값은 &quot;1&quot;입니다.
 >* 비용 및 수익 모델을 생성하기에 충분한 데이터가 없는 입찰 단위에 대해서는 입찰 제한이 무시됩니다.
->* (CPC 또는 eCPC 입찰 전략이 있는 캠페인) 입찰 제한이 포트폴리오 수준 입찰 제한과 충돌하면 제한 사항이 포트폴리오 수준 제한을 무시합니다. 예를 들어 포트폴리오의 최소 입찰가가 5 USD이지만 포트폴리오의 입찰 단위를 최소 입찰가 3 USD로 제한하면 입찰 단위는 3 USD 이상으로 입찰됩니다. 그러나 제한된 입찰 단위에 대한 전체 지출은 포트폴리오의 [&quot;제약 조건 관련 지출&quot; 매개 변수](#spend-around-constraints)에 의해 결정됩니다.
->* 제한은 기본 입찰에서 작동합니다. 기본 입찰에 대한 입찰 조정 유형(예: 모바일 디바이스의 최종 사용자에 대한 입찰 상승)은 입찰을 제한에 대한 허용 범위 밖으로 이동할 수 있습니다. 예를 들어 제한에 최대 CPC 6달러가 필요하고 기본 입찰가는 이미 6달러이며 포트폴리오가 모바일 장치에 대한 입찰 조정을 50%-60%로 자동 최적화하는 경우 최대 CPC는 6달러가 아닌 9.00-9.60USD입니다.
+>* (CPC 또는 eCPC 입찰 전략이 있는 캠페인) 입찰 제한이 포트폴리오 수준 입찰 제한과 충돌하면 제한 사항이 포트폴리오 수준 제한을 무시합니다. 예를 들어 포트폴리오의 최소 입찰가가 5USD이지만 포트폴리오의 입찰 단위를 3USD의 최소 입찰가로 제한하면 입찰 단위는 3USD 이상으로 입찰합니다. 그러나 제한된 입찰 단위에 대한 전체 지출은 포트폴리오의 [&quot;제약 조건 관련 지출&quot; 매개 변수](#spend-around-constraints)에 의해 결정됩니다.
+>* 제한은 기본 입찰에서 작동합니다. 기본 입찰에 대한 입찰 조정 유형(예: 모바일 디바이스의 최종 사용자에 대한 입찰 상승)은 입찰을 제한에 대한 허용 범위 밖으로 이동할 수 있습니다. 예를 들어, 제한에 최대 6개의 USD CPC가 필요하고 기본 입찰가는 이미 6개의 USD이며 포트폴리오가 모바일 장치에 대한 입찰 조정을 50%-60%로 자동 최적화하는 경우 최대 CPC는 6USD이 아닌 9.00-9.60USD입니다.
 
 ### 제한 유형 {#constraint-types}
 
@@ -64,7 +62,7 @@ ht-degree: 0%
 
 [[!UICONTROL Constraints] 보기](#constraints-view)을(를) 여는 것 외에도 다음과 같은 방법으로 제한 관련 정보를 볼 수 있습니다.
 
-* 모든 제약 조건은 &quot;[!UICONTROL Constraints]&quot;이라는 단일 [레이블 분류](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=ko)에 대한 레이블 값입니다.
+* 모든 제약 조건은 &quot;[!UICONTROL Constraints]&quot;이라는 단일 [레이블 분류](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html)에 대한 레이블 값입니다.
 
   * &quot;[!UICONTROL Constraints]&quot;은(는) 기본 및 사용자 지정 보기 설정과 예약된 보고서의 &quot;[!UICONTROL Classifications]&quot; 목록에 포함되어 있습니다. 관련 엔티티에 할당된 구속을 보려는 위치에 열을 추가할 수 있습니다.
 
@@ -116,7 +114,7 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Constraints]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 도구 모음[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서  목록을 필터링합니다.
+1. (선택 사항) 도구 모음](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서 [ 목록을 필터링합니다.
 
 1. 편집할 제한 옆의 확인란을 선택합니다.
 
@@ -138,7 +136,7 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Constraints]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 도구 모음[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서  목록을 필터링합니다.
+1. (선택 사항) 도구 모음](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서 [ 목록을 필터링합니다.
 
 1. 상태를 변경할 각 제약 조건 옆의 확인란을 선택합니다.
 
@@ -167,10 +165,10 @@ ht-degree: 0%
 | | [!UICONTROL Set constraint options for Bid] | ([!UICONTROL Bid] 제약 조건만 해당) 설정에는 다음이 포함됩니다.<ul><li>**[!UICONTROL Min Bid]:** 연결된 입찰 단위에 대한 최소 기본 입찰입니다.</li><li>**[!UICONTROL Max Bid]:** 연결된 입찰 단위에 대한 최대 기본 입찰입니다.</li></ul> |
 | | [!UICONTROL Set constraint options for Bid Shift] | ([!UICONTROL Bid Shift] 제한만 해당) 기본 입찰에 지속적으로 적용할 입찰 전환 유형 및 금액:<ul><li>*[!UICONTROL Increases]:* 지정한 백분율 또는 통화 값만큼 입찰을 늘립니다. 변경할 금액을 입력한 다음 *$* 또는 *%*&#x200B;을(를) 선택하십시오. 또한 제한이 적용될 때 가능한 가장 높은 입찰(상한)인 **[!UICONTROL Max Limit]**&#x200B;을(를) 입력하십시오. **참고:** 현재 CPC 입찰이 이미 [!UICONTROL Max Limit]보다 크거나 같은 경우 제한이 무시되고 입찰이 변경되지 않습니다.</li><li>*[!UICONTROL Decreases]:* 지정한 비율이나 통화 값만큼 입찰을 줄입니다. 변경할 금액을 입력한 다음 *$ 또는 %*&#x200B;을(를) 선택합니다. 또한 제한이 적용될 때 가능한 최저가 입찰(최저가)인 **[!UICONTROL Min Limit]**&#x200B;을(를) 입력하십시오. **참고:** 현재 CPC 입찰이 이미 [!UICONTROL Min Limit]보다 작거나 같은 경우 제한이 무시되고 입찰이 변경되지 않습니다.</li></ul>**메모:**<ul><li>입찰 변경을 수행하면 &quot;[!UICONTROL Spend Around Constraints]&quot;에 대한 포트폴리오의 설정에 관계없이 관련 포트폴리오가 입찰 전환으로 인해 발생한 총 금액만큼 초과 또는 과소 지출됩니다.</li><li>제한 사항의 종료 날짜를 지정하고 최적화 기능이 포트폴리오의 캠페인에 대한 지출 제한을 자동으로 조정하는 경우 입찰이 종료 날짜 이후에 단순히 원래 금액으로 돌아가는 것이 아니라 최적으로 조정됩니다.</li><li>입찰 전환은 비용 및 수익 모델을 생성하기에 충분한 데이터가 없는 입찰 단위에 적용되지 않습니다.</li></ul> |
 | | [!UICONTROL Set constraint options for Incremental Bidding] | ([!UICONTROL Incremental Bidding] 제한만 해당) 입찰 대상 및 대상에 도달할 때까지 입찰을 증분적으로 늘리거나 줄이는 데 필요한 횟수와 빈도:<ul><li>**[!UICONTROL Bid target]:** 대상 입찰 금액입니다.</li><li>**[!UICONTROL Incrementally change bids by]** 및 **[Type]:** 입찰을 점진적으로 증가 또는 감소시키는 방법과 입찰을 통화 값(**$**) 또는 백분율(*%*)로 변경할지 여부를 지정합니다.</li><li>**[!UICONTROL Every __ days]:** 입찰가를 늘리는 빈도.</li></ul>예를 들어 키워드 중 하나의 현재 입찰가는 100센트이고 입찰 목표인 500센트에 도달할 때까지 입찰가를 매일 10%씩 변경하려고 한다고 가정해 보겠습니다. 제한이 설정된 후 1일에 해당 키워드의 입찰가는 110센트(현재 입찰 + 10%)입니다. 2일에 입찰가는 120센트(1일에 대한 현재 입찰가 + 20%)입니다. 그러나 입찰 대상이 50센트이고 다른 매개 변수가 동일한 경우 입찰이 50센트에 도달할 때까지 입찰이 점진적으로 감소합니다. |
-| | [!UICONTROL Set constraint options for Search Engine Min Bid] | ([!UICONTROL Search Engine Min Bid] 제약 조건) Google에서 검색 결과의 첫 페이지에 입찰 단위를 표시하는 데 필요한 최소 입찰가를 사용합니다([!UICONTROL Google First Page CPC]). 필요한 경우 **[!UICONTROL Min Bid]** 값 및/또는 **[!UICONTROL Max Bid]** 값을 입력하여 제한에 적합한 입찰의 범위를 정의합니다. 예를 들어 [!UICONTROL Min Bid]&#x200B;(2.50 USD)와 [!UICONTROL Max Bid]&#x200B;(4 USD)를 지정하는 경우 [!DNL Google Ads] 첫 페이지 입찰가가 2.50 USD 미만이거나 4 USD 이상이면 입찰 단위에 입찰하지 않습니다. |
-| | [!UICONTROL Set constraint options for Impression Share] | ([!UICONTROL Impression Share] 제약 조건만 해당) 설정에는 다음이 포함됩니다.<ul><li>**[!UICONTROL Min Bid]**(선택 사항) 연결된 입찰 단위에 대한 최소 기본 입찰입니다.</li><li>**[!UICONTROL Max Bid]:**(선택 사항) 연결된 입찰 단위에 대한 최대 기본 입찰입니다.</li><li>**[!UICONTROL Min Impression Share]:** 적용 가능한 입찰 단위에 대한 제한을 트리거하는 가장 낮은 노출 점유율입니다. 10에서 90 사이여야 합니다. **참고:** 제약 조건이 비용 효율적이지 않으면 최적화 기능이 이를 재정의할 수 있습니다.</li><li>**[!UICONTROL Max Impression Share]:** 적용 가능한 입찰 단위에 대한 제한을 트리거하는 가장 높은 노출 점유율입니다. 10에서 90 사이여야 합니다.**참고:** 제약 조건이 비용 효율적이지 않으면 최적화 기능이 이를 재정의할 수 있습니다.</li></ul>> |
+| | [!UICONTROL Set constraint options for Search Engine Min Bid] | ([!UICONTROL Search Engine Min Bid] 제약 조건) Google에서 검색 결과의 첫 페이지에 입찰 단위를 표시하는 데 필요한 최소 입찰가를 사용합니다([!UICONTROL Google First Page CPC]). 필요한 경우 **[!UICONTROL Min Bid]** 값 및/또는 **[!UICONTROL Max Bid]** 값을 입력하여 제한에 적합한 입찰의 범위를 정의합니다. 예를 들어 [!UICONTROL Min Bid]&#x200B;(2.50 USD)와 [!UICONTROL Max Bid]&#x200B;(4 USD)를 지정하는 경우 [!DNL Google Ads] 첫 번째 페이지 입찰이 2.50 USD 미만이거나 4 USD 이상인 경우 입찰 단위에 입찰하지 않습니다. |
+| | [!UICONTROL Set constraint options for Impression Share] | ([!UICONTROL Impression Share] 제약 조건만 해당) 설정에는 다음이 포함됩니다.<ul><li>**[!UICONTROL Min Bid]**(선택 사항) 연결된 입찰 단위에 대한 최소 기본 입찰입니다.</li><li>**[!UICONTROL Max Bid]:**(선택 사항) 연결된 입찰 단위에 대한 최대 기본 입찰입니다.</li><li>**[!UICONTROL Min Impression Share]:** 적용 가능한 입찰 단위에 대한 제한을 트리거하는 가장 낮은 노출 점유율입니다. 10에서 90 사이여야 합니다. **참고:** 제약 조건이 비용 효율적이지 않으면 최적화 기능이 이를 재정의할 수 있습니다.</li><li>**[!UICONTROL Max Impression Share]:** 적용 가능한 입찰 단위에 대한 제한을 트리거하는 가장 높은 노출 점유율입니다. 10에서 90 사이여야 합니다. **참고:** 제약 조건이 비용 효율적이지 않으면 최적화 기능이 이를 재정의할 수 있습니다.</li></ul>> |
 | [!UICONTROL Conditions] | [!UICONTROL Condition Type] | 제약 조건에 조건 적용 여부:<ul><li>*[!UICONTROL No Condition]:*(기본값) 지정한 날짜 범위 동안 제약 조건이 무조건 적용됩니다.</li><li>*[!UICONTROL Satisfy]:* 제약 조건은 지정된 데이터 평가 기간 동안 지정된 조건이 충족되는 경우에만 적용됩니다.</li></ul> |
-| | [!UICONTROL Data Evaluation Period] | (조건이 설정된 경우) 지정된 기준에 대한 데이터를 평가할 기간입니다. *[!UICONTROL Custom date range]을(를) 선택하는 경우&#x200B;**은(는) `MM-DD-YYYY` 형식(예: 2026년 3월 29일 03-29-2026)으로 각 날짜를 입력하거나 ![달력 단추](/help/search-social-commerce/assets/calendar-new.png "달력 단추")를 클릭하여 달력을 열고 각 날짜를 선택하여 &#x200B;** [!UICONTROL Start Date]&#x200B;**&#x200B;과(와) &#x200B;** [!UICONTROL End Date]**&#x200B;을(를) 지정합니다. |
+| | [!UICONTROL Data Evaluation Period] | (조건이 설정된 경우) 지정된 기준에 대한 데이터를 평가할 기간입니다. *[!UICONTROL Custom date range]을(를) 선택하는 경우**은(는) `MM-DD-YYYY` 형식(예: 2026년 3월 29일 03-29-2026)으로 각 날짜를 입력하거나 ![달력 단추](/help/search-social-commerce/assets/calendar-new.png "달력 단추")를 클릭하여 달력을 열고 각 날짜를 선택하여 **[!UICONTROL Start Date]**&#x200B;과(와) **[!UICONTROL End Date]**&#x200B;을(를) 지정합니다. |
 | | [!UICONTROL When to Apply Constraints] | (조건이 설정된 경우) 제한을 적용하려면 몇 개의 필터 조건을 충족해야 합니까?<ul><li>*[!UICONTROL Match All Filters]:* 지정한 모든 필터 조건이 충족될 때 제약 조건을 적용합니다.</li><li>*[!UICONTROL Match Any Filters]:* 지정한 필터 조건 중 하나 이상이 충족되면 제약 조건을 적용합니다.</li></ul> |
 | | [!UICONTROL Filters] | (조건이 설정된 경우) 충족해야 하는 하나 이상의 기준. 필터를 만들려면 목록에서 속성 또는 지표를 선택합니다. 속성(예: [!UICONTROL Channel Type])의 경우 목록에서 적용 가능한 값을 선택합니다. 지표(예: [!UICONTROL Clicks])의 경우 연산자를 선택한 다음 해당 값을 입력합니다. 예를 들어 클릭수가 100개를 초과하는 입찰 단위만 반환하려면 **클릭수**&#x200B;을(를) 선택하고 **보다 큼**&#x200B;을(를) 선택한 다음 입력 필드에 `100`을(를) 입력합니다.</li></ul> |
 
@@ -189,7 +187,7 @@ ht-degree: 0%
 
    예를 들어 캠페인 수준에서 제약 조건을 할당하려면 [!UICONTROL Manage] > [!UICONTROL Campaigns]&#x200B;(으)로 이동합니다.
 
-1. (선택 사항) 도구 모음[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서  목록을 필터링합니다.
+1. (선택 사항) 도구 모음](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서 [ 목록을 필터링합니다.
 
 1. 단일 구속을 지정할 각 엔티티 옆의 확인란을 선택합니다.
 

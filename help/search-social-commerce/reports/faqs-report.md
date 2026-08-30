@@ -4,19 +4,12 @@ description: 데이터 문제 해결을 포함하여 성능 보고서에 대한 
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
 TQID: https://experienceleague.adobe.com/2pGYTNuu54grOLUSyVpfQVttGWG8OMPCUrzAYmyIv0k
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 3922
+source-wordcount: 3975
 ht-degree: 0%
 
 ---
@@ -46,11 +39,11 @@ ht-degree: 0%
 +++
 
 +++[!DNL Google Ads] 광고 확장 또는 제품 목록에서 전환된 결과를 어떻게 알 수 있습니까?
-[!DNL Google Ads]을(를) 생성하여 광고 자체 대신 [!UICONTROL Transaction Report] 광고 확장 클릭 또는 제품 목록에서 발생한 전환을 확인할 수 있습니다. [!UICONTROL Link Type] 열 값은 클릭한 링크의 형식과 제목을 표시합니다.
+[!UICONTROL Transaction Report]을(를) 생성하여 광고 자체 대신 [!DNL Google Ads] 광고 확장 클릭 또는 제품 목록에서 발생한 전환을 확인할 수 있습니다. [!UICONTROL Link Type] 열 값은 클릭한 링크의 형식과 제목을 표시합니다.
 
 * 제품 목록이 `pla:<product ID>`(예: `pla:8525822`)(으)로 나열됩니다.
 
-* 사이트 링크는 `sl:<Sitelink text>`과(와) 같이 `sl:See Current Offers`(으)로 나열됩니다.
+* 사이트 링크는 `sl:See Current Offers`과(와) 같이 `sl:<Sitelink text>`(으)로 나열됩니다.
 
   보고서에 [!UICONTROL Tracking URL] 열을 포함하는 경우 사이트 링크를 식별할 수도 있습니다. 사이트 링크의 [!UICONTROL Tracking URL]에 `&ev_ltx=sl:<link-name>` 특성이 포함되어 있습니다.
 
@@ -60,7 +53,7 @@ ht-degree: 0%
 
 +++
 
-+++내 보고서의 &quot;[!UICONTROL Keyword]&quot; 열에 &quot;(광고 그룹 컨텐츠) &lt;*광고 그룹 이름*>&quot; 값이 포함되어 있습니다.
++++내 보고서의 &quot;[!UICONTROL Keyword]&quot; 열에 값 &quot;(광고 그룹 컨텐츠) &lt;*광고 그룹 이름*>이(가) 포함되어 있습니다.&quot;
 행에 키워드가 포함되지 않은 콘텐츠 사용 검색 캠페인, 디스플레이 캠페인 또는 소셜 캠페인에 대한 데이터가 포함된 경우 [!UICONTROL Keyword] 열에 해당 광고 그룹 이름이 대신 표시됩니다.
 +++
 
@@ -73,7 +66,7 @@ ht-degree: 0%
 +++[!UICONTROL Device] 또는 [!UICONTROL Objective Name]과(와) 같은 특정 계정 속성 지표에 대한 보고서를 만들 수 있습니까?
 캠페인 엔터티 보고서([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report] 및 [!UICONTROL Product Group Report])의 경우 지표 데이터는 보고서에 포함하는 속성 열에 의해 동적으로 집계됩니다. 선택적으로 보고서에 대한 키 열을 제거하고 데이터를 집계할 속성 열만 포함할 수 있습니다.
 
-예를 들어 [!UICONTROL Keyword Report] 및 [!UICONTROL Ad Group] 장치 열을 포함하는 을(를) 생성하는 경우 기본적으로 보고서는 광고 그룹 및 장치 유형별로 각 키워드에 대한 지표를 집계합니다. 그러나 보고서를 생성하기 전에 [!UICONTROL Keyword] 열을 제거하면 보고서에서 지정된 광고 그룹에 대한 지표를 장치 유형별로 동적으로 생성합니다.
+예를 들어 [!UICONTROL Ad Group] 및  장치 열을 포함하는 [!UICONTROL Keyword Report]을(를) 생성하는 경우 기본적으로 보고서는 광고 그룹 및 장치 유형별로 각 키워드에 대한 지표를 집계합니다. 그러나 보고서를 생성하기 전에 [!UICONTROL Keyword] 열을 제거하면 보고서에서 지정된 광고 그룹에 대한 지표를 장치 유형별로 동적으로 생성합니다.
 
 >[!NOTE]
 >
@@ -103,7 +96,7 @@ ht-degree: 0%
 +++합계가 정확하지만 개별 데이터 필드가 올바르지 않습니다.
 이 상황은 지표 형식이 정수를 사용할 때 발생할 수 있습니다.
 
-* [사용자 지정 지표](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)을(를) *소수점 포함/제외 숫자*(데이터를 정수로 표시) 형식으로 만들고 가중 전환 속성 규칙([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] 또는 [!UICONTROL Even Distribution])을 사용하는 보기 또는 보고서에 포함하면 출력이 소수가 아닌 정수로 표시됩니다. 이 경우 합계가 정확하지만 개별 데이터 필드가 올바르지 않을 수 있습니다. 예를 들어, 순서가 세 이벤트 간에 균등하게 나누어지면 한 개의 순서 (0.33 순서 대신)가 세 이벤트 각각에 기여됩니다. 이 문제를 해결하려면 [지표 형식을 &#x200B;](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)에서 *소수점 이하 숫자*(으)로 변경하십시오.
+* [사용자 지정 지표](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md)을(를) *소수점 포함/제외 숫자*(데이터를 정수로 표시) 형식으로 만들고 가중 전환 속성 규칙([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] 또는 [!UICONTROL Even Distribution])을 사용하는 보기 또는 보고서에 포함하면 출력이 소수가 아닌 정수로 표시됩니다. 이 경우 합계가 정확하지만 개별 데이터 필드가 올바르지 않을 수 있습니다. 예를 들어, 순서가 세 이벤트 간에 균등하게 나누어지면 한 개의 순서 (0.33 순서 대신)가 세 이벤트 각각에 기여됩니다. 이 문제를 해결하려면 [지표 형식을 ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md)에서 *소수점 이하 숫자*(으)로 변경하십시오.
 
 * 마찬가지로 정수로 전송되는 매출 지표가 있는 경우 동일한 문제가 발생합니다. 매출 형식은 데이터를 제출하는 전환 태그에 의해 제어됩니다. 이 문제를 해결하려면 매출 지표로만 구성된 [사용자 지정 지표를 만들고](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) *소수점 이하 숫자* 형식을 사용하여 원래 지표가 아닌 보기 및 보고서에 포함하십시오.
 +++
@@ -133,7 +126,7 @@ ht-degree: 0%
 
 | 원인 | 감지/분석 | 해결 방법 |
 |---|---|---|
-| 광고 계정에서 클릭 데이터를 검색하는 프로세스가 실패했습니다. | 이 문제를 감지하는 체계적인 방법은 없지만, 광고 계정에서 비용을 사용했음에도 불구하고 캠페인에 비용이 표시되지 않거나 클릭 정보가 표시되지 않을 수 있습니다. | Adobe 계정 팀에 문의하십시오.<br><br>데이터가 24시간 이상 누락된 경우 데이터를 검색할 때까지 비용 예측에서 해당 날짜를 제외합니다. Adobe 계정 팀에서 날짜를 제외할 수 있습니다. |
+| 광고 계정에서 클릭 데이터를 검색하는 프로세스가 실패했습니다. | 이 문제를 감지하는 체계적인 방법은 없지만, 광고 계정에서 비용을 사용했음에도 불구하고 캠페인에 비용이 표시되지 않거나 클릭 정보가 표시되지 않을 수 있습니다. | Adobe 계정 팀에 문의하십시오.<br><br>데이터가 24시간 이상 누락된 경우 데이터를 검색할 때까지 비용 예측에서 해당 날짜를 제외하십시오. Adobe 계정 팀에서 날짜를 제외할 수 있습니다. |
 | 광고주와 광고 네트워크 사이의 과금 문제로 인해 광고 계정이 지출되지 않습니다. | 이 문제를 감지하는 체계적인 방법은 없지만, 캠페인에 비용이나 클릭 정보가 표시되지 않을 수 있습니다. | 청구 문제로 인해 광고 계정을 사용할 수 없었던 것을 알고 있는 경우 비용 예측에서 해당 날짜를 제외하십시오. Adobe 계정 팀에서 날짜를 제외할 수 있습니다. |
 
 +++
@@ -149,7 +142,7 @@ ht-degree: 0%
 +++
 
 +++보고서의 성능 데이터가 [!DNL Google Analytics]의 데이터와 다릅니다.
-두 시스템은 서로 다른 데이터를 측정하므로 서로 다른 데이터를 볼 수 있습니다. For example:
+두 시스템은 서로 다른 데이터를 측정하므로 서로 다른 데이터를 볼 수 있습니다. 예:
 
 * 검색, 소셜 및 Commerce(및 Google 광고)는 클릭 수를 추적하는 반면 [!DNL Google Analytics]은(는) 30분 브라우저 세션당 방문 수를 추적합니다. 예를 들어 사용자가 광고를 한 번 클릭하고 뒤로 단추를 클릭한 다음 광고를 다시 클릭하면 검색, 소셜 및 Commerce은 두 번의 클릭을 기록하지만 [!DNL Google Analytics]은 한 번의 방문을 기록합니다.
 
@@ -243,7 +236,7 @@ ht-degree: 0%
 
 1. 일부 트랜잭션이 올바르지 않거나 누락된 경우, 관련 전환 추적 태그가 적용 가능한 모든 웹 페이지에 구현되어 있는지, Adobe 계정 팀에서 이를 권장하지 않는 한 편집되지 않았는지 확인하십시오. 웹 사이트가 최근에 업데이트된 경우 태그가 누락되거나 변경될 수 있습니다.
 
-   Search, Social 및 Commerce에는 `ef_transaction_properties` 변수와 `src` 태그의 `img` 요소 내에 올바른 형식의 URL(이름-값 쌍의 매개 변수 포함)이 필요합니다.
+   Search, Social 및 Commerce에는 `ef_transaction_properties` 변수와 `img` 태그의 `src` 요소 내에 올바른 형식의 URL(이름-값 쌍의 매개 변수 포함)이 필요합니다.
 
 1. 문제를 확인하고 해결할 수 없는 경우 [고객 지원 센터에 문의](/help/search-social-commerce/get-help.md)하십시오.
 
@@ -305,13 +298,13 @@ ht-degree: 0%
 +++
 
 +++매출 데이터가 Adobe Analytics의 데이터와 다릅니다.
-[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=ko](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=ko).<!-- change link URL to relative link --> 참조
+[https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link --> 참조
 +++
 
 ## 특정 보고서
 
 +++[!UICONTROL Portfolio Report]이(가) [!UICONTROL Portfolios] 보기와 동일한 수치를 표시해야 합니까?
-보기의 모든 필터, 보고서 매개 변수 및 보기와 보고서의 데이터 열이 동일하면 [!UICONTROL Portfolio Report] 및 [!UICONTROL Portfolios] 보기에 동일한 데이터가 표시됩니다. 예를 들어 [!UICONTROL Portfolios] 보기에 날짜 범위 &quot;[!UICONTROL All but inactive]&quot;에 대한 &quot;[!UICONTROL Last 7 days]&quot;인 포트폴리오가 표시되고 기본 데이터 열만 표시되는 경우 기본 매개 변수를 사용하는 [!UICONTROL Portfolio Report]은(는) 동일한 데이터를 표시합니다. [!UICONTROL Portfolios] 보기에서 보고서 매개 변수를 변경하거나 다른 필터를 사용하는 경우 데이터 값이 다를 수 있습니다.
+보기의 모든 필터, 보고서 매개 변수 및 보기와 보고서의 데이터 열이 동일하면 [!UICONTROL Portfolio Report] 및 [!UICONTROL Portfolios] 보기에 동일한 데이터가 표시됩니다. 예를 들어 [!UICONTROL Portfolios] 보기에 날짜 범위 &quot;[!UICONTROL Last 7 days]&quot;에 대한 &quot;[!UICONTROL All but inactive]&quot;인 포트폴리오가 표시되고 기본 데이터 열만 표시되는 경우 기본 매개 변수를 사용하는 [!UICONTROL Portfolio Report]은(는) 동일한 데이터를 표시합니다. [!UICONTROL Portfolios] 보기에서 보고서 매개 변수를 변경하거나 다른 필터를 사용하는 경우 데이터 값이 다를 수 있습니다.
 +++
 
 +++[!UICONTROL Portfolio Report]의 데이터가 [!UICONTROL Search Engine Report] 또는 [!UICONTROL Search Engine Account Report]의 데이터와 일치하지 않습니다.
@@ -319,7 +312,7 @@ ht-degree: 0%
 +++
 
 +++[!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report]이(가) 포트폴리오 수준 [!UICONTROL Model Accuracy Report]과(와) 어떻게 다릅니까?
-(에이전시 계정 관리자, Adobe 계정 관리자 및 관리자 사용자만 해당) [!UICONTROL Forecast Accuracy Report] > [!UICONTROL Reports]에서 사용할 수 있는 [!UICONTROL Model Accuracy]은(는) 포트폴리오 수준 [!UICONTROL Model Accuracy Report]과(와) 동일한 데이터를 제공합니다. 단, 여러 포트폴리오에서 실행할 수 있으며 속성 규칙을 변경할 수 있습니다. 사용자 지정 매개 변수를 사용하여 보고서를 실행하고 예약할 수도 있으며, 스프레드시트 피드를 만드는 데 사용할 수도 있습니다. 또한 [!UICONTROL Forecast Accuracy Report]은(는) 현재 목표보다 포트폴리오에 대한 기록 목표를 사용하여 매출 정확도를 평가하고 해당 시간대의 데이터를 더 정확하게 나타내므로 기존 포트폴리오 수준 보고서보다 정확합니다.
+(에이전시 계정 관리자, Adobe 계정 관리자 및 관리자 사용자만 해당) [!UICONTROL Reports] > [!UICONTROL Model Accuracy]에서 사용할 수 있는 [!UICONTROL Forecast Accuracy Report]은(는) 포트폴리오 수준 [!UICONTROL Model Accuracy Report]과(와) 동일한 데이터를 제공합니다. 단, 여러 포트폴리오에서 실행할 수 있으며 속성 규칙을 변경할 수 있습니다. 사용자 지정 매개 변수를 사용하여 보고서를 실행하고 예약할 수도 있으며, 스프레드시트 피드를 만드는 데 사용할 수도 있습니다. 또한 [!UICONTROL Forecast Accuracy Report]은(는) 현재 목표보다 포트폴리오에 대한 기록 목표를 사용하여 매출 정확도를 평가하고 해당 시간대의 데이터를 더 정확하게 나타내므로 기존 포트폴리오 수준 보고서보다 정확합니다.
 +++
 
 +++[!DNL Google Ads] 동적 검색 광고(DSA), 성능 최대, 스마트 쇼핑 및 [!DNL YouTube] 캠페인에 대한 광고 수준 데이터를 사용할 수 없습니다.
@@ -349,7 +342,7 @@ ht-degree: 0%
 +++
 
 +++[!DNL Excel]에서 스프레드시트 피드를 열려고 하면 [!DNL Excel]에서 &quot;읽을 수 없는 콘텐츠&quot; 오류를 보고하고 복구된 콘텐츠에서 데이터가 제거됩니다.
-[!DNL Microsoft Excel] 템플릿이 시작 날짜별로 데이터를 오름차순으로 정렬하지 않으면 스프레드시트 피드에 빈 행이 포함될 수 있습니다. 특히 [!DNL Excel]은(는) &quot;Excel에서 &#39;&lt;*보고서 이름*>.xlsx&#39;에서 읽을 수 없는 콘텐츠를 찾았습니다.&quot;라는 오류를 보고합니다. 통합 문서의 내용을 복구하시겠습니까? 이 통합 문서의 원본을 신뢰하는 경우 [예]를 클릭하십시오.&quot; &quot;예&quot;를 클릭하면 &quot;제거된 레코드: /xl/worksheets/sheet1.xml 부분의 셀 정보&quot;라는 메시지가 표시되고 스프레드시트 피드에 빈 행이 포함됩니다.
+[!DNL Microsoft Excel] 템플릿이 시작 날짜별로 데이터를 오름차순으로 정렬하지 않으면 스프레드시트 피드에 빈 행이 포함될 수 있습니다. 특히 [!DNL Excel]은(는) &quot;Excel에서 &#39;&lt;*보고서 이름*>.xlsx&#39;에서 읽을 수 없는 콘텐츠를 찾았습니다&quot;라는 오류를 보고합니다. 통합 문서의 내용을 복구하시겠습니까? 이 통합 문서의 원본을 신뢰하는 경우 [예]를 클릭하십시오.&quot; &quot;예&quot;를 클릭하면 &quot;제거된 레코드: /xl/worksheets/sheet1.xml 부분의 셀 정보&quot;라는 메시지가 표시되고 스프레드시트 피드에 빈 행이 포함됩니다.
 
 이 문제를 해결하려면 피드와 연결된 [!DNL Excel] 템플릿을 편집하여 데이터를 [!DNL Start date in Ascending (Oldest to Newest) order] 기준으로 정렬한 다음 스프레드시트 피드 설정을 통해 업데이트된 템플릿을 업로드하십시오. 자세한 내용은 &quot;[스프레드시트 보고서 피드 편집](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)&quot;을 참조하십시오.
 +++
