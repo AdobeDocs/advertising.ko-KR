@@ -3,29 +3,38 @@ title: AI 지원 [!UICONTROL Troubleshooting Agent]을(를) 사용하여 성능 
 description: AI 지원 문제 해결 에이전트를 사용하여 DSP 패키지 및 배치에 대한 지출, 게재 간격 및 배달 문제를 진단하는 방법을 알아봅니다.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6032b798baa78c9c28196aa58024b8ed1061af9d
+    internal-label: Administration
+source-git-commit: 31ddb7928ca4e43132087b73829af55ae6315b0d
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 # AI 지원 [!UICONTROL Troubleshooting Agent]을(를) 사용하여 성능 및 게재 문제 진단
 
-AI 지원 [!UICONTROL Troubleshooting Agent]은(는) 다음을 수행할 수 있습니다.
+AI 지원 [!UICONTROL Troubleshooting Agent]은(는) 성능을 제한하는 요소를 식별하고 문제 해결을 위한 권장 사항을 제공합니다. [!UICONTROL Troubleshooting Agent]은(는) 다음을 수행할 수 있습니다.
 
-* 선택한 라이브 패키지 또는 배치에 대한 성능 및 게재 문제를 진단하는 데 도움이 됩니다. 지출 문제(지출 실패, 지출 감소, 지출 과다), 게재 관련 문제(과소 게재, 과잉 게재), 경매 및 게재 문제(낮은 입찰가, 낮은 승률, 노출 횟수 없음), 성과 문제(CPA, ROAS, CTR 또는 CVR의 변경 사항 등)에 대해 물을 수 있습니다.
+* 선택한 라이브 패키지 또는 배치에 대한 성능 및 게재 문제 진단 도움말:
+
+  * (배치만 해당) 초과 지출, 부족 지출 및 지출 실패를 포함한 지출 문제 상담원은 진단의 일부로 관련 게재 간격, 입찰, 타기팅 및 예산 상한 요소를 평가합니다.
+
+  * (패키지만 해당) 상승하는 CPA 또는 하락하는 ROAS를 포함한 성능 문제 에이전트는 CTR, CPC, 클릭 수 또는 노출 수와 같은 참여 지표를 진단하지 않습니다.
+
+  각 대화는 단일 패키지 또는 배치에 대한 단일 진단을 다룹니다. 에이전트가 결과를 전달하면 다른 문제 또는 다른 패키지 또는 배치에 대해 묻는 새 대화를 시작합니다.
+
+  에이전트는 설정을 변경하거나 캠페인 또는 캠페인 구성 요소를 만들거나 편집할 수 없습니다. 또한 일시 중지, 완료, 보관 또는 예약된 패키지 또는 배치에 대한 문제도 진단할 수 없습니다.
 
 * [Agentic Chat 인터페이스](/help/dsp/agent-chat.md)와(과) 동일한 방식으로 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색합니다. 캠페인 관리, 최적화, 대상자 관리, 거래, 보고서 및 기타 제품 기능에 대해 물을 수 있습니다.
-
-에이전트는 설정을 변경하거나 캠페인 또는 캠페인 구성 요소를 만들거나 편집할 수 없습니다. 또한 일시 중지, 완료, 보관 또는 예약된 패키지 또는 배치에 대한 문제도 진단할 수 없습니다.
 
 >[!IMPORTANT]
 >
@@ -33,13 +42,27 @@ AI 지원 [!UICONTROL Troubleshooting Agent]은(는) 다음을 수행할 수 있
 
 ## 예제 쿼리
 
-### 성능 및 게재 문제 해결
+>[!NOTE]
+>
+>날짜 범위를 지정할 필요가 없습니다. 포함되지 않은 경우 상담원은 문제 유형에 따라 적절한 기본값을 선택합니다.
+
+### 배치: 지출 문제
 
 * 거래가 활발한데도 내 직업은 어제 지출을 중지했다. 왜요?
 
 * 이 배치가 지난 5일 동안 왜 과소 지출되었습니까?
 
 * 우리는 비행기의 절반이 지나가고 있고, 게을러지고 있다. 왜요?
+
+### 패키지: 성능 문제
+
+* 지난 주에 이 패키지에 대한 CPA가 증가한 이유는 무엇입니까?
+
+* 이 패키지에 대한 ROAS가 감소하는 이유는 무엇입니까?
+
+>[!TIP]
+>
+>목표 CPA를 염두에 두고 있는 경우 쿼리에 포함합니다(예: &quot;50달러 목표에 대한 CPA 진단&quot;). 지정하지 않으면 에이전트는 기본 대상을 사용합니다.
 
 ### 제품 기능:
 
@@ -79,10 +102,18 @@ AI 지원 [!UICONTROL Troubleshooting Agent]은(는) 다음을 수행할 수 있
 
    <!-- For more information, see "[Writing prompts](#writing-prompts)." -->
 
-   응답에는 인라인 인용과 하단에 **[!UICONTROL Documentation Sources]** 목록이 포함됩니다. 후속 질문 및 제안 사항도 나타날 수 있습니다.
+   성능 및 게재 쿼리의 경우 응답에는 성능을 제한하는 요소가 포함되며 문제를 해결하기 위한 권장 사항을 제공합니다.
 
-1. (선택 사항, 일반 제품 질문만 해당) 데이터 소스로 사용되는 페이지를 열려면 다음 중 하나를 수행하십시오.
+   문서 쿼리의 경우 응답에는 인라인 인용과 맨 아래에 있는 **[!UICONTROL Documentation Sources]** 목록이 포함됩니다. 후속 질문 및 제안 사항도 나타날 수 있습니다.
+
+1. (설명서 쿼리만 해당, 선택 사항) 데이터 소스로 사용되는 페이지를 열려면 다음 중 하나를 수행합니다.
 
    * 번호가 매겨진 인용구를 클릭합니다.
 
    * **[!UICONTROL Documentation Sources]**&#x200B;을(를) 클릭하여 응답에서 인용한 모든 페이지 목록을 표시한 다음 페이지 링크를 클릭합니다.
+
+1. (선택 사항) thumbs-up 또는 thumbs-down 아이콘을 사용하여 응답을 지정합니다.
+
+>[!TIP]
+>
+>다른 문제, 다른 패키지 또는 배치에 대해 질문하려면 새 대화를 시작하십시오.
