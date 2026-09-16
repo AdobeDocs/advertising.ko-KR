@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL WebSDK] 확장에 대해 `Adobe Advertising` 구성 요소를 사용할 수 없습니다. | WebSDK 확장 내의 `Adobe Advertising` 구성 요소는 기본적으로 비활성화되며 XDM 스키마 또는 규칙 구성 방법과 관계없이 Adobe Advertising 클릭스루 또는 뷰스루에 대한 추적이 작동하기 전에 명시적으로 활성화되어야 합니다.<ol><li>[!DNL Tags]에서 Adobe Experience Platform Web SDK 구성 설정에서 속성에 대한 [빌드 옵션을 엽니다](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components).</li><li>**Advertising** 구성 요소를 사용하도록 설정하고 설정을 저장합니다.</li><li>라이브러리를 다시 빌드하고 다시 게시합니다.</li></ol> |
 | 클릭스루 전환만 기록되며 뷰스루 전환은 표시되지 않습니다. | 이는 예상되는 기본 동작입니다. `Adobe Advertising` 구성 요소가 활성화되면 `s_kwcid` 및 `ef_id` URL 쿼리 매개 변수를 사용하여 클릭스루 추적이 자동으로 활성화됩니다. 뷰스루 추적은 기본적으로 비활성화되며 추가 구성이 필요합니다. 다음 행을 참조하십시오. |
 | 뷰스루 추적이 활성화되거나 구성되지 않았습니다. | <ol><li>데이터스트림에 대한 Adobe Advertising 서비스 활성화</li><ol><li>Adobe Experience Platform의 [!UICONTROL Data Collection] > [!UICONTROL Datastreams]&#x200B;(으)로 이동하여 [!DNL Tags] 속성에서 사용하는 데이터 스트림을 엽니다.</li><li>**서비스 추가**&#x200B;를 선택하고 **Adobe Advertising** 및 **Adobe Experience Platform**&#x200B;를 선택한 다음 **저장**&#x200B;을 선택합니다.</li></ol><li>Adobe Advertising DSP에서 광고주 구성</li><ol><li>[!DNL Tags]에서 [!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure]&#x200B;(으)로 이동합니다.</li><li>[!UICONTROL Advertiser] 섹션 아래에서 드롭다운에서 광고주를 선택하고 활성화합니다. 여러 광고주를 구성하려면 **광고주 추가**&#x200B;를 선택하십시오.</li></ol><li>뷰스루 변환 픽셀이 실행되고 있는지 확인합니다.</li><ol><li>Adobe Experience Platform Debugger에서 상호 작용 호출에 `xdm.query` 필드 아래에 `stitchId`이(가) 포함되어 있는지 확인합니다.</li><li>브라우저의 코드 검사 도구의 [!DNL Network] 탭에서 `advertising.enrichment` 유형의 이벤트가 실행되었는지, `xdm.query` 아래에 `stitchId`이(가) 포함되어 있는지 확인합니다.</li></ol></ol> 뷰스루 전환은 방문 수에 관계없이 30분마다 실행됩니다. 상호 작용 호출이 표시되지 않으면 브라우저 캐시를 지우고 다시 시도하십시오. |
-| 뷰스루 상호 작용 호출이 실행된 후 Experience Platform에서 뷰스루 이벤트 영역을 사용할 수 없습니다. | 광고주가 WebSDK 확장 구성](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)의 [[!UICONTROL Advertiser] 섹션 아래에서 구성 및 활성화되었는지 확인하십시오. 광고주를 수동으로 입력한 경우 대신 [!UICONTROL Advertiser] 드롭다운에서 광고주를 다시 선택하십시오. 광고주를 구성하고 나면 라이브러리를 다시 빌드하고 다시 게시합니다. |
+| 뷰스루 상호 작용 호출이 실행된 후 Experience Platform에서 뷰스루 이벤트 영역을 사용할 수 없습니다. | 광고주가 WebSDK 확장 구성[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)의 [!UICONTROL Advertiser] 섹션 아래에서 구성 및 활성화되었는지 확인하십시오. 광고주를 수동으로 입력한 경우 대신 [!UICONTROL Advertiser] 드롭다운에서 광고주를 다시 선택하십시오. 광고주를 구성하고 나면 라이브러리를 다시 빌드하고 다시 게시합니다. |
 
 [!UICONTROL Advertising] 확장 설치 문제에 대한 지원 티켓을 열기 전에 다음을 확인하십시오.
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 | 서드파티 쿠키가 차단되었습니다. | [데이터 스트림의 Edge Network 구성에서 자사 쿠키 ID를 구성](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)하여 자사 CNAME 데이터 수집으로 마이그레이션합니다. |
 | 기존 `s_ecid` 쿠키가 있는 동안 `idMigrationEnabled`이(가) `false`(으)로 설정됩니다. | [WebSDK 기본 구성에서 `idMigrationEnabled: true`을(를) 설정](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity)하여 `s_ecid` 또는 `AMCV_` 쿠키에서 기존 ECID를 마이그레이션합니다. |
 
-### 규칙 또는 이벤트가 {fire-#rules-or-events-don하지 않음}
+### 규칙 또는 이벤트가 fire-#rules-or-events-don하지 않음
 
 #### 문제:
 
@@ -331,7 +331,7 @@ alloy("sendEvent", {
 >[!MORELIKETHIS]
 >
 >* [개요](overview.md)
->*  [!DNL Customer Journey Analytics]](ids.md)에서 사용하는 [Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)에서 사용하는 Adobe Advertising ID
 >* [필수 구성 요소](prerequisites.md)
 >* [데이터 수집, 데이터 전송 및 보고 설정](set-up.md)
 >* [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](advertising-data-in-cja.md)
