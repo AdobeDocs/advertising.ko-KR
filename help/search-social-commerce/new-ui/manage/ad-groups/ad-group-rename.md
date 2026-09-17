@@ -3,13 +3,11 @@ title: (새 UI) 광고 그룹 이름 바꾸기
 description: 광고 그룹 설정을 열지 않고 광고 그룹의 이름을 바꾸는 방법에 대해 알아봅니다.
 feature: Search Campaign Management
 hide: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: 19e8de1ab13ab8a5451702e6130219277cf09631
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '63'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 광고 그룹 이름 바꾸기
 
 *Beta 기능*
@@ -24,4 +22,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [[!UICONTROL Ad Groups] 보기 정보](/help/search-social-commerce/new-ui/manage/ad-groups/ad group-view-about.md)
+>* [[!UICONTROL Ad Groups] 보기 정보](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
