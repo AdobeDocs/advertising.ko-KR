@@ -2,13 +2,12 @@
 title: 크리에이티브에 대한 변경 로그 보기
 description: 변경한 사람을 포함하여 지정된 시간 범위 동안 크리에이티브에 대한 세부 사항을 보는 방법에 대해 알아봅니다.
 feature: Creative Standard Creatives
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+exl-id: 3ab23f6f-9f40-4478-aebb-8f70105c5c1c
+source-git-commit: 29a679e99560c6776932f5da2d06fa0331c934a8
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
 # 크리에이티브에 대한 변경 로그 보기
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
