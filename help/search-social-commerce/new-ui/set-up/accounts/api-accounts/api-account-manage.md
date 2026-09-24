@@ -3,13 +3,11 @@ title: (새 UI) 광고 네트워크 계정 관리
 description: 광고 네트워크 API를 통해 동기화된 광고 네트워크에 대한 새 UI에서 계정 세부 사항을 설정하고 관리하는 방법에 대해 알아봅니다.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
+source-git-commit: fe4873a68b7b78000e6a380c22f8074d79c7184f
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2157'
 ht-degree: 0%
-
 ---
-
 # (새 UI) API 연결을 통해 광고 네트워크 계정을 관리합니다
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
@@ -19,6 +17,8 @@ ht-degree: 0%
 <!-- Move out info about Naver into a separate page -->
 
 다음은 검색, 소셜 및 Commerce이 광고 네트워크의 API를 사용하여 동기화하는 광고 네트워크 계정을 관리하는 지침입니다.
+
+<!-- Add somewhere:  Can now open a list of all campaigns for an ad network account by clicking account name -->
 
 <!-- Move out info about Naver into a separate page -->
 
@@ -135,6 +135,8 @@ ht-degree: 0%
 >
 >Search, Social 및 Commerce-Adobe Analytics 통합이 있고 검색 계정의 이름을 변경한 경우, Adobe 계정 팀에 매핑을 업데이트하도록 요청하십시오.
 
+**[!UICONTROL Access Key]:**([!DNL ChatGPT Ads] 계정만 해당) 사용할 개발자 계정에 대한 액세스 키입니다.<!-- From whom should people get access keys? Their organization's ChatGPT Ads team? -->
+
 **[!DNL [광고 네트워크] 계정]:**(계정을 만드는 동안 표시) 동기화할 광고 네트워크 계정입니다.
 
 **[로그인 세부 정보]:**(Yandex 계정만 해당) 사용할 계정 자격 증명:
@@ -159,7 +161,7 @@ ht-degree: 0%
 
 **[!UICONTROL Currency]:**(읽기 전용) 계정에 사용되는 통화의 약어입니다. 이 값은 레코드를 저장하면 광고 네트워크의 계정에 대해 구성된 통화로 자동으로 채워집니다.
 
-**[!UICONTROL Time Zone]:** 광고주의 시간대입니다. 이 값은 레코드를 저장하면 광고주의 검색, 소셜 및 Commerce 계정에 대해 구성된 시간대로 자동으로 채워집니다.
+**[!UICONTROL Time Zone]:**(읽기 전용) 광고주의 시간대입니다. 이 값은 레코드를 저장하면 광고주의 검색, 소셜 및 Commerce 계정에 대해 구성된 시간대로 자동으로 채워집니다.
 
 **[!UICONTROL Login]:**(읽기 전용) 계정에 로그인하는 데 사용되는 사용자 계정입니다.
 
@@ -189,7 +191,7 @@ ht-degree: 0%
 >* [!UICONTROL Standard]에서 [!UICONTROL Token]&#x200B;(으)로 전환하거나 그 반대로 전환하는 경우 계정에 대한 추적 URL을 다시 생성해야 합니다.
 >* 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.
 
-**[!UICONTROL Auto Update]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우) 브라우저 및 서버 간 호환성을 위해 추적 URL을 표준화합니다. 검색, 소셜 및 Commerce은 다음 동기화 동안 광고 네트워크에 다음을 자동으로 업로드합니다. (a) 추적 템플릿에 대한 검색, 소셜 및 Commerce 추적 매개 변수와 최종 URL에 추가된 동일한 매개 변수 또는 (b) 검색, 소셜 및 Commerce 추적 코드에 포함된 새 대상 URL. [Adobe Advertising-Adobe Analytics 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko) 및 서버측 AMO ID(s_kwcid) 구성이 있는 광고주의 경우 업로드에는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에 대한 [AMO ID 매개 변수](/help/integrations/analytics/ids.md#amo-id)도 포함됩니다. 기본 계정 수준 설정은 광고주의 추적 설정에서 상속됩니다. 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.
+**[!UICONTROL Auto Update]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우) 브라우저 및 서버 간 호환성을 위해 추적 URL을 표준화합니다. 검색, 소셜 및 Commerce은 다음 동기화 동안 광고 네트워크에 다음을 자동으로 업로드합니다. (a) 추적 템플릿에 대한 검색, 소셜 및 Commerce 추적 매개 변수와 최종 URL에 추가된 동일한 매개 변수 또는 (b) 검색, 소셜 및 Commerce 추적 코드에 포함된 새 대상 URL. [Adobe Advertising-Adobe Analytics 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) 및 서버측 AMO ID(s_kwcid) 구성이 있는 광고주의 경우 업로드에는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에 대한 [AMO ID 매개 변수](/help/integrations/analytics/ids.md#amo-id)도 포함됩니다. 기본 계정 수준 설정은 광고주의 추적 설정에서 상속됩니다. 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.
 
 추적 URL은 동기화되지 않은 엔티티(즉, 추가된 새 엔티티 및 속성이 변경된 기존 엔티티)에 대해서만 매일 업데이트됩니다. 따라서 기존 광고주/계정/캠페인에 대해 이 설정을 비활성화에서 활성화로 변경하면 이미 동기화 중인 기존 엔티티에 대한 추적 URL이 업데이트되지 않습니다. 동기화 중인 기존 엔터티의 URL에 추적을 추가하려면 Adobe 계정 팀에 연락하여 1회 수동 동기화 프로세스를 요청하십시오. 자동 업로드 프로세스는 향후 변경 사항을 처리합니다.
 

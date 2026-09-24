@@ -4,19 +4,21 @@ description: 사용 가능한 광고 유형을 포함하여 광고를 만들고 
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6a479ae0bb30d609b16a343efcec296137b9ab43
+    internal-label: User
+source-git-commit: d21954881af4255a450e58849059dee0d6aa368e
 workflow-type: tm+mt
-source-wordcount: 1733
+source-wordcount: '1761'
 ht-degree: 0%
-
 ---
-
 # 광고 관리
 
 *Beta 기능*
@@ -57,6 +59,8 @@ ht-degree: 0%
 
   * 캠페인이 판매자 센터 계정에 연결되어 있지 않은 경우, 여러 텍스트 및 이미지 에셋이 포함된 반응형 광고 형식을 사용하여 이미지 기반 대상 광고를 만드십시오. 광고 네트워크는 가장 효과적인 광고 요소 조합을 사용하여 광고를 조합하고 [!DNL MSN], [!DNL Outlook.com] 및 [!DNL Microsoft Edge]과(와) 같은 사이트에 표시합니다.
 
+* [!DNL ChatGPT Ads] 캠페인의 광고 그룹에 대한 **대화형 광고**. AI 채팅 전환 옆에 대화 광고가 나타납니다.
+
 * 검색 네트워크에서 [!DNL Google Ads] 캠페인에 대한 **통화 전용 광고**. 호출 전용 광고는 전화 번호를 포함하는 텍스트 광고입니다. 필요에 따라 고급 호출 보고를 위해 [!DNL Google Ads]이(가) 할당한 전달 번호를 사용할 수 있습니다.
 
   >[!NOTE]
@@ -94,8 +98,6 @@ ht-degree: 0%
 
 ## 광고 만들기 {#ad-create}
 
-<!-- Verify that this note is still applicable -->
-
 >[!NOTE]
 >
 >* 쇼핑 캠페인을 위해 제품 광고를 만들 필요가 없습니다. 광고 네트워크에서 자동으로 만듭니다. 그러나 [!DNL Microsoft Advertising] 쇼핑 캠페인의 경우 선택적으로 광고에 포함할 프로모션 라인을 정의할 수 있습니다.
@@ -113,7 +115,7 @@ ht-degree: 0%
 
    사용 가능한 광고 유형에 대한 자세한 내용은 &quot;[사용 가능한 광고 유형](#ad-types)&quot;을 참조하십시오.
 
-1. [Baidu 텍스트 광고](ad-settings-baidu-text.md), [Google 광고 확장 동적 검색 광고](ad-settings-google-dsa.md)(Google 광고에서 &quot;동적 검색 광고&quot;라고 함), [Google 광고 반응형 검색 광고](ad-settings-google-rsa.md), [Microsoft Advertising 확장 동적 검색 광고](ad-settings-microsoft-dsa.md), [Microsoft Advertising 멀티미디어 광고](ad-settings-microsoft-multimedia.md), [Microsoft Advertising 제품 광고](ad-settings-microsoft-product.md), [Microsoft 반응형(대상) 광고](ad-settings-microsoft-responsive.md), [Advertising 반응형 검색 광고](ad-settings-microsoft-rsa.md) 또는 [Yandex 텍스트 광고](ad-settings-yandex-text.md) 설정에 대한 나머지 설정을 지정합니다.
+1. [Baidu 텍스트 광고](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] 광고](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [Google 광고에서 확장된 동적 검색 광고](ad-settings-google-dsa.md)(Google 광고에서 &quot;동적 검색 광고&quot;라고 함), [Google 광고 반응형 검색 광고](ad-settings-google-rsa.md), [Microsoft Advertising 확장된 동적 검색 광고](ad-settings-microsoft-dsa.md), [Microsoft Advertising 멀티미디어 광고](ad-settings-microsoft-multimedia.md), [Microsoft Advertising 제품 광고](ad-settings-microsoft-product.md), [Microsoft 반응형(대상자) 광고](ad-settings-microsoft-responsive.md), [Advertising Microsoft 반응형 검색 광고](ad-settings-microsoft-rsa.md) 또는 [Yandex 텍스트 광고](ad-settings-yandex-text.md) 설정에 대한 나머지 설정을 지정합니다.
 
    >[!NOTE]
    >
@@ -125,7 +127,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->(Adobe Advertising 전환 추적을 사용하는 캠페인의 쇼핑 광고, 선택 사항) 광고 클릭을 추적하려면 계정, 캠페인 또는 제품 그룹 설정에 추적 URL을 수동으로 추가하십시오.
+1. <!-- Add link to where to generate this once available to users-->(Adobe Advertising 전환 추적을 사용하는 캠페인의 쇼핑 광고, 선택 사항) 광고 클릭을 추적하려면 계정, 캠페인 또는 제품 그룹 설정에 추적 URL을 수동으로 추가하십시오.
 
 ## 광고 이름 바꾸기 {#ad-rename}
 
@@ -153,7 +155,7 @@ ht-degree: 0%
 
 1. 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. [Baidu 텍스트 광고](ad-settings-baidu-text.md), [Google 광고에서 확장된 동적 검색 광고](ad-settings-google-dsa.md)(이제 Google 광고에서 &quot;동적 검색 광고&quot;라고 함), [Google 광고 반응형 검색 광고](ad-settings-google-rsa.md), [Microsoft Advertising 확장된 동적 검색 광고](ad-settings-microsoft-dsa.md), [Microsoft Advertising 멀티미디어 광고](ad-settings-microsoft-multimedia.md), [Microsoft Advertising 제품 광고](ad-settings-microsoft-product.md), [Microsoft 반응형(대상) 광고](ad-settings-microsoft-responsive.md), [Advertising Microsoft 반응형 검색 광고](ad-settings-microsoft-rsa.md) 또는 [Yandex 텍스트 광고](ad-settings-yandex-text.md) 설정의 나머지 설정을 편집합니다.
+1. [Baidu 텍스트 광고](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] 광고](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [Google 광고에서 확장된 동적 검색 광고](ad-settings-google-dsa.md)(이제 Google 광고에서 &quot;동적 검색 광고&quot;라고 함), [Google 광고 반응형 검색 광고](ad-settings-google-rsa.md), [Microsoft Advertising 확장된 동적 검색 광고](ad-settings-microsoft-dsa.md), [Microsoft Advertising 멀티미디어 광고](ad-settings-microsoft-multimedia.md), [Microsoft Advertising 제품 광고](ad-settings-microsoft-product.md), [Microsoft 반응형(대상자) 광고](ad-settings-microsoft-responsive.md), [Advertising 반응형 검색 광고](ad-settings-microsoft-rsa.md) 또는 [Yandex 텍스트 광고](ad-settings-yandex-text.md) 설정의 나머지 설정을 편집합니다.
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
@@ -167,7 +169,7 @@ ht-degree: 0%
 
 지원되는 광고 네트워크에서 활성 광고를 일시 중지하여 입찰을 비활성화할 수 있습니다. 나중에 상태를 다시 활성으로 변경하여 입찰을 다시 시작할 수 있습니다.
 
-활성 광고나 일시 중지된 광고를 삭제할 수도 있습니다. 삭제된 광고는 광고 네트워크에서 삭제됩니다. 이러한 데이터는 데이터 필터에 포함할 때 계속 표시되지만 변경할 수는 없습니다.
+또한 활성 또는 일시 중지된 광고를 삭제할 수 있습니다([!DNL ChatGPT Ads Manager] 내에서 &quot;보관&quot;이라고 함). 삭제되거나 보관된 광고는 광고 네트워크에서 삭제되거나 보관됩니다. 이러한 데이터는 데이터 필터에 포함할 때 계속 표시되지만 변경할 수는 없습니다.
 
 ### 광고 활성화 또는 일시 중지
 
@@ -181,7 +183,7 @@ ht-degree: 0%
 
    * 활성 광고를 일시 중지하려면 **[!UICONTROL Pause]**&#x200B;을(를) 클릭합니다.
 
-### 광고 삭제
+### 광고 삭제 또는 보관
 
 1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Ads]**&#x200B;을(를) 클릭합니다.
 
