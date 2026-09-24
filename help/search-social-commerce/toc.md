@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 19e8de1ab13ab8a5451702e6130219277cf09631
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
 source-wordcount: '2396'
 ht-degree: 2%
@@ -25,8 +25,8 @@ ht-degree: 2%
 + 소개 {#intro}
   + [Adobe Advertising 검색, 소셜 및 Commerce 정보](/help/search-social-commerce/introduction/about.md)
   + [지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)
-  + Adobe CX Enterprise와의 통합 {#integrations}
-    + [Adobe CX 엔터프라이즈 솔루션 및 서비스와의 통합](/help/search-social-commerce/introduction/integrations.md)
+  + Adobe CX Enterprise과 통합 {#integrations}
+    + [Adobe CX Enterprise 솔루션 및 서비스와의 통합](/help/search-social-commerce/introduction/integrations.md)
     + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko){target="_blank"}
     + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ko){target="_blank"}
   + [고객 개인정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}

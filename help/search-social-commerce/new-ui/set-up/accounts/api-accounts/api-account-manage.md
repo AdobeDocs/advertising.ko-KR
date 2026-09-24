@@ -3,13 +3,11 @@ title: (새 UI) 광고 네트워크 계정 관리
 description: 광고 네트워크 API를 통해 동기화된 광고 네트워크에 대한 새 UI에서 계정 세부 사항을 설정하고 관리하는 방법에 대해 알아봅니다.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 0%
-
 ---
-
 # (새 UI) API 연결을 통해 광고 네트워크 계정을 관리합니다
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
