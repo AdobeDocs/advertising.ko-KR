@@ -1,6 +1,6 @@
 ---
-title: AI 지원 [!UICONTROL Troubleshooting Agent]을(를) 사용하여 성능 및 게재 문제 진단
-description: AI 지원 문제 해결 에이전트를 사용하여 DSP 패키지 및 배치에 대한 지출, 게재 간격 및 배달 문제를 진단하는 방법을 알아봅니다.
+title: AI Assistant를 사용하여 성능 및 게재 문제 해결
+description: AI Assistant의 문제 해결 에이전트를 사용하여 DSP 패키지 및 배치에 대한 지출, 게재 및 전달 문제를 진단하는 방법을 알아봅니다.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -15,14 +15,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 31ddb7928ca4e43132087b73829af55ae6315b0d
+source-git-commit: 2e97652901e16bd1079fac445f9a2a4794dcda56
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '652'
 ht-degree: 0%
 ---
-# AI 지원 [!UICONTROL Troubleshooting Agent]을(를) 사용하여 성능 및 게재 문제 진단
+# DSP AI Assistant를 사용하여 성능 및 게재 문제 해결
 
-AI 지원 [!UICONTROL Troubleshooting Agent]은(는) 성능을 제한하는 요소를 식별하고 문제 해결을 위한 권장 사항을 제공합니다. [!UICONTROL Troubleshooting Agent]은(는) 다음을 수행할 수 있습니다.
+AI 비서의 문제 해결 에이전트는 성능을 제한하는 요소를 식별하고 문제 해결을 위한 권장 사항을 제공합니다. 문제 해결 에이전트는 다음을 수행할 수 있습니다.
 
 * 선택한 라이브 패키지 또는 배치에 대한 성능 및 게재 문제 진단 도움말:
 

@@ -6,23 +6,28 @@ exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
 TQID: https://experienceleague.adobe.com/2NzvUNMqkGVsPaEDM3ifXGNOAIuR1qifdC1-pacbK7U
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # Advertising DSP의 배치 관리 기본 정보
 
 배치에는 동일한 광고 유형의 하나 이상의 광고에 대한 타겟팅 매개 변수가 포함되어 있습니다. 단일 캠페인이나 패키지에 대한 배치를 만든 다음 광고를 할당할 수 있습니다. 각 캠페인 또는 배치에는 지정된 광고 순환이 있는 여러 배치가 포함될 수 있습니다. 기본적으로 광고는 균등하게 회전됩니다. 다양한 배치 대상 유형에 대해 입찰 승수를 별도로 구성할 수 있습니다.
@@ -63,4 +68,4 @@ ht-degree: 0%
 >* [배치에 대한 입찰 승수 관리](placement-manage-bid-multipliers.md)
 >* [배치에 대한 변경 로그 보기](placement-change-log.md)
 >* [배치 설정](placement-settings.md)
->* [성능 문제 해결](/help/dsp/optimization/troubleshooting-performance.md)
+>* [성능 문제의 이유](/help/dsp/optimization/troubleshooting-performance.md)
