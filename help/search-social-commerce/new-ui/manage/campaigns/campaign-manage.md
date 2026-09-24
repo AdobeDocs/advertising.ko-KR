@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d21954881af4255a450e58849059dee0d6aa368e
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2285'
 ht-degree: 0%
 ---
 # 캠페인 관리
@@ -70,7 +70,7 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 
 1. **[!UICONTROL Create Campaign]**&#x200B;을(를) 클릭합니다.
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md) 캠페인 설정을 지정합니다.
+1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md) 캠페인 설정을 지정합니다.
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
@@ -106,7 +106,7 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 
    * 캠페인 옆에 있는 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> 편집 [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md) 캠페인 설정.
+1. [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> 편집 [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md) 캠페인 설정.
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
@@ -122,7 +122,7 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 
 지원되는 광고 네트워크에서 활성 캠페인을 일시 중지하여 입찰을 비활성화할 수 있습니다. 나중에 상태를 다시 활성으로 변경하여 입찰을 다시 시작할 수 있습니다.
 
-[!DNL ChatGPT Ads Manager] 내에서 &quot;보관&quot;이라고 하는 활성 캠페인이나 일시 중지된 캠페인을 삭제할 수도 있습니다. 삭제되거나 보관된 캠페인은 광고 네트워크에서 삭제되거나 보관됩니다. 이러한 데이터는 데이터 필터에 포함할 때 계속 표시되지만 변경할 수는 없습니다.
+활성 캠페인이나 일시 중지된 캠페인을 삭제할 수도 있습니다. 삭제된 캠페인은 광고 네트워크에서 삭제됩니다. 이러한 데이터는 데이터 필터에 포함할 때 계속 표시되지만 변경할 수는 없습니다.
 
 ### 캠페인 활성화 또는 일시 중지
 
@@ -136,7 +136,7 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 
    * 활성 캠페인을 일시 중지하려면 **[!UICONTROL Paused]**&#x200B;을(를) 선택하십시오.
 
-### 캠페인 삭제 또는 보관
+### 캠페인 삭제
 
 1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
@@ -208,8 +208,6 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 
 ## 캠페인에 대한 입찰 제한 할당 관리 {#campaign-constraints}
 
-[!DNL ChatGPT Ads]*에 대해*&#x200B;사용할 수 없음
-
 각 엔티티에는 하나의 제약조건만 있을 수 있습니다. 구속은 하위 엔티티에 의해 상속되므로 상속된 값을 재정의하지 않는 한 하위 엔티티에 대한 구속을 할당할 필요가 없습니다.
 
 제약 조건을 할당 해제하면 계정 구성 요소 및 모든 하위 구성 요소와의 연결이 제거되며 해당 구성 요소에 대해 제약 조건에 대한 보고서 데이터를 더 이상 사용할 수 없습니다. 제약 조건 할당을 취소해도 제약 조건이나 계정 구성 요소 자체는 삭제되지 않습니다.
@@ -279,8 +277,6 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 1. 확인 대화 상자에서 **[!UICONTROL Yes, Unassign]**&#x200B;을(를) 선택합니다.
 
 ## 캠페인에 대한 대상 제한 할당 관리 {#campaign-target-constraints}
-
-[!DNL ChatGPT Ads]*에 대해*&#x200B;사용할 수 없음
 
 ### 새 [!UICONTROL Campaigns] 보기에서 선택한 캠페인에 대상 제한 할당
 

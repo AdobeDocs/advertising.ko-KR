@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d21954881af4255a450e58849059dee0d6aa368e
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1676'
 ht-degree: 0%
 ---
 # 광고 그룹 관리
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create Ad Group]**&#x200B;을(를) 클릭합니다.
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [ChatGPT 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md),[Google 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md) 광고 그룹 설정을 지정합니다.
+1. [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [Google 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md) 광고 그룹 설정을 지정합니다.
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
    * 광고 그룹 옆에 있는 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [ChatGPT 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md),[Google 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md) 광고 그룹 설정을 편집합니다.
+1. [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [Google 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY 광고](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) 또는 [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md) 광고 그룹 설정을 편집합니다.
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
 지원되는 광고 네트워크에서 모든 활성 광고 그룹을 일시 중지하여 입찰을 비활성화할 수 있습니다. 나중에 상태를 다시 활성으로 변경하여 입찰을 다시 시작할 수 있습니다.
 
-또한 활성 또는 일시 중지된 광고 그룹을 삭제할 수 있습니다([!DNL ChatGPT Ads Manager] 내에서 &quot;보관&quot;이라고 함). 삭제되거나 보관된 광고 그룹은 광고 네트워크에서 삭제되거나 보관됩니다. 이러한 데이터는 데이터 필터에 포함할 때 계속 표시되지만 변경할 수는 없습니다.
+활성 또는 일시 정지된 광고 그룹을 삭제할 수도 있습니다. 삭제된 광고 그룹은 광고 네트워크에서 삭제됩니다. 이러한 데이터는 데이터 필터에 포함할 때 계속 표시되지만 변경할 수는 없습니다.
 
 ### 광고 그룹 활성화 또는 일시 중지
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
    * 활성 광고 그룹을 일시 중지하려면 **[!UICONTROL Paused]**&#x200B;을(를) 선택하십시오.
 
-### 광고 그룹 삭제 또는 보관
+### 광고 그룹 삭제
 
 1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**&#x200B;을(를) 클릭합니다.
 
@@ -138,8 +138,6 @@ ht-degree: 0%
    * 광고 그룹 행 위에 커서를 놓고 [!UICONTROL Status] 열 옆에 있는 ![편집](/help/search-social-commerce/assets/edit.png "편집")을 클릭합니다. **[!UICONTROL Deleted]**&#x200B;을(를) 선택합니다.
 
 ## 광고 그룹에 대한 입찰 제한 할당 관리 {#ad-group-constraints}
-
-[!DNL ChatGPT Ads]*에 대해*&#x200B;사용할 수 없음
 
 각 엔티티에는 하나의 제약조건만 있을 수 있습니다. 구속은 하위 엔티티에 의해 상속되므로 상속된 값을 재정의하지 않는 한 하위 엔티티에 대한 구속을 할당할 필요가 없습니다.
 
