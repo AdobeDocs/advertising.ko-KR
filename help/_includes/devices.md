@@ -1,13 +1,12 @@
 ---
 source-git-commit: 24aa1afe9611ca6ae46795c9bca2964e1d9c4f97
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '279'
 ht-degree: 0%
-
 ---
 # GGL 및 MS 캠페인과 광고 그룹 설정의 장치 필드
 
-**[!UICONTROL Devices]:**(선택 사항, [!DNL Google Ads] 성과 최대 캠페인 또는 [!DNL Microsoft Advertising] 비디오 또는 CTV 비디오 광고에는 사용할 수 없음) 키워드 수준 입찰의 백분율로 다른 장치 유형에 대한 입찰 조정을 구성합니다. 예를 들어 키워드 수준의 입찰가가 1USD이고 스마트폰 입찰가 조정이 50%라면 스마트폰 입찰가는 1.50USD이다. 기본적으로 값이 입력되지 않고(입찰 조정=0) 모든 장치가 키워드 수준의 입찰에서 입찰됩니다.
+**[!UICONTROL Devices]:**(선택 사항, [!DNL Google Ads] 성과 최대 캠페인 또는 [!DNL Microsoft Advertising] 비디오 또는 CTV 비디오 광고에는 사용할 수 없음) 키워드 수준 입찰의 백분율로 다른 장치 유형에 대한 입찰 조정을 구성합니다. 예를 들어 키워드 수준의 입찰가가 1USD이고 스마트폰 입찰 조정이 50%라면 스마트폰 입찰가는 1.50USD이다. 기본적으로 값이 입력되지 않고(입찰 조정=0) 모든 장치가 키워드 수준의 입찰에서 입찰됩니다.
 
 [!DNL Google Ads]의 경우 유효한 백분율에는 스마트폰 및 태블릿의 경우 -100(장치 유형에 대해 입찰하지 않음), 모든 장치 유형의 경우 -90 ~ 900이 포함될 수 있습니다.
 
