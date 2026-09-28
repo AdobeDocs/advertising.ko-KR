@@ -3,7 +3,6 @@ source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
-
 ---
 # 그리드 및 ACM 템플릿의 GGL 및 MS 쇼핑 캠페인 설정에 있는 판매자 ID 필드
 

@@ -1,9 +1,8 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
 # GGL 및 MS 캠페인 설정, MS 광고 그룹 설정, MS 멀티미디어 및 반응형 광고 설정의 사용자 지정 매개 변수 필드
 
