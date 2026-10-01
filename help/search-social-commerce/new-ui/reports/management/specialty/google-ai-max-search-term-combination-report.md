@@ -17,7 +17,7 @@ ht-degree: 0%
 
   이 시트를 사용하여 강력한 부정적 키워드 목록을 빌드할 수 있도록 쿼리당 결과 광고 요소의 성능 및 의도를 분석합니다.
 
-* <!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1] 시트: [!DNL Google Ads]에서 각 검색어와 일치 유형에 대한 전환 작업별로 전환 데이터를 추적했습니다. 각 행에는 전환 작업, 전환 수 및 전환 값과 보고서 설정에 지정된 기타 선택적 [!DNL Google Ads] 추적 전환 지표가 포함됩니다. 기본적으로 데이터에는 지정된 데이터 범위에서 각 검색어와 전환 작업 조합에 대한 하나의 행이 포함됩니다. 행은 첫 번째 시트의 행과 순서가 같습니다.
+* &#x200B;<!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1] 시트: [!DNL Google Ads]에서 각 검색어와 일치 유형에 대한 전환 작업별로 전환 데이터를 추적했습니다. 각 행에는 전환 작업, 전환 수 및 전환 값과 보고서 설정에 지정된 기타 선택적 [!DNL Google Ads] 추적 전환 지표가 포함됩니다. 기본적으로 데이터에는 지정된 데이터 범위에서 각 검색어와 전환 작업 조합에 대한 하나의 행이 포함됩니다. 행은 첫 번째 시트의 행과 순서가 같습니다.
 
   <!-- Should it be this?  The sheet includes the number of conversions and the conversion value, all conversions and the all conversions value, and cross-device conversions. -->
 
