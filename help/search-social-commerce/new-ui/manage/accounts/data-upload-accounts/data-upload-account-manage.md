@@ -3,13 +3,11 @@ title: 데이터 업로드를 위한 광고 네트워크 계정 구성
 description: 광고 네트워크 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법을 알아봅니다.
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # 데이터 업로드를 위한 광고 네트워크 계정 관리
 
 <!-- Edit all, including title and metadata -->
@@ -23,6 +21,8 @@ ht-degree: 0%
 >광고 네트워크의 API를 사용하여 검색, 소셜 및 Commerce이 동기화되는 광고 네트워크 계정에 대한 계정 세부 정보를 관리하는 방법에 대한 지침은 대신 &quot;[API 연결을 통해 광고 네트워크 계정 관리](../api-accounts/api-account-manage.md)&quot;를 참조하십시오.
 
 ## 계정 세부 정보 만들기 {#create-account}
+
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Create Account]**&#x200B;을(를) 클릭합니다.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 계정 세부 정보 편집 {#edit-account}
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 방법 중 하나로 계정을 선택합니다.
 
@@ -62,27 +62,27 @@ ht-degree: 0%
 
 ## 광고 네트워크 계정 활성화 또는 비활성화 {#enable-disable-account}
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
    * [!UICONTROL Accounts] 보기에서:
 
-      * (계정을 활성화하려면) 계정 이름 옆에 있는 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Activate]**&#x200B;을(를) 클릭합니다.
+     * (계정을 활성화하려면) 계정 이름 옆에 있는 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Activate]**&#x200B;을(를) 클릭합니다.
 
-      * (계정을 사용하지 않도록 설정하려면) 계정 이름 옆에 있는 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Pause]**&#x200B;을(를) 클릭합니다.
+     * (계정을 사용하지 않도록 설정하려면) 계정 이름 옆에 있는 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Pause]**&#x200B;을(를) 클릭합니다.
 
    * (계정 설정에서):
 
-      1. 다음 방법 중 하나로 계정을 선택합니다.
+     1. 다음 방법 중 하나로 계정을 선택합니다.
 
-         * 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+        * 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-         * 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+        * 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-      1. **[!UICONTROL Account Details]** 탭에서 **[!UICONTROL Account enabled]**&#x200B;을(를) 끕니다.
+     1. **[!UICONTROL Account Details]** 탭에서 **[!UICONTROL Account enabled]**&#x200B;을(를) 끕니다.
 
-      1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 계정 설정 {#account-settings-upload}
 

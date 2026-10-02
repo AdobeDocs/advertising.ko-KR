@@ -1,28 +1,30 @@
 ---
 title: 크리에이티브 에셋 보기 및 만들기
-description: ' [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정 수준 자산 라이브러리에 대한 재사용 가능한 이미지, 비디오 및 텍스트 자산을 보고 만드는 방법을 알아봅니다.'
+description: '[!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정 수준 자산 라이브러리에 대한 재사용 가능한 이미지, 비디오 및 텍스트 자산을 보고 만드는 방법을 알아봅니다.'
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
+    internal-label: User
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
-
 
 # 크리에이티브 에셋 보기 및 만들기
 
 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에 대해서만 *함*
 
-[!UICONTROL Assets] > [!UICONTROL Creatives]에서 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정 수준 자산 라이브러리에서 재사용 가능한 모든 이미지, 비디오 및 텍스트 자산([!DNL Google Ads]에만 해당)을 볼 수 있습니다. 이 목록에는 [!DNL AI Max] 사용 캠페인의 [!DNL Google Ads] 광고 그룹에 대한 AI 생성 자산이 포함되어 있습니다.
+[!UICONTROL Library] > [!UICONTROL Creatives]에서 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정 수준 자산 라이브러리에서 재사용 가능한 모든 이미지, 비디오 및 텍스트 자산([!DNL Google Ads]에만 해당)을 볼 수 있습니다. 이 목록에는 [!DNL AI Max] 사용 캠페인의 [!DNL Google Ads] 광고 그룹에 대한 AI 생성 자산이 포함되어 있습니다.
 
 광고 네트워크 계정에 대한 새 자산을 수동으로 만들고 이를 광고 네트워크에 업로드할 수 있습니다. <!-- Verify if you can use the AI-generated ones -->성과 최대 캠페인에 업로드된 모든 자산을 사용할 수 있습니다.
 
@@ -30,7 +32,7 @@ ht-degree: 0%
 
 ## 크리에이티브 자산 보기
 
-1. 메인 메뉴에서 **[!UICONTROL Assets]>[!UICONTROL Creatives]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Library]>[!UICONTROL Creatives]**&#x200B;을(를) 클릭합니다.
 
 1. 도구 모음에서 광고 네트워크 및 계정을 선택합니다.
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
 ## 에셋 만들기 및 업로드
 
-1. 메인 메뉴에서 **[!UICONTROL Assets]>[!UICONTROL Creatives]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Library]>[!UICONTROL Creatives]**&#x200B;을(를) 클릭합니다.
 
 1. 도구 모음에서 광고 네트워크 및 계정을 선택합니다.
 
@@ -90,7 +92,7 @@ ht-degree: 0%
 
 제거된 텍스트 자산은 다시 제공되지 않지만 성능 데이터는 여전히 보고서에서 사용할 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Assets]>[!UICONTROL Creatives]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Library]>[!UICONTROL Creatives]**&#x200B;을(를) 클릭합니다.
 
 1. 도구 모음에서 광고 네트워크 및 계정을 선택합니다.
 

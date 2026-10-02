@@ -2,13 +2,11 @@
 title: (새 UI) Google Ads Manager 계정의 자격 증명 관리
 description: 새 UI에서 Google Ads Manager 계정에 대한 자격 증명을 설정하고 관리하는 방법을 알아봅니다.
 feature: Search Admin
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 # (새 UI) [!DNL Google Ads] 관리자 계정의 자격 증명을 관리합니다.
 
 *Beta 기능*

@@ -6,18 +6,20 @@ feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 57e8552cd8b71fe06be153954294063fe810b327
+    internal-label: Insights
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 1558
+source-wordcount: '1506'
 ht-degree: 0%
-
 ---
-
 # 사용자 인터페이스 구성 방법
 
 ## 새로운 사용자 인터페이스
@@ -38,89 +40,81 @@ ht-degree: 0%
 
 * **[!UICONTROL Dashboard]** 하위 메뉴:
 
-   * **[!UICONTROL Overview]** 모든 포트폴리오에 대한 성능 시각화를 사용하여 구성 가능한 [!UICONTROL Dashboard] 보기를 엽니다.
+  * **[!UICONTROL Overview]** 모든 포트폴리오에 대한 성능 시각화를 사용하여 구성 가능한 [!UICONTROL Dashboard] 보기를 엽니다.
 
-   * **[!UICONTROL Recommendations]**: [!DNL Google Ads] 및 [!DNL Microsoft Advertising]의 게시자 권장 사항과 [!DNL Microsoft Advertising.]의 게시자 인사이트에 대한 읽기 전용 보기를 엽니다. 권장 사항과 인사이트를 보고 응답하려면 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
-
-* **[!UICONTROL Goals]** 하위 메뉴:
-
-   * **[!UICONTROL Objectives]** 기존 목표를 모두 보고 목표를 만들고 편집하고 삭제할 수 있는 새 [!UICONTROL Objectives] 보기를 엽니다.
-
-   * **[!UICONTROL Conversions]** 광고주의 전환 지표를 보고 관리 보기 및 보고서에 사용할 수 있는 지표를 사용자 지정할 수 있는 새 보기를 엽니다.
-
-   * **[!UICONTROL Conversion Value Rules]** [!DNL Google Ads] 계정에 대한 캠페인 수준 및 계정 수준 전환 값 규칙을 보고 관리할 새 보기를 엽니다.
-
-   * **[!UICONTROL Constraints]** 기존 제약 조건의 읽기 전용 보기를 엽니다. 제한을 관리하려면 기존 [!UICONTROL Optimization] > [!UICONTROL Constraints] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
-
-* **[!UICONTROL Plan]** 하위 메뉴:
-
-   * **[!UICONTROL Simulations]** 사용자가 만든 모든 사용자 지정 시뮬레이션 및 자동으로 생성된 주별 시뮬레이션을 볼 수 있는 새 [[!UICONTROL Simulations] 보기를 엽니다](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md). 새 사용자 지정 시뮬레이션을 생성하고 기존 시뮬레이션을 다시 실행할 수 있습니다. [!UICONTROL Spend Planner] 단추를 사용하면 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]에서 레거시 [!UICONTROL Spend Recommendation] 도구가 열립니다.
-
-   * **[!UICONTROL Spend Planner]** 새 사이트를 종료하고 기존 [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] 보기를 엽니다.
+  * **[!UICONTROL Recommendations]**: [!DNL Google Ads] 및 [!DNL Microsoft Advertising]의 게시자 권장 사항과 [!DNL Microsoft Advertising.]의 게시자 인사이트에 대한 읽기 전용 보기를 엽니다. 권장 사항과 인사이트를 보고 응답하려면 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
 * **[!UICONTROL Manage]** 하위 메뉴:
 
-   * **[!UICONTROL Portfolios]:** 광고주의 모든 포트폴리오를 나열하는 새 [!UICONTROL Portfolios] 보기를 엽니다. 이 보기에서 포트폴리오를 관리할 수 있습니다. 할당된 제한 목록을 열고 포트폴리오의 성능 및 컴포지션 세부 사항을 볼 수 있습니다.
+  * **[!UICONTROL Portfolios]:** 광고주의 모든 포트폴리오를 나열하는 새 [!UICONTROL Portfolios] 보기를 엽니다. 이 보기에서 포트폴리오를 관리할 수 있습니다. 할당된 제한 목록을 열고 포트폴리오의 성능 및 컴포지션 세부 사항을 볼 수 있습니다.
 
-     포트폴리오 설정에는 목표 및 캠페인 할당, 지출 관리, 제한 관리 및 최적화 제어를 위한 탭이 포함됩니다. &quot;전문가 최적화&quot; 프로필 이상의 사용자만이 [!UICONTROL Control Optimization] 탭에서 설정을 편집할 수 있습니다.
+    포트폴리오 설정에는 목표 및 캠페인 할당, 지출 관리, 제한 관리 및 최적화 제어를 위한 탭이 포함됩니다. &quot;전문가 최적화&quot; 프로필 이상의 사용자만이 [!UICONTROL Control Optimization] 탭에서 설정을 편집할 수 있습니다.
 
-   * **[!UICONTROL Campaigns]:** 광고주의 모든 캠페인을 표시하는 새 [!UICONTROL Campaigns] 보기를 엽니다. 포트폴리오에 캠페인을 할당하고 선택한 캠페인에 대한 제한 할당을 관리할 수 있습니다. 데이터 테이블 내용에 대한 보고서를 다운로드할 수도 있습니다. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
+  * **[!UICONTROL Accounts]**: 새 [!UICONTROL Accounts] 보기를 엽니다. API 연결을 통해 동기화되거나 데이터 업로드를 통해 설정된 광고 네트워크 계정을 관리할 수 있습니다. 기존 [!UICONTROL Naver]개의 계정을 관리할 수도 있습니다.
 
-     캠페인을 만들고, 편집하고, 삭제하려면 [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)를 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+  * **[!UICONTROL Campaigns]:** 광고주의 모든 캠페인을 표시하는 새 [!UICONTROL Campaigns] 보기를 엽니다. 캠페인을 관리하고, 포트폴리오에 캠페인을 할당하고, 선택한 캠페인에 대한 제한 할당을 관리할 수 있습니다. 데이터 테이블 내용에 대한 보고서를 다운로드할 수도 있습니다. 또한 [!DNL Microsoft Advertising], <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->에서 [!DNL Google Ads]개의 캠페인을 복제할 수 있습니다.
 
-   * **[!UICONTROL Ad Groups]:** 광고주의 모든 광고 그룹을 표시하는 새 [!UICONTROL Ad Groups] 보기를 엽니다. 선택한 광고 그룹에 대한 제한 할당을 관리할 수 있습니다. 데이터 테이블 내용에 대한 보고서를 다운로드할 수도 있습니다.
+  * **[!UICONTROL Ad Groups]:** 광고주의 모든 광고 그룹을 표시하는 새 [!UICONTROL Ad Groups] 보기를 엽니다. 선택한 광고 그룹에 대한 광고 그룹 및 제한 할당을 관리할 수 있습니다. 데이터 테이블 내용에 대한 보고서를 다운로드할 수도 있습니다.
 
-     캠페인을 만들고, 편집하고, 삭제하려면 [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)를 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+  * **[!UICONTROL Ads]** 광고주의 모든 광고를 표시하는 새 [!UICONTROL Ads] 보기를 엽니다. 선택한 광고에 대한 광고 및 제한 할당을 관리할 수 있습니다.
 
-   * **[!UICONTROL Ads]** 광고주의 모든 광고를 표시하는 새 [!UICONTROL Ads] 보기를 엽니다. 선택한 광고에 대한 제한 할당을 관리할 수 있습니다.
+  * **[!UICONTROL Keywords]** 광고주의 기존 키워드와 부정적 키워드를 보여 주는 새 [!UICONTROL Keywords] 보기를 엽니다. 선택한 키워드에 대한 제한 할당을 관리할 수 있습니다.
 
-     광고를 만들고, 편집하고, 삭제하려면 [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)를 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+    키워드 및 음수 키워드를 만들고, 편집하고, 삭제하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용하십시오. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+
+  * **[!UICONTROL Product Groups]** 기존 쇼핑 제품 그룹을 표시하는 새 [!UICONTROL Keywords] 보기를 엽니다. 제한 및 레이블 지정을 포함하여 제품 그룹을 관리할 수 있습니다.
 
 * **[!UICONTROL Reports]** 하위 메뉴:
 
-   * **[!UICONTROL Insights]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Insights] 보기를 엽니다.
+  * **[!UICONTROL Insights]**: 새 사이트를 종료하고 기존 [!UICONTROL Insights & Reports] > [!UICONTROL Insights] 보기를 엽니다.
 
-   * **[!UICONTROL Scheduled Reports]**: 예약된 보고서를 생성하고 관리할 수 있는 새 [!UICONTROL Scheduled Reports] 보기를 엽니다.
+  * **[!UICONTROL Reports]**: 예약된 보고서를 생성하고 관리할 수 있는 새 [!UICONTROL Reports] 보기를 엽니다.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: 매일 업데이트할 보고서 피드를 설정할 수 있는 새 [!UICONTROL Spreadsheets Feeds] 보기를 엽니다.
+  * **[!UICONTROL Spreadsheet Feeds]**: 매일 업데이트할 보고서 피드를 설정할 수 있는 새 [!UICONTROL Spreadsheets Feeds] 보기를 엽니다.
 
-   * **[!UICONTROL History Logs]**: 광고주 계정의 최근 변경 내용에 대한 세부 정보가 있는 새 [!UICONTROL History Logs] 보기를 엽니다.
+  * **[!UICONTROL History Logs]**: 광고주 계정의 최근 변경 내용에 대한 세부 정보가 있는 새 [!UICONTROL History Logs] 보기를 엽니다.
 
-   * **[!UICONTROL Label Classification]** 새 [!UICONTROL Label Classifications] 보기를 엽니다. 분류를 관리하고, 새 UI에서 사용할 수 있는 적용 가능한 계정 구성 요소에 분류 값을 지정/지정 취소할 수 있습니다.
+* **[!UICONTROL Plan]** 하위 메뉴:
 
-* **[!UICONTROL Target]** 하위 메뉴:
+  * **[!UICONTROL Simulations]** 사용자가 만든 모든 사용자 지정 시뮬레이션 및 자동으로 생성된 주별 시뮬레이션을 볼 수 있는 새 [[!UICONTROL Simulations] 보기를 엽니다](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md). 새 사용자 지정 시뮬레이션을 생성하고 기존 시뮬레이션을 다시 실행할 수 있습니다. [!UICONTROL Spend Planner] 단추를 사용하면 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]에서 레거시 [!UICONTROL Spend Recommendation] 도구가 열립니다.
 
-   * **[!UICONTROL Audiences]**: 광고주의 기존 대상, 모든 대상 타겟 및 모든 대상 제외를 표시하는 새 보기를 엽니다. 대상자를 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
-
-   * **[!UICONTROL Auto Targets]** 광고주에 대한 기존의 모든 자동 타겟을 표시하는 새 보기를 엽니다. 자동 타겟을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
-
-   * **[!UICONTROL Keywords]** 광고주의 기존 키워드와 부정적 키워드를 보여 주는 새 [!UICONTROL Keywords] 보기를 엽니다. 선택한 키워드에 대한 제한 할당을 관리할 수 있습니다.
-
-     키워드와 부정적 키워드를 만들고, 편집하고, 삭제하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
-
-   * **[!UICONTROL Placements]** 광고주에 대한 기존 배치 및 부정적인 배치를 보여 주는 새 [!UICONTROL Placements] 보기를 엽니다. 선택한 배치에 대한 제한 지정을 관리할 수 있습니다.
-
-     배치 및 부정적인 배치를 만들고, 편집하고, 삭제하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
-
-* **[!UICONTROL Assets]** 하위 메뉴:
-
-   * **[!UICONTROL Creatives]** 기존 크리에이티브 자산을 나열하는 새 보기를 엽니다. 각 크리에이티브를 미리 볼 수 있습니다. 자산 라이브러리를 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Asset Library] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
-
-   * **[!UICONTROL Extensions]** 기존 광고 확장의 읽기 전용 보기를 엽니다. 확장을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
-
-   * **[!UICONTROL Shopping]** 기존 쇼핑 제품 그룹의 읽기 전용 보기를 엽니다. 제품 그룹을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Product Groups] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+  * **[!UICONTROL Spend Planner]** 새 사이트를 종료하고 기존 [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] 보기를 엽니다.
 
 * **[!UICONTROL Set Up]** 하위 메뉴:
 
-   * **[!UICONTROL Manager Accounts]**: 기존 관리자 계정 및 광고 네트워크에 대한 새 보기를 엽니다. 관리자 계정을 관리하려면 기존 [!UICONTROL Admin] > [!UICONTROL Manager Accounts] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+  * **[!UICONTROL Bulksheets]**: 새 [!UICONTROL Bulksheets] 보기를 엽니다.
 
-   * **[!UICONTROL Accounts]**: 새 [!UICONTROL Accounts] 보기를 엽니다. API 연결을 통해 동기화되거나 데이터 업로드를 통해 설정된 광고 네트워크 계정을 관리할 수 있습니다. 기존 [!UICONTROL Naver]개의 계정을 관리할 수도 있습니다.
+  * **[!UICONTROL Label Classification]** 새 [!UICONTROL Label Classifications] 보기를 엽니다. 분류를 관리하고, 새 UI에서 사용할 수 있는 적용 가능한 계정 구성 요소에 분류 값을 지정/지정 취소할 수 있습니다.
 
-   * **[!UICONTROL Import Campaigns]**: 캠페인 데이터를 가져올 수 있는 새 보기를 엽니다.
+  * **[!UICONTROL Manager Accounts]**: 기존 관리자 계정 및 광고 네트워크에 대한 새 보기를 엽니다. 관리자 계정을 관리하려면 기존 [!UICONTROL Admin] > [!UICONTROL Manager Accounts] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
-   * **[!UICONTROL Bulksheets]**: 새 [!UICONTROL Bulksheets] 보기를 엽니다.
+* **[!UICONTROL Goals]** 하위 메뉴:
 
-   * **[!UICONTROL Products]** 기존 판매자 센터 계정 및 제품에 대한 읽기 전용 보기를 엽니다. 판매자 센터 계정을 추가하려면 기존의 [!UICONTROL Campaigns] > [!UICONTROL Products] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+  * **[!UICONTROL Objectives]** 기존 목표를 모두 보고 목표를 만들고 편집하고 삭제할 수 있는 새 [!UICONTROL Objectives] 보기를 엽니다.
+
+  * **[!UICONTROL Conversions]** 광고주의 전환 지표를 보고 관리 보기 및 보고서에 사용할 수 있는 지표를 사용자 지정할 수 있는 새 보기를 엽니다.
+
+  * **[!UICONTROL Conversion Value Rules]** [!DNL Google Ads] 계정에 대한 캠페인 수준 및 계정 수준 전환 값 규칙을 보고 관리할 새 보기를 엽니다.
+
+  * **[!UICONTROL Constraints]** 기존 제약 조건의 읽기 전용 보기를 엽니다. 제한을 관리하려면 기존 [!UICONTROL Optimization] > [!UICONTROL Constraints] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+
+* **[!UICONTROL Targeting]** 하위 메뉴:
+
+  * **[!UICONTROL Audiences]**: 광고주의 기존 대상, 모든 대상 타겟 및 모든 대상 제외를 표시하는 새 보기를 엽니다. 대상자를 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+
+  * **[!UICONTROL Auto Targets]** 광고주에 대한 기존의 모든 자동 타겟을 표시하는 새 보기를 엽니다. 자동 타겟을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+
+  * **[!UICONTROL Placements]** 광고주에 대한 기존 배치 및 부정적인 배치를 보여 주는 새 [!UICONTROL Placements] 보기를 엽니다. 선택한 배치에 대한 제한 지정을 관리할 수 있습니다.
+
+    배치 및 부정적인 배치를 만들고, 편집하고, 삭제하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+
+* **[!UICONTROL Library]** 하위 메뉴:
+
+  * **[!UICONTROL Assets]** 기존 크리에이티브 자산을 나열하는 새 보기를 엽니다. 각 크리에이티브를 미리 볼 수 있습니다. 자산 라이브러리를 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Asset Library] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+
+  * **[!UICONTROL Extensions]** 기존 광고 확장의 읽기 전용 보기를 엽니다. 확장을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+
+  * **[!UICONTROL Products]** 기존 판매자 센터 계정 및 제품에 대한 읽기 전용 보기를 엽니다. 판매자 센터 계정을 추가하려면 기존의 [!UICONTROL Campaigns] > [!UICONTROL Products] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
 <!--
  What's happening to these?
@@ -142,17 +136,17 @@ Tools > Admin > Data Source Setup
 
 ## 오른쪽 상단의 기타 작업 및 정보 기반 메뉴
 
-### 상단 행: CX 엔터프라이즈 메뉴
+### 상단 행: CX Enterprise 메뉴
 
-* 액세스 권한이 있는 CX 엔터프라이즈 조직의 선택 가능한 목록입니다.
+* 액세스 권한이 있는 CX Enterprise 조직의 선택 가능한 목록입니다.
 
 * ![도움말 센터](/help/search-social-commerce/assets/help-main-menu.png "도움말 센터") 도움말 메뉴(설명서 및 기타 정보 링크 포함)
 
-* ![알림](/help/search-social-commerce/assets/notifications-aec.png "알림") CX Enterprise의 요청, 알림 및 공지가 나열된 패널입니다.
+* ![알림](/help/search-social-commerce/assets/notifications-aec.png "알림") CX Enterprise의 요청, 알림 및 공지를 나열하는 패널.
 
-* ![앱](/help/search-social-commerce/assets/apps.png "앱") 전환할 수 있는 Adobe CX 엔터프라이즈 솔루션 및 서비스 목록입니다.
+* ![앱](/help/search-social-commerce/assets/apps.png "앱") 전환할 수 있는 Adobe CX Enterprise 솔루션 및 서비스 목록입니다.
 
-* ![계정](/help/search-social-commerce/assets/account.png "계정") 환경 설정을 편집하고 로그아웃할 수 있는 CX 엔터프라이즈 계정 프로필에 대한 정보입니다.
+* ![계정](/help/search-social-commerce/assets/account.png "계정") 환경 설정을 편집하고 로그아웃할 수 있는 CX Enterprise 계정 프로필에 대한 정보입니다.
 
 ### 두 번째 행: 추가 검색, 소셜 및 Commerce 메뉴
 
@@ -202,15 +196,15 @@ Tools > Admin > Data Source Setup
 
 * ![경고 알림](/help/search-social-commerce/assets/notifications-panel.png "경고 알림") 검색, 소셜 및 Commerce 알림이 나열된 패널입니다.
 
-  [Adobe CX Enterprise를 통해 로그인](sign-in.md)하면 이 패널에 CX Enterprise의 알림이 표시됩니다.
+  [Adobe CX Enterprise을 통해 로그인](sign-in.md)하면 이 패널에 CX Enterprise의 알림이 표시됩니다.
 
 * ![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴") 도움말 메뉴로서 설명서 및 기타 정보에 대한 링크를 포함합니다.
 
-* ![솔루션 전환기](/help/search-social-commerce/assets/menu-icon.png "솔루션 전환기") 전환할 수 있는 Adobe CX 엔터프라이즈 솔루션 및 서비스 목록입니다.
+* ![솔루션 전환기](/help/search-social-commerce/assets/menu-icon.png "솔루션 전환기") 전환할 수 있는 Adobe CX Enterprise 솔루션 및 서비스 목록입니다.
 
 * ![사용자 프로필](/help/search-social-commerce/assets/user-profile.png "사용자 프로필") 로그아웃할 수 있는 프로필 링크입니다.
 
-  [Adobe CX Enterprise를 통해 로그인](sign-in.md)한 경우 CX Enterprise 암호 및 알림 설정을 포함하여 CX Enterprise 프로필을 편집할 수도 있습니다.
+  [Adobe CX Enterprise을 통해 로그인](sign-in.md)하는 경우 CX Enterprise 암호 및 알림 설정을 포함하여 CX Enterprise 프로필을 편집할 수도 있습니다.
 
 >[!MORELIKETHIS]
 >

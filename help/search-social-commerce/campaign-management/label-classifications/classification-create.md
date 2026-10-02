@@ -6,22 +6,22 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/zdshElTCMuExmxn7sV-9fXY8hyjRximonpWr7hAkDtI
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: '302'
 ht-degree: 0%
-
 ---
-
 # 레이블 분류 만들기
 
 각 광고주는 최대 30개의 레이블 분류를 가질 수 있습니다.
 
 ## (새 UI) 레이블 분류 만들기
 
-1. **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Create Classification]**&#x200B;을(를) 클릭합니다.
 

@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/xT4LpYXeTtuptPWK-HNQPylOzCFi1TT2FfbfEiuSJeo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: '334'
 ht-degree: 0%
-
 ---
-
 # 계정 구성 요소에서 레이블 분류 값 제거
 
 분류 값을 제거하면 계정 구성 요소 및 모든 하위 구성 요소와의 연결이 제거됩니다. 분류 값에 대한 보고서 데이터는 해당 구성 요소에서 더 이상 사용할 수 없습니다. 분류 값을 제거해도 값이나 계정 구성 요소는 삭제되지 않습니다.
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 새 UI에서 사용할 수 있는 적용 가능한 계정 구성 요소에서 분류 값을 제거할 수 있습니다.
 
-1. **[!UICONTROL Manage]** 또는 **[!UICONTROL Target]** 메뉴에서 엔터티 보기를 엽니다.
+1. **[!UICONTROL Manage]** 또는 **[!UICONTROL Targeting]** 메뉴에서 엔터티 보기를 엽니다.
 
 1. 각 관련 행 옆에 있는 확인란을 선택합니다.
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
    * 하나 이상의 엔티티에서 값을 제거하려면 다음을 수행합니다.
 
-      * 각 행 옆에 있는 확인란을 선택합니다.
+     * 각 행 옆에 있는 확인란을 선택합니다.
 
-        여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
+       여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
 
-      * 데이터 테이블 위의 도구 모음에서 ![자세히](/help/search-social-commerce/assets/more.png "자세히")를 클릭한 다음 **[!UICONTROL Classification]**&#x200B;을(를) 클릭합니다.
+     * 데이터 테이블 위의 도구 모음에서 ![자세히](/help/search-social-commerce/assets/more.png "자세히")를 클릭한 다음 **[!UICONTROL Classification]**&#x200B;을(를) 클릭합니다.
 
 1. [!UICONTROL Assignment Details]에서 **[!UICONTROL Remove]**&#x200B;을(를) 선택합니다.
 

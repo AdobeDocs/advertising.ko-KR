@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/vVMgSqSBGNN7oqhiY6DLqQZPsi7TowVxNIOTtEtPLg0
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 # 레이블 분류 값 삭제
 
 레이블 분류 값을 삭제하면 나중에 사용할 수 없으며, 값에 대해 보고서 데이터를 더 이상 사용할 수 없습니다. 값과 해당 상위 레이블 분류 및 특정 계정 구성 요소 사이의 모든 할당이 제거되지만 상위 레이블 분류 및 캠페인 구성 요소는 삭제되지 않습니다.
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## (새 UI) 레이블 분류 값을 삭제합니다.
 
-1. **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Label Values]** 탭을 클릭합니다.
 

@@ -4,25 +4,27 @@ description: 쇼핑 제품 그룹을 생성, 편집 및 삭제하고, Google 광
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 2337
-ht-degree: 0%
-
+source-wordcount: '2386'
+ht-degree: 2%
 ---
-
 
 # 쇼핑 제품 그룹 관리
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising] 쇼핑 캠페인만*
 
-[!UICONTROL Assets] > [!UICONTROL Shopping]의 [!UICONTROL Product Groups] 보기에서 제품 그룹을 만들고 관리할 수 있습니다.
+[!UICONTROL Manage] > [!UICONTROL Product Groups] 보기에서 제품 그룹을 만들고 관리할 수 있습니다.
 
 [의 [!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md)에서 제품 그룹에 대한 데이터를 볼 수 있습니다.
 
@@ -69,7 +71,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Product Groups] 보기
 
-[!UICONTROL Assets] > [!UICONTROL Shopping] 보기의 [!UICONTROL Product Groups] 보기에는 선택한 광고주 계정에 대해 필터링된 보기의 모든 제품 그룹이 나열됩니다. 제품 그룹을 만들고 관리할 수도 있습니다.
+[!UICONTROL Manage] > [!UICONTROL Product Groups] 보기는 선택한 광고주 계정에 대해 필터링된 보기의 모든 제품 그룹을 나열합니다. 제품 그룹을 만들고 관리할 수도 있습니다.
 
 ### 사용 가능한 작업 <!-- Go through all -->
 
@@ -103,7 +105,7 @@ ht-degree: 0%
 >
 >한 번에 많은 계정 구성 요소를 만들려면 [캠페인 일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위의 도구 모음에서 **[!UICONTROL Create Product Group]**&#x200B;을(를) 클릭합니다.
 
@@ -125,7 +127,7 @@ ht-degree: 0%
 >
 >&quot;[!UICONTROL Everything Else]&quot; 제품 그룹에 대해 하위 제품 그룹을 만들 수 없습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 트리 보기에서 제품 그룹 및 하위 제품 그룹 노드를 보려면 커서를 제품 그룹 이름 위에 놓고 **[!UICONTROL ...]>[!UICONTROL Tree View]**&#x200B;을(를) 클릭합니다.
 
@@ -139,7 +141,7 @@ ht-degree: 0%
 
 광고 그룹에 포함된 단위 제품 그룹 노드(하위 제품 그룹 노드가 없는 제품 그룹)에 대한 입찰 및 추적 템플릿을 편집할 수 있습니다. 하위 제품 그룹 노드가 있는 제품 그룹인 제외된 단위 제품 그룹 또는 포함되거나 제외된 하위 분할 노드에 대한 정보는 편집할 수 없습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 트리 보기에서 제품 그룹 및 하위 제품 그룹 노드를 보려면 커서를 제품 그룹 이름 위에 놓고 **[!UICONTROL ...]>[!UICONTROL Tree View]**&#x200B;을(를) 클릭합니다.
 
@@ -151,7 +153,7 @@ ht-degree: 0%
 
 ## 제품 그룹 노드의 [!UICONTROL Tracking Template]만 편집 {#node-edit-tracking-template}
 
-1. 메인 메뉴에서 **[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. 제품 그룹 이름 위에 커서를 놓고 **[!UICONTROL ...]>[!UICONTROL Tree View]**&#x200B;을(를) 클릭하여 트리 보기에서 제품 그룹과 해당 하위 제품 그룹 노드를 봅니다.
 
@@ -161,7 +163,7 @@ ht-degree: 0%
 
 ## 제품 그룹 노드의 [!UICONTROL Max CPC]만 편집 {#node-edit-maxcpc}
 
-1. 메인 메뉴에서 **[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. 제품 그룹 이름 위에 커서를 놓고 **[!UICONTROL ...]>[!UICONTROL Tree View]**&#x200B;을(를) 클릭하여 트리 보기에서 제품 그룹과 해당 하위 제품 그룹 노드를 봅니다.
 
@@ -173,7 +175,7 @@ ht-degree: 0%
 
 같은 수준에 다른 제품 그룹이 있는 경우 &quot;기타 모든 제품&quot; 그룹을 제외한 모든 제품 그룹을 삭제할 수 있습니다. 이 그룹은 머천트 센터 계정의 제품 중 광고 그룹에 대한 쇼핑 광고에 포함되는 제품을 결정하는 데 사용됩니다. 제품 그룹을 삭제하면 모든 하위 제품 그룹이 삭제됩니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. 제품 그룹 이름 위에 커서를 놓고 **[!UICONTROL ...]>[!UICONTROL Tree View]**&#x200B;을(를) 클릭하여 트리 보기에서 제품 그룹과 해당 하위 제품 그룹 노드를 봅니다.
 
@@ -183,7 +185,7 @@ ht-degree: 0%
 
 ## 선택한 제품 그룹에 제한 할당 {#constraint-assign}
 
-1. 메인 메뉴에서 **[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. 단일 제약조건을 지정할 각 제품 그룹 옆의 확인란을 선택합니다.
 
@@ -195,7 +197,7 @@ ht-degree: 0%
 
 ## 선택한 제품 그룹에서 제한 제거 {#constraint-unassign}
 
-1. 메인 메뉴에서 **[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. 제한을 할당 해제할 각 제품 그룹 옆의 확인란을 선택합니다.
 
@@ -209,7 +211,7 @@ ht-degree: 0%
 >
 >레이블 값은 하위 엔티티에 의해 상속되므로 상속된 값을 재정의하지 않는 한 하위 엔티티에 대한 값을 입력하지 마십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. 레이블 값을 지정할 각 제품 그룹 옆의 확인란을 선택합니다.
 
@@ -241,7 +243,7 @@ ht-degree: 0%
 
 분류 값을 제거하면 계정 구성 요소 및 모든 하위 구성 요소와의 연결이 제거됩니다. 분류 값에 대한 보고서 데이터는 해당 구성 요소에서 더 이상 사용할 수 없습니다. 분류 값을 제거해도 값이나 계정 구성 요소는 삭제되지 않습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Assets]>[!UICONTROL Shopping]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Product Groups]**&#x200B;을(를) 클릭합니다.
 
 1. 레이블 값을 제거할 각 제품 그룹 옆의 확인란을 선택합니다.
 

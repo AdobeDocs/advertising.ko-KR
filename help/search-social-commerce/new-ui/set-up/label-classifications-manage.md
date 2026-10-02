@@ -2,13 +2,11 @@
 title: 레이블 분류 관리
 description: 레이블 분류를 사용하여 계정 구성 요소를 그룹화하는 방법에 대해 알아봅니다.
 feature: Search Label Classifications
-source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
-
 ---
-
 # 레이블 분류 관리
 
 레이블 분류를 사용하면 계정 구성 요소를 의미 있는 세트로 그룹화할 수 있습니다. 예를 들어 &quot;지역&quot;이라는 상위 레이블 분류를 만들고, 분류 내의 각 지역(예: &quot;영국&quot; 및 &quot;일본&quot;)에 대해 다른 레이블 값을 만든 다음 레이블 값을 [입찰 단위](/help/search-social-commerce/glossary.md#a-b) 또는 상위 캠페인에 할당할 수 있습니다. 그런 다음 레이블 값을 보기와 보고서에 별도의 열로 포함하고 보고서를 다른 분류 그룹과 값으로 하위 피벗할 수 있습니다.
@@ -49,7 +47,7 @@ ht-degree: 0%
 
 <!-- Update links to bulksheet columns once I have new files/paths -->
 
-1. **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Create Classification]**&#x200B;을(를) 클릭합니다.
 
@@ -69,7 +67,7 @@ ht-degree: 0%
 >
 >일부 광고 네트워크 및 캠페인 유형의 키워드 및 광고 복사본은 [변경할 수 없음](/help/search-social-commerce/campaign-management/faqs-campaigns.md)입니다. 즉, 편집하면 기존 엔터티가 삭제되고 새 엔터티가 만들어집니다. 이러한 방식으로 기존 엔티티를 삭제하면 레이블 분류가 새 엔티티에 할당되지 않습니다.
 
-1. **[!UICONTROL Manage]** 또는 **[!UICONTROL Target]** 메뉴에서 엔터티 보기를 엽니다.
+1. **[!UICONTROL Manage]** 또는 **[!UICONTROL Targeting]** 메뉴에서 엔터티 보기를 엽니다.
 
 1. 각 관련 행 옆에 있는 확인란을 선택합니다.
 
@@ -155,7 +153,7 @@ ht-degree: 0%
 >
 >레이블 분류에서 값을 삭제하려면 &quot;[레이블 분류 값 삭제](#classification-values-delete)&quot;를 참조하십시오.
 
-1. **[!UICONTROL Manage]** 또는 **[!UICONTROL Target]** 메뉴에서 엔터티 보기를 엽니다.
+1. **[!UICONTROL Manage]** 또는 **[!UICONTROL Targeting]** 메뉴에서 엔터티 보기를 엽니다.
 
 1. 각 관련 행 옆에 있는 확인란을 선택합니다.
 
@@ -177,7 +175,7 @@ ht-degree: 0%
 >
 >계정 구성 요소에서 분류 값의 연결을 해제하려면 &quot;[계정 구성 요소에서 레이블 분류 값 제거](#classification-values-remove)&quot;를 참조하십시오.
 
-1. **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Label Values]** 탭을 클릭합니다.
 
@@ -201,7 +199,7 @@ ht-degree: 0%
 >
 >계정 구성 요소에서 분류 값의 연결을 해제하려면 &quot;[계정 구성 요소에서 레이블 분류 값 제거](#classification-values-remove)&quot;를 참조하십시오.
 
-1. **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 레이블 분류를 포함하도록 목록을 필터링합니다.
 

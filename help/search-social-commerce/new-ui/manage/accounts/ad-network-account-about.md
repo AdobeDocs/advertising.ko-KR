@@ -3,13 +3,11 @@ title: (새 UI) 광고 네트워크 계정 기본 정보
 description: 새로운 검색, 소셜 및 Commerce UI에서 광고 네트워크 계정에 대해 알아봅니다.
 feature: Search Campaign Management
 exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 광고 네트워크 계정 기본 정보
 
 Search, Social 및 Commerce은 지원되는 광고 네트워크에서 광고주의 계정을 추적할 수 있습니다. 계정 추적을 활성화하려면 해당 계정 레코드를 만들어야 합니다. 검색, 소셜 및 Commerce이 광고와 동기화되는지 또는 광고에서 입찰 및 예산을 최적화하는지 여부에 관계없이 모든 유형의 계정에 대한 계정 세부 정보를 설정해야 합니다.
@@ -42,8 +40,8 @@ Search, Social 및 Commerce은 지원되는 광고 네트워크 계정과 동기
 
 >[!MORELIKETHIS]
 >
->* [API 연결을 통해 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
->* [데이터 업로드를 위한 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
->* [관리 [!DNL Naver] 추적 전용 계정](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+>* [API 연결을 통해 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)
+>* [데이터 업로드를 위한 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/data-upload-account-manage.md)
+>* [관리 [!DNL Naver] 추적 전용 계정](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
 >* [추적 전용 계정 구현 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [판매자 센터 계정 관리](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)

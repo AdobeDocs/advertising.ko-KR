@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/r08RxDrdXIkUP7ZJgw8x-g47m0Ioxjo9SySjg71-PkM
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 764
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # 캠페인 관리 보기에서 계정 구성 요소에 분류 값 할당
 
 캠페인 관리 보기에서 캠페인, 광고 그룹, 키워드, 광고, 배치, 단위 수준 제품 그룹 및 동적 검색 타겟과 같은 검색 엔티티에 대한 분류 값을 할당하거나 제거할 수 있습니다. 필요한 경우 발령 프로세스 중에 분류 및 분류 값을 생성할 수 있습니다. 각 레이블 분류는 최대 2000개의 값을 가질 수 있습니다.
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 새 UI에서 사용할 수 있는 적용 가능한 계정 구성 요소에 분류 값을 할당할 수 있습니다.
 
-1. **[!UICONTROL Manage]** 또는 **[!UICONTROL Target]** 메뉴에서 엔터티 보기를 엽니다.
+1. **[!UICONTROL Manage]** 또는 **[!UICONTROL Targeting]** 메뉴에서 엔터티 보기를 엽니다.
 
 1. 각 관련 행 옆에 있는 확인란을 선택합니다.
 
@@ -69,11 +69,11 @@ ht-degree: 0%
 
    * (하나 이상의 엔티티에 값을 할당하려면 다음을 수행합니다.
 
-      * 각 관련 행 옆에 있는 확인란을 선택합니다.
+     * 각 관련 행 옆에 있는 확인란을 선택합니다.
 
-        여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
+       여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
 
-      * 데이터 테이블 위의 도구 모음에서 ![자세히](/help/search-social-commerce/assets/more.png "자세히")를 클릭한 다음 **[!UICONTROL Classification]**&#x200B;을(를) 클릭합니다.
+     * 데이터 테이블 위의 도구 모음에서 ![자세히](/help/search-social-commerce/assets/more.png "자세히")를 클릭한 다음 **[!UICONTROL Classification]**&#x200B;을(를) 클릭합니다.
 
 1. [!UICONTROL Assignment Details]에서 다음 중 하나를 수행합니다.
 

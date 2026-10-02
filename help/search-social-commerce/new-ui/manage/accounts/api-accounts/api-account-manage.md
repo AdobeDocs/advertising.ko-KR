@@ -3,7 +3,7 @@ title: (새 UI) 광고 네트워크 계정 관리
 description: 광고 네트워크 API를 통해 동기화된 광고 네트워크에 대한 새 UI에서 계정 세부 사항을 설정하고 관리하는 방법에 대해 알아봅니다.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >광고 네트워크에서 실제 계정을 만들려면 광고 네트워크의 웹 사이트로 이동합니다.
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Create Account]**&#x200B;을(를) 클릭합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 >
 >광고 네트워크에서 실제 계정을 편집하려면 광고 네트워크의 웹 사이트로 이동합니다.
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 방법 중 하나로 계정을 선택합니다.
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 1. (동일한 브라우저 애플리케이션에서 동일한 광고 네트워크의 다른 계정에 로그인한 경우) 광고주의 계정이 아닌 다른 계정에서 로그아웃합니다.
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 광고 네트워크 계정을 활성화하면 Search, Social 및 Commerce이 캠페인 데이터를 계정과 동기화하고(지원되는 경우) 포트폴리오의 캠페인에 대한 자동화된 입찰 및/또는 캠페인 예산을 푸시합니다. 광고 네트워크 계정을 비활성화하면 검색, 소셜 및 Commerce이 계정에서 모든 활동을 중지합니다. 계정이 활성화된 동안 수집된 데이터는 여전히 저장되지만 캠페인 관리 보기 및 보고서에는 계정이 비활성화된 기간에 대한 데이터가 포함되지 않습니다. 나중에 계정을 다시 활성화하여 계정으로 활동을 재개할 수 있습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->광고 네트워크 관리자 계정은 여기에서 지원되지 않습니다. [!DNL Microsoft Advertising]의 관리자 계정을 식별하려면 각각 기본 계정 ID 또는 MCC 계정 필드를 사용하십시오. [관리자 계정  [!DNL Google Ads] 의 자격 증명을 설정하려면[!UICONTROL Admin] \> [!UICONTROL Manager Accounts]&#x200B;(으)로 이동하십시오.](/help/search-social-commerce/admin/manager-accounts.md)
+>광고 네트워크 관리자 계정은 여기에서 지원되지 않습니다. [!DNL Microsoft Advertising]의 관리자 계정을 식별하려면 각각 기본 계정 ID 또는 MCC 계정 필드를 사용하십시오. [관리자 계정  [!DNL Google Ads] 의 자격 증명을 설정하려면[!UICONTROL Setup] \> [!UICONTROL Manager Accounts]&#x200B;(으)로 이동하십시오.](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 
 **[!UICONTROL Currency]:**(읽기 전용) 계정에 사용되는 통화의 약어입니다. 이 값은 레코드를 저장하면 광고 네트워크의 계정에 대해 구성된 통화로 자동으로 채워집니다.
 

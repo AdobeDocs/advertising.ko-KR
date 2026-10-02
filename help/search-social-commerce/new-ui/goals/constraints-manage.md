@@ -4,15 +4,15 @@ description: 레거시 키워드 수준 포트폴리오의 CPC 캠페인에서 �
 feature: Search Campaign Management, Search Optimization
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
+    internal-label: Portfolios
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
-source-wordcount: 2660
+source-wordcount: '2660'
 ht-degree: 0%
-
 ---
-
 # 검색 입찰 단위에 대한 제한 관리
 
 *레거시 키워드 수준의 포트폴리오에서만 CPC 캠페인의 입찰 단위에 적용 가능*
@@ -183,7 +183,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 나중에 광고의 키워드나 광고 사본을 편집하여 새 키워드나 광고를 만들 경우 새 엔티티에 제한이 할당되지 않습니다.
->* [[!UICONTROL Campaigns] 보기](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups] 보기](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] 보기](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md) 또는 [[!UICONTROL Placements] 보기](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)에서 동일한 지침을 참조하십시오. <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* [[!UICONTROL Campaigns] 보기](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups] 보기](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] 보기](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) 또는 [[!UICONTROL Placements] 보기](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)에서 동일한 지침을 참조하십시오. <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 메인 메뉴에서 관련 관리 보기를 엽니다.
 
@@ -204,7 +204,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 제약 조건을 삭제하여 나중에 사용할 수 없게 하려면 &quot;[제약 조건 상태 변경](#constraint-change-status)&quot;을 참조하세요.
->* [[!UICONTROL Campaigns] 보기](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups] 보기](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] 보기](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md) 또는 [[!UICONTROL Placements] 보기](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)에서 동일한 지침을 참조하십시오. <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* [[!UICONTROL Campaigns] 보기](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [[!UICONTROL Ad Groups] 보기](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] 보기](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) 또는 [[!UICONTROL Placements] 보기](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)에서 동일한 지침을 참조하십시오. <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 메인 메뉴에서 관련 관리 보기를 엽니다.
 
@@ -220,6 +220,6 @@ ht-degree: 0%
 >
 >* [캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [광고 그룹에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)

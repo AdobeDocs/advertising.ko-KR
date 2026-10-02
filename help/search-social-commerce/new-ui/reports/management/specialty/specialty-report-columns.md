@@ -2,13 +2,11 @@
 title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 43b3d16233aec1fce0f3db092b9911717686f448
+source-git-commit: fb089f61670a2c0029ac7857db55df3b93f781de
 workflow-type: tm+mt
-source-wordcount: '3172'
-ht-degree: 0%
-
+source-wordcount: '3223'
+ht-degree: 1%
 ---
-
 # 특성 보고서에 대한 보고서 열
 
 | 열 | 설명 |
@@ -70,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | ([!DNL Google Ads]만 해당; [!UICONTROL Campaign Daily Impression Share Report]) 디스플레이/대상 네트워크의 광고에 대해 받은 노출 횟수를 받을 수 있는 예상 노출 횟수로 나눈 값입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | ([!DNL Google Ads]만 해당; [!UICONTROL Campaign Daily Impression Share Report]) 일별 또는 월별 예산이 너무 낮아서 디스플레이/대상 네트워크에 있는 광고가 받지 못한 예상 노출 비율입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | ([!DNL Google Ads]만 해당; [!UICONTROL Campaign Daily Impression Share Report]) 광고 등급이 낮아 디스플레이/대상 네트워크에 광고가 표시되지 않은 예상 노출 비율입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다. |
+| [!UICONTROL Conversion Actions] | ([!UICONTROL Google AI Max Search Term Combination]개 보고서) 전환을 초래한 전환 작업입니다. |
 | [!UICONTROL Conversion Rate] | 전환 수를 총 클릭 수로 나눈 값입니다. |
 | [!UICONTROL Conversion Type] | 광고주의 웹 사이트에서 추적된 사용자 정의 전환 유형입니다. |
 | [!UICONTROL Conversions] | ([!UICONTROL Google AI Max Search Term Combination], [!UICONTROL Google Asset Group Performance] 및 [!UICONTROL MSA Ad Extension] 보고서) 지정된 기간의 총 전환수입니다. [!UICONTROL MSA Ad Extension] 보고서의 경우, 판매 또는 다른 성공 측정값으로 이어진 클릭 수입니다. [!UICONTROL Google AI Max Search Term Combination] 보고서의 경우 &quot;전환에 포함&quot;이 활성화된 전환 작업의 총 전환 수입니다 |

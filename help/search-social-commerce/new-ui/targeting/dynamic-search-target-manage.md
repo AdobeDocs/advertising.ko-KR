@@ -1,24 +1,26 @@
 ---
-title: ' [!DNL Google Ads] 동적 검색 대상 관리'
-description: ' [!DNL Google Ads] 동적 검색 대상을 만들고 관리하는 방법을 알아봅니다.'
+title: '[!DNL Google Ads]개의 동적 검색 대상 관리'
+description: '[!DNL Google Ads] 동적 검색 대상을 만들고 관리하는 방법을 알아봅니다.'
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
 TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '705'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]개의 동적 검색 대상 관리
 
 *[!DNL Google Ads]개의 계정만*
@@ -43,7 +45,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Auto Targets] 보기
 
-[!UICONTROL Target] > [!UICONTROL Auto Targets] 보기는 선택한 광고주 계정에 대해 필터링된 보기의 모든 동적 검색 대상을 나열합니다. 동적 검색 타겟을 관리할 수도 있습니다.
+[!UICONTROL Targeting] > [!UICONTROL Auto Targets] 보기는 선택한 광고주 계정에 대해 필터링된 보기의 모든 동적 검색 대상을 나열합니다. 동적 검색 타겟을 관리할 수도 있습니다.
 
 ### 사용 가능한 작업
 
@@ -178,7 +180,7 @@ You can also delete any dynamic target.
 
 ## 새 [!UICONTROL Auto Targets] 보기에서 선택한 동적 검색 대상에 제약 조건 할당 {#constraint-assign}
 
-1. 메인 메뉴에서 **[!UICONTROL Target]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
 
 1. 단일 제약 조건을 지정할 각 동적 검색 대상 옆의 확인란을 선택합니다.
 
@@ -190,7 +192,7 @@ You can also delete any dynamic target.
 
 ## 새 [!UICONTROL Auto Targets] 보기에서 선택한 동적 검색 대상에서 제약 조건 제거 {#constraint-unassign}
 
-1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
 
 1. 제약 조건을 할당 해제할 각 동적 검색 대상 옆의 확인란을 선택합니다.
 
@@ -204,7 +206,7 @@ You can also delete any dynamic target.
 >
 >레이블 값은 하위 엔티티에 의해 상속되므로 상속된 값을 재정의하지 않는 한 하위 엔티티에 대한 값을 입력하지 마십시오.
 
-1. 메인 메뉴에서 **[!UICONTROL Target]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
 
 1. 레이블 값을 할당할 각 동적 검색 대상 옆의 확인란을 선택합니다.
 
@@ -236,7 +238,7 @@ You can also delete any dynamic target.
 
 분류 값을 제거하면 계정 구성 요소 및 모든 하위 구성 요소와의 연결이 제거됩니다. 분류 값에 대한 보고서 데이터는 해당 구성 요소에서 더 이상 사용할 수 없습니다. 분류 값을 제거해도 값이나 계정 구성 요소는 삭제되지 않습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Target]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
 
 1. 레이블 값을 제거할 각 동적 검색 대상 옆의 확인란을 선택합니다.
 
@@ -253,4 +255,4 @@ You can also delete any dynamic target.
 >[!MORELIKETHIS]
 >
 >* [(새 UI) 검색 입찰 단위에 대한 제약 조건을 관리합니다](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [(새 UI) 레이블 분류 관리](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
+>* [(새 UI) 레이블 분류 관리](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)

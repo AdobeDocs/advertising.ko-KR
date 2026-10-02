@@ -1,13 +1,11 @@
 ---
 title: 보고 및 시뮬레이션을 위한 오프라인 계정 데이터 업로드
-description: 보고 및 시뮬레이션 지원을 위해 오프라인 계정 데이터를 수동으로 업로드하거나  [!DNL Amazon] [!DNL S3] 버킷에 업로드하는 방법을 알아봅니다. 로그 파일은 업로드 작업의 진행 상황을 추적합니다.
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+description: 보고 및 시뮬레이션 지원을 위해 오프라인 계정 데이터를 수동으로 업로드하거나 [!DNL Amazon] [!DNL S3] 버킷에 업로드하는 방법을 알아봅니다. 로그 파일은 업로드 작업의 진행 상황을 추적합니다.
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
-
 ---
-
 # 보고 및 시뮬레이션을 위한 오프라인 계정 데이터 업로드
 
 *계정 데이터 업로드를 사용할 수 있는 광고주*
@@ -30,31 +28,31 @@ See "XXX" for information about supported ad networks and account structures.
 [supported ad networks and campaign types](/help/search-social-commerce/introduction/supported-inventory.md)
 -->
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
    * [!UICONTROL Accounts] 보기에서:
 
-      1. 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
+     1. 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
-      1. 파일을 상자로 끌어 놓거나 **[!UICONTROL Browse Files]**&#x200B;을(를) 클릭하고 장치나 네트워크에서 파일을 선택합니다.
+     1. 파일을 상자로 끌어 놓거나 **[!UICONTROL Browse Files]**&#x200B;을(를) 클릭하고 장치나 네트워크에서 파일을 선택합니다.
 
-      1. **[!UICONTROL Upload Files]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Upload Files]**&#x200B;을(를) 클릭합니다.
 
    * (계정 설정에서):
 
-      1. 다음 방법 중 하나로 계정을 선택합니다.
+     1. 다음 방법 중 하나로 계정을 선택합니다.
 
-         * 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+        * 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-         * 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+        * 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-      1. **[!UICONTROL Upload File]** 탭을 클릭합니다.
+     1. **[!UICONTROL Upload File]** 탭을 클릭합니다.
 
-      1. 파일을 상자로 끌어 놓거나 **[!UICONTROL Browse Files]**&#x200B;을(를) 클릭하고 장치나 네트워크에서 파일을 선택합니다.
+     1. 파일을 상자로 끌어 놓거나 **[!UICONTROL Browse Files]**&#x200B;을(를) 클릭하고 장치나 네트워크에서 파일을 선택합니다.
 
-      1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## [!DNL Amazon] [!DNL S3] 버킷에 계정 데이터 업로드 {#data-upload-s3}
 
@@ -71,45 +69,45 @@ See "XXX" for information about supported ad networks and account structures.
 >* Adobe 계정 팀에 문의하여 검색, 소셜 및 Commerce 광고주 계정에 대한 계정 데이터 업로드를 활성화하십시오. 팀은 [!DNL S3] 버킷에 조직별 폴더를 쉽게 만들 수 있으며, 작업이 완료되면 알려 줍니다.<!-- Add more context about the bucket we'll use here or in the intro. Do we have one bucket (potentially with multiple folders) per client, or do we share them (if so, do we need to state how in docs? -->
 >* 계정의 [!DNL S3] 클라우드 저장소 경로, 액세스 키 ID 및 비밀 액세스 키를 검색합니다. 조직의 모든 데이터 업로드 <!-- naming convention?--> 계정에 대해 동일한 액세스 키 ID 및 비밀 액세스 키가 사용됩니다.
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
    * [!UICONTROL Accounts] 보기에서:
 
-      1. 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
+     1. 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
-      1. [!UICONTROL Cloud Storage Link] 상자에서 **[!UICONTROL Go to the Link]**&#x200B;을(를) 클릭합니다.
+     1. [!UICONTROL Cloud Storage Link] 상자에서 **[!UICONTROL Go to the Link]**&#x200B;을(를) 클릭합니다.
 
-      1. **[!UICONTROL Show Access Key and Secret]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Show Access Key and Secret]**&#x200B;을(를) 클릭합니다.
 
-      1. [!UICONTROL Storage Link] 필드 옆에 있는 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 클립보드에 링크를 복사하고 안전한 위치에 저장합니다.
+     1. [!UICONTROL Storage Link] 필드 옆에 있는 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 클립보드에 링크를 복사하고 안전한 위치에 저장합니다.
 
-      1. 마찬가지로 [!UICONTROL Access Key] 및 [!UICONTROL Secret Key] 값을 복사하여 안전하게 저장하십시오.
+     1. 마찬가지로 [!UICONTROL Access Key] 및 [!UICONTROL Secret Key] 값을 복사하여 안전하게 저장하십시오.
 
-      1. **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
    * (계정 설정에서):
 
-      1. 다음 방법 중 하나로 계정을 선택합니다.
+     1. 다음 방법 중 하나로 계정을 선택합니다.
 
-         * 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+        * 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-         * 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+        * 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-      1. **[!UICONTROL Upload File]** 탭을 클릭합니다.
+     1. **[!UICONTROL Upload File]** 탭을 클릭합니다.
 
-      1. [!UICONTROL Cloud Storage Link] 상자에서 **[!UICONTROL Go to the Link]**&#x200B;을(를) 클릭합니다.
+     1. [!UICONTROL Cloud Storage Link] 상자에서 **[!UICONTROL Go to the Link]**&#x200B;을(를) 클릭합니다.
 
-      1. **[!UICONTROL Show Access Key and Secret]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Show Access Key and Secret]**&#x200B;을(를) 클릭합니다.
 
-      1. [!UICONTROL Storage Link] 필드 옆에 있는 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 클립보드에 링크를 복사하고 안전한 위치에 저장합니다.
+     1. [!UICONTROL Storage Link] 필드 옆에 있는 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 클립보드에 링크를 복사하고 안전한 위치에 저장합니다.
 
-      1. 마찬가지로 [!UICONTROL Access Key] 및 [!UICONTROL Secret Key] 값을 복사하여 안전하게 저장하십시오.
+     1. 마찬가지로 [!UICONTROL Access Key] 및 [!UICONTROL Secret Key] 값을 복사하여 안전하게 저장하십시오.
 
-      1. **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
-      1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 1. (조직당 한 번) 로컬 AWS 환경을 설정합니다.
 
@@ -139,7 +137,7 @@ See "XXX" for information about supported ad networks and account structures.
 
 ## 업로드된 계정 데이터 파일 로그 보기
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Upload Logs]**&#x200B;을(를) 클릭합니다.
 

@@ -3,13 +3,11 @@ title: (새 UI) 광고 네트워크에 목표 업로드를 활성화합니다
 description: 하이브리드 포트폴리오에 대한 목표를 Google Ads 및 Microsoft Advertising에 업로드하는 방법을 알아봅니다.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 광고 네트워크에 목표 업로드를 활성화합니다
 
 *Beta 기능*
@@ -42,7 +40,7 @@ Search, Social 및 Commerce에서 광고주 계정의 포트폴리오의 목표�
 
 1. (EEA(유럽 경제 지역) 또는 영국(영국)에서 사업을 수행하는 [!DNL Google Ads] 계정을 가진 광고주(선택 사항) EEA 및 영국 사용자로부터 광고 목적으로 데이터를 업로드하는 것에 대한 동의를 수집한 경우 확인란을 선택합니다. **[!UICONTROL GRANTED]**(으)로 동의 상태를 [!DNL Google Ads] 및 [!DNL Microsoft Advertising]&#x200B;(으)로 보냅니다. 확인란을 선택하지 않으면 동의 상태가 **[!UICONTROL UNSPECIFIED]**(으)로 전송됩니다.
 
-1. (관리자 계정 수준에서 전환을 추적하는 경우) 저장하기 전에 [관리자 계정에 대한 자격 증명을 추가](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)하십시오.
+1. (관리자 계정 수준에서 전환을 추적하는 경우) 저장하기 전에 [관리자 계정에 대한 자격 증명을 추가](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)하십시오.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -79,7 +77,7 @@ GGL_Lead는 [!DNL Google Ads] 추적 지표이므로 계산/업로드에 포함�
 
 * ([!DNL Google Ads]) 전환을 계정 또는 관리자 수준으로 업로드해야 하는지 확인하십시오. 관리자 수준에서 업로드해야 하는 경우:
 
-  * [!DNL Google Ads] 관리자 계정에 대한 자격 증명이 제공되었는지 확인하십시오. 필요한 경우 [관리자 계정에 대한 자격 증명을 추가](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)하십시오.
+  * [!DNL Google Ads] 관리자 계정에 대한 자격 증명이 제공되었는지 확인하십시오. 필요한 경우 [관리자 계정에 대한 자격 증명을 추가](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)하십시오.
 
   * 광고 네트워크 계정에 이미 동일한 지표 이름이 포함되어 있는지 확인합니다. 이 경우 올바른 관리자 수준 속성을 만들 수 있도록 지표의 이름을 변경합니다.
 
@@ -89,7 +87,7 @@ GGL_Lead는 [!DNL Google Ads] 추적 지표이므로 계산/업로드에 포함�
 >
 >* [목표 정보](objective-about.md)
 >* [광고주의 전환 지표 관리](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
->* [관리자 계정의 자격 증명 관리 [!DNL Google Ads] 관리자 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
+>* [관리자 계정의 자격 증명 관리 [!DNL Google Ads] 관리자 계정 관리](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 
 <!--
 I don't see this yet in new UI:

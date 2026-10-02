@@ -1,25 +1,25 @@
 ---
-title: ' [!DNL Microsoft Advertising]의  [!DNL Google Ads] 캠페인 복제'
-description: ' [!DNL Google Ads] 계정의 동기화된 캠페인을 동기화된 [!DNL Microsoft Advertising] 계정으로 직접 내보내는 방법에 대해 알아봅니다.'
+title: '[!DNL Microsoft Advertising]에서 [!DNL Google Ads] 캠페인 복제'
+description: '[!DNL Google Ads] 계정의 동기화된 캠페인을 동기화된 [!DNL Microsoft Advertising] 계정으로 직접 내보내는 방법에 대해 알아봅니다.'
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: '981'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]에서 [!DNL Google Ads] 캠페인 복제
 
 >[!NOTE]
 >
->새 UI 내에서 이 작업에 대한 지침은 &quot;(새 UI) [복제 [!DNL Google Ads] 캠페인 위치 [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)&quot;에서 사용할 수 있습니다.
+>새 UI 내에서 이 작업에 대한 지침은 &quot;(새 UI) [복제 [!DNL Google Ads] 캠페인 위치 [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)&quot;에서 사용할 수 있습니다.
 
 [!DNL Google Ads] 계정의 동기화된 캠페인을 eCPC(향상된 CPC) 캠페인으로 동기화된 [!DNL Microsoft Advertising] 계정으로 직접 내보낼 수 있습니다. 기존 입찰 및 캠페인 예산의 크기가 조정됩니다. 기존 검색, 소셜 및 Commerce 추적은 가져오지 않습니다.
 
@@ -87,11 +87,11 @@ ht-degree: 0%
 
 * 다음 중 하나를 수행합니다.
 
-   * 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
+  * 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
 
-     기본적으로 보기는 [!UICONTROL List of Import Jobs] 탭으로 열립니다.
+    기본적으로 보기는 [!UICONTROL List of Import Jobs] 탭으로 열립니다.
 
-   * [[!UICONTROL Import Logs] 탭](#campaign-import-log)에서 **[!UICONTROL List of Import Jobs]** 탭을 클릭합니다.
+  * [[!UICONTROL Import Logs] 탭](#campaign-import-log)에서 **[!UICONTROL List of Import Jobs]** 탭을 클릭합니다.
 
 ## 캠페인 가져오기 작업 실행
 
@@ -131,15 +131,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Import specific campaigns and adgroups]:* 특정 캠페인 및 광고 그룹을 선택합니다.
 
-   * 캠페인을 하위 광고 그룹으로 확장하려면 캠페인 이름 뒤에 있는 **[!UICONTROL >]**&#x200B;을(를) 클릭합니다.
+  * 캠페인을 하위 광고 그룹으로 확장하려면 캠페인 이름 뒤에 있는 **[!UICONTROL >]**&#x200B;을(를) 클릭합니다.
 
-   * 캠페인 또는 광고 그룹을 선택하려면 확인 표시가 나타나도록 항목을 선택합니다.
+  * 캠페인 또는 광고 그룹을 선택하려면 확인 표시가 나타나도록 항목을 선택합니다.
 
-   * 캠페인 또는 광고 그룹을 제거하려면 다음 작업을 수행하십시오.
+  * 캠페인 또는 광고 그룹을 제거하려면 다음 작업을 수행하십시오.
 
-      * [!UICONTROL Campaigns] 또는 [!UICONTROL Adgroups] 열에서 캠페인 또는 광고 그룹을 선택 해제하여 확인 표시가 사라지도록 합니다.
+    * [!UICONTROL Campaigns] 또는 [!UICONTROL Adgroups] 열에서 캠페인 또는 광고 그룹을 선택 해제하여 확인 표시가 사라지도록 합니다.
 
-      * [!UICONTROL Selected] 열에서 ![삭제](/help/search-social-commerce/assets/delete.png "삭제")를 클릭합니다.
+    * [!UICONTROL Selected] 열에서 ![삭제](/help/search-social-commerce/assets/delete.png "삭제")를 클릭합니다.
 
 ### [!UICONTROL Customize your import]
 

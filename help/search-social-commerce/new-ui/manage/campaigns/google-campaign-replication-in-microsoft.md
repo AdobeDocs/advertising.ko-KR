@@ -2,13 +2,11 @@
 title: (새 UI) Microsoft Advertising에서 Google 광고 캠페인을 복제합니다
 description: Google Ads 계정의 동기화된 캠페인을 동기화된 Microsoft Advertising 계정으로 직접 내보내는 방법에 대해 알아봅니다.
 feature: Search Campaign Management
-source-git-commit: 75e264e213f60ae45c4f51f0a21352f690d6d699
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 # (새 UI) [!DNL Microsoft Advertising]에서 [!DNL Google Ads] 캠페인 복제
 
 *Beta 기능*
@@ -37,9 +35,11 @@ ht-degree: 0%
 
 [가져온 항목 [!DNL Google Ads] 캠페인](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}을 참조하세요.
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
+1. 캠페인 목록 위에서 **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL + Import Campaigns]**&#x200B;을(를) 클릭합니다.
 
 1. [가져오기 설정](#campaign-import-settings)을 지정하십시오.
 
@@ -47,13 +47,15 @@ ht-degree: 0%
 
 1. 요약에서 선택 내용을 검토하고 **[!UICONTROL Start Import]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) [account](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [광고 그룹](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md) 또는 [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 설정 내에서 검색, 소셜 및 Commerce 추적을 추가합니다.
+1. (선택 사항) [account](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md), [campaign](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [광고 그룹](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md) 또는 [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) 설정 내에서 검색, 소셜 및 Commerce 추적을 추가합니다.
 
 ## 캠페인 가져오기 작업에 대한 일정 설정 편집
 
 [가져온 항목 [!DNL Google Ads] 캠페인](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500){target="_blank"}을 참조하세요.
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+
+1. 캠페인 목록 위에서 **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL List of Import Jobs]** 탭에서 가져오기 작업의 이름을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
@@ -65,13 +67,17 @@ ht-degree: 0%
 
 원본 [!DNL Google Ads] 계정, 대상 [!DNL Microsoft Advertising] 계정, 가져오기 시간 또는 일정, 작업을 만든 사용자를 포함하여 모든 가져오기 작업을 나열할 수 있습니다. 정기적으로 예약된 가져오기 작업을 포함하여 가져오기 작업을 여러 번 실행하면 각 항목이 별도의 작업으로 나열됩니다.
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+
+1. 캠페인 목록 위에서 **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
 
    기본적으로 **[!UICONTROL List of Import Jobs]** 탭이 열립니다.
 
 ## 캠페인 가져오기 작업 실행
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+
+1. 캠페인 목록 위에서 **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL List of Import Jobs]** 탭에서 가져오기 작업 옆의 확인란을 선택한 다음 **[!UICONTROL Run Now]**&#x200B;을(를) 클릭합니다.
 
@@ -79,7 +85,9 @@ ht-degree: 0%
 
 시작 시간, 원본 [!DNL Google Ads] 계정, 대상 [!DNL Microsoft Advertising] 계정, 작업을 만든 사용자, 성공한 작업 및 실패한 작업 수, 각 작업에 대한 알림을 받은 전자 메일 주소를 포함하여 완료되거나 실패한 모든 가져오기 작업을 나열할 수 있습니다. 추가, 동기화, 삭제된 항목 수, 계정의 각 엔터티 수준(예: 캠페인 또는 키워드)에 대한 오류를 생성한 항목 수 등 각 작업에 대해 발생한 대상 [!DNL Microsoft Advertising] 계정의 변경 사항에 대한 자세한 내용을 볼 수 있습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+
+1. 캠페인 목록 위에서 **[!UICONTROL Import Campaigns]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Import Logs]** 탭을 클릭합니다.
 
@@ -131,4 +139,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
+>* [광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)

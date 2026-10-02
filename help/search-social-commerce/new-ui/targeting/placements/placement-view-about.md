@@ -4,13 +4,11 @@ description: '[!UICONTROL Placements] 보기에서 수행할 수 있는 작업�
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: d31afcd7-86f0-4ea0-8050-aab0027faa76
-source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
-
 ---
-
 # (새 UI) [!UICONTROL Placements] 보기에 대한 정보
 
 *Beta 기능*
@@ -23,10 +21,10 @@ ht-degree: 0%
 
 ## 사용 가능한 작업
 
-* [배치에 제한 할당 및 배치에서 제한 할당 해제](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+* [배치에 제한 할당 및 배치에서 제한 할당 해제](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 
-* 배치에 [레이블 분류 할당](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
+* 배치에 [레이블 분류 할당](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
 
 >[!MORELIKETHIS]
 >
->* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)

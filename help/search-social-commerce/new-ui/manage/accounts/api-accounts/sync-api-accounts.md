@@ -3,13 +3,11 @@ title: (새 UI) 수동으로 광고 네트워크 데이터 동기화
 description: 새 UI에서 지원되는 광고 네트워크에 대한 캠페인 구조 및 캠페인 엔티티의 동기화를 수동으로 트리거하는 방법을 알아봅니다.
 feature: Search Campaign Management
 exl-id: 5e857713-53f0-4d90-8b7a-18a3675d320e
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '368'
 ht-degree: 0%
-
 ---
-
 # (새 UI) API 연결을 통해 광고 네트워크 데이터를 수동으로 동기화합니다
 
 <!-- EDIT ALL -- FROM LEGACY UI -->
@@ -26,23 +24,30 @@ Search, Social 및 Commerce은 하루에 한 번 그리고 광고 네트워크 �
 
 >[!NOTE]
 >
->[일괄 시트를 만들기](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)할 때마다 일괄 시트를 만들기 전에 광고 네트워크와 선택적으로 동기화할 수 있습니다.
+>[일괄 시트를 만들기](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)할 때마다 일괄 시트를 만들기 전에 광고 네트워크와 선택적으로 동기화할 수 있습니다.
 
-## 광고 네트워크 계정의 캠페인 동기화
+## 광고 네트워크 계정의 모든 캠페인 동기화
 
-1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
-1. 계정 이름 옆에 있는 확인란을 선택합니다.
+1. 동기화할 각 계정의 이름 옆에 있는 확인란을 선택합니다.
 
    <!-- As of 2/23, you can sync only one acct at a time:  Select the check box next to each account or campaign that you want to sync. You can sync up to 50 campaigns at a time. If you sync more than five accounts at a time, the job is broken into batches of up to five accounts each. -->
 
+1. 일괄 작업 도구 모음에서 **[!UICONTROL Sync]**&#x200B;을(를) 클릭합니다.
+
+작업을 완료하는 데 1시간 이상 걸릴 수 있습니다.
+
+## [!UICONTROL Campaigns] 보기의 캠페인을 동기화합니다.
+
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+
+1. 동기화할 각 캠페인의 이름 옆에 있는 확인란을 선택합니다.
+
 1. 일괄 작업 도구 모음에서 **[!UICONTROL ... More Actions]** > **[!UICONTROL Sync]**&#x200B;을(를) 클릭합니다.
 
-   * 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
-
-[!UICONTROL Workspace] 보기에서 동기화 작업의 상태를 추적할 수 있습니다. 이 작업은 시간이 걸릴 수 있습니다
-1시간 이상 표시되어야 합니다.
+작업을 완료하는 데 1시간 이상 걸릴 수 있습니다.
 
 >[!MORELIKETHIS]
 >
->* [일괄 시트 파일 다운로드/만들기](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [일괄 시트 파일 다운로드/만들기](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)

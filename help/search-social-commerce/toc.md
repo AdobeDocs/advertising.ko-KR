@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: '2396'
+source-wordcount: '2395'
 ht-degree: 2%
 ---
 # Advertising Search, Social 및 Commerce 안내서 {#search-social-commerce}
@@ -75,32 +75,6 @@ ht-degree: 2%
   + 대시보드 {#dashboard}
     + [성능 대시보드 보기](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
     + [게시자 권장 사항 및 통찰력 지원](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
-  + 목표 {#goals}
-    + 목표 {#objectives}
-      + [목표 정보](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
-      + [목표 만들기](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
-      + [목표 편집](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
-      + [목표 삭제](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
-      + [목표에 가중치 권장 사항 적용](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
-      + [목표에 대한 성능 지표 다운로드](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
-      + [목표 설정](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
-      + [광고 네트워크에 목표 업로드 활성화](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
-    + 전환 {#conversions}
-      + [전환 지표 관리에 사용할 수 있는 기능](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
-      + [Adobe Advertising 전환 추적 태그 생성 및 구현](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
-      + [광고주의 전환 지표 관리](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
-      + 향상된 전환 {#enhanced-conversions}
-        + [&#x200B; [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
-        + [향상된 전환을 위해 오프라인 전환 데이터 업로드](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
-    + [&#x200B; [!DNL Google Ads] 전환 값 규칙 관리](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
-    + [검색 입찰 단위에 대한 제한 관리](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
-  + 플랜 {#plan}
-    + 시뮬레이션 {#simulations}
-      + [시뮬레이션 정보](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
-      + [사용자 지정 시뮬레이션 실행 또는 재실행](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
-      + [시뮬레이션 세부 정보 보기](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
-      + [시뮬레이션 다운로드](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
-    + [[!UICONTROL Spend Planner] 사용](/help/search-social-commerce/new-ui/plan/spend-planner.md)
   + 관리 {#manage}
     + 포트폴리오 {#portfolios}
       + [포트폴리오 기본 정보](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)
@@ -117,8 +91,17 @@ ht-degree: 2%
       + [포트폴리오 성능 세부 정보 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
       + [포트폴리오의 변경 내역 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [[!UICONTROL Portfolios] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+    + 계정 {#accounts}
+      + [광고 네트워크 계정 기본 정보](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)
+      + API 연결 계정 {#api}
+        + [API 연결을 통해 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)
+        + [API 연결을 통해 광고 네트워크 데이터 수동 동기화](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/sync-api-accounts.md)
+      + 데이터 업로드 계정 {#data-upload}
+        + [데이터 업로드를 위한 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/data-upload-account-manage.md)
+      + [추적에 대해서만  [!DNL Naver] 계정 관리](/help/search-social-commerce/new-ui/manage/accounts/template-account-manage.md)
     + 캠페인 {#campaigns}
       + [캠페인 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
+      + [&#x200B; [!DNL Microsoft Advertising]의  [!DNL Google Ads] 캠페인 복제](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)
       + 광고 네트워크별 캠페인 설정 {#campaign-settings-by-network}
         + [[!DNL Baidu] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
         + [[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
@@ -145,13 +128,17 @@ ht-degree: 2%
         + [[!DNL Microsoft Advertising] 반응형(대상) 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-responsive.md)
         + [[!DNL Microsoft Advertising] 반응형 검색 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
         + [[!DNL Yandex] 텍스트 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
+    + 키워드 {#keywords}
+      + [[!UICONTROL Keywords] 보기 정보](/help/search-social-commerce/new-ui/manage/keywords/keyword-view-about.md)
+      + [키워드에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+    + [쇼핑 제품 그룹 관리](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + 보고서 {#reports}
     + 예약된 보고서 {#scheduled}
       + [예약된 보고서 정보](/help/search-social-commerce/new-ui/reports/report-about.md)
       + [보고서의 초기 설정 작업](/help/search-social-commerce/new-ui/reports/initial-setup.md)
       + [보고서에 사용된 데이터](/help/search-social-commerce/new-ui/reports/data-used-for-reports.md)
       + [예약된 보고서 관리](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
-      + 예약된 보고서 유형 {#report-types}
+      + 보고서 유형 {#report-types}
         + 기본 및 고급 보고서 {#basic-advanced-reports}
           + [기본 및 고급 보고서 정보](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
           + 기본 보고서 형식 {#basic-report-formats}
@@ -217,29 +204,14 @@ ht-degree: 2%
       + [사용자 정의 보고서에 대한 FAQ](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
     + [스프레드시트 보고서 피드 관리](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
     + [변경 기록 로그 보기](/help/search-social-commerce/new-ui/reports/history-logs.md)
-    + [레이블 분류 관리](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
-  + Target {#target}
-    + 키워드 {#keywords}
-      + [[!UICONTROL Keywords] 보기 정보](/help/search-social-commerce/new-ui/target/keywords/keyword-view-about.md)
-      + [키워드에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
-    + 배치 {#placements}
-      + [[!UICONTROL Placements] 보기 정보](/help/search-social-commerce/new-ui/target/placements/placement-view-about.md)
-      + [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
-    + [&#x200B; [!DNL Google Ads] 동적 검색 대상 관리](/help/search-social-commerce/new-ui/target/dynamic-search-target-manage.md)
-  + 에셋 {#assets}
-    + [크리에이티브 에셋 보기 및 만들기](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)
-    + [쇼핑 제품 그룹 관리](/help/search-social-commerce/new-ui/assets/product-groups-manage.md)
+  + 플랜 {#plan}
+    + 시뮬레이션 {#simulations}
+      + [시뮬레이션 정보](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)
+      + [사용자 지정 시뮬레이션 실행 또는 재실행](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md)
+      + [시뮬레이션 세부 정보 보기](/help/search-social-commerce/new-ui/plan/simulations/simulation-view.md)
+      + [시뮬레이션 다운로드](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)
+    + [[!UICONTROL Spend Planner] 사용](/help/search-social-commerce/new-ui/plan/spend-planner.md)
   + 설정 {#setup}
-    + 계정 {#accounts}
-      + [광고 네트워크 계정 기본 정보](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
-      + API 연결 계정 {#api}
-        + [API 연결을 통해 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)
-        + [&#x200B; [!DNL Google Ads] 관리자 계정의 자격 증명 관리](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
-        + [API 연결을 통해 광고 네트워크 데이터 수동 동기화](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/sync-api-accounts.md)
-      + 데이터 업로드 계정 {#data-upload}
-        + [데이터 업로드를 위한 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
-      + [추적에 대해서만  [!DNL Naver] 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
-    + [&#x200B; [!DNL Microsoft Advertising]의  [!DNL Google Ads] 캠페인 복제](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
     + 일괄 시트 {#bulksheets}
       + [일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)
       + [Bulksheets 업로드를 위한 FTP 계정 설정](/help/search-social-commerce/new-ui/set-up/bulksheets/ftp-account.md)
@@ -251,6 +223,34 @@ ht-degree: 2%
       + [일괄 시트 오류](/help/search-social-commerce/new-ui/set-up/bulksheets/errors.md)
       + [업로드된 일괄 시트 및 오류 파일 삭제](/help/search-social-commerce/new-ui/set-up/bulksheets/delete.md)
       + [진행 중인 일괄 시트 작업 중지](/help/search-social-commerce/new-ui/set-up/bulksheets/stop-job.md)
+    + [레이블 분류 관리](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
+    + [&#x200B; [!DNL Google Ads] 관리자 계정의 자격 증명 관리](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
+  + 목표 {#goals}
+    + 목표 {#objectives}
+      + [목표 정보](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
+      + [목표 만들기](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md)
+      + [목표 편집](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
+      + [목표 삭제](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
+      + [목표에 가중치 권장 사항 적용](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
+      + [목표에 대한 성능 지표 다운로드](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
+      + [목표 설정](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
+      + [광고 네트워크에 목표 업로드 활성화](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)
+    + 전환 {#conversions}
+      + [전환 지표 관리에 사용할 수 있는 기능](/help/search-social-commerce/new-ui/goals/conversions/conversions-about.md)
+      + [Adobe Advertising 전환 추적 태그 생성 및 구현](/help/search-social-commerce/new-ui/goals/conversions/conversion-tag-generate.md)
+      + [광고주의 전환 지표 관리](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+      + 향상된 전환 {#enhanced-conversions}
+        + [&#x200B; [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기](/help/search-social-commerce/new-ui/goals/conversions/conversion-action-google-create.md)
+        + [향상된 전환을 위해 오프라인 전환 데이터 업로드](/help/search-social-commerce/new-ui/goals/conversions/conversions-upload-offline-enhanced-conversions.md)
+    + [&#x200B; [!DNL Google Ads] 전환 값 규칙 관리](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
+    + [검색 입찰 단위에 대한 제한 관리](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
+  + 타기팅 {#targeting}
+    + [&#x200B; [!DNL Google Ads] 동적 검색 대상 관리](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
+    + 배치 {#placements}
+      + [[!UICONTROL Placements] 보기 정보](/help/search-social-commerce/new-ui/targeting/placements/placement-view-about.md)
+      + [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+  + 라이브러리 {#library}
+    + [크리에이티브 에셋 보기 및 만들기](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
   + [사용자 지정 경고 관리](/help/search-social-commerce/new-ui/alerts-manage.md)
   + [알림 관리](/help/search-social-commerce/new-ui/notifications-manage.md)
   + [사용자 관리](/help/search-social-commerce/new-ui/user-administration.md)
