@@ -265,7 +265,7 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 
 * **S_kwcid 형식:**(기존 [!DNL Google Ads] 계정은 Adobe Advertising-Adobe Analytics 통합을 사용하며 AMO ID(s_kwcid)가 이미 마이그레이션되지 않은 광고주용 계정)
 
-이 계정은 AMO ID 추적 코드에 대해 이전 형식을 사용하므로 Adobe Advertising이 Adobe Analytics과 계정에 대한 데이터를 공유할 수 있습니다. [최신 형식](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)에는 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수가 포함되어 있습니다. 이 매개 변수는 Analytics의 [!DNL Google Ads] 성과 최대 캠페인 및 초안과 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요합니다.
+이 계정은 AMO ID 추적 코드에 대해 이전 형식을 사용하므로 Adobe Advertising이 Adobe Analytics과 계정에 대한 데이터를 공유할 수 있습니다. [최신 형식](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items)에는 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수가 포함되어 있습니다. 이 매개 변수는 Analytics의 [!DNL Google Ads] 성과 최대 캠페인 및 초안과 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요합니다.
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
