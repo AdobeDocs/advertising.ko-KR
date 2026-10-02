@@ -2,13 +2,11 @@
 title: (새 UI) 알림 관리
 description: 푸시 알림 및 알림 센터 웹 애플리케이션을 비롯한 검색, 소셜 및 Commerce 알림을 보고, 구성하고, 관리하는 방법을 알아봅니다.
 feature: Search Notifications
-source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 알림 관리
 
 *Beta 기능*
@@ -45,57 +43,57 @@ ht-degree: 0%
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL Bulksheets]**: [일괄 시트 작업](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)이 완료되었거나 실패했다는 알림입니다.<!-- Update link once file for new UI available-->
+  * **[!UICONTROL Bulksheets]**: [일괄 시트 작업](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)이 완료되었거나 실패했다는 알림입니다.<!-- Update link once file for new UI available-->
 
-   * **[!UICONTROL Manager Account Missing]**: Search, Social 및 Commerce에 [ad 네트워크 관리자 계정](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)에 대한 자격 증명이 누락되었다는 알림으로, 중요한 기능을 올바르게 설정하는 데 필요합니다.<!-- Moving to Campaign Management > Setup Errors at some point -->
+  * **[!UICONTROL Manager Account Missing]**: Search, Social 및 Commerce에 [ad 네트워크 관리자 계정](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)에 대한 자격 증명이 누락되었다는 알림으로, 중요한 기능을 올바르게 설정하는 데 필요합니다.<!-- Moving to Campaign Management > Setup Errors at some point -->
 
-   * **[!UICONTROL UI Actions]**: 백그라운드에서 수행되는 작업이 완료되었거나 실패했음을 알립니다. 작업 유형에는 [일괄 시트 작업](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->, 데이터 테이블 내의 일괄 편집 작업 또는 도구 모음 사용, 엔티티 할당 작업 또는 사용자 인터페이스 내의 기타 작업(예: 광고 네트워크와의 동기화, 행 붙여넣기 또는 엔티티 이름 바꾸기)이 포함됩니다. 엔터티 할당에는 엔터티에 [레이블 분류 값](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)을 할당하거나 할당 취소, 포트폴리오에 캠페인 할당, 엔터티에 [입찰 제한 할당 또는 할당 취소](/help/search-social-commerce/new-ui/goals/constraints-manage.md)가 포함됩니다.
+  * **[!UICONTROL UI Actions]**: 백그라운드에서 수행되는 작업이 완료되었거나 실패했음을 알립니다. 작업 유형에는 [일괄 시트 작업](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->, 데이터 테이블 내의 일괄 편집 작업 또는 도구 모음 사용, 엔티티 할당 작업 또는 사용자 인터페이스 내의 기타 작업(예: 광고 네트워크와의 동기화, 행 붙여넣기 또는 엔티티 이름 바꾸기)이 포함됩니다. 엔터티 할당에는 엔터티에 [레이블 분류 값](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)을 할당하거나 할당 취소, 포트폴리오에 캠페인 할당, 엔터티에 [입찰 제한 할당 또는 할당 취소](/help/search-social-commerce/new-ui/goals/constraints-manage.md)가 포함됩니다.
 
-   * [!UICONTROL Data Upload]
+  * [!UICONTROL Data Upload]
 
-      * **[!UICONTROL Direct File Upload]**: [수동 계정 데이터 업로드](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md)를 통해 계정 데이터 파일이 업로드되었거나 계정 데이터 업로드가 실패했음을 알립니다. <!-- Verify description-->
+    * **[!UICONTROL Direct File Upload]**: [수동 계정 데이터 업로드](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/upload-account-data.md)를 통해 계정 데이터 파일이 업로드되었거나 계정 데이터 업로드가 실패했음을 알립니다. <!-- Verify description-->
 
-      * **[!UICONTROL File Upload to Cloud Storage]**: [계정 데이터를  [!DNL Amazon] [!DNL S3] 버킷에 업로드](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/upload-account-data.md)하여 계정 데이터 파일이 업로드되었거나 계정 데이터 업로드가 실패했음을 알립니다. <!-- Verify description-->
+    * **[!UICONTROL File Upload to Cloud Storage]**: [계정 데이터를  [!DNL Amazon] [!DNL S3] 버킷에 업로드](/help/search-social-commerce/new-ui/manage/accounts/data-upload-accounts/upload-account-data.md)하여 계정 데이터 파일이 업로드되었거나 계정 데이터 업로드가 실패했음을 알립니다. <!-- Verify description-->
 
-   * [!UICONTROL Network Errors]
+  * [!UICONTROL Network Errors]
 
-      * **[!UICONTROL Account Auth Error]**: 자격 증명이 잘못되었거나 인증 토큰이 잘못되었거나 만료되어 Search, Social 및 Commerce에서 [ad 네트워크 계정](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)에 액세스할 수 없다는 알림입니다.
+    * **[!UICONTROL Account Auth Error]**: 자격 증명이 잘못되었거나 인증 토큰이 잘못되었거나 만료되어 Search, Social 및 Commerce에서 [ad 네트워크 계정](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)에 액세스할 수 없다는 알림입니다.
 
-      * **[!UICONTROL Account Missing]**: Search, Social 및 Commerce에 [광고 네트워크 계정](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)에 대한 자격 증명이 없다는 알림입니다.
+    * **[!UICONTROL Account Missing]**: Search, Social 및 Commerce에 [광고 네트워크 계정](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)에 대한 자격 증명이 없다는 알림입니다.
 
-      * **[!UICONTROL Manager Account Auth Error]**: 자격 증명이 잘못되었거나 인증 토큰이 잘못되었거나 만료되어 Search, Social 및 Commerce이 [ad 네트워크 관리자 계정](/help/search-social-commerce/admin/manager-accounts.md)과(와) 동기화할 수 없다는 알림입니다.<!-- Update link once file for new UI available-->
+    * **[!UICONTROL Manager Account Auth Error]**: 자격 증명이 잘못되었거나 인증 토큰이 잘못되었거나 만료되어 Search, Social 및 Commerce이 [ad 네트워크 관리자 계정](/help/search-social-commerce/admin/manager-accounts.md)과(와) 동기화할 수 없다는 알림입니다.<!-- Update link once file for new UI available-->
 
 * [!UICONTROL Insights & Reports]
 
-   * **[!UICONTROL Advertising Insights]**: [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md)에 대한 알림이 완료되었거나 실패했습니다.
+  * **[!UICONTROL Advertising Insights]**: [an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md)에 대한 알림이 완료되었거나 실패했습니다.
 
-   * **[!UICONTROL Custom Alerts]**: 경고 템플릿에 대해 [경고 인스턴스](/help/search-social-commerce/new-ui/alerts-manage.md)가 트리거된 알림입니다.
+  * **[!UICONTROL Custom Alerts]**: 경고 템플릿에 대해 [경고 인스턴스](/help/search-social-commerce/new-ui/alerts-manage.md)가 트리거된 알림입니다.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: [스프레드시트 피드](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)가 완료되었거나 실패했다는 알림입니다.
+  * **[!UICONTROL Spreadsheet Feeds]**: [스프레드시트 피드](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)가 완료되었거나 실패했다는 알림입니다.
 
-   * [!UICONTROL Reports]
+  * [!UICONTROL Reports]
 
-      * **[!UICONTROL Grid Reports]**: 특정 보기의 데이터 보기 보고서(예: [!UICONTROL Camapigns] 보기의 데이터 테이블 내용)가 완료되었거나 실패했음을 알립니다.
+    * **[!UICONTROL Grid Reports]**: 특정 보기의 데이터 보기 보고서(예: [!UICONTROL Camapigns] 보기의 데이터 테이블 내용)가 완료되었거나 실패했음을 알립니다.
 
-      * **[!UICONTROL Reports]**: [사용자 지정 또는 예약된 보고서](/help/search-social-commerce/new-ui/reports/management/report-manage.md)가 완료되었거나 실패했다는 알림입니다.
+    * **[!UICONTROL Reports]**: [사용자 지정 또는 예약된 보고서](/help/search-social-commerce/new-ui/reports/management/report-manage.md)가 완료되었거나 실패했다는 알림입니다.
 
-   * [!UICONTROL Portfolio Management]
+  * [!UICONTROL Portfolio Management]
 
-      * **[!UICONTROL Intraday Optimization]**: 실시간 최적화를 사용하지 않도록 설정할 때의 알림입니다.
+    * **[!UICONTROL Intraday Optimization]**: 실시간 최적화를 사용하지 않도록 설정할 때의 알림입니다.
 
-      * **[!UICONTROL Simulation Report]**: [시뮬레이션 작업](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)에 대한 알림입니다.
+    * **[!UICONTROL Simulation Report]**: [시뮬레이션 작업](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md)에 대한 알림입니다.
 
-      * [!UICONTROL Objective & Conversion Configuration]
+    * [!UICONTROL Objective & Conversion Configuration]
 
-         * **[!UICONTROL Auto Assign Campaign Conversion Goal - Advertiser Level]**: 캠페인 전환 목표의 자동 할당 성공 및 실패에 대한 광고주 수준의 알림입니다.
+      * **[!UICONTROL Auto Assign Campaign Conversion Goal - Advertiser Level]**: 캠페인 전환 목표의 자동 할당 성공 및 실패에 대한 광고주 수준의 알림입니다.
 
-         * **[!UICONTROL Auto Assign Campaign Conversion Goal - Portfolio Level]**: 캠페인 전환 목표의 자동 할당 성공 및 실패에 대한 포트폴리오 수준의 알림입니다.
+      * **[!UICONTROL Auto Assign Campaign Conversion Goal - Portfolio Level]**: 캠페인 전환 목표의 자동 할당 성공 및 실패에 대한 포트폴리오 수준의 알림입니다.
 
-      * [!UICONTROL Portfolios]
+    * [!UICONTROL Portfolios]
 
-         * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]**: 일괄 시트를 통한 [포트폴리오 일괄 편집 작업에 대한 알림](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md).
+      * **[!UICONTROL Portfolio Bulksheet Diagnostic Report]**: 일괄 시트를 통한 [포트폴리오 일괄 편집 작업에 대한 알림](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md).
 
-         * **[!UICONTROL Portfolio Settings]**: [포트폴리오 설정 변경](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)에 대한 알림입니다.
+      * **[!UICONTROL Portfolio Settings]**: [포트폴리오 설정 변경](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)에 대한 알림입니다.
 
 <!--
 
@@ -192,9 +190,9 @@ In Campaign Management:
 
    * 알림을 구독하거나 구독을 취소하려면 [!UICONTROL Subscribe] 열에서 슬라이더를 이동합니다.
 
-      * 모든 알림 유형에서 가입을 해지하려면 슬라이더를 왼쪽(비활성화)으로 이동합니다.
+     * 모든 알림 유형에서 가입을 해지하려면 슬라이더를 왼쪽(비활성화)으로 이동합니다.
 
-      * 하나 이상의 알림 유형에 가입하려면 슬라이더를 오른쪽으로 이동합니다(활성화됨).
+     * 하나 이상의 알림 유형에 가입하려면 슬라이더를 오른쪽으로 이동합니다(활성화됨).
 
    * ([!UICONTROL Subscribe]을(를) 사용하도록 설정한 경우) 전자 메일 알림을 구독하려면 **[!UICONTROL Email]** 열의 확인란을 선택하십시오.
 
@@ -298,21 +296,21 @@ In Campaign Management:
 
 * 검색, 소셜 및 Commerce 내에서:
 
-   1. 페이지의 오른쪽 상단에서 ![알림](/help/search-social-commerce/assets/notifications.png "알림")을 클릭합니다.
+  1. 페이지의 오른쪽 상단에서 ![알림](/help/search-social-commerce/assets/notifications.png "알림")을 클릭합니다.
 
-   1. **[!UICONTROL View All]**&#x200B;을(를) 클릭합니다.
+  1. **[!UICONTROL View All]**&#x200B;을(를) 클릭합니다.
 
-   1. 오른쪽 하단에서 ![알림 센터 웹 앱 설치](/help/search-social-commerce/assets/notifications-install-app.png "알림 센터 웹 앱 설치")를 클릭합니다.
+  1. 오른쪽 하단에서 ![알림 센터 웹 앱 설치](/help/search-social-commerce/assets/notifications-install-app.png "알림 센터 웹 앱 설치")를 클릭합니다.
 
-   1. 확인 메시지에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+  1. 확인 메시지에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
-   1. [!UICONTROL Install Notification Center] 앱 메시지에서 **[!UICONTROL Install]**&#x200B;을(를) 클릭합니다.
+  1. [!UICONTROL Install Notification Center] 앱 메시지에서 **[!UICONTROL Install]**&#x200B;을(를) 클릭합니다.
 
 * [!DNL Edge] 주 메뉴에서:
 
-   1. 브라우저 도구 모음에서 **..** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**&#x200B;을(를) 클릭합니다.
+  1. 브라우저 도구 모음에서 **..** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**&#x200B;을(를) 클릭합니다.
 
-   1. [!UICONTROL Install Notification Center] 앱 메시지에서 **[!UICONTROL Install]**&#x200B;을(를) 클릭합니다.
+  1. [!UICONTROL Install Notification Center] 앱 메시지에서 **[!UICONTROL Install]**&#x200B;을(를) 클릭합니다.
 
 ### [!DNL Google Chrome]에 대한 [!UICONTROL Notification Center] 웹 응용 프로그램 제거
 

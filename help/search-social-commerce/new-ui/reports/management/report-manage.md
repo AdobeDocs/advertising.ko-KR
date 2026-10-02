@@ -2,13 +2,11 @@
 title: 예약된 보고서 관리
 description: 예약된 보고서를 관리하는 방법을 알아봅니다.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports, Search Assist Reports, Search Model Accuracy Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
-
 ---
-
 # 예약된 보고서 관리
 
 성능 보고서를 사용하면 포트폴리오, 광고 네트워크 및 광고 네트워크 계정 엔터티의 성능을 원하는 수준으로 추적하고 관리할 수 있습니다. 대부분의 보고서는 각 마케팅 채널의 광고가 전체 전환율에 어떻게 기여하는지에 대한 완전한 가시성을 제공합니다.
@@ -39,9 +37,9 @@ ht-degree: 0%
 
 * [스프레드시트 피드](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)를 사용하여 일일 성능 데이터로 사용자 지정된 스프레드시트 템플릿을 계속 새로 고칩니다.
 
-## [!UICONTROL Scheduled Reports] 보기
+## [!UICONTROL Reports] 보기
 
-[!UICONTROL Reports] > [!UICONTROL Scheduled Reports] 보기를 통해 보고서 및 보고서 템플릿을 만들고 관리할 수 있습니다.
+[!UICONTROL Reports] > [!UICONTROL Reports] 보기를 통해 보고서 및 보고서 템플릿을 만들고 관리할 수 있습니다.
 
 * **[!UICONTROL Latest Reports]** 탭에는 수동으로 삭제된 보고서를 제외한 사용 가능한 모든 보고서가 나열되며, 기본적으로 가장 최근 보고서가 맨 위에 있습니다.<!-- Doesn't seem to be true: that were requested in the last seven days --> 각 보고서에 대해 표시되는 정보에는 보고서 실행 일정(해당되는 경우), 데이터가 생성되었거나 생성될 시작 및 종료 날짜, 보고서를 만든 사람, 보고서 상태(*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* 또는 *[!UICONTROL Error]*)가 포함됩니다.
 
@@ -59,14 +57,14 @@ ht-degree: 0%
 | ---- | ---- |
 | 성능 모니터링 | <ul><li>[[!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)</li><li>[[!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)</li><li>[[!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[[!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)</li><li>[[!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)</li><li>[[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | 성능 문제 해결 및 추세 분석 | <ul><li>[[!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)</li><li>[[!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)</li><li>[[!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)</li><li>[[!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)</li><li>[[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md) 및 [[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>&quot;[!UICONTROL Compare with]&quot; 기능을 사용하여 두 시간 창을 비교하는 모든 기본 보고서</li></ul> |
-| 비즈니스 성장 기회 파악 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
-| 분석 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
+| 비즈니스 성장 기회 파악 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
+| 분석 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
 
 ## 보고서 생성
 
 ### 새 보고서 생성
 
-1. 메인 메뉴에서 **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Create Report]**&#x200B;을(를) 클릭하고 왼쪽 패널에서 보고서 범주를 클릭한 다음 보고서 유형을 선택합니다.<!-- Add link to list of report categories and report types --> **[!UICONTROL Proceed]**&#x200B;을(를) 클릭합니다.
 
@@ -96,7 +94,7 @@ ht-degree: 0%
 
 ### 기존 보고서에서 보고서 생성
 
-1. 메인 메뉴에서 **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;을(를) 클릭합니다. 그러면 **[!UICONTROL Latest Reports]** 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다. 그러면 **[!UICONTROL Latest Reports]** 탭이 열립니다.
 
 1. 다음 중 하나를 수행합니다.
 
@@ -110,7 +108,7 @@ ht-degree: 0%
 
 ### 기존 템플릿에서 보고서 생성
 
-1. 메인 메뉴에서 **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;을(를) 클릭합니다.
+1. 메인 메뉴에서 **[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Templates]** 탭을 클릭합니다.
 
@@ -136,45 +134,45 @@ ht-degree: 0%
 >
 >Adobe 계정 팀원과 일부 관리자 사용자는 광고주와 에이전시 사용자가 만든 보고서를 볼 수 있습니다.
 
-1. 메인 메뉴에서 **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;을(를) 클릭합니다. 그러면 **[!UICONTROL Latest Reports]** 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다. 그러면 **[!UICONTROL Latest Reports]** 탭이 열립니다.
 
 1. 다음 중 하나를 수행합니다.
 
    * (웹 브라우저에서 보고서를 보려면) 다음 중 하나를 수행하십시오.
 
-      * 템플릿 행 위에 커서를 놓고 **..** > **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
+     * 템플릿 행 위에 커서를 놓고 **..** > **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 
-      * 기존 템플릿 옆에 있는 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
+     * 기존 템플릿 옆에 있는 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 
    * (보고서 데이터를 열거나 파일에 저장하려면) 보고서 이름 옆에 있는 [!UICONTROL Export] 열에서 형식 이름을 클릭한 다음 브라우저의 일반적인 절차에 따라 파일을 열거나 저장합니다.
 
-      * **[!UICONTROL XLS]:** 단일 워크시트(XLSX 형식)가 있는 [!DNL Excel] 통합 문서의 경우. 이 보고서에는 매개 변수와 함께 맨 위에 레이블이 지정된 한 개의 워크시트가 포함되며, 구성 요소에 대한 데이터를 사용할 수 있을 때 각 구성 요소에 대해 하나의 행이 보고됩니다. 데이터가 없는 행은 생략됩니다.
+     * **[!UICONTROL XLS]:** 단일 워크시트(XLSX 형식)가 있는 [!DNL Excel] 통합 문서의 경우. 이 보고서에는 매개 변수와 함께 맨 위에 레이블이 지정된 한 개의 워크시트가 포함되며, 구성 요소에 대한 데이터를 사용할 수 있을 때 각 구성 요소에 대해 하나의 행이 보고됩니다. 데이터가 없는 행은 생략됩니다.
 
-        기본 보고서에는 각 숫자 열에 대한 합계가 포함됩니다.
+       기본 보고서에는 각 숫자 열에 대한 합계가 포함됩니다.
 
-      * TSV 파일용 **[!UICONTROL TSV]:**. 이 보고서에는 보고되는 각 구성 요소에 대한 매개 변수와 하나의 행이 포함됩니다.
+     * TSV 파일용 **[!UICONTROL TSV]:**. 이 보고서에는 보고되는 각 구성 요소에 대한 매개 변수와 하나의 행이 포함됩니다.
 
-      * CSV 파일용 **[!UICONTROL CSV]:**. 이 보고서에는 보고되는 각 구성 요소에 대한 매개 변수와 하나의 행이 포함됩니다.
+     * CSV 파일용 **[!UICONTROL CSV]:**. 이 보고서에는 보고되는 각 구성 요소에 대한 매개 변수와 하나의 행이 포함됩니다.
 
 ## 보고서 삭제
 
-1. 메인 메뉴에서 **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**&#x200B;을(를) 클릭합니다. 그러면 **[!UICONTROL Latest Reports]** 탭이 열립니다.
+1. 메인 메뉴에서 **[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다. 그러면 **[!UICONTROL Latest Reports]** 탭이 열립니다.
 
 1. 다음 중 하나를 수행합니다.
 
    * (단일 보고서를 삭제하려면):
 
-      1. 커서를 보고서 행 위에 놓고 **..** > **[!UICONTROL Run]**&#x200B;을(를) 클릭합니다.
+     1. 커서를 보고서 행 위에 놓고 **..** > **[!UICONTROL Run]**&#x200B;을(를) 클릭합니다.
 
-      1. 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
+     1. 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
    * (하나 이상의 보고서를 삭제하려면 다음을 수행하십시오.)
 
-      1. 삭제할 각 보고서 옆에 있는 확인란을 선택합니다.
+     1. 삭제할 각 보고서 옆에 있는 확인란을 선택합니다.
 
-      1. 일괄 작업 도구 모음에서 [삭제](/help/search-social-commerce/assets/delete-new.png "삭제") **[!UICONTROL Delete]**&#x200B;를 클릭합니다.
+     1. 일괄 작업 도구 모음에서 [삭제](/help/search-social-commerce/assets/delete-new.png "삭제") **[!UICONTROL Delete]**&#x200B;를 클릭합니다.
 
-      1. 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
+     1. 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
 <!--
 

@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
 source-wordcount: '2285'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 캠페인은 광고 네트워크 계정의 기본 구성 요소입니다. 대부분의 캠페인 유형의 경우, 광고 그룹 또는 광고 세트 세트로 구성됩니다. 캠페인 설정에는 캠페인 예산 매개 변수, 광고 타겟 및 캠페인의 모든 광고에 대한 선택적 추적 매개 변수가 포함됩니다. 캠페인 수준 추적 매개 변수는 계정 수준 매개 변수를 재정의하지만, 그 자체가 더 낮은 수준에서 재정의될 수 있습니다.
 
-[API 연결을 통해 광고 네트워크 계정에 액세스할 수 있도록 설정](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) 및 검색, 소셜 및 Commerce이 계정 데이터를 광고 네트워크와 동기화하면 [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)을 사용하여 새 캠페인을 만들 수 있습니다. 캠페인의 상태를 편집하고 변경할 수도 있습니다.
+[API 연결을 통해 광고 네트워크 계정에 액세스할 수 있도록 설정](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) 및 검색, 소셜 및 Commerce이 계정 데이터를 광고 네트워크와 동기화하면 [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)을 사용하여 새 캠페인을 만들 수 있습니다. 캠페인의 상태를 편집하고 변경할 수도 있습니다.
 
 각 광고 네트워크에서 사용할 수 있는 기능에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;를 참조하십시오.
 
@@ -424,8 +424,8 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 >
 >* [검색 입찰 단위에 대한 제약 조건 관리](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [광고 그룹에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [(레거시 UI) 캠페인 관리 보기에서 데이터를 다운로드합니다](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(기존 UI) [!UICONTROL Downloads] 메뉴에서 성능 데이터 보고서 또는 일괄 시트 파일을 삭제합니다.](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)

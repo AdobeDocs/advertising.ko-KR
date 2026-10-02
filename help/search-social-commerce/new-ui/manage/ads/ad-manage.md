@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 광고는 광고 그룹에 속하며, 광고 네트워크 및 광고 유형에 따라 헤드라인, 설명, 이미지 또는 기타 크리에이티브 요소 등 사용자에게 표시되는 콘텐츠를 포함합니다.
 
-[API 연결을 통해 광고 네트워크 계정에 액세스할 수 있도록 설정](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) 및 검색, 소셜 및 Commerce이 계정 데이터를 광고 네트워크와 동기화하면 [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)에 대한 광고를 만들 수 있습니다. 광고의 상태를 편집하고 변경할 수도 있습니다.
+[API 연결을 통해 광고 네트워크 계정에 액세스할 수 있도록 설정](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) 및 검색, 소셜 및 Commerce이 계정 데이터를 광고 네트워크와 동기화하면 [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)에 대한 광고를 만들 수 있습니다. 광고의 상태를 편집하고 변경할 수도 있습니다.
 
 각 광고 네트워크에서 사용할 수 있는 기능에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;를 참조하십시오.
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-1. &#x200B;<!-- Add link to where to generate this once available to users-->(Adobe Advertising 전환 추적을 사용하는 캠페인의 쇼핑 광고, 선택 사항) 광고 클릭을 추적하려면 계정, 캠페인 또는 제품 그룹 설정에 추적 URL을 수동으로 추가하십시오.
+1. <!-- Add link to where to generate this once available to users-->(Adobe Advertising 전환 추적을 사용하는 캠페인의 쇼핑 광고, 선택 사항) 광고 클릭을 추적하려면 계정, 캠페인 또는 제품 그룹 설정에 추적 URL을 수동으로 추가하십시오.
 
 ## 광고 이름 바꾸기 {#ad-rename}
 

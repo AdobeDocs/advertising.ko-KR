@@ -6,20 +6,24 @@ feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Optimization
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 2136
+source-wordcount: '2136'
 ht-degree: 0%
-
 ---
-
 # 광고 네트워크 계정 관리
 
 다음은 광고 네트워크 계정 세부 정보를 만들고 편집하고, 계정에 대한 [!DNL oAuth] 토큰을 새로 고치고, 계정을 사용하지 않도록 설정하는 지침입니다.
@@ -30,7 +34,7 @@ ht-degree: 0%
 
 각 광고 네트워크에서 사용할 수 있는 기능에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;를 참조하십시오.
 
-새 UI에서 광고 네트워크 계정을 관리하는 방법에 대한 지침은 &quot;[(새 UI) API 연결을 통해 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)&quot;를 참조하십시오.
+새 UI에서 광고 네트워크 계정을 관리하는 방법에 대한 지침은 &quot;[(새 UI) API 연결을 통해 광고 네트워크 계정 관리](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md)&quot;를 참조하십시오.
 
 ## 광고 네트워크 계정 세부 정보 만들기 {#create-account}
 
@@ -139,11 +143,11 @@ Search, Social 및 Commerce이 [OAuth 인증 프로토콜](https://oauth.net/2/)
 
    * (하나 이상의 계정에 대한 상태를 변경하려면) 다음을 수행합니다.
 
-      1. 각 계정 옆의 확인란을 선택합니다.
+     1. 각 계정 옆의 확인란을 선택합니다.
 
-         여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
+        여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
 
-      1. 데이터 테이블 위의 도구 모음에서 ![활성화 아이콘](/help/search-social-commerce/assets/activate.png "활성화 아이콘")을 클릭하여 계정을 활성화하거나 ![비활성화 아이콘](/help/search-social-commerce/assets/disable.png "비활성화 아이콘")을(를) 클릭하여 계정을 비활성화합니다.
+     1. 데이터 테이블 위의 도구 모음에서 ![활성화 아이콘](/help/search-social-commerce/assets/activate.png "활성화 아이콘")을 클릭하여 계정을 활성화하거나 ![비활성화 아이콘](/help/search-social-commerce/assets/disable.png "비활성화 아이콘")을(를) 클릭하여 계정을 비활성화합니다.
 
 ## 광고 네트워크 계정 설정 {#account-settings}
 
@@ -205,9 +209,9 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 
 * 최종 URL을 포함하려면 다음을 수행하십시오.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+  * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
-   * ([!DNL LY Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
+  * ([!DNL LY Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 
 * 필요에 따라 URL 매개 변수와 캠페인에 대해 정의된 사용자 지정 매개 변수를 앰퍼샌드(&amp;)로 구분하여 포함할 수 있습니다(예: `{lpurl}?matchtype={matchtype}&device={device}`).
 
@@ -261,7 +265,7 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 
 * **S_kwcid 형식:**(기존 [!DNL Google Ads] 계정은 Adobe Advertising-Adobe Analytics 통합을 사용하며 AMO ID(s_kwcid)가 이미 마이그레이션되지 않은 광고주용 계정)
 
-이 계정은 AMO ID 추적 코드에 대해 이전 형식을 사용하므로 Adobe Advertising이 Adobe Analytics과 계정에 대한 데이터를 공유할 수 있습니다. [최신 형식](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items)에는 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수가 포함되어 있습니다. 이 매개 변수는 Analytics의 [!DNL Google Ads] 성과 최대 캠페인 및 초안과 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요합니다.
+이 계정은 AMO ID 추적 코드에 대해 이전 형식을 사용하므로 Adobe Advertising이 Adobe Analytics과 계정에 대한 데이터를 공유할 수 있습니다. [최신 형식](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)에는 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수가 포함되어 있습니다. 이 매개 변수는 Analytics의 [!DNL Google Ads] 성과 최대 캠페인 및 초안과 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서 정확하게 보고하는 데 필요합니다.
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

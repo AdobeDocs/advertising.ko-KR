@@ -4,20 +4,25 @@ description: 사용 가능한 다양한 보고서 유형 및 보고서 자동화
 feature: Search Reports
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
+    internal-label: Reports
   - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
   - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
   - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
   - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
   - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
-source-git-commit: bd4246ec79684167254a153d2f3d0b917a493096
+    internal-label: Specialty reports
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 예약된 보고서 정보
 
 예약된 성능 보고서를 사용하면 포트폴리오, 광고 네트워크 및 광고 네트워크 계정 엔티티의 성능을 원하는 수준만큼 세부적으로 추적 및 관리할 수 있습니다. 대부분의 보고서는 각 마케팅 채널의 광고가 전체 전환율에 어떻게 기여하는지에 대한 완전한 가시성을 제공합니다.
@@ -28,7 +33,7 @@ ht-degree: 0%
 
 ## 사용 가능한 보고서 카테고리
 
-[!UICONTROL Scheduled Reports] 보기에서 다음 보고서 범주를 사용할 수 있습니다. 모든 보고서에 대한 액세스 권한이 없을 수도 있습니다. 사용 가능한 보고서 및 보고서에서 생성하는 데이터는 사용자의 역할과 고객 계정이 구성되는 방식에 따라 결정됩니다.
+[!UICONTROL Reports] > [!UICONTROL Reports] 보기에서 다음 보고서 범주를 사용할 수 있습니다. 모든 보고서에 대한 액세스 권한이 없을 수도 있습니다. 사용 가능한 보고서 및 보고서에서 생성하는 데이터는 사용자의 역할과 고객 계정이 구성되는 방식에 따라 결정됩니다.
 
 | 보고서 범주 | 설명 |
 | ----| ---- |
@@ -48,9 +53,9 @@ ht-degree: 0%
 
 * [스프레드시트 피드](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)를 사용하여 일일 성능 데이터로 사용자 지정된 스프레드시트 템플릿을 계속 새로 고칩니다.
 
-## [!UICONTROL Scheduled Reports] 보기
+## [!UICONTROL Reports] 보기
 
-[!UICONTROL Reports] > [!UICONTROL Scheduled Reports] 보기를 통해 보고서, 템플릿 및 스프레드시트 피드를 만들고 관리할 수 있습니다. 이 보기에는 두 개의 탭이 있습니다.
+[!UICONTROL Reports] > [!UICONTROL Reports] 보기를 통해 보고서, 템플릿 및 스프레드시트 피드를 만들고 관리할 수 있습니다. 이 보기에는 두 개의 탭이 있습니다.
 
 * **[!UICONTROL Latest Reports]** 탭에는 수동으로 삭제된 보고서를 제외하고 지난 7일 동안 요청한 사용 가능한 모든 보고서가 나열되며 가장 최근 보고서는 기본적으로 맨 위에 있습니다. 각 보고서에 대해 표시되는 정보에는 보고서 실행 일정(해당되는 경우), 데이터가 생성되었거나 생성될 시작 및 종료 날짜, 보고서 상태(*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* 또는 *[!UICONTROL Error]*)가 포함됩니다.
 
@@ -68,8 +73,8 @@ ht-degree: 0%
 | ---- | ---- |
 | 성능 모니터링 | <ul><li>[[!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)</li><li>[[!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)</li><li>[[!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[[!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)</li><li>[[!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)</li><li>[[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | 성능 문제 해결 및 추세 분석 | <ul><li>[[!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)</li><li>[[!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)</li><li>[[!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)</li><li>[[!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)</li><li>[[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md) 및 [[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>&quot;[!UICONTROL Compare with]&quot; 기능을 사용하여 두 시간 창을 비교하는 모든 기본 보고서</li></ul> |
-| 비즈니스 성장 기회 파악 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
-| 분석 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
+| 비즈니스 성장 기회 파악 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
+| 분석 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
 
 >[!MORELIKETHIS]
 >
