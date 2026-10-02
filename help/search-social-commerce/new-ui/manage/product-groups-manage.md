@@ -36,7 +36,7 @@ ht-degree: 2%
 
 동일한 제품이 둘 이상의 캠페인에 포함된 경우 광고 네트워크는 먼저 캠페인 우선 순위를 사용하여 광고 경매에 적합한 캠페인(및 관련 입찰)을 결정합니다. 모든 캠페인이 동일한 우선 순위를 갖는 경우 입찰이 가장 높은 캠페인이 적격입니다.
 
-[!DNL Google] 쇼핑 캠페인 및 광고에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 3}&quot; 및 [Google 광고 설명서](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1)를 참조하십시오. ](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)[!DNL Microsoft] 쇼핑 캠페인에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 3}&quot; 및 [[!DNL Microsoft Advertising] 설명서](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)를 참조하세요.](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+[!DNL Google] 쇼핑 캠페인 및 광고에 대한 자세한 내용은 &quot;[&#128279;](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)쇼핑 캠페인 구현 [!DNL Google Ads] 3&rbrace;&quot; 및 [Google 광고 설명서](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1)를 참조하십시오. &#x200B;[!DNL Microsoft] 쇼핑 캠페인에 대한 자세한 내용은 &quot;[&#128279;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 3&rbrace;&quot; 및 [[!DNL Microsoft Advertising] 설명서](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500)를 참조하세요.
 
 >[!NOTE]
 >
@@ -349,6 +349,6 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->* [쇼핑 캠페인 구현 [!DNL Google Ads] 2}](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
->* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [쇼핑 캠페인 구현 [!DNL Google Ads] 2&rbrace;](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2&rbrace;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
 >* [[!UICONTROL Product Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/product-group-report.md)
