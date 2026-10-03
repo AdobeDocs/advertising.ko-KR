@@ -3,18 +3,24 @@ title: 피드 템플릿 관리
 description: 피드 템플릿을 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
 exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
-TQID: https://experienceleague.adobe.com/5bEvYLuXmwYHifo--x98vtfZ7-tVsLcRq5LGSLilFvM
+TQID: 'https://experienceleague.adobe.com/5bEvYLuXmwYHifo--x98vtfZ7-tVsLcRq5LGSLilFvM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # 피드 템플릿 관리
 
 <!-- I have a "Retail" feed template that was created by rkarthik@adobe. Ask product if this is available to all clients or just internal.  -->
@@ -109,7 +115,7 @@ ht-degree: 0%
 
 **[!UICONTROL Is Unique]:** 필드가 고유 ID(키)임을 나타냅니다. 피드 템플릿당 하나 이상의 필드는 고유해야 합니다. 이 옵션을 선택하려면 단추를 클릭하여 오른쪽으로 이동합니다.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** 피드 파일에서 지정된 [에 매핑되는 Advertising Creative 백 엔드의 &#x200B;](/help/creative/appendix-available-feed-fields.md)필드[!UICONTROL Field Name]입니다.
+**[!UICONTROL Backend Field]:** 피드 파일에서 지정된 [!UICONTROL Field Name]에 매핑되는 Advertising Creative 백 엔드의 [필드](/help/creative/appendix-available-feed-fields.md)입니다.
 
 >[!MORELIKETHIS]
 >

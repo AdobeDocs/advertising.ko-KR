@@ -3,28 +3,33 @@ title: 보고서 기본 정보
 description: 사용 가능한 다양한 보고서 유형 및 보고서 자동화 방법을 포함하여 성능 보고서에 대해 알아봅니다.
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/2Cw55tN9cx9vfc6sEHdOQfW5VcLIUZdbNtMkKdINkZM
+TQID: 'https://experienceleague.adobe.com/2Cw55tN9cx9vfc6sEHdOQfW5VcLIUZdbNtMkKdINkZM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: '865'
 ht-degree: 0%
-
 ---
-
 # 보고서 기본 정보
 
 성능 보고서를 사용하면 포트폴리오, 광고 네트워크 및 광고 네트워크 계정 엔터티의 성능을 원하는 수준으로 추적하고 관리할 수 있습니다. 대부분의 보고서는 각 마케팅 채널의 광고가 전체 전환율에 어떻게 기여하는지에 대한 완전한 가시성을 제공합니다.
 
 보고서의 데이터는 보고서를 실행할 때마다 동적으로 컴파일됩니다. 선택적으로 기존 보고서에서 새 보고서를 생성할 수 있습니다. 사용 가능한 보고서 매개 변수는 보고서 유형에 따라 다릅니다. 대부분의 보고서에서는 전체 보고서를 생성하는 대신 처음 50개 줄을 미리 볼 수 있는 옵션이 제공됩니다. 보고서를 생성할 때 보고서가 완료되면 하나 이상의 이메일 주소에 대한 다운로드 링크가 있는 알림을 보낼 수 있으며 받는 사람은 [[!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md)에서 알림을 관리할 수 있습니다.
 
-완료된 보고서는 모두 [!UICONTROL Latest Reports] 보기의 [!UICONTROL Reports] 섹션에서 사용할 수 있으며 브라우저 창에서 표 형식으로 보거나 열거나 파일로 다운로드할 수 있습니다.
+완료된 보고서는 모두 [!UICONTROL Reports] 보기의 [!UICONTROL Latest Reports] 섹션에서 사용할 수 있으며 브라우저 창에서 표 형식으로 보거나 열거나 파일로 다운로드할 수 있습니다.
 
 ## 사용 가능한 보고서 카테고리
 
@@ -50,7 +55,7 @@ ht-degree: 0%
 
 ## 보고서 보기
 
-[!UICONTROL Reports] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports]의 [!UICONTROL Reports] 보기를 사용하면 보고서, 템플릿 및 스프레드시트 피드를 만들고 관리할 수 있습니다. 이 보기에는 두 개의 탭이 있습니다.
+[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Reports]의 [!UICONTROL Reports] 보기를 사용하면 보고서, 템플릿 및 스프레드시트 피드를 만들고 관리할 수 있습니다. 이 보기에는 두 개의 탭이 있습니다.
 
 * **[!UICONTROL Latest Reports]** 탭에는 수동으로 삭제된 보고서를 제외하고 지난 7일 동안 요청한 사용 가능한 모든 보고서가 나열되며 가장 최근 보고서는 기본적으로 맨 위에 있습니다. 각 보고서에 대해 표시되는 정보에는 보고서 실행 일정(해당되는 경우), 데이터가 생성되었거나 생성될 시작 및 종료 날짜, 보고서 상태(*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* 또는 *[!UICONTROL Error]*)가 포함됩니다.
 
@@ -68,8 +73,8 @@ ht-degree: 0%
 | ---- | ---- |
 | 성능 모니터링 | <ul><li>[[!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)</li><li>[[!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)</li><li>[[!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[[!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)</li><li>[[!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)</li><li>[[!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | 성능 문제 해결 및 추세 분석 | <ul><li>[[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)</li><li>[[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)</li><li>[[!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)</li><li>[[!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)</li><li>[[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md) 및 [[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>&quot;[!UICONTROL Compare with]&quot; 기능을 사용하여 두 시간 창을 비교하는 모든 기본 보고서</li></ul> |
-| 비즈니스 성장 기회 파악 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
-| 분석 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
+| 비즈니스 성장 기회 파악 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
+| 분석 | <ul><li>(Adobe Advertising 전환 추적 전용 광고주) [다음 [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)</li><li>(광고주: [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Adobe Analytics Analysis Workspace 내에서 사용자 지정된 보고서</li></ul> |
 
 >[!MORELIKETHIS]
 >

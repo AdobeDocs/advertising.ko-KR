@@ -3,24 +3,29 @@ title: 광고 보관 또는 보관 해제
 description: 광고를 보관 또는 보관 해제하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: 086c120f-df55-43b0-a6fb-51d68d00a29e
-TQID: https://experienceleague.adobe.com/Cv0tqgnDvyUQ-7Bc-iOx5UxnmQBi15GrdZDOLSkbVbM
+TQID: 'https://experienceleague.adobe.com/Cv0tqgnDvyUQ-7Bc-iOx5UxnmQBi15GrdZDOLSkbVbM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 137
+source-wordcount: '138'
 ht-degree: 0%
-
 ---
-
 # 광고 보관 또는 보관 해제
 
 보관하여 사용되지 않는 광고를 숨깁니다. 보관된 광고는 기본적으로 표시되지 않지만 보고에 사용할 수 있습니다.

@@ -3,18 +3,21 @@ title: 광고 네트워크 캠페인 관리 옵션
 description: 광고 네트워크 캠페인에 대한 데이터를 관리하는 다양한 방법에 대해 알아봅니다.
 exl-id: be5c9a48-a87d-4cee-9884-2ba36ac5f2ca
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/02zDjNUn-wHgBcjq-2L3yZRRtqTHT8Nh2AsgfD3kWaE
+TQID: 'https://experienceleague.adobe.com/02zDjNUn-wHgBcjq-2L3yZRRtqTHT8Nh2AsgfD3kWaE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 299
+source-wordcount: '299'
 ht-degree: 0%
-
 ---
-
 # 광고 네트워크 캠페인 관리 옵션
 
 지원되는 캠페인 구조 및 캠페인 구성 요소 데이터를 만들고 편집할 수 있습니다
@@ -26,6 +29,6 @@ ht-degree: 0%
 
   기존 [!DNL Pinterest], [!DNL Yahoo DSP] 및 [!DNL Yahoo Native] 계정에 대한 데이터가 포함된 일괄 시트 파일을 선택적으로 다운로드하지만 업로드하거나 게시할 수 없습니다.
 
-* 옵션 3: [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL &#x200B; Advanced (ACM)]에서 만든 광고 네트워크별 광고 템플릿에 따라 [인벤토리의 각 항목에 타깃팅된 계정 구조 및 동적 광고 및 키워드를 만듭니다](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md). 자동화된 프로세스를 설정합니다. 수동으로 또는 FTP 위치에 업로드하는 인벤토리 데이터 파일의 내용이나 [!DNL Google Merchant Center] 또는 [!DNL Microsoft Merchant Center] 계정의 내용을 기반으로 템플릿을 만듭니다. 데이터가 만들어지는 즉시 자동으로 게시되도록 구성하거나 데이터를 검토한 후 광고 네트워크에 수동으로 게시할 수 있습니다. 이 옵션은 [!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정에서 사용할 수 있습니다.
+* 옵션 3: [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL  Advanced (ACM)]에서 만든 광고 네트워크별 광고 템플릿에 따라 [인벤토리의 각 항목에 타깃팅된 계정 구조 및 동적 광고 및 키워드를 만듭니다](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md). 자동화된 프로세스를 설정합니다. 수동으로 또는 FTP 위치에 업로드하는 인벤토리 데이터 파일의 내용이나 [!DNL Google Merchant Center] 또는 [!DNL Microsoft Merchant Center] 계정의 내용을 기반으로 템플릿을 만듭니다. 데이터가 만들어지는 즉시 자동으로 게시되도록 구성하거나 데이터를 검토한 후 광고 네트워크에 수동으로 게시할 수 있습니다. 이 옵션은 [!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정에서 사용할 수 있습니다.
 
   이 메서드를 사용하여 배치를 만들 수 없습니다.

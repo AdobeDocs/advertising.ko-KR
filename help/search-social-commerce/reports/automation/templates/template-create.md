@@ -3,49 +3,53 @@ title: 보고서 템플릿 만들기
 description: 재사용 가능한 보고서 템플릿을 만드는 방법을 알아봅니다.
 exl-id: 322d0c15-bd93-4372-be1e-80d2d7c7fe8d
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/XWTeVJ0GpRkW6JdwUriUoL3EU8GdHcZdjPFeDvGYg80
+TQID: 'https://experienceleague.adobe.com/XWTeVJ0GpRkW6JdwUriUoL3EU8GdHcZdjPFeDvGYg80'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 171
+source-wordcount: '171'
 ht-degree: 0%
-
 ---
-
 # 보고서 템플릿 만들기
 
 모든 유형의 성과 보고서에 대해 여러 보고서 템플릿을 저장할 수 있습니다. 템플릿을 처음부터 만들거나 기존 템플릿을 기반으로 만들 수 있습니다. 한 번에 최대 100개의 템플릿을 유지 관리할 수 있습니다.
 
 * 템플릿을 처음부터 새로 만들려면 다음 중 하나를 수행합니다.
 
-   * [!UICONTROL Reports] 탭에서 보고서를 만들어 보고서 이름 옆에 있는 **[!UICONTROL Save as template]** 옆의 확인란을 선택합니다.
+  * [!UICONTROL Reports] 탭에서 보고서를 만들어 보고서 이름 옆에 있는 **[!UICONTROL Save as template]** 옆의 확인란을 선택합니다.
 
-   * [!UICONTROL Templates] 탭에서:
+  * [!UICONTROL Templates] 탭에서:
 
-      * 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다.
+    * 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다.
 
-      * **[!UICONTROL Templates]** 탭을 클릭합니다.
+    * **[!UICONTROL Templates]** 탭을 클릭합니다.
 
-      * **[!UICONTROL Create Template]**&#x200B;을(를) 클릭하고 보고서 범주를 선택합니다.
+    * **[!UICONTROL Create Template]**&#x200B;을(를) 클릭하고 보고서 범주를 선택합니다.
 
-      * 보고서 설정을 지정합니다.
+    * 보고서 설정을 지정합니다.
 
-        &quot;[!UICONTROL Save as Template]&quot; 설정이 자동으로 선택됩니다.
+      &quot;[!UICONTROL Save as Template]&quot; 설정이 자동으로 선택됩니다.
 
 * 기존 템플릿을 기반으로 템플릿을 만들려면 다음 작업을 수행하십시오.
 
-   1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다.
+  1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**&#x200B;을(를) 클릭합니다.
 
-   1. **[!UICONTROL Templates]** 탭을 클릭합니다.
+  1. **[!UICONTROL Templates]** 탭을 클릭합니다.
 
-   1. 템플릿 이름을 클릭하고 필요한 경우 보고서 설정을 편집합니다.
+  1. 템플릿 이름을 클릭하고 필요한 경우 보고서 설정을 편집합니다.
 
-   1. **[!UICONTROL Save as template]**(보고서 이름 옆) 옆의 확인란을 선택하고 새 보고서 이름을 입력한 다음 **[!UICONTROL Update Template]**&#x200B;을(를) 클릭합니다.
+  1. **[!UICONTROL Save as template]**(보고서 이름 옆) 옆의 확인란을 선택하고 새 보고서 이름을 입력한 다음 **[!UICONTROL Update Template]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >

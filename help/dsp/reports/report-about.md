@@ -3,27 +3,35 @@ title: 사용자 지정 보고서 기본 정보
 description: 사용자 지정 보고서를 수동으로 만들거나 사전 구성된 보고서 템플릿을 사용하는 옵션에 대해 알아봅니다.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-TQID: https://experienceleague.adobe.com/s4EiBrtWrkDbweibjuPa7KAv4s8pMtbLYEG-CEeXBdY
+TQID: 'https://experienceleague.adobe.com/s4EiBrtWrkDbweibjuPa7KAv4s8pMtbLYEG-CEeXBdY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8259705179c77085be82b416f62a093186b03745
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1716
+source-wordcount: '1716'
 ht-degree: 0%
-
 ---
-
 # 사용자 지정 보고서 기본 정보
 
 사용자 지정 보고서를 사용하면 캠페인 차원(광고주, 배치, 사이트 또는 지역 등)과 사용자에게 가장 중요한 지표를 사용하여 보고서 데이터의 콘텐츠와 게재를 사용자 지정할 수 있습니다. 다음 중 하나를 수행할 수 있습니다.

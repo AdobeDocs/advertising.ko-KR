@@ -3,25 +3,33 @@ title: 캠페인 관리에 대한 FAQ
 description: 변경 사항에 대한 지연 기간 및 비행 중 예산을 변경할 때 발생하는 상황 등 캠페인 관리에 대해 자세히 알아보십시오.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-TQID: https://experienceleague.adobe.com/PgO4aktP20KQzNe6SG6Vw7ahvYqHTSISQ10FCum-vQg
+TQID: 'https://experienceleague.adobe.com/PgO4aktP20KQzNe6SG6Vw7ahvYqHTSISQ10FCum-vQg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
+source-wordcount: '410'
 ht-degree: 0%
-
 ---
-
 # 캠페인 관리에 대한 FAQ
 
 <!-- Most of this information should be moved into the relevant topics (especially editing topics). -->
@@ -40,7 +48,7 @@ ht-degree: 0%
 
   예산 할당은 배치 성과를 기준으로 하며, 이 점수는 14일 평균을 사용하여 평가됩니다. 배치를 변경하면 14일 평균 동안 성능이 변경되는 경우에만 예산 할당이 변경됩니다.
 
-  성능 변경이 발생하면 DSP은 그에 따라 다음 예산 최적화 주기 동안 배치 간에 패키지 예산을 재할당합니다. 이 주기는 캠페인 시간대의 자정(00:00)에 발생합니다.
+  성능 변경이 발생하면 DSP은 그에 따라 다음 예산 최적화 주기 동안 배치 간에 패키지 예산을 재할당합니다. 이 최적화는 캠페인 시간대의 자정(00:00)에 발생합니다.
 
 * 배치가 패키지에서 제거되고 다른 패키지에 추가될 때 예산은 어떻게 재할당됩니까?
 
@@ -52,7 +60,7 @@ ht-degree: 0%
 
 * 패키지 게재 간격 변경 비행 마지막 날
 
-  비행기 마지막 날에는 패키지 예산이 초과되지 않도록 하루 24시간에서 23시간으로 단축된다. 또한 패키지의 게재 간격 채우기 전략은 &quot;[!UICONTROL Frontload]&quot;(으)로 설정되어 있더라도 자동으로 &quot;[!UICONTROL even]&quot;(으)로 변경됩니다. 즉, 일일 예산의 65%가 EST 오전 11:30까지 전달되어야 합니다.
+  비행기 마지막 날에는 패키지 예산이 초과되지 않도록 하루 24시간에서 23시간으로 단축된다. 또한 패키지의 게재 간격 채우기 전략은 &quot;[!UICONTROL even]&quot;(으)로 설정되어 있더라도 자동으로 &quot;[!UICONTROL Frontload]&quot;(으)로 변경됩니다. 즉, 일일 예산의 65%가 EST 오전 11:30까지 전달되어야 합니다.
 
 >[!MORELIKETHIS]
 >

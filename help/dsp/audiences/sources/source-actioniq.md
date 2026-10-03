@@ -1,14 +1,18 @@
 ---
-title: 사용자 ID를  [!DNL ActionIQ] 에서 범용 ID로 변환
-description: DSP에서  [!DNL ActionIQ] 자사 세그먼트를 수집할 수 있도록 하는 방법을 알아봅니다.
+title: 사용자 ID를 [!DNL ActionIQ]에서 유니버설 ID로 변환
+description: DSP에서 [!DNL ActionIQ]개의 자사 세그먼트를 수집할 수 있도록 하는 방법을 알아봅니다.
 feature: DSP Audiences
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '267'
 ht-degree: 0%
-
 ---
-
 # 사용자 ID를 [!DNL ActionIQ]에서 유니버설 ID로 변환
 
 [!DNL ActionIQ] 고객 데이터 플랫폼과 DSP 통합을 사용하여 해시된 이메일 주소를 타깃팅된 광고를 위한 범용 ID로 변환합니다.

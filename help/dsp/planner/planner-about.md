@@ -3,24 +3,29 @@ title: DSP [!UICONTROL Planner] 도구 정보
 description: 지정된 예산 및 타깃팅 기준에 따라 연결된 TV(CTV) 배치에 대한 고유한 도달 범위를 예측하는 플래너 도구에 대해 알아봅니다.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-TQID: https://experienceleague.adobe.com/dvO9ZtGs76Tm-AxE8ljLsnBXqUcX-q2J0HueG1-HASA
+TQID: 'https://experienceleague.adobe.com/dvO9ZtGs76Tm-AxE8ljLsnBXqUcX-q2J0HueG1-HASA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a516b982-58a0-530b-84c5-9b83f41039ad
+    internal-label: DSP Planner
 subfeature_v2:
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: '544'
 ht-degree: 0%
-
 ---
-
 # DSP [!UICONTROL Planner] 도구 정보
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
@@ -60,7 +65,7 @@ ht-degree: 0%
 
 +++&quot;[!UICONTROL Unable to generate forecast]&quot;이(가) 표시되는 이유는 무엇입니까?
 
-이 오류의 가장 일반적인 이유 중 하나는 예산 또는 최대 입찰이 충분하지 않기 때문입니다. 최상의 결과를 얻으려면 최소 5000달러의 예산을 사용하십시오. [!UICONTROL Connected TV] 미디어 유형을 선택한 경우 최소 10USD의 최대 입찰가를 입력하십시오.
+이 오류의 가장 일반적인 이유 중 하나는 예산 또는 최대 입찰이 충분하지 않기 때문입니다. 최상의 결과를 얻으려면 최소 5000개의 USD 예산을 사용하십시오. [!UICONTROL Connected TV] 미디어 유형을 선택한 경우 최대 입찰가 10개 이상의 USD을 입력하십시오.
 
 또한 포함된 게시자 또는 거래가 활성 상태이고 최근 노출 활동이 있는지 확인하십시오.
 
@@ -80,7 +85,7 @@ ht-degree: 0%
 
 +++계획자 예측 결과를 저장할 수 있습니까?
 
-예. 오른쪽 상단의 [!DNL Microsoft Excel] > **[!UICONTROL ...]**&#x200B;을(를) 클릭하여 예측을 **[!UICONTROL Export]** 스프레드시트로 내보낼 수 있습니다. 스프레드시트는 [!UICONTROL Budget] 및 [!UICONTROL Reach] 데이터 열을 사용하여 도달 예산 곡선에 표시된 정보를 캡처합니다.
+예. 오른쪽 상단의 **[!UICONTROL ...]** > **[!UICONTROL Export]**&#x200B;을(를) 클릭하여 예측을 [!DNL Microsoft Excel] 스프레드시트로 내보낼 수 있습니다. 스프레드시트는 [!UICONTROL Budget] 및 [!UICONTROL Reach] 데이터 열을 사용하여 도달 예산 곡선에 표시된 정보를 캡처합니다.
 
 +++
 

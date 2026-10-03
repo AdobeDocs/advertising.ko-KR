@@ -3,13 +3,17 @@ title: (새 UI) [!UICONTROL Portfolios] 보기에서 성능 그래프를 봅니�
 description: '[!UICONTROL Portfolios] 보기에서 성능 그래프를 열고 구성하는 방법에 대해 알아봅니다.'
 feature: Search Campaign Management
 exl-id: 5b83d052-acef-451c-8492-70465ded23f4
-source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 0%
-
 ---
-
 # (새 UI) [!UICONTROL Portfolios] 보기에서 성능 그래프를 봅니다
 
 *Beta 기능*

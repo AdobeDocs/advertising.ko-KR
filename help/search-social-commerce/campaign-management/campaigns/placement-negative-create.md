@@ -1,20 +1,23 @@
 ---
 title: 부정적인 배치 만들기
-description: ' [!DNL Google Ads] 캠페인 및 광고 그룹에 대해 부정적인 배치를 만드는 방법을 알아봅니다.'
+description: '[!DNL Google Ads]개의 캠페인 및 광고 그룹에 대해 부정적인 배치를 만드는 방법을 알아봅니다.'
 exl-id: 9cc2dd8d-5563-4e02-af8f-6181165494d8
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/LFHoipRyiY36uTj-0G3lFahitrT9ZHD958V-4T-XIUA
+TQID: 'https://experienceleague.adobe.com/LFHoipRyiY36uTj-0G3lFahitrT9ZHD958V-4T-XIUA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 202
+source-wordcount: '220'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]개의 부정적 배치에 대해 만들기
 
 *[!DNL Google Ads]개의 계정만*

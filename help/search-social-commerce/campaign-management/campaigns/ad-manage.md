@@ -3,20 +3,24 @@ title: 광고 관리
 description: 광고를 만들고 관리하는 방법에 대해 알아봅니다.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/qH3BE5BwU8614rZdk-tKqvtw9cqY1uK0Z3zOUh0QRv8
+TQID: 'https://experienceleague.adobe.com/qH3BE5BwU8614rZdk-tKqvtw9cqY1uK0Z3zOUh0QRv8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 743
+source-wordcount: '743'
 ht-degree: 0%
-
 ---
-
 # 광고 관리
 
 *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] 및 기존 [!DNL Baidu] 계정만*
@@ -71,11 +75,11 @@ ht-degree: 0%
 
    * (하나 이상의 광고에 대한 설정을 편집하려면) 다음 작업을 수행하십시오.
 
-      1. 각 행 옆에 있는 확인란을 선택합니다.
+     1. 각 행 옆에 있는 확인란을 선택합니다.
 
-         여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
+        여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
 
-      1. 데이터 테이블 위의 도구 모음에서 ![편집](/help/search-social-commerce/assets/edit.png "편집")을 클릭합니다.
+     1. 데이터 테이블 위의 도구 모음에서 ![편집](/help/search-social-commerce/assets/edit.png "편집")을 클릭합니다.
 
 1. [[!DNL Baidu] 텍스트 광고](ad-settings-baidu-text.md), [[!DNL Google Ads] 호출 전용 광고](ad-settings-google-call.md), [[!DNL Google Ads] 확장된 동적 검색 광고](ad-settings-google-dsa.md)(이제 Google 광고에서 &quot;동적 검색 광고&quot;라고 함), [[!DNL Google Ads] 응답형 검색 광고](ad-settings-google-rsa.md), [[!DNL Microsoft Advertising] 확장된 동적 검색 광고](ad-settings-microsoft-dsa.md), [[!DNL Microsoft Advertising] 멀티미디어 광고](ad-settings-microsoft-multimedia.md), [[!DNL Microsoft Advertising] 제품 광고](ad-settings-microsoft-product.md), [[!DNL Microsoft Advertising] 응답형(대상) 광고](ad-settings-microsoft-responsive.md), [[!DNL Microsoft Advertising] 응답형 검색 광고](ad-settings-microsoft-rsa.md) 또는 [[!DNL Yandex] 텍스트 광고](ad-settings-yandex-text.md) 설정을 편집합니다.
 

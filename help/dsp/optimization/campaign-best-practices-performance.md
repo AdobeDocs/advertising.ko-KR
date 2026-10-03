@@ -3,30 +3,43 @@ title: 성과 캠페인 설정에 대한 우수 사례
 description: 가장 낮은 CPA 또는 가장 높은 ROAS에 최적화된 배치를 포함하여 성과 중심 캠페인을 설정하는 모범 사례에 대해 알아봅니다.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-TQID: https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs
+TQID: 'https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
+  - id: 1065ba73-45b2-5aee-bca8-3ae622f2c15d
+    internal-label: DSP Best Practices
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: Optimization
   - id: e9bcaec6-1079-409c-9aee-942e06c44d0a
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 0%
-
+source-wordcount: '1304'
+ht-degree: 1%
 ---
-
 # 성과 캠페인 설정에 대한 우수 사례
 
 DSP은 성과 중심의 캠페인을 최적화할 수 있습니다. 성과 캠페인에 대한 다음 모범 사례를 참조하십시오.
@@ -55,10 +68,10 @@ DSP은 성과 중심의 캠페인을 최적화할 수 있습니다. 성과 캠�
 
 * 다음 방법을 사용하여 전환할 가능성이 있는 새 대상을 찾습니다.
 
-   * Adobe Audience Manager과 같은 데이터 관리 플랫폼(DMP)에서 유사 모델링.
-   * 서드파티 데이터를 사용하는 행동 타겟팅.
-   * 상황별 타기팅.
-   * 사이트/카테고리 타겟팅
+  * Adobe Audience Manager과 같은 데이터 관리 플랫폼(DMP)에서 유사 모델링.
+  * 서드파티 데이터를 사용하는 행동 타겟팅.
+  * 상황별 타기팅.
+  * 사이트/카테고리 타겟팅
 
 * 네트워크 실행(RON) 타깃팅 사용: 대상 타깃팅 없이 광범위한 인벤토리 타깃팅과 함께 네트워크 배치 실행을 포함하는 것이 중요합니다. 이렇게 하면 [!DNL Adobe AI] 기반 알고리즘이 아직 대상자로 분류되지 않은 최신 쿠키를 가질 수 있는 중요한 사용자를 찾을 수 있습니다.
 
@@ -93,8 +106,8 @@ DSP은 성과 중심의 캠페인을 최적화할 수 있습니다. 성과 캠�
 * **최적화 목표:** 패키지 목표에 따라 두 성능 최적화 목표 중 하나인 *[!UICONTROL Highest Return on Ad Spend]* 또는 *[!UICONTROL Lowest Cost per Acquisition]*&#x200B;을(를) 사용합니다. 이러한 목표는 각각 최고 ROAS 또는 최저 CPA 배치로 패키지를 자동 최적화합니다.
 
 * **사용자 지정 목표:**
-   * 새 패키지에 기존 패키지와 동일한 목표가 있는 경우 선택적으로 알고리즘이 기존 머신 러닝 데이터를 사용할 수 있도록 기존 패키지를 연결할 수 있습니다.
-   * 해당 [!UICONTROL Target CPA] 또는 [!UICONTROL Target ROAS]을(를) 입력하십시오.
+  * 새 패키지에 기존 패키지와 동일한 목표가 있는 경우 선택적으로 알고리즘이 기존 머신 러닝 데이터를 사용할 수 있도록 기존 패키지를 연결할 수 있습니다.
+  * 해당 [!UICONTROL Target CPA] 또는 [!UICONTROL Target ROAS]을(를) 입력하십시오.
 
 * **플라이트 게재 간격 및 실시간 게재 간격:** 두 유형의 게재 간격 모두에 대해 *[!UICONTROL Even]*&#x200B;을(를) 선택하여 매일 및 전체 플라이트 전체에 걸쳐 게재 간격을 일정하게 유지함으로써 성능 목표를 최대화합니다.
 
@@ -115,14 +128,14 @@ DSP은 성과 중심의 캠페인을 최적화할 수 있습니다. 성과 캠�
 패키지 수준에서 CPA 또는 ROAS 최적화를 구성해야 하지만(3단계 - 패키지 만들기 참조), 추가 배치 수준 설정을 추가할 수 있습니다.
 
 * **최대 입찰:**
-   * 잠재 고객 대상의 배치를 위해서는 낮은 최대 입찰가 ($5)를 사용합니다.
-   * 배치 타깃팅의 경우 높은 최대 입찰(12달러)을 사용합니다.
+  * 잠재 고객 대상의 배치를 위해서는 낮은 최대 입찰가 ($5)를 사용합니다.
+  * 배치 타깃팅의 경우 높은 최대 입찰(12달러)을 사용합니다.
 
 * **사전 입찰 필터:** 적극적인 사전 입찰 필터를 설정하여 배치가 확장되지 않도록 최소화하거나 피하는 것이 좋습니다. 모범 사례에는 다음이 포함됩니다.
 
-   * 배치당 1개의 사전 입찰 필터를 사용합니다. 여러 개의 사전 입찰 필터를 사용하려면 두 필터가 모두 충족되어야 하므로 크기가 줄어듭니다.
+  * 배치당 1개의 사전 입찰 필터를 사용합니다. 여러 개의 사전 입찰 필터를 사용하려면 두 필터가 모두 충족되어야 하므로 크기가 줄어듭니다.
 
-   * 추가 타겟팅(예: 대상, 지역 및 사이트 타겟팅)이 적용되는 경우 덜 엄격한 사전 입찰 필터 설정을 고려하십시오.
+  * 추가 타겟팅(예: 대상, 지역 및 사이트 타겟팅)이 적용되는 경우 덜 엄격한 사전 입찰 필터 설정을 고려하십시오.
 
 [배치 수준의 사전 입찰 필터에서 각 사전 입찰 필터를 사용하는 시기와 사용 방법](/help/dsp/optimization/optimization-pre-bid-filters.md)에 대한 설명을 참조하십시오.
 
@@ -140,10 +153,10 @@ DSP은 성과 중심의 캠페인을 최적화할 수 있습니다. 성과 캠�
 <!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
 * **[!UICONTROL Included Audiences]:**
-   * 잠재 고객 배치의 경우, 유사한 대상 카테고리와 유사한 대상 크기를 하나의 배치로 그룹화합니다. 그런 다음 성능에 따라 다음 중 하나를 수행합니다.
-      * 기존 배치에서 성과가 낮은 대상을 제거합니다.
-      * 최고 성과를 보이는 대상을 별도의 배치로 이동하여 예산을 보다 효율적으로 제어할 수 있습니다.
-   * 배치 재타겟팅의 경우 입찰과 예산을 쉽게 제어할 수 있도록 배치당 하나의 대상 세그먼트를 이상적으로 포함해야 합니다.
+  * 잠재 고객 배치의 경우, 유사한 대상 카테고리와 유사한 대상 크기를 하나의 배치로 그룹화합니다. 그런 다음 성능에 따라 다음 중 하나를 수행합니다.
+    * 기존 배치에서 성과가 낮은 대상을 제거합니다.
+    * 최고 성과를 보이는 대상을 별도의 배치로 이동하여 예산을 보다 효율적으로 제어할 수 있습니다.
+  * 배치 재타겟팅의 경우 입찰과 예산을 쉽게 제어할 수 있도록 배치당 하나의 대상 세그먼트를 이상적으로 포함해야 합니다.
 
 >[!NOTE]
 >
@@ -152,13 +165,13 @@ DSP은 성과 중심의 캠페인을 최적화할 수 있습니다. 성과 캠�
 > 계층에서 대상을 만들어 겹치는 대상을 방지할 수 있으므로 필요에 따라 더 높은 계층의 배치를 억제할 수 있습니다.
 
 * **[!UICONTROL Frequency Capping]:**
-   * 잠재 고객 배치에 대해서는 빈도수를 제한하여 하루에 한 번 노출시키십시오.
-   * 배치 재타겟팅의 경우, 기본 배치 상한을 하루에 6~10노출로 설정하고 보조 상한을 시간당 1노출로 설정합니다.
+  * 잠재 고객 배치에 대해서는 빈도수를 제한하여 하루에 한 번 노출시키십시오.
+  * 배치 재타겟팅의 경우, 기본 배치 상한을 하루에 6~10노출로 설정하고 보조 상한을 시간당 1노출로 설정합니다.
 
 * **[!UICONTROL Device Targeting]**:
-   * [!UICONTROL Computer], [!UICONTROL Mobile] 및 [!UICONTROL Tablet]을(를) 포함합니다.
-   * 타깃팅 및 측정 제한 사항으로 인해 [!UICONTROL Firefox] 및 [!UICONTROL Safari]을(를) 타깃팅하지 마십시오. [!DNL Safari ITP]에 대한 [!DNL Adobe] 지원에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오.
-   * 모바일 웹 트래픽을 대상으로 하는 경우 [!UICONTROL Chrome] 및 [!UICONTROL Edge]을(를) 제외한 모든 모바일 브라우저를 비활성화하십시오.
+  * [!UICONTROL Computer], [!UICONTROL Mobile] 및 [!UICONTROL Tablet]을(를) 포함합니다.
+  * 타깃팅 및 측정 제한 사항으로 인해 [!UICONTROL Firefox] 및 [!UICONTROL Safari]을(를) 타깃팅하지 마십시오. [!DNL Safari ITP]에 대한 [!DNL Adobe] 지원에 대한 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+  * 모바일 웹 트래픽을 대상으로 하는 경우 [!UICONTROL Chrome] 및 [!UICONTROL Edge]을(를) 제외한 모든 모바일 브라우저를 비활성화하십시오.
 
 ### 브랜드 안전 및 미디어 품질
 

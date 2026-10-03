@@ -1,20 +1,23 @@
 ---
-title: ' [!DNL Microsoft Advertising] 동적 리마케팅 대상자 관리'
-description: ' [!DNL Microsoft Advertising] 동적 리마케팅 대상자를 만들고 관리하는 방법을 알아봅니다.'
+title: '[!DNL Microsoft Advertising]개의 동적 리마케팅 대상자 관리'
+description: '[!DNL Microsoft Advertising]개의 동적 리마케팅 대상자를 만들고 관리하는 방법을 알아봅니다.'
 exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/ev1y2UpkEHJhIgS3vQz8GRF0LNJwG9BHSxufQeeQAfA
+TQID: 'https://experienceleague.adobe.com/ev1y2UpkEHJhIgS3vQz8GRF0LNJwG9BHSxufQeeQAfA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '515'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]개의 동적 리마케팅 대상자 관리
 
 *[!DNL Microsoft Advertising]개의 계정만*
@@ -29,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Microsoft Advertising] 계정의 경우 JavaScript 태그에 [제품 ID 및 페이지 유형 매개 변수](https://help.ads.microsoft.com/#apex/ads/en/56910/1/#exp85)가 포함되어야 합니다.
+>[!DNL Microsoft Advertising] 계정의 경우 JavaScript 태그에 [제품 ID 및 페이지 유형 매개 변수](#exp85)가 포함되어야 합니다.
 
 1. 대상자를 만들 웹 페이지에 포함된 [!DNL Microsoft Advertising] UET(범용 이벤트 추적) 태그의 이름을 식별합니다.
 
@@ -99,5 +102,5 @@ ht-degree: 0%
 >
 >* [대상자 정보](audience-about.md)
 >* [고객 일치 대상자 만들기 [!DNL Google Ads] 출처 [!DNL Adobe] 대상자](google-audience-from-adobe-audience.md)
->* [Adobe Campaign 전자 메일 목록에서 고객 일치 대상 만들기 [!DNL Google Ads] 2&rbrace;](google-audience-from-campaign-email-list.md)
+>* [Adobe Campaign 전자 메일 목록에서 고객 일치 대상 만들기 [!DNL Google Ads] 2}](google-audience-from-campaign-email-list.md)
 >* [고객 데이터 목록을 사용하여 고객 일치 대상 관리](audience-from-customer-data-list.md)

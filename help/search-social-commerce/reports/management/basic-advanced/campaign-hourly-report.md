@@ -3,20 +3,26 @@ title: '[!UICONTROL Campaign Hourly Report]'
 description: '[!UICONTROL Campaign Hourly Report]에 대해 알아봅니다.'
 exl-id: 0e807e74-b8f8-4823-a9d9-1871a20e90b6
 feature: Search Reports, Search Basic Reports
-TQID: https://experienceleague.adobe.com/M5hZWElopUSBFBicjELMRHBqc1lujc6YwlKcSoWmC0g
+TQID: 'https://experienceleague.adobe.com/M5hZWElopUSBFBicjELMRHBqc1lujc6YwlKcSoWmC0g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 102
+source-wordcount: '103'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Campaign Hourly Report]
 
 [!UICONTROL Campaign Hourly Report]에는 키워드가 있는 하나 이상의 [!DNL Google Ads] 캠페인에 대한 비용, 클릭 및 (선택적으로) 전환 데이터가 포함됩니다. 기본적으로 데이터에는 지정된 날짜 범위의 각 시간에 대해 적용 가능한 각 캠페인에 대해 한 개의 행이 포함되며 행은 먼저 캠페인별로 오름차순으로 정렬되고 다음에는 포트폴리오별로 오름차순으로 정렬됩니다(적용 가능한 경우).

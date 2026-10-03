@@ -3,24 +3,29 @@ title: 범용 ID 대상을 활성화하기 위한 대상 소스 관리
 description: 소스를 만들고 관리하여 고객 데이터 플랫폼에서 대상을 가져와 범용 ID가 포함된 세그먼트로 변환하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-TQID: https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs
+TQID: 'https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: '881'
 ht-degree: 0%
-
 ---
-
 # 범용 ID 대상을 활성화하기 위한 대상 소스 관리
 
 가져오거나 지정된 범용 ID 유형이 포함된 세그먼트로 변환할 DSP의 고객 데이터 플랫폼용 각 자사 대상에 대한 소스를 만듭니다. 조직의 DSP 계정 또는 광고주 계정으로 세그먼트를 가져올 수 있습니다. 대상을 범용 ID로 변환하면 선택한 범용 ID 유형에 따라 요금이 부과됩니다. 소스를 만들고 나면 각 고객 데이터 플랫폼에서 소스 대상자를 스트리밍하기 위해 추가 단계가 필요합니다. 소스를 만들려면 절차 끝에 있는 메모를 참조하십시오.

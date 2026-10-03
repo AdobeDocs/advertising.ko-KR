@@ -3,7 +3,13 @@ title: (새 UI) 광고 네트워크 계정 관리
 description: 광고 네트워크 API를 통해 동기화된 광고 네트워크에 대한 새 UI에서 계정 세부 사항을 설정하고 관리하는 방법에 대해 알아봅니다.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 0%
@@ -187,7 +193,7 @@ ht-degree: 0%
 >* [!UICONTROL Standard]에서 [!UICONTROL Token]&#x200B;(으)로 전환하거나 그 반대로 전환하는 경우 계정에 대한 추적 URL을 다시 생성해야 합니다.
 >* 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.
 
-**[!UICONTROL Auto Update]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우) 브라우저 및 서버 간 호환성을 위해 추적 URL을 표준화합니다. 검색, 소셜 및 Commerce은 다음 동기화 동안 광고 네트워크에 다음을 자동으로 업로드합니다. (a) 추적 템플릿에 대한 검색, 소셜 및 Commerce 추적 매개 변수와 최종 URL에 추가된 동일한 매개 변수 또는 (b) 검색, 소셜 및 Commerce 추적 코드에 포함된 새 대상 URL. [Adobe Advertising-Adobe Analytics 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko) 및 서버측 AMO ID(s_kwcid) 구성이 있는 광고주의 경우 업로드에는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에 대한 [AMO ID 매개 변수](/help/integrations/analytics/ids.md#amo-id)도 포함됩니다. 기본 계정 수준 설정은 광고주의 추적 설정에서 상속됩니다. 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.
+**[!UICONTROL Auto Update]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우) 브라우저 및 서버 간 호환성을 위해 추적 URL을 표준화합니다. 검색, 소셜 및 Commerce은 다음 동기화 동안 광고 네트워크에 다음을 자동으로 업로드합니다. (a) 추적 템플릿에 대한 검색, 소셜 및 Commerce 추적 매개 변수와 최종 URL에 추가된 동일한 매개 변수 또는 (b) 검색, 소셜 및 Commerce 추적 코드에 포함된 새 대상 URL. [Adobe Advertising-Adobe Analytics 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) 및 서버측 AMO ID(s_kwcid) 구성이 있는 광고주의 경우 업로드에는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에 대한 [AMO ID 매개 변수](/help/integrations/analytics/ids.md#amo-id)도 포함됩니다. 기본 계정 수준 설정은 광고주의 추적 설정에서 상속됩니다. 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.
 
 추적 URL은 동기화되지 않은 엔티티(즉, 추가된 새 엔티티 및 속성이 변경된 기존 엔티티)에 대해서만 매일 업데이트됩니다. 따라서 기존 광고주/계정/캠페인에 대해 이 설정을 비활성화에서 활성화로 변경하면 이미 동기화 중인 기존 엔티티에 대한 추적 URL이 업데이트되지 않습니다. 동기화 중인 기존 엔터티의 URL에 추적을 추가하려면 Adobe 계정 팀에 연락하여 1회 수동 동기화 프로세스를 요청하십시오. 자동 업로드 프로세스는 향후 변경 사항을 처리합니다.
 

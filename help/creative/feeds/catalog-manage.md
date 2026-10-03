@@ -3,18 +3,24 @@ title: 피드 카탈로그 관리
 description: 피드 카탈로그를 관리하는 방법에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
 exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
-TQID: https://experienceleague.adobe.com/x-5tLvICnT97bjhgenM3iTBWRLKl3fbfA5UF8VlKrVw
+TQID: 'https://experienceleague.adobe.com/x-5tLvICnT97bjhgenM3iTBWRLKl3fbfA5UF8VlKrVw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: '462'
 ht-degree: 0%
-
 ---
-
 # 피드 카탈로그 관리
 
 처리된 피드 카탈로그는 지정된 피드 파일 및 지정된 피드 템플릿에서 생성된 잠재적인 광고 변형의 집합입니다. 정적 HTML5 광고가 아닌 동적 HTML5 및 비디오 광고에는 동적 광고를 만들기 위한 카탈로그가 필요합니다.

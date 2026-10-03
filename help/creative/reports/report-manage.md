@@ -3,25 +3,33 @@ title: 사용자 정의 보고서 관리
 description: 교차 경험 [!UICONTROL Custom Creative Report]을(를) 생성하고 관리하는 방법을 알아봅니다.
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
-TQID: https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo
+TQID: 'https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
+  - id: a3569322-a66e-4c29-8778-b189087b9ed5
+    internal-label: Creative reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1485
+source-wordcount: '1486'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Manage custom reports]
 
 사용자 지정 보고서를 작성, 복제, 편집, 실행, 다운로드 및 삭제할 수 있습니다.
@@ -132,21 +140,21 @@ ht-degree: 0%
   >
   >[!UICONTROL Reports] 보기에서 [언제든지 사용자 지정 보고서를 실행](#report-run-now)할 수도 있습니다.
 
-* *[!UICONTROL On]\&lt;날짜\>:* 계정의 시간대에서 09:00까지 완료되도록 지정된 날짜에 보고서를 실행합니다.
+* *[!UICONTROL On]\&lt;날짜\>:* 계정의 시간대에서 09:00까지 완료하도록 지정된 날짜에 보고서를 실행합니다.
 
 * *[!UICONTROL Recurring]:* 지정한 기간 동안 일정에 따라 보고서를 실행합니다.
 
-   * **\[Schedule\]:** 보고서 실행 빈도:
+  * **\[Schedule\]:** 보고서 실행 빈도:
 
-      * *매일* - N일마다 보고서를 실행합니다. 예를 들어 보고서를 2주(14일)마다 실행하려면 이 옵션을 선택하고 **14**&#x200B;을(를) 입력하십시오.
+    * *매일* - N일마다 보고서를 실행합니다. 예를 들어 보고서를 2주(14일)마다 실행하려면 이 옵션을 선택하고 **14**&#x200B;을(를) 입력하십시오.
 
-      * *주별* 보고서를 지정된 요일에 실행합니다. 예를 들어 매주 월요일과 금요일에 보고서를 실행하려면 이 옵션을 선택하고 **월요일**&#x200B;과 **금요일** 옆에 있는 확인란을 선택하십시오.
+    * *주별* 보고서를 지정된 요일에 실행합니다. 예를 들어 매주 월요일과 금요일에 보고서를 실행하려면 이 옵션을 선택하고 **월요일**&#x200B;과 **금요일** 옆에 있는 확인란을 선택하십시오.
 
-      * *월별* - 해당 월의 특정 숫자(1일 ~ 30일)에 보고서를 실행합니다. 예를들어 매월 첫째 날에 보고서를 실행하고 이 옵션을 선택한 다음 **1**&#x200B;을(를) 입력합니다.
+    * *월별* - 해당 월의 특정 숫자(1일 ~ 30일)에 보고서를 실행합니다. 예를들어 매월 첫째 날에 보고서를 실행하고 이 옵션을 선택한 다음 **1**&#x200B;을(를) 입력합니다.
 
-   * **시작**: 보고서를 실행할 수 있는 첫 번째 날짜입니다. 지정된 일정에 따라 첫 번째 보고서 인스턴스가 이 날짜 이후에 발생할 수 있습니다.
+  * **시작**: 보고서를 실행할 수 있는 첫 번째 날짜입니다. 지정된 일정에 따라 첫 번째 보고서 인스턴스가 이 날짜 이후에 발생할 수 있습니다.
 
-   * **까지**: 보고서 만료일로, 최대 4개월 후에 만료될 수 있습니다. 보고서가 만료되기 전에 지정된 모든 이메일 대상은 만료일 7일 1일 전에 이메일 알림을 받습니다. 보고서를 더 오래 유지하려면 이 날짜를 변경하십시오.
+  * **까지**: 보고서 만료일로, 최대 4개월 후에 만료될 수 있습니다. 보고서가 만료되기 전에 지정된 모든 이메일 대상은 만료일 7일 1일 전에 이메일 알림을 받습니다. 보고서를 더 오래 유지하려면 이 날짜를 변경하십시오.
 
 ### [!UICONTROL Apply Filters] 섹션
 
@@ -178,21 +186,21 @@ ht-degree: 0%
   >
   >전환 경로에는 [!DNL Advertising Search, Social, & Commerce]에 구성된 광고주의 노출 또는 클릭 전환 확인 기간 내의 노출 횟수 및 클릭 수가 포함됩니다. 전환 속성 중에 클릭이 노출보다 선호됩니다. 전환 경로에서 모든 클릭은 속성 규칙에 따라 전체 크레딧을 받습니다. 전환 경로에서 클릭이 추적되지 않는 경우에만 노출이 크레딧을 받습니다.
 
-   * *[!UICONTROL Last Event]:* 특성은 전환 경로의 마지막 클릭 또는 노출로 전환됩니다.
+  * *[!UICONTROL Last Event]:* 특성은 전환 경로의 마지막 클릭 또는 노출로 전환됩니다.
 
-   * *[!UICONTROL Weight Last More]:* 특성은 전환 경로의 모든 이벤트로 전환되지만 마지막 이벤트에는 가장 많은 가중치를 주고 이전 이벤트에는 순차적으로 더 적은 가중치를 제공합니다.
+  * *[!UICONTROL Weight Last More]:* 특성은 전환 경로의 모든 이벤트로 전환되지만 마지막 이벤트에는 가장 많은 가중치를 주고 이전 이벤트에는 순차적으로 더 적은 가중치를 제공합니다.
 
-   * *[!UICONTROL Even Distribution]:* 특성은 전환 경로의 각 이벤트에 동일하게 전환됩니다.
+  * *[!UICONTROL Even Distribution]:* 특성은 전환 경로의 각 이벤트에 동일하게 전환됩니다.
 
-   * *[!UICONTROL Weight First More]:* 특성은 전환 경로의 모든 이벤트로 전환되지만 첫 번째 이벤트에 가장 많은 가중치를 제공하고 다음 이벤트에 순차적으로 더 적은 가중치를 제공합니다.
+  * *[!UICONTROL Weight First More]:* 특성은 전환 경로의 모든 이벤트로 전환되지만 첫 번째 이벤트에 가장 많은 가중치를 제공하고 다음 이벤트에 순차적으로 더 적은 가중치를 제공합니다.
 
-   * *[!UICONTROL First Event]:* 특성은 전환 경로의 첫 번째 클릭 또는 노출로 전환됩니다.
+  * *[!UICONTROL First Event]:* 특성은 전환 경로의 첫 번째 클릭 또는 노출로 전환됩니다.
 
-   * *[!UICONTROL U-shaped]:* 전환 경로의 모든 이벤트에 대한 전환의 특성을 지정하지만 첫 번째 이벤트와 마지막 이벤트에 가장 많은 가중치를 제공하고 전환 경로 중간에 있는 이벤트에는 순차적으로 더 적은 가중치를 제공합니다.
+  * *[!UICONTROL U-shaped]:* 전환 경로의 모든 이벤트에 대한 전환의 특성을 지정하지만 첫 번째 이벤트와 마지막 이벤트에 가장 많은 가중치를 제공하고 전환 경로 중간에 있는 이벤트에는 순차적으로 더 적은 가중치를 제공합니다.
 
-   * *[!UICONTROL Display Only]:* 특성을 전환 경로에서 마지막 DSP 클릭 또는 노출로 전환했습니다. 여기에는 비디오 및 연결된 TV 광고가 포함되며 [!DNL Advertising Search, Social, & Commerce]개 광고에 대한 클릭은 제외됩니다.
+  * *[!UICONTROL Display Only]:* 특성을 전환 경로에서 마지막 DSP 클릭 또는 노출로 전환했습니다. 여기에는 비디오 및 연결된 TV 광고가 포함되며 [!DNL Advertising Search, Social, & Commerce]개 광고에 대한 클릭은 제외됩니다.
 
-   * *[!UICONTROL Social Only]:* 사용되지 않음
+  * *[!UICONTROL Social Only]:* 사용되지 않음
 
 또한 &quot;[Adobe Advertising에 대한 속성 규칙을 계산하는 방법](/help/search-social-commerce/reports/attribution-rules.md)&quot;을 참조하십시오.
 
@@ -220,7 +228,7 @@ ht-degree: 0%
 
 * *[!UICONTROL FTP]:* 완료된 보고서를 하나 이상의 FTP 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
-* *[!UICONTROL FTP SSL] (현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
+* *[!UICONTROL FTP SSL](현재 Beta):* 완료된 보고서를 하나 이상의 FTP SSL 위치로 보내려면 **[!UICONTROL Destination Name]** 필드에서 선택해야 합니다.
 
 * *[!UICONTROL Email]:* 오류로 인해 보고서가 취소된 경우 완료된 보고서나 알림을 보낼 전자 메일 주소를 지정합니다.
 
@@ -232,13 +240,13 @@ ht-degree: 0%
 
 * 새 대상을 만들려면 다음 작업을 수행하십시오.
 
-   1. **새 대상 추가**&#x200B;를 클릭합니다.
+  1. **새 대상 추가**&#x200B;를 클릭합니다.
 
-   1. [보고서 대상 설정](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"}을 입력하고 **저장**&#x200B;을 클릭합니다.
+  1. [보고서 대상 설정](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"}을 입력하고 **저장**&#x200B;을 클릭합니다.
 
-   1. 보고서 설정으로 돌아가서 **대상 이름 새로 고침을 클릭합니다.**
+  1. 보고서 설정으로 돌아가서 **대상 이름 새로 고침을 클릭합니다.**
 
-      이제 기존 대상 목록에서 새 대상을 사용할 수 있으며, 원할 경우 보고서에 추가할 수 있습니다.
+     이제 기존 대상 목록에서 새 대상을 사용할 수 있으며, 원할 경우 보고서에 추가할 수 있습니다.
 
 
 <!--

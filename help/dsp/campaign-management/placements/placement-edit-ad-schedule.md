@@ -3,22 +3,26 @@ title: 배치에 대한 광고 일정 편집
 description: 배치에 첨부된 광고의 광고 일정을 변경하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-TQID: https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw
+TQID: 'https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: '444'
 ht-degree: 0%
-
 ---
-
 # 배치에 대한 광고 일정 편집
 
 ## 하나 이상의 배치에 대한 광고 일정 편집
@@ -45,9 +49,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Flight N Weight]**(예: [!UICONTROL Flight 1 Weight]): 비행 광고를 회전하는 방법. 값 입력:
 
-      * 비행에 대한 광고를 균등하게 회전하려면 `[!UICONTROL Even]`을(를) 입력합니다.
+     * 비행에 대한 광고를 균등하게 회전하려면 `[!UICONTROL Even]`을(를) 입력합니다.
 
-      * 비행에 대한 광고를 불균일하게 회전하려면 각 광고를 회전시킬 상대적 가중치를 백분율로 입력합니다(예: 40%의 경우 `40`). 비행기의 총 무게는 100이어야 합니다.
+     * 비행에 대한 광고를 불균일하게 회전하려면 각 광고를 회전시킬 상대적 가중치를 백분율로 입력합니다(예: 40%의 경우 `40`). 비행기의 총 무게는 100이어야 합니다.
 
 1. 편집된 광고 일정 템플릿을 업로드합니다.
 
@@ -77,9 +81,9 @@ ht-degree: 0%
 
    * 광고에서 기존 플라이트 제거를 수행하려면 플라이트 열의 광고 행에서 **[!UICONTROL x]**&#x200B;을(를) 클릭합니다.
 
-      * (여러 광고의 비행 시간이 동일한 경우) 광고를 불균일하게 회전하려면 비행 정보에서 **[!UICONTROL Even Rotation]**&#x200B;을(를) 클릭한 다음 각 광고를 회전하는 상대 가중치를 백분율로 입력하십시오.
+     * (여러 광고의 비행 시간이 동일한 경우) 광고를 불균일하게 회전하려면 비행 정보에서 **[!UICONTROL Even Rotation]**&#x200B;을(를) 클릭한 다음 각 광고를 회전하는 상대 가중치를 백분율로 입력하십시오.
 
-        총 가중치는 100이어야 합니다.
+       총 가중치는 100이어야 합니다.
 
 1. 오른쪽 상단에서 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 

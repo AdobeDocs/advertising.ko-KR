@@ -3,22 +3,26 @@ title: 캠페인 변경 로그 보기
 description: 캠페인에 대한 변경 사항을 보는 방법을 알아봅니다.
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-TQID: https://experienceleague.adobe.com/7cil2OV6waifHmeWbITQG9Qa8Rk6OdsWpMzHpBWpn8k
+TQID: 'https://experienceleague.adobe.com/7cil2OV6waifHmeWbITQG9Qa8Rk6OdsWpMzHpBWpn8k'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 204
+source-wordcount: '203'
 ht-degree: 0%
-
 ---
-
 # 캠페인에 대한 변경 로그 보기
 
 변경 로그에는 캠페인 이름, 엔티티 유형(캠페인), 변경 유형, 새 값 및 이전 값, 변경한 사용자 및 날짜를 포함하여 선택한 날짜 범위 동안 캠페인에 수행된 변경 사항이 표시됩니다. 필요에 따라 모든 항목에 메모를 추가할 수 있습니다.

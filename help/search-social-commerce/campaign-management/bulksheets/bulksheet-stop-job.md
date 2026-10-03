@@ -3,18 +3,21 @@ title: 진행 중인 일괄 시트 작업 중지
 description: 일괄 시트 작업이 진행되는 동안 중지하는 방법을 알아봅니다.
 exl-id: 10577dcf-3b86-49f1-8e3a-ccfe56fffe84
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/H35Qgzg2cURzVvI5jWgthKjkhx6DRdNKOvFuAz7CyhM
+TQID: 'https://experienceleague.adobe.com/H35Qgzg2cURzVvI5jWgthKjkhx6DRdNKOvFuAz7CyhM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 110
+source-wordcount: '110'
 ht-degree: 0%
-
 ---
-
 # 진행 중인 일괄 시트 작업 중지
 
 파일이 계속 진행되는 동안 파일 게시를 포함하여 일괄 시트 작업을 중지할 수 있습니다.

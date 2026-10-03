@@ -2,13 +2,21 @@
 title: 기본 및 고급 보고서용 보고서 열
 description: 기본 및 고급 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '3992'
+source-wordcount: '4023'
 ht-degree: 0%
-
 ---
-
 # 기본 및 고급 보고서용 보고서 열
 
 | 열 | 설명 |
@@ -38,7 +46,7 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] 반응형 검색 광고) 광고의 효과: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> 또는 <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] 캠페인) 광고가 모바일 장치에 표시될 때 입찰이 조정되는 방법을 결정하는 현재 광고 그룹 수준의 모바일 입찰 조정입니다. |
 | [!UICONTROL AI Max Bundling Required] | (검색 네트워크만 대상으로 하는 캠페인, AI Max 기능이 활성화된 캠페인, 읽기 전용) 캠페인에 대한 텍스트 사용자 지정 및 브랜드 목록 컨트롤을 준수하거나 수정하려면 [!UICONTROL AI Max]을(를) 활성화해야 하는지 여부: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* 또는 null. |
-| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max] 기능 &#x200B;](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max] 기능 ](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
 | [!UICONTROL AI Max Search Term Matching] | (검색 네트워크를 대상으로 하며 [AI 최대 기능](https://support.google.com/google-ads/answer/15910366) 및 캠페인 수준 검색어 일치 기능이 활성화된 캠페인입니다. 읽기 전용) 광고 그룹 수준 검색어 일치가 활성화되었는지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
 | [!UICONTROL Advertiser] | 광고주 이름. |
 | [!UICONTROL Advertiser ID] | 광고주의 검색, 소셜 및 Commerce 계정에 대한 숫자 ID입니다. |
@@ -172,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group Status] | 제품 그룹의 상태입니다. |
 | [!UICONTROL Product Groupings] | 상위 제품 그룹. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] 제품 목록 광고) 광고에 표시된 제품의 제품 ID입니다.<br><br><b>참고:</b> 제품 목록에 추적 매개 변수 `ev_plx=<GMC product ID>`이(가) 포함된 경우에만 ID가 캡처됩니다. [!DNL Google Merchant Center] 내에 추가해야 합니다. |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) 전환 지표에 대한 매출액(예: 한 등록에 대한 1 또는 12USD 주문에 대한 12). 여러 입찰 단위에 동일한 거래 ID가 있는 경우 추적 ID의 매출은 지정된 클릭 날짜(클릭 데이터를 사용할 수 있을 때)의 클릭 수에 따라 분할됩니다. |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) 전환 지표에 대한 매출액(예: 하나의 등록에 대해 1, 12 USD 주문에 대해 12). 여러 입찰 단위에 동일한 거래 ID가 있는 경우 추적 ID의 매출은 지정된 클릭 날짜(클릭 데이터를 사용할 수 있을 때)의 클릭 수에 따라 분할됩니다. |
 | [!UICONTROL Reach] | ([!DNL Meta] 캠페인만 해당) 광고를 한 번 이상 본 사람의 수입니다. 참고: [!DNL Meta] 중복 제거는 매일 사용자 프로필에 대해 도달하므로 [!DNL Meta]과(와) 검색, 소셜 및 Commerce에서 보고한 수치가 다를 수 있습니다. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) 노출 또는 클릭이 시작된 지역 또는 미국/캐나다 주입니다. 사용자의 IP 주소에서 결정됩니다. |
 | [!UICONTROL SE Creative ID] | 네트워크에서 할당한 광고 ID입니다. |

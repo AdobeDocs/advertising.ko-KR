@@ -3,21 +3,26 @@ title: 용어집
 description: 주요 용어의 정의를 참조하십시오.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw
+TQID: 'https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2377
+source-wordcount: '2408'
 ht-degree: 0%
-
 ---
-
 # 용어집 {#glossary}
 
 ## A-B {#a-b}
@@ -26,7 +31,7 @@ ht-degree: 0%
 
 **광고 변형:** 광고 그룹 또는 광고 전략 내의 모든 광고.
 
-**[AMO ID](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id):** Adobe Advertising에서 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다. `s_kwcid=`(으)로 시작합니다.
+**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Adobe Advertising에서 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다. `s_kwcid=`(으)로 시작합니다.
 
 **입찰 단위:** 입찰이 있는 단위에 대한 검색, 소셜 및 Commerce 용어입니다.
 
@@ -72,7 +77,7 @@ ht-degree: 0%
 
 **획득당 비용:**(CPA) 광고 비용을 전환 횟수로 나눈 값입니다. CPT(트랜잭션당 비용) 또는 CPO(주문당 비용)라고도 합니다.
 
-**클릭당 비용:**(CPC) 1) 광고 비용을 광고의 총 클릭 수로 나눈 값입니다. 예를 들어 광고 노출에 100USD를 사용하고 광고가 10번의 클릭을 생성하는 경우 클릭당 비용은 100USD/10=10USD입니다. 2) 광고 클릭당 광고주가 과금되는 가격 책정 모델.
+**클릭당 비용:**(CPC) 1) 광고 비용을 광고의 총 클릭 수로 나눈 값입니다. 예를 들어 광고 노출에 100 USD을 사용하고 광고가 10번의 클릭을 생성하는 경우 클릭당 비용은 100 USD/10=10 USD입니다. 2) 광고 클릭당 광고주가 과금되는 가격 책정 모델.
 
 **주문당 비용:**(CPO) 광고 비용을 주문 수로 나눈 값입니다. CPA(취득당 비용) 또는 CPT(거래당 비용)라고도 합니다.
 
@@ -96,7 +101,7 @@ ht-degree: 0%
 
 **eCPM:** 유효 CPM 또는 지정된 날짜 범위 동안 1000회 노출당 지불된 평균 비용입니다. eCPM 값은 CPM 또는 CPC 캠페인에 대해 계산할 수 있습니다.
 
-**[EF ID](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-ef-id):** Adobe Advertising에서 온라인 클릭 또는 광고 노출과 활동을 연결하고 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다.
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** Adobe Advertising에서 온라인 클릭 또는 광고 노출과 활동을 연결하고 Adobe Analytics 및 Adobe Customer Journey Analytics과 캠페인에 대한 데이터를 공유할 수 있는 추적 코드입니다.
 
 ## G-H {#g-h}
 

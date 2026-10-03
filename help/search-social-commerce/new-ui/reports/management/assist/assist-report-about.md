@@ -2,13 +2,19 @@
 title: 지원 보고서 정보
 description: 전환 경로에 대한 통찰력을 제공하는 보고서에 대해 알아봅니다.
 feature: Search Reports, Search Assist Reports
-source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
-
 ---
-
 # 지원 보고서 정보
 
 *검색, 소셜 및 Commerce 클릭 추적 및 Adobe Advertising, Adobe Analytics([!DNL Analytics] 통합 포함)의 전환 추적을 사용하거나 토큰(`ef_id`)만 사용하여 피드에 제공된 광고주*

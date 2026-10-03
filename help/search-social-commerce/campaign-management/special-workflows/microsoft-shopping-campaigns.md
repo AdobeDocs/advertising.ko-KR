@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL Microsoft Advertising] 쇼핑 캠페인 구현'
-description: ' [!DNL Microsoft Advertising] 쇼핑 캠페인을 설정하는 워크플로에 대해 알아봅니다.'
+title: '[!DNL Microsoft Advertising] 쇼핑 캠페인 구현'
+description: '[!DNL Microsoft Advertising] 쇼핑 캠페인을 설정하는 워크플로에 대해 알아봅니다.'
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8
+TQID: 'https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 587
+source-wordcount: '598'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] 쇼핑 캠페인 구현
 
 쇼핑 캠페인의 광고는 키워드 대신 기존 [!DNL Microsoft Merchant Center] 제품 피드의 제품에 대한 데이터를 사용하여 광고를 표시할 방법과 위치를 결정합니다.
@@ -27,7 +31,7 @@ ht-degree: 0%
 
 ## [!DNL Microsoft Advertising] 쇼핑 캠페인을 설정하는 단계
 
-[에 대해 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)인벤토리 피드 템플릿[!DNL Microsoft Advertising], [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하거나 개별적으로 쇼핑 캠페인을 설정할 수 있습니다. 다음 지침에는 개별 엔티티 만들기에 대한 링크가 포함되어 있습니다.
+[!DNL Microsoft Advertising]에 대해 [인벤토리 피드 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md), [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하거나 개별적으로 쇼핑 캠페인을 설정할 수 있습니다. 다음 지침에는 개별 엔티티 만들기에 대한 링크가 포함되어 있습니다.
 
 1. [!DNL Microsoft Merchant Center] 계정을 설정하고 제품 데이터로 채웁니다.
 
@@ -45,7 +49,7 @@ ht-degree: 0%
 
    1. (선택 사항) [하위 제품 그룹을 만듭니다](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md).
 
-   1. 광고 그룹 내의 각 쇼핑 광고에 포함될 수 있는 [프로모션 줄이 있는 &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)제품 광고[를 만듭니다](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md).
+   1. 광고 그룹 내의 각 쇼핑 광고에 포함될 수 있는 [프로모션 줄이 있는 [제품 광고](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)를 만듭니다](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md).
 
       Microsoft Advertising은 각 광고에 대한 광고 사본과 랜딩 페이지 URL을 동적으로 생성합니다.
 
@@ -69,5 +73,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* [!DNL Microsoft Shopping]일괄 시트[&#x200B; 및 &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)인벤토리 피드 템플릿[을 사용하여 &#x200B;](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md) 캠페인 및 제품 그룹을 관리하는 데 필요한 필드를 참조하세요.
+>* [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md) 및 [인벤토리 피드 템플릿](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)을 사용하여 [!DNL Microsoft Shopping] 캠페인 및 제품 그룹을 관리하는 데 필요한 필드를 참조하세요.
 >* [!DNL Microsoft Shopping] 캠페인에 대한 자세한 내용은 [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/50903)를 참조하세요.

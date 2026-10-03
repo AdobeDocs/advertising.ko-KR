@@ -3,18 +3,21 @@ title: 일괄 시트를 사용하여 계정 구성 요소에 분류 값 할당
 description: 일괄 시트를 사용하여 계정 구성 요소에 분류 값을 할당하는 방법을 알아봅니다.
 exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/zLEy6MglSGlf6WnoO2oEgSdPLwlp-5cBdmxi-XXiv5g
+TQID: 'https://experienceleague.adobe.com/zLEy6MglSGlf6WnoO2oEgSdPLwlp-5cBdmxi-XXiv5g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
 # 일괄 시트를 사용하여 계정 구성 요소에 분류 값 할당
 
 일괄 시트를 사용하여 레이블 분류를 검색 엔티티에 대한 값(캠페인, 광고 그룹, 키워드, 광고, 배치, 단위 수준 제품 그룹 및 동적 검색 대상)과 연결할 수 있습니다. 각 레이블 분류는 최대 2000개의 값을 가질 수 있습니다.
@@ -29,7 +32,7 @@ ht-degree: 0%
 
 1. 레이블 분류 값을 할당할 엔터티가 포함된 [일괄 시트를 다운로드합니다](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md).
 
-   * [!UICONTROL Rows and Columns] 탭에서 [!UICONTROL Campaign] 창의 [!UICONTROL Bulksheet Columns] 목록을 확장합니다.
+   * [!UICONTROL Rows and Columns] 탭에서 [!UICONTROL Bulksheet Columns] 창의 [!UICONTROL Campaign] 목록을 확장합니다.
 
    * [!UICONTROL Label Classification] 목록을 확장합니다.
 

@@ -3,22 +3,29 @@ title: 경험을 위한 크리에이티브 최적화 및 일정 사용자 정의
 description: 타깃팅하지 않고 경험에 대한 최적화 및 광고 예약을 구성하는 방법에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-TQID: https://experienceleague.adobe.com/h1LkoqSvnGN24h9Vs-na17q-Ey6JJBOrssM6hOtmoWw
+TQID: 'https://experienceleague.adobe.com/h1LkoqSvnGN24h9Vs-na17q-Ey6JJBOrssM6hOtmoWw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1193
+source-wordcount: '1191'
 ht-degree: 0%
-
 ---
-
 # 의사 결정 트리 타깃팅 없이 경험에 대한 크리에이티브 최적화 및 예약 사용자 지정
 
 기존 크리에이티브만 있는 *경험*
@@ -55,17 +62,17 @@ ht-degree: 0%
 
    * *[!UICONTROL Algorithmic]:* 지정된 목표를 기반으로 가장 효과적인 광고 변형을 더 자주 표시합니다.
 
-      * **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]*, (표준 비디오 광고 경험) *[!UICONTROL Completion Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오.  *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.
+     * **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]*, (표준 비디오 광고 경험) *[!UICONTROL Completion Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오.  *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.
 
    * *[!UICONTROL Sequencing]:* 연결된 크리에이티브 번들을 지정된 순서로 표시합니다(첫 번째로 제공된 번들 1, 두 번째로 제공된 번들 2 등). 이때 각 번들 시퀀스에 대해 지정된 총 노출 수가 표시됩니다. 제공되는 광고 크기는 사용 가능한 인벤토리에 의해 결정됩니다. a\) 무기한으로 표시되거나(기본값) b\) 다시 첫 번째 번들로 루프백되도록 시퀀스의 마지막 번들을 구성할 수 있습니다. 예를 들어, 3개의 (3) 노출에 대해 번들 1에 광고 변형을 표시한 다음 하나의 (1) 노출에 대해 번들 2에 광고 변형을 표시한 다음 2개의 (2) 노출에 대해 번들 3에 광고 변형을 표시한 다음 루프를 다시 시작할 수 있습니다. 또는 번들 3의 광고 변형이 표시되면 루프를 만드는 대신 번들 3의 광고 변형을 계속 무기한으로 표시할 수 있습니다. 순번 지정 사용 시:
 
-      1. 할당된 번들을 원하는 순서로 끌어다 놓습니다.
+     1. 할당된 번들을 원하는 순서로 끌어다 놓습니다.
 
      할당된 번들은 기본적으로 경험에 추가된 순서대로 순서가 지정됩니다.
 
-      1. 각 시퀀스에 대한 노출 횟수를 입력합니다.
+     1. 각 시퀀스에 대한 노출 횟수를 입력합니다.
 
-      1. 마지막 시퀀스의 경우, a\) 시퀀스에 최종 번들을 무기한으로 표시할지(*[!UICONTROL Infinite]*(기본값) 또는 b\) 최종 번들이 표시된 후 첫 번째 번들로 다시 루프할지(*[!UICONTROL Keep in Loop]*) 변경합니다.
+     1. 마지막 시퀀스의 경우, a\) 시퀀스에 최종 번들을 무기한으로 표시할지(*[!UICONTROL Infinite]*(기본값) 또는 b\) 최종 번들이 표시된 후 첫 번째 번들로 다시 루프할지(*[!UICONTROL Keep in Loop]*) 변경합니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -99,17 +106,17 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]:* 지정한 최적화 목표에 따라 창의력을 알고리즘적으로 회전합니다.
 
-         * **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]*, (표준 비디오 광고 경험) *[!UICONTROL Completion Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오.  *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.<!-- Verify -->
+        * **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]*, (표준 비디오 광고 경험) *[!UICONTROL Completion Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오.  *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.<!-- Verify -->
 
       * *[!UICONTROL Sequencing]:* 연결된 크리에이티브 번들을 지정된 순서로 회전합니다(첫 번째로 제공된 번들 1, 두 번째로 제공된 번들 2 등). 이때 각 번들 시퀀스에 대해 지정된 총 노출 횟수는 동일합니다. 제공되는 광고 크기는 사용 가능한 인벤토리에 의해 결정됩니다. a\) 무기한으로 표시되거나(기본값) b\) 다시 첫 번째 번들로 루프백되도록 시퀀스의 마지막 번들을 구성할 수 있습니다. 예를 들어, 3개의 (3) 노출에 대해 1번에서 모든 크리에이티브를 표시한 다음, 1개의 (1) 노출에 대해 2번에서 모든 크리에이티브를 표시한 다음, 2개의 (2) 노출에 대해 3번에서 모든 크리에이티브를 표시한 다음 루프를 다시 시작할 수 있습니다. 또는 번들 3의 크리에이티브가 표시되면 루프를 만드는 것이 아니라 계속 번들 3의 크리에이티브를 무한정 표시할 수 있습니다. 순번 지정 사용 시:
 
-         1. 할당된 번들을 원하는 순서로 끌어다 놓습니다.
+        1. 할당된 번들을 원하는 순서로 끌어다 놓습니다.
 
-            할당된 번들은 기본적으로 경험에 추가된 순서대로 순서가 지정됩니다.
+           할당된 번들은 기본적으로 경험에 추가된 순서대로 순서가 지정됩니다.
 
-         1. 각 시퀀스에 대한 노출 횟수를 입력합니다.
+        1. 각 시퀀스에 대한 노출 횟수를 입력합니다.
 
-         1. 마지막 시퀀스의 경우, a\) 시퀀스에 최종 번들을 무기한으로 표시할지(*[!UICONTROL Infinite]*(기본값) 또는 b\) 최종 번들이 표시된 후 첫 번째 번들로 다시 루프할지(*[!UICONTROL Keep in Loop]*) 변경합니다.
+        1. 마지막 시퀀스의 경우, a\) 시퀀스에 최종 번들을 무기한으로 표시할지(*[!UICONTROL Infinite]*(기본값) 또는 b\) 최종 번들이 표시된 후 첫 번째 번들로 다시 루프할지(*[!UICONTROL Keep in Loop]*) 변경합니다.
 
 1. 각 추가 일정에 대해:
 
@@ -125,17 +132,17 @@ ht-degree: 0%
 
       * *[!UICONTROL Algorithmic]:* 지정한 최적화 목표에 따라 창의력을 알고리즘적으로 회전합니다.
 
-         * **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오.  *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.<!-- Verify -->
+        * **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오.  *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.<!-- Verify -->
 
       * *[!UICONTROL Sequencing]:* 각 번들 시퀀스에 대해 지정된 총 노출 횟수로 연결된 Creative 번들을 지정된 순서로 회전합니다. 순번 지정 사용 시:
 
-         1. 할당된 번들을 원하는 순서로 끌어다 놓습니다.
+        1. 할당된 번들을 원하는 순서로 끌어다 놓습니다.
 
-            할당된 번들은 기본적으로 경험에 추가된 순서대로 순서가 지정됩니다.
+           할당된 번들은 기본적으로 경험에 추가된 순서대로 순서가 지정됩니다.
 
-         1. 각 시퀀스에 대한 노출 횟수를 입력합니다.
+        1. 각 시퀀스에 대한 노출 횟수를 입력합니다.
 
-         1. 마지막 시퀀스의 경우, a\) 시퀀스에 최종 번들을 무기한으로 표시할지(*[!UICONTROL Infinite]*(기본값) 또는 b\) 최종 번들이 표시된 후 첫 번째 번들로 다시 루프할지(*[!UICONTROL Keep in Loop]*) 변경합니다.
+        1. 마지막 시퀀스의 경우, a\) 시퀀스에 최종 번들을 무기한으로 표시할지(*[!UICONTROL Infinite]*(기본값) 또는 b\) 최종 번들이 표시된 후 첫 번째 번들로 다시 루프할지(*[!UICONTROL Keep in Loop]*) 변경합니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 

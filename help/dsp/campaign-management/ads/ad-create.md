@@ -3,22 +3,26 @@ title: 단일 광고 만들기
 description: 단일 타사 광고를 만드는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-TQID: https://experienceleague.adobe.com/WsySBj4JDE90DEMEAPqnh9l9945iGKWTctYnUyrFoe0
+TQID: 'https://experienceleague.adobe.com/WsySBj4JDE90DEMEAPqnh9l9945iGKWTctYnUyrFoe0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 # 단일 광고 만들기
 
 다양한 [광고 유형](ad-about.md#ad-types)에서 개별 기본 디스플레이 광고 또는 타사 광고를 만들 수 있습니다.

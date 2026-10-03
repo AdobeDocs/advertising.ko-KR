@@ -2,13 +2,19 @@
 title: 광고주 계정 설정
 description: 사용 가능한 광고주 설정에 대한 설명을 참조하십시오.
 role: User, Admin
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
-
+source-wordcount: '1035'
+ht-degree: 7%
 ---
-
 # 광고주 계정 설정
 
 *읽기 전용 사용자가 사용할 수 없음*
@@ -31,15 +37,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-추가 Adobe CX Enterprise 제품을 사용하는 광고주는 CX Enterprise에 대한 조직의 고유 ID를 사용하여 일부 제품 간에 데이터를 공유할 수 있습니다. [!UICONTROL Integrations] 섹션에서 특정 제품 통합을 구성할 수 있습니다.
+추가 Adobe CX Enterprise 제품이 있는 광고주는 CX Enterprise에 대한 조직의 고유 ID를 사용하여 일부 제품 간에 데이터를 공유할 수 있습니다. [!UICONTROL Integrations] 섹션에서 특정 제품 통합을 구성할 수 있습니다.
 
-**[!UICONTROL Account IMS org and ID]:** (여러 광고주가 있는 CX 엔터프라이즈 계정을 통해 라이선스가 부여된 추가 CX 엔터프라이즈 제품을 사용하는 광고주; 선택 사항) 광고주의 CX 엔터프라이즈 조직 ID입니다.
+**[!UICONTROL Account IMS org and ID]:**(여러 광고주가 있는 CX Enterprise 계정을 통해 라이선스가 부여된 추가 CX Enterprise 제품이 있는 광고주; 선택 사항) 광고주의 CX Enterprise 조직 ID입니다.
 
-**[!UICONTROL Advertiser IMS org and ID]:**(추가 CX 엔터프라이즈 제품에 대한 직접 라이선스가 있는 광고주, 선택 사항) 광고주의 CX 엔터프라이즈 조직 ID입니다.
+**[!UICONTROL Advertiser IMS org and ID]:**(추가 CX Enterprise 제품에 대한 직접 라이선스가 있는 광고주, 선택 사항) 광고주의 CX Enterprise 조직 ID입니다.
 
 ### [!UICONTROL Integrations]
 
-(선택 사항) DSP 계정에 연결된 추가 CX 엔터프라이즈 제품 제품은 [!UICONTROL Adobe IMS IDs] 섹션에 제공된 동일한 CX 엔터프라이즈 조직 ID와 연결되어 있어야 합니다.
+(선택 사항) DSP 계정에 연결된 추가 CX Enterprise 제품. 제품은 [!UICONTROL Adobe IMS IDs] 섹션에 제공된 것과 동일한 CX Enterprise 조직 ID와 연결되어 있어야 합니다.
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:**(광고주: [!DNL Advertising Search, Social, & Commerce] 또는 Adobe Advertising 전환 픽셀을 사용) DSP에서 속성 데이터를 교환하는 [!DNL Search, Social, & Commerce] 계정.
 
@@ -57,7 +63,7 @@ ht-degree: 0%
 
 * Audience Manager 세그먼트
 * Adobe CX Enterprise에 게시된 [!DNL Analytics]개 세그먼트
-* Adobe CX Enterprise [!DNL Audience Library]을(를) 사용하여 생성된 세그먼트
+* Adobe CX Enterprise [!DNL Audience Library]을(를) 사용하여 만든 세그먼트
 * Adobe Experience Platform에서 만들어져 Audience Manager을 통해 Adobe Advertising으로 전송되는 세그먼트
 
 초기 동기화는 약 24시간이 소요됩니다. 그 후에는 데이터가 1~2초 지연으로 실시간으로 동기화됩니다.
@@ -133,19 +139,19 @@ Segment membership data is sent to Adobe Advertising only after one of the follo
 
 ###### 비디오
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. 이 옵션을 사용하여 기준을 선택합니다.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. 이 옵션을 사용하여 기준을 선택합니다.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. 이 옵션을 사용하여 기준을 선택합니다.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. 이 옵션을 사용하여 기준을 선택합니다.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. 이 옵션을 사용하여 기준을 선택합니다.
+** **[!UICONTROL Include URL's whose average player size composition is]**. 이 옵션을 사용하여 기준을 선택합니다.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### 표시
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. 이 옵션을 사용하여 기준을 선택합니다.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. 이 옵션을 사용하여 기준을 선택합니다.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 

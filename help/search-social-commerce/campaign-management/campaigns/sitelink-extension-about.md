@@ -3,20 +3,24 @@ title: 사이트링크 확장 기본 정보
 description: 사이트링크 확장에 대해 알아봅니다.
 exl-id: c2d96440-62da-4b57-a98e-d7b94882d6c5
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U
+TQID: 'https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 344
+source-wordcount: '355'
 ht-degree: 0%
-
 ---
-
 # 사이트링크 확장 기본 정보
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising]만*
@@ -27,7 +31,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Sitelinks] 및 [!UICONTROL Associations] 보기
 
-[!UICONTROL Extensions] > [!UICONTROL Sitelinks]의 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 라이브러리는 모든 계정 수준 사이트 링크를 나열하며, 여기에서 공유 사이트 링크를 만들고 관리할 수 있습니다. [[!DNL Google Ads] 계정](https://support.google.com/google-ads/answer/6372658) 및 [[!DNL Microsoft Advertising] 계정](https://help.ads.microsoft.com/#apex/3/en/52001)당 최대 광고 확장 수에 대해서는 광고 네트워크 도움말을 참조하십시오. 라이브러리의 사이트 링크는 계정 엔티티에 할당할 때까지 광고와 함께 사용되지 않습니다.
+[!UICONTROL Campaigns] > [!UICONTROL Campaigns]의 [!UICONTROL Extensions] > [!UICONTROL Sitelinks] 라이브러리는 모든 계정 수준 사이트 링크를 나열하며, 여기에서 공유 사이트 링크를 만들고 관리할 수 있습니다. [[!DNL Google Ads] 계정](https://support.google.com/google-ads/answer/6372658) 및 [[!DNL Microsoft Advertising] 계정](https://help.ads.microsoft.com/#apex/3/en/52001)당 최대 광고 확장 수에 대해서는 광고 네트워크 도움말을 참조하십시오. 라이브러리의 사이트 링크는 계정 엔티티에 할당할 때까지 광고와 함께 사용되지 않습니다.
 
 [!UICONTROL Extensions] > [!UICONTROL Associations] 보기에서 계정 수준([!DNL Google Ads]만), 캠페인 수준 또는 광고 그룹 수준([!DNL Google Ads]만)의 모든 광고에 가능한 확장으로 사이트 링크를 할당할 수 있습니다.
 

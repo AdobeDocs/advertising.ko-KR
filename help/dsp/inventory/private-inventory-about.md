@@ -3,25 +3,31 @@ title: 개인 인벤토리 기본 정보
 description: 개인 인벤토리 기본 정보
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-TQID: https://experienceleague.adobe.com/yuAdhUCHaiZ1BlJ1bu8I1prqp1TjLzAfowIbfT6CEzM
+TQID: 'https://experienceleague.adobe.com/yuAdhUCHaiZ1BlJ1bu8I1prqp1TjLzAfowIbfT6CEzM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 443
+source-wordcount: '447'
 ht-degree: 0%
-
 ---
-
 # 개인 인벤토리 기본 정보
 
 *계정 유형이 &quot;Ad Network&quot;, &quot;Publisher Audience Extension&quot; 및 &quot;Other&quot;인 사용자, 범주가 &quot;Other&quot;인 광고주 및 리셀러에게는 사용할 수 없습니다*
@@ -37,7 +43,7 @@ RTB 이상을 원하는 광고주는 전용 인벤토리를 사용하여 전용 
 
 다음 방법 중 하나로 거래 ID를 사용할 수 있습니다.
 
-* (활성화가 필요한 선택적 기능) [!UICONTROL Deal ID Inbox]에서 [!DNL FreeWheel]의 SSP(공급측 플랫폼)인 [!DNL Google Authorized Buyers], [!DNL AdX]&#x200B;(이전의 [!DNL Magnite DV+]) 및 [!DNL Rubicon]&#x200B;(이전의 [!UICONTROL Deal ID Inbox])에 있는 게시자의 합의된 보장 및 보장되지 않는 개인 인벤토리 거래를 검토하고 빠르게 수락할 수 있습니다.
+* (활성화가 필요한 선택적 기능) [!UICONTROL Deal ID Inbox]에서 [!UICONTROL Deal ID Inbox]의 SSP(공급측 플랫폼)인 [!DNL FreeWheel], [!DNL Google Authorized Buyers]&#x200B;(이전의 [!DNL AdX]) 및 [!DNL Magnite DV+]&#x200B;(이전의 [!DNL Rubicon])에 있는 게시자의 합의된 보장 및 보장되지 않는 개인 인벤토리 거래를 검토하고 빠르게 수락할 수 있습니다.
 
   자세한 내용은 &quot;[[!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md) 정보&quot;를 참조하세요.
 

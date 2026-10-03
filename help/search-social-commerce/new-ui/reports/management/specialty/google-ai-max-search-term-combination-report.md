@@ -2,7 +2,15 @@
 title: '[!UICONTROL Google AI Max Search Term Combination Report]'
 description: '[!UICONTROL Google AI Max Search Term Combination Report]에 대해 알아봅니다.'
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a595c7d6245fa5d65e704e88230f2eab0a336e72
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -17,7 +25,7 @@ ht-degree: 0%
 
   이 시트를 사용하여 강력한 부정적 키워드 목록을 빌드할 수 있도록 쿼리당 결과 광고 요소의 성능 및 의도를 분석합니다.
 
-* &#x200B;<!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1] 시트: [!DNL Google Ads]에서 각 검색어와 일치 유형에 대한 전환 작업별로 전환 데이터를 추적했습니다. 각 행에는 전환 작업, 전환 수 및 전환 값과 보고서 설정에 지정된 기타 선택적 [!DNL Google Ads] 추적 전환 지표가 포함됩니다. 기본적으로 데이터에는 지정된 데이터 범위에서 각 검색어와 전환 작업 조합에 대한 하나의 행이 포함됩니다. 행은 첫 번째 시트의 행과 순서가 같습니다.
+* <!-- [!UICONTROL Search Term x Conversion Action] sheet? -->[!UICONTROL AI Max Search Term #1] 시트: [!DNL Google Ads]에서 각 검색어와 일치 유형에 대한 전환 작업별로 전환 데이터를 추적했습니다. 각 행에는 전환 작업, 전환 수 및 전환 값과 보고서 설정에 지정된 기타 선택적 [!DNL Google Ads] 추적 전환 지표가 포함됩니다. 기본적으로 데이터에는 지정된 데이터 범위에서 각 검색어와 전환 작업 조합에 대한 하나의 행이 포함됩니다. 행은 첫 번째 시트의 행과 순서가 같습니다.
 
   <!-- Should it be this?  The sheet includes the number of conversions and the conversion value, all conversions and the all conversions value, and cross-device conversions. -->
 

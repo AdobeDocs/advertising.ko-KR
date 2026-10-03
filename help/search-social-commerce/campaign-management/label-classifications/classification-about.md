@@ -3,18 +3,21 @@ title: 레이블 분류 정보
 description: 레이블 분류를 사용하여 계정 구성 요소를 그룹화하는 방법에 대해 알아봅니다.
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-TQID: https://experienceleague.adobe.com/dZL-v9IRny6Q2rjXcEeFKicL8UHKhRofQS4bBEd0sX8
+TQID: 'https://experienceleague.adobe.com/dZL-v9IRny6Q2rjXcEeFKicL8UHKhRofQS4bBEd0sX8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '307'
 ht-degree: 0%
-
 ---
-
 # 레이블 분류 정보
 
 레이블 분류를 사용하면 계정 구성 요소를 의미 있는 세트로 그룹화할 수 있습니다. 예를 들어 &quot;지역&quot;이라는 상위 레이블 분류를 만들고, 분류 내의 각 지역(예: &quot;영국&quot; 및 &quot;일본&quot;)에 대해 다른 레이블 값을 만든 다음 레이블 값을 [입찰 단위](/help/search-social-commerce/glossary.md#a-b) 또는 상위 캠페인에 할당할 수 있습니다. 그런 다음 레이블 값을 보기와 보고서에 별도의 열로 포함하고 보고서를 다른 분류 그룹과 값으로 하위 피벗할 수 있습니다.

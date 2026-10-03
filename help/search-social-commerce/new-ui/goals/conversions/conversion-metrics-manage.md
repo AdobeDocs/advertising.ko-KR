@@ -2,20 +2,25 @@
 title: 광고주의 전환 지표 관리
 description: Adobe Advertising이 광고주를 위해 추적하는 전환 지표를 사용하는 방법을 알아봅니다.
 feature: Conversions
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
   - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
 subfeature_v2:
   - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 광고주의 전환 지표를 관리합니다
 
 *Beta 기능*
@@ -66,11 +71,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[&#x200B; [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md)의 지표에 대해 통합을 업데이트하거나 다시 인증하면 표시 이름에 대한 수동 변경 내용을 덮어씁니다. 마찬가지로, 통합을 [업데이트](/help/search-social-commerce/admin/data-sources/data-source-edit.md) 또는 [재인증](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)하지 않는 한 [!DNL Google Analytics] 내의 이름 변경 내용은 무시됩니다.
+>[ [!DNL Google Analytics]](/help/search-social-commerce/admin/data-sources/data-source-about.md)의 지표에 대해 통합을 업데이트하거나 다시 인증하면 표시 이름에 대한 수동 변경 내용을 덮어씁니다. 마찬가지로, 통합을 [업데이트](/help/search-social-commerce/admin/data-sources/data-source-edit.md) 또는 [재인증](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)하지 않는 한 [!DNL Google Analytics] 내의 이름 변경 내용은 무시됩니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
 
-1. 도구 모음[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서  목록을 필터링합니다.
+1. 도구 모음](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서 [ 목록을 필터링합니다.
 
 1. 지표의 **[!UICONTROL Conversion Display Name]** 열에서 지표 이름 위에 커서를 놓고 **..** > **[!UICONTROL Rename]**&#x200B;을(를) 클릭합니다.
 
@@ -88,7 +93,7 @@ ht-degree: 0%
 
    광고주를 위해 수집된 모든 전환 지표와 표시를 위해 지정된 다른 이름이 나열됩니다.
 
-1. (선택 사항) 도구 모음[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서  목록을 필터링합니다.
+1. (선택 사항) 도구 모음](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서 [ 목록을 필터링합니다.
 
 1. 관리 보기 및 보고서에 사용할 수 있는 전환 지표를 변경합니다.
 
@@ -96,13 +101,13 @@ ht-degree: 0%
 
    * 여러 지표를 표시하거나 숨기려면 다음을 수행합니다.
 
-      1. 각 전환 지표 옆에 있는 확인란을 선택합니다.
+     1. 각 전환 지표 옆에 있는 확인란을 선택합니다.
 
-         여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
+        여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
 
-      1. 일괄 작업 도구 모음에서 ![가시성](/help/search-social-commerce/assets/visible.png "가시성")을 클릭하여 지표를 표시하거나 ![가시성 해제](/help/search-social-commerce/assets/visibility-off.png "가시성 해제")을(를) 클릭하여 지표를 숨깁니다.
+     1. 일괄 작업 도구 모음에서 ![가시성](/help/search-social-commerce/assets/visible.png "가시성")을 클릭하여 지표를 표시하거나 ![가시성 해제](/help/search-social-commerce/assets/visibility-off.png "가시성 해제")을(를) 클릭하여 지표를 숨깁니다.
 
-      1. (지표를 숨기려면) 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭하여 지표가 포함된 파생 지표에서 지표를 제거하는 등 지표를 숨깁니다.
+     1. (지표를 숨기려면) 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭하여 지표가 포함된 파생 지표에서 지표를 제거하는 등 지표를 숨깁니다.
 
 ## 전환 가시성 및 소스 보고서 관리
 

@@ -1,24 +1,28 @@
 ---
-title: 동기화 [!DNL Adobe] 대상
-description: ' [!DNL Adobe] 대상자에 대한 메타데이터, 계층 데이터 및 고유 대상자 데이터를 동기화하는 방법을 알아봅니다.'
+title: '[!DNL Adobe]개 대상 동기화'
+description: '[!DNL Adobe] 대상에 대해 메타데이터, 계층 데이터 및 고유 대상 데이터를 동기화하는 방법을 알아봅니다.'
 exl-id: 8b8c3aa0-2aa9-4ad7-a4c0-1b7ba881acd3
 feature: Search Admin
-TQID: https://experienceleague.adobe.com/PKWhdnMHVAI3aI--1vdCeqnX6b8j34uvHycZLw1Yvjw
+TQID: 'https://experienceleague.adobe.com/PKWhdnMHVAI3aI--1vdCeqnX6b8j34uvHycZLw1Yvjw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Metadata
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: '193'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe]개 대상 동기화
 
 *[!DNL Direct Access]명의 클라이언트 관리자 및 관리자만*
@@ -33,7 +37,7 @@ Search, Social 및 Commerce을 허용하면 광고주나 에이전시의 모든 
 
 * Adobe CX Enterprise [!DNL Audience Library]을(를) 사용하여 만든 세그먼트
 
-자격을 얻으려면 광고주나 에이전시는 [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 구현하고 해당 조직 ID(이전의 [!DNL IMS Org ID])를 제공해야 합니다.
+자격을 얻으려면 광고주나 에이전시는 [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 구현하고 해당 조직 ID(이전의 [!DNL IMS Org ID])를 제공해야 합니다.
 
 초기 동기화는 약 24시간이 소요됩니다. 그 후에는 데이터가 1~2초 지연으로 실시간으로 동기화됩니다.
 

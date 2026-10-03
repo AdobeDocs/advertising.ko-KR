@@ -3,20 +3,27 @@ title: Creative 번들 관리
 description: 크리에이티브 그룹을 관리하고 사용하는 방법에 대해 알아봅니다.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-TQID: https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg
+TQID: 'https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ea400851-fc23-4174-bc9c-b50ea0ed4d00
+    internal-label: Creative Bundles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 # Creative 번들 관리
 
 <!--
@@ -75,9 +82,9 @@ ht-degree: 0%
 
    * 단일 번들을 복제하려면:
 
-      * 카드 보기에서 번들 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
+     * 카드 보기에서 번들 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 
-      * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
+     * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 
    * 하나 이상의 번들을 복제하려면 복제할 각 번들에 대한 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL Duplicate].**&#x200B;을(를) 클릭합니다
 
@@ -175,9 +182,9 @@ ht-degree: 0%
 
    * 단일 크리에이티브를 분리하려면 다음을 수행합니다.
 
-      * 카드 보기에서 Creative 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Detach]**&#x200B;을(를) 클릭합니다.
+     * 카드 보기에서 Creative 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Detach]**&#x200B;을(를) 클릭합니다.
 
-      * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Detach]**&#x200B;을(를) 클릭합니다.
+     * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Detach]**&#x200B;을(를) 클릭합니다.
 
    * 하나 이상의 크리에이티브를 분리하려면 분리하려는 각 크리에이티브에 대한 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL Detach]**&#x200B;을(를) 클릭합니다.
 
@@ -316,9 +323,9 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
    * 단일 번들을 삭제하려면
 
-      * 카드 보기에서 번들 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
+     * 카드 보기에서 번들 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
-      * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
+     * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
    * 하나 이상의 번들을 삭제하려면 삭제할 각 번들에 대한 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL Delete].**&#x200B;을(를) 클릭합니다
 

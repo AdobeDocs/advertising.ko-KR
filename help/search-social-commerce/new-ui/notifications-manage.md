@@ -2,7 +2,13 @@
 title: (새 UI) 알림 관리
 description: 푸시 알림 및 알림 센터 웹 애플리케이션을 비롯한 검색, 소셜 및 Commerce 알림을 보고, 구성하고, 관리하는 방법을 알아봅니다.
 feature: Search Notifications
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%

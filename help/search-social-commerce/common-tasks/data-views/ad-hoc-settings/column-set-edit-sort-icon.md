@@ -3,18 +3,23 @@ title: '[!UICONTROL Custom Columns] 아이콘에서 열 집합을 편집하고 �
 description: 열 사용자 정의기를 사용하여 표시되는 열을 변경하는 방법에 대해 알아봅니다.
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/LLIbApYJXT6AZ4m7VpcJAzED1nevloYNhFyzZGUx-DI
+TQID: 'https://experienceleague.adobe.com/LLIbApYJXT6AZ4m7VpcJAzED1nevloYNhFyzZGUx-DI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 308
+source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Custom Columns] 아이콘에서 열 집합을 편집하고 정렬합니다.
 
 <!-- The same in new UI and legacy CM views except for icon -->
@@ -25,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->보기의 열 머리글[에서 정렬 순서 &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)을(를) 변경하지 않고 보기의 열을 일시적으로 변경할 수도 있습니다.
+>보기의 열 머리글](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)에서 정렬 순서 [을(를) 변경하지 않고 보기의 열을 일시적으로 변경할 수도 있습니다.
 >
 >기본 보기를 편집하거나 [사용자 지정 보기를 만들기](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)하여 특정 광고주에 대해 포함된 열에 변경 내용을 저장할 수 있습니다.
 
@@ -43,7 +48,7 @@ ht-degree: 0%
 
    * (열을 제거하려면) [!UICONTROL Selected Columns & Ordering] 목록에서 열 이름을 클릭한 다음 [!UICONTROL Available Columns] 목록으로 끌어 놓거나 ![제거](/help/search-social-commerce/assets/chevron-left.png "제거")를 클릭하여 이동합니다.
 
-   * (새 수익 열이 추가되고 표시되지 않는 경우 열 목록을 새로 고치려면) &quot;![&quot; 옆에 있는 &#x200B;](/help/search-social-commerce/assets/refresh.png "새로 고침")새로 고침[!UICONTROL Available Columns]을 클릭합니다.
+   * (새 수익 열이 추가되고 표시되지 않는 경우 열 목록을 새로 고치려면) &quot;[!UICONTROL Available Columns]&quot; 옆에 있는 ![새로 고침](/help/search-social-commerce/assets/refresh.png "새로 고침")을 클릭합니다.
 
 1. 정렬 옵션을 지정합니다.
 
@@ -51,8 +56,8 @@ ht-degree: 0%
 
    * (선택 사항) 선택한 열의 값에 대한 정렬 순서를 지정합니다.
 
-      * (새 UI) **[!UICONTROL Ascending]** 또는 **[!UICONTROL Descending]** 선택
+     * (새 UI) **[!UICONTROL Ascending]** 또는 **[!UICONTROL Descending]** 선택
 
-      * (기존 UI) 슬라이더를 **[!UICONTROL Ascending]** 또는 **[!UICONTROL Descending]**(으)로 이동합니다.
+     * (기존 UI) 슬라이더를 **[!UICONTROL Ascending]** 또는 **[!UICONTROL Descending]**(으)로 이동합니다.
 
 1. **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.

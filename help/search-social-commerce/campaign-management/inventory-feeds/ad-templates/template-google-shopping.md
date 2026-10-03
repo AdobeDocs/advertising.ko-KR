@@ -1,23 +1,28 @@
 ---
 title: 인벤토리 피드에 대한 [!DNL Google Ads] 쇼핑 광고 템플릿 설정
-description: 인벤토리 피드에 대한  [!DNL Google Ads] 쇼핑 광고 템플릿 설정을 참조하십시오.
+description: 인벤토리 피드에 대한 [!DNL Google Ads] 쇼핑 광고 템플릿에 대한 설정을 참조하십시오.
 exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/IIgGNn0rpJsvZjRnrqbT6EIQXpf4BRx2C1GgtU4AdbA
+TQID: 'https://experienceleague.adobe.com/IIgGNn0rpJsvZjRnrqbT6EIQXpf4BRx2C1GgtU4AdbA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: '530'
 ht-degree: 0%
-
 ---
-
 # 인벤토리 피드에 대한 [!DNL Google Ads] 쇼핑 광고 템플릿 설정
 
 쇼핑 광고 템플릿을 사용하여 쇼핑 광고를 구성합니다.
@@ -66,7 +71,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]:**(클라이언트 피드 파일 템플릿에 대한 선택 사항) 모든 랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 캠페인 수준 추적 템플릿입니다. 이 값은 계정 수준 설정을 무시하지만, 더 세분화된 수준에서(키워드를 가장 세분화된 수준으로) 추적 템플릿이 이 값을 무시합니다.
 
-캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 [쇼핑 캠페인 [!DNL Google Ads] 에 대해 &#x200B;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)추적 템플릿 형식을 사용하십시오. 전체 계정이 쇼핑 광고 전용인 경우 대신 계정 수준에서 추적 템플릿을 정의할 수 있습니다.
+캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우  [!DNL Google Ads] 쇼핑 캠페인](/help/search-social-commerce/tracking/formats-click-tracking-google.md)에 대해 [추적 템플릿 형식을 사용하십시오. 전체 계정이 쇼핑 광고 전용인 경우 대신 계정 수준에서 추적 템플릿을 정의할 수 있습니다.
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다.
 
@@ -150,7 +155,7 @@ Adobe Advertising 전환 추적의 경우 값을 입력할 필요가 없습니�
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
 **[!UICONTROL Tracking Template]:**(하위 제품 그룹이 없는 단위, 선택 사항) 제품에 대한 추적 템플릿
-모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 [!DNL ValueTrack] 매개 변수에 최종 URL을 임베드하는 그룹입니다. 이 템플릿은 상위 수준의 템플릿을 무시합니다.
+모든 랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 [!DNL ValueTrack] 매개 변수에 최종 URL을 임베드하는 그룹입니다. 이 템플릿은 상위 수준의 템플릿을 무시합니다.
 
 Adobe Advertising 전환 추적의 경우 값을 입력할 필요가 없습니다. 캠페인 수준 값이면 충분합니다.
 

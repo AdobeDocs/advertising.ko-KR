@@ -3,18 +3,21 @@ title: 쇼핑 캠페인 제품 필터
 description: 쇼핑 제품 그룹에 사용할 수 있는 제품 필터를 참조하십시오.
 exl-id: 91695fa8-6e5e-42a7-a84a-0b46b9f4dfcc
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/OgEEd-i6RcM98DpR7h6KFXnO8zfZiEgpJZAof8Bqgws
+TQID: 'https://experienceleague.adobe.com/OgEEd-i6RcM98DpR7h6KFXnO8zfZiEgpJZAof8Bqgws'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 174
-ht-degree: 0%
-
+source-wordcount: '231'
+ht-degree: 22%
 ---
-
 # 쇼핑 캠페인 제품 필터
 
 [!DNL Google Ads] 도움말 &quot;[제품 그룹으로 쇼핑 캠페인 관리](https://support.google.com/google-ads/answer/6275317)&quot; 및 [!DNL Microsoft Advertising] 도움말 &quot;[제품 그룹 이해 및 사용](https://help.ads.microsoft.com/#apex/bae/en/56782)&quot;도 참조하세요.
@@ -27,13 +30,13 @@ ht-degree: 0%
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Condition] | [!UICONTROL New], [!UICONTROL Used], [!UICONTROL Refurbished], [!UICONTROL Unknown] | — |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!DNL Google Ads]: [!UICONTROL Product Type (1st level)=] - [!UICONTROL Product Type (5th level)=]<br><br>[!DNL Microsoft]: [!UICONTROL Product Type=] | \[제품 유형\] | — |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Custom Label 0=] - [!UICONTROL Custom Label 4=] | \[사용자 지정 레이블의 속성\] | — |
-| [!DNL Google Ads] | 채널= | [!UICONTROL Local], [!UICONTROL Online] | 로컬 제품 또는 온라인 제품에 대한 광고만 표시하려면<br><br><b>참고:</b> 로컬 제품에 대한 광고를 만들려면 &quot;로컬 인벤토리 광고&quot; 옵션을 사용하도록 설정해야 하며 [!DNL Google Merchant Center]과(와) 함께 로컬 쇼핑 프로그램에 참여해야 합니다. |
+| [!DNL Google Ads] | 채널= | [!UICONTROL Local], [!UICONTROL Online] | 로컬 제품 또는 온라인 제품에 대한 광고만 표시하려면 <br><br><b>참고:</b> 로컬 제품에 대한 광고를 만들려면 &quot;로컬 인벤토리 광고&quot; 옵션을 사용하도록 설정해야 하며 [!DNL Google Merchant Center]을(를) 사용하여 로컬 쇼핑 프로그램에 참여해야 합니다. |
 | [!DNL Google Ads] | [!UICONTROL ChannelExclusivity=] | [!UICONTROL SingleChannel], [!UICONTROL MultiChannel] | 단일 채널에만 사용 가능한(로컬에만 사용 또는 온라인에만 사용) 또는 여러 채널(로컬과 온라인 모두 사용)에 사용할 수 있는 제품에 대한 광고를 표시할지 여부. |
 
 >[!MORELIKETHIS]
 >
->* [쇼핑 캠페인 구현 [!DNL Google Ads] 2&rbrace;](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
->* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2&rbrace;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [쇼핑 캠페인 구현 [!DNL Google Ads] 2}](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
 >* [쇼핑 제품 그룹 정보](product-group-about.md)
 >* [쇼핑 제품 그룹 관리](product-group-manage.md)
 >* [[!DNL Google Ads] 제품 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)

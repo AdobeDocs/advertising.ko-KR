@@ -3,7 +3,13 @@ title: (새 UI) 추적에 대해서만 [!DNL Naver] 계정 관리
 description: '[!DNL Naver] 계정에 대한 새 UI에서 계정 세부 정보를 설정하고 관리하는 방법을 알아봅니다.'
 feature: Search Campaign Management
 exl-id: bc4be409-9935-448b-bfba-f93eb30bd5ca
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -123,5 +129,5 @@ When you enable an ad network account, Search, Social, & Commerce synchronizes c
 
 >[!MORELIKETHIS]
 >
->* [추적 전용 계정 구현 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
+>* [추적 전용 계정 구현 [!DNL Naver] 2}](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [광고 네트워크 계정 정보](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)

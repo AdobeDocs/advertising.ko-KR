@@ -1,27 +1,37 @@
 ---
-title: Adobe Advertising ID를 사용하여  [!DNL Marketing Channels] 규칙 만들기
-description: Adobe Advertising ID를 사용하여  [!DNL Analytics Marketing Channels]에 대한 처리 규칙을 만드는 방법을 알아봅니다.
+title: Adobe Advertising ID를 사용하여 [!DNL Marketing Channels] 규칙 만들기
+description: Adobe Advertising ID를 사용하여 [!DNL Analytics Marketing Channels]에 대한 처리 규칙을 만드는 방법을 알아봅니다.
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-TQID: https://experienceleague.adobe.com/mBjU1jKifWk35v43sGsBO5aHDQA5ftmyI9GJ4Xujz9A
+TQID: 'https://experienceleague.adobe.com/mBjU1jKifWk35v43sGsBO5aHDQA5ftmyI9GJ4Xujz9A'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1448
+source-wordcount: '1510'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising ID를 사용하여 [!DNL Marketing Channels] 처리 규칙 만들기
 
 *Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
@@ -30,7 +40,7 @@ Adobe Advertising ID([AMO ID 및 EF ID](../ids.md))를 사용하여 Adobe Analyt
 
 ## 처리 규칙의 AMO ID
 
-AMO ID는 [!DNL Analytics] 내에서 Adobe Advertising 데이터를 보고하는 데 사용되는 기본 추적 코드입니다. AMO ID는 [!DNL Analytics] 내에서 세분화된 보고를 제공하기 위해 Adobe에서 관리하는 동적 값의 연결입니다. [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ko) 또는 rVar 차원(AMO ID)에 저장됩니다. AMO ID는 두 가지 방법으로 [!DNL Analytics]에 설정할 수 있습니다.
+AMO ID는 [!DNL Analytics] 내에서 Adobe Advertising 데이터를 보고하는 데 사용되는 기본 추적 코드입니다. AMO ID는 [!DNL Analytics] 내에서 세분화된 보고를 제공하기 위해 Adobe에서 관리하는 동적 값의 연결입니다. [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 rVar 차원(AMO ID)에 저장됩니다. AMO ID는 두 가지 방법으로 [!DNL Analytics]에 설정할 수 있습니다.
 
 * 클릭스루 추적: Adobe Advertising은 링크에 `s_kwcid` 쿼리 문자열 매개 변수를 설정하고 클릭스루가 발생할 때 [!DNL Analytics]이(가) 랜딩 페이지 URL에서 매개 변수를 선택합니다.
 
@@ -92,7 +102,7 @@ EF ID 차원은 [!DNL Analytics] 보고에 직접 사용되지 않지만 마케�
 
 * 비용/클릭/노출 데이터에는 AMO ID가 포함되어 있으므로 AMO ID를 포함합니다. AMO ID는 &quot;AL!&quot;로 시작해야 합니다. 클릭/비용/노출 데이터를 [!UICONTROL Paid Search]에 올바르게 할당하려면.<!-- Is this just called AMO ID there, not s_kwcid=XXX? What's the difference? -->
 
-* [!UICONTROL Paid Search] 클릭스루의 URL에는 항상 `s_kwcid` 쿼리 문자열 매개 변수가 포함되므로 방문자가 랜딩 페이지로 다시 이동할 경우 적절한 중복 제거가 발생하도록 이 매개 변수를 포함합니다. &quot;AL!&quot; 포함 클릭/비용/노출 데이터를 `s_kwcid`에 올바르게 할당하려면 [!UICONTROL Paid Search] 전에 완료하십시오.
+* [!UICONTROL Paid Search] 클릭스루의 URL에는 항상 `s_kwcid` 쿼리 문자열 매개 변수가 포함되므로 방문자가 랜딩 페이지로 다시 이동할 경우 적절한 중복 제거가 발생하도록 이 매개 변수를 포함합니다. &quot;AL!&quot; 포함 클릭/비용/노출 데이터를 [!UICONTROL Paid Search]에 올바르게 할당하려면 `s_kwcid` 전에 완료하십시오.
 
 채널의 값을 AMO ID로 설정하지 마십시오. 대신 참조 도메인, 검색 엔진 + 키워드 또는 페이지와 같은 항목으로 설정합니다. (모든 [!DNL Marketing Channels]과(와) 관련이 있습니다.)
 
@@ -102,7 +112,7 @@ EF ID 차원은 [!DNL Analytics] 보고에 직접 사용되지 않지만 마케�
 
 ### 자연어 검색 규칙
 
-[!UICONTROL Natural Search]의 경우 [[!UICONTROL Paid Search] 검색 규칙](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)에 `ef_id` 및 `s_kwcid` 쿼리 문자열 매개 변수가 포함되어 있는지 확인하십시오. (일반적으로 Advertising Search, Social 및 Commerce이 [!DNL Analytics]에 통합되면 자동으로 구성되지만, 통합이 구성된 후 [!DNL Analytics] 관리자가 논리를 변경한 경우를 확인하십시오.)
+[!UICONTROL Natural Search]의 경우 [[!UICONTROL Paid Search] 검색 규칙](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)에 `ef_id` 및 `s_kwcid` 쿼리 문자열 매개 변수가 포함되어 있는지 확인하십시오. (일반적으로 Advertising Search, Social 및 Commerce이 [!DNL Analytics]에 통합되면 자동으로 구성되지만, 통합이 구성된 후 [!DNL Analytics] 관리자가 논리를 변경한 경우를 확인하십시오.)
 
 규칙을 &quot;자연어 검색 감지 규칙과 일치&quot;로 설정합니다(일반적으로 이 채널의 기본 설정임).
 
@@ -136,7 +146,7 @@ Display ViewThrough 채널을 만들려면 EF ID가 &quot;:i&quot;(으)로 끝�
 
 ### 클릭스루 규칙 #2 표시
 
-두 번째 Display ClickThrough 규칙의 경우 **AMO ID 시작을 &quot;AC!&quot;로 설정합니다.**. 이 두 번째 규칙은 Adobe Advertising에서 [!DNL Analytics]&#x200B;(으)로 직접 들어오는 디스플레이 채널에 대한 클릭/비용/노출 데이터를 캡처하는 데 있습니다. 이 데이터는 AMO ID로 인한 것이지만 `ef_id` 쿼리 문자열이 있는 URL은 포함하지 않으므로 이러한 히트는 첫 번째 디스플레이 ClickThrough 규칙이 캡처하는 AMO EF ID와 연결되지 않습니다.
+두 번째 Display ClickThrough 규칙의 경우 **AMO ID가 &quot;AC!&quot;**(으)로 시작하도록 설정합니다. 이 두 번째 규칙은 Adobe Advertising에서 [!DNL Analytics]&#x200B;(으)로 직접 들어오는 디스플레이 채널에 대한 클릭/비용/노출 데이터를 캡처하는 데 있습니다. 이 데이터는 AMO ID로 인한 것이지만 `ef_id` 쿼리 문자열이 있는 URL은 포함하지 않으므로 이러한 히트는 첫 번째 디스플레이 ClickThrough 규칙이 캡처하는 AMO EF ID와 연결되지 않습니다.
 
 ![두 번째 디스플레이 클릭스루 규칙의 예](/help/integrations/assets/a4adc-mc-rule-display-ct2.png "두 번째 디스플레이 클릭스루 규칙의 예")
 
@@ -150,13 +160,13 @@ Display ViewThrough 채널을 만들려면 EF ID가 &quot;:i&quot;(으)로 끝�
 
 * [!UICONTROL CTV view-throughs]을(를) 사용하는 경우 *이전* [!UICONTROL Display ViewThroughs]에 넣으십시오. 그렇지 않으면 CTV 뷰스루가 디스플레이 뷰스루로 캡처됩니다.
 
-* 동일한 랜딩 이벤트에서 뷰스루와 [!UICONTROL Display ViewThroughs]이(가) 아닌 클릭스루가 발생할 수 있으므로 *을(를)*&#x200B;다음[!UICONTROL Internal] 다른 채널을 [!UICONTROL Direct]과(와) [!DNL Advertising] 앞에 추가합니다. 예를 들어 방문자가 Adobe Advertising 광고를 보고 노출을 받은 다음 [!UICONTROL Natural Search]을(를) 통해 사이트로 이동할 수 있습니다.
+* 동일한 랜딩 이벤트에서 뷰스루와 [!DNL Advertising]이(가) 아닌 클릭스루가 발생할 수 있으므로 [!UICONTROL Display ViewThroughs]을(를) *다음* 다른 채널을 [!UICONTROL Internal]과(와) [!UICONTROL Direct] 앞에 추가합니다. 예를 들어 방문자가 Adobe Advertising 광고를 보고 노출을 받은 다음 [!UICONTROL Natural Search]을(를) 통해 사이트로 이동할 수 있습니다.
 
   가장 좋은 방법은 뷰스루보다 다른 채널([!UICONTROL Internal] 및 [!UICONTROL Direct] 제외)의 우선 순위를 설정하는 것입니다.
 
-* 일부 광고주는 [!UICONTROL Display ViewThroughs]보다 [!UICONTROL Natural Referring Domains]의 우선 순위를 지정할 수 있습니다. 두 규칙의 처리 순서를 변경하여 이를 수행합니다.
+* 일부 광고주는 [!UICONTROL Natural Referring Domains]보다 [!UICONTROL Display ViewThroughs]의 우선 순위를 지정할 수 있습니다. 두 규칙의 처리 순서를 변경하여 이를 수행합니다.
 
-* **초** [!UICONTROL Display ClickThrough] 규칙은 Adobe Advertising에서 [!DNL Analytics]&#x200B;(으)로 직접 들어오는 클릭/비용/노출 데이터를 catch하는 데 있습니다. 이 데이터는 AMO ID에만 속하기 때문에 이러한 히트는 AMO EF ID와 연결되지 않습니다. 이 규칙을 설정하지 않으면 모든 클릭/비용/노출 데이터가 [!UICONTROL Direct]과(와) 일치하지 않는 데이터의 기본 채널인 [!DNL Marketing Channel] 채널에 속합니다. 이 규칙은 뷰스루 규칙을 *이후*&#x200B;해야 합니다. 그렇지 않으면 모든 뷰스루가 선택됩니다.
+* **초** [!UICONTROL Display ClickThrough] 규칙은 Adobe Advertising에서 [!DNL Analytics]&#x200B;(으)로 직접 들어오는 클릭/비용/노출 데이터를 catch하는 데 있습니다. 이 데이터는 AMO ID에만 속하기 때문에 이러한 히트는 AMO EF ID와 연결되지 않습니다. 이 규칙을 설정하지 않으면 모든 클릭/비용/노출 데이터가 [!DNL Marketing Channel]과(와) 일치하지 않는 데이터의 기본 채널인 [!UICONTROL Direct] 채널에 속합니다. 이 규칙은 뷰스루 규칙을 *이후*&#x200B;해야 합니다. 그렇지 않으면 모든 뷰스루가 선택됩니다.
 
 <!-- WORDING!!!!  Check on this, and if it's necessary still with the other info about order:  If you include additional marketing channels, be sure to run your rules in order of specificity. For example, say you create a processing rule for [!DNL YouTube] video ad traffic tracked by Advertising Search, Social, & Commerce. The AMO ID for video traffic starts with with "AL!" and contain "!ytv!". If you run the rule for Paid Search (for which the AMO ID starts with "AL!") and then run the rule for video traffic, the YouTube video ad traffic would all fall under the Paid Search channel. -->
 
@@ -165,5 +175,5 @@ Display ViewThrough 채널을 만들려면 EF ID가 &quot;:i&quot;(으)로 끝�
 >* [기본  [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [채널 데이터가 Adobe Advertising과  [!DNL Marketing Channels]](mc-data-variances.md) 간에 다를 수 있는 이유
 >* [사용 [!DNL Analytics Marketing Channels] Adobe Advertising 데이터 사용](mc-ac-data.md)
->* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ko)
->* [에서 사용하는  [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID
+>* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>*  [!DNL Analytics]](/help/integrations/analytics/ids.md)에서 사용하는 [Adobe Advertising ID

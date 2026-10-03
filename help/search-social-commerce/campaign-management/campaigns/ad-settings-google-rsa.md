@@ -1,22 +1,26 @@
 ---
 title: '[!DNL Google Ads] 반응형 검색 광고 설정'
-description: ' [!DNL Google Ads] 반응형 검색 광고에 대한 설정을 참조합니다.'
+description: '[!DNL Google Ads]개의 반응형 검색 광고에 대한 설정을 참조합니다.'
 exl-id: ba2a08eb-91fc-4a8c-81c5-a9e28f6abdbf
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/GHQrS-Y5tGPGaz5TD06k9-cc-NIJEAYXfZcBASr3dlA
+TQID: 'https://experienceleague.adobe.com/GHQrS-Y5tGPGaz5TD06k9-cc-NIJEAYXfZcBASr3dlA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 63
+source-wordcount: '78'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] 반응형 검색 광고 설정
 
 [!DNL Google Ads]은(는) 최대 3개의 헤드라인과 2개의 설명을 사용하여 [반응형 검색 광고](https://support.google.com/google-ads/answer/7684791?hl=en)&#x200B;(RSA)를 동적으로 어셈블합니다.
@@ -25,7 +29,7 @@ ht-degree: 0%
 >
 >각 광고 그룹에는 최대 3개의 활성화된 반응형 검색 광고가 포함될 수 있습니다.
 
-[!DNL Google Ads]계정당 광고 제한[에 대한 &#x200B;](https://support.google.com/google-ads/answer/6372658?hl=en) 도움말을 참조하십시오.
+[계정당 광고 제한](https://support.google.com/google-ads/answer/6372658?hl=en)에 대한 [!DNL Google Ads] 도움말을 참조하십시오.
 
 ## [!UICONTROL Responsive Search Ad Details]
 

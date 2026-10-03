@@ -3,20 +3,26 @@ title: 동적 광고용 워크플로우
 description: 동적 광고 관리 워크플로우에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-TQID: https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI
+TQID: 'https://experienceleague.adobe.com/2ysfPVepzFjlxE-ecuAVpX-ntQBWB9dN61AELW74ZvI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '644'
 ht-degree: 0%
-
 ---
-
 # 동적 광고용 워크플로우
 
 *동적 광고를 만들 수 있는 권한이 있는 사용자*
@@ -64,17 +70,17 @@ ht-degree: 0%
 
    * (동적 HTML5 및 비디오 광고의 경우) 광고 요소의 카탈로그를 만듭니다.
 
-      1. 각 광고 변형에 대해 하나의 행을 사용하여 Microsoft Excel 스프레드시트(XLSX) 형식으로 피드 파일을 만듭니다. 각 행에 이미지 또는 비디오 이름을 포함합니다. 연결된 이미지 및 비디오 자산을 별도로 수집합니다.
+     1. 각 광고 변형에 대해 하나의 행을 사용하여 Microsoft Excel 스프레드시트(XLSX) 형식으로 피드 파일을 만듭니다. 각 행에 이미지 또는 비디오 이름을 포함합니다. 연결된 이미지 및 비디오 자산을 별도로 수집합니다.
 
-      1. [피드 파일 및 자산을 업로드합니다](/help/creative/feeds/asset-manage.md).
+     1. [피드 파일 및 자산을 업로드합니다](/help/creative/feeds/asset-manage.md).
 
-      1. 피드 파일(스프레드시트)의 필드를 Advertising Creative 백엔드의 필드에 매핑하려면 [피드 템플릿을 만듭니다](/help/creative/feeds/feed-template-manage.md). 선택적으로 범용 피드 템플릿을 다운로드하여 캠페인 유형과 관련된 필드로 채울 수 있습니다.
+     1. 피드 파일(스프레드시트)의 필드를 Advertising Creative 백엔드의 필드에 매핑하려면 [피드 템플릿을 만듭니다](/help/creative/feeds/feed-template-manage.md). 선택적으로 범용 피드 템플릿을 다운로드하여 캠페인 유형과 관련된 필드로 채울 수 있습니다.
 
-      1. [지정된 피드 파일 및 지정된 피드 템플릿에서 카탈로그를 만들고](/help/creative/feeds/catalog-manage.md#feed-catalog-create), 만들 수 있는 광고 변형을 보려면 [카탈로그를 처리](/help/creative/feeds/catalog-manage.md#feed-catalog-process)하십시오.
+     1. [지정된 피드 파일 및 지정된 피드 템플릿에서 카탈로그를 만들고](/help/creative/feeds/catalog-manage.md#feed-catalog-create), 만들 수 있는 광고 변형을 보려면 [카탈로그를 처리](/help/creative/feeds/catalog-manage.md#feed-catalog-process)하십시오.
 
-         각 피드 파일은 하나의 카탈로그에 대해서만 사용할 수 있습니다.
+        각 피드 파일은 하나의 카탈로그에 대해서만 사용할 수 있습니다.
 
-         [&#x200B; > &#x200B;](/help/creative/feeds/job-status-track.md) > [!UICONTROL Creative] 탭에서 [!UICONTROL Feeds]카탈로그 처리 작업의 상태를 추적[!UICONTROL Job Status]할 수 있습니다.
+        [!UICONTROL Creative] > [!UICONTROL Feeds] > [!UICONTROL Job Status] 탭에서 [카탈로그 처리 작업의 상태를 추적](/help/creative/feeds/job-status-track.md)할 수 있습니다.
 
 1. Creative 라이브러리의 [동적 크리에이티브 만들기](/help/creative/creative-libraries/creative-add-dynamic.md). 다이내믹 HTML5 광고의 경우 지정된 광고 템플릿과 지정된 카탈로그를 사용하십시오.
 

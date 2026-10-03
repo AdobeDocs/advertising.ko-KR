@@ -2,13 +2,17 @@
 title: 게시자 권장 사항 및 통찰력 지원
 description: 게시자 권장 사항 및 인사이트를 보고 관리하는 지원에 대해 알아봅니다.
 feature: Search Recommendations
-source-git-commit: 1328e52509e4111bc0e58412ebf3c3b2de0cb291
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae143aa5-b8d8-5a93-93ab-45e919f0c418
+    internal-label: Search Recommendations
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
-
 ---
-
 # 게시자 권장 사항 및 통찰력 지원
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising] 계정*

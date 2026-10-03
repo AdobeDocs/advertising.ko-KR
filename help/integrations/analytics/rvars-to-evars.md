@@ -3,30 +3,38 @@ title: Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대�
 description: Adobe Customer Journey Analytics에서 나중에 사용할 수 있도록 Adobe Analytics에서 예약된 변수에 대한 내역 데이터를 수집하는 방법을 알아봅니다
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-TQID: https://experienceleague.adobe.com/sOUivMvQxpfRmBYsrC3vdFC2UUxwQO0cl5BUdsQ2-u0
+TQID: 'https://experienceleague.adobe.com/sOUivMvQxpfRmBYsrC3vdFC2UUxwQO0cl5BUdsQ2-u0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '700'
 ht-degree: 0%
-
 ---
-
 # Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집
 
 *[!DNL Analytics for Advertising] 및 Adobe Customer Journey Analytics만 있는 광고주*
 
 <!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
 
-예약된 변수를 사용하여 [!DNL Analytics for Advertising] 통합을 위한 [AMO ID 및 EF ID](ids.md)을(를) 캡처하는 경우, AMO ID 및 EF ID에 대한 예약된 변수를 가능한 한 빨리 [standard [!DNL eVars]](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/evar)에 복사하여 Adobe Advertising과 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-overview)&#x200B;(Adobe의 차세대 [!DNL analytics] 솔루션) 간의 통합을 위해 데이터를 준비할 수 있습니다. 이를 통해 작업을 완료하는 즉시 AMO ID 및 EF ID에 대한 내역 데이터를 수집할 수 있습니다. 예약된 변수를 사용하며 이 작업을 완료해야 하는 경우 Adobe 계정 팀에 알려줍니다.
+예약된 변수를 사용하여 [!DNL Analytics for Advertising] 통합을 위한 [AMO ID 및 EF ID](ids.md)을(를) 캡처하는 경우, AMO ID 및 EF ID에 대한 예약된 변수를 가능한 한 빨리 [standard [!DNL eVars]](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/evar)에 복사하여 Adobe Advertising과 [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)&#x200B;(Adobe의 차세대 [!DNL analytics] 솔루션) 간의 통합을 위해 데이터를 준비할 수 있습니다. 이를 통해 작업을 완료하는 즉시 AMO ID 및 EF ID에 대한 내역 데이터를 수집할 수 있습니다. 예약된 변수를 사용하며 이 작업을 완료해야 하는 경우 Adobe 계정 팀에 알려줍니다.
 
 <!-- 
 You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation.
@@ -42,7 +50,7 @@ Customer Journey Analytics을 사용하면 Adobe Experience Platform의 데이�
 
 Adobe Advertising은 데이터를 Customer Journey Analytics에 자동으로 전송하는 솔루션을 구축하고 있습니다. 솔루션이 출시되면 Adobe Advertising은 Customer Journey Analytics에서 사용하기 위해 AMO ID 및 EF ID에 대한 데이터를 전송하기 시작하지만, 릴리스 날짜 이전의 내역 데이터는 존재하지 않습니다.
 
-그러나 이제 간단한 [[!DNL Analytics] 처리 규칙](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)을 만들어 AMO ID 및 EF ID를 [!DNL eVars]에 복사하면 AMO ID 및 EF ID에 대한 데이터를 더 빨리 수집할 수 있습니다. 처리 규칙을 생성하면 새 이벤트를 추적하는 즉시 AMO ID 및 EF ID에 대한 데이터가 누적되기 시작합니다. 그런 다음 솔루션을 사용할 수 있게 되면 Customer Journey Analytics 내에서 내역 데이터를 사용할 수 있습니다.
+그러나 이제 간단한 [[!DNL Analytics] 처리 규칙](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)을 만들어 AMO ID 및 EF ID를 [!DNL eVars]에 복사하면 AMO ID 및 EF ID에 대한 데이터를 더 빨리 수집할 수 있습니다. 처리 규칙을 생성하면 새 이벤트를 추적하는 즉시 AMO ID 및 EF ID에 대한 데이터가 누적되기 시작합니다. 그런 다음 솔루션을 사용할 수 있게 되면 Customer Journey Analytics 내에서 내역 데이터를 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -53,7 +61,7 @@ Adobe Advertising은 데이터를 Customer Journey Analytics에 자동으로 전
 
 이 단계는 수동이며, 향후 Adobe Advertising과 통합할 것으로 예상되는 AMO ID 및 EF ID <!-- [!DNL rVars] -->을(를) 추적하는 각 보고서 세트에 대해 완료해야 합니다.
 
-1. 다음 설정으로 [처리 규칙을 만듭니다](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules).
+1. 다음 설정으로 [처리 규칙을 만듭니다](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules).
 
    * AMO ID 및 EF ID <!-- [!DNL rVar] --> 데이터를 Customer Journey Analytics에서 사용하기 위해 Experience Platform으로 마이그레이션할 보고서 세트를 선택하십시오.
 
@@ -61,23 +69,23 @@ Adobe Advertising은 데이터를 Customer Journey Analytics에 자동으로 전
 
    * [!UICONTROL Always Execute] 섹션에서 다음 두 작업을 추가하여 새 eVar를 만듭니다.
 
-      * `AMO ID`의 경우:
+     * `AMO ID`의 경우:
 
-         1. **값 덮어쓰기**&#x200B;를 선택합니다.
-         1. *\&lt;새로 만들기/사용하지 않은 eVar\>*&#x200B;을(를) 선택합니다.
-         1. **쿼리 문자열 매개 변수**&#x200B;을(를) 선택하십시오.
-         1. `s_kwcid` 입력.
+       1. **값 덮어쓰기**&#x200B;를 선택합니다.
+       1. *\&lt;새로 만들기/사용하지 않은 eVar\>*&#x200B;을(를) 선택합니다.
+       1. **쿼리 문자열 매개 변수**&#x200B;을(를) 선택하십시오.
+       1. `s_kwcid` 입력.
 
-        예: `Overwrite the value of rVar10 with Query String Parameter s_kwcid`
+       예: `Overwrite the value of rVar10 with Query String Parameter s_kwcid`
 
-      * `EF ID`의 경우:
+     * `EF ID`의 경우:
 
-         1. **값 덮어쓰기**&#x200B;를 선택합니다.
-         1. *\&lt;새로 만들기/사용하지 않은 eVar\>*&#x200B;을(를) 선택합니다.
-         1. **쿼리 문자열 매개 변수**&#x200B;을(를) 선택하십시오.
-         1. `ef_id` 입력.
+       1. **값 덮어쓰기**&#x200B;를 선택합니다.
+       1. *\&lt;새로 만들기/사용하지 않은 eVar\>*&#x200B;을(를) 선택합니다.
+       1. **쿼리 문자열 매개 변수**&#x200B;을(를) 선택하십시오.
+       1. `ef_id` 입력.
 
-        예: `Overwrite the value of rVar11 with Query String Parameter ef_id`
+       예: `Overwrite the value of rVar11 with Query String Parameter ef_id`
 
    * [!UICONTROL Reason for rule]의 경우 &quot;AMO ID 및 EF ID가 Adobe Analytics Connector를 통해 AEP으로 전송됩니다.&quot;와 같은 설명 메모를 사용합니다.
 
@@ -87,7 +95,7 @@ Adobe Advertising은 데이터를 Customer Journey Analytics에 자동으로 전
 
    예를 들어 새 eVar `eVar142`이(가) `amo.s_kwcid(Context Data)`에 매핑되어 있으면 `eVar142`과(와) `AMO ID`의 데이터가 동일해야 합니다.
 
-처리 규칙 적용 방법에 대한 자세한 내용은 &quot;[처리 규칙 작동 방식](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)&quot;을 참조하십시오.
+처리 규칙 적용 방법에 대한 자세한 내용은 &quot;[처리 규칙 작동 방식](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)&quot;을 참조하십시오.
 
 >[!MORELIKETHIS]
 >

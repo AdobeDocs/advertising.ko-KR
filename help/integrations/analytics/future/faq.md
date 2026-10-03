@@ -1,13 +1,14 @@
 ---
 title: FAQ
 description: xxx
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
-
 ---
-
 # FAQ xxx
 
 ## 제목
@@ -34,5 +35,5 @@ Q: 내부 보안 감사 중에 특정 기능은 Ad Cloud을 기존 Adobe Analyti
 
 A: 당사 제품과 함께 확인했으며 문제의 픽셀이 Ad Cloud, 특정 인벤토리/SSP 파트너(DSP 관련) 및 AAM 간의 쿠키 일치율을 높이기 위한 목적이라고 언급했습니다.  이러한 구성 요소가 제거되면 고객은 AAC/AAM과 각 픽셀이 사용되는 인벤토리 파트너 간에 일정 수준의 일치율이 감소하는 것을 볼 수 있지만 실제로 수행되지는 않을 것입니다.
 
-Ad Cloud 검색의 경우 광고주의 CX Enterprise 조직 ID가 Mathworks에 대해 설정되어 있지만 제품 팀에는 Ad Cloud에서 대상을 활성화하기 위한 Mathworks 설정이 표시되지 않습니다. Ad Cloud Search에 대상을 보내는 데 Adobe Audience Manager를 사용하고 있습니까? If not, removing these doesn&#39;t have an impact on current workflow. AAM Customer Care can assist with the removal of these pixels if you don’t want them to be fired.
+Ad Cloud 검색의 경우 광고주의 CX Enterprise 조직 ID가 Mathworks에 대해 설정되어 있지만 제품 팀에는 Ad Cloud에서 대상을 활성화하기 위한 Mathworks 설정이 표시되지 않습니다. Ad Cloud Search에 대상을 보내는 데 Adobe Audience Manager를 사용하고 있습니까? 그렇지 않으면 이러한 매개 변수를 제거해도 현재 워크플로우에는 영향을 주지 않습니다. AAM 고객 지원 센터는 이러한 픽셀을 실행하지 않으려면 이러한 픽셀을 제거하는 데 도움을 줄 수 있습니다.
 

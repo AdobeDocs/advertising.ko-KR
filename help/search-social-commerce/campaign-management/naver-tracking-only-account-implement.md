@@ -1,23 +1,28 @@
 ---
-title: ' [!DNL Naver] 추적 전용 계정 구현'
-description: 광고 네트워크에서 직접 구매하는 광고의 성과를 추적하고 보고하고 시각화할 수 있도록  [!DNL Naver] 계정에 대한 추적 캠페인을 설정하는 방법에 대해 알아봅니다.
+title: '[!DNL Naver] 추적 전용 계정 구현'
+description: 광고 네트워크에서 직접 구매하는 광고의 성과를 추적, 보고 및 시각화할 수 있도록 [!DNL Naver] 계정에 대한 추적 캠페인을 설정하는 방법에 대해 알아봅니다.
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/ny0Bdmm-faAvcnnS77oGVJGwGr3tAHOtFpQ-EGhcBVs
+TQID: 'https://experienceleague.adobe.com/ny0Bdmm-faAvcnnS77oGVJGwGr3tAHOtFpQ-EGhcBVs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 687
+source-wordcount: '690'
 ht-degree: 0%
-
 ---
-
 # [!DNL Naver] 추적 전용 계정 구현
 
 *[!DNL Naver]개의 계정만*
@@ -81,6 +86,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [부록 - [!DNL Naver] 계정](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)에 필요한 일괄 시트 데이터
->* [추적 전용 계정에 대한 트래픽 및 전환 지표 업로드 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
->* [추적 전용 계정에 대한 지표 데이터 요구 사항 [!DNL Naver] 2&rbrace;](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
+>* [추적 전용 계정에 대한 트래픽 및 전환 지표 업로드 [!DNL Naver] 2}](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
+>* [추적 전용 계정에 대한 지표 데이터 요구 사항 [!DNL Naver] 2}](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
+>*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 [클릭 추적 형식

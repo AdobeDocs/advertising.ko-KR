@@ -3,23 +3,26 @@ title: 캠페인 관리 보기에서 데이터 다운로드
 description: 대부분의 캠페인 관리 보기에서 데이터를 다운로드하는 방법을 알아봅니다.
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-TQID: https://experienceleague.adobe.com/Wg-OZ-59-SkdA96KQgLWuY8seK10bK0tnt94TdKXzeQ
+TQID: 'https://experienceleague.adobe.com/Wg-OZ-59-SkdA96KQgLWuY8seK10bK0tnt94TdKXzeQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 433
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # (기존 UI) 캠페인 관리 보기에서 데이터 다운로드
 
 *기존 사용자 인터페이스*
 
-[!UICONTROL Search, Social, & Commerce] - [!UICONTROL Campaigns], [!UICONTROL Campaigns] - [!UICONTROL Keywords], [!UICONTROL Keyword Negatives] 및 [!UICONTROL Placements] 보기를 제외한 [!UICONTROL Placement Negatives] > [!UICONTROL Audiences] > [!UICONTROL Extensions] 보기에서 데이터를 다운로드할 수 있습니다. 다음 중 하나를 다운로드할 수 있습니다.
+[!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences] 및 [!UICONTROL Extensions] 보기를 제외한 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기에서 데이터를 다운로드할 수 있습니다. 다음 중 하나를 다운로드할 수 있습니다.
 
 * [!DNL XLSM]&#x200B;(매크로가 활성화된 [!DNL Microsoft Excel] 스프레드시트) 형식의 보고서입니다. 뷰에서 특정 행을 선택하면 보고서에는 선택한 각 행에 대해 하나의 행이 포함됩니다. 행을 선택하지 않으면 보기의 각 행에 대해 하나의 행이 만들어집니다.
 

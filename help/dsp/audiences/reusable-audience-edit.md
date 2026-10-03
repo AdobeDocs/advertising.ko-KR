@@ -3,22 +3,26 @@ title: 재사용 가능한 대상 편집
 description: 재사용 가능한 대상을 편집하는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-TQID: https://experienceleague.adobe.com/NkmnBZ5GKhOxmOJZhIS8-V99cV7x2-DTl-tp1cij8W4
+TQID: 'https://experienceleague.adobe.com/NkmnBZ5GKhOxmOJZhIS8-V99cV7x2-DTl-tp1cij8W4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 # 재사용 가능한 대상 편집
 
 배치나 기타 재사용 가능한 대상에 사용되는 대상을 편집하면 해당 배치 및 대상에 변경 사항이 즉시 적용됩니다.<!-- verify -->
@@ -41,43 +45,43 @@ ht-degree: 0%
 
    * (선택 사항) [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] 및 [!UICONTROL Saved Audiences] 탭](audience-settings.md)에서 사용할 수 있는 세그먼트를 사용하여 세그먼트 논리를 수동으로 편집하려면 다음을 수행하십시오.
 
-      * 기존 세그먼트 그룹에 세그먼트를 추가하려면 다음 작업을 수행하십시오.
+     * 기존 세그먼트 그룹에 세그먼트를 추가하려면 다음 작업을 수행하십시오.
 
-      1. 오른쪽 패널에서 세그먼트 그룹을 클릭합니다.
+     1. 오른쪽 패널에서 세그먼트 그룹을 클릭합니다.
 
-      1. (선택 사항) 필요에 따라 그룹 논리를 *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* 또는 *[!UICONTROL Exclude All]*(으)로 변경합니다.
+     1. (선택 사항) 필요에 따라 그룹 논리를 *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* 또는 *[!UICONTROL Exclude All]*(으)로 변경합니다.
 
-         *[!UICONTROL Exclude All]*&#x200B;은(는) 첫 번째 세그먼트 그룹에서 사용할 수 없습니다. 제외만 포함하는 대상의 경우 이 대상을 *[!UICONTROL Include Any]*(으)로 만든 다음 배치 내에서 제외된 대상 메뉴에서 해당 대상을 선택합니다.
+        *[!UICONTROL Exclude All]*&#x200B;은(는) 첫 번째 세그먼트 그룹에서 사용할 수 없습니다. 제외만 포함하는 대상의 경우 이 대상을 *[!UICONTROL Include Any]*(으)로 만든 다음 배치 내에서 제외된 대상 메뉴에서 해당 대상을 선택합니다.
 
-      1. 왼쪽 패널에서 새 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
+     1. 왼쪽 패널에서 새 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
 
-         세그먼트 그룹이 새 세그먼트로 자동으로 업데이트됩니다.
+        세그먼트 그룹이 새 세그먼트로 자동으로 업데이트됩니다.
 
    * 새 세그먼트 그룹을 추가하려면:
 
-      1. 오른쪽 패널에서 **[!UICONTROL + New Group]**&#x200B;을(를) 클릭합니다.
+     1. 오른쪽 패널에서 **[!UICONTROL + New Group]**&#x200B;을(를) 클릭합니다.
 
-      1. (선택 사항) 필요에 따라 이전 그룹과 새 그룹 간의 논리를 *[!UICONTROL And]* 또는 *[!UICONTROL Or]*(으)로 변경합니다.
+     1. (선택 사항) 필요에 따라 이전 그룹과 새 그룹 간의 논리를 *[!UICONTROL And]* 또는 *[!UICONTROL Or]*(으)로 변경합니다.
 
-      1. 왼쪽 패널에서 새 그룹의 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
+     1. 왼쪽 패널에서 새 그룹의 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
 
-      1. (선택 사항) 필요에 따라 그룹 논리를 *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* 또는 *[!UICONTROL Exclude All]*(으)로 변경합니다.
+     1. (선택 사항) 필요에 따라 그룹 논리를 *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* 또는 *[!UICONTROL Exclude All]*(으)로 변경합니다.
 
    * 기존 대상의 세그먼트 논리를 사용하려면 다음을 수행합니다.
 
-      1. 다음 방법 중 하나로 기존 대상에서 세그먼트 논리를 복사합니다.
+     1. 다음 방법 중 하나로 기존 대상에서 세그먼트 논리를 복사합니다.
 
-         * 모든 대상 보기에서 대상 행 위에 커서를 놓고 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**&#x200B;을(를) 클릭합니다.
+        * 모든 대상 보기에서 대상 행 위에 커서를 놓고 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**&#x200B;을(를) 클릭합니다.
 
-         * 기존 대상에 대한 설정에서 세그먼트 논리 패널의 맨 위에서 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**&#x200B;을(를) 클릭합니다.
+        * 기존 대상에 대한 설정에서 세그먼트 논리 패널의 맨 위에서 **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**&#x200B;을(를) 클릭합니다.
 
-         * 텍스트 편집기에서 영숫자 세그먼트 ID와 [부울 구문](audience-segment-logic-syntax.md)을 사용하여 세그먼트 논리를 수동으로 만든 다음 클립보드에 복사합니다.
+        * 텍스트 편집기에서 영숫자 세그먼트 ID와 [부울 구문](audience-segment-logic-syntax.md)을 사용하여 세그먼트 논리를 수동으로 만든 다음 클립보드에 복사합니다.
 
-      1. **[!UICONTROL paste in an audience rule to begin building]**&#x200B;을(를) 클릭하고 기존 세그먼트 논리를 입력 필드에 붙여 넣은 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL paste in an audience rule to begin building]**&#x200B;을(를) 클릭하고 기존 세그먼트 논리를 입력 필드에 붙여 넣은 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-         >[!NOTE]
-         >
-         >대상에 이미 세그먼트 논리가 포함되어 있는 경우 새 세그먼트 논리에 붙여넣으면 기존 논리를 덮어씁니다.
+        >[!NOTE]
+        >
+        >대상에 이미 세그먼트 논리가 포함되어 있는 경우 새 세그먼트 논리에 붙여넣으면 기존 논리를 덮어씁니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 

@@ -1,31 +1,40 @@
 ---
-title: ' [!DNL Marketing Channels]의 기본 사항'
-description: ' [!DNL Analytics for Advertising] 사용자가 이해해야 하는  [!DNL Analytics Marketing Channels] 에 대한 주요 정보를 알아봅니다.'
+title: '[!DNL Marketing Channels]의 기본 사항'
+description: '[!DNL Analytics for Advertising] 사용자가 이해해야 하는 [!DNL Analytics Marketing Channels]에 대한 주요 정보를 알아봅니다.'
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-TQID: https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk
+TQID: 'https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Email marketing
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: '563'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics Marketing Channels]의 기본 사항
 
 이 페이지에서는 [!DNL Analytics for Advertising] 사용자가 이해해야 하는 [!DNL Analytics Marketing Channels]에 대한 주요 정보를 설명합니다.
 
-[!DNL Marketing Channels]에 대한 전체 설명서는 &quot;[시작하기 [!DNL Marketing Channels]](https://experienceleague.adobe.com/ko/docs/analytics/components/marketing-channels/c-getting-started-mchannel)&quot;를 참조하십시오.
+[!DNL Marketing Channels]에 대한 전체 설명서는 &quot;[시작하기 [!DNL Marketing Channels]](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)&quot;를 참조하십시오.
 
 ## [!DNL Marketing Channels] 개요
 
@@ -54,5 +63,5 @@ Adobe Advertising이 사용자 지정 마케팅 채널을 만드는 데 필요�
 >* [Adobe Advertising ID를 사용하여 만들기 [!DNL Marketing Channels] 처리 규칙](mc-ids.md)
 >* [채널 데이터가 Adobe Advertising과  [!DNL Marketing Channels]](mc-data-variances.md) 간에 다를 수 있는 이유
 >* [사용 [!DNL Analytics Marketing Channels] Adobe Advertising 데이터 사용](mc-ac-data.md)
->* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/ko/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
+>* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/en/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
 >* [개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

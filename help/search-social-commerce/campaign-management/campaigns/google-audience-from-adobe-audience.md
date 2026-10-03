@@ -1,59 +1,63 @@
 ---
-title: Create [!DNL Google Ads] customer match audiences from [!DNL Adobe] audiences
-description: Learn how to create [!DNL Google Ads] customer match audiences from your existing Adobe Analytics and Audience Manager audiences.
+title: '[!DNL Adobe]개 대상에서 [!DNL Google Ads]개 고객 일치 대상 만들기'
+description: 기존 Adobe Analytics 및 Audience Manager 대상에서 [!DNL Google Ads] 고객 일치 대상을 만드는 방법을 알아봅니다.
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM
+TQID: 'https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 586
+source-wordcount: '589'
 ht-degree: 0%
-
 ---
+# Adobe Analytics 및 Audience Manager 대상에서 [!DNL Google Ads]개의 고객 일치 대상 만들기
 
-# Create [!DNL Google Ads] customer match audiences from Adobe Analytics and Audience Manager audiences
-
-*[!DNL Google Ads]accounts that are eligible for customer match only*
+고객 일치 항목에만 적합한 계정 *[!DNL Google Ads]개*
 
 *Adobe Advertising-Adobe Audience Manager 또는 Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
 
-Opted-in advertisers can create [!DNL Google Ads] customer match audiences using user IDs from a) [!DNL Analytics] segments that are shared with Adobe CX Enterprise and b) Audience Manager segments that have Search, Social, &amp; Commerce as a destination, including [!DNL Analytics] segments that are published to Adobe CX Enterprise and segments that are created using the Adobe CX Enterprise Audience Library. Search, Social, &amp; Commerce automatically pushes a [!DNL Google] tracking URL back to each [!DNL Analytics] or Audience Manager segment so that [!DNL Google] can track the audience.
+옵트인 광고주는 a) Adobe CX Enterprise과 공유되는 [!DNL Analytics] 세그먼트 및 b) Adobe CX Enterprise에 게시되는 [!DNL Analytics] 세그먼트와 Adobe CX Enterprise 대상 라이브러리를 사용하여 생성된 세그먼트를 포함하여 검색, 소셜 및 Commerce을 대상으로 하는 Audience Manager 세그먼트의 사용자 ID를 사용하여 [!DNL Google Ads] 고객 일치 대상을 만들 수 있습니다. Search, Social 및 Commerce은 [!DNL Google]이(가) 대상자를 추적할 수 있도록 [!DNL Google] 추적 URL을 각 [!DNL Analytics] 또는 Audience Manager 세그먼트로 자동으로 푸시합니다.
 
-Each [!DNL Adobe] audience can be used for only one [!DNL Google] audience.
+각 [!DNL Adobe] 대상은 하나의 [!DNL Google] 대상에만 사용할 수 있습니다.
 
-Each new [!DNL Google] audience has the same name as the original [!DNL Adobe] audience. [!DNL Google] determines how large the audience must be to be targetable.
+각 새 [!DNL Google] 대상의 이름은 원래 [!DNL Adobe] 대상의 이름과 같습니다. [!DNL Google]은(는) 대상자를 타깃팅해야 하는 크기를 결정합니다.
 
 >[!TIP]
 >
->For real-time segmentation, use Audience Manager-created audiences. Segments created in [!DNL Analytics] and synced to Adobe CX Enterprise may have smaller populations because they&#39;re only synced daily; a surfer who qualifies for a segment may not be included in the segment until the next day. Segments from [!DNL Analytics] have a data source of &quot;report suite - .&quot;
+>실시간 세그멘테이션의 경우 Audience Manager에서 만든 대상자를 사용합니다. [!DNL Analytics]에서 만들어져 Adobe CX Enterprise에 동기화된 세그먼트는 매일 동기화되기 때문에 인구가 더 적을 수 있습니다. 세그먼트 자격이 있는 서퍼는 다음 날까지 세그먼트에 포함되지 않을 수 있습니다. [!DNL Analytics]의 세그먼트에 &quot;보고서 세트 - &quot;의 데이터 소스가 있습니다.
 
 >[!NOTE]
 >
->Search, Social, &amp; Commerce doesn&#39;t store any of the customer data from your [!DNL Adobe] segments used to create or edit a [!DNL Google] audience.
+>Search, Social 및 Commerce은 [!DNL Google] 대상자를 만들거나 편집하는 데 사용되는 [!DNL Adobe] 세그먼트의 고객 데이터를 저장하지 않습니다.
 
-1. Complete the prerequisites as needed:
+1. 필요에 따라 사전 요구 사항을 완료합니다.
 
-   1. (To create user ID remarketing list audiences) An [!DNL Adobe] admin user or account manager must select the advertiser-level setting to enable customer match audiences.
+   1. (사용자 ID 리마케팅 목록 대상자를 만들려면) [!DNL Adobe] 관리자 사용자 또는 계정 관리자가 광고주 수준 설정을 선택하여 고객 일치 대상자를 활성화해야 합니다.
 
-   1. Implement the [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko) version 2.0 or higher.
+   1. [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 버전 2.0 이상을 구현합니다.
 
-   1. Deploy the following tag as high as possible on the advertiser&#39;s webpages from which the audience should be tracked
+   1. 대상자를 추적해야 하는 광고주의 웹 페이지에 가능한 한 높은 다음 태그를 배포합니다
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
-      where `Advertising_Cloud_UserID` is the unique numeric user ID assigned to the advertiser.
+      여기서 `Advertising_Cloud_UserID`은(는) 광고주에게 할당된 고유한 숫자 사용자 ID입니다.
 
-      Example: `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
+      예: `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
-   1. (If not already completed) An authorized user must configure the advertiser&#39;s account to [sync with the advertiser&#39;s organization account in Adobe CX Enterprise](/help/search-social-commerce/admin/sync-adobe-audiences.md).
+   1. (아직 완료되지 않은 경우) 승인된 사용자는 광고주의 계정을 [Adobe CX Enterprise의 광고주 조직 계정과 동기화](/help/search-social-commerce/admin/sync-adobe-audiences.md)하도록 구성해야 합니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다. 하위 메뉴에서 **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**&#x200B;을(를) 클릭합니다.
 
@@ -96,6 +100,6 @@ Each new [!DNL Google] audience has the same name as the original [!DNL Adobe] a
 >[!MORELIKETHIS]
 >
 >* [대상자 정보](audience-about.md)
->* [Adobe Campaign 전자 메일 목록에서 고객 일치 대상 만들기 [!DNL Google Ads] 2&rbrace;](google-audience-from-campaign-email-list.md)
+>* [Adobe Campaign 전자 메일 목록에서 고객 일치 대상 만들기 [!DNL Google Ads] 2}](google-audience-from-campaign-email-list.md)
 >* [고객 데이터 목록을 사용하여 고객 일치 대상 관리](audience-from-customer-data-list.md)
 >* [동적 리마케팅 대상자 관리](audience-dynamic-remarketing-manage.md)

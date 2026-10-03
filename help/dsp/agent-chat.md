@@ -1,22 +1,31 @@
 ---
 title: AI 지원 채팅을 사용하여 제품 설명서 검색
-description: AI 지원 채팅을 사용하여 Adobe Advertising DSP 및 [!DNL Creative] 설명서를 검색하는 방법에 대해 알아봅니다. 인용 및 제안 후속 프롬프트로 답변을 얻습니다.
+description: AI 지원 채팅을 사용하여 Adobe Advertising DSP 및 [!DNL Creative] 설명서를 검색하는 방법을 알아봅니다. 인용 및 제안 후속 프롬프트로 답변을 얻습니다.
 feature: DSP Introduction, Creative Introduction
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ba946348-465d-45f3-8d28-c42d0a2599c5
+    internal-label: Creative introduction
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '486'
 ht-degree: 0%
-
 ---
-
 # AI 지원 채팅 인터페이스를 사용하여 제품 설명서를 검색합니다
 
 *영어만 지원*
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-AI 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색할 수 있습니다. 답변은 [Experience League](https://experienceleague.adobe.com/ko/docs/advertising)에서 이러한 제품에 대해 문서화된 내용만 기반으로 합니다.
+AI 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색할 수 있습니다. 답변은 [Experience League](https://experienceleague.adobe.com/en/docs/advertising)에서 이러한 제품에 대해 문서화된 내용만 기반으로 합니다.
 
 응답에는 쿼리를 구체화하고 추가 정보를 찾는 데 도움이 되는 추가 프롬프트 및 후속 질문뿐만 아니라 인용 문항이 포함됩니다. 채팅 기록은 세션 내내 유지되며 쿼리는 다른 사용자와 공유되지 않습니다.
 
@@ -72,13 +81,13 @@ AI 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/
 
 * [!UICONTROL Documentation Sources] 목록 옆:
 
-   * 유용한 응답을 보려면 ![엄지손가락 위로](/help/dsp/assets/thumbs-up.png "엄지손가락 위로")를 클릭하세요.
+  * 유용한 응답을 보려면 ![엄지손가락 위로](/help/dsp/assets/thumbs-up.png "엄지손가락 위로")를 클릭하세요.
 
-   * 도움이 되지 않는 응답은 ![Thumbs down](/help/dsp/assets/thumbs-down.png "Thumbs down")을 클릭합니다.
+  * 도움이 되지 않는 응답은 ![Thumbs down](/help/dsp/assets/thumbs-down.png "Thumbs down")을 클릭합니다.
 
 ## 프롬프트 작성의 기본 사항 {#writing-prompts}
 
-* **명확하고 구체적이어야 합니다.** 전체 질문(&quot;온디맨드 인벤토리를 어떻게 구독합니까?&quot;), 작업 구문(&quot;온디맨드 인벤토리에 구독&quot;) 또는 주제 구문(&quot;온디맨드 인벤토리&quot;)을 사용합니다.
+* **명확하고 구체적이어야 합니다.** 전체 질문(&quot;온디맨드 재고를 어떻게 구독합니까?&quot;), 작업 구문(&quot;온디맨드 재고를 구독합니까&quot;) 또는 주제 구문(&quot;온디맨드 재고&quot;)을 사용합니다.
 
 * **가능한 경우 제품 기능(&quot;캠페인&quot; 또는 &quot;거래&quot;)에 대해 UI 조건을 일치**&#x200B;합니다.
 

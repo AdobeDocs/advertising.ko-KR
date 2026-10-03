@@ -3,18 +3,24 @@ title: 에셋 파일 관리
 description: 광고주를 위한 에셋 파일을 업로드하고 관리하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-TQID: https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc
+TQID: 'https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 0%
-
 ---
-
 # 에셋 파일 관리
 
 * Dynamic HTML5 광고에는 Microsoft Excel 스프레드시트(XLSX) 형식의 피드 파일과 스프레드시트에서 참조되는 실제 이미지 자산이 필요합니다.
@@ -35,29 +41,29 @@ ht-degree: 0%
 
 * Dynamic HTML5 광고:
 
-   * CSV, TSV 또는 Microsoft Excel 스프레드시트(XLSX) 형식의 피드 파일로, 각 광고 변형에 대해 하나의 머리글 행과 하나의 데이터 행이 있습니다. `images/image_name` 형식(예: `images/300x250_acme_logo.png`)을 사용하여 각 행에 이미지 이름을 포함하십시오.
+  * CSV, TSV 또는 Microsoft Excel 스프레드시트(XLSX) 형식의 피드 파일로, 각 광고 변형에 대해 하나의 머리글 행과 하나의 데이터 행이 있습니다. `images/image_name` 형식(예: `images/300x250_acme_logo.png`)을 사용하여 각 행에 이미지 이름을 포함하십시오.
 
-     광고주별 필드 이름은 [동적 광고 피드 파일에 사용 가능한 필드](/help/creative/appendix-available-feed-fields.md)에 매핑해야 합니다.
+    광고주별 필드 이름은 [동적 광고 피드 파일에 사용 가능한 필드](/help/creative/appendix-available-feed-fields.md)에 매핑해야 합니다.
 
-   * GIF, JPEG, JPG 또는 PNG 형식의 연결된 이미지 자산입니다. 최대 파일 크기는 10MB입니다. [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하세요.
+  * GIF, JPEG, JPG 또는 PNG 형식의 연결된 이미지 자산입니다. 최대 파일 크기는 10MB입니다. [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하세요.
 
   하나의 XLSX 파일, 하나의 이미지 파일 또는 XLSX와 이미지 파일의 조합이 포함된 하나의 ZIP 파일을 업로드할 수 있습니다.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 정적 HTML5 광고:
 
-   * GIF, JPG, JPEG 또는 PNG 형식의 광고당 하나의 이미지 에셋.
+  * GIF, JPG, JPEG 또는 PNG 형식의 광고당 하나의 이미지 에셋.
 
-     ZIP 파일에 단일 이미지 또는 여러 이미지를 업로드할 수 있습니다.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+    ZIP 파일에 단일 이미지 또는 여러 이미지를 업로드할 수 있습니다.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * 동적 비디오 광고:
 
-   * CSV, TSV 또는 Microsoft Excel 스프레드시트(XLSX) 형식의 피드 파일로, 각 광고 변형에 대해 하나의 머리글 행과 하나의 데이터 행이 있습니다. `videos/image_name` 형식(예: `videos/300x250_acme_logo.png`)을 사용하여 각 행에 비디오 이름을 포함하십시오. ZIP 파일은 최대 500개의 행에서 최대 512MB일 수 있습니다.
+  * CSV, TSV 또는 Microsoft Excel 스프레드시트(XLSX) 형식의 피드 파일로, 각 광고 변형에 대해 하나의 머리글 행과 하나의 데이터 행이 있습니다. `videos/image_name` 형식(예: `videos/300x250_acme_logo.png`)을 사용하여 각 행에 비디오 이름을 포함하십시오. ZIP 파일은 최대 500개의 행에서 최대 512MB일 수 있습니다.
 
-     광고주별 필드 이름은 [동적 광고 피드 파일에 사용 가능한 필드](/help/creative/appendix-available-feed-fields.md)에 매핑해야 합니다.
+    광고주별 필드 이름은 [동적 광고 피드 파일에 사용 가능한 필드](/help/creative/appendix-available-feed-fields.md)에 매핑해야 합니다.
 
-     다이내믹 비디오가 있는 모든 계정의 경우 가장 좋은 방법은 자산 파일의 각 필드를 Advertising Creative 백엔드의 필드에 매핑하는 [유니버설 피드 템플릿 [!UICONTROL Adobe Creative Template]](feed-template-manage.md)의 복사본과 함께 자산 파일을 사용하여 [카탈로그를 만들기](catalog-manage.md)하는 것입니다.
+    다이내믹 비디오가 있는 모든 계정의 경우 가장 좋은 방법은 자산 파일의 각 필드를 Advertising Creative 백엔드의 필드에 매핑하는 [유니버설 피드 템플릿 [!UICONTROL Adobe Creative Template]](feed-template-manage.md)의 복사본과 함께 자산 파일을 사용하여 [카탈로그를 만들기](catalog-manage.md)하는 것입니다.
 
-   * MP4, MOV 또는 WEBM 형식의 연결된 비디오 자산입니다. 지원되는 광고 템플릿에는 시작 카드, 끝 카드, 상단 오버레이, 하단 오버레이 또는 L자형 등이 있습니다. 각 비디오의 재생 시간은 1~90초 사이여야 합니다. [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하세요.
+  * MP4, MOV 또는 WEBM 형식의 연결된 비디오 자산입니다. 지원되는 광고 템플릿에는 시작 카드, 끝 카드, 상단 오버레이, 하단 오버레이 또는 L자형 등이 있습니다. 각 비디오의 재생 시간은 1~90초 사이여야 합니다. [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하세요.
 
   하나의 XLSX 파일, 하나의 이미지 파일 또는 XLSX와 비디오 파일의 조합이 포함된 하나의 ZIP 파일을 업로드할 수 있습니다.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

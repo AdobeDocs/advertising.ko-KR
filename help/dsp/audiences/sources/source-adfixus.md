@@ -1,25 +1,31 @@
 ---
-title: ' [!DNL AdFixus]에서 자사 세그먼트 가져오기'
-description: ' [!DNL AdFixus] 범용 ID로 구성된  [!DNL AdFixus] 자사 세그먼트를 DSP으로 가져오는 방법에 대해 알아봅니다.'
+title: '[!DNL AdFixus]에서 자사 세그먼트 가져오기'
+description: '[!DNL AdFixus] 유니버설 ID로 구성된 [!DNL AdFixus] 자사 세그먼트를 DSP으로 가져오는 방법에 대해 알아봅니다.'
 feature: DSP Audiences
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: f796a4002b9136299c414b789cd2c34c8d6dc11c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: '469'
 ht-degree: 0%
-
 ---
-
 # [!DNL AdFixus]에서 자사 세그먼트 가져오기
 
 *오스트레일리아의 광고주에만 적용*
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 1. (광고주: [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [!DNL Analytics] 측정에 대한 추적을 설정합니다.
 
-   1. 아직 완료하지 않은 경우) 추적 URL에서 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md)와(과)  [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)을(를) 구현하기 위한 필수 구성 요소를 모두 완료하십시오.
+   1. 아직 완료하지 않은 경우) 추적 URL에서 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md)와(과)  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)을(를) 구현하기 위한 [필수 구성 요소를 모두 완료하십시오.
 
    1. 웹 페이지에 [!DNL AdFixus]별 코드를 배포하여 뷰스루에 대한 데스크톱 및 모바일 웹 브라우저(모바일 앱은 아님)의 [!DNL AdFixus] ID의 전환을 일치시키십시오.
 
@@ -60,7 +66,7 @@ DSP에 표시된 카운트는 24시간마다 새로 고쳐지지만 세그먼트
 >
 >* [자사 대상 원본 정보](/help/dsp/audiences/sources/source-about.md)
 >* [범용 ID 대상을 활성화하기 위한 대상 소스 관리](source-manage.md)
->* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=ko)
->* Adobe Experience Platform [대상 카탈로그 개요](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=ko)
+>* [Adobe Advertising DSP 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [대상 카탈로그 개요](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [범용 ID 활성화 지원](/help/dsp/audiences/universal-ids.md)
 >* [대상자 관리 정보](/help/dsp/audiences/audience-about.md)

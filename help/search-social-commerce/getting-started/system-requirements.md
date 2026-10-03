@@ -3,20 +3,24 @@ title: 시스템 요구 사항
 description: 소프트웨어 및 계정 요구 사항에 대해 알아봅니다.
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/ha9wCBle-TuPDcIEk4cl8n84xEU0CJkMazr6U2Mnybc
+TQID: 'https://experienceleague.adobe.com/ha9wCBle-TuPDcIEk4cl8n84xEU0CJkMazr6U2Mnybc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '255'
 ht-degree: 0%
-
 ---
-
 # 시스템 요구 사항
 
 다음 소프트웨어 및 계정 정보가 필요합니다.
@@ -25,27 +29,27 @@ ht-degree: 0%
 
 * (새 사용자 인터페이스) 최신 버전에서 다음 브라우저 중 하나를 뺀 것입니다.
 
-   * 최상의 경험을 위해:
+  * 최상의 경험을 위해:
 
-      * [!DNL Google Chrome]
+    * [!DNL Google Chrome]
 
-      * [!DNL Microsoft Edge]
+    * [!DNL Microsoft Edge]
 
-   * [!DNL Apple Safari]
+  * [!DNL Apple Safari]
 
-   * [!DNL Mozilla Firefox]
+  * [!DNL Mozilla Firefox]
 
-   * [!DNL Opera]
+  * [!DNL Opera]
 
 * (기존 사용자 인터페이스) 다음 브라우저 중 하나:
 
-   * [!DNL Apple Safari]&#x200B;([!DNL Safari]의 [!DNL iOS] 포함) 10 이상
+  * [!DNL Apple Safari]&#x200B;([!DNL iOS]의 [!DNL Safari] 포함) 10 이상
 
-   * [!DNL Google Chrome] 103 이상
+  * [!DNL Google Chrome] 103 이상
 
-   * [!DNL Microsoft Edge] 104 이상
+  * [!DNL Microsoft Edge] 104 이상
 
-   * [!DNL Mozilla Firefox] 102 이상; [!DNL Mozilla Firefox Extended Support Release] 91.11 이상
+  * [!DNL Mozilla Firefox] 102 이상; [!DNL Mozilla Firefox Extended Support Release] 91.11 이상
 
 * (내보낸 파일을 XLS 형식으로 보려면) [!DNL Microsoft Excel] 권장
 

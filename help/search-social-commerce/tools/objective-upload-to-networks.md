@@ -1,23 +1,28 @@
 ---
 title: 광고 네트워크에 목표 업로드 활성화
-description: 하이브리드 포트폴리오의 목표를  [!DNL Google Ads] 및 [!DNL Microsoft Advertising]에 업로드하는 방법을 알아봅니다.
+description: 하이브리드 포트폴리오의 목표를 [!DNL Google Ads] 및 [!DNL Microsoft Advertising]에 업로드하는 방법을 알아봅니다.
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0
+TQID: 'https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # 광고 네트워크에 목표 업로드 활성화
 
 *[!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정만 있는 광고주*
@@ -48,7 +53,7 @@ Search, Social 및 Commerce에서 광고주 계정의 포트폴리오의 목표�
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-1. (전환이 관리자 계정 수준에서 추적되는 경우) [&#x200B; > &#x200B;](/help/search-social-commerce/admin/manager-accounts.md) > **[!UICONTROL Search, Social, & Commerce]에서 [!UICONTROL Admin]관리자 계정에 대한 자격 증명을 추가[!UICONTROL Manager Accounts]**&#x200B;합니다.
+1. (전환이 관리자 계정 수준에서 추적되는 경우) **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;에서 [관리자 계정에 대한 자격 증명을 추가](/help/search-social-commerce/admin/manager-accounts.md)합니다.
 
 1. 광고 네트워크에 이틀 안에 `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`(이)라는 각 목표가 표시되는지 확인하십시오.
 
@@ -75,7 +80,7 @@ GGL_Lead 는 Google 광고 추적 지표이므로 계산/업로드에 포함되�
 
 >[!TIP]
 >
->광고 네트워크의 보고서 내에서 Adobe Advertising 가중 매출에 대한 데이터를 볼 수 있습니다. 가장 좋은 방법은 가중 수익을 [!DNL Google Ads] &quot;모든 conv&quot;와(과) 비교하는 것입니다. (conv에 의해. time)&quot; 지표 또는 [!DNL Microsoft Advertising] 지표 &quot;All conv. O_ACS_OBJ* 지표로 세그먼트화된 매출액.<!--clarify -->
+>광고 네트워크의 보고서 내에서 Adobe Advertising 가중 매출에 대한 데이터를 볼 수 있습니다. 가장 좋은 방법은 가중 수익을 [!DNL Google Ads] &quot;모든 conv&quot;와(과) 비교하는 것입니다. (conv에 의해. time)&quot; 지표 또는 [!DNL Microsoft Advertising] 지표 &quot;All conv. 매출액&quot;, O_ACS_OBJ* 지표로 분할됨.<!--clarify -->
 
 ## 누락된 목표 문제 해결
 
@@ -83,9 +88,9 @@ GGL_Lead 는 Google 광고 추적 지표이므로 계산/업로드에 포함되�
 
 * ([!DNL Google Ads]) 전환을 계정 또는 관리자 수준으로 업로드해야 하는지 확인하십시오. 관리자 수준에서 업로드해야 하는 경우:
 
-   * [!DNL Google Ads] 관리자 계정의 자격 증명이 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;에 제공되었는지 확인하십시오. 필요한 경우 [관리자 계정에 대한 자격 증명을 추가](/help/search-social-commerce/admin/manager-accounts.md)하십시오.
+  * [!DNL Google Ads] 관리자 계정의 자격 증명이 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**&#x200B;에 제공되었는지 확인하십시오. 필요한 경우 [관리자 계정에 대한 자격 증명을 추가](/help/search-social-commerce/admin/manager-accounts.md)하십시오.
 
-   * 광고 네트워크 계정에 이미 동일한 지표 이름이 포함되어 있는지 확인합니다. 그럴 경우 올바른 관리자 수준 속성을 만들 수 있도록 지표의 이름을 변경합니다.
+  * 광고 네트워크 계정에 이미 동일한 지표 이름이 포함되어 있는지 확인합니다. 그럴 경우 올바른 관리자 수준 속성을 만들 수 있도록 지표의 이름을 변경합니다.
 
 * 포트폴리오의 &quot;하이브리드&quot; 옵션이 선택되어 있고 목표에 유효한 수익이 있는지 확인하십시오.
 

@@ -1,30 +1,41 @@
 ---
-title: ' [!DNL Analytics] 과(와) Adobe Advertising 간의 예상 데이터 분산'
-description: ' [!DNL Analytics] 과(와) Adobe Advertising 간의 예상 데이터 분산'
+title: '[!DNL Analytics]과(와) Adobe Advertising 간의 예상 데이터 분산'
+description: '[!DNL Analytics]과(와) Adobe Advertising 간의 예상 데이터 분산'
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-TQID: https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34
+TQID: 'https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3d540e71081d223cc4e9ee28bb8b4f168c07ff50
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3528
+source-wordcount: '3529'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics]과(와) Adobe Advertising 간의 예상 데이터 분산
 
 *Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
@@ -49,11 +60,11 @@ ht-degree: 0%
 
   Adobe Advertising에 60일 클릭 전환 확인 기간이 있고 [!DNL Analytics]에 30일 전환 확인 기간이 있다고 가정합니다. 그리고 사용자가 Adobe Advertising에서 추적한 광고를 통해 사이트를 방문하고 45일에 돌아간 다음 전환한다고 가정해 봅시다. Adobe Advertising은 전환이 60일 전환 확인 기간 내에 발생했으므로 전환을 초기 방문으로 간주합니다. 그러나 30일 전환 확인 기간이 만료된 후 전환이 발생했으므로 [!DNL Analytics]은(는) 초기 방문으로 전환을 지정할 수 없습니다. 이 예에서 Adobe Advertising은 [!DNL Analytics]보다 더 많은 전환 수를 보고합니다.
 
-  [!DNL Analytics]![&#128279;](/help/integrations/assets/a4adc-lookback-example.png)이(가) 아닌 Adobe Advertising에 속하는 전환의 예 
+  [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)이(가) 아닌 Adobe Advertising에 속하는 전환의 예 ![
 
 * **다른 특성 모델로 인해 불일치가 발생하는 예:**
 
-  사용자가 전환하기 전에 세 개의 서로 다른 Adobe Advertising 광고와 상호 작용하고 전환 유형으로서 수익을 사용한다고 가정해 봅시다. Adobe Advertising 보고서에서 속성에 대해 고른 배포 모델을 사용하는 경우 모든 광고에서 고르게 매출을 분석합니다. 그러나 [!DNL Analytics]이(가) 마지막 터치 속성 모델을 사용하는 경우 수익이 마지막 광고에 기여합니다. 다음 예에서 Adobe Advertising은 세 개의 광고 각각에 캡처된 매출 30USD 중 심지어 10USD를 기여하는 반면, [!DNL Analytics]은(는) 사용자가 본 마지막 광고의 매출 30USD 모두를 기여합니다. Adobe Advertising과 [!DNL Analytics]의 보고서를 비교할 때 특성 차이가 미치는 영향을 예상할 수 있습니다.
+  사용자가 전환하기 전에 세 개의 서로 다른 Adobe Advertising 광고와 상호 작용하고 전환 유형으로서 수익을 사용한다고 가정해 봅시다. Adobe Advertising 보고서에서 속성에 대해 고른 배포 모델을 사용하는 경우 모든 광고에서 고르게 매출을 분석합니다. 그러나 [!DNL Analytics]이(가) 마지막 터치 속성 모델을 사용하는 경우 수익이 마지막 광고에 기여합니다. 다음 예에서 Adobe Advertising은 3개의 광고 각각에 캡처된 30개의 USD 수익 중 10개의 USD을 기여하는 반면, [!DNL Analytics]은(는) 사용자가 본 마지막 광고에 캡처된 30개의 USD 수익 모두를 기여합니다. Adobe Advertising과 [!DNL Analytics]의 보고서를 비교할 때 특성 차이가 미치는 영향을 예상할 수 있습니다.
 
   ![다른 속성 모델을 기반으로 하는 Adobe Advertising 및 [!DNL Analytics]에 속하는 다른 수익](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -73,7 +84,7 @@ Adobe Advertising에서 속성은 클릭과 노출을 기반으로 하며 클릭
 
 ![Adobe Advertising이 아닌 [!DNL Analytics]에 속하는 뷰스루 전환의 예](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-불일치의 추가 원인은 Adobe Advertising에서 보기 스루 전환에 클릭 기반 전환으로 인한 가중치에 상대적인 사용자 지정 *보기 스루 가중치*&#x200B;를 할당할 수 있기 때문입니다. 기본 뷰스루 가중치는 40%이며, 이는 뷰스루 변환이 클릭 기반 전환 값의 40%로 계산됨을 의미합니다. [!DNL Analytics]은(는) 뷰스루 전환의 가중치를 제공하지 않습니다. 예를 들어, 기본 뷰스루 가중치(60USD의 차이)를 사용하는 경우 [!DNL Analytics]에서 캡처된 100USD 매출 주문이 Adobe Advertising에서 40USD로 할인됩니다.
+불일치의 추가 원인은 Adobe Advertising에서 보기 스루 전환에 클릭 기반 전환으로 인한 가중치에 상대적인 사용자 지정 *보기 스루 가중치*&#x200B;를 할당할 수 있기 때문입니다. 기본 뷰스루 가중치는 40%이며, 이는 뷰스루 변환이 클릭 기반 전환 값의 40%로 계산됨을 의미합니다. [!DNL Analytics]은(는) 뷰스루 전환의 가중치를 제공하지 않습니다. 따라서, 예를 들어, 기본 뷰스루 가중치(60 USD의 차이)를 사용하는 경우 [!DNL Analytics]에서 캡처된 USD 매출 주문 100개는 Adobe Advertising에서 40USD으로 할인됩니다.
 
 Adobe Advertising 보고서와 [!DNL Analytics] 보고서 간의 뷰스루 전환을 비교할 때 이러한 차이점을 고려하십시오.
 
@@ -101,7 +112,7 @@ Adobe Advertising 보고서와 [!DNL Analytics] 보고서 간의 뷰스루 전�
 >
 >혼동을 방지하기 위해 [!DNL Analytics]은(는) 보고 인터페이스에서 내역 데이터를 사용할 수 없게 합니다. [!DNL eVar]을(를) 다시 초기 할당 설정으로 변경하면 내역 데이터를 볼 수 있습니다. 단, 내역 데이터에 액세스하기 위해 [!DNL eVar] 할당 설정을 변경해서는 안 됩니다. Adobe에서는 이미 많은 양의 내역 데이터가 있는 [!DNL eVar]에 대한 할당 설정을 변경하는 대신 이미 기록되고 있는 데이터에 새 할당 설정을 적용하려는 경우 새 [!DNL eVar]을(를) 사용하는 것이 좋습니다.
 
-[https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/attribution/models)에서 [!DNL Analytics] 속성 모델 및 해당 정의 목록을 참조하십시오.
+[https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)에서 [!DNL Analytics] 속성 모델 및 해당 정의 목록을 참조하십시오.
 
 [!DNL Search, Social, & Commerce]에 로그인한 경우 목록을 찾을 수 있습니다.
 
@@ -117,11 +128,11 @@ Adobe Advertising에서는 연결된 클릭 날짜/이벤트 날짜(클릭 또�
 
 ## [!DNL Analytics Marketing Channels]의 속성
 
-[[!DNL Analytics Marketing Channels] 보고](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=ko)를 사용하면 히트 정보의 고유한 측면을 기반으로 다양한 마케팅 채널을 식별하는 규칙을 구성할 수 있습니다. `ef_id` 쿼리 문자열 매개 변수를 사용하여 채널을 식별하여 Adobe Advertising 추적 채널([!UICONTROL Display Click Through], [!UICONTROL Display View Through] 및 [!UICONTROL Paid Search])을 [!DNL Marketing Channels]&#x200B;(으)로 추적할 수 있습니다. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> 그러나 [!DNL Marketing Channels] 보고서가 Adobe Advertising 채널을 추적할 수 있지만 여러 가지 이유로 데이터가 Adobe Advertising 보고서와 일치하지 않을 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
+[[!DNL Analytics Marketing Channels] 보고](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html)를 사용하면 히트 정보의 고유한 측면을 기반으로 다양한 마케팅 채널을 식별하는 규칙을 구성할 수 있습니다. `ef_id` 쿼리 문자열 매개 변수를 사용하여 채널을 식별하여 Adobe Advertising 추적 채널([!UICONTROL Display Click Through], [!UICONTROL Display View Through] 및 [!UICONTROL Paid Search])을 [!DNL Marketing Channels]&#x200B;(으)로 추적할 수 있습니다. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> 그러나 [!DNL Marketing Channels] 보고서가 Adobe Advertising 채널을 추적할 수 있지만 여러 가지 이유로 데이터가 Adobe Advertising 보고서와 일치하지 않을 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
 
 >[!NOTE]
 >
-> 다음 핵심 개념은 [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html?lang=ko) 변수(&quot;추적 코드&quot; 차원 또는 &quot;[!DNL eVar] 0&quot;이라고도 함) 및 사용자 지정 [!DNL eVar] 추적과 같이 Adobe Advertising에서 추적되지 않는 캠페인과 관련된 모든 다중 채널 추적에도 적용됩니다.
+> 다음 핵심 개념은 [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html) 변수(&quot;추적 코드&quot; 차원 또는 &quot;[!DNL eVar] 0&quot;이라고도 함) 및 사용자 지정 [!DNL eVar] 추적과 같이 Adobe Advertising에서 추적되지 않는 캠페인과 관련된 모든 다중 채널 추적에도 적용됩니다.
 
 ### [!DNL Marketing Channels]에서 잠재적으로 다른 속성 모델
 
@@ -137,7 +148,7 @@ Adobe Advertising 보고서는 Adobe Advertising(유료 검색: [!DNL Advertisin
 
 예를 들어 유료 검색과 자연어 검색 채널은 각 채널이 상대방을 돕는 공생 관계를 맺는 경우가 많다. [!DNL Marketing Channels] 보고서는 자연어 검색을 추적하지 않으므로 Adobe Advertising에서 자연어 검색으로 일부 전환을 표시하지 않습니다.
 
-디스플레이 광고를 보고, 유료 검색 광고를 클릭하고, 이메일 메시지 내부를 클릭한 다음, 30 USD 주문을 하는 고객도 생각해 보십시오. Adobe Advertising과 [!DNL Marketing Channels]이(가) 모두 마지막 터치 속성 모델을 사용하더라도 전환은 여전히 각각에 다르게 연결됩니다. Adobe Advertising은 [!UICONTROL Email] 채널에 액세스할 수 없으므로 전환에 대한 유료 검색 크레딧을 받습니다. 그러나 [!DNL Marketing Channels]은(는) 세 개의 채널에 모두 액세스할 수 있으므로 전환에 대해 [!UICONTROL Email]을(를) 크레딧합니다.
+디스플레이 광고를 보고, 유료 검색 광고를 클릭하고, 이메일 메시지 내부를 클릭한 다음 30 USD 주문을 수행하는 고객도 생각해 보십시오. Adobe Advertising과 [!DNL Marketing Channels]이(가) 모두 마지막 터치 속성 모델을 사용하더라도 전환은 여전히 각각에 다르게 연결됩니다. Adobe Advertising은 [!UICONTROL Email] 채널에 액세스할 수 없으므로 전환에 대한 유료 검색 크레딧을 받습니다. 그러나 [!DNL Marketing Channels]은(는) 세 개의 채널에 모두 액세스할 수 있으므로 전환에 대해 [!UICONTROL Email]을(를) 크레딧합니다.
 
 ![Adobe Advertising의 다른 전환 특성과 [!DNL Analytics Marketing Channels]](/help/integrations/assets/a4adc-channel-example.png)의 다른 전환 특성 예
 
@@ -145,11 +156,11 @@ Adobe Advertising 보고서는 Adobe Advertising(유료 검색: [!DNL Advertisin
 
 ## Adobe Analytics [!DNL Paid Search Detection]의 데이터 차이점
 
-[!DNL Analytics]의 [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=ko) 기능을 통해 회사는 [유료 및 유기 검색 트래픽을 추적하는 규칙을 정의](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=ko)할 수 있습니다. [!DNL Paid Search Detection] 규칙은 쿼리 문자열과 참조 도메인을 모두 사용하여 유료 및 자연어 검색 트래픽을 식별합니다. [!DNL Paid Search Detection] 보고서는 지정된 이벤트(예: 장바구니 체크아웃)가 발생하거나 방문이 종료될 때 만료되는 더 큰 [검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=ko) 보고서 그룹의 일부입니다.
+[!DNL Analytics]의 [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) 기능을 통해 회사는 [유료 및 유기 검색 트래픽을 추적하는 규칙을 정의](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html)할 수 있습니다. [!DNL Paid Search Detection] 규칙은 쿼리 문자열과 참조 도메인을 모두 사용하여 유료 및 자연어 검색 트래픽을 식별합니다. [!DNL Paid Search Detection] 보고서는 지정된 이벤트(예: 장바구니 체크아웃)가 발생하거나 방문이 종료될 때 만료되는 더 큰 [검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html) 보고서 그룹의 일부입니다.
 
 다음은 [!DNL Paid Search Detection] 규칙 집합을 만드는 인터페이스입니다.
 
-[!DNL Analytics]![&#128279;](/help/integrations/assets/a4adc-paid-search-detection.png)에 설정된 유료 검색 감지 규칙의 예
+[!DNL Analytics]](/help/integrations/assets/a4adc-paid-search-detection.png)에 설정된 유료 검색 감지 규칙의 ![예
 
 결과 [!DNL Paid Search Detection] 보고서에는 [!UICONTROL Paid Search Engine], [!UICONTROL Paid Search Keywords], [!UICONTROL Natural Search Engine] 및 [!UICONTROL Natural Search Keywords] 보고서가 포함됩니다.
 
@@ -163,7 +174,7 @@ Adobe Advertising 보고서는 Adobe Advertising(유료 검색: [!DNL Advertisin
 
 ### [!DNL Paid Search Detection]을(를) 구성하는 이유
 
-[!DNL Paid Search Detection] 보고서를 사용하면 [[!DNL Analytics Marketing Channels] 보고서](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=ko)에서 자연어 검색 트래픽을 식별할 수 있습니다. 유료 검색 트래픽과 자연어 검색 트래픽을 구분하는 것은 자연어 검색이 전체 마케팅 생태계에 가져오는 가치를 이해하는 좋은 방법입니다.
+[!DNL Paid Search Detection] 보고서를 사용하면 [[!DNL Analytics Marketing Channels] 보고서](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html)에서 자연어 검색 트래픽을 식별할 수 있습니다. 유료 검색 트래픽과 자연어 검색 트래픽을 구분하는 것은 자연어 검색이 전체 마케팅 생태계에 가져오는 가치를 이해하는 좋은 방법입니다.
 
 ## [!DNL Analytics for Advertising]에 대한 클릭스루 데이터 유효성 검사 {#data-validation}
 
@@ -253,7 +264,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 * **클릭:** [!DNL DSP] 또는 검색 엔진은 방문자가 게시자의 웹 사이트에서 광고를 클릭할 때 클릭을 기록합니다.
 
-* **방문:** [!DNL Analytics]은(는) [방문](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=ko)을(를) 사용자의 일련의 페이지 보기로 정의하며, 30분 동안 활동이 없는 경우와 같은 여러 기준 중 하나에 따라 종료됩니다.
+* **방문:** [!DNL Analytics]은(는) [방문](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)을(를) 사용자의 일련의 페이지 보기로 정의하며, 30분 동안 활동이 없는 경우와 같은 여러 기준 중 하나에 따라 종료됩니다.
 
 정의에 따라 클릭으로 여러 번의 방문이 발생할 수 있습니다.
 
@@ -291,14 +302,14 @@ Adobe Advertising은 Analytics에 [광고 관련 트래픽 지표와 관련 차�
 
 ### Adobe Advertising 차원이 아닌 클릭 대용으로 [!UICONTROL AMO ID Instances] 사용
 
-사이트 내 차원과 함께 [!UICONTROL AMO Clicks]을(를) 사용할 수 없으므로 클릭에 해당하는 값을 찾을 수 있습니다. 방문 횟수를 대체품으로 사용하고 싶을 수 있지만 각 방문자에게 여러 번의 방문이 있을 수 있으므로 방문 횟수는 최선의 옵션이 아닙니다. (&quot;[클릭과 방문 간의 차이점](#clicks-vs-visits)&quot;을(를) 참조하십시오. 대신 AMO ID가 캡처된 횟수인 [!UICONTROL AMO ID Instances]을(를) 사용하는 것이 좋습니다. [!UICONTROL AMO ID Instances]이(가) [!UICONTROL AMO Clicks]과(와) 정확히 일치하지 않지만 사이트의 클릭 트래픽을 측정하는 데 가장 적합한 옵션입니다. 자세한 내용은 &quot; [!DNL Analytics for Advertising][&#128279;](#data-validation)에 대한 클릭스루 데이터 유효성 검사&quot;를 참조하십시오.
+사이트 내 차원과 함께 [!UICONTROL AMO Clicks]을(를) 사용할 수 없으므로 클릭에 해당하는 값을 찾을 수 있습니다. 방문 횟수를 대체품으로 사용하고 싶을 수 있지만 각 방문자에게 여러 번의 방문이 있을 수 있으므로 방문 횟수는 최선의 옵션이 아닙니다. (&quot;[클릭과 방문 간의 차이점](#clicks-vs-visits)&quot;을(를) 참조하십시오. 대신 AMO ID가 캡처된 횟수인 [!UICONTROL AMO ID Instances]을(를) 사용하는 것이 좋습니다. [!UICONTROL AMO ID Instances]이(가) [!UICONTROL AMO Clicks]과(와) 정확히 일치하지 않지만 사이트의 클릭 트래픽을 측정하는 데 가장 적합한 옵션입니다. 자세한 내용은 &quot; [!DNL Analytics for Advertising]](#data-validation)에 대한 [클릭스루 데이터 유효성 검사&quot;를 참조하십시오.
 
 지원되지 않는 차원에 대한 [!UICONTROL Adobe Advertising Clicks] 대신 [!UICONTROL AMO ID Instances]의 ![예](/help/integrations/assets/a4adc-amo-id-instances.png)
 
 >[!MORELIKETHIS]
 >
 >* [개요 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics][&#128279;](/help/integrations/analytics/ids.md)에서 사용하는 Adobe Advertising ID
+>*  [!DNL Analytics]](/help/integrations/analytics/ids.md)에서 사용하는 [Adobe Advertising ID
 >* Analysis Workspace의 [Adobe Advertising 지표](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* Adobe Advertising의 [[!DNL Analytics] 데이터](/help/integrations/analytics/analytics-data-in-advertising.md)
 >* [채널 데이터가 Adobe Advertising과  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md) 간에 다를 수 있는 이유

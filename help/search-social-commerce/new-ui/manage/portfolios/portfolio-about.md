@@ -4,23 +4,32 @@ description: 포트폴리오에 대해 알아봅니다.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-TQID: https://experienceleague.adobe.com/w-NpuD1q3atytkO8AL-ekUWzwhX3NHH-byW9ZIY7WdU
+TQID: 'https://experienceleague.adobe.com/w-NpuD1q3atytkO8AL-ekUWzwhX3NHH-byW9ZIY7WdU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+    internal-label: Predictive modeling
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 779
+source-wordcount: '779'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 포트폴리오 정보
 
 *Beta 기능*
@@ -64,7 +73,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios] 보기
 
-[!UICONTROL Portfolios] 보기는 사용자 지정 가능한 성능 데이터와 함께 필터링된 보기의 모든 기존 포트폴리오를 나열합니다. [보기 내의 열을 사용자 지정하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) 도구 모음[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서 특정 포트폴리오 을(를) 포함하도록 데이터를 필터링할 수 있습니다.
+[!UICONTROL Portfolios] 보기는 사용자 지정 가능한 성능 데이터와 함께 필터링된 보기의 모든 기존 포트폴리오를 나열합니다. [보기 내의 열을 사용자 지정하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) 도구 모음](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서 특정 포트폴리오 [을(를) 포함하도록 데이터를 필터링할 수 있습니다.
 
 데이터 테이블 위에서, 지정된 날짜 범위에 대한 보기의 모든 포트폴리오에 대해 총 3개의 지표가 있는 성능 그래프를 열 수 있습니다. 포트폴리오 성과 및 정확도를 비롯한 포트폴리오 세부 정보는 물론 포트폴리오의 각 캠페인, 광고 그룹 및 키워드에 대한 성과 데이터를 열 수 있습니다.
 

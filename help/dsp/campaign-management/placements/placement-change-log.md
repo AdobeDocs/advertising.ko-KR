@@ -3,22 +3,26 @@ title: 배치 변경 로그 보기
 description: 배치에 대한 변경 사항을 보는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-TQID: https://experienceleague.adobe.com/DpvbH-7jfXkjjuDJ6trA-nRxGuysTEKPO7Vmc5BpBbk
+TQID: 'https://experienceleague.adobe.com/DpvbH-7jfXkjjuDJ6trA-nRxGuysTEKPO7Vmc5BpBbk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 216
+source-wordcount: '215'
 ht-degree: 0%
-
 ---
-
 # 배치에 대한 변경 로그 보기
 
 변경 로그에는 변경 유형, 새 값 및 이전 값, 변경한 사용자, 날짜 등 선택한 날짜 범위 동안 배치에 대한 변경 사항이 표시됩니다. 필요에 따라 모든 항목에 메모를 추가할 수 있습니다.

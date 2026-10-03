@@ -1,22 +1,26 @@
 ---
-title: 스프레드시트 보고서 피드용  [!DNL Excel] 템플릿 만들기
+title: 스프레드시트 보고서 피드용 [!DNL Excel] 템플릿 만들기
 description: 특수 형식의 스프레드시트 템플릿을 만드는 방법에 대해 알아봅니다.
 exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/bzrRXYVp7SdGXkdLJpJEaHqYIQKx4GF-Cdi5LxqIIa0
+TQID: 'https://experienceleague.adobe.com/bzrRXYVp7SdGXkdLJpJEaHqYIQKx4GF-Cdi5LxqIIa0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 347
+source-wordcount: '349'
 ht-degree: 0%
-
 ---
-
 # 스프레드시트 보고서 피드용 [!DNL Excel] 템플릿 만들기
 
 *기본 보고서 및 모델 정확도 보고서에만 해당*

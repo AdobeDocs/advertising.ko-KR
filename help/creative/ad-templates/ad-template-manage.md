@@ -3,18 +3,24 @@ title: 동적 광고 템플릿 관리
 description: 동적 광고 템플릿을 관리하고 이러한 템플릿에서 광고를 만드는 방법에 대해 알아봅니다.
 feature: Creative Templates
 exl-id: 248f1467-ebd3-47f2-a24c-043bbfadcc6e
-TQID: https://experienceleague.adobe.com/-kYWprVYmg-AsTH-L--U08dnlESVQx-f2TYTDohc1jc
+TQID: 'https://experienceleague.adobe.com/-kYWprVYmg-AsTH-L--U08dnlESVQx-f2TYTDohc1jc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ed6ac2c4-a9bd-4406-807a-6cff66d34585
+    internal-label: Creative templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 # 동적 광고 템플릿 관리
 
 원하는 광고 형식으로 zip HTML5 파일을 업로드하여 광고 유형(정적 HTML5 또는 동적 HTML5)과 광고 크기의 각 조합에 대한 별도의 광고 템플릿을 만듭니다. Dynamic HTML5 광고의 경우 광고 특성 <!-- more clarification? -->이 포함된 파일도 업로드합니다.

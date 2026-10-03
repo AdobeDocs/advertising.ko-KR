@@ -4,24 +4,31 @@ description: 비즈니스 목표를 달성하기 위한 목표에 대해 알아�
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
+autotag-review: '2026-04-14T00:06:19.870Z'
+TQID: 'https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-autotag-review: '2026-04-14T00:06:19.870Z'
-source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 목표 정보
 
 <!-- no subfeature tag for objectives -->
@@ -34,7 +41,7 @@ ht-degree: 0%
 
 * DSP에서 목표는 검색, 소셜 및 Commerce 계정에 연결된 DSP 계정의 사용자 지정 목표로 표시됩니다. 최적화 목표 &quot;ROAS(광고 투자 수익률)&quot; 또는 &quot;CPA(획득당 최저 비용)&quot;를 사용하는 각 패키지에는 전체 최적화 목표를 달성하는 데 도움이 되는 사용자 지정 목표가 포함되어야 합니다.
 
-목표는 추적 및 최적화할 전환 지표와 이러한 지표의 상대 가중치로 구성됩니다. 예를 들어 두 개의 온라인 구독 수준과 한 개의 인쇄 구독 수준을 가진 목표 &quot;이익 극대화&quot;를 가진 온라인 잡지에 20 USD의 &quot;기본 온라인 구독&quot;, 40 USD의 &quot;프리미엄 온라인 구독&quot; 및 30 USD의 &quot;인쇄 구독&quot;의 세 가지 지표가 있다고 가정합시다. 잡지가 구독의 일회성 금전적 가치에 따라 가중치를 부여하고자 한다면 지표의 상대적 가중치는 각각 1, 2, 1.5가 된다.
+목표는 추적 및 최적화할 전환 지표와 이러한 지표의 상대 가중치로 구성됩니다. 예를 들어 두 개의 온라인 구독 수준과 한 개의 인쇄 구독 수준을 가진 목표 &quot;이익 최대화&quot;가 있는 온라인 잡지에 20 USD의 &quot;기본 온라인 구독&quot;, 40 USD의 &quot;프리미엄 온라인 구독&quot; 및 30 USD의 &quot;인쇄 구독&quot;이라는 세 가지 지표가 있다고 가정해 봅시다. 잡지가 구독의 일회성 금전적 가치에 따라 가중치를 부여하고자 한다면 지표의 상대적 가중치는 각각 1, 2, 1.5가 된다.
 
 목표의 각 지표에 대해 다음 작업을 수행할 수 있습니다.
 
@@ -64,11 +71,11 @@ ht-degree: 0%
 
 * [!DNL Google] 지표:<!-- Search only, or might DSP-only clients also have these? -->
 
-   * 동기화된 [!DNL Google Ads] 계정에서 [[!DNL Google Ads] 추적된 전환](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)입니다.
+  * 동기화된 [!DNL Google Ads] 계정에서 [[!DNL Google Ads] 추적된 전환](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)입니다.
 
-   * ([[!DNL Google Analytics] 통합](/help/search-social-commerce/admin/data-sources/data-source-about.md)을 사용하는 광고주) 페이지 보기 수, 세션, 바운스 비율(바운스/세션으로 계산됨) 및 세션 기간입니다.
+  * ([[!DNL Google Analytics] 통합](/help/search-social-commerce/admin/data-sources/data-source-about.md)을 사용하는 광고주) 페이지 보기 수, 세션, 바운스 비율(바운스/세션으로 계산됨) 및 세션 기간입니다.
 
-     검색, 소셜 및 Commerce에서 이러한 지표는 포트폴리오 입찰 알고리즘에 자동으로 반영됩니다.
+    검색, 소셜 및 Commerce에서 이러한 지표는 포트폴리오 입찰 알고리즘에 자동으로 반영됩니다.
 
 ## 광고 네트워크에 목표를 업로드하는 옵션
 

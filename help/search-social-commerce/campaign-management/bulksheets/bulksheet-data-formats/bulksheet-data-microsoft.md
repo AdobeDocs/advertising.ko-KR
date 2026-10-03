@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL Microsoft Advertising] 계정의 필수 일괄 시트 데이터'
-description: ' [!DNL Microsoft Advertising] 계정의 일괄 시트에 있는 필수 머리글 필드 및 데이터 필드를 참조합니다.'
+title: '[!DNL Microsoft Advertising] 계정의 필수 일괄 시트 데이터'
+description: '[!DNL Microsoft Advertising] 계정의 일괄 시트에서 필수 헤더 필드와 데이터 필드를 참조합니다.'
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+TQID: 'https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 7024
-ht-degree: 0%
-
+source-wordcount: '7150'
+ht-degree: 1%
 ---
-
 # 부록 - [!DNL Microsoft Advertising] 계정에 대한 필수 일괄 시트 데이터
 
 [!DNL Microsoft Advertising] 캠페인 데이터를 일괄적으로 만들고 업데이트하려면 [!DNL Microsoft Advertising] 계정용으로 특별히 형식이 지정된 검색, 소셜 및 Commerce 일괄 시트 파일을 사용할 수 있습니다. a) [기존 계정에 대한 일괄 시트 파일을 필요한 파일 형식으로 생성](../bulksheet-download.md)하거나, b) 수동으로 만들 수 있습니다(&quot;[지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)&quot;에서 지원되는 파일 형식에 대한 일반 정보를 참조하십시오).
@@ -88,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Languages] | 광고 그룹의 광고 대상 언어: [!UICONTROL English], [!UICONTROL French], [!UICONTROL Finnish], [!UICONTROL German], [!UICONTROL Norwegian], [!UICONTROL Spanish] 또는 [!UICONTROL Swedish]. 새 캠페인의 기본값은 [!UICONTROL English]입니다.<br><br>이 설정은 광고를 표시할 국가 및 지역을 결정합니다. 캠페인의 위치 대상과 호환되는 언어를 선택해야 합니다. |
 | [!UICONTROL Budget Type] | 예산이 <i>[!UICONTROL Daily]</i>(기본값)인지 <i>[!UICONTROL Monthly]</i>인지 여부입니다.<br><br>참고: 최적화된 포트폴리오에 캠페인을 할당하면 이 값은 자동으로 [!UICONTROL Daily]&#x200B;(으)로 설정됩니다. |
 | [!UICONTROL Device] | 캠페인 또는 광고 그룹 수준에서 입찰 조정을 수행하는 장치 유형: <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i> 또는 <i>[!UICONTROL desktop]</i>. |
-| [!UICONTROL Bid Adjustment] | 지정된 대상 유형에 대한 입찰 조정입니다. 예를 들어 키워드 수준의 입찰가가 1USD이고 스마트폰 입찰가 조정이 50%라면 스마트폰 입찰가는 1.50USD이다. 기본적으로 모든 타겟은 키워드 수준의 입찰에서 입찰됩니다. 유효한 백분율은 다음과 같습니다.<ul><li>스마트폰 및 태블릿: -100(장치 유형에 대해 입찰하지 않음) 및 -90 ~ 900</li><li>데스크탑: 0 ~ 900</li></ul> |
+| [!UICONTROL Bid Adjustment] | 지정된 대상 유형에 대한 입찰 조정입니다. 예를 들어 키워드 수준의 입찰가가 1USD이고 스마트폰 입찰 조정이 50%라면 스마트폰 입찰가는 1.50USD이다. 기본적으로 모든 타겟은 키워드 수준의 입찰에서 입찰됩니다. 유효한 백분율은 다음과 같습니다.<ul><li>스마트폰 및 태블릿: -100(장치 유형에 대해 입찰하지 않음) 및 -90 ~ 900</li><li>데스크탑: 0 ~ 900</li></ul> |
 | [!UICONTROL Creative Preferred Devices] | 광고 또는 사이트 링크를 표시할 장치 유형: <i>[!UICONTROL All]</i>(기본값) 또는 <i>[!UICONTROL Mobile]</i>. 모바일을 지정하면 네트워크에서 데스크탑 또는 태블릿 사용자가 아닌 모바일 장치 사용자에게 광고 또는 사이트링크를 표시하려고 합니다. 그렇지 않으면 네트워크는 모든 디바이스 유형에 광고 또는 사이트링크를 표시합니다. <b>참고:</b> 네트워크에서 기본 장치 유형에 광고를 표시할 수 있는 것은 아닙니다. |
 | [!UICONTROL Param2] | 키워드의 기본 URL 또는 광고의 제목, 설명 또는 기본 URL에 `{Param2}` 동적 대체 문자열이 포함된 경우 대체 값으로 사용할 문자열입니다. 최대 길이는 70자이지만 이 길이를 사용하는 광고 요소의 최대 길이에 유의하십시오(예: 제목 1과 제목 2를 합한 길이는 최대 76자일 수 있음). 기존 값을 삭제하려면 값 `[delete]`(대괄호 포함)을 사용하십시오. |
 | [!UICONTROL Param3] | 키워드의 기본 URL 또는 광고의 제목, 설명 또는 기본 URL에 `{Param3}` 동적 대체 문자열이 포함된 경우 대체 값으로 사용할 문자열입니다. 최대 길이는 70자이지만 이 길이를 사용하는 광고 요소의 최대 길이에 유의하십시오(예: 제목 1과 제목 2를 합한 길이는 최대 76자일 수 있음). 기존 값을 삭제하려면 값 `[delete]`(대괄호 포함)을 사용하십시오. |
@@ -234,12 +238,12 @@ ht-degree: 0%
 | \[광고주별 레이블 분류\] | 선택 사항 |
 | [!UICONTROL Campaign ID] | 선택 사항 |
 | [!UICONTROL Ad Group ID] | 선택 사항 |
-| [!UICONTROL Ad ID] | 행에 a&rpar; 광고 또는 b&amp;rpar를 식별하는 데 충분한 광고 속성 열; &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않는 한 광고 상태를 변경할 때만 필요합니다. 그러나 [!UICONTROL Ad ID]과(와) [!UICONTROL AMO ID]을(를) 모두 포함하지 않고 광고 속성 열이 여러 광고와 일치하는 경우 광고 중 하나에 대한 상태만 변경됩니다. |
+| [!UICONTROL Ad ID] | 행에 a&amp;rpar; 광고 또는 b&amp;rpar를 식별하는 데 충분한 광고 속성 열; &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않는 한 광고 상태를 변경할 때만 필요합니다. 그러나 [!UICONTROL Ad ID]과(와) [!UICONTROL AMO ID]을(를) 모두 포함하지 않고 광고 속성 열이 여러 광고와 일치하는 경우 광고 중 하나에 대한 상태만 변경됩니다. |
 | [!UICONTROL AMO ID] | 엔터티 ID와 상위 엔터티 ID를 포함하지 않으면 데이터를 편집하거나 삭제해야 합니다.<br><br>검색, 소셜 및 Commerce은 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 
 ### 제품(쇼핑) 광고 필드
 
-쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2&rbrace;&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=ko)
+쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)
 
 이 광고 유형의 경우 [!UICONTROL Download Bulksheet] 대화 상자에서 &quot;[!UICONTROL Creative (except RSA)]&quot; 행을 사용하십시오.
 
@@ -475,5 +479,5 @@ ht-degree: 0%
 >* [일괄 시트에서 수행할 수 있는 작업](bulksheet-operations.md)
 >* [지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
+>*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 [클릭 추적 형식
 >* [일괄 시트 파일 또는 수정된 오류 파일 업로드](../bulksheet-upload.md)

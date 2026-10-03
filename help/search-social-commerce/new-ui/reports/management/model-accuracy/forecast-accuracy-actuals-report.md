@@ -2,13 +2,19 @@
 title: '[!UICONTROL Forecast Accuracy (Actuals) Report]'
 description: 데이터 열을 포함하여 [!UICONTROL Forecast Accuracy (Actuals) Report]에 대해 알아봅니다.
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
+    internal-label: Search Model Accuracy Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Forecast Accuracy (Actuals) Report]
 
 이 보고서는 각 포트폴리오에 대한 광고 네트워크의 실제 노출, 클릭, 비용 및 수익 데이터를 일별로 보여줍니다.

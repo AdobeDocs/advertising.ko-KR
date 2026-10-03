@@ -1,30 +1,37 @@
 ---
 title: '[!UICONTROL Deal ID Inbox]에서 거래 수락'
-description: 거래 ID 받은 편지함을 사용하여  [!DNL FreeWheel], [!DNL Google Authorized Buyers] (이전에는  [!DNL AdX]), and [!DNL Magnite DV+] (이전에는  [!DNL Rubicon])에 게시자와 협상한 비공개 거래를 수락하는 방법을 알아봅니다.
+description: 거래 ID 받은 편지함을 사용하여 [!DNL FreeWheel], [!DNL Google Authorized Buyers](이전 [!DNL AdX]) 및 [!DNL Magnite DV+](이전 [!DNL Rubicon])에 게시자와 이미 협상한 비공개 거래를 수락하는 방법을 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-TQID: https://experienceleague.adobe.com/8ORfCWhZbjGVKi3YvY0g-yp-Gys6dyabLSMvpXOszHc
+TQID: 'https://experienceleague.adobe.com/8ORfCWhZbjGVKi3YvY0g-yp-Gys6dyabLSMvpXOszHc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 308
+source-wordcount: '311'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Deal ID Inbox]에서 거래 수락
 
 *SSP 계정에만 매핑된 DSP 계정의 사용자*
 
-[!UICONTROL Deal ID Inbox], [!DNL FreeWheel]&#x200B;(이전 [!DNL Google Authorized Buyers]) 및 [!DNL AdX]&#x200B;(이전 [!DNL Magnite DV+])에 게시자와 이미 협상한 비공개 거래를 빠르게 수락하려면 [!DNL Rubicon]을(를) 사용하십시오.
+[!DNL FreeWheel], [!DNL Google Authorized Buyers]&#x200B;(이전 [!DNL AdX]) 및 [!DNL Magnite DV+]&#x200B;(이전 [!DNL Rubicon])에 게시자와 이미 협상한 비공개 거래를 빠르게 수락하려면 [!UICONTROL Deal ID Inbox]을(를) 사용하십시오.
 
 >[!NOTE]
 >

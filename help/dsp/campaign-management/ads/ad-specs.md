@@ -3,25 +3,31 @@ title: 광고 사양
 description: 일반 및 게시자별 광고 사양을 참조하십시오.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-TQID: https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ
+TQID: 'https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 0%
-
+source-wordcount: '950'
+ht-degree: 1%
 ---
-
 # 지원되는 광고 유형에 대한 사양
 
 ## 비디오 광고(프리롤, CTV 및 범용 비디오)
@@ -70,17 +76,17 @@ ht-degree: 0%
 
 * **검색:** 검색의 [광고 사양](/help/dsp/assets/discovery-networks-ad-specs.pdf)을 참조하세요.
 
-* **Disney(포함) Hulu):** Disney의 [광고 사양](https://www.disneyadvertising.com/mediakit/#specifications)을 참조하십시오.
+* **Disney(Hulu 포함):** Disney의 [광고 사양](https://www.disneyadvertising.com/mediakit/#specifications) 보기.
 
 * **HBO 최대:** HBO 최대 [광고 사양](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx)을 참조하십시오.
 
 * **NBCUniversal:**
 
-   * [디지털 비디오](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+  * [디지털 비디오](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [실시간 스트리밍](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+  * [실시간 스트리밍](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
-   * [Peacock](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
+  * [Peacock](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
 * **Paramount:** Paramount의 [광고 사양](https://www.paramount.com/digital-ads)을 참조하십시오.
 
@@ -129,35 +135,35 @@ ht-degree: 0%
 #### 추가 게시자 요구 사항
 
 * **[!DNL iHeartRadio]**
-   * 길이: 5, 15, 30 또는 60초
-   * 파일 유형: MP3
-   * 최대 파일 크기: 320kbps
-   * 볼륨: 44.1kHz
+  * 길이: 5, 15, 30 또는 60초
+  * 파일 유형: MP3
+  * 최대 파일 크기: 320kbps
+  * 볼륨: 44.1kHz
 
 * **[!DNL Pandora]**
-   * 길이: 15 또는 30초
-   * 파일 유형: MP4(인앱), MP3(데스크탑)
-   * 최대 파일 크기: 2.2MB
+  * 길이: 15 또는 30초
+  * 파일 유형: MP4(인앱), MP3(데스크탑)
+  * 최대 파일 크기: 2.2MB
 
 * **[!DNL SoundCloud]**
-   * 길이: 6, 15 또는 30초
-   * 파일 유형: MP3
-   * 최대 파일 크기: 5MB
+  * 길이: 6, 15 또는 30초
+  * 파일 유형: MP3
+  * 최대 파일 크기: 5MB
 
 * **[!DNL Spotify]**
-   * 길이: 최대 30초
-   * 파일 유형: OGG
-   * 최대 파일 크기: 500MB
-   * 볼륨: RMS가 -14로 표준화됨; dBFS 피크가 -0.2dBFS로 표준화됨
+  * 길이: 최대 30초
+  * 파일 유형: OGG
+  * 최대 파일 크기: 500MB
+  * 볼륨: RMS가 -14로 표준화됨; dBFS 피크가 -0.2dBFS로 표준화됨
 
 * **[!DNL TargetSpot]**
-   * 길이: 15, 30 또는 60초
-   * 파일 유형: MP3
+  * 길이: 15, 30 또는 60초
+  * 파일 유형: MP3
 
 * **[!DNL TuneIn]**
-   * 길이: 10, 15 또는 30초
-   * 파일 유형: MP3, OGG
-   * 볼륨: 44.1kHz
+  * 길이: 10, 15 또는 30초
+  * 파일 유형: MP3, OGG
+  * 볼륨: 44.1kHz
 
 ### 컴패니언 배너 광고 요구 사항(선택 사항)
 
@@ -166,29 +172,29 @@ ht-degree: 0%
 #### 추가 게시자 요구 사항
 
 * **[!DNL iHeartRadio]:**
-   * 파일 유형: JPEG, JPG, PNG, GIF, SWF, HTML
-   * 최대 파일 크기: 2.2MB
-   * 크기: 300x250
+  * 파일 유형: JPEG, JPG, PNG, GIF, SWF, HTML
+  * 최대 파일 크기: 2.2MB
+  * 크기: 300x250
 
 * **[!DNL Pandora]:**
-   * 파일 유형: JPEG, GIF
-   * 최대 파일 크기: 크기: 100KB
-   * 크기: 300x250(모바일 또는 데스크탑) 또는 500x500(데스크탑)
+  * 파일 유형: JPEG, GIF
+  * 최대 파일 크기: 크기: 100KB
+  * 크기: 300x250(모바일 또는 데스크탑) 또는 500x500(데스크탑)
 
 * **[!DNL SoundCloud]:**
-   * 파일 유형: 정적 JPG, PNG
-   * 최대 파일 크기: 400KB 미만
-   * 크기: 1024x1024
+  * 파일 유형: 정적 JPG, PNG
+  * 최대 파일 크기: 400KB 미만
+  * 크기: 1024x1024
 
 * **[!DNL Spotify]:**
-   * 파일 유형: 정적 JPG, PNG
-   * 최대 파일 크기: 200KB
-   * 크기: 300x250
+  * 파일 유형: 정적 JPG, PNG
+  * 최대 파일 크기: 200KB
+  * 크기: 300x250
 
 * **[!DNL TuneIn]:**
-   * 파일 유형: JPEG, JPG, PNG, GIF, HTML
-   * 최대 파일 크기: 2MB
-   * 크기: 300x250
+  * 파일 유형: JPEG, JPG, PNG, GIF, HTML
+  * 최대 파일 크기: 2MB
+  * 크기: 300x250
 
 ## 기본 디스플레이 광고
 

@@ -2,13 +2,17 @@
 title: (새 UI) 변경 내역 로그 보기
 description: 광고주 계정의 최근 변경 사항을 보는 방법에 대해 알아봅니다.
 feature: Search Reports
-source-git-commit: b68aac34cd7e10fcceceb622b5365cb0ecec040d
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 변경 내역 로그 보기
 
 [!UICONTROL History Logs] 보고서에는 지난 31일 동안 광고주 계정에 대한 변경 사항 로그가 포함됩니다. 보고서에는 사용자(광고주), 포트폴리오, 캠페인, 광고 그룹, 광고, 키워드, 배치 및 제품 타겟 등의 오브젝트 유형에 대한 변경 사항이 포함될 수 있습니다. 모든 열을 기준으로 데이터를 정렬하고 필터링할 수 있습니다.

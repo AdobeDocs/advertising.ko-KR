@@ -3,26 +3,37 @@ title: Advertising DSP의 인벤토리 기능 개요
 description: 사용 가능한 인벤토리 기능에 대해 알아봅니다.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
-TQID: https://experienceleague.adobe.com/7XrswlcmoT2mpja9FsEBXwBbNUw0zNmI52-7sYgOtIs
+TQID: 'https://experienceleague.adobe.com/7XrswlcmoT2mpja9FsEBXwBbNUw0zNmI52-7sYgOtIs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 241
-ht-degree: 0%
-
+source-wordcount: '251'
+ht-degree: 1%
 ---
-
 # Advertising DSP의 인벤토리 기능 개요
 
 DSP은 공개 인벤토리로 크기를 찾거나, [!DNL On Demand]을(를) 사용하여 프리미엄 게시자 중에서 크기를 찾거나, 게시자와 1:1 PMP(개인 마켓플레이스) 거래를 설정하여 특정 대상이나 사이트에 대해 활성화할 수 있습니다. 캠페인 목표는 캠페인의 성과 요구 사항에 가장 적합한 재고 유형을 지정하는 데 도움이 됩니다. SSP(최상위 공급측 플랫폼)와의 통합을 통해 PMP를 원활하게 설정 및 활성화할 수 있습니다.
@@ -33,7 +44,7 @@ DSP에서 인벤토리 거래에 액세스하거나 식별하면 캠페인의 �
 
 * **[!DNL On Demand]인벤토리:** Adobe에서 프리미엄 게시자 파트너와 선별한 사전 협상된, 보장되지 않는 거래를 살펴봅니다.
 
-* **비공개 인벤토리 [!DNL Deal IDs]:** 게시자와 직접 협상한 PMP(비공개 마켓플레이스 거래)를 설정하고 관리합니다:1.
+* **비공개 인벤토리 [!DNL Deal IDs]:** 게시자와 직접 1:1로 협상한 PMP(비공개 마켓플레이스 거래)를 설정하고 관리합니다.
 
 * **[!DNL Simple Ad Serving]:** 게시자가 거래 ID를 통해 거래를 실행할 수 없을 때 보장되고 결정되지 않은 광고 게재 및 보고를 위해 간소화된 기술을 사용하십시오.
 
@@ -41,11 +52,11 @@ DSP에서 인벤토리 거래에 액세스하거나 식별하면 캠페인의 �
 
 * **[!UICONTROL Inventory]> [!UICONTROL Deals]:**
 
-   * 기존 거래를 모두 봅니다.
+  * 기존 거래를 모두 봅니다.
 
-   * 필터를 적용하고, 표시되는 열을 사용자 지정하고, 선택적으로 사용자 지정 보기를 저장하고, 열을 정렬하고, 데이터를 차트로 확인하여 기존 거래 데이터가 표시되는 방식을 추가로 사용자 지정합니다.
+  * 필터를 적용하고, 표시되는 열을 사용자 지정하고, 선택적으로 사용자 지정 보기를 저장하고, 열을 정렬하고, 데이터를 차트로 확인하여 기존 거래 데이터가 표시되는 방식을 추가로 사용자 지정합니다.
 
-   * 비공개 거래 설정 및 [!DNL Simple Ad Serving]개 거래를 만들고 관리합니다.
+  * 비공개 거래 설정 및 [!DNL Simple Ad Serving]개 거래를 만들고 관리합니다.
 
 * **[!UICONTROL Inventory]> [!UICONTROL Deals]:** [!DNL On Demand] 인벤토리 보기 및 관리
 

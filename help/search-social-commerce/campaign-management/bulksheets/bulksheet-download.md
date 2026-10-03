@@ -3,18 +3,21 @@ title: 일괄 시트 파일 다운로드/만들기
 description: 광고 네트워크에 대한 계정 데이터를 다운로드하여 일괄 시트 파일을 만드는 방법을 알아봅니다.
 exl-id: a3fcef52-3d36-462e-a975-c741d003326e
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/2naHFI92HnVZ7Vi1gRnTtBtI1PbfTmfkeLQGRJJCSgs
+TQID: 'https://experienceleague.adobe.com/2naHFI92HnVZ7Vi1gRnTtBtI1PbfTmfkeLQGRJJCSgs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1768
+source-wordcount: '1768'
 ht-degree: 0%
-
 ---
-
 # 일괄 시트 파일 다운로드/만들기
 
 하나 이상의 [지원되는 광고 네트워크](bulksheet-about.md#bulksheet-functionality-by-network)에서 하나 이상의 계정에 대한 사용자 지정 설정을 사용하여 일괄 시트를 만들 수 있습니다. Bulksheets에는 검색, 소셜 및 Commerce 내의 데이터가 포함됩니다.

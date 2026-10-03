@@ -3,23 +3,29 @@ title: 크리에이티브 라이브러리에 표준 크리에이티브 추가
 description: 크리에이티브 라이브러리에 표준(비동적) 크리에이티브를 추가하는 방법을 알아봅니다.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-TQID: https://experienceleague.adobe.com/mgUcE-E6LAIFFU8S5WrUceCQ6ZMSGF9tFkqEfnuKKSQ
+TQID: 'https://experienceleague.adobe.com/mgUcE-E6LAIFFU8S5WrUceCQ6ZMSGF9tFkqEfnuKKSQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1068
+source-wordcount: '1069'
 ht-degree: 0%
-
 ---
-
 # 크리에이티브 라이브러리에 표준 크리에이티브 추가
 
-표준 [광고 경험](creative-library-manage.md)에서 사용할 표준 크리에이티브를 [크리에이티브 라이브러리](/help/creative/experiences/experience-about.md)에 추가하십시오.
+표준 [광고 경험](/help/creative/experiences/experience-about.md)에서 사용할 표준 크리에이티브를 [크리에이티브 라이브러리](creative-library-manage.md)에 추가하십시오.
 
 >[!NOTE]
 >
@@ -125,7 +131,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->[&#x200B; 내에서 직접 편집할 수 있는 표준 HTML 태그로 모든 특성을 가진 HTML5 크리에이티브인 &#x200B;](#flexible-creative-add)유연한 HTML5 크리에이티브를 추가[!DNL Creative]할 수도 있습니다.
+>[!DNL Creative] 내에서 직접 편집할 수 있는 표준 HTML 태그로 모든 특성을 가진 HTML5 크리에이티브인 [유연한 HTML5 크리에이티브를 추가](#flexible-creative-add)할 수도 있습니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
@@ -137,29 +143,29 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * 로컬 이미지 또는 HTML5 에셋의 경우 다음 중 하나를 수행하십시오.
 
-      * 장치나 네트워크의 파일을 상자로 끌어서 놓습니다.
+     * 장치나 네트워크의 파일을 상자로 끌어서 놓습니다.
 
-      * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL Select a file]**&#x200B;을(를) 클릭하십시오.
+     * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL Select a file]**&#x200B;을(를) 클릭하십시오.
 
    * DSP 계정에 연결된 [Experience Manager 라이브러리](/help/creative/creative-libraries/aem-assets-configure.md)에서 승인된 이미지의 경우 다음을 수행하십시오.
 
-      1. **[!UICONTROL AEM Asset Library]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL AEM Asset Library]**&#x200B;을(를) 클릭합니다.
 
-      1. (Experience Manager 계정에 아직 로그인하지 않은 경우) Experience Manager 계정에 로그인합니다.
+     1. (Experience Manager 계정에 아직 로그인하지 않은 경우) Experience Manager 계정에 로그인합니다.
 
-      1. [!UICONTROL Assets] 또는 [!UICONTROL Collections] 보기에서 파일을 찾아 선택한 다음 오른쪽 상단의 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
+     1. [!UICONTROL Assets] 또는 [!UICONTROL Collections] 보기에서 파일을 찾아 선택한 다음 오른쪽 상단의 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
 
-         <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
+        <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
 
    * GenStudio 경험의 경우 다음을 수행합니다.
 
-      1. **[!UICONTROL GenStudio Library]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL GenStudio Library]**&#x200B;을(를) 클릭합니다.
 
-      1. (GenStudio 계정에 아직 로그인하지 않은 경우) GenStudio 계정에 로그인합니다.
+     1. (GenStudio 계정에 아직 로그인하지 않은 경우) GenStudio 계정에 로그인합니다.
 
-         기본적으로 디스플레이 광고 경험이 표시됩니다. 필요에 따라 캠페인 또는 기타 속성으로 경험을 필터링할 수 있습니다.
+        기본적으로 디스플레이 광고 경험이 표시됩니다. 필요에 따라 캠페인 또는 기타 속성으로 경험을 필터링할 수 있습니다.
 
-      1. 디스플레이 광고 경험을 찾아 선택한 다음 오른쪽 상단의 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
+     1. 디스플레이 광고 경험을 찾아 선택한 다음 오른쪽 상단의 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
 
      선택한 경험의 각 크리에이티브 변형을 별도의 HTML5 크리에이티브로 가져옵니다.
 

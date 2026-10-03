@@ -3,22 +3,26 @@ title: 중복 배치
 description: 하나 이상의 배치를 복제하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-TQID: https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM
+TQID: 'https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 # 중복 배치
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
@@ -44,15 +48,15 @@ ht-degree: 0%
 
    * 여러 배치를 복제하려면 다음을 수행합니다.
 
-      1. 복제할 각 배치 옆의 확인란을 선택합니다.
+     1. 복제할 각 배치 옆의 확인란을 선택합니다.
 
-      1. 일괄 작업 도구 모음에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
+     1. 일괄 작업 도구 모음에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 
 1. 새 배치 설정을 지정합니다.
 
    1. (단일 배치) 새 배치 이름을 입력합니다.
 
-   1. **[!UICONTROL Choose Package (Required)]** 메뉴에서 부모 패키지 또는 &lbrace;1*** 중 하나를 선택합니다.[!UICONTROL No package]
+   1. **[!UICONTROL Choose Package (Required)]** 메뉴에서 부모 패키지 또는 {1*** 중 하나를 선택합니다.[!UICONTROL No package]
 
    1. (선택 사항) 기본 설정을 변경합니다.
 
@@ -74,10 +78,10 @@ ht-degree: 0%
 * (광고를 첨부하지 않는 경우) 사용자 지정 광고 가중치 및 예약
 * 프로그래밍 방식 보장(PG) 거래의 기본 배치 및 [!UICONTROL Simple Ad Serving] 거래의 배치
 * (배치를 다른 캠페인에 복사하는 경우):
-   * 지역 대상
-   * 이벤트 픽셀
-   * 광고
-   * 배치 수준 [!DNL DoubleVerify Authentic Brand Suitability] 세그먼트(광고주 수준 세그먼트를 재정의함)
+  * 지역 대상
+  * 이벤트 픽셀
+  * 광고
+  * 배치 수준 [!DNL DoubleVerify Authentic Brand Suitability] 세그먼트(광고주 수준 세그먼트를 재정의함)
 
 ## 새 배치를 구성하는 모범 사례
 
@@ -90,19 +94,19 @@ ht-degree: 0%
 
 * 다음 사항을 고려하여 필요에 따라 새 배치를 편집합니다.
 
-   * 그 계좌는 새로운 배치 예산을 수용할 충분한 자금이 있습니까?
+  * 그 계좌는 새로운 배치 예산을 수용할 충분한 자금이 있습니까?
 
-   * 새 배치에 이전 배치와 다른 예산이 필요합니까? 최소 예산이 필요합니까?
+  * 새 배치에 이전 배치와 다른 예산이 필요합니까? 최소 예산이 필요합니까?
 
-   * 필요한 사용자 지정 광고 가중치 및 일정을 포함하여 크리에이티브를 업로드하고 배치에 첨부합니다.
+  * 필요한 사용자 지정 광고 가중치 및 일정을 포함하여 크리에이티브를 업로드하고 배치에 첨부합니다.
 
-   * 필요에 따라 배치 및 광고에 이벤트 픽셀을 첨부합니다.
+  * 필요에 따라 배치 및 광고에 이벤트 픽셀을 첨부합니다.
 
-   * 필요에 따라 지리적 대상과 배치 수준 [!DNL DoubleVerify Authentic Brand Suitability] 세그먼트를 배치에 포함하십시오.
+  * 필요에 따라 지리적 대상과 배치 수준 [!DNL DoubleVerify Authentic Brand Suitability] 세그먼트를 배치에 포함하십시오.
 
-   * 프로그램 보증 거래의 경우 새 거래 ID를 사용하고 기본 배치를 만듭니다.
+  * 프로그램 보증 거래의 경우 새 거래 ID를 사용하고 기본 배치를 만듭니다.
 
-   * 필요에 따라 [!UICONTROL Simple Ad Serving] 거래에 대한 새 배치를 만듭니다.
+  * 필요에 따라 [!UICONTROL Simple Ad Serving] 거래에 대한 새 배치를 만듭니다.
 
 >[!MORELIKETHIS]
 >

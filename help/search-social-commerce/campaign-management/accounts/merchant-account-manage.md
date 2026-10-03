@@ -3,23 +3,26 @@ title: 판매자 계정 관리
 description: 머천트 센터 계정에 대한 계정 세부 정보를 설정하고 관리하는 방법에 대해 알아봅니다.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY
+TQID: 'https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 789
+source-wordcount: '797'
 ht-degree: 0%
-
 ---
-
 # 판매자 계정 관리
 
 *에이전시 계정 관리자, Adobe 계정 관리자 및 관리자 역할만*
 
-Search, Social 및 Commerce은 광고주의 Google 판매자 센터 또는 Microsoft 판매자 센터 계정에 대해 매일 제품 데이터를 다운로드하고 표시할 수 있습니다. 또한 Search, Social 및 Commerce은 판매자 계정의 콘텐츠를 기반으로 광고 만들기를 자동화할 수 있습니다. Search, Social 및 Commerce에서 제품 데이터를 직접 사용하려면 계정 액세스 자격 증명과 액세스 *enabled*&#x200B;을(를) 포함하는 해당 계정 레코드를 만들어야 합니다.
+Search, Social 및 Commerce은 광고주의 Google 판매자 센터 또는 Microsoft 판매자 센터 계정에 대해 매일 제품 데이터를 다운로드하고 표시할 수 있습니다. 또한 검색, 소셜 및 Commerce은 판매자 계정의 콘텐츠를 기반으로 광고 생성을 자동화할 수 있습니다.검색, 소셜 및 Commerce에서 제품 데이터로 직접 작업하려면 계정 액세스 자격 증명이 포함된 해당 계정 레코드와 액세스 *enabled*&#x200B;을(를) 만들어야 합니다.
 
 >[!NOTE]
 >
@@ -67,7 +70,7 @@ Search, Social 및 Commerce은 광고주의 Google 판매자 센터 또는 Micro
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   계정의 모든 제품에 대한 특성 데이터는 다음 일별 동기화 프로세스(사용자의 현지 시간대의 약 06:00) 후에 검색, 소셜 및 Commerce에서 사용할 수 있습니다. 그런 다음 제품 데이터를 사용하여 인벤토리 피드를 사용하여 광고 생성을 자동화할 수 있습니다.
+   계정의 모든 제품에 대한 특성 데이터는 다음 일별 동기화 프로세스(사용자의 현지 시간대에서 약 06:00) 후 검색, 소셜 및 Commerce에서 사용할 수 있습니다. 그런 다음 제품 데이터를 사용하여 인벤토리 피드를 사용하여 광고 생성을 자동화할 수 있습니다.
 
 ## 판매자 계정 세부 정보 편집 {#edit-merchant-account}
 
@@ -89,7 +92,7 @@ Search, Social 및 Commerce은 광고주의 Google 판매자 센터 또는 Micro
 
 >[!NOTE]
 >
->Search, Social 및 Commerce은 새 계정 데이터를 판매자 네트워크의 데이터와 동기화해야 합니다. 이 작업은 사용자의 현지 시간대에서 매일 약 06:00에 한 번 자동으로 수행됩니다.
+>Search, Social 및 Commerce은 새 계정 데이터를 판매자 네트워크의 데이터와 동기화해야 합니다. 이 작업은 사용자의 현지 시간대에서 매일 06:00에 한 번 자동으로 수행됩니다.
 
 ## 판매자 계정에 대한 액세스 비활성화 {#disable-merchant-account}
 

@@ -4,22 +4,32 @@ description: 포트폴리오 시뮬레이션에 대해 알아봅니다.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
-TQID: https://experienceleague.adobe.com/9B4gKrZnnUmgj0LzxwM2CIkJsIO9Pe9R8RDR4mAmIwo
+TQID: 'https://experienceleague.adobe.com/9B4gKrZnnUmgj0LzxwM2CIkJsIO9Pe9R8RDR4mAmIwo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1182
+source-wordcount: '1208'
 ht-degree: 0%
-
 ---
-
 # 시뮬레이션 정보
 
 *Beta 기능*
@@ -125,7 +135,7 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 * 포트폴리오를 시작하여 해당 포트폴리오 설정으로 예상할 수 있는 성과를 추정하기 전에 최소 2주의 데이터를 사용하십시오. 포함된 캠페인에 대한 내역 데이터를 기반으로 시뮬레이션 결과가 예상보다 낮은 성과를 나타내는 경우 포트폴리오를 시작하기 전에 문제를 조사 및 해결하십시오.
 
-* 캠페인 추가 또는 목표 변경과 같이 포트폴리오가 주요 변경 후. 포트폴리오의 모델링 시작 날짜, 전환 지표의 가중치 또는 목표의 클릭 값을 변경하는 경우 업데이트된 비용 및 수익 모델을 사용할 수 있는 경우 다음 날 17:00PST 이후까지 기다렸다가 시뮬레이션을 실행하십시오.
+* 캠페인 추가 또는 목표 변경과 같이 포트폴리오가 주요 변경 후. 포트폴리오의 모델링 시작 날짜, 전환 지표의 가중치 또는 목표의 클릭 값을 변경하는 경우 업데이트된 비용 및 수익 모델을 사용할 수 있는 경우 다음 날 17:00 PST 이후까지 기다린 후 시뮬레이션을 실행하십시오.
 
 * 정기적으로 전환 지표 수준에서 성능 트렌드를 모니터링합니다.
 

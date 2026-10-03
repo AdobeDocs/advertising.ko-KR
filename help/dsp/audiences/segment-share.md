@@ -3,22 +3,26 @@ title: 세그먼트 공유 또는 공유 중지
 description: 사용자 지정 또는 CCPA 판매 중지 세그먼트를 다른 DSP 사용자 계정과 공유하거나 공유를 중지하는 방법에 대해 알아봅니다.
 feature: DSP Segments
 exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
-TQID: https://experienceleague.adobe.com/bhVQnJEca7cdUh7WgOdOkALp59stlUu0dgJpCZXw1Yk
+TQID: 'https://experienceleague.adobe.com/bhVQnJEca7cdUh7WgOdOkALp59stlUu0dgJpCZXw1Yk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 156
+source-wordcount: '158'
 ht-degree: 0%
-
 ---
-
 # 세그먼트 공유 또는 공유 중지
 
 사용자 지정 세그먼트 및 CCPA 판매 중지 세그먼트를 추가 DSP 사용자 계정과 공유할 수 있습니다. 세그먼트를 공유하면 [!UICONTROL Audiences] > [!UICONTROL Segments] 및 지정된 사용자의 배치 및 재사용 가능한 대상의 [!UICONTROL Custom Segments] 탭에서 세그먼트를 사용할 수 있습니다.
@@ -33,9 +37,9 @@ ht-degree: 0%
 
    * 세그먼트를 공유하려면:
 
-      1. DSP 사용자에 대한 **[!UICONTROL E-mail Address]**&#x200B;을(를) 입력한 다음 **[!UICONTROL +]**&#x200B;을(를) 클릭합니다.
+     1. DSP 사용자에 대한 **[!UICONTROL E-mail Address]**&#x200B;을(를) 입력한 다음 **[!UICONTROL +]**&#x200B;을(를) 클릭합니다.
 
-      1. (선택 사항) 각 추가 사용자에 대해 다른 **[!UICONTROL E-mail Address]**&#x200B;을(를) 입력한 다음 **[!UICONTROL +]**&#x200B;을(를) 클릭합니다.
+     1. (선택 사항) 각 추가 사용자에 대해 다른 **[!UICONTROL E-mail Address]**&#x200B;을(를) 입력한 다음 **[!UICONTROL +]**&#x200B;을(를) 클릭합니다.
 
    * 사용자와의 세그먼트 공유를 중지하려면 전자 메일 주소 옆에 있는 **[!UICONTROL Unshare]**&#x200B;을(를) 클릭합니다.
 

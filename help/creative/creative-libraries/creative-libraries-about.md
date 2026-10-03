@@ -3,23 +3,35 @@ title: 크리에이티브 라이브러리 정보
 description: 광고 경험을 위한 크리에이티브 관리에 대해 알아봅니다.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-TQID: https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc
+TQID: 'https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1586
+source-wordcount: '1644'
 ht-degree: 0%
-
 ---
-
 # 크리에이티브 라이브러리 정보
 
 크리에이티브 라이브러리를 사용하면 광고 경험에서 사용할 크리에이티브를 관리할 수 있습니다. 한 경험에 한 단위로 추가할 수 있는 크리에이티브 그룹인 크리에이티브 세트와 *크리에이티브 번들*&#x200B;이 포함된 여러 라이브러리를 만들 수 있습니다.
@@ -28,9 +40,9 @@ ht-degree: 0%
 
 * **개별 크리에이티브:** 사용자 타겟이 정의되지 않은 광고 경험 내에 개별 크리에이티브를 직접 포함할 수 있습니다. 또한 크리에이티브를 사용하여 번들을 만들 수도 있습니다. 이 번들은 타깃팅된 [광고 경험](/help/creative/experiences/experience-about.md)에 포함할 수 있습니다.
 
-   * **표준 크리에이티브:** [다양한 형식](#creative-creative-formats)의 크리에이티브를 업로드하고 관리할 수 있습니다. 각 크리에이티브에 대해 크리에이티브를 연결하는 각 광고의 기본 언어와 사용자가 크리에이티브가 포함된 광고를 클릭할 때 열리는 기본 랜딩 페이지를 지정합니다. [!DNL Creative] 차원을 사용할 것을 포함할 때 [!UICONTROL Custom Creative Report] 내의 다양한 보기에서 필터로 사용하고 [!UICONTROL Creative Label]의 열 값으로 사용할 레이블을 선택적으로 지정할 수 있습니다.
+  * **표준 크리에이티브:** [다양한 형식](#creative-creative-formats)의 크리에이티브를 업로드하고 관리할 수 있습니다. 각 크리에이티브에 대해 크리에이티브를 연결하는 각 광고의 기본 언어와 사용자가 크리에이티브가 포함된 광고를 클릭할 때 열리는 기본 랜딩 페이지를 지정합니다. [!UICONTROL Creative Label] 차원을 사용할 것을 포함할 때 [!DNL Creative] 내의 다양한 보기에서 필터로 사용하고 [!UICONTROL Custom Creative Report]의 열 값으로 사용할 레이블을 선택적으로 지정할 수 있습니다.
 
-   * **동적 크리에이티브:** 광고 템플릿의 동적 변수를 피드 파일의 값에 매핑하여 동적으로 생성된 크리에이티브를 만들 수 있습니다. 모든 사용자는 기존 동적 광고를 미리 보고, 복제하고, 삭제할 수 있습니다.
+  * **동적 크리에이티브:** 광고 템플릿의 동적 변수를 피드 파일의 값에 매핑하여 동적으로 생성된 크리에이티브를 만들 수 있습니다. 모든 사용자는 기존 동적 광고를 미리 보고, 복제하고, 삭제할 수 있습니다.
 
 * **크리에이티브 번들:** 정의된 사용자 대상이 있는 여러 경험에서 사용할 크리에이티브를 번들로 그룹화합니다. 표준 디스플레이 광고로 구성된 *표준 디스플레이 번들*, 표준 비디오 광고로 구성된 *표준 비디오 번들*, 동적으로 생성된 디스플레이 광고로 구성된 *동적 디스플레이 번들*, 동적으로 생성된 비디오 광고로 구성된 *동적 비디오 번들*&#x200B;을 만들 수 있습니다.
 
@@ -61,7 +73,7 @@ ht-degree: 0%
 
 ##### HTML5 광고
 
-* **GenStudio 경험:** [GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)의 [디스플레이 광고 경험](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)에서 모든 광고 변형을 개별 HTML5 크리에이티브로 가져올 수 있습니다. 외부 링크는 로컬 참조로 변환됩니다. HTML 콘텐츠는 최대 20MB일 수 있으며 개별 이미지는 최대 50MB일 수 있습니다.
+* **GenStudio 경험:** [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)의 [디스플레이 광고 경험](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)에서 모든 광고 변형을 개별 HTML5 크리에이티브로 가져올 수 있습니다. 외부 링크는 로컬 참조로 변환됩니다. HTML 콘텐츠는 최대 20MB일 수 있으며 개별 이미지는 최대 50MB일 수 있습니다.
 
   GenStudio 경험을 가져오면 가져온 크리에이티브에 대한 메타데이터(이름, 언어, 태그)를 편집할 수 있지만, 크리에이티브 콘텐츠에는 편집할 수 없습니다. GenStudio 내에서 GenStudio 환경을 편집하는 경우 [!DNL Creative]에서 환경을 다시 가져와서 최신 버전을 사용하십시오.
 
@@ -89,7 +101,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 장치나 네트워크에서 웹, 모바일 또는 연결된 TV에 대한 자사 비디오 크리에이티브를 업로드할 수 있습니다. 각 비디오 광고 경험에는 경험에 지정된 각 광고 기간에 대한 기본 비디오 크리에이티브가 필요합니다. DSP은 모든 비디오 크리에이티브를 VAST 2.0 태그로 자동 코드 변환하여 미리 볼 수 있습니다. [!UICONTROL Tag Manager]에서 비디오 광고 경험 태그에 선택적으로 [DSP 전용 코드 변환](/help/creative/experiences/experience-tag-video-transcoding.md)을 적용할 수 있습니다.
 
-다음 비디오 크리에이티브 요구 사항을 참조하십시오. **참고:** 비디오 경험을 Advertising DSP에 업로드하려면 DSP의 [HD 비디오 Assets 요구 사항](https://experienceleague.adobe.com/ko/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)도 참조하세요. 이는 더 제한될 수 있습니다.
+다음 비디오 크리에이티브 요구 사항을 참조하십시오. **참고:** 비디오 경험을 Advertising DSP에 업로드하려면 DSP의 [HD 비디오 Assets 요구 사항](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)도 참조하세요. 이는 더 제한될 수 있습니다.
 
 **파일 형식:** .mov, .mp4, .webm
 
@@ -127,7 +139,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 #### 다이내믹 비디오 크리에이티브
 
-동적 비디오 크리에이티브에는 표준 비디오 크리에이티브와 동일한 사양의 비디오 파일이 포함됩니다. &quot;[비디오 광고 &#x200B;](#creative-video-specs)&quot;을(를) 참조하십시오.
+동적 비디오 크리에이티브에는 표준 비디오 크리에이티브와 동일한 사양의 비디오 파일이 포함됩니다. &quot;[비디오 광고 ](#creative-video-specs)&quot;을(를) 참조하십시오.
 
 지원되는 광고 형식에는 시작 카드, 끝 카드, 상단 오버레이, 하단 오버레이 또는 L자형 등이 있습니다.
 
@@ -147,11 +159,11 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 * 각 Creative Library의 경우:
 
-   * [라이브러리 이름 편집](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [라이브러리 이름 편집](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * [라이브러리를 열어 라이브러리에 할당된 크리에이티브 및 번들을 봅니다](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [라이브러리를 열어 라이브러리에 할당된 크리에이티브 및 번들을 봅니다](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
-   * [라이브러리 삭제](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [라이브러리 삭제](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] 보기
 
@@ -179,7 +191,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 #### [!UICONTROL Dynamic Ads]
 
-[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [&#x200B; 탭에서 &#x200B;](creative-delete.md)수동으로 삭제[!UICONTROL Dynamic Ads]한 동적 크리에이티브는 예외입니다. [수동으로 복제](creative-duplicate.md) 모든 동적 크리에이티브<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->를 수행하는 경우 해당 카탈로그에 대한 크리에이티브 목록에는 중복 크리에이티브도 포함됩니다.
+[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [!UICONTROL Dynamic Ads] 탭에서 [수동으로 삭제](creative-delete.md)한 동적 크리에이티브는 예외입니다. [수동으로 복제](creative-duplicate.md) 모든 동적 크리에이티브<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->를 수행하는 경우 해당 카탈로그에 대한 크리에이티브 목록에는 중복 크리에이티브도 포함됩니다.
 
 각 창작물별 데이터에는 창작유형, 창작규모, 창작물이 속한 카탈로그 개수, 창작날짜 등이 포함된다. 테이블 모드에는 광고 크리에이티브가 생성된 광고 템플릿 열과 오퍼 수가 포함됩니다.
 

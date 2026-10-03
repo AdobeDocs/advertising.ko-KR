@@ -3,23 +3,31 @@ title: 타깃팅되지 않은 경험에 대한 설정
 description: 의사 결정 트리 타깃팅이 없는 광고 경험에 대한 모든 설정 설명을 참조하십시오.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-TQID: https://experienceleague.adobe.com/Qz-MUPLNsdn4PvnaF-uDAZQjd-iXJD0oEZOkMSUGuEs
+TQID: 'https://experienceleague.adobe.com/Qz-MUPLNsdn4PvnaF-uDAZQjd-iXJD0oEZOkMSUGuEs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1126
+source-wordcount: '1147'
 ht-degree: 0%
-
 ---
-
 # 타깃팅되지 않은 경험에 대한 설정
 
 ## [!UICONTROL Experience basics] 섹션
@@ -64,7 +72,7 @@ ht-degree: 0%
 
 **RT 픽셀:**(동적 광고만 있는 경험, 선택 사항) 잠재적으로 타깃팅할 [!UICONTROL Creative] 리타겟팅 픽셀입니다. 의사 결정 트리 내에서 타깃팅을 설정할 때 한 수준의 RT 픽셀 대상 노드를 포함할 수 있습니다. 각 노드에 대해 타겟팅할 픽셀과 할당된 크리에이티브 번들에서 크리에이티브를 표시하는 데 필요한 픽셀 속성 값을 지정합니다. 이 필드에 픽셀을 지정하지 않으면 결정 트리 내에서 픽셀을 지정할 수 있습니다.<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
-**[!UICONTROL Label]:**<!-- should be "Labels" -->(선택 사항) 경험에 적용할 모든 [!DNL Creative]별 레이블. 경험 보기에서 레이블을 기준으로 경험을 필터링하고 [!UICONTROL Experience Label]에 [!UICONTROL Custom Creative Report] 차원을 포함할 수 있습니다.
+**[!UICONTROL Label]:**<!-- should be "Labels" -->(선택 사항) 경험에 적용할 모든 [!DNL Creative]별 레이블. 경험 보기에서 레이블을 기준으로 경험을 필터링하고 [!UICONTROL Custom Creative Report]에 [!UICONTROL Experience Label] 차원을 포함할 수 있습니다.
 
 * 기존 레이블을 선택하려면 ![아래로](/help/creative/assets/chevron-down.png "아래로")를 클릭하고 적용할 각 레이블 옆에 있는 확인란을 선택하십시오.
 

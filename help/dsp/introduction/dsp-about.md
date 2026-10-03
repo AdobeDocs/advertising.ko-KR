@@ -3,24 +3,30 @@ title: Adobe Advertising DSP 정보
 description: Adobe Advertising DSP 정보
 feature: DSP Introduction
 exl-id: 2a5df455-673b-483f-91a6-4fc5678b7f8a
-TQID: https://experienceleague.adobe.com/YJQHNT-Xkpob54deI0IIGVN2cI6sPYDlAiqievQK3oI
+TQID: 'https://experienceleague.adobe.com/YJQHNT-Xkpob54deI0IIGVN2cI6sPYDlAiqievQK3oI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: bc11f38b8a81f964323d35a44aa3937674a768cd
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: '372'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising DSP 정보
 
 Adobe Advertising은 모든 미디어, 데이터, 대상 및 크리에이티브를 규모에 맞게 통합하고 자동화하는 유일한 독립 광고 플랫폼입니다. 유료 검색, 디스플레이, 비디오, 연결된 TV(CTV), 오디오 및 기본 등 모든 광고 채널에서 연결된 경험을 제공합니다.
@@ -35,11 +41,11 @@ Adobe Advertising DSP(DSP)는 고급 자사 데이터 세분화 및 활성화 �
 
 * **[Adobe Analytics, Adobe Customer Journey Analytics, Adobe Audience Manager, Adobe Target 및 Adobe Experience Platform과의 통합](/help/integrations/home.md)**: 기존 Adobe 제품과의 통합을 통해 자사 데이터를 극대화하고 광고를 나머지 비즈니스 인사이트와 동일한 수준으로 만들 수 있습니다.
 
-* [!DNL Roku]&#x200B;**[&#128279;](/help/dsp/inventory/roku-inventory.md): [!DNL Roku]과(와) 함께 &#x200B;** Premiere 연결 TV 경험과 DSP은(는) [!DNL Roku] 인벤토리에서 자사 데이터와 타사 데이터를 활성화하여 대규모의 화면에서 대상에 효율적으로 도달할 수 있도록 해주는 고유한 파트너 관계를 가지고 있습니다. 마케터는 [!DNL Roku] ID와 동기화하는 기능이 있는 유일한 플랫폼을 활용하여 정밀도 및 정확도로 결정론적 1:1 타깃팅을 활용하고 [!DNL Roku] 인벤토리 및 고유한 측정 통찰력에 액세스할 수 있습니다.
+* [!DNL Roku]**](/help/dsp/inventory/roku-inventory.md): [!DNL Roku]과(와) 함께 [**Premiere 연결 TV 경험과 DSP은(는) [!DNL Roku] 인벤토리에서 자사 데이터와 타사 데이터를 활성화하여 대규모의 화면에서 대상에 효율적으로 도달할 수 있도록 해주는 고유한 파트너 관계를 가지고 있습니다. 마케터는 [!DNL Roku] ID와 동기화하는 기능이 있는 유일한 플랫폼을 활용하여 정밀도 및 정확도로 결정론적 1:1 타깃팅을 활용하고 [!DNL Roku] 인벤토리 및 고유한 측정 통찰력에 액세스할 수 있습니다.
 
 * [**AI 지원 기능**](/help/dsp/introduction/features/ai-agents.md): DSP에서는 재사용 가능한 대상을 만들고 제품 사용 지침과 모범 사례를 찾는 데 도움이 되는 AI 지원 에이전트를 제공합니다.
 
 >[!MORELIKETHIS]
 >
->* [비디오: Advertising DSP 소개](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html?lang=ko)
->* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ko)
+>* [비디오: Advertising DSP 소개](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
+>* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

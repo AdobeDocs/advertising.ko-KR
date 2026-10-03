@@ -3,22 +3,26 @@ title: 일괄 시트를 사용하여 캠페인 구성 요소 설정 검토 및 �
 description: 스프레드시트를 사용하여 주요 패키지, 배치 및 광고 설정을 대량으로 검토하고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-TQID: https://experienceleague.adobe.com/xHMqjoe7pRUjZJp09hNNZassE-xG4xWCKeM0t1ntTaM
+TQID: 'https://experienceleague.adobe.com/xHMqjoe7pRUjZJp09hNNZassE-xG4xWCKeM0t1ntTaM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: '571'
 ht-degree: 0%
-
 ---
-
 # 일괄 시트를 사용하여 캠페인 구성 요소 설정 검토 및 편집
 
 패키지, 배치 및 광고에 대한 설정을 XLSX([!DNL Microsoft Excel] 스프레드시트) 형식의 단일 캠페인으로 다운로드하여 설정을 검토하고 편집할 수 있습니다. 기본적으로 다운로드한 파일(*일괄 시트,*)에는 패키지 설정, 패키지 항공편 정보, 배치 설정 및 배치 광고 일정에 대한 별도의 탭이 포함되어 있습니다. 일부 캠페인 구성 요소 유형에 대한 설정을 선택적으로 제외할 수 있습니다.

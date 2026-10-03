@@ -1,25 +1,32 @@
 ---
 title: '[!DNL Microsoft Advertising] 캠페인 설정'
-description: ' [!DNL Microsoft Advertising] 캠페인에 대한 설정을 참조합니다.'
+description: '[!DNL Microsoft Advertising] 캠페인에 대한 설정을 참조합니다.'
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w
+TQID: 'https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: '2113'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] 캠페인 설정
 
 ## \[캠페인 만들기 화면\]
@@ -83,7 +90,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPC]*: (브랜드용 쇼핑 캠페인; [!DNL Microsoft Store Ads] 캠페인; 다른 캠페인 유형에는 더 이상 사용되지 않음) 클릭당 비용(CPC) 모델을 사용합니다. 일부 광고 유형의 경우 선택적으로 광고 네트워크가 캠페인에 대한 입찰을 변경하도록 허용할 수 있습니다.
 
-   * **[!UICONTROL Enable Enhanced CPC]**(기본적으로 비활성화됨): 이 옵션은 &quot;[!UICONTROL Enhanced CPC]&quot; 옵션을 사용하는 것과 같습니다.
+  * **[!UICONTROL Enable Enhanced CPC]**(기본적으로 비활성화됨): 이 옵션은 &quot;[!UICONTROL Enhanced CPC]&quot; 옵션을 사용하는 것과 같습니다.
 
 * *[!UICONTROL Manual CPA]:*([!DNL Microsoft Store Ads] 캠페인) CPA(획득 당 비용) 모델을 사용합니다.
 
@@ -224,21 +231,21 @@ ht-degree: 0%
 
 * 이미지를 업로드하려면:
 
-   1. [!UICONTROL Upload from Device] 탭에서 **[!UICONTROL +]**&#x200B;을(를) 클릭하고 장치 또는 네트워크에서 이미지를 선택합니다.
+  1. [!UICONTROL Upload from Device] 탭에서 **[!UICONTROL +]**&#x200B;을(를) 클릭하고 장치 또는 네트워크에서 이미지를 선택합니다.
 
-   1. 각 이미지에 대해:
+  1. 각 이미지에 대해:
 
-      1. 종횡비를 선택합니다.
+     1. 종횡비를 선택합니다.
 
-      1. 필요에 따라 자르기 상자를 끌어서 놓고 이미지의 볼 수 있는 부분을 선택한 다음 필요할 경우 이미지의 볼 수 있는 부분의 크기를 조정합니다.
+     1. 필요에 따라 자르기 상자를 끌어서 놓고 이미지의 볼 수 있는 부분을 선택한 다음 필요할 경우 이미지의 볼 수 있는 부분의 크기를 조정합니다.
 
-      1. (선택 사항) 추가 종횡비를 선택하고 선택한 각 종횡비에 필요한 경우 이미지의 위치를 변경하고 크기를 선택적으로 조정합니다.
+     1. (선택 사항) 추가 종횡비를 선택하고 선택한 각 종횡비에 필요한 경우 이미지의 위치를 변경하고 크기를 선택적으로 조정합니다.
 
-         선택한 각 종횡비에 대해 하나의 에셋이 만들어집니다.
+        선택한 각 종횡비에 대해 하나의 에셋이 만들어집니다.
 
-      1. **[!UICONTROL Proceed]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Proceed]**&#x200B;을(를) 클릭합니다.
 
-   1. 이미지 지정을 마치면 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
+  1. 이미지 지정을 마치면 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
 * [!UICONTROL Asset Library]에서 이미지를 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 이미지를 선택하십시오.
 
@@ -246,21 +253,21 @@ ht-degree: 0%
 
 * 이미지를 업로드하려면:
 
-   1. [!UICONTROL Upload from Device] 탭에서 **[!UICONTROL +]**&#x200B;을(를) 클릭하고 장치 또는 네트워크에서 이미지를 선택합니다.
+  1. [!UICONTROL Upload from Device] 탭에서 **[!UICONTROL +]**&#x200B;을(를) 클릭하고 장치 또는 네트워크에서 이미지를 선택합니다.
 
-   1. 각 이미지에 대해:
+  1. 각 이미지에 대해:
 
-      1. 종횡비를 선택합니다.
+     1. 종횡비를 선택합니다.
 
-      1. 필요에 따라 자르기 상자를 끌어서 놓고 이미지의 볼 수 있는 부분을 선택한 다음 필요할 경우 이미지의 볼 수 있는 부분의 크기를 조정합니다.
+     1. 필요에 따라 자르기 상자를 끌어서 놓고 이미지의 볼 수 있는 부분을 선택한 다음 필요할 경우 이미지의 볼 수 있는 부분의 크기를 조정합니다.
 
-      1. (선택 사항) 추가 종횡비를 선택하고 선택한 각 종횡비에 필요한 경우 이미지의 위치를 변경하고 크기를 선택적으로 조정합니다.
+     1. (선택 사항) 추가 종횡비를 선택하고 선택한 각 종횡비에 필요한 경우 이미지의 위치를 변경하고 크기를 선택적으로 조정합니다.
 
-         선택한 각 종횡비에 대해 하나의 에셋이 만들어집니다.
+        선택한 각 종횡비에 대해 하나의 에셋이 만들어집니다.
 
-      1. **[!UICONTROL Proceed]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Proceed]**&#x200B;을(를) 클릭합니다.
 
-   1. 이미지 지정을 마치면 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
+  1. 이미지 지정을 마치면 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
 * [!UICONTROL Asset Library]에서 이미지를 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 이미지를 선택하십시오.
 
@@ -268,9 +275,9 @@ ht-degree: 0%
 
 * 텍스트를 입력하려면 다음을 수행합니다.
 
-   1. [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
+  1. [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
 
-   1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 문자열을 입력합니다.
+  1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 문자열을 입력합니다.
 
 * [!UICONTROL Asset Library]에서 자산을 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 자산을 선택하십시오.
 
@@ -278,9 +285,9 @@ ht-degree: 0%
 
 * 텍스트를 입력하려면 다음을 수행합니다.
 
-   1. [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
+  1. [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
 
-   1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 문자열을 입력합니다.
+  1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 문자열을 입력합니다.
 
 * [!UICONTROL Asset Library]에서 자산을 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 자산을 선택하십시오.
 
@@ -288,9 +295,9 @@ ht-degree: 0%
 
 * 텍스트를 입력하려면 다음을 수행합니다.
 
-   1. [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
+  1. [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
 
-   1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 문자열을 입력합니다.
+  1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 문자열을 입력합니다.
 
 * [!UICONTROL Asset Library]에서 자산을 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 자산을 선택하십시오.
 
@@ -317,7 +324,7 @@ ht-degree: 0%
 >
 >캠페인이 하이브리드 포트폴리오의 일부인 경우 포트폴리오의 목표에서 전환 목표와 일치하는 캠페인 수준 목표를 사용하는 것이 좋습니다. 추가 전환 목표를 포함하면 포트폴리오 성능에 영향을 줄 수 있습니다.
 >
-> 그러나 [목표를 광고 네트워크에 업로드](/help/search-social-commerce/tools/objective-upload-to-networks.md)하는 하이브리드 포트폴리오의 캠페인의 경우, 광고 네트워크의 편집기 내에서 다음 작업을 대신 수행하십시오. a) 업로드한 검색, 소셜 및 Commerce 포트폴리오 목표 지표(&quot;O_ACS_OBJ&quot;로 시작하는)를 캠페인에 대한 전환 목표로 추가하고, b) 광고 네트워크에서 추적한 지표가 목표를 가지고 광고 네트워크에 업로드되지 않으므로 [!DNL Microsoft Advertising] UET(범용 이벤트 추적) 태그에 의해 추적된 전환을 포함하는 캠페인 목표를 추가합니다.
+> 그러나 [목표를 광고 네트워크에 업로드](/help/search-social-commerce/tools/objective-upload-to-networks.md)하는 하이브리드 포트폴리오의 캠페인의 경우 a) 업로드된 검색, 소셜 및 Commerce 포트폴리오 목표 지표(&quot;O_ACS_OBJ&quot;로 시작하는)를 캠페인에 대한 전환 목표로 추가하고, b) 광고 네트워크에서 추적한 지표가 목표를 가지고 광고 네트워크에 업로드되지 않으므로 [!DNL Microsoft Advertising] UET(범용 이벤트 추적) 태그에 의해 추적된 전환을 포함하는 캠페인 목표를 추가합니다.
 
 >[!MORELIKETHIS]
 >

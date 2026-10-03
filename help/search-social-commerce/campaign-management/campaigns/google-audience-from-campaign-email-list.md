@@ -1,27 +1,31 @@
 ---
-title: Adobe Campaign 이메일 목록에서  [!DNL Google Ads] 고객 일치 대상 만들기
-description: 기존 Adobe Campaign 이메일 목록에서  [!DNL Google Ads] 고객 일치 대상자를 만드는 방법을 알아봅니다.
+title: Adobe Campaign 이메일 목록에서 [!DNL Google Ads] 고객 일치 대상 만들기
+description: 기존 Adobe Campaign 이메일 목록에서 [!DNL Google Ads] 고객 일치 대상을 만드는 방법을 알아봅니다.
 exl-id: 92812af2-ac31-48cd-badf-ea287799bddb
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g
+TQID: 'https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 669
+source-wordcount: '693'
 ht-degree: 0%
-
 ---
-
 # Adobe Campaign 이메일 목록에서 [!DNL Google Ads] 고객 일치 대상 만들기
 
 고객 일치 항목에만 적합한 계정 *[!DNL Google Ads]개*
 
-[!DNL Google Ads]에서 계정 링크 및 워크플로우를 설정하여 Adobe Campaign의 이메일 목록에서 [!DNL Campaign] 고객 일치 대상을 만들 수 있습니다.
+[!DNL Campaign]에서 계정 링크 및 워크플로우를 설정하여 Adobe Campaign의 이메일 목록에서 [!DNL Google Ads] 고객 일치 대상을 만들 수 있습니다.
 
 이를 위해서는 [!DNL Campaign] 인스턴스와 Adobe 계정 팀이 제공할 필수 워크플로가 포함된 XML 파일에 액세스해야 합니다. 지침은 [!DNL Campaign]의 다양한 버전에 따라 다를 수 있습니다. 필요한 경우 Adobe 계정 팀이 [!DNL Campaign]에서 워크플로를 설정하는 데 도움을 줄 수 있습니다.
 
@@ -29,7 +33,7 @@ ht-degree: 0%
 
 1. [!DNL Campaign]에서 Advertising 검색, 소셜 및 Commerce에 전자 메일 목록 게재를 설정합니다.
 
-   1. [외부 계정](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=ko)을 만들어 검색, 소셜 및 Commerce 제공 SFTP 계정을 연결합니다.
+   1. [외부 계정](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html)을 만들어 검색, 소셜 및 Commerce 제공 SFTP 계정을 연결합니다.
 
       1. 왼쪽 메뉴에서 **\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**(으)로 이동합니다.
 
@@ -99,11 +103,11 @@ ht-degree: 0%
 
          * (선택 사항) **[!UICONTROL Schedule]** 탭에서 파일 전송에 다른 일정을 지정합니다.
 
-           기본적으로 워크플로우는 00:00(자정)에 실행되므로 모든 레코드가 처리됩니다. 지연을 최소화하려면 워크플로우가 18:00 이상 실행되도록 예약합니다.
+           기본적으로 워크플로우는 00:00(자정)에 실행되므로 모든 레코드가 처리됩니다. 지연을 최소화하려면 워크플로우가 늦어도 18:00까지 실행되도록 예약합니다.
 
          * **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
-Search, Social 및 Commerce은 30분마다(광고주 시간대의 NN:30 및 NN:59에서) 디렉터리를 확인하고 찾은 파일을 다른 위치로 이동한 다음 데이터에서 자동으로 대상을 만들고 22:00(오후 10시)에 Google으로 푸시합니다. Search, Social 및 Commerce은 30분마다 이메일 목록에 대한 업데이트(추가 및 빼기)를 계속 확인하고 매일 22[!DNL Google Ads]에 이에 따라 :00의 대상자를 업데이트합니다.
+Search, Social 및 Commerce은 30분마다(광고주 시간대의 NN:30 및 NN:59에서) 디렉터리를 확인하고 찾은 파일을 다른 위치로 이동한 다음 데이터에서 자동으로 대상을 만들고 22:00(오후 10) Google으로 푸시합니다. Search, Social 및 Commerce은 30분마다 이메일 목록에 대한 업데이트(추가 및 빼기)를 계속 확인하고 매일 22:00에 그에 따라 [!DNL Google Ads]의 대상자를 업데이트합니다.
 
 >[!NOTE]
 >

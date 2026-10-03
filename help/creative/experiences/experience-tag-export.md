@@ -3,22 +3,29 @@ title: 라이브 경험을 위한 광고 경험 태그 내보내기 및 구현
 description: 광고 경험 태그를 내보내고 선택적으로 Advertising DSP 캠페인에 업로드하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-TQID: https://experienceleague.adobe.com/tge8P1-b1I21jxKui3KgSjgXCKtZCRSO94knTkWlNW0
+TQID: 'https://experienceleague.adobe.com/tge8P1-b1I21jxKui3KgSjgXCKtZCRSO94knTkWlNW0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 635
+source-wordcount: '638'
 ht-degree: 0%
-
 ---
-
 # 라이브 경험을 위한 광고 경험 태그 내보내기 및 구현
 
 특정 크리에이티브 크기 또는 비디오 지속 시간에 대한 광고 태그를 [live](experience-about.md#experience-statuses) 경험에 사용할 수 있게 되면, Advertising DSP 또는 기타 DSP에서 구현할 수 있도록 JavaScript, iframe 및 비디오 형식으로 태그를 생성하고 복사할 수 있습니다. DSP의 태그에는 DSP에 필요한 모든 매크로가 포함됩니다.
@@ -40,7 +47,7 @@ Advertising DSP을 사용하는 광고주는 선택적으로 광고 유형이 &q
 
    * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Tag Manager]**&#x200B;을(를) 클릭합니다.
 
-1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![광고 태그 내보내기](/help/creative/assets/export.png "광고 태그 내보내기") **[!UICONTROL Export ad tags]** 또는 **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**&#x200B;를 클릭합니다.
+1. 적용 가능한 광고 태그의 행 위에 커서를 놓고 ![광고 태그 내보내기](/help/creative/assets/export.png "광고 태그 내보내기") **[!UICONTROL Export ad tags]** 또는 **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**&#x200B;를 클릭합니다.
 
 >[!NOTE]
 >
@@ -58,9 +65,9 @@ Advertising DSP을 사용하는 광고주는 선택적으로 광고 유형이 &q
 
 1. 태그 유형 선택:
 
-   * (비비디오 경험) ***JavaScript* &#x200B;** 또는 **&#x200B; *Iframe* &#x200B;**.
+   * (비비디오 경험) ***JavaScript* ** 또는 ** *Iframe* **.
 
-   * (비디오 경험) **0&rbrace;비디오&#x200B;***.*
+   * (비디오 경험) ** 0}비디오* **.*
 
 1. [!UICONTROL Destinations] 목록에서 경험을 위한 광고를 만들 위치를 선택합니다.
 
@@ -68,7 +75,7 @@ Advertising DSP을 사용하는 광고주는 선택적으로 광고 유형이 &q
 
    * Advertising DSP에서 만들 광고의 경우 *Adobe AdCloud:*.
 
-   * *에 만들 광고의 경우* Google CM360:[!DNL Google Campaign Manager 360]. **참고:** 필요에 따라 [추가 매크로](/help/creative/creative-macros.md)를 수동으로 포함해야 할 수도 있습니다.
+   * [!DNL Google Campaign Manager 360]에 만들 광고의 경우 *Google CM360:*. **참고:** 필요에 따라 [추가 매크로](/help/creative/creative-macros.md)를 수동으로 포함해야 할 수도 있습니다.
 
 1. **[!UICONTROL Generate tags]**&#x200B;을(를) 클릭합니다.
 
@@ -86,15 +93,15 @@ Advertising DSP을 사용하는 광고주는 선택적으로 광고 유형이 &q
 
    * Advertising DSP의 경우
 
-      1. 오른쪽 상단의 **[!UICONTROL Next]**&#x200B;을(를) 클릭하거나 왼쪽 메뉴에서 **[!UICONTROL DSP link]**&#x200B;을(를) 클릭합니다.
+     1. 오른쪽 상단의 **[!UICONTROL Next]**&#x200B;을(를) 클릭하거나 왼쪽 메뉴에서 **[!UICONTROL DSP link]**&#x200B;을(를) 클릭합니다.
 
-      1. 광고 태그를 업로드할 캠페인을 선택합니다.
+     1. 광고 태그를 업로드할 캠페인을 선택합니다.
 
-      1. **[!UICONTROL Assign Tags]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Assign Tags]**&#x200B;을(를) 클릭합니다.
 
-         DSP이 선택한 캠페인에 대한 [!UICONTROL Ads] 보기로 열립니다.
+        DSP이 선택한 캠페인에 대한 [!UICONTROL Ads] 보기로 열립니다.
 
-      1. [!UICONTROL Create ads] 보기에서 광고 태그를 검토하고 광고를 만들 각 태그를 선택한 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+     1. [!UICONTROL Create ads] 보기에서 광고 태그를 검토하고 광고를 만들 각 태그를 선택한 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 

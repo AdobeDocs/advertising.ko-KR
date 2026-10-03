@@ -3,18 +3,24 @@ title: 관리 보기 및 보고서에서 사용할 수 있는 전환 지표 변�
 description: 관리 보기 및 보고서에서 사용 가능한 전환 지표를 만드는 방법을 알아봅니다.
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
-TQID: https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU
+TQID: 'https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '504'
 ht-degree: 0%
-
 ---
-
 # 관리 보기 및 보고서에서 사용할 수 있는 전환 지표 변경
 
 Adobe Advertising이 광고주에 대한 [전환](/help/search-social-commerce/glossary.md#c-d) 지표를 추적하는 경우 처음에는 포트폴리오 목표, 보고서 및 관리 보기에서 제외됩니다. 전환 지표가 표시되도록 하려면 전환 지표를 명시적으로 사용할 수 있도록 한 다음 선택적으로 표시되는 이름인 기본 표시 이름을 변경해야 합니다. 유일한 예외는 [!DNL Google Ads], [!DNL Google Analytics] 및 [!DNL Microsoft Advertising] 유니버설 이벤트 추적 태그가 추적한 전환을 자동으로 사용할 수 있고 표시할 수 있다는 것입니다.
@@ -41,13 +47,13 @@ Adobe Advertising이 광고주에 대한 [전환](/help/search-social-commerce/g
 
    * 여러 지표를 표시하거나 숨기려면 다음을 수행합니다.
 
-      1. 각 전환 지표 옆에 있는 확인란을 선택합니다.
+     1. 각 전환 지표 옆에 있는 확인란을 선택합니다.
 
-         여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
+        여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
 
-      1. 데이터 테이블 위의 도구 모음에서 ![표시](/help/search-social-commerce/assets/show.png "표시")를 클릭하여 지표를 표시하거나 ![숨기기](/help/search-social-commerce/assets/hide.png "숨기기")을(를) 클릭하여 지표를 숨깁니다.
+     1. 데이터 테이블 위의 도구 모음에서 ![표시](/help/search-social-commerce/assets/show.png "표시")를 클릭하여 지표를 표시하거나 ![숨기기](/help/search-social-commerce/assets/hide.png "숨기기")을(를) 클릭하여 지표를 숨깁니다.
 
-      1. (지표를 숨기려면) 확인 메시지에서 **[!UICONTROL Yes]**&#x200B;을(를) 클릭하여 지표가 포함된 파생 지표에서 지표를 제거하는 등 지표를 숨깁니다.
+     1. (지표를 숨기려면) 확인 메시지에서 **[!UICONTROL Yes]**&#x200B;을(를) 클릭하여 지표가 포함된 파생 지표에서 지표를 제거하는 등 지표를 숨깁니다.
 
 1. (선택 사항) [전환 지표에 대해 열 머리글에 나타나는 이름을 변경](conversion-metric-edit-display-name.md)합니다.
 

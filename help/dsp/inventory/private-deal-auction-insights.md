@@ -3,26 +3,37 @@ title: 비공개 거래에 대한 경매 인사이트 보기
 description: 경매 인사이트를 사용하여 비공개 거래의 거래 구성을 분석하는 방법에 대해 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-TQID: https://experienceleague.adobe.com/KtjLaASMlY0toMM1hvcWchd-D8kJzdvNBwfeGOGyyYE
+TQID: 'https://experienceleague.adobe.com/KtjLaASMlY0toMM1hvcWchd-D8kJzdvNBwfeGOGyyYE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
+  - id: ea1cb503-33dd-595d-833b-f365576083b6
+    internal-label: DSP Programmatic Guaranteed Deals
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 260
+source-wordcount: '262'
 ht-degree: 0%
-
 ---
-
 # 비공개 거래에 대한 경매 인사이트 보기
 
 Auction Insights는 보장된 비공개 거래와 보장되지 않은 비공개 거래의 거래 구성을 분석할 수 있는 문제 해결 도구입니다. 이 도구는 데이터 시각화를 사용하여 특정 기간 내에 [주요 경매 특성](#auction-attributes)에 대해 받은 값의 추세와 상대적인 비율을 보여 줍니다.
@@ -33,7 +44,7 @@ Auction Insights는 보장된 비공개 거래와 보장되지 않은 비공개 
 
 >[!NOTE]
 >
->Auction Insights는 배치 [!UICONTROL Inspector] 도구를 통해서도 사용할 수 있습니다. 이를 열려면 [[!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md)에 대한 [!UICONTROL Inventory tab] 배치를 연 다음 거래 행에서 **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**&#x200B;을(를) 클릭합니다.
+>Auction Insights는 배치 [!UICONTROL Inspector] 도구를 통해서도 사용할 수 있습니다. 이를 열려면 [[!UICONTROL Inventory tab]에 대한 [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) 배치를 연 다음 거래 행에서 **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**&#x200B;을(를) 클릭합니다.
 
 ## 경매 속성 {#auction-attributes}
 

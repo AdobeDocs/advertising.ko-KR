@@ -3,22 +3,26 @@ title: 패키지 변경 로그 보기
 description: 패키지에 대한 변경 사항을 보는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-TQID: https://experienceleague.adobe.com/VEvu-gLTJObtSpwo1vKRf8yReubnGAJ-tY1916CWXdI
+TQID: 'https://experienceleague.adobe.com/VEvu-gLTJObtSpwo1vKRf8yReubnGAJ-tY1916CWXdI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 214
+source-wordcount: '213'
 ht-degree: 0%
-
 ---
-
 # 패키지에 대한 변경 로그 보기
 
 변경 로그는 패키지 이름, 엔티티 유형(패키지), 변경 유형, 새 값과 이전 값, 변경한 사용자 및 날짜를 포함하여 선택한 날짜 범위 동안 패키지에 수행된 변경 사항을 보여 줍니다. 필요에 따라 모든 항목에 메모를 추가할 수 있습니다.

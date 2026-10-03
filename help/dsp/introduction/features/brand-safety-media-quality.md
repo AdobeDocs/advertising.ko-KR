@@ -3,24 +3,30 @@ title: 브랜드 안전 및 미디어 품질
 description: 브랜드 안전 및 미디어 품질 기능에 대해 자세히 알아보십시오.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-TQID: https://experienceleague.adobe.com/-buJmAx0gdtqiPETqfBFcr90LAHly8BNyjM6lVO-JKc
+TQID: 'https://experienceleague.adobe.com/-buJmAx0gdtqiPETqfBFcr90LAHly8BNyjM6lVO-JKc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47596cdd765ba7da7c10e21388f0230327b49c01
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: '1445'
 ht-degree: 0%
-
 ---
-
 # 브랜드 안전 및 미디어 품질
 
 <!-- Check on logo sizes in staging environment -- I made them all 100 pixels high except for DoubleVerify, which is 150 (harder to see at 100), but some instances look larger in VS Code. -->
@@ -35,7 +41,7 @@ Advertising DSP은 각 캠페인이 브랜드 안전 환경에서 실제 사용�
 
 ### [!DNL Ads.txt] 지원을 통한 인벤토리 확인
 
- [!DNL Authorized Digital Sellers][&#128279;](https://iabtechlab.com/ads-txt)을(를) 의미하는 [!DNL Ads.txt]은(는) 공개 시장에서 인벤토리의 적절한 표현을 용이하게 하기 위해 2017년 6월 [!DNL Interactive Advertising Bureau]&#x200B;([!DNL IAB])이 시작한 이니셔티브로, 트래픽 및 도메인 스푸핑의 불법 소스를 결합합니다. 참여하는 게시자 및 배포자는 도메인의 최상위 수준(예: `example.com/ads.txt`)에서 `ads.txt` 페이지를 유지함으로써 디지털 인벤토리를 판매할 수 있는 회사와 그러한 관계의 특성을 공개적으로 선언합니다.
+ [!DNL Authorized Digital Sellers]](https://iabtechlab.com/ads-txt)을(를) 의미하는 [[!DNL Ads.txt]은(는) 공개 시장에서 인벤토리의 적절한 표현을 용이하게 하기 위해 2017년 6월 [!DNL Interactive Advertising Bureau]&#x200B;([!DNL IAB])이 시작한 이니셔티브로, 트래픽 및 도메인 스푸핑의 불법 소스를 결합합니다. 참여하는 게시자 및 배포자는 도메인의 최상위 수준(예: `example.com/ads.txt`)에서 `ads.txt` 페이지를 유지함으로써 디지털 인벤토리를 판매할 수 있는 회사와 그러한 관계의 특성을 공개적으로 선언합니다.
 
 DSP은 각 게시자의 `ads.txt` 파일을 읽고 확인된 [!DNL ads.txt] 판매자에서만 구매할 수 있는 옵션을 제공하여 [!DNL ads.txt]을(를) 지원합니다. 예를 들어, `nytimes.com`에 액세스하는 데 보이는 판매자를 New York Times의 `ads.txt` 파일과 일치시켜 합법적인 판매자와 그렇지 않은 판매자를 식별할 수 있으며, 배치가 확인된 판매자만 구매하도록 구성된 경우 위반자를 차단합니다. <!-- can we actually mention NY Times? -->
 
@@ -63,19 +69,19 @@ DSP은 [!DNL Whiteops] 및 [!DNL Integral Ad Science]과(와) 같은 업계 선�
 
 * **매핑:** 인벤토리 팀은 다음과 같은 측면을 평가하면서 각 도메인을 신중하게 검토합니다.
 
-   * 브랜드 안전
+  * 브랜드 안전
 
-   * 광고 유형 확인
+  * 광고 유형 확인
 
-   * 일반 콘텐츠, 중복 도메인 및 가짜 광고 서비스
+  * 일반 콘텐츠, 중복 도메인 및 가짜 광고 서비스
 
 * **계층화:** 여러 계층 간에 인벤토리를 분류하기 위해 전체 에코시스템에서 브랜드 존재감을 전체적으로 검사합니다. 원하는 도달 수준에 대해 다음 계층에 [배치를 타깃팅](/help/dsp/campaign-management/placements/placement-settings.md)할 수 있습니다.
 
-   * **[!UICONTROL T1]** — 세계적으로 인식할 수 있는 브랜드 이름 사이트
+  * **[!UICONTROL T1]** — 세계적으로 인식할 수 있는 브랜드 이름 사이트
 
-   * **[!UICONTROL T2]** — 최신 상태로, 사용자 생성 컨텐츠가 없고 일반적으로 글로벌 인식이 부족한 멋진 사이트
+  * **[!UICONTROL T2]** — 최신 상태로, 사용자 생성 컨텐츠가 없고 일반적으로 글로벌 인식이 부족한 멋진 사이트
 
-   * **[!UICONTROL T3]** — 사용자 생성 컨텐츠 및 틈새 컨텐츠
+  * **[!UICONTROL T3]** — 사용자 생성 컨텐츠 및 틈새 컨텐츠
 
 * **사이트 범주화:** 쉽게 콘텐츠를 타깃팅하고 차단하기 위해 속성의 콘텐츠를 기반으로 DSP이 정의한 사이트 범주로 각 속성에 태그를 지정합니다. 배치 목표를 기준으로 각 배치에 대해 [이러한 사이트 범주를 타기팅하거나 제외](/help/dsp/campaign-management/placements/placement-settings.md)할 수 있습니다.
 
@@ -133,7 +139,7 @@ DSP은 광고를 실행하는 데 안전하지 않은 것으로 간주되는 사
 
 [배치 수준 사전 입찰 주의 타기팅](/help/dsp/campaign-management/placements/placement-settings.md)을 통해 광고주는 고객 참여를 개선하기 위해 특정 주의 수준을 타기팅할 수 있습니다.
 
-또한 광고주는 모든 캠페인에서 최상의 비즈니스 결과를 생성하는 배치 전략을 이해하기 위해 배치 수준 [!UICONTROL Attention Score] 지표[&#128279;](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement)(노출 횟수의 가중 평균 [!DNL Attention Units] 수)에 대한 추적을 활성화할 수 있습니다.
+또한 광고주는 모든 캠페인에서 최상의 비즈니스 결과를 생성하는 배치 전략을 이해하기 위해 배치 수준 [!UICONTROL Attention Score] 지표](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement)(노출 횟수의 가중 평균 [!DNL Attention Units] 수)에 대한 [추적을 활성화할 수 있습니다.
 
 각 기능에 대해 추가 비용이 적용됩니다.
 

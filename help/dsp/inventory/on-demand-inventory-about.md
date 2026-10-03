@@ -1,31 +1,36 @@
 ---
-title: 약 [!DNL On Demand] premium 인벤토리
+title: '[!DNL On Demand] 프리미엄 인벤토리 정보'
 description: DSP이 프리미엄 게시자 파트너와 사전 협상한 거래에 대해 알아봅니다.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-TQID: https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo
+TQID: 'https://experienceleague.adobe.com/eQWPc1b2GRmORoOHXR6AzFFE1TdjI1fJe9Jr8pMjPZo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 # [!DNL On Demand] 프리미엄 인벤토리 정보
 
 *계정 유형이 [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] 및 [!UICONTROL Other]인 사용자, 범주가 [!UICONTROL Other]인 광고주 및 리셀러*&#x200B;는 사용할 수 없습니다.
 
-[!DNL On Demand] 갤러리는 DSP이 프리미엄 게시자 파트너와 진행한 사전 협상된 거래를 살펴보기 위한 프리미엄 인벤토리 검색 도구입니다. 이를 통해 1:1개의 협상이나 계약 없이도 지역 내 최상위 게시자의 보장되지 않은 인벤토리에 액세스할 수 있습니다. 개별 거래를 요청할 수 있으며, 게시자를 구독하여 게시자의 모든 거래를 한 번에 요청할 수 있습니다.
+[!DNL On Demand] 갤러리는 DSP이 프리미엄 게시자 파트너와 진행한 사전 협상된 거래를 살펴보기 위한 프리미엄 인벤토리 검색 도구입니다. 이를 통해 1:1 협상이나 계약 없이도 지역 내 최상위 게시자의 비보장 인벤토리에 액세스할 수 있습니다. 개별 거래를 요청할 수 있으며, 게시자를 구독하여 게시자의 모든 거래를 한 번에 요청할 수 있습니다.
 
 DSP premium 마켓플레이스를 통해 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -66,7 +71,7 @@ DSP premium 마켓플레이스를 통해 다음과 같은 작업을 수행할 �
 >
 >* [프리미엄 인벤토리 거래  [!DNL On Demand] 구독 및 액세스 요청](on-demand-inventory-subscribe.md)
 >* [재요청 [!DNL On Demand] 프리미엄 인벤토리 거래](on-demand-inventory-rerequest.md)
->* [거래 요청 및 구독 상태 보기 [!DNL On Demand] 2&rbrace;](on-demand-inventory-view-status.md)
+>* [거래 요청 및 구독 상태 보기 [!DNL On Demand] 2}](on-demand-inventory-view-status.md)
 >* 아시아 태평양의 [[!DNL On Demand] 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-apac.md)
 >* 호주 및 뉴질랜드의 [[!DNL On Demand] 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] 유럽, 중동 및 아프리카의 프리미엄 인벤토리 게시자](on-demand-inventory-publishers-emea.md)

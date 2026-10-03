@@ -3,22 +3,26 @@ title: 배치 편집
 description: 배치를 편집하는 방법을 알아봅니다.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-TQID: https://experienceleague.adobe.com/Fsngq1-yVcKCNO9eJmXU4d8hQKf27WWHx6AqE4S0GDI
+TQID: 'https://experienceleague.adobe.com/Fsngq1-yVcKCNO9eJmXU4d8hQKf27WWHx6AqE4S0GDI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: '391'
 ht-degree: 0%
-
 ---
-
 # 배치 편집
 
 단일 배치 또는 여러 배치에 대한 설정을 한 번에 편집할 수 있습니다. 배치가 라이브 상태가 되면 일부 설정을 변경할 수 없습니다.
@@ -111,4 +115,4 @@ ht-degree: 0%
 >* [배치 설정](placement-settings.md)
 >* [배치 예측 보고서 보기](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [비디오: 일괄 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=ko)
+>* [비디오: 일괄 편집 도구를 사용하여 배치를 편집하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

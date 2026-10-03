@@ -2,7 +2,13 @@
 title: (새 UI) 스프레드시트 보고서 피드 관리
 description: 사용자 지정 형식의 스프레드시트에서 일별 성능 데이터를 제공하는 스프레드시트 보고서 피드를 생성, 구성, 새로 고침, 보기 및 삭제하는 방법에 대해 알아봅니다.
 feature: Search Reports
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1498'
 ht-degree: 0%

@@ -3,20 +3,24 @@ title: 보고서 템플릿 기본 정보
 description: 재사용 가능한 보고서 템플릿에 대해 알아봅니다.
 exl-id: 8ac30a16-7fa9-4da3-9375-98efd05c6e74
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/8ADgYYht2dTa96mTWXKItzUk7VhuQJJKrJ4aaRatgYs
+TQID: 'https://experienceleague.adobe.com/8ADgYYht2dTa96mTWXKItzUk7VhuQJJKrJ4aaRatgYs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 186
+source-wordcount: '187'
 ht-degree: 0%
-
 ---
-
 # 보고서 템플릿 기본 정보
 
 보고서 템플릿은 대부분의 보고서를 생성할 때 재사용할 수 있는 사전 정의된 보고서 레이아웃입니다. 템플릿을 사용하면 기본값이 아닌 매개 변수를 사용하거나 동일한 보고서의 변형을 실행하려는 경우 또는 정기적인 일정에 따라 동일한 보고서를 실행하려는 경우 시간을 절약할 수 있습니다. 저장된 보고서 템플릿은 보고서 페이지의 보고서 템플릿 섹션에서 사용할 수 있습니다.

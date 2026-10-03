@@ -3,22 +3,26 @@ title: 재사용 가능한 대상의 세그먼트 키를 클립보드에 복사�
 description: 재사용 가능한 대상의 구성 및 대상 크기를 보는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
-TQID: https://experienceleague.adobe.com/Ds4-Hmzoh7bxyq-lfGXc0Ev88b02QJw6XzDdlPWQu8c
+TQID: 'https://experienceleague.adobe.com/Ds4-Hmzoh7bxyq-lfGXc0Ev88b02QJw6XzDdlPWQu8c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 137
+source-wordcount: '138'
 ht-degree: 0%
-
 ---
-
 # 재사용 가능한 대상의 세그먼트 키를 클립보드에 복사합니다.
 
 대상자의 영숫자 세그먼트 키(ID)를 클립보드에 복사할 수 있습니다. 세그먼트 키를 사용하여 [다른 재사용 가능한 대상을 위한 세그먼트 논리를 수동으로 정의](audience-segment-logic-syntax.md)할 수 있습니다.

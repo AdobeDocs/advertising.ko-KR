@@ -3,28 +3,39 @@ title: Adobe Audience Manager에 DSP 미디어 노출 데이터 보내기 개요
 description: Audience Manager 이벤트 픽셀을 사용하여 Advertising DSP 캠페인에서 노출 수준 및 클릭 수준 데이터를 캡처하는 방법을 알아봅니다
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-TQID: https://experienceleague.adobe.com/MqAVZH8WKVulxVDOD3SDbROYnkRG0tlm028WGBL9wOM
+TQID: 'https://experienceleague.adobe.com/MqAVZH8WKVulxVDOD3SDbROYnkRG0tlm028WGBL9wOM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 529
+source-wordcount: '574'
 ht-degree: 0%
-
 ---
-
 # Adobe Audience Manager에 DSP 미디어 노출 데이터 보내기 개요
 
 *Advertising DSP만 있는 광고주*
@@ -55,15 +66,15 @@ Audience Manager 노출 횟수 및 클릭 이벤트 픽셀은 쿠키를 기반�
 
 ### 노출 추적 픽셀
 
-Audience Manager은 1xl 픽셀의 투명한 이벤트 추적 픽셀을 광고에 첨부할 때 광고에 대한 노출 데이터를 추적합니다. 이벤트 픽셀은 광고가 사용자에게 제공될 때마다 로드되고 웹 브라우저에 의해 로드됩니다. 픽셀은 Audience Manager의 레거시 도메인인 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko)의 클라이언트별 하위 도메인에서 로드되며 매개 변수를 키-값 쌍으로 포함합니다. 이벤트 호출은 노출 및 전환 데이터를 수집하여 Audience Manager 데이터 수집 서버로 전송합니다.
+Audience Manager은 1xl 픽셀의 투명한 이벤트 추적 픽셀을 광고에 첨부할 때 광고에 대한 노출 데이터를 추적합니다. 이벤트 픽셀은 광고가 사용자에게 제공될 때마다 로드되고 웹 브라우저에 의해 로드됩니다. 픽셀은 Audience Manager의 레거시 도메인인 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)의 클라이언트별 하위 도메인에서 로드되며 매개 변수를 키-값 쌍으로 포함합니다. 이벤트 호출은 노출 및 전환 데이터를 수집하여 Audience Manager 데이터 수집 서버로 전송합니다.
 
 ### 클릭 추적 픽셀
 
-Audience Manager은 광고가 제공될 때마다 투명한 이벤트 픽셀을 로드하지 않는다는 점을 제외하고 노출과 유사하게 클릭을 추적합니다. 대신 클릭 데이터가 광고의 클릭스루 URL에서 추적됩니다. 이 광고는 Audience Manager 데이터 수집 서버에서 처리하기 위해 Audience Manager의 레거시 도메인인 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko)의 클라이언트별 하위 도메인을 가리킵니다. 그런 다음 서버는 사용자를 의도한 랜딩 페이지로 리디렉션합니다. URL에는 매개 변수가 키-값 쌍으로 포함되어 있습니다.
+Audience Manager은 광고가 제공될 때마다 투명한 이벤트 픽셀을 로드하지 않는다는 점을 제외하고 노출과 유사하게 클릭을 추적합니다. 대신 클릭 데이터가 광고의 클릭스루 URL에서 추적됩니다. 이 광고는 Audience Manager 데이터 수집 서버에서 처리하기 위해 Audience Manager의 레거시 도메인인 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)의 클라이언트별 하위 도메인을 가리킵니다. 그런 다음 서버는 사용자를 의도한 랜딩 페이지로 리디렉션합니다. URL에는 매개 변수가 키-값 쌍으로 포함되어 있습니다.
 
 >[!NOTE]
 >
->조직에서 [!DNL Analytics] 추적을 사용하는 경우 Audience Manager 클릭 추적이 필요하지 않을 수 있습니다. Adobe Analytics이 클릭 신호를 캡처하여 [서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko)을 통해 Audience Manager으로 전송할 수 있습니다.
+>조직에서 [!DNL Analytics] 추적을 사용하는 경우 Audience Manager 클릭 추적이 필요하지 않을 수 있습니다. Adobe Analytics이 클릭 신호를 캡처하여 [서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 통해 Audience Manager으로 전송할 수 있습니다.
 
 >[!MORELIKETHIS]
 >

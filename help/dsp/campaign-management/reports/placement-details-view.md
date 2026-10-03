@@ -3,25 +3,31 @@ title: 배치에 대한 사이트, 광고, 빈도 및 인벤토리 세부 정보
 description: 배치에 대한 타겟팅된 사이트, 광고, 빈도 및 인벤토리 데이터를 보는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-TQID: https://experienceleague.adobe.com/QpJqRuDiM59WDwshIyp-OQ2ge81zVyvC1vftLd2sGbQ
+TQID: 'https://experienceleague.adobe.com/QpJqRuDiM59WDwshIyp-OQ2ge81zVyvC1vftLd2sGbQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '661'
 ht-degree: 0%
-
 ---
-
 # 배치에 대한 사이트, 광고, 빈도 및 인벤토리 세부 정보 보기
 
 각 배치에 대해 [배치 내 모든 타겟팅된 사이트, 광고 및 거래를 나열하는 (세부 정보 보기 [!UICONTROL Inspector])](placement-details-view.md)을(를) 열 수 있습니다. 또한 배치에 대한 빈도 데이터도 포함됩니다. 탭에서 데이터를 선택적으로 내보낼 수 있습니다.
@@ -39,10 +45,10 @@ ht-degree: 0%
   [!UICONTROL Ads] 탭에는 검색 및 필터 기능, 기본 페이지에서 사용할 수 있는 동일한 표준 및 사용자 지정 열 보기 옵션, 각 행의 빠른 작업 단추(예: [!UICONTROL View Ad Approvals])가 포함되어 있습니다.
 
 * 다음을 포함하여 배치에 대한 각 광고 빈도 수준의 **[!UICONTROL Frequency]:** 데이터:
-   * 광고 빈도 수준(예: 사용자가 광고를 한 번 본 모든 인스턴스의 경우 &quot;1&quot;)
-   * 지정된 빈도 수준에서 노출을 받은 예상 고유 장치/브라우저 또는 사용자 수(캠페인에 대해 지정된 [!UICONTROL Cross Device Level]에 따라 다름)
-   * 지정된 빈도 수준의 예상 노출 횟수
-   * 지정된 빈도 수준의 예상 평균 빈도입니다. 이 값은 (예상 노출 횟수)/(예상 고유 수)와 같습니다.
+  * 광고 빈도 수준(예: 사용자가 광고를 한 번 본 모든 인스턴스의 경우 &quot;1&quot;)
+  * 지정된 빈도 수준에서 노출을 받은 예상 고유 장치/브라우저 또는 사용자 수(캠페인에 대해 지정된 [!UICONTROL Cross Device Level]에 따라 다름)
+  * 지정된 빈도 수준의 예상 노출 횟수
+  * 지정된 빈도 수준의 예상 평균 빈도입니다. 이 값은 (예상 노출 횟수)/(예상 고유 수)와 같습니다.
 
 * **[!UICONTROL Inventory]:** 배치의 타겟이 되는 모든 거래에 대한 정보입니다.
 
@@ -54,21 +60,21 @@ ht-degree: 0%
 
    * 상위 캠페인 내의 모든 배치 보기:
 
-      1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+     1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
-      1. 캠페인의 이름을 클릭합니다.
+     1. 캠페인의 이름을 클릭합니다.
 
-      1. **[!UICONTROL Placements]** 탭을 클릭합니다.
+     1. **[!UICONTROL Placements]** 탭을 클릭합니다.
 
    * 상위 패키지 내의 모든 배치 보기:
 
-      1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+     1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
-      1. 캠페인의 이름을 클릭합니다.
+     1. 캠페인의 이름을 클릭합니다.
 
-      1. **[!UICONTROL Packages]** 탭을 클릭합니다.
+     1. **[!UICONTROL Packages]** 탭을 클릭합니다.
 
-      1. 상위 패키지의 이름을 클릭합니다.
+     1. 상위 패키지의 이름을 클릭합니다.
 
 1. 커서를 배치 행 위에 놓고 **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**&#x200B;을(를) 클릭합니다.
 
@@ -92,7 +98,7 @@ ht-degree: 0%
 | -----------| ---------- | ---------- |
 | [!UICONTROL Zero Auctions] | 게시자가 입찰 요청을 보내지 않았습니다. | 게시자에게 연락하여 거래를 활성화하십시오. |
 | | 잘못된 외부 거래 ID를 입력하는 등 거래가 잘못 설정되었습니다. | 거래 세부 사항을 확인하고 거래를 편집합니다. |
-| [!UICONTROL Auctions but no Bids] | 배치 타깃팅이 거래에 대한 수신 입찰 요청과 일치하지 않습니다. <br><br> 예를 들어 게재에서 거래에 적합하지 않은 지역을 대상으로 할 수 있습니다. | 타겟팅 불일치를 방지하기 위해 필요에 따라 배치 타겟을 편집합니다. |
+| [!UICONTROL Auctions but no Bids] | 배치 타깃팅이 거래에 대한 수신 입찰 요청과 일치하지 않습니다. <br><br> 예를 들어, 배치는 거래에 적합하지 않은 지역을 타깃팅할 수 있습니다. | 타겟팅 불일치를 방지하기 위해 필요에 따라 배치 타겟을 편집합니다. |
 | | 게재에 거래에 필요한 미디어 유형의 활성 광고가 없습니다. | 올바른 미디어 유형의 광고를 만들어 배치에 첨부합니다. |
 | | 그 자리에는 충분한 예산이 없다. | 수신 요청에 대한 입찰을 허용하도록 배치 예산을 늘립니다. |
 | | 배치 플라이트 날짜가 거래의 노출 전달 날짜와 겹치지 않습니다. | 필요에 따라 배치의 플라이트 날짜를 편집합니다. |

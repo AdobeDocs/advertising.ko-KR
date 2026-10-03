@@ -3,7 +3,13 @@ title: (새 UI) 수동으로 광고 네트워크 데이터 동기화
 description: 새 UI에서 지원되는 광고 네트워크에 대한 캠페인 구조 및 캠페인 엔티티의 동기화를 수동으로 트리거하는 방법을 알아봅니다.
 feature: Search Campaign Management
 exl-id: 5e857713-53f0-4d90-8b7a-18a3675d320e
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%

@@ -1,26 +1,33 @@
 ---
-title: ' [!DNL Google Analytics] 데이터 원본을 구성하기 위한 필수 구성 요소'
-description: ' [!DNL Google Analytics] 데이터 원본을 구성하기 전에 완료해야 하는 단계에 대해 알아봅니다.'
+title: '[!DNL Google Analytics] 데이터 원본을 구성하기 위한 필수 구성 요소'
+description: '[!DNL Google Analytics] 데이터 원본을 구성하기 전에 완료해야 하는 단계에 대해 알아봅니다.'
 role: User, Admin
 exl-id: 97b0c149-5f82-4a1e-a5d9-aeab43cbd88f
 feature: Search Admin, Search Data Sources
-TQID: https://experienceleague.adobe.com/viBRqiwqJm2BabtLP7b3h1TMTjkeITeSVA1vMMmbrPY
+TQID: 'https://experienceleague.adobe.com/viBRqiwqJm2BabtLP7b3h1TMTjkeITeSVA1vMMmbrPY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
 subfeature_v2:
   - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+    internal-label: Data sources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '407'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Analytics] 데이터 원본을 구성하기 위한 필수 구성 요소
 
 [!DNL Google Analytics] 데이터 소스를 설정하려면 먼저 Search, Social 및 Commerce 쿼리 문자열 매개 변수 &quot;ef_id&quot;를 기본 키로 설정하여 [!DNL Google Analytics]의 데이터를 Search, Social 및 Commerce에 전달해야 합니다. 데이터를 동기화할 각 [!DNL Google Analytics] 계정 및 속성 조합에 대한 기본 키를 설정합니다. 조직의 다른 사용자가 이러한 작업을 완료해야 할 수 있습니다. 자세한 내용은 아래를 참조하십시오.
@@ -63,8 +70,8 @@ ef_id가 포함되지 않은 경우 Adobe 계정 팀에 도움을 요청하십�
 >
 >* [동기화 정보 [!DNL Google Analytics] 전환 지표](data-source-about.md)
 >* [데이터 소스로  [!DNL Google Analytics] 보기 구성](data-source-configure.md)
->* [데이터 원본 편집 [!DNL Google Analytics] 2&rbrace;](data-source-edit.md)
+>* [데이터 원본 편집 [!DNL Google Analytics] 2}](data-source-edit.md)
 >* [데이터 원본 동기화 일시 중지](data-source-pause.md)
->* [데이터 원본 다시 인증 [!DNL Google Analytics] 2&rbrace;](data-source-reauthenticate.md)
+>* [데이터 원본 다시 인증 [!DNL Google Analytics] 2}](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 데이터 원본 설정](data-source-settings.md)
 >* [부록 - 사용 가능 [!DNL Google Analytics] 지표](data-source-ga-metrics.md)

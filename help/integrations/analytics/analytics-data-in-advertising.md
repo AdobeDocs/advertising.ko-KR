@@ -3,21 +3,28 @@ title: Adobe Advertising의 [!DNL Analytics] 데이터
 description: Adobe Advertising의 [!DNL Analytics] 데이터
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-TQID: https://experienceleague.adobe.com/Op96b-n8lH2vLwBfUjlJdunp65Y5o2-gYxaEWFwH2m8
+TQID: 'https://experienceleague.adobe.com/Op96b-n8lH2vLwBfUjlJdunp65Y5o2-gYxaEWFwH2m8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+    internal-label: Developer
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: '345'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising의 [!DNL Analytics] 데이터
 
 *Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
@@ -41,8 +48,8 @@ ht-degree: 0%
 * [!UICONTROL Timespent_secs_total]: 전환 확인 기간 내의 모든 방문에서 사이트에서 보낸 총 시간(초)입니다.
 * [!UICONTROL Pageviews_1stvisit]: 방문자가 처음 방문하는 동안 사이트에 대한 페이지 보기 수입니다.
 * [!UICONTROL Pageviews_total]: 전환 확인 기간 내에 있는 모든 방문에 대한 사이트의 총 페이지 보기 수입니다.
-* [[!UICONTROL Bounces] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=ko)
-* [[!UICONTROL Visits] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=ko)
+* [[!UICONTROL Bounces] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
+* [[!UICONTROL Visits] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
 * [!UICONTROL ef_id_instances]: [!DNL Analytics]에서 [!UICONTROL EF ID]을(를) 수집한 횟수입니다.
 
 ## 전환 지표
@@ -51,14 +58,14 @@ ht-degree: 0%
 
 ### 표준 전환 지표
 
-* [[!UICONTROL Revenue] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html?lang=ko)
-* [[!UICONTROL Orders] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=ko)
-* [[!UICONTROL Units] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=ko)
-* [[!UICONTROL Carts] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html?lang=ko)
-* [[!UICONTROL Cart Views] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=ko)
-* [[!UICONTROL Checkouts] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=ko)
-* [[!UICONTROL Cart Additions] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html?lang=ko)
-* [[!UICONTROL Cart Removals] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=ko)
+* [[!UICONTROL Revenue] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html)
+* [[!UICONTROL Orders] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html)
+* [[!UICONTROL Units] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html)
+* [[!UICONTROL Carts] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html)
+* [[!UICONTROL Cart Views] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html)
+* [[!UICONTROL Checkouts] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html)
+* [[!UICONTROL Cart Additions] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html)
+* [[!UICONTROL Cart Removals] 지표](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html)
 
 ### 사용자 지정 전환 지표
 

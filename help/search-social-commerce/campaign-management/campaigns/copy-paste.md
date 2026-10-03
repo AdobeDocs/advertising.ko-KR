@@ -3,18 +3,21 @@ title: 복사 및 붙여넣기를 사용하여 캠페인 데이터 일괄 생성
 description: 복사 및 붙여넣기 기능을 사용하여 캠페인 데이터를 대량으로 관리하는 방법을 알아봅니다.
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c
+TQID: 'https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: '489'
 ht-degree: 0%
-
 ---
-
 # 복사 및 붙여넣기를 사용하여 캠페인 데이터 일괄 생성 및 편집
 
 *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] 및 기존 [!DNL Baidu] 계정만*
@@ -47,9 +50,9 @@ ht-degree: 0%
 
    * 붙여 넣은 데이터에는 머리글 행과 필요한 캠페인 개체 값이 포함되어야 합니다. [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google 광고](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY 광고](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo!에 필요한 일괄 시트 열을 참조하십시오. 네트워크 표시](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) 및 [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md). 열 순서는 중요하지 않습니다.
 
-      * 편집할 기존 객체의 경우 관련 ID 열, 엔티티 이름 및 편집할 속성을 모두 포함해야 합니다. 개체의 숫자 ID는 편집하지 마십시오.
+     * 편집할 기존 객체의 경우 관련 ID 열, 엔티티 이름 및 편집할 속성을 모두 포함해야 합니다. 개체의 숫자 ID는 편집하지 마십시오.
 
-      * 새 캠페인 객체의 경우 모든 관련 엔티티 이름과 속성을 포함하지만 자동으로 생성되는 객체 ID는 포함하지 마십시오. 예를 들어 새 광고를 만드는 경우 [!UICONTROL Ad ID] 필드를 비워 둡니다. 개체를 게시하면 광고 네트워크에서 ID를 자동으로 만듭니다.
+     * 새 캠페인 객체의 경우 모든 관련 엔티티 이름과 속성을 포함하지만 자동으로 생성되는 객체 ID는 포함하지 마십시오. 예를 들어 새 광고를 만드는 경우 [!UICONTROL Ad ID] 필드를 비워 둡니다. 개체를 게시하면 광고 네트워크에서 ID를 자동으로 만듭니다.
 
    * 필요하지 않은 열의 값은 null(비어 있음)일 수 있지만 각 행에는 탭으로 구분된 동일한 수의 값이 있어야 합니다.
 

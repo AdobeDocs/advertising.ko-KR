@@ -3,28 +3,37 @@ title: Adobe Advertising 광고 요구 사항 정책
 description: 광고 요구 사항에 대해서는 정책을 참조하십시오.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-TQID: https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU
+TQID: 'https://experienceleague.adobe.com/Od9i55zraQgaZGD1iWLFX6CcfXnUqCsrHQHt58tiHfU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: bc1ebc31-ef28-453d-ab0e-79fb34941421
+    internal-label: Policies
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
   - id: fcb67316-5ddd-4bee-82b6-d36475c67b56
+    internal-label: Privacy
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2224'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising 광고 요구 사항 정책
 
 *마지막으로 업데이트된 정책: 2024년 7월 17일<!-- (except for formatting changes unrelated to content)-->*
@@ -67,7 +76,7 @@ ht-degree: 0%
 
 * **담배**. 광고는 담배 제품 또는 전자 담배를 포함한 액세서리의 판매 또는 사용을 제안하거나 촉진할 수 없습니다.
 
-* **욕설과 저속하거나 음란한 언어.** 광고에는 욕설이나 저속한 언어 또는 음란한 언어가 포함될 수 없습니다. 광고에는 같은 효과를 내고자 하는 언어는 포함되지 않을 수 있지만 욕설을 모호하게 합니다.
+* **욕설과 저속하거나 음란한 언어** 광고에는 욕설이나 저속한 언어 또는 음란한 언어가 포함될 수 없습니다. 광고에는 같은 효과를 내고자 하는 언어는 포함되지 않을 수 있지만 욕설을 모호하게 합니다.
 
 * **불쾌한 광고**. 광고는 혐오 발언 또는 종교적 불관용성을 조장하거나 관련시킬 수 없으며 인종 또는 민족, 종교, 장애, 의료 또는 유전 상태, 연령, 국적 또는 국가 출신, 퇴역 군인 지위, 난민 상태, 이민 상태, 성적 지향, 성별, 성별, 성별 정체성 또는 시스템적 차별 또는 주위와 관련된 기타 특성을 기준으로 개인 또는 집단을 비하할 수 없습니다.
 
@@ -125,22 +134,22 @@ ht-degree: 0%
 
 
 
-   * 종교적이거나 유사한 신앙 또는 소속
-   * 인종, 색상 또는 민족적 기원
-   * 성적 이력, 흥미 또는 성향
-   * 트랜스젠더 식별
-   * 유전 또는 생체 정보
-   * 음수 재무 상태(신용 점수 등) 또는 범죄 기록, 이력 또는 유죄 판결
-   * 건강 또는 의료 기록(처방 기록 포함)
-   * 개인적인 어려움(이혼, 사별 등)과 관련된 관계 또는 관계 상태
-   * 범죄, 학대 또는 외상성 사건의 피해자로서의 지위를 포함한 학대 및 트라우마
-   * 사회적 신분이나 이민 또는 난민 지위에 기반한 경우를 포함하여 소외되거나 취약한 집단에 가입함
+  * 종교적이거나 유사한 신앙 또는 소속
+  * 인종, 색상 또는 민족적 기원
+  * 성적 이력, 흥미 또는 성향
+  * 트랜스젠더 식별
+  * 유전 또는 생체 정보
+  * 음수 재무 상태(신용 점수 등) 또는 범죄 기록, 이력 또는 유죄 판결
+  * 건강 또는 의료 기록(처방 기록 포함)
+  * 개인적인 어려움(이혼, 사별 등)과 관련된 관계 또는 관계 상태
+  * 범죄, 학대 또는 외상성 사건의 피해자로서의 지위를 포함한 학대 및 트라우마
+  * 사회적 신분이나 이민 또는 난민 지위에 기반한 경우를 포함하여 소외되거나 취약한 집단에 가입함
 
 * **유럽 연합**. 또한 유럽 연합에서는 사용자에 대해 알고 있거나 추론했는지 여부에 관계없이 다음 요인에 따라 대상자를 대상으로 하거나 대상자로 안내할 수 없습니다.
 
-   * 정치적 제휴
-   * 노동조합 가입
-   * 개인 데이터의 기타 특수 범주
+  * 정치적 제휴
+  * 노동조합 가입
+  * 개인 데이터의 기타 특수 범주
 
 * **상태 관련 타깃팅**. 귀하는 서비스를 사용하여 민감한 건강 관련 데이터를 수집하거나 사용자의 민감한 건강 또는 의학적 치료에 대한 추론을 할 수 없습니다. 특히, 귀하는 본 서비스를 사용하여 다음 중 어느 것에 대해서도 광고를 타겟팅할 수 없습니다: 모든 형태의 암, 정신 건강 관련 상태, 또는 성병. 광고는 여드름, 알레르기, 치아, 시력, 속쓰림, 감기 및 독감, 부비동, 두통, 요통, 응급 처치, 인후통, 혈당 관리, 식단 및 건강, 제모, 비타민 및 보충제를 포함한 민감하지 않은 건강 상태를 대상으로 할 수 있습니다.
 

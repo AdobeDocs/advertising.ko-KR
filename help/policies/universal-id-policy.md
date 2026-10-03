@@ -3,22 +3,30 @@ title: Adobe Advertising 범용 ID 요구 사항 정책
 description: 범용 ID 사용에 대한 정책을 참조하십시오.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-TQID: https://experienceleague.adobe.com/vDksSc1PHzUM0ZkdqbG2Gq3s5-QjY8Q3LQ1tdD8mP64
+TQID: 'https://experienceleague.adobe.com/vDksSc1PHzUM0ZkdqbG2Gq3s5-QjY8Q3LQ1tdD8mP64'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: bc1ebc31-ef28-453d-ab0e-79fb34941421
+    internal-label: Policies
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '707'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising 범용 ID 요구 사항 정책
 
 마지막 업데이트 날짜: 2024년 2월 29일
@@ -47,7 +55,7 @@ ht-degree: 0%
 
 ### UID 금지 국가
 
-서비스를 통해 UID2 범용 ID를 사용하도록 선택함으로써 귀하는 UID2 범용 ID와 관련하여 온디맨드 서비스를 통해 전송, 저장, 표시, 배포 또는 사용할 수 있는 모든 클라이언트 데이터가 본 문서 A[에 나열된 &#x200B;](#prohibited-countries-uid2)UID2 금지 국가에 거주하는 개인과 관련이 없음을 확인하는 데 동의하게 됩니다.
+서비스를 통해 UID2 범용 ID를 사용하도록 선택함으로써 귀하는 UID2 범용 ID와 관련하여 온디맨드 서비스를 통해 전송, 저장, 표시, 배포 또는 사용할 수 있는 모든 클라이언트 데이터가 본 문서 A](#prohibited-countries-uid2)에 나열된 [UID2 금지 국가에 거주하는 개인과 관련이 없음을 확인하는 데 동의하게 됩니다.
 
 ## 차별 없음
 

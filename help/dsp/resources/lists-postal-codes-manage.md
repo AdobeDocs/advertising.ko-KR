@@ -4,19 +4,23 @@ description: 배치 타깃팅을 위해 우편 번호 목록을 만들고 관리
 feature: DSP Placements
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 405
+source-wordcount: '405'
 ht-degree: 0%
-
 ---
-
 # 우편 번호 목록 관리
 
 배치 타깃팅을 위해 개별 국가의 우편 번호 목록을 만들고 관리할 수 있습니다. 배치 설정 내의 특정 우편 번호 목록을 타겟팅하거나 제외합니다.
@@ -43,33 +47,33 @@ ht-degree: 0%
 
    * 추가할 우편 번호를 수동으로 입력하거나 붙여넣으려면:
 
-      1. **[!UICONTROL Add Postal Codes]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Add Postal Codes]**&#x200B;을(를) 클릭합니다.
 
-      1. 각 우편 번호가 별도의 줄에 있는 최대 25,000개의 우편 번호를 입력하거나 붙여넣습니다.
+     1. 각 우편 번호가 별도의 줄에 있는 최대 25,000개의 우편 번호를 입력하거나 붙여넣습니다.
 
-      1. **[!UICONTROL Validate]**&#x200B;을(를) 클릭하여 우편 번호가 유효한지 확인합니다.
+     1. **[!UICONTROL Validate]**&#x200B;을(를) 클릭하여 우편 번호가 유효한지 확인합니다.
 
-         [!UICONTROL Validation Results]에서 잘못된 우편 번호가 식별됩니다. 계속하면 유효한 우편 번호만 추가됩니다.
+        [!UICONTROL Validation Results]에서 잘못된 우편 번호가 식별됩니다. 계속하면 유효한 우편 번호만 추가됩니다.
 
-         * 잘못된 우편 번호를 XLSX([!DNL Microsoft Excel] 스프레드시트) 형식으로 다운로드하려면 **[!UICONTROL Download invalid codes]**&#x200B;을(를) 클릭합니다. 브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+        * 잘못된 우편 번호를 XLSX([!DNL Microsoft Excel] 스프레드시트) 형식으로 다운로드하려면 **[!UICONTROL Download invalid codes]**&#x200B;을(를) 클릭합니다. 브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
 
-      1. **[!UICONTROL Add to list]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Add to list]**&#x200B;을(를) 클릭합니다.
 
    * 특정 우편 번호를 제거하려면 다음 중 하나를 수행하십시오.
 
-      * 제거할 우편 번호를 선택하려면 다음을 수행하십시오.
+     * 제거할 우편 번호를 선택하려면 다음을 수행하십시오.
 
-         1. 목록에서 제거할 각 우편 번호 옆의 확인란을 선택합니다.
+       1. 목록에서 제거할 각 우편 번호 옆의 확인란을 선택합니다.
 
-         1. **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
+       1. **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
 
-         1. 확인 메시지에서 **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
+       1. 확인 메시지에서 **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
 
-      * 모든 우편번호를 제거하려면:
+     * 모든 우편번호를 제거하려면:
 
-         1. **[!UICONTROL Remove All]**&#x200B;을(를) 클릭합니다.
+       1. **[!UICONTROL Remove All]**&#x200B;을(를) 클릭합니다.
 
-         1. 확인 메시지에서 **[!UICONTROL Remove All]**&#x200B;을(를) 클릭합니다.
+       1. 확인 메시지에서 **[!UICONTROL Remove All]**&#x200B;을(를) 클릭합니다.
 
 ## 우편 번호 목록 편집
 
@@ -81,33 +85,33 @@ ht-degree: 0%
 
    * 추가할 우편 번호를 수동으로 입력하거나 붙여넣으려면:
 
-      1. **[!UICONTROL Add Postal Codes]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Add Postal Codes]**&#x200B;을(를) 클릭합니다.
 
-      1. 각 우편 번호가 별도의 줄에 있는 최대 25,000개의 우편 번호를 입력하거나 붙여넣습니다.
+     1. 각 우편 번호가 별도의 줄에 있는 최대 25,000개의 우편 번호를 입력하거나 붙여넣습니다.
 
-      1. **[!UICONTROL Validate]**&#x200B;을(를) 클릭하여 우편 번호가 유효한지 확인합니다.
+     1. **[!UICONTROL Validate]**&#x200B;을(를) 클릭하여 우편 번호가 유효한지 확인합니다.
 
-         [!UICONTROL Validation Results]에서 잘못된 우편 번호가 식별됩니다. 계속하면 유효한 우편 번호만 추가됩니다.
+        [!UICONTROL Validation Results]에서 잘못된 우편 번호가 식별됩니다. 계속하면 유효한 우편 번호만 추가됩니다.
 
-         * 잘못된 우편 번호를 XLSX([!DNL Microsoft Excel] 스프레드시트) 형식으로 다운로드하려면 **[!UICONTROL Download invalid codes]**&#x200B;을(를) 클릭합니다. 브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+        * 잘못된 우편 번호를 XLSX([!DNL Microsoft Excel] 스프레드시트) 형식으로 다운로드하려면 **[!UICONTROL Download invalid codes]**&#x200B;을(를) 클릭합니다. 브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
 
-      1. **[!UICONTROL Add to list]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Add to list]**&#x200B;을(를) 클릭합니다.
 
    * 특정 우편 번호를 제거하려면 다음 중 하나를 수행하십시오.
 
-      * 제거할 우편 번호를 선택하려면 다음을 수행하십시오.
+     * 제거할 우편 번호를 선택하려면 다음을 수행하십시오.
 
-         1. 목록에서 제거할 각 우편 번호 옆의 확인란을 선택합니다.
+       1. 목록에서 제거할 각 우편 번호 옆의 확인란을 선택합니다.
 
-         1. **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
+       1. **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
 
-         1. 확인 메시지에서 **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
+       1. 확인 메시지에서 **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
 
-      * 모든 우편번호를 제거하려면:
+     * 모든 우편번호를 제거하려면:
 
-         1. **[!UICONTROL Remove All]**&#x200B;을(를) 클릭합니다.
+       1. **[!UICONTROL Remove All]**&#x200B;을(를) 클릭합니다.
 
-         1. 확인 메시지에서 **[!UICONTROL Remove All]**&#x200B;을(를) 클릭합니다.
+       1. 확인 메시지에서 **[!UICONTROL Remove All]**&#x200B;을(를) 클릭합니다.
 
 ## 우편 번호 목록 내보내기
 

@@ -1,20 +1,23 @@
 ---
-title: ' [!DNL Google Ads] 동적 검색 광고 구현'
-description: ' [!DNL Google Ads] 동적 검색 광고 설정 워크플로에 대해 알아봅니다.'
+title: '[!DNL Google Ads] 동적 검색 광고 구현'
+description: '[!DNL Google Ads] 동적 검색 광고를 설정하는 워크플로에 대해 알아봅니다.'
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE
+TQID: 'https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] 동적 검색 광고 구현
 
 광고 수준 또는 키워드 및 광고 수준 추적만 포함하는 *[!DNL Google Ads]개의 검색 전용 캠페인*
@@ -45,7 +48,7 @@ ht-degree: 0%
 
    1. (선택 사항) 계정 수준 추적 템플릿을 무시하지만 더 낮은 수준에서 재정의할 수 있는 캠페인 수준 추적 템플릿을 구성합니다.
 
-      (서버측 추적이 없는 Adobe Analytics을 사용하는 광고주) 검색, 소셜 및 Commerce에서 Analytics로의 역방향 피드에 대한 추적을 포함하려면 AMO ID 추적 코드를 계정 수준 추가 매개 변수에 추가하고, 이렇게 하면 코드를 최종 URL에 추가합니다. &quot;[에서 사용하는  [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID&quot;를 참조하십시오.&quot;
+      (서버측 추적이 없는 Adobe Analytics을 사용하는 광고주) 검색, 소셜 및 Commerce에서 Analytics로의 역방향 피드에 대한 추적을 포함하려면 AMO ID 추적 코드를 계정 수준 추가 매개 변수에 추가하고, 이렇게 하면 코드를 최종 URL에 추가합니다. &quot; [!DNL Analytics]](/help/integrations/analytics/ids.md)에서 사용하는 [Adobe Advertising ID&quot;를 참조하십시오.&quot;
 
 1. 다음 단계를 포함하여 캠페인 내에서 [광고 그룹을 만듭니다](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md).
 
@@ -62,7 +65,7 @@ ht-degree: 0%
 1. 광고 그룹 내에서 [각 동적 검색 광고를 만듭니다](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md).
 
    [!DNL Google Ads]은(는) 각 광고의 헤드라인, 표시 URL 및 랜딩 페이지 URL을 동적으로 생성합니다. 더 높은 수준의 추적 템플릿을 무시하는 광고 수준 추적 템플릿에 리디렉션 및 추적을 선택적으로 추가할 수 있습니다.
-더 높은 수준의 Adobe Analytics 추적을 광고 수준 추적으로 재정의하려면 여기에 추가하십시오. 1e단계 및 2c단계를 참조하십시오.
+   더 높은 수준의 Adobe Analytics 추적을 광고 수준 추적으로 재정의하려면 여기에 추가하십시오. 1e단계 및 2c단계를 참조하십시오.
 
 1. (캠페인 설정의 DSA 옵션 섹션에 루트 도메인과 도메인 언어를 포함하지 않을 때 필요하며, 그렇지 않으면 선택 사항) 광고 그룹에 대해 [동적 검색 대상](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md)을 만듭니다. 광고 그룹 수준 입찰을 타겟 수준 입찰로 선택적으로 대체할 수 있습니다.
 

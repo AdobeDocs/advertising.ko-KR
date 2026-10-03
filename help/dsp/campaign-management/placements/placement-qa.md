@@ -3,22 +3,26 @@ title: 일괄 시트를 사용하여 배치 설정 검토 및 편집
 description: 스프레드시트를 사용하여 주요 배치 설정을 대량으로 검토하고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-TQID: https://experienceleague.adobe.com/fVhs2093-NpwCXHIjGsejlkPJUzINtQ93ghUM4XaIYs
+TQID: 'https://experienceleague.adobe.com/fVhs2093-NpwCXHIjGsejlkPJUzINtQ93ghUM4XaIYs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: '578'
 ht-degree: 0%
-
 ---
-
 # 일괄 시트를 사용하여 배치 설정 검토 및 편집
 
 하나 이상의 배치 또는 캠페인의 모든 배치에 대한 설정을 XLSX([!DNL Microsoft Excel] 스프레드시트) 형식으로 다운로드하여 검토할 수 있습니다. 이 기능을 사용하여 다음과 같은 세부 사항을 신속하게 검토할 수 있습니다.

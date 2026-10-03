@@ -3,25 +3,31 @@ title: '[!UICONTROL MSA Network Impression Share Report]'
 description: '[!UICONTROL MSA Network Impression Share Report]에 대해 알아봅니다.'
 feature: Search Reports, Search Specialty Reports
 exl-id: 274f7bac-5eea-4e21-bcdb-ebf6250c4959
-TQID: https://experienceleague.adobe.com/eJ7bmM92y9h-vkhBd5hBcIkGU0ic4HIxg2MVIN7K-1M
+TQID: 'https://experienceleague.adobe.com/eJ7bmM92y9h-vkhBd5hBcIkGU0ic4HIxg2MVIN7K-1M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 157
+source-wordcount: '158'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL MSA Network Impression Share Report]
 
 *[!DNL Microsoft Advertising]개의 계정만*
 
-이 보고서는 지정된 [!DNL Microsoft] 계정에 대한 광고 배포(검색 또는 대상) 및 네트워크(예: [!DNL Microsoft Advertising] 사이트 및 선택 트래픽 또는 대상)별 캠페인 수준 노출 점유율 지표 및 기본 트래픽 지표(비용, 클릭 수, 노출 수)를 표시합니다.
+이 보고서는 지정된 [!DNL Microsoft Advertising] 계정에 대한 광고 배포(검색 또는 대상) 및 네트워크(예: [!DNL Microsoft] 사이트 및 선택 트래픽 또는 대상)별 캠페인 수준 노출 점유율 지표 및 기본 트래픽 지표(비용, 클릭 수, 노출 수)를 표시합니다.
 
 지표 열만 있고 차원은 없는 보고서를 실행하면, 생성된 보고서에는 두 개의 중복 행, 즉 집계된 데이터가 있는 행과 모든 지표가 있는 행이 포함됩니다.
 

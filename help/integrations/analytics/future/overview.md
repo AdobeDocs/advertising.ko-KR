@@ -3,13 +3,20 @@ title: Adobe Analytics과 Adobe Advertising 통합
 description: Adobe Advertising에서 Adobe Analytics과 데이터를 교환하는 방법과 검색, 소셜 및 Commerce 내에서 데이터를 사용하는 방법에 대해 알아봅니다.
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
-
 ---
-
 # Adobe Analytics과 Adobe Advertising 통합
 
 다음과 같은 방법으로 Adobe Advertising을 Analytics와 통합할 수 있습니다.
@@ -54,7 +61,7 @@ ht-degree: 0%
 
 ### [!DNL Analytics]개의 세그먼트를 사용하여 광고를 타깃팅하거나 제외합니다. {#analytics-targets}
 
-* ([!DNL Search, Social, & Commerce]을(를) 사용하는 옵트인 광고주) [!DNL Google Ads] 캠페인에서  [!DNL Analytics] 세그먼트[&#128279;](#audience-manager-google-audiences)를 사용하여 만든 [!DNL Google Ads] 대상을 캠페인 수준 또는 광고 그룹 수준 타겟 또는 제외로 사용할 수 있습니다.
+* ([!DNL Search, Social, & Commerce]을(를) 사용하는 옵트인 광고주) [!DNL Google Ads] 캠페인에서  [!DNL Analytics] 세그먼트](#audience-manager-google-audiences)를 사용하여 [만든 [!DNL Google Ads] 대상을 캠페인 수준 또는 광고 그룹 수준 타겟 또는 제외로 사용할 수 있습니다.
 
 * (DSP을 사용하는 광고주) 기존 [!DNL Analytics] 세그먼트를 광고 배치 대상으로 사용할 수 있습니다. 재사용 가능한 대상에 세그먼트를 선택적으로 포함할 수 있으며, 이 대상은 여러 배치에 대한 타겟 또는 제외로 사용할 수 있습니다.
 

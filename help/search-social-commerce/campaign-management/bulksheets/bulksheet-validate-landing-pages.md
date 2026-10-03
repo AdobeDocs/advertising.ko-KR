@@ -3,18 +3,21 @@ title: 일괄 시트 파일의 랜딩 페이지 유효성 검사
 description: 단일 계정 일괄 시트 파일에서 대상 URL의 유효성을 검사하는 방법을 알아봅니다.
 exl-id: 191cb1bc-54a9-4c6c-a29c-f3cbae08e0d8
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/gHVP2daXHY2iS6uibwNj4IxQyFjQReIgR54As8nc9Y8
+TQID: 'https://experienceleague.adobe.com/gHVP2daXHY2iS6uibwNj4IxQyFjQReIgR54As8nc9Y8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: '535'
 ht-degree: 0%
-
 ---
-
 # 일괄 시트 파일의 랜딩 페이지 유효성 검사
 
 *대상 URL만 있는 계정*

@@ -3,22 +3,28 @@ title: 광고 네트워크 계정 및 캠페인 구현 개요
 description: 광고 네트워크 계정 설정, 동기화 및 관리와 관련된 작업에 대해 알아봅니다.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY
+TQID: 'https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 992
+source-wordcount: '992'
 ht-degree: 0%
-
 ---
-
 # 광고 네트워크 계정 및 캠페인 구현 개요
 
 Adobe은 각 광고주와 함께 광고 네트워크 계정 및 캠페인을 설정합니다. 여기에는 광고주의 계정에 연결하고 동기화하도록 검색, 소셜 및 Commerce 구성, 필요에 따라 새 캠페인 및 캠페인 구성 요소 만들기, 구성 요소 광고에 대한 추적 설정, 선택적 포트폴리오에 캠페인을 추가하여 검색, 소셜 및 Commerce이 광고에서 입찰을 최적화할 수 있도록 허용, 초기 비용, 클릭 및 매출 데이터 유효성 검사가 포함됩니다.
@@ -69,13 +75,13 @@ Adobe은 각 광고주와 함께 광고 네트워크 계정 및 캠페인을 설
 
    1. 전환 추적을 설정합니다. 구현에 따라, 광고주의 웹 페이지에 전환 추적 태그를 추가하거나 광고주가 별도로 수집한 전환 데이터에 대해 일별 피드 드롭을 설정하는 작업이 여기에 포함될 수 있습니다.
 
-      Adobe Advertising 전환 추적 서비스를 사용하는 경우 검색, 소셜 및 Commerce 내에서 [전환 추적 태그를 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)하거나 Adobe Experience Platform의 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=ko)&#x200B;(이전의 Adobe Experience Platform Launch)를 사용할 수 있습니다.
+      Adobe Advertising 전환 추적 서비스를 사용하는 경우 검색, 소셜 및 Commerce 내에서 [전환 추적 태그를 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)하거나 Adobe Experience Platform의 [태그](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html)&#x200B;(이전의 Adobe Experience Platform Launch)를 사용할 수 있습니다.
 
    1. 추적된 데이터의 유효성을 검사합니다.
 
    추적 설정에 대한 자세한 내용은 &quot;추적&quot; 장을 참조하십시오.
 
-1. (Adobe Analytics을 사용하는 광고주) 데이터를 교환할 수 있도록 [Adobe Advertising과 Analytics를 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko)합니다.
+1. (Adobe Analytics을 사용하는 광고주) 데이터를 교환할 수 있도록 [Adobe Advertising과 Analytics를 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)합니다.
 
 1. (Search, Social 및 Commerce에서 입찰, 캠페인 예산 및/또는 캠페인 입찰 전략 타겟을 최적화할 수 있도록 하려면. [지원되는 캠페인 유형](/help/search-social-commerce/introduction/supported-inventory.md)만 해당) [포트폴리오에 캠페인을 할당](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

@@ -1,20 +1,23 @@
 ---
 title: '[!DNL Microsoft Advertising] 제품 그룹 설정'
-description: ' [!DNL Microsoft Advertising] 쇼핑 제품 그룹의 설정을 참조합니다.'
+description: '[!DNL Microsoft Advertising] 쇼핑 제품 그룹에 대한 설정을 참조합니다.'
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/xbYc0Xe-FsgGq-jqZdzZ4Rj877BL6NCxb4utaEMmCdY
+TQID: 'https://experienceleague.adobe.com/xbYc0Xe-FsgGq-jqZdzZ4Rj877BL6NCxb4utaEMmCdY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] 제품 그룹 설정
 
 ## &quot;모든 제품&quot; 제품 그룹
@@ -58,4 +61,4 @@ ht-degree: 0%
 >* [쇼핑 제품 그룹 정보](product-group-about.md)
 >* [쇼핑 제품 그룹 관리](product-group-manage.md)
 >* [쇼핑 캠페인 제품 필터](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2&rbrace;](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [쇼핑 캠페인 구현 [!DNL Microsoft Advertising] 2}](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

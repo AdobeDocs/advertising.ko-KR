@@ -3,24 +3,29 @@ title: Advertising DSP의 캠페인 관리 기본 정보
 description: 캠페인 관리에 대해 알아봅니다.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
-TQID: https://experienceleague.adobe.com/7ysl-yqRsDNCkTKwzj1MKrsm3mQDMC5Cn5nb1gZ0seg
+TQID: 'https://experienceleague.adobe.com/7ysl-yqRsDNCkTKwzj1MKrsm3mQDMC5Cn5nb1gZ0seg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 194
+source-wordcount: '202'
 ht-degree: 0%
-
 ---
-
 # Advertising DSP의 캠페인 관리 기본 정보
 
 캠페인은 비행 설정의 중요한 프레임워크입니다. 모든 캠페인 수준 설정은 캠페인 내의 각 패키지 및 배치에 자동으로 적용됩니다. 각 캠페인은 특정 광고주와 연결됩니다.
@@ -46,4 +51,4 @@ ht-degree: 0%
 >
 >* [캠페인 만들기](campaign-create.md)
 >* [캠페인 설정](campaign-settings.md)
->* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=ko)
+>* [비디오: DSP 계정 구조 및 사용자 인터페이스](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

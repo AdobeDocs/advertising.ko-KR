@@ -3,20 +3,24 @@ title: 보고서 템플릿 편집
 description: 재사용 가능한 보고서 템플릿에 대한 설정을 편집하는 방법에 대해 알아봅니다.
 exl-id: f986bc75-e42c-4388-8cb1-305100678b1b
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/bb2qq2HUVdhjoMS41Jbd7kcZUrSrP7YCYCiYf6u753I
+TQID: 'https://experienceleague.adobe.com/bb2qq2HUVdhjoMS41Jbd7kcZUrSrP7YCYCiYf6u753I'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 109
+source-wordcount: '109'
 ht-degree: 0%
-
 ---
-
 # 보고서 템플릿 편집
 
 만든 보고서 템플릿에 대한 설정을 변경할 수 있습니다. 새 설정은 나중에 생성되는 템플릿을 사용하는 모든 보고서에 적용됩니다.
@@ -31,7 +35,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 설정을 편집할 때 [!UICONTROL Save as template] 섹션에서 &quot;[!UICONTROL Scheduling and Delivery]&quot; 옆의 확인란을 선택할 필요가 없습니다. 이렇게 하면 다른 이름으로 새 템플릿을 만들라는 메시지가 표시됩니다.
+   > 설정을 편집할 때 [!UICONTROL Scheduling and Delivery] 섹션에서 &quot;[!UICONTROL Save as template]&quot; 옆의 확인란을 선택할 필요가 없습니다. 이렇게 하면 다른 이름으로 새 템플릿을 만들라는 메시지가 표시됩니다.
 
 1. **[!UICONTROL Update Template]**&#x200B;을(를) 클릭합니다.
 

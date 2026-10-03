@@ -1,23 +1,28 @@
 ---
-title: ' [!DNL Google Ads] 계정의 필수 일괄 시트 데이터'
-description: ' [!DNL Google Ads] 계정의 일괄 시트에 있는 필수 머리글 필드 및 데이터 필드를 참조합니다.'
+title: '[!DNL Google Ads] 계정의 필수 일괄 시트 데이터'
+description: '[!DNL Google Ads] 계정의 일괄 시트에서 필수 헤더 필드와 데이터 필드를 참조합니다.'
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA
+TQID: 'https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a534a6eb822a22dcff7ca7ca9e8dcd4f3d75712c
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 8027
+source-wordcount: '8101'
 ht-degree: 0%
-
 ---
-
 # 부록 - [!DNL Google Ads] 계정에 대한 필수 일괄 시트 데이터
 
 [!DNL Google Ads] 캠페인 데이터를 일괄적으로 만들고 업데이트하려면 [!DNL Google Ads] 계정용으로 특별히 형식이 지정된 검색, 소셜 및 Commerce 일괄 시트 파일을 사용할 수 있습니다. a) [기존 계정에 대한 일괄 시트 파일을 필요한 파일 형식으로 생성](../bulksheet-download.md)하거나, b) 수동으로 만들 수 있습니다(&quot;[지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)&quot;에서 지원되는 파일 형식에 대한 일반 정보를 참조하십시오).
@@ -60,7 +65,7 @@ Add in when released:
 | [!UICONTROL Campaign Name] | 계정에 대한 캠페인을 식별하는 고유한 이름. |
 | [!UICONTROL Campaign Budget] | 금전적 기호와 구두점을 포함하거나 포함하지 않는 캠페인에 대한 일일 지출 제한. 이 값은 재정의되지만 계정 예산을 초과할 수 없습니다. |
 | [!UICONTROL Delivery Method] | <p>매일 캠페인에 대한 광고를 표시하는 속도:</p><ul><li><p><i>[!UICONTROL Standard (Distributed)]</i>(새 캠페인의 기본값): 광고 노출 횟수를 하루 전체에 분산합니다.</p></li><li><p><i>[!UICONTROL Accelerated]:</i>(2019년 10월에 더 이상 사용되지 않음) 예산에 도달할 때까지 가능한 한 자주 광고를 표시합니다. 그 결과, 오늘 오후에 광고가 표시되지 않을 수 있습니다.</p></li></ul> |
-| [!UICONTROL Channel Type] | <p>광고를 게재할 채널. 하나 이상의 옵션을 지정합니다.</p><ul><li><p><i>[!UICONTROL Search]</i>(새 캠페인의 기본값): [!DNL Google Ads] 검색 네트워크([!DNL Google Ads] 검색 및 검색 파트너 웹 사이트 포함)와 선택적으로 [!DNL Google Ads] 디스플레이 네트워크에도 광고를 게재합니다. <b>참고:</b> 검색 네트워크와 디스플레이 네트워크를 모두 대상으로 하는 캠페인은 입찰 최적화를 위해 포트폴리오에 추가할 수 없습니다.</p></li><li><p><i>[!UICONTROL Display]</i>: [!DNL Google Ads] 디스플레이 네트워크에만 광고를 배치합니다.</p></li><li><p><i>[!UICONTROL Shopping]</i>: [!DNL Google Ads] 쇼핑 네트워크(일부 국가)와 [!DNL Google Ads] 검색 네트워크(검색 및 검색 파트너 웹 사이트 [!DNL Google Ads]개 포함)에 쇼핑 광고를 게재합니다. 쇼핑 광고를 만들려면 [!DNL Google Merchant Center] 계정에 제품이 있어야 하며 [검색, 소셜 및 Commerce에서 계정에서 데이터를 다운로드하도록 허용](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)해야 합니다. 쇼핑 광고를 만드는 프로세스에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 2&rbrace;&quot;을 참조하십시오.](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)</p></li></ul> |
+| [!UICONTROL Channel Type] | <p>광고를 게재할 채널. 하나 이상의 옵션을 지정합니다.</p><ul><li><p><i>[!UICONTROL Search]</i>(새 캠페인의 기본값): [!DNL Google Ads] 검색 네트워크([!DNL Google Ads] 검색 및 검색 파트너 웹 사이트 포함)와 선택적으로 [!DNL Google Ads] 디스플레이 네트워크에도 광고를 게재합니다. <b>참고:</b> 검색 네트워크와 디스플레이 네트워크를 모두 대상으로 하는 캠페인은 입찰 최적화를 위해 포트폴리오에 추가할 수 없습니다.</p></li><li><p><i>[!UICONTROL Display]</i>: [!DNL Google Ads] 디스플레이 네트워크에만 광고를 배치합니다.</p></li><li><p><i>[!UICONTROL Shopping]</i>: [!DNL Google Ads] 쇼핑 네트워크(일부 국가)와 [!DNL Google Ads] 검색 네트워크(검색 및 검색 파트너 웹 사이트 [!DNL Google Ads]개 포함)에 쇼핑 광고를 게재합니다. 쇼핑 광고를 만들려면 [!DNL Google Merchant Center] 계정에 제품이 있어야 하며 [검색, 소셜 및 Commerce에서 계정에서 데이터를 다운로드하도록 허용](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)해야 합니다. 쇼핑 광고를 만드는 프로세스에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 2}&quot;을 참조하십시오.](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)</p></li></ul> |
 | [!UICONTROL Networks] | <p>광고를 배치할 위치. 하나 이상의 옵션을 지정합니다.</p><ul><li><p><i>[!UICONTROL Google Search]</i>: Google Search Network에서만 스폰서 검색 목록을 제공합니다.</p></li><li><p><i>[!UICONTROL Search Partners]</i>: Google의 검색 파트너에 대한 스폰서 검색 목록입니다.</p></li><li><p><i>[!UICONTROL Content]</i>: 네트워크 목록 표시에 대한 입찰을 진행합니다.</p></li><li><p><i>[!UICONTROL All]</i>(새 캠페인의 기본값): Google 검색, 파트너 검색 및 콘텐츠를 타깃팅합니다.</p></li></ul> |
 | [!UICONTROL DSA Domain Name] | <p>(Search Network만 해당, 확장된 동적 검색 광고에만 적용 가능) 광고 네트워크에서 동적 검색 광고를 타깃팅하는 데 사용하는 콘텐츠를 가진 웹 사이트의 루트 도메인(example.com 등) 또는 하위 도메인(shoes.example.com 등)입니다.<br><br><b>참고:</b></p><ul><li><p>확장된 동적 검색 광고는 키워드가 아닌 웹 사이트 콘텐츠를 타겟팅합니다.</p></li><li><p>타겟팅할 광고 네트워크의 유기 검색 색인으로 도메인을 색인화해야 합니다.</p></li><li><p>도메인을 지정하지 않는 경우 각 광고 그룹에 대해 모든 웹 사이트 페이지 또는 그 하위 집합을 타겟팅하는 동적 검색 타겟을 만들어야 합니다.</p></li></ul> |
 | [!UICONTROL DSA Domain Language] | (검색 네트워크만 해당, 확장된 동적 검색 광고에만 해당) 지정된 웹 사이트 도메인의 언어입니다. <b>참고:</b> 도메인에 여러 언어로 된 페이지가 포함되어 있고 이러한 페이지를 모두 대상으로 지정하려면 각 언어에 대해 별도의 캠페인을 만드십시오. |
@@ -75,7 +80,7 @@ Add in when released:
 | [!UICONTROL Location Type] | (위치를 포함하는 경우) [위치 유형](https://developers.google.com/google-ads/api/data/geotargets)입니다. |
 | [!UICONTROL Device] | 캠페인 또는 광고 그룹 수준에서 입찰 조정을 수행하는 장치 유형: <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i> 또는 <i>[!UICONTROL desktop]</i>. |
 | [!UICONTROL Bid Adjustment] | <p>([!UICONTROL Location], [!UICONTROL Device] 또는 [!UICONTROL RLSA] 대상을 포함하는 경우) 특정 위치, 특정 장치 유형 또는 특정 대상 대상의 광고 입찰을 조정할지 여부를 지정합니다.</p><ul><li><p>키워드 수준의 입찰(0% 차이)을 사용하려면 0을 입력합니다. 새 대상의 경우 이 항목을 비워 둘 수도 있습니다.</p></li><li><p>이 대상에 대해 다른 입찰가를 사용하려면 입찰가를 높이거나 낮출 백분율을 입력합니다.</p></li><ul><li><p>위치 및 RLSA 타겟의 경우 유효한 백분율은 -90에서 900까지입니다.</p></li><li><p>장치 입찰 조정의 경우 유효한 백분율은 다음과 같습니다.</p></li><ul><li><p>(캠페인)-100(장치 유형에서 광고를 입찰하지 않음) 또는 -90-900</p></li><li><p>(광고 그룹) 스마트폰 및 태블릿의 경우 -100(장치 유형에 대해 입찰하지 않음), 모든 장치 유형의 경우 -90 ~ 900.</p></li></ul></ul><li><p>(기존 캠페인 및 광고 그룹) 기존 입찰 조정을 사용하려면 이 항목을 비워 둡니다.</p></li></ul> |
-| [!UICONTROL Adobe Rec Bid Adjustment] | (정보 목적으로 생성된 일괄 시트에 포함됨) Adobe에서 캠페인 수준 위치 대상 또는 RLSA에 권장하는 읽기 전용 입찰 조정입니다. 가중 전환 지표를 사용하는 목표를 가진 포트폴리오([!UICONTROL Maximize Clicks] 목표가 아님)에 캠페인이 있고, 최근 90일 동안 최소 5번의 클릭으로 두 개 이상의 위치 대상 또는 RLSA가 포함된 경우 또는 비용 USD가 5개인 경우에만 계산됩니다.</p><p>위치 타겟 또는 RLSA를 수동으로 편집하여 권장 값을 사용하려는 경우, 위치 타겟 또는 RLSA를 만든 후 최소 2주를 기다린 후 충분한 데이터 수집을 허용하고 값을 일주일에 두 번 이상 변경하지 마십시오. |
+| [!UICONTROL Adobe Rec Bid Adjustment] | (정보 목적으로 생성된 일괄 시트에 포함됨) Adobe에서 캠페인 수준 위치 대상 또는 RLSA에 권장하는 읽기 전용 입찰 조정입니다. 가중 전환 지표를 사용하는 목표를 가진 포트폴리오([!UICONTROL Maximize Clicks] 목표가 아님)에 캠페인이 있고, 최근 90일 동안 최소 5번의 클릭으로 두 개 이상의 위치 대상 또는 RLSA가 있거나 5번의 USD 비용이 발생한 경우에만 계산됩니다.</p><p>위치 타겟 또는 RLSA를 수동으로 편집하여 권장 값을 사용하려는 경우, 위치 타겟 또는 RLSA를 만든 후 최소 2주를 기다린 후 충분한 데이터 수집을 허용하고 값을 일주일에 두 번 이상 변경하지 마십시오. |
 | [!UICONTROL Device Targets] | <p>(기존 캠페인 유형만 해당) 광고를 표시할 수 있는 장치: <i>[!UICONTROL All]</i>, <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Smartphones]</i> 또는 <i>[!UICONTROL Tablets]</i>. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | (레거시 캠페인 유형만 해당, 장치 대상에 &quot;스마트폰&quot; 또는 &quot;태블릿&quot;이 포함된 경우 적용 가능) 광고가 표시될 수 있는 운영 체제: <i>[!UICONTROL All]</i>, <i>[!UICONTROL Android]</i>, <i>[!UICONTROL iOS]</i> 또는 <i>[!UICONTROL Palm]</i>. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>(기존 캠페인 유형만 해당; [!UICONTROL Device Targets]에 &quot;[!UICONTROL All]&quot; 또는 &quot;[!UICONTROL Smartphones]&quot;이(가) 포함된 경우에 적용 가능) 스마트폰이 연결될 수 있는 이동통신사: <i>[!UICONTROL All]</i> 또는 <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">사용 가능한 통신사 및 [!DNL Google Ads]</a>용 코드 목록을 사용하여 &lt;c<i>통신사 코드</i>>,&lt;<i>국가 코드</i>>(예: T-Mobile,US)로 표시된 하나 이상의 통신사. 세미콜론(예: T-Mobile, US, T-Mobile, GB)으로 여러 캐리어를 구분하십시오. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
@@ -94,7 +99,7 @@ Add in when released:
 | [!UICONTROL First Page Bid] | (정보 목적으로 생성된 일괄 시트에 포함) 검색 결과의 첫 페이지에 광고를 배치하는 데 필요한 입찰입니다. 이 값은 광고 네트워크에 게시되지 않습니다. |
 | [!UICONTROL Quality Score] | (정보 목적으로 생성된 일괄 시트에 포함됨) 검색 엔진이 키워드에 할당한 현재 품질 점수입니다. 이 값은 광고 네트워크에 게시되지 않습니다.) |
 | [!UICONTROL Creative Preferred Devices] | (텍스트 광고, 확장된 동적 검색 광고 및 향상된 사이트 링크, 선택 사항) 광고를 표시할 장치 유형은 <i>[!UICONTROL All]</i>(기본값) 또는 <i>[!UICONTROL Mobile]</i>입니다. <i>[!UICONTROL Mobile]</i>을(를) 지정하면 네트워크에서 데스크톱 또는 태블릿 사용자가 아닌 모바일 장치 사용자에게 광고를 표시하려고 합니다. 그렇지 않으면 네트워크는 모든 디바이스 유형에 광고를 표시합니다.</p><p><b>참고:</b></p><ul><li><p>관리자 및 [!DNL Adobe] 계정 관리자 사용자만 이 설정을 편집할 수 있습니다.</p></li><li><p>네트워크는 기본 장치 유형에 광고를 표시할 것을 보장하지 않습니다.</p></li><li><p>향상된 새 사이트링크는 기존의 향상된 사이트링크가 있거나 사이트링크가 없는 캠페인에서만 만들 수 있습니다.</p></li></ul> |
-| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | (확장된 텍스트 광고 및 반응형 검색 광고만 해당) 광고의 헤드라인이며 각 헤드라인은 세로 파이프(&vert;)로 구분됩니다. 각 광고 제목 필드의 최대 길이는 동적 텍스트(예: 키워드 및 광고 사용자 정의 값)를 포함하여 30자 또는 15개의 더블바이트 문자입니다.</p><p>반응형 검색 광고의 경우 [!UICONTROL Ad Title], [!UICONTROL Ad Title 2] 및 [!UICONTROL Ad Title 3]이(가) 필요하며 다른 모든 광고 제목 필드는 선택 사항입니다. 필수가 아닌 필드의 기존 값을 삭제하려면 <code>[delete] 값을 사용하십시오.</code> (대괄호를 포함).</p><p>반응형 검색 광고의 경우 다음 형식을 사용하여 광고 사용자 지정자를 삽입합니다. <code>{CUSTOMIZER.AdCustomizerName:DefaultText}</code>, 예: <code>{CUSTOMIZER.Discount:10%}</code></p><p>만들거나 편집할 수 없지만 확장된 텍스트 광고는 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다. |
+| [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-15 | (확장된 텍스트 광고 및 반응형 검색 광고만 해당) 광고의 헤드라인이며 각 헤드라인은 세로 파이프(&amp;vert;)로 구분됩니다. 각 광고 제목 필드의 최대 길이는 동적 텍스트(예: 키워드 및 광고 사용자 정의 값)를 포함하여 30자 또는 15개의 더블바이트 문자입니다.</p><p>반응형 검색 광고의 경우 [!UICONTROL Ad Title], [!UICONTROL Ad Title 2] 및 [!UICONTROL Ad Title 3]이(가) 필요하며 다른 모든 광고 제목 필드는 선택 사항입니다. 필수가 아닌 필드의 기존 값을 삭제하려면 <code>[delete] 값을 사용하십시오.</code> (대괄호를 포함).</p><p>반응형 검색 광고의 경우 다음 형식을 사용하여 광고 사용자 지정자를 삽입합니다. <code>{CUSTOMIZER.AdCustomizerName:DefaultText}</code>, 예: <code>{CUSTOMIZER.Discount:10%}</code></p><p>만들거나 편집할 수 없지만 확장된 텍스트 광고는 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다. |
 | [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | <p>(반응형 검색 광고만 해당; 선택 사항) 해당 광고 제목을 고정할 위치: `[null]`(모든 위치에 대해 광고 제목을 사용할 수 있는 값 없음), <i>1</i>, <i>2</i> 또는 <i>3</i>. 예를 들어 [!UICONTROL Ad Title Position]의 값이 1이면 광고 제목은 위치 1에만 나타납니다. 기본적으로 모든 광고 제목은 null입니다(값 없음).</p><p>기존 값을 삭제하려면 <code>[delete] 값을 사용하십시오.</code> (대괄호를 포함).</p><p><b>참고:</b> 여러 광고 제목을 같은 위치에 고정할 수 있습니다. 광고 네트워크는 해당 위치에 고정된 광고 제목 중 하나를 사용합니다. 위치 3에 고정된 제목은 광고와 함께 표시되지 않을 수 있습니다.</p> |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | <p>(확장된 동적 검색 광고, 확장된 텍스트 광고 및 반응형 검색 광고만 해당) 광고 본문입니다. 각 설명 필드의 최대 길이는 동적 텍스트(예: 키워드 및 광고 사용자 정의 값)를 포함하여 90자 또는 45개의 더블바이트 문자입니다.</p><p>반응형 검색 광고의 경우 `{CUSTOMIZER.Discount:10%}`과(와) 같은 `{CUSTOMIZER.AdCustomizerName:DefaultText}` 형식을 사용하여 광고 사용자 지정자를 삽입합니다.</p><p>확장된 동적 검색 광고의 경우 [!UICONTROL Description Line 1] 및 [!UICONTROL Description Line 2]만 사용하십시오. <b>참고:</b> 이 광고 형식의 경우 광고 복사본을 변경하면 기존 광고가 삭제되고 새 광고가 만들어집니다.</p><p>만들거나 편집할 수 없지만 확장된 텍스트 광고는 삭제할 수 있습니다. [!DNL Google Ads]은(는) 2022년 6월에 더 이상 사용되지 않습니다.</p><p>반응형 검색 광고의 경우 [!UICONTROL Description Line 1] 및 [!UICONTROL Description Line 2]이(가) 필요하며 [!UICONTROL Description Line 3] 및 [!UICONTROL Description Line 4]은(는) 선택 사항입니다. 기존 값을 삭제하려면 <code>[delete] 값을 사용하십시오.</code> (대괄호를 포함).</p> |
 | [!UICONTROL Description Line 1 Position]-[!UICONTROL Description Line 4 Position] | (반응형 검색 광고만 해당; 선택 사항) 해당 설명을 고정할 위치입니다. `[null]`(값 없음), <i>1</i>, <i>2</i> 또는 <i>3</i>. 예를 들어 [!UICONTROL Description 1 Position]의 값이 1이면 [!UICONTROL Description 1]은(는) 위치 1에만 나타납니다. 기본적으로 설명은 위치에 고정되지 않습니다.</p><p>기존 값을 삭제하려면 값 `[delete]`(대괄호 포함)을 사용하십시오.</p><p><b>참고:</b> 동일한 위치에 여러 설명을 고정할 수 있습니다. 광고 네트워크는 해당 위치에 고정된 설명 중 하나를 사용합니다. 위치 2에 고정된 설명은 광고와 함께 표시되지 않을 수 있습니다. |
@@ -263,7 +268,7 @@ Add in when released:
 
 ### 확장된 동적 검색 광고
 
-이제 [!DNL Google Ads]에서 이 광고 유형을 &quot;동적 검색 광고&quot;라고 합니다. 동적 검색 광고 만들기에 대한 자세한 내용은 &quot;[동적 검색 광고 구현 [!DNL Google Ads] 2&rbrace;을 참조하세요.&quot;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=ko)
+이제 [!DNL Google Ads]에서 이 광고 유형을 &quot;동적 검색 광고&quot;라고 합니다. 동적 검색 광고 만들기에 대한 자세한 내용은 &quot;[동적 검색 광고 구현 [!DNL Google Ads] 2}을 참조하세요.&quot;](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)
 
 이 광고 유형의 경우 [!UICONTROL Download Bulksheet] 대화 상자에서 &quot;[!UICONTROL Creative (except RSA)]&quot; 행을 사용하십시오.
 
@@ -288,7 +293,7 @@ Add in when released:
 
 ### 제품 목록/쇼핑 광고 필드
 
-쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 2&rbrace;&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=ko)
+쇼핑 광고 만들기에 대한 자세한 내용은 &quot;[쇼핑 캠페인 구현 [!DNL Google Ads] 2}&quot;을 참조하십시오.](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)
 
 이 광고 유형의 경우 [!UICONTROL Download Bulksheet] 대화 상자에서 &quot;[!UICONTROL Creative (except RSA)]&quot; 행을 사용하십시오.
 
@@ -369,7 +374,7 @@ Add in when released:
 | \[광고주별 레이블 분류\] | 선택 사항 |
 | [!UICONTROL Campaign ID] | 선택 사항 |
 | [!UICONTROL Ad Group ID] | 선택 사항 |
-| [!UICONTROL Ad ID] | 행에 a&rpar; 광고 또는 b&amp;rpar를 식별하는 데 충분한 광고 속성 열; &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않는 한 광고 상태를 변경할 때만 필요합니다. 그러나 [!UICONTROL Ad ID]과(와) [!UICONTROL AMO ID]을(를) 모두 포함하지 않고 광고 속성 열이 여러 광고와 일치하는 경우 광고 중 하나에 대한 상태만 변경됩니다. |
+| [!UICONTROL Ad ID] | 행에 a&amp;rpar; 광고 또는 b&amp;rpar를 식별하는 데 충분한 광고 속성 열; &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않는 한 광고 상태를 변경할 때만 필요합니다. 그러나 [!UICONTROL Ad ID]과(와) [!UICONTROL AMO ID]을(를) 모두 포함하지 않고 광고 속성 열이 여러 광고와 일치하는 경우 광고 중 하나에 대한 상태만 변경됩니다. |
 | [!UICONTROL AMO ID] | 엔터티 ID와 상위 엔터티 ID를 포함하지 않으면 데이터를 편집하거나 삭제해야 합니다.<br><br>검색, 소셜 및 Commerce은 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 
 ### 동적 검색 대상(자동 타겟) 필드
@@ -493,5 +498,5 @@ Add in when released:
 >* [일괄 시트에서 수행할 수 있는 작업](bulksheet-operations.md)
 >* [지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
+>*  [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 [클릭 추적 형식
 >* [일괄 시트 파일 또는 수정된 오류 파일 업로드](../bulksheet-upload.md)

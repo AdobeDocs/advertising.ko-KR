@@ -3,18 +3,21 @@ title: 일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보
 description: 광고 네트워크에서 사용할 수 있는 일괄 시트 기능, 일괄 시트 워크플로우 및 오류 처리에 대해 알아봅니다.
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/VvfpRiNIhOEk15R4eJn-BP-NmPeNvYVzRN6evnJK45U
+TQID: 'https://experienceleague.adobe.com/VvfpRiNIhOEk15R4eJn-BP-NmPeNvYVzRN6evnJK45U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 358bcf190b36bd3c01e33a3d5762361a4a015393
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 775
+source-wordcount: '775'
 ht-degree: 0%
-
 ---
-
 # 일괄 시트를 사용하여 캠페인 데이터 관리 기본 정보
 
 일괄 시트는 캠페인 데이터를 특정 형식으로 포함하는 파일로, 캠페인 및 광고 그룹 구조 데이터 및 텍스트 광고를 빠르게 만들거나 수정하는 데 사용할 수 있습니다. 하나 이상의 계정, 특정 캠페인 및 광고 그룹 또는 특정 텍스트 광고, 배치 및 제품 그룹에 대한 데이터가 포함된 일괄 시트를 생성(다운로드)할 수 있습니다. 일괄 시트를 사용하여 큰 데이터 세트를 관리하거나 작은 변경 작업을 수행할 수 있습니다. 각 광고 네트워크에는 서로 다른 정보 열이 필요합니다.

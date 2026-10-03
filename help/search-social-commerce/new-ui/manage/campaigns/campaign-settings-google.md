@@ -1,22 +1,28 @@
 ---
 title: '[!DNL Google Ads] 캠페인 설정'
-description: ' [!DNL Google Ads] 캠페인에 대한 설정을 참조합니다.'
+description: '[!DNL Google Ads] 캠페인에 대한 설정을 참조합니다.'
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3057
+source-wordcount: '3058'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] 캠페인 설정
 
 ## \[페이지 상단]
@@ -411,7 +417,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 
 **[!UICONTROL Primary Status]:**(성과 최대 캠페인의 기존 에셋 그룹에 대한 읽기 전용 필드) 에셋 그룹이 전체 용량으로 제공되거나 제공되지 않는 이유. 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다. 값에는 *적격,* *제한,* *NOT_적격,* *일시 중지됨,* *보류 중,* *제거됨,* *알 수 없음,* 또는 *지정되지 않음.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->&#x200B;이 포함될 수 있습니다.
 
-**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨&rbrace;이 포함될 수 있습니다.*
+**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨}이 포함될 수 있습니다.*
 
 ### [!UICONTROL Conversion Goals]
 
@@ -425,7 +431,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 >
 >캠페인이 하이브리드 포트폴리오의 일부인 경우 포트폴리오의 목표에서 전환 목표와 일치하는 캠페인 수준 목표를 사용하는 것이 좋습니다. 추가 전환 목표를 포함하면 포트폴리오 성능에 영향을 줄 수 있습니다.
 >
->그러나 [목표를 광고 네트워크에 업로드](/help/search-social-commerce/tools/objective-upload-to-networks.md)하는 하이브리드 포트폴리오의 캠페인의 경우, 광고 네트워크의 편집기 내에서 다음 작업을 대신 수행하십시오. a) 업로드한 검색, 소셜 및 Commerce 포트폴리오 목표 지표(&quot;O_ACS_OBJ&quot;로 시작하는)를 캠페인에 대한 전환 작업으로 추가하고, b) 광고 네트워크에서 추적한 지표가 목표를 사용하여 광고 네트워크에 업로드되지 않으므로 [!DNL Google] 추적된 전환을 포함하는 캠페인 목표를 추가합니다.
+>그러나 [광고 네트워크에 목표를 업로드](/help/search-social-commerce/tools/objective-upload-to-networks.md)하는 하이브리드 포트폴리오의 캠페인의 경우, 광고 네트워크의 편집기 내에서 다음 작업을 대신 수행하십시오. a) 업로드한 검색, 소셜 및 Commerce 포트폴리오 목표 지표(&quot;O_ACS_OBJ&quot;로 시작하는)를 캠페인에 대한 전환 작업으로 추가하고, b) 광고 네트워크에서 추적한 지표가 목표를 사용하여 광고 네트워크에 업로드되지 않았으므로 [!DNL Google] 추적된 전환을 포함하는 캠페인 목표를 추가합니다.
 
 ### [!UICONTROL Set Customer Acquisition Goal]
 

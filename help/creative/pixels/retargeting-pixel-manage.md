@@ -3,27 +3,33 @@ title: 픽셀 재타겟팅 관리
 description: 광고 경험의 타겟으로 사용할 리타기팅 픽셀을 만들고 구현하는 방법에 대해 알아봅니다.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-TQID: https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg
+TQID: 'https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: c6a20e0e-e1b3-4d7d-b454-3943a711b15e
+    internal-label: Creative Pixels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 936
+source-wordcount: '942'
 ht-degree: 0%
-
 ---
-
 # 픽셀 재타겟팅 관리
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
 사용자 쿠키 또는 범용 ID를 사용하여 광고주의 랜딩 페이지 또는 전환 페이지의 방문자를 식별하는 재타겟팅 픽셀을 만들 수 있습니다. 픽셀은 방문자가 페이지에서 수행하는 가장 최근 이벤트를 추적하고 해당 방문자에 대해 페이지가 추적하는 특정 속성을 캡처합니다. 픽셀을 만든 후 관련 웹 페이지에 삽입할 픽셀 태그를 생성하여 방문자 추적을 시작합니다.<!-- Note to self: surfer id=cookie or universal ID -->
 
-그런 다음 광고 경험 내의 크리에이티브에 대한 타겟으로 픽셀을 사용하여 픽셀과 연관된 웹 페이지를 이전에 방문한 지정된 속성을 가진 사용자에게만 광고를 표시할 수 있습니다. 예를 들어, 웹 페이지에서 해당 속성 값을 추적하는 경우 크기 10의 빨간색 신발을 보는 방문자를 타깃팅할 수 있습니다.<!-- better example? Make sure they match attribute examples below --> 경험 수준 대상은 DSP의 타깃팅 옵션과 함께 적용됩니다. 계층 타깃팅 동작은 DSP에 따라 다를 수 있습니다.
+그런 다음 광고 경험 내의 크리에이티브에 대한 타겟으로 픽셀을 사용하여 픽셀과 연관된 웹 페이지를 이전에 방문한 지정된 속성을 가진 사용자에게만 광고를 표시할 수 있습니다. 예를 들어 웹 페이지에서 해당 특성 값을 추적하는 경우 크기 10의 빨간색 신발을 보는 방문자를 타깃팅할 수 있습니다.<!-- better example? Make sure they match attribute examples below --> 경험 수준 타겟은 DSP의 타겟팅 옵션과 함께 적용됩니다. 계층 타겟팅 동작은 DSP에 따라 다를 수 있습니다.
 
 프로필 재타겟팅은 180일 동안 저장됩니다.
 
@@ -80,7 +86,7 @@ ht-degree: 0%
 
 1. 태그를 컴퓨터의 클립보드에 복사하려면 **[!UICONTROL Copy to Clipboard]**&#x200B;을(를) 클릭합니다. 그러면 텍스트를 저장할 파일에 붙여넣을 수 있습니다.
 
-1. 픽셀 태그에서 각 &quot;`<img src>`&quot;을(를) 값으로 대체하여 `<script src>` 및 `Insert <attribute>` 섹션 모두에서 각 특성의 값을 지정하십시오. 태그가 범용 ID를 캡처하는 경우 ID5 파트너 ID를 지정합니다.
+1. 픽셀 태그에서 각 &quot;`Insert <attribute>`&quot;을(를) 값으로 대체하여 `<img src>` 및 `<script src>` 섹션 모두에서 각 특성의 값을 지정하십시오. 태그가 범용 ID를 캡처하는 경우 ID5 파트너 ID를 지정합니다.
 
    추가 속성을 수동으로 추가하는 경우 URL 인코딩을 포함하십시오.
 

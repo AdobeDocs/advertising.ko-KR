@@ -3,18 +3,23 @@ title: 사용자 지정 지표 삭제
 description: 표준 지표에서 계산된 사용자 지정 지표를 삭제하는 방법을 알아봅니다.
 exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-TQID: https://experienceleague.adobe.com/u6LSq4sjhGLW1gmQqJlTtH0DFyTIsq-1t3Ga7NEXPko
+TQID: 'https://experienceleague.adobe.com/u6LSq4sjhGLW1gmQqJlTtH0DFyTIsq-1t3Ga7NEXPko'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: a1695a4d-41fb-5bb6-a22a-9e7a1b3222d7
+    internal-label: Search Custom Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 340
+source-wordcount: '335'
 ht-degree: 0%
-
 ---
-
 # 사용자 지정 지표 삭제
 
 사용자 지정 지표가 현재 보기에 열로 포함되어 있는 경우 열을 삭제하면 즉시 삭제됩니다. 다른 기본 보기나 사용자 지정 보기 또는 보고서 템플릿에 포함되어 있는 경우 다음에 보기나 템플릿을 새로 고칠 때 각각 열 변경이 표시됩니다.

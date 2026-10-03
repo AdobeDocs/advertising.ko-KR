@@ -3,22 +3,26 @@ title: 여러 타사 광고 만들기
 description: 한 번에 여러 타사 광고를 만드는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-TQID: https://experienceleague.adobe.com/ZOJDY0mjhTFb-Kcw1hEkCaZ0ZLVYPxTcEmOj2yM2JZQ
+TQID: 'https://experienceleague.adobe.com/ZOJDY0mjhTFb-Kcw1hEkCaZ0ZLVYPxTcEmOj2yM2JZQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '413'
 ht-degree: 0%
-
 ---
-
 # 여러 타사 광고 만들기
 
 타사 광고 서버에서 호스팅되는 크리에이티브 에셋을 가리키는 태그를 업로드하여 한 번에 최대 500개의 타사 광고를 만들 수 있습니다. 광고에 추적 픽셀을 포함할 수 있습니다.<!-- The bulksheet template for other ad servers says you can include 200. Which is it: 200 or 500? -->
@@ -63,7 +67,7 @@ ht-degree: 0%
 
       * 광고를 제거하려면 광고 행에서 **[!UICONTROL X]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Create *N *개의 광고]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Create *N *개의 광고]**를 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
@@ -71,11 +75,11 @@ ht-degree: 0%
 
    * (광고가 거부된 경우, 선택 사항) 광고 레코드를 편집하고 검토를 위해 광고를 다시 제출하려면 다음을 수행하십시오.
 
-      1. 광고 이름을 클릭합니다.
+     1. 광고 이름을 클릭합니다.
 
-      1. 광고 설정을 편집합니다.
+     1. 광고 설정을 편집합니다.
 
-      1. **[!UICONTROL Save & submit for review]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Save & submit for review]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
 >
@@ -86,5 +90,5 @@ ht-degree: 0%
 >* [Advertising DSP의 광고 관리 정보](ad-about.md)
 >* [광고 사양](ad-specs.md)
 >* [단일 광고 만들기](ad-create.md)
->* [비디오: 타사 광고 태그를 일괄 업로드하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=ko)
+>* [비디오: 타사 광고 태그를 일괄 업로드하는 방법](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* 범용 비디오에 대한 [FAQ](/help/dsp/campaign-management/faq-universal-video.md)

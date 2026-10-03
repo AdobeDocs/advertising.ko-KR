@@ -3,20 +3,26 @@ title: '[!UICONTROL Keyword Report]'
 description: '[!UICONTROL Keyword Report]에 대해 알아봅니다.'
 exl-id: eb2c7cb8-3f0d-4ae6-a1e2-127de315e1ce
 feature: Search Reports, Search Basic Reports
-TQID: https://experienceleague.adobe.com/uV4kYIaYKGGaZhq-MXTC-wejQuZfIk3S2EmaCmaMdSM
+TQID: 'https://experienceleague.adobe.com/uV4kYIaYKGGaZhq-MXTC-wejQuZfIk3S2EmaCmaMdSM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 169
+source-wordcount: '171'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Keyword Report]
 
 [!UICONTROL Keyword Report]에는 하나 이상의 광고 그룹 내에서 노출을 받은 키워드에 대한 비용, 클릭 및 (선택적으로) 전환 데이터가 포함되어 있습니다. 선택적으로 특정 텍스트 문자열을 포함하는 키워드만 포함하도록 데이터를 필터링할 수 있습니다. 기본적으로 데이터에는 적용 가능한 각 키워드에 대해 한 개의 행과 지정된 날짜 범위의 각 시간 단위에 대해 받은 노출 횟수를 나타내는 일치 유형 조합이 포함됩니다. 행은 시간 단위의 시작 일자부터 오름차순으로 정렬되며 기본적으로 원가순으로 정렬됩니다.

@@ -3,18 +3,24 @@ title: 크리에이티브 라이브러리 관리
 description: 크리에이티브 라이브러리를 만들고, 이름을 바꾸고, 삭제하는 방법을 알아봅니다.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-TQID: https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0
+TQID: 'https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 266
+source-wordcount: '266'
 ht-degree: 0%
-
 ---
-
 # 크리에이티브 라이브러리 관리
 
 각 광고주별로 여러 개의 크리에이티브 라이브러리를 만들 수 있습니다. 나중에 각 라이브러리를 [표준 크리에이티브](creative-add-standard.md), [동적 크리에이티브](creative-add-dynamic.md) 및 [크리에이티브 번들](bundle-manage.md)(으)로 채울 수 있습니다.
@@ -65,9 +71,9 @@ ht-degree: 0%
 
    * 단일 라이브러리를 삭제하려면 다음을 수행하십시오.
 
-      * 카드 보기에서 라이브러리 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
+     * 카드 보기에서 라이브러리 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
-      * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
+     * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
    * 라이브러리를 하나 이상 삭제하려면 삭제할 각 라이브러리에 대한 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 

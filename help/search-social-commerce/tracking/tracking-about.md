@@ -3,22 +3,28 @@ title: Search, Social 및 Commerce 추적 정보
 description: 검색, 소셜 및 Commerce 추적 옵션에 대해 알아봅니다.
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8
+TQID: 'https://experienceleague.adobe.com/IpPgzsMgRsOCmLv3dyEKBp4EPQwgN90UkVIQy9SaXB8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 756
+source-wordcount: '772'
 ht-degree: 0%
-
 ---
-
 # Search, Social 및 Commerce 추적 정보
 
 광고의 성과를 추적하려면 검색, 소셜 및 Commerce에 광고 노출, 클릭, 비용 및 전환(거래) 데이터가 필요합니다. Search, Social 및 Commerce은 이 데이터를 사용하여 광고 포트폴리오를 최적화하는 데 필요한 데이터 예측 모델을 구축합니다.
@@ -39,7 +45,7 @@ ht-degree: 0%
 
 * 다른 모든 경우에는 광고 네트워크가 클릭을 Adobe Advertising 픽셀 서버로 직접 전송합니다. 픽셀 서버는 사용자의 컴퓨터에 쿠키를 배치한 다음(아직 없는 경우) 사용자를 웹 사이트의 관련 URL로 리디렉션합니다. 최종 사용자의 전체 경험은 리디렉션이 없는 경우와 동일합니다.
 
-쿠키가 [!DNL Adobe] 도메인(`everesttech.net`)에 자사 쿠키로 설정되어 있습니다. 리디렉션 후 사용자는 광고주의 도메인에 있고 쿠키는 타사 쿠키로 처리됩니다. Adobe Advertising 쿠키에 대한 자세한 내용은 &quot;[Adobe Advertising 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ko)&quot;를 참조하십시오.
+쿠키가 [!DNL Adobe] 도메인(`everesttech.net`)에 자사 쿠키로 설정되어 있습니다. 리디렉션 후 사용자는 광고주의 도메인에 있고 쿠키는 타사 쿠키로 처리됩니다. Adobe Advertising 쿠키에 대한 자세한 내용은 &quot;[Adobe Advertising 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)&quot;를 참조하십시오.
 
 ## 전환 데이터
 

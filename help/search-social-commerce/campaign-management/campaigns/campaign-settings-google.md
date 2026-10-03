@@ -1,24 +1,30 @@
 ---
 title: '[!DNL Google Ads] 캠페인 설정'
-description: ' [!DNL Google Ads] 캠페인에 대한 설정을 참조합니다.'
+description: '[!DNL Google Ads] 캠페인에 대한 설정을 참조합니다.'
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4
+TQID: 'https://experienceleague.adobe.com/pj3C6fQc6BHhS9ES92nNC7AzxprwHeCwvPYLYBJkAo4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2700
+source-wordcount: '2703'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] 캠페인 설정
 
 ## \[캠페인 만들기 화면\]
@@ -37,13 +43,13 @@ ht-degree: 0%
 
   **메모:**
 
-   * 필요한 설정만 사용할 수 있습니다. 옵션 설정을 보려면 [!DNL Google Ads] 편집기에 로그인합니다.
+  * 필요한 설정만 사용할 수 있습니다. 옵션 설정을 보려면 [!DNL Google Ads] 편집기에 로그인합니다.
 
-   * [!DNL Google Merchant Center] 제품 피드에 대한 링크는 지원되지 않습니다.
+  * [!DNL Google Merchant Center] 제품 피드에 대한 링크는 지원되지 않습니다.
 
-   * 목록 그룹 지원을 사용할 수 없습니다. 목록 그룹에 대한 데이터를 관리하고 보려면 [!DNL Google Ads] 편집기에 로그인하십시오.
+  * 목록 그룹 지원을 사용할 수 없습니다. 목록 그룹에 대한 데이터를 관리하고 보려면 [!DNL Google Ads] 편집기에 로그인하십시오.
 
-   * 하이브리드 최적화가 지원됩니다. 입찰 전략 목표와 캠페인 예산은 캠페인 수준에서 설정됩니다.
+  * 하이브리드 최적화가 지원됩니다. 입찰 전략 목표와 캠페인 예산은 캠페인 수준에서 설정됩니다.
 
 ## [!UICONTROL Campaign Details]
 
@@ -107,7 +113,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Manual CPC]*(기본값): (성과 최대 캠페인에는 사용할 수 없음) 클릭당 비용(CPC) 모델을 사용합니다. 광고 네트워크에서 캠페인에 대한 입찰을 변경하도록 허용할 수 있습니다(선택적).
 
-   * **[!UICONTROL Enable Enhanced CPC]**(기본적으로 비활성화됨): 사용되지 않는 &quot;[!UICONTROL Enhanced CPC]&quot; 옵션을 사용하는 것과 같습니다. [!DNL Google Ads]이(가) 2025년 3월 15일부터 기존 [향상된 CPC 입찰 전략](https://support.google.com/google-ads/answer/2464964)을 수동 CPC로 자동으로 변경하기 시작했습니다.
+  * **[!UICONTROL Enable Enhanced CPC]**(기본적으로 비활성화됨): 사용되지 않는 &quot;[!UICONTROL Enhanced CPC]&quot; 옵션을 사용하는 것과 같습니다. [!DNL Google Ads]이(가) 2025년 3월 15일부터 기존 [향상된 CPC 입찰 전략](https://support.google.com/google-ads/answer/2464964)을 수동 CPC로 자동으로 변경하기 시작했습니다.
 
 * *[!UICONTROL Maximize Clicks]:*(검색, 표시 및 쇼핑 캠페인) 검색, 소셜 및 Commerce이 아닌 광고 네트워크는 클릭수를 최대화하기 위해 입찰을 최적화합니다. 선택적으로 **[!UICONTROL Max CPC]**(클릭당 비용)을 입력하여 광고 네트워크가 클릭당 특정 금액 이상을 지불하지 않도록 합니다. **주의:** 이 전략을 사용하는 캠페인을 포트폴리오에 추가하면 입찰이 포트폴리오 목표가 아니라 클릭 가중치에 의해 결정됩니다.
 
@@ -162,19 +168,19 @@ ht-degree: 0%
 
 * 특정 위치를 타겟팅하거나 제외하려면 다음을 수행합니다.
 
-   * (국가, 주, 대도시 또는 도시) **[!UICONTROL Location Target]**(![위치 대상](/help/search-social-commerce/assets/location-target.png "위치 대상"))을 클릭하고 포함 및 제외할 위치를 찾으십시오.
+  * (국가, 주, 대도시 또는 도시) **[!UICONTROL Location Target]**(![위치 대상](/help/search-social-commerce/assets/location-target.png "위치 대상"))을 클릭하고 포함 및 제외할 위치를 찾으십시오.
 
-      * 위치와 자식 위치를 포함하려면 파란색 확인 표시(![포함](/help/search-social-commerce/assets/include.png "포함"))가 나타나도록 인접한 원을 한 번 클릭합니다.
+    * 위치와 자식 위치를 포함하려면 파란색 확인 표시(![포함](/help/search-social-commerce/assets/include.png "포함"))가 나타나도록 인접한 원을 한 번 클릭합니다.
 
-      * 위치를 제외하려면 인접한 원을 두 번 클릭하여 빨간색 확인 표시(![제외](/help/search-social-commerce/assets/exclude.png "제외"))를 표시합니다.
+    * 위치를 제외하려면 인접한 원을 두 번 클릭하여 빨간색 확인 표시(![제외](/help/search-social-commerce/assets/exclude.png "제외"))를 표시합니다.
 
-      * 위치를 하위 구성 요소(예: 미국 주, 대도시 또는 도시)로 확장하려면 위치 이름을 클릭합니다.
+    * 위치를 하위 구성 요소(예: 미국 주, 대도시 또는 도시)로 확장하려면 위치 이름을 클릭합니다.
 
-      * 위치를 검색하려면 입력 필드에 해당 위치의 처음 세 문자 이상을 입력하거나 붙여넣습니다. 검색 결과에서 포함할 위치 옆의 **[!UICONTROL Include]** 또는 제외할 위치 옆의 **[!UICONTROL Exclude]**&#x200B;을(를) 클릭합니다.
+    * 위치를 검색하려면 입력 필드에 해당 위치의 처음 세 문자 이상을 입력하거나 붙여넣습니다. 검색 결과에서 포함할 위치 옆의 **[!UICONTROL Include]** 또는 제외할 위치 옆의 **[!UICONTROL Exclude]**&#x200B;을(를) 클릭합니다.
 
-   * (주소 근처 위치, 포함된 대상만 해당) **[!UICONTROL Radius Target]**(![반경 대상](/help/search-social-commerce/assets/radius-target.png "반경 대상"))을 클릭한 다음 **[!UICONTROL Address]**&#x200B;을(를) 클릭합니다. 대상으로 지정할 주소 및 반경(마일 또는 킬로미터)을 입력한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+  * (주소 근처 위치, 포함된 대상만 해당) **[!UICONTROL Radius Target]**(![반경 대상](/help/search-social-commerce/assets/radius-target.png "반경 대상"))을 클릭한 다음 **[!UICONTROL Address]**&#x200B;을(를) 클릭합니다. 대상으로 지정할 주소 및 반경(마일 또는 킬로미터)을 입력한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
-   * (지리적 좌표 근처의 위치, 포함된 대상만 해당) **[!UICONTROL Radius Target]**(![반경 대상](/help/search-social-commerce/assets/radius-target.png "반경 대상"))을 클릭한 다음 **[!UICONTROL Coordinate]**&#x200B;을(를) 클릭합니다. 타깃팅할 위치를 중심으로 마일 또는 킬로미터 단위로 위도와 경도 및 반경을 입력한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+  * (지리적 좌표 근처의 위치, 포함된 대상만 해당) **[!UICONTROL Radius Target]**(![반경 대상](/help/search-social-commerce/assets/radius-target.png "반경 대상"))을 클릭한 다음 **[!UICONTROL Coordinate]**&#x200B;을(를) 클릭합니다. 타깃팅할 위치를 중심으로 마일 또는 킬로미터 단위로 위도와 경도 및 반경을 입력한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
 * (포함된 대상 위치에 대한 입찰 조정을 추가하려면) 입찰 조정 값을 입력합니다.
 
@@ -186,9 +192,9 @@ ht-degree: 0%
 
 * [!DNL Google Ads]이(가) 서퍼 위치를 위치 대상에 매핑하기 위해 제공하는 데이터의 제한으로 인해 Search, Social 및 Commerce에서 다음 위치 대상에 대해 자동 조정된 입찰 조정을 제공하지 않습니다.
 
-   * 반경 타겟.
+  * 반경 타겟.
 
-   * [!DNL Google Ads]이(가) 서퍼의 URL에서 상위 위치를 보내지 않는 주/도/지역/군/현 수준 아래의 일부 위치(공항 및 미국 의회 지구 포함).
+  * [!DNL Google Ads]이(가) 서퍼의 URL에서 상위 위치를 보내지 않는 주/도/지역/군/현 수준 아래의 일부 위치(공항 및 미국 의회 지구 포함).
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -297,43 +303,43 @@ ht-degree: 0%
 
 * 이미지를 업로드하려면:
 
-   1. [!UICONTROL Upload from Device] 탭에서 **[!UICONTROL +]**&#x200B;을(를) 클릭하고 장치 또는 네트워크에서 이미지를 선택합니다.
+  1. [!UICONTROL Upload from Device] 탭에서 **[!UICONTROL +]**&#x200B;을(를) 클릭하고 장치 또는 네트워크에서 이미지를 선택합니다.
 
-   1. 각 이미지에 대해:
+  1. 각 이미지에 대해:
 
-      1. 종횡비를 선택합니다.
+     1. 종횡비를 선택합니다.
 
-      1. 필요에 따라 자르기 상자를 끌어서 놓고 이미지의 볼 수 있는 부분을 선택한 다음 필요할 경우 이미지의 볼 수 있는 부분의 크기를 조정합니다.
+     1. 필요에 따라 자르기 상자를 끌어서 놓고 이미지의 볼 수 있는 부분을 선택한 다음 필요할 경우 이미지의 볼 수 있는 부분의 크기를 조정합니다.
 
-      1. (선택 사항) 추가 종횡비를 선택하고 선택한 각 종횡비에 필요한 경우 이미지의 위치를 변경하고 크기를 선택적으로 조정합니다.
+     1. (선택 사항) 추가 종횡비를 선택하고 선택한 각 종횡비에 필요한 경우 이미지의 위치를 변경하고 크기를 선택적으로 조정합니다.
 
-         선택한 각 종횡비에 대해 하나의 에셋이 만들어집니다.
+        선택한 각 종횡비에 대해 하나의 에셋이 만들어집니다.
 
-      1. **[!UICONTROL Proceed]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Proceed]**&#x200B;을(를) 클릭합니다.
 
-   1. 이미지 지정을 마치면 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
+  1. 이미지 지정을 마치면 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
 * [!UICONTROL Asset Library]에서 이미지를 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 이미지를 선택하십시오.
 
-**[!UICONTROL Logos]:** 하나 이상의 정사각형(1:1) 로고와 하나의 가로(4:1) 로고. 각 크기의 최대 5개를 포함할 수 있습니다. [[!DNL Google Ads] 로고 사양](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)을 참조하세요. 이미지를 업로드하거나 [!UICONTROL Asset Library]에서 선택할 수 있지만 둘 다 동일한 작업에서 선택할 수는 없습니다.
+**[!UICONTROL Logos]:** 하나 이상의 사각형(1:1) 로고와 가로(4:1) 로고. 각 크기의 최대 5개를 포함할 수 있습니다. [[!DNL Google Ads] 로고 사양](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications)을 참조하세요. 이미지를 업로드하거나 [!UICONTROL Asset Library]에서 선택할 수 있지만 둘 다 동일한 작업에서 선택할 수는 없습니다.
 
 * 이미지를 업로드하려면:
 
-   1. [!UICONTROL Upload from Device] 탭에서 **[!UICONTROL +]**&#x200B;을(를) 클릭하고 장치 또는 네트워크에서 이미지를 선택합니다.
+  1. [!UICONTROL Upload from Device] 탭에서 **[!UICONTROL +]**&#x200B;을(를) 클릭하고 장치 또는 네트워크에서 이미지를 선택합니다.
 
-   1. 각 이미지에 대해:
+  1. 각 이미지에 대해:
 
-      1. 종횡비를 선택합니다.
+     1. 종횡비를 선택합니다.
 
-      1. 필요에 따라 자르기 상자를 끌어서 놓고 이미지의 볼 수 있는 부분을 선택한 다음 필요할 경우 이미지의 볼 수 있는 부분의 크기를 조정합니다.
+     1. 필요에 따라 자르기 상자를 끌어서 놓고 이미지의 볼 수 있는 부분을 선택한 다음 필요할 경우 이미지의 볼 수 있는 부분의 크기를 조정합니다.
 
-      1. (선택 사항) 추가 종횡비를 선택하고 선택한 각 종횡비에 필요한 경우 이미지의 위치를 변경하고 크기를 선택적으로 조정합니다.
+     1. (선택 사항) 추가 종횡비를 선택하고 선택한 각 종횡비에 필요한 경우 이미지의 위치를 변경하고 크기를 선택적으로 조정합니다.
 
-         선택한 각 종횡비에 대해 하나의 에셋이 만들어집니다.
+        선택한 각 종횡비에 대해 하나의 에셋이 만들어집니다.
 
-      1. **[!UICONTROL Proceed]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Proceed]**&#x200B;을(를) 클릭합니다.
 
-   1. 이미지 지정을 마치면 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
+  1. 이미지 지정을 마치면 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
 * [!UICONTROL Asset Library]에서 이미지를 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 이미지를 선택하십시오.
 
@@ -341,9 +347,9 @@ ht-degree: 0%
 
 * URL을 입력하려면 다음을 수행하십시오.
 
-   1. [!UICONTROL Enter Video Url] 탭에서 URL을 입력합니다.
+  1. [!UICONTROL Enter Video Url] 탭에서 URL을 입력합니다.
 
-   1. (선택 사항) 다른 URL을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 URL을 입력하십시오.
+  1. (선택 사항) 다른 URL을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 URL을 입력하십시오.
 
 * [!UICONTROL Asset Library]에서 비디오를 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 비디오를 선택하십시오.
 
@@ -353,9 +359,9 @@ ht-degree: 0%
 
 * 텍스트를 입력하려면 다음을 수행합니다.
 
-   1. [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
+  1. [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
 
-   1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 문자열을 입력합니다.
+  1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 문자열을 입력합니다.
 
 * [!UICONTROL Asset Library]에서 자산을 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 자산을 선택하십시오.
 
@@ -363,9 +369,9 @@ ht-degree: 0%
 
 * 텍스트를 입력하려면 다음을 수행합니다.
 
-   1. [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
+  1. [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
 
-   1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 문자열을 입력합니다.
+  1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 문자열을 입력합니다.
 
 * [!UICONTROL Asset Library]에서 자산을 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 자산을 선택하십시오.
 
@@ -373,9 +379,9 @@ ht-degree: 0%
 
 * 텍스트를 입력하려면 다음을 수행합니다.
 
-   1. [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
+  1. [!UICONTROL Enter Text] 탭에서 텍스트를 입력합니다.
 
-   1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 문자열을 입력합니다.
+  1. (선택 사항) 다른 텍스트 문자열을 추가하려면 **[!UICONTROL + Add]**&#x200B;을(를) 클릭하고 문자열을 입력합니다.
 
 * [!UICONTROL Asset Library]에서 자산을 선택하려면 **[!UICONTROL Asset Library]**&#x200B;을(를) 클릭하고 자산을 선택하십시오.
 
@@ -390,7 +396,7 @@ ht-degree: 0%
 
 **[!UICONTROL Primary Status]:**(성과 최대 캠페인의 기존 에셋 그룹에 대한 읽기 전용 필드) 에셋 그룹이 전체 용량으로 제공되거나 제공되지 않는 이유. 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다. 값에는 *적격,* *제한,* *NOT_적격,* *일시 중지됨,* *보류 중,* *제거됨,* *알 수 없음,* 또는 *지정되지 않음.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->&#x200B;이 포함될 수 있습니다.
 
-**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨&rbrace;이 포함될 수 있습니다.*
+**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨}이 포함될 수 있습니다.*
 
 ## [!UICONTROL Conversion Goals]
 
@@ -404,7 +410,7 @@ ht-degree: 0%
 >
 >캠페인이 하이브리드 포트폴리오의 일부인 경우 포트폴리오의 목표에서 전환 목표와 일치하는 캠페인 수준 목표를 사용하는 것이 좋습니다. 추가 전환 목표를 포함하면 포트폴리오 성능에 영향을 줄 수 있습니다.
 >
->그러나 [목표를 광고 네트워크에 업로드](/help/search-social-commerce/tools/objective-upload-to-networks.md)하는 하이브리드 포트폴리오의 캠페인의 경우, 광고 네트워크의 편집기 내에서 다음 작업을 대신 수행하십시오. a) 업로드한 검색, 소셜 및 Commerce 포트폴리오 목표 지표(&quot;O_ACS_OBJ&quot;로 시작하는)를 캠페인에 대한 전환 작업으로 추가하고, b) 광고 네트워크에서 추적한 지표가 목표를 사용하여 광고 네트워크에 업로드되지 않으므로 [!DNL Google] 추적된 전환을 포함하는 캠페인 목표를 추가합니다.
+>그러나 [광고 네트워크에 목표를 업로드](/help/search-social-commerce/tools/objective-upload-to-networks.md)하는 하이브리드 포트폴리오의 캠페인의 경우, 광고 네트워크의 편집기 내에서 다음 작업을 대신 수행하십시오. a) 업로드한 검색, 소셜 및 Commerce 포트폴리오 목표 지표(&quot;O_ACS_OBJ&quot;로 시작하는)를 캠페인에 대한 전환 작업으로 추가하고, b) 광고 네트워크에서 추적한 지표가 목표를 사용하여 광고 네트워크에 업로드되지 않았으므로 [!DNL Google] 추적된 전환을 포함하는 캠페인 목표를 추가합니다.
 
 >[!MORELIKETHIS]
 >

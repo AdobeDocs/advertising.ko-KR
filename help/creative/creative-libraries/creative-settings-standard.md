@@ -3,20 +3,26 @@ title: 표준 크리에이티브 설정
 description: 표준 크리에이티브에 대한 설정을 참조하십시오.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-TQID: https://experienceleague.adobe.com/WO5ViZMhKZBWTHbxgSIxTC79tydB5P765ueJ9EvyEUQ
+TQID: 'https://experienceleague.adobe.com/WO5ViZMhKZBWTHbxgSIxTC79tydB5P765ueJ9EvyEUQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2106
+source-wordcount: '2119'
 ht-degree: 0%
-
 ---
-
 # 표준 크리에이티브 설정
 
 설정은 크리에이티브 유형에 따라 다릅니다.
@@ -46,7 +52,7 @@ ht-degree: 0%
 >When you include the creative in an experience, you can replace the default value for any of the click tags with a custom landing page URL to generate a derivation of the base creative.
 -->
 
-**레이블:** (선택 사항) 선택한 모든 크리에이티브에 적용할 레이블입니다. [!DNL Creative] 내의 다양한 보기에서 레이블을 기준으로 광고 항목을 필터링하고 [!UICONTROL Creative Label]에 [!UICONTROL Custom Creative Report] 차원을 포함할 수 있습니다.
+**레이블:** (선택 사항) 선택한 모든 크리에이티브에 적용할 레이블입니다. [!DNL Creative] 내의 다양한 보기에서 레이블을 기준으로 광고 항목을 필터링하고 [!UICONTROL Custom Creative Report]에 [!UICONTROL Creative Label] 차원을 포함할 수 있습니다.
 
 * 기존 레이블을 선택하려면 ![아래로](/help/creative/assets/chevron-down.png "아래로")를 클릭하고 적용할 각 레이블 옆에 있는 확인란을 선택하십시오.
 

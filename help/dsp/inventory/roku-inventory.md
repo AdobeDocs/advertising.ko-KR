@@ -1,36 +1,46 @@
 ---
-title: ' [!DNL Roku] 인벤토리 사용'
-description: 인벤토리 옵션, 승인된 타사 추적 공급업체 및  [!DNL Roku]별 배치에 대한 모범 사례를 포함하여  [!DNL Roku]과(와)의 DSP 파트너십에 대해 알아봅니다.
+title: '[!DNL Roku] 인벤토리 사용'
+description: 인벤토리 옵션, 승인된 타사 추적 공급업체 및 [!DNL Roku]별 배치에 대한 모범 사례를 포함하여 DSP과 [!DNL Roku]의 파트너 관계에 대해 알아봅니다.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-TQID: https://experienceleague.adobe.com/6CdN1InBGyd9pkECHBITFv1l8JjVdQ6Ot2MUDIAvDjY
+TQID: 'https://experienceleague.adobe.com/6CdN1InBGyd9pkECHBITFv1l8JjVdQ6Ot2MUDIAvDjY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: '460'
 ht-degree: 0%
-
 ---
-
 # [!DNL Roku] 인벤토리 사용
 
 Advertising DSP은 [!DNL Roku]에 광고를 위한 기능을 제공합니다.
 
 ## 대상 일치
 
-[!DNL Roku] 및 DSP 파트너 관계는 [!DNL Roku] 인벤토리에서 1:1 결정론적 대상 타깃팅에 대한 [!DNL DSP] 대상을 [!DNL Roku] ID에 일치시킵니다.
+[!DNL Roku] 및 DSP 파트너 관계는 [!DNL Roku] 인벤토리에서 1:1 결정론적 대상 타기팅을 위해 [!DNL DSP] 대상을 [!DNL Roku] ID에 일치시킵니다.
 
 ## [!DNL Roku] 인벤토리 옵션
 
@@ -48,9 +58,9 @@ Advertising DSP은 [!DNL Roku]에 광고를 위한 기능을 제공합니다.
 
 * [다음 [!DNL Roku] 인벤토리를  [!DNL On Demand] 갤러리](/help/dsp/inventory/on-demand-inventory-subscribe.md) 내에서 구독하고 [!DNL Roku] 배치 내에서 승인된 거래를 타깃팅할 수 있습니다.
 
-   * [!DNL The CW], [!DNL ABC] 및 [!DNL ESPN]과(와) 같은 프리미엄 콘텐츠 파트너가 있는 [!DNL Roku] 에코시스템에서 인벤토리에 대한 &quot;[!UICONTROL Roku Network - Audience]&quot;.
+  * [!DNL The CW], [!DNL ABC] 및 [!DNL ESPN]과(와) 같은 프리미엄 콘텐츠 파트너가 있는 [!DNL Roku] 에코시스템에서 인벤토리에 대한 &quot;[!UICONTROL Roku Network - Audience]&quot;.
 
-   * [!DNL Roku] 소유 및 운영(O&amp;O) 앱 콘텐츠의 &quot;[!UICONTROL The Roku Channel - Audience]&quot;.
+  * [!DNL Roku] 소유 및 운영(O&amp;O) 앱 콘텐츠의 &quot;[!UICONTROL The Roku Channel - Audience]&quot;.
 
 ### [!DNL Roku]을(를) 사용하여 개인 마켓플레이스를 사용자 지정할 수 있는 이점
 

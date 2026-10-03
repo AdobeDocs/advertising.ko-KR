@@ -3,25 +3,30 @@ title: 열 제목 메뉴에서 데이터 필터 적용
 description: 열 제목 메뉴에서에서 페이지 데이터를 필터링하는 방법을 알아봅니다.
 exl-id: 508f254a-d859-4155-9bbd-84e0442f01d5
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/8HhbDC38BA48vw3c8fqCEaCKNUWs3q2HwCEiDfieWUM
+TQID: 'https://experienceleague.adobe.com/8HhbDC38BA48vw3c8fqCEaCKNUWs3q2HwCEiDfieWUM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '225'
 ht-degree: 0%
-
 ---
-
 # 열 제목 메뉴에서 데이터 필터 적용
 
 <!-- The same in new UI and legacy CM views -->
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-한 번에 하나씩, 열에 원하는 만큼 필터를 적용할 수 있습니다.<!-- True only for entity names, I think: All filters are joined using the AND operator. --> 사용 가능한 모든 지표를 사용하여 한 번에 두 개 이상의 필터를 추가하려면 &quot;[도구 모음에서 데이터 필터 적용](column-filter-apply-from-toolbar.md)&quot;을 참조하십시오.
+한 번에 하나씩 원하는 수만큼 필터를 적용할 수 있습니다.<!-- True only for entity names, I think: All filters are joined using the AND operator. --> 사용 가능한 모든 지표를 사용하여 한 번에 두 개 이상의 필터를 추가하려면 &quot;[도구 모음에서 데이터 필터 적용](column-filter-apply-from-toolbar.md)&quot;을 참조하십시오.
 
 1. 열 제목의 오른쪽에서 ![아래쪽 화살표](/help/search-social-commerce/assets/arrow-down-dropdown.png "아래쪽 화살표")를 클릭한 다음 **[!UICONTROL Add Filter]**&#x200B;을(를) 클릭합니다.
 
