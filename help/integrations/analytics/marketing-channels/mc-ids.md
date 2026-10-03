@@ -40,7 +40,7 @@ Adobe Advertising ID([AMO ID 및 EF ID](../ids.md))를 사용하여 Adobe Analyt
 
 ## 처리 규칙의 AMO ID
 
-AMO ID는 [!DNL Analytics] 내에서 Adobe Advertising 데이터를 보고하는 데 사용되는 기본 추적 코드입니다. AMO ID는 [!DNL Analytics] 내에서 세분화된 보고를 제공하기 위해 Adobe에서 관리하는 동적 값의 연결입니다. [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 rVar 차원(AMO ID)에 저장됩니다. AMO ID는 두 가지 방법으로 [!DNL Analytics]에 설정할 수 있습니다.
+AMO ID는 [!DNL Analytics] 내에서 Adobe Advertising 데이터를 보고하는 데 사용되는 기본 추적 코드입니다. AMO ID는 [!DNL Analytics] 내에서 세분화된 보고를 제공하기 위해 Adobe에서 관리하는 동적 값의 연결입니다. [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ko) 또는 rVar 차원(AMO ID)에 저장됩니다. AMO ID는 두 가지 방법으로 [!DNL Analytics]에 설정할 수 있습니다.
 
 * 클릭스루 추적: Adobe Advertising은 링크에 `s_kwcid` 쿼리 문자열 매개 변수를 설정하고 클릭스루가 발생할 때 [!DNL Analytics]이(가) 랜딩 페이지 URL에서 매개 변수를 선택합니다.
 
@@ -112,7 +112,7 @@ EF ID 차원은 [!DNL Analytics] 보고에 직접 사용되지 않지만 마케�
 
 ### 자연어 검색 규칙
 
-[!UICONTROL Natural Search]의 경우 [[!UICONTROL Paid Search] 검색 규칙](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)에 `ef_id` 및 `s_kwcid` 쿼리 문자열 매개 변수가 포함되어 있는지 확인하십시오. (일반적으로 Advertising Search, Social 및 Commerce이 [!DNL Analytics]에 통합되면 자동으로 구성되지만, 통합이 구성된 후 [!DNL Analytics] 관리자가 논리를 변경한 경우를 확인하십시오.)
+[!UICONTROL Natural Search]의 경우 [[!UICONTROL Paid Search] 검색 규칙](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection)에 `ef_id` 및 `s_kwcid` 쿼리 문자열 매개 변수가 포함되어 있는지 확인하십시오. (일반적으로 Advertising Search, Social 및 Commerce이 [!DNL Analytics]에 통합되면 자동으로 구성되지만, 통합이 구성된 후 [!DNL Analytics] 관리자가 논리를 변경한 경우를 확인하십시오.)
 
 규칙을 &quot;자연어 검색 감지 규칙과 일치&quot;로 설정합니다(일반적으로 이 채널의 기본 설정임).
 
@@ -175,5 +175,5 @@ Display ViewThrough 채널을 만들려면 EF ID가 &quot;:i&quot;(으)로 끝�
 >* [기본  [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [채널 데이터가 Adobe Advertising과  [!DNL Marketing Channels]](mc-data-variances.md) 간에 다를 수 있는 이유
 >* [사용 [!DNL Analytics Marketing Channels] Adobe Advertising 데이터 사용](mc-ac-data.md)
->* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ko)
 >*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)에서 사용하는 Adobe Advertising ID

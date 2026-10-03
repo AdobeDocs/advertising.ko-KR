@@ -112,7 +112,7 @@ Adobe Advertising 보고서와 [!DNL Analytics] 보고서 간의 뷰스루 전�
 >
 >혼동을 방지하기 위해 [!DNL Analytics]은(는) 보고 인터페이스에서 내역 데이터를 사용할 수 없게 합니다. [!DNL eVar]을(를) 다시 초기 할당 설정으로 변경하면 내역 데이터를 볼 수 있습니다. 단, 내역 데이터에 액세스하기 위해 [!DNL eVar] 할당 설정을 변경해서는 안 됩니다. Adobe에서는 이미 많은 양의 내역 데이터가 있는 [!DNL eVar]에 대한 할당 설정을 변경하는 대신 이미 기록되고 있는 데이터에 새 할당 설정을 적용하려는 경우 새 [!DNL eVar]을(를) 사용하는 것이 좋습니다.
 
-[https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)에서 [!DNL Analytics] 속성 모델 및 해당 정의 목록을 참조하십시오.
+[https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/ko/docs/analytics/analyze/analysis-workspace/attribution/models)에서 [!DNL Analytics] 속성 모델 및 해당 정의 목록을 참조하십시오.
 
 [!DNL Search, Social, & Commerce]에 로그인한 경우 목록을 찾을 수 있습니다.
 
@@ -128,11 +128,11 @@ Adobe Advertising에서는 연결된 클릭 날짜/이벤트 날짜(클릭 또�
 
 ## [!DNL Analytics Marketing Channels]의 속성
 
-[[!DNL Analytics Marketing Channels] 보고](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html)를 사용하면 히트 정보의 고유한 측면을 기반으로 다양한 마케팅 채널을 식별하는 규칙을 구성할 수 있습니다. `ef_id` 쿼리 문자열 매개 변수를 사용하여 채널을 식별하여 Adobe Advertising 추적 채널([!UICONTROL Display Click Through], [!UICONTROL Display View Through] 및 [!UICONTROL Paid Search])을 [!DNL Marketing Channels]&#x200B;(으)로 추적할 수 있습니다. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> 그러나 [!DNL Marketing Channels] 보고서가 Adobe Advertising 채널을 추적할 수 있지만 여러 가지 이유로 데이터가 Adobe Advertising 보고서와 일치하지 않을 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
+[[!DNL Analytics Marketing Channels] 보고](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=ko)를 사용하면 히트 정보의 고유한 측면을 기반으로 다양한 마케팅 채널을 식별하는 규칙을 구성할 수 있습니다. `ef_id` 쿼리 문자열 매개 변수를 사용하여 채널을 식별하여 Adobe Advertising 추적 채널([!UICONTROL Display Click Through], [!UICONTROL Display View Through] 및 [!UICONTROL Paid Search])을 [!DNL Marketing Channels]&#x200B;(으)로 추적할 수 있습니다. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> 그러나 [!DNL Marketing Channels] 보고서가 Adobe Advertising 채널을 추적할 수 있지만 여러 가지 이유로 데이터가 Adobe Advertising 보고서와 일치하지 않을 수 있습니다. 자세한 내용은 다음 섹션을 참조하십시오.
 
 >[!NOTE]
 >
-> 다음 핵심 개념은 [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html) 변수(&quot;추적 코드&quot; 차원 또는 &quot;[!DNL eVar] 0&quot;이라고도 함) 및 사용자 지정 [!DNL eVar] 추적과 같이 Adobe Advertising에서 추적되지 않는 캠페인과 관련된 모든 다중 채널 추적에도 적용됩니다.
+> 다음 핵심 개념은 [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html?lang=ko) 변수(&quot;추적 코드&quot; 차원 또는 &quot;[!DNL eVar] 0&quot;이라고도 함) 및 사용자 지정 [!DNL eVar] 추적과 같이 Adobe Advertising에서 추적되지 않는 캠페인과 관련된 모든 다중 채널 추적에도 적용됩니다.
 
 ### [!DNL Marketing Channels]에서 잠재적으로 다른 속성 모델
 
@@ -156,7 +156,7 @@ Adobe Advertising 보고서는 Adobe Advertising(유료 검색: [!DNL Advertisin
 
 ## Adobe Analytics [!DNL Paid Search Detection]의 데이터 차이점
 
-[!DNL Analytics]의 [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) 기능을 통해 회사는 [유료 및 유기 검색 트래픽을 추적하는 규칙을 정의](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html)할 수 있습니다. [!DNL Paid Search Detection] 규칙은 쿼리 문자열과 참조 도메인을 모두 사용하여 유료 및 자연어 검색 트래픽을 식별합니다. [!DNL Paid Search Detection] 보고서는 지정된 이벤트(예: 장바구니 체크아웃)가 발생하거나 방문이 종료될 때 만료되는 더 큰 [검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html) 보고서 그룹의 일부입니다.
+[!DNL Analytics]의 [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=ko) 기능을 통해 회사는 [유료 및 유기 검색 트래픽을 추적하는 규칙을 정의](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=ko)할 수 있습니다. [!DNL Paid Search Detection] 규칙은 쿼리 문자열과 참조 도메인을 모두 사용하여 유료 및 자연어 검색 트래픽을 식별합니다. [!DNL Paid Search Detection] 보고서는 지정된 이벤트(예: 장바구니 체크아웃)가 발생하거나 방문이 종료될 때 만료되는 더 큰 [검색 방법](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=ko) 보고서 그룹의 일부입니다.
 
 다음은 [!DNL Paid Search Detection] 규칙 집합을 만드는 인터페이스입니다.
 
@@ -174,7 +174,7 @@ Adobe Advertising 보고서는 Adobe Advertising(유료 검색: [!DNL Advertisin
 
 ### [!DNL Paid Search Detection]을(를) 구성하는 이유
 
-[!DNL Paid Search Detection] 보고서를 사용하면 [[!DNL Analytics Marketing Channels] 보고서](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html)에서 자연어 검색 트래픽을 식별할 수 있습니다. 유료 검색 트래픽과 자연어 검색 트래픽을 구분하는 것은 자연어 검색이 전체 마케팅 생태계에 가져오는 가치를 이해하는 좋은 방법입니다.
+[!DNL Paid Search Detection] 보고서를 사용하면 [[!DNL Analytics Marketing Channels] 보고서](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=ko)에서 자연어 검색 트래픽을 식별할 수 있습니다. 유료 검색 트래픽과 자연어 검색 트래픽을 구분하는 것은 자연어 검색이 전체 마케팅 생태계에 가져오는 가치를 이해하는 좋은 방법입니다.
 
 ## [!DNL Analytics for Advertising]에 대한 클릭스루 데이터 유효성 검사 {#data-validation}
 
@@ -264,7 +264,7 @@ www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
 
 * **클릭:** [!DNL DSP] 또는 검색 엔진은 방문자가 게시자의 웹 사이트에서 광고를 클릭할 때 클릭을 기록합니다.
 
-* **방문:** [!DNL Analytics]은(는) [방문](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)을(를) 사용자의 일련의 페이지 보기로 정의하며, 30분 동안 활동이 없는 경우와 같은 여러 기준 중 하나에 따라 종료됩니다.
+* **방문:** [!DNL Analytics]은(는) [방문](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=ko)을(를) 사용자의 일련의 페이지 보기로 정의하며, 30분 동안 활동이 없는 경우와 같은 여러 기준 중 하나에 따라 종료됩니다.
 
 정의에 따라 클릭으로 여러 번의 방문이 발생할 수 있습니다.
 
