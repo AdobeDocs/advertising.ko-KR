@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. (광고주: [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [!DNL Analytics] 측정에 대한 추적을 설정합니다.
 
-   1. 아직 완료하지 않은 경우) 추적 URL에서 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md)와(과)  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)을(를) 구현하기 위한 [필수 구성 요소를 모두 완료하십시오.
+   1. 아직 완료하지 않은 경우) 추적 URL에서 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md)와(과)  [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/prerequisites.md)을(를) 구현하기 위한 필수 구성 요소를 모두 완료하십시오.
 
    1. 웹 페이지에 [!DNL AdFixus]별 코드를 배포하여 뷰스루에 대한 데스크톱 및 모바일 웹 브라우저(모바일 앱은 아님)의 [!DNL AdFixus] ID의 전환을 일치시키십시오.
 

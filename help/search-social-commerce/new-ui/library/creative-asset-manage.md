@@ -110,7 +110,7 @@ ht-degree: 0%
 
 1. 일괄 작업 도구 모음에서 **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
 
-1. <!-- VERIFY -->확인 메시지에서 **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
+1. &#x200B;<!-- VERIFY -->확인 메시지에서 **[!UICONTROL Remove]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >

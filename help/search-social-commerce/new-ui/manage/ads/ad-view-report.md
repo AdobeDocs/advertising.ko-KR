@@ -73,5 +73,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [!UICONTROL Ads view]](ad-view-about.md)에 대한 [(새 UI)
+>* [!UICONTROL Ads view]&#x200B;[&#128279;](ad-view-about.md)에 대한 (새 UI)
 >* [(새 UI) 광고 상태 변경](ad-change-status.md)

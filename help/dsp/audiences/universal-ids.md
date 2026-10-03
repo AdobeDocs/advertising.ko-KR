@@ -42,7 +42,7 @@ DSP은 DSP에서 지원하는 디지털 형식 간에 쿠키 없는 단일 장�
 
 * DSP은 고객 데이터 플랫폼(CDP) 내에 구축된 자사 세그먼트를 수집하여 [!DNL LiveRamp] [!DNL RampIDs] 및 [!DNL Unified ID 2.0 (UID2.0)] ID로 변환할 수 있습니다. 지원되는 고객 데이터 플랫폼 및 사용자 식별자 유형, 지원되는 각 범용 ID 유형에 사용할 수 있는 기능 및 관련 워크플로에 대한 자세한 내용은 &quot;[자사 대상 소스 정보](/help/dsp/audiences/sources/source-about.md)&quot;를 참조하십시오.
 
-* 오스트레일리아의 광고주는 [!UICONTROL AdFixus ID] 대상 소스를 사용하여 [!DNL AdFixus] 유니버설 ID가 포함된 자사 세그먼트를 가져올 수 있습니다. DSP은 [!DNL AdFixus] ID와 다른 범용 ID 유형 간에 변환되지 않습니다. &quot;[ [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)에서 자사 세그먼트 가져오기&quot;를 참조하십시오.
+* 오스트레일리아의 광고주는 [!UICONTROL AdFixus ID] 대상 소스를 사용하여 [!DNL AdFixus] 유니버설 ID가 포함된 자사 세그먼트를 가져올 수 있습니다. DSP은 [!DNL AdFixus] ID와 다른 범용 ID 유형 간에 변환되지 않습니다. &quot;[&#x200B; [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)에서 자사 세그먼트 가져오기&quot;를 참조하십시오.
 
 * 데스크탑 및 모바일 디바이스에서 광고에 노출되고 특정 웹 페이지를 방문하는 ID5 범용 ID와 연결된 사용자를 추적하는 사용자 지정 세그먼트를 만들 수 있습니다. ID5는 확률론적 모델을 사용하여 다양한 사용자 신호 및 브라우저 신호로부터 파생된 ID를 할당합니다. 지침은 &quot;[사용자 지정 세그먼트 만들기 및 구현](/help/dsp/audiences/custom-segment-create.md)&quot;을 참조하세요.
 

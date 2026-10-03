@@ -41,7 +41,7 @@ Adobe Advertising DSP(DSP)는 고급 자사 데이터 세분화 및 활성화 �
 
 * **[Adobe Analytics, Adobe Customer Journey Analytics, Adobe Audience Manager, Adobe Target 및 Adobe Experience Platform과의 통합](/help/integrations/home.md)**: 기존 Adobe 제품과의 통합을 통해 자사 데이터를 극대화하고 광고를 나머지 비즈니스 인사이트와 동일한 수준으로 만들 수 있습니다.
 
-* [!DNL Roku]**](/help/dsp/inventory/roku-inventory.md): [!DNL Roku]과(와) 함께 [**Premiere 연결 TV 경험과 DSP은(는) [!DNL Roku] 인벤토리에서 자사 데이터와 타사 데이터를 활성화하여 대규모의 화면에서 대상에 효율적으로 도달할 수 있도록 해주는 고유한 파트너 관계를 가지고 있습니다. 마케터는 [!DNL Roku] ID와 동기화하는 기능이 있는 유일한 플랫폼을 활용하여 정밀도 및 정확도로 결정론적 1:1 타깃팅을 활용하고 [!DNL Roku] 인벤토리 및 고유한 측정 통찰력에 액세스할 수 있습니다.
+* [!DNL Roku]&#x200B;**[&#128279;](/help/dsp/inventory/roku-inventory.md): [!DNL Roku]과(와) 함께 &#x200B;** Premiere 연결 TV 경험과 DSP은(는) [!DNL Roku] 인벤토리에서 자사 데이터와 타사 데이터를 활성화하여 대규모의 화면에서 대상에 효율적으로 도달할 수 있도록 해주는 고유한 파트너 관계를 가지고 있습니다. 마케터는 [!DNL Roku] ID와 동기화하는 기능이 있는 유일한 플랫폼을 활용하여 정밀도 및 정확도로 결정론적 1:1 타깃팅을 활용하고 [!DNL Roku] 인벤토리 및 고유한 측정 통찰력에 액세스할 수 있습니다.
 
 * [**AI 지원 기능**](/help/dsp/introduction/features/ai-agents.md): DSP에서는 재사용 가능한 대상을 만들고 제품 사용 지침과 모범 사례를 찾는 데 도움이 되는 AI 지원 에이전트를 제공합니다.
 

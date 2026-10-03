@@ -306,7 +306,7 @@ Customer Journey Analytics Workspace에서 다음 단계에 따라 보고서 및
 >
 >* [개요](overview.md)
 >* [필수 구성 요소](prerequisites.md)
->*  [!DNL Customer Journey Analytics]](ids.md)에서 사용하는 [Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)에서 사용하는 Adobe Advertising ID
 >* [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](advertising-data-in-cja.md)
 >* [Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터를 수집합니다](/help/integrations/analytics/rvars-to-evars.md).
 >* [문제 해결](troubleshooting.md)

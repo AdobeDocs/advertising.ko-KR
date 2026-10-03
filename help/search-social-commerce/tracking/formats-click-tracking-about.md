@@ -47,9 +47,9 @@ Adobe Advertising 전환 추적 서비스를 사용하는 광고 계정 및 캠�
 >[!MORELIKETHIS]
 >
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Baidu]](formats-click-tracking-baidu.md)
->*  [!DNL Google Ads]](formats-click-tracking-google.md)에 대한 [클릭 추적 형식
+>*  [!DNL Google Ads]&#x200B;[&#128279;](formats-click-tracking-google.md)에 대한 클릭 추적 형식
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL LY Ads]](formats-click-tracking-yahoo-japan.md)
->*  [!DNL Microsoft Advertising]](formats-click-tracking-microsoft.md)에 대한 [클릭 추적 형식
+>*  [!DNL Microsoft Advertising]&#x200B;[&#128279;](formats-click-tracking-microsoft.md)에 대한 클릭 추적 형식
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Naver]](formats-click-tracking-naver.md)
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Yahoo DSP]](formats-click-tracking-yahoo-display-network.md)
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Yandex]](formats-click-tracking-yandex.md)
