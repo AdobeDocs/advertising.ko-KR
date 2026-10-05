@@ -9,19 +9,14 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2100'
 ht-degree: 0%
 ---
 # (새 UI) API 연결을 통해 광고 네트워크 계정을 관리합니다
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-
-*Beta 기능*
-
-<!-- Move out info about Naver into a separate page -->
-
 다음은 검색, 소셜 및 Commerce이 광고 네트워크의 API를 사용하여 동기화하는 광고 네트워크 계정을 관리하는 지침입니다.
 
 <!-- Move out info about Naver into a separate page -->
@@ -36,13 +31,13 @@ ht-degree: 0%
 >
 >광고 네트워크에서 실제 계정을 만들려면 광고 네트워크의 웹 사이트로 이동합니다.
 
-1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Create Account]**&#x200B;을(를) 클릭합니다.
 
 1. 광고 네트워크 이름을 클릭한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-1. ([!DNL Yandex]을(를) 제외한 모든 광고 네트워크) 광고주의 자격 증명을 사용하여 광고 네트워크에 로그인합니다. &quot;이 계정에 대한 계정 추적&quot; 옵션을 선택합니다. 그런 다음 오른쪽 상단에서 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. ([!DNL ChatGPT Ads] 및 [!DNL Yandex]을(를) 제외한 모든 광고 네트워크) 광고주의 자격 증명을 사용하여 광고 네트워크에 로그인합니다. &quot;이 계정에 대한 계정 추적&quot; 옵션을 선택합니다. 그런 다음 오른쪽 상단에서 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
 1. 사용 가능한 각 탭에서 [계정 설정](#account-settings-api)을 지정하십시오.
 
@@ -58,7 +53,7 @@ ht-degree: 0%
 >
 >광고 네트워크에서 실제 계정을 편집하려면 광고 네트워크의 웹 사이트로 이동합니다.
 
-1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 방법 중 하나로 계정을 선택합니다.
 
@@ -76,11 +71,13 @@ ht-degree: 0%
 
 ## 광고 네트워크 계정 재인증 {#reauthenticate}
 
+*[!DNL ChatGPT Ads]개 계정에 적용할 수 없음*
+
 광고 네트워크 연결을 새로 고치거나 계정에 대한 권한을 업데이트하려면 계정을 다시 인증하십시오.
 
 1. (동일한 브라우저 애플리케이션에서 동일한 광고 네트워크의 다른 계정에 로그인한 경우) 광고주의 계정이 아닌 다른 계정에서 로그아웃합니다.
 
-1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -98,7 +95,7 @@ ht-degree: 0%
 
 광고 네트워크 계정을 활성화하면 Search, Social 및 Commerce이 캠페인 데이터를 계정과 동기화하고(지원되는 경우) 포트폴리오의 캠페인에 대한 자동화된 입찰 및/또는 캠페인 예산을 푸시합니다. 광고 네트워크 계정을 비활성화하면 검색, 소셜 및 Commerce이 계정에서 모든 활동을 중지합니다. 계정이 활성화된 동안 수집된 데이터는 여전히 저장되지만 캠페인 관리 보기 및 보고서에는 계정이 비활성화된 기간에 대한 데이터가 포함되지 않습니다. 나중에 계정을 다시 활성화하여 계정으로 활동을 재개할 수 있습니다.
 
-1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+1. 주 메뉴에서 **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 중 하나를 수행합니다.
 
@@ -141,7 +138,7 @@ ht-degree: 0%
 
 **[!DNL [광고 네트워크] 계정]:**(계정을 만드는 동안 표시) 동기화할 광고 네트워크 계정입니다.
 
-**[로그인 세부 정보]:**(Yandex 계정만 해당) 사용할 계정 자격 증명:
+**[로그인 세부 정보]:**([!DNL Yandex] 계정만 해당) 사용할 계정 자격 증명:
 
 * **[!UICONTROL Login]:** 계정에 대한 API 액세스를 사용하도록 설정하는 로그인 이름 또는 ID입니다.
 
@@ -154,12 +151,6 @@ ht-degree: 0%
 * **[!UICONTROL Purse Campaign ID]:**([!DNL Yandex] 계정(공유 계정 설정만 사용 안 함, 선택 사항) 계정의 모든 광고 캠페인에 대한 비용을 지불하는 데 사용되는 캠페인의 숫자 ID입니다.
 
 * **[!UICONTROL Finance Token]:**([!DNL Yandex]개의 계정에 공유 계정 설정만 비활성화됨, 선택 사항) 금융 관련 API 호출에 사용할 개발자 토큰(예: 포트폴리오 최적화에 필요한 경우 광고주 캠페인 간 전자 지갑에서 돈을 다시 할당하는 데 사용).
-
-**[!UICONTROL Network Account ID]:**([!DNL Yandex]을(를) 제외한 모든 광고 네트워크) 광고 네트워크에서 할당한 계정 ID.
-
->[!NOTE]
->
->광고 네트워크 관리자 계정은 여기에서 지원되지 않습니다. [!DNL Microsoft Advertising]의 관리자 계정을 식별하려면 각각 기본 계정 ID 또는 MCC 계정 필드를 사용하십시오. [관리자 계정  [!DNL Google Ads] 의 자격 증명을 설정하려면[!UICONTROL Setup] \> [!UICONTROL Manager Accounts]&#x200B;(으)로 이동하십시오.](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 
 **[!UICONTROL Currency]:**(읽기 전용) 계정에 사용되는 통화의 약어입니다. 이 값은 레코드를 저장하면 광고 네트워크의 계정에 대해 구성된 통화로 자동으로 채워집니다.
 
@@ -193,7 +184,7 @@ ht-degree: 0%
 >* [!UICONTROL Standard]에서 [!UICONTROL Token]&#x200B;(으)로 전환하거나 그 반대로 전환하는 경우 계정에 대한 추적 URL을 다시 생성해야 합니다.
 >* 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.
 
-**[!UICONTROL Auto Update]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우) 브라우저 및 서버 간 호환성을 위해 추적 URL을 표준화합니다. 검색, 소셜 및 Commerce은 다음 동기화 동안 광고 네트워크에 다음을 자동으로 업로드합니다. (a) 추적 템플릿에 대한 검색, 소셜 및 Commerce 추적 매개 변수와 최종 URL에 추가된 동일한 매개 변수 또는 (b) 검색, 소셜 및 Commerce 추적 코드에 포함된 새 대상 URL. [Adobe Advertising-Adobe Analytics 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko) 및 서버측 AMO ID(s_kwcid) 구성이 있는 광고주의 경우 업로드에는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에 대한 [AMO ID 매개 변수](/help/integrations/analytics/ids.md#amo-id)도 포함됩니다. 기본 계정 수준 설정은 광고주의 추적 설정에서 상속됩니다. 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.
+**[!UICONTROL Auto Update]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우) 브라우저 및 서버 간 호환성을 위해 추적 URL을 표준화합니다. 검색, 소셜 및 Commerce은 다음 동기화 동안 광고 네트워크에 다음을 자동으로 업로드합니다. (a) 추적 템플릿에 대한 검색, 소셜 및 Commerce 추적 매개 변수와 최종 URL에 추가된 동일한 매개 변수 또는 (b) 검색, 소셜 및 Commerce 추적 코드에 포함된 새 대상 URL. [Adobe Advertising-Adobe Analytics 통합](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) 및 서버측 AMO ID(s_kwcid) 구성이 있는 광고주의 경우 업로드에는 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정에 대한 [AMO ID 매개 변수](/help/integrations/analytics/ids.md#amo-id)도 포함됩니다. 기본 계정 수준 설정은 광고주의 추적 설정에서 상속됩니다. 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.
 
 추적 URL은 동기화되지 않은 엔티티(즉, 추가된 새 엔티티 및 속성이 변경된 기존 엔티티)에 대해서만 매일 업데이트됩니다. 따라서 기존 광고주/계정/캠페인에 대해 이 설정을 비활성화에서 활성화로 변경하면 이미 동기화 중인 기존 엔티티에 대한 추적 URL이 업데이트되지 않습니다. 동기화 중인 기존 엔터티의 URL에 추적을 추가하려면 Adobe 계정 팀에 연락하여 1회 수동 동기화 프로세스를 요청하십시오. 자동 업로드 프로세스는 향후 변경 사항을 처리합니다.
 
@@ -251,5 +242,5 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 >[!MORELIKETHIS]
 >
 >* [광고 네트워크 계정 정보](../ad-network-account-about.md)
->* [판매자 센터 계정 관리](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+>* [판매자 센터 계정 관리](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 >* [a [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)에 대한 s_kwcid 추적 코드 업데이트
