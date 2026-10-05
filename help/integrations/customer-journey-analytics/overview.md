@@ -85,7 +85,7 @@ Adobe Advertising은 양방향 데이터 공유 및 보고를 위해 Adobe Custo
 >[!MORELIKETHIS]
 >
 >* [필수 구성 요소](prerequisites.md)
->*  [!DNL Customer Journey Analytics]](ids.md)에서 사용하는 [Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)에서 사용하는 Adobe Advertising ID
 >* [데이터 수집, 데이터 전송 및 보고 설정](set-up.md)
 >* [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](advertising-data-in-cja.md)
 >* (Adobe Analytics 사용자) [Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집](/help/integrations/analytics/rvars-to-evars.md).
