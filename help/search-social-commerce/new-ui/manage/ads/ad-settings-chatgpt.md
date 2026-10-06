@@ -1,6 +1,6 @@
 ---
-title: '[!DNL ChatGPT] 광고 설정'
-description: '[!DNL ChatGPT] 광고에 대한 설정을 참조합니다.'
+title: '[!DNL ChatGPT] 차트 카드 광고 설정'
+description: '[!DNL ChatGPT] 채팅 카드 광고에 대한 설정을 참조합니다.'
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -14,12 +14,12 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '158'
 ht-degree: 0%
 ---
-# [!DNL ChatGPT Ads] 광고 설정
+# [!DNL ChatGPT Ads] 채팅 카드 광고 설정
 
 [!DNL ChatGPT]의 *광고는[!DNL OpenAI]*&#x200B;의 파일럿 기능입니다.
 
