@@ -98,7 +98,7 @@ Experience Platform에서 데이터 수집을 설정하고 전환 추적 태그�
 
      각 데이터 스트림은 하나의 데이터 세트에만 데이터를 삽입할 수 있습니다.
 
-### 조직의 웹 사이트 데이터를 <!-- ?? -->Experience Platform 데이터스트림 {#tags-websdk}(으)로 보내기
+### 조직의 웹 사이트 데이터를 <!-- ?? -->Experience Platform 데이터스트림 로 보내기 {#tags-websdk}
 
 Adobe Tags의 Adobe Experience Platform Web SDK 확장 기능을 사용하여 조직의 웹 사이트 데이터를 Experience Platform 데이터스트림으로 전송합니다.
 
