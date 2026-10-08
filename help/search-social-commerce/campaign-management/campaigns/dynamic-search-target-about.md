@@ -1,20 +1,23 @@
 ---
-title: ' [!DNL Google Ads] 동적 검색 대상 정보'
-description: ' [!DNL Google Ads] 동적 검색 대상에 대해 알아봅니다.'
+title: '[!DNL Google Ads]개의 동적 검색 대상 정보'
+description: '[!DNL Google Ads]개의 동적 검색 대상에 대해 알아봅니다.'
 exl-id: e6a8a426-5848-4161-99f3-1140aa3e4b9f
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/zOz7erv8gCjyfXxxlEfXBa4BkZbDzG0lSfUF52TJ8KM
+TQID: 'https://experienceleague.adobe.com/zOz7erv8gCjyfXxxlEfXBa4BkZbDzG0lSfUF52TJ8KM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 192
+source-wordcount: '196'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]개의 동적 검색 대상 정보
 
 *[!DNL Google Ads]개의 계정만*

@@ -3,20 +3,24 @@ title: 보고서를 분석하여 키워드 및 캠페인 설정 세분화
 description: 보고서를 사용하여 키워드 및 캠페인 설정을 세분화하는 모범 사례에 대해 알아봅니다.
 exl-id: f1e3834b-2a6c-4d41-9355-70435a9e83e6
 feature: Search Best Practices
-TQID: https://experienceleague.adobe.com/RJfrnMplFPld70TgLzc98p77-8pnM870Vv4ETt2gFeg
+TQID: 'https://experienceleague.adobe.com/RJfrnMplFPld70TgLzc98p77-8pnM870Vv4ETt2gFeg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4448d932-c6c2-59c8-8d0c-d940413abe6b
+    internal-label: Search Best Practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '255'
 ht-degree: 0%
-
 ---
-
 # 보고서를 분석하여 키워드 및 캠페인 설정 세분화
 
 고급 보고서를 사용하면 검색 캠페인에 포함된 키워드 및 일치 유형과 모든 유형의 캠페인에 대한 지리적 및 사이트 타겟에 대한 전략적 결정을 내릴 수 있습니다. 그러나 캠페인에서 제외할 키워드, 지리적 타겟 및 웹 사이트를 선택할 때는 주의하십시오.

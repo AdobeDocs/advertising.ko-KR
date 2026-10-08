@@ -3,25 +3,35 @@ title: 프로그램 보증 거래 정보
 description: 프로그램 보증 거래(PG) 및 이를 제공하는 인증 SSP에 대해 알아봅니다.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-TQID: https://experienceleague.adobe.com/LJPeIv8z6DiQS-eCe8obWgKkWi5onwpBadIgElLzkXw
+TQID: 'https://experienceleague.adobe.com/LJPeIv8z6DiQS-eCe8obWgKkWi5onwpBadIgElLzkXw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
+  - id: ea1cb503-33dd-595d-833b-f365576083b6
+    internal-label: DSP Programmatic Guaranteed Deals
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 240
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 # 프로그램 보증 거래 정보
 
 프로그램 보증 거래(PG)는 광고 서버 태그가 아닌 거래 ID를 통해 게시자와 직접 체결할 수 있는 보증된 구매입니다. PG는 사용자와 게시자가 보다 유연하게 관리할 수 있으며, 일반 태그 구입보다 더 투명합니다. 청구 및 보고는 DSP을 통해 통합되므로 시간을 절약할 수 있습니다.

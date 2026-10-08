@@ -3,18 +3,21 @@ title: 피드에서 생성된 데이터 편집
 description: 인벤토리 데이터 피드에서 생성된 데이터를 편집하는 방법을 알아봅니다.
 exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/YAjOramjWXPJmOkLB2dhjG3PLUUAEbDAPRBYLVSl3vo
+TQID: 'https://experienceleague.adobe.com/YAjOramjWXPJmOkLB2dhjG3PLUUAEbDAPRBYLVSl3vo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 426
+source-wordcount: '426'
 ht-degree: 0%
-
 ---
-
 # 피드에서 생성된 데이터 편집
 
 *[!DNL Google Ads], [!DNL LY Ads]&#x200B;(삭제 작업만), [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정만*
@@ -27,32 +30,32 @@ ht-degree: 0%
 
   캠페인 계층 구조 보기에는 기존 계정 구성 요소가 표시되지 않고 피드 파일에서 생성된 데이터만 표시됩니다. 구성 요소 및 모든 하위 구성 요소에 대한 데이터가 광고 네트워크에 게시되면 더 이상 캠페인 계층에 나열되지 않습니다.
 
-   1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
+  1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
 
-   1. (선택 사항) 특정 템플릿에 대해 생성된 캠페인 구성 요소만 표시하려면 다음을 수행합니다.
+  1. (선택 사항) 특정 템플릿에 대해 생성된 캠페인 구성 요소만 표시하려면 다음을 수행합니다.
 
-      1. 템플릿 이름을 클릭합니다.
+     1. 템플릿 이름을 클릭합니다.
 
-      1. 왼쪽 탐색 창의 [!UICONTROL Accounts] 메뉴에서 광고 네트워크 노드 및 광고 네트워크 계정 노드를 확장한 다음 템플릿 이름 옆에 있는 확인란을 선택합니다.
+     1. 왼쪽 탐색 창의 [!UICONTROL Accounts] 메뉴에서 광고 네트워크 노드 및 광고 네트워크 계정 노드를 확장한 다음 템플릿 이름 옆에 있는 확인란을 선택합니다.
 
-   1. 보려는 구성 요소에 따라 **[!UICONTROL Campaigns]**, **[!UICONTROL Ad Groups]**, **[!UICONTROL Keywords]** 또는 **[!UICONTROL Ads]** 탭을 클릭합니다.
+  1. 보려는 구성 요소에 따라 **[!UICONTROL Campaigns]**, **[!UICONTROL Ad Groups]**, **[!UICONTROL Keywords]** 또는 **[!UICONTROL Ads]** 탭을 클릭합니다.
 
-      >[!NOTE]
-      >
-      >* 특정 템플릿에 대한 데이터를 보지 않는 한 [!UICONTROL Ad Groups], [!UICONTROL Keywords] 및 [!UICONTROL Ads] 탭에는 모든 템플릿 및 피드 파일에서 만든 모든 광고 그룹, 키워드 및 광고가 나열됩니다. [!DNL Google Ads] 쇼핑 광고에 사용된 제품 그룹이 [!UICONTROL Keywords] 탭에 나열됩니다.
-      >* 특정 캠페인의 하위 구성 요소만 보려면 먼저 [!UICONTROL Campaigns] 탭을 보십시오. 마찬가지로, 특정 광고 그룹의 하위 구성 요소만 보려면 [!UICONTROL Ad Groups] 탭을 보는 것부터 시작하십시오.
+     >[!NOTE]
+     >
+     >* 특정 템플릿에 대한 데이터를 보지 않는 한 [!UICONTROL Ad Groups], [!UICONTROL Keywords] 및 [!UICONTROL Ads] 탭에는 모든 템플릿 및 피드 파일에서 만든 모든 광고 그룹, 키워드 및 광고가 나열됩니다. [!DNL Google Ads] 쇼핑 광고에 사용된 제품 그룹이 [!UICONTROL Keywords] 탭에 나열됩니다.
+     >* 특정 캠페인의 하위 구성 요소만 보려면 먼저 [!UICONTROL Campaigns] 탭을 보십시오. 마찬가지로, 특정 광고 그룹의 하위 구성 요소만 보려면 [!UICONTROL Ad Groups] 탭을 보는 것부터 시작하십시오.
 
-   1. (선택 사항, 광고 그룹, 키워드 또는 광고만 편집) 특정 캠페인 또는 광고 그룹의 하위 구성 요소만 포함하도록 목록을 필터링합니다.
+  1. (선택 사항, 광고 그룹, 키워드 또는 광고만 편집) 특정 캠페인 또는 광고 그룹의 하위 구성 요소만 포함하도록 목록을 필터링합니다.
 
-      * 캠페인의 모든 광고 그룹을 나열하려면 캠페인 이름을 클릭합니다.
+     * 캠페인의 모든 광고 그룹을 나열하려면 캠페인 이름을 클릭합니다.
 
-      * 광고 그룹의 모든 키워드를 나열하려면 광고 그룹 이름을 클릭합니다.
+     * 광고 그룹의 모든 키워드를 나열하려면 광고 그룹 이름을 클릭합니다.
 
-      * 광고 그룹의 모든 을(를) 나열하려면 광고 그룹 이름을 클릭한 다음 [!UICONTROL Ads] 탭을 클릭합니다.
+     * 광고 그룹의 모든 을(를) 나열하려면 광고 그룹 이름을 클릭한 다음 [!UICONTROL Ads] 탭을 클릭합니다.
 
-   1. 캠페인, 광고 그룹, 키워드 또는 광고 이름 옆에 있는 [설정 보기/편집 아이콘](/help/search-social-commerce/assets/settings.png "설정 보기/편집 아이콘")을 클릭합니다.
+  1. 캠페인, 광고 그룹, 키워드 또는 광고 이름 옆에 있는 [설정 보기/편집 아이콘](/help/search-social-commerce/assets/settings.png "설정 보기/편집 아이콘")을 클릭합니다.
 
-   1. 설정을 편집한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+  1. 설정을 편집한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >

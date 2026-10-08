@@ -3,20 +3,23 @@ title: JavaScript 전환 추적 태그 버전 3의 형식
 description: JavaScript 전환 추적 태그 버전 3의 형식을 참조하십시오.
 exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/IjPpsTp5GGaG6SM2k1UC0Q0J3QCF-jIR7-ug3yigW3U
+TQID: 'https://experienceleague.adobe.com/IjPpsTp5GGaG6SM2k1UC0Q0J3QCF-jIR7-ug3yigW3U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 297
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # JavaScript 전환 추적 태그 버전 3의 형식
 
 다음 형식은 HTTPS를 사용하는 사이트에 사용됩니다. HTTP를 사용하는 사이트의 경우 URL은 &quot;http&quot;로 시작해야 합니다.
@@ -65,7 +68,7 @@ ht-degree: 0%
 
 * `<ID5_PartnerID>`은(는) 조직이 [!DNL ID5]과(와) 계약에 서명한 후 받는 조직의 ID5 파트너 ID입니다. 조직에서 DSP을 사용하고 ID5 유니버설 ID와 연결된 사용자를 추적하는 [사용자 지정 세그먼트](/help/dsp/audiences/universal-ids.md)가 있는 경우에만 이 변수를 포함하십시오.
 
-* `<propertyname>`은(는) 추적할 변환입니다. 예를 들어 &quot;등록&quot;이라는 전환을 추적하는 경우 태그에 매개 변수 `ev_registration=<registration>`이(가) 포함되며 각 거래(예: `ev_registration=1`)에 대한 실제 매출을 전달해야 합니다. 여러 속성을 추적하면 `&`(예: `ev_registration=<registration>&ev_sale=<sale>`)과 같은 앰퍼샌드(`ev_registration=1&ev_sale=12.99`)로 연결됩니다. **참고:** 속성 이름에 특수 문자가 포함되지 않을 수 있습니다.
+* `<propertyname>`은(는) 추적할 변환입니다. 예를 들어 &quot;등록&quot;이라는 전환을 추적하는 경우 태그에 매개 변수 `ev_registration=<registration>`이(가) 포함되며 각 거래(예: `ev_registration=1`)에 대한 실제 매출을 전달해야 합니다. 여러 속성을 추적하면 `ev_registration=<registration>&ev_sale=<sale>`(예: `ev_registration=1&ev_sale=12.99`)과 같은 앰퍼샌드(`&`)로 연결됩니다. **참고:** 속성 이름에 특수 문자가 포함되지 않을 수 있습니다.
 
 * `<transid>`은(는) 광고주가 트랜잭션을 식별하기 위해 생성하고 전달하는 고유한 트랜잭션 ID(예: 실제 주문 ID)입니다. &quot;[!UICONTROL Include unique transaction IDs]&quot; 옵션을 선택한 경우에만 포함됩니다.
 

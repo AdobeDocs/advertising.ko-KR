@@ -3,25 +3,31 @@ title: 캠페인 관리 보기의 성과 보고서 유형
 description: 캠페인 관리 보기에 포함된 보고서 데이터에 대해 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-TQID: https://experienceleague.adobe.com/-3WGjX1rQOEKSO9aSdLxBxfDOIyPUMHLbZg-3bFxMd0
+TQID: 'https://experienceleague.adobe.com/-3WGjX1rQOEKSO9aSdLxBxfDOIyPUMHLbZg-3bFxMd0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2cfe5a2c-1e84-5461-b310-20f6bb734742
+    internal-label: DSP Campaign Data Views
 subfeature_v2:
   - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+    internal-label: Campaign Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: '658'
 ht-degree: 0%
-
 ---
-
 # 캠페인 관리 보기의 성과 보고서 유형
 
 캠페인 관리 보기에는 포괄적인 보고서 데이터가 포함됩니다. 사용 가능한 보고서를 통해 성과가 좋은 패키지 및 배치와 주의가 필요한 배치를 식별할 수 있습니다. 또한 빠른 작업 버튼을 사용하면 생산성이 향상됩니다.

@@ -27,17 +27,19 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
+source-git-commit: cbbbdbcf073cf593f49b3e481cd0e2482358063a
 workflow-type: tm+mt
-source-wordcount: '5019'
+source-wordcount: '5305'
 ht-degree: 1%
 ---
-# 새로운 기능
+# 검색, 소셜 및 Commerce의 새로운 기능
 
 다음 기능은 새로운 기능이거나 최근에 변경되었습니다.
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026년 10월 5일 | [!UICONTROL Campaigns], [!UICONTROL Reports] | (Beta 기능) 이제 [!DNL OpenAI ChatGPT Ads]개의 광고 계정이 있는 광고주는 새 검색, 소셜 및 Commerce 사용자 인터페이스에서 캠페인을 관리하고 캠페인에 대해 보고할 수 있습니다. [!DNL OpenAI]의 파일럿 기능인 [!DNL Chat card] 광고는 AI 채팅 전환 옆에 나타나는 이미지 기반 스폰서 배치이며 채팅 전환의 컨텍스트 및 의도, 사용자 위치 및 언어를 타깃팅할 수 있습니다. 인벤토리는 비공개이고 게시자가 관리하며 입찰 가능하지 않습니다. 중국을 제외한 대부분의 주요 시장에서 [!DNL ChatGPT]개의 광고를 사용할 수 있습니다. 의료 서비스나 금융 서비스에 대한 광고는 금지되어 있다.<br><br>계정, 캠페인, 광고 그룹 및 광고를 만들고 관리할 수 있으며, 캠페인 관리 보기에서 성능 데이터(노출 횟수, 클릭 수, 비용([!DNL ChatGPT Ads] 추적 전환은 아님)를 볼 수 있습니다. [!DNL Adobe] 또는 서드파티 추적, 자사 대상 타기팅, 예약된 보고서, Adobe Analytics 또는 Adobe Customer Journey Analytics에서의 보고, 최적화 또는 Bulksheets를 사용한 캠페인 관리에 대해서는 지원을 사용할 수 없습니다.[!DNL ChatGPT Ads]에 대한 <br><br>지원은 올해 말 Advertising DSP에서도 사용할 수 있습니다. 조직에서 검색, 소셜, Commerce 및 DSP을 모두 사용하는 경우 검색, 소셜 및 Commerce을 통해서만 인벤토리를 구매하십시오. 그러면 다른 광고 네트워크에 대한 데이터와 함께 성능 데이터를 볼 수 있습니다.<br><br>이 기능을 사용하려면 Adobe 계정 팀에 연락하여 요금 정보를 확인하고 온보딩 프로세스를 시작하십시오. | [[!DNL ChatGPT Ads] 계정 설정](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md), [캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md) 및 [광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)을 참조하세요.<br><br>또한 [ChatGPT 광고](https://help.openai.com/en/articles/20001207-ads-in-chatgpt-the-basics) 및 [!DNL OpenAI] [광고 정책](https://openai.com/policies/ad-policies)에 대한 자세한 정보를 참조하세요. |
+| 2026년 9월 30일 | 새로운 사용자 인터페이스 | 사용자 피드백을 기반으로 새로운 사용자 인터페이스의 메인 메뉴를 재구성하였다. 로그인할 때 새 메뉴에 대한 연습이 표시됩니다. | — |
 | 2026년 8월 26일 | [!UICONTROL Reports] | 이제 [!UICONTROL Google AI Max Search Term Combination Report]에 각 검색어 및 일치 유형에 대한 변환 작업에 의해 [!DNL Google Ads]에서 추적된 변환 데이터가 포함된 두 번째 시트가 포함되어 있습니다. [!DNL AI Max] 사용 캠페인의 광고에 대한 데이터가 표시됩니다. | &quot;[[!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/reports/management/specialty/google-ai-max-search-term-combination-report.md)&quot;을(를) 참조하십시오. |
 | 2026년 7월 29일 | [!UICONTROL Campaigns], [!UICONTROL Reports] | ([!DNL Google Ads] 계정) 이제 검색 네트워크의 새 Google 광고 캠페인에 대한 UI에서 다음 AI Max 지원을 사용할 수 있습니다.<ul><li>관리 > 캠페인에서 AI Max 지원 캠페인을 만들고 관리할 수 있습니다. Campaign 설정에는 AI Max, 자동화된 텍스트 사용자 지정 및 최종 URL 확장을 활성화하는 옵션이 포함된 새로운 AI Max 탭이 포함됩니다. 광고 그룹에서 지리적 관심 타겟을 사용하는지 여부도 확인할 수 있습니다.</li><li>관리 > 광고 그룹에서 AI Max 활성화 캠페인에 대한 광고 그룹을 만들고 관리할 수 있습니다. 설정에는 키워드 없는 검색어 일치 및 대상 관심 위치가 포함됩니다.</li><li>AI가 생성한 크리에이티브 에셋은 Assets > Creative에서 사용할 수 있습니다. 이 보기에서 연결된 광고 그룹에서 텍스트 자산을 제거할 수 있습니다.</li><li>새 [!UICONTROL Asset Report]에는 AI Max 사용 캠페인의 각 AI 생성 에셋에 대한 에셋 수준 성과 데이터가 포함됩니다. 보고서에는 Adobe Analytics 전환이 포함되지 않습니다.</li></ul> | &quot;[캠페인 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)&quot; 및 &quot;[[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)&quot;, &quot;[광고 그룹 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)&quot; 및 &quot;[[!DNL Google Ads] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)&quot;, &quot;[광고 자산 보기 및 만들기](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)를 참조하십시오.&quot; 및 &quot;[[!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)&quot; |
 | 2026년 6월 9일 | Adobe Customer Journey Analytics과 통합 | [!DNL Analytics for Advertising]이(가) 아닌 Customer Journey Analytics을 사용하는 광고주는 기본적으로 Adobe Experience Platform [!DNL Web SDK]을(를) 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 데이터를 교환할 수 있습니다. | &quot;[Adobe Advertising과 Customer Journey Analytics 간의 통합 개요](/help/integrations/customer-journey-analytics/overview.md)&quot;를 참조하십시오. |

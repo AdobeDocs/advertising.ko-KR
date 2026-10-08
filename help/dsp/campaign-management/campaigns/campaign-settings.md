@@ -3,26 +3,33 @@ title: 캠페인 설정
 description: 사용 가능한 캠페인 설정에 대한 설명을 참조하십시오.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-TQID: https://experienceleague.adobe.com/tLMBR-i1XpRHeFkfrhh2CtCQI4K0rPgCHqkZv8dk4cA
+TQID: 'https://experienceleague.adobe.com/tLMBR-i1XpRHeFkfrhh2CtCQI4K0rPgCHqkZv8dk4cA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1437
+source-wordcount: '1454'
 ht-degree: 0%
-
 ---
-
 # 캠페인 설정
 
 ## [!UICONTROL Basic Campaign Details]
@@ -47,23 +54,23 @@ ht-degree: 0%
 
 * **[!UICONTROL How would you like to compute agency fees?]:**(마진 관리 전용 캠페인) 캠페인 총 예산 중 원천징수되고 순 지출에 포함되지 않은 금액인 대행비를 계산하는 방법:
 
-   * *[!UICONTROL Margin % of Total Budget]:*(기본값) 총 지출의 백분율로 요금을 계산합니다. [!UICONTROL Agency Fee Type]&#x200B;(고정 또는 복합)과 [!UICONTROL Margin %] 또는 [!UICONTROL Composite Margin %]을(를) 지정하십시오.
+  * *[!UICONTROL Margin % of Total Budget]:*(기본값) 총 지출의 백분율로 요금을 계산합니다. [!UICONTROL Agency Fee Type]&#x200B;(고정 또는 복합)과 [!UICONTROL Margin %] 또는 [!UICONTROL Composite Margin %]을(를) 지정하십시오.
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]:* 미디어 비용, 데이터 및 기타 비용 및/또는 [!DNL Adobe] 기술 비용의 지정된 비율로 요금을 계산합니다. [!UICONTROL Markup %]을(를) 지정하고 마크업을 적용할 구성 요소를 선택합니다.
+  * *[!UICONTROL Apply Markup % on top of individual cost components]:* 미디어 비용, 데이터 및 기타 비용 및/또는 [!DNL Adobe] 기술 비용의 지정된 비율로 요금을 계산합니다. [!UICONTROL Markup %]을(를) 지정하고 마크업을 적용할 구성 요소를 선택합니다.
 
 * **[!UICONTROL Agency Fee Type]:**([!UICONTROL Margin % of Total Budget]을(를) 사용하는 캠페인) 에이전시 수수료 유형.
 
-   * *[!UICONTROL Fixed]:*(기본값) DSP에서 총 지출의 고정 비율을 대리인 수수료로 보류할 수 있습니다. [!UICONTROL Margin %]을(를) 지정하십시오.
+  * *[!UICONTROL Fixed]:*(기본값) DSP에서 총 지출의 고정 비율을 대리인 수수료로 보류할 수 있습니다. [!UICONTROL Margin %]을(를) 지정하십시오.
 
-   * *[!UICONTROL Composite]:* DSP에서 총 지출의 백분율을 보류하여 에이전시 요금과 [!DNL Adobe] 기술 요금을 둘 다 고려할 수 있습니다. [!UICONTROL Composite Margin %]을(를) 지정하십시오.
+  * *[!UICONTROL Composite]:* DSP에서 총 지출의 백분율을 보류하여 에이전시 요금과 [!DNL Adobe] 기술 요금을 둘 다 고려할 수 있습니다. [!UICONTROL Composite Margin %]을(를) 지정하십시오.
 
 * **[!UICONTROL Margin %]:**(고정 마진이 있는 [!UICONTROL Margin % of Total Budget]을(를) 사용하는 캠페인) 대리점 수수료로 원천징수할 총 지출의 비율입니다. 마진 값에 대한 모든 변경 사항은 향후 총 지출에만 적용되며 캠페인에 대한 과거 총 지출에는 적용되지 않습니다. 마진이 적용되기 전에 [!UICONTROL Estimated Tax Withholding] 값이 총 지출에서 제외됩니다. 다음 예를 참조하십시오. 이 예제에서는 캠페인이 과소 또는 과다 지출되지 않는다고 가정합니다.
 
-   * 예제 1: 비행 내내 [!UICONTROL Gross Budget]이(가) `100 USD`이고 [!UICONTROL Margin %]이(가) `5%`이라고 가정합니다. 캠페인 플라이트 종료 시 에이전시 요금은 `5 USD`(`5% of 100 USD`)로 계산되며 순 지출은 `95 USD`(`campaign budget [100 USD] - agency fees [5 USD]`)입니다.
+  * 예제 1: 비행 내내 [!UICONTROL Gross Budget]이(가) `100 USD`이고 [!UICONTROL Margin %]이(가) `5%`이라고 가정합니다. 캠페인 플라이트 종료 시 에이전시 요금은 `5 USD`(`5% of 100 USD`)로 계산되며 순 지출은 `95 USD`(`campaign budget [100 USD] - agency fees [5 USD]`)입니다.
 
-   * 여백이 변경된 예 2: 동일한 캠페인의 경우 총 지출이 [!UICONTROL Margin %]일 때 `5%`이(가) `10%`에서 `40 USD`(으)로 변경되었다고 가정해 봅시다. 변경 전 기간의 경우 대리인 수수료는 `2 USD`(즉, `5% of 40 USD`)으로 계산되고, 변경 후 기간의 경우 대리인 수수료는 `6 USD`(즉, `10% of 60 USD`)으로 계산됩니다. 총 에이전시 비용은 `8 USD`(`2 USD + 6 USD`)로 계산되며 순 지출은 `92 USD`(`campaign budget [100 USD] - total agency fees [8 USD]`)입니다.
+  * 여백이 변경된 예 2: 동일한 캠페인의 경우 총 지출이 `40 USD`일 때 [!UICONTROL Margin %]이(가) `5%`에서 `10%`(으)로 변경되었다고 가정해 봅시다. 변경 전 기간의 경우 대리인 수수료는 `2 USD`(즉, `5% of 40 USD`)으로 계산되고, 변경 후 기간의 경우 대리인 수수료는 `6 USD`(즉, `10% of 60 USD`)으로 계산됩니다. 총 에이전시 비용은 `8 USD`(`2 USD + 6 USD`)로 계산되며 순 지출은 `92 USD`(`campaign budget [100 USD] - total agency fees [8 USD]`)입니다.
 
-   * 원천세 예시 3: [!UICONTROL Gross Budget]이(가) `100 USD`이고, 캠페인 플라이트 끝에 있는 [!UICONTROL Estimated Tax Withholding]이(가) `10 USD`이고, 플라이트 전체 [!UICONTROL Margin %]이(가) `5%`이라고 가정합니다. 캠페인 플라이트 종료 시 에이전시 요금은 `4.5 USD`(`5% of (campaign budget [100 USD] - tax withholding [USD 10])`)로 계산되며 순 지출은 `85.5 USD`(`campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`)입니다.
+  * 원천세 예시 3: [!UICONTROL Gross Budget]이(가) `100 USD`이고, 캠페인 플라이트 끝에 있는 [!UICONTROL Estimated Tax Withholding]이(가) `10 USD`이고, 플라이트 전체 [!UICONTROL Margin %]이(가) `5%`이라고 가정합니다. 캠페인 플라이트 종료 시 에이전시 요금은 `4.5 USD`(`5% of (campaign budget [100 USD] - tax withholding [USD 10])`)로 계산되며 순 지출은 `85.5 USD`(`campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`)입니다.
 
 * **[!UICONTROL Composite Margin %]:**(복합 마진이 있는 [!UICONTROL Margin % of Total Budget]을(를) 사용하는 캠페인) 기술 비용과 대리인 비용을 합하여 [!DNL Adobe]만큼 원천징수되는 총 지출의 비율입니다. 대행수수료는 종합마진액에서 Adobe 기술수수료를 차감하여 계산한다. 종합 마진 값에 대한 모든 변경 사항은 향후 총 지출에만 적용되며 캠페인에 대한 과거 총 지출에는 적용되지 않습니다. [!UICONTROL Estimated Tax Withholding] 값은 복합 마진이 적용되기 전에 총 지출에서 제외됩니다.
 
@@ -73,7 +80,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Select cost components on which markup will be applied]:**([!UICONTROL Apply Markup % on top of individual cost components]을(를) 사용하는 캠페인) [!UICONTROL Markup %]이(가) 적용되는 비용 구성 요소입니다. 적용 가능한 모든 구성 요소를 선택하십시오. *[!UICONTROL Media cost]*, *[!UICONTROL Data and Other costs]* 및/또는 *[!UICONTROL Adobe tech fees]*. 구성 요소 선택에 대한 모든 변경 사항은 향후 비용에만 적용되며 캠페인에 대한 이전 비용에는 적용되지 않습니다.
 
-  예를 들어 [!UICONTROL Markup %]은(는) &quot;`10%`&quot; 및 &quot;[!UICONTROL Media cost]에 대한 [!UICONTROL Data and Other costs]입니다. 캠페인 진행 중 어느 시점에서 미디어 비용이 `20 USD`이고, 데이터 및 기타 비용이 `5 USD`이고, [!DNL Adobe] 기술 비용이 `2 USD`인 경우, 대리인 비용은 `2.50 USD`(즉, `10% of (20 USD + 5 USD)`)으로 계산되며, 총 지출은 `29.50 USD`(즉, `media cost [20 USD] + data and other costs [5 USD] + [!DNL Adobe] tech fees [2 USD] + agency fees [2.50 USD]`)입니다.
+  예를 들어 [!UICONTROL Markup %]은(는) &quot;[!UICONTROL Media cost]&quot; 및 &quot;[!UICONTROL Data and Other costs]에 대한 `10%`입니다. 캠페인 진행 중 어느 시점에서 미디어 비용이 `20 USD`이고, 데이터 및 기타 비용이 `5 USD`이고, [!DNL Adobe] 기술 비용이 `2 USD`인 경우, 대리인 비용은 `2.50 USD`(즉, `10% of (20 USD + 5 USD)`)으로 계산되며, 총 지출은 `29.50 USD`(즉, `media cost [20 USD] + data and other costs [5 USD] + [!DNL Adobe] tech fees [2 USD] + agency fees [2.50 USD]`)입니다.
 
 **[!UICONTROL Gross Budget]:**(마진 관리 전용 캠페인) 지정된 제한 조정이 적용되기 전의 총 캠페인 예산입니다.
 
@@ -157,7 +164,7 @@ ht-degree: 0%
 
 **[!UICONTROL Adelaide]:** 배치 수준 [!UICONTROL Attention Score] 지표(노출 횟수의 가중 평균 [!DNL Adelaide] &quot;[!DNL Attention Units]&quot; 수)에 대한 추적을 사용하도록 설정합니다. [!DNL Roku] 연결된 TV, VPAID 전용 프리롤 및 팟캐스트가 아닌 오디오를 제외한 모든 배치 유형에 대해 지표를 사용할 수 있습니다. DSP은 연결된 모든 크리에이티브에 JavaScript 태그를 자동으로 연결하며, [!DNL Adelaide]은(는) 노출 데이터를 추적하여 매일 DSP으로 보냅니다. 날짜를 사용하여 더 나은 주의 점수로 배치 전략에 대한 지출을 수동으로 최적화할 수 있습니다.
 
-[!UICONTROL Attention Score] 필드는 보고서의 [!UICONTROL Metrics] 섹션([!UICONTROL Campaigns], [!UICONTROL Packages] 및 [!UICONTROL Placements] 보기 내)과 [!UICONTROL Sites]배치 세부 정보 보기[!UICONTROL Ads]의 [!UICONTROL Inventory], [&#x200B; 및 &#x200B;](/help/dsp/campaign-management/reports/placement-details-view.md) 탭에서 사용할 수 있습니다.
+[!UICONTROL Attention Score] 필드는 보고서의 [!UICONTROL Metrics] 섹션([!UICONTROL Campaigns], [!UICONTROL Packages] 및 [!UICONTROL Placements] 보기 내)과 [배치 세부 정보 보기](/help/dsp/campaign-management/reports/placement-details-view.md)의 [!UICONTROL Sites], [!UICONTROL Ads] 및 [!UICONTROL Inventory] 탭에서 사용할 수 있습니다.
 
 측정에 [!DNL Adelaide] 세그먼트를 사용하면 [!DNL Adelaide] 측정 태그가 있는 광고에서 게재된 각 노출에 대해 CPM 요금이 발생합니다. 이 요금은 [배치 수준 주의 타기팅](/help/dsp/campaign-management/placements/placement-settings.md)에 대한 요금과는 별개입니다.
 

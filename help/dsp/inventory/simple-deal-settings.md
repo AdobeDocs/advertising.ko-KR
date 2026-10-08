@@ -3,20 +3,23 @@ title: '[!UICONTROL Simple Ad Serving] 거래 설정'
 description: '[!UICONTROL Simple Ad Serving] 거래에 사용 가능한 설정에 대해 알아봅니다.'
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-TQID: https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M
+TQID: 'https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Simple Ad Serving] 거래 설정
 
 ## 새 [!UICONTROL Simple Ad Serving] 거래
@@ -45,10 +48,10 @@ ht-degree: 0%
 
 | 매개 변수 | 설명 |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | 계약에 대한 요금 카드에 반영된 1000회 노출당 비용(CPM). 이 값은 Adobe 계정 팀에 문의하십시오. <br><br>거래의 통화도 지정하십시오. 모든 사용자는 USD를 선택하거나, SSP가 추가 통화를 지원하는 경우 DSP 계정에 대한 통화를 선택할 수 있습니다. |
-| **[!UICONTROL Third Party Billed Fees]** | (선택 사항) 청구 불가능한 비용으로 추적할 정적 타사 수수료 및 거래에 대한 통화.<br><br>모든 사용자는 USD를 선택할 수 있으며, SSP에서 추가 통화를 지원하는 경우 DSP 계정의 통화를 선택할 수 있습니다. **참고:** 청구 가능 요금은 [!UICONTROL Net CPM] 지표에 반영됩니다. |
+| **[!UICONTROL Media CPM]** | 계약에 대한 요금 카드에 반영된 1000회 노출당 비용(CPM). 이 값은 Adobe 계정 팀에 문의하십시오. <br><br>거래의 통화도 지정하십시오. 모든 사용자는 USD을 선택하거나, SSP가 추가 통화를 지원하는 경우 DSP 계정에 대한 통화를 선택할 수 있습니다. |
+| **[!UICONTROL Third Party Billed Fees]** | (선택 사항) 청구 불가능한 비용으로 추적할 정적 타사 수수료 및 거래에 대한 통화.<br><br>모든 사용자는 USD을 선택할 수 있으며, SSP에서 추가 통화를 지원하는 경우 DSP 계정의 통화를 선택할 수 있습니다. **참고:** 청구 가능 요금은 [!UICONTROL Net CPM] 지표에 반영됩니다. |
 | **[!UICONTROL Third Party Fee Description]** | (선택 사항) 타사 요금에 대한 설명입니다. |
-| **[!UICONTROL Flight Dates]** | 이 거래를 사용하는 트래픽의 시작 날짜와 종료 날짜입니다. 비행 날짜는 캠페인 비행 날짜 내에 포함되어야 합니다. 광고 태그는 지정된 비행 중에만 응답을 반환합니다.<br><br> 1년 동안 지속되는 별도의 간단한 광고 제공 캠페인을 만들고 그 안에 추적 픽셀을 빌드하는 것이 좋습니다. |
+| **[!UICONTROL Flight Dates]** | 이 거래를 사용하는 트래픽의 시작 날짜와 종료 날짜입니다. 비행 날짜는 캠페인 비행 날짜 내에 포함되어야 합니다. 광고 태그는 지정된 비행 중에만 응답을 반환합니다.<br><br> 가장 좋은 방법은 1년 동안 지속되는 별도의 간단한 광고 서비스 제공 캠페인을 만들고 그 안에 추적 픽셀을 구축하는 것입니다. |
 | **[!UICONTROL Impressions]** | (선택 사항) 이 거래를 사용하여 실행할 것으로 예상되는 노출 횟수입니다. 이 값은 추적 목적으로만 사용되고 게재 목표가 충족될 때 플래그하는 데 사용됩니다. 게시자는 실제 광고 게재를 제어합니다. 가장 좋은 방법은 필요한 경우 갱신 또는 연장할 수 있도록 DSP 내에서 태그를 활성 상태로 유지하기 위해 많은 노출을 입력하는 것입니다. |
 | **[!UICONTROL Deal Name]** | 거래 이름. 이름을 입력하거나 *[!UICONTROL Auto Generate Deal Name]*&#x200B;을(를) 선택하여 DSP에서 거래 세부 정보를 기반으로 이름을 생성하도록 합니다.<br><br>자동 생성된 이름의 예: `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
 | **[!UICONTROL Attached Ads]** | (읽기 전용) 거래의 일부인 광고입니다. 광고를 편집하려면 광고 이름을 클릭합니다. 거래에서 광고를 제거하려면 광고 이름 옆에 있는 **[!UICONTROL X]**&#x200B;을(를) 클릭합니다. |

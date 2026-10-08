@@ -3,22 +3,26 @@ title: 패키지 일시 중지 또는 활성화
 description: 패키지를 일시 중단하거나 활성화하는 방법을 알아봅니다.
 feature: DSP Packages
 exl-id: c4a6fb08-14db-4c8b-ab7a-0bbc0f201390
-TQID: https://experienceleague.adobe.com/nj0j6PE9a4MTDtUlXni4e-LU0vFRY-raFBoiFE0juGg
+TQID: 'https://experienceleague.adobe.com/nj0j6PE9a4MTDtUlXni4e-LU0vFRY-raFBoiFE0juGg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 138
+source-wordcount: '138'
 ht-degree: 0%
-
 ---
-
 # 패키지 일시 중지 또는 활성화
 
 라이브 패키지를 일시 중지하거나 구성된 비행 일정 내에 있는 일시 중지된 패키지를 활성화합니다.

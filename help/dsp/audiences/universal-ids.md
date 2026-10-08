@@ -3,27 +3,35 @@ title: 범용 ID 활성화 지원
 description: 범용 ID 세그먼트를 가져오고, 사용자 지정 세그먼트를 만들어 범용 ID를 추적하고, 자사 세그먼트의 다른 사용자 식별자를 쿠키 없는 타깃팅을 위해 범용 ID로 변환하는 지원에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-TQID: https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ
+TQID: 'https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1610
+source-wordcount: '1610'
 ht-degree: 0%
-
 ---
-
 # 범용 ID 활성화 지원
 
 <!-- Once we have CDP support for ID5 and can set up activation via sources, then maybe I can move this info into "About Sources" and "About Audiences." Or maybe make this the go-to page, removing info from those other pages? -->
@@ -94,19 +102,19 @@ Adobe Analytics 측정을 사용할 수 있는 [!DNL RampID] 기반 세그먼트
 
 * 원본 패키지 및 배치를 복사하고, 테스트 크기에 따라 예산을 조정하고, [!DNL RampID] 기반 세그먼트(인증된 사용자의 경우) 또는 ID5 기반 세그먼트(인증되지 않은 사용자의 경우)를 사용하도록 대상을 변경하고, 새 패키지 및 배치가 전체 예산을 사용하는지 확인하십시오.
 
-   * 범용 ID 기반 세그먼트의 성능을 쿠키 또는 모바일 광고 ID와 같은 다른 대상 식별자를 타겟팅하는 배치 성능과 비교하려면 별도의 범용 ID 기반 배치와 레거시 ID 기반 배치로 캠페인을 만드십시오.
+  * 범용 ID 기반 세그먼트의 성능을 쿠키 또는 모바일 광고 ID와 같은 다른 대상 식별자를 타겟팅하는 배치 성능과 비교하려면 별도의 범용 ID 기반 배치와 레거시 ID 기반 배치로 캠페인을 만드십시오.
 
-     전체 재타겟팅 테스트의 경우 인증된 사용자의 경우 RampID를, 인증되지 않은 사용자의 경우 ID5를 모두 타겟팅하십시오.
+    전체 재타겟팅 테스트의 경우 인증된 사용자의 경우 RampID를, 인증되지 않은 사용자의 경우 ID5를 모두 타겟팅하십시오.
 
-     최고의 성능을 얻는 것이 기본 비교가 되어서는 안 됩니다. 대신, 어떤 ID의 크기가 잘 조절되는지 결정하십시오. 그러면 나중에 최적화 및 예산 할당에 영향을 줄 수 있습니다. 장기적인 목표는 쿠키가 더 이상 사용되지 않을 때 손실된 노출 횟수 및 사이트 트래픽을 보전하는 것입니다.
+    최고의 성능을 얻는 것이 기본 비교가 되어서는 안 됩니다. 대신, 어떤 ID의 크기가 잘 조절되는지 결정하십시오. 그러면 나중에 최적화 및 예산 할당에 영향을 줄 수 있습니다. 장기적인 목표는 쿠키가 더 이상 사용되지 않을 때 손실된 노출 횟수 및 사이트 트래픽을 보전하는 것입니다.
 
-   * 총 브라우저 도달량을 비교하려면 동일한 배치에서 범용 ID 기반 세그먼트 및 레거시 ID 기반 세그먼트를 타겟팅하십시오. 캠페인 예산을 분할할 필요가 없다는 점을 제외하고 이전 사용 사례와 동일한 캠페인 설정을 사용합니다.
+  * 총 브라우저 도달량을 비교하려면 동일한 배치에서 범용 ID 기반 세그먼트 및 레거시 ID 기반 세그먼트를 타겟팅하십시오. 캠페인 예산을 분할할 필요가 없다는 점을 제외하고 이전 사용 사례와 동일한 캠페인 설정을 사용합니다.
 
-     입찰 기본 설정은 범용 ID에 주어지지만 레거시 ID는 범용 ID를 사용할 수 없는 경우 입찰을 받습니다. 서로 다른 브라우저(Chrome, Safari 및 Mozilla 포함)에서 도달 범위를 비교해야 합니다.
+    입찰 기본 설정은 범용 ID에 주어지지만 레거시 ID는 범용 ID를 사용할 수 없는 경우 입찰을 받습니다. 서로 다른 브라우저(Chrome, Safari 및 Mozilla 포함)에서 도달 범위를 비교해야 합니다.
 
-     >[!NOTE]
-     >
-     >빈도 제한은 개별 ID에 적용됩니다. 사용자에게 여러 ID 유형이 있는 경우 예상한 것보다 더 많은 해당 사용자에게 도달할 수 있습니다.
+    >[!NOTE]
+    >
+    >빈도 제한은 개별 ID에 적용됩니다. 사용자에게 여러 ID 유형이 있는 경우 예상한 것보다 더 많은 해당 사용자에게 도달할 수 있습니다.
 
 * 인증된 대상 세그먼트에 대한 도달 거리는 쿠키 기반 세그먼트에 대한 도달 거리보다 자연히 더 작으며 추가 타겟팅 옵션을 사용하면 도달 거리가 더 줄어든다는 것을 기억하십시오. 특히 AND 문으로 여러 대상을 연결하여 세분화된 타깃팅을 사용하는 것은 신중해야 합니다.
 
@@ -128,11 +136,11 @@ Adobe Analytics 측정을 사용할 수 있는 [!DNL RampID] 기반 세그먼트
 
 * [!DNL RampIDs]&#x200B;(으)로 번역된 해시된 이메일 ID:
 
-   * 여러 프로필에서 동일한 이메일 ID를 사용하는 경우 DSP 세그먼트 수가 고객 데이터 플랫폼 내 프로필 수보다 작을 수 있습니다. 예를 들어 Adobe Photoshop에서 단일 이메일 ID를 사용하여 회사 계정과 개인 계정을 만들 수 있습니다. 그러나 두 프로필이 모두 같은 사용자에 속하는 경우 프로필은 하나의 이메일 ID에 매핑되고 하나의 [!DNL RampID]에 대응됩니다.
+  * 여러 프로필에서 동일한 이메일 ID를 사용하는 경우 DSP 세그먼트 수가 고객 데이터 플랫폼 내 프로필 수보다 작을 수 있습니다. 예를 들어 Adobe Photoshop에서 단일 이메일 ID를 사용하여 회사 계정과 개인 계정을 만들 수 있습니다. 그러나 두 프로필이 모두 같은 사용자에 속하는 경우 프로필은 하나의 이메일 ID에 매핑되고 하나의 [!DNL RampID]에 대응됩니다.
 
-   * [!DNL RampID]을(를) 새 값으로 업그레이드할 수 있습니다. [!DNL LiveRamp]이(가) 전자 메일 ID를 인식하지 못하거나 데이터베이스의 기존 [!DNL RampID]에 매핑할 수 없는 경우 전자 메일 ID에 새 [!DNL RampID]을(를) 할당합니다. 나중에 전자 메일 ID를 다른 [!DNL RampID]에 매핑하거나 동일한 전자 메일 ID에 대한 자세한 정보를 수집할 수 있으면 [!DNL RampID]을(를) 새 값으로 업그레이드합니다. [!DNL LiveRamp]은(는) 이 작업을 &quot;파생된&quot; [!DNL RampID]에서 &quot;유지 관리되는&quot; [!DNL RampID]&#x200B;(으)로 업그레이드한 것으로 참조합니다. 그러나 DSP은 파생된 [!DNL RampIDs]과(와) 유지 관리되는  간의 매핑을 가져오지 않으므로 DSP 세그먼트에서 이전 버전의 RampID를 제거할 수 없습니다. 이 경우 세그먼트 수가 프로필 수보다 많을 수 있습니다.
+  * [!DNL RampID]을(를) 새 값으로 업그레이드할 수 있습니다. [!DNL LiveRamp]이(가) 전자 메일 ID를 인식하지 못하거나 데이터베이스의 기존 [!DNL RampID]에 매핑할 수 없는 경우 전자 메일 ID에 새 [!DNL RampID]을(를) 할당합니다. 나중에 전자 메일 ID를 다른 [!DNL RampID]에 매핑하거나 동일한 전자 메일 ID에 대한 자세한 정보를 수집할 수 있으면 [!DNL RampID]을(를) 새 값으로 업그레이드합니다. [!DNL LiveRamp]은(는) 이 작업을 &quot;파생된&quot; [!DNL RampID]에서 &quot;유지 관리되는&quot; [!DNL RampID]&#x200B;(으)로 업그레이드한 것으로 참조합니다. 그러나 DSP은 파생된 [!DNL RampIDs]과(와) 유지 관리되는  간의 매핑을 가져오지 않으므로 DSP 세그먼트에서 이전 버전의 RampID를 제거할 수 없습니다. 이 경우 세그먼트 수가 프로필 수보다 많을 수 있습니다.
 
-     예: 사용자가 [!DNL Adobe] 웹 사이트에 로그인하고 Photoshop 페이지를 방문합니다. [!DNL LiveRamp]에게 전자 메일 ID에 대한 기존 정보가 없는 경우 파생 [!DNL RampID]&#x200B;(예: D123)을(를) 할당합니다. 15일 후 사용자가 같은 페이지를 방문하지만 [!DNL LiveRamp]이(가) 15일 동안 [!DNL RampID]을(를) 업그레이드하고 [!DNL RampID]을(를) M123으로 다시 할당했습니다. 고객 데이터 플랫폼의 세그먼트 &quot;Photoshop Manist&quot;에는 사용자에 대한 이메일 ID가 하나만 있지만 DSP 세그먼트에는 D123과 M123이라는 두 개의 RampID가 있습니다.
+    예: 사용자가 [!DNL Adobe] 웹 사이트에 로그인하고 Photoshop 페이지를 방문합니다. [!DNL LiveRamp]에게 전자 메일 ID에 대한 기존 정보가 없는 경우 파생 [!DNL RampID]&#x200B;(예: D123)을(를) 할당합니다. 15일 후 사용자가 같은 페이지를 방문하지만 [!DNL LiveRamp]이(가) 15일 동안 [!DNL RampID]을(를) 업그레이드하고 [!DNL RampID]을(를) M123으로 다시 할당했습니다. 고객 데이터 플랫폼의 세그먼트 &quot;Photoshop Manist&quot;에는 사용자에 대한 이메일 ID가 하나만 있지만 DSP 세그먼트에는 D123과 M123이라는 두 개의 RampID가 있습니다.
 
 ## 문제 해결
 

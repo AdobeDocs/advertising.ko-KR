@@ -1,7 +1,10 @@
 ---
 title: 보고 및 시뮬레이션을 위한 오프라인 계정 데이터 업로드
 description: 보고 및 시뮬레이션 지원을 위해 오프라인 계정 데이터를 수동으로 업로드하거나 [!DNL Amazon] [!DNL S3] 버킷에 업로드하는 방법을 알아봅니다. 로그 파일은 업로드 작업의 진행 상황을 추적합니다.
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%

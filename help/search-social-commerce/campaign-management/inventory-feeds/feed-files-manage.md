@@ -3,20 +3,24 @@ title: 인벤토리 데이터 피드 파일 관리
 description: 피드 데이터 처리 방법을 제어하는 설정을 구성하는 방법에 대해 알아봅니다.
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
+TQID: 'https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1249
+source-wordcount: '1249'
 ht-degree: 0%
-
 ---
-
 # 인벤토리 데이터 피드 파일 관리
 
 *[!DNL Google Ads], [!DNL LY Ads]&#x200B;(삭제 작업만), [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정만*
@@ -75,15 +79,15 @@ shoes<TAB>Clarks<TAB>20
 
 * 제한된 수동 검토 또는 편집으로 반복 가능한 프로세스를 달성하려면 피드 파일 및 해당 계정 구조 데이터를 다음과 같이 설정합니다.
 
-   * 계정 구조를 만들거나 기존 계정 구조에 매핑하기에 충분한 데이터가 포함된 열과 행을 포함합니다. 이상적으로는 제품 분류법에 밀접하게 연결되어 있고 피드 데이터가 쉽게 매핑되는 기존 계정 구조를 사용하는 것이 좋습니다.
+  * 계정 구조를 만들거나 기존 계정 구조에 매핑하기에 충분한 데이터가 포함된 열과 행을 포함합니다. 이상적으로는 제품 분류법에 밀접하게 연결되어 있고 피드 데이터가 쉽게 매핑되는 기존 계정 구조를 사용하는 것이 좋습니다.
 
-   * 광고 카피에 사용할 수 있을 만큼 짧은 설명을 포함합니다.
+  * 광고 카피에 사용할 수 있을 만큼 짧은 설명을 포함합니다.
 
-   * 제품 행 간에 일관된 데이터 패턴 및 이름 지정 규칙을 사용합니다.
+  * 제품 행 간에 일관된 데이터 패턴 및 이름 지정 규칙을 사용합니다.
 
-   * 선행 공백 및 후행 공백을 모두 제거합니다.
+  * 선행 공백 및 후행 공백을 모두 제거합니다.
 
-   * 깨진 문자를 모두 제거합니다.
+  * 깨진 문자를 모두 제거합니다.
 
 ## 피드 파일 보기 또는 다운로드
 

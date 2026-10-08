@@ -4,20 +4,25 @@ description: 새 검색, 소셜 및 Commerce UI에서 광고 네트워크에 대
 feature: Search Bulksheets
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 subfeature_v2:
   - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1637
+source-wordcount: '1637'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 일괄 시트 파일 다운로드/만들기
 
 하나 이상의 [지원되는 광고 네트워크](about.md#bulksheet-functionality-by-network)에서 하나 이상의 계정에 대한 사용자 지정 설정을 사용하여 일괄 시트를 만들 수 있습니다. Bulksheets에는 검색, 소셜 및 Commerce 내의 데이터가 포함됩니다.

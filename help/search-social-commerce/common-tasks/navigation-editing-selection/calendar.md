@@ -3,13 +3,17 @@ title: 달력을 사용하여 날짜 지정
 description: 달력을 사용하여 날짜를 선택하는 방법에 대해 알아봅니다.
 exl-id: afb2b5be-ca6a-4c2b-9a5a-c40ee7caa7ea
 feature: Search Common Tasks
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 0%
-
 ---
-
 # 달력을 사용하여 날짜 지정
 
 1. 캘린더를 열려면 ![캘린더 단추](/help/search-social-commerce/assets/calendar-date-range.png "캘린더 단추")를 클릭하세요.

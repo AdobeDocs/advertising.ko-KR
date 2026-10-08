@@ -2,13 +2,19 @@
 title: '[!UICONTROL Portfolio Report]'
 description: '[!UICONTROL Portfolio Report]에 대해 알아봅니다.'
 feature: Search Reports, Search Basic Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Portfolio Report]
 
 [!UICONTROL Portfolio Report]에는 하나 이상의 포트폴리오에 대한 비용, 클릭 및 (선택 사항) 전환 데이터가 포함되어 있습니다. 기본적으로 데이터는 지정된 날짜 범위의 각 시간 단위에 대해 적용 가능한 각 포트폴리오에 대해 한 개의 행을 포함하며, 행은 먼저 포트폴리오별로 오름차순으로 정렬한 다음 시간 단위의 시작 날짜별로 오름차순으로 정렬됩니다.

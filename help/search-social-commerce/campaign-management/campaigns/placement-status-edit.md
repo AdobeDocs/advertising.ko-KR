@@ -1,20 +1,23 @@
 ---
 title: 배치 및 음수 배치 상태 변경
-description: ' [!DNL Google Ads]에 대한 배치 및 부정적 배치의 상태를 변경하는 방법에 대해 알아봅니다.'
+description: '[!DNL Google Ads]에 대한 배치 및 음수 배치 상태를 변경하는 방법에 대해 알아봅니다.'
 exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/-V9u4kusa44SSH95feX1PKCrVTyxWfTX96KBqU4UtZg
+TQID: 'https://experienceleague.adobe.com/-V9u4kusa44SSH95feX1PKCrVTyxWfTX96KBqU4UtZg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 180
+source-wordcount: '177'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]개 배치 및 음수 배치의 상태 변경
 
 입찰이 가능한 활성 배치를 일시 중지하여 입찰을 비활성화할 수 있습니다. 나중에 상태를 다시 활성으로 변경하여 입찰을 다시 시작할 수 있습니다.

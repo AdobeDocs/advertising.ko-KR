@@ -3,18 +3,21 @@ title: Adobe Advertising 전환 매핑 태그
 description: Adobe Advertising에서 랜딩 페이지가 아닌 페이지에서 발생하는 전환 이벤트를 추적할 수 있는 ITP 2.2용 JavaScript 기반 전환 매핑 태그에 대해 알아봅니다.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+TQID: 'https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 637
+source-wordcount: '643'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising JavaScript 전환 매핑 태그
 
 *Adobe Advertising 전환 추적만 있는 광고주*
@@ -27,7 +30,7 @@ Adobe Advertising JavaScript 기반 전환 매핑 태그 를 Adobe Advertising J
 
 1. [전환 매핑 태그를 배포합니다](#deploy-conversion-mapping-tag).
 
-1. 조직에서 여러 Adobe Experience Cloud Identity Service 조직 ID(이전의 IMS 조직 ID)를 사용하는 경우 조직 ID를 포함하도록 [전환 태그를 업데이트](#update-conversion-tags)하십시오.
+1. 조직에서 여러 Adobe Experience Cloud ID 서비스 조직 ID(이전의 IMS 조직 ID)를 사용하는 경우 조직 ID를 포함하도록 [전환 태그를 업데이트](#update-conversion-tags)하십시오.
 
 1. [태그 배포 유효성 검사](#validate-conversion-mapping).
 
@@ -49,9 +52,9 @@ Adobe Advertising JavaScript 기반 전환 매핑 태그 를 Adobe Advertising J
 
   여기서:
 
-   * `{xxxxxx@AdobeOrg}` 값을 페이지의 전환을 추적할 조직 ID로 바꿉니다. 모든 전환 페이지에 동일한 조직 ID를 사용합니다.
+  * `{xxxxxx@AdobeOrg}` 값을 페이지의 전환을 추적할 조직 ID로 바꿉니다. 모든 전환 페이지에 동일한 조직 ID를 사용합니다.
 
-   * `{AMO User ID}`을(를) 검색, 소셜 및 Commerce 계정의 고유 사용자 ID로 바꿉니다.
+  * `{AMO User ID}`을(를) 검색, 소셜 및 Commerce 계정의 고유 사용자 ID로 바꿉니다.
 
 * `imsorgid` 변수를 스크립트 태그에 추가하는 것을 지원하지 않는 태그 관리 시스템을 사용하는 경우 대신 다음 코드를 사용하십시오.
 
@@ -67,22 +70,22 @@ Adobe Advertising JavaScript 기반 전환 매핑 태그 를 Adobe Advertising J
 
   `{AMO User ID}`을(를) 검색, 소셜 및 Commerce 계정의 고유 사용자 ID로 바꾸는 경우.
 
-   * 조직에서 여러 조직 ID를 사용하는 경우:
+  * 조직에서 여러 조직 ID를 사용하는 경우:
 
-     ```
-     <script>
-     window.ad_cloud = window.ad_cloud || {};
-     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-     window.ad_cloud.userid = "{AMO User ID}"
-     </script>
-     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-     ```
+    ```
+    <script>
+    window.ad_cloud = window.ad_cloud || {};
+    window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+    window.ad_cloud.userid = "{AMO User ID}"
+    </script>
+    <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+    ```
 
-     여기서:
+    여기서:
 
-      * `{xxxxxx@AdobeOrg}` 값을 페이지의 전환을 추적할 조직 ID로 바꿉니다. 모든 전환 페이지에 동일한 조직 ID를 사용합니다.
+    * `{xxxxxx@AdobeOrg}` 값을 페이지의 전환을 추적할 조직 ID로 바꿉니다. 모든 전환 페이지에 동일한 조직 ID를 사용합니다.
 
-      * `{AMO User ID}`을(를) 검색, 소셜 및 Commerce 계정의 고유 사용자 ID로 바꿉니다.
+    * `{AMO User ID}`을(를) 검색, 소셜 및 Commerce 계정의 고유 사용자 ID로 바꿉니다.
 
 조직 ID 또는 검색, 소셜 및 Commerce 사용자 ID의 값을 모를 경우 Adobe 계정 팀에 문의하십시오.
 

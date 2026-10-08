@@ -3,18 +3,23 @@ title: 클릭 추적 URL 생성
 description: 검색, 소셜 및 Commerce 클릭 추적 URL을 수동으로 생성하는 방법을 알아봅니다.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-TQID: https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0
+TQID: 'https://experienceleague.adobe.com/RqD0SAUXXlSNvMUJFgrjspFoGjpJHmx0ThZGAHFFdi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: '484'
 ht-degree: 0%
-
 ---
-
 # 추적 URL 도구를 사용하여 검색, 소셜 및 Commerce 클릭 추적 URL 생성
 
 *Adobe Advertising 전환 추적만 있는 광고주*
@@ -39,47 +44,47 @@ ht-degree: 0%
 
       * 전체 경로와 파일 이름을 입력하거나 **[!UICONTROL Browse]**&#x200B;을(를) 클릭하여 장치 또는 네트워크에서 파일을 찾아 정보가 포함된 파일을 지정하십시오. 파일은 다음 형식의 한 줄에 하나의 항목이 있는 탭으로 구분된 텍스트 파일이어야 합니다.
 
-         * (광고 크리에이티브, 표준 광고) `**landing_page**`
+        * (광고 크리에이티브, 표준 광고) `**landing_page**`
 
-           여기서 `landing_page`은(는) 올바른 랜딩 페이지 URL 또는 기본 URL입니다.
+          여기서 `landing_page`은(는) 올바른 랜딩 페이지 URL 또는 기본 URL입니다.
 
-           예: http://www.example.com/travel.html
+          예: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft Advertising]개의 사이트 링크) `sitelink <tab> ** <tab> landing_page`
+        * ([!DNL Microsoft Advertising]개의 사이트 링크) `sitelink <tab> ** <tab> landing_page`
 
-           여기서 `sitelink`은(는) 사이트 링크 이름이고 `landing_page`은(는) 올바른 랜딩 페이지 URL 또는 기본 URL입니다.
+          여기서 `sitelink`은(는) 사이트 링크 이름이고 `landing_page`은(는) 올바른 랜딩 페이지 URL 또는 기본 URL입니다.
 
-           예: `Careers <tab> ** <tab> http://www.example.com/careers.html`
+          예: `Careers <tab> ** <tab> http://www.example.com/careers.html`
 
-           파일에는 최대 10,000개의 줄이 포함될 수 있습니다.
+          파일에는 최대 10,000개의 줄이 포함될 수 있습니다.
 
-         * ([!DNL Google Merchant Center]개 제품 그룹 및 [!DNL Microsoft Advertising]개 제품 광고) `product name <tab> ** <tab> landing_page`
+        * ([!DNL Google Merchant Center]개 제품 그룹 및 [!DNL Microsoft Advertising]개 제품 광고) `product name <tab> ** <tab> landing_page`
 
-           여기서 `product name`은(는) 제품 이름이고 `landing_page`은(는) 올바른 랜딩 페이지 URL 또는 기본 URL입니다.
+          여기서 `product name`은(는) 제품 이름이고 `landing_page`은(는) 올바른 랜딩 페이지 URL 또는 기본 URL입니다.
 
-           예: `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
+          예: `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
 
-           파일에는 최대 10,000개의 줄이 포함될 수 있습니다.
+          파일에는 최대 10,000개의 줄이 포함될 수 있습니다.
 
       * 입력 필드에 다음 형식으로 한 줄에 하나의 항목을 입력합니다.
 
-         * (광고 크리에이티브, 표준 광고) `landing_page`
+        * (광고 크리에이티브, 표준 광고) `landing_page`
 
-           여기서 `landing_page`은(는) 올바른 랜딩 페이지 URL 또는 기본 URL입니다.
+          여기서 `landing_page`은(는) 올바른 랜딩 페이지 URL 또는 기본 URL입니다.
 
-           예: http://www.example.com/travel.html
+          예: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft Advertising]개의 사이트 링크) `sitelink**landing_page`
+        * ([!DNL Microsoft Advertising]개의 사이트 링크) `sitelink**landing_page`
 
-           여기서 `sitelink`은(는) 사이트 링크 이름이고 `landing_page`은(는) 올바른 랜딩 페이지 URL 또는 기본 URL입니다.
+          여기서 `sitelink`은(는) 사이트 링크 이름이고 `landing_page`은(는) 올바른 랜딩 페이지 URL 또는 기본 URL입니다.
 
-           예: `Careers**http://www.example.com/careers.html`
+          예: `Careers**http://www.example.com/careers.html`
 
-         * ([!DNL Google Merchant Center]개 제품 그룹 및 [!DNL Microsoft Advertising]개 제품 광고) `product name**landing_page`
+        * ([!DNL Google Merchant Center]개 제품 그룹 및 [!DNL Microsoft Advertising]개 제품 광고) `product name**landing_page`
 
-           여기서 `product name`은(는) 제품 이름이고 `landing_page`은(는) 올바른 랜딩 페이지 URL 또는 기본 URL입니다.
+          여기서 `product name`은(는) 제품 이름이고 `landing_page`은(는) 올바른 랜딩 페이지 URL 또는 기본 URL입니다.
 
-           예: Acme PR208**http://www.example.com/travel.html
+          예: Acme PR208**http://www.example.com/travel.html
 
    1. **[!UICONTROL Generate Tracking URLs]**&#x200B;을(를) 클릭합니다.
 

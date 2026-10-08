@@ -3,20 +3,24 @@ title: '[!UICONTROL Notification Center]에서 푸시 알림 사용 및 사용 �
 description: '[!UICONTROL Notification Center]에서 푸시 알림을 사용 및 사용하지 않도록 설정하는 방법을 알아봅니다.'
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/k-ujCPcKXYOMfYscQOoSQBHrEmW3Pz08nndz-xdTJaA
+TQID: 'https://experienceleague.adobe.com/k-ujCPcKXYOMfYscQOoSQBHrEmW3Pz08nndz-xdTJaA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 258
+source-wordcount: '256'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Notification Center]에서 푸시 알림 사용 및 사용 안 함
 
 *Beta 기능*
@@ -41,7 +45,7 @@ ht-degree: 0%
 
 3. 확인 메시지에서 **[!UICONTROL Enable]**&#x200B;을(를) 클릭합니다.
 
-4. [!UICONTROL Notification Center]에서 `https://alert-center-ui-na.efrontier.com`의 알림을 허용하도록 브라우저를 구성하십시오.
+4. `https://alert-center-ui-na.efrontier.com`에서 [!UICONTROL Notification Center]의 알림을 허용하도록 브라우저를 구성하십시오.
 
    기본 알림 설정은 브라우저마다 다르며, a) [!UICONTROL Notification Center]에서 알림을 허용하는 옵션이 자동으로 표시되거나 b) 알림 설정을 수동으로 관리해야 할 수 있습니다. 예를 들어 [!DNL Microsoft Edge]에서 브라우저 도구 모음에서 [!UICONTROL Notification Center]의 알림을 허용할 수 있습니다. 브라우저 도움말의 지침을 참조하십시오.
 

@@ -1,25 +1,32 @@
 ---
-title: ' [!DNL FreeWheel]의 PG 거래 설정 개요'
-description: ' [!DNL FreeWheel]에서 게시자와 프로그래밍 방식으로 보장되는 거래에 대한 광고를 실행하는 데 필요한 사전 요구 사항 및 추가 단계에 대해 알아봅니다.'
+title: '[!DNL FreeWheel]의 PG 거래 설정 개요'
+description: '[!DNL FreeWheel]에서 게시자와 프로그래밍 방식으로 보장되는 거래에 대한 광고를 실행하는 데 필요한 사전 요구 사항과 추가 단계에 대해 알아봅니다.'
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-TQID: https://experienceleague.adobe.com/8ovkE7w5qXW7Csibxy-PyHvUud0wwrhdSTulQP7bIeM
+TQID: 'https://experienceleague.adobe.com/8ovkE7w5qXW7Csibxy-PyHvUud0wwrhdSTulQP7bIeM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: '220'
 ht-degree: 0%
-
 ---
-
 # [!DNL FreeWheel]에서 프로그래밍 방식으로 보장된 거래를 설정하는 방법에 대한 개요
 
 [!DNL FreeWheel]에서 게시자와 프로그래밍 방식으로 보장되는 거래를 설정하려면 추가 권한과 단계가 필요합니다.
@@ -38,7 +45,7 @@ ht-degree: 0%
 
    일부 영국 게시자의 경우 광고에 [!DNL Clearcast] 시계 번호를 포함해야 합니다.
 
-1. [거래 ID 받은 편지함을 사용하여 &#x200B;](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox)에 게시자와 이미 협상한 거래 ID를 수락합니다[!DNL FreeWheel].
+1. [거래 ID 받은 편지함을 사용하여 [!DNL FreeWheel]에 게시자와 이미 협상한 거래 ID를 수락합니다](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox).
 
    거래를 수락한 후 프롬프트에 따라 1) 거래에 사용할 광고를 선택하고 2) 광고를 제공할 프로그래밍 방식으로 보장된 기본 배치를 만듭니다.
 

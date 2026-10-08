@@ -1,30 +1,41 @@
 ---
-title: ' [!DNL Analytics for Advertising] 개요'
-description: ' [!DNL Analytics for Advertising] 개요'
+title: '[!DNL Analytics for Advertising] 개요'
+description: '[!DNL Analytics for Advertising] 개요'
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-TQID: https://experienceleague.adobe.com/OHxJO1mtbzOtt5oGDJF26xSuVLG-HnRDdIGDrUH2pzk
+TQID: 'https://experienceleague.adobe.com/OHxJO1mtbzOtt5oGDJF26xSuVLG-HnRDdIGDrUH2pzk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+    internal-label: Audience segmentation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1310
+source-wordcount: '1310'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics for Advertising] 개요
 
 *Advertising Creative, Advertising DSP 및 Advertising 검색, 소셜 및 Commerce을 사용하는 광고주*
@@ -60,7 +71,7 @@ ht-degree: 0%
 
 [!DNL Analytics]을(를) 유료 미디어 보고 도구로 사용하려면 조직에서 Analysis Workspace에 액세스할 수 있는 Adobe CX Enterprise(이전 Adobe Experience Cloud) 로그인이 필요합니다. Adobe Advertising 팀은 Adobe Advertising 데이터를 Analysis Workspace의 개별 보고서 세트에 매핑하는 데 도움이 됩니다. Adobe Advertising 데이터를 모든 보고서 세트에 보낼 수 있지만, Adobe Advertising에 매핑된 보고서 세트와 매핑되지 않은 보고서 세트를 알고 있어야 합니다. 보고서 세트에 따라, 보고된 데이터가 변경될 수 있습니다.
 
- [!DNL Analytics][&#128279;](ids.md) 내의 Adobe Advertising ID는 사용자 지정 영구 만료로 다른 [!DNL eVars]과(와) 동일하게 작동합니다. 기본적으로 속성 전환 확인 기간은 Adobe Advertising 구현 중에 60일로 설정됩니다. 이 설정을 변경하려면 Adobe 계정 팀과 협력하십시오.
+ [!DNL Analytics]&#x200B;[&#128279;](ids.md) 내의 Adobe Advertising ID는 사용자 지정 영구 만료로 다른 [!DNL eVars]과(와) 동일하게 작동합니다. 기본적으로 속성 전환 확인 기간은 Adobe Advertising 구현 중에 60일로 설정됩니다. 이 설정을 변경하려면 Adobe 계정 팀과 협력하십시오.
 
 Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유형(AMO ID)&quot;)가 추가됩니다. 사용 가능한 차원 목록은 &quot;[Analysis Workspace의 Adobe Advertising 지표](advertising-metrics-in-analytics.md)&quot;을 참조하십시오.
 
@@ -73,15 +84,15 @@ Adobe Advertising 차원은 접미사 &quot;(AMO ID)&quot;(예: &quot;광고 유
 추가 픽셀 없이도 [!DNL Analytics for Advertising]은(는) 두 개의 기본 신호를 Adobe Advertising으로 전송하여 최적화를 향상시키고 대상 세그먼테이션을 보다 쉽게 할 수 있습니다.
 
 * 입찰 신호로 사용할 전환 지표:
-   * [!UICONTROL Revenue] 및 [!UICONTROL Cart Views]과(와) 같은 표준 지표.
-   * 페이지 보기 및 방문 지표와 같은 사이트 참여 지표
-   * 사용자 지정 매출 지표.
-   * 예약된 매출 지표.
-* [!DNL Analytics]에서 생성되어 CX Enterprise에 게시된 세그먼트입니다.
+  * [!UICONTROL Revenue] 및 [!UICONTROL Cart Views]과(와) 같은 표준 지표.
+  * 페이지 보기 및 방문 지표와 같은 사이트 참여 지표
+  * 사용자 지정 매출 지표.
+  * 예약된 매출 지표.
+* [!DNL Analytics]에서 만들어 CX Enterprise에 게시한 세그먼트입니다.
 
   [!DNL DSP], [!DNL Creative]의 자사 사이트 리타기팅 및 유료 검색 광고에 [!DNL Analytics]개의 세그먼트를 사용할 수 있습니다.
 
-  ([!DNL Search, Social, & Commerce]만 해당) [!DNL Analytics]을(를) 갖지만 Audience Manager을(를) 갖지 않는 광고주는 CX Enterprise와 공유하는 [!DNL Analytics] 세그먼트에서 Google 웹 사이트 태그 기반 대상(리마케팅 목록) 및 고객 일치 대상(고객 목록)을 만들 수도 있습니다.
+  ([!DNL Search, Social, & Commerce]만 해당) [!DNL Analytics]을(를) 갖지만 Audience Manager을 갖지 않는 광고주는 CX Enterprise과 공유되는 [!DNL Analytics] 세그먼트에서 Google 웹 사이트 태그 기반 대상(리마케팅 목록) 및 고객 일치 대상(고객 목록)을 만들 수도 있습니다.
 
 ### 입찰 신호로서의 사이트 전환 지표
 
@@ -101,11 +112,11 @@ Adobe Advertising 팀은 유료 미디어 성능에 적용할 수 있는 이벤�
 
 Adobe Advertising은 [!DNL Analytics]과(와) CX Enterprise 간의 기본 CX Enterprise Audiences 통합을 사용하여 [!DNL Creative], [!DNL DSP] 및 [!DNL Search, Social, & Commerce] 광고에 대한 리마케팅 목적으로 [!DNL Analytics] 세그먼트를 수집할 수 있습니다.
 
-[!DNL Analytics] 세그먼트에 액세스하려면 광고주 계정이 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 사용하도록 설정해야 합니다. ID 서비스가 활성화되면 처리되는 즉시 Adobe Advertising 내에서 모든 CX Enterprise 세그먼트를 사용할 수 있습니다. CX Enterprise 세그먼트에는 [!DNL Analytics]에서 생성되어 CX Enterprise에 게시된 세그먼트, Adobe Audience Manager에서 생성된 세그먼트, [!DNL People core service]을(를) 사용하여 CX Enterprise에서 생성된 세그먼트 및 Adobe Experience Platform에서 만들어지고 Audience Manager을 통해 Adobe Advertising으로 전송된 세그먼트가 포함됩니다.
+[!DNL Analytics] 세그먼트에 액세스하려면 광고주 계정이 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 사용하도록 설정해야 합니다. ID 서비스가 활성화되면 처리되는 즉시 Adobe Advertising 내에서 모든 CX Enterprise 세그먼트를 사용할 수 있습니다. CX Enterprise 세그먼트에는 [!DNL Analytics]에서 만들어 CX Enterprise에 게시한 세그먼트, Adobe Audience Manager에서 만든 세그먼트, [!DNL People core service]을(를) 사용하여 CX Enterprise에서 만든 세그먼트, Adobe Experience Platform에서 만들어 Audience Manager을 통해 Adobe Advertising에 보낸 세그먼트가 포함됩니다.
 
 [!DNL Analytics] 세그먼트는 24시간 내에 사용할 수 있으며 매일 업데이트됩니다.
 
-CX 엔터프라이즈 대상 서비스에 대한 자세한 내용은 [CX 엔터프라이즈 대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)을 참조하십시오.
+CX Enterprise 대상 서비스에 대한 자세한 내용은 [CX Enterprise 대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko)을 참조하세요.
 
 ## 통합 사용 방법의 예 {#integration-examples}
 

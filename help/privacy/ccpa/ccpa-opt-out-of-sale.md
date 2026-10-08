@@ -1,53 +1,62 @@
 ---
-title: Adobe Advertising support for the California Consumer Privacy Act &#58; Consumer opt-out-of-sale support
-description: Learn about support for capturing consumer opt-out-of-sale requests.
+title: 캘리포니아 소비자 개인 정보 보호법 &#58;에 대한 Adobe Advertising 지원 판매 중지 지원
+description: 소비자 판매 옵트아웃 요청 캡처를 위한 지원에 대해 알아봅니다.
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-TQID: https://experienceleague.adobe.com/16JkyKVsVoBIGKEbhEIH7HWZ-H-XkjBad7yq9-NhY3s
+TQID: 'https://experienceleague.adobe.com/16JkyKVsVoBIGKEbhEIH7HWZ-H-XkjBad7yq9-NhY3s'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
+subfeature_v2:
+  - id: c867fa1b-f589-43fa-b071-3c62f0038f23
+    internal-label: CCPA
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: '1101'
 ht-degree: 0%
-
 ---
+# 캘리포니아 소비자 개인 정보 보호법에 대한 Adobe Advertising 지원: 소비자 판매 거부 지원
 
-# Adobe Advertising support for the California Consumer Privacy Act: Consumer opt-out of sale support
-
-*For Adobe Advertising Demand Side Platform (DSP)*
+*Adobe Advertising Demand Side Platform(DSP)의 경우*
 
 >[!IMPORTANT]
 >
 >이 문서의 컨텐츠는 법률적인 조언이 아니며, 법률적인 조언을 대체하지 않습니다. 캘리포니아 소비자 개인 정보 보호법에 대한 법률 자문을 구하십시오.
 
-CCPA(California Consumer Privacy Act)는 2020년 1월 1일에 발효되는 캘리포니아 주의 새로운 개인 정보 보호법입니다. CCPA는 캘리포니아 주민들에게 개인 정보에 대한 새로운 권리를 제공하고 캘리포니아에서 사업을 하는 특정 업체들에 데이터 보호 책임을 부과합니다. CCPA provides consumers with the right to access and delete their data as well as the right to opt out of certain activities that qualify as “selling” personal information to a third party.
+CCPA(California Consumer Privacy Act)는 2020년 1월 1일에 발효되는 캘리포니아 주의 새로운 개인 정보 보호법입니다. CCPA는 캘리포니아 주민들에게 개인 정보에 대한 새로운 권리를 제공하고 캘리포니아에서 사업을 하는 특정 업체들에 데이터 보호 책임을 부과합니다. CCPA는 소비자에게 데이터에 액세스하고 삭제할 수 있는 권한과 서드파티에 대한 개인 정보 &quot;판매&quot;의 자격이 되는 특정 활동을 거부할 수 있는 권한을 제공합니다.
 
 기업은 Adobe CX Enterprise이 기업을 대신하여 처리하고 저장하는 개인 데이터를 결정합니다.
 
-As your service provider, Adobe Advertising provides support for your business to fulfill its obligations under CCPA that are applicable to the use of Adobe Advertising products and services, including managing consumer requests to access and delete personal information and managing consumer requests to opt out of the sale of personal information.
+Adobe Advertising은 서비스 제공업체로서, 개인 정보에 액세스하고 삭제하기 위한 소비자 요청 관리 및 개인 정보 판매를 거부하기 위한 소비자 요청 관리를 포함하여 Adobe Advertising 제품 및 서비스 사용에 적용되는 CCPA에 따른 의무를 이행하도록 비즈니스를 지원합니다.
 
-This document describes how Adobe Advertising Demand Side Platform (DSP), as a service provider, supports the consumer right to opt out of the &quot;sale&quot; of &quot;personal information,&quot; as each term is defined by the CCPA. It includes information on how to communicate opt-out-of-sale requests to Adobe Advertising and how to retrieve reports of your organization&#39;s opt-out-of-sale requests.
+이 문서에서는 CCPA에 의해 각 용어가 정의된 대로 서비스 공급자인 Adobe Advertising Demand Side Platform(DSP)가 &quot;개인 정보&quot;의 &quot;판매&quot;를 거부할 수 있는 소비자 권리를 지원하는 방법에 대해 설명합니다. 여기에는 Adobe Advertising에 판매 옵트아웃 요청을 전달하는 방법 및 조직의 판매 옵트아웃 요청 보고서를 검색하는 방법에 대한 정보가 포함됩니다.
 
-For information about how [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; and [!DNL Advertising DCO] support consumers&#39; personal information access and deletion rights, see [Adobe Advertising support for the California Consumer Privacy Act: Consumer data access and delete support](/help/privacy/ccpa/ccpa-access-delete.md).
+[!DNL Advertising Search, Social, & Commerce]; Advertising Creative 및 [!DNL Advertising DCO]이(가) 소비자의 개인 정보 액세스 및 삭제 권한을 지원하는 방법에 대한 자세한 내용은 캘리포니아 소비자 개인정보 보호법: 소비자 데이터 액세스 및 삭제 지원에 대한 [Adobe Advertising 지원](/help/privacy/ccpa/ccpa-access-delete.md)을 참조하십시오.
 
 CCPA를 위한 Adobe 개인 정보 서비스에 대한 자세한 내용은 [Adobe 개인 정보 보호 센터](https://www.adobe.com/privacy/ccpa.html)를 참조하세요.
 
-## Communicating consumer opt-out-of-sale requests to Adobe Advertising
+## Adobe Advertising에 소비자 판매 중지 요청 전달
 
-You can communicate consumer opt-out-of-sale requests by using either:
+다음 중 하나를 사용하여 소비자 판매 거부 요청을 전달할 수 있습니다.
 
-* a CCPA opt-out-of-sale segment created in Advertising DSP
-* the Adobe Experience Platform Privacy Service API
+* Advertising DSP에서 생성된 CCPA 판매 중지 세그먼트
+* ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API
 
 ### 방법 1: Advertising DSP의 [!UICONTROL CCPA Opt-Out-of-Sale] 세그먼트를 사용하여 CCPA 판매 중지 요청 전달
 

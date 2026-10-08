@@ -3,27 +3,35 @@ title: Advertising DSP 매크로
 description: 일반 추적에 사용 가능한 매크로를 참조하고 서드파티 디스플레이 광고의 클릭을 추적합니다.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-TQID: https://experienceleague.adobe.com/4jT3XQq555z7FwlwIj0wkCps3D3Dg-dWD0He3FnlLiQ
+TQID: 'https://experienceleague.adobe.com/4jT3XQq555z7FwlwIj0wkCps3D3Dg-dWD0He3FnlLiQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Troubleshooting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 940
-ht-degree: 0%
-
+source-wordcount: '990'
+ht-degree: 3%
 ---
-
 # Advertising DSP 매크로
 
 매크로는 명령에 대한 짧은 명령 또는 축약이며 일반적으로 `${MACRO_NAME}` 형식을 따릅니다. Creative 코드 또는 클릭스루 URL에 포함된 매크로는 광고 서버에서 이해할 수 있는 더 긴 코드 문자열로 확장됩니다. DSP 광고 서버는 광고가 제공되거나 클릭될 때 매크로를 실행합니다.
@@ -102,7 +110,7 @@ DSP은 다음과 같은 경우 서드파티 디스플레이 태그에 디스플�
 
 ## 매크로 [!DNL Analytics for Advertising]개
 
-[[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 고객에게만 제공되는 추가 매크로에 대해서는 &quot;[추가 [!DNL Analytics for Advertising] 매크로를  [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)에 추가[매크로를  [!DNL Analytics for Advertising] 광고 태그에 추가 [!DNL Google Campaign Manager 360] 추가](/help/integrations/analytics/macros-google-campaign-manager.md)를 참조하십시오.&quot;
+[[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) 고객에게만 제공되는 추가 매크로에 대해서는 &quot;[추가 [!DNL Analytics for Advertising] 매크로를  [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)에 추가[매크로를  [!DNL Google Campaign Manager 360] 광고 태그에 추가 [!DNL Analytics for Advertising] 추가](/help/integrations/analytics/macros-google-campaign-manager.md)를 참조하십시오.&quot;
 
 ## 매크로 오류 문제 해결
 

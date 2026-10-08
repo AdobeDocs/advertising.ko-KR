@@ -1,27 +1,31 @@
 ---
-title: ' [!DNL LiveRamp]에서 인증된 세그먼트를 수동으로 가져오기'
-description: ' [!DNL LiveRamp]을(를) 통해 인증된 대상을 활성화하는 방법에 대해 알아봅니다.'
+title: '[!DNL LiveRamp]에서 인증된 세그먼트를 수동으로 가져오기'
+description: '[!DNL LiveRamp]을(를) 통해 인증된 대상을 활성화하는 방법에 대해 알아봅니다.'
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-TQID: https://experienceleague.adobe.com/ln4e1Jmq7vRhOIeg25UwNR8yToni5CuokxAcmEPMwEQ
+TQID: 'https://experienceleague.adobe.com/ln4e1Jmq7vRhOIeg25UwNR8yToni5CuokxAcmEPMwEQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 169
+source-wordcount: '169'
 ht-degree: 0%
-
 ---
-
 # [!DNL LiveRamp]에서 인증된 세그먼트를 수동으로 가져오기
 
-[!DNL LiveRamp] [!DNL Connect] 대시보드를 사용하여 인증된 [!DNL LiveRamp] 세그먼트를 DSP에 수동으로 보낼 수 있습니다. 가져온 세그먼트를 배치 타깃팅에 사용할 수 있습니다. 자사 세그먼트의 경우, 요금은 게재된 디스플레이 광고 노출당 USD 0.15이고 게재된 비디오 광고 노출당 USD 0.25입니다.
+[!DNL LiveRamp] [!DNL Connect] 대시보드를 사용하여 인증된 [!DNL LiveRamp] 세그먼트를 DSP에 수동으로 보낼 수 있습니다. 가져온 세그먼트를 배치 타깃팅에 사용할 수 있습니다. 자사 세그먼트의 경우, 요금은 게재된 디스플레이 광고 노출당 USD 0.15 및 게재된 비디오 광고 노출당 USD 0.25입니다.
 
 각 가져오기 작업에 대한 세그먼트 매핑 및 업로드는 최대 7일이 소요될 수 있습니다.
 

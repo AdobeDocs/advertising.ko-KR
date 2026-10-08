@@ -3,20 +3,24 @@ title: 새 사용자 인터페이스 정보
 description: 새로운 사용자 인터페이스에 대해 알아봅니다.
 feature: Search Introduction
 exl-id: 27fcc1c2-fe69-4bdc-9786-c48b28da1560
-TQID: https://experienceleague.adobe.com/3xw-2l7hzRLYG-Se1SJV3eEFsipAy6jwbJnybubAzD0
+TQID: 'https://experienceleague.adobe.com/3xw-2l7hzRLYG-Se1SJV3eEFsipAy6jwbJnybubAzD0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 208
+source-wordcount: '208'
 ht-degree: 0%
-
 ---
-
 # 새 사용자 인터페이스 정보
 
 이제 새로운 UI(사용자 인터페이스)에서 목표, 시뮬레이션 및 포트폴리오를 관리하고 기타 주요 작업을 대부분 수행할 수 있습니다. 새 검색, 소셜 및 Commerce UI는 `https://experience.adobe.com` 도메인 내의 새 URL에서 실행됩니다.

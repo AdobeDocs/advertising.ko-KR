@@ -3,20 +3,24 @@ title: 포트폴리오에 캠페인 할당
 description: 최적화를 위해 포트폴리오에 캠페인을 포함하는 방법을 알아봅니다.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/odAzHLff8w9TCC-X6DUidlxc2RRbcjlCbb-qWWutTK0
+TQID: 'https://experienceleague.adobe.com/odAzHLff8w9TCC-X6DUidlxc2RRbcjlCbb-qWWutTK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '581'
 ht-degree: 0%
-
 ---
-
 # 포트폴리오에 캠페인 할당
 
 최적화된 포트폴리오에 캠페인을 할당하면 검색, 소셜 및 Commerce에서 캠페인의 키워드 및 광고에 대한 입찰, 캠페인 예산 및 입찰 전략 타겟을 최적화할 수 있습니다. 포트폴리오를 만들 때 또는 포트폴리오의 설정을 편집하여 [!UICONTROL Campaigns] 보기에서 포트폴리오에 캠페인을 할당할 수 있습니다.
@@ -65,29 +69,29 @@ ht-degree: 0%
 
    * (하나 이상의 캠페인을 동일한 포트폴리오에 추가하려면) 다음을 수행합니다.
 
-      1. 각 캠페인 옆에 있는 확인란을 선택합니다.
+     1. 각 캠페인 옆에 있는 확인란을 선택합니다.
 
-         여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
+        여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
 
-         >[!NOTE]
-         >
-         >포트폴리오의 모든 캠페인은 동일한 통화를 사용해야 합니다.
+        >[!NOTE]
+        >
+        >포트폴리오의 모든 캠페인은 동일한 통화를 사용해야 합니다.
 
-      1. 데이터 테이블 위의 도구 모음에서 ![자세히](/help/search-social-commerce/assets/more.png "자세히")를 클릭한 다음 **[!UICONTROL Assign]>[!UICONTROL Portfolio]**&#x200B;을(를) 클릭합니다.
+     1. 데이터 테이블 위의 도구 모음에서 ![자세히](/help/search-social-commerce/assets/more.png "자세히")를 클릭한 다음 **[!UICONTROL Assign]>[!UICONTROL Portfolio]**&#x200B;을(를) 클릭합니다.
 
 1. 포트폴리오 선택:
 
    * 포트폴리오 그룹을 탐색하려면 다음을 수행하십시오.
 
-      1. [!UICONTROL Portfolio Group] 이름을 클릭하여 포트폴리오 그룹을 하위 포트폴리오로 확장합니다.
+     1. [!UICONTROL Portfolio Group] 이름을 클릭하여 포트폴리오 그룹을 하위 포트폴리오로 확장합니다.
 
-      1. 포트폴리오를 선택합니다.
+     1. 포트폴리오를 선택합니다.
 
    * 포트폴리오를 검색하려면 다음과 같이 하십시오.
 
-      1. 입력 필드에 최소 3개의 문자를 입력합니다.
+     1. 입력 필드에 최소 3개의 문자를 입력합니다.
 
-      1. 검색 결과에서 포트폴리오 이름 옆에 있는 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
+     1. 검색 결과에서 포트폴리오 이름 옆에 있는 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) **[!UICONTROL Additional Details]**&#x200B;을(를) 클릭하고 선택적으로 프로젝트 이름과 설명을 입력합니다.
 
@@ -97,7 +101,7 @@ ht-degree: 0%
 
 1. 주 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]**&#x200B;을(를) 클릭한 다음 포트폴리오를 찾습니다.
 
-   포트폴리오 그룹 또는 [!UICONTROL Portfolios] 노드를 선택하여 왼쪽 패널의 [!UICONTROL Ungrouped Portfolios] 메뉴에서 포트폴리오 목록을 필터링할 수 있습니다.
+   포트폴리오 그룹 또는 [!UICONTROL Ungrouped Portfolios] 노드를 선택하여 왼쪽 패널의 [!UICONTROL Portfolios] 메뉴에서 포트폴리오 목록을 필터링할 수 있습니다.
 
 1. 포트폴리오 이름 옆에 있는 ![설정 보기/편집 단추](/help/search-social-commerce/assets/settings.png "설정 보기/편집 단추")를 클릭합니다.
 

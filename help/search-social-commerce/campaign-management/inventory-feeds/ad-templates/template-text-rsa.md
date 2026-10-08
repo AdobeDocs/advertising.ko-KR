@@ -3,21 +3,26 @@ title: 인벤토리 피드에 대한 텍스트 광고 및 반응형 검색 광�
 description: 재고 피드에 대한 텍스트 광고 및 반응형 검색 광고 템플릿에 대한 설정을 참조하십시오.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY
+TQID: 'https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3437
+source-wordcount: '3437'
 ht-degree: 0%
-
 ---
-
 # 인벤토리 피드에 대한 텍스트 광고 및 반응형 검색 광고 템플릿 설정
 
 *[!DNL Google Ads], [!DNL LY Ads]&#x200B;(삭제 작업만), [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정만*
@@ -77,11 +82,11 @@ ht-degree: 0%
 
 * 최종 URL을 포함하려면 다음을 수행하십시오.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799/2) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+  * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799/2) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
-   * ([!DNL LY Ads]만 해당) `!{unescapedurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
+  * ([!DNL LY Ads]만 해당) `!{unescapedurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 
-   * 필요에 따라 URL 매개 변수와 캠페인에 대해 정의된 사용자 지정 매개 변수를 앰퍼샌드(&amp;)로 구분하여 포함할 수 있습니다(예: `{lpurl}?matchtype={matchtype}&device={device}`).
+  * 필요에 따라 URL 매개 변수와 캠페인에 대해 정의된 사용자 지정 매개 변수를 앰퍼샌드(&amp;)로 구분하여 포함할 수 있습니다(예: `{lpurl}?matchtype={matchtype}&device={device}`).
 
 * 서드파티 리디렉션 및 추적의 경우 값을 입력합니다.
 
@@ -179,17 +184,17 @@ ht-degree: 0%
 
 * [!DNL Google Ads], [!DNL LY Ads] 및 [!DNL Microsoft Advertising] 템플릿의 경우:
 
-   * 동적 매개 변수의 경우: Broad Match = `[keyword]`, [!UICONTROL Keyword] 열의 첫 번째 용어에 대한 Broad Match 수정자(예: +blue suede shoes) = `+[keyword]`, 키워드 열의 각 용어에 대한 Broad Match 수정자(예: +blue +suede +shoes) = `+[keyword]+`, Phrase Match = `"[keyword]"`, Exact Match = `[[keyword]]`
+  * 동적 매개 변수의 경우: Broad Match = `[keyword]`, [!UICONTROL Keyword] 열의 첫 번째 용어에 대한 Broad Match 수정자(예: +blue suede shoes) = `+[keyword]`, 키워드 열의 각 용어에 대한 Broad Match 수정자(예: +blue +suede +shoes) = `+[keyword]+`, Phrase Match = `"[keyword]"`, Exact Match = `[[keyword]]`
 
-   * 정적 키워드의 경우: Broad Match = `keyword`, Broad Match 수정자 = `+keyword` 또는 Phrase Match = `"keyword"`
+  * 정적 키워드의 경우: Broad Match = `keyword`, Broad Match 수정자 = `+keyword` 또는 Phrase Match = `"keyword"`
 
-     정적 키워드는 동적 매개 변수처럼 대괄호(`[]`)로 둘러싸여 있으므로 여기에 정확한 일치 및 표준 일치 구문으로 입력할 수 없습니다.
+    정적 키워드는 동적 매개 변수처럼 대괄호(`[]`)로 둘러싸여 있으므로 여기에 정확한 일치 및 표준 일치 구문으로 입력할 수 없습니다.
 
 * [!DNL Yandex] 템플릿의 경우:
 
-   * 동적 매개 변수의 경우: `[keyword]`과(와) 같은 열 이름을 삽입합니다. 일치 유형을 나타내려면 [[!DNL Yandex]별 구문](https://yandex.com/support/direct/keywords/symbols-and-operators.html)을 사용하십시오. **참고:** 광범위한 일치 용어의 경우 다음 구문을 사용하십시오. Broad Match Modifier for the first term in the Keyword column (예: +blue suede shoes) = `+[keyword]`, Broad Match Modifier for each term in the Keyword column (예: +blue +suede +shoes) = `+[keyword]+`
+  * 동적 매개 변수의 경우: `[keyword]`과(와) 같은 열 이름을 삽입합니다. 일치 유형을 나타내려면 [[!DNL Yandex]별 구문](https://yandex.com/support/direct/keywords/symbols-and-operators.html)을 사용하십시오. **참고:** 광범위한 일치 용어의 경우 다음 구문을 사용하십시오. Broad Match Modifier for the first term in the Keyword column (예: +blue suede shoes) = `+[keyword]`, Broad Match Modifier for each term in the Keyword column (예: +blue +suede +shoes) = `+[keyword]+`
 
-   * 정적 키워드의 경우: 검색 키워드만 지원됩니다. 키워드에 [[!DNL Yandex]별 구문](https://yandex.com/support/direct/keywords/symbols-and-operators.html)을(를) 사용하십시오. 단어 순서를 나타내는 대괄호(`[]`)는 지원되지 않습니다.
+  * 정적 키워드의 경우: 검색 키워드만 지원됩니다. 키워드에 [[!DNL Yandex]별 구문](https://yandex.com/support/direct/keywords/symbols-and-operators.html)을(를) 사용하십시오. 단어 순서를 나타내는 대괄호(`[]`)는 지원되지 않습니다.
 
 >[!NOTE]
 >
@@ -217,9 +222,9 @@ ht-degree: 0%
 
 * 랜딩 페이지 URL을 나타내려면 다음을 수행합니다.
 
-   * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+  * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]만 해당) 추적 템플릿의 최종 URL을 나타내는 매개 변수 목록은 [[!DNL Google Ads] 설명서](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] 설명서](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
-   * ([!DNL LY Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
+  * ([!DNL LY Ads]만 해당) `!{lpurl}` 매개 변수를 사용하여 랜딩 페이지 URL을 나타냅니다.
 
 **[!UICONTROL Param 1]**, **[!UICONTROL Param 2]\[[!DNL Google Ads] templates\]:** ([!DNL Google Ads] templates only) 광고 복사본에 포함하거나 템플릿에서 만든 모든 광고의 URL을 표시할 수 있는 [!DNL Google Ads] `{param1}` 또는 `{param2}` 변수를 나타내는 지정된 파일의 열입니다. 동적 매개 변수를 삽입하려면 입력 필드를 클릭한 다음 열 목록에서 열 이름을 클릭합니다. 열 이름은 피드 파일이 템플릿을 통해 전파될 때 실제 데이터로 대체됩니다.
 
@@ -237,19 +242,19 @@ ht-degree: 0%
 
 * (&quot;[!UICONTROL Apply to Existing Keywords: Min]&quot; 매개 변수를 사용하지 않는 경우):
 
-   * 통화 기호나 코드 앞에 값을 추가하거나 추가할 수 있습니다. 예를 들어 £2.000,000 및 2000GBP가 유효합니다.
+  * 통화 기호나 코드 앞에 값을 추가하거나 추가할 수 있습니다. 예를 들어 £2.000,000 및 2000GBP가 유효합니다.
 
-   * 값에는 쉼표(,) 또는 마침표(.)가 포함될 수 있습니다. 선택적 마침표(.)가 있는 구분 기호로 또는 분수 값의 경우 쉼표(,)가 표시됩니다. 예를 들어 1,000.00과 2.000,10이 유효합니다.
+  * 값에는 쉼표(,) 또는 마침표(.)가 포함될 수 있습니다. 선택적 마침표(.)가 있는 구분 기호로 또는 분수 값의 경우 쉼표(,)가 표시됩니다. 예를 들어 1,000.00과 2.000,10이 유효합니다.
 
-   * 값 앞에 퍼센트 기호(%), 더하기 기호(+) 또는 빼기 기호(-)를 붙이거나 붙일 수 있습니다. 예를 들어 20%, 208+ 및 -42.32가 유효합니다.
+  * 값 앞에 퍼센트 기호(%), 더하기 기호(+) 또는 빼기 기호(-)를 붙이거나 붙일 수 있습니다. 예를 들어 20%, 208+ 및 -42.32가 유효합니다.
 
-   * 두 숫자는 슬래시로 포함될 수 있습니다. 예를 들어, 4/1 및 0.95/0.45가 유효합니다.
+  * 두 숫자는 슬래시로 포함될 수 있습니다. 예를 들어, 4/1 및 0.95/0.45가 유효합니다.
 
 **[!UICONTROL Param 2]\[[!DNL Microsoft Advertising] templates\]:** ([!DNL Microsoft Advertising] templates only) 제목, 텍스트, 표시 URL 또는 최종 URL에 `{Param2}` 동적 대체 문자열이 포함된 경우 광고에서 대체 값으로 사용할 문자열입니다. 최대 길이는 70자이지만 사용하는 광고 요소의 최대 길이에 유의하십시오(예: 광고 제목에는 최대 25자가 포함될 수 있음).
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] 템플릿만 해당) 제목, 텍스트, 표시 URL 또는 최종 URL에 `{Param3}` 동적 대체 문자열이 포함된 경우 광고에서 대체 값으로 사용할 문자열입니다. 최대 길이는 70자이지만 사용하는 광고 요소의 최대 길이에 유의하십시오(예: 광고 제목에는 최대 25자가 포함될 수 있음).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** 일치 유형 또는 광고 유형이 지정된 각 키워드에 대한 초기 입찰입니다.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** 일치 유형 또는 광고 유형이 지정된 각 키워드에 대한 초기 입찰입니다.
 
 ## [!UICONTROL Ads]
 
@@ -368,19 +373,19 @@ ht-degree: 0%
 
    * 구성 요소에 지정할 각 레이블 분류 및 값에 대해 다음 작업을 수행하십시오.
 
-      1. **[!UICONTROL Add Label Classification]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Add Label Classification]**&#x200B;을(를) 클릭합니다.
 
-      1. 기존 레이블 분류를 선택한 다음 기존 값을 선택하거나 새 값을 입력합니다.
+     1. 기존 레이블 분류를 선택한 다음 기존 값을 선택하거나 새 값을 입력합니다.
 
-         각 값의 최대 길이는 100자이며, ASCII 및 비 ASCII 문자를 포함할 수 있습니다.
+        각 값의 최대 길이는 100자이며, ASCII 및 비 ASCII 문자를 포함할 수 있습니다.
 
-         레이블 분류 값에 대한 동적 매개 변수로 열 이름을 삽입하려면 입력 필드(두 번째 필드)를 클릭한 다음 열 목록에서 열 이름을 클릭합니다.
+        레이블 분류 값에 대한 동적 매개 변수로 열 이름을 삽입하려면 입력 필드(두 번째 필드)를 클릭한 다음 열 목록에서 열 이름을 클릭합니다.
 
-         캠페인 구성 요소당 분류당 하나의 값만 포함할 수 있습니다. 예를 들어 캠페인의 Color=Red이지만 Color=Red 및 Color=Blue는 아닐 수 있습니다.
+        캠페인 구성 요소당 분류당 하나의 값만 포함할 수 있습니다. 예를 들어 캠페인의 Color=Red이지만 Color=Red 및 Color=Blue는 아닐 수 있습니다.
 
-         * 기존 레이블 분류 값을 변경하려면 새 값을 선택하거나 입력합니다.
+        * 기존 레이블 분류 값을 변경하려면 새 값을 선택하거나 입력합니다.
 
-         * 기존 레이블 분류 값을 제거하려면 값 옆에 있는 **[!UICONTROL X]**&#x200B;을(를) 클릭합니다.
+        * 기존 레이블 분류 값을 제거하려면 값 옆에 있는 **[!UICONTROL X]**&#x200B;을(를) 클릭합니다.
 
 ## [!UICONTROL Feed Filters]
 

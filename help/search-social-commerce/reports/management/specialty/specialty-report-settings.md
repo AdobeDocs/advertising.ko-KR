@@ -3,20 +3,26 @@ title: 특성 보고서 설정
 description: 특성 보고서에 대한 필수 및 선택적 설정에 대해 알아봅니다.
 exl-id: 2657f33c-b77d-4e95-83c0-12ec08a1cd3a
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/J7cGX14lJlEyniDXaX4rtWb-gzaP3kzso-wnvgAcbh8
+TQID: 'https://experienceleague.adobe.com/J7cGX14lJlEyniDXaX4rtWb-gzaP3kzso-wnvgAcbh8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3034
+source-wordcount: '3050'
 ht-degree: 0%
-
 ---
-
 # 특성 보고서 설정
 
 | 탭 | 매개 변수 | 설명 |
@@ -41,9 +47,9 @@ ht-degree: 0%
 |  | [!UICONTROL Impression Override Weight] | ([!UICONTROL Last Event] 또는 [!UICONTROL First Event]을(를) 제외한 모든 속성 규칙의 경우) 전환 전에 유료 클릭과 노출이 모두 있으면 광고주의 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 노출에 대해 지정된 전환 값의 비율을 지정합니다. 기본적으로 이 값은 10%입니다. 0에서 100 사이의 정수로 값을 변경할 수 있습니다. 이 값은 보고서 내에서만 사용됩니다.<br><br>노출 횟수로만 전환되기 전에 노출 횟수 재정의 가중치가 아닌 광고주의 [뷰스루 가중치](/help/search-social-commerce/glossary.md#u-v)가 노출 횟수에 적용됩니다. |
 |  | [!UICONTROL Conversion Attribution] | (디스플레이 캠페인에만 해당되며, [!UICONTROL AdWords Shopping Performance Report]에만 해당됨) 이전 이벤트가 발생했을 때 보고할 전환 유형:<ul><li><i>[!UICONTROL Clicks]:</i> 클릭으로 인한 전환만 보고합니다. 각 전환 이름에는 &quot;[!UICONTROL (CT)]&quot;이(가) 추가됩니다.</li><li><i>[!UICONTROL View-throughs Only]:</i> 뷰스루로 인한 전환만 보고합니다. 각 전환 이름에는 &quot;[!UICONTROL (VT)]&quot;이(가) 추가됩니다. 이 옵션을 선택하면 각 전환에 제공할 값을 선택합니다. 뷰스루 평가 방법 상자에서 다음 옵션을 선택합니다.<ul><li><i>[!UICONTROL Raw]:</i> 가중치를 적용하지 않고 전환을 보고합니다.</li><li><i>[!UICONTROL Weighted]</i>(기본값): 광고주에 지정된 뷰스루 가중치에 따라 각 전환에 가중치를 지정합니다.</li></ul></li><li><i>[!UICONTROL Clicks + View-throughs]:</i> 모든 전환을 보고합니다. 기본적으로 각 변환 이름은 &quot;[!UICONTROL (CT+VT)]&quot;과(와) 함께 추가됩니다. 이 전환 속성 유형에는 두 가지 추가 옵션이 포함됩니다.<ul><li>[!UICONTROL Discrete columns for click & view-through conversions] — 포함하는 각 전환 유형에 대해 세 개의 별도 열을 포함합니다. 1) 클릭스루 전환, &quot;[!UICONTROL (CT)]&quot; 추가, 2) 뷰스루 전환, &quot;[!UICONTROL (VT)]&quot; 추가, 3) 및 모든 전환, &quot;[!UICONTROL (CT+VT)]&quot; 추가. 이 옵션을 선택하는 경우 &quot;[!UICONTROL Filter & sort using]&quot; 목록에서 필터링 및 정렬에 사용할 열(기본값: <i>[!UICONTROL click]</i>, <i>[!UICONTROL view-through]</i> 또는 <i>[!UICONTROL click + view-through]</i>)을 선택하십시오.<br><br><b>참고:</b> 검색 캠페인에 대한 변환은 클릭스루의 열에는 표시되지만 뷰스루 변환의 열에는 표시되지 않습니다.</li><li>[!UICONTROL View-through valuation method]: 뷰스루로 인해 발생하는 각 전환에 제공할 값:</li><ul><i>[!UICONTROL Weighted]</i>(기본값): 광고주에 지정된 뷰스루 가중치에 따라 각 전환에 가중치를 지정합니다.</li><li><i>[!UICONTROL Raw]:</i> 가중치를 적용하지 않고 전환을 보고합니다.</li></ul></li></ul> |
 |  | [!UICONTROL Conversion Attribution] > [!UICONTROL Discrete columns for cross device conversions] | 사용되지 않음 |
-| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (선택 사항, &quot;[!UICONTROL Save as template]&quot; 옵션을 선택한 경우에만 사용 가능) 보고서 실행 시기: <i>[!UICONTROL Now]</i>(보고서를 한 번 실행하려면 기본값), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [요일]</i> 또는 <i>[!UICONTROL Every Month] [요일]</i>. <i>[!UICONTROL Now]</i>을(를) 제외한 모든 기간에 대해 오전 09:00(으)로 시작하는 광고주 시간대의 시간을 선택합니다. |
-|  | [!UICONTROL Email Recipients] | <b>참고:</b> 이 설정은 [!UICONTROL Reports]에 대한 전자 메일 알림이 [!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md) 내에 활성화되었을 때만 사용됩니다.<br><br>보고서가 완료되거나 오류로 인해 취소될 때 알림을 보낼 등록된 검색, 소셜 및 Commerce 사용자의 전자 메일 주소입니다. 기본적으로 사용자 계정의 주소를 입력합니다. 여러 주소를 지정하려면 쉼표, 공백 또는 새 줄로 구분합니다. 보고서가 반복적으로 실행되도록 일정이 잡힌 경우 보고서가 완료될 때마다 알림이 전송됩니다. |
-|  | [!UICONTROL Email Notification] | <b>참고:</b> 이 설정은 [!UICONTROL Reports]에 대한 전자 메일 알림이 [!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md) 내에서 사용할 수 있는 경우에만 사용됩니다.<br><br>([!UICONTROL Email Recipients]이(가) 지정된 경우) 지정된 주소에 대한 전자 메일 알림에 포함할 내용:<ul><li><i>[!UICONTROL Notification Only]</i>(기본값): 첨부 파일 없이 보고서 완료 또는 실패에 대한 알림만 보냅니다. 알림에는 모든 보고서 형식에 대한 일시적인 다운로드 링크가 포함됩니다.</li><li><i>[!UICONTROL XLS Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 복사본을 XLS 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다.</li><li><i>[!UICONTROL TSV Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 복사본을 TSV 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다.</li><li><i>[!UICONTROL CSV Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 복사본을 CSV 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다. |
+| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (선택 사항, &quot;[!UICONTROL Save as template]&quot; 옵션을 선택한 경우에만 사용 가능) 보고서 실행 시기: <i>[!UICONTROL Now]</i>(보고서를 한 번 실행하려면 기본값), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [요일]</i> 또는 <i>[!UICONTROL Every Month] [요일]</i>. <i>[!UICONTROL Now]</i>을(를) 제외한 모든 기간에 대해 오전 09:00부터 시작되는 광고주의 시간대의 시간을 선택합니다. |
+|  | [!UICONTROL Email Recipients] | <b>참고:</b> 이 설정은 [!UICONTROL Reports]에 대한 전자 메일 알림이 [!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md) 내에 활성화되었을 때만 사용됩니다.<br><br>보고서가 완료되거나 오류로 인해 취소될 때 알림을 보낼 등록된 검색, 소셜 및 Commerce 사용자의 전자 메일 주소입니다. 기본적으로 사용자 계정의 주소를 입력합니다. 여러 주소를 지정하려면 쉼표, 공백 또는 새 줄로 구분합니다. 보고서가 반복적으로 실행되도록 일정이 잡힌 경우 보고서가 완료될 때마다 알림이 전송됩니다. |
+|  | [!UICONTROL Email Notification] | <b>참고:</b> 이 설정은 [!UICONTROL Reports]에 대한 전자 메일 알림이 [!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md) 내에서 사용할 수 있는 경우에만 사용됩니다.<br><br>([!UICONTROL Email Recipients]이(가) 지정된 경우) 지정된 주소에 대한 전자 메일 알림에 포함할 내용:<ul><li><i>[!UICONTROL Notification Only]</i>(기본값): 첨부 파일 없이 보고서 완료 또는 실패에 대한 알림만 보냅니다. 알림에는 모든 보고서 형식에 대한 일시적인 다운로드 링크가 포함됩니다.</li><li><i>[!UICONTROL XLS Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 복사본을 XLS 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다.</li><li><i>[!UICONTROL TSV Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 복사본을 TSV 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다.</li><li><i>[!UICONTROL CSV Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 복사본을 CSV 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다. |
 
 >[!MORELIKETHIS]
 >

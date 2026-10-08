@@ -3,18 +3,21 @@ title: 키워드 및 부정적 키워드의 상태 변경
 description: 키워드 및 부정적 키워드의 상태를 변경하는 방법에 대해 알아봅니다.
 exl-id: 46b000af-14a0-4f00-8f3c-c3ef2c93fd19
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2MBvYvI1Zf-5KrnhtPegv9gZDwkIFkLcZMzRCWPw-Es
+TQID: 'https://experienceleague.adobe.com/2MBvYvI1Zf-5KrnhtPegv9gZDwkIFkLcZMzRCWPw-Es'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 179
+source-wordcount: '176'
 ht-degree: 0%
-
 ---
-
 # 키워드 및 부정적 키워드의 상태 변경
 
 입찰 가능한 활성 검색 키워드를 일시 중지하여 입찰을 비활성화할 수 있습니다. 나중에 상태를 다시 활성으로 변경하여 입찰을 다시 시작할 수 있습니다.

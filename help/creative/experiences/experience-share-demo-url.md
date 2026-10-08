@@ -3,18 +3,24 @@ title: 경험에 대한 데모 URL 공유
 description: 경험의 데모 URL을 공유하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 0d523270-e6b2-4d7b-a39c-749f3cc94561
-TQID: https://experienceleague.adobe.com/E4i8DcwOU-xNNCyYQ6a6E3RVQIwP0GZNu8K7yZvqx3k
+TQID: 'https://experienceleague.adobe.com/E4i8DcwOU-xNNCyYQ6a6E3RVQIwP0GZNu8K7yZvqx3k'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 118
+source-wordcount: '117'
 ht-degree: 0%
-
 ---
-
 # 경험에 대한 데모 URL 공유
 
 [!DNL Creative]에 로그인하지 않은 다른 사용자가 데모 URL을 공유하여 경험을 미리 보도록 허용할 수 있습니다.

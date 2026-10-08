@@ -3,18 +3,24 @@ title: 크리에이티브 라이브러리에서 동적 크리에이티브 편집
 description: 크리에이티브 라이브러리에서 동적 크리에이티브를 편집하는 방법을 알아봅니다.
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-TQID: https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y
+TQID: 'https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '322'
 ht-degree: 0%
-
 ---
-
 # 크리에이티브 라이브러리에서 동적 크리에이티브 편집
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
@@ -37,25 +43,25 @@ ht-degree: 0%
 
    * 콘텐츠 변경:
 
-      * (광고만 표시) 표 내에서 셀의 값을 편집하려면 셀 내부를 클릭하고 값을 편집합니다. 셀 외부를 클릭하거나 **[!DNL Enter]** 키를 눌러 변경 내용을 저장합니다.
+     * (광고만 표시) 표 내에서 셀의 값을 편집하려면 셀 내부를 클릭하고 값을 편집합니다. 셀 외부를 클릭하거나 **[!DNL Enter]** 키를 눌러 변경 내용을 저장합니다.
 
-      * 단일 제품을 기본값 <!--Explain what this means. -->(으)로 표시하려면 행 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**&#x200B;을(를) 클릭합니다.
+     * 단일 제품을 기본값 <!--Explain what this means. -->(으)로 표시하려면 행 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**&#x200B;을(를) 클릭합니다.
 
-      * (광고에 두 개 이상의 오퍼가 포함된 경우) 여러 제품을 기본값으로 표시하려면 행(최대 오퍼 수)을 선택하고 일괄 작업 도구 모음에서 **[!UICONTROL Set as Default]**&#x200B;을(를) 클릭합니다.
+     * (광고에 두 개 이상의 오퍼가 포함된 경우) 여러 제품을 기본값으로 표시하려면 행(최대 오퍼 수)을 선택하고 일괄 작업 도구 모음에서 **[!UICONTROL Set as Default]**&#x200B;을(를) 클릭합니다.
 
-      * 카탈로그에서 제품을 삭제하려면 행 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**&#x200B;을(를) 클릭합니다.
+     * 카탈로그에서 제품을 삭제하려면 행 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**&#x200B;을(를) 클릭합니다.
 
-      * (광고에 두 개 이상의 오퍼가 포함된 경우) 카탈로그에서 여러 제품을 삭제하려면 행(최대 오퍼 수)을 선택하고 일괄 작업 도구 모음에서 **[!UICONTROL Delete Row]**&#x200B;을(를) 클릭합니다.
+     * (광고에 두 개 이상의 오퍼가 포함된 경우) 카탈로그에서 여러 제품을 삭제하려면 행(최대 오퍼 수)을 선택하고 일괄 작업 도구 모음에서 **[!UICONTROL Delete Row]**&#x200B;을(를) 클릭합니다.
 
 1. 크리에이티브를 저장합니다.
 
    * 광고를 저장하고 라이브러리의 [크리에이티브 번들](bundle-manage.md)에 추가하려면:
 
-      1. **[!UICONTROL Save and Attach to Bundle]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Save and Attach to Bundle]**&#x200B;을(를) 클릭합니다.
 
-      1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 광고를 저장합니다.
+     1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 광고를 저장합니다.
 
-      1. 번들을 선택한 다음 **[!UICONTROL Attach Creative to Bundles]**&#x200B;을(를) 클릭합니다.
+     1. 번들을 선택한 다음 **[!UICONTROL Attach Creative to Bundles]**&#x200B;을(를) 클릭합니다.
 
    * 광고를 저장하고 설치를 종료하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 다시 클릭합니다.
 

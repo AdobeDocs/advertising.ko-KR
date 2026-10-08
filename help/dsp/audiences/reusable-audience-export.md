@@ -3,22 +3,26 @@ title: 재사용 가능한 대상에 대한 세부 정보 내보내기
 description: 재사용 가능한 대상을 위한 구성, 대상 크기 및 타겟팅된 배치를 보는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
-TQID: https://experienceleague.adobe.com/BD8w-IjoQRbmCgwkrdd3JjtsaxPN5hPhlpUTHJoh3SM
+TQID: 'https://experienceleague.adobe.com/BD8w-IjoQRbmCgwkrdd3JjtsaxPN5hPhlpUTHJoh3SM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 147
+source-wordcount: '148'
 ht-degree: 0%
-
 ---
-
 # 재사용 가능한 대상에 대한 세부 정보 내보내기
 
 대상 구성 규칙, 장치 유형별 활성 대상 멤버 수, 대상의 각 세그먼트에 대한 세부 정보 및 대상을 타깃팅하는 모든 배치가 포함된 [!DNL Microsoft Excel] 워크시트 파일을 다운로드할 수 있습니다.

@@ -1,28 +1,35 @@
 ---
-title: ' [!DNL FreeWheel] 광고 제출을 위한 오류 코드'
-description: 광고 제출을 위해  [!DNL FreeWheel]에 반환되는 오류 코드를 참조합니다.
+title: '[!DNL FreeWheel] 광고 제출에 대한 오류 코드'
+description: 광고 제출을 위해 [!DNL FreeWheel]에 반환되는 오류 코드를 참조합니다.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-TQID: https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic
+TQID: 'https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 641
+source-wordcount: '641'
 ht-degree: 3%
-
 ---
-
 # [!DNL FreeWheel] 광고 제출에 대한 오류 코드
 
-실패한 광고 제출에 대한 오류 메시지는 Advertising DSP 또는 [!DNL FreeWheel]에서 가져올 수 있습니다. [!UICONTROL API Response] 대화 상자[[!UICONTROL FreeWheel Status]의 &#x200B;](freewheel-check-status.md) 열에서 오류 메시지를 찾습니다.
+실패한 광고 제출에 대한 오류 메시지는 Advertising DSP 또는 [!DNL FreeWheel]에서 가져올 수 있습니다. [[!UICONTROL FreeWheel Status] 대화 상자](freewheel-check-status.md)의 [!UICONTROL API Response] 열에서 오류 메시지를 찾습니다.
 
 ## Advertising DSP 내부 오류
 
@@ -45,8 +52,8 @@ ht-degree: 3%
 |--- |--- |--- |--- |
 | 401 | 승인되지 않음 | 액세스 자격 증명이 잘못되었거나, 누락되었거나, 잘못되었습니다. | Adobe 계정 팀에 문의하십시오. |
 | 403 | 금지됨 | 서버는 요청을 이해했지만 승인을 거부합니다. | Adobe 계정 팀에 문의하십시오. |
-| 404 | 찾을 수 없음 | 요청한 리소스를 사용할 수 없습니다. Creative ID가 PUT 작업에서 발견되지 않으면 404가 반환됩니다. | Adobe 계정 팀에 문의하십시오. |
-| 405 | 메서드가 허용되지 않음 | 해당 리소스에서 지원하지 않는 요청 메서드를 사용하는 리소스로 요청을 수행했습니다(예: POST에서 데이터를 보내야 하는 메서드에서 GET 사용 또는 읽기 전용 리소스에서 PUT 사용). | Adobe 계정 팀에 문의하십시오. |
+| 404 | 찾을 수 없음 | 요청한 리소스를 사용할 수 없습니다. PUT 작업에서 Creative ID를 찾을 수 없으면 404가 반환됩니다. | Adobe 계정 팀에 문의하십시오. |
+| 405 | 메서드가 허용되지 않음 | 해당 리소스에서 지원하지 않는 요청 메서드를 사용하여 리소스에 대한 요청을 수행했습니다(예: POST에서 데이터를 보내야 하는 메서드에 대해 GET을 사용하거나 읽기 전용 리소스에 대해 PUT을 사용). | Adobe 계정 팀에 문의하십시오. |
 | 408 | 요청 시간 초과 | 이 요청을 처리하는 동안 시간 초과가 발생했습니다. 일반적으로 시간 초과는 특정 리소스에 대한 독점적 액세스 권한을 동시에 요청하여 발생합니다. | 이 상태를 받으면 요청을 다시 제출합니다. 문제가 지속되면 Adobe 계정 팀에 문의하십시오. |
 | 422 | 처리할 수 없는 엔티티 | 잘못된 리소스. 이 오류는 요청 본문이 잘못되었거나 생성/업데이트된 리소스가 유효하지 않은 경우(예: 거래 ID를 찾을 수 없는 경우)에 발생합니다. 자세한 내용은 [FreeWheel API 422 오류](#freewheel-422-errors)를 참조하십시오. | Adobe 계정 팀에 문의하십시오. |
 | 500 | 내부 서버 오류 | API 시스템 오류. | Adobe 계정 팀에 문의하십시오. |

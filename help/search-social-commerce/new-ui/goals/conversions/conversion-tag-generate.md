@@ -2,13 +2,19 @@
 title: (새 UI) Adobe Advertising 전환 추적 태그 생성 및 구현
 description: Adobe Advertising 전환 태그를 만들어 전환 이벤트를 추적하는 방법에 대해 알아봅니다.
 feature: Search Tools, Search Tracking
-source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 0%
-
 ---
-
 # (새 UI) Adobe Advertising 전환 추적 태그 생성 및 구현
 
 *Adobe Advertising 전환 추적만 있는 광고주*
@@ -69,7 +75,7 @@ ht-degree: 0%
 
 ## Adobe Experience Platform 태그 및 Adobe Advertising 확장을 사용하여 전환 추적 태그 구현
 
-Adobe Experience Platform의 태그를 사용하여 검색, 소셜 및 Commerce에 대한 전환 추적을 설정할 수 있습니다. 태그는 부가가치 기능으로 포함되어 Adobe CX 엔터프라이즈 고객이 사용할 수 있습니다.
+Adobe Experience Platform의 태그를 사용하여 검색, 소셜 및 Commerce에 대한 전환 추적을 설정할 수 있습니다. 태그는 부가가치 기능으로 포함되어 Adobe CX Enterprise 고객이 사용할 수 있습니다.
 
 Experience Platform 사용자 인터페이스 또는 Experience Platform 데이터 수집 사용자 인터페이스에서 검색, 소셜 및 Commerce에 대한 전환 추적 태그를 구성하는 데 다음 작업이 필요합니다. 태그 구성에 대한 전체 정보와 지침은 &quot;[태그 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home)&quot; 및 &quot;[빠른 시작 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/get-started/quick-start)&quot;로 시작하는 Experience Platform 태그 안내서를 참조하십시오.
 

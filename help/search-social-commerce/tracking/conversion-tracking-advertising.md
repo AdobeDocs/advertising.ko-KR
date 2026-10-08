@@ -3,20 +3,24 @@ title: Adobe Advertising 전환 추적 태그 기본 정보
 description: Adobe Advertising 전환 추적 태그 사용에 대해 알아봅니다.
 exl-id: 8194d5eb-9a5d-4c4e-bb02-e578ffb84d18
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/SKNAm2olxXOI-qdf67XVYpo9GtQCpQO9acywqE7YTv0
+TQID: 'https://experienceleague.adobe.com/SKNAm2olxXOI-qdf67XVYpo9GtQCpQO9acywqE7YTv0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising 전환 추적 태그 기본 정보
 
 Adobe Advertising은 &quot;성공&quot; 페이지와 같은 전환 이벤트가 발생할 때 열리는 웹 페이지에 삽입된 Adobe Advertising 전환 추적 태그를 사용하여 광고 클릭으로 인한 전환을 추적합니다. 태그에는 트랜잭션 데이터를 사용자의 Adobe Advertising 쿠키와 함께 추적 서버로 전송하기 위한 임베드된 정보가 포함되어 있습니다. 추적 서버에서 트랜잭션은 적절한 광고 클릭 또는 노출(광고주의 전환 속성 설정에 따라)로 크레딧됩니다.

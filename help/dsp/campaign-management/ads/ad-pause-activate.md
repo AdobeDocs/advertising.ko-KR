@@ -3,22 +3,26 @@ title: 광고 일시 중지 또는 활성화
 description: 광고를 일시 중단하거나 활성화하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: f39d36c2-4c62-462b-bb92-29458890661e
-TQID: https://experienceleague.adobe.com/g3nlUhcz8NckhdshPZlTkcIvndVaqoHFpS715tD0pPE
+TQID: 'https://experienceleague.adobe.com/g3nlUhcz8NckhdshPZlTkcIvndVaqoHFpS715tD0pPE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 198
+source-wordcount: '199'
 ht-degree: 0%
-
 ---
-
 # 광고 일시 중지 또는 활성화
 
 [!UICONTROL Ads] 보기에서 광고를 일시 중지하거나 활성화하면 연결된 모든 배치에서 광고의 상태가 변경됩니다.
@@ -47,7 +51,7 @@ ht-degree: 0%
 1. 주 메뉴에서 **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 1. 캠페인의 이름을 클릭합니다.
 1. 하위 메뉴에서 **[!UICONTROL Placements]**&#x200B;을(를) 클릭합니다.
-1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Ads]**&#x200B;을(를) 클릭하여 배치 [!UICONTROL Ads]의 [!UICONTROL Inspector] 탭을 엽니다.
+1. 배치 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Ads]**&#x200B;을(를) 클릭하여 배치 [!UICONTROL Inspector]의 [!UICONTROL Ads] 탭을 엽니다.
 1. 광고 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Pause]** 또는 **[!UICONTROL Activate]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]

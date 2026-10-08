@@ -3,18 +3,21 @@ title: 이미지 변환 추적 태그의 형식
 description: 이미지 변환 추적 태그의 형식을 참조합니다.
 exl-id: e23107e1-b719-4572-a471-13e51387465d
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/TQMACo5-LkbCU2SiMmUE-ZDBRTb8NERQPQ9ISzU0DdU
+TQID: 'https://experienceleague.adobe.com/TQMACo5-LkbCU2SiMmUE-ZDBRTb8NERQPQ9ISzU0DdU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '251'
 ht-degree: 0%
-
 ---
-
 # 이미지 변환 추적 태그의 형식
 
 >[!NOTE]
@@ -33,7 +36,7 @@ ht-degree: 0%
 
 * `<ef-userid>`은(는) 검색, 소셜 및 Commerce이 광고주에게 할당하는 고유한 숫자 사용자 ID입니다.
 
-* `<propertyname>`은(는) 추적할 변환입니다. 예를 들어 &quot;등록&quot;이라는 전환을 추적하는 경우 태그에 매개 변수 `ev_registration=<registration>`이(가) 포함되며 각 거래(예: `ev_registration=1`)에 대한 실제 매출을 전달해야 합니다. 여러 속성을 추적하면 `&`(예: `ev_registration=<registration>&ev_sale=<sale>`)과 같은 앰퍼샌드(`ev_registration=1&ev_sale=12.99`)로 연결됩니다. **참고:** 속성 이름에 특수 문자가 포함되지 않을 수 있습니다.
+* `<propertyname>`은(는) 추적할 변환입니다. 예를 들어 &quot;등록&quot;이라는 전환을 추적하는 경우 태그에 매개 변수 `ev_registration=<registration>`이(가) 포함되며 각 거래(예: `ev_registration=1`)에 대한 실제 매출을 전달해야 합니다. 여러 속성을 추적하면 `ev_registration=<registration>&ev_sale=<sale>`(예: `ev_registration=1&ev_sale=12.99`)과 같은 앰퍼샌드(`&`)로 연결됩니다. **참고:** 속성 이름에 특수 문자가 포함되지 않을 수 있습니다.
 
 * `<transid>`은(는) 광고주가 트랜잭션을 식별하기 위해 생성하고 전달하는 고유한 트랜잭션 ID(예: 실제 주문 ID)입니다. &quot;[!UICONTROL Include unique transaction IDs]&quot; 옵션을 선택한 경우에만 포함됩니다.
 

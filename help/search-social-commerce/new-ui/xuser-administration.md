@@ -3,21 +3,26 @@ title: (새 UI) 사용자 관리
 description: 사용자 액세스를 관리하는 방법을 알아봅니다.
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
-TQID: https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo
+TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1045
+source-wordcount: '1045'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 검색, 소셜 및 상거래에 대한 사용자 관리
 
 일부 사용자는 모든 Adobe 권한 및 사용자 관리를 관리하는 중앙 위치인 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을(를) 사용하여 새 검색, 소셜 및 Commerce 사용자 인터페이스에 대한 액세스를 관리할 수 있습니다. 사용자는 최종 사용자 또는 관리자로 분류됩니다. 관리자인 경우 Adobe 계정 팀에서 알림을 보냅니다. 관리자는 다음 섹션을 참조하여 사용자 관리를 위한 권한 및 워크플로를 식별합니다.
@@ -44,49 +49,49 @@ Admin Console에서는 여러 유형의 관리자를 제공합니다. 검색, �
 
 * **[!UICONTROL Basic Optimization]:** 이 프로필은 다음 기능을 제공합니다.
 
-   * [!UICONTROL Objectives]: 전체 액세스
+  * [!UICONTROL Objectives]: 전체 액세스
 
-   * [!UICONTROL Simulations]: 전체 액세스
+  * [!UICONTROL Simulations]: 전체 액세스
 
-   * [!UICONTROL Portfolio Groups]: 전체 액세스
+  * [!UICONTROL Portfolio Groups]: 전체 액세스
 
-   * [!UICONTROL Portfolios]: [!UICONTROL Objectives], [!UICONTROL Campaigns] 및 지출 [!UICONTROL Management]에 대한 포트폴리오 설정에 대한 액세스 권한을 만들거나 편집합니다. 나머지 포트폴리오 설정에 대한 읽기 전용 액세스 권한입니다.
+  * [!UICONTROL Portfolios]: [!UICONTROL Objectives], [!UICONTROL Campaigns] 및 지출 [!UICONTROL Management]에 대한 포트폴리오 설정에 대한 액세스 권한을 만들거나 편집합니다. 나머지 포트폴리오 설정에 대한 읽기 전용 액세스 권한입니다.
 
-   * [!UICONTROL Campaigns]: 캠페인 설정에 대한 읽기 전용 액세스(만들기, 편집 또는 삭제 기능을 사용할 수 없음), 제한 및 포트폴리오 할당에 대한 전체 액세스
+  * [!UICONTROL Campaigns]: 캠페인 설정에 대한 읽기 전용 액세스(만들기, 편집 또는 삭제 기능을 사용할 수 없음), 제한 및 포트폴리오 할당에 대한 전체 액세스
 
-   * [!UICONTROL Ad Groups]: 광고 그룹 설정에 대한 읽기 전용 액세스 권한(만들기, 편집 또는 삭제 기능을 사용할 수 없음), 제한 및 포트폴리오 할당에 대한 전체 액세스 권한
+  * [!UICONTROL Ad Groups]: 광고 그룹 설정에 대한 읽기 전용 액세스 권한(만들기, 편집 또는 삭제 기능을 사용할 수 없음), 제한 및 포트폴리오 할당에 대한 전체 액세스 권한
 
   이 액세스 수준은 여전히 검색, 소셜 및 Commerce 사용을 학습하는 사용자에게 선호됩니다.
 
 * **[!UICONTROL Expert Optimization]:** 이 프로필은 다음 기능을 제공합니다.
 
-   * [!UICONTROL Objectives]: 전체 액세스
+  * [!UICONTROL Objectives]: 전체 액세스
 
-   * [!UICONTROL Simulations]: 전체 액세스
+  * [!UICONTROL Simulations]: 전체 액세스
 
-   * [!UICONTROL Portfolio Groups]: 전체 액세스
+  * [!UICONTROL Portfolio Groups]: 전체 액세스
 
-   * [!UICONTROL Portfolios]: 전체 액세스
+  * [!UICONTROL Portfolios]: 전체 액세스
 
-   * [!UICONTROL Campaigns]: 캠페인 목록에 대한 읽기 전용 액세스(아직 캠페인 만들기, 편집 또는 삭제 기능을 사용할 수 없음), 제한 및 포트폴리오 할당에 대한 전체 액세스
+  * [!UICONTROL Campaigns]: 캠페인 목록에 대한 읽기 전용 액세스(아직 캠페인 만들기, 편집 또는 삭제 기능을 사용할 수 없음), 제한 및 포트폴리오 할당에 대한 전체 액세스
 
-   * [!UICONTROL Ad Groups]: 광고 그룹 목록에 대한 읽기 전용 액세스(아직 캠페인 만들기, 편집 또는 삭제 기능을 사용할 수 없음), 제한 및 포트폴리오 할당에 대한 전체 액세스
+  * [!UICONTROL Ad Groups]: 광고 그룹 목록에 대한 읽기 전용 액세스(아직 캠페인 만들기, 편집 또는 삭제 기능을 사용할 수 없음), 제한 및 포트폴리오 할당에 대한 전체 액세스
 
   이 액세스 수준은 검색, 소셜 및 Commerce의 전문가 사용자에게 권장됩니다.
 
 * **[!UICONTROL Read-Only]:** 이 프로필은 다음 기능을 제공합니다.
 
-   * [!UICONTROL Objectives]: 읽기 전용 액세스
+  * [!UICONTROL Objectives]: 읽기 전용 액세스
 
-   * [!UICONTROL Simulations]: 읽기 전용 액세스
+  * [!UICONTROL Simulations]: 읽기 전용 액세스
 
-   * [!UICONTROL Portfolio Groups]: 읽기 전용 액세스
+  * [!UICONTROL Portfolio Groups]: 읽기 전용 액세스
 
-   * [!UICONTROL Portfolios]: 읽기 전용 액세스
+  * [!UICONTROL Portfolios]: 읽기 전용 액세스
 
-   * [!UICONTROL Campaigns]: 읽기 전용 액세스
+  * [!UICONTROL Campaigns]: 읽기 전용 액세스
 
-   * [!UICONTROL Ad Groups]: 읽기 전용 액세스
+  * [!UICONTROL Ad Groups]: 읽기 전용 액세스
 
 * **[!UICONTROL Admin]:** 이 프로필에서는 사용 가능한 모든 기능에 대한 전체 액세스 권한을 부여하고 사용자가 새 클라이언트 인스턴스(기존 광고주 계정과 동일하며 조직 ID당 하나 이상의 인스턴스가 있음)를 만들 수 있습니다. 적절한 비즈니스 타당성이 없는 한 이 권한을 다른 사람에게 할당하지 마십시오.
 
@@ -100,13 +105,13 @@ Admin Console에서는 여러 유형의 관리자를 제공합니다. 검색, �
 
 1. https://adminconsole.adobe.com/enterprise/으로 이동합니다.
 
-1. (CX Enterprise에 로그인하지 않은 경우) CX Enterprise에 로그인:
+1. (CX Enterprise에 로그인하지 않은 경우) CX Enterprise에 로그인합니다.
 
    1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
    1. **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> 중 하나를 선택하십시오.
 
-   1. 해당 CX 엔터프라이즈 조직을 선택합니다.
+   1. 해당 CX Enterprise 조직을 선택합니다.
 
       Admin Console에서 [!UICONTROL Overview] 탭이 열립니다.
 

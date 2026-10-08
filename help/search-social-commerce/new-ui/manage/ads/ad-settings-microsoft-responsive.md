@@ -1,18 +1,21 @@
 ---
 title: '[!DNL Microsoft Advertising] 반응형 광고 설정'
-description: ' [!DNL Microsoft Advertising] 반응형 광고 설정을 참조합니다.'
+description: '[!DNL Microsoft Advertising] 반응형 광고에 대한 설정을 참조합니다.'
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 243
+source-wordcount: '244'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] 반응형(대상) 광고 설정
 
 반응형 광고 형식은 [!DNL Microsoft Audience Network]에서 이미지 기반, 비디오 기반 및 연결된 TV 비디오 기반 대상 광고에 사용할 수 있습니다. 광고 네트워크는 광고 요소의 가장 효과적인 조합을 사용하여 반응형 광고를 동적으로 조합합니다.

@@ -3,22 +3,28 @@ title: 캠페인에 대한 FAQ
 description: 캠페인 관리 및 캠페인 데이터 보기에 대한 질문에 대한 답변을 살펴볼 수 있습니다.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs
+TQID: 'https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1585
+source-wordcount: '1601'
 ht-degree: 0%
-
 ---
-
 # 캠페인 관리에 대한 FAQ
 
 ## 일반 정보
@@ -30,9 +36,9 @@ ht-degree: 0%
 
 +++광고 네트워크에서 클릭 데이터가 언제 업데이트됩니까?
 
-검색 엔진에서 전날 클릭 데이터를 가져오는 프로세스는 광고주의 시간대의 06:00부터 시작됩니다.
+검색엔진에서 전날 클릭 데이터를 가져오는 프로세스는 광고주의 시간대인 06:00부터 시작된다.
 
-또한 현재 날짜의 검색 네트워크에서 [!DNL Google Ads]개의 캠페인 수준 성과 지표를 광고주의 시간대의 08:00 및 16:00에서 가져옵니다.
+또한 현재 날짜의 검색 네트워크에서 [!DNL Google Ads]개의 캠페인 수준 성과 지표를 광고주의 시간대에서 08:00 및 16:00에 가져옵니다.
 +++
 
 +++키워드 및 광고의 내역을 잃게 하는 작업은 무엇입니까?
@@ -41,7 +47,7 @@ ht-degree: 0%
 >
 >(포트폴리오가 있는 광고주) 검색, 소셜 및 Commerce이 데이터를 수집하여 모델을 생성하는 동안 새로운 키워드와 일치 유형 조합의 성능은 불안정할 것으로 예상합니다.
 
-**> [!UICONTROL Search, Social, & Commerce] 보기, 일괄 시트 게시 프로세스 및 광고 네트워크의 자체 편집기에서 [!UICONTROL Campaigns]작업:**
+[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] 보기, 일괄 시트 게시 프로세스 및 광고 네트워크의 자체 편집기에서 **작업:**
 
 기존 키워드 또는 광고가 삭제되고 다음 경우에 다른 키워드 또는 광고가 만들어집니다.
 
@@ -81,7 +87,7 @@ Search, Social 및 Commerce에서 전환 지표의 표시 이름을 변경하면
 
 +++(Google Ads 캠페인) 포트폴리오의 캠페인에 공유 예산을 사용할 수 있습니까?
 
-최상의 결과를 얻으려면 [!DNL Google Ads] 캠페인이 &quot;[!DNL Google Ads]&quot;(으)로 구성된 최적화된 포트폴리오에 있는 경우 [!UICONTROL Auto adjust campaign budget limits] 공유 예산에 추가하지 마십시오. [!DNL Google Ads]이(가) 검색, 소셜 및 Commerce에 최적화된 캠페인 예산을 오버라이드하므로 입찰이 비효율적일 수 있습니다.
+최상의 결과를 얻으려면 [!DNL Google Ads] 캠페인이 &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;(으)로 구성된 최적화된 포트폴리오에 있는 경우 [!DNL Google Ads] 공유 예산에 추가하지 마십시오. [!DNL Google Ads]이(가) 검색, 소셜 및 Commerce에 최적화된 캠페인 예산을 오버라이드하므로 입찰이 비효율적일 수 있습니다.
 +++
 
 +++([!DNL Google Ads]개의 캠페인) 모바일과 모바일이 아닌 사용자를 다른 랜딩 페이지로 보낼 수 있습니까?
@@ -106,9 +112,9 @@ Search, Social 및 Commerce에서 전환 지표의 표시 이름을 변경하면
 
 +++([!DNL Google Ads]개의 캠페인이 검색 네트워크에 있음) 오늘 표시되는 데이터는 무엇입니까?
 
-현재 날짜의 검색 네트워크에서 [!DNL Google Ads]개의 캠페인 수준 성과 지표를 광고주의 시간대의 08:00 및 16:00에서 가져옵니다.
+현재 날짜의 검색 네트워크에서 [!DNL Google Ads]개의 캠페인 수준 성과 지표를 광고주의 시간대에서 08:00 및 16:00에 가져옵니다.
 
-[!UICONTROL Campaigns] > [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] 보기와 [!UICONTROL Campaigns] > [!UICONTROL Optimization] 보기 모두의 [!UICONTROL Portfolios] 탭에서 [!UICONTROL Today] 또는 현재 날짜가 포함된 사용자 지정 날짜 범위에 대해 보고할 때 데이터에 가장 최근에 동기화된 데이터가 포함됩니다.
+[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기와 [!UICONTROL Optimization] > [!UICONTROL Portfolios] 보기 모두의 [!UICONTROL Campaigns] 탭에서 [!UICONTROL Today] 또는 현재 날짜가 포함된 사용자 지정 날짜 범위에 대해 보고할 때 데이터에 가장 최근에 동기화된 데이터가 포함됩니다.
 
 >[!NOTE]
 >
@@ -128,7 +134,7 @@ Search, Social 및 Commerce에서 전환 지표의 표시 이름을 변경하면
 
 병렬 추적은 광고에서 최종 URL로 고객을 직접 보냅니다. 이 URL에는 최종 URL 접미사 또는 &quot;랜딩 페이지 접미사&quot;의 추가 매개 변수가 포함될 수 있습니다. 추적 템플릿 URL(클릭 측정에 대한 추가 매개 변수 포함)은 백그라운드에서 별도로 로드됩니다. 그 결과 랜딩 페이지가 더 빨리 로드됩니다.
 
-Search, Social 및 Commerce에서는 광고 네트워크의 클릭 식별자를 사용하여 검색 및 쇼핑 캠페인에 대한 병렬 추적을 지원합니다(`msclkid`의 경우 [!DNL Microsoft Advertising], `gclid`의 경우 [!DNL Google Ads]). 병렬 추적을 지원하는 브라우저에서 하위 광고에 대한 클릭을 추적하기 위해 랜딩 페이지 URL에 추가되는 [계정 수준](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 또는 [캠페인 수준](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix]&#x200B;(광고 네트워크에서 &quot;[!DNL final URL suffix]&quot;이라고 함)을 사용합니다. [다음에 필요한 접미사 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [다음에 필요한 접미사 형식 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)을(를) 참조하십시오.
+Search, Social 및 Commerce에서는 광고 네트워크의 클릭 식별자를 사용하여 검색 및 쇼핑 캠페인에 대한 병렬 추적을 지원합니다([!DNL Microsoft Advertising]의 경우 `msclkid`, [!DNL Google Ads]의 경우 `gclid`). 병렬 추적을 지원하는 브라우저에서 하위 광고에 대한 클릭을 추적하기 위해 랜딩 페이지 URL에 추가되는 [계정 수준](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) 또는 [캠페인 수준](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix]&#x200B;(광고 네트워크에서 &quot;[!DNL final URL suffix]&quot;이라고 함)을 사용합니다. [다음에 필요한 접미사 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) 및 [다음에 필요한 접미사 형식 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)을(를) 참조하십시오.
 
 사용자가 병렬 추적을 지원하지 않는 브라우저에서 광고를 볼 때 광고 네트워크는 대신 순차적 추적을 사용합니다. 고객이 먼저 추적 템플릿 URL로 전송되어 최종 URL로 리디렉션되기 전에 고객을 중간 추적 서버로 리디렉션할 수 있습니다(랜딩 페이지 접미사에 추가 매개 변수를 포함할 수 있음). 광고 네트워크 계정에 대한 모든 추적 템플릿에는 [!UICONTROL Landing Page Suffix]에서 사용하는 것과 동일한 클릭 식별자 매개 변수가 포함되어야 합니다. [다음에 대한 추적 템플릿 형식 [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md)과 [다음에 대한 추적 템플릿 형식 [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)을 참조하세요.
 +++
@@ -160,7 +166,7 @@ Search, Social 및 Commerce에서는 광고 네트워크의 클릭 식별자를 
 
 가격 데이터에 `{Param 1}` 또는 `{Param 2}` 변수를 사용하려면 데이터 파일의 가격 열을 적절한 피드 템플릿의 해당 변수에 매핑한 다음 광고 변형 템플릿에 변수를 포함하십시오.
 
-예를 들어 열이 &quot;Price&quot;라고 하는 경우 광고를 만드는 피드 템플릿을 열고 **[!UICONTROL Param 1]** 옆의 입력 필드를 클릭한 다음 **[!UICONTROL Price]** 목록에서 [!UICONTROL Feeds/Available Columns] 열을 클릭합니다. 그러면 `[Price]`에 대한 값으로 [!UICONTROL Param 1]이(가) 삽입됩니다. 피드 템플릿 하단의 광고 변형 템플릿에 `{param1:default text}`을(를) 삽입합니다. 여기서 &quot;기본 텍스트&quot;는 피드 파일의 매개 변수 열이 광고 행에 대해 비어 있는 경우 사용할 텍스트입니다.
+예를 들어 열이 &quot;Price&quot;라고 하는 경우 광고를 만드는 피드 템플릿을 열고 **[!UICONTROL Param 1]** 옆의 입력 필드를 클릭한 다음 [!UICONTROL Feeds/Available Columns] 목록에서 **[!UICONTROL Price]** 열을 클릭합니다. 그러면 [!UICONTROL Param 1]에 대한 값으로 `[Price]`이(가) 삽입됩니다. 피드 템플릿 하단의 광고 변형 템플릿에 `{param1:default text}`을(를) 삽입합니다. 여기서 &quot;기본 텍스트&quot;는 피드 파일의 매개 변수 열이 광고 행에 대해 비어 있는 경우 사용할 텍스트입니다.
 
 데이터를 제출할 때 [!UICONTROL Param1] 및 [!UICONTROL Param2] 열의 데이터 필드에는 숫자 데이터, 통화 기호 및 통화 코드와 숫자가 아닌 다음 문자를 포함하여 최대 25자가 포함될 수 있습니다. `, . % + - /`
 +++

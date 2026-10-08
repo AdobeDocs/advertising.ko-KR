@@ -8,31 +8,43 @@ exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
 TQID: https://experienceleague.adobe.com/HgUQENjtjLRyizGpXGBRYZOanvoouKfGdcjDyf5Dlaw
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: DSP Planner
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: DSP Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f39dd5f12876b2ff486b6de57c0578fd5a7abf89
+    internal-label: Privacy
+source-git-commit: cbbbdbcf073cf593f49b3e481cd0e2482358063a
 workflow-type: tm+mt
-source-wordcount: 7727
+source-wordcount: '7729'
 ht-degree: 0%
-
 ---
-
-# 새로운 기능
+# DSP의 새로운 기능
 
 다음 기능은 새로운 기능이거나 최근에 변경되었습니다.
 
@@ -81,9 +93,9 @@ ht-degree: 0%
 | 2025년 5월 5일 | [!UICONTROL Inventory Targeting], [!UICONTROL Placements] | 이제 DSP은 APS(Amazon Publisher Services)와 전략적 파트너십을 맺고 DSP 사용자에게 Fire TV, Twitch, IMDb, Goodreads, 오후 6시 등 APS 통합 광고 마켓플레이스의 사이트에 직접 액세스할 수 있는 권한을 제공합니다. 비프로그램 보증 개인 거래를 위해 공개 재고, 온디맨드 재고 및 비공개 재고를 통해 액세스할 수 있습니다. 지원되는 광고 유형에는 디스플레이, 온라인 비디오 및 연결된 TV가 있습니다.<br><br>유럽 연합, 브라질 및 일본을 제외한 모든 지역에서 액세스가 가능하지만, Twitch는 현재 호주와 뉴질랜드에서만 파일럿 모드입니다. | — |
 | 2025년 4월 25일 | [!UICONTROL Placements], 브랜드 안전 및 미디어 품질 | DSP은 이제 표준 연결된 TV 배치에 대한 사전 입찰 사기 차단을 [!DNL DoubleVerify]개 제공합니다. 새 배치는 광고주 수준의 부정 행위 차단 설정을 자동으로 상속합니다. 상속된 설정을 제외하려면 수동으로 제거합니다.<br><br>향후 릴리스에서 범용 비디오 배치에 대한 지원을 사용할 수 있습니다. | &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md#prebid-fraud-blocking)&quot;을(를) 참조하십시오. |
 | 2025년 4월 24일 | 성능 [!UICONTROL Insights] | (Beta 기능) 시각화를 통한 높은 수준의 성능 통찰력은 캠페인을 효율적으로 최적화하고 새로운 성과 확장 기회를 발견하는 데 필요한 정보를 제공합니다. 캠페인 간 데이터를 보거나 더 낮은 수준으로 드릴다운할 수 있습니다. | &quot;[인사이트 정보](/help/dsp/campaign-management/insights/insights-about.md)&quot;를 참조하세요. |
-| 2025년 3월 26일 | 로그인 | DSP이 로그인 인증을 위해 Adobe Identity Management 서비스(IMS)로 전환하고 있습니다. IMS는 Real-Time Customer Data Platform, Customer Journey Analytics, Target 및 Analytics를 포함하여 IMS를 지원하는 모든 [!DNL Adobe] 제품에 SSO(Single Sign-On) 액세스를 제공합니다. 이제 하나의 [!DNL Adobe ID]을(를) 사용하여 CX 엔터프라이즈 로그인 페이지 또는 기존 DSP 로그인 페이지에서 [!DNL Adobe] 제품 간에 로그인할 수 있습니다. 현재 DSP 자격 증명은 90일 동안 활성 상태로 유지되므로 변경을 준비할 수 있습니다. | &quot;[Adobe Advertising DSP에 로그인](/help/dsp/introduction/sign-in.md)&quot;을 참조하십시오.<br><br>사용자 프로필 관리를 포함하여 CX 엔터프라이즈 인터페이스에 대한 자세한 내용은 &quot;[CX 엔터프라이즈 인터페이스 및 관리](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오. |
+| 2025년 3월 26일 | 로그인 | DSP이 로그인 인증을 위해 Adobe Identity Management 서비스(IMS)로 전환하고 있습니다. IMS는 Real-Time Customer Data Platform, Customer Journey Analytics, Target 및 Analytics를 포함하여 IMS를 지원하는 모든 [!DNL Adobe] 제품에 SSO(Single Sign-On) 액세스를 제공합니다. 이제 하나의 [!DNL Adobe ID]을(를) 사용하여 CX Enterprise 로그인 페이지 또는 이전 DSP 로그인 페이지에서 [!DNL Adobe] 제품 간에 로그인할 수 있습니다. 현재 DSP 자격 증명은 90일 동안 활성 상태로 유지되므로 변경을 준비할 수 있습니다. | &quot;[Adobe Advertising DSP에 로그인](/help/dsp/introduction/sign-in.md)&quot;을 참조하십시오.<br><br>사용자 프로필 관리를 포함한 CX Enterprise 인터페이스에 대한 자세한 내용은 &quot;[CX Enterprise 인터페이스 및 관리](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오. |
 | | [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads] | 이제 다음 벌크 편집 기능을 사용할 수 있습니다.<ul><li>캠페인 패키지, 배치 및 광고에 대한 설정이 포함된 캠페인 수준 스프레드시트를 직접 편집하고 다시 업로드할 수 있습니다. 이전에는 템플릿 파일을 다운로드하고 업로드할 변경 사항을 수동으로 입력해야 했습니다.</li><li>이제 파일이 [!UICONTROL Campaigns] 보기 전체에서 &quot;QA 시트&quot; 대신 &quot;*bulksheets*&quot;이라고 하며, &quot;[!UICONTROL Download Bulksheet]&quot; 및 &quot;[!UICONTROL Upload Bulksheet]&quot; 옵션을 선택합니다.</li><li>이제 대부분의 배치 설정을 일괄 시트에서 사용할 수 있습니다.</li></ul> | &quot;[일괄 시트를 사용하여 캠페인 구성 요소 설정 검토 및 편집](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;을 참조하십시오.<br><br>또한 &quot;[일괄 시트를 사용하여 패키지 설정 검토 및 편집](/help/dsp/campaign-management/packages/package-qa.md)&quot; 및 &quot;[일괄 시트를 사용하여 배치 설정 검토 및 편집](/help/dsp/campaign-management/placements/placement-qa.md)&quot;을 참조하십시오.&quot; |
-| 2025년 3월 10일 릴리스 | 개인 정보 보호 | Digital Advertising Alliance(DAA)와의 [!DNL Adobe's] 파트너십을 통해 최종 사용자는 이제 &quot;Adobe Marketing Cloud - Advertising 서비스&quot;(이전에 Adobe Experience Cloud라고도 하며 DSP + Audience Manager 쿠키를 포함하는 Adobe CX Enterprise의 기존 이름)의 해시된 이메일 주소에 의존하는 모든 행동 타깃팅을 옵트아웃할 수 있습니다. 이전에는 DSP에서 쿠키 기반 옵트아웃만 지원했습니다.<br><br>최종 사용자가 동작 타깃팅을 거부하면 DSP에서 최종 사용자의 쿠키, 모바일 ID 또는 해시된 이메일 주소(DSP에서 [!DNL Unified ID 2.0 (UID2.0)] ID 또는 [!DNL LiveRamp] [!DNL RampID]과(와) 연결할 수 있음)를 캡처합니다. 그런 다음 DSP은 최종 사용자가 5년 동안 지속되는 옵트아웃 쿠키를 유지하는 한 해당 최종 사용자에 대한 광고 노출에 대한 행동 타깃팅을 제외합니다.<br><br>최종 사용자는 다음 중 하나를 선택할 수 있습니다. a\) 브라우저에서 [https://optout.aboutads.info](https://optout.aboutads.info)의 광고를 옵트아웃하거나 b\) 브라우저, 앱에서 광고를 옵트아웃하거나 [https://youradchoices.com/control](https://youradchoices.com/control)의 토큰 식별자를 사용합니다.<br><br>광고주에게는 작업이 필요하지 않습니다. | &quot;[Adobe 개인정보 처리방침](https://www.adobe.com/privacy/policy.html)&quot;을(를) 참조하십시오. |
+| 2025년 3월 10일 릴리스 | 개인 정보 보호 | Digital Advertising Alliance(DAA)와의 [!DNL Adobe's] 파트너십을 통해 최종 사용자는 이제 &quot;Adobe Marketing Cloud - Advertising 서비스&quot;(이전에 Adobe Experience Cloud라고도 하며 DSP + Audience Manager 쿠키를 포함하는 Adobe CX Enterprise의 이전 이름)의 해시된 이메일 주소에 의존하는 모든 행동 타깃팅을 옵트아웃할 수 있습니다. 이전에는 DSP에서 쿠키 기반 옵트아웃만 지원했습니다.<br><br>최종 사용자가 동작 타깃팅을 거부하면 DSP에서 최종 사용자의 쿠키, 모바일 ID 또는 해시된 이메일 주소(DSP에서 [!DNL Unified ID 2.0 (UID2.0)] ID 또는 [!DNL LiveRamp] [!DNL RampID]과(와) 연결할 수 있음)를 캡처합니다. 그런 다음 DSP은 최종 사용자가 5년 동안 지속되는 옵트아웃 쿠키를 유지하는 한 해당 최종 사용자에 대한 광고 노출에 대한 행동 타깃팅을 제외합니다.<br><br>최종 사용자는 다음 중 하나를 선택할 수 있습니다. a\) 브라우저에서 [https://optout.aboutads.info](https://optout.aboutads.info)의 광고를 옵트아웃하거나 b\) 브라우저, 앱에서 광고를 옵트아웃하거나 [https://youradchoices.com/control](https://youradchoices.com/control)의 토큰 식별자를 사용합니다.<br><br>광고주에게는 작업이 필요하지 않습니다. | &quot;[Adobe 개인정보 처리방침](https://www.adobe.com/privacy/policy.html)&quot;을(를) 참조하십시오. |
 |  | 대상 타기팅 | DSP은 연결된 TV ID 및 모바일 광고 ID를 해시된 해당 IP 주소 및 쿠키 ID에 매핑하여 디지털 접점 전반에 걸쳐 보다 효과적인 성능 타기팅을 제공하도록 개선했습니다. | — |
 | 2025년 2월 3일 | [!UICONTROL Packages] | [!UICONTROL Highest Return on Ad Spend] 및 [!UICONTROL Lowest Cost per Acquisition] 최적화 목표가 있는 패키지의 경우 이제 [!UICONTROL Conversion Metric] 설정이 필요합니다. 이전에는 선택 사항입니다.<br><br> [!UICONTROL Conversion Metric]은(는) 광고 지출 수익률 또는 획득당 비용을 계산하는 데 사용할 최종 전환 이벤트(예: 등록) 또는 매출 이벤트/판매 금액(예: 구매 및 구매 값)입니다. | &quot;[패키지 설정](/help/dsp/campaign-management/packages/package-settings.md)&quot;을(를) 참조하십시오. |
 | 2024년 12월 12일 | [!UICONTROL Placements], 브랜드 안전 | 이제 배치 수준에서 [!DNL DoubleVerify Authentic Brand Suitability]개 세그먼트 ID를 타깃팅할 수 있습니다. 이전에는 광고주 수준에서만 타깃팅할 수 있었습니다.<br><br>기본적으로 광고주 계정 설정에 세그먼트 ID가 지정되어 있으면 광고주 수준 ID가 배치 설정에 입력되지만 다른 세그먼트를 사용하도록 ID를 변경하거나 해당 ID를 삭제하여 기능을 비활성화할 수 있습니다.<br><br>광고주 수준 설정에서 기능을 사용할 수 있는 옵션이 제거되었습니다. 이제 세그먼트 ID를 지정하면 기능을 사용할 수 있습니다. 기존 광고주 중 하나에 대해 기능이 비활성화된 경우 세그먼트 ID 필드는 이제 비어 있습니다. 사용자 작업은 필요하지 않습니다. | &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)&quot;을(를) 참조하십시오. |

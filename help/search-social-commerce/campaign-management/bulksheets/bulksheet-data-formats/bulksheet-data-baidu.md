@@ -1,27 +1,33 @@
 ---
-title: ' [!DNL Baidu] 계정의 필수 일괄 시트 데이터'
-description: ' [!DNL Baidu] 계정의 일괄 시트에 있는 필수 머리글 필드 및 데이터 필드를 참조합니다.'
+title: '[!DNL Baidu] 계정의 필수 일괄 시트 데이터'
+description: '[!DNL Baidu] 계정의 일괄 시트에서 필수 헤더 필드와 데이터 필드를 참조합니다.'
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/-MST6KDJBF73Dcbi4zwIbqK9W8EiV7UvUMpGq2aYeGE
+TQID: 'https://experienceleague.adobe.com/-MST6KDJBF73Dcbi4zwIbqK9W8EiV7UvUMpGq2aYeGE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 subfeature_v2:
   - id: e58024d1-d6da-420c-80af-6be211808316
+    internal-label: Bulksheets
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a8176f810ef6ff35620526bb93e2520ecab74bd9
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1954
+source-wordcount: '1956'
 ht-degree: 0%
-
 ---
-
 # 부록 - [!DNL Baidu] 계정에 대한 필수 일괄 시트 데이터
 
 [!DNL Baidu] 캠페인 데이터를 일괄적으로 만들고 업데이트하려면 [!DNL Baidu] 계정용으로 특별히 형식이 지정된 검색, 소셜 및 Commerce 일괄 시트 파일을 사용할 수 있습니다. a) [기존 계정에 대한 일괄 시트 파일을 필요한 파일 형식으로 생성](../bulksheet-download.md)하거나, b) 수동으로 만들 수 있습니다(&quot;[지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)&quot;에서 지원되는 파일 형식에 대한 일반 정보를 참조하십시오).
@@ -79,5 +85,5 @@ ht-degree: 0%
 >* [일괄 시트에서 수행할 수 있는 작업](bulksheet-operations.md)
 >* [지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
 >* [일괄 시트 파일 또는 수정된 오류 파일 업로드](../bulksheet-upload.md)

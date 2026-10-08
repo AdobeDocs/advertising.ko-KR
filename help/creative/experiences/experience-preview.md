@@ -3,21 +3,29 @@ title: 경험 미리보기
 description: 광고 경험에서 크리에이티브를 미리 보는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-TQID: https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI
+TQID: 'https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: '552'
 ht-degree: 0%
-
 ---
-
 # 경험 미리보기
 
 모든 하이퍼링크를 포함하여 타겟 뷰어가 경험에 대해 보게 될 특정 광고 크기로 크리에이티브를 미리 볼 수 있습니다. 의사 결정 트리 타겟팅이 있는 경험의 경우 단일 크리에이티브, 특정 분기(타겟 유형)에 대한 크리에이티브 또는 경험의 모든 크리에이티브를 미리 볼 수 있습니다. 의사 결정 트리 타깃팅이 없는 경험의 경우 단일 크리에이티브를 미리 볼 수 있습니다. <!-- verify -->
@@ -26,11 +34,11 @@ ht-degree: 0%
 
 * 기준에 맞는 단일 크리에이티브 및 다중 크리에이티브를 미리 볼 때 미리 보기를 새로 고칠 때마다 보는 크리에이티브는 경험에 대한 광고 순환 설정을 기반으로 합니다.
 
-   * 알고리즘 광고 회전의 경우 최적화 목표를 기반으로 크리에이티브가 선택됩니다.
+  * 알고리즘 광고 회전의 경우 최적화 목표를 기반으로 크리에이티브가 선택됩니다.
 
-   * 예약된 광고 순환의 경우 예약의 첫 번째 크리에이티브가 표시됩니다. 시퀀스를 계속 진행하려면 미리보기를 계속 새로 고칠 수 있습니다.
+  * 예약된 광고 순환의 경우 예약의 첫 번째 크리에이티브가 표시됩니다. 시퀀스를 계속 진행하려면 미리보기를 계속 새로 고칠 수 있습니다.
 
-   * 가중 광고 회전의 경우, 매번 지정된 가중치(예: Creative A가 표시될 80% 확률 및 Creative B가 표시될 20% 확률)를 기반으로 크리에이티브가 선택됩니다.
+  * 가중 광고 회전의 경우, 매번 지정된 가중치(예: Creative A가 표시될 80% 확률 및 Creative B가 표시될 20% 확률)를 기반으로 크리에이티브가 선택됩니다.
 
 ## 의사 결정 트리 타겟팅을 사용하는 경험에서 크리에이티브 미리 보기
 
@@ -48,24 +56,24 @@ ht-degree: 0%
 
    * 단일 크리에이티브를 미리 보려면
 
-      1. **[!UICONTROL Creative]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Creative]**&#x200B;을(를) 클릭합니다.
 
-      1. 광고 크기를 선택합니다.
+     1. 광고 크기를 선택합니다.
 
-      1. [!UICONTROL Decision Tree Targeting] 섹션에서 크리에이티브 대상을 선택합니다.
+     1. [!UICONTROL Decision Tree Targeting] 섹션에서 크리에이티브 대상을 선택합니다.
 
    * 특정 분기에 대한 크리에이티브를 미리 보려면 다음과 같이 하십시오.
 
-      1. **[!UICONTROL Particular branch]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Particular branch]**&#x200B;을(를) 클릭합니다.
 
-      1. 광고 크기를 선택합니다.
+     1. 광고 크기를 선택합니다.
 
      <!--
       I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
-      1. 크리에이티브 대상을 선택합니다.
+     1. 크리에이티브 대상을 선택합니다.
 
    * 경험의 모든 크리에이티브를 미리 보려면 **[!UICONTROL Entire Tree]**&#x200B;을(를) 클릭합니다.
 

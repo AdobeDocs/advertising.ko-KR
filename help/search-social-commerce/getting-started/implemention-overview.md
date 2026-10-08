@@ -3,23 +3,30 @@ title: Search, Social 및 Commerce 구현 개요
 description: 포트폴리오를 시작하고 유지 관리하는 일반적인 워크플로우에 대해 알아봅니다.
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY
+TQID: 'https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 0%
-
 ---
-
 # Search, Social 및 Commerce 구현 개요
 
 [!DNL Adobe] 또는 제휴 에이전시 중 하나가 각 광고주와 협력하여 온라인 광고 포트폴리오를 시작하고 추가 광고 캠페인을 추적합니다. 처음 시작 후 진행 중인 추가 작업을 통해 광고주의 목표를 계속 달성할 수 있습니다.
@@ -106,16 +113,16 @@ ht-degree: 0%
 
 * 포트폴리오의 실제 및 예상 성과와 성장 기회를 기반으로 포트폴리오 세트를 관리하는 데 사용하는 다양한 전략과 설정을 필요에 따라 조정합니다.
 
-   * 포트폴리오 예산, 목표 및 기타 설정을 조정합니다.
+  * 포트폴리오 예산, 목표 및 기타 설정을 조정합니다.
 
-   * 마케팅 전략의 변경 사항에 맞게 계정/캠페인 구조를 조정합니다.
+  * 마케팅 전략의 변경 사항에 맞게 계정/캠페인 구조를 조정합니다.
 
-   * 캠페인 구성 요소를 추가/일시 중지/삭제합니다. 여기에는 검색어 분석을 기반으로 키워드 세트를 확장하고 광고 사본 및 랜딩 페이지를 테스트하는 작업이 포함될 수 있습니다.
+  * 캠페인 구성 요소를 추가/일시 중지/삭제합니다. 여기에는 검색어 분석을 기반으로 키워드 세트를 확장하고 광고 사본 및 랜딩 페이지를 테스트하는 작업이 포함될 수 있습니다.
 
-   * 고급 성능 보고서를 기반으로 지리적 및 사이트 타겟팅 전략을 업데이트합니다.
+  * 고급 성능 보고서를 기반으로 지리적 및 사이트 타겟팅 전략을 업데이트합니다.
 
-   * (선택 사항) 개별 검색 키워드나 광고 그룹, 캠페인 또는 포트폴리오의 모든 키워드에 입찰 제한을 추가합니다.
+  * (선택 사항) 개별 검색 키워드나 광고 그룹, 캠페인 또는 포트폴리오의 모든 키워드에 입찰 제한을 추가합니다.
 
-   * 새 포트폴리오를 추가합니다.
+  * 새 포트폴리오를 추가합니다.
 
 포트폴리오 모니터링 및 포트폴리오 전략 조정에 대한 지침은 Search, Social 및 Commerce 내 모든 페이지의 오른쪽 상단에 있는 [!UICONTROL Help] 메뉴(![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴"))에서 사용할 수 있는 도움말 섹션 &quot;최적화&quot; > &quot;포트폴리오 관리&quot; > &quot;성능 모니터링 및 관리&quot;를 참조하십시오.

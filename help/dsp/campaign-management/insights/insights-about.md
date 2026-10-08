@@ -3,26 +3,37 @@ title: 인사이트 정보
 description: 시각화를 통한 성능 통찰력에 대해 알아봅니다.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
+TQID: 'https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1369
+source-wordcount: '1384'
 ht-degree: 0%
-
 ---
-
 # 인사이트 정보
 
 시각화를 통한 높은 수준의 성능 통찰력은 캠페인을 효율적으로 최적화하고 성과를 확장할 수 있는 새로운 기회를 발견하는 데 필요한 정보를 제공합니다. 지정된 광고주의 캠페인 간에 데이터를 보거나 더 낮은 수준으로 드릴다운할 수 있습니다.
@@ -69,9 +80,9 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 
   영향 수준은 다음과 같습니다.
 
-   * **높은 영향:** 예산을 늘리는 것이 좋습니다.
-   * **영향 중재**
-   * **제한된 영향:**&#x200B;에 주의가 필요합니다.
+  * **높은 영향:** 예산을 늘리는 것이 좋습니다.
+  * **영향 중재**
+  * **제한된 영향:**&#x200B;에 주의가 필요합니다.
 
 ### [!UICONTROL Household Conversion] 탭
 
@@ -91,9 +102,9 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 
   영향 수준은 다음과 같습니다.
 
-   * **높은 영향:** 예산을 늘리는 것이 좋습니다.
-   * **영향 중재**
-   * **제한된 영향:**&#x200B;에 주의가 필요합니다.
+  * **높은 영향:** 예산을 늘리는 것이 좋습니다.
+  * **영향 중재**
+  * **제한된 영향:**&#x200B;에 주의가 필요합니다.
 
 ### [!UICONTROL Audience Analysis] 탭
 
@@ -109,15 +120,15 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 
 * **[!UICONTROL Audience Funnel Analysis]:** 모든 타기팅 및 자격 필터가 적용된 후 대상 대상이 사용 가능한 총 풀에서 실제 노출 승리로 축소되는 방식을 보여 주는 일별 시계열 테이블입니다. 전날의 데이터가 표시됩니다. funnel에는 가장 넓은 범위에서 가장 좁은 순서로 다음 지표가 포함되어 있습니다.
 
-   * **[!UICONTROL Total Target Audience]:** 집계된 대상의 총 고유 사용자 수입니다.
+  * **[!UICONTROL Total Target Audience]:** 집계된 대상의 총 고유 사용자 수입니다.
 
-   * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** 이전 24시간 동안 입찰 스트림에서 활성 상태인 대상 대상의 사용자 수입니다. 이 카운트에는 배치 입찰의 유무에 관계없이 범위에 있는 모든 사용자가 포함됩니다. [!UICONTROL Total Target Audience]에서 [!UICONTROL Reachable Audience]&#x200B;(으)로 감소하면 보고 기간 동안 입찰 스트림에서 활성화되지 않은 대상 부분을 반영하며 입찰 성과가 반영되지 않습니다.
+  * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** 이전 24시간 동안 입찰 스트림에서 활성 상태인 대상 대상의 사용자 수입니다. 이 카운트에는 배치 입찰의 유무에 관계없이 범위에 있는 모든 사용자가 포함됩니다. [!UICONTROL Total Target Audience]에서 [!UICONTROL Reachable Audience]&#x200B;(으)로 감소하면 보고 기간 동안 입찰 스트림에서 활성화되지 않은 대상 부분을 반영하며 입찰 성과가 반영되지 않습니다.
 
-   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** 지역, 장치 유형, 운영 체제 및 브라우저 필터가 적용된 후 남아 있는 연결 가능한 사용자의 하위 집합입니다. 이 숫자가 [!UICONTROL Reachable Audience]보다 상당히 낮은 경우 지역 또는 장치 유형 타깃팅이 너무 제한적인지 검토해 보십시오.
+  * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** 지역, 장치 유형, 운영 체제 및 브라우저 필터가 적용된 후 남아 있는 연결 가능한 사용자의 하위 집합입니다. 이 숫자가 [!UICONTROL Reachable Audience]보다 상당히 낮은 경우 지역 또는 장치 유형 타깃팅이 너무 제한적인지 검토해 보십시오.
 
   **[!UICONTROL Devices/Ad Opportunities Bid On]:** 배치에서 입찰을 제출한 적격 기회의 수. 이 단계에서의 급격한 하락은 입찰 거래량을 제한하는 예산 또는 게재 간격 제한을 나타낼 수 있다.
 
-   * **[!UICONTROL Impression Wins]:** 배치로 인해 노출이 발생한 기회 수입니다. 낙찰이 입찰보다 훨씬 낮은 경우 입찰 가격은 대상 재고에 대한 일반 시장 비율 미만일 수 있습니다.
+  * **[!UICONTROL Impression Wins]:** 배치로 인해 노출이 발생한 기회 수입니다. 낙찰이 입찰보다 훨씬 낮은 경우 입찰 가격은 대상 재고에 대한 일반 시장 비율 미만일 수 있습니다.
 
 ## 성능 인사이트 보기
 

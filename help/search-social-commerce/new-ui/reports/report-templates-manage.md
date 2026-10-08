@@ -2,7 +2,13 @@
 title: (새 UI) 보고서 템플릿 관리
 description: 예약 및 온디맨드 보고서에 대한 재사용 가능한 보고서 템플릿을 만들고, 보고, 편집하고, 삭제하는 방법을 알아봅니다.
 feature: Search Reports
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%

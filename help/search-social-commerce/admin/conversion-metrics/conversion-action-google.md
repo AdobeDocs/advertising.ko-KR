@@ -1,22 +1,29 @@
 ---
-title: ' [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기'
-description: 잠재 고객에 대한 향상된 전환을 위해  [!DNL Google Ads] 전환 작업을 만드는 방법을 알아봅니다.
+title: '[!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기'
+description: 잠재 고객에 대한 향상된 전환을 위해 [!DNL Google Ads] 전환 작업을 만드는 방법을 알아봅니다.
 feature: Conversions
 exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
-TQID: https://experienceleague.adobe.com/KqFHgxjc-4snyo3nf-3-ry6nsyapMPcwKEWvgi-pxGc
+TQID: 'https://experienceleague.adobe.com/KqFHgxjc-4snyo3nf-3-ry6nsyapMPcwKEWvgi-pxGc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: '879'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] 향상된 잠재 고객 전환에 대한 전환 작업 만들기
 
 *[!DNL Google Ads]개의 계정만*

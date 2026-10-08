@@ -3,20 +3,26 @@ title: '[!UICONTROL Product Group Report]'
 description: '[!UICONTROL Product Group Report]에 대해 알아봅니다.'
 exl-id: 4e310d06-11fe-4c5a-b9a3-59ee099aeaef
 feature: Search Reports, Search Basic Reports
-TQID: https://experienceleague.adobe.com/Pk3puoDCNlh0ohYjMuDdMY7Q4cEL7lpZ9aBrzJQSoMA
+TQID: 'https://experienceleague.adobe.com/Pk3puoDCNlh0ohYjMuDdMY7Q4cEL7lpZ9aBrzJQSoMA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 150
+source-wordcount: '152'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Product Group Report]
 
 [!UICONTROL Product Group Report]에는 계정, 캠페인 또는 광고 그룹 간에 집계된 제품 그룹별 비용, 클릭 및 (선택적으로) 전환 데이터가 포함됩니다. 선택적으로 레이블을 기준으로 데이터를 필터링할 수 있습니다. 기본적으로 데이터에는 지정된 날짜 범위의 각 시간 단위에 대해 노출 횟수를 수신한 제품 목록 광고에 대해 적용 가능한 각 제품 대상에 대한 행이 하나씩 포함됩니다. 행은 시간 단위에 대한 시작 날짜부터 오름차순으로 정렬되고 기본적으로 제품 대상별로 정렬됩니다.

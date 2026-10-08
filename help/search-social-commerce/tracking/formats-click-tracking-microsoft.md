@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL Microsoft Advertising]에 대한 클릭 추적 형식'
-description: ' [!DNL Microsoft Advertising] 계정의 클릭 추적 형식에 대해 알아봅니다.'
+title: '[!DNL Microsoft Advertising]에 대한 클릭 추적 형식'
+description: '[!DNL Microsoft Advertising] 계정의 클릭 추적 형식에 대해 알아봅니다.'
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE
+TQID: 'https://experienceleague.adobe.com/lqhCk4KG68-Rcyku4buSB1xeVhjNEP6QYOl85yJgmtE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f3cafbaa91871505a9999402e0979fd4944e835a
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 579
+source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising]에 대한 클릭 추적 형식
 
 다음은 Search, Social 및 Commerce에서 [!DNL Microsoft Advertising]에 필요한 기본 추적 템플릿과 랜딩 페이지 접미사(최종 URL 접미사) 형식입니다.
@@ -37,7 +41,7 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`은(는) Adobe Advertising 내의 광고주 고유 ID에 대한 변수입니다.
 >
->* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `cq?` 뒤의 `<advertiser_ID>`을(를) `c?`(으)로 바꾸십시오.
+>* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `<advertiser_ID>` 뒤의 `cq?`을(를) `c?`(으)로 바꾸십시오.
 >
 >* `{TargetId}`은(는) a) 키워드 또는 b) 광고를 트리거한 키워드 및 리마케팅 목록(대상)의 ID를 나타냅니다(예: 키워드 및 리마케팅 목록 모두에 대해 &quot;kwd-123:aud-456&quot; 또는 키워드에만 대해 &quot;kwd-123&quot;).
 
@@ -53,13 +57,13 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`은(는) Adobe Advertising 내의 광고주 고유 ID에 대한 변수입니다.
 >
->* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `cq?` 뒤의 `<advertiser_ID>`을(를) `c?`(으)로 바꾸십시오.
+>* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `<advertiser_ID>` 뒤의 `cq?`을(를) `c?`(으)로 바꾸십시오.
 >
 >* `{TargetId}`은(는) a) 키워드 또는 b) 광고를 트리거한 키워드 및 리마케팅 목록(대상)의 ID를 나타냅니다(예: 키워드 및 리마케팅 목록 모두에 대해 &quot;kwd-123:aud-456&quot; 또는 키워드에만 대해 &quot;kwd-123&quot;).
 >
 >* `{adextensionid}`은(는) 사용되지 않습니다.
 >
->* (사이트 링크) [!UICONTROL Transaction Report]을(를) 생성하여 사이트 링크를 클릭했을 때 발생한 전환을 확인할 수 있습니다. 사이트 링크의 [!UICONTROL Link Type] 열 값은 `sl:<Sitelink text>`과(와) 같이 `sl:See Current Offers`입니다.
+>* (사이트 링크) [!UICONTROL Transaction Report]을(를) 생성하여 사이트 링크를 클릭했을 때 발생한 전환을 확인할 수 있습니다. 사이트 링크의 [!UICONTROL Link Type] 열 값은 `sl:See Current Offers`과(와) 같이 `sl:<Sitelink text>`입니다.
 
 ### 쇼핑 네트워크
 
@@ -75,11 +79,11 @@ ht-degree: 0%
 >
 >* `<advertiser_ID>`은(는) Adobe Advertising 내의 광고주 고유 ID에 대한 변수입니다.
 >
->* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `cq?` 뒤의 `<advertiser_ID>`을(를) `c?`(으)로 바꾸십시오.
+>* 이 형식은 캠페인에 대해 토큰 전달이 활성화되었음을 나타냅니다(기본값). 토큰 전달이 비활성화된 경우 `<advertiser_ID>` 뒤의 `cq?`을(를) `c?`(으)로 바꾸십시오.
 >
 >* `{TargetId}`은(는) a) 키워드 또는 b) 광고를 트리거한 키워드 및 리마케팅 목록(대상)의 ID를 나타냅니다(예: 키워드 및 리마케팅 목록 모두에 대해 &quot;kwd-123:aud-456&quot; 또는 키워드에만 대해 &quot;kwd-123&quot;).
 >
->* (선택 사항) 계정, 캠페인, 광고 그룹 또는 제품 그룹 수준에서 추적 템플릿을 입력하는 대신 [!DNL Microsoft Merchant Center] 계정 내에서 제품 데이터에 추적 URL을 추가할 수 있습니다. 이렇게 하려면 제품 피드 내의 사용자 지정 열 &quot;`link`bingads_redirect`mobile_link`&quot;에 추적 URL과 &quot;[&quot; 또는 &quot;](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; 필드의 값을 적절하게 포함하십시오. &quot;`bingads_redirect`&quot; 필드의 값은 &quot;`link`&quot; 및 &quot;`mobile_link`&quot; 필드의 값을 대체합니다. 이 방법을 사용하여 생성된 URL에는 검색, 소셜 및 Commerce 계정 또는 캠페인 설정에 지정된 추적 매개 변수가 포함되지 않습니다.
+>* (선택 사항) 계정, 캠페인, 광고 그룹 또는 제품 그룹 수준에서 추적 템플릿을 입력하는 대신 [!DNL Microsoft Merchant Center] 계정 내에서 제품 데이터에 추적 URL을 추가할 수 있습니다. 이렇게 하려면 제품 피드 내의 사용자 지정 열 &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot;에 추적 URL과 &quot;`link`&quot; 또는 &quot;`mobile_link`&quot; 필드의 값을 적절하게 포함하십시오. &quot;`bingads_redirect`&quot; 필드의 값은 &quot;`link`&quot; 및 &quot;`mobile_link`&quot; 필드의 값을 대체합니다. 이 방법을 사용하여 생성된 URL에는 검색, 소셜 및 Commerce 계정 또는 캠페인 설정에 지정된 추적 매개 변수가 포함되지 않습니다.
 
 ## 랜딩 페이지 접미사(최종 URL 접미사) 형식
 
@@ -89,7 +93,7 @@ ht-degree: 0%
 
 ### 검색 및 대상 네트워크
 
-Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 네트워크의 클릭 식별자(`msclkid`의 경우 [!DNL Microsoft Advertising])를 포함해야 합니다.
+Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 네트워크의 클릭 식별자([!DNL Microsoft Advertising]의 경우 `msclkid`)를 포함해야 합니다.
 
 * 광고주가 Adobe Analytics 통합을 사용하는 경우 접미사에 다음을 포함해야 합니다.
 
@@ -101,7 +105,7 @@ Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 �
 
 ### 쇼핑 네트워크
 
-Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 네트워크의 클릭 식별자(`msclkid`의 경우 [!DNL Microsoft Advertising])를 포함해야 합니다.
+Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 네트워크의 클릭 식별자([!DNL Microsoft Advertising]의 경우 `msclkid`)를 포함해야 합니다.
 
 * 광고주가 Adobe Analytics 통합을 사용하는 경우 접미사에 다음을 포함해야 합니다.
 

@@ -6,19 +6,23 @@ exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9c0e1d04187ee5f80d4b5899ab36833f202b16a
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1082
+source-wordcount: '1082'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 검색, 소셜 및 상거래에 대한 사용자 관리
 
 일부 사용자는 모든 Adobe 권한 및 사용자 관리를 관리하는 중앙 위치인 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을(를) 사용하여 새 검색, 소셜 및 Commerce 사용자 인터페이스에 대한 액세스를 관리할 수 있습니다. 사용자는 최종 사용자 또는 관리자로 분류됩니다. 관리자인 경우 Adobe 계정 팀에 알림이 표시됩니다. 관리자는 다음 섹션을 참조하여 사용자 관리를 위한 권한 및 워크플로를 식별합니다.
@@ -143,13 +147,13 @@ Noone has permissions as of 6/1; spelling [sic]:
 
 1. https://adminconsole.adobe.com/enterprise/으로 이동합니다.
 
-1. (CX Enterprise에 로그인하지 않은 경우) CX Enterprise에 로그인:
+1. (CX Enterprise에 로그인하지 않은 경우) CX Enterprise에 로그인합니다.
 
    1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
    1. **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> 중 하나를 선택하십시오.
 
-   1. 해당 CX 엔터프라이즈 조직을 선택합니다.
+   1. 해당 CX Enterprise 조직을 선택합니다.
 
       Admin Console에서 [!UICONTROL Overview] 탭이 열립니다.
 

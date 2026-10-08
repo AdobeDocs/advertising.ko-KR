@@ -3,22 +3,28 @@ title: 지원되는 인벤토리
 description: 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형을 참조하십시오.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/l2PmtgKVgNVGjWsbJqfxbTdh9P8qo2wIxjjcDQeYcMQ
+TQID: 'https://experienceleague.adobe.com/l2PmtgKVgNVGjWsbJqfxbTdh9P8qo2wIxjjcDQeYcMQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c0c71a175245b4f9096ca85eb33326daca12f904
+    internal-label: Insights
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
-source-wordcount: 2829
+source-wordcount: '2855'
 ht-degree: 0%
-
 ---
-
 # 지원되는 인벤토리
 
 다음은 지원되는 광고 네트워크, 캠페인 유형 및 광고 유형과 각 광고 유형에 사용할 수 있는 기능입니다.
@@ -30,6 +36,7 @@ ht-degree: 0%
 | Source | 네트워크 | 캠페인 유형 | 광고 유형 | 동기화 및 보기 | 만들기/편집 | 트랙[^1] | [^2] 최적화 | 보고서 | Adobe Analytics 지원[^3] |
 |----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu]: *검색, 소셜 및 Commerce의 기존 계정만 지원* | 네트워크 검색 | 수동 | 텍스트 광고 | API를 통한 자동 동기화 | [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) 및 [일괄 시트](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)를 사용하여 만들기/편집 | 예 | 수동 CPC 입찰 전략만 있는 캠페인 | 광고 수준 데이터 | [!DNL Analytics] 검색, 소셜 및 Commerce 데이터<br><br>검색, 소셜 및 Commerce에서 [!DNL Analytics]&#x200B;(으)로 광고 수준 데이터 |
+| [!DNL ChatGPT Ads] | ChatGPT | 표준 | 채팅 카드 | API를 통한 자동 동기화 | [캠페인 관리 보기](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md)를 사용하여 만들기/편집 | — | — | 캠페인 관리 보기 내의 광고 수준 데이터(노출수, 클릭수 및 비용만 해당) | — |
 | [!DNL Google Ads] | 모든 [!DNL Google]개 피드 | 수요 창출 | 일반 광고(다중 이미지 광고)<br><br>일반 광고 광고<br><br>일반 광고<br><br>일반 광고 광고 | API를 통한 자동 동기화 | 만들기/편집 옵션 없음 | 예 | 회전판 및 이미지 광고만 해당. 하이브리드 포트폴리오<br><br>입찰 및 입찰 전략 목표만 최적화 유형에 적용 가능한 대로 캠페인 예산과 함께 캠페인 수준에서 설정됩니다. | 광고 수준 데이터 | 검색, 소셜 및 Commerce에 대한 광고 수준 데이터 [업그레이드된 AMO ID 추적 코드를 사용](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items) [^4]<br><br>검색, 소셜 및 Commerce에서 [!DNL Analytics]&#x200B;(으)로 광고 수준 데이터 |
 | [!DNL Google Ads] | 모든 네트워크 | 최대 표준 성능 | 모든 광고 유형 | API를 통한 자동 동기화 | [!UICONTROL Campaigns] > [!UICONTROL Campaigns]<br><br>의 캠페인 설정 내에서 캠페인을 만들기/편집하고 광고 자산을 업로드하십시오. 필요한 설정만 사용할 수 있습니다. 옵션 설정 및 목록 그룹을 보려면 [!DNL [!DNL Google Ads] Ads] 편집기에 로그인합니다. | 예 | 하이브리드 포트폴리오에서는 <br><br>입찰 전략 목표만 캠페인 예산과 함께 캠페인 수준에서 설정됩니다. | 캠페인 수준 데이터<br><br>목록 그룹에 대한 데이터를 사용할 수 없으며 광고 네트워크에서 광고 수준 데이터를 제공하지 않습니다. | [!DNL Analytics] 검색, 소셜 및 Commerce 데이터<br><br>검색, 소셜 및 Commerce에서 Analytics로의 캠페인 수준 데이터. 업그레이드된 [AMO ID 추적 코드](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items)가 필요합니다. |
 | [!DNL Google Ads] | 검색, [!DNL Google Play], [!DNL YouTube], [!DNL Discover on Google Search] 및 [!DNL Google Display Network] | 앱 캠페인, 참여를 위한 앱 캠페인 및 사전 등록을 위한 앱 캠페인 | 앱 광고, 앱 참여 광고 및 앱 사전 등록 광고 | API를 통한 자동 동기화 | — | 예. 광고 네트워크 내에서 추적 템플릿에 클릭 추적 태그를 수동으로 추가하는 경우 | — | 광고 수준 데이터 | 검색, 소셜 및 Commerce에 대한 [!DNL Analytics]의 광고 수준 데이터<br><br> 광고 수준 표준 지표(앱 설치 광고에 대해 Google 광고가 추적된 전환은 아님)에서 검색, 소셜 및 Commerce에서 Analytics로. |

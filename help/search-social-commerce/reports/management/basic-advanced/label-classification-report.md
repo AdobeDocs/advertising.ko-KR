@@ -3,21 +3,28 @@ title: '[!UICONTROL Label Classification Report]'
 description: '[!UICONTROL Label Classification Report]에 대해 알아봅니다.'
 exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-TQID: https://experienceleague.adobe.com/75t5C8Cz-EE5vsPYYXHWHSE-6ZDhwSQaEgtAdirYHQU
+TQID: 'https://experienceleague.adobe.com/75t5C8Cz-EE5vsPYYXHWHSE-6ZDhwSQaEgtAdirYHQU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 227
+source-wordcount: '231'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Label Classification Report]
 
 [!UICONTROL Label Classification Report]에는 광고 네트워크, 계정, 캠페인 또는 광고 그룹 간에 집계된 키워드 수준 또는 광고 수준 레이블 분류별 비용, 클릭 및 (선택적으로) 전환 데이터가 포함됩니다. 기본적으로 데이터에는 지정된 날짜 범위의 각 시간 단위에 대해 노출을 받은 키워드, 광고 및 배치에 대한 적용 가능한 각 키워드 수준 레이블 분류에 대해 한 개의 행이 포함됩니다. 행은 기본적으로 시간 단위에 대한 시작 날짜부터 오름차순으로 정렬되고 레이블 분류별로 정렬된 다음 레이블 값별로 정렬됩니다.

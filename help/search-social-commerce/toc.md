@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2404'
 ht-degree: 2%
 ---
 # Advertising Search, Social 및 Commerce 안내서 {#search-social-commerce}
@@ -104,6 +104,7 @@ ht-degree: 2%
       + [&#x200B; [!DNL Microsoft Advertising]의  [!DNL Google Ads] 캠페인 복제](/help/search-social-commerce/new-ui/manage/campaigns/google-campaign-replication-in-microsoft.md)
       + 광고 네트워크별 캠페인 설정 {#campaign-settings-by-network}
         + [[!DNL Baidu] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+        + [[!DNL ChatGPT Ads] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)
         + [[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
         + [[!DNL LY Ads] 캠페인 설정](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
         + [[!DNL Microsoft Advertising] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
@@ -112,6 +113,7 @@ ht-degree: 2%
       + [광고 그룹 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)
       + 광고 네트워크별 광고 그룹 설정 {#ad-group-settings-by-network}
         + [[!DNL Baidu] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
+        + [[!DNL ChatGPT Ads] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)
         + [[!DNL Google Ads] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
         + [[!DNL LY Ads] 광고 그룹 설정](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
         + [[!DNL Microsoft Advertising] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
@@ -120,6 +122,7 @@ ht-degree: 2%
       + [광고 관리](/help/search-social-commerce/new-ui/manage/ads/ad-manage.md)
       + 광고 네트워크별 광고 설정 {#ad-settings-by-network}
         + [[!DNL Baidu] 텍스트 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
+        + [[!DNL ChatGPT Ads] 채팅 카드 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)
         + [[!DNL Google Ads] 확장된 동적 검색 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
         + [[!DNL Google Ads] 반응형 검색 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
         + [[!DNL Microsoft Advertising] 확장된 동적 검색 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)

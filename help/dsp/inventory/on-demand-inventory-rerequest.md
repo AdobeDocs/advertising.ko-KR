@@ -1,24 +1,28 @@
 ---
-title: ' [!DNL On Demand] 프리미엄 인벤토리 거래 재요청'
-description: 이전에 거부된  [!DNL On Demand] 거래를 다시 요청하는 방법에 대해 알아봅니다.
+title: '[!DNL On Demand] 프리미엄 인벤토리 거래 다시 요청'
+description: 이전에 거부된 [!DNL On Demand] 거래를 다시 요청하는 방법을 알아봅니다.
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
-TQID: https://experienceleague.adobe.com/trhZ41T-0-Qo3ye-HKCn99kvyGqtOnVG9bnCshaamjU
+TQID: 'https://experienceleague.adobe.com/trhZ41T-0-Qo3ye-HKCn99kvyGqtOnVG9bnCshaamjU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 351
+source-wordcount: '355'
 ht-degree: 0%
-
 ---
-
 # [!DNL On Demand] 프리미엄 인벤토리 거래 다시 요청
 
 *계정 유형이 [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] 및 [!UICONTROL Other]인 사용자, 범주가 [!UICONTROL Other]인 광고주 및 리셀러*&#x200B;는 사용할 수 없습니다.
@@ -47,17 +51,17 @@ ht-degree: 0%
 
    1. 요청한 거래를 포함하도록 사용 가능한 거래를 필터링합니다(**[!UICONTROL Currently subscribed to]**)**.
 
-   1. (선택 사항) 필요에 따라 [!UICONTROL Subscription] 및 [!UICONTROL Deal]을(를) 클릭하여 필터를 기반으로 모든 게시자의 로고를 표시하는 **[!UICONTROL Subscription view]** 보기와 필터를 기반으로 각 게시자의 모든 거래를 나열하는 **[!UICONTROL Deal view]** 보기 사이를 전환합니다.
+   1. (선택 사항) 필요에 따라 **[!UICONTROL Subscription view]** 및 **[!UICONTROL Deal view]**&#x200B;을(를) 클릭하여 필터를 기반으로 모든 게시자의 로고를 표시하는 [!UICONTROL Subscription] 보기와 필터를 기반으로 각 게시자의 모든 거래를 나열하는 [!UICONTROL Deal] 보기 사이를 전환합니다.
 
    1. 개별 거래 재요청:
 
-   * [!UICONTROL Deal] 보기에서 관련 행의 **[!UICONTROL Rerequest]** 열에 있는 [!UICONTROL Action]을(를) 클릭합니다.
+   * [!UICONTROL Deal] 보기에서 관련 행의 [!UICONTROL Action] 열에 있는 **[!UICONTROL Rerequest]**&#x200B;을(를) 클릭합니다.
 
    * [!UICONTROL Subscription] 보기에서:
 
-      1. 게시자 로고 위에 커서를 놓고 **[!UICONTROL See Deals]**&#x200B;을(를) 클릭합니다.
+     1. 게시자 로고 위에 커서를 놓고 **[!UICONTROL See Deals]**&#x200B;을(를) 클릭합니다.
 
-      1. 관련 행의 **[!UICONTROL Rerequest]** 열에서 [!UICONTROL Action]을(를) 클릭합니다.
+     1. 관련 행의 [!UICONTROL Action] 열에서 **[!UICONTROL Rerequest]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >

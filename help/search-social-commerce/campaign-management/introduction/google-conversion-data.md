@@ -1,24 +1,35 @@
 ---
 title: '[!DNL Google Ads] 전환 데이터'
-description: 검색, 소셜 및 Commerce에서 사용할 수 있는  [!DNL Google Ads] 추적 전환 데이터 유형에 대해 알아봅니다.
+description: 검색, 소셜 및 Commerce에서 사용할 수 있는 [!DNL Google Ads] 추적 전환 데이터 유형에 대해 알아봅니다.
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-TQID: https://experienceleague.adobe.com/7qqQKfVhueHMc7hJDEac86la9dp36hwtrLF5ikxJzJM
+TQID: 'https://experienceleague.adobe.com/7qqQKfVhueHMc7hJDEac86la9dp36hwtrLF5ikxJzJM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 661
+source-wordcount: '671'
 ht-degree: 0%
-
 ---
-
 # 검색, 소셜 및 Commerce의 [!DNL Google Ads] 전환 데이터
 
 Search, Social 및 Commerce은 보고와 최적화를 위해 [!DNL Google Ads] 검색 및 쇼핑 네트워크의 모든 캠페인에 대한 [!DNL Google Ads] 추적 전환 데이터를 Search, Social 및 Commerce에 자동으로 동기화합니다.
@@ -51,7 +62,7 @@ Search, Social 및 Commerce은 보고와 최적화를 위해 [!DNL Google Ads] �
 
 >[!NOTE]
 >
->* 전환 이름이 동일한 계정이 여러 개 있는 경우 Adobe Advertising에 중복 전환 이름이 표시될 수 있습니다. 이 경우 [&#x200B; > &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)에서 중복 지표 중 하나에 대한 [!UICONTROL Admin]표시 이름을 변경[!UICONTROL Conversions]합니다. 두 개의 서로 다른 지표에 동일한 이름이 있을 때는 보고가 정확하지 않습니다.
+>* 전환 이름이 동일한 계정이 여러 개 있는 경우 Adobe Advertising에 중복 전환 이름이 표시될 수 있습니다. 이 경우 [!UICONTROL Admin] > [!UICONTROL Conversions]에서 중복 지표 중 하나에 대한 [표시 이름을 변경](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)합니다. 두 개의 서로 다른 지표에 동일한 이름이 있을 때는 보고가 정확하지 않습니다.
 >* 입찰 단위 수준의 데이터가 동일한 수준의 [!DNL Google Ads]의 데이터와 일치합니다. 그러나 상위 수준에 대한 [!DNL Google Ads]의 자체 전환 데이터에는 하위 입찰 단위에 귀속되지 않는 추가 전환이 포함될 수 있습니다. 검색, 소셜 및 Commerce의 데이터는 항상 입찰 단위 수준에서 롤업되므로, 예를 들어 캠페인 수준 보고서의 합계는 Google 광고의 캠페인 수준 보고서와 동일하지 않을 수 있습니다.
 >* 데이터 분산은 일반적으로 추가 전환이 아직 동기화되지 않은 날의 후반보다 오전 동기화 후에 더 적습니다. 오전에 데이터의 유효성을 검사하는 것이 좋습니다.
 >* [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App] 및 [!DNL YouTube] 광고에 전환 데이터를 사용할 수 없습니다. [!DNL Google Ads]의 데이터와 검색, 소셜 및 Commerce의 데이터를 비교할 때 이러한 유형의 광고를 필터링합니다.

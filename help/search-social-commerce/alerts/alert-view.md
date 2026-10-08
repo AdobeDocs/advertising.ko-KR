@@ -3,20 +3,24 @@ title: 사용자 지정 경고 보기
 description: 경고 인스턴스를 나열하는 방법을 알아봅니다.
 exl-id: 0a5260f6-8651-451e-841c-600be371cc3f
 feature: Search Alerts
-TQID: https://experienceleague.adobe.com/yj5l6KUdSE49qs2wJ7ZXhptphUwNX-J5Pz5By-XLFko
+TQID: 'https://experienceleague.adobe.com/yj5l6KUdSE49qs2wJ7ZXhptphUwNX-J5Pz5By-XLFko'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 # 사용자 지정 경고 보기
 
 [!UICONTROL Triggered Alerts] 보기 및 관련 캠페인 관리 보기에서 경고 템플릿에서 모든 경고 인스턴스 목록을 볼 수 있습니다.

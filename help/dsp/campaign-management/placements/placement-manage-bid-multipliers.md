@@ -3,27 +3,31 @@ title: 배치에 대한 입찰 승수 관리
 description: 배치 타겟에 대한 입찰 승수를 만들고 편집하는 방법에 대해 알아봅니다.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-TQID: https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0
+TQID: 'https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '912'
 ht-degree: 1%
-
 ---
-
 # 배치에 대한 입찰 승수 관리
 
 [적격 대상 유형](#bid-multiplier-by-target)의 기존 배치 대상에 대해 알고리즘적으로 계산된 입찰을 곱하여 입찰을 늘리거나 줄이는 입찰 승수를 만들고 관리할 수 있습니다. 한 배치에 대한 입찰 승수 값을 수동으로 편집하거나 하나 이상의 배치에 대한 값이 포함된 스프레드시트를 업로드할 수 있습니다.
 
-기본적으로 대상에 대한 입찰 승수는 1.00이며, 이는 입찰이 해당 대상에 대해 조정되지 않음을 의미합니다. 값의 범위는 0.10부터 10.00까지입니다. 예를 들어, 입찰 승수 0.5는 USD 6 입찰을 USD 3으로 감소시킵니다(0.5 x 6). 경매가 여러 입찰 수정자에 적격인 경우 적용 가능한 모든 입찰 승수를 곱합니다. 예를 들어 캘리포니아가 입찰 승수가 2이고 샌프란시스코가 입찰 승수가 3인 경우 샌프란시스코에서 실행되는 광고의 최종 입찰 승수는 6입니다.
+기본적으로 대상에 대한 입찰 승수는 1.00이며, 이는 입찰이 해당 대상에 대해 조정되지 않음을 의미합니다. 값의 범위는 0.10부터 10.00까지입니다. 예를 들어 입찰 승수 0.5는 USD 3에 대한 USD 6 입찰을 감소시킵니다(0.5 x 6). 경매가 여러 입찰 수정자에 적격인 경우 적용 가능한 모든 입찰 승수를 곱합니다. 예를 들어 캘리포니아가 입찰 승수가 2이고 샌프란시스코가 입찰 승수가 3인 경우 샌프란시스코에서 실행되는 광고의 최종 입찰 승수는 6입니다.
 
 >[!NOTE]
 >
@@ -53,21 +57,21 @@ ht-degree: 1%
 
    * 입찰 승수 값이 있는 CSV 파일을 업로드하여 기존 값을 모두 덮어쓰려면 다음을 수행합니다.
 
-      1. 오른쪽 상단의 **[!UICONTROL CSV File Edit]**&#x200B;을(를) 클릭합니다.
+     1. 오른쪽 상단의 **[!UICONTROL CSV File Edit]**&#x200B;을(를) 클릭합니다.
 
-      1. a) **[!UICONTROL Download Template]**&#x200B;을(를) 클릭하여 파일을 편집하거나 b) 이전에 다운로드한 템플릿을 편집합니다. 편집된 파일을 장치 또는 네트워크에 저장합니다.
+     1. a) **[!UICONTROL Download Template]**&#x200B;을(를) 클릭하여 파일을 편집하거나 b) 이전에 다운로드한 템플릿을 편집합니다. 편집된 파일을 장치 또는 네트워크에 저장합니다.
 
-         다운로드한 스프레드시트에는 각 대상 유형(예: 국가, 소스 및 사이트 범주)에 대해 한 개의 시트가 포함됩니다. 값이 1.0 이하 또는 1.0 이상인 기존 입찰 승수만 포함됩니다.
+        다운로드한 스프레드시트에는 각 대상 유형(예: 국가, 소스 및 사이트 범주)에 대해 한 개의 시트가 포함됩니다. 값이 1.0 이하 또는 1.0 이상인 기존 입찰 승수만 포함됩니다.
 
-         * 기존 대상에 대한 입찰 승수를 추가하려면 사용자 인터페이스에 표시되는 동일한 구문과 해당 입찰 승수 값을 사용하여 대상을 입력합니다.
+        * 기존 대상에 대한 입찰 승수를 추가하려면 사용자 인터페이스에 표시되는 동일한 구문과 해당 입찰 승수 값을 사용하여 대상을 입력합니다.
 
-         * 입찰 수정자를 제거하려면 입찰 승수 값을 1.0으로 설정하거나 행에 대한 모든 정보를 삭제합니다.
+        * 입찰 수정자를 제거하려면 입찰 승수 값을 1.0으로 설정하거나 행에 대한 모든 정보를 삭제합니다.
 
-         ![입찰 승수 스프레드시트 파일의 행 예](/help/dsp/assets/bid-multiplier-spreadsheet.png "입찰 승수 스프레드시트 파일의 행 예")
+        ![입찰 승수 스프레드시트 파일의 행 예](/help/dsp/assets/bid-multiplier-spreadsheet.png "입찰 승수 스프레드시트 파일의 행 예")
 
-      1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 [!UICONTROL Upload File] 섹션으로 이동하고 a) 편집된 파일을 상자로 드래그 앤 드롭하거나 b) 상자 내부를 클릭하여 장치나 네트워크에서 파일을 선택합니다.
+     1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 [!UICONTROL Upload File] 섹션으로 이동하고 a) 편집된 파일을 상자로 드래그 앤 드롭하거나 b) 상자 내부를 클릭하여 장치나 네트워크에서 파일을 선택합니다.
 
-      1. [!UICONTROL Review & Submit] 섹션에서 업로드된 데이터를 확인한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+     1. [!UICONTROL Review & Submit] 섹션에서 업로드된 데이터를 확인한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 하나 이상의 배치에 대한 입찰 승수 업로드
 

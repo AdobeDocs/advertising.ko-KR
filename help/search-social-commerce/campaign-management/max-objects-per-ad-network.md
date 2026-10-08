@@ -3,20 +3,24 @@ title: 광고 네트워크 계정당 최대 개체 수
 description: 광고 네트워크 계정당 최대 개체 수를 찾을 수 있는 위치를 확인하십시오.
 exl-id: 64463f56-0972-4acb-867e-d216f09bbc2d
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/Eoi5mmx8l0U61O5-U91BOrzxfWr8rUdEIhiD1VVwPiE
+TQID: 'https://experienceleague.adobe.com/Eoi5mmx8l0U61O5-U91BOrzxfWr8rUdEIhiD1VVwPiE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Troubleshooting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 151
+source-wordcount: '151'
 ht-degree: 0%
-
 ---
-
 # 광고 네트워크 계정당 최대 개체 수
 
 계정당 최대 캠페인 수, 캠페인당 최대 광고 그룹 수 등과 같은 현재 개체 제한에 대한 자세한 내용은 광고 네트워크의 설명서를 참조하십시오.

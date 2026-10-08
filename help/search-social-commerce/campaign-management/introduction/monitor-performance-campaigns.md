@@ -3,21 +3,26 @@ title: 캠페인 성과 모니터링 및 관리
 description: 각 캠페인 및 포트폴리오의 성과를 모니터링하고 목표를 달성하기 위해 변경하는 방법에 대해 알아봅니다.
 exl-id: dad9d218-37ee-4949-ae61-ac91f7723906
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/h2A5-yD17ScGBWJxVC39wfbTBIGhheITAsJ-zEJE6lU
+TQID: 'https://experienceleague.adobe.com/h2A5-yD17ScGBWJxVC39wfbTBIGhheITAsJ-zEJE6lU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 293
+source-wordcount: '293'
 ht-degree: 0%
-
 ---
-
 # 광고 네트워크 캠페인의 성능 모니터링 및 관리
 
 Adobe 계정 팀, 에이전시 팀 또는 광고주(service level agreement 약관에 따라 다름)는 각 캠페인 및 포트폴리오의 성과를 모니터링하고(해당하는 경우) 광고주의 목표를 충족하기 위해 필요한 경우 관련 구성 요소 및 설정을 변경해야 합니다.
@@ -30,7 +35,7 @@ Adobe 계정 팀, 에이전시 팀 또는 광고주(service level agreement 약�
 
 * 포함된 캠페인에 대한 계정 요약 및 성과 세부 정보 보기
 
-* [보고서 &#x200B;](/help/search-social-commerce/reports/report-about.md)(해당되는 경우), [보고서 [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md), [보고서 [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md) 및 해당되는 경우 추가 성능 보고서를 포함하는 [보고서[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)을(를) 실행합니다. 포트폴리오를 사용할 때는 예측된 성능을 실제 성능과 비교해야 합니다.
+* [보고서 [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)(해당되는 경우), [보고서 [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md), [보고서 [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md) 및 해당되는 경우 추가 성능 보고서를 포함하는 [보고서](/help/search-social-commerce/reports/report-about.md)을(를) 실행합니다. 포트폴리오를 사용할 때는 예측된 성능을 실제 성능과 비교해야 합니다.
 
 ## 성과 관리 및 캠페인 및 포트폴리오 구조 조정
 

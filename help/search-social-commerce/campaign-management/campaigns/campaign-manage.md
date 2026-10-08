@@ -3,18 +3,21 @@ title: 캠페인 관리
 description: 광고 캠페인을 만들고 관리하는 방법을 알아봅니다.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/ijW-K1aEtH2S2ksHlZFg37vIYL3yfLTKq9onQPbcbno
+TQID: 'https://experienceleague.adobe.com/ijW-K1aEtH2S2ksHlZFg37vIYL3yfLTKq9onQPbcbno'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 76dcbceead386ad4f5117c23e449aa904696f338
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 0%
-
 ---
-
 # 캠페인 관리
 
 캠페인은 광고 네트워크 계정의 기본 구성 요소입니다. 대부분의 캠페인 유형의 경우, 광고 그룹 또는 광고 세트 세트로 구성됩니다. 캠페인 설정에는 캠페인 예산 매개 변수, 광고 타겟 및 캠페인의 모든 광고에 대한 선택적 추적 매개 변수가 포함됩니다. 캠페인 수준 추적 매개 변수는 계정 수준 매개 변수를 재정의하지만, 그 자체가 더 낮은 수준에서 재정의될 수 있습니다.

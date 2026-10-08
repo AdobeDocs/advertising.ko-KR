@@ -3,24 +3,29 @@ title: '[!UICONTROL Simple Ad Serving] 정보'
 description: 이벤트 추적 픽셀을 사용한 [!UICONTROL Simple Ad Serving] 거래에 대해 알아봅니다.
 feature: DSP Simple Ad Serving
 exl-id: 327a2c93-d729-42e1-856f-f0e05efab7ca
-TQID: https://experienceleague.adobe.com/w4KFePatd7CZ1xC8dd1CItl88-6myAZw8TuatHzHnRI
+TQID: 'https://experienceleague.adobe.com/w4KFePatd7CZ1xC8dd1CItl88-6myAZw8TuatHzHnRI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 227
+source-wordcount: '235'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Simple Ad Serving] 정보
 
 [!UICONTROL Simple Ad Serving]은(는) 하나의 전용 배치를 사용하여 지정된 게시자 및 단일 광고 유형에 대해 보장되고 결정되지 않은 광고 게재 및 보고를 제공합니다. 게시자가 거래 ID를 통해 거래를 실행할 수 없는 경우 [!DNL Simple Ad Serving]을(를) 사용합니다. 모든 타겟팅, 예산 게재 간격 및 한도, 빈도 상한은 게시자가 처리합니다. 이벤트 추적 픽셀을 통해 이러한 거래를 실행합니다.
@@ -35,7 +40,7 @@ ht-degree: 0%
 * 디스플레이
 * 오디오
 
-[!UICONTROL Simple Ad Serving] > [!UICONTROL Inventory] 보기에서 [!UICONTROL Deals] 거래를 만들 수 있습니다. DSP은 광고에 대한 하위 유형이 &quot;[!DNL Simple ad serving]&quot;인 배치를 자동으로 생성합니다. 배치는 거래를 타깃팅하지만 추가 타깃팅, 예산 또는 빈도 제한을 허용하지 않습니다. 거래 이름, CPM, 노출 횟수 및 비행 날짜와 같은 일부 거래 설정만 편집할 수 있습니다.<!-- If you need multiple tracking tags for a [!UICONTROL Simple Ad Serving] deal, create a duplicate deal. -->
+[!UICONTROL Inventory] > [!UICONTROL Deals] 보기에서 [!UICONTROL Simple Ad Serving] 거래를 만들 수 있습니다. DSP은 광고에 대한 하위 유형이 &quot;[!DNL Simple ad serving]&quot;인 배치를 자동으로 생성합니다. 배치는 거래를 타깃팅하지만 추가 타깃팅, 예산 또는 빈도 제한을 허용하지 않습니다. 거래 이름, CPM, 노출 횟수 및 비행 날짜와 같은 일부 거래 설정만 편집할 수 있습니다.<!-- If you need multiple tracking tags for a [!UICONTROL Simple Ad Serving] deal, create a duplicate deal. -->
 
 [!UICONTROL Simple Ad Serving] 배치가 계정의 사용 가능한 자금 또는 캠페인 및 패키지 예산을 준수하지 않습니다. 그러나 지출은 해당 예산에 대해 추적되고 계산됩니다. CPM이 $0인 경우에도 이벤트 데이터는 항상 추적됩니다.
 

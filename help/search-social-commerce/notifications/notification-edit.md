@@ -3,20 +3,24 @@ title: 알림 설정 편집
 description: 알림에 대한 설정을 편집하는 방법을 알아봅니다.
 exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/DYykxfXqovRIkUXI1OwGJDNvbyIxziy92UUs6QVhLfY
+TQID: 'https://experienceleague.adobe.com/DYykxfXqovRIkUXI1OwGJDNvbyIxziy92UUs6QVhLfY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 225
+source-wordcount: '223'
 ht-degree: 0%
-
 ---
-
 # 알림 설정 편집
 
 *Beta 기능*
@@ -33,9 +37,9 @@ ht-degree: 0%
 
    * 알림을 구독하거나 구독을 취소하려면 [!UICONTROL Subscribe] 열에서 슬라이더를 이동합니다.
 
-      * 모든 알림 유형에서 가입을 해지하려면 슬라이더를 왼쪽(비활성화)으로 이동합니다.
+     * 모든 알림 유형에서 가입을 해지하려면 슬라이더를 왼쪽(비활성화)으로 이동합니다.
 
-      * 하나 이상의 알림 유형에 가입하려면 슬라이더를 오른쪽으로 이동합니다(활성화됨).
+     * 하나 이상의 알림 유형에 가입하려면 슬라이더를 오른쪽으로 이동합니다(활성화됨).
 
    * ([!UICONTROL Subscribe]을(를) 사용하도록 설정한 경우) 전자 메일 알림을 구독하려면 **[!UICONTROL Email]** 열의 확인란을 선택하십시오.
 

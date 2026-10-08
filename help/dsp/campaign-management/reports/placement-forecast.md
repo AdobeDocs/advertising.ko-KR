@@ -3,22 +3,26 @@ title: 배치 예측 보고서 보기
 description: 배치에 대한 특정 타겟팅 전략에 대해 예측된 노출 횟수, 지출 횟수 및 최적 최대 입찰가 를 참조하십시오.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-TQID: https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8
+TQID: 'https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 548
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # 배치 예측 보고서 보기
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -36,11 +40,11 @@ ht-degree: 0%
 
 * **[!UICONTROL Summary]:**
 
-   * **[!UICONTROL Estimated CPM]:** 타기팅 설정에 도달할 것으로 예상되는 eCPM(천 단위 노출 횟수)당 예상 비용입니다.
+  * **[!UICONTROL Estimated CPM]:** 타기팅 설정에 도달할 것으로 예상되는 eCPM(천 단위 노출 횟수)당 예상 비용입니다.
 
-   * **[!UICONTROL Budget]:** 타깃팅 설정에 대한 예상 예산입니다.
+  * **[!UICONTROL Budget]:** 타깃팅 설정에 대한 예상 예산입니다.
 
-   * **[!UICONTROL Impression]:** 타깃팅 설정에 대한 예상 노출 횟수입니다.
+  * **[!UICONTROL Impression]:** 타깃팅 설정에 대한 예상 노출 횟수입니다.
 
 * **[!UICONTROL Budget Yield Curve]:** 다른 모든 타깃팅 설정이 동일한 경우 다른 예산 수준에서 배치가 제공할 수 있는 예상 노출 횟수입니다.
 
@@ -66,13 +70,13 @@ ht-degree: 0%
 
 * 내역 데이터: 충분한 내역 데이터를 사용할 수 있을 때 배치 예측을 사용할 수 있습니다. 다음은 충분하지 않은 내역 데이터를 사용할 수 있는 경우의 예입니다.
 
-   * 배치는 캠페인의 새 영역을 타겟팅합니다.
+  * 배치는 캠페인의 새 영역을 타겟팅합니다.
 
-   * 배치는 캠페인에 대한 새로운 인벤토리 거래를 타깃팅합니다.
+  * 배치는 캠페인에 대한 새로운 인벤토리 거래를 타깃팅합니다.
 
-   * 배치는 캠페인에 새 광고 유형을 사용합니다.
+  * 배치는 캠페인에 새 광고 유형을 사용합니다.
 
-     배치는 일반적으로 공급측 플랫폼에 정의된 여러 광고 템플릿의 컬렉션입니다. 따라서 배치가 오래 존재하더라도 기본 광고 템플릿이 새로운 경우 예측 도구에서 예측을 생성할 수 없습니다.
+    배치는 일반적으로 공급측 플랫폼에 정의된 여러 광고 템플릿의 컬렉션입니다. 따라서 배치가 오래 존재하더라도 기본 광고 템플릿이 새로운 경우 예측 도구에서 예측을 생성할 수 없습니다.
 
 ## 배치 예측 보고서 열기
 

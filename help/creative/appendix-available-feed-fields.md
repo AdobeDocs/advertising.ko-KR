@@ -3,18 +3,24 @@ title: 동적 광고 피드 파일에 사용 가능한 필드
 description: 동적 광고를 만드는 데 사용하는 피드 파일에 포함할 수 있는 필드에 대해 알아봅니다.
 feature: Creative Dynamic Creatives
 exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
-TQID: https://experienceleague.adobe.com/oBlhGgChyoHBSkfx4gqlC-mnleraVrtf3lMzper7vgY
+TQID: 'https://experienceleague.adobe.com/oBlhGgChyoHBSkfx4gqlC-mnleraVrtf3lMzper7vgY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # 부록: 동적 광고 피드 파일에 사용 가능한 필드
 
 Advertising Creative 백엔드에서 다음 피드 필드를 사용할 수 있습니다. 조직별 필드 이름을 사용하는 [피드 파일](/help/creative/feeds/asset-manage.md)을 업로드할 수 있습니다. 그러나 피드 파일에서 [카탈로그](/help/creative/feeds/catalog-manage.md)를 만들려면 먼저 피드 파일의 각 필드를 카탈로그를 만드는 데 사용할 [피드 템플릿](/help/creative/feeds/feed-template-manage.md)의 다음 필드 중 하나에 매핑해야 합니다.

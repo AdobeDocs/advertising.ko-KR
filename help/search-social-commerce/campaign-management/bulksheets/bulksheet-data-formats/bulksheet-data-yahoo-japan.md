@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL LY Ads] 계정의 일괄 시트 데이터'
-description: ' [!DNL LY Ads] 계정에 대해 다운로드한 일괄 시트의 머리글 필드 및 데이터 필드를 참조합니다.'
+title: '[!DNL LY Ads] 계정의 일괄 시트 데이터'
+description: '[!DNL LY Ads] 계정에 대해 다운로드한 일괄 시트의 머리글 필드 및 데이터 필드를 참조합니다.'
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA
+TQID: 'https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2668
-ht-degree: 0%
-
+source-wordcount: '2697'
+ht-degree: 1%
 ---
-
 # 부록 - [!DNL LY Ads] 계정에 대한 일괄 시트 데이터
 
 [!DNL LY Ads]&#x200B;(이전의 [!DNL Yahoo! Japan]) 계정의 데이터를 대량으로 다운로드할 수 있지만 광고 네트워크에 일괄 시트를 업로드하거나 게시할 수 없습니다.
@@ -78,5 +82,5 @@ ht-degree: 0%
 >* [일괄 시트에서 수행할 수 있는 작업](bulksheet-operations.md)
 >* [지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
 >* [일괄 시트 파일 또는 수정된 오류 파일 업로드](../bulksheet-upload.md)

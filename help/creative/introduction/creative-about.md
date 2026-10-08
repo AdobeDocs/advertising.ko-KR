@@ -1,30 +1,41 @@
 ---
 title: Adobe Advertising Creative 정보
-description: ' [!DNL Creative]에 대해 알아봅니다.'
+description: '[!DNL Creative]에 대해 알아봅니다.'
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-TQID: https://experienceleague.adobe.com/UfaLj12BFBAxCDvtb6cUtVxlcuOSYgnZPTAn7494APk
+TQID: 'https://experienceleague.adobe.com/UfaLj12BFBAxCDvtb6cUtVxlcuOSYgnZPTAn7494APk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: ba946348-465d-45f3-8d28-c42d0a2599c5
+    internal-label: Creative introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Data integration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 493
+source-wordcount: '507'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising Creative 2.0 정보
 
 <!-- verify all and rewrite to include new stuff -->
@@ -59,7 +70,7 @@ Adobe Audience Manager 및 Adobe Analytics의 자사 대상 세그먼트뿐만 �
 
 ### 광고 요소 최적화
 
-[!DNL Creative]에서 제공하는 최적화된 가중치 광고 순환을 사용하여 선택적으로 [!DNL Adobe AI]에서 특정 대상 대상을 정의하는지 여부에 관계없이 성능에 따라 모든 경험에 대한 광고 요소를 최적화하도록 허용할 수 있습니다.
+[!DNL Adobe AI]에서 제공하는 최적화된 가중치 광고 순환을 사용하여 선택적으로 [!DNL Creative]에서 특정 대상 대상을 정의하는지 여부에 관계없이 성능에 따라 모든 경험에 대한 광고 요소를 최적화하도록 허용할 수 있습니다.
 
 <!--
 [!DNL Creative] serves first-party ads and triggers third-party ads for the experience based on the specified targeting (when applicable), scheduling, ad rotation, and optimization goal options 

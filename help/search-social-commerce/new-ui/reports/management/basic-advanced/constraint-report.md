@@ -2,13 +2,19 @@
 title: '[!UICONTROL Constraint Report]'
 description: '[!UICONTROL Constraint Report]에 대해 알아봅니다.'
 feature: Search Reports, Search Basic Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Constraint Report]
 
 [!UICONTROL Constraint Report]에는 포트폴리오, 광고 네트워크, 계정, 캠페인 또는 광고 그룹 간에 집계된 레이블 분류 아키텍처를 사용하는 제약 조건에 대한 비용, 클릭 및 (선택적으로) 전환 데이터가 포함됩니다. 기본적으로 데이터는 지정된 날짜 범위의 각 시간 단위에 대해 적용 가능한 각 제약 조건에 대해 하나의 행을 포함합니다. 행은 기본적으로 제한 사항에 따라 먼저 오름차순으로 정렬한 다음 시간 단위에 대한 시작 날짜순으로 정렬됩니다.

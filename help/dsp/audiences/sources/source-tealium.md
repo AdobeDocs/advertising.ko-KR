@@ -1,27 +1,33 @@
 ---
-title: 사용자 ID를  [!DNL Tealium] 에서 범용 ID로 변환
-description: DSP에서  [!DNL Tealium] 자사 세그먼트를 수집할 수 있도록 하는 방법을 알아봅니다.
+title: 사용자 ID를 [!DNL Tealium]에서 유니버설 ID로 변환
+description: DSP에서 [!DNL Tealium]개의 자사 세그먼트를 수집할 수 있도록 하는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-TQID: https://experienceleague.adobe.com/X8mcqFiON6JMoB5KdS5Z0GVLYp-htw2ddCtmuZFflqo
+TQID: 'https://experienceleague.adobe.com/X8mcqFiON6JMoB5KdS5Z0GVLYp-htw2ddCtmuZFflqo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 50af5a8fc6e5e82268489259073e27911ca5a45c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: '1122'
 ht-degree: 0%
-
 ---
-
 # 사용자 ID를 [!DNL Tealium]에서 유니버설 ID로 변환
 
 [!DNL Tealium] 고객 데이터 플랫폼과 DSP 통합을 사용하여 타깃팅된 광고를 위해 조직의 자사 해시된 이메일 주소를 범용 ID로 변환합니다. 프로세스에서 [!DNL Amazon Web Services]&#x200B;(AWS) firehose 커넥터를 사용합니다. Tealium의 데이터를 DSP과 공유하려면 다음 단계를 따르십시오.
@@ -128,17 +134,17 @@ ht-degree: 0%
 
          * **메시지 데이터:** 다음을 수행합니다.
 
-            1. 세그먼트에 대해 속성 하나를 선택합니다.
+           1. 세그먼트에 대해 속성 하나를 선택합니다.
 
-               * Hashed_Email 특성의 경우 사용자 지정 메시지의 이름을 `hashed_email`로 지정합니다.
+              * Hashed_Email 특성의 경우 사용자 지정 메시지의 이름을 `hashed_email`로 지정합니다.
 
-               * Cookies 특성의 경우 사용자 지정 메시지의 이름을 `cookies`로 지정합니다.
+              * Cookies 특성의 경우 사용자 지정 메시지의 이름을 `cookies`로 지정합니다.
 
-            1. 사용자 지정 필드를 만드는 옵션의 [!DNL Source Key] 필드에 이전 절차의 [세그먼트 매핑 데이터](#map-data)에 포함된 [!UICONTROL External Segment Key]을(를) 입력하십시오.
+           1. 사용자 지정 필드를 만드는 옵션의 [!DNL Source Key] 필드에 이전 절차의 [세그먼트 매핑 데이터](#map-data)에 포함된 [!UICONTROL External Segment Key]을(를) 입력하십시오.
 
-               DSP은 이 키를 사용하여 세그먼트를 채웁니다.
+              DSP은 이 키를 사용하여 세그먼트를 채웁니다.
 
-            1. (권장) 업데이트 작업을 만들어 세그먼트를 최신 상태로 유지합니다.
+           1. (권장) 업데이트 작업을 만들어 세그먼트를 최신 상태로 유지합니다.
 
 ## 5단계: 세그먼트를 계속 공유하려면 [!DNL Tealium]에서 기존 커넥터를 복제하십시오. {#duplicate-connector}
 

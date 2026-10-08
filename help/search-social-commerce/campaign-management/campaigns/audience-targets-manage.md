@@ -1,20 +1,23 @@
 ---
 title: 캠페인 및 광고 그룹에 대한 대상자 타겟 관리
-description: ' [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인 및 광고 그룹에 대한 대상 타겟을 구성하고 관리하는 방법을 알아봅니다.'
+description: '[!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인과 광고 그룹에 대한 대상 타겟을 구성하고 관리하는 방법에 대해 알아봅니다.'
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY
+TQID: 'https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인과 광고 그룹에 대한 대상자 대상 관리
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising]만*
@@ -65,7 +68,7 @@ ht-degree: 0%
 
    * *0%:* 이 대상자의 광고 입찰을 조정하지 않습니다.
 
-   * /[*다른 값(-90% ~ 900%*/]): 이 대상자의 광고 입찰가를 늘리거나 줄이려면 예를 들어 키워드 수준의 입찰이 1 USD이고 특정 대상 타겟에 대한 입찰 조정이 50%인 경우 해당 대상에 대한 입찰은 1.50 USD로 증가합니다.
+   * /[*다른 값(-90% ~ 900%*/]): 이 대상자의 광고 입찰가를 늘리거나 줄이려면 예를 들어 키워드 수준의 입찰이 1 USD이고 특정 대상 타겟에 대한 입찰 조정이 50%인 경우 해당 대상에 대한 입찰은 1.50 USD으로 증가합니다.
 
 ## 대상자 타겟에 대한 입찰 수정자 편집
 
@@ -83,27 +86,27 @@ ht-degree: 0%
 
    * 한 개 이상의 대상에 대한 입찰 수정자를 편집하려면 다음을 수행합니다.
 
-      1. 편집할 각 대상 옆의 확인란을 선택합니다.
+     1. 편집할 각 대상 옆의 확인란을 선택합니다.
 
-         여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
+        여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
 
-      1. 데이터 테이블 위의 도구 모음에서 ![편집](/help/search-social-commerce/assets/edit.png "편집")을 클릭합니다.
+     1. 데이터 테이블 위의 도구 모음에서 ![편집](/help/search-social-commerce/assets/edit.png "편집")을 클릭합니다.
 
-      1. **[!UICONTROL Bid Modifier]** 및/또는 **[!UICONTROL Status]** 필드를 편집합니다.
+     1. **[!UICONTROL Bid Modifier]** 및/또는 **[!UICONTROL Status]** 필드를 편집합니다.
 
-         [!UICONTROL Bid Modifier] 필드의 경우 기존 값을 지정된 값으로 변경하거나, 제한을 사용하여 지정된 비율이나 통화 금액만큼 금액을 늘리거나 줄이는 옵션이 있습니다.
+        [!UICONTROL Bid Modifier] 필드의 경우 기존 값을 지정된 값으로 변경하거나, 제한을 사용하여 지정된 비율이나 통화 금액만큼 금액을 늘리거나 줄이는 옵션이 있습니다.
 
-         설정된 값의 경우 값은 다음을 포함할 수 있습니다.
+        설정된 값의 경우 값은 다음을 포함할 수 있습니다.
 
-         * *0%:* 이 대상자의 광고 입찰을 조정하지 않습니다.
+        * *0%:* 이 대상자의 광고 입찰을 조정하지 않습니다.
 
-         * /[*다른 값(-90% ~ 900%*/]): 이 대상자의 광고 입찰가를 늘리거나 줄이려면 예를 들어 키워드 수준의 입찰이 1 USD이고 특정 대상 타겟에 대한 입찰 조정이 50%인 경우 해당 대상에 대한 입찰은 1.50 USD로 증가합니다.
+        * /[*다른 값(-90% ~ 900%*/]): 이 대상자의 광고 입찰가를 늘리거나 줄이려면 예를 들어 키워드 수준의 입찰이 1 USD이고 특정 대상 타겟에 대한 입찰 조정이 50%인 경우 해당 대상에 대한 입찰은 1.50 USD으로 증가합니다.
 
-         여러 타겟의 경우 변경 사항이 선택한 모든 타겟에 적용됩니다.
+        여러 타겟의 경우 변경 사항이 선택한 모든 타겟에 적용됩니다.
 
-      1. (선택 사항) **[!UICONTROL Additional Details]**&#x200B;을(를) 클릭하고 선택적으로 프로젝트 이름과 설명을 입력합니다.
+     1. (선택 사항) **[!UICONTROL Additional Details]**&#x200B;을(를) 클릭하고 선택적으로 프로젝트 이름과 설명을 입력합니다.
 
-      1. **[!UICONTROL Post]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Post]**&#x200B;을(를) 클릭합니다.
 
 ## 대상자 타겟의 상태 변경
 

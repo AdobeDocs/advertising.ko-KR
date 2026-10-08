@@ -1,20 +1,23 @@
 ---
 title: '[!DNL Microsoft Advertising] 확장된 동적 검색 광고 설정'
-description: ' [!DNL Microsoft Advertising] 확장된 동적 검색 광고에 대한 설정을 참조하십시오.'
+description: 확장된 동적 검색 광고 [!DNL Microsoft Advertising]에 대한 설정을 참조합니다.
 exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/fMR1RR6uS47cLevFEEmnfOvMUiENPiwlhQA-fFx22pA
+TQID: 'https://experienceleague.adobe.com/fMR1RR6uS47cLevFEEmnfOvMUiENPiwlhQA-fFx22pA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 112
+source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] 확장된 동적 검색 광고 설정
 
 확장된 동적 검색 광고(eDSA)는 검색 네트워크의 캠페인에 있는 동적 광고 그룹에서만 사용할 수 있습니다. 광고 네트워크는 헤드라인을 동적으로 생성하고, 동적 검색 광고에 대한 랜딩 페이지를 선택한 다음 최종 URL을 자동으로 생성합니다.

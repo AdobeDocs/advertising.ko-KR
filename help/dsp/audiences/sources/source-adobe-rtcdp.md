@@ -1,34 +1,40 @@
 ---
-title: ' [!DNL Adobe] [!DNL Real-time CDP]과(와) DSP 통합 사용'
-description: DSP에서  [!DNL Adobe] [!DNL Real-time CDP]개의 자사 세그먼트를 수집할 수 있도록 하는 방법을 알아봅니다.
+title: '[!DNL Adobe] [!DNL Real-time CDP]과(와) DSP 통합 사용'
+description: DSP에서 [!DNL Adobe] [!DNL Real-time CDP]개의 자사 세그먼트를 수집할 수 있도록 하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-TQID: https://experienceleague.adobe.com/Ggt-YiAoGurfI5eET66xJwMBTSq-w5FO7wH60WZshEk
+TQID: 'https://experienceleague.adobe.com/Ggt-YiAoGurfI5eET66xJwMBTSq-w5FO7wH60WZshEk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 50af5a8fc6e5e82268489259073e27911ca5a45c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: '596'
 ht-degree: 0%
-
 ---
-
 # 사용자 ID를 [!DNL Adobe Real-Time CDP]에서 유니버설 ID로 변환
 
 Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko)과(와) DSP 통합을 사용하여 해시된 이메일 주소, 쿠키 및 모바일 광고 ID를 포함한 사용자 ID를 타깃팅된 광고를 위한 범용 ID로 변환합니다.
 
 1. (사용자 ID를 [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->(으)로 전환하려면 [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용하는 광고주) [!DNL Analytics] 측정에 대한 추적을 설정합니다.
 
-   1. 아직 완료하지 않은 경우) 추적 URL에서 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md)와(과)  [!DNL Analytics for Advertising][&#128279;](/help/integrations/analytics/prerequisites.md)을(를) 구현하기 위한 필수 구성 요소를 모두 완료하십시오.
+   1. 아직 완료하지 않은 경우) 추적 URL에서 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md)와(과)  [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/prerequisites.md)을(를) 구현하기 위한 필수 구성 요소를 모두 완료하십시오.
 
    1. 범용 ID 파트너에 등록하고 웹 페이지에 범용 ID 관련 코드를 배포하여 데스크탑 및 모바일 웹 브라우저(모바일 앱은 아님)의 ID에서 뷰스루로의 전환을 일치시킵니다.
 

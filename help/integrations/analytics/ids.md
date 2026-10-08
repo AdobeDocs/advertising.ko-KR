@@ -1,28 +1,39 @@
 ---
-title: ' [!DNL Analytics]에서 사용하는 Adobe Advertising ID'
-description: ' [!DNL Analytics]에서 사용하는 Adobe Advertising ID'
+title: '[!DNL Analytics]에서 사용하는 Adobe Advertising ID'
+description: '[!DNL Analytics]에서 사용하는 Adobe Advertising ID'
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-TQID: https://experienceleague.adobe.com/OX1JFaA2CvN19DTTEWOPP9bb0Aajy0MbNBpNIxdg4RI
+TQID: 'https://experienceleague.adobe.com/OX1JFaA2CvN19DTTEWOPP9bb0Aajy0MbNBpNIxdg4RI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 9f19d84117f68a7672c9090116474570e0625cab
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1105
+source-wordcount: '1105'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics]에서 사용하는 Adobe Advertising ID
 
 *Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
@@ -37,15 +48,15 @@ Adobe Advertising은 다음 기준을 사용하여 웹 사이트에 대한 클�
 
 * 뷰스루 항목은 사용자가 광고를 보고 사이트를 방문하지만 클릭하지 않을 때 캡처됩니다. [!DNL Analytics]은(는) 다음 두 가지 조건이 충족되는 경우 뷰스루를 기록합니다.
 
-   * [전환 확인 기간](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 동안 방문자에게 [!DNL DSP] 또는 [!DNL Search, Social, & Commerce] 광고에 대한 클릭스루가 없습니다.
+  * [전환 확인 기간](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 동안 방문자에게 [!DNL DSP] 또는 [!DNL Search, Social, & Commerce] 광고에 대한 클릭스루가 없습니다.
 
-   * 방문자가 [노출 전환 확인 기간](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 동안 하나 이상의 [!DNL DSP] 광고를 보았습니다. 마지막 노출은 뷰스루로 전달됩니다.
+  * 방문자가 [노출 전환 확인 기간](/help/integrations/analytics/prerequisites.md#lookback-a4adc) 동안 하나 이상의 [!DNL DSP] 광고를 보았습니다. 마지막 노출은 뷰스루로 전달됩니다.
 
 * 클릭스루 항목은 사이트 방문자가 사이트에 들어가기 전에 광고를 클릭할 때 캡처됩니다. 다음 조건 중 하나가 발생하면 [!DNL Analytics]에서 클릭스루를 캡처합니다.
 
-   * 이 URL에는 Adobe Advertising에서 랜딩 페이지 URL에 추가한 EF ID와 AMO ID가 포함되어 있습니다.
+  * 이 URL에는 Adobe Advertising에서 랜딩 페이지 URL에 추가한 EF ID와 AMO ID가 포함되어 있습니다.
 
-   * URL에 추적 코드가 포함되어 있지 않지만 Adobe Advertising JavaScript 코드는 지난 2분 내에 클릭을 감지합니다.
+  * URL에 추적 코드가 포함되어 있지 않지만 Adobe Advertising JavaScript 코드는 지난 2분 내에 클릭을 감지합니다.
 
 ![Adobe Advertising 보기 기반 [!DNL Analytics] 통합](/help/integrations/assets/a4adc-view-through-process.png)
 
@@ -134,27 +145,27 @@ EF ID에는 Analysis Workspace의 500k 고유 식별자 제한이 적용됩니�
 
 * (권장) 서버측 삽입 기능이 구현된 경우.
 
-   * DSP 고객: 픽셀 서버는 최종 사용자가 Adobe Advertising 픽셀로 디스플레이 광고를 볼 때 랜딩 페이지 접미사에 s_kwcid 매개 변수를 자동으로 추가합니다.
+  * DSP 고객: 픽셀 서버는 최종 사용자가 Adobe Advertising 픽셀로 디스플레이 광고를 볼 때 랜딩 페이지 접미사에 s_kwcid 매개 변수를 자동으로 추가합니다.
 
-   * 검색, 소셜 및 Commerce 고객:
+  * 검색, 소셜 및 Commerce 고객:
 
-      * 계정 또는 캠페인에 대해 [!UICONTROL Auto Upload] 설정이 활성화된 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정의 경우, 최종 사용자가 Adobe Advertising 픽셀이 있는 광고를 클릭하면 픽셀 서버가 랜딩 페이지 접미사에 s_kwcid 매개 변수를 자동으로 추가합니다.
+    * 계정 또는 캠페인에 대해 [!UICONTROL Auto Upload] 설정이 활성화된 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정의 경우, 최종 사용자가 Adobe Advertising 픽셀이 있는 광고를 클릭하면 픽셀 서버가 랜딩 페이지 접미사에 s_kwcid 매개 변수를 자동으로 추가합니다.
 
-      * 다른 광고 네트워크나 [!UICONTROL Auto Upload] 설정이 비활성화된 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정의 경우 [계정 수준 추가 매개 변수](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}에 매개 변수를 수동으로 추가하여 기본 URL에 추가합니다.
+    * 다른 광고 네트워크나 [!UICONTROL Auto Upload] 설정이 비활성화된 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정의 경우 [계정 수준 추가 매개 변수](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}에 매개 변수를 수동으로 추가하여 기본 URL에 추가합니다.
 
 * 서버측 삽입 기능이 구현되지 않은 경우:
 
-   * DSP 고객: [JavaScript 코드](javascript.md)는 자동으로 클릭스루 및 뷰스루를 기록합니다. 브라우저가 타사 쿠키를 지원하지 않는 경우에도 다음 광고 유형에 대한 클릭 기반 전환을 추적할 수 있습니다.
+  * DSP 고객: [JavaScript 코드](javascript.md)는 자동으로 클릭스루 및 뷰스루를 기록합니다. 브라우저가 타사 쿠키를 지원하지 않는 경우에도 다음 광고 유형에 대한 클릭 기반 전환을 추적할 수 있습니다.
 
-      * [!DNL Flashtalking] 광고 태그의 경우 &quot;[추가 [!DNL Analytics for Advertising] 추가 [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)&quot;에 따라 추가 매크로를 수동으로 삽입하십시오. **참고:** 조직에서 [!DNL Flashtalking]과(와) 직접 파트너 관계를 맺고 데이터 전달 매크로를 사용하여 [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)에 있는 [!DNL Flashtalking] 지원 설명서별로 `s_kwcid` 및 `ef_id` 추적 매개 변수를 추적하는 경우에는 이 절차가 필요하지 않습니다.
+    * [!DNL Flashtalking] 광고 태그의 경우 &quot;[추가 [!DNL Analytics for Advertising] 추가 [!DNL Flashtalking] 광고 태그](/help/integrations/analytics/macros-flashtalking.md)&quot;에 따라 추가 매크로를 수동으로 삽입하십시오. **참고:** 조직에서 [!DNL Flashtalking]과(와) 직접 파트너 관계를 맺고 데이터 전달 매크로를 사용하여 [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)에 있는 [!DNL Flashtalking] 지원 설명서별로 `s_kwcid` 및 `ef_id` 추적 매개 변수를 추적하는 경우에는 이 절차가 필요하지 않습니다.
 
-      * [!DNL Google Campaign Manager 360] 광고 태그의 경우 &quot;[추가 [!DNL Analytics for Advertising] 추가 [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;에 따라 추가 매크로를 수동으로 삽입하십시오.
+    * [!DNL Google Campaign Manager 360] 광고 태그의 경우 &quot;[추가 [!DNL Analytics for Advertising] 추가 [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;에 따라 추가 매크로를 수동으로 삽입하십시오.
 
-   * 검색, 소셜 및 Commerce 고객:
+  * 검색, 소셜 및 Commerce 고객:
 
-      * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 광고의 경우 개별 계정 구성 요소에 대해 다른 추적이 필요하지 않으면 AMO ID 매개 변수를 랜딩 페이지 접미사에 수동으로 추가하십시오(이상적으로는 [계정 수준](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}에서).
+    * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 광고의 경우 개별 계정 구성 요소에 대해 다른 추적이 필요하지 않으면 AMO ID 매개 변수를 랜딩 페이지 접미사에 수동으로 추가하십시오(이상적으로는 [계정 수준](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}에서).
 
-      * 다른 모든 광고 네트워크에 있는 광고의 경우 AMO ID 매개 변수를 [계정 수준 추가 매개 변수](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}에 수동으로 추가하여 기본 URL에 추가합니다.
+    * 다른 모든 광고 네트워크에 있는 광고의 경우 AMO ID 매개 변수를 [계정 수준 추가 매개 변수](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}에 수동으로 추가하여 기본 URL에 추가합니다.
 
 서버측 삽입 기능을 구현하거나 비즈니스에 가장 적합한 옵션을 결정하려면 Adobe 계정 팀에 문의하십시오.
 
@@ -162,7 +173,7 @@ EF ID에는 Analysis Workspace의 500k 고유 식별자 제한이 적용됩니�
 
 [!DNL Analytics] 보고서에서 [!UICONTROL AMO ID] 차원을 검색하고 [!UICONTROL AMO ID Instances] 지표를 사용하여 AMO ID 데이터를 찾을 수 있습니다. [!UICONTROL AMO ID] 차원은 캡처된 모든 AMO ID 값을 포함하는 반면, [!UICONTROL AMO ID Instances] 지표는 사이트에서 AMO ID 값을 캡처한 빈도를 나타냅니다. 예를 들어 동일한 검색 광고를 4번 클릭했지만 [!DNL Analytics]이(가) 7개의 사이트 항목을 추적한 경우 [!UICONTROL AMO ID Instances]은(는) 7개가 되고 [!UICONTROL Clicks]은(는) 4개가 됩니다.
 
-[!DNL Analytics] 내의 보고 또는 감사의 경우 가장 좋은 방법은 해당 인스턴스와 함께 AMO ID를 사용하는 것입니다. 자세한 내용은 &quot;[!DNL Analytics]과(와) Adobe Advertising 간의 예상 데이터 차이&quot;에서 &quot; [!DNL Analytics for Advertising][&#128279;](data-variances.md#data-validation)에 대한 클릭스루 데이터 유효성 검사&quot;를 참조하십시오.
+[!DNL Analytics] 내의 보고 또는 감사의 경우 가장 좋은 방법은 해당 인스턴스와 함께 AMO ID를 사용하는 것입니다. 자세한 내용은 &quot;[!DNL Analytics]과(와) Adobe Advertising 간의 예상 데이터 차이&quot;에서 &quot; [!DNL Analytics for Advertising]&#x200B;[&#128279;](data-variances.md#data-validation)에 대한 클릭스루 데이터 유효성 검사&quot;를 참조하십시오.
 
 ## [!DNL Analytics] 분류 정보
 

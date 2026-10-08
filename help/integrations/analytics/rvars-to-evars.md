@@ -3,23 +3,31 @@ title: Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대�
 description: Adobe Customer Journey Analytics에서 나중에 사용할 수 있도록 Adobe Analytics에서 예약된 변수에 대한 내역 데이터를 수집하는 방법을 알아봅니다
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-TQID: https://experienceleague.adobe.com/sOUivMvQxpfRmBYsrC3vdFC2UUxwQO0cl5BUdsQ2-u0
+TQID: 'https://experienceleague.adobe.com/sOUivMvQxpfRmBYsrC3vdFC2UUxwQO0cl5BUdsQ2-u0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '700'
 ht-degree: 0%
-
 ---
-
 # Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터 수집
 
 *[!DNL Analytics for Advertising] 및 Adobe Customer Journey Analytics만 있는 광고주*
@@ -61,23 +69,23 @@ Adobe Advertising은 데이터를 Customer Journey Analytics에 자동으로 전
 
    * [!UICONTROL Always Execute] 섹션에서 다음 두 작업을 추가하여 새 eVar를 만듭니다.
 
-      * `AMO ID`의 경우:
+     * `AMO ID`의 경우:
 
-         1. **값 덮어쓰기**&#x200B;를 선택합니다.
-         1. *\&lt;새로 만들기/사용하지 않은 eVar\>*&#x200B;을(를) 선택합니다.
-         1. **쿼리 문자열 매개 변수**&#x200B;을(를) 선택하십시오.
-         1. `s_kwcid` 입력.
+       1. **값 덮어쓰기**&#x200B;를 선택합니다.
+       1. *\&lt;새로 만들기/사용하지 않은 eVar\>*&#x200B;을(를) 선택합니다.
+       1. **쿼리 문자열 매개 변수**&#x200B;을(를) 선택하십시오.
+       1. `s_kwcid` 입력.
 
-        예: `Overwrite the value of rVar10 with Query String Parameter s_kwcid`
+       예: `Overwrite the value of rVar10 with Query String Parameter s_kwcid`
 
-      * `EF ID`의 경우:
+     * `EF ID`의 경우:
 
-         1. **값 덮어쓰기**&#x200B;를 선택합니다.
-         1. *\&lt;새로 만들기/사용하지 않은 eVar\>*&#x200B;을(를) 선택합니다.
-         1. **쿼리 문자열 매개 변수**&#x200B;을(를) 선택하십시오.
-         1. `ef_id` 입력.
+       1. **값 덮어쓰기**&#x200B;를 선택합니다.
+       1. *\&lt;새로 만들기/사용하지 않은 eVar\>*&#x200B;을(를) 선택합니다.
+       1. **쿼리 문자열 매개 변수**&#x200B;을(를) 선택하십시오.
+       1. `ef_id` 입력.
 
-        예: `Overwrite the value of rVar11 with Query String Parameter ef_id`
+       예: `Overwrite the value of rVar11 with Query String Parameter ef_id`
 
    * [!UICONTROL Reason for rule]의 경우 &quot;AMO ID 및 EF ID가 Adobe Analytics Connector를 통해 AEP으로 전송됩니다.&quot;와 같은 설명 메모를 사용합니다.
 

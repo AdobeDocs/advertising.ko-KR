@@ -3,28 +3,33 @@ title: DSP에 로그인
 description: DSP에 로그인하는 방법에 대해 알아봅니다.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-TQID: https://experienceleague.adobe.com/KjBIag8qcpMONcX6pS2IJot3IA4Q-KOq0Av-1VzAot4
+TQID: 'https://experienceleague.adobe.com/KjBIag8qcpMONcX6pS2IJot3IA4Q-KOq0Av-1VzAot4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '535'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising DSP에 로그인
 
 Adobe Advertising DSP이 로그인 인증을 위해 Adobe Identity Management 서비스(IMS)로 전환하고 있습니다. IMS는 Real-Time Customer Data Platform, Customer Journey Analytics, [!DNL Target] 및 [!DNL Analytics]을(를) 포함하여 IMS를 지원하는 모든 [!DNL Adobe] 제품에 Federated ID를 사용하여 SSO(Single Sign-On) 액세스를 제공합니다. 변경 사항:
 
-* 하나의 [!DNL Adobe ID]을(를) 사용하여 Adobe CX Enterprise(이전 Adobe Experience Cloud) 로그인 페이지 또는 이전 DSP 로그인 페이지에서 [!DNL Adobe] 제품 간에 로그인할 수 있습니다. [!DNL Adobe ID]에서 사용자 프로필 관리를 제공합니다. 향후 릴리스에서는 상단 메뉴에서 DSP 계정, IMS 조직 계정 및 [!DNL Adobe] 제품을 변경할 수 있습니다.
+* [!DNL Adobe ID] 하나를 사용하여 Adobe CX Enterprise(이전 Adobe Experience Cloud) 로그인 페이지 또는 이전 DSP 로그인 페이지에서 [!DNL Adobe] 제품 간에 로그인할 수 있습니다. [!DNL Adobe ID]에서 사용자 프로필 관리를 제공합니다. 향후 릴리스에서는 상단 메뉴에서 DSP 계정, IMS 조직 계정 및 [!DNL Adobe] 제품을 변경할 수 있습니다.
 
 * 엔터프라이즈 인증이 지원됩니다.
 
@@ -44,42 +49,42 @@ Adobe Advertising DSP이 로그인 인증을 위해 Adobe Identity Management �
 
    * [experience.adobe.com](https://experience.adobe.com)&#x200B;(으)로 이동합니다.
 
-1. Enter your credentials:
+1. 자격 증명 입력:
 
-   * If you already use an [!DNL Adobe] account, then sign in with your existing credentials.
+   * 이미 [!DNL Adobe] 계정을 사용하고 있다면 기존 자격 증명으로 로그인하십시오.
 
-   * If you don&#39;t have an [!DNL Adobe] account, then look for an email inviting you to create an [!DNL Adobe] account. You&#39;ll receive one invitation for each of your DSP accounts. Follow the link in the email to set up your credentials. If you have multiple DSP accounts, follow the instructions to link them.
+   * [!DNL Adobe] 계정이 없는 경우 [!DNL Adobe] 계정을 만들 수 있도록 초대하는 전자 메일을 찾습니다. 각 DSP 계정에 대해 하나의 초대를 받게 됩니다. 이메일의 링크를 따라 자격 증명을 설정합니다. DSP 계정이 여러 개 있는 경우 지침에 따라 연결합니다.
 
-1. Choose your organization:
+1. 조직 선택:
 
-   * If prompted, select either **[!UICONTROL Personal Account]&quot; or &#x200B;** [!UICONTROL Company or School Account]**.
+   * 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**&#x200B;을(를) 선택합니다.
 
-   * If you have access to multiple IMS organizations, select the correct one.
+   * 여러 IMS 조직에 액세스할 수 있는 경우 올바른 조직을 선택합니다.
 
 사용자 프로필 관리를 포함하여 CX Enterprise 인터페이스에 대한 자세한 내용은 &quot;[CX Enterprise 인터페이스 및 관리](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
 
 ### 문제 해결
 
-For general sign-in issues, see also &quot;[Solve Adobe account sign-in issues](https://helpx.adobe.com/kr/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
+일반적인 로그인 문제에 대해서는 &quot;[Adobe 계정 로그인 문제 해결](https://helpx.adobe.com/kr/manage-account/kb/account-password-sign-help.linkfree.html)&quot;도 참조하십시오.
 
-#### Are there any prerequisites to enable a new [!DNL Adobe] IMS login?
+#### 새 [!DNL Adobe] IMS 로그인을 활성화하기 위한 필수 구성 요소가 있습니까?
 
-To add a new login account, share the email address with your Adobe Account Team. The team will add your address to the user list for the IMS organization to which DSP has been provisioned.
+새 로그인 계정을 추가하려면 Adobe 계정 팀과 이메일 주소를 공유하십시오. 팀은 DSP이 프로비저닝된 IMS 조직의 사용자 목록에 사용자 주소를 추가합니다.
 
-In the meanwhile, the user can continue to use their legacy DSP credentials.
+그동안 사용자는 기존 DSP 자격 증명을 계속 사용할 수 있습니다.
 
-#### After signing in using an Adobe IMS account, I&#39;m redirected back to the adobe.advertising.com login page.
+#### Adobe IMS 계정을 사용하여 로그인하면 adobe.advertising.com 로그인 페이지로 다시 리디렉션됩니다.
 
-Check with your IMS organization administrator that the email you are using was added to the IMS organization. If the administrator confirms that you are added to the IMS organization, then ask your Adobe Account Team to provision your account to use DSP.
+사용 중인 이메일이 IMS 조직에 추가되었는지 IMS 조직 관리자에게 문의하십시오. 관리자가 사용자가 IMS 조직에 추가된 것을 확인한 경우 Adobe 계정 팀에 DSP을 사용할 계정을 프로비저닝하도록 요청합니다.
 
-In the meanwhile, you can continue to use your legacy DSP credentials.
+그동안 기존 DSP 자격 증명을 계속 사용할 수 있습니다.
 
-#### I signed in using an incorrect email address, which signed me into [!DNL Adobe] but doesn&#39;t provide DSP access.
+#### 잘못된 전자 메일 주소를 사용하여 로그인했습니다. 이 전자 메일 주소는 [!DNL Adobe]에 로그인했지만 DSP 액세스를 제공하지 않습니다.
 
-1. Go to [experience.adobe.com](https://experience.adobe.com) and sign out.
+1. [experience.adobe.com](https://experience.adobe.com)&#x200B;(으)로 이동하여 로그아웃합니다.
 
-1. Go to [advertising.adobe.com](https://advertising.adobe.com) and sign in with the correct email ID.
+1. [advertising.adobe.com](https://advertising.adobe.com)&#x200B;(으)로 이동하여 올바른 전자 메일 ID로 로그인합니다.
 
-#### My [!DNL Adobe] IMS account and DSP account are registered with different emails. How do I sign in using my [!DNL Adobe] IMS account?
+#### 내 [!DNL Adobe] IMS 계정과 DSP 계정이 다른 전자 메일로 등록되었습니다. [!DNL Adobe] IMS 계정을 사용하여 로그인하려면 어떻게 해야 합니까?
 
-Ask your Adobe Account Team to provision your existing [!DNL Adobe] IMS account to use DSP.
+Adobe 계정 팀에 DSP을 사용하도록 기존 [!DNL Adobe] IMS 계정을 프로비저닝하도록 요청하십시오.

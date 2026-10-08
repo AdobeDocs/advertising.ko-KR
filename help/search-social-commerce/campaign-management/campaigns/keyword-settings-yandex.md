@@ -1,22 +1,26 @@
 ---
 title: '[!DNL Yandex] 키워드 설정'
-description: ' [!DNL Yandex] 키워드에 대한 설정을 참조합니다.'
+description: '[!DNL Yandex] 키워드에 대한 설정을 참조합니다.'
 exl-id: 973be0df-9b3c-4f33-b48b-ef1db4ab35da
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/-PRiQ9myH0XNYF8pc2OVBuLOK-8BpxzqruOP2hzPW0I
+TQID: 'https://experienceleague.adobe.com/-PRiQ9myH0XNYF8pc2OVBuLOK-8BpxzqruOP2hzPW0I'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 181
+source-wordcount: '193'
 ht-degree: 0%
-
 ---
-
 # [!DNL Yandex] 키워드 설정
 
 Yandex 키워드는 검색 및 표시(콘텐츠) 네트워크 모두에 사용됩니다.
@@ -44,7 +48,7 @@ Yandex 키워드는 검색 및 표시(콘텐츠) 네트워크 모두에 사용�
 
 ## 자리 표시자
 
-**[!UICONTROL Param1]** **[!UICONTROL Param2]:** 키워드를 사용하여 광고를 표시할 때 광고 및 사이트 링크의 기본 URL에서 `{param1}` 및 `{param2}` 인스턴스에 대해 대체되는 {param1} 및 {param2} 대체 변수의 값입니다. 최대 길이는 255바이트입니다.
+**[!UICONTROL Param1]** **[!UICONTROL Param2]:** 키워드를 사용하여 광고를 표시할 때 광고 및 사이트 링크의 기본 URL에서 {param1} 및 {param2} 인스턴스에 대해 대체되는 `{param1}` 및 `{param2}` 대체 변수의 값입니다. 최대 길이는 255바이트입니다.
 
 특수 문자는 UTF-8로 자동 인코딩됩니다. 예를 들어 연결된 광고에 기본 URL이 &quot;http://www.example.com/{param1}이고 키워드 수준 값이 {param1}인 경우 광고는 &quot;shoes/flats.html http://www.example.com/shoes%2Fflats.html&quot;으로 이어집니다.
 

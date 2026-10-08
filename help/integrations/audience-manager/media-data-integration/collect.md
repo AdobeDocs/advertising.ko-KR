@@ -3,30 +3,43 @@ title: Advertising DSP 캠페인에서 클릭 및 노출 데이터 수집
 description: Audience Manager 픽셀을 사용하여 Advertising DSP 광고에서 쿠키 기반 노출과 클릭 이벤트를 캡처하는 방법에 대해 알아봅니다
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-TQID: https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0
+TQID: 'https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 991
+source-wordcount: '1127'
 ht-degree: 0%
-
 ---
-
 # Advertising DSP 캠페인에서 미디어 노출 데이터 수집
 
 *Advertising DSP만 있는 광고주*
@@ -60,13 +73,13 @@ Audience Manager에서 DSP 노출에 대한 [데이터 소스](https://experienc
 
 `[Audience Manager customer domain].demdex.net/event?d_event=imp&d_src=[source id]&d_campaign=${TM_CAMPAIGN_ID_NUM}`
 
-[&#x200B; 접두사가 있는 &#x200B;](#parameters)선택적 추가 매개 변수`&` 사용
+`&` 접두사가 있는 [선택적 추가 매개 변수](#parameters) 사용
 
 **클릭 추적 픽셀:**
 
 `[Audience Manager customer domain].demdex.net/event?d_event=click&d_src=[source id]&d_rd=[redirect URL]&d_campaign=${TM_CAMPAIGN_ID_NUM}`
 
-[&#x200B; 접두사가 있는 &#x200B;](#parameters)선택적 추가 매개 변수`&` 사용
+`&` 접두사가 있는 [선택적 추가 매개 변수](#parameters) 사용
 
 위치:
 

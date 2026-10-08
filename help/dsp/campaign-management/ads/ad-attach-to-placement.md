@@ -3,22 +3,26 @@ title: 배치에서 광고 첨부 및 제거
 description: 배치에 광고를 첨부하고 배치에서 광고를 제거하는 방법을 알아봅니다.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-TQID: https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU
+TQID: 'https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '365'
 ht-degree: 0%
-
 ---
-
 # 배치에서 광고 첨부 및 제거
 
 배치에서 광고를 첨부 및 제거할 수 있습니다.
@@ -59,27 +63,27 @@ ht-degree: 0%
 
    * 새 배치를 만들고 이 배치에 광고를 첨부하려면 다음을 수행합니다.
 
-      1. **[!UICONTROL Create a New Placement]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Create a New Placement]**&#x200B;을(를) 클릭합니다.
 
-      1. [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)을 입력한 다음 **[!UICONTROL Create Placement]**&#x200B;을(를) 클릭합니다.
+     1. [배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)을 입력한 다음 **[!UICONTROL Create Placement]**&#x200B;을(를) 클릭합니다.
 
-         배치 유형은 광고 유형에 의해 결정됩니다.
+        배치 유형은 광고 유형에 의해 결정됩니다.
 
-      1. **[!UICONTROL Attach ad]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Attach ad]**&#x200B;을(를) 클릭합니다.
 
-      1. 배치에 첨부할 각 광고 옆의 확인란을 선택합니다.
+     1. 배치에 첨부할 각 광고 옆의 확인란을 선택합니다.
 
-      1. **[!UICONTROL Attach Selected Ads]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Attach Selected Ads]**&#x200B;을(를) 클릭합니다.
 
    * 기존 배치에 광고를 첨부하려면 다음을 수행합니다.
 
-      1. **[!UICONTROL Select a Placement].** 클릭
+     1. **[!UICONTROL Select a Placement].** 클릭
 
-      1. 배치 이름 옆에 있는 **[!UICONTROL Select].**&#x200B;을 클릭합니다.
+     1. 배치 이름 옆에 있는 **[!UICONTROL Select].**&#x200B;을 클릭합니다.
 
-      1. (선택 사항) 각 추가 배치에 대해 **[!UICONTROL Attach To Another Placement]**&#x200B;을(를) 클릭한 다음 이전 단계를 반복합니다.
+     1. (선택 사항) 각 추가 배치에 대해 **[!UICONTROL Attach To Another Placement]**&#x200B;을(를) 클릭한 다음 이전 단계를 반복합니다.
 
-      1. **[!UICONTROL I'm done for now]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL I'm done for now]**&#x200B;을(를) 클릭합니다.
 
 ## [!UICONTROL Placements] 보기에서 배치에서 광고 제거 {#remove-ads-placement}
 

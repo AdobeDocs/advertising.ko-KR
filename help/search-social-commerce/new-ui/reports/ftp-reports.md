@@ -2,13 +2,17 @@
 title: (새 UI) 보고서에 대한 FTP 액세스
 description: 읽기 전용 FTP 위치에서 보고서를 받는 방법을 알아봅니다.
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 보고서에 대한 FTP 액세스
 
 필요한 경우 읽기 전용 FTP 위치에서 보고서를 받을 수 있으며, 이 위치에서 추가적인 자동화된 프로세스(예: 다른 프로그램으로 데이터를 구문 분석하기 위해)에 대해 파일을 검색할 수 있습니다. [!UICONTROL Search Engine Account Report]과(와) 모든 고급 보고서를 제외한 모든 기본 보고서는 압축 TSV 파일(기본값) 또는 .ZIP 파일 확장명이 있는 CSV 파일로 FTP 위치에 배달할 수 있습니다. 모든 TSV 또는 CSV 파일 헤더가 포함되며 숨길 수 없습니다.
@@ -35,11 +39,11 @@ ht-degree: 0%
 
    * (선택 사항) 대괄호를 포함하여 다음 대소문자를 구분하는 구문을 사용하는 세 가지 시스템 날짜 중 하나입니다.
 
-      * `[TODAY]` — 보고서가 실행된 날짜, 시간 및 분을 포함합니다. 여기에는 정확한 시간이 포함되므로 이전 보고서를 덮어쓰지 않고 동일한 템플릿을 하루에 여러 번 실행할 수 있습니다.
+     * `[TODAY]` — 보고서가 실행된 날짜, 시간 및 분을 포함합니다. 여기에는 정확한 시간이 포함되므로 이전 보고서를 덮어쓰지 않고 동일한 템플릿을 하루에 여러 번 실행할 수 있습니다.
 
-      * `[SDATE]` — 보고서 날짜 범위의 시작 날짜를 포함합니다.
+     * `[SDATE]` — 보고서 날짜 범위의 시작 날짜를 포함합니다.
 
-      * `[EDATE]` — 보고서 날짜 범위의 종료 날짜를 포함합니다.
+     * `[EDATE]` — 보고서 날짜 범위의 종료 날짜를 포함합니다.
 
    * (선택 사항) `[CSV]`(대문자로 대괄호로 묶음)을 사용하여 기본 TSV 형식이 아닌 CSV 형식으로 파일을 만들 수 있습니다.
 

@@ -2,13 +2,19 @@
 title: 전문 보고서 정보
 description: 전문 보고서에 대해 알아봅니다.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: b5fadff06a523e2b1b248c2d262cbd6cd03669c3
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
-
 ---
-
 # 전문 보고서 정보
 
 대부분의 전문 보고서는 광고 네트워크에서 수집한 데이터로만 구성됩니다. 그러나 [!UICONTROL Google Ads Shopping Performance Report], [!UICONTROL Keyword Impression Share Report] 및 [!UICONTROL Campaign Impression Share Report]에는 [!DNL Adobe]이(가) 수집한 매출 데이터가 포함될 수 있습니다. 전문 보고서는 모든 사용자가 사용할 수 있습니다.

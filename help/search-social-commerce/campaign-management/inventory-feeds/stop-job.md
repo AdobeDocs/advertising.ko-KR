@@ -3,18 +3,21 @@ title: 재고 피드 데이터에 대한 게시 작업 중지
 description: 인벤토리 피드 데이터에 대한 게시 작업을 중지하는 방법을 알아봅니다.
 exl-id: 06a10ec1-bfff-4384-b1c8-ba6b504c6888
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/cjOAlWqQemvbK-H0RYvwnNF980UVmZjy-hp-SbrlWxo
+TQID: 'https://experienceleague.adobe.com/cjOAlWqQemvbK-H0RYvwnNF980UVmZjy-hp-SbrlWxo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: '125'
 ht-degree: 0%
-
 ---
-
 # 재고 피드 데이터에 대한 게시 작업 중지
 
 *[!DNL Google Ads], [!DNL LY Ads]&#x200B;(삭제 작업만), [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정만*
@@ -23,9 +26,9 @@ ht-degree: 0%
 
 * 데이터가 계속 전파되는 동안 게시할 수 있는 데이터가 없도록 전파 작업을 중지합니다.
 
-   1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
+  1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Templates] 탭이 열립니다.
 
-   1. 템플릿 이름 옆의 &quot;[!UICONTROL Last Prop. Status]&quot; 열에서 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭합니다.
+  1. 템플릿 이름 옆의 &quot;[!UICONTROL Last Prop. Status]&quot; 열에서 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭합니다.
 
 * 데이터가 이미 전파된 경우 [[!UICONTROL Bulksheets] 보기에서 게시 작업을 취소](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md)합니다.
 

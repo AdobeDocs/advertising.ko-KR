@@ -4,13 +4,17 @@ description: AI 지원 대상 에이전트를 사용하여 Adobe Advertising DSP
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 0%
-
 ---
-
 # 생성 AI를 사용하여 재사용 가능한 대상 만들기
 
 *Beta 기능*
@@ -89,11 +93,11 @@ AI 지원 대상 에이전트를 사용하면 명시된 요구 사항에 따라 
 
 * 대상 대상을 설명하려면 명확하고 수사적인 언어를 사용하십시오.
 
-   * 당신은 완전한 문장이나 일련의 특징들을 입력할 수 있다. 명확성을 위해 필요한 경우를 제외하고는 구두점이 필요하지 않습니다.
+  * 당신은 완전한 문장이나 일련의 특징들을 입력할 수 있다. 명확성을 위해 필요한 경우를 제외하고는 구두점이 필요하지 않습니다.
 
-   * 일반적으로 프롬프트는 대/소문자를 구분하지 않습니다.
+  * 일반적으로 프롬프트는 대/소문자를 구분하지 않습니다.
 
-   * Audience Agent는 가장 일반적인 동의어를 인식합니다.
+  * Audience Agent는 가장 일반적인 동의어를 인식합니다.
 
 * 포함하려는 모든 대상 특성과 제외하려는 특성에 대한 세부 정보를 지정하고 제공해야 합니다. 세부 정보를 많이 제공할수록 요구 사항에 맞는 결과를 얻을 수 있는 가능성이 커집니다.
 

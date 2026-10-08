@@ -3,18 +3,21 @@ title: 클릭 추적 URL에 대한 선택적 추적 매개 변수
 description: 클릭 추적 URL에 추가할 수 있는 선택적 검색, 소셜 및 Commerce 추적 매개 변수와 광고 네트워크별 추적 매개 변수에 대해 알아봅니다.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
+TQID: 'https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: '1146'
 ht-degree: 0%
-
 ---
-
 # 클릭 추적 URL에 대한 선택적 추적 매개 변수
 
 *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정만*
@@ -25,11 +28,11 @@ ht-degree: 0%
 
 * 계정/캠페인의 기본 URL에 Adobe Advertising 및 광고 네트워크별 매개 변수를 추가하여 더 많은 데이터를 추적할 수 있습니다.
 
-   * Adobe Advertising 매개 변수는 반정적입니다. Adobe Advertising은 기본 URL을 광고 네트워크에 업로드할 때 데이터 값을 삽입합니다. 예를 들어 `campaign={ef_campaign}`을(를) 기본 URL에 추가하면 Adobe Advertising은 URL을 업로드할 때 `{ef_campaign}`을(를) 실제 캠페인 이름(예: &quot;Back-to-school-Campaign&quot;)으로 대체합니다.
+  * Adobe Advertising 매개 변수는 반정적입니다. Adobe Advertising은 기본 URL을 광고 네트워크에 업로드할 때 데이터 값을 삽입합니다. 예를 들어 `campaign={ef_campaign}`을(를) 기본 URL에 추가하면 Adobe Advertising은 URL을 업로드할 때 `{ef_campaign}`을(를) 실제 캠페인 이름(예: &quot;Back-to-school-Campaign&quot;)으로 대체합니다.
 
-     **참고:** 값이 삽입되면 정적인 상태로 유지됩니다. 키워드나 광고를 다른 광고 그룹으로 이동하거나 광고 그룹을 다른 캠페인으로 이동하면 {ef_adgroup} 또는 {ef_campaign} 매개 변수가 자동으로 업데이트되지 않으므로 새 대상 URL 또는 기본(최종) URL을 수동으로 생성해야 합니다.
+    **참고:** 값이 삽입되면 정적인 상태로 유지됩니다. 키워드나 광고를 다른 광고 그룹으로 이동하거나 광고 그룹을 다른 캠페인으로 이동하면 {ef_adgroup} 또는 {ef_campaign} 매개 변수가 자동으로 업데이트되지 않으므로 새 대상 URL 또는 기본(최종) URL을 수동으로 생성해야 합니다.
 
-   * 광고 네트워크별 매개 변수는 동적이며 사용자가 광고를 클릭할 때 검색 엔진이 데이터 값을 삽입합니다. 예를 들어 기본 URL에 `{param1}`을(를) 추가하면 광고 네트워크는 최종 사용자가 광고를 클릭할 때 실제 {param1} 값으로 대체합니다.
+  * 광고 네트워크별 매개 변수는 동적이며 사용자가 광고를 클릭할 때 검색 엔진이 데이터 값을 삽입합니다. 예를 들어 기본 URL에 `{param1}`을(를) 추가하면 광고 네트워크는 최종 사용자가 광고를 클릭할 때 실제 {param1} 값으로 대체합니다.
 
 >[!NOTE]
 >
@@ -38,8 +41,8 @@ ht-degree: 0%
 >* 추가된 매개 변수의 특수 문자는 생성된 대상 URL 또는 기본(최종) URL에서 다음과 같이 대체됩니다.
 >  * `=`이(가) `%3D`(으)로 대체되었습니다.
 >  * `?`이(가) `%26`(으)로 대체되었습니다.
->  * 빈 공백은 `%2B`(으)로 대체됩니다.
->  예를 들어, 키워드의 기본 URL http://www.example.com에 매개 변수 `campaign={ef_campaign}`을(를) 추가하면 해당 키워드의 기본 URL이 `http://www.example.com/campaign%3D{ef_campaign}`(으)로 생성됩니다.
+>  * 빈 공백은 다음으로 대체됩니다. `%2B`
+>  예를 들어 키워드의 기본 URL http://www.example.com에 매개 변수 `campaign={ef_campaign}`을(를) 추가하면 해당 키워드의 기본 URL이 `http://www.example.com/campaign%3D{ef_campaign}`(으)로 생성됩니다.
 
 ## 검색, 소셜 및 Commerce 정적 추적 매개 변수
 

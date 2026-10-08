@@ -3,49 +3,60 @@ title: Advertising DSP의 고객 관리 정보
 description: 대상자 관리 기능에 대해 알아봅니다.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-TQID: https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA
+TQID: 'https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: '1457'
 ht-degree: 0%
-
 ---
-
 # Advertising DSP의 고객 관리 정보
 
 DSP에서는 배치에 대한 타겟으로 사용할 수 있는 대상 세그먼트 및 대상 세트를 만들고 관리할 수 있습니다.
 
 * DSP 세그먼트를 만들고 구현하여 고유한 자사 대상 데이터를 수집합니다. 나중에 광고를 사용하여 세그먼트의 사용자를 다시 타겟팅하거나 세그먼트의 사용자가 광고를 받지 못하도록 할 수 있습니다. 다음 유형의 세그먼트를 만들 수 있습니다.
 
-   * [사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md) - a) 데스크톱 및 모바일 장치에서 광고에 노출되는 사용자, b) 특정 웹 페이지를 방문하는 사용자를 추적합니다. 추적 태그는 쿠키 기반 사용자 또는 ID5 범용 ID와 연결된 사용자를 추적할 수 있습니다.
+  * [사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md) - a) 데스크톱 및 모바일 장치에서 광고에 노출되는 사용자, b) 특정 웹 페이지를 방문하는 사용자를 추적합니다. 추적 태그는 쿠키 기반 사용자 또는 ID5 범용 ID와 연결된 사용자를 추적할 수 있습니다.
 
-   * CCPA(California Consumer Privacy Act)에 따라 [CCPA 판매 중지 세그먼트](/help/dsp/audiences/ccpa-opt-out-segment-create.md)를 통해 웹 사이트의 소비자 판매 중지 요청에서 사용자 ID를 추적할 수 있습니다. 판매 중지 요청에서 사용자 ID의 월별 보고서를 검색할 수 있습니다.
+  * CCPA(California Consumer Privacy Act)에 따라 [CCPA 판매 중지 세그먼트](/help/dsp/audiences/ccpa-opt-out-segment-create.md)를 통해 웹 사이트의 소비자 판매 중지 요청에서 사용자 ID를 추적할 수 있습니다. 판매 중지 요청에서 사용자 ID의 월별 보고서를 검색할 수 있습니다.
 
-     CCPA 판매 중지 요청에 대한 Adobe Advertising 지원에 대한 자세한 내용은 [캘리포니아 소비자 개인정보 보호법: 소비자 판매 중지 지원](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)에 대한 Adobe Advertising 지원을 참조하십시오.
+    CCPA 판매 중지 요청에 대한 Adobe Advertising 지원에 대한 자세한 내용은 [캘리포니아 소비자 개인정보 보호법: 소비자 판매 중지 지원](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)에 대한 Adobe Advertising 지원을 참조하십시오.
 
 * [쿠키 없는 타깃팅을 위해 유니버설 ID를 가져와 사용](/help/dsp/audiences/universal-ids.md):
 
-   * 인증된 [!DNL LiveRamp] [!DNL RampID] 세그먼트를 수동으로 DSP에 직접 보냅니다.
+  * 인증된 [!DNL LiveRamp] [!DNL RampID] 세그먼트를 수동으로 DSP에 직접 보냅니다.
 
-   * DSP에서 고객 데이터 플랫폼에서 자사 세그먼트를 가져와 지원되는 범용 ID 유형으로 변환할 수 있습니다.
+  * DSP에서 고객 데이터 플랫폼에서 자사 세그먼트를 가져와 지원되는 범용 ID 유형으로 변환할 수 있습니다.
 
-   * [!DNL AdFixus] 유니버설 ID가 포함된 자사 [!DNL AdFixus] 세그먼트를 가져옵니다(오스트레일리아만 해당). 그런 다음 배치를 [!DNL AdFixus]개의 ID로 타깃팅하고, 이러한 세그먼트를 [재사용 가능한 대상](/help/dsp/audiences/reusable-audience-create.md)에 추가하고, &quot;[다음에서 자사 세그먼트 가져오기 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)&quot;에 설명된 보고를 사용할 수 있습니다.
+  * [!DNL AdFixus] 유니버설 ID가 포함된 자사 [!DNL AdFixus] 세그먼트를 가져옵니다(오스트레일리아만 해당). 그런 다음 배치를 [!DNL AdFixus]개의 ID로 타깃팅하고, 이러한 세그먼트를 [재사용 가능한 대상](/help/dsp/audiences/reusable-audience-create.md)에 추가하고, &quot;[다음에서 자사 세그먼트 가져오기 [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)&quot;에 설명된 보고를 사용할 수 있습니다.
 
-   * 추가 단계 없이 배치 대상에 범용 ID가 포함된 서드파티 세그먼트를 포함합니다.
+  * 추가 단계 없이 배치 대상에 범용 ID가 포함된 서드파티 세그먼트를 포함합니다.
 
 * [재사용 가능한 대상](/help/dsp/audiences/reusable-audience-create.md)의 대상 라이브러리를 만듭니다. 저장된 대상은 사용 가능한 대상 세그먼트와 다른 저장된 대상으로 구성됩니다. 저장된 대상에 대한 변경 사항은 대상을 타깃팅하거나 제외하는 모든 배치와 저장된 대상을 포함하는 다른 모든 대상에 자동으로 적용됩니다.
 
@@ -79,11 +90,11 @@ DSP 사용자 인터페이스를 사용하거나 사용자 지정 가져오기 �
 
 * DSP에서 만든 사용자가 만든 모든 대상 세그먼트:
 
-   * 특정 웹 페이지를 방문한 사용자 및 특정 광고의 노출에 노출된 사용자를 위한 사용자 지정 세그먼트입니다.
+  * 특정 웹 페이지를 방문한 사용자 및 특정 광고의 노출에 노출된 사용자를 위한 사용자 지정 세그먼트입니다.
 
-     범용 ID에 게재되는 노출에 대해서는 요금이 부과되지 않습니다.
+    범용 ID에 게재되는 노출에 대해서는 요금이 부과되지 않습니다.
 
-   * 캘리포니아 소비자 개인정보 보호법(CCPA)에 따라 웹 사이트에서 판매 중지 요청을 제출한 사용자에 대한 CCPA 판매 중지 대상 세그먼트입니다.
+  * 캘리포니아 소비자 개인정보 보호법(CCPA)에 따라 웹 사이트에서 판매 중지 요청을 제출한 사용자에 대한 CCPA 판매 중지 대상 세그먼트입니다.
 
 * 유니버설 ID로 변환된 세그먼트 및 가져온 [!DNL AdFixus]개의 유니버설 ID가 포함된 세그먼트를 포함하여 가져온 모든 자사 데이터 세그먼트.
 
@@ -97,11 +108,11 @@ DSP 사용자 인터페이스를 사용하거나 사용자 지정 가져오기 �
 
   타사 세그먼트는 각 세그먼트 이름 옆에 표시되는 추가 비용을 발생시킵니다.
 
-* (Adobe Advertising JavaScript 전환 태그만 사용하는 Adobe Experience Platform 및 [!DNL Real-Time CDP], Adobe Audience Manager 또는 Adobe Analytics을 사용하는 광고주) [!DNL Real-Time CDP]에서 만들었거나, Audience Manager에서 만들었거나, Audience Manager 또는 [!DNL Analytics]에서 Adobe CX Enterprise에 게시한 모든 사용 가능한 첫 번째, 두 번째 또는 타사 대상 세그먼트.
+* (Adobe Advertising JavaScript 전환 태그만 사용하는 Adobe Experience Platform 및 [!DNL Real-Time CDP], Adobe Audience Manager 또는 Adobe Analytics을 사용하는 광고주) [!DNL Real-Time CDP]에서 만들었거나, Audience Manager에서 만들었거나, Audience Manager 또는 [!DNL Analytics]에서 Adobe CX Enterprise에 게시한 사용 가능한 모든 퍼스트 파티, 세컨드 파티 또는 서드파티 대상 세그먼트.
 
   세그먼트 사용에 대한 요금은 사전 협상되며 DSP에 표시되지 않습니다.
 
-  [!DNL Analytics]의 세그먼트는 CX 엔터프라이즈 대상으로 만들거나 게시한 후 약 1시간 후에 사용할 수 있습니다. Audience Manager 또는 [!DNL Real-Time CDP]에서 직접 가져온 세그먼트는 공유한 후 24시간 이내에 사용할 수 있습니다.
+  [!DNL Analytics]의 세그먼트는 CX Enterprise 대상자로 만들거나 게시한 후 약 1시간 후에 사용할 수 있습니다. Audience Manager 또는 [!DNL Real-Time CDP]에서 직접 가져온 세그먼트는 공유한 후 24시간 이내에 사용할 수 있습니다.
 
   >[!NOTE]
   >

@@ -1,30 +1,43 @@
 ---
-title: ' [!DNL Analytics for Advertising]을(를) 구현하기 위한 필수 구성 요소 및 주요 정보'
-description: ' [!DNL Analytics for Advertising]을(를) 구현하기 위한 필수 구성 요소 및 주요 정보'
+title: '[!DNL Analytics for Advertising]을(를) 구현하기 위한 필수 구성 요소 및 주요 정보'
+description: '[!DNL Analytics for Advertising]을(를) 구현하기 위한 필수 구성 요소 및 주요 정보'
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-TQID: https://experienceleague.adobe.com/ZUROuxkhySqUbUOInKkdhgvmqJth3P-9-fVDHojrn34
+TQID: 'https://experienceleague.adobe.com/ZUROuxkhySqUbUOInKkdhgvmqJth3P-9-fVDHojrn34'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+    internal-label: Data integration
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
-source-wordcount: 840
+source-wordcount: '840'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics for Advertising]을(를) 구현하기 위한 필수 구성 요소 및 주요 정보
 
 *Advertising Creative, Advertising DSP 및 Advertising 검색, 소셜 및 Commerce을 사용하는 광고주*
@@ -35,7 +48,7 @@ Adobe Advertising을 Adobe Analytics과 통합하기 전에 다음 정보를 검
 
 * 다음 중 하나를 수행합니다.
   * Adobe Experience Platform 웹 SDK: `alloy.js`
-  * Experience Cloud Identity 서비스: `visitorAPI.js` 버전 2.0 이상
+  * Adobe 방문자 ID 서비스: `visitorAPI.js` 버전 2.0 이상
 * 모든 버전의 Adobe Analytics([!DNL Prime], [!DNL Premium] 또는 [!DNL Ultimate] 포함)
 * Adobe Analytics: `appMeasurement.js` 버전 2.1 이상
 * (Advertising DSP 고객) 뷰스루 방문을 추적하기 위해 웹 페이지에 배포된 [Advertising DSP JavaScript 코드 조각](javascript.md).
@@ -46,7 +59,7 @@ Adobe Advertising을 Adobe Analytics과 통합하기 전에 다음 정보를 검
 
 ## Adobe Advertising과 Analytics 세그먼트 공유를 위한 요구 사항
 
-* Experience Cloud Identity 서비스: `visitorAPI.js` 버전 2.1 이상
+* Adobe 방문자 ID 서비스: `visitorAPI.js` 버전 2.1 이상
 * Adobe Analytics: `appMeasurement.js` 버전 1.8 이상
 
 ## Adobe Advertising에서 [!DNL Analytics] 데이터를 보고하기 위한 요구 사항
@@ -54,7 +67,7 @@ Adobe Advertising을 Adobe Analytics과 통합하기 전에 다음 정보를 검
 Adobe Advertising 구현 팀에 다음 사항을 제공합니다.
 
 * 유료 미디어 활동에 대한 보고 및 Adobe Advertising의 최적화 및 보고를 위해 사이트 활동을 제공하는 데 사용할 [!DNL Analytics] 보고서 세트 ID
-* 회사의 CX 엔터프라이즈 조직 ID(조직 ID).
+* 회사의 CX Enterprise 조직 ID(조직 ID).
 
 이 두 ID는 모두 Adobe Experience Platform Debugger의 [요약 탭](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ko)에서 찾을 수 있습니다.
 

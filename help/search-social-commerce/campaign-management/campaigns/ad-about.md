@@ -3,20 +3,24 @@ title: 광고 관리
 description: 사용 가능한 광고 유형을 포함하여 검색, 소셜 및 Commerce의 광고에 대해 알아봅니다.
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
+TQID: 'https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # 광고 정보
 
 *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] 및 기존 [!DNL Baidu] 계정만*
@@ -31,9 +35,9 @@ ht-degree: 0%
 
 * [!DNL Microsoft Audience Network]의 [!DNL Microsoft Advertising] 캠페인에 대한 교차 장치, 기본 **대상 광고**. 캠페인 설정에 따라 대상 광고에 대한 두 가지 옵션이 있습니다.
 
-   * 캠페인이 판매자 센터 상점에 연결된 경우 광고 네트워크에서 상점의 제품 정보를 사용하여 캠페인에 대한 광고 피드 기반 광고를 자동으로 생성하도록 합니다. 캠페인에 대한 피드 기반 광고를 만들 필요는 없지만 사용자 타겟팅을 사용하여 광고 그룹을 만들어야 합니다.
+  * 캠페인이 판매자 센터 상점에 연결된 경우 광고 네트워크에서 상점의 제품 정보를 사용하여 캠페인에 대한 광고 피드 기반 광고를 자동으로 생성하도록 합니다. 캠페인에 대한 피드 기반 광고를 만들 필요는 없지만 사용자 타겟팅을 사용하여 광고 그룹을 만들어야 합니다.
 
-   * 캠페인이 판매자 센터 계정에 연결되어 있지 않은 경우, 여러 텍스트 및 이미지 에셋이 포함된 반응형 광고 형식을 사용하여 이미지 기반 대상 광고를 만드십시오. 광고 네트워크는 가장 효과적인 광고 요소 조합을 사용하여 광고를 조합하고 [!DNL MSN], [!DNL Outlook.com] 및 [!DNL Microsoft Edge]과(와) 같은 사이트에 표시합니다.
+  * 캠페인이 판매자 센터 계정에 연결되어 있지 않은 경우, 여러 텍스트 및 이미지 에셋이 포함된 반응형 광고 형식을 사용하여 이미지 기반 대상 광고를 만드십시오. 광고 네트워크는 가장 효과적인 광고 요소 조합을 사용하여 광고를 조합하고 [!DNL MSN], [!DNL Outlook.com] 및 [!DNL Microsoft Edge]과(와) 같은 사이트에 표시합니다.
 
 * 검색 네트워크에서 [!DNL Google Ads] 캠페인에 대한 **통화 전용 광고**. 호출 전용 광고는 전화 번호를 포함하는 텍스트 광고입니다. 필요에 따라 고급 호출 보고를 위해 [!DNL Google Ads]이(가) 할당한 전달 번호를 사용할 수 있습니다.
 

@@ -1,22 +1,25 @@
 ---
 title: 대상자 기본 정보
-description: ' [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 대상자를 추적, 만들기 및 관리하는 옵션에 대해 알아봅니다.'
+description: '[!DNL Google Ads] 및 [!DNL Microsoft Advertising] 대상자를 추적, 만들기 및 관리하는 옵션에 대해 알아봅니다.'
 exl-id: f85cbc82-ddbc-4ecd-a17b-b4cb4808cfbc
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/B77S28vEpSkrgNmhc-Ekn7PXh3W-y2g9et2y3gCQPK8
+TQID: 'https://experienceleague.adobe.com/B77S28vEpSkrgNmhc-Ekn7PXh3W-y2g9et2y3gCQPK8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 # 검색, 소셜 및 Commerce에서 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 대상자 관리 정보
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising]만*
@@ -27,9 +30,9 @@ ht-degree: 0%
 
 * **Adobe 대상 세그먼트:** 옵트인 Adobe Audience Manager 또는 Adobe Analytics 계정이 있는 광고주는 [!DNL Adobe] 세그먼트의 [!DNL Google Ads] 고객 일치 대상을 만들 수 있습니다.
 
-   * (Audience Manager이 없는 [!DNL Analytics] 계정이 있는 광고주) Adobe CX Enterprise과 공유된 [!DNL Analytics] 세그먼트의 사용자 ID를 사용하여 [!DNL Google Ads] 고객 일치 대상을 만들 수 있습니다.
+  * (Audience Manager이 없는 [!DNL Analytics] 계정이 있는 광고주) Adobe CX Enterprise과 공유된 [!DNL Analytics] 세그먼트의 사용자 ID를 사용하여 [!DNL Google Ads] 고객 일치 대상을 만들 수 있습니다.
 
-   * (Audience Manager 계정이 있는 광고주) 검색, 소셜 및 Commerce을 대상으로 하는 Audience Manager 세그먼트의 사용자 ID를 사용하여 [!DNL Google Ads]개의 고객 일치 대상을 만들 수 있습니다. 여기에는 Adobe CX Enterprise에 게시된 Adobe Analytics 세그먼트와 Adobe CX Enterprise 대상 라이브러리를 사용하여 만든 세그먼트가 포함될 수 있습니다.
+  * (Audience Manager 계정이 있는 광고주) 검색, 소셜 및 Commerce을 대상으로 하는 Audience Manager 세그먼트의 사용자 ID를 사용하여 [!DNL Google Ads]개의 고객 일치 대상을 만들 수 있습니다. 여기에는 Adobe CX Enterprise에 게시된 Adobe Analytics 세그먼트와 Adobe CX Enterprise 대상 라이브러리를 사용하여 만든 세그먼트가 포함될 수 있습니다.
 
   고객 일치 대상을 만들려면 광고주의 [!DNL Google Ads] 계정이 [사용자 지정 일치에 적합](https://support.google.com/adspolicy/answer/6299717)되고 [사용자 ID 세그먼트](https://support.google.com/google-ads/answer/9199250)를 옵트인해야 합니다. 또한 고객 일치 대상을 만들 수 있도록 검색, 소셜 및 Commerce의 광고주 계정을 구성해야 합니다.
 

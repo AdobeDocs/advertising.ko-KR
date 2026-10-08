@@ -3,27 +3,31 @@ title: 공유 사이트 링크 관리
 description: 공유 사이트링크 확장을 만들고 관리하는 방법을 알아봅니다.
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI
+TQID: 'https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
 # 공유 사이트 링크 관리
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising]만*
 
-[!DNL Google Ads] > [!DNL Microsoft Advertising] 라이브러리에서 동기화된 [!UICONTROL Extensions] 또는 [!UICONTROL Sitelinks] 계정에 대한 계정 수준 공유 사이트링크를 만들고 관리합니다.
+[!UICONTROL Extensions] > [!UICONTROL Sitelinks] 라이브러리에서 동기화된 [!DNL Google Ads] 또는 [!DNL Microsoft Advertising] 계정에 대한 계정 수준 공유 사이트링크를 만들고 관리합니다.
 
 ## 공유 사이트링크 만들기
 
@@ -81,9 +85,9 @@ ht-degree: 0%
 
 **[!UICONTROL Description Line 1], [!UICONTROL Description Line 2]:** 검색 엔진이 링크 텍스트 아래에 표시할 수 있는 추가 텍스트입니다. 설명을 포함하려면 두 설명 필드 모두에 대한 값을 입력합니다. 각 설명 필드에는 최대 35개의 1바이트 문자 또는 17개의 2바이트 문자가 포함될 수 있습니다.
 
-**[!UICONTROL Start Date]:**(기존 사이트 링크가 있거나 사이트 링크만 없는 캠페인; 선택 사항) 캠페인에서 사이트 링크가 광고와 함께 표시될 수 있는 첫 번째 날짜입니다. 새 사이트 링크의 기본값은 현재 날짜입니다. 미래의 시작 날짜를 지정하려면 MM/DD/YYYY 또는 M/D/YYYY 형식으로 날짜를 입력하거나   날짜를 선택합니다.
+**[!UICONTROL Start Date]:**(기존 사이트 링크가 있거나 사이트 링크만 없는 캠페인; 선택 사항) 캠페인에서 사이트 링크가 광고와 함께 표시될 수 있는 첫 번째 날짜입니다. 새 사이트 링크의 기본값은 현재 날짜입니다. 미래의 시작 날짜를 지정하려면 MM/DD/YYYY 또는 M/D/YYYY 형식으로 날짜를 입력하거나 날짜를 클릭하고 선택합니다.
 
-**[!UICONTROL End Date]:**(선택 사항) 캠페인에서 사이트 링크가 광고와 함께 표시될 수 있는 마지막 날짜입니다. 기본적으로 사이트링크가 무기한으로 표시될 수 있습니다. 종료 날짜를 지정하려면 MM/DD/YYYY 또는 M/D/YYYY 형식으로 날짜를 입력하거나   날짜를 선택합니다.
+**[!UICONTROL End Date]:**(선택 사항) 캠페인에서 사이트 링크가 광고와 함께 표시될 수 있는 마지막 날짜입니다. 기본적으로 사이트링크가 무기한으로 표시될 수 있습니다. 종료 날짜를 지정하려면 MM/DD/YYYY 또는 M/D/YYYY 형식으로 날짜를 입력하거나 날짜를 클릭하고 선택합니다.
 
 **[!UICONTROL Mobile Preference]:**(선택 사항) 네트워크에서 데스크톱 또는 태블릿 사용자가 아닌 모바일 장치 사용자에게 광고 확장을 표시하려고 할 수 있습니다. 기본적으로 옵션은 활성화되어 있지 않고 광고 확장 기능은 장치 유형에 표시됩니다.
 
@@ -107,7 +111,7 @@ ht-degree: 0%
 
 * 캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;자동 업로드&quot;가 포함된 경우에 적용되는 Adobe Advertising 전환 추적의 경우 레코드를 저장할 때 검색, 소셜 및 Commerce에서 자동으로 자체 클릭 추적 코드 접두사를 추가합니다.
 
-* 최종 URL을 포함하는 지원되는 매개 변수에 대해서는 [!DNL Microsoft Advertising]documentation[[!DNL Microsoft Advertising] 의 &quot;사용 가능한 &#x200B;](https://help.ads.microsoft.com/#apex/3/en/56799) 매개 변수&quot;에 대한 섹션에서 ([!DNL Google Ads]만 해당) [!DNL ValueTrack]documentation[[!DNL Google Ads]  또는 (](https://support.google.com/google-ads/answer/6305348)만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
+* 최종 URL을 포함하는 지원되는 매개 변수에 대해서는 [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348)의 &quot;사용 가능한 [!DNL ValueTrack] 매개 변수&quot;에 대한 섹션에서 ([!DNL Microsoft Advertising]만 해당) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) 또는 ([!DNL Google Ads]만 해당) &quot;추적 템플릿 전용&quot; 매개 변수를 참조하십시오.
 
 * 필요에 따라 URL 매개 변수와 캠페인에 대해 정의된 사용자 지정 매개 변수를 앰퍼샌드(&amp;)로 구분하여 포함할 수 있습니다(예: `{lpurl}?matchtype={matchtype}&device={device}`).
 

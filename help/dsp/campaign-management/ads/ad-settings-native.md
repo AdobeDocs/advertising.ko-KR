@@ -3,22 +3,26 @@ title: 기본 디스플레이 광고 설정
 description: 기본 디스플레이 광고에 사용할 수 있는 광고 설정에 대한 설명을 참조하십시오.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-TQID: https://experienceleague.adobe.com/e8QS9qdzTGrlRMjbgvQDZEhlsh4BdYZ-tJ6b7D-cGfQ
+TQID: 'https://experienceleague.adobe.com/e8QS9qdzTGrlRMjbgvQDZEhlsh4BdYZ-tJ6b7D-cGfQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '224'
 ht-degree: 0%
-
 ---
-
 # 기본 디스플레이 광고 설정
 
 ## [!UICONTROL Ad Options]
@@ -41,13 +45,13 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page]:** 뷰어가 광고를 클릭할 때 들어오는 URL입니다.
 
-**[!UICONTROL Final Landing Page]:** 필요한 [!UICONTROL Landing Page]Advertising DSP 추적 매크로[가 삽입된 &#x200B;](/help/dsp/campaign-management/macros.md) URL입니다(해당하는 경우).
+**[!UICONTROL Final Landing Page]:** 필요한 [Advertising DSP 추적 매크로](/help/dsp/campaign-management/macros.md)가 삽입된 [!UICONTROL Landing Page] URL입니다(해당하는 경우).
 
 **[!UICONTROL Sponsored By (Advertiser Name)]:** 광고주입니다.
 
 **[!UICONTROL Call to Action]:**(선택 사항) 사용자가 이 광고를 보게 되면 수행할 단계입니다.
 
-**[!UICONTROL Advertiser Logo]:**(선택 사항) 더 많은 브랜드 인식을 위해 광고에 포함할 1:1 비율 로고입니다. **[!UICONTROL Browse]**&#x200B;을(를) 클릭하고 장치나 네트워크에서 파일을 찾은 다음 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
+**[!UICONTROL Advertiser Logo]:**(선택 사항) 더 많은 브랜드 인식을 위해 광고에 포함할 1:1 비율의 로고입니다. **[!UICONTROL Browse]**&#x200B;을(를) 클릭하고 장치나 네트워크에서 파일을 찾은 다음 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
 ### [!UICONTROL Pixel]
 

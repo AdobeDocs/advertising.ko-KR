@@ -3,24 +3,29 @@ title: 캠페인 복제
 description: 캠페인을 복제하는 방법을 알아봅니다.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-TQID: https://experienceleague.adobe.com/Oq-1l3Ls2uEul-OQFVfiMoed8NewiX0X-EZzBPlSCHU
+TQID: 'https://experienceleague.adobe.com/Oq-1l3Ls2uEul-OQFVfiMoed8NewiX0X-EZzBPlSCHU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 0%
-
 ---
-
 # 캠페인 복제
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
@@ -59,10 +64,10 @@ ht-degree: 0%
 * (광고를 첨부하지 않는 경우) 사용자 지정 광고 가중치 및 예약
 * 프로그래밍 방식 보장(PG) 거래의 기본 배치 및 [!UICONTROL Simple Ad Serving] 거래의 배치
 * (배치를 다른 캠페인에 복사하는 경우):
-   * 지역 대상
-   * 이벤트 픽셀
-   * 광고
-   * 배치 수준 [!DNL DoubleVerify Authentic Brand Suitability] 세그먼트(광고주 수준 세그먼트를 재정의함)
+  * 지역 대상
+  * 이벤트 픽셀
+  * 광고
+  * 배치 수준 [!DNL DoubleVerify Authentic Brand Suitability] 세그먼트(광고주 수준 세그먼트를 재정의함)
 
 ## 새 캠페인 구성 모범 사례
 
@@ -75,21 +80,21 @@ ht-degree: 0%
 
 * 다음 사항을 고려하고 필요에 따라 새 캠페인을 편집합니다.
 
-   * 그 계좌에는 새로운 캠페인 예산을 수용할 충분한 자금이 있습니까?
+  * 그 계좌에는 새로운 캠페인 예산을 수용할 충분한 자금이 있습니까?
 
-   * 새 캠페인에 이전 캠페인과 다른 예산이 필요합니까?
+  * 새 캠페인에 이전 캠페인과 다른 예산이 필요합니까?
 
-   * 배치에 최소 예산이 필요합니까?
+  * 배치에 최소 예산이 필요합니까?
 
-   * 필요한 사용자 지정 광고 가중치 및 일정을 포함하여 크리에이티브를 업로드하고 배치에 첨부합니다.
+  * 필요한 사용자 지정 광고 가중치 및 일정을 포함하여 크리에이티브를 업로드하고 배치에 첨부합니다.
 
-   * 필요에 따라 배치 및 광고에 이벤트 픽셀을 첨부합니다.
+  * 필요에 따라 배치 및 광고에 이벤트 픽셀을 첨부합니다.
 
-   * 필요한 경우 배치에 지리적 대상과 배치 수준 [!DNL DoubleVerify Authentic Brand Safety] 세그먼트를 포함하십시오.
+  * 필요한 경우 배치에 지리적 대상과 배치 수준 [!DNL DoubleVerify Authentic Brand Safety] 세그먼트를 포함하십시오.
 
-   * 프로그램 보증 거래의 경우 새 거래 ID를 사용하고 기본 배치를 만듭니다.
+  * 프로그램 보증 거래의 경우 새 거래 ID를 사용하고 기본 배치를 만듭니다.
 
-   * 필요에 따라 [!UICONTROL Simple Ad Serving] 거래에 대한 새 배치를 만듭니다.
+  * 필요에 따라 [!UICONTROL Simple Ad Serving] 거래에 대한 새 배치를 만듭니다.
 
 * 성과 캠페인(즉, 사용자 지정 최적화 목표를 사용하는 패키지가 있는 캠페인)의 경우 각 패키지에 대해 [[!UICONTROL Linked Package for Optimization Learnings Carryover] 설정](/help/dsp/campaign-management/packages/package-settings.md)을(를) 사용하여 이전 캠페인의 기록 데이터를 패키지 최적화를 위한 입력으로 사용합니다.
 

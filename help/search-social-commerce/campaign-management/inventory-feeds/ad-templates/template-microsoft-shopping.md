@@ -1,23 +1,28 @@
 ---
 title: 인벤토리 피드에 대한 [!DNL Microsoft Ads] 쇼핑 광고 템플릿 설정
-description: 인벤토리 피드에 대한  [!DNL Microsoft Ads] 쇼핑 광고 템플릿 설정을 참조하십시오.
+description: 인벤토리 피드에 대한 [!DNL Microsoft Ads] 쇼핑 광고 템플릿에 대한 설정을 참조하십시오.
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/Q-TmSKd7yk8Infwx-Nyar61Bu-oqK8NUd2qgJbAOTDA
+TQID: 'https://experienceleague.adobe.com/Q-TmSKd7yk8Infwx-Nyar61Bu-oqK8NUd2qgJbAOTDA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '549'
 ht-degree: 0%
-
 ---
-
 # 인벤토리 피드에 대한 [!DNL Microsoft Ads] 쇼핑 광고 템플릿 설정
 
 쇼핑 광고 템플릿을 사용하여 쇼핑 광고를 구성합니다.
@@ -68,9 +73,9 @@ ht-degree: 0%
 
 * 캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우 다음 중 하나를 수행합니다.&quot;
 
-   * (권장) [Microsoft 쇼핑 캠페인에 대한 추적 템플릿 형식](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)을 사용하십시오. 전체 계정이 쇼핑 광고 전용인 경우 대신 계정 수준에서 추적 템플릿을 정의할 수 있습니다.
+  * (권장) [Microsoft 쇼핑 캠페인에 대한 추적 템플릿 형식](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)을 사용하십시오. 전체 계정이 쇼핑 광고 전용인 경우 대신 계정 수준에서 추적 템플릿을 정의할 수 있습니다.
 
-   * 대신 &quot;[!DNL bingads_redirect]&quot; 열([올바른 형식](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md) 사용)을 사용하여 피드에 각 제품의 값을 포함하는 경우 매개 변수 `{lpurl}`을(를) 입력하십시오. 필요에 따라 `{lpurl}` 매개 변수에 타사 리디렉션 및 추적을 추가할 수 있습니다.
+  * 대신 &quot;[!DNL bingads_redirect]&quot; 열([올바른 형식](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md) 사용)을 사용하여 피드에 각 제품의 값을 포함하는 경우 매개 변수 `{lpurl}`을(를) 입력하십시오. 필요에 따라 `{lpurl}` 매개 변수에 타사 리디렉션 및 추적을 추가할 수 있습니다.
 
 * 서드파티 리디렉션 및 추적의 경우 값을 입력합니다.
 
@@ -162,7 +167,7 @@ Adobe Advertising 전환 추적의 경우 값을 입력할 필요가 없습니�
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
 **[!UICONTROL Tracking Template]:**(하위 제품 그룹이 없는 단위, 선택 사항) 제품에 대한 추적 템플릿
-모든 오프랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 [!DNL ValueTrack] 매개 변수에 최종 URL을 임베드하는 그룹입니다. 이 템플릿은 상위 수준의 템플릿을 무시합니다.
+모든 랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 [!DNL ValueTrack] 매개 변수에 최종 URL을 임베드하는 그룹입니다. 이 템플릿은 상위 수준의 템플릿을 무시합니다.
 
 Adobe Advertising 전환 추적의 경우 값을 입력할 필요가 없습니다. 캠페인 수준 값이면 충분합니다.
 

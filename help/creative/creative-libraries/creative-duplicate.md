@@ -3,18 +3,26 @@ title: 광고 복제
 description: Creative Library에서 크리에이티브를 복제하는 방법을 알아봅니다.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-TQID: https://experienceleague.adobe.com/6bYzgOvJsLMr56-nTkPIe3AWsTST--he0xQ9-btQ2nA
+TQID: 'https://experienceleague.adobe.com/6bYzgOvJsLMr56-nTkPIe3AWsTST--he0xQ9-btQ2nA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d06c1576-7039-4934-b256-7366e138fbb6
+    internal-label: Creative Standard Creatives
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: '195'
 ht-degree: 0%
-
 ---
-
 # 광고 복제
 
 크리에이티브를 복제하여 동일한 설정을 가진 새 크리에이티브를 동일한 라이브러리에 추가합니다. 나중에 새 크리에이티브의 이름을 바꾸고 필요에 따라 크리에이티브 설정을 편집할 수 있습니다.
@@ -31,9 +39,9 @@ ht-degree: 0%
 
    * 단일 크리에이티브를 복제하려면 다음을 수행합니다.
 
-      * 카드 보기에서 Creative 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
+     * 카드 보기에서 Creative 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 
-      * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
+     * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 
    * 하나 이상의 크리에이티브를 복제하려면 복제할 각 크리에이티브에 대한 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 

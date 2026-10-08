@@ -3,18 +3,21 @@ title: 쇼핑 제품 그룹 관리
 description: 쇼핑 캠페인에서 쇼핑 제품 그룹을 만들고 관리하는 방법을 알아봅니다.
 exl-id: cf818b87-ee4b-4cf5-a4e8-0b9a7fc32182
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k
+TQID: 'https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 720
+source-wordcount: '716'
 ht-degree: 0%
-
 ---
-
 # 쇼핑 제품 그룹 관리
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising] 쇼핑 캠페인만*
@@ -103,13 +106,13 @@ ht-degree: 0%
 
    * 하나 이상의 제품 그룹을 삭제하려면 다음을 수행합니다.
 
-      1. 삭제할 각 제품 그룹 옆의 확인란을 선택합니다.
+     1. 삭제할 각 제품 그룹 옆의 확인란을 선택합니다.
 
-         여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
+        여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
 
-      1. 도구 모음에서 ![자세히](/help/search-social-commerce/assets/more.png "자세히")를 클릭하고 **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다.
+     1. 도구 모음에서 ![자세히](/help/search-social-commerce/assets/more.png "자세히")를 클릭하고 **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다.
 
-      1. 확인 메시지에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
+     1. 확인 메시지에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >

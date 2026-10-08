@@ -2,13 +2,17 @@
 title: (새 UI) 사용자 지정 경고 관리
 description: 사용자 지정 경고 및 경고 템플릿을 생성, 구성, 일시 중지, 활성화, 삭제, 보기 및 내보내는 방법을 알아봅니다.
 feature: Search Alerts
-source-git-commit: 0fddeb8f01bd7c310544973ae2aff78339eb2144
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 0%
-
 ---
-
 # (새 UI) 사용자 지정 경고 관리
 
 경고 템플릿을 만들어 포트폴리오, 캠페인 또는 광고 그룹이 지정된 기간 동안 성능 지표와 같은 특정 조건을 충족하는 시점을 식별한 다음 경고를 생성합니다. 경고는 단일 광고주에 대해 사용할 수 있습니다. 경고는 관련 기본 보기의 모든 열을 포함합니다. 예를 들어 캠페인 수준 경고에는 기본 [!UICONTROL Campaigns] 보기의 모든 열이 포함됩니다.

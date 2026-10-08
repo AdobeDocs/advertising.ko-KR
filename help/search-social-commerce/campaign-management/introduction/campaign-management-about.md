@@ -3,21 +3,26 @@ title: 검색, 소셜 및 Commerce의 캠페인 관리 기본 정보
 description: 검색, 소셜 및 Commerce의 캠페인 관리 기능에 대해 알아봅니다.
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
+TQID: 'https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 61a66d7d35873247de40480f7361f87e2dedde88
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 850
+source-wordcount: '850'
 ht-degree: 0%
-
 ---
-
 # 검색, 소셜 및 Commerce의 캠페인 관리 기본 정보
 
 검색, 소셜 및 Commerce을 사용하면 검색, 표시/컨텐츠, 소셜, 쇼핑, 대상자 및 성과 최대 캠페인을 한 곳에서 추적 및/또는 관리할 수 있습니다. 광고 네트워크 및 캠페인 유형에 따라 사용 가능한 기능에는 광고 네트워크와의 동기화, 기능 생성 및 편집, 추적 및 전환 속성, 보고, 입찰 및 예산 최적화가 포함될 수 있습니다. 각 광고 네트워크에서 사용할 수 있는 기능에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;를 참조하십시오.
@@ -60,7 +65,7 @@ Adobe Advertising 전환 추적 서비스를 사용하는 경우 랜딩 페이�
 
 * **[!UICONTROL Bulksheets]** — [!UICONTROL Bulksheets] 보기를 사용하여 [지원되는 광고 네트워크](/help/search-social-commerce/introduction/supported-inventory.md)에서 계정에 대해 원하는 만큼의 데이터를 포함하는 [일괄 시트 파일](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)을 만든 다음 광고 네트워크에 게시합니다.
 
-* **[!UICONTROL Audiences]** — [보기 [!UICONTROL Audiences]개](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)는 다양한 유형의 사용자 목록에서 생성된 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 대상을 모두 나열합니다. 기존 Adobe CX 엔터프라이즈 대상 및 고객 이메일 목록에서 [!DNL Google Ads]개의 대상을 만들 수 있습니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 광고에 대한 대상 타겟 및 제외를 보고 관리할 수도 있습니다.
+* **[!UICONTROL Audiences]** — [보기 [!UICONTROL Audiences]개](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)는 다양한 유형의 사용자 목록에서 생성된 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 대상을 모두 나열합니다. 기존 Adobe CX Enterprise 대상 및 고객 이메일 목록에서 [!DNL Google Ads]개의 대상을 만들 수 있습니다. [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 광고에 대한 대상 타겟 및 제외를 보고 관리할 수도 있습니다.
 
 * **[!UICONTROL Label Classifications]** — 이 보기를 사용하여 [레이블 분류](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md)를 만들고 삭제할 수 있습니다. 이렇게 하면 레이블을 의미 있는 집합으로 그룹화하는 데 도움이 될 수 있습니다.
 

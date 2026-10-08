@@ -1,20 +1,23 @@
 ---
 title: 추가 인벤토리 동기화 활성화
-description: ' [!DNL YouTube] 캠페인 및 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 스마트 쇼핑 캠페인을 동기화하는 방법을 알아봅니다.'
+description: '[!DNL YouTube]개의 캠페인과 [!DNL Google Ads] 및 [!DNL Microsoft Advertising]개의 스마트 쇼핑 캠페인을 동기화하는 방법을 알아봅니다.'
 exl-id: 3e8cc7b1-e38f-43f3-ba67-f2adaec6129d
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/hxyvi5BO0tnWIJ2FGjqX5kjyg-r2ga3TZ5iqGHKWddU
+TQID: 'https://experienceleague.adobe.com/hxyvi5BO0tnWIJ2FGjqX5kjyg-r2ga3TZ5iqGHKWddU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 140
+source-wordcount: '141'
 ht-degree: 4%
-
 ---
-
 # 추가 인벤토리 동기화 활성화
 
 [!DNL Google Ads] [!DNL YouTube] 캠페인과 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 스마트 쇼핑 캠페인의 동기화를 활성화하거나 비활성화할 수 있습니다. 다른 캠페인 유형에 비해 지원이 더 적습니다. 이러한 캠페인 유형에 사용할 수 있는 기능에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;를 참조하십시오.

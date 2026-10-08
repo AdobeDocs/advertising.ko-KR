@@ -3,20 +3,26 @@ title: '[!UICONTROL Label Value Report]'
 description: '[!UICONTROL Label Value Report]에 대해 알아봅니다.'
 exl-id: 6d279267-f7ee-475b-b4c3-72af6256330d
 feature: Search Reports, Search Basic Reports
-TQID: https://experienceleague.adobe.com/8VN9NxaR69t2AzGfj408oJGNAbWEogYFBD4FRXSWdI0
+TQID: 'https://experienceleague.adobe.com/8VN9NxaR69t2AzGfj408oJGNAbWEogYFBD4FRXSWdI0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: '159'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Label Value Report]
 
 [!UICONTROL Label Value Report]에는 포트폴리오, 광고 네트워크, 계정, 캠페인 또는 광고 그룹 간에 집계된 레이블 분류 값별로 비용, 클릭 및 (선택적으로) 전환 데이터가 포함됩니다. 기본적으로 데이터에는 지정된 날짜 범위의 각 시간 단위에 대해 노출을 받은 키워드, 광고 및 배치에 대한 적용 가능한 각 값에 대해 한 개의 행이 포함됩니다. 행은 기본적으로 시간 단위에 대한 시작 날짜부터 오름차순으로 정렬되고, 원가별로 정렬된 다음 레이블 값별로 정렬됩니다. 레이블 값이 지정된 각 엔티티 유형의 번호를 볼 수도 있습니다.

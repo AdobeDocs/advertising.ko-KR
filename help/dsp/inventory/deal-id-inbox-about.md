@@ -1,28 +1,35 @@
 ---
 title: '[!UICONTROL Deal ID Inbox] 정보'
-description: '[!UICONTROL Deal ID Inbox]​(이전 이름:  [!DNL FreeWheel], [!DNL Google Authorized Buyers] (이전 이름:  [!DNL AdX]), and [!DNL Magnite DV+] )에 게시자와 이미 협상한 비공개 거래를 수락할 수 있는  [!DNL Rubicon] 기능에 대해 알아봅니다.'
+description: '[!DNL FreeWheel], [!DNL Google Authorized Buyers] (이전 [!DNL AdX]) 및 [!DNL Magnite DV+] (이전 [!DNL Rubicon])에서 게시자와 이미 협상한 비공개 거래를 수락할 수 있는 [!UICONTROL Deal ID Inbox] 기능에 대해 알아봅니다.'
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-TQID: https://experienceleague.adobe.com/d0XqOq7lHLtUZh9UqPNV9ai3VfET3LNT937qZG4PxJI
+TQID: 'https://experienceleague.adobe.com/d0XqOq7lHLtUZh9UqPNV9ai3VfET3LNT937qZG4PxJI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 487
+source-wordcount: '491'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Deal ID Inbox] 정보
 
-Advertising DSP [!UICONTROL Deal ID Inbox]을(를) 사용하면 DSP이 SSP(공급측 플랫폼)를 통해 게시자로부터 가져온 거래를 빠르게 설정할 수 있으므로 각 거래를 수동으로 설정할 필요가 없습니다. [!DNL FreeWheel]에서 [!DNL Google Authorized Buyers], [!DNL AdX]&#x200B;(이전 [!DNL Magnite DV+]) 및 [!DNL Rubicon]&#x200B;(이전 [!UICONTROL Deal ID Inbox])의 게시자와 이미 협상한 비공개 인벤토리 거래와 보장되지 않는 비공개 인벤토리 거래를 수락할 수 있습니다.
+Advertising DSP [!UICONTROL Deal ID Inbox]을(를) 사용하면 DSP이 SSP(공급측 플랫폼)를 통해 게시자로부터 가져온 거래를 빠르게 설정할 수 있으므로 각 거래를 수동으로 설정할 필요가 없습니다. [!UICONTROL Deal ID Inbox]에서 [!DNL FreeWheel], [!DNL Google Authorized Buyers]&#x200B;(이전 [!DNL AdX]) 및 [!DNL Magnite DV+]&#x200B;(이전 [!DNL Rubicon])의 게시자와 이미 협상한 비공개 인벤토리 거래와 보장되지 않는 비공개 인벤토리 거래를 수락할 수 있습니다.
 
 >[!NOTE]
 >
@@ -46,7 +53,7 @@ DSP은 매일 오전 4:30(EST)에 모든 거래 세부 정보를 자동으로 �
 
 >[!NOTE]
 >
->[!DNL Google Authorized Buyers]을(를) 통해 프로그램 방식으로 보장되는 거래의 경우 예산의 90% 이상을 제공해야 합니다. 그렇지 않으면 계정에서 [!DNL Google]의 [!UICONTROL Deal ID Inbox] 거래에 액세스할 수 없습니다.
+>[!DNL Google Authorized Buyers]을(를) 통해 프로그램 방식으로 보장되는 거래의 경우 예산의 90% 이상을 제공해야 합니다. 그렇지 않으면 계정에서 [!UICONTROL Deal ID Inbox]의 [!DNL Google] 거래에 액세스할 수 없습니다.
 
 ## [!UICONTROL Deal ID Inbox] 구현
 
@@ -60,9 +67,9 @@ DSP은 매일 오전 4:30(EST)에 모든 거래 세부 정보를 자동으로 �
 
 * 검토 후 **거래를 승인**&#x200B;하면 [!UICONTROL Deal ID Inbox]에 더 이상 나타나지 않습니다. 수락된 거래는 [!UICONTROL Inventory] > [!UICONTROL Deals]에 나열되며 광고주의 배치 내에서 타깃팅할 준비가 되었습니다.
 
-* 필요하지 않거나 원치 않는 거래는 **무시합니다**. 무시된 거래는 [!UICONTROL Ignored Deals] 내의 [!UICONTROL Deal ID Inbox] 탭으로 이동되며 보관 역할을 합니다. DSP은 사용자가 거래를 무시할 때 SSP 및 게시자에게 알리지 않습니다.
+* 필요하지 않거나 원치 않는 거래는 **무시합니다**. 무시된 거래는 [!UICONTROL Deal ID Inbox] 내의 [!UICONTROL Ignored Deals] 탭으로 이동되며 보관 역할을 합니다. DSP은 사용자가 거래를 무시할 때 SSP 및 게시자에게 알리지 않습니다.
 
-* **이미 수락된 거래의 세부 정보를 수정**([!UICONTROL Inventory] > [!UICONTROL Deals]&#x200B;([!UICONTROL Deal ID Inbox]에 없음). 마찬가지로, 게시자가 거래에 대한 변경 사항을 보낼 때 [!UICONTROL Inventory]이(가) 거래가 설정된 후 SSP의 변경 사항을 동기화하지 않으므로 광고주가 [!UICONTROL Deals] > [!UICONTROL Deal ID Inbox]에서 해당 변경 사항을 구현해야 합니다.
+* **이미 수락된 거래의 세부 정보를 수정**([!UICONTROL Inventory] > [!UICONTROL Deals]&#x200B;([!UICONTROL Deal ID Inbox]에 없음). 마찬가지로, 게시자가 거래에 대한 변경 사항을 보낼 때 [!UICONTROL Deal ID Inbox]이(가) 거래가 설정된 후 SSP의 변경 사항을 동기화하지 않으므로 광고주가 [!UICONTROL Inventory] > [!UICONTROL Deals]에서 해당 변경 사항을 구현해야 합니다.
 
 ## 어떤 종류의 거래를 수락할 수 없습니까?
 
@@ -70,9 +77,9 @@ DSP은 매일 오전 4:30(EST)에 모든 거래 세부 정보를 자동으로 �
 
 다음 유형의 거래는 수락할 수 없습니다.
 
-* USD가 아닌 거래 [!DNL Google]개.
+* USD에 없는 거래 [!DNL Google]개.
 
-* USD가 아닌 거래 [!DNL Magnite DV+]개
+* USD에 없는 [!DNL Magnite DV+]개 거래
 
 * [!DNL FreeWheel] 거래에서 계정 통화로 표시되지 않습니다.
 

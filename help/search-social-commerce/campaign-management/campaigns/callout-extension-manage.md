@@ -1,27 +1,30 @@
 ---
-title: ' [!DNL Google Ads] 설명선 관리'
-description: ' [!DNL Google Ads] 설명선 확장을 만들고 관리하는 방법을 알아봅니다.'
+title: '[!DNL Google Ads] 설명선 확장 관리'
+description: '[!DNL Google Ads] 설명선 확장을 만들고 관리하는 방법을 알아봅니다.'
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/Nb5xgWsDs-7L9krhFqtrD1um1KmbUPlBGUSv-DLiHKY
+TQID: 'https://experienceleague.adobe.com/Nb5xgWsDs-7L9krhFqtrD1um1KmbUPlBGUSv-DLiHKY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 376
+source-wordcount: '374'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] 공유 콜아웃 확장 관리
 
 *[!DNL Google Ads]개의 계정만*
 
-[&#x200B; >  [!DNL Google Ads] 에서 &#x200B;](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)동기화됨[!UICONTROL Extensions]계정[!UICONTROL Callout library]에 대한 계정 수준 공유 콜아웃 확장을 만들고 관리합니다.
+[!UICONTROL Extensions] > [!UICONTROL Callout library]에서 [동기화됨 [!DNL Google Ads] 계정](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)에 대한 계정 수준 공유 콜아웃 확장을 만들고 관리합니다.
 
 ## [!DNL Google Ads] 공유 설명선 만들기
 

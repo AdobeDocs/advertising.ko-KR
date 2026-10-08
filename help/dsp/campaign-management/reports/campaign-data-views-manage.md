@@ -3,25 +3,31 @@ title: Campaign 데이터 보기 관리
 description: 캠페인, 패키지, 배치 및 광고에 대한 데이터 보기를 사용자 지정하는 방법을 알아봅니다.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-TQID: https://experienceleague.adobe.com/iHIvQ5-7AJxfvMb5g3VlNfWkIR7a6ZwdvQtDKczrDw8
+TQID: 'https://experienceleague.adobe.com/iHIvQ5-7AJxfvMb5g3VlNfWkIR7a6ZwdvQtDKczrDw8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 2cfe5a2c-1e84-5461-b310-20f6bb734742
+    internal-label: DSP Campaign Data Views
 subfeature_v2:
   - id: f784309e-91ce-4bb5-ade4-5cbbceabecc0
+    internal-label: Campaign Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 927
+source-wordcount: '927'
 ht-degree: 0%
-
 ---
-
 # Campaign 데이터 보기 관리
 
 캠페인 관리 보기([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] 및 [!UICONTROL Ads])에 표시되는 데이터를 사용자 지정할 수 있습니다.
@@ -121,38 +127,38 @@ DSP에서는 가장 최근 보기를 기본 보기로 저장하므로 페이지�
 [!UICONTROL Campaigns], [!UICONTROL Packages] 및 [!UICONTROL Placements] 보기에서 다음 필터를 사용할 수 있습니다.
 
 * [!UICONTROL Campaigns] 보기 필터:
-   * [!UICONTROL Campaign status]
-   * [!UICONTROL Advertiser]
+  * [!UICONTROL Campaign status]
+  * [!UICONTROL Advertiser]
 * [!UICONTROL Packages] 보기 필터:
-   * [!UICONTROL Custom flights]&#x200B;(존재 여부)
-   * [!UICONTROL Custom goal]&#x200B;(해당되는 경우)
-   * [!UICONTROL End end date]
-   * [!UICONTROL Optimization goal]
-   * [!UICONTROL Flight pacing]
-   * [!UICONTROL Intraday pacing]
-   * [!UICONTROL Package status]
-   * [!UICONTROL Start date]
+  * [!UICONTROL Custom flights]&#x200B;(존재 여부)
+  * [!UICONTROL Custom goal]&#x200B;(해당되는 경우)
+  * [!UICONTROL End end date]
+  * [!UICONTROL Optimization goal]
+  * [!UICONTROL Flight pacing]
+  * [!UICONTROL Intraday pacing]
+  * [!UICONTROL Package status]
+  * [!UICONTROL Start date]
 * [!UICONTROL Placements] 보기 필터:
-   * [!UICONTROL Custom ad scheduling]
-   * [!UICONTROL Custom goal]&#x200B;(해당되는 경우)
-   * [!UICONTROL End date]
-   * [!UICONTROL Max bid]&#x200B;([!UICONTROL less than], [!UICONTROL greater than] 또는 [!UICONTROL equal to]에 지정된 값)
-   * [!UICONTROL Optimization goal]
-   * [!UICONTROL Pacing on]&#x200B;([!UICONTROL impressions] 또는 [!UICONTROL spend])
-   * [!UICONTROL Flight pacing]
-   * [!UICONTROL Intraday pacing]
-   * [!UICONTROL Package]
-   * [!UICONTROL Placement status]
-   * [!UICONTROL Placement type]
-   * [!UICONTROL Placement sub-type]
-   * [!UICONTROL Start date]
-   * [!UICONTROL Creation date]
+  * [!UICONTROL Custom ad scheduling]
+  * [!UICONTROL Custom goal]&#x200B;(해당되는 경우)
+  * [!UICONTROL End date]
+  * [!UICONTROL Max bid]&#x200B;([!UICONTROL less than], [!UICONTROL greater than] 또는 [!UICONTROL equal to]에 지정된 값)
+  * [!UICONTROL Optimization goal]
+  * [!UICONTROL Pacing on]&#x200B;([!UICONTROL impressions] 또는 [!UICONTROL spend])
+  * [!UICONTROL Flight pacing]
+  * [!UICONTROL Intraday pacing]
+  * [!UICONTROL Package]
+  * [!UICONTROL Placement status]
+  * [!UICONTROL Placement type]
+  * [!UICONTROL Placement sub-type]
+  * [!UICONTROL Start date]
+  * [!UICONTROL Creation date]
 * [!UICONTROL Ads] 보기 필터:
-   * [!UICONTROL Adobe ad approval status]
-   * [!UICONTROL Ad ID]
-   * [!UICONTROL Ad name]
-   * [!UICONTROL Ad type]
-   * [!UICONTROL Creation date]
+  * [!UICONTROL Adobe ad approval status]
+  * [!UICONTROL Ad ID]
+  * [!UICONTROL Ad name]
+  * [!UICONTROL Ad type]
+  * [!UICONTROL Creation date]
 
 ### 날짜 범위 변경
 
@@ -164,11 +170,11 @@ DSP에서는 가장 최근 보기를 기본 보기로 저장하므로 페이지�
 
 * 특정 범위에 대해 다음 중 하나를 수행합니다.
 
-   * ![일정](/help/dsp/assets/calendar.png "일정")을 클릭한 다음 일정 내의 시작 날짜와 종료 날짜를 클릭합니다.
+  * ![일정](/help/dsp/assets/calendar.png "일정")을 클릭한 다음 일정 내의 시작 날짜와 종료 날짜를 클릭합니다.
 
-   * 날짜 범위 내에서 를 클릭한 다음 시작 날짜와 종료 날짜를 입력하거나 달력 내에서 선택합니다.
+  * 날짜 범위 내에서 를 클릭한 다음 시작 날짜와 종료 날짜를 입력하거나 달력 내에서 선택합니다.
 
-     숫자 값(M-D-YY부터 MM-DD-YYYY까지) 및/또는 월 이름이나 약어(예: Jan 또는 January)를 입력할 수 있습니다.
+    숫자 값(M-D-YY부터 MM-DD-YYYY까지) 및/또는 월 이름이나 약어(예: Jan 또는 January)를 입력할 수 있습니다.
 
 ### 데이터 열 정렬
 

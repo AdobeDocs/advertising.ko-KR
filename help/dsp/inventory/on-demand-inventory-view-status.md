@@ -1,24 +1,28 @@
 ---
-title: ' [!DNL On Demand] 거래 요청 및 구독 상태 보기'
-description: ' [!DNL On Demand] 거래 요청 및 구독의 상태를 보는 방법에 대해 알아봅니다.'
+title: '[!DNL On Demand] 거래 요청 및 구독의 상태 보기'
+description: '[!DNL On Demand] 거래 요청 및 구독의 상태를 확인하는 방법을 알아봅니다.'
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-TQID: https://experienceleague.adobe.com/6u4nSyKFRPEOIEFXquusJF3cqriDXVp7lwTExN9uF5g
+TQID: 'https://experienceleague.adobe.com/6u4nSyKFRPEOIEFXquusJF3cqriDXVp7lwTExN9uF5g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '289'
 ht-degree: 0%
-
 ---
-
 # [!DNL On Demand] 거래 요청 및 구독의 상태 보기
 
 개별 거래를 요청하거나 게시자의 모든 거래를 구독하면 게시자가 계정의 각 광고주에 대해 각 거래를 승인했는지 또는 거부했는지 확인합니다.
@@ -28,8 +32,8 @@ ht-degree: 0%
 1. 다음 중 하나를 수행합니다.
    * [!UICONTROL Deal] 보기에서 거래를 보려면 **[!UICONTROL Deal view]**&#x200B;을(를) 클릭합니다.
    * [!UICONTROL Subscription] 보기에서 거래를 보려면:
-      1. **[!UICONTROL Subscription view]**&#x200B;을(를) 클릭합니다.
-      1. 게시자 로고 위에 커서를 놓고 **[!UICONTROL See Deals]**&#x200B;을(를) 클릭합니다.
+     1. **[!UICONTROL Subscription view]**&#x200B;을(를) 클릭합니다.
+     1. 게시자 로고 위에 커서를 놓고 **[!UICONTROL See Deals]**&#x200B;을(를) 클릭합니다.
 1. 승인 상태를 보려면 [!UICONTROL Status] 열을 찾으십시오.
 
 ## 거래 상태

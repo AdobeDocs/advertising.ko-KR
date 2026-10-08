@@ -2,13 +2,19 @@
 title: 보고서 설정 지원
 description: 지원 보고서에 대한 필수 및 선택적 설정에 대해 알아봅니다.
 feature: Search Reports, Search Assist Reports
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2055'
 ht-degree: 0%
-
 ---
-
 # 보고서 설정 지원
 
 *검색, 소셜 및 Commerce 클릭 추적 및 Adobe Advertising, Adobe Analytics([!DNL Analytics] 통합 포함)의 전환 추적을 사용하거나 토큰(`ef_id`)만 사용하여 피드에 제공된 광고주*
@@ -30,9 +36,9 @@ ht-degree: 0%
 |  | [!UICONTROL Indicate account name after entity name] | ([!UICONTROL Campaign Assist  Report]만 해당) 캠페인 이름 뒤에 광고 네트워크 계정 이름을 대괄호로 묶습니다. 예: `<campaign name> [Google Adwords] [Account1]` |
 |  | [!UICONTROL Indicate event  type after entity name] | ([!UICONTROL Campaign Assist Report]만 해당) 캠페인 이름 뒤에 대괄호로 이벤트 유형을 포함합니다. 예: `<campaign name> [click]` 또는 `<campaign name> [Google Adwords] [Account1] [impression]` |
 | [!UICONTROL Filters] | [!UICONTROL Report Filters] | ([!UICONTROL Campaign Assist Report]만 해당) 지표의 값이 지정된 조건을 충족할 때만 행을 반환합니다. 지표를 보고서의 열로 포함할 필요가 없습니다. 사용 가능한 지표 목록은 보고서 유형에 따라 다르지만, 광고주에 대한 사용자 지정 파생 지표, 각 검색 엔진 및 포트폴리오 구성 요소의 ID 및 속성 이름([!UICONTROL Campaign ID] 및 [!UICONTROL Campaign Status] 등), 광고주에 대한 전환 지표 및 광고 네트워크의 클릭 관련 지표를 포함할 수 있습니다. 사용 가능한 연산자에는 <i>[!UICONTROL contains]</i>, <i>[!UICONTROL starts with]</i>, <i>[!UICONTROL equals]</i>, <i>[!UICONTROL is greater than]</i>, <i>[!UICONTROL is greater than or equal to]</i>, <i>[!UICONTROL is less than]</i>, <i>[!UICONTROL is less than or equal to]</i> 또는 <i>[!UICONTROL isn't equal to]</i>이(가) 있습니다.<br><br>하나 이상의 필터를 적용하려면 다음을 수행하십시오.<ul><li>지표와 연산자를 선택한 다음 해당 값을 입력합니다. 예를 들어 클릭수가 100개를 초과하는 키워드만 반환하려면 [!UICONTROL Clicks]을(를) 선택하고 [!UICONTROL >]을(를) 선택한 다음 입력 필드에 100을 입력합니다.</li><li>(추가 필터를 적용하려면) 각 추가 필터에 대해 **[!UICONTROL +Add Filter]**&#x200B;을(를) 클릭하고 **[!UICONTROL AND]** 또는 **[!UICONTROL OR]**&#x200B;을(를) 선택한 다음 지표와 연산자를 선택하고 적용 가능한 값을 입력합니다.</li></ul> |
-| [!UICONTROL Scheduling] | [!UICONTROL Frequency] | (옵션 &quot;[!UICONTROL Save as template]&quot;이(가) 선택된 경우에만 편집할 수 있습니다. 그렇지 않으면 &quot;[!UICONTROL Now]&quot;(으)로 설정하십시오. 보고서 실행 시기: <i>[!UICONTROL Now]</i>(한 번 보고서 실행, 기본값), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [요일]</i> 또는 <i>[!UICONTROL Every Month] [요일]</i>. <i>[!UICONTROL Now]</i>을(를) 제외한 모든 기간에 대해 오전 09:00(으)로 시작하는 광고주 시간대의 시간을 선택합니다. |
-|  | [!UICONTROL Email Recipients] | <b>참고:</b> 이 설정은 [!UICONTROL Reports]에 대한 전자 메일 알림이 [!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md) 내에 활성화되었을 때만 사용됩니다.<br><br>보고서가 완료되거나 오류로 인해 취소될 때 알림을 보낼 등록된 검색, 소셜 및 Commerce 사용자입니다. 기본적으로 사용자 계정의 이름이 선택됩니다. 선택적으로 광고주의 데이터에 액세스할 수 있는 사용자를 추가하거나 제거합니다. 보고서가 반복적으로 실행되도록 일정이 잡힌 경우 보고서가 완료될 때마다 알림이 전송됩니다. |
-|  | [!UICONTROL Email Notification Format] | <b>참고:</b> 이 설정은 [!UICONTROL Reports]에 대한 전자 메일 알림이 [!UICONTROL Notification Center][&#128279;](/help/search-social-commerce/notifications/notification-edit.md) 내에서 사용할 수 있는 경우에만 사용됩니다.<br><br>([!UICONTROL Email Recipients]이(가) 지정된 경우) 지정된 주소에 대한 전자 메일 알림에 포함할 내용:<ul><li><i>[!UICONTROL Notification Only]</i>(기본값): 첨부 파일 없이 보고서 완료 또는 실패에 대한 알림만 보냅니다. 알림에는 모든 보고서 형식에 대한 일시적인 다운로드 링크가 포함됩니다.</li><li><i>[!UICONTROL XLS Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 복사본을 XLS 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다.</li><li><i>[!UICONTROL TSV Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 복사본을 TSV 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다.</li><li><i>[!UICONTROL CSV Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 복사본을 CSV 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다. |
+| [!UICONTROL Scheduling] | [!UICONTROL Frequency] | (옵션 &quot;[!UICONTROL Save as template]&quot;이(가) 선택된 경우에만 편집할 수 있습니다. 그렇지 않으면 &quot;[!UICONTROL Now]&quot;(으)로 설정하십시오. 보고서 실행 시기: <i>[!UICONTROL Now]</i>(한 번 보고서 실행, 기본값), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [요일]</i> 또는 <i>[!UICONTROL Every Month] [요일]</i>. <i>[!UICONTROL Now]</i>을(를) 제외한 모든 기간에 대해 오전 09:00부터 시작되는 광고주의 시간대의 시간을 선택합니다. |
+|  | [!UICONTROL Email Recipients] | <b>참고:</b> 이 설정은 [!UICONTROL Reports]에 대한 전자 메일 알림이 [!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md) 내에 활성화되었을 때만 사용됩니다.<br><br>보고서가 완료되거나 오류로 인해 취소될 때 알림을 보낼 등록된 검색, 소셜 및 Commerce 사용자입니다. 기본적으로 사용자 계정의 이름이 선택됩니다. 선택적으로 광고주의 데이터에 액세스할 수 있는 사용자를 추가하거나 제거합니다. 보고서가 반복적으로 실행되도록 일정이 잡힌 경우 보고서가 완료될 때마다 알림이 전송됩니다. |
+|  | [!UICONTROL Email Notification Format] | <b>참고:</b> 이 설정은 [!UICONTROL Reports]에 대한 전자 메일 알림이 [!UICONTROL Notification Center]&#x200B;[&#128279;](/help/search-social-commerce/notifications/notification-edit.md) 내에서 사용할 수 있는 경우에만 사용됩니다.<br><br>([!UICONTROL Email Recipients]이(가) 지정된 경우) 지정된 주소에 대한 전자 메일 알림에 포함할 내용:<ul><li><i>[!UICONTROL Notification Only]</i>(기본값): 첨부 파일 없이 보고서 완료 또는 실패에 대한 알림만 보냅니다. 알림에는 모든 보고서 형식에 대한 일시적인 다운로드 링크가 포함됩니다.</li><li><i>[!UICONTROL XLS Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 복사본을 XLS 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다.</li><li><i>[!UICONTROL TSV Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 복사본을 TSV 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다.</li><li><i>[!UICONTROL CSV Attachment]:</i> 파일이 약 10MB 미만인 경우 완료된 보고서의 복사본을 CSV 형식으로 포함합니다. 1MB가 넘는 파일은 압축됩니다. |
 
 >[!MORELIKETHIS]
 >

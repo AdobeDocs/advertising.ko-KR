@@ -3,24 +3,29 @@ title: Advertising DSP의 패키지 관리 정보
 description: 패키지 관리에 대해 알아봅니다.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-TQID: https://experienceleague.adobe.com/1K4giwhJNw17ypfKD8ygeoYHPV3P5ovMhi-ugRvFozc
+TQID: 'https://experienceleague.adobe.com/1K4giwhJNw17ypfKD8ygeoYHPV3P5ovMhi-ugRvFozc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 229
+source-wordcount: '232'
 ht-degree: 0%
-
 ---
-
 # Advertising DSP의 패키지 관리 정보
 
 패키지를 사용하여 지정된 예산, 성능 목표 및 사용자 지정 게재 전략에 게재할 배치를 그룹화합니다. DSP은 예산을 패키지에서 가장 성과가 좋은 배치로 전환하여 패키지를 최적화합니다. 배치 형식, 인벤토리 유형, 데이터 공급자, 담당자 또는 기타 식별 가능한 특성별로 패키지를 구성할 수 있습니다. 패키지는 선택 사항입니다.

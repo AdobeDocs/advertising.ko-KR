@@ -3,25 +3,33 @@ title: Advertising Creative의 경험
 description: 개인화된 광고 경험을 구성하고 성능에 따라 광고 요소를 최적화하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-TQID: https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo
+TQID: 'https://experienceleague.adobe.com/eX9wJedhnS994mEpRna6vL2En7vVXEYWp1xs-hz6iBo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1169
+source-wordcount: '1181'
 ht-degree: 0%
-
 ---
-
 # Advertising Creative 2.0의 경험 정보
 
 각 광고 경험에는 하나의 광고 유형(표준 디스플레이, 표준 비디오, 동적 디스플레이 또는 동적 비디오)이 포함될 수 있습니다. [!DNL Advertising Creative 2.0]은(는) 하나의 광고 라이브러리에서 광고에 대한 두 가지 다른 광고 경험 구조를 제공합니다.
@@ -32,15 +40,15 @@ ht-degree: 0%
 
   타겟팅 옵션은 다음과 같습니다.
 
-   * Adobe Audience Manager, Adobe Analytics 및 Advertising DSP의 대상 세그먼트, 계정에 대해 가져온 다른 모든 자사 세그먼트, Advertising DSP의 사용자 지정 세그먼트, Advertising DSP에서 제공하는 타사 세그먼트, 대상 라이브러리에 빌드된 기존 Advertising DSP 대상
+  * Adobe Audience Manager, Adobe Analytics 및 Advertising DSP의 대상 세그먼트, 계정에 대해 가져온 다른 모든 자사 세그먼트, Advertising DSP의 사용자 지정 세그먼트, Advertising DSP에서 제공하는 타사 세그먼트, 대상 라이브러리에 빌드된 기존 Advertising DSP 대상
 
-   * 국가, 주, 미국 내 DMA, 도시 및 우편번호를 포함한 특정 지리적 위치
+  * 국가, 주, 미국 내 DMA, 도시 및 우편번호를 포함한 특정 지리적 위치
 
-   * DSP, 게시자 또는 파트너로부터 특정 키-값 쌍(데이터 전달 대상)이 전달되는 뷰어(예: SKU=01234567890123 또는 Cart=empty)
+  * DSP, 게시자 또는 파트너로부터 특정 키-값 쌍(데이터 전달 대상)이 전달되는 뷰어(예: SKU=01234567890123 또는 Cart=empty)
 
-   * [!DNL Creative] 재타겟팅 픽셀 및 지정된 특성 값
+  * [!DNL Creative] 재타겟팅 픽셀 및 지정된 특성 값
 
-   * 특정 디바이스 유형, 운영 체제 및 브라우저
+  * 특정 디바이스 유형, 운영 체제 및 브라우저
 
   의사 결정 트리에 Target 대상 분기를 만들면 Creative 번들을 해당 분기에 할당하여 Target 대상을 잠재적 크리에이티브와 연결할 수 있습니다. 각 경험에 대해 크리에이티브 번들에 대한 최적화 및 예약을 사용자 정의하고 각 번들의 개별 크리에이티브에 대한 기본 랜딩 페이지 및 추적 URL<!-- later: and any flexible attributes -->을(를) 변경할 수 있습니다.
 
@@ -79,11 +87,11 @@ ht-degree: 0%
 
 다음 성능 데이터를 사용할 수 있습니다.
 
-* [!UICONTROL Metrics] > [!UICONTROL Creative] 보기에서 [!UICONTROL Experiences] 옵션을 활성화하면 각 경험 카드 또는 행은 경험이 받은 노출 횟수 및 클릭 수를 나타냅니다.
+* [!UICONTROL Creative] > [!UICONTROL Experiences] 보기에서 [!UICONTROL Metrics] 옵션을 활성화하면 각 경험 카드 또는 행은 경험이 받은 노출 횟수 및 클릭 수를 나타냅니다.
 
   ![지표 옵션](/help/creative/assets/metrics-option.png "지표 옵션")
 
-* [&#x200B; 보기에서 &#x200B;](experience-performance-details.md)경험에 대한 자세한 성능 데이터를 볼 수 있습니다[!UICONTROL Experiences].
+* [!UICONTROL Experiences] 보기에서 [경험에 대한 자세한 성능 데이터를 볼 수 있습니다](experience-performance-details.md).
 
 * 경험에서 성능을 모니터링하려면 [사용자 지정 광고 보고서를 만드세요](/help/creative/reports/report-manage.md).
 
@@ -108,7 +116,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experiences] 보기
 
-[!UICONTROL Experiences] 보기는 타깃팅되고 타깃팅되지 않은 모든 경험을 표시합니다. 경험 이름, 상태, 시작 및 종료 날짜, 할당된 크리에이티브 또는 크리에이티브 번들의 수 및 차원, 경험에 동적 광고가 포함되는지 여부를 확인할 수 있습니다. [!UICONTROL Metrics] 보기에서 [!UICONTROL Experiences] 옵션을 활성화하면 각 경험 카드 또는 행은 경험이 받은 노출 횟수 및 클릭 수를 나타냅니다. 카드 모드에서는 &lt; 및 > 버튼을 사용하여 여러 크리에이티브가 있는 환경의 크리에이티브를 스크롤할 수 있습니다.
+[!UICONTROL Experiences] 보기는 타깃팅되고 타깃팅되지 않은 모든 경험을 표시합니다. 경험 이름, 상태, 시작 및 종료 날짜, 할당된 크리에이티브 또는 크리에이티브 번들의 수 및 차원, 경험에 동적 광고가 포함되는지 여부를 확인할 수 있습니다. [!UICONTROL Experiences] 보기에서 [!UICONTROL Metrics] 옵션을 활성화하면 각 경험 카드 또는 행은 경험이 받은 노출 횟수 및 클릭 수를 나타냅니다. 카드 모드에서는 &lt; 및 > 버튼을 사용하여 여러 크리에이티브가 있는 환경의 크리에이티브를 스크롤할 수 있습니다.
 
 경험을 만들고 관리하고, 광고 경험 태그를 만들고 이름을 바꾸고, DSP에서 구현할 수 있도록 JavaScript 및 iframe 형식으로 태그를 내보낼 수 있습니다. Advertising DSP을 사용하는 광고주는 선택적으로 광고 태그를 Advertising DSP 캠페인에 직접 업로드할 수 있습니다.
 

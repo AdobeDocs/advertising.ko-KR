@@ -3,21 +3,26 @@ title: 도움말 보기
 description: 온라인 도움말 및 커뮤니티 리소스를 보는 방법과 기술 지원을 받는 방법을 알아봅니다.
 feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-TQID: https://experienceleague.adobe.com/i-LfGOrhDTQ80m8uL2u-O9jFBHgxiasLkUz44j8jW9A
+TQID: 'https://experienceleague.adobe.com/i-LfGOrhDTQ80m8uL2u-O9jFBHgxiasLkUz44j8jW9A'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 # 도움말 보기
 
 사용자 인터페이스 내의 모든 페이지에서 온라인 도움말을 열 수 있습니다. 온라인 도움말에서 질문에 대한 답변을 얻을 수 없는 경우 문의하시기 바랍니다.
@@ -30,9 +35,9 @@ ht-degree: 0%
 
 * 모든 기능을 사용하는 방법을 설명하는 전체 도움말 세트를 열려면 페이지 상단에 있는 다음 링크를 클릭합니다.
 
-   * ![도움말](/help/search-social-commerce/assets/help-main-menu.png "도움말") > **검색, 소셜 및 Commerce 도움말**.
+  * ![도움말](/help/search-social-commerce/assets/help-main-menu.png "도움말") > **검색, 소셜 및 Commerce 도움말**.
 
-   * ![도움말](/help/search-social-commerce/assets/help-main-menu.png "도움말") > **검색, 소셜 및 Commerce 최적화 안내서**.
+  * ![도움말](/help/search-social-commerce/assets/help-main-menu.png "도움말") > **검색, 소셜 및 Commerce 최적화 안내서**.
 
 <!--
 ## Ask the Adobe Advertising community

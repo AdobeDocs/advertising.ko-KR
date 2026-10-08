@@ -1,22 +1,26 @@
 ---
 title: 게시자 권장 사항 및 성능 인사이트 보기
-description: 광고 네트워크 계정에 대한  [!DNL Google Ads] 권장 사항 및 [!DNL Microsoft Advertising] 성능 인사이트를 보는 방법에 대해 알아봅니다.
+description: 광고 네트워크 계정에 대한 [!DNL Google Ads] 권장 사항 및 [!DNL Microsoft Advertising] 성능 인사이트를 보는 방법에 대해 알아봅니다.
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-TQID: https://experienceleague.adobe.com/mbX5cPSDaN5Rc4Y60JwkuFeO-yUs9onV7Ph3jlgk8Ho
+TQID: 'https://experienceleague.adobe.com/mbX5cPSDaN5Rc4Y60JwkuFeO-yUs9onV7Ph3jlgk8Ho'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae143aa5-b8d8-5a93-93ab-45e919f0c418
+    internal-label: Search Recommendations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 180
+source-wordcount: '182'
 ht-degree: 0%
-
 ---
-
 # 게시자 권장 사항 및 성능 인사이트 보기
 
 *[!DNL Google Ads]및 [!DNL Microsoft Advertising] 계정*

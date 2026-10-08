@@ -3,24 +3,29 @@ title: 자사 대상 소스 정보
 description: 쿠키 없는 타깃팅을 위해 자사 세그먼트의 다른 사용자 식별자를 범용 ID로 변환하는 방법에 대해 알아봅니다.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-TQID: https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY
+TQID: 'https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # 자사 대상 소스 정보
 
 대상 소스 기능을 사용하면 범용 ID가 포함된 자사 세그먼트를 있는 그대로 가져오거나 지정된 범용 ID 유형이 포함된 세그먼트로 변환할 수 있습니다.
@@ -46,21 +51,21 @@ Using your first-party data, you can create segments with IDs from the following
 
 * [[!DNL LiveRamp] [!DNL RampIDs]](https://liveramp.com/identity-resolution):
 
-   * 로그인한 사용자를 재타겟팅하기 위해
+  * 로그인한 사용자를 재타겟팅하기 위해
 
-     [!DNL RampIDs]은(는) 북미, 오스트레일리아 및 뉴질랜드의 사용자가 사용할 수 있습니다.
+    [!DNL RampIDs]은(는) 북미, 오스트레일리아 및 뉴질랜드의 사용자가 사용할 수 있습니다.
 
-     요금은 게재된 디스플레이 광고 노출당 USD 0.15 및 게재된 비디오 광고 노출당 USD 0.25입니다.
+    요금은 게재된 디스플레이 광고 노출당 USD 0.15 및 게재된 비디오 광고 노출당 USD 0.25입니다.
 
-   * [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용한 측정용입니다.
+  * [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용한 측정용입니다.
 
 * [[!DNL Unified ID 2.0 (UID2.0)] &#x200B;](https://unifiedid.com):
 
-   * 로그인한 사용자를 재타겟팅하기 위해
+  * 로그인한 사용자를 재타겟팅하기 위해
 
-     [!DNL UID2 IDs]은(는) 유럽 경제 지역 및 일부 추가 국가에서 사용할 수 없습니다. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2)을 참조하세요.
+    [!DNL UID2 IDs]은(는) 유럽 경제 지역 및 일부 추가 국가에서 사용할 수 없습니다. [금지 국가 목록](/help/policies/universal-id-policy.md#prohibited-countries-uid2)을 참조하세요.
 
-     요금은 게재된 디스플레이 광고 노출당 USD 0.15 및 게재된 비디오 광고 노출당 USD 0.25입니다.
+    요금은 게재된 디스플레이 광고 노출당 USD 0.15 및 게재된 비디오 광고 노출당 USD 0.25입니다.
 
 <!--
  Not yet

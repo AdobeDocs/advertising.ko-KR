@@ -1,22 +1,26 @@
 ---
-title: ' [!DNL Google Ads] 동적 검색 대상 관리'
-description: ' [!DNL Google Ads] 동적 검색 대상을 만들고 관리하는 방법을 알아봅니다.'
+title: '[!DNL Google Ads]개의 동적 검색 대상 관리'
+description: '[!DNL Google Ads] 동적 검색 대상을 만들고 관리하는 방법을 알아봅니다.'
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0
+TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads]개의 동적 검색 대상 관리
 
 *[!DNL Google Ads]개의 계정만*
@@ -93,13 +97,13 @@ ht-degree: 0%
 
    * 하나 이상의 동적 대상을 삭제하려면 다음을 수행합니다.
 
-      1. 삭제할 각 동적 대상 옆의 확인란을 선택합니다.
+     1. 삭제할 각 동적 대상 옆의 확인란을 선택합니다.
 
      여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
 
-      1. 도구 모음에서 ![자세히](/help/search-social-commerce/assets/more.png "자세히")를 클릭하고 **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다.
+     1. 도구 모음에서 ![자세히](/help/search-social-commerce/assets/more.png "자세히")를 클릭하고 **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다.
 
-      1. 확인 메시지에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
+     1. 확인 메시지에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
 ## [!DNL Google Ads] 동적 검색 대상 설정 {#dynamic-search-target-settings}
 
@@ -111,13 +115,13 @@ ht-degree: 0%
 
 * *\[특정 대상\]:* 인덱싱된 페이지에 대해 최대 3개의 기준을 대상으로 합니다. 이 옵션을 선택하는 경우 광고를 타깃팅할 정보 범주와 특정 값을 지정하여 기준을 지정해야 합니다(예: &quot;URL에 shoes.example.com&quot;). 두 개 이상의 조건을 지정하려면 **[!UICONTROL + And]**&#x200B;을(를) 클릭합니다. 대상 기준은 다음과 같습니다.
 
-   * *[!UICONTROL Category]:* 특정 [!DNL Google Ads] 콘텐츠 범주의 인덱싱된 페이지에 대한 광고를 표시합니다.
+  * *[!UICONTROL Category]:* 특정 [!DNL Google Ads] 콘텐츠 범주의 인덱싱된 페이지에 대한 광고를 표시합니다.
 
-   * *[!UICONTROL URL]:* 특정 URL의 인덱싱된 페이지에 대한 광고를 표시합니다. 여기서 값은 URL 내의 어디에나 포함될 수 있습니다.
+  * *[!UICONTROL URL]:* 특정 URL의 인덱싱된 페이지에 대한 광고를 표시합니다. 여기서 값은 URL 내의 어디에나 포함될 수 있습니다.
 
-   * *[!UICONTROL Page Title]:* 페이지 제목에 특정 텍스트가 있는 인덱싱된 페이지에 대한 광고를 표시합니다.
+  * *[!UICONTROL Page Title]:* 페이지 제목에 특정 텍스트가 있는 인덱싱된 페이지에 대한 광고를 표시합니다.
 
-   * *[!UICONTROL Page Content]:* 특정 콘텐츠가 있는 인덱싱된 페이지에 대한 광고를 표시합니다.
+  * *[!UICONTROL Page Content]:* 특정 콘텐츠가 있는 인덱싱된 페이지에 대한 광고를 표시합니다.
 
 **상태:** 대상 설정의 상태:
 

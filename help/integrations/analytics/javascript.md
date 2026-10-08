@@ -1,26 +1,35 @@
 ---
-title: ' [!DNL Analytics for Advertising]에 대한 JavaScript 코드'
-description: ' [!DNL Analytics for Advertising]에 대한 JavaScript 코드'
+title: '[!DNL Analytics for Advertising]에 대한 JavaScript 코드'
+description: '[!DNL Analytics for Advertising]에 대한 JavaScript 코드'
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-TQID: https://experienceleague.adobe.com/g9onwe1IQl1kbyQ82W2KmODPGUAReKiotxy65yCZcNY
+TQID: 'https://experienceleague.adobe.com/g9onwe1IQl1kbyQ82W2KmODPGUAReKiotxy65yCZcNY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Measurement
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
-source-wordcount: 941
+source-wordcount: '941'
 ht-degree: 0%
-
 ---
-
 # [!DNL Analytics for Advertising]에 대한 JavaScript 코드
 
 *Advertising DSP만 있는 광고주*
@@ -48,7 +57,7 @@ Users who want to convert first-party segments from their customer data platform
 
 The standard JavaScript library consists of two lines that allow [!DNL Analytics] and Adobe Advertising to communicate with each other. If the [!DNL Analytics for Advertising] integration was completed during the Adobe Advertising implementation, then you should have already received this code with instructions on how to deploy it.
 
-#### Implementations that use the Experience Cloud Identity Service `visitorAPI.js` code
+#### Implementations that use the Adobe Visitor ID Service `visitorAPI.js` code
 
 ```
 <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
@@ -75,7 +84,7 @@ JavaScript 라이브러리는 [!DNL Analytics]과(와) Adobe Advertising이 서�
 
 ### 코드
 
-#### Experience Cloud ID 서비스 `visitorAPI.js` 코드를 사용하는 구현
+#### Adobe 방문자 ID 서비스 `visitorAPI.js` 코드를 사용하는 구현
 
 ```
 <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
@@ -97,7 +106,7 @@ JavaScript 라이브러리는 [!DNL Analytics]과(와) Adobe Advertising이 서�
 
 ### 코드를 배치할 위치
 
-[!DNL Analytics for Advertising] JavaScript 함수는 Experience Cloud ID 서비스 뒤에 와야 하지만 Analytics 앱 측정 코드 앞에 와야 합니다. 이렇게 하면 보조 ID(`SDID`) 또는 `[!DNL StitchID]`이(가) Analytics 호출에 포함됩니다.
+[!DNL Analytics for Advertising] JavaScript 함수는 Experience Cloud ID 서비스 다음에 와야 하지만 Analytics 앱 측정 코드 앞에 와야 합니다. 이렇게 하면 보조 ID(`SDID`) 또는 `[!DNL StitchID]`이(가) Analytics 호출에 포함됩니다.
 
 ![코드 배치](/help/integrations/assets/a4adc-code-placement.png)
 
@@ -123,7 +132,7 @@ JavaScript 라이브러리는 [!DNL Analytics]과(와) Adobe Advertising이 서�
    1. 응용 프로그램 탭에서 `adcloud` 쿠키를 찾은 다음 값이 `y`이고 30분 후에 만료되는 UTC 에포크 타임스탬프가 있는 `_les_v`(마지막 방문)이 쿠키에 포함되어 있는지 확인합니다.
       1. `adcloud` 쿠키를 삭제하고 페이지를 새로 고칩니다.
 
-1. (Experience Cloud Identity 서비스 `visitorAPI.js` 코드를 사용하는 구현) Analytics 히트를 보려면 `/b/ss`에서 필터링합니다.
+1. (Adobe 방문자 ID 서비스 `visitorAPI.js` 코드를 사용하는 구현) Analytics 히트를 보려면 `/b/ss`에서 필터링합니다.
 
    `/b/ss`![&#128279;](/help/integrations/assets/a4adc-code-validation-filter-bss.png)에서 필터링
 
@@ -131,26 +140,26 @@ JavaScript 라이브러리는 [!DNL Analytics]과(와) Adobe Advertising이 서�
 
    `/interact`![&#128279;](/help/integrations/assets/a4adc-code-validation-filter-interact.png)에서 필터링
 
-1. Compare the ID values between the two hits. All of the values should be in query string parameters except for the report suite ID in the Analytics hit, which is the URL path immediately after `/b/ss/`.
+1. 두 히트 간의 ID 값을 비교합니다. Analytics 히트의 보고서 세트 ID(`/b/ss/` 바로 뒤 URL 경로)를 제외한 모든 값은 쿼리 문자열 매개 변수에 있어야 합니다.
 
-   | ID | Analytics Parameter | Edge Network | Adobe Advertising Parameter |
+   | ID | Analytics 매개변수 | Edge Network | Adobe Advertising 매개 변수 |
    | --- | --- | --- | --- |
-   | Experience Cloud IMS Org | `mcorgid` |  | `_les_imsOrgid` |
-   | Supplemental Data ID | sdid |  | `_les_sdid` |
-   | Stitch ID | stitchId | `advertisingStitchID` under the `_adcloud` property |  |
-   | Analytics Report Suite | The value after `/b/ss/` | | `_les_rsid` |
-   | Experience Cloud Visitor ID | mid |  | `_les_mid` |
+   | Experience Cloud IMS 조직 | `mcorgid` |  | `_les_imsOrgid` |
+   | 보조 데이터 ID | sdid |  | `_les_sdid` |
+   | 결합 ID | stitchId | `_adcloud` 속성 아래의 `advertisingStitchID` |  |
+   | Analytics 보고서 세트 | `/b/ss/` 이후의 값 | | `_les_rsid` |
+   | Experience Cloud 방문자 ID | mid |  | `_les_mid` |
 
-   If the ID values match, then the JavaScript implementation is confirmed. Adobe Advertising sends the [!DNL Analytics] server any click-through or view-through tracking details if they exist.
+   ID 값이 일치하는 경우 JavaScript 구현이 확인됩니다. Adobe Advertising은 클릭스루 또는 뷰스루 추적 세부 정보(있는 경우)가 있는 경우 [!DNL Analytics] 서버에 보냅니다.
 
 #### [!DNL Adobe Experience Platform Debugger]을(를) 사용하여 코드를 확인하는 방법
 
-1. Open [the [!DNL Adobe Experience Platform Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ko) on your homepage.
-1. Go to the [!UICONTROL Network] tab.
-1. In the [!UICONTROL Solutions Filter] toolbar, click [!UICONTROL Adobe Advertising] and [!UICONTROL Analytics].
-1. In the [!UICONTROL Request URL - Hostname] parameter row, locate `lasteventf-tm.everesttech.net`.
-1. In the [!UICONTROL Request - Parameters] row, audit the signals generated, similar to Step 3 in &quot;[How to Confirm the Code with [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
-   * (Experience Cloud Identity 서비스 `visitorAPI.js` 코드를 사용하는 구현) `Sdid` 매개 변수가 Adobe Analytics 필터의 `Supplemental Data ID`과(와) 일치하는지 확인합니다.
+1. 홈페이지에서 [the [!DNL Adobe Experience Platform Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=ko)을(를) 엽니다.
+1. [!UICONTROL Network] 탭으로 이동합니다.
+1. [!UICONTROL Solutions Filter] 도구 모음에서 [!UICONTROL Adobe Advertising] 및 [!UICONTROL Analytics]을(를) 클릭합니다.
+1. [!UICONTROL Request URL - Hostname] 매개 변수 행에서 `lasteventf-tm.everesttech.net`을(를) 찾습니다.
+1. [!UICONTROL Request - Parameters] 행에서 생성된 신호를 감사합니다. &quot;[코드 확인 방법 [!DNL Chrome Developer Tools]](#validate-js-chrome)&quot;의 3단계와 유사합니다.
+   * (Adobe 방문자 ID 서비스 `visitorAPI.js` 코드를 사용하는 구현) `Sdid` 매개 변수가 Adobe Analytics 필터의 `Supplemental Data ID`과(와) 일치하는지 확인하십시오.
    * (Experience Platform [!DNL Web SDK] `alloy.js`코드를 사용하는 구현) `advertisingStitchID` 매개 변수의 값이 Experience Platform Edge Network에 전송된 `Sdid`과(와) 일치하는지 확인하십시오.
    * 코드가 생성되지 않으면 [!UICONTROL Application] 탭에서 Adobe Advertising 쿠키가 제거되었는지 확인하십시오. 페이지가 제거되면 페이지를 새로 고치고 프로세스를 반복합니다.
 

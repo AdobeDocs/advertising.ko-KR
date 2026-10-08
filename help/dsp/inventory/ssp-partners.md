@@ -3,22 +3,26 @@ title: SSP 파트너
 description: 사용 가능한 SSP(공급측 플랫폼) 및 개방형 교환 파트너 목록을 참조하십시오.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-TQID: https://experienceleague.adobe.com/A41OF1vywMSxgMF2hOTD0X4bKjvroZFMzqeCHolkITY
+TQID: 'https://experienceleague.adobe.com/A41OF1vywMSxgMF2hOTD0X4bKjvroZFMzqeCHolkITY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: '485'
 ht-degree: 3%
-
 ---
-
 # SSP 파트너
 
 SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 자동화된 경매에서 디지털 광고를 판매할 수 있도록 지원하는 데 사용되는 광고 기술 플랫폼입니다. 디지털 미디어 소유자 및 게시자는 SSP를 사용하여 광고 인벤토리의 공급 및 배포를 조정하고, 관리하고, 수익을 창출합니다. Advertising DSP은 모든 주요 SSP와 통합되어 있어 광고주가 광고 요구 사항에 맞는 고품질 인벤토리에 쉽게 액세스할 수 있습니다.
@@ -34,27 +38,27 @@ SSP(공급측 플랫폼)는 디지털 미디어 소유자 및 게시자가 자�
 | SSP | 회사 | Seat ID | 프로그램 보증 지원 | 지역 | 지원되는 통화 | 지원되는 인벤토리 |
 | --- | --- | --- | --- | --- | --- | --- |
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | PG 지원 | 글로벌 | USD, EUR, GBP | 오디오 데스크탑 및 모바일 |
-| [!DNL Cadent] | [!DNL Cadent]&#x200B;(이전 [!DNL EMX Digital]) | Adobe Advertising | — | 미국/CA | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
+| [!DNL Cadent] | [!DNL Cadent]&#x200B;(이전 [!DNL EMX Digital]) | Adobe Advertising | — | 미국/CA | USD | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 미국 + EMEA | USD, EUR | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
 | [!DNL Equativ] | [!DNL Equativ]&#x200B;(이전 [!DNL Smart AdServer]) | [!DNL TubeMogul] 또는 Adobe Advertising | — | EMEA | USD, EUR | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑 및 모바일 |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul] 또는 Adobe Advertising | PG 지원 | 글로벌 | USD, EUR, AUD, GBP | 비디오 데스크탑, 모바일 및 CTV |
 | [!DNL Google Authorized Buyers]&#x200B;(이전 [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC 및 EU - 89185975 | PG 지원 | 글로벌 | USD, BRL | 오디오 데스크톱 및 모바일<br><br>데스크톱 및 모바일 표시<br><br>비디오 데스크톱, 모바일 및 CTV |
-| [!DNL GumGum] |  | Adobe Advertising | — | 글로벌 | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑 및 모바일 |
-| [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | 글로벌 | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
-| [!DNL Magnite DV+] | [!DNL Magnite]&#x200B;(이전 [!DNL Rubicon]) | [!DNL TubeMogul] 또는 Adobe Advertising | PG 지원 | 글로벌 | 미국 달러 | 오디오 데스크톱 및 모바일<br><br>데스크톱 및 모바일 표시<br><br>비디오 데스크톱, 모바일 및 CTV |
+| [!DNL GumGum] |  | Adobe Advertising | — | 글로벌 | USD | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑 및 모바일 |
+| [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | 글로벌 | USD | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
+| [!DNL Magnite DV+] | [!DNL Magnite]&#x200B;(이전 [!DNL Rubicon]) | [!DNL TubeMogul] 또는 Adobe Advertising | PG 지원 | 글로벌 | USD | 오디오 데스크톱 및 모바일<br><br>데스크톱 및 모바일 표시<br><br>비디오 데스크톱, 모바일 및 CTV |
 | [!DNL Magnite SpringServe (formerly Magnite Streaming)] | [!DNL Magnite]&#x200B;(이전 [!DNL Telaria] 및 [!DNL Tremor]) | [!DNL TubeMogul] 또는 Adobe Advertising | PG 지원 | 글로벌 | AUD, USD | 비디오 데스크탑, 모바일 및 CTV |
-| [!DNL Microsoft Monetize] | [!DNL Microsoft]&#x200B;(이전 [!DNL Xandr], [!DNL AppNexus]) | 비디오 시트 ID: 9094<br>디스플레이 시트 ID: 3939 | — | 글로벌 | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
-| [!DNL Nexxen] | [!DNL Nexxen]&#x200B;(이전 [!DNL Unruly]) | Adobe Advertising | — | 미국 + EMEA | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
-| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 또는 Adobe Advertising | PG 지원 | 글로벌 | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
-| [!DNL PubMatic] | [!DNL Pubmatic] | [!DNL TubeMogul] 또는 Adobe Advertising | — | 글로벌 | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 글로벌 | 미국 달러 | 데스크탑 및 모바일 디스플레이<br><br>기본 디스플레이<br><br>비디오 데스크탑, 모바일 및 CTV |
+| [!DNL Microsoft Monetize] | [!DNL Microsoft]&#x200B;(이전 [!DNL Xandr], [!DNL AppNexus]) | 비디오 시트 ID: 9094<br>디스플레이 시트 ID: 3939 | — | 글로벌 | USD | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
+| [!DNL Nexxen] | [!DNL Nexxen]&#x200B;(이전 [!DNL Unruly]) | Adobe Advertising | — | 미국 + EMEA | USD | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
+| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] 또는 Adobe Advertising | PG 지원 | 글로벌 | USD | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
+| [!DNL PubMatic] | [!DNL Pubmatic] | [!DNL TubeMogul] 또는 Adobe Advertising | — | 글로벌 | USD | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
+| [!DNL ShareThrough] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 글로벌 | USD | 데스크탑 및 모바일 디스플레이<br><br>기본 디스플레이<br><br>비디오 데스크탑, 모바일 및 CTV |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | 모든 통화 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
-| [!DNL Taboola] |  | Adobe Advertising | — | 미국/CA | 미국 달러 | 비디오 데스크탑 및 모바일 |
-| [!DNL Teads] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 아웃스트림 비디오 = 글로벌<br>디스플레이 = NA + EMEA | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
-| [!DNL TripleLift] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 글로벌 | 미국 달러 | 기본 디스플레이 |
-| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 글로벌 | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
-| [!DNL Triton] |  | Adobe Advertising | PG 지원 | 글로벌 | 미국 달러 | 오디오 데스크탑 및 모바일 |
-| [!DNL Yahoo] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 글로벌 | 미국 달러 | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
+| [!DNL Taboola] |  | Adobe Advertising | — | 미국/CA | USD | 비디오 데스크탑 및 모바일 |
+| [!DNL Teads] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 아웃스트림 비디오 = 글로벌<br>디스플레이 = NA + EMEA | USD | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
+| [!DNL TripleLift] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 글로벌 | USD | 기본 디스플레이 |
+| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 글로벌 | USD | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
+| [!DNL Triton] |  | Adobe Advertising | PG 지원 | 글로벌 | USD | 오디오 데스크탑 및 모바일 |
+| [!DNL Yahoo] |  | [!DNL TubeMogul] 또는 Adobe Advertising | — | 글로벌 | USD | 데스크탑 및 모바일 표시<br><br>비디오 데스크탑, 모바일 및 CTV |
 
 >[!MORELIKETHIS]
 >

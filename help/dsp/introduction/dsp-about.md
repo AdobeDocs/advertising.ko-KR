@@ -3,24 +3,30 @@ title: Adobe Advertising DSP 정보
 description: Adobe Advertising DSP 정보
 feature: DSP Introduction
 exl-id: 2a5df455-673b-483f-91a6-4fc5678b7f8a
-TQID: https://experienceleague.adobe.com/YJQHNT-Xkpob54deI0IIGVN2cI6sPYDlAiqievQK3oI
+TQID: 'https://experienceleague.adobe.com/YJQHNT-Xkpob54deI0IIGVN2cI6sPYDlAiqievQK3oI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: bc11f38b8a81f964323d35a44aa3937674a768cd
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: '372'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising DSP 정보
 
 Adobe Advertising은 모든 미디어, 데이터, 대상 및 크리에이티브를 규모에 맞게 통합하고 자동화하는 유일한 독립 광고 플랫폼입니다. 유료 검색, 디스플레이, 비디오, 연결된 TV(CTV), 오디오 및 기본 등 모든 광고 채널에서 연결된 경험을 제공합니다.

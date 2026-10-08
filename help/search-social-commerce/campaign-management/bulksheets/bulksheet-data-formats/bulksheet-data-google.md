@@ -1,23 +1,28 @@
 ---
-title: ' [!DNL Google Ads] 계정의 필수 일괄 시트 데이터'
-description: ' [!DNL Google Ads] 계정의 일괄 시트에 있는 필수 머리글 필드 및 데이터 필드를 참조합니다.'
+title: '[!DNL Google Ads] 계정의 필수 일괄 시트 데이터'
+description: '[!DNL Google Ads] 계정의 일괄 시트에서 필수 헤더 필드와 데이터 필드를 참조합니다.'
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA
+TQID: 'https://experienceleague.adobe.com/mxs4XjmBxho29VLjSzREkA-w6eWMn6e-8cXihLgh7ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a534a6eb822a22dcff7ca7ca9e8dcd4f3d75712c
+    internal-label: Data collection
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 8027
+source-wordcount: '8101'
 ht-degree: 0%
-
 ---
-
 # 부록 - [!DNL Google Ads] 계정에 대한 필수 일괄 시트 데이터
 
 [!DNL Google Ads] 캠페인 데이터를 일괄적으로 만들고 업데이트하려면 [!DNL Google Ads] 계정용으로 특별히 형식이 지정된 검색, 소셜 및 Commerce 일괄 시트 파일을 사용할 수 있습니다. a) [기존 계정에 대한 일괄 시트 파일을 필요한 파일 형식으로 생성](../bulksheet-download.md)하거나, b) 수동으로 만들 수 있습니다(&quot;[지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)&quot;에서 지원되는 파일 형식에 대한 일반 정보를 참조하십시오).
@@ -75,7 +80,7 @@ Add in when released:
 | [!UICONTROL Location Type] | (위치를 포함하는 경우) [위치 유형](https://developers.google.com/google-ads/api/data/geotargets)입니다. |
 | [!UICONTROL Device] | 캠페인 또는 광고 그룹 수준에서 입찰 조정을 수행하는 장치 유형: <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i> 또는 <i>[!UICONTROL desktop]</i>. |
 | [!UICONTROL Bid Adjustment] | <p>([!UICONTROL Location], [!UICONTROL Device] 또는 [!UICONTROL RLSA] 대상을 포함하는 경우) 특정 위치, 특정 장치 유형 또는 특정 대상 대상의 광고 입찰을 조정할지 여부를 지정합니다.</p><ul><li><p>키워드 수준의 입찰(0% 차이)을 사용하려면 0을 입력합니다. 새 대상의 경우 이 항목을 비워 둘 수도 있습니다.</p></li><li><p>이 대상에 대해 다른 입찰가를 사용하려면 입찰가를 높이거나 낮출 백분율을 입력합니다.</p></li><ul><li><p>위치 및 RLSA 타겟의 경우 유효한 백분율은 -90에서 900까지입니다.</p></li><li><p>장치 입찰 조정의 경우 유효한 백분율은 다음과 같습니다.</p></li><ul><li><p>(캠페인)-100(장치 유형에서 광고를 입찰하지 않음) 또는 -90-900</p></li><li><p>(광고 그룹) 스마트폰 및 태블릿의 경우 -100(장치 유형에 대해 입찰하지 않음), 모든 장치 유형의 경우 -90 ~ 900.</p></li></ul></ul><li><p>(기존 캠페인 및 광고 그룹) 기존 입찰 조정을 사용하려면 이 항목을 비워 둡니다.</p></li></ul> |
-| [!UICONTROL Adobe Rec Bid Adjustment] | (정보 목적으로 생성된 일괄 시트에 포함됨) Adobe에서 캠페인 수준 위치 대상 또는 RLSA에 권장하는 읽기 전용 입찰 조정입니다. 가중 전환 지표를 사용하는 목표를 가진 포트폴리오([!UICONTROL Maximize Clicks] 목표가 아님)에 캠페인이 있고, 최근 90일 동안 최소 5번의 클릭으로 두 개 이상의 위치 대상 또는 RLSA가 포함된 경우 또는 비용 USD가 5개인 경우에만 계산됩니다.</p><p>위치 타겟 또는 RLSA를 수동으로 편집하여 권장 값을 사용하려는 경우, 위치 타겟 또는 RLSA를 만든 후 최소 2주를 기다린 후 충분한 데이터 수집을 허용하고 값을 일주일에 두 번 이상 변경하지 마십시오. |
+| [!UICONTROL Adobe Rec Bid Adjustment] | (정보 목적으로 생성된 일괄 시트에 포함됨) Adobe에서 캠페인 수준 위치 대상 또는 RLSA에 권장하는 읽기 전용 입찰 조정입니다. 가중 전환 지표를 사용하는 목표를 가진 포트폴리오([!UICONTROL Maximize Clicks] 목표가 아님)에 캠페인이 있고, 최근 90일 동안 최소 5번의 클릭으로 두 개 이상의 위치 대상 또는 RLSA가 있거나 5번의 USD 비용이 발생한 경우에만 계산됩니다.</p><p>위치 타겟 또는 RLSA를 수동으로 편집하여 권장 값을 사용하려는 경우, 위치 타겟 또는 RLSA를 만든 후 최소 2주를 기다린 후 충분한 데이터 수집을 허용하고 값을 일주일에 두 번 이상 변경하지 마십시오. |
 | [!UICONTROL Device Targets] | <p>(기존 캠페인 유형만 해당) 광고를 표시할 수 있는 장치: <i>[!UICONTROL All]</i>, <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Smartphones]</i> 또는 <i>[!UICONTROL Tablets]</i>. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
 | [!UICONTROL Device OS Targets (Google Adwords)] | (레거시 캠페인 유형만 해당, 장치 대상에 &quot;스마트폰&quot; 또는 &quot;태블릿&quot;이 포함된 경우 적용 가능) 광고가 표시될 수 있는 운영 체제: <i>[!UICONTROL All]</i>, <i>[!UICONTROL Android]</i>, <i>[!UICONTROL iOS]</i> 또는 <i>[!UICONTROL Palm]</i>. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>(기존 캠페인 유형만 해당; [!UICONTROL Device Targets]에 &quot;[!UICONTROL All]&quot; 또는 &quot;[!UICONTROL Smartphones]&quot;이(가) 포함된 경우에 적용 가능) 스마트폰이 연결될 수 있는 이동통신사: <i>[!UICONTROL All]</i> 또는 <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">사용 가능한 통신사 및 [!DNL Google Ads]</a>용 코드 목록을 사용하여 &lt;c<i>통신사 코드</i>>,&lt;<i>국가 코드</i>>(예: T-Mobile,US)로 표시된 하나 이상의 통신사. 세미콜론(예: T-Mobile, US, T-Mobile, GB)으로 여러 캐리어를 구분하십시오. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
@@ -493,5 +498,5 @@ Add in when released:
 >* [일괄 시트에서 수행할 수 있는 작업](bulksheet-operations.md)
 >* [지원되는 일괄 시트 파일 형식](bulksheet-file-formats.md)
 >* [일괄 시트 파일 다운로드/만들기](../bulksheet-download.md)
->*  [!DNL Naver][&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
+>*  [!DNL Naver]&#x200B;[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)에 대한 클릭 추적 형식
 >* [일괄 시트 파일 또는 수정된 오류 파일 업로드](../bulksheet-upload.md)

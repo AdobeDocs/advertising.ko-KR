@@ -3,18 +3,21 @@ title: Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형
 description: 지원되는 광고 네트워크의 클릭 추적 형식에 대해 알아봅니다.
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
+TQID: 'https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보
 
 Adobe Advertising 전환 추적 서비스를 사용하는 광고 계정 및 캠페인에 대한 추적 템플릿, 랜딩 페이지 접미사(최종 URL 접미사) 및 대상 URL의 형식은 다음과 같습니다.
@@ -29,9 +32,9 @@ Adobe Advertising 전환 추적 서비스를 사용하는 광고 계정 및 캠�
 
 * `<token passing parameter>`은(는) 다음 중 하나의 변수입니다.
 
-   * `cq?` 또는 `rq`은(는) 토큰 전달이 활성화되었음을 나타냅니다.
+  * `cq?` 또는 `rq`은(는) 토큰 전달이 활성화되었음을 나타냅니다.
 
-   * `c?` 또는 `r`은(는) 토큰 전달이 비활성화되었음을 나타냅니다.
+  * `c?` 또는 `r`은(는) 토큰 전달이 비활성화되었음을 나타냅니다.
 
 * `<ad network ID>`은(는) 지정한 광고 네트워크의 숫자 ID에 대한 변수입니다(예: [!DNL Google Ads]의 *3*, [!DNL Microsoft Advertising]의 *10*, [!DNL Meta]의 *45*, [!DNL Yahoo DSP]의 *86*, [!DNL Naver]의 *87*, [!DNL Baidu]의 *87*, [!DNL Yandex]의 *90*, [!DNL LY Ads]의 *94*(이전의 [!DNL Yahoo! Japan Ads]), [!DNL Yahoo Native]의 *105*)(더 이상 사용되지 않음) 또는 [!DNL Pinterest]용 *106*(더 이상 사용되지 않음).
 
@@ -44,9 +47,9 @@ Adobe Advertising 전환 추적 서비스를 사용하는 광고 계정 및 캠�
 >[!MORELIKETHIS]
 >
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Baidu]](formats-click-tracking-baidu.md)
->*  [!DNL Google Ads][&#128279;](formats-click-tracking-google.md)에 대한 클릭 추적 형식
+>*  [!DNL Google Ads]&#x200B;[&#128279;](formats-click-tracking-google.md)에 대한 클릭 추적 형식
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL LY Ads]](formats-click-tracking-yahoo-japan.md)
->*  [!DNL Microsoft Advertising][&#128279;](formats-click-tracking-microsoft.md)에 대한 클릭 추적 형식
+>*  [!DNL Microsoft Advertising]&#x200B;[&#128279;](formats-click-tracking-microsoft.md)에 대한 클릭 추적 형식
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Naver]](formats-click-tracking-naver.md)
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Yahoo DSP]](formats-click-tracking-yahoo-display-network.md)
 >* [스폰서 광고에 대한 클릭 추적 형식 [!DNL Yandex]](formats-click-tracking-yandex.md)

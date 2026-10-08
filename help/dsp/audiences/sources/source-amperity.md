@@ -1,27 +1,33 @@
 ---
-title: 사용자 ID를  [!DNL Amperity] 에서 범용 ID로 변환
-description: DSP에서  [!DNL Amperity] 자사 세그먼트를 수집할 수 있도록 하는 방법을 알아봅니다.
+title: 사용자 ID를 [!DNL Amperity]에서 유니버설 ID로 변환
+description: DSP에서 [!DNL Amperity]개의 자사 세그먼트를 수집할 수 있도록 하는 방법을 알아봅니다.
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-TQID: https://experienceleague.adobe.com/LOl3N6NB0alkOXiTNe7Xzj9mcVVfYxog3x-iIuVa82M
+TQID: 'https://experienceleague.adobe.com/LOl3N6NB0alkOXiTNe7Xzj9mcVVfYxog3x-iIuVa82M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 50af5a8fc6e5e82268489259073e27911ca5a45c
+    internal-label: Measurement
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 708
+source-wordcount: '710'
 ht-degree: 0%
-
 ---
-
 # 사용자 ID를 [!DNL Amperity]에서 유니버설 ID로 변환
 
 [!DNL Amperity] 고객 데이터 플랫폼과 DSP 통합을 사용하여 타깃팅된 광고를 위해 조직의 자사 해시된 이메일 주소를 범용 ID로 변환합니다.

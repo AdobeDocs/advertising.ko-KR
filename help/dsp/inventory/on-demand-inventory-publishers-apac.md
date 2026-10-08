@@ -1,24 +1,28 @@
 ---
 title: 아시아 태평양의 프리미엄 인벤토리 게시자 [!DNL On Demand]명
-description: 아시아 태평양 지역에서 사용 가능한  [!DNL On Demand] 프리미엄 인벤토리 게시자를 참조하십시오.
+description: 아시아 태평양 지역에서 사용 가능한 [!DNL On Demand] 프리미엄 인벤토리 게시자를 참조하십시오.
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
-TQID: https://experienceleague.adobe.com/9PUXdICywm-p3FNlNp-hB6Hu8llInJbwlQ17OwJGZkY
+TQID: 'https://experienceleague.adobe.com/9PUXdICywm-p3FNlNp-hB6Hu8llInJbwlQ17OwJGZkY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 0%
-
+source-wordcount: '465'
+ht-degree: 4%
 ---
-
 # 아시아 태평양의 프리미엄 인벤토리 게시자 [!DNL On Demand]명{#on-demand-inventory-publishers-apac}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
@@ -122,7 +126,7 @@ ht-degree: 0%
 | [!DNL BuzzFeed] | 일본 |
 | [!DNL CNN International] | 일본 |
 | [!DNL Conde Nast] | 일본 |
-| [!DNL DAZN]&#x200B;([!DNL Perform Media]) | 일본 |
+| [!DNL DAZN] ([!DNL Perform Media]) | 일본 |
 | [!DNL Discovery] | 일본 |
 | [!DNL EA] | 일본 |
 | [!DNL Gameloft] | 일본 |
@@ -147,7 +151,7 @@ ht-degree: 0%
 | [!DNL CNBC] | 말레이시아 |
 | [!DNL CNN International] | 말레이시아 |
 | [!DNL Conde Nast] | 말레이시아 |
-| [!DNL DAZN]&#x200B;([!DNL Perform Media]) | 말레이시아 |
+| [!DNL DAZN] ([!DNL Perform Media]) | 말레이시아 |
 | [!DNL Digital Trends] | 말레이시아 |
 | [!DNL EA] | 말레이시아 |
 | [!DNL Gameloft] | 말레이시아 |
@@ -207,7 +211,7 @@ ht-degree: 0%
 | [!DNL CNN International] | SEA |
 | [!DNL Coconuts] | SEA |
 | [!DNL Conde Nast] | SEA |
-| [!DNL DAZN]&#x200B;([!DNL Perform Media]) | SEA |
+| [!DNL DAZN] ([!DNL Perform Media]) | SEA |
 | [!DNL Dek-D] | SEA |
 | [!DNL Detik] | SEA |
 | [!DNL Doisongphapluat] | SEA |
@@ -279,7 +283,7 @@ ht-degree: 0%
 | [!DNL CNBC] | 싱가포르 |
 | [!DNL CNN International] | 싱가포르 |
 | [!DNL Conde Nast] | 싱가포르 |
-| [!DNL DAZN]&#x200B;([!DNL Perform Media]) | 싱가포르 |
+| [!DNL DAZN] ([!DNL Perform Media]) | 싱가포르 |
 | [!DNL EA] | 싱가포르 |
 | [!DNL Gameloft] | 싱가포르 |
 | [!DNL Investopedia] | 싱가포르 |

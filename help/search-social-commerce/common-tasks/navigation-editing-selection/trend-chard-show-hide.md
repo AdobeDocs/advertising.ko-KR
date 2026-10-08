@@ -3,18 +3,21 @@ title: 트렌드 차트 표시 및 숨기기
 description: 일부 캠페인 관리 보기에서 데이터에 대한 추세 차트를 보고 숨기는 방법을 알아봅니다.
 exl-id: fa58b123-648f-4a95-86f0-3c38fa89cb28
 feature: Search Common Tasks
-TQID: https://experienceleague.adobe.com/1pWiwFSlyTdsH3-dIBk3Z8rMFKZuZEzmeflNWqFaABc
+TQID: 'https://experienceleague.adobe.com/1pWiwFSlyTdsH3-dIBk3Z8rMFKZuZEzmeflNWqFaABc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 229
+source-wordcount: '228'
 ht-degree: 0%
-
 ---
-
 # 트렌드 차트 표시 및 숨기기
 
 *기존 사용자 인터페이스만*

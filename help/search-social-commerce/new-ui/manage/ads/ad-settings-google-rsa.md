@@ -1,20 +1,24 @@
 ---
 title: '[!DNL Google Ads] 반응형 검색 광고 설정'
-description: ' [!DNL Google Ads] 반응형 검색 광고에 대한 설정을 참조합니다.'
+description: '[!DNL Google Ads]개의 반응형 검색 광고에 대한 설정을 참조합니다.'
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 730b474b83ae4df47c18f93adfec62b1dc9b8a16
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 85
+source-wordcount: '86'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] 반응형 검색 광고 설정
 
 [!DNL Google Ads]은(는) 최대 3개의 헤드라인과 2개의 설명을 사용하여 [반응형 검색 광고](https://support.google.com/google-ads/answer/7684791?hl=en)&#x200B;(RSA)를 동적으로 어셈블합니다.

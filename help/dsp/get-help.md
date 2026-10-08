@@ -3,22 +3,26 @@ title: 도움말 보기
 description: 온라인 설명서 및 커뮤니티 리소스를 보는 방법과 기술 지원을 받는 방법을 알아봅니다.
 feature: DSP Introduction
 exl-id: 2e0226ea-bcd3-4a38-8907-d2e078c758d0
-TQID: https://experienceleague.adobe.com/7Ag7-NfA31va0JFwpmUp3h-Xzh-h2Yl7g2Q8WwE2gsc
+TQID: 'https://experienceleague.adobe.com/7Ag7-NfA31va0JFwpmUp3h-Xzh-h2Yl7g2Q8WwE2gsc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Troubleshooting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: '179'
 ht-degree: 0%
-
 ---
-
 # 도움말 보기
 
 모든 [!DNL DSP] 및 (Advertising Creative을 사용하는 광고주) [!DNL Creative] 설명서에 AI 지원 쿼리를 제출하거나 [!DNL DSP]에 대한 전체 사용 안내서를 열 수 있습니다. 설명서에 질문에 대한 답변이 없으면 문의하시기 바랍니다.

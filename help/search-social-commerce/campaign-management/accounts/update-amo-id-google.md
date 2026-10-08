@@ -1,30 +1,35 @@
 ---
-title: ' [!DNL Google Ads] 계정에 대한 AMO ID(s_kwcid) 추적 코드 업데이트'
-description: ' [!DNL Google Ads]  계정에 대한 최신 AMO ID 추적 코드로 전환하는 방법에 대해 알아봅니다.'
+title: '[!DNL Google Ads] 계정에 대한 AMO ID(s_kwcid) 추적 코드 업데이트'
+description: '[!DNL Google Ads] 계정에 대한 최신 AMO ID 추적 코드로 전환하는 방법에 대해 알아봅니다.'
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/7BOrtiEjkYEi1ZbY-PyU-dgstfa30ebtt-WBYHPX0-I
+TQID: 'https://experienceleague.adobe.com/7BOrtiEjkYEi1ZbY-PyU-dgstfa30ebtt-WBYHPX0-I'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '499'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Ads] 계정에 대한 AMO ID(s_kwcid) 추적 코드 업데이트
 
 *Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
 
 *[!DNL Google Ads]개의 계정만*
 
-기존 [&#x200B; 계정의 &#x200B;](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items)AMO ID 추적 코드[!DNL Google Ads]에 대한 레거시(2019년 10월 이전) 형식은 [!DNL Google Ads] 성과 최대 캠페인, 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서의 보고와 같은 Analytics의 일부 기능을 지원하지 않으며, 여러 캠페인에 동일한 ad+키워드+일치 유형 조합이 있는 기타 사용 사례도 지원합니다.
+기존 [!DNL Google Ads] 계정의 [AMO ID 추적 코드](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items)에 대한 레거시(2019년 10월 이전) 형식은 [!DNL Google Ads] 성과 최대 캠페인, 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준에서의 보고와 같은 Analytics의 일부 기능을 지원하지 않으며, 여러 캠페인에 동일한 ad+키워드+일치 유형 조합이 있는 기타 사용 사례도 지원합니다.
 
 현재 형식에는 캠페인 ID 및 광고 그룹 ID에 대한 매개 변수가 포함되어 있습니다.
 
@@ -50,7 +55,7 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 
 1. 마이그레이션을 시작합니다.
 
-   1. **[!UICONTROL S_KWCID FORMAT]** 설정에서 [!UICONTROL Account Tracking] 옆에 있는 **[!UICONTROL LEGACY S_KWCID FORMAT]**&#x200B;을(를) 클릭합니다.
+   1. [!UICONTROL Account Tracking] 설정에서 **[!UICONTROL S_KWCID FORMAT]** 옆에 있는 **[!UICONTROL LEGACY S_KWCID FORMAT]**&#x200B;을(를) 클릭합니다.
 
    1. **[!UICONTROL Migrate to new s_kwcid format]**&#x200B;을(를) 클릭합니다.
 
@@ -77,5 +82,5 @@ s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_part
 >[!MORELIKETHIS]
 >
 >* [광고 네트워크 계정 관리](ad-network-account-manage.md)
->* [에서 사용하는  [!DNL Analytics]](/help/integrations/analytics/ids.md)Adobe Advertising ID
+>*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)에서 사용하는 Adobe Advertising ID
 >* [개요 [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=ko){target="_blank"}

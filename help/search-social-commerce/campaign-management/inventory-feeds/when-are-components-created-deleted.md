@@ -3,18 +3,21 @@ title: 계정 구성 요소는 언제 재고 피드에서 생성되거나 삭제
 description: 인벤토리 피드를 게시할 때 계정 구성 요소를 만들고 삭제하는 상황에 대해 알아봅니다.
 exl-id: 39a3cc2c-f956-4a89-a69d-687a27a38a1e
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/lo1FGJlZyyrO49IVCt308TaH65Eq-ZgRTafKSMTomHI
+TQID: 'https://experienceleague.adobe.com/lo1FGJlZyyrO49IVCt308TaH65Eq-ZgRTafKSMTomHI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: '851'
 ht-degree: 0%
-
 ---
-
 # 계정 구성 요소는 언제 재고 피드에서 생성되거나 삭제됩니까?
 
 *[!DNL Google Ads], [!DNL LY Ads]&#x200B;(삭제 작업만), [!DNL Microsoft Advertising] 및 [!DNL Yandex] 계정만*
