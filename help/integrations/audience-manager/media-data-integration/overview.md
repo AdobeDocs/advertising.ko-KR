@@ -66,15 +66,15 @@ Audience Manager 노출 횟수 및 클릭 이벤트 픽셀은 쿠키를 기반�
 
 ### 노출 추적 픽셀
 
-Audience Manager은 1xl 픽셀의 투명한 이벤트 추적 픽셀을 광고에 첨부할 때 광고에 대한 노출 데이터를 추적합니다. 이벤트 픽셀은 광고가 사용자에게 제공될 때마다 로드되고 웹 브라우저에 의해 로드됩니다. 픽셀은 Audience Manager의 레거시 도메인인 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)의 클라이언트별 하위 도메인에서 로드되며 매개 변수를 키-값 쌍으로 포함합니다. 이벤트 호출은 노출 및 전환 데이터를 수집하여 Audience Manager 데이터 수집 서버로 전송합니다.
+Audience Manager은 1xl 픽셀의 투명한 이벤트 추적 픽셀을 광고에 첨부할 때 광고에 대한 노출 데이터를 추적합니다. 이벤트 픽셀은 광고가 사용자에게 제공될 때마다 로드되고 웹 브라우저에 의해 로드됩니다. 픽셀은 Audience Manager의 레거시 도메인인 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko)의 클라이언트별 하위 도메인에서 로드되며 매개 변수를 키-값 쌍으로 포함합니다. 이벤트 호출은 노출 및 전환 데이터를 수집하여 Audience Manager 데이터 수집 서버로 전송합니다.
 
 ### 클릭 추적 픽셀
 
-Audience Manager은 광고가 제공될 때마다 투명한 이벤트 픽셀을 로드하지 않는다는 점을 제외하고 노출과 유사하게 클릭을 추적합니다. 대신 클릭 데이터가 광고의 클릭스루 URL에서 추적됩니다. 이 광고는 Audience Manager 데이터 수집 서버에서 처리하기 위해 Audience Manager의 레거시 도메인인 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html)의 클라이언트별 하위 도메인을 가리킵니다. 그런 다음 서버는 사용자를 의도한 랜딩 페이지로 리디렉션합니다. URL에는 매개 변수가 키-값 쌍으로 포함되어 있습니다.
+Audience Manager은 광고가 제공될 때마다 투명한 이벤트 픽셀을 로드하지 않는다는 점을 제외하고 노출과 유사하게 클릭을 추적합니다. 대신 클릭 데이터가 광고의 클릭스루 URL에서 추적됩니다. 이 광고는 Audience Manager 데이터 수집 서버에서 처리하기 위해 Audience Manager의 레거시 도메인인 [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=ko)의 클라이언트별 하위 도메인을 가리킵니다. 그런 다음 서버는 사용자를 의도한 랜딩 페이지로 리디렉션합니다. URL에는 매개 변수가 키-값 쌍으로 포함되어 있습니다.
 
 >[!NOTE]
 >
->조직에서 [!DNL Analytics] 추적을 사용하는 경우 Audience Manager 클릭 추적이 필요하지 않을 수 있습니다. Adobe Analytics이 클릭 신호를 캡처하여 [서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)을 통해 Audience Manager으로 전송할 수 있습니다.
+>조직에서 [!DNL Analytics] 추적을 사용하는 경우 Audience Manager 클릭 추적이 필요하지 않을 수 있습니다. Adobe Analytics이 클릭 신호를 캡처하여 [서버측 전달](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=ko)을 통해 Audience Manager으로 전송할 수 있습니다.
 
 >[!MORELIKETHIS]
 >

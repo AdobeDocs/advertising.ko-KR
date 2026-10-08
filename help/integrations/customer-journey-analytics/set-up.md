@@ -42,7 +42,7 @@ ht-degree: 1%
 
 <!-- may need to remove references to Experience Platform if it's not really required, just Data Collection? In that case, I may need to change all of the links accordingly.... -->
 
-[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)을(를) 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 기본적으로 데이터를 교환하려면 다음 작업이 필요합니다. 데이터 전송 및 속성은 론치 후에 시작되며 내역 데이터는 포함되지 않습니다.
+[Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko)을(를) 사용하여 Adobe Advertising과 Customer Journey Analytics 간에 기본적으로 데이터를 교환하려면 다음 작업이 필요합니다. 데이터 전송 및 속성은 론치 후에 시작되며 내역 데이터는 포함되지 않습니다.
 
 [!DNL Analytics for Advertising]을(를) 사용하는 광고주에게는 이러한 작업이 필요하지 않습니다.
 
@@ -64,19 +64,19 @@ Experience Platform에서 데이터 수집을 설정하고 전환 추적 태그�
 
 이 절차에는 스키마 생성이 포함됩니다. 대신 선택적으로 기존 스키마를 편집할 수 있습니다. 이 경우 데이터 세트 또는 데이터 스트림을 만들 필요가 없습니다.
 
-1. 데이터 수집 인터페이스에서 XDM(Experience Data Model)을 사용하여 수집할 웹 사이트 데이터에 대한 [스키마를 정의](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)합니다.
+1. 데이터 수집 인터페이스에서 XDM(Experience Data Model)을 사용하여 수집할 웹 사이트 데이터에 대한 [스키마를 정의](https://experienceleague.adobe.com/ko/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas)합니다.
 
    웹 사이트 데이터에 대한 스키마가 이미 있는 경우 다음 설정으로 대신 사용할 수 있습니다.
 
    * [!UICONTROL Schema Details]에서 사이트 이벤트를 캡처할 스키마의 기본 클래스로 **[!UICONTROL Experience Event]**&#x200B;을(를) 선택합니다. 스키마 이름을 지정하고 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
-   * 왼쪽 패널에서 필드 그룹 [Adobe Advertising Cloud ExperienceEvent 전체 확장](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)을(를) 추가하여 Adobe Advertising 관련 필드를 추가합니다. 최소한 [AMO ID 및 EF ID](ids.md)를 포함하는 `trackingCode` 및 `trackingIdentities` 속성이 있는 conversionDetails 개체를 포함하십시오. 다른 필드는 선택 사항입니다. 다른 구성은 필요하지 않습니다.
+   * 왼쪽 패널에서 필드 그룹 [Adobe Advertising Cloud ExperienceEvent 전체 확장](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)을(를) 추가하여 Adobe Advertising 관련 필드를 추가합니다. 최소한 [AMO ID 및 EF ID](ids.md)를 포함하는 `trackingCode` 및 `trackingIdentities` 속성이 있는 conversionDetails 개체를 포함하십시오. 다른 필드는 선택 사항입니다. 다른 구성은 필요하지 않습니다.
 
    * (선택 사항) 필요에 따라 추가 데이터 필드를 Adobe Advertising 데이터에 연결하는 데 추가 필드 그룹을 추가합니다.
 
    **참고:** 여러 개의 스키마를 만들 수 있지만 데이터 세트 및 데이터 스트림당 하나의 스키마만 사용할 수 있습니다. 다음 단계에서 만들 수 있습니다.
 
-1. 이벤트 데이터 컬렉션을 저장 및 관리하려면 스키마를 기반으로 [데이터 집합을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create). *이벤트 데이터 세트*&#x200B;가 됩니다. 데이터 세트로 기존 스키마를 편집하는 경우 이 단계를 건너뛸 수 있습니다.
+1. 이벤트 데이터 컬렉션을 저장 및 관리하려면 스키마를 기반으로 [데이터 집합을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/create). *이벤트 데이터 세트*&#x200B;가 됩니다. 데이터 세트로 기존 스키마를 편집하는 경우 이 단계를 건너뛸 수 있습니다.
 
    * **[!UICONTROL Create dataset from schema]** 옵션을 선택하고 스키마를 선택하세요.
 
@@ -86,7 +86,7 @@ Experience Platform에서 데이터 수집을 설정하고 전환 추적 태그�
    >
    >프로덕션 데이터 세트를 사용하기 전에 데이터 흐름을 확인하기 위해 먼저 더미 이벤트 데이터 세트를 만듭니다.
 
-1. [데이터 스트림을 만들어](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) 웹 사이트 또는 앱에서 데이터를 보낼 위치와 들어오는 데이터를 처리하는 방법을 지정합니다.
+1. [데이터 스트림을 만들어](https://experienceleague.adobe.com/ko/docs/experience-platform/datastreams/configure) 웹 사이트 또는 앱에서 데이터를 보낼 위치와 들어오는 데이터를 처리하는 방법을 지정합니다.
 
    * [!UICONTROL Mapping schema] 설정의 경우 1단계에서 만든 스키마를 선택합니다.
 
@@ -106,17 +106,17 @@ Adobe Tags의 Adobe Experience Platform Web SDK 확장 기능을 사용하여 �
 >
 >Adobe 태그만 지원됩니다. 독립 실행형 Experience Platform Web SDK(`alloy.js`) 또는 타사 태그 관리자에 대해서는 지원을 사용할 수 없습니다.
 
-1. Experience Platform [tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&#x200B;(이전 이름: [!DNL Launch])을(를) 사용하여 조직의 웹 사이트 데이터를 데이터 스트림으로 보낼 JavaScript 태그를 생성합니다.
+1. Experience Platform [tags](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home)&#x200B;(이전 이름: [!DNL Launch])을(를) 사용하여 조직의 웹 사이트 데이터를 데이터 스트림으로 보낼 JavaScript 태그를 생성합니다.
 
    * 태그 구성의 컨테이너인 태그 속성을 만듭니다.
 
-   * 속성의 경우 확장 카탈로그에서 [확장 &quot;Adobe Experience Platform Web SDK&quot;를 설치](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)합니다.
+   * 속성의 경우 확장 카탈로그에서 [확장 &quot;Adobe Experience Platform Web SDK&quot;를 설치](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration)합니다.
 
      이 확장은 웹 속성의 데이터를 Experience Platform Edge Network을 통해 Adobe CX Enterprise으로 보냅니다.
 
      Adobe Advertising 확장 기능을 사용하지 마십시오.
 
-   * [사용자 지정 웹 SDK 빌드](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build) 만들기:
+   * [사용자 지정 웹 SDK 빌드](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build) 만들기:
 
      * [!UICONTROL Custom build components] 섹션에서 **Advertising** 구성 요소를 사용하도록 설정합니다.
 
@@ -128,7 +128,7 @@ Adobe Tags의 Adobe Experience Platform Web SDK 확장 기능을 사용하여 �
 
        * [!UICONTROL Datastreams] 설정에서 각 웹 환경(프로덕션, 스테이징, 개발)에 사용할 데이터 스트림을 선택합니다.
 
-       * (Adobe Advertising DSP을 사용하는 조직만 해당) [[!UICONTROL Adobe Advertising] 설정](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)에서 **[!UICONTROL Adobe Advertising DSP]**&#x200B;을(를) 사용하여 뷰스루 추적을 허용하고 뷰스루 추적을 활성화할 광고주를 지정하십시오. 필요에 따라 조직의 ID5 파트너 ID 및/또는 [!DNL RampIDs]에 대한 조직의 [!DNL LiveRamp] [!DNL LaunchPad] JavaScript 코드(ats.js)에 대한 경로를 추가하여 유니버설 ID([자사 대상 소스](/help/dsp/audiences/sources/source-about.md)에서 번역됨)에서 ID를 수집할 수 있습니다.
+       * (Adobe Advertising DSP을 사용하는 조직만 해당) [[!UICONTROL Adobe Advertising] 설정](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)에서 **[!UICONTROL Adobe Advertising DSP]**&#x200B;을(를) 사용하여 뷰스루 추적을 허용하고 뷰스루 추적을 활성화할 광고주를 지정하십시오. 필요에 따라 조직의 ID5 파트너 ID 및/또는 [!DNL RampIDs]에 대한 조직의 [!DNL LiveRamp] [!DNL LaunchPad] JavaScript 코드(ats.js)에 대한 경로를 추가하여 유니버설 ID([자사 대상 소스](/help/dsp/audiences/sources/source-about.md)에서 번역됨)에서 ID를 수집할 수 있습니다.
 
          광고주가 나열되지 않은 경우 각 광고주에 대한 광고주 ID를 입력합니다. 필요한 경우 Adobe 계정 팀에 ID를 문의하십시오.
 
@@ -138,13 +138,13 @@ Adobe Tags의 Adobe Experience Platform Web SDK 확장 기능을 사용하여 �
 
        * 빌드를 저장합니다.
 
-   * (선택 사항) Web SDK에서 Edge Network으로 데이터를 보내야 하는 시기를 결정하는 데 필요한 경우 [규칙을 만듭니다](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules).
+   * (선택 사항) Web SDK에서 Edge Network으로 데이터를 보내야 하는 시기를 결정하는 데 필요한 경우 [규칙을 만듭니다](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/rules).
 
-     * `[sendEvent](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)` 작업의 경우 [[!UICONTROL Advertising] 설정](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)을(를) 사용하여 속성 측정에 광고 데이터를 사용하는 방법을 정의합니다. 이 설정은 규칙에 여러 작업의 시퀀스가 포함되어 있을 때 유용하며 사용자 지정 빌드 구성 요소에 대해 &quot;[!UICONTROL Advertising]&quot; 구성 요소를 선택한 경우에만 사용할 수 있습니다.
+     * `[sendEvent](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)` 작업의 경우 [[!UICONTROL Advertising] 설정](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)을(를) 사용하여 속성 측정에 광고 데이터를 사용하는 방법을 정의합니다. 이 설정은 규칙에 여러 작업의 시퀀스가 포함되어 있을 때 유용하며 사용자 지정 빌드 구성 요소에 대해 &quot;[!UICONTROL Advertising]&quot; 구성 요소를 선택한 경우에만 사용할 수 있습니다.
 
-   * 필요에 따라 웹 사이트의 변수를 이전에 만든 XDM 스키마의 구조에 매핑하는 [데이터 요소](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)를 만듭니다.
+   * 필요에 따라 웹 사이트의 변수를 이전에 만든 XDM 스키마의 구조에 매핑하는 [데이터 요소](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/data-elements)를 만듭니다.
 
-1. Adobe Experience Platform 관리자에게 태그를 [테스트 환경에 게시](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)하도록 요청하십시오. 이렇게 하면 태그 개발을 반복적으로 수행할 수 있습니다.
+1. Adobe Experience Platform 관리자에게 태그를 [테스트 환경에 게시](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/publishing-flow)하도록 요청하십시오. 이렇게 하면 태그 개발을 반복적으로 수행할 수 있습니다.
 
 ### 데이터 게재 유효성 검사
 
@@ -154,11 +154,11 @@ Adobe Tags의 Adobe Experience Platform Web SDK 확장 기능을 사용하여 �
 
    ![뷰스루 추적 페이로드 유효성 검사의 예](/help/integrations/assets/cja-example-view-through-validation.png "뷰스루 추적 페이로드 유효성 검사의 예")
 
-1. [세 개의 각 데이터 세트(웹 사이트 이벤트 데이터 세트, Adobe Advertising 분류 데이터 세트 및 Adobe Advertising 요약 지표 데이터 세트)에 대한 활동을 확인하여 데이터 배달의 유효성을 검사합니다](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets).
+1. [세 개의 각 데이터 세트(웹 사이트 이벤트 데이터 세트, Adobe Advertising 분류 데이터 세트 및 Adobe Advertising 요약 지표 데이터 세트)에 대한 활동을 확인하여 데이터 배달의 유효성을 검사합니다](https://experienceleague.adobe.com/ko/docs/experience-platform/catalog/datasets/user-guide#view-datasets).
 
    일별 일괄 처리 수집에 대한 데이터 세트 활동이 표시됩니다. 24시간 후에 이벤트 데이터 집합에 레코드가 0으로 표시되면 [데이터 스트림](#dataset-datastream) 및 [Adobe 태그의 웹 SDK 확장 구성](#tags-websdk)을 다시 확인하세요.
 
-1. Adobe Experience Platform 관리자에게 [태그를 라이브 프로덕션 환경에 게시](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)하도록 요청하십시오.
+1. Adobe Experience Platform 관리자에게 [태그를 라이브 프로덕션 환경에 게시](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/publish/publishing-flow)하도록 요청하십시오.
 
    조직의 IT 부서나 다른 그룹은 태그 배포를 예약하거나 그에 대한 정보를 받아야 할 수 있습니다.
 
@@ -168,7 +168,7 @@ Adobe Tags의 Adobe Experience Platform Web SDK 확장 기능을 사용하여 �
 
 동일한 정보로 기존 연결을 선택적으로 편집할 수도 있습니다.
 
-1. Customer Journey Analytics에서 Experience Platform 데이터 세트와 스키마를 포함하는 연결을 [만들거나 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)합니다.
+1. Customer Journey Analytics에서 Experience Platform 데이터 세트와 스키마를 포함하는 연결을 [만들거나 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection)합니다.
 
    <!-- **Note:** You must send data for all DSP and Search, Social, & Commerce accounts to a single Experience Platform instance and sandbox.  -->
 
@@ -222,7 +222,7 @@ Adobe Tags의 Adobe Experience Platform Web SDK 확장 기능을 사용하여 �
 
 Customer Journey Analytics에서 하나 이상의 데이터 보기를 만들어 보고를 위한 지표 및 차원을 정의합니다. 웹 분석가는 이러한 작업을 수행할 수 있습니다.
 
-1. Customer Journey Analytics에서 [데이터 보기를 만듭니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview).
+1. Customer Journey Analytics에서 [데이터 보기를 만듭니다](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview).
 
 1. 다음 정보를 포함하도록 보기를 구성합니다.
 
@@ -245,7 +245,7 @@ Seems to not be necessary now:
      
      *  Join the events dataset to the summary dataset, which isn't yet joined to anything:
      
-       * For each dimension with summary data that you want to be available in Customer Journey Analytics, [create a derived field](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields).
+       * For each dimension with summary data that you want to be available in Customer Journey Analytics, [create a derived field](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/derived-fields).
 
          For example, to view summary data for campaigns, create a derived field for the dimension `Adobe Advertising Campaign`.
          
@@ -285,7 +285,7 @@ Seems to not be necessary now:
 
 Customer Journey Analytics Workspace에서 다음 단계에 따라 보고서 및 시각화를 구성합니다. 웹 분석가는 이러한 작업을 수행할 수 있습니다.
 
-1. 데이터 보기 내에 구성된 차원 및 지표를 기반으로 보고서와 시각화를 빌드하려면 Workspace에서 [프로젝트를 만듭니다](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects).
+1. 데이터 보기 내에 구성된 차원 및 지표를 기반으로 보고서와 시각화를 빌드하려면 Workspace에서 [프로젝트를 만듭니다](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects).
 
    예를 들어 [!UICONTROL Tracking Code (2)]&#x200B;(이벤트를 캠페인 메타데이터에 연결), [!UICONTROL Adobe Advertising Campaign]&#x200B;(캠페인 수준 데이터의 경우), [!UICONTROL Adobe Advertising Placement] 또는 [!UICONTROL Adobe Advertising Ad Group]&#x200B;(배치 수준 또는 광고 그룹 수준 데이터의 경우), [!UICONTROL Events], [!UICONTROL Impressions] 및 [!UICONTROL Clicks] 차원을 포함합니다.
 
@@ -310,5 +310,5 @@ Customer Journey Analytics Workspace에서 다음 단계에 따라 보고서 및
 >* [Customer Journey Analytics의 Adobe Advertising 지표 및 차원](advertising-data-in-cja.md)
 >* [Adobe Customer Journey Analytics에서 사용할 AMO ID 및 EF ID에 대한 내역 데이터를 수집합니다](/help/integrations/analytics/rvars-to-evars.md).
 >* [문제 해결](troubleshooting.md)
->* [Customer Journey Analytics 안내서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
->* Customer Journey Analytics [Adobe Analytics 사용자를 위한 사용 안내서](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* [Customer Journey Analytics 안내서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-landing)
+>* Customer Journey Analytics [Adobe Analytics 사용자를 위한 사용 안내서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
