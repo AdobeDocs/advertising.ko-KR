@@ -94,4 +94,4 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [개요 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)에 대한 [JavaScript 코드
+>*  [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/javascript.md)에 대한 JavaScript 코드

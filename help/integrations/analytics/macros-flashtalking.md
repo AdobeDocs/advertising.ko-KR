@@ -89,6 +89,6 @@ Advertising DSP 광고에 [!DNL Flashtalking]의 광고 태그를 사용하는 �
 >[!MORELIKETHIS]
 >
 >* [개요 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics]](/help/integrations/analytics/ids.md)에서 사용하는 [Adobe Advertising ID
+>*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)에서 사용하는 Adobe Advertising ID
 >* [추가 [!DNL Analytics for Advertising] 매크로를  [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md)에 추가
 

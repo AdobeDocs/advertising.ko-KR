@@ -60,7 +60,7 @@ ht-degree: 0%
 
   Adobe Advertising에 60일 클릭 전환 확인 기간이 있고 [!DNL Analytics]에 30일 전환 확인 기간이 있다고 가정합니다. 그리고 사용자가 Adobe Advertising에서 추적한 광고를 통해 사이트를 방문하고 45일에 돌아간 다음 전환한다고 가정해 봅시다. Adobe Advertising은 전환이 60일 전환 확인 기간 내에 발생했으므로 전환을 초기 방문으로 간주합니다. 그러나 30일 전환 확인 기간이 만료된 후 전환이 발생했으므로 [!DNL Analytics]은(는) 초기 방문으로 전환을 지정할 수 없습니다. 이 예에서 Adobe Advertising은 [!DNL Analytics]보다 더 많은 전환 수를 보고합니다.
 
-  [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)이(가) 아닌 Adobe Advertising에 속하는 전환의 예 ![
+  [!DNL Analytics]![&#128279;](/help/integrations/assets/a4adc-lookback-example.png)이(가) 아닌 Adobe Advertising에 속하는 전환의 예 
 
 * **다른 특성 모델로 인해 불일치가 발생하는 예:**
 
@@ -160,7 +160,7 @@ Adobe Advertising 보고서는 Adobe Advertising(유료 검색: [!DNL Advertisin
 
 다음은 [!DNL Paid Search Detection] 규칙 집합을 만드는 인터페이스입니다.
 
-[!DNL Analytics]](/help/integrations/assets/a4adc-paid-search-detection.png)에 설정된 유료 검색 감지 규칙의 ![예
+[!DNL Analytics]![&#128279;](/help/integrations/assets/a4adc-paid-search-detection.png)에 설정된 유료 검색 감지 규칙의 예
 
 결과 [!DNL Paid Search Detection] 보고서에는 [!UICONTROL Paid Search Engine], [!UICONTROL Paid Search Keywords], [!UICONTROL Natural Search Engine] 및 [!UICONTROL Natural Search Keywords] 보고서가 포함됩니다.
 
@@ -302,14 +302,14 @@ Adobe Advertising은 Analytics에 [광고 관련 트래픽 지표와 관련 차�
 
 ### Adobe Advertising 차원이 아닌 클릭 대용으로 [!UICONTROL AMO ID Instances] 사용
 
-사이트 내 차원과 함께 [!UICONTROL AMO Clicks]을(를) 사용할 수 없으므로 클릭에 해당하는 값을 찾을 수 있습니다. 방문 횟수를 대체품으로 사용하고 싶을 수 있지만 각 방문자에게 여러 번의 방문이 있을 수 있으므로 방문 횟수는 최선의 옵션이 아닙니다. (&quot;[클릭과 방문 간의 차이점](#clicks-vs-visits)&quot;을(를) 참조하십시오. 대신 AMO ID가 캡처된 횟수인 [!UICONTROL AMO ID Instances]을(를) 사용하는 것이 좋습니다. [!UICONTROL AMO ID Instances]이(가) [!UICONTROL AMO Clicks]과(와) 정확히 일치하지 않지만 사이트의 클릭 트래픽을 측정하는 데 가장 적합한 옵션입니다. 자세한 내용은 &quot; [!DNL Analytics for Advertising]](#data-validation)에 대한 [클릭스루 데이터 유효성 검사&quot;를 참조하십시오.
+사이트 내 차원과 함께 [!UICONTROL AMO Clicks]을(를) 사용할 수 없으므로 클릭에 해당하는 값을 찾을 수 있습니다. 방문 횟수를 대체품으로 사용하고 싶을 수 있지만 각 방문자에게 여러 번의 방문이 있을 수 있으므로 방문 횟수는 최선의 옵션이 아닙니다. (&quot;[클릭과 방문 간의 차이점](#clicks-vs-visits)&quot;을(를) 참조하십시오. 대신 AMO ID가 캡처된 횟수인 [!UICONTROL AMO ID Instances]을(를) 사용하는 것이 좋습니다. [!UICONTROL AMO ID Instances]이(가) [!UICONTROL AMO Clicks]과(와) 정확히 일치하지 않지만 사이트의 클릭 트래픽을 측정하는 데 가장 적합한 옵션입니다. 자세한 내용은 &quot; [!DNL Analytics for Advertising]&#x200B;[&#128279;](#data-validation)에 대한 클릭스루 데이터 유효성 검사&quot;를 참조하십시오.
 
 지원되지 않는 차원에 대한 [!UICONTROL Adobe Advertising Clicks] 대신 [!UICONTROL AMO ID Instances]의 ![예](/help/integrations/assets/a4adc-amo-id-instances.png)
 
 >[!MORELIKETHIS]
 >
 >* [개요 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics]](/help/integrations/analytics/ids.md)에서 사용하는 [Adobe Advertising ID
+>*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)에서 사용하는 Adobe Advertising ID
 >* Analysis Workspace의 [Adobe Advertising 지표](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* Adobe Advertising의 [[!DNL Analytics] 데이터](/help/integrations/analytics/analytics-data-in-advertising.md)
 >* [채널 데이터가 Adobe Advertising과  [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md) 간에 다를 수 있는 이유
