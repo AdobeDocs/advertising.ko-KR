@@ -85,11 +85,11 @@ Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 �
 
 * 광고주가 Adobe Analytics 통합을 사용하는 경우 접미사에 다음 중 하나가 포함되어야 합니다.
 
-  * 성과 최대 캠페인, 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준 보고를 지원하는 최신 [AMO ID 형식](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items)&#x200B;(`s_kwcid`부터 시작)을 사용하는 [!DNL Google Ads] 계정:
+  * 성과 최대 캠페인, 초안 및 실험 캠페인에 대한 캠페인 및 광고 그룹 수준 보고를 지원하는 최신 [AMO ID 형식](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)&#x200B;(`s_kwcid`부터 시작)을 사용하는 [!DNL Google Ads] 계정:
 
     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-    계정에 서버측 AMO ID 구현이 있고 계정 또는 캠페인 설정 &quot;[!UICONTROL Auto Upload]&quot;이(가) 활성화되어 있으면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 수동으로 추가해야 합니다. &quot; [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)에서 사용하는 Adobe Advertising ID&quot;를 참조하십시오.&quot;
+    계정에 서버측 AMO ID 구현이 있고 계정 또는 캠페인 설정 &quot;[!UICONTROL Auto Upload]&quot;이(가) 활성화되어 있으면 매개 변수가 자동으로 추가됩니다. 그렇지 않으면 수동으로 추가해야 합니다. &quot; [!DNL Analytics]](/help/integrations/analytics/ids.md)에서 사용하는 [Adobe Advertising ID&quot;를 참조하십시오.&quot;
 
   * 다른 모든 [!DNL Google Ads] 계정:
 
@@ -108,4 +108,4 @@ Adobe Advertising 전환 추적을 사용하는 계정은 접미사에 광고 �
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising 전환 추적 서비스에 대한 클릭 추적 URL 형식 정보](formats-click-tracking-about.md)
->* [AMO ID 형식](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID 형식](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

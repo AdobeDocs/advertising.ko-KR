@@ -66,9 +66,9 @@ Advertising DSP 광고에 [!DNL Flashtalking]의 광고 태그를 사용하는 �
 
 예:
 
-`https://www.adobe.com/kr/products/photoshop?[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
 
-`https://www.adobe.com/kr/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## 비디오 광고 태그
 
@@ -82,13 +82,13 @@ Advertising DSP 광고에 [!DNL Flashtalking]의 광고 태그를 사용하는 �
 
 예:
 
-`https://www.adobe.com/kr/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
-`https://www.adobe.com/kr/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
 >* [개요 [!DNL Analytics for Advertising]](overview.md)
->*  [!DNL Analytics]&#x200B;[&#128279;](/help/integrations/analytics/ids.md)에서 사용하는 Adobe Advertising ID
+>*  [!DNL Analytics]](/help/integrations/analytics/ids.md)에서 사용하는 [Adobe Advertising ID
 >* [추가 [!DNL Analytics for Advertising] 매크로를  [!DNL Google Campaign Manager 360] 광고 태그](/help/integrations/analytics/macros-google-campaign-manager.md)에 추가
 

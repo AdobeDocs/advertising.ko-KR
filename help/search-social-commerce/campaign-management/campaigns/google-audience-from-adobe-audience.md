@@ -47,7 +47,7 @@ ht-degree: 0%
 
    1. (사용자 ID 리마케팅 목록 대상자를 만들려면) [!DNL Adobe] 관리자 사용자 또는 계정 관리자가 광고주 수준 설정을 선택하여 고객 일치 대상자를 활성화해야 합니다.
 
-   1. [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko) 버전 2.0 이상을 구현합니다.
+   1. [Adobe Experience Platform ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html) 버전 2.0 이상을 구현합니다.
 
    1. 대상자를 추적해야 하는 광고주의 웹 페이지에 가능한 한 높은 다음 태그를 배포합니다
 
@@ -100,6 +100,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [대상자 정보](audience-about.md)
->* [Adobe Campaign 전자 메일 목록에서 고객 일치 대상 만들기 [!DNL Google Ads] 2&rbrace;](google-audience-from-campaign-email-list.md)
+>* [Adobe Campaign 전자 메일 목록에서 고객 일치 대상 만들기 [!DNL Google Ads] 2}](google-audience-from-campaign-email-list.md)
 >* [고객 데이터 목록을 사용하여 고객 일치 대상 관리](audience-from-customer-data-list.md)
 >* [동적 리마케팅 대상자 관리](audience-dynamic-remarketing-manage.md)

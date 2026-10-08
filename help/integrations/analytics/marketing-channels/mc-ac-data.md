@@ -73,5 +73,5 @@ AMO ID는 방문자의 여정을 통해 유지되므로 AMO ID 데이터를 사�
 >* [기본  [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Adobe Advertising ID를 사용하여 만들기 [!DNL Marketing Channels] 처리 규칙](mc-ids.md)
 >* [채널 데이터가 Adobe Advertising과  [!DNL Marketing Channels]](mc-data-variances.md) 간에 다를 수 있는 이유
->* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=ko)
+>* [비디오: Adobe Advertising 보고에  [!DNL Marketing Channels] 사용](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

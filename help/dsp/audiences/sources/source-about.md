@@ -59,7 +59,7 @@ Using your first-party data, you can create segments with IDs from the following
 
   * [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)을(를) 사용한 측정용입니다.
 
-* [[!DNL Unified ID 2.0 (UID2.0)] &#x200B;](https://unifiedid.com):
+* [[!DNL Unified ID 2.0 (UID2.0)] ](https://unifiedid.com):
 
   * 로그인한 사용자를 재타겟팅하기 위해
 
@@ -97,9 +97,9 @@ DSP은 배치, 스트리밍 또는 API 기반 데이터 공유를 사용하여 �
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSP은 Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko)에 대한 통합 *대상*&#x200B;입니다.
+DSP은 Adobe Experience Platform의 일부인 [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)에 대한 통합 *대상*&#x200B;입니다.
 
-[!DNL Real-Time CDP]에서 대상은 원활한 데이터 활성화를 허용하는 외부 데이터 플랫폼에 대한 연결입니다. 대상을 사용하여 DSP에서 타깃팅된 광고를 위해 해시된 이메일 주소, 쿠키 및 모바일 광고 ID를 활성화할 수 있습니다. 대상에 대한 자세한 내용은 Experience Platform [대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko)를 참조하세요. 제품 개요, [대상 작업 공간 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=ko) 및 [대상 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=ko)에 대한 지침, [대상으로 데이터 활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=ko).
+[!DNL Real-Time CDP]에서 대상은 원활한 데이터 활성화를 허용하는 외부 데이터 플랫폼에 대한 연결입니다. 대상을 사용하여 DSP에서 타깃팅된 광고를 위해 해시된 이메일 주소, 쿠키 및 모바일 광고 ID를 활성화할 수 있습니다. 대상에 대한 자세한 내용은 Experience Platform [대상 안내서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)를 참조하세요. 제품 개요, [대상 작업 공간 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) 및 [대상 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)에 대한 지침, [대상으로 데이터 활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 DSP에서 [!DNL Adobe] [!DNL Real-time CDP] 자사 세그먼트를 수집하고 해시된 이메일 주소, 쿠키 및 모바일 광고 ID를 범용 ID로 전환하려면 &quot;[사용자 ID를  [!DNL Adobe Real-Time CDP] 에서 범용 ID로 전환](/help/dsp/audiences/sources/source-adobe-rtcdp.md)&quot;을 참조하십시오.
 

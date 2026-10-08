@@ -163,13 +163,13 @@ ht-degree: 0%
 
 각 광고 네트워크의 필수 열과 선택적 열에 대한 자세한 내용은 광고 네트워크별 일괄 시트 데이터 형식 문서를 참조하십시오.
 
-* [&#x200B; [!DNL Baidu] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
-* [&#x200B; [!DNL Google Ads] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
-* [&#x200B; [!DNL LY Ads] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
-* [&#x200B; [!DNL Microsoft Advertising] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-* [&#x200B; [!DNL Naver] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [&#x200B; [!DNL Yahoo DSP] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-* [&#x200B; [!DNL Yandex] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
+* [ [!DNL Baidu] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md)
+* [ [!DNL Google Ads] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+* [ [!DNL LY Ads] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+* [ [!DNL Microsoft Advertising] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+* [ [!DNL Naver] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
+* [ [!DNL Yahoo DSP] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [ [!DNL Yandex] 계정의 필수 및 선택적 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]
 >

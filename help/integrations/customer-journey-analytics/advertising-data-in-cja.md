@@ -118,6 +118,6 @@ Adobe Advertising은 트래픽 지표 및 차원을 매일 [!DNL Customer Journe
 >
 >* [개요](overview.md)
 >* [필수 구성 요소](prerequisites.md)
->*  [!DNL Customer Journey Analytics]&#x200B;[&#128279;](ids.md)에서 사용하는 Adobe Advertising ID
+>*  [!DNL Customer Journey Analytics]](ids.md)에서 사용하는 [Adobe Advertising ID
 >* [데이터 수집, 데이터 전송 및 보고 설정](set-up.md)
 >* [문제 해결](troubleshooting.md)

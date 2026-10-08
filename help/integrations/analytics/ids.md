@@ -70,13 +70,13 @@ Adobe Advertising은 다음 기준을 사용하여 웹 사이트에 대한 클�
 
 EF ID는 Adobe Advertising이 활동을 개별 브라우저 또는 장치 수준에서 온라인 클릭 또는 광고 노출과 연결하는 데 사용하는 고유한 토큰입니다. EF ID는 주로 Adobe Advertising 내에서 보고 및 입찰 최적화를 위해 [!DNL Analytics] 데이터 및 Customer Journey Analytics 데이터를 Adobe Advertising에 전송하는 키 역할을 합니다.
 
-[!DNL Analytics]의 경우 EF ID는 [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=ko) 또는 [!DNL rVar]&#x200B;(예약된 [!DNL eVar]) 차원(Adobe Advertising EF ID)에 저장됩니다.
+[!DNL Analytics]의 경우 EF ID는 [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) 또는 [!DNL rVar]&#x200B;(예약된 [!DNL eVar]) 차원(Adobe Advertising EF ID)에 저장됩니다.
 
-Customer Journey Analytics의 경우 EF ID는 [[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/ko/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)의 일부인 `conversionDetails` 개체의 `trackingIdentities` 속성에 저장됩니다.
+Customer Journey Analytics의 경우 EF ID는 [[!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)의 일부인 `conversionDetails` 개체의 `trackingIdentities` 속성에 저장됩니다.
 
 ### EF ID 형식 {#ef-id-formats}
 
-&quot;Adobe Analytics 구성 요소 안내서&quot;에서 [EF ID 차원 항목에 대한 형식](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-ef-id#dimension-items)을 참조하십시오.
+&quot;Adobe Analytics 구성 요소 안내서&quot;에서 [EF ID 차원 항목에 대한 형식](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id#dimension-items)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -173,13 +173,13 @@ EF ID에는 Analysis Workspace의 500k 고유 식별자 제한이 적용됩니�
 
 [!DNL Analytics] 보고서에서 [!UICONTROL AMO ID] 차원을 검색하고 [!UICONTROL AMO ID Instances] 지표를 사용하여 AMO ID 데이터를 찾을 수 있습니다. [!UICONTROL AMO ID] 차원은 캡처된 모든 AMO ID 값을 포함하는 반면, [!UICONTROL AMO ID Instances] 지표는 사이트에서 AMO ID 값을 캡처한 빈도를 나타냅니다. 예를 들어 동일한 검색 광고를 4번 클릭했지만 [!DNL Analytics]이(가) 7개의 사이트 항목을 추적한 경우 [!UICONTROL AMO ID Instances]은(는) 7개가 되고 [!UICONTROL Clicks]은(는) 4개가 됩니다.
 
-[!DNL Analytics] 내의 보고 또는 감사의 경우 가장 좋은 방법은 해당 인스턴스와 함께 AMO ID를 사용하는 것입니다. 자세한 내용은 &quot;[!DNL Analytics]과(와) Adobe Advertising 간의 예상 데이터 차이&quot;에서 &quot; [!DNL Analytics for Advertising]&#x200B;[&#128279;](data-variances.md#data-validation)에 대한 클릭스루 데이터 유효성 검사&quot;를 참조하십시오.
+[!DNL Analytics] 내의 보고 또는 감사의 경우 가장 좋은 방법은 해당 인스턴스와 함께 AMO ID를 사용하는 것입니다. 자세한 내용은 &quot;[!DNL Analytics]과(와) Adobe Advertising 간의 예상 데이터 차이&quot;에서 &quot; [!DNL Analytics for Advertising]](data-variances.md#data-validation)에 대한 [클릭스루 데이터 유효성 검사&quot;를 참조하십시오.
 
 ## [!DNL Analytics] 분류 정보
 
-[!DNL Analytics]에서 [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ko)는 계정, 캠페인 또는 광고와 같은 지정된 추적 코드에 대한 메타데이터입니다. Adobe Advertising은 분류를 사용하여 원시 Adobe Advertising 데이터를 분류하므로 보고서를 생성할 때 광고 유형이나 캠페인별로 데이터를 다양한 방식으로 표시할 수 있습니다. 분류는 [!DNL Analytics]에서 Adobe Advertising 보고의 기초가 되며 [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] 및 [!UICONTROL AMO Clicks]과(와) 같은 AMO 지표와 함께 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] 및 [!UICONTROL Revenue]과(와) 같은 사용자 지정 및 표준 온사이트 이벤트에서 사용할 수 있습니다.
+[!DNL Analytics]에서 [분류](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)는 계정, 캠페인 또는 광고와 같은 지정된 추적 코드에 대한 메타데이터입니다. Adobe Advertising은 분류를 사용하여 원시 Adobe Advertising 데이터를 분류하므로 보고서를 생성할 때 광고 유형이나 캠페인별로 데이터를 다양한 방식으로 표시할 수 있습니다. 분류는 [!DNL Analytics]에서 Adobe Advertising 보고의 기초가 되며 [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] 및 [!UICONTROL AMO Clicks]과(와) 같은 AMO 지표와 함께 [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] 및 [!UICONTROL Revenue]과(와) 같은 사용자 지정 및 표준 온사이트 이벤트에서 사용할 수 있습니다.
 
 >[!MORELIKETHIS]
 >
 >* [개요 [!DNL Analytics for Advertising]](overview.md)
->* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) &#x200B;](data-variances.md)
+>* [과(와) Adobe Advertising 사이의 예상 데이터 분산 [!DNL Analytics] 과(와) ](data-variances.md)

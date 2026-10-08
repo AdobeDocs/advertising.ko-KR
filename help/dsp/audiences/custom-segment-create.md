@@ -44,7 +44,7 @@ ht-degree: 0%
 
   1. 구현하기 위한 모든 [필수 구성 요소 [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)를 완료하고 [AMO ID 및 EF ID](/help/integrations/analytics/ids.md)이(가) 추적 URL에 채워져 있는지 확인하십시오.
 
-  1. 마지막 이벤트 서비스가 초기화되기 전이나  [!DNL Analytics for Advertising]&#x200B;[&#128279;](/help/integrations/analytics/javascript.md)에 필요한 JavaScript 코드 내에서 다음 매개 변수를 웹 페이지에 추가하십시오.
+  1. 마지막 이벤트 서비스가 초기화되기 전이나  [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)에 필요한 [JavaScript 코드 내에서 다음 매개 변수를 웹 페이지에 추가하십시오.
 
      `window.id5PartnerId=ID5_PartnerID;`
 
