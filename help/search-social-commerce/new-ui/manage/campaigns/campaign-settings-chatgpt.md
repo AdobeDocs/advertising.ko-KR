@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d62377d2bc68c5f0030dfea4c5410a443d529e5e
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '220'
 ht-degree: 0%
 ---
 # [!DNL ChatGPT Ads] 캠페인 설정
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 **[!UICONTROL Budget]:** 지정한 캠페인 유형에 대한 예산입니다.
 
-**[!UICONTROL Conversion events]:**(선택 사항) 캠페인과 연결할 기존 전환 이벤트입니다. **참고:** [!DNL OpenAI] 추적 전환에 대한 성능 데이터는 Search, Social 및 Commerce에서 사용할 수 없습니다. [!DNL ChatGPT Ads Manager] 내에서 [!DNL OpenAI] 추적된 전환을 모니터링합니다.
+**[!UICONTROL Conversion events]:**(선택 사항) 캠페인과 연결하기 위해 [!DNL ChatGPT Ads] 내에 설정된 기존 전환 이벤트입니다. **참고:** [!DNL OpenAI] 추적 전환에 대한 성능 데이터는 Search, Social 및 Commerce에서 사용할 수 없습니다. [!DNL ChatGPT Ads Manager] 내에서 [!DNL OpenAI] 추적된 전환을 모니터링합니다.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
