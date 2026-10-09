@@ -1,30 +1,38 @@
 ---
 title: Adobe Target에서 Adobe Advertising 검색, 소셜 및 Commerce 광고에 대한 A/B 테스트 구성
-description: 검색, 소셜 및 Commerce에서  [!DNL Target] 및 [!DNL Google Ads] 광고에 대한 [!DNL Microsoft Advertising] 에서 A/B 테스트를 설정하는 방법에 대해 알아봅니다.
+description: 검색, 소셜 및 Commerce에서 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 광고에 대해 [!DNL Target]에서 A/B 테스트를 설정하는 방법에 대해 알아봅니다.
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-TQID: https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8
+TQID: 'https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Personalization
+source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '961'
 ht-degree: 0%
-
 ---
-
 # Advertising 검색, 소셜 및 Commerce 광고를 위해 Adobe Target에서 A/B 테스트 구성
 
 *Advertising 검색, 소셜 및 Commerce을 사용하는 광고주*
@@ -85,7 +93,7 @@ Adobe Advertising 및 Adobe Target을 사용하면 디지털 광고 트래픽 [!
 
       [관련 ID 열을 엔터티 보기에 추가](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)하여 ID를 찾을 수 있습니다.
 
-      [!UICONTROL Accounts] 보기의 [!UICONTROL Accounts] 보기&rbrack;(/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] 열에 있는 !&lbrack;[!UICONTROL Network Account ID] 열")
+      [!UICONTROL Accounts] 보기의 ![[!UICONTROL Accounts&rbrack; 보기]](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] 열에 있는 &lbrack;[!UICONTROL Network Account ID] 열")
 
       지원이 필요한 경우 Adobe 계정 팀과 협력합니다.
 
@@ -150,9 +158,9 @@ Analysis Workspace 내에서 활동 및 경험 데이터가 최소화되거나 �
 ## 추가 읽기
 
 * [Analytics와 Target 통합](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=ko) - Analysis Workspace에서 [!DNL Target] 보고를 설정하는 방법에 대해 설명합니다.
-* [A/B Test Overview](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=ko) - Describes A/B test activities, which you can use with Search, Social, &amp; Commerce ads.
+* [A/B 테스트 개요](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=ko) - 검색, 소셜 및 Commerce 광고에 사용할 수 있는 A/B 테스트 활동에 대해 설명합니다.
 * [개요 [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Analytics 인스턴스에서 클릭스루 및 뷰스루 사이트 상호 작용을 추적할 수 있는 [!DNL Analytics for Advertising]을(를) 소개합니다.
 
 >[!MORELIKETHIS]
 >
->* [Configure A/B tests in Adobe Target for Advertising DSP ads](ab-tests-dsp.md)
+>* [Advertising DSP 광고를 위한 Adobe Target에서 A/B 테스트 구성](ab-tests-dsp.md)
