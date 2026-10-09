@@ -79,7 +79,7 @@ Adobe Advertising 및 Adobe Target을 사용하면 마케터가 유료 미디어
 
 * [추가 [!DNL Analytics for Advertising] 매크로를  [!DNL Flashtalking] 태그 추가](/help/integrations/analytics/macros-flashtalking.md)합니다. **참고:** 조직에서 [!DNL Flashtalking]과(와) 직접 파트너 관계를 맺고 데이터 전달 매크로를 사용하여 [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros)에 있는 [!DNL Flashtalking] 지원 설명서별로 `s_kwcid` 및 `ef_id` 추적 매개 변수를 추적하는 경우에는 이 절차가 필요하지 않습니다.
 
-* [ [!DNL Google Campaign Manager 360] ad 태그에  [!DNL Analytics for Advertising] 매크로 추가](/help/integrations/analytics/macros-google-campaign-manager.md)
+* [&#x200B; [!DNL Google Campaign Manager 360] ad 태그에  [!DNL Analytics for Advertising] 매크로 추가](/help/integrations/analytics/macros-google-campaign-manager.md)
 
 Adobe 계정 팀에 문의하여 필요한 배치 키를 검색하고 설정을 완료하고 각 클릭스루 URL에 배치 키가 채워져 있는지 확인하십시오.
 

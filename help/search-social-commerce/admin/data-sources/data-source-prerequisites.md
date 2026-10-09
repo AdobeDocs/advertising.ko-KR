@@ -72,8 +72,8 @@ ef_id가 포함되지 않은 경우 Adobe 계정 팀에 도움을 요청하십�
 >
 >* [동기화 정보 [!DNL Google Analytics] 전환 지표](data-source-about.md)
 >* [데이터 소스로  [!DNL Google Analytics] 보기 구성](data-source-configure.md)
->* [데이터 원본 편집 [!DNL Google Analytics] 2}](data-source-edit.md)
+>* [데이터 원본 편집 [!DNL Google Analytics] 2&rbrace;](data-source-edit.md)
 >* [데이터 원본 동기화 일시 중지](data-source-pause.md)
->* [데이터 원본 다시 인증 [!DNL Google Analytics] 2}](data-source-reauthenticate.md)
+>* [데이터 원본 다시 인증 [!DNL Google Analytics] 2&rbrace;](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] 데이터 원본 설정](data-source-settings.md)
 >* [부록 - 사용 가능 [!DNL Google Analytics] 지표](data-source-ga-metrics.md)
