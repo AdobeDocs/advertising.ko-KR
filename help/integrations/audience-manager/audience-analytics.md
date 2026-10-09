@@ -36,7 +36,7 @@ ht-degree: 0%
 ---
 # Adobe Advertising 고객용 [!DNL Adobe] [!DNL Audience Analytics]
 
-[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)은(는) Adobe Audience Manager과 Adobe Analytics 간의 통합으로, Audience Manager 고객은 사이트 활동에 대한 풍부한 통찰력을 위해 세그먼트를 [!DNL Analytics]에 보낼 수 있습니다.
+[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ko)은(는) Adobe Audience Manager과 Adobe Analytics 간의 통합으로, Audience Manager 고객은 사이트 활동에 대한 풍부한 통찰력을 위해 세그먼트를 [!DNL Analytics]에 보낼 수 있습니다.
 
 Adobe Advertising 고객은 [!DNL Audience Analytics]을(를) 사용하여 혜택을 누릴 수 있습니다. 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -44,7 +44,7 @@ Adobe Advertising 고객은 [!DNL Audience Analytics]을(를) 사용하여 혜�
 
 * 상위 funnel 노출 광고에서 마케팅 채널 및 사이트 시작 지점을 결정합니다.
 
-* [!DNL Analytics for Advertising]과의 통합을 계층화하여 [!DNL Analytics for Advertising] 데이터와 [Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html)의 타사 인구 통계 세그먼트를 통합하여 사용자 프로필에 대한 자세한 정보를 얻을 수 있습니다.
+* [!DNL Analytics for Advertising]과의 통합을 계층화하여 [!DNL Analytics for Advertising] 데이터와 [Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html?lang=ko)의 타사 인구 통계 세그먼트를 통합하여 사용자 프로필에 대한 자세한 정보를 얻을 수 있습니다.
 
   [!DNL Audience Marketplace]은(는) &quot;활성화&quot; 구독 모델을 사용하여 서드파티 데이터 피드에 대한 액세스를 제공하며, 이를 통해 구매자는 데이터를 대상에 보낼 수 있습니다. 데이터가 [!DNL Analytics] 대상 내에서 사용되는 경우 활성화 요금이 적용되지 않습니다.
 
@@ -52,7 +52,7 @@ Adobe Advertising 고객은 [!DNL Audience Analytics]을(를) 사용하여 혜�
 
   Advertising DSP은 Adobe Experience Platform 또는 Audience Manager 노출 추적 픽셀의 구현을 통해 노출 데이터를 실행 가능한 신호로 Audience Manager에 보낼 수 있습니다. 동일한 데이터를 [!DNL Analytics]&#x200B;(으)로 전달하면 고급 데이터 분석이 가능합니다. 자세한 내용은 &quot;[Adobe Audience Manager에 DSP 미디어 노출 데이터 전송 개요](/help/integrations/audience-manager/media-data-integration/overview.md)&quot;를 참조하십시오.
 
-필수 구성 요소 및 워크플로를 포함하여 [!DNL Audience Analytics]에 대한 자세한 내용은 &quot;[Audience Analytics 개요](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)&quot;를 참조하십시오.
+필수 구성 요소 및 워크플로를 포함하여 [!DNL Audience Analytics]에 대한 자세한 내용은 &quot;[Audience Analytics 개요](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=ko)&quot;를 참조하십시오.
 
 ## Adobe Advertising 데이터와 함께 [!DNL Audience Analytics] 데이터를 사용하는 방법의 예
 
