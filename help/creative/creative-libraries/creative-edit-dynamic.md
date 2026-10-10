@@ -16,14 +16,62 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '546'
 ht-degree: 0%
 ---
 # 크리에이티브 라이브러리에서 동적 크리에이티브 편집
 
+## 새 UI에서
+
+1. 크리에이티브 설정을 엽니다.
+
+   * 크리에이티브 라이브러리에서:
+
+     1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+     1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+        * 라이브러리 이름을 클릭합니다.
+
+        * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+     1. **[!UICONTROL Creatives]** 탭에서 크리에이티브 이름 옆에 있는 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+
+   * [!UICONTROL Creative Studio]부터:
+
+     1. 메인 메뉴에서 **[!UICONTROL Creative]>[!UICONTROL Creative Studio]**&#x200B;을(를) 클릭합니다.
+
+     1. **[!UICONTROL Creatives]** 탭에서 Creative 카드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+
+        전체 화면 편집기가 열리고 왼쪽에는 광고 미리 보기가 있고 오른쪽에는 설정 패널이 있습니다.
+
+1. **[!UICONTROL Details]** 및 **[!UICONTROL Attribute Mapping]** 탭을 사용하여 크리에이티브 설정을 편집합니다.
+
+   **[!UICONTROL Details]** 탭:
+
+   * **[!UICONTROL Advertiser]**, **[!UICONTROL Ad Library]** 및 **[!UICONTROL Ad template]**&#x200B;은(는) 읽기 전용입니다.
+   * **[!UICONTROL Dynamic creative name]:** 크리에이티브의 표시 이름입니다.
+   * **[!UICONTROL Number of cards]:** 각 광고 조합에 포함된 카탈로그 오퍼 수입니다(1-50).
+   * (선택 사항) **[!UICONTROL Catalogs]**&#x200B;에서 카탈로그 선택을 업데이트합니다.
+     * **[!UICONTROL Catalog template]**&#x200B;을(를) 사용하여 사용 가능한 카탈로그를 필터링하십시오. 필요한 경우 템플릿 파일을 다운로드하려면 **[!UICONTROL Download feed template]**&#x200B;을(를) 클릭합니다.
+     * 목록에서 카탈로그를 검색 및 선택하거나 업로드 영역으로 드래그하거나 **[!UICONTROL Browse Files]**&#x200B;을(를) 클릭하여 새 카탈로그 파일을 업로드하십시오(지원되는 형식: JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4; 최대 25MB; 한 번에 한 파일). 업로드된 카탈로그의 칩 목록에 **(업로드됨)** 레이블이 지정되었습니다.
+
+     모든 카탈로그는 동일한 카탈로그 템플릿 제품군에 속해야 합니다.
+
+   **[!UICONTROL Attribute Mapping]** 탭:
+
+   * **[!UICONTROL Targeting]**&#x200B;에서 **[!UICONTROL Profile data]**, **[!UICONTROL Geographic data]**, **[!UICONTROL Data pass]** 또는 **[!UICONTROL Audience Segment]** 데이터 원본을 하나 이상 선택하십시오.
+   * **[!UICONTROL Attribute Mapping]**&#x200B;에서 각 템플릿 레이어 이름의 매핑을 해당 카탈로그 열 레이블로 업데이트합니다.
+
+1. **[!UICONTROL Update Creative]**&#x200B;을(를) 클릭합니다.
+
+## 기존 UI에서
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
 
 1. 라이브러리 이름을 클릭합니다.
 

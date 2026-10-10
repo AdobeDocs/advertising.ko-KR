@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # Creative 라이브러리에 동적 크리에이티브 추가
@@ -54,11 +54,33 @@ ht-degree: 0%
 
 ## 동적 HTML5 광고 템플릿을 사용하여 동적 크리에이티브 추가
 
+## 새 UI에서
+
+<!-- NEED TO ADD SAME INSTRUCTIONS AS FOR CREATIVE STUDIO -->
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Add new]** > **[!UICONTROL Creative Studio]** > **[!UICONTROL Dynamic Ad]**&#x200B;을(를) 클릭합니다.
+
+1. [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)에서 동적 광고 관리&quot;의 [2단계부터 시작하여 [!DNL Creative Studio] 내에서 동적 광고 설정을 지정하십시오.
+
+## 기존 UI에서
+
 1. 다음 중 하나를 수행합니다.
 
    * 크리에이티브 라이브러리에서:
 
      1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+     1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
 
      1. 라이브러리 이름을 클릭합니다.
 

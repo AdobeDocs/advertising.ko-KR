@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '2590'
 ht-degree: 0%
 ---
 # Creative 번들 관리
@@ -44,21 +44,69 @@ ht-degree: 0%
 
 크리에이티브를 여러 번들에 첨부할 수 있습니다.
 
+## 새 UI에서
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. 다음 중 하나를 수행합니다.
+
+   * **[!UICONTROL Creatives]** 탭에서 오른쪽 상단의 **[!UICONTROL Add new]** > **[!UICONTROL Bundle]**&#x200B;을(를) 클릭합니다.
+
+   * **[!UICONTROL Bundles]** 탭을 클릭합니다. 오른쪽 상단에서 **[!UICONTROL Create bundle]**&#x200B;을(를) 클릭합니다.
+
+1. 고유한 **[!UICONTROL Bundle Name]**&#x200B;을(를) 입력하고 **[!UICONTROL Bundle type]:** *표준 디스플레이*(표준 디스플레이 크리에이티브), *동적 디스플레이*(동적 디스플레이 크리에이티브), *표준 비디오*(표준 비디오 크리에이티브) 또는 *Dynamic Video*(동적 비디오 크리에이티브)을(를) 선택합니다.
+
+1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+
+### 기존 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
 
 1. 라이브러리 이름을 클릭합니다.
 
 1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
 
-1. 오른쪽 상단에서 **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단에서 **[!UICONTROL Create]** > **[!UICONTROL Bundle]**&#x200B;을(를) 클릭합니다.
 
-1. 고유 **[!UICONTROL Bundle Name]** 및 **[!UICONTROL Bundle Type]:** *표준 디스플레이*(표준 디스플레이 크리에이티브), *동적 디스플레이*(동적 디스플레이 크리에이티브), *표준 비디오*(표준 비디오 크리에이티브) 또는 *Dynamic Video*(동적 비디오 크리에이티브)을 입력하십시오.
+1. 고유한 **[!UICONTROL Bundle Name]**&#x200B;을(를) 입력하고 **[!UICONTROL Bundle Type]:** *표준 디스플레이*(표준 디스플레이 크리에이티브), *동적 디스플레이*(동적 디스플레이 크리에이티브), *표준 비디오*(표준 비디오 크리에이티브) 또는 *Dynamic Video*(동적 비디오 크리에이티브)을(를) 선택합니다.
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
 ## 번들에 광고 나열
 
+### 새 UI에서
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
+
+1. 번들의 이름을 클릭하여 번들의 모든 크리에이티브를 봅니다.
+
+### 기존 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
 
@@ -69,6 +117,32 @@ ht-degree: 0%
 1. 번들 카드 또는 행을 클릭하여 번들의 모든 크리에이티브를 표시합니다.
 
 ## 번들 복제
+
+새 번들의 이름은 `<original name> (copy) # 1`(또는 시퀀스의 다음 번호)입니다. 예를 들어 &quot;테스트 번들&quot;을 두 개 복제하는 경우 중복 이름은 &quot;Test bundle (copy) # 1&quot;과 &quot;Test bundle (copy) # 2&quot;로 지정됩니다.
+
+### 새 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
+
+1. 복제할 번들 선택:
+
+   * 단일 번들을 복제하려면 번들 이름 옆에 있는 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
+
+   * 하나 이상의 번들을 복제하려면 삭제할 각 번들에 대한 확인란을 선택합니다. 일괄 작업 도구 모음에서 ![복제](/help/creative/assets/duplicate.png "복제")(**[!UICONTROL Duplicate]**)을 클릭합니다.
+
+     모든 행을 선택하려면 왼쪽 상단의 글로벌 확인란을 선택합니다.
+
+### 기존 UI에서
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
@@ -90,13 +164,39 @@ ht-degree: 0%
 
      모든 행을 선택하려면 왼쪽 상단의 글로벌 확인란을 선택합니다.
 
-   새 번들의 이름은 `<original name> (copy) # 1`(또는 시퀀스의 다음 번호)입니다. 예를 들어 &quot;테스트 번들&quot;을 두 개 복제하는 경우 중복 이름은 &quot;Test bundle (copy) # 1&quot;과 &quot;Test bundle (copy) # 2&quot;로 지정됩니다.
-
-## 번들 이름 편집
+## 번들 이름 바꾸기
 
 번들 이름에 대한 변경 사항은 연결된 모든 경험에 전파됩니다.
 
+### 새 UI에서
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
+
+1. 번들 이름 옆에 있는 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Edit]**.<!-- Not "Rename" like for library objects -->을(를) 클릭합니다
+
+1. **[!UICONTROL Bundle Name]** 편집
+
+   [!UICONTROL Bundle Name]은(는) 고유해야 합니다.
+
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+### 기존 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
 
 1. 라이브러리 이름을 클릭합니다.
 
@@ -112,7 +212,7 @@ ht-degree: 0%
 
    [!UICONTROL Bundle Name]은(는) 고유해야 합니다.
 
-1. **[!UICONTROL Update]**.<!-- inconsistent with "Edit" for creative libraries and creatives --> 클릭
+1. **[!UICONTROL Update]**&#x200B;을(를) 클릭합니다.
 
 ## 번들에 크리에이티브 첨부
 
@@ -124,7 +224,29 @@ ht-degree: 0%
 
 ### 번들 목록의 번들에 크리에이티브 첨부
 
+### 새 UI에서
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
+
+1. 번들 이름 옆에 있는 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Attach creatives]**&#x200B;을(를) 클릭합니다.
+
+1. 오른쪽 패널에서 번들에 첨부할 각 크리에이티브 옆의 확인란을 선택한 다음 **[!UICONTROL Attach]**&#x200B;을(를) 클릭합니다.
+
+### 기존 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
 
@@ -142,11 +264,33 @@ ht-degree: 0%
 
 1. (선택 사항) ![카드 보기](/help/creative/assets/card-view-button.png "카드 보기")를 클릭하여 카드 보기를 열거나 ![테이블/목록 보기](/help/creative/assets/table-view-button.png "표 보기")을(를) 클릭하여 테이블 보기로 돌아가면서 사용 가능한 번들의 기본 테이블 보기와 카드 보기 사이를 전환합니다.
 
-1. 오른쪽 프레임에서 번들에 첨부할 각 광고 옆에 있는 확인란을 선택한 다음 **[!UICONTROL Attach Creative to Bundle]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 패널에서 번들에 첨부할 각 크리에이티브 옆의 확인란을 선택한 다음 **[!UICONTROL Attach Creative to Bundle]**&#x200B;을(를) 클릭합니다.
 
 ### 번들의 크리에이티브 목록에서 번들에 크리에이티브 첨부
 
+### 새 UI에서
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
+
+1. 번들의 이름을 클릭하여 번들의 모든 크리에이티브를 봅니다.
+
+1. 오른쪽 패널에서 번들에 첨부할 각 크리에이티브 옆의 확인란을 선택한 다음 **[!UICONTROL Attach]**&#x200B;을(를) 클릭합니다.
+
+### 기존 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
 
@@ -168,7 +312,35 @@ ht-degree: 0%
 
 번들에서 크리에이티브를 분리해도 크리에이티브 라이브러리의 크리에이티브 탭에서는 크리에이티브가 삭제되지 않습니다.
 
+### 새 UI에서
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
+
+1. 번들의 이름을 클릭하여 번들의 모든 크리에이티브를 봅니다.
+
+1. 분리할 번들을 선택하십시오.
+
+   * 단일 번들을 분리하려면 번들 이름 옆에 있는 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Detach]**&#x200B;을(를) 클릭합니다.
+
+   * 하나 이상의 번들을 분리하려면 분리하려는 각 번들에 대한 확인란을 선택합니다. 일괄 작업 도구 모음에서 ![분리](/help/creative/assets/detach.png "분리")(**[!UICONTROL Detach]**)를 클릭합니다.
+
+     모든 행을 선택하려면 왼쪽 상단의 글로벌 확인란을 선택합니다.
+
+### 기존 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
 
@@ -194,7 +366,45 @@ ht-degree: 0%
 
 하이퍼링크를 포함하여 사용자가 보게 될 대로 크리에이티브를 미리 볼 수 있습니다.
 
+### 새 UI에서
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
+
+1. 번들의 이름을 클릭하여 번들의 모든 크리에이티브를 봅니다.
+
+1. 번들 이름 옆에 있는 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
+
+   HTML5 및 유연한 HTML5 크리에이티브의 경우 레이어, 세부 정보 및 속성 탭 간을 이동하여 자세한 내용을 확인할 수 있습니다.
+
+1. (선택 사항) 크리에이티브의 랜딩 페이지를 열려면 크리에이티브를 클릭합니다.
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. (선택 사항, 사용 가능한 경우) 크리에이티브를 다운로드하려면 ![다운로드](/help/creative/assets/download.png "다운로드")를 클릭합니다.
+
+   브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+
+1. (선택 사항, 사용 가능한 경우) [!DNL Creative]에 로그인하지 않은 다른 사람이 크리에이티브를 미리 볼 수 있도록 데모 URL을 공유하려면 다음을 수행하십시오.
+
+   1. 미리 보기의 오른쪽 상단에 있는 ![공유](/help/creative/assets/share.png "공유")를 클릭합니다.
+
+   1. [!UICONTROL Share demo URL] 대화 상자에서 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 URL을 클립보드에 복사하여 다른 사람과 공유할 수 있도록 합니다.
+
+### 기존 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
 
@@ -226,13 +436,47 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
+
+1. 번들 이름 옆에 있는 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 크리에이티브의 랜딩 페이지를 열려면 크리에이티브를 클릭합니다.
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. (선택 사항, 사용 가능한 경우) 크리에이티브를 다운로드하려면 ![다운로드](/help/creative/assets/download.png "다운로드")를 클릭합니다.
+
+   브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+
+1. (선택 사항, 사용 가능한 경우) [!DNL Creative]에 로그인하지 않은 다른 사람이 크리에이티브를 미리 볼 수 있도록 데모 URL을 공유하려면 다음을 수행하십시오.
+
+   1. 미리 보기의 오른쪽 상단에 있는 ![공유](/help/creative/assets/share.png "공유")를 클릭합니다.
+
+   1. [!UICONTROL Share demo URL] 대화 상자에서 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 URL을 클립보드에 복사하여 다른 사람과 공유할 수 있도록 합니다.
+
+### 기존 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
 1. 라이브러리 이름을 클릭합니다.
 
 1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
 
 1. 번들을 선택합니다.
 
-   * 카드 보기에서 번들 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
+   * 카드 보기에서 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 
    * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 
@@ -248,7 +492,7 @@ ht-degree: 0%
 
 1. (선택 사항) [!DNL Creative]에 로그인하지 않은 다른 사용자가 광고 내용을 미리 볼 수 있도록 데모 URL을 공유하려면 다음을 수행하십시오.
 
-   1. 미리 보기의 오른쪽 상단에 있는 ![공유](/help/creative/assets/share.png "공유")를 클릭합니다.
+   1. 미리 보기의 오른쪽 상단에 있는 ![공유](/help/creative/assets/share-legacy.png "공유")를 클릭합니다.
 
    1. [!UICONTROL Share Demo URL] 대화 상자에서 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 URL을 클립보드에 복사하여 다른 사람과 공유할 수 있도록 합니다.
 
@@ -287,7 +531,13 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## 번들에 대한 변경 로그 보기
 
+*새 UI에서 사용할 수 없음*
+
+### 기존 UI에서
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
 
@@ -311,7 +561,35 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 [live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) 경험에 할당되지 않은 번들을 삭제할 수 있습니다. 번들이 라이브 경험에 할당된 경우 계속하기 전에 경험에 대한 [결정 트리에서 번들을 제거](/help/creative/experiences/experience-target-node-delete.md)하십시오.
 
+### 새 UI에서
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Bundles]** 탭을 클릭합니다.
+
+1. 삭제할 번들을 선택하십시오.
+
+   * 단일 번들을 삭제하려면 번들 이름 옆에 있는 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
+
+   * 하나 이상의 번들을 삭제하려면 삭제할 각 번들에 대한 확인란을 선택합니다. 일괄 작업 도구 모음에서 ![삭제](/help/creative/assets/delete.png "삭제")(**[!UICONTROL Delete]**)을 클릭합니다.
+
+     모든 행을 선택하려면 왼쪽 상단의 글로벌 확인란을 선택합니다.
+
+1. 확인 메시지에서 **[!UICONTROL Delete].**&#x200B;을(를) 클릭합니다
+
+### 기존 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
 
 1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
 

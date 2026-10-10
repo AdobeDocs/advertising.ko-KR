@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 
-1. 미리 보기의 오른쪽 상단에서 ![공유](/help/creative/assets/share.png "공유")를 클릭합니다.
+1. 미리 보기의 오른쪽 상단에서 ![공유](/help/creative/assets/share-legacy.png "공유")를 클릭합니다.
 
 1. [!UICONTROL Share Demo URL] 대화 상자에서 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 URL을 클립보드에 복사하여 다른 사람과 공유할 수 있도록 합니다.
 
