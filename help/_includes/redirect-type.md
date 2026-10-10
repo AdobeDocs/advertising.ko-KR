@@ -1,9 +1,8 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '161'
 ht-degree: 0%
-
 ---
 # 계정 및 캠페인 설정의 리디렉션 유형 필드
 
@@ -15,5 +14,5 @@ ht-degree: 0%
 
 **메모:**
 
-* [!UICONTROL Standard]에서 [!UICONTROL Token] (으)로 전환하거나 그 반대로 전환하는 경우 계정에 대한 추적 URL을 다시 생성해야 합니다.
+* [!UICONTROL Standard]에서 [!UICONTROL Token]&#x200B;(으)로 전환하거나 그 반대로 전환하는 경우 계정에 대한 추적 URL을 다시 생성해야 합니다.
 * 캠페인 수준에서 계정 수준 설정을 재정의할 수 있습니다.
