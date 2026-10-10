@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Add new]** > **[!UICONTROL Creative Studio]** > **[!UICONTROL Dynamic Ad]**&#x200B;을(를) 클릭합니다.
 
-1. [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)에서 동적 광고 관리&quot;의 [2단계부터 시작하여 [!DNL Creative Studio] 내에서 동적 광고 설정을 지정하십시오.
+1. [!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)에서 동적 광고 관리&quot;의 2단계부터 시작하여 [!DNL Creative Studio] 내에서 동적 광고 설정을 지정하십시오.
 
 ## 기존 UI에서
 
