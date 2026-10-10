@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 1. (선택 사항) [!DNL Creative]에 로그인하지 않고 다른 사용자와 공유할 경험의 데모 URL을 복사하려면 다음을 수행하십시오.
 
-   1. 미리 보기의 오른쪽 상단에서 ![공유](/help/creative/assets/share.png "공유")를 클릭합니다.
+   1. 미리 보기의 오른쪽 상단에서 ![공유](/help/creative/assets/share-legacy.png "공유")를 클릭합니다.
 
    1. [!UICONTROL Share Demo URL] 대화 상자에서 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 URL을 클립보드에 복사하여 다른 사람과 공유할 수 있도록 합니다.
 
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 1. (선택 사항) [!DNL Creative]에 로그인하지 않고 다른 사용자와 공유할 경험의 데모 URL을 복사하려면 다음을 수행하십시오.
 
-   1. 미리 보기의 오른쪽 상단에서 ![공유](/help/creative/assets/share.png "공유")를 클릭합니다.
+   1. 미리 보기의 오른쪽 상단에서 ![공유](/help/creative/assets/share-legacy.png "공유")를 클릭합니다.
 
    1. [!UICONTROL Share Demo URL] 대화 상자에서 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 URL을 클립보드에 복사하여 다른 사람과 공유할 수 있도록 합니다.
 

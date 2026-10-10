@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1643'
 ht-degree: 0%
 ---
 # 크리에이티브 라이브러리 정보
@@ -155,63 +155,55 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 #### 사용 가능한 작업
 
-* [새 라이브러리 만들기](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
+* [새 라이브러리 만들기](/help/creative/creative-libraries/creative-library-manage.md#library-create)
 
 * 각 Creative Library의 경우:
 
-  * [라이브러리 이름 편집](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [라이브러리 이름 바꾸기](/help/creative/creative-libraries/creative-library-manage.md#library-rename)
 
-  * [라이브러리를 열어 라이브러리에 할당된 크리에이티브 및 번들을 봅니다](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [라이브러리를 열어 라이브러리에 할당된 크리에이티브 및 번들을 봅니다](/help/creative/creative-libraries/creative-library-manage.md#library-open)
 
-  * [라이브러리 삭제](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [라이브러리 삭제](/help/creative/creative-libraries/creative-library-manage.md#library-delete)
 
 ### [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] 보기
 
-#### [!UICONTROL Standard Ads]
+[!UICONTROL Creatives] 보기에는 다음이 표시됩니다.
 
-[!UICONTROL Standard Ads] 탭에는 사용자가 만든 모든 표준 광고 정보가 표시됩니다. 각 창작물별 자료는 창작규모, 창작유형, 창작시기 등이 포함된다. 테이블 모드에는 기본 언어 및 기본 랜딩 페이지에 대한 열도 포함됩니다.
+* 만든 모든 표준 광고.
 
-##### 사용 가능한 작업
+  각 표준 창안에 대한 자료는 창작 규모, 창작 유형, 창작 연월일 등이다. 테이블 모드에는 기본 언어 및 기본 랜딩 페이지에 대한 열도 포함됩니다.
 
-* [라이브러리에 표준 크리에이티브 추가](creative-add-standard.md)
+* [수동으로 삭제](creative-delete.md)한 동적 크리에이티브를 제외하고, 크리에이티브 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브. [수동으로 복제](creative-duplicate.md) 모든 동적 크리에이티브<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->를 수행하는 경우 해당 카탈로그에 대한 크리에이티브 목록에는 중복 크리에이티브도 포함됩니다.
 
-* [표준 문안 편집](creative-edit-standard.md)
+  각 동적 크리에이티브에 대한 데이터에는 크리에이티브 유형, 크리에이티브 크기, 크리에이티브가 속한 카탈로그의 수 및 생성 일자가 포함됩니다. 테이블 모드에는 광고 크리에이티브가 생성된 광고 템플릿 열과 오퍼 수가 포함됩니다.
 
-* [표준 크리에이티브 미리 보기](creative-preview.md)
+  >[!NOTE]
+  >
+  >카탈로그가 처리될 때마다 해당 카탈로그의 기존 동적 크리에이티브에 대한 데이터가 새로 고쳐집니다.<!-- Verify this!!! And is there anything more to say w/regard to  -->
+
+>[!NOTE]
+>
+>기존 UI에서 [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]은(는) 별도의 [!UICONTROL Standard Ads] 및 [!UICONTROL Dynamic Ads] 탭으로 구성됩니다.
+
+#### 사용 가능한 작업
+
+* 라이브러리에 [표준 크리에이티브](creative-add-standard.md) 및 [동적 크리에이티브](creative-add-dynamic.md) 추가
+
+* [표준 크리에이티브](creative-edit-standard.md) 및 [동적 크리에이티브](creative-edit-dynamic.md) 편집
+
+* [표준 크리에이티브](creative-preview.md) 및 [동적 크리에이티브](creative-preview.md) 미리 보기
 
 * [표준 디스플레이 번들에 표준 크리에이티브를 추가하고 표준 디스플레이 번들에서 표준 크리에이티브를 제거합니다.](creative-attach-detach-bundles.md)
 
 * [표준 비디오 번들에 비디오 크리에이티브를 추가하고 표준 비디오 번들에서 비디오 크리에이티브를 제거합니다.](creative-attach-detach-bundles.md)
 
-* [중복 표준 크리에이티브](creative-duplicate.md)
+* [동적 디스플레이 번들에 동적 크리에이티브를 추가하고 동적 디스플레이 번들에서 동적 크리에이티브를 제거합니다.](creative-attach-detach-bundles.md)
+
+* [표준 크리에이티브](creative-duplicate.md) 및 [동적 크리에이티브](creative-duplicate.md) 복제
 
 * [표준 광고 다운로드](creative-download.md)
 
-* [표준 광고 삭제](creative-delete.md)
-
-#### [!UICONTROL Dynamic Ads]
-
-[!UICONTROL Dynamic Ads] 탭에는 Creative 카탈로그에 대해 동적으로 만들어진 모든 동적 크리에이티브가 표시됩니다. 단, [!UICONTROL Dynamic Ads] 탭에서 [수동으로 삭제](creative-delete.md)한 동적 크리에이티브는 예외입니다. [수동으로 복제](creative-duplicate.md) 모든 동적 크리에이티브<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->를 수행하는 경우 해당 카탈로그에 대한 크리에이티브 목록에는 중복 크리에이티브도 포함됩니다.
-
-각 창작물별 데이터에는 창작유형, 창작규모, 창작물이 속한 카탈로그 개수, 창작날짜 등이 포함된다. 테이블 모드에는 광고 크리에이티브가 생성된 광고 템플릿 열과 오퍼 수가 포함됩니다.
-
->[!NOTE]
->
->카탈로그가 처리될 때마다 해당 카탈로그의 기존 동적 크리에이티브에 대한 데이터가 새로 고쳐집니다.<!-- Verify this!!! And is there anything more to say w/regard to  -->
-
-##### 사용 가능한 작업
-
-* [라이브러리에 동적 크리에이티브 추가](creative-add-dynamic.md)
-
-* [다이내믹 크리에이티브 편집](creative-edit-dynamic.md)
-
-* [동적 크리에이티브 미리 보기](creative-preview.md)
-
-* [동적 디스플레이 번들에 동적 크리에이티브를 추가하고 동적 디스플레이 번들에서 동적 크리에이티브를 제거합니다.](creative-attach-detach-bundles.md)
-
-* [동적 크리에이티브 복제](creative-duplicate.md)
-
-* [동적 크리에이티브 삭제](creative-delete.md)
+* [표준 크리에이티브](creative-delete.md) 및 [동적 크리에이티브](creative-delete.md) 삭제
 
 <!-- Later:  Dynamic creatives are generated automatically when you save a catalog, but can regenerate the catalog using the contents of an updated asset file [using the Run Now option]. -->
 
@@ -225,7 +217,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 * 번들에서 크리에이티브 나열 및 미리보기
 
-* 번들 이름 편집
+* 번들 이름 바꾸기
 
 * 표준 디스플레이 번들에 표준 디스플레이 크리에이티브를 추가하고 표준 디스플레이 번들에서 표준 디스플레이 크리에이티브를 제거합니다.
 

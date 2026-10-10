@@ -16,16 +16,50 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '354'
 ht-degree: 0%
 ---
 # 크리에이티브 미리 보기
 
 하이퍼링크를 포함하여 사용자가 보게 될 대로 크리에이티브를 미리 볼 수 있습니다.
 
+## 새 UI에서
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Creatives]** 탭에서 크리에이티브 이름 옆에 있는 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
+
+   HTML5 및 유연한 HTML5 크리에이티브의 경우 레이어, 세부 정보 및 속성 탭 간을 이동하여 자세한 내용을 확인할 수 있습니다.
+
+1. (선택 사항) 크리에이티브의 랜딩 페이지를 열려면 크리에이티브를 클릭합니다.
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. (선택 사항, 사용 가능한 경우) 크리에이티브를 다운로드하려면 ![다운로드](/help/creative/assets/download.png "다운로드")를 클릭합니다.
+
+   브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+
+1. (선택 사항, 사용 가능한 경우) [!DNL Creative]에 로그인하지 않은 다른 사람이 크리에이티브를 미리 볼 수 있도록 데모 URL을 공유하려면 다음을 수행하십시오.
+
+   1. 미리 보기의 오른쪽 상단에 있는 ![공유](/help/creative/assets/share.png "공유")를 클릭합니다.
+
+   1. [!UICONTROL Share demo URL] 대화 상자에서 **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 URL을 클립보드에 복사하여 다른 사람과 공유할 수 있도록 합니다.
+
+## 기존 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
 
 1. 라이브러리 이름을 클릭합니다.
 

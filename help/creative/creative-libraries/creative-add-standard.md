@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1538'
 ht-degree: 0%
 ---
 # 크리에이티브 라이브러리에 표준 크리에이티브 추가
@@ -133,7 +133,67 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 >
 >[!DNL Creative] 내에서 직접 편집할 수 있는 표준 HTML 태그로 모든 특성을 가진 HTML5 크리에이티브인 [유연한 HTML5 크리에이티브를 추가](#flexible-creative-add)할 수도 있습니다.
 
+### 새 UI에서
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Display]**&#x200B;을(를) 클릭합니다.
+
+1. 크리에이티브 지정:
+
+   * 로컬 이미지 또는 HTML5 에셋의 경우 다음 중 하나를 수행하십시오.
+
+     * 장치나 네트워크의 파일을 상자로 끌어서 놓습니다.
+
+     * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL Select a file]**&#x200B;을(를) 클릭하십시오.
+
+   * DSP 계정에 연결된 [Experience Manager 라이브러리](/help/creative/creative-libraries/aem-assets-configure.md)에서 승인된 이미지의 경우 다음을 수행하십시오.
+
+     1. **[!UICONTROL AEM Asset Library]**&#x200B;을(를) 클릭합니다.
+
+     1. (Experience Manager 계정에 아직 로그인하지 않은 경우) Experience Manager 계정에 로그인합니다.
+
+     1. [!UICONTROL Assets] 또는 [!UICONTROL Collections] 보기에서 파일을 찾아 선택한 다음 오른쪽 상단의 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
+
+        <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
+
+   * GenStudio 경험의 경우 다음을 수행합니다.
+
+     1. **[!UICONTROL GenStudio Library]**&#x200B;을(를) 클릭합니다.
+
+     1. (GenStudio 계정에 아직 로그인하지 않은 경우) GenStudio 계정에 로그인합니다.
+
+        기본적으로 디스플레이 광고 경험이 표시됩니다. 필요에 따라 캠페인 또는 기타 속성으로 경험을 필터링할 수 있습니다.
+
+     1. 디스플레이 광고 경험을 찾아 선택한 다음 오른쪽 상단의 **[!UICONTROL Select]**&#x200B;을(를) 클릭합니다.
+
+     선택한 경험의 각 크리에이티브 변형을 별도의 HTML5 크리에이티브로 가져옵니다.
+
+1. 광고 추가 또는 제거:
+
+   * 이미지를 추가하려면 왼쪽 상단의 ![추가](/help/creative/assets/create.png "추가")를 클릭하고 장치나 네트워크에서 파일을 찾습니다.
+
+   * 이미지를 제거하려면 이미지 옆에 있는 확인란을 선택 취소합니다.
+
+1. [HTML5 광고 설정](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) 또는 [이미지 광고 설정](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image)을 지정하십시오.
+
+   기본적으로 방금 업로드한 모든 크리에이티브 또는 GenStudio 경험이 선택되고 지정한 설정이 선택한 모든 항목에 적용됩니다. 값이 하나만 있는 설정은 선택한 모든 항목에 적용됩니다. 특정 크리에이티브 또는 GenStudio 경험에 대한 설정을 입력하려면 적용할 수 없는 각 크리에이티브 또는 경험의 선택을 해제합니다.
+
+1. **[!UICONTROL Save Creative]**&#x200B;을(를) 클릭합니다.
+
+### 기존 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
 
 1. 라이브러리 이름을 클릭합니다.
 
@@ -185,7 +245,33 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 [!DNL Creative]은(는) 대부분의 타사 광고 서버에서 호스팅되는 크리에이티브에 대해 JavaScript 추적 태그를 지원합니다.
 
+### 새 UI에서
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**&#x200B;을(를) 클릭합니다.
+
+1. [타사 크리에이티브 설정](#creative-settings-third-party)에서 크리에이티브에 대한 JavaScript 태그 및 기타 설정을 지정합니다.
+
+   [사용 가능한 매크로](/help/creative/creative-macros.md)를 복사하여 JavaScript 태그에 붙여넣을 수 있습니다.
+
+1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+
+### 기존 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
 
 1. 라이브러리 이름을 클릭합니다.
 
@@ -195,13 +281,43 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    [사용 가능한 매크로](/help/creative/creative-macros.md)를 복사하여 JavaScript 태그에 붙여넣을 수 있습니다.
 
-1. **[!UICONTROL Create]** 클릭
+1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-## 광고 라이브러리에 비디오 광고 추가
+## 크리에이티브 라이브러리에 비디오 크리에이티브 업로드
 
 [비디오 크리에이티브 사양](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs) 및 [지원되는 크리에이티브 크기](/help/creative/creative-libraries/creative-sizes.md)를 참조하세요.
 
+### 새 UI에서
+
+한 번에 하나의 비디오를 업로드할 수 있습니다.
+
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+
+1. 다음 방법 중 하나로 라이브러리를 엽니다.
+
+   * 라이브러리 이름을 클릭합니다.
+
+   * 라이브러리 이름 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Video]**&#x200B;을(를) 클릭합니다.
+
+1. 다음 방법 중 하나로 비디오 파일을 지정합니다.
+
+   * 장치 또는 네트워크에 있는 파일을 상자로 끌어서 놓습니다.
+
+   * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL Select a file]**&#x200B;을(를) 클릭하십시오.
+
+1. [비디오 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video)을 지정하십시오.
+
+1. **[!UICONTROL Save Creative]**&#x200B;을(를) 클릭합니다.
+
+### 기존 UI에서
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Switch to classic UI]**&#x200B;을(를) 클릭합니다.
 
 1. 라이브러리 이름을 클릭합니다.
 

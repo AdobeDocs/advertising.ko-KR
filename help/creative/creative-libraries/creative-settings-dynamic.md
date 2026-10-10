@@ -18,14 +18,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '452'
 ht-degree: 2%
 ---
 # 동적 크리에이티브 설정
 
 <!-- add a description -->
+
+다음 설정은 기존 UI를 사용하여 만든 동적 광고에 적용할 수 있습니다. 새 UI 또는 [!DNL Creative Studio]을(를) 사용하여 동적 광고를 만드는 경우 &quot;[[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)에서 동적 광고 관리&quot;의 설정을 참조하십시오.
 
 ## 동적 광고 설정<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 
