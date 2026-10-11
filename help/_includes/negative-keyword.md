@@ -3,7 +3,6 @@ source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
-
 ---
 # Baidu, GGL, MS, YJP에 대한 캠페인 및 광고 그룹 설정의 음성 키워드 필드
 
