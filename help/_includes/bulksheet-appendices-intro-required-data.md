@@ -1,9 +1,8 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 0%
-
 ---
 # 레코드 추가, 업데이트 및 삭제에 필요한 데이터
 
