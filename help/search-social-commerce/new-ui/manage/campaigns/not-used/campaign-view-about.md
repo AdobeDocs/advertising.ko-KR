@@ -53,7 +53,7 @@ Links to unused (separate) pages:
 
 * Delete or change the status of a campaign from within the row.
 
-* [Assign campaigns to existing or new portfolios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio), and [unassign campaigns from portfolios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Assign campaigns to existing or new portfolios](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio), and [unassign campaigns from portfolios](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Assign constraints to campaigns, and unassign constraints from campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
 
@@ -65,7 +65,7 @@ Links to unused (separate) pages:
 
 >[!MORELIKETHIS]
 >
->* [포트폴리오에 캠페인 할당](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [포트폴리오에서 캠페인 제거](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [포트폴리오에 캠페인 할당](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [포트폴리오에서 캠페인 제거](https://experienceleague.adobe.com/ko/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [캠페인에 대한 제한 할당 관리](campaign-constraint-assignments-manage.md)
 >* [[!UICONTROL Campaigns] 보기에서 데이터 보기 보고서 관리](campaign-view-report.md)
