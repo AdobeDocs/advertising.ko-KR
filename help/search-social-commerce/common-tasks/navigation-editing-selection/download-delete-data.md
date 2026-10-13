@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->*일괄 시트 파일을 삭제하면 [!UICONTROL Downloads] 목록과 [!UICONTROL Bulksheets] 보기에서도 제거됩니다.
->* &quot;[[!UICONTROL Portfolios] 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)&quot;, &quot;[[!UICONTROL Campaigns] 보기](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)&quot; 및 &quot;[[!UICONTROL Ad Groups] 보기](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)&quot;에서 새 사용자 인터페이스에서 데이터를 다운로드하는 방법에 대한 도움말도 참조하세요.&quot;
+>* 일괄 시트 파일을 삭제하면 [!UICONTROL Downloads] 목록과 [!UICONTROL Bulksheets] 보기에서도 제거됩니다.
+>* &quot;[[!UICONTROL Portfolios] 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)&quot;, &quot;[[!UICONTROL Campaigns] 보기](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)&quot; 및 &quot;[[!UICONTROL Ad Groups] 보기](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)&quot;에서 새 사용자 인터페이스에서 데이터를 다운로드하는 방법에 대한 도움말도 참조하세요.&quot;
 
 1. 메인 메뉴에서 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]을(를) 클릭하고 엔터티 보기를 엽니다.
 
@@ -39,5 +39,5 @@ ht-degree: 0%
 >
 >* [(레거시 UI) 캠페인 관리 보기에서 데이터를 다운로드합니다](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(새 UI) [!UICONTROL Portfolios] 보기에서 데이터 보기 보고서를 관리합니다](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
->* [(새 UI) [!UICONTROL Campaigns] 보기에서 데이터 보기 보고서를 관리합니다](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [(새 UI) [!UICONTROL Campaigns] 보기에서 데이터 보기 보고서를 관리합니다](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)
 >* [(새 UI) [!UICONTROL Ad Groups] 보기에서 데이터 보기 보고서를 관리합니다](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

@@ -12,7 +12,7 @@ feature_v2:
     internal-label: Search Optimization
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -95,6 +95,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [(새 UI) 검색 입찰 단위에 대한 제약 조건을 관리합니다](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [(새 UI) 캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [(새 UI) 캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
 >* [(새 UI) 광고 그룹에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [(새 UI) 키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
