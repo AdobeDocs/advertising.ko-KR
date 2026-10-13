@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4d0f262a450d478903d0a182a71bb25f8a766b02
+source-git-commit: 5b9a22cae9ed7094affb547b3ebe1e6db732fed5
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '2068'
 ht-degree: 0%
 ---
 # 인사이트 정보
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭의 모든 시각화를 PDF 파일로 내보내거나 특정 insight의 데이터를 다운로드할 수 있습니다.
 
-[날짜 범위를 변경하고, 보기를 구성하고, 사용자 지정 보기를 &#x200B;](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} 캠페인 관리 보기와 같이 저장할 수도 있습니다.
+[날짜 범위를 변경하고, 보기를 구성하고, 사용자 지정 보기를 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} 캠페인 관리 보기와 같이 저장할 수도 있습니다.
 
 ## 인사이트 유형
 
@@ -132,7 +132,9 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 
 ### [!UICONTROL Delivery Composition] 탭
 
-[!UICONTROL Delivery Composition] 탭은 모델이 전환할 가능성이 다른 사용자 간에 입찰하는 방법을 알려줍니다. 이 insight 세트를 사용하여 제공 중인 배치를 검토합니다.
+*광고주가 [!DNL Analytics for Advertising]만 사용할 수 있음*
+
+[!UICONTROL Delivery Composition] 탭은 사용자가 전환할 가능성에 따라 DSP 사용자 모델이 입찰하는 방식을 알려줍니다.  인사이트는 프로그램 입찰 스트림(프로그램 광고 기회에서 관찰된 사용자 모집단)의 사용자와 일치하는 Adobe Analytics 유기 변환기 데이터를 사용합니다.  이러한 통찰력을 사용하여 제공 중인 배치를 검토하십시오.
 
 기본적으로 특정 광고주 및 특정 배치에 대한 데이터가 표시됩니다. 보고서 날짜 범위, 데이터가 마지막으로 업데이트된 날짜 및 보고서가 업데이트될 다음 날짜가 포함됩니다. 선택적으로 다른 광고주에 대한 데이터를 표시하도록 필터를 구성하거나 다른 배치를 선택할 수 있습니다.
 
@@ -148,21 +150,23 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 
 ### [!UICONTROL Organic Seed Profile] 탭
 
-[!UICONTROL Organic Seed Profile] 탭에는 변환기와 연결된 관심 분야, 시간, 위치 및 장치가 표시됩니다. insight 세트는 프로그래밍 방식 광고 기회에서 관찰되는 사용자 모집단인 프로그래밍 방식 입찰 스트림의 사용자와 일치하는 Adobe Analytics 유기 변환기 데이터를 사용합니다. 이 insight은 캠페인 전달이 아닌 기존 변환기 데이터를 사용하므로 적합한 시드 데이터를 사용할 수 있는 경우 DSP 지출 전 계획을 지원할 수 있습니다. 내부에서 이 항목을 사용하여 패키지 또는 배치의 시작을 계획하거나 다음 캠페인에 알립니다.
+*광고주가 [!DNL Analytics for Advertising]만 사용할 수 있음*
+
+[!UICONTROL Organic Seed Profile] 탭에서는 대상 인텔리전스를 사용하여 변환기와 연결된 관심, 시간, 위치 및 장치를 보여 줍니다. 인사이트는 프로그램 입찰 스트림의 사용자와 일치하는 Adobe Analytics 유기 변환기 데이터를 사용합니다. 이러한 인사이트는 캠페인 전달이 아닌 기존 변환기 데이터를 사용하므로 적절한 시드 데이터를 사용할 수 있을 때 DSP 지출 전에 계획을 지원할 수 있습니다. 이 인사이트를 사용하여 패키지 또는 배치 시작을 계획하거나 다음 캠페인에 알리십시오.
 
 기본적으로 특정 광고주 및 특정 패키지 또는 배치에 대한 데이터가 표시됩니다. 보고서 날짜 범위, 데이터가 마지막으로 업데이트된 날짜 및 보고서가 업데이트될 다음 날짜가 포함됩니다. 선택적으로 다른 광고주에 대한 데이터를 표시하도록 필터를 구성하거나 다른 패키지 또는 배치를 선택할 수 있습니다.
 
 인사이트는 다음과 같습니다.
 
-* **[!UICONTROL Affinity Insights]:** 변환기의 미디어 소비에서 파생된 관심 및 동작 특성을 전체 모집단과 관련된 전환율 상승도로 순위를 매겼습니다.
+* **[!UICONTROL Affinity Insights]:** 변환기의 미디어 소비에서 파생된 관심 및 동작 특성을 전체 모집단과 관련된 전환율 상승도로 순위를 매겼습니다. **참고:** 트레이트는 확인된 인구 통계학적 특성이 아닌 미디어 사용 동작을 설명합니다. 사용자는 여러 트레이트를 가질 수 있으므로 모든 트레이트 백분율이 총 100%가 될 수 없습니다.
 
 * **[!UICONTROL Temporal Insights]:** 전환기 활동을 *요일* 또는 *시간*(으)로 집계하여 표시하므로 이 광고주의 대상이 가장 활발한 시기를 식별할 수 있습니다.
 
-* **[!UICONTROL Geographic Insights]:** *국가* 또는 *지역*&#x200B;에 의해 집계된 전환기 활동을 전체 모집단에 대한 전환율 상승도에 의해 가중치가 적용된 것으로 표시합니다.
+* **[!UICONTROL Geographic Insights]:** *국가* 또는 *지역*&#x200B;에 의해 집계된 전환기 활동을 전체 모집단에 대한 전환율 상승도에 의해 가중치가 적용된 것으로 표시합니다.  **참고:** 비즈니스 및 캠페인과 관련된 위치만 고려하십시오.
 
-* **[!UICONTROL Device Insights]:** 장치 유형 혼합으로 집계된 전환기 활동을 전체 모집단에 대한 전환율 상승도로 가중하여 표시합니다.
+* **[!UICONTROL Device Insights]:** 장치 유형 혼합으로 집계된 전환기 활동을 전체 모집단에 대한 전환율 상승도로 가중하여 표시합니다. **참고:** 캠페인의 컨텍스트에서 장치 패턴을 해석합니다. 예를 들어 CTV 캠페인과 비 CTV 캠페인이 서로 다른 디바이스 패턴을 가질 수 있습니다.
 
-각 insight에는 다음 열이 포함되어 있습니다.
+각 [!UICONTROL Organic Seed Profile] insight에는 다음 열이 포함되어 있습니다.
 
 입찰 스트림의 **[!UICONTROL Bid-stream Users]:** 사용자가 그룹에 속합니다.
 
@@ -174,7 +178,7 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
 
 **[!UICONTROL Bid-stream %]:** 그룹에 속한 입찰 스트림 사용자의 비율입니다.
 
-**[!UICONTROL Conv. Rate Lift]:** 참조 기준선에 대한 그룹의 전환율입니다. 1.00x는 기준선과 동일한 비율을 의미하고, 1.50x는 50% 더 높음을 의미하며, 0.50x는 50% 더 낮음을 의미합니다. **참고:** 상승도는 증분 전환의 예측이나 증명이 아닙니다.
+**[!UICONTROL Conv. Rate Lift]:** 참조 기준선에 대한 그룹의 전환율입니다. 1.00x는 기준선과 동일한 비율을 의미하고, 1.50x는 50% 더 높음을 의미하며, 0.50x는 50% 더 낮음을 의미합니다. **참고:** 상승도는 향후 성능을 보장하지 않습니다.
 
 ## 성능 인사이트 보기
 
