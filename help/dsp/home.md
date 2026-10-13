@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b495d4e7b4309f8933d29489d77896645bebc538
 workflow-type: tm+mt
-source-wordcount: '7729'
+source-wordcount: '7809'
 ht-degree: 0%
 ---
 # DSP의 새로운 기능
@@ -50,6 +50,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 10월 8일 | [!UICONTROL Insights] | (광고주: [!DNL Analytics for Advertising]만 해당) Adobe Analytics 전환 데이터의 대상 인텔리전스를 기반으로 하는 두 가지 새로운 인사이트를 사용할 수 있습니다.<ul><li>[!UICONTROL Delivery Composition]은(는) DSP 사용자 모델이 전환 가능성이 다른 사용자 간에 입찰하는 방법을 알려줍니다. 이 insight을 사용하여 제공 중인 배치를 검토합니다.</li><li>[!UICONTROL Organic Seed Profile]은(는) 변환기와 연결된 관심 분야, 시간, 위치 및 장치를 보여 줍니다. 이 insight을 사용하여 패키지 또는 배치 시작을 계획하거나 다음 캠페인에 알립니다.</li></ul> | &quot;[인사이트 정보](/help/dsp/campaign-management/insights/insights-about.md)&quot;를 참조하세요. |
 | 2026년 8월 14일 | [!UICONTROL Reports] | 새 [!UICONTROL DSP Self-Attributed Conversions] 보고서는 Advertising DSP이 역할을 했지만 나중에 터치(예: Adobe Advertising 검색 클릭)가 다른 보고서에서 마지막 클릭 크레딧을 받은 고객 여정을 포함하여 전환에 대한 DSP의 기여도를 보여줍니다. Advertising DSP과 Advertising 검색, 소셜 및 Commerce을 모두 사용하는 광고주에게 가장 유용합니다. | &quot;[사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)&quot; 및 &quot;[사용자 지정 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오. |
 | 2026년 7월 1일 | [!DNL Creative] | Advertising Creative에서는 다음 Beta 기능을 사용할 수 있습니다.<ul><li>**[!UICONTROL Creative Studio]**&#x200B;은(는) 생성 AI를 사용하여 단일 세션에서 여러 형식의 디스플레이 광고를 빌드, 크기 조정 및 구체화할 수 있습니다. 자연어 채팅 인터페이스를 사용하여 광고 콘텐츠를 생성하고 수정합니다. 콘텐츠 필드에 수동 디자인 작업이 필요하지 않습니다.</li><li>로고, 색상 팔레트, 음성 지침, 이미지 표준 및 채널별 복사 지침을 포함하여 브랜드의 시각적 및 메시징 ID를 반영하는 **[!UICONTROL brand profiles]**&#x200B;을(를) 만들고 관리합니다. [!UICONTROL Creative Studio]에서 광고를 만들 때 AI 에이전트는 브랜드 프로필 정보를 사용하여 특정 브랜드의 콘텐츠를 생성합니다.</li></ul> | &quot;[Creative Studio 정보](/help/creative/creative-studio/creative-studio-about.md)&quot; 및 &quot;[브랜드 프로필 관리](/help/creative/brands/brand-manage.md)&quot;를 참조하십시오. |
 | 2026년 6월 23일 | [!UICONTROL Placements], 우편 번호 | 이제 개별 국가가 배치 대상 또는 제외로 재사용할 우편 번호 목록을 만들 수 있습니다. | &quot;[우편 번호 목록 관리](/help/dsp/resources/lists-postal-codes-manage.md)&quot; 및 &quot;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)&quot;을 참조하십시오. |
