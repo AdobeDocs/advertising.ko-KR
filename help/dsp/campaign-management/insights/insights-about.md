@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 4d0f262a450d478903d0a182a71bb25f8a766b02
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1986'
 ht-degree: 0%
 ---
 # 인사이트 정보
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭의 모든 시각화를 PDF 파일로 내보내거나 특정 insight의 데이터를 다운로드할 수 있습니다.
 
-[날짜 범위를 변경하고, 보기를 구성하고, 사용자 지정 보기를 &#x200B;](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} 캠페인 관리 보기와 같이 저장할 수도 있습니다.
+[날짜 범위를 변경하고, 보기를 구성하고, 사용자 지정 보기를 ](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} 캠페인 관리 보기와 같이 저장할 수도 있습니다.
 
 ## 인사이트 유형
 
@@ -129,6 +129,52 @@ Microsoft Excel 스프레드시트(XLSX) 형식으로 시각화하지 않고 탭
   **[!UICONTROL Devices/Ad Opportunities Bid On]:** 배치에서 입찰을 제출한 적격 기회의 수. 이 단계에서의 급격한 하락은 입찰 거래량을 제한하는 예산 또는 게재 간격 제한을 나타낼 수 있다.
 
   * **[!UICONTROL Impression Wins]:** 배치로 인해 노출이 발생한 기회 수입니다. 낙찰이 입찰보다 훨씬 낮은 경우 입찰 가격은 대상 재고에 대한 일반 시장 비율 미만일 수 있습니다.
+
+### [!UICONTROL Delivery Composition] 탭
+
+[!UICONTROL Delivery Composition] 탭은 모델이 전환할 가능성이 다른 사용자 간에 입찰하는 방법을 알려줍니다. 이 insight 세트를 사용하여 제공 중인 배치를 검토합니다.
+
+기본적으로 특정 광고주 및 특정 배치에 대한 데이터가 표시됩니다. 보고서 날짜 범위, 데이터가 마지막으로 업데이트된 날짜 및 보고서가 업데이트될 다음 날짜가 포함됩니다. 선택적으로 다른 광고주에 대한 데이터를 표시하도록 필터를 구성하거나 다른 배치를 선택할 수 있습니다.
+
+인사이트는 다음과 같습니다.
+
+* **[!UICONTROL Placement Summary]:**(패키지의 배치) 연결된 패키지 및 패키지 목표를 나타냅니다.
+
+* **[!UICONTROL Propensity Breakdown]:** 변환 예상 가능성에 따라 변환기 일치 사용자를 [!UICONTROL High Propensity], [!UICONTROL Medium Propensity] 및 [!UICONTROL Low Propensity] 계층으로 구분합니다. 각 그룹에 대한 데이터에는 [!UICONTROL Avg Bid], [!UICONTROL Conversion Rate], [!UICONTROL Share of Conversions] 및 [!UICONTROL Conversion Rate Lift]&#x200B;(참조 기준선에 대한 그룹의 전환율)이 포함됩니다. 데이터는 모델이 예측한 사용자에 대해 더 많은 입찰을 하는 방법이 전환될 가능성을 나타냅니다.  **참고:** 이 데이터는 관찰된 성능을 기반으로 한 것이며, 모델이 전환에서 증분 증가를 일으켰다는 증거는 아닙니다.
+
+* **[!UICONTROL Bid Multiplier Graph]:** 20개의 대상 버킷에 대한 입찰 승수를 나타내며, 전환할 것으로 예상되는 사용자의 가능성에 비례하여 지출을 조정합니다. 버킷 20은 성향이 가장 높은 사용자를 포함하고 가장 높은 승수를 받습니다. 높음, Medium 및 낮음은 고정된 대상 비율이 아니라 해당 버킷의 간소화된 그룹입니다.
+
+  승수가 1.0x인 경우 기본 입찰에 조정이 수행되지 않습니다. 1.0x보다 큰 승수는 더 높은 입찰가를 가져오고 1.0x보다 작은 승수는 더 낮은 입찰가를 가져옵니다.
+
+### [!UICONTROL Organic Seed Profile] 탭
+
+[!UICONTROL Organic Seed Profile] 탭에는 변환기와 연결된 관심 분야, 시간, 위치 및 장치가 표시됩니다. insight 세트는 프로그래밍 방식 광고 기회에서 관찰되는 사용자 모집단인 프로그래밍 방식 입찰 스트림의 사용자와 일치하는 Adobe Analytics 유기 변환기 데이터를 사용합니다. 이 insight은 캠페인 전달이 아닌 기존 변환기 데이터를 사용하므로 적합한 시드 데이터를 사용할 수 있는 경우 DSP 지출 전 계획을 지원할 수 있습니다. 내부에서 이 항목을 사용하여 패키지 또는 배치의 시작을 계획하거나 다음 캠페인에 알립니다.
+
+기본적으로 특정 광고주 및 특정 패키지 또는 배치에 대한 데이터가 표시됩니다. 보고서 날짜 범위, 데이터가 마지막으로 업데이트된 날짜 및 보고서가 업데이트될 다음 날짜가 포함됩니다. 선택적으로 다른 광고주에 대한 데이터를 표시하도록 필터를 구성하거나 다른 패키지 또는 배치를 선택할 수 있습니다.
+
+인사이트는 다음과 같습니다.
+
+* **[!UICONTROL Affinity Insights]:** 변환기의 미디어 소비에서 파생된 관심 및 동작 특성을 전체 모집단과 관련된 전환율 상승도로 순위를 매겼습니다.
+
+* **[!UICONTROL Temporal Insights]:** 전환기 활동을 *요일* 또는 *시간*(으)로 집계하여 표시하므로 이 광고주의 대상이 가장 활발한 시기를 식별할 수 있습니다.
+
+* **[!UICONTROL Geographic Insights]:** *국가* 또는 *지역*&#x200B;에 의해 집계된 전환기 활동을 전체 모집단에 대한 전환율 상승도에 의해 가중치가 적용된 것으로 표시합니다.
+
+* **[!UICONTROL Device Insights]:** 장치 유형 혼합으로 집계된 전환기 활동을 전체 모집단에 대한 전환율 상승도로 가중하여 표시합니다.
+
+각 insight에는 다음 열이 포함되어 있습니다.
+
+입찰 스트림의 **[!UICONTROL Bid-stream Users]:** 사용자가 그룹에 속합니다.
+
+그룹에 속한 **[!UICONTROL Converters]:**&#x200B;개의 변환기입니다.
+
+**[!UICONTROL Precision]:** 전환된 그룹의 사용자 비율입니다. **참고:** 0이 아닌 작은 비율은 표시된 전체 자릿수에서 0.0%로 반올림할 수 있습니다. 값이 0이면 변환기가 없는 것은 아닙니다. [!UICONTROL Converters] 수를 확인하십시오.
+
+**[!UICONTROL Recall]:** 그룹에 속하는 모든 변환기의 백분율입니다. **참고:** 그룹은 높은 전환 상승도를 가질 수 있지만 전환자의 일부만 차지합니다.
+
+**[!UICONTROL Bid-stream %]:** 그룹에 속한 입찰 스트림 사용자의 비율입니다.
+
+**[!UICONTROL Conv. Rate Lift]:** 참조 기준선에 대한 그룹의 전환율입니다. 1.00x는 기준선과 동일한 비율을 의미하고, 1.50x는 50% 더 높음을 의미하며, 0.50x는 50% 더 낮음을 의미합니다. **참고:** 상승도는 증분 전환의 예측이나 증명이 아닙니다.
 
 ## 성능 인사이트 보기
 
