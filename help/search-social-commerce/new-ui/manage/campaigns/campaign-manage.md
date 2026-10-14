@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2363'
 ht-degree: 0%
 ---
 # 캠페인 관리
@@ -60,6 +60,8 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 * [캠페인에 레이블 분류를 할당하고 캠페인에서 레이블 분류를 제거합니다.](#campaign-classifications)
 
 * [[!UICONTROL Campaigns] 보기에서 데이터 보기 보고서 관리](#campaign-reports)
+
+* [광고 네트워크와 캠페인 데이터 동기화](#campaign-sync)
 
 ## 캠페인 만들기 {#campaign-create}
 
@@ -425,6 +427,18 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 1. 데이터 테이블 위의 도구 모음에서 ![보고서 다운로드](/help/search-social-commerce/assets/download.png "보고서 다운로드") **[!UICONTROL Reports]**&#x200B;를 클릭합니다.
 
 1. [!UICONTROL Grid Reports] 대화 상자의 [!UICONTROL Recently Generated] 목록에서 파일 이름 옆에 있는 ![삭제](/help/search-social-commerce/assets/delete-new.png "삭제")를 클릭합니다.
+
+## 광고 네트워크와 캠페인 데이터 동기화 {#campaign-sync}
+
+[계정 내의 모든 캠페인에 대한 데이터를 동기화](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/sync-api-accounts.md)할 수도 있습니다.
+
+1. 메인 메뉴에서 **[!UICONTROL Manage]** > **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+
+1. 동기화할 각 캠페인의 이름 옆에 있는 확인란을 선택합니다.
+
+1. 일괄 작업 도구 모음에서 **[!UICONTROL ... More Actions]** > **[!UICONTROL Sync]**&#x200B;을(를) 클릭합니다.
+
+작업을 완료하는 데 1시간 이상 걸릴 수 있습니다.
 
 >[!MORELIKETHIS]
 >

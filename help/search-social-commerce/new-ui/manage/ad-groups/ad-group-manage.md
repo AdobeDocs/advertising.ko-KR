@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 0%
@@ -326,7 +326,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [검색 입찰 단위에 대한 제약 조건 관리](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
 >* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
 >* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
 >* [(레거시 UI) 캠페인 관리 보기에서 데이터를 다운로드합니다](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)

@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9aa8125392f6025110113334399b0ab1e406987e
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Search, Social 및 Commerce은 하루에 한 번 그리고 광고 네트워크 �
 
 작업을 완료하는 데 1시간 이상 걸릴 수 있습니다.
 
-## [!UICONTROL Campaigns] 보기의 캠페인을 동기화합니다.
+## [!UICONTROL Campaigns] 보기의 캠페인 동기화
 
 1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
 
