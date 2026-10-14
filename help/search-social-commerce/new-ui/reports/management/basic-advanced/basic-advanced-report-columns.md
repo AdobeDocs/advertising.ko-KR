@@ -12,9 +12,9 @@ feature_v2:
     internal-label: Search Basic Reports
   - id: c51771d4-46e9-5151-913c-59d4e047a4f1
     internal-label: Search Advanced Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '4023'
+source-wordcount: '3993'
 ht-degree: 0%
 ---
 # 기본 및 고급 보고서용 보고서 열
@@ -46,7 +46,7 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] 반응형 검색 광고) 광고의 효과: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> 또는 <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] 캠페인) 광고가 모바일 장치에 표시될 때 입찰이 조정되는 방법을 결정하는 현재 광고 그룹 수준의 모바일 입찰 조정입니다. |
 | [!UICONTROL AI Max Bundling Required] | (검색 네트워크만 대상으로 하는 캠페인, AI Max 기능이 활성화된 캠페인, 읽기 전용) 캠페인에 대한 텍스트 사용자 지정 및 브랜드 목록 컨트롤을 준수하거나 수정하려면 [!UICONTROL AI Max]을(를) 활성화해야 하는지 여부: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* 또는 null. |
-| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max] 기능 &#x200B;](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max] 기능 ](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
 | [!UICONTROL AI Max Search Term Matching] | (검색 네트워크를 대상으로 하며 [AI 최대 기능](https://support.google.com/google-ads/answer/15910366) 및 캠페인 수준 검색어 일치 기능이 활성화된 캠페인입니다. 읽기 전용) 광고 그룹 수준 검색어 일치가 활성화되었는지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
 | [!UICONTROL Advertiser] | 광고주 이름. |
 | [!UICONTROL Advertiser ID] | 광고주의 검색, 소셜 및 Commerce 계정에 대한 숫자 ID입니다. |
@@ -57,7 +57,6 @@ ht-degree: 0%
 | [!UICONTROL Asset Type] | 에셋 유형: *[!UICONTROL Image]*, *[!UICONTROL Text]*(헤드라인 또는 설명 등) 또는 *[!UICONTROL Video]*. |
 | [!UICONTROL Asset Performance Label] | ([!UICONTROL Asset Report]) 에셋에 대해 알고리즘으로 생성된 성능 레이블: *[!UICONTROL Best]*, *[!UICONTROL Good]*, *[!UICONTROL Low]* 또는 *[!UICONTROL Learning]*. |
 | [!UICONTROL Average CPC] | 클릭당 평균 비용입니다. |
-| [!UICONTROL Avg Position] | 지정된 날짜 범위 동안의 평균 광고 위치입니다.<br><br>[!DNL Google Ads] 및 [!DNL LY Ads] 캠페인의 경우 이 데이터는 2019년 9월까지만 사용할 수 있습니다. [!DNL Microsoft Advertising]의 경우 이 데이터는 2021년 1월 22일까지만 사용할 수 있습니다. |
 | [!UICONTROL Base URL] | 캠페인이나 계정에 대해 구성된 추가 매개 변수를 포함한 키워드의 기본 URL입니다. 여기에는 검색, 소셜 및 Commerce 리디렉션 및 추적 코드가 포함되지 않습니다. |
 | [!UICONTROL Bid Strategy] | (대부분의 광고 네트워크) 캠페인 또는 캠페인 구성 요소의 경우 이것이 캠페인의 입찰 전략입니다. 관리자 계정에 연결된 광고 네트워크 계정의 경우 계정 간 입찰 전략입니다. 사용 가능한 값은 광고 네트워크에 따라 다릅니다. |
 | [!UICONTROL Business Name] | ([!DNL Microsoft Advertising]개의 반응형 광고) 비즈니스 이름입니다. |
@@ -103,7 +102,7 @@ ht-degree: 0%
 | [!UICONTROL Currency] | 적용 가능한 통화 유형(예: &quot;USD&quot; 또는 &quot;GBP&quot;).<br><br><b>참고:</b> 보고서에 통화가 다른 계정에 대한 데이터가 포함된 경우 &quot;[!UICONTROL Total]&quot; 통화 값은 통화에 관계없이 열에 있는 모든 숫자의 합계입니다. |
 | [!UICONTROL Current Bid] | 대상의 현재 입찰입니다. |
 | [!UICONTROL Current First Page Bid] | ([!DNL Google Ads] 캠페인만 해당) [!DNL Google] 검색 쿼리가 키워드와 일치할 때 광고를 검색 결과의 첫 페이지에 배치하는 데 현재 필요한 예상 클릭당 비용(CPC) 입찰입니다.<br><br>단일 키워드 및 일치 유형 조합의 경우 이 값은 현재 해당 조합에 필요한 첫 번째 페이지 입찰입니다. 동일한 키워드 및 일치 유형 조합이 여러 캠페인에서 사용되는 경우 이 값은 모든 인스턴스에서 현재 필요한 최소 첫 페이지 입찰가입니다. |
-| [!UICONTROL Current Quality Score] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인만 해당) 광고 네트워크에서 지정한 키워드 또는 입찰 단위의 현재 품질 점수입니다. 범위는 1(낮음)부터 10(완벽)까지입니다. 단일 키워드 및 일치 유형 조합의 경우 이 값은 해당 조합의 현재 점수입니다. 여러 캠페인에서 동일한 키워드 및 일치 유형 조합을 사용하는 경우 이 값은 모든 인스턴스 중 최대 현재 점수입니다.<br><br>광고 네트워크에서 품질 점수를 사용하여 입찰 가격 및 광고 위치를 결정합니다. 관련 광고 및 사용자의 검색 쿼리와 랜딩 페이지의 품질을 포함한 많은 요소에 따라 계산됩니다. [!DNL Google Ads]의 키워드의 경우 키워드의 클릭스루 비율도 고려되며 [!DNL Microsoft Advertising]의 키워드의 경우 랜딩 페이지에서 제공하는 사용자 경험도 고려됩니다. |
+| [!UICONTROL Current Quality Score] | ([!DNL Google Ads] 및 [!DNL Microsoft Advertising] 캠페인만 해당) 광고 네트워크에서 지정한 키워드 또는 입찰 단위의 현재 품질 점수입니다. 범위는 1(낮음)부터 10(완벽)까지입니다. 단일 키워드 및 일치 유형 조합의 경우 이 값은 해당 조합의 현재 점수입니다. 여러 캠페인에서 동일한 키워드 및 일치 유형 조합을 사용하는 경우 이 값은 모든 인스턴스 중 최대 현재 점수입니다.<br><br>광고 네트워크는 품질 점수를 사용하여 입찰 가격과(해당되는 경우) 광고 위치를 결정합니다. 관련 광고 및 사용자의 검색 쿼리와 랜딩 페이지의 품질을 포함한 많은 요소에 따라 계산됩니다. [!DNL Google Ads]의 키워드의 경우 키워드의 클릭스루 비율도 고려되며 [!DNL Microsoft Advertising]의 키워드의 경우 랜딩 페이지에서 제공하는 사용자 경험도 고려됩니다. |
 | [!UICONTROL Custom Bid Level] | (디스플레이 네트워크만 대상으로 하는 Google 캠페인) <i>[!UICONTROL Ad Group]</i>, <i>[!UICONTROL Age]</i>, <i>[!UICONTROL Gender]</i>, <i>[!UICONTROL Interest and List]</i>, <i>[!UICONTROL Keyword]</i>, <i>[!UICONTROL Placement]</i>, <i>[!UICONTROL Vertical]</i>, <i>[!UICONTROL None]</i> 또는 <i>[!UICONTROL Unknown]</i>까지 입찰이 이루어지는 수준입니다. |
 | [!UICONTROL Description1] - [!UICONTROL Description4] | 광고 본문. 크리에이티브 유형마다 필수 및 선택적 설명 라인의 숫자가 다릅니다. [!DNL Microsoft Advertising]개의 반응형 광고 또는 멀티미디어 광고에서 [!UICONTROL Description3] 및 [!UICONTROL Description4] 열을 보려면 보고서 설정에 &quot;[!UICONTROL Descriptions]&quot; 열을 포함하십시오. |
 | [!UICONTROL Descriptions] | ([!DNL Microsoft Advertising] 반응형 및 멀티미디어 광고) 각 광고의 설명 행(&quot;[!UICONTROL Description1]&quot; ~ &quot;[!UICONTROL Description4]&quot;)에 대해 열을 추가합니다. 이 열을 포함할 때 다른 [!UICONTROL Description]개의 열은 포함할 필요가 없습니다. |

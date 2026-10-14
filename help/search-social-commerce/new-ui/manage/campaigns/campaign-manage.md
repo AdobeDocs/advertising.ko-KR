@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2401'
 ht-degree: 0%
 ---
 # 캠페인 관리
@@ -47,17 +47,19 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 
 * [캠페인 설정 편집](#campaign-edit)
 
-* [행 내에서 캠페인 상태 변경 또는 삭제](#campaign-status)
+* [행 내에서 캠페인 상태 변경](#campaign-status)
 
 * [포트폴리오에 캠페인을 할당하고 포트폴리오에서 캠페인을 제거합니다.](#campaign-portfolio)
-
-* [[!UICONTROL Campaigns] 보기에서 성능 그래프 보기](#campaign-performance-graph)
 
 * [캠페인에 입찰 제한 할당 및 캠페인에서 제한 할당 해제](#campaign-constraints)
 
 * [캠페인에 대상 제한 할당 및 캠페인에서 대상 제한 할당 해제](#campaign-target-constraints)
 
 * [캠페인에 레이블 분류를 할당하고 캠페인에서 레이블 분류를 제거합니다.](#campaign-classifications)
+
+* [[!UICONTROL Campaigns] 보기에서 성능 그래프 보기](#campaign-performance-graph)
+
+* [캠페인 예산 내역 보기](#campaign-budget-history)
 
 * [[!UICONTROL Campaigns] 보기에서 데이터 보기 보고서 관리](#campaign-reports)
 
@@ -377,6 +379,14 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 ### 표시되는 성능 그래프 숨기기
 
 * 데이터 테이블 위에서 ![차트](/help/search-social-commerce/assets/charts.png "차트")를 클릭합니다.
+
+## 캠페인 예산 내역 보기 {#campaign-budget-history}
+
+예산 내역은 변경 출처를 포함하여 캠페인 예산에 대한 각 변경 사항을 나열합니다.
+
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Campaigns]**&#x200B;을(를) 클릭합니다.
+
+1. 캠페인 이름 위에 커서를 놓고 **[!UICONTROL ...]>[!UICONTROL Budget Change History]**&#x200B;을(를) 클릭합니다.
 
 ## [!UICONTROL Campaigns] 보기에서 데이터 보기 보고서 관리 {#campaign-reports}
 

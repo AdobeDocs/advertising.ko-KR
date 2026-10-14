@@ -8,14 +8,14 @@ product_v2:
 feature_v2:
   - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
     internal-label: Search Alerts
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1070'
 ht-degree: 0%
 ---
 # (새 UI) 사용자 지정 경고 관리
 
-경고 템플릿을 만들어 포트폴리오, 캠페인 또는 광고 그룹이 지정된 기간 동안 성능 지표와 같은 특정 조건을 충족하는 시점을 식별한 다음 경고를 생성합니다. 경고는 단일 광고주에 대해 사용할 수 있습니다. 경고는 관련 기본 보기의 모든 열을 포함합니다. 예를 들어 캠페인 수준 경고에는 기본 [!UICONTROL Campaigns] 보기의 모든 열이 포함됩니다.
+경고 템플릿을 만들어 포트폴리오, 계정, 캠페인, 광고 그룹, 광고, 키워드 또는 제품 그룹이 지정된 기간 동안 성능 지표와 같은 특정 조건을 충족하는 시점을 식별한 다음 경고를 생성합니다. 경고는 단일 광고주에 대해 사용할 수 있습니다. 경고는 관련 기본 보기의 모든 열을 포함합니다. 예를 들어 캠페인 수준 경고에는 기본 [!UICONTROL Campaigns] 보기의 모든 열이 포함됩니다.
 
 [!UICONTROL Custom Alerts] 패널의 [!UICONTROL Alert Templates] 탭이나 페이지의 맨 위에서 경고 템플릿을 만들 수 있습니다.
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
    * 페이지의 오른쪽 상단에서 ![사용자 지정 경고](/help/search-social-commerce/assets/custom-alert.png "사용자 지정 경고") > **[!UICONTROL Create Custom Alert]**&#x200B;을(를) 클릭합니다.
 
-   페이지의 오른쪽 상단에서 ![사용자 지정 경고](/help/search-social-commerce/assets/custom-alert.png "사용자 지정 경고") > **[!UICONTROL View Custom Alerts]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Alert Templates] 탭이 열립니다. **[!UICONTROL Create Alert]**&#x200B;을(를) 클릭합니다.
+   * 페이지의 오른쪽 상단에서 ![사용자 지정 경고](/help/search-social-commerce/assets/custom-alert.png "사용자 지정 경고") > **[!UICONTROL View Custom Alerts]**&#x200B;을(를) 클릭합니다. 그러면 [!UICONTROL Alert Templates] 탭이 열립니다. **[!UICONTROL Create Alert]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Entity]**, **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** 및 **[!UICONTROL Scheduling and Delivery]** 탭에서 [경고 설정](#alert-template-settings)을(를) 지정하십시오.
 

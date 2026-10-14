@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '113'
 ht-degree: 0%
 ---
 # (새 UI) 목표 편집
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;을(를) 클릭합니다.
 
-1. 목표 옆에 있는 확인란을 선택합니다. 데이터 테이블 위의 도구 모음에서 ![편집](/help/search-social-commerce/assets/edit.png "편집") **[!UICONTROL Edit]**&#x200B;을 클릭합니다.
+1. 개체 이름 위에 커서를 놓고 **[!UICONTROL ...]>[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
 1. 목표 설정을 변경합니다.
 
@@ -51,4 +51,5 @@ ht-degree: 0%
 >* [목표 삭제](objective-delete.md)
 >* [목표에 가중치 권장 사항 적용](objective-apply-weight-recommendations.md)
 >* [목표 설정](objective-settings.md)
+>* [목표 구성 내보내기](objective-export.md)
 >* [목표에 대한 성능 데이터 다운로드](objective-download-performance-data.md)

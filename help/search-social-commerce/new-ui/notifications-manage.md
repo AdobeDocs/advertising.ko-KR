@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1724'
 ht-degree: 0%
 ---
 # (새 UI) 알림 관리
@@ -119,7 +119,6 @@ In Campaign Management:
   * **[!UICONTROL Accuracy]**: Notifications when a portfolio's model accuracy deviates [by how much?] from expectations.
 -->
 
-
 ## 사용 가능한 작업
 
 * [알림 보기](#notification-view)
@@ -136,7 +135,7 @@ In Campaign Management:
 
 ## 알림 보기 {#notification-view}
 
-계정 인증 오류, 트리거된 사용자 지정 경고 및 생성된 [!UICONTROL Advertising Insights]에 대한 [알림을 구독](#notification-edit)할 때 [!UICONTROL Notifications] 패널 또는 [!UICONTROL Notification Center]에서 알림을 볼 수 있습니다.
+계정 인증 오류, 트리거된 사용자 지정 경고 및 생성된 [!UICONTROL Advertising Insights]에 대해 [알림을 구독](#notification-edit)하면 [!UICONTROL Notifications] 패널 또는 [!UICONTROL Notification Center]에서 알림을 볼 수 있습니다.
 
 ### [!UICONTROL Notifications] 패널 내에서 알림 보기
 
@@ -218,7 +217,11 @@ In Campaign Management:
 
 1. [알림 패널 또는 알림 센터를 엽니다](#notification-view).
 
-1. 경고 이름 위에 커서를 놓고 ![읽음 또는 읽지 않음으로 표시](/help/search-social-commerce/assets/notifications-read-unread.png "읽음 또는 읽지 않음으로 표시")를 클릭합니다.
+1. 다음 중 하나를 수행합니다.
+
+   * 단일 알림의 경우 경고 이름 위에 커서를 놓고 ![읽음 또는 읽지 않음으로 표시](/help/search-social-commerce/assets/notifications-read-unread.png "읽음 또는 읽지 않음으로 표시")를 클릭합니다.
+
+   * 모든 알림을 읽은 상태로 표시하려면 **[!UICONTROL Mark all as read]**&#x200B;을(를) 클릭합니다.
 
 ## 알림 삭제 {#notification-delete}
 

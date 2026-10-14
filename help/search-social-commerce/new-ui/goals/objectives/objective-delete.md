@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '99'
 ht-degree: 0%
 ---
 # (새 UI) 목표 삭제
@@ -34,7 +34,11 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;을(를) 클릭합니다.
 
-1. 목표 옆에 있는 확인란을 선택합니다. 데이터 테이블 위의 도구 모음에서 ![삭제](/help/search-social-commerce/assets/delete-new.png "삭제") **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
+1. 다음 중 하나를 수행합니다.
+
+   * 단일 목표의 경우 목표 이름 위에 커서를 놓고 **[!UICONTROL ...]>[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
+
+   * 하나 이상의 목표에 대해 삭제할 각 목표 옆에 있는 체크박스를 선택합니다. 일괄 작업 도구 모음에서 ![삭제](/help/search-social-commerce/assets/delete-new.png "삭제") **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
 1. 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
@@ -45,3 +49,4 @@ ht-degree: 0%
 >* [목표 편집](objective-edit.md)
 >* [목표에 가중치 권장 사항 적용](objective-apply-weight-recommendations.md)
 >* [목표 설정](objective-settings.md)
+>* [목표 구성 내보내기](objective-export.md)
