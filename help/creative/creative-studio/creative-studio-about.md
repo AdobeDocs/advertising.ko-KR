@@ -73,4 +73,4 @@ ht-degree: 0%
 >* [Creative Studio에서 템플릿 관리](creative-studio-manage-templates.md)
 >* [Creative Studio에서 자산 관리](creative-studio-manage-assets.md)
 >* [Advertising Creative에서 브랜드 프로필 관리](/help/creative/brands/brand-manage.md)
->* [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)의 [C2PA 메타데이터
+>* [!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-content-credentials.md)의 C2PA 메타데이터
