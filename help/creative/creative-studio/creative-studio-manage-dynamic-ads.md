@@ -3,20 +3,19 @@ title: Creative Studio에서 동적 크리에이티브 관리
 description: Adobe Advertising Creative Studio에서 카탈로그 기반의 동적 크리에이티브를 작성, 편집, 복제 및 삭제하는 방법에 대해 알아봅니다.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: '1042'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Creative Studio]에서 동적 크리에이티브 관리
-
-*Beta 기능*
 
 [!UICONTROL Creative Studio]의 **[!UICONTROL Creatives]** 탭에는 라이브러리별로 동적 크리에이티브가 나열됩니다. 여기에서 새 카탈로그 기반의 동적 크리에이티브를 구축하고, 기존 크리에이티브의 세부 정보 및 속성 매핑을 편집하고, 변경 로그를 보고, 중복된 크리에이티브를 확인하고, 크리에이티브를 삭제할 수 있습니다.
 
@@ -96,26 +95,26 @@ ht-degree: 0%
 
       * 광고 조합을 편집하려면:
 
-         1. 카탈로그 행 위에 커서를 놓고 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+        1. 카탈로그 행 위에 커서를 놓고 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-         1. **[!UICONTROL Edit Row]** 대화 상자에서 필드 값을 업데이트합니다.
+        1. **[!UICONTROL Edit Row]** 대화 상자에서 필드 값을 업데이트합니다.
 
-         1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+        1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
         캔버스가 새로 고침되어 업데이트된 값이 반영됩니다.
 
       * 카탈로그 조합을 분석하고 필터링하려면 **[!UICONTROL AI Assistant]** 채팅 패널을 사용하십시오. **[!UICONTROL Ask anything]** 필드에 요청을 입력하거나 제안 프롬프트 중 하나를 클릭하십시오.
 
-         * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
-         * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
-         * **[!UICONTROL Show me all ads for millennial women in urban markets]**
+        * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+        * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
+        * **[!UICONTROL Show me all ads for millennial women in urban markets]**
 
         AI 에이전트는 다음과 같은 작업을 수행할 수 있습니다.
 
-         * 캔버스를 필터링하여 특정 대상 세그먼트, 지역, 언어, 범주 또는 기타 카탈로그 필드와 일치하는 광고를 표시할 수 있습니다.
-         * 문자 제한 오버런, 컨텐츠 오버플로 또는 도련, 이미지 링크가 끊겼거나 표시 면책조항 가시성과 같은 품질 문제가 있는지 확인합니다.
-         * A/B 테스트 분석을 위한 광고 조합을 비교합니다.
-         * 광고를 그룹으로 구성하여 나란히 검토합니다.
+        * 캔버스를 필터링하여 특정 대상 세그먼트, 지역, 언어, 범주 또는 기타 카탈로그 필드와 일치하는 광고를 표시할 수 있습니다.
+        * 문자 제한 오버런, 컨텐츠 오버플로 또는 도련, 이미지 링크가 끊겼거나 표시 면책조항 가시성과 같은 품질 문제가 있는지 확인합니다.
+        * A/B 테스트 분석을 위한 광고 조합을 비교합니다.
+        * 광고를 그룹으로 구성하여 나란히 검토합니다.
 
         AI 에이전트가 카탈로그 소스 콘텐츠를 수정할 수 없습니다. 광고 콘텐츠를 변경하려면 소스 카탈로그를 업데이트하십시오.
 
@@ -139,8 +138,8 @@ ht-degree: 0%
    * **[!UICONTROL Dynamic creative name]:** 크리에이티브의 표시 이름입니다.
    * **[!UICONTROL Number of cards]:** 각 광고 조합에 포함된 카탈로그 오퍼 수입니다(1-50).
    * (선택 사항) **[!UICONTROL Catalogs]**&#x200B;에서 카탈로그 선택을 업데이트합니다.
-      * **[!UICONTROL Catalog template]**&#x200B;을(를) 사용하여 사용 가능한 카탈로그를 필터링하십시오. 필요한 경우 템플릿 파일을 다운로드하려면 **[!UICONTROL Download feed template]**&#x200B;을(를) 클릭합니다.
-      * 목록에서 카탈로그를 검색 및 선택하거나 업로드 영역으로 드래그하거나 **[!UICONTROL Browse Files]**&#x200B;을(를) 클릭하여 새 카탈로그 파일을 업로드하십시오(지원되는 형식: JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4; 최대 25MB; 한 번에 한 파일). 업로드된 카탈로그의 칩 목록에 **(업로드됨)** 레이블이 지정되었습니다.
+     * **[!UICONTROL Catalog template]**&#x200B;을(를) 사용하여 사용 가능한 카탈로그를 필터링하십시오. 필요한 경우 템플릿 파일을 다운로드하려면 **[!UICONTROL Download feed template]**&#x200B;을(를) 클릭합니다.
+     * 목록에서 카탈로그를 검색 및 선택하거나 업로드 영역으로 드래그하거나 **[!UICONTROL Browse Files]**&#x200B;을(를) 클릭하여 새 카탈로그 파일을 업로드하십시오(지원되는 형식: JPG, PNG, JPEG, XLS, XLSX, CSV, TSV, ZIP, MP4; 최대 25MB; 한 번에 한 파일). 업로드된 카탈로그의 칩 목록에 **(업로드됨)** 레이블이 지정되었습니다.
 
      모든 카탈로그는 동일한 카탈로그 템플릿 제품군에 속해야 합니다.
 

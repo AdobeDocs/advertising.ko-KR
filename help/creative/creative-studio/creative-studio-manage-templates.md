@@ -3,20 +3,19 @@ title: Creative Studio에서 광고 템플릿 관리
 description: Adobe Advertising Creative의 Creative Studio 템플릿 탭에서 광고 템플릿을 만들고, 가져오고, 구성하고, 관리하는 방법을 알아봅니다.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 2512
+source-wordcount: '2510'
 ht-degree: 2%
-
 ---
-
 # [!UICONTROL Creative Studio]에서 광고 템플릿 관리
-
-*Beta 기능*
 
 광고 생성 세션에서 사용할 디스플레이 및 비디오 광고 템플릿을 만들고 가져오고 관리합니다.
 
@@ -40,9 +39,9 @@ Probably not necessary:
 
 생성:
 
-* [HTML5 광고 템플릿 가져오기](#templates-import)
-
 * [광고 템플릿 수동으로 만들기](#template-create)
+
+* [HTML5 광고 템플릿 가져오기](#templates-import)
 
 기존 템플릿에 대한 작업:
 
@@ -97,6 +96,34 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 -->
 
+## 광고 템플릿 수동으로 만들기 {#template-create}
+
+템플릿 편집기를 사용하여 빈 디스플레이 또는 비디오 템플릿을 만듭니다.
+
+1. 주 메뉴에서 **[!UICONTROL Creative Studio].**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Templates]** 탭을 클릭합니다.
+
+1. **[!UICONTROL Create New Ad Template]** 상자에서 **[!UICONTROL Create]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Display Ad Template]** 또는 **[!UICONTROL Video Ad Template]**&#x200B;을(를) 선택합니다.
+
+1. (광고 표시) 광고 템플릿 크기를 선택한 다음 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
+
+1. 템플릿 편집기의 [컨트롤을 사용하여 템플릿 설정을 구성합니다](#template-controls).
+
+1. (선택 사항) 정의된 대로 템플릿 복사본을 다운로드하려면 **[!UICONTROL ...]** > **[!UICONTROL Download]**&#x200B;을(를) 클릭합니다.
+
+   브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+
+1. 템플릿을 저장합니다.
+
+   1. 다음 중 하나를 수행합니다.
+
+      * **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+      * 템플릿을 초안으로 저장하려면 **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**&#x200B;을(를) 클릭합니다.
+
+   1. **[!UICONTROL Template name]**&#x200B;을(를) 입력하고 **[!UICONTROL Advertiser]**&#x200B;을(를) 선택한 다음 선택적으로 기존 태그를 선택하거나 템플릿에 새 태그를 추가한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
 ## HTML5 광고 템플릿 가져오기 {#templates-import}
 
 ZIP 파일로 패키지된 사전 빌드된 HTML5 템플릿을 하나 이상 업로드합니다. 템플릿은 가져올 때 유효성이 검사됩니다. HTML이 200,000자를 초과하거나, CSS가 60,000자를 초과하거나, 템플릿에 5,000개 이상의 DOM 요소가 있거나, 템플릿에 지원되지 않는 스크립트 태그가 포함된 경우 가져오기가 실패합니다.
@@ -128,34 +155,6 @@ ZIP 파일로 패키지된 사전 빌드된 HTML5 템플릿을 하나 이상 업
 >[!NOTE]
 >
 >가져오기에 실패한 경우 템플릿을 단순화하거나 Adobe 계정 팀에 문의하십시오.
-
-## 광고 템플릿 수동으로 만들기 {#template-create}
-
-템플릿 편집기를 사용하여 빈 디스플레이 또는 비디오 템플릿을 만듭니다.
-
-1. 주 메뉴에서 **[!UICONTROL Creative Studio].**&#x200B;을(를) 클릭합니다.
-
-1. **[!UICONTROL Templates]** 탭을 클릭합니다.
-
-1. **[!UICONTROL Create New Ad Template]** 상자에서 **[!UICONTROL Create]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Display Ad Template]** 또는 **[!UICONTROL Video Ad Template]**&#x200B;을(를) 선택합니다.
-
-1. (광고 표시) 광고 템플릿 크기를 선택한 다음 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
-
-1. 템플릿 편집기의 [컨트롤을 사용하여 템플릿 설정을 구성합니다](#template-controls).
-
-1. (선택 사항) 정의된 대로 템플릿 복사본을 다운로드하려면 **[!UICONTROL ...]** > **[!UICONTROL Download]**&#x200B;을(를) 클릭합니다.
-
-   브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
-
-1. 템플릿을 저장합니다.
-
-   1. 다음 중 하나를 수행합니다.
-
-      * **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-
-      * 템플릿을 초안으로 저장하려면 **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**&#x200B;을(를) 클릭합니다.
-
-   1. **[!UICONTROL Template name]**&#x200B;을(를) 입력하고 **[!UICONTROL Advertiser]**&#x200B;을(를) 선택한 다음 선택적으로 기존 태그를 선택하거나 템플릿에 새 태그를 추가한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 광고 템플릿 편집 {#template-edit}
 
