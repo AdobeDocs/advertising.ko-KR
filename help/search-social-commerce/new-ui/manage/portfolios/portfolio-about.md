@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '826'
 ht-degree: 0%
 ---
 # (새 UI) 포트폴리오 정보
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 데이터 테이블 위에서, 지정된 날짜 범위에 대한 보기의 모든 포트폴리오에 대해 총 3개의 지표가 있는 성능 그래프를 열 수 있습니다. 포트폴리오 성과 및 정확도를 비롯한 포트폴리오 세부 정보는 물론 포트폴리오의 각 캠페인, 광고 그룹 및 키워드에 대한 성과 데이터를 열 수 있습니다.
 
-포트폴리오 행 내에서 직접 포트폴리오 상태를 포함한 일부 설정을 편집할 수 있습니다.
+포트폴리오 행 내에서 직접 포트폴리오 상태를 포함한 일부 설정을 편집할 수 있습니다. 포트폴리오 또는 연결된 캠페인과 하위 캠페인 엔터티가 지출에 영향을 주는 제한(네트워크, 캠페인 예산, 대상, CPC 제한 또는 입찰 단위 제한 포함)으로 구성된 경우 [!UICONTROL Constraints] 열의 [!UICONTROL Yes]을(를) 클릭하여 제한 수준 및 유형을 포함한 모든 제한 목록을 확인합니다.
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
 
 ### 사용 가능한 작업

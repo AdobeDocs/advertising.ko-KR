@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2407'
 ht-degree: 2%
 ---
 # Advertising Search, Social 및 Commerce 안내서 {#search-social-commerce}
@@ -235,6 +235,7 @@ ht-degree: 2%
       + [목표 편집](/help/search-social-commerce/new-ui/goals/objectives/objective-edit.md)
       + [목표 삭제](/help/search-social-commerce/new-ui/goals/objectives/objective-delete.md)
       + [목표에 가중치 권장 사항 적용](/help/search-social-commerce/new-ui/goals/objectives/objective-apply-weight-recommendations.md)
+      + [목표 구성 내보내기](/help/search-social-commerce/new-ui/goals/objectives/objective-export.md)
       + [목표에 대한 성능 지표 다운로드](/help/search-social-commerce/new-ui/goals/objectives/objective-download-performance-data.md)
       + [목표 설정](/help/search-social-commerce/new-ui/goals/objectives/objective-settings.md)
       + [광고 네트워크에 목표 업로드 활성화](/help/search-social-commerce/new-ui/goals/objectives/objective-upload-to-networks.md)

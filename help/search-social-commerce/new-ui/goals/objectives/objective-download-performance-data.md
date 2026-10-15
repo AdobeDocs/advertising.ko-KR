@@ -12,9 +12,9 @@ feature_v2:
     internal-label: Search Optimization
   - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
     internal-label: Search Portfolios
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '272'
 ht-degree: 0%
 ---
 # (새 UI) 목표를 위한 성능 데이터 다운로드
@@ -70,3 +70,4 @@ ht-degree: 0%
 >* [목표 정보](objective-about.md)
 >* [목표 만들기](objective-create.md)
 >* [목표 삭제](objective-delete.md)
+>* [목표 구성 내보내기](objective-export.md)

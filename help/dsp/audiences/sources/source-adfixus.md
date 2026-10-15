@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 [!DNL AdFixus] 세그먼트를 DSP으로 가져오면 [!DNL AdFixus] ID와 [!DNL AdFixus]의 특정 자사 세그먼트에 배치를 타깃팅할 수 있습니다. 재사용 가능한 대상에 [!DNL AdFixus] 세그먼트를 추가할 수도 있습니다. 세그먼트에 대한 세부 정보에는 적용 가능한 [!DNL AdFixus] ID의 개수가 포함됩니다.
 
-사용자 지정 보고서에서 [!DNL AdFixus] ID를 가진 사용자의 노출, 클릭, 빈도 및 기타 지표를 볼 수 있습니다. [!DNL Analytics for Advertising]을(를) 사용하는 광고주는 Adobe Analytics의 [!DNL AdFixus] ID에 대한 뷰스루 데이터와 DSP 내의 Adobe Analytics의 데이터를 볼 수도 있습니다.
+사용자 지정 보고서에서 [!DNL AdFixus] ID를 가진 사용자의 노출, 클릭, 빈도 및 기타 지표를 볼 수 있습니다. [!DNL Analytics for Advertising]을(를) 사용하는 광고주는 Adobe Analytics의 [!DNL AdFixus] ID에 대한 뷰스루 데이터와 DSP 내의 Adobe Analytics의 데이터도 볼 수 있습니다.
 
 1. [!DNL AdFixus]을(를) 사용하여 조직의 자사 데이터를 [!DNL AdFixus] ID를 가진 세그먼트로 변환합니다.
 

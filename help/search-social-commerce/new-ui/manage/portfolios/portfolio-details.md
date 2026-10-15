@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '1080'
 ht-degree: 0%
 ---
 # (새 UI) 포트폴리오 성능 세부 정보 보기
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 * 모델이 예측에서 얼마나 이탈했는지 보여 주는 활성 포트폴리오의 모델 정확도 데이터입니다. 이 보고서는 전반적인 일일 또는 순환 7일 비용 정확도, 클릭 정확도 및 목표 값 정확도를 보여줍니다.
 
-  클릭 날짜(기본값) 또는 트랜잭션 날짜별로 데이터를 볼 수 있습니다.   데이터를 추세 차트(기본값) 또는 표로 볼 수도 있습니다.
+  클릭 날짜(기본값) 또는 트랜잭션 날짜별로 데이터를 볼 수 있습니다. 데이터를 추세 차트(기본값) 또는 표로 볼 수도 있습니다.
 
 * 타겟 지출과 활성 포트폴리오의 실제 지출. 포트폴리오에 대한 총 캠페인 예산을 선택적으로 포함할 수도 있습니다.
 
@@ -48,11 +48,23 @@ ht-degree: 0%
 
   선택적으로 포트폴리오 설정을 열어 편집할 수 있습니다.
 
+* 포트폴리오의 캠페인, 광고 그룹 및 키워드 목록입니다. 개별 키워드의 경우 예측, 내역 정보 및 계층 정보를 포함한 입찰 단위 세부 정보를 볼 수 있습니다.
+
+  [!UICONTROL Bid Unit Details] 보기에는 선택한 입찰 단위에 대한 다음 예측, 내역 정보 및 계층 정보가 포함됩니다.
+
+  * [!UICONTROL Forecast] 탭: 현재 예상되는 클릭 수, 비용, 클릭당 비용, 위치 및 다른 입찰 가격에서 입찰 단위에 대한 매출입니다. 모든 장치 및 각 장치 유형([!UICONTROL Mobile], [!UICONTROL Computer] 및 [!UICONTROL Tablet])에 대한 데이터가 표시됩니다.<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
+
+    **참고:** 장치 유형에 대한 예측 데이터를 사용할 수 없습니다. 장치 특정 데이터를 사용할 수 없으면 해당 장치 유형에 대한 모델을 작성하고 조정을 설정할 수 없습니다. **참고:** 특정 날짜 범위 동안 클릭을 받은 포트폴리오 내의 각 입찰 단위에 대한 비용 정확도 또는 수익 정확도를 보려면 포트폴리오의 비용 정확도 세부 정보 또는 수익 정확도 세부 정보 보기를 각각 참조하십시오.
+
+  * [!UICONTROL History] 탭: 각 입찰에 대한 날짜 및 시간, 노출수, 클릭수, 총 비용, 평균 CPC, 평균 위치 및 클릭 날짜로 표시되는 가중 매출과 같은 데이터를 포함하여 지난 36일 동안의 모든 입찰입니다. 모든 장치 및 각 장치 유형(모바일, 컴퓨터 및 태블릿)에 대한 데이터가 표시됩니다.<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
+
+  * [!UICONTROL Detail] 탭: 일치 유형(해당되는 경우)과 입찰 단위가 속한 상위 광고 그룹, 캠페인, 광고 네트워크 계정 및 포트폴리오입니다.
+
 ## 포트폴리오에 대한 성과 세부 정보 열기
 
 1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;을(를) 클릭합니다.
 
-1. 포트폴리오 이름을 클릭합니다.
+1. 포트폴리오 이름 위에 커서를 놓고 (/help/search-social-commerce/assets/portfolio-overview.png &quot;Portfolio 개요)을(를) 클릭합니다.
 
 1. (선택 사항) **[!UICONTROL Data Aggregation]** 메뉴에서 각 행에 포함된 데이터의 시간 단위를 변경합니다. *[!UICONTROL Daily],* *[!UICONTROL Weekly],* 또는 *[!UICONTROL Monthly].*
 
@@ -114,13 +126,17 @@ ht-degree: 0%
 
 * 포트폴리오 내의 캠페인에 있는 모든 광고 그룹을 보려면 **[!UICONTROL Campaigns]** 탭을 클릭한 다음 캠페인 이름을 클릭합니다.
 
-## 포트폴리오의 키워드 나열
+## 포트폴리오의 키워드에 대한 세부 사항 나열 및 보기
 
-각 키워드에 대한 세부 사항에는 입찰 단위 ID, 일치 유형, 실제 및 예상 비용, 클릭 수 및 목표 값, 비용, 클릭 수 및 목표 값 차이 등이 포함됩니다.
+각 키워드에 대한 세부 사항에는 입찰 단위 ID, 일치 유형, 실제 및 예상 비용, 클릭 수 및 목표 값, 비용, 클릭 수 및 목표 값 차이 등이 포함됩니다. 개별 키워드에 대한 입찰 단위 세부 정보를 볼 수 있습니다.
 
-* 포트폴리오의 모든 키워드를 보려면 **[!UICONTROL Keywords]** 탭을 클릭하십시오.
+1. 키워드를 나열합니다.
 
-* 포트폴리오 내의 광고 그룹에 있는 모든 키워드를 보려면 **[!UICONTROL Ad Groups]** 탭을 클릭한 다음 광고 그룹 이름을 클릭합니다.
+   * 포트폴리오의 모든 키워드를 보려면 **[!UICONTROL Keywords]** 탭을 클릭하십시오.
+
+   * 포트폴리오 내의 광고 그룹에 있는 모든 키워드를 보려면 **[!UICONTROL Ad Groups]** 탭을 클릭한 다음 광고 그룹 이름을 클릭합니다.
+
+1. (선택 사항) 특정 입찰 단위에 대한 세부 정보를 보려면 **[!UICONTROL Bid Unit ID]** 열의 값을 클릭합니다. 자세한 내용을 보려면 [!UICONTROL Bid Unit Details]에서 아무 탭이나 클릭하십시오.
 
 ## 포트폴리오 설정 보기 및 편집
 

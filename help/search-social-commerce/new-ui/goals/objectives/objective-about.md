@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 # (새 UI) 목표 정보
@@ -82,7 +82,21 @@ ht-degree: 0%
 
 ## 광고 네트워크에 목표를 업로드하는 옵션
 
-필요에 따라 [계정 포트폴리오의 목표를  [!DNL Google Ads] 및/또는 [!DNL Microsoft Advertising] 전환으로](/help/search-social-commerce/tools/objective-upload-to-networks.md)업로드하여 캠페인 또는 광고 그룹 수준 최적화에 사용할 수 있습니다. 이 옵션을 활성화하면 검색, 소셜 및 Commerce이 EF ID(클릭 ID) 수준의 가중 수익 데이터를 매일 광고 네트워크에 전달합니다. 광고 네트워크 추적 지표를 생략합니다.
+필요에 따라 [계정 포트폴리오의 목표를  [!DNL Google Ads] 및/또는 [!DNL Microsoft Advertising] 전환으로](objective-upload-to-networks.md)업로드하여 캠페인 또는 광고 그룹 수준 최적화에 사용할 수 있습니다. 이 옵션을 활성화하면 검색, 소셜 및 Commerce이 EF ID(클릭 ID) 수준의 가중 수익 데이터를 매일 광고 네트워크에 전달합니다. 광고 네트워크 추적 지표를 생략합니다.
+
+## 사용 가능한 작업
+
+* [목표 만들기](objective-create.md)
+
+* [목표 편집](objective-edit.md)
+
+* [목표에 가중치 권장 사항 적용](objective-apply-weight-recommendations.md)
+
+* [&#x200B; [!DNL Microsoft Excel] 워크시트로 목표 구성 내보내기](objective-export.md)
+
+* [목표에 대한 성능 데이터 다운로드](objective-download-performance-data.md)
+
+* [목표 삭제](objective-delete.md)
 
 >[!MORELIKETHIS]
 >
@@ -91,4 +105,5 @@ ht-degree: 0%
 >* [목표 삭제](objective-delete.md)
 >* [목표에 가중치 권장 사항 적용](objective-apply-weight-recommendations.md)
 >* [목표 설정](objective-settings.md)
+>* [목표 구성 내보내기](objective-export.md)
 >* [목표에 대한 성능 데이터 다운로드](objective-download-performance-data.md)

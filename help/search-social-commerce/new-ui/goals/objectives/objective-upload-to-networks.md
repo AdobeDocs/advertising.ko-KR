@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Objectives
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '717'
 ht-degree: 0%
 ---
 # (새 UI) 광고 네트워크에 목표 업로드를 활성화합니다
@@ -42,7 +42,7 @@ Search, Social 및 Commerce에서 광고주 계정의 포트폴리오의 목표�
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]** > **[!UICONTROL Objectives]**&#x200B;을(를) 클릭합니다.
 
-1. 도구 모음에서 **[!UICONTROL Upload Objective]**&#x200B;을(를) 클릭합니다.
+1. 도구 모음에서 **[!UICONTROL Objective Upload]**&#x200B;을(를) 클릭합니다.
 
 1. [!UICONTROL Objective Upload Setup] 대화 상자에서 **[!UICONTROL Enable Objective Upload]** 전환을 **[!UICONTROL On]**(으)로 설정합니다.
 
@@ -94,6 +94,7 @@ GGL_Lead는 [!DNL Google Ads] 추적 지표이므로 계산/업로드에 포함�
 >[!MORELIKETHIS]
 >
 >* [목표 정보](objective-about.md)
+>* [목표 구성 내보내기](objective-export.md)
 >* [광고주의 전환 지표 관리](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
 >* [관리자 계정의 자격 증명 관리 [!DNL Google Ads] 관리자 계정 관리](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 

@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '410'
 ht-degree: 0%
 ---
 # (새 UI) 포트폴리오의 상태 변경
@@ -26,7 +26,11 @@ ht-degree: 0%
 
 포트폴리오 상태에 대한 모든 변경 사항은 포트폴리오의 변경 내역에 기록됩니다.
 
-## 포트폴리오 최적화, 활성화 또는 비활성화
+>[!NOTE]
+>
+>[포트폴리오 일괄 시트](portfolio-bulksheets.md)를 사용하여 여러 포트폴리오의 상태를 변경할 수 있습니다.
+
+## [!UICONTROL Portfolios] 보기에서 포트폴리오 최적화, 활성화 또는 비활성화
 
 1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;을(를) 클릭합니다.
 
@@ -49,7 +53,7 @@ ht-degree: 0%
      >* 검색, 소셜 및 Commerce이 포트폴리오 최적화를 시작하면 향후 모든 캠페인 예산과 (해당하는 경우) 입찰 변경 (해당하는 경우)을 관리할 수 있습니다. Search, Social 및 Commerce은 광고 네트워크 내에서 수행한 모든 변경 사항을 덮어씁니다.
      >* 캠페인 일괄 시트를 만들고 게시하여 포트폴리오의 최적화된 CPC 캠페인에 대한 수동 입찰을 일시적으로 설정할 수 있습니다. 게시된 데이터로 인한 모든 입찰 변경 사항은 하루 동안 적용할 수 있습니다. 이후 검색, 소셜 및 Commerce은 자체 최적화 전략에 따라 입찰 설정을 재개합니다.
 
-## 비활성 포트폴리오 삭제
+## [!UICONTROL Portfolios] 보기에서 비활성 포트폴리오 삭제
 
 비활성 포트폴리오만 삭제할 수 있습니다. 포트폴리오가 최적화 또는 활성인 경우 삭제하기 전에 먼저 상태를 비활성으로 변경해야 합니다.
 
