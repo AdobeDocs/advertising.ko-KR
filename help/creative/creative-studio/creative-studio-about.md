@@ -3,20 +3,19 @@ title: Advertising Creative의 Creative Studio 정보
 description: Creative Studio를 사용하여 Adobe Advertising Creative에서 AI 지원 광고 콘텐츠를 작성하는 방법에 대해 알아봅니다.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 814
+source-wordcount: '812'
 ht-degree: 0%
-
 ---
-
 # [!DNL Advertising Creative]의 [!UICONTROL Creative Studio] 정보
-
-*Beta 기능*
 
 [!UICONTROL Creative Studio]은(는) 하나의 세션에서 여러 형식의 디스플레이 광고를 빌드, 크기 조정 및 구체화할 수 있는 AI 지원 환경입니다. 자연어 채팅 인터페이스를 통해 AI와 상호 작용하여 광고 콘텐츠를 생성하고 수정할 수 있으므로 콘텐츠 필드에 수동 디자인 작업이 필요하지 않습니다.
 

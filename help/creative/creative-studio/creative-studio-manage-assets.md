@@ -3,20 +3,19 @@ title: Creative Studio에서 에셋 관리
 description: Adobe Advertising Creative의 Creative Studio Assets 탭에서 에셋을 업로드, 검색 및 관리하는 방법을 알아봅니다.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: '294'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Creative Studio]에서 자산 관리
-
-*Beta 기능*
 
 광고 템플릿에서 참조할 이미지, 비디오, 오디오 및 글꼴 자산을 업로드하고 광고 생성 세션 중에 AI 에이전트 채팅 메시지에 첨부합니다.
 
