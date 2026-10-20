@@ -49,7 +49,7 @@ Adobe Advertising은 서비스 제공업체로서, 개인 정보에 액세스하
 
 Advertising DSP이 개인 정보 판매를 거부하는 소비자 권한을 지원하는 방법에 대한 자세한 내용은 [캘리포니아 소비자 개인정보 보호법: 소비자 판매 거부 지원에 대한 Adobe Advertising 지원](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)을 참조하십시오.
 
-CCPA를 위한 Adobe 개인 정보 서비스에 대한 자세한 내용은 [Adobe 개인 정보 보호 센터](https://www.adobe.com/privacy/ccpa.html)를 참조하세요.
+CCPA를 위한 Adobe 개인 정보 서비스에 대한 자세한 내용은 [Adobe 개인 정보 보호 센터](https://www.adobe.com/kr/privacy/ccpa.html)를 참조하세요.
 
 ## Adobe Advertising에 대해 지원되는 데이터 요청 유형
 
@@ -75,7 +75,7 @@ Adobe Advertising에서 소비자 개인 정보에 액세스하고 삭제를 요
 
    >[!NOTE]
    >
-   >개인 데이터 삭제는 옵트아웃과 다르며, 이렇게 하면 대상 세그먼트가 있는 최종 사용자의 타겟팅이 중지됩니다. 그러나 소비자가 [!DNL Creative], [!DNL DSP] 또는 [!DNL DCO]에서 개인 데이터를 삭제하도록 요청하면 라이브러리가 Adobe Advertising에 세그먼트 타깃팅에서 고객을 옵트아웃하도록 요청하기도 합니다. [!DNL Search, Social, & Commerce]을(를) 사용하는 광고주의 경우 대상 세그먼트 타깃팅을 옵트아웃하는 방법을 설명하는 [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse) 링크를 고객에게 제공하는 것이 좋습니다.
+   >개인 데이터 삭제는 옵트아웃과 다르며, 이렇게 하면 대상 세그먼트가 있는 최종 사용자의 타겟팅이 중지됩니다. 그러나 소비자가 [!DNL Creative], [!DNL DSP] 또는 [!DNL DCO]에서 개인 데이터를 삭제하도록 요청하면 라이브러리가 Adobe Advertising에 세그먼트 타깃팅에서 고객을 옵트아웃하도록 요청하기도 합니다. [!DNL Search, Social, & Commerce]을(를) 사용하는 광고주의 경우 대상 세그먼트 타깃팅을 옵트아웃하는 방법을 설명하는 [https://www.adobe.com/kr/privacy/opt-out.html#customeruse](https://www.adobe.com/kr/privacy/opt-out.html#customeruse) 링크를 고객에게 제공하는 것이 좋습니다.
 
 1. CX Enterprise 조직 ID를 식별하고 Adobe Advertising 계정에 연결되어 있는지 확인합니다.
 

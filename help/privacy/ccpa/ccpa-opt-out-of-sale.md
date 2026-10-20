@@ -49,7 +49,7 @@ Adobe Advertising은 서비스 제공업체로서, 개인 정보에 액세스하
 
 [!DNL Advertising Search, Social, & Commerce]; Advertising Creative 및 [!DNL Advertising DCO]이(가) 소비자의 개인 정보 액세스 및 삭제 권한을 지원하는 방법에 대한 자세한 내용은 캘리포니아 소비자 개인정보 보호법: 소비자 데이터 액세스 및 삭제 지원에 대한 [Adobe Advertising 지원](/help/privacy/ccpa/ccpa-access-delete.md)을 참조하십시오.
 
-CCPA를 위한 Adobe 개인 정보 서비스에 대한 자세한 내용은 [Adobe 개인 정보 보호 센터](https://www.adobe.com/privacy/ccpa.html)를 참조하세요.
+CCPA를 위한 Adobe 개인 정보 서비스에 대한 자세한 내용은 [Adobe 개인 정보 보호 센터](https://www.adobe.com/kr/privacy/ccpa.html)를 참조하세요.
 
 ## Adobe Advertising에 소비자 판매 중지 요청 전달
 

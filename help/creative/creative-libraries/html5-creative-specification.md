@@ -235,7 +235,7 @@ Advertising DSP에서 사용할 수 있는 대부분의 디스플레이 교환�
 "name": "Adobe Creative",
 "description": "Creative",
 "picture_url": "http://wwwimages.adobe.com/content/dam/acom/en/products/creativecloud/max2016/images/cc-overview-assets-720x472.png",
-"product_url": "http://www.adobe.com/creativecloud.html?promoid=ZP46FD38&mv=other"
+"product_url": "http://www.adobe.com/kr/creativecloud.html?promoid=ZP46FD38&mv=other"
 }
 ```
 
@@ -248,14 +248,14 @@ Advertising DSP에서 사용할 수 있는 대부분의 디스플레이 교환�
 "name": "Adobe Creative",
 "description": "Creative",
 "picture_url": "http://wwwimages.adobe.com/content/dam/acom/en/products/creativecloud/max2016/images/cc-overview-assets-720x472.png",
-"product_url": "http://www.adobe.com/creativecloud.html?promoid=ZP46FD38&mv=other"
+"product_url": "http://www.adobe.com/kr/creativecloud.html?promoid=ZP46FD38&mv=other"
 },
 
 {
 "name": "Adobe Creative",
 "description": "Creative",
 "picture_url": "http://wwwimages.adobe.com/content/dam/acom/en/products/creativecloud/max2016/images/cc-overview-mobile-720x520.png",
-"product_url": "http://adobe.com/"
+"product_url": "http://adobe.com/kr/"
 }
 
 ]
