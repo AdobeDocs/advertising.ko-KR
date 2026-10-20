@@ -45,7 +45,7 @@ Adobe CX Enterprise은 고객을 대신하여 수신하여 저장하는 모든 �
 
 이 문서에서는 [!DNL Advertising Search, Social, & Commerce], Advertising Creative, Advertising DSP(Demand Side Platform) 및 [!DNL Advertising DCO]이(가) Adobe Experience Platform Privacy Service API 및 Privacy Service UI를 사용하여 데이터 주체의 GDPR 데이터 액세스 및 삭제 권한을 지원하는 방법에 대해 설명합니다.
 
-GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스](https://www.adobe.com/privacy/general-data-protection-regulation.html)를 참조하십시오.
+GDPR의 비즈니스 의미에 대한 자세한 내용은 [GDPR 및 비즈니스](https://www.adobe.com/kr/privacy/general-data-protection-regulation.html)를 참조하십시오.
 
 ## Adobe Advertising에 대해 지원되는 데이터 요청 유형
 
@@ -71,7 +71,7 @@ Adobe Advertising에 대한 데이터에 액세스하고 삭제를 요청하려�
 
    >[!NOTE]
    >
-   >개인 데이터 삭제는 대상 세그먼트가 있는 최종 사용자의 타깃팅을 중지하는 옵트아웃과 다릅니다. 그러나 데이터 주체가 [!DNL Creative], [!DNL DSP] 또는 [!DNL DCO]에서 개인 데이터를 삭제하도록 요청하면 라이브러리는 Adobe Advertising에 세그먼트 타깃팅에서 데이터 주체를 옵트아웃하도록 요청도 보냅니다. [!DNL Search, Social, & Commerce]을(를) 사용하는 광고주의 경우 대상 세그먼트 타깃팅을 옵트아웃하는 방법을 설명하는 [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html) 링크를 데이터 주체에 제공하는 것이 좋습니다.
+   >개인 데이터 삭제는 대상 세그먼트가 있는 최종 사용자의 타깃팅을 중지하는 옵트아웃과 다릅니다. 그러나 데이터 주체가 [!DNL Creative], [!DNL DSP] 또는 [!DNL DCO]에서 개인 데이터를 삭제하도록 요청하면 라이브러리는 Adobe Advertising에 세그먼트 타깃팅에서 데이터 주체를 옵트아웃하도록 요청도 보냅니다. [!DNL Search, Social, & Commerce]을(를) 사용하는 광고주의 경우 대상 세그먼트 타깃팅을 옵트아웃하는 방법을 설명하는 [https://www.adobe.com/kr/privacy/opt-out.html](https://www.adobe.com/kr/privacy/opt-out.html) 링크를 데이터 주체에 제공하는 것이 좋습니다.
 
 1. CX Enterprise 조직 ID를 식별하고 Adobe Advertising 계정에 연결되어 있는지 확인합니다.
 
