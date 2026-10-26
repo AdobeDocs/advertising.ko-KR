@@ -23,7 +23,7 @@ ht-degree: 0%
 
 *영어만 지원*
 
-AI Assistant for DSP을 사용하여 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색할 수 있습니다. 답변은 [Experience League](https://experienceleague.adobe.com/en/docs/advertising)에서 이러한 제품에 대해 문서화된 내용만 기반으로 합니다.
+AI Assistant for DSP을 사용하여 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색할 수 있습니다. 답변은 [Experience League](https://experienceleague.adobe.com/ko/docs/advertising)에서 이러한 제품에 대해 문서화된 내용만 기반으로 합니다.
 
 캠페인 관리, 최적화, 대상자 관리, 거래, 보고서 및 기타 제품 기능에 대해 물을 수 있습니다. 응답에는 쿼리를 구체화하고 더 많은 정보를 찾는 데 도움이 되는 추가 쿼리 및 후속 질문뿐만 아니라 인용 메시지가 포함됩니다.
 
