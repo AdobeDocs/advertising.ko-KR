@@ -17,15 +17,23 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '117'
 ht-degree: 0%
 ---
 # Adobe Advertising DSP의 AI 지원 기능
 
 DSP은 자연어 프롬프트를 사용하여 여러 작업을 수행하는 데 도움이 되는 AI 지원 에이전트를 제공합니다.
 
-* AI 지원 채팅 인터페이스를 사용하여 [Advertising DSP 가이드](/help/dsp/home.md) 및 [Advertising Creative 가이드](/help/creative/home.md)(Advertising Creative을 사용하는 광고주)에서 [개념 및 방법 콘텐츠를 검색](/help/dsp/agent-chat.md)합니다.
+* [개념 및 방법 콘텐츠 검색](/help/dsp/agent-chat.md)
 
-* [생성 AI 지원 대상 에이전트를 사용하여 재사용 가능한 새 대상을 생성](/help/dsp/audiences/reusable-audience-create.md)합니다. 이 대상은 배치에 대한 대상 또는 제외로 사용할 수 있습니다.
+* 통합 AI 지원:
+
+  * [캠페인, 캠페인 구성 요소, Advertising Creative 경험, 광고주 및 광고 대상에 대한 보고서를 만듭니다](/help/dsp/ai-assistant/insights-agent.md).
+
+  * [패키지 및 배치에 대한 성능 및 배달 문제를 해결](/help/dsp/ai-assistant/troubleshooting-agent.md).
+
+  * [Advertising DSP 안내서](/help/dsp/home.md) 및 [Advertising Creative 안내서](/help/creative/home.md)를 통해 [제품 설명서를 검색](/help/dsp/ai-assistant/documentation-search.md)합니다.
+
+* [[!UICONTROL Audiences] > [!UICONTROL All Audiences]에서 생성된 AI 지원 대상 에이전트를 사용하여 재사용 가능한 새 대상을 생성](/help/dsp/audiences/reusable-audience-create.md)합니다. 이 대상은 배치에 대한 대상 또는 제외로 사용할 수 있습니다.

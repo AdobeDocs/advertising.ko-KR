@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
     internal-label: Creative introduction
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a461e1f9377bdb5db07dcb38cd5a1cf8fea510aa
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '472'
 ht-degree: 0%
 ---
 # AI 지원 채팅 인터페이스를 사용하여 제품 설명서를 검색합니다
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-AI 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색할 수 있습니다. 답변은 [Experience League](https://experienceleague.adobe.com/ko/docs/advertising)에서 이러한 제품에 대해 문서화된 내용만 기반으로 합니다.
+AI 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색할 수 있습니다. 답변은 [Experience League](https://experienceleague.adobe.com/en/docs/advertising)에서 이러한 제품에 대해 문서화된 내용만 기반으로 합니다.
 
 응답에는 쿼리를 구체화하고 추가 정보를 찾는 데 도움이 되는 추가 프롬프트 및 후속 질문뿐만 아니라 인용 문항이 포함됩니다. 채팅 기록은 세션 내내 유지되며 쿼리는 다른 사용자와 공유되지 않습니다.
 
@@ -63,7 +63,7 @@ AI 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/
 
 1. 페이지의 오른쪽 상단에서 ![무대화](/help/dsp/assets/agent-chat.png "무대화")를 클릭합니다.
 
-1. 쿼리를 입력하고 ![프롬프트 제출](/help/dsp/assets/submit-prompt.png "프롬프트 제출")을 클릭합니다.
+1. 쿼리를 입력한 다음 ![프롬프트 제출](/help/dsp/assets/submit-prompt.png "프롬프트 제출")을 클릭하거나 키보드에서 **Enter** 키를 누릅니다.
 
    자세한 내용은 &quot;[프롬프트 작성](#writing-prompts)&quot;을 참조하십시오.
 
@@ -75,15 +75,19 @@ AI 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/
 
    * **[!UICONTROL Documentation Sources]**&#x200B;을(를) 클릭하여 응답에서 인용한 모든 페이지 목록을 표시한 다음 페이지 링크를 클릭합니다.
 
-## 응답에 대한 피드백 제공
+<!-- 
 
-<!-- Not actionable in terms of improving page content -->
+Not there as of 10/22/26. Anyway, this feature isn't actionable in terms of improving page content.
 
-* [!UICONTROL Documentation Sources] 목록 옆:
+## Provide feedback about a response
 
-  * 유용한 응답을 보려면 ![엄지손가락 위로](/help/dsp/assets/thumbs-up.png "엄지손가락 위로")를 클릭하세요.
+* Next to the [!UICONTROL Documentation Sources] list:
 
-  * 도움이 되지 않는 응답은 ![Thumbs down](/help/dsp/assets/thumbs-down.png "Thumbs down")을 클릭합니다.
+  * For helpful responses, click ![Thumbs up](/help/dsp/assets/thumbs-up.png "Thumbs up").
+
+  * For unhelpful responses, click ![Thumbs down](/help/dsp/assets/thumbs-down.png "Thumbs down").
+
+ -->
 
 ## 프롬프트 작성의 기본 사항 {#writing-prompts}
 
