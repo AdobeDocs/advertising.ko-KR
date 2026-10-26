@@ -14,18 +14,18 @@ feature_v2:
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
     internal-label: Creative introduction
-source-git-commit: 8bab50fe8bf737d208d059d89b2592e16bc40c69
+source-git-commit: c6ab712d47cafc8e9590a212253949a053b7c476
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '471'
 ht-degree: 0%
 ---
 # AI Assistant를 사용하여 제품 설명서 검색
 
 *영어만 지원*
 
-AI Assistant for DSP을 사용하여 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색할 수 있습니다. 답변은 [Experience League](https://experienceleague.adobe.com/ko/docs/advertising)에서 이러한 제품에 대해 문서화된 내용만 기반으로 합니다.
+AI Assistant for DSP을 사용하여 채팅 인터페이스를 사용하여 [Advertising DSP 안내서](/help/dsp/home.md) 및 (Advertising Creative을 사용하는 광고주) [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색할 수 있습니다. 답변은 [Experience League](https://experienceleague.adobe.com/en/docs/advertising)에서 이러한 제품에 대해 문서화된 내용만 기반으로 합니다.
 
-응답에는 쿼리를 구체화하고 더 많은 정보를 찾는 데 도움이 되는 추가 쿼리 및 후속 질문뿐만 아니라 인용 메시지가 포함됩니다.
+캠페인 관리, 최적화, 대상자 관리, 거래, 보고서 및 기타 제품 기능에 대해 물을 수 있습니다. 응답에는 쿼리를 구체화하고 더 많은 정보를 찾는 데 도움이 되는 추가 쿼리 및 후속 질문뿐만 아니라 인용 메시지가 포함됩니다.
 
 ![쿼리 및 응답의 예](/help/dsp/assets/agent-chat-response.png "쿼리 및 응답의 예")
 
@@ -34,8 +34,6 @@ AI Assistant for DSP을 사용하여 채팅 인터페이스를 사용하여 [Adv
 >AI가 생성한 응답은 정확하지 않거나 오해의 소지가 있을 수 있습니다. 비용이나 노력에 영향을 주는 결정에 사용하기 전에 항상 응답과 소스를 확인하십시오.
 
 ## 예제 쿼리
-
-캠페인 관리, 최적화, 대상자 관리, 거래, 보고서 및 기타 제품 기능에 대해 물을 수 있습니다. 다음은 예입니다.
 
 * 게재에 광고를 첨부하려면 어떻게 해야 합니까?
 
