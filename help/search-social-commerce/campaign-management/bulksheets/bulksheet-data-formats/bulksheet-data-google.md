@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: ff1657a7f005eb93c83fdc7fd2e53810d9e03bd8
 workflow-type: tm+mt
-source-wordcount: '8101'
+source-wordcount: '8378'
 ht-degree: 0%
 ---
 # 부록 - [!DNL Google Ads] 계정에 대한 필수 일괄 시트 데이터
@@ -44,20 +44,6 @@ ht-degree: 0%
 >* 아래에 지정되지 않은 필드의 경우, 광고 네트워크의 기본값이 사용됩니다.
 >* [!UICONTROL Download Bulksheet] 대화 상자에서 사용 가능한 일괄 시트 행 목록을 보려면 &quot;[광고 네트워크별 일괄 시트 행](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)&quot;을 참조하십시오.
 
-
-<!--
-
-Add in when released:
-
-| [!UICONTROL AI Max Enabled] | Whether the [[!UICONTROL AI Max] feature](https://support.google.com/google-ads/answer/15910366) is enabled for the campaign: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
-| [!UICONTROL AI Max Asset Automation] | Whether the "Text Automation" setting for [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
-
-| [!UICONTROL AI Max Search Term Matching] | Whether the "[!UICONTROL AI Max Search Term Matching]" setting for ad groups in [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
-
--->
-
 | 필드 | 설명 |
 | ---- | ---- |
 | [!UICONTROL Platform] | (정보 목적으로 생성된 일괄 시트에 포함) 광고 플랫폼. 각 행에 엔터티에 대한 &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않는 경우 필요합니다. |
@@ -72,6 +58,8 @@ Add in when released:
 | [!UICONTROL GDN Custom Bid Level] | (디스플레이 네트워크만 대상으로 하는 캠페인) 입찰 방법: <i>[!UICONTROL Ad Group]</i>(기본값), <i>[!UICONTROL Keyword]</i>, <i>[!UICONTROL Placement]</i>(웹 사이트) 또는 <i>[!UICONTROL None]</i>(기존 값을 다시 설정). 다른 차원(<i>연령</i>, <i>성별</i>, <i>관심 항목 및 목록</i>, <i>주제</i> 및 <i>수직</i>)은 [!DNL Google Ads] 인터페이스에서 사용할 수 있습니다. [!DNL Google Ads] 인터페이스를 사용하여 다른 차원별 입찰을 구성한 경우 해당 값이 표시되지만 여기에서 해당 차원을 선택하거나 입력할 수 없습니다.</p><p><b>참고:</b></p><ul><li><p>키워드로 입찰하면 키워드 수준에서 추적 템플릿을 만듭니다. 마찬가지로, 배치로 입찰하는 경우 배치 수준에서 추적 템플릿을 만듭니다. 다른 모든 차원에 대해 광고 수준에서 추적 템플릿을 만듭니다.</p></li><li><p>지원되지 않는 차원(연령, 성별, 관심사 및 목록 또는 주제)으로 입찰하는 경우 검색, 소셜 및 Commerce이 차원에 대한 입찰을 최적화하지 않으며 모든 속성이 광고 그룹에 적용됩니다.</p></li><li><p>검색 네트워크의 광고는 항상 키워드 입찰을 사용합니다.</p></li></ul> |
 | [!UICONTROL Campaign Priority] | <p>(쇼핑 캠페인만 해당) 여러 캠페인이 동일한 제품을 광고할 때 사용하는 우선 순위입니다. <i>[!UICONTROL Low]</i>(새 캠페인의 기본값), <i>[!UICONTROL Medium]</i> 또는 <i>[!UICONTROL High]</i>.</p><p>동일한 제품이 둘 이상의 캠페인에 포함된 경우 광고 네트워크는 캠페인 우선 순위를 먼저 사용하여 광고 경매에 적합한 캠페인(및 관련 입찰)을 결정합니다. 모든 캠페인이 동일한 우선 순위를 갖는 경우 입찰이 가장 높은 캠페인이 적격입니다. |
 | [!UICONTROL Has EU Political Ads] | (유럽 연합(EU)에서 대상을 타겟팅하는 캠페인에 적용) EU 규정 2024/90: <i>[!UICONTROL Yes]</i> 또는 <i>[!UICONTROL No]</i>에 따라 유럽 연합에서 제공되는 광고에 대한 요구 사항에 따라 캠페인에 정치적 광고가 포함되어 있는지 여부. |
+| [!UICONTROL AI Max Enabled] | 캠페인에 대해 [[!UICONTROL AI Max] 기능](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
+| [!UICONTROL AI Max Asset Automation] | [!UICONTROL AI Max] 사용 캠페인에 대해 &quot;텍스트 자동화&quot; 설정을 사용할지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
 | [!UICONTROL Merchant ID] | (판매자 피드에만 연결된 쇼핑 캠페인 및 대상 캠페인) 캠페인에 제품이 사용되는 판매자 계정의 고객 ID입니다. |
 | [!UICONTROL Sales Country] | (쇼핑 캠페인 전용, 기존 캠페인의 경우 읽기 전용) 캠페인의 제품이 판매되는 국가입니다. 제품은 대상 국가와 연결되어 있으므로 이 설정은 캠페인에 광고되는 제품을 결정합니다. |
 | [!UICONTROL Product Scope Filter] | ([!DNL Google Ads] 쇼핑 네트워크만 사용하는 캠페인) [!DNL Google Merchant Center] 계정의 제품에서 캠페인에 대한 쇼핑 광고를 만들 수 있습니다. dimension=attribute 형식을 사용하여 제품을 필터링할 제품 차원 및 속성 조합을 최대 7개까지 입력할 수 있습니다. &quot;>>&quot; 구분 기호로 여러 필터를 구분합니다. 사용 가능한 제품 차원 목록을 보려면 &quot;[쇼핑 캠페인 제품 필터](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;을 참조하세요.</p><p>예: &quot;CategoryL1=animals>>CategoryL2=pet supplies>>Brand=Acme Pet Supplies&quot;</p><p>기존 값을 삭제하려면 <code>[delete] 값을 사용하십시오.</code> (대괄호를 포함).</p> |
@@ -86,12 +74,20 @@ Add in when released:
 | [!UICONTROL Mobile Carriers (Google Adwords)] | <p>(기존 캠페인 유형만 해당; [!UICONTROL Device Targets]에 &quot;[!UICONTROL All]&quot; 또는 &quot;[!UICONTROL Smartphones]&quot;이(가) 포함된 경우에 적용 가능) 스마트폰이 연결될 수 있는 이동통신사: <i>[!UICONTROL All]</i> 또는 <a href="https://developers.google.com/adwords/api/docs/appendix/codes-formats?csw=1#mobile-carriers" target="_blank">사용 가능한 통신사 및 [!DNL Google Ads]</a>용 코드 목록을 사용하여 &lt;c<i>통신사 코드</i>>,&lt;<i>국가 코드</i>>(예: T-Mobile,US)로 표시된 하나 이상의 통신사. 세미콜론(예: T-Mobile, US, T-Mobile, GB)으로 여러 캐리어를 구분하십시오. 새 캠페인의 경우 기본값은 <i>[!UICONTROL All]</i>입니다.</p> |
 | [!UICONTROL Ad Group Name] | <p>광고 그룹을 식별하는 고유한 이름. 최대 길이는 255자입니다. 후행 빈 문자는 저장되지 않습니다(예: &quot;광고 그룹 1&quot;이 &quot;광고 그룹 1&quot;로 저장됨). 이 필드는 캠페인 수준 사이트 링크 또는 캠페인 수준 장치 타겟에 적용할 수 없습니다.</p> |
 | [!UICONTROL Ad Group Type] | <p>광고 그룹 유형: <i>[!UICONTROL Demand Gen]</i>(수요 창출 캠페인만 해당), <i>[!UICONTROL Display]</i>(디스플레이 캠페인만 해당), <i>[!UICONTROL Search Dynamic]</i>(확장된 동적 검색 광고의 경우), <i>[!UICONTROL Search Standard]</i>(검색 광고의 경우), <i>[!UICONTROL Shopping Product]</i>(쇼핑 제품 광고의 경우), <i>[!UICONTROL Shopping Showcase]</i>(만들기 및 편집이 지원되지 않음) 또는 <i>[!UICONTROL Unknown]</i>.</p> |
+| [!UICONTROL AI Max Search Term Matching] | [!UICONTROL AI Max] 사용 캠페인의 광고 그룹에 대해 &quot;[!UICONTROL AI Max Search Term Matching]&quot; 설정을 사용할지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
 | [!UICONTROL Max CPC] | <p>(CPC 캠페인만 해당) CPC(최대 클릭당 비용)는 금전적 기호와 구두점 유무에 관계없이 광고 네트워크에서 광고 클릭에 대해 지불하는 가장 높은 금액입니다. 광고 그룹 및 키워드, 제품 그룹, 동적 검색 타겟에 대한 값을 설정할 수 있습니다. 새 키워드의 기본값은 광고 그룹 수준에서 상속됩니다. 제품 그룹의 경우 가장 낮은 제품 그룹 계층의 값을 설정할 수 있습니다. 새 계층의 기본값은 상위 계층에서 상속됩니다.</p><p>최적화된 포트폴리오의 기존 제품 그룹 및 동적 검색 타겟의 경우 업데이트는 하루 동안만 유효하며 다음 최적화 주기 동안 덮어쓰여집니다.</p> |
 | [!UICONTROL Max Content CPC] | <p>(CPC 캠페인만 해당) CPC(최대 클릭당 콘텐츠 비용)는 금전적 기호와 구두점 유무에 관계없이 디스플레이 네트워크 사이트에서 광고 클릭에 대해 지불하는 가장 높은 금액입니다. 배치 타깃팅되지 않은 캠페인의 광고 그룹 수준에서 값을 설정하고 편집할 수 있습니다.</p> |
 | [!UICONTROL Audience Target Method] | <p>(검색 네트워크에만 있는 캠페인 및 표시 네트워크에는 기존의 읽기 전용 [!DNL Gmail] 캠페인):</p><ul><li><p><i>[!UICONTROL Target and Bid]</i>: 광고 그룹에 대한 다른 타겟도 충족하는 타겟 대상자와 연결된 사용자에게만 광고를 표시합니다.</p></li><li><p><i>[!UICONTROL Bid Only]</i>: 다른 광고 그룹 수준의 타겟을 만족시키는 한 타겟 대상자와 연결되지 않은 사람에게도 광고를 표시할 수 있습니다.</p><p>그러나 해당 대상자에 대해 더 높은 입찰가를 설정하여 특정 대상자에게 광고가 표시될 가능성을 높일 수 있습니다.</p></li></ul> |
 | [!UICONTROL Keyword] | 키워드 문자열입니다. 최대 길이는 80자이고 10단어 이하이며 문자, 숫자 및 다음 특수 문자만 포함할 수 있습니다. 공백 `# $ & _ - " [ ] ' + . / :`</p><p><b>참고:</b></p><ul><li><p>광고 그룹 또는 캠페인 수준에서 키워드를 제외하려면 [!UICONTROL Match Type]을(를) <i>[!UICONTROL Negative]</i>(으)로 설정합니다. 행에 광고 그룹 이름이 포함된 경우 광고 그룹에 대한 키워드는 제외됩니다. 행에 광고 그룹 이름이 포함되지 않으면 전체 캠페인에 대해 키워드가 제외됩니다.</p></li><li><p>[!DNL Google Ads] 키워드 또는 일치 유형을 변경하면 기존 키워드가 삭제되고 새 키워드가 만들어집니다.</p></li></ul> |
 | [!UICONTROL Placement] | (컨텐츠를 사용하는 캠페인만 일치) 광고가 표시될 수 있는 디스플레이 네트워크의 배치입니다. 다음 중 하나를 지정합니다.</p><ul><li><p>웹 사이트: 올바른 URL을 입력하십시오. 최상위 도메인, 첫 번째 수준 하위 도메인 또는 단일 디렉터리 이름의 도메인일 수 있습니다. URL에는 물음표(?)를 포함할 수 없습니다. 예:<code><br />www.example.com<br />example.com<br />autos.example.com<br />example.com/widgets</code></p></li><li><p>특정 페이지의 광고 위치: `<URL> >> <location,sublocation>` 형식(예: `finance.google.com >> Company pages,Top right`)을 사용합니다.</p></li><li><p>주제 범주: 구문 `<category::<category> > <subcategory>` 등을 사용합니다(예: `category::Industries > Energy & Utilities > Oil & Gas`).</p></li></ul><p><b>참고:</b> 광고 그룹 또는 캠페인 수준에서 배치를 제외하려면 [!UICONTROL Match Type]을(를) <i>[!UICONTROL Negative]</i>(으)로 설정하십시오. 행에 광고 그룹 이름이 포함된 경우 광고 그룹에 대한 배치가 제외됩니다. 행에 광고 그룹 이름이 포함되지 않은 경우 전체 캠페인에 대한 배치가 제외됩니다.</p> |
 | [!UICONTROL Auto Target Expression] | <p>(&quot;[!UICONTROL Use my website contents to target my ads]&quot;(으)로 캠페인 설정을 사용하지 않는 경우 필요합니다. 그렇지 않으면 선택 사항입니다.) 광고 그룹에 대한 동적 검색 대상입니다.</p><p>모든 대상에 대해 별표(*)를 사용합니다.</p><p>최대 3개의 동적 검색 조건을 대상으로 지정하려면 `<category>=<target>` 형식을 사용하십시오. 여기서 `<category>`에는 아래 범주가 포함될 수 있습니다. &quot;\[blank space\] 및 \[blank space\]&quot;를 사용하여 개별 범주에 대한 여러 대상을 조인하고 &quot;[blank space] 및 [blank space]&quot;을(를) 사용하여 여러 범주에 조인합니다.</p><ul><li><p><i>[!UICONTROL Category]</i>: 특정 [!DNL Google Ads] 콘텐츠 범주가 있는 인덱싱된 페이지에 대해 확장된 동적 검색 광고를 표시합니다.</p></li><li><p><i>[!UICONTROL URL]</i>: 특정 URL을 가진 인덱싱된 페이지에 대한 확장된 동적 검색 광고를 표시합니다. 여기서 값은 URL 내 어디에나 포함될 수 있습니다.</p></li><li><p><i>[!UICONTROL Page Title]</i>: 페이지 제목에 특정 텍스트가 있는 인덱싱된 페이지에 대한 확장된 동적 검색 광고를 표시합니다.</p></li><li><p><i>[!UICONTROL Page Content]</i>: 특정 콘텐츠가 있는 인덱싱된 페이지에 대한 확장된 동적 검색 광고를 표시합니다.</p></li></ul><p>예: url=shoes.example.com 및 페이지 제목=footwear</p> |
+| [!UICONTROL Campaign Excluded URL] | 캠페인에 대한 최종 URL 확장에서 생성된 랜딩 페이지로 제외할 URL입니다. 광고 그룹 수준에서 URL 포함(제외는 아님)을 선택적으로 추가할 수 있습니다. 예: &quot;URL에 `https://www.example.com`이(가) 있습니다.&quot; |
+| [!UICONTROL Ad Group Included URL] | 광고 그룹에 대한 최종 URL 확장에서 생성된 랜딩 페이지로 포함할 URL입니다.  예: &quot;URL에 `https://www.example.com`이(가) 있습니다.&quot; |
+| [!UICONTROL Campaign Brand List] | 캠페인에 대해 브랜드 관련 쿼리가 일치하거나 제외해야 하는 계정의 브랜드 목록입니다. [!UICONTROL Campaign Brand List Type] 필드를 사용하여 동작을 지정하십시오. |
+| [!UICONTROL Campaign Brand List ID] | 캠페인 수준에 포함되거나 제외된 브랜드 목록의 ID입니다. |
+| [!UICONTROL Campaign Brand List Type] | 브랜드 관련 쿼리가 일치하거나 브랜드 관련 쿼리에서 제외해야 하는 계정에 대해 지정된 브랜드 목록이 있는지 여부: *포함* 또는 *제외*. |
+| [!UICONTROL Ad Group Brand List] | 브랜드 관련 쿼리가 광고 그룹에 대해 일치할 수 있는 계정의 브랜드입니다. |
+| [!UICONTROL Ad Group Brand List ID] | 광고 그룹 수준의 포함된 브랜드 목록에 대한 ID입니다. |
 | [!UICONTROL Parent Product Groupings] | 상위 제품 그룹의 계층입니다.<br><br>예: `All Products>>ProductTypeL1=a>>ProductTypeL2=b` |
 | [!UICONTROL Product Grouping] | <p>제품 그룹(예: &quot;brand=acme&quot; 또는 &quot;모든 제품&quot;).</p><p><b>참고:</b></p><ul><li><p>지정한 제품 그룹이 [!UICONTROL Parent Product Groupings] 계층에 없으면 Search, Social 및 Commerce에서 필요한 계층 구조의 일부를 만듭니다.</p></li><li><p>기본 입찰이 광고 그룹 기본 입찰로 설정된 [!DNL Google Ads] 쇼핑 캠페인에서 광고 그룹을 만들 때 Search, Social 및 Commerce에서 자동으로 &quot;[!UICONTROL All Products]&quot; 그룹을 만듭니다. Search, Social 및 Commerce은 제품 그룹 계층의 각 수준에서 광고 그룹 기본 입찰이 있는 &quot;[!UICONTROL Everything Else]&quot; 그룹을 자동으로 만듭니다. 이러한 기본 그룹을 명시적으로 생성하고 제외하거나 입찰을 변경할 수 있습니다.</p></li><li><p>각 광고 그룹은 &quot;[!UICONTROL All Products]&quot; 및 7개의 다른 계층을 포함하여 최대 8개의 제품 그룹 계층을 포함할 수 있습니다.</p></li></ul> |
 | [!UICONTROL Partition Type] | 제품 그룹에 대한 파티션 형식: <i>subdivision</i>(하위 제품 그룹이 있는 경우) 또는 <i>unit</i>(하위 제품 그룹이 없는 경우). |
@@ -133,6 +129,10 @@ Add in when released:
 | [!UICONTROL Product Group Status] | 제품 그룹의 표시 상태: <i>[!UICONTROL Active]</i> <span>또는</span> <i>[!UICONTROL Deleted]</i>(기존 제품 그룹만 해당). 새 제품 그룹의 기본값은 <i>[!UICONTROL Active]</i>입니다. 활성 제품 그룹을 삭제하려면 값 <i>[!UICONTROL Deleted]</i>을(를) 입력하십시오. |
 | [!UICONTROL Sitelink Status] | 사이트 링크의 표시 상태: <i>활성 또는 삭제됨</i>(기존 사이트 링크만 해당). 새 사이트 링크의 기본값은 <i>[!UICONTROL Active]</i>입니다. 활성 사이트 링크를 삭제하려면 값 <i>[!UICONTROL Deleted]</i>을(를) 입력하십시오. |
 | [!UICONTROL Location Status] | 위치 대상의 상태: <i>[!UICONTROL Active]</i> 또는 <i>[!UICONTROL Deleted]</i>(기존 위치만 해당). 새 위치의 기본값은 [!UICONTROL Active]입니다. 활성 위치를 삭제하려면 값 <i>[!UICONTROL Deleted]</i>을(를) 입력하십시오. |
+| [!UICONTROL Campaign Excluded URL Status] | 캠페인에 대해 제외된 URL의 상태: *활성* 또는 `null`. |
+| [!UICONTROL Ad Group Included URL Status] | 캠페인에 포함된 URL의 상태: *활성* 또는 `null`. |
+| [!UICONTROL Campaign Brand List Status] | 캠페인에 대한 포함 또는 제외된 브랜드 목록의 상태: *활성* 또는 `null`. |
+| [!UICONTROL Ad Group Brand List Status] | 광고 그룹에 포함된 브랜드 목록의 상태: *활성* 또는 `null`. |
 | [!UICONTROL RLSA Target Status] | 캠페인 또는 광고 그룹 수준의 RLSA 대상 또는 제외의 상태: <i>[!UICONTROL Active]</i> 또는 [!UICONTROL Deleted]</i>(기존 대상만). 새 대상 또는 제외의 기본값은 <i>[!UICONTROL Active]</i>입니다. 활성 대상 또는 제외를 삭제하려면 값 <i>[!UICONTROL Deleted]</i>을(를) 입력하십시오. |
 | [!UICONTROL Device Target Status] | <p>캠페인 또는 광고 그룹 수준 장치 대상의 상태: <i>[!UICONTROL Active]</i> 또는 <i>[!UICONTROL Deleted]</i>. 새 캠페인 및 광고 그룹의 경우 기본값은 <i>[!UICONTROL Active]</i>입니다.</p> |
 | \[광고주별 레이블 분류\] | (Color라는 레이블 분류의 경우 &quot;Color&quot;와 같이 광고주별 레이블 분류에 대해 이름이 지정됨) 엔티티와 연결된 지정된 분류의 값입니다. 엔티티당 분류당 하나의 값만 포함할 수 있습니다(예: 캠페인 A의 &quot;색상&quot; 레이블 분류의 경우 &quot;빨간색&quot;). 최대 길이는 100자이고 값에는 ASCII 및 비 ASCII 문자가 포함될 수 있습니다.<br><br>레이블 분류와 해당 레이블 값이 모든 하위 구성 요소에 적용됩니다. 나중에 추가되는 새 구성 요소는 자동으로 레이블과 연결됩니다. 제품 그룹에 대한 레이블 분류는 단위(가장 세부적인) 수준에 적용됩니다.<br><br>분류 이름과 분류 값은 대소문자를 구분하지 않습니다. |
@@ -147,6 +147,10 @@ Add in when released:
 | [!UICONTROL Sitelink ID] | 기존 사이트링크를 식별하는 고유 ID입니다. CSV 및 TSV 파일에서 앞에는 작은따옴표(&#39;)가 있어야 합니다.[^1] a) 사이트링크를 식별할 수 있는 충분한 속성 열 또는 b) &quot;[!UICONTROL AMO ID]&quot;이(가) 행에 포함되지 않는 한 사이트링크를 변경하거나 삭제할 때만 필요합니다.&quot; 그러나 [!UICONTROL Sitelink ID]과(와) [!UICONTROL AMO ID]을(를) 모두 포함하지 않고 속성 열이 여러 사이트 링크와 일치하는 경우 사이트 링크 중 하나의 상태만 변경됩니다.</p><p><b>참고:</b> 기존 사이트 링크의 상태를 제외한 사이트 링크 속성 열을 편집하고 [!UICONTROL Sitelink ID] 및 [!UICONTROL AMO ID]을(를) 포함하지 않으면 새 사이트 링크가 만들어지고 기존 사이트 링크는 변경되지 않습니다. |
 | [!UICONTROL RLSA Target ID] | 기존 캠페인 또는 광고 그룹 수준의 RLSA 대상 또는 제외를 식별하는 고유 ID입니다. CSV 및 TSV 파일에서 앞에는 작은따옴표(&#39;)가 있어야 합니다.[^1] 행에는 대상에 대한 &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되어 있지 않은 한 대상 또는 제외를 변경하거나 삭제할 때만 필요합니다. |
 | [!UICONTROL Device Target ID] | <p>기존 캠페인 수준 또는 광고 그룹 수준의 장치 대상 또는 제외를 식별하는 고유 ID입니다. CSV 및 TSV 파일에서 앞에는 작은따옴표(&#39;)가 있어야 합니다.[^1] 행에는 대상에 대한 &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되어 있지 않은 한 대상을 변경하거나 삭제할 때만 필요합니다.</p> |
+| [!UICONTROL Campaign Excluded URL ID] | 캠페인에 대해 제외된 URL 표현식의 ID입니다. |
+| [!UICONTROL Ad Group Included URL ID] | 광고 그룹에 포함된 URL 표현식의 ID입니다. |
+| [!UICONTROL Campaign Brand Criterion ID] | 캠페인의 브랜드 목록 기준에 대한 ID입니다. |
+| [!UICONTROL Ad Group Brand Criterion ID] | 광고 그룹의 브랜드 목록 기준에 대한 ID입니다. |
 | [!UICONTROL AMO ID] | (생성된 일괄 시트에서) 동기화된 엔티티에 대해 Adobe이 생성한 고유 식별자입니다. 반응형 검색 광고의 경우 광고 ID를 포함하지 않는 한 광고를 편집하거나 삭제하려면 AMO ID가 필요합니다. AMO ID가 있는 다른 모든 엔터티 형식의 데이터를 편집하려면 엔터티 ID와 상위 엔터티 ID를 포함하지 않으면 데이터를 편집하거나 삭제하려면 AMO ID가 필요합니다.<br><br>검색, 소셜 및 Commerce에서는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 | [!UICONTROL EF Error Message] | (정보 목적으로 생성된 일괄 시트에 포함됨) 행의 데이터에 대한 광고 네트워크의 오류 메시지를 표시하는 자리 표시자입니다. 오류 메시지는 [!UICONTROL EF Errors] 파일에 포함됩니다. 이 값은 광고 네트워크에 게시되지 않습니다. |
 | [!UICONTROL SE Error Message] | (정보 목적으로 생성된 일괄 시트에 포함됨) 행의 데이터에 대한 광고 네트워크의 오류 메시지를 표시하는 자리 표시자입니다. 오류 메시지는 [!UICONTROL SE Errors] 파일에 포함됩니다. 이 값은 광고 네트워크에 게시되지 않습니다. |
@@ -172,24 +176,34 @@ Add in when released:
 | [!UICONTROL Acct Name] | 각 행에 엔터티에 대한 &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않는 경우 필요합니다. |
 | [!UICONTROL Campaign Name] | 필수 |
 | [!UICONTROL Campaign Budget] | 캠페인을 만드는 데 필요합니다. |
+| [!UICONTROL Campaign Status] | 캠페인을 삭제하는 데에만 필요합니다. |
 | [!UICONTROL Delivery Method] | 캠페인을 만드는 데 필요합니다. |
-| [!UICONTROL Channel Type] | 캠페인을 만드는 데 필요합니다. |
+| [!UICONTROL Device Targets] | 선택 사항 |
+| [!UICONTROL Device OS Targets (Google Adwords)] | 선택 사항 |
+| [!UICONTROL Languages] | 선택 사항 |
+| [!UICONTROL Mobile Carriers (Google Adwords)] | 선택 사항 |
 | [!UICONTROL Networks] | 캠페인을 만드는 데 필요합니다. |
-| [!UICONTROL DSA Domain Name] | 검색 네트워크에서 동적 검색 광고를 사용하여 캠페인을 만드는 데 필요합니다. |
-| [!UICONTROL DSA Domain Language] | 검색 네트워크에서 동적 검색 광고를 사용하여 캠페인을 만드는 데 필요합니다. |
+| [!UICONTROL Tracking Template] | 선택 사항 |
+| [!UICONTROL Channel Type] | 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Campaign Priority] | 쇼핑 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Has EU Political Ads] | 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Merchant ID] | 쇼핑 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Sales Country] | 쇼핑 캠페인을 만드는 데 필요합니다. |
-| [!UICONTROL Product Scope Filter] | (쇼핑 캠페인) 선택 사항 |
-| [!UICONTROL Languages] | 선택 사항 |
-| [!UICONTROL Device Targets] | 선택 사항 |
-| [!UICONTROL Device Targets (Google Adwords)] | 선택 사항 |
-| [!UICONTROL Mobile Carriers (Google Adwords)] | 선택 사항 |
 | [!UICONTROL Audience Target Method] | 해당 사항 없음 |
+| [!UICONTROL Product Scope Filter] | (쇼핑 캠페인) 선택 사항 |
+| [!UICONTROL DSA Domain Name] | 검색 네트워크에서 동적 검색 광고를 사용하여 캠페인을 만드는 데 필요합니다. |
+| [!UICONTROL DSA Domain Language] | 검색 네트워크에서 동적 검색 광고를 사용하여 캠페인을 만드는 데 필요합니다. |
 | [!UICONTROL Landing Page Suffix] | 선택 사항 |
-| [!UICONTROL Tracking Template] | 선택 사항 |
-| [!UICONTROL Campaign Status] | 캠페인을 삭제하는 데에만 필요합니다. |
+| [!UICONTROL AI Max Enabled] | 선택 사항 |
+| [!UICONTROL AI Max Asset Automation] | 선택 사항 |
+| [!UICONTROL Campaign Brand Criterion ID] | 선택 사항 |
+| [!UICONTROL Campaign Brand List] | 선택 사항 |
+| [!UICONTROL Campaign Brand List ID] | 선택 사항 |
+| [!UICONTROL Campaign Brand List Status] | 선택 사항 |
+| [!UICONTROL Campaign Brand List Type] | 선택 사항 |
+| [!UICONTROL Included URL] | 선택 사항 |
+| [!UICONTROL Included URL ID] | 선택 사항 |
+| [!UICONTROL Included URL Status] | 선택 사항 |
 | \[광고주별 레이블 분류\] | 선택 사항 |
 | [!UICONTROL Constraints] | 선택 사항 |
 | [!UICONTROL Campaign ID] | 행에 캠페인에 대한 &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않는 한 캠페인 이름을 변경할 때만 필요합니다. |
@@ -203,15 +217,23 @@ Add in when released:
 | ---- | ---- |
 | [!UICONTROL Acct Name] | 각 행에 엔터티에 대한 &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않는 경우 필요합니다. |
 | [!UICONTROL Campaign Name] | 필수 |
-| [!UICONTROL Networks] | 해당 사항 없음 |
-| [!UICONTROL GDN Custom Bid Level] | 선택 사항 |
 | [!UICONTROL Ad Group Name] | 필수 |
 | [!UICONTROL Ad Group Type] | 광고 그룹을 만드는 데 필요합니다. |
+| [!UICONTROL GDN Custom Bid Level] | 선택 사항 |
+| [!UICONTROL Networks] | 해당 사항 없음 |
+| [!UICONTROL Ad Group Status] | 광고 그룹을 삭제하는 데에만 필요합니다. |
 | [!UICONTROL Max CPC] | 선택 사항 |
 | [!UICONTROL Max Content CPC] | 선택 사항 |
-| [!UICONTROL Audience Target Method] | 필수 |
 | [!UICONTROL Tracking Template] | 선택 사항 |
-| [!UICONTROL Ad Group Status] | 광고 그룹을 삭제하는 데에만 필요합니다. |
+| [!UICONTROL Audience Target Method] | 필수 |
+| [!UICONTROL AI Max Search Term Matching] | 선택 사항 |
+| [!UICONTROL Ad Group Brand Criterion ID] | 선택 사항 |
+| [!UICONTROL Ad Group Brand List] | 선택 사항 |
+| [!UICONTROL Ad Group Brand List ID] | 선택 사항 |
+| [!UICONTROL Ad Group Brand List Status] | 선택 사항 |
+| [!UICONTROL Ad Group Included URL] | 선택 사항 |
+| [!UICONTROL Ad Group Included URL ID] | 선택 사항 |
+| [!UICONTROL Ad Group Included URL Status] | 선택 사항 |
 | \[광고주별 레이블 분류\] | 선택 사항 |
 | [!UICONTROL Constraints] | 선택 사항 |
 | [!UICONTROL Ad Group ID] | 행에 광고 그룹에 대한 &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되지 않는 한 광고 그룹 이름을 변경할 때만 필요합니다. |

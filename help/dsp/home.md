@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 8a8985dd3088be745752489b2101bd80000d4a00
+source-git-commit: b749a2b5285a9bf0ad1bcef28843bb48b9689cac
 workflow-type: tm+mt
-source-wordcount: '7840'
+source-wordcount: '7920'
 ht-degree: 0%
 ---
 # DSP의 새로운 기능
@@ -50,6 +50,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026년 10월 26일 | DSP의 [!DNL AI Assistant] | DSP의 AI Assistant를 사용하여 다음 작업 중 하나를 수행합니다.<ul><li>(Beta 기능) 보고서를 수동으로 만들지 않고 캠페인 지표와 전체 보고서 가져오기</li>(Beta 기능) 라이브 패키지 및 배치에 대한 성능 및 게재 문제 진단<li><li>DSP 및 [!UICONTROL Creative] 사용에 대한 지침은 제품 설명서를 검색하십시오. 이미 사용 가능했습니다.</li></ul> | &quot;[Advertising DSP의 AI Assistant 정보](/help/dsp/ai-assistant/ai-assistant-about.md)&quot;와 [AI Assistant를 사용하여 보고서 만들기](/help/dsp/ai-assistant/insights-agent.md) 및 [AI Assistant를 사용하여 성능 및 게재 문제 해결](/help/dsp/ai-assistant/troubleshooting-agent.md)에 대한 지침을 참조하십시오 |
 | 2026년 10월 15일 | [!DNL Creative] | (Beta 기능) 이제 [!UICONTROL Creative Studio]에서 AI 사용을 생성하여 기존 정적 디스플레이 광고 이미지를 편집 가능한 디스플레이 광고 템플릿으로 변환할 수 있습니다. | &quot;[[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md){target="_blank"}에서 광고 템플릿 관리&quot;를 참조하십시오.&quot; |
 | 10월 8일 | [!UICONTROL Insights] | (광고주: [!DNL Analytics for Advertising]만 해당) Adobe Analytics 전환 데이터의 대상 인텔리전스를 기반으로 하는 두 가지 새로운 인사이트를 사용할 수 있습니다.<ul><li>[!UICONTROL Delivery Composition]은(는) DSP 사용자 모델이 전환 가능성이 다른 사용자 간에 입찰하는 방법을 알려줍니다. 이 insight을 사용하여 제공 중인 배치를 검토합니다.</li><li>[!UICONTROL Organic Seed Profile]은(는) 변환기와 연결된 관심 분야, 시간, 위치 및 장치를 보여 줍니다. 이 insight을 사용하여 패키지 또는 배치 시작을 계획하거나 다음 캠페인에 알립니다.</li></ul> | &quot;[인사이트 정보](/help/dsp/campaign-management/insights/insights-about.md)&quot;를 참조하세요. |
 | 2026년 8월 14일 | [!UICONTROL Reports] | 새 [!UICONTROL DSP Self-Attributed Conversions] 보고서는 Advertising DSP이 역할을 했지만 나중에 터치(예: Adobe Advertising 검색 클릭)가 다른 보고서에서 마지막 클릭 크레딧을 받은 고객 여정을 포함하여 전환에 대한 DSP의 기여도를 보여줍니다. Advertising DSP과 Advertising 검색, 소셜 및 Commerce을 모두 사용하는 광고주에게 가장 유용합니다. | &quot;[사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)&quot; 및 &quot;[사용자 지정 보고서에 대한 FAQ](/help/dsp/reports/faq-reports.md)&quot;를 참조하십시오. |

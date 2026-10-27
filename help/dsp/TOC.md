@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
+source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1097'
 ht-degree: 3%
 ---
 
@@ -25,7 +25,12 @@ ht-degree: 3%
   + [고객 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko)
   + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko)
   + [고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)
-+ [AI 지원 채팅을 사용하여 제품 설명서 검색](/help/dsp/agent-chat.md)
++ Advertising DSP의 AI 지원 {#ai-assistant}
+  + [Advertising DSP의 AI Assistant 정보](/help/dsp/ai-assistant/ai-assistant-about.md)
+  + [AI Assistant를 사용하여 보고서 생성](/help/dsp/ai-assistant/insights-agent.md)
+  + [AI Assistant를 사용하여 성능 및 게재 문제 해결](/help/dsp/ai-assistant/troubleshooting-agent.md)
+  + [AI Assistant를 사용하여 제품 설명서 검색](/help/dsp/ai-assistant/documentation-search.md)
+  + [이전 AI 지원 대화로 작업](/help/dsp/ai-assistant/previous-conversations.md)
 + 캠페인 관리 {#campaign-management}
   + [Advertising DSP의 캠페인 관리 개요](/help/dsp/campaign-management/campaign-management-overview.md)
   + 캠페인 {#campaigns}
