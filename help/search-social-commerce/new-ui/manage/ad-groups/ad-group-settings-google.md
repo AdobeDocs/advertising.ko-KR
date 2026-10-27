@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 889cc027476f205f00dfc183772963f7e53c2ee2
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '712'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] 광고 그룹 설정
@@ -100,6 +100,16 @@ ht-degree: 0%
 **[!UICONTROL AI Search Term Matching]:**([!DNL AI Max]이(가) 활성화된 캠페인만 해당) 도달 범위와 최적화를 향상시키기 위해 AI 기반 키워드 없는 검색어 일치를 사용할지 여부입니다.<!--SUPPOSEDLY, BUT THIS IS OFF FOR ME:  It's enabled by default for campaigns with [!DNL AI Max], but you can disable it at the ad group level. -->
 
 **[!UICONTROL Locations of Interest]:**([!DNL AI Max]이(가) 활성화된 캠페인만 해당) 타깃팅할 지리적 의도의 특정 위치(제외는 아님). 사용자는 캠페인의 지리적 타깃팅도 충족해야 합니다. 기본적으로 모든 지리적 위치에 있거나, 정기적으로 또는 관심 있는 사용자가 타깃팅됩니다. 대상 범위를 좁히려면 타겟팅할 각 위치를 선택합니다.
+
+**[!UICONTROL URL inclusions]:**([!DNL AI Max] 및 [!UICONTROL Text customization]이(가) 활성화된 캠페인) 최종 URL 확장에서 생성된 랜딩 페이지로 포함할 URL. URL을 추가하려면 입력 필드에 URL 또는 URL 조각을 입력한 다음 **+**&#x200B;을(를) 클릭합니다.
+
+>[!NOTE]
+>
+>* 캠페인 수준 [!UICONTROL Final URL expansion] 설정이 *enabled*&#x200B;인 경우 [!DNL Google Ads]은(는) 지정된 URL과 추가 Google에서 선택한 URL을 광고 그룹의 동적 랜딩 페이지로 사용합니다.
+>* 캠페인 수준 [!UICONTROL Final URL expansion] 설정이 *비활성화됨*&#x200B;인 경우 [!DNL Google Ads]은(는) 지정된 URL만 광고 그룹의 동적 랜딩 페이지로 사용합니다.
+>* (고정 에셋이 있는 반응형 검색 광고) 이 설정이 URL 포함을 지정하는 경우 [!DNL Google Ads]은(는) 고정 복사본이 사용자 의도와 일치하지 않는 랜딩 페이지로 최종 URL이 라우팅될 때 고정 에셋을 사용하지 않습니다. 고정된 자산을 항상 사용하려면 URL 포함을 지정하지 말고 캠페인 수준 [!UICONTROL Final URL expansion] 설정을 사용하지 않도록 설정하십시오.
+
+**[!UICONTROL Brand inclusions]:**(사용 가능한 캠페인) 브랜드 관련 쿼리가 일치할 수 있는 계정의 브랜드입니다. [!DNL AI Max]포함할 각 브랜드 목록 옆에 있는 확인란을 선택합니다. 이 설정은 캠페인 수준 설정보다 우선 적용됩니다.
 
 ## [!UICONTROL URL Options] 탭
 

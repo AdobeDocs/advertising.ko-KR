@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
 workflow-type: tm+mt
-source-wordcount: '3058'
+source-wordcount: '3216'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] 캠페인 설정
@@ -239,13 +239,21 @@ ht-degree: 0%
 
 * **[!UICONTROL Final URL expansion]:** [!DNL Google Ads]이(가) 검색 의도에 따라 웹 사이트에서 가장 관련성이 높은 랜딩 페이지로 트래픽을 라우팅할지 여부를 지정합니다. 이 설정은 **[!UICONTROL Text customization]**&#x200B;을(를) 사용하도록 설정한 경우에만 사용할 수 있습니다.
 
-<!-- Clarify why this is "Unspecified" and read-only for me as of 7/23. Also, shouldn't we reword this? -->
+  >[!NOTE]
+  >
+  >(고정 자산이 있는 반응형 검색 광고) 이 설정을 사용하면 [!DNL Google Ads]은(는) 고정 복사본이 사용자의 의도와 일치하지 않는 랜딩 페이지로 최종 URL이 라우팅될 때 고정 자산을 사용하지 않습니다. 고정된 자산을 항상 사용하려면 [!UICONTROL Final URL expansion]을(를) 비활성화하고 광고 그룹 수준 [!UICONTROL URL inclusions]을(를) 지정하지 마십시오.
 
 **[!UICONTROL Bundling required]:**([!UICONTROL AI Max] 기능을 사용하는 기존 캠페인은 읽기 전용입니다.) *[!UICONTROL Required]*, *[!UICONTROL Not required]* 또는 *[!UICONTROL Unspecified]* 캠페인에 대한 텍스트 사용자 지정 및 브랜드 목록 컨트롤을 준수하거나 수정하려면 [!UICONTROL AI Max]을(를) 사용해야 하는지 여부를 지정합니다.
 
 <!-- Is this based on the advanced location options set elsewhere in Google Ads editor? -->
 
 **[!UICONTROL Geo Targeting Type]:**([!UICONTROL AI Max] 기능이 활성화된 기존 캠페인; 읽기 전용) 캠페인의 광고 그룹에 [!UICONTROL Locations of Interest] 대상이 포함된 경우 타겟팅되는 사용자 관심 유형: *[!UICONTROL Search Interest]*(지정된 위치에 관심 있는 사용자), *[!UICONTROL Presence]*(지정된 위치에 있거나 정기적으로 관심 있는 사용자) 또는 *[!UICONTROL Presence or Interest]*(지정된 위치에 있거나 정기적으로 관심 있는 사용자).
+
+**[!UICONTROL URL exclusions]:**([!DNL AI Max], [!UICONTROL Text customization] 및 [!UICONTROL Final URL expansion]이(가) 활성화된 캠페인) 최종 URL 확장에서 생성된 랜딩 페이지로 제외할 URL. 선택적으로 광고 그룹 수준에서 URL *포함*(제외는 아님)을 추가할 수 있습니다. URL을 추가하려면 입력 필드에 URL 또는 URL 조각을 입력한 다음 **+**&#x200B;을(를) 클릭합니다.
+
+**[!UICONTROL Brand inclusions]:**([!DNL AI Max]이(가) 활성화된 캠페인) 브랜드 관련 쿼리가 일치할 수 있는 계정의 브랜드 목록. 포함할 각 브랜드 목록 옆에 있는 확인란을 선택합니다. 광고 그룹 수준에서 이 설정을 재정의할 수 있습니다.
+
+**[!UICONTROL Brand exclusions]:**([!DNL AI Max]이(가) 활성화된 캠페인) 브랜드 관련 쿼리가 일치하지 않을 수 있는 계정의 브랜드 목록입니다. 제외할 각 브랜드 목록 옆의 확인란을 선택합니다.
 
 ## [!UICONTROL Additional Campaign Information] 탭
 
@@ -417,7 +425,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 
 **[!UICONTROL Primary Status]:**(성과 최대 캠페인의 기존 에셋 그룹에 대한 읽기 전용 필드) 에셋 그룹이 전체 용량으로 제공되거나 제공되지 않는 이유. 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다. 값에는 *적격,* *제한,* *NOT_적격,* *일시 중지됨,* *보류 중,* *제거됨,* *알 수 없음,* 또는 *지정되지 않음.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->&#x200B;이 포함될 수 있습니다.
 
-**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨&rbrace;이 포함될 수 있습니다.*
+**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨}이 포함될 수 있습니다.*
 
 ### [!UICONTROL Conversion Goals]
 
