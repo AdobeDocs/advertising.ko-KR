@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 889cc027476f205f00dfc183772963f7e53c2ee2
+source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 0%
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 캠페인 수준 [!UICONTROL Final URL expansion] 설정이 *enabled*&#x200B;인 경우 [!DNL Google Ads]은(는) 지정된 URL과 추가 Google에서 선택한 URL을 광고 그룹의 동적 랜딩 페이지로 사용합니다.
+>* 캠페인 수준 [!UICONTROL Final URL expansion] 설정이 *enabled*&#x200B;인 경우 [!DNL Google Ads]은(는) 지정된 URL과 추가 Google 선택 URL을 광고 그룹의 동적 랜딩 페이지로 사용합니다.
 >* 캠페인 수준 [!UICONTROL Final URL expansion] 설정이 *비활성화됨*&#x200B;인 경우 [!DNL Google Ads]은(는) 지정된 URL만 광고 그룹의 동적 랜딩 페이지로 사용합니다.
 >* (고정 에셋이 있는 반응형 검색 광고) 이 설정이 URL 포함을 지정하는 경우 [!DNL Google Ads]은(는) 고정 복사본이 사용자 의도와 일치하지 않는 랜딩 페이지로 최종 URL이 라우팅될 때 고정 에셋을 사용하지 않습니다. 고정된 자산을 항상 사용하려면 URL 포함을 지정하지 말고 캠페인 수준 [!UICONTROL Final URL expansion] 설정을 사용하지 않도록 설정하십시오.
 
