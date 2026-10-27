@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '727'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] 광고 그룹 설정
@@ -109,7 +109,7 @@ ht-degree: 0%
 >* 캠페인 수준 [!UICONTROL Final URL expansion] 설정이 *비활성화됨*&#x200B;인 경우 [!DNL Google Ads]은(는) 지정된 URL만 광고 그룹의 동적 랜딩 페이지로 사용합니다.
 >* (고정 에셋이 있는 반응형 검색 광고) 이 설정이 URL 포함을 지정하는 경우 [!DNL Google Ads]은(는) 고정 복사본이 사용자 의도와 일치하지 않는 랜딩 페이지로 최종 URL이 라우팅될 때 고정 에셋을 사용하지 않습니다. 고정된 자산을 항상 사용하려면 URL 포함을 지정하지 말고 캠페인 수준 [!UICONTROL Final URL expansion] 설정을 사용하지 않도록 설정하십시오.
 
-**[!UICONTROL Brand inclusions]:**(사용 가능한 캠페인) 브랜드 관련 쿼리가 일치할 수 있는 계정의 브랜드입니다. [!DNL AI Max]포함할 각 브랜드 목록 옆에 있는 확인란을 선택합니다. 이 설정은 캠페인 수준 설정보다 우선 적용됩니다.
+**[!UICONTROL Brand inclusions]:**([!DNL AI Max]이(가) 활성화된 캠페인) 브랜드 관련 쿼리가 일치할 수 있는 브랜드를 포함하는 브랜드 목록. [!DNL Google Ads] 편집기에서 계정에 대해 구성된 모든 브랜드 목록 목록에서 포함할 각 브랜드 목록 옆에 있는 확인란을 선택합니다. 이 설정은 캠페인 수준 설정보다 우선 적용됩니다.
 
 ## [!UICONTROL URL Options] 탭
 

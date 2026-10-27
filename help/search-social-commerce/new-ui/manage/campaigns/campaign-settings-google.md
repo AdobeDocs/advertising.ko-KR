@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3244'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] 캠페인 설정
@@ -251,9 +251,9 @@ ht-degree: 0%
 
 **[!UICONTROL URL exclusions]:**([!DNL AI Max], [!UICONTROL Text customization] 및 [!UICONTROL Final URL expansion]이(가) 활성화된 캠페인) 최종 URL 확장에서 생성된 랜딩 페이지로 제외할 URL. 선택적으로 광고 그룹 수준에서 URL *포함*(제외는 아님)을 추가할 수 있습니다. URL을 추가하려면 입력 필드에 URL 또는 URL 조각을 입력한 다음 **+**&#x200B;을(를) 클릭합니다.
 
-**[!UICONTROL Brand inclusions]:**([!DNL AI Max]이(가) 활성화된 캠페인) 브랜드 관련 쿼리가 일치할 수 있는 계정의 브랜드 목록. 포함할 각 브랜드 목록 옆에 있는 확인란을 선택합니다. 광고 그룹 수준에서 이 설정을 재정의할 수 있습니다.
+**[!UICONTROL Brand inclusions]:**([!DNL AI Max]이(가) 활성화된 캠페인) 브랜드 관련 쿼리가 일치할 수 있는 브랜드를 포함하는 브랜드 목록. [!DNL Google Ads] 편집기에서 계정에 대해 구성된 모든 브랜드 목록 목록에서 포함할 각 브랜드 목록 옆에 있는 확인란을 선택합니다. 광고 그룹 수준에서 이 설정을 재정의할 수 있습니다.
 
-**[!UICONTROL Brand exclusions]:**([!DNL AI Max]이(가) 활성화된 캠페인) 브랜드 관련 쿼리가 일치하지 않을 수 있는 계정의 브랜드 목록입니다. 제외할 각 브랜드 목록 옆의 확인란을 선택합니다.
+**[!UICONTROL Brand exclusions]:**([!DNL AI Max]이(가) 활성화된 캠페인) 브랜드 관련 쿼리가 일치하지 않을 수 있는 브랜드를 포함하는 브랜드 목록입니다. [!DNL Google Ads] 편집기에서 계정에 대해 구성된 모든 브랜드 목록 목록에서 제외할 각 브랜드 목록 옆에 있는 확인란을 선택합니다.
 
 ## [!UICONTROL Additional Campaign Information] 탭
 
@@ -425,7 +425,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 
 **[!UICONTROL Primary Status]:**(성과 최대 캠페인의 기존 에셋 그룹에 대한 읽기 전용 필드) 에셋 그룹이 전체 용량으로 제공되거나 제공되지 않는 이유. 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다. 값에는 *적격,* *제한,* *NOT_적격,* *일시 중지됨,* *보류 중,* *제거됨,* *알 수 없음,* 또는 *지정되지 않음.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->&#x200B;이 포함될 수 있습니다.
 
-**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨&rbrace;이 포함될 수 있습니다.*
+**[!UICONTROL Primary Status Reason]:**(성과 최대 캠페인의 기존 자산 그룹에 대한 읽기 전용 필드) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨}이 포함될 수 있습니다.*
 
 ### [!UICONTROL Conversion Goals]
 
