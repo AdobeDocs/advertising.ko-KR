@@ -18,16 +18,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2106'
 ht-degree: 0%
 ---
 # 재사용 가능한 대상 만들기
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-대상 세그먼트(사용할 수 있는 자사 및 타사 세그먼트 포함) 및 다른 저장된 대상의 그룹인 재사용 가능한 대상을 저장하고 관리할 수 있습니다. 여러 배치에 대한 타겟 또는 제외로 대상을 사용할 수 있습니다.
+여러 배치에 대한 타겟 또는 제외로 사용할 수 있는 대상 세그먼트의 그룹인 재사용 가능한 대상을 저장하고 관리할 수 있습니다. 재사용 가능한 대상에는 사용할 수 있는 모든 자사 및 타사 세그먼트, 그리고 다른 저장된 대상도 포함될 수 있습니다.
 
 통합 [AI Assistant](/help/dsp/ai-assistant/ai-assistant-about.md) 또는 [!UICONTROL Audiences] > [!UICONTROL All Audiences] 보기에서 AI 지원 대상 에이전트를 사용하여 대상을 만들거나 수동으로 대상을 만듭니다.
 

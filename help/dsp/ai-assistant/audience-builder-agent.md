@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a5cff4dbddc5c50b0678b56f8a071e19bd6af5b1
+source-git-commit: fe1a63dbe2c03335a5fbd0dfd3ab5902ca3c0527
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '268'
 ht-degree: 0%
 ---
 # AI Assistant를 사용하여 재사용 가능한 대상 생성
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 *영어만 지원*
 
-AI Assistant의 대상 빌더 에이전트를 사용하여 재사용 가능한 대상, 즉 대상 세그먼트(사용자가 사용할 수 있는 자사 및 타사 세그먼트 포함) 및 기타 저장된 대상의 그룹을 생성합니다. 나중에 대상을 여러 배치에 대한 타겟 또는 제외로 사용할 수 있습니다.
+AI 지원의 대상 빌더 에이전트를 사용하여 [재사용 가능한 대상](/help/dsp/audiences/audience-about.md)을 생성합니다. 재사용 가능한 대상에는 사용할 수 있는 모든 자사 및 타사 세그먼트, 그리고 다른 저장된 대상도 포함될 수 있습니다.
 
 >[!IMPORTANT]
 >
