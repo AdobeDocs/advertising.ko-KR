@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 ---
 # Adobe Advertising DSP의 AI 지원 기능
@@ -29,6 +29,8 @@ DSP은 자연어 프롬프트를 사용하여 여러 작업을 수행하는 데 
 * [개념 및 방법 콘텐츠 검색](/help/dsp/agent-chat.md)
 
 * 통합 AI 지원:
+
+  * [재사용 가능한 대상 생성](/help/dsp/ai-assistant/audience-builder-agent.md).
 
   * [캠페인, 캠페인 구성 요소, Advertising Creative 경험, 광고주 및 광고 대상에 대한 보고서를 만듭니다](/help/dsp/ai-assistant/insights-agent.md).
 

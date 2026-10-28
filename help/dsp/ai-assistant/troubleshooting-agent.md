@@ -15,15 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '808'
 ht-degree: 0%
 ---
 # AI Assistant를 사용하여 성능 및 게재 문제 해결
 
-
 *Beta 기능*
+
+*영어만 지원*
 
 AI Assistant의 문제 해결 에이전트는 라이브 패키지 및 배치의 성능을 제한하는 요소를 식별하고 문제를 해결하기 위해 내역 데이터를 기반으로 단계별 지침 및 권장 사항을 제공합니다. 문제 해결 에이전트는 다음 유형의 성능 및 전달 문제를 진단하는 데 도움이 될 수 있습니다.
 

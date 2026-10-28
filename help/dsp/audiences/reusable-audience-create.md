@@ -1,6 +1,6 @@
 ---
 title: 재사용 가능한 대상 만들기
-description: 대상 세그먼트 및 다른 저장된 대상으로 구성된 재사용 가능한 대상을 만드는 방법을 알아봅니다. 필요한 경우 타겟 대상을 자연어 프롬프트로 설명하여 AI 지원 대상 에이전트를 사용합니다. 에이전트는 타겟 또는 제외로 사용할 서드파티 세그먼트를 제안하고 대상 표현식을 빌드합니다.
+description: 배치 타겟 또는 제외로 사용할 재사용 가능한 대상을 만드는 방법을 알아봅니다. Adobe Advertising DSP에서 재사용 가능한 대상을 수동으로 만들거나 AI Assistant 또는 모든 대상 보기에서 생성 AI를 사용하여 만듭니다.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
 TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
@@ -18,26 +18,146 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '2104'
 ht-degree: 0%
 ---
 # 재사용 가능한 대상 만들기
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-대상 세그먼트 및 여러 배치에 대한 타겟 또는 제외로 사용할 수 있는 기타 저장된 대상의 그룹인 재사용 가능한 대상을 저장하고 관리할 수 있습니다. 명시된 요구 사항에 따라 사용할 수 있는 모든 자사 및 타사 세그먼트를 사용하여 재사용 가능한 새 대상을 생성하려면 수동으로 대상을 만들거나 AI 지원 대상 에이전트를 사용하십시오.
+대상 세그먼트(사용할 수 있는 자사 및 타사 세그먼트 포함) 및 다른 저장된 대상의 그룹인 재사용 가능한 대상을 저장하고 관리할 수 있습니다. 여러 배치에 대한 타겟 또는 제외로 대상을 사용할 수 있습니다.
+
+통합 [AI Assistant](/help/dsp/ai-assistant/ai-assistant-about.md) 또는 [!UICONTROL Audiences] > [!UICONTROL All Audiences] 보기에서 AI 지원 대상 에이전트를 사용하여 대상을 만들거나 수동으로 대상을 만듭니다.
 
 >[!NOTE]
 >
 >(DSP에서 해시된 이메일 ID를 LiveRamp RampID 세그먼트로 변환하는 광고주) 활성, 예약됨 또는 일시 중지된 배치에 첨부되지 않은 자사 RampID 세그먼트는 일시 중지됩니다. 세그먼트는 세그먼트 목록에 &quot;자동 일시 중지됨&quot;으로 표시됩니다.
 
-## 재사용 가능한 대상 수동 만들기
+## AI Assistant를 사용하여 생성 AI를 사용하여 재사용 가능한 대상 생성
+
+*Beta 기능*
+
+*영어만 지원*
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
+
+>[!NOTE]
+>
+>이 기능은 베타 모드이며 변경될 수 있습니다. 대상을 저장하고 배치에 사용하기 전에 생성된 대상 표현식이 원하는 대상을 나타내는지 확인하십시오.
+
+1. AI Assistant 열기:
+
+   * 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**&#x200B;을(를) 클릭합니다. 데이터 테이블 위에서 **[!UICONTROL Create]>[!UICONTROL Create with AI]**&#x200B;을(를) 클릭합니다.
+
+   * 페이지의 오른쪽 상단에서 ![무대화](/help/dsp/assets/agent-chat.png "무대화")를 클릭합니다.
+
+1. 대상자를 정의합니다.
+
+   1. 다음 방법 중 하나로 대상자를 정의하는 초기 프롬프트를 만듭니다.
+
+      * 자신의 타겟 대상 브리프나 포함 및 제외할 대상 특성 일부를 입력합니다.
+
+      * 타겟 대상 브리프의 예를 보고 선택적으로 사용할 브리프를 복사하려면 다음을 수행하십시오.
+
+        1. 섹션을 확장하려면 **[!UICONTROL Build]**&#x200B;을(를) 클릭하십시오.
+
+        1. (선택 사항) 예제 대상자 브리핑의 텍스트를 프롬프트 상자에 복사하려면 다음을 수행하십시오.
+
+           1. 예제를 클릭합니다.
+
+           1. (선택 사항) 필요에 따라 텍스트를 편집합니다.
+
+      &quot;[프롬프트 작성의 기본 사항](#writing-prompts)&quot; 및 &quot;[대상자 개요 작성에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
+
+   1. 프롬프트를 제출하려면 ![프롬프트 제출](/help/dsp/assets/submit-prompt.png "프롬프트 제출")을 클릭합니다.
+
+      한 번에 여러 질문을 할 수 있지만 한 번에 한 개의 질문만 할 수 있습니다. 다른 메시지를 보내기 전에 응답을 기다립니다.
+
+      [!UICONTROL Step 1: Audience Definition] 탭에 대상 정의가 있는 패널이 옆으로 열립니다. 정의에는 정의된 모든 대상 필터, 최적화 기준 및 제외할 자사 세그먼트가 포함됩니다.
+
+      해당하는 경우 AI Assistant는 보다 효과적인 대상 브리핑을 만드는 데 도움이 되는 추가 대상 필터를 제안합니다. 제안을 수락하거나 거부할 수 있습니다.
+
+   1. (선택 사항) 자사 세그먼트를 제외하려면 AI Assistant에 이를 허용하라는 메시지를 표시하거나 **[!UICONTROL First-party segments to exclude]** 섹션에서 ![편집](/help/dsp/assets/edit-ai.png "편집")을(를) 클릭하고 대상에 대해 제외할 세그먼트를 선택한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+
+   1. (선택 사항) 필요에 따라 추가 프롬프트를 제출하여 포함 및 제외할 대상 특성을 설명합니다. 각 프롬프트를 제출하려면 ![프롬프트 제출](/help/dsp/assets/submit-prompt.png "프롬프트 제출")을 클릭하십시오.
+
+1. 대상 정의가 기준을 충족하면 포함할 세그먼트를 지정합니다.
+
+   1. AI 도우미에게 일치하는 세그먼트를 검색하라는 메시지를 표시합니다. &quot;확인&quot;, &quot;이동&quot;, &quot;계속&quot;, &quot;검색&quot; 또는 관련 용어나 구를 말할 수 있습니다.
+
+      [!UICONTROL Step 2: Audience Segments] 탭에는 제안된 대상 이름, 대상 크기 및 분포, 부울 대상 표현식 및 특성별로 그룹화된 포함된 대상 세그먼트 목록이 표시됩니다.
+
+   1. (선택 사항) 맨 아래의 [!UICONTROL Audience segments] 섹션에서 다음 중 하나를 수행합니다.
+
+      * 대상 세그먼트의 각 그룹을 확장하려면 개수 옆에 있는 **[!UICONTROL >]**&#x200B;을(를) 클릭합니다.
+
+      * 포함된 대상 세그먼트의 세그먼트 ID를 클립보드에 복사하려면 **[!UICONTROL Copy rule]**&#x200B;을(를) 클릭합니다.
+
+      * 대상자에서 세그먼트를 제거하려면 AI Assistant에 해당 작업을 수행하도록 요청하거나 ![편집](/help/dsp/assets/edit-ai.png "편집")을 클릭하고 대상자에서 제거할 세그먼트를 선택 취소한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+
+1. 어셈블된 대상자에 만족하면 **[!UICONTROL Save Audience]**&#x200B;을(를) 클릭하여 지정된 대상자를 만듭니다.
+
+   >[!NOTE]
+   >
+   >나중에 대상을 편집하려면 [대상 식을 수동으로 편집](/help/dsp/audiences/reusable-audience-edit.md)하십시오.
+
+## [!UICONTROL Audiences] > [!UICONTROL All audiences] 보기에서 생성 AI를 사용하여 재사용 가능한 대상 만들기
+
+*Beta 기능*
+
+*영어만 지원*
+
+>[!NOTE]
+>
+>이 기능은 베타 모드이며 변경될 수 있습니다. 대상을 저장하고 배치에 사용하기 전에 생성된 대상 표현식이 원하는 대상을 나타내는지 확인하십시오.
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**&#x200B;을(를) 클릭합니다.
 
 1. 데이터 테이블 위에서 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+
+1. [!UICONTROL New Audience] 설정에서:
+
+   1. 고유한 **[!UICONTROL Audience Name]**&#x200B;을(를) 입력하십시오.
+
+   1. (선택 사항) **[!UICONTROL Share with all advertisers in my account]** 옵션을 선택 취소합니다.
+
+      대상을 공유하면 해당 대상은 계정 내의 모든 광고주에게 타겟 또는 제외로 사용할 수 있습니다. 그러나 대상자의 개별 세그먼트는 세그먼트가 공유된 사용자만 사용할 수 있습니다. 예를 들어 동일한 [!DNL Analytics] 계정에 매핑되지 않은 광고주와 Adobe Analytics 세그먼트가 포함된 대상을 공유하는 경우 해당 광고주의 해당 대상에서는 세그먼트가 미리 표시되지 않습니다. 해당 광고주가 사용할 수 있는 세그먼트만 대상에서 미리 봅니다.
+
+   1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+1. 대상자 작성:
+
+   1. 포함 및 제외할 대상 특성을 설명하는 하나 이상의 프롬프트를 입력합니다. 각 프롬프트를 제출하려면 ![프롬프트 제출](/help/dsp/assets/submit-prompt.png "프롬프트 제출")을 클릭하십시오.
+
+      자세한 내용은 &quot;[프롬프트 작성](#writing-prompts)&quot; 및 &quot;[대상자 개요 작성에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
+
+      해당하면 에이전트는 보다 효과적인 대상 개요를 만드는 데 도움이 되는 추가 세그먼트 필터를 제안합니다. 제안을 수락하거나 거부할 수 있습니다.
+
+      대상 에이전트가 관련 세그먼트를 찾을 때 기준에 따라 부울 대상 표현식을 만듭니다. 또한 대상을 취합할 일치하는 세그먼트를 찾기 전에 승인을 요청합니다. 선택적으로 요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수 있습니다.
+
+   1. 대상 에이전트가 대상을 적절히 설명하는 대상 표현식을 제공하면 대상 에이전트에게 대상 어셈블 작업을 진행하도록 알립니다.
+
+      &quot;진행&quot;, &quot;확인&quot;, &quot;확인&quot;, &quot;예&quot; 또는 다른 유사한 단어를 입력할 수 있습니다. 에이전트는 각 트레이트에 대해 제안된 모든 세그먼트(예: &quot;상위&quot;)를 나열합니다. 트레이트에 대해 제안된 개별 세그먼트에 대한 세부 사항을 보려면 트레이트를 확장합니다.
+
+   1. (필요한 경우) 추가 기준을 지정합니다. 대상 에이전트가 모든 기준을 충족하는 대상 표현식을 제공하면 대상 조립을 진행하도록 대상 에이전트에게 알립니다.
+
+      대상을 모으려면 &quot;진행&quot;, &quot;확인&quot;, &quot;확인&quot;, &quot;예&quot; 또는 다른 유사한 단어를 입력합니다. 에이전트는 각 트레이트에 대해 제안된 모든 세그먼트(예: &quot;상위&quot;)를 나열합니다. 트레이트에 대해 제안된 개별 세그먼트에 대한 세부 사항을 보려면 트레이트를 확장하십시오.
+
+1. 어셈블된 대상자에 만족하면 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 지정된 대상자를 만듭니다.
+
+   >[!NOTE]
+   >
+   >나중에 대상을 편집하려면 [대상 식을 수동으로 편집](/help/dsp/audiences/reusable-audience-edit.md)하십시오.
+
+## 재사용 가능한 대상 수동 만들기
+
+1. 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**&#x200B;을(를) 클릭합니다.
+
+1. 데이터 테이블 위에서 **[!UICONTROL Create]>[!UICONTROL Create manually]**&#x200B;을(를) 클릭합니다.
 
 1. [!UICONTROL New Audience] 설정에서:
 
@@ -59,7 +179,7 @@ ht-degree: 0%
    >
    >대상을 만들면 자세한 [대상 크기 데이터](audience-about.md)가 오른쪽 패널에서 업데이트됩니다
 
-   * [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] 및 [!UICONTROL Saved Audiences] 탭](audience-settings.md)에서 사용 가능한 세그먼트를 사용하여 수동으로 세그먼트 논리를 만들려면 다음을 수행하십시오.
+   * [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] 및 [!UICONTROL Saved Audiences] 탭](audience-settings.md)에서 사용 가능한 세그먼트를 사용하여 세그먼트 논리를 수동으로 만들려면 다음을 수행하십시오.
 
      * (선택 사항) 세그먼트 이름, 설명 또는 경로를 검색합니다.
 
@@ -107,71 +227,21 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-## 생성 AI를 사용하여 재사용 가능한 대상 만들기
-
-*Beta 기능*
-
-*영어만 지원*
-
->[!NOTE]
->
->이 기능은 베타 모드이며 변경될 수 있습니다. 대상을 만들고 배치에 사용하기 전에 생성된 대상 표현식이 원하는 대상을 나타내는지 확인하십시오.
-
-<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
-
-1. 메인 메뉴에서 **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**&#x200B;을(를) 클릭합니다.
-
-1. 데이터 테이블 위에서 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
-
-1. [!UICONTROL New Audience] 설정에서:
-
-   1. 고유한 **[!UICONTROL Audience Name]**&#x200B;을(를) 입력하십시오.
-
-   1. (선택 사항) **[!UICONTROL Share with all advertisers in my account]** 옵션을 선택 취소합니다.
-
-      대상을 공유하면 해당 대상은 계정 내의 모든 광고주에게 타겟 또는 제외로 사용할 수 있습니다. 그러나 대상자의 개별 세그먼트는 세그먼트가 공유된 사용자만 사용할 수 있습니다. 예를 들어 동일한 [!DNL Analytics] 계정에 매핑되지 않은 광고주와 Adobe Analytics 세그먼트가 포함된 대상을 공유하는 경우 해당 광고주의 해당 대상에서는 세그먼트가 미리 표시되지 않습니다. 해당 광고주가 사용할 수 있는 세그먼트만 대상에서 미리 봅니다.
-
-   1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-
-1. 대상자 작성:
-
-   1. 포함 및 제외할 대상 특성을 설명하는 하나 이상의 프롬프트를 입력합니다. 각 프롬프트를 제출하려면 ![프롬프트 제출](/help/dsp/assets/submit-prompt.png "프롬프트 제출")을 클릭하십시오.
-
-      자세한 내용은 &quot;[프롬프트 작성](#writing-prompts)&quot; 및 &quot;[대상자 개요 작성에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
-
-      해당하면 에이전트는 보다 효과적인 대상 개요를 만드는 데 도움이 되는 추가 세그먼트 필터를 제안합니다. 제안을 수락하거나 거부할 수 있습니다.
-
-      대상 에이전트가 관련 세그먼트를 찾을 때 기준에 따라 부울 대상 표현식을 만듭니다. 또한 대상을 취합할 일치하는 세그먼트를 찾기 전에 승인을 요청합니다. 선택적으로 요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수 있습니다.
-
-   1. 대상 에이전트가 대상을 적절히 설명하는 대상 표현식을 제공하면 대상 에이전트에게 대상 어셈블 작업을 진행하도록 알립니다.
-
-      &quot;진행&quot;, &quot;확인&quot;, &quot;확인&quot;, &quot;예&quot; 또는 다른 유사한 단어를 입력할 수 있습니다. 에이전트는 각 트레이트에 대해 제안된 모든 세그먼트(예: &quot;상위&quot;)를 나열합니다. 트레이트를 확장하여 해당 트레이트에 대해 제안된 개별 세그먼트에 대한 세부 정보를 확인합니다.
-
-   1. (필요한 경우) 추가 기준을 지정합니다. 대상 에이전트가 모든 기준을 충족하는 대상 표현식을 제공하면 대상 조립을 진행하도록 대상 에이전트에게 알립니다.
-
-      대상을 모으려면 &quot;진행&quot;, &quot;확인&quot;, &quot;확인&quot;, &quot;예&quot; 또는 다른 유사한 단어를 입력합니다. 에이전트는 각 트레이트에 대해 제안된 모든 세그먼트(예: &quot;상위&quot;)를 나열합니다. 트레이트를 확장하여 해당 트레이트에 대해 제안된 개별 세그먼트에 대한 세부 정보를 확인합니다.
-
-1. 어셈블된 대상자에 동의하면 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 지정된 대상자를 만듭니다.
-
-   >[!NOTE]
-   >
-   >나중에 대상자 에이전트를 사용하여 대상자를 편집할 수 없습니다. 대신 [대상 식을 수동으로 편집](/help/dsp/audiences/reusable-audience-edit.md)하세요.
-
 ### 프롬프트 작성의 기본 사항 {#writing-prompts}
 
 <!-- Change heading level for this whole section to fit under AI procedure -->
 
-#### 프롬프트에 포함해야 하는 것은 무엇입니까?
+#### 대상자 프롬프트 작성 지침
 
 * 대상 대상을 설명하려면 명확하고 수사적인 언어를 사용하십시오.
 
-  * 당신은 완전한 문장이나 일련의 특징들을 입력할 수 있다. 명확성을 위해 필요한 경우를 제외하고는 구두점이 필요하지 않습니다.
+  * 완전한 문장이나 일련의 특징들을 입력할 수 있다. 명확성을 위해 필요한 경우를 제외하고는 구두점이 필요하지 않습니다.
 
   * 일반적으로 프롬프트는 대/소문자를 구분하지 않습니다.
 
   * Audience Agent는 가장 일반적인 동의어를 인식합니다.
 
-* 포함하려는 모든 대상 특성과 제외하려는 특성에 대한 세부 정보를 지정하고 제공해야 합니다. 세부 정보를 많이 제공할수록 요구 사항에 맞는 결과를 얻을 수 있는 가능성이 커집니다.
+* 포함하려는 모든 대상 특성과 제외하려는 특성에 대한 세부 정보를 지정하고 제공해야 합니다. 더 많은 세부 정보를 제공하면 요구 사항에 맞는 결과를 얻을 가능성이 높아집니다.
 
 * 포함하거나 제외할 위치, 장치 유형 및 데이터 공급자를 식별합니다.
 
@@ -208,7 +278,7 @@ Verify what info is carried over from session to session and what starts from sc
 
 `If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
-긍정 응답: &quot;progress&quot;, &quot;okay&quot;, &quot;ok&quot;, &quot;yes&quot; 또는 다른 유사한 단어
+긍정 응답: &quot;progress,&quot; &quot;okay,&quot; &quot;ok,&quot; &quot;yes,&quot; 또는 다른 유사한 단어
 
 요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수도 있습니다.
 
@@ -243,7 +313,7 @@ Verify what info is carried over from session to session and what starts from sc
 
 * **인구 통계**
 
-  연령 범위, 성별, 결혼 상태, 가구 구성(가족 규모, 자녀 유무, 다세대 가구)과 같은 속성을 포함합니다.
+  여기에는 연령 범위, 성별 정체성, 결혼 상태, 가구 구성(가족 규모, 자녀 유무, 다세대 가구) 등의 속성이 포함됩니다.
 
 * **사회경제적 지표**
 

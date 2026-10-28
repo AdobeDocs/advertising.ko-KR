@@ -15,14 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 ---
 # AI Assistant를 사용하여 보고서 생성
 
 *Beta 기능*
+
+*영어만 지원*
 
 AI Assistant의 인사이트 에이전트를 사용하여 수동으로 보고서를 생성하지 않고도 캠페인, 캠페인 구성 요소, Advertising Creative 경험, 광고주 및 광고 타겟에 대한 지표와 전체 보고서를 얻을 수 있습니다. 캠페인에 대한 지출 또는 CPA와 같은 특정 지표에 대한 간단한 질문을 하거나 특정 차원(단일 캠페인 또는 대상자 등) 또는 차원 간(각 캠페인 및 광고주에 대한 분류의 경우)에 대한 보다 복잡한 보고서를 요청할 수 있습니다. 결과를 CSV 파일로 다운로드할 수 있습니다.
 
