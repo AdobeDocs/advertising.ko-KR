@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
+source-git-commit: 59d4abad49f2684a4b0a5d46774757bffcd7afee
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2109'
 ht-degree: 0%
 ---
 # 재사용 가능한 대상 만들기
@@ -35,7 +35,9 @@ ht-degree: 0%
 >
 >(DSP에서 해시된 이메일 ID를 LiveRamp RampID 세그먼트로 변환하는 광고주) 활성, 예약됨 또는 일시 중지된 배치에 첨부되지 않은 자사 RampID 세그먼트는 일시 중지됩니다. 세그먼트는 세그먼트 목록에 &quot;자동 일시 중지됨&quot;으로 표시됩니다.
 
-## AI Assistant를 사용하여 생성 AI를 사용하여 재사용 가능한 대상 생성
+## 생성 AI를 사용하여 재사용 가능한 대상 생성
+
+### AI Assistant를 사용하여 재사용 가능한 대상 생성
 
 *Beta 기능*
 
@@ -69,7 +71,7 @@ ht-degree: 0%
 
            1. (선택 사항) 필요에 따라 텍스트를 편집합니다.
 
-      &quot;[프롬프트 작성의 기본 사항](#writing-prompts)&quot; 및 &quot;[대상자 개요 작성에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
+      &quot;[프롬프트 작성 및 대상 에이전트 응답](#writing-prompts)&quot; 및 &quot;[대상 요약 작성에 대한 모범 사례](#audience-brief-best-practices)&quot;을 참조하십시오.
 
    1. 프롬프트를 제출하려면 ![프롬프트 제출](/help/dsp/assets/submit-prompt.png "프롬프트 제출")을 클릭합니다.
 
@@ -103,7 +105,7 @@ ht-degree: 0%
    >
    >나중에 대상을 편집하려면 [대상 식을 수동으로 편집](/help/dsp/audiences/reusable-audience-edit.md)하십시오.
 
-## [!UICONTROL Audiences] > [!UICONTROL All audiences] 보기에서 생성 AI를 사용하여 재사용 가능한 대상 만들기
+### [!UICONTROL Audiences] > [!UICONTROL All audiences] 보기에서 대상 에이전트를 사용하여 재사용 가능한 대상 만들기
 
 *Beta 기능*
 
@@ -133,7 +135,7 @@ ht-degree: 0%
 
    1. 포함 및 제외할 대상 특성을 설명하는 하나 이상의 프롬프트를 입력합니다. 각 프롬프트를 제출하려면 ![프롬프트 제출](/help/dsp/assets/submit-prompt.png "프롬프트 제출")을 클릭하십시오.
 
-      자세한 내용은 &quot;[프롬프트 작성](#writing-prompts)&quot; 및 &quot;[대상자 개요 작성에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
+      자세한 내용은 &quot;[프롬프트 작성 및 대상 에이전트에 응답](#writing-prompts)&quot; 및 &quot;[대상 요약 작성에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
 
       해당하면 에이전트는 보다 효과적인 대상 개요를 만드는 데 도움이 되는 추가 세그먼트 필터를 제안합니다. 제안을 수락하거나 거부할 수 있습니다.
 
@@ -152,6 +154,128 @@ ht-degree: 0%
    >[!NOTE]
    >
    >나중에 대상을 편집하려면 [대상 식을 수동으로 편집](/help/dsp/audiences/reusable-audience-edit.md)하십시오.
+
+### 대상자 개요 작성을 위한 우수 사례 {#audience-brief-best-practices}
+
+대상자 요약은 캠페인의 대상 대상자를 정의하는 전략 작성입니다. 잘 만들어진 요약은 DSP 대상 에이전트가 타겟팅 가능한 대상을 취합하기 위해 가장 관련성이 높은 세그먼트를 식별하는 데 도움이 됩니다.
+
+#### 효과적인 대상 브리핑의 구성 요소
+
+브리핑의 다음 목록에서 가능한 한 많은 대상 속성 유형을 포함하십시오. 제외할 속성에 대해 구체적으로 지정합니다.
+
+<!--
+ What about these:
+
+* Device specifications
+* Presence in audiences from specific third-party data providers
+* Presence of a universal ID
+* Target cost per thousand (CPM) impressions or a total target cost
+
+-->
+
+* **인구 통계**
+
+  여기에는 연령 범위, 성별 정체성, 결혼 상태, 가구 구성(가족 규모, 자녀 유무, 다세대 가구) 등의 속성이 포함됩니다.
+
+* **사회경제적 지표**
+
+  가구 소득(HHI) 밴드, 교육 수준, 직업/직책, 취업 여부, 주택 소유 여부 등을 통해 재정 여력을 설정한다.
+
+* **지리적 매개 변수**
+
+  국가/국가, 지역(EMEA, APAC, NA), 인구 밀도(도시/교외/농촌)를 포함한 위치 범위를 정의합니다.
+
+* **관심 분야 및 관심도**
+
+  취미(스포츠, 예술, 야외 활동), 미디어 소비 패턴, 브랜드 관심도 및 라이프스타일 활동(여행, 식사, 엔터테인먼트)과 같은 열정과 선호도를 식별합니다.
+
+* **심령술**
+
+  포부(상태 추구, 자기 개선), 핵심 가치(지속 가능성, 혁신, 전통), 성격 특성(위험 추구자, 얼리 어답터) 및 구매 동기를 포함한 사고방식과 가치를 캡처합니다.
+
+* **동작 신호**
+
+  구매 행동(쇼핑 빈도, 채널 환경 설정, 브랜드 충성도), 온라인 행동(웹 사이트 방문, 컨텐츠 참여, 소셜 미디어 활동) 및 오프라인 행동(스토어 방문, 이벤트 참석, 멤버십)을 포함한 관찰할 수 있는 작업입니다.
+
+* **마켓 내 의도**
+
+  조사 중인 제품/서비스 범주, 구매 타임라인(즉시, 단기, 장기) 및 구매 결정을 트리거하는 관련 Life Event를 통해 구매 준비 상태를 식별합니다.
+
+* **수명 단계**
+
+  현재 단계 이해(학생, 진학 단계, 중등 단계, 임원, 퇴직 단계), 가족 단계(신혼부부, 새부모, 빈부모), 주요 생애 전환.
+
+#### 전망 캠페인을 위한 잘 구성된 대상자 브리프의 예
+
+다음은 프리미엄 밀 키트 구독 서비스에 대한 인지도 및 평가판을 높이기 위한 캠페인에 대한 강력한 대상 브리핑의 예입니다.
+
+`The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
+
+### 프롬프트 작성 및 대상자 에이전트 응답 {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### 대상자 프롬프트 작성 지침
+
+* 대상 대상을 설명하려면 명확하고 수사적인 언어를 사용하십시오.
+
+  * 완전한 문장이나 일련의 특징들을 입력할 수 있다. 명확성을 위해 필요한 경우를 제외하고는 구두점이 필요하지 않습니다.
+
+  * 일반적으로 프롬프트는 대/소문자를 구분하지 않습니다.
+
+  * Audience Agent는 가장 일반적인 동의어를 인식합니다.
+
+* 포함하려는 모든 대상 특성과 제외하려는 특성에 대한 세부 정보를 지정하고 제공해야 합니다. 더 많은 세부 정보를 제공하면 요구 사항에 맞는 결과를 얻을 가능성이 높아집니다.
+
+* 포함하거나 제외할 위치, 장치 유형 및 데이터 공급자를 식별합니다.
+
+* 대상을 저장하기 전에 기준 및 생성된 대상 표현식을 세분화하기 위한 세부 정보를 반복적으로 제공합니다.
+
+* 실험을 통해 프롬프트에 대해 알아봅니다.
+
+  프롬프트가 명확하지 않으면 Audience Agent에서 다른 프롬프트를 요청하므로 다시 시도할 수 있습니다.
+
+  대상자 에이전트는 생성된 대상자 표현식을 대상자로 자동으로 저장하지 않습니다. 프롬프트 영역 외부에 있는 [!UICONTROL Create] 단추만 클릭하여 대상자를 저장할 수 있으므로 보관하지 않을 변경 내용을 실행 취소할 수 있습니다.
+
+대상자에 대한 프롬프트를 최적화하는 자세한 방법은 &quot;[대상자 브리프 만들기에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### 프롬프트 제한
+
+* 기존 대상자에 대한 참조.
+
+* 영어 이외의 언어로 된 텍스트.
+
+#### Audience 에이전트에 응답하는 방법
+
+대상 에이전트가 사용자의 응답이 필요한 경우 요청에 키워드를 사용하거나 일반적인 동의어를 사용하여 답장할 수 있습니다.
+
+##### 계속 진행할지 확인
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+긍정 응답: &quot;progress,&quot; &quot;okay,&quot; &quot;ok,&quot; &quot;yes,&quot; 또는 다른 유사한 단어
+
+요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수도 있습니다.
+
+##### 추천 옵션 중에서 선택
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+답글: `1`, `proceed`, `2`, `maximum reach` 등.
+
+요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수도 있습니다.
 
 ## 재사용 가능한 대상 수동 만들기
 
@@ -226,128 +350,6 @@ ht-degree: 0%
         >대상에 이미 세그먼트 논리가 포함되어 있는 경우 새 세그먼트 논리에 붙여넣으면 기존 논리를 덮어씁니다.
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
-
-### 프롬프트 작성의 기본 사항 {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### 대상자 프롬프트 작성 지침
-
-* 대상 대상을 설명하려면 명확하고 수사적인 언어를 사용하십시오.
-
-  * 완전한 문장이나 일련의 특징들을 입력할 수 있다. 명확성을 위해 필요한 경우를 제외하고는 구두점이 필요하지 않습니다.
-
-  * 일반적으로 프롬프트는 대/소문자를 구분하지 않습니다.
-
-  * Audience Agent는 가장 일반적인 동의어를 인식합니다.
-
-* 포함하려는 모든 대상 특성과 제외하려는 특성에 대한 세부 정보를 지정하고 제공해야 합니다. 더 많은 세부 정보를 제공하면 요구 사항에 맞는 결과를 얻을 가능성이 높아집니다.
-
-* 포함하거나 제외할 위치, 장치 유형 및 데이터 공급자를 식별합니다.
-
-* 대상을 저장하기 전에 기준 및 생성된 대상 표현식을 세분화하기 위한 세부 정보를 반복적으로 제공합니다.
-
-* 실험을 통해 프롬프트에 대해 알아봅니다.
-
-  프롬프트가 명확하지 않으면 Audience Agent에서 다른 프롬프트를 요청하므로 다시 시도할 수 있습니다.
-
-  대상자 에이전트는 생성된 대상자 표현식을 대상자로 자동으로 저장하지 않습니다. 프롬프트 영역 외부에 있는 [!UICONTROL Create] 단추만 클릭하여 대상자를 저장할 수 있으므로 보관하지 않을 변경 내용을 실행 취소할 수 있습니다.
-
-대상자에 대한 프롬프트를 최적화하는 자세한 방법은 &quot;[대상자 브리프 만들기에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### 프롬프트에 무엇을 포함할 수 없습니까?
-
-* 기존 대상 표현식에 대한 참조.
-
-* 영어 이외의 언어로 된 텍스트.
-
-#### Audience Agent 응답 예 및 회신 방법
-
-대상 에이전트가 사용자의 응답이 필요한 경우 요청에 키워드를 사용하거나 일반적인 동의어를 사용하여 답장할 수 있습니다.
-
-#### 질문을 하는 대상 에이전트
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-긍정 응답: &quot;progress,&quot; &quot;okay,&quot; &quot;ok,&quot; &quot;yes,&quot; 또는 다른 유사한 단어
-
-요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수도 있습니다.
-
-##### 여러 옵션 중에서 선택하라는 대상 에이전트
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-답글: `1`, `proceed`, `2`, `maximum reach` 등.
-
-요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수도 있습니다.
-
-### 대상자 개요 작성을 위한 우수 사례 {#audience-brief-best-practices}
-
-대상자 요약은 캠페인의 대상 대상자를 정의하는 전략 작성입니다. 잘 만들어진 요약은 DSP 대상 에이전트가 타겟팅 가능한 대상을 취합하기 위해 가장 관련성이 높은 세그먼트를 식별하는 데 도움이 됩니다.
-
-#### 효과적인 대상 브리핑의 필수 구성 요소
-
-브리핑의 다음 목록에서 가능한 한 많은 대상 속성 유형을 포함하십시오. 제외할 속성에 대해 구체적으로 지정합니다.
-
-<!--
- What about these:
-
-* Device specifications
-* Presence in audiences from specific third-party data providers
-* Presence of a universal ID
-* Target cost per thousand (CPM) impressions or a total target cost
-
--->
-
-* **인구 통계**
-
-  여기에는 연령 범위, 성별 정체성, 결혼 상태, 가구 구성(가족 규모, 자녀 유무, 다세대 가구) 등의 속성이 포함됩니다.
-
-* **사회경제적 지표**
-
-  가구 소득(HHI) 밴드, 교육 수준, 직업/직책, 취업 여부, 주택 소유 여부 등을 통해 재정 여력을 설정한다.
-
-* **지리적 매개 변수**
-
-  국가/국가, 지역(EMEA, APAC, NA), 인구 밀도(도시/교외/농촌)를 포함한 위치 범위를 정의합니다.
-
-* **관심 분야 및 관심도**
-
-  취미(스포츠, 예술, 야외 활동), 미디어 소비 패턴, 브랜드 관심도 및 라이프스타일 활동(여행, 식사, 엔터테인먼트)과 같은 열정과 선호도를 식별합니다.
-
-* **심령술**
-
-  포부(상태 추구, 자기 개선), 핵심 가치(지속 가능성, 혁신, 전통), 성격 특성(위험 추구자, 얼리 어답터) 및 구매 동기를 포함한 사고방식과 가치를 캡처합니다.
-
-* **동작 신호**
-
-  구매 행동(쇼핑 빈도, 채널 환경 설정, 브랜드 충성도), 온라인 행동(웹 사이트 방문, 컨텐츠 참여, 소셜 미디어 활동) 및 오프라인 행동(스토어 방문, 이벤트 참석, 멤버십)을 포함한 관찰할 수 있는 작업입니다.
-
-* **마켓 내 의도**
-
-  조사 중인 제품/서비스 범주, 구매 타임라인(즉시, 단기, 장기) 및 구매 결정을 트리거하는 관련 Life Event를 통해 구매 준비 상태를 식별합니다.
-
-* **수명 단계**
-
-  현재 단계 이해(학생, 진학 단계, 중등 단계, 임원, 퇴직 단계), 가족 단계(신혼부부, 새부모, 빈부모), 주요 생애 전환.
-
-#### 전망 캠페인을 위한 잘 구성된 대상자 브리프의 예
-
-다음은 프리미엄 밀 키트 구독 서비스에 대한 인지도 및 평가판을 높이기 위한 캠페인에 대한 강력한 대상 브리핑의 예입니다.
-
-`The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
 
 >[!MORELIKETHIS]
 >
