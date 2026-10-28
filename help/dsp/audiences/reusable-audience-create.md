@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 59d4abad49f2684a4b0a5d46774757bffcd7afee
+source-git-commit: 8385743efa75e0c44cf44d0443094b11d579216d
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2318'
 ht-degree: 0%
 ---
 # 재사용 가능한 대상 만들기
@@ -42,6 +42,8 @@ ht-degree: 0%
 *Beta 기능*
 
 *영어만 지원*
+
+AI Assistant에 대상자 개요를 제공하거나 자연어 프롬프트에 포함하거나 제외할 대상자 특성을 설명합니다. 대상 정의에서 최적화 기준, 포함할 ID 유형 및 제외할 자사 세그먼트를 세분화할 수 있습니다. AI Assistant가 일치하는 대상 세그먼트의 목록을 조합하면 대상을 저장하기 전에 세그먼트 목록을 세분화할 수 있습니다.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -77,13 +79,19 @@ ht-degree: 0%
 
       한 번에 여러 질문을 할 수 있지만 한 번에 한 개의 질문만 할 수 있습니다. 다른 메시지를 보내기 전에 응답을 기다립니다.
 
-      [!UICONTROL Step 1: Audience Definition] 탭에 대상 정의가 있는 패널이 옆으로 열립니다. 정의에는 정의된 모든 대상 필터, 최적화 기준 및 제외할 자사 세그먼트가 포함됩니다.
+      [!UICONTROL Step 1: Audience Definition] 탭에 대상 정의가 있는 패널이 옆으로 열립니다. 정의에는 정의된 모든 대상 필터, 최적화 기준(포함할 장치 ID 유형 및 범용 ID 유형 포함) 및 제외할 자사 세그먼트가 포함됩니다. 제한을 지정하지 않은 경우 세그먼트는 모든 장치 유형 ID 유형 및 범용 ID를 포함하여 가장 높은 볼륨에 대한 최적화와 모든 자사 대상을 포함하는 것을 기반으로 합니다.
 
       해당하는 경우 AI Assistant는 보다 효과적인 대상 브리핑을 만드는 데 도움이 되는 추가 대상 필터를 제안합니다. 제안을 수락하거나 거부할 수 있습니다.
 
-   1. (선택 사항) 자사 세그먼트를 제외하려면 AI Assistant에 이를 허용하라는 메시지를 표시하거나 **[!UICONTROL First-party segments to exclude]** 섹션에서 ![편집](/help/dsp/assets/edit-ai.png "편집")을(를) 클릭하고 대상에 대해 제외할 세그먼트를 선택한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+   1. (선택 사항) 대상 정의 세분화:
 
-   1. (선택 사항) 필요에 따라 추가 프롬프트를 제출하여 포함 및 제외할 대상 특성을 설명합니다. 각 프롬프트를 제출하려면 ![프롬프트 제출](/help/dsp/assets/submit-prompt.png "프롬프트 제출")을 클릭하십시오.
+      * *[!UICONTROL Highest volume]*&#x200B;에서 *[!UICONTROL Lowest cost]*(으)로 최적화 기준을 변경하려면 AI Assistant에 이를 수행하도록 요청하거나 **[!UICONTROL Criteria]** 옆에 있는 ![편집](/help/dsp/assets/edit-ai.png "편집")을 클릭하고 기준을 선택한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭하십시오.
+
+      * 모든 ID 유형(모든 장치 유형 ID 유형 및 범용 ID 포함)과 특정 ID 유형만 포함하는 중에서 변경하려면 AI Assistant에 이를 수행하도록 요청하거나 **[!UICONTROL ID type]** 옆에 있는 ![편집](/help/dsp/assets/edit-ai.png "편집")을 클릭하고 포함할 ID 유형을 선택한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭하십시오.
+
+      * 자사 세그먼트를 제외하려면 AI Assistant에 이를 허용하라는 메시지를 표시하거나 **[!UICONTROL First-party segments to exclude]** 섹션에서 ![편집](/help/dsp/assets/edit-ai.png "편집")을(를) 클릭하고 대상에 대해 제외할 세그먼트를 선택한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+
+      * 필요에 따라 추가 프롬프트를 제출하여 포함 및 제외할 대상 특성을 설명합니다. 각 프롬프트를 제출하려면 ![프롬프트 제출](/help/dsp/assets/submit-prompt.png "프롬프트 제출")을 클릭하십시오.
 
 1. 대상 정의가 기준을 충족하면 포함할 세그먼트를 지정합니다.
 
@@ -110,6 +118,8 @@ ht-degree: 0%
 *Beta 기능*
 
 *영어만 지원*
+
+포함 및 제외할 대상 특성을 설명하는 대상자 에이전트 개요 또는 자연어 프롬프트를 대상 에이전트에 제공합니다.
 
 >[!NOTE]
 >
@@ -154,6 +164,72 @@ ht-degree: 0%
    >[!NOTE]
    >
    >나중에 대상을 편집하려면 [대상 식을 수동으로 편집](/help/dsp/audiences/reusable-audience-edit.md)하십시오.
+
+### 프롬프트 작성 및 대상자 에이전트 응답 {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### 대상자 프롬프트 작성 지침
+
+* 대상 대상을 설명하려면 명확하고 수사적인 언어를 사용하십시오.
+
+  * 완전한 문장이나 일련의 특징들을 입력할 수 있다. 명확성을 위해 필요한 경우를 제외하고는 구두점이 필요하지 않습니다.
+
+  * 일반적으로 프롬프트는 대/소문자를 구분하지 않습니다.
+
+  * Audience Agent는 가장 일반적인 동의어를 인식합니다.
+
+* 구체화:
+
+  * 포함할 모든 대상 특성과 제외할 특성에 대한 세부 정보를 제공합니다. 더 많은 세부 정보를 제공하면 요구 사항에 맞는 결과를 얻을 가능성이 높아집니다.
+
+  * 포함하거나 제외할 위치, 장치 유형 및 데이터 공급자를 식별합니다.
+
+  대상을 저장하기 전에 항상 대상 필터, 최적화 기준, 제외할 자사 세그먼트 및 최종 세그먼트 목록을 편집할 수 있습니다. 시작하기 위해 모든 세부 사항을 증명하면 프로세스가 단축됩니다.
+
+* 대상을 저장하기 전에 기준 및 생성된 대상 표현식을 세분화하기 위한 세부 정보를 반복적으로 제공합니다.
+
+* 대상자 에이전트는 생성된 대상자 표현식을 대상자로 자동으로 저장하지 않습니다. 프롬프트 영역 외부에 있는 [!UICONTROL Save Audience] 또는 [!UICONTROL Create] 단추만 클릭하여 대상자를 저장할 수 있으므로, 유지하지 않을 변경 내용을 실행 취소할 수 있습니다.
+
+대상자에 대한 프롬프트를 최적화하는 자세한 방법은 &quot;[대상자 브리프 만들기에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### 프롬프트 제한
+
+* 기존 대상자에 대한 참조.
+
+* 영어 이외의 언어로 된 텍스트.
+
+#### Audience 에이전트에 응답하는 방법
+
+대상 에이전트가 사용자의 응답이 필요한 경우 요청에 키워드를 사용하거나 일반적인 동의어를 사용하여 답장할 수 있습니다.
+
+##### 계속 진행할지 확인
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+긍정 응답: &quot;progress,&quot; &quot;okay,&quot; &quot;ok,&quot; &quot;yes,&quot; 또는 다른 유사한 단어
+
+요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수도 있습니다.
+
+##### 추천 옵션 중에서 선택
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+답글: `1`, `proceed`, `2`, `maximum reach` 등.
+
+요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수도 있습니다.
 
 ### 대상자 개요 작성을 위한 우수 사례 {#audience-brief-best-practices}
 
@@ -210,72 +286,6 @@ ht-degree: 0%
 다음은 프리미엄 밀 키트 구독 서비스에 대한 인지도 및 평가판을 높이기 위한 캠페인에 대한 강력한 대상 브리핑의 예입니다.
 
 `The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
-
-### 프롬프트 작성 및 대상자 에이전트 응답 {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### 대상자 프롬프트 작성 지침
-
-* 대상 대상을 설명하려면 명확하고 수사적인 언어를 사용하십시오.
-
-  * 완전한 문장이나 일련의 특징들을 입력할 수 있다. 명확성을 위해 필요한 경우를 제외하고는 구두점이 필요하지 않습니다.
-
-  * 일반적으로 프롬프트는 대/소문자를 구분하지 않습니다.
-
-  * Audience Agent는 가장 일반적인 동의어를 인식합니다.
-
-* 포함하려는 모든 대상 특성과 제외하려는 특성에 대한 세부 정보를 지정하고 제공해야 합니다. 더 많은 세부 정보를 제공하면 요구 사항에 맞는 결과를 얻을 가능성이 높아집니다.
-
-* 포함하거나 제외할 위치, 장치 유형 및 데이터 공급자를 식별합니다.
-
-* 대상을 저장하기 전에 기준 및 생성된 대상 표현식을 세분화하기 위한 세부 정보를 반복적으로 제공합니다.
-
-* 실험을 통해 프롬프트에 대해 알아봅니다.
-
-  프롬프트가 명확하지 않으면 Audience Agent에서 다른 프롬프트를 요청하므로 다시 시도할 수 있습니다.
-
-  대상자 에이전트는 생성된 대상자 표현식을 대상자로 자동으로 저장하지 않습니다. 프롬프트 영역 외부에 있는 [!UICONTROL Create] 단추만 클릭하여 대상자를 저장할 수 있으므로 보관하지 않을 변경 내용을 실행 취소할 수 있습니다.
-
-대상자에 대한 프롬프트를 최적화하는 자세한 방법은 &quot;[대상자 브리프 만들기에 대한 모범 사례](#audience-brief-best-practices)&quot;를 참조하십시오.
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### 프롬프트 제한
-
-* 기존 대상자에 대한 참조.
-
-* 영어 이외의 언어로 된 텍스트.
-
-#### Audience 에이전트에 응답하는 방법
-
-대상 에이전트가 사용자의 응답이 필요한 경우 요청에 키워드를 사용하거나 일반적인 동의어를 사용하여 답장할 수 있습니다.
-
-##### 계속 진행할지 확인
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-긍정 응답: &quot;progress,&quot; &quot;okay,&quot; &quot;ok,&quot; &quot;yes,&quot; 또는 다른 유사한 단어
-
-요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수도 있습니다.
-
-##### 추천 옵션 중에서 선택
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-답글: `1`, `proceed`, `2`, `maximum reach` 등.
-
-요청을 무시하고 대신 추가 대상 기준을 계속 지정할 수도 있습니다.
 
 ## 재사용 가능한 대상 수동 만들기
 
