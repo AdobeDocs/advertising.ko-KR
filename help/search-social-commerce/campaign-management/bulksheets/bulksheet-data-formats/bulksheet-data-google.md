@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff1657a7f005eb93c83fdc7fd2e53810d9e03bd8
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '8378'
+source-wordcount: '8452'
 ht-degree: 0%
 ---
 # 부록 - [!DNL Google Ads] 계정에 대한 필수 일괄 시트 데이터
@@ -146,11 +146,11 @@ ht-degree: 0%
 | [!UICONTROL Product Group ID] | 기존 제품 그룹을 식별하는 고유 ID입니다. CSV 및 TSV 파일에서 앞에는 작은따옴표(&#39;)가 있어야 합니다.[^1] 행에는 a) 제품 그룹을 식별하기에 충분한 속성 열 또는 b) &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되어 있지 않은 한 제품 그룹을 변경하거나 삭제할 때만 필요합니다.&quot; |
 | [!UICONTROL Sitelink ID] | 기존 사이트링크를 식별하는 고유 ID입니다. CSV 및 TSV 파일에서 앞에는 작은따옴표(&#39;)가 있어야 합니다.[^1] a) 사이트링크를 식별할 수 있는 충분한 속성 열 또는 b) &quot;[!UICONTROL AMO ID]&quot;이(가) 행에 포함되지 않는 한 사이트링크를 변경하거나 삭제할 때만 필요합니다.&quot; 그러나 [!UICONTROL Sitelink ID]과(와) [!UICONTROL AMO ID]을(를) 모두 포함하지 않고 속성 열이 여러 사이트 링크와 일치하는 경우 사이트 링크 중 하나의 상태만 변경됩니다.</p><p><b>참고:</b> 기존 사이트 링크의 상태를 제외한 사이트 링크 속성 열을 편집하고 [!UICONTROL Sitelink ID] 및 [!UICONTROL AMO ID]을(를) 포함하지 않으면 새 사이트 링크가 만들어지고 기존 사이트 링크는 변경되지 않습니다. |
 | [!UICONTROL RLSA Target ID] | 기존 캠페인 또는 광고 그룹 수준의 RLSA 대상 또는 제외를 식별하는 고유 ID입니다. CSV 및 TSV 파일에서 앞에는 작은따옴표(&#39;)가 있어야 합니다.[^1] 행에는 대상에 대한 &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되어 있지 않은 한 대상 또는 제외를 변경하거나 삭제할 때만 필요합니다. |
-| [!UICONTROL Device Target ID] | <p>기존 캠페인 수준 또는 광고 그룹 수준의 장치 대상 또는 제외를 식별하는 고유 ID입니다. CSV 및 TSV 파일에서 앞에는 작은따옴표(&#39;)가 있어야 합니다.[^1] 행에는 대상에 대한 &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되어 있지 않은 한 대상을 변경하거나 삭제할 때만 필요합니다.</p> |
-| [!UICONTROL Campaign Excluded URL ID] | 캠페인에 대해 제외된 URL 표현식의 ID입니다. |
-| [!UICONTROL Ad Group Included URL ID] | 광고 그룹에 포함된 URL 표현식의 ID입니다. |
-| [!UICONTROL Campaign Brand Criterion ID] | 캠페인의 브랜드 목록 기준에 대한 ID입니다. |
-| [!UICONTROL Ad Group Brand Criterion ID] | 광고 그룹의 브랜드 목록 기준에 대한 ID입니다. |
+| [!UICONTROL Device Target ID] | 기존 캠페인 수준 또는 광고 그룹 수준의 장치 대상 또는 제외를 식별하는 고유 ID입니다. CSV 및 TSV 파일에서 앞에는 작은따옴표(&#39;)가 있어야 합니다.[^1] 행에는 대상에 대한 &quot;[!UICONTROL AMO ID]&quot;이(가) 포함되어 있지 않은 한 대상을 변경하거나 삭제할 때만 필요합니다. |
+| [!UICONTROL Campaign Excluded URL ID] | 캠페인에 대해 제외된 URL을 식별하는 고유 ID입니다. URL 제외 목록을 변경하거나 삭제하는 경우에만 필요합니다. |
+| [!UICONTROL Ad Group Included URL ID] | 광고 그룹에 포함된 URL을 식별하는 고유 ID입니다. URL 포함 목록을 변경하거나 삭제하는 경우에만 필요합니다. |
+| [!UICONTROL Campaign Brand Criterion ID] | (읽기 전용) 캠페인의 각 브랜드 목록에 대한 기준을 식별하는 고유 ID입니다. 브랜드 목록 포함 또는 제외를 추가하면 [!DNL Google Ads]에서 이 ID를 만듭니다. 값을 입력하거나 편집하지 마십시오. |
+| [!UICONTROL Ad Group Brand Criterion ID] | (읽기 전용) 각 광고 그룹의 브랜드 목록에 대한 기준을 식별하는 고유한 ID입니다. 브랜드 목록 포함 또는 제외를 추가하면 [!DNL Google Ads]에서 이 ID를 만듭니다. 값을 입력하거나 편집하지 마십시오. |
 | [!UICONTROL AMO ID] | (생성된 일괄 시트에서) 동기화된 엔티티에 대해 Adobe이 생성한 고유 식별자입니다. 반응형 검색 광고의 경우 광고 ID를 포함하지 않는 한 광고를 편집하거나 삭제하려면 AMO ID가 필요합니다. AMO ID가 있는 다른 모든 엔터티 형식의 데이터를 편집하려면 엔터티 ID와 상위 엔터티 ID를 포함하지 않으면 데이터를 편집하거나 삭제하려면 AMO ID가 필요합니다.<br><br>검색, 소셜 및 Commerce에서는 값을 사용하여 편집할 올바른 ID를 결정하지만 ID를 광고 네트워크에 게시하지 않습니다. |
 | [!UICONTROL EF Error Message] | (정보 목적으로 생성된 일괄 시트에 포함됨) 행의 데이터에 대한 광고 네트워크의 오류 메시지를 표시하는 자리 표시자입니다. 오류 메시지는 [!UICONTROL EF Errors] 파일에 포함됩니다. 이 값은 광고 네트워크에 게시되지 않습니다. |
 | [!UICONTROL SE Error Message] | (정보 목적으로 생성된 일괄 시트에 포함됨) 행의 데이터에 대한 광고 네트워크의 오류 메시지를 표시하는 자리 표시자입니다. 오류 메시지는 [!UICONTROL SE Errors] 파일에 포함됩니다. 이 값은 광고 네트워크에 게시되지 않습니다. |

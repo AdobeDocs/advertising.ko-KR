@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c6ab712d47cafc8e9590a212253949a053b7c476
+source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '407'
 ht-degree: 0%
 ---
 # Advertising DSP의 AI Assistant 정보
@@ -36,7 +36,7 @@ DSP의 AI Assistant는 단일 채팅박스에서 DSP에서 사용할 수 있는 
 
 | 기능 | 설명 | 응답 |
 | --- | --- | --- |
-| [문제 해결](troubleshooting-agent.md) | (Beta 기능) 라이브 패키지 및 배치에 대한 성능 및 배달 문제를 진단합니다. | 응답에는 성능을 제한하는 요소가 포함되며 문제 해결을 위한 권장 사항이 제공됩니다. |
+| [문제 해결](troubleshooting-agent.md) | (Beta 기능) 라이브 패키지 및 배치에 대한 성능 및 배달 문제를 진단합니다. | 응답에는 성능을 제한하는 요소가 포함되며 문제 해결을 위한 단계별 지침과 권장 사항을 제공합니다. |
 | [인사이트](insights-agent.md) | (Beta 기능) 보고서를 수동으로 만들지 않고 캠페인 지표와 전체 보고서를 가져올 수 있습니다. 결과를 CSV 파일로 다운로드할 수 있습니다. | 전체 보고서를 미리 보고 보고서를 [!DNL Microsoft Excel] 쉼표로 구분된 값 파일(.csv)로 다운로드할 수 있는 링크와 함께 보고서의 처음 몇 행이 표시됩니다. |
 | [제품 설명서 검색](documentation-search.md) | [Advertising DSP 안내서](/help/dsp/home.md) 및 Advertising Creative을 사용하는 광고주의 경우 [Advertising Creative 안내서](/help/creative/home.md)에서 개념 및 방법 콘텐츠를 검색합니다. | 응답에는 인라인 인용과 맨 아래에 확장 가능한 [!UICONTROL Documentation Sources] 목록이 포함됩니다. 인용 또는 소스 목록을 클릭하여 관련 페이지를 엽니다.<br><br>응답에는 쿼리를 구체화하고 추가 정보를 찾는 데 도움이 되는 후속 질문과 제안도 포함될 수 있습니다. |
 
