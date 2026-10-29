@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
+source-git-commit: bb51f0b99f757eb01d3132c1c998479600f3f487
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1116'
 ht-degree: 3%
 ---
 
@@ -109,6 +109,9 @@ ht-degree: 3%
   + [키보드 단축키](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
   + [캠페인 관리에 대한 FAQ](/help/dsp/campaign-management/faq-campaign-management.md)
   + [범용 비디오에 대한 FAQ](/help/dsp/campaign-management/faq-universal-video.md)
++ 대화형 광고(Beta) {#conversational-ads}
+  + [&#x200B; [!DNL ChatGPT] 대화형 광고 계정 관리](/help/dsp/campaign-management/conversational-ads/account-manage.md)
+  + [&#x200B; [!DNL ChatGPT] 대화형 광고 캠페인, 광고 그룹 및 광고 관리](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)
 + 최적화 {#optimization}
   + [Advertising DSP에서 캠페인을 최적화하는 방법](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
   + [최적화 목표 및 사용 방법](/help/dsp/optimization/optimization-goals.md)
