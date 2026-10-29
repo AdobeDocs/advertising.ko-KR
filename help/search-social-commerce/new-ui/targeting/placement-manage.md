@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1390'
 ht-degree: 0%
 ---
 # 배치 관리
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
-1. 필요한 경우 ![편집](/help/search-social-commerce/assets/edit-new.png "편집") **[!UICONTROL Edit]**&#x200B;을(를) 클릭하고 엔터티 및/또는 배치 설정을 변경합니다.
+1. 설정을 검토합니다. 설정을 변경하려면 해당 섹션에서 ![편집](/help/search-social-commerce/assets/edit-new.png "편집") **[!UICONTROL Edit]**&#x200B;을(를) 클릭하고 설정을 변경합니다.
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
-1. 필요한 경우 ![편집](/help/search-social-commerce/assets/edit-new.png "편집") **[!UICONTROL Edit]**&#x200B;을(를) 클릭하고 엔터티 및/또는 부정적인 웹 사이트 URL을 변경합니다.
+1. 설정을 검토합니다. 설정을 변경하려면 해당 섹션에서 ![편집](/help/search-social-commerce/assets/edit-new.png "편집") **[!UICONTROL Edit]**&#x200B;을(를) 클릭하고 설정을 변경합니다.
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
