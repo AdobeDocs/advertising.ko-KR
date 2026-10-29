@@ -37,7 +37,7 @@ Adobe DSP과 [!DNL OpenAI Ads]의 통합을 통해 [!DNL ChatGPT]개의 대화 �
 
 ## 청구
 
- [!DNL ChatGPT Ads] account](#account-settings)에 사용된 [통화 및 시간대에 관계없이 DSP 계정에 대한 청구 통화 및 청구 시간대를 사용하여 다른 인보이스와 함께 월말에 [!DNL ChatGPT Ads] 사용에 대해 청구됩니다. 청구 질문이 있는 경우 Adobe 계정 팀에 문의하십시오.
+ [!DNL ChatGPT Ads] account[&#128279;](#account-settings)에 사용된 통화 및 시간대에 관계없이 DSP 계정에 대한 청구 통화 및 청구 시간대를 사용하여 다른 인보이스와 함께 월말에 [!DNL ChatGPT Ads] 사용에 대해 청구됩니다. 청구 질문이 있는 경우 Adobe 계정 팀에 문의하십시오.
 
 ## [!UICONTROL Conversational Ads Beta] > [!UICONTROL Accounts] 보기 {#accounts-view}
 
