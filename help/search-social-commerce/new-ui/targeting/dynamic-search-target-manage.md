@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f907f445c70ce64368dfa7e77d4cd1900ecc7113
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '1504'
 ht-degree: 0%
 ---
 # [!DNL Google Ads]개의 동적 검색 대상 관리
@@ -45,19 +45,21 @@ ht-degree: 0%
 
 [!DNL Google Ads] 동적 검색 광고에 대한 자세한 내용은 https://support.google.com/google-ads/answer/2471185을 참조하십시오.
 
-## [!UICONTROL Auto Targets] 보기
+## [!UICONTROL Auto Targets] 보기 {#auto-target-view-about}
 
 [!UICONTROL Targeting] > [!UICONTROL Auto Targets] 보기는 선택한 광고주 계정에 대해 필터링된 보기의 모든 동적 검색 대상을 나열합니다. 동적 검색 타겟을 관리할 수도 있습니다.
 
+데이터를 보려면 [!UICONTROL View Auto Targets] 권한이 필요합니다. 대상을 만들고 입찰 또는 상태를 편집하려면 [!UICONTROL Edit Auto Targets] 권한이 필요합니다.
+
 ### 사용 가능한 작업
 
-<!--
-* Create a dynamic search target
+* [동적 검색 대상 만들기](#auto-target-create)
 
-* Edit the settings for a dynamic search target
+* [동적 검색 대상에 대한 설정 편집](#auto-target-edit)
 
-* Change the status of dynamic search targets
--->
+* [동적 검색 대상의 상태 변경 또는 삭제](#auto-target-status)
+
+* [선택한 행의 모든 데이터를 클립보드에 복사](#copy-to-clipboard)
 
 * 동적 검색 대상에 [제약 조건을 할당](#constraint-assign)하고 동적 검색 대상에서 [제약 조건을 제거](#constraint-unassign)합니다.
 
@@ -67,146 +69,107 @@ ht-degree: 0%
 >
 >[일괄 시트 파일](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)을 업로드하고 광고 네트워크에 게시하여 한 번에 많은 양의 대상 데이터(레이블 및 제한 할당 포함)를 만들고 편집할 수 있습니다.
 
-<!--
-Not available yet:
+## [!DNL Google Ads] 동적 검색 대상 만들기 {#auto-target-create}
 
-## Create a [!DNL Google Ads] dynamic search target
+동적 검색 타겟을 만들어 콘텐츠가 동일한 광고 그룹에서 동적 검색 광고를 타깃팅하는 데 사용되는 웹 사이트(즉, 광고의 디스플레이 URL에 사용되는 도메인)의 페이지를 정의할 수 있습니다.
 
-You can create dynamic search targets to define pages in your websites (that is, the domains used in your ads' display URLs) whose content is used to target your dynamic search ads in the same ad group.
-
-You can target all criteria or up to three individual criteria.
+인덱싱된 모든 페이지를 타겟팅하거나 최대 3개의 기준을 지정할 수 있습니다.
 
 >[!NOTE]
 >
->To best track performance, create an "[!UICONTROL All Targets]" target for only one ad group per campaign.
+>성능을 최상으로 추적하려면 캠페인당 하나의 광고 그룹에만 대해 [!UICONTROL All] 옵션을 사용하여 대상을 만드십시오.
 
->[!TIP]
->
->To create many account components at once, use [campaign bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+1. 메인 메뉴에서 **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
 
-1. In the main menu, click **[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]**. In the submenus, click **[!UICONTROL Live] > [!UICONTROL Auto Targets]**.
+1. 데이터 테이블 위에서 **[!UICONTROL Create Auto Target]**&#x200B;을(를) 클릭합니다.
 
-1. In the toolbar above the data table, click ![Create](/help/search-social-commerce/assets/add.png "Create").
+1. **[!UICONTROL Basic Settings]**&#x200B;에서 광고 네트워크, 계정, 캠페인 및 광고 그룹을 선택합니다.
 
-1. Select the ad network, the account, the campaign, and the ad group, and then click **[!UICONTROL Continue]**.
+1. 나머지 [동적 검색 대상 설정](#auto-target-create-settings)을 지정하십시오.
 
-1. Specify the [dynamic search target settings](#dynamic-search-target-settings).
+1. **[!UICONTROL Review and Save]**&#x200B;을(를) 클릭합니다.
 
-1. Click **[!UICONTROL Post]**.
+1. 설정을 검토합니다. 설정을 변경하려면 해당 섹션에서 ![편집](/help/search-social-commerce/assets/edit-new.png "편집") **[!UICONTROL Edit]**&#x200B;을(를) 클릭하고 설정을 변경합니다.
 
-## Edit [!DNL Google Ads] dynamic search target settings
+1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-You can edit the status or maximum bid for a [!DNL Google Ads] dynamic search target. You can't change the criteria that are targeted.
+## [!DNL Google Ads] 동적 검색 대상 설정 편집 {#auto-target-edit}
 
->[!TIP]
->
->To edit large amounts of data at once, use [campaign bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+하나 이상의 동적 검색 대상에 대한 상태 또는 최대 입찰가를 편집할 수 있습니다. 타겟팅된 기준을 변경할 수 없습니다.
 
-1. In the main menu, click **[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]**. In the submenus, click **[!UICONTROL Live] > [!UICONTROL Auto Targets]**.
+1. 메인 메뉴에서 **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
 
-1. Select the check box next to each row to edit.
+1. 편집할 각 행 옆의 확인란을 선택합니다.
 
-   For tips on selecting multiple rows, see "[Select multiple rows](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)."
+   여러 행 선택에 대한 팁은 &quot;[여러 행 선택](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;을 참조하십시오.
 
-1. In the toolbar above the data table, click ![Edit](/help/search-social-commerce/assets/edit.png "Edit").
+1. 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. Specify the [dynamic search target settings](#dynamic-search-target-settings).
+1. **[!UICONTROL Edit Auto Targets]** 패널에서 [상태 및 입찰 설정](#auto-target-edit-settings)을(를) 편집합니다.
 
-   For multiple targets, your changes are applied to all of the selected targets. For the [!UICONTROL Bid field], you have options to change existing values to a specified value or to either increase or decrease the amount by a specified percentage or monetary amount, with a limit.
+   변경 사항은 선택한 모든 대상에 적용됩니다. 변경하지 않는 설정은 기존 값을 유지합니다.
 
-1. Save the data:
+   선택한 타겟이 여러 통화를 사용하는 경우 입찰 편집이 비활성화됩니다. 상태를 변경할 수 있습니다.
 
-   * (Single targets) Click **[!UICONTROL Post]**.
-   
-   * (Multiple ad groups) Click **[!UICONTROL Post Now]**.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-## Change the status of [!DNL Google Ads] dynamic search targets
+입찰 값을 클릭하여 데이터 테이블에서 직접 단일 대상의 입찰을 편집할 수도 있습니다.
 
-You can pause any active dynamic search target in a supported campaign type to stop using them for dynamic search ads in the same ad group. You can later use them as targets by changing the ad status back to active.
+## [!DNL Google Ads] 동적 검색 대상의 상태 변경 또는 삭제 {#auto-target-status}
 
-You can also delete any dynamic target.
+활성 동적 검색 대상을 일시 중지하여 동일한 광고 그룹의 동적 검색 광고에 사용을 중지할 수 있습니다. 나중에 상태를 다시 활성으로 변경하여 대상 사용을 재개할 수 있습니다. 동적 검색 타겟을 삭제할 수도 있습니다.
 
-1. In the main menu, click **[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]**. In the submenus, click **[!UICONTROL Live] > [!UICONTROL Auto Targets]**.
+1. 메인 메뉴에서 **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
 
-1. (Optional) Filter the list to include specific dynamic targets.
+1. (선택 사항) 특정 동적 검색 대상을 포함하도록 목록을 필터링합니다.
 
-1. Do either of the following:
-   
-   * To change the status of one dynamic target, click in the **[!UICONTROL Status]** column and change the status.
-   
-   * To delete one or more dynamic targets, do the following:
-   
-     1.  Select the check box next to each dynamic target you want to delete.
-     
-        For tips on selecting multiple rows, see "[Select multiple rows](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)."
-     
-     1. In the toolbar, click ![More](/help/search-social-commerce/assets/more.png "More") and select **[!UICONTROL Delete]**.
-     
-     1. In the confirmation message, click **[!UICONTROL Delete]**.
+1. 다음 중 하나를 수행합니다.
 
-## [!DNL Google Ads] dynamic search target settings {#dynamic-search-target-settings}
+   * 한 대상의 상태를 변경하려면 **[!UICONTROL Status]** 열에서 해당 값을 클릭하고 **[!UICONTROL Active]** 또는 **[!UICONTROL Paused]**&#x200B;을(를) 선택하십시오.
 
-### [!UICONTROL Auto-Target Details]
+   * 여러 대상의 상태를 변경하려면 각 대상 옆의 확인란을 선택하고 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭하고 **[!UICONTROL Edit Auto Targets]** 패널에서 **[!UICONTROL Status]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-**[!UICONTROL Auto-targets]:** (Required when you don't specify a website domain and language in the campaign's [!UICONTROL DSA Options] section; read-only for existing targets) Dynamic search targets for the ad group:
+   * 하나 이상의 대상을 삭제하려면 각 대상 옆의 확인란을 선택하고 일괄 작업 도구 모음에서 **[!UICONTROL ...]>[!UICONTROL Delete]**&#x200B;을(를) 클릭한 다음 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
-* *[!UICONTROL All Targets]* (the default): Targets all indexed pages.
+## 선택한 행의 모든 데이터를 클립보드에 복사 {#copy-to-clipboard}
 
-* *\[Specific Targets\]:* Targets up to three criteria for the indexed pages. When you select this, you must specify the criteria by specifying information categories and specific values for which to target ads (for example, "URL contains shoes.example.com"). To specify more than one criteria, click **[!UICONTROL + And]**. Target criteria include:
+보기에 표시되는 적용된 필터 및 열에 따라 선택한 행에 표시되는 정보를 복사합니다. 정보는 탭으로 구분된 값(TSV)으로 저장됩니다.
 
-  * *[!UICONTROL Category]:* To show ads for indexed pages with a specific [!DNL Google Ads] content category.
+1. 데이터를 복사할 각 행 옆의 확인란을 선택합니다.
 
-  * *[!UICONTROL URL]:* To show ads for indexed pages with a specific URL, where the value may be included anywhere within the URL.
+1. 일괄 작업 도구 모음에서 **[!UICONTROL Copy]**&#x200B;을(를) 클릭합니다.
 
-  * *[!UICONTROL Page Title]:* To show ads for indexed pages with specific text in the page title.
+## 동적 검색 대상에 대한 제한 지정 관리 {#constraints}
 
-  * *[!UICONTROL Page Content]:* To show ads for indexed pages with specific content.
-
-**Status:** The status of the target settings:
-
-* *[!UICONTROL Active]* (the default): Enables bidding.
-
-* *[!UICONTROL Paused]:* Disables bidding.
-
-* *[!UICONTROL Deleted]* (existing targets only): Deletes the target settings.
-
-### [!UICONTROL Bids]
-
-**[!UICONTROL Bid]:** The maximum cost per click (CPC) for an ad or cost per 1000 impressions (CPM) for an ad, as applicable for the ad network and campaign pricing model. This value overrides the ad group-level value.
-
->[!NOTE]
->
->If the target is in an optimized portfolio, then the specified CPC bid is applied for one day. Afterward, the optimization capability places bids according to its own calculations.
-
--->
-
-## 새 [!UICONTROL Auto Targets] 보기에서 선택한 동적 검색 대상에 제약 조건 할당 {#constraint-assign}
+### 동적 검색 대상에 제한 지정 {#constraint-assign}
 
 1. 메인 메뉴에서 **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
 
 1. 단일 제약 조건을 지정할 각 동적 검색 대상 옆의 확인란을 선택합니다.
 
-1. 일괄 작업 도구 모음에서 **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**&#x200B;을(를) 클릭합니다.
+1. 일괄 작업 도구 모음에서 **+[!UICONTROL Assign]** > **[!UICONTROL Bid Constraint]**&#x200B;을(를) 클릭합니다.
 
 1. 제약조건을 선택합니다.
 
 1. **[!UICONTROL Assign Now]**&#x200B;을(를) 클릭합니다.
 
-## 새 [!UICONTROL Auto Targets] 보기에서 선택한 동적 검색 대상에서 제약 조건 제거 {#constraint-unassign}
+### 선택한 동적 검색 대상에서 제한 제거 {#constraint-unassign}
 
 1. 메인 메뉴에서 **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
 
 1. 제약 조건을 할당 해제할 각 동적 검색 대상 옆의 확인란을 선택합니다.
 
-1. 일괄 작업 도구 모음에서 **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**&#x200B;을(를) 클릭합니다.
+1. 일괄 작업 도구 모음에서 **-[!UICONTROL Unassign]** > **[!UICONTROL Bid Constraint]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
-## 동적 검색 대상에 분류 값 할당 {#classification-values-assign}
+## 동적 검색 대상에 대한 분류 값 관리 {#classification-values}
+
+### 동적 검색 대상에 분류 값 할당 {#classification-values-assign}
 
 >[!NOTE]
 >
->레이블 값은 하위 엔티티에 의해 상속되므로 상속된 값을 재정의하지 않는 한 하위 엔티티에 대한 값을 입력하지 마십시오.
+>레이블 값은 하위 엔티티에 의해 상속되므로 상속된 값을 재정의하지 않는 한 동적 검색 대상에 대한 값을 입력하지 마십시오.
 
 1. 메인 메뉴에서 **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**&#x200B;을(를) 클릭합니다.
 
@@ -236,7 +199,7 @@ You can also delete any dynamic target.
 
 1. **+[!UICONTROL Assign Now]**&#x200B;을(를) 클릭합니다.
 
-## 동적 검색 대상에서 레이블 분류 값 제거 {#classification-values-remove}
+### 동적 검색 대상에서 레이블 분류 값 제거 {#classification-values-remove}
 
 분류 값을 제거하면 계정 구성 요소 및 모든 하위 구성 요소와의 연결이 제거됩니다. 분류 값에 대한 보고서 데이터는 해당 구성 요소에서 더 이상 사용할 수 없습니다. 분류 값을 제거해도 값이나 계정 구성 요소는 삭제되지 않습니다.
 
@@ -250,9 +213,67 @@ You can also delete any dynamic target.
 
 1. 선택한 엔티티에서 제거할 각 분류 값 옆의 확인란을 선택합니다.
 
-   할당된 모든 값을 선택하려면 **[!UICONTROL Select All]**&#x200B;을(를) 클릭하십시오. 할당된 모든 값을 선택 해제하려면 **[!UICONTROL Deselect All]**&#x200B;을(를) 클릭합니다.
+   할당된 모든 값을 선택하려면 **[!UICONTROL Select All]**&#x200B;을(를) 클릭하십시오. 할당된 모든 값을 선택 취소하려면 **[!UICONTROL Deselect All]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Unassign Selected]**&#x200B;을(를) 클릭합니다.
+
+## [!DNL Google Ads] 동적 검색 대상 설정 {#dynamic-search-target-settings}
+
+### 만드는 동안 사용할 수 있는 설정 {#auto-target-create-settings}
+
+#### [!UICONTROL Auto Target Details]
+
+**자동 타겟:** 콘텐츠가 광고 그룹의 동적 검색 광고를 타깃팅하는 데 사용되는 인덱싱된 페이지:
+
+* *[!UICONTROL All]*(기본값): 인덱싱된 모든 페이지를 대상으로 합니다.
+
+* *[!UICONTROL Specific]:*&#x200B;개의 대상 페이지가 최대 3개의 기준과 일치합니다. 기준을 선택하고 해당 값을 입력합니다. 다른 기준을 추가하려면 **[!UICONTROL And]**&#x200B;을(를) 클릭하십시오. 기준은 AND와 결합되므로 페이지는 지정된 모든 기준과 일치해야 합니다. 기준을 지우려면 **[!UICONTROL Reset]**&#x200B;을(를) 클릭합니다.
+
+  * *[!UICONTROL Category]:* 페이지의 [!DNL Google Ads] 콘텐츠 범주가 지정된 값과 같습니다. 값을 입력합니다.
+
+  * *[!UICONTROL URL]:* 페이지의 URL에 `shoes.example.com`과(와) 같이 지정된 값이 포함되어 있습니다. 올바른 URL을 입력하십시오.
+
+  * *[!UICONTROL Page Title]:* 페이지 제목에 지정된 텍스트가 포함되어 있습니다. 값을 입력합니다.
+
+  * *[!UICONTROL Page Content]:* 페이지 콘텐츠에 지정된 텍스트가 있습니다. 값을 입력합니다.
+
+대상을 만든 후에는 대상 기준을 변경할 수 없습니다.
+
+**[!UICONTROL Status]:** 대상의 상태:
+
+* *[!UICONTROL Active]*(기본값): 입찰을 사용합니다.
+
+* *[!UICONTROL Paused]:*&#x200B;이(가) 입찰을 사용하지 않도록 설정합니다.
+
+**[!UICONTROL Bid]:** 대상에 대한 CPC(클릭당 최대 비용)입니다. 이 값은 광고 그룹 수준의 입찰을 무시합니다. 필드는 선택 사항입니다. 입찰을 입력할 때 최소값은 계정 통화로 0.01입니다.
+
+>[!NOTE]
+>
+>타겟이 최적화된 포트폴리오에 있는 경우 지정된 CPC 입찰가는 하루 동안 적용됩니다. 이후에 최적화 기능은 자체 계산에 따라 입찰을 배치합니다.
+
+### 편집하는 동안 사용할 수 있는 설정 {#auto-target-edit-settings}
+
+#### [!UICONTROL Auto Target Details]
+
+**[!UICONTROL Status]:** **[!UICONTROL Active]** 또는 **[!UICONTROL Paused]** 선택
+
+#### [!UICONTROL Bid details]
+
+선택한 타겟이 여러 통화를 사용하는 경우 입찰 편집이 비활성화됩니다.
+
+**[!UICONTROL Bid adjustment]:** 최대 입찰가를 변경하는 방법:
+
+* *[!UICONTROL Set to]:* 각 입찰가를 [!UICONTROL Set value]의 금액으로 바꿉니다.
+
+* *[!UICONTROL Increase]:* 각 입찰가를 [!UICONTROL Set value]의 금액 또는 백분율만큼 늘립니다.
+
+* *[!UICONTROL Decrease]:* 각 입찰가를 [!UICONTROL Set value]의 금액 또는 백분율만큼 감소시킵니다.
+
+**[!UICONTROL Modifier type]:**([!UICONTROL Increase] 및 [!UICONTROL Decrease]의 경우) **[!UICONTROL Currency]** 또는 **[!UICONTROL Percentage]**&#x200B;을(를) 선택합니다.
+
+**[!UICONTROL Set value]:** 새 입찰 또는 각 입찰을 변경할 금액 또는 백분율입니다. 최소값은 0.01입니다.
+
+**[!UICONTROL Max limit]:**(선택 사항, [!UICONTROL Increase] 및 [!UICONTROL Decrease]의 경우) 계정 통화로 제한됩니다. 증가의 경우 이는 최대 결과 입찰가입니다. 감소의 경우 이는 최소 결과 입찰가입니다. 제한을 입력할 때 최소값은 0.01입니다.
 
 >[!MORELIKETHIS]
 >

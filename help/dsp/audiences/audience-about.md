@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1464'
 ht-degree: 0%
 ---
 # Advertising DSP의 고객 관리 정보
@@ -58,7 +58,7 @@ DSP에서는 배치에 대한 타겟으로 사용할 수 있는 대상 세그먼
 
   * 추가 단계 없이 배치 대상에 범용 ID가 포함된 서드파티 세그먼트를 포함합니다.
 
-* [재사용 가능한 대상](/help/dsp/audiences/reusable-audience-create.md)의 대상 라이브러리를 만듭니다. 저장된 대상은 사용 가능한 대상 세그먼트와 다른 저장된 대상으로 구성됩니다. 저장된 대상에 대한 변경 사항은 대상을 타깃팅하거나 제외하는 모든 배치와 저장된 대상을 포함하는 다른 모든 대상에 자동으로 적용됩니다.
+* AI 지원 워크플로우를 사용하거나 수동으로 [재사용 가능한 대상](/help/dsp/audiences/reusable-audience-create.md)의 대상 라이브러리를 만듭니다. 저장된 대상은 사용 가능한 대상 세그먼트와 다른 저장된 대상으로 구성됩니다. 저장된 대상에 대한 변경 사항은 대상을 타깃팅하거나 제외하는 모든 배치와 저장된 대상을 포함하는 다른 모든 대상에 자동으로 적용됩니다.
 
   저장된 대상을 사용하면 미디어 플래너는 복잡한 부울 논리를 사용하여 여러 세그먼트를 포함 및 제외함으로써, 필요에 따라 대상을 그룹화할 수 있습니다. 대상을 만들면 각 개별 세그먼트의 (타깃팅 가능한) 크기 및 전체 활성 대상 크기가 표시됩니다. 그런 다음 캠페인 실행자는 각 배치에 대한 대상 타겟을 수동으로 구성하는 대신, 저장된 하나 이상의 대상을 배치 타겟으로 선택하면 됩니다.
 

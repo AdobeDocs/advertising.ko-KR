@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: edf008b5ac23852101d29361110773030f1a2f81
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2409'
 ht-degree: 2%
 ---
 # Advertising Search, Social 및 Commerce 안내서 {#search-social-commerce}
@@ -132,8 +132,13 @@ ht-degree: 2%
         + [[!DNL Microsoft Advertising] 반응형 검색 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
         + [[!DNL Yandex] 텍스트 광고 설정](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
     + 키워드 {#keywords}
-      + [[!UICONTROL Keywords] 보기 정보](/help/search-social-commerce/new-ui/manage/keywords/keyword-view-about.md)
-      + [키워드에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+      + [키워드 관리](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md)
+      + 광고 네트워크별 키워드 설정 {#keyword-settings-by-network}
+        + [[!DNL Baidu] 키워드 설정](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-baidu.md)
+        + [[!DNL Google Ads] 키워드 설정](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-google.md)
+        + [[!DNL LY Ads] 키워드 설정](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising] 키워드 설정](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-microsoft.md)
+        + [[!DNL Yandex] 키워드 설정](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yandex.md)
     + [쇼핑 제품 그룹 관리](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + 보고서 {#reports}
     + 예약된 보고서 {#scheduled}
@@ -250,9 +255,7 @@ ht-degree: 2%
     + [검색 입찰 단위에 대한 제한 관리](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
   + 타기팅 {#targeting}
     + [&#x200B; [!DNL Google Ads] 동적 검색 대상 관리](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
-    + 배치 {#placements}
-      + [[!UICONTROL Placements] 보기 정보](/help/search-social-commerce/new-ui/targeting/placements/placement-view-about.md)
-      + [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+    + [배치 관리](/help/search-social-commerce/new-ui/targeting/placement-manage.md)
   + 라이브러리 {#library}
     + [크리에이티브 에셋 보기 및 만들기](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
   + [사용자 지정 경고 관리](/help/search-social-commerce/new-ui/alerts-manage.md)
@@ -377,9 +380,9 @@ ht-degree: 2%
           + [Adobe Campaign 이메일 목록에서  [!DNL Google Ads] 고객 일치 대상 만들기](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
           + [고객 데이터 목록을 사용하여 고객 일치 대상 관리](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
           + [동적 리마케팅 대상자 관리](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
-          + 대상 타겟 및 제외 {#audience-targets}
-            + [캠페인 및 광고 그룹에 대한 대상자 타겟 관리](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
-            + [캠페인 및 광고 그룹에 대한 대상자 제외 관리](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
+        + 대상 타겟 및 제외 {#audience-targets}
+          + [캠페인 및 광고 그룹에 대한 대상자 타겟 관리](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
+          + [캠페인 및 광고 그룹에 대한 대상자 제외 관리](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
       + 광고 확장 {#ad-extensions}
         + [!DNL Google Ads]개의 설명선 확장 {#callouts}
           + [&#x200B; [!DNL Google Ads] 설명선 확장 정보](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)

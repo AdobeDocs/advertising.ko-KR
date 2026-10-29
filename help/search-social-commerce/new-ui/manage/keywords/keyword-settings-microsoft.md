@@ -1,0 +1,71 @@
+---
+title: '[!DNL Microsoft Advertising] 키워드 설정'
+description: '[!DNL Microsoft Advertising] 키워드에 대한 설정을 참조합니다.'
+feature: Search Campaign Management
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 0%
+---
+# [!DNL Microsoft Advertising] 키워드 설정
+
+검색 및 표시 네트워크를 사용하는 캠페인에 대한 키워드를 만들 수 있습니다.
+
+## [!UICONTROL Basic Settings]
+
+*새 키워드만*
+
+**[!UICONTROL Network]:** 광고 네트워크입니다.
+
+**[!UICONTROL Account]:** 광고 네트워크 계정입니다.
+
+**[!UICONTROL Campaign]:** 캠페인입니다.
+
+**[!UICONTROL Ad Group]:** 광고 그룹입니다.
+
+## [!UICONTROL Keyword Details]
+
+**[!UICONTROL Keywords]:** [!DNL Microsoft Advertising] 일치 구문 및 자리 표시자를 포함하는 키워드입니다. 키워드당 최대 길이는 100자입니다.
+
+최대 2000개의 키워드를 입력하거나 붙여넣을 수 있습니다. 여러 키워드를 쉼표로 구분하거나 별도의 줄에 입력합니다.
+
+>[!NOTE]
+>
+>* [!UICONTROL Manage] > [!UICONTROL Keywords] > [!UICONTROL Negatives] 탭과 광고 그룹 및 캠페인 설정에서 부정적인 키워드를 만들 수 있습니다.
+>* [!DNL Microsoft Advertising] 키워드를 변경하면 기존 키워드가 삭제되고 새 키워드 ID로 새 키워드가 만들어집니다. 그러나 일치 유형을 변경해도 기존 키워드는 삭제되지 않습니다.
+
+**[!UICONTROL Status]:** 키워드의 표시 상태: *[!UICONTROL Active]* 또는 *[!UICONTROL Paused]*. 새 키워드의 기본값은 *[!UICONTROL Active]*&#x200B;입니다.
+
+## [!UICONTROL Bids]
+
+{{$include /help/_includes/bid-keyword.md}}
+
+## [!UICONTROL Placeholders]
+
+**[!UICONTROL Param1]:** 키워드의 기본 URL 또는 광고의 제목, 설명 또는 기본 URL에 [동적 대체 문자열 `{Param1}`](https://help.bingads.microsoft.com/#apex/3/en/53079/0)이(가) 포함된 경우 대체 값으로 사용할 문자열입니다. 최대 길이는 70자이지만 이 길이를 사용하는 광고 요소의 최대 길이에 유의하십시오(예: 제목 1과 제목 2를 합한 길이는 최대 76자일 수 있음).
+
+**[!UICONTROL Param2]:** 키워드의 기본 URL 또는 광고의 제목, 설명 또는 기본 URL에 [동적 대체 문자열 `{Param2}`](https://help.bingads.microsoft.com/#apex/3/en/53079/0)이(가) 포함된 경우 대체 값으로 사용할 문자열입니다. 최대 길이는 70자이지만 이 길이를 사용하는 광고 요소의 최대 길이에 유의하십시오(예: 제목 1과 제목 2를 합한 길이는 최대 76자일 수 있음).
+
+## [!UICONTROL URL Options]
+
+{{$include /help/_includes/base-url-keyword-ad-sitelink.md}}
+
+이 필드에는 선택적으로 `{Param1}` 및 `{Param2}` 동적 대체 변수가 포함될 수 있습니다.
+
+{{$include /help/_includes/tracking-template-microsoft.md}}
+
+>[!MORELIKETHIS]
+>
+>* [키워드 관리](keyword-manage.md)

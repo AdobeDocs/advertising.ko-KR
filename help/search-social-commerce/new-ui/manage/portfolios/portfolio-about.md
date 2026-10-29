@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 700d05fb39b04918ae2662ce24746ed1e84f110e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '897'
 ht-degree: 0%
 ---
 # (새 UI) 포트폴리오 정보
@@ -75,12 +75,7 @@ ht-degree: 0%
 
 [!UICONTROL Portfolios] 보기는 사용자 지정 가능한 성능 데이터와 함께 필터링된 보기의 모든 기존 포트폴리오를 나열합니다. [보기 내의 열을 사용자 지정하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) 도구 모음[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서 특정 포트폴리오 을(를) 포함하도록 데이터를 필터링할 수 있습니다.
 
-데이터 테이블 위에서, 지정된 날짜 범위에 대한 보기의 모든 포트폴리오에 대해 총 3개의 지표가 있는 성능 그래프를 열 수 있습니다. 포트폴리오 성과 및 정확도를 비롯한 포트폴리오 세부 정보는 물론 포트폴리오의 각 캠페인, 광고 그룹 및 키워드에 대한 성과 데이터를 열 수 있습니다.
-
-포트폴리오 행 내에서 직접 포트폴리오 상태를 포함한 일부 설정을 편집할 수 있습니다. 포트폴리오 또는 연결된 캠페인과 하위 캠페인 엔터티가 지출에 영향을 주는 제한(네트워크, 캠페인 예산, 대상, CPC 제한 또는 입찰 단위 제한 포함)으로 구성된 경우 [!UICONTROL Constraints] 열의 [!UICONTROL Yes]을(를) 클릭하여 제한 수준 및 유형을 포함한 모든 제한 목록을 확인합니다.
-<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
-
-### 사용 가능한 작업
+### 사용 가능한 작업 {#available-actions}
 
 <!-- Update with any new options -->
 
@@ -90,22 +85,37 @@ ht-degree: 0%
 
 * [View the constraints for a portfolio](portfolio-view-constraint.md)
 
-* [View the change history for a portfolio](portfolio-view-change-history.md)
 -->
 
 * [포트폴리오 만들기](portfolio-create.md)
 
 * [포트폴리오 복제](portfolio-duplicate.md)
 
-* [포트폴리오 설정 편집](portfolio-edit.md)
+* 설정 편집:
 
-* [일괄 시트 파일을 사용하여 포트폴리오 설정 일괄 편집](portfolio-bulksheets.md)
+  * [포트폴리오 이름 바꾸기](portfolio-rename.md)
+
+  * [전체 포트폴리오 설정 편집](portfolio-edit.md)
+
+  * 포트폴리오 행 내에서 직접 포트폴리오 상태를 포함한 일부 설정을 편집합니다.
+
+  * [일괄 시트 파일을 사용하여 포트폴리오 설정 일괄 편집](portfolio-bulksheets.md)
+
+* 포트폴리오에 포함된 광고 네트워크, 계정, 캠페인, 광고 그룹 및 광고를 드릴다운하고 선택적으로 포함된 캠페인에 대한 키워드를 드릴다운합니다. 시작하려면 포트폴리오 이름을 클릭합니다. 필터링된 [!UICONTROL Networks] 보기에서 광고 네트워크별로 정보가 먼저 나열됩니다. 광고 네트워크를 클릭하여 필터링된 [!UICONTROL Accounts] 보기에서 포함된 계정을 보고, 계정을 클릭하여 필터링된 [!UICONTROL Campaigns] 보기에서 캠페인을 보는 식입니다.
+
+  필터링된 [!UICONTROL Campaigns] 보기에서 [!UICONTROL Keywords] 보기의 키워드 목록을 열려면 [!UICONTROL Keywords] 열의 값을 클릭합니다.
+
+* 제한 수준 및 유형을 포함하여 포트폴리오에 대한 모든 제한 목록을 엽니다. 제한 목록을 보려면 [!UICONTROL Constraints] 열에서 [!UICONTROL Yes]을(를) 클릭합니다. 이 옵션은 포트폴리오 또는 연결된 캠페인과 하위 캠페인 엔티티가 지출에 영향을 주는 제한(네트워크, 캠페인 예산, 타겟, CPC 제한 또는 입찰 단위 제한 등)으로 구성된 경우 사용할 수 있습니다.
 
 * [보기의 모든 포트폴리오에 대한 성능 그래프 보기](portfolio-view-performance-graph.md)
 
 * [포트폴리오 성능 세부 정보 보기](portfolio-details.md)
 
+* [포트폴리오의 변경 내역 보기](portfolio-view-change-history.md)
+
 * [[!UICONTROL Portfolios] 보기에서 데이터 다운로드](portfolio-view-report.md)
+
+* [포트폴리오를 포트폴리오 그룹에 추가하고 포트폴리오 그룹을 관리합니다.](portfolio-group-manage.md)
 
 >[!MORELIKETHIS]
 >

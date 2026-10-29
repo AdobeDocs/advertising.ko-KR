@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3d3a87acf3e963eb0ebbc8528c154d4193457c69
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '444'
 ht-degree: 0%
 ---
 # (새 UI) 포트폴리오의 변경 내역 보기
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 데이터를 스프레드시트 파일로 다운로드할 수도 있습니다.
 
-## (새 UI) 포트폴리오의 변경 내역 보기 {#portfolio-change-history}
+## 포트폴리오의 변경 내역 보기 {#portfolio-change-history}
 
 각 변경 사항에 대한 정보에는 날짜, 변경한 사람의 사용자 이름, 변경 유형 및 변경된 값이 포함됩니다.
 

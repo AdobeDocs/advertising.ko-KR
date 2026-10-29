@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
     internal-label: Portfolios
-source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
+source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
 workflow-type: tm+mt
 source-wordcount: '2660'
 ht-degree: 0%
@@ -190,7 +190,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 나중에 광고의 키워드나 광고 사본을 편집하여 새 키워드나 광고를 만들 경우 새 엔티티에 제한이 할당되지 않습니다.
->* [[!UICONTROL Campaigns] 보기](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints), [[!UICONTROL Ad Groups] 보기](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] 보기](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) 또는 [[!UICONTROL Placements] 보기](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)에서 동일한 지침을 참조하십시오. <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* [[!UICONTROL Campaigns] 보기](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints), [[!UICONTROL Ad Groups] 보기](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] 보기](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraint-assign) 또는 [[!UICONTROL Placements] 보기](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraint-assign)에서 동일한 지침을 참조하십시오. <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 메인 메뉴에서 관련 관리 보기를 엽니다.
 
@@ -211,7 +211,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 제약 조건을 삭제하여 나중에 사용할 수 없게 하려면 &quot;[제약 조건 상태 변경](#constraint-change-status)&quot;을 참조하세요.
->* [[!UICONTROL Campaigns] 보기](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints), [[!UICONTROL Ad Groups] 보기](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] 보기](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md) 또는 [[!UICONTROL Placements] 보기](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)에서 동일한 지침을 참조하십시오. <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* [[!UICONTROL Campaigns] 보기](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints), [[!UICONTROL Ad Groups] 보기](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [[!UICONTROL Keywords] 보기](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraint-unassign) 또는 [[!UICONTROL Placements] 보기](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraint-unassign)에서 동일한 지침을 참조하십시오. <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. 메인 메뉴에서 관련 관리 보기를 엽니다.
 
@@ -227,6 +227,6 @@ ht-degree: 0%
 >
 >* [캠페인에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
 >* [광고 그룹에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
->* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+>* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraints)
+>* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraints)
 >* [[!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)

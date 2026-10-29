@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
 workflow-type: tm+mt
 source-wordcount: '2401'
 ht-degree: 0%
@@ -454,8 +454,8 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 >
 >* [검색 입찰 단위에 대한 제약 조건 관리](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [광고 그룹에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
->* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+>* [키워드에 대한 제약 조건 할당 관리](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md#keyword-constraints)
+>* [배치에 대한 제한 할당 관리](/help/search-social-commerce/new-ui/targeting/placement-manage.md#placement-constraints)
 >* [(레거시 UI) 캠페인 관리 보기에서 데이터를 다운로드합니다](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(기존 UI) [!UICONTROL Downloads] 메뉴에서 성능 데이터 보고서 또는 일괄 시트 파일을 삭제합니다.](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 >* [[!DNL Baidu] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
@@ -465,4 +465,3 @@ Search, Social 및 Commerce은 동기화된 [!DNL Google Ads] 및 [!DNL Microsof
 >* [[!DNL Yandex] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
 
 <!-- >* [[!DNL Meta Ads] campaign settings](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md) -->
-

@@ -3,10 +3,13 @@ title: Creative Studio의 C2PA 메타데이터
 description: C2PA 메타데이터가 Creative Studio에서 생성 AI로 생성 또는 편집된 콘텐츠에 자동으로 연결되는 방법에 대해 알아봅니다.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: 5c8c1895accc4fe504f581bb16ee7860a16458b2
 workflow-type: tm+mt
 source-wordcount: 432

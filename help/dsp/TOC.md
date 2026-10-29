@@ -4,9 +4,9 @@ user-guide-title: Advertising DSP 안내서
 user-guide-description: Advertising DSP를 사용하는 디스플레이 광고 전략을 관리하고, 최적화하고, 보고하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: DSP 안내서
 index: true
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1103'
 ht-degree: 3%
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 3%
   + [고급 측정 솔루션](/help/dsp/introduction/advanced-measurement-services.md)
 + Advertising DSP의 AI 지원 {#ai-assistant}
   + [Advertising DSP의 AI Assistant 정보](/help/dsp/ai-assistant/ai-assistant-about.md)
+  + [AI Assistant를 사용하여 재사용 가능한 대상 생성](/help/dsp/ai-assistant/audience-builder-agent.md)
   + [AI Assistant를 사용하여 보고서 생성](/help/dsp/ai-assistant/insights-agent.md)
   + [AI Assistant를 사용하여 성능 및 게재 문제 해결](/help/dsp/ai-assistant/troubleshooting-agent.md)
   + [AI Assistant를 사용하여 제품 설명서 검색](/help/dsp/ai-assistant/documentation-search.md)
