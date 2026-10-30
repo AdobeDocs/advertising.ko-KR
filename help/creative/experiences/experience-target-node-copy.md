@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '403'
 ht-degree: 0%
 ---
 # 하위 노드를 동일한 수준의 다른 대상 노드에 복사
@@ -29,22 +29,37 @@ ht-degree: 0%
 
 이 기능은 상위 노드에 대해 지정된 대상에는 영향을 주지 않으며 하위 노드에만 영향을 줍니다.
 
-<!-- 1. [ways to get to the decision tree] -->
+## AI 기반 편집기 사용(Beta) {#ai-editor}
+
+경험을 [생성](experience-create-targeting.md#ai-editor) 또는 [편집](experience-edit-targeting.md#ai-editor)하는 동안 캔버스 컨트롤을 사용하십시오.
+
+1. 하위 항목을 복사할 부모 노드에서 **[!UICONTROL ...]** > **[!UICONTROL Copy Children]**&#x200B;을(를) 클릭합니다.
+
+1. 같은 수준의 대상 노드에서 **[!UICONTROL ...]**&#x200B;을(를) 클릭하고 다음 중 하나를 선택합니다.
+
+   * 기존 하위 항목을 제거하지 않고 복사한 하위 대상 및 광고 항목을 추가하려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+
+   * 기존 하위 대상 및 광고 항목을 복사한 하위 항목으로 바꾸려면 **[!UICONTROL Replace]**&#x200B;을(를) 클릭합니다.
+
+   트리 구조에서 지원하지 않는 작업은 비활성화됩니다. 계속하기 전에 경고를 확인하십시오.
+
+1. 대상 분기를 검토한 다음 [경험을 저장](#save)합니다.
+
+## 수동 편집기 사용 {#manual-editor}
+
+[수동 편집기를 엽니다](experience-edit-targeting.md#experience-open).
 
 1. 복사하려는 하위 항목이 있는 상위 노드를 클릭하고 ![추가](/help/creative/assets/add.png "추가")를 클릭한 다음 a\) **[!UICONTROL Copy Children ctrl+c]**&#x200B;을(를) 선택하거나 b\) 키보드에 **[!UICONTROL Ctrl+C]**([!DNL Microsoft Windows]) 또는 **[!UICONTROL Command-C]**([!DNL Apple Macintosh])을(를) 입력하십시오.
 
 1. 다음 중 하나를 수행합니다.
 
-   * 노드에 대한 모든 자식 노드 및 크리에이티브를 바꾸려면 복사한 정보를 붙여넣을 노드를 클릭하고 **..**&#x200B;을(를) 클릭한 다음 a\) **[!UICONTROL Replace ctrl+shift+v]** 또는 b\)를 선택하고 키보드에 **[!UICONTROL Ctrl+Shift+V]**([!DNL Microsoft Windows]) 또는 **[!UICONTROL Command-Shift-V]**([!DNL Apple Macintosh])을(를) 입력합니다.
+   * 노드에 대한 모든 자식 노드 및 크리에이티브를 바꾸려면 복사한 정보를 붙여넣을 노드를 클릭하고 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 a\) **[!UICONTROL Replace ctrl+shift+v]**&#x200B;을(를) 선택하거나 b\) 키보드에 **[!UICONTROL Ctrl+Shift+V]**([!DNL Microsoft Windows]) 또는 **[!UICONTROL Command-Shift-V]**([!DNL Apple Macintosh])을(를) 입력합니다.
 
-   * (여러 하위 대상이 있는 노드, &quot;모든&quot; 노드가 없고 크리에이티브만 없음) 노드에 모든 하위 노드 및 크리에이티브를 추가하려면 기존 하위 노드를 삭제하지 않고 복사한 정보를 붙여넣을 노드를 클릭하고 **..**&#x200B;을(를) 클릭한 다음 a\) **[!UICONTROL Add ctrl+v]** **&#x200B; 또는 b\)를 선택합니다. 키보드에 &#x200B;** [!UICONTROL Ctrl+V]&#x200B;**([!DNL Microsoft Windows]) 또는 &#x200B;** [!UICONTROL Command-V]**([!DNL Apple Macintosh])을(를) 입력합니다.
+   * (여러 하위 대상이 있는 노드, &quot;모든&quot; 노드가 없고 크리에이티브만 없는 노드) 노드에 모든 하위 노드 및 크리에이티브를 추가하려면 기존 하위 노드를 삭제하지 않고 복사한 정보를 붙여넣을 노드를 클릭하고 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 a\) **[!UICONTROL Add ctrl+v]** 또는 b\)를 선택합니다. 키보드에 **[!UICONTROL Ctrl+V]**([!DNL Microsoft Windows]) 또는 **[!UICONTROL Command-V]**([!DNL Apple Macintosh])을(를) 입력합니다.
 
-<!--
-1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
-...
+## 경험 저장 {#save}
 
-These formatted steps are inserted automatically from text in the following file in the _includes folder, which reused in multiple places.
--->
+다음 단계는 두 편집기에 모두 적용됩니다.
 
 {{$include /help/_includes/experience-save.md}}
 

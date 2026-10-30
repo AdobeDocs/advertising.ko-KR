@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 336176fe71b8835779710cabf71bcb33568df688
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 0%
 ---
 # Adobe Advertising Creative 2.0 정보
@@ -56,7 +56,7 @@ Creative 라이브러리를 사용하면 광고 경험에서 사용할 크리에
 
 ## 규칙 기반 및 타깃팅되지 않은 경험 모두
 
-* **타깃팅된 규칙 기반 경험:** 규칙 기반 의사 결정 트리 모델을 사용하여 스토리를 빌드합니다. 대상에 대해 알고 있는 내용에 따라 실시간으로 사용자 지정된 광고 안무 문자열을 펼칩니다. 예를 들어 스토리는 고객 행동, 지역, 인구 통계, 재타겟팅, 고객 여정 내 위치 등에 따라 변경될 수 있습니다.
+* **타깃팅된 규칙 기반 경험:** 규칙 기반 의사 결정 트리 모델을 사용하여 스토리를 빌드합니다. 대상에 대해 알고 있는 내용에 따라 실시간으로 사용자 지정된 광고 안무 문자열을 펼칩니다. 예를 들어 스토리는 고객 행동, 지역, 인구 통계, 재타겟팅, 고객 여정 내 위치 등에 따라 변경될 수 있습니다. 대화 지원 및 직접 캔버스 컨트롤을 사용하여 [AI 기반 편집기(Beta)](/help/creative/experiences/experience-decision-tree.md#ai-editor)를 사용하여 의사 결정 트리를 작성하고 편집하거나 수동 편집기를 사용하십시오.
 
 * **타깃팅되지 않은 경험:** 대상을 좁히지 않고 광고 요소를 예약하고 최적화합니다.
 

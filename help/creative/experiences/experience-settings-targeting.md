@@ -20,12 +20,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1262'
 ht-degree: 0%
 ---
 # 타깃팅된 광고 경험 설정
+
+이러한 일반 설정은 AI 기반 의사 결정 트리 편집기(Beta)와 수동 편집기에서 공유합니다.
+
+기존 경험의 경우 결정 트리에서 **[!UICONTROL Experience Form]**&#x200B;을(를) 클릭하십시오. 먼저 유지할 모든 트리 변경 사항을 저장합니다. AI 기반 편집기를 종료하려면 확인이 필요하며 저장하지 않은 트리 변경 사항은 버립니다. [편집기 전환 또는 경험 설정 편집](experience-edit-targeting.md#switch-editors)을 참조하세요.
 
 ## [!UICONTROL Experience basics] 섹션
 

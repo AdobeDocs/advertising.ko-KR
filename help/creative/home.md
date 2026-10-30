@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 8569a5238e934d3170ac021ffff6a3e1fa31eaa1
+source-git-commit: a3aabc2970a00785e95cf2c9da7b71690d3696ae
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '2018'
 ht-degree: 0%
 ---
 # [!DNL Creative] 2.0의 새로운 기능
@@ -35,6 +35,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026년 10월 28일 | AI 기반 의사 결정 트리 편집기 | (Beta 기능) 이제 AI 기반 편집기를 사용하여 의사 결정 트리 타겟팅으로 경험을 만들고 편집할 수 있습니다. 자연어 대화에서 원하는 타겟팅 구조 또는 변경 사항을 설명하고 결과 결정 트리를 검토하십시오. 캔버스를 직접 편집하여 대상 노드를 관리하고, 크리에이티브 번들을 할당하고, 크리에이티브 최적화, 예약 및 추적 URL을 구성할 수도 있습니다. AI 기반 편집기는 기본적으로 열리므로 수동 편집기는 계속 사용할 수 있습니다. | &quot;[의사 결정 트리 레이아웃](/help/creative/experiences/experience-decision-tree.md)&quot;, &quot;[타깃팅으로 경험 만들기](/help/creative/experiences/experience-create-targeting.md)&quot; 및 &quot;[타깃팅으로 경험 편집](/help/creative/experiences/experience-edit-targeting.md)&quot;을 참조하십시오. |
 | 2026년 10월 15일 | [!DNL Creative Studio] | (Beta 기능) 이제 [!UICONTROL Creative Studio]에서 AI 사용을 생성하여 기존 정적 디스플레이 광고 이미지를 편집 가능한 디스플레이 광고 템플릿으로 변환할 수 있습니다. | &quot;[[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md)에서 광고 템플릿 관리&quot;를 참조하십시오.&quot; |
 | 2026년 7월 1일 | [!DNL Creative Studio], [!DNL Brands] | 다음 Beta 기능을 사용할 수 있습니다.<ul><li>**[!UICONTROL Creative Studio]**&#x200B;은(는) 생성 AI를 사용하여 단일 세션에서 여러 형식의 디스플레이 광고를 빌드, 크기 조정 및 구체화할 수 있습니다. 자연어 채팅 인터페이스를 사용하여 광고 콘텐츠를 생성하고 수정합니다. 콘텐츠 필드에 수동 디자인 작업이 필요하지 않습니다.</li><li>로고, 색상 팔레트, 음성 지침, 이미지 표준 및 채널별 복사 지침을 포함하여 브랜드의 시각적 및 메시징 ID를 반영하는 **[!UICONTROL brand profiles]**&#x200B;을(를) 만들고 관리합니다. [!UICONTROL Creative Studio]에서 광고를 만들 때 AI 에이전트는 브랜드 프로필 정보를 사용하여 특정 브랜드의 콘텐츠를 생성합니다.</li></ul> | &quot;[Creative Studio 정보](/help/creative/creative-studio/creative-studio-about.md)&quot; 및 &quot;[브랜드 프로필 관리](/help/creative/brands/brand-manage.md)&quot;를 참조하십시오. |
 | 2026년 6월 3일 | [!DNL Adobe Analytics for Advertising] | 이제 Advertising Creative 및 [!DNL Adobe Analytics for Advertising]을(를) 사용하는 광고주는 Adobe Analytics에서 변형 및 분기 수준 데이터를 볼 수 있습니다. [!DNL Creative] 경험에서 광고를 실행하는 데 사용되는 DSP에 관계없이 데이터가 표시됩니다. Advertising DSP 배치에서 광고를 실행하는 경우 캠페인 및 배치 수준 데이터뿐만 아니라 비용 관련 지표도 표시됩니다.<br><br>추가 설정이 필요하지 않습니다. | [!DNL Analytics]에 표시되는 Advertising Creative [트래픽 지표](https://experienceleague.adobe.com/ko/docs/analytics/components/metrics/amo-metrics) 및 [분류](https://experienceleague.adobe.com/ko/docs/analytics/components/dimensions/amo-id#classifications)을(를) 참조하십시오. |
