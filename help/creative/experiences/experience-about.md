@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1242'
 ht-degree: 0%
 ---
 # Advertising Creative 2.0의 경험 정보
@@ -51,6 +51,8 @@ ht-degree: 0%
   * 특정 디바이스 유형, 운영 체제 및 브라우저
 
   의사 결정 트리에 Target 대상 분기를 만들면 Creative 번들을 해당 분기에 할당하여 Target 대상을 잠재적 크리에이티브와 연결할 수 있습니다. 각 경험에 대해 크리에이티브 번들에 대한 최적화 및 예약을 사용자 정의하고 각 번들의 개별 크리에이티브에 대한 기본 랜딩 페이지 및 추적 URL<!-- later: and any flexible attributes -->을(를) 변경할 수 있습니다.
+
+  기본 AI 기반 의사 결정 트리 편집기(Beta)를 사용하면 AI 에이전트에 대해 원하는 트리 또는 변경 사항을 설명하고 결과를 검토하며 대화형 캔버스를 직접 편집할 수 있습니다. 기존 수동 편집기를 사용할 수도 있습니다. 두 편집기 모두 동일한 유형의 타깃팅된 경험을 구성합니다. [의사 결정 트리 레이아웃](experience-decision-tree.md) 및 [의사 결정 트리 타깃팅을 사용하여 경험 편집](experience-edit-targeting.md)을 참조하십시오.
 
 * **의사 결정 트리 타깃팅이 없는 경험:** [!DNL Creative]은(는) 대상을 좁히지 않고 광고 경험에 대한 광고 요소를 최적화합니다. 각 경험에 대해 시작 및 종료 날짜와 일부 기본 설정을 지정하지만 대부분의 워크플로는 경험 내에 직접 있지 않습니다. 경험에 크리에이티브를 직접 추가하는 대신 [!UICONTROL Tag Manager]을(를) 사용하여 경험의 각 광고 크기에 대한 광고 태그를 만든 다음, 여기에 크리에이티브를 추가하고, 크리에이티브 최적화 및 일정을 구성하고, 랜딩 페이지 및 추적 URL을 사용자 지정<!-- later: and any flexible attributes -->합니다.
 

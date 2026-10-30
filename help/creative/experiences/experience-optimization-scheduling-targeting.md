@@ -21,24 +21,62 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1244'
 ht-degree: 0%
 ---
 # 의사 결정 트리 타겟팅을 사용하는 경험에 대한 크리에이티브 최적화 및 예약 사용자 지정
 
 *기존 크리에이티브만 있는 노드 타깃팅*
 
-기본적으로 경험에 대한 크리에이티브 순환은 전체 클릭스루 속도를 최적화하기 위해 알고리즘적으로 결정되며 크리에이티브 최적화 설정은 할당된 모든 번들에 적용됩니다. 지정된 Advertising DSP 사용자 지정 목표에 대해 알고리즘을 통해 최적화하거나, 각 번들 시퀀스에 대해 지정된 노출 횟수로 지정된 번들 시퀀스에 따라 번들을 회전하거나, 상대 가중치에 따라 번들을 회전할 수 있습니다. 또한 특정 크리에이티브 번들이 지정된 순차적 기간 동안 실행되도록 예약하고 각 예약에 대해 사용자 정의 크리에이티브 순환 설정을 적용할 수 있습니다.
+기본적으로 경험은 할당된 모든 번들에서 전체 클릭스루 속도에 대해 크리에이티브 회전을 최적화합니다. 순환 설정을 사용자 정의하거나 각 예약에 대해 별도의 순환 설정을 사용하여 순차적 기간 동안 실행할 특정 번들을 예약할 수 있습니다.
 
 >[!NOTE]
 >
 >할당된 크리에이티브 대신 기본 크리에이티브를 사용하는 노드에는 이러한 기능을 사용할 수 없습니다.
 
+AI 기반 편집기(Beta)의 캔버스 또는 수동 편집기에서 이러한 설정을 직접 구성할 수 있습니다. 두 편집기 중 하나에서 번들 대화 상자를 저장하면 작업 트리가 업데이트됩니다. 또한 트리 헤더에서 [경험을 저장](#save)해야 합니다.
+
+## 회전 설정 {#rotation-settings}
+
+* **[!UICONTROL Weighted]:** 상대 가중치에 따라 연결된 Creative 번들의 광고 변형을 표시합니다.
+
+* **[!UICONTROL Algorithmic]:** 클릭스루 비율 또는 Advertising DSP 사용자 지정 목표와 같은 지정된 최적화 목표를 기반으로 가장 효과적인 광고 변형을 더 자주 표시합니다.
+
+* **[!UICONTROL Sequence](AI 기반 편집기) 또는 [!UICONTROL Sequencing]&#x200B;(수동 편집기):** 연결된 크리에이티브 번들을 지정된 순서로 표시합니다. 시퀀스에 있는 각 번들에 대해 지정된 노출 횟수와 함께 표시됩니다. 기본적으로 번들은 경험에 추가된 순서대로 순서가 지정됩니다. 제공되는 광고 크기는 사용 가능한 인벤토리에 의해 결정됩니다. 최종 번들은 무한정 제공(기본값)되거나 시퀀스가 첫 번째 번들로 다시 루프백될 수 있습니다.
+
+  예를 들어, 시퀀스는 3개의 노출에 대해 번들 1, 1개의 노출에 대해 번들 2, 2개의 노출에 대해 번들 3의 광고 변형을 제공한 다음 반복할 수 있습니다. 반복하지 않고 번들 3은 무기한으로 계속 제공됩니다.
+
 ## 예약 없이 크리에이티브 최적화 구성
 
 크리에이티브 일정이 비활성화되면 크리에이티브 최적화 설정이 할당된 모든 크리에이티브에 적용됩니다.
+
+### AI 기반 편집기 사용(Beta) {#without-scheduling-ai}
+
+1. 경험을 [생성](experience-create-targeting.md#ai-editor) 또는 [편집](experience-edit-targeting.md#ai-editor)하는 동안 Creative Leaf 노드에서 **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**&#x200B;을(를) 클릭합니다.
+
+   번들이 없는 최종 노드의 경우 먼저 **[!UICONTROL Assign Bundles]** 및 [번들 할당](experience-assign-creative-bundles.md#ai-editor)을 클릭합니다.
+
+1. **[!UICONTROL Creative optimisation]** 탭을 엽니다.
+
+1. **[!UICONTROL Schedule]**&#x200B;을(를) 사용하지 않도록 설정합니다.
+
+1. 크리에이티브 순환 유형을 선택하고 해당 설정을 구성합니다.
+
+   * **[!UICONTROL Weighted]:** 각 번들 행의 상대 가중치를 입력합니다. 무게는 총 100이어야 합니다. 가중치를 균등하게 분배하려면 **[!UICONTROL Apply equal weight]**&#x200B;을(를) 클릭합니다.
+
+   * **[!UICONTROL Algorithmic]:** **[!UICONTROL Optimization goals]** 옵션을 선택하십시오. 사용자 지정 목표를 선택하는 경우 **[!UICONTROL Custom objective]**&#x200B;의 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택하십시오.
+
+   * **[!UICONTROL Sequence]:** 번들을 원하는 순서로 드래그하고 각 시퀀스의 노출 횟수를 입력합니다. **[!UICONTROL Keep in loop]**&#x200B;을(를) 사용하여 시퀀스를 반복하거나, 마지막 번들의 노출 횟수를 **[!UICONTROL Infinite]**(으)로 설정하려면 사용하지 않도록 설정하십시오.
+
+1. 대화 상자에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+1. [경험 저장](#save).
+
+### 수동 편집기 사용 {#without-scheduling-manual}
+
+[수동 편집기를 엽니다](experience-edit-targeting.md#experience-open).
 
 1. 경험을 [생성](experience-create-targeting.md) 또는 [편집](experience-edit-targeting.md)하는 동안 크리에이티브 최적화 설정을 여십시오.
 
@@ -48,23 +86,19 @@ ht-degree: 0%
 
       * 새 번들의 경우 **[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]** 및 [번들 할당](experience-assign-creative-bundles.md)을 클릭합니다.
 
-1. **[!UICONTROL Creative Optimization]** 탭을 클릭합니다.
+   1. **[!UICONTROL Creative Optimization]** 탭을 클릭합니다.
 
 1. **[!UICONTROL Schedule]**&#x200B;을(를) 사용하지 않도록 설정합니다.
 
 1. 연결된 번들의 광고 변형에 대한 크리에이티브 회전 유형을 선택합니다.
 
-   * *[!UICONTROL Weighted]:* 상대 가중치에 따라 연결된 Creative 번들의 광고 변형을 표시합니다. 각 번들의 가중치를 백분율로 입력합니다. 연결된 모든 번들에 동일한 가중치를 적용하려면 (![동일한 가중치 적용](/help/creative/assets/apply-equal-weight.png "동일한 가중치 적용"))을 클릭합니다. 선택한 모든 번들에 대한 가중치는 최대 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->까지 추가해야 합니다.
+   * *[!UICONTROL Weighted]:* 각 번들의 가중치를 백분율로 입력하십시오. 연결된 모든 번들에 동일한 가중치를 적용하려면 (![동일한 가중치 적용](/help/creative/assets/apply-equal-weight.png "동일한 가중치 적용"))을 클릭합니다. 선택한 모든 번들에 대한 가중치는 최대 100까지 추가해야 합니다.
 
-   * *[!UICONTROL Algorithmic]:* 지정된 목표를 기반으로 가장 효과적인 광고 변형을 더 자주 표시합니다.
+   * *[!UICONTROL Algorithmic]:* **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]*, (표준 비디오 광고 경험) *[!UICONTROL Completion Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오. *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.
 
-     * **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]*, (표준 비디오 광고 경험) *[!UICONTROL Completion Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오.  *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.
-
-   * *[!UICONTROL Sequencing]:* 연결된 크리에이티브 번들을 지정된 순서로 표시합니다(첫 번째로 제공된 번들 1, 두 번째로 제공된 번들 2 등). 이때 각 번들 시퀀스에 대해 지정된 총 노출 수가 표시됩니다. 제공되는 광고 크기는 사용 가능한 인벤토리에 의해 결정됩니다. a\) 무기한으로 표시되거나(기본값) b\) 다시 첫 번째 번들로 루프백되도록 시퀀스의 마지막 번들을 구성할 수 있습니다. 예를 들어, 3개의 (3) 노출에 대해 번들 1에 광고 변형을 표시한 다음 하나의 (1) 노출에 대해 번들 2에 광고 변형을 표시한 다음 2개의 (2) 노출에 대해 번들 3에 광고 변형을 표시한 다음 루프를 다시 시작할 수 있습니다. 또는 번들 3의 광고 변형이 표시되면 루프를 만드는 대신 번들 3의 광고 변형을 계속 무기한으로 표시할 수 있습니다. 순번 지정 사용 시:
+   * *[!UICONTROL Sequencing]:*
 
      1. 할당된 번들을 원하는 순서로 끌어다 놓습니다.
-
-     할당된 번들은 기본적으로 경험에 추가된 순서대로 순서가 지정됩니다.
 
      1. 각 시퀀스에 대한 노출 횟수를 입력합니다.
 
@@ -78,6 +112,42 @@ ht-degree: 0%
 
 예약을 사용할 때는 경험 기간 동안 번들을 예약해야 합니다.
 
+### AI 기반 편집기 사용(Beta) {#with-scheduling-ai}
+
+1. 경험을 [생성](experience-create-targeting.md#ai-editor) 또는 [편집](experience-edit-targeting.md#ai-editor)하는 동안 Creative Leaf 노드에서 **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**&#x200B;을(를) 클릭합니다.
+
+   번들이 없는 최종 노드의 경우 먼저 **[!UICONTROL Assign Bundles]** 및 [번들 할당](experience-assign-creative-bundles.md#ai-editor)을 클릭합니다.
+
+1. **[!UICONTROL Creative optimisation]** 탭을 열고 **[!UICONTROL Schedule]**&#x200B;을(를) 활성화합니다.
+
+1. 일정에 대한 **[!UICONTROL Timezone]**&#x200B;을(를) 선택하십시오.
+
+1. 첫 번째 예약의 경우:
+
+   1. 왼쪽 열에 포함할 각 번들 옆의 확인란을 선택합니다.
+
+   1. 시작 및 종료 날짜 및 시간을 지정합니다.
+
+   1. 크리에이티브 순환 유형을 선택하고 해당 설정을 구성합니다.
+
+      * **[!UICONTROL Weighted]:** 일정에 각 번들 행의 상대 가중치를 입력합니다. 무게는 총 100이어야 합니다. 가중치를 균등하게 분배하려면 **[!UICONTROL Apply equal weight]**&#x200B;을(를) 클릭합니다.
+
+      * **[!UICONTROL Algorithmic]:** **[!UICONTROL Optimization goals]** 옵션을 선택하십시오. 사용자 지정 목표를 선택하는 경우 **[!UICONTROL Custom objective]**&#x200B;의 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택하십시오.
+
+      * **[!UICONTROL Sequence]:** 번들을 원하는 순서로 드래그하고 각 시퀀스의 노출 횟수를 입력합니다. **[!UICONTROL Keep in loop]**&#x200B;을(를) 사용하여 시퀀스를 반복하거나, 마지막 번들의 노출 횟수를 **[!UICONTROL Infinite]**(으)로 설정하려면 사용하지 않도록 설정하십시오.
+
+1. 각 추가 예약에 대해 **[!UICONTROL + Add Schedule]**&#x200B;을(를) 클릭하고 예약 카드를 선택한 다음 해당 번들, 날짜 및 시간, 순환 설정을 구성합니다.
+
+   번들 확인란은 모든 일정이 아닌 선택한 일정에 적용됩니다. 일정이 할당된 번들로 전체 경험 기간을 포함하는지 확인하십시오.
+
+1. 대화 상자에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+1. [경험 저장](#save).
+
+### 수동 편집기 사용 {#with-scheduling-manual}
+
+[수동 편집기를 엽니다](experience-edit-targeting.md#experience-open).
+
 1. 경험을 [생성](experience-create-targeting.md) 또는 [편집](experience-edit-targeting.md)하는 동안 크리에이티브 최적화 설정을 여십시오.
 
    1. 대상 노드 아래의 크리에이티브 리프 노드 위에 커서를 놓고 다음을 수행합니다.
@@ -86,7 +156,7 @@ ht-degree: 0%
 
       * 새 번들의 경우 **[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]** 및 [번들 할당](experience-assign-creative-bundles.md)을 클릭합니다.
 
-1. **[!UICONTROL Creative Optimization]** 탭을 클릭합니다.
+   1. **[!UICONTROL Creative Optimization]** 탭을 클릭합니다.
 
 1. **[!UICONTROL Schedule]** 사용
 
@@ -98,17 +168,13 @@ ht-degree: 0%
 
    1. 크리에이티브 순환 유형을 선택합니다.
 
-      * *[!UICONTROL Weighted]:* 각 번들의 크리에이티브를 상대 가중치에 따라 수동으로 회전합니다. 각 번들의 가중치를 백분율로 입력합니다. 일정에 있는 모든 번들에 동일한 가중치를 적용하려면 (![동일한 가중치 적용](/help/creative/assets/apply-equal-weight.png "동일한 가중치 적용"))을 클릭합니다. 선택한 모든 번들에 대한 가중치는 최대 100까지 추가해야 합니다.
+      * *[!UICONTROL Weighted]:* 각 번들의 가중치를 백분율로 입력하십시오. 일정에 있는 모든 번들에 동일한 가중치를 적용하려면 (![동일한 가중치 적용](/help/creative/assets/apply-equal-weight.png "동일한 가중치 적용"))을 클릭합니다. 선택한 모든 번들에 대한 가중치는 최대 100까지 추가해야 합니다.
 
-      * *[!UICONTROL Algorithmic]:* 지정된 최적화 목표에 따라 각 번들의 크리에이티브를 알고리즘 방식으로 회전합니다.
+      * *[!UICONTROL Algorithmic]:* **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]*, (표준 비디오 광고 경험) *[!UICONTROL Completion Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오. *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.
 
-        * **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]*, (표준 비디오 광고 경험) *[!UICONTROL Completion Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오.  *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.
-
-      * *[!UICONTROL Sequencing]:* 연결된 크리에이티브 번들을 지정된 순서로 회전합니다(첫 번째로 제공된 번들 1, 두 번째로 제공된 번들 2 등). 이때 각 번들 시퀀스에 대해 지정된 총 노출 횟수는 동일합니다. 제공되는 광고 크기는 사용 가능한 인벤토리에 의해 결정됩니다. a\) 무기한으로 표시되거나(기본값) b\) 다시 첫 번째 번들로 루프백되도록 시퀀스의 마지막 번들을 구성할 수 있습니다. 예를 들어, 3개의 (3) 노출에 대해 1번에서 모든 크리에이티브를 표시한 다음, 1개의 (1) 노출에 대해 2번에서 모든 크리에이티브를 표시한 다음, 2개의 (2) 노출에 대해 3번에서 모든 크리에이티브를 표시한 다음 루프를 다시 시작할 수 있습니다. 또는 번들 3의 크리에이티브가 표시되면 루프를 만드는 것이 아니라 계속 번들 3의 크리에이티브를 무한정 표시할 수 있습니다. 순번 지정 사용 시:
+      * *[!UICONTROL Sequencing]:*
 
         1. 할당된 번들을 원하는 순서로 끌어다 놓습니다.
-
-           할당된 번들은 기본적으로 경험에 추가된 순서대로 순서가 지정됩니다.
 
         1. 각 시퀀스에 대한 노출 횟수를 입력합니다.
 
@@ -124,23 +190,25 @@ ht-degree: 0%
 
    1. 크리에이티브 순환 유형을 선택합니다.
 
-      * *[!UICONTROL Weighted]:* 각 번들의 크리에이티브를 상대 가중치에 따라 수동으로 회전합니다. 각 번들의 가중치를 백분율로 입력합니다. 선택한 모든 번들에 대한 가중치는 최대 100까지 추가해야 합니다.
+      * *[!UICONTROL Weighted]:* 각 번들의 가중치를 백분율로 입력하십시오. 선택한 모든 번들에 대한 가중치는 최대 100까지 추가해야 합니다.
 
-      * *[!UICONTROL Algorithmic]:* 지정된 최적화 목표에 따라 각 번들의 크리에이티브를 알고리즘 방식으로 회전합니다.
+      * *[!UICONTROL Algorithmic]:* **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오. *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.
 
-        * **[!UICONTROL Optimization Goal]**&#x200B;에 대해 *[!UICONTROL Click Through Rate]* 또는 *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택하십시오.  *[!UICONTROL Custom Objective]*&#x200B;을(를) 선택한 다음 기존 [Advertising DSP 사용자 지정 목표](/help/dsp/optimization/custom-goal.md)를 선택합니다.
-
-      * *[!UICONTROL Sequencing]:* 각 번들 시퀀스에 대해 지정된 총 노출 횟수로 연결된 Creative 번들을 지정된 순서로 회전합니다. 순번 지정 사용 시:
+      * *[!UICONTROL Sequencing]:*
 
         1. 할당된 번들을 원하는 순서로 끌어다 놓습니다.
-
-           할당된 번들은 기본적으로 경험에 추가된 순서대로 순서가 지정됩니다.
 
         1. 각 시퀀스에 대한 노출 횟수를 입력합니다.
 
         1. 마지막 시퀀스의 경우, a\) 시퀀스에 최종 번들을 무기한으로 표시할지(*[!UICONTROL Infinite]*(기본값) 또는 b\) 최종 번들이 표시된 후 첫 번째 번들로 다시 루프할지(*[!UICONTROL Keep in Loop]*) 변경합니다.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+## 경험 저장 {#save}
+
+다음 단계는 두 편집기에 모두 적용됩니다.
+
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

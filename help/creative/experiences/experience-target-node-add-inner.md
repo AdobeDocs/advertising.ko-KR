@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1117'
 ht-degree: 0%
 ---
 # 경험의 노드 사이에 타겟 노드 추가
@@ -35,7 +35,41 @@ ht-degree: 0%
 >
 >의사 결정 트리의 맨 아래 수준에 대상 노드를 추가하려면 &quot;[경험의 최종 수준에 대상 노드 추가](experience-target-node-add-final.md)&quot;를 참조하십시오.
 
-<!-- 1. [ways to get to the decision tree] -->
+## AI 기반 편집기 사용(Beta) {#ai-editor}
+
+경험을 [생성](experience-create-targeting.md#ai-editor) 또는 [편집](experience-edit-targeting.md#ai-editor)하는 동안 AI 에이전트에 대상 수준을 삽입하도록 요청할 수 있습니다. 삽입할 위치와 유지할 기존 분기 및 크리에이티브를 식별하고 결과를 검토합니다. 수준을 캔버스에 직접 삽입하려면 다음 작업을 수행하십시오.
+
+1. 수준을 삽입할 경계에서 **[!UICONTROL Add targeting level]**&#x200B;을(를) 클릭합니다.
+
+   가로 보기에서 이 컨트롤은 레이블이 같은 아이콘입니다.
+
+1. **[!UICONTROL New targeting level]**&#x200B;에서 대상 범주를 선택한 다음 **[!UICONTROL Add targeting level]**&#x200B;을(를) 클릭합니다.
+
+   * 대상 대상에 대해 **[!UICONTROL Audience]**&#x200B;을(를) 선택합니다.
+
+   * 지리적 대상의 경우 단일 지리적 범주(예: **[!UICONTROL Geo: Country]**)를 선택하십시오.
+
+   * 데이터 전달 대상의 경우 **[!UICONTROL Data Pass]**&#x200B;을(를) 선택합니다.
+
+   * 픽셀 대상을 다시 타겟팅하려면 **[!UICONTROL RT Pixel]**&#x200B;을(를) 선택합니다.
+
+   * 장치 대상에 대해 단일 대상 범주(**[!UICONTROL Device: Type]**, **[!UICONTROL Device: OS]** 또는 **[!UICONTROL Device: Browser]**)를 선택하십시오.
+
+   수준을 삽입해도 대상 값을 묻는 메시지가 표시되지 않습니다. 새 수준은 처음에 &quot;모두&quot;를 사용하고 기존 하위 대상 및 창의성을 유지합니다.
+
+1. (선택 사항) 새 수준에서 특정 대상을 정의하려면 [형제 대상 노드를 추가](experience-target-node-add-sibling.md#ai-editor)하십시오. 그렇지 않으면 특정 대상을 추가하지 않고 새 &quot;모든&quot; 노드를 유지합니다.
+
+1. (선택 사항) 사용자 정의 대상 노드의 이름을 바꾸려면 **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**&#x200B;을(를) 클릭하고 **[!UICONTROL Node Name]**&#x200B;을(를) 입력한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+   &quot;All&quot; 또는 &quot;Everyone Else&quot; 노드의 이름을 바꿀 수 없습니다.
+
+1. 보존된 분기를 검토하고 새 최종 노드에 [크리에이티브 번들을 할당](experience-assign-creative-bundles.md#ai-editor)합니다.
+
+1. [경험 저장](#save).
+
+## 수동 편집기 사용 {#manual-editor}
+
+[수동 편집기를 엽니다](experience-edit-targeting.md#experience-open).
 
 1. 대상을 삽입할 노드 아래에서 ![추가](/help/creative/assets/add.png "추가")를 클릭한 다음 **[!UICONTROL Insert New Target]**&#x200B;을(를) 선택합니다.
 
@@ -47,19 +81,21 @@ ht-degree: 0%
 
         * 대상 대상에 대해 **[!UICONTROL Audience]**&#x200B;을(를) 선택합니다.
 
-        * 지리적 대상의 경우 단일 지리적 범주(예: [!UICONTROL Geo: Country])를 선택하십시오.
+        * 지리적 대상의 경우 단일 지리적 범주(예: **[!UICONTROL Geo: Country]**)를 선택하십시오.
 
         * 데이터 전달 대상의 경우 **[!UICONTROL Data Pass]**&#x200B;을(를) 선택합니다.
 
-        * 픽셀 대상을 다시 타겟팅하려면 **[!UICONTROL RT Pixel]을(를) 선택합니다.
+        * 픽셀 대상을 다시 타겟팅하려면 **[!UICONTROL RT Pixel]**&#x200B;을(를) 선택합니다.
 
         * 장치 대상에 대해 단일 대상 범주(**[!UICONTROL Device: Type]**, **[!UICONTROL Device: OS]** 또는 **[!UICONTROL Device: Browser]**)를 선택하십시오.
 
    * 형제 노드가 이미 있는 경우 다음을 수행합니다.
 
-     * 대상자 타겟의 경우 다음을 수행합니다.
+     * 대상자 타겟의 경우:
 
-       1. **[!UICONTROL Click to Browse]**&#x200B;을(를) 클릭하여 [!UICONTROL Audience Targeting] 옵션을 연 후 다음을 수행합니다.
+       1. **[!UICONTROL Click to Browse]**&#x200B;을(를) 클릭하여 **[!UICONTROL Audience Targeting]** 옵션을 엽니다.
+
+       1. 대상 세그먼트 및 그룹을 구성합니다.
 
           * 첫 번째 세그먼트를 추가하려면 왼쪽 패널에서 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
 
@@ -67,23 +103,27 @@ ht-degree: 0%
 
             1. 오른쪽 패널에서 세그먼트 그룹을 클릭합니다.
 
-            1. (선택 사항) 필요에 따라 그룹 논리를 *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* 또는 *[!UICONTROL Exclude All]*(으)로 변경합니다.
+            1. (선택 사항) 필요에 따라 그룹 논리를 **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** 또는 **[!UICONTROL Exclude All]**(으)로 변경합니다.
 
-               *[!UICONTROL Exclude All]*&#x200B;은(는) 첫 번째 세그먼트 그룹에서 사용할 수 없습니다. 제외만 포함하는 대상의 경우 이 대상을 *[!UICONTROL Include Any]*(으)로 만든 다음 DSP 내의 배치에 추가할 때 해당 대상을 제외합니다.
+               **[!UICONTROL Include Any]**&#x200B;은(는) 선택한 하나 이상의 세그먼트에 있는 사용자와 일치합니다. **[!UICONTROL Include All]**&#x200B;은(는) 선택한 모든 세그먼트에 멤버십이 필요합니다.
 
-            1. 왼쪽 패널에서 새 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
+               **[!UICONTROL Exclude All]**&#x200B;은(는) 첫 번째 세그먼트 그룹에 사용할 수 없습니다. 제외만 포함하는 대상의 경우 **[!UICONTROL Include Any]**&#x200B;을(를) 사용하여 대상을 작성한 다음 DSP 내의 배치에 추가할 때 해당 대상을 제외합니다.
 
-               세그먼트 그룹이 새 세그먼트로 자동으로 업데이트됩니다.
+            1. 왼쪽 패널에서 새 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다. 각 추가 세그먼트에 대해 이 작업을 반복합니다.
+
+               세그먼트 그룹은 새 세그먼트로 자동으로 업데이트됩니다.
 
           * 새 세그먼트 그룹을 추가하려면:
 
             1. 오른쪽 패널에서 **[!UICONTROL + New Group]**&#x200B;을(를) 클릭합니다.
 
-            1. (선택 사항) 필요에 따라 이전 그룹과 새 그룹 간의 논리를 *[!UICONTROL And]* 또는 *[!UICONTROL Or]*(으)로 변경합니다.
+            1. (선택 사항) 필요에 따라 이전 그룹과 새 그룹 간의 논리를 **[!UICONTROL And]** 또는 **[!UICONTROL Or]**(으)로 변경합니다.
+
+               **[!UICONTROL And]**&#x200B;에서는 사용자가 두 그룹의 조건을 모두 충족해야 하며, **[!UICONTROL Or]**&#x200B;에서는 사용자가 하나 이상의 그룹 조건을 충족해야 합니다.
 
             1. 왼쪽 패널에서 새 그룹의 세그먼트를 찾은 다음 세그먼트 이름 옆에 있는 확인란을 선택합니다.
 
-            1. (선택 사항) 필요에 따라 그룹 논리를 *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* 또는 *[!UICONTROL Exclude All]*(으)로 변경합니다.
+            1. (선택 사항) 필요에 따라 그룹 논리를 **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** 또는 **[!UICONTROL Exclude All]**(으)로 변경합니다.
 
        1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
@@ -103,11 +143,11 @@ ht-degree: 0%
 
      * 데이터 전달 대상의 경우 선택적으로 데이터 전달 키를 사용자 지정하고 단일 데이터 전달 값을 입력한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-       키-값 쌍의 키에 대한 기본값이 [경험 설정](experience-settings-targeting.md)의 [!UICONTROL Advanced] 섹션에 있는 **[!UICONTROL Data Pass]** 필드에 이미 설정되어 있습니다. 선택적으로 키를 사용자 지정할 수 있습니다.
+       기본 데이터 전달 키가 [일반 경험 설정](experience-settings-targeting.md)의 **[!UICONTROL Advanced]** 섹션에 있는 **[!UICONTROL Data Pass]** 필드에 구성되어 있습니다. 필요한 경우 대상에 대한 키를 사용자 지정합니다.
 
      * 재타겟팅 픽셀 타겟의 경우 사용할 단일 재타겟팅 픽셀과 크리에이티브를 표시하는 데 필요한 픽셀 특성 값을 선택한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
 
-       리타겟팅 픽셀에 대한 특성은 [리타겟팅 픽셀 설정](/help/creative/pixels/retargeting-pixel-manage.md)에 구성되어 있습니다.
+       사용 가능한 특성은 [픽셀 설정 다시 타깃팅](/help/creative/pixels/retargeting-pixel-manage.md)에 구성되어 있습니다.
 
      * 장치 대상의 경우 다음을 수행합니다.
 
@@ -131,25 +171,15 @@ ht-degree: 0%
 
    1. **[!UICONTROL Node Name]**&#x200B;을(를) 입력한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-1. 다음 중 하나를 수행합니다.
+1. (선택 사항) [새 대상 노드 및 &quot;기타 모든 항목&quot; 노드에 크리에이티브 번들을 할당](experience-assign-creative-bundles.md#manual-editor)합니다.
 
-   * (선택 사항) [새 대상 노드 및 &quot;기타 모든 항목&quot; 노드에 크리에이티브를 할당](experience-assign-creative-bundles.md)합니다.
+1. (선택 사항) [지정한 대상 형식의 형제 대상 노드를 추가](experience-target-node-add-sibling.md#manual-editor)합니다.
 
-   * (선택 사항) [지정한 대상 형식의 형제 대상 노드를 추가](experience-target-node-add-sibling.md)합니다.
+## 경험 저장 {#save}
 
-   * (선택 사항) 경험을 저장하려면:
+다음 단계는 두 편집기에 모두 적용됩니다.
 
-     1. **[!UICONTROL Save]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
-
-     1. (맨 아래 수준의 각 노드에 크리에이티브가 하나 이상 포함되지 않은 경우): 다음 중 하나를 수행합니다.
-
-        * 필요한 모든 Creative 번들 없이 환경을 저장하려면 **[!UICONTROL Save as Draft]**&#x200B;을(를) 클릭합니다.
-
-          초안 경험을 위한 광고 태그를 만들 수 없습니다.
-
-        * 아직 Creative 번들이 할당되지 않은 각 대상에 기본 Creative를 할당하려면 **[!UICONTROL Assign Default Creatives]**&#x200B;을(를) 클릭합니다. 기본 크리에이티브가 할당된 업데이트된 트리를 검토한 후 **[!UICONTROL Save]** 및 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
-
-        * 결정 트리 편집을 계속하려면 **[!UICONTROL Continue Edit]**&#x200B;을(를) 클릭합니다.
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

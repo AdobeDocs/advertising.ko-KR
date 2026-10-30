@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 ---
 # 경험에서 대상 노드 또는 크리에이티브 리프 노드 삭제
@@ -27,25 +27,31 @@ ht-degree: 0%
 
 모든 하위 타겟과 해당 하위 노드에 할당된 크리에이티브 번들을 포함한 타겟 노드를 삭제할 수 있습니다. 크리에이티브 리프 노드를 삭제할 수도 있습니다.
 
-<!-- 1. [ways to get to the decision tree] -->
+## AI 기반 편집기 사용(Beta) {#ai-editor}
+
+경험을 [생성](experience-create-targeting.md#ai-editor) 또는 [편집](experience-edit-targeting.md#ai-editor)하는 동안 캔버스 컨트롤을 사용하십시오.
+
+1. 삭제하기 전에 노드 및 해당 하위 타겟 및 크리에이티브를 확인하십시오.
+
+1. 대상 노드 또는 크리에이티브 리프 노드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
+
+   별도의 **[!UICONTROL Delete Node]** 확인 없이 노드가 작업 트리에서 제거됩니다.
+
+1. 나머지 분기를 검토한 다음 [경험을 저장](#save)합니다.
+
+## 수동 편집기 사용 {#manual-editor}
+
+[수동 편집기를 엽니다](experience-edit-targeting.md#experience-open).
 
 1. 대상 노드 또는 크리에이티브 리프 노드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
 
 1. 확인 메시지에서 **[!UICONTROL Delete Node]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 경험을 저장하려면:
+## 경험 저장 {#save}
 
-   1. **[!UICONTROL Save]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
+다음 단계는 두 편집기에 모두 적용됩니다.
 
-   1. (맨 아래 수준의 각 노드에 크리에이티브가 하나 이상 포함되지 않은 경우): 다음 중 하나를 수행합니다.
-
-      * 필요한 모든 Creative 번들 없이 환경을 저장하려면 **[!UICONTROL Save as Draft]**&#x200B;을(를) 클릭합니다.
-
-        초안 경험을 위한 광고 태그를 만들 수 없습니다.
-
-      * 아직 Creative 번들이 할당되지 않은 각 대상에 기본 Creative를 할당하려면 **[!UICONTROL Assign Default Creatives]**&#x200B;을(를) 클릭합니다. 기본 크리에이티브가 할당된 업데이트된 트리를 검토한 후 **[!UICONTROL Save]** 및 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
-
-      * 결정 트리 편집을 계속하려면 **[!UICONTROL Continue Edit]**&#x200B;을(를) 클릭합니다.
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

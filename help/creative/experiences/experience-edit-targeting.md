@@ -1,6 +1,6 @@
 ---
 title: 의사 결정 트리 타겟팅으로 경험 편집
-description: 의사 결정 트리를 사용하여 타깃팅된 광고 경험에 대한 설정을 편집하는 방법을 알아봅니다.
+description: AI 기반 또는 수동 의사 결정 트리 편집기를 사용하여 타깃팅된 광고 경험을 편집하는 방법을 알아봅니다.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
 TQID: 'https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk'
@@ -19,12 +19,16 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '655'
 ht-degree: 0%
 ---
 # 의사 결정 트리 타겟팅으로 경험 편집
+
+AI 기반 편집기(Beta)는 타깃팅이 있는 경험에 대해 기본적으로 열립니다. AI 에이전트로 작업하거나 캔버스를 직접 편집하거나 기존 수동 편집기를 열 수 있습니다.
+
+## 경험 열기 {#experience-open}
 
 1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**&#x200B;을(를) 클릭합니다.
 
@@ -32,73 +36,93 @@ ht-degree: 0%
 
 1. 다음 중 하나를 수행합니다.
 
-   * 카드 보기에서 경험 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+   * AI 기반 편집기를 열려면 다음을 수행하십시오.
 
-   * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+     * 카드 보기에서 경험 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-   기본적으로 의사 결정 트리가 열립니다.
+     * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 필요에 따라 의사 결정 트리와 일반 설정 간을 전환합니다.
+   * 수동 편집기를 열려면
 
-   * 결정 트리에서 일반 설정을 열려면 오른쪽 상단의 **[!UICONTROL Experience Form]**&#x200B;을(를) 클릭합니다.
+     * 카드 보기에서 경험 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create Decision Tree Manually (Legacy)]**&#x200B;을(를) 클릭합니다.
 
-   * 일반 설정에서 결정 트리를 열려면 오른쪽 상단의 **[!UICONTROL Decision Tree]**&#x200B;을(를) 클릭합니다.
+     * 테이블 보기에서 행 위에 커서를 놓고 **[!UICONTROL More]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create Decision Tree Manually (Legacy)]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 결정 트리를 편집하려면 다음 중 하나를 수행합니다.
+     * AI 기반 편집기 내에서
 
-   * ([처리](experience-about.md#experience-statuses) 경험) 다음 중 하나를 수행합니다.
+## AI 기반 편집기를 사용하여 편집(Beta) {#ai-editor}
 
-     * Live Experience에 게시되지 않은 기존 변경 내용을 취소하려면 **[!UICONTROL Discard and start again]**&#x200B;을(를) 클릭합니다.
+1. [경험 열기](#experience-open).
 
-     * 게시되지 않은 기존 변경 내용을 유지하려면 **[!UICONTROL Continue editing draft]**&#x200B;을(를) 클릭합니다.
+1. 대화에서 원하는 타겟팅 변경 사항을 설명합니다. 영향을 받는 분기를 대상으로 식별하거나 캔버스에 표시되면 노드 ID를 사용하여 식별하십시오.
 
-     * 경험 세부 정보를 편집하려면 **[!UICONTROL Edit Experience Details]**&#x200B;을(를) 클릭하십시오.
+1. 업데이트된 트리를 검토하고 추가 변경 사항을 설명합니다. 캔버스와 상호 작용하기 전에 도우미가 처리를 완료할 때까지 기다립니다.
 
-   * (선택 사항) 의사 결정 트리에 대한 보기 설정을 변경합니다.
+1. (선택 사항) 캔버스에서 직접 변경합니다.
 
-     로그아웃할 때까지 설정이 저장됩니다.
+   * [최종 수준 대상을 추가](experience-target-node-add-final.md#ai-editor), [대상 수준을 삽입](experience-target-node-add-inner.md#ai-editor) 또는 [형제 대상을 추가](experience-target-node-add-sibling.md#ai-editor)합니다.
 
-   * 슬라이더를 이동하여 확대 또는 축소합니다.
+   * 대상 옆에 있는 **[!UICONTROL ...]** > **[!UICONTROL Edit]**&#x200B;을(를) 클릭하고 값을 변경한 다음 **[!UICONTROL Edit Node]**&#x200B;을(를) 클릭하여 대상의 기준을 편집합니다.
 
-   * ![세로 트리로 보기](/help/creative/assets/tree-vertical.png "세로 트리로 보기") 또는 ![가로 트리로 보기](/help/creative/assets/tree-horizontal.png "가로 트리로 보기")을(를) 클릭하여 세로 목록과 가로 목록 보기 간을 각각 전환합니다.
+   * [하위 노드 및 광고 크리에이티브 복사](experience-target-node-copy.md#ai-editor) 또는 [노드 삭제](experience-target-node-delete.md#ai-editor).
 
-   * (선택 사항) 다음 방법 중 하나로 광고 타겟 및 해당 크리에이티브를 변경합니다.
+   * [Creative 번들 할당 또는 할당 해제](experience-assign-creative-bundles.md#ai-editor).
 
-     * 대상:
+   * [크리에이티브 최적화 및 일정 사용자 지정](experience-optimization-scheduling-targeting.md) 또는 [추적 URL](experience-tracking-urls-targeting.md#ai-editor).
 
-       *[경험의 최종 수준에 대상 노드를 추가](experience-target-node-add-final.md)합니다.
+1. [경험 저장](#save).
 
-       * [노드 사이에 대상 노드를 삽입합니다](experience-target-node-add-inner.md).
+## 수동 편집기를 사용하여 편집 {#manual-editor}
 
-       * [노드 사이에 형제 대상 노드를 추가](experience-target-node-add-sibling.md)합니다.
+1. [경험 열기](#experience-open).
 
-       * [하위 노드 및 크리에이티브를 같은 수준의 다른 노드에 복사](experience-target-node-copy.md).
+1. (상태가 `[processing](experience-about.md#experience-statuses)`인 경험) 게시되지 않은 기존 초안에 대한 메시지가 표시되면 다음 중 하나를 수행하십시오.
 
-     * Creative 번들:
+   * 초안을 검토하고 계속 편집하려면 **[!UICONTROL Continue editing draft]**&#x200B;을(를) 클릭하십시오.
 
-       * [최종 노드에 대한 크리에이티브 할당 및 할당 해제](experience-assign-creative-bundles.md).
+   * **[!UICONTROL Discard and start again]**&#x200B;을(를) 클릭하여 초안을 삭제하고 라이브 버전에서 시작하십시오.
 
-         각 최종 노드에 하나 이상의 번들을 할당하지 않는 경우 경험을 저장할 때 할당되지 않은 각 노드에 대한 기본 크리에이티브를 사용하도록 선택할 수 있습니다. 경험을 게시하려면 번들을 할당하거나 각 최종 노드에 대한 기본 크리에이티브를 사용해야 합니다.
+   * 편집을 중지하려면 **[!UICONTROL Cancel this edit]**&#x200B;을(를) 클릭합니다.
 
-       * [할당된 번들의 광고 추적 URL을 사용자 지정](experience-tracking-urls-targeting.md)합니다.
+1. (선택 사항) 확대/축소 슬라이더를 조정하거나 ![세로 트리로 보기](/help/creative/assets/tree-vertical.png "세로 트리로 보기") 또는 ![가로 트리로 보기](/help/creative/assets/tree-horizontal.png "가로 트리로 보기")을(를) 클릭하여 방향을 변경합니다.
 
-       * 할당된 번들에 대해 [크리에이티브 최적화 및 예약을 사용자 지정](experience-optimization-scheduling-targeting.md)합니다.
+   보기 설정은 로그아웃할 때까지 저장됩니다.
 
-1. (선택 사항) [일반 환경 설정](experience-settings-targeting.md)을 편집합니다.
+1. 필요에 따라 타겟 및 크리에이티브를 변경합니다.
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭하고 다음을 수행합니다.
+   * [최종 수준 대상을 추가](experience-target-node-add-final.md#manual-editor), [노드 사이에 대상 삽입](experience-target-node-add-inner.md#manual-editor) 또는 [형제 대상을 추가](experience-target-node-add-sibling.md#manual-editor)합니다.
 
-   * (맨 아래 수준의 각 노드에 하나 이상의 Creative 번들이 포함된 경우) **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
+   * [하위 노드 및 광고 크리에이티브 복사](experience-target-node-copy.md#manual-editor) 또는 [노드 삭제](experience-target-node-delete.md#manual-editor).
 
-   * (맨 아래 수준의 각 노드에 크리에이티브 번들이 하나 이상 포함되지 않은 경우) 다음 중 하나를 수행하십시오.
+   * [Creative 번들 할당 또는 할당 해제](experience-assign-creative-bundles.md#manual-editor).
 
-     * 필요한 모든 Creative 번들 없이 경험을 저장하려면 **[!UICONTROL Save as Draft]**&#x200B;을(를) 클릭합니다.
+   * [크리에이티브 최적화 및 일정 사용자 지정](experience-optimization-scheduling-targeting.md) 또는 [추적 URL](experience-tracking-urls-targeting.md#manual-editor).
 
-       [초안](experience-about.md#experience-statuses) 경험에 대한 광고 태그를 만들 수 없습니다.
+1. [경험 저장](#save).
 
-     * 아직 Creative 번들이 할당되지 않은 각 대상에 기본 Creative를 할당하려면 **[!UICONTROL Assign Default Creatives]**&#x200B;을(를) 클릭합니다. 기본 크리에이티브가 할당된 업데이트된 트리를 검토한 후 **[!UICONTROL Save]** 및 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
+## 편집기 전환 또는 경험 설정 편집 {#switch-editors}
 
-     * 결정 트리 편집을 계속하려면 **[!UICONTROL Continue Edit]**&#x200B;을(를) 클릭합니다.
+>[!IMPORTANT]
+>
+>AI 기반 편집기를 종료하기 전에 유지할 트리 변경 사항을 저장하십시오. 수동 편집기 또는 경험 양식으로 전환해도 저장되지 않은 변경 사항은 전송되지 않습니다.
+
+* **수동 편집기에 대한 AI 기반 편집기:** **[!UICONTROL Manual Decision Tree]**&#x200B;을(를) 클릭합니다. 확인 대화 상자에서 **[!UICONTROL Yes]**&#x200B;을(를) 클릭하여 저장되지 않은 변경 내용을 삭제하고 수동 편집기를 열거나 **[!UICONTROL No]**&#x200B;을(를) 클릭하여 유지합니다.
+
+* **일반 설정에 대한 AI 기반 편집기:** **[!UICONTROL Experience Form]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Yes]**&#x200B;을(를) 클릭하여 저장되지 않은 트리 변경 내용을 취소하고 양식을 엽니다. [일반 환경 설정](experience-settings-targeting.md)을 편집한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+* **일반 설정에 대한 수동 편집기:** 유지할 트리 변경 내용을 저장한 다음 **[!UICONTROL Experience Form]**&#x200B;을(를) 클릭합니다. [일반 환경 설정](experience-settings-targeting.md)을 편집한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+* **AI 기반 편집기에 대한 일반 설정:** **[!UICONTROL Decision Tree]**&#x200B;을(를) 클릭합니다. 타겟팅된 경험의 일반 설정에 대한 변경 사항을 저장하면 AI 기반 편집기도 열립니다.
+
+* **AI 기반 편집기의 수동 편집기:** 트리 변경 내용을 저장하고 [!UICONTROL Experiences] 보기로 돌아간 다음 경험에 대해 **[!UICONTROL Edit]**&#x200B;을(를) 선택하십시오.
+
+다른 편집기를 열지 않고 AI 기반 편집기를 종료하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭합니다. 저장하지 않은 트리 변경 내용을 취소하려면 **[!UICONTROL Yes]**&#x200B;을(를) 클릭하고 편집을 계속하려면 **[!UICONTROL No]**&#x200B;을(를) 클릭하십시오.
+
+## 경험 저장 {#save}
+
+다음 단계는 두 편집기에 모두 적용됩니다.
+
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

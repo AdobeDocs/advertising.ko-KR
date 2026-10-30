@@ -1,6 +1,6 @@
 ---
 title: 의사 결정 트리 레이아웃
-description: 타깃팅이 있는 경험의 의사 결정 트리 레이아웃에 대해 알아봅니다.
+description: 타깃팅이 있는 경험에 대한 AI 기반 및 수동 의사 결정 트리 편집기에 대해 알아봅니다.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
 TQID: 'https://experienceleague.adobe.com/JFrcVBHxv90Fchk-VfkmxAITQJswboszNMFOfaAQlL4'
@@ -18,28 +18,46 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '807'
 ht-degree: 0%
 ---
 # [!DNL Creative] 경험에 대한 의사 결정 트리 레이아웃
 
 경험에 대해 &quot;[!UICONTROL Targeting]&quot; 옵션을 활성화하면 의사 결정 트리를 사용하여 경험을 설정합니다.
 
-처음에는 각 결정 트리가 루트 수준인 &quot;모두&quot;로 시작합니다. 하나 이상의 대상 노드를 추가한 다음 의사 결정 트리의 각 분기에 있는 최종 노드에 크리에이티브 번들을 할당할 수 있습니다. 기본적으로 결정 트리는 세로로 표시되지만, 대신 선택적으로 가로로 트리를 볼 수 있습니다.
+처음에는 각 결정 트리가 루트 수준인 &quot;모두&quot;로 시작합니다. 하나 이상의 대상 노드를 추가한 다음 의사 결정 트리의 각 분기에 있는 최종 노드에 크리에이티브 번들을 할당할 수 있습니다.
+
+## AI 기반 편집기(Beta) {#ai-editor}
+
+타깃팅이 있는 경험을 만들거나 편집할 때 AI 기반 편집기는 기본적으로 열립니다. AI 에이전트와의 대화와 대화형 의사 결정 트리 캔버스를 결합합니다.
+
+* 대화에서 원하는 타겟팅 구조 또는 변경 사항을 설명하고 결과 트리를 검토한 후 저장합니다.
+
+* 캔버스를 직접 편집하여 타겟 수준 및 노드를 추가하고, 번들을 할당하고, 크리에이티브 최적화 및 추적 URL을 구성합니다. 이러한 컨트롤을 사용하기 위해 수동 편집기로 전환할 필요가 없습니다.
+
+* 헤더에서 경험 이름, 상태 및 광고주를 보고, 변경 사항을 설명할 때 노드 ID(사용 가능한 경우)를 사용하여 타겟 노드를 식별합니다.
+
+* **[!UICONTROL Zoom in]**, **[!UICONTROL Zoom out]** 및 **[!UICONTROL Change orientation]**&#x200B;을(를) 사용하여 보기를 조정합니다. **[!UICONTROL Reset tree]**&#x200B;은(는) 확인 후 트리를 지웁니다. 확대/축소가 재설정되지 않습니다.
+
+도우미가 변경 내용을 처리하는 동안 캔버스와 해당 **[!UICONTROL Save]** 단추가 일시적으로 비활성화됩니다. 다른 캔버스를 변경하기 전에 처리가 완료될 때까지 기다립니다.
+
+## 수동 편집기 {#manual-editor}
+
+AI 기반 편집기에서 기존 수동 편집기를 열려면 **[!UICONTROL Manual Decision Tree]**&#x200B;을(를) 클릭합니다. [!UICONTROL Experiences] 보기의 경험 작업에서 **[!UICONTROL Create Decision Tree Manually (Legacy)]**&#x200B;을(를) 선택할 수도 있습니다. [편집기 전환 또는 경험 설정 편집](experience-edit-targeting.md#switch-editors)을 참조하세요.
+
+수동 편집기에서는 기본적으로 트리가 세로로 표시됩니다. 가로 보기로 변경하고 슬라이더로 확대/축소를 조정할 수 있습니다. 보기 설정은 로그아웃할 때까지 저장됩니다.
+
+다음 예는 수동 편집기를 보여 줍니다.
 
 ![대상이 없는 수직 결정 트리의 예](/help/creative/assets/experience-decision-tree-no-targets.png "대상이 없는 수직 결정 트리의 예")
 
 ![대상이 없는 가로 결정 트리의 예](/help/creative/assets/experience-decision-tree-no-targets-horizontal.png "대상이 없는 가로 결정 트리의 예")
 
-<!--
->[!NOTE]
+>[!IMPORTANT]
 >
->You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.
--->
-
-<!-- Explain the diff and why to choose the other option. -->
+>AI 기반 편집기를 종료하기 전에 유지할 모든 변경 사항을 저장합니다. **[!UICONTROL Manual Decision Tree]**, **[!UICONTROL Experience Form]** 또는 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭하면 확인 대화 상자가 열립니다. **[!UICONTROL Yes]**&#x200B;을(를) 클릭하면 저장되지 않은 트리 변경 내용이 삭제됩니다. **[!UICONTROL No]**&#x200B;을(를) 클릭하면 편집기에 계속 남아 있습니다.
 
 ## 용어
 
@@ -54,6 +72,8 @@ ht-degree: 0%
 각 의사 결정 트리는 최대 5개 수준의 대상을 가질 수 있습니다. 경험 수준 타겟은 DSP의 타겟팅 옵션과 함께 적용됩니다. 계층 타겟팅 동작은 DSP에 따라 다를 수 있습니다. 광고 경험에 구현할 캠페인과 호환되는 타겟팅이 포함되어 있는지 확인하십시오.
 
 각 타겟 수준에는 동일한 타겟 유형(대상 세그먼트, 지리적 위치 유형, 지정된 데이터 패스 키의 값, 지정된 리타겟팅 픽셀의 속성 또는 디바이스 카테고리)을 가진 하나 이상의 노드가 각각 있는 여러 분기가 포함될 수 있습니다. 기본 이미지 크리에이티브 또는 비디오 크리에이티브를 지정한 각 광고 크기의 크리에이티브 번들을 최하위 레벨 대상 노드에 할당할 수 있습니다.
+
+<!-- Add a screen shot of the AI editor -->다음 예에서는 수동 편집기의 대상을 보여 줍니다.
 
 ![대상이 있는 의사 결정 트리의 예](/help/creative/assets/experience-decision-tree.png "대상이 있는 의사 결정 트리의 예")
 

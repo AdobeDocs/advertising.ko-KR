@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '453'
 ht-degree: 0%
 ---
 # 경험의 최종 노드에 크리에이티브 번들 지정 및 지정 취소
@@ -36,7 +36,31 @@ ht-degree: 0%
 >
 >각 최종 노드에 하나 이상의 Creative 번들을 할당하지 않는 경우 [경험을 저장](experience-create-targeting.md)할 때 할당되지 않은 각 노드에 대해 기본 Creative를 사용하도록 선택할 수 있습니다. 경험을 게시하려면 번들을 할당하거나 각 최종 노드에 대한 기본 크리에이티브를 사용해야 합니다.
 
-<!-- 1. [ways to get to the decision tree] -->
+## AI 기반 편집기 사용(Beta) {#ai-editor}
+
+경험을 [생성](experience-create-targeting.md#ai-editor) 또는 [편집](experience-edit-targeting.md#ai-editor)하는 동안 캔버스 컨트롤을 사용하십시오.
+
+1. 다음 중 하나를 수행합니다.
+
+   * 번들이 없는 최종 노드의 경우 **[!UICONTROL Assign Bundles]**&#x200B;을(를) 클릭합니다.
+
+   * 기존 번들이 있는 노드의 경우 Creative Leaf 노드에서 **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Assign Bundles]** 탭에서 할당할 각 번들 옆의 확인란을 선택하고 할당을 취소할 각 번들 옆의 확인란을 선택 취소합니다.
+
+   경험에 대한 관련 유형의 번들(표준 또는 동적)만 나열됩니다.
+
+1. (선택 사항) **[!UICONTROL Creative optimisation]** 탭을 열어 [순환 및 예약을 사용자 지정](experience-optimization-scheduling-targeting.md)합니다.
+
+1. 대화 상자에서 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 작업 트리를 업데이트합니다.
+
+1. (선택 사항) [추적 URL을 사용자 지정](experience-tracking-urls-targeting.md#ai-editor)합니다.
+
+1. 변경 내용을 유지하려면 트리 헤더에서 [환경을 저장](#save)하세요.
+
+## 수동 편집기 사용 {#manual-editor}
+
+[수동 편집기를 엽니다](experience-edit-targeting.md#experience-open).
 
 1. 다음 중 하나를 수행합니다.
 
@@ -54,12 +78,9 @@ ht-degree: 0%
 
 1. (선택 사항) [할당된 번들의 광고 추적 URL을 사용자 지정](experience-tracking-urls-targeting.md)합니다.
 
-<!--
-1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
-...
+## 경험 저장 {#save}
 
-These formatted steps are inserted automatically from text in the following file in the _includes folder, which reused in multiple places.
--->
+다음 단계는 두 편집기에 모두 적용됩니다. 번들 대화 상자만 저장해도 경험이 저장되거나 게시되지 않습니다.
 
 {{$include /help/_includes/experience-save.md}}
 
