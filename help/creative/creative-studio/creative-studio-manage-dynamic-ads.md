@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 88fead9ffc4eaa572be090877790422e67831036
+source-git-commit: b9a68528b3c622aae44a46bca9b3bb747019bc95
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # [!UICONTROL Creative Studio]에서 동적 크리에이티브 관리
@@ -117,33 +117,21 @@ ht-degree: 0%
 
 ## 다이내믹 크리에이티브 품질 검사 {#qa-dynamic-creative}
 
-QA 에이전트를 사용하여 동적 크리에이티브의 템플릿에 대해 카탈로그 행을 분석하고, 결과 광고를 미리 보고, 잠재적인 콘텐츠 문제를 식별할 수 있습니다. **[!UICONTROL AI Assistant]**&#x200B;을(를) 사용하여 광고를 필터링 및 그룹화하고, 카탈로그 경고를 검토하고, 변경 내용을 게시하기 전에 카탈로그 값을 수동으로 수정할 수 있습니다.
-
-에이전트가 [!UICONTROL Creative Libraries] 또는 [!UICONTROL Creative Studio]에서 **[!UICONTROL Dynamic Creative QA]** 화면을 엽니다. 메뉴 레이블은 다르지만 두 진입점 모두 동일한 QA 기능을 제공합니다. 분석은 선택한 크리에이티브, 카탈로그 및 요청에 따라 다릅니다.
+QA 도우미를 사용하여 동적 크리에이티브의 템플릿에 대해 카탈로그 행을 분석하고, 결과 광고를 미리 보고, 잠재적인 콘텐츠 문제를 식별할 수 있습니다. **[!UICONTROL AI Assistant]**&#x200B;을(를) 사용하여 광고를 필터링 및 그룹화하고, 카탈로그 경고를 검토하고, 변경 내용을 게시하기 전에 카탈로그 값을 수동으로 수정할 수 있습니다.
 
 >[!NOTE]
 >
->QA 에이전트는 표준 크리에이티브나 동적 비디오 크리에이티브가 아닌 동적 디스플레이 크리에이티브에 사용할 수 있습니다. [!UICONTROL Creative Libraries]에서 작업은 동적 템플릿을 기반으로 하는 동적 크리에이티브에 대해서만 사용할 수 있습니다.
+>[!UICONTROL Creative Studio] 또는 [!UICONTROL Creative Libraries]에서 동적 크리에이티브의 품질을 확인할 수 있습니다. 메뉴 레이블은 다르지만 두 진입점은 동일한 기능을 사용하여 동일한 **[!UICONTROL Dynamic Creative QA]** 화면을 엽니다. 분석은 선택한 크리에이티브, 카탈로그 및 요청에 따라 다릅니다. 다른 진입점에 대해서는 &quot;[Creative 라이브러리에서 동적 크리에이티브 품질 검사](/help/creative/creative-libraries/creative-edit-dynamic.md#qa-dynamic-creative)&quot;를 참조하십시오.
 
-### QA 에이전트 열기 {#open-qa-agent}
+QA 도우미는 표준 크리에이티브나 동적 비디오 크리에이티브가 아닌 동적 디스플레이 크리에이티브에 사용할 수 있습니다.
 
-1. 다음 방법 중 하나로 저장된 QA용 동적 크리에이티브를 엽니다.
+### QA 길잡이 열기 {#open-qa-agent}
 
-   * **출처: [!UICONTROL Creative Libraries]:**
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**&#x200B;을(를) 클릭합니다.
 
-     1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Creatives]** 탭에서 [!UICONTROL Generate or Build Creatives] 섹션 아래의 Creative 라이브러리에서 동적 Creative를 찾습니다.
 
-     1. 라이브러리 이름을 클릭하여 라이브러리를 엽니다.
-
-     1. **[!UICONTROL Creatives]** 탭에서 동적 Creative 이름 옆의 **[!UICONTROL ...]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL QA Agent]**&#x200B;을(를) 클릭합니다.
-
-   * **출처: [!UICONTROL Creative Studio]:**
-
-     1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**&#x200B;을(를) 클릭합니다.
-
-     1. **[!UICONTROL Creatives]** 탭에서 [!UICONTROL Generate or Build Creatives] 섹션 아래의 Creative 라이브러리에서 동적 Creative를 찾습니다.
-
-     1. Creative 카드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**&#x200B;을(를) 클릭합니다.
+1. Creative 카드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**&#x200B;을(를) 클릭합니다.
 
    미리 보기 캔버스와 **[!UICONTROL AI Assistant]** 채팅 패널이 있는 **[!UICONTROL Dynamic Creative QA]** 화면이 열립니다.
 
@@ -217,7 +205,7 @@ QA 화면을 종료하지 않고 광고 미리 보기에서 카탈로그 값을 
      * 새 크리에이티브를 보려면 **[!UICONTROL Create Dynamic Creative]** 확인 대화 상자에서 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
      * 기존 크리에이티브의 경우 **[!UICONTROL Update Dynamic Creative]** 확인 대화 상자에서 **[!UICONTROL Update]**&#x200B;을(를) 클릭합니다.
 
-     QA 화면을 연 위치에 따라 Creative Library 또는 [!UICONTROL Creative Studio]&#x200B;(으)로 돌아갑니다.
+     [!UICONTROL Creative Studio]&#x200B;(으)로 돌아갑니다.
 
 * 보류 중인 카탈로그 편집 내용을 게시하지 않고 나가려면 페이지 머리글에서 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭합니다.
 
