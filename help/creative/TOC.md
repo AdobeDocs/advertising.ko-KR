@@ -3,13 +3,11 @@ role: User
 user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: 크리에이티브 안내서
-source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 4%
-
 ---
-
 
 # Advertising Creative 2.0 안내서 {#creative}
 
@@ -36,11 +34,12 @@ ht-degree: 4%
     + 표준 광고 {#standard-creatives}
       + [크리에이티브 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md)
       + [표준 광고 편집](/help/creative/creative-libraries/creative-edit-standard.md)
+      + [유연한 HTML5 광고 변형 생성](/help/creative/creative-libraries/creative-generate-variations.md)
       + [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md)
       + [HTML5 creative 사양](/help/creative/creative-libraries/html5-creative-specification.md)
     + 다이내믹 크리에이티브 {#dynamic-creatives}
       + [Creative 라이브러리에 동적 크리에이티브 추가](/help/creative/creative-libraries/creative-add-dynamic.md)
-      + [동적 크리에이티브 편집](/help/creative/creative-libraries/creative-edit-dynamic.md)
+      + [동적 크리에이티브 편집 및 품질 점검](/help/creative/creative-libraries/creative-edit-dynamic.md)
       + [동적 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-dynamic.md)
     + [크리에이티브 미리 보기](/help/creative/creative-libraries/creative-preview.md)
     + [번들에 크리에이티브 첨부](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
