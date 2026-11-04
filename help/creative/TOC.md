@@ -3,9 +3,9 @@ role: User
 user-guide-title: Advertising Creative 안내서
 user-guide-description: Advertising Creative 사용에 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대해 알아봅니다.
 breadcrumb-title: 크리에이티브 안내서
-source-git-commit: 2ffa1910ffd60b0a93fa5edb54d5956319ad7fb8
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '440'
 ht-degree: 4%
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 4%
   + [Adobe Advertising Creative 정보](/help/creative/introduction/creative-about.md)
   + [데이터 보기 사용자 지정](/help/creative/introduction/customize-data-views.md)
   + [동적 광고용 워크플로우](/help/creative/introduction/workflow-dynamic-ads.md)
-  + [고객 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
-  + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
+  + [고객 개인 정보 보호 지원](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+  + [정책 및 지침](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative 스튜디오 {#creative-studio}
   + [Creative Studio 정보](/help/creative/creative-studio/creative-studio-about.md)
   + [[!UICONTROL Creative Studio]의 C2PA 메타데이터](/help/creative/creative-studio/creative-studio-content-credentials.md)
@@ -34,6 +34,7 @@ ht-degree: 4%
     + 표준 광고 {#standard-creatives}
       + [크리에이티브 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md)
       + [표준 광고 편집](/help/creative/creative-libraries/creative-edit-standard.md)
+      + [유연한 HTML5 광고 변형 생성](/help/creative/creative-libraries/creative-generate-variations.md)
       + [표준 크리에이티브 설정](/help/creative/creative-libraries/creative-settings-standard.md)
       + [HTML5 creative 사양](/help/creative/creative-libraries/html5-creative-specification.md)
     + 다이내믹 크리에이티브 {#dynamic-creatives}
@@ -101,4 +102,4 @@ ht-degree: 4%
 + [픽셀 재타겟팅](/help/creative/pixels/retargeting-pixel-manage.md)
 + [추적 URL에 사용 가능한 매크로](/help/creative/creative-macros.md)
 + [도움말 보기](/help/creative/get-help.md)
-+ [Adobe CX Enterprise 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko){target="_blank"}
++ [Adobe CX Enterprise 릴리스 노트](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

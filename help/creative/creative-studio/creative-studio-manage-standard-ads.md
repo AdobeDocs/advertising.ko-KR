@@ -11,9 +11,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1263'
 ht-degree: 0%
 ---
 # [!UICONTROL Creative Studio]에서 표준 광고 관리
@@ -149,11 +149,17 @@ ht-degree: 0%
 
 1. **[!UICONTROL Update Creative]**&#x200B;을(를) 클릭합니다.
 
-## 표준 광고에 대한 광고 변형 생성 {#generate-ad-variations}
+## 유연한 HTML5 크리에이티브를 위한 광고 변형 생성 {#generate-ad-variations}
+
+**[!UICONTROL Generate Variations]** 작업은 유연한 HTML5 광고 작업에만 사용할 수 있습니다. 생성기에 필요한 내부 상위 광고 템플릿 참조가 크리에이티브에 없거나 다른 변형 생성 요청이 시작되는 동안에는 비활성화됩니다. 상위 광고 템플릿 참조는 편집할 수 있는 설정이 아닙니다.
+
+>[!NOTE]
+>
+>[!UICONTROL Creative Libraries]에서 적합한 유연한 HTML5 광고 변형을 생성할 수도 있습니다. 두 진입점이 동일한 [!UICONTROL Ad Variations Generator]을(를) 엽니다. 다른 진입점 및 가용성 요구 사항에 대해서는 &quot;[유연한 HTML5 광고 변형 생성](/help/creative/creative-libraries/creative-generate-variations.md)&quot;을 참조하십시오.
 
 1. 주 메뉴에서 **[!UICONTROL Creative Studio]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Creatives]** 탭에서 Creative 카드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Generate Ad Variations]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Creatives]** 탭에서 Creative 카드 위에 커서를 놓고 **[!UICONTROL ...]** > **[!UICONTROL Generate Variations]**&#x200B;을(를) 클릭합니다.
 
    선택한 광고가 미리 로드된 상태로 [!UICONTROL Ad Variations Generator]이(가) 열립니다.
 
@@ -203,4 +209,4 @@ ht-degree: 0%
 >* [Creative Studio에서 동적 크리에이티브 관리](creative-studio-manage-dynamic-ads.md)
 >* [Creative Studio에서 템플릿 관리](creative-studio-manage-templates.md)
 >* [Advertising Creative에서 브랜드 프로필 관리](/help/creative/brands/brand-manage.md)
->* [!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-content-credentials.md)의 C2PA 메타데이터
+>* [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)의 [C2PA 메타데이터
