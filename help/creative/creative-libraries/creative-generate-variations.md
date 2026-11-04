@@ -125,4 +125,4 @@ ht-degree: 0%
 >* [표준 광고 편집](creative-edit-standard.md)
 >* [Creative Studio에서 표준 광고 관리](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
 >* [Advertising Creative에서 브랜드 프로필 관리](/help/creative/brands/brand-manage.md)
->* [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)의 [C2PA 메타데이터
+>* [!UICONTROL Creative Studio]&#x200B;[&#128279;](/help/creative/creative-studio/creative-studio-content-credentials.md)의 C2PA 메타데이터
