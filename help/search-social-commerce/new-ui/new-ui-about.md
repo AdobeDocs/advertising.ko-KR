@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 0c824f0b29ca5134c83a8d8d7107bd223fc3428f
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '198'
 ht-degree: 0%
 ---
 # 새 사용자 인터페이스 정보
 
-이제 새로운 UI(사용자 인터페이스)에서 목표, 시뮬레이션 및 포트폴리오를 관리하고 기타 주요 작업을 대부분 수행할 수 있습니다. 새 검색, 소셜 및 Commerce UI는 `https://experience.adobe.com` 도메인 내의 새 URL에서 실행됩니다.
+이제 새 UI(사용자 인터페이스)에서 대부분의 작업을 수행할 수 있습니다. 새 검색, 소셜 및 Commerce UI는 `https://experience.adobe.com` 도메인 내의 새 URL에서 실행됩니다.
 
-시간이 지남에 따라 나머지 기능이 새 UI에 추가됩니다. 그동안 새 UI의 메인 메뉴에서 기존 UI의 기능 대부분을 열 수 있습니다. 또한 새 UI와 기존 UI 간에 쉽게 전환할 수 있습니다.
+시간이 지남에 따라, 마지막 몇 개의 나머지 기능이 새 UI에 추가됩니다. 그동안 새 UI의 메인 메뉴에서 기존 UI의 기능을 열 수 있습니다. 또한 새 UI와 기존 UI 간에 쉽게 전환할 수 있습니다.
 
 새 UI를 구성하는 방법에 대한 자세한 내용은 &quot;[사용자 인터페이스를 구성하는 방법](/help/search-social-commerce/getting-started/user-interface.md)&quot;을 참조하십시오.
 
