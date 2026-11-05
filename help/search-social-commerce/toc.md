@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: edf008b5ac23852101d29361110773030f1a2f81
+source-git-commit: fd18dc1423269ce0238826318f58cfcfdce1bce1
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2440'
 ht-degree: 2%
 ---
 # Advertising Search, Social 및 Commerce 안내서 {#search-social-commerce}
@@ -254,10 +254,18 @@ ht-degree: 2%
     + [&#x200B; [!DNL Google Ads] 전환 값 규칙 관리](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
     + [검색 입찰 단위에 대한 제한 관리](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
   + 타기팅 {#targeting}
+    + 대상자 {#audiences-new-ui}
+      + [대상자 관리](/help/search-social-commerce/new-ui/targeting/audiences/audience-manage.md)
+      + [캠페인 및 광고 그룹에 대한 대상자 타겟 관리](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)
+      + [캠페인 및 광고 그룹에 대한 대상자 제외 관리](/help/search-social-commerce/new-ui/targeting/audiences/audience-exclusions.md)
     + [&#x200B; [!DNL Google Ads] 동적 검색 대상 관리](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
     + [배치 관리](/help/search-social-commerce/new-ui/targeting/placement-manage.md)
   + 라이브러리 {#library}
     + [크리에이티브 에셋 보기 및 만들기](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
+    + 확장 {#extensions-new-ui}
+      + [공유 사이트링크 확장 관리](/help/search-social-commerce/new-ui/library/extensions/sitelink-extension-manage.md)
+      + [&#x200B; [!DNL Google Ads] 공유 설명선 확장 관리](/help/search-social-commerce/new-ui/library/extensions/callout-extension-manage.md)
+      + [광고 확장 연결 관리](/help/search-social-commerce/new-ui/library/extensions/ad-extension-association-manage.md)
   + [사용자 지정 경고 관리](/help/search-social-commerce/new-ui/alerts-manage.md)
   + [알림 관리](/help/search-social-commerce/new-ui/notifications-manage.md)
   + [사용자 관리](/help/search-social-commerce/new-ui/user-administration.md)

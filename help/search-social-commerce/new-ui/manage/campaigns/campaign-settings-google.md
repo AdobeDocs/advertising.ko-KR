@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '3244'
 ht-degree: 0%
@@ -421,7 +421,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 
 >[!NOTE]
 >
->대상자 신호가 [캠페인 수준 및 광고 그룹 수준의 대상자 대상](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)과(와) 다릅니다.
+>대상자 신호가 [캠페인 수준 및 광고 그룹 수준의 대상자 대상](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)과(와) 다릅니다.
 
 **[!UICONTROL Primary Status]:**(성과 최대 캠페인의 기존 에셋 그룹에 대한 읽기 전용 필드) 에셋 그룹이 전체 용량으로 제공되거나 제공되지 않는 이유. 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다. 값에는 *적격,* *제한,* *NOT_적격,* *일시 중지됨,* *보류 중,* *제거됨,* *알 수 없음,* 또는 *지정되지 않음.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->&#x200B;이 포함될 수 있습니다.
 

@@ -18,7 +18,7 @@ feature_v2:
     internal-label: Search Model Accuracy Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: ea1ad3de65362d59f5c45341bc4807cfbaf0610e
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 다음 방법 중 하나 또는 둘 다로 사용자 지정된 보고서가 자동으로 생성되도록 예약합니다.
 
-* [보고서 템플릿](/help/search-social-commerce/reports/automation/templates/template-about.md)을 사용하여 매일 또는 특정 요일 또는 달에 보고서를 자동으로 생성합니다.
+* [보고서 템플릿](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)을 사용하여 매일 또는 특정 요일 또는 달에 보고서를 자동으로 생성합니다.
 
   템플릿을 사용하는 [기본 및 고급 보고서의 FTP 배달](/help/search-social-commerce/new-ui/reports/ftp-reports.md)을 선택적으로 설정할 수 있습니다.
 

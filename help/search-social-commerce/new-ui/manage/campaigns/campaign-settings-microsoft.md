@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '2256'
 ht-degree: 0%
@@ -337,7 +337,7 @@ Not there as of 7/22 -- what's going on here? If we're removing it, then I need 
 **[!UICONTROL Audience Signal]:**(선택 사항) 캠페인을 위한 대상 신호로 사용할 대상 [!DNL Microsoft Advertising]개. [!DNL Microsoft Advertising] 기계 학습 모델은 대상을 사용하여 타깃팅할 유사한 웹 서퍼를 찾고, 성능 목표를 충족하는 데 도움이 되도록 신호로 지정되지 않은 대상에 광고를 표시할 수도 있습니다. 변환할 가능성이 가장 큰 대상을 선택하십시오.
 
 >[!NOTE]
->대상 신호가 [광고 그룹 수준의 대상 대상](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)과(와) 다릅니다.
+>대상 신호가 [광고 그룹 수준의 대상 대상](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)과(와) 다릅니다.
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 

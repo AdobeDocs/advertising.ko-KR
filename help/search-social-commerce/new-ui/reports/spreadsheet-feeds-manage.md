@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
     internal-label: Search Reports
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b0691683d8b9a02169920645c4220c3737cb9bd9
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1632'
 ht-degree: 0%
 ---
 # (새 UI) 스프레드시트 보고서 피드 관리
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 <!-- Update link to notifications once available -->
 
-스프레드시트 피드는 [!DNL Microsoft Excel] XLSX의 사용자 지정 스프레드시트 형식으로 모든 기본 보고서 및 모델 정확도 보고서에 대한 일일 성능 데이터를 제공합니다. 일반 보고서 템플릿에서 만드는 특수 형식의 [!DNL Excel] 스프레드시트 템플릿을 사용하여 스프레드시트 피드를 설정할 수 있습니다. 매일 집계되는 새로운 원시 데이터를 사용하여 지정된 시간에 스프레드시트가 자동으로 새로 고쳐집니다. 원시 데이터는 스프레드시트 템플릿에 포함한 모든 열과 그래프를 채웁니다. 스프레드시트 피드 파일을 사용할 수 있거나 파일 생성이 실패하면 보고서 템플릿의 각 이메일 수신자는 사용자가 구성한 [보고서에 대한 알림 설정](/help/search-social-commerce/notifications/notification-about.md)을 기반으로 알림을 받습니다.
+스프레드시트 피드는 [!DNL Microsoft Excel] XLSX의 사용자 지정 스프레드시트 형식으로 모든 기본 보고서 및 모델 정확도 보고서에 대한 일일 성능 데이터를 제공합니다. 일반 보고서 템플릿에서 만드는 특수 형식의 [!DNL Excel] 스프레드시트 템플릿을 사용하여 스프레드시트 피드를 설정할 수 있습니다. 매일 집계되는 새로운 원시 데이터를 사용하여 지정된 시간에 스프레드시트가 자동으로 새로 고쳐집니다. 원시 데이터는 스프레드시트 템플릿에 포함한 모든 열과 그래프를 채웁니다. 스프레드시트 피드 파일을 사용할 수 있게 되거나 파일 생성에 실패하면 스프레드시트 피드 설정에 지정된 각 이메일 수신자는 사용자가 구성한 [보고서에 대한 알림 설정](/help/search-social-commerce/notifications/notification-about.md)을 기반으로 알림을 받습니다.
 
 피드를 구성하여 최대 90일의 데이터를 새로 고치고 기존의 모든 데이터가 유지되며 계속 누적됩니다.
 
-[!UICONTROL Reports] > [!UICONTROL Spreadsheets Feeds] 보기에는 사용자가 만든 모든 스프레드시트 피드가 나열됩니다. 이 보기에서 스프레드시트 피드를 생성하거나, 피드를 수동으로 새로 고치거나, 피드를 삭제할 수 있습니다.
+[!UICONTROL Reports] > [!UICONTROL Spreadsheet Feeds] 보기에는 사용자가 만든 모든 스프레드시트 피드가 나열됩니다. 이 보기에서 스프레드시트 피드를 생성, 편집, 수동으로 새로 고침 또는 삭제하고, 연관된 보고서 템플릿의 설정을 보고, 선택한 행 데이터를 복사할 수 있습니다.
 
 ## 사용 가능한 작업
 
@@ -33,17 +33,19 @@ ht-degree: 0%
 
 * [스프레드시트 보고서 피드 설정 편집](#spreadsheet-feed-edit)
 
+* [연결된 보고서 템플릿의 설정 보기](#spreadsheet-feed-view-template)
+
 * [스프레드시트 보고서 피드 파일 보기 또는 저장](#spreadsheet-feed-view-or-save)
 
 * [스프레드시트 보고서 피드 수동 새로 고침](#spreadsheet-feed-refresh)
 
 * [스프레드시트 보고서 피드 삭제](#spreadsheet-feed-delete)
 
+* [선택한 행의 모든 데이터를 클립보드에 복사](#copy-to-clipboard)
+
 ## 스프레드시트 보고서 피드용 [!DNL Excel] 템플릿 만들기 {#spreadsheet-feed-create-excel-template}
 
-<!-- Add x-refs when available -->
-
-스프레드시트 피드를 만들려면 먼저 일반 보고서 템플릿을 사용하여 특수 형식의 [!DNL Microsoft Excel] 스프레드시트 템플릿을 만들어야 합니다. 선택적으로 추가 열 및 그래프를 포함하도록 [!DNL Excel] 스프레드시트를 사용자 지정할 수 있습니다.
+스프레드시트 피드를 만들려면 먼저 일반 [보고서 템플릿](report-templates-manage.md)을 사용하여 특수 형식의 [!DNL Microsoft Excel] 스프레드시트 템플릿을 만들어야 합니다. 선택적으로 추가 열 및 그래프를 포함하도록 [!DNL Excel] 스프레드시트를 사용자 지정할 수 있습니다.
 
 1. **[!UICONTROL Reports]>[!UICONTROL Reports]**&#x200B;에서 &quot;[!UICONTROL Daily]&quot;의 [!UICONTROL Date Aggregation] 단위와 원하는 다른 모든 데이터 매개 변수를 사용하여 원하는 보고서 유형을 생성하고 보고서를 템플릿으로 저장합니다.
 
@@ -98,7 +100,7 @@ ht-degree: 0%
       >
       >피드와 연결된 보고서 템플릿이 나중에 삭제되면 피드도 삭제됩니다.
 
-      구성된 [!UICONTROL Schedule Time]에서 매일 스프레드시트 피드가 자동으로 새로 고쳐집니다. 보고서 템플릿에 이메일 수신자의 주소가 포함된 경우 스프레드시트를 새로 고치면 해당 주소에 알림이 전송됩니다.
+      구성된 [!UICONTROL Schedule Time]에서 매일 스프레드시트 피드가 자동으로 새로 고쳐집니다. 피드의 [!UICONTROL Email Recipients] 설정에 지정된 주소는 스프레드시트를 새로 고칠 때 알림을 받습니다.
 
 ## 스프레드시트 보고서 피드 설정 편집 {#spreadsheet-feed-edit}
 
@@ -110,7 +112,7 @@ ht-degree: 0%
 
    * (선택 사항) 피드에 대해 다른 보고서 템플릿 또는 업데이트된 보고서 템플릿을 사용하려면 [보고서 템플릿에 대해 새로 만들기 [!DNL Excel] 템플릿을 만듭니다](#spreadsheet-feed-create-excel-template).
 
-     다음 단계에서 보고서 템플릿과 새 [!DNL Excel] 파일을 모두 업로드합니다.
+     보고서 템플릿을 선택하고 다음 단계에서 새 [!DNL Excel] 파일을 업로드합니다.
 
    * (선택 사항) 사용자 지정 열을 [!DNL Excel] 템플릿에 추가하려면 보고서 템플릿의 열 오른쪽에 열을 삽입한 다음 파일을 .XLSX 형식의 [!DNL Excel] 스프레드시트로 저장합니다. 다음 단계에서 새 [!DNL Excel] 파일을 업로드해야 합니다.
 
@@ -122,7 +124,7 @@ ht-degree: 0%
 
    1. 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-   1. [!UICONTROL Create Spreadsheet Feed]<!-- sic --> 대화 상자에서 [스프레드시트 피드 설정](#spreadsheet-feed-settings)을 변경합니다.
+   1. **[!UICONTROL Edit Spreadsheet Feed]** 대화 상자에서 [스프레드시트 피드 설정](#spreadsheet-feed-settings)을 변경합니다.
 
    1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
@@ -132,20 +134,34 @@ ht-degree: 0%
    >
    > 피드와 연결된 보고서 템플릿이 나중에 삭제되면 피드도 삭제됩니다.
 
-   스프레드시트 피드는 광고주의 시간대에 매일 08:00에 자동으로 새로 고쳐집니다. 보고서 템플릿에 이메일 수신자의 주소가 포함된 경우 스프레드시트를 새로 고치면 해당 주소에 알림이 전송됩니다.
+   광고주의 시간대에 구성된 [!UICONTROL Schedule Time]에 매일 스프레드시트 피드가 자동으로 새로 고쳐집니다. 피드의 [!UICONTROL Email Recipients] 설정에 지정된 주소는 스프레드시트를 새로 고칠 때 알림을 받습니다.
 
 ## 스프레드시트 보고서 피드 설정 {#spreadsheet-feed-settings}
 
 | 필드 | 설명 |
 |---|---|
-| [!UICONTROL Feed Name] | 스프레드시트 피드의 이름입니다. |
+| [!UICONTROL Feed Name] | 최대 120자의 스프레드시트 피드 이름입니다. |
 | [!UICONTROL Report Template] | 필요한 보고서 데이터를 지정하는 보고서 템플릿입니다. [!DNL Excel] 템플릿을 만드는 데 사용한 보고서 템플릿을 선택하십시오. 모든 기본 보고서 템플릿이 나열됩니다.<br><br><b>참고:</b> 보고서에 사용되는 보고서 템플릿을 변경하거나 템플릿의 열을 업데이트한 경우 새 [!DNL Excel] 템플릿을 만들고 업로드해야 합니다. |
-| [!UICONTROL Excel Template] | 보고서 템플릿에 지정된 데이터에 적용되는 .XLSX 형식으로 만든 특수 형식의 [!DNL Excel] 템플릿입니다. 전체 경로와 파일 이름을 입력하거나 <b>[!UICONTROL Browse]</b>을(를) 클릭하여 장치 또는 네트워크에서 파일을 찾아 업로드할 파일을 지정하십시오. |
-| [!UICONTROL Back Fill From] | [!UICONTROL RAW] 탭의 기존 데이터를 새로 고치는 시작일로, 과거 일 수로 표시됩니다. 최대 90일의 값을 입력합니다. 기본값은 7일입니다.<br><br>예를 들어 값이 7이고 오늘이 3월 7일인 경우 3월 1일부터 [!UICONTROL RAW] 탭의 기존 데이터가 새로 고쳐집니다([!UICONTROL Back Fill Until] 매개 변수로 지정된 종료 날짜까지). 3월 1일 이전 날짜에 대한 기존 데이터 행은 삭제되지 않지만 새로 고쳐지지 않습니다. |
-| [!UICONTROL Back Fill Until] | [!UICONTROL RAW] 탭의 기존 데이터를 새로 고치는 종료 날짜입니다. 과거 일 수로 표시됩니다. 기본값은 1일입니다.<br><br>예를 들어 이 값이 1이고 오늘이 3월 7일인 경우 [!UICONTROL RAW] 탭의 기존 데이터가 3월 6일(그리고 [!UICONTROL Back Fill From] 매개 변수에 지정된 시작 날짜부터 시작)까지 새로 고쳐집니다. 이 값이 1이고 [!UICONTROL Back Fill Until] 매개 변수가 7이며 오늘이 3월 7일인 경우 [!UICONTROL RAW] 탭의 기존 데이터가 3월 1일부터 3월 6일까지 새로 고쳐집니다. 두 예에서 3월 6일 이후 날짜에 대한 기존 데이터 행은 삭제되지 않지만 새로 고쳐지지 않습니다. |
-| [!UICONTROL Email Recipients] | 보고서를 새로 고칠 때마다 알림을 보낼 이메일 주소 또는 템플릿에 일정이 포함될 때 보고서를 실행할 때마다 이메일 주소. 기본적으로 사용자 계정의 주소를 입력합니다. 여러 주소를 지정하려면 쉼표, 공백 또는 새 줄로 구분합니다. |
-| [!UICONTROL Schedule Time] | 스프레드시트 피드를 새로 고치는 시간: 광고주의 시간대에서 08:00 또는 10:00에서 23:00 사이의 모든 시간. 새 스프레드시트 피드의 기본값은 10:00입니다.<br><br><b>참고:</b> 성능상의 이유로 다른 보고서가 생성되는 09:00에는 스프레드시트 피드를 새로 고칠 수 없습니다. |
-| [!UICONTROL Email Notification] | (이메일 수신자가 지정된 경우) 지정된 주소에 대한 이메일 알림에 포함할 내용:<ul><li><i>[!UICONTROL Attach feed]</i> — 완료된 보고서의 사본을 XLSX 형식으로 보냅니다. 파일이 10MB를 초과하는 경우 알림에 첨부 파일이 포함되지 않습니다.</li><li><i>[!UICONTROL Notification Only]</i>(기본값) — 보고서 완료 또는 실패에 대한 알림만 보내려면 보고서에 대한 링크와 함께 보냅니다.</li></ul> |
+| [!UICONTROL Excel Template] | 보고서 템플릿에 지정된 데이터에 적용되는 .XLSX 형식으로 만든 특수 형식의 [!DNL Excel] 템플릿입니다. 업로드할 파일을 찾으려면 <b>[!UICONTROL Choose file]</b>을(를) 클릭하십시오. |
+| [!UICONTROL Back Fill From] | [!UICONTROL RAW] 탭의 기존 데이터를 새로 고치는 시작일로, 과거 일 수로 표시됩니다. [!UICONTROL Back Fill Until]보다 큰 1-90 사이의 값을 입력하십시오. 기본값은 7일입니다.<br><br>예를 들어 값이 7이고 오늘이 3월 7일인 경우 3월 1일부터 [!UICONTROL RAW] 탭의 기존 데이터가 새로 고쳐집니다([!UICONTROL Back Fill Until] 매개 변수로 지정된 종료 날짜까지). 3월 1일 이전 날짜에 대한 기존 데이터 행은 삭제되지 않지만 새로 고쳐지지 않습니다. |
+| [!UICONTROL Back Fill Until] | [!UICONTROL RAW] 탭의 기존 데이터를 새로 고치는 종료 날짜입니다. 과거 일 수로 표시됩니다. 1-90에서 [!UICONTROL Back Fill From]보다 작은 값을 입력하십시오. 기본값은 1일입니다.<br><br>예를 들어 이 값이 1이고 오늘이 3월 7일인 경우 [!UICONTROL RAW] 탭의 기존 데이터가 3월 6일(그리고 [!UICONTROL Back Fill From] 매개 변수에 지정된 시작 날짜부터 시작)까지 새로 고쳐집니다. 이 값이 1이고 [!UICONTROL Back Fill From] 매개 변수가 7이며 오늘이 3월 7일인 경우 [!UICONTROL RAW] 탭의 기존 데이터가 3월 1일부터 3월 6일까지 새로 고쳐집니다. 두 예에서 3월 6일 이후 날짜에 대한 기존 데이터 행은 삭제되지 않지만 새로 고쳐지지 않습니다. |
+| [!UICONTROL Email Recipients] | 스프레드시트 피드를 새로 고칠 때마다 알림을 보낼 이메일 주소. 기본적으로 사용자 계정의 주소를 입력합니다. 여러 주소를 지정하려면 쉼표, 공백 또는 새 줄로 구분합니다. |
+| [!UICONTROL Schedule Time] | 광고주의 시간대에서 매일 스프레드시트 피드를 새로 고치는 시간입니다. 사용 가능한 옵션에서 시간을 선택합니다. 새 스프레드시트 피드의 기본값은 10:00입니다. |
+| [!UICONTROL Email Notification] | 지정된 주소에 대한 이메일 알림에 포함할 내용:<ul><li><i>[!UICONTROL Attach Feed (Max 10MB)]</i> — 완료된 보고서의 사본을 XLSX 형식으로 보냅니다. 파일이 10MB를 초과하는 경우 알림에 첨부 파일이 포함되지 않습니다.</li><li><i>[!UICONTROL Notification Only]</i>(기본값) — 보고서 완료 또는 실패에 대한 알림만 보내려면 보고서에 대한 링크와 함께 보냅니다.</li></ul> |
+
+## 연결된 보고서 템플릿의 설정 보기 {#spreadsheet-feed-view-template}
+
+**[!UICONTROL Template Settings]** 톱니바퀴 아이콘으로 피드에 연결된 보고서 템플릿의 복제본이 열립니다. 중복을 열어도 새 템플릿이 저장되지 않고 피드의 관련 템플릿이 변경되지 않습니다.
+
+1. 메인 메뉴에서 **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**&#x200B;을(를) 클릭합니다.
+
+1. 연결된 보고서 템플릿의 이름 옆에 있는 **[!UICONTROL Template Settings]** 톱니바퀴 아이콘을 클릭합니다.
+
+1. 보고서 설정을 검토합니다.
+
+1. 완료되면 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭합니다. 설치를 취소하라는 메시지가 표시되면 **[!UICONTROL Discard]**&#x200B;을(를) 클릭합니다.
+
+원본 보고서 템플릿을 변경하려면 [보고서 템플릿 편집 절차](report-templates-manage.md#template-edit)를 따르십시오. 피드에 다른 템플릿을 사용하려면 [스프레드시트 피드 설정을 편집](#spreadsheet-feed-edit)하고 템플릿을 선택하십시오.
 
 ## 스프레드시트 보고서 피드 파일 보기 또는 저장 {#spreadsheet-feed-view-or-save}
 
@@ -159,7 +175,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->스프레드시트 피드는 로컬 시간대에서 매일 08:00에 자동으로 새로 고쳐집니다.
+>광고주의 시간대에 구성된 [!UICONTROL Schedule Time]에 매일 스프레드시트 피드가 자동으로 새로 고쳐집니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**&#x200B;을(를) 클릭합니다.
 
@@ -182,5 +198,17 @@ ht-degree: 0%
 1. 삭제할 각 피드 옆의 확인란을 선택합니다.
 
 1. 일괄 작업 도구 모음에서 **[!UICONTROL Delete]**&#x200B;을(를) 클릭합니다.
+
+1. 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
+
+## 선택한 행의 모든 데이터를 클립보드에 복사 {#copy-to-clipboard}
+
+보기에 표시되는 적용된 필터 및 열에 따라 선택한 행에 표시되는 정보를 복사합니다. 정보는 탭으로 구분된 값(TSV)으로 저장됩니다.
+
+1. 메인 메뉴에서 **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**&#x200B;을(를) 클릭합니다.
+
+1. 데이터를 복사할 각 행 옆의 확인란을 선택합니다.
+
+1. 일괄 작업 도구 모음에서 **[!UICONTROL Copy]**&#x200B;을(를) 클릭합니다.
 
 1. 확인 메시지에서 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.

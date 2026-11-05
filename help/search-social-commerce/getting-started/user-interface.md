@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1395'
 ht-degree: 0%
 ---
 # 사용자 인터페이스 구성 방법
@@ -87,35 +87,33 @@ ht-degree: 0%
 
   * **[!UICONTROL Bulksheets]**: 새 [!UICONTROL Bulksheets] 보기를 엽니다.
 
-  * **[!UICONTROL Label Classification]** 새 [!UICONTROL Label Classifications] 보기를 엽니다. 분류를 관리하고, 새 UI에서 사용할 수 있는 적용 가능한 계정 구성 요소에 분류 값을 지정/지정 취소할 수 있습니다.
+  * **[!UICONTROL Label Classification]** 분류를 관리하고 새 UI에서 사용할 수 있는 적용 가능한 계정 구성 요소에 분류 값을 할당/할당 해제할 새 보기를 엽니다.
 
-  * **[!UICONTROL Manager Accounts]**: 기존 관리자 계정 및 광고 네트워크에 대한 새 보기를 엽니다. 관리자 계정을 관리하려면 기존 [!UICONTROL Admin] > [!UICONTROL Manager Accounts] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+  * **[!UICONTROL Manager Accounts]**: 광고 네트워크에서 관리자 계정을 나열하고 관리할 새 보기를 엽니다.
 
 * **[!UICONTROL Goals]** 하위 메뉴:
 
-  * **[!UICONTROL Objectives]** 기존 목표를 모두 보고 목표를 만들고 편집하고 삭제할 수 있는 새 [!UICONTROL Objectives] 보기를 엽니다.
+  * **[!UICONTROL Objectives]** 기존 목표를 모두 보고 목표를 만들고 편집하고 삭제할 수 있는 새 보기를 엽니다.
 
   * **[!UICONTROL Conversions]** 광고주의 전환 지표를 보고 관리 보기 및 보고서에 사용할 수 있는 지표를 사용자 지정할 수 있는 새 보기를 엽니다.
 
-  * **[!UICONTROL Conversion Value Rules]** [!DNL Google Ads] 계정에 대한 캠페인 수준 및 계정 수준 전환 값 규칙을 보고 관리할 새 보기를 엽니다.
+  * **[!UICONTROL Conversion Value Rules]** [!DNL Google Ads] 계정에 대한 캠페인 수준 및 계정 수준 전환 값 규칙을 나열하고 관리할 새 보기를 엽니다.
 
-  * **[!UICONTROL Constraints]** 기존 제약 조건의 읽기 전용 보기를 엽니다. 제한을 관리하려면 기존 [!UICONTROL Optimization] > [!UICONTROL Constraints] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+  * **[!UICONTROL Constraints]** 입찰 제약 조건을 나열하고 관리할 새 보기를 엽니다.
 
 * **[!UICONTROL Targeting]** 하위 메뉴:
 
-  * **[!UICONTROL Audiences]**: 광고주의 기존 대상, 모든 대상 타겟 및 모든 대상 제외를 표시하는 새 보기를 엽니다. 대상자를 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+  * **[!UICONTROL Audiences]**: 광고주의 대상, 모든 대상 타겟 및 모든 대상 제외를 관리할 새 보기를 엽니다.
 
   * **[!UICONTROL Auto Targets]** 광고주에 대한 기존의 모든 자동 타겟을 표시하는 새 보기를 엽니다. 자동 타겟을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
-  * **[!UICONTROL Placements]** 광고주에 대한 기존 배치 및 부정적인 배치를 보여 주는 새 [!UICONTROL Placements] 보기를 엽니다. 선택한 배치에 대한 제한 지정을 관리할 수 있습니다.
-
-    배치 및 부정적인 배치를 만들고, 편집하고, 삭제하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+  * **[!UICONTROL Placements]** 광고주에 대한 배치 및 부정적인 배치를 나열 및 관리할 새 보기를 엽니다.
 
 * **[!UICONTROL Library]** 하위 메뉴:
 
-  * **[!UICONTROL Assets]** 기존 크리에이티브 자산을 나열하는 새 보기를 엽니다. 각 크리에이티브를 미리 볼 수 있습니다. 자산 라이브러리를 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Asset Library] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+  * **[!UICONTROL Assets]** 크리에이티브 자산을 나열하고 관리할 새 보기를 엽니다.
 
-  * **[!UICONTROL Extensions]** 기존 광고 확장의 읽기 전용 보기를 엽니다. 확장을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Campaigns] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+  * **[!UICONTROL Extensions]** 콜아웃 확장, 사이트 링크 확장, 광고 확장과 계정 엔터티 간의 연결을 나열하고 관리할 수 있는 탭이 있는 새 보기를 엽니다.
 
   * **[!UICONTROL Products]** 기존 판매자 센터 계정 및 제품에 대한 읽기 전용 보기를 엽니다. 판매자 센터 계정을 추가하려면 기존의 [!UICONTROL Campaigns] > [!UICONTROL Products] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
