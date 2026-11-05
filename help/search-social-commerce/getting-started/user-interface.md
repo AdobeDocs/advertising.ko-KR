@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d0763d8f2099b683ab1ed4ee93342555803f1afd
+source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1395'
 ht-degree: 0%
 ---
 # 사용자 인터페이스 구성 방법
@@ -103,9 +103,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Targeting]** 하위 메뉴:
 
-  * **[!UICONTROL Audiences]**: 광고주의 기존 대상, 모든 대상 타겟 및 모든 대상 제외를 표시하는 새 보기를 엽니다. 대상자를 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
+  * **[!UICONTROL Audiences]**: 광고주의 대상, 모든 대상 타겟 및 모든 대상 제외를 관리할 새 보기를 엽니다.
 
-  * **[!UICONTROL Auto Targets]** 광고주에 대한 자동 타겟을 나열하고 관리할 새 보기를 엽니다.
+  * **[!UICONTROL Auto Targets]** 광고주에 대한 기존의 모든 자동 타겟을 표시하는 새 보기를 엽니다. 자동 타겟을 관리하려면 기존 [!UICONTROL Campaigns] > [!UICONTROL Auto Targets] 보기를 사용합니다. [[!UICONTROL Switch to Old UI] 단추](/help/search-social-commerce/getting-started/ui-switch.md)을(를) 클릭하여 기존 사용자 인터페이스로 돌아갑니다.
 
   * **[!UICONTROL Placements]** 광고주에 대한 배치 및 부정적인 배치를 나열 및 관리할 새 보기를 엽니다.
 
