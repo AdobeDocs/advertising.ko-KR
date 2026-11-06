@@ -92,7 +92,7 @@ ht-degree: 0%
 
 * [목표에 가중치 권장 사항 적용](objective-apply-weight-recommendations.md)
 
-* [ [!DNL Microsoft Excel] 워크시트로 목표 구성 내보내기](objective-export.md)
+* [&#x200B; [!DNL Microsoft Excel] 워크시트로 목표 구성 내보내기](objective-export.md)
 
 * [목표에 대한 성능 데이터 다운로드](objective-download-performance-data.md)
 
