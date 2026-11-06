@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: 700d05fb39b04918ae2662ce24746ed1e84f110e
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '905'
 ht-degree: 0%
 ---
 # (새 UI) 포트폴리오 정보
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Portfolios] 보기
 
-[!UICONTROL Portfolios] 보기는 사용자 지정 가능한 성능 데이터와 함께 필터링된 보기의 모든 기존 포트폴리오를 나열합니다. [보기 내의 열을 사용자 지정하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) 도구 모음[&#128279;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서 특정 포트폴리오 을(를) 포함하도록 데이터를 필터링할 수 있습니다.
+[!UICONTROL Portfolios] 보기는 사용자 지정 가능한 성능 데이터와 함께 필터링된 보기의 모든 기존 포트폴리오를 나열합니다. [보기 내의 열을 사용자 지정하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) 도구 모음](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) 또는 [열 제목](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)에서 특정 포트폴리오 [을(를) 포함하도록 데이터를 필터링할 수 있습니다.
 
 ### 사용 가능한 작업 {#available-actions}
 
@@ -110,6 +110,8 @@ ht-degree: 0%
 * [보기의 모든 포트폴리오에 대한 성능 그래프 보기](portfolio-view-performance-graph.md)
 
 * [포트폴리오 성능 세부 정보 보기](portfolio-details.md)
+
+* [사용자 지정 시뮬레이션 실행 또는 주간 시뮬레이션 다운로드](portfolio-create-simulation.md)
 
 * [포트폴리오의 변경 내역 보기](portfolio-view-change-history.md)
 
