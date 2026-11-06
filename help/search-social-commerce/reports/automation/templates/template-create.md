@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '173'
 ht-degree: 0%
 ---
 # 보고서 템플릿 만들기
 
-모든 유형의 성과 보고서에 대해 여러 보고서 템플릿을 저장할 수 있습니다. 템플릿을 처음부터 만들거나 기존 템플릿을 기반으로 만들 수 있습니다. 한 번에 최대 100개의 템플릿을 유지 관리할 수 있습니다.
+모든 유형의 성과 보고서에 대해 여러 보고서 템플릿을 저장할 수 있습니다. 새 설정으로 템플릿을 만들거나 기존 템플릿을 기반으로 할 수 있습니다. 한 번에 최대 100개의 템플릿을 유지 관리할 수 있습니다.
 
-* 템플릿을 처음부터 새로 만들려면 다음 중 하나를 수행합니다.
+* 새 설정으로 템플릿을 만들려면 다음 중 하나를 수행합니다.
 
   * [!UICONTROL Reports] 탭에서 보고서를 만들어 보고서 이름 옆에 있는 **[!UICONTROL Save as template]** 옆의 확인란을 선택합니다.
 

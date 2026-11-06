@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fd18dc1423269ce0238826318f58cfcfdce1bce1
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
 source-wordcount: '2440'
 ht-degree: 2%
@@ -86,7 +86,7 @@ ht-degree: 2%
       + [포트폴리오 이름 바꾸기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)
       + [포트폴리오 상태 변경](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-change-status.md)
       + [Portfolio 설정](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
-      + [[!UICONTROL Portfolios] 보기에서 사용자 지정 시뮬레이션 실행](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
+      + [[!UICONTROL Portfolios] 보기에서 시뮬레이션 실행 및 다운로드](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
       + [[!UICONTROL Portfolios] 보기에서 성능 그래프 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
       + [포트폴리오 성능 세부 정보 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
       + [포트폴리오의 변경 내역 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)

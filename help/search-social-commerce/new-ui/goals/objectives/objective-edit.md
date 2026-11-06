@@ -21,14 +21,16 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '133'
 ht-degree: 0%
 ---
 # (새 UI) 목표 편집
 
 *Beta 기능*
+
+원본을 편집하지 않고 동일한 설정으로 새 목표를 만들려면 [목표를 복제](objective-create.md#objective-duplicate)합니다.
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;을(를) 클릭합니다.
 
@@ -42,7 +44,7 @@ ht-degree: 0%
 
    * 목표를 저장하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   * 지정된 설정으로 새 목표를 만들려면 **[!UICONTROL Save As]**&#x200B;을(를) 클릭하고 새 목표의 이름을 입력한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+   * 원본을 변경하지 않고 지정된 설정으로 새 목표를 만들려면 **[!UICONTROL Save as]**&#x200B;을(를) 클릭하고 새 목표의 이름을 입력한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
