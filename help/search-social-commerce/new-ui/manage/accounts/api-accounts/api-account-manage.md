@@ -9,19 +9,64 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
+source-git-commit: b568da9300e9adb8d189811c3c8b52516dfcef6f
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '3141'
 ht-degree: 0%
 ---
 # (새 UI) API 연결을 통해 광고 네트워크 계정을 관리합니다
 
-<!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-다음은 검색, 소셜 및 Commerce이 광고 네트워크의 API를 사용하여 동기화하는 광고 네트워크 계정을 관리하는 지침입니다.
+이 지침은 인증, 연결 새로 고침 및 상태 확인을 포함하여 API를 통해 검색, 소셜 및 Commerce이 동기화되는 광고 네트워크 계정을 관리하는 방법을 설명합니다.
 
-<!-- Move out info about Naver into a separate page -->
+계정을 만들거나 편집하거나 다시 인증하려면 계정을 편집할 수 있는 권한이 있어야 합니다.
 
 각 광고 네트워크에서 사용할 수 있는 기능에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;를 참조하십시오.
+
+## [!UICONTROL Accounts] 보기 정보 {#account-view-about}
+
+[!UICONTROL Manage] > [!UICONTROL Accounts] 보기는 선택한 광고주 계정에 대해 필터링된 보기의 모든 광고 네트워크 계정을 나열합니다. 계정 이름을 클릭하여 해당 계정에 대해 필터링된 [!UICONTROL Campaigns] 보기를 엽니다.
+
+### 계정 인증 및 액세스 상태 {#authentication-status}
+
+인증 및 액세스 세부 사항은 광고 네트워크 및 계정에 사용할 수 있는 정보에 따라 다릅니다. 활성화되었거나 성공적으로 인증된 계정은 여전히 누락된 권한을 가질 수 있습니다.
+
+다음 열에는 계정 상태, 인증 및 액세스 세부 정보가 표시됩니다.
+
+* **[!UICONTROL Status]:** 계정의 인증 및 권한과 별도로 있는 계정의 작동 상태입니다. 활성화된 계정은 데이터를 광고 네트워크와 동기화하고 지원되는 계정 관리 및 최적화 기능을 사용할 수 있습니다. 비활성화된 계정은 검색, 소셜 및 Commerce 내에서 활동을 중지합니다. 계정 상태 표시에는 **[!UICONTROL Enabled]**&#x200B;에 대해 녹색 표시기가 사용되고, **[!UICONTROL Disabled]**&#x200B;에 대해 빨간색 표시기가 사용되고, **[!UICONTROL Pending]**&#x200B;에 대해 노란색 표시기가 사용됩니다. 보기 또는 계정 설정에서 [계정을 활성화 또는 비활성화](#enable-disable-account)할 수 있습니다.
+
+* **[!UICONTROL Authenticated]:** 계정이 인증되었는지 여부:
+
+  * **[!UICONTROL Yes]:** 계정이 인증되었습니다.
+
+  * **[!UICONTROL No]:** 계정이 인증되지 않았습니다. 인증 오류를 사용할 수 있는 경우 커서를 빨간색 경고 아이콘 위에 놓으면 오류가 표시됩니다.
+
+  * API를 통해 연결하는 대신 계정에 대한 데이터를 업로드하므로 **[!UICONTROL Not Applicable]:** 인증이 적용되지 않습니다.
+
+  * **[!UICONTROL Expiring in N days]**, **[!UICONTROL Expiring today]** 또는 **[!UICONTROL Expired]:** 만료 정보를 사용할 수 있고 토큰이 14일 이내에 만료되거나 이미 만료된 경우 토큰 만료 경고가 **[!UICONTROL Yes]**&#x200B;을(를) 대체합니다. 계정의 액세스 세부 정보를 보고 [다시 인증](#reauthenticate)하려면 경고 아이콘을 클릭하십시오.
+
+* **[!UICONTROL Manager Account for Cross-Account Conversions]:** ([!DNL Google Ads] 계정만 해당) 계정 간 전환 업로드에 사용되는 연결된 관리자 계정의 ID입니다. 관리자 계정에 대해 오류를 사용할 수 있으면 ID 옆에 경고 아이콘이 표시됩니다. 오류를 보려면 아이콘 위에 커서를 놓습니다. 관리자 계정의 자격 증명은 광고 네트워크 계정의 자격 증명과 별개입니다. 관리자 계정 자격 증명을 추가하거나 새로 고치려면 **[!UICONTROL Setup]** > **[!UICONTROL Manager Accounts]**&#x200B;을(를) 사용합니다. &quot;[관리자 계정 관리](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)&quot;를 참조하십시오.
+
+* **[!UICONTROL Access Level]:** **[!UICONTROL Full]**, **[!UICONTROL Limited]** 또는 **[!UICONTROL None]**&#x200B;과(와) 같은 보고된 계정 액세스 수준이나 사용 가능한 액세스 수준 값이 없는 경우 **[!UICONTROL Not Applicable]**&#x200B;입니다.
+
+  권한이 누락된 경우 경고 아이콘을 클릭하여 계정의 액세스 세부 사항을 확인합니다. **[!UICONTROL Access]** 섹션에는 사용 권한이 **[!UICONTROL Granted]** 또는 **[!UICONTROL Missing]**(으)로 나열됩니다. 영향 세부 정보를 사용할 수 있으면 **[!UICONTROL Not working]** 섹션에 영향을 받는 기능이 나열됩니다. [다시 인증](#reauthenticate)하고 사용 권한을 업데이트하려면 **[!UICONTROL Update Access]**&#x200B;을(를) 클릭하십시오.
+
+### 사용 가능한 작업
+
+사용 가능한 작업은 사용 권한 및 계정 유형에 따라 다릅니다.
+
+* [광고 네트워크 계정 세부 정보 만들기](#create-account)
+
+* [광고 네트워크 계정 세부 정보 편집](#edit-account)
+
+* [광고 네트워크 계정 재인증](#reauthenticate)
+
+* [광고 네트워크 계정 활성화 또는 비활성화](#enable-disable-account)
+
+* [계정 데이터를 광고 네트워크와 동기화](sync-api-accounts.md)
+
+* [[!UICONTROL Accounts] 보기에서 성능 그래프 보기](#account-performance-graph)
+
+* [[!UICONTROL Accounts] 보기에서 데이터 보기 보고서 관리](#account-reports)
 
 ## 광고 네트워크 계정 세부 정보 만들기 {#create-account}
 
@@ -35,11 +80,17 @@ ht-degree: 0%
 
 1. **[!UICONTROL Create Account]**&#x200B;을(를) 클릭합니다.
 
-1. 광고 네트워크 이름을 클릭한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. 계정 설정을 열려면 광고 네트워크의 이름을 클릭하십시오.
 
-1. ([!DNL ChatGPT Ads] 및 [!DNL Yandex]을(를) 제외한 모든 광고 네트워크) 광고주의 자격 증명을 사용하여 광고 네트워크에 로그인합니다. &quot;이 계정에 대한 계정 추적&quot; 옵션을 선택합니다. 그런 다음 오른쪽 상단에서 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. ([!DNL ChatGPT Ads] 및 [!DNL Yandex]을(를) 제외한 모든 광고 네트워크) **[!UICONTROL Authenticate]** 탭에서 광고주의 자격 증명을 사용하여 팝업 창에서 로그인을 완료하고 요청한 계정 액세스 권한을 부여합니다.
 
-1. 사용 가능한 각 탭에서 [계정 설정](#account-settings-api)을 지정하십시오.
+   설정 화면이 자동으로 업데이트되고 인증이 성공하면 **[!UICONTROL Authentication Successful]**&#x200B;이(가) 표시됩니다. 로그인 창을 다시 열어야 하는 경우 **[!UICONTROL Open login again]**&#x200B;을(를) 클릭합니다. 브라우저가 창을 차단하는 경우 브라우저 설정을 편집하여 사이트에 대한 팝업을 허용하십시오.
+
+   [!DNL Meta Ads]의 경우 누락된 권한과 그 영향을 식별하는 경고가 표시됩니다. 인증이 성공했다고 해서 요청된 모든 권한이 부여되는 것은 아닙니다.
+
+   계속하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
+
+1. 사용 가능한 각 탭에서 [계정 설정](#account-settings-api)을 지정하십시오. 팝업으로 인증된 계정의 경우 **[!UICONTROL Select Accounts]** 탭에서 **[!UICONTROL Linked Ad Accounts]**&#x200B;에서 동기화할 계정을 선택하십시오.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -47,7 +98,7 @@ ht-degree: 0%
 
 ## 광고 네트워크 계정 세부 정보 편집 {#edit-account}
 
-계정 설정을 다시 인증하여 연결을 새로 고치거나 권한을 업데이트하려면 계정에서 활동을 활성화하거나 비활성화하고, 계정에서 기본 추적 매개 변수를 변경하거나, 추적 및 보고에 사용할 [!DNL Analytics] 보고서 세트를 변경한 다음 계정 세부 정보를 편집합니다.
+계정에서 활동을 활성화하거나 비활성화하려면 계정에서 기본 추적 매개 변수를 변경하거나 추적 및 보고에 사용할 [!DNL Analytics] 보고서 세트를 변경하려면 계정 세부 정보를 편집하십시오. 연결을 새로 고치거나 권한을 업데이트하려면 계정 설정 또는 [!UICONTROL Accounts] 보기에서 [계정을 다시 인증](#reauthenticate)할 수 있습니다.
 
 >[!NOTE]
 >
@@ -71,7 +122,7 @@ ht-degree: 0%
 
 ## 광고 네트워크 계정 재인증 {#reauthenticate}
 
-*[!DNL ChatGPT Ads]개 계정에 적용할 수 없음*
+*팝업 인증을 사용하는 계정의 경우, [!DNL ChatGPT Ads] 또는 [!DNL Yandex] 계정에 적용할 수 없습니다.*
 
 광고 네트워크 연결을 새로 고치거나 계정에 대한 권한을 업데이트하려면 계정을 다시 인증하십시오.
 
@@ -79,17 +130,21 @@ ht-degree: 0%
 
 1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
 
-<!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
+1. 다음 방법 중 하나로 인증을 엽니다.
 
-1. 다음 방법 중 하나로 계정을 선택합니다.
+   * (계정의 **[!UICONTROL Authenticated]** 값이 **[!UICONTROL No]**&#x200B;인 경우) 계정 이름 위에 커서를 놓고 **..**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Re authenticate]**&#x200B;을(를) 클릭합니다(가능한 경우).
 
-   * 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+   * (토큰 만료 경고가 표시되면) **[!UICONTROL Authenticated]** 열에서 경고 아이콘을 클릭한 다음 **[!UICONTROL Reauthenticate]**&#x200B;을(를) 클릭합니다.
 
-   * 계정 이름 위에 커서를 놓고 **..**&#x200B;을 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
+   * (사용 권한이 없는 경우) **[!UICONTROL Access Level]** 열에서 경고 아이콘을 클릭한 다음 **[!UICONTROL Update Access]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Account Details]** 탭에서 **[!UICONTROL Re authenticate]**&#x200B;을(를) 클릭하고 광고주의 자격 증명을 사용하여 광고 네트워크에 로그인합니다.
+   * (계정 설정에서) 계정 이름 옆에 있는 확인란을 선택하고 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭하거나 커서를 계정 이름 위에 놓고 **..**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Account Details]** 탭의 **[!UICONTROL Account Authentication]**&#x200B;에서 **[!UICONTROL Re authenticate]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 광고주의 자격 증명을 사용하여 팝업 창에서 로그인을 완료하고 요청된 계정 액세스 권한을 부여합니다.
+
+   재인증이 성공하면 새 액세스 토큰이 자동으로 저장됩니다. 다른 계정 설정도 변경하는 경우 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 변경 내용을 저장합니다.
+
+   [!DNL Meta Ads]의 경우 정보 메시지는 재인증에 성공한 후에도 여전히 누락된 권한을 식별합니다. 영향을 받는 기능을 식별하려면 [액세스 세부 정보](#authentication-status)를 검토하세요.
 
 ## 광고 네트워크 계정 활성화 또는 비활성화 {#enable-disable-account}
 
@@ -101,9 +156,9 @@ ht-degree: 0%
 
    * [!UICONTROL Accounts] 보기에서:
 
-     * (계정을 활성화하려면) 계정 이름 옆에 있는 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Activate]**&#x200B;을(를) 클릭합니다.
+     * (계정을 활성화하려면) 계정 이름 옆에 있는 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Enable]**&#x200B;을(를) 클릭합니다.
 
-     * (계정을 사용하지 않도록 설정하려면) 계정 이름 옆에 있는 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Pause]**&#x200B;을(를) 클릭합니다.
+     * (계정을 사용하지 않도록 설정하려면) 계정 이름 옆에 있는 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Disable]**&#x200B;을(를) 클릭합니다.
 
    * (계정 설정에서):
 
@@ -113,20 +168,83 @@ ht-degree: 0%
 
         * 계정 이름 옆의 확인란을 선택한 다음 일괄 작업 도구 모음에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-     1. **[!UICONTROL Account Details]** 탭에서 **[!UICONTROL Account enabled]**&#x200B;을(를) 끕니다.
+     1. **[!UICONTROL Account Details]** 탭에서 **[!UICONTROL Account Enabled]**&#x200B;을(를) 켜서 계정을 사용하도록 설정하거나 해제하여 계정을 사용하지 않도록 설정하십시오.
 
      1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+## [!UICONTROL Accounts] 보기에서 성능 그래프 보기 {#account-performance-graph}
+
+성능 그래프를 열고 지정된 날짜 범위 및 통화에 대해 필터링된 보기의 계정 전체에 대해 총 3개의 지표를 포함하도록 구성합니다.
+
+### 성능 그래프 보기
+
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+
+1. 날짜 범위를 지정하고 성능을 보려는 계정에 대해 필터를 적용합니다.
+
+1. 데이터 테이블 위에서 ![차트](/help/search-social-commerce/assets/charts.png "차트")를 클릭합니다.
+
+1. (선택 사항) **[!UICONTROL Currency]** 및 **[!UICONTROL Metrics]**&#x200B;을(를) 사용하여 차트에 포함할 통화 및 최대 3개의 지표를 지정합니다.
+
+### 표시되는 성능 그래프 숨기기
+
+* 데이터 테이블 위에서 ![차트](/help/search-social-commerce/assets/charts.png "차트")를 클릭합니다.
+
+## [!UICONTROL Accounts] 보기에서 데이터 보기 보고서 관리 {#account-reports}
+
+[!UICONTROL Accounts] 보기에서 하나 이상의 계정에 대한 데이터 행을 포함하는 보고서를 생성한 다음 보고서를 Microsoft Excel 워크시트 파일(XLSX 형식)로 다운로드합니다. 보고서에는 지정된 날짜 범위 동안 보기에 표시되는 열이 포함됩니다.
+
+완료된 보고서와 생성하지 못한 보고서를 삭제할 수 있습니다.
+
+### 필터링된 데이터 행으로 보고서 생성
+
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+
+1. 날짜 범위를 지정하고 다운로드할 데이터에 필터를 적용합니다.
+
+1. 다운로드하려는 데이터의 계정을 지정합니다.
+
+   * 특정 계정의 데이터를 다운로드하려면 계정 옆에 있는 확인란을 선택합니다.
+
+   * 필터링된 보기의 모든 계정에 대한 데이터를 다운로드하려면 모든 확인란을 선택 취소하십시오.
+
+1. 데이터 테이블 위의 도구 모음에서 ![보고서 다운로드](/help/search-social-commerce/assets/download.png "보고서 다운로드") **[!UICONTROL Reports]**&#x200B;를 클릭합니다.
+
+1. [!UICONTROL Grid Reports] 대화 상자에서 기본 **[!UICONTROL Report Name]**&#x200B;을(를) 유지하거나 다른 이름을 입력한 다음 **[!UICONTROL Generate]**&#x200B;을(를) 클릭합니다.
+
+   보고서가 **[!UICONTROL Recently Generated]** 목록에 추가됩니다.
+
+1. (선택 사항) 파일이 완료되면 다운로드하려면 파일 이름 옆에 있는 ![다운로드](/help/search-social-commerce/assets/download.png "다운로드")를 클릭합니다.
+
+   브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+
+### 완료된 보고서 다운로드
+
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+
+1. 데이터 테이블 위의 도구 모음에서 ![보고서 다운로드](/help/search-social-commerce/assets/download.png "보고서 다운로드") **[!UICONTROL Reports]**&#x200B;를 클릭합니다.
+
+1. [!UICONTROL Grid Reports] 대화 상자의 **[!UICONTROL Recently Generated]** 목록에서 파일 이름 옆에 있는 ![다운로드](/help/search-social-commerce/assets/download.png "다운로드")를 클릭합니다.
+
+   브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+
+### 보고서 삭제
+
+1. 주 메뉴에서 **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**&#x200B;을(를) 클릭합니다.
+
+1. 데이터 테이블 위의 도구 모음에서 ![보고서 다운로드](/help/search-social-commerce/assets/download.png "보고서 다운로드") **[!UICONTROL Reports]**&#x200B;를 클릭합니다.
+
+1. [!UICONTROL Grid Reports] 대화 상자의 **[!UICONTROL Recently Generated]** 목록에서 완료된 보고서 또는 생성하지 못한 보고서의 이름 옆에 있는 ![삭제](/help/search-social-commerce/assets/delete-new.png "삭제")를 클릭합니다.
+
+1. 삭제를 확인합니다.
 
 ## 광고 네트워크 계정 설정 {#account-settings-api}
 
 계정 설정은 광고 네트워크에 따라 다릅니다. 아래의 일부 설정은 표시되지 않을 수 있습니다.
 
-<!--
- When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
+### [!UICONTROL Authenticate] 탭
 
-### Authenticate tab
-
--->
+(팝업 인증을 사용하는 계정을 만드는 동안 표시됨) 광고주의 자격 증명을 사용하여 광고 네트워크에 연결합니다. 탭에는 연결 상태가 표시되며 로그인 팝업을 다시 열 수 있는 **[!UICONTROL Open login again]**&#x200B;이(가) 포함됩니다.
 
 ### [!UICONTROL Select Accounts]/[!UICONTROL Account Details] 탭
 
@@ -136,7 +254,7 @@ ht-degree: 0%
 >
 >Search, Social 및 Commerce-Adobe Analytics 통합이 있고 검색 계정의 이름을 변경한 경우, Adobe 계정 팀에 매핑을 업데이트하도록 요청하십시오.
 
-**[!DNL [광고 네트워크] 계정]:**(계정을 만드는 동안 표시) 동기화할 광고 네트워크 계정입니다.
+**[!UICONTROL Linked Ad Accounts]:**(팝업 인증을 사용하는 계정을 만드는 동안 표시) 동기화할 광고 네트워크 계정입니다. 네트워크 로그인에 연결된 광고 계정 중에서 선택합니다.
 
 **[로그인 세부 정보]:**([!DNL Yandex] 계정만 해당) 사용할 계정 자격 증명:
 
@@ -150,7 +268,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Purse Campaign ID]:**([!DNL Yandex] 계정(공유 계정 설정만 사용 안 함, 선택 사항) 계정의 모든 광고 캠페인에 대한 비용을 지불하는 데 사용되는 캠페인의 숫자 ID입니다.
 
-* **[!UICONTROL Finance Token]:**([!DNL Yandex]개의 계정에 공유 계정 설정만 비활성화됨, 선택 사항) 금융 관련 API 호출에 사용할 개발자 토큰(예: 포트폴리오 최적화에 필요한 경우 광고주 캠페인 간 전자 지갑에서 돈을 다시 할당하는 데 사용).
+* **[!UICONTROL Finance Token]:**([!DNL Yandex]개의 계정에 공유 계정 설정만 비활성화됨, 선택 사항) 포트폴리오 최적화를 위해 광고주 캠페인 간에 돈을 다시 할당하는 것과 같은 금융 관련 API 호출을 위한 개발자 토큰입니다.
 
 **[!UICONTROL Currency]:**(읽기 전용) 계정에 사용되는 통화의 약어입니다. 이 값은 레코드를 저장하면 광고 네트워크의 계정에 대해 구성된 통화로 자동으로 채워집니다.
 
@@ -160,11 +278,13 @@ ht-degree: 0%
 
 **[!UICONTROL Account Synchronization and Management]> [!UICONTROL Account Enabled]:** 검색, 소셜 및 Commerce은 캠페인 데이터를 계정과 동기화하고(지원되는 경우) 포트폴리오의 캠페인에 대한 자동 입찰 및/또는 캠페인 예산을 푸시합니다.
 
+**[!UICONTROL Account Authentication]> [!UICONTROL Re authenticate]:**(팝업 인증을 사용하는 계정을 편집하는 동안 표시됨) 연결을 새로 고치거나 계정 권한을 업데이트합니다. 재인증이 성공하면 새 액세스 토큰이 자동으로 저장됩니다.
+
 ## [!UICONTROL Setup Tracking] 탭
 
 <!-- This should be the name of the whole left side of options -- they're all enabled/disabled depending on whether you enable our tracking -->
 
-**[!UICONTROL Search, Social, & Commerce Tracking]:** 추적을 사용할지 여부는 Adobe Advertising 전환 추적 서비스를 사용하십시오. 이 방법은 고유한 클릭 추적 ID를 생성하고, 사용자를 클라이언트의 랜딩 페이지로 보내기 전에 추적 목적으로 Adobe Advertising 서버로 리디렉션합니다. 이 메서드에는 선택적으로 사용자 지정할 수 있는 기본 추적 옵션이 있으며, 각 URL에 추가할 매개 변수를 지정할 수도 있습니다.
+**[!UICONTROL Search, Social, & Commerce Tracking]:** Adobe Advertising 전환 추적 서비스를 사용하여 추적을 사용할지 여부를 지정합니다. 이 방법은 고유한 클릭 추적 ID를 생성하고, 사용자를 클라이언트의 랜딩 페이지로 보내기 전에 추적 목적으로 Adobe Advertising 서버로 리디렉션합니다. 이 메서드에는 선택적으로 사용자 지정할 수 있는 기본 추적 옵션이 있으며, 각 URL에 추가할 매개 변수를 지정할 수도 있습니다.
 
 이 기능을 사용하려면 **[추적 사용]**&#x200B;을 켜세요.
 
@@ -190,7 +310,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL Encoding]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우, 대상 URL만 있는 계정) 최종 사용자의 브라우저 주소 표시줄 내의 기본 URL을 인코딩합니다(`=` 대신 `%3D`).
 
-**[!UICONTROL Tracking Level]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우, 계정 및 캠페인 수준에서 사용할 수 있으며 병렬 추적이 활성화된 광고 네트워크에는 적용되지 않음) 리디렉션(관련 있는 경우)을 추가하고 관련 URL에 매개 변수를 추가하여 클릭 및 매출을 추적해야 하는 수준:
+**[!UICONTROL Tracking Level]:**(검색, 소셜 및 Commerce 추적이 활성화된 경우, 계정 및 캠페인 수준에서 사용할 수 있으며, 병렬 추적이 활성화된 광고 네트워크에는 적용되지 않음) 리디렉션 및 매개 변수를 관련 URL에 추가하여 클릭 및 매출을 추적할 수준입니다.
 
 * *[!UICONTROL Keyword]:* 키워드 수준에서만 데이터를 추적합니다. [!DNL Yandex]에 사용할 수 없습니다.
 
@@ -225,7 +345,7 @@ Adobe Advertising 클릭 추적을 사용하는 계정은 접미사에 광고 �
 
 >[!NOTE]
 >
->* [!DNL Google Ads]의 경우 병렬 추적을 활성화하는 소스의 클릭에 대체되지 않는 매크로를 사용하지 마십시오. 광고주가 매크로를 사용해야 하는 경우 Adobe 계정 팀은 고객 지원 팀 또는 구현 팀과 협력하여 매크로를 추가해야 합니다.
+>* [!DNL Google Ads]의 경우 병렬 추적을 활성화하는 소스의 클릭에 대체되지 않는 매크로를 사용하지 마십시오. 광고주가 매크로를 사용해야 하는 경우 Adobe 계정 팀은 고객 지원 팀 또는 구현 팀과 협력하여 매크로를 추가합니다.
 >* 가장 세분화된 수준의 추적 템플릿은 모든 상위 수준의 값을 재정의합니다. 예를 들어 계정 설정과 키워드 설정 모두에 값이 포함된 경우 키워드 값이 적용됩니다.
 >* 광고, 사이트링크 또는 키워드 수준에서 추적 템플릿을 업데이트하는 경우 관련 광고가 다시 제출되어 검토됩니다. 승인을 위해 광고를 다시 제출하지 않고도 계정, 캠페인 또는 광고 그룹 수준에서 추적 템플릿을 업데이트할 수 있습니다.
 
