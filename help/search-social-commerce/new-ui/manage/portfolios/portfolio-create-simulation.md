@@ -13,9 +13,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
     internal-label: Search Simulations
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: 3e70998ad9547cecc0f3581d6cfd917051d549db
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '396'
 ht-degree: 0%
 ---
 # [!UICONTROL Portfolios] 보기에서 시뮬레이션 실행 및 다운로드
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    * 포트폴리오 옆에 있는 확인란을 선택합니다. 일괄 작업 도구 모음에서 **[!UICONTROL More]>[!UICONTROL Run Simulation]**&#x200B;을(를) 클릭합니다.
 
-1. [사용자 지정 시뮬레이션 설정 지정](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md#custom-simulation-settings):
+1. [사용자 지정 시뮬레이션 설정 지정](#custom-simulation-settings):
 
    1. **[!UICONTROL Basic Settings]** 탭에서 고유한 **[!UICONTROL Simulation Name]**&#x200B;을(를) 입력하고 필요에 따라 기본 매개 변수를 변경합니다.
 
@@ -75,6 +75,10 @@ ht-degree: 0%
    브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다. 완료 메시지는 포함된 포트폴리오 수를 나타냅니다.
 
 사용자 지정 시뮬레이션을 다운로드하거나 개별 주간 시뮬레이션을 선택하려면 [[!UICONTROL Simulations] 보기](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md)를 사용하십시오.
+
+## 사용자 정의 시뮬레이션 설정 {#custom-simulation-settings}
+
+사용자 지정 시뮬레이션 설정에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 최적화 안내서를 참조하십시오.
 
 >[!MORELIKETHIS]
 >

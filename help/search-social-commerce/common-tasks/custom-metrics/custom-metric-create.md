@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a2ff8c1115487f12eb67f6db06e25f723c551e80
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # 사용자 지정 지표 만들기
 
 ## (새 UI) 관리 보기에서 사용자 지정 지표 만들기
 
-*[!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] 및 [!UICONTROL Ad Groups] 보기에서 사용 가능*
+[!UICONTROL Manage] 메뉴의 대부분의 엔터티 보기에서 사용할 수 있습니다.<!-- [!UICONTROL Plan] > [!UICONTROL Simulations],-->* [!UICONTROL Setup] > [!UICONTROL Label Classifications], [!UICONTROL Goals] > [!UICONTROL Objectives] 및 [!UICONTROL Constraints], [!UICONTROL Targeting] > [!UICONTROL Placements]*
 
 1. 데이터 테이블 위에서 다음 중 하나를 수행합니다.
 
