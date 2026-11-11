@@ -1,6 +1,6 @@
 ---
 title: (새 UI) 포트폴리오 성능 세부 정보 보기
-description: 포트폴리오 수준 및 할당된 각 캠페인에 대한 실제 및 예상 지표를 포함하여 포트폴리오 성과 세부 정보를 보는 방법에 대해 알아봅니다.
+description: Adobe Advertising 검색, 소셜 및 Commerce에서 포트폴리오 성과, 키워드 입찰 단위 세부 사항, 예측 및 입찰 기록을 보고 입찰 단위 기록을 내보내는 방법에 대해 알아봅니다.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1168'
 ht-degree: 0%
 ---
 # (새 UI) 포트폴리오 성능 세부 정보 보기
@@ -58,7 +58,7 @@ ht-degree: 0%
 
   * [!UICONTROL History] 탭: 각 입찰에 대한 날짜 및 시간, 노출수, 클릭수, 총 비용, 평균 CPC, 평균 위치 및 클릭 날짜로 표시되는 가중 매출과 같은 데이터를 포함하여 지난 36일 동안의 모든 입찰입니다. 모든 장치 및 각 장치 유형(모바일, 컴퓨터 및 태블릿)에 대한 데이터가 표시됩니다.<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
 
-  * [!UICONTROL Detail] 탭: 일치 유형(해당되는 경우)과 입찰 단위가 속한 상위 광고 그룹, 캠페인, 광고 네트워크 계정 및 포트폴리오입니다.
+  * [!UICONTROL Details] 탭: 키워드, 일치 유형(해당되는 경우), 입찰 단위가 속한 상위 광고 그룹, 캠페인, 광고 네트워크 계정 및 포트폴리오입니다.
 
 ## 포트폴리오에 대한 성과 세부 정보 열기
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 * 포트폴리오 내의 캠페인에 있는 모든 광고 그룹을 보려면 **[!UICONTROL Campaigns]** 탭을 클릭한 다음 캠페인 이름을 클릭합니다.
 
-## 포트폴리오의 키워드에 대한 세부 사항 나열 및 보기
+## 포트폴리오의 키워드에 대한 세부 사항 나열 및 보기 {#bid-unit-details}
 
 각 키워드에 대한 세부 사항에는 입찰 단위 ID, 일치 유형, 실제 및 예상 비용, 클릭 수 및 목표 값, 비용, 클릭 수 및 목표 값 차이 등이 포함됩니다. 개별 키워드에 대한 입찰 단위 세부 정보를 볼 수 있습니다.
 
@@ -137,6 +137,20 @@ ht-degree: 0%
    * 포트폴리오 내의 광고 그룹에 있는 모든 키워드를 보려면 **[!UICONTROL Ad Groups]** 탭을 클릭한 다음 광고 그룹 이름을 클릭합니다.
 
 1. (선택 사항) 특정 입찰 단위에 대한 세부 정보를 보려면 **[!UICONTROL Bid Unit ID]** 열의 값을 클릭합니다. 자세한 내용을 보려면 [!UICONTROL Bid Unit Details]에서 아무 탭이나 클릭하십시오.
+
+### 개별 입찰 단위 내역 보기 및 다운로드 {#bid-unit-history}
+
+1. [입찰 단위 세부 정보를 엽니다](#bid-unit-details).
+
+1. **[!UICONTROL History]** 탭을 클릭합니다.
+
+1. (선택 사항) 표 위의 장치 메뉴에서 기록을 볼 장치 유형을 선택합니다. 기본적으로 모든 장치의 데이터가 표시됩니다.
+
+1. (선택 사항) 내역 데이터를 사용할 수 있는 경우 **[!UICONTROL Export as csv]**&#x200B;을(를) 클릭하여 표시된 내역을 다운로드합니다.
+
+브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+
+전체 포트폴리오에 대한 입찰 내역을 보고 날짜 범위를 변경하려면 &quot;[포트폴리오의 입찰 변경 내역 보기](portfolio-view-change-history.md#portfolio-bid-change-history)&quot;를 참조하십시오.
 
 ## 포트폴리오 설정 보기 및 편집
 

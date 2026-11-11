@@ -1,6 +1,6 @@
 ---
 title: 키워드 관리
-description: 바인딩 가능한 및 부정적인 키워드를 만들고 관리하고 키워드에 제약 조건을 할당하는 방법을 알아봅니다.
+description: Adobe Advertising 검색, 소셜 및 Commerce에서 입찰 가능 및 부정적 키워드를 관리하고 제한을 지정하고 키워드 입찰 단위 기록을 보고 다운로드하는 방법을 알아봅니다.
 feature: Search Optimization, Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # 키워드 관리
@@ -53,11 +53,31 @@ ht-degree: 0%
 
 * [키워드 및 부정적 키워드의 상태 변경 또는 삭제](#keyword-status)
 
+* [입찰 단위 내역 보기 및 다운로드](#bid-unit-history)
+
 * [선택한 행의 모든 데이터를 클립보드에 복사](#copy-to-clipboard)
 
 * [키워드에 제한 할당 및 키워드에서 제한 할당 해제](#keyword-constraints)
 
 * 키워드에 [레이블 분류 할당](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)
+
+## 입찰 단위 내역 보기 및 다운로드 {#bid-unit-history}
+
+키워드 데이터 테이블에서 [!UICONTROL Bid Unit ID] 열을 사용할 수 있는 경우 ID에서 직접 입찰 단위 내역을 열 수 있습니다.
+
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Keywords]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Keywords]** 탭에서 키워드의 **[!UICONTROL Bid Unit ID]** 열에 있는 값을 클릭합니다.
+
+1. [!UICONTROL Bid Unit Details] 대화 상자에서 **[!UICONTROL History]** 탭을 클릭합니다.
+
+1. (선택 사항) 표 위의 장치 메뉴에서 기록을 볼 장치 유형을 선택합니다. 기본적으로 모든 장치의 데이터가 표시됩니다.
+
+1. (선택 사항) 내역 데이터를 사용할 수 있는 경우 **[!UICONTROL Export as csv]**&#x200B;을(를) 클릭하여 표시된 내역을 다운로드합니다.
+
+브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+
+포트폴리오의 성과 세부 정보에서 [입찰 단위 세부 정보를 열 수도 있습니다](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details). 대화 상자의 다른 탭에 대한 자세한 내용은 &quot;[포트폴리오 성능 세부 정보 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)&quot;를 참조하십시오.
 
 ## 키워드 만들기 {#keyword-create}
 

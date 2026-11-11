@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
 workflow-type: tm+mt
 source-wordcount: '2989'
 ht-degree: 0%
@@ -127,10 +127,10 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Description] | 청구 가능 세그먼트와 연관된 설명입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Key] | 청구 가능 세그먼트와 연계된 고유 키. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Name] | 청구 가능한 세그먼트의 이름입니다. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Description] | 데이터 공급자가 제공하는 세그먼트와 연계된 설명. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Key] | 세그먼트와 연결된 고유 키. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Name] | 세그먼트 이름입니다. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | 세그먼트와 연계된 데이터 공급자의 이름입니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Description] | 데이터 공급자가 제공하는 세그먼트와 연계된 설명. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | 세그먼트와 연결된 고유 키. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | 세그먼트 이름입니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Provider Name] | 세그먼트와 연계된 데이터 공급자의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | DSP 사이트 또는 앱의 고유 식별자입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | 사이트의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Traffic Type] | 광고가 *[!UICONTROL sites]*&#x200B;에 표시되었는지 아니면 *[!UICONTROL Apps]*&#x200B;에 표시되었는지 여부입니다. |
