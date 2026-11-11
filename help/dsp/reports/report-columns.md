@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
+source-git-commit: e5b13eece252d5f0a86d86e0449dd13483c3665f
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '3129'
 ht-degree: 0%
 ---
 # 사용 가능한 보고서 열
@@ -124,12 +124,13 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement End Date] | 배치 종료 일자. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Start Date] | 배치 시작 일자. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Tags] | 배치에 대한 사용자 지정 식별자로 사용되는 배치 태그입니다. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Description] | 청구 가능 세그먼트와 연관된 설명입니다. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Key] | 청구 가능 세그먼트와 연계된 고유 키. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Billing Segment Name] | 청구 가능한 세그먼트의 이름입니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Description] | 데이터 공급자가 제공한 노출 수가 속하는 세그먼트와 관련된 설명입니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Key] | 노출 수가 귀속되는 세그먼트와 연결된 고유 키. **참고:** 각 노출은 단일 세그먼트에 속하므로 실제 합계에 소비가 합산됩니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Name] | 노출 수가 귀속되는 세그먼트의 이름입니다. **참고:** 각 노출은 단일 세그먼트에 속하므로 실제 합계에 소비가 합산됩니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Attributed Segment Provider Name] | 노출 수가 속하는 세그먼트와 연결된 데이터 공급자의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Description] | 데이터 공급자가 제공하는 세그먼트와 연계된 설명. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | 세그먼트와 연결된 고유 키. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | 세그먼트 이름입니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Key] | 세그먼트와 연결된 고유 키. **참고:** 노출이 여러 세그먼트와 일치하는 경우 노출과 모든 표준, 지출 및 성능 지표는 일치하는 각 세그먼트에 연결됩니다. 결합된 세그먼트 행에 대한 지표는 캠페인 합계보다 높을 수 있습니다. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Name] | 세그먼트 이름입니다. **참고:** 노출이 여러 세그먼트와 일치하는 경우 노출과 모든 표준, 지출 및 성능 지표는 일치하는 각 세그먼트에 연결됩니다. 결합된 세그먼트 행에 대한 지표는 캠페인 합계보다 높을 수 있습니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Provider Name] | 세그먼트와 연계된 데이터 공급자의 이름입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | DSP 사이트 또는 앱의 고유 식별자입니다. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | 사이트의 이름입니다. |
