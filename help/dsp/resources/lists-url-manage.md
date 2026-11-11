@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '702'
 ht-degree: 0%
 ---
 # URL 목록 관리
@@ -73,7 +73,7 @@ ht-degree: 0%
 
      1. 추가된 URL 수 및 실패한 값 수를 포함하여 작업 상태를 보려면 다음과 같이 하십시오.
 
-        1. 상단 메뉴 모음 오른쪽에 있는 ![작업](/help/dsp/assets/downloads.png)을 클릭합니다.
+        1. 상단 메뉴 모음 오른쪽에 있는 ![작업 관리자](/help/creative/assets/job-manager.png "작업 관리자")(**[!UICONTROL Job Manager]**)를 클릭합니다.
 
         1. (행이 추가되지 않은 경우) 실패한 값이 있는 오류 파일을 다운로드하려면 작업 옆에 있는 **[!UICONTROL Download]**&#x200B;을(를) 클릭합니다.
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
      1. 추가된 URL 수 및 실패한 값 수를 포함하여 작업 상태를 보려면 다음과 같이 하십시오.
 
-        1. 상단 메뉴 모음 오른쪽에 있는 ![작업](/help/dsp/assets/downloads.png)을 클릭합니다.
+        1. 상단 메뉴 모음 오른쪽에 있는 ![작업 관리자](/help/creative/assets/job-manager.png "작업 관리자")(**[!UICONTROL Job Manager]**)를 클릭합니다.
 
         1. (행이 추가되지 않은 경우) 실패한 값이 있는 오류 파일을 다운로드하려면 작업 옆에 있는 **[!UICONTROL Download]**&#x200B;을(를) 클릭합니다.
 

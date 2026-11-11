@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '269'
 ht-degree: 0%
 ---
 # 일괄 시트를 사용하여 광고 세부 사항 검토 및 편집
@@ -56,7 +56,7 @@ XLSX(Excel 스프레드시트) 형식으로 캠페인에 있는 모든 광고에
 
    * 알림 메시지에서 **[!UICONTROL Download].**&#x200B;을(를) 클릭합니다
 
-   * 상단 메뉴 모음 오른쪽에서 ![작업](/help/dsp/assets/downloads.png)을 클릭합니다. 작업 옆에 있는 **[!UICONTROL Download]**&#x200B;을(를) 클릭합니다.
+   * 상단 메뉴 모음 오른쪽에서 ![작업 관리자](/help/creative/assets/job-manager.png "작업 관리자")(**[!UICONTROL Job Manager]**)를 클릭합니다. 작업 옆에 있는 **[!UICONTROL Download]**&#x200B;을(를) 클릭합니다.
 
      파일이 브라우저의 다운로드 폴더에 저장됩니다.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
