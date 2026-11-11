@@ -1,6 +1,6 @@
 ---
-title: (새 UI) 사용자 관리
-description: 사용자 액세스를 관리하는 방법을 알아봅니다.
+title: (새 UI) 검색, 소셜 및 Commerce에 대한 사용자 관리
+description: Adobe Admin Console을 사용하여 Adobe Advertising 검색, 소셜 및 Commerce 사용자 액세스, 관리자 역할, 제품 프로필 및 기능 권한을 관리하는 방법을 알아봅니다.
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
@@ -18,12 +18,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 70595626157c6d39bcf65540c2eb8437e7bd0f4c
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1143'
 ht-degree: 0%
 ---
-# (새 UI) 검색, 소셜 및 상거래에 대한 사용자 관리
+# (새 UI) 검색, 소셜 및 Commerce에 대한 사용자 관리
 
 일부 사용자는 모든 Adobe 권한 및 사용자 관리를 관리하는 중앙 위치인 [Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을(를) 사용하여 새 검색, 소셜 및 Commerce 사용자 인터페이스에 대한 액세스를 관리할 수 있습니다. 사용자는 최종 사용자 또는 관리자로 분류됩니다. 관리자인 경우 Adobe 계정 팀에 알림이 표시됩니다. 관리자는 다음 섹션을 참조하여 사용자 관리를 위한 권한 및 워크플로를 식별합니다.
 
@@ -45,7 +45,7 @@ Admin Console에서는 여러 유형의 관리자를 제공합니다. 검색, �
 
 역할과 유사한 제품 프로필은 특정 제품에 대한 특정 서비스를 사용자에게 제공합니다.
 
-검색, 소셜 및 상거래에 대한 새 사용자 인터페이스에는 다음과 같은 기본 제품 프로필이 있으며, 이러한 프로필은 다양한 기능 및 서비스 하위 집합을 제공합니다. 기본 제품 프로필에 대한 제품 권한을 편집하거나 기본 제품 프로필을 삭제할 수 없습니다. 그러나 제품 관리자, 제품 프로필 관리자 및 시스템 관리자는 필요에 따라 사용 가능한 권한의 다양한 하위 집합으로 추가 제품 프로필을 만들고 관리할 수 있습니다.
+검색, 소셜 및 Commerce에 대한 새 사용자 인터페이스에는 다음과 같은 기본 제품 프로필이 있으며, 이러한 프로필은 다양한 기능 및 서비스 하위 집합을 제공합니다. 기본 제품 프로필에 대한 제품 권한을 편집하거나 기본 제품 프로필을 삭제할 수 없습니다. 그러나 제품 관리자, 제품 프로필 관리자 및 시스템 관리자는 필요에 따라 사용 가능한 권한의 다양한 하위 집합으로 추가 제품 프로필을 만들고 관리할 수 있습니다.
 
 * 기본 설정 액세스 권한을 가진 표준 포트폴리오 관리 및 계획 기능이 필요한 사용자용 **[!UICONTROL Basic Optimization]:**.
 
@@ -60,6 +60,8 @@ Admin Console에서는 여러 유형의 관리자를 제공합니다. 검색, �
 <!-- These don't correspond exactly to the GUI menu -->
 
 확인 표시(✓)는 권한이 제품 프로필에 포함되어 있음을 나타냅니다.
+
+보기 및 편집 권한은 별개입니다. 기능 보기 권한 자체로는 사용자가 해당 데이터를 작성, 편집 또는 삭제할 수 없습니다. 사용자 지정 제품 프로필은 기본 제품 프로필에 대해 표시된 권한과 다른 권한 조합을 제공할 수 있습니다.
 
 **Portfolio 관리**
 
@@ -137,9 +139,32 @@ Noone has permissions as of 6/1; spelling [sic]:
 | MCC 계정 보기 | ✓ | ✓ | ✓ | ✓ |
 | MCC 계정 편집 | | ✓ | | ✓ |
 
+<!--
+
+Include? And why aren't all edit permissions available for some standard profiles?
+
+### Permissions for custom product profiles
+
+When you create a custom product profile, include the view permissions for the features that users need to open and the separate permissions for the actions they need to perform. The following permissions cover additional capabilities that aren't listed in the default-profile tables above.
+
+| Capability | Permissions |
+|---|---|
+| View and create client instances | [!UICONTROL View Instances] and [!UICONTROL Create Instances] |
+| View and edit keywords and negative keywords | [!UICONTROL View Keywords] and [!UICONTROL Edit Keywords] |
+| View and edit product groups | [!UICONTROL View Product Groups] and [!UICONTROL Edit Product Groups] |
+| View and edit auto targets | [!UICONTROL View Auto Targets] and [!UICONTROL Edit Auto Targets] |
+| View and edit placements and negative placements | [!UICONTROL View Placements] and [!UICONTROL Edit Placements] |
+| View and edit extensions | [!UICONTROL View Extensions] and [!UICONTROL Edit Extensions] |
+| View and edit constraints | [!UICONTROL View Constraints] and [!UICONTROL Edit Constraints] |
+| View spreadsheet feeds | [!UICONTROL View Spreadsheets] |
+
+For example, permission to view client instances doesn't by itself allow a user to create an instance. Similarly, permission to view keywords doesn't by itself allow a user to edit keywords or negative keywords.
+
+-->
+
 ## 관리자용 작업
 
-### Adobe Admin Console에 로그인하고 검색, 소셜 및 Commerce으로 엽니다
+### Adobe Admin Console에 로그인하고 검색, 소셜 및 Commerce으로 엽니다 {#open-admin-console}
 
 >[!PREREQUISITES]
 >
@@ -151,7 +176,7 @@ Noone has permissions as of 6/1; spelling [sic]:
 
    1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-   1. **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> 중 하나를 선택하십시오.
+   1. **[!UICONTROL Personal Account]** 또는 **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> 중 하나를 선택하십시오.
 
    1. 해당 CX Enterprise 조직을 선택합니다.
 

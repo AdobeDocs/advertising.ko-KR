@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # 일괄 시트를 사용하여 캠페인 구성 요소 설정 검토 및 편집
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    * 알림 메시지에서 **[!UICONTROL Download].**&#x200B;을(를) 클릭합니다
 
-   * 상단 메뉴 모음 오른쪽에서 ![작업](/help/dsp/assets/downloads.png)을 클릭합니다. 작업 옆에 있는 **[!UICONTROL Download]**&#x200B;을(를) 클릭합니다.
+   * 상단 메뉴 모음 오른쪽에서 ![작업 관리자](/help/creative/assets/job-manager.png "작업 관리자")(**[!UICONTROL Job Manager]**)를 클릭합니다. 작업 옆에 있는 **[!UICONTROL Download]**&#x200B;을(를) 클릭합니다.
 
      파일이 브라우저의 다운로드 폴더에 저장됩니다.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    1. **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) 업데이트가 처리되었는지 확인하려면 맨 위 메뉴 모음의 오른쪽에 있는 ![작업](/help/dsp/assets/downloads.png)을 클릭합니다.
+1. (선택 사항) 업데이트가 처리되었는지 확인하려면 맨 위 메뉴 모음의 오른쪽에 있는 ![작업 관리자](/help/creative/assets/job-manager.png "작업 관리자")(**[!UICONTROL Job Manager]**)를 클릭합니다.
 
 설정 업데이트에 실패하면 색상 코딩이 있는 일괄 시트 오류 파일을 다운로드하여 저장된 설정(행)과 각 실패에 대한 이유를 표시할 수 있습니다. 그런 다음 동일한 파일 내에서 문제를 해결하고 다시 업로드하여 수정된 정보를 처리할 수 있습니다.
 

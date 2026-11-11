@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2443'
 ht-degree: 2%
 ---
 # Advertising Search, Social 및 Commerce 안내서 {#search-social-commerce}
@@ -89,7 +89,7 @@ ht-degree: 2%
       + [[!UICONTROL Portfolios] 보기에서 시뮬레이션 실행 및 다운로드](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
       + [[!UICONTROL Portfolios] 보기에서 성능 그래프 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
       + [포트폴리오 성능 세부 정보 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
-      + [포트폴리오의 변경 내역 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
+      + [포트폴리오 변경 내역 및 입찰 변경 내역 보기](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
       + [[!UICONTROL Portfolios] 보기에서 데이터 보기 보고서 관리](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
     + 계정 {#accounts}
       + [광고 네트워크 계정 기본 정보](/help/search-social-commerce/new-ui/manage/accounts/ad-network-account-about.md)
