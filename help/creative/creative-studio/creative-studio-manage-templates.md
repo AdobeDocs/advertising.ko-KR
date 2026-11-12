@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fcd97d29c5009d22100283970892d258043b2d90
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '3697'
+source-wordcount: '4143'
 ht-degree: 1%
 ---
 # [!UICONTROL Creative Studio]에서 광고 템플릿 관리
@@ -39,7 +39,9 @@ Probably not necessary:
 
 생성:
 
-* [AI를 사용하여 광고 템플릿 생성](#template-generate)
+* [AI를 사용하여 텍스트 프롬프트에서 광고 템플릿 생성](#template-generate-from-text)
+
+* [AI를 사용하여 이미지에서 광고 템플릿 생성](#template-generate-from-image)
 
 * [광고 템플릿 수동으로 만들기](#template-create)
 
@@ -100,23 +102,75 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 ## AI를 사용하여 광고 템플릿 생성 {#template-generate}
 
-*Beta 기능*
+[!UICONTROL Creative Studio]의 AI를 사용하여 텍스트 프롬프트 또는 기존 정적 디스플레이 광고 이미지에서 편집 가능한 디스플레이 광고 템플릿을 생성합니다.
 
-[!UICONTROL Creative Studio]의 AI를 사용하여 기존 정적 디스플레이 광고 이미지를 편집 가능한 디스플레이 광고 템플릿으로 변환합니다. 3단계 마법사를 사용하면 템플릿을 생성 및 검토하고 자연어를 사용하여 변경 사항을 요청하고 템플릿 편집기를 열어 수동으로 변경하고 템플릿을 저장할 수 있습니다.
+### 텍스트 프롬프트에서 광고 템플릿 생성 {#template-generate-from-text}
 
-### 사전 요구 사항
+만들려는 템플릿을 설명하고 선택적으로 브랜드 프로필 및 이미지를 선택하고 생성된 여러 템플릿을 검토합니다. 기존 이미지 광고는 필요하지 않습니다.
 
-Creative 라이브러리에 정적 이미지 광고가 필요합니다. 이 워크플로는 라이브러리에서 광고를 선택합니다. 생성 대화 상자에서 직접 새 이미지를 업로드하지 않습니다.
+1. 주 메뉴에서 **[!UICONTROL Creative Studio]**&#x200B;을(를) 클릭합니다.
 
-<!--
+1. **[!UICONTROL Templates]** 탭을 클릭합니다.
 
-Publish this when prompt-based generation becomes available:
+1. (선택 사항) 페이지 상단의 광고주 목록에서 광고주를 선택하여 해당 광고주의 브랜드 프로필을 확인합니다.
 
-To generate a template from an existing image, you need a static image ad in a Creative Library. This option selects ads from your libraries; it doesn't upload a new image directly in the generation dialog. You don't need an existing ad image to generate a template from a prompt.
+1. **[!UICONTROL Use AI to Generate a New Display Ad Template]** 상자에서 **[!UICONTROL Generate]**&#x200B;을(를) 클릭합니다.
 
--->
+1. 아직 선택되지 않은 경우 **[!UICONTROL Generate New Ad Template]** 대화 상자에서 **[!UICONTROL Generate from Prompt]** 탭을 클릭합니다.
 
-### 1단계: 템플릿 생성 및 검토
+1. **[!UICONTROL Template size]** 선택.
+
+   기본값은 300x250픽셀입니다. 현재 세션에서 생성을 시작한 후에는 크기를 변경할 수 없습니다.
+
+1. (선택 사항) **[!UICONTROL Brand]** 목록에서 브랜드 프로필을 선택하여 생성을 위한 브랜드 컨텍스트를 제공합니다.
+
+1. (선택 사항) 생성된 템플릿에 이미지를 포함하려면 다음을 수행하십시오.
+
+   1. **[!UICONTROL Add image]**&#x200B;을(를) 클릭합니다.
+
+   1. **[!UICONTROL Select from Asset Library]** 보기에서 기존 이미지를 선택하거나 **[!UICONTROL Browse files]**&#x200B;을(를) 클릭하여 업로드합니다.
+
+      지원되는 업로드 형식은 PNG, JPEG, GIF 및 TIFF입니다. 한 번에 하나의 이미지를 첨부할 수 있습니다.
+
+   1. **[!UICONTROL Add to chat]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Generation prompt]** 필드에서 만들려는 템플릿을 설명합니다. 레이아웃, 헤드라인, call to action 및 비주얼 스타일과 같은 세부 정보를 포함합니다.
+
+   예를 들어 `Create a summer sale ad with a blue background, the headline "Summer Savings," and a "Shop Now" button`을(를) 입력합니다.
+
+1. **[!UICONTROL Generate]**&#x200B;을(를) 클릭하고 템플릿 미리 보기를 기다립니다.
+
+   각 요청은 최대 4개의 템플릿을 생성합니다. 템플릿을 선택하기 전에 텍스트, 이미지 및 레이아웃을 검토하십시오.
+
+1. (선택 사항) 더 많은 옵션을 보려면 **[!UICONTROL Generate more results]**&#x200B;을(를) 클릭합니다. 프롬프트를 수정하고 **[!UICONTROL Generate]**&#x200B;을(를) 클릭할 수도 있습니다.
+
+   결과는 세션당 최대 20개의 생성된 템플릿으로 대화 상자에 누적됩니다.
+
+1. 사용할 템플릿 위에 커서를 놓고 **[!UICONTROL Open in Editor]**&#x200B;을(를) 클릭합니다.
+
+   디스플레이 템플릿 편집기가 새 브라우저 탭에서 열리고 생성된 결과는 원본 탭에서 사용할 수 있습니다.
+
+1. [템플릿 편집기 컨트롤](#template-controls)을(를) 사용하여 생성된 요소를 검토하고 나머지 내용을 변경합니다.
+
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Save As New Template]** 대화 상자에서 **[!UICONTROL Template name]**&#x200B;을(를) 입력하고 **[!UICONTROL Advertiser]**&#x200B;을(를) 선택한 다음 선택적으로 태그를 추가한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+   템플릿이 새 복사본으로 저장되고 편집기 탭이 **[!UICONTROL Templates]** 보기로 돌아갑니다. 그런 다음 저장된 템플릿을 사용하여 [광고 변형을 생성](#ad-variations-generate)할 수 있습니다.
+
+>[!NOTE]
+>
+> 생성이 시작되면 동일한 대화 상자에서 텍스트와 이미지 생성 간을 전환할 수 없습니다. 다른 크기 또는 생성 메서드로 다시 시작하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭하고 대화 상자를 다시 여십시오. 먼저 편집기에 유지할 템플릿을 저장합니다.
+
+### 이미지에서 광고 템플릿 생성 {#template-generate-from-image}
+
+기존 정적 디스플레이 광고 이미지를 편집 가능한 디스플레이 광고 템플릿으로 변환하고 자연어를 사용하여 변경 사항을 요청한 다음 템플릿 편집기를 열어 수동으로 변경하고 템플릿을 저장합니다.
+
+#### 사전 요구 사항
+
+이 기능을 사용하려면 Creative 라이브러리에 정적 이미지 광고가 필요합니다. 이 워크플로는 라이브러리에서 광고를 선택합니다. 생성 대화 상자에서 직접 새 이미지를 업로드하지 않습니다.
+
+#### 1단계: 템플릿 생성 및 검토
 
 1. 주 메뉴에서 **[!UICONTROL Creative Studio]**&#x200B;을(를) 클릭합니다.
 
@@ -126,7 +180,7 @@ To generate a template from an existing image, you need a static image ad in a C
 
 1. **[!UICONTROL Use AI to Generate a New Display Ad Template]** 상자에서 **[!UICONTROL Generate]**&#x200B;을(를) 클릭합니다.
 
-1. 아직 선택하지 않은 경우 **[!UICONTROL Generate New Ad Template]** 대화 상자에서 **[!UICONTROL Generate from Existing Standard Ad Image]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Generate New Ad Template]** 대화 상자에서 **[!UICONTROL Generate from Existing Standard Ad Image]** 탭을 클릭합니다.
 
 1. **[!UICONTROL Ad Library]** 목록에서 이미지 광고가 포함된 라이브러리를 선택합니다.
 
@@ -134,37 +188,9 @@ To generate a template from an existing image, you need a static image ad in a C
 
    선택한 광고의 폭과 높이를 사용하여 자동으로 생성이 시작됩니다.
 
-<!--
-
-Switch to this when prompt-based generation becomes available:
-
-1. In the **[!UICONTROL Generate New Ad Template]** dialog, choose how to generate the template:
-
-   * **[!UICONTROL Generate from Prompt]:** Describe the ad template you want to create using a text prompt.
-
-   * **[!UICONTROL Generate from Existing Standard Ad Image]:** Convert an existing static image ad into an editable template.
-
-1. Follow the steps for your selected option:
-
-   * From a prompt:
-
-      1. Enter a description of the template you want to create. Include details such as the layout, headline, call to action, and visual style.
-
-      1. Follow the on-screen instructions to generate the template.
-
-   * From an existing standard ad image:
-
-      1. Select the library containing the image ad from the **[!UICONTROL Ad Library]** list.
-
-      1. Hold the cursor over the image ad card and click **[!UICONTROL Use this Standard Ad]**.
-
-         Generation begins automatically, using the selected ad's width and height.
-
--->
-
 1. [생성된 템플릿을 검토하고 세분화합니다](#template-review).
 
-### 2단계: 템플릿 검토 및 세분화 {#template-review}
+#### 2단계: 템플릿 검토 및 세분화 {#template-review}
 
 1. 생성이 완료될 때까지 기다린 다음 템플릿 미리 보기 및 **[!UICONTROL Layers]** 패널을 검토합니다(사용 가능한 경우).
 
@@ -182,7 +208,7 @@ Switch to this when prompt-based generation becomes available:
 
    생성된 템플릿이 디스플레이 템플릿 편집기에서 열립니다.
 
-### 3단계: 템플릿 편집 및 저장 {#template-save}
+#### 3단계: 템플릿 편집 및 저장 {#template-save}
 
 >[!TIP]
 >
@@ -206,16 +232,11 @@ Switch to this when prompt-based generation becomes available:
 
 | 문제 | 할 일 |
 | --- | --- |
+| 텍스트 기반 생성에 실패하거나 요청이 거부됨 | 표시된 메시지를 검토하고 필요에 따라 프롬프트를 수정한 다음 **[!UICONTROL Generate]**&#x200B;을(를) 클릭하여 다시 시도하십시오. |
+| 세션이 생성된 템플릿 20개에 도달했습니다 | 편집기에 유지할 템플릿을 저장하고 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭한 다음 생성 대화 상자를 다시 열어 새 세션을 시작합니다. |
+| 텍스트 생성 결과에서 편집기가 열리지 않습니다. | 사이트에 대한 팝업을 허용한 다음 **[!UICONTROL Open in Editor]**&#x200B;을(를) 다시 클릭합니다. |
 | 이미지에서 생성할 때 라이브러리 또는 이미지 광고가 나열되지 않음 | 선택한 광고주와 **[!UICONTROL Ad Library]**&#x200B;을(를) 확인하십시오. 라이브러리에 표준 광고 이미지가 없는 경우 기존 정적 이미지 광고가 포함된 다른 라이브러리를 선택합니다. |
 | 이미지 기반 생성에 실패하거나 이미지를 변환할 수 없음 | 표시된 메시지를 검토하고 **[!UICONTROL Back to library]**&#x200B;을(를) 클릭한 다음 이미지 광고를 선택하여 다시 시도하십시오. |
-
-<!--
-
-Add when prompt-based generation is available:
-
-| Prompt-based generation fails | Review the displayed message and revise your prompt before trying again. |
-
--->
 
 ## 광고 템플릿 수동으로 만들기 {#template-create}
 

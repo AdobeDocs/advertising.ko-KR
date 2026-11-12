@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: a2a6d94329df17c332a140de428bb44fb892c97a
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '2018'
 ht-degree: 0%
 ---
 # 크리에이티브 라이브러리에 표준 크리에이티브 추가
@@ -241,15 +241,32 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-## 크리에이티브 라이브러리에 서드파티 크리에이티브 추가 {#creative-add-third-party}
+## Creative Library에 타사 크리에이티브 추가 {#creative-add-third-party}
 
-[!DNL Creative]은(는) 대부분의 타사 광고 서버에서 호스팅되는 크리에이티브에 대해 JavaScript 추적 태그를 지원합니다.
+[!DNL Creative]은(는) 서드파티 광고 서버에서 호스팅되는 디스플레이 크리에이티브에 대한 광고 태그를 지원합니다. 새 UI에서 트래픽 시트에서 하나 이상의 크리에이티브를 가져올 수 있습니다. 기존 UI는 단일 크리에이티브에 대한 태그 입력을 지원합니다.
 
 ### 새 UI에서
 
-1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
+#### 트래픽 시트 준비 {#third-party-sheet-requirements}
 
-1. (선택 사항) 특정 라이브러리를 포함하도록 [보기를 사용자 지정](/help/creative/introduction/customize-data-views.md)합니다.
+* Excel(`.xlsx` 또는 `.xls`), CSV 또는 TSV 파일(10MB 이하, 광고 크리에이티브 수 500개 이하)을 사용합니다.
+
+* Excel 파일의 경우 첫 번째 워크시트에 크리에이티브를 추가합니다. 첫 번째 워크시트만 가져옵니다. 암호로 보호된 파일은 지원되지 않습니다.
+
+* [!DNL Flashtalking] 또는 [!DNL Google Campaign Manager 360] 내보내기를 사용하거나 일반 시트를 준비하십시오. 시트는 업로드할 때 선택하는 광고 서버 레이아웃과 일치해야 합니다.
+
+* 각 크리에이티브에 대한 크리에이티브 이름, 크기 및 광고 태그를 포함합니다. 이름에는 최대 255자를 사용할 수 있습니다. 단일 크기 열(예: `300x250`) 또는 공급업체 내보내기의 개별 너비 및 높이 열에 차원을 지정하십시오. [지원되는 크리에이티브 크기](creative-sizes.md)를 사용하십시오.
+
+* 제네릭 시트의 경우 열 머리글 `Creative Name`, `Size` 및 `Ad Tag`을(를) 사용합니다. 업로드 대화 상자에서 CSV 템플릿을 다운로드할 수 있습니다. 예제 행을 자체 크리에이티브 데이터로 대체합니다.
+
+>[!IMPORTANT]
+>
+>* 일괄 업로드는 표시 태그만 지원합니다. 비디오 및 VAST 태그는 지원되지 않습니다.
+>* 일괄 업로드는 제공된 대로 광고 태그를 저장합니다. 가져오는 동안 추적 매크로를 삽입하거나 추적 URL을 다시 작성하지 않습니다. 시트를 업로드하기 전에 태그에 필요한 [추적 매크로](/help/creative/creative-macros.md)를 포함하십시오.
+
+#### 크리에이티브 업로드 및 검토 {#third-party-bulk-upload}
+
+1. 메인 메뉴에서 **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**&#x200B;을(를) 클릭합니다.
 
 1. 다음 방법 중 하나로 라이브러리를 엽니다.
 
@@ -259,11 +276,43 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. **[!UICONTROL Creatives]** 탭에서 **[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**&#x200B;을(를) 클릭합니다.
 
-1. [타사 크리에이티브 설정](#creative-settings-third-party)에서 크리에이티브에 대한 JavaScript 태그 및 기타 설정을 지정합니다.
+   **[!UICONTROL Bulk upload third-party tags]** 대화 상자가 열립니다.
 
-   [사용 가능한 매크로](/help/creative/creative-macros.md)를 복사하여 JavaScript 태그에 붙여넣을 수 있습니다.
+1. 시트와 일치하는 **[!UICONTROL Ad server]**&#x200B;을(를) 선택하십시오.
 
-1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+   * **[!UICONTROL Flashtalking]**
+
+   * **[!UICONTROL Google CM360]**
+
+   * **[!UICONTROL Generic]**
+
+   파일을 업로드하려면 먼저 광고 서버를 선택해야 합니다. 선택한 광고 서버는 시트의 모든 크리에이티브에 적용됩니다. 개별 태그에서는 감지되지 않습니다.
+
+1. (선택 사항) 제네릭 시트를 준비하려면 **[!UICONTROL Download CSV template]**&#x200B;을(를) 클릭하고 예제 데이터를 독창적인 데이터로 바꾼 다음 파일을 저장합니다.
+
+1. 다음 방법 중 하나로 시트를 지정합니다.
+
+   * 파일을 업로드 상자에 끌어다 놓습니다.
+
+   * 장치 또는 네트워크에서 파일을 찾으려면 **[!UICONTROL select a file]**&#x200B;을(를) 클릭하십시오.
+
+   시트가 업로드되고 분석됩니다. 레이아웃이 선택한 광고 서버와 일치하지 않으면 시트를 수정하거나 일치하는 광고 서버를 선택하고 파일을 다시 업로드하십시오.
+
+1. **[!UICONTROL Review third-party creatives]**&#x200B;에서 각 행에 대한 **[!UICONTROL Creative name]**, **[!UICONTROL Size]**, **[!UICONTROL Type]**, **[!UICONTROL Language]** 및 **[!UICONTROL Status]**&#x200B;을(를) 검토하십시오.
+
+   * 시트에 여러 태그 형식이 포함되어 있는 경우 가져올 태그 열의 탭을 선택합니다. 선택한 형식이 모든 행에 적용되고 해당 열에 태그가 없는 행은 표시되지 않습니다. 탭을 변경하면 해당 형식에 대해 가져올 수 있는 모든 행으로 선택이 재설정됩니다.
+
+   * 기본적으로 가져올 수 있는 모든 행이 선택됩니다. 가져오지 않을 크리에이티브 옆의 확인란을 선택 취소합니다.
+
+   * (선택 사항) 개별 광고 **[!UICONTROL Language]**&#x200B;을(를) 변경합니다. 기본값은 영어입니다.
+
+   * **[!UICONTROL Error]** 상태의 행을 선택하거나 가져올 수 없습니다. 올바른 행을 가져오거나 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭하여 원본 시트를 수정하고 다시 업로드할 수 있습니다. 누락된 이름, 차원 또는 태그를 수정하고 비디오 태그나 지원되지 않는 것으로 플래그가 지정된 문자를 제거합니다.
+
+1. **[!UICONTROL 가져오기 클릭 <N> 광고 &#x200B;]**. 여기서 `<N>`은(는) 선택한 광고 수입니다. 한 번 창작하려면&#x200B;**[!UICONTROL Import 1 creative]**&#x200B;을(를) 클릭하십시오.
+
+   대화 상자가 닫히고 가져오기가 시작되었음을 알리는 알림이 표시됩니다. 처리가 완료되면 라이브러리에 크리에이티브가 표시됩니다.
+
+가져오기를 추적하려면 맨 위 메뉴 모음의 오른쪽에 있는 ![작업 관리자](/help/creative/assets/job-manager.png "작업 관리자")(**[!UICONTROL Job Manager]**)를 클릭합니다. 처리 중 실패한 행이 있으면 가져오기 작업에 대해 **[!UICONTROL Download failed rows]**&#x200B;을(를) 클릭하고 다운로드한 시트를 수정한 후 다시 업로드하십시오.
 
 ### 기존 UI에서
 
