@@ -308,7 +308,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * **[!UICONTROL Error]** 상태의 행을 선택하거나 가져올 수 없습니다. 올바른 행을 가져오거나 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭하여 원본 시트를 수정하고 다시 업로드할 수 있습니다. 누락된 이름, 차원 또는 태그를 수정하고 비디오 태그나 지원되지 않는 것으로 플래그가 지정된 문자를 제거합니다.
 
-1. **[!UICONTROL 가져오기 클릭 <N> 광고 ]**. 여기서 `<N>`은(는) 선택한 광고 수입니다. 한 번 창작하려면&#x200B;**[!UICONTROL Import 1 creative]**을(를) 클릭하십시오.
+1. **[!UICONTROL 가져오기 클릭 <N> 광고 &#x200B;]**. 여기서 `<N>`은(는) 선택한 광고 수입니다. 한 번 창작하려면&#x200B;**[!UICONTROL Import 1 creative]**&#x200B;을(를) 클릭하십시오.
 
    대화 상자가 닫히고 가져오기가 시작되었음을 알리는 알림이 표시됩니다. 처리가 완료되면 라이브러리에 크리에이티브가 표시됩니다.
 
