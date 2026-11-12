@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d3c51a9af27cafb0b257beab61eb2f4611a32c6e
+source-git-commit: e5b13eece252d5f0a86d86e0449dd13483c3665f
 workflow-type: tm+mt
-source-wordcount: '8197'
+source-wordcount: '8313'
 ht-degree: 0%
 ---
 # DSP의 새로운 기능
@@ -50,6 +50,7 @@ ht-degree: 0%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026년 11월 11일 | [!UICONTROL Reports] | (10월에 릴리스됨) 변경 사항은 세그먼트 데이터가 있는 다음 보고서에서 사용할 수 있습니다.<ul><li>**[!UICONTROL Segment]보고서:** 기존 보고서의 &quot;[!UICONTROL Segment Membership] *&quot; 열은 이제 &quot;[!UICONTROL Segment] *&quot;(으)로 불립니다.<br><br>대상 세그먼트별로 성능을 평가하려면 이 보고서를 사용하십시오. 노출이 여러 세그먼트와 일치하는 경우 노출과 모든 표준, 지출 및 성능 지표는 일치하는 각 세그먼트에 연결됩니다. 결합된 세그먼트 행에 대한 지표는 캠페인 합계보다 높을 수 있습니다.</li><li>**[!UICONTROL Billing]보고서:** 특성 세그먼트 데이터를 포함하여 대상 세그먼트 간 지출을 평가합니다. 각 노출은 단일 세그먼트로 인한 것이므로 실제 합계에 소비가 추가됩니다. 사용 가능한 보고서 열에는 [!UICONTROL Attributed Segment Name], [!UICONTROL Attributed Segment Key], [!UICONTROL Attributed Segment Description] 및 [!UICONTROL Attributed Segment Provider Name]이(가) 포함됩니다. 이 열의 이름은 이전에 &quot;[!UICONTROL Billable Segment] *&quot;으로 지정되었습니다.</li></ul> | &quot;[사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)&quot; 및 &quot;[사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)&quot;을 참조하세요. |
 | 2026년 10월 29일 | [!DNL ChatGPT Ads] | 이제 Adobe DSP과 [!DNL OpenAI Ads]의 통합을 통해 [!DNL ChatGPT]개의 대화 내에 표시되는 [!DNL ChatGPT Ads]개의 채팅 카드 광고를 실행할 수 있습니다. 이 기능을 위해 DSP은 광고 계정을 만들고 조직을 대신하여 미디어를 구매합니다. 이 기능을 사용하여 [!DNL ChatGPT Ads]과(와) 직접 관계를 설정하지 않고 AI 미디어를 테스트합니다. 이 경우 최소 지출 약정이 필요할 수 있습니다. <br><br> [!DNL ChatGPT Ads] 캠페인은 DSP 캠페인과 구조가 다르므로 관리하고 기본 메뉴의 별도 옵션에서 성능 데이터를 볼 수 있습니다. [!DNL Conversational Ads]. 캠페인, 광고 그룹 및 광고 수준의 성능 데이터에는 [!UICONTROL Impressions], [!UICONTROL Clicks], [!UICONTROL Spend], [!UICONTROL CTR], [!UICONTROL Avg CPC] 및 [!UICONTROL Avg CPM].<br><br>이(가) 포함됩니다. 이 기능을 사용하려면 Adobe 계정 팀에 문의하여 온보딩 프로세스를 시작하십시오. | 자격 요건 등 자세한 내용은 [[!DNL ChatGPT Ads] 계정](/help/dsp/campaign-management/conversational-ads/account-manage.md) 및 해당 [캠페인, 광고 그룹 및 광고](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)를 관리하는 설명서를 참조하십시오. |
 | 2026년 10월 28일 | AI 기반 의사 결정 트리 편집기 | (Beta 기능) 이제 Advertising Creative을 사용하는 광고주는 AI 기반 편집기를 사용하여 의사 결정 트리 타겟팅으로 경험을 만들고 편집할 수 있습니다. 자연어 대화에서 원하는 타겟팅 구조 또는 변경 사항을 설명하고 결과 결정 트리를 검토하십시오. 캔버스를 직접 편집하여 대상 노드를 관리하고, 크리에이티브 번들을 할당하고, 크리에이티브 최적화, 예약 및 추적 URL을 구성할 수도 있습니다. AI 기반 편집기는 기본적으로 열리므로 수동 편집기는 계속 사용할 수 있습니다. | &quot;[의사 결정 트리 레이아웃](/help/creative/experiences/experience-decision-tree.md)&quot;, &quot;[타깃팅으로 경험 만들기](/help/creative/experiences/experience-create-targeting.md)&quot; 및 &quot;[타깃팅으로 경험 편집](/help/creative/experiences/experience-edit-targeting.md)&quot;을 참조하십시오. |
 | 2026년 10월 28일 | DSP의 [!DNL AI Assistant], 재사용 가능 [!UICONTROL Audiences] | 이제 [!DNL AI Assistant]을(를) 사용하여 사용 가능한 모든 자사 및 타사 세그먼트에서 재사용 가능한 대상을 생성할 수 있습니다. 대상 에이전트는 [!UICONTROL Audiences] > [!UICONTROL All Audiences]에서도 계속 사용할 수 있으며, 대상을 수동으로 만들 수도 있습니다. | &quot;[Advertising DSP의 AI Assistant 정보](/help/dsp/ai-assistant/ai-assistant-about.md)&quot;, &quot;[AI Assistant를 사용하여 재사용 가능한 대상 생성](/help/dsp/ai-assistant/audience-builder-agent.md)&quot; 및 &quot;[재사용 가능한 대상 생성](/help/dsp/audiences/reusable-audience-create.md)&quot;을 참조하십시오. |
