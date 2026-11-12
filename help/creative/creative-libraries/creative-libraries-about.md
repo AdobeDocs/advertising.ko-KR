@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: 1e29e61573d581d3760a2f5d95c34021ade5de31
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1667'
 ht-degree: 0%
 ---
 # 크리에이티브 라이브러리 정보
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 ##### HTML5 광고
 
-* **GenStudio 경험:** [GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home)의 [디스플레이 광고 경험](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)에서 모든 광고 변형을 개별 HTML5 크리에이티브로 가져올 수 있습니다. 외부 링크는 로컬 참조로 변환됩니다. HTML 콘텐츠는 최대 20MB일 수 있으며 개별 이미지는 최대 50MB일 수 있습니다.
+* **GenStudio 경험:** [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)의 [디스플레이 광고 경험](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences)에서 모든 광고 변형을 개별 HTML5 크리에이티브로 가져올 수 있습니다. 외부 링크는 로컬 참조로 변환됩니다. HTML 콘텐츠는 최대 20MB일 수 있으며 개별 이미지는 최대 50MB일 수 있습니다.
 
   GenStudio 경험을 가져오면 가져온 크리에이티브에 대한 메타데이터(이름, 언어, 태그)를 편집할 수 있지만, 크리에이티브 콘텐츠에는 편집할 수 없습니다. GenStudio 내에서 GenStudio 환경을 편집하는 경우 [!DNL Creative]에서 환경을 다시 가져와서 최신 버전을 사용하십시오.
 
@@ -91,7 +91,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 #### 서드파티 크리에이티브
 
-타사 광고 서버에서 호스팅하는 크리에이티브에 대한 JavaScript 추적 태그를 입력합니다. 스크립트는 광고 서버마다 다릅니다. 예를 들면 다음과 같습니다.
+새 UI에서 트래픽 시트를 업로드하거나 레거시 UI에서 JavaScript 태그를 입력하여 외부 광고 서버에서 호스팅된 [타사 디스플레이 광고 크리에이티브 추가](creative-add-standard.md#creative-add-third-party). 일괄 업로드는 Excel, CSV 및 TSV 파일을 허용합니다. 스크립트는 광고 서버마다 다릅니다. 예를 들면 다음과 같습니다.
 
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
@@ -101,7 +101,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 장치나 네트워크에서 웹, 모바일 또는 연결된 TV에 대한 자사 비디오 크리에이티브를 업로드할 수 있습니다. 각 비디오 광고 경험에는 경험에 지정된 각 광고 기간에 대한 기본 비디오 크리에이티브가 필요합니다. DSP은 모든 비디오 크리에이티브를 VAST 2.0 태그로 자동 코드 변환하여 미리 볼 수 있습니다. [!UICONTROL Tag Manager]에서 비디오 광고 경험 태그에 선택적으로 [DSP 전용 코드 변환](/help/creative/experiences/experience-tag-video-transcoding.md)을 적용할 수 있습니다.
 
-다음 비디오 크리에이티브 요구 사항을 참조하십시오. **참고:** 비디오 경험을 Advertising DSP에 업로드하려면 DSP의 [HD 비디오 Assets 요구 사항](https://experienceleague.adobe.com/ko/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)도 참조하세요. 이는 더 제한될 수 있습니다.
+다음 비디오 크리에이티브 요구 사항을 참조하십시오. **참고:** 비디오 경험을 Advertising DSP에 업로드하려면 DSP의 [HD 비디오 Assets 요구 사항](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets)도 참조하세요. 이는 더 제한될 수 있습니다.
 
 **파일 형식:** .mov, .mp4, .webm
 
@@ -139,7 +139,7 @@ GIF, JPEG, JPG 또는 PNG 형식의 이미지 크리에이티브를 포함할 �
 
 #### 다이내믹 비디오 크리에이티브
 
-동적 비디오 크리에이티브에는 표준 비디오 크리에이티브와 동일한 사양의 비디오 파일이 포함됩니다. &quot;[비디오 광고 &#x200B;](#creative-video-specs)&quot;을(를) 참조하십시오.
+동적 비디오 크리에이티브에는 표준 비디오 크리에이티브와 동일한 사양의 비디오 파일이 포함됩니다. &quot;[비디오 광고 ](#creative-video-specs)&quot;을(를) 참조하십시오.
 
 지원되는 광고 형식에는 시작 카드, 끝 카드, 상단 오버레이, 하단 오버레이 또는 L자형 등이 있습니다.
 
