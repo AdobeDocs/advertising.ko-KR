@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 6e16fa2ca69e4fffa295bcc7014e5499b1215b64
 workflow-type: tm+mt
-source-wordcount: '4577'
+source-wordcount: '5059'
 ht-degree: 0%
 ---
 # 배치 설정
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Fixed/floor price for both Private and On-demand deals]*: DSP은 알고리즘 계산식 입찰이 더 적더라도 타겟팅된 비공개 및 [!DNL On-Demand] 거래의 고정/최저 가격을 입찰합니다. 성능에 영향을 줄 수 있습니다.
 
-**[!UICONTROL Placement Pre-bid Filters]:** 입찰을 진행하려면 충족해야 하는 최대 5개의 KPI 임계값(예: 최소 가시성 지표 또는 클릭스루 비율)이 있습니다. 최적화 전술로 사전 입찰 필터를 사용할 수 있지만 각 규칙은 이 배치가 입찰할 수 있는 기회를 제한할 수 있습니다. 필터를 추가하거나 편집하려면:
+**[!UICONTROL Placement Pre-bid Filters]:** 입찰을 진행하려면 충족해야 하는 최대 5개의 KPI 임계값(예: 최소 가시성 지표 또는 클릭스루 비율)이 있습니다. 최적화 전술로 사전 입찰 필터를 사용할 수 있지만 각 규칙은 이 배치가 입찰할 수 있는 기회를 제한합니다. 필터를 추가하거나 편집하려면:
 
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 다음 중 하나를 수행합니다.
@@ -155,7 +155,7 @@ ht-degree: 0%
   >
   >이 옵션은 성능에 부정적인 영향을 줄 수 있습니다. 성능 최적화에 비해 게재 우선 순위 및 비용을 완전히 우선시하는 경우에만 사용하십시오.
 
-**[!UICONTROL Placement Pre-bid Filters]:**(선택 사항) 입찰을 진행하려면 최대 5개의 필터를 충족해야 합니다. 최적화 전술로 사전 입찰 필터를 사용할 수 있지만 각 규칙은 이 배치가 입찰할 수 있는 기회를 제한할 수 있습니다. 필터를 추가하거나 편집하려면:
+**[!UICONTROL Placement Pre-bid Filters]:**(선택 사항) 입찰을 진행하려면 최대 5개의 필터를 충족해야 합니다. 최적화 전술로 사전 입찰 필터를 사용할 수 있지만 각 규칙은 이 배치가 입찰할 수 있는 기회를 제한한다는 점을 명심하십시오. 필터를 추가하거나 편집하려면:
 
 1. ![편집](/help/dsp/assets/edit.png)을 클릭합니다.
 1. 다음 중 하나를 수행합니다.
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Inventory Targeting]
 
-**[!UICONTROL Inventory Sources]:** 대상으로 포함하거나 제외할 인벤토리 소스입니다. 대부분의 배치 유형에는 기본적으로 모든 재고 유형과 각 유형의 모든 소스가 포함됩니다. [!DNL Roku] 배치의 경우 인벤토리 유형 및 소스를 지정해야 합니다. 다음 유형의 재고 중에서 선택할 수 있습니다.
+**[!UICONTROL Inventory Sources]:** 대상으로 포함하거나 제외할 인벤토리 소스입니다. 대부분의 배치 유형에서 DSP에는 기본적으로 모든 재고 유형과 각 유형의 모든 소스가 포함됩니다. [!DNL Roku] 배치의 경우 인벤토리 유형 및 소스를 지정해야 합니다. 다음 유형의 재고 중에서 선택할 수 있습니다.
 
 * [!UICONTROL Public]: (Roku를 제외한 모든 배치 유형) DSP이 액세스할 수 있는 모든 열려 있는 exchange 인벤토리입니다. 공개 인벤토리를 포함 및 제외할 수 있습니다.
 
@@ -247,15 +247,49 @@ ht-degree: 0%
 >
 >[!UICONTROL On Demand] 인벤토리를 구독했지만 타겟팅할 게시자나 거래를 찾을 수 없는 경우 거래의 상태를 확인하십시오. 상태에 대한 자세한 내용은 [정보 [!DNL On Demand] 프리미엄 인벤토리](/help/dsp/inventory/on-demand-inventory-about.md)를 참조하세요.
 
-재고 특성별 **[!UICONTROL Video targeting]:** 대상(제외는 아님) 인벤토리를 구성합니다. 동일한 비디오 속성에 대해 여러 값을 타겟팅하면 선택한 속성 중 하나를 타겟팅할 수 있습니다(예: \[Player size = large 또는 Player size = HD\]). 여러 속성을 대상으로 하는 경우 지정된 각 속성이 있어야 합니다(예: \[Duration = 30-60분] 및 \[Player size = large 또는 Player size = HD\]).
+비디오 특성별 **[!UICONTROL Video targeting]:** 대상(제외는 아님) 인벤토리를 구성합니다. 동일한 비디오 특성에 대해 여러 값을 대상으로 지정할 때 인벤토리는 선택한 모든 값(예: 플레이어 크기 [!UICONTROL Large] 또는 [!UICONTROL HD])과 일치할 수 있습니다. 여러 특성을 대상으로 하는 경우 인벤토리는 지정된 각 특성과 일치해야 합니다(예: 플레이어 크기가 [!UICONTROL Large] 또는 [!UICONTROL HD]인 건너뛸 수 없는 인벤토리).
 
-* 플레이어 크기별 **[!UICONTROL Player size]:** 대상(제외할 수 없음) 인벤토리를 구성합니다. 이 설정은 데스크탑 및 모바일 환경에 대한 프리롤 배치, 모바일 표준 프리롤 배치 및 범용 비디오 배치에 적용됩니다. 기본적으로 모든 크기가 타깃팅됩니다. 대상 범위를 좁히려면 특정 대상 크기 및/또는 *알 수 없음*&#x200B;을 선택하세요.
+* **[!UICONTROL Player size]:** 입찰 요청에 제공된 플레이어 너비별 대상(제외하지 않음) 인벤토리를 구성합니다. 이 설정은 데스크탑 및 모바일 환경에 대한 프리롤 배치, 모바일 표준 프리롤 배치 및 범용 비디오 배치에 적용됩니다. 기본적으로 모든 크기가 타깃팅됩니다. 대상 범위를 좁히려면 특정 대상 크기 및/또는 [!UICONTROL Unknown]을(를) 선택하십시오.
 
-* 재생이 시작되는 방식별 **[!UICONTROL Playback mode]:** 대상(제외는 아님) 인벤토리를 작성합니다. 이 설정은 데스크탑 및 모바일 환경에 대한 프리롤 배치, 모바일 표준 프리롤 배치 및 범용 비디오 배치에 적용됩니다. 기본적으로 모든 모드가 타깃팅됩니다. 대상 범위를 좁히려면 특정 대상 모드 및/또는 *알 수 없음*&#x200B;을 선택하세요.
+  * **[!UICONTROL Small]:** 너비 1-299픽셀입니다.
+  * **[!UICONTROL Large]:** 300-719픽셀 너비.
+  * **[!UICONTROL HD]:** 720-10000픽셀 너비입니다.
+  * **[!UICONTROL Unknown]:** 플레이어 너비가 없거나 양수 값이 아닙니다.
 
-* **[!UICONTROL Skippability]:** 스킵할 수 있는지 여부에 따라 대상(제외할 수는 없음) 인벤토리를 구성합니다. 이 설정은 프리롤, 모바일 표준 프리롤, 연결된 TV 및 범용 비디오 배치를 포함한 모든 VAST/VPAID 배치에 적용됩니다. 기본적으로 모든 옵션이 타깃팅됩니다. 대상 범위를 좁히려면 특정 대상 및/또는 *알 수 없음*&#x200B;을 선택하세요.
+* 재생이 시작되거나 계속되는 방식별 **[!UICONTROL Playback mode]:** 대상(제외는 아님) 인벤토리. 이 설정은 데스크탑 및 모바일 환경에 대한 프리롤 배치, 모바일 표준 프리롤 배치 및 범용 비디오 배치에 적용됩니다. 기본적으로 모든 모드가 타깃팅됩니다. 대상 범위를 좁히려면 특정 대상 모드 및/또는 [!UICONTROL Unknown]을(를) 선택하십시오.
 
-광고 위치별 **[!UICONTROL Position targeting]:** 대상(제외는 아님) 인벤토리. 이 설정은 프리롤, 모바일 표준 프리롤, 연결된 TV 및 범용 비디오 배치를 포함한 모든 VAST/VPAID 배치에 적용됩니다. 기본적으로 모든 Position을 타겟팅합니다. 대상 범위를 좁히려면 특정 대상 위치 및/또는 *알 수 없음*&#x200B;을 선택하세요.
+  지원되는 모드에는 기본적으로 사운드를 켜거나 끈 상태로 자동 재생, 클릭 또는 마우스 오버로 시작된 재생, 플레이어가 기본적으로 사운드를 켜거나 끈 상태로 뷰에 들어갈 때 시작된 재생 및 연속 재생이 포함됩니다. 입찰 요청에 여러 재생 방법이 포함된 경우 DSP에서는 나열된 첫 번째 방법을 사용합니다.
+
+* **[!UICONTROL Skippability]:** 스킵할 수 있는지 여부에 따라 대상(제외할 수는 없음) 인벤토리를 구성합니다. 이 설정은 프리롤, 모바일 표준 프리롤, 연결된 TV 및 범용 비디오 배치를 포함한 모든 VAST/VPAID 배치에 적용됩니다. 기본적으로 모든 옵션이 타깃팅됩니다. 대상 범위를 좁히려면 스킵할 수 있는 인벤토리 또는 스킵할 수 없는 인벤토리 및/또는 [!UICONTROL Unknown]을(를) 선택하십시오. DSP은 bid 요청에서 유효한 skipability 값을 제공하지 않으면 skipability를 [!UICONTROL Unknown]&#x200B;(으)로 분류합니다.
+
+<!-- DRAFT: Before publishing this update, confirm the production database changes, available position options and labels, and GA rollout. The source catalog and bidder support the positions below, but the wiki's database/API handoff and release status remain unresolved. -->
+
+비디오 광고 위치 특성별 **[!UICONTROL Position targeting]:** 대상(제외는 아님) 인벤토리를 작성합니다. 이 설정은 프리롤, 모바일 표준 프리롤, 연결된 TV 및 범용 비디오 배치를 포함한 모든 VAST/VPAID 배치에 적용됩니다. 기본적으로 모든 Position을 타겟팅합니다. 대상 범위를 좁히려면 **[!UICONTROL Video Ad Position]**&#x200B;에서 특정 위치를 선택하십시오.
+
+DSP은 [!DNL Magnite]을(를) 포함한 공급측 플랫폼(SSP)에서 제공하는 OpenRTB 2.6 비디오 배치 신호를 사용하여 광고 위치를 분류합니다. 사용 가능한 옵션은 배치 유형에 따라 다릅니다.
+
+| 광고 위치 | 설명 |
+| --- | --- |
+| 스트림 프리롤, 미드롤 및 포스트롤 | 뷰어가 요청한 비디오 콘텐츠 전, 중 또는 후에 광고합니다. OpenRTB 2.6에서 스트림 인벤토리는 플레이어 시작 시 사운드 온 또는 시청자가 비디오를 시청하려는 명시적 표시가 필요합니다. |
+| [!UICONTROL Accompanying Content] | 텍스트 또는 기타 콘텐츠와 함께 제공되는 비디오 플레이어의 광고. 플레이어는 보기에 들어갈 때 재생을 시작하고 뷰어가 스크롤할 때 고정되거나 부유해질 수 있습니다. |
+| [!UICONTROL Interstitial] | 비디오 컨텐츠가 없는 비디오 광고로, 대부분의 보기를 차지하고 재생 중에 보기에서 스크롤할 수 없습니다. |
+| [!UICONTROL No Content/Standalone] | 피드 또는 스티커나 부동 플레이어의 광고와 같이 비디오 콘텐츠를 스트리밍하지 않는 비디오 광고입니다. |
+| [!UICONTROL Pause] | 시청자가 스트리밍 비디오 콘텐츠를 일시 중단하는 동안 표시되는 광고. |
+| [!UICONTROL Screensaver] | 운영 체제 또는 응용 프로그램이 화면 보호기를 시작할 때 표시되는 광고. |
+| [!UICONTROL Overlay] | 광고는 기존 광고 브레이크 외부의 비디오 콘텐츠 위에 표시됩니다. |
+| [!UICONTROL Squeezeback] | 광고가 포함되지 않고 광고 공간을 확보하기 위해 크기가 조정된 비디오 콘텐츠와 함께 광고가 표시됩니다. |
+| [!UICONTROL In-scene] | 광고는 별도의 광고 브레이크나 콘텐츠 위에 표시되지 않고 비디오 장면 자체에 통합됩니다. |
+| [!UICONTROL Unknown] | DSP에서 제공된 신호에서 지원되는 비디오 광고 위치를 확인할 수 없는 인벤토리. |
+
+여러 Position을 선택할 때, 재고는 선택한 Position과 일치할 수 있습니다. 특정 Position을 선택하면 적격 재고가 줄어들 수 있습니다. DSP에서 위치를 확인할 수 없는 인벤토리를 대상으로 지정하려면 **[!UICONTROL Unknown]**&#x200B;을(를) 포함하십시오. 광고 위치별로 인벤토리를 제한하지 않으려면 설정을 기본값으로 둡니다.
+
+DSP은 bid 요청과 함께 제공된 시작 지연 신호로부터 스트림 프리롤, 미드롤 및 포스트롤을 결정합니다. 해당 신호가 없거나 잘못된 경우 DSP은 스트림 위치를 **[!UICONTROL Unknown]**(으)로 분류합니다.
+
+유효한 OpenRTB 2.6 위치가 제공되면 DSP은 기존 OpenRTB 2.5 위치보다 우선하여 이 위치를 사용합니다. OpenRTB 2.6 위치가 누락되었거나 잘못된 경우, DSP은 유효한 시작 지연 신호가 제공되어도 기존 스트림 인벤토리를 인식할 수 있습니다. 다른 기존 위치는 새 범주로 변환되지 않고 **[!UICONTROL Unknown]**(으)로 분류됩니다.
+
+>[!NOTE]
+>
+>OpenRTB 2.6 위치 범주는 기존 범주의 일대일 대체가 아닙니다. 예를 들어, 이전에 스트림으로 설명된 인벤토리는 이제 첨부된 콘텐츠로 분류될 수 있다. SSP에서 최신 신호를 채택함에 따라 적격한 인벤토리가 변경되는 경우 Adobe 계정 팀과 함께 Position 타겟을 검토하십시오.
 
 ## [!UICONTROL Site or App and Keyword Targeting]
 
@@ -302,7 +336,7 @@ ht-degree: 0%
        1. 키워드를 입력하거나, 사이트 계층을 선택하거나, 사이트 카테고리를 선택합니다.
        1. 검색 결과에서 제외할 사이트를 선택합니다.
           * 개별 사이트를 제외하려면 인접한 확인란을 선택합니다.
-          * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**&#x200B;을(를) 클릭합니다.
+          * (50개 이상의 결과를 사용할 수 있는 경우) 처음 50개의 결과를 제외하려면 **[!UICONTROL Exclude these 50]**&#x200B;을(를) 클릭합니다. 모든 검색 결과를 제외하려면 **[!UICONTROL Exclude these \<*NN *\>]**을(를) 클릭합니다.
      * 도메인 이름을 입력하려면 다음을 수행합니다.
        1. **[!UICONTROL Paste]**&#x200B;을(를) 클릭합니다.
        1. 별도의 줄에 도메인 이름을 하나 이상 입력합니다.
@@ -359,7 +393,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (기본값) 쿠키, 모바일 광고 ID 또는 연결된 TV(CTV) ID를 기준으로 사용자를 타깃팅합니다. ID는 브라우저, 인앱 또는 CTV 인벤토리를 기반으로 선택됩니다.
 
-* *[!UICONTROL Universal ID]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트[&#128279;](/help/dsp/audiences/sources/source-about.md), [자사 [!DNL AdFixus] DSP으로 스트리밍되는 세그먼트](/help/dsp/audiences/sources/source-adfixus.md) 또는 [범용 ID를 추적하는 사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md)와 함께 사용합니다.
+* *[!UICONTROL Universal ID]*: 사용자 개인 정보 보호 중심의 ID를 대상으로 합니다. ID 유형을 하나 선택하십시오. 사용 가능한 옵션은 [!UICONTROL Geo-Targeting] 섹션에서 선택한 지리적 대상에 의해 결정됩니다. [[!DNL RampID] DSP으로 직접 가져온 세그먼트](/help/dsp/audiences/sources/source-import-liveramp-segments.md), DSP에서 PII를 범용 ID로 변환하는 세그먼트](/help/dsp/audiences/sources/source-about.md), [자사 [!DNL AdFixus] DSP으로 스트리밍되는 세그먼트](/help/dsp/audiences/sources/source-adfixus.md) 또는 [범용 ID를 추적하는 사용자 지정 세그먼트](/help/dsp/audiences/custom-segment-create.md)와 함께 사용합니다.[
 
   * *[!UICONTROL AdFixus]*: Advertising DSP으로 가져온 대상 [!DNL AdFixus]개 ID.
 
