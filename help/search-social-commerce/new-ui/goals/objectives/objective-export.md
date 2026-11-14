@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '152'
 ht-degree: 0%
 ---
 # (새 UI) 목표 구성 내보내기
@@ -34,9 +34,17 @@ ht-degree: 0%
 
 1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Objectives]**&#x200B;을(를) 클릭합니다.
 
-1. 내보낼 각 목표 옆에 있는 확인란을 선택합니다.
+1. 다음 중 하나를 수행합니다.
 
-1. 일괄 작업 도구 모음에서 **[!UICONTROL Export Objectives]**&#x200B;을(를) 클릭합니다.
+   * 단일 목표를 내보내려면
+
+     1. 목적 행 위에 커서를 놓고 **[!UICONTROL ...]>[!UICONTROL Export Objective]**&#x200B;을(를) 클릭합니다.
+
+   * 하나 이상의 목표를 내보내려면
+
+     1. 내보낼 각 목표 옆의 확인란을 선택합니다.
+
+     1. 일괄 작업 도구 모음에서 **[!UICONTROL Export Objectives]**&#x200B;을(를) 클릭합니다.
 
 >[!MORELIKETHIS]
 >
