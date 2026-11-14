@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
@@ -48,9 +48,9 @@ ht-degree: 0%
 
   선택적으로 포트폴리오 설정을 열어 편집할 수 있습니다.
 
-* 포트폴리오의 캠페인, 광고 그룹 및 키워드 목록입니다. 개별 키워드의 경우 예측, 내역 정보 및 계층 정보를 포함한 입찰 단위 세부 정보를 볼 수 있습니다.
+* 포트폴리오의 캠페인, 광고 그룹 및 키워드 목록입니다.
 
-  [!UICONTROL Bid Unit Details] 보기에는 선택한 입찰 단위에 대한 다음 예측, 내역 정보 및 계층 정보가 포함됩니다.
+  개별 키워드의 경우 예측, 내역 정보 및 계층 정보를 포함한 입찰 단위 세부 정보를 볼 수 있습니다. [!UICONTROL Bid Unit Details] 보기에는 선택한 입찰 단위에 대한 다음 예측, 내역 정보 및 계층 정보가 포함됩니다.
 
   * [!UICONTROL Forecast] 탭: 현재 예상되는 클릭 수, 비용, 클릭당 비용, 위치 및 다른 입찰 가격에서 입찰 단위에 대한 매출입니다. 모든 장치 및 각 장치 유형([!UICONTROL Mobile], [!UICONTROL Computer] 및 [!UICONTROL Tablet])에 대한 데이터가 표시됩니다.<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
 

@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '618'
 ht-degree: 6%
 ---
 # 보고서에 사용된 데이터
@@ -57,20 +57,20 @@ Adobe Advertising 전환 추적 서비스를 사용하는 광고주는 참조 �
 
 | 보고서 그룹 | 보고서 | 데이터를 사용할 수 있는 날짜 |
 | --- | --- | --- |
-| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 2021년 5월 15일부터 시작합니다.<br><br><b>예외:</b> 강조 지표 데이터는 2022년 9월 8일부터 사용할 수 있습니다. |
-| | 다른 모든 [!UICONTROL Basic Reports] | 이전 36개월.<br><br><b>예외:</b> 강조 지표 데이터는 2022년 9월 8일부터 사용할 수 있습니다. |
+| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 지난 36개월. |
+| | 다른 모든 [!UICONTROL Basic Reports] | 지난 36개월. |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | 이전 45일. |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | 이전 두 달(2)과 현재 달의 더하기. |
 | [!UICONTROL Assist Reports] | 모두 | 지난 18개월. |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | 이전 연도. |
-| | [!UICONTROL Google Asset Group Performance Report] | 제한 없음 |
+| | [!UICONTROL Google Asset Group Performance Report] | 지난 36개월. |
 | | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | 지난 180일. |
-| | [!UICONTROL RSA Assets Report] | 2022년 8월 10일부터 시작. |
+| | [!UICONTROL RSA Assets Report] | 지난 36개월. |
 | | 다른 모든 [!UICONTROL Specialty Reports] | 이전 2개월. |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 지난 18개월. |
 | [!UICONTROL Change History Report] | — | 이전 31일. |
 
 >[!MORELIKETHIS]
 >
->* [보고서 정보](report-about.md)
->* [보고서에 대한 초기 설정 작업](initial-setup.md)
+>* [보고서 정보](/help/search-social-commerce/reports/report-about.md)
+>* [보고서에 대한 초기 설정 작업](/help/search-social-commerce/reports/initial-setup.md)

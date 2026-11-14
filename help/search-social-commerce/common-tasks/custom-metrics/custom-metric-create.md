@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a2ff8c1115487f12eb67f6db06e25f723c551e80
+source-git-commit: 9837cac1a920b1b3b88b04b150cb604832209eaf
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '391'
 ht-degree: 0%
 ---
 # 사용자 지정 지표 만들기
@@ -39,6 +39,24 @@ ht-degree: 0%
 1. [사용자 지정 지표 설정](custom-metric-settings.md)을 지정하십시오.
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+
+## (새 UI) 보고서 또는 보고서 템플릿 설정에서 사용자 지정 지표 만들기 {#create-from-report-settings}
+
+1. 보고서 또는 보고서 템플릿 설정 내에서 **[!UICONTROL Columns]** 단계로 이동합니다.
+
+1. **[!UICONTROL Custom Metrics]** 섹션에서 지표 설정을 지정합니다.
+
+   * **[!UICONTROL Custom Metric Name]:** 지표의 이름을 입력합니다.
+
+   * **[!UICONTROL Format]:** **[!UICONTROL Currency]**, **[!UICONTROL Number to 2 Decimal Places]**, **[!UICONTROL Number to 3 Decimal Places]**, **[!UICONTROL Number w/out Decimal Places]** 또는 **[!UICONTROL Percentage]**&#x200B;을(를) 선택하십시오.
+
+   * **[수식 입력 필드]:** **[!UICONTROL Insert Metric]**&#x200B;에서 지표를 선택하고 연산자 단추(`+`, `-`, `*`, `/`, `(` 및 `)`)를 클릭하여 수식을 만듭니다. 수식을 수동으로 입력할 수도 있습니다. 각 지표 또는 연산자를 삽입할 위치에 커서를 놓습니다.
+
+1. **[!UICONTROL Add Metric]**&#x200B;을(를) 클릭합니다.
+
+   지표가 성공적으로 생성되면 사용 가능한 열 목록이 지표 이름으로 필터링됩니다. 지표를 만들어도 보고서에 자동으로 포함되지 않습니다.
+
+1. 보고서에 지표를 포함하려면 사용 가능한 열 목록에서 지표를 선택하고 ![오른쪽 화살표](/help/search-social-commerce/assets/arrow-right-customize.png "오른쪽 화살표")를 클릭하여 선택한 열 목록으로 이동합니다.
 
 ## (기존 UI) 캠페인 관리 보기에서 사용자 지정 지표를 만듭니다
 
