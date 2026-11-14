@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 44bb4cdb1d132bbc25e39f8b63efea3a507dff40
+source-git-commit: aae8f6364235cdbc2e846180b1372037ca55a506
 workflow-type: tm+mt
-source-wordcount: '8406'
+source-wordcount: '8477'
 ht-degree: 0%
 ---
 # DSP의 새로운 기능
@@ -52,6 +52,7 @@ ht-degree: 0%
 | ---- | ------- | ----------- | -------------------- |
 | 2026년 11월 11일 | [!UICONTROL Reports] | (10월에 릴리스됨) 변경 사항은 세그먼트 데이터가 있는 다음 보고서에서 사용할 수 있습니다.<ul><li>**[!UICONTROL Segment]보고서:** 기존 보고서의 &quot;[!UICONTROL Segment Membership] *&quot; 열은 이제 &quot;[!UICONTROL Segment] *&quot;(으)로 불립니다.<br><br>대상 세그먼트별로 성능을 평가하려면 이 보고서를 사용하십시오. 노출이 여러 세그먼트와 일치하는 경우 노출과 모든 표준, 지출 및 성능 지표는 일치하는 각 세그먼트에 연결됩니다. 결합된 세그먼트 행에 대한 지표는 캠페인 합계보다 높을 수 있습니다.</li><li>**[!UICONTROL Billing]보고서:** 특성 세그먼트 데이터를 포함하여 대상 세그먼트 간 지출을 평가합니다. 각 노출은 단일 세그먼트로 인한 것이므로 실제 합계에 소비가 추가됩니다. 사용 가능한 보고서 열에는 [!UICONTROL Attributed Segment Name], [!UICONTROL Attributed Segment Key], [!UICONTROL Attributed Segment Description] 및 [!UICONTROL Attributed Segment Provider Name]이(가) 포함됩니다. 이 열의 이름은 이전에 &quot;[!UICONTROL Billable Segment] *&quot;으로 지정되었습니다.</li></ul> | &quot;[사용자 지정 보고서 정보](/help/dsp/reports/report-about.md)&quot; 및 &quot;[사용 가능한 보고서 열](/help/dsp/reports/report-columns.md)&quot;을 참조하세요. |
 | 2026년 11월 6일 | [!DNL Creative] > 새 [!DNL Creative Library] 사용자 인터페이스 | 이제 트래픽 시트를 사용하여 서드파티 광고 서버에서 호스팅된 하나 이상의 크리에이티브에 대한 광고 태그를 가져올 수 있습니다. 기존 사용자 인터페이스는 여전히 단일 타사 크리에이티브에 대한 광고 태그 입력을 지원합니다. | &quot;[크리에이티브 라이브러리 정보](/help/creative/creative-libraries/creative-libraries-about.md)&quot; 및 &quot;[크리에이티브 라이브러리에 표준 크리에이티브 추가](/help/creative/creative-libraries/creative-add-standard.md)&quot;를 참조하십시오. |
+| 2026년 11월 5일 | [!UICONTROL Placements], 인벤토리 | (비디오 및 연결된 TV 배치) 새 [!UICONTROL Position Targeting] 설정을 사용하면 비디오 광고 위치 특성별로 인벤토리를 타깃팅(제외는 아님)할 수 있습니다. 이 설정은 프리롤, 모바일 표준 프리롤, 연결된 TV 및 범용 비디오 배치를 포함한 모든 VAST/VPAID 배치에 적용됩니다. DSP은 광고 위치를 분류하기 위해 [!DNL Magnite]을(를) 포함한 SSP(공급측 플랫폼)에서 제공하는 [!DNL OpenRTB] 2.6 비디오 배치 신호를 사용합니다. 사용 가능한 옵션은 배치 유형에 따라 다릅니다. | &#39;[배치 설정](/help/dsp/campaign-management/placements/placement-settings.md)&#39;을 참조하십시오. |
 | 2026년 11월 4일 | [!DNL Creative] > [!DNL Creative Studio] | (더 이상 Beta 버전이 아님) AI를 사용하여 기존 정적 디스플레이 광고 이미지 또는 텍스트 프롬프트에서 디스플레이 광고 템플릿을 생성합니다. | &quot;[[!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md)에서 광고 템플릿 관리&quot;를 참조하십시오.&quot; |
 | 2026년 10월 29일 | [!DNL ChatGPT Ads] | 이제 Adobe DSP과 [!DNL OpenAI Ads]의 통합을 통해 [!DNL ChatGPT]개의 대화 내에 표시되는 [!DNL ChatGPT Ads]개의 채팅 카드 광고를 실행할 수 있습니다. 이 기능을 위해 DSP은 광고 계정을 만들고 조직을 대신하여 미디어를 구매합니다. 이 기능을 사용하여 [!DNL ChatGPT Ads]과(와) 직접 관계를 설정하지 않고 AI 미디어를 테스트합니다. 이 경우 최소 지출 약정이 필요할 수 있습니다. <br><br> [!DNL ChatGPT Ads] 캠페인은 DSP 캠페인과 구조가 다르므로 관리하고 기본 메뉴의 별도 옵션에서 성능 데이터를 볼 수 있습니다. [!DNL Conversational Ads]. 캠페인, 광고 그룹 및 광고 수준의 성능 데이터에는 [!UICONTROL Impressions], [!UICONTROL Clicks], [!UICONTROL Spend], [!UICONTROL CTR], [!UICONTROL Avg CPC] 및 [!UICONTROL Avg CPM].<br><br>이(가) 포함됩니다. 이 기능을 사용하려면 Adobe 계정 팀에 문의하여 온보딩 프로세스를 시작하십시오. | 자격 요건 등 자세한 내용은 [[!DNL ChatGPT Ads] 계정](/help/dsp/campaign-management/conversational-ads/account-manage.md) 및 해당 [캠페인, 광고 그룹 및 광고](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)를 관리하는 설명서를 참조하십시오. |
 | 2026년 10월 28일 | AI 기반 의사 결정 트리 편집기 | (Beta 기능) 이제 Advertising Creative을 사용하는 광고주는 AI 기반 편집기를 사용하여 의사 결정 트리 타겟팅으로 경험을 만들고 편집할 수 있습니다. 자연어 대화에서 원하는 타겟팅 구조 또는 변경 사항을 설명하고 결과 결정 트리를 검토하십시오. 캔버스를 직접 편집하여 대상 노드를 관리하고, 크리에이티브 번들을 할당하고, 크리에이티브 최적화, 예약 및 추적 URL을 구성할 수도 있습니다. AI 기반 편집기는 기본적으로 열리므로 수동 편집기는 계속 사용할 수 있습니다. | &quot;[의사 결정 트리 레이아웃](/help/creative/experiences/experience-decision-tree.md)&quot;, &quot;[타깃팅으로 경험 만들기](/help/creative/experiences/experience-create-targeting.md)&quot; 및 &quot;[타깃팅으로 경험 편집](/help/creative/experiences/experience-edit-targeting.md)&quot;을 참조하십시오. |
