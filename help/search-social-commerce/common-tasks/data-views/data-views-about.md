@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2f170883b2876ea4a7b39e814df598d337f7ca07
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '570'
 ht-degree: 0%
 ---
 # 캠페인 관리 보기에서 데이터 사용자 정의 기본 정보
@@ -44,34 +44,23 @@ ht-degree: 0%
 
 * 페이지 하단에 25행, 50행, 100행, (기존 사용자 인터페이스만) 200행 또는 (기존 사용자 인터페이스만) [!UICONTROL Continuous Scroll]을(를) 표시할지 여부를 제어합니다.
 
-<!--
 
-## (New UI) Data table tools {#grid-controls-new-ui}
+## (새 UI) 데이터 테이블 컨트롤 {#data-table-tools-new-ui}
 
-In applicable management views, the toolbar includes the following controls:
+데이터 테이블 위의 도구 모음을 사용하여 데이터를 관리하고 표시 방법을 변경합니다. 사용 가능한 도구는 보기 및 권한에 따라 다릅니다.
 
-* On the left, the [!UICONTROL Filter] control appears before grid search. Where supported, the [!UICONTROL Conversion based on] selector follows search and lets you select [!UICONTROL Click Date] or [!UICONTROL Transaction Date].
+도구 모음이 너무 좁아서 도구를 표시할 수 없는 경우에는 **[!UICONTROL Actions]** 메뉴에서 도구 모음을 찾으십시오.
 
-* On the right, operational actions, such as [!UICONTROL Reports], appear alongside view and display controls. The available controls depend on the view and your permissions.
+사용 가능한 경우 다음 작업을 수행할 수 있습니다.
 
-* When the available width is reduced, controls move into the [!UICONTROL Actions] menu. This can happen when you narrow the window or open the AI Assistant panel. If a control isn't visible in the toolbar, look for it in [!UICONTROL Actions]. In wider layouts, controls remain inline.
+* 전환 데이터가 보고되는 방식을 제어하려면 [!UICONTROL Conversion based on]에서 *[!UICONTROL Click Date]* 또는 *[!UICONTROL Transaction Date]*&#x200B;을(를) 선택하십시오.
 
-* Within [!UICONTROL Actions], a horizontal divider separates operational actions from view and display controls, such as the current view, [!UICONTROL Custom Columns], [!UICONTROL Compressed Mode], and [!UICONTROL Charts], where available.
+* 두 기간에 대한 성과를 비교하고 차이점을 표시하는 방법을 선택합니다. &quot;[날짜 범위별로 데이터 필터링](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui)&quot;을(를) 참조하십시오.
 
-* The primary create button remains outside [!UICONTROL Actions].
+* 도구 모음 또는 **[!UICONTROL Actions]** 메뉴에서 **[!UICONTROL Compressed Mode]**&#x200B;을(를) 사용하여 간결한 테이블 간격을 설정하거나 해제합니다.
 
-The [!UICONTROL Refresh] icon is beside the page title in applicable views. The date range control is in the page header. For instructions on comparing two date ranges and changing the comparison format, see "[Filter data by date range](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui)."
+  압축 모드가 켜져 있으면 도구 모음 버튼이 선택됩니다. [!UICONTROL Actions]에서 스위치는 현재 상태를 나타냅니다.
 
-### Change the grid density
+* 도구 모음 또는 **[!UICONTROL Actions]** 메뉴에서 **[!UICONTROL Charts]**&#x200B;을(를) 사용하여 차트를 표시하거나 숨깁니다.
 
-* Where available, click **[!UICONTROL Compressed Mode]** in the toolbar or **[!UICONTROL Actions]** menu to turn compact grid spacing on or off.
-
-  The toolbar button is selected when compressed mode is on. In [!UICONTROL Actions], a switch indicates the current state.
-
-### Show or hide charts
-
-* Where available, click **[!UICONTROL Charts]** in the toolbar or **[!UICONTROL Actions]** menu.
-
-  The toolbar button is selected when charts are shown. In [!UICONTROL Actions], a switch indicates whether charts are shown. Click the control again to hide the charts.
-
--->
+  차트가 표시되면 도구 모음 버튼이 선택됩니다. [!UICONTROL Actions]에서 전환은 차트가 표시되는지 여부를 나타냅니다. 차트를 숨기려면 컨트롤을 다시 클릭합니다.
