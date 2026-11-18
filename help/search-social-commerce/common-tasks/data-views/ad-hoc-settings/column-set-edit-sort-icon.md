@@ -1,5 +1,5 @@
 ---
-title: '[!UICONTROL Custom Columns] 아이콘에서 열 집합을 편집하고 정렬합니다.'
+title: '[!UICONTROL Custom Columns] 컨트롤에서 열 집합 편집 및 정렬'
 description: 열 사용자 정의기를 사용하여 표시되는 열을 변경하는 방법에 대해 알아봅니다.
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
@@ -15,18 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '322'
 ht-degree: 0%
 ---
-# [!UICONTROL Custom Columns] 아이콘에서 열 집합을 편집하고 정렬합니다.
-
-<!-- The same in new UI and legacy CM views except for icon -->
+# [!UICONTROL Custom Columns] 컨트롤에서 열 집합 편집 및 정렬
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
-오른쪽 도구 모음에서 모든 보기에 표시되는 열을 변경할 수 있습니다. 변경 사항은 해당 보기를 떠나거나 다른 광고주에 대한 데이터를 볼 때까지만 적용됩니다.
+[!UICONTROL Custom Columns] 컨트롤을 사용하여 보기에 표시되는 열을 변경할 수 있습니다. 변경 사항은 해당 보기를 떠나거나 다른 광고주에 대한 데이터를 볼 때까지만 적용됩니다.
 
 >[!NOTE]
 >
@@ -34,7 +32,11 @@ ht-degree: 0%
 >
 >기본 보기를 편집하거나 [사용자 지정 보기를 만들기](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view)하여 특정 광고주에 대해 포함된 열에 변경 내용을 저장할 수 있습니다.
 
-1. 도구 모음 오른쪽에서 ![사용자 지정 열](/help/search-social-commerce/assets/custom-columns.png "사용자 지정 열") 또는 ![사용자 정의 열](/help/search-social-commerce/assets/custom-columns-new.png "사용자 정의 열")을 클릭합니다.
+1. 열 설정을 엽니다.
+
+   * (새 UI) 오른쪽 도구 모음에서 ![사용자 지정 열](/help/search-social-commerce/assets/custom-columns-new.png "사용자 지정 열")을 클릭합니다. 도구 모음이 너무 좁아서 컨트롤을 표시할 수 없는 경우 **[!UICONTROL Actions]>[!UICONTROL Custom Columns]**&#x200B;을(를) 클릭합니다.
+
+   * (기존 UI) 도구 모음 오른쪽에서 ![사용자 지정 열](/help/search-social-commerce/assets/custom-columns.png "사용자 지정 열")을 클릭합니다.
 
 1. (선택 사항) 열로 포함할 [사용자 지정 지표를 만듭니다](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md).
 

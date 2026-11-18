@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
+source-git-commit: 48ceda965e7ebd4a62bfcb497bd0ca489ebac726
 workflow-type: tm+mt
-source-wordcount: '2443'
+source-wordcount: '2445'
 ht-degree: 2%
 ---
 # Advertising Search, Social 및 Commerce 안내서 {#search-social-commerce}
@@ -46,7 +46,7 @@ ht-degree: 2%
     + [기본 및 사용자 지정 보기 관리](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
     + 애드혹 보기 설정 {#ad-hoc-settings}
       + [열 제목 메뉴에서 열 세트 편집](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)
-      + [[!UICONTROL Custom Columns] 아이콘에서 열 집합을 편집하고 정렬합니다.](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
+      + [[!UICONTROL Custom Columns] 컨트롤에서 열 집합 편집 및 정렬](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
       + [캠페인 보기에서 열 구성 잠금 및 잠금 해제](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)
       + [열 재정렬](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)
       + [날짜 범위별로 데이터 필터링](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)
@@ -141,6 +141,7 @@ ht-degree: 2%
         + [[!DNL Yandex] 키워드 설정](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yandex.md)
     + [쇼핑 제품 그룹 관리](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + 보고서 {#reports}
+    + [Advertising 인사이트](/help/search-social-commerce/new-ui/reports/insights.md)
     + 예약된 보고서 {#scheduled}
       + [예약된 보고서 정보](/help/search-social-commerce/new-ui/reports/report-about.md)
       + [보고서의 초기 설정 작업](/help/search-social-commerce/new-ui/reports/initial-setup.md)

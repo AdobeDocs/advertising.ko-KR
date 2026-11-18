@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # 다른 광고주에 대한 데이터 보기
@@ -24,9 +24,17 @@ ht-degree: 0%
 
 ## (새 UI) 다른 광고주에 대한 데이터 보기
 
-* 데이터 테이블 위의 도구 모음에서 광고주를 선택합니다.
+1. 왼쪽 탐색 패널이 축소되면 ![축소/확장](/help/search-social-commerce/assets/collapse-expand.png "축소/확장")을 클릭하여 확장합니다.
 
-  ![도구 모음의 광고주 선택기](/help/search-social-commerce/assets/advertiser-selector.png "도구 모음의 광고주 선택기")
+1. 왼쪽 탐색 패널의 검색 필드 위에서 광고주 목록을 열고 광고주를 선택합니다.
+
+   목록을 검색하여 광고주를 찾을 수 있습니다. 목록에는 현재 선택된 광고주가 표시됩니다.
+
+   ![주 메뉴 위의 광고주 선택기](/help/search-social-commerce/assets/advertiser-selector.png "주 메뉴 위의 광고주 선택기")
+
+>[!NOTE]
+>
+>포트폴리오 세부 정보 및 시뮬레이션 세부 정보를 포함한 일부 세부 사항 보기에서 광고주 전환이 비활성화됩니다. 다른 광고주를 선택하려면 해당 목록 보기로 돌아갑니다.
 
 ## (기존 UI) 다른 광고주에 대한 데이터 보기
 

@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
+source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1482'
 ht-degree: 0%
 ---
 # 사용자 인터페이스 구성 방법
@@ -40,6 +40,10 @@ ht-degree: 0%
 새 사용자 인터페이스는 작업 단계별로 작업을 구성하는 새 메인 메뉴를 왼쪽에 표시합니다.
 
 ### 메인 메뉴 옵션
+
+* (해당하는 경우) 확장 왼쪽 탐색 패널의 검색 필드 위에서 관리 중인 광고주의 선택 가능한 목록입니다.
+
+* 메인 메뉴 옵션에 대한 검색 필드.
 
 * **[!UICONTROL Dashboard]** 하위 메뉴:
 
@@ -131,6 +135,12 @@ Tools > Admin > Data Source Setup
 
 * 왼쪽의 기본 메뉴 위에서 ![축소/확장](/help/search-social-commerce/assets/collapse-expand.png "축소/확장")을 클릭합니다.
 
+### 다른 광고주에 대한 데이터 보기
+
+* 축소된 경우 왼쪽 탐색 패널을 확장합니다. 검색 필드 위에서 광고주 목록을 열고 광고주를 선택합니다.
+
+  자세한 내용 및 제한 사항은 &quot;[다른 광고주에 대한 데이터 보기](/help/search-social-commerce/common-tasks/change-advertiser.md)&quot;를 참조하십시오.
+
 ### 메인 메뉴 옵션 검색
 
 기본 메뉴 위의 검색 필드를 사용하여 &quot;포트폴리오&quot; 또는 &quot;보고서&quot;와 같은 특정 메뉴 옵션을 찾습니다.
@@ -153,9 +163,7 @@ Tools > Admin > Data Source Setup
 
 **참고:** 일부 화면에 추가 옵션이 있습니다.
 
-* (해당되는 경우) 관리 중인 광고주의 선택 가능한 목록입니다.
-
-* 현재 보기에 대해 구성 가능한 날짜 범위
+* 현재 보기에 대해 구성 가능한 날짜 범위입니다. 날짜 비교가 지원되는 경우 날짜 범위 컨트롤을 사용하면 두 기간을 비교하고 변경 내용을 백분율로 표시할지 또는 숫자 차이로 표시할지 선택할 수도 있습니다. &quot;[날짜 범위별로 데이터 필터링](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#date-filter-new-ui)&quot;을(를) 참조하십시오.
 
 * ![이전 UI로 전환](/help/search-social-commerce/assets/switch-to-old-ui.png "이전 UI로 전환") 기존 사용자 인터페이스를 새 탭이나 창에서 엽니다.
 

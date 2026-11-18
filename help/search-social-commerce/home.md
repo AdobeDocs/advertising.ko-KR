@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: dabc3d714941ccecfae1646d554dd3f554a83adf
+source-git-commit: 3619dd14a392381c304d91e5cc8cd4da974ab053
 workflow-type: tm+mt
-source-wordcount: '5697'
+source-wordcount: '5722'
 ht-degree: 1%
 ---
 # 검색, 소셜 및 Commerce의 새로운 기능
@@ -38,6 +38,7 @@ ht-degree: 1%
 
 | 날짜 | 기능 | 설명 | 추가 정보 |
 | ---- | ------- | ----------- | -------------------- |
+| 2026년 11월 16일 | 새 UI | 이제 레거시 UI의 기능 대부분을 새 UI에서 사용할 수 있습니다. | &quot;[사용자 인터페이스를 구성하는 방법](/help/search-social-commerce/getting-started/user-interface.md)&quot;을 참조하십시오. |
 | 2026년 11월 4일 | [!UICONTROL Portfolios], 최적화 | (캠페인 수준 또는 광고 그룹 수준 최적화를 사용하는 포트폴리오의 [!DNL Google Ads] 캠페인에 대한 옵트인 기능) 이제 검색, 소셜 및 Commerce에 권장 예산 금액과 예상 전환 상승도를 모두 포함한 [!DNL Google Ads] 캠페인 예산 권장 사항의 신호를 포함하여 자체 예산 조정 결정을 알릴 수 있습니다. 이 기능을 옵트인하려면 Adobe 계정 팀에 문의하십시오. | — |
 | | [!UICONTROL Accounts] | 이제 광고 네트워크 API 계정의 경우 누락된 인증 권한을 식별하고 토큰 만료 경고를 참조하며 [!UICONTROL Accounts] 보기 내에서 복구 단계에 대한 정보를 얻을 수 있습니다. | &quot;[계정 인증 및 액세스 상태](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md#authentication-status)&quot;을(를) 참조하십시오. |
 | 2026년 10월 26일 | [!UICONTROL Campaigns], [!UICONTROL Bulksheets] | ([!DNL AI Max]이(가) 활성화된 [!DNL Google Ads]개 캠페인) 이제 새 검색, 소셜 및 Commerce 사용자 인터페이스에서 다음 설정을 구성할 수 있습니다.<ul><li>캠페인 수준:<ul><li>**[!UICONTROL Brand inclusions]** 및 **[!UICONTROL Brand exclusions]:** 브랜드 관련 쿼리에서 일치시킬 수 있는 계정의 브랜드 목록을 지정합니다.</li><li>**[!UICONTROL URL inclusions]:** 제외할 URL을 최종 URL 확장에서 생성된 랜딩 페이지로 지정합니다. 이 설정은 [!UICONTROL Text customization] 및 [!UICONTROL Final URL expansion]을(를) 사용하도록 설정한 경우 사용할 수 있습니다.</li></ul></li><li>광고 그룹 수준:<ul><li>**[!UICONTROL URL inclusions]:** 제외할 URL을 최종 URL 확장에서 생성된 랜딩 페이지로 지정합니다. 이 설정은 [!UICONTROL Text customization]이(가) 활성화된 캠페인에서 사용할 수 있습니다.</li></ul></li></ul>Bulksheet 지원은 설정에 사용할 수도 있습니다. | &quot;[[!DNL Google Ads] 캠페인 설정](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)&quot;, &quot;[[!DNL Google Ads] 광고 그룹 설정](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)&quot; 및 &quot;[계정 [!DNL Google Ads] 에 대한 필수 일괄 시트 데이터](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)를 참조하십시오.&quot; |

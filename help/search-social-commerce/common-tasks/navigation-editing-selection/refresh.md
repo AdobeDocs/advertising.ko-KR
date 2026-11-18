@@ -13,13 +13,13 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '43'
 ht-degree: 0%
 ---
 # 관리 보기의 데이터 새로 고침
 
-* (새 UI) 데이터 테이블 위의 도구 모음에서 ![새로 고침](/help/search-social-commerce/assets/refresh-new.png)을 클릭합니다.
+* (새 UI) 적용 가능한 관리 보기에서 페이지 제목 옆에 있는 ![새로 고침](/help/search-social-commerce/assets/refresh-new.png "새로 고침") 컨트롤을 클릭합니다.
 
 * (기존 UI) 데이터 테이블 하단에서 ![새로 고침](/help/search-social-commerce/assets/refresh.png)을 클릭합니다.
