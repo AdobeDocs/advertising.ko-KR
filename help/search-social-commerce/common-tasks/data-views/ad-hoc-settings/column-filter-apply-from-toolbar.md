@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '499'
 ht-degree: 0%
 ---
 # 도구 모음에서 데이터 필터 적용
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## (새 UI) 관리 보기의 도구 모음에서 데이터 필터 적용
 
-1. 도구 모음에서 ![필터](/help/search-social-commerce/assets/filter-new.png "필터")를 클릭합니다.
+1. 도구 모음에서 격자 검색 전에 아이콘 전용 ![Filter](/help/search-social-commerce/assets/filter-new.png "Filter") 컨트롤을 클릭합니다.
 
 1. 필터 설정에서 다음 중 하나를 수행합니다.
 

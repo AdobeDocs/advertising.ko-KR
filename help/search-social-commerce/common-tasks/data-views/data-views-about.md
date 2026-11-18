@@ -15,20 +15,18 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2f170883b2876ea4a7b39e814df598d337f7ca07
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '425'
 ht-degree: 0%
 ---
 # 캠페인 관리 보기에서 데이터 사용자 정의 기본 정보
-
-<!-- Add info about new UI -->
 
 대부분의 캠페인 데이터 보기에서 데이터 테이블 내에 표시되는 데이터를 사용자 지정할 수 있습니다. 다음과 같은 방법으로 데이터를 사용자 지정할 수 있습니다.
 
 * 특정 열 순서, 필터, 날짜 범위, 속성 규칙 등을 포함하도록 특정 엔터티 보기(예: [!UICONTROL Campaigns])에 대한 [전체 기본 보기의 설정을 편집하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md##view-edit) 설정을 일시적으로 적용하거나 저장하십시오. [추가 사용자 지정 보기를 만들고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view), [기존 보기를 복제하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#view-clone), [원하는 보기를 적용하고](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#apply-a-default-or-custom-view)할 수도 있습니다.
 
-* 도구 모음 오른쪽의 [!UICONTROL Columns] 아이콘을 사용하여 [열과 해당 정렬 순서를 변경](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)하거나 보기의 열 머리글에서 [열만 변경](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)합니다.
+* 도구 모음에서 [!UICONTROL Custom Columns] 컨트롤을 사용하여 [열과 정렬 순서를 변경합니다](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md). 새 UI에서 도구 모음이 너무 좁아서 컨트롤을 표시할 수 없는 경우 **[!UICONTROL Actions]>[!UICONTROL Custom Columns]**&#x200B;을(를) 클릭합니다. 보기의 열 머리글에서 [열만 변경](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)할 수도 있습니다.
 
 * (기존 사용자 인터페이스만 해당) [왼쪽 탐색 패널에서](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md)다음 작업을 수행할 수 있습니다.
 
@@ -45,3 +43,35 @@ ht-degree: 0%
 * 특정 열의 값에 따라 [데이터를 다시 정렬](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)합니다.
 
 * 페이지 하단에 25행, 50행, 100행, (기존 사용자 인터페이스만) 200행 또는 (기존 사용자 인터페이스만) [!UICONTROL Continuous Scroll]을(를) 표시할지 여부를 제어합니다.
+
+<!--
+
+## (New UI) Data table tools {#grid-controls-new-ui}
+
+In applicable management views, the toolbar includes the following controls:
+
+* On the left, the [!UICONTROL Filter] control appears before grid search. Where supported, the [!UICONTROL Conversion based on] selector follows search and lets you select [!UICONTROL Click Date] or [!UICONTROL Transaction Date].
+
+* On the right, operational actions, such as [!UICONTROL Reports], appear alongside view and display controls. The available controls depend on the view and your permissions.
+
+* When the available width is reduced, controls move into the [!UICONTROL Actions] menu. This can happen when you narrow the window or open the AI Assistant panel. If a control isn't visible in the toolbar, look for it in [!UICONTROL Actions]. In wider layouts, controls remain inline.
+
+* Within [!UICONTROL Actions], a horizontal divider separates operational actions from view and display controls, such as the current view, [!UICONTROL Custom Columns], [!UICONTROL Compressed Mode], and [!UICONTROL Charts], where available.
+
+* The primary create button remains outside [!UICONTROL Actions].
+
+The [!UICONTROL Refresh] icon is beside the page title in applicable views. The date range control is in the page header. For instructions on comparing two date ranges and changing the comparison format, see "[Filter data by date range](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui)."
+
+### Change the grid density
+
+* Where available, click **[!UICONTROL Compressed Mode]** in the toolbar or **[!UICONTROL Actions]** menu to turn compact grid spacing on or off.
+
+  The toolbar button is selected when compressed mode is on. In [!UICONTROL Actions], a switch indicates the current state.
+
+### Show or hide charts
+
+* Where available, click **[!UICONTROL Charts]** in the toolbar or **[!UICONTROL Actions]** menu.
+
+  The toolbar button is selected when charts are shown. In [!UICONTROL Actions], a switch indicates whether charts are shown. Click the control again to hide the charts.
+
+-->
