@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d62377d2bc68c5f0030dfea4c5410a443d529e5e
+source-git-commit: 6aa2e40903fd8652c0ac744e3cd4f68c5e74fd48
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '296'
 ht-degree: 0%
 ---
 # [!DNL ChatGPT Ads] 캠페인 설정
@@ -39,7 +39,9 @@ ht-degree: 0%
 
 **[!UICONTROL Status]:** 캠페인의 표시 상태: *활성* 또는 *일시 중지됨*. 새 광고 캠페인의 기본값은 *활성*&#x200B;입니다.
 
-**[!UICONTROL Objective]:** 캠페인 목표: *도달* 또는 *클릭 수*.
+**[!UICONTROL Objective]:** 캠페인 목표: *[!UICONTROL Reach]*, *[!UICONTROL Clicks]* 또는 *[!UICONTROL Conversions]*. 목표는 사용 가능한 [광고 그룹 입찰 옵션](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)을 결정합니다. 클릭에 대해서는 대상 CPC 입찰이 지원되고 전환에 대해서는 대상 CPA 입찰이 지원됩니다. 대상 CPC 및 대상 CPA 입찰은 도달 캠페인에 사용할 수 없습니다.
+
+**[!UICONTROL Billing event]:**(목표 [!UICONTROL Conversions]의 새 캠페인) 클릭수 또는 노출수에 따라 요금이 부과되는지 여부. 기본값은 클릭입니다. 목표는 캠페인이 무엇을 위해 최적화하는지를 결정하고, 청구 이벤트는 청구 방법을 결정합니다. 캠페인을 저장한 후에는 청구 이벤트를 변경할 수 없습니다.
 
 **[!UICONTROL Location Targets]:** 대상으로 포함할 지원되는 사용자 지리적 위치입니다. 기본적으로 지원되는 모든 위치가 타깃팅됩니다. 위치 조합에 사용자를 포함(제외하지 않음)하도록 대상 범위를 좁힐 수 있습니다.
 

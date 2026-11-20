@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '149'
 ht-degree: 0%
 ---
 # 캠페인 보기에서 열 구성 잠금 및 잠금 해제
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
-열을 잠그면 해당 열과 그 왼쪽에 있는 다른 모든 열이 한 정적 창으로 잠기고 오른쪽에 있는 모든 열은 가로로 스크롤할 수 있는 다른 창으로 잠깁니다.
+열을 잠그면 해당 열과 그 왼쪽에 있는 다른 모든 열이 한 정적 창으로 잠기고 오른쪽에 있는 모든 열은 가로로 스크롤할 수 있는 다른 창으로 잠깁니다. 새 UI에서 열 머리글 사이의 경계를 먼저 잠금 해제하지 않고 드래그하여 자격이 있는 잠긴 열의 크기를 조정할 수 있습니다.
 
 잠금은 엔티티 보기에서 멀어질 때까지만 작동합니다. 기본 보기나 사용자 지정 보기에 저장할 수 없습니다.
 
