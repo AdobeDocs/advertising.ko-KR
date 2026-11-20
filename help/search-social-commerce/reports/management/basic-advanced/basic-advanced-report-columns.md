@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3919'
 ht-degree: 0%
 ---
 # 기본 및 고급 보고서용 보고서 열
@@ -59,14 +59,16 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | 광고 차원. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] 반응형 검색 광고) 광고의 효과: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> 또는 <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads] 및 [!DNL Microsoft Advertising] 캠페인) 광고가 모바일 장치에 표시될 때 입찰이 조정되는 방법을 결정하는 현재 광고 그룹 수준의 모바일 입찰 조정입니다. |
+| [!UICONTROL Adobe Tech Fees] | ([!UICONTROL Search Engine Account Report], [!UICONTROL Campaign Report], [!UICONTROL Ad Group Report] 및 [!UICONTROL Ad Variation Report]; [!DNL ChatGPT Ads]만 해당 요금 요율을 사용하여 계산된 미디어 비용에 대한 [!DNL Adobe] 기술 요금입니다. |
 | [!UICONTROL AI Max Bundling Required] | (검색 네트워크만 대상으로 하는 캠페인, AI 최대 기능이 활성화된 캠페인, 읽기 전용) 번들링이 필요한지 여부: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* 또는 null. |
-| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max] 기능 &#x200B;](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
+| [!UICONTROL AI Max Enabled] | [[!UICONTROL AI Max] 기능 ](https://support.google.com/google-ads/answer/15910366)을(를) 사용할지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
 | [!UICONTROL AI Max Search Term Matching] | (검색 네트워크를 대상으로 하며 [AI 최대 기능](https://support.google.com/google-ads/answer/15910366) 및 캠페인 수준 검색어 일치 기능이 활성화된 캠페인입니다. 읽기 전용) 광고 그룹 수준 검색어 일치가 활성화되었는지 여부: *[!UICONTROL true]*, *[!UICONTROL false]* 또는 null. |
 | [!UICONTROL Advertiser] | 광고주 이름. |
 | [!UICONTROL Advertiser ID] | 광고주의 검색, 소셜 및 Commerce 계정에 대한 숫자 ID입니다. |
 | [!UICONTROL Avg Position] | 지정된 날짜 범위 동안의 평균 광고 위치입니다.<br><br>[!DNL Google Ads] 및 [!DNL LY Ads] 캠페인의 경우 이 데이터는 2019년 9월까지만 사용할 수 있습니다. [!DNL Microsoft Advertising]의 경우 이 데이터는 2021년 1월 22일까지만 사용할 수 있습니다. |
 | [!UICONTROL Base URL] | 캠페인이나 계정에 대해 구성된 추가 매개 변수를 포함한 키워드의 기본 URL입니다. 여기에는 검색, 소셜 및 Commerce 리디렉션 및 추적 코드가 포함되지 않습니다. |
 | [!UICONTROL Bid Strategy] | (대부분의 광고 네트워크) 캠페인 또는 캠페인 구성 요소의 경우 이것이 캠페인의 입찰 전략입니다. 관리자 계정에 연결된 광고 네트워크 계정의 경우 계정 간 입찰 전략입니다. 사용 가능한 값은 광고 네트워크에 따라 다릅니다. |
+| [!UICONTROL Billable Spend] | ([!UICONTROL Search Engine Account Report], [!UICONTROL Campaign Report], [!UICONTROL Ad Group Report] 및 [!UICONTROL Ad Variation Report]; [!DNL ChatGPT Ads]만 해당) 미디어 비용과 세금을 제외한 [!DNL Adobe]개의 기술 비용입니다. |
 | [!UICONTROL Business Name] | ([!DNL Microsoft Advertising]개의 반응형 광고) 비즈니스 이름입니다. |
 | [!UICONTROL Call to Action] | ([!DNL Microsoft Advertising] 반응형 및 멀티미디어 광고) 광고에 포함된 call to action. |
 | [!UICONTROL Campaign] | 캠페인. |
@@ -131,6 +133,7 @@ ht-degree: 0%
 | [!UICONTROL Est. Clicks] | ([!UICONTROL Geo Distribution Report]; 검색 및 디스플레이 캠페인만 해당) 광고 그룹/캠페인/포트폴리오 조합의 예상 클릭 수입니다. 이 값은 광고 네트워크에서 제공한 값과 다를 수 있습니다. |
 | [!UICONTROL Estimated Cost] | Search, Social 및 Commerce이 추적한 관련 광고의 총 예상 비용입니다. 이 값은 광고 네트워크에서 제공한 값과 다를 수 있습니다. |
 | [!UICONTROL Estimated Impressions] | (캠페인만 표시) Search, Social 및 Commerce에서 추적한 예상 광고 노출 횟수입니다. 이 값은 광고 네트워크에서 제공한 값을 표시하는 [!UICONTROL Impressions] 열(사용 가능한 경우)의 값과 다를 수 있습니다. |
+| [!UICONTROL Estimated Tax] | ([!UICONTROL Search Engine Account Report], [!UICONTROL Campaign Report], [!UICONTROL Ad Group Report] 및 [!UICONTROL Ad Variation Report]; [!DNL ChatGPT Ads]만 해당) 적용 가능한 세율을 사용하여 계산된 미디어 지출 및 [!DNL Adobe] 기술 요금에 대한 예상 세금입니다. |
 | [!UICONTROL Exclude (yes/no)] | 일치하는 제품에 대한 광고에 입찰이 제외되었는지(<i>[!UICONTROL Yes]</i>) 또는 입찰이 허용되었는지(<i>[!UICONTROL No]</i>) 여부. |
 | [!UICONTROL First Page CPC] | (Google 캠페인만 해당) 지정된 날짜 범위 동안 검색 결과의 첫 페이지에 표시되는 광고의 클릭당 비용(CPC)입니다. |
 | [!UICONTROL Frequency] | ([!DNL Meta] 캠페인만 해당) 누군가 내 광고를 본 평균 횟수입니다. |

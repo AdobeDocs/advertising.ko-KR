@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # 캠페인 관리 보기에서 데이터 사용자 정의 기본 정보
@@ -44,7 +44,6 @@ ht-degree: 0%
 
 * 페이지 하단에 25행, 50행, 100행, (기존 사용자 인터페이스만) 200행 또는 (기존 사용자 인터페이스만) [!UICONTROL Continuous Scroll]을(를) 표시할지 여부를 제어합니다.
 
-
 ## (새 UI) 데이터 테이블 컨트롤 {#data-table-tools-new-ui}
 
 데이터 테이블 위의 도구 모음을 사용하여 데이터를 관리하고 표시 방법을 변경합니다. 사용 가능한 도구는 보기 및 권한에 따라 다릅니다.
@@ -64,3 +63,15 @@ ht-degree: 0%
 * 도구 모음 또는 **[!UICONTROL Actions]** 메뉴에서 **[!UICONTROL Charts]**&#x200B;을(를) 사용하여 차트를 표시하거나 숨깁니다.
 
   차트가 표시되면 도구 모음 버튼이 선택됩니다. [!UICONTROL Actions]에서 전환은 차트가 표시되는지 여부를 나타냅니다. 차트를 숨기려면 컨트롤을 다시 클릭합니다.
+
+## (새 UI) 열 너비 및 테이블 값 {#column-widths-values-new-ui}
+
+Campaign 데이터 테이블에서:
+
+* 열 제목 사이의 경계를 끌어 열 크기를 조정합니다. 먼저 잠금을 해제하지 않고도 적격한 [잠긴 열](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)의 크기를 조정할 수도 있습니다. 최소 너비는 값을 읽을 수 있도록 유지하는 데 도움이 됩니다. 일부 아이콘 및 작업 열의 너비가 고정되어 있어 크기를 조정할 수 없습니다.
+
+* 전체 이름을 보려면 잘린 엔티티 이름 위에 커서를 놓습니다.
+
+* 이름이 링크인 엔터티의 세부 정보를 열려면 이름이 강조 표시될 때까지 **Tab**&#x200B;을 누른 다음 **Enter**&#x200B;을 누릅니다.
+
+* en 대시(-)는 누락, NULL 또는 적용할 수 없는 값을 나타냅니다. 0과 false 값은 계속 표시됩니다.
