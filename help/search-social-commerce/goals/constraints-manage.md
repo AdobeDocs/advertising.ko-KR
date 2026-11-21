@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *레거시 키워드 수준의 포트폴리오에서만 CPC 캠페인의 입찰 단위에 적용 가능*
 
-입찰 단위 제한은 제한과 관련된 비용 및 수익 모델을 사용하는 모든 [입찰 단위](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html)에 대해 최적화된 입찰을 제한하는 규칙입니다.
+입찰 단위 제한은 제한과 관련된 비용 및 수익 모델을 사용하는 모든 [입찰 단위](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=ko)에 대해 최적화된 입찰을 제한하는 규칙입니다.
 
 ## 제한 정보
 

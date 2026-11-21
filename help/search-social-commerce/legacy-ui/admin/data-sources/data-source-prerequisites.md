@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 전제 조건 1: 적용 가능한 모든 광고 계정에 대해 랜딩 페이지 URL에서 검색, 소셜 및 Commerce 토큰(&quot;ef_id&quot; 쿼리 문자열 매개 변수)을 구현합니다
 
-관련 캠페인에 대한 유료 검색 클릭마다 고유한 `ef_id`을(를) 생성하고 `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s`과(와) 같은 쿼리 문자열로 랜딩 페이지 URL에 추가해야 합니다. 여기서 `&ef_id=abcde:123456789:s`은(는) 추가 기호, `ef_id` 키 및 `ef_id` 값입니다. ef_id를 포함하려면 관련 광고 네트워크 계정 및 캠페인에 [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; 및 [!UICONTROL Redirect Type] &quot;[!UICONTROL Token]&quot;이(가) 있어야 합니다.
+관련 캠페인에 대한 유료 검색 클릭마다 고유한 `ef_id`을(를) 생성하고 `https://www.adobe.com/kr?someParam=123&ef_id=abcde:123456789:s`과(와) 같은 쿼리 문자열로 랜딩 페이지 URL에 추가해야 합니다. 여기서 `&ef_id=abcde:123456789:s`은(는) 추가 기호, `ef_id` 키 및 `ef_id` 값입니다. ef_id를 포함하려면 관련 광고 네트워크 계정 및 캠페인에 [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; 및 [!UICONTROL Redirect Type] &quot;[!UICONTROL Token]&quot;이(가) 있어야 합니다.
 
 기존 계정 및 캠페인의 경우 ef_id가 이미 구현되었을 수 있습니다.
 
@@ -62,7 +62,7 @@ ef_id가 포함되지 않은 경우 Adobe 계정 팀에 도움을 요청하십�
    >
    >ef_id는 랜딩 페이지 URL에만 있어야 합니다.
 
-   예를 들어 랜딩 페이지 URL이 `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`이면 [!DNL Google Analytics]의 ef_id 차원 값은 `abcde:123456789:s`입니다.
+   예를 들어 랜딩 페이지 URL이 `https://www.adobe.com/kr?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`이면 [!DNL Google Analytics]의 ef_id 차원 값은 `abcde:123456789:s`입니다.
 
    >[!NOTE]
    >

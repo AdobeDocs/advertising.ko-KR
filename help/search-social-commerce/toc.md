@@ -27,10 +27,10 @@ ht-degree: 2%
   + [지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)
   + Adobe CX Enterprise과 통합 {#integrations}
     + [Adobe CX Enterprise 솔루션 및 서비스와의 통합](/help/search-social-commerce/introduction/integrations.md)
-    + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
-    + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
-  + [고객 개인정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-  + [정책 및 지침(링크)](https://experienceleague.adobe.com/en/docs/advertising/policies/ad-requirements-policy){target="_blank"}
+    + [Adobe [!DNL Analytics for Advertising] (링크)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=ko){target="_blank"}
+    + [Adobe Audience Manager과 통합(링크)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=ko){target="_blank"}
+  + [고객 개인정보 보호 지원(링크)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=ko){target="_blank"}
+  + [정책 및 지침(링크)](https://experienceleague.adobe.com/ko/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + 시작 {#getting-started}
   + [구현 개요](/help/search-social-commerce/getting-started/implemention-overview.md)
   + [광고 네트워크 계정 및 캠페인 설정](/help/search-social-commerce/getting-started/campaign-implementation-overview.md)
@@ -290,7 +290,7 @@ ht-degree: 2%
         + [&#x200B; [!DNL Yahoo DSP]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
         + [&#x200B; [!DNL Yandex]에 대한 클릭 추적 형식](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
       + [클릭 추적 URL에 대한 선택적 추적 매개 변수](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-    + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+    + [Adobe Advertising 쿠키(링크)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=ko){target="_blank"}
     + [AMO ID(s_kwcid) 추적 매개 변수](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
   + 전환 추적 {#conversion-tracking}
     + [전환 추적 옵션](/help/search-social-commerce/tracking/conversion-tracking-about.md)

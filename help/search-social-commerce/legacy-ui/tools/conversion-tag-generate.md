@@ -136,13 +136,13 @@ Adobe Advertising 전환 및 페이지 보기 추적 태그에 대한 &quot;[FAQ
 
 Adobe Experience Platform의 태그를 사용하여 검색, 소셜 및 Commerce에 대한 전환 추적을 설정할 수 있습니다. 태그는 부가가치 기능으로 포함되어 Adobe CX Enterprise 고객이 사용할 수 있습니다.
 
-Experience Platform 사용자 인터페이스 또는 Experience Platform 데이터 수집 사용자 인터페이스에서 검색, 소셜 및 Commerce에 대한 전환 추적 태그를 구성하는 데 다음 작업이 필요합니다. 태그 구성에 대한 전체 정보와 지침은 &quot;[태그 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; 및 &quot;[빠른 시작 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;로 시작하는 Experience Platform 태그 안내서를 참조하십시오.
+Experience Platform 사용자 인터페이스 또는 Experience Platform 데이터 수집 사용자 인터페이스에서 검색, 소셜 및 Commerce에 대한 전환 추적 태그를 구성하는 데 다음 작업이 필요합니다. 태그 구성에 대한 전체 정보와 지침은 &quot;[태그 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home)&quot; 및 &quot;[빠른 시작 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/get-started/quick-start)&quot;로 시작하는 Experience Platform 태그 안내서를 참조하십시오.
 
 >[!PREREQUISITES]
 >
 >필요한 태그 확장을 설치하려면 조직 관리자에게 `manage_properties` 권한을 포함한 UI의 데이터 수집 기능에 대한 액세스 권한을 요청하십시오.
 
-1. [데이터 수집 UI](https://experience.adobe.com/#/data-collection/)에서 Adobe Advertising [확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)을 설치하십시오.
+1. [데이터 수집 UI](https://experience.adobe.com/#/data-collection/)에서 Adobe Advertising [확장](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/extensions/overview)을 설치하십시오.
 
    1. 해당 속성에서 확장 카탈로그를 열고 **Adobe Advertising**&#x200B;을(를) 선택합니다.
 
@@ -190,7 +190,7 @@ Experience Platform 사용자 인터페이스 또는 Experience Platform 데이�
 
          **전환 속성 이름:** 전환 속성의 이름입니다(예: `form_completes`).
 
-         **값:** 전환 속성의 숫자 값(예: `1` to track form_completes)이거나 기존 [데이터 요소](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)를 선택하십시오.
+         **값:** 전환 속성의 숫자 값(예: `1` to track form_completes)이거나 기존 [데이터 요소](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/ui/data-elements)를 선택하십시오.
 
       1. **변경 내용 유지**&#x200B;를 클릭합니다.
 
