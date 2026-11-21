@@ -1,0 +1,233 @@
+---
+title: (새 UI) 포트폴리오 성능 세부 정보 보기
+description: Adobe Advertising 검색, 소셜 및 Commerce에서 포트폴리오 성과, 키워드 입찰 단위 세부 사항, 예측 및 입찰 기록을 보고 입찰 단위 기록을 내보내는 방법에 대해 알아봅니다.
+feature: Search Portfolios, Search Optimization
+exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
+TQID: 'https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 157c45d4939eff028543a0181397a59e6346309e
+workflow-type: tm+mt
+source-wordcount: '1555'
+ht-degree: 0%
+---
+# (새 UI) 포트폴리오 성능 세부 정보 보기
+
+*Beta 기능*
+
+<!-- Verify all, including why (if) the first report is for active and optimized portfolios(?), and why the other reports are for active portfolios, not optimized ones -->
+
+포트폴리오 세부 사항 보기에는 포트폴리오에 대한 다음 정보가 포함됩니다.
+
+* 최대 3개의 성능 지표에 대한 실제 및 예측 값입니다. 보고서에는 포트폴리오의 총 지표 값 및 날짜별 지표 분류가 포함됩니다.<!-- Not for active portfolios only?  -->
+
+* 모델이 예측에서 얼마나 이탈했는지 보여 주는 활성 포트폴리오의 모델 정확도 데이터입니다. 이 보고서는 전반적인 일일 또는 순환 7일 비용 정확도, 클릭 정확도 및 목표 값 정확도를 보여줍니다.
+
+  데이터를 추세 차트(기본값) 또는 표로 볼 수 있습니다.
+
+* 타겟 지출과 활성 포트폴리오의 실제 지출. 포트폴리오에 대한 총 캠페인 예산을 선택적으로 포함할 수도 있습니다.
+
+* 광고 네트워크별 활성 포트폴리오에 대한 비용, 클릭 또는 [목표 값](/help/search-social-commerce/glossary.md#o-p) 예측의 정확성.<!-- Verify -->
+
+* 포트폴리오 설정입니다.
+
+  선택적으로 포트폴리오 설정을 열어 편집할 수 있습니다.
+
+* 성과 데이터가 포함된 포트폴리오의 광고 네트워크, 계정, 캠페인, 광고 그룹 및 키워드 목록입니다.
+
+  개별 키워드의 경우 예측, 내역 정보 및 계층 정보를 포함한 입찰 단위 세부 정보를 볼 수 있습니다. [!UICONTROL Bid Unit Details] 보기에는 선택한 입찰 단위에 대한 다음 예측, 내역 정보 및 계층 정보가 포함됩니다.
+
+  * [!UICONTROL Forecast] 탭: 현재 예상되는 클릭 수, 비용, 클릭당 비용, 위치 및 다른 입찰 가격에서 입찰 단위에 대한 매출입니다. 모든 장치 및 각 장치 유형([!UICONTROL Mobile], [!UICONTROL Computer] 및 [!UICONTROL Tablet])에 대한 데이터가 표시됩니다.<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
+
+    **참고:** 장치 유형에 대한 예측 데이터를 사용할 수 없습니다. 장치 특정 데이터를 사용할 수 없으면 해당 장치 유형에 대한 모델을 작성하고 조정을 설정할 수 없습니다. **참고:** 특정 날짜 범위 동안 클릭을 받은 포트폴리오 내의 각 입찰 단위에 대한 비용 정확도 또는 수익 정확도를 보려면 포트폴리오의 비용 정확도 세부 정보 또는 수익 정확도 세부 정보 보기를 각각 참조하십시오.
+
+  * [!UICONTROL History] 탭: 각 입찰에 대한 날짜 및 시간, 노출수, 클릭수, 총 비용, 평균 CPC, 평균 위치 및 클릭 날짜로 표시되는 가중 매출과 같은 데이터를 포함하여 지난 36일 동안의 모든 입찰입니다. 모든 장치 및 각 장치 유형(모바일, 컴퓨터 및 태블릿)에 대한 데이터가 표시됩니다.<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
+
+  * [!UICONTROL Details] 탭: 키워드, 일치 유형(해당되는 경우), 입찰 단위가 속한 상위 광고 그룹, 캠페인, 광고 네트워크 계정 및 포트폴리오입니다.
+
+## 포트폴리오에 대한 성과 세부 정보 열기
+
+1. 메인 메뉴에서 **[!UICONTROL Manage]>[!UICONTROL Portfolios]**&#x200B;을(를) 클릭합니다.
+
+1. 포트폴리오 이름 위에 커서를 놓고 ![Portfolio 개요](/help/search-social-commerce/assets/portfolio-overview.png "Portfolio 개요")를 클릭합니다.
+
+1. (선택 사항) 포트폴리오 세부 정보에 대한 날짜 범위를 변경하려면 오른쪽 상단의 날짜 범위를 클릭하고 날짜 범위를 지정한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+
+1. (선택 사항) **[!UICONTROL Data Aggregation]** 메뉴에서 각 행에 포함된 데이터의 시간 단위를 변경합니다. *[!UICONTROL Daily],* *[!UICONTROL Weekly],* 또는 *[!UICONTROL Monthly].*
+
+   사용 가능한 옵션은 선택한 날짜 범위에 따라 다릅니다. 현재 합계를 새 날짜 범위에 사용할 수 없는 경우 사용 가능한 다른 합계가 자동으로 선택됩니다.
+
+1. (선택 사항) 페이지 헤더의 **[!UICONTROL Conversion Based On]** 메뉴에서 **[!UICONTROL Click Date]** 또는 **[!UICONTROL Transaction Date]**&#x200B;을(를) 선택합니다.
+
+   이 설정은 포트폴리오 보고서 및 구성 요소 목록의 전환 데이터에 적용됩니다.
+
+다른 포트폴리오에 대한 세부 정보를 보려면 포트폴리오 이름 옆에 있는 포트폴리오 선택기를 사용하십시오.
+
+## [!UICONTROL Portfolio Overview] 탭 사용자 지정
+
+* (선택 사항) [!UICONTROL Portfolio Performance] 보고서를 사용자 지정하려면 다음 중 하나를 수행합니다.
+
+  * 총 지표와 세부 지표 모두에 사용되는 성능 지표를 변경하려면 **[!UICONTROL Metrics]**&#x200B;을(를) 클릭하고 최대 3개의 지표를 선택하십시오.
+
+    기본 지표는 *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* 및 *[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->입니다.
+
+  * 세부 지표의 경우:
+
+    * 예측된 지표 값을 표시하거나 숨기려면 **[!UICONTROL Display predictions]** 옆으로 스위치를 이동하십시오.
+
+    * 차트 보기(![차트 보기](/help/search-social-commerce/assets/chart-view.png "차트 보기"))와 테이블 보기(![표 보기](/help/search-social-commerce/assets/table-view.png "표 보기")) 간을 전환합니다.
+
+    * (차트 보기에서) 차트의 임의 지점에 대한 데이터를 보려면 해당 지점 위에 커서를 놓습니다.
+
+    * (차트 보기에서) 확대/축소하려면 그래프에서 영역을 선택합니다.
+
+    * (포트폴리오 설정 변경 마커가 표시되면) 표시된 날짜에 대한 포트폴리오의 변경 기록을 보려면 차트에서 마커를 클릭합니다. 기록에 대한 자세한 내용은 &quot;[포트폴리오의 변경 기록 보기](portfolio-view-change-history.md#portfolio-change-history)&quot;를 참조하십시오.
+
+* (선택 사항) [!UICONTROL Model accuracy] 트렌드 차트를 사용자 지정하려면 다음 중 하나를 수행하십시오.
+
+  * 차트 보기(![차트 보기](/help/search-social-commerce/assets/chart-view.png "차트 보기"))와 테이블 보기(![표 보기](/help/search-social-commerce/assets/table-view.png "표 보기")) 간을 전환합니다.
+
+  * *[!UICONTROL Daily Accuracy]*&#x200B;과(와) *[!UICONTROL 7 Day Rolling Accuracy]*&#x200B;에 대한 데이터 보기 간에 전환합니다.
+
+    [!UICONTROL 7 Day Rolling Accuracy]은(는) 이전 7일 동안의 평균 예측 정확도로 백분율로 표시됩니다. 예를 들어, 2025년 5월 8일 값은 2025년 5월 1일 - 7일 기간에 대한 평균 정확도입니다.
+
+    [!UICONTROL 7 Day Rolling Accuracy]은(는) [!UICONTROL Data Aggregation]이(가) [!UICONTROL Daily]&#x200B;(으)로 설정된 경우에만 사용할 수 있습니다.
+
+  * (차트 보기에서) 차트의 임의 지점에 대한 데이터를 보려면 해당 지점 위에 커서를 놓습니다.
+
+* (선택 사항) [!UICONTROL Target vs actual spend] 트렌드 차트를 사용자 지정하려면 다음 중 하나를 수행하십시오.
+
+  * **[!UICONTROL Display budget]** 옆으로 스위치를 이동하여 각 날짜에 대한 총 캠페인 예산을 표시하거나 숨깁니다.
+
+  * 차트에서 임의의 점에 대한 데이터를 보려면 해당 점 위에 커서를 놓습니다.
+
+* (선택 사항) [!UICONTROL Network Accuracy] 트렌드 차트를 사용자 지정하려면 다음 중 하나를 수행하십시오.
+
+  * 보고된 지표를 *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* 또는 *[!UICONTROL Objective Value]*(으)로 변경하십시오.
+
+  * 둘 이상의 네트워크에 데이터를 사용할 수 있는 경우 지표 메뉴 옆에 있는 메뉴에서 네트워크를 선택합니다.
+
+  * 차트에서 임의의 점에 대한 데이터를 보려면 해당 점 위에 커서를 놓습니다.
+
+  * 확대/축소하려면 그래프에서 영역을 선택합니다.
+
+## 포트폴리오 구성 요소 목록 사용자 지정
+
+[!UICONTROL Networks], [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] 및 [!UICONTROL Keywords] 탭에는 다음 컨트롤이 포함되어 있습니다.
+
+* 이름별로 검색하려면 테이블 위의 검색 필드에 텍스트를 입력하고 검색을 제출합니다.
+
+* 데이터를 [필터링](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)하려면 ![필터링](/help/search-social-commerce/assets/filter-new.png "필터링")을 클릭하세요. 표 위에 있는 필터 컨트롤을 사용하여 적용된 필터를 편집하거나 제거할 수 있습니다.
+
+* 다음 탭에서 네트워크, 계정, 캠페인 또는 광고 그룹의 구성 요소를 보려면 해당 이름을 클릭합니다. 선택한 상위 항목이 표 위의 탐색 표시에 표시되며, 드릴 다운할 때 적용 가능한 필터가 전달됩니다. 탭을 전환할 때 상위 선택이 목록을 계속 제한할 수 있습니다.
+
+  드릴다운 선택 항목(예: 네트워크 또는 계정 이름)을 제거하려면 표 위의 탐색 표시에서 구성 요소 이름 옆에 있는 **[!UICONTROL X]**&#x200B;을(를) 클릭합니다. 상위 레벨 선택 항목이 계속 적용됩니다. 포트폴리오의 모든 구성 요소로 돌아가려면 나머지 상위 선택 사항과 기타 필터를 제거하십시오.
+
+* 데이터를 새로 고치려면 ![새로 고침](/help/search-social-commerce/assets/refresh-new.png "새로 고침")을 클릭하세요.
+
+* ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] 및 [!UICONTROL Keywords] 탭만 해당) 표시된 열 또는 정렬 순서를 변경하려면 ![사용자 지정 열](/help/search-social-commerce/assets/custom-columns-new.png "사용자 지정 열") 및 [열 집합 및 정렬 옵션 편집](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)을 클릭합니다.
+
+
+## 포트폴리오에 광고 네트워크 나열
+
+* **[!UICONTROL Networks]** 탭을 클릭합니다.
+
+## 포트폴리오에 계정 나열
+
+* 포트폴리오의 모든 계정을 보려면 **[!UICONTROL Accounts]** 탭을 클릭하십시오.
+
+* 포트폴리오에서 특정 네트워크에 대한 계정을 보려면 **[!UICONTROL Networks]** 탭을 클릭한 다음 네트워크 이름을 클릭합니다.
+
+## 포트폴리오에 캠페인 나열
+
+각 캠페인에 대한 세부 사항에는 입찰 전략, 실제 및 예상 비용, 클릭 수 및 목표 값, 비용, 클릭 수 및 목표 값 정확도 등이 포함됩니다.
+
+* 포트폴리오의 모든 캠페인을 보려면 **[!UICONTROL Campaigns]** 탭을 클릭하십시오.
+
+* 포트폴리오의 특정 계정에 대한 캠페인을 보려면 **[!UICONTROL Accounts]** 탭을 클릭한 다음 계정 이름을 클릭합니다.
+
+## 포트폴리오의 광고 그룹 나열
+
+각 광고 그룹에 대한 세부 사항에는 네트워크, 기본 입찰, 비용, 클릭 수, CPC, 노출 횟수, 목표 값 및 포트폴리오의 목표에 사용된 전환 지표가 포함됩니다.
+
+* 포트폴리오의 모든 광고 그룹을 보려면 **[!UICONTROL Ad Groups]** 탭을 클릭하십시오.
+
+* 포트폴리오 내의 캠페인에 있는 모든 광고 그룹을 보려면 **[!UICONTROL Campaigns]** 탭을 클릭한 다음 캠페인 이름을 클릭합니다.
+
+## 포트폴리오의 키워드에 대한 세부 사항 나열 및 보기 {#bid-unit-details}
+
+각 키워드에 대한 세부 사항에는 입찰 단위 ID, 일치 유형, 실제 및 예상 비용, 클릭 수 및 목표 값, 비용, 클릭 수 및 목표 값 차이 등이 포함됩니다. 개별 키워드에 대한 입찰 단위 세부 정보를 볼 수 있습니다.
+
+1. 키워드를 나열합니다.
+
+   * 포트폴리오의 모든 키워드를 보려면 **[!UICONTROL Keywords]** 탭을 클릭하십시오.
+
+   * 포트폴리오 내의 광고 그룹에 있는 모든 키워드를 보려면 **[!UICONTROL Ad Groups]** 탭을 클릭한 다음 광고 그룹 이름을 클릭합니다.
+
+1. (선택 사항) 특정 입찰 단위에 대한 세부 정보를 보려면 **[!UICONTROL Bid Unit ID]** 열의 값을 클릭합니다. 자세한 내용을 보려면 [!UICONTROL Bid Unit Details]에서 아무 탭이나 클릭하십시오.
+
+### 개별 입찰 단위 내역 보기 및 다운로드 {#bid-unit-history}
+
+1. [입찰 단위 세부 정보를 엽니다](#bid-unit-details).
+
+1. **[!UICONTROL History]** 탭을 클릭합니다.
+
+1. (선택 사항) 표 위의 장치 메뉴에서 기록을 볼 장치 유형을 선택합니다. 기본적으로 모든 장치의 데이터가 표시됩니다.
+
+1. (선택 사항) 내역 데이터를 사용할 수 있는 경우 **[!UICONTROL Export as csv]**&#x200B;을(를) 클릭하여 표시된 내역을 다운로드합니다.
+
+브라우저의 일반적인 절차에 따라 파일이 다운로드됩니다.
+
+전체 포트폴리오에 대한 입찰 내역을 보고 날짜 범위를 변경하려면 &quot;[포트폴리오의 입찰 변경 내역 보기](portfolio-view-change-history.md#portfolio-bid-change-history)&quot;를 참조하십시오.
+
+## 포트폴리오 설정 보기 및 편집
+
+* 포트폴리오 설정을 보거나 숨기려면 **[!UICONTROL Portfolio Settings]**&#x200B;을(를) 클릭합니다.
+
+  * 표시되는 포트폴리오 설정을 편집하려면 설정 섹션 옆에 있는 ![편집](/help/search-social-commerce/assets/edit.png "편집")을 클릭하고 [포트폴리오 설정 편집](portfolio-edit.md)을 클릭합니다.
+
+포트폴리오 설정에 대한 자세한 내용은 Search, Social 및 Commerce 내에서 사용할 수 있는 최적화 안내서를 참조하십시오.
+
+## 포트폴리오 성과 보고서 및 포트폴리오 구성 요소 목록 다운로드
+
+* 성능 보고서 및 구성 요소 목록을 다운로드하려면 다음을 수행하십시오.
+
+  1. 도구 모음에서 **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
+
+  1. 포함할 각 성과 보고서와 포트폴리오 구성 요소 유형 옆의 확인란을 선택합니다.
+
+     사용 가능한 포트폴리오 구성 요소는 *[!UICONTROL Campaigns table]*, *[!UICONTROL Ad groups table]* 및 *[!UICONTROL Keywords table]*&#x200B;입니다. [!UICONTROL Networks] 및 [!UICONTROL Accounts] 테이블은 이 다운로드에 포함되지 않습니다.
+
+     두 옵션이 모두 있는 성능 보고서의 경우 **[!UICONTROL As chart]**, **[!UICONTROL As table]** 또는 둘 다 선택하십시오. [!UICONTROL Network accuracy chart] 보고서는 차트로만 사용할 수 있습니다.
+
+  1. **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
+
+* 특정 유형의 데이터가 포함된 [!UICONTROL Model accuracy] 보고서를 다운로드하려면 다음을 수행하십시오.
+
+  1. [!UICONTROL Model accuracy]의 도구 모음에서 **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
+
+  1. **[!UICONTROL Cost Accuracy]**, **[!UICONTROL Objective Value Accuracy]** 또는 둘 다 선택하십시오.
+
+  1. 선택한 각 데이터 형식에 대해 **[!UICONTROL By Bid Unit]**, **[!UICONTROL By Click Volume]** 또는 둘 다 선택하십시오.
+
+  1. **[!UICONTROL Download report]**&#x200B;을(를) 클릭합니다.
+
+>[!MORELIKETHIS]
+>
+>* 포트폴리오에 대한 [(새 UI)](portfolio-about.md)
+>* [(새 UI) 포트폴리오 편집](portfolio-edit.md)
+>* [(새 UI) [!UICONTROL Portfolios] 보기에서 데이터를 다운로드합니다](portfolio-view-report.md)

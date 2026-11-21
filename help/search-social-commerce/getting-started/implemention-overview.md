@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 76a8d8b448441e4d7380ebc4f007aa8b5a2ab5f5
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '886'
 ht-degree: 0%
 ---
 # Search, Social 및 Commerce 구현 개요
@@ -53,25 +53,27 @@ ht-degree: 0%
 
    1. (필요한 경우) 광고주가 캠페인 데이터를 보고 관리하고 보고서를 생성할 수 있는 사용자 계정을 만듭니다.
 
-   계정 설정에 대한 자세한 내용은 &quot;관리자&quot;의 도움말 장을 참조하십시오.
+   관리자와 함께 Adobe Admin Console 및 적절한 제품 프로필을 사용하여 액세스를 구성합니다. &quot;[검색, 소셜 및 Commerce에 대한 사용자 관리](/help/search-social-commerce/user-administration.md)&quot;를 참조하십시오.
 
 1. 각 광고 네트워크 계정에 대한 캠페인과 동기화하거나 만듭니다.
 
-   * a) 계정 액세스 자격 증명 및 추적 옵션이 포함된 검색, 소셜 및 Commerce에서 해당 계정 레코드를 생성하고 b) 계정 상태를 활성화로 설정하여 계정과 동기화합니다.
+   * API 연결 계정의 경우 [!UICONTROL Manage] > [!UICONTROL Accounts]에서 [계정 세부 정보를 만들고](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#create-account), 네트워크별 인증을 완료하고 추적 옵션을 구성하고 계정을 사용하도록 설정하십시오.
+
+   * API를 지원하지 않는 계정의 경우 [데이터 업로드](/help/search-social-commerce/manage/accounts/data-upload-accounts/data-upload-account-manage.md) 또는 [추적 전용 계정](/help/search-social-commerce/manage/accounts/template-account-manage.md) 워크플로를 따르십시오. 이러한 계정은 광고 네트워크와 동기화되지 않거나 포트폴리오 최적화를 지원합니다.
 
    * 계정에 캠페인 데이터가 아직 포함되어 있지 않은 경우 검색, 소셜 및 Commerce 내 또는 광고 네트워크 내에서 캠페인, 광고 그룹, 키워드, 광고 및 배치를 추가하십시오.
 
-     검색 캠페인 설정에 대한 자세한 내용은 &quot;캠페인 관리&quot;에 대한 도움말 장을 참조하십시오.
+     자세한 설정 확인 목록은 &quot;[광고 네트워크 계정 및 캠페인 설정](campaign-implementation-overview.md)&quot;을 참조하십시오. 지원되는 캠페인 유형의 경우 [!UICONTROL Manage] > [!UICONTROL Campaigns]을(를) 사용하여 [캠페인을 만들고 관리](/help/search-social-commerce/manage/campaigns/campaign-manage.md)하십시오.
 
 1. Adobe Advertising에서 전환을 추적하려는 모든 광고에 대한 추적을 설정합니다.
 
-   1. (필요한 경우) 클릭 추적 URL을 생성하고 업로드하여 광고에 대한 클릭 추적을 설정하고, 선택적으로 키워드, [!DNL Google Ads] 배치 및 [!DNL Google Ads] 확장을 설정합니다.
+   1. (필요한 경우) 클릭 추적 URL을 생성하고 업로드하여 광고, 선택적으로 키워드, [!DNL Google Ads] 배치 및 [!DNL Google Ads] 확장에 대해 [클릭 추적을 설정](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)합니다.
 
       Adobe Advertising 픽셀 기반 전환 추적 서비스를 사용하는 광고주를 위한 클릭 추적 URL에는 [!DNL Adobe] 서버로 리디렉션이 포함됩니다.
 
-   1. 전환 추적을 설정합니다. 구현에 따라, 여기에는 적절한 웹 페이지에 전환 추적 태그를 추가하거나, 자체 방법을 사용하여 수집한 전환 데이터에 대해 일별 피드 드롭 설정이 포함될 수 있습니다.
+   1. [전환 추적을 설정합니다](/help/search-social-commerce/tracking/conversion-tracking-about.md). 구현에 따라, 여기에는 적절한 웹 페이지에 전환 추적 태그를 추가하거나, 자체 방법을 사용하여 수집한 전환 데이터에 대해 일별 피드 드롭 설정이 포함될 수 있습니다. [!UICONTROL Goals] > [!UICONTROL Conversions]에서 [Adobe Advertising 전환 추적 태그를 생성](/help/search-social-commerce/goals/conversions/conversion-tag-generate.md)할 수 있습니다.
 
-      추적 설정에 대한 자세한 내용은 &quot;추적&quot;에 대한 도움말 장을 참조하십시오.
+      자세한 내용은 &quot;[검색, 소셜 및 Commerce 추적 정보](/help/search-social-commerce/tracking/tracking-about.md)&quot;를 참조하십시오.
 
 1. 추가 제품과의 통합 설정:
 
@@ -81,27 +83,29 @@ ht-degree: 0%
 
    1. (광고주: [!DNL Google Analytics]) 최적화 및 보고를 위해 [!DNL Google Analytics] 계정, 속성 및 보기 조합에 대한 전환 지표를 동기화합니다.
 
-      도움말 하위 챕터 &quot;관리자&quot; > &quot;[데이터 원본 구성](/help/search-social-commerce/admin/data-sources/data-source-about.md)&quot;을 참조하십시오.
+      이 구성은 기존 사용자 인터페이스를 사용합니다. 필요한 경우 &quot;[동기화 정보 [!DNL Google Analytics] 전환 지표](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)&quot;와 [기존 인터페이스로 전환](ui-switch.md)을 참조하십시오.
 
-1. 포트폴리오 설정 및 실행:
+1. (선택 사항) 포트폴리오 설정 및 실행:
 
-   1. 적절한 캠페인을 통해 목표 및 비즈니스 목표를 충족하도록 구성된 포트폴리오를 설정합니다. 그런 다음 구현 팀은 최소 14일 동안 클릭 및 매출 데이터를 수집하고 확인하고 포트폴리오 설정을 확인합니다.
+   1. [!UICONTROL Goals] > [!UICONTROL Conversions]에서 [전환 지표를 검토하고 필요한 지표를 표시](/help/search-social-commerce/goals/conversions/conversion-metrics-manage.md#conversion-metrics-change-available)합니다. [!UICONTROL Goals] > [!UICONTROL Objectives]에서 최적화를 위해 [목표를 만들거나 선택](/help/search-social-commerce/goals/objectives/objective-about.md)합니다.
+
+   1. [!UICONTROL Manage] > [!UICONTROL Portfolios]에서 적절한 [적격 캠페인](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-portfolio)을 사용하여 목표 및 비즈니스 목표를 충족하도록 구성된 [포트폴리오 만들기](/help/search-social-commerce/manage/portfolios/portfolio-create.md)를 참조하십시오. 데이터를 수집하고 모델링하려면 [포트폴리오를 활성화](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md)하십시오. 그런 다음 구현 팀은 최소 14일 동안 클릭 및 매출 데이터를 수집하고 확인하고 포트폴리오 설정을 확인합니다.
 
       >[!NOTE]
       >
       >Search, Social 및 Commerce은 포트폴리오에 할당되지 않은 캠페인에 대한 데이터를 추적하고 보고하지만 최적화를 제공하지 않습니다.
 
-   1. 기준을 만드는 데 충분한 데이터를 사용할 수 있게 되면 팀이 포트폴리오를 시작할 수 있으므로 검색, 소셜 및 Commerce은 최적화 유형을 기반으로 포트폴리오에 대한 입찰 및/또는 예산을 최적화할 수 있습니다.
+   1. 기준선을 만드는 데 충분한 데이터를 사용할 수 있게 되면 팀은 [포트폴리오 상태를 최적화됨으로 변경](/help/search-social-commerce/manage/portfolios/portfolio-change-status.md)할 수 있습니다. 이를 통해 검색, 소셜 및 Commerce에서 포트폴리오 유형 및 캠페인 입찰 전략에 따라 포트폴리오의 입찰, 예산 및/또는 입찰 전략 타겟을 최적화할 수 있습니다.
 
-   포트폴리오 설정 및 시작에 대한 자세한 내용은 Search, Social 및 Commerce 내 페이지의 오른쪽 상단에 있는 [!UICONTROL Help] 메뉴(![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴"))에서 &quot;최적화&quot;에 대한 도움말을 참조하십시오.
+   최적화 지원 및 포트폴리오 상태에 대해서는 &quot;[포트폴리오 정보](/help/search-social-commerce/manage/portfolios/portfolio-about.md)&quot;를 참조하십시오.
 
 1. 포트폴리오 성능 모니터링:
 
-   1. 최적화되고 활성 포트폴리오에 대한 시각적이고 실행 가능한 데이터인 광고 인사이트를 생성합니다.
+   1. [!UICONTROL Dashboard] > [!UICONTROL Overview]을(를) 사용하여 [포트폴리오 트렌드를 검토](/help/search-social-commerce/dashboard/dashboard-overview.md)하고 [포트폴리오 성능 세부 정보를 보기](/help/search-social-commerce/manage/portfolios/portfolio-details.md)하여 결과와 모델 정확도를 조사하십시오.
 
-   1. 성능 모니터링을 위한 맞춤형 보고서 설정 및 자동화 가능
+   1. 성능 모니터링을 위해 [사용자 지정 경고를 설정](/help/search-social-commerce/common-tasks/alerts-manage.md) 및 [사용자 지정 보고서를 생성](/help/search-social-commerce/reports/management/report-manage.md)합니다. 필요한 경우 [보고서 템플릿](/help/search-social-commerce/reports/report-templates-manage.md) 및 [스프레드시트 피드](/help/search-social-commerce/reports/spreadsheet-feeds-manage.md)를 사용하여 보고를 자동화합니다.
 
-   광고 인사이트 실행 및 보고서 설정에 대한 자세한 내용은 &quot;인사이트 및 보고서&quot;의 도움말 장을 참조하십시오.
+   자세한 내용은 &quot;[캠페인 및 포트폴리오 성과 모니터링](/help/search-social-commerce/manage/manage-about.md#monitor-performance)&quot;을 참조하십시오.
 
 1. (선택 사항) 보려는 데이터를 표시하도록 [성능 데이터 보기](/help/search-social-commerce/common-tasks/data-views/data-views-about.md)를 구성합니다.
 
@@ -125,4 +129,4 @@ ht-degree: 0%
 
   * 새 포트폴리오를 추가합니다.
 
-포트폴리오 모니터링 및 포트폴리오 전략 조정에 대한 지침은 Search, Social 및 Commerce 내 모든 페이지의 오른쪽 상단에 있는 [!UICONTROL Help] 메뉴(![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴"))에서 사용할 수 있는 도움말 섹션 &quot;최적화&quot; > &quot;포트폴리오 관리&quot; > &quot;성능 모니터링 및 관리&quot;를 참조하십시오.
+캠페인 및 포트폴리오 모니터링 및 설정 조정에 대한 지침은 &quot;[캠페인 및 포트폴리오 관리 정보](/help/search-social-commerce/manage/manage-about.md)&quot; 및 &quot;[포트폴리오 세부 정보 편집](/help/search-social-commerce/manage/portfolios/portfolio-edit.md)&quot;을 참조하십시오.

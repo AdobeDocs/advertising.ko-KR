@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Label Classification Report]'
 description: '[!UICONTROL Label Classification Report]에 대해 알아봅니다.'
-exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-TQID: 'https://experienceleague.adobe.com/75t5C8Cz-EE5vsPYYXHWHSE-6ZDhwSQaEgtAdirYHQU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,17 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
     internal-label: Search Basic Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '228'
 ht-degree: 0%
 ---
 # [!UICONTROL Label Classification Report]
@@ -35,7 +25,7 @@ ht-degree: 0%
 >
 >* [!DNL Microsoft Advertising] 동적 검색 광고(DSA) 캠페인에서는 광고 수준 레이블 분류로 보고할 수 없습니다.
 >* 동일한 엔티티에 대해 둘 이상의 레이블 분류가 적용될 수 있으므로, 각 지표에 대한 합계는 엔티티에 대한 실제 총계보다 높을 수 있습니다. 예를 들어 키워드 &quot;스웨이드 신발&quot;에는 &quot;스웨이드&quot;와 &quot;신발&quot;이라는 두 개의 레이블 값이 있으며 키워드가 100번의 클릭을 받았다고 가정해 보겠습니다. 클릭 수 열에는 이러한 각 레이블 값에 대해 &quot;100&quot;이 표시되므로 두 행의 합계는 &quot;200&quot;이 됩니다.
->* 레이블 분류 및 엔티티의 하위 레이블 값에 대해 수행하는 모든 변경 사항은 약 1시간 후에 표시됩니다.
+* 레이블 분류 및 엔티티의 하위 레이블 값에 대해 수행하는 모든 변경 사항은 약 1시간 후에 표시됩니다.
 
 ## 기본 열
 
@@ -56,5 +46,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [기본 및 고급 보고서 정보](basic-advanced-report-about.md)
->* [기본 또는 고급 보고서 생성](basic-advanced-report-generate.md)
+>* [예약된 보고서 관리](/help/search-social-commerce/reports/management/report-manage.md)
 >* [기본 및 고급 보고서 설정](basic-advanced-report-settings.md)

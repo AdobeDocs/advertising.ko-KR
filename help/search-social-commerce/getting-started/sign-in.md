@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 현재 검색, 소셜 및 Commerce 자격 증명은 변경을 준비할 수 있도록 잠시 동안 활성 상태로 유지됩니다.
 
-사용자 프로필 관리를 포함하여 CX Enterprise 인터페이스에 대한 자세한 내용은 &quot;[CX Enterprise 인터페이스 및 관리](https://experienceleague.adobe.com/ko/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
+사용자 프로필 관리를 포함하여 CX Enterprise 인터페이스에 대한 자세한 내용은 &quot;[CX Enterprise 인터페이스 및 관리](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;를 참조하십시오.
 
 ## 기존 검색, 소셜 및 Commerce 로그인 페이지에서 로그인
 
@@ -51,7 +51,7 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
+1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
 
    기본적으로 새 사용자 인터페이스가 열립니다.
 
@@ -65,7 +65,7 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 
 1. [!DNL Adobe] ID를 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
+1. 메시지가 표시되면 **[!UICONTROL Personal Account]&quot; 또는 **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->을(를) 선택합니다.
 
 1. 홈 페이지의 [!UICONTROL Quick Access] 섹션에서 **[!UICONTROL Advertising Search, Social, & Commerce]**&#x200B;을(를) 클릭합니다.
 
@@ -79,5 +79,5 @@ Search, Social 및 Commerce에서 로그인 인증을 위해 Adobe Identity Mana
 >
 >* [새 사용자 인터페이스와 기존 사용자 인터페이스 간 전환](ui-switch.md)
 >* [로그아웃](sign-out.md)
->* [암호 변경](/help/search-social-commerce/tools/password-change.md)
+>* [암호 변경](/help/search-social-commerce/legacy-ui/tools/password-change.md)
 >* [사용자 인터페이스를 구성하는 방법](user-interface.md)

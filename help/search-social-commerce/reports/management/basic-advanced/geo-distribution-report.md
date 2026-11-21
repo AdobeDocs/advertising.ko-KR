@@ -1,25 +1,12 @@
 ---
 title: '[!UICONTROL Geo Distribution Report]'
 description: '[!UICONTROL Geo Distribution Report]에 대해 알아봅니다.'
-exl-id: f9c08b81-1ebb-43bf-b1f3-1b373bde9d3e
 feature: Search Reports, Search Advanced Reports
-TQID: https://experienceleague.adobe.com/UxPiz7CHb8Y2z-EUk1xzKV7zOOKiL82hCUUFMLcaqiM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-    internal-label: Advertising
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '318'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Geo Distribution Report]
 
 [!UICONTROL Geo Distribution Report]에는 지정된 포트폴리오(해당되는 경우) 또는 광고 계정 내의 캠페인에 대한 지리적 지역별 예상 유료 클릭 수 [^1]이(가) 포함되어 있습니다. 이 값은 검색 사용자의 IP 주소에서 결정됩니다. 선택적으로 전환 지표를 포함할 수 있습니다. 기본적으로 데이터에는 클릭을 생성한 각 지역의 각 광고 그룹/캠페인/포트폴리오 조합에 대한 예상 클릭 수가 포함되며 행은 예상 클릭에 의해 내림차순으로 표시됩니다.
@@ -55,5 +42,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [기본 및 고급 보고서 정보](basic-advanced-report-about.md)
->* [기본 또는 고급 보고서 생성](basic-advanced-report-generate.md)
+>* [예약된 보고서 관리](/help/search-social-commerce/reports/management/report-manage.md)
 >* [기본 및 고급 보고서 설정](basic-advanced-report-settings.md)

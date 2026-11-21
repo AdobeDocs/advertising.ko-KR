@@ -10,7 +10,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cb25ab04e8fef5d00935e5325a897b1de97e2674
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Adobe DSP과 [!DNL OpenAI Ads]의 통합을 통해 [!DNL ChatGPT]개의 대화 �
 
 다음은 이 기능의 적격성을 결정합니다.
 
-* **기존 [!DNL Search, Social, & Commerce] 고객:** 광고주가 이미 [!DNL Search, Social, & Commerce]을(를) 사용하고 있는 경우 [DSP이 아닌 검색, 소셜 및 Commerce에서  [!DNL ChatGPT Ads] 캠페인을 만들고 관리](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)합니다.
+* **기존 [!DNL Search, Social, & Commerce] 고객:** 광고주가 이미 [!DNL Search, Social, & Commerce]을(를) 사용하고 있는 경우 [DSP이 아닌 검색, 소셜 및 Commerce에서  [!DNL ChatGPT Ads] 캠페인을 만들고 관리](/help/search-social-commerce/manage/campaigns/campaign-manage.md)합니다.
 
 * **제한된 업종:** 제한된 범주(예: 금융 또는 의료)의 광고주는 대화 광고 계정이나 캠페인을 만들 수 없습니다.
 
@@ -37,7 +37,7 @@ Adobe DSP과 [!DNL OpenAI Ads]의 통합을 통해 [!DNL ChatGPT]개의 대화 �
 
 ## 청구
 
- [!DNL ChatGPT Ads] account[&#128279;](#account-settings)에 사용된 통화 및 시간대에 관계없이 DSP 계정에 대한 청구 통화 및 청구 시간대를 사용하여 다른 인보이스와 함께 월말에 [!DNL ChatGPT Ads] 사용에 대해 청구됩니다. 청구 질문이 있는 경우 Adobe 계정 팀에 문의하십시오.
+ [!DNL ChatGPT Ads] account](#account-settings)에 사용된 [통화 및 시간대에 관계없이 DSP 계정에 대한 청구 통화 및 청구 시간대를 사용하여 다른 인보이스와 함께 월말에 [!DNL ChatGPT Ads] 사용에 대해 청구됩니다. 청구 질문이 있는 경우 Adobe 계정 팀에 문의하십시오.
 
 ## [!UICONTROL Conversational Ads Beta] > [!UICONTROL Accounts] 보기 {#accounts-view}
 

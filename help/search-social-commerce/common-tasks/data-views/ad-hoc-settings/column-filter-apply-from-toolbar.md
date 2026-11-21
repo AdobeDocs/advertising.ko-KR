@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '489'
 ht-degree: 0%
 ---
 # 도구 모음에서 데이터 필터 적용
@@ -92,4 +92,4 @@ ht-degree: 0%
 >
 >* [열 제목 메뉴에서 데이터 필터 적용](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
 >* [열 필터 편집](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)
->* [열 필터 제거]&#x200B;(/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/
+>* [열 필터 제거](column-filter-remove.md)

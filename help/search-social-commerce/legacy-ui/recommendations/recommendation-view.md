@@ -1,0 +1,57 @@
+---
+title: 게시자 권장 사항 및 성능 인사이트 보기
+description: 광고 네트워크 계정에 대한 [!DNL Google Ads] 권장 사항 및 [!DNL Microsoft Advertising] 성능 인사이트를 보는 방법에 대해 알아봅니다.
+feature: Search Recommendations
+exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
+TQID: 'https://experienceleague.adobe.com/mbX5cPSDaN5Rc4Y60JwkuFeO-yUs9onV7Ph3jlgk8Ho'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae143aa5-b8d8-5a93-93ab-45e919f0c418
+    internal-label: Search Recommendations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 0%
+---
+# 게시자 권장 사항 및 성능 인사이트 보기
+
+*[!DNL Google Ads]및 [!DNL Microsoft Advertising] 계정*
+
+## 게시자 권장 사항 보기
+
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**&#x200B;을(를) 클릭합니다.
+
+1. 오른쪽 상단에서 광고 네트워크 및 계정을 선택합니다.
+
+   [!DNL Microsoft Advertising] 계정의 경우 기본적으로 [!UICONTROL Recommendations] 계정이 나열됩니다.
+
+1. 행의 [!UICONTROL Actions] 열에서 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다. 권장 사항에 하위 권장 사항이 있는 경우 하위 권장 사항 옆에 있는 **[!UICONTROL View]**&#x200B;을(를) 클릭합니다.
+
+   광고 네트워크의 권장 사항을 선택적으로 [적용 또는 취소](recommendation-apply-dismiss.md)할 수 있습니다.
+
+## [!DNL Microsoft Advertising] 성능 인사이트 보기
+
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**&#x200B;을(를) 클릭합니다.
+
+1. 오른쪽 상단에서 광고 네트워크 및 계정을 선택합니다.
+
+1. 데이터 테이블 위에 있는 **[!UICONTROL Insights]**&#x200B;을(를) 클릭합니다.
+
+1. 행에 대한 [!UICONTROL Actions] 열에 작업이 포함된 경우 선택적으로 **[!UICONTROL Click here]**&#x200B;을(를) 클릭하여 [!DNL Microsoft Advertising] 편집기를 열 수 있습니다. 이 편집기를 사용하면 insight에서 작업을 수행할 수 있습니다.
+
+   [!DNL Microsoft Advertising] 편집기에 로그인하지 않은 경우 먼저 로그인 화면으로 이동합니다.
+
+>[!MORELIKETHIS]
+>
+>* [게시자 권장 사항 및 인사이트 지원 정보](recommendation-support.md)
+>* [게시자 추천 적용 또는 취소](recommendation-apply-dismiss.md)
+>* [계정에 대한 게시자 권장 사항 로그 보기](recommendation-view-log.md)
+>* [포트폴리오에 게시자 권장 사항을 사용하는 모범 사례](recommendation-best-practices.md)

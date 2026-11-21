@@ -1,0 +1,43 @@
+---
+title: 추가 인벤토리 동기화 활성화
+description: '[!DNL YouTube]개의 캠페인과 [!DNL Google Ads] 및 [!DNL Microsoft Advertising]개의 스마트 쇼핑 캠페인을 동기화하는 방법을 알아봅니다.'
+exl-id: 3e8cc7b1-e38f-43f3-ba67-f2adaec6129d
+feature: Search Tools
+TQID: 'https://experienceleague.adobe.com/hxyvi5BO0tnWIJ2FGjqX5kjyg-r2ga3TZ5iqGHKWddU'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 4%
+---
+# 추가 인벤토리 동기화 활성화
+
+[!DNL Google Ads] [!DNL YouTube] 캠페인과 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 스마트 쇼핑 캠페인의 동기화를 활성화하거나 비활성화할 수 있습니다. 다른 캠페인 유형에 비해 지원이 더 적습니다. 이러한 캠페인 유형에 사용할 수 있는 기능에 대한 자세한 내용은 &quot;[지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)&quot;를 참조하십시오.
+
+>[!NOTE]
+>
+>셀프서비스 광고주를 위한 [!DNL Microsoft Advertising] 스마트 쇼핑 캠페인의 간단한 동기화는 베타에 있습니다.
+
+이러한 캠페인 유형은 다른 유형의 캠페인과 동일하게 청구됩니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
+
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Inventory Selection]**&#x200B;을(를) 클릭합니다.
+
+1. 동기화를 활성화하려면 옵션 옆에 있는 확인란을 선택하고 동기화를 비활성화하려면 확인란 선택을 취소합니다.
+
+   *[!UICONTROL Enable Smart Shopping]:*([!DNL Google Ads]개 캠페인, [!DNL Microsoft Advertising]개 캠페인에 대한 Beta) 스마트 쇼핑 캠페인을 동기화할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다.
+
+   *[!UICONTROL Enable [!DNL YouTube]]:*([!DNL Google Ads]개 캠페인만 해당) [!DNL YouTube]개 캠페인을 동기화할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
+
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+>[!MORELIKETHIS]
+>
+>* [지원되는 인벤토리](/help/search-social-commerce/introduction/supported-inventory.md)

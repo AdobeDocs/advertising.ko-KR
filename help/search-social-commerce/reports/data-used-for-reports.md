@@ -1,31 +1,38 @@
 ---
-title: 보고서에 사용된 데이터
+title: (새 UI) 보고서에 사용되는 데이터
 description: 데이터 보기 및 사용자 지정 보고서에서 사용할 수 있는 다양한 유형의 데이터에 대해 알아봅니다.
-exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-TQID: 'https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
   - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
     internal-label: Search Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
+subfeature_v2:
+  - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
+  - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
+  - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
+  - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
+  - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+    internal-label: Specialty reports
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
+    internal-label: Reports
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '643'
 ht-degree: 6%
 ---
-# 보고서에 사용된 데이터
+# (새 UI) 보고서에 사용되는 데이터
 
 검색, 소셜 및 Commerce에는 클릭 및 전환 데이터를 기반으로 하는 포괄적인 성능 보고서 세트가 포함되어 있습니다. [!UICONTROL Portfolios] 및 [!UICONTROL Campaigns] 보기에서 포트폴리오 또는 광고 계정의 다양한 구성 요소에 대한 기본 성과 데이터를 볼 수 있을 뿐만 아니라 다양한 기본 및 고급 보고서를 생성할 수도 있습니다.
 
-Adobe Advertising 전환 추적 서비스를 사용하는 광고주는 참조 웹 사이트의 지리적 위치 또는 도메인 이름에 대한 클릭 수, 각 채널의 광고 및 전환으로 이어지는 다양한 이벤트가 전체 전환율에 기여하는 방식, 마케팅 채널별 단일 [전환 지표](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)에 대한 전환 분포를 식별할 수도 있습니다. 사용 가능한 보고서는 사용자 계정 유형에 따라 다릅니다. Adobe 계정 팀은 모든 보고서에 액세스할 수 있습니다.
+Adobe Advertising 전환 추적 서비스를 사용하는 광고주는 참조 웹 사이트의 지리적 위치 또는 도메인 이름에 대한 클릭 수, 각 채널의 광고 및 전환으로 이어지는 다양한 이벤트가 전체 전환율에 기여하는 방식, 마케팅 채널별 단일 [전환 지표](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md)에 대한 전환 분포를 식별할 수도 있습니다. 사용 가능한 보고서는 사용자 계정 유형에 따라 다릅니다. Adobe 계정 팀은 모든 보고서에 액세스할 수 있습니다.
 
 대부분의 보고서는 보려는 정보만 표시하도록 사용자 지정할 수 있습니다. 다음 표준 지표는 대부분의 보고서에서 사용할 수 있으며 광고 수준에서 계산됩니다.
 
@@ -45,7 +52,7 @@ Adobe Advertising 전환 추적 서비스를 사용하는 광고주는 참조 �
 
 * **전환 지표:** 광고주의 각 전환 지표 또는 전환 지표에 대해 추적된 트랜잭션 데이터에 대한 총 전환 수입니다. 여기에는 전환 및 사이트 참여 지표가 포함될 수 있지만 Adobe Analytics에서 동기화되는 계산된 지표 및 고급 계산된 지표는 포함되지 않습니다.
 
-  광고주 계정에 대해 동기화된 [[!DNL Google Ads]개의 추적 전환](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) 및 [[!DNL Google Analytics]개의 추적 전환](/help/search-social-commerce/admin/data-sources/data-source-about.md)도 여기에 포함될 수 있습니다.
+  광고주 계정에 대해 동기화된 [[!DNL Google Ads]개의 추적 전환](/help/search-social-commerce/tracking/google-conversion-data.md) 및 [[!DNL Google Analytics]개의 추적 전환](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)도 여기에 포함될 수 있습니다.
 
 * **사용자 지정 지표:** 기존 지표(예: 주문당 비용)를 기반으로 수식을 만들어 파생되는 고유한 지표입니다.
 
@@ -57,20 +64,20 @@ Adobe Advertising 전환 추적 서비스를 사용하는 광고주는 참조 �
 
 | 보고서 그룹 | 보고서 | 데이터를 사용할 수 있는 날짜 |
 | --- | --- | --- |
-| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 지난 36개월. |
-| | 다른 모든 [!UICONTROL Basic Reports] | 지난 36개월. |
+| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | 2021년 5월 15일부터 시작합니다.<br><br><b>예외:</b> 강조 지표 데이터는 2022년 9월 8일부터 사용할 수 있습니다. |
+| | 다른 모든 [!UICONTROL Basic Reports] | 이전 36개월.<br><br><b>예외:</b> 강조 지표 데이터는 2022년 9월 8일부터 사용할 수 있습니다. |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | 이전 45일. |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | 이전 두 달(2)과 현재 달의 더하기. |
 | [!UICONTROL Assist Reports] | 모두 | 지난 18개월. |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | 이전 연도. |
-| | [!UICONTROL Google Asset Group Performance Report] | 지난 36개월. |
+| | [!UICONTROL Google Asset Group Performance Report] | 제한 없음 |
 | | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | 지난 180일. |
-| | [!UICONTROL RSA Assets Report] | 지난 36개월. |
+| | [!UICONTROL RSA Assets Report] | 2022년 8월 10일부터 시작. |
 | | 다른 모든 [!UICONTROL Specialty Reports] | 이전 2개월. |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | 지난 18개월. |
 | [!UICONTROL Change History Report] | — | 이전 31일. |
 
 >[!MORELIKETHIS]
 >
->* [보고서 정보](/help/search-social-commerce/reports/report-about.md)
->* [보고서에 대한 초기 설정 작업](/help/search-social-commerce/reports/initial-setup.md)
+>* [보고서 정보](report-about.md)
+>* [보고서에 대한 초기 설정 작업](initial-setup.md)

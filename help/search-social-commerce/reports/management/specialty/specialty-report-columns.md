@@ -1,9 +1,7 @@
 ---
 title: 특성 보고서에 대한 보고서 열
 description: 전문 보고서에 사용할 수 있는 데이터 열에 대해 알아봅니다.
-exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-TQID: 'https://experienceleague.adobe.com/RI7bIXkj-J3Zf9-0cQozmrvRKZhTTDcbICnJCV22IxM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,19 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3223'
 ht-degree: 1%
 ---
 # 특성 보고서에 대한 보고서 열
@@ -54,7 +42,7 @@ ht-degree: 1%
 | [!UICONTROL All Conversion Rate] | ([!UICONTROL MSA Ad Extension]개 보고서) 전환율(백분율)입니다. |
 | [!UICONTROL All Conversions] | ([!UICONTROL Google AI Max Search Term Combination] 및 [!UICONTROL MSA Ad Extension] 보고서) 총 전환 수입니다. [!UICONTROL Google AI Max Search Term Combination Report]의 경우 이 값에는 기본 전환 열에 포함되지 않은 전환 작업이 포함됩니다. |
 | [!UICONTROL All Conversions Qualified] | ([!UICONTROL MSA Ad Extension]개 보고서) 전환 수입니다. |
-| [!UICONTROL All Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report])모든 전환의 값입니다. |
+| [!UICONTROL All Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report]) 모든 전환의 값입니다. |
 | [!UICONTROL All Conversions Value Per Cost] | ([!UICONTROL Google AI Max Search Term Combination Report]) 모든 전환의 값을 광고 상호 작용의 총 비용(예: 클릭 수 또는 비디오 보기 수)으로 나눈 값입니다. |
 | [!UICONTROL All Cost Per Conversion] | ([!UICONTROL MSA Ad Extension]개 보고서) 전환당 비용입니다. |
 | [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension]개의 보고서) 총 수입을 지출로 나눈 비율로 표시합니다. |
@@ -88,6 +76,7 @@ ht-degree: 1%
 | [!UICONTROL Content IS% (Google)] | ([!DNL Google Ads]만 해당; [!UICONTROL Campaign Daily Impression Share Report]) 디스플레이/대상 네트워크의 광고에 대해 받은 노출 횟수를 받을 수 있는 예상 노출 횟수로 나눈 값입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | ([!DNL Google Ads]만 해당; [!UICONTROL Campaign Daily Impression Share Report]) 일별 또는 월별 예산이 너무 낮아서 디스플레이/대상 네트워크에 있는 광고가 받지 못한 예상 노출 비율입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다. |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | ([!DNL Google Ads]만 해당; [!UICONTROL Campaign Daily Impression Share Report]) 광고 등급이 낮아 디스플레이/대상 네트워크에 광고가 표시되지 않은 예상 노출 비율입니다. 10% 미만의 백분율은 &quot;`<10%`&quot;(으)로 표시되고 90% 이상의 백분율은 &quot;`>90%`&quot;(으)로 표시됩니다. |
+| [!UICONTROL Conversion Actions] | ([!UICONTROL Google AI Max Search Term Combination]개 보고서) 전환을 초래한 전환 작업입니다. |
 | [!UICONTROL Conversion Rate] | 전환 수를 총 클릭 수로 나눈 값입니다. |
 | [!UICONTROL Conversion Type] | 광고주의 웹 사이트에서 추적된 사용자 정의 전환 유형입니다. |
 | [!UICONTROL Conversions] | ([!UICONTROL Google AI Max Search Term Combination], [!UICONTROL Google Asset Group Performance] 및 [!UICONTROL MSA Ad Extension] 보고서) 지정된 기간의 총 전환수입니다. [!UICONTROL MSA Ad Extension] 보고서의 경우, 판매 또는 다른 성공 측정값으로 이어진 클릭 수입니다. [!UICONTROL Google AI Max Search Term Combination] 보고서의 경우 &quot;전환에 포함&quot;이 활성화된 전환 작업의 총 전환 수입니다 |
@@ -126,7 +115,7 @@ ht-degree: 1%
 | [!UICONTROL Final Mobile URLs] | ([!UICONTROL Google Asset Group Performance Report]) 모든 도메인 간 리디렉션 후의 모바일 장치에 대한 최종 URL 목록입니다. 캠페인에 대해 URL 확장이 활성화된 경우 URL이 확장될 수 있습니다. |
 | [!UICONTROL Goal] | ([!UICONTROL MSA Ad ExtensionReport] 보고서, [!UICONTROL MSA Network Performance Report]) 전환 목표의 이름입니다. |
 | [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension]개 보고서, [!UICONTROL MSA Network Performance Report]) 전환 목표의 유형입니다. |
-| [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) [the [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)에서 추적한 온라인 전환 수입니다. |
+| [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) [the [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/tracking/google-conversion-data.md)에서 추적한 온라인 전환 수입니다. |
 | [!UICONTROL Google Converted Clicks] | ([!UICONTROL AdWords Conversion Report], 2016년에 더 이상 사용되지 않음) 하나 이상의 전환을 수행한 클릭 수입니다. |
 | [!UICONTROL Headline 1] | ([!UICONTROL Google AI Max Search Term Combination Report]) 광고의 첫 번째 헤드라인입니다. |
 | [!UICONTROL Headline 2] | ([!UICONTROL Google AI Max Search Term Combination Report]) 광고의 두 번째 헤드라인입니다. |
@@ -165,7 +154,7 @@ ht-degree: 1%
 | [!UICONTROL Portfolio Spend Strategy] | (Portfolio 보고서) 포트폴리오의 지출 전략: *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, *[!UICONTROL ROI]*, *[!UICONTROL Day of week]*, *[!UICONTROL Day of month]*, *[!UICONTROL CPT]*, *[!UICONTROL Marginal CPT]*, *[!UICONTROL Google Target CPA]* 또는 *[!UICONTROL Google Target ROAS]*. |
 | [!UICONTROL Portfolio Status] | 포트폴리오 상태:<ul><li>*[!UICONTROL Optimize]*: 최적화 기능은 관련 캠페인에 대한 클릭 및 매출 데이터를 수집하고, 최적화에 사용된 데이터를 모델링하고, 입찰, 캠페인 예산 및 캠페인 입찰 전략 대상(최적화 유형 및 입찰 전략에 따라)을 최적화하는 것입니다.</li><li>*[!UICONTROL Active]*: 최적화 기능이 관련 캠페인에 대한 클릭 및 매출 데이터를 수집하고 데이터를 모델링하고 있지만 입찰 또는 캠페인 예산을 최적화하지 않습니다.</li><li>*[!UICONTROL Inactive]*: 최적화 기능이 보고 목적으로 관련 캠페인에 대한 클릭 데이터를 수집하고 있지만 데이터를 모델링하거나 입찰 또는 캠페인 예산을 최적화하지 않습니다.</li></ul> |
 | [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) 자산 그룹이 최대 용량으로 사용되고 있거나 사용되고 있지 않은 이유. 자산 그룹 상태뿐만 아니라 정책 및 품질 승인과 같은 기타 신호를 고려합니다. 값에는 *적격,* *제한,* *NOT_적격,* *일시 중지됨,* *보류 중,* *제거됨,* *알 수 없음,* 또는 *지정되지 않음.*&#x200B;이 포함될 수 있습니다. |
-| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨&rbrace;이 포함될 수 있습니다.* |
+| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) 자산 그룹의 기본 상태에 대한 추가 세부 정보. 값에는 *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAIGN_PAIGN,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* 또는 *미지정 안 됨}이 포함될 수 있습니다.* |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report]) 광고에 표시된 제품의 제품 ID입니다. <b>참고:</b> 제품 목록에 추적 매개 변수 `ev_plx=<GMC product ID>`이(가) 포함된 경우에만 ID가 캡처됩니다. [!DNL Google Merchant Center] 내에 추가해야 합니다. |
 | [!UICONTROL Product Type] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) 첫 번째 수준부터 다섯 번째 수준까지의 제품 유형(제품 그룹에 대해 사용자가 직접 정의한 특성)입니다. |
 | [!UICONTROL Query Match Type] | (AdWords 검색 쿼리 보고서) 검색 쿼리에 대한 키워드 일치 유형입니다. |
@@ -215,6 +204,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [전문 보고서 정보](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
->* [전문 보고서 생성](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [특성 보고서 설정](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [전문 보고서 정보](specialty-report-about.md)
+>* [예약된 보고서 관리](/help/search-social-commerce/reports/management/report-manage.md)
+>* [특성 보고서 설정](specialty-report-settings.md)

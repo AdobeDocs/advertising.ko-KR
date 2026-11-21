@@ -1,0 +1,210 @@
+---
+title: Adobe Advertising 전환 추적 태그 생성 및 구현
+description: Adobe Advertising 전환 태그를 만들어 전환 이벤트를 추적하는 방법에 대해 알아봅니다.
+exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
+feature: Search Tools, Search Tracking
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '1628'
+ht-degree: 0%
+---
+# Adobe Advertising 전환 추적 태그 생성 및 구현
+
+*Adobe Advertising 전환 추적만 있는 광고주*
+
+추적할 각 지표 세트에 대해 별도의 전환 태그를 만듭니다. 검색, 소셜 및 Commerce에서 태그를 생성하거나 Adobe Advertising 확장 기능이 있는 Adobe Experience Platform(이전의 Adobe Experience Platform Launch)의 태그를 사용하여 태그를 생성할 수 있습니다.
+
+## (새 UI) 검색, 소셜 및 Commerce 내에서 전환 추적 태그를 생성하고 구현합니다
+
+>[!NOTE]
+>
+>이 기능은 광고주의 웹 페이지에 이미지 태그 또는 [!DNL JavaScript] 태그를 추가하지 않습니다. 각 태그를 삽입할 웹 페이지 목록을 광고주 또는 에이전시에 제공합니다. 태그는 웹 페이지를 업데이트하기 위한 광고주의 일반적인 절차에 따라 추가해야 합니다.
+
+1. 메인 메뉴에서 **[!UICONTROL Goals]>[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
+
+1. 기본 도구 모음에서 **[!UICONTROL Conversion Tag]**&#x200B;을(를) 클릭합니다.
+
+1. [변환 태그 설정](#conversion-tag-settings)을 지정하십시오.
+
+1. **[!UICONTROL Generate]**&#x200B;을(를) 클릭합니다.
+
+1. **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 클립보드에 태그를 복사합니다. 구현할 태그를 광고주 또는 에이전시에 제공합니다.
+
+>[!NOTE]
+>
+>새 전환 태그의 각 지표는 구현되지 않았거나 해당 지표가 있는 웹 페이지가 클릭을 받지 않은 경우에도 [!UICONTROL Admin] > [!UICONTROL Conversions]에 자동으로 나열됩니다. 이 동작은 수동으로 만든 태그 또는 다른 곳에서 만든 태그의 동작 중 하나에 클릭을 받을 때까지 [!UICONTROL Admin] > [!UICONTROL Conversions]에 나열되지 않는 것과 다릅니다. 그러나 모든 경우에 각 지표는 명시적으로 사용할 수 있도록 할 때까지 처음에는 포트폴리오 목표, 보고서 및 보기에서 제외됩니다. 포트폴리오 목표에 지표를 추가하기 전에 먼저 지표를 사용할 수 있도록 하고 보고서에 추가하여 클릭 수를 받는 시점을 확인하는 것이 좋습니다.
+
+### Adobe Advertising 전환 태그 설정 {#conversion-tag-settings}
+
+**[!UICONTROL Tag Type]:** 만들 태그의 형식:
+
+* *[!UICONTROL JavaScript]:* JavaScript 태그를 만듭니다.
+
+* *[!UICONTROL Image]:* 이미지 태그를 만들어 최종 사용자가 볼 수 없는 1픽셀 x 1픽셀 투명 이미지(픽셀)를 웹 페이지에 표시합니다. 가장 좋은 방법은 사이트에 JavaScript 태그 사용에 대한 정책이 있을 때만 이미지 태그를 사용하는 것입니다.
+
+태그 유형 간의 차이점에 대한 자세한 내용은 &quot;[Adobe Advertising 전환 및 페이지 보기 추적 태그에 대한 FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)&quot;를 참조하십시오.
+
+**[!UICONTROL Include unique transaction IDs]:**(선택 사항) 태그에 트랜잭션 ID 속성(`ev_transid=<transid>`)이 포함되어 있습니다. 이 옵션은 기본적으로 선택되어 있습니다.
+
+이 옵션을 선택하는 경우 거래가 완료되면 광고주는 `<transid>`에 대한 고유 값(예: 실제 주문 ID)을 생성한 다음 `ev_transid=0123`과 같이 Adobe Advertising에 다시 전달해야 합니다. Adobe Advertising은 거래 ID를 사용하여 거래 ID와 속성 값이 동일한 중복 거래를 제거합니다. 트랜잭션 ID에는 매개 변수 구분 기호로 예약된 앰퍼샌드 기호(`&`)를 포함할 수 없습니다. 거래 ID가 [의 [!UICONTROL Transaction Report]](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/transaction-report.md)에 포함되어 있습니다. 광고주의 데이터로 검색, 소셜 및 Commerce 내의 데이터를 확인하는 데 사용할 수 있습니다.
+
+데이터에 트랜잭션당 고유 ID가 포함되지 않은 경우 Adobe Advertising은 여전히 트랜잭션 시간을 기준으로 ID를 생성합니다.
+
+>[!NOTE]
+>
+>오프라인 전환을 위한 전환 데이터가 포함된 [거래 ID 피드](/help/search-social-commerce/tracking/feed-transaction-id.md)를 보내는 경우 거래의 오프라인 부분에 대한 피드 데이터에서 거래의 온라인 부분에 대한 거래 ID(`ev_transid`)를 제출해야 합니다.
+
+**[!UICONTROL JS Version]:**([!DNL JavaScript] 태그만) 만들 [!DNL JavaScript] 태그의 버전: *[!UICONTROL v2]*(기본값) 또는 *[!UICONTROL v3]*.
+
+**[!UICONTROL Security]:** 웹 사이트에 대한 보안 프로토콜을 만듭니다. *[!UICONTROL Standard]*(HTTP를 사용하는 웹 사이트의 경우) 또는 *[!UICONTROL Secure]*(HTTP를 사용하는 웹 사이트의 경우).
+
+**[!UICONTROL Properties]:** 최종 사용자가 전환 태그가 포함된 페이지를 볼 때 추적할 하나 이상의 전환 지표가 있습니다. 목록에 지표를 추가하려면 &quot;[!UICONTROL Property name]&quot; 필드에 지표 이름을 입력하고 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+
+여러 지표를 추적할 때 `ev_Property1=<Property1>&ev_Property2=<Property2>`과(와) 같은 태그의 앰퍼샌드(`&`)에 의해 연결됩니다.
+
+>[!NOTE]
+>
+>이 목록에 추가된 지표는 아무 곳에나 저장되지 않거나 [!UICONTROL Admin] 탭에서 클라이언트의 [!UICONTROL Conversions] 목록과 통합됩니다. 그러나 Adobe Advertising이 실제로 지표에 대한 데이터를 수집하면 지표가 클라이언트의 [!UICONTROL Conversions] 목록에 자동으로 추가됩니다. 이 오류는 전환 태그가 페이지에 구현되어 있고 최종 사용자가 해당 페이지를 여는 트랜잭션을 완료할 때 발생합니다.
+
+## (기존 UI) 검색, 소셜 및 Commerce 내에서 전환 추적 태그를 생성하고 구현합니다
+
+>[!NOTE]
+>
+>이 기능은 광고주의 웹 페이지에 이미지 태그 또는 [!DNL JavaScript] 태그를 추가하지 않습니다. 각 태그를 삽입할 웹 페이지 목록을 광고주 또는 에이전시에 제공합니다. 태그는 웹 페이지를 업데이트하기 위한 광고주의 일반적인 절차에 따라 추가해야 합니다.
+
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**&#x200B;을(를) 클릭합니다.
+
+1. [변환 태그 설정](#conversion-tag-settings-legacy)을 지정하십시오.
+
+1. 태그를 생성합니다.
+
+   * 웹 사이트에서 HTTP를 사용하는 경우 **[!UICONTROL Generate Conversion Tag]**&#x200B;을(를) 클릭합니다.
+
+   * 웹 사이트가 보안 서버(HTTPS)에서 실행되는 경우 **[!UICONTROL Generate Secure Conversion Tag]**&#x200B;을(를) 클릭합니다.
+
+1. 대화 상자에서 태그를 복사한 다음 필요에 따라 적절한 웹 페이지에 붙여넣습니다.
+
+>[!NOTE]
+>
+>새 전환 태그의 각 지표는 구현되지 않았거나 해당 웹 페이지가 클릭을 받지 않은 경우에도 [!UICONTROL Admin] > [!UICONTROL Conversions]에 자동으로 나열됩니다. 이 동작은 수동으로 만든 태그 또는 다른 곳에서 만든 태그의 동작 중 하나가 클릭될 때까지 [!UICONTROL Admin] > [!UICONTROL Conversions]에 나열되지 않는 것과 다릅니다. 그러나 모든 경우에 각 지표는 명시적으로 사용할 수 있도록 할 때까지 처음에는 포트폴리오 목표, 보고서 및 보기에서 제외됩니다. 그러나 포트폴리오 목표에 지표를 추가하기 전에 먼저 지표를 사용할 수 있도록 하고 보고서에 추가하여 클릭 수를 받는 시점을 확인하는 것을 고려하십시오.
+
+### Adobe Advertising 전환 태그 설정 {#conversion-tag-settings-legacy}
+
+**[!UICONTROL Tag Type]:** 만들 태그의 형식:
+
+* *[!UICONTROL Image]:* 이미지 태그를 만들어 최종 사용자가 볼 수 없는 1픽셀 x 1픽셀 투명 이미지(픽셀)를 웹 페이지에 표시합니다. 가장 좋은 방법은 사이트에 JavaScript 태그 사용에 대한 정책이 있을 때만 이미지 태그를 사용하는 것입니다.
+
+* *[!UICONTROL JavaScript]:* JavaScript 태그를 만듭니다.
+
+태그 유형 간의 차이점에 대한 자세한 내용은 &quot;[Adobe Advertising 전환 및 페이지 보기 추적 태그에 대한 FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)&quot;를 참조하십시오.
+
+**[!UICONTROL Tag Properties]:** 최종 사용자가 전환 태그가 포함된 페이지를 볼 때 추적할 하나 이상의 전환 지표가 있습니다. 목록에 지표를 추가하려면 &quot;[!UICONTROL Add new property]&quot; 필드에 지표 이름을 입력하고 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+
+여러 지표를 추적할 때 `ev_Property1=<Property1>&ev_Property2=<Property2>`과(와) 같은 태그의 앰퍼샌드(`&`)에 의해 연결됩니다.
+
+>[!NOTE]
+>
+>이 목록에 추가된 지표는 아무 곳에나 저장되지 않거나 [!UICONTROL Admin] 탭에서 클라이언트의 [!UICONTROL Conversions] 목록과 통합됩니다. 그러나 Adobe Advertising이 실제로 지표에 대한 데이터를 수집하면 지표가 클라이언트의 [!UICONTROL Conversions] 목록에 자동으로 추가됩니다. 이 오류는 전환 태그가 페이지에 구현되어 있고 최종 사용자가 해당 페이지를 여는 트랜잭션을 완료할 때 발생합니다.
+
+**[!UICONTROL Include unique transaction IDs]:**(선택 사항) 태그에 트랜잭션 ID 속성(`ev_transid=<transid>`)이 포함되어 있습니다. 이 옵션은 기본적으로 선택되어 있습니다.
+
+이 옵션을 선택하는 경우 거래가 완료되면 광고주는 `<transid>`에 대한 고유 값(예: 실제 주문 ID)을 생성한 다음 `ev_transid=0123`과 같이 Adobe Advertising에 다시 전달해야 합니다. Adobe Advertising은 거래 ID를 사용하여 거래 ID와 속성 값이 동일한 중복 거래를 제거합니다. 트랜잭션 ID에는 매개 변수 구분 기호로 예약된 앰퍼샌드 기호(`&`)를 포함할 수 없습니다. 거래 ID가 [의 [!UICONTROL Transaction Report]](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/transaction-report.md)에 포함되어 있습니다. 광고주의 데이터로 검색, 소셜 및 Commerce 내의 데이터를 확인하는 데 사용할 수 있습니다.
+
+데이터에 트랜잭션당 고유 ID가 포함되지 않은 경우 Adobe Advertising은 여전히 트랜잭션 시간을 기준으로 ID를 생성합니다.
+
+>[!NOTE]
+>
+>오프라인 전환을 위한 전환 데이터가 포함된 [거래 ID 피드](/help/search-social-commerce/tracking/feed-transaction-id.md)를 보내는 경우 거래의 오프라인 부분에 대한 피드 데이터에서 거래의 온라인 부분에 대한 거래 ID(`ev_transid`)를 제출해야 합니다.
+
+**[!UICONTROL Page is inside FB app]:** 사용되지 않음
+
+**[!UICONTROL Segment users]:** 사용되지 않음
+
+**[!UICONTROL JS Version]:**([!DNL JavaScript] 태그만) 만들 [!DNL JavaScript] 태그의 버전: *[!UICONTROL v2]*(기본값) 또는 *[!UICONTROL v3]*.
+
+Adobe Advertising 전환 및 페이지 보기 추적 태그에 대한 &quot;[FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)&quot;를 참조하십시오. 차이점에 대한 자세한 정보를 제공합니다.
+
+## Adobe Experience Platform 태그 및 Adobe Advertising 확장을 사용하여 전환 추적 태그 구현
+
+Adobe Experience Platform의 태그를 사용하여 검색, 소셜 및 Commerce에 대한 전환 추적을 설정할 수 있습니다. 태그는 부가가치 기능으로 포함되어 Adobe CX Enterprise 고객이 사용할 수 있습니다.
+
+Experience Platform 사용자 인터페이스 또는 Experience Platform 데이터 수집 사용자 인터페이스에서 검색, 소셜 및 Commerce에 대한 전환 추적 태그를 구성하는 데 다음 작업이 필요합니다. 태그 구성에 대한 전체 정보와 지침은 &quot;[태그 개요](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; 및 &quot;[빠른 시작 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;로 시작하는 Experience Platform 태그 안내서를 참조하십시오.
+
+>[!PREREQUISITES]
+>
+>필요한 태그 확장을 설치하려면 조직 관리자에게 `manage_properties` 권한을 포함한 UI의 데이터 수집 기능에 대한 액세스 권한을 요청하십시오.
+
+1. [데이터 수집 UI](https://experience.adobe.com/#/data-collection/)에서 Adobe Advertising [확장](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)을 설치하십시오.
+
+   1. 해당 속성에서 확장 카탈로그를 열고 **Adobe Advertising**&#x200B;을(를) 선택합니다.
+
+   1. 풀다운 메뉴에서 **SSC**(검색, 소셜 및 Commerce의 경우)를 선택합니다.
+
+   1. **SSC UserID** 필드에 조직의 Search, Social 및 Commerce 계정에 대한 숫자 사용자 ID를 입력합니다.
+
+      사용자 ID를 모르는 경우 Adobe 계정 팀에 문의하십시오.
+
+   1. **저장**&#x200B;을 클릭합니다.
+
+1. 검색, 소셜 및 Commerce 전환 태그를 트리거할 새 규칙(예: &quot;form_completes&quot;)을 만듭니다.
+
+   1. 이벤트 구성 섹션에서 다음을 수행합니다.
+
+      1. 다음 값을 선택합니다.
+
+         **확장:** `Core`
+
+         **이벤트 유형:** `Library Loaded (Page Top)`
+
+      1. **변경 내용 유지**&#x200B;를 클릭합니다.
+
+   1. 조건 구성 섹션에서 다음을 수행합니다.
+
+      1. 다음 값을 지정합니다.
+
+         **논리 유형:** `Regular`
+
+         **확장:** `Core`
+
+         **조건 유형:** `Path Without Query String`
+
+         **경로가 다음과 같은 경우 true를 반환합니다.** 전환을 추적해야 하는 경로입니다(예: `/form_complete`).
+
+      1. **변경 내용 유지**&#x200B;를 클릭합니다.
+
+   1. 작업 구성 섹션에서 다음을 수행합니다.
+
+      1. 다음 값을 지정합니다.
+
+         **확장:** `Adobe Advertising`
+
+         **작업 유형:** `AMO Measurement`
+
+         **전환 속성 이름:** 전환 속성의 이름입니다(예: `form_completes`).
+
+         **값:** 전환 속성의 숫자 값(예: `1` to track form_completes)이거나 기존 [데이터 요소](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)를 선택하십시오.
+
+      1. **변경 내용 유지**&#x200B;를 클릭합니다.
+
+   1. 규칙을 저장합니다.
+
+1. 변경 사항을 게시합니다.
+
+>[!MORELIKETHIS]
+>
+>* [Adobe Advertising 전환 추적 태그 정보](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [추적 태그를 만들고 디코딩하는 도구에 대한 정보](tracking-tools-about.md)
+>* 전환 및 페이지 보기 추적 태그에 대한 [FAQ](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
+>* [JavaScript 전환 추적 태그 버전 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)의 형식
+>* [JavaScript 전환 추적 태그 버전 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)의 형식
+>* [이미지 변환 추적 태그의 형식](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
+>* [Adobe Advertising JavaScript 전환 매핑 태그](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [광고주의 전환 지표 관리 정보](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md)

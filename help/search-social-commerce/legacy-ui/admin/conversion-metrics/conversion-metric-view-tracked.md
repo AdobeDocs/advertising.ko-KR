@@ -1,0 +1,40 @@
+---
+title: 광고주에 대해 추적된 전환 지표 보기
+description: 광고주에 대해 추적된 전환 지표 목록을 보는 방법에 대해 알아봅니다.
+feature: Conversions
+exl-id: 7c9e2271-4127-4d43-aff8-5a2788bfe60f
+TQID: 'https://experienceleague.adobe.com/KLE8V8uHqBH4-KzsG-uYQ6nvZWY1YKY9Q0ZotIZ4xq0'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 0%
+---
+# 광고주에 대해 추적된 전환 지표 보기
+
+Adobe Advertising이 광고주를 위해 추적한 모든 [전환](/help/search-social-commerce/glossary.md#c-d) 지표 목록을 볼 수 있습니다. 각 지표 행에는 지표의 소스가 포함됩니다.
+
+* 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**&#x200B;을(를) 클릭합니다.
+
+광고주를 위해 수집된 모든 전환 지표와 여기에 지정된 다른 표시 이름이 나열됩니다.
+
+>[!TIP]
+>
+>광고주(또는 광고 네트워크)가 전환 지표의 수집을 중지하면 내역 데이터를 보는 데 사용하지 않으려면 [관리 보기 및 보고서에서 해당 지표를 숨기십시오](conversion-metric-edit-available.md).
+
+>[!MORELIKETHIS]
+>
+>* [광고주의 전환 지표 관리 정보](conversion-metric-about.md)
+>* [관리 보기 및 보고서에서 사용할 수 있는 전환 지표를 변경합니다](conversion-metric-edit-available.md)
+>* [전환 지표에 대한 표시 이름 변경](conversion-metric-edit-display-name.md)

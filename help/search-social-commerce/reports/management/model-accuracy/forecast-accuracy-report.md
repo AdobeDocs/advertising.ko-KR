@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: 데이터 열을 포함하여 예측 정확도 보고서에 대해 알아봅니다.
-exl-id: f0c42323-eb0d-461a-ab09-440fd1bfc960
 feature: Search Reports, Search Model Accuracy Reports
-TQID: 'https://experienceleague.adobe.com/FHLlU9t-6rhRH9XpgF6pxPviMDucJllzsLX-x7FEuTY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,17 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
     internal-label: Search Model Accuracy Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '449'
 ht-degree: 0%
 ---
 # [!UICONTROL Forecast Accuracy Report]
@@ -39,7 +29,7 @@ ht-degree: 0%
 >
 >* 비용 예측의 경우 지난 7일 동안 10%의 편차가 허용되는 것으로 간주되므로 예측된 지출의 90%에서 110% 사이인 실제 지출이 좋습니다. 매출 예측의 경우 지난 7일 동안의 15% 편차가 허용되는 것으로 간주되므로 예측된 지출의 85%에서 115% 사이인 실제 매출은 좋습니다. 편차가 더 큰 예보는 조사해야 한다.
 >
->* 포트폴리오의 키워드가 입찰 전환 제한과 연결된 경우 포트폴리오는 입찰 전환으로 인해 발생하는 총 금액만큼 과소 또는 과소 소비됩니다. 그 결과 예측비용 열은 증감된 지출만큼 목표 지출에서 벗어나게 된다.
+>* 포트폴리오의 키워드가 [입찰 전환 제한](/help/search-social-commerce/goals/constraints-manage.md)과 연결된 경우 입찰 전환으로 인해 발생한 총 금액에서 포트폴리오가 초과 또는 과소 지출됩니다. 그 결과 예측비용 열은 증감된 지출만큼 목표 지출에서 벗어나게 된다.
 
 ## 사용 가능한 열
 
@@ -66,7 +56,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [모델 정확도 보고서 정보](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [모델 정확도 보고서 정보](model-accuracy-report-about.md)
 >* [[!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [모델 정확도 보고서 생성](model-accuracy-report-generate.md)
->* [모델 정확도 보고서 설정](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [예약된 보고서 관리](/help/search-social-commerce/reports/management/report-manage.md)
+>* [모델 정확도 보고서 설정](model-accuracy-report-settings.md)

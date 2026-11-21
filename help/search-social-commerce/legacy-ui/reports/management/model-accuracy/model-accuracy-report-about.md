@@ -1,0 +1,48 @@
+---
+title: 모델 정확도 보고서 정보
+description: 포트폴리오를 최적화하는 데 사용되는 비용 및 수익 모델의 정확도를 나타내는 보고서에 대해 알아봅니다.
+exl-id: 2f655db6-8f4f-4eae-9f18-cc04acad3c5c
+feature: Search Reports, Search Model Accuracy Reports
+TQID: 'https://experienceleague.adobe.com/0BKAZrYptU0H9WFukiJ33Jw0JdqvpyOQluPPMl5VR3o'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
+    internal-label: Search Model Accuracy Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 0%
+---
+# 모델 정확도 보고서 정보
+
+모델 정확도 보고서는 최적화 유형 및 캠페인 입찰 전략에 적합한 포트폴리오의 입찰, 캠페인 예산 및 입찰 전략 타겟을 최적화하는 데 사용되는 비용 및 수익 모델의 정확도를 나타냅니다.
+
+부정확하면 성능 문제가 발생할 수 있으며, 따라서 포트폴리오 설정을 조정해야 할 수 있습니다. 예측의 부정확성 문제 해결에 대한 자세한 내용은 최적화 안내서의 포트폴리오 섹션에서 &quot;포트폴리오에 대한 FAQ&quot;를 참조하십시오(검색, 소셜 및 Commerce 내에서 제공).<!-- verify convention for referencing Optimization Guide here -->
+
+## 모델 정확도 보고서 유형
+
+* [[!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+
+* [[!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+
+>[!MORELIKETHIS]
+>
+>* [[!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+>* [[!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+>* [모델 정확도 보고서 생성](model-accuracy-report-generate.md)
+>* [모델 정확도 보고서 설정](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [보고서 정보](/help/search-social-commerce/legacy-ui/reports/report-about.md)

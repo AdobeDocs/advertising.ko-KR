@@ -1,28 +1,18 @@
 ---
 title: '[!UICONTROL Channel Assist Report]'
 description: '[!UICONTROL Channel Assist Report]에 대해 알아봅니다.'
-exl-id: 67bce347-2776-4585-adb4-e1a4d76fbadc
 feature: Search Reports, Search Assist Reports
-TQID: 'https://experienceleague.adobe.com/G2KcySAZVdf-J14CxQS2Hk5av6KHlpyFehwfMcZYj78'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-    internal-label: Demand Side Platform
   - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
     internal-label: Search Reports
   - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
     internal-label: Search Assist Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '685'
 ht-degree: 0%
 ---
 # [!UICONTROL Channel Assist Report]
@@ -47,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Path Size] | 기본값 | 광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 전환 경로의 이벤트 유형 수입니다. |
 | [!UICONTROL First Event Type] | 기본값 | 전환 경로의 첫 번째(가장 이른) 이벤트의 이벤트 유형입니다. |
 | [!UICONTROL Last Event Type] | 기본값 | 전환을 초래한 마지막 이벤트의 이벤트 유형(마지막 이벤트가 지정된 경로 크기를 벗어난 경우에도). |
-| \[광고주별 사용자 지정(파생) 지표\] | 사용자 정의 | 만든 사용자 지정 지표의 값은 기존 지표에서 계산됩니다. |
+| \[광고주별 사용자 지정(파생) 지표\] | 사용자 정의 | 생성한 사용자 지정 지표의 값은 기존 지표에서 계산됩니다. |
 | \[광고주별 전환 지표\] | 사용자 정의 | 지정된 전환 지표 또는 사이트 참여 지표에 대한 전환 수입니다. |
 | [!UICONTROL % of Total] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 전환 지표에 대해 보고서 출력에 자동으로 포함됨) 이벤트 패턴에 귀속된 포트폴리오 간 전체 전환의 비율입니다. |
 | [!UICONTROL 6th Event] - [!UICONTROL 30th Event] | 사용자 정의 | 광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 전환 경로의 여섯 번째에서 30번째 이벤트 유형입니다. |
@@ -61,4 +51,4 @@ ht-degree: 0%
 >* [[!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
 >* [[!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [보고서 설정 지원](assist-report-settings.md)
->* [지원 보고서 생성](assist-report-generate.md)
+>* [예약된 보고서 관리](/help/search-social-commerce/reports/management/report-manage.md)
