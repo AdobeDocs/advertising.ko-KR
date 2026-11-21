@@ -1,12 +1,11 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
-
 ---
 # 텍스트 광고 템플릿 - 광고 그룹
 
-**[!UICONTROL Ad Group]:** 광고 그룹 이름으로, 정적 텍스트, 지정한 파일의 열 및 [한정자](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md)의 조합으로 구성될 수 있습니다. 열 이름 및 수정자는 지정된 피드 파일이 템플릿을 통해 전파될 때 실제 데이터로 대체됩니다.
+**[!UICONTROL Ad Group]:** 광고 그룹 이름으로, 정적 텍스트, 지정한 파일의 열 및 [한정자](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/modifiers-manage.md)의 조합으로 구성될 수 있습니다. 열 이름 및 수정자는 지정된 피드 파일이 템플릿을 통해 전파될 때 실제 데이터로 대체됩니다.
 
 열 이름이나 수정자 그룹을 동적 매개 변수로 삽입하려면 입력 필드를 누른 다음 열 목록에서 열 이름을 누르거나 수정자 목록에서 수정자 이름을 누릅니다.

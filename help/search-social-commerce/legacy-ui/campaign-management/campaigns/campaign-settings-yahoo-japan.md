@@ -1,0 +1,108 @@
+---
+title: '[!DNL LY Ads] 캠페인 설정'
+description: '[!DNL LY Ads] 캠페인에 대한 설정을 참조합니다.'
+exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/okWpkqtz0o33r--74ZV2f-f8-1G9ieVY-oei-YSk4hk'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 0%
+---
+# [!DNL LY Ads] 캠페인 설정
+
+## \[캠페인 만들기 화면\]
+
+**[!UICONTROL Campaign Type]:**(캠페인 생성 중에만 사용 가능) 광고를 배치할 위치: 검색 네트워크에 텍스트 광고를 표시하는 유일한 옵션은 *[!UICONTROL Search Network Only]*&#x200B;입니다.
+
+## [!UICONTROL Campaign Details]
+
+**[!UICONTROL Campaign Name]:** 계정에서 고유한 캠페인 이름.
+
+<!-- **[!UICONTROL Start date]:** -->
+
+{{$include /help/_includes/start-date.md}}
+
+**[!UICONTROL Status]:** 캠페인의 표시 상태: *활성* 또는 *일시 중지됨*. 새 광고 캠페인의 기본값은 *활성*&#x200B;입니다.
+
+<!-- **[!UICONTROL End date]:** -->
+
+{{$include /help/_includes/end-date.md}}
+
+## [!UICONTROL Budget Options]
+
+**[!UICONTROL Budget]:** 일일 지출 금액인 평균 예산입니다. 최소 일일 예산은 100 JPY입니다.
+
+캠페인 예산 제한이 자동으로 조정되는 포트폴리오에 이 캠페인을 지정하는 경우(검색 조건에 따라) 실제로 특정 기간에 지정된 예산보다 더 많이 또는 더 적게 지출할 수 있습니다.
+
+<!-- **[!UICONTROL Delivery Method]:** -->
+
+{{$include /help/_includes/delivery-method.md}}
+
+## [!UICONTROL Campaign Targeting]
+
+<!-- **[!UICONTROL Location Targets]:** -->
+
+{{$include /help/_includes/location-targets.md}}
+
+## [!UICONTROL URL Options]
+
+<!-- **[!UICONTROL Tracking Template]:** -->
+
+{{$include /help/_includes/tracking-template-yahoo-japan.md}}
+
+## [!UICONTROL Negative Keywords]
+
+<!-- **[!UICONTROL Campaign Negative Keywords]:** -->
+
+{{$include /help/_includes/negative-keyword.md}}
+
+<!-- Note for **[!UICONTROL Campaign Negative Keywords]:** -->
+
+{{$include /help/_includes/negative-keyword-note-yahoo-japan.md}}
+
+## [!UICONTROL Campaign Tracking]
+
+<!-- **[!UICONTROL Override Account Tracking]:** -->
+
+{{$include /help/_includes/override-account-tracking.md}}
+
+<!-- **[!UICONTROL Tracking Type]:** -->
+
+{{$include /help/_includes/tracking-type.md}}
+
+<!-- **[!UICONTROL Redirect Type]:** -->
+
+{{$include /help/_includes/redirect-type.md}}
+
+<!-- **[!UICONTROL Auto Upload]:** -->
+
+{{$include /help/_includes/auto-upload.md}}
+
+<!-- **[!UICONTROL Encode Base URL]:** -->
+
+{{$include /help/_includes/encode-base-url.md}}
+
+<!-- **[!UICONTROL Tracking Level]:** -->
+
+{{$include /help/_includes/tracking-level.md}}
+
+<!-- **[!UICONTROL Append Parameters]:** -->
+
+{{$include /help/_includes/append-parameters.md}}
+
+>[!MORELIKETHIS]
+>
+>* [캠페인 관리](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/campaign-manage.md)

@@ -23,7 +23,7 @@ subfeature_v2:
     internal-label: Specialty reports
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
     internal-label: Reports
-source-git-commit: fbbc4aabc435023aafbef2443735a7fb285561be
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 6%
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 검색, 소셜 및 Commerce에는 클릭 및 전환 데이터를 기반으로 하는 포괄적인 성능 보고서 세트가 포함되어 있습니다. [!UICONTROL Portfolios] 및 [!UICONTROL Campaigns] 보기에서 포트폴리오 또는 광고 계정의 다양한 구성 요소에 대한 기본 성과 데이터를 볼 수 있을 뿐만 아니라 다양한 기본 및 고급 보고서를 생성할 수도 있습니다.
 
-Adobe Advertising 전환 추적 서비스를 사용하는 광고주는 참조 웹 사이트의 지리적 위치 또는 도메인 이름에 대한 클릭 수, 각 채널의 광고 및 전환으로 이어지는 다양한 이벤트가 전체 전환율에 기여하는 방식, 마케팅 채널별 단일 [전환 지표](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)에 대한 전환 분포를 식별할 수도 있습니다. 사용 가능한 보고서는 사용자 계정 유형에 따라 다릅니다. Adobe 계정 팀은 모든 보고서에 액세스할 수 있습니다.
+Adobe Advertising 전환 추적 서비스를 사용하는 광고주는 참조 웹 사이트의 지리적 위치 또는 도메인 이름에 대한 클릭 수, 각 채널의 광고 및 전환으로 이어지는 다양한 이벤트가 전체 전환율에 기여하는 방식, 마케팅 채널별 단일 [전환 지표](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md)에 대한 전환 분포를 식별할 수도 있습니다. 사용 가능한 보고서는 사용자 계정 유형에 따라 다릅니다. Adobe 계정 팀은 모든 보고서에 액세스할 수 있습니다.
 
 대부분의 보고서는 보려는 정보만 표시하도록 사용자 지정할 수 있습니다. 다음 표준 지표는 대부분의 보고서에서 사용할 수 있으며 광고 수준에서 계산됩니다.
 
@@ -52,7 +52,7 @@ Adobe Advertising 전환 추적 서비스를 사용하는 광고주는 참조 �
 
 * **전환 지표:** 광고주의 각 전환 지표 또는 전환 지표에 대해 추적된 트랜잭션 데이터에 대한 총 전환 수입니다. 여기에는 전환 및 사이트 참여 지표가 포함될 수 있지만 Adobe Analytics에서 동기화되는 계산된 지표 및 고급 계산된 지표는 포함되지 않습니다.
 
-  광고주 계정에 대해 동기화된 [[!DNL Google Ads]개의 추적 전환](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) 및 [[!DNL Google Analytics]개의 추적 전환](/help/search-social-commerce/admin/data-sources/data-source-about.md)도 여기에 포함될 수 있습니다.
+  광고주 계정에 대해 동기화된 [[!DNL Google Ads]개의 추적 전환](/help/search-social-commerce/tracking/google-conversion-data.md) 및 [[!DNL Google Analytics]개의 추적 전환](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)도 여기에 포함될 수 있습니다.
 
 * **사용자 지정 지표:** 기존 지표(예: 주문당 비용)를 기반으로 수식을 만들어 파생되는 고유한 지표입니다.
 
@@ -79,5 +79,5 @@ Adobe Advertising 전환 추적 서비스를 사용하는 광고주는 참조 �
 
 >[!MORELIKETHIS]
 >
->* [보고서 정보](/help/search-social-commerce/reports/report-about.md)
->* [보고서에 대한 초기 설정 작업](/help/search-social-commerce/reports/initial-setup.md)
+>* [보고서 정보](/help/search-social-commerce/legacy-ui/reports/report-about.md)
+>* [보고서에 대한 초기 설정 작업](/help/search-social-commerce/legacy-ui/reports/initial-setup.md)

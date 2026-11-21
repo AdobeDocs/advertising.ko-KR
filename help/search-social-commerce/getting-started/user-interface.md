@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 각 페이지에는 주 메뉴와 기타 작업 및 정보 기반 메뉴가 포함되어 있습니다.
 
-[제품 프로필](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles)은(는) 각 보기에서 사용할 수 있는 기능을 포함하여 사용 가능한 옵션을 결정합니다.
+[제품 프로필](/help/search-social-commerce/user-administration.md#default-product-profiles)은(는) 각 보기에서 사용할 수 있는 기능을 포함하여 사용 가능한 옵션을 결정합니다.
 
 ## 메인 메뉴
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Plan]** 하위 메뉴:
 
-  * **[!UICONTROL Simulations]** 사용자가 만든 모든 사용자 지정 시뮬레이션 및 자동으로 생성된 주별 시뮬레이션을 볼 수 있는 새 [[!UICONTROL Simulations] 보기를 엽니다](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md). 새 사용자 지정 시뮬레이션을 생성하고 기존 시뮬레이션을 다시 실행할 수 있습니다. [!UICONTROL Spend Planner] 단추를 사용하면 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]에서 레거시 [!UICONTROL Spend Recommendation] 도구가 열립니다.
+  * **[!UICONTROL Simulations]** 사용자가 만든 모든 사용자 지정 시뮬레이션 및 자동으로 생성된 주별 시뮬레이션을 볼 수 있는 새 [[!UICONTROL Simulations] 보기를 엽니다](/help/search-social-commerce/plan/simulations/simulation-about.md). 새 사용자 지정 시뮬레이션을 생성하고 기존 시뮬레이션을 다시 실행할 수 있습니다. [!UICONTROL Spend Planner] 단추를 사용하면 [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]에서 레거시 [!UICONTROL Spend Recommendation] 도구가 열립니다.
 
   * **[!UICONTROL Spend Planner]** 새 사이트를 종료하고 기존 [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] 보기를 엽니다.
 

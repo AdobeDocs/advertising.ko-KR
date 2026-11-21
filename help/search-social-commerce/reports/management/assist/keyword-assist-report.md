@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Keyword Assist Report]'
 description: '[!UICONTROL Keyword Assist Report]에 대해 알아봅니다.'
-exl-id: 24e5854c-5696-43cd-ac21-64209f9f57d4
 feature: Search Reports, Search Assist Reports
-TQID: 'https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,15 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
     internal-label: Search Assist Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '783'
 ht-degree: 0%
 ---
 # [!UICONTROL Keyword Assist Report]
@@ -50,7 +42,7 @@ ht-degree: 0%
 | [!UICONTROL Path Size] | 기본값 | 광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 전환 경로의 키워드 및/또는 배치 수입니다. |
 | [!UICONTROL First Keyword] | 기본값 | 전환 경로의 첫 번째 키워드 또는 배치입니다. |
 | [!UICONTROL Last Keyword] | 기본값 | 전환을 초래한 마지막 키워드 또는 배치입니다(마지막 키워드가 지정된 경로 크기를 벗어난 경우에도). |
-| \[광고주별 사용자 지정(파생) 지표\] | 사용자 정의 | 만든 사용자 지정 지표의 값은 기존 지표에서 계산됩니다. |
+| \[광고주별 사용자 지정(파생) 지표\] | 사용자 정의 | 생성한 사용자 지정 지표의 값은 기존 지표에서 계산됩니다. |
 | \[광고주별 전환 지표\] | 사용자 정의 | 지정된 전환 지표 또는 사이트 참여 지표에 대한 전환 수입니다. |
 | [!UICONTROL % of Total] \[전환 지표\] | 자동 | (보고서 설정에서 사용할 수 없지만 포함된 각 전환 지표에 대해 보고서 출력에 자동으로 포함됨) 키워드 및/또는 배치 패턴에 귀속된 포트폴리오에서 전체 전환의 비율입니다. |
 | [!UICONTROL 6th Keyword] - [!UICONTROL 10th Keyword] | 사용자 정의 | 광고주의 [전환 확인 기간](/help/search-social-commerce/glossary.md#c-d) 및 [노출 전환 확인 기간](/help/search-social-commerce/glossary.md#i-j) 내에서 발생한 전환 경로에서 여섯 번째부터 열 번째까지의 유료 검색 키워드 또는 배치 클릭수입니다.<br><br><b>참고:</b> 보고서에 콘텐츠가 활성화된 검색 캠페인(키워드가 포함되지 않음)의 배치가 포함된 경우 이 열에는 대신 &quot;(광고 그룹 콘텐츠) 광고 그룹 이름&quot;과 같은 적용 가능한 광고 그룹 이름이 표시됩니다. |
@@ -64,4 +56,4 @@ ht-degree: 0%
 >* [[!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
 >* [[!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [보고서 설정 지원](assist-report-settings.md)
->* [지원 보고서 생성](assist-report-generate.md)
+>* [예약된 보고서 관리](/help/search-social-commerce/reports/management/report-manage.md)

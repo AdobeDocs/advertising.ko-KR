@@ -1,0 +1,56 @@
+---
+title: '[!DNL Adobe]개 대상 동기화'
+description: '[!DNL Adobe] 대상에 대해 메타데이터, 계층 데이터 및 고유 대상 데이터를 동기화하는 방법을 알아봅니다.'
+exl-id: 8b8c3aa0-2aa9-4ad7-a4c0-1b7ba881acd3
+feature: Search Admin
+TQID: 'https://experienceleague.adobe.com/PKWhdnMHVAI3aI--1vdCeqnX6b8j34uvHycZLw1Yvjw'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 0%
+---
+# [!DNL Adobe]개 대상 동기화
+
+*[!DNL Direct Access]명의 클라이언트 관리자 및 관리자만*
+
+*Adobe Advertising-Adobe Audience Manager 또는 Adobe Advertising-Adobe Analytics 통합만 있는 광고주*
+
+Search, Social 및 Commerce을 허용하면 광고주나 에이전시의 모든 [!DNL Adobe] 대상에 대한 메타데이터, 계층 데이터 및 고유한 대상 데이터를 [!UICONTROL Campaigns] > [!UICONTROL Audiences] 보기로 가져올 수 있습니다. 이 정보에는 다음에 대한 데이터가 포함됩니다.
+
+* Adobe Audience Manager 세그먼트
+
+* Adobe CX Enterprise에 게시된 Adobe Analytics 세그먼트
+
+* Adobe CX Enterprise [!DNL Audience Library]을(를) 사용하여 만든 세그먼트
+
+자격을 얻으려면 광고주나 에이전시는 [Adobe Experience Platform Identity 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)를 구현하고 해당 조직 ID(이전의 [!DNL IMS Org ID])를 제공해야 합니다.
+
+초기 동기화는 약 24시간이 소요됩니다. 그 후에는 데이터가 1~2초 지연으로 실시간으로 동기화됩니다.
+
+1. 메인 메뉴에서 **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**&#x200B;을(를) 클릭합니다.
+
+1. 광고주의 Adobe CX Enterprise 계정에 대한 고유한 조직 ID를 입력한 다음 **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
+
+   광고주의 조직 ID를 모를 경우 [!UICONTROL Admin] > [!UICONTROL Manage Client]의 광고주 설정의 **[!UICONTROL IMS Org ID]** 필드에서 검색하십시오.
+
+>[!MORELIKETHIS]
+>
+>* [대상자 정보](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/audience-about.md)
+>* [Adobe CX Enterprise 솔루션 및 서비스와 통합](/help/search-social-commerce/introduction/integrations.md)

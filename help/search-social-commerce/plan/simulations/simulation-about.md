@@ -1,0 +1,149 @@
+---
+title: 시뮬레이션 정보
+description: 포트폴리오 시뮬레이션에 대해 알아봅니다.
+feature: Search Optimization, Search Portfolios, Search Simulations
+exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
+TQID: 'https://experienceleague.adobe.com/9B4gKrZnnUmgj0LzxwM2CIkJsIO9Pe9R8RDR4mAmIwo'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: 157c45d4939eff028543a0181397a59e6346309e
+workflow-type: tm+mt
+source-wordcount: '1241'
+ht-degree: 0%
+---
+# 시뮬레이션 정보
+
+*Beta 기능*
+
+시뮬레이션 보고서는 다양한 지출 수준(비용)과 해당 일별 예산 또는 기타 타겟에서 포트폴리오에 대해 예상할 수 있는 예상 한계 비용-목표 값, 비용, 클릭 수 및 목표 값을 보여 줍니다. 필요한 경우 [보기를 사용자 지정](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)하여 추가 트래픽 지표, 시뮬레이션 설정 및 특정 시뮬레이션 유형([!UICONTROL Weekly] 또는 [!UICONTROL Custom])만 볼 수 있습니다.
+
+<!--
+ Not available as of 6/21/25:
+When the portfolio has a daily budget, you can optionally change the portfolio's spend target to any of the spend targets listed in the simulation.
+-->
+
+## 시뮬레이션 유형
+
+* 자동화된 주간 시뮬레이션
+
+* 사용자 지정, 사용자 생성 시뮬레이션
+
+### 자동화된 주간 시뮬레이션
+
+검색, 소셜 및 Commerce은 현재 포트폴리오 설정을 사용하여 매주 시뮬레이션 보고서를 자동으로 실행합니다. 자동 주간 시뮬레이션은 포트폴리오가 [최적화 또는 활성](/help/search-social-commerce/manage/portfolios/portfolio-about.md)인 기간에만 사용할 수 있습니다.
+
+[선택한 실행 날짜에 대한 최대 100개의 포트폴리오를 [!UICONTROL Portfolios] 보기에서 다운로드하거나](/help/search-social-commerce/manage/portfolios/portfolio-create-simulation.md#download-simulations) [개별 시뮬레이션을 [!UICONTROL Simulations] 보기에서 다운로드합니다](simulation-download.md).
+
+#### 주간 시뮬레이션 다운로드
+
+주간 시뮬레이션을 개별 통합 문서로 다운로드하거나 하나의 통합 문서로 결합할 수 있습니다. 각 시뮬레이션에 대한 보고서에는 20개 단계 수준에 대한 목표와 해당 목표를 기반으로 예상 비용, 클릭 수, 가중 수익(객관적 값) 및 목표의 전환 지표가 포함됩니다. 시뮬레이션은 제약 조건이 없는 처음 20개의 데이터 행과 제약 조건이 있는 나머지 데이터 행을 계산합니다.
+
+#### 온스크린 주간 시뮬레이션 세부 정보
+
+화면 시뮬레이션 세부 정보에는 포트폴리오 수준의 시각적 및 표 형식 통찰력이 표시됩니다. 캠페인, 광고 그룹, 입찰 단위 또는 장치별 데이터의 경우 대신 [시뮬레이션을 다운로드](simulation-download.md)하세요.
+
+##### 그래프 보기
+
+그래프 보기에는 20개의 각 지출 수준에 대한 지출 대상에 대한 예상 목표값 또는 기타 지정된 지표([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->)가 표시됩니다. 그래프는 대상 중간점을 식별하며 선택적으로 대상 중간점을 변경하여 해당 값을 사용하여 예측된 데이터를 볼 수 있습니다. 그래프의 임의의 점 위에 커서를 놓으면 해당 점에 대한 데이터를 볼 수 있습니다.
+
+제약 조건, 제약 조건 없이 또는 두 가지 모두를 사용하여 데이터를 볼 수 있습니다. 제약 조건이 있는 데이터를 볼 때 그래프 위의 해당 제약 조건을 식별합니다.
+
+##### 표 보기
+
+테이블 뷰는 20개의 각 지출 레벨에 대한 목표 지출을 보여 줍니다. 또한 각 지출 수준에 대한 포트폴리오의 목표에 해당 예상 비용, 목표 값에 대한 한계 비용, 클릭 수, 목표 값 및 전환 지표가 포함됩니다. 테이블은 대상 중간점을 식별하며 선택적으로 대상 중간점을 변경하여 해당 값을 사용하여 예측된 데이터를 볼 수 있습니다.
+
+제약 조건, 제약 조건 없이 또는 두 가지 모두를 사용하여 데이터를 볼 수 있습니다. 제약 조건이 있는 데이터를 볼 때 그래프 위의 해당 제약 조건을 식별합니다.
+
+##### 시뮬레이션 설정
+
+이 보기는 그래프 또는 표 아래에 읽기 전용 시뮬레이션 설정을 보여 줍니다.
+
+##### Portfolio 설정
+
+적용 가능한 포트폴리오에 대한 읽기 전용 설정을 보려면 오른쪽 상단의 **[!UICONTROL Portfolio Settings]**&#x200B;을(를) 클릭하십시오.
+
+### 사용자 지정, 사용자 생성 시뮬레이션
+
+현재 포트폴리오 설정을 사용하거나 입찰 단위 수준 제한이 적용되거나 적용되지 않은 사용자 지정 포트폴리오 설정을 사용하여 단일 [최적화 또는 활성](/help/search-social-commerce/manage/portfolios/portfolio-about.md) 포트폴리오에 대한 사용자 지정 시뮬레이션 보고서를 만들어 이러한 설정이 실제로 변경하지 않고 결과를 확인할 수 있습니다. 예를 들어, 포트폴리오의 입찰 단위에 대한 활성 제한을 고려하지 않고 다른 지출 전략 또는 학습 예산을 사용하는 효과를 보기 위해 사용자 정의 시뮬레이션을 만들 수 있습니다. 포트폴리오, 캠페인, 입찰 단위 및 장치 수준에서 예상 성과를 볼 수 있습니다.
+
+#### 다운로드한 사용자 지정 시뮬레이션
+
+사용자 지정 시뮬레이션을 개별 통합 문서로 다운로드하거나 하나의 통합 문서에 결합할 수 있습니다. 각 시뮬레이션에 대한 보고서에는 해당 수준에 데이터를 사용할 수 있을 때 지정한 각 엔티티 수준(포트폴리오, 캠페인, 광고 그룹, 입찰 단위)에 대해 하나의 워크시트가 포함됩니다. 장치 수준 데이터를 지정하면 각 워크시트에 [!UICONTROL Device] 열이 포함됩니다. 각 워크시트에는 적용 가능한 각 엔티티에 대해 하나의 행이 포함되어 있으며 장치 수준 데이터를 요청할 때 20개의 각 단계에 대한 장치 유형(예: 캠페인당 하나의 행)이 포함되어 있습니다. 각 행의 데이터에는 해당 대상을 기반으로 예상 한계 비용-수익, 비용, 클릭 수, 가중 수익(객관적 값), 장치 유형 및 목표의 전환 지표가 포함됩니다. 포트폴리오 수준 워크시트에는 단계 수준에 대한 대상도 포함되며 엔티티 수준 워크시트에는 광고 네트워크, 계정, 캠페인 및 (해당되는 경우) 광고 그룹이 포함됩니다.   <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
+
+#### 화면 사용자 정의 시뮬레이션 세부 정보
+
+화면 시뮬레이션 세부 정보에는 포트폴리오 수준의 시각적 및 표 형식 통찰력이 표시됩니다. 캠페인, 광고 그룹, 입찰 단위 또는 장치별 데이터의 경우 대신 [시뮬레이션을 다운로드](simulation-download.md)하세요.
+
+#### 그래프 보기
+
+그래프 보기에는 시뮬레이션의 지정된 지출 수준(단계) 수에 대한 지출 대상에 대한 예상 목표 값 또는 기타 지정된 지표([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->)가 표시됩니다. 그래프는 대상 중간점을 식별합니다. 그래프의 임의의 점 위에 커서를 놓으면 해당 점에 대한 데이터를 볼 수 있습니다.
+
+시뮬레이션이 제약 조건을 고려할 때 이 보기는 그래프 위의 제약 조건을 식별합니다.
+
+##### 표 보기
+
+테이블 뷰는 시뮬레이션에 대해 지정된 각 지출 레벨(단계)에 대한 목표 지출을 보여 줍니다. 또한 각 지출 수준에 대한 포트폴리오의 목표에서 해당 예상 비용, 목표 값에 대한 한계 비용, 클릭 수, 목표 값 및 전환 지표를 보여줍니다. 이 표에서는 대상 중간점을 식별합니다.
+
+시뮬레이션이 제약 조건을 고려할 때 이 보기는 그래프 위의 제약 조건을 식별합니다.
+
+##### 시뮬레이션 설정
+
+이 보기는 그래프 또는 표 아래에 읽기 전용 시뮬레이션 설정을 보여 줍니다.
+
+##### Portfolio 설정
+
+적용 가능한 포트폴리오에 대한 읽기 전용 설정을 보려면 오른쪽 상단의 **[!UICONTROL Portfolio Settings]**&#x200B;을(를) 클릭하십시오.
+
+## [!UICONTROL Simulations] 보기
+
+[!UICONTROL Simulations] 보기에는 주별 시뮬레이션 및 사용자 지정 시뮬레이션이 나열됩니다. 관리자 및 일부 다른 사용자 형식<!-- Verify which -->은(는) 다른 사용자가 만든 사용자 지정 시뮬레이션을 볼 수 있습니다. 다른 모든 사용자는 자신이 만든 사용자 지정 시뮬레이션만 볼 수 있습니다.
+
+데이터 테이블에는 각 시뮬레이션의 진행 상황, 각 행의 [!UICONTROL Target Midpoint], 비용/노출/클릭/객관적 값 예측, 실제 값 및 정확도에 대한 열이 표시됩니다. 선택적으로 추가 사용자 정의 열(실제 목표 값을 원가로 나눈 값과 같은 상승도 지표 포함)을 추가할 수 있습니다.
+
+### 사용 가능한 작업 {#simulations-actions}
+
+* [보기를 사용자 지정](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)하여 예상 노출수, 실제 비용, 클릭 수, 노출수 및 목표 값, 비용 대비 목표 값, 비용 정확도, 클릭 정확도 및 목표 값 정확도, 예측 및 실제 목표 값과 비용 대비 목표 값의 차이(델타)를 포함한 추가 지표를 포함합니다. 대부분의 시뮬레이션 설정 및 시뮬레이션 유형([!UICONTROL Custom] 또는 [!UICONTROL Weekly])에 대한 열을 포함할 수도 있습니다.
+
+* 포트폴리오의 현재 설정을 기본값으로 사용하여 단일 포트폴리오에 대한 [사용자 지정 시뮬레이션을 생성합니다](simulation-create.md#simulation-create).
+
+* [기존 설정으로 최대 10개의 시뮬레이션을 다시 실행하십시오](simulation-create.md#rerun-a-simulation-with-the-existing-settings). Search, Social 및 Commerce은 [!UICONTROL Queued] 또는 [!UICONTROL In Progress] 상태의 시뮬레이션을 건너뜁니다.
+
+* [주별 또는 사용자 지정 시뮬레이션을 화면에서 봅니다](simulation-view.md).
+
+* [최대 10개의 주별 및 사용자 지정 시뮬레이션을 다운로드](simulation-download.md)하여 하나의 [!DNL Microsoft Excel] 통합 문서나 ZIP 파일에 개별 통합 문서로 만듭니다.
+
+* [!UICONTROL Spend Planner] 단추를 사용하여 포트폴리오에서 최적의 지출 분포를 식별하는 데 도움이 되는 레거시 지출 권장 사항 도구를 엽니다.
+
+## 우수 사례
+
+다음 상황에서 시뮬레이션 보고서를 모니터링합니다.
+
+* 포트폴리오를 시작하여 해당 포트폴리오 설정으로 예상할 수 있는 성과를 추정하기 전에 최소 2주의 데이터를 사용하십시오. 포함된 캠페인에 대한 내역 데이터를 기반으로 시뮬레이션 결과가 예상보다 낮은 성과를 나타내는 경우 포트폴리오를 시작하기 전에 문제를 조사 및 해결하십시오.
+
+* 캠페인 추가 또는 목표 변경과 같이 포트폴리오가 주요 변경 후. 포트폴리오의 모델링 시작 날짜, 전환 지표의 가중치 또는 목표의 클릭 값을 변경하는 경우 업데이트된 비용 및 수익 모델을 사용할 수 있는 경우 다음 날 17:00 PST 이후까지 기다린 후 시뮬레이션을 실행하십시오.
+
+* 정기적으로 전환 지표 수준에서 성능 트렌드를 모니터링합니다.
+
+>[!MORELIKETHIS]
+>
+>* [시뮬레이션 실행 또는 다시 실행](simulation-create.md)
+>* [시뮬레이션 세부 정보 보기](simulation-view.md)
+>* [시뮬레이션 다운로드](simulation-download.md)

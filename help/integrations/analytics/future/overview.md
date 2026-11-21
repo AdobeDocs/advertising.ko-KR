@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfd751d4-ee56-4323-8fd1-dc174b031709
     internal-label: Analytics integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 <!-- Verify all -->
 
-[!DNL Search, Social, & Commerce] 내에서 기존 [!DNL Analytics] 세그먼트를 사용하여 사용자 ID에서 [!DNL Google Ads] Google 고객 일치 대상을 만들 수 있습니다. 여기에는 Adobe CX Enterprise에 게시된 Adobe Analytics 세그먼트와 Adobe CX Enterprise [!DNL Audience Library]을(를) 사용하여 만든 세그먼트가 포함됩니다. 자세한 내용은 &quot;[대상자 만들기 [!DNL Google Ads] 고객 일치 대상자 [!DNL Adobe] 대상자](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)&quot;를 참조하십시오.
+[!DNL Search, Social, & Commerce] 내에서 기존 [!DNL Analytics] 세그먼트를 사용하여 사용자 ID에서 [!DNL Google Ads] Google 고객 일치 대상을 만들 수 있습니다. 여기에는 Adobe CX Enterprise에 게시된 Adobe Analytics 세그먼트와 Adobe CX Enterprise [!DNL Audience Library]을(를) 사용하여 만든 세그먼트가 포함됩니다. 자세한 내용은 &quot;[대상자 만들기 [!DNL Google Ads] 고객 일치 대상자 [!DNL Adobe] 대상자](/help/search-social-commerce/targeting/audiences/audience-manage.md#audience-adobe-create)&quot;를 참조하십시오.
 
 [사용자 ID의 고객 일치 대상](https://support.google.com/google-ads/answer/9199250)은(는) 웹 사이트 태그 기반 대상과 비슷하게 작동하지만, 표준 고객 일치 및 웹 사이트 태그 기반 대상과 구별되는 이점을 얻기 위해 PII ID가 아닌 ID가 고유 대상자 구성원에게 할당됩니다.
 

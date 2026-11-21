@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Adobe Advertising은 &quot;성공&quot; 페이지와 같은 전환 이벤트가 발생할 때 열리는 웹 페이지에 삽입된 Adobe Advertising 전환 추적 태그를 사용하여 광고 클릭으로 인한 전환을 추적합니다. 태그에는 트랜잭션 데이터를 사용자의 Adobe Advertising 쿠키와 함께 추적 서버로 전송하기 위한 임베드된 정보가 포함되어 있습니다. 추적 서버에서 트랜잭션은 적절한 광고 클릭 또는 노출(광고주의 전환 속성 설정에 따라)로 크레딧됩니다.
 
-Search, Social 및 Commerce 내에서 또는 Adobe Experience Platform(이전의 Adobe Experience Platform Launch)의 태그를 사용하여 [전환 추적 태그를 생성](/help/search-social-commerce/tools/conversion-tag-generate.md)할 수 있습니다.
+Search, Social 및 Commerce 내에서 또는 Adobe Experience Platform(이전의 Adobe Experience Platform Launch)의 태그를 사용하여 [전환 추적 태그를 생성](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)할 수 있습니다.
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Adobe Advertising은 전환 추적 픽셀을 통해 다음 작업을 수행할 �
 >[!MORELIKETHIS]
 >
 >* [전환 추적 옵션](conversion-tracking-about.md)
->* [Adobe Advertising 변환 태그 생성 및 구현](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Adobe Advertising 변환 태그 생성 및 구현](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* [JavaScript 전환 추적 태그 버전 3](format-conversion-tag-jsv3.md)의 형식
 >* [JavaScript 전환 추적 태그 버전 2](format-conversion-tag-jsv2.md)의 형식
 >* [이미지 변환 추적 태그의 형식](format-conversion-tag-image.md)

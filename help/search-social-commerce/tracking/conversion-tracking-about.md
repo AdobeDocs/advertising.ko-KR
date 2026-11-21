@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Search, Social 및 Commerce은 다음과 같은 방법으로 추적되는 전환
 
 * **Adobe Analytics 전환:** 광고주는 모든 전환에 Adobe Analytics 추적을 사용합니다. 이 옵션을 사용하려면 Adobe Advertising-Adobe Analytics 통합이 필요합니다. 자세한 내용은 &quot;[Adobe Analytics 전환 추적](conversion-tracking-analytics.md)&quot;을 참조하십시오.
 
-* **[!DNL Google Analytics]전환:** 광고주는 [!DNL Google Analytics] 태그를 사용하여 모든 전환을 추적합니다. 자동으로 동기화되는 전환에 대한 자세한 내용은 &quot;[[!DNL Google Ads] 검색, 소셜 및 Commerce의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)&quot;를 참조하십시오.
+* **[!DNL Google Analytics]전환:** 광고주는 [!DNL Google Analytics] 태그를 사용하여 모든 전환을 추적합니다. 자동으로 동기화되는 전환에 대한 자세한 내용은 &quot;[[!DNL Google Ads] 검색, 소셜 및 Commerce의 전환 데이터](google-conversion-data.md)&quot;를 참조하십시오.
 
 * **광고주가 추적한 전환:**(Search, Social 및 Commerce 클라이언트만 해당) 광고주는 Search, Social 및 Commerce에 온라인 및 오프라인 전환 데이터의 조합이 포함된 피드 파일을 제공합니다. &quot;[EF ID 피드를 사용한 전환 추적](feed-efid.md)&quot; 및 &quot;[트랜잭션 ID 피드를 사용한 전환 추적](feed-transaction-id.md)&quot;을 참조하십시오.
 

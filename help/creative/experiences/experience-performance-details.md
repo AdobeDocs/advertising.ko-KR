@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -96,7 +96,7 @@ ht-degree: 0%
 
    * (선택 사항) 보고된 전환을 변경하려면 ![설정](/help/creative/assets/settings.png)을 클릭하고 **[!UICONTROL Conversions]** 메뉴에서 전환 이름을 선택합니다. 현재 사용 가능한 유일한 지표는 모든 전환 지표를 포함하는 &quot;모두 선택&quot;입니다.
 
-     사용 가능한 전환 열에는 검색, 소셜 및 Commerce 고객인지 여부에 관계없이 Advertising 검색, 소셜 및 Commerce에서 사용할 수 있는 전환이 포함됩니다. 광고주가 [an [!DNL Adobe Analytics for Advertising] 통합](/help/integrations/analytics/overview.md)을 보유한 경우 Adobe Analytics에서 동기화된 전환 및 사이트 참여 지표가 목록에 포함될 수 있습니다. [!DNL Analytics]개의 계산된 지표와 고급 계산된 지표를 사용할 수 없습니다. 보고서에 수집된 전환을 포함하는 방법에 대한 자세한 내용은 검색, 소셜 및 Commerce 안내서 항목 &quot;[광고주의 전환 지표 관리에 대한 정보](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;를 참조하십시오.
+     사용 가능한 전환 열에는 검색, 소셜 및 Commerce 고객인지 여부에 관계없이 Advertising 검색, 소셜 및 Commerce에서 사용할 수 있는 전환이 포함됩니다. 광고주가 [an [!DNL Adobe Analytics for Advertising] 통합](/help/integrations/analytics/overview.md)을 보유한 경우 Adobe Analytics에서 동기화된 전환 및 사이트 참여 지표가 목록에 포함될 수 있습니다. [!DNL Analytics]개의 계산된 지표와 고급 계산된 지표를 사용할 수 없습니다. 보고서에 수집된 전환을 포함하는 방법에 대한 자세한 내용은 검색, 소셜 및 Commerce 안내서 항목 &quot;[광고주의 전환 지표 관리에 대한 정보](/help/search-social-commerce/legacy-ui/admin/conversion-metrics/conversion-metric-about.md)&quot;를 참조하십시오.
 
 1. [!UICONTROL Overview] 탭에서:
 

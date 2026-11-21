@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 | 매개 변수 | 설명 |
 | ---- | ---- |
-| <code>{custom_code}</code> | 업로드된 일괄 시트 파일의 &quot;사용자 지정 URL 매개 변수&quot; 열의 데이터를 추적 URL에 삽입하려면 다음을 수행합니다. {custom_code}은(는) 추적 URL에서 하나 이상의 키-값 쌍의 값 끝에서만 사용할 수 있습니다. 예: <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>참고:</b> 일괄 시트 파일의 사용자 지정 값을 추적 URL에 삽입하려면 &quot;추적 URL 생성&quot; 옵션을 사용하여 일괄 시트 파일을 업로드하십시오. 일괄 시트 파일 사용에 대한 자세한 내용은 &quot;[일괄 시트를 사용한 캠페인 데이터 관리 정보](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)&quot;를 참조하십시오. |
+| <code>{custom_code}</code> | 업로드된 일괄 시트 파일의 &quot;사용자 지정 URL 매개 변수&quot; 열의 데이터를 추적 URL에 삽입하려면 다음을 수행합니다. {custom_code}은(는) 추적 URL에서 하나 이상의 키-값 쌍의 값 끝에서만 사용할 수 있습니다. 예: <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>참고:</b> 일괄 시트 파일의 사용자 지정 값을 추적 URL에 삽입하려면 &quot;추적 URL 생성&quot; 옵션을 사용하여 일괄 시트 파일을 업로드하십시오. 일괄 시트 파일 사용에 대한 자세한 내용은 &quot;[일괄 시트를 사용한 캠페인 데이터 관리 정보](/help/search-social-commerce/legacy-ui/campaign-management/bulksheets/bulksheet-about.md)&quot;를 참조하십시오. |
 | <code>{ef_uniqueid}</code> | Adobe Advertising에서 만든 고유 ID를 삽입합니다. 추적 메서드가 &quot;EF Redirect&quot;이면 자동으로 추가됩니다. |
 | <code>{ef_userid}</code> | Adobe Advertising이 광고주에게 할당하는 고유 사용자 ID를 삽입합니다. |
 | <code>{ef_sid}</code> | 검색, 소셜 및 Commerce이 광고 네트워크에 할당하는 숫자 ID를 삽입하려면, [!DNL Google Ads]의 <i>[!UICONTROL 3]</i>, [!DNL Microsoft Advertising]의 <i>[!UICONTROL 10]</i>, [!DNL Meta]의 <i>[!UICONTROL 45]</i>, [!DNL Yahoo DSP]의 <i>[!UICONTROL 86]</i>, [!DNL Naver]의 <i>[!UICONTROL 87]</i>, [!DNL Baidu]의 <i>[!UICONTROL 88]</i>, [!DNL Yandex]의 <i>[!UICONTROL 90]</i>, [!DNL LY Ads]의 <i>[!UICONTROL 94]</i>(이전의 [!DNL Yahoo! Japan Ads]), [!DNL Yahoo Native]의 <i>[!UICONTROL 105]</i>(더 이상 사용되지 않음) 또는 [!DNL Pinterest]의 <i>[!UICONTROL 106]</i>(더 이상 사용되지 않음)입니다. |

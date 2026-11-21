@@ -1,39 +1,44 @@
 ---
-title: 보고서 기본 정보
-description: 사용 가능한 다양한 보고서 유형 및 보고서 자동화 방법을 포함하여 성능 보고서에 대해 알아봅니다.
-exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
+title: (새 UI) 예약된 보고서 정보
+description: 사용 가능한 다양한 보고서 유형 및 보고서 자동화 방법을 포함하여 예약된 성능 보고서에 대해 알아봅니다.
 feature: Search Reports
-TQID: 'https://experienceleague.adobe.com/2Cw55tN9cx9vfc6sEHdOQfW5VcLIUZdbNtMkKdINkZM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
   - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
     internal-label: Search Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-    internal-label: Troubleshooting
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+subfeature_v2:
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
+    internal-label: Reports
+  - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
+  - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
+  - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
+  - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
+  - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+    internal-label: Specialty reports
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '857'
 ht-degree: 0%
 ---
-# 보고서 기본 정보
+# (새 UI) 예약된 보고서 정보
 
-성능 보고서를 사용하면 포트폴리오, 광고 네트워크 및 광고 네트워크 계정 엔터티의 성능을 원하는 수준으로 추적하고 관리할 수 있습니다. 대부분의 보고서는 각 마케팅 채널의 광고가 전체 전환율에 어떻게 기여하는지에 대한 완전한 가시성을 제공합니다.
+예약된 성능 보고서를 사용하면 포트폴리오, 광고 네트워크 및 광고 네트워크 계정 엔티티의 성능을 원하는 수준만큼 세부적으로 추적 및 관리할 수 있습니다. 대부분의 보고서는 각 마케팅 채널의 광고가 전체 전환율에 어떻게 기여하는지에 대한 완전한 가시성을 제공합니다.
 
-보고서의 데이터는 보고서를 실행할 때마다 동적으로 컴파일됩니다. 선택적으로 기존 보고서에서 새 보고서를 생성할 수 있습니다. 사용 가능한 보고서 매개 변수는 보고서 유형에 따라 다릅니다. 대부분의 보고서에서는 전체 보고서를 생성하는 대신 처음 50개 줄을 미리 볼 수 있는 옵션이 제공됩니다. 보고서를 생성할 때 보고서가 완료되면 하나 이상의 이메일 주소에 대한 다운로드 링크가 있는 알림을 보낼 수 있으며 받는 사람은 [[!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md)에서 알림을 관리할 수 있습니다.
+보고서의 데이터는 보고서를 실행할 때마다 동적으로 컴파일됩니다. 선택적으로 기존 보고서에서 새 보고서를 생성할 수 있습니다. 사용 가능한 보고서 매개 변수는 보고서 유형에 따라 다릅니다. 대부분의 보고서에서는 전체 보고서를 생성하는 대신 처음 50개 줄을 미리 볼 수 있는 옵션이 제공됩니다. 보고서를 생성할 때 보고서가 완료되면 하나 이상의 이메일 주소에 대한 다운로드 링크가 있는 알림을 보낼 수 있으며 받는 사람은 [[!UICONTROL Notification Center]](/help/search-social-commerce/common-tasks/notifications-manage.md)에서 알림을 관리할 수 있습니다.
 
 완료된 보고서는 모두 [!UICONTROL Reports] 보기의 [!UICONTROL Latest Reports] 섹션에서 사용할 수 있으며 브라우저 창에서 표 형식으로 보거나 열거나 파일로 다운로드할 수 있습니다.
 
 ## 사용 가능한 보고서 카테고리
 
-[!UICONTROL Reports] 보기에서 다음 보고서 범주를 사용할 수 있습니다. 모든 보고서에 대한 액세스 권한이 없을 수도 있습니다. 사용 가능한 보고서 및 보고서에서 생성하는 데이터는 사용자의 역할과 고객 계정이 구성되는 방식에 따라 결정됩니다.
+[!UICONTROL Reports] > [!UICONTROL Reports] 보기에서 다음 보고서 범주를 사용할 수 있습니다. 모든 보고서에 대한 액세스 권한이 없을 수도 있습니다. 사용 가능한 보고서 및 보고서에서 생성하는 데이터는 사용자의 역할과 고객 계정이 구성되는 방식에 따라 결정됩니다.
 
 | 보고서 범주 | 설명 |
 | ----| ---- |
@@ -47,15 +52,15 @@ ht-degree: 0%
 
 다음 방법 중 하나 또는 둘 다로 사용자 지정된 보고서가 자동으로 생성되도록 예약합니다.
 
-* [보고서 템플릿](/help/search-social-commerce/reports/automation/templates/template-about.md)을 사용하여 매일 또는 특정 요일 또는 달에 보고서를 자동으로 생성합니다.
+* [보고서 템플릿](/help/search-social-commerce/reports/report-templates-manage.md)을 사용하여 매일 또는 특정 요일 또는 달에 보고서를 자동으로 생성합니다.
 
-  템플릿을 사용하는 [기본 및 고급 보고서의 FTP 배달](/help/search-social-commerce/reports/automation/ftp-reports.md)을 선택적으로 설정할 수 있습니다.
+  템플릿을 사용하는 [기본 및 고급 보고서의 FTP 배달](/help/search-social-commerce/reports/ftp-reports.md)을 선택적으로 설정할 수 있습니다.
 
-* [스프레드시트 피드](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)를 사용하여 일일 성능 데이터로 사용자 지정된 스프레드시트 템플릿을 계속 새로 고칩니다.
+* [스프레드시트 피드](/help/search-social-commerce/reports/spreadsheet-feeds-manage.md)를 사용하여 일일 성능 데이터로 사용자 지정된 스프레드시트 템플릿을 계속 새로 고칩니다.
 
-## 보고서 보기
+## [!UICONTROL Reports] 보기
 
-[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Reports]의 [!UICONTROL Reports] 보기를 사용하면 보고서, 템플릿 및 스프레드시트 피드를 만들고 관리할 수 있습니다. 이 보기에는 두 개의 탭이 있습니다.
+[!UICONTROL Reports] > [!UICONTROL Reports] 보기를 통해 보고서, 템플릿 및 스프레드시트 피드를 만들고 관리할 수 있습니다. 이 보기에는 두 개의 탭이 있습니다.
 
 * **[!UICONTROL Latest Reports]** 탭에는 수동으로 삭제된 보고서를 제외하고 지난 7일 동안 요청한 사용 가능한 모든 보고서가 나열되며 가장 최근 보고서는 기본적으로 맨 위에 있습니다. 각 보고서에 대해 표시되는 정보에는 보고서 실행 일정(해당되는 경우), 데이터가 생성되었거나 생성될 시작 및 종료 날짜, 보고서 상태(*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* 또는 *[!UICONTROL Error]*)가 포함됩니다.
 
@@ -78,9 +83,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [보고서에 사용된 데이터](data-used-for-reports.md)
 >* [보고서에 대한 초기 설정 작업](initial-setup.md)
->* [기본 또는 고급 보고서 생성](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
->* [모델 정확도 보고서 생성](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-generate.md)
->* [전문 보고서 생성](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [지원 보고서 생성](/help/search-social-commerce/reports/management/assist/assist-report-generate.md)
+>* [보고서에 사용되는 데이터](data-used-for-reports.md)
+>* [예약된 보고서 관리](/help/search-social-commerce/reports/management/report-manage.md)

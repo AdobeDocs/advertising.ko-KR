@@ -1,0 +1,99 @@
+---
+title: 유효한 텍스트 광고 사본 작성
+description: 효과적인 광고 카피 작성을 위한 모범 사례에 대해 알아봅니다.
+exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
+feature: Search Best Practices
+TQID: 'https://experienceleague.adobe.com/GFofyYALATcgqvrjz-2SuI90ct0M-PzOoLtjmvL2Djo'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4448d932-c6c2-59c8-8d0c-d940413abe6b
+    internal-label: Search Best Practices
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 76a8d8b448441e4d7380ebc4f007aa8b5a2ab5f5
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 0%
+---
+# 유효한 텍스트 광고 사본 작성
+
+>[!TIP]
+>
+>포트폴리오의 캠페인에 대한 자세한 우수 사례는 최적화 안내서 > 포트폴리오 관리 > 포트폴리오 우수 사례 섹션을 참조하십시오. 이 섹션은 Search, Social 및 Commerce에서 사용할 수 있습니다.<!-- verify convention for referencing Optimization Guide here -->
+
+## 모든 광고 네트워크에 대한 일반 요구 사항
+
+>[!NOTE]
+>
+>전체 요구 사항은 허용되는 광고 사본에 대한 각 광고 네트워크의 정책을 참조하십시오.
+
+* 적절한 문법, 구두점, 맞춤법을 사용하십시오.
+
+* 모든 와이드 문자 및 더블바이트 문자는 행당 허용되는 문자 수를 줄입니다.
+
+* 광고의 각 단어에서 첫 번째 문자를 대문자로 사용하는 것이 허용됩니다. 그러나 어떤 단어가 이렇게 표기되지 않는 한 모든 대문자에 나타날 수는 없다. 예를 들어 &quot;MAC&quot;는 MAC 브랜드 광고에 허용되지만 &quot;NEW&quot;는 허용되지 않습니다.
+
+* 느낌표는 제목/제목에는 사용할 수 없지만 설명 줄에는 사용할 수 있습니다. 설명에는 하나만 허용됩니다.
+
+* `@,~,\, ^,>,<`과(와) 같은 특수 문자는 허용되지 않습니다.
+
+* 단축키 또는 기호를 사용하여 단어를 대체할 수 없습니다. 예를들어, &quot;U&quot;를 사용하여 &quot;you&quot;를 바꾸거나 &quot;`@`&quot;을(를) 사용하여 &quot;at&quot;를 바꿀 수 없습니다.
+
+* &quot;Best&quot; 또는 &quot;#1&quot;와 같은 상위 문구는 이 구분이 제3자에 의해 검증되고 검증이 귀하의 웹사이트에 명확하게 표시되지 않는 한 금지됩니다.
+
+* 고객이 해당 상표를 소유하고 상표가 표시된 항목이 랜딩 페이지에 표시되어야 하는 경우에만 상표 용어를 사용하십시오.
+
+* 부적절한 언어는 금지되어 있습니다.
+
+## 효과적인 광고에 대한 권장 사항
+
+* 잠재 고객을 유치하기 위해 강력한 헤드라인을 작성하십시오.
+
+* 헤드라인에 키워드를 포함하십시오. 대부분의 사람들이 이 키워드를 찾기 때문입니다. [1]
+
+* 의도한 대상을 위해 설계된 광고 복사본을 만듭니다.
+
+* 구체적인 광고를 제작하고, 사용자의 의도를 명확히 전달하며, 회사의 가치 제안을 포함하여 사용자가 광고를 클릭하고 사이트를 방문하도록 강제합니다.
+
+* 설명/본문에 제품, 서비스 및 기타 세부 정보(예: 프로모션)를 포함합니다.
+
+* 요점을 빠르게 파악하십시오. 먼저 비즈니스에 대한 가장 관련성 있는 정보를 포함하십시오.
+
+* 사용자가 판매 주기를 완료할 수 있도록 광고를 랜딩 페이지에 있는 오퍼와 연결합니다.
+
+* &#39;무료 배송&#39;, &#39;간편한 반품&#39;, &#39;무료 교환 및 매장 반품&#39;, &#39;무료 사은품&#39; 등의 문구를 사용해 클릭스루 비율을 높였다.
+
+* 할인을 제공하는 경우 구체적인 할인 금액 또는 비율을 포함합니다(예: &quot;20% 할인&quot; 또는 &quot;첫 구매에 $20 저장&quot;).
+
+* 가능하면 헤드라인/제목과 설명/본문의 두 줄 모두에서 키워드를 사용하십시오. [1]
+
+* 항상 &quot;보기&quot;, &quot;체크아웃&quot;, &quot;주문&quot; 또는 &quot;등록&quot;과 같은 텍스트에 call to action을 포함하여 클릭스루 비율을 높입니다. 이미지 광고의 경우 웹 사이트에 연결되는 버튼에 call to action을 포함하고, 리치 미디어 광고의 경우 초기 프레임에 call to action을 포함합니다.
+
+* 광고주가 자신의 브랜드를 어떻게 인식하기를 원하는지에 민감하게 반응하라. 예를 들어 광고주는 &quot;cheap&quot;라는 단어가 광고에 표시되는 것을 원하지 않을 수 있습니다.
+
+* 경쟁업체가 무엇을 하고 있는지 알아봅니다. 스페이스의 맨 위 광고(www.spyfu.com 등 사이트)를 보고 어떤 광고가 작동하는지 파악하십시오.
+
+[1]: 키워드 삽입을 사용하는 경우 삽입 코드에 올바른 대소문자를 사용하십시오.
+
+`{keyword:default}` = 잔디 깎는 기계
+
+`{Keyword:default}` = 잔디 깎는 기계
+
+`{KeyWord:default}` = 잔디 깎는 기계
+
+`{KEYWord:default}` = 잔디 깎는 기계(&quot;LAWN&quot;이 브랜드인 경우에만 허용됨)
+
+`{KeyWORD:default}` = 잔디 깎는 기계(&quot;깎는 기계&quot;가 브랜드인 경우에만 허용됨)
+
+`{KEYWORD:default}` = 잔디 깎는 기계(&quot;잔디 깎는 기계&quot;가 브랜드인 경우에만 허용됨)
+
+>[!MORELIKETHIS]
+>
+>* [보고서를 분석하여 키워드와 캠페인 설정을 세분화](best-practices-analyze.md)
+>* [웹 사이트 랜딩 페이지 최적화](best-practices-optimize.md)

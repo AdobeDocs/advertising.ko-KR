@@ -1,9 +1,8 @@
 ---
-source-git-commit: 119280f9a8ceffc1bdbc534b4b80f6fa268ceea3
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
-
 ---
 # 텍스트 광고 템플릿 - 초기 예산
 
@@ -11,4 +10,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[포트폴리오에 캠페인을 추가](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)하고 &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;에 포트폴리오 옵션을 사용하도록 설정하여 Search, Social 및 Commerce에서 자동으로 예산을 조정하여 전체 포트폴리오에 대한 지출을 최적화하도록 합니다.
+>[포트폴리오에 캠페인을 추가](/help/search-social-commerce/legacy-ui/campaign-management/campaign-assign-to-portfolio.md)하고 &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;에 포트폴리오 옵션을 사용하도록 설정하여 Search, Social 및 Commerce에서 자동으로 예산을 조정하여 전체 포트폴리오에 대한 지출을 최적화하도록 합니다.

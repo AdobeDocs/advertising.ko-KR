@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '3529'
 ht-degree: 0%
@@ -212,7 +212,7 @@ The following is an example of a workspace to track clicks to instances.
 
 * 계정 또는 하위 수준에 대한 클릭 추적이 누락되었거나 중복 클릭 추적이 있습니까(예: 계정 및 캠페인 수준 모두에서)?
 
-  검색, 소셜 및 Commerce에서 추적 URL을 확인하기 위해 계정에 대한 [일괄 시트를 다운로드](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)합니다.
+  검색, 소셜 및 Commerce에서 추적 URL을 확인하기 위해 계정에 대한 [일괄 시트를 다운로드](/help/search-social-commerce/set-up/bulksheets/download.md)합니다.
 
   또한 [!DNL Analytics]에서 AMO ID 및 EF IF가 다음과 같이 계산된 &quot;[!DNL AMO ID] ~ [!DNL EF ID]&quot; 계산된 지표를 사용하여 일관되게 추가되었는지 확인할 수 있습니다.
 

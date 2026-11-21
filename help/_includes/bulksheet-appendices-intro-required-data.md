@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -13,4 +13,4 @@ ht-degree: 0%
 >* 모든 텍스트 열의 값은 대/소문자를 구분합니다.
 >* 새 레코드를 만들 때 모든 필수 데이터 필드에 대한 값을 포함하지 않으면 일부 필드에 지정된 기본값이 할당됩니다.
 >* 아래에 지정되지 않은 필드의 경우, 광고 네트워크의 기본값이 사용됩니다.
->* [!UICONTROL Download Bulksheet] 대화 상자에서 사용 가능한 일괄 시트 행 목록을 보려면 &quot;[광고 네트워크별 일괄 시트 행](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)&quot;을 참조하십시오.
+>* [!UICONTROL Download Bulksheet] 대화 상자에서 사용 가능한 일괄 시트 행 목록을 보려면 &quot;[광고 네트워크별 일괄 시트 행](/help/search-social-commerce/legacy-ui/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)&quot;을 참조하십시오.

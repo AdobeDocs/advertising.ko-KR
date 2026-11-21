@@ -1,0 +1,52 @@
+---
+title: 지원 보고서 정보
+description: 전환 경로에 대한 통찰력을 제공하는 보고서에 대해 알아봅니다.
+exl-id: 0962c8b1-0116-480a-8253-4e8488fec77c
+feature: Search Reports, Search Assist Reports
+TQID: 'https://experienceleague.adobe.com/dLbcQJUfyS6mDTWvujCrizdO57nXSEaMAek7hup3rlE'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 0%
+---
+# 지원 보고서 정보
+
+*검색, 소셜 및 Commerce 클릭 추적 및 Adobe Advertising, Adobe Analytics([!DNL Analytics] 통합 포함)의 전환 추적을 사용하거나 토큰(`ef_id`)만 사용하여 피드에 제공된 광고주*
+
+지원 보고서는 광고주의 모든 키워드 및 광고에 대한 전환 경로에 대한 통찰력을 제공합니다. 지원 보고서는 Adobe Advertising 전환 추적 서비스, Adobe Analytics 전환 추적 및 토큰(`ef_id`)을 포함하는 피드 파일을 통해 캡처한 데이터를 사용하며 해당 서비스를 사용하는 광고주에게만 생성될 수 있습니다.
+
+>[!NOTE]
+>
+>* 전환 경로는 여러 포트폴리오와 교차할 수 있습니다.
+>* Adobe Advertising은 전환 전에 항상 각 웹 서퍼에 대해 다음 이벤트를 저장합니다. a) 첫 번째 유료 클릭, b) 첫 번째 클릭을 포함하여 각 채널(검색, 소셜 또는 디스플레이)에 대해 최대 10개의 클릭 및 c) 최대 10개의 디스플레이 노출.
+
+## 지원 보고서 유형
+
+* [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/legacy-ui/reports/management/assist/campaign-assist-report.md)
+
+* [[!UICONTROL Channel Assist Report]](/help/search-social-commerce/legacy-ui/reports/management/assist/channel-assist-report.md)
+
+* [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/legacy-ui/reports/management/assist/keyword-assist-report.md)
+
+>[!MORELIKETHIS]
+>
+>* [[!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
+>* [[!UICONTROL Channel Assist Report]](channel-assist-report.md)
+>* [[!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
+>* [보고서 설정 지원](assist-report-settings.md)
+>* [지원 보고서 생성](assist-report-generate.md)
+>* [보고서 정보](/help/search-social-commerce/legacy-ui/reports/report-about.md)

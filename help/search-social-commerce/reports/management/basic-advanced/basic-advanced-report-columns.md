@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -137,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Exclude (yes/no)] | 일치하는 제품에 대한 광고에 입찰이 제외되었는지(<i>[!UICONTROL Yes]</i>) 또는 입찰이 허용되었는지(<i>[!UICONTROL No]</i>) 여부. |
 | [!UICONTROL First Page CPC] | (Google 캠페인만 해당) 지정된 날짜 범위 동안 검색 결과의 첫 페이지에 표시되는 광고의 클릭당 비용(CPC)입니다. |
 | [!UICONTROL Frequency] | ([!DNL Meta] 캠페인만 해당) 누군가 내 광고를 본 평균 횟수입니다. |
-| `GGL*`, `GGL_CT*` 및 `GGL_XD_CT*` [[!DNL Google Ads] 추적 전환] | ( 검색 및 쇼핑 네트워크의 [!DNL Google Ads]개 캠페인) 각 전환에 대해 최대 3개의 개별 지표가 있는 [!DNL Google Ads]개의 추적된 전환:<ul><li>`GGL*` — (추적할 때) &quot;GGL&quot; 접두사로 시작하는 키워드에 대한 전환 값(예: GGL 구매)입니다.</li><li>`GGL_CT*` — &quot;GGL_CT&quot; 접두사로 시작하는 전환 수(개수)(예: GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (전환 유형에 사용 가능한 경우, 추적할 때) &quot;GGL_XD_CT_&quot; 접두사로 시작하는 [!DNL Google Ads]로 측정되는 교차 장치 전환 수(개수)입니다(예: GGL_XD_CT_Purchase).</li></ul><br>각 전환은 입찰 단위와 클릭 날짜별로 기록되며 이벤트 수준에서 사용할 수 없습니다. [!DNL Google Ads]개의 추적된 전환에 대한 자세한 내용은 &quot;[[!DNL Google Ads] 검색, 소셜 및 Commerce의 전환 데이터](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)&quot;를 참조하십시오. |
+| `GGL*`, `GGL_CT*` 및 `GGL_XD_CT*` [[!DNL Google Ads] 추적 전환] | ( 검색 및 쇼핑 네트워크의 [!DNL Google Ads]개 캠페인) 각 전환에 대해 최대 3개의 개별 지표가 있는 [!DNL Google Ads]개의 추적된 전환:<ul><li>`GGL*` — (추적할 때) &quot;GGL&quot; 접두사로 시작하는 키워드에 대한 전환 값(예: GGL 구매)입니다.</li><li>`GGL_CT*` — &quot;GGL_CT&quot; 접두사로 시작하는 전환 수(개수)(예: GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (전환 유형에 사용 가능한 경우, 추적할 때) &quot;GGL_XD_CT_&quot; 접두사로 시작하는 [!DNL Google Ads]로 측정되는 교차 장치 전환 수(개수)입니다(예: GGL_XD_CT_Purchase).</li></ul><br>각 전환은 입찰 단위와 클릭 날짜별로 기록되며 이벤트 수준에서 사용할 수 없습니다. [!DNL Google Ads]개의 추적된 전환에 대한 자세한 내용은 &quot;[[!DNL Google Ads] 검색, 소셜 및 Commerce의 전환 데이터](/help/search-social-commerce/tracking/google-conversion-data.md)&quot;를 참조하십시오. |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads]만 해당) 유기 검색 결과 위에 첫 번째 광고로 표시되는 광고 노출 비율입니다. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads]만 해당) 유기 검색 결과 위에 표시되는 광고 노출 비율입니다. |
 | [!UICONTROL Impressions] | 지정된 날짜 범위 동안의 광고 노출 횟수입니다. |
@@ -228,5 +228,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [기본 및 고급 보고서 정보](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
->* [기본 또는 고급 보고서 생성](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [기본 또는 고급 보고서 생성](/help/search-social-commerce/reports/management/report-manage.md#generate-a-new-report)
 >* [기본 및 고급 보고서 설정](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)

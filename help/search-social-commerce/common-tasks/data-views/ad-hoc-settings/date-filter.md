@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -94,7 +94,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* 이전 13개월의 데이터를 볼 수 있지만 기존의 모든 사용자 지정 보기에는 이전 180일까지의 데이터만 포함할 수 있습니다.
->* 이전 데이터를 보려면 [[!UICONTROL Reports] 보기](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)(으)로 이동하여 기본 보고서를 실행하십시오.
+>* 이전 데이터를 보려면 [[!UICONTROL Reports] 보기](/help/search-social-commerce/legacy-ui/reports/management/basic-advanced/basic-advanced-report-about.md)(으)로 이동하여 기본 보고서를 실행하십시오.
 >* [기본 보기 또는 사용자 지정 보기](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)에 대한 날짜 범위를 저장할 수도 있습니다.
 
 ## (기존 UI) 캠페인 보기에서 전역 날짜 필터를 변경합니다

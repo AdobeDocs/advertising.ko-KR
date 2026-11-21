@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -151,7 +151,7 @@ EF ID에는 Analysis Workspace의 500k 고유 식별자 제한이 적용됩니�
 
     * 계정 또는 캠페인에 대해 [!UICONTROL Auto Upload] 설정이 활성화된 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정의 경우, 최종 사용자가 Adobe Advertising 픽셀이 있는 광고를 클릭하면 픽셀 서버가 랜딩 페이지 접미사에 s_kwcid 매개 변수를 자동으로 추가합니다.
 
-    * 다른 광고 네트워크나 [!UICONTROL Auto Upload] 설정이 비활성화된 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정의 경우 [계정 수준 추가 매개 변수](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}에 매개 변수를 수동으로 추가하여 기본 URL에 추가합니다.
+    * 다른 광고 네트워크나 [!UICONTROL Auto Upload] 설정이 비활성화된 [!DNL Google Ads] 및 [!DNL Microsoft Advertising] 계정의 경우 [계정 수준 추가 매개 변수](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}에 매개 변수를 수동으로 추가하여 기본 URL에 추가합니다.
 
 * 서버측 삽입 기능이 구현되지 않은 경우:
 
@@ -163,9 +163,9 @@ EF ID에는 Analysis Workspace의 500k 고유 식별자 제한이 적용됩니�
 
   * 검색, 소셜 및 Commerce 고객:
 
-    * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 광고의 경우 개별 계정 구성 요소에 대해 다른 추적이 필요하지 않으면 AMO ID 매개 변수를 랜딩 페이지 접미사에 수동으로 추가하십시오(이상적으로는 [계정 수준](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}에서).
+    * ([!DNL Google Ads] 및 [!DNL Microsoft Advertising]) 광고의 경우 개별 계정 구성 요소에 대해 다른 추적이 필요하지 않으면 AMO ID 매개 변수를 랜딩 페이지 접미사에 수동으로 추가하십시오(이상적으로는 [계정 수준](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}에서).
 
-    * 다른 모든 광고 네트워크에 있는 광고의 경우 AMO ID 매개 변수를 [계정 수준 추가 매개 변수](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}에 수동으로 추가하여 기본 URL에 추가합니다.
+    * 다른 모든 광고 네트워크에 있는 광고의 경우 AMO ID 매개 변수를 [계정 수준 추가 매개 변수](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}에 수동으로 추가하여 기본 URL에 추가합니다.
 
 서버측 삽입 기능을 구현하거나 비즈니스에 가장 적합한 옵션을 결정하려면 Adobe 계정 팀에 문의하십시오.
 

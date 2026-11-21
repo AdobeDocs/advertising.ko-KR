@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 0%
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 **전환 추적:** 전환 추적은 쿠키를 사용하여 a) 광고 네트워크에서 광고주의 광고 클릭수 및 b) 광고주의 웹 사이트에서 결과 트랜잭션을 추적합니다.
 
-**비용 정확도:**(포트폴리오가 있는 광고주) 포트폴리오의 실제 지출을 예측된 지출로 나눕니다. [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 최적화에 사용되는 비용 모델의 정확도를 나타내며 [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)에는 모델 정확도를 개선하기 위한 권장 사항과 함께 자세한 내용이 포함되어 있습니다.
+**비용 정확도:**(포트폴리오가 있는 광고주) 포트폴리오의 실제 지출을 예측된 지출로 나눕니다. [모델 정확도 보고서](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md)는 최적화에 사용되는 비용 모델의 정확도를 나타내며 [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md)에는 모델 정확도를 개선하기 위한 권장 사항과 함께 자세한 내용이 포함되어 있습니다.
 
 **비용 모델:**(포트폴리오가 있는 광고주) 검색, 비용 양, 각 위치 또는 배치를 얻는 데 필요한 입찰, 기록 데이터 및 수학 예측 기술을 사용하여 각 입찰 단위에 대한 CPC(검색) 또는 CPM(디스플레이)를 예측하는 소셜 및 Commerce 기술.
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 
 **투자 수익률:**(ROI) 매출에서 비용을 뺀 금액입니다.
 
-**수익 정확도:**(포트폴리오가 있는 광고주) 포트폴리오의 실제 수익을 예상 수익으로 나눕니다. [모델 정확도 보고서](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)는 최적화에 사용되는 수익 모델의 정확도를 나타내며 [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md)에는 모델 정확도를 개선하기 위한 권장 사항과 함께 자세한 내용이 포함되어 있습니다.
+**수익 정확도:**(포트폴리오가 있는 광고주) 포트폴리오의 실제 수익을 예상 수익으로 나눕니다. [모델 정확도 보고서](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md)는 최적화에 사용되는 수익 모델의 정확도를 나타내며 [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md)에는 모델 정확도를 개선하기 위한 권장 사항과 함께 자세한 내용이 포함되어 있습니다.
 
 **매출 모델:**(포트폴리오가 있는 광고주) 클릭 데이터(검색 및 소셜) 또는 노출 데이터(디스플레이)와 광고주의 전환 데이터를 기반으로 각 입찰 단위에 대한 전환율과 예상 수익을 예측하는 검색, 소셜 및 Commerce 기술.
 

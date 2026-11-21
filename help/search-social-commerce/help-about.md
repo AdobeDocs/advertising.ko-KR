@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5c536fc9d8cd09a0cdaad5c0be1d801eefeade0c
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '223'
 ht-degree: 0%
 ---
 # 이 안내서 정보
@@ -35,20 +35,23 @@ ht-degree: 0%
 
 * &quot;시작하기&quot;에서는 초기 론치 설정부터 지속적인 관리 작업 수행까지 광고주 구현에 관련된 주요 작업과 사용자 인터페이스가 구성되는 방식을 설명합니다.
 
-* &quot;일반적인 작업&quot;에서는 정보 요구 사항 및 환경 설정을 기반으로 다양한 성능 데이터 보기를 구성하는 방법, 사용자 지정 지표를 관리하는 방법, 레이블 분류 및 입찰 제한을 관리하는 방법, 기타 일반적인 작업을 수행하는 방법에 대해 설명합니다.
+* &quot;일반 작업&quot;에서는 정보 요구 사항 및 환경 설정을 기반으로 다양한 성능 데이터 보기를 구성하는 방법, 사용자 지정 지표를 관리하는 방법, 경고 및 알림을 관리하는 방법 및 기타 일반 작업을 수행하는 방법에 대해 설명합니다.
 
-* &quot;새 UI&quot;에서는 새 사용자 인터페이스에서 수행할 수 있는 작업, 즉 목표 관리, 시뮬레이션 실행, 포트폴리오 관리, 포트폴리오에서 캠페인 할당 및 제거, 캠페인 및 광고 그룹에 대한 제한 할당 또는 제거 방법에 대해 설명합니다. 아래의 &quot;참고&quot;를 참조하십시오.
+* 다음 장에서는 새 사용자 인터페이스의 기본 메뉴 옵션에 대한 기능을 설명합니다. &quot;[!UICONTROL Dashboard]&quot;, &quot;[!UICONTROL Manage]&quot;, &quot;[!UICONTROL Reports]&quot;, &quot;[!UICONTROL Plan]&quot;, &quot;[!UICONTROL Setup]&quot;, &quot;[!UICONTROL Goals]&quot;, &quot;[!UICONTROL Targeting]&quot; 및 &quot;[!UICONTROL Library]&quot;.
+
+  각 장에 대한 자세한 내용은 &quot;[사용자 인터페이스를 구성하는 방법](/help/search-social-commerce/getting-started/user-interface.md)&quot;을 참조하십시오.
 
 * &quot;추적&quot;은 광고 및 키워드에 대한 클릭 및 전환 추적을 설정하는 방법을 설명합니다.
 
-* &quot;캠페인 관리&quot;에서는 광고 네트워크 계정에 대한 캠페인 구성 요소를 설정하고 관리하는 방법을 설명합니다.
+* &quot;레거시 사용자 인터페이스&quot;에서는 [레거시 사용자 인터페이스](/help/search-social-commerce/getting-started/ui-switch.md)에서 수행할 수 있는 작업에 대해 설명합니다.
 
-* &quot;인사이트 및 보고서&quot;에서는 광고 인사이트 생성, 세부 보고서 생성 및 보고서 프로덕션 자동화, 경고 생성 및 모니터링, 광고주 계정에 대한 변경 사항 로그 보기, 계정에 대해 광고 네트워크에서 생성한 권장 사항 보기 및 적용 방법을 설명합니다.
-
-* &quot;도구&quot;에서는 암호를 변경하고, 도구를 사용하여 클릭 추적 및 전환 추적 태그를 생성하고, 전환 지표를 [!DNL Google Ads]에 업로드하고, 포트폴리오 목표를 하이브리드 최적화를 위해 광고 네트워크에 업로드하고, 추적 캠페인을 위한 지표를 업로드하고, [!DNL Microsoft Advertising] 계정에서 [!DNL Google Ads] 캠페인을 복제하는 방법에 대해 설명합니다.
-
-* &quot;관리&quot;에서는 수집된 전환 지표 및 포트폴리오 예측에서 제외할 날짜를 포함하여 광고주 데이터를 관리하는 방법, [!DNL Google Analytics] 계정에서 전환 지표를 동기화하는 방법, 다양한 광고주 수준 설정을 구성하는 방법, (일부 역할) 사용자, 에이전시 및 광고주 계정을 관리하는 방법에 대해 설명합니다.
+  이러한 작업의 대부분은 새 사용자 인터페이스에서도 사용할 수 있습니다.
 
 >[!NOTE]
 >
 >기존 사용자 인터페이스에서 입찰에 포트폴리오 사용을 포함하여 최적화에 대한 추가 도움말은 Search, Social 및 Commerce 내 모든 페이지의 오른쪽 상단에 있는 [!UICONTROL Help] 메뉴(![도움말 메뉴](/help/search-social-commerce/assets/help-main-menu.png "도움말 메뉴"))에서 사용할 수 있습니다.
+
+>[!MORELIKETHIS]
+>
+>* [사용자 인터페이스를 구성하는 방법](/help/search-social-commerce/getting-started/user-interface.md)
+>* [새 사용자 인터페이스와 기존 사용자 인터페이스 간 전환](/help/search-social-commerce/getting-started/ui-switch.md)
