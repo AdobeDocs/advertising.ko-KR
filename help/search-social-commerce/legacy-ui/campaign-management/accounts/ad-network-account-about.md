@@ -53,4 +53,4 @@ Search, Social 및 Commerce은 지원되는 광고 네트워크 계정과 동기
 >
 >* [광고 네트워크 계정 관리](ad-network-account-manage.md)
 >* [판매자 센터 계정 관리](merchant-account-manage.md)
->* [계정 [!DNL Google Ads] 2}에 대한 AMO ID 추적 코드 업데이트](update-amo-id-google.md)
+>* [계정 [!DNL Google Ads] 2&rbrace;에 대한 AMO ID 추적 코드 업데이트](update-amo-id-google.md)

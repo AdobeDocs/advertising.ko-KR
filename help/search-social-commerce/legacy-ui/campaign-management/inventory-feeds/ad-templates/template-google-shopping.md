@@ -71,7 +71,7 @@ ht-degree: 0%
 
 **[!UICONTROL Campaign Tracking Template]:**(클라이언트 피드 파일 템플릿에 대한 선택 사항) 모든 랜딩 도메인 리디렉션 및 추적 매개 변수를 지정하고 매개 변수에 최종 URL을 임베드하는 캠페인 수준 추적 템플릿입니다. 이 값은 계정 수준 설정을 무시하지만, 더 세분화된 수준에서(키워드를 가장 세분화된 수준으로) 추적 템플릿이 이 값을 무시합니다.
 
-캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우  [!DNL Google Ads] 쇼핑 캠페인](/help/search-social-commerce/tracking/formats-click-tracking-google.md)에 대해 [추적 템플릿 형식을 사용하십시오. 전체 계정이 쇼핑 광고 전용인 경우 대신 계정 수준에서 추적 템플릿을 정의할 수 있습니다.
+캠페인 설정에 &quot;[!UICONTROL EF Redirect]&quot; 및 &quot;[!UICONTROL Auto Upload]&quot;이(가) 포함된 경우 적용되는 Adobe Advertising 전환 추적의 경우  [!DNL Google Ads] 쇼핑 캠페인[&#128279;](/help/search-social-commerce/tracking/formats-click-tracking-google.md)에 대해 추적 템플릿 형식을 사용하십시오. 전체 계정이 쇼핑 광고 전용인 경우 대신 계정 수준에서 추적 템플릿을 정의할 수 있습니다.
 
 서드파티 리디렉션 및 추적의 경우 값을 입력합니다.
 
